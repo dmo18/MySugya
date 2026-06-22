@@ -1,0 +1,1133 @@
+{
+  "canonicalRef": "Yoma 81a",
+  "summary": "Tractate Yoma daf 81a covers: Chewing unground barley of teruma without swallowing: does it count as eating?; Food and drink do not combine toward the eating or drinking measure; Mishna: if one ate and drank in one period of unawareness, one atonement covers both; YK and Shabbat: how the labor prohibition on YK compares to Shabbat.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-081a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 3
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.81a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.81a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.81a.1",
+        "Yoma.81a.2"
+      ],
+      "display": {
+        "whats": "Chewing unground barley of teruma without swallowing: does it count as eating?",
+        "hint": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes."
+      },
+      "learning": {
+        "summary": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes.",
+        "ahaMoment": "Chewing teruma barley: even inadvertent consumption has legal status, but swallowing is the decisive act for eating liability.",
+        "memoryAnchor": "Chewing teruma: the act without the swallow is not the eating the Torah prohibits.",
+        "openQuestion": "What is the deeper significance of the ruling about chewing unground barley of teruma without swallowing: does i?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Why is chewing raw barley not 'eating'?",
+          "speaker": "Gemara",
+          "text": "A non-priest who chews raw barley of teruma pays back the principal but not the added fifth, because the Torah's word 'eats' (Leviticus 22:14) excludes one who merely harms himself - swallowing unprocessed barley is treated as self-damage, not normal eating.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "analysis",
+          "label": "Vomited plums and the chain of liability",
+          "speaker": "Gemara",
+          "text": "Rav Sheizvi in the name of Rabbi Yochanan: if a non-priest swallows whole teruma plums and vomits them up, and a second person then eats them, the first pays principal plus a fifth (he benefited and thereby acquired them), while the second only owes the first the value of the plums as fuel, since once vomited they are fit only for burning.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l03",
+              "vilnaLine": 3
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "chewing",
+        "teruma",
+        "eating liability",
+        "swallowing"
+      ],
+      "concepts": {
+        "halachic": [
+          "chewing",
+          "teruma"
+        ],
+        "theological": [
+          "Chewing teruma barley: even inadvertent consumption has legal status, but swallo"
+        ],
+        "narrative": [
+          "Chewing unground barley of teruma without swallowing: does i"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of chewing context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The added fifth is a flat penalty for any misuse of teruma.",
+          "correction": "The fifth applies only to normal 'eating' of teruma; abnormal consumption that counts as self-harm, like chewing raw barley, obligates only the principal."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Chewing unground barley of teruma without swallowi"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why does one who chews raw teruma barley pay only the principal and not the added fifth?",
+          "answer": "Because the verse says 'eats,' which excludes self-harm; chewing unprocessed barley counts as damaging oneself, not as eating teruma in the normal way."
+        },
+        {
+          "question": "Why does the second person who eats the vomited plums owe only the value of wood?",
+          "answer": "Once the first person swallowed and vomited them, the plums are no longer food but only fit for fuel, so the second person damaged only their value as firewood."
+        }
+      ],
+      "finalRuling": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-081a-s02",
+      "lineRange": {
+        "startVilnaLine": 6,
+        "endVilnaLine": 14
+      },
+      "lines": [
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.81a.3"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.81a.4"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.81a.5"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.81a.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.81a.3",
+        "Yoma.81a.4",
+        "Yoma.81a.5",
+        "Yoma.81a.6"
+      ],
+      "display": {
+        "whats": "Food and drink do not combine toward the eating or drinking measure",
+        "hint": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid."
+      },
+      "learning": {
+        "summary": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid.",
+        "ahaMoment": "Food and drink are legally separate categories - they measure different kinds of pleasure and therefore cannot combine.",
+        "memoryAnchor": "Food and drink stay separate: two categories, two measures, never combined.",
+        "openQuestion": "What is the deeper significance of the ruling about food and drink do not combine toward the eating or drinking ?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Who taught that food and drink do not combine?",
+          "speaker": "Gemara",
+          "text": "The Mishnah ruled that eating and drinking do not combine to reach the measure of liability on Yom Kippur. Rav Chisda says this follows Rabbi Yehoshua, who held that two substances combine only when their type of impurity and their measure are identical.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "proof",
+          "label": "Rabbi Yehoshua's impurity principle",
+          "speaker": "Gemara",
+          "text": "Rabbi Yehoshua's rule: items that share both their kind of impurity and their measure combine; if they differ in either impurity-type or measure, they do not. Applied here, eating and drinking have different liability measures, so on Rav Chisda's reading the Mishnah must be Rabbi Yehoshua.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l10",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "elaboration",
+          "label": "Rav Nachman: even the Rabbis agree here",
+          "speaker": "Gemara",
+          "text": "Rav Nachman counters that the Mishnah can even follow the Rabbis. The Rabbis only allowed differing items to combine for impurity, because impurity is one unified concept. But Yom Kippur liability rests on 'settling the mind,' and eating combined with drinking does not settle the mind together, so they do not combine.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "conclusion",
+          "label": "Reish Lakish and Rabbi Yochanan restate the split",
+          "speaker": "Gemara",
+          "text": "Reish Lakish aligns with Rav Chisda, reading the Mishnah as Rabbi Yehoshua; Rabbi Yochanan aligns with Rav Nachman, saying it can even be the Rabbis, since the YK measure is about settling the mind, which the eating-drinking mix does not accomplish.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l14",
+              "vilnaLine": 14
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "food and drink",
+        "combination",
+        "measures",
+        "YK liability"
+      ],
+      "concepts": {
+        "halachic": [
+          "food and drink",
+          "combination"
+        ],
+        "theological": [
+          "Food and drink are legally separate categories - they measure different kinds of"
+        ],
+        "narrative": [
+          "Food and drink do not combine toward the eating or drinking "
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of food and drink context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Eating and drinking stay separate because they are physically different acts.",
+          "correction": "The real reason is the liability measure: each has its own shiur, and combining them does not produce the 'settling of the mind' that the Yom Kippur prohibition is measured by."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Food and drink do not combine toward the eating or"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "On what basis does Rav Chisda say eating and drinking do not combine on Yom Kippur?",
+          "answer": "He reads the Mishnah as Rabbi Yehoshua, who holds that items combine only if they share both their impurity-type and their measure; since eating and drinking have different measures, they do not combine."
+        },
+        {
+          "question": "How does Rav Nachman reconcile the Mishnah with the Rabbis' view?",
+          "answer": "The Rabbis only let differing items combine for impurity, which is one concept; but Yom Kippur liability depends on 'settling the mind,' and eating plus drinking does not settle the mind, so even the Rabbis would keep them separate."
+        }
+      ],
+      "finalRuling": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-081a-s03",
+      "lineRange": {
+        "startVilnaLine": 17,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.81a.7"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.81a.8"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.81a.9"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.81a.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.81a.7",
+        "Yoma.81a.8",
+        "Yoma.81a.9",
+        "Yoma.81a.10"
+      ],
+      "display": {
+        "whats": "Mishna: if one ate and drank in one period of unawareness, one atonement covers both",
+        "hint": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act."
+      },
+      "learning": {
+        "summary": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act.",
+        "ahaMoment": "One atonement for both eating and drinking in one lapse of awareness: the Torah shows mercy on human fallibility.",
+        "memoryAnchor": "Eating and drinking in one unawareness: one mistake, one atonement.",
+        "openQuestion": "What is the deeper significance of the ruling about mishna: if one ate and drank in one period of unawareness, o?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Mishnah: one sin-offering, and exempt foods",
+          "speaker": "Mishnah",
+          "text": "Eating and drinking within one lapse of awareness brings only one sin-offering, but eating plus performing labor brings two, since they are separate prohibitions. Eating food unfit to eat, drinking unfit liquids, or drinking fish brine carries no liability, since that is not the normal way of eating or drinking.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Why no explicit warning against eating?",
+          "speaker": "Mishnah",
+          "text": "Reish Lakish asks why the Torah never states an outright prohibition against eating on Yom Kippur. He answers it could not be phrased cleanly: 'do not eat' would set the measure at an olive-bulk rather than the actual date-bulk, and 'do not be afflicted' would perversely mean 'get up and eat.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l20",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "distinction",
+          "label": "Failed attempts to phrase the prohibition",
+          "speaker": "Mishnah",
+          "text": "Rav Hoshaya suggests 'guard lest you not be afflicted,' but that piles up too many negative terms. Rav Beivai suggests 'guard yourself in the mitzva of affliction,' but 'guard' attached to a positive command yields only a positive mitzva, not a prohibition.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "conclusion",
+          "label": "Rav Ashi's wording is left as a difficulty",
+          "speaker": "Mishnah",
+          "text": "Rav Ashi proposes 'do not stray from afflicting yourself,' which would clearly express a prohibition. The Gemara concedes this is a genuine difficulty: the Torah could in fact have written it this way, so Reish Lakish's claim that no clean phrasing exists is left unresolved.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l23",
+              "vilnaLine": 23
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "eating and drinking",
+        "unawareness",
+        "atonement",
+        "Mishna"
+      ],
+      "concepts": {
+        "halachic": [
+          "eating and drinking",
+          "unawareness"
+        ],
+        "theological": [
+          "One atonement for both eating and drinking in one lapse of awareness: the Torah "
+        ],
+        "narrative": [
+          "Mishna: if one ate and drank in one period of unawareness, o"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of eating and drinking context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Drinking fish brine is permitted on Yom Kippur because it is not really food.",
+          "correction": "It is not that brine is permitted; rather one is exempt from the sin-offering because drinking brine is not the normal manner of drinking, just as eating inedible food is not normal eating."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Mishna: if one ate and drank in one period of unaw"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why does eating plus labor bring two sin-offerings while eating plus drinking brings only one?",
+          "answer": "Eating and drinking are two facets of the single affliction prohibition, so they share one liability; labor is an entirely separate prohibition, so combining it with eating violates two distinct mitzvot."
+        },
+        {
+          "question": "What is Reish Lakish's claim, and why does Rav Ashi's suggestion leave it difficult?",
+          "answer": "Reish Lakish says the Torah could not phrase an explicit eating-prohibition cleanly; Rav Ashi's 'do not stray from afflicting yourself' shows a workable wording does exist, leaving Reish Lakish's claim unresolved."
+        }
+      ],
+      "finalRuling": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-081a-s04",
+      "lineRange": {
+        "startVilnaLine": 26,
+        "endVilnaLine": 48
+      },
+      "lines": [
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.81a.11"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.81a.12"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.81a.13"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.81a.14"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.81a.15"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.81a.16"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.81a.17"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.81a.18"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.81a.19"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.81a.20"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.81a.21"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.81a.22"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.81a.11",
+        "Yoma.81a.12",
+        "Yoma.81a.13",
+        "Yoma.81a.14",
+        "Yoma.81a.15",
+        "Yoma.81a.16",
+        "Yoma.81a.17",
+        "Yoma.81a.18",
+        "Yoma.81a.19",
+        "Yoma.81a.20",
+        "Yoma.81a.21",
+        "Yoma.81a.22"
+      ],
+      "display": {
+        "whats": "YK and Shabbat: how the labor prohibition on YK compares to Shabbat",
+        "hint": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two."
+      },
+      "learning": {
+        "summary": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two.",
+        "ahaMoment": "YK labor prohibition resembles Shabbat but has its own character - both are called 'Shabbat' in the Torah, creating interesting parallels.",
+        "memoryAnchor": "YK and Shabbat: two days both called 'Shabbat', two sets of parallel rules.",
+        "openQuestion": "What is the deeper significance of the ruling about yk and shabbat: how the labor prohibition on yk compares to ?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "comparison",
+          "label": "Verse pairs affliction and labor",
+          "speaker": "Gemara",
+          "text": "A tanna derives the affliction laws from 'you shall afflict your souls, you shall do no manner of labor' (Numbers 29:7), and the baraita works through which extensions of the day carry karet, lashes, or neither.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l26",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "derivation",
+          "label": "Karet only on the day itself, not the extension of labor",
+          "speaker": "Gemara",
+          "text": "One might think labor during the pre-YK extension carries karet; 'on that same day' (Leviticus 23:30) teaches that karet applies only to the day itself, not to the added time before it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l29",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "elaboration",
+          "label": "Same limit for the extension of affliction",
+          "speaker": "Gemara",
+          "text": "One might think failing to afflict oneself during the extension carries karet; 'on that same day' (Leviticus 23:29) teaches that karet for non-affliction also applies only to the day itself.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l32",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "analysis",
+          "label": "No lashes for labor in the extension either",
+          "speaker": "Gemara",
+          "text": "One might think labor in the extension at least carries a lashes-warning; 'no manner of labor on that same day' (Leviticus 23:28) limits even the warning to the day itself.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l34",
+              "vilnaLine": 34
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "ruling",
+          "label": "A fortiori: affliction should be even more lenient",
+          "speaker": "Gemara",
+          "text": "One might warn against non-affliction in the extension; logic blocks it - if labor, which applies on every Shabbat and Festival, carries no warning in the extension, then affliction, which does not even apply on those days, surely carries none.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l37",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "distinction",
+          "label": "The warning for the day itself is still unsourced",
+          "speaker": "Gemara",
+          "text": "The baraita notes that the actual warning for affliction on the day itself has not yet been derived. It proposes deriving it from labor by a fortiori: if affliction carries karet though it is not observed on Shabbat and Festivals, labor, which is, should all the more so.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "elaboration",
+          "label": "The a fortiori is set up to license a gezerah shavah",
+          "speaker": "Gemara",
+          "text": "Since the punishment for labor could be derived by logic, its explicit statement is 'available' to teach a verbal analogy: just as labor was punished only after a warning, so affliction was punished only after a warning.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "case",
+          "label": "First refutation of the analogy",
+          "speaker": "Gemara",
+          "text": "The analogy can be refuted: affliction has no permitted exceptions, while labor does - the Temple service overrides it. So one cannot simply carry labor's rule to affliction.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l44",
+              "vilnaLine": 44
+            }
+          ]
+        },
+        {
+          "id": "step-09",
+          "type": "question",
+          "label": "Reversed a fortiori and its own refutation",
+          "speaker": "Gemara",
+          "text": "Reversing direction: derive affliction's punishment from labor - if labor carries karet despite having exceptions, affliction with no exceptions surely does. But this too is refuted, since labor applies on Shabbat and Festivals while affliction does not.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l45",
+              "vilnaLine": 45
+            }
+          ]
+        },
+        {
+          "id": "step-10",
+          "type": "resolution",
+          "label": "Ravina: the analogy rests on 'same day,' not logic",
+          "speaker": "Gemara",
+          "text": "Ravina explains the tanna actually derives a gezerah shavah from 'same day' stated for both affliction and labor; because that phrase is textually free in both places, the verbal analogy cannot be refuted the way the logical inferences were.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l46",
+              "vilnaLine": 46
+            }
+          ]
+        },
+        {
+          "id": "step-11",
+          "type": "elaboration",
+          "label": "Five verses make 'same day' available",
+          "speaker": "Gemara",
+          "text": "Five verses govern labor on Yom Kippur - warnings for day and night, punishments for day and night, and one spare verse - leaving 'same day' free to teach the affliction-labor analogy for both day and night.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l48",
+              "vilnaLine": 48
+            }
+          ]
+        },
+        {
+          "id": "step-12",
+          "type": "conclusion",
+          "label": "Alternative analogies from Rabbi Yishmael and Rav Acha",
+          "speaker": "Gemara",
+          "text": "Rabbi Yishmael's school derives 'affliction'-'affliction' from the case of rape, and Rav Acha bar Yaakov derives 'Shabbat Shabbaton' from the weekly Shabbat - in each, the Torah punished only where it first warned, so too on Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-081a-l48",
+              "vilnaLine": 48
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "labor prohibition",
+        "YK and Shabbat",
+        "liability",
+        "comparison"
+      ],
+      "concepts": {
+        "halachic": [
+          "labor prohibition",
+          "YK and Shabbat"
+        ],
+        "theological": [
+          "YK labor prohibition resembles Shabbat but has its own character - both are call"
+        ],
+        "narrative": [
+          "YK and Shabbat: how the labor prohibition on YK compares to "
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of labor prohibition context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The pre-Yom-Kippur extension carries the same karet as the day itself.",
+          "correction": "The verses repeatedly limit karet, lashes, and the warning to 'that same day'; the extension is a mitzva to add time but carries none of the day's punishments."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "YK and Shabbat: how the labor prohibition on YK co"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does the repeated phrase 'on that same day' establish about the extension before and after Yom Kippur?",
+          "answer": "It limits karet, lashes, and even the prohibition's warning to the day itself; performing labor or failing to afflict during the added extension time carries no punishment."
+        },
+        {
+          "question": "Why does Ravina insist the affliction-labor link is a gezerah shavah rather than an a fortiori?",
+          "answer": "The logical inferences were refuted in both directions; only a verbal analogy from the textually free phrase 'same day' survives, since a free gezerah shavah cannot be refuted."
+        }
+      ],
+      "finalRuling": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "שכוסס. כל דבר שהוא אוכלו שלא כדרך אכילתו קרי ליה כוסס:",
+      "en": "Rashi: chewing unground barley without swallowing - whether it counts as eating.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "שזפין. פרונ\"ש בלע\"ז שבלע בלא כסיסה: ראשון משלם קרן וחומש.",
+      "en": "Rashi: food and drink belong to separate halachic categories on Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "שאף היא דרך אכילתן: ושני משלם דמי עצים לראשון. שהרי קנאן",
+      "en": "Rashi: they do not combine toward each other's minimum measures.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "הראשון ונתחייב בתשלומיהן והן אינן ראויות עוד אלא להסקה:",
+      "en": "Rashi: eating and drinking in one lapse of awareness - one atonement covers both.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "במחלוקת. השנויה במקום אחר",
+      "en": "Rashi: the labor prohibition on Yom Kippur and its comparison to Shabbat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "שנויה במשנתנו ולא דברי הכל היא",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "אלא רבי יהושע היא: שטומאתן",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "ושיעורן שוה. כגון שני חצאי זיתים",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "משני מתים או משתי נבילות או שתי",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "חצאי עדשה משני שרצים שזמן טומאתן",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "שוה ושיעורן שוה לטמא בשיעור",
+      "en": "Rashi explains the opening discussion of this topic on 81a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "אחד: טומאתו ולא שיעורו. כגון",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "שרץ ונבילה ששניהן טומאת ערב",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "אבל אין שיעורן שוה לטמא שזה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "בכזית וזה בכעדשה: שיעורו ולא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "טומאתו. כגון מת ונבילה ששניהן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "בכזית וזה טומאת שבעה וזה טומאת",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "ערב: מתני' אינו חייב אלא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "חטאת אחת. דחד שמא הוא דאכילה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "ושתיה מחד קרא נפקי: אכל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "ועשה מלאכה. תרי שמות נינהו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "דמתרי קראי נפקי: גמ' אכילה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "בכזית. משמע והתורה לא חייבה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "עליו אלא ביישוב הדעת: השמר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "פן לא תעונה. השמר פן תבא לידי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "לא תעונה: א\"כ נפישי להו לאוי.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "השמר ופן ששניהן לא תעשה הן",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "ואנן לאו אחד אמרינן שמא לא רצה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "להרבות בו לאוין: השמר דלאו.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "כגון השמר בנגע הצרעת (דברים כד)",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "שלא יקוץ בהרתו: השמר דעשה.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "השמר שתתענה: ותנא מייתי.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "אזהרה בעינוי מהכא: על תוספת",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "מלאכה. אם לא הוסיף מחול על",
+      "en": "Rashi opens comment on 'melachah': if one did not add from the weekday (chol) onto the sacred by stopping work before Yom Kippur begins, he remains in violation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "הקודש להפסיק מן המלאכה מבעוד",
+      "en": "Rashi continues: the requirement is to stop from labor while it is still day - by adding from the mundane (chol) onto the sacred (kodesh) before Yom Kippur night begins.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "יום: יהא מוזהר. בלאו: מה לעינוי",
+      "en": "Rashi glosses 'yehe muzhar' - he should be warned with a lav (prohibition). He then raises the objection: what comparison can be drawn to inui (affliction)?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "וכו'. כלומר עונש דמלאכה לאו",
+      "en": "Rashi clarifies: meaning the punishment for melachah (labor) is not a free lav - it cannot serve as the basis for a gezerah shavah because it is already needed to teach its own law.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "מופנה הוא שאם באת ללמדו מעינוי",
+      "en": "Rashi explains: the lav is not mufneh (free and available for analogy), because if you try to derive something from melachah via a gezerah shavah with inui, there is a rebuttal ready to block it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "יש להשיב מלאכה הותרה מקצתה אצל",
+      "en": "Rashi continues: the rebuttal is that melachah was partially permitted - labor was allowed for Temple service (avodah), so its lav is compromised and cannot be used freely for verbal analogy.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "גבוה: חמשה קראי כתיבי במלאכה.",
+      "en": "Rashi concludes: labor was permitted for the needs of the Most High (gavohah - Temple service). He then introduces a new point: five verses are written in the Torah regarding melachah on Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "ארבעה לאוין וכרת אחד באחרי מות",
+      "en": "Rashi enumerates: four prohibitions (lavin) and one karet - beginning with those written in Parashat Acharei Mot (Leviticus 16).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "ובפ' אך בעשור (שבחומש הפקודים):",
+      "en": "Rashi continues listing the sources: and in the parasha beginning 'Ach be-Asor' (Numbers 29:7) in Sefer Bamidbar - the Chumash ha-Pekudim - where additional melachah verses appear.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "וחד לעונש דליליא. דאם אינו ענין",
+      "en": "Rashi explains: one of those five verses applies to the nighttime punishment for labor. The hermeneutical principle at work: if a verse does not apply to one matter (i.e., to the warning/azharah).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "לאזהרה תנהו לענין עונש: ונאמר להלן",
+      "en": "Rashi continues the rule: apply it instead to the matter of punishment (onesh). This frees up the verse to teach the nighttime penalty. Rashi then notes: and it says further on (later in the passage).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "עינוי",
+      "en": "Rashi opens comment on 'inui' - affliction - closing the gezerah shavah discussion that links the five melachah verses to the inui prohibition of Yom Kippur, showing how labor's warning establishes affliction's warning by verbal analogy.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

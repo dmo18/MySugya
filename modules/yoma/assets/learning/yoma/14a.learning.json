@@ -1,0 +1,960 @@
+{
+  "daf": "14a",
+  "canonicalRef": "Yoma 14a",
+  "summary": "Rava resolves the challenge from 13b: R. Yehuda's 'kol hayom' means the onen KG refrains from service the entire day as a rabbinic decree (lest he eat kodshim), distinct from Yom Kippur itself where no one eats. A side question about whether the provisionally-divorced backup wife is even an onen is resolved: even if not technically an onen, distraction alone disqualifies. The mishna then introduces the seven-day pre-Yom Kippur sequestration of the KG, during which he performs key Temple services daily. The Gemara asks who authored this mishna and rules it is not R. Akiva. The bulk of the page examines the paradox of para aduma (red heifer purification water): it purifies the impure but simultaneously renders the pure impure - how can the same substance have opposite effects?",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-14a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 10
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.14a.1"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.14a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.14a.1",
+        "Yoma.14a.2"
+      ],
+      "display": {
+        "whats": "Rava resolves Abaye's challenge (from 13b): R. Yehuda's 'kol hayom' means the onen KG does NOT serve the whole day - a rabbinic decree to prevent him from accidentally eating kodshim. On Yom Kippur, when everyone fasts, there's no risk of him eating; but on a regular day when people eat, the onen might forget and eat. Therefore, on regular days the onen KG refrains all day. Rav Adda bar Ahava then raises a problem: R. Yehuda himself rules a backup wife should be prepared in case the original wife dies - yet if she dies on YK, the KG would serve as an onen without the eating-risk. Rava resolves: the two cases are different - YK's universal fast removes the eating risk.",
+        "hint": "The decree 'lest he eat' only applies when there is a realistic temptation. On Yom Kippur, everyone fasts - the KG won't accidentally eat. On a regular day, when food is everywhere, a decree is necessary. Context determines the risk, and the decree tracks the risk."
+      },
+      "learning": {
+        "summary": "R. Yehuda's 'kol hayom' is a restriction, not a mandate: the onen KG refrains from service all day as a rabbinic decree to prevent accidentally eating kodshim. This decree applies only on regular days (when everyone eats), not on Yom Kippur (when no one does). A question from R. Yehuda's own backup-wife ruling is resolved by distinguishing the contexts.",
+        "ahaMoment": "Rabbinic decrees are context-sensitive: the same rule (don't serve as onen) can be necessary in one situation and unnecessary in another, based on the realistic risk involved.",
+        "memoryAnchor": "Everyone fasts on YK - even the onen won't eat. On a regular day, the aroma of food is everywhere, so the decree is needed. The fast eliminates the risk.",
+        "openQuestion": "If the reason for the all-day restriction is a decree lest he eat, what happens if the onen KG explicitly declares he will not eat? Would the decree still apply?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "resolution",
+          "label": "Rava: 'kol hayom' = decree lest he eat (not a mitzva to serve)",
+          "speaker": "Rava",
+          "text": "'Kol hayom' means the onen KG does not serve the whole day - a rabbinic decree to prevent him from eating kodshim. The decree is necessary on regular days (when eating is normal) but not on Yom Kippur (universal fast).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l01",
+              "vilnaLine": 1,
+              "note": "Rava's revised reading of kol hayom"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Rav Adda: R. Yehuda's backup wife contradicts the decree",
+          "speaker": "Rav Adda bar Ahava",
+          "text": "R. Yehuda says prepare a backup wife in case the original dies. If she dies on YK, the KG would serve as onen - and R. Yehuda doesn't issue a decree then. This contradicts the supposed decree!",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l01",
+              "vilnaLine": 1,
+              "note": "Rav Adda's challenge"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "answer",
+          "label": "Context distinguishes: YK fast vs. regular eating",
+          "speaker": "Rava",
+          "text": "On Yom Kippur, everyone fasts - the onen KG will not come to eat. On regular days, everyone eats - he will come to eat. The decree follows the realistic risk.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l01",
+              "vilnaLine": 1,
+              "note": "Resolution via contextual distinction"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "question",
+          "label": "Does aninus even apply to the conditionally-divorced backup wife?",
+          "speaker": "Gemara",
+          "text": "The backup wife was conditionally divorced - is she even considered an onen if her 'husband' dies? And even if not, distraction (itroda) alone would disqualify the KG from service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l02",
+              "vilnaLine": 10,
+              "note": "Distraction as independent disqualifier"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "onen",
+        "kehuna gedola",
+        "decree",
+        "context-sensitivity",
+        "Yom Kippur"
+      ],
+      "concepts": [
+        {
+          "term": "gezeira shema yokhal",
+          "def": "A rabbinic decree lest he eat - the preventive measure that keeps the onen KG from serving on regular days, applied because of the realistic risk of accidentally eating kodshim when everyone else is eating."
+        },
+        {
+          "term": "itroda",
+          "def": "Distraction, mental preoccupation - even without full onen status, extreme emotional distraction can disqualify the KG from Yom Kippur service because it affects his concentration and fitness."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.14a.1",
+        "Yoma.14a.2"
+      ],
+      "requiresUnderstanding": [
+        "The onen KG ruling from 13b",
+        "R. Yehuda's backup-wife position and its connection to Yom Kippur"
+      ],
+      "misconceptions": [
+        "Rava's initial reading of 'kol hayom' (a mitzva to serve) was challenged and revised - the final interpretation is that it is a restriction, not a mandate.",
+        "The distraction argument (itroda) is independent of formal onen status - it applies even if the backup wife's relationship to the KG is legally ambiguous."
+      ],
+      "relatedSugyot": [
+        "yoma-13b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "Regular day (everyone eating, decree needed to prevent onen KG from eating) vs. Yom Kippur (universal fast, no risk, no decree needed)"
+        },
+        {
+          "type": "action",
+          "desc": "The onen KG on a regular day vs. on Yom Kippur - same person, different context, different ruling"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "mc",
+          "q": "According to Rava, what does R. Yehuda's phrase 'kol hayom' mean regarding the onen KG?",
+          "correct": "The onen KG refrains from service the whole day as a rabbinic decree lest he accidentally eat kodshim.",
+          "distractors": [
+            "It is a mitzva to bring him from home and have him serve all day",
+            "He may only serve during the morning portion of the day",
+            "He serves the whole day without restriction because Yom Kippur overrides mourning"
+          ]
+        },
+        {
+          "type": "explain",
+          "q": "Why does the 'lest he eat' decree not apply on Yom Kippur itself?",
+          "correct": "On Yom Kippur, everyone fasts - there is no food around and no realistic temptation for the onen KG to accidentally eat kodshim. The decree only applies when the general environment includes eating."
+        }
+      ],
+      "finalRuling": "On regular days: the onen KG does not serve as a rabbinic decree (lest he eat). On Yom Kippur: the decree does not apply (universal fast). Service performed is valid either way.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-14a-s02",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 12
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.14a.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.14a.3"
+      ],
+      "display": {
+        "whats": "The mishna: seven days before Yom Kippur the KG is sequestered in the Parhedrin chamber. During those seven days he performs the daily Temple services himself: throws the blood of the daily offerings, burns the incense, cleans the menorah lamps (meitev et ha-nerot), and offers the limbs. He also performs whatever other services he wishes throughout the rest of the year (he is given priority). The Gemara asks who authored this mishna.",
+        "hint": "The seven-day sequestration serves two purposes: to protect against impurity (a seven-day impurity requires a clean seven days to pass) and to practice the Yom Kippur service. The KG performing the daily service throughout the week keeps him in ritual readiness."
+      },
+      "learning": {
+        "summary": "The mishna introduces the KG's seven-day pre-Yom Kippur sequestration and daily Temple service practice. The Gemara immediately inquires about the authorship of this mishna, identifying a potential conflict with R. Akiva's position on para aduma.",
+        "ahaMoment": "The seven-day preparation is both legal (ensuring purity) and experiential (practicing the Yom Kippur avodah). The KG who has been doing the service all week enters Yom Kippur as a practiced professional.",
+        "memoryAnchor": "Seven days of service = seven days of practice + seven days of assured purity. The KG arrives at Yom Kippur as both pure and experienced.",
+        "openQuestion": "If the KG performs the daily services for seven days straight, does his unusual involvement displace the regular priestly divisions (mishmarot) from their assigned tasks?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "mishna",
+          "label": "Mishna: KG's seven-day sequestration and daily service",
+          "speaker": "Mishna",
+          "text": "Seven days before Yom Kippur, the KG is sequestered in the Parhedrin chamber. He performs: throwing the daily blood, burning incense, cleaning the menorah (meitev nerot), and offering the limbs. He also offers whatever he wishes on other days of the year.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l03",
+              "vilnaLine": 12,
+              "note": "The mishna's ruling"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kehuna gedola",
+        "Yom Kippur preparation",
+        "sequestration",
+        "avodah",
+        "mishna authorship"
+      ],
+      "concepts": [
+        {
+          "term": "shivat yamim",
+          "def": "Seven days - the pre-Yom Kippur sequestration period, during which the KG is isolated in the Parhedrin chamber to ensure he arrives at Yom Kippur in a state of purity."
+        },
+        {
+          "term": "meitev et ha-nerot",
+          "def": "Cleaning the menorah lamps (removing old wicks and ash); one of the daily Temple services the KG performs during his seven-day preparation."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.14a.3"
+      ],
+      "requiresUnderstanding": [
+        "The seven-day impurity cycle that necessitates the sequestration",
+        "The daily Temple service and its components"
+      ],
+      "misconceptions": [
+        "The seven-day sequestration is not just for isolation from impurity - it also serves as active preparation through practice.",
+        "The KG does not simply observe the daily service; he actively performs it himself during these seven days."
+      ],
+      "relatedSugyot": [
+        "yoma-002a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "desc": "Seven days of KG performing daily Temple services - building toward Yom Kippur service"
+        },
+        {
+          "type": "place",
+          "desc": "The Parhedrin chamber in the Temple - the KG's sequestration quarters for seven days before Yom Kippur"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "list",
+          "q": "Name two Temple services the KG performs during his seven-day pre-Yom Kippur sequestration.",
+          "correct": "Any two of: throwing the daily blood, burning the incense, cleaning the menorah lamps (meitev nerot), offering the limbs of the daily sacrifice."
+        },
+        {
+          "type": "reason",
+          "q": "Why is the pre-Yom Kippur sequestration specifically seven days?",
+          "correct": "To ensure that if the KG contracted impurity requiring a seven-day purification process, he would emerge purified before Yom Kippur."
+        }
+      ],
+      "finalRuling": "The KG is sequestered for seven days before Yom Kippur and performs the daily Temple services throughout that period.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-14a-s03",
+      "lineRange": {
+        "startVilnaLine": 17,
+        "endVilnaLine": 47
+      },
+      "lines": [
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.14a.4"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.14a.5"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.14a.6"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.14a.7"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.14a.8"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.14a.9"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.14a.10"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.14a.11"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.14a.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.14a.4",
+        "Yoma.14a.5",
+        "Yoma.14a.6",
+        "Yoma.14a.7",
+        "Yoma.14a.8",
+        "Yoma.14a.9",
+        "Yoma.14a.10",
+        "Yoma.14a.11",
+        "Yoma.14a.12"
+      ],
+      "display": {
+        "whats": "The Gemara deduces that the mishna about seven-day sequestration cannot follow R. Akiva. R. Akiva teaches that purification water (mei para) purifies the impure person sprinkled upon - but simultaneously renders the pure person handling it impure. If so, the KG cannot both be sprinkled with purification water (to ensure his purity) and serve in the Temple (since handling makes pure priests impure). Various opinions are surveyed: R. Yehoshua b. Levi says it is a chok (divine decree, no explanation); Rabba b. bar Chana says it purifies by decree. Ultimately the Gemara surveys who authored both this mishna and the later mishna about the Yom Kippur sprinkling, concluding they follow the view that accepts R. Akiva's paradox.",
+        "hint": "The para aduma paradox is one of the Talmud's classic examples of a chok - a divine decree whose logic transcends human comprehension. It purifies the impure while impurifying the pure, seemingly contradicting itself. The Gemara uses this paradox to narrow down who could have authored various mishnayot."
+      },
+      "learning": {
+        "summary": "The paradox of the red heifer purification water: it purifies impure people but simultaneously makes pure people who handle it impure. This creates an authorship puzzle for the seven-day sequestration mishna - R. Akiva's position makes the purification sprinkling incompatible with the KG then serving. The resolution involves how the sprinklings can be scheduled to avoid this conflict.",
+        "ahaMoment": "The same water does opposite things simultaneously - but to different categories of people (impure vs. pure). This is the quintessential chok: its mechanism is beyond normal cause-and-effect reasoning.",
+        "memoryAnchor": "Para aduma - the red heifer: washing the hands that wipe makes them dirty; here, the water that purifies the impure also dirties the pure. A divine decree that transcends logic.",
+        "openQuestion": "R. Yehoshua b. Levi says the paradox teaches that we must accept divine decrees without demanding rational explanations (chukim). Does this mean the Talmud here is consciously marking the boundary of legal reasoning?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "deduction",
+          "label": "Mishna authorship: cannot be R. Akiva",
+          "speaker": "Gemara",
+          "text": "The seven-day sequestration mishna (with purification water sprinklings) is incompatible with R. Akiva's teaching that purification water renders pure handlers impure. If the KG is sprinkled while still pure (to guard against future impurity), the water would make him impure.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l04",
+              "vilnaLine": 17,
+              "note": "Mishna cannot be R. Akiva"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "position",
+          "label": "R. Akiva's paradox stated",
+          "speaker": "R. Akiva",
+          "text": "Purification water: 'al ha-tamei yitaher' (on the impure it purifies) but 'v'al ha-tahor yitamei' (on the pure it impu rifies). The water operates oppositely depending on who is contacted.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l05",
+              "vilnaLine": 20,
+              "note": "R. Akiva's ruling stated"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "position",
+          "label": "Chakhamim: 'al ha-tamei' is a drasha, not a ruling",
+          "speaker": "Chakhamim",
+          "text": "The Sages say 'al ha-tamei yitaher' is a scriptural amplification teaching that purification water only works on things that can receive impurity - it doesn't imply the reverse effect on the pure.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l06",
+              "vilnaLine": 24,
+              "note": "Chakhamim's interpretation"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "proof",
+          "label": "Baraita: who authored the Tamid mishna about remaining water?",
+          "speaker": "Baraita",
+          "text": "A baraita about what to do with leftover water in the hyssop (if enough remains to re-sprinkle or not) aligns with R. Akiva's position, suggesting the detailed water-handling rules follow R. Akiva.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l07",
+              "vilnaLine": 28,
+              "note": "Baraita alignment with R. Akiva"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "analysis",
+          "label": "Who impurifies whom: man on animal or animal on man?",
+          "speaker": "Gemara",
+          "text": "R. Akiva's ruling about the pure becoming impure: does sprinkling on a person make the animal impure, or does the water itself on a person have this effect? The distinction matters for what minimum quantity of water is required.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l08",
+              "vilnaLine": 33,
+              "note": "Who impurifies whom"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l09",
+              "vilnaLine": 36,
+              "note": "Water on body vs. water in vessel"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l10",
+              "vilnaLine": 39,
+              "note": "Minimum quantity question"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l11",
+              "vilnaLine": 41,
+              "note": "Resolution of quantity question"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l12",
+              "vilnaLine": 47,
+              "note": "Further analysis"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "para aduma",
+        "purity",
+        "impurity",
+        "paradox",
+        "chok",
+        "mishna authorship"
+      ],
+      "concepts": [
+        {
+          "term": "mei para",
+          "def": "Purification water - the water mixed with red heifer ashes used to purify those who became impure through contact with a corpse. It both purifies (the impure) and impurifies (the pure handlers)."
+        },
+        {
+          "term": "chok",
+          "def": "A divine decree without apparent logical explanation. Para aduma is the paradigmatic chok: its opposite effects (purifying/impurifying) transcend ordinary cause-and-effect."
+        },
+        {
+          "term": "al ha-tamei yitaher",
+          "def": "'On the impure, it purifies' - the verse from Numbers 19 about purification water. R. Akiva derives from the extra 'al' that it also impurifies the pure; the Sages interpret it as a scope limitation."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.14a.4",
+        "Yoma.14a.7"
+      ],
+      "requiresUnderstanding": [
+        "The para aduma purification process (Numbers 19)",
+        "The concept of tum'at met (corpse impurity) and its seven-day purification",
+        "R. Akiva's hermeneutical methods"
+      ],
+      "misconceptions": [
+        "One might think purification water simply purifies everything it touches - R. Akiva's teaching shows it has opposite effects depending on the recipient's status.",
+        "The 'paradox' is not a contradiction - it is a consistent rule: the water activates the appropriate transformation for whoever it contacts (impure becomes pure; pure becomes impure)."
+      ],
+      "relatedSugyot": [
+        "yoma-14b-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "The same water: touching an impure person (purification occurs) vs. touching a pure handler (impurity occurs) - two directions, one substance"
+        },
+        {
+          "type": "action",
+          "desc": "A kohen holding hyssop dipped in mei para - the water purifies the corpse-impure person being sprinkled but makes the sprinkling kohen impure"
+        },
+        {
+          "type": "text",
+          "desc": "Numbers 19:19 'al ha-tamei yitaher' - the verse driving R. Akiva's paradoxical ruling"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "mc",
+          "q": "What is R. Akiva's teaching about purification water that creates a problem for the seven-day sequestration mishna?",
+          "correct": "Purification water purifies the impure person sprinkled on it, but simultaneously makes pure people who handle it impure.",
+          "distractors": [
+            "Purification water can only be applied once per item",
+            "The KG cannot sprinkle purification water because he is not a fully ordained kohen",
+            "Purification water must be prepared fresh each day"
+          ]
+        },
+        {
+          "type": "explain",
+          "q": "Why is para aduma called a 'chok'?",
+          "correct": "Because its mechanism transcends logical explanation - the same substance produces opposite effects (purifying/impurifying) depending on the recipient's status, without an obvious natural cause."
+        }
+      ],
+      "finalRuling": "The seven-day sequestration mishna follows the view of the Chakhamim (not R. Akiva). R. Akiva's para aduma ruling creates an irresolvable conflict with the sprinkling-and-service sequence.",
+      "difficulty": "advanced",
+      "alternateAngles": [
+        {
+          "angle": "Para aduma as paradigm of chukim",
+          "desc": "This sugya is classically cited in discussions of chukim (supra-rational laws) - para aduma is the Talmud's go-to example of a divine decree that resists rational justification."
+        }
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "אוֹנֵן",
+      "translit": "onen",
+      "en": "Acute mourner - from death of a close relative until burial. Forbidden from eating kodshim; the onen KG may serve on Yom Kippur (public duty overrides) but not eat sacred food."
+    },
+    {
+      "he": "פָּרָה אֲדֻמָּה",
+      "translit": "para aduma",
+      "en": "Red heifer - the cow whose ashes, mixed with water, create mei para (purification water) for corpse-impurity. Paradigmatic chok: purifies the impure while making pure handlers impure."
+    },
+    {
+      "he": "חֹק",
+      "translit": "chok",
+      "en": "A divine decree beyond rational explanation. Para aduma is the quintessential chok, cited here and throughout rabbinic literature as the limit of explanatory legal reasoning."
+    },
+    {
+      "he": "גְּזֵירָה שֶׁמָּא יֹאכַל",
+      "translit": "gezeira shema yokhal",
+      "en": "A rabbinic decree lest he eat - the reason the onen KG refrains from service all day on regular days; the risk of accidentally eating kodshim is realistic when everyone else is eating."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'to say that he does not serve the whole day' - R. Yehuda's 'kol hayom' means restriction, not mandate. The onen KG refrains from service all day as a precaution.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: 'gezeira shema yokhal' - the decree lest he eat. All day he is forbidden from eating kodshim by Torah law; the rabbis extended this by keeping him from service entirely, to avoid confusion.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: 'aninus of the night' - after burial on the same day, nighttime aninus is only rabbinic (not Torah-mandated). But the daytime prohibition on eating kodshim is Torah law throughout.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: R. Yehuda's position in tractate Zevachim (99b) - the onen does not serve all day but may burn fats and limbs at night (when Torah aninus ends).",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: 'v'ha migarsah - but she is divorced!' The backup wife who received a conditional get might already be divorced. Does aninus even apply to her relationship with the KG?",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: 'mi lo mitreid - is he not disturbed?' Even if technical aninus doesn't apply, the emotional distraction of his wife's death would disturb his concentration for Yom Kippur service. Distraction alone is disqualifying.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'v'ha migarsah' - the backup wife was conditionally divorced; so when she dies, it might be only his conditionally-divorced wife who died, not his 'wife' in the full sense. Does he become an onen at all?",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: the KG's distraction in Yom Kippur service is itself disqualifying - 'ukhadashim beinan mimla v'gedulah' - the Torah requires eating kodshim be done 'as kings eat,' in a state of joy and greatness.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: 'matni - he throws the blood.' The mishna's listing of services: blood of daily offerings, incense, lamp cleaning, limb offerings. These are the daily Temple services the KG performs during his seven-day preparation.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: 'u'meitev et ha-nerot - and he cleans the lamps.' Removing the used wicks and ash from the previous day's lamps; done each morning in preparation for re-lighting.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: 'v'shar kol ha-yamim im ratza - and on all other days, if he wishes.' The KG has priority to perform any Temple service on any day of the year; no mishmar (priestly division) can prevent him.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: 'makrib chelek b'rosh - he offers a portion at the head.' The KG takes the first choice portion of any sacrifice he performs, and is given priority placement in the service order.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: 'gemarah d'Rabbi Akiva' - the later mishna (about the sprinkling of the KG during his seven-day sequestration) will follow R. Akiva's position.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l04"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: 'heichi avid avodah - how can he perform service?' If the KG is sprinkled with mei para (purification water) while still pure, R. Akiva's rule would make him impure, preventing his service.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l04"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: 'kol shivat hayamim mazin alav - all seven days they sprinkle on him.' During his sequestration, the KG is sprinkled with purification water every day to ensure he is pure for Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: 'al ha-tamei yitaher v'al ha-tahor yitamei - on the impure it purifies, on the pure it impurifies.' R. Akiva's paradoxical ruling derived from the doubled 'al' in Numbers 19.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: 'v'chakhamim omrim - and the Sages say.' The Sages interpret 'al ha-tamei' as a scope limitation: purification water only works on objects that can receive impurity; it doesn't mandate the reverse effect on the pure.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: 'l'omer she'ein divrei hazayah amurim' - the Sages' drasha: the words about sprinkling apply only to things that can receive impurity (humans and impurity-susceptible vessels), not to things that cannot.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'v'nafka minah she-hashirayim she-ba-ezov' - the practical difference (nafka minah): leftover drops on the hyssop - are they valid for re-sprinkling? If they impu rify the pure as R. Akiva says, that matters.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: 'k'detanan niskavein... im yesh ba-ezov - as we learned: if there is enough in the hyssop' to dip and sprinkle, leftover drops can be re-used. This baraita aligns with R. Akiva.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: 'la yishaneh - he should not re-use the hyssop.' The invalidated drops cannot re-sprinkle because 'hanitztzah alav melakhah' - they were used in a 'work' (melacha) of sprinkling an animal, which invalidates them.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: 'l'mazeh tahor - to the one sprinkling who is pure.' R. Akiva's ruling: sprinkling renders the sprinkling kohen impure; Rashi explains the drasha: after sprinkling it still calls him 'pure' - meaning even after sprinkling he retains the name 'tahor.'",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: 'haniacha l'man d'amar... plugtah hi b'Zevachim' - this dispute is parallel to one in Zevachim chapter ha-terovet (80a) about whether a kohen who did a forbidden service is still called 'tahor' afterward.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: 'agba d'gavra - on the body of the person.' Even a tiny amount of mei para on a person is sufficient to purify (no minimum volume required for body contact); but in a vessel, a minimum is needed.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: 'aval b'mana - but in a vessel.' A vessel containing purification water requires a minimum volume (enough to actually dip the hyssop and sprinkle). Body contact requires no minimum.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: 'sheyitbil roshei giv'olin v'yazzeh - so that he can dip the tops of the hyssop stems and sprinkle.' The minimum in the vessel is defined functionally: enough to dip and sprinkle effectively.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: the conclusion on minimum volume for mei para in a vessel - must be enough for a complete dipping action that produces effective droplets for sprinkling.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: 'v'noteil chelek b'rosh - and takes a portion at the head.' The KG receives a first-choice portion from any sacrifice performed during his seven days of service.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: 'gemara d'Rabbi Akiva - the Gemara (practice) of Rabbi Akiva.' The reference to R. Akiva's position as discussed later in this tractate (the sprinkling section).",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l04"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: 'heichi avid avodah - how can he perform service (during the seven days)?' The problem: if the sprinklings happen during the seven days and make the pure KG impure (per R. Akiva), how can he serve?",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l04"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: 'kol shivat hayamim mazin alav - all seven days they sprinkle on him.' The KG is sprinkled daily with purification water throughout his seven-day sequestration.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: 'al ha-tamei yitaher v'al ha-tahor yitamei - on the impure it purifies, on the pure it impurifies.' R. Akiva's paradoxical ruling: the same water operates oppositely on impure and pure people.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: 'k'detanan niskavein - as we learned: if one intended...' The baraita from Parah: if there is enough water left on the hyssop, one may re-use it without re-dipping.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: 'im yesh ba-ezov - if there is enough in the hyssop.' The minimum to count as a valid sprinkling is enough water to actually produce droplets that reach the recipient.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: 'yishneh - he may re-use it.' If enough water remains on the hyssop tips, the person who sprinkled may sprinkle again without re-dipping into the vessel.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: 'v'chakhamim omrim - and the Sages say: on the impure it brings about purification.' The Sages' reading of 'al ha-tamei yitaher': this phrase limits purification water to things capable of receiving impurity.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: 'l'omer she-ein divrei hazza'ah amurim ela b'devarim ha-mekabelim tuma'ah - meaning: the words of sprinkling apply only to things that can receive impurity.' The Sages derive a scope limitation, not R. Akiva's opposite-effect ruling.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: 'aval b'devarim she-ein mekabelim tuma'ah ein hazza'ah ha-nitozet aleihem keruya hazza'ah - but for things that cannot receive impurity, the droplets that land on them are not called hazza'ah.' A vessel that cannot receive impurity is not affected by sprinkling.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: 'v'nafka minah she-ha-shira'im she-ba-ezov shira'i pesulei hen - and the practical implication: leftover drops on the hyssop are invalid remnants.' They cannot be used for a second sprinkling because they contacted a non-receiver.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: 'v'ein l'hakhshiran l'hazzot - and there is no way to make them valid for sprinkling.' Once the drops have been used on an invalid surface, they cannot become valid purification drops again.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: 'k'detanan niskavein v'khulei im yesh ba-ezov yishneh - as we learned: if there is enough in the hyssop, he may re-sprinkle.' The baraita presupposes the drops can be re-used, aligning with R. Akiva's view.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: 'yishneh - he may re-sprinkle.' The baraita shows that drops remaining on the hyssop are still valid - this only works according to R. Akiva where they retain their purifying status.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: 'la yishneh - he should not re-sprinkle.' R. Akiva's ruling implies: if he sprinkled on an animal (which cannot receive impurity), those drops are now invalid - 'hanitztzah alav melakhah d'hazza'ah shel behemah ein shem hazza'ah alehah.'",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: 'v'havah lehu k'mayim she-na'aseit bahen melakhah - they become like water in which a labor was performed.' Once used in a 'sprinkling' on an invalid target, they are disqualified as if used for a mundane purpose.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: 'l'mazeh tahor - for the one who sprinkles who is pure.' R. Akiva's ruling: even after sprinkling (which should make him impure), the verse still calls the sprinkler 'tahor.' Rashi explains the drasha.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: 'diderish hekhi v'hizzah ha-tahor af l'achar she-hizzah kara'o tahor - he derives: v'hizzah ha-tahor (Num 19:19): even after he sprinkled it calls him tahor.' The verse applies the 'tahor' label post-sprinkling.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: 'haniacha l'man d'amar... plugtah hi b'Zevachim b'perek ha-terovet - this follows one who says... it is a dispute in Zevachim chapter ha-terovet (80a).' The same question about whether post-action 'tahor' labels apply arises in another context.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: 'agba d'gavra - on the body of a person.' Any minimal amount of mei para is sufficient to purify when applied directly to a person's body, with no minimum volume required.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: 'kol she-hu she-noten alav metaharo - any minimal amount that lands on him purifies him.' The body contact rule: no minimum volume for person-contact purification.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: 'aval b'mana - but in a vessel.' When the purification water is in a vessel and the hyssop is dipped into it, a minimum volume is required - enough to dip the hyssop tips and sprinkle effectively.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: 'sheyitbil rishei giv'olin b'toch hamayim tivila she-tehei ba l'hatiz mimena - to dip the tops of the hyssop stems into the water with a proper dipping that would produce droplets for sprinkling.' Functional definition of the minimum.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: 'd'var mekubal hu - it is a received tradition.' The service order and the minimum water volume rules are transmitted as oral law, not merely derived by logical reasoning.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: 'plugtah hi b'Zevachim - it is a dispute in Zevachim.' The question of whether purification water on an animal counts as a 'work' that disqualifies it is addressed in Zevachim 80a.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: 'b'perek ha-terovet - in the chapter on mixed consecrated items.' The parallel passage in Zevachim analyzes when a post-action label ('tahor' or 'tamei') applies retroactively.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: further analysis of the vessel minimum - the functional definition (enough to dip and sprinkle) as the operative standard for purification water measurements.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: 'sheyitbil - so that he may dip.' Rashi restates the definition: the minimum is determined by functional sufficiency for the sprinkling action.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: continuation of the hyssop minimum discussion - confirming that body-contact requires no minimum while vessel-based sprinkling requires enough for the action.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: closing note on the para aduma section - these discussions set up the transition to the next subject (Abaye's resolution) on 14b.",
+      "linkedGemaraLineIds": [
+        "yoma-14a-l12"
+      ]
+    }
+  ]
+}

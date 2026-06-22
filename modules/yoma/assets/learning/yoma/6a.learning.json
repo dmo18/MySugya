@@ -1,0 +1,1209 @@
+{
+  "daf": "6a",
+  "canonicalRef": "Yoma 6a",
+  "summary": "6a opens by completing the belt dispute: the positions explained; two verses reconciled. The Gemara then returns to the mishna: why does the Kohen Gadol leave his home (not just enter the Parhedrin chamber)? R. Yehuda ben Beteira: to prevent accidental safek niddah relations. The Gemara corrects the phrasing - the concern is that blood will be found after relations, not that he will knowingly approach a safek niddah. Rav Chisda clarifies that even the Rabbis (who normally exempt safek niddah from retroactive impurity) agree when blood is found immediately. R. Zeira then draws a broader legal conclusion: bo'el niddah must immerse by day (not night) - proven by the Yom Kippur scenario: if he had to wait for nightfall he could never serve. Rav Shimi's counter: we separate him slightly before sunset, giving eight full days with the seventh completing before Yom Kippur night. Two baraitot challenge the daytime-immersion position and are both deflected.",
+  "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-006a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 6
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.6a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.6a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.6a.3"
+        }
+      ],
+      "display": {
+        "title": "The High Priest's belt vs. the ordinary priest's belt: same or different material?",
+        "oneLine": "The two belt-dispute positions are explained in full: if belts differ in material, simultaneous girding is possible; if they are the same, the sequential implementation verses prove Aaron-before-sons.",
+        "shortSummary": "The position of 'Aaron and sons together' explains: the two separate implementation verses ('he girded him' then 'he girded them') teach not sequence but material difference - the Kohen Gadol's belt is kilaim (wool-linen mix) while the ordinary priest's belt is plain linen. The position of 'Aaron first then sons' explains: the command's 've-chagarta otam' (gird them) teaches the belts are the same material. The two sequential verses then prove Aaron was girded before his sons. The Gemara asks: if they are the same, why are there two separate verses? Answer: learn from it that Aaron was first, then his sons. But could they even have been done simultaneously? Answer: not literally - Moses dressed Aaron in all garments, dressed the sons (except belts), then returned to gird Aaron and then the sons.",
+        "whats": "The 5b belt dispute left two open questions: (1) what material was the ordinary priest's belt, and (2) can you actually gird five people 'simultaneously'? 6a resolves both. The 'together' position holds the belts differ - High Priest wears kilaim (mixed weave, Exodus 39:29 makes this clear), ordinary priest wears plain linen. The two implementation verses are not about sequence; they distinguish the materials by showing Aaron's girding separately from his sons'. The 'Aaron first' position holds the belts are identical (both kilaim). 've-chagarta otam' (command: gird them together) teaches material identity. The two implementation verses prove sequential dressing. The practical question - can Moses gird five people at once? - is answered: 'bvat achat' does not mean literally simultaneous; Moses dressed Aaron completely (except belt), then dressed sons (except belt), then returned and girded Aaron, then sons, in one uninterrupted operation.",
+        "hint": "The belt-material dispute and the dressing-sequence dispute turn out to be two sides of the same coin. Understanding one immediately resolves the other. Why is this kind of dual-resolution satisfying halakhically?"
+      },
+      "learning": {
+        "learnerQuestion": "If both disputants read the same two verses - 'he girded him' then 'he girded them' - how can one read this as proving sequence and the other as proving material distinction?",
+        "coreTension": "The command says 'gird them together'; the implementation shows two separate girding events. The dispute is which text is the anchor and which is the commentary. If you anchor on the command (together), the sequential verses must teach something else (material difference). If you anchor on the implementation (sequential), the command must teach something else (material identity).",
+        "coreMove": "Each disputant builds a coherent reading using the same two verses - but assigns one verse to sequence and one to material, or vice versa. The resolution of 'can you gird five people simultaneously' - 'not literally, but sequentially in one uninterrupted operation' - dissolves the practical objection to the 'together' position.",
+        "resolution": "Both readings are internally coherent. The dispute about belt-material and the dispute about sequence are entangled: your answer to one determines your answer to the other. The Gemara presents both packages without ruling between them.",
+        "takeaway": {
+          "type": "hermeneutical",
+          "text": "When two verses appear to conflict, the resolution often requires assigning each verse a distinct teaching role. Which verse carries 'sequence' and which carries 'material' is not obvious from the text - it requires a prior commitment about what is more likely to be the command's emphasis vs. the implementation's emphasis."
+        },
+        "reasoningPattern": {
+          "id": "tsivui-asiyah-dual-resolution",
+          "category": "textual",
+          "notes": "The tsivui-vs-asiyah pattern generates two internally consistent packages: anchor on command = use implementation verses for material teaching; anchor on implementation = use command verse for material teaching. Both packages are valid until an external tie-breaker is found."
+        },
+        "ahaMoment": "The belt-material question and the dressing-sequence question are not independent. They are two manifestations of the same underlying textual choice: which of the two belt-verses is the controlling one. Once you see this, the two-position dispute becomes a single clean binary.",
+        "learningBlocker": "Students may try to treat the material question and sequence question as independent facts to be established separately. The Gemara treats them as logically coupled: your sequence commitment entails your material commitment and vice versa.",
+        "memoryAnchor": "The belt dispute from 5b resolves here: same material = sequential; different material = simultaneous (in one uninterrupted sequence). The whole controversy was always a two-verse puzzle."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "answer",
+          "label": "'Together' position explains: 'he girded him / he girded them' teaches material difference",
+          "speaker": "Position 1 (Aaron and sons together)",
+          "text": "The High Priest's belt is not the ordinary priest's belt: High Priest wears kilaim (wool-linen mix); ordinary priest wears plain linen. The two sequential verses convey this material distinction, not a time-sequence.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l01",
+              "vilnaLine": 1,
+              "note": "Together-position's explanation of the two implementation verses"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "answer",
+          "label": "'Aaron first' position explains: 've-chagarta otam' teaches material identity",
+          "speaker": "Position 2 (Aaron first, then sons)",
+          "text": "The command's 've-chagarta otam' (gird them) teaches: the High Priest's belt is the same as the ordinary priest's belt - both are kilaim. The two implementation verses then prove sequential dressing: Aaron was girded first, then his sons.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l02",
+              "vilnaLine": 2,
+              "note": "Aaron-first position's explanation of 've-chagarta otam'"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "question",
+          "label": "If belts are the same, why two verses? And can 'bvat achat' even be done?",
+          "speaker": "Gemara",
+          "text": "If the belts are the same material, what do the two sequential verses add beyond proving Aaron-before-sons? And practically: can Moses gird five people simultaneously?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l06",
+              "vilnaLine": 6,
+              "note": "Gemara's objection and practical question"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "'Bvat achat' = one uninterrupted operation, not literally simultaneous",
+          "speaker": "Gemara",
+          "text": "The two verses prove Aaron first then sons - this is the teaching they add. 'Bvat achat' does not mean literally simultaneous: Moses dressed Aaron in all garments (except belt), then dressed the sons (except belt), then returned and girded Aaron, then the sons - one continuous sequence without interruption.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l06",
+              "vilnaLine": 6,
+              "note": "Resolution dissolving the simultaneous-girding objection"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "kilaim-begadim",
+          "he": "כִּלְאַיִם בְּבִגְדֵי כְּהוּנָה",
+          "translit": "Kilaim be-vigdei kehuna",
+          "en": "Mixed-weave garments (wool and linen together, normally forbidden) worn by the priesthood. The Torah explicitly makes the High Priest's belt kilaim (Exodus 39:29). The ordinary priest's belt material is disputed.",
+          "sugyaRole": "The disputed question is whether the ordinary priest's belt is also kilaim (like the High Priest's) or plain linen. This determines which verse teaches what."
+        },
+        {
+          "id": "bvat-achat",
+          "he": "בְּבַת אַחַת",
+          "translit": "Be-vat achat",
+          "en": "Simultaneously / all at once. Used in the belt dispute to describe whether Moses girded Aaron and sons in a single continuous act. The Gemara clarifies this means one uninterrupted operation - sequential but without breaking off to do anything else in between.",
+          "sugyaRole": "The practical objection ('can you gird five people simultaneously?') is dissolved by clarifying that 'bvat achat' means uninterrupted sequence, not literal simultaneity."
+        }
+      ],
+      "conceptRefs": [
+        "kilaim-begadim",
+        "bvat-achat"
+      ],
+      "requiresUnderstanding": [
+        "The 5b belt dispute: two positions and their textual sources",
+        "What kilaim is and why the Torah normally forbids it but requires it for certain priestly garments",
+        "Tsivui-vs-asiyah as the pattern: command and implementation sometimes diverge for didactic reasons"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The 'together' position says Moses literally girded all five people at once.",
+          "correction": "The Gemara clarifies that 'bvat achat' means a single uninterrupted sequence - Moses dressed all the garments, then girded Aaron, then the sons, all without breaking off. It is not literal simultaneity."
+        },
+        {
+          "misconception": "The belt-material question is separate from the dressing-sequence question.",
+          "correction": "They are logically coupled. Your answer to 'same or different material?' determines which verse teaches what - and therefore entails your answer to 'sequential or together?'"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Two belts side-by-side: the High Priest's belt (labeled kilaim: blue, purple, fine linen intertwined) vs. the ordinary priest's belt (labeled plain linen / disputed)"
+        },
+        {
+          "type": "sequence",
+          "description": "Moses dressing Aaron step-by-step: tunic, mitre, robe, ephod, choshen - then turning to sons for the same sequence - then returning to gird Aaron with the belt, then each son"
+        },
+        {
+          "type": "text",
+          "description": "The two belt verses from Lev. 8 displayed side-by-side: 'va-yachgor oto ba-avnet' (him, singular) vs. 'va-yachgor otam avnet' (them, plural) with arrows showing each disputant's interpretation"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "According to the 'Aaron and sons together' position, what do the two separate implementation verses ('he girded him' / 'he girded them') teach?",
+          "answer": "Material distinction: the High Priest's belt is kilaim (wool-linen mix) while the ordinary priest's belt is plain linen.",
+          "distractors": [
+            "That Moses dressed Aaron completely before starting on the sons",
+            "That the belt was the last garment placed on each priest",
+            "That both belts were identical in material"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "What does the Gemara mean when it says 'bvat achat' (simultaneously) regarding the belt-girding?",
+          "answer": "Not literal simultaneity - Moses dressed all garments on Aaron and sons first (except belts), then returned in one uninterrupted operation to gird Aaron and then each son sequentially."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "topicTags": [
+        "inauguration",
+        "priestly-vestments",
+        "avnet",
+        "kilaim",
+        "verse-reconciliation",
+        "tsivui-asiyah"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-006a-s02",
+      "lineRange": {
+        "startVilnaLine": 8,
+        "endVilnaLine": 13
+      },
+      "lines": [
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.6a.4"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.6a.5"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.6a.6"
+        }
+      ],
+      "display": {
+        "title": "Why the Kohen Gadol leaves his home: the safek niddah concern",
+        "oneLine": "The mishna's 'removed from his home' requires a separate justification: R. Yehuda ben Beteira explains it prevents the Kohen Gadol from accidentally being with a wife who turns out to have been a safek niddah.",
+        "shortSummary": "The Gemara already explained why the Kohen Gadol is sequestered in the Parhedrin chamber - derived from the inauguration or Sinai. But why must he leave his home (his wife)? The Gemara raises this as a distinct sub-question. R. Yehuda ben Beteira's answer: so he won't accidentally have relations with a safek niddah wife and become ritually impure before Yom Kippur. The Gemara corrects the phrasing: the concern is not that he will knowingly approach a safek niddah wife (that would assume wickedness). Rather: he might have relations innocently, and blood is later found on the sheets, creating uncertainty about whether she was a niddah during relations. This retroactive uncertainty would make him impure.",
+        "whats": "The sequestering question has two components. The first (why sequester at all?) was answered via R. Yochanan (from inauguration precedent) and Reish Lakish (from Sinai). The second (why specifically leave his wife?) is what this sugya addresses. R. Yehuda ben Beteira's concern is safek niddah - uncertain niddah status arising after the fact. If a woman finds blood after relations, and it is unclear whether she had already become a niddah during relations, her husband has potentially contracted seven-day impurity. The Gemara's correction is important: the Kohen Gadol is not expected to knowingly approach a safek niddah (he would not). The concern is that he acted innocently, and the discovery of blood afterward creates retroactive uncertainty. This is a standard legal mechanism: the law responds to what actually happened, not to the couple's intentions.",
+        "hint": "Why does the Gemara bother correcting the phrasing from 'lest she be found a safek niddah and he comes to her' to 'lest he come to her and she be found a safek niddah afterward'? What is at stake in this sequence reversal?"
+      },
+      "learning": {
+        "learnerQuestion": "Why does the Kohen Gadol need to leave his home specifically? Can't his wife join him in the Parhedrin chamber?",
+        "coreTension": "The chamber is already a sacred space with restrictions (no sitting in the courtyard except Davidic kings). Bringing a wife into the Parhedrin arrangement doesn't solve the problem if the concern is ritual impurity through post-coital blood discovery.",
+        "coreMove": "Introduce the safek niddah mechanism: blood discovered after relations creates retroactive impurity uncertainty. The solution is physical separation for seven days before Yom Kippur to prevent the scenario from arising at all.",
+        "resolution": "R. Yehuda ben Beteira's answer: the separation from his home/wife is precisely to prevent the post-coital-blood scenario. The Gemara's phrasing correction ('and then she was found') clarifies this is not about known impurity but about a condition that becomes apparent after the fact.",
+        "takeaway": {
+          "type": "legal_mechanism",
+          "text": "Jewish law responds to the legal state that actually obtains, not to subjective awareness. A man who had innocent relations and then discovers blood on the sheets is retroactively placed in a state of uncertainty - regardless of what he knew at the time. Prophylactic separation prevents this scenario from materializing."
+        },
+        "reasoningPattern": {
+          "id": "prophylactic-separation",
+          "category": "legal",
+          "notes": "A rabbinic institution (separation from home) addresses a scenario where innocent action could trigger a legal state that would disqualify the Kohen Gadol. The institution is prophylactic: it eliminates the possibility of the triggering event, not just the response to it."
+        },
+        "ahaMoment": "The Gemara's phrasing correction shows that the concern is about legal reality, not moral intent. 'Lest he come to a safek niddah' implies he knew her status - which would make him wicked. 'Lest he come and she be found afterward' correctly describes an innocent man placed retroactively in legal jeopardy. This distinction matters because the Kohen Gadol's character is not in question - his legal state is.",
+        "learningBlocker": "Students may conflate knowing impurity with unexpected impurity. R. Yehuda ben Beteira is not protecting against a wicked Kohen - he is protecting against the legal mechanism of retroactive safek niddah impurity, which can trap even the most careful person.",
+        "memoryAnchor": "The Kohen Gadol leaves his wife not from suspicion of him - but to prevent the blood-discovered-after-the-fact scenario from triggering seven-day impurity that would disqualify him from Yom Kippur service."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Sub-question: why does he leave his home (his wife)?",
+          "speaker": "Gemara",
+          "text": "The Gemara already explained why the Kohen Gadol is sequestered in the Parhedrin chamber. But why specifically must he leave his home - i.e., his wife? What is the concern that separation from his wife addresses?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l08",
+              "vilnaLine": 8,
+              "note": "Sub-question about leaving the home specifically"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "answer",
+          "label": "R. Yehuda ben Beteira: safek niddah concern",
+          "speaker": "Rabbi Yehuda ben Beteira",
+          "text": "The concern is that his wife might be found to be a safek niddah and he will approach her - contracting seven-day retroactive impurity that would disqualify him from Yom Kippur service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l11",
+              "vilnaLine": 11,
+              "note": "R. Yehuda ben Beteira's baraita answer"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "objection",
+          "label": "Are we dealing with wicked people?",
+          "speaker": "Gemara",
+          "text": "Would a Kohen Gadol knowingly approach a wife in a state of safek niddah? The phrasing implies he would go to her knowing her uncertain status - but the Kohen Gadol would not do that.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l13",
+              "vilnaLine": 13,
+              "note": "Gemara's objection to the implied intent in the original phrasing"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "Corrected phrasing: he comes innocently, she is found afterward",
+          "speaker": "Gemara",
+          "text": "Rephrase: the concern is lest he have relations innocently, and afterward she be found to be a safek niddah - blood discovered on the sheets creating retroactive uncertainty about whether she was a niddah during relations.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l13",
+              "vilnaLine": 13,
+              "note": "Corrected phrasing of R. Yehuda ben Beteira's concern"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "safek-niddah",
+          "he": "סָפֵק נִדָּה",
+          "translit": "Safek niddah",
+          "en": "Uncertain niddah status. Arises when blood is found after relations and it is unclear whether the woman had the status of niddah during the relations. The legal consequence depends on when the blood is discovered - immediately (all agree on retroactive impurity) or much later (R. Akiva vs. Rabbis disagree).",
+          "sugyaRole": "The trigger for the Kohen Gadol's separation from his wife. If post-coital blood creates a seven-day impurity period, Yom Kippur service may be impossible. Prevention is preferable to cure."
+        },
+        {
+          "id": "mafrish-bayit",
+          "he": "פֵּרַשׁ מִבֵּיתוֹ",
+          "translit": "Parash mi-beito",
+          "en": "Separated from his home. The Kohen Gadol's separation from his wife, as distinct from his transfer to the Parhedrin chamber. These are two separate requirements with two separate justifications.",
+          "sugyaRole": "This sugya addresses the second separation - from home (wife) - after the first (to Parhedrin) was already explained by reference to inauguration/Sinai precedent."
+        }
+      ],
+      "conceptRefs": [
+        "safek-niddah",
+        "mafrish-bayit"
+      ],
+      "requiresUnderstanding": [
+        "The difference between knowing impurity and retroactive legal impurity",
+        "The mechanism of bo'el niddah: seven-day impurity from relations with a niddah",
+        "Why prophylactic separation is a valid rabbinic tool: prevents triggering events rather than managing consequences"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The concern is that the Kohen Gadol might knowingly approach a niddah wife.",
+          "correction": "The Gemara explicitly rejects this: that would assume wickedness. The concern is innocent relations followed by blood discovery - a legal mechanism that does not depend on intent."
+        },
+        {
+          "misconception": "The Kohen Gadol's sequestering and his separation from his wife are the same requirement with the same justification.",
+          "correction": "They are two distinct requirements. Sequestering is derived from inauguration or Sinai precedent. Separation from his wife is justified separately by R. Yehuda ben Beteira's safek niddah concern."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "people",
+          "description": "The Kohen Gadol departing from his home in the days before Yom Kippur, wife remaining behind"
+        },
+        {
+          "type": "timeline",
+          "description": "Scenario diagram: evening relations - morning discovery of blood - retroactive impurity starting from the relations - seven-day count that would overlap with Yom Kippur"
+        },
+        {
+          "type": "contrast",
+          "description": "Two framings: 'lest she be a safek niddah and he approaches' (wrong: implies intent) vs. 'lest he approach and she be found afterward' (correct: innocent action, retroactive legal consequence)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "Why does the Gemara object to the phrasing 'lest his wife be found a safek niddah and he come to her'?",
+          "answer": "Because it implies the Kohen Gadol would knowingly approach a safek niddah wife - which would make him wicked. The correct concern is innocent relations followed by post-coital blood discovery.",
+          "distractors": [
+            "Because safek niddah is not a real legal category",
+            "Because the Kohen Gadol's wife is always presumed pure",
+            "Because the mishna requires certainty not suspicion"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "What is the difference between the Kohen Gadol's transfer to the Parhedrin chamber and his separation from his home?",
+          "answer": "The transfer to Parhedrin is derived from inauguration or Sinai precedent (discussed earlier). The separation from his home (wife) is separately justified by R. Yehuda ben Beteira's safek niddah concern - the two requirements have distinct justifications."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "topicTags": [
+        "safek-niddah",
+        "Kohen-Gadol",
+        "Yom-Kippur",
+        "ritual-purity",
+        "prophylactic-separation",
+        "retroactive-impurity"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-006a-s03",
+      "lineRange": {
+        "startVilnaLine": 15,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.6a.7"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.6a.8"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.6a.9"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.6a.10"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.6a.11"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.6a.12"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.6a.13"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.6a.14"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.6a.15"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.6a.16"
+        }
+      ],
+      "display": {
+        "title": "Bo'el niddah: does he immerse by day or by night?",
+        "oneLine": "R. Zeira proves from the Yom Kippur scenario that bo'el niddah must immerse by day; Rav Shimi offers an alternative; two baraitot challenge the daytime ruling and are both deflected.",
+        "shortSummary": "The Sages assume the safek niddah ruling requires R. Akiva's position (retroactive impurity even for safek). Rav Chisda corrects: even the Rabbis agree when blood is found immediately after relations ('chad achar'); their leniency applies only when found much later ('achar achar'). R. Zeira then uses the Yom Kippur scenario to establish a general rule: bo'el niddah immerses by day. Proof: if he had to wait until nightfall (like the niddah herself), then on the seventh day (which falls on Yom Kippur eve), he would immerse that night - but that is Yom Kippur night, and by the time sunset passes he could not serve. Therefore he must be able to immerse during the day on the seventh day. Rav Shimi's counter: even if we say he is like the niddah (nighttime), we separate him eight days before Yom Kippur (slightly before sunset the eighth day), so the seventh day ends before Yom Kippur night. Two baraitot challenge the daytime-immersion conclusion; both are deflected. The page ends mid-discussion.",
+        "whats": "Three distinct legal developments on this page. First, Rav Chisda clarifies the Rabbinic position on safek niddah: the Rabbis hold that retroactive impurity from safek niddah applies only when blood is found 'chad achar' (one 'afterward' - immediately after, within the time she could get up and wash her face). When found 'achar achar' (long afterward), the Rabbis dispute R. Akiva. The mishna's safek niddah concern works even for the Rabbis. Second, R. Zeira establishes the bo'el niddah immersion rule. Unlike a regular niddah or yoledet (childbirth) who must immerse at night, a bo'el niddah immerse by day (like a tamei met). The proof is from the Yom Kippur scenario itself: if bo'el niddah must wait for night, and the seventh day of impurity falls on Yom Kippur eve, then he immerses Yom Kippur night - but he then needs sunset to complete purification ('he'erev hashemesh'), and that is Yom Kippur night, too late to serve. This proves daytime immersion is the rule. Third, Rav Shimi proposes an alternative: even if bo'el niddah were like the niddah (nighttime), we could simply separate the Kohen Gadol slightly before sunset eight days before Yom Kippur, giving eight full days with the seventh completing before Yom Kippur night. Two baraitot challenge R. Zeira's daytime ruling; both are deflected.",
+        "hint": "R. Zeira proves a general rule about bo'el niddah from a scheduling problem specific to the Kohen Gadol and Yom Kippur. Is this a valid derivation? What does it mean to derive a universal halakha from a limiting case?"
+      },
+      "learning": {
+        "learnerQuestion": "Why does it matter whether bo'el niddah immerses by day or by night? And why does the Yom Kippur case prove the general rule?",
+        "coreTension": "A niddah herself immerses at night (after her seven-day count ends). Does a man who had relations with her share her immersion timing, or does he follow a different track? If he must wait for night like her, there is a scheduling impossibility on Yom Kippur.",
+        "coreMove": "Use the impossibility proof: if the nighttime rule applied to bo'el niddah, the Kohen Gadol who accidentally became impure before sequestering could never serve on Yom Kippur (he would need an extra day beyond his seventh). Since the halakha does allow him to serve, the daytime rule must be correct.",
+        "resolution": "R. Zeira's conclusion: bo'el niddah is like tamei met (corpse impurity), not like niddah - he immerses by day on his seventh day. This allows the Yom Kippur service to proceed. Rav Shimi proposes an alternative escape route (separate him slightly earlier), but R. Zeira's ruling stands as the more elegant resolution.",
+        "takeaway": {
+          "type": "legal_derivation",
+          "text": "Impossibility proofs are powerful in Talmudic reasoning: if a legal rule would make a legitimate Torah obligation impossible to fulfill in a known scenario, the rule must be modified. R. Zeira uses the Yom Kippur impossibility to prove the bo'el niddah daytime rule."
+        },
+        "reasoningPattern": {
+          "id": "impossibility-proof",
+          "category": "logical",
+          "notes": "If rule X would make obligation Y impossible in scenario Z, and Z is a real and legitimate scenario recognized by halacha, then rule X cannot be correct. R. Zeira: if bo'el niddah must immerse at night (rule X), Yom Kippur service (obligation Y) is impossible when the seventh day falls on erev Yom Kippur (scenario Z). Therefore rule X must be wrong."
+        },
+        "ahaMoment": "The Yom Kippur scenario is not just a practical scheduling problem - it is a logical proof that a general halakhic rule (bo'el niddah immerses by day) must be true. The Kohen Gadol's calendar is the laboratory that tests the bo'el niddah rule and forces the conclusion.",
+        "learningBlocker": "Students may think R. Zeira is only solving the Yom Kippur problem. He is actually deriving a universal rule about bo'el niddah and using Yom Kippur as his proof-case. The universality of the conclusion is what makes it a legal ruling, not just a workaround.",
+        "memoryAnchor": "Bo'el niddah immerses by day: the Yom Kippur calendar is the proof. If he had to wait for night on his seventh day, and the seventh day is erev Yom Kippur, he could never serve."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Is the safek niddah ruling only R. Akiva's position?",
+          "speaker": "Sages before Rav Chisda",
+          "text": "The safek niddah concern must follow R. Akiva, who holds retroactive impurity applies even for safek niddah. The Rabbis who disagree with R. Akiva would see no problem.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l15",
+              "vilnaLine": 15,
+              "note": "Assumption that safek niddah concern is R. Akiva's position only"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "distinction",
+          "label": "Rav Chisda: Rabbis also agree when blood found immediately",
+          "speaker": "Rav Chisda",
+          "text": "The Rabbis disagree with R. Akiva only when blood is found 'achar achar' (long afterward). When found 'chad achar' (immediately - within the time it takes the woman to get up and wash), even the Rabbis agree the man is retroactively impure. The mishna's concern works for everyone.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l18",
+              "vilnaLine": 18,
+              "note": "Rav Chisda's distinction between chad achar and achar achar"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "takeaway",
+          "label": "R. Zeira: learn from it - bo'el niddah immerses by day",
+          "speaker": "Rabbi Zeira",
+          "text": "From the Yom Kippur scenario we learn: bo'el niddah is unlike a niddah - he immerses on the seventh day (daytime), not at night.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l21",
+              "vilnaLine": 21,
+              "note": "R. Zeira's conclusion"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "proof",
+          "label": "Impossibility proof for daytime immersion",
+          "speaker": "Rabbi Zeira",
+          "text": "If bo'el niddah were like a niddah (nighttime immersion), when would he immerse? At night on the seventh day - which is Yom Kippur night. He then needs sunset ('he'erev hashemesh') before becoming fully pure - but that sunset is Yom Kippur itself. He could never serve. Therefore bo'el niddah must immerse by day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l22",
+              "vilnaLine": 22,
+              "note": "The impossibility proof establishing daytime immersion"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "counter_objection",
+          "label": "Rav Shimi: alternatively, separate him slightly before sunset eight days early",
+          "speaker": "Rav Shimi from Neharde'a",
+          "text": "Even if bo'el niddah must immerse at night (like a niddah), the problem is solvable: separate the Kohen Gadol one hour before sunset on the eighth day before Yom Kippur. His seventh day then completes before Yom Kippur night, and he can immerse in the evening of erev Yom Kippur and serve the next day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l26",
+              "vilnaLine": 26,
+              "note": "Rav Shimi's alternative that eliminates the scheduling impossibility without requiring daytime immersion"
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "challenge",
+          "label": "Baraita 1: all who must immerse do so by day; niddah and yoledet do so at night",
+          "speaker": "Tanna (baraita)",
+          "text": "All obligated in immersion immerse by day. Exceptions: a niddah and a woman after childbirth immerse at night. Inference: bo'el niddah (not listed with exceptions) immerses by day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l28",
+              "vilnaLine": 28,
+              "note": "First baraita - supporting daytime immersion"
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "rejection",
+          "label": "Baraita 1 deflected: 'niddah' includes those who derive their impurity from her",
+          "speaker": "Gemara",
+          "text": "The baraita's 'niddah' category includes 'all those whose impurity derives from her' - meaning bo'el niddah takes his impurity from the niddah and is included in the nighttime exception. The inference against him fails.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l30",
+              "vilnaLine": 30,
+              "note": "Deflection of baraita 1"
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "challenge",
+          "label": "Baraita 2: bo'el niddah is like tamei met (corpse impurity)",
+          "speaker": "Tanna (baraita)",
+          "text": "Baal keri (seminal emission) is like one who touched a creeping animal (one-day impurity); bo'el niddah is like tamei met (seven-day impurity). Does this mean bo'el niddah immerses by day, like tamei met?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l31",
+              "vilnaLine": 31,
+              "note": "Second baraita - tamei met comparison"
+            }
+          ]
+        },
+        {
+          "id": "step-09",
+          "type": "rejection",
+          "label": "Baraita 2 deflected: the comparison is about duration, not immersion timing",
+          "speaker": "Gemara",
+          "text": "The baraita compares bo'el niddah to tamei met only for the duration of impurity (seven days), not for immersion timing. The Torah explicitly states both impurity durations - the baraita is teaching something else entirely.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l31",
+              "vilnaLine": 31,
+              "note": "Deflection of baraita 2"
+            }
+          ]
+        },
+        {
+          "id": "step-10",
+          "type": "question",
+          "label": "Then what is baraita 2 teaching? (continues on 6b)",
+          "speaker": "Gemara",
+          "text": "If both impurity durations are explicit in Torah, why does the baraita need to derive one from the other? The answer continues on the next daf.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-006a-l33",
+              "vilnaLine": 33,
+              "note": "Open question carrying into 6b"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "boel-niddah-tevila",
+          "he": "בּוֹעֵל נִדָּה טְבִילָתוֹ בַּיּוֹם",
+          "translit": "Bo'el niddah teviltao ba-yom",
+          "en": "A man who had relations with a niddah immerses on his seventh day (daytime), unlike the niddah who immerses at night. R. Zeira establishes this from the Yom Kippur scheduling impossibility.",
+          "sugyaRole": "The core legal ruling of this sugya, proven by the impossibility argument and challenged (unsuccessfully) by two baraitot."
+        },
+        {
+          "id": "chad-achar-vs-achar-achar",
+          "he": "חַד אַחַר / אַחַר אַחַר",
+          "translit": "Chad achar / achar achar",
+          "en": "Rav Chisda's distinction: 'chad achar' = blood found immediately after relations (within the time to get up and wash); 'achar achar' = blood found much later. Rabbis agree with R. Akiva on retroactive impurity for chad achar; they dispute him only for achar achar.",
+          "sugyaRole": "Rav Chisda uses this distinction to show the mishna's safek niddah concern applies even to the Rabbinic position - not just R. Akiva's stricter view."
+        },
+        {
+          "id": "heerev-hashemesh",
+          "he": "הֶעֱרֵב הַשֶּׁמֶשׁ",
+          "translit": "He'erev hashemesh",
+          "en": "Waiting for sunset after immersion. A tvul yom (one who immersed that day) is impure until sunset. This creates the scheduling bind: if bo'el niddah immersed on Yom Kippur night (the seventh day by night), he would need the following sunset to become fully pure - which is Yom Kippur itself.",
+          "sugyaRole": "The critical element in R. Zeira's impossibility proof: even after immersion, the man must wait for sunset. If immersion is on Yom Kippur night, sunset comes too late to permit service."
+        }
+      ],
+      "conceptRefs": [
+        "boel-niddah-tevila",
+        "chad-achar-vs-achar-achar",
+        "heerev-hashemesh"
+      ],
+      "requiresUnderstanding": [
+        "The mechanism of bo'el niddah: seven-day impurity, counts like tamei met",
+        "Tvul yom: one who immersed that day must still wait for sunset",
+        "The R. Akiva vs. Rabbis dispute on safek niddah retroactive impurity",
+        "Why impossibility proofs establish universal halakhic rules"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The safek niddah ruling in the mishna only follows R. Akiva.",
+          "correction": "Rav Chisda shows even the Rabbis agree when blood is found immediately after relations ('chad achar'). The Rabbinic leniency applies only to blood found much later ('achar achar')."
+        },
+        {
+          "misconception": "R. Zeira is only solving the Yom Kippur scheduling problem.",
+          "correction": "R. Zeira is establishing a universal rule about bo'el niddah: he always immerses by day. The Yom Kippur scenario is the proof, not the ruling."
+        },
+        {
+          "misconception": "Rav Shimi and R. Zeira disagree about when to separate the Kohen Gadol.",
+          "correction": "Rav Shimi proposes an alternative that avoids R. Zeira's impossibility argument - but accepts R. Zeira's analysis. Rav Shimi's approach would work even if bo'el niddah immersed at night, by separating the Kohen Gadol earlier."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "description": "Calendar diagram: Day 0 (relations) through Day 7 (Yom Kippur eve) showing immersion timing options - nighttime immersion making service impossible, daytime immersion permitting it"
+        },
+        {
+          "type": "contrast",
+          "description": "Two immersion tracks: niddah/yoledet (nighttime, after count ends) vs. tamei met/bo'el niddah (daytime on seventh day)"
+        },
+        {
+          "type": "sequence",
+          "description": "Rav Shimi's alternative timeline: separation slightly before sunset on day -8 from Yom Kippur, counting seven days, immersing on erev Yom Kippur afternoon"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "According to Rav Chisda, when do the Rabbis agree with R. Akiva about safek niddah retroactive impurity?",
+          "answer": "When blood is found immediately after relations ('chad achar') - within the time it takes to get up and wash. The Rabbis dispute R. Akiva only when blood is found much later ('achar achar').",
+          "distractors": [
+            "The Rabbis never agree with R. Akiva on safek niddah",
+            "The Rabbis agree with R. Akiva only when the woman was certainly a niddah",
+            "The Rabbis agree with R. Akiva always, but their ruling is more lenient"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "What is the scheduling impossibility that proves bo'el niddah must immerse by day?",
+          "answer": "If bo'el niddah must immerse at night (like a niddah), and his seventh day falls on Yom Kippur eve, he would immerse on Yom Kippur night. But he then needs to wait for sunset ('he'erev hashemesh') to complete purification - and that sunset is Yom Kippur itself, too late to serve. Therefore he must be able to immerse by day on his seventh day."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How does Rav Shimi avoid the scheduling impossibility without adopting R. Zeira's daytime immersion rule?",
+          "answer": "By separating the Kohen Gadol slightly before sunset eight days before Yom Kippur, ensuring the seventh day of impurity completes before Yom Kippur night - so even a nighttime immersion would occur on erev Yom Kippur, not Yom Kippur night.",
+          "distractors": [
+            "By holding that the Kohen Gadol's impurity only lasts six days",
+            "By arguing the safek niddah does not create real impurity at all",
+            "By requiring the Kohen Gadol to appoint a backup for Yom Kippur"
+          ]
+        }
+      ],
+      "finalRuling": {
+        "ruling": "Bo'el niddah immerses by day (R. Zeira's conclusion). The Yom Kippur scenario proves this as a general rule. Two baraitot challenge the ruling but are both deflected.",
+        "basis": "Impossibility proof: nighttime immersion would make Yom Kippur service impossible if the seventh day falls on erev Yom Kippur."
+      },
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "topicTags": [
+        "bo'el-niddah",
+        "ritual-purity",
+        "immersion",
+        "Yom-Kippur",
+        "niddah",
+        "tamei-met",
+        "Rav-Chisda",
+        "R-Zeira",
+        "safek-niddah"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "בּוֹעֵל נִדָּה",
+      "translit": "Bo'el niddah",
+      "en": "A man who had relations with a woman in a state of niddah impurity. He contracts seven-day impurity. R. Zeira establishes on this daf that he immerses on his seventh day, by day - unlike the niddah herself who immerses at night."
+    },
+    {
+      "he": "סָפֵק נִדָּה",
+      "translit": "Safek niddah",
+      "en": "Uncertain niddah status - blood found after relations when it is unclear whether the woman was already a niddah during the relations. Rav Chisda distinguishes: when found immediately (chad achar), even the Rabbis agree on retroactive impurity; when found long after (achar achar), R. Akiva and the Rabbis disagree."
+    },
+    {
+      "he": "הֶעֱרֵב הַשֶּׁמֶשׁ",
+      "translit": "He'erev hashemesh",
+      "en": "Awaiting sunset after immersion. A tvul yom (one who has immersed but not yet waited for sunset) remains in a minor state of impurity and cannot perform Temple service. This is the second stage of purification after immersion."
+    },
+    {
+      "he": "כִּלְאַיִם",
+      "translit": "Kilaim",
+      "en": "A mixture of wool and linen fibers in a single garment, normally forbidden by the Torah (sha'atnez). The High Priest's belt was made of kilaim. Whether the ordinary priest's belt was also kilaim is the disputed question that drives the 5b-6a belt controversy."
+    },
+    {
+      "he": "טְבִילָה בַּיּוֹם",
+      "translit": "Tevila ba-yom",
+      "en": "Daytime immersion. The general rule for those obligated in immersion. Exceptions: a niddah and a woman after childbirth immerse at night. R. Zeira establishes that bo'el niddah follows the daytime rule, not the niddah exception."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "He said to you: that one - the High Priest's belt - is not his belt. Meaning: the belt of the ordinary priest is not that belt (kilaim). So the command's 've-chagarta otam' (gird them together) still holds, and the two separate implementation verses teach material distinction: the High Priest's belt is kilaim (linen and wool), while the ordinary priest's belt is plain linen.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Always the verse of the command means literally together, and the implementation shows they are separate to teach us that the belts are not the same: the one described in the implementation (Exodus 39): 'and the belt of fine twisted linen and blue and purple' - we learn it is kilaim: linen is kitan and blue is wool.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "And the sons' belt - the verse did not specify what it was made of, and this teaches us here that the High Priest's belt is not the ordinary priest's belt: this is kilaim and this is plain linen.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "That belt. Meaning: both are kilaim.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "And can 'bvat achat' (simultaneously) actually be found - that Moses alone girds five people at once?",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Not necessary - not literally simultaneously is what he means, but rather one after another, but in one uninterrupted sequence without any other garment in between: he dressed Aaron in all his garments and did not gird him with the belt, and then began dressing the sons - tunic, mitre, trousers - and then took the belts and girded Aaron and afterward his sons. And for the one who says Aaron-then-sons as written in the implementation: 'va-yayten alav et ha-kutonet va-yachgor oto ba-avnet' in the garment sequence... and dressed him in all his garments; then 'he brought near Aaron's sons and dressed them in tunics and girded them with belts' - and did not gird Aaron and sons together.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Not for the one who says Aaron then sons as written in the implementation - and for the one who says together: as in the command. And for R. Yochanan as per his view (who derives from inauguration), or for Reish Lakish as per his view (who derives from Sinai).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "From his home - why did he separate. From his wife - why did he separate. Let his wife come with him to the Parhedrin chamber - the Parhedrin chamber was not consecrated, since sitting in the Temple courtyard is permitted only to Davidic kings - certainly sleeping.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The text reads: it was taught - Rabbi Yehuda ben Beteira says: lest his wife be found etc.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "With wicked people we are dealing: that he would knowingly come to a safek niddah.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rather: lest he come to his wife, and afterward she be found to be a safek niddah - she discovers blood on the sheet she cleaned herself with after he withdrew, and it is unknown whether it was blood during relations or blood after. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Like whom - like R. Akiva, who says a woman who sees blood renders her sexual partner impure retroactively, going back 24 hours as they enacted that she renders pure things impure retroactively. Their dispute is in Niddah, in the chapter 'Kol HaYad' (14a) and so we learned: the way of daughters of Israel is to service with two cloths, one for him and one for her. If found on his - both are impure for all seven days, for certainly there was blood during relations, since men do not emit blood. If found on hers - immediately, which in Yonit means 'right away,' they are certainly impure; found later - meaning a while later, they are uncertainly impure. And how much is 'later'? As much time as needed to descend from the bed and wash the face of the underside, and then it makes things impure retroactively and does not make him impure. And even more than this - she waited a long time to examine and then found - she is like other women: makes pure things impure retroactively for 24 hours and does not make him impure. And so is its explanation: and if more time elapsed and she then examined and found - she is like other women to make things impure retroactively for 24 hours and does not make him impure. For they did not enact the 24-hour retroactive impurity for the sexual partner. R. Akiva says: also makes her sexual partner impure.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rather: achar achar. Which waited more than 'achar zman' - the time which is 'otiyom' (Greek for immediately), and 'achar zman' is after 'otiyom' within the time it takes to descend and wash; and there it teaches: impure with uncertainty. And they do not disagree with R. Akiva. And in 'achar achar zman' they disagree as it says 'and then she makes her partner impure' - retroactively for 24 hours. But in 'chad achar' within 'achar zman,' which is within the time to descend and wash - they agree.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Learn from it: from what it teaches that we separate for seven days, and we established the reason is concern about niddah impurity.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "A bo'el niddah is not like a niddah: who is forbidden to immerse on the seventh day until night - rather he immerses on the seventh day, by day. Therefore he does not need more than seven days separation, and if he came to a niddah on the day of his separation in the evening, he counts the partial day as a full day like a niddah, and immerses on erev Yom Kippur, which is his seventh day, and at sunset he completes - and enters the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "As if you say bo'el niddah is like a niddah: when does he immerse? At night - at night of Yom Kippur, tomorrow how does he perform the service? For he needs he'erev hashemesh.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rather learn from it: bo'el niddah is not like niddah - he immerses by day. Therefore he needs only seven days separation and if he came to a niddah on the night of his departure, counting from that partial night like a full day, immerses the seventh day which is erev Yom Kippur, and his sun sets that evening, and enters and performs service on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Even if you say bo'el niddah is like niddah - that he immerses at nightfall on the seventh day - we separate him close to sunset, eight days before Yom Kippur, and this is what is called 'seven days' because of that little bit of night at the beginning he doesn't count it, and he immerses at the start of Yom Kippur eve, which is his seventh day, and his sun sets at erev Yom Kippur and he performs service tomorrow which is Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Close to sunset: eight days before Yom Kippur. And what he calls 'seven' - because of that little bit of time he doesn't count it. And he immerses at the start of Yom Kippur eve night which is his seventh day, and his sun sets erev Yom Kippur, and he performs service tomorrow which is Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "All who are obligated in immersion: immerse by day - as derived in Megilla (20a) from 'and he shall purify himself on the seventh day and wash in water' (Numbers 19).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "A niddah and a yoledet: their immersion is at night. Niddah - as written (Lev. 15): 'she shall be in her niddah state for seven days' - all seven; yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "A niddah yes, a bo'el niddah no - he does not immerse at night.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Niddah and all that derives from multiplication of her: meaning 'the niddah' includes all whose additional impurity derives from her - and that includes bo'el niddah who takes his impurity from her. And 'multiplication' means the inclusion implied by 'ha-' (the) prefix on niddah.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity, like contact with a sherets, which is one-day impurity. And a bo'el niddah is like a tamei met: to immerse on the seventh day by day, for that is how a tamei met immerses. Is it not then by day?",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "No - for their impurity: baal keri like sherets for one-day impurity, and bo'el niddah like tamei met for seven-day impurity. And he is a primary source of impurity like tamei met.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Their impurity?! It is explicitly written about them. This one has seven-day impurity written about him, and this one has seven-day impurity written about him.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "And why do I need it - one from the other when both are written? Why compare baal keri to sherets contact when baal keri's one-day impurity is explicit in the Torah? And why compare bo'el niddah to tamei met when his seven-day impurity is also explicit? The baraita must be teaching something else.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rather (continues on 6b): not for their impurity duration - but for something else. The resolution of what the baraita is teaching continues on the next daf.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Amar lach: that one - the High Priest's belt - is not the ordinary priest's belt. Meaning: the ordinary priest's belt is of plain linen, while the High Priest's is kilaim.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "And for the one who says Aaron first and afterward sons: the command's 've-chagarta otam avnet' (gird them with a belt) teaches the belts are the same - both of kilaim as stated in the implementation. But the two implementation verses prove sequential: 'girded him' then 'girded them.'",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "And for the one who says Aaron and sons together: follows the command. And the implementation's two separate verses teach the material distinction: this is kilaim (High Priest) and this is linen (ordinary priest).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "If R. Yochanan as per his view: who derives from the inauguration. If Reish Lakish as per his view: who derives from Sinai.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Are we dealing with wicked people? That he would knowingly come to a woman known to be a safek niddah before relations.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rather: lest he come to his wife and then she be found to be a safek niddah - blood found on the sheet after coitus, and it is unknown whether it was during or after. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Like whom (is the mishna's safek niddah concern): like R. Akiva who says a niddah renders her sexual partner impure retroactively. If the Rabbis - but they say a niddah does not render her partner impure.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "With the wicked (be-reshi'ei) we are dealing: that he would knowingly come to a safek niddah.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rather: lest he come to his wife and then she is found as a safek niddah. Blood found on the sheet she cleaned herself with - and it is unknown whether the blood was present during relations or appeared afterward. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Like whom - like R. Akiva who says a woman who sees blood renders her sexual partner impure - retroactively for the entire 24-hour period, just as they enacted she makes pure things impure retroactively. Their dispute is in Niddah in 'Kol HaYad' (14a). And so we learned: daughters of Israel's practice is with two cloths, one for him and one for her. Found on his - both impure all seven days, since certainly blood was during relations. Found on hers - 'otiyom' (immediately, Greek) - they are certainly impure. Found later - meaning a while after that - they are uncertainly impure. And how long is 'later'? Time to descend from bed and wash the lower face. After that she makes things impure retroactively 24 hours and does not make him impure. And R. Akiva says: also makes him impure.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rather with 'achar achar': who delayed more than 'achar zman' - the time called 'otiyom' - and 'achar zman' is after 'otiyom,' within the time to descend and wash. And there it teaches 'impure with uncertainty' and they do not dispute R. Akiva. In 'achar achar zman' they dispute as it says 'and then she makes the partner impure retroactively for 24 hours.' But in 'chad achar' within 'achar zman' they agree.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Learn from it: from what it teaches we separate for seven days, established because of niddah impurity concern.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Bo'el niddah is not like niddah: who is prohibited from immersing on the seventh day until night. Rather he immerses on the seventh day by day. Therefore he needs only seven days separation. And if he came to a niddah on the night of departure day, counting partial day as full like a niddah, immerses erev Yom Kippur (his seventh day), and his sun sets that evening, and enters the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "If you say bo'el niddah is like niddah: when does he immerse? At night. Tomorrow - the night of Yom Kippur - how can he perform the service? For he needs he'erev hashemesh.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rather learn from it: bo'el niddah is not like niddah - he immerses by day on the seventh day. Therefore needs only seven days. If he came to a niddah on departure night, counting partial night as full, immerses the seventh day which is erev Yom Kippur, and his sun sets that evening, and enters and performs the service on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Even if you say bo'el niddah is like niddah: we separate him close to sunset, eight days before Yom Kippur - and we call it 'seven' because that small amount at the beginning is not counted. And he immerses at the onset of Yom Kippur eve night, which is his seventh day, and his sun sets on erev Yom Kippur, and performs the service the next day which is Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Close to sunset: eight days before Yom Kippur. The reason he calls it seven: because of the small amount he doesn't count. And he immerses at the onset of Yom Kippur eve night, his seventh day, and his sun sets erev Yom Kippur, and performs service the next day.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "All obligated in immersion: immerse by day - as derived in Megilla (20a) from 'he shall purify himself on the seventh day and wash in water' (Numbers 19).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "A niddah and yoledet: their immersion at night. Niddah - written (Lev. 15): 'she shall be in her niddah state seven days' - all seven. Yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Niddah yes, bo'el niddah no - does not immerse at night.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Niddah and all that derives from her multiplication: 'niddah' means the niddah category, which includes all whose additional impurity derives from her. And that is bo'el niddah who derives his impurity from her.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity like sherets-contact, which is one-day impurity. And bo'el niddah is like tamei met: to immerse on the seventh day by day. Is this not then by day?",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "No - for their impurity: baal keri like sherets for one-day; bo'el niddah like tamei met for seven-day. And he is a primary source of impurity like tamei met.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Their impurity?! It is explicitly written about them: this one has seven-day impurity written and this one has seven-day impurity written.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rather (incomplete - continues on 6b with what the baraita is actually teaching).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Within the time to descend - they agree. Learn from this: from the fact that we separate for seven days and we establish the reason as concern about niddah impurity; bo'el niddah is not like niddah - she is forbidden to immerse on the seventh day until night. Rather he immerses on the seventh day by day. Therefore he needs only seven days separation, and if he came to a niddah on the day of his departure he counts the partial day as a full day like a niddah, and immerses on erev Yom Kippur which is his seventh day by day, and his sun sets that evening, and enters the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "As if you say bo'el niddah is like niddah: when would he immerse? This refers to a case where he came to a niddah on the night of his departure - and Yom Kippur is the next day: how would he perform the service?",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Close to sunset: eight days before Yom Kippur. And the reason he calls it seven days is that the small amount of time at the beginning he doesn't count. He immerses at the start of erev Yom Kippur night, which is his seventh day, and his sun sets on erev Yom Kippur, and he performs the service the next day which is Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "All who are obligated in immersions immerse by day: as derived in Megilla (20a) from 'and he shall purify himself on the seventh day and wash in water etc.' (Numbers 19).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "A niddah and yoledet immerse at night: niddah - as written (Lev. 15) 'she shall be in her niddah state for seven days' - all seven; yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity, as we say in the chapter 'Elu Devarim' in Pesachim (67b). And bo'el niddah is like tamei met: to immerse on his seventh day - thus he immerses by day.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "No - for their impurity (duration): baal keri like sherets-contact for one-day impurity and is first-degree impurity; bo'el niddah like tamei met for seven-day impurity and is a primary source of impurity like tamei met.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "This one has seven-day impurity written about him: 'and her niddah-impurity shall be upon him and he shall be impure for seven days' (Lev. 15).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "That makes impure (partial - continues on 6b): the baraita is teaching something beyond duration comparison, but the resolution is deferred to the next daf.",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "That renders impure (stub - final Rashi line on 6a, continues on 6b).",
+      "linkedGemaraLineIds": [
+        "yoma-006a-l35"
+      ]
+    }
+  ]
+}

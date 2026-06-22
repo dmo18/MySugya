@@ -1,0 +1,633 @@
+{
+  "canonicalRef": "Yoma 66a",
+  "summary": "Two topics: First, a brief discussion of leap year contract rules (dates extended for the later party's benefit), after which the Gemara returns to the Yom Kippur service. Second, the scapegoat service: the HP approaches the Azazel goat, places both hands on its head, and recites the third comprehensive confession. A designated guide then takes the goat to the wilderness while the HP returns to the Temple for the communal services. The guide acts as the HP's legal agent, completing the dispatch that the HP's confession and hand-laying initiated.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-066a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.66a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.66a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.66a.3"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.66a.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.66a.5"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.66a.6"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.66a.7"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.66a.8"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.66a.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.66a.1",
+        "Yoma.66a.2",
+        "Yoma.66a.3",
+        "Yoma.66a.4",
+        "Yoma.66a.5",
+        "Yoma.66a.6",
+        "Yoma.66a.7",
+        "Yoma.66a.8",
+        "Yoma.66a.9"
+      ],
+      "display": {
+        "whats": "Leap year extension in contracts; then: HP approaches the Azazel goat for the third confession",
+        "hint": "The Gemara briefly addresses leap year contract law, then returns to the Yom Kippur service: the HP approaches the Azazel goat, places both hands on its head, and recites the third confession transferring all Israel's sins."
+      },
+      "learning": {
+        "summary": "The Gemara addresses a tangential topic (leap year contract rules: when a year is extended, contract dates are interpreted generously for the later party), then returns to the Yom Kippur service. The Mishnah describes the HP approaching the Azazel goat at the Temple gate, placing both hands on its head, and reciting the comprehensive third confession. All of Israel's sins are verbally transferred to the goat through the confession and physically through the hand-laying.",
+        "ahaMoment": "The HP's hands on the scapegoat's head: this moment bridges the inner service (blood in the Holy of Holies) and the outer service (scapegoat in the wilderness). The HP himself is the bridge - his hands connect the sanctuary to the wilderness.",
+        "memoryAnchor": "Two hands, one goat, all of Israel: the HP's body is the bridge between the most sacred space and the most desolate place.",
+        "openQuestion": "What is the relationship between the leap year discussion and the Yom Kippur service on this page?"
+      },
+      "argumentFlow": [
+        {
+          "type": "digression",
+          "speaker": "Gemara",
+          "text": "Leap year contract rules: extension benefits the later party.",
+          "id": "yoma-066a-l01",
+          "label": "Digression: Leap year contract rules: extension benefits the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "resumption",
+          "speaker": "Mishnah",
+          "text": "The HP comes over to the Azazel goat tethered at the gate.",
+          "id": "yoma-066a-l06",
+          "label": "Resumption: The HP comes over to the Azazel",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "action",
+          "speaker": "Mishnah",
+          "text": "He places both hands on the goat's head.",
+          "id": "yoma-066a-l09",
+          "label": "Action: He places both hands on the goat's",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "type": "confession",
+          "speaker": "Mishnah",
+          "text": "He recites the third comprehensive confession transferring all Israel's sins.",
+          "id": "yoma-066a-l13",
+          "label": "Confession: He recites the third comprehensive confession transf...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l13",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "type": "transfer",
+          "speaker": "Gemara",
+          "text": "The combination of verbal confession and physical hand-laying effects the symbolic transfer.",
+          "id": "yoma-066a-l17",
+          "label": "Transfer: The combination of verbal confession and physical",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l17",
+              "vilnaLine": 17
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "third confession",
+        "Azazel goat",
+        "hand-laying",
+        "leap year digression",
+        "sin transfer"
+      ],
+      "concepts": {
+        "halachic": [
+          "third confession over the scapegoat",
+          "hand-laying ritual",
+          "sin transfer"
+        ],
+        "theological": [
+          "the HP's hands as bridge between sacred and profane",
+          "symbolic transfer of sin"
+        ],
+        "narrative": [
+          "Yom Kippur service",
+          "scapegoat ritual"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the third confession covers all of Israel (the first two were for HP's household and the priesthood)",
+        "Understanding hand-laying as a formal transfer mechanism"
+      ],
+      "misconceptions": [
+        "The HP confesses, then hands the goat to the guide - he does not accompany it to the cliff"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "HP with hands on scapegoat's head"
+        },
+        {
+          "type": "action",
+          "name": "third confession over the scapegoat"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the HP's physical role in the scapegoat service?",
+          "answer": "He approaches the tethered Azazel goat, places both hands on its head, and recites the third comprehensive confession transferring all Israel's sins. He then hands the goat to the designated guide."
+        }
+      ],
+      "finalRuling": "The HP places both hands on the scapegoat's head and recites the third confession - the physical and verbal transfer of all Israel's sins before the goat is dispatched.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-066a-s02",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 47
+      },
+      "lines": [
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.66a.10"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.66a.11"
+        },
+        {
+          "vilnaLine": 40,
+          "sefariaRef": "Yoma.66a.12"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.66a.13"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.66a.14"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.66a.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.66a.10",
+        "Yoma.66a.11",
+        "Yoma.66a.12",
+        "Yoma.66a.13",
+        "Yoma.66a.14",
+        "Yoma.66a.15"
+      ],
+      "display": {
+        "whats": "The guide takes the scapegoat; the HP cannot accompany it due to remaining Temple service obligations",
+        "hint": "The designated guide takes the Azazel goat after the confession. The HP cannot accompany it because he is needed for the subsequent communal services. The guide is the HP's agent for the final dispatch."
+      },
+      "learning": {
+        "summary": "After the HP completes the confession, a designated guide leads the Azazel goat from the Temple gate toward the wilderness. The HP does not accompany the goat - he is needed in the Temple for the subsequent services (Torah reading, additional offerings, etc.). The guide acts as the HP's agent for the journey. Halachically, the guide's action completes what the HP began. The Gemara discusses the relationship between the HP's confession/hand-laying and the guide's dispatch as two halves of one service.",
+        "ahaMoment": "The HP and the guide are two parts of one service: the HP provides the intentional act (confession, hand-laying), the guide provides the dispatch act. Neither alone constitutes the complete service.",
+        "memoryAnchor": "HP at the gate, guide on the road: a divided service with two essential actors completing one atonement.",
+        "openQuestion": "Is the guide's role merely practical (the HP is busy) or is there a deeper reason the HP cannot accompany the scapegoat?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "The designated guide takes the goat from the HP; the HP returns to his Temple duties.",
+          "id": "yoma-066a-l24",
+          "label": "Ruling: The designated guide takes the goat from",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l24",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "type": "reason",
+          "speaker": "Gemara",
+          "text": "The HP cannot accompany the goat because subsequent Temple services require his presence.",
+          "id": "yoma-066a-l33",
+          "label": "Reason: The HP cannot accompany the goat because",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l33",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "type": "agency",
+          "speaker": "Gemara",
+          "text": "The guide acts as the HP's agent for the dispatch; his action completes the HP's initiation.",
+          "id": "yoma-066a-l40",
+          "label": "Agency: The guide acts as the HP's agent",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l40",
+              "vilnaLine": 40
+            }
+          ]
+        },
+        {
+          "type": "structure",
+          "speaker": "Gemara",
+          "text": "Two-part service: HP's confession + guide's dispatch = one complete scapegoat service.",
+          "id": "yoma-066a-l46",
+          "label": "Structure: Two-part service: HP's confession + guide's dispatch",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-066a-l46",
+              "vilnaLine": 46
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "guide takes goat",
+        "HP returns to Temple",
+        "agency",
+        "divided service",
+        "dispatch"
+      ],
+      "concepts": {
+        "halachic": [
+          "guide as HP's agent",
+          "HP's return to Temple duties",
+          "two-part scapegoat service"
+        ],
+        "theological": [
+          "divided labor in sacred service",
+          "agency completing what the principal began"
+        ],
+        "narrative": [
+          "Yom Kippur service structure",
+          "scapegoat dispatch"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the HP has more services to perform after the scapegoat",
+        "Understanding halachic agency (shlichut)"
+      ],
+      "misconceptions": [
+        "The guide is not just a practical helper - he is the HP's legal agent for the dispatch"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "relationship",
+          "name": "HP as principal and guide as agent"
+        },
+        {
+          "type": "sequence",
+          "name": "HP confesses and hands off, guide dispatches to Azazel"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why doesn't the HP accompany the Azazel goat to the cliff himself?",
+          "answer": "He is needed in the Temple for the subsequent services (Torah reading, blessings, additional offerings). The designated guide acts as his agent to complete the dispatch."
+        }
+      ],
+      "finalRuling": "The guide acts as the HP's agent for the scapegoat dispatch while the HP returns to the Temple for the communal reading and offering services.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "If the year was extended (leap year): it is extended for the benefit of the seller.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The leap year extension and its relationship to contracts and agreements.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "When a year is extended, dates in contracts are interpreted generously.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "The month added in a leap year benefits the later party, not the earlier.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "This general leap year principle is applied to various legal contexts.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Then the Yom Kippur service continues: 'The HP comes over to the goat.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "After the scapegoat is prepared and the third confession is recited.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "The HP comes to the Azazel goat to begin the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "He stands before the goat, which is tethered at the gate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "He places both hands on the goat's head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "This is the formal beginning of the scapegoat dispatch ritual.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The confession he recites at this point is comprehensive.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "All of Israel's sins are confessed and transferred.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The transfer is symbolized by the placing of hands.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "And effectuated by the words of the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "After the confession: the guide takes the goat away.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The guide is accompanied by the crowds that line the route.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The HP's role is complete once the confession is recited and the goat handed to the guide.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "He does not accompany the goat himself.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "His job is the confession; the guide's job is the dispatch.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The HP's concentration is needed back in the Temple for the remaining services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "He cannot leave for the journey to the wilderness.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The division of labor: HP confesses and hands off; guide leads to the cliff.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "This division is itself legally required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The HP must remain in the Temple area for subsequent services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Therefore the guide role was created: to complete what the HP began.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The guide serves as the HP's surrogate for the journey.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "His act is the HP's act; his success is the HP's success.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "This surrogate relationship is common in halachic thinking.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "An agent can act in place of the principal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The guide is the HP's agent for the final leg of the scapegoat's journey.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The agency relationship is complete: the HP's intention, the guide's action.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Together they constitute the full scapegoat dispatch service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The HP at the gate, the guide on the road: one service, two participants.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "This is the last major action of the blood-and-scapegoat service of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "After the scapegoat is dispatched: the HP begins the communal service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Reading the Torah, reciting the blessings, offering the additional sacrifices.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The communal phase of Yom Kippur begins after the scapegoat disappears into the wilderness.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "The two phases: atonement (blood and scapegoat) then celebration (reading and offerings).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The celebration phase: Torah reading, blessings, sacrifices.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Israel gathers to hear the HP read, pray for them, and offer on their behalf.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The community is present for the communal phase.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The blood service was witnessed only by the HP alone.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The communal phase is witnessed by all.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "This is the transition: from the most private to the most public.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "The arc of Yom Kippur: begins alone in the innermost, ends with all Israel present.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "This is how atonement works: first the private encounter, then the communal celebration.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "First you have to fix the break; then you can celebrate the repair.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "The blood service fixes the break; the reading and offerings celebrate the repair.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Yom Kippur is not just the day of atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "It is also the day of celebration of atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "The Mishnah tells us that Yom Kippur (and Tu B'Av) are the happiest days in Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Not despite the fasting - because of what the fasting leads to.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Atonement achieved is cause for celebration.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

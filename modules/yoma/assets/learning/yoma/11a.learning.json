@@ -1,0 +1,456 @@
+{
+  "daf": "11a",
+  "canonicalRef": "Yoma 11a",
+  "summary": "11a opens by identifying the tanna behind the baraita that all Temple gates lacked a mezuza except Nicanor Gate, concluding even R. Yehuda could hold it since gate and chamber form one combined rabbinic decree. The Gemara then broadens to general mezuza law: city gates and all four types of public gates require a mezuza, but Machoza's city gates lacked one due to the danger of checking - public mezuzot are checked only twice per jubilee, and a checker could be fined 1000 zuz for finding a defective mezuza that had been there longer. The bulk of the daf debates which storehouses (hay, cattle, wood, wine) require a mezuza through a three-way dispute between Rav Kahana and Rav Yehuda over what 'nashim ne'otot bahen' (women frequent them) means.",
+  "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-011a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 3
+      },
+      "lines": [
+        { "vilnaLine": 1, "sefariaRef": "Yoma.11a.1" },
+        { "vilnaLine": 3, "sefariaRef": "Yoma.11a.2" }
+      ],
+      "display": {
+        "title": "The tanna behind the Temple-gates baraita",
+        "oneLine": "The Gemara identifies whose view the baraita (all Temple gates lack mezuza except Nicanor Gate) reflects, and shows even R. Yehuda can hold it.",
+        "shortSummary": "A baraita states all Temple gates lacked a mezuza except the Nicanor Gate, which had one because caretakers resided in its chambers. The Gemara asks whose view this is. The concern: if the baraita reflects R. Yehuda's position, does it create a gezeira ligzeira - a rabbinic decree protecting a rabbinic decree (Parhedrin chamber decree + Temple-gates decree)? The Gemara resolves this by treating the gate and the Parhedrin chamber as one unified decree, not two separate ones layered on each other.",
+        "whats": "The Gemara identifies whose view the Temple-gates baraita reflects. The challenge: if it is R. Yehuda's view, then the Parhedrin chamber already has a mezuza only by rabbinic decree - can we pile a second rabbinic decree on top of that (the Temple-gates decree)? The Gemara resolves: the gate and chamber are treated as one unified decree, avoiding the gezeira ligzeira problem.",
+        "hint": "The rule against gezeira ligzeira (a decree to protect a decree) is a significant principle limiting rabbinic legislation. Here the Gemara finds a way around it by treating gate and chamber as one unified ruling."
+      },
+      "learning": {
+        "learnerQuestion": "Why does it matter which tanna authored the Temple-gates baraita? And what is the gezeira ligzeira problem?",
+        "coreTension": "If R. Yehuda holds the Parhedrin mezuza is only rabbinic, then requiring mezuza for the Nicanor Gate (to protect people from thinking the Parhedrin chamber lacks one) would be a decree protecting a decree - normally forbidden. The Gemara needs to show this is not actually gezeira ligzeira.",
+        "coreMove": "The Gemara collapses the gate and chamber into one combined rabbinic decree rather than treating them as two separate decrees in sequence. This avoids the prohibition on stacking rabbinic decrees.",
+        "resolution": "The Temple-gates baraita can reflect R. Yehuda's position because gate and chamber form a single unit - the decree applies to the whole structure, not to each part separately.",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Rabbinic decrees that apply to connected structures can be treated as one ruling rather than two stacked decrees. The prohibition on gezeira ligzeira applies to distinct independent decrees, not to one ruling that covers a connected structure."
+        },
+        "reasoningPattern": {
+          "id": "gezeira-ligzeira-avoidance",
+          "category": "rabbinic legislation limits",
+          "notes": "The Gemara avoids the gezeira ligzeira problem by recharacterizing the two rulings (gate + chamber) as one. This is a standard Talmudic move: when a logical problem threatens a ruling, reframe the ruling's scope."
+        },
+        "ahaMoment": "The Nicanor Gate specifically had a mezuza (unlike all other Temple gates) because a caretaker lived in its chambers. The gate requirement follows the residence - once someone genuinely lives there, the whole entrance requires a mezuza.",
+        "learningBlocker": "Students may not understand why gezeira ligzeira is forbidden. The concern is that stacking rabbinic decrees leads to ever-expanding obligations that were never intended by Torah law. The Sages limited this by prohibiting decrees whose sole purpose is to protect another decree.",
+        "memoryAnchor": "All Temple gates: no mezuza. Nicanor Gate: mezuza - because someone lived there. R. Yehuda can hold this without gezeira ligzeira because gate and chamber are one unit, not two decrees stacked."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Who authored the Temple-gates baraita?",
+          "speaker": "Gemara",
+          "text": "A baraita teaches all Temple gates lacked a mezuza except Nicanor Gate (where caretakers resided). The Gemara asks: whose position does this reflect?",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l01", "vilnaLine": 1, "note": "Question about the baraita's authorship" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "resolution",
+          "label": "Even R. Yehuda - gate and chamber are one decree",
+          "speaker": "Gemara",
+          "text": "Even R. Yehuda can hold this view, because the decree applies to the gate and chamber as a unified structure. There is no gezeira ligzeira problem when a single decree covers connected elements.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l03", "vilnaLine": 3, "note": "Resolution: unified decree avoids the stacking problem" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "Temple gates", "gezeira ligzeira", "Nicanor Gate", "R. Yehuda"],
+      "concepts": [
+        {
+          "he": "גְּזֵירָה לִגְזֵירָה",
+          "translit": "Gezeira ligzeira",
+          "definition": "A decree to protect a decree - ordinarily prohibited in rabbinic legislation, since stacking decrees leads to unintended expansion of obligations."
+        },
+        {
+          "he": "שַׁעַר נִיקָנוֹר",
+          "translit": "Sha'ar Nikanor",
+          "definition": "The Nicanor Gate - the eastern gate of the Temple courtyard, named after Nikanor of Alexandria who donated its copper doors. The only Temple gate with a mezuza, because caretakers resided in its chambers."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
+        "R. Yehuda's position that the Parhedrin chamber mezuza is only rabbinic",
+        "Basic Temple geography and gate structure"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Nicanor Gate had a mezuza because it was the most important gate.",
+          "correction": "It had a mezuza because people (caretakers) lived in the chambers attached to it, not because of the gate's architectural or ritual prominence."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Temple gates diagram with Nicanor Gate highlighted as the only one with a mezuza",
+        "Gate + chamber as unified structure diagram"
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why did the Nicanor Gate have a mezuza when all other Temple gates did not?",
+          "a": "Because caretakers (gabba'im) resided in the chambers attached to the Nicanor Gate, making those chambers genuine residences that required a mezuza."
+        },
+        {
+          "q": "Why does the Temple-gates decree not constitute a gezeira ligzeira for R. Yehuda?",
+          "a": "Because the gate and the Parhedrin chamber are treated as one unified structure subject to one decree, not two separate rabbinic decrees stacked on each other."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11a.1", "Yoma.11a.2"],
+      "review": "ai_generated"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-011a-s02",
+      "lineRange": {
+        "startVilnaLine": 6,
+        "endVilnaLine": 19
+      },
+      "lines": [
+        { "vilnaLine": 6, "sefariaRef": "Yoma.11a.3" },
+        { "vilnaLine": 10, "sefariaRef": "Yoma.11a.4" },
+        { "vilnaLine": 17, "sefariaRef": "Yoma.11a.5" },
+        { "vilnaLine": 19, "sefariaRef": "Yoma.11a.6" }
+      ],
+      "display": {
+        "title": "Which gates require a mezuza - and the danger of checking",
+        "oneLine": "City gates and all four types of public gates require a mezuza, but Machoza's gates lacked one because checking a mezuza risked a 1000-zuz fine.",
+        "shortSummary": "The Gemara establishes that city gates require a mezuza. It then asks why Machoza (a major Jewish city) had no mezuzot on its city gates. Rav Safra says the gates were structural reinforcements built into the wall, not real gates. Abaye challenges: then the fortified structure itself should require a mezuza. The real answer is danger: public mezuzot are checked only twice per jubilee (50 years), and if a checker finds a mezuza defective from before his tenure, he is liable for a 1000-zuz fine. Samuel's precedent shows agents of a mitzva are protected from harm only when danger is not fixed and predictable.",
+        "whats": "Two questions about city-gate mezuzot. First: why did Machoza's city gates lack mezuzot? Rav Safra's structural answer is rejected by Abaye. The real reason is danger: checking a public mezuza risks an enormous fine, and since danger here is fixed and predictable, one cannot rely on the principle that agents of a mitzva are not harmed. Samuel himself demonstrated this by not checking a mezuza when he had reason to fear harm.",
+        "hint": "The principle 'shluchei mitzva einan nizzokin' (agents of a mitzva are not harmed) has a crucial exception: when danger is fixed and predictable. Samuel's precedent shows that even a great scholar avoids a mitzva when real danger exists."
+      },
+      "learning": {
+        "learnerQuestion": "If agents of a mitzva are divinely protected, why would anyone fear a fine from checking a mezuza?",
+        "coreTension": "The general principle protects mitzva agents from supernatural harm, but a 1000-zuz fine is not supernatural - it is a predictable legal consequence. The exception for 'fixed and predictable danger' means divine protection does not extend to man-made legal penalties.",
+        "coreMove": "The Gemara distinguishes between unpredictable supernatural danger (covered by mitzva-agent protection) and predictable human-imposed consequences (not covered). Samuel's example applies this distinction practically.",
+        "resolution": "Machoza's gates lacked mezuzot because the danger of checking was real and predictable: if you find a mezuza that has been there unchecked for years and discover it is now pasul, you may be liable for all the time it was defective. This is not a risk mitzva-agent protection eliminates.",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Mitzva-agent protection is not a blanket exemption from all harm. When danger is specific, predictable, and human in origin (like a legal fine), one should not rely on divine protection and may legitimately avoid the risky action."
+        },
+        "reasoningPattern": {
+          "id": "shluchei-mitzva-exception",
+          "category": "halakhic principle with exception",
+          "notes": "The exception (fixed predictable danger) is as important as the rule. Knowing when a principle does not apply is as essential as knowing the principle itself."
+        },
+        "ahaMoment": "Samuel's approach is instructive: he did not check a mezuza when he had reason to fear harm. This is not cowardice - it is correct halakhic reasoning. Divine protection applies to unexpected dangers, not predictable ones you walk into knowingly.",
+        "learningBlocker": "Students may think the Gemara is saying mezuzot on public gates are simply optional. The Gemara actually says they are required - the Machoza case is an exception justified by specific predictable danger, not a general exemption for public gates.",
+        "memoryAnchor": "City gates need mezuza. Machoza: no mezuza. Why? Checking risk = 1000-zuz fine for a defective mezuza found too late. Mitzva-agent protection does not cover predictable human penalties. Samuel's precedent: even the greatest scholar avoids predictable danger."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "assertion",
+          "label": "City gates require a mezuza",
+          "speaker": "Gemara",
+          "text": "The Gemara establishes that city gates and all four types of public gates require a mezuza. This raises the question about Machoza.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l06", "vilnaLine": 6, "note": "General rule: city gates require mezuza" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "question",
+          "label": "Why did Machoza's city gates lack mezuzot?",
+          "speaker": "Gemara",
+          "text": "Rav Safra's answer: the Machoza gates were structural reinforcements built into the city wall, not real gates. Abaye rejects this: then the whole fortified structure should require a mezuza.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l10", "vilnaLine": 10, "note": "Rav Safra's answer rejected by Abaye" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Real reason: danger from the checking fine",
+          "speaker": "Gemara",
+          "text": "The real reason Machoza's gates lacked mezuzot: public mezuzot are only checked twice per jubilee. If a checker finds a defective mezuza, he risks a 1000-zuz fine. When danger is predictable, mitzva-agent protection does not apply, as shown by Samuel's precedent.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l17", "vilnaLine": 17, "note": "The danger reasoning - predictable risk exceeds mitzva protection" }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "support",
+          "label": "Samuel's precedent: avoided checking when danger was predictable",
+          "speaker": "Samuel",
+          "text": "Samuel himself did not check a mezuza in a specific case because he recognized the danger as fixed and predictable, showing that even great scholars apply this exception.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l19", "vilnaLine": 19, "note": "Samuel's precedent for avoiding predictable danger" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "city gates", "Machoza", "shluchei mitzva", "danger"],
+      "concepts": [
+        {
+          "he": "שְׁלוּחֵי מִצְוָה אֵינָן נִזּוֹקִין",
+          "translit": "Shluchei mitzva einan nizzokin",
+          "definition": "Agents performing a mitzva are not harmed - a general principle of divine protection for those fulfilling commandments, which applies only to unpredictable supernatural danger, not to fixed human-imposed consequences."
+        },
+        {
+          "he": "אָבוּלֵי",
+          "translit": "Abulei",
+          "definition": "City gates (from Greek 'abile') - the large gates of a walled city that require a mezuza when people reside within the walls."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "The principle that agents of a mitzva are divinely protected",
+        "The exception when danger is fixed and predictable",
+        "Mezuza checking obligations and the consequences of finding a defective mezuza"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Machoza's gates lacked mezuzot because they were not real gates or not obligated.",
+          "correction": "City gates are obligated. Machoza's gates lacked mezuzot because of the specific danger of the checking fine - a predictable legal risk that mitzva-agent protection does not cover."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "City gate with mezuza on doorpost",
+        "Contrast: predictable danger (fine) vs. unpredictable danger (accident)"
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why did Machoza's city gates lack mezuzot even though city gates generally require them?",
+          "a": "Because checking public mezuzot carried a risk of a 1000-zuz fine if a defective mezuza was found, and since this danger was fixed and predictable, the protection for mitzva-agents did not apply."
+        },
+        {
+          "q": "When does the principle 'shluchei mitzva einan nizzokin' NOT apply?",
+          "a": "When the danger is fixed and predictable. Divine protection applies to unexpected supernatural danger, not to predictable human-imposed consequences like legal fines."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11a.3", "Yoma.11a.4", "Yoma.11a.5", "Yoma.11a.6"],
+      "review": "ai_generated"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-011a-s03",
+      "lineRange": {
+        "startVilnaLine": 26,
+        "endVilnaLine": 51
+      },
+      "lines": [
+        { "vilnaLine": 26, "sefariaRef": "Yoma.11a.7" },
+        { "vilnaLine": 32, "sefariaRef": "Yoma.11a.8" },
+        { "vilnaLine": 36, "sefariaRef": "Yoma.11a.9" },
+        { "vilnaLine": 38, "sefariaRef": "Yoma.11a.10" },
+        { "vilnaLine": 41, "sefariaRef": "Yoma.11a.11" },
+        { "vilnaLine": 44, "sefariaRef": "Yoma.11a.12" },
+        { "vilnaLine": 45, "sefariaRef": "Yoma.11a.13" },
+        { "vilnaLine": 48, "sefariaRef": "Yoma.11a.14" },
+        { "vilnaLine": 51, "sefariaRef": "Yoma.11a.15" }
+      ],
+      "display": {
+        "title": "Storehouses and the mezuza dispute between Rav Kahana and Rav Yehuda",
+        "oneLine": "A three-way dispute between Rav Kahana and Rav Yehuda over which storehouses require a mezuza turns on what 'women frequent them' means and how to read two baraitot.",
+        "shortSummary": "Rav Kahana rules storehouses for hay and cattle do not require a mezuza (not a human residence), but storehouses for wood and wine do (women frequent them to draw wine). Rav Yehuda rules the wood storehouse does not require a mezuza but the wine storehouse does. A third position emerges from a second Rav Yehuda teaching. The debate turns on interpreting 'nashim ne'otot bahen' (women frequent them): does it mean women enter to draw wine (Rav Kahana), or women bring wine to sell there (Rav Yehuda)? Two baraitot conflict on the question of which types of storehouses require a mezuza, and the Gemara attempts to reconcile them.",
+        "whats": "The storehouse debate illustrates how the mezuza requirement's inner logic (genuine human dwelling or frequent use by residents) applies to non-residential structures. Rav Kahana and Rav Yehuda share the same criterion (women frequent them) but interpret it differently for each storehouse type. The underlying question: does 'women frequent them' mean the space is used regularly for domestic purposes (Rav Kahana: wine drawing = domestic = mezuza), or that it is a commercial space women visit (Rav Yehuda: commercial entry = not residential = no mezuza)?",
+        "hint": "The phrase 'nashim ne'otot bahen' (women frequent them) does double duty: it is both the criterion for obligation and the disputed phrase. The same words are read differently by different authorities to produce opposite rulings for the same storehouse type."
+      },
+      "learning": {
+        "learnerQuestion": "Why does whether women enter a storehouse determine if it needs a mezuza?",
+        "coreTension": "The mezuza requirement tracks residential use. 'Women frequent them' is the Gemara's shorthand for 'used for domestic household purposes' - if women regularly enter to draw wine or retrieve supplies, the space functions as a household extension and acquires mezuza status.",
+        "coreMove": "The interpretive dispute about 'nashim ne'otot bahen' reveals that the criterion is not women per se, but the domestic character of the use. Rav Kahana reads 'women drawing wine' as domestic use (= mezuza). Rav Yehuda reads 'women bringing wine to sell' as commercial use (= no mezuza).",
+        "resolution": "Unresolved on this daf - the baraita conflict continues into 11b where the full conclusion emerges.",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Mezuza obligation follows residential character, not just building type. The same storehouse can be obligated or exempt depending on how it is actually used by the household - storage for domestic use differs from commercial storage."
+        },
+        "reasoningPattern": {
+          "id": "criterion-interpretation-dispute",
+          "category": "interpretive dispute",
+          "notes": "Both Rav Kahana and Rav Yehuda use 'women frequent them' as the criterion, but read the same phrase to mean different things. This is a pure interpretive dispute where the disagreement is about what the decisive fact (women's presence) signifies."
+        },
+        "ahaMoment": "The wine storehouse is the crucial case: both disputants agree it is frequently accessed by women. The dispute is about whether that access (drawing wine = domestic / bringing wine to sell = commercial) determines its halakhic character.",
+        "learningBlocker": "Students may think the dispute is about who enters the building. The dispute is actually about what kind of activity the building serves: domestic household use (obligated) vs. commercial use (exempt, like a workplace).",
+        "memoryAnchor": "Hay storehouse: no mezuza (animals, not people). Cattle pen: no mezuza. Wood storehouse: disputed. Wine storehouse: both agree it can be obligated, but why? Women draw wine from it - or women bring wine to sell there? The same fact, opposite conclusions."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "assertion",
+          "label": "Rav Kahana: hay and cattle - no mezuza; wood and wine - mezuza",
+          "speaker": "Rav Kahana",
+          "text": "Storehouses for hay and cattle do not require a mezuza (these are spaces for animals, not domestic use). Storehouses for wood and wine do require a mezuza because women frequently enter them.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l26", "vilnaLine": 26, "note": "Rav Kahana's ruling on all four storehouse types" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "counter",
+          "label": "Rav Yehuda: wood - no mezuza; wine - mezuza",
+          "speaker": "Rav Yehuda",
+          "text": "Rav Yehuda disagrees about the wood storehouse: women do not frequently enter wood storehouses (wood is carried out, not drawn from within). Only the wine storehouse qualifies.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l32", "vilnaLine": 32, "note": "Rav Yehuda's first position distinguishing wood from wine" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "complication",
+          "label": "Second Rav Yehuda ruling contradicts the first",
+          "speaker": "Rav Yehuda",
+          "text": "A second teaching by Rav Yehuda appears to rule differently from his first. The Gemara must reconcile these two positions.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l36", "vilnaLine": 36, "note": "Apparent internal contradiction in Rav Yehuda's rulings" }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "question",
+          "label": "What does 'nashim ne'otot bahen' mean?",
+          "speaker": "Gemara",
+          "text": "The pivotal interpretive question: does 'women frequent them' mean women enter to draw wine for household use (Rav Kahana's reading = domestic = mezuza), or women enter to bring wine they are selling (Rav Yehuda's reading = commercial = no mezuza)?",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l38", "vilnaLine": 38, "note": "The disputed phrase and its two readings" }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "support",
+          "label": "Baraita 1: supports obligation in wine storehouses",
+          "speaker": "Baraita",
+          "text": "A baraita appears to support requiring a mezuza for wine storehouses where women frequently enter.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l41", "vilnaLine": 41, "note": "First baraita supporting mezuza in wine storehouses" }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "complication",
+          "label": "Baraita 2 seems to contradict Baraita 1",
+          "speaker": "Gemara",
+          "text": "A second baraita lists different categories and seems to conflict with the first on which storehouses are obligated. The Gemara begins reconciling them, a task that continues into 11b.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011a-l48", "vilnaLine": 48, "note": "Second baraita - conflict that will be resolved on 11b" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "storehouses", "Rav Kahana", "Rav Yehuda", "domestic use"],
+      "concepts": [
+        {
+          "he": "נָשִׁים נְעוֹתוֹת בָּהֶן",
+          "translit": "Nashim ne'otot bahen",
+          "definition": "Women frequent them - the criterion used to determine whether a storehouse has residential/domestic character. The same phrase is interpreted differently by Rav Kahana (women draw wine = domestic) and Rav Yehuda (women bring wine commercially = not domestic)."
+        },
+        {
+          "he": "בֵּית הָאוֹצָר",
+          "translit": "Beit ha'otsar",
+          "definition": "Storehouse - one of the non-obvious structures whose mezuza status depends on whether its use has domestic character (people regularly access it for household needs) rather than purely commercial or animal-serving purposes."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "That mezuza requires a 'dwelling' - a space used for human residential purposes",
+        "The distinction between domestic/residential use and commercial use",
+        "Basic storehouse structure in Talmudic times"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The dispute is about whether women specifically (vs. men) are the relevant population.",
+          "correction": "Women are mentioned because in Talmudic times women typically managed household provisions (drawing wine, storing food). 'Women frequent them' is shorthand for 'used for domestic household purposes' - the criterion is the domestic character of the use, not the gender of the user."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Four storehouse types: hay, cattle, wood, wine - with mezuza status marked for each opinion",
+        "Woman drawing wine from storage vessel - the pivotal image"
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is Rav Kahana's criterion for determining which storehouses require a mezuza?",
+          "a": "Whether women frequently enter them for domestic purposes. Hay and cattle storehouses lack this (animal use only); wood and wine storehouses have this (women draw supplies from them)."
+        },
+        {
+          "q": "How does Rav Yehuda differ from Rav Kahana on the wood storehouse?",
+          "a": "Rav Yehuda rules the wood storehouse does not require a mezuza because women do not regularly enter it - wood is carried out, not drawn from within like wine. Only the wine storehouse, where women regularly enter to draw wine, is obligated."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11a.7", "Yoma.11a.8", "Yoma.11a.9", "Yoma.11a.10", "Yoma.11a.11", "Yoma.11a.12", "Yoma.11a.13", "Yoma.11a.14", "Yoma.11a.15"],
+      "review": "ai_generated"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "גְּזֵירָה לִגְזֵירָה",
+      "translit": "Gezeira ligzeira",
+      "en": "A decree to protect a decree - normally prohibited in rabbinic legislation. The Gemara avoids this problem for the Temple-gates ruling by treating gate and chamber as one unified structure subject to a single decree."
+    },
+    {
+      "he": "שְׁלוּחֵי מִצְוָה אֵינָן נִזּוֹקִין",
+      "translit": "Shluchei mitzva einan nizzokin",
+      "en": "Agents performing a mitzva are not harmed. A general principle of divine protection, with a crucial exception: when danger is fixed and predictable (like a legal fine), one may not rely on this protection."
+    },
+    {
+      "he": "אוֹצָר",
+      "translit": "Otsar",
+      "en": "Storehouse or treasury. The Gemara debates which types of storehouses (hay, cattle, wood, wine) require a mezuza based on whether they serve domestic residential purposes."
+    }
+  ],
+  "rashiTranslations": [
+    { "vilnaLine": 1, "en": "Rashi on 'all Temple gates': the eastern gates of the Temple courtyard. All had no mezuza.", "linkedGemaraLineIds": ["yoma-011a-l01"] },
+    { "vilnaLine": 2, "en": "Rashi: 'a city that has gates' - this refers to a fully walled city with proper entrance gates through which residents pass daily.", "linkedGemaraLineIds": ["yoma-011a-l01"] },
+    { "vilnaLine": 3, "en": "Rashi on Nicanor Gate: the Nicanor Gate is named after Nikanor of Alexandria who donated its famous copper doors. Caretakers lived in chambers there.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
+    { "vilnaLine": 4, "en": "Rashi: the question of which tanna authored the Temple-gates baraita is important because it determines whether R. Yehuda's position is self-consistent.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
+    { "vilnaLine": 5, "en": "Rashi on the gezeira ligzeira problem: a decree made to protect another decree is normally prohibited because it exceeds the original legislation's scope.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
+    { "vilnaLine": 6, "en": "Rashi on 'Abulei d'Machoza': the city gates of Machoza, a major Jewish city in Babylonia. The question is why these obligated structures had no mezuzot.", "linkedGemaraLineIds": ["yoma-011a-l06"] },
+    { "vilnaLine": 7, "en": "Rashi on Rav Safra's answer: the gates were built into the city wall structure itself, not freestanding gates with doorposts in the normal sense.", "linkedGemaraLineIds": ["yoma-011a-l06"] },
+    { "vilnaLine": 8, "en": "Rashi on Abaye's challenge: if the gates are structural reinforcements without independent doorposts, then the reinforced structure itself should create a mezuza obligation for the city's entrance.", "linkedGemaraLineIds": ["yoma-011a-l10"] },
+    { "vilnaLine": 9, "en": "Rashi: the real answer to the Machoza question - danger. Public mezuzot are checked only twice per jubilee (every 50 years), creating risk of finding a long-defective mezuza.", "linkedGemaraLineIds": ["yoma-011a-l10"] },
+    { "vilnaLine": 10, "en": "Rashi on the 1000-zuz fine: if a checker finds a mezuza that has been defective for years without being checked, he may be liable for all the time people were using a pasul mezuza.", "linkedGemaraLineIds": ["yoma-011a-l10"] },
+    { "vilnaLine": 11, "en": "Rashi: the principle 'shluchei mitzva einan nizzokin' applies to supernatural danger on the road to perform a mitzva, not to predictable human-imposed legal penalties.", "linkedGemaraLineIds": ["yoma-011a-l17"] },
+    { "vilnaLine": 12, "en": "Rashi on Samuel's precedent: Samuel avoided checking a mezuza in a specific circumstance because the danger was fixed and predictable rather than random. This establishes the exception to mitzva-agent protection.", "linkedGemaraLineIds": ["yoma-011a-l17"] },
+    { "vilnaLine": 13, "en": "Rashi: 'shani sakanta d'keviya' - danger that is fixed and regular differs from occasional danger. Fixed danger is not covered by the mitzva-agent protection principle.", "linkedGemaraLineIds": ["yoma-011a-l19"] },
+    { "vilnaLine": 14, "en": "Rashi on the four storehouse types: hay storehouse (for animals), cattle pen (for animals), wood storehouse (domestic fuel storage), wine storehouse (household supplies).", "linkedGemaraLineIds": ["yoma-011a-l26"] },
+    { "vilnaLine": 15, "en": "Rashi on Rav Kahana's ruling: hay and cattle storehouses serve animals only, so they lack the 'dwelling' character needed for mezuza. Wood and wine are different because women enter them.", "linkedGemaraLineIds": ["yoma-011a-l26"] },
+    { "vilnaLine": 16, "en": "Rashi: 'nashim ne'otot bahen' - women enter them regularly. This phrase designates domestic character in Rav Kahana's reading: women draw wine and carry out wood for the household.", "linkedGemaraLineIds": ["yoma-011a-l26"] },
+    { "vilnaLine": 17, "en": "Rashi on Rav Yehuda's position: Rav Yehuda distinguishes the wood storehouse from the wine storehouse. Women do not regularly enter wood storehouses in the same way.", "linkedGemaraLineIds": ["yoma-011a-l32"] },
+    { "vilnaLine": 18, "en": "Rashi: Rav Yehuda's reasoning - wood is typically carried out from the storehouse by men, while wine is drawn from within by women. The mode of use determines the domestic character.", "linkedGemaraLineIds": ["yoma-011a-l32"] },
+    { "vilnaLine": 19, "en": "Rashi on the second Rav Yehuda ruling: this appears to contradict his first position, requiring the Gemara to reconcile the two statements.", "linkedGemaraLineIds": ["yoma-011a-l36"] },
+    { "vilnaLine": 20, "en": "Rashi: the Gemara's reconciliation attempts to show that Rav Yehuda's two rulings address different types of wine storehouses or different ownership situations.", "linkedGemaraLineIds": ["yoma-011a-l36"] },
+    { "vilnaLine": 21, "en": "Rashi on 'nashim ne'otot bahen' interpretation: the dispute between Rav Kahana and Rav Yehuda is fundamentally about what this phrase means - domestic drawing of supplies vs. commercial delivery.", "linkedGemaraLineIds": ["yoma-011a-l38"] },
+    { "vilnaLine": 22, "en": "Rashi: Rav Kahana reads women entering to draw wine as demonstrating the storehouse's domestic character. Rav Yehuda reads women entering to deliver wine as a commercial transaction that does not create residential character.", "linkedGemaraLineIds": ["yoma-011a-l38"] },
+    { "vilnaLine": 23, "en": "Rashi on the first baraita: the baraita lists which structures require mezuza and supports the view that wine storehouses where women draw wine are obligated.", "linkedGemaraLineIds": ["yoma-011a-l41"] },
+    { "vilnaLine": 24, "en": "Rashi: the baraita's list includes structures that seem to conflict with some of the Amoraic rulings, requiring careful reconciliation.", "linkedGemaraLineIds": ["yoma-011a-l41"] },
+    { "vilnaLine": 25, "en": "Rashi on the structure requiring both dwelling (dirat adam) and honor (dirat kavod) - two conditions that a structure must meet to be obligated in mezuza.", "linkedGemaraLineIds": ["yoma-011a-l44"] },
+    { "vilnaLine": 26, "en": "Rashi: the honor requirement (dirat kavod) excludes bathrooms, tanneries, and similar undignified spaces from mezuza even if people are present there regularly.", "linkedGemaraLineIds": ["yoma-011a-l44"] },
+    { "vilnaLine": 27, "en": "Rashi on the second baraita: a second tannaitic source that seems to contradict the first on which structures are obligated in mezuza.", "linkedGemaraLineIds": ["yoma-011a-l45"] },
+    { "vilnaLine": 28, "en": "Rashi: the conflict between the two baraitot is real and requires resolution. The Gemara offers different solutions that will emerge on 11b.", "linkedGemaraLineIds": ["yoma-011a-l48"] },
+    { "vilnaLine": 29, "en": "Rashi on the gatehouse exclusion: a beit sha'ar (gatehouse) is excluded from mezuza because it is not designated as a dwelling - people pass through it but do not live there.", "linkedGemaraLineIds": ["yoma-011a-l48"] },
+    { "vilnaLine": 30, "en": "Rashi: 'aksenedra' (portico/colonnade) - an open structure with a roof supported by columns, used for shade and passage but not for dwelling. Exempt from mezuza.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 31, "en": "Rashi on 'marpeset' (balcony/gallery): an elevated open structure outside the building's main rooms. Exempt from mezuza because it is not a designated dwelling space.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 32, "en": "Rashi: the Gemara's analysis of the three exclusion categories (not-dwelling, not-honor, sacred/mundane) will be completed at the opening of 11b.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 33, "en": "Rashi on 'beit kisse' (bathroom) exclusion: bathrooms are excluded from mezuza not because people don't use them but because they lack the quality of kavod (honor/dignity) that mezuza requires.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 34, "en": "Rashi on tannery exclusion: tanneries are excluded because the work (processing animal hides) is undignified, making the space unsuitable for a mezuza.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 35, "en": "Rashi: the bathhouse exclusion - like the bathroom, excluded for lack of kavod. People undress there, making it inappropriate for a mezuza containing the Shema.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 36, "en": "Rashi on mikveh exclusion: the mikveh (ritual bath) is excluded because immersion involves undressing, making it lack the kavod required for mezuza presence.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 37, "en": "Rashi on Temple Mount/chambers/courtyards: these are excluded from mezuza for a third reason - they are sacred space, neither a mundane dwelling nor a place of kavod in the residential sense.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 38, "en": "Rashi: the Temple precinct exclusions refute Rav Yehuda's position on the Parhedrin chamber - since the whole Temple is sacred and normally exempt, the chamber's mezuza must have been by special rabbinic decree.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 39, "en": "Rashi: 'tiyuvta d'Rav Yehuda' - this is a decisive refutation of Rav Yehuda's Torah-level mezuza claim for the Parhedrin chamber. The sacred precinct is categorically exempt.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 40, "en": "Rashi on the sacred/mundane distinction: Temple chambers are sacred but not 'residential' in the sense mezuza law requires. The KG's presence is formal duty, not private domestic residence.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 41, "en": "Rashi: the baraita's three-part exclusion structure (not-dwelling, not-honor, sacred) provides a complete framework for mezuza eligibility, to be applied to all the disputed structures in the coming sugya.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 42, "en": "Rashi on 'six gates exempt from mezuza': there are actually seven types listed - Rav Shmuel bar Yehuda counts six but the list contains seven because one type is disputed between tannaim.", "linkedGemaraLineIds": ["yoma-011a-l51"] },
+    { "vilnaLine": 43, "en": "Rashi: the seven gate types include various architectural forms (arched, latticed, domed) that raise questions about whether they have proper doorposts in the mezuza-obligating sense.", "linkedGemaraLineIds": ["yoma-011a-l51"] }
+  ]
+}

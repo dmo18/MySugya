@@ -1,0 +1,360 @@
+{
+  "daf": "48b",
+  "canonicalRef": "Yoma 48b",
+  "summary": "The Gemara discusses whether invalidating thoughts during the raking of incense coals affect the service, then Rav Sheshet is asked about a dilemma - what is the law when the High Priest scooped handfuls with mixed intent about the timing of consumption?",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-048b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.48b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.48b.1"
+      ],
+      "display": {
+        "whats": "What if the High Priest thought invalidating thoughts during the raking of the coals?",
+        "hint": "The Gemara asks: what if the High Priest had pigul-type thoughts (thinking about eating outside the permitted time) during the raking of the coals (not during the offering itself)? Does an invalidating thought during the preparatory raking step invalidate the service?"
+      },
+      "learning": {
+        "summary": "Pigul thoughts during the main offering are well-established as invalidating. But raking is preparatory. Does the invalidating thought have to occur during the main act, or can it occur during preparation?",
+        "ahaMoment": "Pigul (invalid intent) during raking vs. during offering: are preparatory acts subject to the same intent rules?",
+        "memoryAnchor": "If the High Priest thought about eating the incense offering outside its time while raking the coals, is the service invalid?",
+        "openQuestion": "Are all Temple service acts (including preparatory ones) subject to the pigul intent laws?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "What if he thought invalidating thoughts during the raking of coals - does that invalidate?",
+          "id": "yoma-048b-l01",
+          "label": "Question: What if he thought invalidating thoughts during",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-048b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "pigul",
+        "invalidating thoughts",
+        "raking coals",
+        "preparatory acts"
+      ],
+      "concepts": {
+        "halachic": [
+          "pigul thoughts during preparatory raking act"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "pigul laws",
+        "kometz laws",
+        "Temple service intent"
+      ],
+      "misconceptions": [
+        "The main offering is definitely subject to pigul intent; preparatory acts may not be."
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Pigul intent during preparation (raking) vs. during the offering itself - two legal domains",
+          "role": "contrast",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the dilemma about invalidating thoughts during the raking of coals?",
+          "answer": "Whether a pigul-type thought (intent to eat outside the permitted time) during the preparatory raking of coals invalidates the Yom Kippur incense service, as the main offering is clearly subject to such intent."
+        }
+      ],
+      "finalRuling": "Whether pigul thoughts during the preparatory raking of coals invalidate the service remains a dilemma.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-048b-s02",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 7
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.48b.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.48b.3"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.48b.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.48b.2",
+        "Yoma.48b.3",
+        "Yoma.48b.4"
+      ],
+      "display": {
+        "whats": "What is the law when the High Priest scooped with mixed intent about the timing of consumption?",
+        "hint": "The Sages raised a dilemma before Rav Sheshet: what if the High Priest scooped the handfuls of incense while thinking about consuming it at an improper time? Rav Sheshet gives an initial answer, then the Gemara challenges it from a baraita, and Rav Sheshet revises his position."
+      },
+      "learning": {
+        "summary": "The dilemma is about pigul applied to the Yom Kippur incense service. Unlike meat offerings, incense is not 'eaten' - so does the usual pigul intent (about future consumption) even apply? If not, what kind of invalid intent applies to incense?",
+        "ahaMoment": "Incense pigul: incense is not eaten, so the standard 'eating outside time' pigul intent may not apply. What kind of wrong intent does apply to incense service?",
+        "memoryAnchor": "Incense is not food - the 'eating outside permitted time' pigul logic doesn't apply directly. What wrong intent can invalidate incense?",
+        "openQuestion": "If incense cannot be 'eaten outside its time,' what type of improper intent could invalidate the incense service?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Sages",
+          "text": "What is the law when the High Priest scooped with intent to consume the incense at an improper time?",
+          "id": "yoma-048b-l01",
+          "label": "Question: What is the law when the High",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-048b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Rav Sheshet",
+          "text": "Initial answer: the standard pigul intent applies even to incense.",
+          "id": "yoma-048b-l05",
+          "label": "Ruling: Initial answer: the standard pigul intent applies",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-048b-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "type": "counter",
+          "speaker": "Gemara",
+          "text": "A baraita challenges: incense is not consumed in the standard way, so pigul may not apply.",
+          "id": "yoma-048b-l07",
+          "label": "Counter: A baraita challenges: incense is not consumed",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-048b-l07",
+              "vilnaLine": 7
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "pigul",
+        "incense",
+        "Rav Sheshet",
+        "mixed intent",
+        "consumption"
+      ],
+      "concepts": {
+        "halachic": [
+          "pigul laws for incense offerings",
+          "does incense have pigul?"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "pigul laws",
+        "incense service",
+        "Yom Kippur avodah"
+      ],
+      "misconceptions": [
+        "Standard pigul requires an intent about future consumption - incense is not consumed in that sense."
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "label": "standard pigul (food) vs incense pigul - does the rule apply?"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why is pigul (improper intent) difficult to apply to the incense offering?",
+          "answer": "Because standard pigul involves thinking about eating the offering outside its permitted time or place - but incense is not 'eaten,' so the usual pigul intent category may not apply."
+        }
+      ],
+      "finalRuling": "Whether standard pigul intent applies to incense service is disputed; a baraita challenges Rav Sheshet's initial ruling.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "פִּגּוּל",
+      "translit": "pigul",
+      "en": "Improper intent during Temple service - specifically thinking about eating the offering outside its permitted time or place, rendering it invalid."
+    },
+    {
+      "he": "רִיקּוּד",
+      "translit": "rikud",
+      "en": "Raking - the act of spreading the coals in the Yom Kippur firepan before placing the incense; a preparatory act that may or may not be subject to intent laws."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "The dilemma: what if the High Priest thought pigul thoughts during the raking (rikud) of coals?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Raking is a preparatory act before placing the incense on the coals.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Pigul thoughts during the main offering act clearly invalidate. What about preparation?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "The Talmud's principle: pigul thoughts must occur during one of the four main service acts.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "If raking is not one of the four main acts, thoughts during raking may not create pigul.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "But if raking is considered part of the main service, then thoughts during it do create pigul.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The Sages raise a question before Rav Sheshet: does standard pigul apply to incense?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Pigul normally: 'I will eat this offering outside its permitted time/place.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "But incense is not eaten. How can you have an 'eating outside time' thought about incense?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rav Sheshet's first answer: pigul applies to incense - the consumption intent is about smelling or other enjoyment.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The Gemara challenges: a baraita implies pigul specifically requires food-consumption intent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "If so, incense - which is not food - cannot be subject to standard pigul.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Then what kind of intent invalidates the incense service?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Answer: the intent that invalidates incense is thinking about the purpose/destination, not consumption.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "E.g., if the priest thinks 'I am placing this for someone else's benefit' or 'for a different day.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The Gemara resolves: from there, I might have derived only one type of intent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Therefore another verse is needed to establish the full scope of what invalidates incense service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The Gemara works through the verse analysis step by step.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The conclusion: incense does have its own form of invalid intent, not identical to standard pigul.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "48b is a focused page about the mental dimension of the kometz/incense service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The two sugyot both probe: when and how does intent invalidate the service?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The raking dilemma: during preparation vs during the act.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The pigul dilemma: food-consumption intent vs incense-appropriate intent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Both questions have the same structure: what is the exact scope of the intent requirement?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "48b concludes the kometz intent discussion; 49a will begin the receiving-handfuls question.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The transition: from taking the handfuls (kometz) to receiving them (kabbalah).",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

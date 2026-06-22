@@ -1,0 +1,911 @@
+{
+  "daf": "20b",
+  "canonicalRef": "Yoma 20b",
+  "summary": "R. Yochanan resolves Rav Kahana's objection: midnight is not a Torah-fixed time but a practical upper boundary; each day type's ash removal time reflects real-world need (KG's weakness on Yom Kippur, Festival crowd size). A debate over whether 'keriat hagever' means a human announcer or a rooster leads to a famous story: Rav served as disseminator for R. Sheila and interpreted it as 'the man's call,' leading to an exchange of proverbs. Baraitot support both views. Gevini the Crier's voice carried three parasangs; King Agrippa was so impressed he sent him gifts. Yet the High Priest's call for purification was heard as far as Jericho (ten parasangs). R. Levi explains: sound travels farther at night because the sun's daily roar masks it.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-020b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 10
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.20b.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.20b.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.20b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.20b.1",
+        "Yoma.20b.2",
+        "Yoma.20b.3"
+      ],
+      "display": {
+        "whats": "Rav Kahana asked: if midnight is fixed by Torah, how can the mishna say Festivals start earlier and ordinary days start later? R. Yochanan answers: midnight is not Torah-fixed. The verse's redundant 'until morning' signals flexibility - add a second morning to the night, meaning start before dawn as needed. Ordinary day: keriat hagever suffices. Yom Kippur: midnight (KG needs extra time). Festivals: first watch (crowds already there).",
+        "hint": "R. Yochanan reads the redundant 'until morning' as meaning 'create a morning for the night' - i.e., the night has its own internal dawn that can shift based on practical need. This allows the single verse to accommodate three different timing regimes."
+      },
+      "learning": {
+        "summary": "R. Yochanan: midnight is not a Torah-imposed time. The verse's extra 'until morning' teaches that ash removal should happen before dawn but at a flexible time. Each day type's timing reflects practical needs: ordinary = keriat hagever; Yom Kippur = midnight (because the KG has a long fasting day ahead); Festivals = first watch (pilgrims already filling the courtyard).",
+        "ahaMoment": "The solution to Rav Kahana's objection is elegant: if midnight were Torah-fixed, the mishna's flexible timing would be impossible. R. Yochanan turns the verse's apparent redundancy into a feature - flexibility itself is encoded in the Torah.",
+        "memoryAnchor": "R. Yochanan: not midnight the fixed point - 'before dawn, when needed.' Three different needs, three different times.",
+        "openQuestion": "Does R. Yochanan's reading mean there is no fixed time at all for ash removal, or just that midnight is the latest possible time?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-020b-l01",
+          "type": "objection",
+          "label": "Rav Kahana's challenge",
+          "text": "If midnight is Torah-fixed for ash removal, how can the mishna allow it earlier (Festivals) or later (ordinary days)?",
+          "sourceRefs": [
+            "Yoma.20b.1"
+          ]
+        },
+        {
+          "id": "yoma-020b-l02",
+          "type": "resolution",
+          "label": "R. Yochanan: midnight is not Torah-fixed",
+          "text": "The verse says 'all night... until morning.' The redundant 'until morning' means: add a morning to the night. Remove ashes before dawn, flexibly, based on need.",
+          "sourceRefs": [
+            "Yoma.20b.2"
+          ]
+        },
+        {
+          "id": "yoma-020b-l05",
+          "type": "application",
+          "label": "Three timing rules explained by practical need",
+          "text": "Ordinary day: keriat hagever suffices. Yom Kippur: midnight, because of the KG's weakness. Festivals: first watch, because of the crowd size.",
+          "sourceRefs": [
+            "Yoma.20b.3"
+          ]
+        }
+      ],
+      "topicTags": [
+        "ash removal",
+        "midnight",
+        "R. Yochanan",
+        "biblical interpretation",
+        "Temple schedule",
+        "redundancy-as-teaching"
+      ],
+      "concepts": {
+        "halachic": [
+          "biblical timing flexibility",
+          "practical needs in Temple law",
+          "limbs and ashes at midnight"
+        ],
+        "theological": [
+          "biblical redundancy teaches flexibility",
+          "rabbinic derivation of practical timing"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-020a-s03"
+      ],
+      "misconceptions": [
+        "Midnight is not abandoned as a concept - it remains the conventional boundary between burning and ash removal (from Zevachim). R. Yochanan is saying the actual service timing is flexible, not that the legal boundary disappears.",
+        "R. Yochanan's reading of the redundant 'until morning' is not arbitrary - Talmudic exegesis treats all biblical redundancies as deliberate teachings."
+      ],
+      "relatedSugyot": [
+        "yoma-020a-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Two interpretations of the verse: Rav (midnight fixed) vs. R. Yochanan (flexible, before dawn)"
+        },
+        {
+          "type": "sequence",
+          "description": "Three timing tiers: first watch (Festivals) - midnight (Yom Kippur) - keriat hagever (ordinary), all resolved by R. Yochanan's reading"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How does R. Yochanan resolve Rav Kahana's objection about the ash removal timings?",
+          "a": "Midnight is not Torah-fixed. The verse's redundant 'until morning' signals flexibility - ash removal should happen before dawn at whatever time is practically needed for each day type."
+        },
+        {
+          "q": "Why is midnight the time for ash removal on Yom Kippur specifically?",
+          "a": "Because the High Priest is weak from fasting and has a very long service ahead, so ash removal must start early enough to complete everything before dawn."
+        }
+      ],
+      "finalRuling": "The ash removal schedule is flexible, not Torah-fixed at midnight. Each day type follows practical need.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "חוּלְשָׁא דְּכֹהֵן גָּדוֹל",
+          "translit": "chulsha dekohen gadol",
+          "en": "The weakness of the High Priest; on Yom Kippur he fasts all day, so the service begins at midnight to give him enough time."
+        }
+      ],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-020b-s02",
+      "lineRange": {
+        "startVilnaLine": 11,
+        "endVilnaLine": 27
+      },
+      "lines": [
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.20b.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.20b.5"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.20b.6"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.20b.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.20b.4",
+        "Yoma.20b.5",
+        "Yoma.20b.6",
+        "Yoma.20b.7"
+      ],
+      "display": {
+        "whats": "What is 'keriat hagever'? Rav: a man's call (gever=man); an appointed Temple crier announced the start of service. R. Sheila: a rooster's call (gever=rooster). When Rav visited R. Sheila's town and served as his disseminator, he interpreted it as 'man's call'; R. Sheila challenged him; Rav responded with a proverb about a flute being appreciated only by sophisticated listeners. Rav later cited his precedent with R. Chiyya. R. Sheila replied with two options: 'you hired yourself out, now comb the wool' or 'we elevate in holiness and do not descend.'",
+        "hint": "The debate over the meaning of gever (man vs. rooster) is classic - the same word has both meanings in Hebrew. The anecdote shows Rav's pride in his interpretation being validated by R. Chiyya but also his willingness to continue serving as disseminator despite the tension."
+      },
+      "learning": {
+        "summary": "The word 'keriat hagever' in the mishna is ambiguous: gever means both 'man' and 'rooster.' Rav: it means the cry of an appointed Temple crier (a man). R. Sheila: it means the rooster's crow. The Rav-Sheila anecdote illustrates the debate: Rav served as Sheila's disseminator and stated his interpretation; Sheila challenged it; Rav responded sharply.",
+        "ahaMoment": "The same word gever carries both meanings in Hebrew. This linguistic ambiguity embedded in the mishna is exactly the kind of thing the Gemara loves to unpack - it is not sloppy language but intentional use of a term that needs clarification.",
+        "memoryAnchor": "Gever = man or rooster? Rav says man (the Temple crier); R. Sheila says rooster.",
+        "openQuestion": "Does it matter practically which interpretation is correct? If only the timing (before dawn) matters, the specific trigger is irrelevant."
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-020b-l11",
+          "type": "dispute",
+          "label": "Rav vs. R. Sheila on keriat hagever",
+          "text": "Rav: gever=man; an appointed Temple crier called the priests to service. R. Sheila: gever=rooster; the natural rooster's crow signaled dawn.",
+          "sourceRefs": [
+            "Yoma.20b.4"
+          ]
+        },
+        {
+          "id": "yoma-020b-l13",
+          "type": "narrative",
+          "label": "Rav serves as Sheila's disseminator",
+          "text": "Rav visited R. Sheila's town; no disseminator was available; Rav stood before him and interpreted 'gever' as 'man's call.' R. Sheila challenged: 'why not say rooster?' Rav: 'a flute played for noblemen is music; weavers cannot appreciate it' - meaning R. Chiyya already accepted his interpretation.",
+          "sourceRefs": [
+            "Yoma.20b.5"
+          ]
+        },
+        {
+          "id": "yoma-020b-l18",
+          "type": "narrative",
+          "label": "Rav's precedent with R. Chiyya",
+          "text": "Rav: when I stood before R. Chiyya and interpreted it as 'man's call,' he did not object. Once R. Sheila realized this was Rav, he offered to let him rest; Rav replied 'a hired man must complete his wool-combing' or 'we elevate in holiness, not descend.'",
+          "sourceRefs": [
+            "Yoma.20b.6"
+          ]
+        },
+        {
+          "id": "yoma-020b-l24",
+          "type": "proof",
+          "label": "Baraitot support both opinions; Gevini the Crier",
+          "text": "A baraita supports Rav: Gevini the Temple Crier proclaimed 'Arise, priests to your service!' His voice was heard three parasangs away. This confirms a human crier existed.",
+          "sourceRefs": [
+            "Yoma.20b.7"
+          ]
+        }
+      ],
+      "topicTags": [
+        "keriat hagever",
+        "Temple crier",
+        "Rav",
+        "R. Sheila",
+        "linguistic analysis",
+        "disseminator",
+        "Gevini"
+      ],
+      "concepts": {
+        "halachic": [
+          "Temple service announcement",
+          "dawn signal",
+          "lexical analysis of mishna"
+        ],
+        "theological": [],
+        "narrative": [
+          "Rav-Sheila dispute; Rav's pride and deference; elevation in holiness principle"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-020a-s02"
+      ],
+      "misconceptions": [
+        "The debate over man vs. rooster is not just philological - it has implications for when exactly the service could begin (rooster crow is natural and variable; a human crier could be scheduled more precisely).",
+        "'Elevating in holiness and not descending' is a general principle applied here: once a great person is doing a task, a lesser person should not replace him (that would be a demotion of the task)."
+      ],
+      "relatedSugyot": [
+        "yoma-020a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Two interpretations of 'gever': a rooster crowing at dawn vs. a human Temple announcer calling out to the priests"
+        },
+        {
+          "type": "person",
+          "description": "Gevini the Crier standing in the Temple courtyard; his voice carries three parasangs (roughly 8 miles)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is the dispute between Rav and R. Sheila about 'keriat hagever'?",
+          "a": "Rav: gever means man - an appointed Temple crier announced the start of service. R. Sheila: gever means rooster - the rooster's crow was the signal."
+        },
+        {
+          "q": "Who was Gevini, and what was remarkable about him?",
+          "a": "Gevini was the Temple Crier who proclaimed 'Arise, priests to your service!' His voice was heard at a distance of three parasangs (about 8 miles)."
+        }
+      ],
+      "finalRuling": "Dispute unresolved; both Rav (man's call) and R. Sheila (rooster's call) have baraita support.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "אָמוֹרָא",
+          "translit": "amora",
+          "en": "Disseminator; a person who repeated and amplified the rabbi's lecture for the audience in an era before microphones."
+        },
+        {
+          "he": "גְּבִינִי כָּרוֹז",
+          "translit": "Gevini HaKaroze",
+          "en": "Gevini the Crier; the Temple official whose proclamation 'Arise, priests!' could be heard three parasangs away."
+        },
+        {
+          "he": "מַעֲלִין בַּקֹּדֶשׁ",
+          "translit": "ma'alin bakodesh",
+          "en": "We elevate in matters of holiness, not descend; the principle that once a high level is set, it must be maintained."
+        }
+      ],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-020b-s03",
+      "lineRange": {
+        "startVilnaLine": 28,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.20b.8"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.20b.9"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.20b.10"
+        },
+        {
+          "vilnaLine": 40,
+          "sefariaRef": "Yoma.20b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.20b.8",
+        "Yoma.20b.9",
+        "Yoma.20b.10",
+        "Yoma.20b.11"
+      ],
+      "display": {
+        "whats": "King Agrippa was so impressed by Gevini's voice that he sent him gifts; yet the voice of the KG announcing purification to the mikveh was heard in Jericho (ten parasangs). Other Temple sounds also reached Jericho. R. Levi explains why sounds carry farther at night: the sun's sphere produces a constant roar all day; at night the sun passes through the celestial roof and the roar continues upward, leaving the lower world quieter. Rome's din and the sun's noise cancel each other.",
+        "hint": "The escalating distances - Gevini's 3 parasangs, the KG's purification call at 10 parasangs, other sounds reaching Jericho - serve a rhetorical function: each example elevates the reader's sense of the Temple's power and the significance of its sounds."
+      },
+      "learning": {
+        "summary": "Gevini's voice (3 parasangs) impressed King Agrippa so much he sent gifts. But the KG's voice at the mikveh and many Temple sounds reached Jericho (10 parasangs). R. Levi explains: by day the sun's sphere roars constantly, masking distant sounds. At night the sun travels behind the firmament, and this roar mixes with Rome's noise - leaving the lower world quieter and sounds more audible.",
+        "ahaMoment": "R. Levi's cosmological explanation reveals ancient physics: the sun makes noise, and its passage overhead creates a constant ambient roar. At night, that roar moves to the other side of the firmament and cancels with Rome's din - so the quiet night carries sound farther.",
+        "memoryAnchor": "Why sounds travel farther at night: the sun's roar masks them by day. The sun + Rome cancel each other on the other side of the firmament at night.",
+        "openQuestion": "The Talmud presents the sun as physically noisy. How did ancient rabbis conceptualize the mechanics of celestial sound?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-020b-l28",
+          "type": "narrative",
+          "label": "King Agrippa's gifts to Gevini",
+          "text": "King Agrippa was so impressed by Gevini's voice (heard 3 parasangs) that he sent him gifts. The rabbis asked him not to accept them, lest other priests become jealous.",
+          "sourceRefs": [
+            "Yoma.20b.8"
+          ]
+        },
+        {
+          "id": "yoma-020b-l33",
+          "type": "contrast",
+          "label": "Temple sounds reached Jericho - 10 parasangs",
+          "text": "The KG's voice announcing his purification before entering the mikveh was heard in Jericho (10 parasangs, about 27 miles). Other sounds - the Temple gates opening, the psalms - also reached Jericho.",
+          "sourceRefs": [
+            "Yoma.20b.9"
+          ]
+        },
+        {
+          "id": "yoma-020b-l35",
+          "type": "question",
+          "label": "Why can sounds at night be heard farther?",
+          "text": "If Temple sounds reached 10 parasangs at night (when the KG immersed before dawn), why cannot normal sounds travel that far?",
+          "sourceRefs": [
+            "Yoma.20b.10"
+          ]
+        },
+        {
+          "id": "yoma-020b-l40",
+          "type": "explanation",
+          "label": "R. Levi: the sun's roar masks daytime sound",
+          "text": "R. Levi: the sun's sphere produces a constant roar as it traverses the sky. By day this roar drowns out distant sounds. At night the sun passes behind the firmament; its roar mingles with Rome's din on the other side, and the lower world becomes quieter - so sounds carry farther.",
+          "sourceRefs": [
+            "Yoma.20b.11"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Temple sounds",
+        "Jericho",
+        "King Agrippa",
+        "R. Levi",
+        "sun cosmology",
+        "sound physics",
+        "High Priest"
+      ],
+      "concepts": {
+        "halachic": [
+          "kohen gadol immersion before dawn",
+          "Temple service sounds"
+        ],
+        "theological": [
+          "talmudic cosmology",
+          "sun's movement and noise",
+          "Rome as spiritual counterweight"
+        ],
+        "narrative": [
+          "King Agrippa's gifts to Gevini; the rabbi's reluctance to allow them"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-020b-s02"
+      ],
+      "misconceptions": [
+        "The distances given (3 parasangs for Gevini, 10 for the KG's voice) are aggadic illustrations of remarkable reach, not precise acoustic measurements.",
+        "R. Levi's claim that the sun makes noise is not metaphorical - it reflects a specific talmudic cosmological model where the sun is a physical entity moving through real space with a real sound."
+      ],
+      "relatedSugyot": [
+        "yoma-020b-s02",
+        "yoma-021a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "description": "Map showing Temple Mount to Jericho (10 parasangs/27 miles) with labeled sounds reaching each distance"
+        },
+        {
+          "type": "action",
+          "description": "King Agrippa hearing Gevini's proclamation from three parasangs away and sending gifts to the Temple"
+        },
+        {
+          "type": "relationship",
+          "description": "R. Levi's cosmological diagram: sun roaring across sky by day, passing behind firmament at night where its noise meets Rome's din"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How far could the Temple sounds reach, and which sounds reached the farthest distance?",
+          "a": "Many Temple sounds reached Jericho, approximately 10 parasangs (about 27 miles) away - including the KG's voice at his immersion, the Temple gates opening, and the Levites' songs."
+        },
+        {
+          "q": "According to R. Levi, why do sounds travel farther at night?",
+          "a": "The sun's sphere produces a constant roar during the day that drowns out distant sounds. At night the sun travels behind the firmament, its noise mixes with Rome's din on the other side, and the world below becomes quieter - allowing sounds to carry farther."
+        }
+      ],
+      "finalRuling": "Aggadic: Temple sounds reached Jericho. Night is quieter than day because the sun's roar and Rome's din cancel each other on the far side of the firmament.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "פַּרְסָה",
+          "translit": "parsa",
+          "en": "Parasang; approximately 2.7 miles (4 km). Three parasangs is roughly 8 miles; ten is about 27 miles."
+        },
+        {
+          "he": "כִּפָּה",
+          "translit": "kippa",
+          "en": "Vault or dome; here the firmament through which the sun passes at night according to talmudic cosmology."
+        }
+      ],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "קְרִיאַת הַגֶּבֶר",
+      "translit": "keriat hagever",
+      "en": "Dawn signal in the Temple - disputed whether 'man's call' (Rav) or 'rooster's call' (R. Sheila)."
+    },
+    {
+      "he": "אָמוֹרָא",
+      "translit": "amora",
+      "en": "Disseminator; repeated the rabbi's lecture to the audience."
+    },
+    {
+      "he": "גְּבִינִי כָּרוֹז",
+      "translit": "Gevini HaKaroze",
+      "en": "Temple Crier whose voice reached three parasangs; gifts from King Agrippa."
+    },
+    {
+      "he": "מַעֲלִין בַּקֹּדֶשׁ",
+      "translit": "ma'alin bakodesh",
+      "en": "We elevate in holiness, not descend; once a high level is set, it must be maintained."
+    },
+    {
+      "he": "פַּרְסָה",
+      "translit": "parsa",
+      "en": "Parasang; approximately 2.7 miles. Three parasangs = Gevini; ten = Jericho sounds."
+    },
+    {
+      "he": "חוּלְשָׁא דְּכֹהֵן גָּדוֹל",
+      "translit": "chulsha dekohen gadol",
+      "en": "Weakness of the High Priest from fasting; reason ash removal starts at midnight on Yom Kippur."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "And if it enters your mind that midnight is Torah law - how do we advance it on Festivals and delay it on ordinary days?",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rather R. Yochanan said - the derivation is different. From the fact that it says 'all night' don't I know it means until morning? So why add 'until morning'?",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Add a morning to the morning of the night - make it before dawn, early enough for the need at hand. The time is not fixed.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Therefore every day at the crow - since on an ordinary day removing the ashes just before dawn suffices.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "On Yom Kippur there is the weakness of the KG - he fasts all day, so begin at midnight.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "On Festivals the Jewish people and offerings are numerous - begin from the first watch.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "As taught in the mishna - confirmed by the mishna's own reason: the courtyard was full before the rooster crowed.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "What is keriat hagever? The question the Gemara examines.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rav said: the call of a man - an appointed crier called the priests to service.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "R. Sheila said: the call of the rooster - gever also means rooster in Hebrew.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rav happened to come to R. Sheila's town - Rav was not yet famous there.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "There was no disseminator for R. Sheila - Rav volunteered to disseminate the lecture.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "A flute for noblemen is music; for weavers they reject it - the sophisticated appreciate my interpretation.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "When I stood before R. Chiyya - Rav cites his precedent; R. Chiyya did not object.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Is the Master Rav? Let him rest - R. Sheila, recognizing Rav, offers to excuse him from the task.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "If you hired yourself out, comb the wool - complete the task you undertook.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "We elevate in holiness - once a great man is doing a task, a lesser man cannot replace him.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "A baraita was taught like Rav; a baraita like R. Sheila - both have support.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Gevini the Crier - his call 'Arise, priests!' was the Temple's official dawn signal.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "His voice was heard three parasangs - approximately 8 miles, an extraordinary reach.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Commentary on the baraita supporting R. Sheila.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Commentary on Gevini's role in the Temple.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Commentary on the Temple crier's proclamation.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "King Agrippa sent him gifts - impressed by the voice carrying three parasangs.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The Sages said: do not accept them - lest other priests become jealous of the favoritism.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Commentary on Gevini and the king.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Commentary on the rabbinic concern about gifts.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The KG's voice announcing his immersion was heard in Jericho - 10 parasangs.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Other sounds of the Temple reached Jericho - the gates opening, the psalm.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Commentary on the various Temple sounds.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Commentary on Jericho as benchmark distance.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Commentary on the sound of the KG at immersion.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Why do sounds travel farther at night? R. Levi's explanation.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Commentary on the question of nighttime acoustics.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "The sun's sphere roars - its noise fills the world by day, masking distant sounds.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "At night the sun passes behind the firmament - its roar goes with it.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The noise of Rome and the sun cancel each other on the far side.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Commentary on R. Levi's cosmological model.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Commentary on the two sounds that cancel.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Commentary on the sun's path behind the firmament.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Commentary on Rome as cosmic counterweight.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Commentary on nighttime quiet.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Commentary on the firmament's role.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Commentary on the acoustic implications.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Commentary on the cosmological background.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Commentary on why Gevini's three parasangs was remarkable.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Commentary on the Temple sounds reaching Jericho.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Commentary on the KG's immersion timing before dawn.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l33"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Commentary on the closing of the Gevini section.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Commentary on the transition to the next topic.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Commentary on R. Levi's source.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Commentary on ancient cosmological views.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Commentary on the sun's sphere (galgal).",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Commentary on the noise of Rome.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Commentary on the competing cosmic sounds.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Commentary on the continuation of this topic.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Commentary on the conclusion of this section.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Commentary on R. Levi's teaching.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Commentary on the cosmic balance.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Commentary on the Temple-cosmology connection.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Commentary on the daytime noise masking sounds.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Commentary on the closing of this chapter section.",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l40"
+      ]
+    }
+  ]
+}

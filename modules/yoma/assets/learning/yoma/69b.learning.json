@@ -1,0 +1,1183 @@
+{
+  "canonicalRef": "Yoma 69b",
+  "summary": "Sitting in the Azarah is prohibited except for Davidic kings. The Great Assembly restored the full divine epithets to prayer; aggadah of capturing the yetzer hara for idolatry. HP reads standing; skipping rules in Torah reading.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-069b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 3
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.69b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69b.1"
+      ],
+      "display": {
+        "whats": "Sitting in the Temple Azarah is prohibited - only Davidic kings were permitted to sit there, derived from King David sitting before God (2 Sam. 7:18). The HP stood throughout the Torah reading ceremony.",
+        "hint": "What is the source that only Davidic kings may sit in the Azarah?"
+      },
+      "learning": {
+        "summary": "The Mishnah states that the HP read the Torah standing. The Gemara derives that sitting in the Azarah is prohibited in general - derived from the verse 'to stand to serve' (Deut. 18). The sole exception: Davidic kings were permitted to sit in the Azarah, based on 2 Samuel 7:18 where David sat before God.",
+        "ahaMoment": "The entire Temple service is characterized by standing - the kohanim 'stand to serve.' The exception for Davidic kings is not about comfort but about the king's unique status as God's anointed: the king's sitting before God is itself a form of reverence.",
+        "memoryAnchor": "Only Davidic kings sit in the Azarah. Everyone else stands.",
+        "openQuestion": "Why is a Davidic king permitted to sit in the Azarah while even the HP must stand?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069b-l01",
+          "type": "ruling",
+          "label": "Ruling: No sitting in the Azarah - only Davidic kings permitted",
+          "speaker": "Gemara",
+          "text": "Sitting in the Azarah is prohibited - the verse says 'to stand to serve.' Only Davidic kings are permitted to sit there, from David who 'came and sat before God' (2 Sam. 7:18).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "azarah-protocol",
+        "davidic-kings",
+        "sitting-prohibition",
+        "standing-service"
+      ],
+      "concepts": {
+        "halachic": [
+          "prohibition of sitting in the Azarah",
+          "exception for Davidic kings"
+        ],
+        "theological": [
+          "standing as the posture of service",
+          "the king's unique status before God"
+        ],
+        "narrative": [
+          "David sitting before God after Nathan's prophecy"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Azarah geography",
+        "Davidic covenant"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any dignitary of sufficient rank may sit in the Azarah",
+          "correction": "Only Davidic kings are permitted to sit in the Azarah - even the HP must stand throughout the service.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Everyone in the Azarah standing in service vs Davidic king seated before God",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Who is permitted to sit in the Temple Azarah?",
+          "answer": "Only Davidic kings - all others, including the HP, must stand. This is derived from David sitting before God (2 Sam. 7:18) and from the verse 'to stand to serve' (Deut. 18).",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "No sitting in the Azarah - only Davidic kings may sit there. The HP stood throughout the Torah reading.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-069b-s02",
+      "lineRange": {
+        "startVilnaLine": 4,
+        "endVilnaLine": 42
+      },
+      "lines": [
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.69b.2"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.69b.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.69b.4"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.69b.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.69b.6"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.69b.7"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.69b.8"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.69b.9"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.69b.10"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.69b.11"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.69b.12"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.69b.13"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.69b.14"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.69b.15"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.69b.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69b.2",
+        "Yoma.69b.3",
+        "Yoma.69b.4",
+        "Yoma.69b.5",
+        "Yoma.69b.6",
+        "Yoma.69b.7",
+        "Yoma.69b.8",
+        "Yoma.69b.9",
+        "Yoma.69b.10",
+        "Yoma.69b.11",
+        "Yoma.69b.12",
+        "Yoma.69b.13",
+        "Yoma.69b.14",
+        "Yoma.69b.15",
+        "Yoma.69b.16"
+      ],
+      "display": {
+        "whats": "The Great Assembly restored the full divine epithets 'great, mighty, and awesome' to prayer - epithets that Jeremiah and Daniel had omitted during the Temple's destruction. Aggadah: the evil inclination (yetzer hara) for idolatry was captured and imprisoned by the Anshei Knesset HaGedolah.",
+        "hint": "How could prophets like Jeremiah and Daniel - who spoke the truth - omit attributes of God that Moses had written in the Torah?"
+      },
+      "learning": {
+        "summary": "Jeremiah omitted 'awesome' from God's attributes in prayer, since pagans desecrated His Temple. Daniel omitted 'mighty,' since pagans subjugated Israel for 70 years. The Anshei Knesset HaGedolah (Men of the Great Assembly) restored all three attributes, explaining: God's greatest power is precisely His patience with the wicked, and His awesomeness is that Israel survives among hostile nations. They also captured the yetzer hara for idolatry, imprisoned it, but had to release it partially because the world could not function without reproductive drive.",
+        "ahaMoment": "The prophets were not wrong - they legitimately could not call God 'mighty' while they saw His children enslaved. The Great Assembly reconciled this by redefining what 'mighty' and 'awesome' mean: constraint and patience ARE power, and Israel's survival IS God's awesomeness.",
+        "memoryAnchor": "Jeremiah omits 'awesome,' Daniel omits 'mighty' - Great Assembly restores both by redefining them as patience and survival.",
+        "openQuestion": "Is it ever appropriate to omit praises of God from prayer based on historical circumstances, as Jeremiah and Daniel did?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069b-l02",
+          "type": "ruling",
+          "label": "Ruling: Great Assembly restored the three epithets to prayer",
+          "speaker": "Gemara",
+          "text": "The Anshei Knesset HaGedolah restored 'great, mighty, and awesome' to prayer, which the prophets had omitted.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l02",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l03",
+          "type": "reason",
+          "label": "Reason: Jeremiah omitted 'awesome' - pagans desecrated the Temple",
+          "speaker": "Gemara",
+          "text": "Jeremiah said: pagans are shouting in His Temple - where is His awesomeness? So he omitted 'awesome.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l03",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l04",
+          "type": "reason",
+          "label": "Reason: Daniel omitted 'mighty' - pagans enslaved Israel",
+          "speaker": "Gemara",
+          "text": "Daniel said: pagans are enslaving His children - where is His might? So he omitted 'mighty.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l04",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l05",
+          "type": "ruling",
+          "label": "Ruling: Great Assembly redefined might as patience",
+          "speaker": "Anshei Knesset HaGedolah",
+          "text": "This is His might - that He suppresses His inclination, extends patience for all the decrees against His children.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l05",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l06",
+          "type": "ruling",
+          "label": "Ruling: Great Assembly redefined awesomeness as Israel's survival",
+          "speaker": "Anshei Knesset HaGedolah",
+          "text": "These are His awesomeness - were it not for His fear, all nations would have gathered to destroy Israel but they survived.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l06",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l07",
+          "type": "narrative",
+          "label": "Narrative: Evil inclination for idolatry captured and imprisoned",
+          "speaker": "Aggadah",
+          "text": "The Anshei Knesset HaGedolah captured the yetzer hara for idolatry, imprisoned it in a lead pot - but the world could not function without the reproductive drive, so they had to release it partially.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l07",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l08",
+          "type": "narrative",
+          "label": "Narrative: When imprisoned, chickens stopped laying eggs",
+          "speaker": "Aggadah",
+          "text": "When the inclination was imprisoned, even a fresh egg could not be found - showing that reproductive drive sustains all life.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l08",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l09",
+          "type": "ruling",
+          "label": "Ruling: Released to half-power - desire for one's spouse only",
+          "speaker": "Aggadah",
+          "text": "They released it at half strength - it would still drive a man toward his wife but not toward another's wife.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l09",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l10",
+          "type": "ruling",
+          "label": "Ruling: HP read the Torah while standing",
+          "speaker": "Mishnah",
+          "text": "The HP read the Torah standing - consistent with the prohibition of sitting in the Azarah.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l10",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l11",
+          "type": "ruling",
+          "label": "Ruling: Skipping within the same topic is permitted",
+          "speaker": "Gemara",
+          "text": "One may skip from Lev. 16 to Lev. 23 since both deal with Yom Kippur - they are in the same topic. The skip must be accomplished before the translator finishes the previous verse.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l11",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l12",
+          "type": "ruling",
+          "label": "Ruling: No skipping between different topics even briefly",
+          "speaker": "Gemara",
+          "text": "Between different topics one may not skip at all - because Torah words (warnings, punishments, commandments) require focused listening, and jumping topics breaks concentration.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l12",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l13",
+          "type": "ruling",
+          "label": "Ruling: Burning of bull and goat happens while HP wears white",
+          "speaker": "Gemara",
+          "text": "The burning of the bull and goat happens while the HP still wears white linen vestments - he does not see the burning, implying it occurs before his third immersion.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l13",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l14",
+          "type": "ruling",
+          "label": "Ruling: Eimurim burned after third immersion with rams",
+          "speaker": "Gemara",
+          "text": "The eimurim (sacrificial parts) of the sin offering are burned at the third immersion together with the HP's ram and the people's ram.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l14",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l15",
+          "type": "ruling",
+          "label": "Ruling: Service sequence derived from scripture order",
+          "speaker": "Gemara",
+          "text": "The sequence of the Yom Kippur service follows the order in Leviticus - the Azazel dispatch precedes the burning of fats as written in the text.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l15",
+              "vilnaLine": 39
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l16",
+          "type": "ruling",
+          "label": "Ruling: 'The dispatcher' refers to an earlier action despite later textual position",
+          "speaker": "Gemara",
+          "text": "The verse about 'the one who dispatches the goat' is positioned after the eimurim text but refers to an earlier act - like a speaker who interrupts and then resumes the original topic.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l16",
+              "vilnaLine": 42
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "great-assembly",
+        "prayer-epithets",
+        "evil-inclination",
+        "yetzer-hara",
+        "torah-reading-order",
+        "service-sequence"
+      ],
+      "concepts": {
+        "halachic": [
+          "skipping in Torah reading - same topic vs different topic",
+          "service sequence from scripture order",
+          "eimurim timing"
+        ],
+        "theological": [
+          "divine attributes - great, mighty, awesome",
+          "prophetic omission of praise",
+          "capturing the yetzer hara"
+        ],
+        "narrative": [
+          "Anshei Knesset HaGedolah restoring prayer",
+          "imprisonment of idolatry inclination"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yetzer hara concept",
+        "Anshei Knesset HaGedolah (Men of the Great Assembly)",
+        "Torah reading laws"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Jeremiah and Daniel were wrong to omit divine attributes from prayer",
+          "correction": "The prophets acted truthfully - they could not praise God as 'mighty' or 'awesome' given what they witnessed. The Great Assembly reconciled this by reinterpreting what these attributes mean in context.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Three prophets and their omissions: Moses (all three), Jeremiah (omits awesome), Daniel (omits mighty), Great Assembly (restores all three)",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why did Jeremiah omit the word 'awesome' from his prayer?",
+          "answer": "Because pagans were desecrating the Temple - he could not call God 'awesome' while seeing His House defiled. The Great Assembly later restored it, explaining that Israel's survival among hostile nations IS God's awesomeness.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The Great Assembly restored all three epithets (great, mighty, awesome) to prayer, reinterpreting them through the lens of God's patience and Israel's survival. The HP reads standing; skipping in Torah reading is permitted only within the same topic.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-069b-s03",
+      "lineRange": {
+        "startVilnaLine": 43,
+        "endVilnaLine": 48
+      },
+      "lines": [
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.69b.17"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.69b.18"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.69b.19"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.69b.20"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.69b.21"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69b.17",
+        "Yoma.69b.18",
+        "Yoma.69b.19",
+        "Yoma.69b.20",
+        "Yoma.69b.21"
+      ],
+      "display": {
+        "whats": "The Leviticus 23 passage was read by heart (not from the scroll) because it was close to the Leviticus 16 portion - rolling the scroll there would not cause a delay for the congregation. The eight blessings that followed are listed.",
+        "hint": "Why was it necessary to explain that no Torah scroll was brought out for the Leviticus 23 reading?"
+      },
+      "learning": {
+        "summary": "The HP read Leviticus 16 from the scroll, then Leviticus 23 by heart - because the two portions are adjacent in the scroll and rolling from one to the other would not be an embarrassing delay. The by-heart reading was also permitted so as not to denigrate the Torah scroll (people might think the third passage was missing from the scroll). After the readings came eight blessings.",
+        "ahaMoment": "The 'by heart' reading was actually a protective measure for the Torah scroll's honor - if people saw the HP reading by heart, they might think that passage was missing from the scroll. So he declared afterward: 'More is written here than what I read.'",
+        "memoryAnchor": "Lev. 16 from scroll, Lev. 23 by heart - then declare 'more is written here' to protect the scroll's honor.",
+        "openQuestion": "What is the difference between reading Torah by heart and reading from the scroll in terms of validity?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069b-l17",
+          "type": "ruling",
+          "label": "Ruling: Leviticus 23 read by heart",
+          "speaker": "Mishnah",
+          "text": "The HP read the Leviticus 23 (Emor) passage by heart, not from the scroll - because the portions are adjacent and rolling would not cause a congregational delay.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l17",
+              "vilnaLine": 43
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l18",
+          "type": "reason",
+          "label": "Reason: Protect Torah scroll's honor",
+          "speaker": "Gemara",
+          "text": "If the congregation sees him read a third passage by heart, they might think that passage is missing from the scroll - a denigration of the Torah. Therefore he declared: 'more than I read is written here.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l18",
+              "vilnaLine": 44
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l19",
+          "type": "ruling",
+          "label": "Ruling: Eight blessings recited after readings",
+          "speaker": "Mishnah",
+          "text": "After the readings, the HP recited eight blessings: on Torah, service, thanksgiving, forgiveness, Temple, priests, Israel, and Jerusalem.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l19",
+              "vilnaLine": 45
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l20",
+          "type": "ruling",
+          "label": "Ruling: The blessings recited in their standard formulation",
+          "speaker": "Gemara",
+          "text": "The blessings were recited as they appear in the Amidah - 'may You be pleased with Your people Israel' etc.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l20",
+              "vilnaLine": 47
+            }
+          ]
+        },
+        {
+          "id": "yoma-069b-l21",
+          "type": "ruling",
+          "label": "Ruling: 'Prayer for the rest' - for Israel's general needs",
+          "speaker": "Gemara",
+          "text": "An additional prayer for general needs: supplication and petition before God for His people Israel who need salvation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069b-l21",
+              "vilnaLine": 48
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "torah-reading",
+        "eight-blessings",
+        "by-heart-reading",
+        "yom-kippur-service"
+      ],
+      "concepts": {
+        "halachic": [
+          "by-heart Torah reading on Yom Kippur",
+          "eight blessings of HP's Yom Kippur reading",
+          "protecting Torah scroll honor"
+        ],
+        "theological": [
+          "Torah scroll's sanctity and public perception"
+        ],
+        "narrative": [
+          "HP declaring 'more is written here' after reading by heart"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Torah reading laws",
+        "Yom Kippur service order"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Reading Torah by heart is always invalid",
+          "correction": "While normally one reads from the scroll, the HP was permitted to read Leviticus 23 by heart since it was adjacent to the Lev. 16 portion and rolling there would not embarrass the congregation.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "HP reads Lev. 16 from scroll, then Lev. 23 by heart, holds rolled scroll to chest declaring 'more is written here,' then recites eight blessings",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why did the HP recite Leviticus 23 by heart on Yom Kippur?",
+          "answer": "The portion was adjacent to Leviticus 16 in the scroll. Rolling to it would cause congregational waiting, and reading it by heart was permitted. He then declared 'more is written here than what I read' to protect the scroll's honor.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP read Lev. 16 from the scroll and Lev. 23 by heart, declared 'more is written here,' then recited eight blessings.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אין ישיבה בעזרה. דכתיב לעמוד לשרת (דברים יח) העומדים שם לפני ה' (שם) ולא מצינו בה ישיבה: אלא למלכי בית דוד שנאמר",
+      "en": "There is no sitting in the Azarah - as it is written 'to stand to serve' (Deut. 18), 'those who stand there before Hashem' - and we find no sitting there.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "ויבא המלך דוד וישב וגו'. כשאמר לו נתן הנביא אתה לא תבנה הבית כי ימלאו ימיך וגו': ויברך עזרא וגו'. בההוא ענינא דויקרא לפני",
+      "en": "And King David came and sat - when Nathan the prophet told him: you shall not build the House, for your days will be fulfilled etc. And Ezra blessed.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "הרחוב כתיב ברוך ה' אלהים וגו' כך תיקנו באותו היום לומר במקדש בסוף כל ברכה וברכה כדאמרינן במסכת תענית (דף יג.): בגבולין.",
+      "en": "In the public square it is written: 'Blessed is Hashem God' etc. Thus they instituted on that day to say in the Temple at the end of each blessing as stated in the Gemara.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "כל חוץ לעזרה קרי גבולין: בייא בייא. לשון זעקה וקובלנא: האי דאחרביה לבית המקדש. מבקשין רחמים שימסר בידם יצר הרע של",
+      "en": "Everything outside the Azarah is called 'provincial.' Biya biya - an expression of outcry and complaint. The one who destroyed the Temple - they prayed for mercy.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "עבודת כוכבים: לקבולי אגרא.",
+      "en": "Idolatry.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "שנכוף אותו ונקבל שכר: פיתקא.",
+      "en": "To accept the reward - let us bend it and receive the reward.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "כתב: אמת. כלומר מסכים אני",
+      "en": "A note - a written message.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "עמכם: אמר להו נביא. זכריה בן",
+      "en": "True - meaning I agree with you.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "עדו: ביניתא. שיער: בדודא",
+      "en": "The prophet told them - Zechariah son of Iddo.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "דאברא. בסיר של עופרת: זאת",
+      "en": "A hair - a strand of hair. In a lead cauldron.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "הרשעה. וישלך אותה אל תוך האיפה",
+      "en": "In a lead cauldron. 'This is wickedness' - and he threw her into the ephah and put the lead stone over its mouth.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "(ויתן) את אבן העופרת אל פיה:",
+      "en": "He absorbed the sound - the sound entered the lead and could not escape.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "שאיב קלא. נכנס הקול לתוך",
+      "en": "The world would be destroyed - there would be no procreation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "העופרת ואינו יוצא ממנו: כליא",
+      "en": "An egg laid that same day - because the heating process stopped in the hens' bodies, even those eggs already conceived could not be cooked.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "עלמא. יכלה העולם שלא תהא פריה",
+      "en": "To half - so that the inclination would control a man regarding his wife but not regarding another's wife.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "ורביה: ביעתא בת יומא. ביצה",
+      "en": "They applied kohl to its eyes - they blinded it with kohl.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "הנולדה בו ביום לפי שפסק החימום",
+      "en": "The great, mighty, and awesome God - who shows no favoritism.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "מן המעים ואפילו אותן שעיברה",
+      "en": "Pagans were desecrating His Temple - he saw Nebuchadnezzar's generals entering the Sanctuary and doing as they pleased.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "התרנגולת כבר אינן מתבשלין במעיה:",
+      "en": "He did not say 'awesome' - in the passage of Hanamel (Jer. 32) it says 'the great mighty God, Hashem of hosts is His name.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "לפלגא. שיהא שולט באדם ליזקק",
+      "en": "Daniel did not say 'mighty' - in his prayer in his book (Dan. 9).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "לאשתו ולא לאחרת: כחלינהו. סימו",
+      "en": "Pagans were enslaving his children - seventy years.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "את עיניו ע\"י כחול: האל הגדול",
+      "en": "This is His strength - that He suppresses His inclination all those years while they are enslaved.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "הגבור והנורא. אשר לא ישא פנים:",
+      "en": "And extends His patience for all the decrees made against His children.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "עובדי כוכבים מקרקרים בהיכלו.",
+      "en": "These are His awesomeness - were it not for His fear of Him etc. From the day of the destruction you learn His awesomeness.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "שראה שרי נבוכדנצר נכנסין להיכל",
+      "en": "All the nations gathered to destroy them yet they survived.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "ומריעים בו ככל רצונם: לא אמר",
+      "en": "And the Rabbis - Jeremiah and Daniel.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "נורא. בפרשת הנה חנמאל כתיב",
+      "en": "He is true - aligned with truth and hates falsehood.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "עושה חסד לאלפים ומשלם עון אבות",
+      "en": "Here when the translator can pause - this refers to the teaching that one may not skip in a distant passage.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "אל חיק בניהם אחריהם האל הגדול",
+      "en": "For before the Torah reader rolls the scroll to the place of the skip, the translator who translates each verse will pause.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "והגבור ה' צבאות שמו (ירמיה לב) :",
+      "en": "And the congregation will sit waiting - this is not honoring the congregation. But 'only on the tenth' is near to 'Acharei Mot' and he can roll the scroll.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "דניאל לא אמר גבור. בתפלתו בספרו",
+      "en": "Before the translator pauses.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "(דניאל ט) : עובדי כוכבים משתעבדים",
+      "en": "In one topic - such as here where both portions deal with Yom Kippur - one may skip, and as long as the translator does not pause.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "בבניו. זה שבעים שנה: זו היא",
+      "en": "But the reason one may not skip between two different topics even when the translator could pause is because Torah words.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "גבורתו. שכובש יצרו כל השנים הללו",
+      "en": "Are warnings, punishments, and commandments - they must enter the listeners' hearts.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "שנשתעבדו בהן ומאריך אפו על כל",
+      "en": "And when a person moves from one topic to another, it is not easy to focus.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "הגזירות שגוזרים על בניו: ואלו הן",
+      "en": "And it was taught - in a gentle tone.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "נוראותיו שאלמלא מוראו וכו'. מן",
+      "en": "He does not see the burning bull and goat - implying their burning happens while the HP still wears white vestments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "יום החורבן אתה למד נוראותיו שכל",
+      "en": "And the eimurim of the sin offering - according to all opinions these are done afterward.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "האומות נאספו להשמידם ונתקיימו",
+      "en": "When he immerses a third time with the ram of the HP and the people's ram.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "מהן: ורבנן. ירמיה ודניאל: שהוא",
+      "en": "Say from this verse and onward - it was not written in order.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "אמתי. מסכים על האמת ושונא את",
+      "en": "The Mishnah's text was altered - should we say the burning of the bull and goat comes after the third immersion?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "השקר: כאן בכדי שיפסיק התורגמן.",
+      "en": "The verse says - and regarding the same language is written 'and the one who burns them.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "הא דקתני אין מדלגין בפרשה",
+      "en": "In the context of burning the bull and goat - and both are written after 'the fat of the sin offering.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "הרחוקה מזה שקודם שגולל ספר",
+      "en": "By necessity the Azazel dispatch precedes the burning of fats as written.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "תורה עד מקום הדילוג יפסיק",
+      "en": "He sent the goat to the wilderness and then 'the fat of the sin offering' - by necessity 'the one who dispatches.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "התורגמן המתרגם פסוק שקרא",
+      "en": "Written after it - is like someone who interrupted the topic and returns to complete it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "הקורא ונמצאו צבור יושבין ומצפין",
+      "en": "And that dispatch I mentioned above - the one who dispatched it becomes tamei in garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "אין זה כבוד צבור אבל אך בעשור",
+      "en": "What about 'the one who dispatches' - even though it is written after the sin offering fats, it refers to what happened originally.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "סמוכה היא לאחרי מות ויכול לגלול",
+      "en": "So too 'the one who burns' - even though written after them, it refers to what happened originally.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "שם קודם שיפסיק התורגמן: בענין",
+      "en": "On the contrary: 'the burner' is current - for the command for their burning is written after the sin offering fats.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "אחד. כגון הכא ששתי הפרשיות",
+      "en": "Bring out and burn them. So too 'the dispatcher' is current - specifically written after the fats.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "מדברות בענין יוה\"כ מדלגינן ובכדי",
+      "en": "And the Azazel dispatch mentioned above - this is what it means: when the time for his dispatch comes.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "שלא יפסיק התורגמן והא דקתני",
+      "en": "'The dispatcher' refers to originally - like someone returning to a topic, as I explained.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "דאפילו בכדי שלא יפסיק נמי לא",
+      "en": "The Azazel dispatch is written in its own place - since it did not write again after the fats 'and he sent the goat.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "ידלג בשני ענינים לפי שדברי תורה",
+      "en": "You say the Azazel dispatch was not written in its proper place - since he was not required to stand there until the time of atonement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "היא אזהרות ועונשין ומצות וצריך",
+      "en": "He found him in the market - he honors him in public saying: my master, the HP.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "שיכנסו בלב השומעין וכשאדם יוצא",
+      "en": "He sustains the living - He who gives life.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "משיטה לשיטה אחרת אינו",
+      "en": "They took leave of each other - one took permission from the other to return home.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "נוח להתבונן: והתניא. בניחותא:",
+      "en": "I shall walk - since it spoke of good lives, it cites this.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "מסוף",
+      "en": "Where markets are - where a person can buy food; since David was constantly moving about, he prayed about this.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

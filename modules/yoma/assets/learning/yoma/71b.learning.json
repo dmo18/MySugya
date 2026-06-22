@@ -1,0 +1,1069 @@
+{
+  "canonicalRef": "Yoma 71b",
+  "summary": "Torah scholars revived by the scent of water. Shemaiah and Avtalyon's response to the HP's insult about pagan ancestry. New Mishnah on priestly vestments: ordinary priest wears four, HP wears eight. Thread-count derivation from 'shesh' (six-ply).",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-071b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.71b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.71b.1"
+      ],
+      "display": {
+        "whats": "An aggadic passage: Torah scholars are likened to a tree revived by the scent of water (Job 14:9). The image captures how Torah study constantly renews and revives those who engage with it.",
+        "hint": "How does the tree-and-water metaphor capture something specific about the relationship between scholars and Torah?"
+      },
+      "learning": {
+        "summary": "The Gemara uses the phrase from Job 14:9 'from the scent of water it will blossom' to describe Torah scholars - they are revived and renewed through Torah study just as a dying tree comes back to life when it senses water even before it is watered. The image implies that Torah scholars have an essential vitality that responds to the presence of learning.",
+        "ahaMoment": "The scholar is not merely one who studies but one who is constitutionally alive to Torah - responding to its mere 'scent' before even engaging directly. This describes an intrinsic relationship between the scholar and learning.",
+        "memoryAnchor": "Torah scholars = trees revived by the scent of water. They bloom before the water even arrives.",
+        "openQuestion": "What is the difference between studying Torah as an obligation and having the sensitivity of the 'tree' that responds to Torah's mere scent?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-071b-l01",
+          "type": "narrative",
+          "label": "Narrative: Torah scholars revived by the scent of water",
+          "speaker": "Gemara",
+          "text": "Torah scholars are like a tree revived by the scent of water (Job 14:9) - they are constantly renewed and refreshed through their engagement with Torah.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "aggadah",
+        "torah-scholars",
+        "tree-metaphor"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "Torah scholars as trees revived by water",
+          "intrinsic vitality of those who learn"
+        ],
+        "narrative": [
+          "Job 14:9 applied to Torah scholars"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Job 14:9 context"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The tree metaphor suggests scholars need constant reinforcement to remain committed",
+          "correction": "The metaphor emphasizes the opposite: scholars respond even to the scent (not yet the water itself) - showing the depth and sensitivity of their connection to Torah.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "narrative",
+          "description": "A withered tree coming back to life before it is watered - just sensing moisture in the air",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does Rashi say the phrase 'from the scent of water' (Job 14:9) refers to in this context?",
+          "answer": "Torah scholars - they are revived and renewed by Torah study, like a tree that blossoms when it senses water.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Torah scholars are compared to trees revived by the scent of water - their vitality is intrinsically linked to Torah.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-071b-s02",
+      "lineRange": {
+        "startVilnaLine": 2,
+        "endVilnaLine": 9
+      },
+      "lines": [
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.71b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.71b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.71b.2",
+        "Yoma.71b.3"
+      ],
+      "display": {
+        "whats": "The people followed Shemaiah and Avtalyon (not the HP) as they left the Temple. The HP's jealous remark about their pagan ancestry triggered their famous response. The incident concludes with a teaching about ona'at devarim.",
+        "hint": "What does the crowd's behavior - following Shemaiah and Avtalyon rather than the HP - reveal about the nature of religious authority?"
+      },
+      "learning": {
+        "summary": "When Shemaiah and Avtalyon departed from the Temple after Yom Kippur, the crowd followed them rather than the HP. Stung by jealousy, the HP made his derogatory remark about their pagan ancestry. Their response - defining true discipleship of Aaron by deeds rather than lineage - became a lasting teaching. The Gemara connects this to the prohibition of ona'at devarim: reminding converts of their origins is forbidden (Lev. 25).",
+        "ahaMoment": "The crowd's instinct was right - they followed Torah wisdom rather than official status. Shemaiah and Avtalyon embodied Aaron's deeds; the HP did not, precisely in this moment of insult.",
+        "memoryAnchor": "People followed the scholars, not the HP. The HP's jealousy revealed who the real 'disciples of Aaron' were.",
+        "openQuestion": "How does this story challenge the assumption that institutional religious position and genuine spiritual authority always coincide?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-071b-l02",
+          "type": "narrative",
+          "label": "Narrative: Crowd followed Shemaiah and Avtalyon",
+          "speaker": "Gemara",
+          "text": "When Shemaiah and Avtalyon departed, the people followed them - recognizing their greater scholarship and spiritual authority.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l03",
+          "type": "ruling",
+          "label": "Ruling: Reminding converts of their origins is ona'at devarim",
+          "speaker": "Gemara",
+          "text": "The HP's remark about their pagan ancestry violated the prohibition of ona'at devarim (verbal oppression) - the Torah forbids reminding converts of their origins (Lev. 25).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l03",
+              "vilnaLine": 6
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "ona'at-devarim",
+        "converts",
+        "shemaiah-avtalyon",
+        "spiritual-authority"
+      ],
+      "concepts": {
+        "halachic": [
+          "ona'at devarim - verbal oppression",
+          "prohibition of reminding converts of their origins"
+        ],
+        "theological": [
+          "genuine authority earned through deeds vs institutional position"
+        ],
+        "narrative": [
+          "crowd following scholars rather than the HP"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "ona'at devarim laws",
+        "Shemaiah and Avtalyon as Sanhedrin leaders"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP's remark about Shemaiah and Avtalyon's ancestry was merely impolite",
+          "correction": "It violated a specific Torah prohibition - ona'at devarim forbids reminding a convert of their or their ancestors' pagan origins.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "HP watching crowd follow Shemaiah and Avtalyon away from the Temple - institutional authority vs earned authority",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What Torah prohibition did the HP violate when he said 'let the descendants of nations come in peace'?",
+          "answer": "Ona'at devarim (verbal oppression) - the Torah forbids reminding a person of their origins as a convert or the origins of their ancestors.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP violated ona'at devarim by reminding Shemaiah and Avtalyon of their pagan ancestry. The people followed the scholars rather than the HP - recognizing true spiritual authority.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-071b-s03",
+      "lineRange": {
+        "startVilnaLine": 11,
+        "endVilnaLine": 60
+      },
+      "lines": [
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.71b.4"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.71b.5"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.71b.6"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.71b.7"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.71b.8"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.71b.9"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.71b.10"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.71b.11"
+        },
+        {
+          "vilnaLine": 51,
+          "sefariaRef": "Yoma.71b.12"
+        },
+        {
+          "vilnaLine": 53,
+          "sefariaRef": "Yoma.71b.13"
+        },
+        {
+          "vilnaLine": 53,
+          "sefariaRef": "Yoma.71b.14"
+        },
+        {
+          "vilnaLine": 56,
+          "sefariaRef": "Yoma.71b.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.71b.4",
+        "Yoma.71b.5",
+        "Yoma.71b.6",
+        "Yoma.71b.7",
+        "Yoma.71b.8",
+        "Yoma.71b.9",
+        "Yoma.71b.10",
+        "Yoma.71b.11",
+        "Yoma.71b.12",
+        "Yoma.71b.13",
+        "Yoma.71b.14",
+        "Yoma.71b.15"
+      ],
+      "display": {
+        "whats": "New Mishnah on priestly vestments: ordinary priests wear four vestments; the HP wears eight. The thread count of priestly garments - how many strands are twisted together - is derived from scripture. Discussion of what 'shesh' (fine linen) means technically and the thread-twist count for each garment.",
+        "hint": "Why does it matter exactly how many threads are twisted together in the priestly vestments?"
+      },
+      "learning": {
+        "summary": "A new Mishnah addresses priestly vestments: ordinary priests wear four (tunic, pants, belt, turban); the HP adds four more (robe, ephod, breastplate, tzitz). The Gemara then analyzes the exact thread count of the vestments - 'shesh' (six) means each thread is six-ply. The word 'shesh' appears five times about the same garments, teaching that all threads in the vestment are six-ply. For the HP's breastplate the thread count differs (twenty-four, not twenty-eight as might be calculated).",
+        "ahaMoment": "The technical precision about thread counts reflects a broader principle: the sanctity of the priestly vestments is partly constituted by their precise construction. A garment made with the wrong thread count is invalid - the vestment's spiritual function requires physical exactitude.",
+        "memoryAnchor": "Shesh (six) = six-ply thread. Five times 'shesh' written for the same garments = applies to all their threads. Belt has four types x six = twenty-four strands total.",
+        "openQuestion": "What is the relationship between the physical precision of the vestment construction and its spiritual atoning power for the HP?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-071b-l04",
+          "type": "ruling",
+          "label": "Ruling: Ordinary priest wears four vestments; HP wears eight",
+          "speaker": "Mishnah",
+          "text": "An ordinary priest serves in four vestments: tunic, pants, belt, turban. The HP adds four: robe (me'il), ephod, breastplate, and golden headplate (tzitz).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l04",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l05",
+          "type": "ruling",
+          "label": "Ruling: Urim ve'Tumim consultation requires all eight vestments",
+          "speaker": "Mishnah",
+          "text": "A priest who consults the Urim ve'Tumim (oracle) must wear all eight vestments - the same as the HP's full vestment set.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l05",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l06",
+          "type": "ruling",
+          "label": "Ruling: 'Shesh' means six-ply thread",
+          "speaker": "Gemara",
+          "text": "The word 'shesh' (six) in the vestment verses means each thread is six-ply - six strands twisted together for each thread type.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l06",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l07",
+          "type": "ruling",
+          "label": "Ruling: Five occurrences of 'shesh' teach all threads are six-ply",
+          "speaker": "Gemara",
+          "text": "Five verses write 'shesh' about the same vestments - one would have sufficed. The extra four occurrences teach that all thread types in the vestment, not just linen, are six-ply.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l07",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l08",
+          "type": "ruling",
+          "label": "Ruling: Thread twisted together - all six strands twisted",
+          "speaker": "Gemara",
+          "text": "All strands must be twisted together - the six-ply refers to all thread types in the garment combined, each type contributing six.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l08",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l09",
+          "type": "ruling",
+          "label": "Ruling: 'Shesh' applies to other vestments where not explicitly stated",
+          "speaker": "Gemara",
+          "text": "For vestments where 'shesh' (six) is not explicitly written, the rule still applies - derived from the five explicit mentions. Their thread count is also six-ply.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l09",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l10",
+          "type": "ruling",
+          "label": "Ruling: Linen comes from the central stalk only",
+          "speaker": "Gemara",
+          "text": "The technical definition of 'bad' (linen): linen has no branches like trees but only stalks, and the thread comes only from the central stalk - not from side shoots.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l10",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l11",
+          "type": "ruling",
+          "label": "Ruling: Linen splits into multiple filaments when beaten",
+          "speaker": "Gemara",
+          "text": "When linen is beaten, each fiber splits into multiple filaments - this multiplying quality is part of what makes linen thread suitable for the six-ply requirement.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l11",
+              "vilnaLine": 46
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l12",
+          "type": "ruling",
+          "label": "Ruling: Uncircumcised priest's service is invalid",
+          "speaker": "Gemara",
+          "text": "An uncircumcised priest - one whose deeds are 'strange to his Father in heaven' (uncircumcised of heart) or physically uncircumcised - may not enter the Sanctuary and his service is invalid.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l12",
+              "vilnaLine": 51
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l13",
+          "type": "ruling",
+          "label": "Ruling: Breastplate thread count derived from belt",
+          "speaker": "Gemara",
+          "text": "The breastplate's thread count (twenty-four) is derived from the belt which has four types each six-ply - when twisted together they are twenty-four. The same applies to the breastplate's three types.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l13",
+              "vilnaLine": 53
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l14",
+          "type": "ruling",
+          "label": "Ruling: 'Ta'asenu' vs 've'asita' - different derivations",
+          "speaker": "Gemara",
+          "text": "The breastplate uses 'ta'asenu' (singular command) while pomegranates use 've'asita' (plural, all types equal). Therefore we derive from the belt (four types x six = twenty-four) not from the breastplate.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l14",
+              "vilnaLine": 53
+            }
+          ]
+        },
+        {
+          "id": "yoma-071b-l15",
+          "type": "ruling",
+          "label": "Ruling: Pomegranates cannot be twenty-eight threads",
+          "speaker": "Gemara",
+          "text": "The pomegranates of the robe cannot be twenty-eight threads - since 've'asita' requires all types equal, and three equal types cannot divide evenly into twenty-eight.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071b-l15",
+              "vilnaLine": 56
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "priestly-vestments",
+        "thread-count",
+        "shesh",
+        "ordinary-priest-vs-HP",
+        "technical-halacha"
+      ],
+      "concepts": {
+        "halachic": [
+          "ordinary priest's four vestments vs HP's eight",
+          "six-ply thread requirement derived from 'shesh'",
+          "belt has four types x six = twenty-four strands",
+          "uncircumcised priest's service invalid"
+        ],
+        "theological": [
+          "physical precision of vestments as constitutive of their sanctity"
+        ],
+        "narrative": [
+          "Mishnaic chapter on vestments and thread counts"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "priestly vestments overview",
+        "linen and thread twisting in halacha",
+        "derivation from scripture repetition"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The priestly vestments' holiness is purely spiritual and independent of their physical construction",
+          "correction": "The vestments must be constructed with precise thread counts - using fewer or more strands than specified makes the vestment invalid for Temple service.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Ordinary priest in four vestments vs HP in eight vestments, with thread count breakdown for each",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does 'shesh' mean in the context of priestly vestments, and why is it written five times?",
+          "answer": "'Shesh' means six-ply - each thread is twisted from six strands. It is written five times to teach that all thread types in the vestment (not just linen) must be six-ply.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Ordinary priests wear four vestments; the HP wears eight. All threads in the vestments are six-ply ('shesh'). The belt has four types each six-ply, totaling twenty-four strands when twisted. The breastplate count follows the same derivation.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "מריח מים. בני תורה: לסוף אתו שמעיה ואבטליון לאיפטורי",
+      "en": "From the scent of water - Torah scholars (who are revived by Torah like a tree that revives from the scent of water).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "מיניה. ליטול רשות ממנו ולפרוש לצד ביתן: ייתון בני עממין לשלם.",
+      "en": "Eventually Shemaiah and Avtalyon came to take their leave - to take permission from him and depart toward their home.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "לשון גנאי הוא לפי שבאו מבני בניו של סנחריב כדאמרינן במסכת",
+      "en": "Let the descendants of nations come in peace - this is a derogatory expression since they came from the grandchildren of Sennacherib, as stated in tractate Gittin (57b).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "גיטין (דף נז:): דעבדי עובדא דאהרן. רורפי שלום: דלא עבד",
+      "en": "Who perform the deeds of Aaron - those who pursue peace.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "עובדא דאהרן. שהוניתנו אונאת",
+      "en": "Who does not perform Aaron's deeds - who shamed us with verbal oppression.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "דברים ואמר מר (ב\"מ נח:) לא",
+      "en": "As the Master said (Bava Metzia 58b): 'you shall not oppress each man his fellow' (Lev. 25) refers to verbal oppression.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "תונו איש את עמיתו (ויקרא כה)",
+      "en": "About verbal oppression the verse speaks.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "באונאת דברים הכתוב מדבר אם",
+      "en": "If he is the son of converts do not say to him: remember the deeds of your ancestors.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "היה בן גרים לא יאמר לו זכור",
+      "en": "Mishnah: in a tunic and pants etc. - this refers to an ordinary priest.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "מעשה אבותיך: מתני' בכתונת",
+      "en": "For these they are consulted - a priest consulted through the Urim ve'Tumim must wear all eight vestments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "ומכנסים וכו'. אהדיוט קאי: באלו",
+      "en": "Gemara: things said about them - six threads.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "נשאלים. כהן הנשאל באורים ותומים",
+      "en": "All of it is explained below.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "צריך ללבוש שמונה בגדים:",
+      "en": "Their thread doubled six times - six of each type in it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "גמ' דברים שנאמר בהן שש.",
+      "en": "Twisted - without six, and this is only for the pomegranates.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "כולה מפרש לקמן: חוטן כפול",
+      "en": "Eight - every thread of each type in it doubled eight times.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "ששה. ששה כל מין ומין שבו: משזר.",
+      "en": "And according to this calculation, the me'il (robe) which is entirely one type has its thread doubled twelve times.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "בלא שש ואין זאת אלא רמונים:",
+      "en": "The parokhet (curtain) has its thread doubled twenty-four times since all types in it are doubled together.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "שמונה. כל חוט של כל מין שבו",
+      "en": "And all of it is explained below.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "כפול שמונה ועל פי חשבון זה מעיל",
+      "en": "Five verses are written about them - together, and one would have sufficed - write it at the end.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "שכולו מין אחד חוטו כפול י\"ב פרוכת",
+      "en": "The reading is: and they made the linen tunics, and the linen turban, and the ornamental caps of linen, and the linen breeches of fine linen.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "חוטו כפול כ\"ד שכל מינין שבה",
+      "en": "And the twisted linen belt. And linen is fine linen - thus five. And the one about the belt must be written explicitly.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "כפולין יחד וכולה מפרש לה לקמן:",
+      "en": "Since there are other types in it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "חמשה קראי כתיבי. גבי הדדי והוה",
+      "en": "That they should all be twisted together - all of them six.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "סגי ליה בחד ונכתביה לבסוף: ה\"ג",
+      "en": "For the other vestments where six is not stated - that they too have their thread doubled six times.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ויעשו את הכתנות שש ואת המצנפת",
+      "en": "And below it explains what they are.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "שש ואת פארי המגבעות שש ואת",
+      "en": "A thing that comes from the ground - linen.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "מכנסי הבד שש משזר. ובד הוא שש",
+      "en": "Bad - separated; linen and hemp have no branches and offshoots like trees, but only stalks.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "הרי חמשה וההיא דאבנט צריך",
+      "en": "And linen comes only from the middle stalk.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "למיכתב על כרחך דאיכא מיני",
+      "en": "Split - has a fiber that divides into two. And do not be surprised since even in a bearded elder's lower hair it is found.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "אחריני בהדיה: שיהו שזורין. יחד",
+      "en": "Linen also splits - when beaten it divides into several filaments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "כולן ששה: לשאר בגדים שלא נאמר",
+      "en": "Due to its beating - when they beat it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "בהן שש. שיהא אף הן חוטן כפול",
+      "en": "Ornamental caps of fine linen - and in the Torah it is written: 'and the ornamental caps of linen.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "ששה ולקמן מפרש מאי נינהו: דבר",
+      "en": "Son of a stranger - one whose deeds have become strange to his Father in heaven, who is uncircumcised of heart.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "העולה מן הקרקע בד בד. הפשתן",
+      "en": "And also uncircumcised of flesh whose brothers died due to circumcision - may not enter the Sanctuary.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "והקנבוס אין להן בדים וענפים",
+      "en": "Who said this - from where did they derive this teaching which we study in the second chapter of Zevachim (15b).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "כעצים אלא עלין ואין הפשתן בא",
+      "en": "That a priest who is uncircumcised - his service is invalid.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "אלא מן הקנה האמצעי: מפצל.",
+      "en": "What is below - twenty-four. For there are four types in it and each type doubled six times.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "יש בו נימא מתחלקת לשתים ואל",
+      "en": "So too here twenty-four, and here there are three types - so each would be eight.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "תתמה שאף בשער זקן התחתון מצוי",
+      "en": "But from the belt - which also has four types and each doubled six times.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "כן: כיתנא נמי מפציל. כשכותשין",
+      "en": "And when you twist them together they are twenty-four.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "אותו נחלק לכמה פיצולין: אגב",
+      "en": "Ta'asenu is written - in the choshen (breastplate), therefore we do not derive from it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "לקותיה. שמקישין עליו: פארי",
+      "en": "Ve'asita is written - for the pomegranates, that all types in it should be equal. Therefore twenty-eight is impossible.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "פשתים. ובתורה כתיב ואת פארי",
+      "en": "How would he do it etc.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "המגבעות שש: בן נכר. שנתנכרו",
+      "en": "Kalil - entirely.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "מעשיו לאביו שבשמים שהוא ערל לב",
+      "en": "Rashi line 45: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "וכן ערל בשר שמתו אחיו מחמת",
+      "en": "Rashi line 46: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "מילה לא יבא אל המקדש: מאן אמר'.",
+      "en": "Rashi line 47: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "מאין למדו דבר זה ששנינו בפרק",
+      "en": "Rashi line 48: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "שני דזבחים (דף טו:) שהכהן ערל",
+      "en": "Rashi line 49: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "עבודתו פסולה: מה להלן עשרים",
+      "en": "Rashi line 50: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "וארבעה. שהרי ד' מינין יש בה וכל",
+      "en": "Rashi line 51: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "מין ומין כפול שש אף כאן כ\"ד וכאן",
+      "en": "Rashi line 52: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "ג' מינין יש דהוו להו כל חד וחד",
+      "en": "Rashi line 53: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "תמני: אלא מאבנט. דיש בו נמי",
+      "en": "Rashi line 54: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "ארבע מינין וכל אחד כפול ששה",
+      "en": "Rashi line 55: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "וכששוזרן יחד הוו להו כ\"ד: תעשנו",
+      "en": "Rashi line 56: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "כתיב. בחשן לפיכך אין למידין ממנו:",
+      "en": "Rashi line 57: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "ועשית. כתיב ברמונים שיהו עשויות",
+      "en": "Rashi line 58: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "כל המינין שבו שוות הלכך לא",
+      "en": "Rashi line 59: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "אפשר בכ\"ח דהיכי ליעביד וכו':",
+      "en": "Rashi line 60: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "כליל",
+      "en": "Rashi line 61: continuation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

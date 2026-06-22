@@ -1,0 +1,930 @@
+{
+  "daf": "24b",
+  "canonicalRef": "Yoma 24b",
+  "summary": "Two major topics close out the batch: (1) An extended discussion of which services within the veil (the inner sanctuary, including the Holy of Holies) require the kohen gadol vs. the common priests, and whether kohanim with blemishes may assist with certain support tasks. The Talmud systematically analyzes which Temple activities fall within or outside the veil, who may perform them, and whether the prohibition on blemished kohanim extends to logistical tasks. (2) The mishna resumes the lottery: the second lottery covers 13 positions, which are detailed. The Gemara discusses each position's requirements.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-024b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.24b.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.24b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.24b.3"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.24b.4"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.24b.5"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.24b.6"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.24b.7"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.24b.8"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.24b.9"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.24b.10"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.24b.11"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.24b.12"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.24b.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.24b.1",
+        "Yoma.24b.2",
+        "Yoma.24b.3",
+        "Yoma.24b.4",
+        "Yoma.24b.5",
+        "Yoma.24b.6",
+        "Yoma.24b.7",
+        "Yoma.24b.8",
+        "Yoma.24b.9",
+        "Yoma.24b.10",
+        "Yoma.24b.11",
+        "Yoma.24b.12",
+        "Yoma.24b.13"
+      ],
+      "display": {
+        "whats": "Services within the veil (lifnim min haparochet): which require the KG and which can be done by common priests? An analysis of the criteria: service within the veil must be done by the KG specifically on Yom Kippur; but at other times, common priests may enter the heichal for specific purposes. Blemished kohanim: may they assist with support tasks? The discussion covers the full topology of Temple service eligibility based on location, day, and physical qualifications.",
+        "hint": "The veil (parochet) is the physical dividing line between the heichal (outer sanctuary) and the kodesh hakodashim (Holy of Holies). Services on each side of this line have different personnel requirements. Yom Kippur is the one day the KG enters the innermost space; the Gemara explores what this means for related services."
+      },
+      "learning": {
+        "summary": "Within the veil (lifnim min haparochet): on Yom Kippur, only the KG may enter the Holy of Holies. Outside the veil but inside the heichal: certain services can be done by common priests. Blemished kohanim: completely excluded from the altar area but the question of whether they can perform logistical tasks is disputed. The key distinction is between 'service' (requires unblemished kohen) and 'support' (potentially broader).",
+        "ahaMoment": "The veil is not just an architectural feature - it is a theological boundary that determines personnel requirements. Inside the veil: absolute restriction to the KG on Yom Kippur. Outside the veil in the heichal: common priests. Outside the heichal: broader participation possible. Location determines who may serve.",
+        "memoryAnchor": "Inside veil: KG only (Yom Kippur). Heichal: common priests. Courtyard: broader. Blemished kohanim: excluded from service, dispute about support.",
+        "openQuestion": "The KG entered the Holy of Holies four times on Yom Kippur. Each entry required specific conditions. The Gemara is laying the groundwork for the full Yom Kippur service description to come."
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-024b-l01",
+          "type": "ruling",
+          "label": "Services within the veil require the KG on Yom Kippur",
+          "text": "All services performed within the veil (in the Holy of Holies) on Yom Kippur must be done by the KG. Common priests cannot enter on Yom Kippur.",
+          "sourceRefs": [
+            "Yoma.24b.1"
+          ]
+        },
+        {
+          "id": "yoma-024b-l03",
+          "type": "elaboration",
+          "label": "Services in the heichal: common priests eligible",
+          "text": "Services in the outer sanctuary (heichal) - menorah, incense altar, showbread table - may be performed by common priests throughout the year. Only Yom Kippur restricts the inner area to the KG.",
+          "sourceRefs": [
+            "Yoma.24b.2"
+          ]
+        },
+        {
+          "id": "yoma-024b-l06",
+          "type": "question",
+          "label": "Can blemished kohanim perform any Temple service?",
+          "text": "A kohen with a physical blemish (mum) is excluded from performing Temple service. The question: does this extend to logistical tasks (wood, ash carrying) or only to formal avodah?",
+          "sourceRefs": [
+            "Yoma.24b.3"
+          ]
+        },
+        {
+          "id": "yoma-024b-l07",
+          "type": "ruling",
+          "label": "Blemished kohanim are excluded from formal service",
+          "text": "Any physical blemish (mum) excludes a kohen from performing the altar service or burning on the fire. This applies to all formal avodah.",
+          "sourceRefs": [
+            "Yoma.24b.4"
+          ]
+        },
+        {
+          "id": "yoma-024b-l09",
+          "type": "dispute",
+          "label": "Blemished kohanim and logistical tasks",
+          "text": "Dispute: can a blemished kohen carry wood to the altar fire? Some say yes (logistical support, not formal avodah). Others say the prohibition extends to any participation in the altar area.",
+          "sourceRefs": [
+            "Yoma.24b.5"
+          ]
+        },
+        {
+          "id": "yoma-024b-l09",
+          "type": "elaboration",
+          "label": "Additional analysis of blemish categories",
+          "text": "Further examination of which types of blemishes disqualify and whether the disqualification is from the entire Temple area or only from the altar service.",
+          "sourceRefs": [
+            "Yoma.24b.6"
+          ]
+        },
+        {
+          "id": "yoma-024b-l12",
+          "type": "ruling",
+          "label": "Wood bringer: valid by any kohen including blemished",
+          "text": "Some authorities hold that a blemished kohen may bring wood to the altar fire because this is not formal avodah but logistical preparation.",
+          "sourceRefs": [
+            "Yoma.24b.7"
+          ]
+        },
+        {
+          "id": "yoma-024b-l14",
+          "type": "ruling",
+          "label": "Prohibition on blemished kohen doing avodah is absolute",
+          "text": "The prohibition on blemished kohanim performing avodah is derived from a specific verse. Any act classified as avodah requires an unblemished kohen.",
+          "sourceRefs": [
+            "Yoma.24b.8"
+          ]
+        },
+        {
+          "id": "yoma-024b-l15",
+          "type": "elaboration",
+          "label": "The four services the KG performs on Yom Kippur within the veil",
+          "text": "The four entries of the KG into the Holy of Holies on Yom Kippur, with the specific service performed at each entry, are enumerated as background to the service restriction.",
+          "sourceRefs": [
+            "Yoma.24b.9"
+          ]
+        },
+        {
+          "id": "yoma-024b-l20",
+          "type": "elaboration",
+          "label": "Services in the heichal on ordinary days",
+          "text": "On non-Yom Kippur days, common priests perform services in the heichal (menorah, showbread, incense). The KG may also perform these but is not required to.",
+          "sourceRefs": [
+            "Yoma.24b.10"
+          ]
+        },
+        {
+          "id": "yoma-024b-l23",
+          "type": "elaboration",
+          "label": "The principle: location determines personnel",
+          "text": "Inside the veil (Yom Kippur): KG only. Heichal: any kosher kohen. Courtyard (altar): any kosher kohen. Beyond the courtyard: logistical tasks may be broader.",
+          "sourceRefs": [
+            "Yoma.24b.11"
+          ]
+        },
+        {
+          "id": "yoma-024b-l26",
+          "type": "elaboration",
+          "label": "Summary of blemished kohen eligibility",
+          "text": "Blemished kohanim are excluded from all formal avodah at all Temple locations. For logistical support tasks, some authorities allow participation; others maintain the full exclusion throughout the Temple complex.",
+          "sourceRefs": [
+            "Yoma.24b.12"
+          ]
+        },
+        {
+          "id": "yoma-024b-l31",
+          "type": "conclusion",
+          "label": "Closing the within-the-veil analysis",
+          "text": "The Gemara concludes its analysis of who may serve where, preparing for the detailed description of the Yom Kippur service that will follow in later chapters.",
+          "sourceRefs": [
+            "Yoma.24b.13"
+          ]
+        }
+      ],
+      "topicTags": [
+        "within the veil",
+        "parochet",
+        "kohen gadol",
+        "blemished kohen",
+        "mum",
+        "heichal",
+        "holy of holies",
+        "avodah eligibility",
+        "Yom Kippur service"
+      ],
+      "concepts": {
+        "halachic": [
+          "lifnim min haparochet (within the veil)",
+          "mum (physical blemish) disqualification",
+          "heichal service vs. inner sanctuary",
+          "KG exclusivity on Yom Kippur"
+        ],
+        "theological": [
+          "the veil as theological boundary",
+          "physical perfection as requirement for inner sanctity"
+        ],
+        "narrative": [
+          "four KG entries on Yom Kippur as background"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-024a-s03"
+      ],
+      "misconceptions": [
+        "The KG's exclusive access to the Holy of Holies applies only on Yom Kippur. Throughout the year, the heichal (outer sanctuary) is accessible to any kosher common priest.",
+        "A blemished kohen is not excluded from being a kohen - he still has all the rights and privileges. He is specifically excluded from performing the Temple service (avodah). His status as kohen for other purposes (teruma, duchaning) is unaffected."
+      ],
+      "relatedSugyot": [
+        "yoma-024a-s03",
+        "yoma-024b-s02",
+        "yoma-024a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "description": "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled"
+        },
+        {
+          "type": "contrast",
+          "description": "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Who may perform services within the veil (lifnim min haparochet) on Yom Kippur, and what about the rest of the year?",
+          "a": "On Yom Kippur: only the Kohen Gadol may enter the Holy of Holies (within the veil). Throughout the year: the inner sanctuary is not entered for service; the heichal services (menorah, incense, showbread) are performed by common priests."
+        },
+        {
+          "q": "What is the status of a kohen with a physical blemish (mum) regarding Temple service?",
+          "a": "A blemished kohen is excluded from performing formal Temple service (avodah) at any location. His general priestly status (teruma, duchaning) is not affected. There is a dispute about whether he may perform logistical support tasks."
+        }
+      ],
+      "finalRuling": "Within the veil on Yom Kippur: KG only. Heichal: common priests. Blemished kohanim: excluded from avodah, disputed on logistical tasks.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "לִפְנִים מִן הַפָּרֹכֶת",
+          "translit": "lifnim min haparochet",
+          "en": "Within the veil; the Holy of Holies. On Yom Kippur, only the KG may enter."
+        },
+        {
+          "he": "מוּם",
+          "translit": "mum",
+          "en": "Physical blemish; disqualifies a kohen from performing formal Temple service but not from his general priestly status."
+        },
+        {
+          "he": "הֵיכָל",
+          "translit": "heichal",
+          "en": "The outer sanctuary; the space between the entrance hall and the Holy of Holies. Common priests perform services here throughout the year."
+        }
+      ],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-024b-s02",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.24b.14"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.24b.15"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.24b.16"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.24b.17"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.24b.18"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.24b.14",
+        "Yoma.24b.15",
+        "Yoma.24b.16",
+        "Yoma.24b.17",
+        "Yoma.24b.18"
+      ],
+      "display": {
+        "whats": "The mishna's second lottery: 13 positions for the main morning service. The mishna lists all 13: slaughter, blood, removing ash from the inner altar, removing ash from the menorah, limbs in specific order, flour offering, wine libation, and final bringing to the ramp. The Gemara begins examining which of these positions could theoretically be combined and why each requires a separate designee.",
+        "hint": "The 13-position list for the second lottery is the most complex assignment in the Temple's morning. Each position is distinct: the order matters, the vessel matters, and the moment matters. Breaking it into 13 separate lottery positions ensures both fairness and precision."
+      },
+      "learning": {
+        "summary": "The second lottery assigns 13 positions: (1) slaughter; (2) sprinkle blood; (3) clean inner altar of ash; (4) clean menorah of ash; (5-6) carry the head and right leg; (7-8) carry two forelegs; (9-10) carry the tail and left leg; (11) carry the breast and throat; (12) carry the flour offering; (13) carry the wine libation. Each position was assigned to a different priest, ensuring broad participation in the daily morning service.",
+        "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role. This was both a practical workflow and a mechanism for broad priestly participation.",
+        "memoryAnchor": "Second lottery: 13 positions. Slaughter, blood, inner altar ash, menorah ash, then eight carriers of limbs and offerings, plus flour and wine.",
+        "openQuestion": "Could one priest theoretically perform multiple positions if fewer than 13 were available? Or were exactly 13 required every morning?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-024b-l35",
+          "type": "ruling",
+          "label": "The 13 positions of the second lottery",
+          "text": "The mishna lists 13 distinct positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine carriers of the offering's limbs and supplementary offerings.",
+          "sourceRefs": [
+            "Yoma.24b.14"
+          ]
+        },
+        {
+          "id": "yoma-024b-l37",
+          "type": "elaboration",
+          "label": "Why 13 separate positions?",
+          "text": "Each position represents a distinct halakhic act, and assigning each to a different priest maximized participation in the daily tamid service. The lottery's fairness required each position to be separate.",
+          "sourceRefs": [
+            "Yoma.24b.15"
+          ]
+        },
+        {
+          "id": "yoma-024b-l39",
+          "type": "elaboration",
+          "label": "The order of the positions",
+          "text": "The 13 positions follow the order of the tamid service: from slaughter through blood, then ash removal, then the precise order of limb-carrying up the altar ramp.",
+          "sourceRefs": [
+            "Yoma.24b.16"
+          ]
+        },
+        {
+          "id": "yoma-024b-l41",
+          "type": "question",
+          "label": "Could some positions be combined?",
+          "text": "The Gemara asks: could one priest perform both slaughter and blood sprinkling? The answer: in theory, but the lottery system assigned them separately to maximize participation.",
+          "sourceRefs": [
+            "Yoma.24b.17"
+          ]
+        },
+        {
+          "id": "yoma-024b-l43",
+          "type": "conclusion",
+          "label": "Summary of the second lottery",
+          "text": "The second lottery's 13 positions represent the complete morning tamid service as a collective act by 13 different priests. The lottery was the mechanism ensuring equitable distribution of this daily privilege.",
+          "sourceRefs": [
+            "Yoma.24b.18"
+          ]
+        }
+      ],
+      "topicTags": [
+        "second lottery",
+        "thirteen positions",
+        "tamid",
+        "morning service",
+        "daily offering",
+        "priestly participation"
+      ],
+      "concepts": {
+        "halachic": [
+          "thirteen positions in second lottery",
+          "tamid service order",
+          "multiple priests for single offering"
+        ],
+        "theological": [
+          "collective priestly participation in daily service",
+          "daily tamid as national act"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-022b-s02"
+      ],
+      "misconceptions": [
+        "The 13 positions were not optional - each morning the lottery assigned all 13. Having a full slate of priests was required for the daily service.",
+        "The inner altar ash and menorah ash removal were separate positions (not covered by the first lottery's ash removal). The first lottery covers only the outer altar ash."
+      ],
+      "relatedSugyot": [
+        "yoma-022b-s02",
+        "yoma-023a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs"
+        },
+        {
+          "type": "action",
+          "description": "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How many positions were in the second lottery, and what types of tasks did they cover?",
+          "a": "13 positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine positions carrying the animal limbs and supplementary offerings (flour, wine) to the altar."
+        },
+        {
+          "q": "Why were 13 separate positions required for the morning service rather than having fewer priests do multiple tasks?",
+          "a": "To maximize priestly participation in the daily tamid service. Each position was distinct, and the lottery system was designed to distribute the privilege broadly among the available priests."
+        }
+      ],
+      "finalRuling": "The second lottery assigned 13 separate positions covering the complete morning tamid service, from slaughter through final carrying to the altar.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "תָּמִיד",
+          "translit": "tamid",
+          "en": "The daily offering; brought every morning and evening. The second lottery assigned 13 priests to the morning tamid service."
+        }
+      ],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "לִפְנִים מִן הַפָּרֹכֶת",
+      "translit": "lifnim min haparochet",
+      "en": "Within the veil; the Holy of Holies. KG only on Yom Kippur."
+    },
+    {
+      "he": "מוּם",
+      "translit": "mum",
+      "en": "Physical blemish; excludes a kohen from formal Temple service."
+    },
+    {
+      "he": "הֵיכָל",
+      "translit": "heichal",
+      "en": "The outer sanctuary; common priests serve here throughout the year."
+    },
+    {
+      "he": "תָּמִיד",
+      "translit": "tamid",
+      "en": "Daily offering; 13 priests in the second lottery served the morning tamid."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Services within the veil on Yom Kippur require the KG.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Commentary on the KG's exclusive access to the Holy of Holies.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Heichal services may be done by common priests.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Commentary on the heichal vs. inner sanctuary distinction.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Commentary on blemished kohanim and their exclusions.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "A blemished kohen is excluded from formal avodah.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Commentary on the mum categories.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Commentary on the wood-carrying eligibility for blemished kohanim.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Dispute: can a blemished kohen carry wood to the altar fire?",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Commentary on the avodah vs. support distinction for blemished kohanim.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Commentary on the absolute prohibition on blemished kohen avodah.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The four KG entries on Yom Kippur enumerated.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Commentary on each entry's specific service.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Commentary on the heichal services on ordinary days.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Location determines personnel: within veil, heichal, courtyard.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Commentary on the blemished kohen eligibility summary.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Commentary on the closing of the within-veil analysis.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Commentary on the transition to the second lottery.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Commentary on the location principle conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Commentary on the blemished kohen discussion conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Commentary on the veil as theological boundary.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Commentary on the KG's role on Yom Kippur vs. other days.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Commentary on the common priest's eligibility in the heichal.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Commentary on the four KG Yom Kippur entries.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Commentary on the mum and its effect.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The second lottery: 13 positions listed.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Slaughter, blood, inner altar ash, menorah ash, nine carriers.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Commentary on the 13 distinct positions.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l37"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Commentary on why 13 separate positions rather than fewer.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l37"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Commentary on maximizing priestly participation.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l37"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The order of positions follows the tamid service order.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l39"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Commentary on the tamid service sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l39"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Could one priest do multiple positions? Theoretically yes.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Commentary on the lottery's purpose of distribution.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Summary of the second lottery.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Commentary on the 13 positions as collective service.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Commentary on the inner altar ash as separate from outer.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Commentary on the menorah ash as a second lottery item.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Commentary on the flour and wine as part of the 13.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Commentary on the closing of the second lottery description.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Commentary on the transition to chapter 3.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Commentary on the 24b conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Commentary on the blemished kohen and the veil summary.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Commentary on the second lottery as climax of chapter 2 opening.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Commentary on the full tamid service as a national daily act.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Commentary on the closing observation about priestly participation.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Commentary on the chapter structure.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Commentary on the transition to the next major chapter.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Commentary on the 13-position system's permanence.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Commentary on the closing of the lottery system discussion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Commentary on the mum discussion conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Commentary on the veil discussion conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Commentary on the second lottery conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Commentary on the final summary of this chapter section.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Commentary on the chapter 2 lottery laws conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Commentary on the continuation to chapter 3.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Commentary on the blemished kohen conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Commentary on the location-based eligibility conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Commentary on the second lottery's role in chapter 2.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Commentary on the closing of 24b.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Commentary on the within-veil vs. heichal distinction.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Commentary on the KG Yom Kippur entries.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Commentary on the 13 carriers in order.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Commentary on the final transition.",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    },
+    {
+      "vilnaLine": 65,
+      "en": "Commentary on the batch conclusion (24b ends the 20a-24b batch).",
+      "linkedGemaraLineIds": [
+        "yoma-024b-l43"
+      ]
+    }
+  ]
+}

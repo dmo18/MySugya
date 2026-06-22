@@ -1,0 +1,880 @@
+{
+  "daf": "23b",
+  "canonicalRef": "Yoma 23b",
+  "summary": "The chapter continues with two major topics. First: a halakhic principle that Jerusalem (and the Temple) does not bring the egla arufa (calf atonement for an unknown murder) - with the underlying principle that the city's sanctity is incompatible with that ritual's presupposition of unsolved crime. Second: the detailed laws of the ash removal (terumat hadeshen) - how much ash must be removed, where it is placed, what garments the priest wears, and whether the ash of the outer altar differs from the ash of the menorah.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-023b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 11
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.23b.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.23b.2"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.23b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.23b.1",
+        "Yoma.23b.2",
+        "Yoma.23b.3"
+      ],
+      "display": {
+        "whats": "Jerusalem does not bring the egla arufa (the calf slaughtered in a valley for an unresolved murder). The source: the verse 'you shall measure to the cities' - Jerusalem cannot be 'measured to,' either because it was not divided among the tribes (and thus has no 'city' owner) or because the Temple's presence makes the notion of unresolved guilt incompatible with the city's identity.",
+        "hint": "The egla arufa ritual assumes an unsolved murder near a city whose inhabitants bear some collective guilt. Jerusalem's unique status - undivided among tribes, the city of the divine Presence - makes this ritual categorically inapplicable. The city of God cannot implicitly confess collective guilt over an unsolved murder."
+      },
+      "learning": {
+        "summary": "Jerusalem does not bring the egla arufa (calf for unknown murder victim). Source: 'you shall measure to the cities round about.' Jerusalem is not a normal city: it was not divided among the tribes and cannot 'belong' to any single tribe. Therefore the measurement to the nearest city has no applicability to Jerusalem. Additionally, the sanctity of the Temple Mount is incompatible with the egla arufa's presupposition of communal guilt.",
+        "ahaMoment": "The egla arufa assumes: someone was killed; no one knows who did it; the nearest city bears some collective responsibility. Jerusalem's exemption says: Jerusalem has no 'ownership' by any tribe, and the divine Presence there is incompatible with unresolved guilt. The city of atonement cannot itself need atonement through an unsolved murder ritual.",
+        "memoryAnchor": "Jerusalem: no egla arufa. Why? Not divided among tribes - no 'owner city.' Also: city of God cannot admit unresolved collective guilt.",
+        "openQuestion": "If a murder occurred in Jerusalem and the killer was unknown, what happened? The egla arufa could not be brought, but the guilt was real."
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-023b-l01",
+          "type": "ruling",
+          "label": "Jerusalem does not bring egla arufa",
+          "text": "Jerusalem (and the Temple Mount) is exempt from the egla arufa obligation that applies to cities near which an unidentified murder victim is found.",
+          "sourceRefs": [
+            "Yoma.23b.1"
+          ]
+        },
+        {
+          "id": "yoma-023b-l03",
+          "type": "proof",
+          "label": "Source: 'you shall measure to the cities'",
+          "text": "The verse refers to measuring the distance to determine which city is closest. Jerusalem cannot be 'measured to' because it was never allocated to any specific tribe - it belongs to all Israel (or to God). Therefore the measurement does not apply.",
+          "sourceRefs": [
+            "Yoma.23b.2"
+          ]
+        },
+        {
+          "id": "yoma-023b-l10",
+          "type": "additional",
+          "label": "Additional reason: Temple sanctity incompatible",
+          "text": "Even if one argued Jerusalem could be measured to, the Temple's presence makes the egla arufa ritual inappropriate. The city of atonement cannot itself be accused of collective guilt.",
+          "sourceRefs": [
+            "Yoma.23b.3"
+          ]
+        }
+      ],
+      "topicTags": [
+        "egla arufa",
+        "Jerusalem",
+        "tribal division",
+        "murder",
+        "Temple",
+        "collective guilt"
+      ],
+      "concepts": {
+        "halachic": [
+          "egla arufa exemption",
+          "Jerusalem's special legal status",
+          "city ownership for halacha"
+        ],
+        "theological": [
+          "Jerusalem as city of God - not a tribal city",
+          "divine presence and legal categories"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [
+        "The egla arufa is not a punishment for a city. It is a collective atonement ritual for communal responsibility over an unsolved murder. Jerusalem's exemption is categorical, not because Jerusalem is perfect, but because it does not meet the ritual's definitional requirements.",
+        "The tribal non-division of Jerusalem is a unique legal fact: other cities were given to specific tribes. Jerusalem was intentionally held in common, which has ongoing legal implications."
+      ],
+      "relatedSugyot": [
+        "yoma-023b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Normal city: divided among tribes, can be 'measured to' for egla arufa. Jerusalem: undivided, belongs to all Israel, exempt from the egla arufa ritual."
+        },
+        {
+          "type": "action",
+          "description": "The egla arufa ritual in a valley outside a normal city - showing what Jerusalem is explicitly exempt from"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why does Jerusalem not bring the egla arufa when an unidentified murder victim is found?",
+          "a": "Jerusalem was never allocated to any specific tribe - it belongs to all Israel (or to God). The egla arufa requires identifying the 'nearest city' to the victim; Jerusalem cannot be 'measured to' in the required sense because it has no tribal owner."
+        },
+        {
+          "q": "What is the egla arufa?",
+          "a": "The calf whose neck is broken in a valley to atone for communal responsibility when a murder victim is found and the killer is unknown. The city nearest to the victim's body performs the ritual."
+        }
+      ],
+      "finalRuling": "Jerusalem does not bring the egla arufa: it was not divided among the tribes and its sanctity is incompatible with the ritual.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "עֶגְלָה עֲרוּפָה",
+          "translit": "egla arufa",
+          "en": "The calf whose neck is broken in a valley as atonement for an unresolved murder; Jerusalem is exempt from this obligation."
+        }
+      ],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-023b-s02",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.23b.4"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.23b.5"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.23b.6"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.23b.7"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.23b.8"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.23b.9"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.23b.10"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.23b.11"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.23b.12"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.23b.13"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.23b.14"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.23b.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.23b.4",
+        "Yoma.23b.5",
+        "Yoma.23b.6",
+        "Yoma.23b.7",
+        "Yoma.23b.8",
+        "Yoma.23b.9",
+        "Yoma.23b.10",
+        "Yoma.23b.11",
+        "Yoma.23b.12",
+        "Yoma.23b.13",
+        "Yoma.23b.14",
+        "Yoma.23b.15"
+      ],
+      "display": {
+        "whats": "The laws of terumat hadeshen (ash removal) in detail: the priest wears smaller, worn-out versions of his regular four garments (not new ones). He removes a full fistful of ash from inside the heap and places it beside the altar ramp on the east side. The removal is a mitzvah even if the priest uses his left hand. The ash of the outer altar vs. the ash of the menorah: what does one do with each type? Discussion of where the ashes must be deposited.",
+        "hint": "The requirement to wear 'worn' garments for the ash removal service is counterintuitive - normally priestly service demands the finest. The reason given: one should not wear one's best clothes while cleaning. This preserves the dignity of the fine garments for the main service."
+      },
+      "learning": {
+        "summary": "For terumat hadeshen the priest wears four special garments - smaller, worn versions of the regular four priestly garments, so as not to soil the fine garments with ash. He removes a fistful of ash from the top of the altar heap. The ash is placed on the east side of the altar ramp. It is a mitzvah even if done with the left hand. The ash of the outer altar is placed beside the ramp; the ash of the inner altar (ketoret) is placed in a specific location. The menorah ash goes outside the Temple entirely.",
+        "ahaMoment": "The worn-garment rule is a lesson about proportionality: dress for the task. The job of removing ash is not glamorous - wear the appropriate garments. Save the fine garments for the fine service. This is not diminishing the ash removal; it is placing everything in its proper context.",
+        "memoryAnchor": "Ash removal: worn garments (not best). Fistful of ash. East of ramp. Left hand acceptable. Outer altar ash = ramp side; menorah ash = outside.",
+        "openQuestion": "Why is the left hand acceptable for ash removal when most Temple services require the right? Is ash removal considered less formally 'sacred' than the main offerings?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-023b-l12",
+          "type": "ruling",
+          "label": "Priest wears worn garments for ash removal",
+          "text": "For terumat hadeshen, the priest does not wear his standard fine four garments but instead smaller, worn-out versions of the same four, to avoid soiling the fine garments with ash.",
+          "sourceRefs": [
+            "Yoma.23b.4"
+          ]
+        },
+        {
+          "id": "yoma-023b-l15",
+          "type": "ruling",
+          "label": "Procedure: remove a fistful of ash from the top",
+          "text": "The priest takes a full fistful of ash from the top of the pile that accumulated on the altar during the night. The quantity is significant: a full fistful, not more.",
+          "sourceRefs": [
+            "Yoma.23b.5"
+          ]
+        },
+        {
+          "id": "yoma-023b-l18",
+          "type": "ruling",
+          "label": "Placement: east side of the altar ramp",
+          "text": "The ash is carried down the ramp and placed beside it on the eastern side, where it dissolves/absorbs into the ground. The ash is not carried outside the Temple courtyard.",
+          "sourceRefs": [
+            "Yoma.23b.6"
+          ]
+        },
+        {
+          "id": "yoma-023b-l21",
+          "type": "ruling",
+          "label": "Left hand acceptable for ash removal",
+          "text": "Unlike most Temple services which require the right hand, ash removal is valid even if performed with the left hand. This reflects its different halakhic character.",
+          "sourceRefs": [
+            "Yoma.23b.7"
+          ]
+        },
+        {
+          "id": "yoma-023b-l24",
+          "type": "ruling",
+          "label": "Ash of the outer altar: beside the ramp",
+          "text": "The ash from the outer (burnt offering) altar is deposited on the east side of the altar ramp, where it is absorbed into the ground.",
+          "sourceRefs": [
+            "Yoma.23b.8"
+          ]
+        },
+        {
+          "id": "yoma-023b-l27",
+          "type": "ruling",
+          "label": "Ash of the inner altar (ketoret): specific location",
+          "text": "The ash from the inner altar (where incense was burned) is placed in a different location - a clean space near the altar but specifically designated.",
+          "sourceRefs": [
+            "Yoma.23b.9"
+          ]
+        },
+        {
+          "id": "yoma-023b-l29",
+          "type": "ruling",
+          "label": "Ash from the menorah: taken outside",
+          "text": "The ash from cleaning the menorah is taken outside the Temple entirely - to a clean place outside.",
+          "sourceRefs": [
+            "Yoma.23b.10"
+          ]
+        },
+        {
+          "id": "yoma-023b-l31",
+          "type": "question",
+          "label": "Why different rules for each type of ash?",
+          "text": "Each sacred object's ash must be treated in a manner appropriate to its sanctity. The outer altar ash stays inside the courtyard; the inner altar and menorah ash have different destinations.",
+          "sourceRefs": [
+            "Yoma.23b.11"
+          ]
+        },
+        {
+          "id": "yoma-023b-l34",
+          "type": "elaboration",
+          "label": "Elaboration on the worn garments rule",
+          "text": "The Gemara further elaborates why worn garments are required: a proverb 'do not use the garments in which you cook for your master to pour wine for him' - different tasks deserve different dress.",
+          "sourceRefs": [
+            "Yoma.23b.12"
+          ]
+        },
+        {
+          "id": "yoma-023b-l36",
+          "type": "elaboration",
+          "label": "Further garment details",
+          "text": "The worn garments were still valid priestly garments - they were not disqualified, just lesser quality. The requirement was that the priest not soil his best garments.",
+          "sourceRefs": [
+            "Yoma.23b.13"
+          ]
+        },
+        {
+          "id": "yoma-023b-l39",
+          "type": "elaboration",
+          "label": "Minimum quantity of ash",
+          "text": "The fistful of ash is the minimum. If the priest removed less than a fistful, he has not fulfilled the mitzvah. The fistful must come from the actual accumulated ash, not from the sides.",
+          "sourceRefs": [
+            "Yoma.23b.14"
+          ]
+        },
+        {
+          "id": "yoma-023b-l41",
+          "type": "conclusion",
+          "label": "Summary of terumat hadeshen laws",
+          "text": "The ash removal service is a complete mitzvah with its own garment rules, quantity requirements, location requirements, and hand preference (though left is valid). Its detailed laws show it is a full priestly service despite being unglamous.",
+          "sourceRefs": [
+            "Yoma.23b.15"
+          ]
+        }
+      ],
+      "topicTags": [
+        "terumat hadeshen",
+        "ash removal",
+        "priestly garments",
+        "worn garments",
+        "fistful",
+        "left hand",
+        "menorah ash",
+        "altar ash"
+      ],
+      "concepts": {
+        "halachic": [
+          "worn garments for ash removal",
+          "fistful minimum",
+          "left hand validity",
+          "ash placement rules",
+          "three types of ash with different destinations"
+        ],
+        "theological": [
+          "proportionality in service dress",
+          "every Temple act is a complete mitzvah"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-020a-s02"
+      ],
+      "misconceptions": [
+        "The worn garments are still kosher priestly garments - not ordinary clothes. They are proper Temple vestments, just not the finest ones. The priest is still fully dressed for service.",
+        "Left hand validity does not make ash removal 'less' of a mitzvah - it simply reflects a different halachic category where right-hand specificity was not included in the mitzvah's definition."
+      ],
+      "relatedSugyot": [
+        "yoma-024a-s01",
+        "yoma-024a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "object",
+          "description": "A priest in worn (but valid) priestly garments taking a fistful of ash from the top of the altar heap"
+        },
+        {
+          "type": "place",
+          "description": "The east side of the altar ramp where the daily ash from the outer altar is deposited and absorbed into the ground"
+        },
+        {
+          "type": "sequence",
+          "description": "Three ash types and their destinations: outer altar ash (east of ramp), inner altar ash (designated clean area), menorah ash (outside Temple entirely)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What garments does a priest wear for the ash removal service, and why?",
+          "a": "Worn-out versions of the four standard priestly garments - so as not to soil the fine garments with ash. A proverb: 'do not use the garments in which you cook for your master to pour wine for him.'"
+        },
+        {
+          "q": "What are the three types of Temple ash and where is each deposited?",
+          "a": "(1) Outer altar ash: east side of the altar ramp inside the courtyard. (2) Inner altar (ketoret) ash: a specific clean designated area. (3) Menorah ash: taken outside the Temple entirely to a clean place."
+        },
+        {
+          "q": "Can ash removal be performed with the left hand?",
+          "a": "Yes. Unlike most Temple services that require the right hand, ash removal is valid even with the left hand."
+        }
+      ],
+      "finalRuling": "Ash removal requires worn priestly garments, a full fistful of ash from the altar top, placed east of the ramp. Left hand valid. Different ash types go to different locations.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "בִּגְדֵי שְׁרָד",
+          "translit": "bigdei shrad",
+          "en": "Worn priestly garments; used for the ash removal service to spare the fine garments from soiling."
+        },
+        {
+          "he": "מָלֵא קֻמְצוֹ",
+          "translit": "male kumtzo",
+          "en": "A full fistful; the minimum amount of ash that must be removed to fulfill the mitzvah of terumat hadeshen."
+        }
+      ],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "עֶגְלָה עֲרוּפָה",
+      "translit": "egla arufa",
+      "en": "Calf atonement ritual for unresolved murder; Jerusalem is exempt."
+    },
+    {
+      "he": "בִּגְדֵי שְׁרָד",
+      "translit": "bigdei shrad",
+      "en": "Worn priestly garments for ash removal; spare the fine garments for main service."
+    },
+    {
+      "he": "מָלֵא קֻמְצוֹ",
+      "translit": "male kumtzo",
+      "en": "Full fistful; minimum ash quantity for terumat hadeshen."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Jerusalem does not bring the egla arufa.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Commentary on the source verse 'measure to the cities.'",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Jerusalem was not divided among the tribes - no 'owner city.'",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Commentary on the Temple sanctity as additional reason.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The priest wears worn garments for ash removal - not his best.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Commentary on why worn garments are required.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Do not use the cooking garments to serve wine - dress for the task.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Commentary on the proportionality principle.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The priest removes a full fistful from the top of the ash heap.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Commentary on the minimum quantity requirement.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l39"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The ash is placed east of the altar ramp.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Commentary on the ash placement location.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Left hand is valid for ash removal.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Commentary on the left-hand exception.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Outer altar ash: beside the ramp.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Inner altar ash: its own designated location.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Menorah ash: taken outside the Temple entirely.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l29"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Commentary on why different ash types go to different places.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Commentary on sanctity levels of each ash type.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Commentary on the worn garments further details.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l36"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Worn garments are still valid priestly garments.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l36"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Commentary on the fistful from the top of the heap.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l39"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Commentary on the summary of the service.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Commentary on ash removal as a complete mitzvah.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Commentary on the transition to 24a.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Commentary on the ash removal laws conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Commentary on the garment requirement source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Commentary on the placement rule's source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Commentary on the outer altar ash details.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Commentary on the inner altar ash.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Commentary on the menorah lamp ash.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l29"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Commentary on the menorah ash going outside.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l29"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Commentary on the differences between the ash types.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l31"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Commentary on the minimum fistful.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Commentary on the ash removal being first service of the day.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Commentary on the closing of the ash removal laws.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Commentary on the transition to 24a garment details.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Commentary on the left-hand validity source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Commentary on the chapter structure.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Commentary on the egla arufa exemption summary.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Commentary on the chapter 2 main content flow.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Commentary on Jerusalem's unique legal category.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Commentary on tribal division of the Land.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Commentary on the worn garment principle.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Commentary on the closing observations.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Commentary on the different ash deposit locations.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Commentary on the practical ash removal procedure.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Commentary on the priestly vestment system.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Commentary on the closing of chapter 2 introduction.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Commentary on the transition to 24a.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Commentary on the ash removal as the day's first service.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Commentary on the outer altar ash source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Commentary on the inner altar ash source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Commentary on the menorah ash source.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l29"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Commentary on the worn garments as a halacha l'Moshe miSinai.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Commentary on the fistful as a biblical requirement.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Commentary on the absorption of ash into the ground.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Commentary on the east side of the ramp.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Commentary on the halacha conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Commentary on the four worn garments.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Commentary on the garment details.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l36"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Commentary on the chapter 2 ash removal laws conclusion.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Commentary on the transition to 24a.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Commentary on the worn garment law significance.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 65,
+      "en": "Commentary on the ash removal as Temple chapter theme.",
+      "linkedGemaraLineIds": [
+        "yoma-023b-l41"
+      ]
+    }
+  ]
+}

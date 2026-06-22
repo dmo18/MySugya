@@ -1,0 +1,446 @@
+{
+  "canonicalRef": "Yoma 55b",
+  "summary": "This page discusses the practical bowl management system during the Yom Kippur blood service. Two gold stands in the Heichal hold the blood bowls sequentially - the HP never holds both bowls simultaneously, ensuring bull and goat blood are never confused. A Passover registration parallel illustrates the principle of systematic sequential handling in complex ritual situations. The Gemara also specifies the complete service order: bull inside the Holy of Holies, goat inside, then bull's Heichal service, then goat's Heichal service.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-055b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 19
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.55b.1"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.55b.2"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.55b.3"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.55b.4"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.55b.5"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.55b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.55b.1",
+        "Yoma.55b.2",
+        "Yoma.55b.3",
+        "Yoma.55b.4",
+        "Yoma.55b.5",
+        "Yoma.55b.6"
+      ],
+      "display": {
+        "whats": "Bowl placement system: two stands prevent confusion between bull and goat blood",
+        "hint": "The HP holds only one blood bowl at a time, using two stands in the Heichal so he never confuses the bull and goat bloods. The Gemara illustrates with a Passover parallel how sequential handling prevents confusion in complex concurrent activities."
+      },
+      "learning": {
+        "summary": "The Gemara discusses the practical challenge: two bowls in the Heichal could be confused. The solution is the stand system - the HP never simultaneously holds both bowls. He holds one, uses it, sets it down, and only then picks up the other. A parallel is drawn to Passover registration procedures where systematic sequencing prevents confusion among multiple concurrent activities. The inner service order is also specified: bull inside, goat inside, bull's parochet service, goat's parochet service.",
+        "ahaMoment": "The stand system is not organizational convenience - it prevents the worst possible error on the holiest day. Physical arrangement serves spiritual integrity.",
+        "memoryAnchor": "Two bowls, two stands, one at a time: the system guarantees correct sequence even under pressure.",
+        "openQuestion": "Why couldn't the HP simply memorize which bowl is which rather than using the stand system?"
+      },
+      "argumentFlow": [
+        {
+          "type": "problem",
+          "speaker": "Gemara",
+          "text": "With two blood bowls in the Heichal, the HP might accidentally pick up the wrong one.",
+          "id": "yoma-055b-l01",
+          "label": "Problem: With two blood bowls in the Heichal,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-055b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "solution",
+          "speaker": "Gemara",
+          "text": "He never holds both bowls simultaneously - sets one down before picking up the other.",
+          "id": "yoma-055b-l05",
+          "label": "Solution: He never holds both bowls simultaneously -",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-055b-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "type": "parallel",
+          "speaker": "Gemara",
+          "text": "Passover registration parallel: systematic sequential handling prevents errors in overlapping activities.",
+          "id": "yoma-055b-l09",
+          "label": "Parallel: Passover registration parallel: systematic sequentia...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-055b-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "speaker": "Gemara",
+          "text": "The service order: bull inside, goat inside, then each one's Heichal service in sequence.",
+          "id": "yoma-055b-l17",
+          "label": "Order: The service order: bull inside, goat inside,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-055b-l17",
+              "vilnaLine": 17
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "blood bowl stands",
+        "bowl confusion",
+        "sequential handling",
+        "Heichal stands",
+        "service order"
+      ],
+      "concepts": {
+        "halachic": [
+          "blood bowl management",
+          "stand system",
+          "sequential bowl handling"
+        ],
+        "theological": [
+          "physical order as spiritual safeguard",
+          "sequential discipline in sacred service"
+        ],
+        "narrative": [
+          "ritual error prevention",
+          "Temple logistics"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the two blood services inside are sequential (bull before goat)",
+        "Knowing the Heichal contains stands for holding the bowls"
+      ],
+      "misconceptions": [
+        "The HP cannot hold both bowls at once - the stand system enforces sequential handling"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "object",
+          "name": "two gold stands in the Heichal"
+        },
+        {
+          "type": "action",
+          "name": "sequential bowl handling - one at a time"
+        },
+        {
+          "type": "sequence",
+          "name": "bull inside then goat inside then Heichal services"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why would having two blood bowls in the Heichal pose a danger, and how was it solved?",
+          "answer": "The HP might confuse which bowl holds bull blood and which holds goat blood. The stand system ensures he handles one bowl at a time, setting it down before picking up the other."
+        }
+      ],
+      "finalRuling": "The two-stand system in the Heichal ensures the HP handles one blood bowl at a time, preventing any confusion between bull and goat blood.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "He has no written text - one cannot rely on a written prompt since the eye sometimes misses it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Due to confusion - if he had two bowls he might accidentally pick up the wrong one.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "He would pick up the goat's bowl instead of the bull's when intending to take the bull's.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Therefore with one bowl at a time: he does not set it down until he picks up the other, so services remain in order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Goat inside after bull inside; bull's in the Heichal after that; then goat's.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "After completing the inner service for each blood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Then the Heichal parochet service follows.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "New shekel weights - on one stand: new weights, on another: old weights.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "On one: bird offerings. On another: young burnt-offerings. On another: wood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The five stands serve different purposes for different parts of the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "On the first stand: new shekels. On the second stand: old shekels.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "On the third: bird offerings.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "On the fourth: young burnt-offerings.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "On the fifth: wood for the altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Two stands inside for blood bowls; three outside for other offerings.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The HP uses the blood-bowl stands to maintain clear sequence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "He never holds both blood bowls simultaneously.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The order is maintained through sequential handling.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "This prevents confusion during the most critical service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "He does not set down the bowl until he has used it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The sequential system is a practical safeguard.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Careful physical placement mirrors careful spiritual intention.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Each bowl serves its purpose in strict order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The Passover parallel illustrates systematic sequencing of concurrent activities.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "At the seder, multiple participants are assigned specific roles to prevent confusion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Similarly, the Yom Kippur blood service uses sequential assignment.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The HP's discipline in handling the bowls is itself a form of service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Attention to physical detail is the foundation of the spiritual act.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "He knows at every moment which bowl he holds and what its purpose is.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "After the goat's inner service, the HP exits the Holy of Holies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "He takes the bull's bowl from the stand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "He now has the goat's bowl - he places it on the stand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "He picks up the bull's bowl for the next phase of service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The swap is performed deliberately and without confusion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Inner sequence: bull blood sprinkled, then goat blood sprinkled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The stand system ensures no deviation from this fixed order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The counting aloud and the sequential bowl handling work together.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Together they prevent the two most dangerous error types.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Any deviation from the sequence invalidates portions of the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "No unauthorized person enters during this entire sequence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The HP is completely alone - no distraction, no confusion from others.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "On Yom Kippur, the HP acts as the sole agent for all of Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The bull represents the HP and priesthood; the goat represents all Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Priestly atonement precedes national atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The service sequence reflects this: bull first, then goat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Inside the Holy of Holies, the HP purges accumulated spiritual impurity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The blood sprinkled inside cleanses the sanctuary from contamination.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "This inner service is the heart of the entire Yom Kippur day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "All other services of the day flow from this central act.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "The HP emerges having completed the inner purification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "He proceeds outward: parochet, then golden altar, then outer altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "The inner service completed, he does not return to the Holy of Holies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "If he erred in something, he proceeds regardless to the outer services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "A completed inner service is not invalidated by later outer-service errors.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

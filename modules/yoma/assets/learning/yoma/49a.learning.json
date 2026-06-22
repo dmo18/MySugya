@@ -1,0 +1,751 @@
+{
+  "canonicalRef": "Yoma 49a",
+  "summary": "The Gemara resolves Rav Sheshet's apparent self-contradiction about non-priest blood service: he did not know the baraita when he ruled, then learned it and used it against Rav Hisda. The Gemara then debates whether kabbalat hakometz is an independent service act. The central dilemma: if the HP scooped incense and died, can the replacement use that scooping? R. Chanina rules no - a new bull is needed, and incense scooped before that new slaughter would be void.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-049a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 10
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.49a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.49a.2"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.49a.3"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.49a.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.49a.1",
+        "Yoma.49a.2",
+        "Yoma.49a.3",
+        "Yoma.49a.4"
+      ],
+      "display": {
+        "whats": "How could Rav Sheshet both cite and contradict the same baraita about non-priest blood service?",
+        "hint": "The Gemara resolves the apparent contradiction: Rav Sheshet originally did not know the baraita, made a ruling, then later heard it and used it to challenge Rav Hisda."
+      },
+      "learning": {
+        "summary": "Rav Sheshet ruled that blood-carrying by a non-priest is valid, but a baraita disqualifies it. The Gemara asks how Rav Sheshet could later cite that same baraita against Rav Hisda if he did not know it. The resolution: he heard it after his original ruling, and then used it as an objection.",
+        "ahaMoment": "A sage can reverse his own position when shown a baraita he had not known - then use that very baraita against others.",
+        "memoryAnchor": "Rav Sheshet did not know the baraita when he ruled; once he learned it, he used it to object to Rav Hisda.",
+        "openQuestion": "Can a sage who previously did not know a baraita later rely on it - even to contradict his own prior ruling?"
+      },
+      "argumentFlow": [
+        {
+          "type": "objection",
+          "speaker": "Gemara",
+          "text": "Baraita disqualifies non-priest blood service - but Rav Sheshet ruled it valid.",
+          "id": "yoma-049a-l01",
+          "label": "Objection: Baraita disqualifies non-priest blood service - but",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Rav Sheshet himself later cited this baraita against Rav Hisda - had he not known it earlier?",
+          "id": "yoma-049a-l02",
+          "label": "Question: Rav Sheshet himself later cited this baraita",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "type": "resolution",
+          "speaker": "Gemara",
+          "text": "After hearing the baraita he changed position and used it to object to Rav Hisda.",
+          "id": "yoma-049a-l03",
+          "label": "Resolution: After hearing the baraita he changed position",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l03",
+              "vilnaLine": 3
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "non-priest blood service",
+        "Rav Sheshet",
+        "Rav Hisda",
+        "baraita objection"
+      ],
+      "concepts": {
+        "halachic": [
+          "non-priest blood-carrying disqualified"
+        ],
+        "theological": [],
+        "narrative": [
+          "Rav Sheshet reversal"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "blood service laws",
+        "who may perform Temple service"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Once a sage cites a baraita as support for a ruling, he is committed to that ruling and cannot reverse it.",
+          "correction": "Rav Sheshet reversed his own position when shown a baraita he had not previously seen. A sage is bound by evidence, not by prior statements - and can use the same baraita he cited to reach the opposite conclusion.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "narrative",
+          "description": "Rav Sheshet citing a baraita, then using the same baraita to reverse his own position",
+          "role": "aha",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "How is the Rav Sheshet contradiction resolved?",
+          "answer": "Rav Sheshet did not know the baraita when he ruled. Once he heard it he reversed position and cited it as an objection to Rav Hisda."
+        }
+      ],
+      "finalRuling": "Non-priest blood-carrying is disqualified per the baraita; Rav Sheshet's reversal is consistent.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-049a-s02",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 12
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.49a.5"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.49a.5"
+      ],
+      "display": {
+        "whats": "Is kabbalat hakometz (scooping the incense) a required distinct service act?",
+        "hint": "The Gemara raises whether the act of scooping the incense into the ladle is itself an independent obligatory service step or merely preparatory handling."
+      },
+      "learning": {
+        "summary": "Temple service acts fall into two categories: required obligatory acts (which must be done correctly and by a priest) and preparatory acts (which have fewer requirements). The question is whether kabbalah (reception/scooping) of the incense qualifies as an obligatory service act.",
+        "ahaMoment": "The line between required service and preparation determines who may do it and what invalidates it - not every physical act in the Temple is an obligatory service step.",
+        "memoryAnchor": "Is scooping the incense a full service act or just handling? The answer changes everything about who may do it.",
+        "openQuestion": "What makes a Temple act count as an obligatory service step versus mere preparation?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Is kabbalat hakometz (scooping incense into the ladle) an independent required service act?",
+          "id": "yoma-049a-l05",
+          "label": "Question: Is kabbalat hakometz (scooping incense into the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l05",
+              "vilnaLine": 5
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kabbalat hakometz",
+        "service acts",
+        "incense preparation"
+      ],
+      "concepts": {
+        "halachic": [
+          "kabbalah as independent service act question"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "kometz laws",
+        "required service acts"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Scooping the incense (kabbalat hakometz) is clearly a distinct service step, equivalent to kabbalah in blood service.",
+          "correction": "Whether scooping constitutes a distinct service step is disputed. If it is merely preparation and not a formal service act, different invalidation rules apply and it need not be done specifically by the HP.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Kabbalat hakometz as formal service step vs. as mere preparation - two legal categories",
+          "role": "contrast",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the question about kabbalat hakometz?",
+          "answer": "Whether scooping the incense is an independent required service act (requiring a priest, right hand, etc.) or merely preparatory handling."
+        }
+      ],
+      "finalRuling": "Whether kabbalat hakometz is an independent obligatory service act remains under discussion.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-049a-s03",
+      "lineRange": {
+        "startVilnaLine": 15,
+        "endVilnaLine": 48
+      },
+      "lines": [
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.49a.6"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.49a.7"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.49a.8"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.49a.9"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.49a.10"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.49a.11"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.49a.12"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.49a.13"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.49a.14"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.49a.15"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.49a.16"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.49a.17"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.49a.18"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.49a.19"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.49a.20"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.49a.6",
+        "Yoma.49a.7",
+        "Yoma.49a.8",
+        "Yoma.49a.9",
+        "Yoma.49a.10",
+        "Yoma.49a.11",
+        "Yoma.49a.12",
+        "Yoma.49a.13",
+        "Yoma.49a.14",
+        "Yoma.49a.15",
+        "Yoma.49a.16",
+        "Yoma.49a.17",
+        "Yoma.49a.18",
+        "Yoma.49a.19",
+        "Yoma.49a.20"
+      ],
+      "display": {
+        "whats": "If the HP scooped incense and died mid-service, can a replacement HP enter with that same scooping?",
+        "hint": "R. Yehoshua ben Levi raises the dilemma: HP scooped and died - may the replacement use that incense? R. Chanina says no: a new bull is needed, and incense scooped before the bull's slaughter is void."
+      },
+      "learning": {
+        "summary": "R. Yehoshua ben Levi's dilemma: the HP completed the incense scooping but died before entering the Holy of Holies. May the replacement HP take that same scooped incense and enter? R. Chanina derives from 'a bull' (not 'the blood of a bull') that a fresh bull and fresh scooping are required. Since incense must follow the bull's slaughter, the replacement's incense scooping would predate his bull's slaughter - making it void.",
+        "ahaMoment": "R. Chanina's ruling reveals a structural rule: the incense scooping is valid only after the HP's own bull is slaughtered. A replacement inherits no service steps - he must restart from the bull.",
+        "memoryAnchor": "If the HP dies after scooping: R. Chanina says void - the replacement needs his own bull and his own scooping.",
+        "openQuestion": "Does the replacement HP inherit any completed service steps from the HP who died, or must he restart from the beginning?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "R. Yehoshua ben Levi",
+          "text": "HP scooped incense and died - may the replacement enter with that incense?",
+          "id": "yoma-049a-l06",
+          "label": "Question: HP scooped incense and died - may",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "R. Chanina",
+          "text": "A new bull is required - 'a bull' means the replacement needs a fresh slaughter.",
+          "id": "yoma-049a-l07",
+          "label": "Ruling: A new bull is required - 'a",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l07",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "type": "implication",
+          "speaker": "R. Chanina",
+          "text": "Incense scooped before the bull's slaughter is void - so the replacement cannot use the first HP's scooping.",
+          "id": "yoma-049a-l08",
+          "label": "Implication: Incense scooped before the bull's slaughter is",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l08",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "type": "resolution",
+          "speaker": "Gemara",
+          "text": "The dilemma reveals R. Yehoshua ben Levi holds no new bull is needed - otherwise the question would be moot.",
+          "id": "yoma-049a-l09",
+          "label": "Resolution: The dilemma reveals R. Yehoshua ben Levi",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-049a-l09",
+              "vilnaLine": 9
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "HP replacement",
+        "R. Yehoshua ben Levi",
+        "R. Chanina",
+        "incense scooping",
+        "new bull required"
+      ],
+      "concepts": {
+        "halachic": [
+          "replacement HP needs new bull (R. Chanina)",
+          "incense before slaughter is void"
+        ],
+        "theological": [],
+        "narrative": [
+          "R. Chanina teaching"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "HP Yom Kippur service",
+        "kometz order",
+        "replacement rules"
+      ],
+      "misconceptions": [
+        "The replacement can always use the first HP's scooped incense - R. Chanina explicitly rules otherwise."
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "HP scoops incense, dies, replacement enters - is the original scooping still valid?",
+          "role": "aha",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is R. Chanina's ruling about the replacement HP?",
+          "answer": "The replacement needs a new bull ('a bull' not 'the blood of a bull'). Since incense scooped before the bull's slaughter is void, the replacement must re-scoop after slaughtering his own bull."
+        }
+      ],
+      "finalRuling": "R. Chanina: replacement HP requires a new bull and new scooping. R. Yehoshua ben Levi's dilemma implies he disputes this.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Non-priest, mourner, drunk, blemished - all derived from verses disqualifying Temple blood service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Sitting disqualified because the priest must stand to serve (Deut. 18); left hand similarly invalid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rav Sheshet himself raised this baraita against Rav Hisda's interpreter - as explained below.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "If he knew the baraita how could he err in ruling left-hand or non-priest service is valid?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The priests sprinkled from their hand - meaning from the hands of the non-priest slaughterers.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The non-priests slaughtered and the priests received the blood from their hands.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The priest received the blood and the Levites carried it to the priest who sprinkled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "We read 'Rav Sheshet objected' - this is the correct textual reading.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "After they raised the objection against him here, he then used it himself against Rav Hisda.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "An itzteiva (bench) action - the non-priests passively held blood without actively carrying it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The receivers placed blood in the hands of non-priests who did not move it toward the altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rather they held it in their hands as if placed on a platform - passive holding, not active carrying.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The blood sat in their hands like an object resting on a shelf - not halakhic carrying.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Resting blood in non-priest hands as on a platform is not carrying in the service sense.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Or perhaps 'he shall take and bring' applies also to the full handful - making it an obligatory act.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "What is the law if another HP enters with the original scooping - need he re-scoop?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The replacement priest serving in his place - may he enter with the first HP's scooped incense?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Using the handful already placed in the ladle without needing to re-scoop.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "R. Chanina said to his students: Come and see that later generations achieve the wisdom of earlier ones.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "See that the later generation is privileged to puzzle over the same questions as earlier sages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Even I myself puzzled over this question - and now R. Yehoshua ben Levi asks the same.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "R. Yehoshua ben Levi who is counted among the earlier sages - this shows his generation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Even I used to struggle with this - indicating R. Chanina considered himself from the earlier generation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Watercress (shalhayim) - a plant called cresson in Old French.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Permitted to eat and drink as a medicinal remedy.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Conclude that R. Yehoshua ben Levi was not senior to R. Chanina - who referred to him as 'Rabbi.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Elders did not call younger scholars 'Rabbi' - so Chanina must have been the senior.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "'Chanina permitted it to me' - the elder's name without the 'Rabbi' title indicates he was junior.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rather: Chanina told me it was permitted - I am reporting what Chanina said.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "He said 'Chanina permitted me' not 'my Rabbi Chanina' - showing Chanina was senior to R. Yehoshua ben Levi.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rather this is what R. Chanina said to his students - explaining the dilemma as a teaching.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "R. Chanina to students: come see that later generations' questions match my own earlier questions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Since I am from the earlier generation and I struggled with this same question.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Even I was troubled by this - so the later sages show equal wisdom to the earlier.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Did R. Chanina actually have this doubt about whether a replacement may enter with the original scooping?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Was it genuinely uncertain to him whether another HP may enter with the first HP's incense?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "'A bull' not 'the blood of a bull' - the verse specifies the animal, not merely its blood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "In this shall Aaron enter the sanctuary - with a bull (Lev. 16), not with the blood of a bull already slaughtered.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "If the HP slaughtered his bull and then died, the replacement cannot use that blood to enter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "A new bull must be brought - because entry requires the replacement HP's own fresh animal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Since a new bull is needed, a new incense scooping is also required after that slaughter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Since the replacement needs his own bull, he must also scoop incense fresh after his slaughter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "And R. Chanina also taught: incense scooped before the bull's slaughter is void.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "R. Chanina adds: if incense was scooped before the HP's bull was slaughtered it is invalid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The service order requires: first slaughter the bull, then scoop the incense.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "In the scenario of scooping then dying: the HP must have already slaughtered his bull first.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The scenario of scooping then dying: the first HP must have slaughtered his bull before scooping.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "If you say the replacement may enter with the first HP's incense scooping...",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Then this scooping would be before the replacement's bull's slaughter - making it retroactively void.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "That scooping would be 'before his bull's slaughter' for the replacement - which R. Chanina says is void.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "This is what R. Chanina means: his ruling implies the replacement cannot use the first HP's scooping.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "From the fact that R. Yehoshua ben Levi treats it as a dilemma - we learn he disputes R. Chanina.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "The fact that it is a dilemma for him means he holds no new bull is needed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "If he held a new bull is required, the incense question resolves itself - it would always be void.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Making the incense scooping effectively before the replacement's bull slaughter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "So R. Yehoshua ben Levi must hold the existing blood is valid for the replacement - hence his dilemma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "The replacement could potentially use the original HP's scooping if no new bull is needed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The dilemma remains: 'a bull' excludes using existing blood, or only the scooping timing matters.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "R. Chanina: incense must follow the slaughter of the specific HP performing the entry service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "R. Yehoshua ben Levi: perhaps the existing blood is valid and a new scooping is not required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "The overall question: can a replacement HP complete what the first HP began?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "The Gemara shows R. Chanina and R. Yehoshua ben Levi hold opposing views on the new-bull requirement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "R. Chanina: new bull needed. R. Yehoshua ben Levi: perhaps not - hence his dilemma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "The question remains open; the Gemara continues developing it on the following pages.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

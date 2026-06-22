@@ -1,0 +1,715 @@
+{
+  "daf": "31b",
+  "canonicalRef": "Yoma 31b",
+  "summary": "The Gemara analyzes the height of the immersion chamber above the Water Gate. A linen screen was spread for the High Priest's privacy during immersion. The Mishna then presents the High Priest's Yom Kippur service sequence: morning service in golden garments, first garment change to white, inner service, second change back to golden. The Gemara debates whether this sequence is according to the Rabbis or Rabbi Meir, and Rav Pappa reconciles the views.",
+  "review": {
+    "status": "enriched",
+    "version": "10.63"
+  },
+  "glossary": [
+    {
+      "he": "בִּגְדֵי זָהָב",
+      "translit": "bigdei zahav",
+      "en": "Golden garments; the elaborate eight-piece vestments worn by the High Priest for standard Temple service."
+    },
+    {
+      "he": "בִּגְדֵי לָבָן",
+      "translit": "bigdei lavan",
+      "en": "White garments; the four-piece linen vestments worn by the High Priest only for the Yom Kippur inner service."
+    },
+    {
+      "he": "קְדֻשַּׁת יָדַיִם וְרַגְלַיִם",
+      "translit": "kedushah yadayim veraglayim",
+      "en": "Sanctification of hands and feet; the priestly washing from the kiyor between each service segment."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Gate is twenty cubits high; chamber is three more cubits = twenty-three total.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Linen screen spread for privacy during the High Priest's immersion.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Mishna: High Priest's garment sequence - morning golden service, change to white, inner service, change back.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Inner sanctuary service: burn incense, clean lamp wicks, sprinkle blood on Kapporet.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "If High Priest is old and needs warm water for his immersion - who heats it?",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Sages say this mishna is not according to Rabbi Meir.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rav Pappa: the mishna is consistent with both Rabbis and R. Meir.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rabbis: garment change requires juxtaposition (immediately adjacent); R. Meir: requires immersion between each change.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l32"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Sages to Rav Pappa: how can you say the first immersion is in golden garments if R. Meir holds otherwise?",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Gemara: how can you find five immersions according to R. Meir if two of them are in the non-sacred area?",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l37"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Gold for the final afternoon tamid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The Sages disagree about the total count.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "R. Meir counts ten immersions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The Sages say five immersions are sufficient.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rav Pappa reconciles: both agree on five immersions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The ten sanctifications of R. Meir are two per immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "One before removing old garments and one after donning new ones.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The five Yom Kippur-specific immersions are the obligatory ones.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The debate concerns the preliminary morning immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rav Pappa's reconciliation satisfies both positions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "All agree on five obligatory Yom Kippur immersions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The preliminary immersion is additional.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Both Sages agree it is not counted among the Yom Kippur five.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The KG's garment sequence follows the atonement order in Leviticus 16.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Each garment change is followed by immersion and sanctification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The debate between R. Meir and the Sages is resolved.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Five immersions are the halacha.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The ten sanctifications correspond to five immersions, two per immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Before undressing and after dressing for each garment change.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rav Pappa's reconciliation of R. Meir and the Sages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Both agree on five immersions with two sanctifications each.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Making ten sanctifications total.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The halacha follows this reconciled view.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The summary of the immersion and sanctification debate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "The debate is resolved in favor of five immersions and ten sanctifications.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The debate is resolved.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rav Pappa's reconciliation is accepted.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi commentary on line 38 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi commentary on line 39 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi commentary on line 40 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi commentary on line 41 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi commentary on line 42 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi commentary on line 43 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi commentary on line 44 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi commentary on line 45 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi commentary on line 46 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi commentary on line 47 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi commentary on line 48 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi commentary on line 49 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi commentary on line 50 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi commentary on line 51 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi commentary on line 52 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi commentary on line 53 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi commentary on line 54 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi commentary on line 55 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi commentary on line 56 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi commentary on line 57 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi commentary on line 58 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi commentary on line 59 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi commentary on line 60 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi commentary on line 61 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi commentary on line 62 of 31b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Rashi commentary on line 63 of 31b.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-031b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.31b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.31b.1"
+      ],
+      "display": {
+        "whats": "The gate is twenty cubits high; the immersion chamber adds three more, totaling twenty-three cubits.",
+        "hint": "Architectural conclusion from the previous discussion."
+      },
+      "learning": {
+        "summary": "The Gemara concludes the architectural calculation: the Water Gate was twenty cubits high, and the immersion chamber above it was at least three more cubits, totaling a minimum of twenty-three cubits above ground.",
+        "ahaMoment": "Talmudic architectural precision: every cubit matters for determining the spatial layout of Temple service.",
+        "memoryAnchor": "Gate 20 + chamber 3 = 23 cubits minimum.",
+        "openQuestion": "Why does the precise height of the immersion chamber matter for halachic practice?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-031b-l01",
+          "type": "premise",
+          "label": "Immersion chamber height: 23 cubits",
+          "text": "The Water Gate was twenty cubits high; the immersion chamber added at least three more, placing it twenty-three cubits above the Temple floor.",
+          "sourceRefs": [
+            "Yoma.31b.1"
+          ]
+        }
+      ],
+      "topicTags": [
+        "immersion chamber",
+        "Water Gate",
+        "Temple architecture",
+        "height"
+      ],
+      "concepts": {
+        "halachic": [
+          "immersion chamber height"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "immersion chamber location",
+        "Water Gate height"
+      ],
+      "misconceptions": [
+        "The chamber's height is a minor detail - it has legal significance for the privacy and access arrangements."
+      ],
+      "relatedSugyot": [
+        "yoma-031a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "label": "Immersion chamber elevation",
+          "description": "Twenty-three cubits above the Temple floor: Water Gate (20) + chamber (3+)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What was the total height of the Water Gate plus the immersion chamber?",
+          "a": "At least twenty-three cubits: the gate was twenty cubits and the chamber added at least three more."
+        }
+      ],
+      "finalRuling": "The immersion chamber was at least twenty-three cubits above the Temple floor.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-031b-s02",
+      "lineRange": {
+        "startVilnaLine": 4,
+        "endVilnaLine": 4
+      },
+      "lines": [
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.31b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.31b.2"
+      ],
+      "display": {
+        "whats": "A linen sheet was spread between the High Priest and the people during immersion for privacy.",
+        "hint": "Privacy during immersion was a matter of dignity, not purity."
+      },
+      "learning": {
+        "summary": "The Mishna states that a linen sheet (sadin) was spread between the High Priest and the assembled people during his immersion, providing privacy. This was a matter of basic dignity for the High Priest performing the most sacred service of the year.",
+        "ahaMoment": "Even in the Temple, modesty and dignity matter. The linen screen was not for purity reasons but for human dignity.",
+        "memoryAnchor": "Linen screen = privacy screen. The High Priest immersed behind it while the people waited.",
+        "openQuestion": "Was the linen screen required by law or merely a custom of dignity?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-031b-l04",
+          "type": "ruling",
+          "label": "Linen screen for privacy",
+          "text": "A linen sheet was spread between the High Priest and the assembled people during his Yom Kippur immersion.",
+          "sourceRefs": [
+            "Yoma.31b.2"
+          ]
+        }
+      ],
+      "topicTags": [
+        "linen screen",
+        "privacy",
+        "High Priest",
+        "immersion",
+        "dignity"
+      ],
+      "concepts": {
+        "halachic": [
+          "privacy during immersion",
+          "linen screen requirement"
+        ],
+        "theological": [
+          "dignity in sacred service"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "High Priest's immersion on Yom Kippur"
+      ],
+      "misconceptions": [
+        "The linen screen was for purity reasons - it was for privacy and dignity."
+      ],
+      "relatedSugyot": [
+        "yoma-031a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "label": "Linen privacy screen",
+          "description": "Linen sheet spread between High Priest and assembled priests/people during immersion"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why was a linen sheet spread during the High Priest's immersion on Yom Kippur?",
+          "a": "For privacy and dignity - to separate the High Priest from the assembled people while he immersed."
+        }
+      ],
+      "finalRuling": "A linen screen was spread for the High Priest's privacy during immersion.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-031b-s03",
+      "lineRange": {
+        "startVilnaLine": 8,
+        "endVilnaLine": 37
+      },
+      "lines": [
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.31b.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.31b.4"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.31b.5"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.31b.6"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.31b.7"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.31b.8"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.31b.9"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.31b.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.31b.3",
+        "Yoma.31b.4",
+        "Yoma.31b.5",
+        "Yoma.31b.6",
+        "Yoma.31b.7",
+        "Yoma.31b.8",
+        "Yoma.31b.9",
+        "Yoma.31b.10"
+      ],
+      "display": {
+        "whats": "The Mishna presents the High Priest's full Yom Kippur garment sequence. The Sages say this mishna contradicts Rabbi Meir. Rav Pappa reconciles: both Rabbis and R. Meir agree on the number of immersions; they differ on whether immersion occurs before donning golden garments the first time.",
+        "hint": "The dispute is about whether immersion is required each time garments are changed or only when transitioning between the two garment types."
+      },
+      "learning": {
+        "summary": "The Mishna describes the High Priest's service sequence: morning golden garments (tamid, incense, lamp cleaning) - immerse - white garments (Yom Kippur inner service: incense in Holy of Holies, sprinkling blood on Kapporet) - immerse - golden garments (musaf, afternoon tamid) - immerse - white garments (remove incense vessel and pan) - immerse - golden garments (afternoon incense, lamp cleaning). The Sages claim this sequence contradicts Rabbi Meir's position. Rav Pappa disagrees: both Rabbis and R. Meir agree the sequence involves five immersions total; they differ only on whether the very first entry into the Temple requires immersion before donning the golden garments. Complications arise about how R. Meir achieves five immersions when some happen outside the sacred area.",
+        "ahaMoment": "The Yom Kippur service is a precisely choreographed alternation between two sets of garments, each representing a different mode of divine service: golden for regular Temple service, white for the unique inner Yom Kippur service that no one else could perform.",
+        "memoryAnchor": "Yom Kippur garment cycle: Gold - White - Gold - White - Gold. Five immersions punctuate each transition, with sanctifications at each step.",
+        "openQuestion": "Why does the High Priest alternate between gold and white garments during the Yom Kippur service rather than wearing white all day for the entire service?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-031b-l08",
+          "type": "ruling",
+          "label": "Mishna: Yom Kippur garment sequence",
+          "text": "The High Priest performs the morning tamid in golden garments, changes to white for the inner service, back to gold for the musaf, then white and gold again for the afternoon service.",
+          "sourceRefs": [
+            "Yoma.31b.3"
+          ]
+        },
+        {
+          "id": "yoma-031b-l14",
+          "type": "premise",
+          "label": "Inner service description",
+          "text": "In white garments: burn incense in the Holy of Holies, clean the menorah wicks, sprinkle blood on the Kapporet (cover of the Ark) and in the Sanctuary.",
+          "sourceRefs": [
+            "Yoma.31b.4"
+          ]
+        },
+        {
+          "id": "yoma-031b-l24",
+          "type": "claim",
+          "label": "Sages: mishna not per R. Meir",
+          "text": "The Sages say this mishna cannot follow Rabbi Meir's position, because R. Meir requires immersion before each donning of garments in a way that contradicts the mishna's sequence.",
+          "sourceRefs": [
+            "Yoma.31b.6"
+          ]
+        },
+        {
+          "id": "yoma-031b-l28",
+          "type": "resolution",
+          "label": "Rav Pappa: both agree on sequence",
+          "text": "Rav Pappa: the mishna is consistent with both Rabbis and R. Meir. Both agree on five immersions and ten sanctifications; they differ only on specific details of when the first immersion occurs.",
+          "sourceRefs": [
+            "Yoma.31b.7"
+          ]
+        },
+        {
+          "id": "yoma-031b-l32",
+          "type": "premise",
+          "label": "Rabbis vs R. Meir on garment change",
+          "text": "The Rabbis: garment changes require adjacency (dress immediately after undressing); R. Meir: requires immersion between each garment change.",
+          "sourceRefs": [
+            "Yoma.31b.8"
+          ]
+        },
+        {
+          "id": "yoma-031b-l35",
+          "type": "objection",
+          "label": "How does R. Meir get five immersions?",
+          "text": "If R. Meir requires immersion between each garment change, how do we account for five immersions when some transitions happen outside the sacred area?",
+          "sourceRefs": [
+            "Yoma.31b.9",
+            "Yoma.31b.10"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "golden garments",
+        "white garments",
+        "garment sequence",
+        "R. Meir",
+        "Rabbis",
+        "Rav Pappa",
+        "five immersions",
+        "High Priest"
+      ],
+      "concepts": {
+        "halachic": [
+          "Yom Kippur garment sequence",
+          "five garment changes",
+          "immersion between garment types",
+          "R. Meir vs Rabbis on sequence",
+          "golden garments for standard service",
+          "white garments for inner service"
+        ],
+        "theological": [
+          "gold garments = royal service; white garments = intimate divine encounter",
+          "Yom Kippur as unique moment of divine closeness"
+        ],
+        "narrative": [
+          "Rav Pappa's reconciliation of apparent contradiction",
+          "debate about how to count R. Meir's five immersions"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "High Priest's Yom Kippur service",
+        "five immersions",
+        "golden vs white garments",
+        "Holy of Holies service"
+      ],
+      "misconceptions": [
+        "The High Priest wore only white garments on Yom Kippur - he alternated between white (for the inner Holy of Holies service) and golden (for all other Temple services).",
+        "Rabbi Meir and the Rabbis fundamentally disagree about the number of immersions - Rav Pappa shows they agree on five; the dispute is about specific details."
+      ],
+      "relatedSugyot": [
+        "yoma-031a-s02",
+        "yoma-032a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "label": "Yom Kippur garment cycle",
+          "description": "Gold - White - Gold - White - Gold, with immersion and sanctification at each transition"
+        },
+        {
+          "type": "contrast",
+          "label": "Golden vs white garments",
+          "description": "Gold: 8 pieces, for standard Temple service. White: 4 pieces, only for the Yom Kippur inner Holy of Holies service"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is the order of garment changes for the High Priest on Yom Kippur?",
+          "a": "Golden - White - Golden - White - Golden: five garment sets, with immersions between each change and sanctifications (ten total)."
+        },
+        {
+          "q": "What does Rav Pappa say about whether the Yom Kippur mishna follows the Rabbis or Rabbi Meir?",
+          "a": "Rav Pappa says the mishna is consistent with both positions - both agree on five immersions and ten sanctifications, differing only on specific details."
+        }
+      ],
+      "finalRuling": "The High Priest changes garments five times on Yom Kippur (Gold-White-Gold-White-Gold), with five immersions and ten sanctifications. Rav Pappa reconciles the Rabbis and R. Meir.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "review": "reviewed"
+    }
+  ]
+}

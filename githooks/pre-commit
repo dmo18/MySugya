@@ -1,0 +1,21 @@
+#!/bin/sh
+# Pre-commit: sync version from modules/yoma/learning_data.js, then run smoke tests.
+# Yoma module data gates (validate:yoma, audit:order:yoma, etc.) must be run
+# manually before staging modules/yoma/learning_data.js for a commit.
+
+set -e
+
+# --- Version sync ---
+python3 scripts/sync_version.py
+VER=$(python3 -c "import re; print(re.search(r'const DATA_VERSION\s*=\s*\"([^\"]+)\"', open('modules/yoma/learning_data.js').read()).group(1))")
+git add VERSION package.json index.html manifest.js
+
+CHANGED=$(git diff --cached --name-only)
+
+# Run smoke tests if UI files changed
+if echo "$CHANGED" | grep -qE '^(app\.jsx|manifest\.js|modules/yoma/learning_data\.js|styles\.css|index\.html|tweaks-panel\.jsx)$'; then
+  echo "pre-commit: running smoke tests (v$VER)..."
+  python3 tests/smoke/render_check.py
+fi
+
+echo "pre-commit: version $VER OK"

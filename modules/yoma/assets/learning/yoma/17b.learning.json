@@ -1,0 +1,570 @@
+{
+  "daf": "17b",
+  "canonicalRef": "Yoma 17b",
+  "summary": "The page has two parts. First: confirmation that the Chamber of the Lambs sat in the southwest corner of the Beit HaMoked, resolving Rav Adda's proposal. A brief objection about 'all turns must be to the right' is answered: that rule applies only during Temple service, not to theoretical spatial counting. Second topic: the High Priest sacrifices first and takes first. The Shewbread distribution debate between R. Yehuda and the Rabbanan focuses on how many loaves the KG receives (4 or 5) and whether that varies with the priestly shift configurations. Abaye and Rava offer competing readings of the mishna's consistency.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-17b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 6
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.17b.1"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.17b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.17b.1",
+        "Yoma.17b.2"
+      ],
+      "display": {
+        "whats": "Confirmation that the Chamber of the Lambs sat in the southwest corner of the Beit HaMoked, definitively resolving the long Yoma/Middot debate. A brief objection based on the rule 'all turns must be to the right' (during service) is deflected: that rule applies to priestly movement during service, not to theoretical spatial counting in descriptions of Temple layout.",
+        "hint": "The 'always right' rule (kol piyot) is a practical halacha about how priests move in the Temple, not a logical requirement for how scholars count or describe chamber locations. The two contexts are different."
+      },
+      "learning": {
+        "summary": "The Chamber of the Lambs is confirmed at the SW corner. The objection from the 'all turns to the right' principle is dismissed: that rule governs priestly movement in service, not theoretical spatial description. This definitively ends the multi-daf debate.",
+        "ahaMoment": "Context matters: the 'always right' rule is operational (what priests do), not descriptive (how you count rooms). Applying it to room-listing is a category error.",
+        "memoryAnchor": "SW corner confirmed. 'Always right' = for kohanim during service only, not for room descriptions.",
+        "openQuestion": "If the Tamid and Middot descriptions reflect different counting directions, does that mean their other topographical descriptions might also differ due to counting direction?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "verdict",
+          "label": "SW corner confirmed for Chamber of the Lambs",
+          "speaker": "Gemara",
+          "text": "Final determination: the Chamber of the Lambs was in the southwest corner of the Beit HaMoked complex. This resolves the contradiction between Yoma/Tamid and Middot by attributing them to different counting directions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l01",
+              "vilnaLine": 1,
+              "note": "Final verdict on chamber location"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Objection: 'all turns to the right' implies NW not SW",
+          "speaker": "Gemara",
+          "text": "The Talmud teaches that all priestly turns during service are to the right (clockwise). If the Tamid describes the priest moving right from the south, the first chamber encountered is NW - contradicting the SW verdict.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l06",
+              "vilnaLine": 6,
+              "note": "Objection from the rightward-turn rule"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Response: 'always right' applies to service movement, not counting",
+          "speaker": "Gemara",
+          "text": "The rule that priests always turn right applies when they are performing Temple service - walking around during rituals. It does not apply when scholars are theoretically listing or counting chamber locations.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l06",
+              "vilnaLine": 6,
+              "note": "Limitation of the rightward-turn rule to service context"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Chamber of the Lambs",
+        "Beit HaMoked",
+        "all turns right",
+        "priestly movement",
+        "Temple layout",
+        "Tractate Middot"
+      ],
+      "concepts": [
+        {
+          "term": "kol piyot",
+          "def": "'All turns' - the rule that during Temple service all priestly turns are to the right (clockwise). This applies to movement during rituals, not to abstract descriptions of Temple layout."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.17b.1",
+        "Yoma.17b.2"
+      ],
+      "requiresUnderstanding": [
+        "The Chamber of the Lambs debate from 15b-17a",
+        "The 'all turns to the right' rule in Temple service"
+      ],
+      "misconceptions": [
+        "One might think 'all turns to the right' constrains how the Talmud describes Temple layout - it only constrains actual priestly movement during service."
+      ],
+      "relatedSugyot": [
+        "yoma-17a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "desc": "Beit HaMoked floor plan with Chamber of Lambs confirmed at SW corner; arrow showing rightward (clockwise) priestly movement path during service"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "Why doesn't the 'all turns to the right' rule contradict the SW corner conclusion for the Chamber of the Lambs?",
+          "correct": "The rule that priests always turn right applies during service movement. When scholars theoretically count or describe chamber locations, this rule doesn't apply - they can count in any order."
+        }
+      ],
+      "finalRuling": "Chamber of the Lambs = SW corner. 'All turns right' applies to service movement only.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-17b-s02",
+      "lineRange": {
+        "startVilnaLine": 9,
+        "endVilnaLine": 25
+      },
+      "lines": [
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.17b.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.17b.4"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.17b.5"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.17b.6"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.17b.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.17b.3",
+        "Yoma.17b.4",
+        "Yoma.17b.5",
+        "Yoma.17b.6",
+        "Yoma.17b.7"
+      ],
+      "display": {
+        "whats": "Two topics. First: the High Priest sacrifices before all other kohanim and takes the first portion - this is his privilege as KG. Second: a dispute between R. Yehuda and the Rabbanan about how the Shewbread loaves are distributed. Do two loaves go to the KG alone, or does he share the same half-for-half distribution as everyone else?",
+        "hint": "The KG's first-portion right is well established. The Shewbread dispute centers on whether the two Shavuot loaves (the halot from the communal wheat offering) change the distribution - sometimes there are extra loaves to distribute alongside the regular Shewbread."
+      },
+      "learning": {
+        "summary": "The KG's privileges: he offers his sacrifice before other kohanim and takes the first portion of the Temple distributions. For Shewbread: the twelve loaves divide between two shifts (six each), but the KG takes from the shift's share. R. Yehuda says the KG takes half (six); the Rabbanan say he takes proportionally less.",
+        "ahaMoment": "The KG's 'first' privilege creates a tension: if he takes the first half (six) then one shift has nothing; if he takes a proportional share, his 'first' right is diluted. The dispute is about how to implement both norms simultaneously.",
+        "memoryAnchor": "KG goes first, takes first. Shewbread: R. Yehuda says KG takes half (6); Rabbanan say proportional (less than half). The Shavuot loaves can change the count between 4 and 5.",
+        "openQuestion": "Why would the KG receive fewer loaves than half? Shouldn't his 'first' status entitle him to at least half?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Mishna: KG sacrifices first and takes first",
+          "speaker": "Mishna",
+          "text": "The High Priest's privilege: he offers his sacrifice before any other kohen, and he takes the first portion from all Temple distributions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l09",
+              "vilnaLine": 9,
+              "note": "KG's first-portion right from mishna"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Shewbread loaf count varies: 4 or 5",
+          "speaker": "Gemara",
+          "text": "Depending on the week, the KG receives either four or five Shewbread loaves. When there is a delayed or early mishmar (watch shift), more loaves accumulate, changing the count.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l12",
+              "vilnaLine": 12,
+              "note": "4-or-5 Shewbread count"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "dispute",
+          "label": "R. Yehuda vs Rabbanan on KG's loaf portion",
+          "speaker": "R. Yehuda / Rabbanan",
+          "text": "R. Yehuda: the KG takes exactly half (six of twelve). Rabbanan: the KG takes proportionally from the distribution - less than half, because the two shifts must each get their due.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l17",
+              "vilnaLine": 17,
+              "note": "Dispute about KG's exact portion"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "elaboration",
+          "label": "How are the two Shavuot loaves handled?",
+          "speaker": "Gemara",
+          "text": "The two loaves of Shavuot (halot ha-todah) are added to the Shewbread distribution on the Shabbat following Shavuot. The question is whether the KG takes one of the two special Shavuot loaves or whether those are split differently.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l23",
+              "vilnaLine": 23,
+              "note": "Shavuot loaves in distribution"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "resolution",
+          "label": "Abaye: the mishna follows both Rabbanan and R. Yehuda in different clauses",
+          "speaker": "Abaye",
+          "text": "Abaye resolves the internal mishna tension: the opening clause follows Rabbanan (proportional distribution), while the ending clause (involving the two Shavuot loaves) follows R. Yehuda. The mishna mixes both positions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17b-l25",
+              "vilnaLine": 25,
+              "note": "Abaye's mixed-mishna resolution"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "KG rights",
+        "Shewbread",
+        "R. Yehuda",
+        "Rabbanan",
+        "Abaye",
+        "priestly distribution",
+        "Shavuot loaves"
+      ],
+      "concepts": [
+        {
+          "term": "chalot",
+          "def": "The two leavened loaves brought as a communal offering on Shavuot (Leviticus 23:17). They were divided between the kohanim. When Shavuot fell near a Shabbat, they affected the Shewbread distribution count."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.17b.3",
+        "Yoma.17b.5"
+      ],
+      "requiresUnderstanding": [
+        "The Shewbread system (12 loaves, two shifts)",
+        "The KG's first-distribution privilege",
+        "The Shavuot communal loaves"
+      ],
+      "misconceptions": [
+        "One might think the KG always gets exactly half (six loaves) - the Rabbanan hold he gets proportionally less, to respect both shifts' equal entitlements."
+      ],
+      "relatedSugyot": [
+        "yoma-17a-s01",
+        "yoma-18a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "desc": "Shabbat Shewbread distribution: 12 loaves -> outgoing shift (6) + incoming shift (6). KG takes from outgoing shift first. With Shavuot loaves: 14 total, varied splits."
+        },
+        {
+          "type": "contrast",
+          "desc": "R. Yehuda: KG takes half (6). Rabbanan: KG takes proportional portion (4 or 5 depending on week). Two columns showing the math for each position."
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "What is the dispute between R. Yehuda and the Rabbanan about the KG's Shewbread portion?",
+          "correct": "R. Yehuda: the KG takes exactly half the twelve loaves (six). The Rabbanan: he takes proportionally, which can be four or five depending on the week and how many watch-shifts are sharing."
+        },
+        {
+          "type": "explain",
+          "q": "Why does the Shewbread count for the KG vary between 4 and 5?",
+          "correct": "When a Yom Tov falls near Shabbat, extra mishmar shifts may be present, changing how many loaves are in the pool. When two shifts share instead of one, the distribution per person changes."
+        }
+      ],
+      "finalRuling": "Disputed: R. Yehuda (KG takes half = six) vs Rabbanan (KG takes proportionally, 4 or 5). Abaye holds the mishna incorporates both positions in different clauses.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "חַלּוֹת",
+          "translit": "chalot",
+          "en": "The two leavened loaves of Shavuot (Leviticus 23:17). Distributed among kohanim; affect the Shewbread count when Shavuot falls near Shabbat."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "חַלּוֹת",
+      "translit": "chalot",
+      "en": "The two leavened loaves of Shavuot (Leviticus 23:17). Distributed among kohanim; affect the Shewbread count when Shavuot falls near Shabbat."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'if you grant' - this is the opening of the confirmation argument for the SW corner (against Rav Adda's west-wall theory).",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: the Tamid tanna himself would agree that the chamber was closer to the SW than the NW, but described it from his southward approach as NW.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: 'always toward the right, toward the east' - the rule about priestly rightward turns comes from Zevachim's discussion of the altar ramp.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: in Zevachim (53b) this rule is taught in the context of ascending the ramp and beginning the altar circuit.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: 'from Shewbread to Shewbread' - the Shewbread chamber is the anchor: placed in SE by Middot, so the rightward count places Lambs in SW.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: 'but if you say the author is strict about right turns' for counting chamber locations, then Shewbread couldn't be in SE (the rightward count would put it elsewhere).",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'two chalot of Shavuot' - the Shavuot loaves are brought on Shavuot and distributed. When does this affect the KG's loaf count?",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: 'four or five' - sometimes the KG receives 4, sometimes 5 Shewbread loaves. This variability needs explanation.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: 'and it was for Aaron and his sons' (Leviticus 24:9) - the verse allocating Shewbread to kohanim. From here we derive the KG's entitlement.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: 'half for Aaron etc.' - the twelve loaves divide: 6 to Aaron (representing the KG) and 6 to his sons (the regular kohanim).",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: 'even though there are twelve loaves, two of them are never divided' - the two Shavuot chalot are not split.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: 'we arrive at the Rabbanan' - Abaye's argument: the mishna's first clause follows Rabbanan (proportional distribution).",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: Rabbanan say: the KG cannot take an exact half because then one shift would receive nothing; he takes proportionally.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: 'less than half he does not take' - the KG won't accept a share less than his entitled proportion.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: the practical result: with 10 loaves to split (after the Shavuot chalot are set aside), the KG gets 5 and each shift gets 5 - or 4 if the KG takes differently.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: 'beginning and middle of the mishna are Rabbanan' - the opening clause and the middle clause of the mishna represent the Rabbanan's view.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: 'and the Shavuot chalot - Rabbanan agree they are not split' - even Rabbanan agree the two Shavuot loaves cannot be divided because it is undignified to give the KG a broken loaf.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: the undignified nature of giving a broken loaf (pherusa) to the High Priest - all agree this is inappropriate.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'from the Shavuot chalot' context: the mishna says the KG takes one whole loaf, then the remaining loaves are split. This is the Rabbanan's view.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: 'and what is four or five?' - answering when the KG gets four vs when he gets five Shewbread loaves.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: when a Yom Tov immediately precedes or follows the Shabbat, extra mishmarot (shifts) are present or delayed, changing the loaf count.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: specifically: if Shavuot falls on Sunday, the outgoing Friday mishmar stays; if on Saturday, the incoming mishmar arrives early.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: 'the staying mishmar receives 2 loaves' - when an extra mishmar stays through Shabbat, it receives only 2 loaves, not 6.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: the remaining 10 are split: the KG, the outgoing mishmar, the incoming mishmar each get their portion.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: 'all Rabbis' view' - Abaye says the entire mishna (beginning, middle, end) actually follows all Rabbanan consistently.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: 'and holds like R. Yehuda' - and the two Shavuot chalot are not divided (both Rabbanan and R. Yehuda agree on this point).",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: the division principle when an extra mishmar is present: the staying mishmar gets 2, the KG gets his portion, the two regular mishmarot split the rest.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: 'and what is always five?' - when is the KG's portion always 5 regardless of mishmar configurations?",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: Rava's reading: the mishna is consistently Rabbi's (R. Yehuda the Prince) throughout.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: Rabbi's position: the KG always takes half (6 out of 12), with no variation between 4 and 5.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: Rabbanan's agreement that the Shavuot chalot cannot be broken - it is unbecoming to give the KG a piece.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: 'and what is' the final clause about?' - Rava resolves the final mishna clause about loaf distribution.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: conclusion of the Shewbread debate - the mishna's varying numbers are explained by the mishmar configurations, not by different tannaitic disputes about the KG's portion.",
+      "linkedGemaraLineIds": [
+        "yoma-17b-l25"
+      ]
+    }
+  ]
+}

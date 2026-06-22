@@ -1,0 +1,6 @@
+node_modules/
+playwright-report/
+test-results/
+modules/yoma/.sefaria-validated
+__pycache__/
+.claude/

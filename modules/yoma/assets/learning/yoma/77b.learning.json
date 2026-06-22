@@ -1,0 +1,1168 @@
+{
+  "canonicalRef": "Yoma 77b",
+  "summary": "Tractate Yoma daf 77b covers: Verse about afflicting daughters in Laban's house relates to fasting obligation; Prohibition on marital relations on Yom Kippur; Greeting others on Yom Kippur; walking to visit father or teacher; Future river flowing from the Temple in the End of Days (Ezekiel 47).",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-077b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 6
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.77b.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.77b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.77b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.77b.1",
+        "Yoma.77b.2",
+        "Yoma.77b.3"
+      ],
+      "display": {
+        "whats": "Verse about afflicting daughters in Laban's house relates to fasting obligation",
+        "hint": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast."
+      },
+      "learning": {
+        "summary": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast.",
+        "ahaMoment": "The same word (vayah'anu) used by Jacob about Laban's oppression is the source for YK affliction - the Torah embeds the fast's purpose in a family story of survival.",
+        "memoryAnchor": "Jacob and Laban: affliction has a story behind it before it becomes a law.",
+        "openQuestion": "What is the deeper significance of the ruling about verse about afflicting daughters in laban's house relates to?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "derivation",
+          "label": "Reading Laban's two clauses as two distinct afflictions",
+          "speaker": "Gemara",
+          "text": "Laban's words 'if you afflict my daughters' and 'if you take other wives' are read as two separate concerns: withholding marital relations, and the suffering of added rival wives. The Gemara rejects collapsing both into 'rival wives' because the text reads 'and if you take,' implying a second, distinct affliction.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Could both clauses still be about rival wives?",
+          "speaker": "Gemara",
+          "text": "The Gemara presses that both phrases might refer to rival wives, one to elevating Bilhah and Zilpah, one to outside women. It rejects this on the order of severity: the text places 'afflict' before 'take,' but on this reading the milder concern would precede the harsher one, which is the wrong order for a warning.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l03",
+              "vilnaLine": 3
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "objection",
+          "label": "Rav Pappa: but relations themselves are called affliction",
+          "speaker": "Gemara",
+          "text": "Rav Pappa challenges Abaye from Shechem, where the verse says he 'lay with her and afflicted her,' showing that the act of relations, not its withholding, is called affliction. Abaye answers that Shechem afflicted her through unnatural relations, a distinct case, so the ordinary withholding of relations remains the affliction meant for Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l06",
+              "vilnaLine": 6
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "affliction",
+        "YK fast",
+        "Laban",
+        "Jacob",
+        "scriptural derivation"
+      ],
+      "concepts": {
+        "halachic": [
+          "affliction",
+          "YK fast"
+        ],
+        "theological": [
+          "The same word (vayah'anu) used by Jacob about Laban's oppression is the source f"
+        ],
+        "narrative": [
+          "Verse about afflicting daughters in Laban's house relates to"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of affliction context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners may conclude from the Shechem verse that the Torah views marital relations as inherently an affliction.",
+          "correction": "Abaye limits that verse to unnatural, painful relations. In the normal case relations are a pleasure, so it is their absence, not their presence, that constitutes the Yom Kippur affliction of 'inui.'"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Verse about afflicting daughters in Laban's house "
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why does the Gemara refuse to read both of Laban's clauses as referring to rival wives?",
+          "a": "The wording 'and if you take' signals a second, separate matter, and the order of the clauses (afflict before take) tracks severity from harsher to milder, which only works if 'afflict' refers to withholding relations rather than to another mention of rival wives."
+        },
+        {
+          "q": "How does Abaye resolve Rav Pappa's objection that relations themselves are called affliction in the Shechem verse?",
+          "a": "Abaye distinguishes the cases: Shechem 'afflicted' her through unnatural relations, which is inherently painful. Ordinary marital relations are a pleasure, so withholding them is the affliction relevant to Yom Kippur."
+        }
+      ],
+      "finalRuling": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies t",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-077b-s02",
+      "lineRange": {
+        "startVilnaLine": 9,
+        "endVilnaLine": 14
+      },
+      "lines": [
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.77b.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.77b.5"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.77b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.77b.4",
+        "Yoma.77b.5",
+        "Yoma.77b.6"
+      ],
+      "display": {
+        "whats": "Prohibition on marital relations on Yom Kippur",
+        "hint": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope."
+      },
+      "learning": {
+        "summary": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
+        "ahaMoment": "Marital relations as an affliction? Their prohibition expresses that YK is a day of withdrawing from all bodily pleasures, not just food.",
+        "memoryAnchor": "Marital relations on YK: the fifth affliction completes the set.",
+        "openQuestion": "What is the deeper significance of the ruling about prohibition on marital relations on yom kippur?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Partial bathing and oiling are forbidden, but necessity is permitted",
+          "speaker": "Mishnah",
+          "text": "A baraita teaches that bathing or oiling even part of the body is forbidden just like the whole body. But one dirtied by mud or excrement may wash normally, and one who is sick or has painful scabs may apply oil normally, because in these cases the aim is not pleasure but relief.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "ruling",
+          "label": "Rinsing one hand to feed a child",
+          "speaker": "Mishnah",
+          "text": "The school of Menashe cites Rabban Shimon ben Gamliel that a woman may rinse one hand in water so she can hand bread to her child without violating the morning hand-washing concern, and this minimal rinsing does not breach the Yom Kippur bathing prohibition.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l13",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "Shammai's strictness and the decree about the morning spirit",
+          "speaker": "Mishnah",
+          "text": "Shammai the Elder would not feed his children with one hand to avoid washing it, leaving them unfed; out of concern for the children's wellbeing the Sages required him to use two hands and wash both. The Gemara explains the underlying hand-washing concern as Shivta, an evil spirit that rests on unwashed morning hands.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l14",
+              "vilnaLine": 14
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "marital relations",
+        "YK prohibition",
+        "five afflictions"
+      ],
+      "concepts": {
+        "halachic": [
+          "marital relations",
+          "YK prohibition"
+        ],
+        "theological": [
+          "Marital relations as an affliction? Their prohibition expresses that YK is a day"
+        ],
+        "narrative": [
+          "Prohibition on marital relations on Yom Kippur"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of marital relations context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners assume any contact with water on Yom Kippur is forbidden.",
+          "correction": "The prohibition is on bathing for pleasure. Washing off filth, rinsing a hand to feed a child, or oiling for medical need are all permitted, because the controlling factor is whether the act provides comfort or meets a genuine need."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Prohibition on marital relations on Yom Kippur"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "On what basis may a sick person apply oil on Yom Kippur despite the anointing prohibition?",
+          "a": "Because the prohibition targets oiling for pleasure. When oil is applied for medicinal need, such as for illness or painful scabs, the purpose is relief rather than enjoyment, so it is permitted in the ordinary manner."
+        },
+        {
+          "q": "Why were the Sages stricter with Shammai than Shammai was with himself regarding washing a hand?",
+          "a": "Shammai avoided washing even one hand and so would not feed his children, leaving them hungry. The Sages, weighing the children's wellbeing, required him to use and wash both hands, treating the children's needs as overriding his personal stringency."
+        }
+      ],
+      "finalRuling": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-077b-s03",
+      "lineRange": {
+        "startVilnaLine": 16,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.77b.7"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.77b.8"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.77b.9"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.77b.10"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.77b.11"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.77b.12"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.77b.13"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.77b.14"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.77b.7",
+        "Yoma.77b.8",
+        "Yoma.77b.9",
+        "Yoma.77b.10",
+        "Yoma.77b.11",
+        "Yoma.77b.12",
+        "Yoma.77b.13",
+        "Yoma.77b.14"
+      ],
+      "display": {
+        "whats": "Greeting others on Yom Kippur; walking to visit father or teacher",
+        "hint": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day."
+      },
+      "learning": {
+        "summary": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
+        "ahaMoment": "Even walking to honor one's father or teacher must be weighed on YK - the day's seriousness applies even to mitzvot of honor.",
+        "memoryAnchor": "Greeting on YK: communal connection persists even in affliction.",
+        "openQuestion": "What is the deeper significance of the ruling about greeting others on yom kippur; walking to visit father or te?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Crossing water to greet a parent or teacher",
+          "speaker": "Gemara",
+          "text": "A baraita permits one traveling to greet his father, his teacher, or someone greater than him in wisdom to cross a river up to his neck, without concern for the Yom Kippur bathing prohibition, since the purpose is the mitzva of the visit rather than pleasure.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l16",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "question",
+          "label": "May a teacher cross water to reach a student?",
+          "speaker": "Gemara",
+          "text": "The students ask whether a teacher may likewise enter the water to go teach his student. A proof is attempted from a report that Ze'iri crossed to reach Rav Chiyya bar Ashi, but Rav Ashi corrects the account: it was the student who crossed to the teacher, so the question remains unresolved.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "application",
+          "label": "Rava permits crossing to guard fruit, backed by a baraita",
+          "speaker": "Gemara",
+          "text": "Rava permitted those across the Euphrates to cross the water to guard their fruit on Yom Kippur. Abaye notes a baraita supporting him: fruit guards may cross up to their necks without concern for the bathing prohibition, since their purpose is protective, not pleasurable.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l20",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "case",
+          "label": "Rav Yosef permits crossing both to and from his lecture",
+          "speaker": "Gemara",
+          "text": "Rav Yosef permitted the people of Bei Tarbu to cross the water to attend his Yom Kippur lecture. Initially he barred the return crossing, but Abaye objected that this would deter future attendance, so the ruling is that they may cross both ways, lest people be discouraged from coming.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "principle",
+          "label": "One may cross only without lifting the hem of his cloak",
+          "speaker": "Gemara",
+          "text": "Standing by the Pappa River, Rav Yehuda relays Rav and Shmuel's rule: one may cross provided he does not lift his hand from the hem of his cloak. Raising the hems to keep them dry would be a form of carrying that incurs a sin-offering, so one must walk normally and let the garment get wet.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l26",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "objection",
+          "label": "Rav Yosef: is deep, dangerous water ever permitted?",
+          "speaker": "Gemara",
+          "text": "Rav Yosef objects that even on a weekday one may not walk through dangerously deep water, citing Ezekiel's vision of the future river measured to ankle, knee, and waist depth, beyond which it could not be crossed, deriving that water above the waist is forbidden as dangerous.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l31",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "elaboration",
+          "label": "The graded depths of Ezekiel's river",
+          "speaker": "Gemara",
+          "text": "Rav Yosef walks through the verse's measurements: water reaching the ankles, then the knees, then the waist may be crossed, but once it becomes 'a river that I could not pass through,' one may never cross water above waist height, because of the danger of drowning.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l32",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "distinction",
+          "label": "Abaye: only fast-flowing water is the danger",
+          "speaker": "Gemara",
+          "text": "Abaye answers that the verse proves nothing general, because a fast-flowing river is uniquely dangerous: above the waist one could be swept away. Still water, however, may be crossed even when deeper than the waist, so the depth limit is not absolute.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l35",
+              "vilnaLine": 35
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "greeting",
+        "YK conduct",
+        "honor of parents",
+        "honor of teachers"
+      ],
+      "concepts": {
+        "halachic": [
+          "greeting",
+          "YK conduct"
+        ],
+        "theological": [
+          "Even walking to honor one's father or teacher must be weighed on YK - the day's "
+        ],
+        "narrative": [
+          "Greeting others on Yom Kippur; walking to visit father or te"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of greeting context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners read these crossing-permissions as casual leniencies that effectively cancel the Yom Kippur bathing prohibition.",
+          "correction": "Each permission is tied to a non-pleasure purpose (a mitzva visit, guarding fruit, attending a lecture) and is hedged with real limits, such as not lifting the cloak hem and not entering dangerous flowing water, so the prohibition stays intact for ordinary bathing."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Greeting others on Yom Kippur; walking to visit fa"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why does Rav Yosef ultimately permit the people of Bei Tarbu to cross the water both coming and going?",
+          "a": "Because barring the return trip would discourage people from attending his lecture in the future. To keep them from being deterred, he permits the crossing in both directions, even though the bathing concern only justified the trip to the lecture."
+        },
+        {
+          "q": "What is the problem with lifting the hem of one's cloak while crossing a river on Yom Kippur?",
+          "a": "Raising the hems to keep them dry is a form of carrying that would make one liable to a sin-offering. One must therefore walk normally and let the garment get wet rather than try to keep it dry."
+        },
+        {
+          "q": "How does Abaye limit the proof from Ezekiel's river that deep water may not be crossed?",
+          "a": "He restricts the danger to fast-flowing rivers, where deep water can sweep a person away. Still water may be crossed even above the waist, so the verse does not set a universal depth limit."
+        }
+      ],
+      "finalRuling": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-077b-s04",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 41
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.77b.15"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.77b.16"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.77b.17"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.77b.15",
+        "Yoma.77b.16",
+        "Yoma.77b.17"
+      ],
+      "display": {
+        "whats": "Future river flowing from the Temple in the End of Days (Ezekiel 47)",
+        "hint": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river that heals the land."
+      },
+      "learning": {
+        "summary": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river that heals the land.",
+        "ahaMoment": "Ezekiel's future river - flowing from the Temple - will be so powerful it sweetens even the Dead Sea. The Temple's sanctity radiates outward.",
+        "memoryAnchor": "Ezekiel's river from the Temple: sanctity overflows into the world.",
+        "openQuestion": "What is the deeper significance of the ruling about future river flowing from the temple in the end of days (eze?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "elaboration",
+          "label": "Why Ezekiel could not even swim or boat across",
+          "speaker": "Gemara",
+          "text": "Continuing the river theme, the Gemara explains that Ezekiel could not cross by swimming, since the verse describes 'sachu' waters passable only by boat, and then excludes even a small boat and a large fishing boat, as Rav Yosef renders the verses, leaving the river uncrossable.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l35",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "claim",
+          "label": "Even the Angel of Death cannot cross the river",
+          "speaker": "Gemara",
+          "text": "Rabbi Yehuda ben Pazi teaches that not even the Angel of Death may pass this river, linking 'no galley with oars (ani shayt)' with the 'going to and fro (mishut)' that Satan describes, so that Satan, who is the Angel of Death, cannot traverse it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l39",
+              "vilnaLine": 39
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "narrative",
+          "label": "The widening spring from the Holy of Holies",
+          "speaker": "Gemara",
+          "text": "Rabbi Pinechas in the name of Rav Huna of Tzippori describes the future spring emerging from the Holy of Holies as thin as grasshoppers' antennae, thickening to a warp thread, then a woof thread, then the mouth of a small jug as it advances, leading into the mishnaic teaching of Rabbi Eliezer ben Ya'akov.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-077b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Temple river",
+        "Ezekiel",
+        "future redemption",
+        "miraculous river"
+      ],
+      "concepts": {
+        "halachic": [
+          "Temple river",
+          "Ezekiel"
+        ],
+        "theological": [
+          "Ezekiel's future river - flowing from the Temple - will be so powerful it sweete"
+        ],
+        "narrative": [
+          "Future river flowing from the Temple in the End of Days (Eze"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Temple river context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners treat the description of the future river as a stray bit of imagery detached from the legal discussion.",
+          "correction": "The river passages flow directly out of the halachic debate about crossing water on Yom Kippur and Shabbat; the Gemara expands on Ezekiel's river it had just cited as a proof text, and the aggada elaborates the same source."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Future river flowing from the Temple in the End of"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How does the Gemara build up the claim that Ezekiel's future river is wholly uncrossable?",
+          "a": "It rules out each means in turn: not by swimming, since the waters require a boat; not by a small boat, excluded by 'no galley with oars'; and not by a large fishing boat, excluded by the verse about the 'tzi adir,' leaving no way across."
+        },
+        {
+          "q": "What is the textual link that even the Angel of Death cannot cross this river?",
+          "a": "Rabbi Yehuda ben Pazi connects 'ani shayt' (galley with oars) with 'mishut' (going to and fro) said by Satan, and since Satan is the Angel of Death, the shared root shows that he too is barred from crossing."
+        }
+      ],
+      "finalRuling": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river ",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אם תענה מתשמיש. להשבית עונתן: ואם תקח מצרות. השביעו",
+      "en": "Rashi: the verse about Jacob afflicting Laban's daughters relates to fasting.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "כמשמעו שלא יוסיף להן צרות: ה\"ג ואימא אידי ואידי מצרות",
+      "en": "Rashi: the term 'afflict' connects both contexts through shared vocabulary.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "מי כתיב אם תקח ואם תקח כתיב ואימא אידי ואידי מצרות חד",
+      "en": "Rashi: the marital relations prohibition is the fifth of the five afflictions.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "לצרות דידיה וחד לצרות דאתיין ליה מעלמא דומיא דואם תקח מי",
+      "en": "Rashi: marital relations on YK are forbidden as a pleasurable activity.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "כתיב אם תקח ואם תענה אם תענה",
+      "en": "Rashi: greeting others on Yom Kippur - permitted as a sign of respect.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "ואם תקח כתיב. והכי פירושא ואימא",
+      "en": "Rashi: walking to honor one's father or teacher on Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "אידי ואידי מצרות וה\"ק אם תענה",
+      "en": "Rashi: the Ezekiel 47 river - begins beneath the Temple threshold.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "את בנותי ליקח נשים עליהן מי כתיב",
+      "en": "Rashi: the miraculous deepening of the Temple river as it flows.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "אם תענה אם תקח דליהוי אם תקח",
+      "en": "Rashi: the river sweetens the Dead Sea and brings fish in its waters.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "פי' דאם תענה ואם תקח כתיב",
+      "en": "Rashi explains the opening discussion of this topic on 77b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "מילתא אחריתי היא: ואימא אידי",
+      "en": "Rashi explains the opening discussion of this topic on 77b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "ואידי מצרות חד לצרות דידיה. שלא",
+      "en": "Rashi explains the opening discussion of this topic on 77b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "יעשה בלהה וזלפה גבירות שוות",
+      "en": "Rashi explains the opening discussion of this topic on 77b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "להן והדר אשבעיה אם תקח נשים",
+      "en": "Rashi explains the opening discussion of this topic on 77b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "דהיינו צרות דאתיין להו לבתר הכי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "מעלמא והכי מסתברא דומיא דואם",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "תקח: מי כתיב אם תקח ואם",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "תענה. צרות דעלמא קשות להן מן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "הראשונות וברישא הוה ליה לאשבועיה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "אצרות דעלמא והדר הוה ליה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "לאשבועיה אצרות דידיה דלא מישתעי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "איניש הכי להזהירו תחילה על הקל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "ולבסוף על הקשה: מביאות אחרות.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "שהיתה מתאוה לו ולא בא עליה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "בעונתה בימים שעמדה אצלו ואני",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "שמעתי שעינה מביאות אחרות שבא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "עליה שלא כדרכה וקשיא לי א\"כ",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "אימא אם תענה את בנותי נמי הכי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "אשבעיה שלא יענה אותן מביאות",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "אחרות ועוד שעינה בביאות אחרות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "מיבעי ליה : מדיחה את ידה. לפי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "שרוח רעה שורה על הלחם הנלקח",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "בידים שלא נטלן שחרית ושם השד",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "שיבתא: שלא רצה להאכיל בידו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "אחת. אפי' ידו אחת לא היה נוטל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "לתת פת לבנו קטן ביום הכפורים:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "ואינו חושש. משום רחיצה: לנטורי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "פירי. שהיו להם פרדסים בעבר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "הנהר: בי תרבו. שם הכפר:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "לפירקא. שהיו דורשין ביוה\"כ:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "לעתיד לבא. לשנה אחרת לא יבואו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "הואיל ולא התרת' לעבור את המים",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "ולחזור: אמברא דחצדד. מקום מעבר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "הנהר מול חצדד: מתחת חפת.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "שפת חלוקו להגביה שולי חלוקו על",
+      "en": "Rashi: 'the edge of his robe' - one lifts the hem of his garment up onto his arm,",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "זרועו דאינו נראה כמלבוש אלא",
+      "en": "so that it no longer looks like worn clothing but rather like something carried on the shoulder.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "כנושא על כתיפו ואמר מר (שבת דף",
+      "en": "Rashi cites Master's statement (Shabbat 147a):",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "קמז.) היוצא בטלית מקופלת על",
+      "en": "'one who goes out on Shabbat with a cloak folded over his shoulder is liable to a sin-offering' - so carrying a garment this way is forbidden.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "כתיפו בשבת חייב חטאת: כי האי",
+      "en": "Rashi: 'in such a manner' refers to the earlier case",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "גוונא. דקתני לעיל עד צוארו במים",
+      "en": "taught above of standing in water up to one's neck -",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "והאיכא סכנה שלא ישטפוהו המים:",
+      "en": "Rashi: but there is danger here, lest the water sweep him away.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "וימד אלף. המלאך הראה ליחזקאל",
+      "en": "Rashi glosses 'and he measured a thousand' (Ezek 47): the angel showed Ezekiel",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "נחל היוצא מבית קה\"ק תחילתו כחוט",
+      "en": "the stream issuing from the Holy of Holies - at its start it was thin as a thread,",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "והולך וגדל וכל אלף אמה אורך משיצא",
+      "en": "and it kept growing; for the first thousand cubits of its length after leaving",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "חוץ לירושלים לא היה עמוק אלא מי",
+      "en": "the city it was only ankle-deep -",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "אפסים מי קרצולין: וימד אלף. שניות",
+      "en": "Rashi: 'water of the ankles.' 'And he measured a thousand' a second time:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "והעמיקו עד ברכים: מכאן ואילך. קרי ליה אשר לא אוכל לעבור אלמא אסור לעבור למעלה ממתנים: שאני נחל. היוצא מבית קה\"ק שהיו מימיו",
+      "en": "Rashi: from here on it is called 'a river I could not pass through' - so it is forbidden to cross above waist height. 'A river is different' - the one issuing from the Holy of Holies, whose waters",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "רודפים הולכים מהר ושוטפים: בסיחוי. בשייט: ת\"ל כי גאו המים מי שחו. ראויות לשוט: לפתח בית דוד. היא ציון חוץ לירושלים:",
+      "en": "ran swiftly and rushed along. 'By swimming' - i.e. floating. 'The text teaches' that when the waters rose they were fit to swim in. 'To the entrance of the house of David' - that is Zion, outside Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "מפכין",
+      "en": "Rashi begins the next comment ('mefakin'), opening the following passage.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

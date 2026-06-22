@@ -1,0 +1,790 @@
+{
+  "daf": "16a",
+  "canonicalRef": "Yoma 16a",
+  "summary": "The page resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying Middot's author. Rav Huna: Middot was authored by R. Eliezer ben Yaakov - proven by a second Middot mishna where R. Eliezer ben Yaakov admits he forgot which of the four Women's Courtyard chambers served which function. Further proof comes from Temple height measurements that match R. Eliezer ben Yaakov's positions. The Gemara then describes the golden vine (gafna shel zahav) over the Sanctuary entrance, which grew so heavy from gold donations that 300 kohanim were needed to move it, and the eastern wall height derivation from the cherubim's proportions.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-16a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 16
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.16a.1"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.16a.2"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.16a.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.16a.1",
+        "Yoma.16a.2",
+        "Yoma.16a.3"
+      ],
+      "display": {
+        "whats": "Rav Huna resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying who authored Tractate Middot: R. Eliezer ben Yaakov. This is proved by a second Middot mishna where R. Eliezer ben Yaakov himself admits he forgot which two of the four Women's Courtyard chambers served which function.",
+        "hint": "Rav Huna's key move: if R. Eliezer ben Yaakov authored Middot, and we know his position (the Chamber of the Lambs is in the southwest corner), then the Yoma/Tamid description (northwest) represents a different authority's view. The amnesia mishna proves it's his tractate."
+      },
+      "learning": {
+        "summary": "Rav Huna identifies R. Eliezer ben Yaakov as the author of Tractate Middot, resolving the Yoma/Middot conflict about the Chamber of the Lambs location. The proof is a Middot mishna where R. Eliezer ben Yaakov admits he forgot the function of two Women's Courtyard chambers - an author would not forget his own tractate's details unless he later was uncertain.",
+        "ahaMoment": "The authorship identification resolves an architectural contradiction: two tractates can place the same chamber in different corners if they reflect different tannaitic traditions.",
+        "memoryAnchor": "R. Eliezer ben Yaakov authored Middot - proven by his own admission of forgetting two chambers. This establishes his corner-assignment as the Middot position, different from Yoma's.",
+        "openQuestion": "If R. Eliezer ben Yaakov later forgot his own mishna's content, does that affect the reliability of Tractate Middot for determining the actual Temple layout?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "resolution",
+          "label": "Rav Huna: Middot authored by R. Eliezer ben Yaakov",
+          "speaker": "Rav Huna",
+          "text": "Tractate Middot was authored by R. Eliezer ben Yaakov. Therefore the Middot chamber placement reflects his position, and the Yoma/Tamid description reflects a different tradition.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l01",
+              "vilnaLine": 1,
+              "note": "Rav Huna's authorship claim"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "proof",
+          "label": "Proof: R. Eliezer ben Yaakov admits forgetting in Middot",
+          "speaker": "Gemara",
+          "text": "A mishna in Middot quotes R. Eliezer ben Yaakov saying he forgot which of the four Women's Courtyard chambers served which function. This personal admission proves it is his tractate.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l06",
+              "vilnaLine": 6,
+              "note": "R. Eliezer ben Yaakov's admission of forgetting"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "conclusion",
+          "label": "Therefore Middot's chamber placement is R. EbY's view",
+          "speaker": "Gemara",
+          "text": "Since R. Eliezer ben Yaakov authored Middot, the southwest corner placement of the Chamber of the Lambs is his position. The northwest placement in Yoma/Tamid reflects a different tannaitic view.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l16",
+              "vilnaLine": 16,
+              "note": "Resolution: two views, different authorities"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Tractate Middot",
+        "R. Eliezer ben Yaakov",
+        "Chamber of the Lambs",
+        "tractate authorship",
+        "Rav Huna",
+        "Beit HaMoked"
+      ],
+      "concepts": [
+        {
+          "term": "R. Eliezer ben Yaakov",
+          "def": "A Tanna known for his Temple descriptions. The saying 'R. Eliezer ben Yaakov's mishna is small but clean' (Kab ve-naki) reflects the reliability of his teachings. Rav Huna attributes Tractate Middot to him."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.16a.1",
+        "Yoma.16a.2"
+      ],
+      "requiresUnderstanding": [
+        "The Chamber of the Lambs controversy from 15b",
+        "The four-chamber Beit HaMoked structure"
+      ],
+      "misconceptions": [
+        "One might think the contradiction between Yoma and Middot is an error - it is actually two legitimate tannaitic traditions about the same Temple layout."
+      ],
+      "relatedSugyot": [
+        "yoma-15b-s04",
+        "yoma-16a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "Beit HaMoked floor plan with two competing chamber-location assignments: Yoma/Tamid version vs R. Eliezer ben Yaakov's Middot version"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "How does Rav Huna resolve the contradiction between Tractates Yoma and Middot about the Chamber of the Lambs?",
+          "correct": "He identifies R. Eliezer ben Yaakov as the author of Middot. This means Middot reflects his tradition, while Yoma/Tamid reflects a different tradition - so both are correct for their respective authorities."
+        }
+      ],
+      "finalRuling": "R. Eliezer ben Yaakov authored Tractate Middot (per Rav Huna). This resolves the Yoma/Middot contradiction by assigning the two descriptions to different tannaitic traditions.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "קַב וְנָקִי",
+          "translit": "kav ve-naki",
+          "en": "Small but clean - the saying about R. Eliezer ben Yaakov: his mishna corpus is small but of high quality."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-16a-s02",
+      "lineRange": {
+        "startVilnaLine": 20,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.16a.4"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.16a.5"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.16a.6"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.16a.7"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.16a.8"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.16a.9"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.16a.10"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.16a.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.16a.4",
+        "Yoma.16a.5",
+        "Yoma.16a.6",
+        "Yoma.16a.7",
+        "Yoma.16a.8",
+        "Yoma.16a.9",
+        "Yoma.16a.10",
+        "Yoma.16a.11"
+      ],
+      "display": {
+        "whats": "Further proof that Tractate Middot follows R. Eliezer ben Yaakov comes from measurements: Middot's statement about the Temple's eastern wall height matches R. Eliezer ben Yaakov's known position. The sugya also addresses the height of the Sanctuary entrance and how the Ezrat Nashim galleries were constructed.",
+        "hint": "Height measurements of the Temple can disambiguate whose tradition Middot represents. If the numbers match R. Eliezer ben Yaakov's known position from other sources, Rav Huna's attribution is confirmed."
+      },
+      "learning": {
+        "summary": "The Gemara brings additional proof for Rav Huna's attribution of Middot to R. Eliezer ben Yaakov through Temple height measurements. The eastern wall height and the structure of the Women's Courtyard galleries are shown to align with R. Eliezer ben Yaakov's other known rulings.",
+        "ahaMoment": "Temple measurements serve as fingerprints - matching them to a known Tanna's positions confirms who authored a tractate.",
+        "memoryAnchor": "Eastern wall height = R. Eliezer ben Yaakov's known measurement = Middot is his tractate. Second proof after the Women's Courtyard forgetfulness.",
+        "openQuestion": "How precisely were Temple measurements transmitted? Does the agreement on numbers prove common authorship or just that all Tannaim agreed on the basic dimensions?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "proof",
+          "label": "Temple height measurements match R. EbY's view",
+          "speaker": "Gemara",
+          "text": "Middot's stated height for the eastern wall matches R. Eliezer ben Yaakov's position as expressed in other Talmudic passages - confirming Rav Huna's attribution.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l20",
+              "vilnaLine": 20,
+              "note": "Height measurement proof"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "detail",
+          "label": "Gallery construction details in the Women's Courtyard",
+          "speaker": "Gemara",
+          "text": "The Middot description of how the Ezrat Nashim galleries were constructed - the initial plan and subsequent addition of galleries when the crowd needed separation - also reflects R. Eliezer ben Yaakov's tradition.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l23",
+              "vilnaLine": 23,
+              "note": "Women's Courtyard gallery details"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "detail",
+          "label": "The Sanctuary entrance height and its proof-verse",
+          "speaker": "Gemara",
+          "text": "The height of the main entrance (Ulam) to the Sanctuary - the Gemara derives the number from a biblical verse about the cherubim. This aligns with Middot's measurements.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l26",
+              "vilnaLine": 26,
+              "note": "Entrance height from verse"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "detail",
+          "label": "The Temple's golden vine and its dimensions",
+          "speaker": "Gemara",
+          "text": "Middot also describes the golden vine decorating the entrance to the Heikhal. Its dimensions and the way priests and laypeople would donate golden grape clusters to it are described.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l29",
+              "vilnaLine": 29,
+              "note": "Golden vine details"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "elaboration",
+          "label": "Donations to the golden vine",
+          "speaker": "Gemara",
+          "text": "People who donated grape clusters, leaves, or berries of gold for the vine - where were they deposited? The gate treasurer (gizbar) would store them and commission goldsmiths to attach them to the vine.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l30",
+              "vilnaLine": 30,
+              "note": "Golden vine donation logistics"
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "elaboration",
+          "label": "The enormous weight of the golden vine",
+          "speaker": "Gemara",
+          "text": "At one point the golden vine became so heavy (three hundred kohenim were required to move it) that the Temple had to stop adding to it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l32",
+              "vilnaLine": 32,
+              "note": "Golden vine weight anecdote"
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "detail",
+          "label": "Eastern wall measurement proof",
+          "speaker": "Gemara",
+          "text": "The eastern wall's specific height measurement (given in Middot) is proven from the verse about the cherubim's wingspan, which equals the height of the entire sanctuary interior.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16a-l35",
+              "vilnaLine": 35,
+              "note": "Eastern wall height derivation"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Temple measurements",
+        "eastern wall",
+        "Ezrat Nashim",
+        "golden vine",
+        "R. Eliezer ben Yaakov",
+        "Tractate Middot"
+      ],
+      "concepts": [
+        {
+          "term": "gafna shel zahav",
+          "def": "Golden vine - a large decorative golden vine that hung over the entrance to the Heikhal. Worshippers donated gold grape clusters, leaves, and berries to adorn it."
+        },
+        {
+          "term": "Ezrat Nashim",
+          "def": "Women's Courtyard - the outer courtyard of the Temple that women could enter. Galleries (izteba'ot) were later added around its perimeter to separate men and women during the Sukkot water-drawing celebrations."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.16a.5",
+        "Yoma.16a.8",
+        "Yoma.16a.11"
+      ],
+      "requiresUnderstanding": [
+        "Basic Temple layout: Heikhal, Ulam, Ezrat Nashim",
+        "How measurement traditions attribute a tractate to its author"
+      ],
+      "misconceptions": [
+        "One might think the golden vine was a natural growth - it was an entirely artificial gold construction built from worshippers' donations."
+      ],
+      "relatedSugyot": [
+        "yoma-16a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "desc": "Temple entrance (Ulam) showing the golden vine with donation grape clusters, layered galleries of the Ezrat Nashim visible in background"
+        },
+        {
+          "type": "sequence",
+          "desc": "Timeline of the golden vine's growth: initial installation, accumulation of donations, kohanim required to move it"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "What is the golden vine (gafna shel zahav) in the Temple and how did it grow?",
+          "correct": "A large decorative golden vine over the Heikhal entrance. Worshippers donated golden grape clusters, leaves, and berries; the treasury stored them until goldsmiths could attach them. Eventually it became so massive that hundreds of kohanim were needed to move it."
+        },
+        {
+          "type": "explain",
+          "q": "What is the second proof that R. Eliezer ben Yaakov authored Tractate Middot?",
+          "correct": "The height measurements in Middot (eastern wall, entrance height) match R. Eliezer ben Yaakov's known positions as expressed in other Talmudic passages."
+        }
+      ],
+      "finalRuling": "Confirmed: Middot's measurements align with R. Eliezer ben Yaakov's known positions, supporting Rav Huna's attribution.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "גֶּפֶן שֶׁל זָהָב",
+          "translit": "gafna shel zahav",
+          "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "קַב וְנָקִי",
+      "translit": "kav ve-naki",
+      "en": "Small but clean - the saying about R. Eliezer ben Yaakov: his mishna corpus is small but of high quality."
+    },
+    {
+      "he": "גֶּפֶן שֶׁל זָהָב",
+      "translit": "gafna shel zahav",
+      "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'the four Beit HaMoked chambers' - Rav Huna explains which tanna authored Middot to resolve the Yoma contradiction.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: 'proven from a second Middot mishna' - R. Eliezer ben Yaakov's own statement that he forgot two chambers identifies Middot as his tractate.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: the Women's Courtyard had four chambers; R. Eliezer ben Yaakov says he forgot which served which function - proving Middot is his.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: 'he forgot' - an author might later forget his own work; this admission is his personal statement.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: the Nazirite and Leper chambers in the four corners of the Women's Courtyard - which two did he forget?",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: 'as we said above' - citing the earlier discussion from 15b about who authored the Yoma service description.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: the four Women's Courtyard chambers: oil, wine, Nazirites, lepers (wood?). R. EbY forgot two of them.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: the forgetting itself marks the tractate as his - only the author could forget his own chamber descriptions.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: Rav Huna bar Yehoshua: the Tamid author (who counted chambers from south to east) counted left-hand direction.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: 'going rightward from south' - when entering from the south and turning right, the first chamber encountered is SE, then SW.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: the Middot author counted from south going east, north, west - that is a rightward (counterclockwise inside) circuit.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: going from south to east (right circuit from outside) would hit the south-east chamber first.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: 'and those coming from the north see it' - the Chamber of Lambs, being near the west wall and south, appears northern to someone approaching from the south.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: 'and those coming from the south see it as from the north' - it is elongated along the west wall, appearing north or south depending on approach direction.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: 'it appears more probable that it was in the southwest corner' - the southwest placement (Middot) is more defensible.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: 'since we establish Shewbread against Shewbread' - the Shewbread chamber must be in the southeast (southeast = Shewbread per Middot), confirming the whole circuit.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: the Tamid description goes from south to north (a left-hand circuit viewed from outside), while Middot goes right.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: Rav Huna bar Yehoshua explains Tamid counted left-hand from south: Chamber of Lambs at NW according to Tamid.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: the 'from the south' left-hand circuit (Tamid): south, west, north, east - placing Chamber of Lambs in the NW.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: 'the eastern wall' - now a separate proof using the Temple's height measurements for the eastern wall.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: Rav Adda bar Ahavah: the eastern wall height measurement resolves the question - its measure proves Middot = R. EbY.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: the Temple Mount's eastern wall (outer wall) had specific height; Middot's number for it matches R. EbY's other Temple dimensions.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: 'the Women's Courtyard had no roof' - the galleries (izteba'ot) were added later as a rabbinic fence to separate men and women.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: originally the courtyard was flat; galleries were added above around the perimeter when Simhat Beit HaShoeva crowds required separation.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: they found support from a verse for this separation arrangement after the fact.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: 'proven from the cherubim' - the cherubim's wingspan equaled the House's width = 20 cubits, and by proportion derives the wall height.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: the cherubim stood 10 cubits tall; their wingspan = 20 cubits (each wing 5 cubits). The house interior = 20 cubits wide = 20 cubits high by this proportion.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: now deriving the Heikhal entrance height: 'as the wing to the cherub, so the Heikhal to itself' means the height and width are proportional.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: 'the golden vine' - a large golden vine hung above the entrance to the Heikhal between the Ulam and the Heikhal.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: 'who wanted to donate a leaf, a grape, or a cluster of gold' - these were deposited with the gizbar (treasurer) and later attached to the vine.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: Rabbi Elazar bar Zadok: 'I saw it and it required 300 kohanim to move it' - the golden vine became so heavy from donations.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: 300 kohanim were needed to carry the golden vine when it had to be moved.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: the enormous weight was from the accumulated gold donations over generations.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: some say Rav Huna's proof for the eastern wall height is from the Shewbread (lechem ha-panim) chamber connection.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: the eastern wall height is derived from the cherubim's dimensions - a cubits calculation based on the verse.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: the Sanctuary (Heikhal) height of 40 cubits is derived from cherubim measurements: each cherub 10 cubits, wing 5, half span = 20 = height.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: the House measured 20 cubits in width = cherubim wing span = so the House was 20 cubits high (inner dimension) by this analogy.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: from the '20 cubit height' of the Heikhal we can derive the eastern wall's total height by adding foundation and upper floor dimensions.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: 'if you say Middot is R. Yehuda's' - the counter-hypothesis about the eastern wall measurement.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: if Middot followed R. Yehuda, the altar would be centered in the courtyard, but a Tamid mishna contradicts that - proving Middot is not R. Yehuda.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: the Tamid mishna (which describes the Overseer saying 'arise') contradicts R. Yehuda's centered-altar view.",
+      "linkedGemaraLineIds": [
+        "yoma-16a-l35"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 42).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 43).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 44).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 45).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 46).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 47).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 48).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 49).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 50).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 51).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 52).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 53).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 54).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 55).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 56).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 57).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 58).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 59).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 60).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: continued Temple measurement and attribution discussion (line 61).",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

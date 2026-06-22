@@ -1,0 +1,1289 @@
+{
+  "canonicalRef": "Yoma 59a",
+  "summary": "A rich page covering the communal aspects of Yom Kippur: the fixed order (blood services first, then scapegoat, then reading), the HP's Torah reading to the assembled community from Leviticus 16 and 23 (read from the scroll) and Numbers 29 (recited by heart), the eight blessings, and the community's prostration. The HP's prayer upon emerging from the Holy of Holies is deliberately brief so the waiting congregation is not frightened. His petitions include rain, good harvest, and national security. After all services, the HP is accompanied home joyously, and his family celebrates his safe emergence with a feast. The page concludes with a summary of white-garment vs. gold-garment services.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-059a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 4
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.59a.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.59a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.1",
+        "Yoma.59a.2"
+      ],
+      "display": {
+        "whats": "The Yom Kippur service order: when the scapegoat is dispatched relative to the blood services",
+        "hint": "The Mishnah or Gemara establishes when in the day's sequence the scapegoat departs and which services precede and follow it."
+      },
+      "learning": {
+        "summary": "The Gemara establishes the fixed order of the Yom Kippur day: the blood services (bull and goat inside, parochet, golden altar, outer altar) are completed before the scapegoat is dispatched. The scapegoat's third confession and dispatch happen after all blood services. After the scapegoat departs, the HP proceeds to the Torah reading and subsequent services.",
+        "ahaMoment": "The scapegoat is not the first act of Yom Kippur atonement - the blood services come first. The scapegoat is the culmination, the visible communal expression after the invisible inner atonement.",
+        "memoryAnchor": "Blood services first (invisible, inside), then scapegoat (visible, outside): two phases of one atonement.",
+        "openQuestion": "Why does the blood service precede the scapegoat dispatch rather than the other way around?"
+      },
+      "argumentFlow": [
+        {
+          "type": "order",
+          "speaker": "Mishnah",
+          "text": "The blood services are completed before the scapegoat is dispatched.",
+          "id": "yoma-059a-l01",
+          "label": "Order: The blood services are completed before the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "sequence",
+          "speaker": "Gemara",
+          "text": "Fixed order: blood services, then scapegoat, then Torah reading and subsequent services.",
+          "id": "yoma-059a-l04",
+          "label": "Sequence: Fixed order: blood services, then scapegoat, then",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l04",
+              "vilnaLine": 4
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "service order",
+        "scapegoat timing",
+        "blood services first",
+        "sequence"
+      ],
+      "concepts": {
+        "halachic": [
+          "fixed sequence of Yom Kippur services",
+          "scapegoat after blood services"
+        ],
+        "theological": [
+          "invisible atonement (blood inside) precedes visible atonement (scapegoat)"
+        ],
+        "narrative": [
+          "Yom Kippur day structure",
+          "inner and outer atonement sequence"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the blood services are all performed before the scapegoat",
+        "Knowing the HP's Torah reading comes after the scapegoat"
+      ],
+      "misconceptions": [
+        "The scapegoat is not the first atonement act - it follows all blood services"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "name": "Yom Kippur service order from start to finish"
+        },
+        {
+          "type": "sequence",
+          "name": "blood services then scapegoat then Torah reading"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "In what order do the Yom Kippur services occur relative to the scapegoat dispatch?",
+          "answer": "The blood services (inside, parochet, golden altar, outer altar) are completed first; then the scapegoat is dispatched; then the HP performs the Torah reading and subsequent services."
+        }
+      ],
+      "finalRuling": "All blood services are completed before the scapegoat is dispatched; the scapegoat is followed by the Torah reading.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-059a-s02",
+      "lineRange": {
+        "startVilnaLine": 6,
+        "endVilnaLine": 18
+      },
+      "lines": [
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.59a.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.59a.4"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.59a.5"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.59a.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.3",
+        "Yoma.59a.4",
+        "Yoma.59a.5",
+        "Yoma.59a.6"
+      ],
+      "display": {
+        "whats": "HP reads the Torah to the assembled community; eight blessings recited after the reading",
+        "hint": "After the blood and scapegoat services, the HP reads the Yom Kippur Torah portions to the assembled people and recites eight blessings, with the community prostrating at each mention of the Divine Name."
+      },
+      "learning": {
+        "summary": "The Mishnah details the public Torah reading: the HP reads the relevant Leviticus portions from a sefer Torah, then places it in his bosom and recites the Numbers portions by heart. Following the reading, he recites eight blessings: Torah, Temple service, Thanksgiving, Forgiveness of sins, Temple, Israel, Jerusalem, priests, and a general blessing. The assembled community prostrates when they hear the explicit Divine Name (the Shem haMeforash) recited in the Temple context.",
+        "ahaMoment": "The HP who performed the most private act (the blood service in the Holy of Holies alone) now leads the most public act - reading Torah to all Israel. The inner and outer, private and communal, are one unified service.",
+        "memoryAnchor": "After atoning alone inside, the HP leads Israel in public Torah reading - the private sacred act reaches its communal completion.",
+        "openQuestion": "Why does the HP roll the sefer Torah and recite the Numbers portion by heart rather than reading it from the scroll?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "HP reads the Yom Kippur Torah portions from a sefer Torah, then recites Numbers portions by heart.",
+          "id": "yoma-059a-l06",
+          "label": "Ruling: HP reads the Yom Kippur Torah portions",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "detail",
+          "speaker": "Mishnah",
+          "text": "After reading, he recites eight blessings while the community listens.",
+          "id": "yoma-059a-l11",
+          "label": "Detail: After reading, he recites eight blessings while",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "type": "reaction",
+          "speaker": "Mishnah",
+          "text": "The community prostrates at each explicit mention of the Divine Name.",
+          "id": "yoma-059a-l15",
+          "label": "Reaction: The community prostrates at each explicit mention",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l15",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "type": "context",
+          "speaker": "Gemara",
+          "text": "The eight blessings cover the major categories of the Jewish covenant with God.",
+          "id": "yoma-059a-l18",
+          "label": "Context: The eight blessings cover the major categories",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l18",
+              "vilnaLine": 18
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Torah reading",
+        "eight blessings",
+        "prostration",
+        "Divine Name",
+        "Yom Kippur public service"
+      ],
+      "concepts": {
+        "halachic": [
+          "HP Torah reading",
+          "eight blessings after reading",
+          "community prostration"
+        ],
+        "theological": [
+          "public covenant renewal through Torah reading on the day of atonement"
+        ],
+        "narrative": [
+          "Yom Kippur communal service",
+          "Torah reading ritual"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the HP reads Leviticus from a scroll and Numbers by memory",
+        "Knowing which eight blessings are recited"
+      ],
+      "misconceptions": [
+        "The HP reads from the actual Torah scroll, not from memory - only the second portion is from memory"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "HP reading Torah to assembled community"
+        },
+        {
+          "type": "action",
+          "name": "eight blessings after Torah reading"
+        },
+        {
+          "type": "action",
+          "name": "community prostration at Divine Name"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What does the HP do after the scapegoat service and before the additional sacrifices?",
+          "answer": "He reads the Yom Kippur Torah portions to the assembled community, rolling the Torah after Leviticus and reciting the Numbers portion by heart, then recites eight blessings."
+        }
+      ],
+      "finalRuling": "The HP reads the Yom Kippur Torah portions and recites eight blessings to the assembled community, who prostrate at the Divine Name.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-059a-s03",
+      "lineRange": {
+        "startVilnaLine": 22,
+        "endVilnaLine": 27
+      },
+      "lines": [
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.59a.7"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.59a.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.7",
+        "Yoma.59a.8"
+      ],
+      "display": {
+        "whats": "Content of the eight blessings: covering all major aspects of the Jewish covenant",
+        "hint": "The eight blessings recited after the Torah reading address Torah, Temple service, Thanksgiving, Forgiveness, the Temple itself, Israel, Jerusalem, and the priests."
+      },
+      "learning": {
+        "summary": "Each of the eight blessings corresponds to a pillar of the Jewish covenant relationship: (1) for the Torah, (2) for the Temple service/Avodah, (3) for Hoda'ah (Thanksgiving), (4) for forgiveness of sins, (5) for the Temple, (6) for Israel, (7) for Jerusalem, (8) for the priests and (9) a concluding general blessing. The Gemara or Mishnah specifies the content and structure of these blessings, which constituted a comprehensive statement of Israel's identity and aspirations.",
+        "ahaMoment": "The eight blessings together constitute a complete theology of Israel's relationship with God: Torah, service, gratitude, forgiveness, land, people, city, and priesthood - everything Israel is.",
+        "memoryAnchor": "Eight blessings = eight pillars of Jewish existence: Torah, Temple, gratitude, forgiveness, land, people, city, priesthood.",
+        "openQuestion": "Why are these particular eight categories chosen as the blessings for Yom Kippur?"
+      },
+      "argumentFlow": [
+        {
+          "type": "content",
+          "speaker": "Mishnah",
+          "text": "The eight blessings cover: Torah, Avodah, Hoda'ah, forgiveness of sins, Temple, Israel, Jerusalem, priests.",
+          "id": "yoma-059a-l22",
+          "label": "Content: The eight blessings cover: Torah, Avodah, Hoda'ah,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "type": "significance",
+          "speaker": "Gemara",
+          "text": "Together the eight blessings constitute a complete statement of the covenant's pillars.",
+          "id": "yoma-059a-l27",
+          "label": "Significance: Together the eight blessings constitute a complete",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l27",
+              "vilnaLine": 27
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "eight blessings",
+        "covenant pillars",
+        "Torah",
+        "Avodah",
+        "forgiveness",
+        "Jerusalem",
+        "priests"
+      ],
+      "concepts": {
+        "halachic": [
+          "content of eight blessings",
+          "Yom Kippur communal prayer"
+        ],
+        "theological": [
+          "the blessings as theology: what Israel is and what it prays for"
+        ],
+        "narrative": [
+          "Yom Kippur liturgy",
+          "covenant renewal"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the standard blessing categories",
+        "Understanding why Yom Kippur includes a comprehensive covenantal prayer"
+      ],
+      "misconceptions": [
+        "There are eight blessings but nine categories - some count a ninth blessing for the priests separately"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "name": "eight blessings in order"
+        },
+        {
+          "type": "relationship",
+          "name": "blessings as pillars of Jewish covenant theology"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What do the eight blessings recited after the Yom Kippur Torah reading cover?",
+          "answer": "Torah, Temple service (Avodah), Thanksgiving (Hoda'ah), Forgiveness of sins, the Temple building, Israel, Jerusalem, and the priests - plus a concluding general blessing."
+        }
+      ],
+      "finalRuling": "The eight blessings after the Torah reading cover all major pillars of the Jewish covenant: Torah, service, gratitude, forgiveness, Temple, people, city, and priesthood.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-059a-s04",
+      "lineRange": {
+        "startVilnaLine": 31,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.59a.9"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.59a.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.9",
+        "Yoma.59a.10"
+      ],
+      "display": {
+        "whats": "Which portions the HP reads and rolls; Numbers portion recited from memory",
+        "hint": "The HP reads 'After the death' (Leviticus 16) and 'But on the tenth' (Leviticus 23) from the Torah scroll, then rolls and places it aside to recite 'And on the tenth' (Numbers 29) from memory."
+      },
+      "learning": {
+        "summary": "The Mishnah specifies exactly which Torah portions are read: from the sefer Torah, the HP reads the main Yom Kippur service passage (Leviticus 16, beginning 'After the death of Aaron's sons') and the calendar passage (Leviticus 23:26-32). He then rolls the sefer Torah, places it in his bosom, and recites from memory the additional Yom Kippur Musaf passage (Numbers 29:7-11). Reading a second scroll would require unrolling a new one - recitation by heart is more respectful to the assembly than having them wait.",
+        "ahaMoment": "The HP rolls the Torah out of respect for the congregation - rather than making them wait while a second scroll is unrolled, he recites from memory. Consideration for the assembly shapes the reading format.",
+        "memoryAnchor": "Roll and recite: respect for the congregation's waiting time shapes the very form of the Torah reading.",
+        "openQuestion": "What does it mean that the HP recites the Numbers portion 'by heart'? Is this halachically significant?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "HP reads Leviticus 16 and 23 from the sefer Torah.",
+          "id": "yoma-059a-l31",
+          "label": "Ruling: HP reads Leviticus 16 and 23 from",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l31",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "He then rolls the scroll, places it aside, and recites Numbers 29 from memory.",
+          "id": "yoma-059a-l34",
+          "label": "Ruling: He then rolls the scroll, places it",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l34",
+              "vilnaLine": 34
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Torah reading portions",
+        "Leviticus 16",
+        "Leviticus 23",
+        "Numbers 29",
+        "recitation from memory"
+      ],
+      "concepts": {
+        "halachic": [
+          "specific Torah portions on Yom Kippur",
+          "recitation vs. reading from scroll"
+        ],
+        "theological": [
+          "consideration for the congregation in ritual design"
+        ],
+        "narrative": [
+          "Yom Kippur Torah reading",
+          "respect for assembly"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the three Yom Kippur Torah portions",
+        "Understanding why the Numbers portion is recited from memory"
+      ],
+      "misconceptions": [
+        "The HP reads from the actual Torah scroll for the Leviticus portions - not from memory"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "text",
+          "name": "Leviticus 16 and 23 read from scroll"
+        },
+        {
+          "type": "action",
+          "name": "reciting Numbers 29 from memory after rolling the scroll"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why does the HP recite the Numbers portion of the Yom Kippur reading from memory rather than from the Torah scroll?",
+          "answer": "So the congregation does not have to wait while a second scroll is unrolled. Consideration for the assembly's time shapes the reading format."
+        }
+      ],
+      "finalRuling": "The HP reads Leviticus 16 and 23 from the Torah scroll, then recites Numbers 29 from memory to avoid making the congregation wait for a second scroll.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 5,
+      "id": "yoma-059a-s05",
+      "lineRange": {
+        "startVilnaLine": 37,
+        "endVilnaLine": 39
+      },
+      "lines": [
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.59a.11"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.59a.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.11",
+        "Yoma.59a.12"
+      ],
+      "display": {
+        "whats": "The HP's prayer upon emerging from the Holy of Holies: a brief prayer for Israel",
+        "hint": "After completing the inner service and emerging from the Holy of Holies, the HP offers a brief prayer for Israel. He does not prolong it so that the people are not frightened by his extended absence."
+      },
+      "learning": {
+        "summary": "The Mishnah notes that the HP prays after emerging from the Holy of Holies. He keeps the prayer brief - the people are waiting outside, and a prolonged absence would cause fear that something went wrong inside. The prayer asks for the year to be good for Israel. The Gemara records what specific things the HP prayed for, with different traditions reporting different formulations.",
+        "ahaMoment": "The HP constrains his prayer for psychological reasons: a leader who prays too long makes his people afraid. Even on the holiest occasion, pastoral sensitivity shapes the ritual.",
+        "memoryAnchor": "Brief prayer, deep intent: the HP cannot linger in prayer because the people's anxiety is itself a halachic concern.",
+        "openQuestion": "What is the tension between wanting to pray at length in this sacred moment and the need to reassure the waiting people?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "The HP prays briefly after emerging from the Holy of Holies.",
+          "id": "yoma-059a-l37",
+          "label": "Ruling: The HP prays briefly after emerging from",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l37",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "type": "reason",
+          "speaker": "Gemara",
+          "text": "He keeps it short so the people waiting outside are not frightened.",
+          "id": "yoma-059a-l39",
+          "label": "Reason: He keeps it short so the people",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l39",
+              "vilnaLine": 39
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "HP's prayer",
+        "brief prayer",
+        "emerging from Holy of Holies",
+        "people's anxiety"
+      ],
+      "concepts": {
+        "halachic": [
+          "brevity of the HP's prayer",
+          "pastoral consideration",
+          "anxiety of the congregation"
+        ],
+        "theological": [
+          "leadership responsibility: even prayer must consider the people",
+          "sacred haste as pastoral care"
+        ],
+        "narrative": [
+          "Yom Kippur service",
+          "HP's relationship with the nation"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the people are outside waiting and watching",
+        "Understanding that a prolonged absence would cause fear"
+      ],
+      "misconceptions": [
+        "The HP does pray after emerging - but briefly, not at length"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "HP emerging and praying briefly"
+        },
+        {
+          "type": "action",
+          "name": "brief prayer for Israel's welfare"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why does the HP keep his prayer brief after emerging from the Holy of Holies?",
+          "answer": "So the people waiting outside are not frightened by an extended absence, which they might interpret as something having gone wrong during the inner service."
+        }
+      ],
+      "finalRuling": "The HP prays briefly after emerging from the Holy of Holies so the waiting congregation is not frightened by a prolonged absence.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 6,
+      "id": "yoma-059a-s06",
+      "lineRange": {
+        "startVilnaLine": 41,
+        "endVilnaLine": 41
+      },
+      "lines": [
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.59a.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.13"
+      ],
+      "display": {
+        "whats": "Content of the HP's prayer: specific petitions for the coming year",
+        "hint": "The Gemara records the content of the HP's prayer: petitions for rain, fruitful harvests, a good year, and that Israel's borders remain secure."
+      },
+      "learning": {
+        "summary": "The brief prayer the HP recites after emerging has specific content. The Gemara records traditions about what the HP prayed for: that the year be good for Israel, that rains come at the right time, that the harvests be plentiful, and that Israel's borders be secure. Some sources add that he prayed that the Shechina not depart from Israel. The prayer is a comprehensive petition for Israel's physical and spiritual welfare in the coming year.",
+        "ahaMoment": "The HP's first words upon emerging from the Holy of Holies are a petition for Israel's welfare - the atonement was for them and his first public act is to pray for their future.",
+        "memoryAnchor": "Emerging from before God, the HP prays for rain, peace, and security - the year begins at Yom Kippur.",
+        "openQuestion": "Why does the HP pray for rain specifically at this moment? What is the connection to Yom Kippur?"
+      },
+      "argumentFlow": [
+        {
+          "type": "content",
+          "speaker": "Mishnah/Gemara",
+          "text": "The HP's prayer includes: good year, rain at its time, fruitful harvests, secure borders, and divine presence with Israel.",
+          "id": "yoma-059a-l41",
+          "label": "Content: The HP's prayer includes: good year, rain",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l41",
+              "vilnaLine": 41
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "prayer content",
+        "rain",
+        "good year",
+        "HP's petitions",
+        "emerging prayer"
+      ],
+      "concepts": {
+        "halachic": [
+          "specific content of HP's prayer",
+          "petitions for Israel's welfare"
+        ],
+        "theological": [
+          "the HP as national intercessor",
+          "prayer as national mandate"
+        ],
+        "narrative": [
+          "Yom Kippur prayer",
+          "national petition"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the prayer is brief but comprehensive",
+        "Understanding the connection between Yom Kippur and the agricultural year"
+      ],
+      "misconceptions": [
+        "The rain prayer at Yom Kippur is different from Shemini Atzeret - here it's part of the HP's personal petition"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "HP's petition for rain, harvest, and secure borders"
+        },
+        {
+          "type": "person",
+          "name": "HP as national intercessor"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What does the HP pray for immediately after emerging from the Holy of Holies?",
+          "answer": "He prays briefly for Israel's welfare: a good year, timely rains, fruitful harvests, and secure borders - a comprehensive petition for national wellbeing in the coming year."
+        }
+      ],
+      "finalRuling": "The HP's brief prayer petitions for a good year, timely rains, fruitful harvests, and national security for Israel.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 7,
+      "id": "yoma-059a-s07",
+      "lineRange": {
+        "startVilnaLine": 42,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.59a.14"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.59a.15"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.59a.16"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.59a.17"
+        },
+        {
+          "vilnaLine": 49,
+          "sefariaRef": "Yoma.59a.18"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.14",
+        "Yoma.59a.15",
+        "Yoma.59a.16",
+        "Yoma.59a.17",
+        "Yoma.59a.18"
+      ],
+      "display": {
+        "whats": "The HP accompanies the community home; celebration after the service is completed",
+        "hint": "After completing all services, the HP accompanies people home in a joyous procession. He and his family celebrate his safe emergence, making a feast for friends and relatives."
+      },
+      "learning": {
+        "summary": "After the public service concludes, the HP is accompanied home by a celebratory procession. The Mishnah describes this as a time of joy and celebration. The HP's family hosts a feast for friends because he emerged safely from the Holy of Holies. The emergence from the most dangerous ritual encounter (alone before the Ark on the holiest day) was treated like a personal miracle - surviving intact warranted celebration. This feast was held the day after Yom Kippur.",
+        "ahaMoment": "The post-Yom Kippur celebration is not only about forgiveness - it is about the HP having survived his encounter with the divine. His safe emergence is itself a cause for gratitude.",
+        "memoryAnchor": "A feast after Yom Kippur: the HP's family celebrates his safe return from the most dangerous moment a human can face.",
+        "openQuestion": "What does celebrating the HP's safe emergence reveal about the Jewish understanding of encountering the divine?"
+      },
+      "argumentFlow": [
+        {
+          "type": "description",
+          "speaker": "Mishnah",
+          "text": "The HP is accompanied home in a joyous procession after completing all services.",
+          "id": "yoma-059a-l42",
+          "label": "Description: The HP is accompanied home in a",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l42",
+              "vilnaLine": 42
+            }
+          ]
+        },
+        {
+          "type": "detail",
+          "speaker": "Mishnah",
+          "text": "He makes a feast for his friends because he emerged safely from the Holy of Holies.",
+          "id": "yoma-059a-l44",
+          "label": "Detail: He makes a feast for his friends",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l44",
+              "vilnaLine": 44
+            }
+          ]
+        },
+        {
+          "type": "significance",
+          "speaker": "Gemara",
+          "text": "The emergence alive from the Holy of Holies was treated as a personal miracle worthy of celebration.",
+          "id": "yoma-059a-l48",
+          "label": "Significance: The emergence alive from the Holy of",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l48",
+              "vilnaLine": 48
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "HP accompanies home",
+        "celebration",
+        "feast after Yom Kippur",
+        "safe emergence",
+        "procession"
+      ],
+      "concepts": {
+        "halachic": [
+          "post-Yom Kippur feast",
+          "celebrating safe emergence"
+        ],
+        "theological": [
+          "approaching the divine as a dangerous encounter",
+          "survival as cause for gratitude"
+        ],
+        "narrative": [
+          "Yom Kippur aftermath",
+          "personal celebration"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing that entering the Holy of Holies was genuinely dangerous",
+        "Understanding the feast is day after Yom Kippur, not on Yom Kippur itself"
+      ],
+      "misconceptions": [
+        "The feast is not a Yom Kippur celebration per se - it celebrates the HP's survival"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "HP in joyous procession home"
+        },
+        {
+          "type": "action",
+          "name": "feast for family and friends after Yom Kippur"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why does the HP's family make a feast after Yom Kippur?",
+          "answer": "Because he emerged safely from the Holy of Holies - entering the most sacred space alone was genuinely dangerous, and surviving intact was a cause for personal celebration and gratitude."
+        }
+      ],
+      "finalRuling": "The HP and his family celebrate his safe emergence from the Holy of Holies with a feast for friends and relatives after Yom Kippur.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 8,
+      "id": "yoma-059a-s08",
+      "lineRange": {
+        "startVilnaLine": 51,
+        "endVilnaLine": 51
+      },
+      "lines": [
+        {
+          "vilnaLine": 51,
+          "sefariaRef": "Yoma.59a.19"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.59a.19"
+      ],
+      "display": {
+        "whats": "The fifteen services performed in white garments; summary of the Yom Kippur service structure",
+        "hint": "The Gemara summarizes the services performed in white linen (the inner services) and those in golden garments (outer services), establishing the complete structure of the HP's Yom Kippur day."
+      },
+      "learning": {
+        "summary": "The Gemara provides a comprehensive summary of the Yom Kippur service structure: the services performed in white linen garments (entering the Holy of Holies for incense, blood, and fire pan retrieval) and those in golden garments (outer services, scapegoat, readings, and personal offerings). This summary makes clear that the HP changes garments multiple times: white for inner services, gold for outer ones, white again for the final Holy of Holies entry, and gold again afterward.",
+        "ahaMoment": "The garment changes are not just symbolic - they mark structural transitions between the inner and outer realms. White is for approaching God directly; gold is for serving the community.",
+        "memoryAnchor": "White in, gold out: the garments map the HP's movement between the divine presence and the human community.",
+        "openQuestion": "What does the repeated alternation between white and gold garments teach about the relationship between inner and outer service?"
+      },
+      "argumentFlow": [
+        {
+          "type": "summary",
+          "speaker": "Gemara",
+          "text": "Summary of all Yom Kippur services performed in white vs. golden garments.",
+          "id": "yoma-059a-l51",
+          "label": "Summary: Summary of all Yom Kippur services performed",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-059a-l51",
+              "vilnaLine": 51
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "white garments",
+        "golden garments",
+        "garment changes",
+        "service summary",
+        "inner vs outer"
+      ],
+      "concepts": {
+        "halachic": [
+          "Yom Kippur service summary",
+          "white and golden garment services"
+        ],
+        "theological": [
+          "garments as markers of inner vs. outer sacred engagement"
+        ],
+        "narrative": [
+          "Yom Kippur service structure",
+          "garment symbolism"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing which services require white vs. gold garments",
+        "Knowing how many times the HP changes garments"
+      ],
+      "misconceptions": [
+        "The HP changes garments four times on Yom Kippur: white, gold, white again, then gold again"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "white linen services vs. golden garment services"
+        },
+        {
+          "type": "timeline",
+          "name": "four garment changes across the Yom Kippur day"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "How many times does the HP change garments on Yom Kippur and why?",
+          "answer": "Four times: he begins in golden garments for morning service, changes to white for inner services, changes back to gold for outer services and reading, then changes to white for the final Holy of Holies entry, then gold again for the closing services."
+        }
+      ],
+      "finalRuling": "The HP changes garments four times on Yom Kippur - white for inner services (approaching God directly), gold for outer services (before the community).",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "The HP carries out the scapegoat service and the blood services in a fixed order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The services that come before the scapegoat and those that come after.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "This is the order of the Yom Kippur service as the Mishnah describes.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "After the blood services: the HP's reading and the community's prayer.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The HP reads the Torah to the assembled community.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "He reads the Yom Kippur portions from Leviticus.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "After reading from the sefer Torah, he rolls it and places it in his bosom.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "He then reads the additional portions by heart from Numbers.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "He recites eight blessings after the reading.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The eight blessings: Torah, Temple service, Thanksgiving, Forgiveness of sins, Temple, Israel, Jerusalem, priests, and the general blessing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "He recites these in the Temple courtyard before the assembled people.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The community prostrates themselves when they hear the Divine Name in the blessings.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The HP then makes additional prayers on behalf of Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "His prayer includes petitions for rain, prosperity, and the continuity of the Temple.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The HP's prayer is brief: he does not stay long so the people are not frightened.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "A long absence in the Holy of Holies would frighten the people that something went wrong.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "But in the courtyard during the Torah reading, there is no such concern.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The assembled people see him and know he is safe and performing the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Eight blessings correspond to different aspects of the relationship between Israel and God.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Torah study, Temple service, and forgiveness are the three pillars.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Additional blessings for the physical and spiritual welfare of the nation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The community's full participation: prostration, prayer, and attentive listening.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The reading is a public act of covenantal renewal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The HP reading to Israel mirrors the original Sinai covenant.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Moses read the Torah to Israel; the HP reads it to them on Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The Yom Kippur reading reconnects Israel to the covenant of Sinai.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "On the day when Israel's relationship with God is renewed through atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The reading and blessings are the communal bookend to the personal blood service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "First: the HP atones privately inside. Then: he leads the nation publicly outside.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The two phases of Yom Kippur: inner and outer, private and communal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "After the reading: the HP changes into white garments again.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "He returns to the Holy of Holies to retrieve the fire pan and incense spoon.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "This is the last entry to the Holy of Holies on Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "He brings out the fire pan left from the incense burning.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Then returns to complete additional outer services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The scapegoat: if it died before reaching the cliff, the service may be valid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "If the guide died en route: another may take over.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The service must be completed; it cannot be left incomplete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "A scapegoat that ran away before reaching the cliff is replaced.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The next year's pair of goats replaces it if necessary.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The community does not require notification about these contingencies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The HP handles these situations according to the established halachot.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "After the scapegoat is dispatched and the services are complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The HP reads Torah and the nation prays together.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The service is communal and complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Neither the blood service alone nor the communal prayer alone suffices.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Both together constitute the full Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "The HP is the axis - he connects the innermost service with the communal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "His body moves between the most sacred and the public courtyard.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "He carries the atonement from the presence of God to the presence of the people.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "This movement from inner to outer, from private to communal, is itself a teaching.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Atonement is not complete until it is brought back to the community.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "The blood service atones; the reading and blessings celebrate and reinforce.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "The nation hears about their forgiveness from the mouth of the HP himself.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "He who sought the forgiveness announces its arrival.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "This is the theological arc of Yom Kippur: petition, atonement, proclamation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "The entire nation participates - by fasting, praying, and hearing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The HP acts; the nation receives and responds.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Together, this constitutes the full Yom Kippur experience.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "After the day: the HP celebrates privately with his family.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "He made a feast for his friends when he came out safely.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "The emergence from the Holy of Holies was the most dangerous moment.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Surviving it intact was cause for private celebration.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "His family celebrates the day after Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "en": "The HP treated the day of his exit like a personal festival.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "en": "The relief and joy of emerging safely from the most sacred encounter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "en": "The HP's emergence is also a sign for Israel: the service was accepted.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 68,
+      "en": "If the HP came out joyful, it was a sign of favorable reception.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 69,
+      "en": "Tradition preserved various interpretations of what favorable emergence looked like.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

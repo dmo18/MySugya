@@ -1,0 +1,939 @@
+{
+  "canonicalRef": "Yoma 78b",
+  "summary": "Tractate Yoma daf 78b covers: Cork shoe on Yom Kippur: is it a real shoe? Permitted or forbidden?; Young children permitted to wear shoes on Yom Kippur; A king wears shoes even on Yom Kippur for honor; dispute about kings; Eating a date-bulk on YK is prohibited; one who eats this amount is liable.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-078b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 20
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.78b.1"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.78b.2"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.78b.3"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.78b.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.78b.1",
+        "Yoma.78b.2",
+        "Yoma.78b.3",
+        "Yoma.78b.4"
+      ],
+      "display": {
+        "whats": "Cork shoe on Yom Kippur: is it a real shoe? Permitted or forbidden?",
+        "hint": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether it falls under the prohibition or is permitted."
+      },
+      "learning": {
+        "summary": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether it falls under the prohibition or is permitted.",
+        "ahaMoment": "The shoe prohibition targets protection and comfort - a cork sandal's minimal protection puts it in a gray area that the Gemara must resolve.",
+        "memoryAnchor": "Cork sandal: minimal shoe, maximum question - protection matters more than material.",
+        "openQuestion": "What is the deeper significance of the ruling about cork shoe on yom kippur: is it a real shoe? permitted or for?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Cork and reed sandals are permitted on Yom Kippur",
+          "speaker": "Gemara",
+          "text": "Rabbi Yitzchak bar Nachmani testified that Rabbi Yehoshua ben Levi went out in cork sandals on Yom Kippur and ruled them no different from a public fast day, where they are also permitted. Other Sages confirm the practice: Rav Yehuda, Abaye, Rava, and Rabba bar Rav Huna each went out in non-leather footwear or wrapped their feet, none counting as a forbidden shoe.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Abaye: the wooden prosthesis shows comfort is forbidden",
+          "speaker": "Gemara",
+          "text": "Rami bar Chama objects from the wooden prosthetic leg, which Rabbi Meir permits on Shabbat but which all agree is forbidden on Yom Kippur. Abaye explains the Yom Kippur ban is due to the comforting rags inside the prosthesis, suggesting that any comfort, not only a shoe, is forbidden.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l10",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "objection",
+          "label": "Rava refutes Abaye: only shoes, not comfort generally",
+          "speaker": "Gemara",
+          "text": "Rava rejects Abaye: rags do not turn a non-shoe into a shoe, and comforts other than wearing shoes are not forbidden on Yom Kippur. Rabba bar Rav Huna's wrapped feet prove rags are permitted, and the baraita's later clause about a receptacle for rags shows the first clause did not involve rags at all.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l14",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "Rava's own account of the prosthesis dispute",
+          "speaker": "Gemara",
+          "text": "Rava concludes that all agree a prosthetic leg is a shoe; the Shabbat dispute is only whether to decree against wearing it lest it slip off and be carried four cubits. Rabbi Yosei decrees such a prohibition, Rabbi Meir does not, but this has nothing to do with comfort on Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l20",
+              "vilnaLine": 20
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "cork sandal",
+        "shoe prohibition",
+        "YK",
+        "material definition"
+      ],
+      "concepts": {
+        "halachic": [
+          "cork sandal",
+          "shoe prohibition"
+        ],
+        "theological": [
+          "The shoe prohibition targets protection and comfort - a cork sandal's minimal pr"
+        ],
+        "narrative": [
+          "Cork shoe on Yom Kippur: is it a real shoe? Permitted or for"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of cork sandal context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners conclude from the cork and reed sandals that the Yom Kippur prohibition bans only leather shoes.",
+          "correction": "Rava frames the rule as targeting whatever functions as a shoe, while permitting other comforts like wrapped feet. Cork and reed sandals are permitted not because they are non-leather but because they do not provide the comfort of a real shoe."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Cork shoe on Yom Kippur: is it a real shoe? Permit"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is Abaye's argument that the Yom Kippur ban on a wooden prosthesis is about comfort, and how does Rava refute it?",
+          "a": "Abaye says the prosthesis is forbidden because of the comforting rags inside it, implying comfort itself is banned. Rava refutes this: rags do not make a non-shoe into a shoe, only shoes are forbidden, and Rabba bar Rav Huna's permitted wrapped feet plus the baraita's structure show the first clause had no rags at all."
+        },
+        {
+          "q": "According to Rava, what is the actual subject of the Shabbat dispute over the prosthetic leg?",
+          "a": "All agree the prosthesis counts as a shoe. The dispute is only whether to decree against wearing it on Shabbat lest it slip off and one carry it four cubits in public; Rabbi Yosei makes the decree, Rabbi Meir does not."
+        }
+      ],
+      "finalRuling": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether ",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-078b-s02",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 31
+      },
+      "lines": [
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.78b.5"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.78b.6"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.78b.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.78b.5",
+        "Yoma.78b.6",
+        "Yoma.78b.7"
+      ],
+      "display": {
+        "whats": "Young children permitted to wear shoes on Yom Kippur",
+        "hint": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them."
+      },
+      "learning": {
+        "summary": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
+        "ahaMoment": "Children's exemption from YK afflictions is not just leniency - it reflects that affliction has a purpose (atonement) that requires adult capacity.",
+        "memoryAnchor": "Children in shoes on YK: affliction requires adult capacity for atonement.",
+        "openQuestion": "What is the deeper significance of the ruling about young children permitted to wear shoes on yom kippur?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Children may do everything except wear shoes",
+          "speaker": "Mishnah",
+          "text": "A baraita permits young children to do all the otherwise prohibited Yom Kippur acts except wearing shoes. The Gemara asks why shoes differ: observers seeing a child in shoes will assume an adult put them on for him, which would imply adult transgression, whereas with bathing or oil one could assume it was done the day before.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l24",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "distinction",
+          "label": "Why shoes cannot be attributed to the day before",
+          "speaker": "Mishnah",
+          "text": "The Gemara asks why shoes too could not be assumed to have been put on yesterday, and answers that a child would not have slept in shoes overnight, as Shmuel taught that sleeping in shoes invites a taste of death, so shoes on a child must have been put on that day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l28",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "distinction",
+          "label": "Acts needed for growth versus those that are not",
+          "speaker": "Mishnah",
+          "text": "Since the mishna permits children's shoes ab initio, the Gemara reinterprets: the Sages decreed only against acts not needed for the child's growth, while permitting those that are. Abaye's mother taught that a child's growth requires warm water, oil, then egg with kutacha, and later vessels to break for enjoyment, as Rabba provided cracked pots.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l31",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "children",
+        "YK exceptions",
+        "shoe prohibition"
+      ],
+      "concepts": {
+        "halachic": [
+          "children",
+          "YK exceptions"
+        ],
+        "theological": [
+          "Children's exemption from YK afflictions is not just leniency - it reflects that"
+        ],
+        "narrative": [
+          "Young children permitted to wear shoes on Yom Kippur"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of children context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners think children are simply exempt from all Yom Kippur restrictions.",
+          "correction": "The exemptions are calibrated to the child's needs and to how onlookers will read the act. Shoes are treated differently because they signal same-day adult involvement, and the final rule turns on whether an act is necessary for the child's growth."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Young children permitted to wear shoes on Yom Kipp"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is wearing shoes singled out as forbidden for children when other Yom Kippur acts are permitted to them?",
+          "a": "An onlooker seeing a child in shoes assumes an adult put them on that day, implying adult wrongdoing. With bathing or oil one could assume it was done the previous day, but a child would not have slept in shoes overnight, so shoes must have been put on during Yom Kippur itself."
+        },
+        {
+          "q": "How does the Gemara reconcile permitting children's shoes ab initio with the concern about onlookers?",
+          "a": "It reinterprets the rule: the Sages decreed only against acts not needed for a child's growth, while permitting those that are. Footwear and care that support the child's development are allowed, so the onlooker concern does not bar what the child genuinely needs."
+        }
+      ],
+      "finalRuling": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-078b-s03",
+      "lineRange": {
+        "startVilnaLine": 37,
+        "endVilnaLine": 44
+      },
+      "lines": [
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.78b.8"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.78b.9"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.78b.10"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.78b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.78b.8",
+        "Yoma.78b.9",
+        "Yoma.78b.10",
+        "Yoma.78b.11"
+      ],
+      "display": {
+        "whats": "A king wears shoes even on Yom Kippur for honor; dispute about kings",
+        "hint": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some."
+      },
+      "learning": {
+        "summary": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some.",
+        "ahaMoment": "Royal dignity is itself a religious value - even on YK, a king's honor has its own halachic weight.",
+        "memoryAnchor": "King in shoes: royal dignity is a religious category on YK.",
+        "openQuestion": "What is the deeper significance of the ruling about a king wears shoes even on yom kippur for honor; dispute abo?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "dispute",
+          "label": "Who permits the king and bride to wash their faces?",
+          "speaker": "Gemara",
+          "text": "The mishna's view that a king and bride may wash their faces is identified with Rabbi Chananya ben Teradyon in the name of Rabbi Eliezer, against the Rabbis who forbid it. The same dispute extends to whether a new mother may wear shoes on Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l37",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Why a king and a bride are exceptions",
+          "speaker": "Gemara",
+          "text": "Rabbi Eliezer's reasons: a king washes his face because 'your eyes shall see the king in his beauty,' he must look regal; a bride washes hers so she not appear repulsive to her new husband. Rav learns from a baraita that a woman is considered a bride for the first thirty days, when her appearance matters most.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "application",
+          "label": "A new mother may wear shoes against the cold",
+          "speaker": "Gemara",
+          "text": "A new mother may wear shoes on Yom Kippur because the cold could make her ill in her weakened state after childbirth, so her health overrides the prohibition on wearing shoes.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l44",
+              "vilnaLine": 44
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "application",
+          "label": "Shoes permitted where scorpions pose a danger",
+          "speaker": "Gemara",
+          "text": "Shmuel rules that one who fears scorpions while barefoot on Yom Kippur may wear shoes, since one need not place himself in danger in order to keep the affliction of going without shoes.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l44",
+              "vilnaLine": 44
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "king",
+        "royal dignity",
+        "YK",
+        "shoes",
+        "honor"
+      ],
+      "concepts": {
+        "halachic": [
+          "king",
+          "royal dignity"
+        ],
+        "theological": [
+          "Royal dignity is itself a religious value - even on YK, a king's honor has its o"
+        ],
+        "narrative": [
+          "A king wears shoes even on Yom Kippur for honor; dispute abo"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of king context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners assume the bare-feet and face-washing afflictions admit no exceptions.",
+          "correction": "The Gemara carves out exceptions grounded in dignity (king, bride) and in danger to health (new mother, scorpions), showing that the afflictions yield where appearance is essential to a role or where observance would threaten wellbeing."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "A king wears shoes even on Yom Kippur for honor; d"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What are the distinct reasons a king and a bride are permitted to wash their faces on Yom Kippur?",
+          "a": "A king must appear regal to his nation, as 'your eyes shall see the king in his beauty.' A bride washes so she will not appear repulsive to her husband at the start of their marriage, when her appearance is most critical, which the Gemara fixes at the first thirty days."
+        },
+        {
+          "q": "On what principle may a new mother or someone fearing scorpions wear shoes on Yom Kippur?",
+          "a": "That one need not endanger himself to observe the affliction. A new mother is weak and could fall ill from the cold, and a barefoot person facing scorpions is at risk, so in both cases health and safety override the prohibition on wearing shoes."
+        }
+      ],
+      "finalRuling": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only s",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-078b-s04",
+      "lineRange": {
+        "startVilnaLine": 45,
+        "endVilnaLine": 45
+      },
+      "lines": [
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.78b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.78b.12"
+      ],
+      "display": {
+        "whats": "Eating a date-bulk on YK is prohibited; one who eats this amount is liable",
+        "hint": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not incur a sin offering."
+      },
+      "learning": {
+        "summary": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not incur a sin offering.",
+        "ahaMoment": "The measure of liability (shiur) on YK is a date-bulk, not an egg-bulk - Yom Kippur has its own distinct eating measure separate from Shabbat or other holidays.",
+        "memoryAnchor": "Date-bulk: YK has its own eating measure, distinct from all other days.",
+        "openQuestion": "What is the deeper significance of the ruling about eating a date-bulk on yk is prohibited; one who eats this am?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "The measure of eating that incurs liability",
+          "speaker": "Mishnah",
+          "text": "The mishna fixes liability for eating on Yom Kippur at the volume of a large date. Rav Pappa opens a question about this measure, which the Gemara takes up in full on the following page.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-078b-l45",
+              "vilnaLine": 45
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "date-bulk",
+        "eating measure",
+        "YK liability",
+        "kotevet"
+      ],
+      "concepts": {
+        "halachic": [
+          "date-bulk",
+          "eating measure"
+        ],
+        "theological": [
+          "The measure of liability (shiur) on YK is a date-bulk, not an egg-bulk - Yom Kip"
+        ],
+        "narrative": [
+          "Eating a date-bulk on YK is prohibited; one who eats this am"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of date-bulk context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners assume 'the volume of a large date' is a self-evident measure needing no analysis.",
+          "correction": "Rav Pappa's question shows the measure is genuinely ambiguous, raising whether it includes the pit, which is why the Gemara devotes extended discussion to pinning it down."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Eating a date-bulk on YK is prohibited; one who ea"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What measure of food makes one liable for eating on Yom Kippur, and what does Rav Pappa probe about it?",
+          "a": "The mishna sets liability at the volume of a large date. Rav Pappa opens the question of how exactly to measure it, for instance whether the date is counted with or without its pit, which the Gemara pursues on the next page."
+        }
+      ],
+      "finalRuling": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not i",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "שעם. מין גומא שקורין פוי\"י: בתענית צבור. הנגזר על הגשמים",
+      "en": "Rashi: cork sandal on Yom Kippur - minimal protection raises the definitional question.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "דתנן במסכת תענית (דף יב:) אסור בנעילת הסנדל: בדהיטני.",
+      "en": "Rashi: the definition of a sandal for purposes of the YK prohibition.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "מין שעם: בדהוצי. סנדל של כפות תמרים: בדיבלי. של עשבים:",
+      "en": "Rashi: children are exempt from the five afflictions on Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "יוצא בקב שלו. בשבת קב אשקצ\"א: ורבי יוסי אוסר.  קסבר",
+      "en": "Rashi: children may wear shoes since the affliction rule does not apply to them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "לאו מנעל הוא הואיל ואינו שוה בכל",
+      "en": "Rashi: a king may wear shoes on Yom Kippur for the dignity of royalty.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "ואפילו הכי שוין שאסור לצאת בו ביום",
+      "en": "Rashi: the principle of kevod hamelech - royal dignity as a halachic category.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "הכפורים אלמא אף על גב דלרבי",
+      "en": "Rashi: the date-bulk measure for Yom Kippur eating liability.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "יוסי לאו מנעל הוא אפי' הכי אסיר",
+      "en": "Rashi: the kotevet (large date) is the specific measure for YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "והוא הדין לשל שעם: כתיתין.",
+      "en": "Rashi explains the opening discussion of this topic on 78b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "חתיכות בגדים קטנות שהם נוחות",
+      "en": "Rashi explains the opening discussion of this topic on 78b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "לו לסמוך שוקו עליהם: טמא.",
+      "en": "Rashi explains the opening discussion of this topic on 78b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "מקבל טומאה דלאו פשוטי כלי עץ",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "הוא: מנעל הוא. הלכך ביוה\"כ",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "אסור אבל דהיטני ודהוצא לאו מנעל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "נינהו: מותרין בכולן. בכל הני",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "דמתניתין אכילה ושתיה ורחיצה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "וסיכה: אינשי עבדו ליה. גדולים",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "עשו לו והתורה הזהירה גדולים על",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "הקטנים שלא יעשו להם בידים דבר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "האסור כדאמרינן במסכת יבמות",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "(דף קיד.) לא תאכלום לא תאכילום",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "להזהיר גדולים על הקטנים: לא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "אפשר מאתמול. ויהא ישן כל הלילה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "והם ברגליו: הא מותרין לכתחלה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "קתני. שאם בא לימלך אומרים לו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "האכילהו ורחוץ אותו והאי שפיר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "ידע דהיום עשאו לו: מיא חמימי.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "לרחיצה: ומשחא. לסוך: ביעתא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "בכותחא. ביצים בכותח: תבורי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "מאני. להפקיר לו כלים לשבר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "ולמלאות תאותו: מאני גזיזי דפחרא.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "כלים סדוקים של חרם בדמים קלים:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "אין מונעין תכשיטין וכו'. ברייתא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "היא ומייתינן לה בריש בתולה",
+      "en": "Rashi: this is the baraita we bring at the start of 'A virgin is married' in Ketubot:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "נישאת בכתובות הרי שהיה טבחו",
+      "en": "'If one's animal was slaughtered",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "טבוח ויינו מזוג ומת אביו של חתן או",
+      "en": "and his wine mixed and ready, and the father of the groom or",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "אמה של כלה מכניסין את המת לחדר",
+      "en": "the mother of the bride died, they bring the corpse into a chamber",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "ואת החתן ואת הכלה לחופה ובועל",
+      "en": "and the groom and bride to the chuppah, and he performs",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "בעילת מצוה ופורש ואחר כך קוברין",
+      "en": "the marital act, withdraws, and only afterward they bury",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "את המת ואין מונעין תכשיטין מן",
+      "en": "the corpse; and they do not withhold ornaments from",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "הכלה מחמת האבל כל שלשים יום",
+      "en": "the bride on account of mourning for all thirty days' -",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "אלמא כל שלשים בעי' נוי: אם מחמת",
+      "en": "Rashi: this proves that adornment is required for all thirty days. 'If because of",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "סכנת עקרב. מקום שיש לחוש",
+      "en": "danger from a scorpion' - in a place where there is concern",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "לעקרבים מותר כל אדם לנעול:",
+      "en": "for scorpions, any person is permitted to wear the sandal.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "בגרעינתה",
+      "en": "Rashi begins the next comment ('be-gar'inata' - with its pit), opening the following passage.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

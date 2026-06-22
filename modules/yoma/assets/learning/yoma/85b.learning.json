@@ -1,0 +1,1113 @@
+{
+  "canonicalRef": "Yoma 85b",
+  "summary": "Tractate Yoma daf 85b covers: 'Live by them' (Lev 18:5): not die by them; derivation for saving life on YK; Mishna: four atonement mechanisms; sin-offering, repentance, death+YK; Death and Yom Kippur together atone for repented sins; Repentance itself atones for some categories of sin.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-085b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 21
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.85b.1"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.85b.2"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.85b.3"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.85b.4"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.85b.5"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.85b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85b.1",
+        "Yoma.85b.2",
+        "Yoma.85b.3",
+        "Yoma.85b.4",
+        "Yoma.85b.5",
+        "Yoma.85b.6"
+      ],
+      "display": {
+        "whats": "'Live by them' (Lev 18:5): not die by them; derivation for saving life on YK",
+        "hint": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating Shabbat and YK to save life."
+      },
+      "learning": {
+        "summary": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating Shabbat and YK to save life.",
+        "ahaMoment": "'Live by them, not die by them': the Torah's commandments are instruments of life. When following a commandment would cause death, the commandment itself says to stay alive.",
+        "memoryAnchor": "Live by them, not die by them: the Torah sustains life, it does not sacrifice it.",
+        "openQuestion": "What is the deeper significance of the ruling about 'live by them' (lev 18:5): not die by them; derivation for s?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "proof",
+          "label": "Rabbi Akiva completed: interrupt the avoda to save a life",
+          "speaker": "Rabbi Akiva",
+          "text": "Completing Rabbi Akiva's proof: a priest mid-service is not taken down to be executed, but he IS taken down even from the altar to save a life - e.g. to testify for someone facing execution. If uncertain testimony interrupts the Temple service (which itself overrides Shabbat), then a fortiori saving a life overrides Shabbat.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "proof",
+          "label": "Rabbi Elazar ben Azarya: kal vachomer from circumcision",
+          "speaker": "Rabbi Elazar ben Azarya",
+          "text": "Circumcision, which perfects just one of the body's 248 limbs, overrides Shabbat. All the more so saving the whole body - which is bound up in all the mitzvot - overrides Shabbat.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l07",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "proof",
+          "label": "More tannaim: 'but' and 'sacred to you'",
+          "speaker": "R. Yosei b'R. Yehuda / R. Yonatan ben Yosef",
+          "text": "Rabbi Yosei son of Rabbi Yehuda reads 'but (akh) keep My Shabbatot' (Exodus 31:13) - the limiting 'akh' signals there are times to desecrate it, namely to save a life. Rabbi Yonatan ben Yosef reads 'it is sacred to you' (Exodus 31:14) - Shabbat is handed to you, you are not handed over to it to die.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "proof",
+          "label": "R. Shimon ben Menasya and Shmuel's superior verse",
+          "speaker": "R. Shimon ben Menasya / Shmuel",
+          "text": "Rabbi Shimon ben Menasya reads 'the children of Israel shall keep Shabbat' (Exodus 31:16): desecrate one Shabbat for him so he may keep many. Shmuel says his proof beats them all: 'which a person shall do and live by them' (Leviticus 18:5) - and not die by them. One must never die through performing mitzvot.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l15",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "challenge",
+          "label": "Rava: all proofs fail except Shmuel's",
+          "speaker": "Rava",
+          "text": "Rava observes that every proof has a refutation except Shmuel's. Rabbi Yishmael's burglar case can be explained by Rava's own principle - a person being robbed will fight back, so the burglar is presumed ready to kill, making it CERTAIN danger. Rabbi Akiva's testimony case can follow Abaye - rabbis first verify the testimony is substantive, again CERTAIN danger. So these prove overriding Shabbat only for certain danger.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "resolution",
+          "label": "Only 'live by them' covers doubtful danger",
+          "speaker": "Gemara",
+          "text": "All the other proofs establish only that certain danger to life overrides Shabbat; none reaches the case of doubtful danger - which is the actual question. Shmuel's 'and live by them' has no refutation: it bars even putting a life in possible danger to keep mitzvot. Ravina (or Rav Nachman bar Yitzchak) sums up: one sharp pepper outweighs a whole basket of squash.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l21",
+              "vilnaLine": 21
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "live by them",
+        "Lev 18:5",
+        "saving life",
+        "YK override",
+        "scriptural derivation"
+      ],
+      "concepts": {
+        "halachic": [
+          "live by them",
+          "Lev 18:5"
+        ],
+        "theological": [
+          "'Live by them, not die by them': the Torah's commandments are instruments of lif"
+        ],
+        "narrative": [
+          "'Live by them' (Lev 18:5): not die by them; derivation for s"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of live by them context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any of these scriptural proofs suffices to permit Shabbat desecration for any life-threatening doubt.",
+          "correction": "Only Shmuel's 'and live by them' covers doubtful danger. The others prove overriding Shabbat only for certain danger, which is why Rava ranks Shmuel's proof alone as irrefutable.",
+          "correctedByStepId": "step-06"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "'Live by them' (Lev 18:5): not die by them; deriva"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why, according to Rava, do all the proofs except Shmuel's fail?",
+          "a": "Each one only establishes that saving a life from certain danger overrides Shabbat. The real question is doubtful danger (safek pikuach nefesh), and only Shmuel's 'and live by them' (Leviticus 18:5) reaches it, since it forbids even risking a life to keep mitzvot."
+        },
+        {
+          "q": "What does 'and live by them' (Leviticus 18:5) prove that the other verses do not?",
+          "a": "That one must not even place a life in possible danger to fulfill mitzvot - 'live by them, and not die by them.' This covers safek pikuach nefesh, the case the kal vachomer proofs cannot reach."
+        },
+        {
+          "q": "How does Rava reinterpret the burglar case to show it only proves certain danger?",
+          "a": "A person being robbed will not stand by while his money is taken, so the burglar anticipates resistance and is presumed ready to kill. The threat is therefore certain, not doubtful, so the case cannot prove that doubtful danger overrides Shabbat."
+        }
+      ],
+      "finalRuling": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-085b-s02",
+      "lineRange": {
+        "startVilnaLine": 23,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.85b.7"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.85b.8"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.85b.9"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.85b.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85b.7",
+        "Yoma.85b.8",
+        "Yoma.85b.9",
+        "Yoma.85b.10"
+      ],
+      "display": {
+        "whats": "Mishna: four atonement mechanisms; sin-offering, repentance, death+YK",
+        "hint": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each atones for different categories."
+      },
+      "learning": {
+        "summary": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each atones for different categories.",
+        "ahaMoment": "Four mechanisms, not one: atonement is not a single formula but a graduated system calibrated to the severity and nature of the sin.",
+        "memoryAnchor": "Four mechanisms: know which atonement matches which sin category.",
+        "openQuestion": "What is the deeper significance of the ruling about mishna: four atonement mechanisms; sin-offering, repentance,?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Mishnah: the means of atonement",
+          "speaker": "Mishnah",
+          "text": "The Mishnah maps how atonement works. A sin-offering and a definite guilt-offering atone outright. Death and Yom Kippur atone together with repentance. Repentance alone atones for lighter sins (positive and negative mitzvot) and suspends the punishment of severe sins until Yom Kippur completes the atonement. One who plans 'I will sin and repent' is denied the chance to repent; one who says 'I will sin and Yom Kippur will atone' is not atoned by Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l23",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "R. Elazar ben Azarya and R. Akiva on what purifies",
+          "speaker": "R. Elazar ben Azarya / R. Akiva",
+          "text": "Rabbi Elazar ben Azarya derives from 'before the Lord you shall be cleansed' (Leviticus 16:30) that Yom Kippur atones for sins between a person and God, but for sins against another person it atones only after one appeases the victim. Rabbi Akiva exclaims how fortunate Israel is: their Father in Heaven purifies them - 'I will sprinkle pure water on you' and 'the mikveh of Israel is God.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l28",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "analysis",
+          "label": "Why 'definite' guilt-offering - what about the doubtful one?",
+          "speaker": "Gemara",
+          "text": "The Mishnah says a DEFINITE guilt-offering atones, implying a doubtful guilt-offering (asham talui) does not - yet atonement is written about it too. The Gemara answers: definite offerings give complete atonement; the doubtful guilt-offering gives only temporary protection until the person learns whether he actually sinned and brings the proper offering.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l33",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "A second distinction: Yom Kippur and the doubtful offering",
+          "speaker": "Gemara",
+          "text": "Alternatively: nothing else substitutes for sin-offerings and definite guilt-offerings, but Yom Kippur itself can stand in for the doubtful guilt-offering. As a Mishnah teaches, once Yom Kippur passes, those owing sin- and definite guilt-offerings still owe them, but those owing a doubtful guilt-offering are exempt - Yom Kippur atoned.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l34",
+              "vilnaLine": 34
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "four atonement mechanisms",
+        "sin-offering",
+        "repentance",
+        "YK",
+        "death",
+        "Mishna"
+      ],
+      "concepts": {
+        "halachic": [
+          "four atonement mechanisms",
+          "sin-offering"
+        ],
+        "theological": [
+          "Four mechanisms, not one: atonement is not a single formula but a graduated syst"
+        ],
+        "narrative": [
+          "Mishna: four atonement mechanisms; sin-offering, repentance,"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of four atonement mechanisms context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Yom Kippur wipes away every sin automatically.",
+          "correction": "Yom Kippur atones for sins against God, but sins against another person require appeasing the victim first, and sins committed in reliance on Yom Kippur are not atoned at all.",
+          "correctedByStepId": "step-02"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Mishna: four atonement mechanisms; sin-offering, r"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "For which sins does Yom Kippur not atone until further action is taken, and what action?",
+          "a": "For sins between a person and another person. Yom Kippur atones only after the wrongdoer appeases the one he hurt. This is derived from 'before the Lord you shall be cleansed' (Leviticus 16:30)."
+        },
+        {
+          "q": "Why does a definite guilt-offering atone while a doubtful one (asham talui) does not fully atone?",
+          "a": "The definite offering gives complete atonement. The doubtful guilt-offering only provides temporary protection until the person discovers whether he truly sinned. Also, Yom Kippur can substitute for the doubtful offering but not for the definite ones."
+        },
+        {
+          "q": "What happens to one who says 'I will sin and Yom Kippur will atone'?",
+          "a": "Yom Kippur does not atone for sins committed in reliance on it. Treating atonement as a license to sin forfeits that atonement."
+        }
+      ],
+      "finalRuling": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each ",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-085b-s03",
+      "lineRange": {
+        "startVilnaLine": 36,
+        "endVilnaLine": 41
+      },
+      "lines": [
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.85b.11"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.85b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85b.11",
+        "Yoma.85b.12"
+      ],
+      "display": {
+        "whats": "Death and Yom Kippur together atone for repented sins",
+        "hint": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone."
+      },
+      "learning": {
+        "summary": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
+        "ahaMoment": "Death + YK + repentance: the most serious sins require the most comprehensive combination - nothing is beyond atonement, but severe sins require correspondingly serious acknowledgment.",
+        "memoryAnchor": "Death + YK + repentance: nothing is beyond reach - but the heaviest sins need the full combination.",
+        "openQuestion": "What is the deeper significance of the ruling about death and yom kippur together atone for repented sins?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Death and Yom Kippur atone only with repentance?",
+          "speaker": "Gemara",
+          "text": "The Mishnah implies death and Yom Kippur atone only WITH repentance, not on their own. The Gemara suggests this contradicts Rabbi (Yehuda HaNasi), who held Yom Kippur atones for nearly all sins whether or not one repented - except rejecting the yoke of Torah, denying God, distorting the Torah, and breaking the covenant of circumcision, where repentance is still required.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l36",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "resolution",
+          "label": "Reconciling with Rabbi",
+          "speaker": "Gemara",
+          "text": "The Gemara rejects the contradiction: even on Rabbi's view, the Mishnah can be read as saying repentance needs Yom Kippur to complete the atonement, while Yom Kippur does not need repentance - it atones even without it. So the Mishnah need not contradict Rabbi at all.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "death and YK",
+        "atonement",
+        "repentance",
+        "severe sins"
+      ],
+      "concepts": {
+        "halachic": [
+          "death and YK",
+          "atonement"
+        ],
+        "theological": [
+          "Death + YK + repentance: the most serious sins require the most comprehensive co"
+        ],
+        "narrative": [
+          "Death and Yom Kippur together atone for repented sins"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of death and YK context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Mishnah and Rabbi flatly disagree about whether Yom Kippur needs repentance.",
+          "correction": "The Gemara reconciles them: the Mishnah can mean repentance depends on Yom Kippur to be completed, while Yom Kippur itself, per Rabbi, atones even without repentance.",
+          "correctedByStepId": "step-02"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Death and Yom Kippur together atone for repented s"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "According to Rabbi (Yehuda HaNasi), does Yom Kippur atone without repentance?",
+          "a": "Yes, for nearly all sins Yom Kippur atones whether or not one repented - except four severe cases (rejecting the yoke of mitzvot, denying God, distorting the Torah, and violating circumcision), which still require repentance."
+        },
+        {
+          "q": "How is the Mishnah reconciled with Rabbi's view?",
+          "a": "The Mishnah can be read as: repentance still needs Yom Kippur to complete atonement, while Yom Kippur does not need repentance. So it does not have to contradict Rabbi."
+        }
+      ],
+      "finalRuling": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-085b-s04",
+      "lineRange": {
+        "startVilnaLine": 41,
+        "endVilnaLine": 44
+      },
+      "lines": [
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.85b.13"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.85b.14"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85b.13",
+        "Yoma.85b.14"
+      ],
+      "display": {
+        "whats": "Repentance itself atones for some categories of sin",
+        "hint": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual."
+      },
+      "learning": {
+        "summary": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
+        "ahaMoment": "Teshuva alone for light sins: the lightest transgressions need only a sincere turning - the act of return itself is complete atonement.",
+        "memoryAnchor": "Teshuva alone for minor sins: the turning is the atonement; no further mechanism needed.",
+        "openQuestion": "What is the deeper significance of the ruling about repentance itself atones for some categories of sin?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Why mention positive mitzvot if negative ones are covered?",
+          "speaker": "Gemara",
+          "text": "The Mishnah says repentance atones for both positive and negative mitzvot. The Gemara objects: a negative mitzva is more severe (it carries lashes), so if repentance handles that, why state the lighter positive mitzva? Rav Yehuda reframes the Mishnah: repentance atones for a positive mitzva and for a negative mitzva that can be corrected by a positive act (lav hanitak la'aseh), which has the lenient status of a positive command.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "challenge",
+          "label": "Does repentance not atone a full prohibition?",
+          "speaker": "Gemara",
+          "text": "The Gemara presses: does repentance really not atone for a plain negative mitzva? It cites a contradicting source listing the 'minor transgressions' as a positive mitzva and a negative mitzva - which seems to include full prohibitions, opening the discussion that continues onto 86a.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085b-l44",
+              "vilnaLine": 44
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "teshuva",
+        "repentance",
+        "atonement",
+        "minor sins"
+      ],
+      "concepts": {
+        "halachic": [
+          "teshuva",
+          "repentance"
+        ],
+        "theological": [
+          "Teshuva alone for light sins: the lightest transgressions need only a sincere tu"
+        ],
+        "narrative": [
+          "Repentance itself atones for some categories of sin"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of teshuva context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Repentance alone fully atones for any negative mitzva.",
+          "correction": "Rav Yehuda limits the Mishnah to a negative mitzva that can be rectified by a positive act. Full-fledged prohibitions are addressed in the sugya that continues on 86a, where they need more than repentance alone.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Repentance itself atones for some categories of si"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How does Rav Yehuda reread the Mishnah so that listing a positive mitzva is not redundant?",
+          "a": "He explains that repentance atones for a positive mitzva and for a negative mitzva that can be rectified by a positive act (lav hanitak la'aseh). Such a prohibition has the lenient status of a positive command, so both belong in the lighter category."
+        },
+        {
+          "q": "What is a lav hanitak la'aseh?",
+          "a": "A prohibition the Torah pairs with a corrective positive act. Because it can be set right by performing that act, the court does not impose lashes, and it is treated with the leniency of a positive mitzva."
+        }
+      ],
+      "finalRuling": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אבל להחיות. כגון שיודע ללמד זכות על אדם שנדון בב\"ד ליהרג:",
+      "en": "Rashi: 'live by them' (Lev 18:5) - you shall live, not die, by the commandments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "ועבודה. חמורה שדוחה את השבת מפסיקה להצלת נפש: ומה מילה.",
+      "en": "Rashi: the four atonement mechanisms and which sins each addresses.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "שהיא תיקון אחד מאיבריו של אדם דוחה את השבת לפי שחייבין",
+      "en": "Rashi: death combined with Yom Kippur atones for the most serious sins.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "עליה כרת לאחר זמן כך שנויה בתוספתא דשבת: יכול לכל. אפי'",
+      "en": "Rashi: repentance alone suffices for the lightest categories of transgression.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "לפיקוח נפש: ושמרו בני ישראל את",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "השבת. כדי לעשות שבתות אחרות",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "יזהרו בשבת זו בקיום שמירת שבתות",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "הרבה: אין אדם מעמיד את עצמו.",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "מלהציל את ממונו מיד גנב והאי",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "גנב דאתי במחתרת מידע ידע דקאי",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "בעל הבית באפיה ואדעתא דהכי",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "אתא דמימר אמר כי קאי לאפאי",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "קטילנא ליה ואין זה ספק נפשות אלא",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "ודאי נפשות והתורה אמרה לו כאן",
+      "en": "Rashi explains the opening discussion of this topic on 85b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "אחרי שבא להורגך השכם להורגו:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "דאמר אביי. בסנהדרין (דף מג.) על",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "היוצא ליסקל ואמר יש לי זכות ללמד",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "על עצמי דקתני התם מחזירין אותו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "אפילו ארבע וחמש פעמים ובלבד",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "שיהא ממש בדבריו והוינן בה מנא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "ידעי ואמר אביי מסרינן ליה זוגא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "דרבנן שמלוין אותו עד בית הסקילה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "ואם אמר יש לי ללמד זכות על עצמי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "ישמעו אלו אם יש ממש בדבריו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "אם לאו והכי נמי גבי כהן העובד",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "איכא למימר נמי דהכי עבדי ליה:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "ואשכחן. מהכא דאודאי פיקוח",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "נפש מחללין אבל ספק לא שמעינן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "מינה וכולהו נמי כגון אך חלק",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "איכא למימר דודאי פיקוח נפש",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "קא ממעט ולא ספק וכן ולא אתם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "מסורין בידה למות ודאי וכן",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "חלל עליו כדי שישמור ודאי שבתות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "הרבה: דשמואל לית ליה פירכא.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "אשר יעשה האדם המצות שיחיה בהם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "ודאי ולא שיבא בעשייתה לידי ספק",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "מיתה אלמא מחללין על הספק:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "חדא פלפלתא. גרעין אחד:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "מתני' חטאת ואשם ודאי. הם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "אשם גזילות ומעילות ויש אשם שהוא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "תלוי הבא על שגגת ספק כרת ובגמ'",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "פריך והא ביה נמי כפרה כתיבא:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "חטאת ואשם ודאי מכפרין. ומסתמא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "תשובה איכא שאם לא היה מתחרט",
+      "en": "Rashi glosses \"teshuvah ikka\" (there is repentance): even when a sin-offering or guilt-offering is brought, repentance is implicit - for if the person had not been remorseful, he would not have brought the offering in the first place.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "לא היה מביא קרבן: גמ' הא",
+      "en": "Rashi glosses \"gemara - ha\" (Gemara: this one): the Gemara now analyzes the Mishnah and asks about the asham talui (doubtful guilt-offering), noting that atonement is also written in connection with it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "כפרה כתיב ביה. וכפר עליו הכהן",
+      "en": "Rashi glosses \"khappara ketiv beh\" (atonement is written about it): the verse \"ve-khipper alav ha-kohen al shigato asher shaga\" (Leviticus 5) refers to the asham talui (doubtful guilt-offering).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "על שגגתו אשר שגג (ויקרא ה) באשם",
+      "en": "Rashi cites the verse about atonement written in connection with the asham talui: \"ve-khipper alav ha-kohen al shigato asher shaga\" (Leviticus 5) - in the passage about the doubtful guilt-offering.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "תלוי כתיב: אשם תלוי אינו מכפר",
+      "en": "Rashi glosses \"asham talui ketiv\" (the doubtful guilt-offering is what is written): the verse about atonement in Leviticus 5 refers specifically to the asham talui. It does not atone completely.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "כפרה גמורה. אלא תולה להגן עליו",
+      "en": "Rashi glosses \"asham talui eino mekhapper khappara gemurah\" (the doubtful guilt-offering does not grant complete atonement): it only provides temporary protection. Rather, it suspends punishment to protect the person.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "מן היסורין עד שיודע לו שודאי חטא",
+      "en": "Rashi explains: the asham talui shields the person from suffering during the period of doubt, until it becomes clear whether he actually sinned. Then he brings the proper sin-offering for complete atonement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "ויביא חטאת הכי ילפי' לה בכריתות",
+      "en": "Rashi notes: this is how it is derived in Tractate Kritot - the asham talui provides interim protection rather than full atonement, pending clarification of the doubt.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "(דף כו:): פטורין. דיום הכפורים",
+      "en": "Rashi glosses \"peturin\" (they are exempt): after Yom Kippur passes, those who were obligated in an asham talui are now exempt - because Yom Kippur has atoned for them. The reason is explained in Kritot.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "מכפר עליהן וטעמא מפרש בכריתות",
+      "en": "Rashi glosses: \"Yom Kippur atones for them\" - after Yom Kippur, those who owed an asham talui are released from the obligation, and the reason is elaborated in Tractate Kritot.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "(דף כה:): חוץ מפורק עול. כופר",
+      "en": "Rashi glosses \"chutz mi-porek ol\" (except one who throws off the yoke): this refers to someone who denies the authority of the Torah entirely. Rashi adds \"kofer ba-Hakadosh Barukh Hu\" (one who denies God).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "בהקב\"ה: מגלה פנים בתורה. דורש",
+      "en": "Rashi glosses \"megaleh panim ba-Torah\" (one who distorts the Torah publicly): this means someone who expounds the Torah in a degrading way - for example, Menashe, who used to expound aggadic passages disparagingly, saying it was unnecessary for Moshe to write certain verses.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "את התורה לגנאי כגון מנשה שהיה",
+      "en": "Rashi explains \"megaleh panim ba-Torah\" further with the example: Menashe would mock aggadic narratives, saying things like \"Moshe had no need to write the verse about Timna being a concubine\" - distorting the Torah in a contemptuous way.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "דורש באגדות של דופי לא היה לו למשה לכתוב אלא ותמנע היתה פלגש וגו': ומיפר ברית בשר. מילה ובמסכת שבועות יליף לה מקראי:",
+      "en": "Rashi glosses \"u-meifer berit basar\" (and who violates the covenant of circumcision): this means one who denies or undoes the brit milah. Rashi notes the source for this is derived from verses in Tractate Shevuot.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "חוץ",
+      "en": "Rashi glosses \"chutz\" (except): this introduces the list of exceptional sinners for whom Yom Kippur does not atone without repentance, even according to Rabbi who generally rules that Yom Kippur atones universally.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

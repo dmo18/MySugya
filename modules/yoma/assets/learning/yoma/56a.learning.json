@@ -1,0 +1,132 @@
+{
+  "canonicalRef": "Yoma 56a",
+  "summary": "A transitional page. The Mishnah records the HP's exit from the Holy of Holies, completing the innermost phase of the Yom Kippur blood service (two entries - bull and goat blood). The Gemara digresses on tangential matters (breira, eruv, ma'aser sheni) before returning to the main service sequence. The HP's exit marks the shift from the inner kapporet service to the outer parochet and golden altar services.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-056a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.56a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.56a.1"
+      ],
+      "display": {
+        "whats": "Mishnah: HP exits the Holy of Holies completing the inner blood service",
+        "hint": "The Mishnah briefly records the HP's exit from the Holy of Holies after the goat's blood service, marking the conclusion of the innermost Yom Kippur service and the beginning of the outer phase."
+      },
+      "learning": {
+        "summary": "This brief Mishnah is a transitional statement: the HP exits the Holy of Holies having completed both the bull's and goat's blood sprinklings inside. The exit marks the end of the innermost phase of Yom Kippur. What follows is the parochet and golden altar services in the Heichal, then the outer courtyard services. The Gemara surrounding this passage discusses tangential matters before returning to the main Yom Kippur sequence.",
+        "ahaMoment": "The HP exits the most sacred space having completed atonement's innermost act - now the purification radiates outward through the remaining Temple zones.",
+        "memoryAnchor": "Exiting the Holy of Holies: inner atonement complete, outer atonement begins.",
+        "openQuestion": "What does the HP experience as he exits the Holy of Holies after standing before the Ark?"
+      },
+      "argumentFlow": [
+        {
+          "type": "statement",
+          "speaker": "Mishnah",
+          "text": "The HP exits the Holy of Holies after completing the goat's blood sprinkling.",
+          "id": "yoma-056a-l01",
+          "label": "Statement: The HP exits the Holy of Holies",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-056a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "exit from Holy of Holies",
+        "completion of inner service",
+        "transition"
+      ],
+      "concepts": {
+        "halachic": [
+          "end of inner blood service",
+          "HP's exit from the most sacred space"
+        ],
+        "theological": [
+          "emergence from the sacred center",
+          "the HP as bearer of completed inner atonement"
+        ],
+        "narrative": [
+          "Yom Kippur service sequence",
+          "transition between service phases"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the HP entered for bull blood and re-entered for goat blood",
+        "Knowing the parochet service comes next"
+      ],
+      "misconceptions": [
+        "The HP exits carrying the blood bowls for use in the subsequent services"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "HP emerging from the Holy of Holies"
+        },
+        {
+          "type": "place",
+          "name": "doorway between Holy of Holies and Heichal"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What signals the end of the innermost Yom Kippur service?",
+          "answer": "The HP exits the Holy of Holies after completing the goat's blood sprinkling - two entries (bull and goat) are now complete and the outer services begin."
+        }
+      ],
+      "finalRuling": "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "He redeems ma'aser sheni onto coins - he makes the best of a problematic situation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Relying on breira - retroactive clarification that this portion was the terumah from the start.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "And what he drinks now was actually the non-sacred portion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "When the vessel bursts - we are not concerned it will burst.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Since it is possible to hand it to a guardian until the proper vessels arrive.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "When it actually bursts - then we address the problem.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

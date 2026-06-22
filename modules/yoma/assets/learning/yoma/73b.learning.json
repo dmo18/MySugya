@@ -1,0 +1,1047 @@
+{
+  "canonicalRef": "Yoma 73b",
+  "summary": "The Gemara completes the Urim VeTummim discussion (reliability, mechanism, who may consult), then transitions to Mishnah Chapter 8 on the five afflictions of Yom Kippur. The major dispute: is eating less than the minimum measure (chatzi shi'ur) forbidden by Torah or only rabbinically?",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-073b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 19
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.73b.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.73b.2"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.73b.3"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.73b.4"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.73b.5"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.73b.6"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.73b.7"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.73b.8"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.73b.9"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.73b.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.73b.1",
+        "Yoma.73b.2",
+        "Yoma.73b.3",
+        "Yoma.73b.4",
+        "Yoma.73b.5",
+        "Yoma.73b.6",
+        "Yoma.73b.7",
+        "Yoma.73b.8",
+        "Yoma.73b.9",
+        "Yoma.73b.10"
+      ],
+      "display": {
+        "whats": "Urim VeTummim: answers, reliability, mechanism, and who may consult it",
+        "hint": "What happens when questions are asked out of order, and can the Urim VeTummim be wrong?"
+      },
+      "learning": {
+        "summary": "The Urim VeTummim answers questions in the correct order even when asked incorrectly. Its answers are infallible - unlike prophecy, they cannot be revoked. At Gibeah of Benjamin, the first two failures came from improper consultation. Urim/Tummim means illuminates/fulfills. The mechanism: letters protrude (Rabbi Yochanan) or join (Reish Lakish). Missing letter tzadi supplied by Patriarchal names. Only a spirit-filled HP can read the answer; the Shechinah assists.",
+        "ahaMoment": "The Urim VeTummim has a higher reliability than prophecy itself - its answers cannot be reversed.",
+        "memoryAnchor": "A prophet's decree can be overturned by repentance; the Urim's answer cannot. Divine law vs. divine speech.",
+        "openQuestion": "What does it mean that the Urim illuminates and the Tummim fulfills?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-073b-l01",
+          "type": "ruling",
+          "label": "Out-of-order answers corrected",
+          "speaker": "Gemara",
+          "text": "David asked wrong order; Urim answered in correct order",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l02",
+          "type": "ruling",
+          "label": "Two urgent questions: two answers",
+          "speaker": "Gemara",
+          "text": "If the situation requires both answers, both are given",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l02",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l03",
+          "type": "ruling",
+          "label": "Urim is infallible",
+          "speaker": "Gemara",
+          "text": "Unlike prophecy, the Urim's answer cannot be revoked",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l03",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l04",
+          "type": "ruling",
+          "label": "Urim means light, Tummim means complete",
+          "speaker": "Gemara",
+          "text": "Illuminates the ruling and fulfills its words",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l04",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l05",
+          "type": "ruling",
+          "label": "Gibeah: first two times not consulted",
+          "speaker": "Gemara",
+          "text": "Only the third time did Israel properly consult and succeed",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l05",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l07",
+          "type": "dispute",
+          "label": "Letters protrude vs join",
+          "speaker": "Rabbi Yochanan/Reish Lakish",
+          "text": "Protrude individually, or combine to form words",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l07",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l08",
+          "type": "resolution",
+          "label": "Missing letters from Patriarchs' names",
+          "speaker": "Rav Shmuel bar Yitzchak",
+          "text": "Abraham etc. inscribed on the stones supply all letters of the alphabet",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l08",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l09",
+          "type": "objection",
+          "label": "Only Holy Spirit can read it",
+          "speaker": "Baraita",
+          "text": "The HP must be filled with divine spirit; Shechinah assists",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l09",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l10",
+          "type": "resolution",
+          "label": "Shechinah assists the HP",
+          "speaker": "Gemara",
+          "text": "The letters work together with divine assistance to form the answer",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l10",
+              "vilnaLine": 19
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Urim-VeTummim",
+        "reliability",
+        "prophecy",
+        "Gibeah"
+      ],
+      "concepts": {
+        "halachic": [
+          "Urim VeTummim is infallible - unlike prophecy, its answers cannot be revoked"
+        ],
+        "theological": [
+          "divine guidance through the breastplate surpasses prophetic word in reliability"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Is the Urim VeTummim's answer more reliable than a prophet's decree?",
+          "answer": "Yes - a prophet's decree can be reversed by repentance, but the Urim's answer cannot be revoked",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Urim VeTummim is infallible; unlike prophecy, its answers are not subject to reversal.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-073b-s02",
+      "lineRange": {
+        "startVilnaLine": 19,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.73b.11"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.73b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.73b.11",
+        "Yoma.73b.12"
+      ],
+      "display": {
+        "whats": "Only kings may consult the Urim VeTummim; Hadran closing Chapter 7",
+        "hint": "Does the Urim VeTummim answer by having letters protrude from the breastplate or by having them combine?"
+      },
+      "learning": {
+        "summary": "Rabbi Abbahu: only a king may consult the Urim VeTummim. The Hadran formula closes Chapter 7 of Tractate Yoma (Ba Lo Kohen Gadol).",
+        "ahaMoment": "The Urim VeTummim is not self-interpreting - it needed a spirit-filled HP to read the protruding or combining letters.",
+        "memoryAnchor": "Letters floating up from the breastplate - but only a prophet-like priest could read which ones and what they said.",
+        "openQuestion": "How does the HP know which combination of letters spells the correct answer?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-073b-l11",
+          "type": "ruling",
+          "label": "Only kings may consult Urim",
+          "speaker": "Rabbi Abbahu",
+          "text": "Derived from the Pinchas-Yehoshua verse",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l11",
+              "vilnaLine": 19
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Urim-VeTummim",
+        "mechanism",
+        "letters",
+        "Holy-Spirit"
+      ],
+      "concepts": {
+        "halachic": [
+          "Urim: letters protrude (Rabbi Yochanan) or join (Reish Lakish)",
+          "all 22 Hebrew letters represented through tribal + Patriarchal names"
+        ],
+        "theological": [
+          "divine assistance required to read the Urim's message"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How was the letter tzadi represented in the Urim VeTummim when no tribal name contains it?",
+          "answer": "The names of the Patriarchs (Abraham, Yitzchak, Yaakov) were inscribed on the stones, supplying missing letters",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The Urim works through protruding or joining letters, read only by a prophet-like HP with divine assistance.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-073b-s03",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 37
+      },
+      "lines": [
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.73b.13"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.73b.14"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.73b.15"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.73b.16"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.73b.17"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.73b.18"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.73b.19"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.73b.20"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.73b.13",
+        "Yoma.73b.14",
+        "Yoma.73b.15",
+        "Yoma.73b.16",
+        "Yoma.73b.17",
+        "Yoma.73b.18",
+        "Yoma.73b.19",
+        "Yoma.73b.20"
+      ],
+      "display": {
+        "whats": "New Mishnah Ch.8: Yom Kippur prohibitions and the chatzi shi'ur dispute",
+        "hint": "Who has the right to ask the Urim VeTummim, and what is the topic of the new chapter?"
+      },
+      "learning": {
+        "summary": "Mishnah Chapter 8: Yom Kippur forbids eating, drinking, bathing, anointing, sandals, and marital relations. The Gemara debates: the mishna uses 'forbidden' not 'karet' - suggesting it covers less than the minimum measure. Rabbi Yochanan vs Reish Lakish: is eating a half-measure (chatzi shi'ur) on Yom Kippur a Torah prohibition or only rabbinic?",
+        "ahaMoment": "The Urim VeTummim was not a personal oracle - it was reserved for national decisions by the king.",
+        "memoryAnchor": "The Urim belongs to the king, not the individual - it answers questions that affect the whole people.",
+        "openQuestion": "Why are bathing and anointing included among the five afflictions, not just eating and drinking?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-073b-l14",
+          "type": "ruling",
+          "label": "Chatzi shi'ur discussed",
+          "speaker": "Gemara",
+          "text": "Mishna uses 'forbidden' not 'karet' - referring to less than the shiur",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l14",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l15",
+          "type": "ruling",
+          "label": "Chatzi shi'ur: Torah vs rabbinic",
+          "speaker": "Rabbi Yochanan/Reish Lakish",
+          "text": "Torah: forbidden because the thing is there; Rabbinic: full amount required",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l15",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l16",
+          "type": "ruling",
+          "label": "Oath on YK eating",
+          "speaker": "Gemara",
+          "text": "If chatzi shi'ur is only rabbinic, does an oath create a new prohibition?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l16",
+              "vilnaLine": 30
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l17",
+          "type": "question",
+          "label": "Why liable for oath?",
+          "speaker": "Gemara",
+          "text": "He was already under the Sinai oath - can he add another oath?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l17",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "yoma-073b-l19",
+          "type": "ruling",
+          "label": "Reish Lakish: specified half-measure only",
+          "speaker": "Reish Lakish",
+          "text": "The oath case works only if he explicitly vowed about the half-measure",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073b-l19",
+              "vilnaLine": 37
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Urim-VeTummim",
+        "Yom-Kippur",
+        "afflictions",
+        "eating"
+      ],
+      "concepts": {
+        "halachic": [
+          "Urim VeTummim reserved for kings and national decisions",
+          "Yom Kippur has five (or six) forbidden activities"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Who may consult the Urim VeTummim?",
+          "answer": "Only a king (or someone acting on behalf of national needs), not a private individual",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Urim VeTummim is for kings only. Yom Kippur prohibits eating, drinking, bathing, anointing, sandals, and marital relations.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "חֲצִי שִׁיעוּר",
+      "translit": "Chatzi shi'ur",
+      "en": "Half the minimum measure required for liability; debated whether it carries a Torah or only rabbinic prohibition."
+    },
+    {
+      "he": "כָּרֵת",
+      "translit": "Karet",
+      "en": "Divine excision - a severe heavenly punishment for certain Torah violations, typically meaning early death."
+    },
+    {
+      "he": "שִׁבּוּעָה",
+      "translit": "Shevuah",
+      "en": "A formal oath; the Gemara debates whether one can make an oath that overlaps with an existing biblical obligation."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "שלא כסדר. היה לו לשאול הירד שאול היסגירוני לפיכך השיבוהו על הראוי לשאול ראשון: ואם הוצרך לשניהן. כגון שהיה הדבר",
+      "en": "the questions were asked out of order and answered in order - David should have asked about Saul first",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "נחוץ ואין שהות להמתין כגון הארדוף האשיגנו דצקלג: גזירת נביא חוזרת. כגון של יונה בן אמיתי: שנאמר במשפט. כדין שאינו חוזר:",
+      "en": "if the matter requires two answers simultaneously, the response comes in two parts",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "שמאירין את דבריהם. מפרשי' את דבריהן: משלימין את דבריהן. כדאמרן אין גזירתן חוזרת: לא השלימו. שאמרו עליהן בשני",
+      "en": "even though a prophet's decree can be reversed, the Urim VeTummim's answer cannot be revoked",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "ימים הראשונים עלו אליו ונפלו: הם שלא ביחנו. אורים ותומים לא פירשו להם בשני ימים הראשונים עלו והצליחו אלא עלו אליו אם",
+      "en": "why is it called Urim VeTummim? Urim (from or, light) - it illuminates; Tummim (from tam, complete) - it fulfills its words",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "לנצח אם להנצח: באחרונה. פירשו",
+      "en": "at Gibeah of Benjamin, why did they fail the first two times?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "להם כי מחר אתננו בידך: בולטות.",
+      "en": "they did not check the Urim properly the first two times; only the third time did they consult and receive full guidance",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "האותיות בולטות כגון עי\"ן משמעון",
+      "en": "how does the Urim VeTummim work? Rabbi Yochanan: the letters protrude. Reish Lakish: they join to spell the answer",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "למ\"ד מלוי ה\"י מיהודה לומר עלה",
+      "en": "but the letter tzadi is not in the tribal names - Rav Shmuel bar Yitzchak: Abraham + Shevet fills the missing letters",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "וכל אחת אינה זזה ממקומה אלא",
+      "en": "an objection: any priest who does not speak via the Holy Spirit should not be consulted - only one filled with the Divine Presence",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "בולטת במקומה והוא מצרפן: והא",
+      "en": "the Shechinah would assist the HP in forming the answer",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "לא כתב צד\"י. בכל השבטים ואם",
+      "en": "only a king may consult the Urim VeTummim - from where? Rabbi Abbahu: from the verse about Pinchas and Yehoshua",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "צריך לה כגון והצל תציל מהיכן באה:",
+      "en": "the Hadran (closing formula for Chapter 7)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "שהרי שאל צדוק. כשהיה דוד בורח",
+      "en": "Mishnah Chapter 8: Yom Kippur is forbidden for eating, drinking, bathing, anointing, wearing sandals, and marital relations",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "מפני אבשלום: שנאמר ויעל אביתר",
+      "en": "the measure for eating on Yom Kippur is a large date-bulk; for drinking, a cheek-full",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "עד תום כל העם לעבור. ותניא",
+      "en": "Gemara: the mishna says 'forbidden' but eating on Yom Kippur is punishable by karet - why use the weaker term?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "בסדר עולם ושאל באורים ותומים",
+      "en": "this works for the one who holds chatzi shi'ur (half-measure) is forbidden by Torah - the mishna teaches even less than the shiur is forbidden",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "ולא עלתה לו ונסתלק מן הכהונה",
+      "en": "it was stated: chatzi shi'ur - Rabbi Yochanan says forbidden by Torah; Reish Lakish says forbidden only rabbinically",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "שנאמר ויעל אביתר מדקתני דבעי",
+      "en": "if Reish Lakish holds it is only rabbinic, then why would an oath not to eat on Yom Kippur be bindng?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "כהן המדבר ברוח הקודש אלמא",
+      "en": "and we discussed: why would he be liable? He is already under oath from Sinai - Rabbi Yochanan explains",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "לא בולטות ולא מצטרפות היו דאם",
+      "en": "Reish Lakish says: the oath case only works if he specified exactly half a measure - otherwise there is no new prohibition",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "כן למה לי רוח הקודש: סיועי הוה",
+      "en": "[Rashi commentary on line 21]: כן למה לי רוח הקודש: סיועי הוה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "מסייע. כהן בהדי אורים ותומים",
+      "en": "[Rashi commentary on line 22]: מסייע. כהן בהדי אורים ותומים",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "הלכך אם כהן כשר היה וראוי",
+      "en": "[Rashi commentary on line 23]: הלכך אם כהן כשר היה וראוי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "לשרות שכינה עליו האותיות בולטות",
+      "en": "[Rashi commentary on line 24]: לשרות שכינה עליו האותיות בולטות",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "או מצטרפות על ידו כשנשאלין בו",
+      "en": "[Rashi commentary on line 25]: או מצטרפות על ידו כשנשאלין בו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "ואם לאו לא בולטות ולא מצטרפות:",
+      "en": "[Rashi commentary on line 26]: ואם לאו לא בולטות ולא מצטרפות:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "הוא זה מלך. דהא ביהושע משתעי",
+      "en": "[Rashi commentary on line 27]: הוא זה מלך. דהא ביהושע משתעי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "קרא: וכל בני ישראל אתו. מי שכל",
+      "en": "[Rashi commentary on line 28]: קרא: וכל בני ישראל אתו. מי שכל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "בני ישראל אתו לצאת למלחמה אחריו:",
+      "en": "[Rashi commentary on line 29]: בני ישראל אתו לצאת למלחמה אחריו:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "הדרן עלך בא לו",
+      "en": "[Rashi commentary on line 30]: הדרן עלך בא לו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "יום הכפורים אסור באכילה",
+      "en": "[Rashi commentary on line 31]: יום הכפורים אסור באכילה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "ובשתיה וכו'. מפרש בגמרא",
+      "en": "[Rashi commentary on line 32]: ובשתיה וכו'. מפרש בגמרא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "דכל הני איקרו עינוי וגבי יוה\"כ",
+      "en": "[Rashi commentary on line 33]: דכל הני איקרו עינוי וגבי יוה\"כ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "ה' עינויי' כתיבי והני ה' הוו דשתיה",
+      "en": "[Rashi commentary on line 34]: ה' עינויי' כתיבי והני ה' הוו דשתיה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "בכלל אכילה: מלך. דרכו ושבחו",
+      "en": "[Rashi commentary on line 35]: בכלל אכילה: מלך. דרכו ושבחו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "להיות נאה שנאמר (ישעיה לג) מלך",
+      "en": "[Rashi commentary on line 36]: להיות נאה שנאמר (ישעיה לג) מלך",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "ביפיו תחזינה עיניך: והכלה. צריכה",
+      "en": "[Rashi commentary on line 37]: ביפיו תחזינה עיניך: והכלה. צריכה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "נוי עד שתחבב על בעלה וכל שלשים",
+      "en": "[Rashi commentary on line 38]: נוי עד שתחבב על בעלה וכל שלשים",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "יום לחופתה היא קרויה כלה: והחיה.",
+      "en": "[Rashi commentary on line 39]: יום לחופתה היא קרויה כלה: והחיה.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "יולדת: תנעול את הסנדל. שהצנה",
+      "en": "[Rashi commentary on line 40]: יולדת: תנעול את הסנדל. שהצנה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "קשה לה: דברי רבי אליעזר.",
+      "en": "[Rashi commentary on line 41]: קשה לה: דברי רבי אליעזר.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "אכולהו קאי מלך וכלה וחיה:",
+      "en": "[Rashi commentary on line 42]: אכולהו קאי מלך וכלה וחיה:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "גמ' לחצי שיעור. כגון פחות",
+      "en": "[Rashi commentary on line 43]: גמ' לחצי שיעור. כגון פחות",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "מכותבת הגסה שהיא שיעור ליוה\"כ",
+      "en": "[Rashi commentary on line 44]: מכותבת הגסה שהיא שיעור ליוה\"כ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "כדתנן מתני' וכי לא שלים שיעורא",
+      "en": "[Rashi commentary on line 45]: כדתנן מתני' וכי לא שלים שיעורא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "כרת ליכא איסורא איכא: חצי שיעור.",
+      "en": "[Rashi commentary on line 46]: כרת ליכא איסורא איכא: חצי שיעור.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "כלומר פחות מכשיעור אסור מן",
+      "en": "[Rashi commentary on line 47]: כלומר פחות מכשיעור אסור מן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "התורה לקמן בשמעתא דריש ליה",
+      "en": "[Rashi commentary on line 48]: התורה לקמן בשמעתא דריש ליה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "מכל חלב: שאסור מדרבנן. ומתני'",
+      "en": "[Rashi commentary on line 49]: מכל חלב: שאסור מדרבנן. ומתני'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "נמי מדרבנן קאמר: אי הכי. דלריש",
+      "en": "[Rashi commentary on line 50]: נמי מדרבנן קאמר: אי הכי. דלריש",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "לקיש אסור מיהא מדרבנן לא ניחייב עליה קרבן שבועה הנשבע שלא יאכל חצי שיעור מדבר אסור ואכל לא ניחייב עליה קרבן",
+      "en": "[Rashi commentary on line 51]: לקיש אסור מיהא מדרבנן לא ניחייב עליה קרבן שבועה הנשבע שלא יא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "שבועת ביטוי דהא קיימא לן במסכת שבועות (דף כז.) נשבע לקיים את המצוה ולא קיים פטור או נשבע לבטל ולא בטל פטור: ורבי",
+      "en": "[Rashi commentary on line 52]: שבועת ביטוי דהא קיימא לן במסכת שבועות (דף כז.) נשבע לקיים את",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "שמעון פוטר. מקרבן שבועה: מושבע ועומד הוא. והוה ליה נשבע לקיים את המצוה: בכולל. שבועה שלא אוכל לא בשר שחוטה ולא בשר",
+      "en": "[Rashi commentary on line 53]: שמעון פוטר. מקרבן שבועה: מושבע ועומד הוא. והוה ליה נשבע לקיי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "נבילה דמגו דחיילא אהתירא חיילא נמי אאיסורא ורבי שמעון פוטר דלית ליה איסור כולל ולא אמרינן מגו: וריש לקיש אמר אי אתה מוצא.",
+      "en": "[Rashi commentary on line 54]: נבילה דמגו דחיילא אהתירא חיילא נמי אאיסורא ורבי שמעון פוטר ד",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "שיהא חייב קרבן שבועה על הנבילה אם אכל כזית שהוא מושבע עליו מהר סיני אלא באוכל חצי שיעור שאינו מושבע עליו מסיני ובשבועתו",
+      "en": "[Rashi commentary on line 55]: שיהא חייב קרבן שבועה על הנבילה אם אכל כזית שהוא מושבע עליו מ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "נאסר עליו: במפרש. שלא אוכל אפילו חצי שיעור: ואליבא דרבנן. דאמרי בשבועות (דף יט:) דהנשבע שלא אוכל סתם אוסר עצמו בכשיעור:",
+      "en": "[Rashi commentary on line 56]: נאסר עליו: במפרש. שלא אוכל אפילו חצי שיעור: ואליבא דרבנן. דא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "או בסתם. מצית לאוקומה ומיהו כשאכל לא אכל אלא חצי שיעור שאינו מושבע עליו מסיני ועל ידי שבועה שלא אוכל סתם נאסר בו:",
+      "en": "[Rashi commentary on line 57]: או בסתם. מצית לאוקומה ומיהו כשאכל לא אכל אלא חצי שיעור שאינו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "ואליבא",
+      "en": "[Rashi commentary on line 58]: ואליבא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

@@ -1,0 +1,594 @@
+{
+  "canonicalRef": "Yoma 60a",
+  "summary": "The HP's purification requirements during Yom Kippur: five full immersions and ten hand-and-foot washings, one immersion for each transition between white linen and golden garments. Each garment change requires a ritual reset through immersion. A tannaitic dispute addresses whether these immersions require the Temple's holy water (kiyor) or whether a regular mikveh is sufficient.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-060a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 13
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.60a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.60a.2"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.60a.3"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.60a.4"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.60a.5"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.60a.6"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.60a.7"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.60a.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.60a.1",
+        "Yoma.60a.2",
+        "Yoma.60a.3",
+        "Yoma.60a.4",
+        "Yoma.60a.5",
+        "Yoma.60a.6",
+        "Yoma.60a.7",
+        "Yoma.60a.8"
+      ],
+      "display": {
+        "whats": "HP immerses five times and washes hands and feet ten times on Yom Kippur",
+        "hint": "Every change between white and golden garments requires immersion and hand-and-foot washing. The HP immerses five times and washes hands and feet ten times across the Yom Kippur day."
+      },
+      "learning": {
+        "summary": "The Mishnah details the purification requirements accompanying each garment change. Every time the HP transitions from white linen to golden garments or vice versa, he must immerse in a mikveh and wash his hands and feet. This results in five immersions and ten hand-and-foot washings across the full Yom Kippur day. Each immersion marks a ritual reset between phases. The HP's level of purity on Yom Kippur exceeds any other day's requirements.",
+        "ahaMoment": "Five immersions and ten hand-and-foot washings: the HP's body is reset five times across the day, marking each transition between inner (divine presence) and outer (community) service.",
+        "memoryAnchor": "Five resets: the HP's body is purified five times, matching the five major transitions of his Yom Kippur day.",
+        "openQuestion": "Why does each garment change require a new immersion? Couldn't the HP maintain purity across transitions without immersing?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "HP immerses five times and washes hands and feet ten times on Yom Kippur.",
+          "id": "yoma-060a-l01",
+          "label": "Ruling: HP immerses five times and washes hands",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "reason",
+          "speaker": "Gemara",
+          "text": "Every change between white and golden garments requires immersion and washing.",
+          "id": "yoma-060a-l03",
+          "label": "Reason: Every change between white and golden garments",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l03",
+              "vilnaLine": 3
+            }
+          ]
+        },
+        {
+          "type": "significance",
+          "speaker": "Gemara",
+          "text": "The immersions mark clean transitions between phases; each phase begins with fresh purity.",
+          "id": "yoma-060a-l06",
+          "label": "Significance: The immersions mark clean transitions between phases;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "detail",
+          "speaker": "Gemara",
+          "text": "The HP's purity standard on Yom Kippur is the most stringent in Temple law.",
+          "id": "yoma-060a-l11",
+          "label": "Detail: The HP's purity standard on Yom Kippur",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l11",
+              "vilnaLine": 11
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "five immersions",
+        "ten hand-foot washings",
+        "garment change purification",
+        "mikveh",
+        "HP purity"
+      ],
+      "concepts": {
+        "halachic": [
+          "immersion at each garment change",
+          "ten-fold purification",
+          "highest purity standard"
+        ],
+        "theological": [
+          "the body as sacred instrument requiring constant maintenance",
+          "purity as prerequisite for transition"
+        ],
+        "narrative": [
+          "Yom Kippur ritual structure",
+          "HP's purification"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing there are multiple garment changes throughout the day",
+        "Knowing regular priests only wash once before morning service"
+      ],
+      "misconceptions": [
+        "The HP immerses five times total, not once at the beginning of the day"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "five immersions across the Yom Kippur day"
+        },
+        {
+          "type": "action",
+          "name": "ten hand-and-foot washings at transition points"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "How many times does the HP immerse on Yom Kippur and why so many times?",
+          "answer": "Five times - once for each transition between white and golden garments. Each garment change requires a fresh immersion and hand-and-foot washing to maintain the proper purity level for each new phase of service."
+        }
+      ],
+      "finalRuling": "The HP immerses five times and washes hands and feet ten times on Yom Kippur, once per garment change between white and golden vestments.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-060a-s02",
+      "lineRange": {
+        "startVilnaLine": 17,
+        "endVilnaLine": 30
+      },
+      "lines": [
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.60a.9"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.60a.10"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.60a.11"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.60a.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.60a.9",
+        "Yoma.60a.10",
+        "Yoma.60a.11",
+        "Yoma.60a.12"
+      ],
+      "display": {
+        "whats": "Dispute: must immersions be in holy water (kiyor) or is a regular mikveh sufficient?",
+        "hint": "A dispute arises whether the HP's Yom Kippur immersions must be in the Temple's holy water basin or whether a regular mikveh (ritual pool) qualifies."
+      },
+      "learning": {
+        "summary": "The Gemara records a dispute about the nature of the immersions: one position holds that the HP must immerse specifically in the kiyor (the holy water basin in the Temple courtyard) or water sanctified in a holy vessel. The other position holds that an ordinary mikveh is sufficient. This distinction matters practically, as the kiyor holds limited water. The Gemara works out which immersions require holy water and which are satisfied by regular mikveh.",
+        "ahaMoment": "The dispute reflects a fundamental question: does the HP's Yom Kippur immersion require special sanctified water, or is any kosher mikveh water sufficient? The former makes the immersion uniquely Temple-connected; the latter makes it a standard purity act.",
+        "memoryAnchor": "Holy water vs. regular mikveh: does the HP's immersion require Temple-specific sanctification, or just halachic purity?",
+        "openQuestion": "What is the practical implication if the HP's immersions require the kiyor specifically?"
+      },
+      "argumentFlow": [
+        {
+          "type": "dispute",
+          "speaker": "Ben Measha vs. Sages",
+          "text": "The immersions require holy water (kiyor). OR: a regular mikveh is sufficient.",
+          "id": "yoma-060a-l17",
+          "label": "Dispute: The immersions require holy water (kiyor). OR:",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "type": "analysis",
+          "speaker": "Gemara",
+          "text": "Working through which immersions require what type of water.",
+          "id": "yoma-060a-l22",
+          "label": "Analysis: Working through which immersions require what type",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "The halachic ruling on which type of water is required.",
+          "id": "yoma-060a-l25",
+          "label": "Ruling: The halachic ruling on which type of",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l25",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "type": "application",
+          "speaker": "Gemara",
+          "text": "Practical implications for the HP's Yom Kippur schedule.",
+          "id": "yoma-060a-l30",
+          "label": "Application: Practical implications for the HP's Yom Kippur",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-060a-l30",
+              "vilnaLine": 30
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "immersion type",
+        "kiyor",
+        "holy water",
+        "regular mikveh",
+        "dispute",
+        "immersion validity"
+      ],
+      "concepts": {
+        "halachic": [
+          "type of water for HP's immersion",
+          "kiyor vs. regular mikveh"
+        ],
+        "theological": [
+          "Temple-specific vs. general purity",
+          "what makes the HP's immersion special"
+        ],
+        "narrative": [
+          "halachic dispute",
+          "purity sources"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing what the kiyor is (the laver in the Temple court)",
+        "Understanding the difference between Temple-sanctified water and regular mikveh water"
+      ],
+      "misconceptions": [
+        "Not all immersions need kiyor water - some may be satisfied by regular mikveh"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "kiyor vs. regular mikveh for HP's immersion"
+        },
+        {
+          "type": "object",
+          "name": "kiyor (laver) in the Temple court"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the dispute regarding the HP's immersion water on Yom Kippur?",
+          "answer": "Whether the HP must immerse specifically in the Temple's kiyor or sanctified water (one position) or whether any valid mikveh is sufficient (another position)."
+        }
+      ],
+      "finalRuling": "A dispute exists whether the HP's Yom Kippur immersions require Temple-sanctified water (kiyor) or whether a regular mikveh suffices.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Immersion and washing of hands and feet: each garment change requires immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The HP immerses five times on Yom Kippur and washes hands and feet ten times.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Each immersion in a holy vessel (the gold water container in the Temple).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Or in a regular mikveh - dispute between the sages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The immersions mark transitions between the garment-phases of the day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Each change from white to gold or gold to white requires its own immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "This maintains the ritual purity required for each new phase of service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Five immersions: the number corresponding to the five garment changes.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Actually four garment changes but five immersions - different counting systems.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The ten hand-and-foot washings correspond to each entry and exit.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Washing before service and after service at specific transition points.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The hand-and-foot washing is like regular priestly preparation but intensified.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Regular priests wash once before the morning service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The HP washes ten times due to the multiple phases of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "All immersions sanctified - the HP maintains highest purity throughout.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The immersion is in holy water: from the laver (kiyor) in the Temple court.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The HP's purity on Yom Kippur is the most stringent standard in Temple law.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "This level of purity reflects the day's unique status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The HP's body must be as pure as the space he enters.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "On the day when he enters the innermost space, he must be the purest person.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The five immersions also serve a practical purpose: resetting between phases.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Moving from golden garments (outer service) to white (inner service) requires a fresh start.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The immersion is that fresh start - a physical reset between phases.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "After completing the scapegoat service: another immersion before the outer service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "After the outer service: immersion before the reading.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "After the reading: immersion before the closing inner service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "And after the closing inner service: final immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Each immersion marks a clean transition.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The HP's body is the instrument of atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "As an instrument, it must be constantly maintained and purified.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The immersions maintain the instrument throughout the day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "On no other day does any priest immerse five times.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "This is the uniqueness of Yom Kippur for the HP.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "He is not just the most important priest - he is the most pure on this day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "His purity enables his service; his service enables Israel's atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The sequence of immersions ensures this purity is maintained throughout.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Dispute: must each immersion be in holy water, or is a regular mikveh sufficient?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Ben Measha and the Sages debate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "The ruling affects the accessibility of the HP's immersions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Regular mikvehs are available; holy water is not always accessible.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The practical ruling determines how the immersions are performed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The halachic decision follows one position.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Either way, the immersions are mandatory and cannot be skipped.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "They are part of the formal Yom Kippur service sequence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Without the immersions, the garment changes would be invalid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "The garment changes without immersion are not transitions - they are incomplete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The physical action (immersion) and the garment change together constitute the transition.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "One without the other is insufficient.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "This integrity of the service is what makes Yom Kippur coherent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Every detail is part of a unified whole.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Nothing is casual or optional in the Yom Kippur service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Every step has its source and its purpose.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

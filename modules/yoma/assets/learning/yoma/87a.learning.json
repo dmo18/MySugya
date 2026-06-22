@@ -1,0 +1,1344 @@
+{
+  "canonicalRef": "Yoma 87a",
+  "summary": "Tractate Yoma daf 87a covers: Going willingly to die vs. against will: a halachic distinction; YK does not atone without appeasement of the one wronged; need to ask forgiveness directly; Yom Kippur atones for sins against God; does NOT atone for sins against another person; YK atones for communal sins between people toward God; One who angers a friend - even verbally - must appease them directly.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-087a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.87a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87a.1"
+      ],
+      "display": {
+        "whats": "Going willingly to die vs. against will: a halachic distinction",
+        "hint": "The Gemara discusses whether a person who goes willingly to death is treated differently halachically than one forced against their will."
+      },
+      "learning": {
+        "summary": "The Gemara discusses whether a person who goes willingly to death is treated differently halachically than one forced against their will.",
+        "ahaMoment": "Willingness matters halachically: the law distinguishes between those who act voluntarily and those who are coerced, even in extreme situations.",
+        "memoryAnchor": "Willingness matters: voluntary vs. coerced has its own halachic category.",
+        "openQuestion": "What is the deeper significance of the ruling about going willingly to die vs. against will: a halachic distinct?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Rava's words before judging; the danger of honor",
+          "speaker": "Rava / Gemara",
+          "text": "Rava, going to judge, said of himself: of his own will he goes to die, he does not do his household's will, and he returns empty-handed - if only his entrance were like his exit. Seeing a crowd following him in his honor, he applied 'though his excellency mounts to the heavens... he shall perish forever like his dung' (Job 20:6-7): honor can lead to a person's downfall. And when Rav Zutra was carried on shoulders while teaching, he recited 'for power is not forever, nor does the crown endure for all generations' (Proverbs 27:24) to guard against arrogance.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "willing vs. coerced",
+        "halachic distinction",
+        "death"
+      ],
+      "concepts": {
+        "halachic": [
+          "willing vs. coerced",
+          "halachic distinction"
+        ],
+        "theological": [
+          "Willingness matters halachically: the law distinguishes between those who act vo"
+        ],
+        "narrative": [
+          "Going willingly to die vs. against will: a halachic distinct"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of willing vs. coerced context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Sages embraced the public honor that came with their authority.",
+          "correction": "They actively warned themselves against it, reciting verses on the impermanence of power and the downfall that honor can bring, to stay humble in positions of authority.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Going willingly to die vs. against will: a halachi"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why did Rava and Rav Zutra recite verses warning against honor when they were elevated?",
+          "a": "To guard against arrogance. Rava, seeing crowds follow him, cited Job 20:6-7 that honor can bring one's downfall; Rav Zutra, carried on shoulders, cited Proverbs 27:24 that power and crown do not endure forever."
+        },
+        {
+          "q": "What attitude toward judging does Rav's and Rava's self-statement express?",
+          "a": "That judging is grave and perilous: a judge who errs is liable to Heaven, earns no pay, and neglects his household. They approached the role with humility and fear rather than a sense of honor."
+        }
+      ],
+      "finalRuling": "The Gemara discusses whether a person who goes willingly to death is treated differently halachically than one forced against their will.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-087a-s02",
+      "lineRange": {
+        "startVilnaLine": 8,
+        "endVilnaLine": 26
+      },
+      "lines": [
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.87a.2"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.87a.3"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.87a.4"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.87a.5"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.87a.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87a.2",
+        "Yoma.87a.3",
+        "Yoma.87a.4",
+        "Yoma.87a.5",
+        "Yoma.87a.6"
+      ],
+      "display": {
+        "whats": "YK does not atone without appeasement of the one wronged; need to ask forgiveness directly",
+        "hint": "The verse 'it is not good to respect the person of the wicked' is applied: YK does not atone for interpersonal sins unless the wrongdoer has gone directly to the person wronged and appeased them."
+      },
+      "learning": {
+        "summary": "The verse 'it is not good to respect the person of the wicked' is applied: YK does not atone for interpersonal sins unless the wrongdoer has gone directly to the person wronged and appeased them.",
+        "ahaMoment": "YK cannot atone what you have not repaired with the person you harmed: God will not substitute for the human relationship that needs to be fixed.",
+        "memoryAnchor": "YK doesn't replace the apology you owe a person: God forgives what belongs to God.",
+        "openQuestion": "What is the deeper significance of the ruling about yk does not atone without appeasement of the one wronged; ne?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Better for the wicked not to be honored",
+          "speaker": "Gemara",
+          "text": "'It is not good to favor the wicked' (Proverbs 18:5) - it is not good for the wicked to be honored and unpunished in this world. It was bad for Ahab to be honored here: because he humbled himself, 'I will not bring the evil in his days' (I Kings 21:29) - and he thereby lost his share in the World to Come, his account settled in this world.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l08",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "Good for the righteous not to be honored",
+          "speaker": "Gemara",
+          "text": "The verse's continuation: 'to turn aside the righteous in judgment' - it is good for the righteous NOT to be honored and to be punished in this world for their sins. It was good for Moses not to be honored: 'because you did not believe in Me' (Numbers 20:12) - had he believed, his time to leave the world would not yet have come. Punishment here preserves the World to Come.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l12",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "The righteous earn merit for generations",
+          "speaker": "Gemara",
+          "text": "Fortunate are the righteous: they earn merit not only for themselves but for their children and descendants forever. Several sons of Aaron deserved to be burned like Nadav and Avihu ('the sons of Aaron who were left,' implying others nearly were not), but their father's merit protected them and their line stayed priests.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "case",
+          "label": "The wicked condemn their descendants",
+          "speaker": "Gemara",
+          "text": "Conversely, woe to the wicked: they render liable not only themselves but their descendants forever. Canaan had children fit to be great Torah teachers - like Tavi, Rabban Gamliel's wise servant - but their father's guilt left them slaves.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l21",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "resolution",
+          "label": "One who benefits or harms the public",
+          "speaker": "Gemara",
+          "text": "Whoever brings merit to the public is shielded from sin, so he will not be in Gehenna while his students are in Eden ('You will not abandon my soul to the grave'). Whoever leads the public to sin is barely given the chance to repent, so he will not be in Eden while his students are in Gehenna ('a man laden with the blood of any person shall flee to the pit; none will support him').",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l26",
+              "vilnaLine": 26
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "appeasement",
+        "YK atonement",
+        "interpersonal sin",
+        "direct apology"
+      ],
+      "concepts": {
+        "halachic": [
+          "appeasement",
+          "YK atonement"
+        ],
+        "theological": [
+          "YK cannot atone what you have not repaired with the person you harmed: God will "
+        ],
+        "narrative": [
+          "YK does not atone without appeasement of the one wronged; ne"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of appeasement context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Worldly honor and ease for the wicked signal God's favor.",
+          "correction": "The sugya teaches the opposite: honor and unpunished ease for the wicked, like Ahab's, settle their reward in this world and cost them the World to Come. Suffering for the righteous is actually 'good.'",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "YK does not atone without appeasement of the one w"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is it considered 'good' for the righteous to suffer and not be honored in this world?",
+          "a": "Because punishment in this world settles their account here and preserves their share in the World to Come. Moses' not being honored, and his punishment, are examples - had he not been held accountable, his time to leave the world would not yet have come."
+        },
+        {
+          "q": "What is the fate of one who causes the public to sin versus one who brings merit to the public?",
+          "a": "One who brings the public merit is protected from sin, so he won't be in Gehenna while his students are in Eden. One who causes the public to sin is barely allowed to repent, so he won't be in Eden while his students are in Gehenna."
+        }
+      ],
+      "finalRuling": "The verse 'it is not good to respect the person of the wicked' is applied: YK does not atone for interpersonal sins unless the wrongdoer has gone dire",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-087a-s03",
+      "lineRange": {
+        "startVilnaLine": 31,
+        "endVilnaLine": 33
+      },
+      "lines": [
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.87a.7"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.87a.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87a.7",
+        "Yoma.87a.8"
+      ],
+      "display": {
+        "whats": "Yom Kippur atones for sins against God; does NOT atone for sins against another person",
+        "hint": "Yom Kippur's atonement covers sins between a person and God directly; but sins between one person and another require direct appeasement before YK can atone."
+      },
+      "learning": {
+        "summary": "Yom Kippur's atonement covers sins between a person and God directly; but sins between one person and another require direct appeasement before YK can atone.",
+        "ahaMoment": "The distinction between God-directed and person-directed sins is structural: YK is a mechanism calibrated for God's forgiveness, not a shortcut past human accountability.",
+        "memoryAnchor": "Sins against God: YK. Sins against people: ask them first.",
+        "openQuestion": "What is the deeper significance of the ruling about yom kippur atones for sins against god; does not atone for s?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Why 'I will sin and repent' is doubled",
+          "speaker": "Rav (via Rav Huna)",
+          "text": "The Mishnah says one who plans 'I will sin and repent, I will sin and repent' is denied the chance to repent. Why state it twice? Per Rav Huna in Rav's name: once a person commits a sin and repeats it, it becomes 'as if permitted' to him. The doubled phrase mirrors how repeating the sin makes it harder to abandon.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l31",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "analysis",
+          "label": "'I will sin and Yom Kippur will atone' - even per Rabbi",
+          "speaker": "Gemara",
+          "text": "The Mishnah says one who relies on Yom Kippur to atone is not atoned. This seems to clash with Rabbi, who held Yom Kippur atones even without repentance. The Gemara answers: even Rabbi agrees that when one sins precisely because he is counting on Yom Kippur, that atonement is forfeited. Exploiting atonement as a license cancels it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l33",
+              "vilnaLine": 33
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "sins against God",
+        "sins against people",
+        "YK scope"
+      ],
+      "concepts": {
+        "halachic": [
+          "sins against God",
+          "sins against people"
+        ],
+        "theological": [
+          "The distinction between God-directed and person-directed sins is structural: YK "
+        ],
+        "narrative": [
+          "Yom Kippur atones for sins against God; does NOT atone for s"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of sins against God context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Since Rabbi holds Yom Kippur atones even without repentance, it must atone even for one who sins counting on it.",
+          "correction": "Even Rabbi agrees that sinning specifically in reliance on Yom Kippur forfeits its atonement. The license-to-sin attitude is the exception to his rule.",
+          "correctedByStepId": "step-02"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Yom Kippur atones for sins against God; does NOT a"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why does the Mishnah repeat 'I will sin and I will repent' twice?",
+          "a": "Per Rav Huna in Rav's name: once a sin is repeated it becomes 'as if permitted' to the person, so it is far harder to abandon. The doubled phrase reflects how repetition entrenches the sin."
+        },
+        {
+          "q": "Does even Rabbi (who holds Yom Kippur atones without repentance) agree that 'I will sin and Yom Kippur will atone' is not atoned?",
+          "a": "Yes. Even Rabbi concedes that when someone sins specifically in reliance on Yom Kippur, the atonement is forfeited. Treating atonement as a license to sin cancels it."
+        }
+      ],
+      "finalRuling": "Yom Kippur's atonement covers sins between a person and God directly; but sins between one person and another require direct appeasement before YK can",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-087a-s04",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 37
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.87a.9"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.87a.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87a.9",
+        "Yoma.87a.10"
+      ],
+      "display": {
+        "whats": "YK atones for communal sins between people toward God",
+        "hint": "Certain communal or relational sins that have a Godward dimension can be atoned by YK without individual appeasement."
+      },
+      "learning": {
+        "summary": "Certain communal or relational sins that have a Godward dimension can be atoned by YK without individual appeasement.",
+        "ahaMoment": "Communal Godward sins: some social sins are primarily about the community's relationship with God and therefore yield to YK's atonement.",
+        "memoryAnchor": "Communal Godward relational sins: a special category where YK can help.",
+        "openQuestion": "What is the deeper significance of the ruling about yk atones for communal sins between people toward god?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Does prayer secure forgiveness for wronging a person?",
+          "speaker": "Rav Yosef bar Chavu",
+          "text": "Rav Yosef bar Chavu challenged Rabbi Abbahu from 'if one sins against another, Elohim shall judge him [ufilelo]' (I Samuel 2:25) - reading ufilelo as prayer, implying prayer wins forgiveness even for sins against a person, contradicting the Mishnah. Rabbi Abbahu answered: Elohim here means a judge, and ufilelo means judgment - forgiveness comes only after the court adjudicates the wronged party's claim.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l35",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "resolution",
+          "label": "Rereading the verse's second clause",
+          "speaker": "Rabbi Abbahu",
+          "text": "Rav Yosef pressed: then the clause 'if a man sins against the Lord, who shall entreat [yitpallel] for him?' would mean no one can judge a sin against God. Rabbi Abbahu reread the whole verse: if one sins against another, God forgives him (ufilelo) once he appeases the victim; but if against God, who shall entreat for him? - repentance and good deeds. Here pll means forgiveness, not judgment.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l37",
+              "vilnaLine": 37
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "communal sin",
+        "Godward relational sin",
+        "YK atonement"
+      ],
+      "concepts": {
+        "halachic": [
+          "communal sin",
+          "Godward relational sin"
+        ],
+        "theological": [
+          "Communal Godward sins: some social sins are primarily about the community's rela"
+        ],
+        "narrative": [
+          "YK atones for communal sins between people toward God"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of communal sin context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Prayer to God alone can secure forgiveness for hurting another person.",
+          "correction": "As Rabbi Abbahu reads the verse, sins against another person require appeasing the victim (or a court ruling) first; only then does God forgive. Prayer alone does not bypass the wronged party.",
+          "correctedByStepId": "step-02"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "YK atones for communal sins between people toward "
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How does Rabbi Abbahu first interpret 'Elohim... ufilelo' in I Samuel 2:25 to defend the Mishnah?",
+          "a": "He reads Elohim as 'a judge' and ufilelo as 'judgment.' Forgiveness for wronging another person comes only after justice is done through a court ruling, not through prayer alone, consistent with the Mishnah."
+        },
+        {
+          "q": "In Rabbi Abbahu's final reading, what does one need to be forgiven for a sin against another person versus against God?",
+          "a": "For a sin against another person, one must appease the victim, after which God forgives. For a sin against God, repentance and good deeds suffice. In this reading the root pll means forgiveness."
+        }
+      ],
+      "finalRuling": "Certain communal or relational sins that have a Godward dimension can be atoned by YK without individual appeasement.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 5,
+      "id": "yoma-087a-s05",
+      "lineRange": {
+        "startVilnaLine": 38,
+        "endVilnaLine": 51
+      },
+      "lines": [
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.87a.11"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.87a.12"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.87a.13"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.87a.14"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.87a.15"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.87a.16"
+        },
+        {
+          "vilnaLine": 51,
+          "sefariaRef": "Yoma.87a.17"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87a.11",
+        "Yoma.87a.12",
+        "Yoma.87a.13",
+        "Yoma.87a.14",
+        "Yoma.87a.15",
+        "Yoma.87a.16",
+        "Yoma.87a.17"
+      ],
+      "display": {
+        "whats": "One who angers a friend - even verbally - must appease them directly",
+        "hint": "Even verbal harm to another person requires direct appeasement - if someone was insulted or hurt by words alone, the speaker must go and ask forgiveness."
+      },
+      "learning": {
+        "summary": "Even verbal harm to another person requires direct appeasement - if someone was insulted or hurt by words alone, the speaker must go and ask forgiveness.",
+        "ahaMoment": "Words harm too: verbal injury requires the same appeasement process as physical harm. 'Only words' does not exempt the speaker from seeking forgiveness.",
+        "memoryAnchor": "Verbal insult requires appeasement: words are not weightless in halacha.",
+        "openQuestion": "What is the deeper significance of the ruling about one who angers a friend - even verbally - must appease them ?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Even a verbal slight needs appeasement",
+          "speaker": "R. Yitzchak",
+          "text": "Rabbi Yitzchak: one who wrongs his fellow even only with words must appease him, from 'go, humble yourself and urge your neighbor' (Proverbs 6:1-3). If you owe him money, open your hand and pay; if you wronged him with words, send many friends to ask his forgiveness.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l38",
+              "vilnaLine": 38
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "Three rows of three",
+          "speaker": "Rav Chisda",
+          "text": "Rav Chisda: one must appease the offended party with three rows of three people, deriving 'shura' (row) from 'yashor before men' (Job 33:27), where the verse mentions sin three times - so one makes three rows before the person he is asking to forgive.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "No more than three times; at the grave if he died",
+          "speaker": "R. Yosei bar Chanina",
+          "text": "Rabbi Yosei bar Chanina: one should not ask forgiveness more than three times, from the threefold 'please' in 'please forgive... and now please forgive' (Genesis 50:17). After three the offended must relent. And if the wronged party died first, one brings ten people to his grave and says: I sinned against the Lord God of Israel and against this person whom I hurt.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l42",
+              "vilnaLine": 42
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "case",
+          "label": "Rabbi Yirmeya and Rabbi Abba",
+          "speaker": "Gemara",
+          "text": "Rabbi Yirmeya, having wronged Rabbi Abba, sat at his threshold to beg forgiveness. The maid's dirty water splashed his head; he said 'they made me a trash heap' and applied 'He raises the needy from the trash heap' (Psalms 113:7). Rabbi Abba came out, saying: now I must go appease YOU, citing 'go, humble yourself and urge your neighbor.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l44",
+              "vilnaLine": 44
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "case",
+          "label": "Rabbi Zeira makes himself easy to appease",
+          "speaker": "Gemara",
+          "text": "When Rabbi Zeira had a grievance against someone who insulted him, he would pace back and forth in front of the person, presenting himself so it would be easy for the other to come and apologize - lowering the barrier to reconciliation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l47",
+              "vilnaLine": 47
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "case",
+          "label": "Rav and the butcher",
+          "speaker": "Gemara",
+          "text": "Rav had a grievance against a butcher who would not come apologize. On Yom Kippur eve Rav went to appease HIM. Rav Huna warned: 'Abba is going to kill a man' - the butcher's end will be bad. Rav stood before him; the butcher, splitting an animal's head, looked up and said 'You are Abba? Go, I have nothing to say to you' - and a flying bone struck his throat and killed him, fulfilling Rav Huna's words.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l48",
+              "vilnaLine": 48
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "case",
+          "label": "Rav reading before Rabbi",
+          "speaker": "Gemara",
+          "text": "The Gemara turns to another episode: Rav was reciting the Torah portion before Rabbi (continued on 87b), setting up the long account of Rav repeatedly restarting the reading out of respect for arriving scholars.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087a-l51",
+              "vilnaLine": 51
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "verbal harm",
+        "insult",
+        "appeasement",
+        "interpersonal forgiveness"
+      ],
+      "concepts": {
+        "halachic": [
+          "verbal harm",
+          "insult"
+        ],
+        "theological": [
+          "Words harm too: verbal injury requires the same appeasement process as physical "
+        ],
+        "narrative": [
+          "One who angers a friend - even verbally - must appease them "
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of verbal harm context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "It is the offender's job alone to seek reconciliation; the wronged party just waits.",
+          "correction": "The wronged Sages actively made themselves available - Rabbi Zeira paced before the offender, Rav went to the butcher himself - lowering the barrier so the other could apologize. Reconciliation is a shared effort.",
+          "correctedByStepId": "step-05"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "One who angers a friend - even verbally - must app"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How many times must one ask a person for forgiveness, and what is the source?",
+          "a": "No more than three times, from the threefold 'please' in Joseph's brothers' plea, 'please forgive... and now please forgive' (Genesis 50:17). After three sincere requests, the offended party should relent."
+        },
+        {
+          "q": "What does one do if the person he wronged has already died?",
+          "a": "He brings ten people to the grave and declares before them: I have sinned against the Lord, God of Israel, and against this person whom I wronged. The public confession at the grave substitutes for appeasing the deceased directly."
+        },
+        {
+          "q": "What lesson does the story of Rav going to appease the butcher convey?",
+          "a": "That the wronged party - here Rav - took the initiative to seek reconciliation even when it was the offender's duty. It also shows the grave danger of refusing to be appeased: the butcher's contemptuous refusal preceded his sudden death."
+        }
+      ],
+      "finalRuling": "Even verbal harm to another person requires direct appeasement - if someone was insulted or hurt by words alone, the speaker must go and ask forgivene",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "בצבו נפשיה. ברצון עצמו: לקטלא אזיל. לישא עונש חטא שמא",
+      "en": "Rashi: the distinction between voluntary and coerced sin.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "ישגה בדין ועל עצמו אמר כן: וצבו ביתיה לית הוא עביד. בכל",
+      "en": "Rashi: Yom Kippur does not atone for interpersonal sins without direct appeasement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "זה לא יעשה צורכי ביתו ולא ישתכר כלום בדבר: ולואי שתהא",
+      "en": "Rashi: YK atones for sins between person and God; not for sins against another person.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "ביאה. שישוב ויכנס לביתו בלא חטא כיציאה: אמבוהא. גדודי",
+      "en": "Rashi: communal relational sins with a Godward dimension can be atoned by YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "בני אדם הולכין אחריו לכבודו: אם",
+      "en": "Rashi: even verbal insult requires direct appeasement before YK can atone.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "יעלה לשמים שיאו וגו' סופו כגללו",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "לנצח יאבד. וכל זה אמר שלא תזוח",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "דעתו: מכתפי ליה. זקן היה ונושאין",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "אותו באלנקי בכתפיהם בבית המדרש",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "שלא להטריח את הציבור לקום מפניו:",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "שנאמר הנותרים. אלמא אף הן היו",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "ראויין לישרף ונותרו: אין חטא בא על",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "ידו. הקב\"ה מדחה מפניו את העבירה",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "שלא תבא לידו: כי לא תעזוב נפשי.",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "למדנו שהקב\"ה מונע את החטא",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "מלהכשילו: עשוק בדם נפש. מחויב",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "בנפש שאבדה על ידו: אל יתמכו בו.",
+      "en": "Rashi explains the opening discussion of this topic on 87a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "שלא יפול אלא מניחין אותו ויפול בבור",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "בגיהנם: כדרב הונא. דכיון דחטא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "תרי זימני שוב אין מספיקין בידו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "לעשות תשובה לפי שהעבירה דומה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "עליו היתר: לימא דלא כרבי. דאמר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "לעיל אפי' לא עשה תשובה מכפר:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "אגב שאני. מאחר שעליו הוא סומך",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "לחטוא אינו מכפר: והכתיב ופללו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "אלהים. וקא סלקא דעתך ופללו לשון",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "תפלה ופיוס הוא שהקב\"ה מפללו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "ומפייסו ומכפר לו: מאן אלהים דיין.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "והאי ופללו לשון ונתן בפלילים (שמות",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "כא) הדיין ישפוט ביניהם: אי הכי.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "דפללו דקרא לשון משפט נינהו אימא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "סיפא מי יתפלל לו מי ישפטנו בשביל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "המקום וכי אין שלוחין הרבה למקום",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "ליפרע הימנו: הכי קאמר. הכי נמי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "דפילול דקרא לשון פיוס הוא והכי קאמר אם יחטא איש לאיש ופללו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "לחבירו וריצהו האלהים ימחול לו: ואם לה' יחטא איש מי יתפלל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "בעדו. אם אינו שב מעבירות שבידו כך היה עלי הכהן מוכיח",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "את בניו שישובו מרעתם: בני אם ערבת לרעך תקעת לזר כפיך.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "בשביל זר לערבו בממון או אם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "נוקשת באמרי פיך שהקנטתו בדברים",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "עשה זאת והנצל כי באת בכף רעך על",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "עסקי ממון: לך התרפס. יד ופרע לו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "ועל מוקש אמרי פיך אם הקנטתו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "רהב רעיך הרבה רעים לבקש הימנו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "מחילה. רעיך בתרא דקרא מלא כתיב",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "לפי שהוא לשון רבים: בשלש שורות.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "שלש פעמים יפייסוהו בשלשה אנשים",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "בכל פעם שנאמר ישור לשון שורה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "ואין שורה פחותה משלשה בני אדם :",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "חטאתי. הרי פעם אחת וישר העויתי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "הרי שתים ולא שוה לי הרי שלשה:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "אנא שא נא ועתה שא נא. אין נא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "אלא לשון בקשה: הוה ליה מילתא",
+      "en": "Rashi glosses 'na' (please): it is only a language of request, not a command. He then sets up the next episode - R. Abba had a grievance against R. Yirmiyah who had wronged him.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "לר' אבא בהדיה. ר' אבא היה לו",
+      "en": "Rashi explains: R. Abba had a grievance against R. Yirmiyah - R. Abba was the aggrieved party, and R. Yirmiyah had wronged him and needed to seek appeasement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "להתרעם על ר' ירמיה שחטא לו אזל",
+      "en": "Rashi: R. Abba had cause to resent R. Yirmiyah because R. Yirmiyah had sinned against him. So R. Yirmiyah went to seek forgiveness at R. Abba's door.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "ר' ירמיה איתיב אדשא דר' אבא:",
+      "en": "Rashi glosses the term: R. Yirmiyah sat at the door (threshold) of R. Abba's house, waiting and humbling himself to be granted entry so he could beg forgiveness.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "זרזיפי דמיא. התזת טיפי שופכין",
+      "en": "Rashi glosses 'zarzifei de-maya': it means the spattering of droplets - the splashing of dirty wastewater that the maid threw out and which landed on R. Yirmiyah's head.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "שהיתה השפחה שופכת וזרזיפי טיפין",
+      "en": "Rashi continues: 'zarzifei' means droplets - the maid was pouring out slops and the scattered drops hit R. Yirmiyah. Rashi cites a parallel usage to confirm the meaning.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "ודומה לו כרביבים זרזיף ארץ בספר",
+      "en": "Rashi cites a parallel: 'like raindrops that spatter the earth' - found in Psalms (72) - confirming that 'zarzif' denotes scattered droplets. This establishes the Aramaic term's meaning from a biblical cognate.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "תהלים (עב) : ממציא נפשיה. לפני",
+      "en": "Rashi glosses 'mamtzi nafshei' (presents himself): R. Zeira would make himself available - positioning himself before the one who wronged him so that person could easily approach to ask forgiveness.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "מי שחטא לו אולי יבקש ממנו מחילה",
+      "en": "Rashi explains R. Zeira's practice: he would present himself before the one who sinned against him, hoping that person would approach to ask forgiveness and he could readily grant it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "וימחול לו: חליף ותני. עובר ושונה",
+      "en": "Rashi glosses 'chalif ve-tani' (passes and repeats): it means one who commits a sin, repeats it, and does so a third time and many more - the pattern of habitual transgression that becomes entrenched.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "he": "ומשלש פעמים רבות: בהדי טבחא.",
+      "en": "Rashi: 'from three times and more' indicates the sin is now deeply habitual. He then identifies the context for the Rav story: it was with a butcher - the butcher had wronged Rav.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "he": "הטבח חטא לו: קאזיל אבא.",
+      "en": "Rashi: the butcher had sinned against Rav. 'Abba' in Rav Huna's warning refers to Rav himself - 'Abba' was Rav's personal name.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "he": "רביה: למקטל נפשיה. עכשיו הוא",
+      "en": "Rashi glosses 'le-miktol nafshei' (to kill himself): Rav Huna means that Rav's going to appease the butcher will now bring divine punishment of death upon that butcher for his contemptuous refusal.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "he": "מענישו למות: תבר רישא. משבר",
+      "en": "Rashi: 'he is now punishing him to die.' He then glosses 'tavar reisha' - the butcher was in the middle of splitting open a skull of an animal with his cleaver.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "he": "עצמות ראש של בהמה: בקועיה.",
+      "en": "Rashi: 'tavar reisha' means breaking the bones of an animal's head. He then glosses 'be-veku'ah' - a bone splinter flew up and lodged in the butcher's throat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 68,
+      "he": "בגרגרתו: סידרא. פרשת מקרא",
+      "en": "Rashi: the bone lodged in his windpipe (gargarto) and killed him. He also glosses 'sidra' - it means a passage or reading from Scripture, specifically a section of the Prophets or the Writings that Rav was reciting before Rabbi.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 69,
+      "he": "של נביאים או של כתובים:",
+      "en": "Rashi clarifies: the 'sidra' (reading) Rav was reciting before Rabbi was from the Prophets or from the Writings - not a Torah portion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 70,
+      "he": "אתא",
+      "en": "Rashi: 'he came' - a transitional word marking the arrival of the next figure in the story, setting up the continuation of the narrative that follows on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

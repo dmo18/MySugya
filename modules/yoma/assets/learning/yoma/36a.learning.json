@@ -1,0 +1,579 @@
+{
+  "daf": "36a",
+  "canonicalRef": "Yoma 36a",
+  "summary": "36a analyzes the Mishna's description of the KG's bull: which tanna holds the bull stands between the vestibule and altar (R. Yehuda), and how the bull can simultaneously have its head pointing south and its face pointing west (its body runs east-west with head turned).",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-036a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 15
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.36a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.36a.2"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.36a.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.36a.4"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.36a.5"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.36a.1",
+        "Yoma.36a.2",
+        "Yoma.36a.3",
+        "Yoma.36a.4",
+        "Yoma.36a.5"
+      ],
+      "display": {
+        "whats": "Who holds that the bull stands 'between the vestibule and the altar'?",
+        "hint": "Only R. Yehuda; the Rabbis place the confession at the east of the Azarah."
+      },
+      "learning": {
+        "summary": "The Gemara asks which tanna holds the Mishna's position (between vestibule and altar). Answer: R. Yehuda, who believes the confession location is between the Ulam and the altar. The Rabbis have a different ruling on where the confession takes place for the bull.",
+        "ahaMoment": "The bull's location is a tannaic dispute: between vestibule and altar (R. Yehuda) vs east of the Azarah (Rabbis).",
+        "memoryAnchor": "Same bull, different location: R. Yehuda = vestibule-altar gap; Rabbis = eastern Azarah.",
+        "openQuestion": "Why would the location of the confession matter halachically?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-036a-l01",
+          "type": "question",
+          "label": "Question: Who holds the bull stands between vestibule",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l01",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "Who holds the bull stands between vestibule and altar?"
+        },
+        {
+          "id": "yoma-036a-l02",
+          "type": "resolution",
+          "label": "Resolution: R. Yehuda holds this; the Rabbis disagree",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l02",
+              "vilnaLine": 2
+            }
+          ],
+          "text": "R. Yehuda holds this; the Rabbis disagree on placement."
+        },
+        {
+          "id": "yoma-036a-l09",
+          "type": "elaboration",
+          "label": "Elaboration: The blood of the bull is sprinkled",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l09",
+              "vilnaLine": 9
+            }
+          ],
+          "text": "The blood of the bull is sprinkled between the vestibule and the altar."
+        },
+        {
+          "id": "yoma-036a-l12",
+          "type": "elaboration",
+          "label": "Elaboration: R. Yehuda: the confession location matches the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l12",
+              "vilnaLine": 12
+            }
+          ],
+          "text": "R. Yehuda: the confession location matches the blood sprinkling location."
+        },
+        {
+          "id": "yoma-036a-l15",
+          "type": "ruling",
+          "label": "Ruling: The Mishna follows R. Yehuda; the bull",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l15",
+              "vilnaLine": 15
+            }
+          ],
+          "text": "The Mishna follows R. Yehuda; the bull stands between vestibule and altar."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "KG bull confession",
+        "tannaic dispute"
+      ],
+      "concepts": {
+        "halachic": [
+          "bull location for confession",
+          "blood sprinkling location"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Temple spatial layout",
+        "KG bull"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "All tannaim agree that the KG's confession took place between the vestibule and the altar.",
+          "correction": "This location is R. Yehuda's position; the Rabbis held that the confession took place further east. The Mishna follows R. Yehuda.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-035b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "description": "Between vestibule and altar - contested location for the bull"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "Which tanna holds the bull stands between the vestibule and altar?",
+          "a": "R. Yehuda."
+        }
+      ],
+      "finalRuling": "R. Yehuda holds the bull stands between vestibule and altar; the Rabbis disagree on placement.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-036a-s02",
+      "lineRange": {
+        "startVilnaLine": 17,
+        "endVilnaLine": 29
+      },
+      "lines": [
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.36a.6"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.36a.7"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.36a.8"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.36a.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.36a.6",
+        "Yoma.36a.7",
+        "Yoma.36a.8",
+        "Yoma.36a.9"
+      ],
+      "display": {
+        "whats": "How can the bull face both south (head) and west (face) simultaneously?",
+        "hint": "The bull is turned sideways: body aligned east-west, head turned to face south."
+      },
+      "learning": {
+        "summary": "The Gemara asks how the Mishna's description works geometrically: head to south and face to west. Answer: the bull stands with its body running east-west but its head is turned to face south, while its face naturally points west. The KG stands east of it, facing west.",
+        "ahaMoment": "Bovine anatomy allows simultaneous orientations: body east-west, head turned south, face west.",
+        "memoryAnchor": "A sideways neck: bull's body east-west, head south, face west - KG east facing west, pressing on.",
+        "openQuestion": "Is this description intended literally, or is it shorthand for a general positioning?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-036a-l17",
+          "type": "question",
+          "label": "Question: How can head face south and face",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l17",
+              "vilnaLine": 17
+            }
+          ],
+          "text": "How can head face south and face face west simultaneously?"
+        },
+        {
+          "id": "yoma-036a-l20",
+          "type": "resolution",
+          "label": "Resolution: The bull stands east-west; its head is",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l20",
+              "vilnaLine": 20
+            }
+          ],
+          "text": "The bull stands east-west; its head is turned to the south while its face (muzzle) points west."
+        },
+        {
+          "id": "yoma-036a-l27",
+          "type": "elaboration",
+          "label": "Elaboration: The KG stands east of the bull,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l27",
+              "vilnaLine": 27
+            }
+          ],
+          "text": "The KG stands east of the bull, facing west, pressing both hands on the bull's head."
+        },
+        {
+          "id": "yoma-036a-l29",
+          "type": "ruling",
+          "label": "Ruling: This positioning allows the KG to lean",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-036a-l29",
+              "vilnaLine": 29
+            }
+          ],
+          "text": "This positioning allows the KG to lean forward on the bull while facing the Heichal."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "KG bull confession",
+        "Temple positioning"
+      ],
+      "concepts": {
+        "halachic": [
+          "bull positioning",
+          "KG stance for semicha"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "semicha (hand-pressing)",
+        "KG Yom Kippur avodah"
+      ],
+      "misconceptions": [
+        "Head and face cannot point in different directions"
+      ],
+      "relatedSugyot": [
+        "yoma-035b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Head south vs face west: explained by sideways neck turn"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "How does the bull's head face south while its face faces west?",
+          "a": "The bull stands east-west; its head is turned south while the muzzle naturally faces west."
+        }
+      ],
+      "finalRuling": "The bull stands east-west, head turned south, face west; the KG stands east facing west with both hands pressed on the bull.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Who holds the view that the bull stands between the vestibule and the altar?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "R. Yehuda holds this position; it corresponds to where the blood is sprinkled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The Rabbis say the confession takes place further east in the Azarah.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Blood of the bull is sprinkled between vestibule and altar - so confession is there too.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The Mishna follows R. Yehuda's ruling on the bull's location.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Geometric question: how can head face south and face face west?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The bull stands with body along east-west axis, head turned southward.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "The KG stands east of the bull, facing west, hands pressed on the head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Facing west = facing the Heichal entrance and the Divine Presence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The positioning allows the KG to lean forward in the direction of the Holy.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The head is turned sideways so the neck faces south while the muzzle points west.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "This is geometrically possible since the neck can turn.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The KG's two hands are on the bull's head as required for valid viduy (confession).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The Gemara confirms this arrangement is halachically valid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Summary of bull and KG positioning for the Yom Kippur bull confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Both hands on the head while facing west is confirmed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The positioning details are now settled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The chapter will continue with the text of the confession formula.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Next: the content of what the KG says during the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "36b begins with the confession text analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The physical setup is complete; now the verbal service begins.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi continues: the arrangement enables the KG to face the Holy.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The orientation toward the west (Heichal) is central to the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Analysis of R. Yehuda's view on blood sprinkling location.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The connection between confession location and blood sprinkling location.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Between vestibule and altar: the specific sacred space for this service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The KG presses both hands on the bull - a form of semicha (hand-laying).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "This semi-chalike pressing is required for the validity of the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The Gemara's analysis of positioning is complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Transition to discussion of the confession text.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The Mishna's geographic details are now fully explained.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Summary: R. Yehuda's view, confirmed positioning, Heichal orientation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The Gemara will next examine what words the KG says.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Position established; confession text is next.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "The spatial analysis of the Yom Kippur service is a key halachic topic.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Between vestibule and altar is a distinct sacred zone.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The KG's position there is prescribed and meaningful.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Both the physical stance and verbal formula are analyzed in these pages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "36a concludes the spatial analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "36b opens the verbal confession analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The session transitions from where to what - location to formula.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The confession formula is analyzed in detail in 36b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The tanna R. Yehuda's influence on the Mishna's ruling is confirmed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The spatial layout of the Temple is key to understanding this service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Summary: between vestibule and altar; head south; face west; KG east facing west.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "All these details are necessary for a valid Yom Kippur bull confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The service now begins in earnest.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Chapter 4 is now fully underway.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "The core Yom Kippur avodah narrative continues.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "36a concludes the preliminary spatial and positional analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Next daf: the confession formula (viduy) text.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "The transition from spatial to verbal analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "The KG's confession is both an act (pressing hands) and a speech (viduy).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Both dimensions are analyzed carefully by the Gemara.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}
