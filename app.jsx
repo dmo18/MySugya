@@ -1232,15 +1232,200 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
 }
 
 // =============================================================================
+// LANDING PAGE — shown when no ?module= param is present
+// =============================================================================
+
+const SEDER_LABELS = {
+  Moed:    { he: "מוֹעֵד",    en: "Festivals" },
+  Nashim:  { he: "נָשִׁים",   en: "Women" },
+  Nezikin: { he: "נְזִיקִין", en: "Damages" },
+  Zeraim:  { he: "זְרָעִים",  en: "Seeds" },
+  Kodashim:{ he: "קֳדָשִׁים", en: "Holy Things" },
+  Taharot: { he: "טָהֳרוֹת",  en: "Purities" },
+};
+
+function TractateCard({ mod }) {
+  const seder = SEDER_LABELS[mod.seder] || { he: mod.seder, en: mod.seder };
+  const url = "?module=" + mod.id;
+  return (
+    <a className="tractate-card" href={url} aria-label={"Study " + mod.title}>
+      <div className="tc-seder">
+        <span className="tc-seder-he" lang="he" dir="rtl">{seder.he}</span>
+        <span className="tc-seder-en">Seder {mod.seder} · {seder.en}</span>
+      </div>
+      <div className="tc-title-row">
+        <span className="tc-title-he" lang="he" dir="rtl">{mod.title_he}</span>
+        <span className="tc-title-en">{mod.title}</span>
+      </div>
+      <div className="tc-stats">
+        <span className="tc-stat"><strong>{mod.totalDaf}</strong> amudim</span>
+        <span className="tc-stat-sep">·</span>
+        <span className="tc-stat">Daf {mod.dafRange.first} – {mod.dafRange.last}</span>
+      </div>
+      <div className="tc-cta">Begin studying <span aria-hidden="true">→</span></div>
+    </a>
+  );
+}
+
+function LandingPage() {
+  return (
+    <div className="landing">
+
+      <header className="landing-chrome">
+        <div className="brand">
+          <div className="brand-mark">ס</div>
+          <span className="brand-name">My Sugya</span>
+        </div>
+        <span className="landing-tagline-top">Understand the Talmud. One sugya at a time.</span>
+      </header>
+
+      <section className="landing-hero">
+        <div className="landing-hero-inner">
+          <p className="landing-hero-eyebrow">Babylonian Talmud · Interactive Study</p>
+          <h1 className="landing-hero-title">
+            <span className="lht-en">The Gemara,</span>
+            <span className="lht-he" lang="he" dir="rtl">הַגְּמָרָא</span>
+            <span className="lht-en">unlocked.</span>
+          </h1>
+          <p className="landing-hero-sub">
+            Each daf broken into labeled sugyot with interlinear Hebrew-English,
+            Rashi, argument flow, glossary, and progress tracking. No logins, no
+            subscriptions — just the text.
+          </p>
+          <div className="landing-stats-bar">
+            <div className="lsb-item">
+              <span className="lsb-num">492</span>
+              <span className="lsb-label">enriched sugyot</span>
+            </div>
+            <div className="lsb-div"/>
+            <div className="lsb-item">
+              <span className="lsb-num">8,854</span>
+              <span className="lsb-label">Rashi lines</span>
+            </div>
+            <div className="lsb-div"/>
+            <div className="lsb-item">
+              <span className="lsb-num">173</span>
+              <span className="lsb-label">amudim</span>
+            </div>
+            <div className="lsb-div"/>
+            <div className="lsb-item">
+              <span className="lsb-num">8</span>
+              <span className="lsb-label">perakim</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="landing-hero-deco" aria-hidden="true">
+          <div className="lhd-folio">
+            <div className="lhd-folio-inner">
+              <p className="lhd-tractate">מַסֶּכֶת יוֹמָא</p>
+              <div className="lhd-rule"/>
+              <p className="lhd-ref">יב, ב</p>
+              <p className="lhd-line">אָמַר רַב יְהוּדָה אָמַר שְׁמוּאֵל</p>
+              <p className="lhd-line">כׇּל כְּהוּנָה שֶׁמִּינָה אוֹתָהּ</p>
+              <p className="lhd-line">שַׁבְּתָאי בֶּן מַרְיָנוּס</p>
+              <div className="lhd-rule"/>
+              <p className="lhd-en-preview">A Talmudic discussion on<br/>priestly appointment</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="landing-how">
+        <div className="landing-section-inner">
+          <h2 className="landing-section-title">How it works</h2>
+          <div className="landing-features">
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Sugya-by-sugya</strong>
+              <p>Each daf is divided into labeled units of discussion. Navigate by sugya, not just by line.</p>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Interlinear text</strong>
+              <p>Hebrew with full nekudot alongside English translation. Toggle vowel marks on or off.</p>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Argument flow</strong>
+              <p>Each sugya maps the logical moves: question, proof, objection, resolution.</p>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Rashi inline</strong>
+              <p>Every daf includes Rashi's commentary with Vilna line references and English helpers.</p>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Glossary per daf</strong>
+              <p>Key Aramaic and Hebrew terms defined in context, with transliterations.</p>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">⬩</span>
+              <strong>Progress tracking</strong>
+              <p>Bookmark daf, mark complete, resume where you left off — all stored locally.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="landing-tractates">
+        <div className="landing-section-inner">
+          <h2 className="landing-section-title">
+            Choose your Masechta
+            <span className="lst-he" lang="he" dir="rtl">בְּחַר מַסֶּכֶת</span>
+          </h2>
+          <p className="landing-section-sub">
+            Select a tractate below to begin. More are in preparation.
+          </p>
+          <div className="tractate-grid">
+            {MYSUGYA_MANIFEST.map(mod => <TractateCard key={mod.id} mod={mod}/>)}
+            <div className="tractate-card tc-coming-soon" aria-hidden="true">
+              <div className="tc-seder">
+                <span className="tc-seder-en">Coming soon</span>
+              </div>
+              <div className="tc-title-row">
+                <span className="tc-title-he" lang="he" dir="rtl">בְּרָכוֹת</span>
+                <span className="tc-title-en">Berakhot</span>
+              </div>
+              <div className="tc-stats">
+                <span className="tc-stat">Seder Zeraim</span>
+              </div>
+              <div className="tc-cta tc-cta--mute">In preparation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="landing-footer">
+        <div className="landing-footer-inner">
+          <span className="footer-dedication" lang="he" dir="rtl">לרפואת יעקב בן דינה · לעילוי נשמת אהרן בן יהודה ואהרן בן יוסף</span>
+          <span className="lf-version">v{MYSUGYA_MANIFEST[0]?.dataVersion || ""}</span>
+        </div>
+      </footer>
+
+    </div>
+  );
+}
+
+// =============================================================================
 // MOUNT — dynamic module loading
 // =============================================================================
 (function() {
   const qp = new URLSearchParams(window.location.search);
-  const moduleId = qp.get("module") || (MYSUGYA_MANIFEST[0] && MYSUGYA_MANIFEST[0].id) || "yoma";
-  const mod = MYSUGYA_MANIFEST.find(function(m) { return m.id === moduleId; }) || MYSUGYA_MANIFEST[0];
+  const moduleId = qp.get("module");
+
+  if (!moduleId) {
+    const rootEl = ReactDOM.createRoot(document.getElementById("root"));
+    rootEl.render(<LandingPage/>);
+    return;
+  }
+
+  const mod = MYSUGYA_MANIFEST.find(function(m) { return m.id === moduleId; });
 
   if (!mod) {
-    document.getElementById("root").innerHTML = '<p style="padding:2rem;font-family:sans-serif">No module configured in manifest.</p>';
+    const rootEl = ReactDOM.createRoot(document.getElementById("root"));
+    rootEl.render(<LandingPage/>);
     return;
   }
 

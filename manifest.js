@@ -7,6 +7,6 @@ const MYSUGYA_MANIFEST = [
     dafRange: { first: "2a", last: "88a" },
     totalDaf: 173,
     dataScript: "modules/yoma/learning_data.js",
-    dataVersion: "10.76"
+    dataVersion: "10.77"
   }
 ];
