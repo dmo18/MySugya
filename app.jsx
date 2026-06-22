@@ -1249,20 +1249,29 @@ function TractateCard({ mod }) {
   const url = "?module=" + mod.id;
   return (
     <a className="tractate-card" href={url} aria-label={"Study " + mod.title}>
-      <div className="tc-seder">
-        <span className="tc-seder-he" lang="he" dir="rtl">{seder.he}</span>
-        <span className="tc-seder-en">Seder {mod.seder} · {seder.en}</span>
+      <div className="tc-header">
+        <span className="tc-seder-badge">
+          <span lang="he" dir="rtl">{seder.he}</span>
+          {" · "}{mod.seder}
+        </span>
       </div>
-      <div className="tc-title-row">
+      <div className="tc-body">
         <span className="tc-title-he" lang="he" dir="rtl">{mod.title_he}</span>
         <span className="tc-title-en">{mod.title}</span>
+        <span className="tc-subtitle">
+          Seder {mod.seder} · {seder.en}
+        </span>
       </div>
       <div className="tc-stats">
         <span className="tc-stat"><strong>{mod.totalDaf}</strong> amudim</span>
-        <span className="tc-stat-sep">·</span>
+        <span className="tc-stat-sep" aria-hidden="true">·</span>
         <span className="tc-stat">Daf {mod.dafRange.first} – {mod.dafRange.last}</span>
+        <span className="tc-stat-sep" aria-hidden="true">·</span>
+        <span className="tc-stat"><strong>8</strong> perakim</span>
       </div>
-      <div className="tc-cta">Begin studying <span aria-hidden="true">→</span></div>
+      <div className="tc-footer">
+        <span className="tc-cta">Begin studying <span aria-hidden="true">→</span></span>
+      </div>
     </a>
   );
 }
@@ -1276,41 +1285,37 @@ function LandingPage() {
           <div className="brand-mark">ס</div>
           <span className="brand-name">My Sugya</span>
         </div>
-        <span className="landing-tagline-top">Understand the Talmud. One sugya at a time.</span>
+        <span className="landing-tagline-top">Talmud study, sugya by sugya</span>
       </header>
 
+      {/* HERO */}
       <section className="landing-hero">
         <div className="landing-hero-inner">
           <p className="landing-hero-eyebrow">Babylonian Talmud · Interactive Study</p>
           <h1 className="landing-hero-title">
-            <span className="lht-en">The Gemara,</span>
+            Understand the Gemara.
             <span className="lht-he" lang="he" dir="rtl">הַגְּמָרָא</span>
-            <span className="lht-en">unlocked.</span>
           </h1>
           <p className="landing-hero-sub">
-            Each daf broken into labeled sugyot with interlinear Hebrew-English,
-            Rashi, argument flow, glossary, and progress tracking. No logins, no
-            subscriptions — just the text.
+            Each daf is broken into labeled sugyot with interlinear Hebrew-English,
+            Rashi, argument flow, and glossary. No account needed.
           </p>
-          <div className="landing-stats-bar">
-            <div className="lsb-item">
-              <span className="lsb-num">492</span>
-              <span className="lsb-label">enriched sugyot</span>
+          <div className="landing-stats-grid">
+            <div className="lsg-item">
+              <span className="lsg-num">492</span>
+              <span className="lsg-label">enriched sugyot</span>
             </div>
-            <div className="lsb-div"/>
-            <div className="lsb-item">
-              <span className="lsb-num">8,854</span>
-              <span className="lsb-label">Rashi lines</span>
+            <div className="lsg-item">
+              <span className="lsg-num">8,854</span>
+              <span className="lsg-label">Rashi lines</span>
             </div>
-            <div className="lsb-div"/>
-            <div className="lsb-item">
-              <span className="lsb-num">173</span>
-              <span className="lsb-label">amudim</span>
+            <div className="lsg-item">
+              <span className="lsg-num">173</span>
+              <span className="lsg-label">amudim</span>
             </div>
-            <div className="lsb-div"/>
-            <div className="lsb-item">
-              <span className="lsb-num">8</span>
-              <span className="lsb-label">perakim</span>
+            <div className="lsg-item">
+              <span className="lsg-num">8</span>
+              <span className="lsg-label">perakim</span>
             </div>
           </div>
         </div>
@@ -1320,78 +1325,91 @@ function LandingPage() {
             <div className="lhd-folio-inner">
               <p className="lhd-tractate">מַסֶּכֶת יוֹמָא</p>
               <div className="lhd-rule"/>
-              <p className="lhd-ref">יב, ב</p>
+              <p className="lhd-ref">דף כ״ח עמוד ב׳</p>
               <p className="lhd-line">אָמַר רַב יְהוּדָה אָמַר שְׁמוּאֵל</p>
               <p className="lhd-line">כׇּל כְּהוּנָה שֶׁמִּינָה אוֹתָהּ</p>
               <p className="lhd-line">שַׁבְּתָאי בֶּן מַרְיָנוּס</p>
               <div className="lhd-rule"/>
-              <p className="lhd-en-preview">A Talmudic discussion on<br/>priestly appointment</p>
+              <p className="lhd-line lhd-line-en">On the appointment of the Kohen Gadol</p>
+              <p className="lhd-tag">Question · שְׁאֵלָה</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="landing-how">
-        <div className="landing-section-inner">
-          <h2 className="landing-section-title">How it works</h2>
-          <div className="landing-features">
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Sugya-by-sugya</strong>
-              <p>Each daf is divided into labeled units of discussion. Navigate by sugya, not just by line.</p>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Interlinear text</strong>
-              <p>Hebrew with full nekudot alongside English translation. Toggle vowel marks on or off.</p>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Argument flow</strong>
-              <p>Each sugya maps the logical moves: question, proof, objection, resolution.</p>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Rashi inline</strong>
-              <p>Every daf includes Rashi's commentary with Vilna line references and English helpers.</p>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Glossary per daf</strong>
-              <p>Key Aramaic and Hebrew terms defined in context, with transliterations.</p>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">⬩</span>
-              <strong>Progress tracking</strong>
-              <p>Bookmark daf, mark complete, resume where you left off — all stored locally.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      {/* TRACTATE PICKER — primary CTA, shown before features */}
       <section className="landing-tractates">
         <div className="landing-section-inner">
           <h2 className="landing-section-title">
-            Choose your Masechta
+            Choose a Masechta
             <span className="lst-he" lang="he" dir="rtl">בְּחַר מַסֶּכֶת</span>
           </h2>
-          <p className="landing-section-sub">
-            Select a tractate below to begin. More are in preparation.
-          </p>
+          <p className="landing-section-sub">Select a tractate to begin. More coming soon.</p>
           <div className="tractate-grid">
             {MYSUGYA_MANIFEST.map(mod => <TractateCard key={mod.id} mod={mod}/>)}
             <div className="tractate-card tc-coming-soon" aria-hidden="true">
-              <div className="tc-seder">
-                <span className="tc-seder-en">Coming soon</span>
+              <div className="tc-header">
+                <span className="tc-seder-badge">Coming soon</span>
               </div>
-              <div className="tc-title-row">
+              <div className="tc-body">
                 <span className="tc-title-he" lang="he" dir="rtl">בְּרָכוֹת</span>
                 <span className="tc-title-en">Berakhot</span>
+                <span className="tc-subtitle">Seder Zeraim · Prayers and blessings</span>
               </div>
-              <div className="tc-stats">
-                <span className="tc-stat">Seder Zeraim</span>
+              <div className="tc-footer">
+                <span className="tc-cta tc-cta--mute">In preparation</span>
               </div>
-              <div className="tc-cta tc-cta--mute">In preparation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FEATURES */}
+      <section className="landing-how">
+        <div className="landing-section-inner">
+          <h2 className="landing-section-title">What you get</h2>
+          <div className="landing-features">
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">§</span>
+              <div className="lf-text">
+                <strong>Sugya structure</strong>
+                <p>Each daf split into labeled discussion units. Navigate by topic, not just by line.</p>
+              </div>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">א</span>
+              <div className="lf-text">
+                <strong>Interlinear Hebrew-English</strong>
+                <p>Full nekudot with Sefaria-sourced English. Toggle vowel marks anytime.</p>
+              </div>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">↯</span>
+              <div className="lf-text">
+                <strong>Argument flow</strong>
+                <p>Question, proof, objection, resolution - mapped for every sugya.</p>
+              </div>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon lf-icon--he" aria-hidden="true">רש"י</span>
+              <div className="lf-text">
+                <strong>Rashi commentary</strong>
+                <p>All Rashi lines with Vilna references and English helper translations.</p>
+              </div>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">מ</span>
+              <div className="lf-text">
+                <strong>Glossary per daf</strong>
+                <p>Aramaic and Hebrew key terms defined in context, with transliterations.</p>
+              </div>
+            </div>
+            <div className="lf-item">
+              <span className="lf-icon" aria-hidden="true">★</span>
+              <div className="lf-text">
+                <strong>Progress tracking</strong>
+                <p>Bookmark daf, mark complete, resume exactly where you left off - stored locally.</p>
+              </div>
             </div>
           </div>
         </div>
