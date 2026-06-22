@@ -359,17 +359,18 @@ function escHtml(s) {
 }
 
 // Pre-process all en: fields once at startup into a Map<raw, linkedHtml>
-const EN_CACHE = (() => {
-  const cache = new Map();
-  const addStr = s => { if (s && !cache.has(s)) cache.set(s, linkifyEn(s)); };
+// Initialized in s.onload after learning_data.js is available.
+let EN_CACHE = null;
+function initEnCache() {
+  EN_CACHE = new Map();
+  const addStr = s => { if (s && !EN_CACHE.has(s)) EN_CACHE.set(s, linkifyEn(s)); };
   for (const daf of Object.values(DAF_CONTENT)) {
     for (const sugya of (daf.sugyot || [])) {
       if (sugya.nusach)  { addStr(sugya.nusach.ashkenaz); addStr(sugya.nusach.sephardic); }
       for (const line of (sugya.lines || [])) if (line) addStr(line.en);
     }
   }
-  return cache;
-})();
+}
 
 function enHtml(s) { return EN_CACHE.get(s) ?? linkifyEn(s); }
 
@@ -922,7 +923,11 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
   );
 }
 
-const PEREK_BY_N = PERAKIM.reduce((acc, p) => { acc[p.n] = p; return acc; }, {});
+// Initialized in s.onload after learning_data.js is available.
+let PEREK_BY_N = null;
+function initPerekByN() {
+  PEREK_BY_N = PERAKIM.reduce((acc, p) => { acc[p.n] = p; return acc; }, {});
+}
 
 // =============================================================================
 // APP
@@ -1242,6 +1247,8 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
   const s = document.createElement("script");
   s.src = mod.dataScript + "?v=" + (mod.dataVersion || "1");
   s.onload = function() {
+    initEnCache();
+    initPerekByN();
     const rootEl = ReactDOM.createRoot(document.getElementById("root"));
     rootEl.render(<App/>);
   };
