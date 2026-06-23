@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "11.1",
+  "version": "11.3",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "test": "python3 tests/smoke/render_check.py",
@@ -11,6 +11,10 @@
     "audit:order:yoma": "cd modules/yoma && python3 scripts/order_audit.py",
     "validate:en:yoma": "cd modules/yoma && python3 scripts/validate_en.py",
     "validate:daftext:yoma": "cd modules/yoma && python3 scripts/validate_daftext.py",
-    "validate:rashi:yoma": "cd modules/yoma && python3 scripts/validate_rashi.py"
+    "validate:rashi:yoma": "cd modules/yoma && python3 scripts/validate_rashi.py",
+    "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
+    "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
+    "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",
+    "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status"
   }
 }

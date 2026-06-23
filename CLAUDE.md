@@ -2,6 +2,8 @@
 
 MySugya is a universal React Talmud study app. Tractates are loaded as self-contained modules. Yoma is the first module, frozen at v10.75 (173 daf, 492 sugyot, 8,854 rashiLines in runtime; 8,878 rashiTranslations in source enrichment layer).
 
+The `en_lit:` layer (literal translation) is in active development for Yoma. See the Literal Translation Pipeline section below.
+
 ---
 
 ## Universal rules (apply to all work)
@@ -11,7 +13,8 @@ MySugya is a universal React Talmud study app. Tractates are loaded as self-cont
 - On a fresh clone, run `git config core.hooksPath githooks` once so the pre-commit gate is active.
 - Bump the version on every commit: edit only `DATA_VERSION` in `modules/yoma/learning_data.js`. The pre-commit hook runs `scripts/sync_version.py`, which auto-updates VERSION, package.json, index.html cache busters, and manifest.js dataVersion.
 - At the end of every task, state the current version (from `DATA_VERSION` in `modules/yoma/learning_data.js` or the VERSION file).
-- Never fetch Sefaria or talmud.dev via WebFetch or sub-agents. Use `curl | python3` directly in Bash, sequentially.
+- For single-daf lookups and one-off checks: use `curl | python3` directly in Bash.
+- For bulk literal-translation fetches (en_lit pipeline): launch parallel sub-agents using the fetch scripts below. Each agent runs fetch_literal_en.py for its assigned daf range. Progress is tracked atomically in progress.json.
 - URL policy: always link the live site (https://mysugya.com/...) once the domain is configured. During transition: https://dmo18.github.io/MySugya/...
 - Yoma corpus is FROZEN. Do not modify any files under `modules/yoma/` without explicit approval.
 
@@ -90,6 +93,59 @@ python3 scripts/validate_sefaria.py
 ```
 
 See `modules/yoma/MODULE.md` for complete Yoma module docs.
+
+## Literal Translation Pipeline (Yoma en_lit)
+
+The `en_lit:` field stores a direct/literal rendering extracted from the William Davidson Edition. WD uses `<b>` tags for literal translation text; plain text is Steinsaltz editorial addition. Extracting only the bold portions gives a concise literal rendering.
+
+### Files
+
+```
+modules/yoma/
+  scripts/
+    fetch_literal_en.py    - fetch WD text from Sefaria, extract bold segments, save per-daf JSON
+    build_literal_layer.py - inject en_lit: fields from per-daf JSON into learning_data.js
+    validate_literal.py    - gate: verify en_lit coverage meets threshold (default 95%)
+  assets/literal_en/
+    <daf>.json             - raw fetch output: [{sefaria_ref, en_lit, source}]
+    progress.json          - completion tracking (updated atomically, safe for parallel agents)
+```
+
+### npm scripts (run from repo root)
+
+```
+npm run fetch:literal:yoma    - fetch all daf (--all --skip-existing)
+npm run build:literal:yoma    - inject en_lit into learning_data.js
+npm run validate:literal:yoma - gate check (>= 95% coverage)
+npm run status:literal:yoma   - show fetch progress without exiting non-zero
+```
+
+### Running parallel agents
+
+Split the 173 daf into ranges and launch agents concurrently. Example split:
+
+```
+Agent 1:  2a - 20b   (cd modules/yoma && python3 scripts/fetch_literal_en.py --range 2a 20b --skip-existing)
+Agent 2: 21a - 39b   (cd modules/yoma && python3 scripts/fetch_literal_en.py --range 21a 39b --skip-existing)
+Agent 3: 40a - 57b   (cd modules/yoma && python3 scripts/fetch_literal_en.py --range 40a 57b --skip-existing)
+Agent 4: 58a - 73b   (cd modules/yoma && python3 scripts/fetch_literal_en.py --range 58a 73b --skip-existing)
+Agent 5: 74a - 88a   (cd modules/yoma && python3 scripts/fetch_literal_en.py --range 74a 88a --skip-existing)
+```
+
+`progress.json` uses `fcntl.flock` for atomic updates - agents can run concurrently without conflict.
+
+### After all agents complete
+
+1. Check status: `npm run status:literal:yoma`
+2. Inject into learning_data.js: `npm run build:literal:yoma`
+3. Gate check: `npm run validate:literal:yoma`
+4. Bump DATA_VERSION in learning_data.js and commit.
+
+### Resuming a partial run
+
+Use `--skip-existing` - it skips any daf that already has a JSON file in `assets/literal_en/`. Rerun the same agent range command to resume.
+
+---
 
 ## Do not do these things
 
