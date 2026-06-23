@@ -750,6 +750,8 @@ body::before {
   text-underline-offset: 2px;
   white-space: nowrap;
 }
+.line-en-lit { border-left: 2px solid var(--accent-tint); padding-left: 8px; margin-top: 2px; font-style: italic; }
+.en-lit-label { font-style: normal; font-weight: 600; color: var(--accent); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 4px; }
 .line-en .src-flag {
   display: inline-flex; align-items: center; gap: 4px;
   font-family: var(--ff-mono);
