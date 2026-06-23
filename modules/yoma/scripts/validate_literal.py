@@ -31,7 +31,7 @@ def main():
 
     # Find line objects with sefaria_ref (Gemara text lines)
     line_blocks = re.findall(
-        r'\{[^{}]*?sefaria_ref:\s*"[^"]*"[^{}]*?\}',
+        r'\{(?:[^{}]|\{[^{}]*\})*?sefaria_ref:\s*"[^"]*"(?:[^{}]|\{[^{}]*\})*?\}',
         source, re.DOTALL
     )
 

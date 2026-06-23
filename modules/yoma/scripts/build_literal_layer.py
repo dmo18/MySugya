@@ -86,9 +86,9 @@ def inject(source: str, cache: dict[str, str]) -> tuple[str, int, int]:
             skipped += 1
         return new_block
 
-    # Match line objects (from opening { id: to closing })
+    # Match line objects that contain sefaria_ref, allowing one level of nested {} (e.g. commentaries)
     pattern = re.compile(
-        r'\{[^{}]*?sefaria_ref:\s*"[^"]*"[^{}]*?\}',
+        r'\{(?:[^{}]|\{[^{}]*\})*?sefaria_ref:\s*"[^"]*"(?:[^{}]|\{[^{}]*\})*?\}',
         re.DOTALL,
     )
     new_source = pattern.sub(replacer, source)
