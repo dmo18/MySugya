@@ -132,6 +132,23 @@ const __TWEAKS_STYLE = `
   .twk-btn.secondary{background:rgba(0,0,0,.06);color:inherit}
   .twk-btn.secondary:hover{background:rgba(0,0,0,.1)}
 
+  .twk-backdrop{display:none;position:fixed;inset:0;z-index:2147483645;
+    background:rgba(0,0,0,.35);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+
+  @media(max-width:540px){
+    .twk-backdrop{display:block}
+    .twk-panel{right:0!important;bottom:0!important;left:0;width:100%;max-width:100%;
+      border-radius:16px 16px 0 0;transform:none!important;
+      max-height:85vh;padding-bottom:env(safe-area-inset-bottom,0)}
+    .twk-hd{cursor:default;padding:8px 14px 12px}
+    .twk-panel::before{content:'';display:block;width:36px;height:4px;
+      border-radius:2px;background:rgba(0,0,0,.18);margin:10px auto 0}
+    .twk-row-h{min-height:40px}
+    .twk-toggle{width:38px;height:22px}
+    .twk-toggle i{width:18px;height:18px}
+    .twk-toggle[data-on="1"] i{transform:translateX(16px)}
+  }
+
   .twk-swatch{appearance:none;-webkit-appearance:none;width:56px;height:22px;
     border:.5px solid rgba(0,0,0,.1);border-radius:6px;padding:0;cursor:default;
     background:transparent;flex-shrink:0}
@@ -290,6 +307,7 @@ function TweaksPanel({ title = 'Tweaks', noDeckControls = false, children }) {
   return (
     <>
       <style>{__TWEAKS_STYLE}</style>
+      <div className="twk-backdrop" aria-hidden="true" onClick={dismiss} />
       <div ref={dragRef} className="twk-panel" data-noncommentable=""
            style={{ right: offsetRef.current.x, bottom: offsetRef.current.y }}>
         <div className="twk-hd" onMouseDown={onDragStart}>
@@ -347,11 +365,12 @@ function TweakSlider({ label, value, min = 0, max = 100, step = 1, unit = '', on
 
 function TweakToggle({ label, value, onChange }) {
   return (
-    <div className="twk-row twk-row-h">
+    <div className="twk-row twk-row-h" style={{cursor:'default'}}
+         onClick={() => onChange(!value)}>
       <div className="twk-lbl"><span>{label}</span></div>
       <button type="button" className="twk-toggle" data-on={value ? '1' : '0'}
-              role="switch" aria-checked={!!value}
-              onClick={() => onChange(!value)}><i /></button>
+              role="switch" aria-checked={!!value} tabIndex={-1}
+              onClick={e => e.stopPropagation()}><i /></button>
     </div>
   );
 }
