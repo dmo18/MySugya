@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "10.79",
+  "version": "11.0",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "test": "python3 tests/smoke/render_check.py",
