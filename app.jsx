@@ -148,7 +148,7 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
       <div className="chrome-inner">
 
         <div className="brand">
-          <div className="brand-mark">ס</div>
+          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>
           <span className="brand-name">My Sugya</span>
         </div>
 
@@ -1286,7 +1286,7 @@ function LandingPage() {
 
       <header className="landing-chrome">
         <div className="brand">
-          <div className="brand-mark">ס</div>
+          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>
           <span className="brand-name">My Sugya</span>
         </div>
         <span className="landing-tagline-top">Talmud study, sugya by sugya</span>

@@ -23,6 +23,7 @@ import unicodedata
 import urllib.request
 
 DATA_JS = "learning_data.js"
+SOURCE_STORE_JS = "source_store.js"
 
 
 def strip_html(s):
@@ -43,17 +44,51 @@ def letters_of(s):
     return "".join(ch for ch in unicodedata.normalize("NFC", s) if HEBL.match(ch))
 
 
+def read_json(url, user_agent, direct=False):
+    req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+    if direct:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        with opener.open(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def source_store_pairs(daf_id):
+    try:
+        with open(SOURCE_STORE_JS, encoding="utf-8") as f:
+            content = f.read()
+    except FileNotFoundError:
+        return [], []
+    pairs = [(norm(he), norm(en)) for _, daf, he, en in parse_pairs(content) if daf == daf_id]
+    return [he for he, _ in pairs], [en for _, en in pairs]
+
+
 def fetch(daf_id):
     url = f"https://www.sefaria.org/api/texts/Yoma.{daf_id}?context=0"
-    req = urllib.request.Request(url, headers={"User-Agent": "YomaValidator/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    he = [norm(s) for s in data.get("he", [])]
-    en = [norm(s) for s in data.get("text", [])]
+    first_error = None
+    last_error = None
+    for source, direct in (("live", False), ("live_no_proxy", True)):
+        try:
+            data = read_json(url, "YomaValidator/1.0", direct=direct)
+            he = [norm(s) for s in data.get("he", [])]
+            en = [norm(s) for s in data.get("text", [])]
+            break
+        except Exception as e:
+            if first_error is None:
+                first_error = e
+            last_error = e
+    else:
+        err = first_error if last_error == first_error else f"{first_error}; direct: {last_error}"
+        he, en = source_store_pairs(daf_id)
+        if not he:
+            raise first_error
+        source = f"source_store ({err})"
+
     # pad en to he length
     while len(en) < len(he):
         en.append("")
-    return he, en
+    return he, en, source
 
 
 def parse_pairs(content):
@@ -145,7 +180,11 @@ def main():
     for daf_id in sorted(by_daf, key=lambda x: (int(x[:-1]), x[-1])):
         print(f"  {daf_id:4s}", end=" ", flush=True)
         try:
-            he_segs, en_segs = fetch(daf_id)
+            he_segs, en_segs, source = fetch(daf_id)
+            if source == "live_no_proxy":
+                print("LIVE no_proxy", end=" ")
+            elif source.startswith("source_store"):
+                print(f"FALLBACK {source}", end=" ")
         except Exception as e:
             print(f"SKIP ({e})")
             continue

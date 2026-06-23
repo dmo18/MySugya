@@ -206,16 +206,60 @@ body::before {
 }
 .brand-mark {
   width: 28px; height: 28px;
-  display: grid; place-items: center;
+  position: relative;
+  display: block;
   background: var(--ink);
-  color: var(--bg);
   border-radius: var(--r-sm);
-  font-family: var(--ff-hebrew);
-  font-size: 18px;
-  line-height: 1;
-  font-weight: 500;
-  padding-bottom: 2px;
+  overflow: hidden;
 }
+.brand-mark-page {
+  position: absolute;
+  top: 7px;
+  bottom: 6px;
+  width: 9px;
+  background: var(--bg);
+  opacity: 0.94;
+}
+.brand-mark-page-left {
+  left: 5px;
+  border-radius: 2px 0 0 2px;
+  transform: skewY(5deg);
+}
+.brand-mark-page-right {
+  right: 5px;
+  border-radius: 0 2px 2px 0;
+  transform: skewY(-5deg);
+}
+.brand-mark::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 5px;
+  left: 13.5px;
+  width: 1px;
+  background: rgba(15, 22, 35, 0.42);
+}
+.brand-mark-path {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  height: 4px;
+  border-top: 2px solid var(--accent);
+  border-radius: 999px;
+}
+.brand-mark-path::before,
+.brand-mark-path::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 4px;
+  height: 4px;
+  background: #f59e0b;
+  border-radius: 50%;
+}
+.brand-mark-path::before { left: -2px; }
+.brand-mark-path::after { right: -2px; }
 .brand-name {
   font-family: var(--ff-display);
   font-weight: 600;

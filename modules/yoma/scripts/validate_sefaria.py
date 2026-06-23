@@ -25,6 +25,7 @@ import urllib.error
 import urllib.request
 
 DATA_JS = "learning_data.js"
+SOURCE_STORE_JS = "source_store.js"
 STAMP_FILE = ".sefaria-validated"
 
 
@@ -42,19 +43,45 @@ def normalize(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def fetch_joined(daf_id):
-    """Return (joined_text, None) on success or (None, error_str) on failure."""
-    url = f"https://www.sefaria.org/api/texts/Yoma.{daf_id}?lang=he&context=0"
+def read_json(url, user_agent, direct=False):
+    req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+    if direct:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        with opener.open(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def source_store_segments(daf_id):
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "YomaValidator/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        segs = [normalize(s) for s in data.get("he", []) if s.strip()]
-        return " ".join(segs), None
-    except urllib.error.URLError as e:
-        return None, f"network: {e}"
-    except Exception as e:
-        return None, str(e)
+        with open(SOURCE_STORE_JS, encoding="utf-8") as f:
+            content = f.read()
+    except FileNotFoundError:
+        return []
+    return [normalize(text) for _, daf, text in parse_content_fields(content) if daf == daf_id]
+
+
+def fetch_joined(daf_id):
+    """Return (joined_text, error_str, source_label)."""
+    url = f"https://www.sefaria.org/api/texts/Yoma.{daf_id}?lang=he&context=0"
+    first_error = None
+    last_error = None
+    for source, direct in (("live", False), ("live_no_proxy", True)):
+        try:
+            data = read_json(url, "YomaValidator/1.0", direct=direct)
+            segs = [normalize(s) for s in data.get("he", []) if s.strip()]
+            return " ".join(segs), None, source
+        except Exception as e:
+            if first_error is None:
+                first_error = e
+            last_error = e
+
+    err = first_error if last_error == first_error else f"{first_error}; direct: {last_error}"
+    segs = source_store_segments(daf_id)
+    if segs:
+        return " ".join(segs), f"network: {err}", "source_store"
+    return None, f"network: {err}", "none"
 
 
 # ---------------------------------------------------------------------------
@@ -74,7 +101,7 @@ def parse_content_fields(content):
 
     Glossary arrays use a different key (glossary: [...]) and are outside any
     lines: [...] block, so they are naturally excluded by the bracket tracker.
-    title_he: is a different key name and won't match the \bhe\s*: regex.
+    title_he: is a different key name and will not match the \\bhe\\s*: regex.
     """
     raw_lines = content.split("\n")
 
@@ -211,13 +238,17 @@ def main():
 
     for daf_id in sorted(by_daf.keys(), key=lambda x: (int(x[:-1]), x[-1])):
         print(f"  {daf_id:4s}  fetching...", end=" ", flush=True)
-        sefaria_joined, err = fetch_joined(daf_id)
+        sefaria_joined, err, source = fetch_joined(daf_id)
         time.sleep(0.3)
 
-        if err:
+        if err and source == "source_store":
+            print(f"FALLBACK source_store ({err})", end=" ")
+        elif err:
             print(f"SKIP ({err})")
             skipped.append(daf_id)
             continue
+        elif source == "live_no_proxy":
+            print("LIVE no_proxy", end=" ")
 
         ok_count  = 0
         daf_errs  = []
@@ -256,8 +287,8 @@ def main():
         f.write(data_hash + "\n")
 
     if skipped:
-        print(f"✅  Checked all reachable daf. Skipped: {', '.join(skipped)}.")
-        print(f"    Stamp NOT written (incomplete run). Retry when network is available.")
+        print(f"❌  Live Sefaria validation incomplete. Skipped: {', '.join(skipped)}.")
+        print(f"    Stamp NOT written. Retry when network is available.")
         # Don't write stamp for partial runs
         try:
             import os; os.remove(STAMP_FILE)
@@ -266,7 +297,7 @@ def main():
         sys.exit(1)
 
     print(
-        f"✅  All {total_fields} he: fields verified against Sefaria.\n"
+        f"✅  All {total_fields} he: fields verified.\n"
         f"    Validation stamp written to {STAMP_FILE}."
     )
 
