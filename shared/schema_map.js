@@ -111,7 +111,8 @@ const LEARNING_SCHEMA_MAP = {
     kind:         { type: "string",  status: "canonical", required: true,  purpose: "Line type (controlledValues.lineKind).", notes: "mishna | gemara | aside | baraita | tosefta" },
     he:           { type: "string",  status: "canonical", required: true,  purpose: "Verbatim Sefaria Hebrew for the segment.", notes: "VALIDATED. Character-for-character from Sefaria; may contain \\n for Vilna line breaks." },
     vilna_line:   { type: "number",  status: "canonical", required: true,  purpose: "Starting Vilna column line number.", notes: "Must sit on a separate physical line from he: (order_audit pairs them)." },
-    en:           { type: "string",  status: "canonical", required: false, purpose: "Verbatim Sefaria English for the same segment index.", notes: "VALIDATED by validate_en.py against the same Sefaria index as he." },
+    en:           { type: "string",  status: "canonical", required: false, purpose: "Verbatim Sefaria English for the same segment index (William Davidson elucidated).", notes: "VALIDATED by validate_en.py against the same Sefaria index as he." },
+    en_lit:       { type: "string",  status: "helper",    required: false, purpose: "Direct/literal rendering: bold-tagged segments extracted from the WD elucidated text.", notes: "Populated by fetch_literal_en.py + build_literal_layer.py. Bold (<b>) marks literal translation; plain text is Steinsaltz editorial addition. Coverage gated by validate_literal.py." },
     sefaria_ref:  { type: "string",  status: "canonical", required: false, purpose: "Sefaria segment ref, e.g. \"Yoma.2a.1\".", notes: "" },
     commentaries: { type: "object",  status: "optional",  required: false, purpose: "Per-line commentary hooks: { rashi: [], tosafot: [] }.", notes: "Currently empty placeholders; daf-level rashiLines carries the active Rashi layer." }
   },
