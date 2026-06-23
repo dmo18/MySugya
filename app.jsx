@@ -254,7 +254,7 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 // =============================================================================
 // LINE — interlinear Hebrew + English
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
@@ -280,14 +280,16 @@ function Line({ line, idx, showNekudot, showVilnaLines }) {
       ) : (
         <p className="line-he" lang="he" dir="rtl">{heText}</p>
       )}
-            <p className="line-en">
-        <span dangerouslySetInnerHTML={{__html: enHtml(line.en)}}/>
-        {line.flag && (
-          <span className="src-flag" title={line.flag}>
-            ⚠ Sources differ
-          </span>
-        )}
-      </p>
+      {showEnglish !== false && (
+        <p className="line-en">
+          <span dangerouslySetInnerHTML={{__html: enHtml(line.en)}}/>
+          {line.flag && (
+            <span className="src-flag" title={line.flag}>
+              ⚠ Sources differ
+            </span>
+          )}
+        </p>
+      )}
     </div>
   );
 }
@@ -538,6 +540,7 @@ function Sugya({ sugya, idx, total, tweaks }) {
             <Line key={i} line={line} idx={i}
               showNekudot={tweaks.nekudot}
               showVilnaLines={tweaks.vilnaLines}
+              showEnglish={tweaks.showEnglish}
             />
           ))}
         </div>
@@ -1141,6 +1144,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "fontSizeHe": 1.4,
   "fontSizeEn": 1.0,
   "nekudot": true,
+  "showEnglish": true,
   "vilnaLines": true,
   "gaugeBar": false,
   "timeline": false,
@@ -1210,6 +1214,7 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
       </TweakSection>
 
       <TweakSection label="Reading aids">
+        <TweakToggle label="English translation" value={tweaks.showEnglish} onChange={v => setTweak("showEnglish", v)}/>
         <TweakToggle label="Nekudot (vowel marks)" value={tweaks.nekudot} onChange={v => setTweak("nekudot", v)}/>
         <TweakToggle label="Vilna line numbers" value={tweaks.vilnaLines} onChange={v => setTweak("vilnaLines", v)}/>
       </TweakSection>
