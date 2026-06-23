@@ -852,21 +852,6 @@ body::before {
   color: var(--ink);
 }
 
-/* ----- Concept chips ----- */
-.concept-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
-}
-.concept-chip {
-  font-size: 0.78rem;
-  padding: 3px 9px;
-  border-radius: 12px;
-  background: #ede8df;
-  color: var(--ink);
-  border: 1px solid #d4ccc0;
-}
 
 /* ----- Sugya infographic ----- */
 .sugya-image {

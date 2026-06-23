@@ -494,21 +494,6 @@ function LearningPanel({ learning, display }) {
   );
 }
 
-function ConceptsPanel({ concepts }) {
-  if (!concepts) return null;
-  const { keyTerms, people, halacha } = concepts;
-  const terms = (keyTerms || []);
-  if (!terms.length) return null;
-  return (
-    <div className="learn-panel learn-concepts">
-      <span className="learn-label">Key concepts</span>
-      <div className="concept-chips">
-        {terms.map((t, i) => <span key={i} className="concept-chip">{t}</span>)}
-      </div>
-    </div>
-  );
-}
-
 // =============================================================================
 // SUGYA
 // =============================================================================
@@ -562,9 +547,6 @@ function Sugya({ sugya, idx, total, tweaks }) {
           <ArgumentFlowPanel steps={sugya.argumentFlow} />
         )}
 
-        {sugya.concepts && (
-          <ConceptsPanel concepts={sugya.concepts} />
-        )}
 
         <div className="chips">
           {sugya.image && (
