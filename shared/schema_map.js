@@ -42,7 +42,7 @@
    IMAGE GENERATION POLICY
    -----------------------
    Image prompts must be generated from the canonical knowledge fields in this
-   schema (argumentFlow, visualizableElements, learning, concepts) rather than
+   schema (argumentFlow, visualizableElements, learning) rather than
    from a separate editorial layer or invented analysis. The image is a
    rendering of what is already in the schema. Never store image prompts or
    image-specific descriptions inside learning_data.js.
@@ -128,7 +128,7 @@ const LEARNING_SCHEMA_MAP = {
     learning:     { type: "object",    status: "canonical", required: false, purpose: "Primary educational analysis of the sugya.", notes: "See learning sub-schema below. One angle per sugya; see Interpretation Policy above." },
     lines:        { type: "line[]",    status: "canonical", required: true,  purpose: "Ordered Gemara lines (the STRICT source layer).", notes: "See line above." },
     argumentFlow: { type: "object[]",  status: "canonical", required: false, purpose: "Typed reasoning steps tracing the Gemara's argument.", notes: "See argumentFlow sub-schema below." },
-    concepts:     { type: "object",    status: "canonical", required: false, purpose: "Structured knowledge entities referenced by the sugya.", notes: "Shape: { people?, places?, objects?, halacha?, reasoning?, keyTerms? }. keyTerms is a flat string array for quick display; the others group entity ids by category." },
+    concepts:     { type: "object",    status: "removed",   required: false, purpose: "Removed. Was structured knowledge entities; field is no longer rendered.", notes: "Data remains in source JSON for some sugyot but is not displayed. ConceptsPanel UI component removed." },
     conceptRefs:  { type: "string[]",  status: "optional",  required: false, purpose: "Ids into a shared cross-tractate concept store.", notes: "Not yet populated. Reserved for future semantic navigation." },
     requiresUnderstanding: { type: "string[]", status: "optional", required: false, purpose: "Sugya ids that should be understood before this one.", notes: "Used for learning path ordering and tutor context." },
     topicTags:    { type: "string[]",  status: "canonical", required: false, purpose: "Normalized ASCII topic slugs for search and filtering.", notes: "4-6 slugs per sugya, lowercase, hyphen-separated (e.g. 'gezera-shavah', 'kohen-gadol'). Used by search, learning-path grouping, and semantic navigation." },
