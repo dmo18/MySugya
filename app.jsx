@@ -1211,7 +1211,9 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
 
       <TweakSection label="Reading aids">
         <TweakToggle label="English (elucidated)" value={tweaks.showEnglish} onChange={v => setTweak("showEnglish", v)}/>
-        <TweakToggle label="Bold literal text" value={tweaks.boldLiteral} onChange={v => setTweak("boldLiteral", v)}/>
+        {tweaks.showEnglish && (
+          <TweakToggle label="Bold literal text" value={tweaks.boldLiteral} onChange={v => setTweak("boldLiteral", v)}/>
+        )}
         <TweakToggle label="Nekudot (vowel marks)" value={tweaks.nekudot} onChange={v => setTweak("nekudot", v)}/>
         <TweakToggle label="Vilna line numbers" value={tweaks.vilnaLines} onChange={v => setTweak("vilnaLines", v)}/>
       </TweakSection>
