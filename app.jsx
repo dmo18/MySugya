@@ -252,38 +252,9 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 }
 
 // =============================================================================
-// INTERLINEAR — Hebrew word over English gloss, RTL flow
+// LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function InterlinearLine({ heText, enLit, vilnaLine, showVilnaLines }) {
-  const heWords = heText.split(/[\s\n]+/).filter(w => w.trim());
-  const enTokens = enLit ? enLit.trim().split(/\s+/).filter(Boolean) : [];
-  const n = heWords.length;
-  const m = enTokens.length;
-  return (
-    <div className="interlinear" dir="rtl">
-      {heWords.map((hw, i) => {
-        const start = m > 0 ? Math.round(i * m / n) : 0;
-        const end   = m > 0 ? Math.round((i + 1) * m / n) : 0;
-        const gloss = enTokens.slice(start, end).join(' ');
-        const vilnaNum = vilnaLine != null ? vilnaLine + i : null;
-        return (
-          <span key={i} className="il-pair">
-            <span className="il-he" lang="he">{hw}</span>
-            {showVilnaLines && vilnaNum != null && i === 0 && (
-              <span className="vilna-row-num il-vl">{vilnaNum}</span>
-            )}
-            <span className="il-en" lang="en" dir="ltr">{gloss || ' '}</span>
-          </span>
-        );
-      })}
-    </div>
-  );
-}
-
-// =============================================================================
-// LINE — interlinear Hebrew + English
-// =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglishLit }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
@@ -295,14 +266,7 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglish
         <span>{tag.en}</span>
         <span className="tag-he">{tag.he}</span>
       </div>
-      {showEnglishLit && line.en_lit ? (
-        <InterlinearLine
-          heText={heText}
-          enLit={line.en_lit}
-          vilnaLine={hasVilna ? line.vilna_line : null}
-          showVilnaLines={showVilnaLines}
-        />
-      ) : hasVilna ? (
+      {hasVilna ? (
         <div className="line-he" lang="he" dir="rtl">
           {heText.split("\n").map((row, i) => (
             <div key={i} className="vilna-row">
@@ -379,16 +343,28 @@ const BOOK_RE = new RegExp(_reStr, "g");
 
 function linkifyEn(raw) {
   if (!raw) return "";
-  const text = stripHtml(raw);
-  BOOK_RE.lastIndex = 0;
-  let result = "", last = 0, m;
-  while ((m = BOOK_RE.exec(text)) !== null) {
-    result += escHtml(text.slice(last, m.index));
-    const url = `https://www.sefaria.org/${BOOK_MAP[m[1]]}.${m[2]}.${m[3]}`;
-    result += `<a href="${url}" target="_blank" rel="noreferrer">${escHtml(m[0])}</a>`;
-    last = m.index + m[0].length;
+  // Split on HTML tags; keep <b>, <i>, <em>, <strong> (normalize strong->b);
+  // linkify Bible refs in text nodes; strip all other tags.
+  const parts = raw.split(/(<[^>]+>)/);
+  let result = "";
+  for (const part of parts) {
+    if (part.startsWith("<")) {
+      if (/^<\/?(b|i|em)\b/i.test(part)) { result += part; continue; }
+      if (/^<strong\b/i.test(part))       { result += "<b>"; continue; }
+      if (/^<\/strong>/i.test(part))      { result += "</b>"; continue; }
+      // strip other tags
+    } else {
+      BOOK_RE.lastIndex = 0;
+      let last = 0, m;
+      while ((m = BOOK_RE.exec(part)) !== null) {
+        result += escHtml(part.slice(last, m.index));
+        const url = `https://www.sefaria.org/${BOOK_MAP[m[1]]}.${m[2]}.${m[3]}`;
+        result += `<a href="${url}" target="_blank" rel="noreferrer">${escHtml(m[0])}</a>`;
+        last = m.index + m[0].length;
+      }
+      result += escHtml(part.slice(last));
+    }
   }
-  result += escHtml(text.slice(last));
   return result;
 }
 
@@ -577,7 +553,6 @@ function Sugya({ sugya, idx, total, tweaks }) {
               showNekudot={tweaks.nekudot}
               showVilnaLines={tweaks.vilnaLines}
               showEnglish={tweaks.showEnglish}
-              showEnglishLit={tweaks.showEnglishLit}
             />
           ))}
         </div>
@@ -1182,7 +1157,6 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "fontSizeEn": 1.0,
   "nekudot": true,
   "showEnglish": true,
-  "showEnglishLit": false,
   "vilnaLines": true,
   "gaugeBar": false,
   "timeline": false,
@@ -1253,7 +1227,6 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
 
       <TweakSection label="Reading aids">
         <TweakToggle label="English (elucidated)" value={tweaks.showEnglish} onChange={v => setTweak("showEnglish", v)}/>
-        <TweakToggle label="English (literal)" value={tweaks.showEnglishLit} onChange={v => setTweak("showEnglishLit", v)}/>
         <TweakToggle label="Nekudot (vowel marks)" value={tweaks.nekudot} onChange={v => setTweak("nekudot", v)}/>
         <TweakToggle label="Vilna line numbers" value={tweaks.vilnaLines} onChange={v => setTweak("vilnaLines", v)}/>
       </TweakSection>
