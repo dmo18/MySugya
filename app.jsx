@@ -280,6 +280,9 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglish
       ) : (
         <p className="line-he" lang="he" dir="rtl">{heText}</p>
       )}
+      {showEnglishLit && line.en_lit && (
+        <p className="line-en-lit">{line.en_lit}</p>
+      )}
       {showEnglish !== false && (
         <p className="line-en">
           <span dangerouslySetInnerHTML={{__html: enHtml(line.en)}}/>
@@ -288,12 +291,6 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglish
               ⚠ Sources differ
             </span>
           )}
-        </p>
-      )}
-      {showEnglishLit && line.en_lit && (
-        <p className="line-en line-en-lit">
-          <span className="en-lit-label">Literal: </span>
-          <span>{line.en_lit}</span>
         </p>
       )}
     </div>

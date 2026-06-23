@@ -750,8 +750,14 @@ body::before {
   text-underline-offset: 2px;
   white-space: nowrap;
 }
-.line-en-lit { border-left: 2px solid var(--accent-tint); padding-left: 8px; margin-top: 2px; font-style: italic; }
-.en-lit-label { font-style: normal; font-weight: 600; color: var(--accent); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 4px; }
+.line-en-lit {
+  font-family: var(--ff-sans);
+  font-size: calc(var(--fs-english) * 0.88);
+  line-height: 1.45;
+  color: var(--ink-mute);
+  margin: 2px 0 6px;
+  font-style: italic;
+}
 .line-en .src-flag {
   display: inline-flex; align-items: center; gap: 4px;
   font-family: var(--ff-mono);
