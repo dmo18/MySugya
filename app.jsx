@@ -252,6 +252,35 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 }
 
 // =============================================================================
+// INTERLINEAR — Hebrew word over English gloss, RTL flow
+// =============================================================================
+function InterlinearLine({ heText, enLit, vilnaLine, showVilnaLines }) {
+  const heWords = heText.split(/[\s\n]+/).filter(w => w.trim());
+  const enTokens = enLit ? enLit.trim().split(/\s+/).filter(Boolean) : [];
+  const n = heWords.length;
+  const m = enTokens.length;
+  return (
+    <div className="interlinear" dir="rtl">
+      {heWords.map((hw, i) => {
+        const start = m > 0 ? Math.round(i * m / n) : 0;
+        const end   = m > 0 ? Math.round((i + 1) * m / n) : 0;
+        const gloss = enTokens.slice(start, end).join(' ');
+        const vilnaNum = vilnaLine != null ? vilnaLine + i : null;
+        return (
+          <span key={i} className="il-pair">
+            <span className="il-he" lang="he">{hw}</span>
+            {showVilnaLines && vilnaNum != null && i === 0 && (
+              <span className="vilna-row-num il-vl">{vilnaNum}</span>
+            )}
+            <span className="il-en" lang="en" dir="ltr">{gloss || ' '}</span>
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
+// =============================================================================
 // LINE — interlinear Hebrew + English
 // =============================================================================
 function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglishLit }) {
@@ -266,7 +295,14 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglish
         <span>{tag.en}</span>
         <span className="tag-he">{tag.he}</span>
       </div>
-      {hasVilna ? (
+      {showEnglishLit && line.en_lit ? (
+        <InterlinearLine
+          heText={heText}
+          enLit={line.en_lit}
+          vilnaLine={hasVilna ? line.vilna_line : null}
+          showVilnaLines={showVilnaLines}
+        />
+      ) : hasVilna ? (
         <div className="line-he" lang="he" dir="rtl">
           {heText.split("\n").map((row, i) => (
             <div key={i} className="vilna-row">
@@ -279,9 +315,6 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, showEnglish
         </div>
       ) : (
         <p className="line-he" lang="he" dir="rtl">{heText}</p>
-      )}
-      {showEnglishLit && line.en_lit && (
-        <p className="line-en-lit">{line.en_lit}</p>
       )}
       {showEnglish !== false && (
         <p className="line-en">
