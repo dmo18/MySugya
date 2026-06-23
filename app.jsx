@@ -254,7 +254,7 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 // =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
@@ -282,7 +282,7 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish }) {
       )}
       {showEnglish !== false && (
         <p className="line-en">
-          <span dangerouslySetInnerHTML={{__html: enHtml(line.en)}}/>
+          <span dangerouslySetInnerHTML={{__html: boldLiteral !== false ? enHtml(line.en) : enHtml(line.en).replace(/<\/?b>/g, "")}}/>
           {line.flag && (
             <span className="src-flag" title={line.flag}>
               ⚠ Sources differ
@@ -553,6 +553,7 @@ function Sugya({ sugya, idx, total, tweaks }) {
               showNekudot={tweaks.nekudot}
               showVilnaLines={tweaks.vilnaLines}
               showEnglish={tweaks.showEnglish}
+              boldLiteral={tweaks.boldLiteral}
             />
           ))}
         </div>
@@ -1157,6 +1158,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "fontSizeEn": 1.0,
   "nekudot": true,
   "showEnglish": true,
+  "boldLiteral": true,
   "vilnaLines": true,
   "gaugeBar": false,
   "timeline": false,
@@ -1227,6 +1229,7 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
 
       <TweakSection label="Reading aids">
         <TweakToggle label="English (elucidated)" value={tweaks.showEnglish} onChange={v => setTweak("showEnglish", v)}/>
+        <TweakToggle label="Bold literal text" value={tweaks.boldLiteral} onChange={v => setTweak("boldLiteral", v)}/>
         <TweakToggle label="Nekudot (vowel marks)" value={tweaks.nekudot} onChange={v => setTweak("nekudot", v)}/>
         <TweakToggle label="Vilna line numbers" value={tweaks.vilnaLines} onChange={v => setTweak("vilnaLines", v)}/>
       </TweakSection>
