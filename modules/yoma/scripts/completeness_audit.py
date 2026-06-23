@@ -24,6 +24,7 @@ import urllib.error
 import urllib.request
 
 DATA_JS = "learning_data.js"
+SOURCE_STORE_JS = "source_store.js"
 
 
 def strip_html(s):
@@ -36,17 +37,43 @@ def normalize(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def read_json(url, user_agent, direct=False):
+    req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+    if direct:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        with opener.open(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def source_store_segments(daf_id):
+    try:
+        with open(SOURCE_STORE_JS, encoding="utf-8") as f:
+            content = f.read()
+    except FileNotFoundError:
+        return []
+    return [normalize(text) for _, daf, text in parse_content_fields(content) if daf == daf_id]
+
+
 def fetch_segments(daf_id):
     url = f"https://www.sefaria.org/api/texts/Yoma.{daf_id}?lang=he&context=0"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "YomaAudit/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        return [normalize(s) for s in data.get("he", []) if s.strip()], None
-    except urllib.error.URLError as e:
-        return None, f"network: {e}"
-    except Exception as e:
-        return None, str(e)
+    first_error = None
+    last_error = None
+    for source, direct in (("live", False), ("live_no_proxy", True)):
+        try:
+            data = read_json(url, "YomaAudit/1.0", direct=direct)
+            return [normalize(s) for s in data.get("he", []) if s.strip()], None, source
+        except Exception as e:
+            if first_error is None:
+                first_error = e
+            last_error = e
+
+    err = first_error if last_error == first_error else f"{first_error}; direct: {last_error}"
+    segs = source_store_segments(daf_id)
+    if segs:
+        return segs, f"network: {err}", "source_store"
+    return None, f"network: {err}", "none"
 
 
 # ---- reuse the exact parser logic from validate_sefaria.py -----------------
@@ -123,12 +150,16 @@ def main():
     skipped = []
 
     for daf_id in daf_list:
-        segs, err = fetch_segments(daf_id)
+        segs, err, source = fetch_segments(daf_id)
         time.sleep(0.3)
-        if err:
+        if err and source == "source_store":
+            print(f"  {daf_id:4s}  FALLBACK source_store ({err})")
+        elif err:
             print(f"  {daf_id:4s}  SKIP ({err})")
             skipped.append(daf_id)
             continue
+        elif source == "live_no_proxy":
+            print(f"  {daf_id:4s}  LIVE no_proxy")
 
         joined_ours = " ".join(by_daf[daf_id])
         n_missing = n_partial = n_covered = 0
@@ -171,6 +202,9 @@ def main():
             print(f"  [{daf_id}] seg #{idx}: {preview}")
 
     print("\n(PARTIAL is normal — a study companion quotes selected lines, not whole segments.)")
+
+    if skipped:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
