@@ -58,150 +58,6 @@ const Icons = {
 };
 
 // =============================================================================
-// HELP PAGE — keyboard shortcuts & study modes
-// =============================================================================
-function HelpPage({ isOpen, onClose }) {
-  if (!isOpen) return null;
-  return (
-    <>
-      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="help-modal">
-        <div className="modal-header">
-          <h2>Help & Keyboard Shortcuts</h2>
-          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
-        </div>
-        <div className="help-content">
-          <section>
-            <h3>Navigation</h3>
-            <ul>
-              <li><kbd>←</kbd> / <kbd>→</kbd> Navigate between dafim</li>
-              <li><kbd>Cmd/Ctrl+K</kbd> Jump to specific daf or search bookmarks</li>
-              <li><strong>Swipe left/right:</strong> Navigate between dafim (touch)</li>
-              <li><strong>Tap daf indicator:</strong> Show full navigation bar (when hidden)</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Reading Controls</h3>
-            <ul>
-              <li><kbd>R</kbd> Toggle Rashi commentary visibility</li>
-              <li><kbd>S</kbd> Toggle Argument Flow display</li>
-              <li><kbd>E</kbd> Toggle enrichment indicator dots</li>
-              <li><strong>Click enrichment dot:</strong> View context in modal</li>
-              <li><strong>Swipe down on modal:</strong> Close enrichment modal</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Learning Contexts</h3>
-            <ul>
-              <li><strong>Solo:</strong> Individual study with core text and optional enrichment layers</li>
-              <li><strong>Chavruta:</strong> Partner study - mark lines (⚡) to highlight for discussion</li>
-              <li><strong>Class:</strong> Teacher-led - argument flow displayed by default for logical structure</li>
-              <li><strong>Online:</strong> Group study - collaborative features for virtual study sessions</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Enrichment Layers (Click Dots to View)</h3>
-            <ul>
-              <li><strong>What's happening:</strong> Concise one-sentence summary of the passage's logical movement</li>
-              <li><strong>Hints:</strong> Quick context clues for difficult Hebrew terms or concepts</li>
-              <li><strong>Aha Moments:</strong> Key insights, unexpected turns, or revelations in the argument</li>
-              <li><strong>Deep Context:</strong> Background sources, historical context, and related passages</li>
-              <li><strong>Argument Flow:</strong> Step-by-step logical structure showing question → objection → resolution</li>
-              <li><strong>Rashi Commentary:</strong> Classical medieval commentary with integrated search functionality</li>
-              <li><strong>Glossary Terms:</strong> Talmudic vocabulary with transliterations and English definitions</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Display Options</h3>
-            <ul>
-              <li><strong>Hebrew/English Toggle:</strong> Show or hide elucidated English translation</li>
-              <li><strong>Vowel Marks (Nekudot):</strong> Display Hebrew vowel marks for reading support</li>
-              <li><strong>Vilna Line Numbers:</strong> Show Vilna pagination for traditional reference</li>
-              <li><strong>Gauge Bar:</strong> Visual progress indicator along top of navigation</li>
-              <li><strong>Timeline:</strong> See all sugya headings for current daf</li>
-              <li><strong>Pip Dots:</strong> Animated page position indicator</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Scroll Behavior</h3>
-            <ul>
-              <li><strong>Scroll up:</strong> Auto-show navigation bar for quick daf jumping</li>
-              <li><strong>Scroll down:</strong> Auto-hide navigation bar for distraction-free reading</li>
-              <li><strong>Scroll position:</strong> Automatically saved per daf - return to where you left off</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Customization</h3>
-            <ul>
-              <li><strong>Tweaks Panel:</strong> Access via ⚙ button (bottom-right) to adjust all settings</li>
-              <li><strong>Themes:</strong> 6 color themes from Mist to Dark with 12 accent colors</li>
-              <li><strong>Font Sizes:</strong> Independently scale Hebrew and English text</li>
-              <li><strong>Bookmarks & Completion:</strong> Track progress with star (☆) button</li>
-            </ul>
-          </section>
-        </div>
-      </div>
-    </>
-  );
-}
-
-// =============================================================================
-// FEATURES PAGE — overview of app capabilities
-// =============================================================================
-function FeaturesPage({ isOpen, onClose }) {
-  if (!isOpen) return null;
-  return (
-    <>
-      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="features-modal">
-        <div className="modal-header">
-          <h2>Features & Capabilities</h2>
-          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
-        </div>
-        <div className="features-content">
-          <section>
-            <h3>Core Reading Experience</h3>
-            <p>Interlinear Hebrew-English layout with Vilna pagination, vowel marks (nekudot), and elucidated English translation based on the William Davidson Edition. Auto-hiding chrome for distraction-free immersive reading. Per-daf scroll position memory keeps your place across sessions.</p>
-          </section>
-          <section>
-            <h3>Multi-Layer Enrichment System</h3>
-            <p>Seven distinct enrichment layers provide context at different depths. "What's happening" gives one-sentence passage summaries. Hints explain difficult terms. Aha moments capture key insights and argument pivots. Deep context provides background sources and related passages. Argument flow breaks down logical structure into steps. Rashi commentary includes classical medieval commentary. Glossary terms offer vocabulary support with transliterations.</p>
-          </section>
-          <section>
-            <h3>Flexible Study Modes</h3>
-            <p><strong>Solo:</strong> Focus mode for individual study with core enrichment. <strong>Chavruta:</strong> Partner study with line marking (⚡) for highlighted passages and persistent marking across sessions. <strong>Class:</strong> Teacher-led mode with argument flow visible by default for teaching logical structure. <strong>Online:</strong> Group study mode with collaborative discussion features. Mix and match modes to your learning needs.</p>
-          </section>
-          <section>
-            <h3>Smart Navigation</h3>
-            <p>Jump to any daf instantly with Cmd+K or Ctrl+K. Bookmark important dafim with the star button. Track reading completion status. Automatic scroll position recovery when returning to a daf. Vilna gauge bar shows progress within a daf. Sugya timeline displays all passage headings. Minimal chrome indicator appears when navigation is hidden, allowing quick restoration.</p>
-          </section>
-          <section>
-            <h3>Advanced Rashi Tools</h3>
-            <p>Full-text search within Rashi commentary for any daf. Real-time match count updates as you type. Toggle English helper translations for editorial context. Rashi lines are labeled with Vilna column numbers for traditional reference. English translations are clearly marked as editorial aids, not source-validated.</p>
-          </section>
-          <section>
-            <h3>Collaborative Learning Features</h3>
-            <p><strong>Chavruta Mode:</strong> Mark specific lines (⚡) to highlight key passages for partner discussion. Marked lines persist in localStorage and are visually highlighted with amber left border for quick scanning. Perfect for preparing discussion points before a learning session.</p>
-          </section>
-          <section>
-            <h3>Visual Customization</h3>
-            <p>6 complete color themes (Mist, Light, Sepia, Night, Dark) + system-based auto-switching. 12 accent colors from classic gold to modern cyan. Independently adjust Hebrew and English font sizes from 1.0x to 2.0x. Toggle individual reading aids: English translation, vowel marks, Vilna line numbers. Dark mode respects system preferences.</p>
-          </section>
-          <section>
-            <h3>Responsive & Accessible</h3>
-            <p>Full right-to-left support for Hebrew with proper text directionality. Semantic HTML with comprehensive ARIA labels for screen readers. Full keyboard navigation without mouse required. High contrast color combinations meet WCAG standards. Touch-optimized interface for phones and tablets. Responsive layout adapts from mobile to desktop seamlessly.</p>
-          </section>
-          <section>
-            <h3>Performance & Persistence</h3>
-            <p>All settings automatically saved to localStorage. Bookmarks, completion markers, and scroll positions persist across browser sessions. Fast daf loading with smooth transitions. Efficient rendering of long passages with thousands of lines. No external network calls required after initial load.</p>
-          </section>
-        </div>
-      </div>
-    </>
-  );
-}
-
-// =============================================================================
 // VILNA POSITION FEATURES
 // =============================================================================
 
@@ -284,28 +140,11 @@ const LINE_TAGS = {
 };
 
 // =============================================================================
-// MINIMAL CHROME INDICATOR — collapsed daf number when main chrome hidden
-// =============================================================================
-function MinimalChromeIndicator({ daf, onRestore, isVisible }) {
-  if (isVisible) return null;
-  return (
-    <button
-      className="minimal-chrome-indicator"
-      onClick={onRestore}
-      title="Tap to restore navigation"
-      aria-label={`${daf} - Tap to restore`}
-    >
-      <span className="mci-daf">{daf}</span>
-    </button>
-  );
-}
-
-// =============================================================================
 // CHROME — top bar with daf navigator & actions
 // =============================================================================
-function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, onHelp, onFeatures, scrollPct, showGaugeBar, isVisible = true }) {
+function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar }) {
   return (
-    <header className="chrome" data-visible={isVisible ? "1" : "0"}>
+    <header className="chrome">
       <div className="chrome-inner">
 
         <div className="brand">
@@ -336,12 +175,6 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
             title={isBookmarked ? "Remove bookmark" : "Bookmark this daf"}
           >
             {isBookmarked ? <Icons.BookmarkFilled/> : <Icons.Bookmark/>}
-          </button>
-          <button className="icon-btn" onClick={onHelp} title="Help & Shortcuts (?)">
-            ?
-          </button>
-          <button className="icon-btn" onClick={onFeatures} title="Features">
-            ✦
           </button>
           <button className="icon-btn" onClick={onTweaks} title="Open Tweaks">
             <Icons.Settings/>
@@ -419,73 +252,15 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 }
 
 // =============================================================================
-// ENRICHMENT MODALS — hints, aha moments, deep context
-// =============================================================================
-function EnrichmentModal({ isOpen, onClose, data }) {
-  const touchStartRef = useRef({ y: 0 });
-
-  if (!isOpen || !data) return null;
-
-  const handleTouchStart = (e) => {
-    touchStartRef.current = { y: e.touches[0].clientY };
-  };
-
-  const handleTouchEnd = (e) => {
-    const dy = e.changedTouches[0].clientY - touchStartRef.current.y;
-    if (dy > 80) onClose();
-  };
-
-  const isGlossary = data.type === "glossary";
-  const title = isGlossary ? (data.translit || data.he) : "Line enrichment";
-  const content = isGlossary ? data.en : (data.hint || data.enrichment);
-
-  return (
-    <>
-      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="enrichment-modal" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
-        <div className="modal-header">
-          <h3>{title}</h3>
-          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
-        </div>
-        <div className="modal-content">
-          {isGlossary ? (
-            <>
-              {data.he && <p className="glossary-modal-he" dir="rtl" lang="he">{data.he}</p>}
-              <p>{content}</p>
-            </>
-          ) : (
-            <p>{content}</p>
-          )}
-        </div>
-      </div>
-    </>
-  );
-}
-
-function EnrichmentDot({ onClick, visible = true, title }) {
-  if (!visible) return null;
-  return (
-    <button
-      className="enrichment-dot"
-      onClick={onClick}
-      aria-label="View enrichment"
-      title={title || "Tap for enrichment context"}
-    />
-  );
-}
-
-// =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark, hasRashi = false, rashiText = null, sugyaEnrichment = null }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, hasRashi, onRashiToggle, rashiActive }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
   const hasVilna = line.vilna_line != null;
-  const hasEnrichment = !!(sugyaEnrichment);
-
   return (
-    <div className="line" data-kind={line.kind} data-marked={isMarked ? "1" : "0"} data-has-rashi={hasRashi ? "1" : "0"} title={rashiText ? `Rashi: ${stripHtml(rashiText)}` : null}>
+    <div className="line" data-kind={line.kind} data-has-rashi={hasRashi ? "1" : "0"}>
       <span className="line-marker" aria-hidden="true"/>
       <div className="line-tag">
         <span>{tag.en}</span>
@@ -513,25 +288,17 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
               ⚠ Sources differ
             </span>
           )}
+          {hasRashi && (
+            <button
+              className="rashi-badge"
+              onClick={onRashiToggle}
+              aria-pressed={rashiActive}
+              title="Show Rashi for this line"
+            >
+              ᾨ Rashi
+            </button>
+          )}
         </p>
-      )}
-      {hasEnrichment && (
-        <EnrichmentDot
-          visible={showEnrichmentDots}
-          onClick={() => onEnrichment && onEnrichment(sugyaEnrichment)}
-          title={sugyaEnrichment?.enrichmentType}
-        />
-      )}
-      {isChavruta && (
-        <button
-          className="mark-line-btn"
-          onClick={onToggleMark}
-          title={isMarked ? "Unmark line" : "Mark for partner"}
-          aria-label={isMarked ? "Unmark line" : "Mark for partner"}
-          data-marked={isMarked ? "1" : "0"}
-        >
-          ⚡
-        </button>
       )}
     </div>
   );
@@ -683,31 +450,21 @@ function ShareButton({ sugya }) {
 // =============================================================================
 // LEARNING LAYER COMPONENTS (v1.0 schema fields)
 // =============================================================================
-function ArgumentFlowPanel({ steps, defaultOpen = false, visible = true }) {
-  const [open, setOpen] = useState(defaultOpen);
-  if (!steps || !steps.length || !visible) return null;
+function ArgumentFlowPanel({ steps }) {
+  if (!steps || !steps.length) return null;
   return (
     <div className="learn-panel learn-args">
-      <button
-        className="learn-label-btn"
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
-      >
-        <span className="learn-label">Argument flow</span>
-        <span aria-hidden="true" style={{transform: open ? "rotate(180deg)" : "none", transition: "transform 160ms", display:"inline-block"}}>⌄</span>
-      </button>
-      {open && (
-        <ol className="arg-steps">
-          {steps.map(step => (
-            <li key={step.id} className={"arg-step arg-step--" + step.type}>
-              <span className="arg-type">{step.type}</span>
-              {step.label && <strong className="arg-label">{step.label}</strong>}
-              {step.speaker && <em className="arg-speaker">{step.speaker}</em>}
-              <span className="arg-text">{step.text}</span>
-            </li>
-          ))}
-        </ol>
-      )}
+      <span className="learn-label">Argument flow</span>
+      <ol className="arg-steps">
+        {steps.map(step => (
+          <li key={step.id} className={"arg-step arg-step--" + step.type}>
+            <span className="arg-type">{step.type}</span>
+            {step.label && <strong className="arg-label">{step.label}</strong>}
+            {step.speaker && <em className="arg-speaker">{step.speaker}</em>}
+            <span className="arg-text">{step.text}</span>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
@@ -750,10 +507,12 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onToggleMark, followMode = false, rashiLines = [] }) {
+function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
-  const [imageTheme, setImageTheme] = useState(tweaks.imageTheme || "illustrated");
+  const [storiesOpen, setStoriesOpen] = useState(false);
+  const [scenesOpen, setScenesOpen] = useState(false);
+  const [activeRashiLine, setActiveRashiLine] = useState(null);
 
   const display  = sugya.display  || {};
   const learning = sugya.learning || null;
@@ -762,32 +521,15 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
   const hint     = display.hint   || sugya.hint;
   const title    = display.title  || sugya.title;
 
-  // Build Rashi map for quick lookup by vilna line
-  const rashiByVilnaLine = useMemo(() => {
-    const map = {};
-    (rashiLines || []).forEach(r => {
-      if (!map[r.vilnaLine]) map[r.vilnaLine] = [];
-      map[r.vilnaLine].push(r);
-    });
-    return map;
-  }, [rashiLines]);
+  // Aggregate narrative quiz questions (stories)
+  const narrativeQuizzes = useMemo(() => {
+    return (sugya.quizSeeds || []).filter(q => q.question && q.answer);
+  }, [sugya.quizSeeds]);
 
-  // Build enrichment object from sugya data (enrichment is at sugya level, not line level)
-  const sugyaEnrichment = useMemo(() => {
-    const enrichment = {};
-    // Check all enrichment layers
-    if (whats) enrichment.whats = whats;
-    if (hint) enrichment.hint = hint;
-    if (learning?.ahaMoment) enrichment.ahaMoment = learning.ahaMoment;
-    if (learning?.memoryAnchor) enrichment.memoryAnchor = learning.memoryAnchor;
-    if (learning?.learningBlocker) enrichment.learningBlocker = learning.learningBlocker;
-    if (learning?.deepContext) enrichment.deepContext = learning.deepContext;
-    if (sugya.argumentFlow?.length) enrichment.argumentFlow = sugya.argumentFlow;
-    return Object.keys(enrichment).length > 0 ? enrichment : null;
-  }, [sugya, display, learning, whats, hint]);
-
-  // Study mode defaults for argument flow visibility
-  const argFlowDefaultOpen = tweaks.modeClass || tweaks.showArgumentFlow;
+  // Aggregate visualizable elements (scenes)
+  const visualScenes = useMemo(() => {
+    return (sugya.visualizableElements || []).filter(v => v.item || v.description);
+  }, [sugya.visualizableElements]);
 
   return (
     <article className="sugya" id={sugya.id}>
@@ -802,79 +544,64 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}
 
-        {whats && tweaks.showWhats && (
+        {whats && (
           <div className="sugya-whats">
             <span className="label">What's happening</span>
             <p>{whats}</p>
           </div>
         )}
 
-        {learning && tweaks.showDeepContext && (
+        {learning && (
           <LearningPanel learning={learning} display={display} />
         )}
 
         <div className="lines">
           {sugya.lines.filter(Boolean).map((line, i) => {
-            const hasRashi = line.vilna_line ? rashiByVilnaLine[line.vilna_line]?.length > 0 : false;
+            const rashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
             return (
-              <Line key={i} line={line} idx={i}
-                showNekudot={tweaks.nekudot}
-                showVilnaLines={tweaks.vilnaLines}
-                showEnglish={tweaks.showEnglish}
-                boldLiteral={tweaks.boldLiteral}
-                showEnrichmentDots={tweaks.showEnrichmentDots}
-                onEnrichment={onEnrichment}
-                isChavruta={tweaks.modeChavruta}
-                isMarked={markedLines.includes(line.id)}
-                onToggleMark={() => onToggleMark?.(line.id)}
-                hasRashi={hasRashi}
-                rashiText={hasRashi ? rashiByVilnaLine[line.vilna_line].map(r => r.en || r.he).join(" | ") : null}
-                sugyaEnrichment={sugyaEnrichment}
-              />
+              <div key={i}>
+                <Line
+                  line={line} idx={i}
+                  showNekudot={tweaks.nekudot}
+                  showVilnaLines={tweaks.vilnaLines}
+                  showEnglish={tweaks.showEnglish}
+                  boldLiteral={tweaks.boldLiteral}
+                  hasRashi={!!rashi}
+                  onRashiToggle={() => setActiveRashiLine(activeRashiLine === line.vilna_line ? null : line.vilna_line)}
+                  rashiActive={activeRashiLine === line.vilna_line}
+                />
+                {rashi && activeRashiLine === line.vilna_line && (
+                  <div className="rashi-inline">
+                    <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? rashi.he : stripNekudot(rashi.he)}</p>
+                    {rashi.en && tweaks.showEnglish && (
+                      <p className="rashi-inline-en">
+                        <span dangerouslySetInnerHTML={{__html: enHtml(rashi.en)}}/>
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
-          <ArgumentFlowPanel
-            steps={sugya.argumentFlow}
-            defaultOpen={argFlowDefaultOpen}
-            visible={tweaks.showArgumentFlow || tweaks.modeClass}
-          />
+          <ArgumentFlowPanel steps={sugya.argumentFlow} />
         )}
 
 
         <div className="chips">
           {sugya.image && (
             <div className="sugya-image">
-              {tweaks.imageTheme && (
-                <div className="image-theme-selector">
-                  {['abstract', 'illustrated', 'realistic', 'minimal'].map(theme => (
-                    <button
-                      key={theme}
-                      className={"theme-btn" + (imageTheme === theme ? " active" : "")}
-                      onClick={() => setImageTheme(theme)}
-                      title={`View ${theme} style`}
-                    >
-                      {theme.charAt(0).toUpperCase()}
-                    </button>
-                  ))}
-                </div>
-              )}
               <img
-                src={`assets/generated-images/${sugya.image}${imageTheme ? `-${imageTheme}` : ''}`}
+                src={`assets/generated-images/${sugya.image}`}
                 alt={sugya.image_alt || title}
                 className="sugya-infographic"
                 loading="lazy"
-                onError={(e) => {
-                  if (imageTheme !== 'illustrated') {
-                    e.target.src = `assets/generated-images/${sugya.image}-illustrated`;
-                  }
-                }}
               />
             </div>
           )}
-          {hint && tweaks.showHints && (
+          {hint && (
             <Chip
               open={learnOpen}
               onToggle={() => setLearnOpen(v => !v)}
@@ -895,6 +622,41 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
               <p>{sugya.nusach[tweaks.nusach]}</p>
             </Chip>
           )}
+          {narrativeQuizzes.length > 0 && (
+            <Chip
+              open={storiesOpen}
+              onToggle={() => setStoriesOpen(v => !v)}
+              label="Stories" labelHe="סִפּוּרִים"
+              kind="Narrative Questions"
+            >
+              <div className="stories-list">
+                {narrativeQuizzes.map((q, i) => (
+                  <div key={i} className="story-item">
+                    <p className="story-q"><strong>Q:</strong> {q.question}</p>
+                    <p className="story-a"><strong>A:</strong> {q.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </Chip>
+          )}
+          {visualScenes.length > 0 && (
+            <Chip
+              open={scenesOpen}
+              onToggle={() => setScenesOpen(v => !v)}
+              label="Scenes" labelHe="תַּמּוּנוֹת"
+              kind="Visual Elements"
+            >
+              <div className="scenes-list">
+                {visualScenes.map((s, i) => (
+                  <div key={i} className="scene-item">
+                    <p className="scene-desc">{s.item || s.description}</p>
+                    {s.role && <span className="scene-role">{s.role}</span>}
+                    {s.priority && <span className="scene-priority">Priority: {s.priority}</span>}
+                  </div>
+                ))}
+              </div>
+            </Chip>
+          )}
         </div>
       </div>
 
@@ -902,85 +664,11 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
   );
 }
 
-// =============================================================================
-// RASHI PANEL
-// =============================================================================
-function RashiPanel({ lines, showNekudot }) {
-  const [open, setOpen] = useState(false);
-  const [showEn, setShowEn] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
-  if (!lines || !lines.length) return null;
-  const hasEn = lines.some(r => r.en);
-  const filteredLines = searchTerm.trim()
-    ? lines.filter(r => r.he.toLowerCase().includes(searchTerm.toLowerCase()) || (r.en && r.en.toLowerCase().includes(searchTerm.toLowerCase())))
-    : lines;
-  return (
-    <section className="rashi-panel">
-      <button
-        className="rashi-toggle"
-        onClick={() => setOpen(v => !v)}
-        aria-expanded={open}
-      >
-        <span className="rashi-toggle-he" lang="he" dir="rtl">רַשִׁ&quot;י</span>
-        <span className="rashi-toggle-label">Rashi on this daf</span>
-        <span className="rashi-toggle-count">{lines.length} lines (Vilna)</span>
-        <span className="rashi-toggle-arrow" aria-hidden="true">{open ? "▲" : "▼"}</span>
-      </button>
-      {open && (
-        <div className="rashi-body">
-          <div className="rashi-controls">
-            <input
-              type="text"
-              className="rashi-search"
-              placeholder="Search Rashi..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            {searchTerm && <span className="rashi-search-count">{filteredLines.length} / {lines.length}</span>}
-            {hasEn && (
-              <label className="rashi-en-toggle">
-                <input
-                  type="checkbox"
-                  checked={showEn}
-                  onChange={() => setShowEn(v => !v)}
-                />
-                English
-              </label>
-            )}
-            {hasEn && (
-              <span className="rashi-helper-note">
-                English is editorial helper, not source-validated.
-              </span>
-            )}
-          </div>
-          <ol className="rashi-lines">
-            {filteredLines.map((r, i) => {
-              const he = showNekudot ? r.he : stripNekudot(r.he);
-              return (
-                <li key={r.id || i} className="rashi-row">
-                  <span className="rashi-vl" aria-hidden="true">{r.vilnaLine}</span>
-                  <div className="rashi-pair">
-                    <p className="rashi-he" lang="he" dir="rtl">{he}</p>
-                    {showEn && r.en && (
-                      <p className="rashi-en">
-                        <span dangerouslySetInnerHTML={{__html: enHtml(r.en)}}/>
-                      </p>
-                    )}
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
-        </div>
-      )}
-    </section>
-  );
-}
 
 // =============================================================================
 // GLOSSARY
 // =============================================================================
-function Glossary({ items, onTermClick }) {
+function Glossary({ items }) {
   if (!items || !items.length) return null;
   return (
     <section className="glossary">
@@ -989,11 +677,11 @@ function Glossary({ items, onTermClick }) {
       </div>
       <div className="glossary-grid">
         {items.map((g, i) => (
-          <button key={i} className="glossary-item" onClick={() => onTermClick && onTermClick({ he: g.he, translit: g.translit, en: g.en })}>
+          <div key={i} className="glossary-item">
             <p className="gi-he" dir="rtl">{g.he}</p>
             <p className="gi-translit">{g.translit}</p>
             <p className="gi-en">{stripHtml(g.en)}</p>
-          </button>
+          </div>
         ))}
       </div>
     </section>
@@ -1290,30 +978,12 @@ function App() {
   // mysugya:tweaks is universal; fall back to yoma:tweaks once for existing users
   const [tweaks, setTweak] = useTweaks({ ...TWEAK_DEFAULTS, ...LS.get("mysugya:tweaks", LS.get("yoma:tweaks", {})) });
 
-  // Modal states
+  // Jump modal
   const [jumpOpen, setJumpOpen] = useState(false);
-  const [helpOpen, setHelpOpen] = useState(false);
-  const [featuresOpen, setFeaturesOpen] = useState(false);
-
-  // Enrichment modal (for both lines and glossary terms)
-  const [enrichmentModal, setEnrichmentModal] = useState(null);
-
-  // Collaborative features
-  const [markedLines, setMarkedLines] = useState(() => LS.get(TRACTATE_META.id + ":markedLines", []));
-  const [followRabbiLineId, setFollowRabbiLineId] = useState(null);
 
   // Vilna position tracking
   const [scrollPct, setScrollPct] = useState(0);
   const [currentSugyaIdx, setCurrentSugyaIdx] = useState(0);
-
-  // Chrome auto-hide on scroll
-  const [chromeVisible, setChromeVisible] = useState(true);
-  const lastScrollYRef = useRef(0);
-  const scrollDirectionRef = useRef("up");
-
-  // Swipe navigation
-  const touchStartRef = useRef({ x: 0, y: 0 });
-  const [swipeInProgress, setSwipeInProgress] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -1324,70 +994,10 @@ function App() {
       let best = 0;
       els.forEach((el, i) => { if (el.getBoundingClientRect().top <= 120) best = i; });
       setCurrentSugyaIdx(best);
-
-      // Auto-hide chrome on scroll
-      const currentScrollY = window.scrollY;
-      const scrollDelta = currentScrollY - lastScrollYRef.current;
-
-      // Only hide/show if scroll delta is significant (avoid jitter from small scrolls)
-      if (Math.abs(scrollDelta) > 5) {
-        const newDirection = scrollDelta > 0 ? "down" : "up";
-        if (newDirection !== scrollDirectionRef.current) {
-          scrollDirectionRef.current = newDirection;
-          setChromeVisible(newDirection === "up");
-        }
-      }
-      lastScrollYRef.current = currentScrollY;
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  // Swipe gesture detection
-  useEffect(() => {
-    const onTouchStart = (e) => {
-      touchStartRef.current = {
-        x: e.touches[0].clientX,
-        y: e.touches[0].clientY,
-      };
-    };
-
-    const onTouchEnd = (e) => {
-      const touchEnd = {
-        x: e.changedTouches[0].clientX,
-        y: e.changedTouches[0].clientY,
-      };
-
-      const dx = touchEnd.x - touchStartRef.current.x;
-      const dy = touchEnd.y - touchStartRef.current.y;
-      const distance = Math.abs(dx);
-      const verticalDistance = Math.abs(dy);
-
-      // Require horizontal movement > vertical movement + 40px minimum distance
-      if (distance > 40 && distance > verticalDistance * 1.5) {
-        setSwipeInProgress(true);
-
-        if (dx > 0) {
-          // Swiped right: previous daf
-          const idx = dafIdx(currentDaf);
-          if (idx > 0) setCurrentDaf(DAF_INDEX[idx - 1].id);
-        } else if (dx < 0) {
-          // Swiped left: next daf
-          const idx = dafIdx(currentDaf);
-          if (idx < DAF_INDEX.length - 1) setCurrentDaf(DAF_INDEX[idx + 1].id);
-        }
-
-        setTimeout(() => setSwipeInProgress(false), 400);
-      }
-    };
-
-    window.addEventListener("touchstart", onTouchStart, { passive: true });
-    window.addEventListener("touchend", onTouchEnd, { passive: true });
-    return () => {
-      window.removeEventListener("touchstart", onTouchStart);
-      window.removeEventListener("touchend", onTouchEnd);
-    };
-  }, [currentDaf]);
 
   useEffect(() => { setScrollPct(0); setCurrentSugyaIdx(0); }, [currentDaf]);
 
@@ -1396,12 +1006,6 @@ function App() {
   useEffect(() => { LS.set("mysugya:tweaks", tweaks); }, [tweaks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":bookmarks", bookmarks); }, [bookmarks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":completed", completed); }, [completed]);
-  useEffect(() => { LS.set(TRACTATE_META.id + ":markedLines", markedLines); }, [markedLines]);
-
-  // Swipe feedback
-  useEffect(() => {
-    document.body.setAttribute("data-swipe-in-progress", swipeInProgress ? "1" : "0");
-  }, [swipeInProgress]);
 
   // Save scroll per daf
   useEffect(() => {
@@ -1454,17 +1058,13 @@ function App() {
         e.preventDefault();
         setJumpOpen(v => !v);
       } else if (!meta && !isEditable && !jumpOpen) {
-        const key = e.key.toLowerCase();
         if (e.key === "ArrowLeft")  goPrev();
         if (e.key === "ArrowRight") goNext();
-        if (key === "r") { e.preventDefault(); setTweak("showRashi", !tweaks.showRashi); }
-        if (key === "s") { e.preventDefault(); setTweak("showArgumentFlow", !tweaks.showArgumentFlow); }
-        if (key === "e") { e.preventDefault(); setTweak("showEnrichmentDots", !tweaks.showEnrichmentDots); }
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [currentDaf, jumpOpen, tweaks.showRashi, tweaks.showArgumentFlow, tweaks.showEnrichmentDots]);
+  }, [currentDaf, jumpOpen]);
 
   const entry = dafEntry(currentDaf);
   const perek = PERAKIM.find(p => p.n === entry.perek) || PERAKIM[0];
@@ -1475,7 +1075,6 @@ function App() {
 
   const toggleBookmark = () => setBookmarks(bs => bs.includes(currentDaf) ? bs.filter(x => x !== currentDaf) : [...bs, currentDaf]);
   const toggleCompleted = () => setCompleted(cs => cs.includes(currentDaf) ? cs.filter(x => x !== currentDaf) : [...cs, currentDaf]);
-  const toggleMarkedLine = (lineId) => setMarkedLines(lines => lines.includes(lineId) ? lines.filter(x => x !== lineId) : [...lines, lineId]);
 
   const goPrev = useCallback(() => {
     const i = dafIdx(currentDaf);
@@ -1487,7 +1086,6 @@ function App() {
   }, [currentDaf]);
 
   const onSelect = (id) => { setCurrentDaf(normalizeDaf(id)); window.scrollTo({top: 0, behavior: "auto"}); };
-  const restoreChrome = () => { setChromeVisible(true); };
 
   return (
     <div className="app">
@@ -1501,15 +1099,10 @@ function App() {
         isBookmarked={isBookmarked}
         onBookmark={toggleBookmark}
         onJump={() => setJumpOpen(true)}
-        onHelp={() => setHelpOpen(true)}
-        onFeatures={() => setFeaturesOpen(true)}
         onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, '*')}
         scrollPct={scrollPct}
         showGaugeBar={tweaks.gaugeBar}
-        isVisible={chromeVisible}
       />
-
-      <MinimalChromeIndicator daf={currentDaf} onRestore={restoreChrome} isVisible={chromeVisible} />
 
       {tweaks.timeline && <SugyaTimeline sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
 
@@ -1518,11 +1111,21 @@ function App() {
           currentDaf === "1a" ? <VilnaTitlePage/> : <VilnaChapterList/>
         ) : content ? (
           <>
-            {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.modeClass} rashiLines={content.rashiLines} />
-            ))}
-            {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
-            <Glossary items={content.glossary} onTermClick={(term) => setEnrichmentModal({ type: "glossary", ...term })} />
+            {useMemo(() => {
+              // Build Rashi-by-Vilna-line map for inline display
+              const rashiMap = new Map();
+              if (content.rashiLines) {
+                content.rashiLines.forEach(r => {
+                  if (r.vilnaLine != null) {
+                    rashiMap.set(r.vilnaLine, r);
+                  }
+                });
+              }
+              return content.sugyot.map((s, i) => (
+                <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
+              ));
+            }, [content.sugyot, content.rashiLines])}
+            <Glossary items={content.glossary}/>
           </>
         ) : (
           <PlaceholderDaf daf={currentDaf} perek={perek}/>
@@ -1540,19 +1143,8 @@ function App() {
         onSelect={onSelect}
       />
 
-      <HelpPage isOpen={helpOpen} onClose={() => setHelpOpen(false)} />
-      <FeaturesPage isOpen={featuresOpen} onClose={() => setFeaturesOpen(false)} />
-
       {tweaks.pipDots && <SugyaPipDots sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
       {tweaks.bottomDock && <BottomDock sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
-
-      {enrichmentModal && (
-        <EnrichmentModal
-          isOpen={!!enrichmentModal}
-          onClose={() => setEnrichmentModal(null)}
-          data={enrichmentModal}
-        />
-      )}
 
       <footer className="app-footer">
         <span>Version {DATA_VERSION}</span>
@@ -1581,17 +1173,6 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "timeline": false,
   "pipDots": false,
   "bottomDock": false,
-  "modeSolo": true,
-  "modeChavruta": false,
-  "modeClass": false,
-  "modeOnline": false,
-  "showWhats": true,
-  "showEnrichmentDots": true,
-  "showHints": true,
-  "showAhaMoments": true,
-  "showDeepContext": true,
-  "showArgumentFlow": false,
-  "showRashi": true,
 }/*EDITMODE-END*/;
 
 function accentToToken(hex) {
@@ -1669,23 +1250,6 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
         <TweakToggle label="Timeline strip" value={tweaks.timeline} onChange={v => setTweak("timeline", v)}/>
         <TweakToggle label="Pip dots" value={tweaks.pipDots} onChange={v => setTweak("pipDots", v)}/>
         <TweakToggle label="Bottom dock" value={tweaks.bottomDock} onChange={v => setTweak("bottomDock", v)}/>
-      </TweakSection>
-
-      <TweakSection label="Learning Context">
-        <TweakToggle label="Solo study" value={tweaks.modeSolo} onChange={v => setTweak("modeSolo", v)} hint="Focus on individual learning"/>
-        <TweakToggle label="Chavruta (partner)" value={tweaks.modeChavruta} onChange={v => setTweak("modeChavruta", v)} hint="Enables line marking for discussion"/>
-        <TweakToggle label="Class (teacher-led)" value={tweaks.modeClass} onChange={v => setTweak("modeClass", v)} hint="Shows argument flow by default"/>
-        <TweakToggle label="Online (group)" value={tweaks.modeOnline} onChange={v => setTweak("modeOnline", v)} hint="Collaborative features"/>
-      </TweakSection>
-
-      <TweakSection label="Content Visibility">
-        <TweakToggle label="What's happening" value={tweaks.showWhats} onChange={v => setTweak("showWhats", v)} hint="Quick passage summary"/>
-        <TweakToggle label="Enrichment dots" value={tweaks.showEnrichmentDots} onChange={v => setTweak("showEnrichmentDots", v)} hint="Visual indicators for enriched lines"/>
-        <TweakToggle label="Hints" value={tweaks.showHints} onChange={v => setTweak("showHints", v)} hint="Context for difficult terms"/>
-        <TweakToggle label="Aha moments" value={tweaks.showAhaMoments} onChange={v => setTweak("showAhaMoments", v)} hint="Key insights and pivots"/>
-        <TweakToggle label="Deep context" value={tweaks.showDeepContext} onChange={v => setTweak("showDeepContext", v)} hint="Background and sources"/>
-        <TweakToggle label="Argument flow" value={tweaks.showArgumentFlow} onChange={v => setTweak("showArgumentFlow", v)} hint="Logical structure of passage"/>
-        <TweakToggle label="Rashi commentary" value={tweaks.showRashi} onChange={v => setTweak("showRashi", v)} hint="Classical commentary with search"/>
       </TweakSection>
 
       <TweakSection label="Reset">
