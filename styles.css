@@ -809,6 +809,76 @@ body::before {
   vertical-align: 1px;
 }
 
+.line[data-has-rashi="1"] {
+  border-bottom: 2px dotted var(--accent);
+  padding-bottom: 4px;
+}
+
+.rashi-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--ff-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent);
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-left: 6px;
+  vertical-align: 1px;
+}
+
+.rashi-badge:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.rashi-badge[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+.rashi-inline {
+  margin: 12px 0 12px 20px;
+  padding: 12px;
+  border-left: 3px solid var(--accent);
+  background: var(--tint);
+  border-radius: 4px;
+  animation: reveal-in 0.15s var(--motion);
+}
+
+.rashi-inline-he {
+  font-family: var(--ff-hebrew);
+  font-size: var(--fs-hebrew);
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 8px;
+  text-align: right;
+  direction: rtl;
+}
+
+.rashi-inline-en {
+  font-family: var(--ff-sans);
+  font-size: calc(var(--fs-english) * 0.95);
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0;
+  font-style: italic;
+}
+
+.rashi-inline-en a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 /* ----- One-line summary ----- */
 .sugya-one-line {
   margin: 0 0 14px;

@@ -254,13 +254,13 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 // =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, hasRashi, onRashiToggle, rashiActive }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
   const hasVilna = line.vilna_line != null;
   return (
-    <div className="line" data-kind={line.kind}>
+    <div className="line" data-kind={line.kind} data-has-rashi={hasRashi ? "1" : "0"}>
       <span className="line-marker" aria-hidden="true"/>
       <div className="line-tag">
         <span>{tag.en}</span>
@@ -287,6 +287,16 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
             <span className="src-flag" title={line.flag}>
               ⚠ Sources differ
             </span>
+          )}
+          {hasRashi && (
+            <button
+              className="rashi-badge"
+              onClick={onRashiToggle}
+              aria-pressed={rashiActive}
+              title="Show Rashi for this line"
+            >
+              ᾨ Rashi
+            </button>
           )}
         </p>
       )}
@@ -497,11 +507,12 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks }) {
+function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
   const [storiesOpen, setStoriesOpen] = useState(false);
   const [scenesOpen, setScenesOpen] = useState(false);
+  const [activeRashiLine, setActiveRashiLine] = useState(null);
 
   const display  = sugya.display  || {};
   const learning = sugya.learning || null;
@@ -545,14 +556,33 @@ function Sugya({ sugya, idx, total, tweaks }) {
         )}
 
         <div className="lines">
-          {sugya.lines.filter(Boolean).map((line, i) => (
-            <Line key={i} line={line} idx={i}
-              showNekudot={tweaks.nekudot}
-              showVilnaLines={tweaks.vilnaLines}
-              showEnglish={tweaks.showEnglish}
-              boldLiteral={tweaks.boldLiteral}
-            />
-          ))}
+          {sugya.lines.filter(Boolean).map((line, i) => {
+            const rashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
+            return (
+              <div key={i}>
+                <Line
+                  line={line} idx={i}
+                  showNekudot={tweaks.nekudot}
+                  showVilnaLines={tweaks.vilnaLines}
+                  showEnglish={tweaks.showEnglish}
+                  boldLiteral={tweaks.boldLiteral}
+                  hasRashi={!!rashi}
+                  onRashiToggle={() => setActiveRashiLine(activeRashiLine === line.vilna_line ? null : line.vilna_line)}
+                  rashiActive={activeRashiLine === line.vilna_line}
+                />
+                {rashi && activeRashiLine === line.vilna_line && (
+                  <div className="rashi-inline">
+                    <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? rashi.he : stripNekudot(rashi.he)}</p>
+                    {rashi.en && tweaks.showEnglish && (
+                      <p className="rashi-inline-en">
+                        <span dangerouslySetInnerHTML={{__html: enHtml(rashi.en)}}/>
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
@@ -1141,10 +1171,20 @@ function App() {
           currentDaf === "1a" ? <VilnaTitlePage/> : <VilnaChapterList/>
         ) : content ? (
           <>
-            {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks}/>
-            ))}
-            {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
+            {useMemo(() => {
+              // Build Rashi-by-Vilna-line map for inline display
+              const rashiMap = new Map();
+              if (content.rashiLines) {
+                content.rashiLines.forEach(r => {
+                  if (r.vilnaLine != null) {
+                    rashiMap.set(r.vilnaLine, r);
+                  }
+                });
+              }
+              return content.sugyot.map((s, i) => (
+                <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
+              ));
+            }, [content.sugyot, content.rashiLines])}
             <Glossary items={content.glossary}/>
           </>
         ) : (
