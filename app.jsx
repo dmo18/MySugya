@@ -254,18 +254,41 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 // =============================================================================
 // ENRICHMENT MODALS — hints, aha moments, deep context
 // =============================================================================
-function EnrichmentModal({ isOpen, onClose, title, content, type }) {
-  if (!isOpen || !content) return null;
+function EnrichmentModal({ isOpen, onClose, data }) {
+  const touchStartRef = useRef({ y: 0 });
+
+  if (!isOpen || !data) return null;
+
+  const handleTouchStart = (e) => {
+    touchStartRef.current = { y: e.touches[0].clientY };
+  };
+
+  const handleTouchEnd = (e) => {
+    const dy = e.changedTouches[0].clientY - touchStartRef.current.y;
+    if (dy > 80) onClose();
+  };
+
+  const isGlossary = data.type === "glossary";
+  const title = isGlossary ? (data.translit || data.he) : "Line enrichment";
+  const content = isGlossary ? data.en : (data.hint || data.enrichment);
+
   return (
     <>
       <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="enrichment-modal">
+      <div className="enrichment-modal" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
         <div className="modal-header">
           <h3>{title}</h3>
           <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
         </div>
         <div className="modal-content">
-          <p>{content}</p>
+          {isGlossary ? (
+            <>
+              {data.he && <p className="glossary-modal-he" dir="rtl" lang="he">{data.he}</p>}
+              <p>{content}</p>
+            </>
+          ) : (
+            <p>{content}</p>
+          )}
         </div>
       </div>
     </>
@@ -548,10 +571,9 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks }) {
+function Sugya({ sugya, idx, total, tweaks, onEnrichment }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
-  const [enrichmentModal, setEnrichmentModal] = useState(null);
   const [imageTheme, setImageTheme] = useState(tweaks.imageTheme || "illustrated");
 
   const display  = sugya.display  || {};
@@ -664,14 +686,6 @@ function Sugya({ sugya, idx, total, tweaks }) {
         </div>
       </div>
 
-      {enrichmentModal && (
-        <EnrichmentModal
-          isOpen={!!enrichmentModal}
-          onClose={() => setEnrichmentModal(null)}
-          title="Line enrichment"
-          content={enrichmentModal.hint || enrichmentModal.enrichment}
-        />
-      )}
     </article>
   );
 }
@@ -740,7 +754,7 @@ function RashiPanel({ lines, showNekudot }) {
 // =============================================================================
 // GLOSSARY
 // =============================================================================
-function Glossary({ items }) {
+function Glossary({ items, onTermClick }) {
   if (!items || !items.length) return null;
   return (
     <section className="glossary">
@@ -749,11 +763,11 @@ function Glossary({ items }) {
       </div>
       <div className="glossary-grid">
         {items.map((g, i) => (
-          <div key={i} className="glossary-item">
+          <button key={i} className="glossary-item" onClick={() => onTermClick && onTermClick({ he: g.he, translit: g.translit, en: g.en })}>
             <p className="gi-he" dir="rtl">{g.he}</p>
             <p className="gi-translit">{g.translit}</p>
             <p className="gi-en">{stripHtml(g.en)}</p>
-          </div>
+          </button>
         ))}
       </div>
     </section>
@@ -1053,6 +1067,9 @@ function App() {
   // Jump modal
   const [jumpOpen, setJumpOpen] = useState(false);
 
+  // Enrichment modal (for both lines and glossary terms)
+  const [enrichmentModal, setEnrichmentModal] = useState(null);
+
   // Vilna position tracking
   const [scrollPct, setScrollPct] = useState(0);
   const [currentSugyaIdx, setCurrentSugyaIdx] = useState(0);
@@ -1263,10 +1280,10 @@ function App() {
         ) : content ? (
           <>
             {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks}/>
+              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })}/>
             ))}
             {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
-            <Glossary items={content.glossary}/>
+            <Glossary items={content.glossary} onTermClick={(term) => setEnrichmentModal({ type: "glossary", ...term })} />
           </>
         ) : (
           <PlaceholderDaf daf={currentDaf} perek={perek}/>
@@ -1286,6 +1303,14 @@ function App() {
 
       {tweaks.pipDots && <SugyaPipDots sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
       {tweaks.bottomDock && <BottomDock sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
+
+      {enrichmentModal && (
+        <EnrichmentModal
+          isOpen={!!enrichmentModal}
+          onClose={() => setEnrichmentModal(null)}
+          data={enrichmentModal}
+        />
+      )}
 
       <footer className="app-footer">
         <span>Version {DATA_VERSION}</span>
