@@ -67,6 +67,15 @@ def main() -> int:
         if "Transliteration" in app:
             raise AssertionError("Transliteration UI should be removed")
 
+        # Mobile browser guardrail: argument-flow data remains in the DOM, but
+        # the native details wrapper defaults closed at phone widths.
+        assert_contains(bundle_js, "argument-flow-disclosure", "mobile argument flow details wrapper")
+        assert_contains(bundle_js, "Argument flow", "argument flow disclosure label")
+        assert_contains(bundle_js, "(max-width: 720px)", "mobile argument flow breakpoint")
+        assert_contains(bundle_js, "matchMedia", "browser media query detection")
+        if "!window.matchMedia(\"(max-width: 720px)\").matches" not in bundle_js:
+            raise AssertionError("Argument flow should default collapsed when the mobile media query matches")
+
         print("OK: built pages render and key UI hooks are present")
         return 0
     except Exception as e:

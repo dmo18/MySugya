@@ -453,11 +453,11 @@ function ShareButton({ sugya }) {
 // =============================================================================
 // LEARNING LAYER COMPONENTS (v1.0 schema fields)
 // =============================================================================
-function ArgumentFlowPanel({ steps }) {
+function ArgumentFlowPanel({ steps, hideLabel = false }) {
   if (!steps || !steps.length) return null;
   return (
     <div className="learn-panel learn-args">
-      <span className="learn-label">Argument flow</span>
+      {!hideLabel && <span className="learn-label">Argument flow</span>}
       <ol className="arg-steps">
         {steps.map(step => (
           <li key={step.id} className={"arg-step arg-step--" + step.type}>
@@ -469,6 +469,57 @@ function ArgumentFlowPanel({ steps }) {
         ))}
       </ol>
     </div>
+  );
+}
+
+function useMediaQuery(query) {
+  const getMatches = () => (
+    typeof window !== "undefined" && typeof window.matchMedia === "function"
+      ? window.matchMedia(query).matches
+      : false
+  );
+  const [matches, setMatches] = useState(getMatches);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || typeof window.matchMedia !== "function") return undefined;
+    const mediaQuery = window.matchMedia(query);
+    const handleChange = event => setMatches(event.matches);
+    setMatches(mediaQuery.matches);
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", handleChange);
+      return () => mediaQuery.removeEventListener("change", handleChange);
+    }
+    mediaQuery.addListener(handleChange);
+    return () => mediaQuery.removeListener(handleChange);
+  }, [query]);
+
+  return matches;
+}
+
+function ArgumentFlowDisclosure({ steps }) {
+  const isMobile = useMediaQuery("(max-width: 720px)");
+  const [open, setOpen] = useState(() => (
+    typeof window !== "undefined" && typeof window.matchMedia === "function"
+      ? !window.matchMedia("(max-width: 720px)").matches
+      : true
+  ));
+
+  useEffect(() => {
+    setOpen(!isMobile);
+  }, [isMobile]);
+
+  if (!steps || !steps.length) return null;
+  return (
+    <details
+      className="argument-flow-disclosure"
+      open={open}
+      onToggle={event => setOpen(event.currentTarget.open)}
+    >
+      <summary>Argument flow</summary>
+      <div className="argument-flow-disclosure-content">
+        <ArgumentFlowPanel steps={steps} hideLabel />
+      </div>
+    </details>
   );
 }
 
@@ -608,7 +659,7 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
         )}
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
-          <ArgumentFlowPanel steps={sugya.argumentFlow} />
+          <ArgumentFlowDisclosure steps={sugya.argumentFlow} />
         )}
 
 
