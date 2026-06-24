@@ -327,7 +327,7 @@ function EnrichmentDot({ onClick, visible = true }) {
 // =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
@@ -335,7 +335,7 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
   const hasEnrichment = !!(line.hint || line.enrichment);
 
   return (
-    <div className="line" data-kind={line.kind}>
+    <div className="line" data-kind={line.kind} data-marked={isMarked ? "1" : "0"}>
       <span className="line-marker" aria-hidden="true"/>
       <div className="line-tag">
         <span>{tag.en}</span>
@@ -370,6 +370,17 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
           visible={showEnrichmentDots}
           onClick={() => onEnrichment && onEnrichment(line)}
         />
+      )}
+      {isChavruta && (
+        <button
+          className="mark-line-btn"
+          onClick={onToggleMark}
+          title={isMarked ? "Unmark line" : "Mark for partner"}
+          aria-label={isMarked ? "Unmark line" : "Mark for partner"}
+          data-marked={isMarked ? "1" : "0"}
+        >
+          ⚡
+        </button>
       )}
     </div>
   );
@@ -588,7 +599,7 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks, onEnrichment }) {
+function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onToggleMark, followMode = false }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
   const [imageTheme, setImageTheme] = useState(tweaks.imageTheme || "illustrated");
@@ -635,7 +646,10 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment }) {
               showEnglish={tweaks.showEnglish}
               boldLiteral={tweaks.boldLiteral}
               showEnrichmentDots={tweaks.showEnrichmentDots}
-              onEnrichment={(line) => setEnrichmentModal(line)}
+              onEnrichment={onEnrichment}
+              isChavruta={tweaks.studyMode === "chavruta"}
+              isMarked={markedLines.includes(line.id)}
+              onToggleMark={() => onToggleMark?.(line.id)}
             />
           ))}
         </div>
@@ -1087,6 +1101,10 @@ function App() {
   // Enrichment modal (for both lines and glossary terms)
   const [enrichmentModal, setEnrichmentModal] = useState(null);
 
+  // Collaborative features
+  const [markedLines, setMarkedLines] = useState(() => LS.get(TRACTATE_META.id + ":markedLines", []));
+  const [followRabbiLineId, setFollowRabbiLineId] = useState(null);
+
   // Vilna position tracking
   const [scrollPct, setScrollPct] = useState(0);
   const [currentSugyaIdx, setCurrentSugyaIdx] = useState(0);
@@ -1181,6 +1199,7 @@ function App() {
   useEffect(() => { LS.set("mysugya:tweaks", tweaks); }, [tweaks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":bookmarks", bookmarks); }, [bookmarks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":completed", completed); }, [completed]);
+  useEffect(() => { LS.set(TRACTATE_META.id + ":markedLines", markedLines); }, [markedLines]);
 
   // Swipe feedback
   useEffect(() => {
@@ -1259,6 +1278,7 @@ function App() {
 
   const toggleBookmark = () => setBookmarks(bs => bs.includes(currentDaf) ? bs.filter(x => x !== currentDaf) : [...bs, currentDaf]);
   const toggleCompleted = () => setCompleted(cs => cs.includes(currentDaf) ? cs.filter(x => x !== currentDaf) : [...cs, currentDaf]);
+  const toggleMarkedLine = (lineId) => setMarkedLines(lines => lines.includes(lineId) ? lines.filter(x => x !== lineId) : [...lines, lineId]);
 
   const goPrev = useCallback(() => {
     const i = dafIdx(currentDaf);
@@ -1300,7 +1320,7 @@ function App() {
         ) : content ? (
           <>
             {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })}/>
+              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.studyMode === "class"} />
             ))}
             {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
             <Glossary items={content.glossary} onTermClick={(term) => setEnrichmentModal({ type: "glossary", ...term })} />

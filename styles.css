@@ -2128,6 +2128,38 @@ body::before {
   transform: scale(0.95);
 }
 
+/* Mark line button for collaborative features */
+.mark-line-btn {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: var(--ink-mute);
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 140ms, color 140ms, transform 140ms;
+  border-radius: 4px;
+}
+.mark-line-btn:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.mark-line-btn[data-marked="1"] {
+  color: var(--accent);
+  opacity: 1;
+  background: rgba(251, 191, 36, 0.1);
+}
+.line[data-marked="1"] {
+  background: rgba(251, 191, 36, 0.05);
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+  margin-left: -15px;
+}
+
 /* Enrichment modal */
 .modal-backdrop {
   position: fixed;
