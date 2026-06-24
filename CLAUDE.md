@@ -157,6 +157,42 @@ Use `--skip-existing` - it skips any daf that already has a JSON file in `assets
 - Do not add schema fields casually - update `shared/schema_map.js`.
 - Do not move module files without updating manifest.js and sync_version.py.
 
+## Help and Features Pages
+
+The app includes global help and features pages accessible via the Chrome navigation bar (? and * buttons). These pages document keyboard shortcuts, study modes, enrichment layers, and app capabilities.
+
+**Maintaining Help & Features Pages:**
+
+1. **Help Page** (`app.jsx` - `HelpPage` component):
+   - Lists keyboard shortcuts under "Navigation", "Display Controls"
+   - Documents study modes: Solo, Chavruta, Class, Online
+   - Describes enrichment layers: Whats, Hints, Aha Moments, Deep Context, Argument Flow, Rashi
+   - Lists gestures: Swipe left/right, Swipe down on modal, Scroll behavior
+
+2. **Features Page** (`app.jsx` - `FeaturesPage` component):
+   - Provides overview of reading experience
+   - Describes enrichment layer capabilities
+   - Explains study mode customization
+   - Documents navigation and progress tracking
+   - Details Rashi tools (search, English toggle)
+   - Explains collaborative features (line marking)
+   - Lists customization options (themes, fonts)
+   - Notes accessibility features
+
+**When to update:**
+
+- Add new keyboard shortcuts to both Help page (list + description) and in the keyboard handler logic (`useEffect` with `onKey`)
+- Document new study modes or enrichment layers in the Help page
+- Update Features page descriptions when adding major capabilities
+- Keep feature descriptions concise and user-focused (avoid technical jargon)
+
+**Edit locations:**
+
+- `app.jsx`: `HelpPage` and `FeaturesPage` components (lines ~60-130)
+- `styles.css`: Help/Features modal styling (`.help-modal`, `.features-modal`, `.help-content`, `.features-content`)
+
+Both pages are rendered as centered modals that appear above the main content when the user clicks the ? or * buttons in the Chrome header. Changes require no version bump unless the feature itself changes.
+
 ---
 
 # Part A: Maintaining an Existing Module

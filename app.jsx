@@ -58,6 +58,123 @@ const Icons = {
 };
 
 // =============================================================================
+// HELP PAGE — keyboard shortcuts & study modes
+// =============================================================================
+function HelpPage({ isOpen, onClose }) {
+  if (!isOpen) return null;
+  return (
+    <>
+      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
+      <div className="help-modal">
+        <div className="modal-header">
+          <h2>Help & Keyboard Shortcuts</h2>
+          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
+        </div>
+        <div className="help-content">
+          <section>
+            <h3>Navigation</h3>
+            <ul>
+              <li><kbd>←</kbd> Previous daf</li>
+              <li><kbd>→</kbd> Next daf</li>
+              <li><kbd>Cmd/Ctrl+K</kbd> Jump to daf</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Display Controls</h3>
+            <ul>
+              <li><kbd>R</kbd> Toggle Rashi visibility</li>
+              <li><kbd>S</kbd> Toggle Argument Flow</li>
+              <li><kbd>E</kbd> Toggle Enrichment Dots</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Study Modes</h3>
+            <ul>
+              <li><strong>Solo:</strong> Individual study with focused content</li>
+              <li><strong>Chavruta:</strong> Partner study with line marking (⚡)</li>
+              <li><strong>Class:</strong> Teacher-led with argument flow visible</li>
+              <li><strong>Online:</strong> Group study with collaborative features</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Enrichment Layers</h3>
+            <ul>
+              <li><strong>Whats:</strong> Concise summary of passage logic</li>
+              <li><strong>Hints:</strong> Context for difficult terms</li>
+              <li><strong>Aha Moments:</strong> Key insights and pivots</li>
+              <li><strong>Deep Context:</strong> Background and sources</li>
+              <li><strong>Argument Flow:</strong> Logical structure and moves</li>
+              <li><strong>Rashi:</strong> Classical commentary with search</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Gestures</h3>
+            <ul>
+              <li><strong>Swipe left/right:</strong> Navigate between dafim</li>
+              <li><strong>Swipe down on modal:</strong> Close enrichment modal</li>
+              <li><strong>Scroll up:</strong> Show navigation bar</li>
+              <li><strong>Scroll down:</strong> Hide navigation bar</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </>
+  );
+}
+
+// =============================================================================
+// FEATURES PAGE — overview of app capabilities
+// =============================================================================
+function FeaturesPage({ isOpen, onClose }) {
+  if (!isOpen) return null;
+  return (
+    <>
+      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
+      <div className="features-modal">
+        <div className="modal-header">
+          <h2>Features & Capabilities</h2>
+          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
+        </div>
+        <div className="features-content">
+          <section>
+            <h3>Reading Experience</h3>
+            <p>Interlinear Hebrew-English text with Vilna line numbering, vowel marks (nekudot), and elucidated English translation. Auto-hiding navigation bar for distraction-free reading.</p>
+          </section>
+          <section>
+            <h3>Enrichment Layers</h3>
+            <p>Multiple enrichment layers provide context at different depths: quick "whats" summaries, hints for difficult terms, aha moments revealing key insights, deep contextual analysis, logical argument flow, and classical Rashi commentary with integrated search.</p>
+          </section>
+          <section>
+            <h3>Study Modes</h3>
+            <p>Customize the interface for your learning context: Solo study hides collaborative features, Chavruta enables line marking for partner discussion, Class mode highlights argument flow for teacher-led study, and Online mode supports group discussion features.</p>
+          </section>
+          <section>
+            <h3>Navigation & Progress</h3>
+            <p>Jump to any daf with Cmd/Ctrl+K, track reading progress with bookmarks and completion markers, follow daf position with Vilna gauge bar and sugya timeline, and access minimal chrome indicator when navigation is hidden.</p>
+          </section>
+          <section>
+            <h3>Rashi Tools</h3>
+            <p>Search within Rashi commentary to find specific terms or concepts. Toggle English helper translation for editorial context. Match count shows how many Rashi lines match your search.</p>
+          </section>
+          <section>
+            <h3>Collaborative Features</h3>
+            <p>In Chavruta mode, mark lines (⚡) to highlight important passages for partner discussion. Marked lines persist across sessions and are visually highlighted with amber borders.</p>
+          </section>
+          <section>
+            <h3>Customization</h3>
+            <p>Choose from 6 color themes, 4 image themes (illustrated, abstract, realistic, minimal), adjust Hebrew and English font sizes independently, and toggle reading aids like vowel marks and Vilna line numbers.</p>
+          </section>
+          <section>
+            <h3>Accessibility</h3>
+            <p>Full RTL support for Hebrew text, semantic HTML with ARIA labels, keyboard navigation, high contrast color options, and responsive design for all screen sizes.</p>
+          </section>
+        </div>
+      </div>
+    </>
+  );
+}
+
+// =============================================================================
 // VILNA POSITION FEATURES
 // =============================================================================
 
@@ -159,7 +276,7 @@ function MinimalChromeIndicator({ daf, onRestore, isVisible }) {
 // =============================================================================
 // CHROME — top bar with daf navigator & actions
 // =============================================================================
-function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar, isVisible = true }) {
+function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, onHelp, onFeatures, scrollPct, showGaugeBar, isVisible = true }) {
   return (
     <header className="chrome" data-visible={isVisible ? "1" : "0"}>
       <div className="chrome-inner">
@@ -192,6 +309,12 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
             title={isBookmarked ? "Remove bookmark" : "Bookmark this daf"}
           >
             {isBookmarked ? <Icons.BookmarkFilled/> : <Icons.Bookmark/>}
+          </button>
+          <button className="icon-btn" onClick={onHelp} title="Help & Shortcuts (?)">
+            ?
+          </button>
+          <button className="icon-btn" onClick={onFeatures} title="Features">
+            ✦
           </button>
           <button className="icon-btn" onClick={onTweaks} title="Open Tweaks">
             <Icons.Settings/>
@@ -1133,8 +1256,10 @@ function App() {
   // mysugya:tweaks is universal; fall back to yoma:tweaks once for existing users
   const [tweaks, setTweak] = useTweaks({ ...TWEAK_DEFAULTS, ...LS.get("mysugya:tweaks", LS.get("yoma:tweaks", {})) });
 
-  // Jump modal
+  // Modal states
   const [jumpOpen, setJumpOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [featuresOpen, setFeaturesOpen] = useState(false);
 
   // Enrichment modal (for both lines and glossary terms)
   const [enrichmentModal, setEnrichmentModal] = useState(null);
@@ -1342,6 +1467,8 @@ function App() {
         isBookmarked={isBookmarked}
         onBookmark={toggleBookmark}
         onJump={() => setJumpOpen(true)}
+        onHelp={() => setHelpOpen(true)}
+        onFeatures={() => setFeaturesOpen(true)}
         onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, '*')}
         scrollPct={scrollPct}
         showGaugeBar={tweaks.gaugeBar}
@@ -1378,6 +1505,9 @@ function App() {
         completed={completed}
         onSelect={onSelect}
       />
+
+      <HelpPage isOpen={helpOpen} onClose={() => setHelpOpen(false)} />
+      <FeaturesPage isOpen={featuresOpen} onClose={() => setFeaturesOpen(false)} />
 
       {tweaks.pipDots && <SugyaPipDots sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
       {tweaks.bottomDock && <BottomDock sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
