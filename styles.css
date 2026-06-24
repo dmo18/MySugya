@@ -895,8 +895,8 @@ body::before {
   margin: 14px 0;
   padding: 12px 14px;
   border-radius: 6px;
-  background: #faf8f4;
-  border: 1px solid #e8e2d8;
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
 }
 .learn-label {
   display: block;
@@ -911,7 +911,7 @@ body::before {
 .learn-row:last-child { margin-bottom: 0; }
 .learn-row p { margin: 0; font-size: 0.92rem; line-height: 1.55; color: var(--ink); }
 .learn-q { font-weight: 600; }
-.learn-takeaway { background: #f0ede6; border-radius: 4px; padding: 8px 10px; }
+.learn-takeaway { background: var(--tint); border-radius: 4px; padding: 8px 10px; }
 .learn-aha { font-style: italic; }
 
 /* ----- Argument flow ----- */
@@ -931,7 +931,7 @@ body::before {
   line-height: 1.45;
   padding: 6px 8px;
   border-radius: 4px;
-  background: #fff;
+  background: var(--bg-elev);
   border-left: 3px solid #ccc;
 }
 .arg-step--question   { border-color: #5a7fa8; }
@@ -946,7 +946,7 @@ body::before {
   font-weight: 700;
   letter-spacing: .05em;
   text-transform: uppercase;
-  color: #888;
+  color: var(--ink-mute);
   grid-column: 1;
   align-self: start;
   padding-top: 2px;
@@ -959,7 +959,7 @@ body::before {
 .arg-speaker {
   grid-column: 1 / -1;
   font-size: 0.78rem;
-  color: #666;
+  color: var(--ink-mute);
 }
 .arg-text {
   grid-column: 1 / -1;
