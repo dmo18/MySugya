@@ -1204,13 +1204,17 @@ function App() {
         e.preventDefault();
         setJumpOpen(v => !v);
       } else if (!meta && !isEditable && !jumpOpen) {
+        const key = e.key.toLowerCase();
         if (e.key === "ArrowLeft")  goPrev();
         if (e.key === "ArrowRight") goNext();
+        if (key === "r") { e.preventDefault(); setTweak("showRashi", !tweaks.showRashi); }
+        if (key === "s") { e.preventDefault(); setTweak("showArgumentFlow", !tweaks.showArgumentFlow); }
+        if (key === "e") { e.preventDefault(); setTweak("showEnrichmentDots", !tweaks.showEnrichmentDots); }
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [currentDaf, jumpOpen]);
+  }, [currentDaf, jumpOpen, tweaks.showRashi, tweaks.showArgumentFlow, tweaks.showEnrichmentDots]);
 
   const entry = dafEntry(currentDaf);
   const perek = PERAKIM.find(p => p.n === entry.perek) || PERAKIM[0];
