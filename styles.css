@@ -986,6 +986,78 @@ body::before {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+.stories-list,
+.scenes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.story-item,
+.scene-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.story-item:last-child,
+.scene-item:last-child {
+  border-bottom: none;
+}
+
+.story-q,
+.story-a {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.story-q {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.story-q strong {
+  display: inline-block;
+  min-width: 20px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.story-a {
+  margin-top: 4px;
+  color: var(--ink-soft);
+}
+
+.story-a strong {
+  display: inline-block;
+  min-width: 20px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.scene-desc {
+  margin: 0;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.scene-role,
+.scene-priority {
+  display: inline-block;
+  font-size: 0.85rem;
+  background: var(--tint);
+  color: var(--ink-mute);
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+
+.scene-role {
+  background: var(--highlight);
+  color: var(--accent-dark, var(--accent));
+}
+
 /* ============================================
    GLOSSARY
    ============================================ */

@@ -500,6 +500,8 @@ function LearningPanel({ learning, display }) {
 function Sugya({ sugya, idx, total, tweaks }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
+  const [storiesOpen, setStoriesOpen] = useState(false);
+  const [scenesOpen, setScenesOpen] = useState(false);
 
   const display  = sugya.display  || {};
   const learning = sugya.learning || null;
@@ -507,6 +509,16 @@ function Sugya({ sugya, idx, total, tweaks }) {
   const oneLine  = display.oneLine;
   const hint     = display.hint   || sugya.hint;
   const title    = display.title  || sugya.title;
+
+  // Aggregate narrative quiz questions (stories)
+  const narrativeQuizzes = useMemo(() => {
+    return (sugya.quizSeeds || []).filter(q => q.question && q.answer);
+  }, [sugya.quizSeeds]);
+
+  // Aggregate visualizable elements (scenes)
+  const visualScenes = useMemo(() => {
+    return (sugya.visualizableElements || []).filter(v => v.item || v.description);
+  }, [sugya.visualizableElements]);
 
   return (
     <article className="sugya" id={sugya.id}>
@@ -578,6 +590,41 @@ function Sugya({ sugya, idx, total, tweaks }) {
             >
               <p className="nusach-tradition">{tweaks.nusach === "sephardic" ? "Sephardic" : "Ashkenaz"}</p>
               <p>{sugya.nusach[tweaks.nusach]}</p>
+            </Chip>
+          )}
+          {narrativeQuizzes.length > 0 && (
+            <Chip
+              open={storiesOpen}
+              onToggle={() => setStoriesOpen(v => !v)}
+              label="Stories" labelHe="סִפּוּרִים"
+              kind="Narrative Questions"
+            >
+              <div className="stories-list">
+                {narrativeQuizzes.map((q, i) => (
+                  <div key={i} className="story-item">
+                    <p className="story-q"><strong>Q:</strong> {q.question}</p>
+                    <p className="story-a"><strong>A:</strong> {q.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </Chip>
+          )}
+          {visualScenes.length > 0 && (
+            <Chip
+              open={scenesOpen}
+              onToggle={() => setScenesOpen(v => !v)}
+              label="Scenes" labelHe="תַּמּוּנוֹת"
+              kind="Visual Elements"
+            >
+              <div className="scenes-list">
+                {visualScenes.map((s, i) => (
+                  <div key={i} className="scene-item">
+                    <p className="scene-desc">{s.item || s.description}</p>
+                    {s.role && <span className="scene-role">{s.role}</span>}
+                    {s.priority && <span className="scene-priority">Priority: {s.priority}</span>}
+                  </div>
+                ))}
+              </div>
             </Chip>
           )}
         </div>
