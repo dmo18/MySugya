@@ -914,6 +914,68 @@ body::before {
 .learn-takeaway { background: var(--tint); border-radius: 4px; padding: 8px 10px; }
 .learn-aha { font-style: italic; }
 
+/* Mobile sugya comprehension collapse */
+.mobile-understanding {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .desktop-understanding {
+    display: none;
+  }
+
+  .mobile-understanding {
+    display: block;
+    margin: 14px 0 4px;
+    border: 1px solid var(--rule);
+    border-radius: var(--r-md);
+    background: var(--bg-card);
+    overflow: hidden;
+  }
+
+  .mobile-understanding summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 12px 14px;
+    font-family: var(--ff-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .mobile-understanding summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-understanding summary::after {
+    content: "+";
+    float: right;
+    font-size: 1rem;
+    line-height: 0.8;
+    color: var(--ink-mute);
+  }
+
+  .mobile-understanding[open] summary::after {
+    content: "–";
+  }
+
+  .mobile-understanding-content {
+    padding: 0 12px 12px;
+  }
+
+  .mobile-understanding .sugya-whats,
+  .mobile-understanding .learn-panel {
+    margin: 0 0 10px;
+  }
+
+  .mobile-understanding .learn-panel:last-child,
+  .mobile-understanding .sugya-whats:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /* ----- Argument flow ----- */
 .arg-steps {
   list-style: none;

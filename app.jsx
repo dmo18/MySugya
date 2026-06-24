@@ -469,8 +469,17 @@ function ArgumentFlowPanel({ steps }) {
   );
 }
 
+function SugyaWhats({ whats }) {
+  if (!whats) return null;
+  return (
+    <div className="sugya-whats">
+      <span className="label">What's happening</span>
+      <p>{whats}</p>
+    </div>
+  );
+}
+
 function LearningPanel({ learning, display }) {
-  const [open, setOpen] = useState(false);
   if (!learning) return null;
   const { learnerQuestion, coreTension, takeaway, ahaMoment } = learning;
   if (!learnerQuestion && !takeaway) return null;
@@ -531,6 +540,8 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
     return (sugya.visualizableElements || []).filter(v => v.item || v.description);
   }, [sugya.visualizableElements]);
 
+  const hasUnderstanding = !!whats || !!learning;
+
   return (
     <article className="sugya" id={sugya.id}>
       <div className="sugya-body">
@@ -544,16 +555,12 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}
 
-        {whats && (
-          <div className="sugya-whats">
-            <span className="label">What's happening</span>
-            <p>{whats}</p>
-          </div>
-        )}
-
-        {learning && (
-          <LearningPanel learning={learning} display={display} />
-        )}
+        <div className="desktop-understanding">
+          <SugyaWhats whats={whats} />
+          {learning && (
+            <LearningPanel learning={learning} display={display} />
+          )}
+        </div>
 
         <div className="lines">
           {sugya.lines.filter(Boolean).map((line, i) => {
@@ -584,6 +591,18 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
             );
           })}
         </div>
+
+        {hasUnderstanding && (
+          <details className="mobile-understanding">
+            <summary>Understand this sugya</summary>
+            <div className="mobile-understanding-content">
+              <SugyaWhats whats={whats} />
+              {learning && (
+                <LearningPanel learning={learning} display={display} />
+              )}
+            </div>
+          </details>
+        )}
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
           <ArgumentFlowPanel steps={sugya.argumentFlow} />
