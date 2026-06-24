@@ -2046,3 +2046,170 @@ body::before {
   color: var(--ink-faint);
   font-family: var(--ff-mono);
 }
+
+/* =============================================================================
+   ENRICHMENT LAYER — dots, modals, theme selectors
+   ============================================================================= */
+
+/* Enrichment dot on lines */
+.enrichment-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 0;
+  cursor: pointer;
+  margin-left: 6px;
+  transition: all 140ms var(--motion);
+  opacity: 0.7;
+  padding: 0;
+  min-width: unset;
+}
+.enrichment-dot:hover {
+  opacity: 1;
+  transform: scale(1.3);
+  box-shadow: 0 0 0 3px var(--accent-tint);
+}
+.enrichment-dot:active {
+  transform: scale(0.95);
+}
+
+/* Enrichment modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+}
+.enrichment-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 75vh;
+  background: var(--bg-card);
+  border-top: 1px solid var(--rule);
+  border-radius: 16px 16px 0 0;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp 220ms var(--motion);
+}
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--rule);
+  flex-shrink: 0;
+}
+.modal-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.modal-close {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--ink-mute);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 140ms;
+}
+.modal-close:hover {
+  background: var(--tint-strong);
+  color: var(--ink);
+}
+.modal-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.modal-content p {
+  margin: 0 0 12px;
+}
+.modal-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Image theme selector */
+.image-theme-selector {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+.theme-btn {
+  appearance: none;
+  border: 1px solid var(--rule-strong);
+  background: var(--bg-soft);
+  color: var(--ink-mute);
+  width: 32px;
+  height: 32px;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  font-family: var(--ff-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 140ms var(--motion);
+}
+.theme-btn:hover {
+  background: var(--bg-card);
+  color: var(--ink);
+  border-color: var(--accent);
+}
+.theme-btn.active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/* Expandable argument flow */
+.learn-label-btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--ink-mute);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 140ms;
+  width: 100%;
+}
+.learn-label-btn:hover {
+  color: var(--ink);
+}
+
+/* Adjust line to accommodate enrichment dot */
+.line {
+  position: relative;
+}
+.line-en {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.line-en span:first-child {
+  flex: 1;
+}

@@ -252,13 +252,48 @@ function DafHead({ daf, perek, summary, isBookmarked, onBookmark, isCompleted, o
 }
 
 // =============================================================================
+// ENRICHMENT MODALS — hints, aha moments, deep context
+// =============================================================================
+function EnrichmentModal({ isOpen, onClose, title, content, type }) {
+  if (!isOpen || !content) return null;
+  return (
+    <>
+      <div className="modal-backdrop" onClick={onClose} aria-hidden="true" />
+      <div className="enrichment-modal">
+        <div className="modal-header">
+          <h3>{title}</h3>
+          <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
+        </div>
+        <div className="modal-content">
+          <p>{content}</p>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function EnrichmentDot({ onClick, visible = true }) {
+  if (!visible) return null;
+  return (
+    <button
+      className="enrichment-dot"
+      onClick={onClick}
+      aria-label="View enrichment"
+      title="Tap for more context"
+    />
+  );
+}
+
+// =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
   const hasVilna = line.vilna_line != null;
+  const hasEnrichment = !!(line.hint || line.enrichment);
+
   return (
     <div className="line" data-kind={line.kind}>
       <span className="line-marker" aria-hidden="true"/>
@@ -289,6 +324,12 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
             </span>
           )}
         </p>
+      )}
+      {hasEnrichment && (
+        <EnrichmentDot
+          visible={showEnrichmentDots}
+          onClick={() => onEnrichment && onEnrichment(line)}
+        />
       )}
     </div>
   );
@@ -440,21 +481,31 @@ function ShareButton({ sugya }) {
 // =============================================================================
 // LEARNING LAYER COMPONENTS (v1.0 schema fields)
 // =============================================================================
-function ArgumentFlowPanel({ steps }) {
-  if (!steps || !steps.length) return null;
+function ArgumentFlowPanel({ steps, defaultOpen = false, visible = true }) {
+  const [open, setOpen] = useState(defaultOpen);
+  if (!steps || !steps.length || !visible) return null;
   return (
     <div className="learn-panel learn-args">
-      <span className="learn-label">Argument flow</span>
-      <ol className="arg-steps">
-        {steps.map(step => (
-          <li key={step.id} className={"arg-step arg-step--" + step.type}>
-            <span className="arg-type">{step.type}</span>
-            {step.label && <strong className="arg-label">{step.label}</strong>}
-            {step.speaker && <em className="arg-speaker">{step.speaker}</em>}
-            <span className="arg-text">{step.text}</span>
-          </li>
-        ))}
-      </ol>
+      <button
+        className="learn-label-btn"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >
+        <span className="learn-label">Argument flow</span>
+        <span aria-hidden="true" style={{transform: open ? "rotate(180deg)" : "none", transition: "transform 160ms", display:"inline-block"}}>⌄</span>
+      </button>
+      {open && (
+        <ol className="arg-steps">
+          {steps.map(step => (
+            <li key={step.id} className={"arg-step arg-step--" + step.type}>
+              <span className="arg-type">{step.type}</span>
+              {step.label && <strong className="arg-label">{step.label}</strong>}
+              {step.speaker && <em className="arg-speaker">{step.speaker}</em>}
+              <span className="arg-text">{step.text}</span>
+            </li>
+          ))}
+        </ol>
+      )}
     </div>
   );
 }
@@ -500,6 +551,8 @@ function LearningPanel({ learning, display }) {
 function Sugya({ sugya, idx, total, tweaks }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
+  const [enrichmentModal, setEnrichmentModal] = useState(null);
+  const [imageTheme, setImageTheme] = useState(tweaks.imageTheme || "illustrated");
 
   const display  = sugya.display  || {};
   const learning = sugya.learning || null;
@@ -507,6 +560,9 @@ function Sugya({ sugya, idx, total, tweaks }) {
   const oneLine  = display.oneLine;
   const hint     = display.hint   || sugya.hint;
   const title    = display.title  || sugya.title;
+
+  // Study mode defaults for argument flow visibility
+  const argFlowDefaultOpen = tweaks.studyMode === "class" || tweaks.showArgumentFlow;
 
   return (
     <article className="sugya" id={sugya.id}>
@@ -521,14 +577,14 @@ function Sugya({ sugya, idx, total, tweaks }) {
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}
 
-        {whats && (
+        {whats && tweaks.showWhats && (
           <div className="sugya-whats">
             <span className="label">What's happening</span>
             <p>{whats}</p>
           </div>
         )}
 
-        {learning && (
+        {learning && tweaks.showDeepContext && (
           <LearningPanel learning={learning} display={display} />
         )}
 
@@ -539,27 +595,52 @@ function Sugya({ sugya, idx, total, tweaks }) {
               showVilnaLines={tweaks.vilnaLines}
               showEnglish={tweaks.showEnglish}
               boldLiteral={tweaks.boldLiteral}
+              showEnrichmentDots={tweaks.showEnrichmentDots}
+              onEnrichment={(line) => setEnrichmentModal(line)}
             />
           ))}
         </div>
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
-          <ArgumentFlowPanel steps={sugya.argumentFlow} />
+          <ArgumentFlowPanel
+            steps={sugya.argumentFlow}
+            defaultOpen={argFlowDefaultOpen}
+            visible={tweaks.showArgumentFlow || tweaks.studyMode === "class"}
+          />
         )}
 
 
         <div className="chips">
           {sugya.image && (
             <div className="sugya-image">
+              {tweaks.imageTheme && (
+                <div className="image-theme-selector">
+                  {['abstract', 'illustrated', 'realistic', 'minimal'].map(theme => (
+                    <button
+                      key={theme}
+                      className={"theme-btn" + (imageTheme === theme ? " active" : "")}
+                      onClick={() => setImageTheme(theme)}
+                      title={`View ${theme} style`}
+                    >
+                      {theme.charAt(0).toUpperCase()}
+                    </button>
+                  ))}
+                </div>
+              )}
               <img
-                src={`assets/generated-images/${sugya.image}`}
+                src={`assets/generated-images/${sugya.image}${imageTheme ? `-${imageTheme}` : ''}`}
                 alt={sugya.image_alt || title}
                 className="sugya-infographic"
                 loading="lazy"
+                onError={(e) => {
+                  if (imageTheme !== 'illustrated') {
+                    e.target.src = `assets/generated-images/${sugya.image}-illustrated`;
+                  }
+                }}
               />
             </div>
           )}
-          {hint && (
+          {hint && tweaks.showHints && (
             <Chip
               open={learnOpen}
               onToggle={() => setLearnOpen(v => !v)}
@@ -583,6 +664,14 @@ function Sugya({ sugya, idx, total, tweaks }) {
         </div>
       </div>
 
+      {enrichmentModal && (
+        <EnrichmentModal
+          isOpen={!!enrichmentModal}
+          onClose={() => setEnrichmentModal(null)}
+          title="Line enrichment"
+          content={enrichmentModal.hint || enrichmentModal.enrichment}
+        />
+      )}
     </article>
   );
 }
@@ -1146,6 +1235,15 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "timeline": false,
   "pipDots": false,
   "bottomDock": false,
+  "studyMode": "solo",
+  "showWhats": true,
+  "showEnrichmentDots": true,
+  "showHints": true,
+  "showAhaMoments": true,
+  "showDeepContext": true,
+  "showArgumentFlow": false,
+  "showRashi": true,
+  "imageTheme": "illustrated",
 }/*EDITMODE-END*/;
 
 function accentToToken(hex) {
@@ -1223,6 +1321,44 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
         <TweakToggle label="Timeline strip" value={tweaks.timeline} onChange={v => setTweak("timeline", v)}/>
         <TweakToggle label="Pip dots" value={tweaks.pipDots} onChange={v => setTweak("pipDots", v)}/>
         <TweakToggle label="Bottom dock" value={tweaks.bottomDock} onChange={v => setTweak("bottomDock", v)}/>
+      </TweakSection>
+
+      <TweakSection label="Study Mode">
+        <TweakRadio
+          label="Learning context"
+          value={tweaks.studyMode}
+          options={[
+            { value: "solo", label: "Solo" },
+            { value: "chavruta", label: "Chavruta" },
+            { value: "class", label: "Class" },
+            { value: "online", label: "Online" }
+          ]}
+          onChange={v => setTweak("studyMode", v)}
+        />
+      </TweakSection>
+
+      <TweakSection label="Enrichment Visibility">
+        <TweakToggle label="What's happening" value={tweaks.showWhats} onChange={v => setTweak("showWhats", v)}/>
+        <TweakToggle label="Enrichment dots" value={tweaks.showEnrichmentDots} onChange={v => setTweak("showEnrichmentDots", v)}/>
+        <TweakToggle label="Hints" value={tweaks.showHints} onChange={v => setTweak("showHints", v)}/>
+        <TweakToggle label="Aha moments" value={tweaks.showAhaMoments} onChange={v => setTweak("showAhaMoments", v)}/>
+        <TweakToggle label="Deep context" value={tweaks.showDeepContext} onChange={v => setTweak("showDeepContext", v)}/>
+        <TweakToggle label="Argument flow" value={tweaks.showArgumentFlow} onChange={v => setTweak("showArgumentFlow", v)}/>
+        <TweakToggle label="Rashi commentary" value={tweaks.showRashi} onChange={v => setTweak("showRashi", v)}/>
+      </TweakSection>
+
+      <TweakSection label="Images">
+        <TweakRadio
+          label="Infographic style"
+          value={tweaks.imageTheme}
+          options={[
+            { value: "abstract", label: "Abstract" },
+            { value: "illustrated", label: "Illustrated" },
+            { value: "realistic", label: "Realistic" },
+            { value: "minimal", label: "Minimal" }
+          ]}
+          onChange={v => setTweak("imageTheme", v)}
+        />
       </TweakSection>
 
       <TweakSection label="Reset">
