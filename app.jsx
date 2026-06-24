@@ -156,7 +156,7 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
           <button className="chrome-nav-arrow" disabled={!hasPrev} onClick={onPrev} aria-label="Previous daf">
             <Icons.Arrow dir="left"/>
           </button>
-          <button className="chrome-daf" onClick={onJump} title="Pick a daf (⌘K)">
+          <button className="chrome-daf" onClick={onJump} title="Pick a daf (⌘K)" aria-label="Open daf picker">
             <div className="chrome-daf-id">
               <span>{daf}</span>
               <span className="chrome-daf-he" lang="he" dir="rtl">{gemaraId(daf)}</span>
@@ -173,10 +173,11 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
             className={"icon-btn " + (isBookmarked ? "is-active" : "")}
             onClick={onBookmark}
             title={isBookmarked ? "Remove bookmark" : "Bookmark this daf"}
+            aria-label={isBookmarked ? "Remove bookmark" : "Bookmark this daf"}
           >
             {isBookmarked ? <Icons.BookmarkFilled/> : <Icons.Bookmark/>}
           </button>
-          <button className="icon-btn" onClick={onTweaks} title="Open Tweaks">
+          <button className="icon-btn" onClick={onTweaks} title="Open Tweaks" aria-label="Open tweaks settings">
             <Icons.Settings/>
           </button>
         </div>
