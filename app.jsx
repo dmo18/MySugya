@@ -664,66 +664,6 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
   );
 }
 
-// =============================================================================
-// RASHI PANEL
-// =============================================================================
-function RashiPanel({ lines, showNekudot }) {
-  const [open, setOpen] = useState(false);
-  const [showEn, setShowEn] = useState(true);
-  if (!lines || !lines.length) return null;
-  const hasEn = lines.some(r => r.en);
-  return (
-    <section className="rashi-panel">
-      <button
-        className="rashi-toggle"
-        onClick={() => setOpen(v => !v)}
-        aria-expanded={open}
-      >
-        <span className="rashi-toggle-he" lang="he" dir="rtl">רַשִׁ&quot;י</span>
-        <span className="rashi-toggle-label">Rashi on this daf</span>
-        <span className="rashi-toggle-count">{lines.length} lines (Vilna)</span>
-        <span className="rashi-toggle-arrow" aria-hidden="true">{open ? "▲" : "▼"}</span>
-      </button>
-      {open && (
-        <div className="rashi-body">
-          {hasEn && (
-            <div className="rashi-controls">
-              <label className="rashi-en-toggle">
-                <input
-                  type="checkbox"
-                  checked={showEn}
-                  onChange={() => setShowEn(v => !v)}
-                />
-                Show English helper translation
-              </label>
-              <span className="rashi-helper-note">
-                English is an editorial helper translation, not source-validated.
-              </span>
-            </div>
-          )}
-          <ol className="rashi-lines">
-            {lines.map((r, i) => {
-              const he = showNekudot ? r.he : stripNekudot(r.he);
-              return (
-                <li key={r.id || i} className="rashi-row">
-                  <span className="rashi-vl" aria-hidden="true">{r.vilnaLine}</span>
-                  <div className="rashi-pair">
-                    <p className="rashi-he" lang="he" dir="rtl">{he}</p>
-                    {showEn && r.en && (
-                      <p className="rashi-en">
-                        <span dangerouslySetInnerHTML={{__html: enHtml(r.en)}}/>
-                      </p>
-                    )}
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
-        </div>
-      )}
-    </section>
-  );
-}
 
 // =============================================================================
 // GLOSSARY
