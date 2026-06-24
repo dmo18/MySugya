@@ -1087,6 +1087,23 @@ function App() {
 
   const onSelect = (id) => { setCurrentDaf(normalizeDaf(id)); window.scrollTo({top: 0, behavior: "auto"}); };
 
+  const rashiMap = useMemo(() => {
+    const map = new Map();
+    content?.rashiLines?.forEach(r => {
+      if (r.vilnaLine != null) {
+        map.set(r.vilnaLine, r);
+      }
+    });
+    return map;
+  }, [content?.rashiLines]);
+
+  const renderedSugyot = useMemo(() => {
+    if (!content?.sugyot) return null;
+    return content.sugyot.map((s, i) => (
+      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
+    ));
+  }, [content?.sugyot, rashiMap, tweaks]);
+
   return (
     <div className="app">
       <Chrome
@@ -1111,20 +1128,7 @@ function App() {
           currentDaf === "1a" ? <VilnaTitlePage/> : <VilnaChapterList/>
         ) : content ? (
           <>
-            {useMemo(() => {
-              // Build Rashi-by-Vilna-line map for inline display
-              const rashiMap = new Map();
-              if (content.rashiLines) {
-                content.rashiLines.forEach(r => {
-                  if (r.vilnaLine != null) {
-                    rashiMap.set(r.vilnaLine, r);
-                  }
-                });
-              }
-              return content.sugyot.map((s, i) => (
-                <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
-              ));
-            }, [content.sugyot, content.rashiLines])}
+            {renderedSugyot}
             <Glossary items={content.glossary}/>
           </>
         ) : (
