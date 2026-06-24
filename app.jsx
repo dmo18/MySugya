@@ -727,8 +727,12 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
 function RashiPanel({ lines, showNekudot }) {
   const [open, setOpen] = useState(false);
   const [showEn, setShowEn] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
   if (!lines || !lines.length) return null;
   const hasEn = lines.some(r => r.en);
+  const filteredLines = searchTerm.trim()
+    ? lines.filter(r => r.he.toLowerCase().includes(searchTerm.toLowerCase()) || (r.en && r.en.toLowerCase().includes(searchTerm.toLowerCase())))
+    : lines;
   return (
     <section className="rashi-panel">
       <button
@@ -743,23 +747,33 @@ function RashiPanel({ lines, showNekudot }) {
       </button>
       {open && (
         <div className="rashi-body">
-          {hasEn && (
-            <div className="rashi-controls">
+          <div className="rashi-controls">
+            <input
+              type="text"
+              className="rashi-search"
+              placeholder="Search Rashi..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            {searchTerm && <span className="rashi-search-count">{filteredLines.length} / {lines.length}</span>}
+            {hasEn && (
               <label className="rashi-en-toggle">
                 <input
                   type="checkbox"
                   checked={showEn}
                   onChange={() => setShowEn(v => !v)}
                 />
-                Show English helper translation
+                English
               </label>
+            )}
+            {hasEn && (
               <span className="rashi-helper-note">
-                English is an editorial helper translation, not source-validated.
+                English is editorial helper, not source-validated.
               </span>
-            </div>
-          )}
+            )}
+          </div>
           <ol className="rashi-lines">
-            {lines.map((r, i) => {
+            {filteredLines.map((r, i) => {
               const he = showNekudot ? r.he : stripNekudot(r.he);
               return (
                 <li key={r.id || i} className="rashi-row">

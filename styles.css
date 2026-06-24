@@ -1085,6 +1085,30 @@ body::before {
   margin-bottom: 12px;
   border-bottom: 1px dashed var(--rule);
 }
+.rashi-search {
+  flex: 1;
+  min-width: 160px;
+  padding: 6px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-family: var(--ff-base);
+}
+.rashi-search::placeholder {
+  color: var(--ink-mute);
+}
+.rashi-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.1);
+}
+.rashi-search-count {
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
 .rashi-en-toggle {
   display: inline-flex;
   align-items: center;
