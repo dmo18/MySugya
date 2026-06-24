@@ -140,6 +140,23 @@ const LINE_TAGS = {
 };
 
 // =============================================================================
+// MINIMAL CHROME INDICATOR — collapsed daf number when main chrome hidden
+// =============================================================================
+function MinimalChromeIndicator({ daf, onRestore, isVisible }) {
+  if (isVisible) return null;
+  return (
+    <button
+      className="minimal-chrome-indicator"
+      onClick={onRestore}
+      title="Tap to restore navigation"
+      aria-label={`${daf} - Tap to restore`}
+    >
+      <span className="mci-daf">{daf}</span>
+    </button>
+  );
+}
+
+// =============================================================================
 // CHROME — top bar with daf navigator & actions
 // =============================================================================
 function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar, isVisible = true }) {
@@ -1253,6 +1270,7 @@ function App() {
   }, [currentDaf]);
 
   const onSelect = (id) => { setCurrentDaf(normalizeDaf(id)); window.scrollTo({top: 0, behavior: "auto"}); };
+  const restoreChrome = () => { setChromeVisible(true); };
 
   return (
     <div className="app">
@@ -1271,6 +1289,8 @@ function App() {
         showGaugeBar={tweaks.gaugeBar}
         isVisible={chromeVisible}
       />
+
+      <MinimalChromeIndicator daf={currentDaf} onRestore={restoreChrome} isVisible={chromeVisible} />
 
       {tweaks.timeline && <SugyaTimeline sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
 
