@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import re
 import sys
 import time
 import urllib.request
@@ -9,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PORT = 4173
 BASE = f"http://127.0.0.1:{PORT}"
+DIST = ROOT / "dist"
 VERSION = (ROOT / "VERSION").read_text().strip()
 
 
@@ -22,9 +22,19 @@ def assert_contains(html: str, needle: str, label: str):
         raise AssertionError(f"Missing {label}: {needle}")
 
 
+def re_search_bundle(html: str) -> str:
+    import re
+    match = re.search(r'src="(assets/app-[^"]+\.js)"', html)
+    if not match:
+        raise AssertionError("Missing production bundle script tag")
+    return match.group(1)
+
+
 def main() -> int:
+    subprocess.run(["npm", "run", "build"], cwd=str(ROOT), check=True)
+
     server = subprocess.Popen(
-        ["python3", "-m", "http.server", str(PORT), "--bind", "127.0.0.1"],
+        ["python3", "-m", "http.server", str(PORT), "--bind", "127.0.0.1", "--directory", str(DIST)],
         cwd=str(ROOT),
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
@@ -35,8 +45,13 @@ def main() -> int:
         daf_html = fetch("/daf.html?daf=15a")
 
         assert_contains(index_html, "id=\"root\"", "root mount")
-        assert_contains(index_html, f"app.jsx?v={VERSION}", "versioned app script")
+        assert_contains(index_html, f"assets/app-{VERSION}.js", "versioned production app bundle")
         assert_contains(index_html, f"manifest.js?v={VERSION}", "versioned manifest script")
+        bundle_html_match = re_search_bundle(index_html)
+        bundle_js = fetch("/" + bundle_html_match)
+        assert_contains(bundle_js, "createRoot", "React production bundle code")
+        if "text/babel" in index_html or "babel.min.js" in index_html or "react.development.js" in index_html:
+            raise AssertionError("Built output should not load Babel or React development UMD scripts")
 
         assert_contains(daf_html, "window.location.replace", "legacy redirect")
         assert_contains(daf_html, "index.html", "redirect target")
@@ -52,7 +67,7 @@ def main() -> int:
         if "Transliteration" in app:
             raise AssertionError("Transliteration UI should be removed")
 
-        print("OK: hosted pages render and key UI hooks are present")
+        print("OK: built pages render and key UI hooks are present")
         return 0
     except Exception as e:
         print(f"FAIL: {e}")
