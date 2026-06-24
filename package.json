@@ -18,6 +18,7 @@
     "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status",
     "build": "node scripts/build.mjs",
     "preview": "npm run build && python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "test:browser": "playwright test",
     "check:deploy-html": "node scripts/check-deploy-html.mjs"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "esbuild": "0.25.5"
   }
 }
