@@ -142,9 +142,9 @@ const LINE_TAGS = {
 // =============================================================================
 // CHROME — top bar with daf navigator & actions
 // =============================================================================
-function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar }) {
+function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar, isVisible = true }) {
   return (
-    <header className="chrome">
+    <header className="chrome" data-visible={isVisible ? "1" : "0"}>
       <div className="chrome-inner">
 
         <div className="brand">
@@ -1057,6 +1057,15 @@ function App() {
   const [scrollPct, setScrollPct] = useState(0);
   const [currentSugyaIdx, setCurrentSugyaIdx] = useState(0);
 
+  // Chrome auto-hide on scroll
+  const [chromeVisible, setChromeVisible] = useState(true);
+  const lastScrollYRef = useRef(0);
+  const scrollDirectionRef = useRef("up");
+
+  // Swipe navigation
+  const touchStartRef = useRef({ x: 0, y: 0 });
+  const [swipeInProgress, setSwipeInProgress] = useState(false);
+
   useEffect(() => {
     const onScroll = () => {
       const doc = document.documentElement;
@@ -1066,10 +1075,70 @@ function App() {
       let best = 0;
       els.forEach((el, i) => { if (el.getBoundingClientRect().top <= 120) best = i; });
       setCurrentSugyaIdx(best);
+
+      // Auto-hide chrome on scroll
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollYRef.current;
+
+      // Only hide/show if scroll delta is significant (avoid jitter from small scrolls)
+      if (Math.abs(scrollDelta) > 5) {
+        const newDirection = scrollDelta > 0 ? "down" : "up";
+        if (newDirection !== scrollDirectionRef.current) {
+          scrollDirectionRef.current = newDirection;
+          setChromeVisible(newDirection === "up");
+        }
+      }
+      lastScrollYRef.current = currentScrollY;
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Swipe gesture detection
+  useEffect(() => {
+    const onTouchStart = (e) => {
+      touchStartRef.current = {
+        x: e.touches[0].clientX,
+        y: e.touches[0].clientY,
+      };
+    };
+
+    const onTouchEnd = (e) => {
+      const touchEnd = {
+        x: e.changedTouches[0].clientX,
+        y: e.changedTouches[0].clientY,
+      };
+
+      const dx = touchEnd.x - touchStartRef.current.x;
+      const dy = touchEnd.y - touchStartRef.current.y;
+      const distance = Math.abs(dx);
+      const verticalDistance = Math.abs(dy);
+
+      // Require horizontal movement > vertical movement + 40px minimum distance
+      if (distance > 40 && distance > verticalDistance * 1.5) {
+        setSwipeInProgress(true);
+
+        if (dx > 0) {
+          // Swiped right: previous daf
+          const idx = dafIdx(currentDaf);
+          if (idx > 0) setCurrentDaf(DAF_INDEX[idx - 1].id);
+        } else if (dx < 0) {
+          // Swiped left: next daf
+          const idx = dafIdx(currentDaf);
+          if (idx < DAF_INDEX.length - 1) setCurrentDaf(DAF_INDEX[idx + 1].id);
+        }
+
+        setTimeout(() => setSwipeInProgress(false), 400);
+      }
+    };
+
+    window.addEventListener("touchstart", onTouchStart, { passive: true });
+    window.addEventListener("touchend", onTouchEnd, { passive: true });
+    return () => {
+      window.removeEventListener("touchstart", onTouchStart);
+      window.removeEventListener("touchend", onTouchEnd);
+    };
+  }, [currentDaf]);
 
   useEffect(() => { setScrollPct(0); setCurrentSugyaIdx(0); }, [currentDaf]);
 
@@ -1078,6 +1147,11 @@ function App() {
   useEffect(() => { LS.set("mysugya:tweaks", tweaks); }, [tweaks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":bookmarks", bookmarks); }, [bookmarks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":completed", completed); }, [completed]);
+
+  // Swipe feedback
+  useEffect(() => {
+    document.body.setAttribute("data-swipe-in-progress", swipeInProgress ? "1" : "0");
+  }, [swipeInProgress]);
 
   // Save scroll per daf
   useEffect(() => {
@@ -1174,6 +1248,7 @@ function App() {
         onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, '*')}
         scrollPct={scrollPct}
         showGaugeBar={tweaks.gaugeBar}
+        isVisible={chromeVisible}
       />
 
       {tweaks.timeline && <SugyaTimeline sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
