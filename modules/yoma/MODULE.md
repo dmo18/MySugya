@@ -2,7 +2,7 @@
 
 Tractate Yoma: 173 daf (2a-88a), 8 chapters, 492 sugyot, 8,854 rashiLines (runtime); 8,878 rashiTranslations (source enrichment layer).
 
-**Status: FROZEN at v10.75. Do not modify any learning content.**
+**Status: FROZEN at v12.7. Do not modify any learning content.**
 
 ---
 
@@ -72,4 +72,4 @@ Then re-run all validation gates and commit learning_data.js.
 - Sugyot: 492
 - rashiLines (runtime, in learning_data.js): 8,854
 - rashiTranslations (source enrichment layer): 8,878
-- Corpus version: v10.75
+- Corpus version: v12.7

@@ -79,7 +79,7 @@ MySugya/
 ## Modules
 
 ### Yoma (יוֹמאָ)
-- **Status:** Frozen at v10.75
+- **Status:** Frozen at v12.7
 - **Daf Range:** 2a-88a (173 daf)
 - **Sugyot:** 492
 - **Chapters:** 8

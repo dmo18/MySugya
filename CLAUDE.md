@@ -1,6 +1,6 @@
 # MySugya - Claude maintainer guide
 
-MySugya is a universal React Talmud study app. Tractates are loaded as self-contained modules. Yoma is the first module, frozen at v10.75 (173 daf, 492 sugyot, 8,854 rashiLines in runtime; 8,878 rashiTranslations in source enrichment layer).
+MySugya is a universal React Talmud study app. Tractates are loaded as self-contained modules. Yoma is the first module, frozen at v12.7 (173 daf, 492 sugyot, 8,854 rashiLines in runtime; 8,878 rashiTranslations in source enrichment layer).
 
 The `en_lit:` layer (literal translation) is in active development for Yoma. See the Literal Translation Pipeline section below.
 

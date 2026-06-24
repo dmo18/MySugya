@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read DATA_VERSION from modules/yoma/learning_data.js and sync it to VERSION, package.json, index.html, and manifest.js."""
+"""Read DATA_VERSION from modules/yoma/learning_data.js and sync it globally."""
 import re, json, sys
 from pathlib import Path
 
@@ -21,6 +21,16 @@ pkg_path = root / "package.json"
 pkg = json.loads(pkg_path.read_text())
 pkg["version"] = ver
 pkg_path.write_text(json.dumps(pkg, indent=2) + "\n")
+
+# package-lock.json
+lock_path = root / "package-lock.json"
+if lock_path.exists():
+    lock = json.loads(lock_path.read_text())
+    lock["version"] = ver
+    root_pkg = lock.get("packages", {}).get("")
+    if root_pkg is not None:
+        root_pkg["version"] = ver
+    lock_path.write_text(json.dumps(lock, indent=2) + "\n")
 
 # index.html cache busters
 html_path = root / "index.html"
