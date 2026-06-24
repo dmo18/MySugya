@@ -699,6 +699,61 @@ body::before {
   margin: 0 0 18px;
   direction: rtl;
 }
+
+/* Infographics section */
+.sugya-infographics {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.infographic-container {
+  width: 100%;
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+}
+.infographic-img {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  display: block;
+}
+.image-theme-selector {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.theme-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+  color: var(--ink-mute);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 140ms;
+}
+.theme-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--tint-strong);
+  color: var(--accent);
+}
+.theme-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.theme-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .sugya-whats {
   display: flex;
   gap: 12px;

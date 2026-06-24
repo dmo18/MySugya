@@ -627,6 +627,30 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}
 
+        <div className="sugya-infographics">
+          <div className="infographic-container">
+            <img
+              src={`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='200'%3E%3Crect fill='%23f0f0f0' width='100%25' height='100%25'/%3E%3Ctext x='50%25' y='50%25' font-size='14' text-anchor='middle' dy='.3em' fill='%23999'%3E[${tweaks.imageTheme} infographic placeholder]%3C/text%3E%3C/svg%3E`}
+              alt={`${title} infographic`}
+              className="infographic-img"
+            />
+          </div>
+          <div className="image-theme-selector">
+            {["illustrated", "abstract", "realistic", "minimal"].map((theme) => (
+              <button
+                key={theme}
+                className={"theme-btn" + (tweaks.imageTheme === theme ? " active" : "")}
+                onClick={() => {}}
+                title={theme}
+                aria-pressed={tweaks.imageTheme === theme}
+                disabled
+              >
+                {theme.charAt(0)}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {whats && tweaks.showWhats && (
           <div className="sugya-whats">
             <span className="label">What's happening</span>
