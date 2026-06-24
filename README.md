@@ -38,13 +38,23 @@ npm run serve
 # Open http://localhost:4173 in your browser
 ```
 
+### Build for Production
+
+```bash
+npm run build
+npm run check:deploy-html
+```
+
+Production output is written to `dist/`. Deploy `dist/` as the web root; do not deploy the repository root because the root `index.html` is a development shell that loads Babel and React development UMD scripts.
+
 ---
 
 ## Project Structure
 
 ```
 MySugya/
-├── index.html              Universal app shell
+├── index.html              Development app shell
+├── dist/                   Production build output (generated)
 ├── app.jsx                 React app (multi-module support)
 ├── manifest.js             Module registry
 ├── package.json            Scripts & dependencies
@@ -206,6 +216,33 @@ python3 scripts/fetch_literal_en.py --range 31a 60b --skip-existing
 ```
 
 See [CLAUDE.md](CLAUDE.md) for full parallel agent instructions.
+
+---
+
+## Deployment
+
+The live site must serve the generated `dist/` directory, not the source repository root. The root `index.html` is kept as a development shell and intentionally references Babel and React development scripts; `npm run build` rewrites the production HTML in `dist/index.html` to use the bundled asset instead.
+
+### GitHub Pages
+
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`. Pull requests run the install, build, and deployable-HTML verification checks; pushes to `main` and manual `workflow_dispatch` runs also deploy to GitHub Pages. The workflow:
+
+1. Runs `npm ci`.
+2. Runs `npm run build`.
+3. Runs `npm run check:deploy-html` to fail deployment if `dist/index.html` contains `text/babel`, `babel.min.js`, or `react.development.js`.
+4. Uploads and publishes only `dist/` to GitHub Pages.
+
+### Manual Hosting
+
+For any other static host, build locally or in CI and configure the host's publish directory to `dist/`:
+
+```bash
+npm ci
+npm run build
+npm run check:deploy-html
+```
+
+If a hosting provider can only serve from the repository root, do not point it at this source tree. Use a separate deploy branch, generated artifact, or provider setting that publishes the contents of `dist/` as the site root.
 
 ---
 
