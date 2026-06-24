@@ -429,7 +429,9 @@ function ShareButton({ sugya }) {
   const [copied, setCopied] = useState(false);
   const share = () => {
     const daf = sugya.daf || sugya.id.replace(/-\d+$/, "");
-    const url = `${SITE_BASE}/index.html?module=${TRACTATE_META.id}&daf=${daf}#${sugya.id}`;
+    const params = new URLSearchParams({ module: TRACTATE_META.id, daf });
+    const baseUrl = window.location.origin + window.location.pathname;
+    const url = `${baseUrl}?${params.toString()}#${sugya.id}`;
     if (navigator.share) {
       navigator.share({ title: sugya.title, url }).catch(() => {});
     } else {
@@ -972,7 +974,6 @@ function initialDafFromUrl() {
   return DAF_INDEX.some(d => d.id === daf) ? daf : null;
 }
 
-const SITE_BASE = "https://dmo18.github.io/MySugya";
 
 function syncUrlDaf(daf) {
   const url = new URL(window.location.href);
