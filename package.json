@@ -17,7 +17,8 @@
     "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",
     "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status",
     "build": "node scripts/build.mjs",
-    "preview": "npm run build && python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
+    "preview": "npm run build && python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "check:deploy-html": "node scripts/check-deploy-html.mjs"
   },
   "dependencies": {
     "react": "18.3.1",
