@@ -2239,6 +2239,16 @@ body::before {
   margin-left: -15px;
 }
 
+/* Line with Rashi commentary */
+.line[data-has-rashi="1"] {
+  cursor: help;
+  border-bottom: 1px dotted var(--accent-mute);
+  transition: background-color 140ms;
+}
+.line[data-has-rashi="1"]:hover {
+  background-color: rgba(6, 182, 212, 0.04);
+}
+
 /* Enrichment modal */
 .modal-backdrop {
   position: fixed;

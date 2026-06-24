@@ -477,7 +477,7 @@ function EnrichmentDot({ onClick, visible = true }) {
 // =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark, hasRashi = false, rashiText = null }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
@@ -485,7 +485,7 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
   const hasEnrichment = !!(line.hint || line.enrichment);
 
   return (
-    <div className="line" data-kind={line.kind} data-marked={isMarked ? "1" : "0"}>
+    <div className="line" data-kind={line.kind} data-marked={isMarked ? "1" : "0"} data-has-rashi={hasRashi ? "1" : "0"} title={rashiText ? `Rashi: ${stripHtml(rashiText)}` : null}>
       <span className="line-marker" aria-hidden="true"/>
       <div className="line-tag">
         <span>{tag.en}</span>
@@ -749,7 +749,7 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onToggleMark, followMode = false }) {
+function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onToggleMark, followMode = false, rashiLines = [] }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
   const [imageTheme, setImageTheme] = useState(tweaks.imageTheme || "illustrated");
@@ -760,6 +760,16 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
   const oneLine  = display.oneLine;
   const hint     = display.hint   || sugya.hint;
   const title    = display.title  || sugya.title;
+
+  // Build Rashi map for quick lookup by vilna line
+  const rashiByVilnaLine = useMemo(() => {
+    const map = {};
+    (rashiLines || []).forEach(r => {
+      if (!map[r.vilnaLine]) map[r.vilnaLine] = [];
+      map[r.vilnaLine].push(r);
+    });
+    return map;
+  }, [rashiLines]);
 
   // Study mode defaults for argument flow visibility
   const argFlowDefaultOpen = tweaks.modeClass || tweaks.showArgumentFlow;
@@ -789,19 +799,24 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
         )}
 
         <div className="lines">
-          {sugya.lines.filter(Boolean).map((line, i) => (
-            <Line key={i} line={line} idx={i}
-              showNekudot={tweaks.nekudot}
-              showVilnaLines={tweaks.vilnaLines}
-              showEnglish={tweaks.showEnglish}
-              boldLiteral={tweaks.boldLiteral}
-              showEnrichmentDots={tweaks.showEnrichmentDots}
-              onEnrichment={onEnrichment}
-              isChavruta={tweaks.modeChavruta}
-              isMarked={markedLines.includes(line.id)}
-              onToggleMark={() => onToggleMark?.(line.id)}
-            />
-          ))}
+          {sugya.lines.filter(Boolean).map((line, i) => {
+            const hasRashi = line.vilna_line ? rashiByVilnaLine[line.vilna_line]?.length > 0 : false;
+            return (
+              <Line key={i} line={line} idx={i}
+                showNekudot={tweaks.nekudot}
+                showVilnaLines={tweaks.vilnaLines}
+                showEnglish={tweaks.showEnglish}
+                boldLiteral={tweaks.boldLiteral}
+                showEnrichmentDots={tweaks.showEnrichmentDots}
+                onEnrichment={onEnrichment}
+                isChavruta={tweaks.modeChavruta}
+                isMarked={markedLines.includes(line.id)}
+                onToggleMark={() => onToggleMark?.(line.id)}
+                hasRashi={hasRashi}
+                rashiText={hasRashi ? rashiByVilnaLine[line.vilna_line].map(r => r.en || r.he).join(" | ") : null}
+              />
+            );
+          })}
         </div>
 
         {sugya.argumentFlow && sugya.argumentFlow.length > 0 && (
@@ -1488,7 +1503,7 @@ function App() {
         ) : content ? (
           <>
             {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.modeClass} />
+              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.modeClass} rashiLines={content.rashiLines} />
             ))}
             {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
             <Glossary items={content.glossary} onTermClick={(term) => setEnrichmentModal({ type: "glossary", ...term })} />
