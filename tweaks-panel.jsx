@@ -72,8 +72,13 @@ const __TWEAKS_STYLE = `
     border:2px solid transparent;background-clip:content-box}
   .twk-row{display:flex;flex-direction:column;gap:5px}
   .twk-row-h{flex-direction:row;align-items:center;justify-content:space-between;gap:10px}
+  .twk-row-toggle{flex-direction:row;align-items:center;justify-content:space-between;gap:8px;cursor:default}
+  .twk-lbl-container{display:flex;align-items:center;gap:6px;flex:1}
   .twk-lbl{display:flex;justify-content:space-between;align-items:baseline;
-    color:rgba(41,38,27,.72)}
+    color:rgba(41,38,27,.72);cursor:pointer;flex:1}
+  .twk-hint{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;
+    border-radius:50%;background:rgba(0,0,0,.08);color:rgba(0,0,0,.5);font-size:10px;font-weight:600;
+    cursor:help;flex-shrink:0}
   .twk-lbl>span:first-child{font-weight:500}
   .twk-val{color:rgba(41,38,27,.5);font-variant-numeric:tabular-nums}
 
@@ -363,14 +368,16 @@ function TweakSlider({ label, value, min = 0, max = 100, step = 1, unit = '', on
   );
 }
 
-function TweakToggle({ label, value, onChange }) {
+function TweakToggle({ label, value, onChange, hint }) {
   return (
-    <div className="twk-row twk-row-h" style={{cursor:'default'}}
-         onClick={() => onChange(!value)}>
-      <div className="twk-lbl"><span>{label}</span></div>
+    <div className="twk-row twk-row-toggle">
+      <div className="twk-lbl-container">
+        <span className="twk-lbl" onClick={() => onChange(!value)}>{label}</span>
+        {hint && <span className="twk-hint" title={hint}>?</span>}
+      </div>
       <button type="button" className="twk-toggle" data-on={value ? '1' : '0'}
-              role="switch" aria-checked={!!value} tabIndex={-1}
-              onClick={e => e.stopPropagation()}><i /></button>
+              role="switch" aria-checked={!!value} aria-label={label}
+              onClick={() => onChange(!value)}><i /></button>
     </div>
   );
 }

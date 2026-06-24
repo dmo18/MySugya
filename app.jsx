@@ -74,46 +74,69 @@ function HelpPage({ isOpen, onClose }) {
           <section>
             <h3>Navigation</h3>
             <ul>
-              <li><kbd>←</kbd> Previous daf</li>
-              <li><kbd>→</kbd> Next daf</li>
-              <li><kbd>Cmd/Ctrl+K</kbd> Jump to daf</li>
+              <li><kbd>←</kbd> / <kbd>→</kbd> Navigate between dafim</li>
+              <li><kbd>Cmd/Ctrl+K</kbd> Jump to specific daf or search bookmarks</li>
+              <li><strong>Swipe left/right:</strong> Navigate between dafim (touch)</li>
+              <li><strong>Tap daf indicator:</strong> Show full navigation bar (when hidden)</li>
             </ul>
           </section>
           <section>
-            <h3>Display Controls</h3>
+            <h3>Reading Controls</h3>
             <ul>
-              <li><kbd>R</kbd> Toggle Rashi visibility</li>
-              <li><kbd>S</kbd> Toggle Argument Flow</li>
-              <li><kbd>E</kbd> Toggle Enrichment Dots</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Study Modes</h3>
-            <ul>
-              <li><strong>Solo:</strong> Individual study with focused content</li>
-              <li><strong>Chavruta:</strong> Partner study with line marking (⚡)</li>
-              <li><strong>Class:</strong> Teacher-led with argument flow visible</li>
-              <li><strong>Online:</strong> Group study with collaborative features</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Enrichment Layers</h3>
-            <ul>
-              <li><strong>Whats:</strong> Concise summary of passage logic</li>
-              <li><strong>Hints:</strong> Context for difficult terms</li>
-              <li><strong>Aha Moments:</strong> Key insights and pivots</li>
-              <li><strong>Deep Context:</strong> Background and sources</li>
-              <li><strong>Argument Flow:</strong> Logical structure and moves</li>
-              <li><strong>Rashi:</strong> Classical commentary with search</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Gestures</h3>
-            <ul>
-              <li><strong>Swipe left/right:</strong> Navigate between dafim</li>
+              <li><kbd>R</kbd> Toggle Rashi commentary visibility</li>
+              <li><kbd>S</kbd> Toggle Argument Flow display</li>
+              <li><kbd>E</kbd> Toggle enrichment indicator dots</li>
+              <li><strong>Click enrichment dot:</strong> View context in modal</li>
               <li><strong>Swipe down on modal:</strong> Close enrichment modal</li>
-              <li><strong>Scroll up:</strong> Show navigation bar</li>
-              <li><strong>Scroll down:</strong> Hide navigation bar</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Learning Contexts</h3>
+            <ul>
+              <li><strong>Solo:</strong> Individual study with core text and optional enrichment layers</li>
+              <li><strong>Chavruta:</strong> Partner study - mark lines (⚡) to highlight for discussion</li>
+              <li><strong>Class:</strong> Teacher-led - argument flow displayed by default for logical structure</li>
+              <li><strong>Online:</strong> Group study - collaborative features for virtual study sessions</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Enrichment Layers (Click Dots to View)</h3>
+            <ul>
+              <li><strong>What's happening:</strong> Concise one-sentence summary of the passage's logical movement</li>
+              <li><strong>Hints:</strong> Quick context clues for difficult Hebrew terms or concepts</li>
+              <li><strong>Aha Moments:</strong> Key insights, unexpected turns, or revelations in the argument</li>
+              <li><strong>Deep Context:</strong> Background sources, historical context, and related passages</li>
+              <li><strong>Argument Flow:</strong> Step-by-step logical structure showing question → objection → resolution</li>
+              <li><strong>Rashi Commentary:</strong> Classical medieval commentary with integrated search functionality</li>
+              <li><strong>Glossary Terms:</strong> Talmudic vocabulary with transliterations and English definitions</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Display Options</h3>
+            <ul>
+              <li><strong>Hebrew/English Toggle:</strong> Show or hide elucidated English translation</li>
+              <li><strong>Vowel Marks (Nekudot):</strong> Display Hebrew vowel marks for reading support</li>
+              <li><strong>Vilna Line Numbers:</strong> Show Vilna pagination for traditional reference</li>
+              <li><strong>Gauge Bar:</strong> Visual progress indicator along top of navigation</li>
+              <li><strong>Timeline:</strong> See all sugya headings for current daf</li>
+              <li><strong>Pip Dots:</strong> Animated page position indicator</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Scroll Behavior</h3>
+            <ul>
+              <li><strong>Scroll up:</strong> Auto-show navigation bar for quick daf jumping</li>
+              <li><strong>Scroll down:</strong> Auto-hide navigation bar for distraction-free reading</li>
+              <li><strong>Scroll position:</strong> Automatically saved per daf - return to where you left off</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Customization</h3>
+            <ul>
+              <li><strong>Tweaks Panel:</strong> Access via ⚙ button (bottom-right) to adjust all settings</li>
+              <li><strong>Themes:</strong> 6 color themes from Mist to Dark with 12 accent colors</li>
+              <li><strong>Font Sizes:</strong> Independently scale Hebrew and English text</li>
+              <li><strong>Bookmarks & Completion:</strong> Track progress with star (☆) button</li>
             </ul>
           </section>
         </div>
@@ -137,36 +160,40 @@ function FeaturesPage({ isOpen, onClose }) {
         </div>
         <div className="features-content">
           <section>
-            <h3>Reading Experience</h3>
-            <p>Interlinear Hebrew-English text with Vilna line numbering, vowel marks (nekudot), and elucidated English translation. Auto-hiding navigation bar for distraction-free reading.</p>
+            <h3>Core Reading Experience</h3>
+            <p>Interlinear Hebrew-English layout with Vilna pagination, vowel marks (nekudot), and elucidated English translation based on the William Davidson Edition. Auto-hiding chrome for distraction-free immersive reading. Per-daf scroll position memory keeps your place across sessions.</p>
           </section>
           <section>
-            <h3>Enrichment Layers</h3>
-            <p>Multiple enrichment layers provide context at different depths: quick "whats" summaries, hints for difficult terms, aha moments revealing key insights, deep contextual analysis, logical argument flow, and classical Rashi commentary with integrated search.</p>
+            <h3>Multi-Layer Enrichment System</h3>
+            <p>Seven distinct enrichment layers provide context at different depths. "What's happening" gives one-sentence passage summaries. Hints explain difficult terms. Aha moments capture key insights and argument pivots. Deep context provides background sources and related passages. Argument flow breaks down logical structure into steps. Rashi commentary includes classical medieval commentary. Glossary terms offer vocabulary support with transliterations.</p>
           </section>
           <section>
-            <h3>Study Modes</h3>
-            <p>Customize the interface for your learning context: Solo study hides collaborative features, Chavruta enables line marking for partner discussion, Class mode highlights argument flow for teacher-led study, and Online mode supports group discussion features.</p>
+            <h3>Flexible Study Modes</h3>
+            <p><strong>Solo:</strong> Focus mode for individual study with core enrichment. <strong>Chavruta:</strong> Partner study with line marking (⚡) for highlighted passages and persistent marking across sessions. <strong>Class:</strong> Teacher-led mode with argument flow visible by default for teaching logical structure. <strong>Online:</strong> Group study mode with collaborative discussion features. Mix and match modes to your learning needs.</p>
           </section>
           <section>
-            <h3>Navigation & Progress</h3>
-            <p>Jump to any daf with Cmd/Ctrl+K, track reading progress with bookmarks and completion markers, follow daf position with Vilna gauge bar and sugya timeline, and access minimal chrome indicator when navigation is hidden.</p>
+            <h3>Smart Navigation</h3>
+            <p>Jump to any daf instantly with Cmd+K or Ctrl+K. Bookmark important dafim with the star button. Track reading completion status. Automatic scroll position recovery when returning to a daf. Vilna gauge bar shows progress within a daf. Sugya timeline displays all passage headings. Minimal chrome indicator appears when navigation is hidden, allowing quick restoration.</p>
           </section>
           <section>
-            <h3>Rashi Tools</h3>
-            <p>Search within Rashi commentary to find specific terms or concepts. Toggle English helper translation for editorial context. Match count shows how many Rashi lines match your search.</p>
+            <h3>Advanced Rashi Tools</h3>
+            <p>Full-text search within Rashi commentary for any daf. Real-time match count updates as you type. Toggle English helper translations for editorial context. Rashi lines are labeled with Vilna column numbers for traditional reference. English translations are clearly marked as editorial aids, not source-validated.</p>
           </section>
           <section>
-            <h3>Collaborative Features</h3>
-            <p>In Chavruta mode, mark lines (⚡) to highlight important passages for partner discussion. Marked lines persist across sessions and are visually highlighted with amber borders.</p>
+            <h3>Collaborative Learning Features</h3>
+            <p><strong>Chavruta Mode:</strong> Mark specific lines (⚡) to highlight key passages for partner discussion. Marked lines persist in localStorage and are visually highlighted with amber left border for quick scanning. Perfect for preparing discussion points before a learning session.</p>
           </section>
           <section>
-            <h3>Customization</h3>
-            <p>Choose from 6 color themes, 4 image themes (illustrated, abstract, realistic, minimal), adjust Hebrew and English font sizes independently, and toggle reading aids like vowel marks and Vilna line numbers.</p>
+            <h3>Visual Customization</h3>
+            <p>6 complete color themes (Mist, Light, Sepia, Night, Dark) + system-based auto-switching. 12 accent colors from classic gold to modern cyan. Independently adjust Hebrew and English font sizes from 1.0x to 2.0x. Toggle individual reading aids: English translation, vowel marks, Vilna line numbers. Dark mode respects system preferences.</p>
           </section>
           <section>
-            <h3>Accessibility</h3>
-            <p>Full RTL support for Hebrew text, semantic HTML with ARIA labels, keyboard navigation, high contrast color options, and responsive design for all screen sizes.</p>
+            <h3>Responsive & Accessible</h3>
+            <p>Full right-to-left support for Hebrew with proper text directionality. Semantic HTML with comprehensive ARIA labels for screen readers. Full keyboard navigation without mouse required. High contrast color combinations meet WCAG standards. Touch-optimized interface for phones and tablets. Responsive layout adapts from mobile to desktop seamlessly.</p>
+          </section>
+          <section>
+            <h3>Performance & Persistence</h3>
+            <p>All settings automatically saved to localStorage. Bookmarks, completion markers, and scroll positions persist across browser sessions. Fast daf loading with smooth transitions. Efficient rendering of long passages with thousands of lines. No external network calls required after initial load.</p>
           </section>
         </div>
       </div>
@@ -735,7 +762,7 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
   const title    = display.title  || sugya.title;
 
   // Study mode defaults for argument flow visibility
-  const argFlowDefaultOpen = tweaks.studyMode === "class" || tweaks.showArgumentFlow;
+  const argFlowDefaultOpen = tweaks.modeClass || tweaks.showArgumentFlow;
 
   return (
     <article className="sugya" id={sugya.id}>
@@ -749,30 +776,6 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
         {sugya.title_he && <p className="sugya-title-he" dir="rtl">{sugya.title_he}</p>}
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}
-
-        <div className="sugya-infographics">
-          <div className="infographic-container">
-            <img
-              src={`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='200'%3E%3Crect fill='%23f0f0f0' width='100%25' height='100%25'/%3E%3Ctext x='50%25' y='50%25' font-size='14' text-anchor='middle' dy='.3em' fill='%23999'%3E[${tweaks.imageTheme} infographic placeholder]%3C/text%3E%3C/svg%3E`}
-              alt={`${title} infographic`}
-              className="infographic-img"
-            />
-          </div>
-          <div className="image-theme-selector">
-            {["illustrated", "abstract", "realistic", "minimal"].map((theme) => (
-              <button
-                key={theme}
-                className={"theme-btn" + (tweaks.imageTheme === theme ? " active" : "")}
-                onClick={() => {}}
-                title={theme}
-                aria-pressed={tweaks.imageTheme === theme}
-                disabled
-              >
-                {theme.charAt(0)}
-              </button>
-            ))}
-          </div>
-        </div>
 
         {whats && tweaks.showWhats && (
           <div className="sugya-whats">
@@ -794,7 +797,7 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
               boldLiteral={tweaks.boldLiteral}
               showEnrichmentDots={tweaks.showEnrichmentDots}
               onEnrichment={onEnrichment}
-              isChavruta={tweaks.studyMode === "chavruta"}
+              isChavruta={tweaks.modeChavruta}
               isMarked={markedLines.includes(line.id)}
               onToggleMark={() => onToggleMark?.(line.id)}
             />
@@ -805,7 +808,7 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
           <ArgumentFlowPanel
             steps={sugya.argumentFlow}
             defaultOpen={argFlowDefaultOpen}
-            visible={tweaks.showArgumentFlow || tweaks.studyMode === "class"}
+            visible={tweaks.showArgumentFlow || tweaks.modeClass}
           />
         )}
 
@@ -1485,7 +1488,7 @@ function App() {
         ) : content ? (
           <>
             {content.sugyot.map((s, i) => (
-              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.studyMode === "class"} />
+              <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} onEnrichment={(line) => setEnrichmentModal({ type: "line", ...line })} markedLines={markedLines} onToggleMark={toggleMarkedLine} followMode={tweaks.modeClass} />
             ))}
             {content.rashiLines && <RashiPanel lines={content.rashiLines} showNekudot={tweaks.nekudot}/>}
             <Glossary items={content.glossary} onTermClick={(term) => setEnrichmentModal({ type: "glossary", ...term })} />
@@ -1547,7 +1550,10 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "timeline": false,
   "pipDots": false,
   "bottomDock": false,
-  "studyMode": "solo",
+  "modeSolo": true,
+  "modeChavruta": false,
+  "modeClass": false,
+  "modeOnline": false,
   "showWhats": true,
   "showEnrichmentDots": true,
   "showHints": true,
@@ -1555,7 +1561,6 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "showDeepContext": true,
   "showArgumentFlow": false,
   "showRashi": true,
-  "imageTheme": "illustrated",
 }/*EDITMODE-END*/;
 
 function accentToToken(hex) {
@@ -1635,42 +1640,21 @@ function MySugyaTweaksPanel({ tweaks, setTweak }) {
         <TweakToggle label="Bottom dock" value={tweaks.bottomDock} onChange={v => setTweak("bottomDock", v)}/>
       </TweakSection>
 
-      <TweakSection label="Study Mode">
-        <TweakRadio
-          label="Learning context"
-          value={tweaks.studyMode}
-          options={[
-            { value: "solo", label: "Solo" },
-            { value: "chavruta", label: "Chavruta" },
-            { value: "class", label: "Class" },
-            { value: "online", label: "Online" }
-          ]}
-          onChange={v => setTweak("studyMode", v)}
-        />
+      <TweakSection label="Learning Context">
+        <TweakToggle label="Solo study" value={tweaks.modeSolo} onChange={v => setTweak("modeSolo", v)} hint="Focus on individual learning"/>
+        <TweakToggle label="Chavruta (partner)" value={tweaks.modeChavruta} onChange={v => setTweak("modeChavruta", v)} hint="Enables line marking for discussion"/>
+        <TweakToggle label="Class (teacher-led)" value={tweaks.modeClass} onChange={v => setTweak("modeClass", v)} hint="Shows argument flow by default"/>
+        <TweakToggle label="Online (group)" value={tweaks.modeOnline} onChange={v => setTweak("modeOnline", v)} hint="Collaborative features"/>
       </TweakSection>
 
-      <TweakSection label="Enrichment Visibility">
-        <TweakToggle label="What's happening" value={tweaks.showWhats} onChange={v => setTweak("showWhats", v)}/>
-        <TweakToggle label="Enrichment dots" value={tweaks.showEnrichmentDots} onChange={v => setTweak("showEnrichmentDots", v)}/>
-        <TweakToggle label="Hints" value={tweaks.showHints} onChange={v => setTweak("showHints", v)}/>
-        <TweakToggle label="Aha moments" value={tweaks.showAhaMoments} onChange={v => setTweak("showAhaMoments", v)}/>
-        <TweakToggle label="Deep context" value={tweaks.showDeepContext} onChange={v => setTweak("showDeepContext", v)}/>
-        <TweakToggle label="Argument flow" value={tweaks.showArgumentFlow} onChange={v => setTweak("showArgumentFlow", v)}/>
-        <TweakToggle label="Rashi commentary" value={tweaks.showRashi} onChange={v => setTweak("showRashi", v)}/>
-      </TweakSection>
-
-      <TweakSection label="Images">
-        <TweakRadio
-          label="Infographic style"
-          value={tweaks.imageTheme}
-          options={[
-            { value: "abstract", label: "Abstract" },
-            { value: "illustrated", label: "Illustrated" },
-            { value: "realistic", label: "Realistic" },
-            { value: "minimal", label: "Minimal" }
-          ]}
-          onChange={v => setTweak("imageTheme", v)}
-        />
+      <TweakSection label="Content Visibility">
+        <TweakToggle label="What's happening" value={tweaks.showWhats} onChange={v => setTweak("showWhats", v)} hint="Quick passage summary"/>
+        <TweakToggle label="Enrichment dots" value={tweaks.showEnrichmentDots} onChange={v => setTweak("showEnrichmentDots", v)} hint="Visual indicators for enriched lines"/>
+        <TweakToggle label="Hints" value={tweaks.showHints} onChange={v => setTweak("showHints", v)} hint="Context for difficult terms"/>
+        <TweakToggle label="Aha moments" value={tweaks.showAhaMoments} onChange={v => setTweak("showAhaMoments", v)} hint="Key insights and pivots"/>
+        <TweakToggle label="Deep context" value={tweaks.showDeepContext} onChange={v => setTweak("showDeepContext", v)} hint="Background and sources"/>
+        <TweakToggle label="Argument flow" value={tweaks.showArgumentFlow} onChange={v => setTweak("showArgumentFlow", v)} hint="Logical structure of passage"/>
+        <TweakToggle label="Rashi commentary" value={tweaks.showRashi} onChange={v => setTweak("showRashi", v)} hint="Classical commentary with search"/>
       </TweakSection>
 
       <TweakSection label="Reset">
