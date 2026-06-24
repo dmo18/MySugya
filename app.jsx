@@ -462,14 +462,14 @@ function EnrichmentModal({ isOpen, onClose, data }) {
   );
 }
 
-function EnrichmentDot({ onClick, visible = true }) {
+function EnrichmentDot({ onClick, visible = true, title }) {
   if (!visible) return null;
   return (
     <button
       className="enrichment-dot"
       onClick={onClick}
       aria-label="View enrichment"
-      title="Tap for more context"
+      title={title || "Tap for enrichment context"}
     />
   );
 }
@@ -477,12 +477,12 @@ function EnrichmentDot({ onClick, visible = true }) {
 // =============================================================================
 // LINE — Hebrew + elucidated English (literal portions bolded per WD convention)
 // =============================================================================
-function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark, hasRashi = false, rashiText = null }) {
+function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral, showEnrichmentDots = true, onEnrichment, isChavruta = false, isMarked = false, onToggleMark, hasRashi = false, rashiText = null, sugyaEnrichment = null }) {
   const tag = LINE_TAGS[line.kind] || LINE_TAGS.aside;
   const heRaw = stripHtml(line.he);
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
   const hasVilna = line.vilna_line != null;
-  const hasEnrichment = !!(line.hint || line.enrichment);
+  const hasEnrichment = !!(sugyaEnrichment);
 
   return (
     <div className="line" data-kind={line.kind} data-marked={isMarked ? "1" : "0"} data-has-rashi={hasRashi ? "1" : "0"} title={rashiText ? `Rashi: ${stripHtml(rashiText)}` : null}>
@@ -518,7 +518,8 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
       {hasEnrichment && (
         <EnrichmentDot
           visible={showEnrichmentDots}
-          onClick={() => onEnrichment && onEnrichment(line)}
+          onClick={() => onEnrichment && onEnrichment(sugyaEnrichment)}
+          title={sugyaEnrichment?.enrichmentType}
         />
       )}
       {isChavruta && (
@@ -771,6 +772,20 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
     return map;
   }, [rashiLines]);
 
+  // Build enrichment object from sugya data (enrichment is at sugya level, not line level)
+  const sugyaEnrichment = useMemo(() => {
+    const enrichment = {};
+    // Check all enrichment layers
+    if (whats) enrichment.whats = whats;
+    if (hint) enrichment.hint = hint;
+    if (learning?.ahaMoment) enrichment.ahaMoment = learning.ahaMoment;
+    if (learning?.memoryAnchor) enrichment.memoryAnchor = learning.memoryAnchor;
+    if (learning?.learningBlocker) enrichment.learningBlocker = learning.learningBlocker;
+    if (learning?.deepContext) enrichment.deepContext = learning.deepContext;
+    if (sugya.argumentFlow?.length) enrichment.argumentFlow = sugya.argumentFlow;
+    return Object.keys(enrichment).length > 0 ? enrichment : null;
+  }, [sugya, display, learning, whats, hint]);
+
   // Study mode defaults for argument flow visibility
   const argFlowDefaultOpen = tweaks.modeClass || tweaks.showArgumentFlow;
 
@@ -814,6 +829,7 @@ function Sugya({ sugya, idx, total, tweaks, onEnrichment, markedLines = [], onTo
                 onToggleMark={() => onToggleMark?.(line.id)}
                 hasRashi={hasRashi}
                 rashiText={hasRashi ? rashiByVilnaLine[line.vilna_line].map(r => r.en || r.he).join(" | ") : null}
+                sugyaEnrichment={sugyaEnrichment}
               />
             );
           })}
