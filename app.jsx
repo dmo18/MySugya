@@ -1351,6 +1351,34 @@ const SEDER_LABELS = {
   Taharot: { he: "טָהֳרוֹת",  en: "Purities" },
 };
 
+// ----- scroll reveal (fade + rise when scrolled into view) ----------------
+function Reveal({ children, className, delay, tag }) {
+  const ref = useRef(null);
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) { setShown(true); return; }
+    const io = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { setShown(true); io.disconnect(); }
+    }, { threshold: 0.12 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  const Tag = tag || "div";
+  return (
+    <Tag
+      ref={ref}
+      className={"reveal" + (className ? " " + className : "")}
+      data-shown={shown ? "1" : "0"}
+      style={delay ? { transitionDelay: delay + "ms" } : undefined}
+    >
+      {children}
+    </Tag>
+  );
+}
+
 // ----- count-up stat (animates when scrolled into view) -------------------
 function CountUpStat({ value, label, suffix }) {
   const ref = useRef(null);
@@ -1603,21 +1631,21 @@ function LandingPage() {
 
       {/* HERO */}
       <section className="landing-hero">
-        <div className="landing-hero-inner">
-          <p className="landing-hero-eyebrow"><span className="eyebrow-dot" aria-hidden="true" />Babylonian Talmud · Interactive Study</p>
+        <Reveal className="landing-hero-inner">
+          <p className="landing-hero-eyebrow">Talmud, reimagined for how you actually learn</p>
           <h1 className="landing-hero-title">
             Understand the Gemara.
             <span className="lht-he" lang="he" dir="rtl">הַגְּמָרָא</span>
           </h1>
           <p className="landing-hero-sub">
-            Every daf, broken into labeled sugyot with interlinear Hebrew-English,
-            Rashi, glossary, and a live map of the argument. No account, no install.
+            Every daf, mapped sugya by sugya. Hebrew and English side by side,
+            Rashi inline, the argument laid bare. Free, in your browser.
           </p>
           <div className="landing-cta-row">
             <a className="lcta lcta-primary" href={startUrl}>
               Begin with Yoma <span aria-hidden="true">→</span>
             </a>
-            <a className="lcta lcta-ghost" href="#how">See how it works</a>
+            <a className="lcta lcta-ghost" href="#how">See how it works <span aria-hidden="true">→</span></a>
           </div>
           <div className="landing-stats-grid">
             <CountUpStat value={492} label="enriched sugyot" />
@@ -1625,16 +1653,16 @@ function LandingPage() {
             <CountUpStat value={173} label="amudim" />
             <CountUpStat value={100} label="Yoma coverage" suffix="%" />
           </div>
-        </div>
+        </Reveal>
 
-        <div className="landing-hero-deco">
+        <Reveal className="landing-hero-deco" delay={160}>
           <LivingDaf />
-        </div>
+        </Reveal>
       </section>
 
       {/* SIGNATURE FEATURE — argument flow, demonstrated live */}
       <section className="landing-flow">
-        <div className="landing-section-inner landing-flow-inner">
+        <Reveal className="landing-section-inner landing-flow-inner">
           <p className="landing-hero-eyebrow landing-flow-eyebrow">The signature view</p>
           <h2 className="landing-flow-title">Every sugya, mapped as an argument</h2>
           <p className="landing-section-sub landing-flow-sub">
@@ -1642,17 +1670,17 @@ function LandingPage() {
             question, proof, objection, resolution.
           </p>
           <ArgumentFlowDemo />
-        </div>
+        </Reveal>
       </section>
 
       {/* TRACTATE PICKER — primary CTA */}
       <section className="landing-tractates" id="tractates">
-        <div className="landing-section-inner">
+        <Reveal className="landing-section-inner">
           <h2 className="landing-section-title">
             Choose a Masechta
             <span className="lst-he" lang="he" dir="rtl">בְּחַר מַסֶּכֶת</span>
           </h2>
-          <p className="landing-section-sub">Select a tractate to begin. More are on the way.</p>
+          <p className="landing-section-sub">Pick a tractate and dive in. More are on the way.</p>
           <div className="tractate-grid">
             {MYSUGYA_MANIFEST.map(mod => <TractateCard key={mod.id} mod={mod}/>)}
             {["בְּרָכוֹת/Berakhot/Zeraim · Prayers and blessings",
@@ -1677,13 +1705,13 @@ function LandingPage() {
               );
             })}
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* FEATURES */}
       <section className="landing-how" id="how">
-        <div className="landing-section-inner">
-          <h2 className="landing-section-title">What you get</h2>
+        <Reveal className="landing-section-inner">
+          <h2 className="landing-section-title landing-section-title--center">Everything you need on the page</h2>
           <div className="landing-features">
             {[
               { ic: "§",   he: false, t: "Sugya structure",            d: "Each daf split into labeled discussion units. Navigate by topic, not just by line." },
@@ -1702,7 +1730,20 @@ function LandingPage() {
               </div>
             ))}
           </div>
-        </div>
+        </Reveal>
+      </section>
+
+      {/* CLOSING CTA */}
+      <section className="landing-cta-band">
+        <Reveal className="landing-section-inner cta-band-inner">
+          <h2 className="cta-band-title">Open the daf.</h2>
+          <p className="cta-band-sub">No account. No install. Just you and the page.</p>
+          <a className="lcta lcta-primary lcta-lg" href={startUrl}>
+            Begin with Yoma <span aria-hidden="true">→</span>
+          </a>
+          <p className="cta-band-quote" lang="he" dir="rtl">הֲפֹךְ בָּהּ וַהֲפֹךְ בָּהּ דְּכֹלָּא בָהּ</p>
+          <p className="cta-band-quote-en">"Turn it over and over, for everything is in it." · Avot 5:22</p>
+        </Reveal>
       </section>
 
       <footer className="landing-footer">
@@ -1723,17 +1764,28 @@ function LandingPage() {
   const qp = new URLSearchParams(window.location.search);
   const moduleId = qp.get("module");
 
-  if (!moduleId) {
+  // The landing is its own light, designed experience. Force the root to a
+  // light scheme so a saved dark reading theme cannot bleed behind it.
+  // (Entering a module is a full page load, so this never affects the daf view.)
+  function renderLanding() {
+    const html = document.documentElement;
+    html.setAttribute("data-mode", "light");
+    html.classList.add("on-landing");
+    const meta = document.querySelector('meta[name="color-scheme"]');
+    if (meta) meta.content = "light";
     const rootEl = ReactDOM.createRoot(document.getElementById("root"));
     rootEl.render(<LandingPage/>);
+  }
+
+  if (!moduleId) {
+    renderLanding();
     return;
   }
 
   const mod = MYSUGYA_MANIFEST.find(function(m) { return m.id === moduleId; });
 
   if (!mod) {
-    const rootEl = ReactDOM.createRoot(document.getElementById("root"));
-    rootEl.render(<LandingPage/>);
+    renderLanding();
     return;
   }
 
