@@ -1,38 +1,16 @@
 import { build } from 'esbuild';
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { join } from 'node:path';
 
 const root = new URL('..', import.meta.url).pathname;
 const dist = join(root, 'dist');
 const version = (await readFile(join(root, 'VERSION'), 'utf8')).trim();
-const appPath = resolve(root, 'app.jsx');
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
 const bundleName = `assets/app-${version}.js`;
 await mkdir(join(dist, 'assets'), { recursive: true });
-
-const versionFromManifestPlugin = {
-  name: 'version-from-manifest',
-  setup(build) {
-    build.onLoad({ filter: /app\.jsx$/ }, async (args) => {
-      let contents = await readFile(args.path, 'utf8');
-      if (resolve(args.path) === appPath) {
-        contents = contents
-          .replace(
-            '<span>Version {DATA_VERSION}</span>',
-            '<span>Version {MYSUGYA_MANIFEST.find(m => m.id === TRACTATE_META.id)?.dataVersion || DATA_VERSION}</span>'
-          )
-          .replace(
-            '// DATA_VERSION from learning_data.js is the canonical version.',
-            '// Footer version is displayed from manifest dataVersion, falling back to DATA_VERSION.'
-          );
-      }
-      return { contents, loader: 'jsx' };
-    });
-  },
-};
 
 await build({
   entryPoints: [join(root, 'scripts/build-entry.jsx')],
@@ -45,7 +23,6 @@ await build({
   jsx: 'transform',
   target: ['es2019'],
   logLevel: 'info',
-  plugins: [versionFromManifestPlugin],
 });
 
 for (const file of ['styles.css', 'favicon.svg', 'manifest.js', 'daf.html']) {
