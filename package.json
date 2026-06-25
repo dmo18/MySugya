@@ -1,10 +1,13 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "14",
+  "version": "14.0",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
+    "build": "node scripts/build.mjs",
+    "check:deploy-html": "node scripts/check-deploy-html.mjs",
     "test": "python3 tests/smoke/render_check.py",
+    "test:browser": "npx playwright test",
     "serve": "python3 -m http.server 4173 --bind 127.0.0.1",
     "validate:yoma": "cd modules/yoma && python3 scripts/validate_sefaria.py",
     "audit:yoma": "cd modules/yoma && python3 scripts/completeness_audit.py",
@@ -16,5 +19,13 @@
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
     "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",
     "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "esbuild": "0.25.5"
   }
 }
