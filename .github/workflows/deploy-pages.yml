@@ -37,6 +37,9 @@ jobs:
       - name: Build production site
         run: npm run build
 
+      - name: Patch dist data version
+        run: node scripts/patch-dist-version.mjs
+
       - name: Verify deployable HTML
         run: npm run check:deploy-html
 
