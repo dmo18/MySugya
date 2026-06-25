@@ -41,4 +41,15 @@ manifest = manifest_path.read_text()
 manifest = re.sub(r'platformVersion:\s*"[^"]+"', f'platformVersion: "{ver}"', manifest)
 manifest_path.write_text(manifest)
 
+# modules/yoma/learning_data.js DATA_VERSION (single source of truth)
+learning_data_path = root / "modules" / "yoma" / "learning_data.js"
+if learning_data_path.exists():
+    learning_data = learning_data_path.read_text()
+    learning_data = re.sub(
+        r'const DATA_VERSION = "[^"]+";',
+        f'const DATA_VERSION = "{ver}";',
+        learning_data
+    )
+    learning_data_path.write_text(learning_data)
+
 print(f"synced platform to v{ver}")
