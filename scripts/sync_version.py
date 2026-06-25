@@ -35,10 +35,11 @@ html = re.sub(r'v=[0-9][0-9.]*', f'v={ver}', html)
 html = re.sub(r'content:\s*"Platform [^"]+"', f'content: "Platform {ver}"', html)
 html_path.write_text(html)
 
-# manifest.js platformVersion. dataVersion belongs to the module data file.
+# manifest.js platformVersion and module dataVersion
 manifest_path = root / "manifest.js"
 manifest = manifest_path.read_text()
 manifest = re.sub(r'platformVersion:\s*"[^"]+"', f'platformVersion: "{ver}"', manifest)
+manifest = re.sub(r'dataVersion:\s*"[^"]+"', f'dataVersion: "{ver}"', manifest)
 manifest_path.write_text(manifest)
 
 # modules/yoma/learning_data.js DATA_VERSION (single source of truth)
