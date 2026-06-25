@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync the repository version from VERSION to generated and package metadata."""
+"""Sync the platform version from VERSION to app/package metadata."""
 import json
 import re
 import sys
@@ -12,16 +12,6 @@ ver = version_path.read_text().strip()
 if not re.fullmatch(r"[0-9]+\.[0-9]+", ver):
     print(f"ERROR: invalid VERSION value: {ver!r}", file=sys.stderr)
     sys.exit(1)
-
-# Yoma runtime data. This is generated, but DATA_VERSION is intentionally synced here
-# so the app footer and deployed data version stay aligned with VERSION.
-data_path = root / "modules" / "yoma" / "learning_data.js"
-data = data_path.read_text()
-data_next = re.sub(r'const DATA_VERSION\s*=\s*"[^"]+"', f'const DATA_VERSION = "{ver}"', data, count=1)
-if data_next == data:
-    print("ERROR: DATA_VERSION not found in modules/yoma/learning_data.js", file=sys.stderr)
-    sys.exit(1)
-data_path.write_text(data_next)
 
 # package.json
 pkg_path = root / "package.json"
@@ -38,14 +28,17 @@ if lock_path.exists():
         lock["packages"][""]["version"] = ver
     lock_path.write_text(json.dumps(lock, indent=2) + "\n")
 
-# index.html cache busters
+# index.html cache busters and visible platform footer label
 html_path = root / "index.html"
-html = re.sub(r'v=[0-9][0-9.]*', f'v={ver}', html_path.read_text())
+html = html_path.read_text()
+html = re.sub(r'v=[0-9][0-9.]*', f'v={ver}', html)
+html = re.sub(r'content:\s*"Platform [^"]+"', f'content: "Platform {ver}"', html)
 html_path.write_text(html)
 
-# manifest.js dataVersion
+# manifest.js platformVersion. dataVersion belongs to the module data file.
 manifest_path = root / "manifest.js"
-manifest = re.sub(r'dataVersion:\s*"[^"]+"', f'dataVersion: "{ver}"', manifest_path.read_text())
+manifest = manifest_path.read_text()
+manifest = re.sub(r'platformVersion:\s*"[^"]+"', f'platformVersion: "{ver}"', manifest)
 manifest_path.write_text(manifest)
 
-print(f"synced to v{ver}")
+print(f"synced platform to v{ver}")
