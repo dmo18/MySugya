@@ -1,5 +1,6 @@
 name: Deploy GitHub Pages
 
+# Manual trigger commit for Pages deployment.
 on:
   pull_request:
   push:
