@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="mist" data-accent="cyan">
+<html lang="en" data-mode="mist" data-accent="gold">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5"/>
@@ -8,36 +8,11 @@
   <meta name="description" content="Understand the sugya. A Talmud study companion."/>
   <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
   <link rel="stylesheet" href="styles.css"/>
-  <style>
-    .app-footer > span:first-child {
-      font-size: 0;
-    }
-    .app-footer > span:first-child::after {
-      content: "Platform 13.1";
-      font-size: 0.85rem;
-    }
-  </style>
   <script>(function(){
     var t=null;try{t=JSON.parse(localStorage.getItem('mysugya:tweaks'));}catch(e){}
     if(!t){try{t=JSON.parse(localStorage.getItem('yoma:tweaks'));}catch(e){}}
     var m=(t&&t.mode)||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'mist');
-    var a=(t&&t.accent)||'#06b6d4';
-    var accents={
-      '#a37a2c':'gold',
-      '#7a2a2a':'oxblood',
-      '#1f3c66':'navy',
-      '#2e4a36':'ink-green',
-      '#0ea5e9':'sky',
-      '#8b5cf6':'violet',
-      '#f43f5e':'rose',
-      '#14b8a6':'teal',
-      '#06b6d4':'cyan',
-      '#22c55e':'lime',
-      '#f59e0b':'amber',
-      '#6366f1':'indigo'
-    };
     document.documentElement.setAttribute('data-mode',m);
-    document.documentElement.setAttribute('data-accent',accents[String(a).toLowerCase()]||'cyan');
     var meta=document.querySelector('meta[name="color-scheme"]');
     if(meta)meta.content=({light:1,mist:1,sepia:1}[m])?'light':'dark';
   })();</script>
@@ -47,8 +22,8 @@
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
-  <script src="manifest.js?v=13.1"></script>
-  <script type="text/babel" src="tweaks-panel.jsx?v=13.1"></script>
-  <script type="text/babel" src="app.jsx?v=13.1"></script>
+  <script src="manifest.js?v=14"></script>
+  <script type="text/babel" src="tweaks-panel.jsx?v=14"></script>
+  <script type="text/babel" src="app.jsx?v=14"></script>
 </body>
 </html>
