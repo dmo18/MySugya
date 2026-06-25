@@ -1415,51 +1415,85 @@ function CountUpStat({ value, label, suffix }) {
   );
 }
 
-// ----- argument-flow demo (the signature feature, animated live) ----------
-const FLOW_STEPS = [
-  { he: "שְׁאֵלָה",  en: "Question",   sym: "?" },
-  { he: "רְאָיָה",   en: "Proof",      sym: "§" },
-  { he: "קֻשְׁיָא",  en: "Objection",  sym: "↯" },
-  { he: "תֵּירוּץ",  en: "Resolution", sym: "✓" },
+// ----- argument step metadata: maps schema step types to symbol + Hebrew ----
+const STEP_META = {
+  case:              { he: "מַעֲשֶׂה",  sym: "▦", en: "Case" },
+  question:          { he: "שְׁאֵלָה",  sym: "?", en: "Question" },
+  proposal:          { he: "הַצָּעָה",  sym: "✎", en: "Proposal" },
+  challenge:         { he: "קֻשְׁיָא",  sym: "↯", en: "Challenge" },
+  objection:         { he: "קֻשְׁיָא",  sym: "↯", en: "Objection" },
+  counter_objection: { he: "פִּרְכָא",  sym: "⇄", en: "Counter" },
+  proof:             { he: "רְאָיָה",   sym: "§", en: "Proof" },
+  answer:            { he: "תֵּירוּץ",  sym: "✓", en: "Answer" },
+  distinction:       { he: "חִילּוּק",  sym: "⌥", en: "Distinction" },
+  qualification:     { he: "סְיָג",     sym: "≈", en: "Qualification" },
+  rejection:         { he: "דְּחִיָּה", sym: "✗", en: "Rejection" },
+  resolution:        { he: "מַסְקָנָא", sym: "✓", en: "Resolution" },
+  takeaway:          { he: "כְּלָל",    sym: "★", en: "Takeaway" },
+};
+const FLOW_FALLBACK = [
+  { type: "question",   label: "A question is raised" },
+  { type: "proof",      label: "A proof is brought" },
+  { type: "objection",  label: "An objection is pressed" },
+  { type: "resolution", label: "The matter is resolved" },
 ];
-function ArgumentFlowDemo() {
+
+// ----- argument-flow demo (the signature feature, animated live) ----------
+// Accepts real argumentFlow steps from a loaded sugya; falls back to a
+// generic four-move shape until module data arrives.
+function ArgumentFlowDemo({ steps, sugyaTitle }) {
+  const flow = (steps && steps.length >= 2 ? steps : FLOW_FALLBACK).slice(0, 6);
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
+  useEffect(() => { setActive(0); }, [steps]);
   useEffect(() => {
     if (paused) return;
     const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return;
-    const id = setInterval(() => setActive(a => (a + 1) % FLOW_STEPS.length), 1500);
+    const id = setInterval(() => setActive(a => (a + 1) % flow.length), 1700);
     return () => clearInterval(id);
-  }, [paused]);
+  }, [paused, flow.length]);
+  const cur = flow[active] || flow[0];
   return (
-    <div className="flow-demo" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
-      {FLOW_STEPS.map((s, i) => (
-        <React.Fragment key={s.en}>
-          <button
-            type="button"
-            className="flow-node"
-            data-active={i === active ? "1" : "0"}
-            onFocus={() => { setPaused(true); setActive(i); }}
-            onBlur={() => setPaused(false)}
-            onClick={() => setActive(i)}
-            aria-label={s.en}
-          >
-            <span className="flow-sym" aria-hidden="true">{s.sym}</span>
-            <span className="flow-he" lang="he" dir="rtl">{s.he}</span>
-            <span className="flow-en">{s.en}</span>
-          </button>
-          {i < FLOW_STEPS.length - 1 && (
-            <span className="flow-link" data-active={i < active ? "1" : "0"} aria-hidden="true" />
-          )}
-        </React.Fragment>
-      ))}
+    <div className="flow-wrap">
+      <div className="flow-demo" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+        {flow.map((s, i) => {
+          const m = STEP_META[s.type] || STEP_META.question;
+          return (
+            <React.Fragment key={s.id || (s.type + "-" + i)}>
+              <button
+                type="button"
+                className="flow-node"
+                data-active={i === active ? "1" : "0"}
+                onFocus={() => { setPaused(true); setActive(i); }}
+                onBlur={() => setPaused(false)}
+                onClick={() => setActive(i)}
+                aria-label={m.en}
+              >
+                <span className="flow-sym" aria-hidden="true">{m.sym}</span>
+                <span className="flow-he" lang="he" dir="rtl">{m.he}</span>
+                <span className="flow-en">{m.en}</span>
+              </button>
+              {i < flow.length - 1 && (
+                <span className="flow-link" data-active={i < active ? "1" : "0"} aria-hidden="true" />
+              )}
+            </React.Fragment>
+          );
+        })}
+      </div>
+      <div className="flow-caption" key={active}>
+        {sugyaTitle ? <span className="flow-caption-src">{sugyaTitle}</span> : null}
+        <span className="flow-caption-label">{cur && cur.label}</span>
+        {cur && cur.text ? <span className="flow-caption-text">{cur.text}</span> : null}
+      </div>
     </div>
   );
 }
 
 // ----- the Living Daf: 3D folio that tilts to pointer / device motion -----
-function LivingDaf() {
+// Renders a real daf (core Gemara + Rashi column) once module data loads,
+// with an instant manifest-based skeleton until then.
+function LivingDaf({ featured, mod }) {
   const stageRef = useRef(null);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   const [motionOn, setMotionOn] = useState(false);
@@ -1515,6 +1549,19 @@ function LivingDaf() {
     opacity: 0.55 + Math.min(0.35, (Math.abs(tilt.x) + Math.abs(tilt.y)) / 60),
   };
 
+  // ---- derive real content from loaded data, fall back to manifest ----
+  const titleHe = (featured && featured.meta && featured.meta.title_he) || (mod && mod.title_he) || "";
+  const refHe = hebrewizeDaf((featured && featured.dafId) || (mod && mod.dafRange && mod.dafRange.first) || "2a")
+    .replace(/ עמוד.*/, "");
+  const coreLines = (featured && featured.heroSugya && (featured.heroSugya.lines || [])
+    .filter(l => l.he).slice(0, 4)) || [];
+  const rashiLines = (featured && featured.daf && (featured.daf.rashiLines || [])
+    .filter(r => r.he).slice(0, 8)) || [];
+  const firstStep = featured && featured.heroSugya && featured.heroSugya.argumentFlow &&
+    featured.heroSugya.argumentFlow[0];
+  const stepMeta = firstStep && (STEP_META[firstStep.type] || STEP_META.question);
+  const hot = coreLines.length > 2 ? 2 : 0;
+
   return (
     <div
       className="living-daf-stage"
@@ -1525,38 +1572,45 @@ function LivingDaf() {
       role="img"
       aria-label="Interactive Talmud folio"
     >
-      <div className="living-daf" style={folioStyle}>
+      <div className="living-daf" style={folioStyle} data-live={coreLines.length ? "1" : "0"}>
         <div className="ld-aura" aria-hidden="true" />
         <div className="ld-folio">
           <div className="ld-head">
-            <span className="ld-head-he" lang="he" dir="rtl">מַסֶּכֶת יוֹמָא</span>
-            <span className="ld-head-ref" lang="he" dir="rtl">דף כ״ח</span>
+            <span className="ld-head-he" lang="he" dir="rtl">{titleHe}</span>
+            <span className="ld-head-ref" lang="he" dir="rtl">{refHe}</span>
           </div>
           <div className="ld-body">
-            <div className="ld-col ld-col-side" aria-hidden="true">
+            <div className="ld-col ld-col-side ld-col-rashi">
               <span className="ld-col-tag" lang="he" dir="rtl">רש״י</span>
-              <span className="ld-bar" style={{ width: "92%" }} />
-              <span className="ld-bar" style={{ width: "78%" }} />
-              <span className="ld-bar" style={{ width: "85%" }} />
-              <span className="ld-bar" style={{ width: "64%" }} />
-              <span className="ld-bar" style={{ width: "80%" }} />
-              <span className="ld-bar" style={{ width: "70%" }} />
+              {rashiLines.length ? (
+                rashiLines.map((r, i) => (
+                  <span className="ld-microline" lang="he" dir="rtl" key={r.id || i}>{r.he}</span>
+                ))
+              ) : (
+                ["92%","78%","85%","64%","80%","70%"].map((w, i) => (
+                  <span className="ld-bar" style={{ width: w }} key={i} aria-hidden="true" />
+                ))
+              )}
             </div>
             <div className="ld-col ld-col-core">
-              <p className="ld-line" lang="he" dir="rtl">אָמַר רַב יְהוּדָה אָמַר שְׁמוּאֵל</p>
-              <p className="ld-line" lang="he" dir="rtl">כׇּל כְּהוּנָה שֶׁמִּינָה אוֹתָהּ</p>
-              <p className="ld-line ld-line-hot" lang="he" dir="rtl">שַׁבְּתָאי בֶּן מַרְיָנוּס בְּעָלְמָא</p>
-              <p className="ld-line" lang="he" dir="rtl">וְלָא קָא מְפָרֵשׁ לַהּ טַעְמָא</p>
-              <span className="ld-core-tag" lang="he" dir="rtl">שְׁאֵלָה · Question</span>
+              {coreLines.length ? (
+                coreLines.map((l, i) => (
+                  <p className={"ld-line" + (i === hot ? " ld-line-hot" : "")} lang="he" dir="rtl" key={l.id || i}>{l.he}</p>
+                ))
+              ) : (
+                ["96%","88%","92%","72%"].map((w, i) => (
+                  <span className="ld-bar ld-bar-core" style={{ width: w }} key={i} aria-hidden="true" />
+                ))
+              )}
+              {stepMeta ? (
+                <span className="ld-core-tag" lang="he" dir="rtl">{stepMeta.he} · {stepMeta.en}</span>
+              ) : null}
             </div>
             <div className="ld-col ld-col-side" aria-hidden="true">
               <span className="ld-col-tag" lang="he" dir="rtl">תוס׳</span>
-              <span className="ld-bar" style={{ width: "80%" }} />
-              <span className="ld-bar" style={{ width: "88%" }} />
-              <span className="ld-bar" style={{ width: "66%" }} />
-              <span className="ld-bar" style={{ width: "82%" }} />
-              <span className="ld-bar" style={{ width: "74%" }} />
-              <span className="ld-bar" style={{ width: "90%" }} />
+              {["80%","88%","66%","82%","74%","90%"].map((w, i) => (
+                <span className="ld-bar" style={{ width: w }} key={i} />
+              ))}
             </div>
           </div>
         </div>
@@ -1565,6 +1619,359 @@ function LivingDaf() {
       <span className="ld-hint">
         {needsTap ? "Tap to bring it to life" : "Move to explore the daf"}
       </span>
+    </div>
+  );
+}
+
+// ============================================================================
+// LANDING DATA — generic module-data loading + derivation (no Yoma specifics)
+// ============================================================================
+
+// Strip inline HTML (William Davidson <b> markup) for clean preview text.
+function stripHtml(s) { return String(s || "").replace(/<[^>]+>/g, ""); }
+
+// Generate the amud sequence (2a, 2b, 3a ...) from a module's daf range.
+function genAmudim(first, last) {
+  const parse = s => { const m = String(s || "").match(/^(\d+)([ab])$/); return m ? [parseInt(m[1], 10), m[2]] : null; };
+  const a = parse(first), b = parse(last);
+  if (!a || !b) return [];
+  const out = [];
+  let n = a[0], l = a[1], guard = 0;
+  while (guard++ < 2000) {
+    out.push(n + l);
+    if (n === b[0] && l === b[1]) break;
+    if (l === "a") l = "b"; else { l = "a"; n++; }
+    if (n > b[0] + 1) break;
+  }
+  return out;
+}
+
+// Lazy-load a module's data script once; resolves when its globals are live.
+function loadModuleData(mod) {
+  return new Promise((resolve, reject) => {
+    const sel = 'script[data-mod-data="' + mod.id + '"]';
+    const existing = document.querySelector(sel);
+    if (existing) {
+      if (existing.getAttribute("data-loaded")) resolve();
+      else { existing.addEventListener("load", () => resolve()); existing.addEventListener("error", reject); }
+      return;
+    }
+    const s = document.createElement("script");
+    s.src = mod.dataScript + "?v=" + (mod.dataVersion || "1");
+    s.setAttribute("data-mod-data", mod.id);
+    s.onload = () => { s.setAttribute("data-loaded", "1"); resolve(); };
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+// Read the module globals defined by a loaded data script.
+function readModuleGlobals() {
+  return {
+    meta:       typeof TRACTATE_META !== "undefined" ? TRACTATE_META : null,
+    perakim:    typeof PERAKIM       !== "undefined" ? PERAKIM       : null,
+    dafIndex:   typeof DAF_INDEX     !== "undefined" ? DAF_INDEX     : null,
+    dafContent: typeof DAF_CONTENT   !== "undefined" ? DAF_CONTENT   : null,
+  };
+}
+
+// Pick the daf of the day deterministically, plus useful sample sugyot.
+function deriveFeatured(g) {
+  if (!g || !g.dafContent || !g.meta) return null;
+  const dc = g.dafContent;
+  const enriched = (g.meta.fullyStructured && g.meta.fullyStructured.length
+    ? g.meta.fullyStructured
+    : Object.keys(dc)).filter(id => dc[id] && dc[id].sugyot && dc[id].sugyot.length);
+  if (!enriched.length) return null;
+  const epochDay = Math.floor(Date.now() / 86400000);
+  const dafId = enriched[epochDay % enriched.length];
+  const daf = dc[dafId];
+  const sugyot = daf.sugyot || [];
+  const heroSugya = sugyot.find(s => (s.lines || []).some(l => l.he)) || sugyot[0] || null;
+  const flowSugya = sugyot.find(s => s.argumentFlow && s.argumentFlow.length >= 3) || heroSugya;
+  // generic corpus counts
+  let sugyaCount = 0, rashiCount = 0;
+  for (const id of Object.keys(dc)) {
+    const d = dc[id];
+    if (d.sugyot) sugyaCount += d.sugyot.length;
+    if (d.rashiLines) rashiCount += d.rashiLines.length;
+  }
+  return { dafId, daf, heroSugya, flowSugya, meta: g.meta, sugyaCount, rashiCount, enrichedCount: enriched.length };
+}
+
+// ----- Command bar: jump to any daf in any tractate -----------------------
+function CommandBar({ open, onClose }) {
+  const [q, setQ] = useState("");
+  const [sel, setSel] = useState(0);
+  const inputRef = useRef(null);
+
+  const entries = useMemo(() => {
+    const list = [];
+    MYSUGYA_MANIFEST.forEach(mod => {
+      genAmudim(mod.dafRange.first, mod.dafRange.last).forEach(daf => {
+        list.push({ mod, daf, label: mod.title + " " + daf, he: mod.title_he });
+      });
+    });
+    return list;
+  }, []);
+
+  const results = useMemo(() => {
+    const term = q.trim().toLowerCase();
+    if (!term) return entries.slice(0, 8);
+    const toks = term.split(/\s+/);
+    return entries.filter(e => {
+      const hay = (e.mod.title + " " + e.daf + " " + e.mod.id).toLowerCase();
+      return toks.every(t => hay.includes(t));
+    }).slice(0, 8);
+  }, [q, entries]);
+
+  useEffect(() => { setSel(0); }, [q]);
+  useEffect(() => { if (open && inputRef.current) inputRef.current.focus(); }, [open]);
+
+  const go = (e) => { if (e) window.location.href = "?module=" + e.mod.id + "&daf=" + e.daf; };
+  const onKey = (ev) => {
+    if (ev.key === "Escape") { onClose(); }
+    else if (ev.key === "ArrowDown") { ev.preventDefault(); setSel(s => Math.min(results.length - 1, s + 1)); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); setSel(s => Math.max(0, s - 1)); }
+    else if (ev.key === "Enter") { ev.preventDefault(); go(results[sel]); }
+  };
+
+  if (!open) return null;
+  return (
+    <div className="cmd-overlay" onClick={onClose}>
+      <div className="cmd-panel" onClick={e => e.stopPropagation()} role="dialog" aria-label="Jump to a daf">
+        <div className="cmd-input-row">
+          <span className="cmd-icon" aria-hidden="true">⌕</span>
+          <input
+            ref={inputRef}
+            className="cmd-input"
+            placeholder="Jump to any daf -  try &quot;Yoma 28b&quot;"
+            value={q}
+            onChange={e => setQ(e.target.value)}
+            onKeyDown={onKey}
+            aria-label="Search for a daf"
+          />
+          <kbd className="cmd-kbd">esc</kbd>
+        </div>
+        <ul className="cmd-list">
+          {results.length ? results.map((e, i) => (
+            <li key={e.mod.id + e.daf}>
+              <button
+                type="button"
+                className="cmd-item"
+                data-sel={i === sel ? "1" : "0"}
+                onMouseEnter={() => setSel(i)}
+                onClick={() => go(e)}
+              >
+                <span className="cmd-item-he" lang="he" dir="rtl">{e.he}</span>
+                <span className="cmd-item-main">{e.mod.title} <strong>{e.daf}</strong></span>
+                <span className="cmd-item-go" aria-hidden="true">↵</span>
+              </button>
+            </li>
+          )) : (
+            <li className="cmd-empty">No daf matches "{q}"</li>
+          )}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+// ----- Daf of the Day -----------------------------------------------------
+function DafOfDay({ featured }) {
+  if (!featured) {
+    return (
+      <div className="dotd-card dotd-skeleton" aria-hidden="true">
+        <div className="dotd-skel-line" style={{ width: "40%" }} />
+        <div className="dotd-skel-line" style={{ width: "75%" }} />
+        <div className="dotd-skel-line" style={{ width: "60%" }} />
+      </div>
+    );
+  }
+  const { meta, dafId, daf, heroSugya } = featured;
+  const sugya = heroSugya || (daf.sugyot && daf.sugyot[0]);
+  const title = (sugya && sugya.display && sugya.display.title) || (daf.summary || "").slice(0, 60);
+  const oneLine = (sugya && sugya.display && (sugya.display.oneLine || sugya.display.whats)) || daf.summary || "";
+  const teaserHe = sugya && (sugya.lines || []).find(l => l.he);
+  const stepCount = (sugya && sugya.argumentFlow && sugya.argumentFlow.length) || 0;
+  const url = "?module=" + meta.id + "&daf=" + dafId;
+  return (
+    <a className="dotd-card" href={url}>
+      <div className="dotd-ribbon">
+        <span className="dotd-kicker">Daf of the day</span>
+        <span className="dotd-ref">{meta.title} {dafId}<span className="dotd-ref-he" lang="he" dir="rtl">{hebrewizeDaf(dafId)}</span></span>
+      </div>
+      <div className="dotd-body">
+        <h3 className="dotd-title">{title}</h3>
+        {teaserHe ? <p className="dotd-teaser" lang="he" dir="rtl">{teaserHe.he}</p> : null}
+        <p className="dotd-oneline">{oneLine}</p>
+      </div>
+      <div className="dotd-foot">
+        {stepCount ? <span className="dotd-meta">{stepCount} argument steps</span> : <span className="dotd-meta">{(daf.sugyot || []).length} sugyot</span>}
+        <span className="dotd-cta">Study this daf <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+  );
+}
+
+// ----- Peek inside: scroll-driven layer reveal of a real sugya ------------
+const PEEK_STAGES = ["Hebrew", "English", "Rashi", "Argument"];
+function PeekInside({ featured }) {
+  const sectionRef = useRef(null);
+  const [stage, setStage] = useState(0);
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    let raf = 0;
+    const onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = 0;
+        const r = el.getBoundingClientRect();
+        const vh = window.innerHeight || 800;
+        const total = r.height - vh;
+        const progressed = Math.min(1, Math.max(0, -r.top / (total || 1)));
+        setStage(Math.min(PEEK_STAGES.length - 1, Math.floor(progressed * PEEK_STAGES.length * 0.999)));
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [featured]);
+
+  const sugya = featured && featured.heroSugya;
+  const lines = sugya ? (sugya.lines || []).filter(l => l.he).slice(0, 3) : [];
+  const rashi = featured && featured.daf && (featured.daf.rashiLines || []).find(r => r.he);
+  const steps = sugya && sugya.argumentFlow ? sugya.argumentFlow.slice(0, 4) : [];
+
+  return (
+    <section className="peek" ref={sectionRef}>
+      <div className="peek-sticky">
+        <div className="peek-head">
+          <p className="landing-hero-eyebrow landing-flow-eyebrow">See it in layers</p>
+          <h2 className="landing-flow-title">One page, every layer</h2>
+          <div className="peek-progress" aria-hidden="true">
+            {PEEK_STAGES.map((s, i) => (
+              <span className="peek-dot" data-on={i <= stage ? "1" : "0"} key={s}>{s}</span>
+            ))}
+          </div>
+        </div>
+        <div className="peek-folio">
+          {lines.length ? lines.map((l, i) => (
+            <div className="peek-line" key={l.id || i}>
+              <p className="peek-he" lang="he" dir="rtl">{l.he}</p>
+              <p className="peek-en" data-on={stage >= 1 ? "1" : "0"}>{stripHtml(l.en)}</p>
+            </div>
+          )) : (
+            <p className="peek-placeholder">Loading a real daf...</p>
+          )}
+          {rashi ? (
+            <div className="peek-rashi" data-on={stage >= 2 ? "1" : "0"}>
+              <span className="peek-tag" lang="he" dir="rtl">רש״י</span>
+              <p className="peek-rashi-he" lang="he" dir="rtl">{rashi.he}</p>
+              {rashi.en ? <p className="peek-rashi-en">{stripHtml(rashi.en)}</p> : null}
+            </div>
+          ) : null}
+          {steps.length ? (
+            <div className="peek-args" data-on={stage >= 3 ? "1" : "0"}>
+              {steps.map((s, i) => {
+                const m = STEP_META[s.type] || STEP_META.question;
+                return <span className="peek-arg" key={s.id || i}><span aria-hidden="true">{m.sym}</span> {m.en}</span>;
+              })}
+            </div>
+          ) : null}
+        </div>
+        <p className="peek-hint">Scroll to peel back the layers</p>
+      </div>
+    </section>
+  );
+}
+
+// ----- Continue your journey (returning visitors only) --------------------
+function ContinueJourney() {
+  const started = useMemo(() => {
+    let best = null;
+    MYSUGYA_MANIFEST.forEach(mod => {
+      const last = LS.get(mod.id + ":lastDaf", null);
+      const completed = LS.get(mod.id + ":completed", []);
+      const begun = last && last !== "1a" && last !== mod.dafRange.first;
+      if (begun || (completed && completed.length)) {
+        const pct = mod.totalDaf ? Math.round((completed.length / mod.totalDaf) * 100) : 0;
+        if (!best || completed.length > best.completed) best = { mod, last, completed: completed.length, pct };
+      }
+    });
+    return best;
+  }, []);
+  if (!started) return null;
+  const { mod, last, completed, pct } = started;
+  return (
+    <section className="journey">
+      <a className="journey-card" href={"?module=" + mod.id}>
+        <div className="journey-ring" style={{ "--pct": pct }}>
+          <span className="journey-ring-num">{pct}<small>%</small></span>
+        </div>
+        <div className="journey-text">
+          <span className="journey-kicker">Welcome back</span>
+          <span className="journey-title">Continue {mod.title}</span>
+          <span className="journey-sub">
+            {last ? <>Last at daf {last}<span lang="he" dir="rtl"> · {hebrewizeDaf(last)}</span></> : null}
+            {completed ? " · " + completed + " complete" : ""}
+          </span>
+        </div>
+        <span className="journey-cta" aria-hidden="true">→</span>
+      </a>
+    </section>
+  );
+}
+
+// ----- Map of Shas: every Bavli masechta, lit up as it goes live ----------
+const SHAS = [
+  { seder: "Zeraim",   he: "זְרָעִים",  masechtot: [["Berakhot","berakhot"]] },
+  { seder: "Moed",     he: "מוֹעֵד",   masechtot: [["Shabbat","shabbat"],["Eruvin","eruvin"],["Pesachim","pesachim"],["Rosh Hashanah","rosh-hashanah"],["Yoma","yoma"],["Sukkah","sukkah"],["Beitzah","beitzah"],["Taanit","taanit"],["Megillah","megillah"],["Moed Katan","moed-katan"],["Chagigah","chagigah"]] },
+  { seder: "Nashim",   he: "נָשִׁים",  masechtot: [["Yevamot","yevamot"],["Ketubot","ketubot"],["Nedarim","nedarim"],["Nazir","nazir"],["Sotah","sotah"],["Gittin","gittin"],["Kiddushin","kiddushin"]] },
+  { seder: "Nezikin",  he: "נְזִיקִין", masechtot: [["Bava Kamma","bava-kamma"],["Bava Metzia","bava-metzia"],["Bava Batra","bava-batra"],["Sanhedrin","sanhedrin"],["Makkot","makkot"],["Shevuot","shevuot"],["Avodah Zarah","avodah-zarah"],["Horayot","horayot"]] },
+  { seder: "Kodashim", he: "קֳדָשִׁים", masechtot: [["Zevachim","zevachim"],["Menachot","menachot"],["Chullin","chullin"],["Bekhorot","bekhorot"],["Arakhin","arakhin"],["Temurah","temurah"],["Keritot","keritot"],["Meilah","meilah"],["Tamid","tamid"]] },
+  { seder: "Taharot",  he: "טָהֳרוֹת",  masechtot: [["Niddah","niddah"]] },
+];
+function ShasMap() {
+  const liveById = useMemo(() => {
+    const m = {};
+    MYSUGYA_MANIFEST.forEach(mod => { m[mod.id] = mod; });
+    return m;
+  }, []);
+  const liveCount = MYSUGYA_MANIFEST.length;
+  const total = SHAS.reduce((a, s) => a + s.masechtot.length, 0);
+  return (
+    <div className="shas">
+      <div className="shas-legend">
+        <span className="shas-legend-item"><span className="shas-swatch shas-swatch-live" />{liveCount} live</span>
+        <span className="shas-legend-item"><span className="shas-swatch" />{total - liveCount} coming</span>
+      </div>
+      <div className="shas-sedarim">
+        {SHAS.map(s => (
+          <div className="shas-seder" key={s.seder}>
+            <div className="shas-seder-head">
+              <span className="shas-seder-en">{s.seder}</span>
+              <span className="shas-seder-he" lang="he" dir="rtl">{s.he}</span>
+            </div>
+            <div className="shas-cells">
+              {s.masechtot.map(([name, slug]) => {
+                const live = liveById[slug];
+                return live ? (
+                  <a className="shas-cell shas-cell-live" key={slug} href={"?module=" + slug} title={name}>
+                    <span className="shas-cell-he" lang="he" dir="rtl">{live.title_he}</span>
+                    <span className="shas-cell-en">{name}</span>
+                  </a>
+                ) : (
+                  <span className="shas-cell" key={slug} title={name + " - coming soon"}>
+                    <span className="shas-cell-en">{name}</span>
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -1617,6 +2024,36 @@ function TractateCard({ mod }) {
 function LandingPage() {
   const firstMod = MYSUGYA_MANIFEST[0];
   const startUrl = firstMod ? "?module=" + firstMod.id : "#tractates";
+  const startName = firstMod ? firstMod.title : "Yoma";
+  const amudimTotal = MYSUGYA_MANIFEST.reduce((a, m) => a + (m.totalDaf || 0), 0);
+  const liveCount = MYSUGYA_MANIFEST.length;
+  const shasTotal = SHAS.reduce((a, s) => a + s.masechtot.length, 0);
+
+  const [data, setData] = useState(null);
+  const [cmdOpen, setCmdOpen] = useState(false);
+  const featured = useMemo(() => deriveFeatured(data), [data]);
+
+  // Lazy-load the featured module's data after the hero paints, then enrich.
+  useEffect(() => {
+    if (!firstMod) return;
+    let alive = true;
+    const run = () => loadModuleData(firstMod).then(() => { if (alive) setData(readModuleGlobals()); }).catch(() => {});
+    const ric = window.requestIdleCallback;
+    let h;
+    if (ric) h = ric(run, { timeout: 2500 }); else h = setTimeout(run, 1200);
+    return () => { alive = false; if (ric && window.cancelIdleCallback) window.cancelIdleCallback(h); else clearTimeout(h); };
+  }, [firstMod]);
+
+  // "/" opens the command bar (jump to any daf).
+  useEffect(() => {
+    const onKey = (e) => {
+      const tag = (e.target && e.target.tagName) || "";
+      if (e.key === "/" && !/input|textarea/i.test(tag)) { e.preventDefault(); setCmdOpen(true); }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   return (
     <div className="landing">
       <div className="landing-aurora" aria-hidden="true" />
@@ -1626,7 +2063,9 @@ function LandingPage() {
           <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>
           <span className="brand-name">My Sugya</span>
         </div>
-        <span className="landing-tagline-top">Talmud study, sugya by sugya</span>
+        <button type="button" className="chrome-jump" onClick={() => setCmdOpen(true)}>
+          <span aria-hidden="true">⌕</span> Jump to a daf <kbd>/</kbd>
+        </button>
       </header>
 
       {/* HERO */}
@@ -1643,24 +2082,39 @@ function LandingPage() {
           </p>
           <div className="landing-cta-row">
             <a className="lcta lcta-primary" href={startUrl}>
-              Begin with Yoma <span aria-hidden="true">→</span>
+              Begin with {startName} <span aria-hidden="true">→</span>
             </a>
             <a className="lcta lcta-ghost" href="#how">See how it works <span aria-hidden="true">→</span></a>
           </div>
+          <button type="button" className="cmd-trigger" onClick={() => setCmdOpen(true)}>
+            <span className="cmd-trigger-icon" aria-hidden="true">⌕</span>
+            <span className="cmd-trigger-text">Jump to any daf in any tractate</span>
+            <kbd className="cmd-trigger-kbd">/</kbd>
+          </button>
           <div className="landing-stats-grid">
-            <CountUpStat value={492} label="enriched sugyot" />
-            <CountUpStat value={8854} label="Rashi lines" />
-            <CountUpStat value={173} label="amudim" />
-            <CountUpStat value={100} label="Yoma coverage" suffix="%" />
+            <CountUpStat value={amudimTotal} label="amudim" />
+            <CountUpStat value={featured ? featured.sugyaCount : 0} label="sugyot" />
+            <CountUpStat value={featured ? featured.rashiCount : 0} label="Rashi lines" />
+            <CountUpStat value={liveCount} label={"of " + shasTotal + " masechtot"} />
           </div>
         </Reveal>
 
         <Reveal className="landing-hero-deco" delay={160}>
-          <LivingDaf />
+          <LivingDaf featured={featured} mod={firstMod} />
         </Reveal>
       </section>
 
-      {/* SIGNATURE FEATURE — argument flow, demonstrated live */}
+      {/* CONTINUE (returning visitors only) */}
+      <ContinueJourney />
+
+      {/* DAF OF THE DAY */}
+      <section className="landing-daily">
+        <Reveal className="landing-section-inner landing-daily-inner">
+          <DafOfDay featured={featured} />
+        </Reveal>
+      </section>
+
+      {/* SIGNATURE FEATURE — argument flow from a real sugya */}
       <section className="landing-flow">
         <Reveal className="landing-section-inner landing-flow-inner">
           <p className="landing-hero-eyebrow landing-flow-eyebrow">The signature view</p>
@@ -1669,11 +2123,21 @@ function LandingPage() {
             We label the moves of the Gemara so the logic is visible at a glance -
             question, proof, objection, resolution.
           </p>
-          <ArgumentFlowDemo />
+          <ArgumentFlowDemo
+            steps={featured && featured.flowSugya ? featured.flowSugya.argumentFlow : null}
+            sugyaTitle={featured && featured.flowSugya
+              ? featured.meta.title + " " + featured.dafId +
+                (featured.flowSugya.display && featured.flowSugya.display.title
+                  ? " · " + featured.flowSugya.display.title : "")
+              : null}
+          />
         </Reveal>
       </section>
 
-      {/* TRACTATE PICKER — primary CTA */}
+      {/* PEEK INSIDE — scroll-driven layer reveal of a real daf */}
+      <PeekInside featured={featured} />
+
+      {/* TRACTATE PICKER */}
       <section className="landing-tractates" id="tractates">
         <Reveal className="landing-section-inner">
           <h2 className="landing-section-title">
@@ -1683,28 +2147,30 @@ function LandingPage() {
           <p className="landing-section-sub">Pick a tractate and dive in. More are on the way.</p>
           <div className="tractate-grid">
             {MYSUGYA_MANIFEST.map(mod => <TractateCard key={mod.id} mod={mod}/>)}
-            {["בְּרָכוֹת/Berakhot/Zeraim · Prayers and blessings",
-              "שַׁבָּת/Shabbat/Moed · The laws of Shabbat",
-              "בָּבָא מְצִיעָא/Bava Metzia/Nezikin · Property and finance"
-            ].map(spec => {
-              const [he, en, sub] = spec.split("/");
-              return (
-                <div className="tractate-card tc-coming-soon" key={en} aria-hidden="true">
-                  <div className="tc-header">
-                    <span className="tc-seder-badge">Coming soon</span>
-                  </div>
-                  <div className="tc-body">
-                    <span className="tc-title-he" lang="he" dir="rtl">{he}</span>
-                    <span className="tc-title-en">{en}</span>
-                    <span className="tc-subtitle">{sub}</span>
-                  </div>
-                  <div className="tc-footer">
-                    <span className="tc-cta tc-cta--mute">In preparation</span>
-                  </div>
-                </div>
-              );
-            })}
+            <a className="tractate-card tc-more" href="#shas">
+              <div className="tc-header">
+                <span className="tc-seder-badge">The whole Shas</span>
+              </div>
+              <div className="tc-body tc-more-body">
+                <span className="tc-more-num">{shasTotal - liveCount}</span>
+                <span className="tc-more-label">more masechtot in preparation</span>
+              </div>
+              <div className="tc-footer">
+                <span className="tc-cta tc-cta--mute">See the map <span aria-hidden="true">↓</span></span>
+              </div>
+            </a>
           </div>
+        </Reveal>
+      </section>
+
+      {/* MAP OF SHAS */}
+      <section className="landing-shas" id="shas">
+        <Reveal className="landing-section-inner">
+          <h2 className="landing-section-title landing-section-title--center">The whole Shas, lighting up</h2>
+          <p className="landing-section-sub landing-section-sub--center">
+            Every masechta of the Talmud Bavli. The lit ones are ready now; the rest arrive over time.
+          </p>
+          <ShasMap />
         </Reveal>
       </section>
 
@@ -1739,7 +2205,7 @@ function LandingPage() {
           <h2 className="cta-band-title">Open the daf.</h2>
           <p className="cta-band-sub">No account. No install. Just you and the page.</p>
           <a className="lcta lcta-primary lcta-lg" href={startUrl}>
-            Begin with Yoma <span aria-hidden="true">→</span>
+            Begin with {startName} <span aria-hidden="true">→</span>
           </a>
           <p className="cta-band-quote" lang="he" dir="rtl">הֲפֹךְ בָּהּ וַהֲפֹךְ בָּהּ דְּכֹלָּא בָהּ</p>
           <p className="cta-band-quote-en">"Turn it over and over, for everything is in it." · Avot 5:22</p>
@@ -1753,6 +2219,7 @@ function LandingPage() {
         </div>
       </footer>
 
+      <CommandBar open={cmdOpen} onClose={() => setCmdOpen(false)} />
     </div>
   );
 }
