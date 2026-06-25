@@ -1351,9 +1351,204 @@ const SEDER_LABELS = {
   Taharot: { he: "טָהֳרוֹת",  en: "Purities" },
 };
 
+// ----- count-up stat (animates when scrolled into view) -------------------
+function CountUpStat({ value, label, suffix }) {
+  const ref = useRef(null);
+  const [n, setN] = useState(0);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) { setN(value); return; }
+    let fired = false;
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(en => {
+        if (en.isIntersecting && !fired) {
+          fired = true;
+          const dur = 1200, t0 = performance.now();
+          const tick = (t) => {
+            const p = Math.min(1, (t - t0) / dur);
+            const eased = 1 - Math.pow(1 - p, 3);
+            setN(Math.round(value * eased));
+            if (p < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        }
+      });
+    }, { threshold: 0.4 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [value]);
+  return (
+    <div ref={ref} className="lsg-item">
+      <span className="lsg-num">{n.toLocaleString()}{suffix || ""}</span>
+      <span className="lsg-label">{label}</span>
+    </div>
+  );
+}
+
+// ----- argument-flow demo (the signature feature, animated live) ----------
+const FLOW_STEPS = [
+  { he: "שְׁאֵלָה",  en: "Question",   sym: "?" },
+  { he: "רְאָיָה",   en: "Proof",      sym: "§" },
+  { he: "קֻשְׁיָא",  en: "Objection",  sym: "↯" },
+  { he: "תֵּירוּץ",  en: "Resolution", sym: "✓" },
+];
+function ArgumentFlowDemo() {
+  const [active, setActive] = useState(0);
+  const [paused, setPaused] = useState(false);
+  useEffect(() => {
+    if (paused) return;
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) return;
+    const id = setInterval(() => setActive(a => (a + 1) % FLOW_STEPS.length), 1500);
+    return () => clearInterval(id);
+  }, [paused]);
+  return (
+    <div className="flow-demo" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+      {FLOW_STEPS.map((s, i) => (
+        <React.Fragment key={s.en}>
+          <button
+            type="button"
+            className="flow-node"
+            data-active={i === active ? "1" : "0"}
+            onFocus={() => { setPaused(true); setActive(i); }}
+            onBlur={() => setPaused(false)}
+            onClick={() => setActive(i)}
+            aria-label={s.en}
+          >
+            <span className="flow-sym" aria-hidden="true">{s.sym}</span>
+            <span className="flow-he" lang="he" dir="rtl">{s.he}</span>
+            <span className="flow-en">{s.en}</span>
+          </button>
+          {i < FLOW_STEPS.length - 1 && (
+            <span className="flow-link" data-active={i < active ? "1" : "0"} aria-hidden="true" />
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  );
+}
+
+// ----- the Living Daf: 3D folio that tilts to pointer / device motion -----
+function LivingDaf() {
+  const stageRef = useRef(null);
+  const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [motionOn, setMotionOn] = useState(false);
+  const [needsTap, setNeedsTap] = useState(false);
+
+  // iOS gates DeviceOrientation behind a permission prompt requiring a gesture.
+  useEffect(() => {
+    const DOE = window.DeviceOrientationEvent;
+    if (DOE && typeof DOE.requestPermission === "function") {
+      setNeedsTap(true);
+    } else if (DOE) {
+      setMotionOn(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!motionOn) return;
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) return;
+    function onOrient(e) {
+      const y = Math.max(-20, Math.min(20, (e.gamma || 0) * 0.45));
+      const x = Math.max(-20, Math.min(20, ((e.beta || 0) - 45) * 0.32));
+      setTilt({ x: -x, y });
+    }
+    window.addEventListener("deviceorientation", onOrient, true);
+    return () => window.removeEventListener("deviceorientation", onOrient, true);
+  }, [motionOn]);
+
+  const onPointerMove = useCallback((e) => {
+    const el = stageRef.current;
+    if (!el || e.pointerType === "touch") return;
+    const r = el.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width - 0.5;
+    const py = (e.clientY - r.top) / r.height - 0.5;
+    setTilt({ x: py * -14, y: px * 16 });
+  }, []);
+  const onLeave = useCallback(() => setTilt({ x: 0, y: 0 }), []);
+
+  const enableMotion = useCallback(() => {
+    const DOE = window.DeviceOrientationEvent;
+    if (DOE && typeof DOE.requestPermission === "function") {
+      DOE.requestPermission().then(state => {
+        if (state === "granted") { setMotionOn(true); setNeedsTap(false); }
+      }).catch(() => {});
+    }
+  }, []);
+
+  const folioStyle = {
+    transform: `perspective(1000px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
+  };
+  const sheenStyle = {
+    transform: `translate3d(${tilt.y * 2.2}px, ${-tilt.x * 2.2}px, 60px)`,
+    opacity: 0.55 + Math.min(0.35, (Math.abs(tilt.x) + Math.abs(tilt.y)) / 60),
+  };
+
+  return (
+    <div
+      className="living-daf-stage"
+      ref={stageRef}
+      onPointerMove={onPointerMove}
+      onPointerLeave={onLeave}
+      onClick={needsTap ? enableMotion : undefined}
+      role="img"
+      aria-label="Interactive Talmud folio"
+    >
+      <div className="living-daf" style={folioStyle}>
+        <div className="ld-aura" aria-hidden="true" />
+        <div className="ld-folio">
+          <div className="ld-head">
+            <span className="ld-head-he" lang="he" dir="rtl">מַסֶּכֶת יוֹמָא</span>
+            <span className="ld-head-ref" lang="he" dir="rtl">דף כ״ח</span>
+          </div>
+          <div className="ld-body">
+            <div className="ld-col ld-col-side" aria-hidden="true">
+              <span className="ld-col-tag" lang="he" dir="rtl">רש״י</span>
+              <span className="ld-bar" style={{ width: "92%" }} />
+              <span className="ld-bar" style={{ width: "78%" }} />
+              <span className="ld-bar" style={{ width: "85%" }} />
+              <span className="ld-bar" style={{ width: "64%" }} />
+              <span className="ld-bar" style={{ width: "80%" }} />
+              <span className="ld-bar" style={{ width: "70%" }} />
+            </div>
+            <div className="ld-col ld-col-core">
+              <p className="ld-line" lang="he" dir="rtl">אָמַר רַב יְהוּדָה אָמַר שְׁמוּאֵל</p>
+              <p className="ld-line" lang="he" dir="rtl">כׇּל כְּהוּנָה שֶׁמִּינָה אוֹתָהּ</p>
+              <p className="ld-line ld-line-hot" lang="he" dir="rtl">שַׁבְּתָאי בֶּן מַרְיָנוּס בְּעָלְמָא</p>
+              <p className="ld-line" lang="he" dir="rtl">וְלָא קָא מְפָרֵשׁ לַהּ טַעְמָא</p>
+              <span className="ld-core-tag" lang="he" dir="rtl">שְׁאֵלָה · Question</span>
+            </div>
+            <div className="ld-col ld-col-side" aria-hidden="true">
+              <span className="ld-col-tag" lang="he" dir="rtl">תוס׳</span>
+              <span className="ld-bar" style={{ width: "80%" }} />
+              <span className="ld-bar" style={{ width: "88%" }} />
+              <span className="ld-bar" style={{ width: "66%" }} />
+              <span className="ld-bar" style={{ width: "82%" }} />
+              <span className="ld-bar" style={{ width: "74%" }} />
+              <span className="ld-bar" style={{ width: "90%" }} />
+            </div>
+          </div>
+        </div>
+        <div className="ld-sheen" style={sheenStyle} aria-hidden="true" />
+      </div>
+      <span className="ld-hint">
+        {needsTap ? "Tap to bring it to life" : "Move to explore the daf"}
+      </span>
+    </div>
+  );
+}
+
 function TractateCard({ mod }) {
   const seder = SEDER_LABELS[mod.seder] || { he: mod.seder, en: mod.seder };
   const url = "?module=" + mod.id;
+  const completed = LS.get(mod.id + ":completed", []);
+  const lastDaf = LS.get(mod.id + ":lastDaf", null);
+  const total = mod.totalDaf || 0;
+  const pct = total ? Math.min(100, Math.round((completed.length / total) * 100)) : 0;
+  const started = !!lastDaf && lastDaf !== "1a" && lastDaf !== mod.dafRange.first;
   return (
     <a className="tractate-card" href={url} aria-label={"Study " + mod.title}>
       <div className="tc-header">
@@ -1361,6 +1556,7 @@ function TractateCard({ mod }) {
           <span lang="he" dir="rtl">{seder.he}</span>
           {" · "}{mod.seder}
         </span>
+        <span className="tc-live"><span className="tc-live-dot" aria-hidden="true" />Live</span>
       </div>
       <div className="tc-body">
         <span className="tc-title-he" lang="he" dir="rtl">{mod.title_he}</span>
@@ -1373,19 +1569,29 @@ function TractateCard({ mod }) {
         <span className="tc-stat"><strong>{mod.totalDaf}</strong> amudim</span>
         <span className="tc-stat-sep" aria-hidden="true">·</span>
         <span className="tc-stat">Daf {mod.dafRange.first} – {mod.dafRange.last}</span>
-        <span className="tc-stat-sep" aria-hidden="true">·</span>
-        <span className="tc-stat"><strong>8</strong> perakim</span>
       </div>
+      {pct > 0 && (
+        <div className="tc-progress" aria-label={pct + "% complete"}>
+          <span className="tc-progress-bar"><span className="tc-progress-fill" style={{ width: pct + "%" }} /></span>
+          <span className="tc-progress-label">{pct}%</span>
+        </div>
+      )}
       <div className="tc-footer">
-        <span className="tc-cta">Begin studying <span aria-hidden="true">→</span></span>
+        <span className="tc-cta">
+          {started ? "Resume daf " + lastDaf : "Begin studying"}
+          {" "}<span aria-hidden="true">→</span>
+        </span>
       </div>
     </a>
   );
 }
 
 function LandingPage() {
+  const firstMod = MYSUGYA_MANIFEST[0];
+  const startUrl = firstMod ? "?module=" + firstMod.id : "#tractates";
   return (
     <div className="landing">
+      <div className="landing-aurora" aria-hidden="true" />
 
       <header className="landing-chrome">
         <div className="brand">
@@ -1398,126 +1604,103 @@ function LandingPage() {
       {/* HERO */}
       <section className="landing-hero">
         <div className="landing-hero-inner">
-          <p className="landing-hero-eyebrow">Babylonian Talmud · Interactive Study</p>
+          <p className="landing-hero-eyebrow"><span className="eyebrow-dot" aria-hidden="true" />Babylonian Talmud · Interactive Study</p>
           <h1 className="landing-hero-title">
             Understand the Gemara.
             <span className="lht-he" lang="he" dir="rtl">הַגְּמָרָא</span>
           </h1>
           <p className="landing-hero-sub">
-            Each daf is broken into labeled sugyot with interlinear Hebrew-English,
-            Rashi, argument flow, and glossary. No account needed.
+            Every daf, broken into labeled sugyot with interlinear Hebrew-English,
+            Rashi, glossary, and a live map of the argument. No account, no install.
           </p>
+          <div className="landing-cta-row">
+            <a className="lcta lcta-primary" href={startUrl}>
+              Begin with Yoma <span aria-hidden="true">→</span>
+            </a>
+            <a className="lcta lcta-ghost" href="#how">See how it works</a>
+          </div>
           <div className="landing-stats-grid">
-            <div className="lsg-item">
-              <span className="lsg-num">492</span>
-              <span className="lsg-label">enriched sugyot</span>
-            </div>
-            <div className="lsg-item">
-              <span className="lsg-num">8,854</span>
-              <span className="lsg-label">Rashi lines</span>
-            </div>
-            <div className="lsg-item">
-              <span className="lsg-num">173</span>
-              <span className="lsg-label">amudim</span>
-            </div>
-            <div className="lsg-item">
-              <span className="lsg-num">8</span>
-              <span className="lsg-label">perakim</span>
-            </div>
+            <CountUpStat value={492} label="enriched sugyot" />
+            <CountUpStat value={8854} label="Rashi lines" />
+            <CountUpStat value={173} label="amudim" />
+            <CountUpStat value={100} label="Yoma coverage" suffix="%" />
           </div>
         </div>
 
-        <div className="landing-hero-deco" aria-hidden="true">
-          <div className="lhd-folio">
-            <div className="lhd-folio-inner">
-              <p className="lhd-tractate">מַסֶּכֶת יוֹמָא</p>
-              <div className="lhd-rule"/>
-              <p className="lhd-ref">דף כ״ח עמוד ב׳</p>
-              <p className="lhd-line">אָמַר רַב יְהוּדָה אָמַר שְׁמוּאֵל</p>
-              <p className="lhd-line">כׇּל כְּהוּנָה שֶׁמִּינָה אוֹתָהּ</p>
-              <p className="lhd-line">שַׁבְּתָאי בֶּן מַרְיָנוּס</p>
-              <div className="lhd-rule"/>
-              <p className="lhd-line lhd-line-en">On the appointment of the Kohen Gadol</p>
-              <p className="lhd-tag">Question · שְׁאֵלָה</p>
-            </div>
-          </div>
+        <div className="landing-hero-deco">
+          <LivingDaf />
         </div>
       </section>
 
-      {/* TRACTATE PICKER — primary CTA, shown before features */}
-      <section className="landing-tractates">
+      {/* SIGNATURE FEATURE — argument flow, demonstrated live */}
+      <section className="landing-flow">
+        <div className="landing-section-inner landing-flow-inner">
+          <p className="landing-hero-eyebrow landing-flow-eyebrow">The signature view</p>
+          <h2 className="landing-flow-title">Every sugya, mapped as an argument</h2>
+          <p className="landing-section-sub landing-flow-sub">
+            We label the moves of the Gemara so the logic is visible at a glance -
+            question, proof, objection, resolution.
+          </p>
+          <ArgumentFlowDemo />
+        </div>
+      </section>
+
+      {/* TRACTATE PICKER — primary CTA */}
+      <section className="landing-tractates" id="tractates">
         <div className="landing-section-inner">
           <h2 className="landing-section-title">
             Choose a Masechta
             <span className="lst-he" lang="he" dir="rtl">בְּחַר מַסֶּכֶת</span>
           </h2>
-          <p className="landing-section-sub">Select a tractate to begin. More coming soon.</p>
+          <p className="landing-section-sub">Select a tractate to begin. More are on the way.</p>
           <div className="tractate-grid">
             {MYSUGYA_MANIFEST.map(mod => <TractateCard key={mod.id} mod={mod}/>)}
-            <div className="tractate-card tc-coming-soon" aria-hidden="true">
-              <div className="tc-header">
-                <span className="tc-seder-badge">Coming soon</span>
-              </div>
-              <div className="tc-body">
-                <span className="tc-title-he" lang="he" dir="rtl">בְּרָכוֹת</span>
-                <span className="tc-title-en">Berakhot</span>
-                <span className="tc-subtitle">Seder Zeraim · Prayers and blessings</span>
-              </div>
-              <div className="tc-footer">
-                <span className="tc-cta tc-cta--mute">In preparation</span>
-              </div>
-            </div>
+            {["בְּרָכוֹת/Berakhot/Zeraim · Prayers and blessings",
+              "שַׁבָּת/Shabbat/Moed · The laws of Shabbat",
+              "בָּבָא מְצִיעָא/Bava Metzia/Nezikin · Property and finance"
+            ].map(spec => {
+              const [he, en, sub] = spec.split("/");
+              return (
+                <div className="tractate-card tc-coming-soon" key={en} aria-hidden="true">
+                  <div className="tc-header">
+                    <span className="tc-seder-badge">Coming soon</span>
+                  </div>
+                  <div className="tc-body">
+                    <span className="tc-title-he" lang="he" dir="rtl">{he}</span>
+                    <span className="tc-title-en">{en}</span>
+                    <span className="tc-subtitle">{sub}</span>
+                  </div>
+                  <div className="tc-footer">
+                    <span className="tc-cta tc-cta--mute">In preparation</span>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* FEATURES */}
-      <section className="landing-how">
+      <section className="landing-how" id="how">
         <div className="landing-section-inner">
           <h2 className="landing-section-title">What you get</h2>
           <div className="landing-features">
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">§</span>
-              <div className="lf-text">
-                <strong>Sugya structure</strong>
-                <p>Each daf split into labeled discussion units. Navigate by topic, not just by line.</p>
+            {[
+              { ic: "§",   he: false, t: "Sugya structure",            d: "Each daf split into labeled discussion units. Navigate by topic, not just by line." },
+              { ic: "א",   he: false, t: "Interlinear Hebrew-English", d: "Full nekudot with Sefaria-sourced English. Toggle vowel marks anytime." },
+              { ic: "↯",   he: false, t: "Argument flow",              d: "Question, proof, objection, resolution - mapped for every sugya." },
+              { ic: "רש\"י", he: true, t: "Rashi commentary",          d: "All Rashi lines, shown inline with the gemara, with Vilna references and English helpers." },
+              { ic: "מ",   he: false, t: "Glossary per daf",           d: "Aramaic and Hebrew key terms defined in context, in plain language." },
+              { ic: "★",   he: false, t: "Progress tracking",          d: "Bookmark, mark complete, and resume exactly where you left off - stored on your device." },
+            ].map(f => (
+              <div className="lf-item" key={f.t}>
+                <span className={"lf-icon" + (f.he ? " lf-icon--he" : "")} aria-hidden="true">{f.ic}</span>
+                <div className="lf-text">
+                  <strong>{f.t}</strong>
+                  <p>{f.d}</p>
+                </div>
               </div>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">א</span>
-              <div className="lf-text">
-                <strong>Interlinear Hebrew-English</strong>
-                <p>Full nekudot with Sefaria-sourced English. Toggle vowel marks anytime.</p>
-              </div>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">↯</span>
-              <div className="lf-text">
-                <strong>Argument flow</strong>
-                <p>Question, proof, objection, resolution - mapped for every sugya.</p>
-              </div>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon lf-icon--he" aria-hidden="true">רש"י</span>
-              <div className="lf-text">
-                <strong>Rashi commentary</strong>
-                <p>All Rashi lines with Vilna references and English helper translations.</p>
-              </div>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">מ</span>
-              <div className="lf-text">
-                <strong>Glossary per daf</strong>
-                <p>Aramaic and Hebrew key terms defined in context, with transliterations.</p>
-              </div>
-            </div>
-            <div className="lf-item">
-              <span className="lf-icon" aria-hidden="true">★</span>
-              <div className="lf-text">
-                <strong>Progress tracking</strong>
-                <p>Bookmark daf, mark complete, resume exactly where you left off - stored locally.</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
