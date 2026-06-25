@@ -2,7 +2,7 @@
 
 A React-based web application for studying the Talmud with rich enrichment, literal translations, and Vilna edition reference markers.
 
-**Current Version:** 12.27  
+**Current Version:** 13.00  
 **Status:** Production-ready app shell with frozen Yoma corpus
 
 ---
@@ -10,6 +10,7 @@ A React-based web application for studying the Talmud with rich enrichment, lite
 ## Quick Start
 
 ### Prerequisites
+
 - Node.js 20+ recommended
 - npm
 - Python 3.6+ for validation scripts and local static serving
@@ -44,6 +45,7 @@ npm run serve
 ### Build for Production
 
 ```bash
+python3 scripts/sync_version.py
 npm run build
 npm run check:deploy-html
 ```
@@ -54,118 +56,118 @@ Production output is written to `dist/`. Deploy `dist/` as the web root. Do not 
 
 ## Project Structure
 
-```
+```text
 MySugya/
-├── index.html              Development app shell
-├── app.jsx                 React app, multi-module support
-├── manifest.js             Module registry
-├── package.json            Scripts and dependencies
-├── package-lock.json       Locked npm dependency graph
-├── VERSION                 Version file, auto-synced
-├── styles.css              Universal styles
-├── tweaks-panel.jsx        Settings UI, generic
-├── daf.html                Legacy redirect shim
-├── favicon.svg             App icon
-│
-├── dist/                   Production build output, generated and ignored
-│
-├── scripts/
-│   ├── build.mjs                 Production esbuild pipeline
-│   ├── build-entry.jsx           Build entry ordering
-│   ├── check-deploy-html.mjs     Deploy HTML safety check
-│   ├── sync_version.py           Pre-commit version sync
-│   └── build/react-shim.js       React injection for esbuild
-│
-├── modules/
-│   └── yoma/                     Yoma module, 173 daf, frozen corpus
-│       ├── learning_data.js      Runtime data, generated, canonical
-│       ├── source_store.js       Retired transitional source store
-│       ├── assets/               Frozen enrichment and layout data
-│       └── scripts/              Build and validation tools
-│
-├── tests/
-│   ├── smoke/render_check.py       Production build smoke test
-│   └── browser/yoma-smoke.spec.js  Playwright browser smoke test
-│
-├── githooks/
-│   └── pre-commit               Auto-runs version sync and smoke tests
-│
-├── shared/
-│   └── schema_map.js            Data schema contract
-│
-└── docs/
-    └── vilna-breaks.md          Vilna edition reference
+  index.html                    Development app shell
+  app.jsx                       React app, multi-module support
+  manifest.js                   Module registry
+  package.json                  Scripts and dependencies
+  package-lock.json             Locked npm dependency graph
+  VERSION                       Canonical repository version
+  styles.css                    Universal styles
+  tweaks-panel.jsx              Settings UI, generic
+  daf.html                      Legacy redirect shim
+  favicon.svg                   App icon
+  dist/                         Production build output, generated and ignored
+  .github/workflows/
+    deploy-pages.yml            Build, verify, test, and deploy dist to Pages
+  scripts/
+    build.mjs                   Production esbuild pipeline
+    build-entry.jsx             Build entry ordering
+    check-deploy-html.mjs       Deploy HTML safety check
+    patch-dist-version.mjs      Temporary deploy artifact version patcher
+    sync_version.py             Version sync from VERSION
+    build/react-shim.js         React injection for esbuild
+  modules/
+    yoma/                       Yoma module, 173 daf, frozen corpus
+      learning_data.js          Runtime data, generated, canonical data payload
+      source_store.js           Retired transitional source store
+      assets/                   Frozen enrichment and layout data
+      scripts/                  Build and validation tools
+  tests/
+    smoke/render_check.py       Production build smoke test
+    browser/yoma-smoke.spec.js  Playwright browser smoke test
+  githooks/
+    pre-commit                  Version sync plus smoke tests
+  shared/
+    schema_map.js               Data schema contract
+  docs/
+    vilna-breaks.md             Vilna edition reference
 ```
 
 ---
 
 ## Modules
 
-### Yoma (יוֹמאָ)
+### Yoma
+
 - **Corpus Status:** Frozen baseline, do not modify learning content without explicit approval
-- **Current App/Data Version:** 12.27
-- **Daf Range:** 2a-88a (173 daf)
+- **Current App Version:** 13.00
+- **Daf Range:** 2a-88a, 173 daf
 - **Sugyot:** 492
 - **Chapters:** 8
-- **Access:** `?module=yoma` (default)
+- **Access:** `?module=yoma`, default module
 
-**Do Not Modify by hand:**
-- `learning_data.js` - generated runtime data
-- `source_store.js` - retired transitional source store
-- `assets/` - frozen enrichment and layout data
+Do not hand-edit these files unless explicitly approved:
 
-### Adding a New Masechta
-
-See **Part B** of [CLAUDE.md](CLAUDE.md) for the complete 14-step pipeline.
+- `learning_data.js`, generated runtime data
+- `source_store.js`, retired transitional source store
+- `assets/`, frozen enrichment and layout data
 
 ---
 
 ## Development Workflow
 
 ### Universal Rules
-1. Commit to `main` unless the active repository policy changes.
-2. Version on every commit that changes runtime/data behavior - edit `DATA_VERSION` in the active module's `learning_data.js`.
-3. Pre-commit hook auto-syncs version to `VERSION`, `package.json`, `index.html`, and `manifest.js`.
-4. Run smoke tests before pushing.
-5. No em/en dashes in project-authored output and commits - use plain hyphen (`-`).
 
-### Git Setup
+1. Commit to `main` unless the active repository policy changes.
+2. Keep `VERSION` as the canonical repository version.
+3. Run `python3 scripts/sync_version.py` after changing `VERSION`.
+4. Run smoke tests before pushing.
+5. No em dashes or en dashes in project-authored output and commits. Use plain hyphen.
+
+### Version Sync
+
+The canonical version is:
+
+```text
+VERSION
+```
+
+Current value:
+
+```text
+13.00
+```
+
+Run:
 
 ```bash
-# On fresh clone, activate hooks
-git config core.hooksPath githooks
-
-# Verify configuration
-git config core.hooksPath
-# Output: githooks
+python3 scripts/sync_version.py
 ```
 
-### Bumping Version
+The sync script updates:
 
-The version is centralized in one place:
-
-```javascript
-// modules/yoma/learning_data.js
-const DATA_VERSION = "12.27";  // Change here when bumping
-```
-
-The pre-commit hook automatically syncs to:
+- `modules/yoma/learning_data.js` `DATA_VERSION`
 - `VERSION`
 - `package.json`
+- `package-lock.json`
 - `index.html` cache busters
-- `manifest.js`
+- `manifest.js` `dataVersion`
+
+The deploy workflow currently also runs `scripts/patch-dist-version.mjs` after build. That script reads `VERSION` and patches the copied `dist/modules/yoma/learning_data.js` file. It is a temporary safety step until the workflow can be simplified.
 
 ---
 
 ## Validation and Testing
 
-### Production Smoke Tests
+### Production Smoke Test
 
 ```bash
 npm test
 ```
 
-This builds `dist/`, serves it locally, verifies the versioned production bundle, checks that built HTML does not contain development-only Babel or React loaders, checks the legacy redirect, and checks responsive CSS guardrails.
+This builds `dist/`, serves it locally, verifies the production bundle, checks that built HTML does not contain development-only Babel or React loaders, checks the legacy redirect, and checks responsive CSS guardrails.
 
 ### Browser Smoke Test
 
@@ -185,29 +187,16 @@ Run this after `npm run build`. It fails if `dist/index.html` contains developme
 
 ### Yoma Module Validation
 
-Complete validation suite:
-
 ```bash
-# Sefaria text validation
 npm run validate:yoma
-
-# English alignment to Hebrew
 npm run validate:en:yoma
-
-# Vilna daftext sources
 npm run validate:daftext:yoma
-
-# Rashi layer integrity
 npm run validate:rashi:yoma
-
-# Vilna sequence, no inversions
 npm run audit:order:yoma
-
-# Literal translation coverage
 npm run validate:literal:yoma
 ```
 
-Or run from module directory:
+Or run from the module directory:
 
 ```bash
 cd modules/yoma
@@ -221,42 +210,9 @@ python3 scripts/validate_literal.py
 
 ---
 
-## Literal Translation Pipeline (Yoma)
-
-Extract and inject literal translations from William Davidson Edition:
-
-```bash
-# Fetch literal text from Sefaria, all daf
-npm run fetch:literal:yoma
-
-# Inject into learning_data.js
-npm run build:literal:yoma
-
-# Validate coverage, default threshold from validator
-npm run validate:literal:yoma
-
-# Show progress without exiting non-zero
-npm run status:literal:yoma
-```
-
-### Parallel Fetching
-
-For faster literal translation fetches, split daf ranges across agents:
-
-```bash
-cd modules/yoma
-python3 scripts/fetch_literal_en.py --range 2a 30b --skip-existing
-python3 scripts/fetch_literal_en.py --range 31a 60b --skip-existing
-# ... etc
-```
-
-See [CLAUDE.md](CLAUDE.md) for full parallel agent instructions.
-
----
-
 ## Deployment
 
-The live site must serve generated `dist/`, not the source repository root. The root `index.html` is kept as a development shell and intentionally references Babel and React development scripts; `npm run build` rewrites the production HTML in `dist/index.html` to use the bundled app asset.
+The live site must serve generated `dist/`, not the source repository root. The root `index.html` is kept as a development shell and intentionally references Babel and React development scripts. `npm run build` rewrites the production HTML in `dist/index.html` to use the bundled app asset.
 
 ### GitHub Pages
 
@@ -265,10 +221,11 @@ This repository includes a GitHub Actions workflow at `.github/workflows/deploy-
 1. Runs `npm ci`.
 2. Installs Playwright Chromium.
 3. Runs `npm run build`.
-4. Runs `npm run check:deploy-html`.
-5. Runs `npm test`.
-6. Runs `npm run test:browser`.
-7. On pushes to `main`, uploads and deploys only `dist/` to GitHub Pages.
+4. Runs the dist data-version patcher.
+5. Runs `npm run check:deploy-html`.
+6. Runs `npm test`.
+7. Runs `npm run test:browser`.
+8. On pushes to `main`, uploads and deploys only `dist/` to GitHub Pages.
 
 ### Manual Hosting
 
@@ -276,7 +233,9 @@ For any other static host, build locally or in CI and configure the host's publi
 
 ```bash
 npm ci
+python3 scripts/sync_version.py
 npm run build
+node scripts/patch-dist-version.mjs
 npm run check:deploy-html
 ```
 
@@ -284,22 +243,24 @@ If a hosting provider can only serve from the repository root, do not point it a
 
 ---
 
-## Source Attribution
+## Literal Translation Pipeline
 
-### Talmud Text
-- **Hebrew:** Vilna edition (Romm, 1880-1886) via Sefaria
-- **English:** William Davidson Talmud (Koren) via Sefaria
-- **Vilna Layout:** talmud.dev
+Extract and inject literal translations from William Davidson Edition:
 
-All `he:` and `en:` fields are copied verbatim from Sefaria's API. No modifications.
+```bash
+npm run fetch:literal:yoma
+npm run build:literal:yoma
+npm run validate:literal:yoma
+npm run status:literal:yoma
+```
 
-### Technologies
-- **Development shell:** React and ReactDOM development UMD plus Babel standalone from CDN
-- **Production build:** esbuild bundles npm `react`, npm `react-dom`, `tweaks-panel.jsx`, and `app.jsx` into `dist/assets/app-<version>.js`
-- **Local server:** Python HTTP server from the standard library
-- **Browser tests:** Playwright Chromium
+For faster literal translation fetches, split daf ranges across agents:
 
-See [SOURCES.md](SOURCES.md) for full attribution.
+```bash
+cd modules/yoma
+python3 scripts/fetch_literal_en.py --range 2a 30b --skip-existing
+python3 scripts/fetch_literal_en.py --range 31a 60b --skip-existing
+```
 
 ---
 
@@ -307,21 +268,11 @@ See [SOURCES.md](SOURCES.md) for full attribution.
 
 ### Add a Single Sugya
 
-The Yoma corpus is frozen. Only modify Yoma learning assets with explicit approval. If approved, edit `modules/yoma/assets/learning/yoma/<daf>.learning.json`, rebuild, validate, and bump version:
-
-```bash
-npm run build:literal:yoma
-npm run validate:yoma
-git add -A && git commit -m "Update 2a sugya"
-```
+The Yoma corpus is frozen. Only modify Yoma learning assets with explicit approval. If approved, edit `modules/yoma/assets/learning/yoma/<daf>.learning.json`, rebuild, validate, sync version, and commit.
 
 ### Deploy to Production
 
-Push to `main`. GitHub Actions will build, test, verify deploy HTML, and deploy `dist/` to GitHub Pages.
-
-```bash
-git push origin main
-```
+Push to `main`. GitHub Actions will build, test, verify deploy HTML, and deploy `dist/` to GitHub Pages if Actions are enabled for the repository.
 
 ### Check Current Status
 
@@ -332,35 +283,35 @@ npm test
 npm run test:browser
 ```
 
-### Run a Specific Daf Check
-
-Single Sefaria validation:
-
-```bash
-curl -s "https://www.sefaria.org/api/texts/Yoma.2a?context=0" | python3 -c "import sys, json; data = json.load(sys.stdin); print(f'he fields: {len(data[\"he\"])}, en fields: {len(data[\"text\"])}')"
-```
-
 ---
 
 ## Documentation
 
-- **[CLAUDE.md](CLAUDE.md)** - Complete maintainer guide, universal rules, module system
-- **[SOURCES.md](SOURCES.md)** - Source attribution and technology stack
-- **[docs/vilna-breaks.md](docs/vilna-breaks.md)** - Vilna edition line reference
-- **[modules/yoma/MODULE.md](modules/yoma/MODULE.md)** - Yoma-specific freeze status and validators
+- **CLAUDE.md** - Complete maintainer guide, universal rules, module system
+- **SOURCES.md** - Source attribution and technology stack
+- **docs/vilna-breaks.md** - Vilna edition line reference
+- **modules/yoma/MODULE.md** - Yoma-specific freeze status and validators
 
 ---
 
-## Contributing
+## Source Attribution
 
-1. Ensure `git config core.hooksPath githooks` is set.
-2. Make changes.
-3. Run relevant tests and validators.
-4. Bump version in `modules/yoma/learning_data.js` when runtime or data behavior changes.
-5. Commit with a clear message.
-6. Push to `main`.
+### Talmud Text
 
-The pre-commit hook will auto-sync the version and run smoke tests for relevant UI/data changes.
+- **Hebrew:** Vilna edition, Romm, 1880-1886, via Sefaria
+- **English:** William Davidson Talmud, Koren, via Sefaria
+- **Vilna Layout:** talmud.dev
+
+All `he:` and `en:` fields are copied verbatim from Sefaria's API. No modifications.
+
+### Technologies
+
+- **Development shell:** React and ReactDOM development UMD plus Babel standalone from CDN
+- **Production build:** esbuild bundles npm `react`, npm `react-dom`, `tweaks-panel.jsx`, and `app.jsx` into `dist/assets/app-<version>.js`
+- **Local server:** Python HTTP server from the standard library
+- **Browser tests:** Playwright Chromium
+
+See `SOURCES.md` for full attribution.
 
 ---
 
@@ -370,14 +321,13 @@ The pre-commit hook will auto-sync the version and run smoke tests for relevant 
 
 ```bash
 git config core.hooksPath githooks
-ls -la githooks/pre-commit  # Should be executable
+ls -la githooks/pre-commit
 ```
 
 ### Version mismatch?
 
-The pre-commit hook auto-syncs. If manual changes are needed:
-
 ```bash
+cat VERSION
 python3 scripts/sync_version.py
 ```
 
@@ -405,17 +355,13 @@ python3 scripts/validate_sefaria.py
 
 ## License and Attribution
 
-The Babylonian Talmud (public domain), Vilna edition (public domain), Rashi commentary (public domain), and William Davidson English translation (© Koren Publishers, used via Sefaria's non-commercial educational API) are reproduced here for educational use.
+The Babylonian Talmud, Vilna edition, and Rashi commentary are public domain. The William Davidson English translation is by Koren Publishers and is used via Sefaria's non-commercial educational API for educational use.
 
-See [SOURCES.md](SOURCES.md) for complete attribution.
+See `SOURCES.md` for complete attribution.
 
 ---
 
 ## Version History
 
-- **12.27** - Current
+- **13.00** - Current
 - See git log for detailed change history
-
----
-
-**Questions?** See [CLAUDE.md](CLAUDE.md) or check the repository issue tracker.
