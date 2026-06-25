@@ -8,6 +8,15 @@
   <meta name="description" content="Understand the sugya. A Talmud study companion."/>
   <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
   <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .app-footer > span:first-child {
+      font-size: 0;
+    }
+    .app-footer > span:first-child::after {
+      content: "Version 13.1";
+      font-size: 0.85rem;
+    }
+  </style>
   <script>(function(){
     var t=null;try{t=JSON.parse(localStorage.getItem('mysugya:tweaks'));}catch(e){}
     if(!t){try{t=JSON.parse(localStorage.getItem('yoma:tweaks'));}catch(e){}}
