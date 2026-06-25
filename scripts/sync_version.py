@@ -1,26 +1,42 @@
 #!/usr/bin/env python3
-"""Read DATA_VERSION from modules/yoma/learning_data.js and sync it to VERSION, package.json, index.html, and manifest.js."""
-import re, json, sys
+"""Sync the repository version from VERSION to generated and package metadata."""
+import json
+import re
+import sys
 from pathlib import Path
 
 root = Path(__file__).parent.parent
+version_path = root / "VERSION"
+ver = version_path.read_text().strip()
 
-# Read DATA_VERSION from the active module's learning_data.js
-data_js = (root / "modules" / "yoma" / "learning_data.js").read_text()
-m = re.search(r'const DATA_VERSION\s*=\s*"([^"]+)"', data_js)
-if not m:
+if not re.fullmatch(r"[0-9]+\.[0-9]+", ver):
+    print(f"ERROR: invalid VERSION value: {ver!r}", file=sys.stderr)
+    sys.exit(1)
+
+# Yoma runtime data. This is generated, but DATA_VERSION is intentionally synced here
+# so the app footer and deployed data version stay aligned with VERSION.
+data_path = root / "modules" / "yoma" / "learning_data.js"
+data = data_path.read_text()
+data_next = re.sub(r'const DATA_VERSION\s*=\s*"[^"]+"', f'const DATA_VERSION = "{ver}"', data, count=1)
+if data_next == data:
     print("ERROR: DATA_VERSION not found in modules/yoma/learning_data.js", file=sys.stderr)
     sys.exit(1)
-ver = m.group(1)
-
-# VERSION file
-(root / "VERSION").write_text(ver + "\n")
+data_path.write_text(data_next)
 
 # package.json
 pkg_path = root / "package.json"
 pkg = json.loads(pkg_path.read_text())
 pkg["version"] = ver
 pkg_path.write_text(json.dumps(pkg, indent=2) + "\n")
+
+# package-lock.json
+lock_path = root / "package-lock.json"
+if lock_path.exists():
+    lock = json.loads(lock_path.read_text())
+    lock["version"] = ver
+    if isinstance(lock.get("packages"), dict) and "" in lock["packages"]:
+        lock["packages"][""]["version"] = ver
+    lock_path.write_text(json.dumps(lock, indent=2) + "\n")
 
 # index.html cache busters
 html_path = root / "index.html"
