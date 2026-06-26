@@ -66,6 +66,8 @@ function Logo({ className }) {
     <svg
       className={className || "brand-logo"}
       viewBox="0 0 64 64"
+      width="28"
+      height="28"
       fill="none"
       stroke="currentColor"
       strokeLinecap="round"
