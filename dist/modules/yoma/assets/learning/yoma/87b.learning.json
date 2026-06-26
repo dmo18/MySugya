@@ -1,0 +1,1020 @@
+{
+  "canonicalRef": "Yoma 87b",
+  "summary": "Tractate Yoma daf 87b covers: Rav went to appease R. Hiyya; R. Hiyya refused; the appeasement story; Main mitzva of vidui (confession) is on Yom Kippur; also recited at Minha in case something happens; Closing of tractate Yoma: Hadran formula; reference to Tu BeAv and Yom Kippur as the best days.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-087b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 10
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.87b.1"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.87b.2"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.87b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87b.1",
+        "Yoma.87b.2",
+        "Yoma.87b.3"
+      ],
+      "display": {
+        "whats": "Rav went to appease R. Hiyya; R. Hiyya refused; the appeasement story",
+        "hint": "The Gemara tells the story of Rav going to R. Hiyya (his uncle) to seek appeasement after having offended him. R. Hiyya repeatedly refused to be appeased, and Rav ultimately left. The story illustrate..."
+      },
+      "learning": {
+        "summary": "The Gemara tells the story of Rav going to R. Hiyya (his uncle) to seek appeasement after having offended him. R. Hiyya repeatedly refused to be appeased, and Rav ultimately left. The story illustrates both the obligation to seek appeasement and the complexity of human forgiveness.",
+        "ahaMoment": "R. Hiyya refusing appeasement: the obligation to ask is on the wrongdoer; the obligation to accept is a separate matter, and not everyone fulfills it. Rav did his part and left.",
+        "memoryAnchor": "Rav and R. Hiyya: asking three times and then leaving - the wrongdoer's obligation has a limit.",
+        "openQuestion": "What is the deeper significance of the ruling about rav went to appease r. hiyya; r. hiyya refused; the appeasem?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Rav restarts the reading; Rabbi Chanina is slighted",
+          "speaker": "Gemara",
+          "text": "As Rav read before Rabbi, he restarted the portion each time a senior arrived - for Rabbi Chiyya, bar Kappara, and Rabbi Shimon son of Rabbi. When Rabbi Chanina bar Chama then arrived, Rav thought 'shall I keep going back?' and continued without restarting. Rabbi Chanina was offended at being ranked below the others, and Rav went to appease him every Yom Kippur eve for thirteen years, but he would not relent.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "challenge",
+          "label": "Two objections from the rules of appeasement",
+          "speaker": "Gemara",
+          "text": "The Gemara objects two ways. How could Rav ask more than the three times Rabbi Yosei bar Chanina prescribed? Answer: Rav was exceptionally pious and went beyond the letter of the law. And how could Rabbi Chanina refuse, when Rava taught that whoever forgoes his honor and forgives has all his sins pardoned?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Rabbi Chanina's hidden motive",
+          "speaker": "Gemara",
+          "text": "The resolution: Rabbi Chanina had dreamt Rav was hanged on a palm tree, a tradition signaling Rav would become head of a yeshiva. Knowing two reigns cannot overlap, he deliberately withheld forgiveness so Rav would leave for Babylonia and head a yeshiva there - fulfilling the dream without costing Rabbi Chanina his own position.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l10",
+              "vilnaLine": 10
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Rav",
+        "R. Hiyya",
+        "appeasement",
+        "forgiveness",
+        "three attempts"
+      ],
+      "concepts": {
+        "halachic": [
+          "Rav",
+          "R. Hiyya"
+        ],
+        "theological": [
+          "R. Hiyya refusing appeasement: the obligation to ask is on the wrongdoer; the ob"
+        ],
+        "narrative": [
+          "Rav went to appease R. Hiyya; R. Hiyya refused; the appeasem"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Rav context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Rabbi Chanina simply held a grudge and violated the duty to forgive.",
+          "correction": "His refusal was strategic and providential: he foresaw Rav's destined leadership and withheld forgiveness so Rav would relocate to Babylonia to head a yeshiva there, not out of mere resentment.",
+          "correctedByStepId": "step-03"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Rav went to appease R. Hiyya; R. Hiyya refused; th"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why did Rav appease Rabbi Chanina for thirteen years when the rule is to ask only three times?",
+          "a": "Because Rav was exceptionally pious and acted beyond the letter of the law (lifnim mishurat hadin). The three-time limit is a floor of obligation, not a ceiling on devotion."
+        },
+        {
+          "q": "What was Rabbi Chanina's real reason for never forgiving Rav?",
+          "a": "He had dreamt Rav would head a yeshiva, and knowing two reigns cannot overlap, he withheld forgiveness so Rav would go to Babylonia and lead a yeshiva there - fulfilling the dream without Rabbi Chanina losing his own position."
+        }
+      ],
+      "finalRuling": "The Gemara tells the story of Rav going to R. Hiyya (his uncle) to seek appeasement after having offended him. R. Hiyya repeatedly refused to be appea",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-087b-s02",
+      "lineRange": {
+        "startVilnaLine": 15,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.87b.4"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.87b.5"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.87b.6"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.87b.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87b.4",
+        "Yoma.87b.5",
+        "Yoma.87b.6",
+        "Yoma.87b.7"
+      ],
+      "display": {
+        "whats": "Main mitzva of vidui (confession) is on Yom Kippur; also recited at Minha in case something happens",
+        "hint": "The primary performance of vidui (verbal confession) on Yom Kippur is at the Minha prayer. If a person recited vidui at Minha but dies before YK, they have fulfilled the mitzva. Vidui is also recited ..."
+      },
+      "learning": {
+        "summary": "The primary performance of vidui (verbal confession) on Yom Kippur is at the Minha prayer. If a person recited vidui at Minha but dies before YK, they have fulfilled the mitzva. Vidui is also recited throughout YK but Minha before YK is the primary slot.",
+        "ahaMoment": "Vidui at Minha: confession is prioritized before YK begins, while the person is still in full normal life, so that if something happens on YK itself, the mitzva was already fulfilled.",
+        "memoryAnchor": "Vidui at Minha: the primary moment is before YK starts, not during it.",
+        "openQuestion": "What is the deeper significance of the ruling about main mitzva of vidui (confession) is on yom kippur; also rec?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "The timing of Yom Kippur confession",
+          "speaker": "Baraita",
+          "text": "The Sages taught: the core confession is at nightfall as Yom Kippur begins. But the Sages added one should also confess before the pre-fast meal, lest the food and drink confuse him afterward. And though he confessed before eating, he confesses again after, in case he sinned during the meal. And he confesses at each prayer - evening, morning, musaf, mincha, and ne'ila - layering confession through the day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l15",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "analysis",
+          "label": "Where in the prayer, and what text",
+          "speaker": "Gemara / Amoraim",
+          "text": "An individual says the confession after his Amida; the prayer leader says it within the Amida. As for the text: Rav opens 'You know the mysteries of the universe'; Shmuel, 'From the depths of the heart'; Levi, 'And in Your Torah it is written'; Rabbi Yochanan, 'Master of the Universe' - a range of received openings.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "Rav Hamnuna's confession",
+          "speaker": "R. Yehuda / Rav Hamnuna",
+          "text": "Rabbi Yehuda's text: 'our iniquities are too many to count, our sins too great to number.' Rav Hamnuna's: 'My God, before I was formed I was unworthy... I am dust in life, all the more so in death... a vessel full of shame... may I sin no more, and erase my sins in Your compassion, not through suffering.' This was Rava's confession all year and Rav Hamnuna Zuta's on Yom Kippur.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l26",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "The essential phrase: 'aval anachnu chatanu'",
+          "speaker": "Mar Zutra",
+          "text": "Mar Zutra: all these texts are needed only if one did not say 'but we have sinned (aval anachnu chatanu)' - that phrase is the essence of the confession and suffices on its own. Bar Hamdudei testified that Shmuel stood when the leader reached those words, marking them as the heart of the vidui.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l35",
+              "vilnaLine": 35
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "vidui",
+        "confession",
+        "YK mitzva",
+        "Minha",
+        "timing"
+      ],
+      "concepts": {
+        "halachic": [
+          "vidui",
+          "confession"
+        ],
+        "theological": [
+          "Vidui at Minha: confession is prioritized before YK begins, while the person is "
+        ],
+        "narrative": [
+          "Main mitzva of vidui (confession) is on Yom Kippur; also rec"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of vidui context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "One only confesses once on Yom Kippur, at the start of the fast.",
+          "correction": "The confession is layered: before and after the pre-fast meal, and at every one of the day's prayers - evening, morning, musaf, mincha, and ne'ila - to cover sins committed at each stage.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Main mitzva of vidui (confession) is on Yom Kippur"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why did the Sages add a confession before the pre-Yom-Kippur meal in addition to the one at nightfall?",
+          "a": "Lest the abundance of food and drink at the meal leave a person confused and unable to confess afterward. He confesses before the meal as a safeguard, then again after it in case he sinned during the meal."
+        },
+        {
+          "q": "According to Mar Zutra, what is the essential part of the confession?",
+          "a": "The phrase 'but we have sinned' (aval anachnu chatanu). The various longer texts are needed only if one did not say it; that phrase alone suffices, which is why Shmuel would stand when the leader reached it."
+        }
+      ],
+      "finalRuling": "The primary performance of vidui (verbal confession) on Yom Kippur is at the Minha prayer. If a person recited vidui at Minha but dies before YK, they",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-087b-s03",
+      "lineRange": {
+        "startVilnaLine": 41,
+        "endVilnaLine": 54
+      },
+      "lines": [
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.87b.8"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.87b.9"
+        },
+        {
+          "vilnaLine": 49,
+          "sefariaRef": "Yoma.87b.10"
+        },
+        {
+          "vilnaLine": 51,
+          "sefariaRef": "Yoma.87b.11"
+        },
+        {
+          "vilnaLine": 52,
+          "sefariaRef": "Yoma.87b.12"
+        },
+        {
+          "vilnaLine": 53,
+          "sefariaRef": "Yoma.87b.13"
+        },
+        {
+          "vilnaLine": 54,
+          "sefariaRef": "Yoma.87b.14"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.87b.8",
+        "Yoma.87b.9",
+        "Yoma.87b.10",
+        "Yoma.87b.11",
+        "Yoma.87b.12",
+        "Yoma.87b.13",
+        "Yoma.87b.14"
+      ],
+      "display": {
+        "whats": "Closing of tractate Yoma: Hadran formula; reference to Tu BeAv and Yom Kippur as the best days",
+        "hint": "The tractate closes with the Hadran formula (a declaration of return to the tractate) and with the famous statement that the most joyful days for Israel are Tu BeAv and Yom Kippur."
+      },
+      "learning": {
+        "summary": "The tractate closes with the Hadran formula (a declaration of return to the tractate) and with the famous statement that the most joyful days for Israel are Tu BeAv and Yom Kippur.",
+        "ahaMoment": "YK as a day of joy: the tractate ends with YK called one of the most joyful days - the discipline of affliction is actually a path to spiritual joy.",
+        "memoryAnchor": "YK as joy: the tractate ends not with solemnity but with YK called the most joyful day.",
+        "openQuestion": "What is the deeper significance of the ruling about closing of tractate yoma: hadran formula; reference to tu be?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "When the priestly blessing is said four times a day",
+          "speaker": "Mishnah (Ta'anit)",
+          "text": "A Mishnah in Ta'anit: three times a year the priests bless four times in one day - shacharit, musaf, mincha, and ne'ila. These three occasions are communal fasts for rain (which have ne'ila), non-priestly watches (ma'amadot), and Yom Kippur. This introduces ne'ila as a distinct prayer.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "question",
+          "label": "Is ne'ila a full Amida or just a confession?",
+          "speaker": "Rav / Shmuel",
+          "text": "What is ne'ila? Rav: an added (full) Amida prayer. Shmuel: not a full prayer, only a confession beginning 'what are we, what are our lives?' A baraita listing seven blessings 'and confesses' at ne'ila supports Rav that it is a full Amida.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l45",
+              "vilnaLine": 45
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "analysis",
+          "label": "The dispute refined; Shmuel refuted",
+          "speaker": "Gemara",
+          "text": "The Gemara recasts it: all agree ne'ila is a full prayer; the tannaitic dispute is only whether one must confess at ne'ila (Rabbi Meir requires ending with confession; the Rabbis make it optional). Since all hold ne'ila is a complete prayer, Shmuel's view that it is merely a confession is conclusively refuted.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l49",
+              "vilnaLine": 49
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "case",
+          "label": "Ulla bar Rav leads ne'ila",
+          "speaker": "Gemara",
+          "text": "Ulla bar Rav led ne'ila before Rava, opening 'You have chosen us' and closing 'what are we, what are our lives?' - and Rava praised him. Rav Huna son of Rav Natan adds that an individual says the confession after his Amida, not within it as the leader does.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l51",
+              "vilnaLine": 51
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "case",
+          "label": "Rav: ne'ila exempts the evening prayer",
+          "speaker": "Rav",
+          "text": "Rav: reciting ne'ila exempts one from the evening (ma'ariv) prayer, since the added prayer is recited as darkness falls and serves as the evening prayer - consistent with Rav's view that ne'ila is an added Amida.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l52",
+              "vilnaLine": 52
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "challenge",
+          "label": "But Rav said ma'ariv is optional!",
+          "speaker": "Gemara",
+          "text": "Objection: didn't Rav rule that the evening prayer is optional? Then why say ne'ila 'exempts' it - one is exempt anyway? Answer: Rav's statement here follows the opinion that ma'ariv is mandatory; even on that view, ne'ila fulfills the evening obligation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l53",
+              "vilnaLine": 53
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "challenge",
+          "label": "A baraita adds an abridged evening Amida",
+          "speaker": "Gemara",
+          "text": "A further baraita is raised: after Yom Kippur one prays the seven blessings of each service and confesses, and then an abridged eighteen-blessing evening Amida - implying ne'ila does NOT exempt ma'ariv. Rabbi Chanina ben Gamliel in his ancestors' name says one prays the full eighteen as usual, the discussion continuing on 88a regarding havdala.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-087b-l54",
+              "vilnaLine": 54
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Hadran",
+        "Tu BeAv",
+        "YK joy",
+        "closing formula",
+        "tractate end"
+      ],
+      "concepts": {
+        "halachic": [
+          "Hadran",
+          "Tu BeAv"
+        ],
+        "theological": [
+          "YK as a day of joy: the tractate ends with YK called one of the most joyful days"
+        ],
+        "narrative": [
+          "Closing of tractate Yoma: Hadran formula; reference to Tu Be"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Hadran context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Ne'ila is essentially just the closing confession of Yom Kippur.",
+          "correction": "That was Shmuel's view, but it is conclusively refuted. All the tannaim treat ne'ila as a full seven-blessing Amida; they dispute only whether a confession must be appended to it.",
+          "correctedByStepId": "step-03"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Closing of tractate Yoma: Hadran formula; referenc"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is the dispute between Rav and Shmuel about the nature of ne'ila, and how is it resolved?",
+          "a": "Rav holds ne'ila is a full added Amida; Shmuel holds it is only a confession ('what are we, what are our lives?'). Shmuel is conclusively refuted: all the tannaim treat ne'ila as a complete prayer, disputing only whether confession at ne'ila is required."
+        },
+        {
+          "q": "How does Rav reconcile saying ne'ila 'exempts' the evening prayer with his view that ma'ariv is optional?",
+          "a": "His statement that ne'ila exempts ma'ariv is made according to the opinion that the evening prayer is mandatory. Even on that view, reciting ne'ila as darkness falls fulfills the evening obligation."
+        }
+      ],
+      "finalRuling": "The tractate closes with the Hadran formula (a declaration of return to the tractate) and with the famous statement that the most joyful days for Isra",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אתא ר' חייא. וגם הוא היה חפץ לפסוק עמו וחזר בשבילו לראש",
+      "en": "Rashi: the story of Rav and R. Hiyya - the wrongdoer must attempt appeasement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "הפרשה: רב שאני. מחמיר היה לעצמו: חלמא חזא ליה לרב. ראה",
+      "en": "Rashi: the primary time for vidui (confession) is the Minha prayer before YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "חלום על רב שתלאוהו בדקל והוא סימן נשיאות ראש וגדולה ור'",
+      "en": "Rashi: the Hadran formula declaring commitment to return to the tractate.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "חנינא ראש ישיבה היה כדאמר רבי (כתובות דף קג:) בשעת פטירתו",
+      "en": "Rashi: Tu BeAv and Yom Kippur as the most joyful days for the Jewish people.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "חנינא בר חמא ישב בראש וכשראה",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "חלום זה על רב דאג למות לפי שאין",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "מלכות נוגעת בחברתה אמר אדחייה",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "מהכא ויברח לבבל מפני ושם יהיה",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "ראש ולא נדחין למות בשבילו: עם",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "חשיכה. לאחר אכילה משקיבל עליו",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "יוה\"כ: שמא תטרף דעתו. מחמת",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "שכרות: דבר קלקלה. של חטא:",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "ממעמקי הלב. תפלה היא: בתורתך",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "כתוב. כי ביום הזה יכפר: רבון",
+      "en": "Rashi explains the opening discussion of this topic on 87b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "העולמים. כי לא על צדקותינו וכו':",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "בתענית. של גשמים: ובמעמדות.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "ארבעה ימים בכל שבת שאנשי משמר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "ישראל מתכנסין בעריהן ומחענין",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "וקורין במעשה בראשית כדאמרינן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "במס' תענית (דף כו.) והתם מקשינן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "ותעניות ומעמדות מי אית בהו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "מוסף ומשנינן הכי קאמר כהנים",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "נושאין את כפיהן כל זמן שמתפללין",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "ואפי' במנחה לפי ששלשה פרקים הללו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "תעניות הם ואין שכרות במנחה אבל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "שאר ימות השנה אין נשיאות כפים",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "במנחה ויש מהן ארבע פעמים",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "ביום: צלותא יתירתא. מתפלל שבע",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "כשאר התפלות: ושמואל אמר מה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "אנו ומה חיינו. אומר ואינו מתפלל:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "אור יום הכפורים. ליל יום הכפורים:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "וחותם בוידוי. גרס בתוספתא אינו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "חותם מקדש ישראל אלא האל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "הסולחן וחכמים אומרים כל מקום",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "שזקוק לשבע אף בשאר התפלות אם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "רצה לחתום בוידוי חותם כך שמעתי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "אבל לא גרס לה בתוספתא הכי אלא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "וחכמים אומרים מתפלל שבע ואם",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "רצה לחתום בוידוי חותם ואנעילה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "קיימי קתני מיהת נעילה מתפלל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "שבע ומתודה תיובתא דשמואל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "תיובתא: נחית קמיה דרבא. בנעילה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "ולשון נעילה פליגי אמוראי בברכו'",
+      "en": "Rashi notes that the Amoraim in the Yerushalmi (tractate Berakhot) dispute the meaning of 'ne'ila' - what exactly is being 'locked' or closed in this final prayer.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "ירושלמי חד אמר נעילת שערי שמים",
+      "en": "Rashi: one opinion in the Yerushalmi says 'ne'ila' refers to the locking of the gates of Heaven - the prayer is timed as the Heavenly gates close at the end of Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "וחד אמר נעילת שערי עזרה: וכיון",
+      "en": "Rashi: the other opinion says 'ne'ila' refers to the locking of the Temple courtyard gates (sha'arei azarah) at dusk. He then transitions to: 'once he prayed' (ne'ila) - after ne'ila is recited, the evening prayer is no longer needed.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "דצלי. משחשיכה תו לא צריך: והא",
+      "en": "Rashi: once ne'ila has been prayed and darkness has fallen, one no longer needs the evening prayer - ne'ila has discharged that obligation. Then the Gemara raises an objection from Rav's own statement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "אמר רב. במס' ברכות תפלת ערבית",
+      "en": "Rashi notes: Rav said in tractate Berakhot that the evening prayer (Arvit) is optional. What then does 'exempts' in our Mishnah mean?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "רשות ומאי פוטרת דקאמר: לדברי",
+      "en": "According to the one who says Arvit is obligatory - Neilah on Yom Kippur exempts it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "האומר חובה קאמר. דזו פוטרתה:",
+      "en": "That is what the Mishnah means by 'exempts' - this prayer exempts the evening obligation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "מיתיבי וכו'. קתני נעילה וקתני",
+      "en": "An objection is raised: the Mishnah lists Neilah separately and also lists Arvit separately.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "ערבית: שבע מעין שמונה עשרה.",
+      "en": "Rashi explains 'seven like eighteen': the three opening and three closing blessings recited in full form...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "ג' ראשונות וג' אחרונות כתיקנן",
+      "en": "...the three opening and three closing blessings as normally instituted,",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "ואומר הביננו באמצע שיש בה מעין",
+      "en": "...and one says Havinenu in the middle, which contains a condensed form of...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "שלש עשרה ברכות והיא תפלה קצרה",
+      "en": "...the thirteen middle blessings in abbreviated form - it is a short prayer...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "שתיקנו לעוברי דרכים ולמוצאי יוה\"כ",
+      "en": "...enacted for travelers and for those concluding Yom Kippur, who were permitted to use it due to the burden of the fast.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "התירו לצאת בה מפני הטורח:",
+      "en": "Rashi then opens the comment on the next ruling regarding this leniency.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "תנאי",
+      "en": "Rashi marks the opening of a tannaitic dispute regarding the above ruling.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

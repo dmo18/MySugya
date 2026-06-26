@@ -1,0 +1,909 @@
+{
+  "canonicalRef": "Yoma 70b",
+  "summary": "Service sequence after Torah reading: five immersions and ten sanctifications of the HP. Vestment changes between white linen and golden vestments. The kiyor used for all ten sanctifications.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-070b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 11
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.70b.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.70b.2"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.70b.3"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.70b.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.70b.1",
+        "Yoma.70b.2",
+        "Yoma.70b.3",
+        "Yoma.70b.4"
+      ],
+      "display": {
+        "whats": "The Mishnah's service sequence for the HP after the Torah reading: he went to the bull and goat, performed the day's service with the five immersions and ten sanctifications. The Gemara analyzes the order in detail.",
+        "hint": "Why did the HP need five immersions during the Yom Kippur service?"
+      },
+      "learning": {
+        "summary": "The Gemara continues analyzing the service sequence. After the Torah reading, the HP performed additional services: rams and sin-offering fats at the third immersion, afternoon tamid at the fifth. The Gemara justifies the sequence by showing it follows both Torat Kohanim (for the day's service) and the Numbers section (for mussaf), with the HP changing vestments five times and immersing after each change.",
+        "ahaMoment": "Five immersions and ten sanctifications correspond to five vestment changes: the HP alternated between white linen (inner service) and gold (outer service) five times during the day. Each change required immersion and sanctification of hands and feet.",
+        "memoryAnchor": "Five immersions, ten sanctifications - the HP changed clothes (and immersed) five times throughout Yom Kippur.",
+        "openQuestion": "Why does each vestment change require both immersion and sanctification of hands and feet?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-070b-l01",
+          "type": "ruling",
+          "label": "Ruling: Service order after Torah reading",
+          "speaker": "Mishnah",
+          "text": "After the Torah reading: rams (HP's ram and people's ram) and sin-offering fats at the third immersion; afternoon tamid at the fifth immersion.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l02",
+          "type": "ruling",
+          "label": "Ruling: Ladle and fire-pan removal between rams and mussafin",
+          "speaker": "Gemara",
+          "text": "The removal of the ladle and fire-pan from the Holy of Holies comes after the rams and sin-offering fats and before the mussafin - as derived from the passage sequence.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l02",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l03",
+          "type": "ruling",
+          "label": "Ruling: He performed as written - Torat Kohanim precedes Numbers",
+          "speaker": "Gemara",
+          "text": "The service follows scripture: Torat Kohanim (Lev.) is written first, so the day's service precedes the mussafin of Numbers.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l03",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l04",
+          "type": "ruling",
+          "label": "Ruling: External goat atones for same category as internal",
+          "speaker": "Gemara",
+          "text": "The external mussaf goat atones for the same category of sin as the internal Yom Kippur goat - sins with awareness at the end but not at the beginning, as derived in Shevuot.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l04",
+              "vilnaLine": 9
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "service-sequence",
+        "five-immersions",
+        "ten-sanctifications",
+        "mussaf"
+      ],
+      "concepts": {
+        "halachic": [
+          "five immersions and ten sanctifications of HP",
+          "service sequence from Lev. and Num.",
+          "external goat's atonement scope"
+        ],
+        "theological": [
+          "vestment changes as spiritual transitions",
+          "Torat Kohanim priority over Numbers"
+        ],
+        "narrative": [
+          "the HP's full day of service structured around immersions"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "HP's five immersions",
+        "Torat Kohanim vs Numbers sequence",
+        "ladle and fire-pan removal"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP only immersed once during the Yom Kippur service",
+          "correction": "The HP immersed five times and sanctified hands and feet ten times - at each vestment change between white linen (inner) and golden (outer) vestments.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "description": "Five immersions: (1) first service - white; (2) bull burning - gold; (3) rams + eimurim - white; (4) ladle and fire-pan - white; (5) afternoon tamid + mussafin - gold",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How many times did the HP immerse on Yom Kippur and why?",
+          "answer": "Five times - corresponding to five vestment changes between white linen vestments (for inner service) and golden vestments (for outer service). Each change required immersion and sanctification of hands and feet.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP immersed five times and sanctified ten times. Service follows Torat Kohanim sequence: day's service first, then rams and eimurim, then ladle and fire-pan, then mussafin and afternoon tamid.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-070b-s02",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 31
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.70b.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.70b.6"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.70b.7"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.70b.8"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.70b.9"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.70b.10"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.70b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.70b.5",
+        "Yoma.70b.6",
+        "Yoma.70b.7",
+        "Yoma.70b.8",
+        "Yoma.70b.9",
+        "Yoma.70b.10",
+        "Yoma.70b.11"
+      ],
+      "display": {
+        "whats": "The Gemara discusses the kiyor (laver): when the HP sanctified his hands and feet from the kiyor, he sat rather than stood. Discussion of the kiyor's use in the five sanctification sequences.",
+        "hint": "Why is the HP permitted to sit for sanctification from the kiyor when normally all Temple service must be done standing?"
+      },
+      "learning": {
+        "summary": "The Gemara addresses the kiyor (Temple laver) used for sanctification of hands and feet. When the HP sanctified from the kiyor on Yom Kippur, he sat on a golden stool next to it - because the kiyor was designed to be used while standing but the HP's status granted him special accommodation. The Gemara debates whether this sitting constitutes a violation of the 'standing to serve' principle.",
+        "ahaMoment": "The HP's sitting by the kiyor is not about comfort but about practical necessity: the kiyor was positioned at a height requiring a specific posture. The permission is carefully circumscribed.",
+        "memoryAnchor": "HP sat on golden stool by the kiyor - sanctification on Yom Kippur had its own special rules.",
+        "openQuestion": "Why was a golden stool provided for the HP at the kiyor rather than adjusting the kiyor's height?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-070b-l05",
+          "type": "ruling",
+          "label": "Ruling: HP used kiyor for all ten sanctifications",
+          "speaker": "Mishnah",
+          "text": "The HP sanctified hands and feet from the kiyor ten times - twice for each of the five immersions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l05",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l06",
+          "type": "ruling",
+          "label": "Ruling: Sat on golden stool for kiyor sanctification",
+          "speaker": "Gemara",
+          "text": "For the kiyor sanctification on Yom Kippur, the HP sat on a golden stool - a special accommodation for the HP's repeated use throughout the day.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l06",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l07",
+          "type": "ruling",
+          "label": "Ruling: First immersion sanctification at the kiyor",
+          "speaker": "Gemara",
+          "text": "The first immersion sequence: the HP immersed, dried off, dressed in white linen, then sanctified hands and feet at the kiyor before beginning the morning tamid and day's service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l07",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l08",
+          "type": "ruling",
+          "label": "Ruling: Service sequence for each vestment change",
+          "speaker": "Gemara",
+          "text": "Each of the five vestment changes follows the same pattern: immersion, drying, dressing, sanctification at the kiyor, then service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l08",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l09",
+          "type": "ruling",
+          "label": "Ruling: Golden vestments for outer service",
+          "speaker": "Gemara",
+          "text": "The HP wore golden vestments for the outer (non-Holy of Holies) services - for the morning and afternoon tamid, mussafin, and other external services.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l09",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l10",
+          "type": "ruling",
+          "label": "Ruling: White linen for inner service",
+          "speaker": "Gemara",
+          "text": "The HP wore white linen vestments for all inner (Holy of Holies) services - the blood sprinklings, incense offering, and removal of ladle and fire-pan.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l10",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "yoma-070b-l11",
+          "type": "ruling",
+          "label": "Ruling: Vestment order follows the five immersion sequence",
+          "speaker": "Gemara",
+          "text": "The complete sequence: (1) white - morning tamid and day's service; (2) gold - burning bull carcass; (3) white - rams and eimurim; (4) white - ladle and fire-pan; (5) gold - afternoon tamid and mussafin.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l11",
+              "vilnaLine": 30
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kiyor",
+        "five-immersions",
+        "ten-sanctifications",
+        "vestment-changes",
+        "service-sequence"
+      ],
+      "concepts": {
+        "halachic": [
+          "kiyor sanctification on Yom Kippur",
+          "five vestment changes and sequence",
+          "golden stool for HP at kiyor"
+        ],
+        "theological": [
+          "alternation between white (inner) and gold (outer) as spiritual rhythm"
+        ],
+        "narrative": [
+          "the HP's physical day - five immersions, ten sanctifications, multiple changes"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "kiyor function in Temple service",
+        "HP's five immersions",
+        "white linen vs golden vestments"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP wore the same vestments throughout Yom Kippur",
+          "correction": "He changed vestments five times - alternating between white linen (for the Holy of Holies) and golden (for outer service), immersing and sanctifying at each change.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Five vestment changes: white-gold-white-white-gold, with immersion and kiyor sanctification at each transition",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How many times did the HP change his vestments on Yom Kippur?",
+          "answer": "Five times - alternating between white linen (for inner/Holy of Holies service) and golden vestments (for outer/external service), immersing each time.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP sanctified hands and feet from the kiyor ten times (twice per vestment change). He changed between white and gold vestments five times with immersion and drying at each change.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-070b-s03",
+      "lineRange": {
+        "startVilnaLine": 32,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.70b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.70b.12"
+      ],
+      "display": {
+        "whats": "The HP used the kiyor for sanctification between each service segment. The Gemara notes the kiyor's role as the sanctification vessel throughout the day.",
+        "hint": "What is the significance of the kiyor being specifically the vessel for the HP's ten sanctifications?"
+      },
+      "learning": {
+        "summary": "The final sugya of 70b completes the discussion of the kiyor's use throughout the day. The kiyor served as the single vessel for all ten sanctifications - hands and feet twice at each vestment change. This emphasizes the kiyor as the boundary marker between service segments.",
+        "ahaMoment": "The kiyor is literally the 'crossing point' between service segments - each sanctification is both a conclusion of one service and a preparation for the next.",
+        "memoryAnchor": "Kiyor = the transition point of Yom Kippur. Each sanctification closes one chapter and opens the next.",
+        "openQuestion": "Why is sanctification of hands AND feet required at each transition, rather than just hands?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-070b-l12",
+          "type": "ruling",
+          "label": "Ruling: Kiyor used for all ten sanctifications of Yom Kippur",
+          "speaker": "Gemara",
+          "text": "The kiyor is the designated vessel for all ten sanctifications of the HP on Yom Kippur - hands and feet together, before each service segment after each vestment change.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-070b-l12",
+              "vilnaLine": 32
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kiyor",
+        "ten-sanctifications",
+        "service-boundary"
+      ],
+      "concepts": {
+        "halachic": [
+          "kiyor as vessel for ten sanctifications",
+          "hands and feet sanctification requirements"
+        ],
+        "theological": [
+          "sanctification as spiritual preparation for service"
+        ],
+        "narrative": [
+          "the HP returning to the kiyor ten times throughout the day"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "kiyor function",
+        "sanctification requirements in Temple service"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any vessel of water could be used for the HP's Yom Kippur sanctification",
+          "correction": "Only the kiyor (Temple laver) is valid for sanctification of hands and feet in Temple service.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "HP approaching the kiyor ten times throughout the day - hands and feet, before each service",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How many times did the HP sanctify his hands and feet from the kiyor on Yom Kippur?",
+          "answer": "Ten times - twice for each of the five vestment changes (once before and once after each change).",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP sanctified from the kiyor ten times on Yom Kippur.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "ואחר כך אילו ואיל העם ואח\"כ אימורי חטאת. כל אלו בטבילה",
+      "en": "And then the HP's ram and the people's ram and then the sin-offering fats - all these at the third immersion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "שלישית: ואחר כך תמיד של בין הערבים. בטבילה חמישית ולא",
+      "en": "And then the afternoon tamid - at the fifth immersion. We do not discuss here the removal of the ladle and fire-pan.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "איירי הכא בהוצאת כף ומחתה דפשיטא לן דבתר אילו ואיל העם",
+      "en": "Since it is obvious to us that it comes after the rams, as taught later: the entire portion was stated in order.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "היא כדתניא לקמן שכל הפרשה נאמרה על הסדר וכו': עביד",
+      "en": "He performed as written - Torat Kohanim was written first.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "כדכתיב. תורת כהנים כתיבא",
+      "en": "Therefore the rams and sin-offering fats come after the day's service, then removal of ladle and fire-pan.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "ברישא הלכך אילו ואיל העם ואימורי",
+      "en": "Then the rams and the sin-offering fats and then the ladle and fire-pan.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "חטאת בתר עבודת היום והדר הוצאת",
+      "en": "Then the mussafin and afternoon tamid which are written last in Numbers.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "כף ומחתה ואחר כך מוספין ותמיד",
+      "en": "This 'besides the sin-offering of atonement' - which implies the external goat precedes the rams.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "של בין הערבים דכתיבי לבסוף",
+      "en": "What does he do with it? Granted 'besides the morning burnt-offering' is not written for Yom Kippur itself.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "בחומש הפקודים: האי מלבד חטאת",
+      "en": "And the continuum-learner does not derive from it to do the Torat Kohanim things first.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "הכפורים. דמשמע דשעיר החיצון",
+      "en": "But this 'besides the sin-offering of atonement' written for Yom Kippur - what does he do with it?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "קודם לאילו ואיל העם מאי עביד ליה",
+      "en": "What the internal goat atones for, the external goat also atones for - as derived in the first chapter of Shevuot.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "בשלמא מלבד עולת הבקר לאו ביום",
+      "en": "For awareness at the end without awareness at the beginning - the external goat atones.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "הכיפורים כתיב ומרגלים לא יליף",
+      "en": "As it says: 'a sin-offering goat, besides the sin-offering of atonement' - what the one atones for the other atones for.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "דסמיך אסידרא למיעבד הני דתורת",
+      "en": "Just as the internal goat does not atone except for something with awareness at the end.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "כהנים ברישא אלא האי דכתב ביום",
+      "en": "As explained there, so too the external goat does not atone, etc.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "הכפורים גופיה מאי עביד ליה:",
+      "en": "In his name - in Rabbi Akiva's name.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "על מה שזה מכפר וכו'. במתניתין",
+      "en": "One - of the seven lambs.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "דפ\"ק דשבועות (דף ב.) דריש ליה",
+      "en": "He performed one - as written 'besides the morning burnt-offering' to link some of the mussafin to the morning tamid.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "הכי ועל שיש בה ידיעה בסוף ואין",
+      "en": "And then he performed the day's service - for if you say all mussafin come with the morning tamid.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "בה ידיעה בתחילה שעיר הנעשה",
+      "en": "Perhaps he will become tired and be unable to perform the day's service which is the essential atonement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "בחוץ מכפר שנאמר ושעיר חטאת",
+      "en": "Perhaps he will neglect - and not do them after the day's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "אחד מלבד חטאת הכפורים על",
+      "en": "And if you worry he might become tired - there is no concern.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "מה שזה מכפר זה מכפר מה פנימי",
+      "en": "For regarding the day's service he is energetic and regains his strength.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "אינו מכפר אלא על דבר שיש בו",
+      "en": "And all the mussafin he did not perform - for Torat Kohanim precedes and he needs to fulfill both this and that sequence.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "ידיעה כדמפרש התם אף חיצון",
+      "en": "All opinions hold - both Rabbi Eliezer and Rabbi Akiva.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "אינו מכפר וכו': משמו. של ר'",
+      "en": "One ram is for the community - for all say 'the people's ram' and they do not discuss the ram written in Numbers at all.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "עקיבא: אחד. מן שבעת כבשים:",
+      "en": "The ram mentioned here - in Torat Kohanim: 'and one ram for a burnt-offering.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "עביד חד. כדכתיב מלבד עולת",
+      "en": "And they are both needed - there is reason to think a freewill offering is better to be chosen so it will be accepted willingly.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "הבקר לסמוך מקצת המוספין לעולת",
+      "en": "And there is reason to think an obligatory offering is better to be choice so he fulfills his obligation properly.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "התמיד: והדר עביד עבודת היום.",
+      "en": "As taught.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "דאי אמרת כל המוספין יקריב עם",
+      "en": "And then the rams and the people's ram and then the sin-offering fats - all in the third immersion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "תמיד של שחר דילמא חליש ולא",
+      "en": "For the text of Torat Kohanim is written first, therefore the rams and sin-offering fats come after the day's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "מצי למיעבד עבודת היום והוא",
+      "en": "And then the ladle and fire-pan removal and then the mussafin and afternoon tamid.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "עיקר הכפרה: דילמא פשע. ולא",
+      "en": "This 'besides the sin-offering of atonement' which implies the external goat precedes the rams.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "עביד להו אחר עבודת היום ולמאי",
+      "en": "What does he do with it? Granted 'besides the morning burnt-offering' is not written for Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "דחיישת דילמא חליש ליכא למיחש",
+      "en": "But 'besides the sin-offering of atonement' written for Yom Kippur itself - what does he do with it?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "דלגבי עבודת היום זריז הוא ומחליף",
+      "en": "On what the one atones the other atones - as derived in the first chapter of Shevuot.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "כח וכולהו מוספין לא עביד דתורת",
+      "en": "From his name - Rabbi Akiva's name. One - of the seven lambs.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "כהנים קדים וצריך לקיים זו וזו סדר",
+      "en": "He performed one - as written 'besides the morning burnt-offering' to attach some mussafin to the morning tamid.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "הכתוב ומדרשי המקראות: דכולי",
+      "en": "And then the day's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "עלמא מיהא. בין לר' אליעזר בין",
+      "en": "For if you say all mussafin with the morning tamid, perhaps he will tire and be unable to perform the day's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "לר' עקיבא חד איל הוא דציבור",
+      "en": "Perhaps he will neglect - and not do them after. And if you worry about tiredness - no concern.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "דכולהו אמרי איל העם ולא איירי",
+      "en": "For the day's service he is energetic and regains strength. And all mussafin he did not do for Torat Kohanim precedes.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "באיל הכתוב בחומש הפקודים כלל:",
+      "en": "All opinions hold. One ram is for the community.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "האמור כאן. בתורת כהנים ואיל אחד לעולה: וצריכי. שיש",
+      "en": "The ram mentioned here - in Torat Kohanim: and one ram as a burnt-offering.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "דעת נוטה לומר נדבה מובחרת כדי שתהא מקובלת ברצון ויש",
+      "en": "And they are both needed - reason for freewill offering quality; reason for obligatory offering quality.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "דעת נוטה לומר חובה תהא מובחרת כדי שיצא ידי חובתו יפה:",
+      "en": "As the entire.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "שכל",
+      "en": "All opinions.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

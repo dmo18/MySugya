@@ -1,0 +1,1185 @@
+{
+  "canonicalRef": "Yoma 83b",
+  "summary": "Tractate Yoma daf 83b covers: Rabba: if possible, satisfy bulmos with non-forbidden food first; Two sages' approaches to treating bulmos; the principle behind the dispute; R. Meir and R. Yehuda's incident with a student who had bulmos; Mad dog bite on Yom Kippur: danger overrides YK.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-083b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.83b.1"
+        },
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.83b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.83b.1",
+        "Yoma.83b.2"
+      ],
+      "display": {
+        "whats": "Rabba: if possible, satisfy bulmos with non-forbidden food first",
+        "hint": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting to non-kosher."
+      },
+      "learning": {
+        "summary": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting to non-kosher.",
+        "ahaMoment": "Rabba's qualification: even in an emergency, if you can solve it without violating a prohibition, do so. Minimum necessary violation is the principle.",
+        "memoryAnchor": "Rabba: try permitted food first - minimum violation, even in emergencies.",
+        "openQuestion": "What is the deeper significance of the ruling about rabba: if possible, satisfy bulmos with non-forbidden food f?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Tithe the produce even on Shabbat",
+          "speaker": "Rabba",
+          "text": "Per Rabba, if one can tithe untithed produce to make it permitted, one does so rather than feed it untithed. Though this seems obvious, it is stated for Shabbat, when separating tithes is normally forbidden - even so, tithing is preferred over feeding untithed produce.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Why it is not obvious: imperforate-container produce",
+          "speaker": "Rabba",
+          "text": "On Shabbat the prohibition against tithing is only the rabbinic prohibition of muktzeh-like moving, lighter than eating untithed produce - so why state it? The case is produce grown in an imperforate container, which is untithed only rabbinically, yet one still tithes it on Shabbat rather than feed it as is.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bulmos",
+        "Rabba",
+        "minimum violation",
+        "permitted food first"
+      ],
+      "concepts": {
+        "halachic": [
+          "bulmos",
+          "Rabba"
+        ],
+        "theological": [
+          "Rabba's qualification: even in an emergency, if you can solve it without violati"
+        ],
+        "narrative": [
+          "Rabba: if possible, satisfy bulmos with non-forbidden food f"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of bulmos context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "On Shabbat one simply feeds the ill person untithed produce since tithing is forbidden.",
+          "correction": "One still tithes first, because the prohibition of tithing on Shabbat is only rabbinic and lighter than feeding untithed produce, even for rabbinically-untithed container produce."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Rabba: if possible, satisfy bulmos with non-forbid"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why must Rabba state that one tithes produce on Shabbat rather than feed it untithed, when this seems obvious?",
+          "answer": "Because the case is produce from an imperforate container, untithed only by rabbinic law, where one might have thought feeding it as is would be simpler; we are taught to tithe it even on Shabbat."
+        },
+        {
+          "question": "What kind of prohibition is separating tithes on Shabbat?",
+          "answer": "A rabbinic prohibition akin to muktzeh, lighter than eating untithed produce, which is why one prefers to tithe rather than feed the produce untithed."
+        }
+      ],
+      "finalRuling": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting ",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-083b-s02",
+      "lineRange": {
+        "startVilnaLine": 4,
+        "endVilnaLine": 27
+      },
+      "lines": [
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.83b.3"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.83b.4"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.83b.5"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.83b.6"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.83b.7"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.83b.8"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.83b.9"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.83b.10"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.83b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.83b.3",
+        "Yoma.83b.4",
+        "Yoma.83b.5",
+        "Yoma.83b.6",
+        "Yoma.83b.7",
+        "Yoma.83b.8",
+        "Yoma.83b.9",
+        "Yoma.83b.10",
+        "Yoma.83b.11"
+      ],
+      "display": {
+        "whats": "Two sages' approaches to treating bulmos; the principle behind the dispute",
+        "hint": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The dispute reflects different understandings of what cons..."
+      },
+      "learning": {
+        "summary": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The dispute reflects different understandings of what constitutes the minimum violation.",
+        "ahaMoment": "The two sages' dispute reflects a deeper question: is the goal to minimize halachic violation, or to maximize the speed of recovery? Both are legitimate priorities.",
+        "memoryAnchor": "Two sages, two priorities: minimize violation vs. maximize speed. Both views have halachic logic.",
+        "openQuestion": "What is the deeper significance of the ruling about two sages' approaches to treating bulmos; the principle behi?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "dispute",
+          "label": "The two views on untithed produce versus teruma",
+          "speaker": "Gemara",
+          "text": "Ben Teima holds untithed produce is more severe, so one tithes it even though separating teruma is forbidden on Shabbat; the first tanna holds teruma is more severe.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l04",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "analysis",
+          "label": "Is Rabba a side in a tannaitic dispute?",
+          "speaker": "Gemara",
+          "text": "The Gemara asks whether Rabba's ruling matches one side of a baraita about a snake-bite victim on Shabbat: Rabbi Yehuda HaNasi permits harvesting and feeding leeks untithed, while Rabbi Elazar son of Rabbi Shimon requires tithing first.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "elaboration",
+          "label": "Aligning Rabba with Rabbi Elazar",
+          "speaker": "Gemara",
+          "text": "One might say Rabba, who requires tithing even rabbinically-untithed produce on Shabbat, follows Rabbi Elazar son of Rabbi Shimon and not Rabbi Yehuda HaNasi.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "distinction",
+          "label": "Rabba can even fit Rabbi Yehuda HaNasi",
+          "speaker": "Gemara",
+          "text": "The Gemara rejects the forced reading: Rabbi Yehuda HaNasi only waived tithing for vegetables like leeks, which are untithed rabbinically and were decreed only to avoid confusion with grain; for grain, untithed by Torah law, he too would require tithing.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l10",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "proof",
+          "label": "Honey and sweets restore sight",
+          "speaker": "Gemara",
+          "text": "A baraita: a bulmos sufferer is fed honey and sweet foods, which restore the eyes' sight; Jonathan's 'my eyes are brightened because I tasted a little honey' (I Samuel 14:29) is offered as an allusion.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l15",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "resolution",
+          "label": "Why only an allusion, not proof",
+          "speaker": "Gemara",
+          "text": "The baraita calls it only an allusion because Jonathan was not actually seized with bulmos, merely very hungry, so his case does not prove honey cures bulmos.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "elaboration",
+          "label": "Abaye: sweets after food, not before",
+          "speaker": "Gemara",
+          "text": "Abaye limits the remedy: honey restores sight only after one has eaten other food; on an empty stomach it merely whets the appetite, as shown by the Egyptian revived by figs and raisins after bread (I Samuel 30:11-12).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l21",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "position",
+          "label": "Specific remedies for bulmos",
+          "speaker": "Gemara",
+          "text": "Shmuel prescribes a sheep's tail with honey; Rav Huna son of Rav Yehoshua, fine wheat flour with honey; Rav Pappa, even barley flour with honey. Rabbi Yochanan recounts eating ripe figs from the sunny east side of the tree when seized.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l24",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "step-09",
+          "type": "conclusion",
+          "label": "Rabbi Yehuda overpowers a shepherd",
+          "speaker": "Gemara",
+          "text": "Rabbi Yehuda, seized with bulmos on the road, took a shepherd's bread to save his life; Rabbi Yosei called it robbery. Later, when Rabbi Yosei was seized in the city and townsfolk brought him sweets, Rabbi Yehuda joked that he robbed one shepherd while Rabbi Yosei robbed the whole city.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l27",
+              "vilnaLine": 27
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bulmos",
+        "two sages",
+        "dispute",
+        "treatment priority"
+      ],
+      "concepts": {
+        "halachic": [
+          "bulmos",
+          "two sages"
+        ],
+        "theological": [
+          "The two sages' dispute reflects a deeper question: is the goal to minimize halac"
+        ],
+        "narrative": [
+          "Two sages' approaches to treating bulmos; the principle behi"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of bulmos context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Honey is fed to a bulmos sufferer first because it immediately restores sight.",
+          "correction": "Per Abaye honey restores sight only after other food has been eaten; on an empty stomach it merely whets the appetite, so it follows the main food rather than precedes it."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Two sages' approaches to treating bulmos; the prin"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why does the Gemara conclude that Rabba can even agree with Rabbi Yehuda HaNasi?",
+          "answer": "Rabbi Yehuda HaNasi only waived tithing for vegetables like leeks, untithed rabbinically and decreed lest they be confused with grain; for grain, untithed by Torah law, he too would require tithing, matching Rabba."
+        },
+        {
+          "question": "Why is Jonathan's honey only an allusion rather than proof that honey cures bulmos?",
+          "answer": "Jonathan was not actually seized with bulmos but merely very hungry, so his recovery does not prove honey is the specific remedy for bulmos."
+        }
+      ],
+      "finalRuling": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The disp",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-083b-s03",
+      "lineRange": {
+        "startVilnaLine": 29,
+        "endVilnaLine": 38
+      },
+      "lines": [
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.83b.12"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.83b.13"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.83b.14"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.83b.15"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.83b.16"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.83b.17"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.83b.12",
+        "Yoma.83b.13",
+        "Yoma.83b.14",
+        "Yoma.83b.15",
+        "Yoma.83b.16",
+        "Yoma.83b.17"
+      ],
+      "display": {
+        "whats": "R. Meir and R. Yehuda's incident with a student who had bulmos",
+        "hint": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches."
+      },
+      "learning": {
+        "summary": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches.",
+        "ahaMoment": "The real-life incident with the student brought the abstract dispute to life: what do you actually do first when someone collapses in front of you?",
+        "memoryAnchor": "Student with bulmos: the real incident forced the abstract debate to become practical.",
+        "openQuestion": "What is the deeper significance of the ruling about r. meir and r. yehuda's incident with a student who had bulm?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "narrative",
+          "label": "Rabbi Meir reads the innkeeper's name",
+          "speaker": "Gemara",
+          "text": "Rabbi Meir, who analyzed names, lodged with an innkeeper named Kidor and inferred wickedness from 'they are a generation [ki dor] of upheavals' (Deuteronomy 32:20); because it was Shabbat eve, the three rabbis entrusted him with their purses.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l29",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "A dream and a guarded purse",
+          "speaker": "Gemara",
+          "text": "The innkeeper's late father appeared to him in a dream telling him to take the purse at a certain man's head; the rabbis dismissed Shabbat-eve dreams as meaningless, yet Rabbi Meir guarded his money all day and reclaimed it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l33",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "ruling",
+          "label": "The innkeeper denies the deposit",
+          "speaker": "Gemara",
+          "text": "The next day the innkeeper denied ever receiving the other purses. Rabbi Meir reproached his colleagues for not reading the name; they said he should have warned them, and he replied that a name warrants suspicion, not a verdict of established wickedness.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l34",
+              "vilnaLine": 34
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "distinction",
+          "label": "Recovering the money by a sign",
+          "speaker": "Gemara",
+          "text": "They plied the innkeeper with wine, saw lentils on his mustache, and used that detail as a sign to his wife that he had ordered the money returned. They recovered the purses; he then killed his wife in rage.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l36",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "elaboration",
+          "label": "The pork-and-handwashing baraita",
+          "speaker": "Gemara",
+          "text": "This recalls a baraita: an innkeeper served pork to those who skipped the pre-meal washing and kosher meat to those who washed; one Jew who ate without washing was fed pork, and laxity in the after-meal washing led to a killing - paralleling the Kidor story.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l37",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "conclusion",
+          "label": "Rabbi Yehuda and Rabbi Yosei begin reading names too",
+          "speaker": "Gemara",
+          "text": "Afterward Rabbi Yehuda and Rabbi Yosei also analyzed names: reaching the house of a landlord named Bala, they would not enter, deriving from 'worn out [bala] by adulteries' (Ezekiel 23:43) that he was surely wicked.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l38",
+              "vilnaLine": 38
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bulmos",
+        "student",
+        "R. Meir",
+        "R. Yehuda",
+        "practical incident"
+      ],
+      "concepts": {
+        "halachic": [
+          "bulmos",
+          "student"
+        ],
+        "theological": [
+          "The real-life incident with the student brought the abstract dispute to life: wh"
+        ],
+        "narrative": [
+          "R. Meir and R. Yehuda's incident with a student who had bulm"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of bulmos context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Rabbi Meir taught that a person's name conclusively reveals his character.",
+          "correction": "Rabbi Meir held only that a name warrants suspicion and caution, not a definitive verdict; he refused to declare the innkeeper established as wicked on his name alone."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "R. Meir and R. Yehuda's incident with a student wh"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What did Rabbi Meir mean when his colleagues blamed him for not warning them about the innkeeper's name?",
+          "answer": "That a suspicious name justifies caution but not a firm verdict of wickedness; he could not declare a man established as wicked on the strength of his name alone."
+        },
+        {
+          "question": "How is the pork-and-handwashing baraita connected to the Kidor story?",
+          "answer": "Both show how a person's laxity leads to disaster: skipping the pre-meal washing led to being fed pork, and laxity in the after-meal washing led to a killing, paralleling the innkeeper's murder of his wife."
+        }
+      ],
+      "finalRuling": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-083b-s04",
+      "lineRange": {
+        "startVilnaLine": 40,
+        "endVilnaLine": 42
+      },
+      "lines": [
+        {
+          "vilnaLine": 40,
+          "sefariaRef": "Yoma.83b.18"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.83b.19"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.83b.18",
+        "Yoma.83b.19"
+      ],
+      "display": {
+        "whats": "Mad dog bite on Yom Kippur: danger overrides YK",
+        "hint": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to life is extreme."
+      },
+      "learning": {
+        "summary": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to life is extreme.",
+        "ahaMoment": "Mad dog bite: some dangers are so extreme and immediate that YK is violated without hesitation or debate.",
+        "memoryAnchor": "Mad dog bite: some dangers are so obvious that YK yields immediately.",
+        "openQuestion": "What is the deeper significance of the ruling about mad dog bite on yom kippur: danger overrides yk?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Five signs of a mad dog",
+          "speaker": "Gemara",
+          "text": "Returning to the mad dog: a baraita lists five signs - its mouth gapes open, its saliva drips, its ears flop, its tail rests on its legs, and it walks at the edge of the road; some add that it barks without its voice being heard.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l40",
+              "vilnaLine": 40
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Rav and Shmuel on the cause",
+          "speaker": "Gemara",
+          "text": "How does a dog go mad? Rav says witches practice magic on it; Shmuel says an evil spirit rests on it. The Gemara notes the dispute has a practical difference, which it begins to spell out.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-083b-l42",
+              "vilnaLine": 42
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "mad dog",
+        "rabies",
+        "pikuach nefesh",
+        "YK override"
+      ],
+      "concepts": {
+        "halachic": [
+          "mad dog",
+          "rabies"
+        ],
+        "theological": [
+          "Mad dog bite: some dangers are so extreme and immediate that YK is violated with"
+        ],
+        "narrative": [
+          "Mad dog bite on Yom Kippur: danger overrides YK"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of mad dog context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The five signs are mere folklore with no halachic consequence.",
+          "correction": "The signs define when a dog is treated as mad, which bears directly on the halachot of how it may be killed and how its bite is treated."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Mad dog bite on Yom Kippur: danger overrides YK"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What are the signs by which a mad dog is identified?",
+          "answer": "A constantly open mouth, dripping saliva, floppy ears, a tail resting on its legs, walking along the edges of roads, and per some a bark that cannot be heard."
+        },
+        {
+          "question": "How do Rav and Shmuel differ on what makes a dog mad?",
+          "answer": "Rav attributes it to witches practicing magic on the dog; Shmuel attributes it to an evil spirit resting upon it - a difference with practical consequences."
+        }
+      ],
+      "finalRuling": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to li",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אפשר בחולין פשיטא. דמתקנינן ליה: לא צריכא בשבת. שאפי'",
+      "en": "Rashi: Rabba qualifies the ruling - try permitted food first if possible.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "הוא שבת שאסור להפריש תרומה ומעשר יפרישוה ולא יאכילוהו טבלים:",
+      "en": "Rashi: two sages' disagreement about the optimal treatment for bulmos.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "בעציץ שאינו נקוב. דטבל שלו מדרבנן ושבות דהפרשת מעשרות",
+      "en": "Rashi: the incident where a student of R. Meir and R. Yehuda had bulmos.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "בשבת דרבנן אשמועינן שידחה השבות ולא יאכילוהו טבל דרבנן",
+      "en": "Rashi: mad dog bite - the danger overrides Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "דאתו למשרי נמי טבל דאורייתא",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "כי האי גוונא: לימא תנאי היא. הך",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "דרבה דאמר בדאפשר בחולין מתקנינן",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "ליה ודחינן שבות דהפרשת תרומה",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "בשבת מקמי אכילת טבל דעציץ",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "שאינו נקוב דרבנן: קורין לו רופא.",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "בשבת: וקורעין לו תרנגולת. לתת",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "על המכה שזו היא רפואתו: וגוזזין",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "לו כרישין. מן המחובר להאכילו:",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "כרישין. כרתי: לימא. הא דרבה",
+      "en": "Rashi explains the opening discussion of this topic on 83b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "ר' אלעזר בר' שמעון היא דאמר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "מפרישין לו תרומה בשבת ואל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "יאכילוהו טבל דרבנן כגון ירק ולא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "רבי דאי רבי האמר אין צריך לעשר:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "עד כאן לא קאמר רבי אלא לענין",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "מעשר ירק דרבנן. דלא מיחלף בטבל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "דאורייתא אבל דגן דאורייתא הוא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "אפי' רבי מודה דאף בעציץ שאינו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "נקוב מעשר דמיחלף בדאורייתא:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "ראו נא כי אורו עיני. ביהונתן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "כתיב: הכי גר' מאי אין ראיה לדבר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "דהתם לאו בולמוס אחזיה: מגרר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "גריר. ממשיך את הלב לתאות",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "רעבון: ויאכל. לחם והדר ויתנו לו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "פלח דבילה: אליה. בשר שמן מאד: למזרחה של תאנה. שהשמש",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "מכה שם מן הבקר עד חצות היום והשמש ממתק את הפרי: וממגד.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "לשון מעדנים: קפחיה. כפאו ונטל ככרו הימנו: אהדרוהו בלגי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "וצעי. סבבוהו בני העיר והקיפוהו לגינין של דבש ומתיקה וקערות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "של תבשילין: דייק בשמא. בשמו של",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "בעל הבית אם נאה אם כעור:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "אשלימו ליה כיסייהו. ערב שבת",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "היה והפקידו אצלו כיסם: דבי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "שמשי. של ערבי שבתות: לית בהו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "ממשא. מתוך שאדם במנוחה מהרהר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "ורואה חלומות ומתכוון היה לדחותו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "שלא ילך ויטלנו: חזו טלפחי אשפמיה.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "ראו עדשים על שפמו: יהבו סימנא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "לדביתהו. בעליך אמר שתתני לנו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "כיסינו וזה לך סימן שאכלתם היום",
+      "en": "Rashi continues: we covered it, and this is the sign for you that you ate lentils today.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "עדשים: מים ראשונים האכילו בשר",
+      "en": "Rashi opens: 'first waters (mayim rishonim) caused him to eat pork.' A Jewish innkeeper was selling.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "חזיר. פונדק ישראל היה מוכר",
+      "en": "Rashi continues: permitted foods to Jews and feeding them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "לישראל דברים המותרים ומאכילם",
+      "en": "Rashi continues: and selling cooked pork to non-Jews.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "ומוכר לנכרים בשר חזיר מבושל",
+      "en": "Rashi continues: a Jew came to the inn and the innkeeper saw he had not.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "בא ישראל לפונדק וראהו שלא",
+      "en": "Rashi continues: washed his hands when he sat down to eat, and placed before him.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "נטל ידיו כשהסב לאכול ונתן לפניו",
+      "en": "Rashi continues: pork. Then Rashi opens: 'final waters (mayim acharonim) killed the person.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "בשר חזיר: מים אחרונים הרגו את",
+      "en": "Rashi explains 'final waters killed the person': this refers to the wife of the man who, had he taken.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "הנפש. זו היא אשתו של זה שאילו נטל",
+      "en": "Rashi continues: final waters in the manner of those who wash their hands.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "מים אחרונים דרך הנוטלים ידים",
+      "en": "Rashi explains 'mayim acharonim' (the final handwashing): it was the custom of those who washed their hands to...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "לקנח את שפמם בידים טופחות ולא",
+      "en": "...wipe their mustaches with wet hands, so that...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "היו עדשים נראין: ואזניו סרוחות.",
+      "en": "...no lentil residue would be visible. Rashi then glosses 'and his ears drooping' (azanav serukhot):",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "גדולות וכפולות למטן: משחקות",
+      "en": "...large and folded downward. Rashi then opens the comment on 'playing' (mesachakim)...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "בו. מראות בו כשפיהם לשחוק:",
+      "en": "Rashi on 'playing with him': they display their witchcraft before him in mockery.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "למקטליה",
+      "en": "Rashi glosses 'to kill him' (le-mikteleih), explaining the deadly intent behind the sorcery display.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

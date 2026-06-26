@@ -1,0 +1,770 @@
+{
+  "daf": "21a",
+  "canonicalRef": "Yoma 21a",
+  "summary": "The baraita supporting R. Sheila (rooster call) is cited, then the Gemara pivots to a cosmic digression: what is Ridya, the angel of rain? The main topic resumes: the five miracles of the Beit HaMikdash during the pilgrimage festivals - the people stood packed tightly yet prostrated with room to spare; no snake or scorpion ever harmed in Jerusalem; no one said 'there is no room'; fire and rain canceled each other; the smoke from the altar went straight up regardless of wind.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-021a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 5
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.21a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.21a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.21a.1",
+        "Yoma.21a.2"
+      ],
+      "display": {
+        "whats": "The baraita supporting R. Sheila (rooster=the bird) is cited from Ezra: 'before any rooster crowed.' Then the Gemara tangentially asks about Ridya, the angel of rain described in Ezekiel as an entity between the upper and lower waters, splitting them apart. The name Ridya may mean 'she runs' (Aramaic) because rain runs down.",
+        "hint": "The Ridya digression is triggered by the word 'rain' in a connected context - a classic talmudic tangent that adds cosmological depth. The image of an angel standing between upper and lower waters with an open face recalls the creation narrative."
+      },
+      "learning": {
+        "summary": "A baraita supports R. Sheila (rooster = the bird). Ridya is the angel of rain: a young heifer with a cloven face, standing between the upper and lower waters, telling the upper waters to descend and the lower waters to rise. Its name may come from 'running' (Aramaic: radi) since rain runs.",
+        "ahaMoment": "The angel of rain is anthropomorphic/theriomorphic - a creature with a bull's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
+        "memoryAnchor": "Ridya = rain angel between upper and lower waters, like a cow with a split face.",
+        "openQuestion": "Why is the rain angel depicted as a heifer? Is the connection to agricultural fertility symbolic?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-021a-l01",
+          "type": "proof",
+          "label": "Baraita supports R. Sheila: rooster = bird",
+          "text": "Ezra 3:13 mentions 'before any rooster crowed' - using gever to mean the bird. This supports R. Sheila's reading of keriat hagever as the natural rooster's call.",
+          "sourceRefs": [
+            "Yoma.21a.1"
+          ]
+        },
+        {
+          "id": "yoma-021a-l03",
+          "type": "explanation",
+          "label": "What is Ridya? The rain angel",
+          "text": "Ridya is an angelic being described as a young heifer with a split (open) face, standing between the upper and lower waters. It commands the upper waters to descend and the lower to rise. Its name derives from the Aramaic 'radi' (she runs), since rain runs down.",
+          "sourceRefs": [
+            "Yoma.21a.2"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Ridya",
+        "rain angel",
+        "cosmology",
+        "R. Sheila",
+        "keriat hagever",
+        "baraita"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "angel of rain mediating cosmic waters",
+          "Talmudic cosmology",
+          "angelic roles in natural phenomena"
+        ],
+        "narrative": [
+          "the name Ridya as linguistic curiosity"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "yoma-020b-s02"
+      ],
+      "misconceptions": [
+        "Ridya is not purely metaphorical. In talmudic thinking, an angel actually mediates between the upper and lower waters to produce rain.",
+        "The 'split face' of Ridya is often understood as an open/hollow face like a tube through which water passes - not an injured or divided face."
+      ],
+      "relatedSugyot": [
+        "yoma-020b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "description": "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters"
+        },
+        {
+          "type": "relationship",
+          "description": "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is Ridya and what role does it play in Talmudic cosmology?",
+          "a": "Ridya is the angel of rain - depicted as a young heifer with an open/split face, standing between the upper and lower cosmic waters. It commands the upper waters to descend (rain) and the lower to rise."
+        },
+        {
+          "q": "What is the baraita that supports R. Sheila's view that 'gever' in keriat hagever means rooster?",
+          "a": "A baraita from Ezra uses 'gever' to mean the bird (rooster), supporting R. Sheila's interpretation."
+        }
+      ],
+      "finalRuling": "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "רִידְיָא",
+          "translit": "Ridya",
+          "en": "The angel of rain; depicted as a heifer between the upper and lower cosmic waters, commanding rain to fall."
+        }
+      ],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-021a-s02",
+      "lineRange": {
+        "startVilnaLine": 6,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.21a.3"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.21a.4"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.21a.5"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.21a.6"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.21a.7"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.21a.8"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.21a.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.21a.3",
+        "Yoma.21a.4",
+        "Yoma.21a.5",
+        "Yoma.21a.6",
+        "Yoma.21a.7",
+        "Yoma.21a.8",
+        "Yoma.21a.9"
+      ],
+      "display": {
+        "whats": "Five miracles of the Temple on the pilgrimage festivals: (1) pilgrims stood pressed together yet had room to prostrate; (2) no snake or scorpion ever harmed anyone in Jerusalem; (3) no one said 'there is no room for me'; (4) rain did not extinguish the wood fire on the altar; (5) the altar smoke rose straight up regardless of wind direction. Each miracle is elaborated with its biblical source and Gemara analysis.",
+        "hint": "These five miracles map onto the five senses and the five physical challenges of mass pilgrimage. The prostration miracle is particularly striking: the city seemed impossibly small but expanded supernaturally. The smoke going straight up was also held to signal divine acceptance of the offerings."
+      },
+      "learning": {
+        "summary": "Five ongoing miracles of the Beit HaMikdash: (1) The prostration miracle: people stood tightly packed yet had 4 amot between each person when they prostrated; (2) No serpent or scorpion ever harmed in Jerusalem; (3) No one said 'I have no room to stay overnight in Jerusalem'; (4) The altar fire was never extinguished by rain; (5) The altar smoke rose straight up, never displaced by wind.",
+        "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible - yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha. The Vilna Gaon reads this as reflecting the divine presence dwelling in the ark, which itself occupied no space.",
+        "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up.",
+        "openQuestion": "Why is the prostration miracle listed first? Is the miracle of space the most fundamental teaching about the Beit HaMikdash?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-021a-l06",
+          "type": "ruling",
+          "label": "Five miracles of the Beit HaMikdash",
+          "text": "The baraita lists five miracles. They represent ongoing supernatural features of the Temple grounds, not one-time events.",
+          "sourceRefs": [
+            "Yoma.21a.3"
+          ]
+        },
+        {
+          "id": "yoma-021a-l14",
+          "type": "elaboration",
+          "label": "Prostration miracle: space appeared for bowing",
+          "text": "On Yom Kippur, the people stood packed but when they prostrated for the KG's mention of God's name, there was enough space (4 amot per person) - a supernatural expansion.",
+          "sourceRefs": [
+            "Yoma.21a.4"
+          ]
+        },
+        {
+          "id": "yoma-021a-l22",
+          "type": "elaboration",
+          "label": "No snake or scorpion harmed in Jerusalem",
+          "text": "No person was ever harmed by a snake or scorpion while in Jerusalem. This was an ongoing miracle of divine protection.",
+          "sourceRefs": [
+            "Yoma.21a.5"
+          ]
+        },
+        {
+          "id": "yoma-021a-l27",
+          "type": "elaboration",
+          "label": "No one lacked lodging in Jerusalem",
+          "text": "Despite hundreds of thousands of pilgrims, no one ever said 'I have no room to lodge overnight in Jerusalem.' A miracle of hospitality and space.",
+          "sourceRefs": [
+            "Yoma.21a.6"
+          ]
+        },
+        {
+          "id": "yoma-021a-l29",
+          "type": "elaboration",
+          "label": "Rain did not extinguish the altar fire",
+          "text": "The fire on the altar burned outdoors, year-round. Despite rain, it was never extinguished - a miracle protecting the perpetual fire.",
+          "sourceRefs": [
+            "Yoma.21a.7"
+          ]
+        },
+        {
+          "id": "yoma-021a-l32",
+          "type": "elaboration",
+          "label": "Smoke rose straight up regardless of wind",
+          "text": "The smoke from the altar always rose perfectly straight, regardless of which direction the wind blew. This symbolized divine acceptance of the offerings.",
+          "sourceRefs": [
+            "Yoma.21a.8"
+          ]
+        },
+        {
+          "id": "yoma-021a-l34",
+          "type": "elaboration",
+          "label": "Additional elaboration on the smoke miracle",
+          "text": "The Gemara discusses whether the smoke was horizontal or vertical and the significance of its direction for Temple acceptance.",
+          "sourceRefs": [
+            "Yoma.21a.9"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Temple miracles",
+        "pilgrimage festivals",
+        "prostration",
+        "Jerusalem safety",
+        "altar fire",
+        "altar smoke",
+        "divine presence"
+      ],
+      "concepts": {
+        "halachic": [
+          "perpetual altar fire",
+          "prostration on Yom Kippur"
+        ],
+        "theological": [
+          "divine presence in the Temple",
+          "miracles as ongoing features",
+          "sacred space expansion"
+        ],
+        "narrative": [
+          "the packed courtyard as evidence of miraculous space"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [
+        "These five miracles are not one-time events but ongoing features of the Temple throughout its existence.",
+        "The prostration miracle is specifically about the 4-amot spacing required for prostration with arms spread. The same space that was 'too packed to move in' suddenly became sufficient when they bowed.",
+        "The altar fire miracle is about the permanent fire, not just special occasions - rain never extinguished it despite the altar being entirely outdoors."
+      ],
+      "relatedSugyot": [
+        "yoma-021b-s02",
+        "yoma-021b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person"
+        },
+        {
+          "type": "action",
+          "description": "The altar fire burning through rain with the smoke rising perfectly straight upward"
+        },
+        {
+          "type": "sequence",
+          "description": "Five miracle categories listed in order: space, safety, lodging, fire, smoke"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "List the five miracles of the Beit HaMikdash on the pilgrimage festivals.",
+          "a": "(1) Pilgrims stood packed but had space to prostrate; (2) no snake or scorpion harmed anyone in Jerusalem; (3) no one lacked lodging overnight; (4) rain never extinguished the altar fire; (5) the altar smoke always rose straight up regardless of wind."
+        },
+        {
+          "q": "What made the prostration miracle paradoxical?",
+          "a": "The pilgrims stood so tightly packed that movement was impossible, yet when they prostrated for the mention of God's name, each person miraculously had the required 4 amot of space to bow with arms spread."
+        }
+      ],
+      "finalRuling": "Five ongoing miracles of the Temple were maintained throughout its existence.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "נֵס",
+          "translit": "nes",
+          "en": "Miracle; the Talmud lists five ongoing nessim that characterized the Beit HaMikdash."
+        },
+        {
+          "he": "עֲזָרָה",
+          "translit": "azara",
+          "en": "The Temple courtyard; the space where pilgrims stood and where the altar and service took place."
+        }
+      ],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "רִידְיָא",
+      "translit": "Ridya",
+      "en": "The rain angel; a heifer-form being standing between upper and lower cosmic waters."
+    },
+    {
+      "he": "נֵס",
+      "translit": "nes",
+      "en": "Miracle; the five ongoing miracles of the Temple during pilgrimage festivals."
+    },
+    {
+      "he": "עֲזָרָה",
+      "translit": "azara",
+      "en": "Temple courtyard where pilgrims gathered and the five miracles were manifest."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "A baraita was taught like R. Sheila - the rooster's call, as Ezra uses gever to mean the bird.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "What is Ridya? An angelic being described in Ezekiel.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Like a young heifer with a split face - its hollow face draws down water from above.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Standing between upper and lower waters - mediating between the two great bodies of water.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Ridya runs (radi) - its name comes from the Aramaic for running, since rain runs down.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Five things were never seen in the Temple - the baraita of five ongoing miracles.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Commentary on the five miracles.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Commentary on the list structure.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Commentary on the Temple miracles enumeration.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Commentary on the prostration miracle setup.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Commentary on the crowds and the space.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Commentary on the 4-amot requirement for prostration.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Commentary on the miracle of space appearing.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The prostration miracle: they stood packed, yet had space to bow.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Commentary on the packed courtyard.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Commentary on the 4-amot per person.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Commentary on the Yom Kippur prostration.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Commentary on the meaning of space miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Commentary on the biblical source for the miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Commentary on the comparison to the Ark's zero space.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Commentary on the continuation of the miracle list.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "No snake or scorpion ever harmed in Jerusalem.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Commentary on the safety miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Commentary on the range of the miracle (all of Jerusalem).",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Commentary on the snake-scorpion miracle and its limits.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Commentary on the no-lodging-refused miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "No one said 'I have no room in Jerusalem' - despite hundreds of thousands.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Commentary on the overnight lodging miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The rain did not extinguish the altar fire.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Commentary on the altar fire miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Commentary on the perpetual fire outdoors.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The smoke from the altar rose straight up regardless of wind.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Commentary on the smoke direction miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Commentary on the significance of straight smoke.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Commentary on divine acceptance signaled by straight smoke.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Commentary on the wind and the miracle.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Commentary on the conclusion of the five miracles.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Commentary on the baraita's structure.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Commentary on the transition from the keriat hagever discussion.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Commentary on how these five miracles relate to chapter 2.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Commentary on the Ark's miraculous space.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Commentary on the link between space and divine presence.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Commentary on the closing of the miracle section.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Commentary on the transition to 21b.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Commentary on the continuation.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Commentary on the theological significance.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Commentary on miracle as ongoing feature.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Commentary on the closing observation.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l34"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Commentary on the divine presence sustaining these miracles.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Commentary on the verse sources for the miracles.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Commentary on the five-miracle framework.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Commentary on the connection to pilgrimage.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Commentary on the closing of chapter 2 introduction.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Commentary on the smoke miracle's theological meaning.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Commentary on rain vs. fire on the altar.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Commentary on pilgrims in the azara.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Commentary on the first miracle's details.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Commentary on the baraita's ending.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Commentary on the Ridya transition.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Commentary on Ridya's description.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Commentary on the cosmic water system.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Commentary on the closing of the Ridya section.",
+      "linkedGemaraLineIds": [
+        "yoma-021a-l03"
+      ]
+    }
+  ]
+}

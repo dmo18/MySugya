@@ -1,0 +1,525 @@
+{
+  "canonicalRef": "Yoma 64a",
+  "summary": "Two topics: First, an analysis of why the verse designating the scapegoat 'for Azazel' is necessary - without it, the goat might be eligible for altar service. The designation simultaneously channels the goat to its unique role and excludes it from the sacrificial category. Second, the Mishnah's ruling on what happens when a goat dies after the lottery: a replacement is brought and a new lottery is performed on the pair, with the surviving goat held pending the new lottery.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-064a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 2
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.64a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.64a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.64a.1",
+        "Yoma.64a.2"
+      ],
+      "display": {
+        "whats": "Why a verse is needed to exclude the scapegoat from altar service",
+        "hint": "The Gemara asks why Scripture needs to designate the scapegoat 'for Azazel' - without this designation, the goat might be considered a valid altar offering. The verse excludes it from the sacrificial system."
+      },
+      "learning": {
+        "summary": "The Gemara presents another angle on why the verse designating the goat 'for Azazel' is necessary. Without this exclusive designation, one might think the scapegoat could be brought on the altar as a regular sacrifice. The 'for Azazel' designation serves to exclude it from the sacrificial category, channeling it exclusively toward dispatch rather than altar service. This exclusion-by-designation analysis reveals the interplay between inclusion and exclusion in Temple law.",
+        "ahaMoment": "The scapegoat is 'for Azazel' - not 'for the altar.' This exclusive designation does two things: it channels the goat to Azazel and simultaneously removes it from the realm of regular sacrifice.",
+        "memoryAnchor": "The 'for Azazel' designation excludes the goat from the altar as much as it includes it in the dispatch service.",
+        "openQuestion": "What would happen if someone tried to slaughter the designated Azazel goat as a regular sacrifice?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Why is a verse needed to designate the scapegoat exclusively for Azazel?",
+          "id": "yoma-064a-l01",
+          "label": "Question: Why is a verse needed to designate",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "answer",
+          "speaker": "Gemara",
+          "text": "Without the verse, one might think the goat is valid for altar service. The verse excludes it from the sacrificial category.",
+          "id": "yoma-064a-l02",
+          "label": "Answer: Without the verse, one might think the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Azazel designation",
+        "exclusion from altar",
+        "scapegoat category",
+        "verse necessity"
+      ],
+      "concepts": {
+        "halachic": [
+          "exclusive designation for Azazel",
+          "exclusion from sacrificial category"
+        ],
+        "theological": [
+          "the power of designation to both include and exclude"
+        ],
+        "narrative": [
+          "Temple law",
+          "sacrifice categorization"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing what would make an animal eligible for altar service",
+        "Knowing the scapegoat's unique role outside the sacrificial system"
+      ],
+      "misconceptions": [
+        "The scapegoat is not a sacrifice brought on the altar - its 'service' is the dispatch to the wilderness"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "altar service vs. Azazel dispatch"
+        },
+        {
+          "type": "principle",
+          "name": "designation as exclusionary as well as inclusive"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why does Scripture need to designate the scapegoat 'for Azazel' rather than just leaving it as an undesignated goat?",
+          "answer": "Without the explicit designation, the goat might be thought eligible for altar service. The 'for Azazel' designation simultaneously channels it to dispatch and excludes it from the regular sacrificial category."
+        }
+      ],
+      "finalRuling": "The 'for Azazel' designation excludes the scapegoat from the sacrificial category as much as it designates its role; the verse is necessary to create this exclusion.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-064a-s02",
+      "lineRange": {
+        "startVilnaLine": 5,
+        "endVilnaLine": 37
+      },
+      "lines": [
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.64a.3"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.64a.4"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.64a.5"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.64a.6"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.64a.7"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.64a.8"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.64a.9"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.64a.10"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.64a.11"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.64a.12"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.64a.13"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.64a.14"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.64a.15"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.64a.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.64a.3",
+        "Yoma.64a.4",
+        "Yoma.64a.5",
+        "Yoma.64a.6",
+        "Yoma.64a.7",
+        "Yoma.64a.8",
+        "Yoma.64a.9",
+        "Yoma.64a.10",
+        "Yoma.64a.11",
+        "Yoma.64a.12",
+        "Yoma.64a.13",
+        "Yoma.64a.14",
+        "Yoma.64a.15",
+        "Yoma.64a.16"
+      ],
+      "display": {
+        "whats": "If one of the Yom Kippur goats dies after the lottery: replacement rules and the survivor's status",
+        "hint": "The Mishnah teaches: if one goat dies after the lottery but before slaughtering, a new lottery is performed on a replacement pair. The surviving goat's status pending the new lottery is analyzed."
+      },
+      "learning": {
+        "summary": "The Mishnah states: if the 'for God' goat dies after the lottery but before slaughtering, a replacement is brought and a new lottery is performed on the entire pair (original survivor + new replacement). The Gemara analyzes what happens to the surviving Azazel goat in the interim. Is it held in limbo? Does its partner's death automatically render it invalid? The analysis reveals the delicate balance between the paired nature of the two goats and their individual roles. The ruling ensures the Yom Kippur service can always be completed.",
+        "ahaMoment": "The replacement lottery system ensures Yom Kippur can proceed even when goats fail - the service's completion is protected by a systematic contingency built into the law.",
+        "memoryAnchor": "If one fails, the system continues: a replacement lottery brings the surviving goat back into a valid pair.",
+        "openQuestion": "Why must a new lottery be performed rather than simply replacing the dead goat and assigning it the same role?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "If a goat dies after the lottery, a new goat is brought and a new lottery performed.",
+          "id": "yoma-064a-l05",
+          "label": "Ruling: If a goat dies after the lottery,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "What is the status of the surviving goat pending the new lottery?",
+          "id": "yoma-064a-l09",
+          "label": "Question: What is the status of the surviving",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "type": "analysis",
+          "speaker": "Gemara",
+          "text": "If the goats are a unit: survivor is held. If they are independent: survivor continues.",
+          "id": "yoma-064a-l15",
+          "label": "Analysis: If the goats are a unit: survivor",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l15",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "The survivor is held pending the new lottery with the replacement.",
+          "id": "yoma-064a-l19",
+          "label": "Ruling: The survivor is held pending the new",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "type": "principle",
+          "speaker": "Gemara",
+          "text": "The replacement lottery system protects the service's completion against individual goat failures.",
+          "id": "yoma-064a-l24",
+          "label": "Principle: The replacement lottery system protects the service's",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-064a-l24",
+              "vilnaLine": 24
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "goat dies after lottery",
+        "replacement lottery",
+        "surviving goat",
+        "contingency rules"
+      ],
+      "concepts": {
+        "halachic": [
+          "replacement after lottery goat death",
+          "survivor's status",
+          "new lottery"
+        ],
+        "theological": [
+          "the service's resilience: built-in contingency for individual failures"
+        ],
+        "narrative": [
+          "Yom Kippur contingency law",
+          "paired goat replacement"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the lottery designates the goats",
+        "Knowing what a new lottery accomplishes"
+      ],
+      "misconceptions": [
+        "The new lottery is on both the original survivor and the new replacement - not just on the new goat"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "name": "goat death, replacement, new lottery process"
+        },
+        {
+          "type": "contrast",
+          "name": "paired unit vs. independent roles in determining survivor's status"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What happens if the 'for God' goat dies after the lottery but before slaughtering?",
+          "answer": "A replacement goat is brought and a new lottery is performed on the full pair (original surviving Azazel goat + new replacement). The surviving Azazel goat is held pending the new lottery."
+        }
+      ],
+      "finalRuling": "If a Yom Kippur goat dies after the lottery, a replacement is brought and a new lottery determines the roles of both the survivor and the replacement.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Another explanation why a verse is needed for the scapegoat: it might otherwise be considered fit for the altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "If not for the verse, one might think the scapegoat could be slaughtered as a regular offering.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The verse designates it exclusively for Azazel - thus excluding it from altar service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "The exclusion is needed because otherwise the scapegoat would seem like a valid offering.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Its designation for Azazel removes it from the normal sacrificial category.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "If one of the goats dies after the lottery: complex replacement rules apply.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "If the 'for God' goat dies after the lottery but before slaughtering.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "A replacement must be brought; the replacement undergoes a new lottery.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "But the question: what happens to the surviving Azazel goat?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Does it remain valid for Azazel until a replacement lottery resolves the new pair?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Or does the death of its partner automatically invalidate it?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The dispute follows from the paired nature of the two goats.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "If they are a complete unit, one's death invalidates the other.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "If they are independent in their respective roles, the survivor continues.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The resolution: the survivor is held pending until the replacement pair is ready.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Then a new lottery is performed on the new pair.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The original survivor is included in or compared to the new lottery.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The rules here protect against situations where the Yom Kippur service cannot proceed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The goal is always to complete the service; replacement rules enable this.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Complex scenarios were prepared for during the HP's seven days of preparation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The HP was drilled on these contingency cases.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "His preparation was not just ritual but halachic - knowing all the rules.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The seven-day preparation was a total preparation: physical, spiritual, and legal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "This comprehensive preparation is itself a model.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Total preparation, total focus, total service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The HP was the most prepared person in Israel on the holiest day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "And his preparation enabled the most effective service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The contingency rules are not failures of planning but enhancements to it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Knowing what to do when things go wrong is itself part of excellence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The Talmud's preservation of these contingency rules is therefore not just legal but pastoral.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "It teaches: be prepared for all eventualities, and have a plan.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The HP's example: even in the most sacred service, things can go wrong.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "And having planned for that in advance is what makes the service succeed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "This is a teaching for life, not just for the Temple.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Be so prepared that even unexpected developments can be handled with clarity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The HP's preparation for the Yom Kippur service was the ultimate model for this.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Seven days of drill, practice, and halachic review.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "So that on the day itself, nothing could surprise or derail him.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

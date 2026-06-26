@@ -1,0 +1,642 @@
+{
+  "canonicalRef": "Yoma 57b",
+  "summary": "Two topics: First, emergency procedures for blood bowl confusion or accidental mixing - if the HP cannot identify which bowl holds bull vs. goat blood, he sprinkles from each bowl in three sequential rounds, ensuring the required service is fulfilled regardless of bowl identity. Blood mixed accidentally into a third bowl is handled similarly. Second, the conclusion of the blood service: the HP pours the remaining blood at the western base of the outer altar, completing the full four-zone Yom Kippur purification circuit.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-057b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 25
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.57b.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.57b.2"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.57b.3"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.57b.4"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.57b.5"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.57b.6"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.57b.7"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.57b.8"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.57b.9"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.57b.10"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.57b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.57b.1",
+        "Yoma.57b.2",
+        "Yoma.57b.3",
+        "Yoma.57b.4",
+        "Yoma.57b.5",
+        "Yoma.57b.6",
+        "Yoma.57b.7",
+        "Yoma.57b.8",
+        "Yoma.57b.9",
+        "Yoma.57b.10",
+        "Yoma.57b.11"
+      ],
+      "display": {
+        "whats": "Bowl confusion and blood mixing emergencies: three-round sprinkling covers all scenarios",
+        "hint": "If the HP cannot identify which bowl holds bull vs. goat blood, or if some blood spills into a third bowl, the Gemara prescribes sprinkling from each bowl in sequence - guaranteeing the required service regardless of which bowl holds which blood."
+      },
+      "learning": {
+        "summary": "The Gemara addresses two emergency scenarios. First: bowls are confused - the HP cannot tell which holds bull blood and which holds goat blood. Solution: sprinkle from each bowl in three successive rounds. Since bull must precede goat, the required sequence will be fulfilled by at least one of the round-pairs regardless of actual bowl identity. Second: some blood spills into an empty third bowl, creating a mixed and uncertain quantity. Solution: sprinkle from all three bowls, covering all possibilities. Each blood retains its atonement power even when mixed.",
+        "ahaMoment": "When you can't identify the blood, systematic sequential coverage guarantees the service is done - certainty of procedure substitutes for certainty of identity.",
+        "memoryAnchor": "Three bowls: when identity is lost, sequence coverage ensures the service is complete no matter what.",
+        "openQuestion": "What is the minimum level of certainty required for the Yom Kippur blood service to be valid?"
+      },
+      "argumentFlow": [
+        {
+          "type": "problem",
+          "speaker": "Gemara",
+          "text": "HP cannot distinguish the bull's bowl from the goat's bowl.",
+          "id": "yoma-057b-l01",
+          "label": "Problem: HP cannot distinguish the bull's bowl from",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "solution",
+          "speaker": "Gemara",
+          "text": "Sprinkle from each bowl in sequence: three rounds cover all identity scenarios.",
+          "id": "yoma-057b-l03",
+          "label": "Solution: Sprinkle from each bowl in sequence: three",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l03",
+              "vilnaLine": 3
+            }
+          ]
+        },
+        {
+          "type": "new case",
+          "speaker": "Gemara",
+          "text": "Some blood from two bowls spills into an empty third bowl.",
+          "id": "yoma-057b-l06",
+          "label": "New case: Some blood from two bowls spills into",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "solution",
+          "speaker": "Gemara",
+          "text": "Sprinkle from all three bowls; required service is fulfilled through this coverage.",
+          "id": "yoma-057b-l11",
+          "label": "Solution: Sprinkle from all three bowls; required service",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "type": "principle",
+          "speaker": "Gemara",
+          "text": "Each blood retains atonement power even when mixed with the other blood.",
+          "id": "yoma-057b-l19",
+          "label": "Principle: Each blood retains atonement power even when",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l19",
+              "vilnaLine": 19
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bowl confusion",
+        "blood spilling",
+        "emergency procedure",
+        "three bowls",
+        "coverage"
+      ],
+      "concepts": {
+        "halachic": [
+          "blood bowl confusion solution",
+          "mixed blood procedure",
+          "atonement under uncertainty"
+        ],
+        "theological": [
+          "resilience of Yom Kippur service",
+          "procedure as substitute for certainty"
+        ],
+        "narrative": [
+          "halachic problem-solving",
+          "ritual contingency"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing bull blood must precede goat blood in all phases",
+        "Knowing the structure of each phase's service"
+      ],
+      "misconceptions": [
+        "The service is not invalidated by bowl confusion - systematic coverage solves it"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "three-round sprinkling covering all bowl identity scenarios"
+        },
+        {
+          "type": "contrast",
+          "name": "certain identity vs. procedural coverage"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "If the HP cannot tell which bowl holds bull blood and which holds goat blood, what does he do?",
+          "answer": "He sprinkles from each bowl in sequence for three rounds. Since bull must precede goat, the required sequence is guaranteed to be fulfilled by at least one of the round-pairs."
+        }
+      ],
+      "finalRuling": "When blood bowls are confused, sprinkling from each bowl in sequence guarantees the required service is fulfilled regardless of actual identity.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-057b-s02",
+      "lineRange": {
+        "startVilnaLine": 27,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.57b.12"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.57b.13"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.57b.14"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.57b.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.57b.12",
+        "Yoma.57b.13",
+        "Yoma.57b.14",
+        "Yoma.57b.15"
+      ],
+      "display": {
+        "whats": "Remaining blood poured at the outer altar's western base; blood service complete",
+        "hint": "After all sprinklings are complete, the HP pours the remaining blood from all services at the western base of the outer altar, concluding the complete four-zone Yom Kippur blood circuit."
+      },
+      "learning": {
+        "summary": "The final act: the HP brings whatever blood remains after all the sprinklings to the western base of the outer altar and pours it there. This concludes the spatial circuit - blood that entered the Holy of Holies has now completed its journey at the outermost point of the Temple. The circuit is: Holy of Holies (kapporet), boundary (parochet), inner altar (golden altar), outer altar base. With this pour, the entire blood service is complete.",
+        "ahaMoment": "The blood completes its journey from the innermost (kapporet) to the outermost (outer altar base) - a full traversal of Temple sacred space in the service of atonement.",
+        "memoryAnchor": "Blood's circuit: from the Ark to the outer altar - the entire Temple purified in one Yom Kippur day.",
+        "openQuestion": "Why is the blood remainder poured rather than simply disposed of? What is its concluding function?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "Remaining blood is poured at the western base of the outer altar.",
+          "id": "yoma-057b-l27",
+          "label": "Ruling: Remaining blood is poured at the western",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l27",
+              "vilnaLine": 27
+            }
+          ]
+        },
+        {
+          "type": "completion",
+          "speaker": "Gemara",
+          "text": "This concludes the four-zone blood circuit: Holy of Holies, parochet, golden altar, outer base.",
+          "id": "yoma-057b-l30",
+          "label": "Completion: This concludes the four-zone blood circuit: Holy",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l30",
+              "vilnaLine": 30
+            }
+          ]
+        },
+        {
+          "type": "detail",
+          "speaker": "Gemara",
+          "text": "Both the bull's and goat's remainders are poured at this western base.",
+          "id": "yoma-057b-l34",
+          "label": "Detail: Both the bull's and goat's remainders are",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-057b-l34",
+              "vilnaLine": 34
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "outer altar base",
+        "blood remainder",
+        "western base",
+        "blood service completion"
+      ],
+      "concepts": {
+        "halachic": [
+          "pouring remainder at altar base",
+          "concluding the blood circuit"
+        ],
+        "theological": [
+          "the Temple as complete system of purification",
+          "blood completing its sacred journey"
+        ],
+        "narrative": [
+          "Yom Kippur conclusion",
+          "outer altar"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing there are four zones and the outer altar is the last",
+        "Knowing the western base specifically receives this blood"
+      ],
+      "misconceptions": [
+        "The base pouring is not a sprinkle - it is a disposal pour that completes the service"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "name": "four-zone blood circuit: Holy of Holies to outer altar base"
+        },
+        {
+          "type": "place",
+          "name": "western base of outer altar"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Where does the remaining blood go after all the Yom Kippur sprinklings are complete?",
+          "answer": "The HP pours it at the western base of the outer altar, completing the full four-zone circuit of purification."
+        }
+      ],
+      "finalRuling": "The remaining blood is poured at the outer altar's western base, completing the full Yom Kippur blood service circuit across four zones.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Bowls into bowls - he cannot tell which bowl held the bull's blood and which held the goat's.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "He gives and comes back and gives and comes back and gives - in each service: one above and seven below from the first bowl, then from the second, then from the first.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Whatever happens: if the first bowl is bull's blood, the service is fulfilled with the first and second rounds.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "And if the first was goat's, the service is fulfilled with the second and third rounds.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Similarly for the Heichal service - the same three-round coverage applies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Some blood mixed together - blood from two bowls spilled into an empty third bowl.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "He does not know which was the bull's and which was the goat's.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "He is required to sprinkle from the bull's blood before the goat's blood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "If he reversed and sprinkled from the goat first, the service is valid after the fact.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "But ab initio, he must follow the order: bull before goat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The mixing problem: when bloods intermingle, sequence must still be maintained.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "He sprinkles from the mixture with appropriate intention.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Each sprinkle from the mixture serves its intended purpose.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "If the parochet service was done with one blood and the other is unavailable.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "What was done stands - the completed portion is not voided.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Each blood atones for its own constituency even when mixed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Bull's blood atones for the priests; goat's blood atones for the Israelites.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "When mixed, each drop retains its atonement power for its constituency.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The mixture does not invalidate either blood's atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "A third bowl receiving spillage: its identity is uncertain.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "He sprinkles from all three bowls to ensure the service is complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "From each bowl in turn, performing the full service from each.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Even if this means extra sprinkles beyond what is technically required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Extra sprinkles do not invalidate this service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "He acts conservatively to ensure the required service is fulfilled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The blood remaining in the bowl after all sprinklings - the leftover.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "After all sprinklings, the remaining blood goes to the outer altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Specifically to the western base of the outer altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The base receives the final remnant blood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Which base: the western base of the outer altar.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Both the bull's remainder and the goat's remainder are poured there.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Together they conclude their purpose at this final point.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The pouring at the base concludes the blood service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "After pouring, the atonement for the categories addressed by this service is complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "This completes the blood service sequence of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Four zones have been purified: kapporet, parochet, golden altar, outer altar base.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Each zone corresponds to a category of sin or class of people.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The HP has moved through the entire sacred space, purifying every zone.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "The remaining blood concludes the service at the outermost zone.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Yom Kippur blood atonement is complete through this full four-zone circuit.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "No further blood services remain after the base pouring.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The HP then changes clothes and begins the non-blood services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The scapegoat service follows.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The order: blood services first, then scapegoat, then reading, then later services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Everything flows from the inner blood service outward.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "The HP is the axis around which Yom Kippur rotates.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "His precision in the blood service sanctifies the entire day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "If he failed in the blood service, the entire atonement is in question.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Therefore the Talmud is so precise about every detail.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Each rule about technique, count, and order serves the integrity of the atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "The HP is tested, prepared, and the most spiritually ready person in Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "On this day, his service is the service of all Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "The blood is Israel's petition; the HP is its messenger.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "The kapporet is where God accepts; the HP is the intermediary.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "This is the heart of Yom Kippur as described in Leviticus 16.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "The entire tractate Yoma is commentary on this moment.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Understanding this service is essential to understanding Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The Talmud preserves this service in exacting detail for future generations.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Even without a Temple, detailed study of this service is considered meritorious.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

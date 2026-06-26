@@ -1,0 +1,1080 @@
+{
+  "canonicalRef": "Yoma 73a",
+  "summary": "The Gemara works out which vestments the anointed-for-war priest wears (neither four nor eight - a middle number). It then lists the halakhic differences between the High Priest and the ordinary kohen in a comprehensive baraita, and concludes with the procedure for consulting the Urim VeTummim.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-073a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 31
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.73a.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.73a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.73a.3"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.73a.4"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.73a.5"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.73a.6"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.73a.7"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.73a.8"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.73a.9"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.73a.10"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.73a.11"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.73a.12"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.73a.13"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.73a.14"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.73a.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.73a.1",
+        "Yoma.73a.2",
+        "Yoma.73a.3",
+        "Yoma.73a.4",
+        "Yoma.73a.5",
+        "Yoma.73a.6",
+        "Yoma.73a.7",
+        "Yoma.73a.8",
+        "Yoma.73a.9",
+        "Yoma.73a.10",
+        "Yoma.73a.11",
+        "Yoma.73a.12",
+        "Yoma.73a.13",
+        "Yoma.73a.14",
+        "Yoma.73a.15"
+      ],
+      "display": {
+        "whats": "Anointed-for-war priest vestments, HP vs ordinary kohen, and animosity rules",
+        "hint": "The anointed-for-war priest is neither a full HP nor an ordinary kohen - so how many vestments does he wear?"
+      },
+      "learning": {
+        "summary": "The Gemara debates the vestments of the anointed-for-war priest (neither four nor eight). A comprehensive baraita lists the differences between the High Priest and ordinary kohen: HP brings a bull for individual sin, does not tear garments from above in mourning, sacrifices even as an onen, takes the first showbread portion. These rules apply also to the merubeh begadim priest and former HP. The animosity concern applies among subordinates, not among equals. An account of Rabbi Abbahu's transmission of this halakha.",
+        "ahaMoment": "A special category of priest requiring a custom ruling - neither fully up nor fully down.",
+        "memoryAnchor": "The anointed-for-war priest is stuck between categories, requiring the rabbis to carve out a new rule.",
+        "openQuestion": "Is the anointed-for-war priest's status permanent or only during wartime?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-073a-l01",
+          "type": "ruling",
+          "label": "Seven-day investiture applies to HP successor",
+          "speaker": "Baraita",
+          "text": "Only the one fit to enter the Tent of Meeting wears the vestments",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l02",
+          "type": "ruling",
+          "label": "Primary anointing determines vestments",
+          "speaker": "Rav Nachman bar Yitzchak",
+          "text": "Oil-anointed: eight vestments; other HP categories follow",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l02",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l03",
+          "type": "objection",
+          "label": "Anointed-for-war in neither category",
+          "speaker": "Baraita",
+          "text": "Not four (ordinary) nor eight (full HP)",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l03",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l04",
+          "type": "ruling",
+          "label": "Cannot make him a non-priest",
+          "speaker": "Abaye",
+          "text": "He must wear vestments appropriate to his intermediate status",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l04",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l05",
+          "type": "question",
+          "label": "Animosity among whom?",
+          "speaker": "Rav Adda bar Abba",
+          "text": "What tanna holds that animosity concern does not apply?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l05",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l06",
+          "type": "ruling",
+          "label": "HP brings bull for individual sin",
+          "speaker": "Baraita",
+          "text": "Ordinary kohen does not",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l06",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l07",
+          "type": "ruling",
+          "label": "HP mourning restrictions",
+          "speaker": "Baraita",
+          "text": "No wild hair, no tearing from above - tears from below instead",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l07",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l08",
+          "type": "ruling",
+          "label": "HP sacrifices as onen but does not eat",
+          "speaker": "Baraita",
+          "text": "First portion of showbread goes to him",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l08",
+              "vilnaLine": 18
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l09",
+          "type": "ruling",
+          "label": "Merubeh begadim same except YK bull",
+          "speaker": "Baraita",
+          "text": "All HP distinctions apply to the multi-vestment priest",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l09",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l10",
+          "type": "ruling",
+          "label": "Former HP same except YK laws",
+          "speaker": "Baraita",
+          "text": "Retains HP distinctions except for Yom Kippur bull and lot",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l10",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l11",
+          "type": "ruling",
+          "label": "Anointed-for-war priest: five items only",
+          "speaker": "Baraita",
+          "text": "Does not share most HP distinctions",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l11",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l12",
+          "type": "ruling",
+          "label": "Animosity among subordinates only",
+          "speaker": "Gemara",
+          "text": "Among equals, there is no halakhic concern for animosity",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l12",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l14",
+          "type": "narrative",
+          "label": "Rabbi Abbahu corrected on attribution",
+          "speaker": "Gemara",
+          "text": "He accepted the correction out of honor for Rabbi Yochanan",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l14",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l15",
+          "type": "objection",
+          "label": "Rav Pappa's question",
+          "speaker": "Rav Pappa",
+          "text": "Granted Rabbi Abbahu's reason - but why would others change their attribution?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l15",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "priestly-vestments",
+        "anointed-for-war",
+        "status"
+      ],
+      "concepts": {
+        "halachic": [
+          "anointed-for-war priest wears neither four nor eight vestments"
+        ],
+        "theological": [
+          "intermediate priestly categories in Temple law"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why can't the anointed-for-war priest wear ordinary four vestments?",
+          "answer": "That would demote him to ordinary kohen status; he has a special anointed status requiring intermediate treatment",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Anointed-for-war priest wears an intermediate number of vestments.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-073a-s02",
+      "lineRange": {
+        "startVilnaLine": 32,
+        "endVilnaLine": 37
+      },
+      "lines": [
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.73a.16"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.73a.17"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.73a.18"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.73a.19"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.73a.16",
+        "Yoma.73a.17",
+        "Yoma.73a.18",
+        "Yoma.73a.19"
+      ],
+      "display": {
+        "whats": "How to consult the Urim VeTummim: procedure and voice level",
+        "hint": "What is the exact procedure for consulting the Urim VeTummim?"
+      },
+      "learning": {
+        "summary": "The Sages taught: the questioner faces the HP. He states his question clearly but not aloud (not loud enough to be heard by others). The HP does not merely think the answer; the response is received at an intermediate level - between thought and speech. One may not ask two questions simultaneously.",
+        "ahaMoment": "Asking the Urim VeTummim is not a public announcement and not a private thought - it occupies a unique middle space.",
+        "memoryAnchor": "Quiet but spoken - neither shouted nor silent. An unusual halakhic category for divine communication.",
+        "openQuestion": "What happens if someone asks two questions of the Urim VeTummim at once?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-073a-l16",
+          "type": "ruling",
+          "label": "Asker faces HP",
+          "speaker": "Baraita",
+          "text": "The questioner stands before the HP and asks facing him",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l16",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l17",
+          "type": "ruling",
+          "label": "Example of a question",
+          "speaker": "Baraita",
+          "text": "'Shall I pursue this troop?' - HP receives the answer",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l17",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l18",
+          "type": "ruling",
+          "label": "Not aloud, not purely mental",
+          "speaker": "Baraita",
+          "text": "Neither audible to bystanders nor silent thought",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l18",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "yoma-073a-l19",
+          "type": "ruling",
+          "label": "Only one question at a time",
+          "speaker": "Baraita",
+          "text": "If two questions asked, only one answered",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-073a-l19",
+              "vilnaLine": 37
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Urim-VeTummim",
+        "consultation-procedure",
+        "voice-level"
+      ],
+      "concepts": {
+        "halachic": [
+          "Urim VeTummim consultation: asker faces HP, question at intermediate voice level, one question at a time"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "At what volume does one ask a question of the Urim VeTummim?",
+          "answer": "Neither aloud (heard by others) nor purely mental - an intermediate level between thought and speech",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Urim VeTummim consultation: face the HP, ask at intermediate voice level, one question at a time.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "מְשׁוּחַ מִלְחָמָה",
+      "translit": "Mashuach milchama",
+      "en": "Priest anointed for war, who accompanied the army to announce battle; a special priestly category with unique laws."
+    },
+    {
+      "he": "אוֹנֵן",
+      "translit": "Onen",
+      "en": "Acute mourner, in the period between death and burial of a close relative; normally forbidden from eating sacred food."
+    },
+    {
+      "he": "מְרוּבֶּה בְּגָדִים",
+      "translit": "Merubeh begadim",
+      "en": "High Priest who was installed by wearing the eight vestments rather than through oil anointing."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "תלמוד לומר אשר יבא אל אהל מועד מי שראוי לבא אל אהל מועד.  לכפר בקודש ביום הכפורים עליו אני אומר לך תחתיו מבניו",
+      "en": "the verse teaches: only one who is fit to enter the Tent of Meeting may wear the vestments - excluding the anointed-for-war priest",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "שבנו יהיה תחתיו יצא זה שאינו ראוי וכו' דלאו כהן גדול הוא: ואם איתא. דבח' בגדים הוא משמש כל השנה האי נמי מיחזא חזי",
+      "en": "Rav Nachman bar Yitzchak: the baraita means those whose primary anointing is oil serve in eight vestments",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "דכתיב ביוה\"כ וכפר הכהן אשר ימשח אותו ואשר ימלא את ידו וכל מילוי ידים על ידי הבגדים הוא כדכתיב ובגדי הקדש אשר לאהרן",
+      "en": "objection: the anointed-for-war priest neither serves in four (like an ordinary kohen) nor in eight (like the HP)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "(שמות כט) : משום איבה. אבל מדאורייתא חזי: דלית ליה איבה. דלא חייש לאיבה: ולא קמשמש. כלומר וקאמר דלא משמש משוח",
+      "en": "Abaye: you can't make him a non-priest entirely - he must wear some vestments appropriate to his status",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "מלחמה בשמונה: פר כהן משיח לא",
+      "en": "Rav Adda bar Abba to Rava: what does this tanna hold who doesn't accept the animosity concern?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "גרסינן דהיינו פר הבא על כל",
+      "en": "baraita: differences between HP and ordinary priest - HP brings bull for individual sin, ordinary priest does not",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "המצות כהן משיח שחטא בהעלם",
+      "en": "HP does not let hair grow wild or tear his garments in mourning, but tears from below (unlike ordinary priest who tears from above)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "דבר ועשה דבר שחייבין על זדונו",
+      "en": "HP sacrifices even as an acute mourner (onen) but does not eat; he takes the first portion of the showbread",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "כרת מביא פר וההדיוט מביא כשבה",
+      "en": "all these apply also to the merubeh begadim (multi-vestment) priest except the Yom Kippur bull",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "או שעירה כשאר יחיד שבישראל:",
+      "en": "all these apply to a former anointed HP except for the Yom Kippur bull and the Yom Kippur lot",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "ועשירית האיפה. שבכל יום כדכתיב",
+      "en": "none of these apply to the anointed-for-war priest except for five items",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "הכהן המשיח תחתיו מבניו יעשה",
+      "en": "when there is no animosity - among equals - there is animosity; among subordinates - yes there is",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "אותה (ויקרא ו) : לא פורע. ראשו",
+      "en": "Rabbi Abbahu was sitting and teaching this halakha in the name of Rabbi Yochanan; a student corrected his attribution",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "לגדל שיער מחמת אבילות: מלמטה.",
+      "en": "Rav Pappa objects: granted Rabbi Abbahu - out of honor for Rabbi Yochanan; but why would anyone else change the attribution?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "שיפולי בגדיו: ואינו מטמא לקרוביו.",
+      "en": "when Ravin came from Eretz Yisrael he said: the ruling was stated regarding asking (she'ilah), not wearing",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "אבל הדיוט מטמא לאותן האמורין",
+      "en": "the Sages taught: how does one consult the Urim VeTummim? The asker faces the one being asked (the HP)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "בפרשה: ומצווה על הבתולה.",
+      "en": "the asker states his question: 'Shall I pursue this troop?' and the answer comes forth",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "בעשה: ומוזהר על האלמנה. בלאו:",
+      "en": "one does not ask aloud (it would shame the HP to speak audibly); and not by mere thought - an intermediate level",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "ומחזיר את הרוצח. במיתתו: ומקריב",
+      "en": "one does not ask two questions simultaneously; if he did, the answer addresses only one of them",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "אונן. דכתיב ומן המקדש לא יצא",
+      "en": "[Rashi commentary on line 20]: אונן. דכתיב ומן המקדש לא יצא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "(ויקרא כא) כדפרישית בפרק קמא",
+      "en": "[Rashi commentary on line 21]: (ויקרא כא) כדפרישית בפרק קמא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "(דף יג:): ואינו אוכל. כלומר אף",
+      "en": "[Rashi commentary on line 22]: (דף יג:): ואינו אוכל. כלומר אף",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "על פי שהוא חלוק מן ההדיוט לענין",
+      "en": "[Rashi commentary on line 23]: על פי שהוא חלוק מן ההדיוט לענין",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "הקרבה שוה הוא לו לענין אכילה:",
+      "en": "[Rashi commentary on line 24]: הקרבה שוה הוא לו לענין אכילה:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ואינו חולק. כשהוא אונן לאכול לערב",
+      "en": "[Rashi commentary on line 25]: ואינו חולק. כשהוא אונן לאכול לערב",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "כשתעבור האנינות דאמרינן בזבחים",
+      "en": "[Rashi commentary on line 26]: כשתעבור האנינות דאמרינן בזבחים",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "פרק טבול יום (דף צט.) הראוי לאכילה",
+      "en": "[Rashi commentary on line 27]: פרק טבול יום (דף צט.) הראוי לאכילה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "חולק שאינו ראוי לאכילה אינו חולק:",
+      "en": "[Rashi commentary on line 28]: חולק שאינו ראוי לאכילה אינו חולק:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "ומקריב חלק בראש. מפורש בפ\"ק",
+      "en": "[Rashi commentary on line 29]: ומקריב חלק בראש. מפורש בפ\"ק",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "(דף יד.): ופטור על טומאת מקדש.",
+      "en": "[Rashi commentary on line 30]: (דף יד.): ופטור על טומאת מקדש.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "בהוריות נפקא לן מקרא בפרק בתרא",
+      "en": "[Rashi commentary on line 31]: בהוריות נפקא לן מקרא בפרק בתרא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "וכולה הך מתניתא מפרש לה התם:",
+      "en": "[Rashi commentary on line 32]: וכולה הך מתניתא מפרש לה התם:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "מרובה בגדים. כהנים גדולים ששימשו",
+      "en": "[Rashi commentary on line 33]: מרובה בגדים. כהנים גדולים ששימשו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "מיום שנגנז שמן המשחה שלא היה",
+      "en": "[Rashi commentary on line 34]: מיום שנגנז שמן המשחה שלא היה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "להם לכהונה גדולה אלא בריבוי",
+      "en": "[Rashi commentary on line 35]: להם לכהונה גדולה אלא בריבוי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "בגדים: חוץ מפר הבא על כל המצות.",
+      "en": "[Rashi commentary on line 36]: בגדים: חוץ מפר הבא על כל המצות.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "דמשיח כתיב ביה ואע\"ג דגבי עשירית",
+      "en": "[Rashi commentary on line 37]: דמשיח כתיב ביה ואע\"ג דגבי עשירית",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "האיפה נמי משיח כתיב איתרבי נמי",
+      "en": "[Rashi commentary on line 38]: האיפה נמי משיח כתיב איתרבי נמי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "מרובה בגדים מוהכהן בת\"כ אבל",
+      "en": "[Rashi commentary on line 39]: מרובה בגדים מוהכהן בת\"כ אבל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "הכהן דכתיב גבי פר הבא על כל",
+      "en": "[Rashi commentary on line 40]: הכהן דכתיב גבי פר הבא על כל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "המצות איצטריך לגופיה כדתניא בת\"כ",
+      "en": "[Rashi commentary on line 41]: המצות איצטריך לגופיה כדתניא בת\"כ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "משיח יכול זה מלך ת\"ל הכהן: וכולן",
+      "en": "[Rashi commentary on line 42]: משיח יכול זה מלך ת\"ל הכהן: וכולן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "נוהגות במשוח שעבר. כגון אם אירע",
+      "en": "[Rashi commentary on line 43]: נוהגות במשוח שעבר. כגון אם אירע",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "פסול בכהן גדול ומינו אחר תחתיו",
+      "en": "[Rashi commentary on line 44]: פסול בכהן גדול ומינו אחר תחתיו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "ולאחר זמן חזר ראשון לעבודתו ועבר",
+      "en": "[Rashi commentary on line 45]: ולאחר זמן חזר ראשון לעבודתו ועבר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "זה ממשיחותו כולן נוהגות בו: חוץ",
+      "en": "[Rashi commentary on line 46]: זה ממשיחותו כולן נוהגות בו: חוץ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "מפר יום הכפורים ועשירית האיפה.",
+      "en": "[Rashi commentary on line 47]: מפר יום הכפורים ועשירית האיפה.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "שהם חובה קבועה וחדא אמר",
+      "en": "[Rashi commentary on line 48]: שהם חובה קבועה וחדא אמר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "רחמנא דתיקרב ולא שתים: האמורין",
+      "en": "[Rashi commentary on line 49]: רחמנא דתיקרב ולא שתים: האמורין",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "בפרשה. גבי והכהן הגדול מאחיו",
+      "en": "[Rashi commentary on line 50]: בפרשה. גבי והכהן הגדול מאחיו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "(ויקרא כא) דהתם איתרבי נמי משוח",
+      "en": "[Rashi commentary on line 51]: (ויקרא כא) דהתם איתרבי נמי משוח",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "מלחמה כדמפרש בהוריות (דף יב:)",
+      "en": "[Rashi commentary on line 52]: מלחמה כדמפרש בהוריות (דף יב:)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "מאשר יוצק (ויקרא כא) ואלו הן חמשה דברים לא פורע ולא פורם ואינו מטמא לקרובים ומצווה על הבתולה ומוזהר על האלמנה אבל לא",
+      "en": "[Rashi commentary on line 53]: מאשר יוצק (ויקרא כא) ואלו הן חמשה דברים לא פורע ולא פורם ואי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "מקריב אונן ואף על גב דכתיב בההיא פרשתא דהכי תניא בהוריות יכול יקריב אונן תלמוד לומר עליו ולא על חבירו: ומחזיר",
+      "en": "[Rashi commentary on line 54]: מקריב אונן ואף על גב דכתיב בההיא פרשתא דהכי תניא בהוריות יכו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "את הרוצח כדברי רבי יהודה. דמרבי ליה במסכת מכות (דף יא.) מקראי ופליגי רבנן עליה אלמא האי תנא לית ליה איבה מדקתני",
+      "en": "[Rashi commentary on line 55]: את הרוצח כדברי רבי יהודה. דמרבי ליה במסכת מכות (דף יא.) מקרא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "כולן נוהגות במשוח שעבר דמשמש [בח'] בגדים ואפילו הכי משוח מלחמה לא דקתני כולן אין נוהגות במשוח מלחמה: כי לית ליה",
+      "en": "[Rashi commentary on line 56]: כולן נוהגות במשוח שעבר דמשמש [בח'] בגדים ואפילו הכי משוח מלח",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "איבה בדכוותיה. משוח שעבר גדול היה כמותו אבל משוח מלחמה דזוטר מיניה חושש לאיבתו: להא שמעתא. דכי אתא רב דימי:",
+      "en": "[Rashi commentary on line 57]: איבה בדכוותיה. משוח שעבר גדול היה כמותו אבל משוח מלחמה דזוטר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "אהדרינהו לאפייהו. כלומר לא אמרה ר' יוחנן: רבי אבהו. חשוב היה בבית המלך כדאמרינן במסכת חגיגה (דף יד.) נשוא",
+      "en": "[Rashi commentary on line 58]: אהדרינהו לאפייהו. כלומר לא אמרה ר' יוחנן: רבי אבהו. חשוב היה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "פנים כגון ר' אבהו בי קיסר ובסנהדרין (דף יד.) נמי אמרינן דנפקי אמהתא דבי קיסר לאפיה ומשרו ליה: נימרו ליה מימר.",
+      "en": "[Rashi commentary on line 59]: פנים כגון ר' אבהו בי קיסר ובסנהדרין (דף יד.) נמי אמרינן דנפק",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "בהדיא לא אמרה רבי יוחנן: כי אתא רבין אמר. לאו משמש בהן איתמר אלא נשאל בהן איתמר בגדים שכהן גדול משמש",
+      "en": "[Rashi commentary on line 60]: בהדיא לא אמרה רבי יוחנן: כי אתא רבין אמר. לאו משמש בהן איתמר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "בהן משוח מלחמה נשאל כשיוצא למלחמה ונשאל באורים ותומים שהמלך נשאל לו בהן: השואל. מלך או אב בית דין: פניו",
+      "en": "[Rashi commentary on line 61]: בהן משוח מלחמה נשאל כשיוצא למלחמה ונשאל באורים ותומים שהמלך ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "כלפי נשאל. כלפי כהן: כלפי שכינה. כלפי אורים ותומים ושם המפורש שבתוך החושן: ושאל לו. משמע לו לבדו שאין שומע",
+      "en": "[Rashi commentary on line 62]: כלפי נשאל. כלפי כהן: כלפי שכינה. כלפי אורים ותומים ושם המפור",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "he": "אלא הוא: אינו מהרהר בלבו. אלא יוציא בשפתיו מה הוא שואל שנאמר ושאל לו במשפט האורים וסמיך ליה על פיו יצאו קרי",
+      "en": "[Rashi commentary on line 63]: אלא הוא: אינו מהרהר בלבו. אלא יוציא בשפתיו מה הוא שואל שנאמר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "he": "ביה הכי ושאל לו השואל על פיו שמוציא דברים בפיו: שני דברים כאחד. אלא לאחר שהשיבו לו על הראשון שואל לו על השני:",
+      "en": "[Rashi commentary on line 64]: ביה הכי ושאל לו השואל על פיו שמוציא דברים בפיו: שני דברים כא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "he": "שלא",
+      "en": "[Rashi commentary on line 65]: שלא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

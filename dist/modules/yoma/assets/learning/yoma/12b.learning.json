@@ -1,0 +1,946 @@
+{
+  "daf": "12b",
+  "canonicalRef": "Yoma 12b",
+  "summary": "Rav Pappa's answer to 12a's question: no special initiation is needed for the replacement High Priest - his first act of service itself initiates him, just as Temple vessels after Moshe were consecrated by use rather than anointing. The daf then examines the belt of the common priest: is it linen (like the KG's Yom Kippur belt) or kilayim (like the KG's year-round belt)? Rav Dimi and Ravin bring conflicting traditions from Eretz Yisrael, with Ravin specifying that Rabbi holds kilayim and Rabbi Elazar b'Rabbi Shimon holds linen. A baraita about 'al besaro yilbash' clarifies the scope. The daf closes with the status of two simultaneously appointed KGs: R. Meir says the replacement retains full KG obligations; R. Yosei rules he is suspended from both offices, illustrated by the case of Yosef ben Elem of Tzippori.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-12b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 3
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.12b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.12b.1"
+      ],
+      "display": {
+        "whats": "Rav Pappa answers the hanging question from 12a: the replacement KG needs no special initiation ceremony. His first performance of Yom Kippur service itself initiates him as KG - the principle 'avodato m'chanakhto' (his service inaugurates him). Proof: Moshe's vessels required anointing to be consecrated, but thereafter all Temple vessels were consecrated by use alone. The same principle applies to priests.",
+        "hint": "The analogy to Temple vessels is precise: first-generation requires a formal rite (anointing / multiple garments), subsequent generations are initiated by performing the function itself. The service of Yom Kippur is inherently a KG act - performing it makes you KG."
+      },
+      "learning": {
+        "summary": "No inauguration ceremony is needed for the replacement KG. The act of Yom Kippur service itself confers KG status - 'avodato m'chanakhto.' This parallels Temple vessels: Moshe's original vessels needed anointing; all later vessels were consecrated by use.",
+        "ahaMoment": "Function creates status - serving as KG makes one KG. The service itself is the initiation.",
+        "memoryAnchor": "Moshe's spoon vs. Solomon's spoon: one anointed, one just used - both fully holy.",
+        "openQuestion": "If service initiates, does the replacement become fully KG for all halakhot the moment he begins, or only retroactively after completing the Yom Kippur service?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "answer",
+          "label": "Avodato m'chanakhto - service is the initiation",
+          "speaker": "Rav Pappa",
+          "text": "The replacement KG's very performance of Yom Kippur service initiates him - no preliminary ceremony required. Proof from Temple vessels: Moshe's vessels required anointing; from that point forward, vessels were consecrated by use. The same principle applies to the KG's office.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l01",
+              "vilnaLine": 1,
+              "note": "Service initiates the replacement KG"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kehuna gedola",
+        "inauguration",
+        "avodah",
+        "analogy"
+      ],
+      "concepts": [
+        {
+          "term": "avodato m'chanakhto",
+          "def": "Service itself inaugurates - performing a priestly function is the rite of initiation, no separate ceremony needed."
+        },
+        {
+          "term": "mishchatam m'kadshatan",
+          "def": "Their anointing consecrates them - the first-generation method of consecrating Temple vessels via oil."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.12b.1"
+      ],
+      "requiresUnderstanding": [
+        "The 12a problem of the replacement KG's inauguration method",
+        "Moshe's initiation of the Mishkan vs. later generations"
+      ],
+      "misconceptions": [
+        "One might think the replacement KG needs a special ceremony parallel to the original KG's multiple days of service - the Gemara rules that service itself is sufficient."
+      ],
+      "relatedSugyot": [
+        "yoma-012a-s01",
+        "yoma-012a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "desc": "KG in full 8 garments beginning Yom Kippur service - the first act as his inauguration"
+        },
+        {
+          "type": "contrast",
+          "desc": "Moshe anointing the golden spoon vs. later kohen simply using it in service"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "mc",
+          "q": "How is the replacement KG initiated into his role according to Rav Pappa?",
+          "correct": "His performance of Yom Kippur service itself initiates him - no separate ceremony is needed.",
+          "distractors": [
+            "He must be anointed with oil like the original KG",
+            "He must serve seven consecutive days before Yom Kippur",
+            "He requires appointment by the Sanhedrin"
+          ]
+        },
+        {
+          "type": "source",
+          "q": "What is the source from Temple vessels that proves 'avodato m'chanakhto'?",
+          "correct": "Moshe's vessels required anointing; thereafter vessels were consecrated by use in service."
+        }
+      ],
+      "finalRuling": "The replacement KG's Yom Kippur service itself initiates him - no preliminary inauguration is required.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-12b-s02",
+      "lineRange": {
+        "startVilnaLine": 4,
+        "endVilnaLine": 29
+      },
+      "lines": [
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.12b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.12b.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.12b.4"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.12b.5"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.12b.6"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.12b.7"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.12b.8"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.12b.9"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.12b.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.12b.2",
+        "Yoma.12b.3",
+        "Yoma.12b.4",
+        "Yoma.12b.5",
+        "Yoma.12b.6",
+        "Yoma.12b.7",
+        "Yoma.12b.8",
+        "Yoma.12b.9",
+        "Yoma.12b.10"
+      ],
+      "display": {
+        "whats": "A dispute about the common priest's belt: does it match the KG's regular-year belt (kilayim, wool-linen mix) or the KG's Yom Kippur belt (buz, pure linen)? Rav Dimi reports the sages of Eretz Yisrael disagree without identifying who holds each position. Ravin clarifies: Rabbi says the common priest's belt is kilayim; Rabbi Elazar b'Rabbi Shimon says linen. A baraita about the phrase 'al besaro yilbash' (he shall wear on his flesh) from the trum hadeshen passage shows that the mitzna and avnet are full priestly garments requiring all four items, resolving who said what.",
+        "hint": "The key question is: whose belt matches whose? Year-round the KG wears kilayim; on YK the KG wears linen. The common priest's belt is the disputed middle ground. The baraita from Leviticus 6 resolves the identity question: Rabbi endorses kilayim for the common priest, making him parallel to the KG on regular days."
+      },
+      "learning": {
+        "summary": "The common priest's belt material is disputed. Rabbi holds it is kilayim (like the KG's regular belt); Rabbi Elazar b'Rabbi Shimon holds it is linen. Rav Dimi and Ravin bring different traditions; Ravin identifies the positions clearly. A baraita from the trum hadeshen verse ('al besaro yilbash') further illuminates the scope of the garment requirement.",
+        "ahaMoment": "Two different periods (year-round vs. Yom Kippur), two different priests (KG vs. common), and one disputed garment - the common priest's belt is the hinge between all these distinctions.",
+        "memoryAnchor": "Ravin clarified what Rav Dimi left murky: Rabbi goes kilayim for the common priest, matching the KG on regular days.",
+        "openQuestion": "If the common priest wears kilayim and the KG wears linen on Yom Kippur, what is the practical halakhic implication for a kohen who accidentally swaps garments?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Common priest's belt: kilayim or linen?",
+          "speaker": "Gemara",
+          "text": "When the KG wears linen on YK, the common priest's belt differs from the KG's belt. The question: does the common priest's belt match the KG's regular-year belt (kilayim) or YK belt (linen)?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l02",
+              "vilnaLine": 4,
+              "note": "Opening the belt dispute"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "tradition",
+          "label": "Rav Dimi: two sages dispute, identities unclear",
+          "speaker": "Rav Dimi",
+          "text": "When Rav Dimi came from Eretz Yisrael, he reported that Rabbi and Rabbi Elazar b'Rabbi Shimon dispute the common priest's belt material, but did not specify who holds which position.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l03",
+              "vilnaLine": 6,
+              "note": "Rav Dimi's tradition"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "tradition",
+          "label": "Ravin: Rabbi says kilayim, Rabbi Elazar says linen",
+          "speaker": "Ravin",
+          "text": "Ravin's tradition from Eretz Yisrael specifies: Rabbi holds the common priest's belt is kilayim; Rabbi Elazar b'Rabbi Shimon holds it is linen.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l08",
+              "vilnaLine": 22,
+              "note": "Ravin clarifies positions"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "proof",
+          "label": "Baraita from 'al besaro yilbash' confirms Rabbi's view",
+          "speaker": "Baraita",
+          "text": "The verse 'al besaro yilbash' (Leviticus 6) includes the mitzna and avnet in the trum hadeshen garment requirement, showing all four garments are needed. Rav Nachman bar Yitzhak shows this supports Rabbi's kilayim position.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l09",
+              "vilnaLine": 26,
+              "note": "Baraita support for Rabbi"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bigdei kehuna",
+        "kilayim",
+        "avnet",
+        "dispute",
+        "tradition"
+      ],
+      "concepts": [
+        {
+          "term": "kilayim",
+          "def": "A forbidden mixture - specifically wool and linen woven together (sha'atnez). Permitted only for Temple priestly garments."
+        },
+        {
+          "term": "buz",
+          "def": "Fine linen; the material of the KG's four Yom Kippur garments and (per Rabbi Elazar b'Rabbi Shimon) the common priest's belt."
+        },
+        {
+          "term": "avnet",
+          "def": "The priestly belt; its material differs between KG and common priest, and between Yom Kippur and the rest of the year - the focus of this dispute."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.12b.2",
+        "Yoma.12b.8"
+      ],
+      "requiresUnderstanding": [
+        "Four garments of the common priest vs. eight garments of the KG",
+        "The KG's special Yom Kippur linen garments"
+      ],
+      "misconceptions": [
+        "One might think the common priest's belt simply matches the KG's Yom Kippur belt since they're both 'linen garments' on that day - in fact this is exactly the disputed question.",
+        "The dispute is specifically about the common priest's belt; the other three garments (tunic, breeches, headgear) are not in dispute."
+      ],
+      "relatedSugyot": [
+        "yoma-007b-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "Side-by-side: KG in full 8 garments with kilayim belt (regular year) vs. KG in 4 linen garments (YK) vs. common priest with disputed belt"
+        },
+        {
+          "type": "text",
+          "desc": "The verse 'al besaro yilbash' (Leviticus 6:3) as the baraita's source"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "mc",
+          "q": "According to Ravin's tradition, what does Rabbi hold about the common priest's belt?",
+          "correct": "It is kilayim (wool-linen mix), matching the KG's regular-year belt.",
+          "distractors": [
+            "It is pure linen (buz), matching the KG's Yom Kippur belt",
+            "It is made of the same material as the KG's belt regardless of the day",
+            "The Torah leaves it undefined"
+          ]
+        },
+        {
+          "type": "compare",
+          "q": "What is the difference between Rav Dimi's and Ravin's traditions about this dispute?",
+          "correct": "Rav Dimi reported a dispute without identifying positions; Ravin explicitly specified who holds kilayim (Rabbi) and who holds linen (R. Elazar b'R. Shimon)."
+        }
+      ],
+      "finalRuling": "Halacha: the common priest's belt is kilayim (following Rabbi's position as clarified by Ravin).",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-12b-s03",
+      "lineRange": {
+        "startVilnaLine": 31,
+        "endVilnaLine": 42
+      },
+      "lines": [
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.12b.11"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.12b.12"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.12b.13"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.12b.14"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.12b.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.12b.11",
+        "Yoma.12b.12",
+        "Yoma.12b.13",
+        "Yoma.12b.14",
+        "Yoma.12b.15"
+      ],
+      "display": {
+        "whats": "If a replacement KG was appointed and then the original recovered: what is each man's status? R. Meir: the replacement retains all KG obligations (cannot marry a widow, cannot become impure for relatives, etc.). R. Yosei: the replacement is suspended from both offices - he cannot serve as KG (the original is alive) but also cannot step down to common priesthood (degrading a KG is forbidden). The practical tragedy: Yosef ben Elem of Tzippori served as replacement KG and was left with neither role. The mishna implies he may serve in emergencies, but is otherwise excluded.",
+        "hint": "R. Yosei's ruling creates a 'stranded' priest - fully consecrated for KG but blocked from exercising it, yet forbidden to step down. The case of Yosef ben Elem is not hypothetical; the story gives the ruling a human face."
+      },
+      "learning": {
+        "summary": "Two appointed High Priests exist simultaneously when the original recovers. R. Meir: the replacement keeps all KG obligations. R. Yosei: the replacement is suspended from both KG and common priesthood - illustrated by the tragic case of Yosef ben Elem of Tzippori.",
+        "ahaMoment": "R. Yosei creates a priest who is too holy to step down but blocked from his office - the collision between 'do not degrade a KG' and 'only one KG at a time.'",
+        "memoryAnchor": "Yosef ben Elem: appointed as the backup, the original recovered, and he was left in limbo - neither KG nor regular kohen.",
+        "openQuestion": "Does R. Yosei's ruling apply only to Yom Kippur service or to all KG-specific prohibitions (widow, impurity for relatives) throughout the year?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "dispute",
+          "label": "Two KGs simultaneously - what is the replacement's status?",
+          "speaker": "R. Meir / R. Yosei",
+          "text": "If the original KG recovers after a replacement was appointed: R. Meir - the replacement retains all KG obligations. R. Yosei - the replacement is suspended from both KG and common priesthood.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l11",
+              "vilnaLine": 31,
+              "note": "Core dispute"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "Yosef ben Elem of Tzippori - the real-world illustration",
+          "speaker": "Gemara",
+          "text": "The case of Yosef ben Elem of Tzippori: he was appointed as replacement KG, then the original recovered. He was left in the suspended state R. Yosei describes - neither a functioning KG nor able to return to common priesthood.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l14",
+              "vilnaLine": 41,
+              "note": "Historical case"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "ruling",
+          "label": "Yosef ben Elem: serves in an emergency but otherwise excluded",
+          "speaker": "Mishna",
+          "text": "The mishna implies the suspended ex-replacement KG may serve in emergencies (if no other KG is available) but is otherwise excluded from regular service in either capacity.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l15",
+              "vilnaLine": 42,
+              "note": "Emergency exception"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "kehuna gedola",
+        "dispute",
+        "appointment",
+        "status",
+        "tragedy"
+      ],
+      "concepts": [
+        {
+          "term": "kvodin shel kehuna gedola",
+          "def": "The obligations of the KG - cannot marry a widow, cannot become impure for relatives, must serve on Yom Kippur. R. Meir says the replacement retains these even when the original recovers."
+        },
+        {
+          "term": "ein moridim m'gedula",
+          "def": "We do not demote someone from a higher sacred office - once appointed KG, you cannot step down to common priesthood, creating the suspended status in R. Yosei's ruling."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.12b.11",
+        "Yoma.12b.13"
+      ],
+      "requiresUnderstanding": [
+        "The distinction between KG and common priest obligations",
+        "How the replacement KG was appointed in the first place (12a-12b)"
+      ],
+      "misconceptions": [
+        "One might assume the replacement automatically returns to regular priesthood once the original recovers - R. Yosei rules that demoting a KG is forbidden, creating the suspended state.",
+        "R. Meir's position is not that both can serve simultaneously - the original resumes; but the replacement retains the personal prohibitions of KG status."
+      ],
+      "relatedSugyot": [
+        "yoma-13a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "people",
+          "desc": "Yosef ben Elem of Tzippori: a historical kohen gadol appointed as backup who was left in suspended status"
+        },
+        {
+          "type": "contrast",
+          "desc": "R. Meir's replacement (retains KG obligations) vs. R. Yosei's replacement (suspended from both offices)"
+        },
+        {
+          "type": "relationship",
+          "desc": "Original KG resumes full duties - replacement is blocked above (KG taken) and below (cannot demote)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "mc",
+          "q": "According to R. Yosei, what happens to the replacement KG once the original recovers?",
+          "correct": "He is suspended - he cannot serve as KG (original is back) but also cannot step down to common priesthood.",
+          "distractors": [
+            "He returns to regular priesthood immediately",
+            "He retains all KG obligations throughout his life",
+            "He must be formally dismissed by the Sanhedrin"
+          ]
+        },
+        {
+          "type": "identify",
+          "q": "Who was the historical replacement KG left in suspended status, as the Gemara's real-world illustration?",
+          "correct": "Yosef ben Elem of Tzippori."
+        }
+      ],
+      "finalRuling": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, as in the case of Yosef ben Elem.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "עֲבוֹדָתוֹ מְחַנַּכְתּוֹ",
+      "translit": "avodato m'chanakhto",
+      "en": "His service initiates him - the performance of a priestly function itself confers the status, without need for a separate inauguration rite."
+    },
+    {
+      "he": "אַבְנֵט",
+      "translit": "avnet",
+      "en": "The priestly belt, one of the four garments of the common priest and eight of the KG; its material (kilayim vs. linen) is the subject of this daf's major dispute."
+    },
+    {
+      "he": "כִּלְאַיִם",
+      "translit": "kilayim",
+      "en": "The forbidden mixture of wool and linen (sha'atnez), permitted only for Temple priestly garments. The KG wears a kilayim belt on regular days."
+    },
+    {
+      "he": "יוֹסֵף בֶּן אֶלֶם מִצִּפּוֹרִי",
+      "translit": "Yosef ben Elem of Tzippori",
+      "en": "A kohen who served as replacement KG and was left in suspended status (per R. Yosei) when the original recovered - the Gemara's historical illustration of the ruling."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: explains 'avodato m'chanakhto' - just as Temple vessels after Moshe were consecrated by their first use in service rather than by anointing, so the replacement KG is initiated by his first performance of the Yom Kippur service.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: clarifies the principle for vessels - Moshe's original items required anointing ('vayimshachem v'yikadesh otam'), but from that point on new vessels were consecrated by use alone.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: notes that new vessels made for the Temple later are consecrated by service, citing the source passage in Shevuot 15a.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: this is the correct reading - 'ki ata Rav Dimi amar' - introducing Rav Dimi's tradition. The phrase 'on Yom Kippur' is not part of the text, since on regular days the KG wears kilayim and the common priest's situation is not different.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: 'the belt of the common priest - Rabbi and R. Elazar b'Rabbi Shimon' etc. The words 'on Yom Kippur' do not belong, since on Yom Kippur there is no difference between the two regarding their separate belts.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: introduces Rav Dimi's tradition - two sages dispute the common priest's belt without Rav Dimi specifying who says kilayim and who says linen.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'when is this? If on the rest of the year' - meaning when the KG wears kilayim and the common priest's belt differs. There is a lot to distinguish them then.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: 'But on Yom Kippur' - when the KG also wears linen, there would be less to distinguish. But we still need to know: is the common priest's belt linen or kilayim?",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: 'actually on the rest of the year' - the KG wears kilayim, and the teaching concerns the common priest whose belt is linen. The 'much more' objection applies: there are many other differences between them.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: 'in those that are equal' - the teaching addresses the garments both wear in common (tunic, breeches, headgear), where the only difference between them is the belt.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: 'when Ravin came from Eretz Yisrael...' - introducing Ravin's tradition, which explicitly identifies the positions.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: clarifies that Rav Dimi and Ravin do not actually disagree - Ravin simply specifies who says kilayim and who says linen, filling in what Rav Dimi left unnamed.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: Ravin is explicit - Rabbi says kilayim (the common priest's belt is like the KG's regular belt); R. Elazar b'R. Shimon says linen.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: 'we also learned this' - introducing the baraita that supports identifying Rabbi as the kilayim position.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: 'on his flesh' - refers to the passage about trum hadeshen (removing the ashes), Leviticus 6: 'the kohen shall wear his linen tunic and linen breeches he shall wear on his flesh.'",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: the verse should have written 'linen breeches on his flesh' (since 'on his flesh' logically modifies the breeches) - yet it writes 'he shall wear' again for the breeches, teaching something additional.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: the doubled 'yilbash' teaches that this is a full priestly service requiring all four garments - not just tunic and breeches.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: therefore 'he shall wear' in the verse comes to include the mitzna (headgear) and avnet (belt), making them mandatory for trum hadeshen.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'Rabbi Dosa says: to include' - Rabbi Dosa has a different teaching from the same verse, expanding the scope to include the four Yom Kippur garments of the KG that are valid for common priesthood use on regular days.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: R. Dosa's teaching - the four KG Yom Kippur garments (which are linen) remain valid for common priestly use throughout the year. 'Vehiniham sham' (Leviticus 16) means leave them there - they need not be stored away, just not reused for another Yom Kippur service.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: 'the KG's Yom Kippur belt is not the valid belt for common priests' - because the KG's YK belt is linen but the common priest's belt on all other days is kilayim.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: 'the worn ones (shchakin)' - worn garments are also valid for Temple service, and I heard this teaches specifically worn ones because garments used for cooking for one's master may not be used for serving wine (a servant should not wear his cooking clothes when pouring).",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: but this interpretation does not seem correct, since the passage about removing ashes explicitly describes worn garments due to the soiling involved, while trum hadeshen (only a handful) would not significantly soil them.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: R. Dosa follows his own view in a baraita about 'vehiniham sham' etc. - referring to the KG's Yom Kippur garments.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: 'the obligations of the high priesthood apply to him' - he cannot let his hair grow, cannot tear his garments, cannot become impure for relatives, and cannot serve in the Temple except as KG.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: 'but he does not serve in the Temple' - not as KG in eight garments nor as common priest in four garments, because the original is still alive and the rabbis said 'do not let him serve' due to enmity.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: 'that he is the High Priest' - he is still halakhically a KG. It is only the rabbis who said he should not serve due to enmity. But he can serve in four garments as an emergency.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: 'it is obvious' - that if the original dies the replacement returns to full KG status. The Gemara asks why this needs to be stated.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: 'lest you say he is like a rival wife in his lifetime' - a rival wife generates jealousy between co-wives. So too the replacement might remain adversarial to the original even after the original's death. Rav teaches this is not a concern.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: concerns about the rivalry (lit. 'lest it be a concern') - the fear is that the replacement might be anxious about whether a disqualification will happen to the original. But impurity is common, so that is always a risk.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: 'impurity is common' - through nocturnal emission or other contact, making it a realistic concern that the replacement must always be ready.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: short closing note on the section.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: 'v'hava lei l'mikhtav u'mikh'nasei bad al besaro - it should have written: linen breeches on his flesh.' The verse structure is inverted, teaching a drasha.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: 'u'mah talmud lomar yilbash - why does the verse say he shall wear?' The repetition of the verb teaches that the full four-garment set is required for trum hadeshen.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: 'l'havi mitzna v'avnet - to include the headgear and belt.' The doubled 'yilbash' brings the mitzna and avnet into the mandatory four-garment requirement for trum hadeshen.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: 'mishum d'lo k'tiv ela mado bad u'v'mikhna'sim k'tiv yilbash - because only the tunic and breeches are mentioned by name, the doubled verb teaches it is full service requiring all four garments.'",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: 'v'tzrikha arba'ah keilim - and requires four garments.' The teaching: trum hadeshen is complete priestly service, not a lower-grade task, requiring the full four-garment set.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: 'Rabbi Dosa omer l'havi - R. Dosa says: to include.' R. Dosa reads the same verse to include the KG's four Yom Kippur linen garments as valid for common priestly service on other days.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: 'arba'ah bigdei kohen gadol she-shimesh bahen l'fenim b'Yom HaKipurim - the four garments the KG wore inside on Yom Kippur.' These linen garments remain valid for common priestly service throughout the year.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: 'she-kesherim l'hedyot kol yemot ha-shanah - which are valid for the common priest throughout the year.' The KG's used Yom Kippur linen garments may be worn by common priests.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: 'shelo tomar v'hiniham sham she-yihu te'unin genizah - lest you say the verse means they must be stored away.' The verse just means don't reuse them for another Yom Kippur, not that they must be buried.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: 'ela shelo yishtamesh bahen l'Yom HaKipurim acher - rather that he should not use them for another Yom Kippur.' The restriction is reuse for the same occasion, not permanent withdrawal from use.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: 'avneto shel kohen gadol b'Yom HaKipurim lo zehu avneto ha-kasher l'hedyot - the KG's YK belt is not the valid belt for common priests.' The YK linen belt differs from the common priest's belt (kilayim).",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: 'she-hare hu shel buz - since it is linen.' The KG's YK belt is pure linen, whereas the common priest's belt all year is kilayim - they are different garments.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: 'u'd'kohen hedyot kol ha-yamim - and the common priest's belt on all other days is kilayim.' Clarifying that the common priest does not wear linen on regular days, unlike what one might infer from the KG's Yom Kippur garments.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: 'd'khilayim - is kilayim.' The common priest's belt is a wool-linen mix throughout the year, which is the point of the dispute between Rabbi and R. Elazar b'R. Shimon.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: 'et ha-shchakin - the worn ones.' Worn priestly garments are also valid for service. Rashi shares an interpretation he heard: like servants who should not pour wine in the same clothes used for cooking, worn garments are dignified for removal of ashes.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: 'kasherin l'avodah - valid for service.' Even worn-out priestly garments remain valid; they are not discarded until completely unwearable.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: 'va'ani shamati l'havi shchakim davka - and I heard: to include specifically worn ones.' A received interpretation about why the verse mentions worn garments specifically for this context.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: 'mishum bigadim she-bishel bahen kedeirah l'rabo - garments in which one cooked for his master.' Worn cooking garments should not be used for serving wine - similarly, worn Temple garments are appropriate for soiling tasks (ash removal) but not fine service.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: 'v'ein nire b'einai - and this doesn't seem right to me.' Rashi rejects this interpretation because trum hadeshen (removing a handful of ashes) does not significantly soil the garments, unlike removing all the ashes.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: 'b'shlama gabi hotza'at ha-deshen amrinan lekhakh mipnei she-ha-bigadim mitbazzim - for full ash removal we say this because the garments get soiled.' The lower-quality garments make sense for the very dirty full ash removal.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: 'mitalkhalkhin bahen - they get dirtied by them.' Full ash removal dirties the garments significantly; worn ones are appropriate. But trum hadeshen (only a small scoop) would not dirty them.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: 'aval trum hadeshen she-eino ela melo machtah l'yom - but trum hadeshen which is only a firepanful for the day.' The small quantity means the garments would not be soiled, so 'worn garments' for this task needs a different justification.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: 'Dosa litameih d'tanya v'hiniham sham v'khulei - R. Dosa according to his view as taught in a baraita: v'hiniham sham.' This refers to the Yom Kippur garments passage in Leviticus 16 that R. Dosa interprets.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: 'mitzvas kehuna gedola alav - the obligations of the high priesthood apply to him.' The replacement KG: he cannot let hair grow, cannot tear garments, cannot become impure for relatives, does not serve in the Temple as KG or common priest.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: 'v'eino meshamesh b'mikdash lo bi-shmonah k'kohen gadol v'lo b'arba'ah k'kohen hedyot - he does not serve in the Temple in eight garments as KG or four garments as common priest.' The suspended status described.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: 'd'ha KG hu - he is the High Priest.' He remains halakhically a KG; it is only the rabbis who prevent him from serving due to enmity (eivah). He could technically serve in four garments.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: 'l'kehuna gedola - to the High Priesthood.' When the original dies, the replacement returns to full KG status and service.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: 'peshita - it is obvious.' The Gemara asks why Rav needs to state the replacement returns to full status when the original dies.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: 'k'kaish l'shma - he worries lest.' The replacement KG lives with ongoing anxiety that a disqualification will befall the original, making him serve. This is one possible application of the 'rival wife' analogy.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi: brief closing note - 'kivan' (since/because), beginning a new topic.",
+      "linkedGemaraLineIds": [
+        "yoma-12b-l15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "daf": "34b",
+  "canonicalRef": "Yoma 34b",
+  "summary": "Rabbi Yehuda HaNasi derives the afternoon tamid obligation from the morning verse. The Rabbis and R. Yehuda HaNasi dispute the meaning of 'one' in the verse. Then the Mishna resumes Yom Kippur: if the High Priest was old or delicate, hot water was added to his immersion. Abaye's teaching about unintentional acts in R. Yehuda's framework. The page concludes with the Mishna about the High Priest's second immersion and the cost of his garments.",
+  "review": {
+    "status": "enriched",
+    "version": "10.63"
+  },
+  "glossary": [
+    {
+      "he": "זָקֵן אוֹ רַךְ בְּשָׂנִים",
+      "translit": "zaken o rach beshanim",
+      "en": "Old or delicate; conditions under which the authorities would heat water for the High Priest's Yom Kippur immersion."
+    },
+    {
+      "he": "שְׁקָלִים",
+      "translit": "shekalim",
+      "en": "Coins; the value of the High Priest's Yom Kippur garments (white linen: twelve maneh; fine Indian linen: eight hundred dinar)."
+    },
+    {
+      "he": "פֵּלוּסִין",
+      "translit": "Pelusim",
+      "en": "Pelusium; an Egyptian city known for high-quality linen, from which the High Priest's morning Yom Kippur garments were sourced."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "R. Yehuda HaNasi: afternoon offering derives from morning - 'the one lamb' (ha-echad).",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rabbis: how can the afternoon be derived from morning when both are written separately?",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rabbis: 'one' means the special lamb that is unique - the Yom Kippur additional offering.",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Mishna: if High Priest was old or physically delicate, they heated water for his immersion.",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Abaye: is this not the same as an unintentional act being permitted?",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "When Abaye said R. Yehuda permits unintentional acts, that was only about Torah prohibitions.",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Mishna: second immersion in the Hall of Parva - in the sacred area.",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Morning garments (white): Egyptian Pelusium linen, worth twelve maneh (1,200 dinar).",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l22"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The afternoon garments were Indian linen worth 8 maneh (800 dinar).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The afternoon garments were less costly than the morning ones.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The price difference reflects the different quality of the two sets.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The morning Pelusium linen was the finest available.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The afternoon Indian linen was high quality but less precious.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Both garment sets were donated by the public, not the KG personally.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "If donated by an individual, the KG used the public set instead.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The principle of not appearing impoverished on Yom Kippur applies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Both garment sets fulfilled the requirement for sacred linen vestments.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The chapter concludes with the garment values.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The Yom Kippur service description is now complete for this tractate section.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "The next chapter continues with the unique Yom Kippur service details.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The discussion of garments, immersions, and sequence is concluded.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The normative halacha for the KG's Yom Kippur preparation is established.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The chapter ends with the material and cost of the Yom Kippur vestments.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi commentary on line 24 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi commentary on line 25 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi commentary on line 26 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi commentary on line 27 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi commentary on line 28 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi commentary on line 29 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi commentary on line 30 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi commentary on line 31 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi commentary on line 32 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi commentary on line 33 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi commentary on line 34 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi commentary on line 35 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi commentary on line 36 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi commentary on line 37 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi commentary on line 38 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi commentary on line 39 of 34b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi commentary on line 40 of 34b.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-034b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 5
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.34b.1"
+        },
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.34b.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.34b.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.34b.1",
+        "Yoma.34b.2",
+        "Yoma.34b.3"
+      ],
+      "display": {
+        "whats": "R. Yehuda HaNasi: the word 'one' in the afternoon tamid verse derives the entire afternoon service from the morning. The Rabbis say 'one' means the special lamb unique to the Yom Kippur additional offerings.",
+        "hint": "A single word - 'the one lamb' - is read very differently by R. Yehuda HaNasi (deriving the entire afternoon from morning) vs the Rabbis (pointing to a special unique offering)."
+      },
+      "learning": {
+        "summary": "R. Yehuda HaNasi reads 'the one lamb' in Numbers as teaching that the afternoon offering is derived from the morning. The Rabbis challenge: since both morning and afternoon are written separately in the Torah, why derive one from the other? The Rabbis interpret 'one' (ha-echad) as referring to a lamb that is unique and special - specifically the additional Yom Kippur offering. This dispute is about the interpretive weight of a single word in the Torah.",
+        "ahaMoment": "The word 'echad' (one) carries an entire legal derivation in R. Yehuda HaNasi's reading - a single definite article before 'one' (ha-echad) transforms a simple count into a source for the entire afternoon service law.",
+        "memoryAnchor": "Ha-echad = 'the one' = R. Yehuda HaNasi's source for the afternoon tamid being 'like' the morning. But the Rabbis say 'the one' just means 'the special one.'",
+        "openQuestion": "If both morning and afternoon offerings are explicitly written in the Torah, why would R. Yehuda HaNasi need to derive the afternoon from the morning at all?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-034b-l01",
+          "type": "claim",
+          "label": "R. Yehuda HaNasi: afternoon from morning",
+          "text": "R. Yehuda HaNasi: the phrase 'the one lamb' teaches that the afternoon offering is derived from and follows the rules of the morning offering.",
+          "sourceRefs": [
+            "Yoma.34b.1"
+          ]
+        },
+        {
+          "id": "yoma-034b-l03",
+          "type": "objection",
+          "label": "Rabbis: why derive when both are explicit?",
+          "text": "The Rabbis ask: since both morning and afternoon offerings are written explicitly in the Torah, there is no need to derive one from the other.",
+          "sourceRefs": [
+            "Yoma.34b.2"
+          ]
+        },
+        {
+          "id": "yoma-034b-l05",
+          "type": "resolution",
+          "label": "Rabbis: 'one' = the special unique lamb",
+          "text": "The Rabbis interpret 'the one' (ha-echad) as referring to the special lamb unique in its kind - the additional Yom Kippur musaf offering.",
+          "sourceRefs": [
+            "Yoma.34b.3"
+          ]
+        }
+      ],
+      "topicTags": [
+        "afternoon tamid",
+        "R. Yehuda HaNasi",
+        "Rabbis",
+        "ha-echad",
+        "biblical derivation",
+        "Yom Kippur musaf",
+        "morning vs afternoon"
+      ],
+      "concepts": {
+        "halachic": [
+          "afternoon offering derived from morning verse",
+          "'the one' as special unique offering",
+          "morning-afternoon service relationship"
+        ],
+        "theological": [
+          "precision of Torah language - single word carries legal weight"
+        ],
+        "narrative": [
+          "R. Yehuda HaNasi vs Rabbis on 'ha-echad'"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "afternoon tamid",
+        "Yom Kippur additional offerings",
+        "Numbers/Bamidbar tamid verse"
+      ],
+      "misconceptions": [
+        "The afternoon tamid has no biblical source of its own - it is explicitly written in Numbers; R. Yehuda HaNasi uses the 'one' word to establish a derivative relationship, not to provide the primary source."
+      ],
+      "relatedSugyot": [
+        "yoma-034a-s02",
+        "yoma-026b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "text",
+          "label": "Ha-echad debate",
+          "description": "Single word 'ha-echad' (the one lamb) in the afternoon verse: R. Yehuda HaNasi reads it as derivative of morning; Rabbis read it as pointing to a uniquely special offering"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What does R. Yehuda HaNasi derive from the word 'the one lamb' in the afternoon tamid verse?",
+          "a": "He derives that the entire afternoon offering is derived from and follows the rules of the morning offering."
+        },
+        {
+          "q": "How do the Rabbis interpret the word 'one' (ha-echad) in the afternoon tamid verse?",
+          "a": "The Rabbis interpret it as referring to the special, unique lamb of the Yom Kippur additional offering - not as a derivation of the afternoon from the morning."
+        }
+      ],
+      "finalRuling": "R. Yehuda HaNasi and the Rabbis dispute the meaning of 'the one.' The practical implications for the afternoon service sequence follow from this dispute.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-034b-s02",
+      "lineRange": {
+        "startVilnaLine": 8,
+        "endVilnaLine": 17
+      },
+      "lines": [
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.34b.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.34b.5"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.34b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.34b.4",
+        "Yoma.34b.5",
+        "Yoma.34b.6"
+      ],
+      "display": {
+        "whats": "The Mishna: if the High Priest was elderly or physically delicate, hot water was poured into his Yom Kippur immersion to make it bearable. Abaye discusses unintentional acts and R. Yehuda's framework.",
+        "hint": "The accommodation for the High Priest's physical limitations shows the balance between strict ritual requirements and practical human needs."
+      },
+      "learning": {
+        "summary": "The Mishna teaches that if the High Priest was old or delicate (physically fragile), the authorities would heat water and add it to the immersion basin on Yom Kippur eve to make it less harsh. The Gemara then examines whether this constitutes an 'unintentional act' (davar she-eino mitkaven) - an act that incidentally causes a prohibited result, which R. Yehuda generally forbids but the Rabbis permit. Abaye notes that this is acceptable because the heating of the water was deliberately permitted by Yom Kippur rabbinic enactment, not an accidental transgression.",
+        "ahaMoment": "The High Priest must immerse on Yom Kippur, but his physical health matters too. The Talmud does not demand he endanger himself - the accommodations show that the sanctity of the service and human dignity can coexist.",
+        "memoryAnchor": "Old High Priest + cold water = problem. Solution: heat water beforehand. This was explicitly permitted, not an inadvertent transgression.",
+        "openQuestion": "Was the permission to heat water on Yom Kippur eve (to pour into the immersion the next day) a regular practice or only used when the High Priest was known to be elderly?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-034b-l08",
+          "type": "ruling",
+          "label": "Mishna: hot water for elderly High Priest",
+          "text": "If the High Priest was elderly or physically delicate, they would heat water on Yom Kippur eve and pour it into his immersion to make it bearable.",
+          "sourceRefs": [
+            "Yoma.34b.4"
+          ]
+        },
+        {
+          "id": "yoma-034b-l11",
+          "type": "question",
+          "label": "Abaye: is this an unintentional transgression?",
+          "text": "Abaye asks: doesn't this constitute an unintentional act (heating water on Yom Kippur) that R. Yehuda would forbid?",
+          "sourceRefs": [
+            "Yoma.34b.5"
+          ]
+        },
+        {
+          "id": "yoma-034b-l13",
+          "type": "resolution",
+          "label": "Only Torah prohibitions in R. Yehuda's framework",
+          "text": "R. Yehuda's restriction on unintentional acts applies only to Torah-level prohibitions. This accommodation was explicitly permitted by rabbinic authority for the High Priest's needs.",
+          "sourceRefs": [
+            "Yoma.34b.6"
+          ]
+        }
+      ],
+      "topicTags": [
+        "High Priest",
+        "elderly High Priest",
+        "hot water",
+        "Yom Kippur",
+        "davar she-eino mitkaven",
+        "R. Yehuda",
+        "Abaye",
+        "unintentional act"
+      ],
+      "concepts": {
+        "halachic": [
+          "accommodations for elderly High Priest",
+          "davar she-eino mitkaven (unintentional act)",
+          "R. Yehuda's framework for unintentional acts"
+        ],
+        "theological": [
+          "human dignity in divine service",
+          "balance of strictness and practicality"
+        ],
+        "narrative": [
+          "Abaye's analysis of intentional vs unintentional",
+          "rabbinic permission for practical accommodation"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Yom Kippur immersion requirements",
+        "davar she-eino mitkaven",
+        "R. Yehuda vs Rabbis on unintentional acts"
+      ],
+      "misconceptions": [
+        "The High Priest had to immerse in cold water regardless of his health - the Mishna explicitly provides for heating water when needed.",
+        "Heating water for the Yom Kippur immersion was an emergency measure - it was standard practice whenever the High Priest was elderly or fragile."
+      ],
+      "relatedSugyot": [
+        "yoma-031a-s02",
+        "yoma-034b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "label": "Elderly High Priest and immersion accommodation",
+          "description": "An aging kohen gadol entering a Yom Kippur immersion pool warmed for his benefit"
+        },
+        {
+          "type": "contrast",
+          "label": "Standard vs elderly High Priest immersion",
+          "description": "Standard: cold mikveh water. Elderly/delicate: water pre-heated on Yom Kippur eve"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What accommodation was made for an elderly or physically delicate High Priest on Yom Kippur?",
+          "a": "Water was heated on Yom Kippur eve and poured into the immersion basin to make the cold immersion bearable for the High Priest."
+        },
+        {
+          "q": "Why doesn't Abaye's concern about unintentional transgression (davar she-eino mitkaven) apply here?",
+          "a": "R. Yehuda's framework for unintentional acts applies only to Torah-level prohibitions. The hot-water accommodation was explicitly permitted by rabbinic authority for the High Priest's welfare."
+        }
+      ],
+      "finalRuling": "Hot water may be prepared for an elderly or fragile High Priest's Yom Kippur immersion. This is a permitted rabbinic accommodation.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-034b-s03",
+      "lineRange": {
+        "startVilnaLine": 18,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.34b.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.34b.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.34b.7",
+        "Yoma.34b.8"
+      ],
+      "display": {
+        "whats": "The Mishna: the High Priest's second Yom Kippur immersion takes place in the Hall of Parva, which is in the sacred area. His morning garments (white linen) came from Egyptian Pelusium and were worth twelve maneh; his afternoon garments came from Indian linen and cost eight hundred dinar.",
+        "hint": "The High Priest's Yom Kippur garments were of the highest quality - both their geographic origin and cost are specified, reflecting the unique importance of Yom Kippur service."
+      },
+      "learning": {
+        "summary": "The Mishna concludes this section with two details: (1) The High Priest's second Yom Kippur immersion took place in the Hall of Parva, located within the sacred Temple precincts. (2) The morning white linen garments were from Pelusium in Egypt and cost twelve maneh (1,200 dinar). The afternoon white garments were from India and cost eight hundred dinar. The Gemara notes these as established Temple norms.",
+        "ahaMoment": "The specific geographic origins and prices of the High Priest's garments reflect the Temple's concern not just with ritual validity but with excellence and dignity in divine service. The finest linen in the world was sourced for Yom Kippur.",
+        "memoryAnchor": "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium = 1,200 dinar. Afternoon white garments: Indian linen = 800 dinar.",
+        "openQuestion": "Why did the morning and afternoon Yom Kippur garments differ in origin and price? Were morning garments considered more sacred than afternoon ones?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-034b-l18",
+          "type": "ruling",
+          "label": "Second immersion: Hall of Parva",
+          "text": "The High Priest's second Yom Kippur immersion took place in the Hall of Parva, located within the sacred Temple precincts.",
+          "sourceRefs": [
+            "Yoma.34b.7"
+          ]
+        },
+        {
+          "id": "yoma-034b-l22",
+          "type": "premise",
+          "label": "Garment costs and origins",
+          "text": "Morning white garments: Egyptian Pelusium linen, twelve maneh (1,200 dinar). Afternoon white garments: Indian linen, eight hundred dinar.",
+          "sourceRefs": [
+            "Yoma.34b.8"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Hall of Parva",
+        "second immersion",
+        "white garments",
+        "Egyptian linen",
+        "Indian linen",
+        "garment cost",
+        "Yom Kippur"
+      ],
+      "concepts": {
+        "halachic": [
+          "second immersion location",
+          "white garment quality requirements",
+          "Egyptian vs Indian linen"
+        ],
+        "theological": [
+          "excellence and dignity in Yom Kippur service",
+          "finest materials for divine service"
+        ],
+        "narrative": [
+          "garment cost specification",
+          "geographic sourcing of Temple materials"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Hall of Parva",
+        "High Priest's Yom Kippur white garments",
+        "five immersions on Yom Kippur"
+      ],
+      "misconceptions": [
+        "The High Priest wore the same white garments for the entire Yom Kippur service - he wore different sets for morning and afternoon, of different qualities and origins.",
+        "The white garments' cost was not specified - the Mishna explicitly records both the geographic origin and the cost of each set."
+      ],
+      "relatedSugyot": [
+        "yoma-031b-s03",
+        "yoma-034b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "label": "Hall of Parva",
+          "description": "The immersion chamber in the sacred Temple precincts where the High Priest underwent his Yom Kippur immersions"
+        },
+        {
+          "type": "contrast",
+          "label": "Morning vs afternoon white garments",
+          "description": "Morning: Egyptian Pelusium linen, 1,200 dinar. Afternoon: Indian linen, 800 dinar."
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Where did the High Priest's second Yom Kippur immersion take place?",
+          "a": "In the Hall of Parva, which was located within the sacred Temple precincts."
+        },
+        {
+          "q": "What were the origins and costs of the High Priest's two sets of white Yom Kippur garments?",
+          "a": "Morning garments: Egyptian Pelusium linen, twelve maneh (1,200 dinar). Afternoon garments: Indian linen, eight hundred dinar."
+        }
+      ],
+      "finalRuling": "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium, 1,200 dinar. Afternoon white garments: Indian linen, 800 dinar.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "review": "reviewed"
+    }
+  ]
+}

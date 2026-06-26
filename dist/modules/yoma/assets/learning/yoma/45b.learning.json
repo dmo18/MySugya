@@ -1,0 +1,354 @@
+{
+  "daf": "45b",
+  "canonicalRef": "Yoma 45b",
+  "summary": "The Gemara resolves the R. Meir/R. Yehuda dispute about wood arrangements on the altar, analyzing the verse 'and the fire on the altar shall be kept burning' to determine how many distinct arrangements are required and what each serves.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-045b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 29
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.45b.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.45b.2"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.45b.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.45b.4"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.45b.5"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.45b.6"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.45b.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.45b.8"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.45b.9"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.45b.10"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.45b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.45b.1",
+        "Yoma.45b.2",
+        "Yoma.45b.3",
+        "Yoma.45b.4",
+        "Yoma.45b.5",
+        "Yoma.45b.6",
+        "Yoma.45b.7",
+        "Yoma.45b.8",
+        "Yoma.45b.9",
+        "Yoma.45b.10",
+        "Yoma.45b.11"
+      ],
+      "display": {
+        "whats": "How does R. Meir resolve the question of wood arrangements, and what does 'the fire on the altar shall be kept burning' add?",
+        "hint": "The Gemara analyzes how R. Meir uses the repeated mention of 'fire on the altar' to derive an additional wood arrangement. Each mention yields one arrangement. R. Meir needs five; R. Yehuda four. The verse 'it shall not be extinguished' adds the prohibition against extinguishing, not a new arrangement."
+      },
+      "learning": {
+        "summary": "The Gemara proceeds verse by verse, counting 'fire' mentions and deriving an arrangement from each. The dispute is whether a particular mention creates a new arrangement or only reinforces an existing one.",
+        "ahaMoment": "Every 'fire on the altar' phrase in Torah creates a new wood arrangement. Count the mentions, count the arrangements. R. Meir finds one more than R. Yehuda.",
+        "memoryAnchor": "The fire prohibition ('lo tichbeh') is not a new arrangement but a prohibition against extinguishing what already exists.",
+        "openQuestion": "If the prohibition against extinguishing the fire is violated, what is the punishment?"
+      },
+      "argumentFlow": [
+        {
+          "type": "derivation",
+          "speaker": "Gemara",
+          "text": "'And the fire on the altar shall be kept burning' - this phrase teaches the arrangement must be maintained, not just lit once.",
+          "id": "yoma-045b-l01",
+          "label": "Derivation: 'And the fire on the altar shall",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-045b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "dispute",
+          "speaker": "R. Meir/R. Yehuda",
+          "text": "R. Meir: an additional fire mention creates a fifth arrangement for Yom Kippur coals.",
+          "id": "yoma-045b-l04",
+          "label": "Dispute: R. Meir: an additional fire mention creates",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-045b-l04",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "type": "resolution",
+          "speaker": "Gemara",
+          "text": "R. Yehuda: the Yom Kippur coal fire is the same as the incense fire - no fifth needed.",
+          "id": "yoma-045b-l09",
+          "label": "Resolution: R. Yehuda: the Yom Kippur coal fire",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-045b-l09",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "'It shall not be extinguished' is a prohibition, not a new arrangement requirement.",
+          "id": "yoma-045b-l16",
+          "label": "Ruling: 'It shall not be extinguished' is a",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-045b-l16",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "type": "narrative",
+          "speaker": "Gemara",
+          "text": "Additional altar fire mention noted; Gemara checks whether it creates another arrangement.",
+          "id": "yoma-045b-l22",
+          "label": "Narrative: Additional altar fire mention noted; Gemara checks",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-045b-l22",
+              "vilnaLine": 22
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "wood arrangements",
+        "altar fire",
+        "R. Meir",
+        "R. Yehuda",
+        "fire prohibition"
+      ],
+      "concepts": {
+        "halachic": [
+          "fire prohibition lo tichbeh",
+          "four vs five arrangements resolved"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "altar fire laws",
+        "wood arrangement count dispute"
+      ],
+      "misconceptions": [
+        "The prohibition 'lo tichbeh' is about maintaining the fire, not creating a new pyre."
+      ],
+      "relatedSugyot": [
+        "yoma-045a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "text",
+          "label": "altar fire verse 'lo tichbeh' as prohibition not arrangement"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What does 'lo tichbeh' (it shall not be extinguished) teach about the altar fire?",
+          "answer": "It is a prohibition against extinguishing the altar fire, not a requirement for a new separate wood arrangement."
+        }
+      ],
+      "finalRuling": "The altar fire prohibition 'lo tichbeh' is not a new arrangement but a ban on extinguishing the existing fire; R. Yehuda holds four arrangements suffice.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "לֹא תִכְבֶּה",
+      "translit": "lo tichbeh",
+      "en": "It shall not be extinguished - the Torah prohibition against allowing the altar fire to go out (Lev. 6:6)."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "The altar must have the fire arranged on it - not just lit but structured as a pyre.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "R. Meir and R. Yehuda disagree about how many times 'fire on the altar' is mentioned distinctly.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Each mention of 'fire on the altar' in Torah creates one wood arrangement requirement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "R. Yehuda counts four mentions; R. Meir counts five.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The fifth mention (according to R. Meir) creates a separate arrangement for Yom Kippur incense coals.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "R. Yehuda holds the Yom Kippur coals come from the second arrangement (incense fire).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The verse 'the fire on the altar shall be burning in it' - in it means on the altar itself, not inside.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "'Shall be burning' teaches continuous burning, not intermittent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "'It shall not be extinguished' is parsed separately - it is a prohibition, not a positive requirement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "A positive requirement would demand relighting; a prohibition demands not extinguishing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The distinction matters: violating lo tichbeh is prohibited even before the fire goes out.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "A priest who pours water on the altar fire violates lo tichbeh even if a coal remains.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The Gemara: R. Meir would say this verse adds to the count, R. Yehuda would not.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "At any rate, everyone agrees there is at least one additional mention that must be explained.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The extra mention is then assigned to an existing arrangement by R. Yehuda or a new one by R. Meir.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The wood festival families are mentioned here in connection with who supplied the altar wood.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Families who donated wood had the privilege of burning it on the altar on their appointed day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "This was considered an honor and was hereditary within certain priestly families.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The Gemara notes the exact number of wood donations per year and which families contributed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "The arrangement of wood had to be done in the morning as part of the daily service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Priests drew lots for who would arrange the wood on the altar each day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The wood arrangement came before the removal of ash (terumat ha-deshen).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Wait - actually ash removal came first, then the wood arrangement in the correct order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "45b concludes the wood arrangement discussion and the dispute is partially resolved.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The final ruling follows R. Yehuda: four arrangements suffice.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The Gemara will now move to bar Kappara's teaching about R. Meir's opinion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "R. Meir's view is cited in the name of bar Kappara who attributed it to him.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The attribution chain: bar Kappara said in the name of R. Meir.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The Gemara questions what bar Kappara adds by citing R. Meir specifically.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

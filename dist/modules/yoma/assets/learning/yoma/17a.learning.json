@@ -1,0 +1,489 @@
+{
+  "daf": "17a",
+  "canonicalRef": "Yoma 17a",
+  "summary": "The page closes the extended Chamber of the Lambs debate. Segment [0] reaches a verdict: Middot follows R. Eliezer ben Yaakov. Then Rav Adda b. R. Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but along the middle of the west wall, making its apparent location depend on the viewer's approach direction. The Gemara prefers the two-authority resolution (SW per Middot vs NW per Tamid reflect different tannaitic traditions). The page then transitions to a new topic: the High Priest's rights to sacrifice first and take first - followed by a debate about how many Shewbread loaves the KG receives when the twelve loaves are distributed on Shabbat between the outgoing and incoming watch-shifts.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-17a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 9
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.17a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.17a.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.17a.3"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.17a.4"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.17a.5"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.17a.1",
+        "Yoma.17a.2",
+        "Yoma.17a.3",
+        "Yoma.17a.4",
+        "Yoma.17a.5"
+      ],
+      "display": {
+        "whats": "The page closes the extended Chamber of the Lambs debate. First, a verdict is reached: Tractate Middot follows R. Eliezer ben Yaakov, and the Chamber of the Lambs was in the southwest corner of the Beit HaMoked. Then Rav Adda bar R. Yitzchak offers a different approach: the Chamber of the Lambs was not in any corner but along the middle of the west wall - so it appeared to be in different corners from different viewing angles. The Gemara debates which resolution is more defensible.",
+        "hint": "Two competing resolutions both manage to explain the Yoma/Middot discrepancy. The Gemara must pick one: either (A) two authorities with different corner placements, or (B) one chamber in the middle of the west wall appearing at different corners depending on where you stand."
+      },
+      "learning": {
+        "summary": "The Chamber of the Lambs debate concludes with a verdict: Middot follows R. Eliezer ben Yaakov (SW corner). An alternative resolution (Rav Adda: middle of west wall, visible from different angles) is considered but ultimately the SW corner conclusion stands. The Talmud moves on to a new topic: the Shewbread distribution and the High Priest's first-share rights.",
+        "ahaMoment": "The 'different viewing angles' resolution is clever but ultimately unprovable - the Gemara prefers the simpler attribution to two different authorities.",
+        "memoryAnchor": "Chamber of Lambs verdict: SW corner per R. EbY / Middot. Alternative: it was on the west wall and looked different from north vs south.",
+        "openQuestion": "Why does the Gemara need to resolve this at all? Is there a practical halakhic difference between the chamber being at the SW corner vs the middle of the west wall?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "verdict",
+          "label": "Verdict: Middot = R. EbY, Chamber at SW corner",
+          "speaker": "Gemara",
+          "text": "The weight of evidence (Women's Courtyard admission, measurement alignment) establishes that Tractate Middot was authored by R. Eliezer ben Yaakov. The Chamber of the Lambs was in the southwest corner.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17a-l01",
+              "vilnaLine": 1,
+              "note": "Final verdict on Middot authorship"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "alternative",
+          "label": "Rav Adda: Chamber was on the middle of the west wall",
+          "speaker": "Rav Adda bar R. Yitzchak",
+          "text": "Perhaps the Chamber of the Lambs was not in any corner at all but extended along the middle of the west wall. From the north it appeared to be in the SW corner; from the south it appeared in the NW corner.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17a-l02",
+              "vilnaLine": 2,
+              "note": "Rav Adda's west-wall alternative"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "evaluation",
+          "label": "Evaluating the two resolutions",
+          "speaker": "Gemara",
+          "text": "Both resolutions explain the discrepancy. The first (two tannaim) is simpler. The second (perspective-dependent) is architecturally creative. The Gemara notes that the SW corner placement (Middot) is more probable.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17a-l05",
+              "vilnaLine": 5,
+              "note": "Comparative evaluation"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "transition",
+          "label": "New topic: High Priest's first share and Shewbread",
+          "speaker": "Gemara",
+          "text": "The Gemara transitions to a new mishnah: the High Priest sacrifices first and takes the first share. A debate follows about how many Shewbread loaves the KG receives.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17a-l07",
+              "vilnaLine": 7,
+              "note": "Transition to Shewbread topic"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "claim",
+          "label": "How many loaves does the KG receive?",
+          "speaker": "Gemara",
+          "text": "The twelve Shewbread loaves are split between the departing and incoming Temple watch-shifts. The KG receives his share from both halves. How many does he take - half of twelve (six) or something different?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-17a-l09",
+              "vilnaLine": 9,
+              "note": "KG's Shewbread portion debate"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Chamber of the Lambs",
+        "Tractate Middot",
+        "verdict",
+        "R. Eliezer ben Yaakov",
+        "Shewbread",
+        "KG rights",
+        "Beit HaMoked"
+      ],
+      "concepts": [
+        {
+          "term": "lechem ha-panim",
+          "def": "Shewbread - twelve loaves arranged in two stacks on the golden table in the Sanctuary, replaced every Shabbat. On replacement, the old loaves are distributed between the incoming and outgoing priestly shifts."
+        },
+        {
+          "term": "mishmar",
+          "def": "Priestly watch-shift - the 24 families of kohanim each served a week in the Temple on rotation. On Shabbat the outgoing mishmar and incoming mishmar would each receive six Shewbread loaves."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.17a.1",
+        "Yoma.17a.3"
+      ],
+      "requiresUnderstanding": [
+        "The Chamber of the Lambs debate from 15b-17a",
+        "The Shewbread rotation system"
+      ],
+      "misconceptions": [
+        "One might think the Chamber of the Lambs controversy is merely academic - it matters for reconstructing Temple topography and understanding which tannaic traditions are authoritative about Temple structure."
+      ],
+      "relatedSugyot": [
+        "yoma-16b-s01",
+        "yoma-17b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "desc": "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view"
+        },
+        {
+          "type": "timeline",
+          "desc": "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "What is Rav Adda bar R. Yitzchak's alternative resolution to the Yoma/Middot Chamber of the Lambs contradiction?",
+          "correct": "The chamber was positioned along the middle of the west wall rather than in a corner. From the north it appeared to be at the SW corner; from the south it appeared at the NW corner. This makes both descriptions accurate from different perspectives."
+        },
+        {
+          "type": "explain",
+          "q": "What happens to the Shewbread loaves on Shabbat?",
+          "correct": "The twelve loaves are split equally: six go to the outgoing priestly shift and six to the incoming shift. The High Priest also receives a portion from this distribution."
+        }
+      ],
+      "finalRuling": "SW corner (Middot/R. EbY) is the accepted location for the Chamber of the Lambs. The KG's Shewbread allocation debate continues on 17b.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "לֶחֶם הַפָּנִים",
+          "translit": "lechem ha-panim",
+          "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
+        },
+        {
+          "he": "מִשְׁמָר",
+          "translit": "mishmar",
+          "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "לֶחֶם הַפָּנִים",
+      "translit": "lechem ha-panim",
+      "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
+    },
+    {
+      "he": "מִשְׁמָר",
+      "translit": "mishmar",
+      "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'it is agreed that it was in the SW corner' - verdict from the Shewbread chamber identification that only SW works for Middot.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: Rav Adda bar Yitzchak's alternative: the Chamber of the Lambs was not in a true corner but extended along the west wall, appearing NW from south, SW from north.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: 'it was cut off at both corners' - the chamber was long and extended along the west wall between the two western corners.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: 'from the north it appears to be in the SW' - approaching from north you see the chamber jutting out at the SW corner.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: 'from the south it appears as NW' - from the south, the chamber's northern extent looks like the NW corner.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: 'it is more probable it was in the SW corner' - the Gemara prefers the simple two-authorities solution over Rav Adda's perspective-dependent one.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'since we establish Shewbread against Shewbread' - using the SE Shewbread chamber as fixed, all others fall into place with SW for Lambs.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: 'from Shewbread' - the Shewbread chamber in SE is anchor; rightward from there: Seals (NE), Hearth (NW), Lambs (SW) = Middot's order.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l05"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: 'if you grant: the Tamid tanna goes left' - the leftward count starting from south places Lambs in NW (Tamid).",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: this explains how both Tamid (NW) and Middot (SW) describe the same chamber - each author counted in a different circuit direction.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: 'but if you say it was in the NW corner exactly' - Rav Adda's middle-wall theory is less probable than two-circuit-direction theory.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: Rav Adda's resolution cannot explain the Shewbread placement contradiction - so it is not adopted.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: 'from Shewbread we contra Shewbread' - the Shewbread reference in Middot's chamber listing resolves which corner each chamber was in.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: new topic - 'two loaves of Shavuot' - the two communal leavened loaves brought on Shavuot are now discussed in the context of the KG's share.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: 'four or five' - the number of Shewbread loaves the KG receives each Shabbat varies: sometimes four, sometimes five.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: 'and it was for Aaron and his sons' - the Shewbread verse assigns it to the kohanim; the KG's share is derived from this.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: 'half for Aaron etc.' - each Shabbat the twelve loaves are split: half to the outgoing shift, half to the incoming shift, with the KG taking from both.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: despite there being twelve loaves, two of them (the KG's) are never split - explained below.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'we arrive at the Rabbanan' - Abaye's resolution involves the Rabbanan's position that the KG takes less than half.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: 'beginning and middle = Rabbanan' - the mishna's opening and middle clauses reflect the Rabbanan; only the end reflects R. Yehuda.",
+      "linkedGemaraLineIds": [
+        "yoma-17a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 21).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 22).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 23).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 24).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 25).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 26).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 27).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 28).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 29).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 30).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 31).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 32).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 33).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 34).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 35).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 36).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 37).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 38).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 39).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 40).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 41).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 42).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 43).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 44).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 45).",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

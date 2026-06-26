@@ -1,0 +1,1128 @@
+{
+  "canonicalRef": "Yoma 80a",
+  "summary": "Tractate Yoma daf 80a covers: All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur; Where is the YK eating measure derived? Gezerah shavah from matzah; Drinking measure on YK: a cheekful (male'o lugmav); how it is derived.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-080a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 5
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.80a.1"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.80a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.80a.1",
+        "Yoma.80a.2"
+      ],
+      "display": {
+        "whats": "All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur",
+        "hint": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard."
+      },
+      "learning": {
+        "summary": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard.",
+        "ahaMoment": "YK is unique even in its measures: the date-bulk is larger than other Torah eating measures, reflecting that YK's affliction applies only to substantial eating.",
+        "memoryAnchor": "Egg-bulk for everything, date-bulk for YK: one exception to remember.",
+        "openQuestion": "What is the deeper significance of the ruling about all torah eating measures are egg-bulk; the date-bulk is uni?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "principle",
+          "label": "All eating measures are an olive-bulk, with exceptions",
+          "speaker": "Gemara",
+          "text": "A baraita teaches that all Torah measures for eating are an olive-bulk, except where the verse changes its wording, prompting the Sages to change the measure. Impurity of foods and Yom Kippur are the two cases: the verse 'shall not be afflicted' (rather than 'eat') is why the Yom Kippur measure is a large date, not an olive.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Why both impurity and Yom Kippur are needed as proofs",
+          "speaker": "Gemara",
+          "text": "The Gemara asks why the impurity case alone does not suffice to show that altered wording alters the measure. It answers that from impurity alone one might say that is simply the verse's style; the Yom Kippur case teaches the general principle that deviant wording signals a changed halacha.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l05",
+              "vilnaLine": 5
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "egg-bulk",
+        "eating measures",
+        "Torah measures",
+        "date-bulk"
+      ],
+      "concepts": {
+        "halachic": [
+          "egg-bulk",
+          "eating measures"
+        ],
+        "theological": [
+          "YK is unique even in its measures: the date-bulk is larger than other Torah eati"
+        ],
+        "narrative": [
+          "All Torah eating measures are egg-bulk; the date-bulk is uni"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of egg-bulk context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners assume every Torah eating-prohibition is measured by an olive-bulk without exception.",
+          "correction": "The baraita itself marks exceptions tied to the verse's wording: impure foods and Yom Kippur carry larger measures precisely because their verses depart from the usual language, which the Sages read as deliberately signaling a different measure."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "All Torah eating measures are egg-bulk; the date-b"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is the Yom Kippur measure a large date rather than the standard olive-bulk?",
+          "a": "Because the verse changes its language: it says 'any soul which shall not be afflicted' rather than 'shall eat.' The altered wording signals to the Sages that the measure differs from the usual olive-bulk, so it is set at the volume of a large date."
+        },
+        {
+          "q": "Why does the baraita need both the impurity case and the Yom Kippur case to make its point?",
+          "a": "From the impurity verse alone, one might dismiss the unusual wording as mere stylistic variation. The Yom Kippur case establishes the general rule that whenever a verse deviates from standard language, it implies a corresponding change in the halacha."
+        }
+      ],
+      "finalRuling": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger stan",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-080a-s02",
+      "lineRange": {
+        "startVilnaLine": 7,
+        "endVilnaLine": 31
+      },
+      "lines": [
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.80a.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.80a.4"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.80a.5"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.80a.6"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.80a.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.80a.8"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.80a.9"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.80a.10"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.80a.11"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.80a.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.80a.3",
+        "Yoma.80a.4",
+        "Yoma.80a.5",
+        "Yoma.80a.6",
+        "Yoma.80a.7",
+        "Yoma.80a.8",
+        "Yoma.80a.9",
+        "Yoma.80a.10",
+        "Yoma.80a.11",
+        "Yoma.80a.12"
+      ],
+      "display": {
+        "whats": "Where is the YK eating measure derived? Gezerah shavah from matzah",
+        "hint": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah."
+      },
+      "learning": {
+        "summary": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah.",
+        "ahaMoment": "Gezerah shavah: when the same word appears in two places in the Torah, the law can be derived from one to the other - a technical but powerful hermeneutic tool.",
+        "memoryAnchor": "Gezerah shavah: same word, same law - matzah and YK share an eating derivation.",
+        "openQuestion": "What is the deeper significance of the ruling about where is the yk eating measure derived? gezerah shavah from ?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "derivation",
+          "label": "Deriving the egg-bulk measure for impure food",
+          "speaker": "Gemara",
+          "text": "Rabbi Abbahu in the name of Rabbi Elazar derives the egg-bulk from 'food which may be eaten,' the doubled root teaching food that comes from food, namely a chicken egg. Challenges from a kid or a ben pekua are rejected because each still requires cutting or is not yet edible, leaving the egg as the model.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l07",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Which egg sets the measure?",
+          "speaker": "Gemara",
+          "text": "The Gemara presses that the egg might be the giant bar yokhani's egg, and answers that in doubt one takes the smaller included measure, yielding the chicken egg. When it presses that it could be a tiny bird's egg, the verse alone cannot decide, so this derivation is left incomplete.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l12",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Abbahu's own basis: what the throat holds at once",
+          "speaker": "Gemara",
+          "text": "Rabbi Abbahu gives his own derivation from 'food which may be eaten,' meaning food eaten at one time. The Sages estimated the esophagus holds no more than a chicken's egg at once, so that volume becomes the measure for the impurity of foods.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l14",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "principle",
+          "label": "Recording the measure of forbidden fat one ate",
+          "speaker": "Gemara",
+          "text": "Rabbi Elazar rules that one who unwittingly ate forbidden fat should write down the exact amount, in case a future court revises the measure, so his liability can be reassessed against the standard in force.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "objection",
+          "label": "Why a smaller future measure would not obligate him",
+          "speaker": "Gemara",
+          "text": "The Gemara asks what revision is feared. If a future court lowered the threshold to a small olive, he would still not owe an offering, because the baraita teaches that an offering is brought only by one who repents from awareness of sin, not one swept in by a changed measure.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l20",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "elaboration",
+          "label": "An offering follows awareness, not a measure change",
+          "speaker": "Gemara",
+          "text": "The Gemara elaborates: one who does not repent from awareness brings no offering. So if the measures shrank, a person whose original amount only later counts as an olive would not be obligated, since his liability would stem from the rule change, not from his own awareness of having sinned.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l23",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "resolution",
+          "label": "The real concern: a future larger measure",
+          "speaker": "Gemara",
+          "text": "Rather, the worry is that a future court might raise the threshold, requiring a large olive. One should record how much he ate, because a later court might rule that his amount falls short of the new olive measure, exempting him, so the record protects against over-obligation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l24",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "distinction",
+          "label": "Reconciling 'increase' with the initial reading",
+          "speaker": "Gemara",
+          "text": "Returning to the first suggestion, the Gemara asks why Rabbi Elazar said 'increase the measure' rather than 'decrease' if the fear was a smaller future olive. It answers that 'increase' may refer to an increase in the number of offerings brought once the liability-measure is smaller.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l25",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "id": "step-09",
+          "type": "principle",
+          "label": "Measures of punishment are from Sinai",
+          "speaker": "Gemara",
+          "text": "Rabbi Yochanan teaches that measures and punishments are halacha from Sinai. The Gemara objects that punishments are written explicitly in the Torah, and restates: it is the measures that determine liability for punishment that are the Sinaitic transmission.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l28",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "step-10",
+          "type": "distinction",
+          "label": "Were the measures from Sinai or from the court of Jabez?",
+          "speaker": "Gemara",
+          "text": "A baraita records that measures of punishment are from Sinai; others attribute them to the court of Jabez. Since a prophet may introduce nothing new, the Gemara reconciles: the measures were given at Sinai, later forgotten, and then reestablished by the prophets, not newly invented.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l31",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "gezerah shavah",
+        "YK eating measure",
+        "matzah",
+        "scriptural derivation"
+      ],
+      "concepts": {
+        "halachic": [
+          "gezerah shavah",
+          "YK eating measure"
+        ],
+        "theological": [
+          "Gezerah shavah: when the same word appears in two places in the Torah, the law c"
+        ],
+        "narrative": [
+          "Where is the YK eating measure derived? Gezerah shavah from "
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of gezerah shavah context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners think 'measures and punishments are from Sinai' means the punishments themselves were orally transmitted.",
+          "correction": "The Gemara corrects this: the punishments are written explicitly in the Torah. What is transmitted from Sinai are the measures that determine liability for those punishments, which were later forgotten and reestablished by the prophets."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Where is the YK eating measure derived? Gezerah sh"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "How does the Gemara arrive at a chicken egg as the measure for the impurity of foods?",
+          "a": "Rabbi Abbahu's accepted basis is that 'food which may be eaten' means food eaten at one time, and the Sages estimated the esophagus holds no more than a chicken's egg at once. The earlier derivation from 'food that comes from food' was left open because it could not exclude a tiny or giant egg."
+        },
+        {
+          "q": "Why should someone who unwittingly ate forbidden fat record exactly how much he ate?",
+          "a": "In case a future court raises the liability-measure. If a later court requires a larger olive, his recorded amount might fall short of the new threshold, exempting him. He cannot be newly obligated by a smaller future measure, since offerings follow awareness of sin, not a rule change."
+        },
+        {
+          "q": "How does the Gemara reconcile that the measures of punishment are both from Sinai and from the court of Jabez?",
+          "a": "Because a prophet may introduce nothing new, the measures must have originated at Sinai. Over time they were forgotten, and the court of Jabez and the prophets reestablished them, so Jabez restored rather than invented the measures."
+        }
+      ],
+      "finalRuling": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating proh",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-080a-s03",
+      "lineRange": {
+        "startVilnaLine": 36,
+        "endVilnaLine": 46
+      },
+      "lines": [
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.80a.13"
+        },
+        {
+          "vilnaLine": 40,
+          "sefariaRef": "Yoma.80a.14"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.80a.15"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.80a.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.80a.13",
+        "Yoma.80a.14",
+        "Yoma.80a.15",
+        "Yoma.80a.16"
+      ],
+      "display": {
+        "whats": "Drinking measure on YK: a cheekful (male'o lugmav); how it is derived",
+        "hint": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measure."
+      },
+      "learning": {
+        "summary": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measure.",
+        "ahaMoment": "The cheekful is a subjective measure - it varies by person - which is unusual in halacha where measures are typically objective. This personalization matters.",
+        "memoryAnchor": "Cheekful: a personal measure - what fills your cheek, not a fixed amount.",
+        "openQuestion": "What is the deeper significance of the ruling about drinking measure on yk: a cheekful (male'o lugmav); how it i?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "A cheekful means one cheek's worth in appearance",
+          "speaker": "Gemara",
+          "text": "The mishna makes one who drinks a cheekful liable. Rav Yehuda in the name of Shmuel explains this is not two literally full cheeks but the amount that, pushed to one side, makes a single cheek appear full. The mishna's plural 'cheeks' means it looks like two cheeks full when viewed from one side.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l36",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "A baraita seems to require an actual cheekful",
+          "speaker": "Gemara",
+          "text": "A baraita lists the drinking measure: Beit Shammai a quarter-log, Beit Hillel two cheeks full, Rabbi Yehuda in Rabbi Eliezer's name like two cheeks full in appearance, and Rabbi Yehuda ben Beteira a single gulp. Beit Hillel's 'two cheeks full' seems to mean a literal full mouth, against Shmuel.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l40",
+              "vilnaLine": 40
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "distinction",
+          "label": "Distinguishing Beit Hillel from Rabbi Eliezer",
+          "speaker": "Gemara",
+          "text": "The Gemara rereads Beit Hillel as also meaning the appearance of two cheeks full, but then it would equal Rabbi Eliezer's view. It distinguishes them by a 'paltry cheekful,' slightly less than full: Beit Hillel requires a full cheek, Rabbi Eliezer holds one liable even for the lesser mouthful.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l43",
+              "vilnaLine": 43
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "objection",
+          "label": "Rav Hoshaya: this would be a Beit Shammai leniency",
+          "speaker": "Gemara",
+          "text": "Rav Hoshaya objects that if Beit Hillel's measure is a single cheekful, then Beit Shammai's quarter-log is the larger and stricter measure, an unusual case of Beit Shammai being stringent. He asks why such a case is not listed in Eduyyot, where Beit Shammai's leniencies are collected; the answer continues on the next page.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-080a-l46",
+              "vilnaLine": 46
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "drinking measure",
+        "cheekful",
+        "male'o lugmav",
+        "YK liability"
+      ],
+      "concepts": {
+        "halachic": [
+          "drinking measure",
+          "cheekful"
+        ],
+        "theological": [
+          "The cheekful is a subjective measure - it varies by person - which is unusual in"
+        ],
+        "narrative": [
+          "Drinking measure on YK: a cheekful (male'o lugmav); how it i"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of drinking measure context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Learners take 'a cheekful' to mean two literally stuffed cheeks of liquid.",
+          "correction": "Shmuel explains it as the volume that fills one cheek when the liquid is pushed to a side, which only appears like a full mouth. The measure is one cheek's worth in appearance, not two cheeks crammed full."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Drinking measure on YK: a cheekful (male'o lugmav)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "According to Shmuel, what does the mishna's 'cheekful' actually require?",
+          "a": "Not two literally full cheeks, but enough liquid that when pushed to one side of the mouth it makes a single cheek appear full. The plural language means it should look like two cheeks full when viewed from one side, even though it is one cheek's worth."
+        },
+        {
+          "q": "How do the Sages distinguish Beit Hillel's measure from Rabbi Eliezer's once both are read as 'the appearance of a cheekful'?",
+          "a": "By the case of a paltry cheekful, slightly less than a full cheek. Beit Hillel holds one liable only for a full cheekful, while Rabbi Eliezer holds one liable even for the lesser, paltry mouthful."
+        }
+      ],
+      "finalRuling": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measu",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "כל השיעורין. האמורין באוכלין: ששינה הכתוב. לקמן קמפרש",
+      "en": "Rashi: all Torah eating measures equal an egg-bulk except Yom Kippur's date-bulk.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "ליה: וראיה לדבר. למה שאמרתי שלפי ששינה הכתוב במשמען שינו",
+      "en": "Rashi: the gezerah shavah linking YK eating to the matzah eating requirement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "חכמים בשיעורן יש ראיה מיום הכפורים שאף בו שינו חכמים",
+      "en": "Rashi: the same root word 'eating' appears in both matzah and YK contexts.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "בשיעורן מפני ששינה בו הכתוב במשמעו: אשר לא תעונה. ולא",
+      "en": "Rashi: the cheekful (male'o lugmav) as the drinking measure for Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "כתיב אשר תאכל: מאי ראיה. למה",
+      "en": "Rashi: why the drinking measure is personal (cheek-sized) rather than fixed.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "לו להביא ראיה מאי אולמא דהאי",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "מהאי מה פורש ביום הכפורים",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "במשנה להודיענו שהטעם משום",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "דשינה הכתוב הוא יותר משלא פירשו",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "התם בטומאה נמי חזינן דשינה",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "הכתוב במשמעו ושינו חכמים",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "בשיעורא: אי מהתם. מדשינה",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "הכתוב בטומאה הוה אמינא אין",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "שם שינוי הכתוב דאורחיה הוא",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "למיכתב מכל האוכל אשר יאכל כי",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "היכי דכתיב גבי משקה אשר ישתה",
+      "en": "Rashi explains the opening discussion of this topic on 80a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "קא משמע לן יום הכפורים דהתם",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "ודאי שינה הכתוב במשמעו ושינו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "חכמים בשיעורן אמור מעתה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "את ששינו בטומאה נמי משום",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "טעמא דשינה הכתוב הוא דאשר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "יאכל שינוי משמעו חשיב להו:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "מחוסר שחיטה. כשיצא מתוך האוכל",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "שנוצר בו לאו אוכל מיקרי לענין",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "טומאה לא הוא ולא אמו דהא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "מחסרי שחיטה: ואימא בן פקועה.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "שנמצא בתוך בהמה שנשחטה דקיימא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "לן (חולין דף עד.) שחיטת אמו",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "מטהרתו: טעון קריעה. דתנן (שם)",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "קורעו ומוציא את דמו: דבר יוכני.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "עוף גדול הוא כדאמרינן בבכורות",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "(דף נז:) שטבעה ביצתו ששים כרכים:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "זוטר טובא לא גרסינן אלא ה\"ג ואימר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "כביעותא דציפרתא: רבי אבהו דידיה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "אמר וכו'. פירש במשמעו של מקרא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "פירוש אחר שלא פירש בו ר' אלעזר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "רבו ואין להשיב עליו: האוכל חלב",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "בזמן הזה וכו'. מפרש לה ואזיל: אי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "נימא דמחייבי קרבן אכזית קטן. והכי",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "קאמר האוכל פחות מכזית בזמן הזה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "יכתוב כשיעור זה אכלתי שמא יבנה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "בית המקדש בימיו ויתחדש בית דין",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "ותתחדש הלכה ויאמרו שחייב קרבן",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "על כזית קטן ולקמן פריך א\"כ ימעט",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "בשיעורין מבעי ליה: והתניא וכו'.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "כלומר וכי אתי ב\"ד ומחדש הלכה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "מי מחייב האי דאכל קודם שנתחדשה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "הלכה והא האידנא לאו שב מידיעתו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "הוא דאי נמי הוה ידע דחלב הוא הוה",
+      "en": "Rashi: for even had he known it was forbidden fat he would have",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "אכיל ליה דהא השתא קים לן (ברכות",
+      "en": "eaten it, since we hold (Berakhot 39a)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "דף לט.) דלא חייבה תורה אלא על",
+      "en": "that the Torah obligates only for",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "כזית איגורי שהוא כזית בינוני: אשר",
+      "en": "an olive-bulk of iguri, which is a medium olive-bulk. 'Which",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "לא תעשינה. משמע שאילו ידע לא",
+      "en": "shall not be done' (Lev 4) -",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "עשה אבל בשגגה עשה ואשם: אלא",
+      "en": "implies that had he known he would not have done it, but he acted inadvertently and is liable for a guilt-offering. 'Rather',",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "דלא מחייבי קרבן עד דאיכא כזית",
+      "en": "Rashi: that one is not obligated in a sacrifice until there is an olive-bulk",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "גדול. והכי קאמר האוכל כזית בינוני",
+      "en": "of the larger size. And this is its meaning: one who eats a medium olive-bulk",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "אל יכתוב מחוייבני חטאת אלא יכתוב",
+      "en": "should not write 'I am obligated in a sin-offering,' but should write",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "כזית בינוני אכלתי שמא יבא בית דין",
+      "en": "'I ate a medium olive-bulk,' lest a court come",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "ויפטרנו מקרבן ונמצא מביא חולין",
+      "en": "and exempt him from the sacrifice, and he turn out to be bringing unconsecrated food",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "לעזרה: ה\"ג עונשין מיכתב כתיבי",
+      "en": "into the Temple court. The correct reading: 'punishments are written',",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "אלא הכי קאמר שיעורין של עונשין וכו'. שיעורי עונשין שעל ידן הוא ענוש הלכה למשה מסיני באיזה שיעור הוא ענוש: יעבץ.",
+      "en": "Rashi: rather it means thus - the measures for punishments etc. The measures of punishment by which one is punished are a law given to Moshe at Sinai - at what amount one is punishable. 'Yaavetz',",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "הוא עתניאל בן קנז: כמה ישתה. מדבית הלל קפריך: הכי גרסינן איכא בינייהו כמלא לוגמיו דחוק. לבית הלל בעינן",
+      "en": "Rashi: he is Othniel ben Kenaz. 'How much shall he drink' - the Gemara raises a difficulty from the view of Beit Hillel. The correct reading: 'the difference between them is a tight cheekful.' For Beit Hillel we require",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "he": "כדי שיסלקנו לצד אחד ויראה כמלא לוגמיו בריוח ולרבי אליעזר כמלא לוגמיו דחוק: אם כן. דלבית הלל מיחייב בכדי",
+      "en": "enough that he can push it to one side and it look like a full cheekful comfortably, while for R. Eliezer a tight cheekful suffices. 'If so' - that for Beit Hillel one is liable with enough",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "he": "שיסלקנו וכו' הוה ליה בציר מרביעית והויא לה מקולי בית שמאי וליתנייה במסכת עדיות גבי קולי בית שמאי שכולן שנויות שם:",
+      "en": "that he can push aside etc., then it is less than a revi'it, and this would be among the leniencies of Beit Shammai, and it should have been taught in Eduyot among the leniencies of Beit Shammai, which are all listed there.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "he": "כי",
+      "en": "Rashi begins the next comment ('ki'), opening the following passage.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

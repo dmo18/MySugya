@@ -58,6 +58,33 @@ const Icons = {
 };
 
 // =============================================================================
+// LOGO — samekh (ס · Sugya) holding the two-partner S (My / chavruta).
+// Single-color via currentColor, so it adapts to light and dark surfaces.
+// =============================================================================
+function Logo({ className }) {
+  return (
+    <svg
+      className={className || "brand-logo"}
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      role="img"
+      aria-label="My Sugya"
+    >
+      <rect x="10" y="13" width="44" height="42" rx="16" strokeWidth="4.5" />
+      <path d="M16 14 C11 11 10 7 14 5" strokeWidth="4.5" />
+      <g strokeWidth="3.6">
+        <path d="M39 27 C32 24 28 28 32 32 C36 36 32 41 25 38" />
+        <circle cx="40.5" cy="26.5" r="3.4" fill="currentColor" stroke="none" />
+        <circle cx="23.5" cy="38.5" r="3.4" fill="currentColor" stroke="none" />
+      </g>
+    </svg>
+  );
+}
+
+// =============================================================================
 // VILNA POSITION FEATURES
 // =============================================================================
 
@@ -148,8 +175,9 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
       <div className="chrome-inner">
 
         <div className="brand">
-          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>
+          <Logo className="brand-logo" />
           <span className="brand-name">My Sugya</span>
+          <span className="brand-beta">BETA</span>
         </div>
 
         <div className="chrome-location">
@@ -2021,6 +2049,43 @@ function TractateCard({ mod }) {
   );
 }
 
+// ----- Help overlay: how to use the app + beta status ---------------------
+function HelpOverlay({ open, onClose }) {
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+  if (!open) return null;
+  return (
+    <div className="help-overlay" onClick={onClose}>
+      <div className="help-panel" onClick={e => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="How to use My Sugya">
+        <div className="help-head">
+          <h2 className="help-title">How to use My Sugya</h2>
+          <button type="button" className="help-close" onClick={onClose} aria-label="Close help">×</button>
+        </div>
+        <span className="help-beta-pill">Open beta · work in progress</span>
+        <p className="help-lead">
+          A free Talmud study companion, in active development. Yoma is complete;
+          more masechtot are being added over time.
+        </p>
+        <ul className="help-list">
+          <li><strong>Pick a masechta</strong> from the home page, or press <kbd>/</kbd> to jump straight to any daf.</li>
+          <li><strong>Read side by side.</strong> Hebrew with nekudot and elucidated English, Rashi shown inline with the gemara.</li>
+          <li><strong>Follow the argument.</strong> Each sugya is mapped into its moves - question, proof, objection, resolution.</li>
+          <li><strong>Track your place.</strong> Bookmark, mark complete, and resume where you left off - saved on your device.</li>
+          <li><strong>Tune the page.</strong> Open Tweaks inside a daf for theme, font sizes, and reading aids.</li>
+        </ul>
+        <p className="help-foot">
+          Because this is an early release, some daf are still being enriched and details may change.
+          Feedback is always welcome.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 function LandingPage() {
   const firstMod = MYSUGYA_MANIFEST[0];
   const startUrl = firstMod ? "?module=" + firstMod.id : "#tractates";
@@ -2031,6 +2096,7 @@ function LandingPage() {
 
   const [data, setData] = useState(null);
   const [cmdOpen, setCmdOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
   const featured = useMemo(() => deriveFeatured(data), [data]);
 
   // Lazy-load the featured module's data after the hero paints, then enrich.
@@ -2060,12 +2126,23 @@ function LandingPage() {
 
       <header className="landing-chrome">
         <div className="brand">
-          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>
+          <Logo className="brand-logo" />
           <span className="brand-name">My Sugya</span>
+          <span className="brand-beta">BETA</span>
         </div>
-        <button type="button" className="chrome-jump" onClick={() => setCmdOpen(true)}>
-          <span aria-hidden="true">⌕</span> Jump to a daf <kbd>/</kbd>
-        </button>
+        <nav className="landing-nav">
+          <a className="landing-nav-link" href="#how">
+            <span className="landing-nav-ic" aria-hidden="true">✦</span>
+            <span className="landing-nav-label">Features</span>
+          </a>
+          <button type="button" className="landing-nav-link" onClick={() => setHelpOpen(true)}>
+            <span className="landing-nav-ic" aria-hidden="true">?</span>
+            <span className="landing-nav-label">Help</span>
+          </button>
+          <button type="button" className="chrome-jump" onClick={() => setCmdOpen(true)}>
+            <span aria-hidden="true">⌕</span> <span className="chrome-jump-label">Jump to a daf</span> <kbd>/</kbd>
+          </button>
+        </nav>
       </header>
 
       {/* HERO */}
@@ -2097,6 +2174,14 @@ function LandingPage() {
             <CountUpStat value={featured ? featured.rashiCount : 0} label="Rashi lines" />
             <CountUpStat value={liveCount} label={"of " + shasTotal + " masechtot"} />
           </div>
+          <p className="landing-beta-note">
+            <span className="lbn-pill">Beta</span>
+            Yoma is complete and live. More masechtot are being added - this is an
+            early, evolving release.
+            <button type="button" className="lbn-link" onClick={() => setHelpOpen(true)}>
+              How it works
+            </button>
+          </p>
         </Reveal>
 
         <Reveal className="landing-hero-deco" delay={160}>
@@ -2220,6 +2305,7 @@ function LandingPage() {
       </footer>
 
       <CommandBar open={cmdOpen} onClose={() => setCmdOpen(false)} />
+      <HelpOverlay open={helpOpen} onClose={() => setHelpOpen(false)} />
     </div>
   );
 }

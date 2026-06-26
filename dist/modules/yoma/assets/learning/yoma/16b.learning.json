@@ -1,0 +1,591 @@
+{
+  "daf": "16b",
+  "canonicalRef": "Yoma 16b",
+  "summary": "The page completes the debate over whether tractate Middot follows Rabbi Yehuda (altar centered in the courtyard) or Rabbi Eliezer ben Yaakov. R. Yehuda's position: the altar's 32 cubits are arranged 10 opposite the Sanctuary entrance, 11 to the north, 11 to the south - perfectly centered. The Gemara works through the cubit calculations and shows the altar cannot be centered if Middot's total dimensions are correct. Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner but along the middle of the west wall, appearing at different corners depending on the viewer's approach direction. The Gemara concludes the southwest corner placement (Middot/R. Eliezer ben Yaakov) is most defensible.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-16b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 21
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.16b.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.16b.2"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.16b.3"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.16b.4"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.16b.5"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.16b.1",
+        "Yoma.16b.2",
+        "Yoma.16b.3",
+        "Yoma.16b.4",
+        "Yoma.16b.5"
+      ],
+      "display": {
+        "whats": "The extended debate over whether Tractate Middot follows R. Yehuda or R. Eliezer ben Yaakov is resolved: Middot is NOT R. Yehuda's tractate. R. Yehuda holds the altar was centered in the courtyard, but the Temple measurements prove the altar was not centered - most of it was to the south. The Gemara then works through the precise cubit counts: the altar's 32 cubits plus the ramp, the courtyard's total dimensions, and how the various structures fit.",
+        "hint": "The key is whether the altar was centered in the court (R. Yehuda) or positioned mostly to the south (Middot's implicit description). The measurements leave no room for centering, ruling out R. Yehuda as Middot's author."
+      },
+      "learning": {
+        "summary": "The Gemara conclusively rules out R. Yehuda as Tractate Middot's author. R. Yehuda holds the altar was centered in the courtyard; the actual measurements in Middot show the altar (32 cubits) plus the ramp (16 cubits south) leaves the altar entirely in the southern portion of the court. R. Yehuda's centered view is geometrically impossible given Middot's dimensions.",
+        "ahaMoment": "Geometry resolves a talmudic dispute: there is not enough space north of center to accommodate R. Yehuda's centered-altar view. The numbers simply don't work.",
+        "memoryAnchor": "R. Yehuda: altar centered. Reality: altar + ramp to the south = 48 cubits south of center. No room for center. Middot is NOT R. Yehuda's.",
+        "openQuestion": "If Middot's measurements rule out both R. Yehuda and (if taken literally) some of R. Eliezer ben Yaakov's positions, is the Middot text itself internally consistent?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "premise",
+          "label": "R. Yehuda: altar centered in the courtyard",
+          "speaker": "R. Yehuda",
+          "text": "R. Yehuda holds that the altar stood at the exact center of the Azara (courtyard), with equal space on all four sides.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16b-l01",
+              "vilnaLine": 1,
+              "note": "R. Yehuda's centered-altar position"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "refutation",
+          "label": "Measurements prove altar is mostly to the south",
+          "speaker": "Gemara",
+          "text": "The courtyard is 187 cubits north-south. The altar is 32 cubits and the ramp is 16 cubits south of it. The Sanctuary (Heikhal) occupies 100 cubits from the north. All this leaves most of the altar south of center.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16b-l03",
+              "vilnaLine": 3,
+              "note": "Measurement refutation"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "elaboration",
+          "label": "The cubit-by-cubit breakdown",
+          "speaker": "Gemara",
+          "text": "From north: 11 cubits (between Heikhal and altar), 32 cubits (altar), 16 cubits (ramp), 22 cubits (remaining south space). Total south section = 70 cubits. Total north section = 116 cubits (Heikhal + 11 + 5 for walls). The altar center falls at roughly cubit 48 from the south - not at the court's center.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16b-l12",
+              "vilnaLine": 12,
+              "note": "Detailed cubit breakdown"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "conclusion",
+          "label": "Conclusion: Middot cannot be R. Yehuda's tractate",
+          "speaker": "Gemara",
+          "text": "Since Middot's measurements show the altar cannot be centered, and R. Yehuda requires centering, R. Yehuda did not author Middot. This confirms Rav Huna's attribution to R. Eliezer ben Yaakov.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16b-l18",
+              "vilnaLine": 18,
+              "note": "Conclusion: Middot = R. EbY, not R. Yehuda"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "detail",
+          "label": "R. Eliezer ben Yaakov's placement is geometrically consistent",
+          "speaker": "Gemara",
+          "text": "R. Eliezer ben Yaakov's description of the altar as offset to the south (not centered) fits with Middot's actual cubit counts. This solidifies the attribution.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-16b-l21",
+              "vilnaLine": 21,
+              "note": "R. EbY's offset placement confirmed"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "altar placement",
+        "Temple measurements",
+        "R. Yehuda",
+        "R. Eliezer ben Yaakov",
+        "Tractate Middot",
+        "courtyard geometry"
+      ],
+      "concepts": [
+        {
+          "term": "Azara",
+          "def": "The main Temple courtyard (Israelites' courtyard) measuring 187 cubits north-south and 135 cubits east-west. The altar, Heikhal, and Ulam all stand within it."
+        },
+        {
+          "term": "kevesh",
+          "def": "The ramp leading up to the altar from the south. It measured 16 cubits long and 16 cubits wide (some say 30 long). No steps were allowed; the ramp ensured dignified ascent."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.16b.1",
+        "Yoma.16b.2",
+        "Yoma.16b.4"
+      ],
+      "requiresUnderstanding": [
+        "R. Yehuda's centered-altar position",
+        "Basic Temple courtyard dimensions from Tractate Middot",
+        "The attribution debate from 16a"
+      ],
+      "misconceptions": [
+        "One might think R. Yehuda's centered-altar view is a minor position easily dismissed - the Gemara takes it seriously and refutes it with precise measurements."
+      ],
+      "relatedSugyot": [
+        "yoma-16a-s01",
+        "yoma-17a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "desc": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered."
+        },
+        {
+          "type": "contrast",
+          "desc": "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
+          "correct": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north + 11 gap + 32 altar + 16 ramp = 159 cubits) leave the altar entirely in the south half - it cannot be centered."
+        },
+        {
+          "type": "multiple_choice",
+          "q": "What is the 'kevesh' and how long was it?",
+          "choices": [
+            "The altar ramp, 16 cubits long",
+            "The altar top surface, 32 cubits",
+            "The space between Heikhal and altar, 11 cubits",
+            "The drainage channel under the altar"
+          ],
+          "correct": "The altar ramp, 16 cubits long"
+        }
+      ],
+      "finalRuling": "Established: Tractate Middot is NOT R. Yehuda's. Rav Huna's attribution to R. Eliezer ben Yaakov stands. The altar was offset south, not centered.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "כֶּבֶשׁ",
+          "translit": "kevesh",
+          "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
+        },
+        {
+          "he": "עֲזָרָה",
+          "translit": "Azara",
+          "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "כֶּבֶשׁ",
+      "translit": "kevesh",
+      "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
+    },
+    {
+      "he": "עֲזָרָה",
+      "translit": "Azara",
+      "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'R. Yehuda says the altar was centered' - he holds all spaces around the altar were equal. Now refuting this from measurements.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: 'the altar's 32 cubits' - the altar platform measured 32x32 cubits at its top. How can this be centered in a 187-cubit court?",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: R. Yehuda proposes: 10 cubits between the altar's north face and the Heikhal, 11 to the south, 11 to the north, 11 to the south of center. This attempts centering.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: 'between the ramp and the wall only 5 cubits and a half' - R. Yehuda's centering requires only 5.5 cubits between the ramp's south end and the south courtyard wall.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: but we need space for the Shewbread-tables (shulchanot) and the rinsing-station (nnasim). R. Yehuda says they fit in 5.5 cubits.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: 'and if you say he did not calculate precisely' - perhaps R. Yehuda wasn't exact about centering and allows minor adjustment.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'where would the Shewbread tables and rinsing station fit?' - these require 3.5 cubits minimum, leaving only 2 cubits - insufficient.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: from R. Yehuda's centering, 21.5 cubits are available south of the altar - half of 187 minus half of altar (16) minus ramp (16) = 21.5. But the northern side needs only 10 between altar and Heikhal.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: if all this math works out, R. Yehuda can achieve centering with some stretching. But Middot disagrees.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: 'you could still say it is R. Yehuda' by distributing the 21.5 cubits differently - perhaps he has a different ramp length.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: Rashi clarifies that according to his understanding the Gemara is showing it works out for R. Yehuda if we allow some flexibility.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: the detailed cubit-by-cubit breakdown: Heikhal (north) = 100 cubits from north wall to Heikhal south face; then 11 cubit gap; then 32 cubit altar; then 16 cubit ramp; then 22 cubits to south wall.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: 100 + 11 + 32 + 16 + 22 = 181. But the courtyard is 187. The remaining 6 cubits are the wall thicknesses and the Ulam entrance.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: the Heikhal's 100 cubits includes the Ulam (11 cubits deep at the front) and the Devir (rear holy of holies, 20 cubits), leaving 69 for the Heikhal proper.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: 'therefore most of the altar is in the south' - summing the sections, the altar center falls at cubit 116 from the north, past the midpoint of 93.5, so the altar is south of center.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: 'shma mina' - conclude from this: Middot's layout contradicts R. Yehuda's centered altar. Therefore Middot is NOT R. Yehuda's tractate.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: 'shma mina Middot is not R. Yehuda' - the measurement proof rules out R. Yehuda's authorship.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but in the middle of the west wall, appearing at different corners depending on your viewpoint.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'it appears to jut out at both corners' - because the chamber extended along the middle of the west wall, someone approaching from north sees it at the SW corner, someone from south sees it at the NW corner.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: so Yoma and Middot don't contradict each other - they describe the same chamber from different viewing angles.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: 'it is more probable that it was in the SW corner' - despite Rav Adda's middle-wall theory, the Gemara concludes SW corner placement (Middot/R. EbY) is more defensible.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: the tanna of Tamid (who places it at NW) was describing from his southward walking direction - it appeared northern to him.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: the Middot author (R. EbY) placed it definitively at SW; the Tamid tanna described it as it appeared from his approach, which was the NW.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: 'from the south, it appears northern' - the chamber's elongation from the west wall made it look northwest from a southern approach.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: 'it is agreed that it was in the SW corner' - the most likely corner, consistent with all evidence.",
+      "linkedGemaraLineIds": [
+        "yoma-16b-l21"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 26).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 27).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 28).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 29).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 30).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 31).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 32).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 33).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 34).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 35).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 36).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 37).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 38).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 39).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 40).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 41).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 42).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 43).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 44).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 45).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 46).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 47).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 48).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 49).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 50).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 51).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 52).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 53).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 54).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 55).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 56).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 57).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 58).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 59).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 60).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 61).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 62).",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

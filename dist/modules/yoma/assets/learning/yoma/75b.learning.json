@@ -1,0 +1,886 @@
+{
+  "canonicalRef": "Yoma 75b",
+  "summary": "Continuation of the manna aggadah: bread was asked appropriately but meat was not; quail arrived immediately and lasted a month. The physical properties of the manna (flaky, melting), the claim that the manna fed like angels' bread, and Israel's fear that the manna caused infertility round out the passage.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-075b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.75b.1"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.75b.2"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.75b.3"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.75b.4"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.75b.5"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.75b.6"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.75b.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.75b.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.75b.1",
+        "Yoma.75b.2",
+        "Yoma.75b.3",
+        "Yoma.75b.4",
+        "Yoma.75b.5",
+        "Yoma.75b.6",
+        "Yoma.75b.7",
+        "Yoma.75b.8"
+      ],
+      "display": {
+        "whats": "Bread asked appropriately, meat not; quail types and miraculous supply",
+        "hint": "Why did bread arrive properly but meat bring punishment? How was the quail provided?"
+      },
+      "learning": {
+        "summary": "Bread was a legitimate need, so it arrived correctly (morning, organized). Meat was asked from excess desire, so it brought death - some died immediately, others ate for a month. The quail: Reish Lakish reads 'vayishtehu' as 'they laid it as flooring' (so abundant it paved the ground). Rabbi teaches slaughter laws were given at Marah. The manna tasted differently to young (oil/honey) and old. Four types of quail. The quail appeared miraculously in the Sages' homes.",
+        "ahaMoment": "The provision schedule itself is God's judgment: morning bread = legitimate need met; night meat = excess desire with consequences.",
+        "memoryAnchor": "Bread in the morning, meat at night - the timing reveals the verdict on each request.",
+        "openQuestion": "What makes a request for food from God legitimate?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-075b-l01",
+          "type": "ruling",
+          "label": "Bread: appropriate request, appropriate provision",
+          "speaker": "Gemara",
+          "text": "Given in the morning at the right time",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l02",
+          "type": "ruling",
+          "label": "Meat: inappropriate request - two outcomes",
+          "speaker": "Gemara",
+          "text": "Some died immediately; others ate for a month",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l02",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l03",
+          "type": "ruling",
+          "label": "Quail spread as flooring",
+          "speaker": "Reish Lakish",
+          "text": "Read vayashtihu: they were so numerous they paved the ground",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l03",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l04",
+          "type": "ruling",
+          "label": "Slaughter laws given at Marah",
+          "speaker": "Rabbi Yehuda HaNasi",
+          "text": "'As I commanded you' implies prior instruction about shechita",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l04",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l05",
+          "type": "ruling",
+          "label": "Manna tasted like oil, honey, bread",
+          "speaker": "Gemara",
+          "text": "Different tastes for different people",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l05",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l06",
+          "type": "ruling",
+          "label": "Shlav vs slav: righteous vs wicked",
+          "speaker": "Rabbi Chanina",
+          "text": "Righteous eat meat; wicked taste refuse",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l06",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l07",
+          "type": "ruling",
+          "label": "Four types of quail",
+          "speaker": "Rav Chanan bar Rava",
+          "text": "Different varieties of quail in the wilderness",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l07",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l08",
+          "type": "narrative",
+          "label": "Quail found near Sages' goods",
+          "speaker": "Gemara",
+          "text": "Rav Yehuda found them near wine; Rav Chisda near millstones",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l08",
+              "vilnaLine": 23
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "manna",
+        "quail",
+        "bread",
+        "provision-timing"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "legitimate requests for food receive proper provision; illegitimate ones receive provision with consequences"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why did bread arrive in the morning but meat at night?",
+          "answer": "Bread was requested legitimately (a genuine need), so it arrived properly; meat was requested from excess desire and arrived at the wrong time with deadly consequences",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Non-halachic aggadah on the manna and quail.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-075b-s02",
+      "lineRange": {
+        "startVilnaLine": 26,
+        "endVilnaLine": 39
+      },
+      "lines": [
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.75b.9"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.75b.10"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.75b.11"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.75b.12"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.75b.13"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.75b.14"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.75b.15"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.75b.16"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.75b.17"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.75b.9",
+        "Yoma.75b.10",
+        "Yoma.75b.11",
+        "Yoma.75b.12",
+        "Yoma.75b.13",
+        "Yoma.75b.14",
+        "Yoma.75b.15",
+        "Yoma.75b.16",
+        "Yoma.75b.17"
+      ],
+      "display": {
+        "whats": "Manna: between dew layers, flaky, angels' bread, and Israel's fear of infertility",
+        "hint": "What were the manna's physical properties, and why did Israel fear it would leave no offspring?"
+      },
+      "learning": {
+        "summary": "Rav Papa: manna fell between two dew layers. Reish Lakish: dak mechusfas - dissolves at the palm's edge. Two views on 'bread of the mighty': (1) angels' bread; (2) bread absorbed by all 248 limbs with no waste product. Rabbi Elazar ben Perata: manna materialized even Gentile trade goods. Israel's fear: since manna needed no digestion, they worried it left no seed for children. Rabbi Yishmael's wordplay: 'bilti' (except) read as 'blitenu' (our wearing away). Closes with Joshua receiving manna for all of Israel.",
+        "ahaMoment": "Perfect nourishment left Israel afraid of the future - the same property that made the manna miraculous (no waste) made them worry it was consuming their reproductive potential.",
+        "memoryAnchor": "No waste, no children - the paradox of perfect food. The manna that purified everything also terrified Israel that it consumed their future.",
+        "openQuestion": "What does Joshua receiving manna for all of Israel tell us about his unique status?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-075b-l09",
+          "type": "ruling",
+          "label": "Manna sandwiched in dew",
+          "speaker": "Rav Papa",
+          "text": "Upper and lower dew layers preserved and delivered the manna",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l09",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l10",
+          "type": "ruling",
+          "label": "Dak mechusfas: melts at palm's edge",
+          "speaker": "Reish Lakish",
+          "text": "Fine and flaky - dissolves upon contact with the hand",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l10",
+              "vilnaLine": 27
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l11",
+          "type": "ruling",
+          "label": "Manna = angels' bread vs 248-limb absorption",
+          "speaker": "Baraita",
+          "text": "Two interpretations: food angels eat; food absorbed by all limbs",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l11",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l12",
+          "type": "ruling",
+          "label": "Outhouse verse refers to other situations",
+          "speaker": "Gemara",
+          "text": "If manna needs no waste, the verse applies to other contexts",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l12",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l13",
+          "type": "ruling",
+          "label": "Manna materialized Gentile trade goods",
+          "speaker": "Rabbi Elazar ben Perata",
+          "text": "The manna's provision extended to any want, including commercial goods",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l13",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l14",
+          "type": "ruling",
+          "label": "Camp was three parasangs",
+          "speaker": "Gemara",
+          "text": "Derived from the Jordan encampment boundary verse",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l14",
+              "vilnaLine": 34
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l15",
+          "type": "ruling",
+          "label": "Manna caused fear of infertility",
+          "speaker": "Gemara",
+          "text": "No waste = feared no seed for children",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l15",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l16",
+          "type": "ruling",
+          "label": "Bilti = blitenu: our wearing away",
+          "speaker": "Rabbi Yishmael",
+          "text": "Wordplay: they complained their potential was being worn away",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l16",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "yoma-075b-l17",
+          "type": "ruling",
+          "label": "Ish = Joshua, manna for all",
+          "speaker": "Gemara",
+          "text": "Alternative: Joshua received manna corresponding to all Israel",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-075b-l17",
+              "vilnaLine": 39
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "manna",
+        "digestion",
+        "infertility",
+        "Joshua"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "perfect manna created fear about reproduction",
+          "manna was absorbed by all 248 limbs without waste"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why did Israel fear that the manna caused infertility?",
+          "answer": "The manna left no waste product, so they feared it also prevented having children (seed requires physical processes)",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Non-halachic aggadah.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "שָׂלָו",
+      "translit": "Slav",
+      "en": "Quail - the meat God provided for Israel in the wilderness; its description is written one way and read another."
+    },
+    {
+      "he": "לֶחֶם אַבִּירִים",
+      "translit": "Lechem abirim",
+      "en": "'Bread of the mighty' - interpreted as either the food of ministering angels or food absorbed by all 248 limbs without waste."
+    },
+    {
+      "he": "שְׁחִיטָה",
+      "translit": "Shechitah",
+      "en": "Ritual slaughter of animals according to Torah law; the Gemara holds these rules were given at Marah before Sinai."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "לחם ששאלו כהוגן. שאי אפשר להיות בלא לחם: ניתן להם כהוגן.",
+      "en": "bread they asked appropriately - they needed it; meat they asked inappropriately - from excess desire",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "בבוקר שיש שהות להכינו: בשר שאלו שלא כהוגן. מתוך כרס",
+      "en": "'the meat was yet between their teeth' vs 'for a month of days' - one batch died quickly, another lasted a month",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "מלאה שהרי מקנה רב היה להם: שלא כהוגן. ירד להם עם",
+      "en": "'and they spread them out' - Reish Lakish: do not read vayishtehu but vayashtihu (they laid them as floors)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "חשיכה שעה שאינה ראויה לתקן אותה עד שעת הסעודה: כעין",
+      "en": "and it was taught: Rabbi Yehuda HaNasi says 'as I commanded' teaches shechita laws were given at Marah",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "יממא. באור האבוקה: וקבע להם",
+      "en": "it is written bread, oil, and honey - Rabbi Yosei disagrees between what it tasted to the young versus old",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "זמן סעודה. בבקר ובערב: שירד",
+      "en": "it is written shlav (quail) but read slav - Rabbi Chanina: the righteous eat its meat, the wicked are sated with excrement",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "להם דבר שטעון שחיטה. ומלמד",
+      "en": "Rav Chanan bar Rava: four types of quail",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "שהשליו דבר שטעון שחיטה היה:",
+      "en": "Rav Yehuda found quail among his wine barrels; Rav Chisda found them between the millstones",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "וזבחת כאשר צויתיך. ולא מצינו בתורה",
+      "en": "it is written 'the layer of dew lifted' and also 'when the dew fell' - Rav Papa: the manna fell between them",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "ציווי הזביחה היאך מכאן אתה למד",
+      "en": "dak mechusfas - Reish Lakish: something that melts at the edge of the palm",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "שנמסרו לו הלכות שחיטה על פה:",
+      "en": "the Sages taught: 'man ate the bread of the mighty' - bread that ministering angels eat; Rabbi Akiva: bread digested in the limbs",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "משטיחין. השליו היה עשוי לפניהן",
+      "en": "but then we need the verse about digging a hole for waste - Rabbi Elazar ben Perata: manna caused trade goods to appear",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "על הארץ משטיחין ליטריד\"ש בלעז:",
+      "en": "Rabbi Elazar ben Perata: the manna caused even items that Gentile merchants sell to appear from the manna",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "לחם יפה לבחורים ושמן לזקנים",
+      "en": "as it is written 'they camped by the Jordan from Beit HaYeshimot to Avel HaShittim' - three parasangs",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "ודבש לתינוקות כתיב שמן כטעם",
+      "en": "'but now our soul is dried up, there is nothing at all' - they feared the manna would cause them to die without offspring",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "לשד השמן ואין זה לשון שומן אלא",
+      "en": "when these words were said before Rabbi Yishmael, he said: do not read 'bilti' (except) but 'blitenu' (our wearing away)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "לשון שמן לפיכך טעמו נקוד למעלה",
+      "en": "alternatively: 'man ate the bread of the mighty' - ish refers to Joshua for whom manna fell for all of Israel",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "ומ\"ם שלו נקוד פתח קטן ולפי שהוא",
+      "en": "[Rashi commentary on line 18]: ומ\"ם שלו נקוד פתח קטן ולפי שהוא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "סוף פסוק נהפך השי\"ן לינקד בקמץ",
+      "en": "[Rashi commentary on line 19]: סוף פסוק נהפך השי\"ן לינקד בקמץ",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "גדול: כסילוים. קוצים בלשון ארמי:",
+      "en": "[Rashi commentary on line 20]: גדול: כסילוים. קוצים בלשון ארמי:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "ומותבינן לה בתנורא. כך מנהגם",
+      "en": "[Rashi commentary on line 21]: ומותבינן לה בתנורא. כך מנהגם",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "לצלות שפודיהם בתנור: ותפח.",
+      "en": "[Rashi commentary on line 22]: לצלות שפודיהם בתנור: ותפח.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "מרוב שומנו הוא נתפח ונעשה עב:",
+      "en": "[Rashi commentary on line 23]: מרוב שומנו הוא נתפח ונעשה עב:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "אתליסר ריפי. זו על זו ריפי ככרות: ותחתונה אינה נאכלת. מרוב",
+      "en": "[Rashi commentary on line 24]: אתליסר ריפי. זו על זו ריפי ככרות: ותחתונה אינה נאכלת. מרוב",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "השומן הנבלע בה וכל שכן העליונות: משתכח ליה. היו נמצאות לו",
+      "en": "[Rashi commentary on line 25]: השומן הנבלע בה וכל שכן העליונות: משתכח ליה. היו נמצאות לו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "בין חביותיו שהיו ממציאין לו מן השמים: רב חסדא. חמוה דרבא",
+      "en": "[Rashi commentary on line 26]: בין חביותיו שהיו ממציאין לו מן השמים: רב חסדא. חמוה דרבא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "הוה ורבו הוה: ובדיל רבה. בזכות הרב היה אוכל התלמיד: כתיב",
+      "en": "[Rashi commentary on line 27]: הוה ורבו הוה: ובדיל רבה. בזכות הרב היה אוכל התלמיד: כתיב",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "ותעל שכבת הטל. והנה על פני",
+      "en": "[Rashi commentary on line 28]: ותעל שכבת הטל. והנה על פני",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "המדבר כשהיה הטל עולה מן",
+      "en": "[Rashi commentary on line 29]: המדבר כשהיה הטל עולה מן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "הארץ לקראת החמה כדרכו היה",
+      "en": "[Rashi commentary on line 30]: הארץ לקראת החמה כדרכו היה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "נראה על פני המדבר דק מחספס",
+      "en": "[Rashi commentary on line 31]: נראה על פני המדבר דק מחספס",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "למדנו שהיה הטל מכסה את המן",
+      "en": "[Rashi commentary on line 32]: למדנו שהיה הטל מכסה את המן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "עד שעה שהטל עולה לקראת החמה",
+      "en": "[Rashi commentary on line 33]: עד שעה שהטל עולה לקראת החמה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "וכתיב ירד המן עליו אלמא טל",
+      "en": "[Rashi commentary on line 34]: וכתיב ירד המן עליו אלמא טל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "מלמטה: קופסא. אשקרו\"ן",
+      "en": "[Rashi commentary on line 35]: מלמטה: קופסא. אשקרו\"ן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "בלעז: נימח על פיסת היד.",
+      "en": "[Rashi commentary on line 36]: בלעז: נימח על פיסת היד.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "מחוספס נוטריקון: נבלע באיברים.",
+      "en": "[Rashi commentary on line 37]: מחוספס נוטריקון: נבלע באיברים.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "אינו יוצא מן המעיים: לאחר",
+      "en": "[Rashi commentary on line 38]: אינו יוצא מן המעיים: לאחר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "שסרחו. שנתלוננו על כך שאמרו",
+      "en": "[Rashi commentary on line 39]: שסרחו. שנתלוננו על כך שאמרו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "בלחם הקלוקל (במדבר כא) : לא",
+      "en": "[Rashi commentary on line 40]: בלחם הקלוקל (במדבר כא) : לא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "לפניהם ולא לצידיהם. שאין יודעים",
+      "en": "[Rashi commentary on line 41]: לפניהם ולא לצידיהם. שאין יודעים",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "לאיזה צד עננים הולכים: אלא",
+      "en": "[Rashi commentary on line 42]: לאיזה צד עננים הולכים: אלא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "לאחוריהם. דיודעים הם שלא יחזרו",
+      "en": "[Rashi commentary on line 43]: לאחוריהם. דיודעים הם שלא יחזרו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "לאחוריהם ואותן שלפנים צריכין",
+      "en": "[Rashi commentary on line 44]: לאחוריהם ואותן שלפנים צריכין",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "לצאת לסוף המחנה מאחור:",
+      "en": "[Rashi commentary on line 45]: לצאת לסוף המחנה מאחור:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "זה",
+      "en": "[Rashi commentary on line 46]: זה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

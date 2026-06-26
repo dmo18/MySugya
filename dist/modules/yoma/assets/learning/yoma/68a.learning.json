@@ -1,0 +1,912 @@
+{
+  "canonicalRef": "Yoma 68a",
+  "summary": "The burning location for the Yom Kippur bull and goat is derived from the parah adumah via gezerah shavah - outside three camps, north of Jerusalem. Carcasses are taken out whole and unflayed.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-068a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 8
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.68a.1"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.68a.2"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.68a.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.68a.1",
+        "Yoma.68a.2",
+        "Yoma.68a.3"
+      ],
+      "display": {
+        "whats": "The burning of the Yom Kippur bull and goat is derived from the parah adumah (red heifer) via gezerah shavah - 'outside the camp' appears in both passages, linking their burning requirements. The carcasses are taken out whole, unflayed.",
+        "hint": "Why did the Sages need a biblical derivation to know where to burn the Yom Kippur bull and goat?"
+      },
+      "learning": {
+        "summary": "The Gemara derives the laws of the Yom Kippur bull and goat burning from the parah adumah (red heifer) using gezerah shavah: the phrase 'outside the camp' in both passages links them. Just as the red heifer was burned east of Jerusalem outside three camps, so too the Yom Kippur bull and goat are burned north of Jerusalem outside three camps. The carcasses are taken out whole - not flayed.",
+        "ahaMoment": "The parah adumah is the archetypal 'outside the camp' purification ritual - linking the Yom Kippur burning to it establishes the full set of requirements including direction (east vs north) and distance (outside three camps).",
+        "memoryAnchor": "Yom Kippur burning = parah adumah derivation: both go 'outside the camp' but one goes north.",
+        "openQuestion": "Why does the Yom Kippur burning happen north of Jerusalem rather than east like the parah adumah?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-068a-l01",
+          "type": "ruling",
+          "label": "Ruling: Gezerah shavah from parah adumah for burning location",
+          "speaker": "Gemara",
+          "text": "The phrase 'outside the camp' appears in both the Yom Kippur bull/goat passage and the parah adumah passage, creating a gezerah shavah that links their burning requirements.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l02",
+          "type": "ruling",
+          "label": "Ruling: Burned outside three camps",
+          "speaker": "Gemara",
+          "text": "Just as the red heifer was burned outside three camps (Azarah, Temple Mount, Jerusalem), so too the Yom Kippur bull and goat are burned outside three camps.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l02",
+              "vilnaLine": 3
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l03",
+          "type": "ruling",
+          "label": "Ruling: Carcasses taken out whole and unflayed",
+          "speaker": "Gemara",
+          "text": "The bull and goat are taken out whole with hide on flesh - they are not flayed like normal offerings. Their bellies were torn only to remove the eimurim.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l03",
+              "vilnaLine": 7
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bull-and-goat-burning",
+        "gezerah-shavah",
+        "parah-adumah",
+        "outside-three-camps"
+      ],
+      "concepts": {
+        "halachic": [
+          "gezerah shavah from parah adumah",
+          "burning outside three camps",
+          "carcasses taken out whole"
+        ],
+        "theological": [
+          "purity and impurity rituals linked across the Torah"
+        ],
+        "narrative": [
+          "derivation connecting Yom Kippur to parah adumah burning"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "parah adumah basics",
+        "gezerah shavah methodology",
+        "three-camp structure of the wilderness camp"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Yom Kippur bull is burned in the same location as the parah adumah (east of Jerusalem)",
+          "correction": "The Yom Kippur bull and goat are burned north of Jerusalem - the gezerah shavah establishes the three-camp requirement but the specific direction differs.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "relationship",
+          "description": "Parah adumah (east, outside three camps) linked to Yom Kippur burning (north, outside three camps) via gezerah shavah",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "From which Torah passage is the burning location for the Yom Kippur bull and goat derived?",
+          "answer": "From the parah adumah (red heifer) via gezerah shavah - both passages use the phrase 'outside the camp.'",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The burning location for the Yom Kippur bull and goat is derived from the parah adumah via gezerah shavah - outside three camps, north of Jerusalem. Carcasses are taken out whole.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-068a-s02",
+      "lineRange": {
+        "startVilnaLine": 10,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.68a.4"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.68a.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.68a.6"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.68a.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.68a.8"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.68a.9"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.68a.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.68a.4",
+        "Yoma.68a.5",
+        "Yoma.68a.6",
+        "Yoma.68a.7",
+        "Yoma.68a.8",
+        "Yoma.68a.9",
+        "Yoma.68a.10"
+      ],
+      "display": {
+        "whats": "When does the burning of the Yom Kippur bull and goat begin? A tannaitic dispute: one opinion says tum'ah starts when the fire ignites in most of the carcass; another says it starts when the carcasses leave the Azarah wall. The Gemara works through the derivations.",
+        "hint": "What is the practical difference between the two opinions about when tum'ah begins?"
+      },
+      "learning": {
+        "summary": "There is a dispute about when the handlers of the Yom Kippur bull and goat become ritually impure (tamei) in their garments. Rabbi Shimon holds: not until the fire has ignited in most of the carcass. The Sages hold: from when the carcasses exit the Azarah wall. This affects the timing of when the handlers must immerse. The Gemara also discusses how the gezerah shavah from parah adumah establishes these laws for all similar sacrifices.",
+        "ahaMoment": "The dispute is not just theoretical - it affects when the carriers can rejoin the Temple service. The Sages' view makes the tum'ah begin earlier (at the Azarah exit), while Rabbi Shimon delays it until the fire actually catches - a significant practical difference.",
+        "memoryAnchor": "R. Shimon: tum'ah at fire; Sages: tum'ah at the Azarah gate.",
+        "openQuestion": "Why would Rabbi Shimon delay tum'ah until the fire actually ignites rather than at the moment of removal from the Temple?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-068a-l04",
+          "type": "dispute",
+          "label": "Dispute: When does burning tum'ah begin?",
+          "speaker": "Rabbi Shimon vs Sages",
+          "text": "Rabbi Shimon: tum'ah in garments begins only when the fire ignites in most of the carcass. Sages: from when they exit the Azarah wall.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l04",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l05",
+          "type": "ruling",
+          "label": "Ruling: 'Outside the camp' phrase analyzed for tum'ah",
+          "speaker": "Gemara",
+          "text": "The phrase 'outside the camp and burn them' - the Gemara analyzes whether 'outside the camp' refers to one camp or three camps for tum'ah purposes.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l05",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l06",
+          "type": "ruling",
+          "label": "Ruling: Three camps below, one camp here for tum'ah",
+          "speaker": "Baraita",
+          "text": "Below (congregation's bull) you assign three camps; here (Yom Kippur bull) the verse means one camp - tum'ah begins when exiting one camp (the Azarah).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l06",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l07",
+          "type": "ruling",
+          "label": "Ruling: All inner sin-offering bulls are comparable via repetition",
+          "speaker": "Baraita",
+          "text": "The word 'chatat chatat' (repeated) equates all inner sin offerings - the anointed priest's bull, congregation's bull, idolatry goats all follow the same rules.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l07",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l08",
+          "type": "ruling",
+          "label": "Ruling: Gezerah shavah - parah adumah burned east of Jerusalem",
+          "speaker": "Gemara",
+          "text": "The parah adumah was burned east of Jerusalem (facing the Tent of Meeting). The gezerah shavah links the two passages but the Yom Kippur burning is north.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l08",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l09",
+          "type": "ruling",
+          "label": "Ruling: Yom Kippur burning is to the north of Jerusalem",
+          "speaker": "Gemara",
+          "text": "The Yom Kippur bull and goat are burned to the north of Jerusalem - derived from the gezerah shavah with parah adumah establishing the outside-three-camps requirement.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l09",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "id": "yoma-068a-l10",
+          "type": "ruling",
+          "label": "Ruling: Rabbis derive tum'ah from the verse; no gezerah shavah needed",
+          "speaker": "Gemara",
+          "text": "The Sages derive tum'ah from the verse itself ('the one who burns them shall wash his garments') without needing the gezerah shavah.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068a-l10",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "tum'ah",
+        "burning-timing",
+        "tannaitic-dispute",
+        "gezerah-shavah"
+      ],
+      "concepts": {
+        "halachic": [
+          "tum'ah onset for burning handlers",
+          "gezerah shavah linking parah adumah to Yom Kippur",
+          "one camp vs three camps for tum'ah"
+        ],
+        "theological": [
+          "ritual purity and its relationship to sacred service"
+        ],
+        "narrative": [
+          "tannaitic dispute about when impurity begins"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "three-camp structure",
+        "parah adumah burning location",
+        "inner sin offerings"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "All burned sacrifices cause tum'ah only after the fire catches",
+          "correction": "The Sages hold that tum'ah begins when the carcasses exit the Azarah wall - before the fire is lit. Rabbi Shimon alone delays it until the fire catches in most of the carcass.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "description": "Two opinions on tum'ah onset: (1) Sages - when carcasses exit Azarah; (2) R. Shimon - when fire catches in most of carcass",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "According to Rabbi Shimon, when do handlers of the Yom Kippur bull and goat become tamei in their garments?",
+          "answer": "Not until the fire has ignited in most of the carcass - he delays tum'ah until the burning is substantially underway.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Dispute: the Sages say tum'ah begins when the carcasses exit the Azarah wall; Rabbi Shimon says not until the fire ignites in most of the carcass.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "מה להלן וכו'. כדמפרש ואזיל: וקרבו ופרשו והוציא. בת\"כ ה\"ג",
+      "en": "What is there below, etc. - as it explains: and its innards and its dung and its legs he brought out.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "לה ואת עור הפר ואת כל בשרו על ראשו ועל כרעיו וקרבו ופרשו",
+      "en": "Its hide and all its flesh on its head and on its legs and its innards and its dung and he brought out.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "והוציא מלמד שמוציאו שלם: ונאמר להלן ראש וכרעים ה\"ג.",
+      "en": "Teaching that he takes it out whole. And it is stated below: head and legs - this is the reading.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "ומעולה גמר שנאמרו בה ראש וכרעים בהקטרתה שנאמר וערכו את",
+      "en": "And from the olah we derive, since head and legs are mentioned in its burning: he arranged the pieces, the head and the fat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "הנתחים את הראש ואת הפדר ונאמר",
+      "en": "And the innards and the legs.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "והקרב והכרעים: כשם שפרשו בקרבו",
+      "en": "Just as he separated its innards, etc. - as it says: and the hide of the bull and all its flesh.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "וכו'. שנאמר ואת עור הפר ואת",
+      "en": "He compared the taking out of the hide and flesh to the taking out of innards and dung.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "כל בשרו הקיש הוצאת עור ובשר",
+      "en": "Just as the dung is with its innards, so too the flesh is with its hide.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "להוצאת קרבו ופרשו מה פרשו",
+      "en": "And it is written 'and he brought out' - and he burned. Just as its taking out was with flesh and hide.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "בקרבו אף בשרו בעורו וכתיב והוציא",
+      "en": "So too its burning. The Rabbis taught: it says here 'outside the camp.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "ושרף מה הוצאתו בשרו ועורו",
+      "en": "So too its burning is the same.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "אף שריפתו כן: ת\"ר נאמר כאן",
+      "en": "The Rabbis taught: it says here outside the camp etc. This reading is corrupted and cannot stand.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "מחוץ למחנה וכו'. הגירסא הזו",
+      "en": "In tractate Zevachim and Torat Kohanim the reading is: The Rabbis taught.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "משובשת היא ואי אפשר להעמידה",
+      "en": "Below you assign them three camps, and here you assign them one camp. If so,",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "ובמסכת זבחים ובת\"כ הכי איתא",
+      "en": "Why is it written 'outside the camp'? To tell you that once they left outside one camp they cause tum'ah in garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "ת\"ר להלן אתה נותן להן ג' מחנות",
+      "en": "And regarding the Yom Kippur bull, it is taught in Torat Kohanim.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "וכאן אתה נותן להן מחנה אחת א\"כ",
+      "en": "He shall take it outside the camp and burn it. The Tanna asks:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "למה נאמר אל מחוץ למחנה לומר",
+      "en": "Below regarding the congregation's bull and the anointed priest's bull.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "לך כיון שיצאו חוץ למחנה אחת",
+      "en": "You place their burning outside three camps: the Azarah, the Temple Mount, and Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "מטמאין בגדים וגבי פר יום הכפורים",
+      "en": "As derived below. And here you say outside the camp and burn them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "תניא לה בת\"כ יוציא אל מחוץ למחנה",
+      "en": "Which implies burning outside the camp of the Shekhinah, immediately in the Levite camp.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "ושרפו וגו' וקמתמה תנא ואמר",
+      "en": "But these are also internal offerings, comparable to each other for burning and tum'ah of garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "הכי להלן בפר העדה וכהן משיח",
+      "en": "As we say regarding the congregation's sin offering bull.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "אתה נותן להן לשריפתן חוץ לג'",
+      "en": "And he did to the bull as he did to the sin-offering bull - the whole verse is for derasha.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "מחנות עזרה והר הבית וירושלים",
+      "en": "We interpret: to the bull - this is the Yom Kippur bull, in Zevachim (39a).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "כדיליף לקמן וכאן אתה אומר אל",
+      "en": "And in Menachot (27a) we bring it; the main source is Torat Kohanim.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "מחוץ למחנה ושרפו דמשמע ששורפן",
+      "en": "And regarding the Yom Kippur bull it also says hachatat, et par hachatat, ve'et sa'ir hachatat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "חוץ למחנה שכינה מיד במחנה לויה",
+      "en": "What does 'chatat chatat' teach? Since we only knew these cause tum'ah in garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "והלא אף אלו פנימיים ואיתקישו",
+      "en": "And are burned in the ash-pit from these alone.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "להדדי לשריפה ולטומאת בגדים",
+      "en": "From where do we include the anointed priest's bull, the congregation's bull, the goats of idolatry?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "כדאמרינן גבי פר העלם דבר ועשה",
+      "en": "Talmud lomar: chatat chatat - they are comparable.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "לפר כאשר עשה לפר החטאת וכוליה",
+      "en": "If so why is one camp mentioned here? It was said only for the tum'ah of garments written after it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "לדרשא ודרשינן לפר זה פר יום",
+      "en": "And the one who burns them shall wash his garments - to tell you once they left outside one camp they cause tum'ah.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "הכפורים במס' זבחים (לט.) ובמסכת",
+      "en": "Even for the anointed priest's bull this teaches it, since tum'ah of garments is not written in it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "מנחות (כז.) מייתינן לה ועיקרה בת\"כ",
+      "en": "And it comes from the ribuy of chatat chatat as I explained. The reading is: Mar said: below you assign three camps.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "וגבי פר יוה\"כ נמי כתיב החטאת",
+      "en": "Outside the camp with the ashes - regarding the removal of altar ashes.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "החטאת ואת פר החטאת ואת שעיר",
+      "en": "He took the ashes outside the camp - this teaches nothing, since I already know they take them outside the camp.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "החטאת מה תלמוד לומר חטאת",
+      "en": "As it says regarding the burned bulls: to the ash-pit, and it says of them 'outside the camp.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "חטאת לפי שלא למדנו שיהו מטמאין",
+      "en": "And Rabbi Shimon - who says in the Mishnah: they do not cause tum'ah in garments until the fire ignites in most of them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "בגדים ונשרפין אבית הדשן אלא אלו",
+      "en": "This 'outside the camp' written about the Yom Kippur bull and goat - what does he do with it?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "בלבד מניין לרבות פר משיח ופר",
+      "en": "It says here - about the Yom Kippur bull - and it says below.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "העדה ושעירי ע\"ז ת\"ל חטאת",
+      "en": "About the red heifer (parah adumah): and he took it out to outside the camp (Num. 19).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "חטאת אלמא כי הדדי נינהו א\"כ למה נאמר כאן מחנה אחת לא",
+      "en": "Just as here - regarding the burned bulls - outside three camps, so too the slaughter of the red heifer is outside three camps.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "נאמרה אלא על טומאת הבגדים הכתובה אחריה והשורף אותם יכבס",
+      "en": "And just as below - regarding the red heifer - it was east of Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "בגדיו ולומר לך כיון שיצאו חוץ למחנה אחת מטמאין בגדים ואף",
+      "en": "As it says: facing the Tent of Meeting (Num. 19) - he stands in the east facing west toward the Temple entrance.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "של פר כהן משיח מכאן למד שהרי לא נכתבה בו טומאת בגדים",
+      "en": "Which is in the western wall, open to the east. So too here.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "ומריבויא דחטאת חטאת אתיא כדפרישית וה\"ג אמר מר להלן אתה",
+      "en": "And the Rabbis - who use the verse for tum'ah of garments and do not have the gezerah shavah.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "נותן להם ג' מחנות וכו': מחוץ למחנה בדשן. בהוצאת דשן",
+      "en": "Where did they burn them? On which side of Jerusalem?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "המזבח והוציא את הדשן אל מחוץ למחנה שאין [ת\"ל] אינו מלמד",
+      "en": "To the north.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "כלום דאנא ידענא דאל מחוץ למחנה מוציאין אותו דכתיב בפרים",
+      "en": "Rashi line 50: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "הנשרפים אל שפך הדשן וכתיב בהו מחוץ למחנה: ורבי",
+      "en": "Rashi line 51: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "שמעון. דאמר במתניתין אין מטמאין בגדים עד שיוצת האור",
+      "en": "Rashi line 52: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "ברובן האי מחוץ למחנה דכתיב בפר ושעיר של יום הכפורים",
+      "en": "Rashi line 53: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "מאי עביד ליה: נאמר כאן. בפר יום הכפורים ונאמר להלן",
+      "en": "Rashi line 54: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "בפרה אדומה והוציא אותה אל מחוץ למחנה (במדבר יט) : מה",
+      "en": "Rashi line 55: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "כאן. בפרים הנשרפין חוץ לג' מחנות אף שחיטת פרה אדומה",
+      "en": "Rashi line 56: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "חוץ לג' מחנות: ומה להלן. בפרה אדומה במזרחה של ירושלים",
+      "en": "Rashi line 57: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "דכתיב בה אל נכח פני אהל מועד (שם) אלמא עומד במזרח ופניו",
+      "en": "Rashi line 58: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "למערב כנגד פתחו של היכל שהוא בכותל [מערבי] ופתוח למזרח",
+      "en": "Rashi line 59: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "אף כאן וכו': ורבנן. דמפקי ליה לקרא לטומאת בגדים ולית",
+      "en": "Rashi line 60: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "להו גזירה שוה: היכא שריף להו. לאיזו רוח של ירושלים:",
+      "en": "Rashi line 61: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "לצפונה",
+      "en": "Rashi line 62: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

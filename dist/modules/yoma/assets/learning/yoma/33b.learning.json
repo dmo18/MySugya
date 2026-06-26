@@ -1,0 +1,696 @@
+{
+  "daf": "33b",
+  "canonicalRef": "Yoma 33b",
+  "summary": "Rava derives the principle 'ein ma'avirin al hamitzvot' (do not bypass a mitzva) from the Yom Kippur service order - a priest who passes the altar before reaching the menorah must clean the altar first. Abaye's morning service sequence continues: five lamps before tamid blood, blood before two lamps, two lamps before incense, incense before limbs, limbs before meal-offering, meal-offering before libations. Each precedence is derived from biblical language.",
+  "review": {
+    "status": "enriched",
+    "version": "10.63"
+  },
+  "glossary": [
+    {
+      "he": "אֵין מַעֲבִירִין עַל הַמִּצְווֹת",
+      "translit": "ein ma'avirin al hamitzvot",
+      "en": "Do not bypass a mitzva; when a mitzva opportunity presents itself, one must not pass it by for another opportunity ahead."
+    },
+    {
+      "he": "כְּבֵשׁ",
+      "translit": "kevesh",
+      "en": "Ramp; the inclined ramp leading up to the altar from the south, used by priests to ascend."
+    },
+    {
+      "he": "נֵרוֹת",
+      "translit": "nerot",
+      "en": "Lamps; the seven lamps of the menorah in the Sanctuary."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "When entering the Sanctuary, the priest encounters the altar first, then the menorah - so altar comes first.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rava: derive from Reish Lakish - do not bypass a mitzva (ein ma'avirin).",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Ash removal from five lamps precedes slaughter and blood of the daily offering.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Cast one 'in the morning' to the five lamps so they precede blood.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Cast the other 'in the morning' to the blood so it precedes the ash removal from two lamps.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rav Pappa to Abaye: why not reverse - apply 'in the morning' to blood first?",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "According to Reish Lakish: priest removes ash from five lamps to avoid bypassing the menorah on the way to altar.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "According to R. Yochanan: the verse 'Aaron shall burn upon it incense' requires incense in the morning.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Ravina to Rav Ashi: is 'in the morning' in the menorah verse or the wood-burning verse?",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "What is different between five lamps and two lamps?",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Ash removal from two lamps precedes burning the incense.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Incense burning precedes burning the tamid's limbs on the fire.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Burning the limbs precedes the meal-offering accompanying the tamid.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Five lamps must come before the blood sprinkling.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Because 'in the morning' (first mention) comes before the blood service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The blood service precedes the second 'in the morning.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Then the two remaining lamps are cleaned.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rav Pappa challenges the interpretation of the two 'in the morning' phrases.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Reish Lakish vs R. Yochanan on the two 'in the morning' derivations.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "One says first morning = five lamps, second morning = two lamps.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The other interprets differently.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The two lamps must precede the incense.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The incense is offered after the menorah is completely attended to.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The incense precedes the limb placement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "As stated in the Torah's incense command.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The limbs precede the meal offering.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "As the order of the daily tamid service demonstrates.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The meal offering precedes the libation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "As derived from the Torah's sequence in Numbers.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The libation is the final act of the morning service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Abaye's sequence is now fully validated.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Each step has at least one derivation supporting its position.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The chapter has established the complete normative sequence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "This sequence applies to the daily tamid service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "And by extension to Yom Kippur's unique services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The principle of ein ma'avirin governs service order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The service order follows both textual derivation and physical layout.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The discussion of challenges to the sequence is complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "The sequence is established as authoritative.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The chapter moves toward its conclusion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The morning service sequence is the foundation for Yom Kippur understanding.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The next chapter will apply this to the Yom Kippur service specifically.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The discussion of Abaye's sequence concludes.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi commentary on line 44 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi commentary on line 45 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi commentary on line 46 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi commentary on line 47 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi commentary on line 48 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi commentary on line 49 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi commentary on line 50 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi commentary on line 51 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi commentary on line 52 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi commentary on line 53 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi commentary on line 54 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi commentary on line 55 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi commentary on line 56 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi commentary on line 57 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi commentary on line 58 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi commentary on line 59 of 33b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi commentary on line 60 of 33b.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-033b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 7
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.33b.1"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.33b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.33b.1",
+        "Yoma.33b.2"
+      ],
+      "display": {
+        "whats": "Rava: do not bypass a mitzva (ein ma'avirin al hamitzvot). The priest entering the Sanctuary encounters the altar first and must clean it before reaching the menorah - this teaches the general principle.",
+        "hint": "The order of Temple service is not just practical - it derives the universal principle that when a mitzva is encountered, it must be performed immediately without bypassing it."
+      },
+      "learning": {
+        "summary": "Rava derives the principle 'ein ma'avirin al hamitzvot' from the Temple service order: a priest entering the Sanctuary through the entrance is closer to the menorah, but the inner altar (for incense) is further in. One might think: walk past the menorah to reach the altar first. But the principle teaches: do not bypass a mitzva. So the priest must clean the menorah lamps he encounters first, before proceeding to the altar. Rava derives this from Reish Lakish's explanation of why five lamps are cleaned before the tamid while two are cleaned later.",
+        "ahaMoment": "Ein ma'avirin al hamitzvot is not just a halachic rule about Temple service - it is derived from the physical layout of the Temple and becomes a universal principle: when you encounter a mitzva, perform it immediately. Do not walk past one mitzva to do another.",
+        "memoryAnchor": "Don't skip past the menorah to reach the altar. First thing encountered = first obligation. This is ein ma'avirin al hamitzvot.",
+        "openQuestion": "Does 'ein ma'avirin' apply only when two identical mitzvot are equally available, or also when one mitzva is more significant than the one encountered first?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-033b-l01",
+          "type": "premise",
+          "label": "Priest enters Sanctuary - altar or menorah first?",
+          "text": "When a priest enters the Sanctuary, he encounters the inner altar (for incense) after passing the menorah. The sequence: menorah is closer to the entrance; altar is further in.",
+          "sourceRefs": [
+            "Yoma.33b.1"
+          ]
+        },
+        {
+          "id": "yoma-033b-l03",
+          "type": "ruling",
+          "label": "Rava: ein ma'avirin al hamitzvot",
+          "text": "Rava concludes from Reish Lakish: do not bypass a mitzva when you encounter it. The priest must clean the five closer menorah lamps before proceeding to the inner altar.",
+          "sourceRefs": [
+            "Yoma.33b.2"
+          ]
+        }
+      ],
+      "topicTags": [
+        "ein ma'avirin al hamitzvot",
+        "Rava",
+        "Reish Lakish",
+        "Sanctuary layout",
+        "menorah",
+        "inner altar",
+        "Temple principle"
+      ],
+      "concepts": {
+        "halachic": [
+          "ein ma'avirin al hamitzvot",
+          "Temple service order",
+          "encountering mitzva = obligation"
+        ],
+        "theological": [
+          "immediate response to divine encounter",
+          "mitzva as moment not to be delayed"
+        ],
+        "narrative": [
+          "Rava's derivation of a universal principle from Temple geography"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Sanctuary (Heichal) layout",
+        "menorah and inner altar positions",
+        "morning service sequence"
+      ],
+      "misconceptions": [
+        "Ein ma'avirin al hamitzvot means you must always do the most important mitzva first - actually it means you cannot bypass the first mitzva you encounter to do a different one ahead."
+      ],
+      "relatedSugyot": [
+        "yoma-033a-s02",
+        "yoma-033b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "place",
+          "label": "Sanctuary entry and service order",
+          "description": "Priest enters from east: menorah on left (south), inner altar further in. Ein ma'avirin: clean menorah first, then proceed to altar."
+        },
+        {
+          "type": "contrast",
+          "label": "Skip vs encounter principle",
+          "description": "Wrong: walk past menorah to reach altar first. Right: clean menorah lamps encountered first."
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What universal halachic principle does Rava derive from the Temple service order?",
+          "a": "Ein ma'avirin al hamitzvot - do not bypass a mitzva that you encounter. When a mitzva presents itself, perform it immediately rather than passing it for another mitzva ahead."
+        },
+        {
+          "q": "How does the Sanctuary's physical layout lead to this principle?",
+          "a": "A priest entering the Sanctuary encounters the menorah before reaching the inner altar. Rather than passing the menorah to reach the altar first, he must clean the menorah lamps he encounters first."
+        }
+      ],
+      "finalRuling": "Ein ma'avirin al hamitzvot: do not bypass an encountered mitzva for another ahead. This principle governs many areas beyond Temple service.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-033b-s02",
+      "lineRange": {
+        "startVilnaLine": 9,
+        "endVilnaLine": 43
+      },
+      "lines": [
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.33b.3"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.33b.4"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.33b.5"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.33b.6"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.33b.7"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.33b.8"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.33b.9"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.33b.10"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.33b.11"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.33b.12"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.33b.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.33b.3",
+        "Yoma.33b.4",
+        "Yoma.33b.5",
+        "Yoma.33b.6",
+        "Yoma.33b.7",
+        "Yoma.33b.8",
+        "Yoma.33b.9",
+        "Yoma.33b.10",
+        "Yoma.33b.11",
+        "Yoma.33b.12",
+        "Yoma.33b.13"
+      ],
+      "display": {
+        "whats": "Abaye's service sequence continues: five lamps precede tamid blood; blood precedes two remaining lamps; two lamps precede incense; incense precedes limbs; limbs precede meal-offering. Rav Pappa challenges the five-before-blood order. The Reish Lakish vs R. Yochanan basis for the five-lamp sequence.",
+        "hint": "The sequence follows a pattern: each service creates the proper context for the next. Five lamps set up for the tamid; tamid's blood enables incense; incense enables the limb placement on the fire."
+      },
+      "learning": {
+        "summary": "Abaye continues his sequence. Five lamp-cleanings come before the tamid blood service - derived by applying one 'in the morning' to the lamps. The blood comes before the two remaining lamps - applying the other 'in the morning.' Rav Pappa challenges: why not apply the phrases in reverse order? Abaye answers: according to Reish Lakish (ein ma'avirin - don't bypass the lamps you encounter first), it's explained. But according to R. Yochanan (who says incense requires the morning verse), the answer is different. Ravina raises a textual question about which verse has the doubled 'in the morning.' Then: two lamps before incense, incense before limb-burning, limb-burning before meal-offering, meal-offering before wine libation (derived from 'offerings and libations').",
+        "ahaMoment": "The morning service sequence emerges from a web of interlocking biblical phrases: 'in the morning, in the morning' (doubled), 'offerings and libations' (paired), and the physical layout of the Sanctuary. All these sources must be honored simultaneously.",
+        "memoryAnchor": "The sequence flows like a morning prayer: approach (five lamps), central act (blood/tamid), more approach (two lamps), most intimate act (incense before the Presence), then offering (limbs, meal, wine).",
+        "openQuestion": "Does Abaye's sequence represent how the Temple actually operated historically, or is it a reconstruction from the available sources that may not reflect actual Temple practice?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-033b-l09",
+          "type": "ruling",
+          "label": "Five lamps before blood",
+          "text": "Ash removal from five menorah lamps precedes the slaughter and blood service of the tamid - one 'in the morning' applied to the lamps.",
+          "sourceRefs": [
+            "Yoma.33b.3"
+          ]
+        },
+        {
+          "id": "yoma-033b-l11",
+          "type": "ruling",
+          "label": "Blood before two lamps",
+          "text": "The tamid blood service precedes ash removal from the remaining two menorah lamps - the second 'in the morning' applied to the blood.",
+          "sourceRefs": [
+            "Yoma.33b.4"
+          ]
+        },
+        {
+          "id": "yoma-033b-l14",
+          "type": "objection",
+          "label": "Rav Pappa: why not reverse?",
+          "text": "Rav Pappa: why not apply one 'in the morning' to the blood first (making blood precede all seven lamps)?",
+          "sourceRefs": [
+            "Yoma.33b.5"
+          ]
+        },
+        {
+          "id": "yoma-033b-l17",
+          "type": "resolution",
+          "label": "Reish Lakish vs R. Yochanan explanations",
+          "text": "According to Reish Lakish: ein ma'avirin - the priest encounters the five lamps on the way in and must clean them first. According to R. Yochanan: the morning incense verse requires lamps first.",
+          "sourceRefs": [
+            "Yoma.33b.6",
+            "Yoma.33b.7"
+          ]
+        },
+        {
+          "id": "yoma-033b-l20",
+          "type": "ruling",
+          "label": "Two lamps before incense",
+          "text": "Ash removal from the two remaining lamps precedes the incense offering - the priest cleans what he encounters before burning the incense.",
+          "sourceRefs": [
+            "Yoma.33b.8"
+          ]
+        },
+        {
+          "id": "yoma-033b-l24",
+          "type": "ruling",
+          "label": "Incense before limbs",
+          "text": "The incense offering on the inner altar precedes the burning of the tamid's limbs on the outer altar.",
+          "sourceRefs": [
+            "Yoma.33b.9"
+          ]
+        },
+        {
+          "id": "yoma-033b-l28",
+          "type": "ruling",
+          "label": "Limbs before meal-offering",
+          "text": "Burning the limbs on the altar fire precedes the sacrifice of the meal-offering accompanying the tamid.",
+          "sourceRefs": [
+            "Yoma.33b.10"
+          ]
+        },
+        {
+          "id": "yoma-033b-l43",
+          "type": "ruling",
+          "label": "Meal-offering before wine libation",
+          "text": "The meal-offering precedes the wine libation - derived from 'offerings and libations' (offering before libation).",
+          "sourceRefs": [
+            "Yoma.33b.13"
+          ]
+        }
+      ],
+      "topicTags": [
+        "Abaye",
+        "morning service sequence",
+        "five lamps",
+        "blood",
+        "two lamps",
+        "incense",
+        "limbs",
+        "meal-offering",
+        "Rav Pappa",
+        "Reish Lakish",
+        "R. Yochanan",
+        "Ravina"
+      ],
+      "concepts": {
+        "halachic": [
+          "five lamps before blood",
+          "blood before two lamps",
+          "incense before limbs",
+          "limbs before meal-offering",
+          "meal before wine libation"
+        ],
+        "theological": [
+          "service sequence as liturgical logic",
+          "each service creating context for the next"
+        ],
+        "narrative": [
+          "Rav Pappa's challenge",
+          "Reish Lakish vs R. Yochanan explanations",
+          "Ravina's textual question"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Abaye's morning service sequence from 33a",
+        "menorah",
+        "inner altar",
+        "tamid",
+        "ketoret"
+      ],
+      "misconceptions": [
+        "All seven lamps are cleaned before the tamid begins - five lamps are cleaned before the tamid, then two more after the inner altar ash removal.",
+        "The incense is burned at the start of the morning service - it comes in the middle, after the tamid's blood and two lamp cleanings."
+      ],
+      "relatedSugyot": [
+        "yoma-033a-s02",
+        "yoma-034a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "label": "Complete Abaye morning sequence",
+          "description": "Wood - 5 lamps - Tamid blood - 2 lamps - Incense - Limbs - Meal-offering - Wine libation"
+        },
+        {
+          "type": "contrast",
+          "label": "Reish Lakish vs R. Yochanan on 5-lamp priority",
+          "description": "Reish Lakish: ein ma'avirin (don't bypass encountered lamps). R. Yochanan: incense verse requires lamps first."
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "In Abaye's morning sequence, what comes immediately before and after the incense (ketoret) offering?",
+          "a": "Before ketoret: ash removal from the two remaining menorah lamps. After ketoret: burning the tamid's limbs on the altar fire."
+        },
+        {
+          "q": "Why does Abaye say the blood of the tamid comes before the cleaning of the remaining two menorah lamps?",
+          "a": "One of the two 'in the morning' phrases is applied to the blood service, placing it after the five-lamp cleaning but before the two-lamp cleaning."
+        }
+      ],
+      "finalRuling": "Complete morning sequence: Wood - 5 lamps - Tamid blood - 2 lamps - Ketoret - Limbs - Meal-offering - Wine. Each step's position is biblically or logically derived.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "review": "reviewed"
+    }
+  ]
+}

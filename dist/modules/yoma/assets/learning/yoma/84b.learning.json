@@ -1,0 +1,1192 @@
+{
+  "canonicalRef": "Yoma 84b",
+  "summary": "Tractate Yoma daf 84b covers: Proof that tzefardea is dangerous (the Rabba bar Shela incident); Throat pain: medicine placed inside the mouth, not swallowed - not eating; Tosefta: engaging in life-preserving activities on Yom Kippur; Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK danger situations.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-084b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 9
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.84b.1"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.84b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.84b.1",
+        "Yoma.84b.2"
+      ],
+      "display": {
+        "whats": "Proof that tzefardea is dangerous (the Rabba bar Shela incident)",
+        "hint": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override."
+      },
+      "learning": {
+        "summary": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override.",
+        "ahaMoment": "Proof from a death: sometimes halachic status is confirmed by the worst outcome. Tzefardea killed someone, so its danger is established.",
+        "memoryAnchor": "Tzefardea's danger proven by death: the worst case establishes the legal status.",
+        "openQuestion": "What is the deeper significance of the ruling about proof that tzefardea is dangerous (the rabba bar shela incid?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "narrative",
+          "label": "Baraita listing Rabbi Matya's three cases",
+          "speaker": "Gemara",
+          "text": "Rabba bar Shmuel's baraita: a craving pregnant woman is fed until satisfied even on Yom Kippur, a mad-dog-bite victim is fed the liver lobe, and one with mouth pain gets medicine on Shabbat, per Rabbi Elazar son of Rabbi Yosei in the name of Rabbi Matya ben Charash; the Rabbis say 'in this case and no other.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "proof",
+          "label": "Rav Ashi: the Mishnah's wording proves it",
+          "speaker": "Gemara",
+          "text": "Rav Ashi shows the Mishnah's phrasing is precise: it presents Rabbi Matya's mouth-medicine ruling without the Rabbis disputing it. Had they disputed it, the Mishnah would have grouped the cases together and recorded a single objection; the separation shows the Rabbis concede the mouth-medicine point.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l09",
+              "vilnaLine": 9
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "tzefardea",
+        "proof",
+        "Rabba bar Shela",
+        "death",
+        "danger"
+      ],
+      "concepts": {
+        "halachic": [
+          "tzefardea",
+          "proof"
+        ],
+        "theological": [
+          "Proof from a death: sometimes halachic status is confirmed by the worst outcome."
+        ],
+        "narrative": [
+          "Proof that tzefardea is dangerous (the Rabba bar Shela incid"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of tzefardea context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Rabbis reject all three of Rabbi Matya ben Charash's rulings.",
+          "correction": "The Rabbis concede the mouth-medicine ruling, since it concerns a real danger to life; their rejection targets only remedies they regard as ineffective, such as the dog's liver."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Proof that tzefardea is dangerous (the Rabba bar S"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How does Rav Ashi prove from the Mishnah's wording that the Rabbis concede the mouth-medicine ruling?",
+          "answer": "The Mishnah records Rabbi Matya's mouth-medicine ruling without any dispute; had the Rabbis disagreed, it would have combined the cases and stated one objection, so the separate presentation shows their agreement."
+        },
+        {
+          "question": "To which cases do the Rabbis say 'in this case and no other'?",
+          "answer": "They restrict their concession to the mouth-medicine ruling, agreeing that medicine may be placed in the mouth on Shabbat while rejecting the dog-liver remedy as ineffective."
+        }
+      ],
+      "finalRuling": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-084b-s02",
+      "lineRange": {
+        "startVilnaLine": 14,
+        "endVilnaLine": 22
+      },
+      "lines": [
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.84b.3"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.84b.4"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.84b.5"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.84b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.84b.3",
+        "Yoma.84b.4",
+        "Yoma.84b.5",
+        "Yoma.84b.6"
+      ],
+      "display": {
+        "whats": "Throat pain: medicine placed inside the mouth, not swallowed - not eating",
+        "hint": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not constitute 'eating' and is permitted."
+      },
+      "learning": {
+        "summary": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not constitute 'eating' and is permitted.",
+        "ahaMoment": "Medicine in the mouth but not swallowed: halachic categories are precise. The prohibition is 'eating' - if the substance is not eaten in the normal way, the prohibition does not apply.",
+        "memoryAnchor": "Medicine in mouth, not swallowed: placement matters - it is not 'eating' if not ingested normally.",
+        "openQuestion": "What is the deeper significance of the ruling about throat pain: medicine placed inside the mouth, not swallowed?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Uncertain danger overrides even a future Shabbat",
+          "speaker": "Gemara",
+          "text": "Why add that 'any uncertain danger to life overrides Shabbat'? Rav Yehuda in the name of Rav: this holds not only for the current Shabbat but even when the uncertainty concerns a different, future Shabbat.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l14",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "distinction",
+          "label": "The eight-day treatment case",
+          "speaker": "Gemara",
+          "text": "The case is where doctors say a patient needs eight days of treatment beginning on Shabbat. One might wait until after Shabbat to avoid desecrating two Shabbatot; the ruling teaches that one begins immediately, desecrating Shabbat at once.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l17",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "reason",
+          "label": "Why not delay to spare a Shabbat",
+          "speaker": "Gemara",
+          "text": "A supporting baraita: one heats water on Shabbat to give an ill person to drink or to wash him, and one does not delay hoping he recovers, because uncertain danger to life overrides Shabbat even at the cost of a second Shabbat's desecration.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "elaboration",
+          "label": "Who performs the act",
+          "speaker": "Gemara",
+          "text": "Such life-saving acts are done by the greatest Jewish scholars, not delegated to gentiles, women, or Samaritans, who are not trusted to declare the danger; their opinions may, however, be combined with others in reaching a decision.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l22",
+              "vilnaLine": 22
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "throat medicine",
+        "YK",
+        "not eating",
+        "placement distinction"
+      ],
+      "concepts": {
+        "halachic": [
+          "throat medicine",
+          "YK"
+        ],
+        "theological": [
+          "Medicine in the mouth but not swallowed: halachic categories are precise. The pr"
+        ],
+        "narrative": [
+          "Throat pain: medicine placed inside the mouth, not swallowed"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of throat medicine context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "One should delay treatment to avoid desecrating two Shabbatot.",
+          "correction": "One acts immediately; sparing a future Shabbat is never a reason to delay life-saving treatment, since uncertain danger to life overrides Shabbat at once."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Throat pain: medicine placed inside the mouth, not"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why must one begin an eight-day treatment immediately on Shabbat rather than wait until nightfall?",
+          "answer": "Because uncertain danger to life overrides Shabbat even when it means desecrating a second, future Shabbat; delay to spare a Shabbat is forbidden when life may be at risk."
+        },
+        {
+          "question": "Who should perform Shabbat-desecrating life-saving acts, and why not gentiles or women?",
+          "answer": "The greatest Jewish scholars perform them, because gentiles, women, and Samaritans are not trusted to declare the danger sufficient to override Shabbat, though their views may be combined with others."
+        }
+      ],
+      "finalRuling": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not cons",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-084b-s03",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.84b.7"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.84b.8"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.84b.9"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.84b.10"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.84b.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.84b.7",
+        "Yoma.84b.8",
+        "Yoma.84b.9",
+        "Yoma.84b.10",
+        "Yoma.84b.11"
+      ],
+      "display": {
+        "whats": "Tosefta: engaging in life-preserving activities on Yom Kippur",
+        "hint": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment."
+      },
+      "learning": {
+        "summary": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment.",
+        "ahaMoment": "Pikuach nefesh as positive commandment: the Tosefta frames saving life not just as an override of prohibition but as itself a mitzva to be performed.",
+        "memoryAnchor": "Tosefta on life-preservation: saving life is not just permitted on YK, it is itself a commandment.",
+        "openQuestion": "What is the deeper significance of the ruling about tosefta: engaging in life-preserving activities on yom kippu?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Saving a life on Shabbat needs no permission",
+          "speaker": "Baraita",
+          "text": "A baraita: one acts to save a life on Shabbat, and zeal in doing so is praiseworthy; one need not seek a court's permission but hurries to act on his own.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l24",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "The child in the sea or pit",
+          "speaker": "Baraita",
+          "text": "If a child falls into the sea, one spreads a fisherman's net and raises him, even incidentally catching fish; if a child falls into a pit, one digs out the surrounding earth to extract him - acting immediately in each case.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l29",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "Locked door and spreading fire",
+          "speaker": "Baraita",
+          "text": "If a door is locked before a frightened, crying child, one breaks it open, even if the boards will later be reused; one may block a spreading fire with water-filled vessels on Shabbat when life is endangered, even leaving usable coals.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l32",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "ruling",
+          "label": "Each case teaches something new",
+          "speaker": "Baraita",
+          "text": "The cases are all necessary: the sea teaches urgency where the child would be swept away, the pit teaches one need not seek permission even where no further danger looms, and the locked door teaches one acts rather than merely soothing the child until Shabbat ends.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l33",
+              "vilnaLine": 33
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "elaboration",
+          "label": "The fire even threatening another courtyard",
+          "speaker": "Baraita",
+          "text": "The fire case adds that one may act even when the fire is only spreading toward another courtyard - not only to save those in the burning courtyard but to stop the fire reaching an adjacent one.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l34",
+              "vilnaLine": 34
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Tosefta",
+        "pikuach nefesh",
+        "YK override",
+        "life-preservation mitzva"
+      ],
+      "concepts": {
+        "halachic": [
+          "Tosefta",
+          "pikuach nefesh"
+        ],
+        "theological": [
+          "Pikuach nefesh as positive commandment: the Tosefta frames saving life not just "
+        ],
+        "narrative": [
+          "Tosefta: engaging in life-preserving activities on Yom Kippu"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Tosefta context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "One must consult a court before desecrating Shabbat to save a life.",
+          "correction": "The opposite is true: one who hurries to save a life without seeking permission is praiseworthy, and delay to obtain permission is itself a failing."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Tosefta: engaging in life-preserving activities on"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why is each rescue case in the baraita taught separately if all permit saving a life on Shabbat?",
+          "answer": "Each adds a point: the sea teaches urgency, the pit teaches one need not seek permission even without ongoing danger, and the locked door teaches one acts rather than merely calming the child until Shabbat ends."
+        },
+        {
+          "question": "What does the spreading-fire case add beyond saving people in the burning courtyard?",
+          "answer": "That one may act on Shabbat even when the fire is only spreading toward an adjacent courtyard, to prevent it from reaching that courtyard as well."
+        }
+      ],
+      "finalRuling": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a p",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-084b-s04",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 43
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.84b.12"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.84b.13"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.84b.14"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.84b.15"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.84b.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.84b.12",
+        "Yoma.84b.13",
+        "Yoma.84b.14",
+        "Yoma.84b.15",
+        "Yoma.84b.16"
+      ],
+      "display": {
+        "whats": "Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK danger situations",
+        "hint": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the fast."
+      },
+      "learning": {
+        "summary": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the fast.",
+        "ahaMoment": "Shmuel's chain of rulings: the tradition of transmitting life-danger rulings carefully shows how much care went into establishing when YK may be violated.",
+        "memoryAnchor": "Shmuel's chain: YK danger rulings passed carefully through tradition - precision in pikuach nefesh.",
+        "openQuestion": "What is the deeper significance of the ruling about rav yosef citing rav yehuda citing shmuel: rulings on yk dan?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "ruling",
+          "label": "Saving a life does not follow the majority",
+          "speaker": "Rav Yosef",
+          "text": "Rav Yosef in the name of Rav Yehuda in the name of Shmuel: in saving a life the Sages did not follow the majority as elsewhere. The Gemara probes when this matters.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l35",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "elaboration",
+          "label": "Cases where majority would not even apply",
+          "speaker": "Rav Yosef",
+          "text": "If nine Jews and one gentile are buried, the majority are Jews and one clears the debris anyway - that is following the majority. A half-and-half group is also cleared. So neither case illustrates ignoring the majority.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l38",
+              "vilnaLine": 38
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "case",
+          "label": "One who separated from a gentile-majority group",
+          "speaker": "Rav Yosef",
+          "text": "The novelty is where one person left a gentile-majority group for another courtyard and a building fell on him. One might apply 'whatever separates comes from the majority' and assume he is a gentile not to be saved; the ruling teaches that for danger to life one clears the debris regardless.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l39",
+              "vilnaLine": 39
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "ruling",
+          "label": "Reconciling with Rabbi Yochanan",
+          "speaker": "Rav Yosef",
+          "text": "Rabbi Yochanan held that with nine gentiles and one Jew, one clears debris in the same courtyard but not in another. This fits: one clears the other courtyard only when all clearly moved there together, so the Jew is known to be among them and the fixed-location principle applies.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l41",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "elaboration",
+          "label": "Majority does govern a found child",
+          "speaker": "Rav Yosef",
+          "text": "Shmuel's rule is challenged from a found child, who follows the city's majority for status. Rav answers that majority determines the child's status for sustenance but not for lineage - so majority does apply to identity questions, just not to overriding danger to life.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-084b-l43",
+              "vilnaLine": 43
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Shmuel",
+        "Rav Yehuda",
+        "Rav Yosef",
+        "YK rulings",
+        "danger"
+      ],
+      "concepts": {
+        "halachic": [
+          "Shmuel",
+          "Rav Yehuda"
+        ],
+        "theological": [
+          "Shmuel's chain of rulings: the tradition of transmitting life-danger rulings car"
+        ],
+        "narrative": [
+          "Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK dan"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Shmuel context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Since most of a mixed group is gentile, one need not desecrate Shabbat to dig out a buried individual.",
+          "correction": "For danger to life one does not follow the majority; one clears the debris to save the buried person even when the surrounding group is mostly gentile."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Rav Yosef citing Rav Yehuda citing Shmuel: rulings"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "In what case does 'do not follow the majority' for saving a life actually make a difference?",
+          "answer": "Where an individual separated from a gentile-majority group into another courtyard; one might assume he is a gentile by the rule that what separates follows the majority, but one clears the debris for him anyway because life may be at stake."
+        },
+        {
+          "question": "How is Shmuel's rule reconciled with the law that a found child follows the city's majority?",
+          "answer": "Majority governs the found child's status for matters like sustenance, but not for lineage and not for overriding danger to life, where one acts to save regardless of the majority."
+        }
+      ],
+      "finalRuling": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the f",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "ת\"ש דתני רב יוסף עוברה שהריחה וכו' ומי שנשכו וכו' והחושש",
+      "en": "Rashi: proof that tzefardea is life-threatening from the Rabba bar Shela incident.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "בפיו וכו' וחכ\"א בזו. אנו מודים ולא באחרת: בזו אהייא אי נימא",
+      "en": "Rashi: medicine placed in the mouth but not swallowed is not 'eating' on YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "אעוברה פשיטא. וכי עוברה שהריחה ר' מתיא קתני לה סתמא",
+      "en": "Rashi: the Tosefta frames saving life on YK as a positive commandment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "היא: אלא לאו אסם. קיימי דאילו אחצר כבד תנן פלוגתא במתני'",
+      "en": "Rashi: Shmuel's rulings on specific danger situations on Yom Kippur.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "ש\"מ דבסם מודו: לא ספק שבת זו",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "בלבד. לא שיהא ספק הנפשות לשבת",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "זו אלא אפילו אין הספק לשבת זו",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "דפשיטא לן דהיום לא ימות אלא",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "ספק שאם לא יעשו לו היום שמא",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "ימות לשבת הבאה: והיכי דמי כגון",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "דאמדוה. רופאים לעשות לו הרפואה",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "שמנה ימים: להברותו. רחיצה שמא",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "יבריא מאיליו: על פי נשים. אם נשים",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "או כותים אומרים צריך אין מחללין",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "על פיהן: אבל מצטרפין לדעת",
+      "en": "Rashi explains the opening discussion of this topic on 84b.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "אחרת. כגון שנים אומרים צריך",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "ושלשה אומרים אין צריך ואשה או",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "כותי אומרים צריך מצטרפין למהוי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "פלגא ופלגא וספק נפשות להקל:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "פקוח. דשקומברנ\"ש בלע\"ז בכל דבר",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "שצריך לו לנפש להעביר סכנת מות:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "ואע\"ג דצייד כוורי. עמו כל הני",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "אע\"ג דקאמר הכא משנה יתירה דייק",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "דקתני ואינו צריך ליטול רשות למה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ליה דתני הכא הא תני ליה והזריז",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "ה\"ז משובח אלא הא אתא לאשמועינן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "שאפי' הוא צריך לדבר: עוקר חוליא.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "כדי להשפיל שפת הבור ויהא נוח",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "ליכנס: ננעלה דלת. והתינוק נבעת:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "למתבר' בשיפי. נסרים שצריך להם",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "לישנא אחרינא בשיפי קיסמין להדלקה:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "ומפסיקין מפני הדליקה. בכלים של",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "מתכת או של חרס מלאים מים",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "ובדליקה שיש בה סכנת נפשות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "קאמר: דקא מכיך מכוכי. משפיל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "ומציע הגחלים לצלות עליהם לערב:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "דאדהכי והכי. אם ילך לבית דין",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "לישאל אזיל ליה לאיבוד: משבש ליה.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "מפתהו ומקרקש לו אגוזים: דאפילו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "לחצר אחרת. דליקה בחצר זו ונפשות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "בחצר אחרת והם חולים או קטנים:",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "לא הלכו בפיקוח נפש אחר הרוב.",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "דאם ספק כותי או ספק ישראל",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "מפקחין ואע\"ג דרובא כותים הוו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "התם: אי נימא תשעה ישראל וחד",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "כותי. ונפל' מפולת על אחד מהן ואין",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "ידוע אם ישראל אם כותי הוא: אלא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "דאיכא תשעה כותים וחד ישראל.",
+      "en": "Rashi explains the case: there are nine Samaritans (Kutim) and one Israelite [in the group].",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "ואשמועינן דאף על גב דרובא כותים",
+      "en": "The teaching informs us that even though the majority are Samaritans, we suspect one may be an Israelite and we clear the rubble.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "חיישינן שמא ישראל הוא ומפקחין הא",
+      "en": "This [ruling] is also seemingly obvious since we rule that any fixed group is treated as half-and-half...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "נמי פשיטא דקי\"ל כל קבוע כמחצה",
+      "en": "...as derived in Sanhedrin and Ketubot from 'he lay in wait for him' - excluding one who throws a stone into a group.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "על מחצה דמי דנפקא לן בסנהדרין",
+      "en": "...derived in Sanhedrin and Ketubot from the verse 'he ambushed him' - this excludes one who throws a stone into a group...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "ובכתובות מוארב לו פרט לזורק אבן",
+      "en": "...into the group. [The ruling] is not needed for the obvious case...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "לגו: לא צריכא דפרוש לחצר אחרת.",
+      "en": "We need this ruling for a case where [one of the group] separated into a different courtyard.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "ושם נפלה על האחד מפולת דבכל",
+      "en": "And there the rubble fell on one of them. In general we say that anything which separates from a majority...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "דוכתא אמרינן כל דפריש מרובא",
+      "en": "...is assumed to have come from the majority - [but this applies] to things that move about, whereas here we do not apply that rule...",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "פריש במידי דניידי והכא לא אמרי'",
+      "en": "...even though at the moment of their separation all were mobile.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "הכי ואע\"ג דבפרישתן כולהו ניידי:",
+      "en": "Even though they were mobile when they separated [from the majority], we do not follow the majority here.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "הא דפרוש כולהו. הואיל ואיתחזק ישראל בהאי חצר שנפלה בו מפולת מפקחין ואע\"ג דניידי (ליה) לא אזלינן בתר רובא: הא דפרוש מקצתייהו.",
+      "en": "The case where all of them separated: since an Israelite had been established in that courtyard where the rubble fell, we clear the rubble even though they were mobile, and we do not follow the majority.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "ולא ידעינן אי הוה ישראל בהאי חצר אזלינן בתר רובא הואיל ולא איתחזק: והא תנן תינוק מושלך. משנה היא בסדר טהרות בעיר שישראל",
+      "en": "The case where only some separated: since we do not know whether an Israelite was in that courtyard, we follow the majority. [As for] the Mishnah about a foundling child - [this is from] a city where Israelites and Samaritans live together.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "וכותים דרים בה: לא שנו. דאם רוב ישראל מחזקינן ליה לישראל אלא להחיותו: אבל לייחסו. כגון אם נקבה היא שיהא כהן מותר בה לא",
+      "en": "We ruled [to treat the foundling as Jewish] only to save its life; but not to establish its lineage - e.g., if the child is female, a kohen would not be permitted to marry her.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "ואפי' ליכא למיחש לאסופי כגון הנך דאמרי' במס' קידושין (דף עג:) תלי בדיקולא תלי פיתקא רמי חומרא משלטי הדמי' חיישינן שמא",
+      "en": "Even without reason to suspect the child was abandoned [as an asufi], for instance in the cases mentioned in Kiddushin (73b) - [we are concerned] because the monetary signs may be misleading, and we suspect she may be a Samaritan woman,",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "he": "כותית היא וגיורת אסורה לכהונה ואע\"ג דרוב ישראל מעלה עשו ביוחסין דבעינן תרי רובי כדאמרי' בכתובות בפ\"ק (דף טו.):",
+      "en": "...and a convert is forbidden to marry a kohen. This is so even though the majority are Israelites, because we apply a higher standard in matters of lineage (yichus), requiring two majorities, as stated in Ketubot chapter 1 (15a).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "he": "ושמואל",
+      "en": "Rashi opens the comment on 'and Shmuel,' continuing to the next ruling.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}

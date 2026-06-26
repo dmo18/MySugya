@@ -1,0 +1,775 @@
+{
+  "daf": "38a",
+  "canonicalRef": "Yoma 38a",
+  "summary": "38a covers: completion of seirugim/get ruling; full Nicanor story (copper doors, sea miracle, kept in honor over gold); Mishna listing the four Temple families shamed for refusing to teach (Beth Garmu, Beth Avtinas, Hugras, Ben Kamtsar); detailed account of Beth Avtinas and the maaleh ashan incense herb, their defense and eventual return from Alexandria.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-038a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.38a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.38a.1"
+      ],
+      "display": {
+        "whats": "The get in seirugim (alternating script) - continuation from 37b.",
+        "hint": "B'seirugim means written in alternating blocks, not continuous text."
+      },
+      "learning": {
+        "summary": "Brief continuation: b'seirugim means the letters are written in alternating or block-style rather than continuous. The derivation from Helene's tablet is concluded.",
+        "ahaMoment": "Seirugim = alternating pattern; the halachic ruling about gittin is complete.",
+        "memoryAnchor": "Seirugim: alternating = still valid for a get.",
+        "openQuestion": "Is seirugim a completely different script or just a stylistic variation?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-038a-l01",
+          "type": "ruling",
+          "label": "Ruling: B'seirugim means in alternating pattern; a get",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l01",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "B'seirugim means in alternating pattern; a get in this style is valid."
+        }
+      ],
+      "topicTags": [
+        "gittin",
+        "writing halakha"
+      ],
+      "concepts": {
+        "halachic": [
+          "get in seirugim",
+          "valid script styles"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "get validity requirements"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Gittin written in alternating (seirugim) script are invalid because they deviate from standard script.",
+          "correction": "The Gemara rules they are valid - the ruling is derived from Queen Helene's tablet, which used seirugim script for sacred Temple text.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-037b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "text",
+          "description": "Seirugim = alternating/block script for gittin"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "What does 'b'seirugim' mean in the context of gittin?",
+          "a": "Written in alternating or block-style script; still halachically valid."
+        }
+      ],
+      "finalRuling": "A get written b'seirugim (alternating script) is valid.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-038a-s02",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 11
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.38a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.38a.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.38a.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.38a.2",
+        "Yoma.38a.3",
+        "Yoma.38a.4"
+      ],
+      "display": {
+        "whats": "Nicanor's miracle: the full story of his copper doors from Alexandria.",
+        "hint": "Nicanor's devotion and a miracle brought his doors to the Temple; they were of copper but shone like gold."
+      },
+      "learning": {
+        "summary": "The full baraita about Nicanor's miracle: his doors were made in Alexandria of special copper (nechoshet). On the return voyage a storm struck; one door was thrown overboard and when the ship arrived at Akko, the door appeared beneath the ship. All other Temple gates were replaced with gold; only Nicanor's remained copper because the miracle had occurred to them.",
+        "ahaMoment": "Nicanor's copper doors kept their copper finish forever - the miracle made them more precious than gold.",
+        "memoryAnchor": "Copper doors shining like gold: the miracle of devotion made them more precious than any replacement.",
+        "openQuestion": "Why were Nicanor's copper doors not replaced with gold if all others were?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-038a-l01",
+          "type": "elaboration",
+          "label": "Elaboration: Nicanor's doors were made of special Alexandrian",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l01",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "Nicanor's doors were made of special Alexandrian copper."
+        },
+        {
+          "id": "yoma-038a-l06",
+          "type": "elaboration",
+          "label": "Elaboration: On return voyage storm struck; one door",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l06",
+              "vilnaLine": 6
+            }
+          ],
+          "text": "On return voyage storm struck; one door thrown into sea; miraculously found beneath ship at Akko."
+        },
+        {
+          "id": "yoma-038a-l11",
+          "type": "ruling",
+          "label": "Ruling: All other Temple gates were overlaid with",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l11",
+              "vilnaLine": 11
+            }
+          ],
+          "text": "All other Temple gates were overlaid with gold; Nicanor's copper doors were kept as-is because a miracle had occurred."
+        }
+      ],
+      "topicTags": [
+        "Temple improvements",
+        "miracles",
+        "historical narrative"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "divine reward for devotion",
+          "miracle of Temple service"
+        ],
+        "narrative": [
+          "Nicanor's sea miracle",
+          "copper doors shining like gold"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [
+        {
+          "misconception": "Nicanor's copper doors remained copper because the Temple ran out of funds to gild them.",
+          "correction": "The doors remained copper because of a miracle during their transport - one door was thrown into the sea and miraculously reappeared. The copper itself became too sacred to cover.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-037b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "narrative",
+          "description": "Copper doors kept as is after miracle - surpassing gold in honor"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "Why were Nicanor's copper doors not overlaid with gold like the other Temple gates?",
+          "a": "Because a miracle had occurred to them; they were kept as is to honor the miracle."
+        }
+      ],
+      "finalRuling": "Nicanor's copper doors were kept while others were gilded, because the miracle made them more honorable than gold.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-038a-s03",
+      "lineRange": {
+        "startVilnaLine": 16,
+        "endVilnaLine": 24
+      },
+      "lines": [
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.38a.5"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.38a.6"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.38a.7"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.38a.8"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.38a.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.38a.5",
+        "Yoma.38a.6",
+        "Yoma.38a.7",
+        "Yoma.38a.8",
+        "Yoma.38a.9"
+      ],
+      "display": {
+        "whats": "Mishna: Beth Garmu refused to teach the art of baking the lechem hapanim (showbread).",
+        "hint": "Families who refused to share their Temple skills are criticized; Beth Garmu and Beth Avtinas."
+      },
+      "learning": {
+        "summary": "A new Mishna lists families known 'for shame': Beth Garmu refused to teach the technique of baking the showbread; Beth Avtinas refused to teach the technique of compounding the incense; Hugras ben Levi refused to teach his voice technique for the Levitical songs; Ben Kamtsar refused to teach the art of writing multiple letters simultaneously.",
+        "ahaMoment": "Secret-keeping in the Temple: the families who refused to share their skills are remembered in infamy rather than honor.",
+        "memoryAnchor": "Four families hoarded Temple knowledge: Beth Garmu (bread), Beth Avtinas (incense), Hugras (voice), Ben Kamtsar (writing) - all shamed.",
+        "openQuestion": "Why did these families refuse to share their techniques?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-038a-l16",
+          "type": "ruling",
+          "label": "Ruling: Mishna: these are for shame - Beth",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l16",
+              "vilnaLine": 16
+            }
+          ],
+          "text": "Mishna: these are for shame - Beth Garmu refused to teach lechem hapanim baking."
+        },
+        {
+          "id": "yoma-038a-l17",
+          "type": "elaboration",
+          "label": "Elaboration: Beth Avtinas refused to teach the incense",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l17",
+              "vilnaLine": 17
+            }
+          ],
+          "text": "Beth Avtinas refused to teach the incense compounding technique."
+        },
+        {
+          "id": "yoma-038a-l18",
+          "type": "elaboration",
+          "label": "Elaboration: Hugras ben Levi refused to teach his",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l18",
+              "vilnaLine": 18
+            }
+          ],
+          "text": "Hugras ben Levi refused to teach his voice technique for Temple music."
+        },
+        {
+          "id": "yoma-038a-l21",
+          "type": "elaboration",
+          "label": "Elaboration: Ben Kamtsar refused to teach the art",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l21",
+              "vilnaLine": 21
+            }
+          ],
+          "text": "Ben Kamtsar refused to teach the art of writing four letters simultaneously."
+        },
+        {
+          "id": "yoma-038a-l24",
+          "type": "elaboration",
+          "label": "Elaboration: The Sages could not find others to",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l24",
+              "vilnaLine": 24
+            }
+          ],
+          "text": "The Sages could not find others to do these tasks and had to bring these families back."
+        }
+      ],
+      "topicTags": [
+        "Temple service families",
+        "lechem hapanim",
+        "temple knowledge"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "withholding temple knowledge is shameful"
+        ],
+        "narrative": [
+          "Beth Garmu",
+          "Beth Avtinas",
+          "Hugras ben Levi",
+          "Ben Kamtsar"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "lechem hapanim (showbread)"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Beth Garmu kept the showbread recipe secret as a business advantage, and the Sages approved.",
+          "correction": "The Sages initially disapproved and brought in Alexandrian bakers as replacements. Beth Garmu's justification (they feared the recipe would be misused) was eventually accepted.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-038a-s04"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Four families: praised for skills but shamed for secrecy"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "Why are Beth Garmu and Beth Avtinas mentioned 'for shame' in the Mishna?",
+          "a": "They refused to teach their specialized Temple skills (showbread and incense) to others."
+        }
+      ],
+      "finalRuling": "Beth Garmu, Beth Avtinas, Hugras, and Ben Kamtsar are remembered in infamy for refusing to share Temple skills.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-038a-s04",
+      "lineRange": {
+        "startVilnaLine": 27,
+        "endVilnaLine": 44
+      },
+      "lines": [
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.38a.10"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.38a.11"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.38a.12"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.38a.13"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.38a.14"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.38a.15"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.38a.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.38a.10",
+        "Yoma.38a.11",
+        "Yoma.38a.12",
+        "Yoma.38a.13",
+        "Yoma.38a.14",
+        "Yoma.38a.15",
+        "Yoma.38a.16"
+      ],
+      "display": {
+        "whats": "Beth Avtinas refused to teach incense compounding; they justified themselves and were brought back.",
+        "hint": "Beth Avtinas claimed they refused to prevent misuse; eventually they were brought back and paid double."
+      },
+      "learning": {
+        "summary": "The Gemara gives more detail about Beth Avtinas: they refused to teach the incense formula, claiming they feared someone might use the formula for idol worship. The Sages had to bring them back and double their pay. The incense formula included a special herb (maaleh ashan) that made the smoke rise straight up. Beth Avtinas knew this ingredient but refused to share it.",
+        "ahaMoment": "Beth Avtinas claimed a principled reason for secrecy; whether this justifies their refusal is debated.",
+        "memoryAnchor": "Beth Avtinas: incense secret = maaleh ashan herb; they feared misuse but still shamed; brought back at double wages.",
+        "openQuestion": "Was Beth Avtinas's fear of idol-worship misuse a valid reason to withhold knowledge from the Sages?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-038a-l27",
+          "type": "elaboration",
+          "label": "Elaboration: Beth Avtinas refused to teach the incense",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l27",
+              "vilnaLine": 27
+            }
+          ],
+          "text": "Beth Avtinas refused to teach the incense formula; they had the secret of maaleh ashan."
+        },
+        {
+          "id": "yoma-038a-l30",
+          "type": "elaboration",
+          "label": "Elaboration: Their claim: they feared others might misuse",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l30",
+              "vilnaLine": 30
+            }
+          ],
+          "text": "Their claim: they feared others might misuse the formula for idolatrous purposes."
+        },
+        {
+          "id": "yoma-038a-l33",
+          "type": "elaboration",
+          "label": "Elaboration: The Sages said their excuse was insufficient;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l33",
+              "vilnaLine": 33
+            }
+          ],
+          "text": "The Sages said their excuse was insufficient; they should have taught the Sages at least."
+        },
+        {
+          "id": "yoma-038a-l36",
+          "type": "elaboration",
+          "label": "Elaboration: When others failed to replicate the incense",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l36",
+              "vilnaLine": 36
+            }
+          ],
+          "text": "When others failed to replicate the incense smoke effect, the Sages brought Beth Avtinas back."
+        },
+        {
+          "id": "yoma-038a-l38",
+          "type": "elaboration",
+          "label": "Elaboration: They were brought from Alexandria and paid",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l38",
+              "vilnaLine": 38
+            }
+          ],
+          "text": "They were brought from Alexandria and paid double their previous wages."
+        },
+        {
+          "id": "yoma-038a-l41",
+          "type": "elaboration",
+          "label": "Elaboration: The maaleh ashan herb made the incense",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l41",
+              "vilnaLine": 41
+            }
+          ],
+          "text": "The maaleh ashan herb made the incense smoke rise straight up; Beth Avtinas knew its identity."
+        },
+        {
+          "id": "yoma-038a-l44",
+          "type": "ruling",
+          "label": "Ruling: Despite the principled argument, withholding Temple ...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-038a-l44",
+              "vilnaLine": 44
+            }
+          ],
+          "text": "Despite the principled argument, withholding Temple knowledge is still considered shameful."
+        }
+      ],
+      "topicTags": [
+        "Temple service families",
+        "incense formula",
+        "maaleh ashan"
+      ],
+      "concepts": {
+        "halachic": [
+          "incense formula secrecy",
+          "maaleh ashan herb"
+        ],
+        "theological": [
+          "knowledge sharing in Temple service"
+        ],
+        "narrative": [
+          "Beth Avtinas in Alexandria",
+          "maaleh ashan discovery"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "ketoret (incense) formula"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Beth Avtinas's secrecy about incense compounding was purely selfish and condemned without qualification.",
+          "correction": "Beth Avtinas claimed a principled reason - they feared the smoke-rising technique would be misused for idolatry. The Sages accepted their return and there is ambiguity about the condemnation.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-038a-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "Beth Avtinas brought back from Alexandria at double wages to share the incense secret"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "What was Beth Avtinas's secret regarding the incense?",
+          "a": "They knew the identity of the maaleh ashan herb that made the incense smoke rise straight up."
+        }
+      ],
+      "finalRuling": "Beth Avtinas knew the maaleh ashan herb; they claimed principled secrecy but were still shamed; brought back at double pay.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "מַעֲלֶה עָשָׁן",
+      "translit": "maaleh ashan",
+      "en": "An herb in the incense formula that caused the smoke to rise straight up; its identity was kept secret by Beth Avtinas."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "In seirugim - in alternating/block style; valid for a get.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The full Nicanor story: his doors were made of special Alexandrian copper.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "On the return voyage a storm arose; they threw one door overboard but the storm continued.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "They wanted to throw the second when Nicanor embraced it saying 'throw me with it.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "The storm calmed; when they arrived at Akko the first door surfaced beneath the ship.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Some say a sea creature swallowed it and spat it out at the shore.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "All other Temple gates were overlaid with gold; Nicanor's were kept in copper.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "The miracle made them more precious than any gold overlay.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Some say they shone like gold because of their miraculous copper quality.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "His memory was honored: his doors bore his name forever.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Summary: Nicanor's copper doors kept as miracle memorial surpassing gold.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Mishna: these are for shame.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Beth Garmu did not want to teach the art of baking the lechem hapanim.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Beth Avtinas did not want to teach the art of compounding the incense.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Hugras ben Levi did not want to teach his voice technique.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Ben Kamtsar did not want to teach the art of writing (four letters simultaneously).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "What was Hugras's technique? He put his thumb in his mouth and created a special trill.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "What was Ben Kamtsar's technique? He wrote four letters simultaneously with four quills.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The Sages praised the ones in the first Mishna and criticized these four.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "These four are remembered for shame because they withheld Temple knowledge.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "If others cannot learn the skill, Temple service is at risk.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Withholding is a form of negligence toward the sacred service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Beth Avtinas defended themselves: we fear someone will use it for idol worship.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The maaleh ashan herb made the smoke rise straight up without spreading.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Without it the smoke would spread in all directions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "This herb was the secret of their incense preparation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The Sages replied: their concern about misuse does not justify withholding from the Sages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "They should at least have taught the Sages in private.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "When others tried to replicate the incense and failed to make smoke rise straight, the Sages sought them.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "They went to Alexandria in Egypt and brought them back.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The Sages doubled their wages as an incentive.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Their descendants maintained the maaleh ashan knowledge.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "One positive thing about Beth Avtinas: their women never wore perfume.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Lest people suspect they used the incense formula for personal use.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "This shows their personal integrity even if they withheld the knowledge.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The Sages praised their personal stringency but criticized their lack of teaching.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Summary: maaleh ashan = smoke-rising herb; Beth Avtinas's defense; their personal stringency.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

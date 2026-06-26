@@ -1,0 +1,391 @@
+{
+  "canonicalRef": "Yoma 65b",
+  "summary": "A key distinction in sacrifice law: communal offerings cannot be 'lost' in the same way as individual offerings. The Yom Kippur goats are communal offerings funded by the half-shekel community fund, meaning they are always replaceable. The HP acts as the community's agent - the entire Yom Kippur service is communal, not personal. This distinction affects all the replacement scenarios discussed in the surrounding Gemara.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-065b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 21
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.65b.1"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.65b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.65b.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.65b.4"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.65b.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.65b.6"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.65b.7"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.65b.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.65b.1",
+        "Yoma.65b.2",
+        "Yoma.65b.3",
+        "Yoma.65b.4",
+        "Yoma.65b.5",
+        "Yoma.65b.6",
+        "Yoma.65b.7",
+        "Yoma.65b.8"
+      ],
+      "display": {
+        "whats": "Communal offerings cannot be 'lost': how this affects replacement rules for the Yom Kippur goats",
+        "hint": "A challenge to the previous discussion: communal offerings work differently from individual ones. Communal offerings like the Yom Kippur goats are funded by the half-shekel and can always be replaced by public funds, unlike individual offerings which depend on a private owner."
+      },
+      "learning": {
+        "summary": "The Gemara raises an objection to the previous discussion by pointing out a fundamental distinction: communal offerings and individual offerings have different replacement dynamics. An individual's sin-offering can be lost because it belongs to a private person with limited resources. A communal offering is funded by the half-shekel (the community's public fund) and can always be replaced - it is never 'lost' in the same sense. The Yom Kippur goats, being communal offerings, are always replaceable from public funds. The HP as the community's agent conducts this communal service.",
+        "ahaMoment": "Communal offerings cannot truly be 'lost' because the community always has resources to replace them. The Yom Kippur goats as communal offerings are therefore always replaceable - the community's relationship with God is not contingent on the fate of any particular pair of goats.",
+        "memoryAnchor": "The community's atonement is never 'stuck': communal offerings can always be replaced, ensuring Yom Kippur always goes forward.",
+        "openQuestion": "What does the distinction between communal and individual offerings teach about the nature of communal responsibility?"
+      },
+      "argumentFlow": [
+        {
+          "type": "challenge",
+          "speaker": "Gemara",
+          "text": "Communal offerings cannot be 'lost' in the same sense as individual offerings.",
+          "id": "yoma-065b-l01",
+          "label": "Challenge: Communal offerings cannot be 'lost' in the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-065b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "distinction",
+          "speaker": "Gemara",
+          "text": "Individual offerings depend on a private owner; communal offerings are funded by the half-shekel community fund.",
+          "id": "yoma-065b-l05",
+          "label": "Distinction: Individual offerings depend on a private owner;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-065b-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "type": "application",
+          "speaker": "Gemara",
+          "text": "The Yom Kippur goats are communal offerings, always replaceable from public funds.",
+          "id": "yoma-065b-l06",
+          "label": "Application: The Yom Kippur goats are communal offerings,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-065b-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "theology",
+          "speaker": "Gemara",
+          "text": "The HP acts as the community's agent; the service is communal, not personal.",
+          "id": "yoma-065b-l11",
+          "label": "Theology: The HP acts as the community's agent;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-065b-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "type": "implication",
+          "speaker": "Gemara",
+          "text": "The communal nature ensures the service can always proceed, even in difficult scenarios.",
+          "id": "yoma-065b-l18",
+          "label": "Implication: The communal nature ensures the service can",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-065b-l18",
+              "vilnaLine": 18
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "communal offering",
+        "cannot be lost",
+        "half-shekel fund",
+        "communal replacement",
+        "HP as agent"
+      ],
+      "concepts": {
+        "halachic": [
+          "communal vs. individual offering replacement",
+          "half-shekel funding",
+          "HP as communal agent"
+        ],
+        "theological": [
+          "the community's atonement is not dependent on any one animal's fate",
+          "HP as agent of a community that always has resources"
+        ],
+        "narrative": [
+          "Temple law",
+          "communal vs. individual offerings"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the Yom Kippur goats are communal offerings funded by the half-shekel",
+        "Understanding the difference between individual and communal obligation"
+      ],
+      "misconceptions": [
+        "The HP is not acting on his own behalf when he serves on Yom Kippur - he is the community's agent throughout"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "individual offering (can be lost) vs. communal offering (always replaceable)"
+        },
+        {
+          "type": "relationship",
+          "name": "HP as agent of the community"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why can't the Yom Kippur goats be 'lost' in the same sense as an individual's sin-offering?",
+          "answer": "The Yom Kippur goats are communal offerings funded by the half-shekel public fund. Communal offerings can always be replaced from public funds - the community never 'loses' its ability to replace them the way an individual might."
+        }
+      ],
+      "finalRuling": "Communal offerings like the Yom Kippur goats cannot be truly 'lost' because the half-shekel fund always provides for replacements; the HP acts as the community's agent, not as a private individual.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "You speak of communal offerings? Communal offerings are different in that they cannot be lost.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "A communal offering's replacement comes from the public fund, not from a private owner.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Therefore: communal offerings don't face the same 'owner lost it' scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "The Gemara's challenge: the scenarios being discussed apply to communal offerings.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "But communal offerings work differently from individual ones in replacement scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The distinction: individual offerings can be lost by their owner; communal ones cannot be 'lost.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "If an individual's sin-offering dies or is lost: a personal replacement is needed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "If a communal offering has an issue: the community funds a replacement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The accountability is different: individual vs. communal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The Yom Kippur goats are communal offerings - from the half-shekel fund.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Therefore: the community (represented by the HP) is responsible for their replacement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The HP is not acting as a private individual on Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "He is acting as the representative of the entire community.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Every service he performs is communal, not personal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "This distinction affects the legal analysis of replacement scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Communal offerings can always be replaced by public funds.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Individual offerings depend on the private owner's willingness and ability.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The HP's Yom Kippur service: no private individual can substitute.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The community is always represented; the service is always communal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "This communal nature is one of the theological features of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "It is not the HP's personal atonement day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "It is the entire community's atonement day, conducted through the HP's agency.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The HP is the community's agent, not the community's representative only.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "He acts in their name and on their behalf.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "His action is their action; his service is their service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "This is the deepest meaning of the HP's role.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "He disappears into his function.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "On Yom Kippur, there is no 'private HP' - only the HP as communal agent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The community's atonement depends entirely on his performance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "And his performance is entirely on the community's behalf.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "This complete identification between the HP and the community he represents.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "This is what makes the HP's service so weighty.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "And this is why the community prays so intensely for the HP's success.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "His success is their atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "His failure would be their tragedy.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The vigil of the community outside the Temple is not passive waiting.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "It is active prayer and identification with the HP's service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The community is present through their prayer; the HP is present through his service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Together they constitute the full Yom Kippur encounter.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

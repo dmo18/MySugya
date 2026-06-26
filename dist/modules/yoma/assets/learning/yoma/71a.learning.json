@@ -1,0 +1,1032 @@
+{
+  "canonicalRef": "Yoma 71a",
+  "summary": "Rava resolves the service-sequence debate: the burning of the bull and goat happened in white vestments (textual flashback). HP's post-Yom Kippur feast. Shemaiah and Avtalyon's confrontation with the HP: Aaron's true disciples are defined by deeds, not lineage.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-071a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 23
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.71a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.71a.2"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.71a.3"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.71a.4"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.71a.5"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.71a.6"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.71a.7"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.71a.8"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.71a.9"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.71a.10"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.71a.11"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.71a.12"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.71a.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.71a.1",
+        "Yoma.71a.2",
+        "Yoma.71a.3",
+        "Yoma.71a.4",
+        "Yoma.71a.5",
+        "Yoma.71a.6",
+        "Yoma.71a.7",
+        "Yoma.71a.8",
+        "Yoma.71a.9",
+        "Yoma.71a.10",
+        "Yoma.71a.11",
+        "Yoma.71a.12",
+        "Yoma.71a.13"
+      ],
+      "display": {
+        "whats": "The Gemara resolves the service sequence debate using two Amoraim - Rava analyzes the Mishnah's ordering. A key dispute: does 'the dispatcher' (hameshale'ach) refer to an earlier past action or to a concurrent present one? The resolution establishes the sequence of vestment changes.",
+        "hint": "How can the same verse be read as describing either a past action or a current one?"
+      },
+      "learning": {
+        "summary": "Rava resolves the service sequence debate: the Mishnah's order reflects scripture but uses the device of a speaker who interrupts and returns to a topic. 'The one who dispatches the goat' (written after the eimurim fats) actually refers to the earlier Azazel dispatch - the Torah returns to mention the tum'ah consequences of an earlier act. Similarly 'the one who burns them' refers to the burning that happened in white vestments - both are textual flashbacks.",
+        "ahaMoment": "The Torah uses a non-chronological narrative device - it mentions the tum'ah of 'the dispatcher' and 'the burner' at the end of the passage even though those acts happened earlier. Rashi explains this as 'someone who interrupted a topic and returns to complete it.'",
+        "memoryAnchor": "Torah flashback technique: dispatcher and burner mentioned late but their acts happened earlier. The Mishnah follows this scriptural order.",
+        "openQuestion": "Are there other examples in Tanach where the Torah records tum'ah consequences of an act at a different point in the text than the act itself?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-071a-l01",
+          "type": "ruling",
+          "label": "Ruling: The entire portion was stated in order",
+          "speaker": "Baraita",
+          "text": "The Yom Kippur portion of Torat Kohanim was stated in chronological order - this is the key principle for establishing the service sequence.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l02",
+          "type": "ruling",
+          "label": "Ruling: Ladle and fire-pan taken out at first vestment change",
+          "speaker": "Gemara",
+          "text": "The ladle and fire-pan are taken out at the first vestment change - no outer golden service interrupts between the inner service and the ladle removal.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l03",
+          "type": "ruling",
+          "label": "Ruling: External goat from Numbers not disrupting sequence",
+          "speaker": "Gemara",
+          "text": "The external mussaf goat (Numbers) is not written in Torat Kohanim - so its position does not disrupt the Leviticus sequence for the rams and other services.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l03",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l04",
+          "type": "ruling",
+          "label": "Ruling: 've'yatza ve'asa' is the first exit in the portion",
+          "speaker": "Gemara",
+          "text": "The verse 'he went out and performed' is the first exit mentioned - therefore by necessity it refers to actions before the removal of the ladle and fire-pan.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l04",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l05",
+          "type": "ruling",
+          "label": "Ruling: 'The vestments he put on' = second removal confirmed",
+          "speaker": "Gemara",
+          "text": "'The vestments he put on' implies this is the second removal - confirming there is a vestment-change interruption between the day's service and the ladle/fire-pan removal.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l05",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l06",
+          "type": "ruling",
+          "label": "Ruling: Rava explains Mishnah disrupts verse order for a reason",
+          "speaker": "Rava",
+          "text": "Rava: the Mishnah's text that seems to disrupt verse order is intentional - it follows the Torah's own non-chronological presentation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l06",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l07",
+          "type": "ruling",
+          "label": "Ruling: Burning of bull and goat in white vestments confirmed",
+          "speaker": "Gemara",
+          "text": "The HP does not see the burning of the bull and goat - implying the burning occurs while he still wears white vestments, before his third immersion.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l07",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l08",
+          "type": "ruling",
+          "label": "Ruling: Sin-offering eimurim burned at third immersion with rams",
+          "speaker": "Gemara",
+          "text": "All opinions agree: the sin-offering eimurim are burned after the third immersion, together with the HP's ram and the people's ram.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l08",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l09",
+          "type": "ruling",
+          "label": "Ruling: 'The dispatcher' is a textual flashback",
+          "speaker": "Gemara",
+          "text": "The verse about 'the one who dispatches' appears after the eimurim text but refers to the earlier Azazel act - the Torah returns to record the tum'ah consequences of an earlier act.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l09",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l10",
+          "type": "ruling",
+          "label": "Ruling: 'The burner' is similarly a textual flashback",
+          "speaker": "Gemara",
+          "text": "'The one who burns them' also appears after the eimurim text but refers to the earlier burning - both are cases where Torah mentions tum'ah at the end even though the act happened earlier.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l10",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l11",
+          "type": "dispute",
+          "label": "Counter-argument: 'The burner' refers to current act",
+          "speaker": "Gemara (counter)",
+          "text": "Counter-argument: 'the burner' refers to the current time - the command for burning the fats is written after the eimurim, so 'the burner' is about burning that happens now.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l11",
+              "vilnaLine": 20
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l12",
+          "type": "ruling",
+          "label": "Ruling: 'The dispatcher' also refers to current time then",
+          "speaker": "Gemara",
+          "text": "If the burner is current, then so is the dispatcher - written specifically after the eimurim, meaning the Azazel dispatch happens at the time of the eimurim.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l12",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l13",
+          "type": "ruling",
+          "label": "Ruling: Resolution - 'dispatcher' is clearly earlier, so 'burner' is also earlier",
+          "speaker": "Gemara",
+          "text": "Final resolution: the Azazel dispatch obviously happened before the eimurim burning (the Torah says so). Therefore the 'dispatcher' clause is clearly a flashback - and the parallel 'burner' clause is also a flashback to the earlier burning in white vestments.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l13",
+              "vilnaLine": 22
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "service-sequence",
+        "textual-analysis",
+        "dispatcher-burner",
+        "vestment-changes",
+        "rava"
+      ],
+      "concepts": {
+        "halachic": [
+          "Torah's non-chronological sequence of tum'ah laws",
+          "burning in white vestments confirmed",
+          "dispatcher and burner as textual flashbacks"
+        ],
+        "theological": [
+          "Torah as non-chronological text when conveying certain categories of law"
+        ],
+        "narrative": [
+          "Talmudic debate resolved by Rava through textual analysis"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "HP's vestment sequence",
+        "tum'ah of Yom Kippur handlers",
+        "Rava as Amora"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Torah always records events in chronological order",
+          "correction": "The Torah sometimes records the tum'ah consequences of an act in a later position even though the act happened earlier - this is the 'textual flashback' device that Rava identifies.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "description": "Textual order vs actual chronological order: burning and dispatching happened earlier but their tum'ah laws appear later in the text",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does Rava's analysis reveal about the Torah's recording of 'the dispatcher' and 'the burner' in the Yom Kippur passage?",
+          "answer": "Both are textual flashbacks - the Torah returns to record the tum'ah consequences of earlier acts (Azazel dispatch and bull/goat burning) even though it mentions them after the eimurim burning. The acts themselves happened in white vestments, before the third immersion.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The burning of the bull and goat happened in white vestments (before third immersion). The Torah's mention of 'the dispatcher' and 'the burner' after the eimurim text are textual flashbacks to earlier acts.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-071a-s02",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.71a.14"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.71a.15"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.71a.16"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.71a.17"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.71a.18"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.71a.19"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.71a.14",
+        "Yoma.71a.15",
+        "Yoma.71a.16",
+        "Yoma.71a.17",
+        "Yoma.71a.18",
+        "Yoma.71a.19"
+      ],
+      "display": {
+        "whats": "After Yom Kippur the HP made a festive celebration for his loved ones, rejoicing that he emerged safely from the Holy of Holies. Shemaiah and Avtalyon bid farewell to the HP - and the HP's insulting response became a famous teaching about what distinguishes true disciples of Aaron.",
+        "hint": "What was the HP's insult to Shemaiah and Avtalyon, and why was it so shocking?"
+      },
+      "learning": {
+        "summary": "The HP's festive banquet after Yom Kippur was a celebration of successful completion - emerging alive from the Holy of Holies was itself cause for celebration. Shemaiah and Avtalyon (leaders of the Sanhedrin, descendants of converts) came to take leave, and the HP dismissed them: 'Let the descendants of pagans come in peace.' They responded: 'Let the descendants of pagans come in peace since they perform the deeds of Aaron - not like the descendant of Aaron who does not perform Aaron's deeds.' The confrontation became a teaching about what makes a true disciple of peace.",
+        "ahaMoment": "The HP insulted two of the greatest Torah scholars of his generation based on their ancestry - and they responded not with anger but with a lesson about how the deeds of Aaron (love and pursuit of peace) matter more than biological descent. Their response was itself an act of Aaron's way.",
+        "memoryAnchor": "HP's insult to Shemaiah and Avtalyon becomes their greatest teaching: Aaron's deeds, not Aaron's blood, define discipleship.",
+        "openQuestion": "Why did Shemaiah and Avtalyon choose this moment - right after Yom Kippur - to respond to the HP's insult with their famous statement?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-071a-l14",
+          "type": "ruling",
+          "label": "Ruling: HP made a festive celebration after Yom Kippur",
+          "speaker": "Mishnah",
+          "text": "After the Yom Kippur service, the HP made a celebration feast for his loved ones - rejoicing that he emerged safely from the Holy of Holies.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l14",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l15",
+          "type": "narrative",
+          "label": "Narrative: Shemaiah and Avtalyon came to bid farewell",
+          "speaker": "Gemara",
+          "text": "Shemaiah and Avtalyon came to take leave of the HP after Yom Kippur. The crowd followed them - showing the people's love for these scholars.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l15",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l16",
+          "type": "narrative",
+          "label": "Narrative: HP's dismissive remark about their pagan ancestry",
+          "speaker": "High Priest",
+          "text": "The HP said: 'Let the descendants of the nations come in peace' - a derogatory remark about Shemaiah and Avtalyon's descent from converts (Sennacherib's descendants).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l16",
+              "vilnaLine": 27
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l17",
+          "type": "ruling",
+          "label": "Ruling: Shemaiah and Avtalyon's response - deeds of Aaron",
+          "speaker": "Shemaiah and Avtalyon",
+          "text": "They responded: 'Let the descendants of nations come in peace, who perform the deeds of Aaron - unlike the descendant of Aaron who does not perform the deeds of Aaron.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l17",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l18",
+          "type": "ruling",
+          "label": "Ruling: The 'deeds of Aaron' - love and pursuit of peace",
+          "speaker": "Mishnah Avot",
+          "text": "Aaron's defining characteristic was 'love peace and pursue peace, love people and bring them close to Torah.' These deeds define discipleship of Aaron - not lineage.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l18",
+              "vilnaLine": 30
+            }
+          ]
+        },
+        {
+          "id": "yoma-071a-l19",
+          "type": "narrative",
+          "label": "Narrative: The HP had shamed them - a Torah-forbidden act",
+          "speaker": "Gemara",
+          "text": "The HP committed ona'at devarim (verbal oppression) against Shemaiah and Avtalyon by mentioning their pagan ancestry - a Torah prohibition (Lev. 25).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-071a-l19",
+              "vilnaLine": 33
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "HP-celebration",
+        "shemaiah-avtalyon",
+        "deeds-of-aaron",
+        "verbal-oppression",
+        "converts"
+      ],
+      "concepts": {
+        "halachic": [
+          "verbal oppression (ona'at devarim) prohibition",
+          "prohibition of reminding converts of their past"
+        ],
+        "theological": [
+          "Aaron's discipleship defined by deeds not lineage",
+          "love of peace as the defining characteristic"
+        ],
+        "narrative": [
+          "HP's insult and Shemaiah/Avtalyon's response",
+          "post-Yom Kippur celebration feast"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Shemaiah and Avtalyon as leaders of the Sanhedrin",
+        "Avot's 'disciples of Aaron' teaching",
+        "ona'at devarim prohibition"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Shemaiah and Avtalyon were of lesser standing than the HP",
+          "correction": "Shemaiah and Avtalyon were the heads of the Sanhedrin - the greatest Torah scholars of their generation. Their standing far exceeded that of the HP in terms of scholarship and moral authority.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "HP (descendant of Aaron by birth) vs Shemaiah and Avtalyon (disciples of Aaron by deeds) - who truly follows Aaron?",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What did Shemaiah and Avtalyon mean when they said 'let the descendants of nations come in peace who perform Aaron's deeds'?",
+          "answer": "They were responding to the HP's insult about their pagan ancestry by teaching that Aaron's true disciples are defined by his deeds (love of peace) not by lineage. The HP, despite descending from Aaron, failed to act like Aaron by shaming them.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "After Yom Kippur the HP celebrated his safe emergence from the Holy of Holies. His insult to Shemaiah and Avtalyon about their pagan ancestry prompted their famous teaching: Aaron's true disciples are those who practice his deeds of peace, not merely those who share his blood.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "שכל הפרשה נאמרה על הסדר וכו'. ואי כסדרן כתיבי וכן הסדר",
+      "en": "The entire portion was stated in order etc. - and if they were written in order and the sequence is thus.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "שמוציאן בלבישה ראשונה ואין עבודה חיצונה של בגדי זהב מפסקת",
+      "en": "And he takes them out at the first vestment change, and no outer golden-vestment service interrupts.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "בין עבודת היום להוצאת כף ומחתה לא משכחת לה וכו' כבר",
+      "en": "Between the day's service and the removal of ladle and fire-pan - you will not find it. Etc. I already explained this in the chapter 'Amar Lahem HaMemuneh' (above, 32b).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "פרשתיה בפרק אמר להם הממונה (לעיל דף לב:): בשעיר הנעשה",
+      "en": "In the external goat - as written (Num. 29) 'besides the sin-offering of atonement.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "בחוץ. כדכתיב (במדבר כט) מלבד",
+      "en": "And it is not written here, but the rams and people's ram are written.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "חטאת הכפורים והוא אינו כתוב",
+      "en": "After the removal of the ladle and fire-pan.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "כאן אבל אילו ואיל העם דווקא",
+      "en": "And we did not need to disrupt the order of the verses.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "כתבינהו קרא אחר הוצאת כף ומחתה",
+      "en": "The verse says 've'yatza ve'asa' (he went out and performed) - and this is the first exit mentioned in the portion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "ולא איצטריך לן לשבש סדרא דקראי:",
+      "en": "Therefore necessarily before the removal of the ladle and fire-pan he performed them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "אמר קרא ויצא ועשה וגו'. וזו יציאה",
+      "en": "With an interruption between them for the day's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "ראשונה האמורה בפרשה הילכך על",
+      "en": "'The vestments he put on' - implying this is the second removal, learn from this there is an interruption of vestment change.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "כרחך מקמי הוצאת כף ומחתה עביד",
+      "en": "Between the day's service and the removal of ladle and fire-pan.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "להו בהפסקה שביניהם לעבודת היום:",
+      "en": "And Rava - he does not respond to Rabbi Zeira's question but merely explains the reason for the Mishnah's text which disrupts the verses.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "אשר לבש כבר. אלמא זו היא פשיטה",
+      "en": "The reading is 'the verses are written' etc. - and do not read 'two'.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "שניה שמע מינה יש הפסקת חילוף",
+      "en": "He does not see the burning bull and goat - implying their burning occurs while the HP still wears white vestments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "בגדים בין עבודת היום להוצאת כף",
+      "en": "And the sin-offering eimurim - all opinions agree these come after, when he immerses the third time with the rams.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "ומחתה ורבא לא אאתקפתיה דרבי",
+      "en": "Say from this verse and beyond - it was not written in order.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "זירא קאי אלא לפרושי טעמא",
+      "en": "The Mishnah text is altered - should we say burning of bull and goat comes after the third immersion?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "דמתניתא דמשבשא קראי: ה\"ג קראי",
+      "en": "The verse says 'and the one who sends the goat etc.' - and in the same language is written 'and the one who burns them.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "כתיבי וכו'. ולא גרס תרי: אינו",
+      "en": "Which speaks of burning the bull and goat - both written after 'the fat of the sin offering.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "רואה פר ושעיר הנשרפים. אלמא",
+      "en": "By necessity, sending the goat precedes the burning of fats as written.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "שריפתן בעוד שכהן גדול לבוש בגדי",
+      "en": "He sent the goat to the wilderness, then 'the fat of the sin offering' - by necessity 'the one who sends.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "בוץ היא: ואילו אימורי חטאת.",
+      "en": "Written after it - is like someone interrupting a topic and returning to complete it.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "לדברי הכל בתר הכי עביד להו",
+      "en": "And that sending I mentioned above - the sender becomes tamei in garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "(כשטובל) בטבילה שלישית עם אילו",
+      "en": "Just as 'the sender' - even though written after the sin-offering fats, it refers to what happened originally.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "ואיל העם: אימא חוץ מפסוק זה",
+      "en": "So 'the burner' - even though written after them, it refers to what happened originally.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "ואילך. לא נכתבה על הסדר:",
+      "en": "On the contrary: 'the burner' refers to now - for the command for their burning is written after the sin-offering fats.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "שביש מתניתא. ואימא שריפת הפר",
+      "en": "Bring out and burn them. So 'the sender' is also now - specifically written after the fats.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "והשעיר אחר טבילה שלישית: אמר",
+      "en": "And the Azazel sending mentioned above - this means: when the time for sending comes.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "קרא והמשלח את השעיר וגו'.",
+      "en": "'The sender' refers to originally - like returning to a topic, as I explained.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "ובאותו לשון עצמו נאמר והשורף",
+      "en": "He found him in the marketplace - honors him publicly saying: my master the HP.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "אותם דמשתעי בשריפת הפר ושעיר",
+      "en": "He sustains the living - He who gives life.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "ושניהן כתובין אחר ואת חלב",
+      "en": "They took leave of each other - one took permission from the other to return home.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "החטאת ועל כרחך שילוח השעיר",
+      "en": "I shall walk etc. - since it spoke of good lives, it cites this.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "מקמי הקטרת אימורים הוה כדכתיב",
+      "en": "Where markets are - a person can buy food; since David moved constantly, he prayed about this.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "ושלח את השעיר במדבר והדר ואת",
+      "en": "One who becomes rich in old age after being poor in youth - it is as if he was reborn from death.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "חלב החטאת על כרחך והמשלח",
+      "en": "To you, O men, I call - for this reason it is cited.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "דכתיב בתריה כאדם שהפסיק הענין",
+      "en": "Similar to women - humble and weak of strength.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "שהיה מדבר בו וחוזר ומסיימו ואומר",
+      "en": "Ishim - from the word 'isha' (woman), since it does not write 'anashim.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "ואותו שילוח שאמרתי לך למעלה",
+      "en": "HP's festive procession - his return home after Yom Kippur was a celebration.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "המשלחו מטמא בגדים ובאותו לשון",
+      "en": "He made a feast for his friends - to celebrate the successful completion of the Yom Kippur service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "עצמו נאמר והשורף: מה והמשלח.",
+      "en": "The Kohen Gadol's day was a spiritual mountain - a high point for all Israel.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "אף על פי שנכתב אחר אימורי",
+      "en": "His neighbors would come to celebrate with him that he had emerged safely from the Holy of Holies.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "חטאת דמעיקרא הוא אף והשורף",
+      "en": "From generation to generation - the great occasions of Jewish history.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "אף על פי שנכתב אחריהן מעיקרא",
+      "en": "The final verse of the chapter - the closing of the Torah portion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "הוא: אדרבה מה שורף דהשתא. שהרי צווי עיקר שריפתן אחר אימורי חטאת נאמר כדכתיב ואת חלב החטאת וגו' והדר ואת פר",
+      "en": "A statute forever - the Yom Kippur laws are eternal.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "החטאת יוציא ושרפו: אף המשלח דהשתא. דווקא כתב אחר אימורין ושילוח שעיר האמור למעלה מהם הכי קאמר ונשא",
+      "en": "For the HP who completed the service - the successful performance obligates celebration.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "השעיר עליו את עונותם ושלחו המדברה כשיגיע זמן שילוחו: והמשלח מעיקרא משמע. כאדם שחוזר לענין שהפסיק בו וכמו",
+      "en": "All who heard - felt a share in the atonement.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "שפירשתי ושילוח שעיר במקומו נכתב מדלא הדר וכתב אחר אימורין ושלח השעיר והמשלחו יכבס בגדיו: רבא אמר. לא מצית",
+      "en": "The HP as intercessor for all Israel - his successful day atoned for the entire nation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "אמרת דשילוח שעיר לא במקומו נאמר דהא לא הזקיקו לעמוד שם אלא עד שעת כפרה והיא עבודת היום דמתן דמים: אתי משלח.",
+      "en": "Return home with joy - the completion of Yom Kippur was a time of national celebration.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "ליום המחרת: מצאו בשוק. מכבדו לפני הבריות ואומר לו אישי כהן גדול וכו': מחייה חיים. הוא הקדוש ברוך הוא עשינו שליחותו:",
+      "en": "The guests at the feast - companions who celebrated the HP's safe emergence.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "מפטרי מהדדי. שהיה אחד נוטל רשות מחבירו לשוב לביתו: אתהלך וכו'. איידי דאיירי בחיים מתוקנים נקט לה: זה",
+      "en": "The entire passage refers to the HP's role as national representative.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "מקום שווקים. שאדם מוצא לקנות מזונותיו ולפי שהיה דוד מטלטל נע ונד היה מתפלל על הדבר: שמתהפכות עליו. מי שהיה",
+      "en": "His personal success on Yom Kippur was Israel's collective success.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "עני בילדותו ונעשה עשיר לעת זקנותו דומה לו כאילו עכשיו נעשה חי מתוך מיתה: אליכם אישים אקרא.  בראש פרשת ושנות חיים",
+      "en": "Not just the HP's achievement - but everyone who supported the service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "הוא להכי נקט ליה: שדומין לנשים. ענותנין ותשושי כח: אישים. לשון אשה מדלא כתיב אנשים: (שנסך) יין וכו'. אישים לשון קרבן אשה:",
+      "en": "The celebration reflected communal relief and gratitude.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "מריח",
+      "en": "From the scent of water.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

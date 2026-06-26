@@ -1,0 +1,767 @@
+{
+  "daf": "7a",
+  "canonicalRef": "Yoma 7a",
+  "summary": "7a continues the hutrah/dchuya debate: Rav Sheshet brings three proofs for dchuya from baraitot about the omer, the meal-offering accompanying communal sacrifices, the blood-sprinkling rule, and the tzitz atonement list. Rav Nachman deflects each proof by identifying a technical distinction that removes the cited case from the class of true communal fixed-time offerings. The omer case: there are eating-remnants, a separate concern that always requires purity. The meal-offering case: Rav Nachman reassigns each listed sacrifice (par he'elem davar, Aaron's ram, the omer lamb) to an individual, a non-fixed-time, or an eating-remnant category. The blood-sprinkling ruling: concerns an individual. The tzitz case: the list can be read as referring to individuals or communal offerings without fixed times. The page closes by beginning a new derivation: what sin does the tzitz atone for? Not piggul (Torah says 'will not be accepted') and not notar (Torah says 'will not be credited') - so the tzitz atones only for tumah. This will become a proof for hutrah in the next daf.",
+  "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-007a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 30
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.7a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.7a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.7a.3"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.7a.4"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.7a.5"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.7a.6"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.7a.7"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.7a.8"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.7a.9"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.7a.10"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.7a.11"
+        }
+      ],
+      "display": {
+        "title": "Rav Sheshet's proofs for dchuya; Rav Nachman deflects each; tzitz sin-scope opens",
+        "oneLine": "Rav Sheshet brings three baraitot proving dchuya; Rav Nachman dismantles each case-by-case; the tzitz atonement list then opens a new line of argument against dchuya.",
+        "shortSummary": "Rav Sheshet's proof from the omer baraita: the priest searches for a replacement when possible, suggesting dchuya (prohibition still exists, minimize it). Rav Nachman's counter: the omer has eating-remnants, which is a separate reason to seek purity regardless of the tumas meit rule. Second proof from the meal-offering baraita (bulls, rams, sheep): same structure. Rav Nachman assigns each of the three categories to a case outside the true communal-fixed-time class: the par he'elem davar (bull for communal idolatry) has no fixed time; Aaron's ram is an individual's offering; the lamb with the omer has eating-remnants. Third proof from the blood-sprinkling ruling: sprinkling impure blood on the altar is accepted beshogeg (unwittingly) but not bmezid (intentionally) - if hutrah, why the distinction? Rav Nachman: that ruling concerns an individual's offering, not communal. Fourth proof from the tzitz baraita: the frontplate effects acceptance 'whether individual or communal' - if hutrah for the tzibbur, the tzitz would be unnecessary for communal impurity. Rav Nachman deflects: read the 'communal' in the list as referring to offerings without a fixed time, or interpret the whole passage as about individuals. The page closes with a new question: which sin does the tzitz atone for? Not piggul (declared permanently invalid) and not notar (same) - the inference is that the tzitz only atones for tumah. This leads toward a proof for hutrah.",
+        "whats": "The debate continues as a point-by-point contest. Rav Sheshet's strategy: cite baraitot that show the system treats tumas meit as if a prohibition still exists (finding replacements, conditional acceptance). Rav Nachman's strategy: in each case, identify a technical factor that explains the ruling without requiring dchuya. The final proof - the tzitz baraita - is the most direct challenge to hutrah, because it explicitly includes 'tzibbur' in the list of cases where the tzitz effects acceptance. If the tzibbur offering is hutrah, why atone? Rav Nachman: because 'tzibbur' in that list means offerings without a fixed time, or the list is about individuals. The tzitz-sin-scope derivation is then prepared: which sins can the tzitz actually atone for? By elimination (piggul and notar are already ruled out by their own pesukim), the answer is: only tumah. This will be used to argue that tumah must have been 'hutrah' in some sense - otherwise the tzitz verse would be worded differently.",
+        "hint": "Each of Rav Nachman's deflections is technically valid, but cumulative. After four deflections, has Rav Sheshet's case been truly answered, or is Rav Nachman just buying time?"
+      },
+      "learning": {
+        "learnerQuestion": "Rav Sheshet has four proofs. Rav Nachman deflects all four. Who is winning this debate?",
+        "coreTension": "Rav Sheshet's proofs all point the same direction: the system treats tumas meit in tzibbur as a prohibited act that can be overridden but must be minimized. Rav Nachman's deflections are individually valid but each one narrows the scope of his hutrah position - he concedes cases where purity is still preferred. The question is whether the combination of concessions effectively amounts to dchuya.",
+        "coreMove": "Track the concessions Rav Nachman makes: (1) eating-remnants cases - he concedes purity is required. (2) individual offerings - he concedes dchuya applies. (3) communal offerings without a fixed time - he concedes dchuya applies. After all concessions, hutrah applies only to: true communal offerings with a fixed time, where there are no eating-remnants.",
+        "resolution": "The debate is unresolved on this daf. The tzitz-sin-scope derivation opens a new approach: if the tzitz only atones for tumah and not for piggul/notar, this implies something about how tumah was categorized in Temple law. The resolution will emerge from this derivation on the next daf.",
+        "takeaway": {
+          "type": "dialectical",
+          "text": "Talmudic debates are not always won by the side that answers more questions. Sometimes a cumulative series of deflections itself reveals the limits of a position. Tracking what Rav Nachman concedes, not just what he asserts, shows that hutrah, even for him, applies in a narrower domain than it first appeared."
+        },
+        "reasoningPattern": {
+          "id": "category-narrowing-by-deflection",
+          "category": "dialectical",
+          "notes": "Each deflection narrows Rav Nachman's hutrah claim. After all four deflections, hutrah applies only to: communal offerings with fixed time, with no eating-remnants requirement. Whether this narrowed class is coherent or whether Rav Nachman has essentially conceded dchuya is the question readers should ask."
+        },
+        "ahaMoment": "Rav Nachman's deflection of the meal-offering baraita is the most instructive: he disaggregates 'bulls, rams, sheep' into three completely different sacrificial categories - par he'elem davar, Aaron's ram, and the omer lamb - each of which falls outside the true communal-fixed-time class for a different reason. This is not evasion; it is precise taxonomic work that shows the baraita was never discussing the type of case hutrah addresses.",
+        "learningBlocker": "Students may think Rav Nachman is simply making excuses. His deflections are technically precise: each baraita he deflects genuinely does not describe a pure communal-fixed-time offering with no eating-remnants. The question is whether such a case actually exists in practice.",
+        "memoryAnchor": "Three deflections: omer (eating remnants), par/ram/lamb (no fixed time, individual, or eating remnants), blood (individual). Fourth proof: tzitz atones for tzibbur - but Rav Nachman reads 'tzibbur' as non-fixed-time. Then: what sin does tzitz atone for? Not piggul, not notar - only tumah."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "proof",
+          "label": "Rav Sheshet: omer baraita proves dchuya",
+          "speaker": "Rav Sheshet",
+          "text": "A baraita: if the omer meal-offering became impure while being sacrificed, the priest says so and a replacement is brought. Only if there is no replacement do they say 'be shrewd and keep silent.' This shows that when purity is possible, it is preferred - proving dchuya (prohibition still operative, minimize it).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l02",
+              "vilnaLine": 2,
+              "note": "Rav Sheshet's first proof from the omer baraita"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "rejection",
+          "label": "Rav Nachman: omer case is eating-remnants, not the hutrah question",
+          "speaker": "Rav Nachman",
+          "text": "The omer has eating-remnants (the leftover minhah portion is eaten by the priests). I concede that eating-remnant offerings must be performed in purity - but that is because you cannot eat the remnants in impurity. It has nothing to do with the tumas meit permission for communal service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l06",
+              "vilnaLine": 6,
+              "note": "Rav Nachman's concession and deflection"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "proof",
+          "label": "Rav Sheshet: meal-offering of bulls/rams/sheep proves dchuya",
+          "speaker": "Rav Sheshet",
+          "text": "A second baraita: if the meal-offering accompanying bulls, rams, or sheep became impure, the same rule applies - bring a replacement if available. This baraita cannot be explained by eating-remnants, since these libation minhot are fully burned.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l08",
+              "vilnaLine": 8,
+              "note": "Rav Sheshet's second proof"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "rejection",
+          "label": "Rav Nachman: disaggregates bulls/rams/sheep into three non-qualifying cases",
+          "speaker": "Rav Nachman",
+          "text": "Bulls = the par he'elem davar (communal idolatry atonement offering) which has no fixed time, so dchuya applies. Rams = Aaron's ram on Yom Kippur, which is an individual's offering. Sheep = the lamb accompanying the omer, which has eating-remnants. None of these is a true communal-fixed-time offering without eating-remnants.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l12",
+              "vilnaLine": 12,
+              "note": "Rav Nachman's taxonomic disaggregation of the three cases"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "proof",
+          "label": "Rav Sheshet: blood-sprinkling ruling proves dchuya",
+          "speaker": "Rav Sheshet",
+          "text": "A third proof: blood that became impure and was sprinkled - if done beshogeg (unwittingly), the service is accepted; if bmezid (intentionally), it is not accepted. If hutrah, why would intentional sprinkling of impure blood not be accepted?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l17",
+              "vilnaLine": 17,
+              "note": "Rav Sheshet's third proof from the blood-sprinkling baraita"
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "rejection",
+          "label": "Rav Nachman: blood-sprinkling is about an individual",
+          "speaker": "Gemara (on behalf of Rav Nachman)",
+          "text": "That baraita was taught only about an individual's offering, where dchuya applies. It says nothing about communal offerings.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l17",
+              "vilnaLine": 17,
+              "note": "Deflection of the blood-sprinkling proof"
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "proof",
+          "label": "Rav Sheshet: tzitz baraita explicitly includes tzibbur",
+          "speaker": "Rav Sheshet",
+          "text": "A fourth proof: the tzitz effects acceptance 'for blood, flesh, and fat that became impure - whether unwittingly or intentionally, whether under compulsion or willfully, whether for an individual or a communal offering.' If tumas meit in tzibbur is hutrah, the tzitz is unnecessary for communal impurity - why is it listed?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l19",
+              "vilnaLine": 19,
+              "note": "Rav Sheshet's fourth and strongest proof"
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "rejection",
+          "label": "Rav Nachman: tzitz list refers to individuals or non-fixed-time communal",
+          "speaker": "Rav Nachman",
+          "text": "Two deflections: (1) Read 'tzibbur' in the list as referring only to communal offerings without a fixed time, where dchuya still applies. (2) Alternatively: the entire tzitz baraita is about individuals; 'tzibbur' in the list means the communal dimension of an individual's sin.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l23",
+              "vilnaLine": 23,
+              "note": "Rav Nachman's two-pronged deflection of the tzitz proof"
+            }
+          ]
+        },
+        {
+          "id": "step-09",
+          "type": "question",
+          "label": "New question: what sin does the tzitz atone for?",
+          "speaker": "Gemara",
+          "text": "The verse says 'Aaron shall bear the sin of the sacred things.' Which sin? Not piggul - the Torah already says piggul will not be accepted. Not notar - the Torah already says notar will not be credited.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l26",
+              "vilnaLine": 26,
+              "note": "Opening the tzitz-sin-scope derivation"
+            }
+          ]
+        },
+        {
+          "id": "step-10",
+          "type": "takeaway",
+          "label": "Conclusion: tzitz atones only for tumah (continues on 7b)",
+          "speaker": "Gemara",
+          "text": "By elimination: if piggul and notar are excluded by their own pesukim, the tzitz must atone only for tumah. This will be used to argue that tumah was 'hutrah' - if it were fully prohibited, the tzitz would simply accept it rather than merely 'bearing the sin.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-007a-l30",
+              "vilnaLine": 30,
+              "note": "The tzitz atones for tumah - inference continues on 7b"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "par-helem-davar",
+          "he": "פַּר הֶעְלֵם דָּבָר",
+          "translit": "Par he'elem davar",
+          "en": "The bull brought when the entire community has sinned through idolatry based on an erroneous ruling from the Sanhedrin. A communal offering but with no fixed time for its sacrifice - it is brought only when the specific sin occurs.",
+          "sugyaRole": "Rav Nachman's first identification in the disaggregation of 'bulls' - since it has no fixed time, dchuya (not hutrah) applies to it, so the baraita's ruling is consistent with his hutrah position for fixed-time communal offerings."
+        },
+        {
+          "id": "tzitz",
+          "he": "צִיץ",
+          "translit": "Tzitz",
+          "en": "The golden frontplate worn by the Kohen Gadol on his forehead. It atones for and effects acceptance of offerings that became impure. The Gemara is establishing exactly which types of impurity-related invalidations the tzitz can remedy.",
+          "sugyaRole": "The tzitz baraita is Rav Sheshet's fourth proof for dchuya - the tzitz is listed as needed for communal impurity, which would be unnecessary if communal impurity were hutrah."
+        },
+        {
+          "id": "piggul-notar",
+          "he": "פִּגּוּל / נוֹתָר",
+          "translit": "Piggul / Notar",
+          "en": "Piggul: an offering invalidated by the intention to eat or sacrifice it outside the permitted time and place - Torah declares it 'will not be accepted.' Notar: meat left after the permitted eating time - Torah declares it 'will not be credited.' Neither can be remedied by the tzitz because the Torah has already disqualified them.",
+          "sugyaRole": "By eliminating piggul and notar, the Gemara concludes that the tzitz atones only for tumah. This elimination will drive the argument for hutrah in the next daf."
+        },
+        {
+          "id": "hevei-pikeach-ushtok",
+          "he": "הֱוֵי פִּקֵּחַ וּשְׁתוֹק",
+          "translit": "Hevei pikeach ushток",
+          "en": "Be shrewd and keep silent. A pragmatic instruction to proceed with the impure offering without disclosing its impurity when there is no replacement available. The instruction exists precisely because disclosure would require a replacement - suggesting dchuya is in force.",
+          "sugyaRole": "Appears in both the omer and the bulls/rams/sheep baraitot. Rav Sheshet reads the very existence of this instruction as proving dchuya: you seek a replacement because the prohibition is still operative."
+        }
+      ],
+      "conceptRefs": [
+        "par-helem-davar",
+        "tzitz",
+        "piggul-notar",
+        "hevei-pikeach-ushtok"
+      ],
+      "requiresUnderstanding": [
+        "The hutrah/dchuya framework from 6b",
+        "What makes an offering 'communal' and what makes it 'fixed time'",
+        "The tzitz's atonement function and its limits",
+        "The logical structure of elimination arguments: if not X and not Y, then Z"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Rav Nachman claims that impure communal offerings require no purity at all.",
+          "correction": "Rav Nachman concedes several classes where purity is required: eating-remnant offerings, individual offerings, and communal offerings without a fixed time. His hutrah position applies only to communal offerings with a fixed time where there are no eating-remnants."
+        },
+        {
+          "misconception": "The 'be shrewd and keep silent' instruction supports hutrah - since the impure offering can proceed.",
+          "correction": "Rav Sheshet uses it to argue for dchuya: the priest is told to seek a replacement first. Only when no replacement exists does the impure offering proceed. This is exactly the structure of dchuya: minimize where possible."
+        },
+        {
+          "misconception": "The tzitz can atone for any invalidation of an offering.",
+          "correction": "The Gemara establishes by elimination that the tzitz atones only for tumah. Piggul and notar are excluded by their own pesukim which declare them permanently invalid."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Four-round debate diagram: each row shows Rav Sheshet's proof, the claimed implication (dchuya), and Rav Nachman's specific deflection"
+        },
+        {
+          "type": "sequence",
+          "description": "Rav Nachman's disaggregation of 'bulls, rams, sheep' into three cases: par he'elem davar (no fixed time), Aaron's ram (individual), omer lamb (eating-remnants) - showing why none qualifies as a true communal-fixed-time offering"
+        },
+        {
+          "type": "text",
+          "description": "The tzitz verse (Exodus 28:38) 'And Aaron shall bear the sin of the sacred things' with annotations showing which sins are excluded (piggul - lo yeiratzeh, notar - lo yechashev) and what remains (tumah)"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "Why does Rav Nachman concede that the omer offering must be performed in purity, without that concession counting against his hutrah position?",
+          "answer": "The omer has eating-remnants (the leftover minhah is eaten by priests). The requirement for purity derives from the obligation to eat the remnants in purity - not from the tumas meit rule for communal service.",
+          "distractors": [
+            "The omer is an individual's offering, so dchuya applies",
+            "The omer has no fixed time, so it is not covered by hutrah",
+            "The omer is performed before the opening of the Temple service"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "What three cases does Rav Nachman identify when he disaggregates 'bulls, rams, and sheep' in the meal-offering baraita?",
+          "answer": "Bulls = par he'elem davar (communal idolatry atonement with no fixed time, so dchuya applies). Rams = Aaron's ram on Yom Kippur (an individual's offering, not communal). Sheep = the lamb accompanying the omer (has eating-remnants, so purity is required for that reason)."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "The Gemara concludes that the tzitz atones only for tumah. How is this derived?",
+          "answer": "By elimination: piggul is excluded ('it will not be accepted') and notar is excluded ('it will not be credited') by their own pesukim. The only remaining category that the tzitz verse can address is tumah.",
+          "distractors": [
+            "The verse explicitly says 'and Aaron shall atone for tumah'",
+            "A verbal analogy (gezerah shavah) links the tzitz verse to a tumah verse",
+            "The Sages taught in a baraita that the tzitz was designed for tumah cases"
+          ]
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "advanced",
+      "alternateAngles": [
+        {
+          "angle": "Cumulative concessions and the erosion of hutrah",
+          "text": "Tracking all of Rav Nachman's concessions reveals a hutrah position that applies in a surprisingly narrow domain: only true communal sacrifices with a fixed time and no eating-remnants. One can ask whether any practical case actually fits this narrow description, or whether Rav Nachman has effectively conceded dchuya in all relevant scenarios."
+        }
+      ],
+      "topicTags": [
+        "hutrah-dchuya",
+        "tumas-meit",
+        "tzibbur",
+        "tzitz",
+        "Temple-service",
+        "piggul",
+        "notar",
+        "Rav-Nachman",
+        "Rav-Sheshet"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "פַּר הֶעְלֵם דָּבָר",
+      "translit": "Par he'elem davar",
+      "en": "The bull offered when the entire community has sinned through idolatry based on an erroneous ruling. A communal offering but with no fixed time - brought only when the specific sin occurs. Rav Nachman classifies this as a dchuya case since it lacks a fixed time."
+    },
+    {
+      "he": "צִיץ",
+      "translit": "Tzitz",
+      "en": "The golden frontplate worn by the Kohen Gadol, inscribed with the divine name. It effects acceptance for offerings that became impure. The Gemara establishes it atones only for tumah - not piggul or notar, whose own pesukim declare them permanently invalid."
+    },
+    {
+      "he": "פִּגּוּל",
+      "translit": "Piggul",
+      "en": "An offering invalidated by the intention to eat or sacrifice it outside the permitted time/place. The Torah declares it 'will not be accepted' (lo yeiratzeh) - so the tzitz cannot override this disqualification."
+    },
+    {
+      "he": "נוֹתָר",
+      "translit": "Notar",
+      "en": "Meat of an offering left after the permitted eating time. The Torah declares 'it will not be credited' (lo yechashev) - so the tzitz cannot remedy this disqualification either."
+    },
+    {
+      "he": "הֱוֵי פִּקֵּחַ וּשְׁתוֹק",
+      "translit": "Hevei pikeach ushkok",
+      "en": "Be shrewd and keep silent. The pragmatic instruction to proceed with an impure offering when no replacement is available, without announcing the impurity. Rav Sheshet cites the existence of this instruction as proof of dchuya: the default is to seek a replacement, so the prohibition remains operative."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "All corpse impurity in the tzibbur the Merciful One has permitted: it is written (Numbers 9) 'a man who is impure from a corpse shall make the second Pesach' - an individual is deferred to the second Pesach but the tzibbur is not deferred. But for zavim, metzora'im, niddot, and yoledot whose impurity comes out from their own bodies, it was not permitted. And bo'el niddah is like niddah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "I concede where there are remnants for eating: even though the communal sacrifice is offered in impurity, it is not eaten in impurity as we say in Pesachim (77b). And in a minhah that is konetzet I concede we return to purity so the remnants may be eaten.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "And if there is only one: who was not prepared for this.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "What is it not - bulls and rams and sheep of the Festival: which are communal sacrifices with a fixed time, and their minhot and nesachim override impurity - and the baraita teaches 'they say bring another' - hence dchuya.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Bull for idolatry: a communal burnt offering which requires nesachim as derived in Shelach lecha.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Aaron's ram: of Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The sheep that comes with the omer: as written (Lev. 23) 'and you shall do on the day you wave the omer' - and the 'minhah of sheep' mentioned in the baraita is not the nesech minhah but the omer minhah itself that accompanies it, and it is konetzet and its remnants are eaten.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Intentionally not accepted: even though the tzitz atones, the Sages penalized him so that the flesh not be eaten - but the owners have still atoned so that non-sacred animals not be brought to the Temple courtyard, since by Torah law it is valid. And we hear from this that it is not a heiter (permission).",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "On what does the tzitz atone: it is written 'and Aaron shall bear the sin of the sacred things' - atoning for the owners.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Acceptance/ratzon: this falls under 'intentional' but regarding compulsion 'ratzon' (willful desire) is the appropriate term.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Both for the tzibbur: and since the tzitz is needed to effect acceptance for tzibbur, we learn it is not a heiter.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "When the baraita teaches 'the tzitz atones' it is referring to an individual. And the tzibbur is mentioned in that it is also valid (kasher) - but not through the tzitz, rather it is a heiter for them.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Even if you say it refers to tzibbur as well - and about those offerings that lack a fixed time, for which the prohibition is not deferred, the tzitz atones.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "And Aaron shall bear the sin of the sacred things - and which sin does he bear? If the sin of piggul - it already says 'it shall not be accepted' - no acceptance is found for it.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "And if the sin of notar - it already says 'it shall not be credited' - and we explained this in Zevachim: the third day refers to outside its place (chutaz li-mekomo) - 'it shall not be accepted.' And if the sin of notar - one who intended at slaughter to eat it outside its time - 'the one who offers it shall not be credited,' and we explained it in Zevachim as outside its time (chutz li-zmano).",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Therefore (the tzitz atones only for tumah - continues on 7b).",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Ratzon here means it is within the category of 'intentional' - but for compulsion 'ratzon' (desire) is the term used.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Both for the tzibbur: since the tzitz must effect acceptance - we hear it is not hutrah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "When the baraita teaches 'the tzitz atones' it refers to the individual. And tzibbur is mentioned only to say it too is kasher - but not through the tzitz; rather it is hutrah for them.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Even if you say it also refers to tzibbur - it refers to those offerings that have no fixed time, for which dchuya applies, and the tzitz atones for them.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The text reads: if the sin of piggul - already stated 'lo yeiratzeh' - and if the sin of notar - already stated 'lo yechashev.' And this is its explanation: which sin occurs in a sacrifice that the tzitz can atone for to make it valid? If the sin of piggul (intention outside its place) - it is already stated 'piggul hu lo yeiratzeh.' And we explained this as 'outside its place' in Zevachim (28a). And if notar - one who intended at slaughter to eat it outside its time - 'the one who offers it lo yechashev' - explained in Zevachim as 'outside its time.'",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "And therefore: what sin is there left that the tzitz can atone for to make it valid? Only tumah. And we hear: since it says 'ratzon' - it atones for tumah. And regarding Rav Sheshet's challenge: in the tzibbur it would be unnecessary for the tzitz - the answer is: for tzibbur, even tumah is hutrah, so the tzitz is not needed for tzibbur at all.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "There (stub - continues on 7b with what the tzitz does atone for).",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l30"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "All corpse impurity for the tzibbur the Merciful One has permitted.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "I concede where there are remnants for eating - the omer has remnants eaten by priests.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "What - is it not the bulls/rams/sheep of the Festival which are communal fixed-time sacrifices?",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Bull for idolatry - communal offering but no fixed time so we still search for purity.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Aaron's ram - Yom Kippur individual offering.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Sheep with the omer - eating remnants apply.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Intentionally not accepted: Sages penalized but atonement still occurs for the owners.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "On what the tzitz atones: written 'Aaron shall bear the sin of the sacred things.'",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Both for individual and tzibbur: and since tzitz is needed for tzibbur - hence not hutrah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The tzitz baraita refers to an individual - tzibbur is included only to say it is kasher, not via tzitz but via hutrah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Or even for tzibbur: but only for non-fixed-time communal offerings where dchuya still applies.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "If piggul sin - already said 'it shall not be accepted': piggul is outside its place.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "If notar sin - already said 'it shall not be credited': notar is eating after its time.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "So what sin does the tzitz atone for? Only tumah. This is derived here to refute: why would the tzitz be needed for the tzibbur? Because for the tzibbur tumah is hutrah - the tzitz is not needed for tzibbur at all; the listing refers only to individuals.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The text reads as follows: if the sin of piggul - already stated 'it will not be accepted.' If the sin of notar - already stated 'it will not be credited.' So what remains? Only tumah. Hence 'ratzon' - the tzitz effects acceptance only for tumah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Regarding the tzibbur: since we said tumah is hutrah for the tzibbur, the tzitz is entirely irrelevant for communal offerings - they need no tzitz to effect acceptance.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Between the individual and the tzibbur: the individual cannot have his bodily impurity overridden - the tzitz does not atone for bodily impurity of an individual. But for the tzibbur, bodily impurity is overridden for them - not through the tzitz but because it is hutrah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Though the flesh rises for them in the tzibbur - and the tzitz atones for the impure flesh and blood - we hear from this that bodily impurity which is overridden for them (dchuya) - wherever possible we return to purity.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "When the baraita teaches 'the tzitz atones' - it refers to the individual. And tzibbur is mentioned to say it too is kasher - but not through tzitz, rather through hutrah.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "If you wish say: even for tzibbur - and in those offerings that have no fixed time for which dchuya applies, the tzitz atones.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The text reads: if piggul sin - already stated 'lo yeiratzeh.' If notar sin - already stated 'lo yechashev.' And this is the explanation: what sin arises in a sacrifice that the tzitz can atone for to make it valid?",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "If piggul - the sin of intention outside its place - already stated 'piggul hu lo yeiratzeh' - no acceptance is found for it.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "And we established in Zevachim: the third day - that is 'outside its place' - is the piggul verse. And outside its time: 'he who offers it lo yechashev' - we established that as 'outside its time.'",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Therefore what sin is left? Only tumah - and the tzitz effects acceptance for it.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "For the tzibbur where tumah is hutrah - the tzitz is not needed at all; the baraita's mention of tzibbur means only that it too is kasher without the tzitz.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Between individual and tzibbur: individual - his bodily impurity is not overridden, and the tzitz does not atone for bodily impurity. Tzibbur - their bodily impurity is overridden, not through the tzitz.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Since the flesh rises for them in the tzibbur and the tzitz must atone for flesh/blood/fat impurity - we hear that bodily impurity which is overridden (dchuya) - wherever possible we return to purity.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l26"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "The tzitz atones for the individual: meaning the baraita's mention of tzitz applies to the individual; the tzibbur is mentioned to say it is kasher but via hutrah, not tzitz.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Even for the tzibbur - those without fixed time - where dchuya still applies and the tzitz atones for them.",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l23"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "This (stub - continues on 7b with the full resolution of what the tzitz atones for).",
+      "linkedGemaraLineIds": [
+        "yoma-007a-l30"
+      ]
+    }
+  ]
+}
