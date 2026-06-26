@@ -1,0 +1,852 @@
+{
+  "canonicalRef": "Yoma 69a",
+  "summary": "Priestly vestments between service sessions: sleep requires new immersion; no me'ilah for reading Torah in vestments. Four-step handoff of the Torah scroll to the HP. HP stood on a bimah for the reading.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-069a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 26
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.69a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.69a.2"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.69a.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.69a.4"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.69a.5"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.69a.6"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.69a.7"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.69a.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69a.1",
+        "Yoma.69a.2",
+        "Yoma.69a.3",
+        "Yoma.69a.4",
+        "Yoma.69a.5",
+        "Yoma.69a.6",
+        "Yoma.69a.7",
+        "Yoma.69a.8"
+      ],
+      "display": {
+        "whats": "The HP was kept awake the night before Yom Kippur. The Gemara discusses: could he sleep in the priestly vestments, and does sleeping in them constitute me'ilah (misuse of sacred property)? The conclusion: he may use them - placing them under his head is permitted, and sleep is the key distinction for requiring immersion.",
+        "hint": "Why does sleeping in the vestments matter more than simply wearing them between service sessions?"
+      },
+      "learning": {
+        "summary": "The Gemara continues from the previous discussion about priestly vestments and immersion requirements. It establishes that the HP may place his vestments near/under his head when resting - there is no me'ilah concern because the vestments are given for honor and use. Sleep is the critical factor: if he sleeps in them, he needs a new immersion before continuing service. The shatnez (mixed fiber) question is also addressed regarding the HP's belt.",
+        "ahaMoment": "The ruling that the HP may place the vestments near his head when sleeping shows that 'me'ilah' (misuse of sacred items) does not apply to vestments - they are given for use, and using them is the purpose, not misuse.",
+        "memoryAnchor": "Sleep = new immersion needed. Vestments under the head = permitted, no me'ilah.",
+        "openQuestion": "Why is sleep the dividing line for requiring a new immersion rather than simply the passage of time?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069a-l01",
+          "type": "ruling",
+          "label": "Ruling: Sleep requires new immersion; placing vestments nearby permitted",
+          "speaker": "Gemara",
+          "text": "Sleep is the key factor requiring new immersion before service. Placing vestments near his head when sleeping is permitted - no me'ilah concern.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l02",
+          "type": "ruling",
+          "label": "Ruling: No concern for passing wind while vestments are near",
+          "speaker": "Gemara",
+          "text": "Since he may place vestments near him when sleeping, he is not concerned that he might pass wind (which would disqualify tefillin but not vestments placed nearby).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l03",
+          "type": "ruling",
+          "label": "Ruling: HP's belt on YK is linen - no shatnez concern",
+          "speaker": "Gemara",
+          "text": "According to the opinion that the HP's belt on Yom Kippur is pure linen (not mixed), the ordinary priest's belt is also linen and there is no shatnez concern in the vestments.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l03",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l04",
+          "type": "ruling",
+          "label": "Ruling: Difficulty - ordinary priest's belt may contain shatnez",
+          "speaker": "Gemara",
+          "text": "If the ordinary priest's belt all year contains mixed fibers, there is a difficulty for those who sleep with vestments nearby.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l04",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l05",
+          "type": "ruling",
+          "label": "Ruling: Felt is hard and does not warm - no shatnez",
+          "speaker": "Gemara",
+          "text": "Felt fabric is hard and does not warm the body - shatnez applies only to clothing that warms. Therefore felt garments are exempt from shatnez.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l05",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l06",
+          "type": "ruling",
+          "label": "Ruling: Samaritans at Mount Gerizim - a time to act for Hashem",
+          "speaker": "Gemara",
+          "text": "The principle 'a time to act for Hashem, suspend the Torah' is invoked regarding the Samaritans at Mount Gerizim - sometimes emergency action requires suspension of normal rules.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l06",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l07",
+          "type": "ruling",
+          "label": "Ruling: Sitting before HP permitted for specific officeholders",
+          "speaker": "Gemara",
+          "text": "The synagogue head and the deputy HP may sit in the HP's presence - to show him there is authority below him. This does not diminish his honor.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l07",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l08",
+          "type": "ruling",
+          "label": "Ruling: All seating arrangements are for the HP's honor",
+          "speaker": "Gemara",
+          "text": "These arrangements - where certain officials may sit in the HP's presence - exist entirely for the HP's honor, showing him the hierarchy of authority beneath him.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l08",
+              "vilnaLine": 25
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "priestly-vestments",
+        "sleep-immersion",
+        "me'ilah",
+        "shatnez",
+        "honor-of-HP"
+      ],
+      "concepts": {
+        "halachic": [
+          "sleep requires new immersion before service",
+          "me'ilah does not apply to vestment use",
+          "shatnez in priestly garments discussion",
+          "sitting before the HP permitted for specific officials"
+        ],
+        "theological": [
+          "priestly vestments as instruments of service, not hoarded sacred objects"
+        ],
+        "narrative": [
+          "the night before Yom Kippur - HP kept awake"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "me'ilah laws",
+        "shatnez prohibition",
+        "HP's five immersions and ten sanctifications"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Placing vestments near one's head while sleeping constitutes me'ilah",
+          "correction": "The vestments are given for use and service - placing them nearby for safekeeping is not misuse. Only sleep itself (not proximity to vestments) triggers the immersion requirement.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Awake HP (vestments worn, no immersion needed) vs sleeping HP (must immerse before resuming service)",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why is sleep the critical factor requiring a new immersion for the HP on Yom Kippur?",
+          "answer": "Sleep creates a complete interruption of consciousness and service readiness. Waking from sleep is treated as a new beginning, requiring fresh ritual preparation before resuming Temple service.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "If the HP sleeps between service sessions, he requires a new immersion before continuing. Placing vestments near his head when sleeping is permitted and does not constitute me'ilah.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-069a-s02",
+      "lineRange": {
+        "startVilnaLine": 27,
+        "endVilnaLine": 41
+      },
+      "lines": [
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.69a.9"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.69a.10"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.69a.11"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.69a.12"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.69a.13"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.69a.14"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69a.9",
+        "Yoma.69a.10",
+        "Yoma.69a.11",
+        "Yoma.69a.12",
+        "Yoma.69a.13",
+        "Yoma.69a.14"
+      ],
+      "display": {
+        "whats": "The HP read the Torah in his priestly vestments. The Gemara discusses whether doing so constitutes me'ilah in the vestments and what garments are appropriate. Also: which vestments specifically - the golden or white linen - are worn for the Torah reading.",
+        "hint": "Why might reading Torah in the priestly vestments be considered me'ilah?"
+      },
+      "learning": {
+        "summary": "The Gemara analyzes whether the HP's Torah reading in priestly vestments constitutes me'ilah (misuse of sacred property). The conclusion: the vestments were given for use - wearing them for the reading is their intended use. The Gemara also addresses which specific vestments are worn and how they relate to the subsequent immersion.",
+        "ahaMoment": "Me'ilah requires benefiting from sacred property in an unintended way. Since the vestments are designed to be worn by the HP during his official functions - including the Torah reading - wearing them is not me'ilah but exactly their purpose.",
+        "memoryAnchor": "Torah reading in vestments = proper use, not me'ilah. The vestments are for the HP to wear.",
+        "openQuestion": "At what point does using sacred items cross from appropriate use into me'ilah?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069a-l09",
+          "type": "ruling",
+          "label": "Ruling: HP reads Torah in white linen or personal white garments",
+          "speaker": "Mishnah",
+          "text": "The HP reads the Torah either in the white linen priestly vestments or in his own personal white garments worth twelve mina.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l09",
+              "vilnaLine": 27
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l10",
+          "type": "question",
+          "label": "Question: Is reading in vestments me'ilah?",
+          "speaker": "Gemara",
+          "text": "Is using the sacred priestly vestments for the Torah reading an act of me'ilah (unintended use of sacred property)?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l10",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l11",
+          "type": "ruling",
+          "label": "Ruling: No me'ilah - vestments given for use",
+          "speaker": "Gemara",
+          "text": "No me'ilah - the vestments were given for the HP's use in his official functions. The Torah reading is an official function; wearing them is their intended purpose.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l11",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l12",
+          "type": "ruling",
+          "label": "Ruling: He may read in personal white garments worth 12 mina",
+          "speaker": "Gemara",
+          "text": "The alternative is personal white garments of his own worth twelve mina of fine linen - these are not sacred property and involve no me'ilah question.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l12",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l13",
+          "type": "ruling",
+          "label": "Ruling: The vestments were given to use, not to hoard",
+          "speaker": "Gemara",
+          "text": "Sacred vestments are given for use, not to be hoarded. Permitting them for the Torah reading reflects this principle.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l13",
+              "vilnaLine": 38
+            }
+          ]
+        },
+        {
+          "id": "yoma-069a-l14",
+          "type": "ruling",
+          "label": "Ruling: After reading, he rolls the scroll and recites blessings",
+          "speaker": "Mishnah",
+          "text": "After reading, he rolled up the Torah scroll and held it pressed to his chest, declaring 'more than what I have read before you is written here.'",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l14",
+              "vilnaLine": 41
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "me'ilah",
+        "priestly-vestments",
+        "torah-reading",
+        "yom-kippur-service"
+      ],
+      "concepts": {
+        "halachic": [
+          "me'ilah analysis of vestment use",
+          "personal vs sacred garments for reading",
+          "rolling the Torah after reading"
+        ],
+        "theological": [
+          "vestments as tools of service, not hoarded kedushah"
+        ],
+        "narrative": [
+          "HP holding rolled Torah to his chest after reading"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "me'ilah laws (Lev. 5)",
+        "HP's white linen vestments on Yom Kippur"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any use of sacred vestments outside the Temple service constitutes me'ilah",
+          "correction": "Me'ilah applies when sacred items are used for purposes outside their intended function. The HP's Torah reading is an official function - wearing the vestments for it is their intended use.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "HP in white linen holding a Torah scroll rolled to his chest, declaring 'more is written here'",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why does wearing priestly vestments for the Torah reading not constitute me'ilah?",
+          "answer": "The vestments were given for the HP's use in his official functions. The Torah reading is an official part of the Yom Kippur service - wearing them for it is their intended purpose, not misuse.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Reading Torah in priestly vestments does not constitute me'ilah - they are given for use. He may also read in his own personal white garments worth twelve mina.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-069a-s03",
+      "lineRange": {
+        "startVilnaLine": 42,
+        "endVilnaLine": 43
+      },
+      "lines": [
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.69a.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69a.15"
+      ],
+      "display": {
+        "whats": "The chazan (synagogue attendant) took the Torah scroll from the ark and gave it to the head of the synagogue, who gave it to the deputy HP, who gave it to the HP - a formal chain of handoffs to honor the HP.",
+        "hint": "Why was the scroll passed through multiple hands rather than given directly to the HP?"
+      },
+      "learning": {
+        "summary": "The Torah scroll was passed through a chain of handoffs: from the chazan to the rosh ha-knesset (synagogue head), to the segan (deputy HP), to the HP himself. This protocol maximized the public honor accorded to the HP at the moment he was about to read before the assembled people.",
+        "ahaMoment": "The elaborate handoff protocol is a form of public honoring - each delegation increasing the dignity of the final recipient. The HP receives the scroll from the deputy, the second-highest Temple official, making his receipt maximally honorable.",
+        "memoryAnchor": "Chazan to head to deputy to HP - four hands, maximum honor.",
+        "openQuestion": "Why was it specifically the deputy HP who made the final handoff rather than the chazan or the rosh ha-knesset?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069a-l15",
+          "type": "ruling",
+          "label": "Ruling: Four-step handoff chain for the Torah scroll",
+          "speaker": "Mishnah",
+          "text": "The chazan handed the scroll to the rosh ha-knesset; the rosh ha-knesset to the segan (deputy HP); the segan to the HP. A formal chain of honor.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l15",
+              "vilnaLine": 42
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "torah-reading",
+        "honor-of-HP",
+        "synagogue-officials",
+        "protocol"
+      ],
+      "concepts": {
+        "halachic": [
+          "formal handoff protocol for Torah scroll",
+          "roles of chazan, rosh ha-knesset, segan"
+        ],
+        "theological": [
+          "maximizing honor through formal delegation chains"
+        ],
+        "narrative": [
+          "the moment the HP receives the Torah scroll to read to the congregation"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "structure of Temple-era synagogue",
+        "segan's role as deputy HP"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The chazan gave the scroll directly to the HP",
+          "correction": "The scroll passed through four hands: chazan, rosh ha-knesset, segan, then HP - each step honoring the HP's elevated position.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Four-step chain: chazan hands scroll to synagogue head, to segan, to HP",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Through how many hands did the Torah scroll pass before reaching the HP for the Yom Kippur reading?",
+          "answer": "Four hands: from the chazan to the rosh ha-knesset, to the segan (deputy HP), and finally to the HP himself.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The Torah scroll was passed from the chazan to the rosh ha-knesset to the segan to the HP - a formal protocol of honor.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-069a-s04",
+      "lineRange": {
+        "startVilnaLine": 44,
+        "endVilnaLine": 46
+      },
+      "lines": [
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.69a.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.69a.16"
+      ],
+      "display": {
+        "whats": "The HP stood on a raised platform (bimah) to read the Torah, so the congregation could see and hear him.",
+        "hint": "What does the bimah represent in terms of the HP's role as teacher and leader of the nation?"
+      },
+      "learning": {
+        "summary": "The HP stood on a raised bimah (platform) for the Torah reading so the assembled congregation in the Temple courtyard could see him. This parallels the biblical description of Ezra's Torah reading where he also stood on a raised platform before the assembled nation.",
+        "ahaMoment": "The Yom Kippur Torah reading was a national event, not a private priestly ritual. The HP served here not just as a priest but as the nation's teacher - which is why the bimah (normally a teaching platform) was central.",
+        "memoryAnchor": "HP on the bimah - the priest becomes the teacher for one day a year.",
+        "openQuestion": "How does the Yom Kippur Torah reading compare to Ezra's national Torah reading in Nehemiah 8?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-069a-l16",
+          "type": "ruling",
+          "label": "Ruling: HP stood on a bimah to read",
+          "speaker": "Mishnah",
+          "text": "The HP stood on a raised bimah (platform) for the Torah reading so all assembled could see and hear him.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-069a-l16",
+              "vilnaLine": 44
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "torah-reading",
+        "bimah",
+        "honor-of-HP",
+        "public-ceremony"
+      ],
+      "concepts": {
+        "halachic": [
+          "bimah requirement for HP's reading"
+        ],
+        "theological": [
+          "HP as national teacher on Yom Kippur"
+        ],
+        "narrative": [
+          "HP visible to all assembled on the bimah"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "bimah as teaching platform",
+        "Ezra's Torah reading (Neh. 8)"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP read Torah quietly in the Temple precincts",
+          "correction": "He read from a raised platform so the entire assembled congregation could see and hear him - it was a public national reading.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "HP in white vestments standing on a raised bimah before the assembled congregation in the Temple courtyard",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why did the HP stand on a bimah for the Yom Kippur Torah reading?",
+          "answer": "So the assembled congregation could see and hear him - the reading was a public national ceremony, not a private priestly act.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP stood on a raised bimah for the Torah reading so all assembled could see him.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "וסיפא איצטריך ליה. שינה דנקט משום דבעי לאשמועינן שמותר",
+      "en": "And the latter clause was needed - 'sleep' is mentioned because it needs to teach that it is permitted to place them under his head; and we do not care if he passes wind after removing them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "ליתנן תחת ראשיהן ותו לא איכפת לן אם יפיח מאחר שפושטן:",
+      "en": "Against his head - near his head.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "כנגד ראשיהן. אצל ראשיהן: שמע מיניה. מדמותר להניחן אצלו",
+      "en": "Learn from this - since he is permitted to place them near him, he is not concerned that he might pass wind.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "לא חייש לשמא יפיח: תפילין מן הצד. להניחן אצלו כשהוא ישן:",
+      "en": "Tefillin from the side - to place them near him when he sleeps.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "הניחא. האי דלא חייש לכלאים למאן",
+      "en": "This works well - the reason he is not concerned about shatnez (mixed fibers) is according to the one who says.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "דאמר אבנטו של כהן גדול ביום",
+      "en": "That the HP's belt on Yom Kippur, which is of linen, is the same as the ordinary priest's belt all year round.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "הכפורים שהוא של בוץ זהו אבנטו",
+      "en": "And there is no shatnez in an ordinary priest's vestments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "של הדיוט כל ימות השנה ואין כלאים",
+      "en": "That the ordinary priest's garments all year are of shatnez.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "בבגדי כהן הדיוט שפיר: לא זהו וכו'.",
+      "en": "It is difficult - if the ordinary priest's belt is of shatnez all year.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "דשל הדיוט כל השנה של כלאים:",
+      "en": "Hard they are - and do not warm; therefore they do not constitute shatnez (since shatnez is about warmth).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "קשים הם. ואינן מחממין לפיכך אין",
+      "en": "Namta - felt. In the vernacular: palteira.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "בהן משום כלאים: נמטא. לבד",
+      "en": "Gamda - hard.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "פלטר\"א בלע\"ז: גמדא. קשה: שרי.",
+      "en": "It is permitted - there is no shatnez in it, because the prohibition of wearing applies to clothing that provides warmth.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "אין בו משום כלאים דהעלאה דומיא",
+      "en": "And it is forbidden only when it gives warmth.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "דלבישה דאית בה הנאת חימום הוא",
+      "en": "In the provinces it is forbidden - because it is worn in a mundane manner.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "דאיתסר: למדינה אסור. שנוהג",
+      "en": "Mount Gerizim - the place where the Samaritans (Kutim) dwelt.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "בה דרך חול: הר גריזים. מקום",
+      "en": "A time to act for Hashem - when the time comes to do something for God's sake.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "מושבן של כותים: עת לעשות לה'.",
+      "en": "It is permitted to suspend Torah law.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "כשבא עת לעשות דבר לשמו של מקום",
+      "en": "To a student in the presence of the master - the synagogue head and the deputy HP may sit in the HP's presence without it diminishing honor of the master.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "מותר להפר בו תורה: לתלמיד",
+      "en": "Because all this is for the honor of the HP - showing him that there is much authority below him; but generally one does not grant such honor.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "במקום הרב. לראש הכנסת ולסגן",
+      "en": "All of this is for the honor of the HP.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "בפני כהן גדול ואינו כממעט כבוד",
+      "en": "Showing him that there are many ranks of authority beneath him - but generally one does not differentiate.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "הרב: כולה משום כבודו דכהן גדול.",
+      "en": "Showing him that many ranks are below him, but generally no differentiation is made.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "מראין אותו שיש שררות הרבה למטה",
+      "en": "All is for the HP's honor.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ממנו אבל בעלמא אין חולקין:",
+      "en": "To show him that there are many ranks of authority beneath him.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "אין",
+      "en": "There is no.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

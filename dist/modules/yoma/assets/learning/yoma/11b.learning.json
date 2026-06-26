@@ -1,0 +1,570 @@
+{
+  "daf": "11b",
+  "canonicalRef": "Yoma 11b",
+  "summary": "11b concludes the baraita about which structures require a mezuza: gatehouses, porticos and balconies are excluded (not for dwelling); bathrooms, tanneries, bathhouses and mikvaot are excluded (not designed for honor); Temple Mount, chambers and courtyards are excluded (sacred, not mundane) - a decisive refutation of Rav Yehuda. A second tannaitic dispute lists six (actually seven) gate types that are exempt, including the Median gate (a domed arch), subject to a dispute between R. Meir and the Rabbis about whether theoretical enlargement completes a measurement. The daf then establishes that synagogue, woman's house and partners' house all require a mezuza and are susceptible to tzaraat, resolving an apparent contradiction between two baraitot by distinguishing synagogues with caretakers' residences from those without.",
+  "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-011b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 7
+      },
+      "lines": [
+        { "vilnaLine": 1, "sefariaRef": "Yoma.11b.1" },
+        { "vilnaLine": 3, "sefariaRef": "Yoma.11b.2" },
+        { "vilnaLine": 7, "sefariaRef": "Yoma.11b.3" }
+      ],
+      "display": {
+        "title": "Concluding the baraita - three reasons for exemption",
+        "oneLine": "The baraita concludes with three categories of mezuza-exempt structures: not-for-dwelling, not-for-honor, and sacred but non-residential.",
+        "shortSummary": "The baraita lists three grounds for mezuza exemption. First: gatehouse, portico, and balcony are exempt because they are not designated as dwellings - people pass through or rest there but do not live there. Second: bathroom, tannery, bathhouse, and mikveh are exempt because they lack the quality of honor (kavod) that a mezuza requires - undressing or undignified work makes the space inappropriate for the sacred text. Third: Temple Mount, Temple chambers and courtyards are exempt because they are sacred but not mundane residences. This third category is a definitive refutation of Rav Yehuda's position that the Parhedrin chamber mezuza was a Torah obligation.",
+        "whats": "The baraita that was cut off at the end of 11a now concludes on 11b. Three exclusion principles from the word 'house': (1) not designated for dwelling (gatehouse, portico, balcony); (2) not designed for honor (bathroom, tannery, bathhouse, mikveh); (3) sacred-but-not-residential (Temple precinct). The third is the decisive refutation of Rav Yehuda's claim that the Parhedrin chamber required a Torah-level mezuza.",
+        "hint": "The Gemara builds its list of exemptions by repeated application of the same verse - each time drawing a different inference from the word 'house.' The sacred/mundane distinction is the most unexpected: one might think a holier space deserves a mezuza, but sanctity and residential character are different categories."
+      },
+      "learning": {
+        "learnerQuestion": "Why would the Temple Mount - the holiest place in the world - be exempt from mezuza? Shouldn't holier places have more, not fewer, religious obligations?",
+        "coreTension": "Mezuza marks a domestic residence, not a sacred site. The Temple Mount is sacred (kodesh) not residential (dirat adam). These are different halakhic categories: domestic sanctity vs. Temple sanctity. The mezuza belongs in the first category, not the second.",
+        "coreMove": "The Gemara identifies three distinct reasons for exemption (not-dwelling, not-honor, not-mundane-residential), showing that mezuza obligation is multi-conditional: a space must be (1) used as a dwelling, (2) used with dignity, and (3) not a sacred precinct reserved for Temple service.",
+        "resolution": "The three-part framework is established. The Temple Mount/chamber exemption definitively answers the question of the Parhedrin chamber: since the whole Temple is categorically exempt, the Parhedrin chamber's mezuza must be rabbinic only. This confirms the Sages' position against Rav Yehuda.",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "A mezuza marks a human home, not divine space. The Temple's exemption from mezuza reveals that mezuza is a domestic institution - it belongs where people live, not where God is formally served. This is why the KG's personal chamber required a special decree: the Temple setting normally exempts everything there from mezuza."
+        },
+        "reasoningPattern": {
+          "id": "multi-condition-exemption",
+          "category": "halakhic condition analysis",
+          "notes": "Mezuza requires three positive conditions (dwelling, honor, mundane-residential). The baraita systematically eliminates structures that fail one of these three tests, building a complete framework for mezuza eligibility."
+        },
+        "ahaMoment": "The Temple exemption is the most counterintuitive: holier = less mezuza obligation, not more. This reveals a deep halakhic principle: domestic law and Temple law operate in different categories. The mezuza tracks the human household, not divine service.",
+        "learningBlocker": "Students may confuse 'exempt from mezuza' with 'less holy' or 'not important.' The Temple's exemption has nothing to do with its holiness - it is exempt because it is a sacred precinct, not a domestic residence, and mezuza is specifically a domestic institution.",
+        "memoryAnchor": "Three exemptions, three reasons: (1) Gatehouse - you pass through, not live in. (2) Bathroom - undressing, no kavod. (3) Temple Mount - sacred but not your house. The third is the knockout punch against Rav Yehuda's Torah-level claim."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "assertion",
+          "label": "Exemption 1: not-dwelling structures",
+          "speaker": "Baraita",
+          "text": "Gatehouse, portico, and balcony are exempt from mezuza because they are not designated as dwellings. People may pass through or rest there, but these spaces are not someone's home.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l01", "vilnaLine": 1, "note": "First exemption category: structures not used as dwellings" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "assertion",
+          "label": "Exemption 2: structures lacking honor",
+          "speaker": "Baraita",
+          "text": "Bathroom, tannery, bathhouse, and mikveh are exempt because these spaces lack the quality of kavod (honor/dignity) that makes a space appropriate for a mezuza containing the Shema.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l03", "vilnaLine": 3, "note": "Second exemption category: undignified spaces" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Exemption 3: Temple precinct - refutation of Rav Yehuda",
+          "speaker": "Baraita",
+          "text": "Temple Mount, chambers, and courtyards are exempt because they are sacred (kodesh) rather than mundane residential space. This is the decisive refutation of Rav Yehuda: the whole Temple precinct is categorically exempt, so the Parhedrin chamber's mezuza must be only rabbinic.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l07", "vilnaLine": 7, "note": "Third exemption - refutation of Rav Yehuda's Torah-level claim" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "exemptions", "Temple", "kavod", "R. Yehuda refutation"],
+      "concepts": [
+        {
+          "he": "דִּירַת כָּבוֹד",
+          "translit": "Dirat kavod",
+          "definition": "A dwelling of honor - one of the positive conditions for mezuza obligation. Structures used for undignified purposes (bathrooms, tanneries) fail this test and are exempt even if people are regularly present."
+        },
+        {
+          "he": "בֵּית שַׁעַר",
+          "translit": "Beit sha'ar",
+          "definition": "Gatehouse - a small structure at the entrance to a courtyard. Exempt from mezuza because it is a passageway, not a dwelling, even though people regularly pass through it."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
+        "Why sacred Temple space is categorically different from domestic space",
+        "Rav Yehuda's position that the Parhedrin chamber mezuza was Torah-level"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Temple's exemption from mezuza means it is less holy than an ordinary home.",
+          "correction": "The opposite: the Temple is exempt because it is too sacred to be classified as an ordinary domestic residence. Mezuza is a domestic institution that marks human habitation, not divine service."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Three-column diagram: not-dwelling, not-honor, not-mundane-residential structures",
+        "Temple Mount with 'no mezuza' label - counterintuitive holiness/obligation relationship"
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is a bathroom exempt from mezuza even though people regularly use it?",
+          "a": "Because it lacks the quality of kavod (honor/dignity) required for a mezuza. Undressing and using the bathroom makes the space inappropriate for a sacred text containing the Shema."
+        },
+        {
+          "q": "How does the baraita's third exemption category (Temple Mount and chambers) refute Rav Yehuda?",
+          "a": "Since the entire Temple precinct is categorically exempt from mezuza as sacred (not residential) space, the Parhedrin chamber's mezuza cannot be a Torah obligation. It must be only a rabbinic decree - confirming the Sages' position."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11b.1", "Yoma.11b.2", "Yoma.11b.3"],
+      "review": "ai_generated"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-011b-s02",
+      "lineRange": {
+        "startVilnaLine": 10,
+        "endVilnaLine": 21
+      },
+      "lines": [
+        { "vilnaLine": 10, "sefariaRef": "Yoma.11b.4" },
+        { "vilnaLine": 15, "sefariaRef": "Yoma.11b.5" },
+        { "vilnaLine": 21, "sefariaRef": "Yoma.11b.6" }
+      ],
+      "display": {
+        "title": "Six gates exempt - the Median gate and the dome dispute",
+        "oneLine": "Rav Shmuel bar Yehuda lists six (actually seven) gate types exempt from mezuza, with the Median domed-arch gate generating a dispute between R. Meir and the Rabbis about whether theoretical enlargement counts.",
+        "shortSummary": "Rav Shmuel bar Yehuda states six types of gates are exempt from mezuza. But his list actually contains seven - the seventh is the Median gate (sha'ar Madi), which is a domed arch without proper doorposts. Rava explains the Median gate involves a tannaitic dispute: R. Meir holds that if you could theoretically carve the arch to create proper doorposts of the required dimension, treat it as if they already exist (chokkein lehashlem - theoretical completion). The Rabbis disagree: you cannot use theoretical future action to fulfill present requirements.",
+        "whats": "Rav Shmuel bar Yehuda claims six gates are exempt, but actually lists seven - the fourth is the Median gate (a domed arch with no doorposts). Rava explains: the Median gate is a tannaitic dispute between R. Meir (theoretical enlargement counts) and the Rabbis (it does not). R. Meir's principle of chokkein lehashlem appears elsewhere and is one of his distinctive rulings.",
+        "hint": "Chokkein lehashlem (theoretical completion) is one of R. Meir's distinctive rulings: if a space could be enlarged to meet the required measurement, treat it as if it already meets it. The Rabbis disagree. This principle appears in multiple halakhic contexts wherever minimum dimensions matter."
+      },
+      "learning": {
+        "learnerQuestion": "What makes a gate a real 'gate' for mezuza purposes? And what is the Median gate's architectural problem?",
+        "coreTension": "A domed arch (like the Median gate) has no doorposts - it is a curved opening rather than a rectangular frame with sideposts. The question is whether the curved stone, which could theoretically be carved to create proper doorposts, counts as having doorposts now. R. Meir says yes; the Rabbis say no.",
+        "coreMove": "R. Meir's chokkein lehashlem principle: potential or theoretical compliance with a dimensional requirement is treated as actual compliance. This is a legal fiction that the Rabbis reject - for them, what exists currently matters, not what could theoretically be made.",
+        "resolution": "The dispute is unresolved - both R. Meir's and the Rabbis' positions are preserved. In practice, the Median gate is treated as exempt by most (since the Rabbis are the majority view against R. Meir on this).",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Halakhic dimensional requirements are assessed based on the current reality, not on what could theoretically be made. R. Meir's dissenting position (theoretical completion counts) is a significant minority view preserved for its principled basis."
+        },
+        "reasoningPattern": {
+          "id": "chokkein-lehashlem",
+          "category": "legal fiction / theoretical completion",
+          "notes": "R. Meir applies a consistent principle across multiple contexts: theoretical compliance with a minimum satisfies the current requirement. The Rabbis consistently reject this because they require actual current compliance."
+        },
+        "ahaMoment": "The Median gate illustrates that architectural form (arch vs. rectangle) has direct halakhic consequences. A domed entry that is visually impressive may have no mezuza obligation at all because it lacks the physical structure (doorposts) that mezuza requires.",
+        "learningBlocker": "Students may think the dispute is about measuring existing stones. It is about a theoretical action: could you carve the dome to create doorposts? R. Meir says that possibility changes the current status; the Rabbis say only actual existing doorposts matter.",
+        "memoryAnchor": "Six gates, but really seven. The seventh is the dome - no doorposts, can't put a mezuza. R. Meir: carve it and it's as if it already has doorposts. Rabbis: not yet built = not yet counted."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "assertion",
+          "label": "Rav Shmuel bar Yehuda: six gate types exempt",
+          "speaker": "Rav Shmuel bar Yehuda",
+          "text": "Six types of gates are exempt from mezuza. The list is given - but a careful count shows seven types.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l10", "vilnaLine": 10, "note": "The six (actually seven) gate types" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "question",
+          "label": "Why does the list have seven items, not six?",
+          "speaker": "Gemara",
+          "text": "Rava explains: the Median gate (sha'ar Madi, a domed arch) is a tannaitic dispute. When the list says 'six,' it excludes the Median gate because it is subject to R. Meir vs. Rabbis disagreement - one tanna exempts it, the other does not.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l15", "vilnaLine": 15, "note": "Rava's explanation of the six vs. seven discrepancy" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "dispute",
+          "label": "R. Meir vs. Rabbis: chokkein lehashlem",
+          "speaker": "R. Meir / Rabbis",
+          "text": "The Median gate is a domed arch with no doorposts. R. Meir: if you could theoretically carve the arch to create standard doorposts of the required dimension, it is as if they already exist (chokkein lehashlem). The Rabbis: theoretical future action does not create present halakhic status.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l21", "vilnaLine": 21, "note": "The chokkein lehashlem dispute - R. Meir's distinctive principle" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "gates", "Median gate", "chokkein lehashlem", "R. Meir"],
+      "concepts": [
+        {
+          "he": "חוֹקְקִין לְהַשְׁלִים",
+          "translit": "Chokkein lehashlem",
+          "definition": "Theoretical completion - R. Meir's principle that if a space could be carved or enlarged to meet a minimum measurement, treat it as if it already meets that measurement. The Rabbis reject this principle."
+        },
+        {
+          "he": "שַׁעַר הַמָּדִי",
+          "translit": "Sha'ar haMadi",
+          "definition": "The Median gate - a domed arch style of entry (common in Media/Persia) that has no proper doorposts. Its mezuza status is disputed because it lacks the rectangular frame that normally holds a mezuza."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "That mezuza requires doorposts (mezuzot, the physical sideposts of a doorway)",
+        "R. Meir's general approach of applying theoretical-completion reasoning to halakhic minima",
+        "Basic architectural distinction between arched/domed and rectangular doorways"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Median gate is exempt because it is foreign/non-Jewish architecture.",
+          "correction": "The exemption (for the Rabbis) is purely structural: the arch has no doorposts to attach a mezuza to. Whether it is Median, Roman, or any other style is irrelevant - the physical structure determines the obligation."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Rectangular doorway with doorposts vs. domed arch without doorposts - side by side",
+        "Carving diagram: how the dome could theoretically be carved to create doorposts (R. Meir's position)"
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is the Median gate (sha'ar haMadi) unique among exempt gate types?",
+          "a": "Because it is the only type that is a tannaitic dispute. All other exempt gate types are agreed upon; the Median gate (a domed arch with no doorposts) is exempt according to the Rabbis but R. Meir holds it is obligated via his chokkein lehashlem principle."
+        },
+        {
+          "q": "What is R. Meir's chokkein lehashlem principle?",
+          "a": "If a space could theoretically be enlarged or carved to meet a required minimum measurement, treat it as if it already meets that measurement. Applied to the Median gate: since the arch could be carved to create proper doorposts, R. Meir treats it as already having them."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11b.4", "Yoma.11b.5", "Yoma.11b.6"],
+      "review": "ai_generated"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-011b-s03",
+      "lineRange": {
+        "startVilnaLine": 24,
+        "endVilnaLine": 33
+      },
+      "lines": [
+        { "vilnaLine": 24, "sefariaRef": "Yoma.11b.7" },
+        { "vilnaLine": 27, "sefariaRef": "Yoma.11b.8" },
+        { "vilnaLine": 29, "sefariaRef": "Yoma.11b.9" },
+        { "vilnaLine": 31, "sefariaRef": "Yoma.11b.10" },
+        { "vilnaLine": 33, "sefariaRef": "Yoma.11b.11" }
+      ],
+      "display": {
+        "title": "Synagogue, woman's house and partners' house: mezuza and tzaraat",
+        "oneLine": "Two parallel baraitot establish that synagogues, women's houses, and partners' houses both require a mezuza and are susceptible to tzaraat (house-plague).",
+        "shortSummary": "Two baraitot teach in parallel: the same three categories of houses (synagogue, woman's house, partners' house) are obligated in mezuza AND susceptible to tzaraat. The same biblical word 'his house' appears in both contexts. In both cases, a literal reading of 'his house' might seem to exclude these categories, but the Gemara explains why they are included: not because they are technically 'his,' but because the reward verse for mitzva observance applies equally to all. The apparent exclusion of 'his house' teaches something else entirely - specifically which synagogues get tzaraat.",
+        "whats": "Two parallel baraitot teach the same lesson about three categories of houses - synagogue, woman's house and partners' house. Both are obligated in mezuza and both can receive tzaraat. In both cases the word 'his house' does double duty: technically it might seem to exclude women and partners, but it doesn't. Instead it teaches which specific synagogues are included (those with a caretaker's residence attached).",
+        "hint": "The same biblical word 'his house' does double duty: technically it might seem to exclude women and partners, but it doesn't (because the reward verse is universal). Instead it teaches which specific type of structure is included or excluded - a neat example of derash that finds unexpected content in seemingly narrow language."
+      },
+      "learning": {
+        "learnerQuestion": "Why would a synagogue be susceptible to tzaraat (house-plague)? Isn't it a holy place?",
+        "coreTension": "Tzaraat afflicts houses as a divine warning to their owners. A synagogue is communally owned, not by any individual. How can it receive a divine warning meant for a private owner? The answer depends on whether the synagogue functions as a residence for someone (the caretaker).",
+        "coreMove": "The two parallel baraitot (mezuza and tzaraat) share the same structural reasoning: when there is a caretaker who effectively treats the synagogue as his residence, the synagogue can receive both obligations. Without a caretaker, the synagogue lacks a personal 'owner' to receive the tzaraat warning.",
+        "resolution": "A synagogue with a caretaker's quarters attached: obligated in mezuza, susceptible to tzaraat. A synagogue without: the mezuza/tzaraat status depends on whether R. Meir or the Rabbis are followed (dispute continues in the next sugya).",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Halakhic categories like mezuza and tzaraat track personal ownership and residential connection, not just physical structure. A synagogue 'becomes' a house for these purposes when someone actually lives in it - the caretaker's residence transforms the legal character of the whole structure."
+        },
+        "reasoningPattern": {
+          "id": "derived-inclusion",
+          "category": "biblical interpretation",
+          "notes": "The word 'his house' that seems to exclude synagogues/women/partners actually includes them through a different interpretive move: the universal reward verse. The exclusion goes elsewhere (teaching which specific cases are included in tzaraat)."
+        },
+        "ahaMoment": "Woman's house and partners' house require mezuza even though 'his house' might suggest only a sole male owner's house is obligated. The Gemara uses the universal reward promise (that all observers of the mitzva receive reward) to show that 'his house' cannot really exclude these cases.",
+        "learningBlocker": "Students may confuse the tzaraat case with punishment. The Gemara is not saying synagogues get punished - it is extending tzaraat law (which requires a personal owner to receive the warning) to any structure where someone has ownership status. The caretaker's residence creates that ownership connection.",
+        "memoryAnchor": "Three categories, same rule twice: mezuza AND tzaraat. Synagogue, woman's house, partners' house - all in, all out together. The word 'his house' seems to exclude them but actually teaches something else. The caretaker is the key: resident = obligated."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "assertion",
+          "label": "Baraita: three house categories require mezuza",
+          "speaker": "Baraita",
+          "text": "Three types of houses require a mezuza despite the word 'his house' possibly suggesting exclusion: a synagogue, a woman's house, and a partners' house. The reason: the reward verse for mezuza applies universally.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l24", "vilnaLine": 24, "note": "First baraita: mezuza obligation for three house types" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "parallel",
+          "label": "Parallel baraita: same three categories susceptible to tzaraat",
+          "speaker": "Baraita",
+          "text": "A second baraita uses identical reasoning to establish the same three house types are susceptible to tzaraat (house-plague). The same word 'his house' and the same response applies.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l27", "vilnaLine": 27, "note": "Second baraita: tzaraat susceptibility for the same three types" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "question",
+          "label": "What does 'his house' actually teach if not exclusion?",
+          "speaker": "Gemara",
+          "text": "If 'his house' does not exclude synagogues/women/partners, what does it teach? The Gemara explains: it specifies which synagogues are obligated/susceptible - those where a caretaker actually lives (with a residence attached), not those without.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l29", "vilnaLine": 29, "note": "Redirecting 'his house' to teach about caretaker residences" }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "support",
+          "label": "Universal reward verse includes all who observe the mitzva",
+          "speaker": "Gemara",
+          "text": "The verse promising reward for mezuza observance uses language that includes women and partners, not just sole male owners. This universal promise shows 'his house' cannot mean only sole male owners are obligated.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l31", "vilnaLine": 31, "note": "Universal reward verse as the inclusion mechanism" }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "complication",
+          "label": "But a second baraita seems to exclude synagogues from tzaraat",
+          "speaker": "Gemara",
+          "text": "A further baraita appears to say synagogues and study halls are NOT susceptible to tzaraat. This contradicts the first baraita. The resolution will come in the next sugya.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l33", "vilnaLine": 33, "note": "The contradicting baraita - sets up the dispute in the next sugya" }
+          ]
+        }
+      ],
+      "topicTags": ["mezuza", "tzaraat", "synagogue", "woman's house", "partners' house"],
+      "concepts": [
+        {
+          "he": "נֶגַע בָּתִּים",
+          "translit": "Nega batim",
+          "definition": "House-plague (tzaraat of a building) - the divine affliction described in Leviticus 14 that can appear on the walls of a house, obligating an inspection and potentially demolition. Subject to a personal-ownership requirement similar to mezuza."
+        },
+        {
+          "he": "בֵּית הַכְּנֶסֶת",
+          "translit": "Beit hakenesset",
+          "definition": "Synagogue - a communal house of prayer. Subject to mezuza and tzaraat when a caretaker's personal residence is attached to it, giving the structure a 'personal owner' in the halakhic sense."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "The basic laws of tzaraat (house-plague) from Leviticus 14",
+        "That tzaraat requires a personal owner to receive the divine warning",
+        "The structure of parallel baraitot sharing the same reasoning across different laws"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "A synagogue gets tzaraat as a punishment for sins committed there.",
+          "correction": "Tzaraat of a house is a divine signal to its owner, not a punishment for the building. The Gemara is extending tzaraat law to synagogues only where there is someone who functions as the 'owner' (the caretaker who lives there). The synagogue's sacred character is irrelevant to tzaraat's application."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Synagogue with attached caretaker's house - showing the residential connection",
+        "Parallel columns: mezuza baraita / tzaraat baraita - same structure, same categories"
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is a woman's house obligated in mezuza if the Torah says 'his house'?",
+          "a": "Because the reward verse for mezuza observance applies universally to all who observe it, including women. 'His house' cannot be read to exclude women from the obligation - the inclusive reward language proves this."
+        },
+        {
+          "q": "Under what condition is a synagogue susceptible to tzaraat?",
+          "a": "When a caretaker's residence is attached to the synagogue. The caretaker effectively functions as the 'owner' in the halakhic sense, providing the personal ownership connection that tzaraat law requires."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11b.7", "Yoma.11b.8", "Yoma.11b.9", "Yoma.11b.10", "Yoma.11b.11"],
+      "review": "ai_generated"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-011b-s04",
+      "lineRange": {
+        "startVilnaLine": 36,
+        "endVilnaLine": 41
+      },
+      "lines": [
+        { "vilnaLine": 36, "sefariaRef": "Yoma.11b.12" },
+        { "vilnaLine": 38, "sefariaRef": "Yoma.11b.13" },
+        { "vilnaLine": 40, "sefariaRef": "Yoma.11b.14" },
+        { "vilnaLine": 41, "sefariaRef": "Yoma.11b.15" },
+        { "vilnaLine": 41, "sefariaRef": "Yoma.11b.16" }
+      ],
+      "display": {
+        "title": "Does a synagogue get tzaraat? Resolving a contradiction",
+        "oneLine": "The contradiction between two baraitot - one saying synagogues get tzaraat, the other saying they do not - is resolved by distinguishing synagogues with caretakers' residences from those without.",
+        "shortSummary": "The Gemara faces a direct contradiction: one baraita says synagogues are susceptible to tzaraat; another says they are not (since they are not designated for one specific person). Three resolutions are offered. First: the first baraita is R. Meir, the second is the Rabbis. Second: city synagogues vs. village synagogues (village synagogues have identifiable owners). Third (and most refined): with caretaker vs. without. All three answers agree that some synagogues are included and some are excluded - the dispute is about the principle that draws the line.",
+        "whats": "A second baraita contradicts the first: it says synagogues and study halls do NOT get tzaraat (they are not designated for one specific person). The Gemara offers three resolutions: (1) First baraita = R. Meir, second = Rabbis. (2) City synagogues (anonymous) vs. village synagogues (identifiable owners). (3) Caretaker-attached vs. not. All three resolutions preserve both baraitot as internally consistent by identifying the dividing principle.",
+        "hint": "Three resolutions are given - each more nuanced than the last. The Talmud's preference is usually the last 'v'ee ba'it eima' as the most refined answer, but all three remain valid. The pattern 'R. Meir vs. Rabbis' is the broadest resolution; city/village and caretaker are more specific factual distinctions."
+      },
+      "learning": {
+        "learnerQuestion": "Can a synagogue ever get tzaraat? The two baraitot seem to give opposite answers.",
+        "coreTension": "Tzaraat requires a designated owner ('his house'). A synagogue is communally owned. When is communal ownership specific enough to count as personal ownership for tzaraat? The three resolutions each identify a different principle for when communal ownership is sufficient.",
+        "coreMove": "The Gemara does not simply declare one baraita correct and the other wrong. It finds conditions under which each baraita is true, preserving both as valid rulings in different circumstances.",
+        "resolution": "The most refined answer (third resolution): synagogues with caretakers' residences attached are susceptible to tzaraat; those without are not. This also applies to mezuza. The caretaker's personal residence creates the 'designated owner' relationship that both laws require.",
+        "takeaway": {
+          "type": "halakhic",
+          "text": "Communal property can acquire the legal character of personal property when a specific individual has a sufficiently personal connection to it. The caretaker who lives in the synagogue building gives it a 'personal owner' in the halakhic sense, transforming its legal status for multiple laws simultaneously."
+        },
+        "reasoningPattern": {
+          "id": "contradiction-resolution-tripartite",
+          "category": "three-step resolution",
+          "notes": "Three offered resolutions, each applying a different principle. This is standard Talmudic method: when two baraitot conflict, find conditions under which each is true rather than rejecting either. The three resolutions are: (1) tanna attribution, (2) geographic distinction, (3) factual distinction (caretaker vs. not)."
+        },
+        "ahaMoment": "The third resolution (caretaker vs. not) is the most elegant because it does not require attributing the baraitot to different tannaim - it finds a single factual distinction that reconciles both baraitot as statements of fact rather than conflicting opinions.",
+        "learningBlocker": "Students may think the first resolution (R. Meir vs. Rabbis) settles the matter because it names specific tannaim. But the Gemara continues with two more resolutions because the first resolution does not capture the full picture - it just labels the dispute without explaining the principle.",
+        "memoryAnchor": "Two baraitot: synagogues in, synagogues out. Three resolutions: R. Meir vs. Rabbis (broadest), city vs. village (geographic), caretaker vs. no caretaker (most precise). The caretaker is the key: he makes the synagogue 'his house.'"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "complication",
+          "label": "Contradiction: second baraita excludes synagogues from tzaraat",
+          "speaker": "Baraita",
+          "text": "A baraita states: synagogues and study halls are NOT susceptible to tzaraat because they are not designated for one specific person. This contradicts the previous baraita.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l36", "vilnaLine": 36, "note": "The contradicting baraita" }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "resolution",
+          "label": "Resolution 1: tanna attribution - R. Meir vs. Rabbis",
+          "speaker": "Gemara",
+          "text": "The first baraita (synagogues included) is R. Meir; the second (synagogues excluded) is the Rabbis. R. Meir's general tendency to include communal structures in personal-ownership categories vs. the Rabbis' stricter reading of 'his house.'",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l38", "vilnaLine": 38, "note": "First resolution: attribute to different tannaim" }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Resolution 2: city synagogues vs. village synagogues",
+          "speaker": "Gemara",
+          "text": "Alternatively: city synagogues are anonymous (funded by many people from multiple places, no identifiable owner). Village synagogues have identifiable local owners whose presence makes it 'their' house. City = excluded; village = included.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l40", "vilnaLine": 40, "note": "Second resolution: geographic distinction" }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "Resolution 3: caretaker vs. no caretaker (most refined)",
+          "speaker": "Gemara",
+          "text": "The most refined answer: a synagogue with a caretaker's residence attached is susceptible to tzaraat (the caretaker = the specific personal owner). Without a caretaker's residence = not susceptible. Both baraitot are factually true in their respective cases.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "yoma-011b-l41", "vilnaLine": 41, "note": "Third resolution: caretaker distinction - the most precise answer" }
+          ]
+        }
+      ],
+      "topicTags": ["tzaraat", "synagogue", "contradiction resolution", "caretaker", "R. Meir"],
+      "concepts": [
+        {
+          "he": "חַזָּן",
+          "translit": "Chazzan",
+          "definition": "Synagogue caretaker/sexton - in Talmudic usage, the person who maintained the synagogue and often lived on the premises. His residence transforms the synagogue's legal character for both mezuza and tzaraat purposes."
+        },
+        {
+          "he": "בֵּית עוֹלָם",
+          "translit": "Beit olam",
+          "definition": "Eternal house - one of the euphemisms the Gemara uses for structures that are not personal residences but are designated for long-term communal use. Relevant to the question of whether such structures can be 'his house' for tzaraat."
+        }
+      ],
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Basic tzaraat law: requires a personal owner to receive the divine warning",
+        "The three standard resolution techniques for contradicting baraitot",
+        "Why the caretaker's residence creates a personal-ownership connection to the whole building"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The third resolution (caretaker) overrides the first two (tanna attribution and city/village).",
+          "correction": "The Gemara presents all three resolutions as valid alternatives ('tanna, alternatively, alternatively'). All three are preserved as legitimate ways to read the contradicting baraitot. In Talmudic method, multiple valid resolutions coexist."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "Three-column diagram: three resolution principles applied to the same contradiction",
+        "Synagogue with caretaker's house attached vs. standalone synagogue - showing the key distinction"
+      ],
+      "quizSeeds": [
+        {
+          "q": "What are the three resolutions offered for the contradicting baraitot on synagogue tzaraat?",
+          "a": "(1) Tanna attribution: first baraita = R. Meir, second = Rabbis. (2) Geographic distinction: city synagogues excluded (anonymous), village synagogues included (identifiable local owners). (3) Caretaker distinction: synagogue with caretaker's residence = included; without = excluded."
+        },
+        {
+          "q": "Why does having a caretaker make a synagogue susceptible to tzaraat?",
+          "a": "Because the caretaker lives in a residence attached to the synagogue, effectively functioning as the personal owner of the structure. Tzaraat law requires a specific personal owner to receive the divine warning, and the caretaker provides that connection."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "sefariaRefs": ["Yoma.11b.12", "Yoma.11b.13", "Yoma.11b.14", "Yoma.11b.15", "Yoma.11b.16"],
+      "review": "ai_generated"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "דִּירַת כָּבוֹד",
+      "translit": "Dirat kavod",
+      "en": "A dwelling of honor - one of the conditions for mezuza obligation. Spaces used for undignified purposes (bathrooms, tanneries, bathhouses, mikvaot) fail this test and are exempt from mezuza."
+    },
+    {
+      "he": "חוֹקְקִין לְהַשְׁלִים",
+      "translit": "Chokkein lehashlem",
+      "en": "Theoretical completion - R. Meir's principle that if a space could theoretically be carved or enlarged to meet a required minimum measurement, treat it as already meeting that measurement. The Rabbis reject this."
+    },
+    {
+      "he": "נֶגַע בָּתִּים",
+      "translit": "Nega batim",
+      "en": "House-plague (tzaraat of a building) - a divine affliction on house walls described in Leviticus 14, requiring personal ownership to apply. Susceptibility depends on whether a synagogue has a caretaker's residence."
+    },
+    {
+      "he": "שַׁעַר הַמָּדִי",
+      "translit": "Sha'ar haMadi",
+      "en": "The Median gate - a domed arch style of entry (popular in Media/Persia) with no rectangular doorposts. The subject of a dispute between R. Meir (chokkein lehashlem applies, obligated) and the Rabbis (exempt, no real doorposts)."
+    }
+  ],
+  "rashiTranslations": [
+    { "vilnaLine": 1, "en": "Rashi on 'beit sha'ar' (gatehouse): a small structure at a courtyard entrance. People pass through it, making it a passageway, not a dwelling - hence exempt from mezuza.", "linkedGemaraLineIds": ["yoma-011b-l01"] },
+    { "vilnaLine": 2, "en": "Rashi: 'aksenedra' (colonnade/portico) - an open structure with a roof supported by columns, used for shade and passage. Not enclosed as a dwelling, so exempt from mezuza.", "linkedGemaraLineIds": ["yoma-011b-l01"] },
+    { "vilnaLine": 3, "en": "Rashi on 'marpeset' (balcony/gallery): an elevated platform outside the main building. Used for outdoor activities but not for sleeping or dwelling, so exempt.", "linkedGemaraLineIds": ["yoma-011b-l03"] },
+    { "vilnaLine": 4, "en": "Rashi: the bathroom exemption - based on the lack of kavod (honor/dignity). One undresses in a bathroom, making it inappropriate for the sacred text of the Shema.", "linkedGemaraLineIds": ["yoma-011b-l03"] },
+    { "vilnaLine": 5, "en": "Rashi on tannery exemption: tanning hides involves foul smells and undignified work. The tannery lacks kavod and is therefore exempt from mezuza.", "linkedGemaraLineIds": ["yoma-011b-l03"] },
+    { "vilnaLine": 6, "en": "Rashi: bathhouse exemption - people undress there. The nakedness makes the space lack kavod, similar to a bathroom, and hence exempt from mezuza.", "linkedGemaraLineIds": ["yoma-011b-l03"] },
+    { "vilnaLine": 7, "en": "Rashi on mikveh exemption: the ritual bath requires undressing. Despite its holy purpose, the nakedness involved makes it inappropriate for a mezuza on its doorpost.", "linkedGemaraLineIds": ["yoma-011b-l07"] },
+    { "vilnaLine": 8, "en": "Rashi: Temple Mount exemption - the entire Temple precinct is sacred (kodesh) space, not ordinary residential space. This is the key refutation of Rav Yehuda's position.", "linkedGemaraLineIds": ["yoma-011b-l07"] },
+    { "vilnaLine": 9, "en": "Rashi: 'tiyuvta d'Rav Yehuda' - the Temple precinct exemption decisively refutes Rav Yehuda's claim that the Parhedrin chamber's mezuza was a Torah obligation. The whole Temple is categorically exempt.", "linkedGemaraLineIds": ["yoma-011b-l07"] },
+    { "vilnaLine": 10, "en": "Rashi on 'six gates exempt': the list includes archways, latticed gates, domed gates, and other non-standard architectural forms that lack proper doorposts.", "linkedGemaraLineIds": ["yoma-011b-l10"] },
+    { "vilnaLine": 11, "en": "Rashi: the seventh item (Median gate) is the disputed one. Rav Shmuel bar Yehuda says 'six' because he counts the undisputed exempt gates; the Median gate's status is contested.", "linkedGemaraLineIds": ["yoma-011b-l10"] },
+    { "vilnaLine": 12, "en": "Rashi on sha'ar haMadi (Median gate): in Media and Persia, gates were built as domed arches rather than rectangular openings with doorposts. This architectural style lacks the mezuza mounting points.", "linkedGemaraLineIds": ["yoma-011b-l15"] },
+    { "vilnaLine": 13, "en": "Rashi: 'sheinu mekure' - the Median gate is not roofed in the normal sense (it is an open arch). This is relevant to whether it counts as a proper gate structure.", "linkedGemaraLineIds": ["yoma-011b-l15"] },
+    { "vilnaLine": 14, "en": "Rashi on chokkein lehashlem: R. Meir's principle allows treating potential future dimensions as present reality. If the arch could be carved to create doorposts of the required size, treat it as if they exist now.", "linkedGemaraLineIds": ["yoma-011b-l21"] },
+    { "vilnaLine": 15, "en": "Rashi: the Rabbis reject chokkein lehashlem - you cannot base present halakhic status on theoretical future action. Only actual existing structures satisfy requirements.", "linkedGemaraLineIds": ["yoma-011b-l21"] },
+    { "vilnaLine": 16, "en": "Rashi on the first mezuza baraita: the three categories (synagogue, woman's house, partners' house) are obligated in mezuza despite the word 'his house' seemingly excluding them.", "linkedGemaraLineIds": ["yoma-011b-l24"] },
+    { "vilnaLine": 17, "en": "Rashi: the word 'his house' in the mezuza verse does not exclude women and partners because the reward promise uses language that includes all observers of the commandment.", "linkedGemaraLineIds": ["yoma-011b-l24"] },
+    { "vilnaLine": 18, "en": "Rashi on the tzaraat baraita: parallel to the mezuza baraita, the same three categories are also susceptible to house-plague because 'his house' in Leviticus 14 is similarly expansive.", "linkedGemaraLineIds": ["yoma-011b-l27"] },
+    { "vilnaLine": 19, "en": "Rashi: the two parallel baraitot (mezuza and tzaraat) share the same reasoning because both laws derive from the word 'his house' and both require the same type of personal residential connection.", "linkedGemaraLineIds": ["yoma-011b-l27"] },
+    { "vilnaLine": 20, "en": "Rashi on 'what does the exclusion teach?': since 'his house' does not exclude women and partners, it must teach something else - specifically which synagogues (those with caretaker residences) are included.", "linkedGemaraLineIds": ["yoma-011b-l29"] },
+    { "vilnaLine": 21, "en": "Rashi: the caretaker's personal residence attached to the synagogue creates the 'his house' connection. The caretaker is effectively the designated personal owner for both mezuza and tzaraat purposes.", "linkedGemaraLineIds": ["yoma-011b-l29"] },
+    { "vilnaLine": 22, "en": "Rashi on the universal reward verse: Deuteronomy uses language ('your days and the days of your sons') that includes all observers, proving women and partners are included in the mezuza obligation.", "linkedGemaraLineIds": ["yoma-011b-l31"] },
+    { "vilnaLine": 23, "en": "Rashi: the second baraita (synagogues not susceptible to tzaraat) says synagogues are not 'designated for one specific person' - this is the criterion that makes 'his house' applicable.", "linkedGemaraLineIds": ["yoma-011b-l33"] },
+    { "vilnaLine": 24, "en": "Rashi on the direct contradiction: one baraita includes synagogues in tzaraat; another explicitly excludes them. The Gemara must reconcile these without rejecting either.", "linkedGemaraLineIds": ["yoma-011b-l36"] },
+    { "vilnaLine": 25, "en": "Rashi: first resolution - the two baraitot represent different tannaitic positions. The including baraita is R. Meir; the excluding baraita is the Rabbis.", "linkedGemaraLineIds": ["yoma-011b-l38"] },
+    { "vilnaLine": 26, "en": "Rashi on R. Meir vs. Rabbis: R. Meir tends to include communal structures in personal-property halakhic categories when they are used regularly by identifiable individuals.", "linkedGemaraLineIds": ["yoma-011b-l38"] },
+    { "vilnaLine": 27, "en": "Rashi: second resolution - city synagogues vs. village synagogues. City synagogues are funded by many anonymous donors; village synagogues have identifiable local owners who built them.", "linkedGemaraLineIds": ["yoma-011b-l40"] },
+    { "vilnaLine": 28, "en": "Rashi: 'dirkha' (cities) - large urban synagogues funded from general communal funds without a specific identifiable owner. Excluded from tzaraat. Village synagogues built by specific local donors: included.", "linkedGemaraLineIds": ["yoma-011b-l40"] },
+    { "vilnaLine": 29, "en": "Rashi on the third (most refined) resolution: synagogue with a caretaker's house attached = susceptible to tzaraat (caretaker is the personal owner). Without a caretaker's residence = not susceptible.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 30, "en": "Rashi: all three resolutions are presented as valid alternatives. The Gemara does not prefer one over the others - each captures a legitimate principle for when communal property acquires personal-owner character.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 31, "en": "Rashi: the daf ends here with the three resolutions complete. The discussion of synagogues, their mezuza status, and their susceptibility to tzaraat will connect to the 12a discussion of Jerusalem's tribal division.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 32, "en": "Rashi on Rav Yehuda's position being refuted: the entire sequence from 11a through 11b has progressively undermined Rav Yehuda's claim of a Torah-level obligation for the Parhedrin chamber. The Temple exemption is the final blow.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 33, "en": "Rashi: the conclusion of the mezuza discussion sets up the 12a transition - after establishing rules for synagogues in cities and villages, the Gemara asks whether Jerusalem itself was ever 'divided among the tribes' for property purposes.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 34, "en": "Rashi on the connection to tzaraat in Jerusalem: since synagogues in cities (where Jerusalem presumably falls) are anonymous communally-owned spaces, the question of whether Jerusalem was 'tribal property' becomes relevant to whether its buildings could get tzaraat.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 35, "en": "Rashi: the three-part contradiction resolution (tanna / city-village / caretaker) is preserved in its entirety because each offers a different but valid principle. Talmudic dialectic maintains multiple valid answers rather than forcing a single resolution.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 36, "en": "Rashi: review of the main 11b themes - the three exemption categories (not-dwelling, not-honor, sacred/non-residential), the Median gate dispute (chokkein lehashlem), and the synagogue-tzaraat contradiction resolution.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 37, "en": "Rashi: the parallel structure of mezuza and tzaraat baraitot (same three categories, same reasoning) illustrates a general principle: when two biblical laws use the same key phrase, their scope often tracks together.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 38, "en": "Rashi on the chapter's architectural theme: from specific Temple rooms (Parhedrin chamber, Nicanor Gate) to general categories (gatehouses, balconies, storehouses, domed arches, synagogues) - the Gemara maps the entire landscape of mezuza-obligated and exempt spaces.", "linkedGemaraLineIds": ["yoma-011b-l41"] },
+    { "vilnaLine": 39, "en": "Rashi: the caretaker principle that emerges as the most refined answer to the synagogue contradiction will be recalled on 12a when Jerusalem's tribal status is debated - if Jerusalem was not divided among tribes, city buildings have no personal owner and cannot get tzaraat.", "linkedGemaraLineIds": ["yoma-011b-l41"] }
+  ]
+}

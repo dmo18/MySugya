@@ -1,0 +1,750 @@
+{
+  "canonicalRef": "Yoma 50a",
+  "summary": "R. Yitzchak Nappacha objects that vestment removal may be a prohibition, not a positive commandment; the verse's placement in the service sequence resolves it as a required act. The Gemara then debates whether slaughtered blood retains its legal identity as 'blood of a bull' (Abaye: yes; Rava: disputed). The central dispute: Abaye holds the HP's bull is a communal sin-offering overriding Shabbat/tumah; Rava holds it is personal.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-050a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 10
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.50a.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.50a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.50a.3"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.50a.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.50a.1",
+        "Yoma.50a.2",
+        "Yoma.50a.3",
+        "Yoma.50a.4"
+      ],
+      "display": {
+        "whats": "Does 'he shall remove his linen garments' create a positive commandment or only a prohibition?",
+        "hint": "R. Yitzchak Nappacha objects: the verse describing vestment removal may not create a required service act but only prohibit wearing them afterward."
+      },
+      "learning": {
+        "summary": "Lev. 16:23 says 'he shall remove his linen garments and leave them there.' R. Yitzchak Nappacha asks whether this is (a) a required positive commandment to actively remove the garments as part of the service, or (b) merely a prohibition against continuing to wear them after the Yom Kippur service ends. The Gemara resolves that the verse's placement in the service sequence confirms it is a required service act.",
+        "ahaMoment": "The same verse can yield a positive commandment or a prohibition depending on whether it is read as prescribing an act or banning continued conduct.",
+        "memoryAnchor": "Removing linen vestments - is it an obligatory ceremony at service end or only a ban on wearing them afterward?",
+        "openQuestion": "How do we determine whether a verse describing a change in action requires that action or only prohibits not changing?"
+      },
+      "argumentFlow": [
+        {
+          "type": "objection",
+          "speaker": "R. Yitzchak Nappacha",
+          "text": "'He shall remove his linen garments' might only be a prohibition, not a required positive act.",
+          "id": "yoma-050a-l01",
+          "label": "Objection: 'He shall remove his linen garments' might",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "resolution",
+          "speaker": "Gemara",
+          "text": "The verse's placement in the service sequence - after the service acts are completed - confirms it is a required removal ceremony.",
+          "id": "yoma-050a-l02",
+          "label": "Resolution: The verse's placement in the service sequence",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "vestment removal",
+        "linen garments",
+        "positive commandment vs prohibition",
+        "HP service sequence"
+      ],
+      "concepts": {
+        "halachic": [
+          "removing linen garments is a required service act"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "HP vestments",
+        "Yom Kippur service order",
+        "positive commandments"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "'He shall remove his linen garments' is a prohibition against continuing to wear them after service - nothing more.",
+          "correction": "The Gemara debates whether the verse creates a positive commandment (he must remove them actively) or only prohibits continued wearing. The distinction affects how the obligation is defined and transmitted.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Positive commandment (must remove) vs. prohibition (may not continue wearing) - same verse, two readings",
+          "role": "contrast",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What did R. Yitzchak Nappacha question about vestment removal?",
+          "answer": "Whether 'he shall remove his linen garments' is an obligatory service act (positive commandment) or only a prohibition against continuing to wear them after the service."
+        }
+      ],
+      "finalRuling": "Removing the linen garments is a required service act based on the verse's placement in the service sequence.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-050a-s02",
+      "lineRange": {
+        "startVilnaLine": 11,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.50a.5"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.50a.6"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.50a.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.50a.8"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.50a.9"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.50a.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.50a.5",
+        "Yoma.50a.6",
+        "Yoma.50a.7",
+        "Yoma.50a.8",
+        "Yoma.50a.9",
+        "Yoma.50a.10"
+      ],
+      "display": {
+        "whats": "Is a slaughtered bull's blood still legally called 'the blood of a bull'?",
+        "hint": "The Gemara debates whether slaughter changes the blood's legal category. Abaye holds the blood retains its identity as 'blood of a bull'; Rava disputes. The classification determines whether the replacement HP can use the original blood."
+      },
+      "learning": {
+        "summary": "Once the HP's bull is slaughtered, is its blood still categorized as 'blood of a bull,' or does slaughter transform it into merely 'blood'? Abaye holds slaughter does not change the blood's legal category - it remains 'blood of a bull.' Rava holds slaughter may change the status. The practical implication: if the original blood retains its category, the replacement HP may potentially use it; if not, a new bull and new blood are needed.",
+        "ahaMoment": "Slaughter changes the animal's existence but may not change the blood's legal identity - the label depends on legal convention, not biological fact.",
+        "memoryAnchor": "After slaughter: is it still 'bull blood' or just 'blood'? The Abaye-Rava dispute turns on whether legal categories follow biological states.",
+        "openQuestion": "Does slaughter change the legal identity of an offering's blood, or does the blood retain its original category throughout?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Once the bull is slaughtered, is its blood still called 'blood of a bull'?",
+          "id": "yoma-050a-l05",
+          "label": "Question: Once the bull is slaughtered, is its",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l05",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "type": "position",
+          "speaker": "Abaye",
+          "text": "Slaughtered blood retains its category as 'blood of a bull' - legal identity persists after slaughter.",
+          "id": "yoma-050a-l06",
+          "label": "Position: Slaughtered blood retains its category as 'blood",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "position",
+          "speaker": "Rava",
+          "text": "Slaughter may change the status - the blood may no longer carry the full legal category of 'a bull.'",
+          "id": "yoma-050a-l07",
+          "label": "Position: Slaughter may change the status - the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l07",
+              "vilnaLine": 7
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "slaughtered blood",
+        "blood category",
+        "Abaye",
+        "Rava",
+        "replacement HP"
+      ],
+      "concepts": {
+        "halachic": [
+          "slaughter blood category dispute (Abaye/Rava)",
+          "blood identity after slaughter"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "blood offering laws",
+        "replacement HP",
+        "legal categories of offerings"
+      ],
+      "misconceptions": [
+        "Slaughtered blood always retains its offering category - Rava explicitly disputes this."
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Slaughtered bull's blood: same legal identity as living bull's blood, or a new category?",
+          "role": "aha",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the Abaye-Rava dispute about slaughtered blood?",
+          "answer": "Abaye: the blood retains its category as 'blood of a bull' after slaughter. Rava: slaughter may change the blood's legal status. The practical issue: can the replacement HP use the original blood?"
+        }
+      ],
+      "finalRuling": "Whether slaughtered blood retains its legal category is disputed by Abaye and Rava; unresolved.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-050a-s03",
+      "lineRange": {
+        "startVilnaLine": 38,
+        "endVilnaLine": 55
+      },
+      "lines": [
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.50a.11"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.50a.12"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.50a.13"
+        },
+        {
+          "vilnaLine": 52,
+          "sefariaRef": "Yoma.50a.14"
+        },
+        {
+          "vilnaLine": 54,
+          "sefariaRef": "Yoma.50a.15"
+        },
+        {
+          "vilnaLine": 55,
+          "sefariaRef": "Yoma.50a.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.50a.11",
+        "Yoma.50a.12",
+        "Yoma.50a.13",
+        "Yoma.50a.14",
+        "Yoma.50a.15",
+        "Yoma.50a.16"
+      ],
+      "display": {
+        "whats": "Is the HP's bull a communal sin-offering or a personal one?",
+        "hint": "Abaye holds the HP's bull is a communal offering (overriding Shabbat and tumah); Rava holds it is personal. The verse 'for himself and his household' is the crux."
+      },
+      "learning": {
+        "summary": "If the HP's bull is a communal sin-offering (chatat tzibur), then it cannot become pigul, overrides Shabbat, and tumah does not disqualify. If it is personal (chatat yachid), those overrides do not apply and a tamei HP must be replaced. Abaye reads the HP's representative role as making his offering communal; Rava reads 'for himself and his household' as limiting it to a personal offering.",
+        "ahaMoment": "The HP brings the bull 'for himself' yet represents all Israel - the tension between these roles drives the communal/personal classification dispute.",
+        "memoryAnchor": "HP's bull: 'for himself and his household' - personal (Rava) or communal representative (Abaye)?",
+        "openQuestion": "When does an offering brought by an individual on behalf of a group become legally communal?"
+      },
+      "argumentFlow": [
+        {
+          "type": "position",
+          "speaker": "Abaye",
+          "text": "The HP's bull is a communal offering - the HP represents all Israel on Yom Kippur.",
+          "id": "yoma-050a-l11",
+          "label": "Position: The HP's bull is a communal offering",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l11",
+              "vilnaLine": 11
+            }
+          ]
+        },
+        {
+          "type": "position",
+          "speaker": "Rava",
+          "text": "The bull is personal - 'for himself and his household' explicitly limits its scope.",
+          "id": "yoma-050a-l12",
+          "label": "Position: The bull is personal - 'for himself",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l12",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "type": "implication",
+          "speaker": "Gemara",
+          "text": "Communal: overrides Shabbat/tumah, cannot become pigul. Personal: standard individual offering rules apply.",
+          "id": "yoma-050a-l13",
+          "label": "Implication: Communal: overrides Shabbat/tumah, cannot become pig...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-050a-l13",
+              "vilnaLine": 13
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "HP bull classification",
+        "communal vs personal offering",
+        "Abaye",
+        "Rava",
+        "chatat tzibur"
+      ],
+      "concepts": {
+        "halachic": [
+          "HP bull communal (Abaye) vs personal (Rava)",
+          "communal offerings override Shabbat/tumah"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "communal sin-offering laws",
+        "Yom Kippur service",
+        "Shabbat and tumah override"
+      ],
+      "misconceptions": [
+        "The HP's bull is obviously communal because he represents all Israel - this is exactly the Abaye-Rava dispute."
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        "HP",
+        "bull",
+        "communal vs personal contrast"
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the Abaye-Rava dispute about the HP's bull?",
+          "answer": "Abaye: communal offering (HP represents all Israel), overriding Shabbat/tumah. Rava: personal offering ('for himself and his household'), subject to individual offering rules."
+        }
+      ],
+      "finalRuling": "Whether the HP's bull is communal or personal is disputed by Abaye (communal) and Rava (personal).",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "He shall remove his linen garments - this describes the required vestment change at the end of Yom Kippur service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "R. Yitzchak Nappacha: perhaps this is not a positive commandment but only a prohibition on continued wearing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The verse's placement in the service sequence shows it is a required act within the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "The order: first complete the inner service, then remove the linen garments - confirming it is a required step.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "R. Chanina's ruling about incense scooped before slaughter being void - applied now to the replacement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The verse says 'a bull' - implying the bull must be present (and alive) at the start of the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "If the HP died after his bull was slaughtered, the replacement needs his own bull since 'a bull' means a fresh one.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Once the bull is slaughtered, is its blood still legally called 'blood of a bull'?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Abaye: slaughtered blood retains its category. Rava: slaughter may change the blood's legal status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The practical question: may the replacement HP use the first HP's blood for the Yom Kippur atonement sprinkling?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Is the HP's bull a communal offering (chatat tzibur) or a personal one (chatat yachid)?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Abaye: the HP represents all Israel - his bull has communal status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rava: 'for himself and his household' - the verse limits the offering to personal status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "If communal: it overrides Shabbat just as all public sacrifices do.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "If personal: a tamei HP must be replaced because personal offerings cannot be brought in impurity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "'For himself and his household' - does 'household' extend to all Israel through the HP's representative role?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Abaye: the HP's atonement extends to all Israel on Yom Kippur - therefore communal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rava: the explicit verse limitation to 'himself and his household' keeps it personal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The Gemara will now examine which tannaitic opinions align with each Amora.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "R. Meir's position (cited on 50b) will support the communal reading.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The dispute has implications for tumah: may a tamei HP perform the service?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Communal: yes (tzibur cannot be delayed by tumah). Personal: no, a pure substitute is required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "If communal, tumah is overridden (dechuyah be-tzibur). If personal, the HP must be replaced.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "If communal: a tamei HP may perform the service in an emergency. If personal: replacement is mandatory.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The Mishna will help determine which view is correct by examining how it handles tumah scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Summary: Abaye (communal) and Rava (personal) dispute the HP bull's classification with major practical differences.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Each position has textual support; tannaitic sources will clarify.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The Gemara turns to mishnaic and tannaitic sources to support each position.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Tannaitic debate will show which Amora's position aligns with which Tanna.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "R. Meir will state the bull is communal (50b) - supporting Abaye.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The Mishna's language about the HP's tumah scenario will be examined.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The formulation about replacing a tamei HP will indicate personal or communal status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The Gemara proceeds to examine the relevant texts.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "R. Yitzchak Nappacha's objection about vestment removal is a parallel case of ambiguous verse.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Both the vestment removal and bull classification turn on how to read HP-specific verses.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The HP's dual role - personal supplicant and communal representative - drives these ambiguities.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Communal offering laws derive from 'congregation of Israel' - does the HP's role qualify?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The Gemara applies the communal override test: tumah and Shabbat rules differ for communal vs personal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Yom Kippur itself always falls on a specific date - the Shabbat question is more academic here.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The operative test is tumah: may a tamei HP serve?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Abaye: yes (communal). Rava: no (personal, needs pure substitute).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The Mishna's ruling on a tamei HP will be the decisive test for the positions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The Mishna does prepare a substitute HP - suggesting personal-offering rules apply (Rava).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "But the Mishna also explains the community cannot be left without atonement - suggesting communal importance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The tension between the two readings is not fully resolved by the Mishna alone.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Abaye and Rava remain in dispute; further development follows on 50b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Additional tannaitic sources will be sought in the following section.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "The broader principle: a representative sacrifice by an individual has ambiguous communal/personal status.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "This section completes the initial Abaye-Rava presentation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "The next daf introduces R. Meir's explicit position on the bull's classification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "R. Meir will state the bull is a communal offering - supporting Abaye.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "R. Elazar's dilemma will then further complicate the exclusive-designation issue.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Summary: Abaye (communal) and Rava (personal) dispute the HP's bull classification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Practical stakes: tumah override and replacement rules differ based on classification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Both positions have tannaitic alignment that will be developed on 50b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "The dispute is not resolved here; resolution awaits further analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "End of initial dispute section; Gemara continues on 50b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Key terms: chatat tzibur (communal sin-offering), chatat yachid (personal sin-offering).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "The HP's bull is a unique case that does not map cleanly onto either standard type.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "This uniqueness is what drives the Abaye-Rava disagreement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "The HP's dual role as personal supplicant and communal representative creates the ambiguity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Resolving this ambiguity has far-reaching consequences for the entire Yom Kippur service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "The Gemara continues developing the implications on 50b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "This concludes the presentation of the core dispute on 50a.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "en": "Rashi focuses on clarifying the two positions and their textual bases.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "en": "The communal/personal distinction is critical throughout sacrificial law.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "en": "This section of 50a presents the sharpest version of that distinction in tractate Yoma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 68,
+      "en": "Abaye's communal reading aligns with the HP's broader representative function.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 69,
+      "en": "Rava's personal reading stays closer to the verse's explicit language - 'for himself and his household.'",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

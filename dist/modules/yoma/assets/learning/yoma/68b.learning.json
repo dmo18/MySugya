@@ -1,0 +1,1087 @@
+{
+  "canonicalRef": "Yoma 68b",
+  "summary": "Burning site requirements (north of Jerusalem, sloped, with altar ash). Mishnah Ch. 7: the HP could not begin the next service until the Azazel goat reached the wilderness, signaled by relay wavers. HP's Torah reading and eight blessings.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-068b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 12
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.68b.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.68b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.68b.3"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.68b.4"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.68b.5"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.68b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.68b.1",
+        "Yoma.68b.2",
+        "Yoma.68b.3",
+        "Yoma.68b.4",
+        "Yoma.68b.5",
+        "Yoma.68b.6"
+      ],
+      "display": {
+        "whats": "Where exactly is the burning place? North of Jerusalem. A dispute about whether the site must first have ash from the altar placed there. Also a dispute about whether tum'ah begins when the burner makes it charred or only when it is fully ash.",
+        "hint": "Why would Rabbi Eliezer b. Yaakov require ash to be placed at the burning site before the bull and goat arrive?"
+      },
+      "learning": {
+        "summary": "The burning of the Yom Kippur bull and goat takes place to the north of Jerusalem, at the ash-pit (beit ha-deshen). Rabbi Eliezer b. Yaakov requires that altar ash be brought there first so the location is designated. There is also a dispute about when the burning handlers become tamei: the first Tanna says only when the carcasses become ash; Rabbi Eliezer b. Rabbi Shimon says even charred flesh causes tum'ah.",
+        "ahaMoment": "The 'beit ha-deshen' requirement is not just geographic - it must be a recognized place associated with altar ash. Rabbi Eliezer b. Yaakov adds that you must actively designate it by bringing altar ash there first, making it a real 'ash place' before the Yom Kippur burning.",
+        "memoryAnchor": "North of Jerusalem, ash-pit first - two requirements for the burning site. Tum'ah debate: ash vs charred.",
+        "openQuestion": "Why is there no equivalent requirement to designate the parah adumah burning site with altar ash?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-068b-l01",
+          "type": "ruling",
+          "label": "Ruling: Burning is to the north of Jerusalem",
+          "speaker": "Gemara",
+          "text": "All sin-offering work is performed in the north; therefore the Yom Kippur bull and goat are burned north of Jerusalem.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l02",
+          "type": "ruling",
+          "label": "Ruling: Ash-pit must have altar ash placed there first",
+          "speaker": "Rabbi Eliezer b. Yaakov",
+          "text": "He requires that ash from the altar be brought to the burning site first, so it can be called 'the place of pouring the ash' before the burning begins.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l03",
+          "type": "ruling",
+          "label": "Ruling: The site must also be sloped",
+          "speaker": "Rabbi Eliezer b. Yaakov",
+          "text": "Rabbi Eliezer b. Yaakov adds that the burning site must be sloped so the ashes flow down naturally - a geographic requirement beyond just having altar ash.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l03",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l04",
+          "type": "ruling",
+          "label": "Ruling: Tum'ah begins for one who assists at the burning",
+          "speaker": "Gemara",
+          "text": "One who assists at the time of burning (not just the one who carries the carcasses) also becomes tamei - derived from 'them' in the verse.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l04",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l05",
+          "type": "dispute",
+          "label": "Dispute: Tum'ah when charred vs when fully ash",
+          "speaker": "First Tanna vs Rabbi Eliezer b. Rabbi Shimon",
+          "text": "First Tanna: no tum'ah until the carcass becomes ash (reading 'them' as requiring full consumption). Rabbi Eliezer b. Rabbi Shimon: charred flesh is already tamei.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l05",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l06",
+          "type": "ruling",
+          "label": "Ruling: Charred is not yet called 'the bull'",
+          "speaker": "Gemara",
+          "text": "According to Rabbi Eliezer b. Rabbi Shimon, charred flesh does not cause tum'ah - it is no longer recognizable as the bull and thus cannot cause garment tum'ah at that stage.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l06",
+              "vilnaLine": 13
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "burning-location",
+        "ash-pit",
+        "tum'ah-timing",
+        "tannaitic-dispute"
+      ],
+      "concepts": {
+        "halachic": [
+          "burning site requirements: north, sloped, with altar ash",
+          "tum'ah onset: ash vs charred"
+        ],
+        "theological": [
+          "north as the direction of sin-offering work"
+        ],
+        "narrative": [
+          "the ash-pit north of Jerusalem as designated burning site"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "beit ha-deshen location",
+        "tum'ah of burning handlers"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any place north of Jerusalem qualifies for burning the bull and goat",
+          "correction": "The site must be a recognized ash-pit and Rabbi Eliezer b. Yaakov requires it to be designated with altar ash first and to be sloped.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Sloped ash-pit north of Jerusalem with altar ash placed first, then carcasses burned",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does Rabbi Eliezer b. Yaakov require about the Yom Kippur burning site that the first Tanna does not?",
+          "answer": "He requires that altar ash be brought to the site first so it is designated as 'the place of pouring the ash' - and also that the site be sloped so ashes flow down.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The Yom Kippur bull and goat are burned north of Jerusalem at a sloped ash-pit. A dispute about whether altar ash must be placed there first. Tum'ah begins when the carcasses become ash (Tanna Kamma) or when charred (Rabbi Eliezer b. Rabbi Shimon).",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-068b-s02",
+      "lineRange": {
+        "startVilnaLine": 13,
+        "endVilnaLine": 45
+      },
+      "lines": [
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.68b.7"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.68b.8"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.68b.9"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.68b.10"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.68b.11"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.68b.12"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.68b.13"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.68b.14"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.68b.15"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.68b.16"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.68b.17"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.68b.18"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.68b.19"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.68b.20"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.68b.7",
+        "Yoma.68b.8",
+        "Yoma.68b.9",
+        "Yoma.68b.10",
+        "Yoma.68b.11",
+        "Yoma.68b.12",
+        "Yoma.68b.13",
+        "Yoma.68b.14",
+        "Yoma.68b.15",
+        "Yoma.68b.16",
+        "Yoma.68b.17",
+        "Yoma.68b.18",
+        "Yoma.68b.19",
+        "Yoma.68b.20"
+      ],
+      "display": {
+        "whats": "Mishnah Ch. 7: The HP cannot begin burning the eimurim until news arrives that the goat has reached the wilderness. Relay men stood from Jerusalem to the cliff waving cloths to signal the goat's arrival. Then the HP came to read the Torah portion - either in his linen vestments or in his own white garments - with the scroll handed to him by the chazan.",
+        "hint": "Why was the HP prohibited from beginning the next part of the service before the Azazel goat reached the wilderness?"
+      },
+      "learning": {
+        "summary": "Mishnah: The elders told the HP he could not begin the next service until the goat reached the wilderness (derived from Lev. 16 - first the sending, then the burning of fats). A relay system of signal-wavers stood from Jerusalem to the cliff. Once word came, the HP came to read the Torah portion. He could read in either his white linen vestments or his own (non-priestly) white garment. The synagogue chazan handed him the Torah scroll. He read Leviticus 16 and then Leviticus 23, followed by eight blessings.",
+        "ahaMoment": "The relay signal system - people standing in a chain from Jerusalem to the cliff waving cloths - was real-time telecommunications in the ancient world, ensuring the HP could not proceed until the goat was definitively dispatched.",
+        "memoryAnchor": "Signal wavers from Jerusalem to the cliff - the 'text message' of its time telling the HP the Azazel goat arrived.",
+        "openQuestion": "Why was the HP permitted to use his own personal white garments for the Torah reading rather than requiring the official priestly vestments?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-068b-l07",
+          "type": "ruling",
+          "label": "Ruling: HP cannot begin next service until goat reaches wilderness",
+          "speaker": "Mishnah",
+          "text": "The elders told the HP: you may not begin the next service until word comes that the goat has reached the wilderness (based on Lev. 16 sequence).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l07",
+              "vilnaLine": 13
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l08",
+          "type": "ruling",
+          "label": "Ruling: Relay signal men stood from Jerusalem to cliff",
+          "speaker": "Mishnah",
+          "text": "Relay men (dirchaot) stood in a chain from Jerusalem to the cliff; those near the wilderness waved cloths and each successive relay man passed the signal to Jerusalem.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l08",
+              "vilnaLine": 15
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l09",
+          "type": "ruling",
+          "label": "Ruling: Until Beit Chadudo - head of the wilderness",
+          "speaker": "Mishnah",
+          "text": "The relay extended until Beit Chadudo - the place at the head of the wilderness where the mitzva of sending was fulfilled.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l09",
+              "vilnaLine": 18
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l10",
+          "type": "ruling",
+          "label": "Ruling: HP comes to read the Torah portion",
+          "speaker": "Mishnah",
+          "text": "Once the mitzva was fulfilled, the HP came to read the Torah portion - the reading is indispensable to the Yom Kippur service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l10",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l11",
+          "type": "ruling",
+          "label": "Ruling: May read in linen or personal white vestments",
+          "speaker": "Mishnah",
+          "text": "If he wished, he could read in the white linen priestly vestments; or he could change into his own personal white garments for the reading.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l11",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l12",
+          "type": "ruling",
+          "label": "Ruling: Synagogue near the Temple; chazan held scroll",
+          "speaker": "Mishnah",
+          "text": "There was a synagogue adjacent to the Temple on the Temple Mount. The chazan (sexton) took the scroll, the synagogue head gave it to the chazan, the chazan gave it to the deputy, and the deputy gave it to the HP.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l12",
+              "vilnaLine": 24
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l13",
+          "type": "ruling",
+          "label": "Ruling: Read Leviticus 16, then Leviticus 23 by heart",
+          "speaker": "Mishnah",
+          "text": "He read the Acharei Mot portion (Lev. 16) from the scroll, then read the Emor el ha-kohanim portion (Lev. 23) by heart, then recited eight blessings.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l13",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l14",
+          "type": "ruling",
+          "label": "Ruling: Eight blessings listed",
+          "speaker": "Mishnah",
+          "text": "The eight blessings are: on the Torah, on the service, on thanksgiving, on forgiveness of sin, on the Temple, on the priests, on Israel, and on Jerusalem.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l14",
+              "vilnaLine": 29
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l15",
+          "type": "ruling",
+          "label": "Ruling: Leviticus 23 read by heart - in Numbers format",
+          "speaker": "Mishnah",
+          "text": "The Numbers mussaf portion (Pinchas section) was read from the scroll, not by heart - the Gemara explains the distinction.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l15",
+              "vilnaLine": 32
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l16",
+          "type": "ruling",
+          "label": "Ruling: Torah blessing recited after the reading",
+          "speaker": "Gemara",
+          "text": "After the reading he recited the blessing on the Torah ('who gave us His Torah of truth').",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l16",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l17",
+          "type": "ruling",
+          "label": "Ruling: Service blessing - for the Temple service",
+          "speaker": "Gemara",
+          "text": "The service blessing: 'may You be pleased with Your people Israel and accept the service in the sanctuary' - followed by thanksgiving and forgiveness blessings.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l17",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l18",
+          "type": "ruling",
+          "label": "Ruling: Vestments may be used outside service hours",
+          "speaker": "Gemara",
+          "text": "The Gemara rules that the HP's vestments may be used (enjoyed) when not in service - the prohibition is specifically during service transitions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l18",
+              "vilnaLine": 38
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l19",
+          "type": "ruling",
+          "label": "Ruling: Sleep is the key difference for vestment status",
+          "speaker": "Gemara",
+          "text": "The key distinction is sleep: if the HP slept between service sessions in his vestments, he must immerse again. Without sleep, the vestments' status continues.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l19",
+              "vilnaLine": 39
+            }
+          ]
+        },
+        {
+          "id": "yoma-068b-l20",
+          "type": "ruling",
+          "label": "Ruling: Conclusion on vestment use between services",
+          "speaker": "Gemara",
+          "text": "The final ruling on vestment use and immersion requirements between the various Yom Kippur service sessions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-068b-l20",
+              "vilnaLine": 42
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "torah-reading",
+        "relay-signals",
+        "eight-blessings",
+        "priestly-vestments",
+        "yom-kippur-service"
+      ],
+      "concepts": {
+        "halachic": [
+          "HP's Torah reading indispensable",
+          "relay signal system for Azazel confirmation",
+          "eight blessings of Yom Kippur reading",
+          "vestment use between services"
+        ],
+        "theological": [
+          "Torah reading as central to Yom Kippur atonement",
+          "relay signals as ancient communication"
+        ],
+        "narrative": [
+          "signal wavers from Jerusalem to cliff",
+          "synagogue adjacent to Temple",
+          "chazan to deputy to HP chain"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Yom Kippur service order",
+        "HP's five immersions",
+        "linen and golden vestments"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP could begin burning the fats immediately after handing over the Azazel goat",
+          "correction": "He had to wait for confirmation that the goat had reached the wilderness - signaled by the relay wavers - before proceeding to the Torah reading and the next service steps.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Chain of relay signal-wavers from Jerusalem to the Azazel cliff, then HP in the Temple synagogue reading Torah",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How did the HP know when the Azazel goat had reached the wilderness?",
+          "answer": "A relay chain of men stood from Jerusalem to the cliff, waving cloths to pass the signal back to Jerusalem - when those near the wilderness waved, each successive man waved, until the message reached the HP.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "The HP could not begin the next service until the Azazel goat reached the wilderness, signaled by relay wavers. He then came to read the Torah, recited eight blessings, and the vestments could be used between services as long as he did not sleep in them.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "לצפונה של ירושלים. שכל מעשה חטאת בצפון: אבית הדשן. צריך",
+      "en": "To the north of Jerusalem - because all sin-offering work is done in the north.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "שיקדים לשם דשן המזבח שיהא נקרא קודם לכן מקום שפך הדשן",
+      "en": "At the ash-pit - he must first place some ash from the altar there, so it will previously be called 'the place of pouring the ash.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "מכלל דלתנא קמא לא צריך: רבי אליעזר בן יעקב הוא. דאמר",
+      "en": "This implies that according to the first Tanna he need not do so. Rabbi Eliezer b. Yaakov holds.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "לא אשמועינן אלא שיהא מקומו מדרון שיהא דשנו משתפך:",
+      "en": "He only teaches us that the location must be sloped so the ashes flow down.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "ודילמא במקומו משופך הוא דפליגי.",
+      "en": "Perhaps they only dispute whether the location must be sloped.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "ומודה רבי אליעזר בן יעקב שיקדים",
+      "en": "And Rabbi Eliezer b. Yaakov agrees that he must first place ashes there.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "שם דשן אלא דבעי נמי מקומו",
+      "en": "But he also requires the location to be sloped.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "משופך: השורף. המתעסק בצרכי",
+      "en": "The burner - one who is occupied with the needs of the burning of their bodies, as it says 'them.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "שריפתן בגופן דכתיב אותם כגון",
+      "en": "Such as one who assists at the time of burning - and this Tanna holds like Rabbi Shimon.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "המסייע בשעת שריפה והאי תנא",
+      "en": "That they do not cause tum'ah in garments until the fire ignites in them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "אית ליה כרבי שמעון דאין מטמאין",
+      "en": "He made it charred - when the flesh has melted but is not yet ash.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "בגדים עד שיוצת בהן האור: דשויה",
+      "en": "According to the first Tanna they do not cause tum'ah until they become ash.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "חרוכא. דהוי ניתך הבשר ואפר",
+      "en": "Because 'them' is read as requiring full consumption.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "מיהו לא הוו לתנא קמא מטמאין",
+      "en": "According to Rabbi Eliezer b. Rabbi Shimon: charred does not cause tum'ah - it is not yet called 'the bull.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "עד שיעשו אפר דאותם קרינא ביה",
+      "en": "Charred does not cause tum'ah since it is not yet called 'the bull.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "לרבי אלעזר ברבי שמעון שוייה",
+      "en": "For Rabbi Eliezer b. Rabbi Shimon it is charred and not tamei.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "חרוכא לא מטמא דלא פר מיקרי:",
+      "en": "Charred is not tamei - for it is not called 'the bull.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "מתני' אמרו לו לכהן גדול וכו'.",
+      "en": "Mishnah: They said to the High Priest etc.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "שאינו רשאי להתחיל בעבודה אחרת",
+      "en": "That he is not permitted to begin another service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "עד שהגיע שעיר למדבר שנאמר ושלח",
+      "en": "Until the goat reaches the wilderness, as it says 'he sent the goat to the wilderness' - and afterward.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "את השעיר במדבר ואחר כך ואת",
+      "en": "'And the fat of the sin offering he shall burn on the altar.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "חלב החטאת יקטיר המזבחה:",
+      "en": "And afterward 'the fat of the sin offering he shall burn on the altar.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "דירכאות. בני אדם עומדים מירושלים",
+      "en": "Relay men - people standing from Jerusalem to the cliff so that each could see the signal of the next.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "לצוק בכדי שיראה זה סימנו של זה",
+      "en": "And those near the wilderness waved cloths; the one next to them saw and waved too.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ומניפין אותם הסמוכין למדבר בסודרין",
+      "en": "And so each man who saw his neighbor waved, and so on until Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "וזה הסמוך לו רואה ומניף גם הוא",
+      "en": "Relay men - in the vernacular: 'ridder-igardesh.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "ורואה חבירו הסמוך לירושלים",
+      "en": "Until Beit Chadudo - that is the head of the wilderness, and there was fulfilled 'he sent the goat to the wilderness.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "דירכאות בלע\"ז רידר\"יגרדש: עד",
+      "en": "They walk a mil - as we said above (66b): the people of Jerusalem escort him to the first sukkah.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "בית חדודו. הוא ראש המדבר ושם",
+      "en": "Gemara: his mitzva was fulfilled - and he begins to read the Torah portion.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "נתקיים ושלח את השעיר במדבר:",
+      "en": "Hadran alach shnei se'irei.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "הולכין מיל. כדאמרן לעיל (סו:) מיקרי",
+      "en": "He came to read - the Torah portion. We derive from the Inauguration that the Torah reading is indispensable.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "ירושלים מלוין אותו עד סוכה",
+      "en": "From chapter 1 (5b): from where do we know that even the Torah reading is indispensable?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "הראשונה: גמ' נעשית מצותו.",
+      "en": "If he wishes to read in the linen vestments - which he is currently wearing, having served in them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "ומתחיל לקרות הפרשה:",
+      "en": "Atztalit - a garment like a cloak.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "הדרן עלך שני שעירי",
+      "en": "The synagogue - was near the Temple on the Temple Mount.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "בא לקרות. את הפרשה דילפינן",
+      "en": "The chazan (sexton) of the synagogue - the attendant.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "ממלואים דאמרינן בפ\"ק (דף",
+      "en": "The head of the synagogue - by his direction communal needs are decided: who leads the Haftarah, who leads Barchu, who leads the Amidah.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "ה:) מניין שאף מקרא פרשה מעכב",
+      "en": "And only on the tenth (Lev. 23) - in the portion Emor el ha-kohanim.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "וכו': אם רצה לקרות בבגדי בוץ.",
+      "en": "And he says more than what I read etc. - the Gemara explains the reason.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "שהוא לבוש עכשיו שעבד בהן עבודת",
+      "en": "In the Book of Numbers - the book Vayedaber, which begins with the census of Israel.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "היום: אצטלית. לבוש כמין חלוק:",
+      "en": "And the portion of Pinchas is in that book, where the additional offerings are stated.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "בית הכנסת. היה סמוך לעזרה בהר",
+      "en": "He reads by heart - the Gemara explains the reason.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "הבית: חזן הכנסת. שמש: ראש",
+      "en": "On the Torah - the blessing after it: 'who gave us' etc.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "הכנסת. על פיו נחתכין צרכי הכנסת",
+      "en": "On the service - 'may You be pleased with Your people Israel and accept the service in the sanctuary' etc.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "מי מפטיר מי פורס על שמע מי עובר",
+      "en": "On thanksgiving - 'we give thanks' etc. He blesses for the service, and thanksgiving is adjacent to service as it says 'he who sacrifices a todah honors Me' (Ps. 50).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "לפני התיבה: ואך בעשור. שבפרשת",
+      "en": "And that is thanksgiving.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "אמור אל הכהנים: ואומר יותר ממה",
+      "en": "On forgiveness of sin - 'forgive our sins on this Yom Kippur' until 'King who forgives and pardons our sins.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "שקריתי וכו'. בגמרא מפרש טעמא:",
+      "en": "On the Temple - and concludes: 'Blessed who chose the Temple.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "שבחומש הפקודים. ספר וידבר",
+      "en": "On the priests - he prays for the priests and concludes: 'Blessed who chose the descendants of Aaron.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "שמתחיל במנינן של ישראל ופרשת",
+      "en": "On the rest of the prayer - explained in the Gemara. Gemara: They permitted enjoyment - they permitted use of the vestments when not in service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "פינחס באותו ספר ושם המוספין",
+      "en": "Sleep is the difference - and the latter part.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "אמורין: קורא על פה. טעמא מפרש",
+      "en": "Rashi line 52: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "בגמרא: על התורה. ברכה של אחריה",
+      "en": "Rashi line 53: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "אשר נתן לנו וכו': ועל העבודה.",
+      "en": "Rashi line 54: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "רצה בעמך ישראל ותרצה העבודה בדביר ביתך וכו' שאותך לבדך ביראה נעבוד: ועל ההודאה. מודים אנחנו לך עד הטוב לך",
+      "en": "Rashi line 55: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "להודות על העבודה מברך בשביל העבודה שעבד והודאה סמוכה לעבודה דכתיב זובח תודה יכבדנני (תהלים נ) אחר עבודה תודה",
+      "en": "Rashi line 56: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "והיא הודאה: על מחילת העון. מחול לעונותינו ביום הכפורים הזה וכו' עד מלך מוחל וסולח לעונותינו וכו': על המקדש. מתפלל",
+      "en": "Rashi line 57: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "על המקדש וחותם ברוך שבחר במקדש: ועל הכהנים. מתפלל על הכהנים וחותם ברוך שבחר בזרעו של אהרן וכן על ישראל:",
+      "en": "Rashi line 58: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "ועל שאר התפלה. מפרש בגמרא: גמ' נתנו ליהנות. נתן רשות ליהנות בהן בלא שעת עבודה: שינה הוא דלא. שמא יפיח:",
+      "en": "Rashi line 59: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "וסיפא",
+      "en": "Rashi line 60: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

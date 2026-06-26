@@ -1,0 +1,517 @@
+{
+  "canonicalRef": "Yoma 62a",
+  "summary": "Two topics: First, the fundamental question of which goats in replacement scenarios fall under the burning obligation - the issue is whether designation alone or actual service performance triggers the obligation to burn outside Jerusalem. Second, a detailed amora'im dispute between Rav Pappi and Rav Pappa about the scope of this burning obligation, turning on how the paired nature of the two Yom Kippur goats affects replacement dynamics.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-062a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.62a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.62a.1"
+      ],
+      "display": {
+        "whats": "Does the burning obligation apply to multiple goats in replacement scenarios?",
+        "hint": "The Torah obligates burning the slaughtered Yom Kippur goat. When replacement goats are brought, the question is how many must be burned and which ones."
+      },
+      "learning": {
+        "summary": "The Gemara opens with a fundamental question about the burning obligation: when the Yom Kippur goats are replaced (due to death or other disqualification), does the burning obligation extend to all replacement goats or only to those that actually performed their service? The slaughtered 'for God' goat must be burned outside Jerusalem. When replacements are brought, understanding exactly which goats fall under this obligation is the question.",
+        "ahaMoment": "The burning obligation is tied to service performance, not just designation. A goat designated but never used sits in a different legal category from one that performed its role.",
+        "memoryAnchor": "Designated vs. performed: the burning tracks performance, not mere designation.",
+        "openQuestion": "Why would it matter whether the burning obligation applies to replacement goats that never performed their service?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Does the obligation to burn the Yom Kippur goat extend to replacement goats in various contingency scenarios?",
+          "id": "yoma-062a-l01",
+          "label": "Question: Does the obligation to burn the Yom",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "burning obligation",
+        "replacement goats",
+        "designation vs. performance",
+        "scapegoat"
+      ],
+      "concepts": {
+        "halachic": [
+          "which goats must be burned",
+          "designation vs. performance of service"
+        ],
+        "theological": [
+          "what triggers a Temple obligation: designation or performance"
+        ],
+        "narrative": [
+          "Yom Kippur goat laws",
+          "replacement scenarios"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the slaughtered goat (for God) must be burned outside Jerusalem",
+        "Knowing the Azazel goat is sent away, not burned"
+      ],
+      "misconceptions": [
+        "The Azazel goat is never burned - only the slaughtered goat undergoes burning"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "goats that performed service vs. those merely designated"
+        },
+        {
+          "type": "action",
+          "name": "burning obligation analysis"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Does the obligation to burn the Yom Kippur goat apply to replacement goats?",
+          "answer": "Only to replacement goats that actually performed their service (the slaughtered 'for God' goat). Goats designated but not used sit in a different category."
+        }
+      ],
+      "finalRuling": "The burning obligation applies to goats that performed their service, not merely those that were designated.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-062a-s02",
+      "lineRange": {
+        "startVilnaLine": 2,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.62a.2"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.62a.3"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.62a.4"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.62a.5"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.62a.6"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.62a.7"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.62a.8"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.62a.9"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.62a.10"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.62a.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.62a.2",
+        "Yoma.62a.3",
+        "Yoma.62a.4",
+        "Yoma.62a.5",
+        "Yoma.62a.6",
+        "Yoma.62a.7",
+        "Yoma.62a.8",
+        "Yoma.62a.9",
+        "Yoma.62a.10",
+        "Yoma.62a.11"
+      ],
+      "display": {
+        "whats": "Rav Pappi and Rav Pappa dispute the scope of the burning obligation in replacement scenarios",
+        "hint": "Two amoraim disagree: Rav Pappi holds that the burning applies more broadly to replacements; Rav Pappa holds it applies more narrowly. The dispute turns on how the replacement pair-dynamics work."
+      },
+      "learning": {
+        "summary": "The Gemara records a detailed dispute between Rav Pappi and Rav Pappa about the burning obligation when the Yom Kippur goats are replaced. When the Azazel goat dies and is replaced, what happens to the original 'for God' goat's burning status? Does the new pair function entirely independently, or does the original goat's status affect the new one? The two amoraim analyze the interdependence between the paired goats and reach different conclusions. The practical scenarios are carefully enumerated.",
+        "ahaMoment": "Two amoraim, same texts, different conclusions: the paired nature of the Yom Kippur goats creates a complex web of interdependence that even great scholars must untangle carefully.",
+        "memoryAnchor": "Rav Pappi vs. Rav Pappa: the same two goats create opposite conclusions depending on which interdependence principle you prioritize.",
+        "openQuestion": "When is it more important to treat the two Yom Kippur goats as a unified pair vs. as two independent sacrifices?"
+      },
+      "argumentFlow": [
+        {
+          "type": "dispute",
+          "speaker": "Rav Pappi",
+          "text": "The burning obligation extends more broadly when replacements are involved.",
+          "id": "yoma-062a-l02",
+          "label": "Dispute: The burning obligation extends more broadly when",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "type": "dispute",
+          "speaker": "Rav Pappa",
+          "text": "The burning obligation applies narrowly - only to the goat that performed the service.",
+          "id": "yoma-062a-l08",
+          "label": "Dispute: The burning obligation applies narrowly - only",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l08",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "type": "analysis",
+          "speaker": "Gemara",
+          "text": "Working through various replacement scenarios to test each position.",
+          "id": "yoma-062a-l14",
+          "label": "Analysis: Working through various replacement scenarios to test",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l14",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "type": "resolution",
+          "speaker": "Gemara",
+          "text": "The Gemara resolves the dispute through careful analysis of the interdependence principle.",
+          "id": "yoma-062a-l21",
+          "label": "Resolution: The Gemara resolves the dispute through careful",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l21",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "The practical ruling for contingency scenarios.",
+          "id": "yoma-062a-l28",
+          "label": "Ruling: The practical ruling for contingency scenarios.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-062a-l28",
+              "vilnaLine": 28
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Rav Pappi",
+        "Rav Pappa",
+        "burning obligation",
+        "replacement goats",
+        "paired goats",
+        "dispute"
+      ],
+      "concepts": {
+        "halachic": [
+          "amora dispute on replacement burning obligation",
+          "paired goat interdependence"
+        ],
+        "theological": [
+          "the complexity of paired obligations and replacement scenarios"
+        ],
+        "narrative": [
+          "amora dispute",
+          "Yom Kippur contingency law"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the two goats are a matched pair",
+        "Knowing what happens to the partner when one goat dies or is replaced"
+      ],
+      "misconceptions": [
+        "The two goats are a pair but also independent - the balance between these principles is the dispute"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "Rav Pappi vs. Rav Pappa on burning scope"
+        },
+        {
+          "type": "relationship",
+          "name": "interdependence of the two Yom Kippur goats"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What is the dispute between Rav Pappi and Rav Pappa about the burning obligation?",
+          "answer": "Rav Pappi holds the burning obligation applies more broadly to replacement goats; Rav Pappa holds it applies narrowly. The disagreement turns on how the paired nature of the two goats affects replacement scenarios."
+        }
+      ],
+      "finalRuling": "Rav Pappi and Rav Pappa dispute how broadly the burning obligation applies in goat replacement scenarios, disagreeing on the interdependence principle of the paired Yom Kippur goats.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Does he burn his flock? The question: does the obligation to burn include both goats or just one?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "He is obligated to burn only one goat - the one slaughtered as the sin-offering.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The Azazel goat is not burned; only the slaughtered goat (the 'for God' goat) is.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Amora'im disagreed about this issue.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rav Pappi's position: the burning applies to both goats in a different scenario.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rav Pappa's position: the burning applies only to the original designated goat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The dispute concerns a case where the Azazel goat died before being dispatched.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Or where both goats died and replacements were brought.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "What happens to the replacement goat's partner that was not used?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "If the replacement for Azazel dies, must the second replacement also be burned?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The practical question: how many goats can accumulate in these replacement scenarios?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The principle: only the goats that actually perform their designated service need burning.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Goats that died before their service are not in the same category.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The obligation to burn is connected to the service, not just to the designation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "A goat designated but never used: its status is different from one that served.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The Gemara works through these replacement scenarios carefully.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Each scenario illuminates the relationship between designation and performance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "When designation alone creates legal status vs. when performance is required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The Yom Kippur goats have a dual nature: one for God (slaughtered) and one for Azazel (sent away).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Their legal status depends on which role they are playing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The replacement rules interact with the paired nature of the two goats.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "A replacement for one affects the status of the other.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "This interdependence is the key complexity of these replacement halachot.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rav Pappi and Rav Pappa analyze the scenarios from different angles.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "One focuses on the original pair; the other on the replacement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Both are trying to determine when the obligation to burn is triggered.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The Gemara ultimately resolves the dispute through a careful analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The resolution applies in practice when replacement scenarios arise.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The underlying principle: the burned goat's service atones through the slaughtering, not the burning.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The burning is disposal, not atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The scapegoat's service atones through the dispatch, not through what happens later.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Understanding which act is the atonement is key to understanding the replacement laws.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "These laws protect the integrity of the Yom Kippur service when things go wrong.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The Talmud ensures that even in unusual circumstances, the atonement is achieved.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "The replacement rules are not theoretical - the HP needed to know them.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "His seven days of preparation included review of exactly these contingency scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Being prepared for all eventualities is part of what it means to be HP.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The Talmud preserves these contingency rules for the future restoration of the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "And for the present: understanding them is itself meritorious.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The study of these laws participates in the Temple service vicariously.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Every detail of the Yom Kippur law is studied; none is abandoned.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "This comprehensive preservation is the Talmud's gift to future generations.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The HP may be gone, but the knowledge of his service remains.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Preserved in the pages of Yoma, waiting for the Temple to be rebuilt.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

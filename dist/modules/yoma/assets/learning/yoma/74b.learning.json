@@ -1,0 +1,964 @@
+{
+  "canonicalRef": "Yoma 74b",
+  "summary": "The Gemara definitively establishes the koy as its own species, then turns to the main analysis of 'ta'anu et nafshoteichem' (afflict yourselves). A midrashic derivation establishes which prohibitions (karet, death, lav) are included in Yom Kippur affliction, and the verse about manna leads to disputes about hunger, blindness, and wine.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-074b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.74b.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.74b.1"
+      ],
+      "display": {
+        "whats": "What does 'afflict yourselves' on Yom Kippur mean, and what foods violate it?",
+        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?"
+      },
+      "learning": {
+        "summary": "The Sages derive 'ta'anu et nafshoteichem' means food deprivation, not temperature exposure. A midrashic ladder of inclusions: karet foods, death-penalty foods, lav foods, and even normally permitted foods all fall under the Yom Kippur affliction framework. The verse 'I will destroy that soul' broadens the prohibition. Verbal analogy from metzora confirms that affliction means food deprivation.",
+        "ahaMoment": "Yom Kippur affliction is about the act of eating itself - not just about forbidden foods.",
+        "memoryAnchor": "Climbing the severity ladder: karet, death, lav, no prohibition - Yom Kippur covers them all.",
+        "openQuestion": "What distinguishes food-denial as affliction versus other forms of physical hardship?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-074b-l01",
+          "type": "ruling",
+          "label": "Koy is its own species",
+          "speaker": "Gemara",
+          "text": "Not a domesticated animal, not a wild animal - its own category",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "koy",
+        "Yom-Kippur",
+        "affliction",
+        "fasting"
+      ],
+      "concepts": {
+        "halachic": [
+          "Yom Kippur affliction means food-denial, not temperature exposure",
+          "koy is its own species"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What is the koy's halakhic status?",
+          "answer": "It is its own species - neither domesticated animal nor wild animal",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Yom Kippur affliction means denying food and drink.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-074b-s02",
+      "lineRange": {
+        "startVilnaLine": 5,
+        "endVilnaLine": 38
+      },
+      "lines": [
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.74b.2"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.74b.3"
+        },
+        {
+          "vilnaLine": 14,
+          "sefariaRef": "Yoma.74b.4"
+        },
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.74b.5"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.74b.6"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.74b.7"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.74b.8"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.74b.9"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.74b.10"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.74b.11"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.74b.12"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.74b.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.74b.2",
+        "Yoma.74b.3",
+        "Yoma.74b.4",
+        "Yoma.74b.5",
+        "Yoma.74b.6",
+        "Yoma.74b.7",
+        "Yoma.74b.8",
+        "Yoma.74b.9",
+        "Yoma.74b.10",
+        "Yoma.74b.11",
+        "Yoma.74b.12",
+        "Yoma.74b.13"
+      ],
+      "display": {
+        "whats": "What does 'afflict yourselves' mean, and what foods violate it? Gezerah shavah and manna connection",
+        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?"
+      },
+      "learning": {
+        "summary": "The Sages derive 'ta'anu' means food deprivation, not temperature exposure. A midrashic ladder of inclusions: karet, death, lav, and even permitted foods all fall under the Yom Kippur framework. The verse 'I will destroy' broadens it further. Verbal analogy from metzora confirms it. Discussion of why not derive from 'afflicting daughters' or Egypt affliction. The manna verse teaches: denying food = affliction.",
+        "ahaMoment": "Yom Kippur affliction is about the act of eating itself - not just about forbidden foods.",
+        "memoryAnchor": "Climbing the severity ladder: karet, death, lav, no prohibition - Yom Kippur covers them all.",
+        "openQuestion": "What distinguishes food-denial as affliction versus other forms of physical hardship?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-074b-l02",
+          "type": "ruling",
+          "label": "Affliction means food-denial",
+          "speaker": "Baraita",
+          "text": "Not sitting in heat or cold - active deprivation",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l02",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l03",
+          "type": "objection",
+          "label": "What about sitting in heat?",
+          "speaker": "Gemara",
+          "text": "Even if it causes suffering, that alone is not what the verse requires",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l03",
+              "vilnaLine": 9
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l04",
+          "type": "ruling",
+          "label": "Piggul and notar included",
+          "speaker": "Baraita",
+          "text": "Foods that are karet are included in the Yom Kippur affliction framework",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l04",
+              "vilnaLine": 14
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l05",
+          "type": "ruling",
+          "label": "Tevel included (death penalty)",
+          "speaker": "Baraita",
+          "text": "Even more severe foods are included",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l05",
+              "vilnaLine": 18
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l06",
+          "type": "ruling",
+          "label": "Neveilah included (lav)",
+          "speaker": "Baraita",
+          "text": "Even a simple prohibition is included",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l06",
+              "vilnaLine": 21
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l07",
+          "type": "ruling",
+          "label": "Chullin included (no explicit prohibition)",
+          "speaker": "Baraita",
+          "text": "Even normally permitted food is included in the affliction framework",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l07",
+              "vilnaLine": 23
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l08",
+          "type": "ruling",
+          "label": "Terumah excluded (affects only kohanim)",
+          "speaker": "Baraita",
+          "text": "Terumah has death penalty but is restricted to kohanim",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l08",
+              "vilnaLine": 25
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l09",
+          "type": "ruling",
+          "label": "'I will destroy' extends to all affliction-denial",
+          "speaker": "Gemara",
+          "text": "The verse broadens Yom Kippur prohibition to all forms",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l09",
+              "vilnaLine": 31
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l10",
+          "type": "ruling",
+          "label": "Verbal analogy from metzora",
+          "speaker": "School of Rabbi Yishmael",
+          "text": "Inuy on Yom Kippur derived from inuy by the metzora",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l10",
+              "vilnaLine": 34
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l11",
+          "type": "ruling",
+          "label": "Gezerah shavah from metzora",
+          "speaker": "School of Rabbi Yishmael",
+          "text": "Inuy on YK = food deprivation, like metzora",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l11",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l12",
+          "type": "ruling",
+          "label": "Not from 'afflicting daughters'",
+          "speaker": "Gemara",
+          "text": "Derive public affliction from public context only",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l12",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l13",
+          "type": "ruling",
+          "label": "Not from Egypt affliction",
+          "speaker": "Gemara",
+          "text": "Egypt was different; the manna verse teaches: denying food = affliction",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l13",
+              "vilnaLine": 38
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "koy",
+        "Yom-Kippur",
+        "affliction",
+        "fasting"
+      ],
+      "concepts": {
+        "halachic": [
+          "Yom Kippur affliction means food-denial, not temperature exposure",
+          "koy is its own species"
+        ],
+        "theological": [],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does 'afflict yourselves' on Yom Kippur mean?",
+          "answer": "Active food and drink deprivation - not passive exposure to extreme heat or cold",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Yom Kippur affliction means denying food and drink.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-074b-s03",
+      "lineRange": {
+        "startVilnaLine": 41,
+        "endVilnaLine": 43
+      },
+      "lines": [
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.74b.14"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.74b.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.74b.14",
+        "Yoma.74b.15"
+      ],
+      "display": {
+        "whats": "Manna, hunger, and blindness",
+        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?"
+      },
+      "learning": {
+        "summary": "Rav Yosef: from the manna verse, there is an allusion that blind people eat without satisfaction - their eyes cannot guide them to the food. The verse about 'setting your eyes on wine' is then disputed.",
+        "ahaMoment": "The manna was food that came without natural hunger satisfaction - a teaching about the relationship between eyes and satisfaction.",
+        "memoryAnchor": "Blind people eat but can't be satisfied - eyes needed for full nourishment.",
+        "openQuestion": "What is the connection between setting eyes on wine and losing moral clarity?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-074b-l14",
+          "type": "ruling",
+          "label": "Manna: he afflicted and fed",
+          "speaker": "Gemara",
+          "text": "Paradox: afflicted with hunger yet provided food",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l14",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "yoma-074b-l15",
+          "type": "ruling",
+          "label": "Blind people not satisfied when eating",
+          "speaker": "Rav Yosef",
+          "text": "From the manna verse: eyes are needed for satisfaction",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l15",
+              "vilnaLine": 43
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "manna",
+        "hunger",
+        "blindness",
+        "wine",
+        "satisfaction"
+      ],
+      "concepts": {
+        "halachic": [
+          "eyes needed for satisfaction - blind people eat without being satisfied"
+        ],
+        "theological": [
+          "manna as spiritual food teaching about the relationship of eyes and satiation"
+        ],
+        "narrative": [
+          "Rabbi Ami/Rabbi Asi dispute on the wine verse's meaning"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does Rav Yosef derive from the manna verse about blind people?",
+          "answer": "Blind people eat without being satisfied because their eyes do not see the food - the manna verse alludes to this",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Non-halachic aggadah connecting manna, affliction, blindness, and wine.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-074b-s04",
+      "lineRange": {
+        "startVilnaLine": 47,
+        "endVilnaLine": 47
+      },
+      "lines": [
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.74b.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.74b.16"
+      ],
+      "display": {
+        "whats": "Manna, hunger, and blindness",
+        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?"
+      },
+      "learning": {
+        "summary": "Rav Yosef: from the manna verse, there is an allusion that blind people eat without satisfaction - their eyes cannot guide them to the food. The verse about 'setting your eyes on wine' is then disputed.",
+        "ahaMoment": "The manna was food that came without natural hunger satisfaction - a teaching about the relationship between eyes and satisfaction.",
+        "memoryAnchor": "Blind people eat but can't be satisfied - eyes needed for full nourishment.",
+        "openQuestion": "What is the connection between setting eyes on wine and losing moral clarity?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-074b-l16",
+          "type": "dispute",
+          "label": "Eyes set on wine = blindness or immorality?",
+          "speaker": "Rabbi Ami/Rabbi Asi",
+          "text": "One says it causes moral blindness; one says it makes women look permitted",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-074b-l16",
+              "vilnaLine": 47
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "manna",
+        "hunger",
+        "blindness",
+        "wine",
+        "satisfaction"
+      ],
+      "concepts": {
+        "halachic": [
+          "eyes needed for satisfaction - blind people eat without being satisfied"
+        ],
+        "theological": [
+          "manna as spiritual food teaching about the relationship of eyes and satiation"
+        ],
+        "narrative": [
+          "Rabbi Ami/Rabbi Asi dispute on the wine verse's meaning"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Argument flow",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What does Rav Yosef derive from the manna verse about blind people?",
+          "answer": "Blind people eat without being satisfied because their eyes do not see the food - the manna verse alludes to this",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Non-halachic aggadah connecting manna, affliction, blindness, and wine.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "פִּגּוּל",
+      "translit": "Piggul",
+      "en": "A sacrifice invalidated by improper intent during its offering; eating it carries karet."
+    },
+    {
+      "he": "נוֹתָר",
+      "translit": "Notar",
+      "en": "Leftover sacrificial meat that was not eaten within the permitted time; eating it carries karet."
+    },
+    {
+      "he": "טֶבֶל",
+      "translit": "Tevel",
+      "en": "Produce from which tithes have not yet been separated; forbidden to eat."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "אתא קרא לרבויי ספיקא. בתמיה אטו קמי שמיא ספיקא הוא אי",
+      "en": "the koy is its own species - if you say otherwise, the verse about blood would include it in 'bird and animal' categories",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "בהמה הוי אי חיה הוי: הא דאמר רב אידי בר אבין. בכריתות",
+      "en": "the Sages taught: 'afflict yourselves' - does this mean sit in sun until weak or in shade until cold?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "בפרק דם שחיטה (דף כא.) אף כל לאתויי כוי דקתני התם כל דם לא",
+      "en": "the Gemara asks: when one sits in sun and it heats him, maybe we tell him to fast anyway",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "תאכלו לעוף ולבהמה מה עוף ובהמה מיוחדים וכו': מה. מצות",
+      "en": "another baraita: 'afflict yourselves' could mean sit in sun or shade",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "מלאכת שבת שב ואל תעשה הוא",
+      "en": "I include piggul and notar which are karet - and also tevel which is not karet but is death",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "אף מצות עינוי שב ואל תעשה דבר",
+      "en": "I include tevel which has death penalty, and exclude neveilah which has only a lav",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "המבטל ממך את העינוי הוא ואין זו",
+      "en": "I include neveilah which has a lav, and exclude chullin which has no explicit prohibition",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "אלא כגון הני דמתניתין לא יאכל",
+      "en": "I include chullin (no prohibition to eat), and exclude terumah which has a death penalty but affects only kohanim",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "ולא ישתה ולא ירחץ: מה מלאכה",
+      "en": "the verse 'I will destroy that person' extends the prohibition of eating-on-YK to include any affliction-denying behavior",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "לא חלקת בה. בכל צדדיה אסורה",
+      "en": "what does 'if you wish to say' mean? Perhaps the verse is about adultery, not Yom Kippur affliction",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "אף עינוי נמי שאיסורו בכל צדדיו",
+      "en": "the school of Rabbi Yishmael: verbal analogy from metzora (inuy appears there and on Yom Kippur)",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "קאמר יצאו חמה וצנה שאם ישב",
+      "en": "why not derive from 'afflicting daughters'? One derives public affliction from public affliction",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "הרי הוא בעינוי ואם לא ישב אינו",
+      "en": "why not derive from Egyptian slavery affliction? The verse 'fed you manna' teaches that denying food = affliction",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "מצוה לישב: מה מלאכה דבר",
+      "en": "What does 'He afflicted you and caused you to hunger and fed you manna' mean? Rabbi Ami and Rabbi Asi dispute",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "שחייבין עליו במקום אחר. כרת כי",
+      "en": "Rav Yosef: from here an allusion that blind people eat without being satisfied - they cannot see the food",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "הכא כגון בשבת אף עינוי בדבר",
+      "en": "and the verse says 'your eyes shall set upon it' - Rabbi Ami and Rabbi Asi dispute whether it refers to wine or adultery",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "אכילה קאמר שמצינו שחייב עליו",
+      "en": "[Rashi commentary on line 17]: אכילה קאמר שמצינו שחייב עליו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "במקום אחר כגון פיגול ונותר: ואם",
+      "en": "[Rashi commentary on line 18]: במקום אחר כגון פיגול ונותר: ואם",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "נפשך לומר. ואם יש בידך להשיב על",
+      "en": "[Rashi commentary on line 19]: נפשך לומר. ואם יש בידך להשיב על",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "זה הרי ראיה אחרת דקרא של תענו",
+      "en": "[Rashi commentary on line 20]: זה הרי ראיה אחרת דקרא של תענו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "את נפשותיכם עינוי שהוא אבידת",
+      "en": "[Rashi commentary on line 21]: את נפשותיכם עינוי שהוא אבידת",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "הנפש בתוך חלל הגוף מיירי: וכי",
+      "en": "[Rashi commentary on line 22]: הנפש בתוך חלל הגוף מיירי: וכי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "תימא בעריות קמשתעי קרא. כלומר",
+      "en": "[Rashi commentary on line 23]: תימא בעריות קמשתעי קרא. כלומר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "עינוי. דתשמיש קא משתעי קרא",
+      "en": "[Rashi commentary on line 24]: עינוי. דתשמיש קא משתעי קרא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "דתשמיש נמי אקרי עינוי כדלקמן",
+      "en": "[Rashi commentary on line 25]: דתשמיש נמי אקרי עינוי כדלקמן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "(דף עז.) וחייבין עליו כרת במקום",
+      "en": "[Rashi commentary on line 26]: (דף עז.) וחייבין עליו כרת במקום",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "אחר כגון עריות: ונאמר להלן",
+      "en": "[Rashi commentary on line 27]: אחר כגון עריות: ונאמר להלן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "עינוי. ויענך וירעיבך (דברים ח) :",
+      "en": "[Rashi commentary on line 28]: עינוי. ויענך וירעיבך (דברים ח) :",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "ונילף מואם תענה את בנותי. דמוקי",
+      "en": "[Rashi commentary on line 29]: ונילף מואם תענה את בנותי. דמוקי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "ליה לקמן (שם.) אתשמיש: עינוי",
+      "en": "[Rashi commentary on line 30]: ליה לקמן (שם.) אתשמיש: עינוי",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "דרבים. יוה\"כ לכל ישראל ואכילת",
+      "en": "[Rashi commentary on line 31]: דרבים. יוה\"כ לכל ישראל ואכילת",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "המן לכל ישראל: עינוי בידי שמים.",
+      "en": "[Rashi commentary on line 32]: המן לכל ישראל: עינוי בידי שמים.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "יום הכפורים מצות מלך היא וכן",
+      "en": "[Rashi commentary on line 33]: יום הכפורים מצות מלך היא וכן",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "עינוי המן: ה\"ג המאכילך מן במדבר",
+      "en": "[Rashi commentary on line 34]: עינוי המן: ה\"ג המאכילך מן במדבר",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "וגו' רבי אמי ורבי אסי וכו'. ולית",
+      "en": "[Rashi commentary on line 35]: וגו' רבי אמי ורבי אסי וכו'. ולית",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "הכא רומיא דקראי אלא קרא",
+      "en": "[Rashi commentary on line 36]: הכא רומיא דקראי אלא קרא",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "מפרש המאכילך למען ענותך אוכל",
+      "en": "[Rashi commentary on line 37]: מפרש המאכילך למען ענותך אוכל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "ומעונה: אין לו פת בסלו. אוכל",
+      "en": "[Rashi commentary on line 38]: ומעונה: אין לו פת בסלו. אוכל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "היום ודואג על למחר: אינו רואה",
+      "en": "[Rashi commentary on line 39]: היום ודואג על למחר: אינו רואה",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "ואוכל. אכילת המן טועם טעם כל",
+      "en": "[Rashi commentary on line 40]: ואוכל. אכילת המן טועם טעם כל",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "המינים ואינו רואה אלא מן:",
+      "en": "[Rashi commentary on line 41]: המינים ואינו רואה אלא מן:",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "עינו",
+      "en": "[Rashi commentary on line 42]: עינו",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

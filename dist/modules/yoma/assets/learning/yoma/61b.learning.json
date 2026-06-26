@@ -1,0 +1,731 @@
+{
+  "canonicalRef": "Yoma 61b",
+  "summary": "Three topics bringing the core tractate toward its conclusion. First, the general principle: any sin-offering whose blood was brought inside the sanctuary must be burned outside Jerusalem at the ash-disposal site (beit ha-deshen). Second, the specific application: the HP's bull and the Yom Kippur goat are burned there, completing the atonement circuit (blood goes in to the innermost, body goes out to the outermost). Third, the carriers of these animals become impure, immerse, and await sundown - forming a bookend with the day's opening immersions. Yom Kippur is framed entirely by purification.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-061b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 16
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.61b.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.61b.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.61b.3"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.61b.4"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.61b.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.61b.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61b.1",
+        "Yoma.61b.2",
+        "Yoma.61b.3",
+        "Yoma.61b.4",
+        "Yoma.61b.5",
+        "Yoma.61b.6"
+      ],
+      "display": {
+        "whats": "The rule: offerings whose blood was brought inside are burned outside Jerusalem",
+        "hint": "The Gemara establishes a general principle: any sin-offering whose blood was brought inside the sanctuary (the Heichal or Holy of Holies) is burned outside Jerusalem at the ash-disposal site. This applies to the Yom Kippur bull and goat."
+      },
+      "learning": {
+        "summary": "The Gemara states the principle governing which offerings are burned outside the city: any sin-offering whose blood was brought inside the sanctuary (into the Heichal or Holy of Holies) must be burned outside Jerusalem at the beit ha-deshen. This rule covers the HP's bull (whose blood was brought to the Holy of Holies), the nation's Yom Kippur goat (whose blood was brought to the Holy of Holies), and various other sin-offerings in other contexts. The rule is: inside blood, outside burning - the two are paired.",
+        "ahaMoment": "Inside blood, outside burning: the blood goes to the most sacred place; the body is expelled to the least sacred. The sacred and the profane are linked through the same offering.",
+        "memoryAnchor": "A rule of sacred geography: blood travels inward (to the Holy of Holies); the body travels outward (beyond the city).",
+        "openQuestion": "What is the theological logic of requiring offerings whose blood was brought inside to be burned outside?"
+      },
+      "argumentFlow": [
+        {
+          "type": "principle",
+          "speaker": "Gemara",
+          "text": "Any sin-offering whose blood was brought inside the sanctuary is burned outside Jerusalem.",
+          "id": "yoma-061b-l01",
+          "label": "Principle: Any sin-offering whose blood was brought inside",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "application",
+          "speaker": "Gemara",
+          "text": "This rule applies to the HP's bull and the Yom Kippur goat.",
+          "id": "yoma-061b-l04",
+          "label": "Application: This rule applies to the HP's bull",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l04",
+              "vilnaLine": 4
+            }
+          ]
+        },
+        {
+          "type": "detail",
+          "speaker": "Gemara",
+          "text": "Burned at the beit ha-deshen (ash-disposal site) outside Jerusalem.",
+          "id": "yoma-061b-l06",
+          "label": "Detail: Burned at the beit ha-deshen (ash-disposal site)",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "type": "carriers",
+          "speaker": "Mishnah",
+          "text": "Those who carry the animals to be burned become impure; they immerse afterward.",
+          "id": "yoma-061b-l07",
+          "label": "Carriers: Those who carry the animals to be",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l07",
+              "vilnaLine": 7
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "burned outside Jerusalem",
+        "blood inside rule",
+        "beit ha-deshen",
+        "sin-offering principle"
+      ],
+      "concepts": {
+        "halachic": [
+          "general rule: inner blood = outside burning",
+          "beit ha-deshen location"
+        ],
+        "theological": [
+          "sacred geography: inside and outside as paired opposites",
+          "the offering bridging the most and least sacred spaces"
+        ],
+        "narrative": [
+          "Temple law principle",
+          "sin-offering disposal"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the beit ha-deshen is outside Jerusalem",
+        "Knowing which offerings have their blood brought inside"
+      ],
+      "misconceptions": [
+        "The burning outside is not a disgrace but a requirement for offerings that entered the innermost space"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "principle",
+          "name": "inner blood service requires outside burning"
+        },
+        {
+          "type": "place",
+          "name": "beit ha-deshen outside Jerusalem"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What general rule governs which offerings must be burned outside Jerusalem?",
+          "answer": "Any sin-offering whose blood was brought inside the sanctuary (Heichal or Holy of Holies) must be burned outside Jerusalem at the ash-disposal site. This pairs inner blood service with outer body disposal."
+        }
+      ],
+      "finalRuling": "The general rule: sin-offerings whose blood was brought inside the sanctuary are burned outside Jerusalem at the ash-disposal site.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-061b-s02",
+      "lineRange": {
+        "startVilnaLine": 22,
+        "endVilnaLine": 25
+      },
+      "lines": [
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.61b.7"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.61b.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61b.7",
+        "Yoma.61b.8"
+      ],
+      "display": {
+        "whats": "The bull and goat of Yom Kippur: their burning as the completion of the atonement",
+        "hint": "The HP's bull and the Yom Kippur goat are burned outside Jerusalem, physically completing the atonement cycle - the blood served inside at the most sacred points, and the body is externalized to the most mundane place."
+      },
+      "learning": {
+        "summary": "The Gemara applies the general principle to the specific Yom Kippur offerings: the HP's bull (for himself and the priesthood) and the slaughtered goat (for Israel) are both carried outside Jerusalem and burned at the beit ha-deshen. This burning is the physical completion of the atonement circuit. The blood was brought to the innermost sacred space; the body now goes to the most external impure location. The atonement is complete when the offering has been fully processed in both directions.",
+        "ahaMoment": "Complete atonement requires the complete circuit: blood goes in, body goes out. The atonement is not finished until both directions are fulfilled.",
+        "memoryAnchor": "In and out: the blood enters the innermost, the body exits beyond the outer. Atonement spans the full distance of sacred space.",
+        "openQuestion": "Why must the body of the offering travel as far outward as the blood traveled inward?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "The HP's bull and the Yom Kippur goat are burned outside Jerusalem.",
+          "id": "yoma-061b-l22",
+          "label": "Ruling: The HP's bull and the Yom Kippur",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l22",
+              "vilnaLine": 22
+            }
+          ]
+        },
+        {
+          "type": "significance",
+          "speaker": "Gemara",
+          "text": "Their burning completes the atonement - blood inside (innermost) + body outside (outermost) = full circuit.",
+          "id": "yoma-061b-l25",
+          "label": "Significance: Their burning completes the atonement - blood",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l25",
+              "vilnaLine": 25
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bull and goat burned outside",
+        "atonement circuit",
+        "inside blood outside body",
+        "completion"
+      ],
+      "concepts": {
+        "halachic": [
+          "burning Yom Kippur offerings outside Jerusalem",
+          "completing the atonement circuit"
+        ],
+        "theological": [
+          "the offering as bridge between innermost and outermost",
+          "complete atonement requires both directions"
+        ],
+        "narrative": [
+          "Yom Kippur theology",
+          "atonement completion"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the blood went to the Holy of Holies (innermost) and the body goes outside the city (outermost)",
+        "Understanding the inner-outer symmetry of the atonement"
+      ],
+      "misconceptions": [
+        "The body is burned at the beit ha-deshen, not in the Temple courtyard"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "blood to innermost Holy of Holies vs. body to outermost beit ha-deshen"
+        },
+        {
+          "type": "sequence",
+          "name": "complete circuit: blood in, body out"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why must the bodies of the Yom Kippur bull and goat be burned outside Jerusalem?",
+          "answer": "Because their blood was brought inside the sanctuary (to the Holy of Holies, the innermost point). The rule is: inner blood service requires outside burning. The offering must complete the full circuit: inward (blood) and outward (body)."
+        }
+      ],
+      "finalRuling": "The Yom Kippur bull and goat are burned outside Jerusalem because their blood was brought inside the Holy of Holies - the full atonement circuit requires both inner and outer movement.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-061b-s03",
+      "lineRange": {
+        "startVilnaLine": 30,
+        "endVilnaLine": 35
+      },
+      "lines": [
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.61b.9"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.61b.10"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61b.9",
+        "Yoma.61b.10"
+      ],
+      "display": {
+        "whats": "The carriers become impure; immersion completes the day; concluding laws of Yom Kippur",
+        "hint": "The people who carry the bull and goat outside Jerusalem become impure through the process; they immerse in water, wait for sundown, and return - forming a fitting conclusion to the day that began with immersion."
+      },
+      "learning": {
+        "summary": "The Mishnah concludes: those who carry the bull and goat outside Jerusalem for burning become ritually impure through contact with these animals. They must immerse in a mikveh, wait for sundown (tum'ah ends at nightfall), and may then return. Yom Kippur itself ends with the nightfall that ends the carriers' impurity. The day that began with the HP's immersion before service also ends with immersion - those who conclude the day's physical work purify themselves as night falls and the day concludes.",
+        "ahaMoment": "Yom Kippur is framed by immersion: the HP immerses before the service begins, and the burning-carriers immerse as the day concludes. The holiest day is bookended by purification.",
+        "memoryAnchor": "Yom Kippur: from immersion to immersion. The day opens and closes with purification - the whole day is one long act of becoming pure.",
+        "openQuestion": "What does it mean that Yom Kippur both begins and ends with immersion?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "Those who carry the bull and goat outside become impure; they must immerse.",
+          "id": "yoma-061b-l30",
+          "label": "Ruling: Those who carry the bull and goat",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l30",
+              "vilnaLine": 30
+            }
+          ]
+        },
+        {
+          "type": "completion",
+          "speaker": "Mishnah",
+          "text": "After sundown, the impurity ends and they may return. Yom Kippur concludes.",
+          "id": "yoma-061b-l35",
+          "label": "Completion: After sundown, the impurity ends and they",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061b-l35",
+              "vilnaLine": 35
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "carriers impure",
+        "immersion",
+        "nightfall",
+        "Yom Kippur conclusion",
+        "day ends"
+      ],
+      "concepts": {
+        "halachic": [
+          "carriers' purification",
+          "Yom Kippur framed by immersion",
+          "concluding impurity"
+        ],
+        "theological": [
+          "the day framed by immersion: beginning and end both involve water",
+          "purity as the frame of Yom Kippur"
+        ],
+        "narrative": [
+          "Yom Kippur conclusion",
+          "ritual framing"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing that tum'ah (impurity from carrying burnt offerings) ends at nightfall after immersion",
+        "Knowing Yom Kippur itself ends at nightfall"
+      ],
+      "misconceptions": [
+        "The carriers' impurity ends exactly when Yom Kippur itself ends - both conclude at nightfall"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "carriers immersing at day's end"
+        },
+        {
+          "type": "contrast",
+          "name": "HP immersing at day's beginning vs. carriers immersing at day's end"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What happens to those who carry the bull and goat outside Jerusalem for burning?",
+          "answer": "They become ritually impure, must immerse in a mikveh, wait for sundown, and may then return. Yom Kippur's impurity (for them) ends exactly when the day itself ends."
+        }
+      ],
+      "finalRuling": "The carriers of the Yom Kippur offerings become impure, immerse, and await sundown - Yom Kippur ends as it began, with purification.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "The bull and goat that are to be burned: their burning is outside Jerusalem.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The animal parts that were placed on the altar remain on the altar; the rest is taken out.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Those who carry them out to burn become impure.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "They immerse their garments and their bodies in water.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "And when the sun sets they are pure and return to the camp.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Then when the fire caught - they return.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The process of burning the Yom Kippur offerings outside Jerusalem.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "These are the only Temple offerings burned entirely outside the city.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The sin-offerings whose blood was brought inside the sanctuary are burned outside.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The principle: inner blood service = burned outside. A general rule.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The bull of the HP and the bull of the congregation and the goat of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "All of whose blood was brought inside the sanctuary - burned outside.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The rule: these three are burned at the place of the ashes.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Outside Jerusalem, at the beit ha-deshen.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The burning completes the atonement cycle.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "The blood served inside; the body is removed and burned outside.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Contraction and expansion: blood goes in, body goes out.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "The sacred is concentrated in the blood; the physical body is externalized.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "The sin-offering's blood mediates between the sacred interior and the impure exterior.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "After the burning, the carriers immerse.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The sun sets; they are pure; the day is over.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Yom Kippur ends as it began - with purification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The beginning: the HP immerses to begin his service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The end: the burning-carriers immerse after completing theirs.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The entire day is framed by immersion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Water marks both entry and exit from the sacred service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "The end of Yom Kippur in the Temple: fire (burning) and water (immersion).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Fire purifies through consumption; water purifies through washing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Both are instruments of renewal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The day that brought atonement has concluded.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Israel stands before God with a clean slate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The year begins again.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The rabbis teach: Yom Kippur's atonement is effective only with genuine teshuvah.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The Temple service and the personal repentance together constitute full atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Without teshuvah, the day's service atones for ritual violations but not for interpersonal ones.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Without the service (today: without the Temple), teshuvah and prayer substitute.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The two legs of Yom Kippur: communal service and personal repentance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "In Temple times: both were present.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "In exile: teshuvah carries the weight that the service once bore.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The tractate ends with this implicit message.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Study of Yoma is itself an act of encounter with what the Temple service meant.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Every reader of this tractate engages with the most intimate act of the Jewish covenant.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The HP stands before the Ark; the student stands before the Talmud.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Both are seeking the same thing: connection to God, atonement for Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The medium changes; the purpose remains.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "This is why Yoma is studied year after year before Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Not to remember a historical event, but to participate in a living reality.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "The atonement of Yom Kippur is available to every generation through study and teshuvah.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "The Talmud is Israel's portable Temple.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Yoma is its Yom Kippur service, preserved in words.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "A nation in exile studies what its priests once did.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "And in the studying, the doing continues.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "The HP's service echoes through every page of Yoma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "And through every Yom Kippur when Israel fasts, prays, and returns.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "The atonement is real. The covenant is renewed. The year begins clean.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "This is the promise of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "This is what the tractate Yoma teaches.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "May the study of Yoma bring atonement as the service itself once did.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "And may the People of Israel see the rebuilding of the Temple speedily in our days.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Where the service will be renewed in its full form.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "And the HP will again stand before the Ark.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "And all Israel will prostrate and hear the Name.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "As it was, so may it be again.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Amen.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "en": "This concludes the main body of the tractate Yoma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "en": "The appendix addresses further details of Yom Kippur law.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "en": "Additional cases and principles that flow from the service.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

@@ -1,0 +1,995 @@
+{
+  "daf": "5b",
+  "canonicalRef": "Yoma 5b",
+  "summary": "5b continues the inauguration analysis. The kachah principle covers only requirements written in the Exodus inauguration passage; three Amoraim supply bridges to Leviticus requirements: Rav Nachman bar Yitzchak via gezerah shavah on 'petach' (opening); Rav Mesharshiyya from 'keep the charge of God'; Rav Ashi from 'ki chen tzuviti.' A baraita then distinguishes three nearly identical phrases - 'ki chen tzuviti,' 'ka'asher tziviti,' 'ka'asher tzivah Hashem' - each teaching a different dimension of Moses's authority. R. Yosei bar Chanina derives that trousers and the tenth of an ephah are inauguration requirements despite not being written in the passage itself. R. Yochanan adds that even reading the Torah portion aloud was indispensable. The daf closes by reframing the question of how Moses dressed the priests: not historical curiosity but textual harmonization. Abaye narrows the dispute to the belt alone: tunic and mitre are universally Aaron-before-sons.",
+  "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-005b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 15
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.5b.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.5b.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.5b.3"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.5b.4"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.5b.5"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.5b.6"
+        }
+      ],
+      "display": {
+        "title": "Bridging sources for non-explicit inauguration requirements; the three ki-chen phrases",
+        "oneLine": "Three Amoraim bridge the Exodus-to-Leviticus gap left by 'kachah'; a baraita then distinguishes three nearly identical phrases, each teaching a separate dimension of Moses's halakhic authority and obligation.",
+        "shortSummary": "Once kachah is established as the Exodus-only invalidation trigger, what about Leviticus inauguration requirements? Three separate answers: Rav Nachman bar Yitzchak draws a gezerah shavah from the word 'petach' (opening), which appears identically in both the command and implementation portions - failure in either section invalidates. Rav Mesharshiyya reads 'keep the charge of God' as a blanket instruction covering all Leviticus details. Rav Ashi reads 'ki chen tzuviti' as an all-inclusive warrant. A baraita then dissects three similar phrases: 'ki chen tzuviti' means eat the offering even in acute mourning (Nadav and Avihu just died); 'ka'asher tziviti' was said at the moment of the incident, explaining Moses's mid-crisis instruction; 'ka'asher tzivah Hashem' establishes Moses was relaying God's command, not improvising. Two additional inauguration requirements not spelled out in the passage are then derived: trousers via the inclusive 've-zeh hadavar,' and the tenth of an ephah via gezerah shavah on 'zeh.' R. Yochanan adds that even the oral reading of the Torah portion was indispensable.",
+        "whats": "The kachah principle from the previous page covered requirements written in Exodus's inauguration passage. But the Leviticus inauguration passage (Lev. 8) also contains unique requirements - are those equally invalidating? Three Amoraim supply bridges. Rav Nachman bar Yitzchak: 'petach' (opening of the Tent of Meeting) appears in both the Exodus command and the Leviticus implementation - a verbal analogy (gezerah shavah) that ties the two portions together, making both equally binding and invalidating. Rav Mesharshiyya: the phrase 'u-shmartem et mishmeret Hashem' (you shall keep the charge of God, Lev. 8:35) already covers all the Leviticus details without need for a verbal analogy. Rav Ashi: 'ki chen tzuviti' (for so I was commanded) is itself a blanket warrant. Then the baraita makes a delicate distinction between three phrases that seem redundant: 'ki chen tzuviti' teaches Aaron must eat even while an onen (acute mourner); 'ka'asher tziviti' was said in the middle of the Nadav/Avihu incident, explaining why Moses gave a mid-crisis command; 'ka'asher tzivah Hashem' establishes this was God's directive, not Moses's own ruling. R. Yosei bar Chanina derives trousers from the inclusive 've-zeh hadavar' prefix. The tenth of an ephah is derived by gezerah shavah on 'zeh' from Lev. 6:13. R. Yochanan (quoting R. Shimon ben Yochai) adds: even reading the Torah portion aloud is indispensable - derived from 'zeh hadavar' where 'davar' echoes 'dibbur' (speech/recitation).",
+        "hint": "Three phrases look nearly identical. The Gemara insists each one teaches something completely different. What does this mode of reading tell us about how the Sages approach apparent redundancy in the Torah?"
+      },
+      "learning": {
+        "learnerQuestion": "If 'kachah' already captures everything in Exodus, why do we need a separate bridge to the Leviticus passage? Aren't they both just 'the inauguration'?",
+        "coreTension": "Kachah signals exact replication of the Exodus inauguration passage. But the Leviticus passage (Lev. 8) also details inauguration procedures. Without a link, those Leviticus requirements might not be covered by the kachah mandate.",
+        "coreMove": "Three independent bridges are offered - gezerah shavah on 'petach,' the all-inclusive 'keep God's charge,' and the phrase 'ki chen tzuviti.' Each provides a different jurisprudential basis. The baraita then shows that phrases that look redundant are actually doing distinct legal-narrative work.",
+        "resolution": "The Leviticus requirements are brought under the same invalidation umbrella as the Exodus ones, either via verbal analogy or via independent inclusive phrases. A baraita then parses three near-identical phrases to show each targets a unique halakhic or contextual point.",
+        "takeaway": {
+          "type": "methodological",
+          "text": "When the Torah uses nearly identical language in adjacent verses, the Gemara's default is not redundancy but specificity: each occurrence targets a different audience, moment, or legal question. Recognizing which phrase addresses which concern is a core exegetical skill."
+        },
+        "reasoningPattern": {
+          "id": "inclusive_phrase_vs_gezerah_shavah",
+          "category": "textual",
+          "notes": "Two different methods bridge the Exodus-Leviticus gap: (1) gezerah shavah - verbal analogy on a repeated word; (2) an inclusive phrase that directly covers all Leviticus requirements without analogy. The Gemara presents both as valid and treats them as alternatives, not contradictions."
+        },
+        "ahaMoment": "The baraita's three-phrase analysis: what looks like three identical expressions of 'Moses did what God said' actually encodes three different messages - an obligation in unusual circumstances, a mid-crisis instruction, and an attribution of divine authority. The Torah rarely repeats for emphasis; it usually repeats to teach something new.",
+        "learningBlocker": "Students may assume that once kachah is established it covers everything automatically. The Gemara's concern is precise: kachah explicitly covers the Exodus passage only. The Leviticus passage needs its own anchor - and the Gemara offers three candidates.",
+        "memoryAnchor": "Three bridges for Leviticus, three phrases that look alike but aren't: the double-triple structure of 5b's first sugya."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Gap: Leviticus inauguration requirements",
+          "speaker": "Gemara",
+          "text": "Kachah covers requirements written in the Exodus inauguration context. But what about requirements written only in the Leviticus inauguration section? From where do we derive that those also invalidate?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l01",
+              "vilnaLine": 1,
+              "note": "The question identifying the Leviticus gap"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "answer",
+          "label": "Answer 1: gezerah shavah on 'petach'",
+          "speaker": "Rav Nachman bar Yitzchak",
+          "text": "The word 'petach' (opening of the Tent of Meeting) appears in both the Exodus command and the Leviticus implementation. This verbal analogy links both portions: requirements in either invalidate.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l02",
+              "vilnaLine": 2,
+              "note": "Rav Nachman bar Yitzchak's gezerah shavah"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "answer",
+          "label": "Answer 2: 'keep the charge of God'",
+          "speaker": "Rav Mesharshiyya",
+          "text": "'U-shmartem et mishmeret Hashem' (Lev. 8:35) is an inclusive mandate covering all Leviticus details - no verbal analogy needed.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l02",
+              "vilnaLine": 2,
+              "note": "Rav Mesharshiyya's direct derivation"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "answer",
+          "label": "Answer 3: 'ki chen tzuviti'",
+          "speaker": "Rav Ashi",
+          "text": "'Ki chen tzuviti' (for so I was commanded) functions as a warrant covering all inauguration details in both portions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l02",
+              "vilnaLine": 2,
+              "note": "Rav Ashi's derivation from ki chen tzuviti"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "proof",
+          "label": "Baraita: three near-identical phrases, three distinct teachings",
+          "speaker": "Tanna (baraita)",
+          "text": "'Ki chen tzuviti' = eat even in acute mourning (Nadav/Avihu just died). 'Ka'asher tziviti' = Moses spoke mid-incident. 'Ka'asher tzivah Hashem' = Moses was relaying God's command, not his own.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l05",
+              "vilnaLine": 5,
+              "note": "Baraita distinguishing the three phrases"
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "proof",
+          "label": "Trousers derived from 've-zeh hadavar'",
+          "speaker": "Rabbi Yosei bar Chanina",
+          "text": "Trousers are not written in the inauguration passage. The prefix 've-zeh hadavar' (and this is the matter) is inclusive - it adds trousers and the tenth of an ephah.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l09",
+              "vilnaLine": 9,
+              "note": "R. Yosei bar Chanina's derivation for trousers"
+            }
+          ]
+        },
+        {
+          "id": "step-07",
+          "type": "proof",
+          "label": "Tenth of ephah via gezerah shavah on 'zeh'",
+          "speaker": "Gemara",
+          "text": "'Zeh' in the inauguration verse (Exodus 29:1) is linked via verbal analogy to 'zeh korban Aharon' in Lev. 6:13, which describes the tenth of an ephah for a new priest - bringing it into the inauguration requirement set.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l12",
+              "vilnaLine": 12,
+              "note": "Gezerah shavah on 'zeh' for the tenth of an ephah"
+            }
+          ]
+        },
+        {
+          "id": "step-08",
+          "type": "proof",
+          "label": "Even reading the Torah portion is indispensable",
+          "speaker": "Rabbi Yochanan (citing Rabbi Shimon ben Yochai)",
+          "text": "'Zeh hadavar' (this is the matter) - 'davar' echoes 'dibbur' (recitation). Even speaking the Torah portion aloud was an indispensable inauguration requirement.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l15",
+              "vilnaLine": 15,
+              "note": "R. Yochanan's derivation that reading the portion is indispensable"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "gezerah-shavah",
+          "he": "גְּזֵרָה שָׁוָה",
+          "translit": "Gezerah shavah",
+          "en": "A verbal analogy: when the same word or phrase appears in two different contexts, halakhic rules from one may be applied to the other. One of the thirteen hermeneutical rules of R. Yishmael.",
+          "sugyaRole": "Rav Nachman bar Yitzchak uses the repeated word 'petach' to link the Exodus command and the Leviticus implementation, bridging both portions under a single invalidation standard."
+        },
+        {
+          "id": "shirei-mitzva",
+          "he": "שִׁיְרֵי מִצְוָה",
+          "translit": "Shirei mitzva",
+          "en": "A residual or secondary component of a mitzva: real and obligatory, but not an invalidation condition if omitted. Established in 5a for semikha and tenufah.",
+          "sugyaRole": "Background concept: the Leviticus requirement bridges must determine which items are full invalidation conditions (like kachah mandates) versus secondary components."
+        },
+        {
+          "id": "miqra-parasha",
+          "he": "מִקְרָא פָּרָשָׁה",
+          "translit": "Mikra parasha",
+          "en": "The oral reading of the Torah portion to the assembly. R. Yochanan (via R. Shimon ben Yochai) holds that even this oral recitation was an indispensable inauguration requirement.",
+          "sugyaRole": "R. Yochanan's addition shows that the inauguration requirements extend beyond physical acts to include communicative acts - reading aloud to the people was legally constitutive."
+        }
+      ],
+      "conceptRefs": [
+        "gezerah-shavah",
+        "shirei-mitzva",
+        "miqra-parasha"
+      ],
+      "requiresUnderstanding": [
+        "The kachah principle from 5a: what it covers and why it stops at the Exodus passage",
+        "Gezerah shavah as a hermeneutical technique: what qualifies, why it creates a legal bridge",
+        "Why Moses's three phrases sound identical but are parsed as distinct"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Kachah covers all inauguration requirements automatically.",
+          "correction": "Kachah explicitly signals requirements in the Exodus context. Leviticus requirements need their own derivation, which this sugya provides through three separate methods."
+        },
+        {
+          "misconception": "'Ki chen tzuviti,' 'ka'asher tziviti,' and 'ka'asher tzivah Hashem' are three ways of saying the same thing.",
+          "correction": "The baraita distinguishes them precisely: the first addresses the obligation in acute mourning; the second marks a mid-crisis statement; the third attributes the command to God, not Moses."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Two Torah portions - Exodus 29 vs. Leviticus 8 - and the three bridges between them drawn as three parallel arrows"
+        },
+        {
+          "type": "sequence",
+          "description": "Three near-identical phrases displayed side-by-side with their distinct teachings labeled beneath each"
+        },
+        {
+          "type": "timeline",
+          "description": "The Nadav-and-Avihu crisis moment, showing when 'ka'asher tziviti' was spoken and why mid-crisis context matters"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "What gap does Rav Nachman bar Yitzchak's 'petach' gezerah shavah fill?",
+          "answer": "It bridges the Exodus inauguration passage to the Leviticus inauguration passage, making Leviticus requirements equally invalidating.",
+          "distractors": [
+            "It proves the belt must be wool-linen mixture",
+            "It derives the requirement to read the Torah portion aloud",
+            "It explains why Moses dressed Aaron before his sons"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "The baraita distinguishes 'ki chen tzuviti,' 'ka'asher tziviti,' and 'ka'asher tzivah Hashem.' What does each phrase teach?",
+          "answer": "'Ki chen tzuviti' = eat even in acute mourning; 'ka'asher tziviti' = Moses spoke mid-incident (during the Nadav/Avihu crisis); 'ka'asher tzivah Hashem' = attributing the command to God, not Moses's own authority."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How does R. Yochanan derive that reading the Torah portion aloud was indispensable for the inauguration?",
+          "answer": "From 'zeh hadavar' - 'davar' resonates with 'dibbur' (speech/recitation), teaching that the verbal proclamation was itself a required act.",
+          "distractors": [
+            "From the 'petach' gezerah shavah",
+            "From 'u-shmartem et mishmeret Hashem'",
+            "From the parallel to Sinai where Moses read aloud"
+          ]
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "topicTags": [
+        "inauguration",
+        "gezerah-shavah",
+        "hermeneutics",
+        "Leviticus",
+        "Moses",
+        "priestly-vestments",
+        "aninus"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-005b-s02",
+      "lineRange": {
+        "startVilnaLine": 19,
+        "endVilnaLine": 24
+      },
+      "lines": [
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.5b.7"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.5b.8"
+        },
+        {
+          "vilnaLine": 24,
+          "sefariaRef": "Yoma.5b.9"
+        }
+      ],
+      "display": {
+        "title": "How Moses dressed Aaron and his sons: resolving contradictory verses",
+        "oneLine": "The question 'how did Moses dress them?' is not historical curiosity but textual harmonization; Abaye narrows the dispute to the belt alone, with tunic and mitre universally Aaron-before-sons.",
+        "shortSummary": "The Gemara raises the question of how Moses dressed Aaron and his sons. It first dismisses the question as irrelevant ('what was, was') and then rejects the future-resurrection angle ('Moses will figure it out when Aaron and sons return'). The real purpose is to resolve contradictory verses. The sons of R. Chiyya and R. Yochanan disagree: one says Aaron first then sons; one says Aaron and sons simultaneously. Abaye clarifies: for tunic and mitre everyone agrees Aaron came first (both the command and implementation put Aaron before his sons). The dispute is only about the belt: the command verse says 'gird them' (together), but the implementation verse says 'girded him' then 'girded them' (separately). These two readings of the belt-verses generate the entire dispute.",
+        "whats": "The question sounds historical but is really hermeneutical: how do we reconcile what the Torah says in the command portion with what it says in the implementation portion? The command (Exodus 29:9) says 'you shall gird them with belts' - Aaron and sons together. The implementation (Lev. 8:7,13) says 'he girded him with the belt' (Aaron) and then separately 'he girded them with belts' (sons). One position reads the command as controlling: belts were applied simultaneously. The other reads the implementation as controlling: Aaron first, then sons. Abaye resolves the scope: tunic and mitre are uncontested because both command and implementation text place Aaron before sons for those garments. Only the belt is genuinely ambiguous between 'together' and 'Aaron first.'",
+        "hint": "Why does the Gemara first joke that the question is irrelevant before giving the real answer? What does this tell us about how the Gemara signals when a question is being asked for the wrong reason?"
+      },
+      "learning": {
+        "learnerQuestion": "If Moses dressed them in a specific order over two thousand years ago, why does anyone care? Why isn't 'what was, was' the final answer?",
+        "coreTension": "Two verses - one in the command portion, one in the implementation portion - describe the belt being applied in seemingly incompatible ways. Both are Torah. Both must be correct. Something has to explain the divergence.",
+        "coreMove": "Shift the question from 'historical order' to 'verse-reconciliation': the dispute is about how to read two texts that appear to contradict each other. Abaye narrows the real dispute to the belt, the one garment where the texts genuinely diverge.",
+        "resolution": "For tunic and mitre: no dispute, both texts agree Aaron came first. For the belt: the command says 'together,' the implementation says sequentially. This generates the two-position dispute. Abaye's contribution is eliminating all the false scope.",
+        "takeaway": {
+          "type": "methodological",
+          "text": "When Amoraim dispute how an event happened in the Torah, they are usually not guessing about history - they are adjudicating between competing textual readings. Abaye's precision ('the dispute is only about the belt') is the key: it proves both parties are reading verses, not reconstructing events."
+        },
+        "reasoningPattern": {
+          "id": "tsivui-vs-asiyah",
+          "category": "textual",
+          "notes": "Command portion (tsivui) and implementation portion (asiyah) sometimes differ. When they do, Amoraim must decide which controls. This is a recurring hermeneutical pattern in Yoma: the command sets the standard, the implementation describes what actually happened, and sometimes they diverge for didactic reasons."
+        },
+        "ahaMoment": "The Gemara dismisses 'what was, was' and 'Moses will figure it out in the future' precisely to signal that the question is not about history or future practice. It is about which verse wins when two Torah texts about the same event appear to conflict.",
+        "learningBlocker": "Students may think the dispute is about a physical sequence they can picture. It is actually a dispute about which textual source controls when two sources conflict - a purely jurisprudential question.",
+        "memoryAnchor": "Tunic and mitre: everyone agrees (Aaron first). Belt: dispute. The entire 5b belt saga resolves to one garment, one verse-conflict."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "How did Moses dress them?",
+          "speaker": "Gemara",
+          "text": "In what order did Moses dress Aaron and his sons during the inauguration?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l19",
+              "vilnaLine": 19,
+              "note": "Opening question"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Dismissal: 'what was, was'",
+          "speaker": "Gemara",
+          "text": "The historical sequence has no practical relevance - what Moses did is past. And asking about future practice is also moot: when Moses returns with Aaron and sons after resurrection, he will know the right order.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l19",
+              "vilnaLine": 19,
+              "note": "Gemara's double dismissal of the question as posed"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "Real purpose: resolving contradictory verses",
+          "speaker": "Gemara",
+          "text": "The question is actually about how to reconcile the verses: the command portion and the implementation portion describe the belt differently. Sons of R. Chiyya and R. Yochanan disagree: one holds Aaron first then sons; one holds Aaron and sons together (for the belt).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l22",
+              "vilnaLine": 22,
+              "note": "The real purpose of the question"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "distinction",
+          "label": "Abaye: tunic and mitre uncontested; dispute is only about belt",
+          "speaker": "Abaye",
+          "text": "For tunic and mitre, both command and implementation agree: Aaron came first. The dispute is only about the belt (avnet). The command says 'gird them' (together); the implementation says 'girded him' then 'girded them' (sequentially). One reads command as controlling; one reads implementation as controlling.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-005b-l24",
+              "vilnaLine": 24,
+              "note": "Abaye's clarification narrowing the dispute to the belt"
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "tsivui-asiyah",
+          "he": "צִוּוּי וַעֲשִׂיָּה",
+          "translit": "Tsivui va-asiyah",
+          "en": "Command portion and implementation portion. A recurring Yoma pattern: compare what God commanded with what Moses actually did. When they differ, a dispute arises about which version controls.",
+          "sugyaRole": "The belt dispute is entirely a tsivui-vs-asiyah conflict: the command says belt together, the implementation shows sequential."
+        },
+        {
+          "id": "avnet",
+          "he": "אַבְנֵט",
+          "translit": "Avnet",
+          "en": "The priestly belt or sash. The single garment about which the entire dressing-order dispute turns - all other garments are undisputed.",
+          "sugyaRole": "Abaye's key contribution is identifying the belt as the only genuinely disputed garment, eliminating all false scope."
+        }
+      ],
+      "conceptRefs": [
+        "tsivui-asiyah",
+        "avnet"
+      ],
+      "requiresUnderstanding": [
+        "The tsivui/asiyah pattern: command portion vs. implementation portion as two separate texts",
+        "Why 'what was, was' is a dismissal of the wrong framing, not the correct answer",
+        "Abaye's role as a clarifier who reduces scope rather than introducing a new position"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The dispute is about whether Moses literally dressed them simultaneously or one at a time.",
+          "correction": "The dispute is about which verse controls when two Torah texts describe the belt-girding differently. It is hermeneutical, not historical."
+        },
+        {
+          "misconception": "All garments are disputed.",
+          "correction": "Abaye establishes that tunic and mitre are universally Aaron-before-sons. Only the belt is genuinely disputed."
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Side-by-side: the command verse (Exodus 29:9, 'gird them together') vs. the implementation verse (Lev. 8:7+13, 'girded him' then 'girded them')"
+        },
+        {
+          "type": "people",
+          "description": "Moses girding Aaron in white linen vestments, then turning to the four sons in sequence"
+        },
+        {
+          "type": "text",
+          "description": "Three garments labeled: tunic, mitre (both undisputed), belt (disputed) - highlighting which garment generates the entire controversy"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "multiple_choice",
+          "question": "Why does the Gemara say 'what was, was' before explaining the real purpose of the question?",
+          "answer": "To signal that the question is not about historical reconstruction. The real purpose is verse-reconciliation - harmonizing two contradictory Torah texts about the belt.",
+          "distractors": [
+            "To prove Moses was infallible and cannot be questioned",
+            "To establish that the future Temple service will not require the same dressing order",
+            "To dismiss the entire topic as irrelevant"
+          ]
+        },
+        {
+          "type": "short_answer",
+          "question": "Which garment is disputed between the two positions, and why?",
+          "answer": "The belt (avnet). The command verse says 'gird them' (together), but the implementation verse says 'girded him' then separately 'girded them,' creating textual ambiguity about sequential vs. simultaneous girding."
+        }
+      ],
+      "finalRuling": null,
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "topicTags": [
+        "inauguration",
+        "priestly-vestments",
+        "avnet",
+        "verse-reconciliation",
+        "Abaye",
+        "tsivui-asiyah"
+      ],
+      "review": {
+        "learning": "ai_generated",
+        "concepts": "ai_generated",
+        "argumentFlow": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "מִכְנָסַיִם",
+      "translit": "Mikhnasayim",
+      "en": "Priestly trousers. Not listed in the inauguration passage; derived from the inclusive prefix 've-zeh hadavar' (and this is the matter), which adds garments written in adjacent passages."
+    },
+    {
+      "he": "עֲשִׂירִית הָאֵיפָה",
+      "translit": "Asiris HaEifah",
+      "en": "A tenth of an ephah of flour - the daily meal offering of the Kohen Gadol and the inaugural offering of any new priest. Derived into the inauguration requirements via gezerah shavah on the word 'zeh.'"
+    },
+    {
+      "he": "אֲנִינוּת",
+      "translit": "Aninus",
+      "en": "Acute mourning on the day a close relative dies. Normally prohibits eating sacrificial food. The inauguration occurred while Nadav and Avihu had just died - 'ki chen tzuviti' authorized Aaron to eat the minhah offering even in this state."
+    },
+    {
+      "he": "אַבְנֵט",
+      "translit": "Avnet",
+      "en": "The priestly belt worn around the waist. The sole disputed garment in the dressing-order controversy. Tunic and mitre are uncontested (Aaron first); only the avnet has two incompatible textual sources."
+    },
+    {
+      "he": "גְּזֵרָה שָׁוָה",
+      "translit": "Gezerah shavah",
+      "en": "A hermeneutical verbal analogy: the same word in two different Torah passages creates a legal bridge between them. Used here to link 'petach' in Exodus 29 to 'petach' in Leviticus 8, and 'zeh' in Exodus 29 to 'zeh' in Leviticus 6."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "A matter written in this context: in the passage of the inauguration command which states 've-atah tetzaveh' (Exodus 28).",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "It is not written: in the inauguration portion there is no text requiring placing the Urim ve-Tumim in the breastplate when they were dressed, but in the portion commanding Aaron's anointing (Lev. 8) it is written 'and he placed on him the breastplate.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "And if you ask: is it not also written in 've-atah tetzaveh' (Exodus 28:30): 'and you shall place in the breastplate of judgment the Urim and Tumim'?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "That verse is not from the inauguration passage but from the garment-making section, and 'kachah' as an invalidation condition was not said there.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "And he placed in the breastplate the Urim and Tumim.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "And if you say: Is it not written in 've-atah tetzaveh' (Exodus 28): 'and you shall place in the breastplate of judgment the Urim and Tumim'?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "This is not from the inauguration passage but from the garment-making section - and kachah was not said there as an invalidation condition.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "That verse (and you shall place the Urim) is not from the inauguration passage but from the garment-making section - and 'kachah' as invalidation was not applied there. The context there does not bear the invalidation stamp.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Petach petach: in the command it is written (Exodus 29) 'to the opening of the Tent of Meeting' as an additional mention, and similarly in the implementation: 'and he brought near to the opening of the Tent of Meeting'; 'and Aaron and his sons ate the meat of the ram and the bread which was in the basket at the opening of the Tent of Meeting'; and similarly in the implementation: 'and he assembled the entire congregation to the opening of the Tent of Meeting; they cooked the meat at the opening of the Tent of Meeting.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "And Rav Mesharshiyya says: in the implementation passage too an invalidation phrase is written - 'and you shall keep the guard of God' implies: guard everything written there.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The Sages taught: 'ki chen tzuviti' etc. Since this phrase was cited here to derive that even in acute mourning the minhah must be eaten - for the inauguration took place under those circumstances and the Torah said 'ki chen tzuviti' - the baraita seized the opportunity here to also interpret 'ki chen tzuviti' of Shemini: what does that one teach?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "For it is not the same verse as the inauguration one - 'ki chen tzuviti' there refers to the commandment about the minhah (Lev. 10), 'take the minhah remaining from the fires of God and eat it unleavened beside the altar, for thus I was commanded.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "'Ka'asher tziviti': concerning the goat-sin-offering, which Moses investigated and found had been burned - 'you shall eat it in the holy place as I commanded' (Lev. 10).",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "'Ka'asher tzivah Hashem': concerning the thigh of the wave-offering and the breast of the wave-offering it is written 'you shall eat it in a pure place... as God commanded' (Lev. 10). Why do I need all these? They are all cases of: 'and all the things that were said to Moses to tell Israel, did he say them? For thus I was commanded.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Mourners (onanin): over Nadav and Avihu - and sacrificial foods are forbidden to an onen by a fortiori from ma'aser (tithe), which is lenient: 'I have not eaten of it in my mourning' (Deut. 26) - and he told them to eat the minhah, so he had to say 'ki chen tzuviti': eat it in mourning.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "'Ka'asher tziviti' - at the moment of the act he said it to them. When he found what they had done - that they had burned the goat-sin-offering, the Rosh Chodesh goat - he said: 'was not its blood brought in? Was there not a disqualification? You should have eaten it in the sanctuary as I commanded you in the minhah, which I told you derives from the Almighty.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "'Ka'asher tzivah Hashem' - and not from myself am I speaking. They were relying on the divine word and eating it in mourning, and 'do not do as you did with the sin-offering.' And Moses erred in a matter that had not been told to him except regarding the minhah, the breast, and the thigh and the Shemini goat and Nachshon's goat which were sacred for the hour - but the Rosh Chodesh goat which is an ongoing sacred offering was not permitted for a mourner. Three goats were offered that day and only the Rosh Chodesh one was burned.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "And 'ותן alav et hachoshen - that one (Nachshon's goat) was given to you to bear the sin of the congregation, i.e., the sin-offering for impurity of the Temple and its sacred objects - as we learned in Shevuot (9b). They are not written in the passage: in the dressing of the garments - not in the command and not in the implementation.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "When he says 've-zeh hadavar asher ta'aseh lahem': the vav (and) adds to the previous topic - the one speaking about the command concerning the garments, and there it is written 've-asa lahem mikhnasai bad'; and a tenth of an ephah - which the priests must bring on their inauguration day, even the ordinary priest as we say in Menachot (51b).",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Granted, trousers are written in the garment-context: above that passage there is enough reason to include them - the vav adds to the first topic.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "'Zeh korban Aharon u-vanav': the tenth of an ephah is written in it - that ordinary priests must bring on their inauguration day, and the Kohen Gadol every day.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "From Scripture - the inauguration Torah portion which was commanded in 've-atah tetzaveh.' He said it to the community on the twenty-third of Adar when the inauguration began and he assembled the congregation to the opening of the Tent of Meeting, as it says 'va-tikkahel ha-edah... va-yomer Moshe el ha-edah: zeh hadavar asher tzivah Hashem la'asot' - and these verses are in the implementation in 'tzav et Aharon.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "How did he dress them: sequence of garments for father and sons one after another. What was, was - what do we need to ask?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "To explain the verses: so that they not contradict each other - for in the command it is written (Exodus 29) 've-chagarta otam avnet Aharon u-vanav' implying their girding, father's and sons', was done together without another garment interrupting, while in the implementation it is written of Aaron (Lev. 8): 'va-yachgor oto ba-avnet' in the order of his garment-dressing... 'and he brought near his sons and dressed them in tunics and girded them with belts' - and he did not gird Aaron and his sons together.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l22"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Abaye explains their statements: he took tunic and mitre as the examples because they are the same for the High Priest and the ordinary priest, and he did not need to mention trousers since they precede everything as we say later: 'from where that nothing should precede the trousers?'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Everyone agrees Aaron first and afterward sons: for Aaron was dressed first in all his other garments except the belt, and then they began dressing the sons.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Because in both the command and in the implementation, Aaron precedes.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "When they disagree: about the belt. And from the command where it is written (Exodus 29:9): 've-chagarta otam avnet' (and you shall gird them with belts) - Aaron and sons - it does not state Aaron's girding in the sequence of his garment-dressing. But in the implementation it is stated in order with his other garments.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The one who says Aaron and afterward sons: as it is written 'va-yachgor oto ba-avnet' and then it is written 'va-yachgor otam avnet.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The one who says Aaron and sons together: as it is written (in the command) 've-chagarta otam' - Aaron and sons together were girded, without stating Aaron's girding within his garment sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "And according to the one who says Aaron and sons together: is it not written 'va-yachgor oto ba-avnet' and then 'va-yachgor otam avnet'?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "He dressed Aaron in all his garments except the belt; then dressed the sons in tunic, mitre, and trousers; then took the belts and girded Aaron and afterward his sons, and the one who says Aaron and sons together, following the command - he explains the same: 'bvat achat' does not literally mean simultaneously; rather, they were one-after-another in the same sequence without interruption: he dressed Aaron in all his garments and did not gird him with the belt, then dressed the sons with their garments - tunic, mitre, trousers - and then took the belts and girded Aaron and afterward his sons.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "He who says Aaron and sons together follows the command reading, and below he will explain: can 'bvat achat' (simultaneously) actually be found?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Whether in the command or the implementation: so it is written.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "When they disagree: about the belt. In the command (Exodus 29): 've-chagarta otam avnet Aharon u-vanav' - their girding as one, and Aaron's girding was not stated in the sequence of his garment-dressing. In the implementation it is stated in his garment sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The one who says Aaron and afterward sons: follows the implementation. And below he explains 'bvat achat' - can you actually find it?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The one who says Aaron and sons together: follows the command. And the implementation with its 'va-yachgor oto' and then 'va-yachgor otam' - to tell us that their belts are not the same: the High Priest's belt is not the ordinary priest's belt.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "He who says Aaron and afterward sons: goes after the implementation - and what does 've-chagarta otam' teach us? That the High Priest's belt is the same as the ordinary priest's belt. Both are of mixed weave (kilaim) as stated in the implementation: 'the belt of fine twisted linen and blue and purple...' - we learn that it is kilaim, since linen is linen (kitan) and blue is wool (amra). And the sons' belt was not explained in the Torah from what it was made - and this teaches us here that the High Priest's belt is not the ordinary priest's belt: this is kilaim and this is linen.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "That belt. Meaning: both are of kilaim.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "And can 'bvat achat' (simultaneously) actually be found - that Moses alone girds five people together?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Not literally simultaneously - he does not mean actually at once, but one after another in the same uninterrupted sequence: he dressed Aaron in all his other garments and did not gird him with the belt, then dressed the sons in tunic, mitre, and trousers; then took the belts and girded Aaron and afterward his sons. And according to the one who says Aaron and afterward sons: as written in the implementation 'va-yayten alav et ha-kutonet va-yachgor oto ba-avnet...' - and dressed him in all the garments, including the belt in sequence - then 'and he brought near Aaron's sons and dressed them in tunics and girded them with belts' - and he did not gird Aaron and his sons together.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Abaye explains their statements: tunic and mitre he specifically mentions because they are the same for the High Priest and the ordinary priest. He did not need to mention trousers - they precede everything as we say below: 'from where that nothing precedes the trousers?'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Everyone agrees Aaron first then sons: Aaron was first dressed in all his other garments except the belt, and then they began dressing the sons.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Because both in the command and the implementation, Aaron precedes.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "When they disagree: about the belt. In the command 've-chagarta otam avnet Aharon u-vanav' - their girding together without stating Aaron's girding in the sequence of his garment-dressing. In the implementation it is stated in the sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Who says Aaron and afterward sons: follows the implementation, and 've-chagarta otam' teaches the belts are the same.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Who says Aaron and sons together: follows the command, and 've-chagarta otam' teaches the belts differ - this is kilaim and this is plain linen.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "'Va-yachgor oto ba-avnet' - 'va-yachgor otam' - why do I need both? Learn from it: Aaron and afterward sons. And can you find 'bvat achat' (simultaneously)?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Not literally simultaneously is what he means - rather one after another as described above.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "And for the one who says Aaron and sons together - is it not written 'va-yachgor oto ba-avnet' and then 'va-yachgor otam avnet'?",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "That teaches us that the High Priest's belt is not the ordinary priest's belt - this is kilaim, this is linen.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "He who says Aaron and sons together: for him the belts differ (kilaim vs. linen). He who says Aaron first then sons: for him the two verses prove sequential dressing.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "He who says Aaron first then sons, and we said 've-chagarta otam' - what does that teach? That the belts are the same (both kilaim). But what does he do with 'va-yachgor oto' and then 'va-yachgor otam'? He says: learn from it Aaron first then sons. And can 'bvat achat' even be done? Answer: not literally simultaneously - he first dressed all of Aaron's garments except the belt, then dressed the sons' garments without the belt, then girded Aaron and afterward the sons in sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "He who says Aaron and sons together: for him the belts are different (this kilaim, this linen). So he reads 've-chagarta otam' as simultaneously, and the two separate implementation verses ('girded him' then 'girded them') teach the material distinction.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Not written in the passage: in the dressing of the garments - neither in the command nor the implementation.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l09"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Granted trousers are written in the garment context: above that passage there is reason to include them via the vav adding to the first topic. 'Zeh korban Aharon u-vanav': the tenth of an ephah - which ordinary priests bring on their inauguration day and the Kohen Gadol brings every day.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l12"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "From Scripture: the inauguration Torah portion that was commanded in 've-atah tetzaveh.' He said it to the community on twenty-third of Adar when the inauguration began and assembled the congregation to the Tent of Meeting opening as it says 'va-tikkahel... va-yomer Moshe el ha-edah: zeh hadavar' - these verses are in the implementation in 'tzav et Aharon.'",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "How did he dress them: the sequence of garments for father and sons one after another.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "To explain the verses: that they not contradict each other. For in the command (Exodus 29) 've-chagarta otam avnet Aharon u-vanav' implies their girding together without interruption, while in the implementation Aaron's girding comes within his garment sequence and sons' girding separately in theirs.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l22"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Abaye explains their statements: he specifically uses tunic and mitre because they are the same for both High Priest and ordinary priest. Trousers did not need to be mentioned - they precede everything.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Everyone agrees Aaron first then sons: for the tunic and mitre Aaron was dressed in all his garments first except the belt, then the sons were dressed.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Both in the command and the implementation Aaron precedes his sons.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "When they disagree: about the belt.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Who says Aaron and afterward sons: follows the implementation (sequential verses). Who says together: follows the command ('gird them') and reads the implementation verses as teaching the belts are materially different.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 65,
+      "en": "Who says Aaron and afterward sons: follows the implementation - 'va-yachgor oto' then 'va-yachgor otam' proves sequential. And 've-chagarta otam' teaches the belts are the same (both kilaim).",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 66,
+      "en": "Who says together: follows the command, reads the implementation verses as teaching material distinction between belts.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 67,
+      "en": "He who says Aaron and sons together: follows the command - 've-chagarta otam' means simultaneously, and the implementation's two-stage verses teach belts differ.",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 68,
+      "en": "He said (partial - continues on 6a with resolution of the belt-material question).",
+      "linkedGemaraLineIds": [
+        "yoma-005b-l24"
+      ]
+    }
+  ]
+}

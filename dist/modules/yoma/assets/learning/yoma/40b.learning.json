@@ -1,0 +1,513 @@
+{
+  "daf": "40b",
+  "canonicalRef": "Yoma 40b",
+  "summary": "40b analyzes 'the live goat shall stand before God' - until the KG confesses over it; gives the third confession text (covering all Israel); then examines replacement scenarios for when the Azazel or God-goat dies or the pair gets mixed up, with rulings depending on whether blood sprinkling had already occurred.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-040b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 29
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.40b.1"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.40b.2"
+        },
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.40b.3"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.40b.4"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.40b.5"
+        },
+        {
+          "vilnaLine": 15,
+          "sefariaRef": "Yoma.40b.6"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.40b.7"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.40b.8"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.40b.9"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.40b.10"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.40b.11"
+        },
+        {
+          "vilnaLine": 29,
+          "sefariaRef": "Yoma.40b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.40b.1",
+        "Yoma.40b.2",
+        "Yoma.40b.3",
+        "Yoma.40b.4",
+        "Yoma.40b.5",
+        "Yoma.40b.6",
+        "Yoma.40b.7",
+        "Yoma.40b.8",
+        "Yoma.40b.9",
+        "Yoma.40b.10",
+        "Yoma.40b.11",
+        "Yoma.40b.12"
+      ],
+      "display": {
+        "whats": "The live goat stands before God until when? The KG's confession over it; the full confession text.",
+        "hint": "The live goat stands in the Azarah until the KG confesses over it; the third confession text covers all Israel."
+      },
+      "learning": {
+        "summary": "The verse 'the live goat shall stand before God to atone for it' is analyzed: until when must it stand? The Gemara answers: until the KG confesses over it. The text of the third confession is given - this time covering chatati aviti pashati before God: I, my household, and the sons of Aaron, and all of Israel. After this confession the goat is sent to the desert. The KG then must wash hands and feet before returning to any further service.",
+        "ahaMoment": "The third confession is the culmination: it covers all Israel. The live goat, laden with the nation's sins, then goes to the wilderness.",
+        "memoryAnchor": "Third confession: chatati aviti pashati, I + household + kohanim + all Israel - the goat carries it all.",
+        "openQuestion": "Must the live goat be present and alive throughout the entire Yom Kippur service until the confession over it?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-040b-l01",
+          "type": "question",
+          "label": "Question: Until when must the live goat stand",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l01",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "Until when must the live goat stand before God (Lev. 16:10)?"
+        },
+        {
+          "id": "yoma-040b-l04",
+          "type": "resolution",
+          "label": "Resolution: Until the KG makes the third confession",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l04",
+              "vilnaLine": 4
+            }
+          ],
+          "text": "Until the KG makes the third confession over it."
+        },
+        {
+          "id": "yoma-040b-l07",
+          "type": "ruling",
+          "label": "Ruling: The text of the third confession: chatati",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l07",
+              "vilnaLine": 7
+            }
+          ],
+          "text": "The text of the third confession: chatati aviti pashati - I, my household, the sons of Aaron, and all Israel."
+        },
+        {
+          "id": "yoma-040b-l09",
+          "type": "elaboration",
+          "label": "Elaboration: After this confession the congregation responds with",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l09",
+              "vilnaLine": 9
+            }
+          ],
+          "text": "After this confession the congregation responds with Baruch Shem."
+        },
+        {
+          "id": "yoma-040b-l11",
+          "type": "elaboration",
+          "label": "Elaboration: The KG then sends the goat to",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l11",
+              "vilnaLine": 11
+            }
+          ],
+          "text": "The KG then sends the goat to the uninhabited wilderness via the appointed handler."
+        },
+        {
+          "id": "yoma-040b-l15",
+          "type": "elaboration",
+          "label": "Elaboration: If the Azazel goat dies before being",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l15",
+              "vilnaLine": 15
+            }
+          ],
+          "text": "If the Azazel goat dies before being sent, a replacement must be found."
+        },
+        {
+          "id": "yoma-040b-l17",
+          "type": "elaboration",
+          "label": "Elaboration: If it gets lost on the way,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l17",
+              "vilnaLine": 17
+            }
+          ],
+          "text": "If it gets lost on the way, it must be replaced."
+        },
+        {
+          "id": "yoma-040b-l20",
+          "type": "elaboration",
+          "label": "Elaboration: What if the goat for God dies?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l20",
+              "vilnaLine": 20
+            }
+          ],
+          "text": "What if the goat for God dies? A replacement is needed."
+        },
+        {
+          "id": "yoma-040b-l22",
+          "type": "elaboration",
+          "label": "Elaboration: Various scenarios of goat death or exchange",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l22",
+              "vilnaLine": 22
+            }
+          ],
+          "text": "Various scenarios of goat death or exchange are analyzed."
+        },
+        {
+          "id": "yoma-040b-l25",
+          "type": "elaboration",
+          "label": "Elaboration: If the goats got mixed up before",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l25",
+              "vilnaLine": 25
+            }
+          ],
+          "text": "If the goats got mixed up before the lot, a new pair must be drawn."
+        },
+        {
+          "id": "yoma-040b-l27",
+          "type": "elaboration",
+          "label": "Elaboration: If mixed up after the lot but",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l27",
+              "vilnaLine": 27
+            }
+          ],
+          "text": "If mixed up after the lot but before sprinkling, they must be re-drawn."
+        },
+        {
+          "id": "yoma-040b-l29",
+          "type": "ruling",
+          "label": "Ruling: The goats are designated specifically; if mixed",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-040b-l29",
+              "vilnaLine": 29
+            }
+          ],
+          "text": "The goats are designated specifically; if mixed up or one dies, replacements are needed based on timing."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "live goat",
+        "third confession",
+        "Azazel"
+      ],
+      "concepts": {
+        "halachic": [
+          "live goat's required presence",
+          "replacement goat scenarios",
+          "mixed-up goat scenarios"
+        ],
+        "theological": [
+          "third confession covering all Israel"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Azazel goat",
+        "third Yom Kippur confession",
+        "sair hamishtaleiach"
+      ],
+      "misconceptions": [
+        "The goat only needs to be alive when sent; its earlier presence is optional"
+      ],
+      "relatedSugyot": [
+        "yoma-041b-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Third confession over live goat → congregation responds → handler takes goat to wilderness"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "What is the third Yom Kippur confession?",
+          "a": "'Chatati, aviti, pashati before You - I, my household, the sons of Aaron Your holy people, and all Israel Your nation' - said over the live Azazel goat."
+        }
+      ],
+      "finalRuling": "The third confession over the live goat covers all Israel; afterward the goat is sent to the wilderness.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "The live goat shall stand before God to atone for it - until when must it stand?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Until the KG confesses over it; the standing is for the purpose of the confession.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The third confession is now given: it covers all of Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Anna HaShem: chatati, aviti, pashati before You - I and my household.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "And the sons of Aaron Your holy people.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "And all the house of Israel, Your nation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Please, HaShem: kapper na (atone please) for the chatati, aviti, pashati.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "That all the house of Israel, Your people, has done before You.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The congregation responded with Baruch Shem on hearing the Divine Name.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "This is the third time the Shem HaMeforash was uttered; the third prostration.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "After the confession the KG hands the goat to the handler (ish iti).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The ish iti was appointed to take the goat to the Tsuk (cliff).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "If the Azazel goat died before being sent, a new one must be brought.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The designation is specific to that animal; if it dies, a new lot must be drawn.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "If it got lost on the way, what happens? It depends on when it was lost.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "If after the blood of the God-goat was sprinkled, the Azazel goat was already fulfilled.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "If before the blood was sprinkled, a new Azazel goat must be designated.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "What if the God-goat (for sacrifice) dies after its blood was already sprinkled?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Its blood already atoned; the dead carcass is disposed of.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "What if the goats got mixed up before any lots were drawn?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "A new pair must be acquired and lots drawn again.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "What if they got mixed up after the lots were placed on them?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "If before any sprinkling, new lots must be drawn from a new pair.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "If after the blood was sprinkled, the remaining Azazel goat (whichever it is) is sent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The various scenarios are analyzed to determine when designation is irreversible.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "After blood sprinkling of the God-goat, the Azazel goat's identity is locked in.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Before sprinkling, both goats' identities are still fluid.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The lot creates a conditional designation; the blood sprinkling makes it final.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Summary: third confession text; goat sent after confession; replacement scenarios based on timing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The live goat's standing requirement: until the confession over it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The confession's scope: all Israel - this is the broadest of the three confessions.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The first confession (bull): KG and his household.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "The second confession (bull again): KG, household, and the sons of Aaron.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The third confession (live goat): KG, household, sons of Aaron, and all Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Progressive expansion: self → family → kohanim → all Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The live goat carries the widest net of atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The blood offerings (bull and goat) atone for impurity in the Temple.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The live goat and verbal confession atone for intentional sins of all Israel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "The two mechanisms (blood and speech) work on different types of wrongdoing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Summary: third confession, goat sent, replacement rules analyzed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "40b concludes the live goat discussion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "41a opens with the Sifra attribution question.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The transition from live goat to the next stage of service.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

@@ -1,0 +1,1240 @@
+{
+  "canonicalRef": "Yoma 67b",
+  "summary": "The etymology of Azazel (az=strong, el=mighty cliff); three wilderness requirements from the triple midbar repetition; tannaitic dispute on whether the goat fell face-first or backward; opening of Mishnah Ch. 7 describing the bull and goat burning procedure.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-067b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 11
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.67b.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.67b.2"
+        },
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.67b.3"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.67b.4"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.67b.5"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.67b.1",
+        "Yoma.67b.2",
+        "Yoma.67b.3",
+        "Yoma.67b.4",
+        "Yoma.67b.5"
+      ],
+      "display": {
+        "whats": "Azazel etymology: az (strong, hard) plus el (mighty God) - the cliff is gezirah, something cut off sharply. The Gemara addresses why this strange ritual is not senseless paganism - it is a Divine decree (chok) that atones for sexual sin through the fallen angels Uzza and Azza'el.",
+        "hint": "What makes Azazel a chok rather than a mishpat - and why does that matter for how we relate to it?"
+      },
+      "learning": {
+        "summary": "The Gemara derives that 'Azazel' means az (fierce/hard) and el (mighty) - referring to the hard sheer cliff. The name gezirah means a decree, and the cliff is a place cut off sharply. The Gemara then confronts the challenge: isn't this a meaningless pagan act? The answer is that it is a chok - a Divine decree beyond rational justification - connected to atonement for the sin of the fallen angels Uzza and Azza'el who descended in the generation of Noah.",
+        "ahaMoment": "The Talmud honestly grapples with the apparent irrationality of the Azazel ritual. Rather than forcing a rational justification, it leans into the category of chok - saying that is exactly the point: some commandments are decrees that the Satan cannot refute, precisely because they have no rational explanation to argue against.",
+        "memoryAnchor": "Az + El = fierce mighty cliff. The Azazel goat atones for Uzza and Azza'el - two fallen angels who sinned with human women.",
+        "openQuestion": "Why does the Azazel ritual specifically atone for the sin of the fallen angels rather than for Israel's own sins?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-067b-l01",
+          "type": "ruling",
+          "label": "Ruling: Azazel means fierce and mighty cliff",
+          "speaker": "Gemara",
+          "text": "Azazel is derived from az (fierce/strong) and el (mighty) - describing the hard sheer cliff.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l02",
+          "type": "reason",
+          "label": "Reason: Gezirah means something cut off sharply",
+          "speaker": "Gemara",
+          "text": "Gezirah (decree/cut) describes the cliff which is vertically cut, not sloped - the goat is cut apart limb by limb as it falls.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l02",
+              "vilnaLine": 2
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l03",
+          "type": "question",
+          "label": "Question: Is this ritual meaningless paganism?",
+          "speaker": "Gemara",
+          "text": "One might think: what atonement comes from this dispatch? What benefit comes from a cliff?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l03",
+              "vilnaLine": 5
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l04",
+          "type": "ruling",
+          "label": "Ruling: It is a chok - Divine decree beyond reason",
+          "speaker": "Gemara",
+          "text": "It is a chok - a royal decree. The Satan challenges mishpatim (rational laws) but cannot argue against a chok. Therefore it is written: I am Hashem, I have decreed it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l04",
+              "vilnaLine": 8
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l05",
+          "type": "ruling",
+          "label": "Ruling: Atones for Uzza and Azza'el who fell for human women",
+          "speaker": "Gemara",
+          "text": "The Azazel goat atones for the sin of the fallen angels Uzza and Azza'el who descended for human women in Noah's generation (Gen. 6).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l05",
+              "vilnaLine": 10
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "azazel",
+        "chok",
+        "fallen-angels",
+        "etymology"
+      ],
+      "concepts": {
+        "halachic": [
+          "chok vs mishpat distinction",
+          "Azazel as Divine decree"
+        ],
+        "theological": [
+          "fallen angels Uzza and Azza'el",
+          "atonement for cosmic sin",
+          "the Satan's inability to argue against a chok"
+        ],
+        "narrative": [
+          "etymology of Azazel from az and el",
+          "gezirah as the cut cliff"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "fallen angels narrative (Gen. 6)",
+        "chok vs mishpat categories in halacha"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Azazel ritual is a form of idolatry or scapegoating to another deity",
+          "correction": "It is a Divine decree (chok) that atones for specific historical sins and cannot be argued against precisely because it has no rational explanation.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Mishpat (rational law the Satan can argue) vs Chok (Divine decree the Satan cannot refute)",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "Why does the Azazel ritual specifically fall under the category of chok?",
+          "answer": "Because its rationale is not transparent - it is a Divine decree beyond rational justification. The Satan can challenge mishpatim (rational laws) but cannot argue against a chok whose sole basis is Divine command.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Azazel means the strong, hard cliff (az + el). The ritual is a chok - Divine decree - that atones for the sin of the fallen angels.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-067b-s02",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 24
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.67b.6"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.67b.7"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.67b.8"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.67b.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.67b.6",
+        "Yoma.67b.7",
+        "Yoma.67b.8",
+        "Yoma.67b.9"
+      ],
+      "display": {
+        "whats": "Three occurrences of 'midbar' (wilderness) in the Azazel passage teach that the goat must go to a true wilderness: desolate, ownerless, and suitable - establishing the halachic parameters for where Azazel can be performed.",
+        "hint": "Why does the Torah repeat 'wilderness' three times in the Azazel passage when once would have sufficed?"
+      },
+      "learning": {
+        "summary": "The Torah uses three forms of 'wilderness' in the Azazel passage: ha-midbarah, ha-midbarah, and ba-midbar. The Gemara derives from these three that the wilderness must be (1) truly desolate, (2) ownerless like unclaimed land, and (3) an actual recognized wilderness area - not just any remote place.",
+        "ahaMoment": "Three words for wilderness teach three distinct halachic requirements - each repetition adds a new layer. This is classic midrashic halakha: textual repetition is never accidental.",
+        "memoryAnchor": "Three midbar = three requirements: desolate, ownerless, actual wilderness.",
+        "openQuestion": "Could the Azazel service theoretically be performed in a different uninhabited location outside Israel?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-067b-l06",
+          "type": "ruling",
+          "label": "Ruling: Three midbar references - three requirements",
+          "speaker": "Gemara",
+          "text": "The three uses of wilderness in the Azazel passage (ha-midbarah, ha-midbarah, ba-midbar) each add a distinct halachic requirement.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l06",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l07",
+          "type": "reason",
+          "label": "Reason: Must be desolate - like an actual wilderness",
+          "speaker": "Gemara",
+          "text": "The first midbar teaches it must be a true desolate place, not merely uninhabited.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l07",
+              "vilnaLine": 16
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l08",
+          "type": "reason",
+          "label": "Reason: Must be ownerless - no one's property",
+          "speaker": "Gemara",
+          "text": "The second midbar teaches it must be ownerless, as the wilderness was ownerless - not privately owned land.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l08",
+              "vilnaLine": 17
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l09",
+          "type": "reason",
+          "label": "Reason: Must be an actual wilderness location",
+          "speaker": "Gemara",
+          "text": "The third midbar confirms it must be a place specifically recognized as wilderness - the Azazel designation applies only there.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l09",
+              "vilnaLine": 20
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "azazel",
+        "midbar",
+        "biblical-derivation",
+        "halachic-requirements"
+      ],
+      "concepts": {
+        "halachic": [
+          "gezerah shavah from midbar repetition",
+          "requirements for valid Azazel location"
+        ],
+        "theological": [
+          "wilderness as symbol of abandonment and expulsion"
+        ],
+        "narrative": [
+          "three wilderness verses in Leviticus 16"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "basic midrashic derivation techniques",
+        "Azazel service context"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Any remote uninhabited area qualifies for Azazel",
+          "correction": "The location must meet three specific criteria derived from the triple use of midbar: desolate, ownerless, and an actual wilderness.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Three midbar citations from Leviticus 16, each adding a requirement",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "How many times does the Torah use a form of 'wilderness' in the Azazel passage, and what does each add?",
+          "answer": "Three times - each teaching a separate requirement: desolate place, ownerless land, and an actual wilderness location.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "Three wilderness references in the Azazel passage establish three requirements: the location must be desolate, ownerless, and an actual wilderness.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-067b-s03",
+      "lineRange": {
+        "startVilnaLine": 26,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.67b.10"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.67b.11"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.67b.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.67b.10",
+        "Yoma.67b.11",
+        "Yoma.67b.12"
+      ],
+      "display": {
+        "whats": "Tannaitic dispute about whether the Azazel goat fell face-first or backward. The verse 'to utter wilderness' implies it went somewhere from which there is no return - and how one-way that journey was depends on how it fell.",
+        "hint": "Why does the direction the goat fell matter halachically?"
+      },
+      "learning": {
+        "summary": "The Tanna Kamma holds the goat went backward off the cliff (al achorav); Ben Azzai holds it went face-first (al panav). The practical difference may be whether it could survive the fall, or whether it was thrown vs. fell. The verse says 'ish iti' (designated man) sent it - the act of sending (shelicha) constitutes the service, not the manner of death.",
+        "ahaMoment": "The Azazel service is complete with the act of dispatch (shelicha) - not with the goat's death. Once the man sent it toward the wilderness, the service was performed, regardless of what happened at the cliff.",
+        "memoryAnchor": "Face-first or backward - Ben Azzai vs. Tanna Kamma - but either way, the moment of dispatch is what counts.",
+        "openQuestion": "If the goat somehow survived the fall, would the Yom Kippur service be valid?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-067b-l10",
+          "type": "dispute",
+          "label": "Dispute: Goat fell backward vs face-first",
+          "speaker": "Tanna Kamma vs Ben Azzai",
+          "text": "Tanna Kamma: the goat went backward (al achorav). Ben Azzai: it went face-first (al panav).",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l10",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l11",
+          "type": "ruling",
+          "label": "Ruling: The shelicha (dispatch) is the key act",
+          "speaker": "Gemara",
+          "text": "The verse emphasizes 'he sent' (ushilach) - the designated man's act of sending constitutes the service; the manner of death is secondary.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l11",
+              "vilnaLine": 28
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l12",
+          "type": "ruling",
+          "label": "Ruling: He throws it off the top all at once",
+          "speaker": "Gemara",
+          "text": "He threw it off the top of the cliff all at once - the push itself is the act of shelicha according to one view.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l12",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "azazel",
+        "tannaitic-dispute",
+        "shelicha",
+        "cliff-method"
+      ],
+      "concepts": {
+        "halachic": [
+          "shelicha as the operative act in Azazel",
+          "tannaitic dispute on the method"
+        ],
+        "theological": [
+          "the goat's death as expulsion ritual"
+        ],
+        "narrative": [
+          "the final push at the Azazel cliff"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Azazel service basics",
+        "concept of shelicha (agency) in halacha"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The goat's death at the cliff is the operative act of the Azazel service",
+          "correction": "The dispatch (shelicha) - sending the goat toward the wilderness - is the operative act. The cliff death is the result but not the halachic center.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Two opinions: goat falling face-first vs. backward - with the ish iti at the cliff edge",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "What is the dispute between the Tanna Kamma and Ben Azzai about the Azazel goat?",
+          "answer": "Whether the goat fell backward (Tanna Kamma) or face-first (Ben Azzai) off the cliff.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "There is a tannaitic dispute about whether the goat fell backward or face-first. The act of shelicha - dispatch by the designated man - is the operative part of the service.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-067b-s04",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 45
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.67b.13"
+        },
+        {
+          "vilnaLine": 37,
+          "sefariaRef": "Yoma.67b.14"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.67b.15"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.67b.16"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.67b.13",
+        "Yoma.67b.14",
+        "Yoma.67b.15",
+        "Yoma.67b.16"
+      ],
+      "display": {
+        "whats": "Mishnah Ch. 7 opens: after handing over the Azazel goat, the HP returned to the bull and goat designated for burning. He tore them open, removed the sacrificial parts, placed them on a tray, and sent them to be burned outside Jerusalem.",
+        "hint": "At what point do those handling the burned bull and goat become ritually impure in their garments?"
+      },
+      "learning": {
+        "summary": "Mishnah Chapter 7: After the Azazel goat was dispatched, the HP came to the bull and goat that were waiting to be burned. He tore them open, removed the eimurim (sacrificial parts), placed them in a service tray, and then the carcasses were carried out of Jerusalem for burning. The Gemara debates the exact moment when those handling them become tamei in their clothing: at this point the Gemara determines it is when they leave the Azarah courtyard wall.",
+        "ahaMoment": "The HP cannot yet burn the eimurim - he is still in white vestments needed for the Torah reading. The tray is a holding vessel; the actual burning happens later when he puts on the golden vestments.",
+        "memoryAnchor": "Bull and goat on a service tray - waiting their turn while the HP finishes the Torah reading.",
+        "openQuestion": "Why did the HP need to handle the eimurim himself rather than delegating this to another kohen?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-067b-l13",
+          "type": "ruling",
+          "label": "Ruling: HP came to bull and goat after handing over Azazel goat",
+          "speaker": "Mishnah",
+          "text": "After handing over the Azazel goat, the HP came to the bull and goat waiting to be burned, tore them open, and removed the sacrificial parts.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l13",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l14",
+          "type": "ruling",
+          "label": "Ruling: Eimurim placed on a service tray",
+          "speaker": "Mishnah",
+          "text": "He placed the eimurim (sacrificial fats and parts) in a service vessel tray to be burned later at the appropriate time.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l14",
+              "vilnaLine": 37
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l15",
+          "type": "ruling",
+          "label": "Ruling: Carcasses carried out for burning in braided formation",
+          "speaker": "Mishnah",
+          "text": "The carcasses were carried out to the burning place outside Jerusalem in a braided formation on poles - whole but with bellies torn open.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l15",
+              "vilnaLine": 41
+            }
+          ]
+        },
+        {
+          "id": "yoma-067b-l16",
+          "type": "ruling",
+          "label": "Ruling: Handlers become tamei when leaving the Azarah wall",
+          "speaker": "Gemara",
+          "text": "Those handling the bull and goat become tamei in their garments from the moment the carcasses leave the Azarah courtyard wall.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-067b-l16",
+              "vilnaLine": 42
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "bull-and-goat-burning",
+        "eimurim",
+        "tum'ah",
+        "yom-kippur-service"
+      ],
+      "concepts": {
+        "halachic": [
+          "tum'ah of handlers of burned bull/goat",
+          "eimurim removal and timing",
+          "braided pole carrying method"
+        ],
+        "theological": [
+          "purification through fire outside the camp"
+        ],
+        "narrative": [
+          "HP tearing open the bull and goat after Azazel service"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Yom Kippur service order",
+        "eimurim in sacrificial context",
+        "tum'ah transmission"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The HP burned the eimurim immediately after removing them",
+          "correction": "The eimurim were placed on a tray to wait - the HP was still in white vestments for the Torah reading and could not yet burn them.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "HP tears open bull and goat, removes eimurim to tray, whole carcasses carried out on poles",
+          "role": "anchor",
+          "priority": 1
+        }
+      ],
+      "quizSeeds": [
+        {
+          "question": "From when do the handlers of the Yom Kippur bull and goat become tamei in their garments?",
+          "answer": "From when the carcasses leave outside the wall of the Azarah courtyard.",
+          "sourceRefs": []
+        }
+      ],
+      "finalRuling": "After the Azazel goat was dispatched, the HP came to the bull and goat for burning, removed the eimurim to a tray, and the carcasses were carried out. Handlers become tamei when the carcasses exit the Azarah wall.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "דכתיב במדבר. ושלח את השעיר במדבר (ויקרא טז) וקרא יתירא",
+      "en": "As it is written 'in the wilderness' (Lev. 16:22) - the extra word 'wilderness' is for derasha.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "הוא למדרש שיהא הפקר כמדבר: גזירה. לשון חומר ואיסור:",
+      "en": "It shall be desolate like the wilderness: gezirah means a harsh decree.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "המדברה המדברה במדבר. שלש מקראות בענין לשלח אותו לעזאזל",
+      "en": "Ha-midbarah, ha-midbarah, ba-midbar - three verses about sending the goat to Azazel.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "המדברה ושלח ביד איש עתי המדברה ושלח את השעיר במדבר:",
+      "en": "Ha-midbarah (to the wilderness), ushilach b'yad ish iti ha-midbarah (sent by hand of the designated man to the wilderness), ushilach et ha-sa'ir ba-midbar.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "חתוכה. צוק חתוך בזקיפה ולא",
+      "en": "Cut off - the cliff is cut sharply vertically and not merely sloped.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "משופע כל כך: דבר המתגזר ויורד.",
+      "en": "A thing cut off and descending - the goat is cut into pieces, limb by limb.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "השעיר מתגזר בה איברים איברים:",
+      "en": "The goat is cut apart limb by limb.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "שמא תאמר מעשה תהו הם. מה",
+      "en": "Lest you say these are meaningless acts - what atonement is there in this dispatch?",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "כפרה יש בשילוח זה ומה יש ביד",
+      "en": "And what benefit comes from this cliff? It is not trivial.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "צוק זה להועיל: לתקלה. שימצאם",
+      "en": "As a snare - that someone might find them and benefit from them without knowing they came from the goat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "אדם ויהנה מהם שלא ידע שהיו מן",
+      "en": "A person would find them and benefit without knowing they were from the goat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "השעיר: שיהא עז וקשה. אל לשון",
+      "en": "That it be strong and hard - el means hard.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "קשה: ומניין שבצוק. הר זקוף:",
+      "en": "And from where do we know it must be a cliff - a vertical steep rock.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "גזירה. חתוכה: עוזא ועזאל.",
+      "en": "Gezirah - cut off. Uzza and Azza'el.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "מלאכי חבלה שירדו לארץ בימי",
+      "en": "Angels of destruction who descended to earth in the days of Na'amah sister of Tubal-Cain.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "נעמה אחות תובל קין ועליהם נאמר",
+      "en": "About them it is written: 'the sons of God saw the daughters of man' (Gen. 6).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "ויראו בני האלהים את בנות האדם",
+      "en": "That is: the goat atones for sexual immorality.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "(בראשית ו) כלומר על העריות מכפר:",
+      "en": "(Gen. 6) - it atones for sexual sins.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "משפטי. משמע דברים המיושרים",
+      "en": "Mishpatai - implies things that are rationally justified and reason demands doing.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "והדין נותן לעשותו: חוק. משמע",
+      "en": "Chok - implies it is only the decree of a king, as in 'he made it a chok' (1 Sam. 30).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "שאינו אלא גזירת מלך כמו וישימה",
+      "en": "And Joseph made it a chok (Gen. 47).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "לחק (שמואל א ל) וישם אותה יוסף",
+      "en": "Ha-Satan - the evil inclination.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "לחוק (בראשית מז) : השטן. יצר הרע",
+      "en": "Responds to them with arguments to mislead Israel, saying the Torah is not true.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "משיב עליהן תשובה להטעות את",
+      "en": "What benefit is there in all these? Therefore it is written in them: chok.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "ישראל ולומר שהתורה אינה אמת כי",
+      "en": "I am Hashem, I have decreed it upon you.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "מה תועלת בכל אלו לכך נכתב בהן",
+      "en": "Talmud lomar - I am Hashem. This refers back to chukkotai.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "חוק אני ה' גזרתי עליכם: תלמוד",
+      "en": "From them it concludes: et chukkotai tishmeru - I am Hashem, I have decreed them.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "לומר אני ה'. אחוקותי קאי דמינייהו",
+      "en": "The one who sends the messenger - those who escort him from Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "סליק את חוקותי תשמרו אני ה'",
+      "en": "Talmud lomar vehameshale'ach - implies he has already sent him toward the wilderness.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "חקקתים גזרתים: השולח את המשלח.",
+      "en": "He throws him off the top of the cliff all at once - he holds that the push and throw is his dispatch.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "המלוים אותו מירושלים: ת\"ל",
+      "en": "Mishnah: he came to the bull etc. The Tanna returns to his original order of the HP's service.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "והמשלח. משמע ששילחו כבר לצד",
+      "en": "He describes how the HP came to the bull and goat that stood to be burned after he had handed over the designated goat.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "המדבר: זורקו בבת ראש. קסבר",
+      "en": "He came to them and tore them open and removed the sacrificial parts.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "דחיפתו וזריקתו היא שילוחו:",
+      "en": "He gave the parts to a tray - a service vessel dish - and burned them as written (Lev. 16).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "מתני' בא לו אצל פר וכו'. חזר",
+      "en": "And he shall burn the fat of the sin offering on the altar. The Gemara asks: but at this point they were not yet fit to burn.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "לו התנא לסדרו הראשון שהוא מסדר",
+      "en": "He arranged them in a braided formation - four men carry two poles, two in front and two behind.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "עבודת כ\"ג וקתני בא לו כהן גדול",
+      "en": "Walking pole next to pole, the bull and goat placed on them stacked one over the other.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "אצל פר ושעיר העומדים לישרף אחר",
+      "en": "They bent them under each other in a braided formation.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "שמסר את המשתלח למי שהוא",
+      "en": "They were whole but their bellies had been torn open to remove the sacrificial parts.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "מוליכו בא לו אצלם וקרעם והוציא",
+      "en": "As taught in the Gemara: they are taken out whole.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "האימורין: ונתנם במגס. בקערה",
+      "en": "And took them out to the burning place - outside Jerusalem.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "של כלי שרת והקטירן כדכתיב (ויקרא",
+      "en": "From when do their handlers become tamei in their garments? As written (Lev. 16).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "טז) ואת חלב החטאת יקטיר המזבחה",
+      "en": "And the one who burns them shall wash his garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "ובגמרא פריך הא אכתי לא חזי",
+      "en": "From when they leave outside the wall of the Azarah - the Gemara explains the reason.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "להקטירן: קלען במקלעות. כמין",
+      "en": "Gemara: the reading should be 'to bring them up to burn them' not 'and he burned them.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "קליעה ארבעה בני אדם נושאין שני",
+      "en": "This seems incorrect - the correct reading is 'to burn them'; the phrase 'and he burned them in the tray' is a corrupted text.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "מוטות שנים לפנים שנים לאחור",
+      "en": "Here and in Pesachim (65b) and Sotah (15a), the proper reading is 'to burn them in the tray' - using the tray to carry them to the altar.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "ומהלכים מוט אצל מוט והפר והשעיר",
+      "en": "Many mishnayot similarly say 'brought up and burned in service vessels' (Sotah 14b).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "נתונים עליהן מורכבין זה על זה",
+      "en": "Many mishnayot say 'brought up and burned in service vessels.'",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "וכופפן זה תחת זה כמין קליעה",
+      "en": "But the difficulty is this: 'and he burned them' - is that conceivable? He is still wearing the white garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "ושלימין הן אלא שנקרע כריסן להוציא",
+      "en": "He must still read the Torah portion in these garments; then immerse and change to golden garments.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "אימוריהן כדתניא בגמרא שמוציאן",
+      "en": "Then immerse a second time to bring out the ladle and pan; then immerse a third time for the mussaf and these sin-offering fat pieces.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "שלמים: והוציאן לבית השריפה.",
+      "en": "And the afternoon tamid which follows - rather the reading is: he gave them in a tray to be burned at the appropriate time.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "חוץ לירושלים: מאימתי מטמאים",
+      "en": "He did not slaughter them in pieces - those who burn them do not flay and cut like a normal offering.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "בגדים. העסוקין בהן כדכתיב",
+      "en": "Skinned from hide before cutting as written (Lev. 1), but rather the hide remained over the flesh without flaying.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "והשורף אותם יכבס בגדיו (שם) :",
+      "en": "And their flesh and their dung.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "משיצאו חוץ לחומת העזרה. בגמרא",
+      "en": "And it is stated regarding the bull of the anointed priest: the hide of the bull and all its flesh on its head and on its legs.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "מפרש טעמא: גמ' ה\"ג והקטירן",
+      "en": "And what.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "ס\"ד אלא אימא להקטירן ולא גרס",
+      "en": "Rashi line 59: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "במגס מקטיר להו וגירסא משובשת היא כאן ובמסכת פסחים",
+      "en": "Rashi line 60: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "he": "(דף סה:) ובמסכת סוטה (דף טו.) דשפיר הוה שייך למיתני לתנא",
+      "en": "Rashi line 61: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "he": "והקטירן במגס דבמגס מעלה אותן למזבח דדכוותיה תנינן",
+      "en": "Rashi line 62: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "he": "טובא מעלו ומקטירו בכלי שרת (סוטה דף יד:) מעלו ומקטירו בהמיינו אלא הכי קשיא ליה והקטירן ס\"ד וכי עכשיו הוא",
+      "en": "Rashi line 63: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "he": "מקטירן והלא עודנו לבוש בגדי לבן ועדיין עליו לקרות הפרשה בבגדים הללו ואח\"כ יטבול וילבש בגדי זהב לאילו ואיל",
+      "en": "Rashi line 64: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "he": "העם ויטבול שניה להוציא כף ומחתה ויטבול שלישית למוספין ואמורי חטאת הללו ותמיד של בין הערבים כדקתני בפרקין",
+      "en": "Rashi line 65: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "he": "דלקמן אלא אימא להקטירן נתן למגס להקטירן בו למזבח כשיגיע זמנן: לא היה מנתחן. השורפן כניתוח בשר עולה שהוא",
+      "en": "Rashi line 66: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "he": "מופשט מן העור קודם ניתוח כדכתיב והפשיט ונתח (ויקרא א) אלא עור על גבי בשר ואינו מפשיטן: נאמר כאן. בפר ושעיר את עורותם",
+      "en": "Rashi line 67: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 68,
+      "he": "ואת בשרם ואת פרשם: ונאמר. בפר כהן משיח עור ובשר ופרש ואת עור הפר ואת כל בשרו על ראשו ועל כרעיו וקרבו ופרשו (ויקרא ד) :",
+      "en": "Rashi line 68: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 69,
+      "he": "מה",
+      "en": "Rashi line 69: continuation of previous comment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

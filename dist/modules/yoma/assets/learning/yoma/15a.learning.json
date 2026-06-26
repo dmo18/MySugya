@@ -1,0 +1,1100 @@
+{
+  "daf": "15a",
+  "canonicalRef": "Yoma 15a",
+  "summary": "The Rabbanan explain their ketoret-first ruling via a parallel from the afternoon service: 'at the time of lighting you shall burn the incense,' meaning incense accompanies the lamp service - not after it. Abba Shaul rejects this analogy ('oto' limits the afternoon rule). Rav Pappa and Abaye offer competing resolutions to the three-clause mishna contradiction; they disagree on whether a mishna can mix tannaitic positions mid-text. The Gemara then examines the basis for Rabbi Shimon ish HaMitzpah's unique tamid blood-sprinkling method - the verse commands that the tamid be performed like both an olah and a chatat simultaneously. A series of proposals for how to execute this dual requirement are raised and refuted, each failing on the principle that we have no precedent for blood that both atones and re-atones.",
+  "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+  },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-15a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 12
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.15a.1"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.15a.2"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.15a.3"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.15a.1",
+        "Yoma.15a.2",
+        "Yoma.15a.3"
+      ],
+      "display": {
+        "whats": "The Rabbanan defend their position that ketoret (incense) is burned before the lamps by drawing a parallel from the afternoon tamid: 'at the time of lighting you shall burn incense' means the incense accompanies the lamp service. Abba Shaul objects that 'oto' (that specific lamp) limits this rule to the afternoon only, not the morning.",
+        "hint": "The word 'oto' in the verse - 'and when Aaron lights it' - is doing a lot of work. The Rabbanan read it as an analogy; Abba Shaul reads it as a restriction."
+      },
+      "learning": {
+        "summary": "Rabbanan prove ketoret precedes lamps by analogy with the afternoon service. The verse 'at the time of lighting he shall burn incense' links incense to lamps regardless of order. Abba Shaul limits this analogy: 'oto' confines it to the afternoon, leaving the morning order governed by the plain verse.",
+        "ahaMoment": "A single word - 'oto' - decides whether the afternoon lamp/incense verse is a universal principle or a one-time specification.",
+        "memoryAnchor": "Rabbanan: incense rides alongside lamps (morning too). Abba Shaul: 'oto' - that particular lamp, afternoon only.",
+        "openQuestion": "If the Rabbanan's analogy holds, what governs the morning sequence? The plain verse still says 'prepare the lamps, then burn incense' - how do the Rabbanan read it?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "claim",
+          "label": "Rabbanan: afternoon analogy proves ketoret first",
+          "speaker": "Rabbanan",
+          "text": "The afternoon verse reads: 'when Aaron lights the lamps he shall burn incense.' So too in the morning: incense accompanies the lamp service. This proves our ruling that ketoret precedes the remaining lamps.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l01",
+              "vilnaLine": 1,
+              "note": "Rabbanan's afternoon analogy"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Counter: does afternoon verse not imply lamps first?",
+          "speaker": "Gemara",
+          "text": "But the afternoon verse seems to say Aaron FIRST lights lamps THEN burns incense - would the Rabbanan accept this sequencing for the afternoon too?",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l01",
+              "vilnaLine": 1,
+              "note": "Internal challenge to the analogy"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "The verse means 'at the time of' - not after",
+          "speaker": "Gemara",
+          "text": "'At the time of lighting' means incense accompanies the lamp service, not that it comes after. The verse 'from evening to morning' teaches lamps burn all night - so incense is with the lighting, not following it.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l06",
+              "vilnaLine": 6,
+              "note": "Resolution: 'at the time of' reading"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "objection",
+          "label": "Abba Shaul: 'oto' limits the analogy",
+          "speaker": "Abba Shaul",
+          "text": "'Oto' - that one lamp - restricts the afternoon verse to the afternoon situation. The analogy cannot extend to the morning service. The morning order follows the plain text.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l12",
+              "vilnaLine": 12,
+              "note": "Abba Shaul's restriction"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "ketoret",
+        "menorah",
+        "tamid",
+        "service order",
+        "Abba Shaul",
+        "Rabbanan",
+        "analogy"
+      ],
+      "concepts": [
+        {
+          "term": "ketoret",
+          "def": "Incense burned on the golden altar in the Sanctuary. The dispute here is whether it precedes or follows the lamp-tending in the morning service."
+        },
+        {
+          "term": "hatavat ha-nerot",
+          "def": "Tending (cleaning and refilling) the seven-branched menorah. One of the first morning Temple services, whose sequencing relative to incense is disputed."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.15a.1",
+        "Yoma.15a.2",
+        "Yoma.15a.3"
+      ],
+      "requiresUnderstanding": [
+        "The morning tamid service sequence",
+        "Abba Shaul vs Rabbanan dispute about incense and lamp order from 14b"
+      ],
+      "misconceptions": [
+        "One might think 'at the time of lighting' means after lighting - Rashi clarifies it means during/accompanying the lamp service, not sequentially after."
+      ],
+      "relatedSugyot": [
+        "yoma-14b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "Split diagram: Rabbanan (ketoret left, 5 lamps right, both morning) vs Abba Shaul (oto restricts afternoon only)"
+        },
+        {
+          "type": "text",
+          "desc": "Exodus 30:8 with 'oto' highlighted and two interpretive arrows showing the Rabbanan and Abba Shaul readings"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "How do the Rabbanan use the afternoon lamp verse to prove ketoret comes first?",
+          "correct": "They read 'at the time of lighting he shall burn incense' as meaning incense accompanies the lamps - so ketoret goes with (before) the remaining five lamps, not after."
+        },
+        {
+          "type": "multiple_choice",
+          "q": "Why does Abba Shaul reject the Rabbanan's analogy?",
+          "choices": [
+            "The afternoon verse uses 'oto' limiting the rule to that specific lamp",
+            "The afternoon service has different rules than the morning",
+            "The verse was only said about the incense not the lamps",
+            "Abba Shaul holds ketoret never precedes lamps"
+          ],
+          "correct": "The afternoon verse uses 'oto' limiting the rule to that specific lamp"
+        }
+      ],
+      "finalRuling": "Disputed: Rabbanan hold ketoret precedes lamps (morning analogy from afternoon); Abba Shaul holds 'oto' limits that analogy.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "קְטוֹרֶת",
+          "translit": "ketoret",
+          "en": "Incense burned on the golden altar in the Temple Sanctuary; subject of the morning/afternoon sequencing dispute here."
+        },
+        {
+          "he": "אוֹתוֹ",
+          "translit": "oto",
+          "en": "That one (masculine). Abba Shaul reads 'oto' in the afternoon lamp verse as restricting the incense-lamp link to the afternoon only."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-15a-s02",
+      "lineRange": {
+        "startVilnaLine": 13,
+        "endVilnaLine": 25
+      },
+      "lines": [
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.15a.4"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.15a.5"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.15a.6"
+        },
+        {
+          "vilnaLine": 25,
+          "sefariaRef": "Yoma.15a.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.15a.4",
+        "Yoma.15a.5",
+        "Yoma.15a.6",
+        "Yoma.15a.7"
+      ],
+      "display": {
+        "whats": "Rav Pappa and Abaye offer competing resolutions to the apparent contradiction in the mishnayot about the service order. Their disagreement hinges on whether a single mishna can incorporate two different tannaitic positions within one text. Rav Pappa says yes (different sections of Yoma reflect different Tannaim); Abaye says no (a mishna does not split its view).",
+        "hint": "The machloket between Rav Pappa and Abaye is a methodological one: can a single tractate's mishnayot hold both R. Akiva and Abba Shaul's positions, or must each mishna be internally consistent?"
+      },
+      "learning": {
+        "summary": "Rav Pappa resolves the Yoma self-contradiction by assigning the two mishnayot to different tannaitic positions (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul). Abaye counters that a mishna cannot split its ruling this way. Both agree the underlying tension in the text is real.",
+        "ahaMoment": "Rav Pappa and Abaye are not disputing the facts but the methodology of Mishnah interpretation: can a tractate's sections reflect different anonymous authorities?",
+        "memoryAnchor": "Rav Pappa: the two chapters can follow different Tannaim. Abaye: a mishna cannot switch positions mid-text.",
+        "openQuestion": "If Abaye rejects Rav Pappa's solution, how does Abaye himself resolve the contradiction between the two Yoma mishnayot?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "claim",
+          "label": "Rav Pappa: different chapters, different Tannaim",
+          "speaker": "Rav Pappa",
+          "text": "Chapter 1 (two lamps) follows Rabbanan; Chapter 3 (five lamps) follows Abba Shaul. Different sections of Yoma can reflect different tannaitic views.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l13",
+              "vilnaLine": 13,
+              "note": "Rav Pappa's resolution"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "But look at Chapter 3 - it contradicts itself too",
+          "speaker": "Gemara",
+          "text": "Chapter 3 says the KG offers the tamid last - but that contradicts Abba Shaul who has a different order. So assigning Chapter 3 to Abba Shaul doesn't work either.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l16",
+              "vilnaLine": 16,
+              "note": "Challenge to Rav Pappa"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "claim",
+          "label": "Abaye: a mishna cannot mix tannaitic positions",
+          "speaker": "Abaye",
+          "text": "The opening of the mishna (two lamps) follows Rabbanan and the later lotteries section (ketoret last) follows Abba Shaul - but a single mishna cannot split its ruling across different Tannaim. Abaye proposes an alternative reading.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l21",
+              "vilnaLine": 21,
+              "note": "Abaye's methodological objection"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "resolution",
+          "label": "Abaye: the lotteries mishna is about a different context",
+          "speaker": "Abaye",
+          "text": "The Chapter 1 passage about 'all seven days he sprinkles' is not about Yom Kippur specifically but is teaching that the KG must be practiced in Temple service throughout the week - a general teaching, not a Yom Kippur sequence.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l25",
+              "vilnaLine": 25,
+              "note": "Abaye's recontextualization"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Mishnah methodology",
+        "Rav Pappa",
+        "Abaye",
+        "service order",
+        "stam mishna",
+        "contradiction resolution"
+      ],
+      "concepts": [
+        {
+          "term": "stam mishna",
+          "def": "An anonymous, unattributed mishna - assumed to represent the majority/accepted view. Identifying the anonymous author helps clarify disputed points."
+        },
+        {
+          "term": "risha/seifa",
+          "def": "The beginning and end of a mishna. When Rav Pappa or Abaye say 'risha... Rabbanan, seifa... Abba Shaul' they are attributing different sections of the same mishna to different authorities."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.15a.4",
+        "Yoma.15a.5",
+        "Yoma.15a.6"
+      ],
+      "requiresUnderstanding": [
+        "The service order controversy from 14b-15a",
+        "Abba Shaul vs Rabbanan positions on ketoret order"
+      ],
+      "misconceptions": [
+        "One might think Rav Pappa and Abaye are disputing the halacha - they are actually disputing how to read the Mishnah's structure."
+      ],
+      "relatedSugyot": [
+        "yoma-14b-s02",
+        "yoma-14b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "desc": "Two-column diagram: Rav Pappa's approach (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul) vs Abaye's approach (mishna cannot split positions)"
+        },
+        {
+          "type": "timeline",
+          "desc": "Mishna chapter 1 vs chapter 3 content shown side by side with the contradiction highlighted"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "compare",
+          "q": "How do Rav Pappa and Abaye each resolve the contradiction between the two Yoma mishnayot?",
+          "correct": "Rav Pappa assigns the two chapters to different Tannaim. Abaye objects that a mishna cannot split its position and instead recontextualizes the problematic passage."
+        },
+        {
+          "type": "explain",
+          "q": "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
+          "correct": "A single mishna cannot represent two different tannaitic positions within itself - it must be internally consistent."
+        }
+      ],
+      "finalRuling": "No definitive ruling given; the sugya presents both positions as live options.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-15a-s03",
+      "lineRange": {
+        "startVilnaLine": 27,
+        "endVilnaLine": 47
+      },
+      "lines": [
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.15a.8"
+        },
+        {
+          "vilnaLine": 33,
+          "sefariaRef": "Yoma.15a.9"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.15a.10"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.15a.11"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.15a.12"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.15a.13"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.15a.14"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.15a.15"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.15a.16"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.15a.17"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.15a.8",
+        "Yoma.15a.9",
+        "Yoma.15a.10",
+        "Yoma.15a.11",
+        "Yoma.15a.12",
+        "Yoma.15a.13",
+        "Yoma.15a.14",
+        "Yoma.15a.15",
+        "Yoma.15a.16",
+        "Yoma.15a.17"
+      ],
+      "display": {
+        "whats": "The Gemara investigates the basis for R. Shimon ish HaMitzpah's unique ruling that the tamid blood is sprinkled at all four altar corners - treating the tamid simultaneously as an olah and a chatat. Various proposals for how to execute this dual requirement are raised and refuted. The core problem: chatat blood goes on four horns; olah blood goes at two opposite corners. Each proposed combination fails on the principle that we cannot have blood serve two separate atonement functions at once.",
+        "hint": "The tamid is an unusual sacrifice. R. Shimon says it must be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn application). Every attempt to satisfy both simultaneously runs into the rule: we have no precedent for blood that atones and re-atones."
+      },
+      "learning": {
+        "summary": "R. Shimon ish HaMitzpah's ruling requires the tamid's blood to be applied in a way that satisfies both olah and chatat requirements. The Gemara systematically tests each possible application sequence and finds all of them blocked by the principle that blood cannot perform two distinct atonements - once used for one purpose, it cannot serve another.",
+        "ahaMoment": "The impossibility proof is elegant: every configuration either violates olah rules, violates chatat rules, or requires blood to atone twice - which has no precedent.",
+        "memoryAnchor": "Tamid = olah + chatat simultaneously. But blood cannot atone twice. Every solution fails on exactly this principle.",
+        "openQuestion": "If no blood application scheme satisfies both olah and chatat requirements, how is R. Shimon ish HaMitzpah's position even viable? Does he have a different understanding of 'matanot' (blood applications)?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "premise",
+          "label": "R. Shimon's ruling: tamid is both olah and chatat",
+          "speaker": "R. Shimon ish HaMitzpah",
+          "text": "The verse 'as a chatat upon the olah of the tamid' means the tamid requires both chatat-style blood application (four horns) and olah-style (two corners). Both sets of matanot must be performed.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l27",
+              "vilnaLine": 27,
+              "note": "R. Shimon's dual-sacrifice ruling"
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "objection",
+          "label": "Proposal 1: four corners, then two - refuted",
+          "speaker": "Gemara",
+          "text": "Apply blood to four corners (chatat), then two (olah). Rejected: the final two applications would have blood already used for chatat atonement - blood cannot atone a second time.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l33",
+              "vilnaLine": 33,
+              "note": "First proposal and refutation"
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "objection",
+          "label": "Proposal 2: two corners, then four - refuted",
+          "speaker": "Gemara",
+          "text": "Apply blood to two corners (olah style), then four (chatat style). Rejected by the same logic: the second round of applications is using already-used blood.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l36",
+              "vilnaLine": 36,
+              "note": "Second proposal refuted"
+            }
+          ]
+        },
+        {
+          "id": "step-04",
+          "type": "objection",
+          "label": "Proposal 3: four matanot covering both requirements - refuted",
+          "speaker": "Gemara",
+          "text": "Apply blood to four corners where two of those four also satisfy the olah requirement (the two opposite corners that olah uses are within the four). Rejected: the two olah corners are subsumed in the chatat matanot, not separate olah applications.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l39",
+              "vilnaLine": 39,
+              "note": "Third proposal and refutation"
+            }
+          ]
+        },
+        {
+          "id": "step-05",
+          "type": "objection",
+          "label": "Proposal 4: one application does double duty - refuted",
+          "speaker": "Gemara",
+          "text": "One application counts for both chatat and olah at the same corner. Rejected: we have no case where one blood application simultaneously fulfills two distinct halakhic functions.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l41",
+              "vilnaLine": 41,
+              "note": "Fourth proposal refuted"
+            }
+          ]
+        },
+        {
+          "id": "step-06",
+          "type": "conclusion",
+          "label": "The question stands: no viable configuration exists",
+          "speaker": "Gemara",
+          "text": "All proposals for satisfying R. Shimon's dual requirement fail. The sugya concludes as a genuine difficulty (teiku-style) - R. Shimon's position appears to require an impossible combination of blood rites.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l47",
+              "vilnaLine": 47,
+              "note": "Unresolved conclusion"
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "tamid",
+        "blood service",
+        "olah",
+        "chatat",
+        "R. Shimon ish HaMitzpah",
+        "matanot",
+        "altar corners"
+      ],
+      "concepts": [
+        {
+          "term": "matanot dam",
+          "def": "Blood applications to the altar or its horns. Olah requires two applications at opposite corners; chatat requires four horn applications. R. Shimon requires both for the tamid."
+        },
+        {
+          "term": "lo matzinu",
+          "def": "'We have not found' - the principle that halacha does not recognize a configuration that has no established precedent. Used here to reject any blood that would atone and re-atone."
+        },
+        {
+          "term": "tamid",
+          "def": "The daily communal burnt offering brought twice daily. R. Shimon ish HaMitzpah derives from Scripture that it requires both olah and chatat-style blood rites."
+        }
+      ],
+      "conceptRefs": [
+        "Yoma.15a.8",
+        "Yoma.15a.10",
+        "Yoma.15a.12"
+      ],
+      "requiresUnderstanding": [
+        "Olah blood service: two applications at opposite corners",
+        "Chatat blood service: four applications at all four horns",
+        "The principle that used blood cannot serve a second halakhic function"
+      ],
+      "misconceptions": [
+        "One might think four applications cover olah's two-corner requirement automatically - the Gemara shows the two olah corners are not equivalent to the four chatat corners.",
+        "One might think R. Shimon's ruling is easily executable - in fact every implementation scheme is blocked by fundamental blood-service principles."
+      ],
+      "relatedSugyot": [
+        "yoma-15b-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "desc": "Four-panel sequence showing each proposed blood-application scheme and the specific principle that blocks it"
+        },
+        {
+          "type": "place",
+          "desc": "Altar top-down diagram showing four corners, with olah corners (NE and SW) vs chatat corners (all four) highlighted"
+        },
+        {
+          "type": "contrast",
+          "desc": "Olah vs chatat blood application compared side by side, then R. Shimon's attempted combination and why it fails"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "explain",
+          "q": "What principle blocks every proposed way of implementing R. Shimon ish HaMitzpah's dual blood-application ruling?",
+          "correct": "We have no precedent for blood that atones and then re-atones - once blood is used for one halakhic purpose, it cannot fulfill a second distinct atonement function."
+        },
+        {
+          "type": "multiple_choice",
+          "q": "Why does R. Shimon ish HaMitzpah require both olah and chatat blood rites for the tamid?",
+          "choices": [
+            "The verse says 'as a chatat upon the olah of the tamid' requiring both",
+            "The tamid is a special sacrifice with no fixed category",
+            "R. Shimon argues all communal offerings are both olah and chatat",
+            "The Torah explicitly lists four corners for the tamid"
+          ],
+          "correct": "The verse says 'as a chatat upon the olah of the tamid' requiring both"
+        }
+      ],
+      "finalRuling": "Unresolved (teiku equivalent): no viable implementation of R. Shimon's dual requirement is found. The question of how to execute it remains open.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [
+        {
+          "he": "מַתְּנוֹת דָּם",
+          "translit": "matanot dam",
+          "en": "Blood applications to the altar. Olah: two applications at opposite corners; chatat: four applications at all four horns."
+        },
+        {
+          "he": "לֹא מָצִינוּ",
+          "translit": "lo matzinu",
+          "en": "'We have not found' - there is no halakhic precedent for this. Blood cannot atone twice."
+        }
+      ],
+      "review": {
+        "content": "ai_generated",
+        "sourceRefs": "ai_generated"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "he": "קְטוֹרֶת",
+      "translit": "ketoret",
+      "en": "Incense burned on the golden altar in the Temple Sanctuary; subject of the morning/afternoon sequencing dispute here."
+    },
+    {
+      "he": "אוֹתוֹ",
+      "translit": "oto",
+      "en": "That one (masculine). Abba Shaul reads 'oto' in the afternoon lamp verse as restricting the incense-lamp link to the afternoon only."
+    },
+    {
+      "he": "מַתְּנוֹת דָּם",
+      "translit": "matanot dam",
+      "en": "Blood applications to the altar. Olah: two applications at opposite corners; chatat: four applications at all four horns."
+    },
+    {
+      "he": "לֹא מָצִינוּ",
+      "translit": "lo matzinu",
+      "en": "'We have not found' - there is no halakhic precedent for this. Blood cannot atone twice."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Rashi: 'from evening to morning' - the verse about the menorah (Exodus 27:21) means give it enough oil to burn all night. The Sages estimated a half-log per lamp.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 2,
+      "en": "Rashi: 'give it its measure' - the amount of oil for the menorah to burn until morning.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: the Sages calculated half a log per lamp, sufficient for the longest winter night (Tevet).",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: 'you have no service' - no daytime service remains valid after the lamps are lit.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: no daytime service is valid after the lamps are ignited.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: explaining the word 'oto' - 'that one' - referring to that specific lamp at that specific time.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: 'oto' (that lamp) - not after the completion of that same lamp service.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: as explained, the word 'oto' proves the incense must accompany the lighting.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: at the time of the lighting the incense must be burning - not after.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: but in the morning, the plain reading of Scripture (Exodus 30:7) sets the order: clean lamps then burn incense.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: the sequence 'prepare them and burn incense' establishes the morning order.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: Rav Pappa's resolution - 'not difficult': Yoma Chapter 1 follows one Tanna, Chapter 2 follows another.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l12"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: Yoma's opening mishna, on the order of the two lamps on the day the KG tends them.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: when it states 'ketoret first' that reflects the Rabbanan's view.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: when it says 'lamps first' that reflects Abba Shaul's position.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: pointing to the lottery mishna of Chapter 1 (14b): the lottery order there.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: the lottery mishna in Chapter 2 (25a) says ketoret is last - like Abba Shaul.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: the second-chapter lottery has incense last, consistent with Abba Shaul.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: 'look at the end' of the Yoma service order (Chapter 3, 31b): it brings the tamid last.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: Chapter 3 (Yoma 31b) says they brought the tamid to the KG after other preparations.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: 'they cut it' - the slaughter of the tamid: cutting through most of the two pipes.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: the valid cut (shechita) requires severing the majority of both windpipe and gullet.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: the KG must hurry to take the blood-basin because only he may perform all Yom Kippur service.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: the KG himself receives the blood - all Yom Kippur service is invalid except when performed by him.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l21"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: the KG must personally receive the blood since all Yom Kippur service must be his.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l25"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: all Yom Kippur Temple service is invalid if performed by anyone other than the KG.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l25"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: 'to tend the lamps' - this refers to the last two lamps (the ones not yet cleaned), since no one holds incense comes before all five lamps.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: the two remaining lamps are those cleaned after the incense - there is no opinion that incense precedes all five lamps.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: according to the position that incense precedes the lamps, only five lamps are cleaned first.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: 'beginning and end of the Yoma service order' - the whole tractate follows one consistent sequence like the order of the Torah portions.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: the entire tractate Yoma is organized as a single continuous mishna following the Torah's sequence.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: a rhetorical challenge - if so, how did Abaye place Chapter 1 with Chapter 2?",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: Abaye explained Chapter 1 as dealing with the two lamps and Chapter 2 with the five lamps.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: teaching first X and then Y - but Abaye placed Chapter 1 with the two-lamp section.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: Abaye places the first chapter at the two-lamp service (first cleaning) and the second chapter at the five-lamp cleaning.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l33"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: 'And Abaye says to you' - Abaye's own resolution: Chapter 1's 'all seven days he sprinkles' is not about Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l36"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: the 'all seven days he sprinkles' passage does not describe Yom Kippur service specifically.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l36"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: it does not apply to Yom Kippur at all - it is a general teaching about the KG's preparation.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l36"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: the passage teaches that the KG must be occupied with Temple service throughout the seven preparatory days to be practiced and ready.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l39"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: the KG must practice throughout the seven days so he is expert and prepared on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l39"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: the requirement for the KG to practice all seven days ensures he is fluent in the service.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l41"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: being practiced and ready (ragil u-mezuman) for the Yom Kippur service is the point of the seven days.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l41"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: the Yoma service order is then taught again in Chapter 2 - that is why Chapter 2 repeats the tending of five lamps.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l42"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: Chapter 2 retaught the five-lamp tending; Chapter 3 retaught the two-lamp tending.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l44"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: Chapter 2 deals with five lamps, Chapter 3 with two lamps - the sequence is then clear.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l44"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: 'as a chatat upon the olah of the tamid' - the blood acts like a chatat on top of the tamid which is an olah.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: the tamid blood requires both chatat applications (four horns) and olah applications (two corners) - since the verse equates it to both.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: chatat blood goes on four horns, olah blood goes at two corners - R. Shimon requires both for the tamid.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: but these two blood applications cannot both be executed because used blood cannot atone twice.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: the chatat blood went to four horns; reusing it for olah's two corners is atonement on already-atoned blood.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: 'pisuq matanot only' - the four-corner application is merely the separating of matanot, not a separate atonement function.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: since both applications go to the same corner, there is no proof of a distinct chatat act.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: 'four that are four' - on all four corners. The dual requirement applies at each of the four corners.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l46"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: 'on four corners' - we have not found blood that atones and then re-atones.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: we have no precedent for a single blood application serving two atonement purposes.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: the atoning function is unique to each application - one cannot do double atonement.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: 'separation of matanot only' - the application is just the required separation between corner-applications, not an independent chatat act.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: since both the olah and chatat applications are at the same corner, there is no separate chatat identity visible.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: 'give one etc.' - olah blood goes below the red line, chatat blood goes above it; since this final application must be above (chatat), it goes above.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: olah blood placed below the red line (chut ha-sikra); chatat blood placed above. The last matana above serves as chatat.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: referring forward to Chapter 5 (53b) - when sprinkling the bull's blood toward the parochet: once upward and seven downward.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi: one upward and seven downward from the middle thickness of the blood, as counted in Chapter 5.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Rashi: 'ke-matzlif' - like a whip-motion: the upward sprinkle and the seven below it are done in a descending whip-like arc.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Rashi: 'like a court officer who whips' - the whipping motion, one upward and seven in descending arc below it.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 65,
+      "en": "Rashi: 'sprinkle on the tohoro of the inner altar seven times' - as stated in the verse; tohoro is the middle of the altar's wall height.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    },
+    {
+      "vilnaLine": 66,
+      "en": "Rashi: 'tihara' - the 'purity' of the altar, meaning its surface (the top), because sprinkling purifies and clears it.",
+      "linkedGemaraLineIds": [
+        "yoma-15a-l47"
+      ]
+    }
+  ]
+}

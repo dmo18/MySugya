@@ -1,0 +1,977 @@
+{
+  "daf": "39b",
+  "canonicalRef": "Yoma 39b",
+  "summary": "39b covers: the 'chamtzan' era after Shimon HaTzaddik's death; the year he died and its signs (thin Azazel goat, red thread stayed red); placement of the lots on the goats' heads with the designation formula 'chattat l'HaShem'; baraita about the God-lot historically coming up right; R. Yannai's dispute about whether the right-hand position is halachically required.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-039b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.39b.1"
+        },
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.39b.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.39b.1",
+        "Yoma.39b.2"
+      ],
+      "display": {
+        "whats": "Continuation: 'chamtzan' (sour/bitter) describes the era after Shimon HaTzaddik.",
+        "hint": "The era following Shimon HaTzaddik became 'sour' - divine favor withdrew."
+      },
+      "learning": {
+        "summary": "Brief continuation from 39a: the word 'chamtzan' (sour, bitter) describes how the priestly service became diminished after Shimon HaTzaddik died. His era was sweet; what followed was bitter.",
+        "ahaMoment": "Chamtzan = the bitterness of decline; the sweetness of Shimon HaTzaddik's era contrasted with what came after.",
+        "memoryAnchor": "Sweet era (Shimon) vs sour era (aftermath) - one word captures the contrast.",
+        "openQuestion": "Does 'chamtzan' refer to moral decline or simply the loss of miraculous signs?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-039b-l01a",
+          "type": "elaboration",
+          "label": "Elaboration: 'Chamtzan' (sour/bitter) describes the post-Shimon H...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l01a",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "'Chamtzan' (sour/bitter) describes the post-Shimon HaTzaddik era."
+        },
+        {
+          "id": "yoma-039b-l01b",
+          "type": "ruling",
+          "label": "Ruling: The era became sour: the miraculous signs",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l01b",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "The era became sour: the miraculous signs ceased, the service lost its divine quality."
+        }
+      ],
+      "topicTags": [
+        "Shimon HaTzaddik",
+        "Temple history",
+        "aggadah"
+      ],
+      "concepts": {
+        "halachic": [],
+        "theological": [
+          "divine withdrawal",
+          "era of decline"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [],
+      "misconceptions": [
+        {
+          "misconception": "The era after Shimon HaTzaddik began a gradual decline that slowly worsened over generations.",
+          "correction": "The decline was immediate - the very next year after his death the pattern changed. 'Chamtzan' describes a sudden souring, not a slow drift.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-039a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "description": "Sweet era of Shimon HaTzaddik vs sour era after his death"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "conceptual",
+          "q": "What does 'chamtzan' describe?",
+          "a": "The sour/bitter quality of the Temple service era after Shimon HaTzaddik's death, when the miraculous signs ceased."
+        }
+      ],
+      "finalRuling": "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-039b-s02",
+      "lineRange": {
+        "startVilnaLine": 5,
+        "endVilnaLine": 30
+      },
+      "lines": [
+        {
+          "vilnaLine": 5,
+          "sefariaRef": "Yoma.39b.3"
+        },
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.39b.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.39b.5"
+        },
+        {
+          "vilnaLine": 16,
+          "sefariaRef": "Yoma.39b.6"
+        },
+        {
+          "vilnaLine": 21,
+          "sefariaRef": "Yoma.39b.7"
+        },
+        {
+          "vilnaLine": 23,
+          "sefariaRef": "Yoma.39b.8"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.39b.9"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.39b.3",
+        "Yoma.39b.4",
+        "Yoma.39b.5",
+        "Yoma.39b.6",
+        "Yoma.39b.7",
+        "Yoma.39b.8",
+        "Yoma.39b.9"
+      ],
+      "display": {
+        "whats": "The year Shimon HaTzaddik told his disciples he would die; the goat to Azazel grew thin.",
+        "hint": "Shimon HaTzaddik predicted his death; that year the Azazel goat grew lean and the crimson thread did not turn white."
+      },
+      "learning": {
+        "summary": "The year Shimon HaTzaddik died, he told his disciples beforehand. That year the Yom Kippur goat sent to Azazel began to grow thin during its walk to the cliff - a sign of rejection. The crimson thread tied to it did not turn white as usual. These are additional signs that his era was ending. The baraita about when exactly the crimson thread would turn white is discussed.",
+        "ahaMoment": "Shimon HaTzaddik foresaw his own death; the ominous signs on the Azazel goat confirmed that Yom Kippur's spiritual power was fading.",
+        "memoryAnchor": "Thin Azazel goat + thread stays red = Yom Kippur atonement weakening; Shimon HaTzaddik knew his time was up.",
+        "openQuestion": "Did the Azazel goat's weight indicate whether Yom Kippur atonement was accepted?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-039b-l05",
+          "type": "elaboration",
+          "label": "Elaboration: The year Shimon HaTzaddik died, he told",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l05",
+              "vilnaLine": 5
+            }
+          ],
+          "text": "The year Shimon HaTzaddik died, he told his disciples in advance."
+        },
+        {
+          "id": "yoma-039b-l12",
+          "type": "elaboration",
+          "label": "Elaboration: That year the goat sent to Azazel",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l12",
+              "vilnaLine": 12
+            }
+          ],
+          "text": "That year the goat sent to Azazel grew thin on its way to the cliff."
+        },
+        {
+          "id": "yoma-039b-l13",
+          "type": "elaboration",
+          "label": "Elaboration: The crimson thread did not turn white",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l13",
+              "vilnaLine": 13
+            }
+          ],
+          "text": "The crimson thread did not turn white that year."
+        },
+        {
+          "id": "yoma-039b-l16",
+          "type": "elaboration",
+          "label": "Elaboration: The showbread was found stale; further signs",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l16",
+              "vilnaLine": 16
+            }
+          ],
+          "text": "The showbread was found stale; further signs of decline."
+        },
+        {
+          "id": "yoma-039b-l21",
+          "type": "elaboration",
+          "label": "Elaboration: Discussion of when exactly the crimson thread",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l21",
+              "vilnaLine": 21
+            }
+          ],
+          "text": "Discussion of when exactly the crimson thread turns white."
+        },
+        {
+          "id": "yoma-039b-l23",
+          "type": "elaboration",
+          "label": "Elaboration: Some say it turned white when the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l23",
+              "vilnaLine": 23
+            }
+          ],
+          "text": "Some say it turned white when the goat reached the desert; some say on the cliff."
+        },
+        {
+          "id": "yoma-039b-l30",
+          "type": "ruling",
+          "label": "Ruling: The crimson thread's turning white was the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l30",
+              "vilnaLine": 30
+            }
+          ],
+          "text": "The crimson thread's turning white was the sign of atonement being accepted."
+        }
+      ],
+      "topicTags": [
+        "Shimon HaTzaddik",
+        "Azazel goat",
+        "crimson thread",
+        "Yom Kippur"
+      ],
+      "concepts": {
+        "halachic": [
+          "crimson thread timing",
+          "Azazel goat signs"
+        ],
+        "theological": [
+          "signs of atonement",
+          "divine acceptance"
+        ],
+        "narrative": [
+          "Shimon HaTzaddik's death foretold"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "lashon shel zehorit (crimson thread)",
+        "Azazel goat"
+      ],
+      "misconceptions": [
+        "The crimson thread always turned white if the ritual was performed"
+      ],
+      "relatedSugyot": [
+        "yoma-039b-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "timeline",
+          "description": "Signs of decline: thin Azazel goat, red thread stays red, stale showbread"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "What happened to the Azazel goat in the year Shimon HaTzaddik died?",
+          "a": "It grew thin on its way to the cliff, and the crimson thread tied to it did not turn white - signs of declining atonement."
+        }
+      ],
+      "finalRuling": "In Shimon HaTzaddik's final year the Azazel goat grew thin and the crimson thread did not turn white.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-039b-s03",
+      "lineRange": {
+        "startVilnaLine": 32,
+        "endVilnaLine": 39
+      },
+      "lines": [
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.39b.10"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.39b.11"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.39b.12"
+        },
+        {
+          "vilnaLine": 39,
+          "sefariaRef": "Yoma.39b.13"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.39b.10",
+        "Yoma.39b.11",
+        "Yoma.39b.12",
+        "Yoma.39b.13"
+      ],
+      "display": {
+        "whats": "The lots are placed on the two goats; baraita: ten times the God-lot came up right.",
+        "hint": "The KG places the lots on the goats' heads; in Second Temple times the right-hand lot was usually for God."
+      },
+      "learning": {
+        "summary": "After drawing the lots, the KG places them on the goats: the 'for God' lot on the right goat, 'for Azazel' on the left. A baraita notes that in Second Temple times, more often than not the God-lot came up in the right hand - a good omen. In the 40 years before destruction it consistently came up in the left.",
+        "ahaMoment": "The lot's hand position was a public divine oracle: right = accepted, left = rejected. Everyone watching knew the verdict.",
+        "memoryAnchor": "Right hand = God accepts; left hand = God rejects. The lot was a live barometer of national standing.",
+        "openQuestion": "Does the left-hand lot mean atonement failed, or simply that the omen was bad?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-039b-l32",
+          "type": "ruling",
+          "label": "Ruling: The KG placed the lots on the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l32",
+              "vilnaLine": 32
+            }
+          ],
+          "text": "The KG placed the lots on the goats: 'for God' lot on the right goat's head, 'for Azazel' on the left."
+        },
+        {
+          "id": "yoma-039b-l35",
+          "type": "elaboration",
+          "label": "Elaboration: Baraita: in Second Temple times the God-lot",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l35",
+              "vilnaLine": 35
+            }
+          ],
+          "text": "Baraita: in Second Temple times the God-lot often came up in the right hand."
+        },
+        {
+          "id": "yoma-039b-l36",
+          "type": "elaboration",
+          "label": "Elaboration: In the 40 years before destruction it",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l36",
+              "vilnaLine": 36
+            }
+          ],
+          "text": "In the 40 years before destruction it came up consistently in the left hand."
+        },
+        {
+          "id": "yoma-039b-l39",
+          "type": "ruling",
+          "label": "Ruling: The lot placement on the goat's head",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l39",
+              "vilnaLine": 39
+            }
+          ],
+          "text": "The lot placement on the goat's head designated it; the KG said 'a sin-offering for God' over it."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "lot ceremony",
+        "two goats",
+        "omens"
+      ],
+      "concepts": {
+        "halachic": [
+          "lot placement on goat's head",
+          "verbal designation"
+        ],
+        "theological": [
+          "right vs left lot as divine oracle"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "kappara (atonement)",
+        "goral (lot)"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The lot outcome on Yom Kippur was private - only the KG knew which hand held the God-lot.",
+          "correction": "The lot ceremony was public. When the God-lot came up in the right hand, everyone present could see it. The outcome was a public divine oracle, visible to all.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-037a-s03"
+      ],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "What did the KG say when placing the 'for God' lot on the goat?",
+          "a": "'Chattat l'HaShem' - a sin-offering for God."
+        }
+      ],
+      "finalRuling": "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-039b-s04",
+      "lineRange": {
+        "startVilnaLine": 42,
+        "endVilnaLine": 50
+      },
+      "lines": [
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.39b.14"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.39b.15"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.39b.16"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.39b.17"
+        },
+        {
+          "vilnaLine": 47,
+          "sefariaRef": "Yoma.39b.18"
+        },
+        {
+          "vilnaLine": 50,
+          "sefariaRef": "Yoma.39b.19"
+        },
+        {
+          "vilnaLine": 50,
+          "sefariaRef": "Yoma.39b.20"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.39b.14",
+        "Yoma.39b.15",
+        "Yoma.39b.16",
+        "Yoma.39b.17",
+        "Yoma.39b.18",
+        "Yoma.39b.19",
+        "Yoma.39b.20"
+      ],
+      "display": {
+        "whats": "R. Yannai: drawing the lot from the box; dispute whether right or left hand matters.",
+        "hint": "The manner of drawing the lots and whether the hand matters is debated."
+      },
+      "learning": {
+        "summary": "R. Yannai rules about the drawing of the lots from the box. The dispute is whether it matters which hand naturally drew which lot, or whether the right-hand position of the 'for God' lot is always required. The Gemara also discusses what happens if the lot ends up in the wrong hand and whether the KG must switch it.",
+        "ahaMoment": "The miracle of the right-hand lot was a sign, not a requirement - the lot itself designates the goat regardless of hand.",
+        "memoryAnchor": "Right-hand lot = good omen (sign); but any hand is valid for designation - the miracle was the omen, not the rule.",
+        "openQuestion": "If the right hand drew 'for Azazel,' must the KG switch it to his left hand?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-039b-l42",
+          "type": "question",
+          "label": "Question: R. Yannai: how exactly are the lots",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l42",
+              "vilnaLine": 42
+            }
+          ],
+          "text": "R. Yannai: how exactly are the lots drawn from the kalpei box?"
+        },
+        {
+          "id": "yoma-039b-l43",
+          "type": "elaboration",
+          "label": "Elaboration: The KG draws simultaneously with both hands;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l43",
+              "vilnaLine": 43
+            }
+          ],
+          "text": "The KG draws simultaneously with both hands; whichever hand draws 'for God' - that goat is designated."
+        },
+        {
+          "id": "yoma-039b-l47a",
+          "type": "question",
+          "label": "Question: Must the 'for God' lot always end",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l47a",
+              "vilnaLine": 47
+            }
+          ],
+          "text": "Must the 'for God' lot always end up in the right hand?"
+        },
+        {
+          "id": "yoma-039b-l47b",
+          "type": "elaboration",
+          "label": "Elaboration: Dispute: some say the right hand is",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l47b",
+              "vilnaLine": 47
+            }
+          ],
+          "text": "Dispute: some say the right hand is required; others say it is only an omen, not a requirement."
+        },
+        {
+          "id": "yoma-039b-l47c",
+          "type": "elaboration",
+          "label": "Elaboration: If it came up in the left,",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l47c",
+              "vilnaLine": 47
+            }
+          ],
+          "text": "If it came up in the left, the Deputy would help transfer it to the right."
+        },
+        {
+          "id": "yoma-039b-l50a",
+          "type": "ruling",
+          "label": "Ruling: The lot in either hand validly designates",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l50a",
+              "vilnaLine": 50
+            }
+          ],
+          "text": "The lot in either hand validly designates the goat; right is preferred but not indispensable."
+        },
+        {
+          "id": "yoma-039b-l50b",
+          "type": "elaboration",
+          "label": "Elaboration: The thread turning white was the public",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-039b-l50b",
+              "vilnaLine": 50
+            }
+          ],
+          "text": "The thread turning white was the public confirmation of atonement's acceptance."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "lot ceremony",
+        "lot validity"
+      ],
+      "concepts": {
+        "halachic": [
+          "lot drawing procedure",
+          "right vs left validity",
+          "lot transfer"
+        ],
+        "theological": [
+          "right-hand lot as omen"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Yom Kippur lot (goral)",
+        "Deputy KG (segan)"
+      ],
+      "misconceptions": [
+        "The lot MUST come up in the right hand or it is invalid"
+      ],
+      "relatedSugyot": [
+        "yoma-040a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "description": "KG draws simultaneously; right hand preferred but left is technically valid"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "Is it halachically required that the 'for God' lot come up in the KG's right hand?",
+          "a": "No - right hand is a good omen but both hands are technically valid for designation."
+        }
+      ],
+      "finalRuling": "The right-hand 'for God' lot is a good omen but not technically required; both hands validly designate the goat.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Chamtzan - sour/bitter - describes the era after Shimon HaTzaddik.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "His death marked the end of the miraculous era; the service became spiritually diminished.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "The year Shimon HaTzaddik died, he told his disciples beforehand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "He saw prophetically that his time had come.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "That year the KG who served instead did not wear the gold vestments - a sign of Shimon's absence.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The Azazel goat grew thin on its way to the Tsuk (cliff).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "A healthy fat goat would have been a better carrier of Israel's sins symbolically.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "A thin goat = diminished service = sins not fully carried away.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The crimson thread did not turn white that Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "In Shimon's time it always turned white; after his death the pattern ended.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "The showbread was found stale when removed the following Shabbat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "When was the crimson thread supposed to turn white? Some say at the desert.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Some say when the goat reached the top of the cliff.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Some say when the goat was pushed off the cliff.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The turning white was the public sign of atonement being accepted.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Once the thread turned white, the people rejoiced and the fast became festive.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Dispute about timing; the key is that turning white = divine acceptance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "In the 40 years before destruction the thread stopped turning white consistently.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Sometimes it turned, sometimes not, then not at all.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "This pattern of failure was a running public omen over many years.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "The KG placed the lots on the goats: 'for God' lot on the right goat's head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "He said: a sin-offering for God (chattat l'HaShem).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "'For Azazel' lot placed on the left goat's head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Baraita: in Second Temple times, more often the God-lot came up in the right hand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "This was a positive omen for the nation's Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "In the 40 years before destruction it came up in the left hand every time.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "This public omen was visible to all in the Temple on Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The lot ceremony was a national oracle - the crowd knew the verdict instantly.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The transition from right to left was a multi-decade decline signal.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "R. Yannai: the drawing of the lots from the box.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Both hands go in simultaneously; whichever draws 'for God' designates that goat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Dispute: must 'for God' end up in the right hand, or is the left also valid?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "If the right hand drew 'for Azazel,' must he switch the lots?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "One view: he must switch so that 'for God' is always in the right hand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Another view: the designation by the lot is valid regardless of which hand holds it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The right-hand position is the ideal (le-chatchila) but not required post-facto.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "The Deputy would help the KG if he needed to switch the lot to his right hand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "If he held 'for God' in his left, the Deputy might help transfer it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Debate continues in 40a about the halachic requirement of the right hand.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The crimson thread turning white is a related sign - atonement publicly confirmed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The thread was tied to the goat's neck or horn; if it turned white = atonement accepted.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "This gave the nation a visual confirmation after the Yom Kippur service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Summary of 39b: chamtzan era, Shimon's death signs, lot placement on goats, right vs left debate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "The lot ceremony is now fully described including the placement and designation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "40a continues with the right vs left hand dispute.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "The chapter continues the Yom Kippur service narrative from the lot ceremony onward.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The transition from lot drawing to lot placement to goat designation is complete.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "The crimson thread's turning white is the coda to the lot ceremony.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Together: lot drawn → placed on goat → KG says chattat l'HaShem → thread turns white.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Each step is halachically and theologically significant.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "The Gemara's detailed treatment reflects the centrality of this ceremony.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "The lot ceremony is the climax of the Yom Kippur public service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "All Israel watching in the Azarah knew in real time if atonement was accepted.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "The right-hand lot and the white thread were their confirmation.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Summary concludes 39b.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "40a will resolve the right vs left hand requirement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "The next stage: the live goat's standing and the confession over it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The service continues with the bull's blood sprinkling.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "The Yom Kippur avodah sequence is methodically examined.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "The Gemara's careful attention to each step shows the service's importance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "39b is a rich mixture of miracle narrative and halachic analysis.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "The chapter continues without interruption into 40a.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "The right vs left lot dispute is the connector between 39b and 40a.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Summary: signs of decline, lot placement, crimson thread, right-hand debate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "en": "All topics in 39b relate to the Yom Kippur lot ceremony and its confirmation signs.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

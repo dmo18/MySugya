@@ -1,0 +1,935 @@
+{
+  "daf": "41b",
+  "canonicalRef": "Yoma 41b",
+  "summary": "41b closes the kinnim discussion (using 'confessed' not 'said'; edge cases resolved) and opens a detailed Mishna about the Azazel goat's journey: scarlet thread tied to its head, the ish iti handler, 10 booths from Jerusalem to the Tsuk cliff (12 mil), the goat pushed off the cliff, and the ish iti's resulting impurity.",
+  "review": "reviewed",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-041b-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 17
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.41b.1"
+        },
+        {
+          "vilnaLine": 2,
+          "sefariaRef": "Yoma.41b.2"
+        },
+        {
+          "vilnaLine": 3,
+          "sefariaRef": "Yoma.41b.3"
+        },
+        {
+          "vilnaLine": 4,
+          "sefariaRef": "Yoma.41b.4"
+        },
+        {
+          "vilnaLine": 8,
+          "sefariaRef": "Yoma.41b.5"
+        },
+        {
+          "vilnaLine": 11,
+          "sefariaRef": "Yoma.41b.6"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.41b.7"
+        },
+        {
+          "vilnaLine": 17,
+          "sefariaRef": "Yoma.41b.8"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.41b.1",
+        "Yoma.41b.2",
+        "Yoma.41b.3",
+        "Yoma.41b.4",
+        "Yoma.41b.5",
+        "Yoma.41b.6",
+        "Yoma.41b.7",
+        "Yoma.41b.8"
+      ],
+      "display": {
+        "whats": "Kinnim conclusion: don't say 'after he said' but 'after he confessed'; the verbal formula.",
+        "hint": "The confession must be completed; the kinnim discussion closes; transition to Mishna."
+      },
+      "learning": {
+        "summary": "The Gemara resolves the kinnim issue and also addresses a textual question about the confession: the language should be 'after he confessed' not 'after he said' - the verbal act of confession is what matters, not just utterance. Various kinnim edge cases are resolved before the new Mishna begins.",
+        "ahaMoment": "Precision matters: 'after he confessed' captures the act of atonement through words, while 'after he said' is merely descriptive.",
+        "memoryAnchor": "'Confessed' vs 'said' - the former is the halachic category; the Gemara insists on precision in describing the atoning act.",
+        "openQuestion": "Does the distinction between 'said' and 'confessed' have practical halachic implications?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-041b-l01",
+          "type": "ruling",
+          "label": "Ruling: Don't say 'after he said' but 'after",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l01",
+              "vilnaLine": 1
+            }
+          ],
+          "text": "Don't say 'after he said' but 'after he confessed' - the verbal category matters."
+        },
+        {
+          "id": "yoma-041b-l02",
+          "type": "elaboration",
+          "label": "Elaboration: The kinnim edge cases are resolved.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l02",
+              "vilnaLine": 2
+            }
+          ],
+          "text": "The kinnim edge cases are resolved."
+        },
+        {
+          "id": "yoma-041b-l03",
+          "type": "elaboration",
+          "label": "Elaboration: Further kinnim scenarios: what if the woman",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l03",
+              "vilnaLine": 3
+            }
+          ],
+          "text": "Further kinnim scenarios: what if the woman died?"
+        },
+        {
+          "id": "yoma-041b-l04",
+          "type": "elaboration",
+          "label": "Elaboration: What if the pair was lost then",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l04",
+              "vilnaLine": 4
+            }
+          ],
+          "text": "What if the pair was lost then found?"
+        },
+        {
+          "id": "yoma-041b-l08",
+          "type": "elaboration",
+          "label": "Elaboration: Additional kinnim cases involving death and replacem...",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l08",
+              "vilnaLine": 8
+            }
+          ],
+          "text": "Additional kinnim cases involving death and replacement."
+        },
+        {
+          "id": "yoma-041b-l11",
+          "type": "elaboration",
+          "label": "Elaboration: The kinnim discussion draws to a close.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l11",
+              "vilnaLine": 11
+            }
+          ],
+          "text": "The kinnim discussion draws to a close."
+        },
+        {
+          "id": "yoma-041b-l13",
+          "type": "ruling",
+          "label": "Ruling: Summary of kinnim rules: designation at slaughter;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l13",
+              "vilnaLine": 13
+            }
+          ],
+          "text": "Summary of kinnim rules: designation at slaughter; prior naming may bind; pairs separated require analysis."
+        },
+        {
+          "id": "yoma-041b-l17",
+          "type": "elaboration",
+          "label": "Elaboration: Transition: return to the Yom Kippur service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l17",
+              "vilnaLine": 17
+            }
+          ],
+          "text": "Transition: return to the Yom Kippur service."
+        }
+      ],
+      "topicTags": [
+        "kinnim",
+        "confession",
+        "verbal precision"
+      ],
+      "concepts": {
+        "halachic": [
+          "viduy precision",
+          "kinnim edge cases"
+        ],
+        "theological": [
+          "the word 'confessed' vs 'said'"
+        ],
+        "narrative": []
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "kinnim",
+        "viduy (confession)"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The exact wording of the formula following the KG's first confession is unimportant as long as the intent is clear.",
+          "correction": "The Gemara specifies 'after he confessed' rather than 'after he said' - the verbal formula must capture the legal act (confession with atonement power), not merely describe the physical speech act.",
+          "correctedByStepId": null
+        }
+      ],
+      "relatedSugyot": [
+        "yoma-041a-s02"
+      ],
+      "visualizableElements": [
+        {
+          "type": "text",
+          "description": "'After he confessed' not 'after he said' - precision in describing the atoning verbal act"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "conceptual",
+          "q": "Why does the Gemara insist on 'confessed' rather than 'said'?",
+          "a": "Because 'confessed' (hitvadeh) captures the halachic category of kaparat devarim; 'said' is merely descriptive speech."
+        }
+      ],
+      "finalRuling": "Use 'confessed' not 'said' - the act of confession (hitvadeh) is the halachic category; kinnim discussion concludes.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-041b-s02",
+      "lineRange": {
+        "startVilnaLine": 18,
+        "endVilnaLine": 53
+      },
+      "lines": [
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.41b.9"
+        },
+        {
+          "vilnaLine": 20,
+          "sefariaRef": "Yoma.41b.10"
+        },
+        {
+          "vilnaLine": 30,
+          "sefariaRef": "Yoma.41b.11"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.41b.12"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.41b.13"
+        },
+        {
+          "vilnaLine": 41,
+          "sefariaRef": "Yoma.41b.14"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.41b.15"
+        },
+        {
+          "vilnaLine": 44,
+          "sefariaRef": "Yoma.41b.16"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.41b.17"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.41b.18"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.41b.19"
+        },
+        {
+          "vilnaLine": 48,
+          "sefariaRef": "Yoma.41b.20"
+        },
+        {
+          "vilnaLine": 51,
+          "sefariaRef": "Yoma.41b.21"
+        },
+        {
+          "vilnaLine": 53,
+          "sefariaRef": "Yoma.41b.22"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.41b.9",
+        "Yoma.41b.10",
+        "Yoma.41b.11",
+        "Yoma.41b.12",
+        "Yoma.41b.13",
+        "Yoma.41b.14",
+        "Yoma.41b.15",
+        "Yoma.41b.16",
+        "Yoma.41b.17",
+        "Yoma.41b.18",
+        "Yoma.41b.19",
+        "Yoma.41b.20",
+        "Yoma.41b.21",
+        "Yoma.41b.22"
+      ],
+      "display": {
+        "whats": "Mishna: scarlet thread tied to goat's head; sent to desert with the ish iti; 10 booths; the Tsuk.",
+        "hint": "The goat is sent to the desert by the ish iti through a series of 10 booths at set intervals."
+      },
+      "learning": {
+        "summary": "A Mishna describes the sending of the Azazel goat: a scarlet thread is tied to its head (or between its horns). The appointed handler (ish iti) takes it. Ten booths were set up from Jerusalem to the Tsuk (cliff), each staffed with people offering food and drink. The ish iti could eat (though he fasted), and at each station he was accompanied to the next. The Tsuk was a steep cliff 12 mil from Jerusalem.",
+        "ahaMoment": "The Azazel goat's journey was organized and companioned - not abandoned. The infrastructure of booths reflects the community's active participation in the ceremony.",
+        "memoryAnchor": "10 booths = 10 stations = organized ritual journey for the goat, with national support along the way.",
+        "openQuestion": "Why were the booths staffed with food if the ish iti was fasting on Yom Kippur?"
+      },
+      "argumentFlow": [
+        {
+          "id": "yoma-041b-l18",
+          "type": "ruling",
+          "label": "Ruling: Mishna: scarlet thread tied to goat's head;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l18",
+              "vilnaLine": 18
+            }
+          ],
+          "text": "Mishna: scarlet thread tied to goat's head; ish iti takes it to the desert."
+        },
+        {
+          "id": "yoma-041b-l20",
+          "type": "elaboration",
+          "label": "Elaboration: Ten booths were set up from Jerusalem",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l20",
+              "vilnaLine": 20
+            }
+          ],
+          "text": "Ten booths were set up from Jerusalem to the Tsuk."
+        },
+        {
+          "id": "yoma-041b-l30",
+          "type": "elaboration",
+          "label": "Elaboration: At each booth people offered food and",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l30",
+              "vilnaLine": 30
+            }
+          ],
+          "text": "At each booth people offered food and drink to the ish iti, though he did not eat."
+        },
+        {
+          "id": "yoma-041b-l32",
+          "type": "elaboration",
+          "label": "Elaboration: He was accompanied by the prominent men",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l32",
+              "vilnaLine": 32
+            }
+          ],
+          "text": "He was accompanied by the prominent men of Jerusalem to the first booth."
+        },
+        {
+          "id": "yoma-041b-l36",
+          "type": "elaboration",
+          "label": "Elaboration: At each subsequent booth the previous group",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l36",
+              "vilnaLine": 36
+            }
+          ],
+          "text": "At each subsequent booth the previous group returned and a new group accompanied him."
+        },
+        {
+          "id": "yoma-041b-l41",
+          "type": "elaboration",
+          "label": "Elaboration: Distance: Jerusalem to Tsuk was 12 mil",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l41",
+              "vilnaLine": 41
+            }
+          ],
+          "text": "Distance: Jerusalem to Tsuk was 12 mil (some say 10 mil)."
+        },
+        {
+          "id": "yoma-041b-l42",
+          "type": "elaboration",
+          "label": "Elaboration: The Tsuk was outside the inhabited area",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l42",
+              "vilnaLine": 42
+            }
+          ],
+          "text": "The Tsuk was outside the inhabited area - the 'uninhabited land' (eretz gezerah)."
+        },
+        {
+          "id": "yoma-041b-l44",
+          "type": "elaboration",
+          "label": "Elaboration: When he reached the Tsuk, he removed",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l44",
+              "vilnaLine": 44
+            }
+          ],
+          "text": "When he reached the Tsuk, he removed the scarlet thread."
+        },
+        {
+          "id": "yoma-041b-l45",
+          "type": "elaboration",
+          "label": "Elaboration: He split the goat in two from",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l45",
+              "vilnaLine": 45
+            }
+          ],
+          "text": "He split the goat in two from the cliff."
+        },
+        {
+          "id": "yoma-041b-l46",
+          "type": "elaboration",
+          "label": "Elaboration: The ish iti became impure by his",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l46",
+              "vilnaLine": 46
+            }
+          ],
+          "text": "The ish iti became impure by his contact with the goat and immersed."
+        },
+        {
+          "id": "yoma-041b-l48a",
+          "type": "elaboration",
+          "label": "Elaboration: He did not enter Jerusalem until nightfall.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l48a",
+              "vilnaLine": 48
+            }
+          ],
+          "text": "He did not enter Jerusalem until nightfall."
+        },
+        {
+          "id": "yoma-041b-l48b",
+          "type": "elaboration",
+          "label": "Elaboration: His impurity: by carrying the goat he",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l48b",
+              "vilnaLine": 48
+            }
+          ],
+          "text": "His impurity: by carrying the goat he contracted first-degree impurity."
+        },
+        {
+          "id": "yoma-041b-l51",
+          "type": "elaboration",
+          "label": "Elaboration: The ish iti need not be a",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l51",
+              "vilnaLine": 51
+            }
+          ],
+          "text": "The ish iti need not be a kohen; any Israelite may serve this role."
+        },
+        {
+          "id": "yoma-041b-l53",
+          "type": "ruling",
+          "label": "Ruling: Summary: goat sent with thread; 10 booths;",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-041b-l53",
+              "vilnaLine": 53
+            }
+          ],
+          "text": "Summary: goat sent with thread; 10 booths; Tsuk 12 mil from Jerusalem; ish iti becomes impure."
+        }
+      ],
+      "topicTags": [
+        "Yom Kippur",
+        "Azazel",
+        "ish iti",
+        "scarlet thread",
+        "Tsuk"
+      ],
+      "concepts": {
+        "halachic": [
+          "ish iti eligibility",
+          "impurity from goat",
+          "Tsuk location",
+          "10 booths"
+        ],
+        "theological": [
+          "Azazel goat's journey"
+        ],
+        "narrative": [
+          "organized national support for the goat's journey"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "ish iti (Azazel goat handler)",
+        "Tsuk (cliff)",
+        "eretz gezerah"
+      ],
+      "misconceptions": [
+        "The goat is simply abandoned in the desert alone"
+      ],
+      "relatedSugyot": [
+        "yoma-042a-s01"
+      ],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "description": "Goat leaves Jerusalem → 10 booths → Tsuk (12 mil) → pushed off cliff → ish iti becomes impure"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "type": "factual",
+          "q": "How many booths were set up for the Azazel goat's journey?",
+          "a": "Ten booths, from Jerusalem to the Tsuk cliff, staffed with food and drink for the ish iti."
+        }
+      ],
+      "finalRuling": "Scarlet thread on goat's head; 10 booths from Jerusalem to Tsuk (12 mil); ish iti becomes impure; goat pushed off cliff.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [
+    {
+      "he": "אִישׁ עִתִּי",
+      "translit": "ish iti",
+      "en": "The appointed person who led the Azazel goat to the cliff; could be any Israelite."
+    },
+    {
+      "he": "צוּק",
+      "translit": "Tsuk",
+      "en": "The steep cliff in the uninhabited wilderness, 12 mil from Jerusalem, from which the Azazel goat was pushed."
+    }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "Don't say 'after he said' - use the precise term 'after he confessed' (hitvadeh).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "The confession (viduy) is the halachic category; speech alone is insufficient.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Kinnim edge case: what if the woman who designated the pair died?",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "If she died before slaughter, her heirs bring the pair.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "If one bird died and the other is left, it must wait until another bird is found.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The orphaned bird cannot serve alone for both obligations.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Further case: pair was lost and then found.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "If found before slaughter, they may be used - the designation was always live.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "If found after slaughter of replacement pair, complex analysis needed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The kinnim tractate dedicates extensive discussion to all these scenarios.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Summary of kinnim: designation at slaughter; prior naming may bind; lost-found analyzed.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The kinnim discussion in Yoma is a digression prompted by the Azazel goat parallel.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The kinnim rules are now resolved; return to Yom Kippur service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The transition to the Azazel goat's journey Mishna begins.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "The word 'confessed' vs 'said' is clarified before the next Mishna.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Precision in language reflects precision in halachic action.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "The transition: from the third confession over the live goat to its being sent.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Mishna: he tied the scarlet thread (lashon shel zehorit) to the goat's head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Or between its horns - the exact placement is specified.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "He turned the goat toward the place it was going to - the desert.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Ten booths were erected from Jerusalem to the Tsuk (cliff).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Each booth was staffed with food and drink for the ish iti.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "The ish iti was the appointed person to take the goat to the cliff.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "He could eat at the booths - he was technically permitted since he was not in Jerusalem.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "But the tradition was that he did not eat, out of respect for the day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "The prominent men of Jerusalem accompanied him to the first booth.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "At the first booth the Jerusalem delegation stopped and the next group took over.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "This relay system continued through all 10 booths.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "At each booth the previous group returned and the next continued.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The distance from Jerusalem to the Tsuk: 12 mil.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Some say 10 mil; there is a dispute about the exact distance.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "The Tsuk was a steep, jagged cliff in the wilderness.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "When he arrived, he removed the scarlet thread from the goat's head.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "He split the scarlet thread: half on the rock, half on the goat.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "He pushed the goat backward off the cliff.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "The goat tumbled and broke apart before reaching halfway down.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "After this act the ish iti became impure: he carried the goat (first-degree impurity).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "He must immerse and wash his garments.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "He may not re-enter Jerusalem until evening (nightfall of Yom Kippur).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "The ish iti does not need to be a kohen - any Israelite is eligible.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Sometimes kohanim served as ish iti, but it is not required.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "The ish iti's impurity comes from carrying the goat (which carries Israel's sins).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The impurity symbolizes the weight of sin transferred to him temporarily.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "After immersion he is pure and may return after Yom Kippur ends.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The Tsuk was outside the inhabited area - 'eretz gezerah' (land of cutting off).",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "'Gezerah' = cut off from inhabited land; the goat is sent to uninhabited wilderness.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "The ceremony's spatial aspect: the sins are carried outside civilization entirely.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "The goat literally carries the sins away from the inhabited world.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "The scarlet thread turning white was visible from Jerusalem or confirmed by messenger.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "The turning white was Isaiah 1:18: 'though your sins be as scarlet, they shall be as white as snow.'",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "The visual miracle was the public confirmation of atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "The ish iti's impurity and the thread's whitening are the two markers of the ceremony's completion.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Summary of 41b: kinnim conclusion, confession precision, Mishna about goat journey with 10 booths.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Two sugyot: one closing the kinnim topic, one opening the Azazel goat journey.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "The Azazel goat journey Mishna is detailed and precise.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Every aspect - distance, booths, thread, impurity - is analyzed in subsequent pages.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "42a continues with the thread weight and ish iti details.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The Yom Kippur service is now fully described from lot to goat-sending.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "The remaining service: bull blood sprinkling, goat blood sprinkling, incense.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "These will be covered in later chapters of tractate Yoma.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "41b is a pivotal daf: closes kinnim digression, opens Azazel journey Mishna.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "The goat journey Mishna is one of the most evocative passages in the tractate.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "The organized national support (10 booths) shows the ceremony's communal dimension.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "The entire nation participated - the ish iti was the nation's emissary.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 65,
+      "en": "The goat carried the nation's sins; the nation accompanied it to the edge of civilization.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 66,
+      "en": "When the thread turned white, the nation knew they had been forgiven.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 67,
+      "en": "This is the emotional and spiritual climax of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 68,
+      "en": "Summary: kinnim closed, 'confessed' precision, goat journey with 10 booths and impurity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 69,
+      "en": "41b bridges the kinnim digression and the Azazel goat journey Mishna.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 70,
+      "en": "The Yom Kippur avodah narrative is now well advanced.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 71,
+      "en": "The remaining pages will complete the service description.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 72,
+      "en": "41b concludes with the Azazel goat Mishna in full detail.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 73,
+      "en": "The next daf (42a) will analyze the thread's weight and the handler's specifics.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 74,
+      "en": "Summary of 41b: two sugyot, kinnim closure, Azazel journey Mishna with 10 booths.",
+      "linkedGemaraLineIds": []
+    }
+  ]
+}

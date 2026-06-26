@@ -1,0 +1,888 @@
+{
+  "canonicalRef": "Yoma 61a",
+  "summary": "Four topics: First, which Yom Kippur services are me'akev (essential) and which are required but not invalidating. Second, what happens if the HP serves while impure - the service is valid but the HP is personally liable (service validity and personal liability are separate questions). Third, the deputy HP (Mishneh) who was prepared throughout the seven-day preparation in case the primary HP became unfit - dispute over which services the Mishneh can perform. Fourth, the closing Yom Kippur offerings: the HP's personal ram, the people's ram, and the Musaf offerings performed in golden garments.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-061a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.61a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61a.1"
+      ],
+      "display": {
+        "whats": "Which Yom Kippur services are essential (me'akev) and which are not",
+        "hint": "The Gemara establishes which Yom Kippur services are indispensable for the atonement to be achieved and which are required but do not void the atonement if omitted or done out of order."
+      },
+      "learning": {
+        "summary": "The Gemara works through the question of which services are me'akev (essential, such that their omission voids the atonement) and which are mandated but not invalidating if omitted. The blood services and confessions are essential; their omission or reversal undermines the atonement. The communal reading and blessings, while required, are not essential to the atonement mechanism itself. Some immersions are disputed.",
+        "ahaMoment": "Not all Yom Kippur services are equal - the blood services and confessions are the load-bearing structure; the rest, while required, are the completing framework.",
+        "memoryAnchor": "Me'akev vs. not me'akev: the distinction reveals which services are the core and which surround it.",
+        "openQuestion": "How does one distinguish between a required act and an indispensable act in Temple service?"
+      },
+      "argumentFlow": [
+        {
+          "type": "question",
+          "speaker": "Gemara",
+          "text": "Which Yom Kippur services are me'akev (essential) and which are required but not invalidating?",
+          "id": "yoma-061a-l01",
+          "label": "Question: Which Yom Kippur services are me'akev (essential)",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "me'akev",
+        "essential services",
+        "non-essential services",
+        "service validity",
+        "atonement structure"
+      ],
+      "concepts": {
+        "halachic": [
+          "essential vs. required services",
+          "which services void if missing"
+        ],
+        "theological": [
+          "the load-bearing structure of Yom Kippur atonement"
+        ],
+        "narrative": [
+          "halachic categories",
+          "Temple service essentials"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Understanding the concept of me'akev in Temple service",
+        "Knowing the full list of Yom Kippur services"
+      ],
+      "misconceptions": [
+        "The reading and blessings are required but not me'akev - their omission does not void the atonement"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "essential vs. required-but-not-me'akev services"
+        },
+        {
+          "type": "sequence",
+          "name": "essential services: blood, confessions, scapegoat"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Which Yom Kippur services are considered me'akev (essential such that omission voids the atonement)?",
+          "answer": "The blood services (bull and goat), the confessions, and the scapegoat dispatch are essential. The Torah reading, blessings, and some immersions are required but are not me'akev."
+        }
+      ],
+      "finalRuling": "The blood services, confessions, and scapegoat are me'akev (essential); the Torah reading and blessings are required but not invalidating if omitted.",
+      "difficulty": "advanced",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-061a-s02",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.61a.2"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61a.2"
+      ],
+      "display": {
+        "whats": "HP who performed service while impure: service is valid but he is punished",
+        "hint": "If the HP performed a Temple service while impure (with a non-extreme impurity), the service itself is valid - impurity does not retroactively invalidate completed service - but the HP is liable for having served while impure."
+      },
+      "learning": {
+        "summary": "The Gemara addresses the scenario where the HP performed a Yom Kippur service while in a state of ritual impurity. The ruling: the service is valid (bedi'avad, after the fact) because impurity does not retroactively void completed Temple service. However, the HP is personally liable for having served in an impure state, which violates the rules of priestly service. This distinction (service valid, person liable) is important: Israel's atonement is not undermined by the HP's personal failure.",
+        "ahaMoment": "The HP's personal impurity does not undermine Israel's atonement - the service's validity and the priest's personal liability are separate questions. The nation's atonement is not held hostage to the HP's personal status.",
+        "memoryAnchor": "Service valid, HP liable: the atonement's validity is protected even when the HP fails in his personal obligation.",
+        "openQuestion": "What does the separation between service validity and personal liability teach about the relationship between the priest's personal state and his communal function?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Gemara",
+          "text": "If the HP served while impure, the service is valid but he is personally liable.",
+          "id": "yoma-061a-l01b",
+          "label": "Ruling: If the HP served while impure, the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l01b",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "type": "principle",
+          "speaker": "Gemara",
+          "text": "Impurity does not retroactively void completed Temple service (bedi'avad).",
+          "id": "yoma-061a-l01c",
+          "label": "Principle: Impurity does not retroactively void completed Temple",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l01c",
+              "vilnaLine": 2
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "impure HP",
+        "service valid",
+        "personal liability",
+        "bedi'avad",
+        "impurity"
+      ],
+      "concepts": {
+        "halachic": [
+          "service validity despite HP's impurity",
+          "separation of service validity from personal obligation"
+        ],
+        "theological": [
+          "communal atonement protected from individual priestly failure"
+        ],
+        "narrative": [
+          "halachic principle",
+          "impurity in Temple service"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the principle that impurity does not retroactively void Temple service",
+        "Understanding the distinction between bedi'avad and ab initio"
+      ],
+      "misconceptions": [
+        "The HP's impurity does not void the service - Israel's atonement is not dependent on the HP's personal purity level"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "contrast",
+          "name": "service validity vs. personal liability of impure HP"
+        },
+        {
+          "type": "principle",
+          "name": "bedi'avad - completed service stands even if improper conditions existed"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "If the HP performed Yom Kippur services while ritually impure, are the services valid?",
+          "answer": "Yes, the services are valid after the fact (bedi'avad) - impurity does not retroactively void completed Temple service. However, the HP is personally liable for having served while impure."
+        }
+      ],
+      "finalRuling": "A HP who served while impure: the service is valid (impurity doesn't void it) but the HP is personally liable for the violation.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-061a-s03",
+      "lineRange": {
+        "startVilnaLine": 7,
+        "endVilnaLine": 34
+      },
+      "lines": [
+        {
+          "vilnaLine": 7,
+          "sefariaRef": "Yoma.61a.3"
+        },
+        {
+          "vilnaLine": 10,
+          "sefariaRef": "Yoma.61a.4"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.61a.5"
+        },
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.61a.6"
+        },
+        {
+          "vilnaLine": 22,
+          "sefariaRef": "Yoma.61a.7"
+        },
+        {
+          "vilnaLine": 26,
+          "sefariaRef": "Yoma.61a.8"
+        },
+        {
+          "vilnaLine": 28,
+          "sefariaRef": "Yoma.61a.9"
+        },
+        {
+          "vilnaLine": 32,
+          "sefariaRef": "Yoma.61a.10"
+        },
+        {
+          "vilnaLine": 34,
+          "sefariaRef": "Yoma.61a.11"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61a.3",
+        "Yoma.61a.4",
+        "Yoma.61a.5",
+        "Yoma.61a.6",
+        "Yoma.61a.7",
+        "Yoma.61a.8",
+        "Yoma.61a.9",
+        "Yoma.61a.10",
+        "Yoma.61a.11"
+      ],
+      "display": {
+        "whats": "The deputy HP (Mishneh) prepared to substitute if the main HP becomes unfit",
+        "hint": "A substitute HP (Mishneh) is designated and prepared in case the primary HP becomes impure, dies, or is otherwise unable to serve on Yom Kippur. Dispute over which services the Mishneh can perform."
+      },
+      "learning": {
+        "summary": "The Mishnah states that a Mishneh (deputy HP) was prepared alongside the HP throughout his seven-day preparation period. If the HP became unfit through impurity, death, or other incapacity, the Mishneh could potentially substitute. A dispute arises about which services the Mishneh can perform - specifically whether he can perform the essential blood services. One view: the Mishneh can perform all services. Another: he can only perform some, not the blood services which are exclusively the primary HP's role.",
+        "ahaMoment": "The Mishneh represents a key tension: Yom Kippur's service is designed around one specific person, yet the service cannot simply not happen if that person fails. The backup exists but is limited.",
+        "memoryAnchor": "The Mishneh is a backup that protects the day, but his limitations reveal that the primary HP is irreplaceable for the core services.",
+        "openQuestion": "If the Mishneh cannot perform the blood services, what happens if the HP dies after beginning but before completing them?"
+      },
+      "argumentFlow": [
+        {
+          "type": "institution",
+          "speaker": "Mishnah",
+          "text": "A Mishneh (deputy HP) is prepared throughout the seven days of preparation.",
+          "id": "yoma-061a-l07",
+          "label": "Institution: A Mishneh (deputy HP) is prepared throughout",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l07",
+              "vilnaLine": 7
+            }
+          ]
+        },
+        {
+          "type": "reason",
+          "speaker": "Mishnah",
+          "text": "In case the primary HP becomes impure or dies, the Mishneh is ready to substitute.",
+          "id": "yoma-061a-l10",
+          "label": "Reason: In case the primary HP becomes impure",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l10",
+              "vilnaLine": 10
+            }
+          ]
+        },
+        {
+          "type": "dispute",
+          "speaker": "Gemara",
+          "text": "Does the Mishneh substitute for all services or only some?",
+          "id": "yoma-061a-l19",
+          "label": "Dispute: Does the Mishneh substitute for all services",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "type": "position",
+          "speaker": "R. Yehuda",
+          "text": "Some services are exclusive to the primary HP; the Mishneh cannot substitute for those.",
+          "id": "yoma-061a-l26",
+          "label": "Position: Some services are exclusive to the primary",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l26",
+              "vilnaLine": 26
+            }
+          ]
+        },
+        {
+          "type": "position",
+          "speaker": "Sages",
+          "text": "The Mishneh can substitute for all services if necessary.",
+          "id": "yoma-061a-l32",
+          "label": "Position: The Mishneh can substitute for all services",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l32",
+              "vilnaLine": 32
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Mishneh HP",
+        "deputy HP",
+        "substitute",
+        "service validity",
+        "HP incapacity"
+      ],
+      "concepts": {
+        "halachic": [
+          "deputy HP preparation",
+          "Mishneh's scope of substitution",
+          "backup for HP"
+        ],
+        "theological": [
+          "the balance between irreplaceability and continuity of the day's service"
+        ],
+        "narrative": [
+          "Yom Kippur contingency",
+          "human fragility in divine service"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the HP was separated from his household for seven days to prepare",
+        "Understanding what makes the HP's role unique on Yom Kippur"
+      ],
+      "misconceptions": [
+        "The Mishneh is not a co-HP - he is a backup only, and his role is disputed"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "person",
+          "name": "Mishneh HP prepared alongside primary HP"
+        },
+        {
+          "type": "contrast",
+          "name": "R. Yehuda vs. Sages on Mishneh's scope"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "Why was a deputy HP (Mishneh) prepared for Yom Kippur?",
+          "answer": "In case the primary HP became ritually impure, died, or was otherwise unfit to serve, a deputy was ready. Dispute exists whether the Mishneh can perform all services or only some."
+        }
+      ],
+      "finalRuling": "A deputy HP is prepared throughout the seven preparatory days in case the primary HP becomes unfit; dispute exists over which services he may perform.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-061a-s04",
+      "lineRange": {
+        "startVilnaLine": 35,
+        "endVilnaLine": 45
+      },
+      "lines": [
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.61a.12"
+        },
+        {
+          "vilnaLine": 36,
+          "sefariaRef": "Yoma.61a.13"
+        },
+        {
+          "vilnaLine": 38,
+          "sefariaRef": "Yoma.61a.14"
+        },
+        {
+          "vilnaLine": 42,
+          "sefariaRef": "Yoma.61a.15"
+        },
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.61a.16"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.61a.17"
+        },
+        {
+          "vilnaLine": 45,
+          "sefariaRef": "Yoma.61a.18"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.61a.12",
+        "Yoma.61a.13",
+        "Yoma.61a.14",
+        "Yoma.61a.15",
+        "Yoma.61a.16",
+        "Yoma.61a.17",
+        "Yoma.61a.18"
+      ],
+      "display": {
+        "whats": "The closing services of Yom Kippur: personal and communal offerings completing the day",
+        "hint": "After retrieving the fire pan from the Holy of Holies and changing to golden garments, the HP completes the day with his personal ram, the people's ram, and the Musaf offerings."
+      },
+      "learning": {
+        "summary": "The Mishnah lists the closing animal services: the HP's personal ram (offered for him and his household), the ram of the people (communal burnt-offering), and the additional Musaf offerings specific to Yom Kippur (seven lambs, one bull, two rams, and the sin-offering goat of Musaf). These are performed in golden garments. This concludes the formal service of the day. The evening tamid offering may also be included here. With these offerings, the Yom Kippur service is formally complete.",
+        "ahaMoment": "The day that began with the HP's personal bull and the nation's goat ends with the HP's personal ram and the nation's ram - a symmetry of personal and communal representation.",
+        "memoryAnchor": "Beginning: bull for priesthood, goat for Israel. Ending: ram for HP, ram for Israel. The symmetry of the closing mirrors the opening.",
+        "openQuestion": "Is there theological significance to the day beginning and ending with parallel personal-and-communal offerings?"
+      },
+      "argumentFlow": [
+        {
+          "type": "ruling",
+          "speaker": "Mishnah",
+          "text": "HP offers his personal ram and the people's ram in golden garments.",
+          "id": "yoma-061a-l35",
+          "label": "Ruling: HP offers his personal ram and the",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l35",
+              "vilnaLine": 35
+            }
+          ]
+        },
+        {
+          "type": "continuation",
+          "speaker": "Mishnah",
+          "text": "He offers the additional Musaf offerings for Yom Kippur.",
+          "id": "yoma-061a-l36",
+          "label": "Continuation: He offers the additional Musaf offerings for",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l36",
+              "vilnaLine": 36
+            }
+          ]
+        },
+        {
+          "type": "completion",
+          "speaker": "Mishnah",
+          "text": "With these offerings, the formal Yom Kippur service is complete.",
+          "id": "yoma-061a-l42",
+          "label": "Completion: With these offerings, the formal Yom Kippur",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l42",
+              "vilnaLine": 42
+            }
+          ]
+        },
+        {
+          "type": "symmetry",
+          "speaker": "Gemara",
+          "text": "The closing ram offerings mirror the opening bull-and-goat structure.",
+          "id": "yoma-061a-l45a",
+          "label": "Symmetry: The closing ram offerings mirror the opening",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-061a-l45a",
+              "vilnaLine": 4
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "closing offerings",
+        "personal ram",
+        "communal ram",
+        "Musaf",
+        "service completion",
+        "golden garments"
+      ],
+      "concepts": {
+        "halachic": [
+          "closing Yom Kippur animal offerings",
+          "Musaf offerings",
+          "completion of the day"
+        ],
+        "theological": [
+          "symmetry of opening and closing offerings",
+          "personal and communal representation throughout"
+        ],
+        "narrative": [
+          "Yom Kippur conclusion",
+          "closing sacrifices"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Knowing the HP has personal and communal offerings both at the start and end of Yom Kippur",
+        "Knowing the Musaf offerings for Yom Kippur"
+      ],
+      "misconceptions": [
+        "The Musaf offerings are additional beyond the daily tamid - not a replacement for the daily offering"
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "sequence",
+          "name": "personal ram, communal ram, Musaf offerings in golden garments"
+        },
+        {
+          "type": "contrast",
+          "name": "opening (bull+goat) vs. closing (ram+ram) symmetry"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "seed": "What are the closing animal offerings of Yom Kippur?",
+          "answer": "The HP offers his personal ram and the people's ram in golden garments, followed by the Musaf offerings specific to Yom Kippur - completing the day's formal service."
+        }
+      ],
+      "finalRuling": "The HP closes Yom Kippur with his personal ram, the communal ram, and the Musaf offerings, completing the day's formal service in golden garments.",
+      "difficulty": "introductory",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "reviewed"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "en": "All the Yom Kippur services are valid only if performed in the proper order.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "en": "If he reversed any two services, the question is whether the reversal invalidates.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Some services are essential (me'akev) and some are not.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Essential services: if missing or reversed, the atonement is not achieved.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Non-essential services: their absence or reversal does not void the atonement.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "en": "The blood services are essential.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "en": "The confessions are essential.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "en": "The scapegoat dispatch is essential.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "en": "The reading and blessings are not essential for atonement - they are additional.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "en": "The immersions between garment changes: dispute over their essentiality.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "en": "R. Yehuda holds some immersions are essential.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "en": "The Sages hold all immersions are required but none void the service if missing.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "en": "The hand-foot washings are required but their absence is debated.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "en": "The HP who performed a service while impure: his service is valid but he is punished.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Impurity does not void the service itself - only regular impurity, not major impurity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "en": "If the HP became impure while inside the Holy of Holies.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "en": "He must exit immediately; the service performed while impure is not retroactively voided.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Impurity that began during the service: what was completed before the impurity stands.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "en": "What was not yet done must be performed by another if possible, or by the HP after purification.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "en": "The HP's purity is for his protection and Israel's honor.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Serving while impure dishonors Israel's representative before God.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "en": "The rules around impurity reflect the dignity requirements of the day.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "en": "A deputy HP (Mishneh) was prepared in case the HP became impure or died.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "en": "The Mishneh can substitute for some services but not others.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "en": "The blood service specifically: dispute about whether the Mishneh can perform it.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "en": "For the most essential services, the HP himself must serve.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "en": "His unique status on this day is inseparable from his performance of these acts.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "en": "The day is designed around one person's singular encounter with God.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "en": "The Mishneh is a precaution, but the ideal is one HP performing all services.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "en": "The entire tractate Yoma prepares the reader for this understanding.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "en": "The HP prepared, purified, and tested for seven days.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "en": "All the preparation is for one day, one person, one encounter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "en": "His performance of all the essential services in sequence and with purity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "en": "The integrity of the HP is the integrity of the service.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "en": "If he performed with proper intention, in proper order, in proper purity.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Then Israel is atoned. The covenant is renewed. The year begins clean.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "en": "This is the promise and the stakes of Yom Kippur.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "en": "The Talmud traces every detail because every detail matters for this outcome.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Understanding the halachot of the service enables participation in its meaning.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Study is the successor to service - the Talmud makes the service accessible forever.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "en": "The HP's service ends; the Talmud's transmission begins.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "en": "What the HP did once in the Temple, the student does daily in learning.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "en": "The study of Yoma is itself an act of atonement and encounter.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "en": "This is why Yom Kippur remains the holiest day even without the Temple.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "en": "The atonement mechanism is replaced by prayer, fasting, and the study of what was done.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi commentary line 46.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi commentary line 47.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi commentary line 48.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi commentary line 49.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi commentary line 50.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi commentary line 51.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi commentary line 52.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi commentary line 53.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi commentary line 54.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi commentary line 55.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi commentary line 56.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi commentary line 57.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi commentary line 58.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi commentary line 59.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi commentary line 60.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi commentary line 61.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi commentary line 62.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Rashi commentary line 63.",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 64,
+      "en": "Rashi commentary line 64.",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "reviewed"
+}

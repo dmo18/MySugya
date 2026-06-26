@@ -1,0 +1,1270 @@
+{
+  "canonicalRef": "Yoma 85a",
+  "summary": "Tractate Yoma daf 85a covers: Shmuel's ruling: found a child - majority determines whether to violate YK; Majority of inhabitants gentile: do we save a person whose identity is unknown?; Rocks collapse on a person on Yom Kippur - remove rocks to save them; If found alive, continue removing rocks; if dead, stop; If found dead, leave them and do not continue violating YK; R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural basis for saving life on YK.",
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "yoma-085a-s01",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 1
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.85a.1"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.1"
+      ],
+      "display": {
+        "whats": "Shmuel's ruling: found a child - majority determines whether to violate YK",
+        "hint": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local population."
+      },
+      "learning": {
+        "summary": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local population.",
+        "ahaMoment": "Majority determines: we go by statistical likelihood when we cannot know for certain. The law is probabilistic under uncertainty.",
+        "memoryAnchor": "Shmuel and majority: probability determines the YK override when certainty is unavailable.",
+        "openQuestion": "What is the deeper significance of the ruling about shmuel's ruling: found a child - majority determines whether?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Shmuel rereads the foundling rule as leniency",
+          "speaker": "Gemara",
+          "text": "Shmuel's ruling about a found child concerns clearing debris off him on Shabbat. Read straight, it implies we follow the local majority even for saving a life - so in a gentile-majority town we would not clear the rubble. The Gemara rejects that reading: Shmuel was only explaining the first clause (status, e.g. lineage), and there following the majority is a leniency. For saving a life, majority does not control - we clear the debris on the chance he is alive.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "Shmuel",
+        "majority",
+        "child",
+        "YK",
+        "rubble"
+      ],
+      "concepts": {
+        "halachic": [
+          "Shmuel",
+          "majority"
+        ],
+        "theological": [
+          "Majority determines: we go by statistical likelihood when we cannot know for cer"
+        ],
+        "narrative": [
+          "Shmuel's ruling: found a child - majority determines whether"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of Shmuel context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The majority of a town's population can decide whether we bother saving a buried person.",
+          "correction": "Majority determines status questions like lineage, not whether to save a life. Any possibility that a person is alive obligates us to desecrate Shabbat to dig him out.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Shmuel's ruling: found a child - majority determin"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "If most of the town is gentile, may one clear Shabbat debris off a buried foundling to save his life?",
+          "a": "Yes. The majority rule sets the child's status for matters like lineage, but it does not govern pikuach nefesh. To save a life we act on the mere possibility he is alive, ignoring the majority."
+        },
+        {
+          "q": "What was the Gemara's mistaken reading of Shmuel, and how was it corrected?",
+          "a": "The mistaken reading was that Shmuel applied 'follow the majority' even to life-saving, which would bar clearing debris in a gentile-majority town. The correction: Shmuel spoke only about the child's legal status, not about saving a life."
+        }
+      ],
+      "finalRuling": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local popul",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "yoma-085a-s02",
+      "lineRange": {
+        "startVilnaLine": 1,
+        "endVilnaLine": 9
+      },
+      "lines": [
+        {
+          "vilnaLine": 1,
+          "sefariaRef": "Yoma.85a.2"
+        },
+        {
+          "vilnaLine": 6,
+          "sefariaRef": "Yoma.85a.3"
+        },
+        {
+          "vilnaLine": 9,
+          "sefariaRef": "Yoma.85a.4"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.2",
+        "Yoma.85a.3",
+        "Yoma.85a.4"
+      ],
+      "display": {
+        "whats": "Majority of inhabitants gentile: do we save a person whose identity is unknown?",
+        "hint": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK."
+      },
+      "learning": {
+        "summary": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
+        "ahaMoment": "Majority gentile: even when odds are against it being a Jew, if there is any realistic chance, we violate YK - the doubt is enough.",
+        "memoryAnchor": "Majority gentile: statistical doubt still triggers YK override - any realistic chance is enough.",
+        "openQuestion": "What is the deeper significance of the ruling about majority of inhabitants gentile: do we save a person whose i?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "Gentile-majority foundling: feed him non-kosher food",
+          "speaker": "Rav Pappa",
+          "text": "A foundling in a gentile-majority town counts as a gentile. Rav Pappa explains the practical stakes: we need not shield him from every prohibition and may even feed him non-kosher food, treating him as a gentile for such purposes.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l01",
+              "vilnaLine": 1
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "Half-and-half town: treated as a Jew for damages",
+          "speaker": "Reish Lakish",
+          "text": "In a town that is half gentile and half Jewish, the foundling is treated as a Jew - and Reish Lakish says this matters for damages. But the Gemara challenges: if a Jew's ox gored the foundling's ox, how can the foundling collect as a Jew without proving he is one? The burden of proof is on the claimant, so he should not collect.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l06",
+              "vilnaLine": 6
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "resolution",
+          "label": "The case where his status as claimant helps him",
+          "speaker": "Gemara",
+          "text": "The ruling is needed for the reverse case: the foundling's tam (innocuous) ox gores a Jew's ox. A Jew pays half-damages, a gentile pays in full. Treated as a Jew, the foundling pays only half - and tells the damaged party: prove I am not a Jew if you want the other half. Here the burden falls on the one demanding more.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l09",
+              "vilnaLine": 9
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "majority gentile",
+        "doubt",
+        "YK override",
+        "probability"
+      ],
+      "concepts": {
+        "halachic": [
+          "majority gentile",
+          "doubt"
+        ],
+        "theological": [
+          "Majority gentile: even when odds are against it being a Jew, if there is any rea"
+        ],
+        "narrative": [
+          "Majority of inhabitants gentile: do we save a person whose i"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of majority gentile context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Calling the half-and-half foundling 'a Jew' helps him collect damages from others.",
+          "correction": "It does not help him collect, since he cannot prove his status and the burden is on the claimant. It helps him as a defendant - he pays only the half-damages a Jew owes, and the victim must prove otherwise to collect more.",
+          "correctedByStepId": "step-03"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Majority of inhabitants gentile: do we save a pers"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "In a gentile-majority town, what is the practical consequence of treating a foundling as a gentile?",
+          "a": "One need not protect him from every prohibition and may even feed him non-kosher food, as one would a gentile."
+        },
+        {
+          "q": "Why does treating the half-and-half foundling as a Jew help him specifically when his ox does the goring?",
+          "a": "A Jew pays only half-damages for a tam ox, while a gentile pays in full. As a presumed Jew he pays half, and he can tell the victim: bring proof I am a gentile if you want the rest. The burden of proof shifts to the victim."
+        }
+      ],
+      "finalRuling": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 3,
+      "id": "yoma-085a-s03",
+      "lineRange": {
+        "startVilnaLine": 12,
+        "endVilnaLine": 13
+      },
+      "lines": [
+        {
+          "vilnaLine": 12,
+          "sefariaRef": "Yoma.85a.5"
+        },
+        {
+          "vilnaLine": 13,
+          "sefariaRef": "Yoma.85a.6"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.5",
+        "Yoma.85a.6"
+      ],
+      "display": {
+        "whats": "Rocks collapse on a person on Yom Kippur - remove rocks to save them",
+        "hint": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary."
+      },
+      "learning": {
+        "summary": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
+        "ahaMoment": "Rubble on YK: the practical emergency is described in steps - you remove, you check, you continue or stop based on what you find.",
+        "memoryAnchor": "Rubble removal steps: check while removing, not after. YK override is active until you know the outcome.",
+        "openQuestion": "What is the deeper significance of the ruling about rocks collapse on a person on yom kippur - remove rocks to s?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "question",
+          "label": "Why does the Mishnah list three uncertainties?",
+          "speaker": "Gemara",
+          "text": "The Mishnah says we clear debris off a buried person despite three layers of doubt: whether he is even there, whether he is alive or dead, and whether he is gentile or Jew. The Gemara asks what the Mishnah is teaching by stacking three doubts to make one point.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l12",
+              "vilnaLine": 12
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "answer",
+          "label": "It is a 'needless to say' escalation",
+          "speaker": "Gemara",
+          "text": "The Mishnah uses the 'needless to say' style, building from the obvious to the surprising. Needless to say we clear when only his presence is in doubt; even if life is in doubt we clear; and even when he is certainly a Jew but his life is in doubt we clear. The real chiddush: we clear even when it is uncertain whether the buried person is a gentile at all.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l13",
+              "vilnaLine": 13
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "rubble",
+        "rocks collapse",
+        "YK",
+        "saving life",
+        "violation"
+      ],
+      "concepts": {
+        "halachic": [
+          "rubble",
+          "rocks collapse"
+        ],
+        "theological": [
+          "Rubble on YK: the practical emergency is described in steps - you remove, you ch"
+        ],
+        "narrative": [
+          "Rocks collapse on a person on Yom Kippur - remove rocks to s"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of rubble context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "The Mishnah lists three doubts because all three are equally novel.",
+          "correction": "The first two are 'needless to say' - obviously we save. Only the last, doubt about whether the person is even a Jew, is the real innovation the Mishnah is driving toward.",
+          "correctedByStepId": "step-02"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "Rocks collapse on a person on Yom Kippur - remove "
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What are the three uncertainties the Mishnah stacks, and which one is the real teaching?",
+          "a": "Whether he is under the rubble at all, whether he is alive or dead, and whether he is gentile or Jew. The real teaching is the last: we clear the rubble even when it is uncertain whether the buried person is Jewish."
+        },
+        {
+          "q": "What does the 'needless to say' (lo mivaya) style accomplish here?",
+          "a": "It escalates from the obviously permitted (doubt about his presence) to the genuinely novel (doubt about his Jewish status), showing that even compounded uncertainty does not stop us from saving a possible life."
+        }
+      ],
+      "finalRuling": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 4,
+      "id": "yoma-085a-s04",
+      "lineRange": {
+        "startVilnaLine": 18,
+        "endVilnaLine": 18
+      },
+      "lines": [
+        {
+          "vilnaLine": 18,
+          "sefariaRef": "Yoma.85a.7"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.7"
+      ],
+      "display": {
+        "whats": "If found alive, continue removing rocks; if dead, stop",
+        "hint": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing rocks."
+      },
+      "learning": {
+        "summary": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing rocks.",
+        "ahaMoment": "Found alive, keep going; found dead, stop: the override of YK is calibrated to its purpose (saving life) and ends when that purpose is no longer achievable.",
+        "memoryAnchor": "Alive - continue. Dead - stop. The override tracks the purpose, not the action.",
+        "openQuestion": "What is the deeper significance of the ruling about if found alive, continue removing rocks; if dead, stop?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Found alive: even for fleeting life",
+          "speaker": "Gemara",
+          "text": "The Mishnah says if they find him alive they keep clearing - which seems obvious, since that is saving a life. The Gemara answers it teaches a real point: we desecrate Shabbat even if it is clear he will live only a short while (chayei sha'ah) and die soon after. A brief remnant of life is still life worth saving.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l18",
+              "vilnaLine": 18
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "alive",
+        "dead",
+        "continue",
+        "stop",
+        "YK override"
+      ],
+      "concepts": {
+        "halachic": [
+          "alive",
+          "dead"
+        ],
+        "theological": [
+          "Found alive, keep going; found dead, stop: the override of YK is calibrated to i"
+        ],
+        "narrative": [
+          "If found alive, continue removing rocks; if dead, stop"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of alive context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Shabbat is only set aside to save someone who has a real chance at a full life.",
+          "correction": "Even chayei sha'ah - life that will clearly end soon - is worth desecrating Shabbat for. The value is in the life itself, not its expected length.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "If found alive, continue removing rocks; if dead, "
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why is the ruling 'if found alive, keep clearing' not simply obvious?",
+          "a": "It teaches that we desecrate Shabbat even for chayei sha'ah - life that will last only a short time. Even momentary survival is reason enough to keep digging."
+        },
+        {
+          "q": "What is chayei sha'ah and what does this sugya establish about it?",
+          "a": "Chayei sha'ah is fleeting life, where the person will certainly die soon. The sugya establishes that saving even such fleeting life overrides Shabbat."
+        }
+      ],
+      "finalRuling": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing roc",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 5,
+      "id": "yoma-085a-s05",
+      "lineRange": {
+        "startVilnaLine": 19,
+        "endVilnaLine": 40
+      },
+      "lines": [
+        {
+          "vilnaLine": 19,
+          "sefariaRef": "Yoma.85a.8"
+        },
+        {
+          "vilnaLine": 27,
+          "sefariaRef": "Yoma.85a.9"
+        },
+        {
+          "vilnaLine": 31,
+          "sefariaRef": "Yoma.85a.10"
+        },
+        {
+          "vilnaLine": 35,
+          "sefariaRef": "Yoma.85a.11"
+        },
+        {
+          "vilnaLine": 40,
+          "sefariaRef": "Yoma.85a.12"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.8",
+        "Yoma.85a.9",
+        "Yoma.85a.10",
+        "Yoma.85a.11",
+        "Yoma.85a.12"
+      ],
+      "display": {
+        "whats": "If found dead, leave them and do not continue violating YK",
+        "hint": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead."
+      },
+      "learning": {
+        "summary": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead.",
+        "ahaMoment": "Stop when dead: the dead have their own honor rights, but those do not override YK in the same way. Only the living claim the full YK override.",
+        "memoryAnchor": "Dead body does not extend the override: pikuach nefesh is for the living only.",
+        "openQuestion": "What is the deeper significance of the ruling about if found dead, leave them and do not continue violating yk?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "analysis",
+          "label": "Found dead: why state the obvious?",
+          "speaker": "Gemara",
+          "text": "The Mishnah says if they find him dead they leave him - seemingly obvious. The Gemara answers it is needed against Rabbi Yehuda ben Lakish, who held one may save a corpse from a fire on Shabbat. Even he limits that to fire, where a person, agitated over his burning dead, might come to extinguish the flames. Here in a collapse there is no such risk, so the dignity of the dead does not override Shabbat.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l19",
+              "vilnaLine": 19
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "case",
+          "label": "How far up the body do we check for life?",
+          "speaker": "Baraita",
+          "text": "The Rabbis taught: to determine if the buried victim is alive, one checks up to the nose (no breath means dead); some say up to the heart. And even if the upper bodies in a multi-person collapse are found dead, one must not assume the lower ones are dead too - there was a case where the upper were dead and the lower alive.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l27",
+              "vilnaLine": 27
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "comparison",
+          "label": "Does the nose/heart dispute track the fetus-formation dispute?",
+          "speaker": "Gemara",
+          "text": "The Gemara suggests the nose-versus-heart dispute mirrors a tannaitic dispute about where a fetus first forms: from the head (per verses on 'gozi') or from the navel (Abba Shaul). It then rejects the link: even Abba Shaul, who says formation starts at the middle, agrees that the decisive sign of life is breath in the nose, per 'all in whose nostrils was the breath of life.' Rav Pappa adds that the nose/heart practical difference applies only when digging from the feet up; digging from the head down, once you reach the nose and find no breath, you stop.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l31",
+              "vilnaLine": 31
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "dead body",
+        "YK override",
+        "pikuach nefesh limit"
+      ],
+      "concepts": {
+        "halachic": [
+          "dead body",
+          "YK override"
+        ],
+        "theological": [
+          "Stop when dead: the dead have their own honor rights, but those do not override "
+        ],
+        "narrative": [
+          "If found dead, leave them and do not continue violating YK"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of dead body context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Checking 'until the nose' versus 'until the heart' reflects a deep disagreement about what counts as life.",
+          "correction": "For determining life, even the navel-formation view concedes breath at the nose is decisive. The practical gap only matters depending on whether you dig from the feet up or head down, as Rav Pappa explains.",
+          "correctedByStepId": "step-03"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "If found dead, leave them and do not continue viol"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "Why isn't 'if found dead, leave him' simply obvious?",
+          "a": "It is needed to reject Rabbi Yehuda ben Lakish's view that one saves a corpse from fire. That leniency applies only to fire, where panic might lead to extinguishing. In a collapse there is no such risk, so a corpse does not override Shabbat."
+        },
+        {
+          "q": "What is the decisive sign of life when checking a buried victim, and what verse supports it?",
+          "a": "Breath at the nose. Even Abba Shaul, who locates a fetus's formation at the navel, agrees the main sign of life is in the nose, from 'all in whose nostrils was the breath of the spirit of life' (Genesis 7:22)."
+        },
+        {
+          "q": "According to Rav Pappa, when does the nose-versus-heart distinction actually matter?",
+          "a": "When uncovering the body from the feet upward. Then checking to the heart is not enough - one must reach the nose. But uncovering from the head down, once you check the nose and find no breath, you may stop."
+        }
+      ],
+      "finalRuling": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    },
+    {
+      "sugyaNumber": 6,
+      "id": "yoma-085a-s06",
+      "lineRange": {
+        "startVilnaLine": 43,
+        "endVilnaLine": 49
+      },
+      "lines": [
+        {
+          "vilnaLine": 43,
+          "sefariaRef": "Yoma.85a.13"
+        },
+        {
+          "vilnaLine": 46,
+          "sefariaRef": "Yoma.85a.14"
+        },
+        {
+          "vilnaLine": 49,
+          "sefariaRef": "Yoma.85a.15"
+        }
+      ],
+      "sefariaRefs": [
+        "Yoma.85a.13",
+        "Yoma.85a.14",
+        "Yoma.85a.15"
+      ],
+      "display": {
+        "whats": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural basis for saving life on YK",
+        "hint": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different facet of the principle."
+      },
+      "learning": {
+        "summary": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different facet of the principle.",
+        "ahaMoment": "Three derivations: when multiple Sages offer different sources for the same principle, the Talmud values all of them - each adds a dimension to the principle.",
+        "memoryAnchor": "Three scriptural sources: multiple derivations enrich the principle rather than compete.",
+        "openQuestion": "What is the deeper significance of the ruling about r. yishmael, r. akiva, r. elazar ben azaryah: scriptural bas?"
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "The roadside question: source for pikuach nefesh overriding Shabbat",
+          "speaker": "Gemara",
+          "text": "A famous scene: Rabbi Yishmael, Rabbi Akiva, and Rabbi Elazar ben Azarya were walking, with junior scholars behind them, when the question arose - from where do we know that saving a life overrides Shabbat? Each sage offers a scriptural proof.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l43",
+              "vilnaLine": 43
+            }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "proof",
+          "label": "Rabbi Yishmael: kal vachomer from the burglar",
+          "speaker": "Rabbi Yishmael",
+          "text": "Rabbi Yishmael cites the thief who breaks in (Exodus 22:1): one may kill him though it is only uncertain whether he came for money or for lives, and though bloodshed defiles the land and drives away the Divine Presence. If saving the homeowner's life justifies even killing despite all that, all the more so saving a life overrides Shabbat.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l46",
+              "vilnaLine": 46
+            }
+          ]
+        },
+        {
+          "id": "step-03",
+          "type": "proof",
+          "label": "Rabbi Akiva: take him from My altar",
+          "speaker": "Rabbi Akiva",
+          "text": "Rabbi Akiva cites 'you shall take him from My altar to die' (Exodus 21:14): a murderer-priest is taken even from the altar to be executed, but if he has begun the service, 'from on top of My altar' you do not take him - he finishes first. Rabba bar bar Chana in Rabbi Yochanan's name notes this 'do not take him down' applies to executing him, setting up the next step's distinction.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-085a-l49",
+              "vilnaLine": 49
+            }
+          ]
+        }
+      ],
+      "topicTags": [
+        "R. Yishmael",
+        "R. Akiva",
+        "R. Elazar ben Azaryah",
+        "scriptural derivation",
+        "saving life"
+      ],
+      "concepts": {
+        "halachic": [
+          "R. Yishmael",
+          "R. Akiva"
+        ],
+        "theological": [
+          "Three derivations: when multiple Sages offer different sources for the same prin"
+        ],
+        "narrative": [
+          "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural bas"
+        ]
+      },
+      "conceptRefs": [],
+      "requiresUnderstanding": [
+        "Background knowledge of R. Yishmael context",
+        "Understanding of Yom Kippur halachic framework"
+      ],
+      "misconceptions": [
+        {
+          "misconception": "Each sage's verse is an independent, equally airtight proof that saving life overrides Shabbat.",
+          "correction": "As 85b will show, Rava holds every proof except Shmuel's can be refuted, because they establish overriding Shabbat only for certain danger, not for the doubtful danger that is the real question.",
+          "correctedByStepId": "step-01"
+        }
+      ],
+      "relatedSugyot": [],
+      "visualizableElements": [
+        {
+          "type": "action",
+          "name": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scri"
+        }
+      ],
+      "quizSeeds": [
+        {
+          "q": "What is Rabbi Yishmael's a fortiori argument that saving a life overrides Shabbat?",
+          "a": "The Torah lets a homeowner kill a burglar despite only a doubt that the burglar means to kill, and despite bloodshed defiling the land and banishing the Divine Presence. If a doubtful threat to life justifies that, certainly saving a life overrides Shabbat."
+        },
+        {
+          "q": "What does 'take him from My altar' (Exodus 21:14) teach according to Rabbi Akiva?",
+          "a": "A murderer-priest is removed even from the altar for execution, but only before he begins the service. 'From on top of My altar' - once mid-service - he is not interrupted to be executed; that interruption is reserved, as the next sugya shows, for saving a life."
+        }
+      ],
+      "finalRuling": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different fac",
+      "difficulty": "intermediate",
+      "alternateAngles": [],
+      "glossary": [],
+      "review": "draft"
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "ושמואל אמר לפקח עליו את הגל. קאמר דאם רוב ישראל",
+      "en": "Rashi: Shmuel - majority of inhabitants determines whether to violate YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 2,
+      "he": "אבל במחצה על מחצה לא וכ\"ש ברוב כותים: אינו כן. דאמר",
+      "en": "Rashi: majority of gentiles in the area - statistical doubt still triggers the override.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 3,
+      "he": "אפילו ברוב כותים מפקחין: למאי הילכתא. הוי כותי אליבא דשמואל",
+      "en": "Rashi: rocks collapse on someone on YK - remove them to save the person.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 4,
+      "he": "כיון דאמר מפקחין עליו כל שכן דמצוה להחיותו ולמאי הילכתא הוי",
+      "en": "Rashi: if found alive while removing rocks, continue the rescue.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 5,
+      "he": "כותי: להאכילו נבילות. עד שיגדל",
+      "en": "Rashi: if found dead, stop removing rocks - the override is for saving life only.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 6,
+      "he": "ויקבל עליו גירות: אם רוב ישראל",
+      "en": "Rashi: three Tannaim cite different scriptural sources for saving life on YK.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 7,
+      "he": "ישראל למאי הילכתא. הוי ישראל",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 8,
+      "he": "ברוב ישראל טפי ממחצה על מחצה",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 9,
+      "he": "אי שלא להאכילו נבילות במחצה",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 10,
+      "he": "על מחצה לא ספינן ליה: לנזקין.",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 11,
+      "he": "שור של ישראל שנגח של כותי פטור",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 12,
+      "he": "ושור של כותי שנגח של ישראל בין תם",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 13,
+      "he": "בין מועד משלם נזק שלם ושל ישראל",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 14,
+      "he": "שנגח של ישראל תם משלם חצי נזק",
+      "en": "Rashi explains the opening discussion of this topic on 85a.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 15,
+      "he": "מועד משלם נזק שלם: אי נימא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 16,
+      "he": "דנגחיה תורא דידן לתורא דידיה.",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 17,
+      "he": "וקאמרינן דמחייבינן ליה לשלומי: נייתי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 18,
+      "he": "ראיה. דישראל הוא ונשקול וכל זמן",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 19,
+      "he": "שלא טבל בבית דין לשם גירות לא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 20,
+      "he": "מצינן לישראל לחיובי לשלומי:",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 21,
+      "he": "פלגא. משלם כישראל אידך פלגא ספק",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 22,
+      "he": "הוא וזה תובעו נזק שלם כדין כותי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 23,
+      "he": "אמר ליה אייתי ראיה דלאו ישראל אנא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 24,
+      "he": "ושקול: מאי קאמר. כל הני ספיקי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 25,
+      "he": "דקתני מאי אתו לאשמועינן: שמצילין",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 26,
+      "he": "את המת. לחצר המעורבת דליכא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 27,
+      "he": "איסור אלא טלטול: אבל הכא. כי",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 28,
+      "he": "לא שרית ליה לפקוחי מאי אית ליה",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 29,
+      "he": "למיעבד דתיהוי איסורא דאורייתא",
+      "en": "Rashi elaborates on the halachic details of this sugya.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 30,
+      "he": "דנשרי הא מקמי הך: עד היכן הוא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 31,
+      "he": "בודק. אם דומה למת שאינו מזיז",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 32,
+      "he": "איבריו עד היכן הוא מפקח לדעת",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 33,
+      "he": "האמת: עד חוטמו. ואם אין חיות",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 34,
+      "he": "בחוטמו שאינו מוציא רוח ודאי מת",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 35,
+      "he": "ויניחוהו: הכי גרסינן אמר רב פפא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 36,
+      "he": "מחלוקת מלמטה למעלה. מחלוקת",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 37,
+      "he": "דהנך תנאי דמר אמר עד לבו ומר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 38,
+      "he": "אמר עד חוטמו מלמטה למעלה",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 39,
+      "he": "שמוצאו דרך מרגלותיו תחלה ובודק",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 40,
+      "he": "והולך כלפי ראשו דמר אמר בלבו יש",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 41,
+      "he": "להבחין אם יש בו חיות שנשמתו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 42,
+      "he": "דופקת שם ומר אמר עד חוטמו",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 43,
+      "he": "דזימנין דאין חיות ניכר בלבו וניכר",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 44,
+      "he": "בחוטמו: גזי נזרך. ונזר הוא",
+      "en": "Rashi clarifies the ruling and its application.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 45,
+      "he": "שער הראש: אפילו תימא אבא שאול.",
+      "en": "Rashi glosses the term \"gozi\" (shear your hair): the nazir vow includes the hair of the head, which is the nazir crown. Rashi clarifies this is the term meaning the hair on top of the head.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 46,
+      "he": "נמי סבירא ליה עד חוטמו: ולוי",
+      "en": "Rashi clarifies: even Abba Shaul also holds that the decisive sign of life is breath at the nose (\"ad chutmo\"). And Levi - Rashi notes that the sequence of this teaching was not explained to him.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 47,
+      "he": "הסדר לא פורש לי מהו: ושפיכות",
+      "en": "Rashi glosses the phrase \"and the sequence was not explained to me as to what it is\": referring to Levi who said he had not been told the order of this passage. Rashi then glosses \"sfekhut damim\" (bloodshed): this is a grave sin.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 48,
+      "he": "דמים. שהותר לבעל בית לשפוך",
+      "en": "Rashi glosses \"she-hutar la-ba'al bayit lishpokh\" (the homeowner is permitted to shed the blood of the burglar): the Torah permits the homeowner to kill a burglar who breaks in, to protect himself from the danger to his life.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 49,
+      "he": "דמו של זה להצלת ספק נפשו עבירה",
+      "en": "Rashi glosses \"damo shel zeh lehatzalat safek nafsho\" (this one's blood for the sake of saving his own life which is in doubt): killing the burglar is permitted even though the threat to the homeowner is only doubtful, not certain. An aveira (transgression) is involved.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 50,
+      "he": "חמורה היא שמטמאת את הארץ",
+      "en": "Rashi glosses \"chamura hi she-metama'at et ha-aretz\" (it is a severe sin that defiles the land): bloodshed defiles the Land of Israel, as written in the Torah.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 51,
+      "he": "כדכתיב (במדבר לה) ולא תטמא את",
+      "en": "Rashi cites the verse: \"v'lo titame et ha-aretz\" (and do not defile the land) - referring to the section in Bamidbar (Numbers 35) about murderers. The prohibition against defiling the land through bloodshed is derived from this verse.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 52,
+      "he": "הארץ גבי פרשת רוצחין: וגורם",
+      "en": "Rashi glosses \"gabi parshat rotzchim\" (in the section about murderers, Numbers 35): the verse about not defiling the land appears in the passage dealing with homicide law.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 53,
+      "he": "לשכינה שתסתלק. כדכתיב (שם)",
+      "en": "Rashi glosses \"ve-gorem la-Shekhinah she-tistalek\" (and causes the Divine Presence to depart): bloodshed drives away the Shekhinah, as written in the verse.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 54,
+      "he": "אשר אני שוכן בתוכה הא אם תטמאו",
+      "en": "Rashi cites the verse: \"asher ani shokhein betokhah\" (in which I dwell within them) - implying that if they defile the land, God will no longer dwell there. This verse is written in the context of murder.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 55,
+      "he": "איני שוכן וגבי רוצח כתיב: מעם",
+      "en": "Rashi glosses \"me'im mizbachi\" (from My altar): if the murderer is a kohen who has come to perform the Temple service, he is removed from the altar for execution.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 56,
+      "he": "מזבחי. אם כהן הוא שבא לעבוד",
+      "en": "Rashi explains \"me'im mizbachi\" further: this applies when a kohen came to perform the Temple service (avoda).",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 57,
+      "he": "עבודה: ולא מעל מזבחי.  אם",
+      "en": "Rashi glosses \"ve-lo me'al mizbachi\" (but not from on top of My altar): if he has already begun the Temple service, he is not interrupted mid-service to be brought to judgment.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 58,
+      "he": "התחיל בעבודה אין מפסיק לבא",
+      "en": "Rashi explains: if the kohen-murderer has already begun the Temple service, we do not stop him mid-avoda to bring him to trial. He completes his service first.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 59,
+      "he": "לידון אלא משלים עבודתו:",
+      "en": "Rashi glosses \"ella mashlim avodato\" (but he completes his service): the murderer-kohen who is mid-service finishes performing the Temple service before being taken for execution.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    },
+    {
+      "vilnaLine": 60,
+      "he": "אבל",
+      "en": "Rashi glosses \"aval\" (but): this introduces the contrasting ruling that follows.",
+      "enSource": "ai_helper_translation",
+      "source": "talmud.dev",
+      "confidence": "helper",
+      "linkedGemaraLineIds": []
+    }
+  ],
+  "review": "draft"
+}
