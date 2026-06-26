@@ -19,8 +19,8 @@ const homeLinkPlugin = {
     build.onLoad({ filter: /app\.jsx$/ }, async (args) => {
       let contents = await readFile(args.path, 'utf8');
       if (resolve(args.path) === appPath) {
-        const from = `        <div className="brand">\n          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>\n          <span className="brand-name">My Sugya</span>\n        </div>`;
-        const to = `        <a className="brand" href="./" title="Back to index" aria-label="Back to index" style={{ color: "inherit", textDecoration: "none" }}>\n          <div className="brand-mark" aria-hidden="true"><span className="brand-mark-page brand-mark-page-left"></span><span className="brand-mark-page brand-mark-page-right"></span><span className="brand-mark-path"></span></div>\n          <span className="brand-name">My Sugya</span>\n        </a>`;
+        const from = `        <div className="brand">\n          <Logo className="brand-logo" />\n          <span className="brand-name">My Sugya</span>\n          <span className="brand-beta">BETA</span>\n        </div>`;
+        const to = `        <a className="brand" href="./" title="Back to index" aria-label="Back to index" style={{ color: "inherit", textDecoration: "none" }}>\n          <Logo className="brand-logo" />\n          <span className="brand-name">My Sugya</span>\n          <span className="brand-beta">BETA</span>\n        </a>`;
         contents = contents.replace(from, to);
       }
       return { contents, loader: 'jsx' };
