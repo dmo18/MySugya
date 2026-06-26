@@ -10,12 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    # Skip if this is a build-bot commit to avoid infinite loops
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -31,13 +27,14 @@ jobs:
       - name: Patch dist data version
         run: node scripts/patch-dist-version.mjs
 
-      - name: Commit production files to main
+      - name: Push production files to cloudways branch
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
+          rm -rf assets
           cp dist/index.html index.html
           cp -r dist/assets assets
-          git add index.html assets/
+          git add -f index.html assets/
           git diff --staged --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Build: production assets [skip ci]"
-          git push origin main
+          git commit -m "Build: production assets"
+          git push -f origin HEAD:refs/heads/cloudways
