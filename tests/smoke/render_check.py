@@ -76,6 +76,12 @@ def main() -> int:
         if "!window.matchMedia(\"(max-width: 720px)\").matches" not in bundle_js:
             raise AssertionError("Argument flow should default collapsed when the mobile media query matches")
 
+        # Rich text safety: linkifier must HTML-escape text nodes and use safe anchor attributes.
+        # These string literals survive minification and confirm the sanitizer is present in the bundle.
+        assert_contains(bundle_js, "&amp;", "HTML entity escaping of & in text nodes")
+        assert_contains(bundle_js, "&lt;", "HTML entity escaping of < in text nodes")
+        assert_contains(bundle_js, 'rel="noreferrer"', "safe rel attribute on generated anchors")
+
         print("OK: built pages render and key UI hooks are present")
         return 0
     except Exception as e:
