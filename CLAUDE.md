@@ -91,7 +91,7 @@ The sync script propagates the platform version to derived locations:
 - `package.json` version and `package-lock.json` - npm metadata only; kept in sync because npm expects them, not because they are authoritative
 - `index.html` cache busters
 - `manifest.js` `dataVersion`
-- `modules/yoma/learning_data.js` `DATA_VERSION` - note: DATA_VERSION is a data-layer version, not the canonical platform version; the two happen to share the same value today but are semantically separate
+- `modules/yoma/learning_data.js` `DATA_VERSION` - not updated by this script; data-layer version managed independently from platform version
 
 Do not hand-edit any of these derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
 
@@ -225,7 +225,7 @@ Use `--skip-existing` to resume a partial run.
 ## Do not do these things
 
 - Do not modify any file under `modules/yoma/` without explicit approval.
-- Do not hand-edit `modules/yoma/learning_data.js`; use `VERSION` plus `scripts/sync_version.py` for version-only changes, and rebuild for content changes.
+- Do not hand-edit `modules/yoma/learning_data.js`; rebuild for content changes.
 - Do not hand-edit `modules/yoma/assets/daftexts/*.txt`; regenerate them.
 - Do not bypass the pre-commit hook with `--no-verify`.
 - Do not add Tosafot or expand scope beyond current enrichment.
