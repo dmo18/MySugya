@@ -8,7 +8,7 @@
     "check:deploy-html": "node scripts/check-deploy-html.mjs",
     "test": "python3 tests/smoke/render_check.py",
     "test:browser": "npx playwright test",
-    "serve": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "serve": "npm run build && python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
     "validate:yoma": "cd modules/yoma && python3 scripts/validate_sefaria.py",
     "audit:yoma": "cd modules/yoma && python3 scripts/completeness_audit.py",
     "audit:order:yoma": "cd modules/yoma && python3 scripts/order_audit.py",
