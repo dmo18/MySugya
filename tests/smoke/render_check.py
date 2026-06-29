@@ -79,6 +79,9 @@ def main() -> int:
         # Build plugin guard: home-link plugin must have replaced the brand div with an anchor.
         assert_contains(bundle_js, 'href:"./"', "home-link anchor injected by build plugin")
 
+        # Module script safety guard: production bundle must reject unsafe dataScript paths.
+        assert_contains(bundle_js, "unsafe dataScript path", "module dataScript allowlist guard")
+
         # Rich text safety: linkifier must HTML-escape text nodes and use safe anchor attributes.
         # These string literals survive minification and confirm the sanitizer is present in the bundle.
         assert_contains(bundle_js, "&amp;", "HTML entity escaping of & in text nodes")
