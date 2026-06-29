@@ -83,6 +83,7 @@ def main() -> int:
         # These string literals survive minification and confirm the sanitizer is present in the bundle.
         assert_contains(bundle_js, "&amp;", "HTML entity escaping of & in text nodes")
         assert_contains(bundle_js, "&lt;", "HTML entity escaping of < in text nodes")
+        assert_contains(bundle_js, "&quot;", "HTML entity escaping of quotes in text nodes")
         assert_contains(bundle_js, 'rel="noreferrer"', "safe rel attribute on generated anchors")
 
         print("OK: built pages render and key UI hooks are present")
