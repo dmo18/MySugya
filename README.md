@@ -138,7 +138,7 @@ This propagates the platform version to derived locations:
 - `package.json` and `package-lock.json` - npm metadata, kept in sync because npm expects them, not authoritative
 - `index.html` cache busters
 - `manifest.js` `dataVersion`
-- `modules/yoma/learning_data.js` `DATA_VERSION` - data-layer version; shares the same value as the platform version but is semantically separate
+- `modules/yoma/learning_data.js` `DATA_VERSION` - data-layer version; managed independently, not updated by this script
 
 Do not hand-edit derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
 
