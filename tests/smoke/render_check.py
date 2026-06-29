@@ -86,6 +86,10 @@ def main() -> int:
         assert_contains(bundle_js, "&quot;", "HTML entity escaping of quotes in text nodes")
         assert_contains(bundle_js, 'rel="noreferrer"', "safe rel attribute on generated anchors")
 
+        # Module loading guards: dataScript validation and post-load globals check.
+        assert_contains(bundle_js, "missing a dataScript", "module descriptor validation guard")
+        assert_contains(bundle_js, "required globals are missing", "module globals validation guard")
+
         print("OK: built pages render and key UI hooks are present")
         return 0
     except Exception as e:

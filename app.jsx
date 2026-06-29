@@ -1646,18 +1646,25 @@ function genAmudim(first, last) {
 // Lazy-load a module's data script once; resolves when its globals are live.
 function loadModuleData(mod) {
   return new Promise((resolve, reject) => {
+    if (!mod || !mod.id || typeof mod.dataScript !== "string" || !mod.dataScript) {
+      reject(new Error("loadModuleData: invalid module descriptor"));
+      return;
+    }
     const sel = 'script[data-mod-data="' + mod.id + '"]';
     const existing = document.querySelector(sel);
     if (existing) {
       if (existing.getAttribute("data-loaded")) resolve();
-      else { existing.addEventListener("load", () => resolve()); existing.addEventListener("error", reject); }
+      else {
+        existing.addEventListener("load", () => resolve());
+        existing.addEventListener("error", () => reject(new Error("Module script failed to load: " + mod.dataScript)));
+      }
       return;
     }
     const s = document.createElement("script");
     s.src = mod.dataScript + "?v=" + (mod.dataVersion || "1");
     s.setAttribute("data-mod-data", mod.id);
     s.onload = () => { s.setAttribute("data-loaded", "1"); resolve(); };
-    s.onerror = reject;
+    s.onerror = () => reject(new Error("Module script failed to load: " + mod.dataScript));
     document.head.appendChild(s);
   });
 }
@@ -2113,7 +2120,7 @@ function LandingPage() {
   useEffect(() => {
     if (!firstMod) return;
     let alive = true;
-    const run = () => loadModuleData(firstMod).then(() => { if (alive) setData(readModuleGlobals()); }).catch(() => {});
+    const run = () => loadModuleData(firstMod).then(() => { if (alive) setData(readModuleGlobals()); }).catch((err) => { console.warn("[MySugya] preview load failed:", err && err.message || err); });
     const ric = window.requestIdleCallback;
     let h;
     if (ric) h = ric(run, { timeout: 2500 }); else h = setTimeout(run, 1200);
@@ -2340,6 +2347,14 @@ function LandingPage() {
     rootEl.render(<LandingPage/>);
   }
 
+  function showRootError(msg) {
+    const root = document.getElementById("root");
+    const p = document.createElement("p");
+    p.style.cssText = "padding:2rem;font-family:sans-serif;color:#c00";
+    p.textContent = msg;
+    root.replaceChildren(p);
+  }
+
   if (!moduleId) {
     renderLanding();
     return;
@@ -2352,20 +2367,25 @@ function LandingPage() {
     return;
   }
 
+  if (typeof mod.dataScript !== "string" || !mod.dataScript) {
+    showRootError("Module \"" + mod.id + "\" is missing a dataScript path.");
+    return;
+  }
+
   const s = document.createElement("script");
   s.src = mod.dataScript + "?v=" + (mod.dataVersion || "1");
   s.onload = function() {
+    if (typeof TRACTATE_META === "undefined" || typeof DAF_CONTENT === "undefined") {
+      showRootError("Module \"" + mod.id + "\" loaded but required globals are missing. Check " + mod.dataScript + ".");
+      return;
+    }
     initEnCache();
     initPerekByN();
     const rootEl = ReactDOM.createRoot(document.getElementById("root"));
     rootEl.render(<App/>);
   };
   s.onerror = function() {
-    const root = document.getElementById("root");
-    const p = document.createElement("p");
-    p.style.cssText = "padding:2rem;font-family:sans-serif;color:#c00";
-    p.textContent = "Failed to load module data: " + mod.dataScript;
-    root.replaceChildren(p);
+    showRootError("Failed to load module data: " + mod.dataScript);
   };
   document.head.appendChild(s);
 })();
