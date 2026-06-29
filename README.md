@@ -2,7 +2,7 @@
 
 A React-based web application for studying the Talmud with rich enrichment, literal translations, and Vilna edition reference markers.
 
-**Current Version:** 13.00  
+**Current Version:** see `VERSION`  
 **Status:** Production-ready app shell with frozen Yoma corpus
 
 ---
@@ -101,7 +101,7 @@ MySugya/
 ### Yoma
 
 - **Corpus Status:** Frozen baseline, do not modify learning content without explicit approval
-- **Current App Version:** 13.00
+- **Current App Version:** see `VERSION`
 - **Daf Range:** 2a-88a, 173 daf
 - **Sugyot:** 492
 - **Chapters:** 8
@@ -347,5 +347,4 @@ See `SOURCES.md` for complete attribution.
 
 ## Version History
 
-- **13.00** - Current
 - See git log for detailed change history
