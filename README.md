@@ -127,32 +127,20 @@ Do not hand-edit these files unless explicitly approved:
 
 ### Version Sync
 
-The canonical version is:
-
-```text
-VERSION
-```
-
-Current value:
-
-```text
-13.00
-```
-
-Run:
+`VERSION` is the only human-edited global platform version source. After editing it, run:
 
 ```bash
 python3 scripts/sync_version.py
 ```
 
-The sync script updates:
+This propagates the platform version to derived locations:
 
-- `modules/yoma/learning_data.js` `DATA_VERSION`
-- `VERSION`
-- `package.json`
-- `package-lock.json`
+- `package.json` and `package-lock.json` - npm metadata, kept in sync because npm expects them, not authoritative
 - `index.html` cache busters
 - `manifest.js` `dataVersion`
+- `modules/yoma/learning_data.js` `DATA_VERSION` - data-layer version; shares the same value as the platform version but is semantically separate
+
+Do not hand-edit derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
 
 ---
 

@@ -78,7 +78,7 @@ To add a new masechta:
 
 ## Version management
 
-`VERSION` is the canonical version source. Current version: 13.00.
+`VERSION` is the only human-edited global platform version source. Current version: 13.00.
 
 Run this after editing `VERSION`:
 
@@ -86,13 +86,14 @@ Run this after editing `VERSION`:
 python3 scripts/sync_version.py
 ```
 
-The sync script updates:
+The sync script propagates the platform version to derived locations:
 
-- `modules/yoma/learning_data.js` `DATA_VERSION`
-- `package.json` version
-- `package-lock.json` root package version
+- `package.json` version and `package-lock.json` - npm metadata only; kept in sync because npm expects them, not because they are authoritative
 - `index.html` cache busters
 - `manifest.js` `dataVersion`
+- `modules/yoma/learning_data.js` `DATA_VERSION` - note: DATA_VERSION is a data-layer version, not the canonical platform version; the two happen to share the same value today but are semantically separate
+
+Do not hand-edit any of these derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
 
 ---
 
