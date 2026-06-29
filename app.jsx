@@ -4,6 +4,11 @@
 
 const { useState, useEffect, useMemo, useRef, useCallback } = React;
 
+/* global __MYSUGYA_PLATFORM_VERSION__ */
+const PLATFORM_VERSION = typeof __MYSUGYA_PLATFORM_VERSION__ !== "undefined"
+  ? __MYSUGYA_PLATFORM_VERSION__
+  : (typeof DATA_VERSION !== "undefined" ? DATA_VERSION : "");
+
 // ----- localStorage helpers -----------------------------------------------
 const LS = {
   get(key, fallback) {
@@ -1253,7 +1258,7 @@ function App() {
       {tweaks.bottomDock && <BottomDock sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
 
       <footer className="app-footer">
-        <span>Version {DATA_VERSION}</span>
+        <span>Version {PLATFORM_VERSION}</span>
         <span className="footer-dedication" lang="he" dir="rtl">לרפואת יעקב בן דינה · לעילוי נשמת אהרן בן יהודה ואהרן בן יוסף</span>
       </footer>
       <MySugyaTweaksPanel tweaks={tweaks} setTweak={setTweak}/>
@@ -1264,7 +1269,6 @@ function App() {
 // =============================================================================
 // TWEAKS — defaults + panel
 // =============================================================================
-// DATA_VERSION from learning_data.js is the canonical version.
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "mode": "system",
@@ -2302,7 +2306,7 @@ function LandingPage() {
       <footer className="landing-footer">
         <div className="landing-footer-inner">
           <span className="footer-dedication" lang="he" dir="rtl">לרפואת יעקב בן דינה · לעילוי נשמת אהרן בן יהודה ואהרן בן יוסף</span>
-          <span className="lf-version">v{MYSUGYA_MANIFEST[0]?.dataVersion || ""}</span>
+          <span className="lf-version">v{PLATFORM_VERSION}</span>
         </div>
       </footer>
 
