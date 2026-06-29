@@ -348,10 +348,7 @@ function stripNekudot(s) {
   return s.replace(/[\u0591-\u05C7]/g, "");
 }
 
-function stripHtml(s) {
-  if (!s) return s;
-  return s.replace(/<[^>]+>/g, "");
-}
+function stripHtml(s) { return String(s || "").replace(/<[^>]+>/g, ""); }
 
 // =============================================================================
 // SEFARIA REFERENCE LINKER
@@ -1683,9 +1680,6 @@ function LivingDaf({ featured, mod }) {
 // ============================================================================
 // LANDING DATA — generic module-data loading + derivation (no Yoma specifics)
 // ============================================================================
-
-// Strip inline HTML (William Davidson <b> markup) for clean preview text.
-function stripHtml(s) { return String(s || "").replace(/<[^>]+>/g, ""); }
 
 // Generate the amud sequence (2a, 2b, 3a ...) from a module's daf range.
 function genAmudim(first, last) {
