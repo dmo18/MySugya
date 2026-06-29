@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync the platform version from VERSION to app/package metadata."""
+"""Sync the platform version from VERSION to npm package metadata."""
 import json
 import re
 import sys
@@ -27,19 +27,5 @@ if lock_path.exists():
     if isinstance(lock.get("packages"), dict) and "" in lock["packages"]:
         lock["packages"][""]["version"] = ver
     lock_path.write_text(json.dumps(lock, indent=2) + "\n")
-
-# index.html cache busters and visible platform footer label
-html_path = root / "index.html"
-html = html_path.read_text()
-html = re.sub(r'v=[0-9][0-9.]*', f'v={ver}', html)
-html = re.sub(r'content:\s*"Platform [^"]+"', f'content: "Platform {ver}"', html)
-html_path.write_text(html)
-
-# manifest.js platformVersion and module dataVersion
-manifest_path = root / "manifest.js"
-manifest = manifest_path.read_text()
-manifest = re.sub(r'platformVersion:\s*"[^"]+"', f'platformVersion: "{ver}"', manifest)
-manifest = re.sub(r'dataVersion:\s*"[^"]+"', f'dataVersion: "{ver}"', manifest)
-manifest_path.write_text(manifest)
 
 print(f"synced platform to v{ver}")

@@ -133,14 +133,13 @@ Do not hand-edit these files unless explicitly approved:
 python3 scripts/sync_version.py
 ```
 
-This propagates the platform version to derived locations:
+This propagates the platform version to:
 
-- `package.json` and `package-lock.json` - npm metadata, kept in sync because npm expects them, not authoritative
-- `index.html` cache busters
-- `manifest.js` `dataVersion`
-- `modules/yoma/learning_data.js` `DATA_VERSION` - data-layer version; managed independently, not updated by this script
+- `package.json` and `package-lock.json` - npm metadata only; not authoritative
 
-Do not hand-edit derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
+`index.html` cache busters and `manifest.js` `dataVersion` are no longer updated by this script. Cache busters are injected at build time by `scripts/build.mjs`. `manifest.js` `dataVersion` tracks the data layer and is managed independently.
+
+Do not hand-edit `package.json` or `package-lock.json` to change the version. Edit `VERSION`, then run `sync_version.py`.
 
 ---
 
