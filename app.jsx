@@ -945,6 +945,14 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
   const [q, setQ] = useState("");
   const [focusIdx, setFocusIdx] = useState(0);
   const inputRef = useRef(null);
+  const modalRef = useRef(null);
+  const prevFocusRef = useRef(null);
+
+  useEffect(() => {
+    if (!open) return;
+    prevFocusRef.current = document.activeElement;
+    return () => { prevFocusRef.current?.focus?.(); };
+  }, [open]);
 
   useEffect(() => {
     if (open) {
@@ -978,6 +986,17 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
       else if (e.key === "Enter") {
         const pick = filtered[focusIdx];
         if (pick) { onSelect(pick.id); onClose(); }
+      } else if (e.key === "Tab") {
+        const focusable = modalRef.current?.querySelectorAll(
+          'button:not([disabled]),input:not([disabled]),[tabindex]:not([tabindex="-1"])'
+        );
+        if (!focusable?.length) { e.preventDefault(); return; }
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
       }
     };
     window.addEventListener("keydown", onKey);
@@ -995,7 +1014,7 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
   let row = 0;
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal" role="dialog" aria-modal="true" aria-label="Jump to daf" onClick={e => e.stopPropagation()}>
+      <div ref={modalRef} className="modal" role="dialog" aria-modal="true" aria-label="Jump to daf" onClick={e => e.stopPropagation()}>
         <div className="modal-search">
           <Icons.Search/>
           <input
