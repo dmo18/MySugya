@@ -115,6 +115,8 @@ function SugyaTimeline({ sugyot, currentIdx }) {
             className={"tl-btn" + (i === currentIdx ? " is-active" : "")}
             onClick={() => document.getElementById(s.id)?.scrollIntoView({ behavior: "smooth" })}
             title={s.title}
+            aria-label={s.title}
+            aria-current={i === currentIdx ? "true" : undefined}
           >
             {vl != null && <span className="tl-vl">L{vl}</span>}
             <span className="tl-label">{s.title?.split(":")[0] ?? s.title}</span>
@@ -153,6 +155,8 @@ function BottomDock({ sugyot, currentIdx }) {
           className={"dock-btn" + (i === currentIdx ? " is-active" : "")}
           onClick={() => document.getElementById(s.id)?.scrollIntoView({ behavior: "smooth" })}
           title={s.title}
+          aria-label={s.title}
+          aria-current={i === currentIdx ? "true" : undefined}
         >
           <span className="dock-num">{i + 1}</span>
           <span className="dock-label">{s.title?.split(":")[0] ?? s.title}</span>
@@ -1149,26 +1153,12 @@ function App() {
     return () => { window.removeEventListener("scroll", onScroll); clearTimeout(timer); };
   }, [currentDaf]);
 
-  // Theme + accent + font sizes applied to <html>
+  // Font sizes applied to <html>; mode/accent are locked to Mist+Gold via html attributes.
   useEffect(() => {
     const root = document.documentElement;
-    const mql = window.matchMedia?.('(prefers-color-scheme: dark)');
-    const lightModes = new Set(["light", "mist", "sepia"]);
-    const apply = () => {
-      const resolved = tweaks.mode === "system"
-        ? (mql?.matches ? "dark" : "mist")
-        : tweaks.mode;
-      root.setAttribute("data-mode", resolved);
-      root.setAttribute("data-accent", accentToToken(tweaks.accent));
-      root.style.setProperty("--fs-hebrew",  tweaks.fontSizeHe + "rem");
-      root.style.setProperty("--fs-english", tweaks.fontSizeEn + "rem");
-      const meta = document.querySelector('meta[name="color-scheme"]');
-      if (meta) meta.content = lightModes.has(resolved) ? "light" : "dark";
-    };
-    apply();
-    if (tweaks.mode === "system") mql?.addEventListener('change', apply);
-    return () => mql?.removeEventListener('change', apply);
-  }, [tweaks.mode, tweaks.accent, tweaks.fontSizeHe, tweaks.fontSizeEn]);
+    root.style.setProperty("--fs-hebrew",  tweaks.fontSizeHe + "rem");
+    root.style.setProperty("--fs-english", tweaks.fontSizeEn + "rem");
+  }, [tweaks.fontSizeHe, tweaks.fontSizeEn]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -1243,7 +1233,7 @@ function App() {
         isBookmarked={isBookmarked}
         onBookmark={toggleBookmark}
         onJump={() => setJumpOpen(true)}
-        onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, '*')}
+        onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, window.location.origin)}
         scrollPct={scrollPct}
         showGaugeBar={tweaks.gaugeBar}
       />
@@ -1291,8 +1281,6 @@ function App() {
 // =============================================================================
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "mode": "system",
-  "accent": "#06b6d4",
   "fontSizeHe": 1.4,
   "fontSizeEn": 1.0,
   "nekudot": true,
@@ -1305,52 +1293,10 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "bottomDock": false,
 }/*EDITMODE-END*/;
 
-function accentToToken(hex) {
-  if (!hex) return "gold";
-  return ACCENT_BY_HEX[String(hex).toLowerCase()] || "gold";
-}
-
-const ACCENT_BY_HEX = {
-  "#a37a2c": "gold",
-  "#7a2a2a": "oxblood",
-  "#1f3c66": "navy",
-  "#2e4a36": "ink-green",
-  "#0ea5e9": "sky",
-  "#8b5cf6": "violet",
-  "#f43f5e": "rose",
-  "#14b8a6": "teal",
-  "#06b6d4": "cyan",
-  "#22c55e": "lime",
-  "#f59e0b": "amber",
-  "#6366f1": "indigo",
-};
-
 function MySugyaTweaksPanel({ tweaks, setTweak }) {
   const reset = () => setTweak(TWEAK_DEFAULTS);
   return (
     <TweaksPanel title={TRACTATE_META.title + " · Tweaks"}>
-      <TweakSection label="Theme">
-        <TweakRadio
-          label="Mode"
-          value={tweaks.mode}
-          options={[
-            { value: "system", label: "System" },
-            { value: "mist", label: "Mist" },
-            { value: "light", label: "Light" },
-            { value: "sepia", label: "Sepia" },
-            { value: "night", label: "Night" },
-            { value: "dark",  label: "Dark"  },
-          ]}
-          onChange={v => setTweak("mode", v)}
-        />
-        <TweakColor
-          label="Accent"
-          value={tweaks.accent}
-          options={["#a37a2c", "#7a2a2a", "#1f3c66", "#2e4a36"]}
-          onChange={v => setTweak("accent", v)}
-        />
-      </TweakSection>
-
       <TweakSection label="Typography">
         <TweakSlider
           label="Hebrew size"

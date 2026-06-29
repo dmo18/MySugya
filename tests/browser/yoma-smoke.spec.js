@@ -34,12 +34,14 @@ test.describe('Yoma daf smoke test', () => {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
     expect(overflow).toBe(false);
 
+    // Design is locked to Mist; a stale dark-mode localStorage entry must not override it.
     await page.addInitScript(() => {
       localStorage.setItem('mysugya:tweaks', JSON.stringify({ mode: 'dark' }));
     });
     await page.goto(DAF_2A);
-    const learnPanelBackground = await page.locator('.learn-panel').first().evaluate(el => getComputedStyle(el).backgroundColor);
-    expect(learnPanelBackground).not.toBe('rgb(255, 255, 255)');
-    expect(learnPanelBackground).not.toBe('rgb(250, 247, 238)');
+    const dataMode = await page.evaluate(() => document.documentElement.getAttribute('data-mode'));
+    expect(dataMode).toBe('mist');
+    const dataAccent = await page.evaluate(() => document.documentElement.getAttribute('data-accent'));
+    expect(dataAccent).toBe('gold');
   });
 });
