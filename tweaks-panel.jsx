@@ -229,7 +229,7 @@ function TweaksPanel({ title = 'Tweaks', noDeckControls = false, children }) {
   React.useEffect(() => {
     if (!hasDeckStage || railEnabled) return undefined;
     const onMsg = (e) => {
-      if (e.data && e.data.type === '__omelette_rail_enabled') setRailEnabled(true);
+      if ((e.source === window || e.source === window.parent) && e.data && e.data.type === '__omelette_rail_enabled') setRailEnabled(true);
     };
     window.addEventListener('message', onMsg);
     return () => window.removeEventListener('message', onMsg);
@@ -272,6 +272,7 @@ function TweaksPanel({ title = 'Tweaks', noDeckControls = false, children }) {
 
   React.useEffect(() => {
     const onMsg = (e) => {
+      if (e.source !== window.parent) return;
       const t = e?.data?.type;
       if (t === '__activate_edit_mode') setOpen(true);
       else if (t === '__deactivate_edit_mode') setOpen(false);
