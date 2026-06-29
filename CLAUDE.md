@@ -44,7 +44,6 @@ MySugya/
     build.mjs                   Production esbuild pipeline
     build-entry.jsx             Build entry ordering
     check-deploy-html.mjs       Dist HTML safety check
-    patch-dist-version.mjs      Temporary deploy artifact version patcher
     sync_version.py             Version sync from VERSION
     build/react-shim.js         React injection for esbuild
   shared/
@@ -95,8 +94,6 @@ The sync script updates:
 - `index.html` cache busters
 - `manifest.js` `dataVersion`
 
-The deploy workflow still runs `scripts/patch-dist-version.mjs` after build as a temporary safety step. That script reads `VERSION` and patches the copied `dist/modules/yoma/learning_data.js` artifact.
-
 ---
 
 ## Build and deployment
@@ -110,7 +107,6 @@ Key commands:
 ```bash
 python3 scripts/sync_version.py
 npm run build
-node scripts/patch-dist-version.mjs
 npm run check:deploy-html
 npm test
 npm run test:browser

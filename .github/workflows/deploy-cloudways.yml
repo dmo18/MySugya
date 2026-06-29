@@ -24,9 +24,6 @@ jobs:
       - name: Build production site
         run: npm run build
 
-      - name: Patch dist data version
-        run: node scripts/patch-dist-version.mjs
-
       - name: Push production files to cloudways branch
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
