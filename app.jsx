@@ -128,16 +128,18 @@ function SugyaTimeline({ sugyot, currentIdx }) {
 function SugyaPipDots({ sugyot, currentIdx }) {
   if (!sugyot?.length) return null;
   return (
-    <div className="pip-dots" aria-hidden="true">
+    <nav className="pip-dots" aria-label="Sugya navigation">
       {sugyot.map((s, i) => (
         <button
           key={s.id}
           className={"pip-dot" + (i <= currentIdx ? " reached" : "") + (i === currentIdx ? " current" : "")}
           onClick={() => document.getElementById(s.id)?.scrollIntoView({ behavior: "smooth" })}
           title={s.title}
+          aria-label={s.title}
+          aria-current={i === currentIdx ? "true" : undefined}
         />
       ))}
-    </div>
+    </nav>
   );
 }
 
@@ -244,9 +246,10 @@ function ProgressRail({ currentDaf, bookmarks, completed, onSelect }) {
               isDone && "is-completed",
               isRich && "is-rich",
             ].filter(Boolean).join(" ");
+            const label = [d.id, isDone && "completed", isBm && "bookmarked", isRich && "rich content"].filter(Boolean).join(", ");
             return (
-              <button key={d.id} className={cls} onClick={() => onSelect(d.id)}>
-                <span className="rail-tip">{d.id}{isRich ? " · rich" : ""}</span>
+              <button key={d.id} className={cls} onClick={() => onSelect(d.id)} aria-label={label} aria-current={isActive ? "true" : undefined}>
+                <span className="rail-tip" aria-hidden="true">{d.id}{isRich ? " · rich" : ""}</span>
               </button>
             );
           })}
@@ -992,7 +995,7 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
   let row = 0;
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal" onClick={e => e.stopPropagation()}>
+      <div className="modal" role="dialog" aria-modal="true" aria-label="Jump to daf" onClick={e => e.stopPropagation()}>
         <div className="modal-search">
           <Icons.Search/>
           <input
@@ -1000,6 +1003,7 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
             value={q}
             onChange={e => { setQ(e.target.value); setFocusIdx(0); }}
             placeholder="Jump to daf — type number, topic, or 'rich'…"
+            aria-label="Search daf by number, topic, or content type"
           />
           <span className="esc">esc</span>
         </div>
