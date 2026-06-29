@@ -169,7 +169,7 @@ const LINE_TAGS = {
 // =============================================================================
 // CHROME — top bar with daf navigator & actions
 // =============================================================================
-function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, onTweaks, scrollPct, showGaugeBar }) {
+function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, onBookmark, onJump, scrollPct, showGaugeBar }) {
   return (
     <header className="chrome">
       <div className="chrome-inner">
@@ -204,9 +204,6 @@ function Chrome({ daf, perek, hasPrev, hasNext, onPrev, onNext, isBookmarked, on
             aria-label={isBookmarked ? "Remove bookmark" : "Bookmark this daf"}
           >
             {isBookmarked ? <Icons.BookmarkFilled/> : <Icons.Bookmark/>}
-          </button>
-          <button className="icon-btn" onClick={onTweaks} title="Open Tweaks" aria-label="Open tweaks settings">
-            <Icons.Settings/>
           </button>
         </div>
 
@@ -1074,10 +1071,6 @@ function App() {
   const [bookmarks, setBookmarks]   = useState(() => LS.get(TRACTATE_META.id + ":bookmarks", []));
   const [completed, setCompleted]   = useState(() => LS.get(TRACTATE_META.id + ":completed", []));
 
-  // Tweaks (persisted by TweaksPanel via __edit_mode_set_keys)
-  // mysugya:tweaks is universal; fall back to yoma:tweaks once for existing users
-  const [tweaks, setTweak] = useTweaks({ ...TWEAK_DEFAULTS, ...LS.get("mysugya:tweaks", LS.get("yoma:tweaks", {})) });
-
   // Jump modal
   const [jumpOpen, setJumpOpen] = useState(false);
 
@@ -1103,7 +1096,6 @@ function App() {
 
   // localStorage syncs
   useEffect(() => { LS.set(TRACTATE_META.id + ":lastDaf", currentDaf); syncUrlDaf(currentDaf); }, [currentDaf]);
-  useEffect(() => { LS.set("mysugya:tweaks", tweaks); }, [tweaks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":bookmarks", bookmarks); }, [bookmarks]);
   useEffect(() => { LS.set(TRACTATE_META.id + ":completed", completed); }, [completed]);
 
@@ -1121,27 +1113,6 @@ function App() {
     window.addEventListener("scroll", onScroll);
     return () => { window.removeEventListener("scroll", onScroll); clearTimeout(timer); };
   }, [currentDaf]);
-
-  // Theme + accent + font sizes applied to <html>
-  useEffect(() => {
-    const root = document.documentElement;
-    const mql = window.matchMedia?.('(prefers-color-scheme: dark)');
-    const lightModes = new Set(["light", "mist", "sepia"]);
-    const apply = () => {
-      const resolved = tweaks.mode === "system"
-        ? (mql?.matches ? "dark" : "mist")
-        : tweaks.mode;
-      root.setAttribute("data-mode", resolved);
-      root.setAttribute("data-accent", accentToToken(tweaks.accent));
-      root.style.setProperty("--fs-hebrew",  tweaks.fontSizeHe + "rem");
-      root.style.setProperty("--fs-english", tweaks.fontSizeEn + "rem");
-      const meta = document.querySelector('meta[name="color-scheme"]');
-      if (meta) meta.content = lightModes.has(resolved) ? "light" : "dark";
-    };
-    apply();
-    if (tweaks.mode === "system") mql?.addEventListener('change', apply);
-    return () => mql?.removeEventListener('change', apply);
-  }, [tweaks.mode, tweaks.accent, tweaks.fontSizeHe, tweaks.fontSizeEn]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -1200,9 +1171,9 @@ function App() {
   const renderedSugyot = useMemo(() => {
     if (!content?.sugyot) return null;
     return content.sugyot.map((s, i) => (
-      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
+      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={DISPLAY_SETTINGS} rashiMap={rashiMap}/>
     ));
-  }, [content?.sugyot, rashiMap, tweaks]);
+  }, [content?.sugyot, rashiMap]);
 
   return (
     <div className="app">
@@ -1216,12 +1187,9 @@ function App() {
         isBookmarked={isBookmarked}
         onBookmark={toggleBookmark}
         onJump={() => setJumpOpen(true)}
-        onTweaks={() => window.postMessage({ type: '__activate_edit_mode' }, '*')}
         scrollPct={scrollPct}
-        showGaugeBar={tweaks.gaugeBar}
+        showGaugeBar={false}
       />
-
-      {tweaks.timeline && <SugyaTimeline sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
 
       <main className="daf" key={currentDaf}>
         {entry?.status === "title" ? (
@@ -1247,124 +1215,25 @@ function App() {
         onSelect={onSelect}
       />
 
-      {tweaks.pipDots && <SugyaPipDots sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
-      {tweaks.bottomDock && <BottomDock sugyot={content?.sugyot} currentIdx={currentSugyaIdx}/>}
-
       <footer className="app-footer">
         <span>Version {DATA_VERSION}</span>
         <span className="footer-dedication" lang="he" dir="rtl">לרפואת יעקב בן דינה · לעילוי נשמת אהרן בן יהודה ואהרן בן יוסף</span>
       </footer>
-      <MySugyaTweaksPanel tweaks={tweaks} setTweak={setTweak}/>
     </div>
   );
 }
 
 // =============================================================================
-// TWEAKS — defaults + panel
+// DISPLAY SETTINGS — fixed defaults, no UI to change them
 // =============================================================================
-// DATA_VERSION from learning_data.js is the canonical version.
 
-const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "mode": "system",
-  "accent": "#06b6d4",
-  "fontSizeHe": 1.4,
-  "fontSizeEn": 1.0,
-  "nekudot": true,
-  "showEnglish": true,
-  "boldLiteral": true,
-  "vilnaLines": true,
-  "gaugeBar": false,
-  "timeline": false,
-  "pipDots": false,
-  "bottomDock": false,
-}/*EDITMODE-END*/;
-
-function accentToToken(hex) {
-  if (!hex) return "gold";
-  return ACCENT_BY_HEX[String(hex).toLowerCase()] || "gold";
-}
-
-const ACCENT_BY_HEX = {
-  "#a37a2c": "gold",
-  "#7a2a2a": "oxblood",
-  "#1f3c66": "navy",
-  "#2e4a36": "ink-green",
-  "#0ea5e9": "sky",
-  "#8b5cf6": "violet",
-  "#f43f5e": "rose",
-  "#14b8a6": "teal",
-  "#06b6d4": "cyan",
-  "#22c55e": "lime",
-  "#f59e0b": "amber",
-  "#6366f1": "indigo",
+const DISPLAY_SETTINGS = {
+  showEnglish: true,
+  boldLiteral: true,
+  nekudot: true,
+  vilnaLines: true,
+  nusach: "ashkenaz",
 };
-
-function MySugyaTweaksPanel({ tweaks, setTweak }) {
-  const reset = () => setTweak(TWEAK_DEFAULTS);
-  return (
-    <TweaksPanel title={TRACTATE_META.title + " · Tweaks"}>
-      <TweakSection label="Theme">
-        <TweakRadio
-          label="Mode"
-          value={tweaks.mode}
-          options={[
-            { value: "system", label: "System" },
-            { value: "mist", label: "Mist" },
-            { value: "light", label: "Light" },
-            { value: "sepia", label: "Sepia" },
-            { value: "night", label: "Night" },
-            { value: "dark",  label: "Dark"  },
-          ]}
-          onChange={v => setTweak("mode", v)}
-        />
-        <TweakColor
-          label="Accent"
-          value={tweaks.accent}
-          options={["#a37a2c", "#7a2a2a", "#1f3c66", "#2e4a36"]}
-          onChange={v => setTweak("accent", v)}
-        />
-      </TweakSection>
-
-      <TweakSection label="Typography">
-        <TweakSlider
-          label="Hebrew size"
-          value={tweaks.fontSizeHe}
-          min={1.0} max={2.0} step={0.05} unit="rem"
-          onChange={v => setTweak("fontSizeHe", v)}
-        />
-        <TweakSlider
-          label="English size"
-          value={tweaks.fontSizeEn}
-          min={0.85} max={1.3} step={0.025} unit="rem"
-          onChange={v => setTweak("fontSizeEn", v)}
-        />
-      </TweakSection>
-
-      <TweakSection label="Reading aids">
-        <TweakToggle label="English (elucidated)" value={tweaks.showEnglish} onChange={v => setTweak("showEnglish", v)}/>
-        {tweaks.showEnglish && (
-          <TweakToggle label="Bold literal text" value={tweaks.boldLiteral} onChange={v => setTweak("boldLiteral", v)}/>
-        )}
-        <TweakToggle label="Nekudot (vowel marks)" value={tweaks.nekudot} onChange={v => setTweak("nekudot", v)}/>
-        <TweakToggle label="Vilna line numbers" value={tweaks.vilnaLines} onChange={v => setTweak("vilnaLines", v)}/>
-      </TweakSection>
-
-      <TweakSection label="Position indicators">
-        <TweakToggle label="Gauge bar" value={tweaks.gaugeBar} onChange={v => setTweak("gaugeBar", v)}/>
-        <TweakToggle label="Timeline strip" value={tweaks.timeline} onChange={v => setTweak("timeline", v)}/>
-        <TweakToggle label="Pip dots" value={tweaks.pipDots} onChange={v => setTweak("pipDots", v)}/>
-        <TweakToggle label="Bottom dock" value={tweaks.bottomDock} onChange={v => setTweak("bottomDock", v)}/>
-      </TweakSection>
-
-      <TweakSection label="Reset">
-        <button className="twk-btn secondary" style={{width:"100%"}} onClick={reset}>
-          Reset all to defaults
-        </button>
-      </TweakSection>
-
-    </TweaksPanel>
-  );
-}
 
 // =============================================================================
 // LANDING PAGE — shown when no ?module= param is present

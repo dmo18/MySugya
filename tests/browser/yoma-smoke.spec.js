@@ -12,7 +12,7 @@ function collectPageErrors(page) {
 }
 
 test.describe('Yoma daf smoke test', () => {
-  test('renders daf 2a content, Rashi, previous navigation, mobile layout, and dark mode', async ({ page }) => {
+  test('renders daf 2a content, Rashi, previous navigation, and mobile layout', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
     await page.goto(DAF_2A);
@@ -33,13 +33,5 @@ test.describe('Yoma daf smoke test', () => {
     await expect(page.locator('.sugya').first()).toBeVisible();
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
     expect(overflow).toBe(false);
-
-    await page.addInitScript(() => {
-      localStorage.setItem('mysugya:tweaks', JSON.stringify({ mode: 'dark' }));
-    });
-    await page.goto(DAF_2A);
-    const learnPanelBackground = await page.locator('.learn-panel').first().evaluate(el => getComputedStyle(el).backgroundColor);
-    expect(learnPanelBackground).not.toBe('rgb(255, 255, 255)');
-    expect(learnPanelBackground).not.toBe('rgb(250, 247, 238)');
   });
 });
