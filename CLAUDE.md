@@ -86,14 +86,13 @@ Run this after editing `VERSION`:
 python3 scripts/sync_version.py
 ```
 
-The sync script propagates the platform version to derived locations:
+The sync script propagates the platform version to:
 
-- `package.json` version and `package-lock.json` - npm metadata only; kept in sync because npm expects them, not because they are authoritative
-- `index.html` cache busters
-- `manifest.js` `dataVersion`
-- `modules/yoma/learning_data.js` `DATA_VERSION` - not updated by this script; data-layer version managed independently from platform version
+- `package.json` version and `package-lock.json` - npm metadata only; kept in sync because npm expects them, not authoritative
 
-Do not hand-edit any of these derived files to change the version. Edit `VERSION`, then run `sync_version.py`.
+`index.html` cache busters are injected at build time by `scripts/build.mjs`, not by this script. `manifest.js` `dataVersion` and `modules/yoma/learning_data.js` `DATA_VERSION` are data-layer versions managed independently from the platform version.
+
+Do not hand-edit `package.json` or `package-lock.json` to change the version. Edit `VERSION`, then run `sync_version.py`.
 
 ---
 

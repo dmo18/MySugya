@@ -50,12 +50,12 @@ await cp(join(root, 'modules'), join(dist, 'modules'), { recursive: true });
 
 let html = await readFile(join(root, 'index.html'), 'utf8');
 html = html
-  .replace(/manifest\.js\?v=[^"]+/g, `manifest.js?v=${version}`)
+  .replace(/manifest\.js(?:\?v=[^"]*)?/g, `manifest.js?v=${version}`)
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/react[^\n]+<\/script>/g, '')
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/react-dom[^\n]+<\/script>/g, '')
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/@babel[^\n]+<\/script>/g, '')
-  .replace(/\n\s*<script type="text\/babel" src="tweaks-panel\.jsx\?v=[^"]+"><\/script>/g, '')
-  .replace(/\n\s*<script type="text\/babel" src="app\.jsx\?v=[^"]+"><\/script>/g, `\n  <script src="${bundleName}"></script>`);
+  .replace(/\n\s*<script type="text\/babel" src="tweaks-panel\.jsx(?:\?v=[^"]+)?"><\/script>/g, '')
+  .replace(/\n\s*<script type="text\/babel" src="app\.jsx(?:\?v=[^"]+)?"><\/script>/g, `\n  <script src="${bundleName}"></script>`);
 
 await writeFile(join(dist, 'index.html'), html);
 console.log(`Built static site in dist/ with ${bundleName}`);
