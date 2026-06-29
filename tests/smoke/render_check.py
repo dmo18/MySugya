@@ -76,6 +76,9 @@ def main() -> int:
         if "!window.matchMedia(\"(max-width: 720px)\").matches" not in bundle_js:
             raise AssertionError("Argument flow should default collapsed when the mobile media query matches")
 
+        # Build plugin guard: home-link plugin must have replaced the brand div with an anchor.
+        assert_contains(bundle_js, 'href:"./"', "home-link anchor injected by build plugin")
+
         # Rich text safety: linkifier must HTML-escape text nodes and use safe anchor attributes.
         # These string literals survive minification and confirm the sanitizer is present in the bundle.
         assert_contains(bundle_js, "&amp;", "HTML entity escaping of & in text nodes")

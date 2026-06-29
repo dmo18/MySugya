@@ -19,9 +19,16 @@ const homeLinkPlugin = {
     build.onLoad({ filter: /app\.jsx$/ }, async (args) => {
       let contents = await readFile(args.path, 'utf8');
       if (resolve(args.path) === appPath) {
-        const from = `        <div className="brand">\n          <Logo className="brand-logo" />\n          <span className="brand-name">My Sugya</span>\n          <span className="brand-beta">BETA</span>\n        </div>`;
-        const to = `        <a className="brand" href="./" title="Back to index" aria-label="Back to index" style={{ color: "inherit", textDecoration: "none" }}>\n          <Logo className="brand-logo" />\n          <span className="brand-name">My Sugya</span>\n          <span className="brand-beta">BETA</span>\n        </a>`;
-        contents = contents.replace(from, to);
+        const before = contents;
+        // Replace only the first brand div (Chrome component) with a home-link anchor.
+        // LandingPage has an identical div that intentionally stays as a div.
+        contents = contents.replace(
+          /<div className="brand">([\s\S]*?)<\/div>/,
+          (_, inner) => `<a className="brand" href="./" title="Back to index" aria-label="Back to index" style={{ color: "inherit", textDecoration: "none" }}>${inner}</a>`
+        );
+        if (contents === before) {
+          throw new Error('homeLinkPlugin: brand div not found in app.jsx - check for source drift');
+        }
       }
       return { contents, loader: 'jsx' };
     });

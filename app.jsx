@@ -2374,9 +2374,11 @@ function LandingPage() {
     rootEl.render(<App/>);
   };
   s.onerror = function() {
-    document.getElementById("root").innerHTML =
-      '<p style="padding:2rem;font-family:sans-serif;color:#c00">Failed to load module data: ' +
-      mod.dataScript + '</p>';
+    const root = document.getElementById("root");
+    const p = document.createElement("p");
+    p.style.cssText = "padding:2rem;font-family:sans-serif;color:#c00";
+    p.textContent = "Failed to load module data: " + mod.dataScript;
+    root.replaceChildren(p);
   };
   document.head.appendChild(s);
 })();
