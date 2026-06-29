@@ -1,6 +1,6 @@
 # MySugya - Claude maintainer guide
 
-MySugya is a universal React Talmud study app. Tractates are loaded as self-contained modules. Yoma is the first module and its learning corpus is frozen. The current app version is 13.00.
+MySugya is a universal React Talmud study app. Tractates are loaded as self-contained modules. Yoma is the first module and its learning corpus is frozen. The current platform version is in `VERSION`.
 
 Yoma scope: 173 daf, 492 sugyot. The `en_lit:` layer stores literal translation data for Yoma.
 
@@ -78,7 +78,7 @@ To add a new masechta:
 
 ## Version management
 
-`VERSION` is the only human-edited global platform version source. Current version: 13.00.
+`VERSION` is the only human-edited global platform version source. Current platform version: see `VERSION`.
 
 Run this after editing `VERSION`:
 
