@@ -40,6 +40,7 @@ await build({
   target: ['es2019'],
   logLevel: 'info',
   plugins: [homeLinkPlugin],
+  define: { '__MYSUGYA_PLATFORM_VERSION__': JSON.stringify(version) },
 });
 
 for (const file of ['styles.css', 'favicon.svg', 'manifest.js', 'daf.html']) {
