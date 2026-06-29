@@ -415,7 +415,7 @@ function linkifyEn(raw) {
 }
 
 function escHtml(s) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
 // Pre-process all en: fields once at startup into a Map<raw, linkedHtml>
@@ -1755,6 +1755,8 @@ function CommandBar({ open, onClose }) {
   const [q, setQ] = useState("");
   const [sel, setSel] = useState(0);
   const inputRef = useRef(null);
+  const panelRef = useRef(null);
+  const prevFocusRef = useRef(null);
 
   const entries = useMemo(() => {
     const list = [];
@@ -1779,18 +1781,36 @@ function CommandBar({ open, onClose }) {
   useEffect(() => { setSel(0); }, [q]);
   useEffect(() => { if (open && inputRef.current) inputRef.current.focus(); }, [open]);
 
+  useEffect(() => {
+    if (!open) return;
+    prevFocusRef.current = document.activeElement;
+    return () => { prevFocusRef.current?.focus?.(); };
+  }, [open]);
+
   const go = (e) => { if (e) window.location.href = "?module=" + e.mod.id + "&daf=" + e.daf; };
   const onKey = (ev) => {
     if (ev.key === "Escape") { onClose(); }
     else if (ev.key === "ArrowDown") { ev.preventDefault(); setSel(s => Math.min(results.length - 1, s + 1)); }
     else if (ev.key === "ArrowUp") { ev.preventDefault(); setSel(s => Math.max(0, s - 1)); }
     else if (ev.key === "Enter") { ev.preventDefault(); go(results[sel]); }
+    else if (ev.key === "Tab") {
+      const focusable = panelRef.current?.querySelectorAll(
+        'button:not([disabled]),input:not([disabled]),[tabindex]:not([tabindex="-1"])'
+      );
+      if (!focusable?.length) { ev.preventDefault(); return; }
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (ev.shiftKey) {
+        if (document.activeElement === first) { ev.preventDefault(); last.focus(); }
+      } else {
+        if (document.activeElement === last) { ev.preventDefault(); first.focus(); }
+      }
+    }
   };
 
   if (!open) return null;
   return (
     <div className="cmd-overlay" onClick={onClose}>
-      <div className="cmd-panel" onClick={e => e.stopPropagation()} role="dialog" aria-label="Jump to a daf">
+      <div ref={panelRef} className="cmd-panel" onClick={e => e.stopPropagation()} role="dialog" aria-label="Jump to a daf">
         <div className="cmd-input-row">
           <span className="cmd-icon" aria-hidden="true">⌕</span>
           <input
@@ -2074,16 +2094,37 @@ function TractateCard({ mod }) {
 
 // ----- Help overlay: how to use the app + beta status ---------------------
 function HelpOverlay({ open, onClose }) {
+  const panelRef = useRef(null);
+  const prevFocusRef = useRef(null);
+
   useEffect(() => {
     if (!open) return;
-    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    prevFocusRef.current = document.activeElement;
+    const onKey = (e) => {
+      if (e.key === "Escape") { onClose(); return; }
+      if (e.key === "Tab") {
+        const focusable = panelRef.current?.querySelectorAll(
+          'button:not([disabled]),input:not([disabled]),[tabindex]:not([tabindex="-1"])'
+        );
+        if (!focusable?.length) { e.preventDefault(); return; }
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      }
+    };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      prevFocusRef.current?.focus?.();
+    };
   }, [open, onClose]);
   if (!open) return null;
   return (
     <div className="help-overlay" onClick={onClose}>
-      <div className="help-panel" onClick={e => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="How to use My Sugya">
+      <div ref={panelRef} className="help-panel" onClick={e => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="How to use My Sugya">
         <div className="help-head">
           <h2 className="help-title">How to use My Sugya</h2>
           <button type="button" className="help-close" onClick={onClose} aria-label="Close help">×</button>
