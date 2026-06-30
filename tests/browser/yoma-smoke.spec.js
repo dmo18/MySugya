@@ -3,6 +3,7 @@ import { test, expect } from '@playwright/test';
 const DAF_2A = '/index.html?module=yoma&daf=2a';
 const DAF_19B = '/index.html?module=yoma&daf=19b';
 const DAF_23A = '/index.html?module=yoma&daf=23a';
+const DAF_24A = '/index.html?module=yoma&daf=24a';
 
 function collectPageErrors(page) {
   const errors = [];
@@ -48,11 +49,11 @@ test.describe('Yoma daf smoke test', () => {
   });
 });
 
-test.describe('Yoma legacy-schema fallback (daf 23a)', () => {
+test.describe('Yoma legacy-schema fallback (daf 24a)', () => {
   test('renders non-blank sugya titles and fallback learning content', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
-    await page.goto(DAF_23A);
+    await page.goto(DAF_24A);
     await expect(page.locator('.sugya')).toHaveCount(3);
 
     const titles = await page.locator('.sugya-title').allTextContents();
@@ -61,7 +62,7 @@ test.describe('Yoma legacy-schema fallback (daf 23a)', () => {
       expect(title.trim().length).toBeGreaterThan(0);
     }
 
-    // 23a predates the canonical display/learning schema, so titles must come
+    // 24a predates the canonical display/learning schema, so titles must come
     // from the fallback derivation, not display.title.
     await expect(page.locator('.sugya-title-fallback')).toHaveCount(3);
 
@@ -75,8 +76,8 @@ test.describe('Yoma legacy-schema fallback (daf 23a)', () => {
   });
 });
 
-test.describe('Yoma backfilled schema (daf 19b)', () => {
-  test('renders canonical sugya titles and learning content with no fallback markup', async ({ page }) => {
+test.describe('Yoma backfilled schema (daf 19b, daf 23a)', () => {
+  test('daf 19b renders canonical sugya titles and learning content with no fallback markup', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
     await page.goto(DAF_19B);
@@ -89,6 +90,26 @@ test.describe('Yoma backfilled schema (daf 19b)', () => {
     }
 
     // 19b was backfilled with the canonical display/learning schema, so it must
+    // no longer fall through to the legacy fallback rendering path.
+    await expect(page.locator('.sugya-title-fallback')).toHaveCount(0);
+    await expect(page.locator('.desktop-understanding .learn-panel-fallback')).toHaveCount(0);
+
+    expect(pageErrors).toEqual([]);
+  });
+
+  test('daf 23a renders canonical sugya titles and learning content with no fallback markup', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+
+    await page.goto(DAF_23A);
+    await expect(page.locator('.sugya')).toHaveCount(3);
+
+    const titles = await page.locator('.sugya-title').allTextContents();
+    expect(titles).toHaveLength(3);
+    for (const title of titles) {
+      expect(title.trim().length).toBeGreaterThan(0);
+    }
+
+    // 23a was backfilled with the canonical display/learning schema, so it must
     // no longer fall through to the legacy fallback rendering path.
     await expect(page.locator('.sugya-title-fallback')).toHaveCount(0);
     await expect(page.locator('.desktop-understanding .learn-panel-fallback')).toHaveCount(0);
