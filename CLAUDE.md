@@ -51,8 +51,9 @@ MySugya/
   githooks/
     pre-commit                  Version sync plus smoke tests
   tests/
-    smoke/render_check.py       Production build smoke test
-    browser/yoma-smoke.spec.js  Playwright Yoma browser smoke test
+    smoke/render_check.py               Production build smoke test
+    browser/yoma-smoke.spec.js          Playwright Yoma browser smoke test
+    browser/runtime-guards.spec.js      Playwright runtime guard smoke test
   docs/
     vilna-breaks.md             Vilna edition reference
   modules/
@@ -64,6 +65,12 @@ MySugya/
 ## Module system
 
 `manifest.js` exports `MYSUGYA_MANIFEST`, an array of module descriptors. The app reads the `?module=` URL param, defaulting to the first manifest entry, and dynamically loads the corresponding `dataScript`.
+
+`dataScript` paths are allowlisted at build time (`scripts/build.mjs` validates every manifest entry) and at runtime (`isAllowedModuleDataScript` in `app.jsx`). Both enforce the pattern `modules/<id>/learning_data.js` with a lowercase alphanumeric id. A non-conforming path fails the build. A runtime attempt to load a non-conforming path is rejected before any script element is created.
+
+After a module script loads, the app verifies that all four required globals (`TRACTATE_META`, `PERAKIM`, `DAF_INDEX`, `DAF_CONTENT`) are defined and that `TRACTATE_META.id` is present before calling `initEnCache`, `initPerekByN`, or mounting React. Missing or malformed data shows a plain-text error rather than crashing.
+
+If `?module=` is unknown or absent the app renders the landing page. If `?daf=` is not found in `DAF_INDEX` the app falls back to the last-visited daf or the first daf. Both paths are error-free.
 
 Each module's `learning_data.js` exports the standard globals: `TRACTATE_META`, `PERAKIM`, `DAF_INDEX`, `DAF_CONTENT`, and `DATA_VERSION`.
 
@@ -90,7 +97,7 @@ The sync script propagates the platform version to:
 
 - `package.json` version and `package-lock.json` - npm metadata only; kept in sync because npm expects them, not authoritative
 
-`index.html` cache busters are injected at build time by `scripts/build.mjs`, not by this script. `manifest.js` `dataVersion` and `modules/yoma/learning_data.js` `DATA_VERSION` are data-layer versions managed independently from the platform version.
+`index.html` cache busters are injected at build time by `scripts/build.mjs`, not by this script. `manifest.js` `dataVersion` and `modules/yoma/learning_data.js` `DATA_VERSION` are data-layer versions managed independently from the platform version. They are not required to match the platform version in `VERSION`.
 
 Do not hand-edit `package.json` or `package-lock.json` to change the version. Edit `VERSION`, then run `sync_version.py`.
 
@@ -124,6 +131,8 @@ npm run test:browser
 
 GitHub Pages deployment lives at `.github/workflows/deploy-pages.yml`. It runs on pull requests, pushes to `main`, and manual dispatch. On pushes to `main`, it uploads and deploys `dist/` to GitHub Pages after build and tests pass.
 
+The workflow uses minimal permissions. The top-level `permissions: contents: read` applies to all jobs by default. The deploy job adds only `pages: write`, `id-token: write`, and `deployments: write` for the GitHub Pages OIDC deploy step. The upload artifact step uses `name: github-pages` and the deploy step uses `artifact_name: github-pages` to match the Pages infrastructure requirement.
+
 ---
 
 ## Required tests
@@ -134,7 +143,7 @@ GitHub Pages deployment lives at `.github/workflows/deploy-pages.yml`. It runs o
 npm test
 ```
 
-This builds `dist/`, serves it locally, checks the production bundle, verifies the legacy redirect, confirms built HTML does not contain dev-only loaders, and checks responsive CSS guardrails.
+This builds `dist/`, serves it locally, checks the production bundle, verifies the legacy redirect, confirms built HTML does not contain dev-only loaders, checks responsive CSS guardrails, validates `manifest.js` structure (required fields, non-empty `dataVersion`), and asserts that key runtime guard strings survive minification in the bundle (dataScript allowlist guard, module descriptor validation, globals check, HTML-entity escaping, safe anchor attributes).
 
 ### Browser smoke test
 
@@ -142,7 +151,10 @@ This builds `dist/`, serves it locally, checks the production bundle, verifies t
 npm run test:browser
 ```
 
-This Playwright test covers Yoma 2a rendering, Rashi, previous navigation, mobile overflow, and dark mode.
+Two Playwright specs run:
+
+- `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi display, previous navigation, mobile overflow, dark mode.
+- `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback to landing, invalid daf fallback to first daf, clipboard rejection caught without crash.
 
 ### Yoma validation gates
 

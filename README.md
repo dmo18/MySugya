@@ -84,8 +84,9 @@ MySugya/
       assets/                   Frozen enrichment and layout data
       scripts/                  Build and validation tools
   tests/
-    smoke/render_check.py       Production build smoke test
-    browser/yoma-smoke.spec.js  Playwright browser smoke test
+    smoke/render_check.py               Production build smoke test
+    browser/yoma-smoke.spec.js          Playwright Yoma browser smoke test
+    browser/runtime-guards.spec.js      Playwright runtime guard smoke test
   githooks/
     pre-commit                  Version sync plus smoke tests
   shared/
@@ -137,7 +138,7 @@ This propagates the platform version to:
 
 - `package.json` and `package-lock.json` - npm metadata only; not authoritative
 
-`index.html` cache busters and `manifest.js` `dataVersion` are no longer updated by this script. Cache busters are injected at build time by `scripts/build.mjs`. `manifest.js` `dataVersion` tracks the data layer and is managed independently.
+`index.html` cache busters and `manifest.js` `dataVersion` are no longer updated by this script. Cache busters are injected at build time by `scripts/build.mjs`. `manifest.js` `dataVersion` tracks the data layer and is managed independently. It is not required to match the platform version in `VERSION`.
 
 Do not hand-edit `package.json` or `package-lock.json` to change the version. Edit `VERSION`, then run `sync_version.py`.
 
@@ -151,7 +152,7 @@ Do not hand-edit `package.json` or `package-lock.json` to change the version. Ed
 npm test
 ```
 
-This builds `dist/`, serves it locally, verifies the production bundle, checks that built HTML does not contain development-only Babel or React loaders, checks the legacy redirect, and checks responsive CSS guardrails.
+This builds `dist/`, serves it locally, verifies the production bundle, checks that built HTML does not contain development-only Babel or React loaders, checks the legacy redirect, checks responsive CSS guardrails, validates `manifest.js` structure (required fields including non-empty `dataVersion`), and asserts that runtime guard strings survive minification in the bundle (dataScript allowlist, module descriptor validation, globals check, HTML-entity escaping, safe anchor attributes).
 
 ### Browser Smoke Test
 
@@ -159,7 +160,10 @@ This builds `dist/`, serves it locally, verifies the production bundle, checks t
 npm run test:browser
 ```
 
-This runs the Playwright Yoma smoke test against built `dist/` and covers Yoma 2a rendering, Rashi, navigation, mobile overflow, and dark mode.
+Two Playwright specs run against built `dist/`:
+
+- `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi, navigation, mobile overflow, dark mode.
+- `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback, invalid daf fallback, clipboard rejection handled silently.
 
 ### Deploy HTML Check
 
@@ -210,6 +214,8 @@ This repository includes a GitHub Actions workflow at `.github/workflows/deploy-
 6. Runs `npm test`.
 7. Runs `npm run test:browser`.
 8. On pushes to `main`, uploads and deploys only `dist/` to GitHub Pages.
+
+The workflow uses minimal permissions. Top-level `permissions: contents: read` is the default for all jobs. The deploy job uses only `pages: write`, `id-token: write`, and `deployments: write` so the OIDC Pages deploy can proceed. The Pages artifact is uploaded under `name: github-pages` and deployed with `artifact_name: github-pages`.
 
 ### Manual Hosting
 
