@@ -337,14 +337,21 @@
         "Yoma.28a.11"
       ],
       "display": {
+        "title": "Complete service without a lottery: Rava settles wood arrangement, then dawn opens Yom Kippur",
         "whats": "The wood-arrangement debate concludes: the two-log placement is a complete service requiring priesthood. Then the Mishna opens: dawn is announced, the High Priest descends to his first immersion of Yom Kippur morning.",
         "hint": "The wood-arrangement debate ends with Rava's position that two-log placement counts as a complete service. The Yom Kippur narrative then begins in earnest."
       },
       "learning": {
-        "summary": "Rava objects to the revised version of R. Yochanan's ruling: if two-log placement is a complete service (avodah temimah), it should require its own lottery - but it doesn't. Rava's actual position is clarified: the two-log placement IS complete service and therefore requires priestly status, meaning a non-priest doing it is both punished and invalidates the service. The Gemara then transitions to the Mishna: the appointed Temple official sends priests to check if dawn has broken. Once dawn is confirmed, the High Priest descends to the Hall of Parva for his first of five Yom Kippur immersions.",
-        "ahaMoment": "The wood-arrangement debate was actually preparing for the Yom Kippur narrative: understanding which services are 'complete' (requiring priests) becomes critical as the High Priest's unique Yom Kippur service begins.",
-        "memoryAnchor": "Two logs on the altar = complete priestly service. Then: first immersion begins the Yom Kippur avodah.",
-        "openQuestion": "Why does the Yom Kippur service begin with a dawn check? What would happen if the night-before preparations accidentally continued past dawn without anyone noticing?"
+        "learnerQuestion": "Why does Rava insist that two-log placement is full priestly service even though it does not require its own lottery like other complete services, and why does the Yom Kippur day itself only begin once dawn is independently confirmed rather than at a fixed hour?",
+        "coreTension": "If two-log placement is truly 'complete service' like every other complete service that requires priesthood, it should also need its own lottery to assign priests the way other complete services do - yet it does not, which seems to undercut Rava's classification.",
+        "coreMove": "Rava resolves this by clarifying his own position: two-log placement is complete service for the purpose of the death-penalty and validity rule, while the lottery requirement is governed by a separate consideration that does not apply here. With the wood-arrangement debate now settled, the Gemara pivots to the Mishna that opens the Yom Kippur day: the appointed official sends priests to check whether dawn has broken, and only once dawn is confirmed does the High Priest descend for his first of five immersions.",
+        "takeaway": {
+          "type": "halachic_distinction",
+          "text": "Being classified as 'complete service' for one halakhic purpose, such as the death penalty and validity, does not automatically carry every other consequence usually associated with complete services, such as requiring a lottery - each consequence rests on its own textual basis."
+        },
+        "ahaMoment": "The wood-arrangement debate was not a digression - it was establishing exactly which acts count as full priestly service, a distinction the Yom Kippur narrative immediately puts to use as the High Priest's unique service begins.",
+        "learningBlocker": "The Gemara does not explain here why the lottery requirement and the complete-service classification come apart for two-log placement specifically - Rava's resolution settles that they do, but not the deeper reason this one service is treated differently from other complete services for lottery purposes.",
+        "memoryAnchor": "Two logs on the fire = complete service, but no lottery needed. Then: dawn confirmed = first immersion begins the Yom Kippur day."
       },
       "argumentFlow": [
         {
@@ -425,8 +432,14 @@
         "five immersions and ten sanctifications"
       ],
       "misconceptions": [
-        "The two-log placement can be done by a non-priest since it doesn't require a lottery - Rava establishes it IS complete priestly service.",
-        "The Yom Kippur service can begin at any time of night - it requires dawn confirmation first."
+        {
+          "misconception": "The two-log placement can be done by a non-priest since it doesn't require a lottery.",
+          "correction": "Rava establishes it IS complete priestly service for the death-penalty and validity rule, even though it does not require its own lottery."
+        },
+        {
+          "misconception": "The Yom Kippur service can begin at any time of night.",
+          "correction": "It requires dawn confirmation first - the appointed official sends priests to verify dawn has broken before the avodah begins."
+        }
       ],
       "relatedSugyot": [
         "yoma-027b-s02",
@@ -446,12 +459,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is Rava's position on whether two-log placement counts as 'complete Temple service'?",
-          "a": "Rava holds that placing the two logs on the altar fire IS complete Temple service - a non-priest doing it is both punished and the service is invalidated."
+          "question": "What is Rava's position on whether two-log placement counts as 'complete Temple service'?",
+          "answer": "Rava holds that placing the two logs on the altar fire IS complete Temple service - a non-priest doing it is both punished and the service is invalidated."
         },
         {
-          "q": "What is the first step in the Yom Kippur morning service according to the Mishna?",
-          "a": "The appointed official sends priests out to check if dawn has broken. Only after dawn is confirmed does the Yom Kippur avodah begin."
+          "question": "What is the first step in the Yom Kippur morning service according to the Mishna?",
+          "answer": "The appointed official sends priests out to check if dawn has broken. Only after dawn is confirmed does the Yom Kippur avodah begin."
         }
       ],
       "finalRuling": "Two-log placement is complete priestly service. The Yom Kippur avodah begins at dawn with the High Priest's first immersion.",

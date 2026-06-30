@@ -377,14 +377,21 @@
         "Yoma.30b.12"
       ],
       "display": {
+        "title": "Two consequences, one dispute: does skipping immersion invalidate the avodah?",
         "whats": "The practical stakes of the Ben Zoma vs R. Yehuda debate: does skipping the pre-service immersion disqualify the Temple service? The leper case tests R. Yehuda's position. Multiple baraitot are reconciled.",
         "hint": "Ben Zoma: biblical obligation = service disqualified if skipped. R. Yehuda: rabbinic precaution = service valid, but priest violated a positive commandment."
       },
       "learning": {
-        "summary": "The Gemara now determines what flows practically from the Ben Zoma vs R. Yehuda dispute. If the immersion is biblical (Ben Zoma), skipping it should disqualify the Temple service. If it is rabbinic (R. Yehuda), the service remains valid but the priest violated an obligation. The Gemara brings a baraita about the healed leper (metzora) who immerses the previous evening - R. Yehuda's view seems to require lepers to immerse in the morning too, contradicting the baraita. Multiple resolution attempts are made. Abaye asks Rav Yosef whether the Rabbis (who disagree with R. Yehuda) might actually require two separate immersions in some edge cases.",
+        "learnerQuestion": "If a priest skips the pre-service immersion, does that actually disqualify the Temple service, or is something less severe at stake?",
+        "coreTension": "The Ben Zoma/Rabbi Yehuda dispute from the previous daf is not merely theoretical: if the immersion is biblically mandated (Ben Zoma), skipping it should disqualify the Temple service entirely; if it is only a rabbinic precaution (Rabbi Yehuda), the service remains valid even though the priest has failed to fulfill a positive commandment. The Gemara then tests Rabbi Yehuda's position against a baraita about the healed leper (metzora), who immerses the evening before his purification day - a case that initially seems to require a further morning immersion under Rabbi Yehuda's logic, contradicting the baraita's silence on that point.",
+        "coreMove": "The Gemara resolves the apparent contradiction by treating the leper's case as distinct: the leper's evening immersion is its own established preparation, exempting him from immersing again the next morning. Ravina articulates this reconciliation. The sugya closes with Abaye putting a related question to Rav Yosef: do the Rabbis who disagree with Rabbi Yehuda actually require two separate immersions in certain edge cases?",
+        "takeaway": {
+          "type": "halachic_distinction",
+          "text": "Whether an obligation is biblical or rabbinic is not just a label - it directly decides whether skipping it spoils the entire act (Ben Zoma) or only leaves a separate violation on the books while the service itself stands (Rabbi Yehuda)."
+        },
         "ahaMoment": "The entire practical force of the dispute hinges on one question: does a purely procedural (non-purificatory) immersion, if skipped, affect the validity of Temple service? Ben Zoma says yes (it's biblical), R. Yehuda says no (it's procedural).",
-        "memoryAnchor": "Ben Zoma = skip immersion, service invalid. R. Yehuda = skip immersion, service valid but you've violated a positive commandment.",
-        "openQuestion": "If a priest is in a rush and enters the Temple for service without the pre-service immersion, and R. Yehuda is right (service is valid), should that priest continue the service or stop immediately?"
+        "learningBlocker": "The sugya ends with Abaye's question to Rav Yosef about whether the Rabbis require two immersions in some cases, without recording an answer - and even Rabbi Yehuda's 'service remains valid' position does not address whether a priest who realizes mid-service that he skipped immersion should stop or continue.",
+        "memoryAnchor": "Ben Zoma = skip immersion, service invalid. R. Yehuda = skip immersion, service valid but you've violated a positive commandment."
       },
       "argumentFlow": [
         {
@@ -487,8 +494,14 @@
         "Ben Zoma vs R. Yehuda dispute from 30a"
       ],
       "misconceptions": [
-        "The practical consequence of the Ben Zoma/R. Yehuda dispute is minor - it determines whether skipping the immersion actually invalidates the Temple service, a highly significant question.",
-        "All opinions agree that missing the pre-service immersion disqualifies the avodah - R. Yehuda holds the service remains valid."
+        {
+          "misconception": "The practical consequence of the Ben Zoma/R. Yehuda dispute is minor.",
+          "correction": "It determines whether skipping the immersion actually invalidates the Temple service, a highly significant question."
+        },
+        {
+          "misconception": "All opinions agree that missing the pre-service immersion disqualifies the avodah.",
+          "correction": "R. Yehuda holds the service remains valid."
+        }
       ],
       "relatedSugyot": [
         "yoma-030a-s02",
@@ -508,12 +521,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "According to Ben Zoma, what is the consequence if a priest enters Temple service without the pre-service immersion?",
-          "a": "The Temple service is disqualified (pasul) - since the immersion is biblically mandated, skipping it invalidates the avodah."
+          "question": "According to Ben Zoma, what is the consequence if a priest enters Temple service without the pre-service immersion?",
+          "answer": "The Temple service is disqualified (pasul) - since the immersion is biblically mandated, skipping it invalidates the avodah."
         },
         {
-          "q": "According to Rabbi Yehuda, what is the consequence if a priest skips the pre-service immersion?",
-          "a": "The Temple service remains valid (not disqualified), but the priest has violated a positive commandment by failing to perform the required immersion."
+          "question": "According to Rabbi Yehuda, what is the consequence if a priest skips the pre-service immersion?",
+          "answer": "The Temple service remains valid (not disqualified), but the priest has violated a positive commandment by failing to perform the required immersion."
         }
       ],
       "finalRuling": "Disputed: Ben Zoma rules the service is invalid if immersion is skipped; R. Yehuda rules the service is valid but the priest has violated a positive commandment.",

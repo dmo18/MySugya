@@ -357,14 +357,22 @@
         "Yoma.29b.7"
       ],
       "display": {
+        "title": "On hold, not invalid: replacing a nighttime kometz",
         "whats": "Can the nighttime kometz of a meal-offering be replaced by a new daytime handful? Rabbi Zeira objects from baraita principles. Rava acknowledges both sides have valid points. The page concludes with Temple hygiene protocol.",
         "hint": "The nighttime kometz question hinges on whether a 'disqualified' offering that can theoretically become valid (once day breaks) is in the same category as an offering whose time has permanently passed."
       },
       "learning": {
-        "summary": "The father of Rabbi Avin raised a question: if a kometz was removed at night (when offerings cannot be burned), can a new kometz be taken during the day to replace it? Rabbi Zeira objects from a baraita: any offering whose time has not yet arrived cannot be disqualified by improper intent - which implies a nighttime kometz is in an intermediate state. The practical ruling: leave the offering until daytime, then take a new kometz. Rava acknowledges that both Rabbi Zeira's objection and the father of Rabbi Avin's principle are valid. The page ends with the Temple's protocol for priests who need to relieve themselves ('covering one's legs') - they step away from service.",
+        "learnerQuestion": "If a kometz is removed at night, when offerings cannot be burned, is it permanently disqualified, or can a fresh handful simply be taken once day breaks?",
+        "coreTension": "The father of Rabbi Avin raises the question of whether a nighttime kometz can be replaced by a new daytime handful. Rabbi Zeira objects from a baraita: an offering whose proper time has not yet arrived cannot be disqualified by improper intent - implying that a nighttime kometz occupies a protected, intermediate status rather than being simply discardable and replaceable at will.",
+        "coreMove": "Rava resolves the tension not by picking a side but by affirming both: Rabbi Zeira's objection is well-founded and the father of Rabbi Avin's principle is also well-founded, each describing a different layer of the same status. The practical instruction follows from this: leave the kometz in place without burning it until day breaks, then take a new kometz at the proper time. The page closes with the Mishna's related Temple protocol - any priest who needs to relieve himself must step away from the service area first.",
+        "resolution": "The practical ruling is to leave the kometz in place overnight without burning it, and take a new kometz once day breaks - the nighttime kometz is treated as suspended rather than disqualified.",
+        "takeaway": {
+          "type": "halachic_distinction",
+          "text": "An offering whose proper time simply hasn't arrived yet is not the same halachic category as one that is actually disqualified - the nighttime kometz waits for its moment rather than being thrown out."
+        },
         "ahaMoment": "The nighttime kometz is neither 'valid' nor 'permanently invalid' - it is in a waiting state, and this temporal ambiguity drives the entire halachic analysis.",
-        "memoryAnchor": "Nighttime kometz = on hold. Wait for day, then take a fresh handful. Don't discard - but don't burn at night either.",
-        "openQuestion": "If the kometz can be replaced in the morning, is the second kometz a continuation of the same offering or an entirely new act of removal?"
+        "learningBlocker": "The sugya does not say whether the second, daytime kometz is a continuation of the same offering or counts as an entirely new act of removal - it settles the practical outcome (wait, then take a fresh handful) without addressing that conceptual question.",
+        "memoryAnchor": "Nighttime kometz = on hold. Wait for day, then take a fresh handful. Don't discard - but don't burn at night either."
       },
       "argumentFlow": [
         {
@@ -455,8 +463,14 @@
         "nighttime Temple service rule"
       ],
       "misconceptions": [
-        "A kometz removed at night is permanently invalid and must be discarded - it is actually in a waiting state and can be followed by a valid daytime kometz.",
-        "The baraita about 'offerings not yet ready' applies only to future-timed offerings - the Gemara applies it to nighttime offerings that will become valid at dawn."
+        {
+          "misconception": "A kometz removed at night is permanently invalid and must be discarded.",
+          "correction": "It is actually in a waiting state and can be followed by a valid daytime kometz."
+        },
+        {
+          "misconception": "The baraita about 'offerings not yet ready' applies only to future-timed offerings.",
+          "correction": "The Gemara applies it to nighttime offerings that will become valid at dawn."
+        }
       ],
       "relatedSugyot": [
         "yoma-029a-s02",
@@ -476,12 +490,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the ruling if a priest takes the kometz from a meal-offering at night?",
-          "a": "The offering is left in place; the priest waits until daytime and takes a new, valid kometz then."
+          "question": "What is the ruling if a priest takes the kometz from a meal-offering at night?",
+          "answer": "The offering is left in place; the priest waits until daytime and takes a new, valid kometz then."
         },
         {
-          "q": "What does the Temple protocol require of a priest who needs to relieve himself?",
-          "a": "The priest must leave the Temple service area before relieving himself ('covering his legs')."
+          "question": "What does the Temple protocol require of a priest who needs to relieve himself?",
+          "answer": "The priest must leave the Temple service area before relieving himself ('covering his legs')."
         }
       ],
       "finalRuling": "A nighttime kometz is not permanently disqualified - a new daytime kometz may be taken. Priests must leave service to relieve themselves.",

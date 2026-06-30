@@ -366,14 +366,22 @@
         "Yoma.29a.6"
       ],
       "display": {
+        "title": "Esther as the morning star: the last universal miracle before dawn",
         "whats": "Three aggadic maxims about things worse than their counterparts (sinful thought, winter fever, morning star). Rabbi Abbahu: Esther = the morning star, the last great miracle of the Jewish people before the 'dawn' of messianic redemption.",
         "hint": "The morning star discussion (apropos the dawn theme of the previous page) spirals into a meditation on Esther and the nature of Jewish history's last miracle before full redemption."
       },
       "learning": {
-        "summary": "Three memorable aggadic maxims: (1) Sinful thoughts are worse than the sin itself, like the smell of meat which drives hunger more than the taste. (2) Fever in winter is more dangerous than in summer, like heating a cold oven. (3) The morning star's light (netz hachama) is more intense than moonlight. From the third maxim, R. Abbahu derives that Psalm 22 - 'For the choirmaster, on the morning star' - was said by Esther about herself: she was the morning star, the last miracle performed for the Jewish people. The Gemara then asks: wasn't Hanukkah later? Answer: Purim was the last miracle for ALL Jews everywhere, while Hanukkah was for those in Eretz Yisrael only.",
+        "learnerQuestion": "Why does the Gemara's discussion of dawn light lead into a teaching that Esther is the 'morning star,' and what does it mean to call her miracle the last one?",
+        "coreTension": "The Gemara strings together three maxims about an intensified version outdoing its counterpart - sinful thought over the sin, winter fever over summer fever, and the morning star's light over moonlight - then uses the third maxim to launch R. Abbahu's claim that Psalm 22 was Esther's own words about herself as the 'morning star,' the last miracle performed for the Jewish people. That claim is immediately challenged: Hanukkah came after Purim, so how can Purim be the last miracle?",
+        "coreMove": "The Gemara resolves the challenge by distinguishing scope rather than chronology: Purim was the last miracle performed for all Jews everywhere, while Hanukkah, though later, benefited only the Jews living in Eretz Yisrael. Purim therefore retains its status as the final universal miracle even though Hanukkah followed it in time.",
+        "resolution": "Purim is identified as the last miracle performed for the Jewish people universally; Hanukkah, though later, was a local miracle limited to Eretz Yisrael, so it does not displace Purim's status as the final universal miracle.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Esther as the 'morning star' is not just a poetic flourish - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was being read as the last great redemption before the eventual messianic dawn."
+        },
         "ahaMoment": "Esther as the 'morning star' is not just a poetic comparison - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was the last great redemption before the eventual messianic dawn.",
-        "memoryAnchor": "Esther = morning star = last darkness before dawn. The pattern: most intense right before the end.",
-        "openQuestion": "If Purim is the 'last miracle' for all Jews, does the Gemara hold that no miracle will occur for all Jews until the messianic era? Where does the Holocaust or the founding of the State of Israel fit?"
+        "learningBlocker": "The Gemara does not explain whether 'last miracle for all Jews' is meant as a closed historical claim or simply describes Purim's status up to that point - it asserts the universal/local distinction to answer the Hanukkah challenge without addressing whether a future universal miracle could occur.",
+        "memoryAnchor": "Esther = morning star = last darkness before dawn. The pattern: most intense right before the end."
       },
       "argumentFlow": [
         {
@@ -462,8 +470,14 @@
         "Hanukkah vs Purim historical order"
       ],
       "misconceptions": [
-        "Hanukkah is the last miracle because it occurred after Purim - Purim is the last UNIVERSAL miracle (affecting all Jews); Hanukkah was local (only Eretz Yisrael).",
-        "The morning star comparison to Esther is just poetry - the Gemara uses it to make a precise historical claim about Esther's place in Jewish history."
+        {
+          "misconception": "Hanukkah is the last miracle because it occurred after Purim.",
+          "correction": "Purim is the last universal miracle (affecting all Jews); Hanukkah was local (only Eretz Yisrael)."
+        },
+        {
+          "misconception": "The morning star comparison to Esther is just poetry.",
+          "correction": "The Gemara uses it to make a precise historical claim about Esther's place in Jewish history."
+        }
       ],
       "relatedSugyot": [
         "yoma-028b-s01",
@@ -483,12 +497,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara reconcile the claim that Esther's miracle was the last with the fact that Hanukkah came after?",
-          "a": "Purim was the last miracle for ALL Jews everywhere; Hanukkah was only for Jews in Eretz Yisrael. Purim is therefore the last universal Jewish miracle."
+          "question": "How does the Gemara reconcile the claim that Esther's miracle was the last with the fact that Hanukkah came after?",
+          "answer": "Purim was the last miracle for ALL Jews everywhere; Hanukkah was only for Jews in Eretz Yisrael. Purim is therefore the last universal Jewish miracle."
         },
         {
-          "q": "What is the mnemonic the Gemara gives for why sinful thoughts are worse than the sin itself?",
-          "a": "The smell of meat drives the appetite more intensely than the taste - the mental stimulus (sinful thought) is more powerful than the act."
+          "question": "What is the mnemonic the Gemara gives for why sinful thoughts are worse than the sin itself?",
+          "answer": "The smell of meat drives the appetite more intensely than the taste - the mental stimulus (sinful thought) is more powerful than the act."
         }
       ],
       "finalRuling": "Aggadic teachings: sinful thoughts are more spiritually damaging than the act itself; Esther's miracle (Purim) was the last universal miracle for all Jews.",
@@ -523,14 +537,22 @@
         "Yoma.29a.9"
       ],
       "display": {
+        "title": "No repair after dawn: the tamid's premature-slaughter ruling",
         "whats": "The mishna returns to the confusion incident: they slaughtered the tamid before dawn. The ruling: the incident occurred during the rest of the year (not Yom Kippur). The father of Rabbi Avin teaches: a daily offering slaughtered before dawn is invalid.",
         "hint": "Premature slaughter before dawn disqualifies the tamid - the daytime requirement for slaughter is absolute."
       },
       "learning": {
-        "summary": "The mishna refers back to the confusion incident when the tamid was prematurely slaughtered. The Gemara clarifies: this occurred during the rest of the year (a regular weekday), not on Yom Kippur specifically. The father of Rabbi Avin teaches a key principle: any daily offering (tamid) slaughtered before dawn is invalid. The daytime requirement for slaughter cannot be waived even accidentally.",
-        "ahaMoment": "The incident's halachic consequence is clear and absolute: pre-dawn slaughter = invalid offering. There is no retroactive validation, no repair - the animal was sent to pasture and a new offering brought.",
-        "memoryAnchor": "Before dawn + slaughter = invalid tamid. No exceptions, no retroactive fix.",
-        "openQuestion": "If a tamid is accidentally slaughtered before dawn and discovered immediately, could another animal be slaughtered as a replacement, or does the error disqualify the entire day's morning service?"
+        "learnerQuestion": "What is the actual halachic consequence when the tamid is mistakenly slaughtered before dawn, and is there any way to fix it after the fact?",
+        "coreTension": "The mishna raises the confusion incident again and asks for its ruling, but before stating the rule the Gemara first needs to pin down when the incident happened, since a Yom Kippur context could carry different stakes than an ordinary weekday.",
+        "coreMove": "The Gemara clarifies that the incident occurred during the rest of the year, not on Yom Kippur, and the father of Rabbi Avin then states the underlying principle directly: a daily offering slaughtered before dawn is invalid, because the daytime requirement for slaughter is absolute and admits no after-the-fact exception.",
+        "resolution": "The halacha is settled: a tamid slaughtered before dawn is invalid, full stop - the daytime requirement admits no retroactive validation even for an honest mistake.",
+        "takeaway": {
+          "type": "halachic_distinction",
+          "text": "Dawn functions as a hard halachic threshold, not a guideline - service performed even slightly before it is invalid regardless of intent, with no after-the-fact remedy."
+        },
+        "ahaMoment": "The incident's halachic consequence is clear and absolute: pre-dawn slaughter equals an invalid offering. There is no retroactive validation, no repair.",
+        "learningBlocker": "The sugya does not say whether, once the premature slaughter was discovered, another animal could be slaughtered immediately as a replacement, or whether the error disqualified the rest of that day's morning service.",
+        "memoryAnchor": "Before dawn + slaughter = invalid tamid. No exceptions, no retroactive fix."
       },
       "argumentFlow": [
         {
@@ -588,8 +610,14 @@
         "daytime requirement for slaughter"
       ],
       "misconceptions": [
-        "An accidentally premature tamid can be validated retroactively - pre-dawn slaughter is an absolute invalidation with no repair.",
-        "The confusion incident happened on Yom Kippur - the Gemara clarifies it occurred on a regular weekday."
+        {
+          "misconception": "An accidentally premature tamid can be validated retroactively.",
+          "correction": "Pre-dawn slaughter is an absolute invalidation with no repair."
+        },
+        {
+          "misconception": "The confusion incident happened on Yom Kippur.",
+          "correction": "The Gemara clarifies it occurred on a regular weekday."
+        }
       ],
       "relatedSugyot": [
         "yoma-028b-s04",
@@ -604,12 +632,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the ruling when the tamid is accidentally slaughtered before dawn?",
-          "a": "The tamid offering is invalid - pre-dawn slaughter disqualifies the offering entirely."
+          "question": "What is the ruling when the tamid is accidentally slaughtered before dawn?",
+          "answer": "The tamid offering is invalid - pre-dawn slaughter disqualifies the offering entirely."
         },
         {
-          "q": "During which type of day did the confusion incident (premature tamid) occur?",
-          "a": "On a regular weekday, not on Yom Kippur."
+          "question": "During which type of day did the confusion incident (premature tamid) occur?",
+          "answer": "On a regular weekday, not on Yom Kippur."
         }
       ],
       "finalRuling": "A tamid slaughtered before dawn is invalid. The daytime requirement for slaughter is absolute.",

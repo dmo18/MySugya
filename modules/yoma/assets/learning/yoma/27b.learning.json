@@ -280,14 +280,21 @@
         "Yoma.27b.1"
       ],
       "display": {
+        "title": "A one-line bridge: from the resolved young-bull difficulty to R. Yochanan's new ruling",
         "whats": "Brief transitional passage.",
         "hint": "Connects the previous analysis to R. Yochanan's new ruling."
       },
       "learning": {
-        "summary": "A brief transitional passage completing the previous discussion before R. Yochanan's new statement.",
-        "ahaMoment": "The Gemara signals a new topic is beginning.",
-        "memoryAnchor": "Transition marker.",
-        "openQuestion": "What does this transition connect?"
+        "learnerQuestion": "What is this single transitional line doing between the resolved young-bull difficulty on the previous page and R. Yochanan's new ruling about non-priests and wood arrangement?",
+        "coreTension": "The Gemara could move straight from Rav Hamnuna's now-resolved difficulty into R. Yochanan's new statement, but instead inserts a brief connector first.",
+        "coreMove": "This line closes the verse-by-verse derivation from 27a so that R. Yochanan's ruling on non-priest wood arrangement, cited in R. Asi's name, opens cleanly as its own topic.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Not every line in the Gemara carries independent content - some exist purely to mark a clean break between one finished discussion and the next, and a learner should not search this line for substantive teaching it does not contain."
+        },
+        "ahaMoment": "The Gemara signals a new topic is beginning by first finishing the old one, even in a single line.",
+        "learningBlocker": "There is no substantive content to extract from this line beyond its structural role - it should not be read as adding anything to either the preceding verse-derivation or the coming ruling.",
+        "memoryAnchor": "A paragraph break: closing the previous page's analysis before opening R. Yochanan's new ruling."
       },
       "argumentFlow": [
         {
@@ -316,7 +323,10 @@
         "previous discussion about non-priest services"
       ],
       "misconceptions": [
-        "This is a major independent passage - it is only a transitional connector."
+        {
+          "misconception": "This is a major independent passage with its own teaching.",
+          "correction": "It is only a transitional connector closing the previous discussion before R. Yochanan's new ruling begins."
+        }
       ],
       "relatedSugyot": [
         "yoma-027a-s01"
@@ -330,8 +340,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the brief passage at the start of 27b?",
-          "a": "A transitional connector from the previous discussion about non-priest services to R. Yochanan's new ruling."
+          "question": "What is the brief passage at the start of 27b?",
+          "answer": "A transitional connector from the previous discussion about non-priest services to R. Yochanan's new ruling."
         }
       ],
       "finalRuling": "Transitional.",
@@ -401,14 +411,21 @@
         "Yoma.27b.11"
       ],
       "display": {
+        "title": "Valid but punishable: R. Zeira's paradox and R. Yochanan's revised wood-arrangement ruling",
         "whats": "R. Yochanan rules that a non-priest who sets up the wood arrangement on the altar incurs the death penalty. R. Zeira objects: every service incurring the death penalty must also be invalid when done by a non-priest. R. Yochanan's ruling is revised multiple times to account for these objections.",
         "hint": "The criterion is whether wood-arrangement is a 'complete service' (avodah temimah). If it is, a non-priest doing it both transgresses and renders the service invalid."
       },
       "learning": {
-        "summary": "R. Asi cites R. Yochanan: a non-priest who arranges the wood on the altar is liable to death. R. Zeira objects: is there any Temple service that is valid when performed by a non-priest but also punishable by death? The two categories seem mutually exclusive: either the act is 'complete service' (in which case a non-priest incurs death AND invalidates it) or it is not complete service (in which case a non-priest may do it validly and without penalty). Wood-arrangement that is not a complete, standalone service falls outside both categories. The Gemara refines R. Yochanan's ruling through multiple rounds of objection.",
-        "ahaMoment": "The categories 'liable to death' and 'valid when done by non-priest' are mutually exclusive - a service is either complete enough to require priestly status (and thus a non-priest is both punished and the service invalid) or not complete enough (and a non-priest is neither punished nor does he invalidate it). Wood-arrangement sits in an unusual category.",
-        "memoryAnchor": "Death penalty + invalid service always go together. Valid but punishable seems to be a contradiction - unless the service is special.",
-        "openQuestion": "Is there any Temple service that a non-priest performs validly (the offering is not disqualified) but for which he is still punished?"
+        "learnerQuestion": "If a non-priest who arranges the wood on the altar is liable to death, how can the wood arrangement also remain valid - aren't 'liable to death' and 'service stays valid' supposed to be mutually exclusive?",
+        "coreTension": "R. Zeira objects that R. Yochanan's ruling seems to describe an impossible combination: every other Temple service that incurs the death penalty for a non-priest also disqualifies the offering when he performs it, yet R. Yochanan says the non-priest is liable to death for wood arrangement without saying the arrangement itself is invalid.",
+        "coreMove": "Through several rounds of objection and revision, the Gemara narrows R. Yochanan's ruling: it first confirms that a non-priest can transgress and be punished while the wood arrangement itself remains valid, so the two categories are not actually mutually exclusive; further objections then require that the service be both a daytime service and a 'complete service' (avodah temimah) before the death penalty applies. Mar Zutra closes the daf by asking exactly what the now several-times-revised ruling actually covers.",
+        "takeaway": {
+          "type": "halachic_distinction",
+          "text": "A ruling that initially looks like a flat contradiction - valid yet punishable - survives because transgressing a prohibition and invalidating an offering are not the same axis; whether the two align depends on whether the act counts as a 'complete service.'"
+        },
+        "ahaMoment": "Liable to death and the offering remaining valid are not mutually exclusive after all - a non-priest can transgress a prohibition and be punished for it without that transgression by itself disqualifying the service, as long as the act is not classified as a full, independent 'complete service.'",
+        "learningBlocker": "Mar Zutra's question, exactly what R. Yochanan's now several-times-revised ruling covers, is left open at the end of 27b; the daf does not pin down whether the death penalty applies to wood arrangement broadly or to some narrower piece of it - that precision is only supplied on the following daf, where Rava identifies the two-log placement specifically as the 'complete service' in question.",
+        "memoryAnchor": "Death penalty without invalidation: a non-priest can be punished for touching the altar fire without his act voiding the offering - unless that act counts as a full, independent service."
       },
       "argumentFlow": [
         {
@@ -498,8 +515,14 @@
         "wood arrangement (sidur etzim)"
       ],
       "misconceptions": [
-        "Any service a non-priest performs validly he can also do without penalty - R. Zeira shows that valid-but-punishable seems impossible, but the case of wood arrangement might be exceptional.",
-        "Wood arrangement by a non-priest automatically invalidates the altar service - R. Yochanan's revised ruling says the service may still be valid even if the non-priest transgressed."
+        {
+          "misconception": "Any service a non-priest performs validly, he may also do without penalty.",
+          "correction": "R. Zeira shows this assumption breaks down for wood arrangement: a non-priest can be punished for the act even though the service itself remains valid."
+        },
+        {
+          "misconception": "Wood arrangement performed by a non-priest automatically invalidates the altar service.",
+          "correction": "R. Yochanan's revised ruling holds that the arrangement may still be valid even though the non-priest has transgressed and is liable to death."
+        }
       ],
       "relatedSugyot": [
         "yoma-027a-s01",
@@ -519,12 +542,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What paradox does R. Zeira identify in R. Yochanan's ruling about non-priests arranging wood?",
-          "a": "If a service is valid when performed by a non-priest, it should not be punishable; if it is punishable, the service should be invalid. 'Valid but punishable' seems contradictory."
+          "question": "What paradox does R. Zeira identify in R. Yochanan's ruling about non-priests arranging wood?",
+          "answer": "If a service is valid when performed by a non-priest, it should not be punishable; if it is punishable, the service should be invalid. 'Valid but punishable' seems contradictory."
         },
         {
-          "q": "What is the revised understanding of R. Yochanan's ruling about wood arrangement?",
-          "a": "The wood arrangement remains valid even if performed by a non-priest, but the non-priest has transgressed a prohibition - he is punishable but the service is not disqualified."
+          "question": "What is the revised understanding of R. Yochanan's ruling about wood arrangement?",
+          "answer": "The wood arrangement remains valid even if performed by a non-priest, but the non-priest has transgressed a prohibition - he is punishable but the service is not disqualified."
         }
       ],
       "finalRuling": "Non-priest wood arrangement: the ruling and its precise conditions are debated and revised across 27b-28a. The service may be valid while the non-priest transgresses.",
