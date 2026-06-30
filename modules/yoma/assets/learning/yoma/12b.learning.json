@@ -24,14 +24,22 @@
         "Yoma.12b.1"
       ],
       "display": {
+        "title": "No ceremony needed: service itself inaugurates the replacement KG",
+        "oneLine": "Rav Pappa rules that the replacement KG is initiated by his very performance of Yom Kippur service, just as later Temple vessels were consecrated by use rather than anointing.",
         "whats": "Rav Pappa answers the hanging question from 12a: the replacement KG needs no special initiation ceremony. His first performance of Yom Kippur service itself initiates him as KG - the principle 'avodato m'chanakhto' (his service inaugurates him). Proof: Moshe's vessels required anointing to be consecrated, but thereafter all Temple vessels were consecrated by use alone. The same principle applies to priests.",
         "hint": "The analogy to Temple vessels is precise: first-generation requires a formal rite (anointing / multiple garments), subsequent generations are initiated by performing the function itself. The service of Yom Kippur is inherently a KG act - performing it makes you KG."
       },
       "learning": {
-        "summary": "No inauguration ceremony is needed for the replacement KG. The act of Yom Kippur service itself confers KG status - 'avodato m'chanakhto.' This parallels Temple vessels: Moshe's original vessels needed anointing; all later vessels were consecrated by use.",
+        "learnerQuestion": "How does a kohen stepping in as replacement KG actually become KG: does he need a separate inauguration ceremony before he can serve?",
+        "coreTension": "A first-generation rite (anointing, multiple days of service) seems to be how KG status is normally conferred, yet the replacement has no time or precedent for such a ceremony before Yom Kippur arrives.",
+        "coreMove": "Rav Pappa applies the Temple-vessel analogy: Moshe's vessels needed anointing only because they were first-generation; every vessel made afterward was consecrated by use alone. The replacement KG is like a later vessel - his performance of the service is itself the consecration.",
+        "learningBlocker": "Learners often assume initiation must precede service, then get stuck asking whether KG status crystallizes the moment he begins or only once he finishes. The sugya's actual point is narrower: service is the initiation mechanism itself, not a question of timing within it.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Some offices are not entered through a separate rite. They are entered by performing the office itself."
+        },
         "ahaMoment": "Function creates status - serving as KG makes one KG. The service itself is the initiation.",
-        "memoryAnchor": "Moshe's spoon vs. Solomon's spoon: one anointed, one just used - both fully holy.",
-        "openQuestion": "If service initiates, does the replacement become fully KG for all halakhot the moment he begins, or only retroactively after completing the Yom Kippur service?"
+        "memoryAnchor": "Moshe's spoon vs. Solomon's spoon: one anointed, one just used - both fully holy."
       },
       "argumentFlow": [
         {
@@ -74,7 +82,11 @@
         "Moshe's initiation of the Mishkan vs. later generations"
       ],
       "misconceptions": [
-        "One might think the replacement KG needs a special ceremony parallel to the original KG's multiple days of service - the Gemara rules that service itself is sufficient."
+        {
+          "misconception": "The replacement KG needs a special ceremony parallel to the original KG's multiple days of service.",
+          "correction": "The Gemara rules that performing the Yom Kippur service itself is sufficient initiation; no separate ceremony is required.",
+          "correctedByStepId": "step-01"
+        }
       ],
       "relatedSugyot": [
         "yoma-012a-s01",
@@ -92,19 +104,19 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "How is the replacement KG initiated into his role according to Rav Pappa?",
-          "correct": "His performance of Yom Kippur service itself initiates him - no separate ceremony is needed.",
-          "distractors": [
-            "He must be anointed with oil like the original KG",
-            "He must serve seven consecutive days before Yom Kippur",
-            "He requires appointment by the Sanhedrin"
+          "question": "How is the replacement KG initiated into his role according to Rav Pappa?",
+          "answer": "His performance of Yom Kippur service itself initiates him - no separate ceremony is needed.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l01",
+              "vilnaLine": 1
+            }
           ]
         },
         {
-          "type": "source",
-          "q": "What is the source from Temple vessels that proves 'avodato m'chanakhto'?",
-          "correct": "Moshe's vessels required anointing; thereafter vessels were consecrated by use in service."
+          "question": "What is the source from Temple vessels that proves 'avodato m'chanakhto'?",
+          "answer": "Moshe's vessels required anointing; thereafter vessels were consecrated by use in service."
         }
       ],
       "finalRuling": "The replacement KG's Yom Kippur service itself initiates him - no preliminary inauguration is required.",
@@ -174,14 +186,22 @@
         "Yoma.12b.10"
       ],
       "display": {
+        "title": "The common priest's belt: kilayim or pure linen?",
+        "oneLine": "Rav Dimi and Ravin report the same dispute differently; a baraita on 'al besaro yilbash' confirms that Rabbi holds the common priest's belt is kilayim.",
         "whats": "A dispute about the common priest's belt: does it match the KG's regular-year belt (kilayim, wool-linen mix) or the KG's Yom Kippur belt (buz, pure linen)? Rav Dimi reports the sages of Eretz Yisrael disagree without identifying who holds each position. Ravin clarifies: Rabbi says the common priest's belt is kilayim; Rabbi Elazar b'Rabbi Shimon says linen. A baraita about the phrase 'al besaro yilbash' (he shall wear on his flesh) from the trum hadeshen passage shows that the mitzna and avnet are full priestly garments requiring all four items, resolving who said what.",
         "hint": "The key question is: whose belt matches whose? Year-round the KG wears kilayim; on YK the KG wears linen. The common priest's belt is the disputed middle ground. The baraita from Leviticus 6 resolves the identity question: Rabbi endorses kilayim for the common priest, making him parallel to the KG on regular days."
       },
       "learning": {
-        "summary": "The common priest's belt material is disputed. Rabbi holds it is kilayim (like the KG's regular belt); Rabbi Elazar b'Rabbi Shimon holds it is linen. Rav Dimi and Ravin bring different traditions; Ravin identifies the positions clearly. A baraita from the trum hadeshen verse ('al besaro yilbash') further illuminates the scope of the garment requirement.",
+        "learnerQuestion": "When the KG switches to all-linen garments on Yom Kippur, does the ordinary priest's belt change to match him, or stay the kilayim belt he wears the rest of the year?",
+        "coreTension": "Two transmitted reports of the same dispute disagree on attribution: Rav Dimi names the disputants but not their positions, while Ravin supplies the positions but still needs independent confirmation of which sage said which.",
+        "coreMove": "Ravin's tradition fills the gap left by Rav Dimi, naming Rabbi for kilayim and R. Elazar b'Rabbi Shimon for linen; the baraita on 'al besaro yilbash' then independently corroborates Rabbi's position by showing the avnet is one of the four mandatory garments in that same verse.",
+        "learningBlocker": "It is easy to conflate the KG's two belts (kilayim year-round, linen on Yom Kippur) with the common priest's single disputed belt - the dispute here is only about the common priest's garment, not a reinterpretation of the KG's own established practice.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Halacha follows Rabbi: the common priest's belt is kilayim all year and does not change to match the KG's Yom Kippur linen."
+        },
         "ahaMoment": "Two different periods (year-round vs. Yom Kippur), two different priests (KG vs. common), and one disputed garment - the common priest's belt is the hinge between all these distinctions.",
-        "memoryAnchor": "Ravin clarified what Rav Dimi left murky: Rabbi goes kilayim for the common priest, matching the KG on regular days.",
-        "openQuestion": "If the common priest wears kilayim and the KG wears linen on Yom Kippur, what is the practical halakhic implication for a kohen who accidentally swaps garments?"
+        "memoryAnchor": "Ravin clarified what Rav Dimi left murky: Rabbi goes kilayim for the common priest, matching the KG on regular days."
       },
       "argumentFlow": [
         {
@@ -275,8 +295,16 @@
         "The KG's special Yom Kippur linen garments"
       ],
       "misconceptions": [
-        "One might think the common priest's belt simply matches the KG's Yom Kippur belt since they're both 'linen garments' on that day - in fact this is exactly the disputed question.",
-        "The dispute is specifically about the common priest's belt; the other three garments (tunic, breeches, headgear) are not in dispute."
+        {
+          "misconception": "The common priest's belt simply matches the KG's Yom Kippur belt since both become 'linen garments' on that day.",
+          "correction": "This is exactly the disputed question. The common priest's everyday garments are not assumed to change just because the KG's do.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "The dispute extends to all four of the common priest's garments.",
+          "correction": "The dispute is specifically about the belt; the other three garments (tunic, breeches, headgear) are not in dispute between Rabbi and R. Elazar b'Rabbi Shimon.",
+          "correctedByStepId": "step-03"
+        }
       ],
       "relatedSugyot": [
         "yoma-007b-s01"
@@ -293,19 +321,19 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "According to Ravin's tradition, what does Rabbi hold about the common priest's belt?",
-          "correct": "It is kilayim (wool-linen mix), matching the KG's regular-year belt.",
-          "distractors": [
-            "It is pure linen (buz), matching the KG's Yom Kippur belt",
-            "It is made of the same material as the KG's belt regardless of the day",
-            "The Torah leaves it undefined"
+          "question": "According to Ravin's tradition, what does Rabbi hold about the common priest's belt?",
+          "answer": "It is kilayim (wool-linen mix), matching the KG's regular-year belt.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l08",
+              "vilnaLine": 22
+            }
           ]
         },
         {
-          "type": "compare",
-          "q": "What is the difference between Rav Dimi's and Ravin's traditions about this dispute?",
-          "correct": "Rav Dimi reported a dispute without identifying positions; Ravin explicitly specified who holds kilayim (Rabbi) and who holds linen (R. Elazar b'R. Shimon)."
+          "question": "What is the difference between Rav Dimi's and Ravin's traditions about this dispute?",
+          "answer": "Rav Dimi reported a dispute without identifying positions; Ravin explicitly specified who holds kilayim (Rabbi) and who holds linen (R. Elazar b'R. Shimon)."
         }
       ],
       "finalRuling": "Halacha: the common priest's belt is kilayim (following Rabbi's position as clarified by Ravin).",
@@ -355,14 +383,22 @@
         "Yoma.12b.15"
       ],
       "display": {
+        "title": "Two High Priests at once: R. Meir and R. Yosei on the recovered original",
+        "oneLine": "When the original KG recovers after a replacement was appointed, R. Meir keeps the replacement bound by full KG obligations while R. Yosei suspends him from both offices, as Yosef ben Elem of Tzippori's case shows.",
         "whats": "If a replacement KG was appointed and then the original recovered: what is each man's status? R. Meir: the replacement retains all KG obligations (cannot marry a widow, cannot become impure for relatives, etc.). R. Yosei: the replacement is suspended from both offices - he cannot serve as KG (the original is alive) but also cannot step down to common priesthood (degrading a KG is forbidden). The practical tragedy: Yosef ben Elem of Tzippori served as replacement KG and was left with neither role. The mishna implies he may serve in emergencies, but is otherwise excluded.",
         "hint": "R. Yosei's ruling creates a 'stranded' priest - fully consecrated for KG but blocked from exercising it, yet forbidden to step down. The case of Yosef ben Elem is not hypothetical; the story gives the ruling a human face."
       },
       "learning": {
-        "summary": "Two appointed High Priests exist simultaneously when the original recovers. R. Meir: the replacement keeps all KG obligations. R. Yosei: the replacement is suspended from both KG and common priesthood - illustrated by the tragic case of Yosef ben Elem of Tzippori.",
+        "learnerQuestion": "If the original High Priest recovers after a replacement has already been appointed, what becomes of the replacement: does he revert to ordinary priesthood, or stay bound by KG law?",
+        "coreTension": "Two principles collide for the replacement: he cannot serve as KG because the original is alive and only one KG serves at a time, but he also cannot be demoted to common priesthood because a KG may not be lowered in rank.",
+        "coreMove": "R. Yosei treats the collision as real and leaves the replacement suspended from both offices; R. Meir avoids the collision by treating the replacement as still fully bound by the personal obligations of KG status even though he is not actively serving.",
+        "learningBlocker": "Learners assume the replacement simply reverts to ordinary priesthood once the original recovers - missing that 'ein moridim m'gedula' (we do not demote from a higher sacred status) blocks that simple reversal under R. Yosei's ruling.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, as the case of Yosef ben Elem of Tzippori shows."
+        },
         "ahaMoment": "R. Yosei creates a priest who is too holy to step down but blocked from his office - the collision between 'do not degrade a KG' and 'only one KG at a time.'",
-        "memoryAnchor": "Yosef ben Elem: appointed as the backup, the original recovered, and he was left in limbo - neither KG nor regular kohen.",
-        "openQuestion": "Does R. Yosei's ruling apply only to Yom Kippur service or to all KG-specific prohibitions (widow, impurity for relatives) throughout the year?"
+        "memoryAnchor": "Yosef ben Elem: appointed as the backup, the original recovered, and he was left in limbo - neither KG nor regular kohen."
       },
       "argumentFlow": [
         {
@@ -437,8 +473,16 @@
         "How the replacement KG was appointed in the first place (12a-12b)"
       ],
       "misconceptions": [
-        "One might assume the replacement automatically returns to regular priesthood once the original recovers - R. Yosei rules that demoting a KG is forbidden, creating the suspended state.",
-        "R. Meir's position is not that both can serve simultaneously - the original resumes; but the replacement retains the personal prohibitions of KG status."
+        {
+          "misconception": "The replacement automatically returns to regular priesthood once the original recovers.",
+          "correction": "R. Yosei rules that demoting a KG is forbidden, so the replacement is instead left suspended from both offices.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "R. Meir's position lets both men serve as KG simultaneously.",
+          "correction": "The original alone resumes active KG service; R. Meir's point is only that the replacement retains the personal prohibitions of KG status, not that he continues serving.",
+          "correctedByStepId": "step-01"
+        }
       ],
       "relatedSugyot": [
         "yoma-13a-s01"
@@ -459,19 +503,19 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "According to R. Yosei, what happens to the replacement KG once the original recovers?",
-          "correct": "He is suspended - he cannot serve as KG (original is back) but also cannot step down to common priesthood.",
-          "distractors": [
-            "He returns to regular priesthood immediately",
-            "He retains all KG obligations throughout his life",
-            "He must be formally dismissed by the Sanhedrin"
+          "question": "According to R. Yosei, what happens to the replacement KG once the original recovers?",
+          "answer": "He is suspended - he cannot serve as KG (original is back) but also cannot step down to common priesthood.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-12b-l11",
+              "vilnaLine": 31
+            }
           ]
         },
         {
-          "type": "identify",
-          "q": "Who was the historical replacement KG left in suspended status, as the Gemara's real-world illustration?",
-          "correct": "Yosef ben Elem of Tzippori."
+          "question": "Who was the historical replacement KG left in suspended status, as the Gemara's real-world illustration?",
+          "answer": "Yosef ben Elem of Tzippori."
         }
       ],
       "finalRuling": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, as in the case of Yosef ben Elem.",

@@ -29,14 +29,22 @@
         "Yoma.13a.2"
       ],
       "display": {
+        "title": "No lingering enmity: the replacement KG resumes cleanly when the original dies",
+        "oneLine": "Rav rules that the replacement KG returns to full status the moment the original dies, rejecting the tzarah analogy that might suggest lasting enmity.",
         "whats": "The Gemara rules: halacha follows R. Yosei. The replacement KG is suspended from both offices while the original lives. Critically, R. Yosei agrees that if the replacement violated this and served anyway, his service is valid. Rav Yehuda adds: if the original dies, the replacement resumes full KG status. The Gemara asks - isn't that obvious? The answer: Rav must state it lest you think the replacement has the status of a 'rival wife' (tzarah), generating lasting enmity even after the original dies.",
         "hint": "The tzarah analogy is precise: in Jewish law, co-wives in a polygamous household may harbor enmity toward each other. Rav teaches that the KG-replacement dynamic, though similar, does not generate permanent enmity - so the replacement cleanly resumes his role when the original dies."
       },
       "learning": {
-        "summary": "Halacha: R. Yosei's ruling - replacement KG suspended while original lives. If original dies, replacement returns fully. Rav's novelty: stating this is necessary because the tzarah analogy might suggest permanent enmity. The service of a suspended replacement who served anyway is still valid.",
+        "learnerQuestion": "Why does Rav need to state that the replacement KG resumes full status when the original dies, if that seems obvious?",
+        "coreTension": "The replacement's halakhic status looks like it could carry interpersonal baggage, the way a tzarah carries lasting enmity, even though it is really just a contingent legal status tied to the original's life.",
+        "coreMove": "Rav rules that the replacement-original relationship is not like a tzarah whose enmity outlasts the rival; it is a clean legal contingency that dissolves the moment the original dies, so the replacement resumes fully without restriction.",
         "ahaMoment": "Legal status and interpersonal dynamics interact: the replacement's halakhic state depends on the original's life, not on any animosity between them.",
         "memoryAnchor": "Not like a tzarah (rival wife) - the KG-replacement relationship dissolves cleanly when the original dies, unlike co-wife rivalry.",
-        "openQuestion": "Why would the tzarah analogy apply here? A tzarah is a permanent co-wife; the replacement KG has a purely contingent, non-personal relationship with the original."
+        "learningBlocker": "Learners may wonder why the tzarah analogy is raised at all, since a tzarah is a permanent co-wife while the replacement KG has no personal relationship with the original. The point is that Rav is rejecting a tempting but false comparison, not endorsing it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Halacha follows R. Yosei: the replacement KG is suspended from both offices while the original lives, and resumes full status the moment the original dies, with no lingering tzarah-like enmity."
+        }
       },
       "argumentFlow": [
         {
@@ -110,8 +118,16 @@
         "The concept of 'tzarah' in Jewish marriage law"
       ],
       "misconceptions": [
-        "One might assume the replacement's service is invalid if he served while suspended - R. Yosei explicitly concedes it is valid.",
-        "One might assume permanent enmity like a rival wife prevents the replacement from ever resuming - Rav teaches that the relationship is purely halakhic, not interpersonal."
+        {
+          "misconception": "The replacement's service is invalid if he served while suspended.",
+          "correction": "R. Yosei explicitly concedes the service is valid even though the replacement violated the suspension.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "Permanent enmity like a rival wife prevents the replacement from ever resuming his role.",
+          "correction": "Rav teaches that the relationship is purely halakhic, not interpersonal, and dissolves cleanly when the original dies.",
+          "correctedByStepId": "step-03"
+        }
       ],
       "relatedSugyot": [
         "yoma-12b-s03"
@@ -128,19 +144,28 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "Why does Rav need to state that the replacement KG returns to service when the original dies?",
-          "correct": "Lest you think the replacement is like a 'rival wife' (tzarah) whose animosity persists even after the original dies, preventing return.",
-          "distractors": [
-            "Because the replacement was never officially appointed",
-            "Because the original's death must be verified before service resumes",
-            "Because both must agree on who serves"
+          "question": "Why does Rav need to state that the replacement KG returns to service when the original dies?",
+          "answer": "Lest you think the replacement is like a 'rival wife' (tzarah) whose animosity persists even after the original dies, preventing return.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-13a-l02",
+              "vilnaLine": 4,
+              "note": "Tzarah analogy and its rejection"
+            }
           ]
         },
         {
-          "type": "ruling",
-          "q": "If the replacement KG violated his suspended status and performed Temple service, what is the halachic status of that service?",
-          "correct": "Valid - R. Yosei explicitly concedes this."
+          "question": "If the replacement KG violated his suspended status and performed Temple service, what is the halachic status of that service?",
+          "answer": "Valid - R. Yosei explicitly concedes this.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-13a-l01",
+              "vilnaLine": 1,
+              "note": "Core ruling"
+            }
+          ]
         }
       ],
       "finalRuling": "Halacha: R. Yosei. Replacement suspended while original lives; returns to full KG status when original dies. Service performed in violation is still valid.",
@@ -180,14 +205,22 @@
         "Yoma.13a.5"
       ],
       "display": {
+        "title": "Backup wife or just backup priest? Preventability decides",
+        "oneLine": "R. Yehuda wants a backup wife prepared like the backup KG, but the Rabbanan rule that only preventable risks such as impurity warrant preparation.",
         "whats": "R. Yehuda holds that the sages should prepare not only a replacement KG (in case of impurity) but also a replacement wife (in case his wife dies before Yom Kippur, since the Torah says 'his house' - he must have a wife on YK). The Rabbanan disagree: a KG is zealous about his purity - impurity is a real risk that warrants preparation; death is rare and unpreventable, so no preparation is needed. But if we prepare for impurity, shouldn't we also prepare for death? The Gemara notes the asymmetry: purity can be guarded, death cannot.",
         "hint": "The Rabbanan's logic: an ounce of prevention only applies where prevention is possible. You can guard against impurity (zariz hu - he is diligent); you cannot guard against death. So only the backup priest, not the backup wife, is warranted."
       },
       "learning": {
-        "summary": "R. Yehuda: prepare a backup wife in case the KG's wife dies before Yom Kippur. Rabbanan: unnecessary - death is rare and cannot be prevented. The asymmetry between impurity (preventable) and death (not preventable) justifies the distinction.",
+        "learnerQuestion": "If the sages prepare a backup KG against the risk of impurity, why don't they also prepare a backup wife against the risk of the KG's wife dying before Yom Kippur?",
+        "coreTension": "R. Yehuda's logical symmetry, prepare for both risks alike, collides with the Rabbanan's view that preparation only makes sense for risks the KG can actually guard against.",
+        "coreMove": "The Rabbanan distinguish preventable risk from unpreventable risk: the KG's diligence (zariz hu) can guard against impurity, but no diligence can guard against death, so only a backup priest is warranted, not a backup wife.",
         "ahaMoment": "Preparation only makes sense where human effort can help. A backup priest helps if the KG becomes impure (he could have been more careful); a backup wife cannot help because no amount of caution prevents death.",
         "memoryAnchor": "Zariz hu (he is diligent) - the KG can guard against impurity but not against death. Only what can be prevented warrants preparation.",
-        "openQuestion": "If the backup wife exists only for YK service (not as an actual marriage), is there a concern about the dignity of the woman designated as 'backup'?"
+        "learningBlocker": "Learners may read the Rabbanan as judging death too rare to worry about. The real distinction is preventability, not probability: even a common but unpreventable risk would get no preparation, and a rare but preventable one would.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Preparation is warranted only where human diligence can reduce the risk. Impurity can be guarded against, so a backup KG is prepared; death cannot, so no backup wife is prepared."
+        }
       },
       "argumentFlow": [
         {
@@ -262,8 +295,16 @@
         "Why a replacement KG is prepared in the first place (impurity risk)"
       ],
       "misconceptions": [
-        "One might think R. Yehuda is being overly cautious - in fact he applies rigorous logical symmetry: if we prepare for impurity, we must prepare for death.",
-        "The Rabbanan are not dismissing the risk of death - they are making a distinction based on preventability, not probability."
+        {
+          "misconception": "R. Yehuda is being overly cautious by demanding a backup wife.",
+          "correction": "He is applying rigorous logical symmetry: if we prepare for impurity, we must prepare for death too.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "The Rabbanan are dismissing the risk of death as too improbable to matter.",
+          "correction": "They are making a distinction based on preventability, not probability - impurity can be guarded against by diligence, death cannot.",
+          "correctedByStepId": "step-02"
+        }
       ],
       "relatedSugyot": [
         "yoma-13a-s03"
@@ -280,19 +321,28 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "Why do the Rabbanan reject R. Yehuda's call for a backup wife even though they prepare a backup KG?",
-          "correct": "The KG can guard against impurity (zariz hu - he is diligent), but cannot guard against death - preparation only makes sense where human effort can prevent the contingency.",
-          "distractors": [
-            "Death is less common than impurity",
-            "The backup wife requirement would violate the Torah's marriage laws",
-            "R. Yehuda's position was never seriously considered"
+          "question": "Why do the Rabbanan reject R. Yehuda's call for a backup wife even though they prepare a backup KG?",
+          "answer": "The KG can guard against impurity (zariz hu - he is diligent), but cannot guard against death - preparation only makes sense where human effort can prevent the contingency.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-13a-l04",
+              "vilnaLine": 8,
+              "note": "Rabbanan's objection"
+            }
           ]
         },
         {
-          "type": "source",
-          "q": "What verse creates the requirement for the KG to have a wife on Yom Kippur?",
-          "correct": "The word 'bayto' (his house) in Leviticus 16, interpreted as requiring a wife on the day of service."
+          "question": "What verse creates the requirement for the KG to have a wife on Yom Kippur?",
+          "answer": "The word 'bayto' (his house) in Leviticus 16, interpreted as requiring a wife on the day of service.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-13a-l03",
+              "vilnaLine": 5,
+              "note": "R. Yehuda's position"
+            }
+          ]
         }
       ],
       "finalRuling": "Halacha: Rabbanan - no backup wife is prepared. Only a backup KG (in case of impurity) is prepared before Yom Kippur.",
@@ -357,14 +407,22 @@
         "Yoma.13a.13"
       ],
       "display": {
+        "title": "Seven failed conditional divorces: teaching get al tenai through an impossible case",
+        "oneLine": "The Gemara tests seven conditional divorce formulas for the KG's backup wife, and Rashi notes the section is educational, not a working solution.",
         "whats": "If R. Yehuda requires a backup wife, how can the KG maintain two wives without violating 'bayto' (which implies one house/wife)? The Gemara explores seven conditional divorce formulas: (1) On condition she dies on YK - but maybe she won't die, making it a non-divorce. (2) On condition she doesn't die - the divorce is valid retroactively the moment she doesn't die on YK, but then he lacks a wife during service. (3-7) Various creative conditions are tried and rejected. Rashi notes this entire discussion is not meant to produce a working solution but to teach the logic of conditional gitin (bills of divorce).",
         "hint": "The recurring problem: any condition that makes the first wife's divorce valid also leaves the KG momentarily without a wife; any condition that keeps him married ensures he has two wives. The Gemara is exploring the limits of conditional divorce law using the KG's unusual situation as a test case."
       },
       "learning": {
-        "summary": "Seven attempts to construct a conditional divorce allowing the KG to have a backup wife without technically having two wives simultaneously. Each formula either leaves him without any wife at a critical moment or retroactively creates a two-wife situation. The discussion is educational - it demonstrates the mechanics of conditional gitin through an extreme case.",
+        "learnerQuestion": "Can any conditional divorce formula let the KG have a backup wife without ever having two wives or no wife at the moment of service?",
+        "coreTension": "Every formula that makes the first wife's divorce take effect at the right moment either leaves the KG with no wife at a critical point, or, if it does not take effect, leaves him with two wives.",
+        "coreMove": "Each of the seven formulas is tested and rejected for failing the keritut requirement or for retroactively creating a two-wife or no-wife state during the service. Rashi concludes the section is educational, exploring the limits of get al tenai rather than producing a working solution.",
         "ahaMoment": "The Torah's 'bayto' (one house) creates a logical trap: any moment the first divorce becomes valid leaves a gap; any gap risks having two houses. The puzzle is insoluble within the terms of conditional divorce law.",
         "memoryAnchor": "Seven doors, all locked: every conditional divorce formula either leaves the KG with two wives or no wife at a crucial moment.",
-        "openQuestion": "Rashi says this entire section is educational, not meant to produce a working ruling. Does this mean R. Yehuda's position about the backup wife is ultimately not viable at all?"
+        "learningBlocker": "Learners may expect the daf to land on a working formula since so many are tried. Rashi's framing makes clear the seven failures are the point - they map exactly where conditional divorce law breaks down.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "No conditional divorce formula resolves R. Yehuda's two-wife problem. The seven failed attempts map the boundaries of get al tenai rather than producing a working ruling."
+        }
       },
       "argumentFlow": [
         {
@@ -471,8 +529,14 @@
         "R. Yehuda's backup wife position from the previous sugya"
       ],
       "misconceptions": [
-        "One might think these conditional divorce formulas are meant to produce a practical ruling - Rashi explicitly says they are educational examples of get al tenai logic.",
-        "The failure of all seven formulas does not mean conditional divorce is invalid generally - it means the specific constraints of the KG's YK situation make it impossible to resolve within those rules."
+        {
+          "misconception": "These conditional divorce formulas are meant to produce a practical ruling the KG could actually use.",
+          "correction": "Rashi explicitly says they are educational examples of get al tenai logic, not a working solution."
+        },
+        {
+          "misconception": "The failure of all seven formulas means conditional divorce is invalid generally.",
+          "correction": "It means the specific constraints of the KG's Yom Kippur situation make resolution impossible within those rules, not that conditional divorce is unworkable elsewhere."
+        }
       ],
       "relatedSugyot": [
         "yoma-13a-s02",
@@ -494,19 +558,20 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "Why do all conditional divorce formulas fail to solve the backup-wife problem?",
-          "correct": "Any condition that makes the first divorce valid also leaves the KG without any wife at a critical moment; any formula that avoids this creates a two-wife situation.",
-          "distractors": [
-            "Conditional divorce is halakhically invalid",
-            "The KG is prohibited from divorcing at all",
-            "The Rabbanan prohibited these formulas specifically for KG cases"
+          "question": "Why do all conditional divorce formulas fail to solve the backup-wife problem?",
+          "answer": "Any condition that makes the first divorce valid also leaves the KG without any wife at a critical moment; any formula that avoids this creates a two-wife situation.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-13a-l06",
+              "vilnaLine": 15,
+              "note": "First conditional formula and its failure"
+            }
           ]
         },
         {
-          "type": "explain",
-          "q": "What does Rashi say about the purpose of this entire seven-formula section?",
-          "correct": "Rashi says the answers don't hold and the section is educational - teaching the rules of conditional divorce through an extreme test case, not meant to produce a working ruling."
+          "question": "What does Rashi say about the purpose of this entire seven-formula section?",
+          "answer": "Rashi says the answers don't hold and the section is educational - teaching the rules of conditional divorce through an extreme test case, not meant to produce a working ruling."
         }
       ],
       "finalRuling": "No conditional divorce formula successfully solves R. Yehuda's two-wife problem. The discussion continues on 13b.",

@@ -29,14 +29,22 @@
         "Yoma.14a.2"
       ],
       "display": {
+        "title": "Context determines the decree: 'kol hayom' restricts onen service only when eating is a real risk",
+        "oneLine": "Rava resolves Abaye's challenge: 'kol hayom' bars the onen KG from service on a regular day (real eating risk) but not on Yom Kippur (the universal fast removes that risk).",
         "whats": "Rava resolves Abaye's challenge (from 13b): R. Yehuda's 'kol hayom' means the onen KG does NOT serve the whole day - a rabbinic decree to prevent him from accidentally eating kodshim. On Yom Kippur, when everyone fasts, there's no risk of him eating; but on a regular day when people eat, the onen might forget and eat. Therefore, on regular days the onen KG refrains all day. Rav Adda bar Ahava then raises a problem: R. Yehuda himself rules a backup wife should be prepared in case the original wife dies - yet if she dies on YK, the KG would serve as an onen without the eating-risk. Rava resolves: the two cases are different - YK's universal fast removes the eating risk.",
         "hint": "The decree 'lest he eat' only applies when there is a realistic temptation. On Yom Kippur, everyone fasts - the KG won't accidentally eat. On a regular day, when food is everywhere, a decree is necessary. Context determines the risk, and the decree tracks the risk."
       },
       "learning": {
-        "summary": "R. Yehuda's 'kol hayom' is a restriction, not a mandate: the onen KG refrains from service all day as a rabbinic decree to prevent accidentally eating kodshim. This decree applies only on regular days (when everyone eats), not on Yom Kippur (when no one does). A question from R. Yehuda's own backup-wife ruling is resolved by distinguishing the contexts.",
+        "learnerQuestion": "Why would a decree meant to prevent the onen KG from accidentally eating apply on a regular day but not on Yom Kippur itself?",
+        "coreTension": "R. Yehuda's backup-wife ruling implies the onen KG could serve on Yom Kippur without restriction, which seems to contradict Rava's all-day decree against onen service.",
+        "coreMove": "Rava distinguishes the contexts: the decree exists only where eating is a realistic temptation. On a regular day, surrounded by others eating, the onen KG might forget himself; on Yom Kippur, the universal fast removes that risk entirely, so the decree does not apply there.",
         "ahaMoment": "Rabbinic decrees are context-sensitive: the same rule (don't serve as onen) can be necessary in one situation and unnecessary in another, based on the realistic risk involved.",
         "memoryAnchor": "Everyone fasts on YK - even the onen won't eat. On a regular day, the aroma of food is everywhere, so the decree is needed. The fast eliminates the risk.",
-        "openQuestion": "If the reason for the all-day restriction is a decree lest he eat, what happens if the onen KG explicitly declares he will not eat? Would the decree still apply?"
+        "learningBlocker": "Learners may read 'kol hayom' as one fixed rule. It is a context-sensitive decree whose scope tracks the actual risk of eating, not a constant restriction.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A rabbinic decree against a feared outcome applies only where that outcome is a realistic risk. Remove the risk, here the universal Yom Kippur fast, and the decree no longer applies."
+        }
       },
       "argumentFlow": [
         {
@@ -126,8 +134,16 @@
         "R. Yehuda's backup-wife position and its connection to Yom Kippur"
       ],
       "misconceptions": [
-        "Rava's initial reading of 'kol hayom' (a mitzva to serve) was challenged and revised - the final interpretation is that it is a restriction, not a mandate.",
-        "The distraction argument (itroda) is independent of formal onen status - it applies even if the backup wife's relationship to the KG is legally ambiguous."
+        {
+          "misconception": "'Kol hayom' means a mitzva for the onen KG to serve all day.",
+          "correction": "Rava's revised reading is that it is a restriction, not a mandate: the onen KG refrains from service all day as a decree.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "The distraction argument (itroda) requires formal onen status to apply.",
+          "correction": "It applies independent of formal onen status, even if the backup wife's relationship to the KG is legally ambiguous.",
+          "correctedByStepId": "step-04"
+        }
       ],
       "relatedSugyot": [
         "yoma-13b-s03"
@@ -144,19 +160,28 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "According to Rava, what does R. Yehuda's phrase 'kol hayom' mean regarding the onen KG?",
-          "correct": "The onen KG refrains from service the whole day as a rabbinic decree lest he accidentally eat kodshim.",
-          "distractors": [
-            "It is a mitzva to bring him from home and have him serve all day",
-            "He may only serve during the morning portion of the day",
-            "He serves the whole day without restriction because Yom Kippur overrides mourning"
+          "question": "According to Rava, what does R. Yehuda's phrase 'kol hayom' mean regarding the onen KG?",
+          "answer": "The onen KG refrains from service the whole day as a rabbinic decree lest he accidentally eat kodshim.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l01",
+              "vilnaLine": 1,
+              "note": "Rava's revised reading of kol hayom"
+            }
           ]
         },
         {
-          "type": "explain",
-          "q": "Why does the 'lest he eat' decree not apply on Yom Kippur itself?",
-          "correct": "On Yom Kippur, everyone fasts - there is no food around and no realistic temptation for the onen KG to accidentally eat kodshim. The decree only applies when the general environment includes eating."
+          "question": "Why does the 'lest he eat' decree not apply on Yom Kippur itself?",
+          "answer": "On Yom Kippur, everyone fasts - there is no food around and no realistic temptation for the onen KG to accidentally eat kodshim. The decree only applies when the general environment includes eating.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l01",
+              "vilnaLine": 1,
+              "note": "Resolution via contextual distinction"
+            }
+          ]
         }
       ],
       "finalRuling": "On regular days: the onen KG does not serve as a rabbinic decree (lest he eat). On Yom Kippur: the decree does not apply (universal fast). Service performed is valid either way.",
@@ -186,14 +211,22 @@
         "Yoma.14a.3"
       ],
       "display": {
+        "title": "Seven days of practice: the KG's pre-Yom Kippur sequestration",
+        "oneLine": "The mishna introduces the KG's seven-day Parhedrin sequestration, during which he performs the daily Temple services himself in preparation for Yom Kippur.",
         "whats": "The mishna: seven days before Yom Kippur the KG is sequestered in the Parhedrin chamber. During those seven days he performs the daily Temple services himself: throws the blood of the daily offerings, burns the incense, cleans the menorah lamps (meitev et ha-nerot), and offers the limbs. He also performs whatever other services he wishes throughout the rest of the year (he is given priority). The Gemara asks who authored this mishna.",
         "hint": "The seven-day sequestration serves two purposes: to protect against impurity (a seven-day impurity requires a clean seven days to pass) and to practice the Yom Kippur service. The KG performing the daily service throughout the week keeps him in ritual readiness."
       },
       "learning": {
-        "summary": "The mishna introduces the KG's seven-day pre-Yom Kippur sequestration and daily Temple service practice. The Gemara immediately inquires about the authorship of this mishna, identifying a potential conflict with R. Akiva's position on para aduma.",
+        "learnerQuestion": "What does the KG actually do during his seven days of pre-Yom Kippur sequestration, and why does the Gemara immediately ask who authored this mishna?",
+        "coreTension": "The mishna's seven-day sequestration combines a purity safeguard with active daily service practice, a combination specific enough that the Gemara needs to identify which sage's view it follows.",
+        "coreMove": "The mishna lists the daily services the KG performs himself during the seven days (blood, incense, lamps, limbs) and grants him priority on services year-round; the Gemara then opens an inquiry into the mishna's authorship, answered by the next sugya's para aduma analysis.",
         "ahaMoment": "The seven-day preparation is both legal (ensuring purity) and experiential (practicing the Yom Kippur avodah). The KG who has been doing the service all week enters Yom Kippur as a practiced professional.",
         "memoryAnchor": "Seven days of service = seven days of practice + seven days of assured purity. The KG arrives at Yom Kippur as both pure and experienced.",
-        "openQuestion": "If the KG performs the daily services for seven days straight, does his unusual involvement displace the regular priestly divisions (mishmarot) from their assigned tasks?"
+        "learningBlocker": "Learners may treat the seven days as passive isolation. The mishna specifies active daily service, making the week dual-purpose: purity assurance and practiced readiness for Yom Kippur.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The KG's seven-day sequestration is active preparation, not passive isolation: daily service practice combined with the time needed to clear any contracted impurity."
+        }
       },
       "argumentFlow": [
         {
@@ -237,8 +270,16 @@
         "The daily Temple service and its components"
       ],
       "misconceptions": [
-        "The seven-day sequestration is not just for isolation from impurity - it also serves as active preparation through practice.",
-        "The KG does not simply observe the daily service; he actively performs it himself during these seven days."
+        {
+          "misconception": "The seven-day sequestration exists only for isolation from impurity.",
+          "correction": "It also serves as active preparation through practice: the KG performs the daily Temple services himself throughout the week.",
+          "correctedByStepId": "step-01"
+        },
+        {
+          "misconception": "The KG merely observes the daily service during the seven days.",
+          "correction": "He actively performs the daily services himself: blood, incense, lamps, and limbs.",
+          "correctedByStepId": "step-01"
+        }
       ],
       "relatedSugyot": [
         "yoma-002a-s01"
@@ -255,14 +296,20 @@
       ],
       "quizSeeds": [
         {
-          "type": "list",
-          "q": "Name two Temple services the KG performs during his seven-day pre-Yom Kippur sequestration.",
-          "correct": "Any two of: throwing the daily blood, burning the incense, cleaning the menorah lamps (meitev nerot), offering the limbs of the daily sacrifice."
+          "question": "Name two Temple services the KG performs during his seven-day pre-Yom Kippur sequestration.",
+          "answer": "Any two of: throwing the daily blood, burning the incense, cleaning the menorah lamps (meitev nerot), offering the limbs of the daily sacrifice.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l03",
+              "vilnaLine": 12,
+              "note": "The mishna's ruling"
+            }
+          ]
         },
         {
-          "type": "reason",
-          "q": "Why is the pre-Yom Kippur sequestration specifically seven days?",
-          "correct": "To ensure that if the KG contracted impurity requiring a seven-day purification process, he would emerge purified before Yom Kippur."
+          "question": "Why is the pre-Yom Kippur sequestration specifically seven days?",
+          "answer": "To ensure that if the KG contracted impurity requiring a seven-day purification process, he would emerge purified before Yom Kippur."
         }
       ],
       "finalRuling": "The KG is sequestered for seven days before Yom Kippur and performs the daily Temple services throughout that period.",
@@ -332,14 +379,22 @@
         "Yoma.14a.12"
       ],
       "display": {
+        "title": "Para aduma's paradox: one water, opposite effects, settles the mishna's authorship",
+        "oneLine": "R. Akiva's purification-water paradox, which purifies the impure while impurifying the pure, conflicts with the seven-day mishna and rules out R. Akiva as its author.",
         "whats": "The Gemara deduces that the mishna about seven-day sequestration cannot follow R. Akiva. R. Akiva teaches that purification water (mei para) purifies the impure person sprinkled upon - but simultaneously renders the pure person handling it impure. If so, the KG cannot both be sprinkled with purification water (to ensure his purity) and serve in the Temple (since handling makes pure priests impure). Various opinions are surveyed: R. Yehoshua b. Levi says it is a chok (divine decree, no explanation); Rabba b. bar Chana says it purifies by decree. Ultimately the Gemara surveys who authored both this mishna and the later mishna about the Yom Kippur sprinkling, concluding they follow the view that accepts R. Akiva's paradox.",
         "hint": "The para aduma paradox is one of the Talmud's classic examples of a chok - a divine decree whose logic transcends human comprehension. It purifies the impure while impurifying the pure, seemingly contradicting itself. The Gemara uses this paradox to narrow down who could have authored various mishnayot."
       },
       "learning": {
-        "summary": "The paradox of the red heifer purification water: it purifies impure people but simultaneously makes pure people who handle it impure. This creates an authorship puzzle for the seven-day sequestration mishna - R. Akiva's position makes the purification sprinkling incompatible with the KG then serving. The resolution involves how the sprinklings can be scheduled to avoid this conflict.",
+        "learnerQuestion": "How can the same purification water both purify and impurify, and what does that paradox tell us about who authored the seven-day sequestration mishna?",
+        "coreTension": "If the KG is sprinkled with purification water while still pure, to guard against future impurity, R. Akiva's rule that such water impurifies the pure handler would make the KG impure and unable to serve, directly contradicting the mishna's premise.",
+        "coreMove": "R. Akiva derives from the doubled 'al' in Numbers 19 that purification water impurifies the pure as well as purifying the impure; the Sages read the same verse as a scope limitation only. Since the mishna's sequence requires the KG to be sprinkled and then serve, it must follow the Sages, not R. Akiva.",
         "ahaMoment": "The same water does opposite things simultaneously - but to different categories of people (impure vs. pure). This is the quintessential chok: its mechanism is beyond normal cause-and-effect reasoning.",
         "memoryAnchor": "Para aduma - the red heifer: washing the hands that wipe makes them dirty; here, the water that purifies the impure also dirties the pure. A divine decree that transcends logic.",
-        "openQuestion": "R. Yehoshua b. Levi says the paradox teaches that we must accept divine decrees without demanding rational explanations (chukim). Does this mean the Talmud here is consciously marking the boundary of legal reasoning?"
+        "learningBlocker": "Learners may try to rationalize the para aduma paradox into a consistent natural mechanism. The sugya treats it as a chok, an accepted divine decree whose opposite effects are simply received law, and uses it here only to settle authorship.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Para aduma is the paradigm chok: the same water purifies the impure and impurifies the pure by divine decree, and this very paradox is used to determine that the seven-day sequestration mishna follows the Sages, not R. Akiva."
+        }
       },
       "argumentFlow": [
         {
@@ -474,8 +529,16 @@
         "R. Akiva's hermeneutical methods"
       ],
       "misconceptions": [
-        "One might think purification water simply purifies everything it touches - R. Akiva's teaching shows it has opposite effects depending on the recipient's status.",
-        "The 'paradox' is not a contradiction - it is a consistent rule: the water activates the appropriate transformation for whoever it contacts (impure becomes pure; pure becomes impure)."
+        {
+          "misconception": "Purification water simply purifies everything it touches.",
+          "correction": "R. Akiva's teaching shows it has opposite effects depending on the recipient's status: it purifies the impure but impurifies the pure.",
+          "correctedByStepId": "step-02"
+        },
+        {
+          "misconception": "The paradox is a logical contradiction that needs resolving.",
+          "correction": "It is a consistent rule: the water activates the appropriate transformation for whoever it contacts, impure becomes pure, pure becomes impure, accepted as a chok.",
+          "correctedByStepId": "step-03"
+        }
       ],
       "relatedSugyot": [
         "yoma-14b-s01"
@@ -496,19 +559,20 @@
       ],
       "quizSeeds": [
         {
-          "type": "mc",
-          "q": "What is R. Akiva's teaching about purification water that creates a problem for the seven-day sequestration mishna?",
-          "correct": "Purification water purifies the impure person sprinkled on it, but simultaneously makes pure people who handle it impure.",
-          "distractors": [
-            "Purification water can only be applied once per item",
-            "The KG cannot sprinkle purification water because he is not a fully ordained kohen",
-            "Purification water must be prepared fresh each day"
+          "question": "What is R. Akiva's teaching about purification water that creates a problem for the seven-day sequestration mishna?",
+          "answer": "Purification water purifies the impure person sprinkled on it, but simultaneously makes pure people who handle it impure.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-14a-l05",
+              "vilnaLine": 20,
+              "note": "R. Akiva's ruling stated"
+            }
           ]
         },
         {
-          "type": "explain",
-          "q": "Why is para aduma called a 'chok'?",
-          "correct": "Because its mechanism transcends logical explanation - the same substance produces opposite effects (purifying/impurifying) depending on the recipient's status, without an obvious natural cause."
+          "question": "Why is para aduma called a 'chok'?",
+          "answer": "Because its mechanism transcends logical explanation - the same substance produces opposite effects (purifying/impurifying) depending on the recipient's status, without an obvious natural cause."
         }
       ],
       "finalRuling": "The seven-day sequestration mishna follows the view of the Chakhamim (not R. Akiva). R. Akiva's para aduma ruling creates an irresolvable conflict with the sprinkling-and-service sequence.",

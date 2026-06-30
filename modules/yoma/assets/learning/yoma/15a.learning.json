@@ -34,14 +34,22 @@
         "Yoma.15a.3"
       ],
       "display": {
+        "title": "One word, 'oto', decides whether the afternoon proof reaches the morning",
+        "oneLine": "The Rabbanan extend the afternoon lamp-incense verse to prove ketoret comes first in the morning too; Abba Shaul reads 'oto' as blocking that extension.",
         "whats": "The Rabbanan defend their position that ketoret (incense) is burned before the lamps by drawing a parallel from the afternoon tamid: 'at the time of lighting you shall burn incense' means the incense accompanies the lamp service. Abba Shaul objects that 'oto' (that specific lamp) limits this rule to the afternoon only, not the morning.",
         "hint": "The word 'oto' in the verse - 'and when Aaron lights it' - is doing a lot of work. The Rabbanan read it as an analogy; Abba Shaul reads it as a restriction."
       },
       "learning": {
-        "summary": "Rabbanan prove ketoret precedes lamps by analogy with the afternoon service. The verse 'at the time of lighting he shall burn incense' links incense to lamps regardless of order. Abba Shaul limits this analogy: 'oto' confines it to the afternoon, leaving the morning order governed by the plain verse.",
+        "learnerQuestion": "The Rabbanan say ketoret comes before the lamps, citing a verse about the afternoon service. Why does that afternoon verse prove anything about the morning order?",
+        "coreTension": "The Rabbanan treat the afternoon lamp-incense verse as a general principle that also governs the morning, while Abba Shaul reads the same verse's word 'oto' as confining it strictly to the afternoon case.",
+        "coreMove": "The Gemara first reads 'at the time of lighting' as meaning incense accompanies the lamps rather than following them, supporting the Rabbanan's analogy; Abba Shaul then isolates the word 'oto' (that one lamp) to argue the verse cannot be generalized beyond its stated afternoon context.",
+        "learningBlocker": "It is easy to assume that once a verse establishes a principle for one case, it automatically applies elsewhere. Abba Shaul's reading shows that a single restrictive word in the verse can block exactly that kind of extension, leaving the morning order to follow the plain text instead.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Whether the afternoon lamp-incense verse generalizes to the morning service remains disputed: the Rabbanan read it as a transferable principle, while Abba Shaul's reading of 'oto' confines it to the afternoon."
+        },
         "ahaMoment": "A single word - 'oto' - decides whether the afternoon lamp/incense verse is a universal principle or a one-time specification.",
-        "memoryAnchor": "Rabbanan: incense rides alongside lamps (morning too). Abba Shaul: 'oto' - that particular lamp, afternoon only.",
-        "openQuestion": "If the Rabbanan's analogy holds, what governs the morning sequence? The plain verse still says 'prepare the lamps, then burn incense' - how do the Rabbanan read it?"
+        "memoryAnchor": "Rabbanan: incense rides alongside lamps (morning too). Abba Shaul: 'oto' - that particular lamp, afternoon only."
       },
       "argumentFlow": [
         {
@@ -134,7 +142,11 @@
         "Abba Shaul vs Rabbanan dispute about incense and lamp order from 14b"
       ],
       "misconceptions": [
-        "One might think 'at the time of lighting' means after lighting - Rashi clarifies it means during/accompanying the lamp service, not sequentially after."
+        {
+          "misconception": "'At the time of lighting' means after the lighting is finished.",
+          "correction": "Rashi clarifies it means during, accompanying the lamp service, not sequentially after it.",
+          "correctedByStepId": "step-03"
+        }
       ],
       "relatedSugyot": [
         "yoma-14b-s03"
@@ -151,20 +163,28 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "How do the Rabbanan use the afternoon lamp verse to prove ketoret comes first?",
-          "correct": "They read 'at the time of lighting he shall burn incense' as meaning incense accompanies the lamps - so ketoret goes with (before) the remaining five lamps, not after."
+          "question": "How do the Rabbanan use the afternoon lamp verse to prove ketoret comes first?",
+          "answer": "They read 'at the time of lighting he shall burn incense' as meaning incense accompanies the lamps - so ketoret goes with (before) the remaining five lamps, not after.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l01",
+              "vilnaLine": 1,
+              "note": "Rabbanan's afternoon analogy"
+            }
+          ]
         },
         {
-          "type": "multiple_choice",
-          "q": "Why does Abba Shaul reject the Rabbanan's analogy?",
-          "choices": [
-            "The afternoon verse uses 'oto' limiting the rule to that specific lamp",
-            "The afternoon service has different rules than the morning",
-            "The verse was only said about the incense not the lamps",
-            "Abba Shaul holds ketoret never precedes lamps"
-          ],
-          "correct": "The afternoon verse uses 'oto' limiting the rule to that specific lamp"
+          "question": "Why does Abba Shaul reject the Rabbanan's analogy?",
+          "answer": "The afternoon verse uses 'oto' (that one lamp), which limits the rule to that specific case and blocks its extension to the morning.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l12",
+              "vilnaLine": 12,
+              "note": "Abba Shaul's restriction"
+            }
+          ]
         }
       ],
       "finalRuling": "Disputed: Rabbanan hold ketoret precedes lamps (morning analogy from afternoon); Abba Shaul holds 'oto' limits that analogy.",
@@ -219,14 +239,22 @@
         "Yoma.15a.7"
       ],
       "display": {
+        "title": "Can one mishna hold two views? Rav Pappa and Abaye disagree on method",
+        "oneLine": "Rav Pappa resolves Yoma's internal contradiction by splitting it between two Tannaim; Abaye rejects that a single mishna can mix positions and recontextualizes the text instead.",
         "whats": "Rav Pappa and Abaye offer competing resolutions to the apparent contradiction in the mishnayot about the service order. Their disagreement hinges on whether a single mishna can incorporate two different tannaitic positions within one text. Rav Pappa says yes (different sections of Yoma reflect different Tannaim); Abaye says no (a mishna does not split its view).",
         "hint": "The machloket between Rav Pappa and Abaye is a methodological one: can a single tractate's mishnayot hold both R. Akiva and Abba Shaul's positions, or must each mishna be internally consistent?"
       },
       "learning": {
-        "summary": "Rav Pappa resolves the Yoma self-contradiction by assigning the two mishnayot to different tannaitic positions (Chapter 1 = Rabbanan, Chapter 3 = Abba Shaul). Abaye counters that a mishna cannot split its ruling this way. Both agree the underlying tension in the text is real.",
+        "learnerQuestion": "Two mishnayot in Yoma describe the service order differently. Can the same tractate simply follow different Tannaim in different chapters, or must each mishna speak with one voice?",
+        "coreTension": "Rav Pappa is willing to assign the two contradictory chapters to two different Tannaim, but Abaye holds a single mishna cannot mix tannaitic positions, so the same contradiction needs a different kind of resolution.",
+        "coreMove": "When Rav Pappa's chapter-splitting solution is itself shown to fail (Chapter 3 contradicts itself too), Abaye instead resolves the tension by reading one of the problematic passages as a general teaching about KG practice rather than a specific Yom Kippur sequence, avoiding the need to attribute different sections to different Tannaim at all.",
+        "learningBlocker": "It is tempting to treat this as a factual dispute about service order. The real disagreement is methodological: whether an anonymous mishna's internal sections can reflect different authorities, which is what determines whether chapter-splitting is even a legitimate solution.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Resolving an apparent contradiction between mishnayot can require a methodological choice, not just a factual one: whether a single mishna may combine different tannaitic positions, or whether the text must instead be reread so no such split is needed."
+        },
         "ahaMoment": "Rav Pappa and Abaye are not disputing the facts but the methodology of Mishnah interpretation: can a tractate's sections reflect different anonymous authorities?",
-        "memoryAnchor": "Rav Pappa: the two chapters can follow different Tannaim. Abaye: a mishna cannot switch positions mid-text.",
-        "openQuestion": "If Abaye rejects Rav Pappa's solution, how does Abaye himself resolve the contradiction between the two Yoma mishnayot?"
+        "memoryAnchor": "Rav Pappa: the two chapters can follow different Tannaim. Abaye: a mishna cannot switch positions mid-text."
       },
       "argumentFlow": [
         {
@@ -318,7 +346,11 @@
         "Abba Shaul vs Rabbanan positions on ketoret order"
       ],
       "misconceptions": [
-        "One might think Rav Pappa and Abaye are disputing the halacha - they are actually disputing how to read the Mishnah's structure."
+        {
+          "misconception": "Rav Pappa and Abaye are disputing the actual halachic service order.",
+          "correction": "They are disputing how to read the Mishnah's structure: whether a single mishna can hold two tannaitic positions, not what the correct order is.",
+          "correctedByStepId": "step-03"
+        }
       ],
       "relatedSugyot": [
         "yoma-14b-s02",
@@ -336,14 +368,34 @@
       ],
       "quizSeeds": [
         {
-          "type": "compare",
-          "q": "How do Rav Pappa and Abaye each resolve the contradiction between the two Yoma mishnayot?",
-          "correct": "Rav Pappa assigns the two chapters to different Tannaim. Abaye objects that a mishna cannot split its position and instead recontextualizes the problematic passage."
+          "question": "How do Rav Pappa and Abaye each resolve the contradiction between the two Yoma mishnayot?",
+          "answer": "Rav Pappa assigns the two chapters to different Tannaim. Abaye objects that a mishna cannot split its position and instead recontextualizes the problematic passage.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l13",
+              "vilnaLine": 13,
+              "note": "Rav Pappa's resolution"
+            },
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l21",
+              "vilnaLine": 21,
+              "note": "Abaye's methodological objection"
+            }
+          ]
         },
         {
-          "type": "explain",
-          "q": "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
-          "correct": "A single mishna cannot represent two different tannaitic positions within itself - it must be internally consistent."
+          "question": "What is the methodological principle Abaye uses to reject Rav Pappa's solution?",
+          "answer": "A single mishna cannot represent two different tannaitic positions within itself - it must be internally consistent.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l21",
+              "vilnaLine": 21,
+              "note": "Abaye's methodological objection"
+            }
+          ]
         }
       ],
       "finalRuling": "No definitive ruling given; the sugya presents both positions as live options.",
@@ -417,14 +469,22 @@
         "Yoma.15a.17"
       ],
       "display": {
+        "title": "Tamid as olah and chatat at once: every blood scheme the Gemara tries fails",
+        "oneLine": "R. Shimon ish HaMitzpah requires the tamid's blood to satisfy both olah and chatat rules, and every proposed way to apply it is refuted by the principle that blood cannot atone twice.",
         "whats": "The Gemara investigates the basis for R. Shimon ish HaMitzpah's unique ruling that the tamid blood is sprinkled at all four altar corners - treating the tamid simultaneously as an olah and a chatat. Various proposals for how to execute this dual requirement are raised and refuted. The core problem: chatat blood goes on four horns; olah blood goes at two opposite corners. Each proposed combination fails on the principle that we cannot have blood serve two separate atonement functions at once.",
         "hint": "The tamid is an unusual sacrifice. R. Shimon says it must be treated as BOTH an olah (two-corner sprinkling) AND a chatat (four-horn application). Every attempt to satisfy both simultaneously runs into the rule: we have no precedent for blood that atones and re-atones."
       },
       "learning": {
-        "summary": "R. Shimon ish HaMitzpah's ruling requires the tamid's blood to be applied in a way that satisfies both olah and chatat requirements. The Gemara systematically tests each possible application sequence and finds all of them blocked by the principle that blood cannot perform two distinct atonements - once used for one purpose, it cannot serve another.",
+        "learnerQuestion": "If the verse requires the tamid to be treated as both an olah and a chatat, how can one blood service physically satisfy two different application patterns?",
+        "coreTension": "Olah blood goes to two opposite corners and chatat blood goes to four horns, and R. Shimon ish HaMitzpah's ruling requires the same tamid blood to satisfy both, but no application order seems able to do both without reusing already-applied blood.",
+        "coreMove": "The Gemara tests every plausible ordering and combination of the two application patterns in turn, and each one is refuted by the same underlying principle: once blood has been applied for one atonement function, it cannot be reapplied to serve a second, distinct atonement function.",
+        "learningBlocker": "It is tempting to assume that combining four-horn and two-corner applications, in some order or overlap, must eventually satisfy both requirements. The recurring refutation shows the obstacle is not sequencing but the single principle that blood cannot atone twice, which blocks every configuration alike.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "No proposed blood-application scheme satisfies R. Shimon ish HaMitzpah's dual olah-and-chatat requirement for the tamid; the sugya ends without a viable implementation, leaving the question how his ruling can be carried out unresolved."
+        },
         "ahaMoment": "The impossibility proof is elegant: every configuration either violates olah rules, violates chatat rules, or requires blood to atone twice - which has no precedent.",
-        "memoryAnchor": "Tamid = olah + chatat simultaneously. But blood cannot atone twice. Every solution fails on exactly this principle.",
-        "openQuestion": "If no blood application scheme satisfies both olah and chatat requirements, how is R. Shimon ish HaMitzpah's position even viable? Does he have a different understanding of 'matanot' (blood applications)?"
+        "memoryAnchor": "Tamid = olah + chatat simultaneously. But blood cannot atone twice. Every solution fails on exactly this principle."
       },
       "argumentFlow": [
         {
@@ -552,8 +612,16 @@
         "The principle that used blood cannot serve a second halakhic function"
       ],
       "misconceptions": [
-        "One might think four applications cover olah's two-corner requirement automatically - the Gemara shows the two olah corners are not equivalent to the four chatat corners.",
-        "One might think R. Shimon's ruling is easily executable - in fact every implementation scheme is blocked by fundamental blood-service principles."
+        {
+          "misconception": "Four corner applications automatically cover olah's separate two-corner requirement.",
+          "correction": "The Gemara shows the two olah corners are not equivalent to the four chatat corners; subsuming them does not satisfy olah as an independent application.",
+          "correctedByStepId": "step-04"
+        },
+        {
+          "misconception": "R. Shimon ish HaMitzpah's dual requirement is easily executable once you combine the two application patterns.",
+          "correction": "Every implementation scheme tested is blocked by the same fundamental principle, that blood cannot atone twice, regardless of how the applications are ordered or combined.",
+          "correctedByStepId": "step-06"
+        }
       ],
       "relatedSugyot": [
         "yoma-15b-s01"
@@ -574,20 +642,28 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What principle blocks every proposed way of implementing R. Shimon ish HaMitzpah's dual blood-application ruling?",
-          "correct": "We have no precedent for blood that atones and then re-atones - once blood is used for one halakhic purpose, it cannot fulfill a second distinct atonement function."
+          "question": "What principle blocks every proposed way of implementing R. Shimon ish HaMitzpah's dual blood-application ruling?",
+          "answer": "We have no precedent for blood that atones and then re-atones - once blood is used for one halakhic purpose, it cannot fulfill a second distinct atonement function.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l47",
+              "vilnaLine": 47,
+              "note": "Unresolved conclusion"
+            }
+          ]
         },
         {
-          "type": "multiple_choice",
-          "q": "Why does R. Shimon ish HaMitzpah require both olah and chatat blood rites for the tamid?",
-          "choices": [
-            "The verse says 'as a chatat upon the olah of the tamid' requiring both",
-            "The tamid is a special sacrifice with no fixed category",
-            "R. Shimon argues all communal offerings are both olah and chatat",
-            "The Torah explicitly lists four corners for the tamid"
-          ],
-          "correct": "The verse says 'as a chatat upon the olah of the tamid' requiring both"
+          "question": "Why does R. Shimon ish HaMitzpah require both olah and chatat blood rites for the tamid?",
+          "answer": "The verse says 'as a chatat upon the olah of the tamid,' requiring both.",
+          "sourceRefs": [
+            {
+              "sourceType": "gemara",
+              "lineId": "yoma-15a-l27",
+              "vilnaLine": 27,
+              "note": "R. Shimon's dual-sacrifice ruling"
+            }
+          ]
         }
       ],
       "finalRuling": "Unresolved (teiku equivalent): no viable implementation of R. Shimon's dual requirement is found. The question of how to execute it remains open.",
