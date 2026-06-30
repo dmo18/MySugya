@@ -31,14 +31,22 @@
         "Yoma.23b.3"
       ],
       "display": {
+        "title": "Why Jerusalem is exempt from the unsolved-murder ritual",
         "whats": "Jerusalem does not bring the egla arufa (the calf slaughtered in a valley for an unresolved murder). The source: the verse 'you shall measure to the cities' - Jerusalem cannot be 'measured to,' either because it was not divided among the tribes (and thus has no 'city' owner) or because the Temple's presence makes the notion of unresolved guilt incompatible with the city's identity.",
         "hint": "The egla arufa ritual assumes an unsolved murder near a city whose inhabitants bear some collective guilt. Jerusalem's unique status - undivided among tribes, the city of the divine Presence - makes this ritual categorically inapplicable. The city of God cannot implicitly confess collective guilt over an unsolved murder."
       },
       "learning": {
-        "summary": "Jerusalem does not bring the egla arufa (calf for unknown murder victim). Source: 'you shall measure to the cities round about.' Jerusalem is not a normal city: it was not divided among the tribes and cannot 'belong' to any single tribe. Therefore the measurement to the nearest city has no applicability to Jerusalem. Additionally, the sanctity of the Temple Mount is incompatible with the egla arufa's presupposition of communal guilt.",
-        "ahaMoment": "The egla arufa assumes: someone was killed; no one knows who did it; the nearest city bears some collective responsibility. Jerusalem's exemption says: Jerusalem has no 'ownership' by any tribe, and the divine Presence there is incompatible with unresolved guilt. The city of atonement cannot itself need atonement through an unsolved murder ritual.",
-        "memoryAnchor": "Jerusalem: no egla arufa. Why? Not divided among tribes - no 'owner city.' Also: city of God cannot admit unresolved collective guilt.",
-        "openQuestion": "If a murder occurred in Jerusalem and the killer was unknown, what happened? The egla arufa could not be brought, but the guilt was real."
+        "learnerQuestion": "Every Israelite city that finds an unidentified murder victim nearby must perform the egla arufa atonement ritual. Why is Jerusalem the one city explicitly excused?",
+        "coreTension": "The egla arufa's mechanism only works if there is a single defined city to be 'measured to' as the nearest one to the body, since that city bears the ritual obligation. Jerusalem was deliberately never allocated to any one tribe, so the very anchor the ritual's measurement requires does not exist there.",
+        "coreMove": "The Gemara gives two independent grounds for the exemption. Textually, the verse's 'measure to the cities' language presupposes a city with a tribal owner, and Jerusalem has none. Substantively, even setting the measurement technicality aside, a ritual that publicly declares unresolved communal guilt is incompatible with the sanctity of the city housing the divine Presence.",
+        "resolution": "Jerusalem is exempt from the egla arufa on two independent grounds: it has no tribal owner to be measured to, and a ritual premised on unresolved communal guilt is incompatible with the Temple's sanctity.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A ritual obligation that depends on a specific legal category (here, tribal city ownership) does not apply where that category cannot be established, even if the underlying situation the ritual addresses could still occur."
+        },
+        "ahaMoment": "The egla arufa assumes: someone was killed; no one knows who did it; the nearest city bears some collective responsibility. Jerusalem's exemption says: Jerusalem has no ownership by any tribe, and the divine Presence there is incompatible with unresolved guilt. The city of atonement cannot itself need atonement through an unsolved murder ritual.",
+        "learningBlocker": "Learners may assume Jerusalem's exemption means murders there never went unsolved. The sugya does not address what, if anything, provided atonement for an unidentified killer within Jerusalem itself; it only establishes that this specific ritual is technically and substantively inapplicable to the city.",
+        "memoryAnchor": "Jerusalem: no egla arufa. Not divided among tribes, so no owner city to measure to. Also: city of God cannot ritually admit unresolved collective guilt."
       },
       "argumentFlow": [
         {
@@ -92,8 +100,14 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "The egla arufa is not a punishment for a city. It is a collective atonement ritual for communal responsibility over an unsolved murder. Jerusalem's exemption is categorical, not because Jerusalem is perfect, but because it does not meet the ritual's definitional requirements.",
-        "The tribal non-division of Jerusalem is a unique legal fact: other cities were given to specific tribes. Jerusalem was intentionally held in common, which has ongoing legal implications."
+        {
+          "misconception": "Jerusalem's exemption from egla arufa means the ritual is treating Jerusalem as morally superior or incapable of having unsolved murders.",
+          "correction": "The exemption is categorical and definitional: Jerusalem does not meet the ritual's requirement of a tribally-owned 'nearest city,' not a statement about Jerusalem's moral standing."
+        },
+        {
+          "misconception": "Jerusalem not being divided among the tribes is a minor administrative detail with no legal consequence.",
+          "correction": "It is a deliberate, distinct legal fact (unlike every other city, which was allocated to a specific tribe) with ongoing halachic implications, including this exemption."
+        }
       ],
       "relatedSugyot": [
         "yoma-023b-s02"
@@ -110,12 +124,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does Jerusalem not bring the egla arufa when an unidentified murder victim is found?",
-          "a": "Jerusalem was never allocated to any specific tribe - it belongs to all Israel (or to God). The egla arufa requires identifying the 'nearest city' to the victim; Jerusalem cannot be 'measured to' in the required sense because it has no tribal owner."
+          "question": "Why does Jerusalem not bring the egla arufa when an unidentified murder victim is found?",
+          "answer": "Jerusalem was never allocated to any specific tribe. The egla arufa requires identifying the 'nearest city' to the victim by tribal measurement, and Jerusalem cannot be measured to in the required sense because it has no tribal owner. The Temple's sanctity gives a second, independent reason."
         },
         {
-          "q": "What is the egla arufa?",
-          "a": "The calf whose neck is broken in a valley to atone for communal responsibility when a murder victim is found and the killer is unknown. The city nearest to the victim's body performs the ritual."
+          "question": "What two independent reasons does the Gemara give for Jerusalem's egla arufa exemption?",
+          "answer": "Textually, Jerusalem has no tribal owner to be measured to. Substantively, a ritual that declares unresolved communal guilt is incompatible with the sanctity of the city housing the divine Presence."
         }
       ],
       "finalRuling": "Jerusalem does not bring the egla arufa: it was not divided among the tribes and its sanctity is incompatible with the ritual.",
