@@ -612,6 +612,10 @@ body::before {
   margin: 0 0 6px;
   color: var(--ink);
 }
+.sugya-title-fallback {
+  font-style: italic;
+  opacity: 0.88;
+}
 .sugya-title-he {
   font-family: var(--ff-hebrew);
   font-size: 1.15rem;
@@ -875,6 +879,7 @@ body::before {
 .learn-q { font-weight: 600; }
 .learn-takeaway { background: var(--tint); border-radius: 4px; padding: 8px 10px; }
 .learn-aha { font-style: italic; }
+.learn-panel-fallback { border-style: dashed; }
 
 /* Mobile sugya comprehension collapse */
 .mobile-understanding {

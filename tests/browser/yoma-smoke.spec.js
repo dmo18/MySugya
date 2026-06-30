@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const DAF_2A = '/index.html?module=yoma&daf=2a';
+const DAF_19B = '/index.html?module=yoma&daf=19b';
 
 function collectPageErrors(page) {
   const errors = [];
@@ -43,5 +44,32 @@ test.describe('Yoma daf smoke test', () => {
     expect(dataMode).toBe('mist');
     const dataAccent = await page.evaluate(() => document.documentElement.getAttribute('data-accent'));
     expect(dataAccent).toBe('gold');
+  });
+});
+
+test.describe('Yoma legacy-schema fallback (daf 19b)', () => {
+  test('renders non-blank sugya titles and fallback learning content', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+
+    await page.goto(DAF_19B);
+    await expect(page.locator('.sugya')).toHaveCount(3);
+
+    const titles = await page.locator('.sugya-title').allTextContents();
+    expect(titles).toHaveLength(3);
+    for (const title of titles) {
+      expect(title.trim().length).toBeGreaterThan(0);
+    }
+
+    // 19b predates the canonical display/learning schema, so titles must come
+    // from the fallback derivation, not display.title.
+    await expect(page.locator('.sugya-title-fallback')).toHaveCount(3);
+
+    // Each sugya renders its understanding panel twice (desktop block plus the
+    // mobile <details> fold); scope to the desktop block to count per-sugya.
+    const fallbackPanels = page.locator('.desktop-understanding .learn-panel-fallback');
+    await expect(fallbackPanels).toHaveCount(3);
+    await expect(fallbackPanels.first().locator('.learn-row')).not.toHaveCount(0);
+
+    expect(pageErrors).toEqual([]);
   });
 });

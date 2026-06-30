@@ -562,6 +562,23 @@ function ArgumentFlowDisclosure({ steps }) {
   );
 }
 
+// Sugyot missing display.title (see LearningPanel above) still have
+// display.whats or learning.summary. Derive a short heading from whichever
+// is present instead of rendering an empty <h3>. Truncates at a word
+// boundary near 80 characters; this is a label derived from existing data,
+// never invented text.
+function deriveFallbackTitle(display, learning) {
+  const source = (display && display.whats) || (learning && learning.summary) || (display && display.hint) || "";
+  const trimmed = source.trim();
+  if (!trimmed) return "Untitled sugya";
+  const LIMIT = 80;
+  if (trimmed.length <= LIMIT) return trimmed;
+  const cut = trimmed.slice(0, LIMIT);
+  const lastSpace = cut.lastIndexOf(" ");
+  const snippet = lastSpace > 40 ? cut.slice(0, lastSpace) : cut;
+  return snippet.trim() + "...";
+}
+
 function SugyaWhats({ whats }) {
   if (!whats) return null;
   return (
@@ -572,12 +589,20 @@ function SugyaWhats({ whats }) {
   );
 }
 
+// Sugyot enriched before the canonical display/learning schema landed (see
+// shared/schema_map.js) carry only learning.ahaMoment, learning.memoryAnchor,
+// learning.summary, and learning.openQuestion, never learnerQuestion/coreTension/
+// takeaway. hasCanonicalCore distinguishes the two shapes so the panel can show
+// real legacy content under honest labels instead of going blank while those
+// sugyot await a backfill pass.
 function LearningPanel({ learning, display }) {
   if (!learning) return null;
-  const { learnerQuestion, coreTension, takeaway, ahaMoment } = learning;
-  if (!learnerQuestion && !takeaway) return null;
+  const { learnerQuestion, coreTension, takeaway, ahaMoment, memoryAnchor, summary, openQuestion } = learning;
+  const hasCanonicalCore = !!learnerQuestion || !!(takeaway && takeaway.text);
+  const hasFallbackContent = !!ahaMoment || !!memoryAnchor || !!summary || !!openQuestion;
+  if (!hasCanonicalCore && !hasFallbackContent) return null;
   return (
-    <div className="learn-panel learn-meta">
+    <div className={"learn-panel learn-meta" + (hasCanonicalCore ? "" : " learn-panel-fallback")}>
       {learnerQuestion && (
         <div className="learn-row">
           <span className="learn-label">Learner question</span>
@@ -602,6 +627,24 @@ function LearningPanel({ learning, display }) {
           <p className="learn-aha">{ahaMoment}</p>
         </div>
       )}
+      {memoryAnchor && (
+        <div className="learn-row">
+          <span className="learn-label">Memory anchor</span>
+          <p>{memoryAnchor}</p>
+        </div>
+      )}
+      {!hasCanonicalCore && summary && (
+        <div className="learn-row">
+          <span className="learn-label">Summary</span>
+          <p>{summary}</p>
+        </div>
+      )}
+      {!hasCanonicalCore && openQuestion && (
+        <div className="learn-row">
+          <span className="learn-label">Open question</span>
+          <p>{openQuestion}</p>
+        </div>
+      )}
     </div>
   );
 }
@@ -621,7 +664,8 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
   const whats    = display.whats  || sugya.whats;
   const oneLine  = display.oneLine;
   const hint     = display.hint   || sugya.hint;
-  const title    = display.title  || sugya.title;
+  const titleIsFallback = !display.title;
+  const title    = display.title  || deriveFallbackTitle(display, learning);
 
   // Aggregate narrative quiz questions (stories)
   const narrativeQuizzes = useMemo(() => {
@@ -643,7 +687,7 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
           <span>SUGYA · {idx + 1} of {total}</span>
           <ShareButton sugya={sugya} />
         </div>
-        <h3 className="sugya-title">{title}</h3>
+        <h3 className={"sugya-title" + (titleIsFallback ? " sugya-title-fallback" : "")}>{title}</h3>
         {sugya.title_he && <p className="sugya-title-he" dir="rtl">{sugya.title_he}</p>}
 
         {oneLine && <p className="sugya-one-line">{oneLine}</p>}

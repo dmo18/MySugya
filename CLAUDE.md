@@ -167,6 +167,7 @@ npm run validate:en:yoma
 npm run validate:daftext:yoma
 npm run validate:rashi:yoma
 npm run validate:literal:yoma
+npm run validate:schema:yoma
 ```
 
 Or directly from `modules/yoma/`:
@@ -178,7 +179,10 @@ python3 scripts/validate_en.py
 python3 scripts/validate_daftext.py
 python3 scripts/validate_rashi.py
 python3 scripts/validate_literal.py
+python3 scripts/validate_schema_completeness.py
 ```
+
+`validate_sefaria.py`, `order_audit.py`, `validate_en.py`, `validate_daftext.py`, `validate_rashi.py`, and `validate_literal.py` all check the Gemara SOURCE text layer (he/en/Vilna alignment). `validate_schema_completeness.py` checks a different layer: whether each sugya's enrichment JSON carries the `display`/`learning` fields that `shared/schema_map.js` declares required and that `app.jsx` renders as the sugya heading and the LearningPanel. It does not check source text alignment at all, and a sugya can pass every other gate while still failing this one if its enrichment predates the canonical display/learning schema. This gate is not currently wired into the default `npm test` chain because the corpus has a known backlog of legacy-schema sugyot pending a backfill pass; run it manually to see current completeness status.
 
 ---
 
