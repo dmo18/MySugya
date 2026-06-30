@@ -141,6 +141,23 @@ def emit_line(line_src, line_id, sefaria_ref, cont="            "):
     vilna_line MUST sit on a separate physical line from he: order_audit pairs
     them across lines and warns NO-STAMP if both share one line. `cont` is the
     continuation indent for the 2nd and 3rd physical lines.
+
+    Field-layout contract: the he, en, en_lit (inserted later by
+    build_literal_layer.py, between en and sefaria_ref), kind, vilna_line,
+    and sefaria_ref fields below are read by modules/yoma/scripts/_js_parser.py
+    and every validator built on it (validate_literal.py, validate_en.py,
+    validate_daftext.py, order_audit.py). If this layout changes - field
+    names, field order, or where en_lit is inserted - review _js_parser.py
+    and test_js_parser.py together with the validators before regenerating
+    learning_data.js.
+
+    commentaries is emitted here as a flat object with always-empty arrays
+    (rashi: [], tosafot: []); the actual Rashi content for a daf lives in
+    the separate rashiLines array built by load_rashi_lines() below, not
+    nested inside this object. If nested commentary content is ever added
+    directly inside a line object's commentaries field, test_js_parser.py
+    must gain coverage for it, since iter_line_object_spans() depth-tracks
+    through commentaries on the assumption that it stays a small flat block.
     """
     he = line_src["he"]
     en = line_src["en"] if line_src["en"] is not None else ""
@@ -160,6 +177,14 @@ def load_rashi_lines(daf, enrich):
     (editorial helper translation - NOT Sefaria-validated). Every emitted line is
     stamped enSource: "ai_helper_translation", confidence: "helper" so downstream
     tutor/image/learning tools know the English is a helper, not a source layer.
+
+    Field order contract: "id" is emitted first in the dict below, and js()
+    preserves dict insertion order, so "id" lands first in the generated
+    object. validate_rashi.py's extract_rashi() splits the rashiLines array
+    into per-object segments on the boundary before each `id: "rashi-` match
+    (re.split with a lookahead), which only works correctly if "id" appears
+    once per object and is not preceded by other fields that could confuse
+    the split. Keep "id" first if validate_rashi.py still depends on this.
     """
     td_path = TALMUDDEV_DIR / f"{daf}.json"
     if not td_path.exists():
@@ -356,7 +381,10 @@ def main():
     out.append("   Learning layer:    assets/learning/yoma/<daf>.learning.json")
     out.append("   ============================================ */")
     out.append('// Tractate Yoma: 8 chapters (scope: 2a-88a). Perek boundaries: 1(2a-21b), 2(22a-28a), 3(28b-39b), 4(39b-47b), 5(47b-57b), 6(57b-68b), 7(68b-73b), 8(73b-88a)')
-    out.append(f'const DATA_VERSION = "{version}";        // single version source; synced to VERSION/package.json/index.html by pre-commit')
+    # DATA_VERSION is this module's data-layer version, independent from the
+    # platform VERSION in repo root unless policy changes; it is not synced
+    # by scripts/sync_version.py and has no required relationship to it.
+    out.append(f'const DATA_VERSION = "{version}";        // module data-layer version, independent from platform VERSION')
     out.append('const DATA_SCHEMA_VERSION = "1.0";   // sugya/line object shape version')
     out.append('const LEARNING_DATA_VERSION = DATA_VERSION;')
     out.append("const TRACTATE_META = " + js(meta, indent=0) + ";")

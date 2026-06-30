@@ -14,6 +14,13 @@ the parser. This replaces ad-hoc DOTALL one-level-nesting patterns.
 
 Functions are scoped to this repo's emitted format. They do not attempt to
 parse arbitrary JavaScript.
+
+This is one half of a contract documented on the emitter side: see the
+docstrings of emit_line() and load_rashi_lines() in build_learning_data.py.
+If the emitted line-object or rashiLines layout changes, review this module
+and test_js_parser.py together with the validators that depend on it
+(validate_literal.py, validate_en.py, validate_daftext.py, validate_rashi.py,
+order_audit.py).
 """
 
 from __future__ import annotations
