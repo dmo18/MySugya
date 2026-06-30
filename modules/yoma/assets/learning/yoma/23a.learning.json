@@ -384,14 +384,22 @@
         "Yoma.23a.16"
       ],
       "display": {
+        "title": "Through a legal technicality: how the crowd learned the stabbed priest survived",
         "whats": "There was once an incident: two priests raced up the altar ramp; one was within four amot of the top when the other pushed him, breaking his leg. While the court was examining the question of who should perform the service, the fallen priest's father came forward and said: 'My son is still alive, so the knife is not impure.' This taught everyone that the fallen priest was still alive. The Sages then concluded: it was not disgrace of the wounded priest but of his father's words that taught people he was still alive.",
         "hint": "The father's statement ('my son is still alive') was intended as a halakhic comment about the knife - but functionally it was an expression of relief. The Gemara notes the crowd did not realize the priest was alive until the father made his halakhic comment. The Sages drew a lesson: even in crisis, halachic sensitivity remained the operative frame."
       },
       "learning": {
-        "summary": "A priest was stabbed on the altar ramp. As he lay there, the court was unsure who should now perform the service. The wounded priest's father publicly announced: 'My son is still alive' - establishing this not out of parental concern but because he was worried the knife stuck in his son would contract corpse impurity if his son died. The crowd realized he was alive. The Sages instituted the lottery from this incident.",
-        "ahaMoment": "The father's announcement is one of the strangest moments in the Talmud: his son is lying stabbed on the altar ramp, and his public statement is about knife impurity. Yet this 'callousness' saved his son (the crowd now knew he was alive). The Gemara is not critical - it simply records the incident as revealing deep halachic commitment.",
-        "memoryAnchor": "Priest stabbed on ramp. Court unsure who serves. Father says 'son still alive' - meaning: knife not impure. Crowd learns son is alive.",
-        "openQuestion": "Was the father's halakhic statement a failure of human empathy, or evidence that Temple-era priests lived in a genuinely different psychological framework where halachic categories were primary?"
+        "learnerQuestion": "This same incident was already mentioned back on 22a. What does this fuller telling add that the earlier summary left out?",
+        "coreTension": "Beyond the violence itself, the court faced an immediate procedural problem: with the assigned priest lying wounded and his fate uncertain, did his claim on the service lapse so another priest could be assigned? Answering that required knowing whether he was alive, and the court had no direct way to learn this in the chaos.",
+        "coreMove": "The father did not step forward to report his son's condition. He stepped forward to make a halakhic statement: the knife embedded in his son could not yet be ritually impure, since impurity from a corpse only attaches once death has occurred. That legal claim only made sense if his son was still alive, so the crowd extracted the medical fact from the halakhic reasoning, not the other way around.",
+        "resolution": "The crowd learned the priest was alive only indirectly, through his father's legal statement about the knife. The Sages drew the further conclusion that a competitive system capable of producing this kind of crisis had to be replaced, and instituted the lottery permanently.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A halakhic statement can carry factual information as a side effect of its legal logic. Here the only way the crowd learned the priest was alive was by working backward from a claim that made sense only if he were."
+        },
+        "ahaMoment": "The father's announcement is one of the strangest moments in the Talmud: his son is lying stabbed on the altar ramp, and his public statement is about knife impurity. Yet this apparent detachment is exactly what informed the crowd that the priest had survived. The Gemara is not critical of him; it records the incident as evidence of how completely halachic categories framed even a moment of crisis.",
+        "learningBlocker": "Learners who already saw this incident summarized on 22a may treat this telling as redundant. The added detail here is the court's specific procedural dilemma (whether the service had lapsed) and the precise mechanism by which the truth reached the crowd, namely deduction from a legal claim, not a direct report.",
+        "memoryAnchor": "Priest stabbed on ramp. Court unsure if his service lapsed. Father says 'knife isn't impure', which only makes sense if his son is alive. Crowd deduces the priest survived."
       },
       "argumentFlow": [
         {
@@ -476,8 +484,14 @@
         "yoma-022a-s02"
       ],
       "misconceptions": [
-        "The incident described here is slightly different from the one on 22a: here a priest is stabbed with a knife, and the father makes the knife-impurity statement. On 22a the same incident is summarized. Here it is told in full detail.",
-        "The lottery was not instituted specifically to prevent stabbing - it was instituted because the entire competitive system created conditions where violence was inevitable."
+        {
+          "misconception": "This is a separate, different stabbing incident from the one mentioned on 22a.",
+          "correction": "It is the same incident. 22a summarizes it briefly; this sugya tells it in full detail, including the court's procedural dilemma over whether the wounded priest's service had lapsed."
+        },
+        {
+          "misconception": "The lottery was instituted specifically to prevent stabbing on the ramp.",
+          "correction": "It was instituted because the entire competitive racing system created conditions where violence was inevitable, not as a narrow fix for this one weapon or this one act."
+        }
       ],
       "relatedSugyot": [
         "yoma-022a-s02",
@@ -495,12 +509,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How did the crowd learn that the stabbed priest was still alive?",
-          "a": "His father came forward and announced: 'My son is still alive, and therefore the knife has not contracted corpse impurity.' This halakhic statement about the knife inadvertently informed the crowd that the priest had survived."
+          "question": "How did the crowd actually learn that the stabbed priest was still alive?",
+          "answer": "Not from a direct report. His father announced that the knife had not contracted corpse impurity, a claim that only made sense if his son was alive, so the crowd deduced the priest's survival from that legal reasoning."
         },
         {
-          "q": "What institutional change resulted from the stabbing incident?",
-          "a": "The Sages instituted the lottery system (goralot) for all Temple service assignments, permanently replacing the competitive racing system that had led to violence."
+          "question": "What procedural question was the court trying to resolve while the priest lay wounded?",
+          "answer": "Whether the wounded priest's claim on the service had lapsed so another priest could be assigned in his place, which depended on whether he was still alive."
         }
       ],
       "finalRuling": "The stabbing incident led directly to the institution of the lottery system for all Temple service assignments.",
