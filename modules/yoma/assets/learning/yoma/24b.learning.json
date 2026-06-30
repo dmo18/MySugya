@@ -82,13 +82,18 @@
       ],
       "display": {
         "whats": "Services within the veil (lifnim min haparochet): which require the KG and which can be done by common priests? An analysis of the criteria: service within the veil must be done by the KG specifically on Yom Kippur; but at other times, common priests may enter the heichal for specific purposes. Blemished kohanim: may they assist with support tasks? The discussion covers the full topology of Temple service eligibility based on location, day, and physical qualifications.",
+        "title": "Two maps, not one: where you stand and what you look like both decide who may serve",
         "hint": "The veil (parochet) is the physical dividing line between the heichal (outer sanctuary) and the kodesh hakodashim (Holy of Holies). Services on each side of this line have different personnel requirements. Yom Kippur is the one day the KG enters the innermost space; the Gemara explores what this means for related services."
       },
       "learning": {
-        "summary": "Within the veil (lifnim min haparochet): on Yom Kippur, only the KG may enter the Holy of Holies. Outside the veil but inside the heichal: certain services can be done by common priests. Blemished kohanim: completely excluded from the altar area but the question of whether they can perform logistical tasks is disputed. The key distinction is between 'service' (requires unblemished kohen) and 'support' (potentially broader).",
-        "ahaMoment": "The veil is not just an architectural feature - it is a theological boundary that determines personnel requirements. Inside the veil: absolute restriction to the KG on Yom Kippur. Outside the veil in the heichal: common priests. Outside the heichal: broader participation possible. Location determines who may serve.",
-        "memoryAnchor": "Inside veil: KG only (Yom Kippur). Heichal: common priests. Courtyard: broader. Blemished kohanim: excluded from service, dispute about support.",
-        "openQuestion": "The KG entered the Holy of Holies four times on Yom Kippur. Each entry required specific conditions. The Gemara is laying the groundwork for the full Yom Kippur service description to come."
+        "learnerQuestion": "If the Holy of Holies is restricted to the Kohen Gadol and a blemished kohen is restricted from formal service, are these the same kind of restriction applied twice, or two separate rules that happen to overlap?",
+        "coreTension": "Both rules sound like 'only certain kohanim may serve here,' which invites collapsing them into one principle, yet one rule is about a place (the veil, on Yom Kippur) and the other is about a person's physical qualification (unblemished status, anywhere avodah happens). Treating them as the same rule would mispredict who may do what, and where.",
+        "coreMove": "The Gemara maps two independent axes. Location: within the veil on Yom Kippur, the KG alone; in the heichal, any common priest, all year; in the courtyard, any kosher kohen; beyond the courtyard, logistical participation broadens further. Physical qualification: a mum (blemish) disqualifies a kohen from formal avodah at any of those locations, but does not strip his general priestly status (teruma, duchaning remain his), and whether the disqualification reaches logistical support tasks (not formal avodah) is itself disputed, mirroring the non-priest support-task dispute just established for daf 24a.",
+        "resolution": "Within the veil on Yom Kippur: the Kohen Gadol only. In the heichal: any common priest. A blemished kohen is excluded from formal avodah everywhere, but retains his general priestly status, and authorities dispute whether logistical support tasks are open to him.",
+        "takeaway": {"type": "legal_principle", "text": "Location and physical qualification are independent eligibility criteria. A kohen can be barred by one and not the other, so the two restrictions must be checked separately, not assumed to track each other."},
+        "ahaMoment": "The veil is not just an architectural feature, it is a theological boundary that determines personnel requirements by location alone. The mum rule is a completely separate axis, about the person rather than the place. The same kohen who is barred from the Holy of Holies on every day but Yom Kippur, and barred from it even then unless he is the KG, is a different question entirely from whether a blemish bars him from the altar at all.",
+        "learningBlocker": "Learners may assume a blemished kohen loses his priestly identity entirely. He does not; mum disqualifies specifically from performing avodah, not from teruma or duchaning. The sugya also sets up, without yet resolving, the KG's four separate entries into the Holy of Holies on Yom Kippur itself, each governed by its own conditions, which the Gemara develops fully in the chapters describing the Yom Kippur service.",
+        "memoryAnchor": "Inside veil (Yom Kippur): KG only. Heichal: common priests. Courtyard: any kosher kohen. Blemished kohanim: barred from avodah everywhere, status otherwise intact, support tasks disputed. Two separate axes: place and person."
       },
       "argumentFlow": [
         {
@@ -240,8 +245,14 @@
         "yoma-024a-s03"
       ],
       "misconceptions": [
-        "The KG's exclusive access to the Holy of Holies applies only on Yom Kippur. Throughout the year, the heichal (outer sanctuary) is accessible to any kosher common priest.",
-        "A blemished kohen is not excluded from being a kohen - he still has all the rights and privileges. He is specifically excluded from performing the Temple service (avodah). His status as kohen for other purposes (teruma, duchaning) is unaffected."
+        {
+          "misconception": "The Kohen Gadol's exclusive access to the Holy of Holies is a year-round restriction.",
+          "correction": "It applies specifically to Yom Kippur. Throughout the rest of the year, the inner sanctuary is not entered for service at all; the heichal services are open to any kosher common priest."
+        },
+        {
+          "misconception": "A blemished kohen loses his status as a kohen entirely.",
+          "correction": "A mum excludes him only from performing formal Temple service (avodah). His general priestly status, including teruma and duchaning, is unaffected; only his eligibility to perform avodah is restricted."
+        }
       ],
       "relatedSugyot": [
         "yoma-024a-s03",
@@ -260,12 +271,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Who may perform services within the veil (lifnim min haparochet) on Yom Kippur, and what about the rest of the year?",
-          "a": "On Yom Kippur: only the Kohen Gadol may enter the Holy of Holies (within the veil). Throughout the year: the inner sanctuary is not entered for service; the heichal services (menorah, incense, showbread) are performed by common priests."
+          "question": "Who may perform services within the veil (lifnim min haparochet) on Yom Kippur, and what about the rest of the year?",
+          "answer": "On Yom Kippur: only the Kohen Gadol may enter the Holy of Holies (within the veil). Throughout the year: the inner sanctuary is not entered for service; the heichal services (menorah, incense, showbread) are performed by common priests."
         },
         {
-          "q": "What is the status of a kohen with a physical blemish (mum) regarding Temple service?",
-          "a": "A blemished kohen is excluded from performing formal Temple service (avodah) at any location. His general priestly status (teruma, duchaning) is not affected. There is a dispute about whether he may perform logistical support tasks."
+          "question": "What is the status of a kohen with a physical blemish (mum) regarding Temple service?",
+          "answer": "A blemished kohen is excluded from performing formal Temple service (avodah) at any location. His general priestly status (teruma, duchaning) is not affected. There is a dispute about whether he may perform logistical support tasks."
         }
       ],
       "finalRuling": "Within the veil on Yom Kippur: KG only. Heichal: common priests. Blemished kohanim: excluded from avodah, disputed on logistical tasks.",
@@ -328,13 +339,18 @@
       ],
       "display": {
         "whats": "The mishna's second lottery: 13 positions for the main morning service. The mishna lists all 13: slaughter, blood, removing ash from the inner altar, removing ash from the menorah, limbs in specific order, flour offering, wine libation, and final bringing to the ramp. The Gemara begins examining which of these positions could theoretically be combined and why each requires a separate designee.",
+        "title": "Thirteen priests for one offering: the lottery that turned a daily duty into shared privilege",
         "hint": "The 13-position list for the second lottery is the most complex assignment in the Temple's morning. Each position is distinct: the order matters, the vessel matters, and the moment matters. Breaking it into 13 separate lottery positions ensures both fairness and precision."
       },
       "learning": {
-        "summary": "The second lottery assigns 13 positions: (1) slaughter; (2) sprinkle blood; (3) clean inner altar of ash; (4) clean menorah of ash; (5-6) carry the head and right leg; (7-8) carry two forelegs; (9-10) carry the tail and left leg; (11) carry the breast and throat; (12) carry the flour offering; (13) carry the wine libation. Each position was assigned to a different priest, ensuring broad participation in the daily morning service.",
-        "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role. This was both a practical workflow and a mechanism for broad priestly participation.",
-        "memoryAnchor": "Second lottery: 13 positions. Slaughter, blood, inner altar ash, menorah ash, then eight carriers of limbs and offerings, plus flour and wine.",
-        "openQuestion": "Could one priest theoretically perform multiple positions if fewer than 13 were available? Or were exactly 13 required every morning?"
+        "learnerQuestion": "Why split one morning offering into 13 separate lottery positions when a smaller crew could physically perform the same service?",
+        "coreTension": "Efficiency would favor fewer priests doing more each; the mishna does the opposite, multiplying the number of distinct positions to 13 for a single offering. That choice only makes sense if the lottery is optimizing for something other than workflow efficiency.",
+        "coreMove": "The Gemara confirms that combining positions, one priest doing two or more, was theoretically possible: the tasks do not halakhically require separate hands. The 13-way split is therefore a deliberate design choice, not a functional necessity, aimed at maximizing how many priests could share in performing the daily tamid each morning.",
+        "resolution": "One priest could, in principle, perform multiple of the 13 positions, but the lottery system deliberately assigned all 13 separately every morning to distribute participation in the daily offering as broadly as possible.",
+        "takeaway": {"type": "conceptual", "text": "A ritual's procedural structure can be designed to distribute participation rather than to minimize the number of participants."},
+        "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering, not because the task demanded it, but because the system wanted it. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role, by design.",
+        "learningBlocker": "Learners may assume the 13 positions are mandated by the physical complexity of the offering itself. The Gemara's own analysis shows otherwise: combination was theoretically available, and the granularity is a deliberate fairness mechanism, not a functional requirement of the offering.",
+        "memoryAnchor": "Second lottery: 13 positions, by design not necessity. Slaughter, blood, inner altar ash, menorah ash, then carriers of limbs and offerings, plus flour and wine. Splitting maximized participation."
       },
       "argumentFlow": [
         {
@@ -408,8 +424,14 @@
         "yoma-022b-s02"
       ],
       "misconceptions": [
-        "The 13 positions were not optional - each morning the lottery assigned all 13. Having a full slate of priests was required for the daily service.",
-        "The inner altar ash and menorah ash removal were separate positions (not covered by the first lottery's ash removal). The first lottery covers only the outer altar ash."
+        {
+          "misconception": "Combining positions was impossible, so 13 separate priests were physically required.",
+          "correction": "The Gemara establishes that combination was theoretically possible. The 13-way split was a deliberate choice to maximize participation, not a functional necessity of the offering."
+        },
+        {
+          "misconception": "The first lottery's ash removal already covers the inner altar and menorah ash, so the second lottery's ash positions are redundant.",
+          "correction": "The first lottery covers only the outer altar ash. Inner altar ash removal and menorah ash removal are distinct positions assigned in the second lottery."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s02",
@@ -427,12 +449,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many positions were in the second lottery, and what types of tasks did they cover?",
-          "a": "13 positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine positions carrying the animal limbs and supplementary offerings (flour, wine) to the altar."
+          "question": "How many positions were in the second lottery, and what types of tasks did they cover?",
+          "answer": "13 positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine positions carrying the animal limbs and supplementary offerings (flour, wine) to the altar."
         },
         {
-          "q": "Why were 13 separate positions required for the morning service rather than having fewer priests do multiple tasks?",
-          "a": "To maximize priestly participation in the daily tamid service. Each position was distinct, and the lottery system was designed to distribute the privilege broadly among the available priests."
+          "question": "Why were 13 separate positions required for the morning service rather than having fewer priests do multiple tasks?",
+          "answer": "To maximize priestly participation in the daily tamid service. Each position was distinct, and the lottery system was designed to distribute the privilege broadly among the available priests."
         }
       ],
       "finalRuling": "The second lottery assigned 13 separate positions covering the complete morning tamid service, from slaughter through final carrying to the altar.",

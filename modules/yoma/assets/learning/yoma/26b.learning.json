@@ -380,14 +380,21 @@
         "Yoma.26b.1"
       ],
       "display": {
+        "title": "Closing the lottery chapter: one last line before the priest-count mishna",
         "whats": "Final conclusion of the previous lottery discussion before the new mishna.",
         "hint": "Transitional passage."
       },
       "learning": {
-        "summary": "Brief conclusion completing the previous page's discussion about lottery assignment before presenting the mishna on priest numbers.",
+        "learnerQuestion": "What is this brief closing line doing before the mishna on priest counts begins?",
+        "coreTension": "The lottery discussion spanning the prior daf needs a clean endpoint before the Gemara can move to a completely different topic - how many priests serve each offering.",
+        "coreMove": "This line supplies that endpoint, finishing the lottery-assignment debate so the priest-count mishna can open without unresolved business from the previous topic.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A short closing line at a topic boundary is doing real structural work even though it adds no new content - it signals that one sugya is fully resolved before the next begins."
+        },
         "ahaMoment": "The Gemara ties up one discussion before moving to another - no topic is left hanging.",
-        "memoryAnchor": "Quick closure before the next major section.",
-        "openQuestion": "How does this conclusion connect to the priest-count mishna?"
+        "learningBlocker": "It would be a mistake to look for a substantive teaching in this line beyond its function as a closing transition - the lottery topic it concludes is already settled by what came before.",
+        "memoryAnchor": "Quick closure before the next major section."
       },
       "argumentFlow": [
         {
@@ -417,7 +424,10 @@
         "lottery system"
       ],
       "misconceptions": [
-        "This is the main content of 26b - it is only a brief transition."
+        {
+          "misconception": "This is the main content of 26b.",
+          "correction": "It is only a brief transition that closes the previous page's lottery discussion before the priest-count mishna begins."
+        }
       ],
       "relatedSugyot": [
         "yoma-026a-s04"
@@ -431,8 +441,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the function of the brief passage at the start of 26b?",
-          "a": "It concludes the previous lottery discussion before introducing the priest-count mishna."
+          "question": "What is the function of the brief passage at the start of 26b?",
+          "answer": "It concludes the previous lottery discussion before introducing the priest-count mishna."
         }
       ],
       "finalRuling": "Transitional.",
@@ -507,14 +517,22 @@
         "Yoma.26b.12"
       ],
       "display": {
+        "title": "Nine in the morning, eleven by afternoon: counting priests, and proving the afternoon tamid from a doubled word",
         "whats": "The Mishna counts nine priests for the morning tamid and eleven for the afternoon. The Gemara asks when wine libations were offered and derives the source for the afternoon offering from doubled biblical language.",
         "hint": "The afternoon tamid has more priests than the morning because libations and wood-carrying require extra hands after midday."
       },
       "learning": {
-        "summary": "The mishna specifies the nine priests for the morning tamid and eleven for the afternoon. R. Abba (others: Rami bar Chama, R. Yochanan) teaches that on festival days, wine libations were added - implying water libations only on Sukkot. R. Shimon ben Yochai derives the obligation for the afternoon tamid from a doubly repeated phrase in Leviticus 6. The Gemara traces each extra afternoon priest to specific added tasks. R. Chiyya's tradition of sometimes thirteen priests is reconciled with R. Eliezer ben Yaakov's system.",
+        "learnerQuestion": "Why does the afternoon tamid need two more priests than the morning tamid, and why does the Torah need a doubled phrase to even establish that an afternoon offering is required at all?",
+        "coreTension": "Nothing about the daily routine makes an afternoon offering self-evidently necessary on its own logic - if the Torah had only written the command once, it would most naturally be read as describing the morning offering alone.",
+        "coreMove": "R. Shimon ben Yochai locates the afternoon tamid's requirement in the doubled phrase 'in the morning, in the morning' in Leviticus 6. The Gemara tests this: maybe both instances of 'morning' just describe the morning offering twice, redundantly. The resolution is that redundancy is exactly the textual signal the Gemara relies on - if a single instance would already cover the morning, the second instance must be teaching something beyond it, namely those same tasks performed again in the afternoon. The extra two priests in the afternoon then trace to specific added tasks (such as additional lamp-related work) that simply do not arise in the morning service.",
+        "resolution": "The Torah's explicit doubling is necessary precisely because the afternoon offering's existence is not derivable from the routine's own logic - it is a separate textual requirement, not an obvious inference, which is why the derivation has to lean on the doubled language rather than common sense.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When a law cannot be derived from practical logic alone, the Gemara looks for a textual marker like redundant phrasing to ground the requirement in the verse itself - extra priests for extra tasks follow once the underlying obligation is established this way."
+        },
         "ahaMoment": "The afternoon tamid has more priests not because the service is more complex - but because the afternoon also includes clearing additional lamps and performing extra tasks that don't occur in the morning.",
-        "memoryAnchor": "Morning = 9 priests. Afternoon = 11. The extra 2 handle the additional tasks that only happen later in the day.",
-        "openQuestion": "Why does the Torah need a doubled phrase to establish the afternoon offering? Couldn't we derive it from the logic of the daily routine?"
+        "learningBlocker": "It is easy to assume the afternoon tamid's extra priests reflect a generally heavier afternoon workload, when the sugya actually traces each extra priest to specific, named additional tasks rather than to an overall increase in complexity.",
+        "memoryAnchor": "Morning = 9 priests. Afternoon = 11. The extra 2 handle the additional tasks that only happen later in the day."
       },
       "argumentFlow": [
         {
@@ -623,8 +641,14 @@
         "Sukkot water libation"
       ],
       "misconceptions": [
-        "The afternoon tamid had more priests because the afternoon service was more complex - the extra priests handled tasks (like certain lamp clearings) that happened to occur in the afternoon.",
-        "Wine libations were offered every day with the tamid - R. Abba's teaching implies they were added only on festival days."
+        {
+          "misconception": "The afternoon tamid had more priests because the afternoon service was inherently more complex.",
+          "correction": "The extra priests handled specific additional tasks (like certain lamp clearings) that happened to occur only in the afternoon - it is not a general complexity difference."
+        },
+        {
+          "misconception": "Wine libations were offered every day with the tamid.",
+          "correction": "R. Abba's teaching implies they were added only on festival days, distinct from the water libations unique to Sukkot."
+        }
       ],
       "relatedSugyot": [
         "yoma-025a-s02",
@@ -644,12 +668,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many priests served in the morning tamid vs the afternoon tamid?",
-          "a": "Nine priests for the morning tamid and eleven for the afternoon."
+          "question": "How many priests served in the morning tamid vs the afternoon tamid?",
+          "answer": "Nine priests for the morning tamid and eleven for the afternoon."
         },
         {
-          "q": "What does R. Shimon ben Yochai use as his biblical source for the afternoon tamid obligation?",
-          "a": "The doubled expression 'in the morning, in the morning' (Leviticus 6) - the repetition teaches that both morning and afternoon services are required."
+          "question": "What does R. Shimon ben Yochai use as his biblical source for the afternoon tamid obligation?",
+          "answer": "The doubled expression 'in the morning, in the morning' (Leviticus 6) - the repetition teaches that both morning and afternoon services are required."
         }
       ],
       "finalRuling": "Nine priests for morning tamid, eleven for afternoon. The afternoon service is biblically mandated from the doubled morning phrase.",
@@ -689,14 +713,21 @@
         "Yoma.26b.16"
       ],
       "display": {
+        "title": "Eleven hands for one ram: where communal and individual offerings part ways, and where they don't",
         "whats": "A communal ram burnt-offering required eleven priests. The Gemara establishes that flaying and cutting are equal for individual and communal offerings, and derives this from a biblical analogy.",
         "hint": "Communal and individual offerings are treated identically for the physical processing steps (flaying, cutting)."
       },
       "learning": {
-        "summary": "The mishna establishes that the communal ram burnt-offering required eleven priests, each with a specific task. The Gemara notes that individual and communal offerings are equal regarding flaying and cutting. Hizkiya derives this equality from a biblical comparison. The specific details of which limbs were assigned to which priests for the communal ram are listed.",
+        "learnerQuestion": "If communal offerings have special rules for slaughter and blood-sprinkling, why are flaying and cutting treated exactly the same as for an individual's offering?",
+        "coreTension": "Communal offerings clearly differ from individual ones in significant ways - eleven priests for one ram is itself evidence of special communal treatment - so it is not obvious why the physical butchering steps would be exempt from that same differentiation.",
+        "coreMove": "Hizkiya grounds the equality in a direct verse-to-verse biblical comparison, establishing that flaying and cutting follow the same rule regardless of whether the offering is individual or communal, even though the elaborate eleven-priest distribution for slaughter-adjacent and sprinkling-adjacent tasks remains specific to the communal context.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A single offering can be communal for some halakhic purposes (like priest distribution and possibly slaughter/sprinkling rules) while remaining governed by the ordinary individual-offering rules for others (like flaying and cutting) - status is not all-or-nothing across every stage of the process."
+        },
         "ahaMoment": "Individual and communal offerings might have different rules for slaughter and sprinkling (because communal offerings have special rules), but the physical processing steps (flaying and cutting) are identical.",
-        "memoryAnchor": "Flaying and cutting = same rules for all. Slaughter and blood-sprinkling = potentially different by offering type.",
-        "openQuestion": "Since communal offerings have special rules for slaughter and sprinkling, why should the physical butchering be treated identically to individual offerings?"
+        "learningBlocker": "The sugya supplies Hizkiya's textual source for the equality but does not explain the conceptual reason flaying and cutting specifically were singled out as identical while slaughter and sprinkling were not - that deeper rationale is not addressed in this passage.",
+        "memoryAnchor": "Flaying and cutting = same rules for all. Slaughter and blood-sprinkling = potentially different by offering type."
       },
       "argumentFlow": [
         {
@@ -763,8 +794,14 @@
         "flaying and cutting process"
       ],
       "misconceptions": [
-        "Communal offerings had entirely different rules for all steps - only slaughter and blood-sprinkling differ; flaying and cutting use the same rules as individual offerings.",
-        "Eleven priests were needed for the communal ram for the same reasons as the afternoon tamid - each offering type has its own specific distribution logic."
+        {
+          "misconception": "Communal offerings had entirely different rules for all steps.",
+          "correction": "Only slaughter and blood-sprinkling differ; flaying and cutting use the same rules as individual offerings."
+        },
+        {
+          "misconception": "Eleven priests were needed for the communal ram for the same reasons as the afternoon tamid's extra priests.",
+          "correction": "Each offering type has its own specific distribution logic - the communal ram's eleven-priest structure is not simply borrowed from the tamid's task division."
+        }
       ],
       "relatedSugyot": [
         "yoma-026b-s02",
@@ -784,12 +821,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many priests participated in the communal ram burnt-offering?",
-          "a": "Eleven priests, each assigned specific tasks."
+          "question": "How many priests participated in the communal ram burnt-offering?",
+          "answer": "Eleven priests, each assigned specific tasks."
         },
         {
-          "q": "For which steps are communal and individual offerings treated identically?",
-          "a": "Flaying and cutting - these steps are the same regardless of whether the offering is individual or communal."
+          "question": "For which steps are communal and individual offerings treated identically?",
+          "answer": "Flaying and cutting - these steps are the same regardless of whether the offering is individual or communal."
         }
       ],
       "finalRuling": "Communal ram requires eleven priests. Individual and communal offerings are equal for flaying and cutting.",

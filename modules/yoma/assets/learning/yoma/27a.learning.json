@@ -394,14 +394,22 @@
         "Yoma.27a.13"
       ],
       "display": {
+        "title": "Where the priesthood begins: mapping every tamid step against the blood threshold",
         "whats": "The Gemara systematically derives which Temple services require a kohen and which a non-priest may perform. Slaughter is valid by non-priests; wood arrangement and limb placement on the fire require priests; flaying and cutting are open to non-priests.",
         "hint": "The dividing line is the blood: everything from blood-collection onward requires a priest; the physical preparation (slaughter, flaying, cutting) can be done by non-priests."
       },
       "learning": {
-        "summary": "Building on Hizkiya's principle that individual and communal offerings are equal for flaying and cutting, the Gemara asks whether this means non-priests may flay. A systematic analysis follows: from the verse 'the sons of Aaron shall lay out the pieces, the head and the fat' - the phrase 'the sons of Aaron' is the teacher that only priests may place limbs on the fire. But flaying and cutting, which come before the blood service, are open to non-priests. The key principle: from blood-collection onward is exclusively priestly. Abaye probes what exactly 'from blood onward' includes. Rav Hamnuna notes that the limb-placement verse is actually about a young bull, not the tamid lamb - this difficulty is raised and noted.",
+        "learnerQuestion": "Given that slaughter, flaying, and cutting are valid when done by a non-priest, exactly where does the line fall - which steps still demand a kohen, and how does the Gemara prove it verse by verse?",
+        "coreTension": "Hizkiya's equality principle for flaying and cutting might seem to suggest non-priests could perform any preparatory Temple task, but the Gemara's own verses single out wood-arrangement and limb-placement as requiring 'the sons of Aaron' specifically - so the equality clearly has limits that need to be mapped precisely.",
+        "coreMove": "The Gemara works through the verses one at a time: 'the sons of Aaron shall lay out the pieces' teaches that limb-placement on the fire requires priests; 'the priest shall burn wood' teaches the same for wood-arrangement; Abaye probes how far 'from blood-collection onward' extends as the priestly boundary. Rav Hamnuna then raises a textual difficulty - the limb-placement verse the Gemara has been using is actually written about a young bull offering, not the tamid lamb - which puts pressure on whether the derivation transfers cleanly to the tamid at all.",
+        "resolution": "The dividing line is blood-collection: every step before it (slaughter, flaying, cutting) is valid when performed by a non-priest, while every step from blood-collection onward (collection, sprinkling, wood-arrangement, limb-placement) requires a priest, each established by its own verse rather than a single blanket rule.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A halakhic boundary that sounds like one simple rule (priests only past the blood) is actually built from several independent textual derivations, each covering one specific task - the rule's elegance is a conclusion, not the Gemara's starting assumption."
+        },
         "ahaMoment": "The boundary is the blood: once the animal's blood is touched, priestly status is required for everything that follows. Before the blood is collected, a non-priest can participate.",
-        "memoryAnchor": "Think of the blood as a gate: once a priest opens it (collects the blood), only priests may pass through for all subsequent service. Before the gate, anyone can help.",
-        "openQuestion": "If a non-priest performs the blood-collection, does the offering become invalid retroactively, or is it only the non-priest who has transgressed while the offering remains valid?"
+        "learningBlocker": "The sugya does not address what happens to the offering itself if a non-priest does perform the blood-collection - whether the offering is retroactively invalidated or only the non-priest has transgressed is not discussed here.",
+        "memoryAnchor": "Think of the blood as a gate: once a priest opens it (collects the blood), only priests may pass through for all subsequent service. Before the gate, anyone can help."
       },
       "argumentFlow": [
         {
@@ -519,9 +527,18 @@
         "blood service"
       ],
       "misconceptions": [
-        "Slaughter of the tamid requires a kohen - the Gemara establishes that non-priests may slaughter the tamid (the offering is still valid).",
-        "All Temple tasks require a priest - the Talmud carefully distinguishes: slaughter, flaying, and cutting can be done by non-priests; blood service and limb-arrangement on the fire cannot.",
-        "Flaying and cutting require priests - these steps are valid when performed by non-priests."
+        {
+          "misconception": "Slaughter of the tamid requires a kohen.",
+          "correction": "The Gemara establishes that non-priests may slaughter the tamid and the offering remains valid."
+        },
+        {
+          "misconception": "All Temple tasks require a priest.",
+          "correction": "The Talmud carefully distinguishes: slaughter, flaying, and cutting can be done by non-priests; blood service and limb-arrangement on the fire cannot."
+        },
+        {
+          "misconception": "Flaying and cutting require priests.",
+          "correction": "These steps fall before the blood threshold and are valid when performed by non-priests."
+        }
       ],
       "relatedSugyot": [
         "yoma-026b-s03",
@@ -542,12 +559,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Can a non-priest slaughter the tamid offering? Is the offering valid?",
-          "a": "Yes - slaughter of the tamid by a non-priest is valid. The offering is not disqualified."
+          "question": "Can a non-priest slaughter the tamid offering? Is the offering valid?",
+          "answer": "Yes - slaughter of the tamid by a non-priest is valid. The offering is not disqualified."
         },
         {
-          "q": "What is the 'blood threshold' in Temple service?",
-          "a": "From blood-collection onward, all services require a priest. Steps before the blood is collected (slaughter, flaying, cutting) can be performed by non-priests."
+          "question": "What is the 'blood threshold' in Temple service?",
+          "answer": "From blood-collection onward, all services require a priest. Steps before the blood is collected (slaughter, flaying, cutting) can be performed by non-priests."
         }
       ],
       "finalRuling": "Non-priests may slaughter, flay, and cut Temple offerings; these steps are valid. Blood-collection, sprinkling, wood arrangement on the fire, and limb placement all require priests.",

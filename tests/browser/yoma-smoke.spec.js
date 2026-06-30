@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const DAF_2A = '/index.html?module=yoma&daf=2a';
 const DAF_19B = '/index.html?module=yoma&daf=19b';
 const DAF_23A = '/index.html?module=yoma&daf=23a';
-const DAF_24A = '/index.html?module=yoma&daf=24a';
+const DAF_87B = '/index.html?module=yoma&daf=87b';
 
 function collectPageErrors(page) {
   const errors = [];
@@ -49,11 +49,11 @@ test.describe('Yoma daf smoke test', () => {
   });
 });
 
-test.describe('Yoma legacy-schema fallback (daf 24a)', () => {
+test.describe('Yoma legacy-schema fallback (daf 87b)', () => {
   test('renders non-blank sugya titles and fallback learning content', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
-    await page.goto(DAF_24A);
+    await page.goto(DAF_87B);
     await expect(page.locator('.sugya')).toHaveCount(3);
 
     const titles = await page.locator('.sugya-title').allTextContents();
@@ -62,7 +62,7 @@ test.describe('Yoma legacy-schema fallback (daf 24a)', () => {
       expect(title.trim().length).toBeGreaterThan(0);
     }
 
-    // 24a predates the canonical display/learning schema, so titles must come
+    // 87b predates the canonical display/learning schema, so titles must come
     // from the fallback derivation, not display.title.
     await expect(page.locator('.sugya-title-fallback')).toHaveCount(3);
 

@@ -37,13 +37,18 @@
       ],
       "display": {
         "whats": "The four garments for ash removal are elaborated: they are the same four standard priestly garments but one-quarter the fabric (smaller, worn). The verse source: 'and he shall put on his linen garments' - this teaches that the ash removal garments are the same type but worn versions. The rabbinic tradition clarifies they must still be valid, proper priestly vestments - just not the finest.",
+        "title": "One-quarter the fabric, the same priestly status: the worn garments of ash removal",
         "hint": "The one-quarter size detail is important: the worn garments are literally smaller versions of the standard four. This is not just old fabric - it is a scaled-down set of valid vestments. The distinction matters because one might think any old clothes would suffice; in fact, proper (if smaller) priestly garments are required."
       },
       "learning": {
-        "summary": "The four ash-removal garments are one-quarter the fabric of the standard four priestly garments. They are proper priestly vestments (valid for service) but smaller and worn. The verse 'and he shall put on his linen garments' teaches that both sets must be 'linen garments' (the same type). The worn garments were likely the KG's own worn vestments from previous services.",
-        "ahaMoment": "The ash removal garments are not a lesser category - they are real priestly vestments, just smaller. The parallel to the regular garments is maintained in type, just not in quality/size. This preserves the priestly character of even the most mundane Temple task.",
-        "memoryAnchor": "Ash removal garments = one-quarter size, same type. Worn but valid. Still real bigdei kehuna.",
-        "openQuestion": "Did the KG use his own worn garments from previous years for the ash removal? Or were there dedicated 'worn garment' vestments maintained for this purpose?"
+        "learnerQuestion": "If the ash-removal garments are smaller and visibly worn, what stops them from being just ordinary clothes the priest changes into for a dirty job?",
+        "coreTension": "Smaller and worn sounds like a step outside priestly dress entirely, yet the Gemara grounds the requirement in the very same verse that governs the regular service garments, suggesting the worn garments are not an exception to priestly dress but a reduced-scale application of it.",
+        "coreMove": "'And he shall put on his linen garments' is read to govern both the regular service and the ash removal: the same word, the same type of garment, requiring a kohen in valid linen vestments for both. The only difference the Gemara identifies is quantity, one-quarter the fabric, and condition, worn through use, not category. The tradition attributes the wear itself to the kohen gadol's own prior years' garments naturally filling this role as they aged, rather than to a separately manufactured 'worn garment' set.",
+        "resolution": "The ash-removal garments are the same four types of valid priestly vestments required for regular service, made from one-quarter the fabric and worn through prior use. They remain real bigdei kehuna throughout the ash-removal service.",
+        "takeaway": {"type": "legal_principle", "text": "A garment's priestly validity depends on its type and verse-derived source, not on its size or condition. Smaller and worn does not mean disqualified."},
+        "ahaMoment": "The most unglamorous Temple task did not get a holiness downgrade in personnel or dress category, only a quantity downgrade. The priest removing ash is fully a priest in valid priestly dress the entire time.",
+        "learningBlocker": "Learners may treat the four ash-removal garments as a separately manufactured fixed category. The Gemara's own account is that they were the kohen gadol's prior years' garments, worn down through use, not items specially produced to look worn; 'worn' describes their history, not their original design.",
+        "memoryAnchor": "Ash removal garments: same 4 types, same verse, one-quarter fabric, worn through use, not separately made. Still valid bigdei kehuna - smaller, not lesser in kind."
       },
       "argumentFlow": [
         {
@@ -108,8 +113,14 @@
         "yoma-023b-s02"
       ],
       "misconceptions": [
-        "The worn garments are not regular clothes or second-hand ordinary fabric. They are actual bigdei kehuna (priestly vestments) made of the same materials, just smaller and used.",
-        "The Gemara does not say these garments were dirty or degraded - just smaller and worn. A priest wearing them was still in valid priestly service attire."
+        {
+          "misconception": "The worn garments are regular clothes or second-hand ordinary fabric rather than priestly vestments.",
+          "correction": "They are actual bigdei kehuna (priestly vestments) made of the same materials and type as the regular four, just one-quarter the fabric and worn from use."
+        },
+        {
+          "misconception": "The garments were dirty or degraded, marking ash removal as a lesser, less dignified service.",
+          "correction": "The Gemara does not describe them as dirty or degraded, only smaller and worn. A priest wearing them was still in fully valid priestly service attire."
+        }
       ],
       "relatedSugyot": [
         "yoma-023b-s02"
@@ -126,12 +137,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What were the ash removal garments, and how did they differ from the standard priestly garments?",
-          "a": "They were the same four types of priestly garments (linen vestments) but one-quarter the fabric - smaller and worn. They were still valid priestly vestments, just not the finest quality."
+          "question": "What were the ash removal garments, and how did they differ from the standard priestly garments?",
+          "answer": "They were the same four types of priestly garments (linen vestments) but one-quarter the fabric - smaller and worn. They were still valid priestly vestments, just not the finest quality."
         },
         {
-          "q": "What verse establishes that the ash removal garments must be proper linen vestments?",
-          "a": "'And he shall put on his linen garments' (Leviticus 6:3) - the word 'linen garments' applies both to the regular service and to the ash removal, requiring proper vestments for both."
+          "question": "What verse establishes that the ash removal garments must be proper linen vestments?",
+          "answer": "'And he shall put on his linen garments' (Leviticus 6:3) - the word 'linen garments' applies both to the regular service and to the ash removal, requiring proper vestments for both."
         }
       ],
       "finalRuling": "Ash removal garments are one-quarter the size of standard priestly garments but must still be valid linen priestly vestments. Worn but proper.",
@@ -164,13 +175,18 @@
       ],
       "display": {
         "whats": "How much ash must be removed in the morning terumat hadeshen? A full fistful - specifically, the ash is taken into the golden pan (machta) designed for this purpose. The quantity is halakhically fixed: the fistful must be from the top of the altar heap, not from the sides, and the pan must not overflow.",
+        "title": "Gold for ash: the exact fistful and the vessel that dignifies it",
         "hint": "The golden pan for ash removal adds a dignity element: even the ash is collected in a golden vessel. The requirement that the fistful come from the top (where the most recent ash is) rather than from the sides has a practical reason - the top ash is lighter and cleaner."
       },
       "learning": {
-        "summary": "The quantity for terumat hadeshen: a full fistful (male kumtzo) placed in the golden pan (machta shel zahav). The ash must come from the top of the accumulated pile, not from the sides. The pan must not overflow. This is a precise, fixed quantity - not a flexible amount.",
-        "ahaMoment": "The use of a golden pan for ash removal is striking - gold for ash! This signals that even the most unglamorous Temple service (cleaning ash) is performed with maximum dignity and with sacred vessels.",
-        "memoryAnchor": "Ash removal quantity: fistful in gold pan. From top of heap. No overflow.",
-        "openQuestion": "Why a golden pan specifically for ash? What does using a costly vessel for cleaning communicate about Temple theology?"
+        "learnerQuestion": "Why does ash, the least valuable substance on the altar, get collected in a golden vessel?",
+        "coreTension": "A golden pan for ash looks like a mismatch between the value of the vessel and the value of its contents, unless the vessel's purpose has nothing to do with what the ash is worth.",
+        "coreMove": "The Gemara fixes the procedure with precision: a full fistful, taken specifically from the top of the pile rather than the sides, placed into the machta shel zahav so that the pan does not overflow. The exactness of the requirement, not the ash's value, is what the golden pan marks: a designated, dignified vessel for a designated, exact quantity, turning ash removal into a defined ritual act rather than ordinary housekeeping.",
+        "resolution": "Terumat hadeshen requires a full fistful taken from the top of the ash pile, deposited into the machta shel zahav, the golden pan reserved for this purpose, without overflowing it.",
+        "takeaway": {"type": "conceptual", "text": "A sacred vessel's value signals the dignity of the act being performed, not the value of what it holds."},
+        "ahaMoment": "Gold for ash stops looking like a contradiction once the pan is read as honoring the act of ash removal as a defined Temple ritual, not the ash itself.",
+        "learningBlocker": "Learners may assume the fistful is an approximate handful. The requirement is exact: specifically from the top of the pile, filling but not overflowing the pan, the same precision the Gemara applies to far more visibly central Temple measurements.",
+        "memoryAnchor": "Fistful from the top of the pile, into the machta shel zahav (golden pan). Precise quantity, dignified vessel, defined ritual act."
       },
       "argumentFlow": [
         {
@@ -208,8 +224,14 @@
         "yoma-023b-s02"
       ],
       "misconceptions": [
-        "The golden pan was not improvised - it was a dedicated Temple vessel specifically manufactured for the ash removal service.",
-        "The fistful must be from the top of the accumulated ash, not scooped from the sides. This is a specific halachic requirement."
+        {
+          "misconception": "The golden pan was an improvised vessel, not a dedicated Temple object.",
+          "correction": "The machta shel zahav was a dedicated Temple vessel specifically manufactured for the ash removal service, not an improvised container."
+        },
+        {
+          "misconception": "Any handful of ash from the pile satisfies the fistful requirement.",
+          "correction": "The fistful must be taken specifically from the top of the accumulated ash, not scooped from the sides. This is a specific halachic requirement, not a loose approximation."
+        }
       ],
       "relatedSugyot": [
         "yoma-023b-s02"
@@ -222,8 +244,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "In what vessel is the ash placed during the terumat hadeshen, and from where on the altar must the ash come?",
-          "a": "The ash is placed in the machta shel zahav (golden pan). The ash must come from the top of the accumulated heap, not from the sides."
+          "question": "In what vessel is the ash placed during the terumat hadeshen, and from where on the altar must the ash come?",
+          "answer": "The ash is placed in the machta shel zahav (golden pan). The ash must come from the top of the accumulated heap, not from the sides."
         }
       ],
       "finalRuling": "A fistful of ash from the top of the altar heap is placed in the golden pan. Fixed quantity, specific location.",
@@ -276,13 +298,18 @@
       ],
       "display": {
         "whats": "Can non-priests (Israelites or Levites) perform certain ancillary Temple tasks? The Gemara examines a list of Temple support activities: slaughter (non-priests can do it), receiving the blood (priests only), carrying wood, carrying ashes from the ramp to the ash pit. A dispute between Tannaim: R. Elazar says all Israel is valid for these support tasks; R. Shimon argues that once the formal service is complete, non-priests may help with subsequent carrying.",
+        "title": "Where the priesthood's monopoly ends: which Temple tasks anyone can do",
         "hint": "The boundary between 'service' (avodah) requiring priests and 'support tasks' permissible for non-priests is a fundamental Temple law question. The rule: any act that is inherent to the offering (blood sprinkling, burning) requires priests. Carrying wood to the fire or ash away from the ramp may be classified as logistical support, not formal avodah."
       },
       "learning": {
-        "summary": "Which Temple tasks may non-priests perform? Slaughter of offerings: any Israelite may slaughter (the priest receives the blood). Carrying wood to the altar fire: debate - some say priests only, others say non-priests may help. Carrying ash from the ramp to the ash pit: R. Elazar permits non-priests; others limit it to priests. The governing principle: formal avodah (service) is priests-only; support logistics may be broader.",
-        "ahaMoment": "The line between 'service' and 'support' in the Temple is not always obvious. Slaughter is clearly service-like, yet any Israelite can do it (the priest's role begins with blood reception). Carrying ash away is clearly logistical, yet it happened within the Temple complex. The Gemara draws these lines carefully.",
-        "memoryAnchor": "Non-priests may: slaughter, carry wood (per some), carry ash from ramp to pit. Non-priests may NOT: receive blood, sprinkle blood, burn on altar.",
-        "openQuestion": "If non-priests may perform some Temple tasks, what is the theological significance of requiring priests for others? Is it about the act's sanctity or about priestly status?"
+        "learnerQuestion": "If the priesthood exists to perform Temple service, why can any Israelite slaughter the daily offering?",
+        "coreTension": "Slaughter looks like exactly the kind of act that should require a priest, since it initiates the entire offering process, yet the Gemara permits any Israelite to perform it, while other support tasks like carrying wood or ash are genuinely disputed. The line between priests-only and open-to-all does not track how central a task feels to the offering.",
+        "coreMove": "The Gemara locates the boundary at the offering's actual sanctification, not at proximity to the altar or to the offering process generally. The priest's defined role begins with receiving the blood, the act that converts the slaughtered animal into a sacred offering; slaughter itself, though necessary, does not yet perform that sanctification, so it falls outside the priests-only category. Wood-carrying and ash-carrying are then debated using the same test: is the act inherent to the offering's sanctification (priests only), or merely logistical support around it (open to non-priests)?",
+        "resolution": "Non-priests may slaughter the daily offering; receiving its blood is the priest's defined, non-delegable role. Carrying wood to the altar fire and carrying ash from the ramp to the ash pit remain disputed, judged by the same inherent-to-the-offering criterion.",
+        "takeaway": {"type": "legal_principle", "text": "The boundary between priests-only and open-to-all Temple tasks runs through whether the act itself sanctifies the offering, not through how essential or how close to the altar the task feels."},
+        "ahaMoment": "Slaughter is clearly central to the offering, yet any Israelite can do it, because the priest's mandatory role begins specifically with receiving the blood. Carrying ash away feels purely logistical, yet it is genuinely disputed. The Gemara is not ranking tasks by how important they feel; it is asking one narrow question of each: does this act sanctify the offering?",
+        "learningBlocker": "Learners may assume every task performed inside the Temple complex requires priestly status. The sugya's principle is narrower: only acts inherent to the offering's sanctification (blood reception, sprinkling, burning) are reserved for priests; logistical tasks, even ones that feel sacred by association, can be open to dispute or open to non-priests entirely.",
+        "memoryAnchor": "Priests-only: receiving blood, sprinkling, burning, ketoret. Open to non-priests: slaughter (settled). Disputed: wood carrying, ash carrying from ramp to pit."
       },
       "argumentFlow": [
         {
@@ -357,8 +384,14 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "The fact that non-priests can slaughter does not mean it is not important. The slaughter is a proper part of the offering; it is simply not reserved for priests.",
-        "The dispute about wood-carrying is not merely practical - it reflects a fundamental question about whether any part of the altar-fire process is inherently priestly."
+        {
+          "misconception": "If non-priests can slaughter, the slaughter must not be an important or fully valid part of the offering.",
+          "correction": "Slaughter is a proper, necessary part of the offering; it is simply not reserved for priests. Importance and priestly-only status are not the same thing."
+        },
+        {
+          "misconception": "The dispute about wood-carrying is a minor practical detail with no real stakes.",
+          "correction": "The dispute reflects a fundamental question about whether any part of the altar-fire process is inherently priestly, the same inherent-to-the-offering test applied throughout the sugya."
+        }
       ],
       "relatedSugyot": [
         "yoma-023b-s02"
@@ -375,12 +408,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Which Temple task may be performed by a non-priest (Israelite), and which task specifically requires a priest?",
-          "a": "Non-priests may slaughter the daily offering. Receiving the blood from the slaughter is specifically reserved for priests - that is the mandatory priestly role in the offering."
+          "question": "Which Temple task may be performed by a non-priest (Israelite), and which task specifically requires a priest?",
+          "answer": "Non-priests may slaughter the daily offering. Receiving the blood from the slaughter is specifically reserved for priests - that is the mandatory priestly role in the offering."
         },
         {
-          "q": "What is R. Elazar's ruling about carrying ash from the altar ramp to the ash pit?",
-          "a": "Once the formal ash removal mitzvah is completed (placing ash beside the ramp), the subsequent carrying to the ash pit outside may be done by non-priests, since it is logistical support rather than formal avodah."
+          "question": "What is R. Elazar's ruling about carrying ash from the altar ramp to the ash pit?",
+          "answer": "Once the formal ash removal mitzvah is completed (placing ash beside the ramp), the subsequent carrying to the ash pit outside may be done by non-priests, since it is logistical support rather than formal avodah."
         }
       ],
       "finalRuling": "Slaughter is valid by non-priests; blood reception requires priests. Carrying ash from ramp to pit: R. Elazar permits non-priests once the formal mitzvah is complete.",

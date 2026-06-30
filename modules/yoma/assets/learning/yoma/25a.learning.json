@@ -408,13 +408,18 @@
       ],
       "display": {
         "whats": "Whether priests wore sacred garments during the lottery - and Abaye's geometric proof that the Chamber of Hewn Stone straddled the sacred/non-sacred boundary.",
+        "title": "A garment dispute turns into an architectural proof: pinpointing where the Chamber of Hewn Stone stood",
         "hint": "The garments the priests wore reveal the precise architectural layout of the Temple precinct."
       },
       "learning": {
-        "summary": "Rav Sheshet argues that priests wore sacred garments during the lottery, citing a baraita about the headdress (mitznefet). The Gemara rejects this since non-sacred mitres exist. Abaye pivots: the same baraita proves that the Chamber of Hewn Stone had a doorway into the sacred precinct AND a doorway into the non-sacred zone - it straddled the border. This explains how priests could simultaneously be in the chamber (non-sacred) while wearing only the sacred trousers (required for the sacred area).",
-        "ahaMoment": "The same debate about garments becomes an architectural proof: the Chamber of Hewn Stone had to span the sacred-to-non-sacred boundary, with doors opening in both directions.",
-        "memoryAnchor": "Imagine the Chamber of Hewn Stone as a building split exactly down the middle by the Temple wall - one half sacred, one half not.",
-        "openQuestion": "Why does the Talmud care precisely where the Sanhedrin's chamber sat? What practical halachic difference does the boundary location make?"
+        "learnerQuestion": "Does it matter, halachically, exactly which patch of ground the Sanhedrin's Chamber of Hewn Stone stood on?",
+        "coreTension": "An architectural detail like a building's exact footprint sounds like antiquarian trivia, yet the Gemara builds a full deductive proof to pin it down, which only makes sense if the boundary carries real legal weight rather than being incidental description.",
+        "coreMove": "The geography question is downstream of the garments question. Sacred precincts require sacred garments; if the chamber where the lottery convened touches that precinct, the priests' attire while inside it needs explaining. Abaye reasons from the same baraita Rav Sheshet cited: the only way the details fit is if the Chamber of Hewn Stone has doorways opening into both the sacred and the non-sacred zones, meaning the building itself straddles the boundary.",
+        "resolution": "The Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both zones. This is established as architectural fact, but the Gemara does not spell out every further halachic consequence that follows from the boundary's exact location.",
+        "takeaway": {"type": "conceptual", "text": "A precise geographic boundary can carry real halachic weight whenever garment, entry, or conduct rules are zone-dependent; the boundary is not merely descriptive."},
+        "ahaMoment": "A debate that started as 'what did the priests wear' ends as a geometric proof about a building's footprint, because in a Temple where dress is governed by zone, pinning down the zone pins down the dress requirement too.",
+        "learningBlocker": "Learners may expect the Gemara to state outright why the chamber's location matters practically. It does not generalize beyond the proof itself: it establishes where the boundary runs, using the garments dispute as its evidence, without separately stating every downstream consequence of that boundary.",
+        "memoryAnchor": "Imagine the Chamber of Hewn Stone as a building split exactly down the middle by the Temple wall, one half sacred, one half not, proven from a dispute about priestly headdresses."
       },
       "argumentFlow": [
         {
@@ -494,8 +499,14 @@
         "Temple court layout"
       ],
       "misconceptions": [
-        "The lottery winners, not non-winners, are described shedding garments - actually Rav Sheshet says it is the non-winners who shed their sacred garments after losing.",
-        "The Chamber of Hewn Stone (Lishkat HaGazit) is commonly thought to be entirely outside the sacred precincts - the Gemara proves it straddled the boundary with doors on both sides."
+        {
+          "misconception": "The mishna describes the lottery winners shedding their sacred garments.",
+          "correction": "Rav Sheshet reads the mishna as describing the non-winners, who shed their sacred garments after failing to win a task."
+        },
+        {
+          "misconception": "The Chamber of Hewn Stone (Lishkat HaGazit) sat entirely outside the sacred precincts.",
+          "correction": "Abaye's proof from the garment baraita establishes that it straddled the sacred/non-sacred boundary, with doorways opening on both sides."
+        }
       ],
       "relatedSugyot": [
         "yoma-023a-s02",
@@ -515,12 +526,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "According to Rav Sheshet, which priests does the mishna describe removing their garments after the lottery?",
-          "a": "The non-winners who had worn sacred garments and now removed them after failing to win a task."
+          "question": "According to Rav Sheshet, which priests does the mishna describe removing their garments after the lottery?",
+          "answer": "The non-winners who had worn sacred garments and now removed them after failing to win a task."
         },
         {
-          "q": "What architectural fact does Abaye deduce from the lottery garment baraita?",
-          "a": "That the Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both areas."
+          "question": "What architectural fact does Abaye deduce from the lottery garment baraita?",
+          "answer": "That the Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both areas."
         }
       ],
       "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone, which sat at the sacred-to-non-sacred boundary. The practical question of whether failures to follow garment protocol invalidate service remains unresolved.",
@@ -561,13 +572,18 @@
       ],
       "display": {
         "whats": "The Mishna lists the thirteen tasks assigned by the second daily lottery. Ben Azzai transmits a different tradition for the order in which the tamid's limbs were carried up to the altar.",
+        "title": "Thirteen fixed tasks, then a competing tradition: Ben Azzai's alternate order for the tamid's limbs",
         "hint": "The second lottery assigned 13 tasks covering the entire tamid service from slaughter through limb-carrying."
       },
       "learning": {
-        "summary": "The second lottery determined thirteen tasks: who slaughters, who sprinkles the blood, who removes ashes from the inner altar, who removes ash from the menorah's five lamps, and who carries each part of the tamid's body up to the ramp. The mishna specifies which limbs were paired for carrying. Ben Azzai, before Rabbi Akiva, transmits Rabbi Yehoshua's alternate sequence for bringing up the limbs.",
-        "ahaMoment": "The thirteen lottery positions are not arbitrary - each maps to a distinct moment in the tamid service sequence, showing how precisely choreographed the daily Temple routine was.",
-        "memoryAnchor": "Think of the thirteen tasks as 13 roles in a precisely choreographed performance: each priest has one job, one moment, one position.",
-        "openQuestion": "Why does Ben Azzai's tradition differ from the mishna's sequence? Does the difference reflect an actual historical change in Temple practice, or a disagreement about how to read the same source?"
+        "learnerQuestion": "If the mishna already lays out a fixed order for carrying the tamid's limbs, why does Ben Azzai introduce a competing sequence in Rabbi Yehoshua's name?",
+        "coreTension": "A precisely choreographed list, thirteen tasks, exact limb pairings, reads like settled law, yet a named tanna immediately offers a different sequence attributed to an earlier authority. That is a strange thing to transmit if the order were simply fixed fact with nothing left to debate.",
+        "coreMove": "The Gemara registers Ben Azzai's tradition as a real, attributed alternative, not a casual variant, and then opens its own structural question: was the lottery that assigned these thirteen tasks a single lottery, or were some tasks, like the incense, assigned separately? The sequence dispute and the lottery-structure question are connected: both probe how rigid versus how negotiated the Temple's daily choreography actually was.",
+        "resolution": "The mishna's sequence is followed as the operative practice for carrying the tamid's limbs. Ben Azzai's competing tradition, transmitted in Rabbi Yehoshua's name, remains a live point of debate that the Gemara carries forward rather than resolving here.",
+        "takeaway": {"type": "conceptual", "text": "An operative mishnaic sequence and a transmitted minority tradition can stand side by side in the text without the Gemara forcing an immediate resolution between them."},
+        "ahaMoment": "The thirteen lottery positions are not arbitrary; each maps to a distinct moment in the tamid service. Yet even a routine this precisely choreographed still carries an unresolved alternate tradition about its own order, showing the choreography was transmitted, and contested, not simply self-evident.",
+        "learningBlocker": "Learners may expect the Gemara to settle here whether Ben Azzai's order reflects an actual historical change in Temple practice or just a different reading of the same source. The sugya does not decide this; it carries the question forward into the next daf.",
+        "memoryAnchor": "Thirteen lottery tasks, mishna's order operative; Ben Azzai (in Rabbi Yehoshua's name) transmits a different limb-carrying order, an open dispute, not yet resolved."
       },
       "argumentFlow": [
         {
@@ -636,8 +652,14 @@
         "lottery system"
       ],
       "misconceptions": [
-        "The second lottery assigned only a few tasks - it actually assigned thirteen distinct roles covering the entire morning tamid from slaughter to limb-carrying.",
-        "Ben Azzai's different order is his own opinion - it is actually a tradition he received from Rabbi Yehoshua."
+        {
+          "misconception": "The second lottery assigned only a few tasks.",
+          "correction": "It assigned thirteen distinct roles covering the entire morning tamid service, from slaughter through carrying every limb."
+        },
+        {
+          "misconception": "Ben Azzai's different order is his own independent opinion.",
+          "correction": "It is a received tradition, transmitted in the name of Rabbi Yehoshua, not Ben Azzai's own innovation."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s02",
@@ -657,12 +679,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many tasks did the second daily lottery assign?",
-          "a": "Thirteen tasks, covering the full tamid service from slaughter through carrying all the limbs."
+          "question": "How many tasks did the second daily lottery assign?",
+          "answer": "Thirteen tasks, covering the full tamid service from slaughter through carrying all the limbs."
         },
         {
-          "q": "In whose name did Ben Azzai transmit his alternate limb-order tradition?",
-          "a": "In the name of Rabbi Yehoshua."
+          "question": "In whose name did Ben Azzai transmit his alternate limb-order tradition?",
+          "answer": "In the name of Rabbi Yehoshua."
         }
       ],
       "finalRuling": "The mishna's sequence is the operative practice; Ben Azzai's tradition opens a debate continued on 25b.",

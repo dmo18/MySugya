@@ -406,13 +406,18 @@
       ],
       "display": {
         "whats": "Can one priest perform both the slaughter and the blood-sprinkling of the tamid? Multiple baraitot are cited but the question remains open.",
+        "title": "Grouped lottery, not merged roles: why the coal-pan precedent cannot settle slaughter and sprinkling",
         "hint": "R. Chiyya's baraita ultimately settles that no separate lottery is held for each individual task."
       },
       "learning": {
-        "summary": "The Gemara asks whether the second lottery assigned slaughter and blood-sprinkling as one combined role (to the same priest) or separate roles. A baraita from R. Yehuda seems to say the coal-pan and incense are combined, but the Gemara rejects this analogy: coal and incense must be done together by one person because they are physically inseparable. Another reading of the baraita suggests incense specifically requires a new priest each time. R. Chiyya's explicit baraita resolves: no lottery is held for each individual service task.",
-        "ahaMoment": "The coal-pan and incense are inseparable not just in practice but as a combined 'single service' - this distinction between intrinsically linked services and separable ones drives the legal analysis.",
-        "memoryAnchor": "Coal-pan and incense are like one glove - you can't hold the coal without the incense going in, so they must be one role. The tamid's slaughter and blood-sprinkling are two separate steps.",
-        "openQuestion": "If the Gemara decides no separate lottery is held for each task, does that mean one priest always does both slaughter and blood-collection?"
+        "learnerQuestion": "Why does a baraita about combining the coal-pan and incense roles fail to settle whether slaughter and blood-sprinkling can also go to the same priest?",
+        "coreTension": "Any precedent for combining two Temple tasks under one lottery winner looks like it should generalize to other task pairs, yet the Gemara refuses to extend the coal-and-incense precedent to slaughter and sprinkling.",
+        "coreMove": "The Gemara distinguishes physically inseparable acts, the coal-pan and incense must happen as one continuous motion by one person, from sequential but distinct acts like slaughter and blood-sprinkling. R. Chiyya's explicit ruling that no per-task lottery is held then settles the structural question: tasks are grouped together in a single lottery round, but grouping the lottery is not the same as proving one priest performs every task in the group.",
+        "resolution": "No separate lottery is held for each individual task; related tasks are grouped together in one lottery round. Whether slaughter and blood-collection specifically fall to the same priest is a separate question, taken up immediately afterward.",
+        "takeaway": {"type": "legal_principle", "text": "A shared lottery round does not by itself prove that the same priest performs every task within it. Physically inseparable tasks must be combined; which priest performs each sequential task is determined by separate criteria."},
+        "ahaMoment": "The coal-pan and incense are inseparable not just in practice but as a single combined service; that distinction between intrinsically linked services and separable ones, not the lottery's grouping, is what drives the legal analysis.",
+        "learningBlocker": "Learners may read 'no per-task lottery' as meaning one priest does everything assigned in that lottery round. The grouping is a procedural fact about how the lottery is conducted; which specific priest performs which task within the group is answered separately, and the Gemara goes on to establish that the blood collector is the sprinkler, not the slaughterer.",
+        "memoryAnchor": "Coal-pan and incense are like one glove, you cannot hold the coal without the incense going in, so they must be one role. Slaughter and blood-sprinkling are two separate steps; grouped lottery, not automatically merged roles."
       },
       "argumentFlow": [
         {
@@ -489,8 +494,14 @@
         "ketoret (incense) offering"
       ],
       "misconceptions": [
-        "The coal-pan and incense require two lottery slots - they are actually a single inseparable act assigned to one priest.",
-        "The incense lottery was the same as all others - actually incense always went to a new priest (first-timer rule), making it unique."
+        {
+          "misconception": "The coal-pan and incense require two separate lottery slots.",
+          "correction": "They are a single inseparable act, physically requiring one continuous motion, and are assigned to one priest."
+        },
+        {
+          "misconception": "The incense lottery worked the same as all other task lotteries.",
+          "correction": "Incense always went to a new priest (a first-timer rule), making its lottery treatment unique among the grouped tasks."
+        }
       ],
       "relatedSugyot": [
         "yoma-026a-s02",
@@ -510,12 +521,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why can't the coal-pan/incense analogy prove that slaughter and blood-sprinkling can go to one priest?",
-          "a": "Coal-pan and incense are physically inseparable - one person must do both simultaneously. Slaughter and blood-sprinkling are distinct sequential acts."
+          "question": "Why can't the coal-pan/incense analogy prove that slaughter and blood-sprinkling can go to one priest?",
+          "answer": "Coal-pan and incense are physically inseparable - one person must do both simultaneously. Slaughter and blood-sprinkling are distinct sequential acts."
         },
         {
-          "q": "What does R. Chiyya's baraita establish about how the lottery worked?",
-          "a": "No separate lottery is held for each individual service task - tasks were grouped and assigned together."
+          "question": "What does R. Chiyya's baraita establish about how the lottery worked?",
+          "answer": "No separate lottery is held for each individual service task - tasks were grouped and assigned together."
         }
       ],
       "finalRuling": "R. Chiyya's baraita establishes that no per-task lottery was held; the question of who collected the blood is addressed in the next sugya.",
@@ -561,13 +572,18 @@
       ],
       "display": {
         "whats": "Who collects the tamid's blood - the sprinkler or the slaughterer? The Gemara proves it must be the same priest who sprinkles.",
+        "title": "Filling the mishna's silence: why the blood collector must also be the sprinkler",
         "hint": "Continuity of blood service from collection through sprinkling matters: one priest should handle the blood throughout."
       },
       "learning": {
-        "summary": "The mishna lists 'who sprinkles the blood' but doesn't say who collects it. The Gemara reasons: the sprinkler should also collect the blood, because maintaining continuity from collection through sprinkling avoids the risk of the blood becoming invalid while being transferred. Multiple proofs are cited - from the number of priests mentioned in the Tamid mishna, and from a direct baraita. Rav Acha son of Rava adds another source.",
-        "ahaMoment": "Blood that remains in one priest's hands from collection through sprinkling has unbroken chain of custody - the service integrity requires this single-handler approach.",
-        "memoryAnchor": "The blood collector = the blood sprinkler: think of it as handing off a live object - the less it changes hands, the less risk of invalidation.",
-        "openQuestion": "What would happen if the slaughterer inadvertently collected the blood? Could he then hand it to the designated sprinkler, or would the service be invalidated?"
+        "learnerQuestion": "If the mishna only names who sprinkles the blood, why does the Gemara insist the very same priest must have collected it too?",
+        "coreTension": "The mishna's silence about who collects the blood could just as easily mean the slaughterer, already standing at the animal, collects it; instead the Gemara reads that silence as assuming a stricter single-handler rule.",
+        "coreMove": "Multiple independent proofs, the priest count implied by the Tamid mishna, a direct baraita, and Rav Acha son of Rava's additional source, all converge on the same answer: continuity of custody. Blood that changes hands between collection and sprinkling carries the same invalidation risk the Gemara guards against in other blood services, so the mishna's silence is read as presupposing the sprinkler collects, not as leaving the question open.",
+        "resolution": "The priest who sprinkles the tamid's blood on the altar is the same priest who collected it after slaughter; continuity of custody from collection through sprinkling is the operative rule.",
+        "takeaway": {"type": "legal_principle", "text": "Where a source text is silent about a transitional step, the Gemara reads that silence through governing principles already established elsewhere, here continuity of blood-service custody, rather than treating the silence as permission to deviate."},
+        "ahaMoment": "Blood that stays in one priest's hands from collection through sprinkling has unbroken chain of custody; the service's integrity, not the mishna's wording alone, is what drives the single-handler reading.",
+        "learningBlocker": "Learners may wonder what happens if the slaughterer collects the blood by mistake, whether it could simply be handed to the designated sprinkler. The sugya does not address this contingency; its proofs establish the standard procedure, that the sprinkler collects, not the consequences of a deviation from it.",
+        "memoryAnchor": "The blood collector equals the blood sprinkler: one priest, unbroken custody, from neck to altar corner."
       },
       "argumentFlow": [
         {
@@ -635,8 +651,14 @@
         "zerikah (sprinkling)"
       ],
       "misconceptions": [
-        "The slaughterer naturally collects the blood since he is already at the animal - the Gemara establishes it is the designated sprinkler who must collect.",
-        "Blood collection and sprinkling are always separate roles - they must be done by the same person to maintain service continuity."
+        {
+          "misconception": "The slaughterer naturally collects the blood since he is already standing at the animal.",
+          "correction": "The Gemara establishes it is the designated sprinkler, not the slaughterer, who must collect the blood."
+        },
+        {
+          "misconception": "Blood collection and sprinkling are separate roles that can go to different priests.",
+          "correction": "They must be performed by the same priest, to maintain unbroken continuity of the blood service."
+        }
       ],
       "relatedSugyot": [
         "yoma-025a-s02",
@@ -656,12 +678,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Who collects the blood in the tamid service - the slaughterer or the sprinkler?",
-          "a": "The sprinkler, who collects the blood and then sprinkles it himself to maintain continuity of the blood service."
+          "question": "Who collects the blood in the tamid service - the slaughterer or the sprinkler?",
+          "answer": "The sprinkler, who collects the blood and then sprinkles it himself to maintain continuity of the blood service."
         },
         {
-          "q": "What is the practical concern behind having one priest do both blood collection and sprinkling?",
-          "a": "To prevent the blood from becoming invalid through delay or improper transfer between priests."
+          "question": "What is the practical concern behind having one priest do both blood collection and sprinkling?",
+          "answer": "To prevent the blood from becoming invalid through delay or improper transfer between priests."
         }
       ],
       "finalRuling": "The priest who sprinkles the blood on the altar is the same priest who collected it after slaughter.",
@@ -712,13 +734,18 @@
       ],
       "display": {
         "whats": "Ben Azzai disputes the mishna's order of carrying tamid limbs; Rabbi Akiva explains they go in cutting order; Rava proves all tannaim agree the head goes first. The right leg always accompanies the head.",
+        "title": "A three-way dispute that turns out to be one agreement: Rava on why the head always leads",
         "hint": "The sequence of limbs to the altar reflects both anatomical logic and the principle that the most significant limb (the head) leads."
       },
       "learning": {
-        "summary": "The mishna has Ben Azzai disputing the standard limb-carrying order. Rabbi Akiva says limbs go up in the order they were cut during the skinning - starting with the head. R. Yosei HaGelili adds that 'every good piece' (the head) must go first based on a verse in Leviticus. Rava reconciles the opinions: all tannaim agree the head goes up first; they only disagree on the subsequent order. The right leg goes up with the head because the right side is always more significant.",
-        "ahaMoment": "Rava's reconciliation shows that what looks like a fundamental dispute is actually agreement on the core principle - the head always leads - with disagreement only on the details of what follows.",
-        "memoryAnchor": "All tannaim: head first, right leg alongside - like a general leading a march, the 'head' of the animal goes before everything else.",
-        "openQuestion": "Does the order of carrying limbs to the altar affect the validity of the tamid offering, or is it only a procedural preference (l'chatechila vs b'dieved)?"
+        "learnerQuestion": "If Ben Azzai, the mishna, and R. Yosei HaGelili each give a different account of the tamid's limb order, are they really disagreeing with each other?",
+        "coreTension": "Three named traditions describing the same procedure look like a genuine three-way dispute over Temple practice, the kind that would normally require picking a winner.",
+        "coreMove": "Rava reframes the dispute by isolating what all three actually share: the head, accompanied by the right leg as the side of honor, is carried to the altar first in every version. What looked like competing full orderings collapses into one shared starting principle, with real disagreement confined to the lower-stakes question of what follows the head.",
+        "resolution": "All tannaim agree the head, together with the right leg, is carried to the altar first. The dispute among them is limited to the sequence of the remaining limbs.",
+        "takeaway": {"type": "conceptual", "text": "A dispute that looks total at first can collapse into agreement on the operative principle once a later authority isolates what the disputants actually share."},
+        "ahaMoment": "Rava's reconciliation shows that what looks like a fundamental dispute is actually agreement on the core principle, the head always leads, with disagreement only on the details of what follows.",
+        "learningBlocker": "Learners may assume the limb order carries the same stakes as the slaughter/sprinkling question, where the Gemara works hard to pin down exactly who must perform which role. This sugya does not state whether deviating from the limb order invalidates the offering or is merely a procedural preference; that question is left open here.",
+        "memoryAnchor": "All tannaim: head first, right leg alongside, like a general leading a march. Real dispute only over what follows."
       },
       "argumentFlow": [
         {
@@ -797,8 +824,14 @@
         "Temple altar ramp"
       ],
       "misconceptions": [
-        "The tannaim fundamentally disagree about which limb goes first - Rava shows they all agree the head is first; the dispute is only about subsequent limbs.",
-        "The right leg goes with the head arbitrarily - it goes with the head because the right side always takes precedence in religious contexts."
+        {
+          "misconception": "The tannaim fundamentally disagree about which limb goes to the altar first.",
+          "correction": "Rava shows they all agree the head goes first; the dispute is confined to the order of the limbs that follow."
+        },
+        {
+          "misconception": "The right leg accompanies the head arbitrarily.",
+          "correction": "It accompanies the head because the right side always takes precedence as the side of honor in Temple service."
+        }
       ],
       "relatedSugyot": [
         "yoma-025a-s02",
@@ -818,12 +851,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does Rava reconcile the dispute between the mishna and Ben Azzai about the tamid limb order?",
-          "a": "All tannaim agree the head goes to the altar first; they disagree only on the order of the limbs that follow."
+          "question": "How does Rava reconcile the dispute between the mishna and Ben Azzai about the tamid limb order?",
+          "answer": "All tannaim agree the head goes to the altar first; they disagree only on the order of the limbs that follow."
         },
         {
-          "q": "Why does the right leg accompany the head when the limbs are carried to the altar?",
-          "a": "The right side takes precedence in Temple service - the right leg accompanies the most honorable limb (the head)."
+          "question": "Why does the right leg accompany the head when the limbs are carried to the altar?",
+          "answer": "The right side takes precedence in Temple service - the right leg accompanies the most honorable limb (the head)."
         }
       ],
       "finalRuling": "The head goes first to the altar accompanied by the right front leg; the subsequent order is a tannaitic dispute.",
