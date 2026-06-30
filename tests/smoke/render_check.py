@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 import sys
 import time
 import urllib.request
@@ -92,6 +93,19 @@ def main() -> int:
         # Module loading guards: dataScript validation and post-load globals check.
         assert_contains(bundle_js, "missing a dataScript", "module descriptor validation guard")
         assert_contains(bundle_js, "required globals are missing", "module globals validation guard")
+
+        # Manifest structure check (static).
+        # dataVersion in manifest.js is the data-layer version for each module's learning
+        # corpus and is managed independently from the platform VERSION in the VERSION file.
+        # They are not required to match.
+        manifest_src = (ROOT / "manifest.js").read_text(encoding="utf-8")
+        if not re.search(r'\bMYSUGYA_MANIFEST\s*=\s*\[', manifest_src):
+            raise AssertionError("manifest.js must export MYSUGYA_MANIFEST array")
+        for field in ["id", "title", "dataScript", "dataVersion", "dafRange"]:
+            if not re.search(rf'\b{field}\s*:', manifest_src):
+                raise AssertionError(f"manifest.js entry missing required field: {field}")
+        if not re.search(r'dataVersion\s*:\s*"[^"]+"', manifest_src):
+            raise AssertionError("manifest.js dataVersion must be a non-empty quoted string")
 
         print("OK: built pages render and key UI hooks are present")
         return 0
