@@ -1,12 +1,13 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "14.34",
+  "version": "14.35",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
     "check:deploy-html": "node scripts/check-deploy-html.mjs",
-    "test": "python3 tests/smoke/render_check.py",
+    "test": "python3 modules/yoma/scripts/test_js_parser.py && python3 tests/smoke/render_check.py",
+    "test:yoma-parser": "python3 modules/yoma/scripts/test_js_parser.py",
     "test:browser": "npx playwright test",
     "serve": "npm run build && python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
     "validate:yoma": "cd modules/yoma && python3 scripts/validate_sefaria.py",
