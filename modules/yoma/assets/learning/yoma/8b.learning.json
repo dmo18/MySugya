@@ -173,22 +173,22 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is day 4 of the separation 'impossible' for the purpose of hazaah?",
-          "a": "Day 4 cannot be day 3 of any prior tumah (the priest has already been separated 4 days, so his last possible tumah was before day 1, making day 3 of that tumah = day 3 of separation, not day 4). It also cannot be day 7 (day 7 of tumah would be day 7 of separation, not day 4)."
+          "question": "Why is day 4 of the separation 'impossible' for the purpose of hazaah?",
+          "answer": "Day 4 cannot be day 3 of any prior tumah (the priest has already been separated 4 days, so his last possible tumah was before day 1, making day 3 of that tumah = day 3 of separation, not day 4). It also cannot be day 7 (day 7 of tumah would be day 7 of separation, not day 4)."
         },
         {
-          "q": "What is Rava's solution to the day-4 problem for the para priest?",
-          "a": "Separate the para priest on the 4th day of the week (Wednesday), so his 4th day of separation falls on Shabbat. Since hazaah is forbidden on Shabbat (shvut), day 4 is automatically skipped without any special ruling."
+          "question": "What is Rava's solution to the day-4 problem for the para priest?",
+          "answer": "Separate the para priest on the 4th day of the week (Wednesday), so his 4th day of separation falls on Shabbat. Since hazaah is forbidden on Shabbat (shvut), day 4 is automatically skipped without any special ruling."
         },
         {
-          "q": "Why can this scheduling solution not be applied to the YK kohein gadol?",
-          "a": "The YK kohein gadol's separation is fixed by the calendar (3 Tishrei each year). We cannot choose when 3 Tishrei falls - so we accept whatever day his day 4 ends up being."
+          "question": "Why can this scheduling solution not be applied to the YK kohein gadol?",
+          "answer": "The YK kohein gadol's separation is fixed by the calendar (3 Tishrei each year). We cannot choose when 3 Tishrei falls - so we accept whatever day his day 4 ends up being."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Rava says the para priest is never sprinkled on day 4.",
-          "right": "Rava says we schedule the para priest's separation so day 4 falls on Shabbat, when hazaah is forbidden as a shvut. Day 4 is not skipped by ruling but by Shabbat coincidence engineered through scheduling."
+          "misconception": "Rava says the para priest is never sprinkled on day 4.",
+          "correction": "Rava says we schedule the para priest's separation so day 4 falls on Shabbat, when hazaah is forbidden as a shvut. Day 4 is not skipped by ruling but by Shabbat coincidence engineered through scheduling."
         }
       ],
       "relatedSugyot": [
@@ -342,18 +342,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why was the chamber originally called 'Lishkat Balvati' and what did the name 'Parhedrin' imply?",
-          "a": "'Balvati' means nobles/senators - a dignified permanent title. 'Parhedrin' refers to Persian governors who rotate annually. The name changed to reflect that Second Temple High Priests were sold the office and replaced every 12 months like rotating bureaucrats."
+          "question": "Why was the chamber originally called 'Lishkat Balvati' and what did the name 'Parhedrin' imply?",
+          "answer": "'Balvati' means nobles/senators - a dignified permanent title. 'Parhedrin' refers to Persian governors who rotate annually. The name changed to reflect that Second Temple High Priests were sold the office and replaced every 12 months like rotating bureaucrats."
         },
         {
-          "q": "During whose era was the room called Lishkat Balvati?",
-          "a": "During the era of Shimon HaTzaddik, when the High Priesthood was still held with integrity and the High Priest served for many years."
+          "question": "During whose era was the room called Lishkat Balvati?",
+          "answer": "During the era of Shimon HaTzaddik, when the High Priesthood was still held with integrity and the High Priest served for many years."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "'Parhedrin' is an honorary title recognizing the High Priest's importance.",
-          "right": "'Parhedrin' is a critical term - it compares the corrupt Second Temple High Priests to Persian bureaucrats who rotate out every year. The name is embedded social criticism."
+          "misconception": "'Parhedrin' is an honorary title recognizing the High Priest's importance.",
+          "correction": "'Parhedrin' is a critical term - it compares the corrupt Second Temple High Priests to Persian bureaucrats who rotate out every year. The name is embedded social criticism."
         }
       ],
       "relatedSugyot": [
@@ -509,14 +509,14 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why do bakers not need to separate maaser rishon and maaser ani from dema'i grain?",
-          "a": "Because the burden of proof is on the claimant (the Levi or poor person). Once grain is separated from strict tevel status, the Levi or poor person must prove the baker did not already separate their portion. Without such proof, the baker owes nothing."
+          "question": "Why do bakers not need to separate maaser rishon and maaser ani from dema'i grain?",
+          "answer": "Because the burden of proof is on the claimant (the Levi or poor person). Once grain is separated from strict tevel status, the Levi or poor person must prove the baker did not already separate their portion. Without such proof, the baker owes nothing."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Bakers are completely exempt from all tithe obligations.",
-          "right": "Bakers are required to separate trumat maaser (1/100) and challah. The exemptions are specific: trumah gedolah (already separated by thresher), maaser rishon/ani (burden on claimant), and maaser sheni (government pressure - see 9a)."
+          "misconception": "Bakers are completely exempt from all tithe obligations.",
+          "correction": "Bakers are required to separate trumat maaser (1/100) and challah. The exemptions are specific: trumah gedolah (already separated by thresher), maaser rishon/ani (burden on claimant), and maaser sheni (government pressure - see 9a)."
         }
       ],
       "relatedSugyot": [

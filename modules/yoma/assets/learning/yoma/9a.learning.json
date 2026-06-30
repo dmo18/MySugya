@@ -147,18 +147,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "What did Yochanan High Priest find when he sent emissaries throughout Israel regarding tithes?",
-          "a": "Only trumah gedolah was being universally separated. Maaser rishon, maaser ani, and maaser sheni were not being properly separated by the general population."
+          "question": "What did Yochanan High Priest find when he sent emissaries throughout Israel regarding tithes?",
+          "answer": "Only trumah gedolah was being universally separated. Maaser rishon, maaser ani, and maaser sheni were not being properly separated by the general population."
         },
         {
-          "q": "Why were bakers not required to separate dema'i maaser sheni, according to Ulla?",
-          "a": "Government officials (parhedrin) would beat the bakers annually and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
+          "question": "Why were bakers not required to separate dema'i maaser sheni, according to Ulla?",
+          "answer": "Government officials (parhedrin) would beat the bakers annually and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "The baker's exemption from dema'i maaser sheni is because bakers are trusted to have already separated it.",
-          "right": "The exemption is a welfare consideration: bakers face government economic pressure and the Rabbis did not want to add further obligations on a struggling group."
+          "misconception": "The baker's exemption from dema'i maaser sheni is because bakers are trusted to have already separated it.",
+          "correction": "The exemption is a welfare consideration: bakers face government economic pressure and the Rabbis did not want to add further obligations on a struggling group."
         }
       ],
       "relatedSugyot": [
@@ -309,26 +309,26 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does R. Yochanan apply the Proverbs verse 'yirat Hashem tosif yamim / shnot resha'im tikatzornah' to Temple history?",
-          "a": "'Fear of God adds days' = First Temple (410 years, only 18 High Priests - quality/stability). 'Years of wicked shorten' = Second Temple (420 years, 300+ High Priests - rapid turnover despite longer duration)."
+          "question": "How does R. Yochanan apply the Proverbs verse 'yirat Hashem tosif yamim / shnot resha'im tikatzornah' to Temple history?",
+          "answer": "'Fear of God adds days' = First Temple (410 years, only 18 High Priests - quality/stability). 'Years of wicked shorten' = Second Temple (420 years, 300+ High Priests - rapid turnover despite longer duration)."
         },
         {
-          "q": "What is the actual sin of Eli's sons according to R. Shmuel bar Nachmani?",
-          "a": "They delayed women's bird-offerings, causing the women to remain at the Tabernacle longer than necessary and be kept from their husbands. Scripture treats this delay as equivalent to adultery to emphasize the gravity of mishandling Temple service."
+          "question": "What is the actual sin of Eli's sons according to R. Shmuel bar Nachmani?",
+          "answer": "They delayed women's bird-offerings, causing the women to remain at the Tabernacle longer than necessary and be kept from their husbands. Scripture treats this delay as equivalent to adultery to emphasize the gravity of mishandling Temple service."
         },
         {
-          "q": "After subtracting the four long-serving Second Temple High Priests, what does the math show?",
-          "a": "Four exceptional High Priests account for 141 years (40+80+10+11). The remaining 300+ High Priests served in the remaining ~279 years - less than one year each."
+          "question": "After subtracting the four long-serving Second Temple High Priests, what does the math show?",
+          "answer": "Four exceptional High Priests account for 141 years (40+80+10+11). The remaining 300+ High Priests served in the remaining ~279 years - less than one year each."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "The Second Temple was holier than the First because it lasted longer.",
-          "right": "Longevity does not indicate holiness. The Second Temple lasted longer but had far more corrupt leadership. The Talmud uses this contrast to illustrate that God's timing does not always track human merit in simple ways."
+          "misconception": "The Second Temple was holier than the First because it lasted longer.",
+          "correction": "Longevity does not indicate holiness. The Second Temple lasted longer but had far more corrupt leadership. The Talmud uses this contrast to illustrate that God's timing does not always track human merit in simple ways."
         },
         {
-          "wrong": "Eli's sons committed adultery with the women at the Tabernacle.",
-          "right": "R. Shmuel bar Nachmani explicitly says this reading is wrong. Their sin was delaying the women's bird-offerings. Scripture's language ('lay with the women') is interpreted as referring to the women being forced to 'lay over' at the Tabernacle waiting for their offerings."
+          "misconception": "Eli's sons committed adultery with the women at the Tabernacle.",
+          "correction": "R. Shmuel bar Nachmani explicitly says this reading is wrong. Their sin was delaying the women's bird-offerings. Scripture's language ('lay with the women') is interpreted as referring to the women being forced to 'lay over' at the Tabernacle waiting for their offerings."
         }
       ],
       "relatedSugyot": [
@@ -466,18 +466,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "What were the two sins for which Shiloh was destroyed?",
-          "a": "Giluy arayot (sexual immorality - attributed because Eli's sons delayed women's bird-offerings, keeping them from their husbands) and bizayon kodashim (degradation of sacred offerings - their servants seized raw meat before the fat was burned)."
+          "question": "What were the two sins for which Shiloh was destroyed?",
+          "answer": "Giluy arayot (sexual immorality - attributed because Eli's sons delayed women's bird-offerings, keeping them from their husbands) and bizayon kodashim (degradation of sacred offerings - their servants seized raw meat before the fat was burned)."
         },
         {
-          "q": "What is R. Shmuel bar Nachmani's rehabilitation of Eli's sons?",
-          "a": "They did not commit literal adultery. Their sin was delaying the processing of women's bird-offerings (kanim). This kept the women at the Tabernacle, unable to return to their husbands. Scripture holds the priests responsible as if they had committed the act, because they caused the women's separation from their husbands."
+          "question": "What is R. Shmuel bar Nachmani's rehabilitation of Eli's sons?",
+          "answer": "They did not commit literal adultery. Their sin was delaying the processing of women's bird-offerings (kanim). This kept the women at the Tabernacle, unable to return to their husbands. Scripture holds the priests responsible as if they had committed the act, because they caused the women's separation from their husbands."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "R. Shmuel bar Nachmani is saying Eli's sons were completely innocent.",
-          "right": "He is saying they did not commit literal adultery. They did commit a serious sin (delaying offerings). Scripture treats the effect of their sin as equivalent to adultery to emphasize the gravity of mishandling Temple service."
+          "misconception": "R. Shmuel bar Nachmani is saying Eli's sons were completely innocent.",
+          "correction": "He is saying they did not commit literal adultery. They did commit a serious sin (delaying offerings). Scripture treats the effect of their sin as equivalent to adultery to emphasize the gravity of mishandling Temple service."
         }
       ],
       "relatedSugyot": [

@@ -99,12 +99,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why did the Nicanor Gate have a mezuza when all other Temple gates did not?",
-          "a": "Because caretakers (gabba'im) resided in the chambers attached to the Nicanor Gate, making those chambers genuine residences that required a mezuza."
+          "question": "Why did the Nicanor Gate have a mezuza when all other Temple gates did not?",
+          "answer": "Because caretakers (gabba'im) resided in the chambers attached to the Nicanor Gate, making those chambers genuine residences that required a mezuza."
         },
         {
-          "q": "Why does the Temple-gates decree not constitute a gezeira ligzeira for R. Yehuda?",
-          "a": "Because the gate and the Parhedrin chamber are treated as one unified structure subject to one decree, not two separate rabbinic decrees stacked on each other."
+          "question": "Why does the Temple-gates decree not constitute a gezeira ligzeira for R. Yehuda?",
+          "answer": "Because the gate and the Parhedrin chamber are treated as one unified structure subject to one decree, not two separate rabbinic decrees stacked on each other."
         }
       ],
       "finalRuling": null,
@@ -225,12 +225,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why did Machoza's city gates lack mezuzot even though city gates generally require them?",
-          "a": "Because checking public mezuzot carried a risk of a 1000-zuz fine if a defective mezuza was found, and since this danger was fixed and predictable, the protection for mitzva-agents did not apply."
+          "question": "Why did Machoza's city gates lack mezuzot even though city gates generally require them?",
+          "answer": "Because checking public mezuzot carried a risk of a 1000-zuz fine if a defective mezuza was found, and since this danger was fixed and predictable, the protection for mitzva-agents did not apply."
         },
         {
-          "q": "When does the principle 'shluchei mitzva einan nizzokin' NOT apply?",
-          "a": "When the danger is fixed and predictable. Divine protection applies to unexpected supernatural danger, not to predictable human-imposed consequences like legal fines."
+          "question": "When does the principle 'shluchei mitzva einan nizzokin' NOT apply?",
+          "answer": "When the danger is fixed and predictable. Divine protection applies to unexpected supernatural danger, not to predictable human-imposed consequences like legal fines."
         }
       ],
       "finalRuling": null,
@@ -376,12 +376,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is Rav Kahana's criterion for determining which storehouses require a mezuza?",
-          "a": "Whether women frequently enter them for domestic purposes. Hay and cattle storehouses lack this (animal use only); wood and wine storehouses have this (women draw supplies from them)."
+          "question": "What is Rav Kahana's criterion for determining which storehouses require a mezuza?",
+          "answer": "Whether women frequently enter them for domestic purposes. Hay and cattle storehouses lack this (animal use only); wood and wine storehouses have this (women draw supplies from them)."
         },
         {
-          "q": "How does Rav Yehuda differ from Rav Kahana on the wood storehouse?",
-          "a": "Rav Yehuda rules the wood storehouse does not require a mezuza because women do not regularly enter it - wood is carried out, not drawn from within like wine. Only the wine storehouse, where women regularly enter to draw wine, is obligated."
+          "question": "How does Rav Yehuda differ from Rav Kahana on the wood storehouse?",
+          "answer": "Rav Yehuda rules the wood storehouse does not require a mezuza because women do not regularly enter it - wood is carried out, not drawn from within like wine. Only the wine storehouse, where women regularly enter to draw wine, is obligated."
         }
       ],
       "finalRuling": null,

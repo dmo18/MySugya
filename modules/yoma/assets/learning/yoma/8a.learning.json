@@ -218,18 +218,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "What does 'ראוי למצח' mean and where is it derived?",
-          "a": "Only what is fit for the forehead atones. Derived by R. Shimon from 'al mitzcho v'nasa' - the addition of 'v'nasa' teaches that the tzitz must be fit to be on the forehead."
+          "question": "What does 'ראוי למצח' mean and where is it derived?",
+          "answer": "Only what is fit for the forehead atones. Derived by R. Shimon from 'al mitzcho v'nasa' - the addition of 'v'nasa' teaches that the tzitz must be fit to be on the forehead."
         },
         {
-          "q": "If both R. Yehuda and R. Shimon derive the forehead-location requirement from 'al mitzcho,' what are they disagreeing about?",
-          "a": "What the other words in the verse teach: R. Shimon reads 'tamid liratzon' as perpetual atonement; R. Yehuda reads 'tamid' as mindfulness. And for the broken-tzitz ruling: R. Shimon uses 'ראוי למצח'; R. Yehuda uses doubled 'mitzcho.'"
+          "question": "If both R. Yehuda and R. Shimon derive the forehead-location requirement from 'al mitzcho,' what are they disagreeing about?",
+          "answer": "What the other words in the verse teach: R. Shimon reads 'tamid liratzon' as perpetual atonement; R. Yehuda reads 'tamid' as mindfulness. And for the broken-tzitz ruling: R. Shimon uses 'ראוי למצח'; R. Yehuda uses doubled 'mitzcho.'"
         }
       ],
       "misconceptions": [
         {
-          "wrong": "R. Shimon and R. Yehuda are deriving completely different things from completely different verses.",
-          "right": "They both derive location from the same word ('al mitzcho'). Their disagreement is about what the additional words - 'v'nasa' and 'tamid' - each teach."
+          "misconception": "R. Shimon and R. Yehuda are deriving completely different things from completely different verses.",
+          "correction": "They both derive location from the same word ('al mitzcho'). Their disagreement is about what the additional words - 'v'nasa' and 'tamid' - each teach."
         }
       ],
       "relatedSugyot": [
@@ -503,26 +503,26 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is the first hypothesis (dchuya vs. hutrah) rejected for the R. Meir/R. Yosei dispute?",
-          "a": "If R. Yosei held hutrah (tumah fully permitted), he would require no hazaah at all. But he does require day 3 and day 7, proving he holds dchuya."
+          "question": "Why is the first hypothesis (dchuya vs. hutrah) rejected for the R. Meir/R. Yosei dispute?",
+          "answer": "If R. Yosei held hutrah (tumah fully permitted), he would require no hazaah at all. But he does require day 3 and day 7, proving he holds dchuya."
         },
         {
-          "q": "What is the correct explanation of why R. Meir and R. Yosei dispute how many days to sprinkle?",
-          "a": "Both accept dchuya and both accept tevila bizmana mitzva. Their dispute is whether hazaah is equated to tevila for the timing-mitzva rule: R. Meir says yes (sprinkle every day); R. Yosei says no (only day 3 and 7)."
+          "question": "What is the correct explanation of why R. Meir and R. Yosei dispute how many days to sprinkle?",
+          "answer": "Both accept dchuya and both accept tevila bizmana mitzva. Their dispute is whether hazaah is equated to tevila for the timing-mitzva rule: R. Meir says yes (sprinkle every day); R. Yosei says no (only day 3 and 7)."
         },
         {
-          "q": "How does R. Chanina Segan's position differ from both R. Meir and R. Yosei?",
-          "a": "R. Chanina Segan does not equate hazaah to tevila at all. He assigns the all-7-day sprinkling to the para priest as an elevated stringency, while the YK kohein gadol gets only the Torah's minimum (day 3 and 7)."
+          "question": "How does R. Chanina Segan's position differ from both R. Meir and R. Yosei?",
+          "answer": "R. Chanina Segan does not equate hazaah to tevila at all. He assigns the all-7-day sprinkling to the para priest as an elevated stringency, while the YK kohein gadol gets only the Torah's minimum (day 3 and 7)."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "R. Meir holds dchuya and R. Yosei holds hutrah in this dispute.",
-          "right": "Both hold dchuya - the Gemara explicitly rejects the dchuya/hutrah mapping. Their dispute is about whether hazaah timing follows the same 'bizmana mitzva' rule as tevila."
+          "misconception": "R. Meir holds dchuya and R. Yosei holds hutrah in this dispute.",
+          "correction": "Both hold dchuya - the Gemara explicitly rejects the dchuya/hutrah mapping. Their dispute is about whether hazaah timing follows the same 'bizmana mitzva' rule as tevila."
         },
         {
-          "wrong": "R. Yosei holds that 'tevila bizmana' is not a mitzva.",
-          "right": "The Gemara shows from another context (tattooed immersion) that R. Yosei does hold 'tevila bizmana mitzva.' The correct dispute is about equating hazaah to tevila, not about tevila itself."
+          "misconception": "R. Yosei holds that 'tevila bizmana' is not a mitzva.",
+          "correction": "The Gemara shows from another context (tattooed immersion) that R. Yosei does hold 'tevila bizmana mitzva.' The correct dispute is about equating hazaah to tevila, not about tevila itself."
         }
       ],
       "relatedSugyot": [

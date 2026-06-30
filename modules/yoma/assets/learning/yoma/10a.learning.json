@@ -95,8 +95,8 @@
       "relatedSugyot": [],
       "visualizableElements": ["Family tree: Japheth - Tiras - Persia"],
       "quizSeeds": [
-        { "q": "According to Rav Yosef, which biblical nation is identified with Persia?", "a": "Tiras (from Genesis 10)" },
-        { "q": "Why does it matter that Persia descends from Japheth?", "a": "Because Genesis 9:27 prophesies about Japheth enlarging - establishing Persia as Japheth's descendant connects it to that prophecy about eventually overcoming Rome" }
+        { "question": "According to Rav Yosef, which biblical nation is identified with Persia?", "answer": "Tiras (from Genesis 10)" },
+        { "question": "Why does it matter that Persia descends from Japheth?", "answer": "Because Genesis 9:27 prophesies about Japheth enlarging - establishing Persia as Japheth's descendant connects it to that prophecy about eventually overcoming Rome" }
       ],
       "finalRuling": null,
       "difficulty": "intermediate",
@@ -192,8 +192,8 @@
       "relatedSugyot": [],
       "visualizableElements": ["Two-column comparison: three proofs (Persia wins) vs. Rav's counter (Rome wins)"],
       "quizSeeds": [
-        { "q": "What reason does Rav give for why Persia will fall to Rome?", "a": "Because the Persians destroy synagogues, which overrides the favorable prophetic lineage" },
-        { "q": "What is the nine-month tradition about Rome?", "a": "Rome must rule the whole world for nine months before Mashiach comes, derived from a verse in Micah" }
+        { "question": "What reason does Rav give for why Persia will fall to Rome?", "answer": "Because the Persians destroy synagogues, which overrides the favorable prophetic lineage" },
+        { "question": "What is the nine-month tradition about Rome?", "answer": "Rome must rule the whole world for nine months before Mashiach comes, derived from a verse in Micah" }
       ],
       "finalRuling": null,
       "difficulty": "intermediate",
@@ -288,8 +288,8 @@
       "relatedSugyot": [],
       "visualizableElements": ["Temple complex map showing Parhedrin chamber location", "Mezuza on doorpost with label 'rabbinic decree for perception'"],
       "quizSeeds": [
-        { "q": "Why does the Parhedrin chamber have a mezuza when other Temple chambers do not?", "a": "According to the Sages, it received a special rabbinic decree so that passersby would not think the High Priest was imprisoned there. According to R. Yehuda, it genuinely qualifies as a residence." },
-        { "q": "What is R. Yehuda's view on why the Parhedrin chamber has a mezuza?", "a": "R. Yehuda holds that the High Priest's weeklong residence in that chamber constitutes a genuine dwelling, making mezuza obligatory." }
+        { "question": "Why does the Parhedrin chamber have a mezuza when other Temple chambers do not?", "answer": "According to the Sages, it received a special rabbinic decree so that passersby would not think the High Priest was imprisoned there. According to R. Yehuda, it genuinely qualifies as a residence." },
+        { "question": "What is R. Yehuda's view on why the Parhedrin chamber has a mezuza?", "answer": "R. Yehuda holds that the High Priest's weeklong residence in that chamber constitutes a genuine dwelling, making mezuza obligatory." }
       ],
       "finalRuling": null,
       "difficulty": "intermediate",

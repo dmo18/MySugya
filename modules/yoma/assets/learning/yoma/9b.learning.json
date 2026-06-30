@@ -116,18 +116,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does scripture treat the delay of women's bird-offerings as equivalent to sexual immorality?",
-          "a": "Because the delay kept the women at the Tabernacle waiting, preventing them from achieving purity and returning to their husbands. Scripture attributes the downstream harm (forced separation from husbands) to the priests who caused it."
+          "question": "Why does scripture treat the delay of women's bird-offerings as equivalent to sexual immorality?",
+          "answer": "Because the delay kept the women at the Tabernacle waiting, preventing them from achieving purity and returning to their husbands. Scripture attributes the downstream harm (forced separation from husbands) to the priests who caused it."
         },
         {
-          "q": "What was the specific act of bizayon kodashim by Eli's sons?",
-          "a": "Their servants would demand raw meat before the fat of the offering was burned on the altar. If the worshipper refused, they would take the meat by force. This violated the sacrificial order and treated sacred meat as personal property."
+          "question": "What was the specific act of bizayon kodashim by Eli's sons?",
+          "answer": "Their servants would demand raw meat before the fat of the offering was burned on the altar. If the worshipper refused, they would take the meat by force. This violated the sacrificial order and treated sacred meat as personal property."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Eli's sons refused to accept women's bird-offerings entirely.",
-          "right": "They accepted the offerings but processed them slowly, causing women to wait extended periods - preventing them from achieving purity and returning to their husbands."
+          "misconception": "Eli's sons refused to accept women's bird-offerings entirely.",
+          "correction": "They accepted the offerings but processed them slowly, causing women to wait extended periods - preventing them from achieving purity and returning to their husbands."
         }
       ],
       "relatedSugyot": [
@@ -342,26 +342,26 @@
       ],
       "quizSeeds": [
         {
-          "q": "What were the three sins for which the First Temple was destroyed?",
-          "a": "Avodah zarah (idolatry), giluy arayot (sexual immorality), and shefichut damim (bloodshed)."
+          "question": "What were the three sins for which the First Temple was destroyed?",
+          "answer": "Avodah zarah (idolatry), giluy arayot (sexual immorality), and shefichut damim (bloodshed)."
         },
         {
-          "q": "Why is the exile after the Second Temple's destruction longer than the exile after the First Temple's?",
-          "a": "The First generation's sins were revealed (open) - prophets could rebuke them and the exile had a revealed end (70 years). The Second generation's sin (sinat chinam) was hidden - no external rebuke possible, no revealed end to the exile."
+          "question": "Why is the exile after the Second Temple's destruction longer than the exile after the First Temple's?",
+          "answer": "The First generation's sins were revealed (open) - prophets could rebuke them and the exile had a revealed end (70 years). The Second generation's sin (sinat chinam) was hidden - no external rebuke possible, no revealed end to the exile."
         },
         {
-          "q": "How does the Talmud explain that the Second Temple generation - who studied Torah and performed kindness - was destroyed?",
-          "a": "Because sinat chinam (baseless hatred) is considered equivalent in destructive power to all three cardinal sins combined. External piety without internal unity cannot sustain a Temple."
+          "question": "How does the Talmud explain that the Second Temple generation - who studied Torah and performed kindness - was destroyed?",
+          "answer": "Because sinat chinam (baseless hatred) is considered equivalent in destructive power to all three cardinal sins combined. External piety without internal unity cannot sustain a Temple."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "The Second Temple generation was hypocritical - they didn't really practice Torah and mitzvot.",
-          "right": "The Talmud affirms they genuinely studied Torah, performed mitzvot, and practiced kindness. Their failure was not external behavior but internal: hatred of each other that was invisible to prophetic rebuke."
+          "misconception": "The Second Temple generation was hypocritical - they didn't really practice Torah and mitzvot.",
+          "correction": "The Talmud affirms they genuinely studied Torah, performed mitzvot, and practiced kindness. Their failure was not external behavior but internal: hatred of each other that was invisible to prophetic rebuke."
         },
         {
-          "wrong": "Sinat chinam is worse than murder or idolatry in terms of individual severity.",
-          "right": "The comparison is about communal destructive capacity, not individual severity. Sinat chinam destroys the social fabric of the entire community, making communal Jewish life impossible even among otherwise observant individuals."
+          "misconception": "Sinat chinam is worse than murder or idolatry in terms of individual severity.",
+          "correction": "The comparison is about communal destructive capacity, not individual severity. Sinat chinam destroys the social fabric of the entire community, making communal Jewish life impossible even among otherwise observant individuals."
         }
       ],
       "relatedSugyot": [
@@ -503,18 +503,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Talmud explain that the Second Temple generation - who studied Torah and performed kindness - was destroyed?",
-          "a": "Because sinat chinam (baseless hatred) is considered equivalent in destructive power to all three cardinal sins combined. External piety without internal unity cannot sustain a Temple."
+          "question": "How does the Talmud explain that the Second Temple generation - who studied Torah and performed kindness - was destroyed?",
+          "answer": "Because sinat chinam (baseless hatred) is considered equivalent in destructive power to all three cardinal sins combined. External piety without internal unity cannot sustain a Temple."
         },
         {
-          "q": "Why is the exile after the Second Temple's destruction longer than after the First Temple?",
-          "a": "The First generation's sins were revealed (open) - prophets could rebuke them and the exile had a revealed end (70 years). The Second generation's sin (sinat chinam) was hidden - no external rebuke possible, no revealed end."
+          "question": "Why is the exile after the Second Temple's destruction longer than after the First Temple?",
+          "answer": "The First generation's sins were revealed (open) - prophets could rebuke them and the exile had a revealed end (70 years). The Second generation's sin (sinat chinam) was hidden - no external rebuke possible, no revealed end."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Sinat chinam is worse than murder or idolatry in terms of individual severity.",
-          "right": "The comparison is about communal destructive capacity, not individual severity. Sinat chinam destroys the social fabric of the entire community, making communal Jewish life impossible even among otherwise observant individuals."
+          "misconception": "Sinat chinam is worse than murder or idolatry in terms of individual severity.",
+          "correction": "The comparison is about communal destructive capacity, not individual severity. Sinat chinam destroys the social fabric of the entire community, making communal Jewish life impossible even among otherwise observant individuals."
         }
       ],
       "relatedSugyot": [
@@ -652,18 +652,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why did the First Temple's sinat chinam not prevent exile from ending, when the Second Temple's did?",
-          "a": "The First Temple's sinat chinam was confined to the nesi'im (leaders). The common people could be rebuked by prophets and the exile could end. The Second Temple's sinat chinam was community-wide and hidden, beyond prophetic rebuke."
+          "question": "Why did the First Temple's sinat chinam not prevent exile from ending, when the Second Temple's did?",
+          "answer": "The First Temple's sinat chinam was confined to the nesi'im (leaders). The common people could be rebuked by prophets and the exile could end. The Second Temple's sinat chinam was community-wide and hidden, beyond prophetic rebuke."
         },
         {
-          "q": "What are R. Yochanan's and Reish Lakish's respective views on which generation had greater merit?",
-          "a": "R. Yochanan: former generations were greater (the Temple was given to them as proof). Reish Lakish: latter generations are greater (they maintain Torah and mitzvot despite the additional burden of exile and oppression)."
+          "question": "What are R. Yochanan's and Reish Lakish's respective views on which generation had greater merit?",
+          "answer": "R. Yochanan: former generations were greater (the Temple was given to them as proof). Reish Lakish: latter generations are greater (they maintain Torah and mitzvot despite the additional burden of exile and oppression)."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Both Temple eras were equally affected by sinat chinam.",
-          "right": "The First Temple era had sinat chinam only among the nesi'im (leadership), allowing prophets to rebuke the people. The Second Temple era had pervasive, community-wide sinat chinam, leaving no external corrective."
+          "misconception": "Both Temple eras were equally affected by sinat chinam.",
+          "correction": "The First Temple era had sinat chinam only among the nesi'im (leadership), allowing prophets to rebuke the people. The Second Temple era had pervasive, community-wide sinat chinam, leaving no external corrective."
         }
       ],
       "relatedSugyot": [
@@ -828,18 +828,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the wall-and-door metaphor from Song of Songs and how does Reish Lakish apply it to Babylonian Jewry?",
-          "a": "Song of Songs: 'If she is a wall, we will build on her silver; if she is a door, we will panel her with cedar.' If all Babylonian Jews had returned with Ezra (wall = unified, complete), the Shechina would have returned fully (silver = imperishable). Since only some returned (door = partial, incomplete), the Shechina returned only partially (cedar = harbors rot)."
+          "question": "What is the wall-and-door metaphor from Song of Songs and how does Reish Lakish apply it to Babylonian Jewry?",
+          "answer": "Song of Songs: 'If she is a wall, we will build on her silver; if she is a door, we will panel her with cedar.' If all Babylonian Jews had returned with Ezra (wall = unified, complete), the Shechina would have returned fully (silver = imperishable). Since only some returned (door = partial, incomplete), the Shechina returned only partially (cedar = harbors rot)."
         },
         {
-          "q": "Why is Reish Lakish's rebuke not directed at Rabba bar bar Chana personally?",
-          "a": "Rabba bar bar Chana did make aliyah to Israel. Reish Lakish is criticizing the Babylonian Jewish community as a whole for not returning with Ezra when the moment was right. The Jordan River scene is the dramatic vehicle for a historical-communal critique."
+          "question": "Why is Reish Lakish's rebuke not directed at Rabba bar bar Chana personally?",
+          "answer": "Rabba bar bar Chana did make aliyah to Israel. Reish Lakish is criticizing the Babylonian Jewish community as a whole for not returning with Ezra when the moment was right. The Jordan River scene is the dramatic vehicle for a historical-communal critique."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "Reish Lakish is saying the Babylonian Jews who stayed behind sinned grievously.",
-          "right": "The critique is about a missed historical opportunity, not a grave sin. Those who stayed in Babylon were comfortable and prosperous - they had no obvious reason to leave. But their comfort cost the Second Temple its full divine presence."
+          "misconception": "Reish Lakish is saying the Babylonian Jews who stayed behind sinned grievously.",
+          "correction": "The critique is about a missed historical opportunity, not a grave sin. Those who stayed in Babylon were comfortable and prosperous - they had no obvious reason to leave. But their comfort cost the Second Temple its full divine presence."
         }
       ],
       "relatedSugyot": [
@@ -1050,18 +1050,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "What replaced prophecy after Haggai, Zechariah, and Malachi died?",
-          "a": "The bat kol (heavenly voice) - a lower form of divine communication that could still provide guidance but lacked the direct authority of prophecy."
+          "question": "What replaced prophecy after Haggai, Zechariah, and Malachi died?",
+          "answer": "The bat kol (heavenly voice) - a lower form of divine communication that could still provide guidance but lacked the direct authority of prophecy."
         },
         {
-          "q": "Who does Rav Pappa say was in the Jordan River?",
-          "a": "Rav Pappa says it was either Reish Lakish (swimming) with Zeira (extending hand), or Rabba bar bar Chana (swimming) with R. Elazar (extending hand). The exact pair is uncertain."
+          "question": "Who does Rav Pappa say was in the Jordan River?",
+          "answer": "Rav Pappa says it was either Reish Lakish (swimming) with Zeira (extending hand), or Rabba bar bar Chana (swimming) with R. Elazar (extending hand). The exact pair is uncertain."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "The bat kol was equally authoritative as direct prophecy.",
-          "right": "The bat kol was a step down from prophecy. The passage introduces it as a consolation - something of divine communication remained - but the full prophetic channel ended with the last three prophets."
+          "misconception": "The bat kol was equally authoritative as direct prophecy.",
+          "correction": "The bat kol was a step down from prophecy. The passage introduces it as a consolation - something of divine communication remained - but the full prophetic channel ended with the last three prophets."
         }
       ],
       "relatedSugyot": [

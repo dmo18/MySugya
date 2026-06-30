@@ -166,18 +166,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does R. Yehuda's proof from the YK kohein gadol backfire on him?",
-          "a": "R. Yehuda points to the YK inner service as proof that atonement works without the tzitz on the forehead. But R. Shimon says: in that case, tumah is hutrah l'tzibbur - the tzitz does not operate at all. So the example proves nothing about cases where the tzitz does need to atone."
+          "question": "Why does R. Yehuda's proof from the YK kohein gadol backfire on him?",
+          "answer": "R. Yehuda points to the YK inner service as proof that atonement works without the tzitz on the forehead. But R. Shimon says: in that case, tumah is hutrah l'tzibbur - the tzitz does not operate at all. So the example proves nothing about cases where the tzitz does need to atone."
         },
         {
-          "q": "What is the inference about R. Shimon's position on dchuya/hutrah from this exchange?",
-          "a": "Since R. Shimon says the YK case is different (hutrah - tzitz not needed), he implies there ARE cases where the community's tumah needs tzitz atonement. This means R. Shimon holds dchuya, not hutrah."
+          "question": "What is the inference about R. Shimon's position on dchuya/hutrah from this exchange?",
+          "answer": "Since R. Shimon says the YK case is different (hutrah - tzitz not needed), he implies there ARE cases where the community's tumah needs tzitz atonement. This means R. Shimon holds dchuya, not hutrah."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "R. Yehuda's proof from the YK kohein gadol supports R. Shimon's position.",
-          "right": "R. Yehuda intends it to prove off-forehead atonement is real (supporting a version of R. Shimon's view). But R. Shimon cannot use that example - he considers it a completely different category (hutrah, where no tzitz atonement is needed)."
+          "misconception": "R. Yehuda's proof from the YK kohein gadol supports R. Shimon's position.",
+          "correction": "R. Yehuda intends it to prove off-forehead atonement is real (supporting a version of R. Shimon's view). But R. Shimon cannot use that example - he considers it a completely different category (hutrah, where no tzitz atonement is needed)."
         }
       ],
       "relatedSugyot": [
@@ -344,18 +344,18 @@
       ],
       "quizSeeds": [
         {
-          "q": "According to Abaye, what is the one case where R. Yehuda and R. Shimon actually disagree?",
-          "a": "When the tzitz is intact but hanging on a peg (not on the forehead). Broken tzitz = both agree it does not atone. Tzitz on forehead = both agree it atones."
+          "question": "According to Abaye, what is the one case where R. Yehuda and R. Shimon actually disagree?",
+          "answer": "When the tzitz is intact but hanging on a peg (not on the forehead). Broken tzitz = both agree it does not atone. Tzitz on forehead = both agree it atones."
         },
         {
-          "q": "What is the kal v'chomer from the tzitz to tefillin?",
-          "a": "The tzitz has only one divine name but requires the kohein's constant mindfulness. Tefillin contain many divine names - they certainly require no less vigilance."
+          "question": "What is the kal v'chomer from the tzitz to tefillin?",
+          "answer": "The tzitz has only one divine name but requires the kohein's constant mindfulness. Tefillin contain many divine names - they certainly require no less vigilance."
         }
       ],
       "misconceptions": [
         {
-          "wrong": "'Tamid' means the kohein gadol must literally never remove the tzitz from his forehead.",
-          "right": "Both sides agree 'tamid' cannot mean this, since the kohein must sleep and use a restroom. R. Shimon reads 'tamid' as 'perpetually atones'; R. Yehuda reads it as a mindfulness obligation."
+          "misconception": "'Tamid' means the kohein gadol must literally never remove the tzitz from his forehead.",
+          "correction": "Both sides agree 'tamid' cannot mean this, since the kohein must sleep and use a restroom. R. Shimon reads 'tamid' as 'perpetually atones'; R. Yehuda reads it as a mindfulness obligation."
         }
       ],
       "relatedSugyot": [

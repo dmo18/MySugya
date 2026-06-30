@@ -109,8 +109,8 @@
       "relatedSugyot": [],
       "visualizableElements": ["Temple map with tribal boundary line showing Judah/Benjamin division", "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"],
       "quizSeeds": [
-        { "q": "According to the baraita, whose tribal portion contained the Altar and Heikhal?", "a": "Benjamin's tribal portion." },
-        { "q": "How does the tribal division question connect to the synagogue tzaraat dispute?", "a": "Tzaraat requires private ownership. If Jerusalem was divided (R. Yehuda), owners exist and tzaraat can apply to city synagogues. If not divided (Tanna Kama), collective ownership means no tzaraat for city synagogues." }
+        { "question": "According to the baraita, whose tribal portion contained the Altar and Heikhal?", "answer": "Benjamin's tribal portion." },
+        { "question": "How does the tribal division question connect to the synagogue tzaraat dispute?", "answer": "Tzaraat requires private ownership. If Jerusalem was divided (R. Yehuda), owners exist and tzaraat can apply to city synagogues. If not divided (Tanna Kama), collective ownership means no tzaraat for city synagogues." }
       ],
       "finalRuling": null,
       "difficulty": "intermediate",
@@ -212,8 +212,8 @@
       "relatedSugyot": [],
       "visualizableElements": ["Diagram of eight Cohen Gadol garments with each labeled", "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"],
       "quizSeeds": [
-        { "q": "What does Rav Adda bar Ahavah say is sufficient to invest a replacement Cohen Gadol?", "a": "Investing him with the priestly belt (avnet) alone is sufficient." },
-        { "q": "What does Abaye require for the emergency investiture of a replacement Cohen Gadol?", "a": "All eight High Priestly garments plus the tzinnora (a fork-like ritual instrument)." }
+        { "question": "What does Rav Adda bar Ahavah say is sufficient to invest a replacement Cohen Gadol?", "answer": "Investing him with the priestly belt (avnet) alone is sufficient." },
+        { "question": "What does Abaye require for the emergency investiture of a replacement Cohen Gadol?", "answer": "All eight High Priestly garments plus the tzinnora (a fork-like ritual instrument)." }
       ],
       "finalRuling": null,
       "difficulty": "intermediate",

@@ -163,12 +163,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does R. Yehuda's sukka ruling not contradict his Parhedrin ruling?",
-          "a": "They rest on different principles: for sukka, mezuza follows from permanent structure; for Parhedrin, coerced residence does not count as a dwelling, so no mezuza obligation arises from the stay itself."
+          "question": "Why does R. Yehuda's sukka ruling not contradict his Parhedrin ruling?",
+          "answer": "They rest on different principles: for sukka, mezuza follows from permanent structure; for Parhedrin, coerced residence does not count as a dwelling, so no mezuza obligation arises from the stay itself."
         },
         {
-          "q": "What is 'dirat anusim' and how does it affect mezuza?",
-          "a": "Coerced residence - a space someone is compelled to occupy. R. Yehuda holds it does not create a mezuza obligation because true dwelling requires voluntariness."
+          "question": "What is 'dirat anusim' and how does it affect mezuza?",
+          "answer": "Coerced residence - a space someone is compelled to occupy. R. Yehuda holds it does not create a mezuza obligation because true dwelling requires voluntariness."
         }
       ],
       "finalRuling": null,
@@ -301,8 +301,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does identifying the tanna of a baraita matter to the Gemara?",
-          "a": "Because the attribution determines whether the ruling is consistent with other known positions of that tanna, and how it fits into that tanna's overall legal framework."
+          "question": "Why does identifying the tanna of a baraita matter to the Gemara?",
+          "answer": "Because the attribution determines whether the ruling is consistent with other known positions of that tanna, and how it fits into that tanna's overall legal framework."
         }
       ],
       "finalRuling": null,

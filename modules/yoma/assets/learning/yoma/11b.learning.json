@@ -110,12 +110,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is a bathroom exempt from mezuza even though people regularly use it?",
-          "a": "Because it lacks the quality of kavod (honor/dignity) required for a mezuza. Undressing and using the bathroom makes the space inappropriate for a sacred text containing the Shema."
+          "question": "Why is a bathroom exempt from mezuza even though people regularly use it?",
+          "answer": "Because it lacks the quality of kavod (honor/dignity) required for a mezuza. Undressing and using the bathroom makes the space inappropriate for a sacred text containing the Shema."
         },
         {
-          "q": "How does the baraita's third exemption category (Temple Mount and chambers) refute Rav Yehuda?",
-          "a": "Since the entire Temple precinct is categorically exempt from mezuza as sacred (not residential) space, the Parhedrin chamber's mezuza cannot be a Torah obligation. It must be only a rabbinic decree - confirming the Sages' position."
+          "question": "How does the baraita's third exemption category (Temple Mount and chambers) refute Rav Yehuda?",
+          "answer": "Since the entire Temple precinct is categorically exempt from mezuza as sacred (not residential) space, the Parhedrin chamber's mezuza cannot be a Torah obligation. It must be only a rabbinic decree - confirming the Sages' position."
         }
       ],
       "finalRuling": null,
@@ -225,12 +225,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is the Median gate (sha'ar haMadi) unique among exempt gate types?",
-          "a": "Because it is the only type that is a tannaitic dispute. All other exempt gate types are agreed upon; the Median gate (a domed arch with no doorposts) is exempt according to the Rabbis but R. Meir holds it is obligated via his chokkein lehashlem principle."
+          "question": "Why is the Median gate (sha'ar haMadi) unique among exempt gate types?",
+          "answer": "Because it is the only type that is a tannaitic dispute. All other exempt gate types are agreed upon; the Median gate (a domed arch with no doorposts) is exempt according to the Rabbis but R. Meir holds it is obligated via his chokkein lehashlem principle."
         },
         {
-          "q": "What is R. Meir's chokkein lehashlem principle?",
-          "a": "If a space could theoretically be enlarged or carved to meet a required minimum measurement, treat it as if it already meets that measurement. Applied to the Median gate: since the arch could be carved to create proper doorposts, R. Meir treats it as already having them."
+          "question": "What is R. Meir's chokkein lehashlem principle?",
+          "answer": "If a space could theoretically be enlarged or carved to meet a required minimum measurement, treat it as if it already meets that measurement. Applied to the Median gate: since the arch could be carved to create proper doorposts, R. Meir treats it as already having them."
         }
       ],
       "finalRuling": null,
@@ -362,12 +362,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is a woman's house obligated in mezuza if the Torah says 'his house'?",
-          "a": "Because the reward verse for mezuza observance applies universally to all who observe it, including women. 'His house' cannot be read to exclude women from the obligation - the inclusive reward language proves this."
+          "question": "Why is a woman's house obligated in mezuza if the Torah says 'his house'?",
+          "answer": "Because the reward verse for mezuza observance applies universally to all who observe it, including women. 'His house' cannot be read to exclude women from the obligation - the inclusive reward language proves this."
         },
         {
-          "q": "Under what condition is a synagogue susceptible to tzaraat?",
-          "a": "When a caretaker's residence is attached to the synagogue. The caretaker effectively functions as the 'owner' in the halakhic sense, providing the personal ownership connection that tzaraat law requires."
+          "question": "Under what condition is a synagogue susceptible to tzaraat?",
+          "answer": "When a caretaker's residence is attached to the synagogue. The caretaker effectively functions as the 'owner' in the halakhic sense, providing the personal ownership connection that tzaraat law requires."
         }
       ],
       "finalRuling": null,
@@ -489,12 +489,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What are the three resolutions offered for the contradicting baraitot on synagogue tzaraat?",
-          "a": "(1) Tanna attribution: first baraita = R. Meir, second = Rabbis. (2) Geographic distinction: city synagogues excluded (anonymous), village synagogues included (identifiable local owners). (3) Caretaker distinction: synagogue with caretaker's residence = included; without = excluded."
+          "question": "What are the three resolutions offered for the contradicting baraitot on synagogue tzaraat?",
+          "answer": "(1) Tanna attribution: first baraita = R. Meir, second = Rabbis. (2) Geographic distinction: city synagogues excluded (anonymous), village synagogues included (identifiable local owners). (3) Caretaker distinction: synagogue with caretaker's residence = included; without = excluded."
         },
         {
-          "q": "Why does having a caretaker make a synagogue susceptible to tzaraat?",
-          "a": "Because the caretaker lives in a residence attached to the synagogue, effectively functioning as the personal owner of the structure. Tzaraat law requires a specific personal owner to receive the divine warning, and the caretaker provides that connection."
+          "question": "Why does having a caretaker make a synagogue susceptible to tzaraat?",
+          "answer": "Because the caretaker lives in a residence attached to the synagogue, effectively functioning as the personal owner of the structure. Tzaraat law requires a specific personal owner to receive the divine warning, and the caretaker provides that connection."
         }
       ],
       "finalRuling": null,
