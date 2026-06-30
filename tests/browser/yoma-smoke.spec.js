@@ -73,3 +73,44 @@ test.describe('Yoma legacy-schema fallback (daf 19b)', () => {
     expect(pageErrors).toEqual([]);
   });
 });
+
+test.describe('Share button title resolution', () => {
+  test('legacy daf 19b shares the rendered fallback title, not an undefined sugya.title', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+
+    await page.addInitScript(() => {
+      window.__shareCalls = [];
+      navigator.share = (data) => {
+        window.__shareCalls.push(data);
+        return Promise.resolve();
+      };
+    });
+
+    await page.goto(DAF_19B);
+    const firstTitle = await page.locator('.sugya-title').first().textContent();
+    await page.locator('.share-btn').first().click();
+
+    const shareCalls = await page.evaluate(() => window.__shareCalls);
+    expect(shareCalls).toHaveLength(1);
+    expect(shareCalls[0].title).toBe(firstTitle.trim());
+    expect(shareCalls[0].title).not.toBe('');
+    expect(shareCalls[0].title).not.toBe('undefined');
+
+    expect(pageErrors).toEqual([]);
+  });
+
+  test('falls back to clipboard copy when native share is unavailable', async ({ page, context }) => {
+    await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+    const pageErrors = collectPageErrors(page);
+
+    await page.addInitScript(() => {
+      delete navigator.share;
+    });
+
+    await page.goto(DAF_19B);
+    await page.locator('.share-btn').first().click();
+    await expect(page.locator('.share-btn.copied').first()).toBeVisible();
+
+    expect(pageErrors).toEqual([]);
+  });
+});

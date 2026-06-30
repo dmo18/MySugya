@@ -465,7 +465,7 @@ function Chip({ open, onToggle, label, labelHe, children, kind, dh }) {
 // =============================================================================
 // SHARE BUTTON
 // =============================================================================
-function ShareButton({ sugya }) {
+function ShareButton({ sugya, title }) {
   const [copied, setCopied] = useState(false);
   const share = () => {
     const daf = sugya.daf || sugya.id.replace(/-\d+$/, "");
@@ -473,7 +473,7 @@ function ShareButton({ sugya }) {
     const baseUrl = window.location.origin + window.location.pathname;
     const url = `${baseUrl}?${params.toString()}#${sugya.id}`;
     if (navigator.share) {
-      navigator.share({ title: sugya.title, url }).catch(() => {});
+      navigator.share({ title, url }).catch(() => {});
     } else if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(() => {
         setCopied(true);
@@ -685,7 +685,7 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
         <div className="sugya-num">
           <span className="num">{String(idx + 1).padStart(2, "0")}</span>
           <span>SUGYA · {idx + 1} of {total}</span>
-          <ShareButton sugya={sugya} />
+          <ShareButton sugya={sugya} title={title} />
         </div>
         <h3 className={"sugya-title" + (titleIsFallback ? " sugya-title-fallback" : "")}>{title}</h3>
         {sugya.title_he && <p className="sugya-title-he" dir="rtl">{sugya.title_he}</p>}
