@@ -952,7 +952,10 @@ function JumpModal({ open, onClose, currentDaf, bookmarks, completed, onSelect }
   useEffect(() => {
     if (!open) return;
     prevFocusRef.current = document.activeElement;
-    return () => { prevFocusRef.current?.focus?.(); };
+    return () => {
+      const el = prevFocusRef.current;
+      if (el && document.contains(el) && typeof el.focus === "function") el.focus();
+    };
   }, [open]);
 
   useEffect(() => {
@@ -1746,7 +1749,10 @@ function CommandBar({ open, onClose }) {
   useEffect(() => {
     if (!open) return;
     prevFocusRef.current = document.activeElement;
-    return () => { prevFocusRef.current?.focus?.(); };
+    return () => {
+      const el = prevFocusRef.current;
+      if (el && document.contains(el) && typeof el.focus === "function") el.focus();
+    };
   }, [open]);
 
   const go = (e) => { if (e) window.location.href = "?module=" + e.mod.id + "&daf=" + e.daf; };
@@ -2062,7 +2068,10 @@ function HelpOverlay({ open, onClose }) {
   useEffect(() => {
     if (!open) return;
     prevFocusRef.current = document.activeElement;
-    return () => { prevFocusRef.current?.focus?.(); };
+    return () => {
+      const el = prevFocusRef.current;
+      if (el && document.contains(el) && typeof el.focus === "function") el.focus();
+    };
   }, [open]);
 
   useEffect(() => {
