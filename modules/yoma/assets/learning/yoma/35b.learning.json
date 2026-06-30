@@ -42,13 +42,20 @@
       ],
       "display": {
         "whats": "Must the Yom Kippur linen garments be sanctified before use?",
-        "hint": "Yes - 'and he shall put on sacred linen garments' requires immersion and sanctification each time."
+        "hint": "Yes - 'and he shall put on sacred linen garments' requires immersion and sanctification each time.",
+        "title": "'Other Garments' Still Need Sanctification"
       },
       "learning": {
-        "summary": "The Gemara challenges from the verse 'and he shall put on other garments' (Lev. 16:23) - implying the sacred garments must be sanctified with immersion when changing. R. Yehuda derives from the extra word 'other' that these are specifically the white linen garments, requiring sanctification at each change.",
         "ahaMoment": "Even 'other garments' requires sanctification - the verse teaches that each garment change on Yom Kippur demands immersion and hand-foot sanctification.",
         "memoryAnchor": "Other garments = still sacred = still need immersion.",
-        "openQuestion": "If the verse says 'other,' does that mean non-sacred garments requiring no sanctification?"
+        "learnerQuestion": "If the verse says the High Priest puts on 'other garments,' does that mean ordinary, non-sacred clothing requiring no sanctification?",
+        "coreTension": "The verse 'and he shall put on other garments' (Lev. 16:23) could be read as describing a switch to non-sacred clothing that needs no immersion or hand-foot sanctification.",
+        "coreMove": "R. Yehuda reads the extra word 'other' as referring to other sacred linen garments, not ordinary clothes - meaning each Yom Kippur garment change still requires immersion and sanctification.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The word 'other' in the garment-change verse does not exempt a change from sanctification; it identifies a different sacred linen set that still requires the full immersion and sanctification procedure."
+        },
+        "learningBlocker": "Learners read 'other garments' as a cue that the rules relax; R. Yehuda's reading keeps the garments sacred and the requirement intact."
       },
       "argumentFlow": [
         {
@@ -137,7 +144,11 @@
         "five immersions and ten sanctifications"
       ],
       "misconceptions": [
-        "'Other garments' means the KG changes into ordinary clothes during Yom Kippur"
+        {
+          "misconception": "'Other garments' means the High Priest changes into ordinary, non-sacred clothing during Yom Kippur.",
+          "correction": "R. Yehuda reads 'other' as referring to a different set of sacred linen garments, which still require immersion and sanctification before wearing.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-032a-s02"
@@ -151,8 +162,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What does 'other garments' mean in Lev. 16:23?",
-          "a": "Other sacred (white linen) garments - not ordinary clothes."
+          "question": "What does 'other garments' mean in Lev. 16:23?",
+          "answer": "Other sacred (white linen) garments - not ordinary clothes."
         }
       ],
       "finalRuling": "The verse 'other garments' refers to other sacred linen vestments; each change requires immersion and sanctification.",
@@ -214,13 +225,20 @@
       ],
       "display": {
         "whats": "Aggadah: poor, rich, and wicked come to judgment - Hillel, Elazar ben Charsum, Joseph.",
-        "hint": "The classic three figures at divine judgment: Hillel the poor scholar, Elazar ben Charsum the rich, and Joseph who withstood temptation."
+        "hint": "The classic three figures at divine judgment: Hillel the poor scholar, Elazar ben Charsum the rich, and Joseph who withstood temptation.",
+        "title": "No Excuse Holds at Judgment"
       },
       "learning": {
-        "summary": "A famous baraita presents three paradigms: the poor man who studied Torah despite poverty (Hillel), the rich man who served God despite wealth (Elazar ben Charsum who never saw his vast estates), and the wicked man who resisted sin (Joseph). Each refutes the corresponding excuse.",
         "ahaMoment": "No excuse holds at judgment: the poor points to Hillel, the rich to Elazar ben Charsum, the wicked to Joseph.",
         "memoryAnchor": "Three archetypes: Hillel, Elazar ben Charsum, Joseph - your excuse is already refuted.",
-        "openQuestion": "Is the aggadic framework here merely rhetorical, or does it reflect genuine criteria of divine judgment?"
+        "learnerQuestion": "Can poverty, wealth, or a powerful evil inclination excuse someone from Torah study or sin?",
+        "coreTension": "A person might plead poverty, wealth and its distractions, or an overwhelming evil inclination as an excuse for failing to study Torah or for sinning.",
+        "coreMove": "The baraita rebuts each excuse with a counter-example: Hillel's extreme poverty did not stop his Torah study, Elazar ben Charsum's vast wealth did not stop his, and Joseph withstood the most intense temptation - so none of these conditions is a valid excuse at judgment.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Circumstance, whether poverty, wealth, or strong temptation, does not excuse failure, because a real historical figure faced the same or worse circumstance and still succeeded."
+        },
+        "learningBlocker": "Learners take this aggadah as hyperbole rather than a structured rebuttal: each of the three figures specifically and individually answers one of the three excuses."
       },
       "argumentFlow": [
         {
@@ -350,7 +368,11 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "The rich have an excuse for not studying Torah"
+        {
+          "misconception": "Wealth and its accompanying distractions are a legitimate excuse for not studying Torah.",
+          "correction": "Elazar ben Charsum, despite owning a thousand villages and ships, never visited his estates and studied Torah all day - refuting the excuse that wealth prevents study.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-029a-s01"
@@ -364,8 +386,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Which figure refutes the poor man's excuse at divine judgment?",
-          "a": "Hillel, who was desperately poor yet climbed through the roof to study Torah in the snow."
+          "question": "Which figure refutes the poor man's excuse at divine judgment?",
+          "answer": "Hillel, who was desperately poor yet climbed through the roof to study Torah in the snow."
         }
       ],
       "finalRuling": "No one can claim poverty, wealth, or evil inclination as an excuse; Hillel, Elazar ben Charsum, and Joseph demonstrate the rebuttal.",
@@ -402,13 +424,20 @@
       ],
       "display": {
         "whats": "Mishna Ch. 4: The KG came to his bull standing between the vestibule and the altar.",
-        "hint": "First Mishna of chapter 4 - the core Yom Kippur service begins."
+        "hint": "First Mishna of chapter 4 - the core Yom Kippur service begins.",
+        "title": "Opening the Bull Confession: Where He Stands"
       },
       "learning": {
-        "summary": "Chapter 4 opens with the KG approaching his bull for the first confession. The bull stands between the Ulam (vestibule) and the altar, with its head facing south and its face west (toward the Holy of Holies entrance). The KG stands in the east, facing west, with both hands on the bull.",
         "ahaMoment": "The KG faces west to lean on the bull - he and his offering face the same direction, toward the Divine Presence.",
         "memoryAnchor": "KG faces west, bull faces west, hands pressed on head - the confession begins.",
-        "openQuestion": "Why specifically between the vestibule and the altar for this confession?"
+        "learnerQuestion": "Where exactly does the High Priest stand to confess over his bull, and which direction does he face?",
+        "coreTension": "Chapter 4 opens with the High Priest approaching his bull for confession, and the Mishna specifies an exact, seemingly technical position and orientation for both the bull and the High Priest.",
+        "coreMove": "The Mishna fixes the bull between the vestibule and the altar with its head south and face west, and the High Priest standing east of it facing west with both hands pressed on its head - establishing the precise stance for the first confession of the day.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The bull's location and orientation are not mere staging details - they are halachically fixed elements of a valid confession, tied to a tannaic dispute over the bull's exact position."
+        },
+        "learningBlocker": "Learners treat the bull's positioning as incidental scene-setting; later sugyot reveal it reflects a real tannaic dispute tied to legal consequences."
       },
       "argumentFlow": [
         {
@@ -475,8 +504,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Where does the KG's bull stand for the Yom Kippur confession?",
-          "a": "Between the vestibule and the altar, head facing south, face toward west."
+          "question": "Where does the KG's bull stand for the Yom Kippur confession?",
+          "answer": "Between the vestibule and the altar, head facing south, face toward west."
         }
       ],
       "finalRuling": "The bull stands between the vestibule and altar, head south, face west; the KG stands east facing west, hands on the bull.",

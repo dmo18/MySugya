@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "Abaye: Ben Katin made the winding mechanism from knife handles.",
-        "hint": "The material used for Ben Katin's cistern mechanism is clarified."
+        "hint": "The material used for Ben Katin's cistern mechanism is clarified.",
+        "title": "What Were the Winding Mechanism's Knife Handles?"
       },
       "learning": {
-        "summary": "Abaye clarifies the material: Ben Katin made the morat (winding mechanism for the laver) from bid'ot sakinin (knife handles), which were long wooden rods. This prevented the sanctification water in the laver from becoming invalid overnight by keeping it in motion.",
         "ahaMoment": "Practical ingenuity: unused wooden implements repurposed for a sacred function.",
         "memoryAnchor": "Bid'ot sakinin = knife handles → the winding mechanism that kept laver water valid.",
-        "openQuestion": "How does keeping water in motion prevent it from becoming passul overnight?"
+        "learnerQuestion": "What material did Ben Katin actually use to build the laver's overnight winding mechanism?",
+        "coreTension": "The previous daf mentions Ben Katin's winding mechanism for lowering the laver into a cistern, without specifying what it was made from.",
+        "coreMove": "Abaye clarifies that the mechanism was built from bid'ot sakinin - knife handles, repurposed as long wooden rods - showing the improvement came from practical reuse of existing material rather than a specially commissioned device.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Abaye's clarification shows that a recorded Temple improvement could be built from simple, repurposed materials (knife handles) rather than a costly dedicated commission."
+        },
+        "learningBlocker": "Learners assume every named Temple improvement involved expensive specially-made materials; Abaye specifies this one used ordinary repurposed knife handles."
       },
       "argumentFlow": [
         {
@@ -82,8 +89,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What did Abaye say Ben Katin's morat was made of?",
-          "a": "Bid'ot sakinin - knife handles."
+          "question": "What did Abaye say Ben Katin's morat was made of?",
+          "answer": "Bid'ot sakinin - knife handles."
         }
       ],
       "finalRuling": "Ben Katin's laver winding mechanism was made of knife handle wood (bid'ot sakinin).",
@@ -115,13 +122,20 @@
       ],
       "display": {
         "whats": "Queen Helene's golden candlestick and Nicanor's doors - further Temple gifts.",
-        "hint": "Queen Helene donated a golden menorah above the Heichal entrance; Nicanor's doors are famous."
+        "hint": "Queen Helene donated a golden menorah above the Heichal entrance; Nicanor's doors are famous.",
+        "title": "Queen Helene's Candlestick and Nicanor's Miraculous Doors"
       },
       "learning": {
-        "summary": "Queen Helene donated a golden candlestick placed above the Heichal's entrance; when the morning sun hit it, all knew sunrise had come. Also Nicanor went to Alexandria to bring bronze doors; on the return trip a storm threatened the ship, so one door was thrown overboard - the other miraculously arrived. Nicanor's gates became famous.",
         "ahaMoment": "Nicanor's doors: a miracle of devotion - one door thrown into the sea, the other carried by a miracle, both gates honored forever.",
         "memoryAnchor": "Nicanor threw one door in the sea; it arrived miraculously - the gates bear his name for eternity.",
-        "openQuestion": "If only one gate survived miraculously, why are both called 'Nicanor's gates'?"
+        "learnerQuestion": "What other gifts beautified the Temple, and what made Nicanor's doors miraculous?",
+        "coreTension": "The Gemara continues its list of Temple donors, and the story of Nicanor's doors poses the question of how a sacred object survived being thrown into the sea during a storm.",
+        "coreMove": "Queen Helene donated a golden candlestick above the Heichal entrance that signaled sunrise; Nicanor brought bronze doors from Alexandria, and when a storm forced the crew to throw one overboard, that door miraculously surfaced when the ship reached Akko - so both doors became known by his name.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Nicanor's doors became permanently associated with his name not because of who made them but because of the miracle that preserved the discarded door - devotion and miracle together established the lasting honor."
+        },
+        "learningBlocker": "Learners assume both of Nicanor's doors arrived normally; one was deliberately thrown into the sea during a storm and only reunited with its pair through a miracle at Akko."
       },
       "argumentFlow": [
         {
@@ -187,8 +201,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What miracle happened with Nicanor's doors?",
-          "a": "When a storm threatened, one door was thrown overboard; it miraculously surfaced at the port of Akko when the ship arrived."
+          "question": "What miracle happened with Nicanor's doors?",
+          "answer": "When a storm threatened, one door was thrown overboard; it miraculously surfaced at the port of Akko when the ship arrived."
         }
       ],
       "finalRuling": "Queen Helene donated a golden candlestick; Nicanor's door thrown at sea miraculously arrived at Akko.",
@@ -225,13 +239,20 @@
       ],
       "display": {
         "whats": "Queen Helene also made a golden tablet; from it we derive that gittin can be written in cursive.",
-        "hint": "She made a tablet inscribed with the sotah passage; from this the Rabbis derive gittin may be in seirugim."
+        "hint": "She made a tablet inscribed with the sotah passage; from this the Rabbis derive gittin may be in seirugim.",
+        "title": "A Golden Tablet and the Law of Gittin"
       },
       "learning": {
-        "summary": "Queen Helene also made a golden tablet on which the entire sotah (suspected adulteress) passage from the Torah was inscribed. The Gemara derives from this that a get (bill of divorce) may be written in seirugim (alternating/cursive letters), since the sotah passage was written that way on the tablet.",
         "ahaMoment": "A Temple artifact provides the model for divorce law - the seirugim writing style of Helene's tablet becomes normative for gittin.",
         "memoryAnchor": "Helene's golden tablet (sotah passage in seirugim) → gittin may be written in alternating script.",
-        "openQuestion": "Why would the style of writing on Helene's tablet influence get law?"
+        "learnerQuestion": "How can a Temple decoration influence the laws of writing a bill of divorce?",
+        "coreTension": "Queen Helene's golden tablet, inscribed with the sotah passage, is a Temple artifact - and the Gemara needs to explain how it becomes the basis for a ruling about gittin (bills of divorce), an entirely different area of law.",
+        "coreMove": "The Gemara derives that because the sotah passage on Helene's tablet was written b'seirugim (in alternating/cursive script), a get may likewise be validly written in that style - turning a Temple decorative artifact into a precedent for civil/family law writing requirements.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A non-legal Temple artifact's writing style (Queen Helene's tablet) can serve as the precedent establishing that an unrelated legal document, a get, may be written in the same script style."
+        },
+        "learningBlocker": "Learners assume halachic writing requirements for gittin come only from legal sources; here the precedent is drawn from how a Temple decorative tablet happened to be inscribed."
       },
       "argumentFlow": [
         {
@@ -313,8 +334,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What halachic ruling is derived from Queen Helene's golden tablet?",
-          "a": "That a get (bill of divorce) may be written in seirugim (alternating/cursive script)."
+          "question": "What halachic ruling is derived from Queen Helene's golden tablet?",
+          "answer": "That a get (bill of divorce) may be written in seirugim (alternating/cursive script)."
         }
       ],
       "finalRuling": "From Queen Helene's tablet (sotah passage in seirugim), we derive that a get written in alternating script is valid.",

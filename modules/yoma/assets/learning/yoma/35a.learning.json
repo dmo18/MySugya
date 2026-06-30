@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "The Chamber of Parva: who was Parva and why is it named after him?",
-        "hint": "Parva was a Persian magician who built an underground room to watch the KG."
+        "hint": "Parva was a Persian magician who built an underground room to watch the KG.",
+        "title": "The Chamber Named for a Sorcerer"
       },
       "learning": {
-        "summary": "The Gemara identifies Parva as a Persian sorcerer who dug a hidden chamber beneath the mikveh to observe the KG undressing. The name of the sacred immersion chamber derives from this ignoble figure.",
         "ahaMoment": "A room of purity is named after impurity - the sacred space carries the name of a voyeur.",
         "memoryAnchor": "Parva = the peeping sorcerer - the room named after him.",
-        "openQuestion": "Is it appropriate that a sacred priestly chamber bears the name of a sorcerer?"
+        "learnerQuestion": "Why does the room used for the High Priest's sacred immersion bear the name of a sorcerer?",
+        "coreTension": "The sacred immersion chamber is called the 'Chamber of Parva,' an oddly inauspicious name for so holy a space.",
+        "coreMove": "The Gemara explains that Parva was a Persian sorcerer who dug a hidden underground chamber to spy on the High Priest during his immersion - the room retained his name even after being repurposed for sanctioned, sacred use.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A sacred space can carry the name of its ignoble origin; the Gemara preserves the historical name even when the room's function has been entirely transformed for holiness."
+        },
+        "learningBlocker": "Learners assume Temple chamber names always honor a righteous figure or function; here the name preserves an episode of attempted impropriety."
       },
       "argumentFlow": [
         {
@@ -79,8 +86,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Who was Parva?",
-          "a": "A Persian magician who dug a room beneath the mikveh to watch the KG."
+          "question": "Who was Parva?",
+          "answer": "A Persian magician who dug a room beneath the mikveh to watch the KG."
         }
       ],
       "finalRuling": "The Chamber of Parva was named after Parva the sorcerer who built an underground chamber there.",
@@ -107,13 +114,20 @@
       ],
       "display": {
         "whats": "Why specifically a linen sheet for the KG's privacy curtain?",
-        "hint": "The same material as the KG's Yom Kippur garments - so it cannot be confused with his garments."
+        "hint": "The same material as the KG's Yom Kippur garments - so it cannot be confused with his garments.",
+        "title": "Why the Privacy Screen Is Linen"
       },
       "learning": {
-        "summary": "A linen sheet (buz) is spread for privacy during the KG's immersion. The Gemara asks why specifically linen. R. answers: because his garments are also linen, ensuring no one mistakes the screen for his actual vestments.",
         "ahaMoment": "The privacy screen is made of the same material as what it is screening - matching prevents confusion.",
         "memoryAnchor": "Linen for both = no mistake between screen and garment.",
-        "openQuestion": "Why not use a different, clearly-distinct material for the privacy screen?"
+        "learnerQuestion": "Why specifically use linen for the High Priest's privacy screen during immersion?",
+        "coreTension": "The Gemara asks why the privacy sheet (buz) used to screen the High Priest during his Yom Kippur immersion must be linen specifically, rather than any opaque material.",
+        "coreMove": "The answer ties the screen's material to the garments it is meant to protect from view: because the High Priest's own Yom Kippur vestments are also linen, using a different material for the screen could risk confusing it with the actual sacred garments.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A practical detail (the screen's material) is fixed by a non-obvious concern: matching the screen to the garments it conceals prevents the two from being mistaken for one another."
+        },
+        "learningBlocker": "Learners assume the linen choice for the screen was just convenience; the Gemara grounds it in avoiding confusion with the High Priest's actual vestments."
       },
       "argumentFlow": [
         {
@@ -178,8 +192,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Why is the KG's privacy screen made of linen?",
-          "a": "Because his Yom Kippur garments are also linen, preventing confusion."
+          "question": "Why is the KG's privacy screen made of linen?",
+          "answer": "Because his Yom Kippur garments are also linen, preventing confusion."
         }
       ],
       "finalRuling": "A linen screen was used because the KG's Yom Kippur vestments are linen - same material prevents confusion.",
@@ -211,13 +225,20 @@
       ],
       "display": {
         "whats": "Garment values: morning Pelusium linen vs afternoon Indian linen.",
-        "hint": "Morning garments (Pelusium) cost 18 maneh; afternoon (Indian) cost 12 maneh. The public provides them."
+        "hint": "Morning garments (Pelusium) cost 18 maneh; afternoon (Indian) cost 12 maneh. The public provides them.",
+        "title": "Public Garments, No Private Upgrade"
       },
       "learning": {
-        "summary": "The Mishnaic statement that morning garments cost 18 maneh and afternoon 12 maneh is examined. If an individual donated, the KG would use the public set to avoid appearing impoverished or making others feel inadequate.",
         "ahaMoment": "The KG wears publicly-funded vestments even when a private donor offers finer ones - Yom Kippur is a communal service, not a personal display.",
         "memoryAnchor": "18 maneh morning / 12 maneh afternoon: fixed communal costs, no private upgrade.",
-        "openQuestion": "If the KG's personal garments were finer than the public set, should he use them?"
+        "learnerQuestion": "If a wealthy donor offered the High Priest finer garments than the public set, could he wear them instead?",
+        "coreTension": "The Mishna fixes specific costs for the High Priest's morning (18 maneh) and afternoon (12 maneh) garments, raising the question of what happens if an individual donor offers a different set.",
+        "coreMove": "The Gemara rules that even if an individual donates garments, the High Priest uses the publicly funded set instead, so that the communal contribution is not implicitly treated as inadequate.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Yom Kippur vestments are funded by the public specifically so that the service is a communal undertaking; a private donation, however fine, does not override the public set."
+        },
+        "learningBlocker": "Learners think the High Priest could simply wear whatever garments were finest available; the halacha fixes the public set as the default precisely to protect communal dignity."
       },
       "argumentFlow": [
         {
@@ -266,7 +287,11 @@
         "five immersions"
       ],
       "misconceptions": [
-        "People think the KG can upgrade to personal finer garments"
+        {
+          "misconception": "The High Priest could wear personal garments that were finer than the publicly funded set.",
+          "correction": "Even when an individual donated finer garments, the High Priest used the public set instead, so the community's contribution would not appear inadequate.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-034b-s03"
@@ -280,8 +305,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "How much did the KG's morning Yom Kippur linen vestments cost?",
-          "a": "18 maneh (Pelusium linen)."
+          "question": "How much did the KG's morning Yom Kippur linen vestments cost?",
+          "answer": "18 maneh (Pelusium linen)."
         }
       ],
       "finalRuling": "Morning garments cost 18 maneh (Pelusium linen); afternoon 12 maneh (Indian linen); funded publicly.",

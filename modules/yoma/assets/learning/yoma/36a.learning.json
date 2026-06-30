@@ -42,13 +42,20 @@
       ],
       "display": {
         "whats": "Who holds that the bull stands 'between the vestibule and the altar'?",
-        "hint": "Only R. Yehuda; the Rabbis place the confession at the east of the Azarah."
+        "hint": "Only R. Yehuda; the Rabbis place the confession at the east of the Azarah.",
+        "title": "Whose View Places the Bull There?"
       },
       "learning": {
-        "summary": "The Gemara asks which tanna holds the Mishna's position (between vestibule and altar). Answer: R. Yehuda, who believes the confession location is between the Ulam and the altar. The Rabbis have a different ruling on where the confession takes place for the bull.",
         "ahaMoment": "The bull's location is a tannaic dispute: between vestibule and altar (R. Yehuda) vs east of the Azarah (Rabbis).",
         "memoryAnchor": "Same bull, different location: R. Yehuda = vestibule-altar gap; Rabbis = eastern Azarah.",
-        "openQuestion": "Why would the location of the confession matter halachically?"
+        "learnerQuestion": "The Mishna says the bull stands between the vestibule and the altar - but is that universally agreed?",
+        "coreTension": "The Mishna's stated location for the bull (between the vestibule and altar) needs an author, since the Rabbis are known to hold a different position.",
+        "coreMove": "The Gemara identifies R. Yehuda as the source of the Mishna's ruling, linking the confession's location to where the bull's blood is later sprinkled - the Rabbis place the confession further east in the Azarah.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Mishna's seemingly neutral description of the bull's location actually follows one specific tanna, R. Yehuda, whose view ties the confession site to the blood-sprinkling site."
+        },
+        "learningBlocker": "Learners assume an unattributed Mishna reflects unanimous agreement; here it silently follows R. Yehuda against the Rabbis' dissenting view."
       },
       "argumentFlow": [
         {
@@ -154,8 +161,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Which tanna holds the bull stands between the vestibule and altar?",
-          "a": "R. Yehuda."
+          "question": "Which tanna holds the bull stands between the vestibule and altar?",
+          "answer": "R. Yehuda."
         }
       ],
       "finalRuling": "R. Yehuda holds the bull stands between vestibule and altar; the Rabbis disagree on placement.",
@@ -197,13 +204,20 @@
       ],
       "display": {
         "whats": "How can the bull face both south (head) and west (face) simultaneously?",
-        "hint": "The bull is turned sideways: body aligned east-west, head turned to face south."
+        "hint": "The bull is turned sideways: body aligned east-west, head turned to face south.",
+        "title": "Head South, Face West: How?"
       },
       "learning": {
-        "summary": "The Gemara asks how the Mishna's description works geometrically: head to south and face to west. Answer: the bull stands with its body running east-west but its head is turned to face south, while its face naturally points west. The KG stands east of it, facing west.",
         "ahaMoment": "Bovine anatomy allows simultaneous orientations: body east-west, head turned south, face west.",
         "memoryAnchor": "A sideways neck: bull's body east-west, head south, face west - KG east facing west, pressing on.",
-        "openQuestion": "Is this description intended literally, or is it shorthand for a general positioning?"
+        "learnerQuestion": "How can the bull's head face south while its face simultaneously faces west?",
+        "coreTension": "The Mishna's description seems geometrically contradictory: the bull's head points south while its face points west.",
+        "coreMove": "The Gemara resolves this by orienting the bull's body along an east-west axis with its head turned sideways to the south, so the muzzle still points west - allowing the High Priest to stand east of the bull, facing west toward the Heichal, while pressing both hands on its head.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "An apparent contradiction in the Mishna's spatial description resolves once the turn of the bull's neck, not just its body axis, is accounted for."
+        },
+        "learningBlocker": "Learners read 'head south' and 'face west' as describing two different parts of the body pointing in unrelated directions, rather than realizing both describe the same turned head."
       },
       "argumentFlow": [
         {
@@ -278,7 +292,11 @@
         "KG Yom Kippur avodah"
       ],
       "misconceptions": [
-        "Head and face cannot point in different directions"
+        {
+          "misconception": "The bull's head and its face cannot point in two different directions at once, so the Mishna's description must be contradictory.",
+          "correction": "A turned neck allows the head to point south while the muzzle (face) points west - the bull's body runs east-west with the head turned sideways.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-035b-s03"
@@ -292,8 +310,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "How does the bull's head face south while its face faces west?",
-          "a": "The bull stands east-west; its head is turned south while the muzzle naturally faces west."
+          "question": "How does the bull's head face south while its face faces west?",
+          "answer": "The bull stands east-west; its head is turned south while the muzzle naturally faces west."
         }
       ],
       "finalRuling": "The bull stands east-west, head turned south, face west; the KG stands east facing west with both hands pressed on the bull.",

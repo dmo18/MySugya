@@ -270,13 +270,20 @@
       ],
       "display": {
         "whats": "R. Yehuda HaNasi: the word 'one' in the afternoon tamid verse derives the entire afternoon service from the morning. The Rabbis say 'one' means the special lamb unique to the Yom Kippur additional offerings.",
-        "hint": "A single word - 'the one lamb' - is read very differently by R. Yehuda HaNasi (deriving the entire afternoon from morning) vs the Rabbis (pointing to a special unique offering)."
+        "hint": "A single word - 'the one lamb' - is read very differently by R. Yehuda HaNasi (deriving the entire afternoon from morning) vs the Rabbis (pointing to a special unique offering).",
+        "title": "Ha-Echad: One Word, Two Readings"
       },
       "learning": {
-        "summary": "R. Yehuda HaNasi reads 'the one lamb' in Numbers as teaching that the afternoon offering is derived from the morning. The Rabbis challenge: since both morning and afternoon are written separately in the Torah, why derive one from the other? The Rabbis interpret 'one' (ha-echad) as referring to a lamb that is unique and special - specifically the additional Yom Kippur offering. This dispute is about the interpretive weight of a single word in the Torah.",
         "ahaMoment": "The word 'echad' (one) carries an entire legal derivation in R. Yehuda HaNasi's reading - a single definite article before 'one' (ha-echad) transforms a simple count into a source for the entire afternoon service law.",
         "memoryAnchor": "Ha-echad = 'the one' = R. Yehuda HaNasi's source for the afternoon tamid being 'like' the morning. But the Rabbis say 'the one' just means 'the special one.'",
-        "openQuestion": "If both morning and afternoon offerings are explicitly written in the Torah, why would R. Yehuda HaNasi need to derive the afternoon from the morning at all?"
+        "learnerQuestion": "If the Torah writes the afternoon offering explicitly, why does R. Yehuda HaNasi need to derive it from the word 'one' in the morning verse?",
+        "coreTension": "R. Yehuda HaNasi reads 'ha-echad' (the one lamb) as linking the afternoon offering's rules to the morning offering; the Rabbis object that this derivation is unnecessary because the afternoon offering is already written separately.",
+        "coreMove": "The Rabbis answer by reinterpreting 'ha-echad' itself: it does not derive the afternoon from the morning at all, but identifies a different unique lamb - the Yom Kippur additional offering.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A single definite word like 'ha-echad' can anchor an entire halachic derivation, but a competing Sage can neutralize that derivation by reassigning the word to point at a different referent entirely."
+        },
+        "learningBlocker": "Learners assume the dispute is over whether the afternoon offering needs a source; in fact both sides agree it has its own verse - the dispute is purely about what the extra word 'one' is teaching."
       },
       "argumentFlow": [
         {
@@ -336,7 +343,11 @@
         "Numbers/Bamidbar tamid verse"
       ],
       "misconceptions": [
-        "The afternoon tamid has no biblical source of its own - it is explicitly written in Numbers; R. Yehuda HaNasi uses the 'one' word to establish a derivative relationship, not to provide the primary source."
+        {
+          "misconception": "The afternoon tamid has no biblical source of its own and depends entirely on R. Yehuda HaNasi's derivation from 'ha-echad.'",
+          "correction": "The afternoon tamid is explicitly written in its own verse in Numbers; R. Yehuda HaNasi uses the word 'one' to establish a derivative relationship to the morning offering, not to provide the afternoon offering's primary source.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-034a-s02",
@@ -351,12 +362,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What does R. Yehuda HaNasi derive from the word 'the one lamb' in the afternoon tamid verse?",
-          "a": "He derives that the entire afternoon offering is derived from and follows the rules of the morning offering."
+          "question": "What does R. Yehuda HaNasi derive from the word 'the one lamb' in the afternoon tamid verse?",
+          "answer": "He derives that the entire afternoon offering is derived from and follows the rules of the morning offering."
         },
         {
-          "q": "How do the Rabbis interpret the word 'one' (ha-echad) in the afternoon tamid verse?",
-          "a": "The Rabbis interpret it as referring to the special, unique lamb of the Yom Kippur additional offering - not as a derivation of the afternoon from the morning."
+          "question": "How do the Rabbis interpret the word 'one' (ha-echad) in the afternoon tamid verse?",
+          "answer": "The Rabbis interpret it as referring to the special, unique lamb of the Yom Kippur additional offering - not as a derivation of the afternoon from the morning."
         }
       ],
       "finalRuling": "R. Yehuda HaNasi and the Rabbis dispute the meaning of 'the one.' The practical implications for the afternoon service sequence follow from this dispute.",
@@ -392,13 +403,20 @@
       ],
       "display": {
         "whats": "The Mishna: if the High Priest was elderly or physically delicate, hot water was poured into his Yom Kippur immersion to make it bearable. Abaye discusses unintentional acts and R. Yehuda's framework.",
-        "hint": "The accommodation for the High Priest's physical limitations shows the balance between strict ritual requirements and practical human needs."
+        "hint": "The accommodation for the High Priest's physical limitations shows the balance between strict ritual requirements and practical human needs.",
+        "title": "Hot Water for the Elderly High Priest"
       },
       "learning": {
-        "summary": "The Mishna teaches that if the High Priest was old or delicate (physically fragile), the authorities would heat water and add it to the immersion basin on Yom Kippur eve to make it less harsh. The Gemara then examines whether this constitutes an 'unintentional act' (davar she-eino mitkaven) - an act that incidentally causes a prohibited result, which R. Yehuda generally forbids but the Rabbis permit. Abaye notes that this is acceptable because the heating of the water was deliberately permitted by Yom Kippur rabbinic enactment, not an accidental transgression.",
         "ahaMoment": "The High Priest must immerse on Yom Kippur, but his physical health matters too. The Talmud does not demand he endanger himself - the accommodations show that the sanctity of the service and human dignity can coexist.",
         "memoryAnchor": "Old High Priest + cold water = problem. Solution: heat water beforehand. This was explicitly permitted, not an inadvertent transgression.",
-        "openQuestion": "Was the permission to heat water on Yom Kippur eve (to pour into the immersion the next day) a regular practice or only used when the High Priest was known to be elderly?"
+        "learnerQuestion": "Doesn't heating water specifically for the High Priest's immersion count as performing a prohibited act on purpose?",
+        "coreTension": "Abaye questions whether warming water for an elderly or delicate High Priest's Yom Kippur immersion is a forbidden 'unintentional act' (davar she-eino mitkaven) under R. Yehuda's stringent view.",
+        "coreMove": "The resolution distinguishes levels of prohibition: R. Yehuda's concern about unintentional acts applies only to Torah-level prohibitions, while heating water for this accommodation was an explicitly sanctioned rabbinic provision, not an inadvertent transgression.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Yehuda's stringency about unintentional acts (davar she-eino mitkaven) is scoped to Torah prohibitions; an explicitly permitted rabbinic accommodation, even one with a side effect, does not trigger that concern."
+        },
+        "learningBlocker": "Learners conflate 'doing something that has a side effect' with 'an unintentional violation' - the accommodation here was deliberately sanctioned, not merely tolerated as an inadvertent byproduct."
       },
       "argumentFlow": [
         {
@@ -461,8 +479,16 @@
         "R. Yehuda vs Rabbis on unintentional acts"
       ],
       "misconceptions": [
-        "The High Priest had to immerse in cold water regardless of his health - the Mishna explicitly provides for heating water when needed.",
-        "Heating water for the Yom Kippur immersion was an emergency measure - it was standard practice whenever the High Priest was elderly or fragile."
+        {
+          "misconception": "The High Priest had to immerse in cold water regardless of his health.",
+          "correction": "The Mishna explicitly provides for heating water on Yom Kippur eve when the High Priest was elderly or physically delicate, so cold water was not an absolute requirement.",
+          "correctedByStepId": null
+        },
+        {
+          "misconception": "Heating water for the Yom Kippur immersion was only an emergency measure.",
+          "correction": "Heating the water was standard, explicitly sanctioned practice whenever the High Priest was known to be elderly or fragile, not an exceptional emergency response.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-031a-s02",
@@ -482,12 +508,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What accommodation was made for an elderly or physically delicate High Priest on Yom Kippur?",
-          "a": "Water was heated on Yom Kippur eve and poured into the immersion basin to make the cold immersion bearable for the High Priest."
+          "question": "What accommodation was made for an elderly or physically delicate High Priest on Yom Kippur?",
+          "answer": "Water was heated on Yom Kippur eve and poured into the immersion basin to make the cold immersion bearable for the High Priest."
         },
         {
-          "q": "Why doesn't Abaye's concern about unintentional transgression (davar she-eino mitkaven) apply here?",
-          "a": "R. Yehuda's framework for unintentional acts applies only to Torah-level prohibitions. The hot-water accommodation was explicitly permitted by rabbinic authority for the High Priest's welfare."
+          "question": "Why doesn't Abaye's concern about unintentional transgression (davar she-eino mitkaven) apply here?",
+          "answer": "R. Yehuda's framework for unintentional acts applies only to Torah-level prohibitions. The hot-water accommodation was explicitly permitted by rabbinic authority for the High Priest's welfare."
         }
       ],
       "finalRuling": "Hot water may be prepared for an elderly or fragile High Priest's Yom Kippur immersion. This is a permitted rabbinic accommodation.",
@@ -518,13 +544,20 @@
       ],
       "display": {
         "whats": "The Mishna: the High Priest's second Yom Kippur immersion takes place in the Hall of Parva, which is in the sacred area. His morning garments (white linen) came from Egyptian Pelusium and were worth twelve maneh; his afternoon garments came from Indian linen and cost eight hundred dinar.",
-        "hint": "The High Priest's Yom Kippur garments were of the highest quality - both their geographic origin and cost are specified, reflecting the unique importance of Yom Kippur service."
+        "hint": "The High Priest's Yom Kippur garments were of the highest quality - both their geographic origin and cost are specified, reflecting the unique importance of Yom Kippur service.",
+        "title": "The Hall of Parva and the Two Sets of Vestments"
       },
       "learning": {
-        "summary": "The Mishna concludes this section with two details: (1) The High Priest's second Yom Kippur immersion took place in the Hall of Parva, located within the sacred Temple precincts. (2) The morning white linen garments were from Pelusium in Egypt and cost twelve maneh (1,200 dinar). The afternoon white garments were from India and cost eight hundred dinar. The Gemara notes these as established Temple norms.",
         "ahaMoment": "The specific geographic origins and prices of the High Priest's garments reflect the Temple's concern not just with ritual validity but with excellence and dignity in divine service. The finest linen in the world was sourced for Yom Kippur.",
         "memoryAnchor": "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium = 1,200 dinar. Afternoon white garments: Indian linen = 800 dinar.",
-        "openQuestion": "Why did the morning and afternoon Yom Kippur garments differ in origin and price? Were morning garments considered more sacred than afternoon ones?"
+        "learnerQuestion": "Where exactly did the High Priest's second Yom Kippur immersion take place, and why did his morning and afternoon garments differ in cost?",
+        "coreTension": "The Mishna locates the second immersion in the Hall of Parva within the sacred precincts and records that the High Priest's two sets of white garments came from different places at different prices, raising the question of why the service required two distinct, unequal garment sets.",
+        "coreMove": "The Mishna simply records both facts as fixed Temple norms: the second immersion site (Hall of Parva, sacred area) and the garment specifics (morning: Pelusium linen, 1,200 dinar; afternoon: Indian linen, 800 dinar), establishing that even small material details of the service were precisely standardized.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Mishna's precision about garment origin and cost reflects that excellence and dignity in Temple service mattered down to the material level, not only the ritual procedure."
+        },
+        "learningBlocker": "Learners assume the High Priest wore one set of garments all day; the Mishna specifies two distinct sets, of different origin and value, for morning and afternoon."
       },
       "argumentFlow": [
         {
@@ -577,8 +610,16 @@
         "five immersions on Yom Kippur"
       ],
       "misconceptions": [
-        "The High Priest wore the same white garments for the entire Yom Kippur service - he wore different sets for morning and afternoon, of different qualities and origins.",
-        "The white garments' cost was not specified - the Mishna explicitly records both the geographic origin and the cost of each set."
+        {
+          "misconception": "The High Priest wore the same white garments for the entire Yom Kippur service.",
+          "correction": "He wore different sets for morning and afternoon, of different qualities and origins: Egyptian Pelusium linen in the morning, Indian linen in the afternoon.",
+          "correctedByStepId": null
+        },
+        {
+          "misconception": "The white garments' cost was not specified in the Mishna.",
+          "correction": "The Mishna explicitly records both the geographic origin and the cost of each set: morning garments at twelve maneh (1,200 dinar), afternoon garments at eight hundred dinar.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-031b-s03",
@@ -598,12 +639,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Where did the High Priest's second Yom Kippur immersion take place?",
-          "a": "In the Hall of Parva, which was located within the sacred Temple precincts."
+          "question": "Where did the High Priest's second Yom Kippur immersion take place?",
+          "answer": "In the Hall of Parva, which was located within the sacred Temple precincts."
         },
         {
-          "q": "What were the origins and costs of the High Priest's two sets of white Yom Kippur garments?",
-          "a": "Morning garments: Egyptian Pelusium linen, twelve maneh (1,200 dinar). Afternoon garments: Indian linen, eight hundred dinar."
+          "question": "What were the origins and costs of the High Priest's two sets of white Yom Kippur garments?",
+          "answer": "Morning garments: Egyptian Pelusium linen, twelve maneh (1,200 dinar). Afternoon garments: Indian linen, eight hundred dinar."
         }
       ],
       "finalRuling": "Second immersion: Hall of Parva (sacred area). Morning white garments: Egyptian Pelusium, 1,200 dinar. Afternoon white garments: Indian linen, 800 dinar.",

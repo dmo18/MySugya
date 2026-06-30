@@ -27,13 +27,20 @@
       ],
       "display": {
         "whats": "How is 'anna' (please) derived for the Yom Kippur confession?",
-        "hint": "Gezerah shavah: 'kappara' links Yom Kippur confession to Moses's prayer 'anna' in Numbers."
+        "hint": "Gezerah shavah: 'kappara' links Yom Kippur confession to Moses's prayer 'anna' in Numbers.",
+        "title": "Deriving 'Anna' from Moses's Prayer"
       },
       "learning": {
-        "summary": "The Gemara derives that the KG says 'anna' (please, O God) in the confession from a gezerah shavah: 'kappara' appears both in Numbers (Moses's plea after the golden calf, using 'anna') and in Leviticus 16 (Yom Kippur). This links the Yom Kippur formula to Moses's 'anna HaShem' prayer.",
         "ahaMoment": "The word 'anna' in the confession is a biblical requirement, not a later addition - derived via gezerah shavah from Moses's prayer.",
         "memoryAnchor": "Kappara links Yom Kippur to Moses praying 'anna HaShem' - so 'anna' is mandated.",
-        "openQuestion": "If gezerah shavah requires 'anna,' does the confession fail if this word is omitted?"
+        "learnerQuestion": "Where does the requirement to say 'anna' (please) at the start of the Yom Kippur confession come from?",
+        "coreTension": "The confession formula opens with 'anna HaShem,' and the Gemara asks what authorizes this specific opening word as a textual requirement rather than a later addition.",
+        "coreMove": "A gezerah shavah links the word 'kappara' as it appears in the Yom Kippur passage (Lev. 16) to the same word in Moses's prayer after the golden calf (Num. 14), where Moses opens with 'anna HaShem' - transferring that opening word to the Yom Kippur confession.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A gezerah shavah linking a shared word ('kappara') in two unrelated passages transfers a specific verbal formula (Moses's 'anna HaShem') from one context to the Yom Kippur confession."
+        },
+        "learningBlocker": "Learners assume the confession's wording was composed freely by the Sages; the opening word 'anna' is in fact derived from a formal hermeneutic link to Moses's own prayer."
       },
       "argumentFlow": [
         {
@@ -100,8 +107,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "How is 'anna' derived as part of the Yom Kippur confession?",
-          "a": "Gezerah shavah: 'kappara' in Lev. 16 parallels Num. 14 where Moses says 'anna HaShem' for atonement."
+          "question": "How is 'anna' derived as part of the Yom Kippur confession?",
+          "answer": "Gezerah shavah: 'kappara' in Lev. 16 parallels Num. 14 where Moses says 'anna HaShem' for atonement."
         }
       ],
       "finalRuling": "The word 'anna' in the viduy is derived via gezerah shavah: 'kappara' links Yom Kippur to Moses's prayer.",
@@ -128,13 +135,20 @@
       ],
       "display": {
         "whats": "The congregation responds 'Baruch Shem' after the KG; R. Yehuda: they respond to the Divine Name.",
-        "hint": "The congregation prostrates and says 'Baruch Shem' when the KG pronounces the explicit Divine Name."
+        "hint": "The congregation prostrates and says 'Baruch Shem' when the KG pronounces the explicit Divine Name.",
+        "title": "The Congregation's Response to the Divine Name"
       },
       "learning": {
-        "summary": "A baraita cites R. Yehuda's ruling: 'because the name of God is called upon in My presence.' The congregation responds to each utterance of the Shem HaMeforash by the KG with 'Baruch Shem kavod malchuto l'olam va'ed,' falling prostrate.",
         "ahaMoment": "When the Divine Name is spoken, the congregation's response (Baruch Shem + prostration) is itself a form of worship - acknowledgment of the Name.",
         "memoryAnchor": "Explicit Name + congregation's response = Baruch Shem + prostration, three times on Yom Kippur.",
-        "openQuestion": "Why is Baruch Shem normally said quietly throughout the year but aloud only on Yom Kippur?"
+        "learnerQuestion": "What did the people in the Temple do when the High Priest pronounced God's actual Name during the confession?",
+        "coreTension": "The Yom Kippur confession uses the explicit Divine Name (Shem HaMeforash), an utterance otherwise avoided, raising the question of how the assembled congregation responded to hearing it.",
+        "coreMove": "The baraita teaches that whenever the High Priest spoke the Shem HaMeforash, the congregation fell prostrate and responded aloud with 'Baruch Shem kevod malchuto le'olam va'ed.'",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Hearing the explicit Divine Name on Yom Kippur triggered a specific congregational response - full prostration paired with the Baruch Shem declaration - marking the only occasion this was done aloud."
+        },
+        "learningBlocker": "Learners assume Baruch Shem is always said the same quiet way it is recited daily; on Yom Kippur, in response to the spoken Name, it was said aloud together with prostration."
       },
       "argumentFlow": [
         {
@@ -173,7 +187,11 @@
         "Temple prostration (kidat arkavin)"
       ],
       "misconceptions": [
-        "Baruch Shem is said quietly as a regular prayer"
+        {
+          "misconception": "Baruch Shem was said quietly during the Yom Kippur service just as it is recited daily.",
+          "correction": "On Yom Kippur, when the High Priest spoke the explicit Divine Name, the congregation responded aloud with Baruch Shem while falling prostrate - a unique, audible response distinct from its ordinary quiet recitation.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-036b-s02"
@@ -187,8 +205,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What did the congregation do when the KG spoke the Divine Name?",
-          "a": "They fell prostrate and responded 'Baruch Shem kavod malchuto l'olam va'ed.'"
+          "question": "What did the congregation do when the KG spoke the Divine Name?",
+          "answer": "They fell prostrate and responded 'Baruch Shem kavod malchuto l'olam va'ed.'"
         }
       ],
       "finalRuling": "When the KG spoke the Shem HaMeforash, the congregation fell prostrate and responded with Baruch Shem.",
@@ -235,13 +253,20 @@
       ],
       "display": {
         "whats": "Mishna: KG came to east of Azarah, north of altar; lot box with the Deputy and head of bet av.",
-        "hint": "The lot ceremony for the two goats: the box containing the lots, the Deputy on the right."
+        "hint": "The lot ceremony for the two goats: the box containing the lots, the Deputy on the right.",
+        "title": "The Lot Ceremony for the Two Goats"
       },
       "learning": {
-        "summary": "A new Mishna describes the lot ceremony for the two goats. The KG went to the east of the Azarah, north of the altar. The Deputy stood to his right, the head of bet av (senior priest of that day's division) to his left. Two goats stood before him. The lot box was there. The KG shook the box and drew the lots.",
         "ahaMoment": "The lot ceremony is a moment of Divine selection: no human chooses which goat is 'for God' - the lot decides.",
         "memoryAnchor": "Box shaken, KG draws two lots simultaneously - left hand or right hand determines which goat goes to God.",
-        "openQuestion": "Is the lot valid if the right hand draws the 'for God' lot but the KG put it in his left?"
+        "learnerQuestion": "How was it decided which of the two identical goats was offered to God and which was sent to Azazel?",
+        "coreTension": "Two goats stand before the High Priest, and a method is needed to assign one to God and the other to Azazel without human preference influencing the choice.",
+        "coreMove": "The Mishna describes a lottery: a box (kalpei) holds two lots, one inscribed 'for God' and one 'for Azazel'; the High Priest draws one lot with each hand simultaneously, and the lot drawn in each hand determines which goat receives which designation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The designation of the two goats is determined entirely by simultaneous lot-drawing, removing human choice from which goat is 'for God' and which is 'for Azazel.'"
+        },
+        "learningBlocker": "Learners assume the High Priest selected the goats based on some visible quality; the assignment is purely random, decided by which inscribed lot lands in which hand."
       },
       "argumentFlow": [
         {
@@ -334,7 +359,11 @@
         "lottery (goral)"
       ],
       "misconceptions": [
-        "The KG chose which goat was for God based on appearance"
+        {
+          "misconception": "The High Priest selected which goat was 'for God' based on its appearance or some other personal judgment.",
+          "correction": "The assignment was determined entirely by lottery - the High Priest drew one lot with each hand from the kalpei, and whichever lot a hand drew determined that goat's designation.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-039b-s03"
@@ -348,8 +377,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What was in the kalpei (lot box) on Yom Kippur?",
-          "a": "Two lots - one inscribed 'for God' and one 'for Azazel.'"
+          "question": "What was in the kalpei (lot box) on Yom Kippur?",
+          "answer": "Two lots - one inscribed 'for God' and one 'for Azazel.'"
         }
       ],
       "finalRuling": "The KG drew two lots simultaneously from the box - the lot in each hand designated which goat was for God and which for Azazel.",
@@ -386,13 +415,20 @@
       ],
       "display": {
         "whats": "Deputy on his right, head of bet av on his left; R. Yehuda's different configuration.",
-        "hint": "R. Yehuda reverses: head of bet av to the right, Deputy to the left."
+        "hint": "R. Yehuda reverses: head of bet av to the right, Deputy to the left.",
+        "title": "Who Stands Where: A Reversed Dispute"
       },
       "learning": {
-        "summary": "The Mishna says Deputy on the right and head of bet av on the left. The Gemara notes R. Yehuda disagrees - he holds the head of bet av was on the right and the Deputy on the left. The positions reflect the relative honor assigned to each role.",
         "ahaMoment": "Right = more honorable position; the dispute reflects whether the Deputy or the head of bet av had greater honor.",
         "memoryAnchor": "Who stands where? Deputy vs head of bet av: right = honor; they dispute priority.",
-        "openQuestion": "Why would the positional arrangement matter for the lot ceremony?"
+        "learnerQuestion": "Does it matter who stands to the High Priest's right during the lot ceremony - the Deputy or the head of that day's priestly division?",
+        "coreTension": "The Mishna places the Deputy High Priest on the right and the head of bet av on the left, but R. Yehuda is recorded as reversing this configuration.",
+        "coreMove": "The Gemara notes that R. Yehuda holds the opposite arrangement - head of bet av on the right, Deputy on the left - reflecting a real dispute over which role carries greater honor in this ceremony.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The positioning of officials during the lot ceremony encodes a dispute about relative honor: the right side is the more honorable position, and the tannaim disagree about who occupies it."
+        },
+        "learningBlocker": "Learners read the Mishna's positional detail as fixed and undisputed; R. Yehuda's reversed arrangement shows it reflects an unresolved honor dispute."
       },
       "argumentFlow": [
         {
@@ -473,8 +509,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Who stood to the KG's right during the lot ceremony according to the Mishna?",
-          "a": "The Deputy (segan) KG."
+          "question": "Who stood to the KG's right during the lot ceremony according to the Mishna?",
+          "answer": "The Deputy (segan) KG."
         }
       ],
       "finalRuling": "Mishna: Deputy to the right, head of bet av to the left. R. Yehuda reverses the positions.",
@@ -511,13 +547,20 @@
       ],
       "display": {
         "whats": "The lot box (kalpei) and the two golden lots; Ben Katin made improvements to the Temple.",
-        "hint": "The lots were originally made of boxwood; a later KG made them of gold."
+        "hint": "The lots were originally made of boxwood; a later KG made them of gold.",
+        "title": "From Boxwood to Gold: The Lots Upgrade"
       },
       "learning": {
-        "summary": "The kalpei (lot box) contained two lots. A baraita notes that originally the lots were made of boxwood, but a later high priest (at the time of Ben Katin) made them of gold. The Gemara mentions various Temple improvements made by individuals over the generations.",
         "ahaMoment": "The lot ceremony evolved: boxwood lots were replaced by gold lots as a sign of honor to the Temple service.",
         "memoryAnchor": "Lots: wood → gold (Temple honor); Ben Katin made 12-spigot laver.",
-        "openQuestion": "Why does the material of the lots matter if the lottery procedure is unchanged?"
+        "learnerQuestion": "Were the lots used in the Yom Kippur lottery always made of gold?",
+        "coreTension": "The Yom Kippur lots are a sacred ritual implement, and a learner might assume their material was fixed from the start rather than evolving over time.",
+        "coreMove": "A baraita records that the lots were originally made of boxwood and were later remade in gold by a High Priest seeking to honor the Temple service, alongside other Temple improvements made by various individuals.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Ritual implements like the Yom Kippur lots were not fixed forever at their original material; later generations upgraded them as an expression of honor for the service, without changing the underlying procedure."
+        },
+        "learningBlocker": "Learners assume any detail recorded in the Mishna was original from Sinai; the lots' gold material was a later honorific upgrade over the original boxwood."
       },
       "argumentFlow": [
         {
@@ -596,8 +639,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What were the Yom Kippur lots originally made of?",
-          "a": "Boxwood; later replaced with gold."
+          "question": "What were the Yom Kippur lots originally made of?",
+          "answer": "Boxwood; later replaced with gold."
         }
       ],
       "finalRuling": "The lots were originally boxwood, later made gold; Ben Katin made 12 spigots for the laver.",
@@ -634,13 +677,20 @@
       ],
       "display": {
         "whats": "Ben Katin's 12 spigots for the laver - other Temple improvements enumerated.",
-        "hint": "Ben Katin, Queen Helene, and others made various gifts and improvements to the Temple."
+        "hint": "Ben Katin, Queen Helene, and others made various gifts and improvements to the Temple.",
+        "title": "Ben Katin's Twelve Spigots"
       },
       "learning": {
-        "summary": "The Gemara continues listing Temple improvements. Ben Katin made 12 spigots for the laver (instead of 2) and a device to prevent the water from becoming invalid overnight. Other figures mentioned: Monobaz the king, Queen Helene, Nicanor.",
         "ahaMoment": "Multiple donors across generations beautified the Temple; each contribution is remembered in the Mishna.",
         "memoryAnchor": "Temple gifts: 12 spigots (Ben Katin), golden doors (Nicanor), golden menorah (Helene) - community investment in the sacred.",
-        "openQuestion": "Why does the Gemara record these non-priestly, non-halachic contributions?"
+        "learnerQuestion": "Why does the Gemara record the names of donors like Ben Katin, Queen Helene, and Nicanor rather than only halachic rulings?",
+        "coreTension": "Improvements like Ben Katin's twelve-spigot laver are practical engineering upgrades, not halachic rulings, raising the question of why the Mishna preserves them at all.",
+        "coreMove": "The Gemara lists multiple individual contributions to the Temple - Ben Katin's twelve spigots and cistern mechanism for the laver, alongside gifts from Monobaz, Queen Helene, and Nicanor - showing that the tradition preserves the memory of those who beautified the Temple's daily operation, not only its law.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Mishna and Gemara preserve the names of practical and material benefactors to the Temple alongside legal rulings, treating devotion expressed through improvement and donation as worth recording."
+        },
+        "learningBlocker": "Learners assume Ben Katin's laver upgrade was a unique, isolated improvement; the Gemara situates it within a broader pattern of recorded donor contributions across generations."
       },
       "argumentFlow": [
         {
@@ -718,8 +768,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What improvement did Ben Katin make to the laver?",
-          "a": "He added 12 spigots (instead of 2) and a device to lower it into a cistern overnight to prevent the water from becoming invalid."
+          "question": "What improvement did Ben Katin make to the laver?",
+          "answer": "He added 12 spigots (instead of 2) and a device to lower it into a cistern overnight to prevent the water from becoming invalid."
         }
       ],
       "finalRuling": "Ben Katin made 12 laver spigots and a cistern mechanism; multiple donors beautified the Temple.",

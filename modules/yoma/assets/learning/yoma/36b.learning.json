@@ -37,13 +37,20 @@
       ],
       "display": {
         "whats": "Do R. Yehuda and the Rabbis dispute about nevelah (neveilah prohibition)?",
-        "hint": "Yes - their underlying dispute is about whether a bull that becomes nevelah before slaughter is a problem."
+        "hint": "Yes - their underlying dispute is about whether a bull that becomes nevelah before slaughter is a problem.",
+        "title": "Why Does the Bull's Location Matter? Nevelah"
       },
       "learning": {
-        "summary": "The dispute between R. Yehuda and the Rabbis about the bull's location is tied to a deeper question about the nevelah prohibition. If the bull dies before slaughter (becoming nevelah) in the space between vestibule and altar, does that violate nevelah rules? R. Yehuda's position on the location is connected to this question.",
         "ahaMoment": "The location of the confession is not merely spatial - it is tied to liability for nevelah in sacred spaces.",
         "memoryAnchor": "Where the bull stands = where it might die = where nevelah might occur.",
-        "openQuestion": "Why should the confession location affect nevelah liability?"
+        "learnerQuestion": "Why would the exact spot where the High Priest's bull stands matter halachically, beyond ceremony?",
+        "coreTension": "R. Yehuda and the Rabbis disagree about where the bull stands for confession, and the Gemara asks whether this dispute is rooted in something more substantive than spatial preference.",
+        "coreMove": "The Gemara ties the location dispute to nevelah liability: if the bull were to die before slaughter while standing in one zone versus another, the Temple precincts impose different consequences, so the location choice carries real legal weight.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A dispute that looks purely spatial (where the bull stands) is actually rooted in a substantive halachic concern: nevelah liability differs by zone within the Temple precincts."
+        },
+        "learningBlocker": "Learners see the location dispute as a matter of staging or honor; it is in fact anchored in a deeper disagreement about sacred-zone liability for an animal that dies unslaughtered."
       },
       "argumentFlow": [
         {
@@ -136,8 +143,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What is the underlying basis of R. Yehuda vs Rabbis on bull location?",
-          "a": "Nevelah liability in sacred Temple precincts."
+          "question": "What is the underlying basis of R. Yehuda vs Rabbis on bull location?",
+          "answer": "Nevelah liability in sacred Temple precincts."
         }
       ],
       "finalRuling": "The location dispute is fundamentally about nevelah liability in different Temple zones.",
@@ -184,13 +191,20 @@
       ],
       "display": {
         "whats": "The confession formula: 'I have sinned, transgressed, rebelled' - what order?",
-        "hint": "'Aviti, pashati, chatati' or 'chatati, aviti, pashati'? The halacha is stated."
+        "hint": "'Aviti, pashati, chatati' or 'chatati, aviti, pashati'? The halacha is stated.",
+        "title": "The Full Confession Formula"
       },
       "learning": {
-        "summary": "A baraita gives the full Yom Kippur confession text. The KG says: 'Anna HaShem, I have sinned (chatati), transgressed (aviti), and rebelled (pashati) before You - I, my household, and the sons of Aaron Your holy people. Please, HaShem, atone for the sins, transgressions, and rebellions that I have sinned, transgressed, and rebelled before You.' The formula uses the Name explicitly.",
         "ahaMoment": "The full confession formula names three categories of sin in a specific order, repeated twice - first admitting, then requesting atonement.",
         "memoryAnchor": "Chatati, aviti, pashati: three sin-types, said twice - once admitting, once requesting forgiveness.",
-        "openQuestion": "Why repeat all three sin categories both in the admission and the request for atonement?"
+        "learnerQuestion": "What exact words does the High Priest say when he confesses over the bull?",
+        "coreTension": "Confession requires specific words, and a learner might assume a single general admission of guilt suffices rather than a structured formula.",
+        "coreMove": "The baraita gives the precise text: 'Anna HaShem, chatati, aviti, pashati' - naming three distinct categories of wrongdoing (sin, iniquity, rebellion), for himself, his household, and the priesthood, then repeating the same three categories in the request for atonement.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Yom Kippur confession is a fixed formula naming three distinct categories of wrongdoing, recited twice - once in admission and once in the plea for atonement - not a generic statement of guilt."
+        },
+        "learningBlocker": "Learners assume any sincere admission of wrongdoing fulfills the confession requirement; the halacha fixes a specific three-part formula recited in a specific structure."
       },
       "argumentFlow": [
         {
@@ -282,7 +296,11 @@
         "Baruch Shem"
       ],
       "misconceptions": [
-        "The confession only mentions one type of sin"
+        {
+          "misconception": "The Yom Kippur confession formula names only a single, general category of sin.",
+          "correction": "The fixed formula names three distinct categories - chatati (sin), aviti (iniquity), pashati (rebellion) - and repeats all three both in the admission and in the plea for atonement.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-037a-s01"
@@ -296,8 +314,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What are the three sin categories in the Yom Kippur confession formula?",
-          "a": "Chatati (unintentional sin), aviti (deliberate wrongdoing), pashati (willful rebellion)."
+          "question": "What are the three sin categories in the Yom Kippur confession formula?",
+          "answer": "Chatati (unintentional sin), aviti (deliberate wrongdoing), pashati (willful rebellion)."
         }
       ],
       "finalRuling": "The viduy formula: 'I have sinned, transgressed, rebelled before You - I, my household, and the sons of Aaron' using the explicit Divine Name.",
@@ -339,13 +357,20 @@
       ],
       "display": {
         "whats": "'V'chipper' (he shall atone) - what does 'atone' mean here? Atonement through words.",
-        "hint": "Verbal confession (kaparat devarim) is the means of atonement for intentional sins."
+        "hint": "Verbal confession (kaparat devarim) is the means of atonement for intentional sins.",
+        "title": "Atonement Through Words"
       },
       "learning": {
-        "summary": "A baraita asks: what does 'v'chipper' mean in the Yom Kippur passage? Answer: kaparat devarim - atonement through words (verbal confession). The verse teaches that speech itself is the atoning mechanism on Yom Kippur, not just the sacrificial blood alone.",
         "ahaMoment": "V'chipper = kaparat devarim: the confession speech itself is the atoning act, not just the sacrifice.",
         "memoryAnchor": "Atonement is verbal: the blood atones for impurity, the words atone for sins.",
-        "openQuestion": "If the blood of the sacrifice atones, why is verbal confession also required?"
+        "learnerQuestion": "If the bull's blood already atones, why does the High Priest also need to say anything?",
+        "coreTension": "The verse states that the High Priest 'shall atone' (v'chipper), and the Gemara asks what kind of atoning act this word is describing, since the blood of the sacrifice already accomplishes a form of atonement.",
+        "coreMove": "The Gemara teaches that v'chipper refers specifically to kaparat devarim - atonement accomplished through speech - meaning the verbal confession itself is the atoning mechanism for deliberate sins, distinct from the blood's atonement for ritual impurity.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Yom Kippur atonement operates on two distinct tracks: the sacrificial blood addresses ritual impurity, while the spoken confession (kaparat devarim) is the atoning act for deliberate sin."
+        },
+        "learningBlocker": "Learners assume the blood sacrifice alone accomplishes atonement; the Gemara teaches that verbal confession is itself a required, independent atoning mechanism."
       },
       "argumentFlow": [
         {
@@ -423,7 +448,11 @@
         "confession requirement"
       ],
       "misconceptions": [
-        "The blood sacrifice alone atones on Yom Kippur; no words needed"
+        {
+          "misconception": "The blood of the bull alone atones on Yom Kippur; the spoken confession is optional or merely ceremonial.",
+          "correction": "The Gemara derives that v'chipper means kaparat devarim - the verbal confession is itself the atoning act for deliberate sins, distinct from and necessary alongside the blood's atonement for impurity.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-036b-s02"
@@ -437,8 +466,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What does 'v'chipper' teach about Yom Kippur atonement?",
-          "a": "That verbal confession (kaparat devarim) is the mechanism of atonement, not only the sacrifice."
+          "question": "What does 'v'chipper' teach about Yom Kippur atonement?",
+          "answer": "That verbal confession (kaparat devarim) is the mechanism of atonement, not only the sacrifice."
         }
       ],
       "finalRuling": "V'chipper means kaparat devarim: verbal confession is the atoning act on Yom Kippur, essential alongside the sacrifice.",
