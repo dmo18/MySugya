@@ -36,14 +36,22 @@
         "Yoma.23a.4"
       ],
       "display": {
+        "title": "Snake, not saint: why a scholar may forgive his own insult but not Torah's",
         "whats": "The principle that a Torah scholar should not forgive insults is elaborated: R. Yochanan and R. Elazar both say: one who does not take vengeance is hated before Heaven. Evidence: God forgave Israel's sins against Himself but required their enemies to receive punishment. The Gemara compares this to God's love: God does not forever overlook honor affronts to his servants. The related principle about scholars forgoing their honor is discussed.",
         "hint": "The snake-vengeance principle is counterintuitive in a religious context - usually forgiveness is praised. The Talmud distinguishes: one may forgive personal affronts (it is even praiseworthy), but a Torah scholar who forgives a public insult to the Torah itself is wrong, because that is not personal honor but institutional."
       },
       "learning": {
-        "summary": "R. Yochanan: one who is not vengeful is hated before Heaven. The verse shows God requires that enemies who wronged Israel suffer - He did not simply forgive them. But separately: can a talmid chacham forgo his own honor? Yes, for personal honor. But Torah honor is not his to waive.",
-        "ahaMoment": "The distinction between personal honor and institutional honor: a scholar can forgive his own insults. But if someone demeans the Torah through him, that insult is to God, not to the scholar - and the scholar has no authority to waive it.",
-        "memoryAnchor": "Scholar forgoing personal honor = permitted. Scholar forgoing Torah's honor = not permitted. Snake = patient but eventual response.",
-        "openQuestion": "Is there a practical way to apply the snake principle without becoming bitter or harboring grudges indefinitely?"
+        "learnerQuestion": "Forgiveness is praised everywhere else in this tradition. Why does the Gemara say a Torah scholar who does not avenge an insult is hated before Heaven?",
+        "coreTension": "R. Yochanan's ruling sounds like it condemns forgiveness itself, which would contradict the broader value placed on mechila (forgoing one's rights). The sugya has to explain what kind of insult actually triggers the obligation to respond, since it cannot be ordinary personal slights.",
+        "coreMove": "The Gemara proves from God's own conduct that forgiveness and required response are not contradictory: God forgave Israel's sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel. That shows the ruling is not about personal grudges but about who actually holds the honor at stake. A scholar may forgo his own personal honor freely, but when an insult is aimed at the Torah through him, that honor belongs to the Torah, not to him, so he has no authority to waive it.",
+        "resolution": "A talmid chacham may forgo his own personal honor, and doing so is praiseworthy. An insult to Torah delivered through a scholar is not his to forgive, since the honor at stake is the Torah's, not his own.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The right to forgive an insult belongs to whoever's honor was actually attacked. A scholar can waive his own, but cannot waive an insult to Torah on Torah's behalf."
+        },
+        "ahaMoment": "The distinction between personal honor and institutional honor: a scholar can forgive his own insults. But if someone demeans the Torah through him, that insult is to God, not to the scholar, and the scholar has no authority to waive it.",
+        "learningBlocker": "Learners tend to read 'one who does not avenge is hated before Heaven' as a blanket rejection of forgiveness, missing that the Gemara's proof (God forgiving Israel's sins yet still punishing Israel's enemies) is specifically about defending someone else's honor, not about how to handle ordinary personal offense.",
+        "memoryAnchor": "Scholar forgoing personal honor = permitted. Scholar forgoing Torah's honor = not permitted. Snake: patient but eventual response."
       },
       "argumentFlow": [
         {
@@ -109,8 +117,14 @@
         "yoma-022b-s03"
       ],
       "misconceptions": [
-        "The 'vengeance' here is not physical retribution. It is maintaining dignity and not allowing public demeaning to pass unchallenged.",
-        "A Torah scholar's personal honor and the Torah's honor are two different things. The scholar can waive the first; the second is God's and must be defended."
+        {
+          "misconception": "The 'vengeance' R. Yochanan describes means physical retribution against whoever gave the insult.",
+          "correction": "It means maintaining dignity and not letting a public demeaning of Torah pass unchallenged, not physical retaliation."
+        },
+        {
+          "misconception": "Since a scholar can waive his own honor, he can also waive an insult to the Torah delivered through him.",
+          "correction": "Personal honor and Torah's honor are treated as two different holders of the right to forgive. The scholar may waive only the first; the second belongs to Torah and is not his to give away."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s03"
@@ -123,12 +137,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Can a Torah scholar waive insults to himself? What about insults to the Torah through him?",
-          "a": "A scholar may waive personal insults - this is even praiseworthy. But insults to the Torah are not his to waive; those belong to God and must be addressed."
+          "question": "Can a Torah scholar waive insults to himself? What about insults to the Torah delivered through him?",
+          "answer": "A scholar may waive personal insults; this is even praiseworthy. But insults to the Torah are not his to waive, since that honor belongs to the Torah and must be addressed."
         },
         {
-          "q": "What does R. Yochanan say about one who does not take vengeance?",
-          "a": "R. Yochanan says one who does not avenge (a public wrong to Torah) is hated before Heaven."
+          "question": "What proof does the Gemara bring that requiring a response to an insult does not contradict the value of forgiveness?",
+          "answer": "God forgave Israel's own sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel, showing that forgiving your own offense and defending someone else's honor are not the same act."
         }
       ],
       "finalRuling": "Personal honor may be waived; Torah honor may not. A talmid chacham must respond (like a snake: quietly but eventually) to public demeaning of Torah.",
