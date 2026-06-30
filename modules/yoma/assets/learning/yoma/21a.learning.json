@@ -26,14 +26,18 @@
         "Yoma.21a.2"
       ],
       "display": {
+        "title": "From a rooster proof-text to Ridya: the heifer-formed angel that mediates the upper and lower waters",
         "whats": "The baraita supporting R. Sheila (rooster=the bird) is cited from Ezra: 'before any rooster crowed.' Then the Gemara tangentially asks about Ridya, the angel of rain described in Ezekiel as an entity between the upper and lower waters, splitting them apart. The name Ridya may mean 'she runs' (Aramaic) because rain runs down.",
         "hint": "The Ridya digression is triggered by the word 'rain' in a connected context - a classic talmudic tangent that adds cosmological depth. The image of an angel standing between upper and lower waters with an open face recalls the creation narrative."
       },
       "learning": {
-        "summary": "A baraita supports R. Sheila (rooster = the bird). Ridya is the angel of rain: a young heifer with a cloven face, standing between the upper and lower waters, telling the upper waters to descend and the lower waters to rise. Its name may come from 'running' (Aramaic: radi) since rain runs.",
-        "ahaMoment": "The angel of rain is anthropomorphic/theriomorphic - a creature with a bull's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
-        "memoryAnchor": "Ridya = rain angel between upper and lower waters, like a cow with a split face.",
-        "openQuestion": "Why is the rain angel depicted as a heifer? Is the connection to agricultural fertility symbolic?"
+        "learnerQuestion": "Now that a baraita has settled that 'gever' in Ezra means the rooster, why does the Gemara suddenly pivot to describing an angel of rain instead of moving on?",
+        "coreTension": "The keriat hagever discussion seems closed once the Ezra proof-text is cited, yet the Gemara does not move to the next topic of the mishna; it lingers on a tangential question about rain that has no direct bearing on the Temple service timing just settled.",
+        "coreMove": "The Gemara follows a verbal association rather than a topical one: having confirmed gever can mean rooster, a creature tied to dawn and natural cycles, it slides into a related cosmological question about Ridya, the angel responsible for rain. Ridya is described as a heifer-formed being with an open, hollow face standing between the upper and lower cosmic waters, commanding the upper waters down and the lower waters up. The name itself is read as a clue to its function: from the Aramaic root for 'running,' since that is what rain does.",
+        "takeaway": {"type": "conceptual", "text": "Talmudic digressions are often triggered by a verbal or thematic association in the preceding text rather than by direct relevance to the legal topic, and the digression can still carry its own coherent cosmological content worth understanding on its own terms."},
+        "ahaMoment": "The angel of rain is theriomorphic, a creature with a heifer's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
+        "learningBlocker": "Learners look for a halachic link between the rooster proof-text and the Ridya digression, missing that the connection is associative (rooster signals dawn and natural cycles, which leads to rain) rather than legal, a pattern worth recognizing across many talmudic tangents.",
+        "memoryAnchor": "Ridya = rain angel between upper and lower waters, shaped like a heifer with a split, hollow face. Name from 'running,' since rain runs."
       },
       "argumentFlow": [
         {
@@ -79,8 +83,8 @@
         "yoma-020b-s02"
       ],
       "misconceptions": [
-        "Ridya is not purely metaphorical. In talmudic thinking, an angel actually mediates between the upper and lower waters to produce rain.",
-        "The 'split face' of Ridya is often understood as an open/hollow face like a tube through which water passes - not an injured or divided face."
+        {"misconception": "Ridya is a purely metaphorical or poetic image with no real cosmological content.", "correction": "In talmudic thinking, Ridya is presented as an actual angelic being that mediates between the upper and lower waters to produce rain, a concrete part of the cosmological model, not a literary flourish."},
+        {"misconception": "Ridya's 'split face' describes an injured or divided face.", "correction": "The split face is understood as an open, hollow feature, more like a tube or channel through which water passes, not a wound or division."}
       ],
       "relatedSugyot": [
         "yoma-020b-s02"
@@ -97,12 +101,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is Ridya and what role does it play in Talmudic cosmology?",
-          "a": "Ridya is the angel of rain - depicted as a young heifer with an open/split face, standing between the upper and lower cosmic waters. It commands the upper waters to descend (rain) and the lower to rise."
+          "question": "What is Ridya and what role does it play in Talmudic cosmology?",
+          "answer": "Ridya is the angel of rain, depicted as a heifer-formed being with an open, hollow face, standing between the upper and lower cosmic waters. It commands the upper waters to descend (rain) and the lower waters to rise."
         },
         {
-          "q": "What is the baraita that supports R. Sheila's view that 'gever' in keriat hagever means rooster?",
-          "a": "A baraita from Ezra uses 'gever' to mean the bird (rooster), supporting R. Sheila's interpretation."
+          "question": "What triggers the Gemara's shift from the keriat hagever debate to the Ridya digression, given that the two topics are not legally connected?",
+          "answer": "The shift follows a verbal and thematic association rather than a halachic one: the Ezra proof-text confirms gever can mean rooster, a creature tied to dawn and natural cycles, which leads the Gemara into a related cosmological question about rain and the angel responsible for it."
         }
       ],
       "finalRuling": "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
@@ -164,14 +168,18 @@
         "Yoma.21a.9"
       ],
       "display": {
+        "title": "Five standing miracles of the Beit HaMikdash: space, safety, lodging, fire, and smoke",
         "whats": "Five miracles of the Temple on the pilgrimage festivals: (1) pilgrims stood pressed together yet had room to prostrate; (2) no snake or scorpion ever harmed anyone in Jerusalem; (3) no one said 'there is no room for me'; (4) rain did not extinguish the wood fire on the altar; (5) the altar smoke rose straight up regardless of wind direction. Each miracle is elaborated with its biblical source and Gemara analysis.",
         "hint": "These five miracles map onto the five senses and the five physical challenges of mass pilgrimage. The prostration miracle is particularly striking: the city seemed impossibly small but expanded supernaturally. The smoke going straight up was also held to signal divine acceptance of the offerings."
       },
       "learning": {
-        "summary": "Five ongoing miracles of the Beit HaMikdash: (1) The prostration miracle: people stood tightly packed yet had 4 amot between each person when they prostrated; (2) No serpent or scorpion ever harmed in Jerusalem; (3) No one said 'I have no room to stay overnight in Jerusalem'; (4) The altar fire was never extinguished by rain; (5) The altar smoke rose straight up, never displaced by wind.",
-        "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible - yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha. The Vilna Gaon reads this as reflecting the divine presence dwelling in the ark, which itself occupied no space.",
-        "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up.",
-        "openQuestion": "Why is the prostration miracle listed first? Is the miracle of space the most fundamental teaching about the Beit HaMikdash?"
+        "learnerQuestion": "If hundreds of thousands of pilgrims packed into Jerusalem for the festivals, what kept the experience from being dangerous, cramped, or chaotic, and why does the Gemara treat the answer as a fixed list of five miracles rather than just praise?",
+        "coreTension": "A mass pilgrimage to a single physical site should produce overcrowding, danger from wildlife, lack of housing, and practical obstacles to the fire-based service, especially in rain and wind. The Gemara instead reports a baraita naming five specific, recurring conditions under which none of this happened, treating them as a defined catalog rather than vague piety.",
+        "coreMove": "The baraita lists five distinct, ongoing miracles, each addressing a specific practical strain of pilgrimage: the courtyard held everyone packed tightly yet opened to give each person four amot of space when the crowd prostrated; no one in Jerusalem was ever harmed by a snake or scorpion; no pilgrim was ever turned away for lack of overnight lodging; rain never extinguished the altar's outdoor fire; and the altar's smoke rose in a straight column no matter which way the wind blew. Listing them as a fixed set of five treats each as evidence of the same underlying claim, that the Temple's sanctity actively overrode the physical limits that would otherwise govern a crowded outdoor site.",
+        "takeaway": {"type": "conceptual", "text": "A catalog of distinct miracles, each tied to a specific practical strain, can function as a structured argument that sanctity overrides physical limitation, rather than as a loose collection of impressive anecdotes."},
+        "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible, yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha.",
+        "learningBlocker": "Learners read the five miracles as a disconnected list of impressive trivia, missing that each one answers a specific, predictable practical problem of mass pilgrimage, space, danger, lodging, weather, and wind, so the list functions as a structured claim about the Temple's nature, not a grab-bag of wonders.",
+        "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up."
       },
       "argumentFlow": [
         {
@@ -264,9 +272,9 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "These five miracles are not one-time events but ongoing features of the Temple throughout its existence.",
-        "The prostration miracle is specifically about the 4-amot spacing required for prostration with arms spread. The same space that was 'too packed to move in' suddenly became sufficient when they bowed.",
-        "The altar fire miracle is about the permanent fire, not just special occasions - rain never extinguished it despite the altar being entirely outdoors."
+        {"misconception": "These five miracles were one-time events recorded for a specific festival.", "correction": "The baraita describes them as ongoing, recurring features that characterized the Temple throughout its existence, not isolated incidents."},
+        {"misconception": "The prostration miracle just means the crowd was generally comfortable.", "correction": "It specifically refers to the four amot of space required for prostration with arms spread; the same area that was too packed to move in suddenly became sufficient the moment everyone bowed, a precise spatial claim, not a general comfort claim."},
+        {"misconception": "The altar fire miracle refers to fire surviving occasional bad weather.", "correction": "It refers to the permanent, perpetual fire on the altar, which stood entirely outdoors and was never extinguished by rain despite having no roof or shelter, a claim about a continuous condition, not a one-off close call."}
       ],
       "relatedSugyot": [
         "yoma-021b-s02",
@@ -288,12 +296,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "List the five miracles of the Beit HaMikdash on the pilgrimage festivals.",
-          "a": "(1) Pilgrims stood packed but had space to prostrate; (2) no snake or scorpion harmed anyone in Jerusalem; (3) no one lacked lodging overnight; (4) rain never extinguished the altar fire; (5) the altar smoke always rose straight up regardless of wind."
+          "question": "What practical strain of mass pilgrimage does each of the five Temple miracles specifically address?",
+          "answer": "Each answers a distinct predictable problem: overcrowding (space to prostrate appears), danger from wildlife (no snake or scorpion harm), housing shortage (no one lacks lodging), weather (rain never extinguishes the altar fire), and wind (the altar smoke still rises straight up)."
         },
         {
-          "q": "What made the prostration miracle paradoxical?",
-          "a": "The pilgrims stood so tightly packed that movement was impossible, yet when they prostrated for the mention of God's name, each person miraculously had the required 4 amot of space to bow with arms spread."
+          "question": "What made the prostration miracle paradoxical?",
+          "answer": "The pilgrims stood so tightly packed that movement was impossible, yet when they prostrated for the mention of God's name, each person miraculously had the required four amot of space to bow with arms spread."
         }
       ],
       "finalRuling": "Five ongoing miracles of the Temple were maintained throughout its existence.",

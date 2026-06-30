@@ -44,14 +44,22 @@
         "Yoma.19b.5"
       ],
       "display": {
+        "title": "Instruction, not agency: reading 'attah shluchenu' as a charge to follow Pharisaic practice",
         "whats": "The Gemara resolves the agency debate: the oath formula 'you are our agent' does not mean kohanim are literally Israel's agents - it means 'act according to our understanding (of the law), not secretly according to your own.' Both the KG and the elders wept after the oath ceremony. The page explains why each wept. The reason for the oath is then given: the Sadducee incense practice. A vivid story follows: a Sadducee KG who lit the incense outside (in violation of Pharisaic halacha) and entered the Holy of Holies was struck dead.",
         "hint": "The tears at the oath ceremony reveal the emotional complexity: the KG wept because being sworn implies he is suspected of Sadducee tendencies. The elders wept because they had to treat a potentially innocent man as a suspect - an inherently painful act done for the sake of the law."
       },
       "learning": {
-        "summary": "The oath formula resolution: 'attah shluchenu' means 'act as we understand the law' (referring to intention), not a declaration of Israel's agency over the kohanim. Rav Huna's position (God's agents) is not refuted. Both parties wept: the KG from the humiliation of suspicion; the elders from the pain of having to suspect him. The Sadducee incense incident: a KG who followed the Sadducee practice (lighting incense outside then entering) was struck dead immediately upon leaving the Holy of Holies - his father confirmed he was a Sadducee.",
+        "learnerQuestion": "If the oath at Beit Avtinas literally says 'attah shluchenu,' 'you are our agent,' doesn't that settle the agency debate from 19a in Israel's favor, and why would both the KG and the elders cry over a routine oath?",
+        "coreTension": "The oath's wording sounds like a legal declaration that the kohen is Israel's agent, which would contradict Rav Huna's earlier position that kohanim act as God's agents. The Gemara needs the oath to carry weight without resolving the agency question by mere word choice.",
+        "coreMove": "The Gemara reads 'attah shluchenu' not as a legal status claim but as an instruction about whose interpretation to follow: act per the Pharisaic understanding of the law, not a private Sadducee reading. This frees the oath from deciding the agency debate and instead ties it to a specific, practical danger: a Sadducee KG secretly lighting the incense outside the Holy of Holies before entering, contrary to Pharisaic practice. A documented case follows in which a Sadducee KG who did exactly that was found dead on the way out.",
+        "resolution": "The oath means 'act according to our (Pharisaic) understanding of the law,' not a declaration of legal agency, and it exists specifically to block the Sadducee incense practice, whose danger the dead-KG story illustrates.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "A formula that sounds like a legal status claim can instead function as an instruction about whose interpretation to follow. Reading language for its practical force, not just its surface grammar, can dissolve an apparent contradiction with an earlier ruling."
+        },
         "ahaMoment": "The oath is not a legal declaration but a communication: 'we adjure you by your own understanding of the law' - meaning 'don't secretly use your own (Sadducee) interpretation.' The tears show how much weight this carries for both parties.",
-        "memoryAnchor": "'Attah shluchenu' = act per our understanding, not literally 'you are our agent.' Both wept: KG (suspected), elders (had to suspect). Sadducee incense KG: struck dead on exit.",
-        "openQuestion": "If the Sadducee KG died immediately after leaving the Holy of Holies (and his father confirmed he was Sadducee), does the Talmud see this as divine punishment or as a natural consequence of improper incense service?"
+        "learningBlocker": "Learners take 'attah shluchenu' at face value as settling the agency question from 19a, missing that the Gemara reinterprets the phrase as an instruction about interpretive loyalty rather than a statement about the kohen's legal status.",
+        "memoryAnchor": "'Attah shluchenu' = act per our understanding, not literally 'you are our agent.' Both wept: KG (suspected), elders (had to suspect). Sadducee incense KG: struck dead on exit."
       },
       "argumentFlow": [
         {
@@ -161,7 +169,10 @@
         "The agency question from 19a"
       ],
       "misconceptions": [
-        "One might think 'attah shluchenu' (you are our agent) proves the Pharisees believed kohanim are Israel's legal agents - the Gemara explains it is a communication about intention, not a legal agency declaration."
+        {
+          "misconception": "'Attah shluchenu' (you are our agent) proves the Pharisees believed kohanim are Israel's legal agents.",
+          "correction": "The Gemara reads the phrase as a communication about whose interpretation to follow, not as a legal agency declaration, so it does not refute Rav Huna's position that kohanim act as God's agents."
+        }
       ],
       "relatedSugyot": [
         "yoma-19a-s03",
@@ -179,14 +190,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why did both the High Priest and the elders weep after the oath ceremony at Beit Avtinas?",
-          "correct": "The KG wept because being sworn implied the elders suspected him of Sadducee tendencies, which was humiliating. The elders wept because they had to suspect potentially innocent men - and 'one who suspects the innocent suffers bodily.'"
+          "question": "Why did both the High Priest and the elders weep after the oath ceremony at Beit Avtinas?",
+          "answer": "The KG wept because being sworn implied the elders suspected him of Sadducee tendencies, which was humiliating. The elders wept because they had to suspect potentially innocent men, and 'one who suspects the innocent suffers bodily.'"
         },
         {
-          "type": "explain",
-          "q": "What was the Sadducee practice for the Yom Kippur incense service, and what happened to a KG who followed it?",
-          "correct": "The Sadducees held the incense must be lit outside the Holy of Holies (before entry) so the KG enters already wreathed in smoke. A Sadducee KG who followed this practice was struck dead immediately upon leaving - his father confirmed he had been a Sadducee."
+          "question": "What was the Sadducee practice for the Yom Kippur incense service, and what happened to a KG who followed it?",
+          "answer": "The Sadducees held the incense must be lit outside the Holy of Holies (before entry) so the KG enters already wreathed in smoke. A Sadducee KG who followed this practice was struck dead immediately upon leaving; his father confirmed he had been a Sadducee."
         }
       ],
       "finalRuling": "The oath formula means 'act per our understanding' - not a legal agency declaration. Sadducee incense practice is invalid and dangerous. The Pharisaic ruling (incense inside) is the normative halacha.",
@@ -246,14 +255,22 @@
         "Yoma.19b.10"
       ],
       "display": {
+        "title": "Bam means mouth, not hands: why Rav's Shema-time gesture was never an interruption",
         "whats": "A new topic: Rav interrupts his Shema recitation to give a hand-sign indicating he will address someone shortly. The Gemara discusses whether this gesture is permitted during Kriat Shema and what it signifies. The rules about interrupting the first paragraph of Shema vs the second paragraph are clarified, and what kinds of signals are permitted during each.",
         "hint": "Shema has two distinct sections with different rules: the first paragraph (Shema Yisrael through ve-ahavta) requires concentration (kavanah) and certain interruptions are forbidden; the second paragraph has fewer restrictions. Hand signals occupy a middle ground."
       },
       "learning": {
-        "summary": "Rav's practice of giving hand signals during Shema recitation raises the question of interruption rules. The first paragraph requires the mouth to be heard and demands kavanah (intention); the second paragraph has fewer restrictions. Hand signals (like beckoning or pointing) are permitted even during the first paragraph since they do not involve speech - but verbal interruptions are forbidden.",
+        "learnerQuestion": "Rav visibly signaled with his hand in the middle of reciting Shema. Doesn't any visible action during the strictest part of Shema count as breaking his concentration and interrupting the recitation?",
+        "coreTension": "The first paragraph of Shema demands kavanah and forbids interruption, yet Rav openly used a hand gesture mid-recitation. The Gemara needs a textual basis for why this particular act does not count as the forbidden kind of interruption.",
+        "coreMove": "The Gemara grounds the interruption prohibition in the word 'bam' from 've-dibartem bam,' reading it as 'with them, in your mouth': the recitation must be spoken audibly. Because the prohibition is anchored to the mouth, a hand gesture, which involves no speech, falls outside its scope even during the first paragraph's stricter requirements.",
+        "resolution": "Hand signals are permitted during Shema, including the first paragraph, because the interruption rule targets speech alone. Verbal interruptions remain forbidden in the first paragraph and restricted (with some flexibility for urgent greetings) in the second.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A prohibition's scope is set by the specific word it is derived from. 'Bam' ties the Shema interruption rule to the mouth, so anything outside that channel, like a silent gesture, is not covered even if it looks disruptive."
+        },
         "ahaMoment": "The distinction between speech and gesture is the operative divide: speech interrupts Shema, gesture does not. Rav's hand-sign stays within the permissible zone.",
-        "memoryAnchor": "Rav signals with hand during Shema. First paragraph: no speech, but gestures OK. Second paragraph: more flexibility. Key word: 'bam' (in them) = mouth, not hands.",
-        "openQuestion": "Is there a category of mental interruption during Shema? If one's thoughts wander completely, is there an obligation to repeat?"
+        "learningBlocker": "Learners default to a broad, intuitive sense that 'staying focused' means no movement at all, missing that the Gemara derives the prohibition from a specific word, 'bam,' that limits it to oral speech rather than to concentration in general.",
+        "memoryAnchor": "Rav signals with hand during Shema. First paragraph: no speech, but gestures OK. Second paragraph: more flexibility. Key word: 'bam' (in them) = mouth, not hands."
       },
       "argumentFlow": [
         {
@@ -360,7 +377,10 @@
         "The rules about audible vs silent prayer"
       ],
       "misconceptions": [
-        "One might think any physical action during Shema is an interruption - the Gemara clarifies that only speech constitutes an interruption, not gestures."
+        {
+          "misconception": "Any physical action during Shema counts as an interruption, since the first paragraph demands full concentration.",
+          "correction": "The Gemara derives the interruption prohibition from 'bam,' which ties it to speech specifically. Gestures involve no speech, so they fall outside the prohibition even in the strict first paragraph."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -371,14 +391,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why is Rav's hand signal during Shema not considered an interruption?",
-          "correct": "The prohibition on interrupting Shema applies to speech - the verse 've-dibartem bam' refers to the mouth. Gestures do not involve the mouth and are not speech, so they do not constitute a forbidden interruption."
+          "question": "Why is Rav's hand signal during Shema not considered an interruption?",
+          "answer": "The prohibition on interrupting Shema applies to speech; the verse 've-dibartem bam' refers to the mouth. Gestures do not involve the mouth and are not speech, so they do not constitute a forbidden interruption."
         },
         {
-          "type": "explain",
-          "q": "What does 'bam' teach about how Shema must be recited?",
-          "correct": "'Bam' (in them) = with your mouth, meaning the recitation must be done orally and audibly (one must be able to hear oneself). Silent Shema does not fulfill the obligation according to this reading."
+          "question": "What does 'bam' teach about how Shema must be recited, and what does that imply about a silent recitation?",
+          "answer": "'Bam' (in them) means with your mouth, so the recitation must be spoken aloud and audible to oneself. A purely silent Shema does not satisfy this reading of the verse."
         }
       ],
       "finalRuling": "Hand signals during Shema: permitted (not speech). First paragraph: must be recited audibly. Second paragraph: same rules with slightly more flexibility for greetings.",
@@ -443,14 +461,22 @@
         "Yoma.19b.16"
       ],
       "display": {
+        "title": "Defining the vigil, term by term: tzarda, kidda, and the Psalm that explains the night",
         "whats": "The Mishna describing how the young priests kept the KG awake all night is quoted and explained. 'Tzarda' (the snapping finger) is identified. The young priests would snap fingers, walk the KG around the Temple floor, make him dance briefly, recite psalms, and generally keep him entertained and alert. The page ends with a description of what they would do with the KG in the early morning hours when the time for the tamid slaughter approached.",
         "hint": "This mishna is remarkably humanizing: the highest religious figure in Israel being kept awake by young priests who snap fingers, dance, and even play - all to fulfill the crucial halakhic requirement that he not sleep. The absurdity and necessity coexist."
       },
       "learning": {
-        "summary": "The 'tzarda' finger is identified as the index finger pressed against the thumb and released with a snap. Young priests would use this to startle the KG if he showed signs of sleep. They also had him walk on the cold stone floor, do a gesture called 'kidah' (touching the ground with toes and bowing), and entertained him through the night. At dawn, an announcement is made and the Yom Kippur service formally begins.",
+        "learnerQuestion": "The Mishna lists vivid but cryptic vigil techniques, tzarda, kidda, walking, singing. What did each of these actually involve, and why specifically these methods?",
+        "coreTension": "The Mishna's terse vocabulary names techniques without describing them, leaving a reader unable to picture what the young priests actually did or why a psalm about builders fits into an all-night vigil.",
+        "coreMove": "The Gemara works through the Mishna's terms one by one: tzarda is identified as a literal finger-snap (index finger against the thumb base, released sharply) used to startle a dozing KG; the cold floor walk and the difficult kidda bow are described as physical alertness techniques; Psalm 127 is read as a charge that the night's labor is wasted without sincere intention; and the vigil ends with the formal dawn announcement that opens the tamid slaughter.",
+        "resolution": "Each vigil method now has a concrete definition: tzarda (finger-snap to startle), the cold stone floor walk, kidda (a difficult toe-bow), and Psalm 127 (a reminder that insincere service accomplishes nothing), all running until the Hebron-light announcement signals the tamid slaughter can begin.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A Mishna's compressed, almost playful vocabulary can describe a serious halakhic requirement. Unpacking each term precisely, rather than reading past it as color, is what turns the passage from anecdote into a working description of practice."
+        },
         "ahaMoment": "The 'tzarda' (finger-snap) moment is the Talmud at its most human: the holiest person in Israel being jolted awake by young priests snapping fingers because everyone understands the stakes of him falling asleep.",
-        "memoryAnchor": "Tzarda = index finger against thumb, snap. KG entertained all night: dancing, floor-walking, kidda bow. Dawn arrives: tamid time begins.",
-        "openQuestion": "The Mishna notes 'they would not sleep' but says 'they were sinning' (chot'in) - why does the Talmud report they were sinning during this vigil?"
+        "learningBlocker": "Learners read 'tzarda,' 'kidda,' and the Psalm as charming background detail and move on, missing that the Gemara is doing careful definitional work, pinning down exactly what each unfamiliar Mishnaic term physically meant.",
+        "memoryAnchor": "Tzarda = index finger against thumb, snap. KG entertained all night: dancing, floor-walking, kidda bow. Dawn arrives: tamid time begins."
       },
       "argumentFlow": [
         {
@@ -574,7 +600,10 @@
         "The tamid service and its dawn-announcement system"
       ],
       "misconceptions": [
-        "One might think 'they were sinning' refers to the priests keeping the KG awake - it refers to the Sukkot Simchat Beit HaShoeva celebrations that went on simultaneously in the Temple courtyard."
+        {
+          "misconception": "'They were sinning' refers to the young priests' methods of keeping the KG awake.",
+          "correction": "It refers to the Sukkot Simchat Beit HaShoeva celebrations, where men and women mingled in the Temple courtyard, leading to improper behavior. It has nothing to do with the vigil techniques themselves."
+        }
       ],
       "relatedSugyot": [
         "yoma-18b-s02",
@@ -592,14 +621,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is the 'tzarda' and how was it used during the KG's all-night vigil?",
-          "correct": "The 'tzarda' is a finger-snap: pressing the index finger hard against the thumb base and releasing with a sharp snap. The young priests used this sound to startle the KG awake if he showed signs of dozing."
+          "question": "What is the 'tzarda' and how was it used during the KG's all-night vigil?",
+          "answer": "The 'tzarda' is a finger-snap: pressing the index finger hard against the thumb base and releasing with a sharp snap. The young priests used this sound to startle the KG awake if he showed signs of dozing."
         },
         {
-          "type": "explain",
-          "q": "What psalm did the priests sing to the KG during the all-night vigil and why?",
-          "correct": "Psalm 127 - 'If God does not build the house, in vain do its builders toil.' It reminded the KG that the Yom Kippur service is only effective if done with sincere intention for Heaven's sake."
+          "question": "What psalm did the priests sing to the KG during the all-night vigil, and what point did it make?",
+          "answer": "Psalm 127, 'If God does not build the house, in vain do its builders toil.' It reminded the KG that the Yom Kippur service is only effective if performed with sincere intention for Heaven's sake."
         }
       ],
       "finalRuling": "The vigil continues until dawn when the tamid slaughter begins. All methods (finger-snap, floor-walking, Torah study, Psalm singing) are legitimate and permitted.",

@@ -66,14 +66,19 @@
         "Yoma.22a.10"
       ],
       "display": {
+        "title": "From a footrace up the ramp to Saul and David: why one word triggers a digression about royal punishment",
         "whats": "The mishna: originally priests ran up the ramp to win the ash removal privilege - first one there got it. If two were tied, they raced or had a count-off. This system was used until an incident involving violence (discussed in s02). The Gemara discusses: why was this method used? How was a tie broken? What were the original rules? Also: the Gemara asks why Saul and David are discussed in this context - and a lengthy digression on biblical narrative begins.",
         "hint": "The shift from 'whoever runs fastest wins' to 'lottery decides' marks a fundamental change in Temple culture: from competitive pride to controlled order. The violence of the incident was not accidental - it was the natural outcome of a competitive system with high stakes and zealous priests."
       },
       "learning": {
-        "summary": "Original Temple procedure: priests raced up the altar ramp; first to reach the top could remove the ashes. If two priests tied, they either held a count-off or raced again. This competitive system had problems - it led to dangerous pushing. The Gemara uses this topic as a launching point for a discussion of Saul and David (because the count-off [mispar] and kingship themes intersect).",
-        "ahaMoment": "The original system was pure meritocracy of speed - the fastest priest won. This reflected Temple zeal. But zeal without structure is dangerous, as the stabbing incident proved. The lottery replaced competition with divine randomness.",
-        "memoryAnchor": "Originally: race up the ramp. Two tied: count-off. System: competitive. Problem: violence. Solution (coming): lottery.",
-        "openQuestion": "Why would kohanim - holy men - compete so zealously for the privilege of ash removal (a relatively minor service) that violence occurred?"
+        "learnerQuestion": "Why does a discussion of how priests broke a tie in the ash removal race suddenly turn into a lengthy comparison of Saul's and David's very different fates?",
+        "coreTension": "The tie-break procedure described, a count-off where priests extend fingers toward a named number, uses the word mispar, 'count.' That single shared word seems like a thin thread to justify a long digression about why Saul lost his kingdom for a seemingly smaller sin while David kept his after a far graver one.",
+        "coreMove": "The Gemara follows the verbal link from mispar to Saul's counting of Israel's troops in Samuel, and once inside that narrative it pursues a real interpretive problem: Saul's failure to fully destroy Amalek looks like a partial, almost technical lapse, while David's adultery and arranging Uriah's death are unambiguously severe, yet Saul lost the throne and David did not. The resolution turns not on the size of the sin but on its character and aftermath: Saul's failure was a public rejection of an explicit divine command, met without full acknowledgment, while David's sin, though graver, was followed by complete and immediate repentance. Royal continuity tracks the completeness of the response to wrongdoing, not the raw severity of the wrongdoing itself.",
+        "resolution": "Saul lost the kingdom not because his sin was objectively worse than David's, but because it was a public rejection of a direct command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what determined whether the throne was retained.",
+        "takeaway": {"type": "legal_principle", "text": "Consequences for wrongdoing can track the completeness of repentance and the public character of the failure rather than the objective severity of the act itself; a smaller sin met with incomplete repentance can carry a heavier penalty than a graver sin fully repented."},
+        "ahaMoment": "The original system was pure meritocracy of speed, the fastest priest won. This reflected Temple zeal. But zeal without structure is dangerous, as the stabbing incident (s02) proved.",
+        "learningBlocker": "Learners expect the Gemara's digressions to be thematically motivated and get lost looking for a substantive connection between ash removal and royal succession, missing that the trigger here is purely verbal, the shared word mispar, which is itself a recognizable and recurring pattern of talmudic association worth naming.",
+        "memoryAnchor": "Originally: race up the ramp, ties broken by count-off (mispar). That word triggers the Saul digression: Saul's public, unrepented failure cost him the throne; David's private, fully repented sin did not."
       },
       "argumentFlow": [
         {
@@ -200,8 +205,8 @@
         "yoma-020a-s02"
       ],
       "misconceptions": [
-        "The comparison of Saul and David is not meant to excuse David - his sin was extremely serious. It explores why the consequences differed, specifically around the mechanism of royal succession.",
-        "The count-off was not dishonest - it was a fair random selection. Priests extended fingers (any number); the officer named a total; whoever's count landed on that total won."
+        {"misconception": "The Saul-David comparison is meant to excuse or minimize David's sin.", "correction": "David's sin, adultery and arranging Uriah's death, is treated as extremely serious throughout. The comparison explores why the consequences for the throne differed, focusing on the completeness of repentance, not on downplaying David's wrongdoing."},
+        {"misconception": "The count-off procedure was an informal or arbitrary tie-breaker.", "correction": "It was a structured, fair random selection: priests extended any number of fingers, the officer named a total in advance, and whoever's count landed on that total won, functioning much like the lottery system that would later replace it entirely."}
       ],
       "relatedSugyot": [
         "yoma-022b-s02",
@@ -223,12 +228,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What was the original method for determining which priest would remove the altar ashes?",
-          "a": "Priests raced up the altar ramp; whoever arrived first performed the service. If two tied, a count-off (mispar) determined the winner."
+          "question": "What was the original method for determining which priest would remove the altar ashes, and what triggers the digression about Saul and David?",
+          "answer": "Priests raced up the altar ramp; whoever arrived first performed the service. If two tied, a count-off (mispar) determined the winner. The shared word mispar links to Saul's counting of Israel's troops in Samuel, launching the digression."
         },
         {
-          "q": "Why does the Gemara discuss Saul and David in the middle of the ash removal discussion?",
-          "a": "A mention of counting (mispar) in the count-off procedure triggers a connection to Saul's counting of Israel in Samuel, launching a digression about Saul and David's contrasting fates."
+          "question": "Why did Saul lose the kingdom for sparing Agag and the best sheep, while David kept the throne despite adultery and arranging a man's death?",
+          "answer": "The deciding factor was not the relative size of the sins but their character and aftermath: Saul's failure was a public rejection of an explicit command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what preserved his kingship."
         }
       ],
       "finalRuling": "Originally priests raced to the top of the altar ramp. A count-off resolved ties. The system was later replaced by lottery after an incident of violence.",
@@ -280,14 +285,19 @@
         "Yoma.22a.13"
       ],
       "display": {
+        "title": "The stabbing on the ramp: why one act of violence ended priestly competition for good",
         "whats": "The incident that led to the lottery: once two priests were racing up the ramp and one pushed the other off, then stabbed him with a knife. The court was horrified. The father of the wounded priest (concerned it might make the knife ritually impure) caused a secondary incident. The Sages instituted the lottery system because of this violence.",
         "hint": "The stabbing incident is shocking because it occurred in the Temple itself, by a priest, during service. The father's reaction (concerned about knife impurity!) adds a darkly comic element - even in crisis, halachic categories operated. The Sages rightly concluded that competitive systems in sacred contexts breed dangerous consequences."
       },
       "learning": {
-        "summary": "The incident: two priests raced up the ramp; one pushed the other and stabbed him with a knife. The wounded priest's father ran to pull out the knife (concerned the knife would contract corpse impurity if the priest died), which shocked everyone. The Sages then instituted the lottery system, replacing all races with a controlled selection process.",
-        "ahaMoment": "The father's bizarre halakhic concern mid-tragedy captures the Temple's unusual psychological environment: even at his son's stabbing, a priest's instinct was to prevent the knife from becoming impure. This reveals both the depth of halachic commitment and its potential to crowd out normal human responses.",
-        "memoryAnchor": "Priest stabbed on ramp. Father runs up - not to save son, but to save the knife from impurity. Sages institute lottery.",
-        "openQuestion": "Was the father's action admirable (deep halachic commitment) or disturbing (misplaced priorities)? The Gemara records the story without explicit judgment."
+        "learnerQuestion": "The race-and-count-off system in s01 sounds orderly enough to have been the mishna's default for generations. What happened that was severe enough to scrap it entirely rather than just patch it?",
+        "coreTension": "A procedure that had functioned as the accepted method for assigning ash removal had to be abolished outright and replaced system-wide, not just for this one service. That degree of reform implies the triggering event was not ordinary competitive friction but something the court saw as discrediting the whole approach.",
+        "coreMove": "Two priests racing up the ramp ended in one pushing the other and stabbing him with a knife. What turned this from a violent crime into grounds for comprehensive reform was the father's reaction: he ran up not principally to save his son but to remove the knife before it could contract corpse impurity if his son died while still impaled. That reflex, halachic categories operating even in the middle of a stabbing, showed the Sages how far competitive zeal had displaced ordinary human response, and they replaced racing with lottery for all Temple service assignments, not just this one.",
+        "resolution": "The Sages abolished the competitive race entirely and instituted the lottery (goralot) system for assigning all Temple services, not only ash removal, in direct response to this incident.",
+        "takeaway": {"type": "logical_principle", "text": "A single severe incident can discredit an entire procedural system even when that system had functioned acceptably for a long time, prompting comprehensive reform rather than a narrow patch."},
+        "ahaMoment": "The father's bizarre halachic concern mid-tragedy captures the Temple's unusual psychological environment: even at his son's stabbing, a priest's instinct was to prevent the knife from becoming impure. This reveals both the depth of halachic commitment and its potential to crowd out normal human responses.",
+        "learningBlocker": "Learners tend to treat the father's knife-impurity concern as a colorful side detail in a violence story, missing that it is the detail doing the real work: it is what showed the Sages that the competitive system itself, not just one bad actor, had distorted priestly judgment badly enough to require replacing it entirely.",
+        "memoryAnchor": "Priest stabbed on ramp. Father runs up, not to save his son, but to save the knife from impurity. Sages institute lottery for all Temple services."
       },
       "argumentFlow": [
         {
@@ -346,8 +356,8 @@
         "yoma-022a-s01"
       ],
       "misconceptions": [
-        "The father did not abandon his son - by removing the knife he may have actually saved his son's life (preventing further blood loss). But the text presents his primary motive as preventing knife impurity.",
-        "The lottery system was not instituted just for ash removal - it replaced all competitive selection of Temple services. The stabbing incident triggered a comprehensive reform."
+        {"misconception": "The father abandoned his dying son to save a knife.", "correction": "The text presents his primary stated motive as preventing knife impurity, but removing the knife may also have reduced further blood loss. The Gemara records his halachic reflex without ruling on whether it was admirable or disturbing."},
+        {"misconception": "The lottery system was instituted just for ash removal.", "correction": "It replaced all competitive selection of Temple services, not only ash removal. This single stabbing incident triggered a comprehensive system-wide reform."}
       ],
       "relatedSugyot": [
         "yoma-022b-s02",
@@ -369,12 +379,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What incident caused the Sages to institute the lottery system for Temple service assignments?",
-          "a": "Two priests raced up the altar ramp; one pushed the other and stabbed him with a knife. The horror of this violence - compounded by the father's bizarre concern about knife impurity - shocked the Sages into replacing competition with lottery."
+          "question": "What incident caused the Sages to abolish the ramp race entirely rather than just discipline the offending priest?",
+          "answer": "Two priests raced up the altar ramp; one pushed the other and stabbed him with a knife. The father's halachic reflex, concern for the knife's purity rather than his son's life, revealed how far competitive zeal had distorted priestly judgment, prompting the Sages to replace the entire system with lottery."
         },
         {
-          "q": "What did the wounded priest's father do, and why?",
-          "a": "He ran up the ramp and removed the knife from his wounded son - not primarily to save his son, but because he was concerned the knife would contract corpse impurity if his son died while still impaled by it."
+          "question": "Why does the father's reaction matter more to the sugya than the stabbing itself?",
+          "answer": "The stabbing alone could have been treated as one priest's crime. It was the father's reflex, running to save the knife from impurity rather than his son, that showed the Sages the competitive system itself had warped priestly instincts, justifying a comprehensive reform rather than a narrow punishment."
         }
       ],
       "finalRuling": "After the stabbing incident on the altar ramp, the Sages instituted the lottery system for all Temple service assignments.",

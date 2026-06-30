@@ -21,14 +21,19 @@
         "Yoma.22b.1"
       ],
       "display": {
+        "title": "Why a destroyed ramp still gets measured to the amah: the 32-amot calculation",
         "whats": "A brief halakhic calculation: the altar ramp (kevesh) was 32 amot long according to R. Yosi b. R. Yehuda (30 amot rise plus 1 amah for the edge + 1 for the top). The discussion of the ramp's dimensions is relevant because the race up the ramp defined the original service competition.",
         "hint": "The precise calculation of the ramp dimensions is typical Talmudic interest in the technical details of Temple construction. The 30/32/28 amot dispute reflects different traditions about the ramp's exact dimensions."
       },
       "learning": {
-        "summary": "The altar ramp (kevesh) height: R. Yosi b. R. Yehuda calculates 32 amot (30 amot rise + 1 for the rim + 1 for the body). This is relevant background to the ramp race described in the previous mishna.",
-        "ahaMoment": "The Gemara insists on precise measurements even for a ramp that no longer exists. This is characteristic of Talmudic approach: even destroyed Temple elements are studied in full technical detail.",
-        "memoryAnchor": "Ramp = 32 amot (30 + 1 + 1). Race up this ramp was the original selection method.",
-        "openQuestion": "Why does the height matter? Because the priests ran up this ramp at full speed in the dark - a 32-amah ramp is significant enough that a push at the top could be fatal."
+        "learnerQuestion": "Why does the Gemara bother calculating the altar ramp's exact height down to the amah, for a ramp that no longer physically exists?",
+        "coreTension": "A throwaway architectural detail turns out to carry real stakes: the same ramp described here is the site of the race in chapter 2's opening mishna, and ultimately of the stabbing in 22a. Its height is not decoration, it is the scale of the danger.",
+        "coreMove": "R. Yosi b. R. Yehuda derives the ramp's total height of 32 amot from three components: 30 amot of actual rise, plus 1 amah for the sovev, the surrounding ledge, plus 1 amah for the altar's own body.",
+        "resolution": "The altar ramp measured 32 amot in total: 30 amot of rise, 1 amah for the ledge, and 1 amah for the altar body.",
+        "takeaway": {"type": "derivation_principle", "text": "A total measurement can be derived by summing distinct structural components rather than stated as a single given figure, and each component can carry its own halachic justification."},
+        "ahaMoment": "The Gemara insists on precise measurement even for a structure that no longer exists, treating destroyed Temple architecture with the same rigor as a still-standing building.",
+        "learningBlocker": "The ramp's height looks like a stray technical aside until it is read against the race and stabbing described nearby: a 32-amah ramp run at speed in the predawn dark is steep and dangerous enough that a push at the top is a real threat to life, which is exactly what happened.",
+        "memoryAnchor": "Ramp = 32 amot (30 rise + 1 ledge + 1 body). Steep enough that a push at the top could kill, which is exactly what happened."
       },
       "argumentFlow": [
         {
@@ -60,7 +65,7 @@
         "yoma-022a-s01"
       ],
       "misconceptions": [
-        "The calculation 30+1+1=32 reflects the specific architectural features of the ramp: the 30-amah practical rise, the 1-amah lip (sovev), and 1-amah body measurement."
+        {"misconception": "The 32-amot figure is just a stated given, not a computed value.", "correction": "It is explicitly derived by summing three distinct components: 30 amot of practical rise, 1 amah for the sovev (ledge), and 1 amah for the altar's body."}
       ],
       "relatedSugyot": [
         "yoma-022a-s01",
@@ -74,8 +79,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What was the total height of the altar ramp according to R. Yosi b. R. Yehuda, and how is it calculated?",
-          "a": "32 amot: 30 amot of actual rise + 1 amah for the altar lip + 1 amah for the altar body."
+          "question": "According to R. Yosi b. R. Yehuda, what is the altar ramp's total height, and how is that figure built up from its parts?",
+          "answer": "32 amot total: 30 amot of actual rise, plus 1 amah for the sovev (ledge), plus 1 amah for the altar's own body."
         }
       ],
       "finalRuling": "The altar ramp was 32 amot according to R. Yosi b. R. Yehuda.",
@@ -132,14 +137,19 @@
         "Yoma.22b.7"
       ],
       "display": {
+        "title": "Four lotteries, one principle: why the incense lottery alone barred repeat winners",
         "whats": "The four lotteries of the Temple morning service: (1) who removes ashes; (2) who slaughters, sprinkles blood, removes ash, cleans the menorah and altar, and brings the limbs, flour, wine, and incense to the altar entrance; (3) the new priest designated for the incense; (4) who brings the limbs from the ramp to the altar. The lottery was held in the Chamber of Hewn Stone. The Gemara discusses how the lottery was conducted - counting priests who extended fingers.",
         "hint": "The four lotteries cover the complete morning service schedule. Lottery 3 specifically favors those who had not previously performed the incense service - because the incense made priests wealthy (the smoke's scent clung to them, giving them dignity), so the opportunity was rotated."
       },
       "learning": {
-        "summary": "The Gemara describes the four Temple morning lotteries. The first covers ash removal; the second covers the main morning service sequence (13 participants); the third determines who offers the incense (with priority for those who had never done it before, since the incense brought blessing and wealth); the fourth covers bringing limbs to the altar. All lotteries were conducted in the Chamber of Hewn Stone.",
-        "ahaMoment": "The incense lottery (third) had a unique rule: if you had done it before, you were not eligible again. This was because the incense made priests wealthy - its scent clung to their clothes, giving them status. The Sages wanted equal distribution of this benefit.",
-        "memoryAnchor": "Four lotteries: (1) ash; (2) main service 13-person list; (3) incense for first-timers; (4) limbs. Chamber of Hewn Stone.",
-        "openQuestion": "The incense made priests wealthy and fragrant. The Gemara says 'a man who burned incense never became poor.' Why was this the one service with a first-timer preference?"
+        "learnerQuestion": "All four daily lotteries assign Temple services, so why does only the third one, the incense, bar anyone who has already performed it from winning it again?",
+        "coreTension": "Ash removal, the thirteen-position main service, and limb carrying all let any eligible priest win repeatedly. The incense lottery alone excludes past winners, which looks arbitrary unless something about the incense service itself sets it apart.",
+        "coreMove": "The Gemara explains that burning the incense was believed to bring lasting blessing and prosperity, a man who performed it never became poor, and its scent clung visibly to him afterward. Because that benefit was concentrated and durable rather than a one-time honor, the Sages restricted the lottery to first-timers so the privilege would spread across the priesthood instead of accumulating with repeat winners.",
+        "resolution": "Four lotteries governed the Temple morning service: ash removal, the thirteen-position main service, incense (limited to those who had never performed it before), and limb carrying, all conducted in the Chamber of Hewn Stone by counting priests' extended fingers.",
+        "takeaway": {"type": "legal_principle", "text": "A service carrying a uniquely concentrated and lasting personal benefit can warrant a procedural restriction, such as a first-timer-only lottery, that services without that benefit do not need."},
+        "ahaMoment": "The incense lottery's first-timer rule is not arbitrary ritual variation, it is a deliberate redistribution mechanism: because the incense made its performer wealthy, the Sages prevented any one priest from monopolizing that wealth.",
+        "learningBlocker": "Learners tend to read the four lotteries as a uniform list and miss that the third one's restriction is solving a problem the other three do not have, concentrated economic benefit, rather than just being one more procedural variation among equals.",
+        "memoryAnchor": "Four lotteries: ash, 13-position main service, incense (first-timers only, because it brought wealth), limbs. All held in the Chamber of Hewn Stone."
       },
       "argumentFlow": [
         {
@@ -224,8 +234,8 @@
         "yoma-022a-s02"
       ],
       "misconceptions": [
-        "The fourth lottery was not a replacement for the third - each covered distinct services. A priest could potentially participate in multiple lotteries in one morning.",
-        "The 'no repeat for incense' rule applied to the third lottery specifically - it ensured broad distribution of the blessing associated with the incense service."
+        {"misconception": "The four lotteries are alternative or overlapping ways of assigning the same services.", "correction": "Each lottery covers a distinct, non-overlapping set of services, and a single priest could win and participate in more than one lottery in the same morning."},
+        {"misconception": "The first-timer restriction applied to all four lotteries.", "correction": "It applied only to the third lottery, for incense, specifically because that service was believed to bring concentrated wealth and blessing that the Sages wanted distributed broadly rather than monopolized."}
       ],
       "relatedSugyot": [
         "yoma-022a-s02",
@@ -247,12 +257,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many lotteries were held each morning in the Temple, and what did the third lottery cover?",
-          "a": "Four lotteries. The third lottery was for the incense (ketoret) service, limited to priests who had never performed it before, because the incense brought blessing and prosperity and the Sages wanted to spread this privilege broadly."
+          "question": "Why was the incense lottery (the third) restricted to priests who had never performed that service before, when the other three lotteries had no such restriction?",
+          "answer": "Burning the incense was believed to bring lasting wealth and blessing to whoever performed it. Restricting it to first-timers prevented any priest from monopolizing that benefit and spread it broadly across the priesthood, a concern the other three services did not raise."
         },
         {
-          "q": "How was the lottery physically conducted?",
-          "a": "The chief officer named a large number; priests extended fingers (one or two); counting began from a designated starting priest; whoever's count reached the named number won that service."
+          "question": "How was each of the four lotteries physically conducted?",
+          "answer": "The chief officer named a number larger than the number of participating priests; priests extended one or two fingers each; counting began from a designated starting priest, and whoever's count landed on the named number won that lottery."
         }
       ],
       "finalRuling": "Four lotteries were held: ash removal, 13-position morning service, incense (first-timers only), and limbs carrying.",
@@ -329,14 +339,19 @@
         "Yoma.22b.16"
       ],
       "display": {
+        "title": "Same words, different audience: why 'I have sinned' saved David but not Saul",
         "whats": "The Saul-David biblical narrative digression continues (from 22a). The Gemara examines why Saul merited the kingship (he was humble), why he lost it (he disobeyed Samuel over Amalek), and the contrast with David who kept it despite serious sin. Key: Saul said 'I have sinned' but it was not genuine repentance. The Gemara also discusses whether a Torah scholar should avenge like a snake - i.e., quietly without forgetting.",
         "hint": "The Saul digression is not random. The counting of Israel (which Saul did, like the Temple count-off) is the textual hook, but the real interest is the question of when a king/person loses divine favor permanently. The answer the Gemara develops is about the quality of repentance and the nature of the sin's public impact."
       },
       "learning": {
-        "summary": "Why did Saul deserve the kingdom? He was humble: 'Am I not from the smallest tribe?' Why did he lose it? He disobeyed the Amalek command and failed to repent genuinely. David sinned gravely but repented immediately and genuinely - 'I have sinned against God.' The Gemara explores the difference in the quality of their repentance and the public vs. private nature of their sins.",
-        "ahaMoment": "The key insight: both Saul and David said 'I have sinned.' But Saul said it to Samuel (wanting Samuel not to shame him publicly), while David said it to Nathan and then immediately to God. The audience of repentance matters: public sin requires public, not private, confession.",
-        "memoryAnchor": "Saul: 'I have sinned' - to Samuel, wanting cover. David: 'I have sinned to God' - genuine, immediate. Same words, opposite outcomes.",
-        "openQuestion": "Is the Gemara teaching that all repentance requires publicness? Or specifically that political leaders (kings) must repent publicly because their sins are public?"
+        "learnerQuestion": "Saul and David both say the words 'I have sinned.' Why did Saul lose the kingdom over his confession while David kept it over his?",
+        "coreTension": "If the same confession formula produced opposite results, the words themselves cannot be what determines whether repentance is accepted. Something else must distinguish a genuine confession from an inadequate one.",
+        "coreMove": "The Gemara reads what each man said immediately after admitting sin. Saul told Samuel 'I have sinned,' then added 'now honor me before the elders,' a request that protects his public standing rather than accepting consequence. David told Nathan 'I have sinned to God' and accepted the rebuke without any self-protective addition. Because Saul's sin, disobeying the public command to destroy Amalek, was itself committed publicly, his confession needed to match that public exposure to count as complete; instead it stayed focused on preserving his image.",
+        "resolution": "Saul's repentance was judged incomplete because his confession was immediately followed by a request to protect his honor, while David's confession was followed by unguarded acceptance of consequence, which is why David kept the throne and Saul did not.",
+        "takeaway": {"type": "conceptual", "text": "Identical confession language can reflect opposite degrees of genuine repentance; what follows the admission, self-protection versus unguarded acceptance of consequence, is what reveals which one occurred."},
+        "ahaMoment": "Both kings used nearly the same words. The giveaway was not the confession itself but the very next thing each man said: Saul asked to be honored, David accepted the rebuke in silence.",
+        "learningBlocker": "Learners who focus only on the shared phrase 'I have sinned' miss the actual distinction the Gemara is drawing: genuine repentance is identified by what immediately follows the confession, not by the confession's wording.",
+        "memoryAnchor": "Saul: 'I have sinned, now honor me.' David: 'I have sinned to God,' then silence and acceptance. Same words, opposite follow-through, opposite outcome."
       },
       "argumentFlow": [
         {
@@ -451,8 +466,8 @@
         "yoma-022a-s01"
       ],
       "misconceptions": [
-        "'Avenge like a snake' is not a general endorsement of vengeance. It is specifically about a talmid chacham who has been publicly shamed - he must not simply absorb the shame, as that would undermine Torah's dignity.",
-        "Saul said 'I have sinned' three times in Samuel. The Gemara does not deny this but argues that the follow-up requests (honor me, come with me) show the repentance was incomplete."
+        {"misconception": "'Avenge like a snake' is a general endorsement of vengeance.", "correction": "It applies specifically to a Torah scholar who has been publicly shamed; silently absorbing such shame would undermine the dignity of Torah itself, so a measured, eventual response is required rather than blanket forgiveness."},
+        {"misconception": "The Gemara denies that Saul ever said 'I have sinned.'", "correction": "The Gemara does not dispute that Saul said the words, even multiple times. It argues instead that his follow-up requests, asking to be honored before the elders, show the repentance itself was incomplete despite the correct words."}
       ],
       "relatedSugyot": [
         "yoma-022b-s04",
@@ -470,12 +485,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What was different about Saul's repentance compared to David's, according to the Gemara?",
-          "a": "Saul said 'I have sinned' but immediately added 'now honor me before the elders' - showing concern for his image rather than genuine contrition. David said 'I have sinned to God' to Nathan and accepted the consequences without self-protection."
+          "question": "Saul and David both said 'I have sinned.' What did the Gemara identify as the actual difference between their repentances?",
+          "answer": "What each man said immediately afterward. Saul added 'now honor me before the elders,' revealing concern for his image. David accepted Nathan's rebuke without any self-protective addition, showing unguarded acceptance of consequence."
         },
         {
-          "q": "What does it mean that a Torah scholar must 'avenge like a snake'?",
-          "a": "A talmid chacham who is publicly insulted should not passively ignore it - he should quietly remember the wrong and eventually address it, as a snake strikes eventually without immediate outburst."
+          "question": "What does the Gemara mean by saying a Torah scholar must 'avenge like a snake' when publicly shamed?",
+          "answer": "He should not passively absorb the insult, since that would diminish Torah's honor, but he also should not strike back immediately. Like a snake, he responds with a measured, eventual reaction rather than instant retaliation or total forgiveness."
         }
       ],
       "finalRuling": "Saul's repentance was incomplete (protecting his image); David's was genuine. A talmid chacham must not passively absorb public shame.",
@@ -527,14 +542,19 @@
         "Yoma.22b.21"
       ],
       "display": {
+        "title": "Owning a sin you did not commit: David's confession over Nov, and the son he would not fight",
         "whats": "Continuing the Saul and David analysis: a dispute about Saul's additional sin (the slaughter of the priests of Nov), which David later claimed was his fault (he triggered it by fleeing to Nov). David says: 'I am guilty of the deaths of your father's house.' The Gemara also discusses Absalom's revolt and asks why David did not defend himself militarily against his own son.",
         "hint": "David's admission of guilt over Nov is remarkable - he takes personal responsibility for a disaster he did not commit. This is the opposite of Saul's self-protective repentance. The Absalom question further reveals David's character: he would not use military force against his own son, even when Absalom was in rebellion."
       },
       "learning": {
-        "summary": "The Gemara continues: why did Saul massacre the priests of Nov? Because Doeg informed him that they had helped David. But David says: 'I am responsible for the deaths of your father's house (the Nob priests)' - he accepts moral responsibility even when he was not the direct cause. Why did David not fight Absalom militarily? He could not bear the thought of killing his own son.",
-        "ahaMoment": "David's accepting responsibility for the Nov massacre is a different kind of greatness from military victory. He did not cause it directly, yet he owns the moral chain of causation. This is the opposite of Saul, who minimized his responsibility for Amalek.",
-        "memoryAnchor": "David says 'I caused Nov' even though Saul gave the order. Accepts indirect moral causation. Refuses to fight Absalom.",
-        "openQuestion": "Is David's refusal to fight Absalom admirable (parental love) or a failure of leadership (allowing rebellion to spread)? The Gemara explores both."
+        "learnerQuestion": "Saul, not David, gave the order that massacred the priests of Nov. Why does David tell the sole survivor that he himself is responsible for their deaths?",
+        "coreTension": "David did not kill anyone at Nov and did not order the massacre. Claiming responsibility for a crime someone else committed looks like an overstatement, unless David is naming a real chain of causation rather than the direct act.",
+        "coreMove": "David traces the chain back to his own choice: by fleeing to Nov and accepting the priests' help there, he set in motion the events that let Doeg inform on them, which led Saul to order their deaths. David owns that indirect causation instead of treating Saul's direct order as the only relevant cause. The same instinct, absorbing responsibility rather than protecting himself, surfaces again when his son Absalom revolts: despite having the military strength to suppress the rebellion, David cannot bring himself to fight his own son.",
+        "resolution": "David accepted moral responsibility for the indirect harm at Nov, naming his own choice to flee there as the first link in the chain that led to the massacre, and he refused to move militarily against Absalom despite having the capacity to do so.",
+        "takeaway": {"type": "conceptual", "text": "Moral responsibility can extend beyond the person who performed the direct act to include someone whose earlier choice set the chain of causation in motion, and owning that indirect responsibility is itself a mark of character distinct from accepting blame only for what one did directly."},
+        "ahaMoment": "David's admission about Nov is a different kind of greatness than his military victories: he did not strike the blow, yet he refuses to hide behind that fact and instead names himself as the first cause.",
+        "learningBlocker": "Learners tend to read David's statement about Nov as poetic self-blame rather than a precise claim, missing that the Gemara is treating indirect moral causation, not direct action, as a real category of responsibility worth naming.",
+        "memoryAnchor": "Saul ordered Nov's massacre. David says: I caused it, by fleeing there. Same instinct later: David cannot fight Absalom, his own son, even in rebellion."
       },
       "argumentFlow": [
         {
@@ -612,8 +632,8 @@
         "yoma-022b-s03"
       ],
       "misconceptions": [
-        "David did not literally kill the priests of Nov - Saul did. But David accepts the chain of causation (he fled to Nov, triggering the information that led to the massacre) as making him morally complicit.",
-        "David's refusal to fight Absalom militarily eventually had to give way - Joab's forces did kill Absalom. But David's tears ('My son Absalom!') show this was not what he wanted."
+        {"misconception": "David's claim of responsibility for Nov means he believes he literally committed the massacre.", "correction": "Saul gave the order and the killing was carried out on his command. David is naming indirect moral causation: his choice to flee to Nov set in motion the chain of events that led to the massacre, which is a distinct claim from direct guilt."},
+        {"misconception": "David never engaged militarily with Absalom's rebellion at all.", "correction": "David's own reluctance to fight his son did eventually give way when Joab's forces killed Absalom in the field. David's grief, 'My son Absalom!', shows this outcome was not what he wanted, even though it ended the rebellion."}
       ],
       "relatedSugyot": [
         "yoma-022b-s03"
@@ -630,12 +650,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What does David say about the massacre of the priests of Nov, and what does this reveal about his character?",
-          "a": "David tells Evyatar (the sole survivor): 'I knew Doeg would inform; I am responsible for the deaths of your father's house.' He accepts indirect moral causation even though Saul gave the actual order - the opposite of Saul's self-protective behavior."
+          "question": "Saul gave the order that massacred the priests of Nov. Why does David still call himself responsible for their deaths?",
+          "answer": "David traces the causation back to his own choice: by fleeing to Nov and accepting the priests' help, he set in motion the chain of events, Doeg's report to Saul, that led to the massacre. He accepts this indirect moral causation rather than treating Saul's direct order as the only relevant cause."
         },
         {
-          "q": "Why did David not immediately fight Absalom militarily when Absalom revolted?",
-          "a": "David could not bring himself to order military force against his own son. His parental love paralyzed his political response."
+          "question": "Why did David not move militarily against Absalom's revolt despite having the capacity to do so?",
+          "answer": "David could not bring himself to order military force against his own son. His later grief at Absalom's death, 'My son Absalom!', shows this restraint reflected genuine parental anguish rather than political calculation."
         }
       ],
       "finalRuling": "David accepted moral responsibility for indirect harm (Nov) and refused to fight his son Absalom directly. The Saul-David comparison concludes.",

@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const DAF_2A = '/index.html?module=yoma&daf=2a';
 const DAF_19B = '/index.html?module=yoma&daf=19b';
+const DAF_23A = '/index.html?module=yoma&daf=23a';
 
 function collectPageErrors(page) {
   const errors = [];
@@ -47,11 +48,11 @@ test.describe('Yoma daf smoke test', () => {
   });
 });
 
-test.describe('Yoma legacy-schema fallback (daf 19b)', () => {
+test.describe('Yoma legacy-schema fallback (daf 23a)', () => {
   test('renders non-blank sugya titles and fallback learning content', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
-    await page.goto(DAF_19B);
+    await page.goto(DAF_23A);
     await expect(page.locator('.sugya')).toHaveCount(3);
 
     const titles = await page.locator('.sugya-title').allTextContents();
@@ -60,7 +61,7 @@ test.describe('Yoma legacy-schema fallback (daf 19b)', () => {
       expect(title.trim().length).toBeGreaterThan(0);
     }
 
-    // 19b predates the canonical display/learning schema, so titles must come
+    // 23a predates the canonical display/learning schema, so titles must come
     // from the fallback derivation, not display.title.
     await expect(page.locator('.sugya-title-fallback')).toHaveCount(3);
 
@@ -74,8 +75,30 @@ test.describe('Yoma legacy-schema fallback (daf 19b)', () => {
   });
 });
 
+test.describe('Yoma backfilled schema (daf 19b)', () => {
+  test('renders canonical sugya titles and learning content with no fallback markup', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+
+    await page.goto(DAF_19B);
+    await expect(page.locator('.sugya')).toHaveCount(3);
+
+    const titles = await page.locator('.sugya-title').allTextContents();
+    expect(titles).toHaveLength(3);
+    for (const title of titles) {
+      expect(title.trim().length).toBeGreaterThan(0);
+    }
+
+    // 19b was backfilled with the canonical display/learning schema, so it must
+    // no longer fall through to the legacy fallback rendering path.
+    await expect(page.locator('.sugya-title-fallback')).toHaveCount(0);
+    await expect(page.locator('.desktop-understanding .learn-panel-fallback')).toHaveCount(0);
+
+    expect(pageErrors).toEqual([]);
+  });
+});
+
 test.describe('Share button title resolution', () => {
-  test('legacy daf 19b shares the rendered fallback title, not an undefined sugya.title', async ({ page }) => {
+  test('daf 19b shares the rendered sugya title, not an undefined sugya.title', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
     await page.addInitScript(() => {

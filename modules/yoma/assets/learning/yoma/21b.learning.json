@@ -31,14 +31,19 @@
         "Yoma.21b.3"
       ],
       "display": {
+        "title": "A vessel exempt from the rules of space, and the five things the Second Temple never got back",
         "whats": "The ketoret (incense) vessel: does it contract impurity when set on the floor? The Gemara argues it does not because it was designed for a supernatural purpose (the KG carried it into the Holy of Holies where normal space rules did not apply). Then: five things from the First Temple were absent in the Second Temple - the Ark, the heavenly fire, the Shechina, the holy spirit (prophecy), and the Urim VeTumim.",
         "hint": "The five missing elements from the Second Temple represent the gradual withdrawal of divine immanence. The Ark, fire, and Shechina represent God's direct presence; the holy spirit and Urim VeTumim represent his direct communication. The Second Temple had the structure but not the living divine core."
       },
       "learning": {
-        "summary": "The ketoret vessel was exempt from impurity transmitted by floor contact, because it served a miraculous purpose beyond normal halachic categories. Five things were present in the First Temple but absent from the Second: the Ark with the tablets and its cover; the heavenly fire that consumed offerings; the Shechina; the holy spirit (prophecy); and the Urim VeTumim that gave oracular responses.",
+        "learnerQuestion": "A vessel that rests on the floor should contract impurity from the floor by normal rule, so why is the ketoret vessel exempt, and what does that exemption have to do with the larger claim that five things were simply missing from the Second Temple?",
+        "coreTension": "Ordinary halachic categories say a vessel resting on the ground picks up impurity from the ground. The ketoret vessel rested on the floor of the Holy of Holies, the most sacred point in the Temple, yet the Gemara needs it to be exempt, which means ordinary spatial and halachic rules cannot simply apply there.",
+        "coreMove": "The Gemara grounds the exemption in the same miraculous status the Ark itself had in that space, where the Ark occupied no measurable area; if the holiest object in the room defied ordinary spatial rules, a vessel resting in that same space is governed by those suspended rules too, not by the standard floor-contact impurity law. This leads directly into a sobering list: five things that defined the First Temple's space as supernatural in just this way were simply absent from the Second Temple, the Ark itself, the heavenly fire, the Shechina, the holy spirit of prophecy, and the Urim VeTumim. The exemption only worked because the First Temple's space was charged with these elements; their absence in the Second Temple is the deeper point the vessel discussion sets up.",
+        "resolution": "The ketoret vessel is exempt from floor-contact impurity because it served within the same miraculously suspended space that allowed the Ark to occupy no measurable area, and that miraculous status belonged specifically to the First Temple, one of five elements never present in the Second.",
+        "takeaway": {"type": "conceptual", "text": "A narrow halachic exemption can rest on a much larger theological claim about a space's status. Listing concrete absences, an object, a fire, a presence, a voice, an oracle, can make a diminishment of divine immanence legible in a way that abstract description cannot."},
         "ahaMoment": "The five absences from the Second Temple form a devastating list: the physical throne of God (Ark), his direct validation (fire), his presence (Shechina), his communication (prophecy), and his oracle (Urim VeTumim). The Second Temple was magnificent but functionally the divine core was gone.",
-        "memoryAnchor": "Five things missing from the Second Temple: Ark - fire - Shechina - prophecy - Urim VeTumim.",
-        "openQuestion": "If the Shechina was absent, in what sense did the Second Temple prayers 'work'? What was accepted?"
+        "learningBlocker": "Learners treat the ketoret vessel ruling as an isolated technical exemption, missing that its justification, the same miraculous suspension of space that let the Ark occupy no area, is the same property the Gemara then says the Second Temple lacked, making the two halves of this sugya one continuous argument rather than two separate topics.",
+        "memoryAnchor": "Five things missing from the Second Temple: Ark, fire, Shechina, prophecy, Urim VeTumim. The ketoret vessel's exemption depended on that same vanished miraculous space."
       },
       "argumentFlow": [
         {
@@ -97,8 +102,8 @@
         "yoma-021a-s02"
       ],
       "misconceptions": [
-        "The five missing elements were not merely sentimental losses. They were functional: the fire validated offerings, the Urim gave guidance, the Shechina made the space holy. Without them, the Second Temple had different theological standing.",
-        "The Ark's absence means not just the tablets but also the cover (kapporet) which was the site of the Yom Kippur blood sprinkling. The KG in the Second Temple sprinkled on the even hashtiya (foundation stone) instead."
+        {"misconception": "The five missing elements were merely sentimental losses, nostalgic absences with no practical consequence.", "correction": "They were functional losses: the fire validated offerings, the Urim VeTumim gave concrete national guidance, and the Shechina made the space holy in a way bearing directly on the Temple's theological standing, not just its emotional resonance."},
+        {"misconception": "The Ark's absence meant only the tablets were gone, while a substitute cover remained for the Yom Kippur service.", "correction": "The Ark's absence included its cover, the kapporet, which had been the site of the Yom Kippur blood sprinkling. In the Second Temple the High Priest sprinkled on the even hashtiya, the bare foundation stone, in its place."}
       ],
       "relatedSugyot": [
         "yoma-021a-s02"
@@ -115,12 +120,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What were the five things present in the First Temple that were absent from the Second Temple?",
-          "a": "(1) The Ark with the tablets and kapporet; (2) heavenly fire consuming the offerings; (3) the Shechina (divine presence); (4) the holy spirit/prophecy; (5) the Urim VeTumim oracle."
+          "question": "What were the five things present in the First Temple that were absent from the Second Temple, and what kind of loss do they represent collectively?",
+          "answer": "(1) The Ark with the tablets and kapporet; (2) heavenly fire consuming the offerings; (3) the Shechina (divine presence); (4) the holy spirit/prophecy; (5) the Urim VeTumim oracle. Together they represent the loss of God's direct presence, validation, communication, and oracular guidance, not a merely sentimental diminishment."
         },
         {
-          "q": "Why was the ketoret vessel considered exempt from floor-contact impurity?",
-          "a": "Because it served in the miraculous space of the Holy of Holies, where normal physical rules were suspended (as evidenced by the Ark occupying no measurable space). Normal impurity transmission from floor contact did not apply."
+          "question": "Why was the ketoret vessel exempt from floor-contact impurity, and what does that exemption depend on that the Second Temple lacked?",
+          "answer": "It served in the miraculous space of the Holy of Holies, where ordinary spatial and impurity rules were suspended, as shown by the Ark occupying no measurable space. That suspended status belonged to the First Temple specifically; the Second Temple's loss of the Ark (one of the five absences) means it lacked the same basis for treating its space the same way."
         }
       ],
       "finalRuling": "Five elements present in the First Temple were absent from the Second. The ketoret vessel was exempt from floor-contact impurity.",
@@ -187,14 +192,18 @@
         "Yoma.21b.9"
       ],
       "display": {
+        "title": "Did the smoke still rise straight without the Shechina? The unresolved status of Second Temple miracles",
         "whats": "Returning to the fifth miracle from 21a: the smoke of the altar was never displaced by wind. The Gemara examines whether this miracle applied to the Second Temple also, and introduces a dispute: was the smoke from the Second Temple's altar also miraculous, or did it behave normally? This raises the question of whether Second Temple offerings were accepted without the Shechina present.",
         "hint": "The smoke miracle is not just aesthetics - a smoke column that rises straight signals divine acceptance. In the First Temple this was constant; the debate about the Second Temple reflects the theological uncertainty about whether the Second Temple achieved the same divine ratification."
       },
       "learning": {
-        "summary": "The smoke miracle (fifth from 21a): the altar smoke rose straight up regardless of wind. Debate: did the Second Temple also have this miracle? The Gemara brings evidence from the Shechina's absence - the Second Temple's smoke behaved differently, confirming the five absences. Some hold the miracle was partial in the Second Temple.",
-        "ahaMoment": "The smoke's direction was a sign - straight up meant divine acceptance, horizontal or windswept might signal rejection. The First Temple smoke was always straight; the Second Temple's status was ambiguous, reflecting its diminished divine presence.",
-        "memoryAnchor": "Straight smoke = divine acceptance. First Temple: always straight. Second Temple: debate.",
-        "openQuestion": "If the Second Temple smoke was not miraculous, were the offerings still accepted by God? What was the status of Second Temple avodah?"
+        "learnerQuestion": "If the Shechina was one of the five things missing from the Second Temple, does that mean the straight-smoke miracle, which signaled divine acceptance of offerings, was missing there too?",
+        "coreTension": "The straight-smoke miracle was tied to divine acceptance, and the Shechina's absence from the Second Temple suggests its miracles might not have carried over. But the Second Temple's service was still treated as valid and its offerings as accepted, which seems to require some sign of acceptance to still be present.",
+        "coreMove": "The Gemara does not settle whether the smoke miracle continued in the Second Temple. One line of reasoning argues from the Shechina's documented absence that the miracle did not carry over; another argues that losing the Shechina did not necessarily strip every miraculous feature from the space, so the smoke could still have risen straight. The Gemara leaves both readings standing rather than declaring a winner, while being clear that the question only concerns which miraculous features remained, not whether the Second Temple's service was valid at all.",
+        "takeaway": {"type": "conceptual", "text": "The absence of one supernatural marker, like the Shechina, does not automatically settle whether other supernatural markers tied to the same era also disappeared; that is a separate question the Gemara can leave open even while affirming the underlying institution's validity."},
+        "ahaMoment": "The smoke's direction was a sign, straight up meant divine acceptance, horizontal or windswept might signal rejection. The First Temple smoke was always straight; the Second Temple's status was left genuinely unresolved, reflecting real uncertainty about its diminished divine presence rather than a settled downgrade.",
+        "learningBlocker": "Learners assume that because the Shechina was confirmed absent from the Second Temple, every other First Temple miracle must also be absent by extension, missing that the Gemara treats each miracle as a separate question and explicitly leaves the smoke question open rather than inferring it automatically from the Shechina's absence.",
+        "memoryAnchor": "Straight smoke = divine acceptance. First Temple: always straight. Second Temple: genuinely debated, not resolved."
       },
       "argumentFlow": [
         {
@@ -278,8 +287,8 @@
         "yoma-021b-s01"
       ],
       "misconceptions": [
-        "The question is not whether the Second Temple was valid - it was. The question is whether it retained all the miraculous features of the First Temple.",
-        "The smoke going straight up is not merely symbolic. In ancient cultures generally, and in Judaism specifically, the direction of sacrifice smoke was read as divine response."
+        {"misconception": "The debate over the Second Temple's smoke miracle means its overall validity was in question.", "correction": "The Second Temple's validity as a functioning Temple was not in dispute; the open question is narrower, whether it retained every specific miraculous feature the First Temple had, not whether its service counted at all."},
+        {"misconception": "The smoke rising straight up was a merely symbolic flourish in the text.", "correction": "In ancient cultures generally, and in Judaism specifically, the direction of sacrificial smoke was read as a concrete sign of divine response, so the Gemara treats it as a real indicator worth debating, not decorative imagery."}
       ],
       "relatedSugyot": [
         "yoma-021a-s02",
@@ -297,12 +306,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What was the miracle of the altar smoke, and did it apply to both Temples?",
-          "a": "The altar smoke always rose straight upward regardless of wind direction. It definitively applied to the First Temple; whether it applied to the Second Temple is debated, given the absence of the Shechina."
+          "question": "Why does the Gemara leave the Second Temple's smoke miracle unresolved instead of simply inferring its absence from the Shechina's documented absence?",
+          "answer": "Because each miraculous feature is treated as a separate question. The Shechina's absence is confirmed, but that does not automatically determine whether other miracles, like straight-rising smoke, also disappeared; one view infers the smoke miracle was lost too, another holds it continued despite the Shechina's absence, and the Gemara does not decide between them."
         },
         {
-          "q": "What does the direction of altar smoke symbolize in Jewish tradition?",
-          "a": "Straight smoke rising upward signifies divine acceptance of the offerings. Smoke displaced by wind could suggest otherwise."
+          "question": "What does the direction of altar smoke symbolize in Jewish tradition, and why did its status matter for the Second Temple specifically?",
+          "answer": "Straight smoke rising upward signifies divine acceptance of the offerings; smoke displaced by wind could suggest otherwise. Its status mattered for the Second Temple because that Temple had already lost the Shechina, making it a live question whether this particular sign of acceptance still applied there."
         }
       ],
       "finalRuling": "Debate about the Second Temple smoke miracle; definitively the First Temple had it.",
@@ -359,14 +368,19 @@
         "Yoma.21b.15"
       ],
       "display": {
+        "title": "Two arrangements, two fires: why heavenly flame did not exempt the priests from kindling their own",
         "whats": "The arrangement (ma'aracha) of wood on the altar: the mishna later will describe how to arrange the wood. Here the Gemara begins discussing the arrangement that was present on the altar during Yom Kippur services. The wood arrangement (ma'aracha gedola) and a secondary arrangement (ma'aracha ketana) for the incense coal, and the debate about whether the daily fire came from heaven or was maintained by priests.",
         "hint": "The two fire arrangements - the large one for offerings and the small one for incense coals - require precise coordination. The question of whether the fire originally came from heaven (divine) or was set by humans has significant implications for the status of the daily offering."
       },
       "learning": {
-        "summary": "The altar had two fire arrangements: the large ma'aracha for burning offerings and a smaller one for taking coals for the daily incense. A dispute: the fire on the altar always came originally from heaven (divine fire), but priests were also obligated to add human fire daily (a biblical commandment). Both are required.",
-        "ahaMoment": "Divine fire from heaven burned the offerings; human fire was also commanded. Both were required. The divine fire sanctified the altar; the human fire fulfilled the commandment. This is why the eternal flame (ner tamid) required both sources.",
-        "memoryAnchor": "Two fire sources: heaven (divine) + human (obligatory). Ma'aracha gedola for offerings; ketana for incense coals.",
-        "openQuestion": "If divine fire burns everything perfectly, why does the Torah also require human fire? What is the theological significance of the human contribution?"
+        "learnerQuestion": "If fire descended from heaven onto the altar, a clear sign of divine acceptance, why does the Torah still command the priests to kindle fire themselves, as if the divine fire were not enough?",
+        "coreTension": "Two verses each claim the fire: one describes fire coming down from heaven onto the altar, the other commands the priests, 'you shall kindle fire on the altar,' a human action. Read independently, each verse suggests its own source is sufficient, but together they appear to compete for which fire actually mattered.",
+        "coreMove": "The Gemara resolves this by reading both verses as describing simultaneous, non-competing requirements: the heavenly fire descended as a sign of divine acceptance and sanctification, while the human-kindled fire fulfilled a separate, standing biblical commandment that existed independent of whether the heavenly fire appeared. Neither fire substitutes for the other. This dual-fire structure is mirrored physically in the altar's two arrangements: the large ma'aracha for the daily and additional offerings, and a smaller ma'aracha specifically for producing the coals the KG would carry into the Holy of Holies on Yom Kippur.",
+        "resolution": "Both divine fire and human-kindled fire were required on the altar simultaneously: the heavenly fire signified acceptance, and the human fire fulfilled an independent commandment that did not depend on the heavenly fire's presence.",
+        "takeaway": {"type": "legal_principle", "text": "Two verses that each describe a different source for the same outcome do not have to be read as competing; they can describe two independent, simultaneously binding requirements, neither of which substitutes for the other."},
+        "ahaMoment": "Divine fire from heaven burned the offerings; human fire was also commanded. Both were required. The divine fire sanctified the altar; the human fire fulfilled the commandment, this is why the eternal flame (ner tamid) required both sources.",
+        "learningBlocker": "Learners assume the heavenly fire, being the more dramatic miracle, must be the 'real' requirement and the human kindling a redundant formality, missing that the Gemara treats the human-kindled fire as an independently binding commandment that exists whether or not the heavenly fire descends.",
+        "memoryAnchor": "Two fire sources: heaven (divine, sanctifying) plus human (obligatory commandment). Ma'aracha gedola for offerings; ma'aracha ketana for incense coals."
       },
       "argumentFlow": [
         {
@@ -448,8 +462,8 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "The divine fire did not negate the human commandment. Both were required simultaneously: divine fire confirmed divine acceptance; human fire fulfilled the biblical mandate 'you shall kindle.'",
-        "The incense coal arrangement (ma'aracha ketana) was not for burning the incense in the Temple - it was specifically for producing coals that the KG would carry into the Holy of Holies on Yom Kippur."
+        {"misconception": "The divine fire descending from heaven made the human-kindled fire redundant or merely symbolic.", "correction": "Both were required simultaneously and independently: the divine fire signified divine acceptance, while the human fire fulfilled the separate biblical mandate 'you shall kindle,' a standing commandment that did not depend on whether the heavenly fire appeared."},
+        {"misconception": "The small fire arrangement (ma'aracha ketana) burned incense directly in the Temple courtyard.", "correction": "It was specifically for producing coals, not for burning incense itself; the High Priest carried those coals in his pan into the Holy of Holies on Yom Kippur, where the incense was then offered."}
       ],
       "relatedSugyot": [
         "yoma-021b-s02"
@@ -466,12 +480,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What were the two fire arrangements on the altar and what purpose did each serve?",
-          "a": "The ma'aracha gedola (large arrangement) burned the daily and additional offerings. The ma'aracha ketana (small arrangement) produced the coals that the High Priest carried in his pan for the Yom Kippur ketoret service."
+          "question": "What were the two fire arrangements on the altar and what purpose did each serve?",
+          "answer": "The ma'aracha gedola (large arrangement) burned the daily and additional offerings. The ma'aracha ketana (small arrangement) produced the coals that the High Priest carried in his pan for the Yom Kippur ketoret service."
         },
         {
-          "q": "Were both divine fire and human fire required on the altar? Why?",
-          "a": "Yes. Divine fire descended from heaven (a recurring miracle) for sanctification. Human fire was separately commanded by the Torah ('you shall kindle fire') as a mitzvah. Both were necessary simultaneously."
+          "question": "If fire descended from heaven onto the altar, why didn't that exempt the priests from the Torah's command to kindle fire themselves?",
+          "answer": "The Gemara reads the two verses as describing independent, simultaneously binding requirements rather than competing sources: the heavenly fire signified divine acceptance, while the human-kindled fire fulfilled a separate standing commandment that applied regardless of whether the heavenly fire appeared. Neither substituted for the other."
         }
       ],
       "finalRuling": "Both divine fire and human fire were required on the altar. Two arrangements served distinct purposes: offerings and incense coals.",

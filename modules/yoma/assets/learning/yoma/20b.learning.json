@@ -31,14 +31,19 @@
         "Yoma.20b.3"
       ],
       "display": {
+        "title": "Solving Rav Kahana's objection: midnight was never the fixed point, practical need was",
         "whats": "Rav Kahana asked: if midnight is fixed by Torah, how can the mishna say Festivals start earlier and ordinary days start later? R. Yochanan answers: midnight is not Torah-fixed. The verse's redundant 'until morning' signals flexibility - add a second morning to the night, meaning start before dawn as needed. Ordinary day: keriat hagever suffices. Yom Kippur: midnight (KG needs extra time). Festivals: first watch (crowds already there).",
         "hint": "R. Yochanan reads the redundant 'until morning' as meaning 'create a morning for the night' - i.e., the night has its own internal dawn that can shift based on practical need. This allows the single verse to accommodate three different timing regimes."
       },
       "learning": {
-        "summary": "R. Yochanan: midnight is not a Torah-imposed time. The verse's extra 'until morning' teaches that ash removal should happen before dawn but at a flexible time. Each day type's timing reflects practical needs: ordinary = keriat hagever; Yom Kippur = midnight (because the KG has a long fasting day ahead); Festivals = first watch (pilgrims already filling the courtyard).",
-        "ahaMoment": "The solution to Rav Kahana's objection is elegant: if midnight were Torah-fixed, the mishna's flexible timing would be impossible. R. Yochanan turns the verse's apparent redundancy into a feature - flexibility itself is encoded in the Torah.",
-        "memoryAnchor": "R. Yochanan: not midnight the fixed point - 'before dawn, when needed.' Three different needs, three different times.",
-        "openQuestion": "Does R. Yochanan's reading mean there is no fixed time at all for ash removal, or just that midnight is the latest possible time?"
+        "learnerQuestion": "Rav derived midnight as a Torah-fixed boundary on 20a, so how can the same mishna let Festivals start ash removal before midnight and ordinary days start after it?",
+        "coreTension": "If midnight is genuinely fixed by the Torah text, the mishna's three different start times for the same task look like a direct contradiction of that derivation.",
+        "coreMove": "R. Yochanan reopens the verse itself: the words 'all night... until morning' already tell you it lasts until morning, so the added phrase 'until morning' must be teaching something extra, namely that the deadline can be pushed to whatever point before dawn each day's circumstances require. Midnight was never the fixed point; it was only Rav's reading of where the two activities split. R. Yochanan replaces a fixed boundary with a needs-based ceiling, then explains each of the mishna's three times by the practical pressure driving it: an ordinary day needs nothing extra, so keriat hagever is enough; the KG's fast-day exhaustion needs a head start, so midnight; a Festival's crowd size needs the most lead time, so the first watch.",
+        "resolution": "Midnight was Rav's own reading on 20a of where the two Leviticus verses divide, not a Torah-fixed deadline. R. Yochanan's reading of the redundant 'until morning' shows the real deadline is dawn, with the actual start time set by each day's practical need, fully resolving Rav Kahana's objection.",
+        "takeaway": {"type": "derivation_principle", "text": "A textual redundancy can be read as license for flexibility rather than as emphasis. Reopening an earlier derivation, rather than defending it against an objection, can dissolve a contradiction that a fixed reading cannot escape."},
+        "ahaMoment": "The solution to Rav Kahana's objection is elegant: if midnight were Torah-fixed, the mishna's flexible timing would be impossible. R. Yochanan turns the verse's apparent redundancy into a feature, flexibility itself is encoded in the Torah.",
+        "learningBlocker": "Learners assume R. Yochanan is patching Rav's midnight derivation to survive the objection, missing that he actually discards midnight as the fixed point entirely and replaces it with a sliding deadline, which is why three different start times can coexist without contradiction.",
+        "memoryAnchor": "R. Yochanan: not midnight the fixed point, 'before dawn, when needed.' Three different needs, three different times."
       },
       "argumentFlow": [
         {
@@ -94,8 +99,8 @@
         "yoma-020a-s03"
       ],
       "misconceptions": [
-        "Midnight is not abandoned as a concept - it remains the conventional boundary between burning and ash removal (from Zevachim). R. Yochanan is saying the actual service timing is flexible, not that the legal boundary disappears.",
-        "R. Yochanan's reading of the redundant 'until morning' is not arbitrary - Talmudic exegesis treats all biblical redundancies as deliberate teachings."
+        {"misconception": "R. Yochanan abandons midnight entirely as meaningless.", "correction": "Midnight remains relevant as the conventional boundary between burning and ash removal established elsewhere (Zevachim). What R. Yochanan rejects is treating it as the Torah-fixed deadline for when ash removal must start; the actual service timing is flexible, but the boundary concept itself is not erased."},
+        {"misconception": "R. Yochanan's reading of the redundant 'until morning' is an ad hoc fix invented just to dodge Rav Kahana's objection.", "correction": "Talmudic exegesis treats biblical redundancies as deliberate teachings in general, not only when convenient. Reading the repeated phrase as license for flexibility follows the same interpretive method used throughout the Gemara, it is not special pleading for this one case."}
       ],
       "relatedSugyot": [
         "yoma-020a-s03"
@@ -112,12 +117,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does R. Yochanan resolve Rav Kahana's objection about the ash removal timings?",
-          "a": "Midnight is not Torah-fixed. The verse's redundant 'until morning' signals flexibility - ash removal should happen before dawn at whatever time is practically needed for each day type."
+          "question": "Rav derived midnight as a Torah-fixed boundary on 20a. How does R. Yochanan resolve Rav Kahana's objection without simply contradicting Rav?",
+          "answer": "R. Yochanan reads the redundant 'until morning' as teaching flexibility rather than fixing a deadline: midnight was Rav's reading of where the two verses split, not itself a Torah-mandated start time. The real deadline is dawn, and ash removal can start at whatever point before dawn each day's practical needs require."
         },
         {
-          "q": "Why is midnight the time for ash removal on Yom Kippur specifically?",
-          "a": "Because the High Priest is weak from fasting and has a very long service ahead, so ash removal must start early enough to complete everything before dawn."
+          "question": "Why does Yom Kippur use midnight as the ash removal start time while an ordinary day waits until keriat hagever?",
+          "answer": "The two times reflect different practical pressures, not different legal rules. The High Priest is weak from fasting all day and has a very long service ahead, so Yom Kippur needs an earlier start to finish everything before dawn; an ordinary day has no such pressure, so the later, default signal suffices."
         }
       ],
       "finalRuling": "The ash removal schedule is flexible, not Torah-fixed at midnight. Each day type follows practical need.",
@@ -164,14 +169,18 @@
         "Yoma.20b.7"
       ],
       "display": {
+        "title": "Man or rooster? Rav's dispute with R. Sheila over keriat hagever, and how he handled being challenged as a guest",
         "whats": "What is 'keriat hagever'? Rav: a man's call (gever=man); an appointed Temple crier announced the start of service. R. Sheila: a rooster's call (gever=rooster). When Rav visited R. Sheila's town and served as his disseminator, he interpreted it as 'man's call'; R. Sheila challenged him; Rav responded with a proverb about a flute being appreciated only by sophisticated listeners. Rav later cited his precedent with R. Chiyya. R. Sheila replied with two options: 'you hired yourself out, now comb the wool' or 'we elevate in holiness and do not descend.'",
         "hint": "The debate over the meaning of gever (man vs. rooster) is classic - the same word has both meanings in Hebrew. The anecdote shows Rav's pride in his interpretation being validated by R. Chiyya but also his willingness to continue serving as disseminator despite the tension."
       },
       "learning": {
-        "summary": "The word 'keriat hagever' in the mishna is ambiguous: gever means both 'man' and 'rooster.' Rav: it means the cry of an appointed Temple crier (a man). R. Sheila: it means the rooster's crow. The Rav-Sheila anecdote illustrates the debate: Rav served as Sheila's disseminator and stated his interpretation; Sheila challenged it; Rav responded sharply.",
-        "ahaMoment": "The same word gever carries both meanings in Hebrew. This linguistic ambiguity embedded in the mishna is exactly the kind of thing the Gemara loves to unpack - it is not sloppy language but intentional use of a term that needs clarification.",
-        "memoryAnchor": "Gever = man or rooster? Rav says man (the Temple crier); R. Sheila says rooster.",
-        "openQuestion": "Does it matter practically which interpretation is correct? If only the timing (before dawn) matters, the specific trigger is irrelevant."
+        "learnerQuestion": "The mishna says ash removal can begin at 'keriat hagever,' but gever means both 'man' and 'rooster' in Hebrew, so which call actually triggers the start of service?",
+        "coreTension": "A single ambiguous word in the mishna supports two completely different pictures of how the Temple day began: an appointed human crier on a schedule, or nature's own rooster announcing dawn. Nothing in the mishna's wording forces one reading over the other.",
+        "coreMove": "Rav and R. Sheila split on the word itself, each defending a literal sense of gever. The debate then plays out through Rav's own experience as a guest disseminator in R. Sheila's town: Rav stated the 'man's call' reading aloud, was challenged on the spot, and defended it by citing that R. Chiyya had already accepted the same interpretation from him, using a proverb about a flute's value being recognized only by sophisticated listeners. When R. Sheila, realizing who Rav was, offered to relieve him of the task, Rav declined, citing the principle that one does not step down from a level of honor once undertaken. A supporting baraita then surfaces for each side: Rav's view is reinforced by the documented existence of Gevini the Crier, a real human announcer whose voice carried three parasangs.",
+        "takeaway": {"type": "conceptual", "text": "A single word can carry two equally literal meanings, and the Gemara does not always force a resolution between them. When baraitot support both readings, the dispute can remain genuinely open rather than being artificially settled."},
+        "ahaMoment": "The same word gever carries both meanings in Hebrew. This linguistic ambiguity embedded in the mishna is exactly the kind of thing the Gemara loves to unpack, it is not sloppy language but intentional use of a term that needs clarification.",
+        "learningBlocker": "Learners expect the Gemara to declare a winner once baraitot are cited, missing that here the baraitot support opposite sides and the dispute is left standing, with the narrative interlude about Rav and R. Sheila's manners carrying as much weight as the textual argument itself.",
+        "memoryAnchor": "Gever = man or rooster? Rav says man (the Temple crier); R. Sheila says rooster. Rav as guest disseminator: challenged, defended by precedent, declined to stand down."
       },
       "argumentFlow": [
         {
@@ -236,8 +245,8 @@
         "yoma-020a-s02"
       ],
       "misconceptions": [
-        "The debate over man vs. rooster is not just philological - it has implications for when exactly the service could begin (rooster crow is natural and variable; a human crier could be scheduled more precisely).",
-        "'Elevating in holiness and not descending' is a general principle applied here: once a great person is doing a task, a lesser person should not replace him (that would be a demotion of the task)."
+        {"misconception": "The man vs. rooster debate is purely philological, with no practical stakes.", "correction": "The choice has real implications for when service could begin in practice: a rooster's crow is natural and variable across seasons and locations, while a human crier could be scheduled with precision, so the two readings imply different degrees of control over the Temple's start time."},
+        {"misconception": "R. Sheila offering to let Rav rest was simple hospitality, and Rav's refusal was just politeness.", "correction": "The exchange invokes the specific principle 'we elevate in holiness, not descend': once a person of stature is performing a sacred task, replacing him with someone of lesser stature would itself be a demotion of the task, so Rav's refusal reflects a substantive halachic norm, not mere etiquette."}
       ],
       "relatedSugyot": [
         "yoma-020a-s02"
@@ -254,12 +263,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the dispute between Rav and R. Sheila about 'keriat hagever'?",
-          "a": "Rav: gever means man - an appointed Temple crier announced the start of service. R. Sheila: gever means rooster - the rooster's crow was the signal."
+          "question": "Why does the gever dispute remain unresolved instead of being settled by baraita, when baraitot are usually cited to decide such debates?",
+          "answer": "Because baraitot exist supporting both readings: one matches Rav's 'man's call' and the existence of Gevini the human crier, while another matches R. Sheila's 'rooster's call.' With textual support on both sides, the Gemara leaves the dispute open rather than declaring a winner."
         },
         {
-          "q": "Who was Gevini, and what was remarkable about him?",
-          "a": "Gevini was the Temple Crier who proclaimed 'Arise, priests to your service!' His voice was heard at a distance of three parasangs (about 8 miles)."
+          "question": "Why did Rav decline R. Sheila's offer to let him rest once R. Sheila recognized him, instead of accepting the courtesy?",
+          "answer": "Rav invoked the principle 'we elevate in holiness, not descend': having already taken on the role of disseminator at that level of honor, stepping down for a replacement would itself be treated as a demotion, so he completed the task rather than accept the offer."
         }
       ],
       "finalRuling": "Dispute unresolved; both Rav (man's call) and R. Sheila (rooster's call) have baraita support.",
@@ -316,14 +325,19 @@
         "Yoma.20b.11"
       ],
       "display": {
+        "title": "Three parasangs, then ten: why R. Levi says the sun itself is what muffles daytime sound",
         "whats": "King Agrippa was so impressed by Gevini's voice that he sent him gifts; yet the voice of the KG announcing purification to the mikveh was heard in Jericho (ten parasangs). Other Temple sounds also reached Jericho. R. Levi explains why sounds carry farther at night: the sun's sphere produces a constant roar all day; at night the sun passes through the celestial roof and the roar continues upward, leaving the lower world quieter. Rome's din and the sun's noise cancel each other.",
         "hint": "The escalating distances - Gevini's 3 parasangs, the KG's purification call at 10 parasangs, other sounds reaching Jericho - serve a rhetorical function: each example elevates the reader's sense of the Temple's power and the significance of its sounds."
       },
       "learning": {
-        "summary": "Gevini's voice (3 parasangs) impressed King Agrippa so much he sent gifts. But the KG's voice at the mikveh and many Temple sounds reached Jericho (10 parasangs). R. Levi explains: by day the sun's sphere roars constantly, masking distant sounds. At night the sun travels behind the firmament, and this roar mixes with Rome's noise - leaving the lower world quieter and sounds more audible.",
-        "ahaMoment": "R. Levi's cosmological explanation reveals ancient physics: the sun makes noise, and its passage overhead creates a constant ambient roar. At night, that roar moves to the other side of the firmament and cancels with Rome's din - so the quiet night carries sound farther.",
-        "memoryAnchor": "Why sounds travel farther at night: the sun's roar masks them by day. The sun + Rome cancel each other on the other side of the firmament at night.",
-        "openQuestion": "The Talmud presents the sun as physically noisy. How did ancient rabbis conceptualize the mechanics of celestial sound?"
+        "learnerQuestion": "Gevini's voice carrying three parasangs already impressed a king, so why does the Gemara then report Temple sounds reaching Jericho, more than three times farther, without treating that as an even bigger miracle?",
+        "coreTension": "If a human crier three parasangs away already seemed remarkable enough for royal gifts, sounds reaching ten parasangs at Jericho should be the more extraordinary claim, yet the Gemara treats the greater distance as ordinary and explainable rather than as the climax of the wonder.",
+        "coreMove": "The Gemara resolves the apparent escalation by noting that the Jericho-range sounds happened specifically before dawn, when the KG immersed, while Gevini's call happened in normal daylight hours. R. Levi explains the gap with a cosmological model: the sun's sphere produces a constant roar as it crosses the sky, and that ambient roar masks distant sounds during the day. At night the sun passes behind the firmament, where its roar mingles with the noise of Rome on the far side, leaving the world below quieter and allowing sound to travel farther. The distance difference is not a bigger miracle, it is the predictable result of nighttime quiet versus daytime noise.",
+        "resolution": "Sounds carry farther at night because the sun's daytime roar, which normally masks distant noise, shifts behind the firmament after dark and combines with Rome's din there, leaving the lower world quiet enough for sound to travel much farther than during the day.",
+        "takeaway": {"type": "conceptual", "text": "An apparent escalation in scale can have an ordinary explanation once a hidden variable, here, time of day, is accounted for. Ancient cosmological models could function as physical explanations for observed phenomena, not just as homiletical flourish."},
+        "ahaMoment": "R. Levi's cosmological explanation reveals ancient physics: the sun makes noise, and its passage overhead creates a constant ambient roar. At night, that roar moves to the other side of the firmament and cancels with Rome's din, so the quiet night carries sound farther.",
+        "learningBlocker": "Learners read the Gevini-to-Jericho progression as one continuous miracle of increasing volume, missing that the Gemara is actually drawing a contrast between daytime and nighttime acoustics, with R. Levi's sun-roar explanation accounting for the difference rather than simply marveling at it.",
+        "memoryAnchor": "Why sounds travel farther at night: the sun's roar masks them by day. The sun and Rome cancel each other on the other side of the firmament at night."
       },
       "argumentFlow": [
         {
@@ -391,8 +405,8 @@
         "yoma-020b-s02"
       ],
       "misconceptions": [
-        "The distances given (3 parasangs for Gevini, 10 for the KG's voice) are aggadic illustrations of remarkable reach, not precise acoustic measurements.",
-        "R. Levi's claim that the sun makes noise is not metaphorical - it reflects a specific talmudic cosmological model where the sun is a physical entity moving through real space with a real sound."
+        {"misconception": "The Jericho sounds (10 parasangs) being so much farther than Gevini's voice (3 parasangs) means the Gemara is presenting an escalating series of ever-greater miracles.", "correction": "The two figures are not on the same scale of wonder; the Jericho sounds occurred at night, when R. Levi's cosmology says sound naturally carries farther, while Gevini's call was a daytime feat. The distance gap is explained by time of day, not by a bigger miracle."},
+        {"misconception": "R. Levi's claim that the sun makes noise is just a poetic or metaphorical flourish.", "correction": "It reflects a specific talmudic cosmological model in which the sun is treated as a physical entity moving through real space and producing a real, audible roar, offered as an actual causal explanation for why sound travels farther at night, not as decoration."}
       ],
       "relatedSugyot": [
         "yoma-020b-s02",
@@ -414,12 +428,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How far could the Temple sounds reach, and which sounds reached the farthest distance?",
-          "a": "Many Temple sounds reached Jericho, approximately 10 parasangs (about 27 miles) away - including the KG's voice at his immersion, the Temple gates opening, and the Levites' songs."
+          "question": "Gevini's voice carried three parasangs by day, but Temple sounds reached Jericho, ten parasangs, at night. Why isn't the Jericho distance treated as an even more impressive miracle?",
+          "answer": "Because the difference is explained by time of day, not by greater wonder: the Jericho sounds occurred before dawn, when R. Levi says sound naturally carries farther due to nighttime quiet, while Gevini's call happened during the day when the sun's roar masks distant sound."
         },
         {
-          "q": "According to R. Levi, why do sounds travel farther at night?",
-          "a": "The sun's sphere produces a constant roar during the day that drowns out distant sounds. At night the sun travels behind the firmament, its noise mixes with Rome's din on the other side, and the world below becomes quieter - allowing sounds to carry farther."
+          "question": "According to R. Levi, why do sounds travel farther at night?",
+          "answer": "The sun's sphere produces a constant roar during the day that drowns out distant sounds. At night the sun travels behind the firmament, its noise mixes with Rome's din on the other side, and the world below becomes quieter, allowing sounds to carry farther."
         }
       ],
       "finalRuling": "Aggadic: Temple sounds reached Jericho. Night is quieter than day because the sun's roar and Rome's din cancel each other on the far side of the firmament.",

@@ -21,14 +21,22 @@
         "Yoma.20a.1"
       ],
       "display": {
+        "title": "364, not 365: proving Satan's exclusion from Yom Kippur by gematria",
         "whats": "Elijah concludes the digression about Nehardea: despite its sins, Satan has no license to prosecute on Yom Kippur. Proof: the gematria of 'HaSatan' is 364, one less than the solar year. The remaining day is Yom Kippur - the one day Satan is structurally silenced.",
         "hint": "This is one of the most famous gematria passages in the Talmud: 5+300+9+50=364, one less than the 365-day year. The mathematical elegance is theological - Yom Kippur is not merely special in practice but structurally protected from prosecution."
       },
       "learning": {
-        "summary": "Satan can prosecute Israel for 364 days of the year. On Yom Kippur - the 365th day - he has no power. This is derived from the gematria of HaSatan: heh(5) + shin(300) + tet(9) + nun(50) = 364. One day remains when he is silent: Yom Kippur.",
+        "learnerQuestion": "Is the claim that Satan cannot prosecute on Yom Kippur just an inspiring idea, or does the Gemara treat it as an actual, demonstrable rule?",
+        "coreTension": "An aggadic claim about Satan losing power on Yom Kippur needs more than assertion to carry real weight; the Gemara wants something closer to proof than a homiletical flourish.",
+        "coreMove": "Rami bar Chama supplies a gematria proof: the numerical value of 'HaSatan,' heh(5) + shin(300) + tet(9) + nun(50), totals exactly 364, one short of the 365-day solar year. The missing day is identified as Yom Kippur, the single day structurally outside Satan's jurisdiction.",
+        "resolution": "Satan has license to prosecute for 364 days. The gematria of his own name supplies the proof that Yom Kippur, the 365th day, is the one day he is silenced.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Gematria can function as more than wordplay: when a name's numerical value lines up precisely with a calendar fact, the Gemara treats that alignment as genuine evidence for a legal or theological claim, not mere decoration."
+        },
         "ahaMoment": "The math works out precisely - 364 is exactly one less than 365. This is presented not as coincidence but as structural proof that Yom Kippur stands outside Satan's jurisdiction entirely.",
-        "memoryAnchor": "HaSatan = 364. One day is missing - that is Yom Kippur.",
-        "openQuestion": "If Satan is silenced, does that mean Israel's sins on Yom Kippur go unnoticed, or that the day's atonement power preempts any prosecution?"
+        "learningBlocker": "Learners dismiss gematria as decorative wordplay and miss that here it functions as an actual proof: the Gemara treats the numeric alignment as a genuine datum about Satan's jurisdiction, not a rhetorical flourish.",
+        "memoryAnchor": "HaSatan = 364. One day is missing - that is Yom Kippur."
       },
       "argumentFlow": [
         {
@@ -76,8 +84,14 @@
         "yoma-002a-s01"
       ],
       "misconceptions": [
-        "One might think gematria is mere wordplay. In Talmudic reasoning it can serve as a genuine legal or theological proof - the number 364 is taken as a real datum about Satan's jurisdiction.",
-        "One might think Satan is evil in the Christian sense. In Talmudic tradition Satan is a heavenly prosecutor (like a district attorney), not a rebel against God."
+        {
+          "misconception": "Gematria is mere wordplay with no real argumentative force.",
+          "correction": "In Talmudic reasoning it can serve as a genuine legal or theological proof; the number 364 is treated as a real datum about Satan's jurisdiction, not decoration."
+        },
+        {
+          "misconception": "Satan functions in the Talmud the way he does in later Christian tradition, as a rebel against God.",
+          "correction": "In Talmudic tradition Satan is a heavenly prosecutor, closer to a district attorney bringing accusations, not an adversarial rebel against God."
+        }
       ],
       "relatedSugyot": [
         "yoma-002a-s01"
@@ -94,12 +108,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the gematria of HaSatan, and what does it teach about Yom Kippur?",
-          "a": "364 - one less than the 365-day solar year. Satan prosecutes for 364 days; on the remaining day, Yom Kippur, he has no license to prosecute."
+          "question": "What is the gematria of HaSatan, and what does it teach about Yom Kippur?",
+          "answer": "364, one less than the 365-day solar year. Satan prosecutes for 364 days; on the remaining day, Yom Kippur, he has no license to prosecute."
         },
         {
-          "q": "Which Amora derives Satan's limitation on Yom Kippur from gematria?",
-          "a": "Rami bar Chama."
+          "question": "Which Amora derives Satan's limitation on Yom Kippur from gematria, and why is this treated as a proof rather than a homiletical aside?",
+          "answer": "Rami bar Chama. The Gemara treats the precise numeric match (364, one short of 365) as genuine evidence, not mere wordplay, for Yom Kippur's structural exclusion from Satan's prosecuting power."
         }
       ],
       "finalRuling": "Aggadic teaching: Satan has no power to prosecute on Yom Kippur.",
@@ -136,14 +150,22 @@
         "Yoma.20a.2"
       ],
       "display": {
+        "title": "Three start times, one service: grading ash removal to each day's practical pressure",
         "whats": "A new mishna (Chapter 2) establishes three tiers for the ash removal service: ordinary days at keriat hagever (roughly 72 minutes before dawn, flexible); Yom Kippur from midnight; Festivals from the first watch. On Festival mornings the courtyard was already packed with pilgrims before dawn.",
         "hint": "The reverse hierarchy of sanctity and crowd size: the holier the day, the earlier the priests had to start. Festivals brought the most people, Yom Kippur required extra time for the KG's lengthy fasting-day service."
       },
       "learning": {
-        "summary": "Mishna: Ash removal from the altar had different start times depending on the day. Ordinary days: at keriat hagever (dawn signal). Yom Kippur: from midnight. Festivals: from the first night watch. On Festivals the courtyard was already full with pilgrims long before dawn.",
-        "ahaMoment": "The timing graduated earlier as the day became more sacred - the holiest occasions demanded the earliest start, not because of stricter rules but because of practical need.",
-        "memoryAnchor": "Ordinary day = rooster call. Yom Kippur = midnight. Festival = first watch. Each earlier than the last.",
-        "openQuestion": "The mishna says 'adjacent to' the keriat hagever - why was flexibility built into the ordinary-day rule?"
+        "learnerQuestion": "Ash removal is the same daily Temple service every day. Why would the mishna set three different start times for it instead of one fixed time?",
+        "coreTension": "A reader expects a single fixed daily service to have a single fixed start time, but the mishna instead grades the start time by day type without stating its reasoning up front.",
+        "coreMove": "The mishna sets the start earlier as practical pressure increases: ordinary days begin at keriat hagever, the dawn signal; Yom Kippur begins from midnight because the KG's day-long fast service needs the extra hours; Festivals begin from the first night watch because pilgrim crowds already filled the courtyard well before dawn.",
+        "resolution": "Ash removal begins at keriat hagever on ordinary days, from midnight on Yom Kippur, and from the first watch on Festivals, each tier set by that day's distinct logistical need rather than by a uniform rule.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A single fixed ritual can have variable timing once you ask what practical pressure each occasion creates. The schedule here tracks crowd size and service length, not a flat hierarchy of holiness."
+        },
+        "ahaMoment": "The timing graduated earlier as the day became more sacred or more crowded, not because of stricter sanctity rules but because of genuine practical need: more people or more service to fit in.",
+        "learningBlocker": "Learners assume a fixed daily Temple service must have one fixed start time and miss that the mishna calibrates timing to each day's distinct practical pressures, crowd size or service length, rather than to a uniform rule of sanctity.",
+        "memoryAnchor": "Ordinary day = rooster call. Yom Kippur = midnight. Festival = first watch. Each earlier than the last."
       },
       "argumentFlow": [
         {
@@ -180,8 +202,14 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        "One might think terumat hadeshen (ash removal) is a minor detail. It was actually the very first Temple service of each day - before the morning tamid offering - and its timing set the entire day's schedule.",
-        "Keriat hagever does not mean only the rooster's crow - as the Gemara will discuss, it may refer to a human announcer. The ambiguity is part of the next sugya's discussion."
+        {
+          "misconception": "Terumat hadeshen (ash removal) is a minor housekeeping detail.",
+          "correction": "It was the very first Temple service of each day, before the morning tamid offering, and its timing set the entire day's schedule."
+        },
+        {
+          "misconception": "Keriat hagever simply means the rooster's crow.",
+          "correction": "The term is ambiguous; it may refer to a human announcer's call instead of a literal rooster, an ambiguity the Gemara takes up directly on the next page."
+        }
       ],
       "relatedSugyot": [
         "yoma-020b-s01",
@@ -199,12 +227,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "At what time was ash removal done on Yom Kippur, and why earlier than ordinary days?",
-          "a": "From midnight, because the High Priest begins his lengthy Yom Kippur service early and needs the altar cleared."
+          "question": "At what time was ash removal done on Yom Kippur, and why earlier than on ordinary days?",
+          "answer": "From midnight, because the High Priest's lengthy Yom Kippur service needs the altar cleared well in advance of his extended fast-day duties."
         },
         {
-          "q": "Why did Festival ash removal begin at the first night watch?",
-          "a": "Because pilgrims filled the courtyard with their pledged offerings, requiring the service to begin much earlier to accommodate the crowd."
+          "question": "Why did Festival ash removal begin at the first night watch, even earlier than Yom Kippur?",
+          "answer": "Pilgrims filled the courtyard with their offerings well before dawn, so the service had to begin earliest of all three tiers to accommodate the crowd."
         }
       ],
       "finalRuling": "Ash removal on ordinary days: at keriat hagever; Yom Kippur: from midnight; Festivals: from the first watch.",
@@ -256,14 +284,21 @@
         "Yoma.20a.5"
       ],
       "display": {
+        "title": "Splitting 'all night' in half: deriving midnight, then Rav Kahana reopens it",
         "whats": "The Gemara derives midnight as the cutoff between burning and ash removal from two competing Leviticus verses: 'all night he shall burn it' vs. 'all night... he shall remove the ashes.' Since both claim 'all night,' Rav divides the night in half. Rav Kahana then raises an objection from our own mishna (resolved on 20b).",
         "hint": "The classic technique: when two verses each claim an entire time period for conflicting activities, divide the period equally. Here the activities are sequential by nature (first burn, then remove ash), which makes the equal division intuitive."
       },
       "learning": {
-        "summary": "From Zevachim: limbs blown off the altar before midnight must be returned; after midnight they are treated as ashes. Rav derives the midnight rule by reading two Leviticus verses together: one gives 'all night' to burning, one gives 'all night' to ash removal. Solution: divide the night at midnight. Rav Kahana objects from our mishna.",
-        "ahaMoment": "The exegetical move of splitting 'all night' between two sequential activities is elegant - both activities get their due, the verse is satisfied twice, and the midnight line emerges naturally.",
-        "memoryAnchor": "Two verses both say 'all night' - Rav splits the night at midnight to satisfy both.",
-        "openQuestion": "If the midnight rule is merely a rabbinic division between two biblical mandates, what happens to limbs blown off the altar exactly at midnight?"
+        "learnerQuestion": "If the Torah only ever says 'all night' for the altar service, where does the rabbis' specific midnight cutoff actually come from?",
+        "coreTension": "Two Leviticus verses each claim the entire night for a different activity, burning and ash removal, so a literal reading would have both span the full night and overlap rather than divide it.",
+        "coreMove": "Rav resolves the overlap by splitting the night exactly in half: the first half satisfies the burning verse, the second half satisfies the ash-removal verse, producing midnight as both an exegetical and a legal boundary, the cutoff for whether a limb displaced from the altar still counts as consecrated or is treated as mere ash. Rav Kahana then presses an objection straight from the chapter's own mishna: if midnight is a Torah-fixed boundary, how can Festivals start ash removal before midnight and ordinary days start after it?",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "When two verses each claim a full time span for different activities, splitting the span in half can satisfy both readings at once and yield a precise legal boundary, here, midnight, that the text itself never states outright."
+        },
+        "ahaMoment": "The exegetical move of splitting 'all night' between two sequential activities is elegant: both activities get their due, the verse is satisfied twice, and the midnight line emerges naturally.",
+        "learningBlocker": "Learners treat the midnight rule as settled the moment it is derived, missing that the Gemara immediately exposes a real tension between this Torah-fixed boundary and the mishna's own three different start times, a tension left open until 20b.",
+        "memoryAnchor": "Two verses both say 'all night' - Rav splits the night at midnight to satisfy both."
       },
       "argumentFlow": [
         {
@@ -320,8 +355,14 @@
         "yoma-020a-s02"
       ],
       "misconceptions": [
-        "Rav's derivation is not that the first half of the night is for burning and nothing else - the tamid offering burns all night. The division sets the cutoff for the legal status of displaced limbs.",
-        "The objection from the mishna (Festivals before midnight, ordinary days after midnight) is not yet resolved on this page - the resolution comes at the start of 20b."
+        {
+          "misconception": "Rav's derivation means the first half of the night is exclusively for burning, with no burning continuing afterward.",
+          "correction": "The tamid offering's limbs continue burning all night. The midnight division instead sets the legal cutoff for the status of limbs that fall off the altar, not a hard stop on burning itself."
+        },
+        {
+          "misconception": "Rav Kahana's objection (Festivals before midnight, ordinary days after midnight) is resolved on this page.",
+          "correction": "The objection remains open at the end of 20a; its resolution comes at the start of 20b."
+        }
       ],
       "relatedSugyot": [
         "yoma-020b-s01"
@@ -338,12 +379,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does Rav derive the midnight rule for ash removal from the Torah?",
-          "a": "Two verses each claim 'all night' for different activities (burning vs. ash removal). Rav divides the night: the first half is for burning, the second half for ash removal, putting midnight as the boundary."
+          "question": "How does Rav derive the midnight rule for ash removal from the Torah?",
+          "answer": "Two verses each claim 'all night' for different activities, burning and ash removal. Rav divides the night in half, the first half for burning, the second for ash removal, making midnight the boundary."
         },
         {
-          "q": "What is the legal consequence of a limb falling off the altar after midnight?",
-          "a": "It is not returned to the altar and there is no me'ila liability - it has the status of ash."
+          "question": "What objection does Rav Kahana raise against Rav's Torah-fixed midnight rule, and is it resolved on this page?",
+          "answer": "The mishna itself has Festivals starting ash removal before midnight and ordinary days starting after midnight, which seems to contradict a fixed biblical midnight boundary. The objection is left open here; it is resolved at the start of 20b."
         }
       ],
       "finalRuling": "Midnight divides the night: first half for burning (limbs remain sacred), second half for ash removal (displaced limbs treated as ash). But an objection from the mishna is pending.",
