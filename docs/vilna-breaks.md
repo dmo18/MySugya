@@ -77,9 +77,9 @@ dagesh, or combining-character order).
 ### Step 4 — commit
 
 Bump version and commit. Pair two adjacent daf per version bump when both validate.
-Four locations: `VERSION`, `package.json`, `index.html` (×3 `?v=` params),
-`app.jsx` (`APP_VERSION`). (`images.html` was removed from the project.) Update the status table below in the same
-commit.
+Edit `VERSION`, run `python3 scripts/sync_version.py` (updates `package.json` and
+`package-lock.json`). Cache busters in `index.html` are injected at build time and
+do not need manual edits. Update the status table below in the same commit.
 
 ---
 

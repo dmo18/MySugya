@@ -1,4 +1,4 @@
-# Yoma App - Sources
+# MySugya - Sources
 
 ## Primary Text Sources
 

@@ -209,11 +209,10 @@ This repository includes a GitHub Actions workflow at `.github/workflows/deploy-
 1. Runs `npm ci`.
 2. Installs Playwright Chromium.
 3. Runs `npm run build`.
-4. Runs the dist data-version patcher.
-5. Runs `npm run check:deploy-html`.
-6. Runs `npm test`.
-7. Runs `npm run test:browser`.
-8. On pushes to `main`, uploads and deploys only `dist/` to GitHub Pages.
+4. Runs `npm run check:deploy-html`.
+5. Runs `npm test`.
+6. Runs `npm run test:browser`.
+7. On pushes to `main`, configures Pages, uploads `dist/`, and deploys.
 
 The workflow uses minimal permissions. Top-level `permissions: contents: read` is the default for all jobs. The deploy job uses only `pages: write`, `id-token: write`, and `deployments: write` so the OIDC Pages deploy can proceed. The Pages artifact is uploaded under `name: github-pages` and deployed with `artifact_name: github-pages`.
 
