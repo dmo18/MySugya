@@ -199,14 +199,22 @@
         "Yoma.23a.10"
       ],
       "display": {
+        "title": "Counting fingers, not people: the lottery's built-in safeguards",
         "whats": "The mishna's lottery procedure: all priests gather in the Chamber of Hewn Stone. The officer in charge of the lottery loosens his garment so no one can tell if he is hiding something (anti-cheating measure). The first priest designated in the count extends his robe and they count from him. The supervisor names a number; they count fingers around the circle; whoever's count reaches the named number wins that position. Then the service is assigned.",
         "hint": "The anti-cheating detail (loosening the garment) is fascinating - it reveals that the Temple service assignment system was vulnerable to manipulation, and the Sages needed to build in safeguards. The system was only as fair as its randomness, so physical verification was built in."
       },
       "learning": {
-        "summary": "Lottery procedure: all priests gather in the Chamber of Hewn Stone. The supervisor must loosen his garment (anti-cheating). The starting priest for the count is designated by extending his robe. The supervisor names a large number; they count extended fingers around the circle until the count reaches the named number; that priest wins the service. This is the formal lottery system that replaced racing.",
-        "ahaMoment": "The garment-loosening detail is a physical anti-cheating measure: if the supervisor has no visible pockets or hidden items, he cannot cheat by pre-marking certain priests. The fairness of the lottery depended on physical transparency.",
-        "memoryAnchor": "Lottery: Chamber of Hewn Stone. Supervisor loosens garment. Count extended fingers. Named number determines winner.",
-        "openQuestion": "Why count fingers rather than drawing lots or another random method? Was the finger-count considered more transparent or harder to manipulate?"
+        "learnerQuestion": "The Sages just replaced a deadly competitive system with a lottery. Why does the mishna spend so much detail on the supervisor's garment and on counting fingers instead of just saying 'they drew lots'?",
+        "coreTension": "A lottery is only as trustworthy as its mechanics. After the violence that ended the race system, a new procedure that could itself be secretly rigged would defeat the entire point of the reform, so the mishna has to specify exactly what makes this counting method tamper-proof.",
+        "coreMove": "The mishna builds in two separate safeguards: the supervisor loosens his garment so the priests can see he is hiding nothing that could let him steer the count, and the count itself is taken by extended fingers rather than by counting people directly, since directly counting the Jewish people was itself prohibited. Counting fingers achieved the needed randomness without counting individuals.",
+        "resolution": "The lottery's legitimacy rested on visible, verifiable mechanics: a garment check against supervisor manipulation, and a finger count that avoided the prohibition on counting people directly.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A procedure meant to be impartial has to be verifiably impartial, not just nominally random. The mishna specifies the physical safeguards that let the priests themselves confirm the count could not be rigged."
+        },
+        "ahaMoment": "The garment-loosening detail is a physical anti-cheating measure: if the supervisor has no visible pockets or hidden items, he cannot cheat by pre-marking certain priests. The fairness of the lottery depended on physical transparency, not just stated intent.",
+        "learningBlocker": "Learners tend to read the garment-loosening and finger-counting as quaint procedural color, missing that both details exist specifically because the previous system (racing) failed through manipulation and violence; the mishna is engineering trust into the replacement, not just describing tradition.",
+        "memoryAnchor": "Lottery: Chamber of Hewn Stone. Supervisor loosens garment so nothing is hidden. Count extended fingers, not people, since counting people directly was prohibited."
       },
       "argumentFlow": [
         {
@@ -289,8 +297,14 @@
         "yoma-022a-s02"
       ],
       "misconceptions": [
-        "The finger count was not truly random in the sense of computer randomness - it depended on each priest's voluntary choice of how many fingers to extend. But in practice it was unpredictable.",
-        "The census taboo (counting Jews directly) is why fingers rather than people were counted. This is the same principle behind counting 'eilu v'eilu' rather than naming individuals."
+        {
+          "misconception": "The finger count was mathematically random in the way a modern lottery draw is.",
+          "correction": "It depended on each priest's voluntary choice of how many fingers to extend, not on a mechanical random process. In practice the outcome was unpredictable enough to be trusted, but the randomness came from collective unpredictability, not a neutral mechanism."
+        },
+        {
+          "misconception": "Counting fingers instead of priests was simply a stylistic preference in how the mishna describes the count.",
+          "correction": "It was a deliberate workaround for the prohibition on counting the Jewish people directly. Fingers could be counted because they are not the people themselves."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s02",
@@ -308,12 +322,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why did the supervisor loosen his garment before conducting the Temple lottery?",
-          "a": "To prevent cheating - so the priests could verify he had nothing hidden that could allow him to manipulate the outcome of the count."
+          "question": "Why did the supervisor loosen his garment before conducting the Temple lottery?",
+          "answer": "To prevent cheating, so the priests could verify he had nothing hidden that could allow him to manipulate the outcome of the count."
         },
         {
-          "q": "Why were fingers counted rather than people in the Temple lottery?",
-          "a": "Directly counting Jewish people was prohibited (census taboo). Counting fingers was the workaround - it achieved randomness without directly counting individuals."
+          "question": "Why were fingers counted rather than priests themselves in the Temple lottery?",
+          "answer": "Directly counting Jewish people was prohibited. Counting fingers was the workaround: it achieved the needed randomness without counting individuals directly."
         }
       ],
       "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone by counting extended fingers, with anti-cheating safeguards built in.",
