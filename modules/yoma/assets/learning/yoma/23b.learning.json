@@ -217,13 +217,18 @@
       ],
       "display": {
         "whats": "The laws of terumat hadeshen (ash removal) in detail: the priest wears smaller, worn-out versions of his regular four garments (not new ones). He removes a full fistful of ash from inside the heap and places it beside the altar ramp on the east side. The removal is a mitzvah even if the priest uses his left hand. The ash of the outer altar vs. the ash of the menorah: what does one do with each type? Discussion of where the ashes must be deposited.",
+        "title": "Dressed down for ash: why the finest service starts with the plainest garments",
         "hint": "The requirement to wear 'worn' garments for the ash removal service is counterintuitive - normally priestly service demands the finest. The reason given: one should not wear one's best clothes while cleaning. This preserves the dignity of the fine garments for the main service."
       },
       "learning": {
-        "summary": "For terumat hadeshen the priest wears four special garments - smaller, worn versions of the regular four priestly garments, so as not to soil the fine garments with ash. He removes a fistful of ash from the top of the altar heap. The ash is placed on the east side of the altar ramp. It is a mitzvah even if done with the left hand. The ash of the outer altar is placed beside the ramp; the ash of the inner altar (ketoret) is placed in a specific location. The menorah ash goes outside the Temple entirely.",
-        "ahaMoment": "The worn-garment rule is a lesson about proportionality: dress for the task. The job of removing ash is not glamorous - wear the appropriate garments. Save the fine garments for the fine service. This is not diminishing the ash removal; it is placing everything in its proper context.",
-        "memoryAnchor": "Ash removal: worn garments (not best). Fistful of ash. East of ramp. Left hand acceptable. Outer altar ash = ramp side; menorah ash = outside.",
-        "openQuestion": "Why is the left hand acceptable for ash removal when most Temple services require the right? Is ash removal considered less formally 'sacred' than the main offerings?"
+        "learnerQuestion": "Why does the priest who removes the altar ash wear deliberately worn-out garments instead of the fine priestly vestments used for every other service?",
+        "coreTension": "Priestly service is normally defined by its finery, every garment is meant to honor the One being served. Ash removal seems to break that pattern by mandating lesser garments, which could be read as treating this mitzvah as less sacred than the rest of the daily service.",
+        "coreMove": "The Gemara explains the downgrade is about protecting the fine garments, not demoting the task: a proverb captures it, one does not wear the clothes used for cooking when pouring wine for one's master. The worn garments are still valid, fully kosher priestly vestments, not street clothes, so the priest remains dressed for sacred service throughout. The detailed rules that follow, a minimum fistful taken from the actual ash pile, a fixed placement east of the ramp, and a specific destination for each of the three ash types, show that ash removal carries its own full set of halachic requirements rather than being treated as incidental cleanup.",
+        "resolution": "Ash removal uses worn but still-valid priestly garments to spare the fine vestments from soiling, takes a minimum fistful from the altar's ash pile, and routes the ash to one of three distinct destinations depending on its source: outer altar ash beside the ramp, inner altar ash to its own designated area, and menorah ash entirely outside the Temple.",
+        "takeaway": {"type": "legal_principle", "text": "A service performed in lesser garments is not a lesser service. The choice of garment protects the finer vestments for their proper use; it does not signal that the task itself matters less."},
+        "ahaMoment": "The worn-garment rule is not about ash removal being unworthy of fine dress, it is about fine dress being unworthy of ash. Saving the good garments for the service where they will be seen, while still requiring valid priestly vestments for this one, holds both ideas at once: every act is fully sacred, and not every act calls for the same dress.",
+        "learningBlocker": "Learners may expect the sugya to fully explain why ash removal, unlike most Temple services, can be performed with the left hand. The text states this as a ruling and gives it a brief reason (its different halakhic character) without elaborating further on what specifically makes it different; the deeper rationale is not developed in this passage.",
+        "memoryAnchor": "Ash removal: worn (but valid) garments. Fistful minimum, from the actual pile. East of ramp. Left hand acceptable. Outer altar ash = ramp side; inner altar ash = designated area; menorah ash = outside the Temple."
       },
       "argumentFlow": [
         {
@@ -364,8 +369,14 @@
         "yoma-020a-s02"
       ],
       "misconceptions": [
-        "The worn garments are still kosher priestly garments - not ordinary clothes. They are proper Temple vestments, just not the finest ones. The priest is still fully dressed for service.",
-        "Left hand validity does not make ash removal 'less' of a mitzvah - it simply reflects a different halachic category where right-hand specificity was not included in the mitzvah's definition."
+        {
+          "misconception": "The worn garments used for ash removal are ordinary clothes, not real priestly vestments.",
+          "correction": "They are still kosher priestly garments, just smaller and worn versions of the standard four. The priest is fully dressed for sacred service throughout; only the quality of the garment changes, not its halachic status."
+        },
+        {
+          "misconception": "Left-hand validity means ash removal is treated as a lesser, less formally sacred mitzvah.",
+          "correction": "Left-hand validity does not diminish the mitzvah; it simply reflects that right-hand specificity, which applies to many other Temple services, was not included in this mitzvah's definition."
+        }
       ],
       "relatedSugyot": [
         "yoma-024a-s01",
@@ -387,16 +398,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "What garments does a priest wear for the ash removal service, and why?",
-          "a": "Worn-out versions of the four standard priestly garments - so as not to soil the fine garments with ash. A proverb: 'do not use the garments in which you cook for your master to pour wine for him.'"
+          "question": "What garments does a priest wear for the ash removal service, and why?",
+          "answer": "Worn-out versions of the four standard priestly garments - so as not to soil the fine garments with ash. A proverb: 'do not use the garments in which you cook for your master to pour wine for him.'"
         },
         {
-          "q": "What are the three types of Temple ash and where is each deposited?",
-          "a": "(1) Outer altar ash: east side of the altar ramp inside the courtyard. (2) Inner altar (ketoret) ash: a specific clean designated area. (3) Menorah ash: taken outside the Temple entirely to a clean place."
+          "question": "What are the three types of Temple ash and where is each deposited?",
+          "answer": "(1) Outer altar ash: east side of the altar ramp inside the courtyard. (2) Inner altar (ketoret) ash: a specific clean designated area. (3) Menorah ash: taken outside the Temple entirely to a clean place."
         },
         {
-          "q": "Can ash removal be performed with the left hand?",
-          "a": "Yes. Unlike most Temple services that require the right hand, ash removal is valid even with the left hand."
+          "question": "Can ash removal be performed with the left hand?",
+          "answer": "Yes. Unlike most Temple services that require the right hand, ash removal is valid even with the left hand."
         }
       ],
       "finalRuling": "Ash removal requires worn priestly garments, a full fistful of ash from the altar top, placed east of the ramp. Left hand valid. Different ash types go to different locations.",
