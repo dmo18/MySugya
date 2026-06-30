@@ -29,14 +29,22 @@
         "Yoma.17b.2"
       ],
       "display": {
+        "title": "Operational rule, not descriptive rule: why 'turn right' does not govern the chamber's corner",
         "whats": "Confirmation that the Chamber of the Lambs sat in the southwest corner of the Beit HaMoked, definitively resolving the long Yoma/Middot debate. A brief objection based on the rule 'all turns must be to the right' (during service) is deflected: that rule applies to priestly movement during service, not to theoretical spatial counting in descriptions of Temple layout.",
         "hint": "The 'always right' rule (kol piyot) is a practical halacha about how priests move in the Temple, not a logical requirement for how scholars count or describe chamber locations. The two contexts are different."
       },
       "learning": {
-        "summary": "The Chamber of the Lambs is confirmed at the SW corner. The objection from the 'all turns to the right' principle is dismissed: that rule governs priestly movement in service, not theoretical spatial description. This definitively ends the multi-daf debate.",
-        "ahaMoment": "Context matters: the 'always right' rule is operational (what priests do), not descriptive (how you count rooms). Applying it to room-listing is a category error.",
-        "memoryAnchor": "SW corner confirmed. 'Always right' = for kohanim during service only, not for room descriptions.",
-        "openQuestion": "If the Tamid and Middot descriptions reflect different counting directions, does that mean their other topographical descriptions might also differ due to counting direction?"
+        "learnerQuestion": "If priests are required to always turn right during service, shouldn't that same rule dictate the order in which the Talmud lists Temple chambers?",
+        "coreTension": "The kol piyot ('all turns to the right') rule, if applied to chamber-listing order, would force the count to place the Chamber of the Lambs in the NW rather than the just-reached SW verdict, threatening to undo the conclusion.",
+        "coreMove": "The Gemara distinguishes two different things 'turning right' could mean: an operational halakha governing how a kohen physically moves during the Temple service, versus a literary convention for how a tanna sequences chamber locations in a description. Since kol piyot only governs the former, it cannot be imported to constrain or contradict the latter.",
+        "resolution": "The SW corner placement stands confirmed; kol piyot does not apply to descriptive chamber-counting, only to actual priestly movement during service.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "A rule governing how an action is physically performed does not automatically govern how that same domain is described or counted in a text - operational halakha and literary convention are different categories."
+        },
+        "ahaMoment": "Context matters: the 'always right' rule is operational (what priests do during service), not descriptive (how a tanna counts rooms). Applying it to room-listing order is a category error.",
+        "learningBlocker": "Learners who just met kol piyot as a Temple-service halakha try to apply it everywhere a right turn appears, including chamber-listing order - but a rule about how kohanim walk during the rite says nothing about how a tanna sequences a written description.",
+        "memoryAnchor": "SW corner confirmed. 'Always right' binds kohanim during actual service; it says nothing about the order a tanna lists rooms in a description."
       },
       "argumentFlow": [
         {
@@ -108,7 +116,10 @@
         "The 'all turns to the right' rule in Temple service"
       ],
       "misconceptions": [
-        "One might think 'all turns to the right' constrains how the Talmud describes Temple layout - it only constrains actual priestly movement during service."
+        {
+          "misconception": "The 'all turns to the right' rule constrains how the Talmud describes or lists Temple chambers.",
+          "correction": "It only constrains actual priestly movement during service; chamber-listing order in a tanna's description is a separate, unrelated convention."
+        }
       ],
       "relatedSugyot": [
         "yoma-17a-s01"
@@ -121,9 +132,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why doesn't the 'all turns to the right' rule contradict the SW corner conclusion for the Chamber of the Lambs?",
-          "correct": "The rule that priests always turn right applies during service movement. When scholars theoretically count or describe chamber locations, this rule doesn't apply - they can count in any order."
+          "question": "Why doesn't kol piyot ('all turns to the right') force the Chamber of the Lambs into the NW corner instead of the agreed SW corner?",
+          "answer": "Kol piyot is an operational halakha governing how kohanim physically move during Temple service; it does not govern the order in which a tanna lists or describes chamber locations in a text."
+        },
+        {
+          "question": "What two different things could 'turning right' mean in this sugya, and which one does kol piyot actually regulate?",
+          "answer": "It could mean a kohen's physical movement during service, or the literary order in which a tanna lists chambers. Kol piyot regulates only the first; chamber lists follow each tanna's own descriptive convention."
         }
       ],
       "finalRuling": "Chamber of the Lambs = SW corner. 'All turns right' applies to service movement only.",
@@ -172,14 +186,22 @@
         "Yoma.17b.7"
       ],
       "display": {
+        "title": "First portion, not a guaranteed half: the KG's Shewbread privilege",
         "whats": "Two topics. First: the High Priest sacrifices before all other kohanim and takes the first portion - this is his privilege as KG. Second: a dispute between R. Yehuda and the Rabbanan about how the Shewbread loaves are distributed. Do two loaves go to the KG alone, or does he share the same half-for-half distribution as everyone else?",
         "hint": "The KG's first-portion right is well established. The Shewbread dispute centers on whether the two Shavuot loaves (the halot from the communal wheat offering) change the distribution - sometimes there are extra loaves to distribute alongside the regular Shewbread."
       },
       "learning": {
-        "summary": "The KG's privileges: he offers his sacrifice before other kohanim and takes the first portion of the Temple distributions. For Shewbread: the twelve loaves divide between two shifts (six each), but the KG takes from the shift's share. R. Yehuda says the KG takes half (six); the Rabbanan say he takes proportionally less.",
-        "ahaMoment": "The KG's 'first' privilege creates a tension: if he takes the first half (six) then one shift has nothing; if he takes a proportional share, his 'first' right is diluted. The dispute is about how to implement both norms simultaneously.",
-        "memoryAnchor": "KG goes first, takes first. Shewbread: R. Yehuda says KG takes half (6); Rabbanan say proportional (less than half). The Shavuot loaves can change the count between 4 and 5.",
-        "openQuestion": "Why would the KG receive fewer loaves than half? Shouldn't his 'first' status entitle him to at least half?"
+        "learnerQuestion": "If the High Priest's privilege is to take the first portion, why would he ever receive less than half the Shewbread loaves?",
+        "coreTension": "The KG's 'first and best' privilege seems to entitle him to a full half of the twelve Shewbread loaves, yet the Rabbanan hold his portion is sometimes only four or five loaves, and the count itself shifts from week to week.",
+        "coreMove": "R. Yehuda reads the KG's privilege as a fixed half-share (six loaves) regardless of how many shifts are present. The Rabbanan instead make his portion proportional to whichever shifts actually share the distribution that week, so an extra mishmar staying through Shabbat shrinks the whole pool, including the KG's share, without violating his first-portion right - he still goes first, just from a smaller pool. Abaye then resolves the mishna's internal inconsistency by reading its opening and middle clauses as Rabbanan and its closing clause, on the Shavuot loaves, as R. Yehuda.",
+        "resolution": "The dispute remains formally open between R. Yehuda and the Rabbanan. Abaye's reading treats the mishna itself as a composite text combining both positions in different clauses.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A privilege to take 'the first portion' fixes priority of order, not a guaranteed fraction of the total - so the size of that portion can still shrink when the pool being divided changes."
+        },
+        "ahaMoment": "The KG's first-portion right is about priority of order, not a guaranteed fraction: when extra mishmarot share the distribution, the whole pool shrinks, and the Rabbanan let the KG's portion shrink with it rather than treating 'first' as 'half no matter what.'",
+        "learningBlocker": "Learners assume 'takes the first portion' must mean 'gets a fixed biggest share,' so a four-or-five-loaf KG portion looks like the Rabbanan are shorting the High Priest, when the real driver is that the size of the whole pool being divided changes from week to week depending on which shifts are present.",
+        "memoryAnchor": "KG goes first, takes first - but 'first' fixes order, not amount. R. Yehuda: fixed half (six). Rabbanan: proportional (four or five) depending on which shifts share that week."
       },
       "argumentFlow": [
         {
@@ -283,7 +305,10 @@
         "The Shavuot communal loaves"
       ],
       "misconceptions": [
-        "One might think the KG always gets exactly half (six loaves) - the Rabbanan hold he gets proportionally less, to respect both shifts' equal entitlements."
+        {
+          "misconception": "The KG always receives exactly half of the twelve Shewbread loaves (six).",
+          "correction": "Per the Rabbanan, his portion is proportional to the pool actually being divided that week, which can be four or five loaves depending on how many priestly shifts are sharing the distribution."
+        }
       ],
       "relatedSugyot": [
         "yoma-17a-s01",
@@ -301,14 +326,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is the dispute between R. Yehuda and the Rabbanan about the KG's Shewbread portion?",
-          "correct": "R. Yehuda: the KG takes exactly half the twelve loaves (six). The Rabbanan: he takes proportionally, which can be four or five depending on the week and how many watch-shifts are sharing."
+          "question": "What is the dispute between R. Yehuda and the Rabbanan about the KG's Shewbread portion?",
+          "answer": "R. Yehuda holds the KG always takes a fixed half of the twelve loaves (six). The Rabbanan hold his portion is proportional to the pool actually being divided that week, which can be four or five loaves."
         },
         {
-          "type": "explain",
-          "q": "Why does the Shewbread count for the KG vary between 4 and 5?",
-          "correct": "When a Yom Tov falls near Shabbat, extra mishmar shifts may be present, changing how many loaves are in the pool. When two shifts share instead of one, the distribution per person changes."
+          "question": "How does Abaye resolve the apparent inconsistency within the mishna's own wording about the KG's portion?",
+          "answer": "He reads the mishna as combining two positions: its opening and middle clauses follow the Rabbanan's proportional view, while its closing clause, dealing with the Shavuot loaves, follows R. Yehuda."
         }
       ],
       "finalRuling": "Disputed: R. Yehuda (KG takes half = six) vs Rabbanan (KG takes proportionally, 4 or 5). Abaye holds the mishna incorporates both positions in different clauses.",

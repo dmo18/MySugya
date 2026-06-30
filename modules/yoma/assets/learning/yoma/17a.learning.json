@@ -44,14 +44,22 @@
         "Yoma.17a.5"
       ],
       "display": {
+        "title": "Closing the debate: a simpler verdict over a viewing-angle workaround",
         "whats": "The page closes the extended Chamber of the Lambs debate. First, a verdict is reached: Tractate Middot follows R. Eliezer ben Yaakov, and the Chamber of the Lambs was in the southwest corner of the Beit HaMoked. Then Rav Adda bar R. Yitzchak offers a different approach: the Chamber of the Lambs was not in any corner but along the middle of the west wall - so it appeared to be in different corners from different viewing angles. The Gemara debates which resolution is more defensible.",
         "hint": "Two competing resolutions both manage to explain the Yoma/Middot discrepancy. The Gemara must pick one: either (A) two authorities with different corner placements, or (B) one chamber in the middle of the west wall appearing at different corners depending on where you stand."
       },
       "learning": {
-        "summary": "The Chamber of the Lambs debate concludes with a verdict: Middot follows R. Eliezer ben Yaakov (SW corner). An alternative resolution (Rav Adda: middle of west wall, visible from different angles) is considered but ultimately the SW corner conclusion stands. The Talmud moves on to a new topic: the Shewbread distribution and the High Priest's first-share rights.",
-        "ahaMoment": "The 'different viewing angles' resolution is clever but ultimately unprovable - the Gemara prefers the simpler attribution to two different authorities.",
-        "memoryAnchor": "Chamber of Lambs verdict: SW corner per R. EbY / Middot. Alternative: it was on the west wall and looked different from north vs south.",
-        "openQuestion": "Why does the Gemara need to resolve this at all? Is there a practical halakhic difference between the chamber being at the SW corner vs the middle of the west wall?"
+        "learnerQuestion": "Two explanations both reconcile Yoma and Middot - so why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-seen-from-different-angles theory?",
+        "coreTension": "Rav Adda's middle-of-the-west-wall theory is architecturally creative and explains the Yoma/Middot discrepancy just as well as the two-authority theory, yet the sugya has to settle on one conclusion.",
+        "coreMove": "The Gemara favors the resolution that needs no further assumptions: since the Women's Courtyard amnesia admission and the matching measurement proofs already independently establish R. Eliezer ben Yaakov's authorship of Middot, the two-authority explanation is adopted over Rav Adda's unproven architectural workaround. The sugya then pivots immediately to a different topic, signaling that the debate's value was textual reconciliation, not an ongoing legal consequence.",
+        "resolution": "The SW corner placement, per Middot and R. Eliezer ben Yaakov, stands as the working conclusion. Rav Adda's middle-of-the-west-wall alternative is noted but not adopted.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "When two explanations resolve a contradiction equally well, the one requiring fewer new assumptions is preferred - and once adopted, the debate's payoff is reconciling the texts, not producing a new practical ruling."
+        },
+        "ahaMoment": "The 'different viewing angles' resolution is clever but ultimately unprovable - the Gemara prefers the simpler attribution to two different authorities, then moves straight to a topic where the verdict carries no further practical weight.",
+        "learningBlocker": "Learners often expect an attribution debate like this to end in a practical legal ruling, so the abrupt shift to the Shewbread topic feels disconnected; the actual payoff is settling which tannaitic tradition is correct, not creating new Temple-service halakha.",
+        "memoryAnchor": "Chamber of Lambs verdict: SW corner per R. Eliezer ben Yaakov / Middot. Alternative considered and set aside: a single chamber on the west wall that looked different from north vs south."
       },
       "argumentFlow": [
         {
@@ -158,7 +166,10 @@
         "The Shewbread rotation system"
       ],
       "misconceptions": [
-        "One might think the Chamber of the Lambs controversy is merely academic - it matters for reconstructing Temple topography and understanding which tannaic traditions are authoritative about Temple structure."
+        {
+          "misconception": "The Chamber of the Lambs controversy is merely academic with no real stakes.",
+          "correction": "It matters for reconstructing accurate Temple topography and for establishing which tannaitic traditions are authoritative about the Temple's physical structure."
+        }
       ],
       "relatedSugyot": [
         "yoma-16b-s01",
@@ -176,14 +187,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is Rav Adda bar R. Yitzchak's alternative resolution to the Yoma/Middot Chamber of the Lambs contradiction?",
-          "correct": "The chamber was positioned along the middle of the west wall rather than in a corner. From the north it appeared to be at the SW corner; from the south it appeared at the NW corner. This makes both descriptions accurate from different perspectives."
+          "question": "Why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-viewed-from-different-angles theory?",
+          "answer": "The two-authority resolution already has independent support from the Women's Courtyard amnesia admission and the matching measurement proofs, so it needs no further assumptions, while Rav Adda's theory is a creative but unproven architectural workaround."
         },
         {
-          "type": "explain",
-          "q": "What happens to the Shewbread loaves on Shabbat?",
-          "correct": "The twelve loaves are split equally: six go to the outgoing priestly shift and six to the incoming shift. The High Priest also receives a portion from this distribution."
+          "question": "After the Chamber of the Lambs debate closes, what new topic does the Gemara turn to and what question opens it?",
+          "answer": "The High Priest's right to sacrifice and take his portion first, which opens into a dispute over how many of the twelve Shewbread loaves the KG receives when they are divided between the outgoing and incoming priestly watch-shifts."
         }
       ],
       "finalRuling": "SW corner (Middot/R. EbY) is the accepted location for the Chamber of the Lambs. The KG's Shewbread allocation debate continues on 17b.",

@@ -49,14 +49,21 @@
         "Yoma.18a.6"
       ],
       "display": {
+        "title": "An unresolved teiku, then the mishna turns to the seven-day preparation",
         "whats": "The Shewbread loaf-count debate concludes. Abaye reads the mishna as consistently Rabbanan (the KG gets proportionally less than half), while Rava reads the whole mishna as Rabbi's view (KG always takes half). A remaining contradiction about whether the KG always gets five loaves is left unresolved. The page then shifts to the new mishna: the elders of the Beit Din hand the KG over to elders of the priesthood for the week of preparation before Yom Kippur.",
         "hint": "The Shewbread count is resolved by showing the mishna's 'four or five' is explained by mishmar configurations. The transition to the seven-day preparation is a major topic shift - we are now setting up Yom Kippur itself."
       },
       "learning": {
-        "summary": "The Shewbread debate ends: Abaye's Rabbanan reading and Rava's Rabbi reading are both defended. An unresolved contradiction remains about the loaf count. The mishna then begins the Yom Kippur preparation sequence: the elders of the Sanhedrin hand the KG over to elders of the priesthood, who instruct him in the Yom Kippur service for seven days. They also parade animals before him so he can recognize the Yom Kippur goats by sight.",
-        "ahaMoment": "The handoff between the Sanhedrin elders and the priestly elders is a formal transfer of jurisdiction - the Sanhedrin ensure the KG knows the law; the priestly elders ensure he can perform it.",
-        "memoryAnchor": "Shewbread count: Abaye = Rabbanan (proportional), Rava = Rabbi (always half). Then: elders hand off KG to priests for seven days of Yom Kippur preparation.",
-        "openQuestion": "Why do the priestly elders need to show the KG animals? Surely any experienced kohen knows what goats look like. What specific identification is the preparation teaching?"
+        "learnerQuestion": "After Abaye and Rava each defend a full reading of the Shewbread mishna, which one wins?",
+        "coreTension": "Abaye and Rava each give an internally consistent reading of the same mishna - Abaye all-Rabbanan, Rava all-Rabbi - yet a residual contradiction about whether the KG always gets five loaves resists both readings.",
+        "coreMove": "Rather than forcing a verdict, the Gemara leaves the contradiction open (teiku) and moves straight into the seven-day pre-Yom Kippur preparation: the Sanhedrin elders hand the KG to the priestly elders, who drill him daily in the service and parade the sacrificial animals before him so he can recognize them by sight.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Not every Talmudic dispute resolves: when two equally coherent readings of the same mishna still leave a contradiction neither explains, the Gemara can mark it open and move forward rather than forcing a verdict."
+        },
+        "ahaMoment": "The handoff from Sanhedrin elders to priestly elders marks a formal change in responsibility: the Sanhedrin's job, confirming the KG knows the law, ends, and the priests' job, drilling him until he can perform it, begins - and this happens before the Shewbread debate is even resolved.",
+        "learningBlocker": "Learners assume Abaye and Rava's dispute must end with a declared winner before the daf can move on, so the abrupt pivot to seven-day preparation feels like an unfinished thread; in fact the Gemara is comfortable leaving it as teiku and proceeding to the next topic.",
+        "memoryAnchor": "Shewbread: Abaye reads Rabbanan, Rava reads Rabbi, contradiction left open. Then: elders hand off the KG to priests for seven days of Yom Kippur preparation."
       },
       "argumentFlow": [
         {
@@ -175,7 +182,10 @@
         "The KG's seven-day preparation"
       ],
       "misconceptions": [
-        "One might think showing the KG the goats beforehand would compromise the random lottery - the Gemara explains why it does not."
+        {
+          "misconception": "Showing the KG the Yom Kippur goats during the animal parade compromises the randomness of the goat lottery.",
+          "correction": "The Gemara explains that recognizing the goats by sight beforehand does not constitute manipulating which lot he draws."
+        }
       ],
       "relatedSugyot": [
         "yoma-17b-s02",
@@ -193,14 +203,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is the purpose of showing the High Priest the Yom Kippur animals during his seven-day preparation?",
-          "correct": "So he can recognize them by sight and be familiar with all the animals he will offer. For the goats specifically, he needs to know what they look like before drawing the lot."
+          "question": "How do Abaye and Rava each explain the Shewbread mishna's varying four-or-five loaf count for the KG, and what remains unresolved?",
+          "answer": "Abaye reads the entire mishna as Rabbanan, with the count varying by mishmar configuration; Rava reads it entirely as Rabbi, with the count varying for a different reason. A residual contradiction about whether the KG always gets five loaves is left open as teiku."
         },
         {
-          "type": "compare",
-          "q": "How do Abaye and Rava disagree about the Shewbread mishna?",
-          "correct": "Abaye: the mishna throughout follows the Rabbanan (KG takes proportionally less than half, varying 4 or 5 by mishmar count). Rava: the mishna throughout follows Rabbi (KG always takes half, varying explained differently)."
+          "question": "What two things happen during the KG's seven days of preparation according to the new mishna on 18a?",
+          "answer": "He is handed from the Sanhedrin elders to the elders of the priesthood, who instruct him daily in the Yom Kippur service, and all the Yom Kippur sacrificial animals are paraded before him so he can recognize them by sight."
         }
       ],
       "finalRuling": "Shewbread count: unresolved contradiction remains. Seven-day KG preparation: the elders hand off the KG to priestly elders for instruction and practice.",
@@ -265,14 +273,22 @@
         "Yoma.18a.13"
       ],
       "display": {
+        "title": "Ideal protocol meets corrupted practice: preparing the KG amid Second Temple bribery",
         "whats": "The elders prepare the KG: reading the service order aloud, having him practice, and ensuring he is qualified. The Gemara discusses what happens when the KG was appointed improperly (as happened in the Second Temple period - Maratha bat Baytus bribed Agrippa for her betrothed's appointment). The elders also exclude goats from the animal parade since the KG's Yom Kippur offering does not include goats from the musaf. Special foods before Yom Kippur are restricted to avoid seminal emission (which would disqualify the KG from serving).",
         "hint": "The Second Temple-era corruption stories illustrate what can go wrong when the KG position is bought or manipulated. The Gemara uses these as contrast to the ideal preparation described in the Mishna."
       },
       "learning": {
-        "summary": "The elders' preparation includes reading the Yom Kippur service to the KG, having him practice, and ensuring his qualifications. A Gemara digression describes the corrupted Second Temple KG appointments (e.g., Maratha bat Baytus paying for Yehoshua ben Gamla's appointment). Foods that cause seminal emission are restricted for the KG during the seven days to prevent disqualification.",
-        "ahaMoment": "The contrast between the ideal (halachically correct KG selection) and the Second Temple reality (bribery and corruption) shows why such careful preparation protocols existed.",
-        "memoryAnchor": "Elders read the service, KG practices. Second Temple: bought appointments. Pre-Yom Kippur: avoid emission-causing foods.",
-        "openQuestion": "Why were goats specifically excluded from the animal parade shown to the KG? Is there a technical reason or is it simply that the KG's bulls and rams are the relevant animals for his service?"
+        "learnerQuestion": "If the Second Temple appointed High Priests through bribery instead of Torah qualifications, did that invalidate their service?",
+        "coreTension": "The mishna's careful seven-day preparation protocol assumes a properly qualified KG, but the Gemara's own digression admits that Second Temple appointments were sometimes bought outright - a gap between the legal ideal and the historical reality the Gemara itself records.",
+        "coreMove": "The Gemara juxtaposes the structured preparation protocol, daily service instruction, animal recognition, dietary safeguards, against the Maratha bat Baytus and Yehoshua ben Gamla bribery narrative, letting the contrast make the point: procedural rigor in the seven days cannot fix a process corrupted at its starting point, the appointment itself.",
+        "resolution": "Even though Second Temple appointments could be bought, an improperly appointed KG's service is generally still treated as valid. The corruption narrative critiques who occupied the role, not the validity of the rite he performed.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A source can hold two things at once: a rigorous procedural ideal for how a role should be filled and prepared, and an unflinching record of how that ideal was violated in practice, without treating the violation as erasing the validity of what was performed."
+        },
+        "ahaMoment": "The Gemara doesn't sanitize its own history: it records the corrupted Second Temple appointments openly, using the contrast with the mishna's careful protocol to highlight how far practice had drifted from the ideal, without claiming the resulting service was invalid.",
+        "learningBlocker": "Learners often assume that a Gemara describing an obviously improper process, a purchased High Priesthood, must be building toward invalidating that office's service; instead the deterioration in appointment standards and the validity of the service performed are treated as separate questions.",
+        "memoryAnchor": "Elders read the service, KG practices. Second Temple: bought appointments (Maratha bat Baytus buys it for Yehoshua ben Gamla). Pre-Yom Kippur: avoid emission-causing foods."
       },
       "argumentFlow": [
         {
@@ -410,7 +426,10 @@
         "The Yom Kippur goat lottery system"
       ],
       "misconceptions": [
-        "One might think the Second Temple KG appointments being corrupt means the service was invalid - the Gemara generally holds that even improperly appointed KGs performed valid service."
+        {
+          "misconception": "Because Second Temple KG appointments could be bought, the Yom Kippur service performed by an improperly appointed KG was invalid.",
+          "correction": "The Gemara generally treats the service as valid even when the appointment process was corrupt; the bribery narrative critiques who held the office, not the validity of the rite he performed."
+        }
       ],
       "relatedSugyot": [
         "yoma-18a-s01",
@@ -428,14 +447,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why do the elders restrict the High Priest's diet before Yom Kippur?",
-          "correct": "To prevent seminal emission, which causes tum'at keri. If the KG becomes tamei from emission, he cannot perform the Yom Kippur service until he immerses and waits until evening."
+          "question": "What did Maratha bat Baytus do to secure the High Priesthood for Yehoshua ben Gamla, and what does this narrative illustrate?",
+          "answer": "She paid King Agrippa a tarkeva (a large measure) of dinars to have him appointed. The narrative illustrates how far Second Temple appointment standards had drifted from the Torah-based selection of the First Temple."
         },
         {
-          "type": "narrative",
-          "q": "Who was Maratha bat Baytus and what did she do?",
-          "correct": "A wealthy widow who paid King Agrippa a large sum (tarkeva of dinars) to have her betrothed Yehoshua ben Gamla appointed as High Priest - an example of the Second Temple era's corrupt appointment practices."
+          "question": "Why are goats excluded from the animal parade shown to the KG during his seven days of preparation?",
+          "answer": "Because the KG's own personal Yom Kippur offerings are a bull and a ram, not goats; only the communal musaf goats are relevant, and those are shown separately for the lottery."
         }
       ],
       "finalRuling": "The elders' preparation protocol is established: read the service, have the KG practice, restrict diet. Second Temple history shows what happens when this standard is violated.",
@@ -490,14 +507,22 @@
         "Yoma.18a.17"
       ],
       "display": {
+        "title": "Five trigger foods: when an emission is oness and when it is not",
         "whats": "The specific foods that cause seminal emission are listed and discussed. Five foods are identified: fine flour, eggs, wine, garlic, and others. The Gemara then raises a related question: what is the legal status of a kohen who has a seminal emission during the preparation period - is it attributed to illness (oness) or to his own eating? The distinction matters because an unavoidable emission (oness) might not disqualify him.",
         "hint": "The list of emission-causing foods is practical halacha for the KG's week of preparation. The oness question is more theoretical: if the emission was caused by normal food consumption (not excess), is it still the kohen's 'fault'?"
       },
       "learning": {
-        "summary": "Five foods that cause seminal emission are enumerated. The Gemara debates whether a kohen who emits seminal fluid because of normal food consumption is considered an oness (unavoidable) or is culpable. The distinction affects whether he can use the 'oness' defense to claim his purity was involuntary - relevant to the KG's preparation period.",
-        "ahaMoment": "The oness/voluntary distinction cuts to the heart of halakhic agency: does eating ordinary food and then experiencing emission count as 'forced' impurity or voluntary?",
-        "memoryAnchor": "Five emission foods. Oness question: if you ate normally and emitted, is it your fault? The Gemara says it depends on whether the food was itself excessive.",
-        "openQuestion": "Does the Talmud's list of emission-causing foods reflect medical knowledge of the period, or is it based on transmitted tradition?"
+        "learnerQuestion": "If a kohen eats ordinary food during his preparation week and then experiences a seminal emission, is that emission his fault, or is it an unavoidable accident (oness)?",
+        "coreTension": "A seminal emission during the KG's seven days of preparation threatens his fitness for the service, so the Gemara needs a workable test for when an emission counts as foreseeable conduct versus a genuine accident.",
+        "coreMove": "The Gemara separates general eating from eating known emission-triggers. Large-quantity eating of ordinary food that happens to be followed by emission is treated as oness, because nothing about the meal specifically targeted emission. But eating one of five identified foods, in their emission-triggering quantities, is treated as foreseeable and therefore not oness, because the kohen knowingly courted the outcome.",
+        "resolution": "Emission following ordinary eating is oness. Emission following deliberate consumption of one of the five listed foods, in emission-causing quantities, is not oness and the kohen bears responsibility for it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Whether an outcome counts as oness (unavoidable) or as the actor's responsibility can hinge on whether the actor knowingly engaged in conduct with a foreseeable result, not merely on whether the result itself was unwanted."
+        },
+        "ahaMoment": "Oness is not about whether you wanted the outcome. It is about whether you knowingly did something likely to cause it. Eating a lot of food is not the same as eating a known trigger food.",
+        "learningBlocker": "Learners tend to treat 'oness' as a single binary switch covering all seminal emission, missing that the Gemara's test turns on what specifically was eaten, not on the mere fact that an emission occurred.",
+        "memoryAnchor": "Five trigger foods (flour, eggs, garlic, purslane, arugula): eat one in quantity and emit, you knew the risk, not oness. Overeat anything else and emit, that's oness."
       },
       "argumentFlow": [
         {
@@ -589,7 +614,10 @@
         "The KG's dietary restrictions during preparation"
       ],
       "misconceptions": [
-        "One might think all seminal emissions are treated the same (oness) - the Gemara distinguishes between emissions from ordinary eating (oness) and from specifically eating emission-causing foods (not oness)."
+        {
+          "misconception": "All seminal emissions during the preparation week are treated the same way under the oness rule.",
+          "correction": "The Gemara distinguishes by cause: emission from ordinary eating in quantity is oness, while emission from deliberately eating one of the five known emission-causing foods, in trigger quantities, is foreseeable and not oness."
+        }
       ],
       "relatedSugyot": [
         "yoma-18a-s02",
@@ -603,14 +631,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "list",
-          "q": "Name three of the five foods the Talmud identifies as causing seminal emission.",
-          "correct": "Any three from: fine flour (soltot), eggs, garlic, purslane (halaglogot), arugula (gargir)."
+          "question": "Name three of the five foods the Gemara identifies as causing seminal emission.",
+          "answer": "Any three of: fine flour (soltot), eggs, garlic, purslane (halalglogot), arugula (gargir)."
         },
         {
-          "type": "explain",
-          "q": "When is a kohen's seminal emission considered oness (involuntary) vs voluntary?",
-          "correct": "If he ate ordinary food in normal quantities and emitted, it is oness. If he specifically ate one of the five known emission-causing foods in their emission-triggering quantities, he is responsible - it is foreseeable."
+          "question": "A kohen overeats a large ordinary meal during his preparation week and then experiences a seminal emission. Is this oness? Why or why not?",
+          "answer": "Yes, it is oness. He did not specifically eat one of the five known emission-causing foods in trigger quantities, so the emission was not a foreseeable result of his particular eating, even though he ate heavily."
         }
       ],
       "finalRuling": "Five emission-causing foods established. Emission from these foods = not oness; emission from general overeating = oness.",

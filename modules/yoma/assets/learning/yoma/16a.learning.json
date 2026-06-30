@@ -34,14 +34,22 @@
         "Yoma.16a.3"
       ],
       "display": {
+        "title": "Identify the author, not the winner: resolving the Yoma/Middot contradiction",
         "whats": "Rav Huna resolves the Yoma/Middot contradiction about the Chamber of the Lambs by identifying who authored Tractate Middot: R. Eliezer ben Yaakov. This is proved by a second Middot mishna where R. Eliezer ben Yaakov himself admits he forgot which two of the four Women's Courtyard chambers served which function.",
         "hint": "Rav Huna's key move: if R. Eliezer ben Yaakov authored Middot, and we know his position (the Chamber of the Lambs is in the southwest corner), then the Yoma/Tamid description (northwest) represents a different authority's view. The amnesia mishna proves it's his tractate."
       },
       "learning": {
-        "summary": "Rav Huna identifies R. Eliezer ben Yaakov as the author of Tractate Middot, resolving the Yoma/Middot conflict about the Chamber of the Lambs location. The proof is a Middot mishna where R. Eliezer ben Yaakov admits he forgot the function of two Women's Courtyard chambers - an author would not forget his own tractate's details unless he later was uncertain.",
+        "learnerQuestion": "If Yoma and Middot disagree about which corner held the Chamber of the Lambs, which tractate is wrong?",
+        "coreTension": "Two tannaitic sources place the same Temple chamber in different corners, and a contradiction between authoritative texts cannot simply be left standing.",
+        "coreMove": "Rav Huna does not pick a winner between the two texts. He identifies who wrote Middot - R. Eliezer ben Yaakov - using a second Middot mishna where that author admits he forgot which two Women's Courtyard chambers served which function, since only the tractate's own author could make that specific admission.",
+        "resolution": "Middot reflects R. Eliezer ben Yaakov's tradition (southwest corner); Yoma and Tamid reflect a different authority's tradition (northwest corner). Both are correct readings of the Temple, just from different tannaitic sources.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "An apparent contradiction between two authoritative texts can dissolve once you identify that each reflects a different author's tradition, rather than assuming one source made an error."
+        },
         "ahaMoment": "The authorship identification resolves an architectural contradiction: two tractates can place the same chamber in different corners if they reflect different tannaitic traditions.",
-        "memoryAnchor": "R. Eliezer ben Yaakov authored Middot - proven by his own admission of forgetting two chambers. This establishes his corner-assignment as the Middot position, different from Yoma's.",
-        "openQuestion": "If R. Eliezer ben Yaakov later forgot his own mishna's content, does that affect the reliability of Tractate Middot for determining the actual Temple layout?"
+        "learningBlocker": "Learners default to treating Yoma and Middot as describing one fixed floor plan, so any disagreement between them reads as a mistake in one of the texts rather than as two distinct, equally valid traditions.",
+        "memoryAnchor": "R. Eliezer ben Yaakov authored Middot - proven by his own admission of forgetting two chambers. This establishes his corner-assignment as the Middot position, different from Yoma's."
       },
       "argumentFlow": [
         {
@@ -113,7 +121,10 @@
         "The four-chamber Beit HaMoked structure"
       ],
       "misconceptions": [
-        "One might think the contradiction between Yoma and Middot is an error - it is actually two legitimate tannaitic traditions about the same Temple layout."
+        {
+          "misconception": "The contradiction between Yoma and Middot about the Chamber of the Lambs is a textual error.",
+          "correction": "It reflects two legitimate, distinct tannaitic traditions: Middot follows R. Eliezer ben Yaakov, while Yoma and Tamid follow a different authority."
+        }
       ],
       "relatedSugyot": [
         "yoma-15b-s04",
@@ -127,9 +138,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "How does Rav Huna resolve the contradiction between Tractates Yoma and Middot about the Chamber of the Lambs?",
-          "correct": "He identifies R. Eliezer ben Yaakov as the author of Middot. This means Middot reflects his tradition, while Yoma/Tamid reflects a different tradition - so both are correct for their respective authorities."
+          "question": "How does Rav Huna resolve the contradiction between Tractates Yoma and Middot about the Chamber of the Lambs?",
+          "answer": "He identifies R. Eliezer ben Yaakov as the author of Middot. Middot reflects his tradition (southwest corner); Yoma and Tamid reflect a different tradition (northwest corner). Both are correct for their own source."
+        },
+        {
+          "question": "What specific piece of evidence proves that R. Eliezer ben Yaakov authored Tractate Middot?",
+          "answer": "A second Middot mishna in which R. Eliezer ben Yaakov himself admits he forgot which two of the four Women's Courtyard chambers served which function - an admission only the tractate's own author would make."
         }
       ],
       "finalRuling": "R. Eliezer ben Yaakov authored Tractate Middot (per Rav Huna). This resolves the Yoma/Middot contradiction by assigning the two descriptions to different tannaitic traditions.",
@@ -199,14 +213,22 @@
         "Yoma.16a.11"
       ],
       "display": {
+        "title": "The measurements confirm it: matching the eastern wall height to R. Eliezer ben Yaakov",
         "whats": "Further proof that Tractate Middot follows R. Eliezer ben Yaakov comes from measurements: Middot's statement about the Temple's eastern wall height matches R. Eliezer ben Yaakov's known position. The sugya also addresses the height of the Sanctuary entrance and how the Ezrat Nashim galleries were constructed.",
         "hint": "Height measurements of the Temple can disambiguate whose tradition Middot represents. If the numbers match R. Eliezer ben Yaakov's known position from other sources, Rav Huna's attribution is confirmed."
       },
       "learning": {
-        "summary": "The Gemara brings additional proof for Rav Huna's attribution of Middot to R. Eliezer ben Yaakov through Temple height measurements. The eastern wall height and the structure of the Women's Courtyard galleries are shown to align with R. Eliezer ben Yaakov's other known rulings.",
-        "ahaMoment": "Temple measurements serve as fingerprints - matching them to a known Tanna's positions confirms who authored a tractate.",
-        "memoryAnchor": "Eastern wall height = R. Eliezer ben Yaakov's known measurement = Middot is his tractate. Second proof after the Women's Courtyard forgetfulness.",
-        "openQuestion": "How precisely were Temple measurements transmitted? Does the agreement on numbers prove common authorship or just that all Tannaim agreed on the basic dimensions?"
+        "learnerQuestion": "Is there any evidence for Rav Huna's authorship claim beyond R. Eliezer ben Yaakov's own admission of forgetting two chambers?",
+        "coreTension": "A single admission of forgetfulness is a thin basis for attributing an entire tractate to one Tanna; the attribution needs independent corroboration.",
+        "coreMove": "The Gemara derives the eastern wall's height from a verse about the cherubim's wingspan, and shows that the resulting number matches R. Eliezer ben Yaakov's known position elsewhere - turning a textual coincidence into a second, independent proof of authorship.",
+        "resolution": "Middot's eastern wall measurement, derived from the cherubim verse, matches R. Eliezer ben Yaakov's known view, corroborating Rav Huna's attribution beyond the single forgetfulness admission.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A numeric detail derived from a verse (here, wall height from the cherubim's wingspan) can independently corroborate an attribution that otherwise rests on a single piece of internal evidence."
+        },
+        "ahaMoment": "Temple measurements serve as fingerprints - matching a derived number to a known Tanna's position confirms who authored a tractate, independent of any direct admission.",
+        "learningBlocker": "Learners tend to read the golden vine and gallery material as decorative background detail and miss that the eastern wall height is doing real argumentative work: it is the second, independent proof for Rav Huna's authorship claim.",
+        "memoryAnchor": "Cherubim wingspan derives the wall height; the wall height matches R. Eliezer ben Yaakov. Two proofs now: the forgetfulness admission, and the measurement match."
       },
       "argumentFlow": [
         {
@@ -343,7 +365,10 @@
         "How measurement traditions attribute a tractate to its author"
       ],
       "misconceptions": [
-        "One might think the golden vine was a natural growth - it was an entirely artificial gold construction built from worshippers' donations."
+        {
+          "misconception": "The golden vine over the Heikhal entrance was a natural growth trained onto the wall.",
+          "correction": "It was an entirely artificial gold construction, built up over time from worshippers' donated gold grape clusters, leaves, and berries attached by goldsmiths."
+        }
       ],
       "relatedSugyot": [
         "yoma-16a-s01"
@@ -360,14 +385,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is the golden vine (gafna shel zahav) in the Temple and how did it grow?",
-          "correct": "A large decorative golden vine over the Heikhal entrance. Worshippers donated golden grape clusters, leaves, and berries; the treasury stored them until goldsmiths could attach them. Eventually it became so massive that hundreds of kohanim were needed to move it."
+          "question": "What is the second, independent proof (beyond the forgetfulness admission) that R. Eliezer ben Yaakov authored Tractate Middot?",
+          "answer": "The eastern wall height derived in Middot from the cherubim's wingspan matches R. Eliezer ben Yaakov's known position as expressed elsewhere in the Talmud."
         },
         {
-          "type": "explain",
-          "q": "What is the second proof that R. Eliezer ben Yaakov authored Tractate Middot?",
-          "correct": "The height measurements in Middot (eastern wall, entrance height) match R. Eliezer ben Yaakov's known positions as expressed in other Talmudic passages."
+          "question": "How heavy did the golden vine over the Heikhal entrance eventually become, and why did the Temple stop adding to it?",
+          "answer": "It grew so massive from accumulated gold donations that three hundred kohanim were required to move it, so further additions were halted."
         }
       ],
       "finalRuling": "Confirmed: Middot's measurements align with R. Eliezer ben Yaakov's known positions, supporting Rav Huna's attribution.",

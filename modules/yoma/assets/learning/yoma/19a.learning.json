@@ -54,14 +54,22 @@
         "Yoma.19a.7"
       ],
       "display": {
+        "title": "Locating the Parhedrin chamber by adjacency, not by direct statement",
         "whats": "The Gemara maps the Temple's inner courtyard (Azara): six chambers (three along the north wall, three along the south wall) and seven gates. It then locates where the KG's two chambers were within this layout. The Parhedrin chamber (where the KG sleeps during his seven-day separation) is identified, and the question of whether it was on the north or south side of the Azara begins.",
         "hint": "The Temple's courtyard had a specific layout with named chambers and gates. The KG's location during his seven days matters because his immersions (10 total on Yom Kippur) need to be near the gate where the water is brought in. North or south placement affects the logistics of his preparation."
       },
       "learning": {
-        "summary": "The Azara (inner courtyard) had six named chambers (three north: lishkat ha-golah, lishkat ha-gazit, lishkat ha-gazit; three south: lishkat ha-pahvedrin, lishkat ha-parvah, lishkat ha-avtinas) and seven gates. The KG's Parhedrin chamber (for his seven-day stay) and the chamber where he learned incense-scooping (Beit Avtinas/Avtinas chamber) are both located within this layout.",
-        "ahaMoment": "The Temple was a functioning institutional complex with specialized chambers. The KG's spatial location during preparation is not random - it determines his proximity to key service locations.",
-        "memoryAnchor": "Azara: six chambers (3N + 3S), 7 gates. KG's two chambers: Parhedrin (sleep) and Beit Avtinas (incense practice). Where each was placed = north vs south question.",
-        "openQuestion": "Do the seven gates of the Azara correspond to the seven different services performed within it, or is the number coincidental?"
+        "learnerQuestion": "Was the Parhedrin chamber, where the KG sleeps during his seven-day separation, on the north or south side of the Azara?",
+        "coreTension": "The Mishna never states the Parhedrin chamber's side directly, so the Gemara has to derive its location from an indirect fact: where the KG's immersion bath stood.",
+        "coreMove": "The Gemara reasons from adjacency: the Mishna in Tamid places the KG's immersion bath next to his Parhedrin chamber, and the Water Gate, where the immersion bath sat, is independently known to be in the south. Since the bath is in the south and the chamber is adjacent to the bath, the chamber must also be in the south.",
+        "resolution": "The Parhedrin chamber is located on the south side of the Azara, established by inference from its adjacency to the southern immersion bath rather than by a direct textual statement.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "An unstated fact can be derived by chaining two known facts through a shared point of contact: if A is adjacent to B, and B's location is known, A's location follows even without a direct source stating it."
+        },
+        "ahaMoment": "The Temple was a functioning institutional complex with specialized chambers. The KG's spatial location during preparation is not random; it determines his proximity to key service locations, and that proximity is itself the evidence the Gemara reasons from.",
+        "learningBlocker": "Learners often look for a single verse or mishna that states the Parhedrin chamber's side outright and get stuck when they cannot find one, missing that the Gemara establishes the location entirely through an adjacency inference from the immersion bath.",
+        "memoryAnchor": "Azara: six chambers (3N + 3S), 7 gates. Bath is south (Water Gate). Parhedrin is next to the bath, so Parhedrin is south too."
       },
       "argumentFlow": [
         {
@@ -200,7 +208,10 @@
         "The Sukkot water-drawing ceremony"
       ],
       "misconceptions": [
-        "One might think the KG immerses ten times because there are ten service changes - there are actually only five garment changes (golden and white alternating), requiring immersions before each change plus one extra."
+        {
+          "misconception": "The KG immerses ten times on Yom Kippur because there are ten distinct services requiring it.",
+          "correction": "There are only five garment changes (golden and white alternating); the ten count reflects the immersions tied to those five changes, not ten separate services."
+        }
       ],
       "relatedSugyot": [
         "yoma-18b-s02",
@@ -218,14 +229,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "How many chambers and gates did the Temple's inner courtyard (Azara) have?",
-          "correct": "Six chambers - three along the north wall and three along the south wall. Seven gates."
+          "question": "How many chambers and gates did the Temple's inner courtyard (Azara) have?",
+          "answer": "Six chambers, three along the north wall and three along the south wall, and seven gates."
         },
         {
-          "type": "explain",
-          "q": "What is the Lishkat Parhedrin and where was it located?",
-          "correct": "The KG's personal chamber for his seven-day separation before Yom Kippur. It was on the south side of the Azara, adjacent to the immersion bath (since the immersion facility was near the Water Gate in the south)."
+          "question": "The Mishna never states directly which side of the Azara the Parhedrin chamber was on. How does the Gemara establish that it was in the south?",
+          "answer": "By adjacency inference: the Mishna in Tamid places the KG's immersion bath next to the Parhedrin chamber, and the immersion bath is independently known to be in the south, near the Water Gate. Since the chamber sits next to the bath, it must also be in the south."
         }
       ],
       "finalRuling": "Parhedrin chamber = south side of the Azara, adjacent to the immersion facility.",
@@ -285,14 +294,22 @@
         "Yoma.19a.12"
       ],
       "display": {
+        "title": "Efficient placement, deliberate difficulty: south wins, but the walking stays",
         "whats": "The Gemara debates whether the Parhedrin chamber was on the north or south side of the Azara. The debate hinges on the KG's daily routine during the seven days: if Parhedrin is in the south, his morning routine is efficient (rise, relieve self, immerse at the nearby Water Gate, then walk north to Beit Avtinas). If in the north, his routine involves more walking. The Gemara concludes: south is more defensible. The difficulty of the all-day service imposed on the KG is also analyzed.",
         "hint": "The north-south debate about the Parhedrin chamber is really a debate about the KG's logistical convenience during his seven-day preparation. The Gemara's preferred answer puts Parhedrin in the south - closer to the Water Gate for morning immersion."
       },
       "learning": {
-        "summary": "The Parhedrin chamber's north-or-south placement is debated through the lens of the KG's daily seven-day routine. If south: morning routine is efficient (relieve, immerse at Water Gate [south], walk north to Beit Avtinas). If north: more walking. The south conclusion is accepted. The Gemara then asks why the Sages impose such physical difficulty on the KG - the answer is to prevent his ego from becoming inflated by the role.",
-        "ahaMoment": "The physical difficulty of the KG's preparation is deliberate: the Torah could have arranged an easier sequence, but the Sages chose the harder path to keep the KG humble.",
-        "memoryAnchor": "Parhedrin in the south. Daily routine: south for morning needs, north for incense practice. Difficulty is intentional to prevent pride.",
-        "openQuestion": "If the Sages deliberately made the KG's preparation difficult to humble him, does this apply equally to a KG who was genuinely humble to begin with?"
+        "learnerQuestion": "Given two possible layouts, why does the Gemara settle on south for the Parhedrin chamber, and why would the Sages design the KG's routine to involve repeated back-and-forth walking at all?",
+        "coreTension": "A south placement makes the KG's morning efficient, but his daily routine still has him crossing the Azara repeatedly between immersion (south) and incense practice (north), which looks like avoidable inefficiency for someone the Temple should be accommodating.",
+        "coreMove": "The Gemara first settles the chamber's side by comparing the two possible routines: south placement keeps the morning sequence efficient, while north placement would force a redundant double crossing, so south is preferred as the more economical reading. It then reframes the remaining daily back-and-forth itself: the Sages did not minimize the KG's exertion because they wanted him to feel the weight of the preparation, preventing his elevated role from inflating his ego.",
+        "resolution": "Parhedrin is confirmed in the south based on routine efficiency, but the routine's residual difficulty is not a design flaw; it is intentional, meant to keep the KG humble despite his status.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Not every apparent inefficiency in a religious procedure is an oversight to be optimized away; some friction is deliberately preserved because the difficulty itself serves a formative purpose."
+        },
+        "ahaMoment": "The physical difficulty of the KG's preparation is deliberate: the Sages could have arranged an easier sequence, but they chose the harder path on purpose to keep the KG humble.",
+        "learningBlocker": "Learners who just resolved the north/south question by efficiency logic tend to assume the Gemara is optimizing the KG's routine throughout, then are surprised when it turns around and defends the remaining difficulty as intentional rather than something to streamline further.",
+        "memoryAnchor": "Parhedrin in the south. Daily routine: south for morning needs, north for incense practice. The leftover difficulty is intentional, to prevent pride."
       },
       "argumentFlow": [
         {
@@ -394,7 +411,10 @@
         "The KG's daily routine during seven days preparation"
       ],
       "misconceptions": [
-        "One might think the imposed difficulty is accidental or unavoidable - the Gemara says it is deliberately designed to keep the KG humble."
+        {
+          "misconception": "The walking back and forth in the KG's daily routine is an accidental or unavoidable byproduct of the Temple's layout.",
+          "correction": "The Gemara presents it as deliberately preserved: the Sages wanted the KG to experience some physical difficulty during his preparation so that his elevated status would not inflate his ego."
+        }
       ],
       "relatedSugyot": [
         "yoma-19a-s01",
@@ -408,14 +428,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why does the Gemara conclude that the Parhedrin chamber was in the south of the Azara?",
-          "correct": "Because the KG's morning routine requires going south to the Water Gate area for his morning immersion. If Parhedrin were in the north, he would need to walk all the way south just for immersion and then back north to Beit Avtinas - an inefficient double circuit."
+          "question": "Why does the Gemara conclude that the Parhedrin chamber was in the south of the Azara rather than the north?",
+          "answer": "Because the KG's morning routine requires going south to the Water Gate area for immersion. If Parhedrin were in the north, he would walk south for immersion and then back north to Beit Avtinas, an inefficient double circuit that a south placement avoids."
         },
         {
-          "type": "explain",
-          "q": "Why did the Sages impose physical difficulty on the High Priest's Yom Kippur preparation?",
-          "correct": "To prevent his ego from becoming inflated. The demanding routine kept him humble and focused on the service rather than on his own status."
+          "question": "After concluding south is more efficient, why does the Gemara still defend the KG's remaining back-and-forth walking as necessary rather than streamlining it further?",
+          "answer": "Because the Sages deliberately preserved some physical difficulty in the KG's preparation to prevent his elevated status from inflating his ego, not because the routine could not be made easier."
         }
       ],
       "finalRuling": "Parhedrin is in the south. The imposed difficulty is intentional and serves a mussar function: keeping the KG humble.",
@@ -444,14 +462,21 @@
         "Yoma.19a.13"
       ],
       "display": {
+        "title": "God's agent or Israel's agent? The question opens, the answer waits for 19b",
         "whats": "A brief but theologically significant debate: do the kohanim act as agents (shlichim) of God when offering sacrifices, or as agents of the Jewish people? This distinction has practical halakhic consequences - if they are God's agents, a kohen who is forbidden from benefiting from a particular person could still bring that person's sacrifice. If they are Israel's agents, such service would be forbidden.",
         "hint": "The agency question (shlichut) matters: if kohanim = God's agents, then the person offering has no legal 'hand' in the service (God is the effective party). If kohanim = Israel's agents, then the person's status (e.g., a vow against the kohen) affects whether the service is valid."
       },
       "learning": {
-        "summary": "The question of whether kohanim are shelichei shamayim (God's agents) or shelichei Yisrael (Israel's agents) has direct halakhic implications. If God's agents: a kohen can sacrifice for anyone, including someone from whom he is forbidden to benefit. If Israel's agents: forbidden-benefit relationships would block the service. The debate begins here and continues on 19b.",
-        "ahaMoment": "Agency law (shlichut) applied to Temple service: who is the 'real' party when a kohen brings a sacrifice? The answer determines whether personal legal relationships between the kohen and the offerer matter.",
-        "memoryAnchor": "Kohanim: shlichei shamayim (God's agents) vs shlichei Yisrael (Israel's agents). If God's agents - personal kohen-offerer relationships don't matter. If Israel's agents - they do.",
-        "openQuestion": "If the kohanim are God's agents, does that mean the person offering the sacrifice has no legal connection to the service at all? Can the service still atone for them?"
+        "learnerQuestion": "When a kohen offers someone's sacrifice, is he legally acting on behalf of God, or on behalf of the person who brought the offering?",
+        "coreTension": "The classification is not just abstract theology: if a person has vowed not to benefit from a particular kohen, the answer determines whether that kohen may still bring his sacrifice, since the case turns on whose agent the kohen actually is.",
+        "coreMove": "The Gemara frames the question as a live dispute with practical stakes rather than settling it here: if kohanim are God's agents, the offerer has no direct legal 'hand' in the kohen's actions, so a forbidden-benefit vow would not block the service; if kohanim are Israel's agents, the personal relationship between kohen and offerer carries through and a forbidden-benefit vow could disqualify it.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Some halakhic questions are introduced with their full practical stakes laid out before any resolution is reached, and the sugya's job at that stage is to make clear why the answer matters, not to supply it yet."
+        },
+        "ahaMoment": "Agency law (shlichut) applied to Temple service: who is the 'real' party when a kohen brings a sacrifice? The answer determines whether personal legal relationships between the kohen and the offerer matter at all.",
+        "learningBlocker": "Learners often expect every question the Gemara raises to be answered within the same sugya, and may search this page for a resolution that the text deliberately withholds until 19b.",
+        "memoryAnchor": "Kohanim: shlichei shamayim (God's agents) vs shlichei Yisrael (Israel's agents). God's agents: a forbidden-benefit vow does not block the service. Israel's agents: it might. Answer on 19b."
       },
       "argumentFlow": [
         {
@@ -492,7 +517,10 @@
         "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
       ],
       "misconceptions": [
-        "One might think the agency question is purely theoretical - it has direct practical consequences for forbidden-benefit scenarios."
+        {
+          "misconception": "The question of whether kohanim are God's agents or Israel's agents is purely theological speculation with no practical consequence.",
+          "correction": "It directly determines a practical case: whether a kohen bound by another person's forbidden-benefit vow may still bring that person's sacrifice."
+        }
       ],
       "relatedSugyot": [
         "yoma-19b-s01"
@@ -505,9 +533,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What is the practical halakhic difference between kohanim being 'God's agents' vs 'Israel's agents'?",
-          "correct": "If God's agents: the kohen can sacrifice for anyone regardless of personal legal relationships (like vows of forbidden benefit between them). If Israel's agents: such personal legal restrictions could invalidate or complicate the service."
+          "question": "What is the practical halakhic difference between kohanim being 'God's agents' versus 'Israel's agents' when it comes to a forbidden-benefit vow against a specific kohen?",
+          "answer": "If kohanim are God's agents, the kohen can still bring that person's sacrifice because the offerer has no direct legal hand in the kohen's act. If kohanim are Israel's agents, the personal relationship carries through and the vow could block the kohen from performing that service."
+        },
+        {
+          "question": "According to Rashi, what position does Rav Huna take on this question, and what is the practical upshot?",
+          "answer": "Rav Huna holds that kohanim are shelichei shamayim, agents of Heaven. The upshot is that even a kohen whom the offerer has vowed not to benefit from can still bring that person's sacrifice, since the vow does not reach an act done on God's behalf."
         }
       ],
       "finalRuling": "Question posed; answer given on 19b.",

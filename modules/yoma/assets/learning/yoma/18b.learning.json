@@ -44,14 +44,22 @@
         "Yoma.18b.5"
       ],
       "display": {
+        "title": "Open and formal, not secret: the legal basis for Rav's traveling marriages",
         "whats": "The five emission-causing foods are completed: garlic, cress, purslane, eggs, arugula. The arugula (gargir) digression notes it brightens eyes. Then a startling report: Rav and Rav Nachman, when traveling, would publicly announce 'who wants to be my wife for today?' and marry temporarily. The Gemara explains this controversial practice and its legal basis.",
         "hint": "The traveling marriage practice attributed to Rav and Rav Nachman seems shocking but the Gemara explains it was a rabbinic tool to permit relations in transit without violating Torah law - using local women who were legal marriage partners (Jews) and formalizing a proper temporary kiddushin."
       },
       "learning": {
-        "summary": "Arugula completes the five-food list. Then: Rav and Rav Nachman's practice of taking temporary 'daily wives' while traveling is reported and explained. The legal basis: they announced openly (not secretly), used proper kiddushin, and the women were fully willing. Scholars (rabbanan) have public recognition; their children are identified and not mamzerim.",
-        "ahaMoment": "What looks like scandalous behavior is actually a highly structured halakhic mechanism: transparent, consensual, legally valid kiddushin for a defined period. The openness is what makes it permissible.",
-        "memoryAnchor": "Five foods done: garlic, cress, purslane, eggs, arugula. Rav's traveling marriages: publicly announced, proper kiddushin, women fully willing, children identified.",
-        "openQuestion": "Is this practice (temporary marriage while traveling) something the Talmud endorses as policy or merely describes as what specific Amoraim did? Is it considered appropriate for non-scholars?"
+        "learnerQuestion": "How could Rav and Rav Nachman publicly announce for a 'wife for the day' while traveling without this being a forbidden, casual sexual arrangement?",
+        "coreTension": "A report this blunt looks at first glance like scandalous behavior from leading Amoraim, so the sugya has to show what specific halakhic structure separates it from forbidden relations.",
+        "coreMove": "The Gemara isolates the features that make the practice valid: the announcement was public rather than secret, a proper kiddushin was performed, the woman consented freely, and because scholars are publicly recognized, any resulting children would be identifiable rather than at risk of an undetected forbidden union.",
+        "resolution": "The practice was halakhically valid because it satisfied formal kiddushin requirements under conditions (publicity, scholarly recognition) that closed off the mamzerut concern; the woman then required seven clean days before remarrying.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "An act that looks scandalous on its surface can be halakhically valid if it satisfies every formal requirement of the relevant legal category; the Gemara evaluates the structure of an act, not how it appears."
+        },
+        "ahaMoment": "What reads as scandalous on first hearing turns out to be a fully structured legal act: open, consensual, formally married, for a defined period. The visibility is exactly what removes the danger.",
+        "learningBlocker": "Learners often react to the surface shock of 'wife for the day' and assume the Gemara is describing something improper, instead of tracking the specific legal conditions (public announcement, valid kiddushin, scholarly identifiability) that the sugya says make it permitted.",
+        "memoryAnchor": "Five foods done: garlic, cress, purslane, eggs, arugula. Rav's traveling marriages: publicly announced, proper kiddushin, women fully willing, children identified."
       },
       "argumentFlow": [
         {
@@ -159,7 +167,10 @@
         "The mamzerut concern"
       ],
       "misconceptions": [
-        "One might think Rav's 'daily wife' was an informal arrangement - it was formal kiddushin, not concubinage or casual relations."
+        {
+          "misconception": "Rav and Rav Nachman's 'wife for the day' was an informal or casual arrangement, closer to concubinage than marriage.",
+          "correction": "It was formal kiddushin, requiring the same legal betrothal as any marriage. The arrangement was temporary in duration, not in legal validity."
+        }
       ],
       "relatedSugyot": [
         "yoma-18a-s03",
@@ -173,14 +184,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "What made Rav and Rav Nachman's practice of taking temporary wives while traveling halakhically permissible?",
-          "correct": "Three factors: (1) the announcement was public, not secret; (2) proper kiddushin (formal marriage) was performed; (3) scholars are well-known, so children would be identifiable and not suspect of mamzerut."
+          "question": "What three factors made Rav and Rav Nachman's traveling marriages halakhically valid rather than forbidden relations?",
+          "answer": "The announcement was made publicly rather than secretly; proper kiddushin was performed; and because scholars are publicly recognized, their children would be identifiable, removing the mamzerut concern."
         },
         {
-          "type": "explain",
-          "q": "Why must the woman wait seven clean days after the traveling rabbi leaves?",
-          "correct": "Desire may have caused blood (dam teshuka), requiring a waiting period. She needs seven clean days before she can be with another man."
+          "question": "Why does the woman need to wait seven clean days after the traveling scholar departs, even though no menstrual period necessarily occurred?",
+          "answer": "Desire itself can cause blood to appear (dam teshuka). Since this possibility cannot be ruled out, she counts seven clean days as a precaution before she may marry another man."
         }
       ],
       "finalRuling": "Five emission-causing foods: complete. Traveling marriage practice: described as halakhically valid under specific conditions (public announcement, proper kiddushin, consenting willing women, scholar's public recognition).",
@@ -230,14 +239,22 @@
         "Yoma.18b.7"
       ],
       "display": {
+        "title": "From Torah study to finger-snapping: the escalating all-night vigil",
         "whats": "The KG is formally handed to the Beit Avtinas family (the hereditary keepers of the incense formula) to be kept awake on the eve of Yom Kippur through the night. Various methods are used to prevent him from sleeping: dancing, music, and keeping him engaged. A Kohen Gadol who is a Torah scholar delivers a dvar Torah; if not a scholar, others learn before him. If he showed signs of wanting to sleep, young priests snap their fingers on the floor to wake him.",
         "hint": "Sleep on the eve of Yom Kippur creates a halakhic risk: if the KG has a nocturnal emission (tum'at keri) he cannot perform the service. Keeping him awake is therefore a practical halakhic necessity, not just a custom."
       },
       "learning": {
-        "summary": "The KG is sworn in at Beit Avtinas and then kept awake all night by the priestly elders. The methods used: Torah study (if he is a scholar), hearing Torah from others (if not), music, and finally the young priests literally snapping their fingers on the floor to startle him awake. The goal is to prevent tum'at keri from a nocturnal emission that would disqualify him.",
-        "ahaMoment": "The all-night vigil is functional halacha disguised as ceremony: sleep = emission risk = service disqualification. Every measure to keep him awake is a precautionary halakhic safeguard.",
-        "memoryAnchor": "Beit Avtinas: KG sworn in, then kept awake. Method: Torah first, then music, then finger-snapping. All to prevent tum'at keri.",
-        "openQuestion": "What is the Beit Avtinas family's role specifically? Why would the incense-keepers be the ones responsible for keeping the KG awake?"
+        "learnerQuestion": "Why does the mishna devote so much detail to keeping the KG awake all night before Yom Kippur, escalating from Torah study to young priests snapping their fingers at him?",
+        "coreTension": "If the KG falls asleep and has a nocturnal emission, he becomes ritually impure and cannot perform the next day's service, so the elders need an escalating, reliable system rather than a single fragile safeguard.",
+        "coreMove": "The mishna lays out a graded response: first engage the KG in something absorbing on its own terms (a Torah lesson, delivered by him if he is a scholar or to him if he is not), and only escalate to physically jarring measures like finger-snapping once drowsiness actually appears.",
+        "resolution": "The vigil runs in stages, from constructive engagement (Torah study) to direct physical intervention (finger-snapping), continuing until the time arrives to begin the morning service.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A procedure built to prevent a single failure point often layers escalating safeguards rather than relying on one method, moving from the least intrusive intervention to the most direct only as needed."
+        },
+        "ahaMoment": "The all-night vigil is functional halakha disguised as ceremony: sleep risks emission, emission disqualifies the KG, so every measure to keep him awake is a precautionary safeguard, not pageantry.",
+        "learningBlocker": "Learners tend to read the finger-snapping detail as colorful folklore and miss that it sits at the end of a deliberate escalation ladder, used only once gentler engagement (Torah study) has failed to keep the KG alert.",
+        "memoryAnchor": "Beit Avtinas: KG sworn in, then kept awake. Method escalates: Torah first, then finger-snapping. All to prevent tum'at keri."
       },
       "argumentFlow": [
         {
@@ -295,7 +312,10 @@
         "The KG's seven-day preparation period"
       ],
       "misconceptions": [
-        "One might think keeping the KG awake all night is merely ceremonial - it is a practical halakhic precaution against nocturnal emission that would disqualify him."
+        {
+          "misconception": "Keeping the KG awake all night before Yom Kippur is a ceremonial tradition of honor.",
+          "correction": "It is a practical halakhic precaution: sleep risks a nocturnal seminal emission, which would render the KG ritually impure and unable to perform the next day's service."
+        }
       ],
       "relatedSugyot": [
         "yoma-18b-s01",
@@ -309,14 +329,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why was the High Priest kept awake all night on the eve of Yom Kippur?",
-          "correct": "To prevent seminal emission from sleep (tum'at keri), which would make him ritually impure and unable to perform the Yom Kippur service the next day."
+          "question": "Why was the High Priest kept awake all night on the eve of Yom Kippur?",
+          "answer": "To prevent a seminal emission from sleep (tum'at keri), which would make him ritually impure and unable to perform the Yom Kippur service the next day."
         },
         {
-          "type": "explain",
-          "q": "What methods were used to keep the High Priest awake?",
-          "correct": "If he was a scholar: he delivered Torah lessons all night. If not: others taught Torah before him. If he showed signs of sleep: young priests snapped their fingers on the floor to startle him awake."
+          "question": "In what order were the methods for keeping the High Priest awake applied, from least to most direct?",
+          "answer": "First, constructive engagement: he delivered a Torah lesson if he was a scholar, or others taught Torah before him if he was not. Only once he showed actual signs of dozing did young priests snap their fingers on the floor to startle him."
         }
       ],
       "finalRuling": "The all-night vigil is mandatory: the KG must stay awake until dawn to avoid tum'at keri. The Beit Avtinas chamber is where this takes place.",

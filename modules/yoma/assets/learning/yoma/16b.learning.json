@@ -44,14 +44,22 @@
         "Yoma.16b.5"
       ],
       "display": {
+        "title": "The cubit count rules out R. Yehuda: the altar was not centered",
         "whats": "The extended debate over whether Tractate Middot follows R. Yehuda or R. Eliezer ben Yaakov is resolved: Middot is NOT R. Yehuda's tractate. R. Yehuda holds the altar was centered in the courtyard, but the Temple measurements prove the altar was not centered - most of it was to the south. The Gemara then works through the precise cubit counts: the altar's 32 cubits plus the ramp, the courtyard's total dimensions, and how the various structures fit.",
         "hint": "The key is whether the altar was centered in the court (R. Yehuda) or positioned mostly to the south (Middot's implicit description). The measurements leave no room for centering, ruling out R. Yehuda as Middot's author."
       },
       "learning": {
-        "summary": "The Gemara conclusively rules out R. Yehuda as Tractate Middot's author. R. Yehuda holds the altar was centered in the courtyard; the actual measurements in Middot show the altar (32 cubits) plus the ramp (16 cubits south) leaves the altar entirely in the southern portion of the court. R. Yehuda's centered view is geometrically impossible given Middot's dimensions.",
+        "learnerQuestion": "Could Tractate Middot actually follow R. Yehuda, who holds the altar stood at the exact center of the courtyard?",
+        "coreTension": "R. Yehuda's centered-altar position is a real, named tannaitic view. Before settling on R. Eliezer ben Yaakov as Middot's author, the Gemara has to rule out this alternative, not just assert it away.",
+        "coreMove": "The Gemara runs the actual cubit count: Heikhal 100 cubits from the north wall, an 11-cubit gap, the 32-cubit altar, the 16-cubit ramp, and 22 cubits to the south wall. Laid end to end, the numbers leave the altar's center well south of the courtyard's midpoint, so a perfectly centered altar is not geometrically possible.",
+        "resolution": "Middot's own measurements rule out R. Yehuda's centered-altar view, confirming that Middot follows R. Eliezer ben Yaakov, whose offset-to-the-south placement matches the cubit count.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "A halakhic position can be eliminated by showing that an opponent's stated numbers are geometrically incompatible with it, not just by preferring one tradition over another."
+        },
         "ahaMoment": "Geometry resolves a talmudic dispute: there is not enough space north of center to accommodate R. Yehuda's centered-altar view. The numbers simply don't work.",
-        "memoryAnchor": "R. Yehuda: altar centered. Reality: altar + ramp to the south = 48 cubits south of center. No room for center. Middot is NOT R. Yehuda's.",
-        "openQuestion": "If Middot's measurements rule out both R. Yehuda and (if taken literally) some of R. Eliezer ben Yaakov's positions, is the Middot text itself internally consistent?"
+        "learningBlocker": "Learners tend to skim the cubit-by-cubit count as filler detail, missing that the arithmetic itself is the refutation: it is not asserted that R. Yehuda is wrong, it is calculated.",
+        "memoryAnchor": "R. Yehuda: altar centered. Reality: altar plus ramp puts most of the altar south of center. No room left for centering. Middot is NOT R. Yehuda's."
       },
       "argumentFlow": [
         {
@@ -159,7 +167,10 @@
         "The attribution debate from 16a"
       ],
       "misconceptions": [
-        "One might think R. Yehuda's centered-altar view is a minor position easily dismissed - the Gemara takes it seriously and refutes it with precise measurements."
+        {
+          "misconception": "R. Yehuda's centered-altar view is a minor position the Gemara dismisses out of hand.",
+          "correction": "The Gemara takes it seriously and refutes it with a precise cubit-by-cubit measurement count, not a bare assertion."
+        }
       ],
       "relatedSugyot": [
         "yoma-16a-s01",
@@ -177,20 +188,12 @@
       ],
       "quizSeeds": [
         {
-          "type": "explain",
-          "q": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
-          "correct": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north + 11 gap + 32 altar + 16 ramp = 159 cubits) leave the altar entirely in the south half - it cannot be centered."
+          "question": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
+          "answer": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north, an 11-cubit gap, the 32-cubit altar, and the 16-cubit ramp) leave the altar entirely in the south portion - it cannot be centered."
         },
         {
-          "type": "multiple_choice",
-          "q": "What is the 'kevesh' and how long was it?",
-          "choices": [
-            "The altar ramp, 16 cubits long",
-            "The altar top surface, 32 cubits",
-            "The space between Heikhal and altar, 11 cubits",
-            "The drainage channel under the altar"
-          ],
-          "correct": "The altar ramp, 16 cubits long"
+          "question": "What is the kevesh, and what halakhic requirement explains its shape?",
+          "answer": "The 16-cubit ramp leading up to the altar. It has no steps, because the Torah forbids ascending the altar by steps, so a sloped ramp was used instead to preserve dignified ascent."
         }
       ],
       "finalRuling": "Established: Tractate Middot is NOT R. Yehuda's. Rav Huna's attribution to R. Eliezer ben Yaakov stands. The altar was offset south, not centered.",
