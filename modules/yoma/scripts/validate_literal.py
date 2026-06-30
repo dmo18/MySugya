@@ -11,9 +11,12 @@ Usage (from modules/yoma/):
 """
 
 import argparse
-import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from _js_parser import parse_line_items_from_lines_array
 
 LEARNING_DATA = Path("learning_data.js")
 DEFAULT_MIN   = 95   # percent
@@ -29,16 +32,13 @@ def main():
 
     source = LEARNING_DATA.read_text()
 
-    # Find line objects with sefaria_ref (Gemara text lines)
-    line_blocks = re.findall(
-        r'\{(?:[^{}]|\{[^{}]*\})*?sefaria_ref:\s*"[^"]*"(?:[^{}]|\{[^{}]*\})*?\}',
-        source, re.DOTALL
-    )
+    # Find line objects with sefaria_ref (Gemara text lines), using the
+    # bracket-and-quote-aware parser instead of a one-level DOTALL regex.
+    items = parse_line_items_from_lines_array(source)
 
-    total     = len(line_blocks)
-    has_lit   = sum(1 for b in line_blocks if "en_lit:" in b)
-    empty_lit = sum(1 for b in line_blocks
-                    if re.search(r'en_lit:\s*""', b))
+    total     = len(items)
+    has_lit   = sum(1 for item in items if item["en_lit"] is not None)
+    empty_lit = sum(1 for item in items if item["en_lit"] == "")
     filled    = has_lit - empty_lit
     pct       = round(filled / total * 100, 1) if total else 0
 

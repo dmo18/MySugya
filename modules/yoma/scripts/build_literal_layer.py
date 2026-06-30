@@ -14,9 +14,12 @@ Usage:
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from _js_parser import extract_string_field, find_string_field_span, iter_line_object_spans
 
 LEARNING_DATA = Path("learning_data.js")
 LITERAL_DIR   = Path("assets/literal_en")
@@ -46,52 +49,53 @@ def inject(source: str, cache: dict[str, str]) -> tuple[str, int, int]:
       - insert en_lit: after the en: field if not already present
       - update en_lit: if already present
     Returns (new_source, injected_count, skipped_count).
+
+    Line object boundaries come from iter_line_object_spans, which tracks
+    brace depth and skips quoted strings, so nested commentaries blocks and
+    literal { } [ ] characters inside he:/en: text cannot misalign a span.
     """
     injected = skipped = 0
+    parts: list[str] = []
+    cursor = 0
 
-    def replacer(m: re.Match) -> str:
-        nonlocal injected, skipped
-        block = m.group(0)
-        ref_m = re.search(r'sefaria_ref:\s*"([^"]+)"', block)
-        if not ref_m:
-            return block
-        ref = ref_m.group(1)
+    for start, end in iter_line_object_spans(source):
+        block = source[start:end]
+
+        try:
+            ref = extract_string_field(block, "sefaria_ref")
+        except ValueError:
+            continue
+
         lit = cache.get(ref)
         if lit is None:
             skipped += 1
-            return block
+            continue
 
         lit_escaped = lit.replace("\\", "\\\\").replace('"', '\\"')
 
-        # Already has en_lit: - update it
-        if "en_lit:" in block:
-            new_block = re.sub(
-                r'en_lit:\s*"[^"]*"',
-                f'en_lit: "{lit_escaped}"',
-                block,
+        en_lit_span = find_string_field_span(block, "en_lit")
+        if en_lit_span is not None:
+            # Already has en_lit: - update it
+            field_start, field_end = en_lit_span
+            new_block = (
+                block[:field_start] + f'en_lit: "{lit_escaped}"' + block[field_end:]
             )
             injected += 1
-            return new_block
-
-        # Insert en_lit: after en: field
-        new_block = re.sub(
-            r'(en:\s*"(?:[^"\\]|\\.)*")',
-            lambda mm: mm.group(0) + f', en_lit: "{lit_escaped}"',
-            block,
-            count=1,
-        )
-        if new_block != block:
-            injected += 1
         else:
-            skipped += 1
-        return new_block
+            en_span = find_string_field_span(block, "en")
+            if en_span is None:
+                skipped += 1
+                continue
+            insert_at = en_span[1]
+            new_block = block[:insert_at] + f', en_lit: "{lit_escaped}"' + block[insert_at:]
+            injected += 1
 
-    # Match line objects that contain sefaria_ref, allowing one level of nested {} (e.g. commentaries)
-    pattern = re.compile(
-        r'\{(?:[^{}]|\{[^{}]*\})*?sefaria_ref:\s*"[^"]*"(?:[^{}]|\{[^{}]*\})*?\}',
-        re.DOTALL,
-    )
-    new_source = pattern.sub(replacer, source)
+        parts.append(source[cursor:start])
+        parts.append(new_block)
+        cursor = end
+
+    parts.append(source[cursor:])
+    new_source = "".join(parts)
     return new_source, injected, skipped
 
 

@@ -128,6 +128,25 @@ def extract_number_field(text: str, field_name: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
+def find_string_field_span(text: str, field_name: str) -> tuple[int, int] | None:
+    """Return the (start, end) character span of 'field_name: "value"' in text.
+
+    start is the index of the first character of field_name; end is one past
+    the closing quote of the string value. Returns None if the field is not
+    found. Raises ValueError if the string value is unterminated.
+
+    Used for in-place text splicing (insert or replace a field) without
+    disturbing surrounding text.
+    """
+    pattern = re.compile(r'\b' + re.escape(field_name) + r'\s*:\s*"')
+    m = pattern.search(text)
+    if not m:
+        return None
+    quote_start = m.end() - 1
+    end = _advance_past_string(text, quote_start)
+    return (m.start(), end)
+
+
 def extract_balanced_array(content: str, field_name: str) -> str | None:
     """Find 'field_name: [' in content and return the balanced [...] block.
 
@@ -238,6 +257,45 @@ def parse_line_items_from_lines_array(content: str) -> list[dict]:
             except ValueError:
                 pass
     return results
+
+
+def iter_line_object_spans(content: str) -> Iterator[tuple[int, int]]:
+    """Yield (start, end) character spans for each top-level line object
+    inside every lines: [...] array in content.
+
+    end is one past the closing '}' of the object. Spans are absolute
+    offsets into content, suitable for text splicing (inserting or
+    replacing a field) without disturbing surrounding text or formatting.
+    Nested braces (such as commentaries: { rashi: [...] }) are tracked by
+    depth and do not split a single line object into multiple spans, and
+    quoted string values are skipped so literal { } [ ] characters inside
+    he:/en: text never affect span boundaries.
+    """
+    pattern = re.compile(r'\blines\s*:\s*\[')
+    for m in pattern.finditer(content):
+        bracket_start = m.end() - 1
+        try:
+            array_text = extract_balanced_block(content, bracket_start, '[', ']')
+        except ValueError:
+            continue
+        depth = 0
+        obj_start = None
+        i = 0
+        while i < len(array_text):
+            ch = array_text[i]
+            if ch == '"':
+                i = _advance_past_string(array_text, i)
+                continue
+            if ch == '{':
+                if depth == 0:
+                    obj_start = i
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0 and obj_start is not None:
+                    yield (bracket_start + obj_start, bracket_start + i + 1)
+                    obj_start = None
+            i += 1
 
 
 def parse_daf_blocks(content: str) -> Iterator[tuple[str, str]]:
