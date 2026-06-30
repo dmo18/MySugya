@@ -374,13 +374,20 @@
       ],
       "display": {
         "whats": "How does R. Meir derive exactly ten sanctifications from five immersions?",
-        "hint": "Each immersion is bracketed by two sanctifications: one before undressing and one after dressing."
+        "hint": "Each immersion is bracketed by two sanctifications: one before undressing and one after dressing.",
+        "title": "Bracketing each change: how five immersions yield ten sanctifications"
       },
       "learning": {
-        "summary": "The Gemara confirms R. Meir's system: each of the five immersions requires two sanctifications - one before undressing (before changing garments) and one after dressing (before beginning the new service). Five times two equals ten total sanctifications.",
         "ahaMoment": "The sanctification brackets each garment change: a closing sanctification at the end of one service, an opening sanctification at the start of the next. The immersion sits between them.",
         "memoryAnchor": "Sanctify - undress - immerse - dress - sanctify. x5 = 10 sanctifications.",
-        "openQuestion": "Why is sanctification required both before undressing (when you're about to immerse anyway) and after dressing?"
+        "learnerQuestion": "Mechanically, where do the ten sanctifications fall relative to the five immersions?",
+        "coreTension": "The Mishna states the totals (five immersions, ten sanctifications) but does not by itself make clear how the sanctifications are distributed around each immersion.",
+        "coreMove": "The Gemara confirms that every one of the five immersions is bracketed by two sanctifications - one immediately before undressing for the change, and one immediately after dressing in the new garments - which is what produces the total of ten.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A single repeated micro-structure (sanctify-undress-immerse-dress-sanctify), applied five times, accounts for the Mishna's full numerical totals - complex totals can rest on one simple repeated unit."
+        },
+        "learningBlocker": "It's easy to picture the ten sanctifications as occurring all together or at fixed points in the day, rather than understanding that they are paired bookends around each individual immersion and garment change."
       },
       "argumentFlow": [
         {
@@ -414,7 +421,10 @@
         "kiddush yadayim veraglayim"
       ],
       "misconceptions": [
-        "R. Meir requires ten separate immersions - he requires five immersions with two sanctifications each = ten sanctifications."
+        {
+          "misconception": "R. Meir requires ten separate immersions.",
+          "correction": "He requires five immersions with two sanctifications each = ten sanctifications."
+        }
       ],
       "relatedSugyot": [
         "yoma-031b-s03"
@@ -428,8 +438,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does R. Meir arrive at exactly ten sanctifications from five immersions?",
-          "a": "Each of the five immersions requires two sanctifications: one before undressing (closing the previous service) and one after dressing (opening the next service). Five times two equals ten."
+          "question": "How does R. Meir arrive at exactly ten sanctifications from five immersions?",
+          "answer": "Each of the five immersions requires two sanctifications: one before undressing (closing the previous service) and one after dressing (opening the next service). Five times two equals ten."
         }
       ],
       "finalRuling": "Ten sanctifications from five immersions: two per garment-change cycle.",
@@ -495,13 +505,20 @@
       ],
       "display": {
         "whats": "Multiple sages offer different biblical derivations for the five immersions and ten sanctifications. Rav Hisda presents the tradition, R. Yehuda derives from verses, R. Yehuda HaNasi offers an alternative, and R. Elazar son of R. Shimon uses a kal vachomer from ordinary courts.",
-        "hint": "When multiple sages derive the same rule from different sources, it reinforces the rule's validity even when any single derivation can be challenged."
+        "hint": "When multiple sages derive the same rule from different sources, it reinforces the rule's validity even when any single derivation can be challenged.",
+        "title": "Four sages, four routes to the same five immersions"
       },
       "learning": {
-        "summary": "The Gemara presents a series of derivations for the five immersions and ten sanctifications. Rav Hisda says it is an oral tradition (kabbalah). R. Yehuda derives from three places in Leviticus. R. Yehuda HaNasi derives from five distinct garment changes described in Leviticus 16, each of which requires an immersion. R. Elazar son of R. Shimon uses a kal vachomer: if an ordinary Sanhedrin member required immersion before service, certainly the High Priest on Yom Kippur does. This kal vachomer is challenged but R. Yehuda's verse-based derivation is presented as the primary source.",
         "ahaMoment": "The multiple independent derivations (tradition, verse derivation, kal vachomer) all converging on 'five immersions, ten sanctifications' demonstrates this as a firmly established rule - no single derivation is vulnerable to challenge because the others provide backup.",
         "memoryAnchor": "Five derivations for five immersions: Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar son of R. Shimon (kal vachomer from Sanhedrin), and R. Yehuda's actual verse derivation.",
-        "openQuestion": "Why does the Gemara need multiple derivations for the same rule? Is one more authoritative than the others, or do they all have equal standing?"
+        "learnerQuestion": "Is the rule of five immersions and ten sanctifications a received tradition, or can it be derived from the biblical text itself?",
+        "coreTension": "A rule this detailed and numerically specific needs some textual or traditional anchor; if it rested on only one fragile derivation, a single successful challenge could undermine it entirely.",
+        "coreMove": "The Gemara stacks several independent routes to the same conclusion - Rav Hisda's oral tradition, R. Yehuda's verse-based derivation, R. Yehuda HaNasi's count of garment changes in Leviticus 16, and R. Elazar son of R. Shimon's kal vachomer from an ordinary Sanhedrin member - so that the rule does not depend on any single line of reasoning surviving challenge.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "When the Gemara offers multiple independent derivations for the same rule, the redundancy itself is the point: even if one derivation is later challenged or rejected, the rule still stands on the others."
+        },
+        "learningBlocker": "A learner can mistake the parade of derivations for the Gemara being indecisive about the source, when the multiplicity is actually a sign of how well-established and secure the underlying rule is."
       },
       "argumentFlow": [
         {
@@ -619,8 +636,14 @@
         "Sanhedrin entry requirements"
       ],
       "misconceptions": [
-        "Only one derivation exists for the five immersions - multiple independent tannaitic and amoraic authorities provide different biblical sources for the same rule.",
-        "The kal vachomer from Sanhedrin is the primary source - it is actually challenged; R. Yehuda's verse derivation is more central."
+        {
+          "misconception": "Only one derivation exists for the five immersions.",
+          "correction": "Multiple independent tannaitic and amoraic authorities provide different biblical sources for the same rule."
+        },
+        {
+          "misconception": "The kal vachomer from Sanhedrin is the primary source.",
+          "correction": "It is actually challenged; R. Yehuda's verse derivation is more central."
+        }
       ],
       "relatedSugyot": [
         "yoma-031a-s02",
@@ -640,12 +663,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What are two different ways the Gemara derives the five immersions and ten sanctifications of the High Priest on Yom Kippur?",
-          "a": "Rav Hisda says it is an established oral tradition; Rabbi Yehuda HaNasi derives it from the five distinct garment-donning events described in Leviticus 16."
+          "question": "What are two different ways the Gemara derives the five immersions and ten sanctifications of the High Priest on Yom Kippur?",
+          "answer": "Rav Hisda says it is an established oral tradition; Rabbi Yehuda HaNasi derives it from the five distinct garment-donning events described in Leviticus 16."
         },
         {
-          "q": "What kal vachomer does R. Elazar son of R. Shimon use to derive the immersion requirement?",
-          "a": "If an ordinary Sanhedrin member required immersion before service, certainly the High Priest performing the unique Yom Kippur inner service requires immersion."
+          "question": "What kal vachomer does R. Elazar son of R. Shimon use to derive the immersion requirement?",
+          "answer": "If an ordinary Sanhedrin member required immersion before service, certainly the High Priest performing the unique Yom Kippur inner service requires immersion."
         }
       ],
       "finalRuling": "The five immersions and ten sanctifications are multiply derived: from tradition, from specific verses (Leviticus 16), from the five garment changes, and by kal vachomer from Sanhedrin entry requirements.",

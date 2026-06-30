@@ -397,13 +397,20 @@
       ],
       "display": {
         "whats": "The school of R. Yishmael's kal vachomer for immersion before golden garments. Rav Hisda: R. Yehuda HaNasi's ruling was a chiddush. Rav Acha bar Yaakov resolves: the debate is about which sanctification is included in the biblical derivation.",
-        "hint": "Whether immersion before golden garments is biblical or learned from the white-garments context is the core dispute that the school of R. Yishmael's kal vachomer addresses."
+        "hint": "Whether immersion before golden garments is biblical or learned from the white-garments context is the core dispute that the school of R. Yishmael's kal vachomer addresses.",
+        "title": "Locating the real dispute: which sanctification is the 'extra' one?"
       },
       "learning": {
-        "summary": "The school of R. Yishmael presents a kal vachomer: since immersion is required before donning white garments (for the inner Yom Kippur service), it must certainly be required before donning golden garments (for the more public service). This kal vachomer is challenged: white garments carry special atonement significance that golden garments lack. R. Yehuda derives from the verse itself. Rav Hisda says R. Yehuda HaNasi's ruling about five immersions was a chiddush (original innovation, not logically obvious). Rav Acha bar Yaakov clarifies: everyone agrees the second sanctification (after dressing) is required; the debate is about whether the first sanctification (before undressing) is included.",
         "ahaMoment": "The debate about whether the first or second sanctification is the 'extra' one reveals a deep question: is the sanctification closing the previous service, or opening the next one? Both are crucial for continuity of the Yom Kippur avodah.",
         "memoryAnchor": "Everyone agrees: sanctify after dressing (second). Debate: is sanctifying before undressing (first) also required?",
-        "openQuestion": "If R. Yehuda HaNasi's ruling was a chiddush (genuinely novel), does that mean it could theoretically be rejected by later authorities, or does its inclusion in the Mishna give it permanent binding status?"
+        "learnerQuestion": "If immersion before the white garments is firmly established, why would immersion before the gold garments need its own separate proof?",
+        "coreTension": "The school of R. Yishmael's kal vachomer (white garments require immersion, so surely gold garments do too) is challenged because white garments carry unique atonement significance that gold garments lack, so the logic doesn't automatically transfer.",
+        "coreMove": "Rav Acha bar Yaakov narrows the entire debate to one precise point: everyone agrees the sanctification after dressing in new garments is required; the only live question is whether the sanctification before undressing from the prior garments is also mandated.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Talmudic disputes that look broad at first often collapse, on careful analysis, into a single narrow point of disagreement - here, whether one specific sanctification, not the whole immersion structure, is required."
+        },
+        "learningBlocker": "A learner might think the entire five-immersion structure is in dispute, rather than recognizing that Rav Acha bar Yaakov has isolated the disagreement down to just the first of each pair of sanctifications."
       },
       "argumentFlow": [
         {
@@ -496,8 +503,14 @@
         "kal vachomer"
       ],
       "misconceptions": [
-        "A kal vachomer from white to golden garments is straightforward - white garments have special atonement significance that makes them MORE stringent in some ways, breaking the kal vachomer.",
-        "Everyone agrees about both sanctifications - the debate is specifically about whether the first sanctification (before undressing) is biblically required."
+        {
+          "misconception": "A kal vachomer from white to golden garments is straightforward.",
+          "correction": "White garments have special atonement significance that makes them MORE stringent in some ways, breaking the kal vachomer."
+        },
+        {
+          "misconception": "Everyone agrees about both sanctifications.",
+          "correction": "The debate is specifically about whether the first sanctification (before undressing) is biblically required."
+        }
       ],
       "relatedSugyot": [
         "yoma-032a-s02",
@@ -517,12 +530,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the school of R. Yishmael's kal vachomer for immersion before golden garments, and why is it challenged?",
-          "a": "Kal vachomer: if immersion is required before white garments, certainly before golden. Challenged: white garments have unique atonement significance that golden lack, breaking the inference."
+          "question": "What is the school of R. Yishmael's kal vachomer for immersion before golden garments, and why is it challenged?",
+          "answer": "Kal vachomer: if immersion is required before white garments, certainly before golden. Challenged: white garments have unique atonement significance that golden lack, breaking the inference."
         },
         {
-          "q": "What does Rav Acha bar Yaakov say is the real point of dispute about the ten sanctifications?",
-          "a": "All agree the second sanctification (after dressing) is required. The debate is about the first sanctification (before undressing) - whether it is also biblically mandated."
+          "question": "What does Rav Acha bar Yaakov say is the real point of dispute about the ten sanctifications?",
+          "answer": "All agree the second sanctification (after dressing) is required. The debate is about the first sanctification (before undressing) - whether it is also biblically mandated."
         }
       ],
       "finalRuling": "The kal vachomer from white to golden garments is challenged. The core debate is about the first sanctification. Rav Hisda characterizes R. Yehuda HaNasi's ruling as a novel chiddush.",
@@ -558,13 +571,20 @@
       ],
       "display": {
         "whats": "The Mishna: the daily tamid's slaughter knife is handed to the High Priest. The Gemara asks whether the principle of 'majority of organs' (rov simanim) applies - confirmed by R. Yochanan and Reish Lakish.",
-        "hint": "Even for the High Priest's personal slaughter of the tamid, standard shechita rules apply: majority of the two organs makes the slaughter valid."
+        "hint": "Even for the High Priest's personal slaughter of the tamid, standard shechita rules apply: majority of the two organs makes the slaughter valid.",
+        "title": "The High Priest's tamid: standard shechita rules apply"
       },
       "learning": {
-        "summary": "The Mishna relates that after the High Priest's first immersion, the daily tamid's slaughter knife was handed to him so he could slaughter it himself. The Gemara asks: when the Mishna says the High Priest 'slaughtered,' does this require cutting through all of both organs, or only the majority? R. Yochanan and Reish Lakish both confirm: 'with the majority of each of the two organs' - the standard shechita rule (rov simanim) applies. The question seems obvious, but the Gemara explains what misconception someone might have had.",
         "ahaMoment": "The High Priest personally slaughtering the Yom Kippur tamid is not ceremonial - he performs the actual act with the same halachic standards that apply to any kosher slaughter.",
         "memoryAnchor": "High Priest + tamid = standard shechita: majority of both organs. No special Yom Kippur relaxation of shechita rules.",
-        "openQuestion": "Was the High Priest personally required to slaughter the tamid on Yom Kippur, or could another priest do it while he watched?"
+        "learnerQuestion": "When the Mishna says the High Priest 'slaughtered' the tamid, does that mean he had to sever both organs completely?",
+        "coreTension": "Because the Yom Kippur tamid is performed personally by the High Priest as part of an extraordinary, once-a-year service, it is reasonable to wonder whether ordinary shechita standards still apply to it, or whether some special stringency or leniency governs this particular slaughter.",
+        "coreMove": "R. Yochanan and Reish Lakish both confirm that the standard rule of rov simanim - cutting through the majority of each of the two organs - governs the High Priest's slaughter of the tamid exactly as it would any other slaughter.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The extraordinary status of an act, such as the High Priest personally slaughtering the Yom Kippur tamid, does not by itself change the technical halachic standards that govern it; shechita is shechita, regardless of who performs it or on what day."
+        },
+        "learningBlocker": "It's tempting to assume that because the High Priest's slaughter is performed in a uniquely sacred context, some special standard applies to it; the sugya makes clear the underlying mechanics of valid shechita do not change."
       },
       "argumentFlow": [
         {
@@ -624,7 +644,10 @@
         "tamid service"
       ],
       "misconceptions": [
-        "The High Priest's tamid slaughter on Yom Kippur uses different standards than ordinary shechita - standard shechita rules (majority of both organs) apply equally."
+        {
+          "misconception": "The High Priest's tamid slaughter on Yom Kippur uses different standards than ordinary shechita.",
+          "correction": "Standard shechita rules (majority of both organs) apply equally."
+        }
       ],
       "relatedSugyot": [
         "yoma-033a-s01",
@@ -639,8 +662,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What principle governs the High Priest's slaughter of the Yom Kippur tamid?",
-          "a": "The standard shechita principle: majority of each of the two organs (trachea and esophagus) must be cut through - the same rule as for all ritual slaughter."
+          "question": "What principle governs the High Priest's slaughter of the Yom Kippur tamid?",
+          "answer": "The standard shechita principle: majority of each of the two organs (trachea and esophagus) must be cut through - the same rule as for all ritual slaughter."
         }
       ],
       "finalRuling": "The High Priest personally slaughters the Yom Kippur tamid using standard shechita: majority of both organs.",

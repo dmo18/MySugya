@@ -379,13 +379,20 @@
       ],
       "display": {
         "whats": "The gate is twenty cubits high; the immersion chamber adds three more, totaling twenty-three cubits.",
-        "hint": "Architectural conclusion from the previous discussion."
+        "hint": "Architectural conclusion from the previous discussion.",
+        "title": "Closing the calculation: twenty-three cubits"
       },
       "learning": {
-        "summary": "The Gemara concludes the architectural calculation: the Water Gate was twenty cubits high, and the immersion chamber above it was at least three more cubits, totaling a minimum of twenty-three cubits above ground.",
         "ahaMoment": "Talmudic architectural precision: every cubit matters for determining the spatial layout of Temple service.",
         "memoryAnchor": "Gate 20 + chamber 3 = 23 cubits minimum.",
-        "openQuestion": "Why does the precise height of the immersion chamber matter for halachic practice?"
+        "learnerQuestion": "Exactly how high above the ground was the High Priest's immersion chamber?",
+        "coreTension": "Determining the chamber's minimum height requires combining two separately established figures - the Water Gate's height and the chamber's height above the gate - into one total.",
+        "coreMove": "The Gemara completes the calculation begun on 31a: the twenty-cubit gate plus the chamber's own minimum of three cubits yields a floor of twenty-three cubits above ground level for the immersion chamber.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Talmudic spatial derivations build cumulatively - each established measurement becomes a building block for the next, until a single combined figure for the structure emerges."
+        },
+        "learningBlocker": "It is easy to treat this number as a stray architectural detail rather than recognizing that the Gemara is laying groundwork, literally, for later discussions about the High Priest's path through the Temple during the Yom Kippur service."
       },
       "argumentFlow": [
         {
@@ -417,7 +424,10 @@
         "Water Gate height"
       ],
       "misconceptions": [
-        "The chamber's height is a minor detail - it has legal significance for the privacy and access arrangements."
+        {
+          "misconception": "The chamber's height is a minor detail.",
+          "correction": "It has legal significance for the privacy and access arrangements."
+        }
       ],
       "relatedSugyot": [
         "yoma-031a-s02"
@@ -431,8 +441,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What was the total height of the Water Gate plus the immersion chamber?",
-          "a": "At least twenty-three cubits: the gate was twenty cubits and the chamber added at least three more."
+          "question": "What was the total height of the Water Gate plus the immersion chamber?",
+          "answer": "At least twenty-three cubits: the gate was twenty cubits and the chamber added at least three more."
         }
       ],
       "finalRuling": "The immersion chamber was at least twenty-three cubits above the Temple floor.",
@@ -458,13 +468,20 @@
       ],
       "display": {
         "whats": "A linen sheet was spread between the High Priest and the people during immersion for privacy.",
-        "hint": "Privacy during immersion was a matter of dignity, not purity."
+        "hint": "Privacy during immersion was a matter of dignity, not purity.",
+        "title": "A linen screen for the High Priest's privacy"
       },
       "learning": {
-        "summary": "The Mishna states that a linen sheet (sadin) was spread between the High Priest and the assembled people during his immersion, providing privacy. This was a matter of basic dignity for the High Priest performing the most sacred service of the year.",
         "ahaMoment": "Even in the Temple, modesty and dignity matter. The linen screen was not for purity reasons but for human dignity.",
         "memoryAnchor": "Linen screen = privacy screen. The High Priest immersed behind it while the people waited.",
-        "openQuestion": "Was the linen screen required by law or merely a custom of dignity?"
+        "learnerQuestion": "Did anything shield the High Priest from public view while he undressed and immersed in front of the assembled people?",
+        "coreTension": "The High Priest immersed in a public setting before the watching nation, raising a question of basic dignity even within the otherwise highly choreographed, public nature of the Yom Kippur service.",
+        "coreMove": "The Mishna records that a linen sheet was spread between the High Priest and the people during each immersion, addressing the dignity concern directly rather than leaving it unaddressed.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Temple ritual, for all its public and formal structure, still accommodated basic human dignity - the linen screen shows that not every detail of the service was sacrificed to spectacle."
+        },
+        "learningBlocker": "A learner might assume that because the Yom Kippur service was meant to be witnessed by the people, every element of it - including the immersions - was fully public; the screen shows visibility had limits even here."
       },
       "argumentFlow": [
         {
@@ -499,7 +516,10 @@
         "High Priest's immersion on Yom Kippur"
       ],
       "misconceptions": [
-        "The linen screen was for purity reasons - it was for privacy and dignity."
+        {
+          "misconception": "The linen screen was for purity reasons.",
+          "correction": "It was for privacy and dignity."
+        }
       ],
       "relatedSugyot": [
         "yoma-031a-s02"
@@ -513,8 +533,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why was a linen sheet spread during the High Priest's immersion on Yom Kippur?",
-          "a": "For privacy and dignity - to separate the High Priest from the assembled people while he immersed."
+          "question": "Why was a linen sheet spread during the High Priest's immersion on Yom Kippur?",
+          "answer": "For privacy and dignity - to separate the High Priest from the assembled people while he immersed."
         }
       ],
       "finalRuling": "A linen screen was spread for the High Priest's privacy during immersion.",
@@ -575,13 +595,20 @@
       ],
       "display": {
         "whats": "The Mishna presents the High Priest's full Yom Kippur garment sequence. The Sages say this mishna contradicts Rabbi Meir. Rav Pappa reconciles: both Rabbis and R. Meir agree on the number of immersions; they differ on whether immersion occurs before donning golden garments the first time.",
-        "hint": "The dispute is about whether immersion is required each time garments are changed or only when transitioning between the two garment types."
+        "hint": "The dispute is about whether immersion is required each time garments are changed or only when transitioning between the two garment types.",
+        "title": "The Yom Kippur garment cycle and the Rav Pappa reconciliation"
       },
       "learning": {
-        "summary": "The Mishna describes the High Priest's service sequence: morning golden garments (tamid, incense, lamp cleaning) - immerse - white garments (Yom Kippur inner service: incense in Holy of Holies, sprinkling blood on Kapporet) - immerse - golden garments (musaf, afternoon tamid) - immerse - white garments (remove incense vessel and pan) - immerse - golden garments (afternoon incense, lamp cleaning). The Sages claim this sequence contradicts Rabbi Meir's position. Rav Pappa disagrees: both Rabbis and R. Meir agree the sequence involves five immersions total; they differ only on whether the very first entry into the Temple requires immersion before donning the golden garments. Complications arise about how R. Meir achieves five immersions when some happen outside the sacred area.",
         "ahaMoment": "The Yom Kippur service is a precisely choreographed alternation between two sets of garments, each representing a different mode of divine service: golden for regular Temple service, white for the unique inner Yom Kippur service that no one else could perform.",
         "memoryAnchor": "Yom Kippur garment cycle: Gold - White - Gold - White - Gold. Five immersions punctuate each transition, with sanctifications at each step.",
-        "openQuestion": "Why does the High Priest alternate between gold and white garments during the Yom Kippur service rather than wearing white all day for the entire service?"
+        "learnerQuestion": "Does the Mishna's garment sequence (gold-white-gold-white-gold) actually contradict Rabbi Meir's position on how many immersions are required?",
+        "coreTension": "The Sages read the Mishna's garment sequence as conflicting with Rabbi Meir's known position, which threatens to leave a basic structural element of the Yom Kippur service in unresolved dispute.",
+        "coreMove": "Rav Pappa reconciles the apparent conflict by relocating the disagreement: both the Sages and Rabbi Meir actually agree that five immersions occur across the sequence; they disagree only about whether the very first immersion, before donning the initial gold garments, is required at all.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "What looks like a sweeping dispute about the entire structure of a ritual sequence sometimes turns out, on closer analysis, to be a narrow disagreement about a single step - identifying exactly where two opinions diverge is itself an interpretive achievement."
+        },
+        "learningBlocker": "Without Rav Pappa's reconciliation, a learner would conclude the Sages and Rabbi Meir disagree about the basic count of immersions throughout the day, when in fact their dispute is confined to the opening immersion alone."
       },
       "argumentFlow": [
         {
@@ -677,8 +704,14 @@
         "Holy of Holies service"
       ],
       "misconceptions": [
-        "The High Priest wore only white garments on Yom Kippur - he alternated between white (for the inner Holy of Holies service) and golden (for all other Temple services).",
-        "Rabbi Meir and the Rabbis fundamentally disagree about the number of immersions - Rav Pappa shows they agree on five; the dispute is about specific details."
+        {
+          "misconception": "The High Priest wore only white garments on Yom Kippur.",
+          "correction": "He alternated between white (for the inner Holy of Holies service) and golden (for all other Temple services)."
+        },
+        {
+          "misconception": "Rabbi Meir and the Rabbis fundamentally disagree about the number of immersions.",
+          "correction": "Rav Pappa shows they agree on five; the dispute is about specific details."
+        }
       ],
       "relatedSugyot": [
         "yoma-031a-s02",
@@ -698,12 +731,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the order of garment changes for the High Priest on Yom Kippur?",
-          "a": "Golden - White - Golden - White - Golden: five garment sets, with immersions between each change and sanctifications (ten total)."
+          "question": "What is the order of garment changes for the High Priest on Yom Kippur?",
+          "answer": "Golden - White - Golden - White - Golden: five garment sets, with immersions between each change and sanctifications (ten total)."
         },
         {
-          "q": "What does Rav Pappa say about whether the Yom Kippur mishna follows the Rabbis or Rabbi Meir?",
-          "a": "Rav Pappa says the mishna is consistent with both positions - both agree on five immersions and ten sanctifications, differing only on specific details."
+          "question": "What does Rav Pappa say about whether the Yom Kippur mishna follows the Rabbis or Rabbi Meir?",
+          "answer": "Rav Pappa says the mishna is consistent with both positions - both agree on five immersions and ten sanctifications, differing only on specific details."
         }
       ],
       "finalRuling": "The High Priest changes garments five times on Yom Kippur (Gold-White-Gold-White-Gold), with five immersions and ten sanctifications. Rav Pappa reconciles the Rabbis and R. Meir.",

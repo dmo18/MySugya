@@ -326,13 +326,20 @@
       ],
       "display": {
         "whats": "Abaye concludes the morning sequence: meal-offering precedes griddle-cake, griddle-cake precedes wine libation, libation precedes musaf. Abaye addresses the frankincense vessels' position. A dispute: do frankincense vessels precede or follow the musaf offerings?",
-        "hint": "The frankincense vessels placed with the shewbread were burned periodically - when they were burned on the same day as musaf, which comes first?"
+        "hint": "The frankincense vessels placed with the shewbread were burned periodically - when they were burned on the same day as musaf, which comes first?",
+        "title": "Finishing the morning order, then a side dispute about the frankincense vessels"
       },
       "learning": {
-        "summary": "Abaye continues: the tamid's accompanying meal-offering precedes the High Priest's daily griddle-cake (minchat chavittin); the griddle-cake precedes the wine libation; the wine libation precedes the musaf. Abaye also says the frankincense vessels precede the musaf because they are burned with the shewbread, which is associated with the daily service. A dispute follows: some say the musaf precedes the frankincense vessels because musaf is more standard and frequent.",
         "ahaMoment": "Even within the musaf category there is an ordering question about associated items like the frankincense vessels - the Gemara's attention to these details shows the meticulous precision of Temple service law.",
         "memoryAnchor": "End of morning sequence: Meal-offering - Griddle-cake - Wine libation - Musaf. Then the frankincense vessels debate: before or after musaf?",
-        "openQuestion": "Why does the griddle-cake (minchat chavittin) of the High Priest come between the tamid's meal-offering and the wine libation? Is it because the High Priest's personal offering is more significant than the accompanying libation?"
+        "learnerQuestion": "Where do the High Priest's personal griddle-cake offering and the frankincense vessels fit into the morning sequence relative to the musaf offerings?",
+        "coreTension": "Multiple distinct offerings - the tamid's meal-offering, the High Priest's own griddle-cake, the wine libation, the musaf offerings, and the periodically-burned frankincense vessels - all compete for a place in the sequence, and it is not obvious from the text alone which precedes which.",
+        "coreMove": "Abaye completes the chain (meal-offering, then griddle-cake, then libation, then musaf) and adds that the frankincense vessels precede musaf because they are linked to the shewbread's daily association; a dispute then arises over whether musaf, being the more standard and frequent offering, should actually take precedence over the vessels instead.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Even after a primary sequence is established, secondary or occasional items, like the frankincense vessels burned only periodically, still need their own placement worked out relative to the regular order - completeness in Temple service law extends to items that don't appear every day."
+        },
+        "learningBlocker": "A learner might assume that once the main morning sequence (tamid through musaf) is settled, every other item simply falls in around it without dispute; the frankincense vessels show that even peripheral items generate real disagreement."
       },
       "argumentFlow": [
         {
@@ -415,8 +422,14 @@
         "wine libation"
       ],
       "misconceptions": [
-        "The musaf offering comes first since it is the most prominent extra offering - the Gemara establishes that the daily tamid sequence (including meal-offering, griddle-cake, and libation) must be completed before musaf.",
-        "The High Priest's griddle-cake was optional - it was offered daily, every single day, split between morning and afternoon."
+        {
+          "misconception": "The musaf offering comes first since it is the most prominent extra offering.",
+          "correction": "The Gemara establishes that the daily tamid sequence (including meal-offering, griddle-cake, and libation) must be completed before musaf."
+        },
+        {
+          "misconception": "The High Priest's griddle-cake was optional.",
+          "correction": "It was offered daily, every single day, split between morning and afternoon."
+        }
       ],
       "relatedSugyot": [
         "yoma-033b-s02",
@@ -436,12 +449,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "In Abaye's morning sequence, what comes immediately after the tamid's accompanying meal-offering?",
-          "a": "The High Priest's personal daily griddle-cake offering (minchat chavittin), which precedes the wine libation."
+          "question": "In Abaye's morning sequence, what comes immediately after the tamid's accompanying meal-offering?",
+          "answer": "The High Priest's personal daily griddle-cake offering (minchat chavittin), which precedes the wine libation."
         },
         {
-          "q": "What is the dispute about the frankincense vessels (bazichin)?",
-          "a": "Abaye says the frankincense vessels precede the musaf; an alternative view holds the musaf comes first because it is more standard."
+          "question": "What is the dispute about the frankincense vessels (bazichin)?",
+          "answer": "Abaye says the frankincense vessels precede the musaf; an alternative view holds the musaf comes first because it is more standard."
         }
       ],
       "finalRuling": "Morning sequence concludes: Meal-offering - Griddle-cake - Libation - Musaf. Frankincense vessel ordering relative to musaf is disputed.",
@@ -487,13 +500,20 @@
       ],
       "display": {
         "whats": "The afternoon service sequence: afternoon incense is burned between taking the tamid limbs to the altar and the wine libation. The afternoon sequence differs from the morning because incense comes after the limbs in the afternoon (not before). Source: derivation from the morning verse about the tamid.",
-        "hint": "The key difference: morning incense comes BEFORE the limbs; afternoon incense comes AFTER the limbs go to the ramp but BEFORE the wine libation."
+        "hint": "The key difference: morning incense comes BEFORE the limbs; afternoon incense comes AFTER the limbs go to the ramp but BEFORE the wine libation.",
+        "title": "Why the afternoon incense moves: after the limbs, not before"
       },
       "learning": {
-        "summary": "The Gemara turns to the afternoon service. The Mishna states that the afternoon incense was burned between the time the limbs were taken up to the altar ramp (but before they were fully burned) and the wine libation. The Gemara asks: in the morning, incense comes before the limbs - why not the same in the afternoon? The answer involves deriving the afternoon sequence from the morning verse. A baraita about the wine libation quantity ('one quarter hin for the one lamb') provides source material for the afternoon tamid libation.",
         "ahaMoment": "The afternoon service is not simply a mirror of the morning - the incense position shifts. In the morning, incense helps create the sacred atmosphere before the main offering. In the afternoon, the limbs go up first, then the incense closes the service before the libation completes it.",
         "memoryAnchor": "Morning: incense BEFORE limbs. Afternoon: incense BETWEEN limbs and libation. Both services end with the wine libation.",
-        "openQuestion": "Why does the afternoon service place incense after the limbs rather than before? What is the theological significance of this positional difference?"
+        "learnerQuestion": "If the morning service burns incense before placing the tamid's limbs on the altar, why does the afternoon service reverse that order and burn incense after the limbs go up?",
+        "coreTension": "The morning and afternoon tamid services might be expected to mirror each other exactly, but the Mishna places the afternoon incense between the limb-placement and the wine libation - after the limbs, not before them as in the morning - which calls for its own explanation.",
+        "coreMove": "The Gemara derives the afternoon's distinct sequence from the same morning verse used earlier, showing that the textual source itself accounts for the difference between the two services rather than treating the afternoon as a simple copy of the morning.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Parallel daily services, like the morning and afternoon tamid, are not assumed to share an identical internal order just because they share the same basic components; each service's sequence is independently derived from the text, even when that means the same verse yields different orders for morning and afternoon."
+        },
+        "learningBlocker": "It's natural to assume the afternoon service simply repeats the morning's order in miniature; the position of incense shows that the Gemara does not let assumed symmetry substitute for actual derivation."
       },
       "argumentFlow": [
         {
@@ -571,7 +591,10 @@
         "wine libation quantity"
       ],
       "misconceptions": [
-        "The afternoon service is identical in sequence to the morning service - the incense position is different: morning incense precedes limbs; afternoon incense comes between limbs and libation."
+        {
+          "misconception": "The afternoon service is identical in sequence to the morning service.",
+          "correction": "The incense position is different: morning incense precedes limbs; afternoon incense comes between limbs and libation."
+        }
       ],
       "relatedSugyot": [
         "yoma-033b-s02",
@@ -591,12 +614,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "When is the afternoon incense burned relative to the tamid service?",
-          "a": "After the tamid's limbs are taken up to the altar ramp but before the wine libation - unlike the morning when incense comes before the limbs."
+          "question": "When is the afternoon incense burned relative to the tamid service?",
+          "answer": "After the tamid's limbs are taken up to the altar ramp but before the wine libation - unlike the morning when incense comes before the limbs."
         },
         {
-          "q": "How does the afternoon incense's timing differ from the morning incense?",
-          "a": "In the morning, incense is burned before the limbs are placed on the fire. In the afternoon, incense is burned after the limbs go up to the altar ramp but before the final wine libation."
+          "question": "How does the afternoon incense's timing differ from the morning incense?",
+          "answer": "In the morning, incense is burned before the limbs are placed on the fire. In the afternoon, incense is burned after the limbs go up to the altar ramp but before the final wine libation."
         }
       ],
       "finalRuling": "Afternoon incense comes between the limbs and the wine libation. This sequence differs from the morning, where incense precedes the limbs.",

@@ -256,13 +256,20 @@
       ],
       "display": {
         "whats": "Do interpositions (chatzitzot) invalidate the pre-service immersion? Does partial body entry count? These dilemmas apply differently depending on whether one follows Ben Zoma (biblical immersion) or Rabbi Yehuda (rabbinic).",
-        "hint": "If the immersion is biblical, the standard mikveh rules apply (including chatzitzot). If rabbinic, perhaps the rabbis were lenient about such technicalities."
+        "hint": "If the immersion is biblical, the standard mikveh rules apply (including chatzitzot). If rabbinic, perhaps the rabbis were lenient about such technicalities.",
+        "title": "Two unresolved immersion dilemmas: interpositions and partial entry"
       },
       "learning": {
-        "summary": "The Gemara poses two unresolved dilemmas about the pre-service immersion: (1) Does a standard interposition (chatzitza - anything blocking water contact with skin) invalidate this immersion? (2) Does partial body entry into the immersion chamber count? Abaye frames these questions according to each of the two positions: if Ben Zoma is right (biblical immersion), normal mikveh rules should apply. But even the Rabbis who call it a rabbinic precaution might apply mikveh rules strictly. These dilemmas remain unresolved (teiku).",
         "ahaMoment": "The status of the pre-service immersion (biblical vs rabbinic) affects not just whether it can be skipped but how strictly it must be performed - interpositions, partial entry, and other technicalities all depend on this underlying question.",
         "memoryAnchor": "Biblical immersion = all mikveh rules apply. Rabbinic immersion = maybe lighter standards. The dilemma is left unresolved.",
-        "openQuestion": "If these dilemmas remain unresolved (teiku), what should a priest do in practice if he has a chatzitza when entering the pre-service immersion - immerse anyway, or seek clarification first?"
+        "learnerQuestion": "If a chatzitza blocks part of the priest's body, or if he only partially enters the immersion chamber, does the pre-service immersion still count?",
+        "coreTension": "The two dilemmas only make sense once daf 30b established that the pre-service immersion's validity might depend on whether it is biblical (Ben Zoma) or rabbinic (R. Yehuda): a chatzitza or partial entry would clearly invalidate a biblical immersion, but it is unclear whether the rabbis who made it a precaution insisted on the same strict mikveh standards.",
+        "coreMove": "Abaye frames both dilemmas through the lens of the Ben Zoma/R. Yehuda dispute, asking whether a precautionary rabbinic immersion must follow the same chatzitza and full-entry rules as a biblical one - and the Gemara leaves both questions unresolved (teiku).",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Some halachic dilemmas in the Gemara are left formally unresolved (teiku) precisely because the underlying obligation's status (biblical vs. rabbinic) is itself disputed; downstream questions about how strictly to apply standard mikveh rules to it can remain open as well."
+        },
+        "learningBlocker": "It's tempting to assume an unresolved teiku means the question doesn't matter practically, but here it bears directly on whether a priest with a chatzitza, or one who enters the chamber only partway, has performed a valid pre-service immersion at all."
       },
       "argumentFlow": [
         {
@@ -330,8 +337,14 @@
         "Ben Zoma vs R. Yehuda dispute from 30a-30b"
       ],
       "misconceptions": [
-        "The pre-service immersion definitely follows all standard mikveh rules - these requirements are explicitly left as unresolved dilemmas.",
-        "A partial immersion would never count - the question of partial body entry is raised and left unresolved."
+        {
+          "misconception": "The pre-service immersion definitely follows all standard mikveh rules.",
+          "correction": "These requirements are explicitly left as unresolved dilemmas."
+        },
+        {
+          "misconception": "A partial immersion would never count.",
+          "correction": "The question of partial body entry is raised and left unresolved."
+        }
       ],
       "relatedSugyot": [
         "yoma-030b-s01",
@@ -346,8 +359,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "Are the questions about interpositions (chatzitzot) and partial entry in the pre-service immersion resolved in the Gemara?",
-          "a": "No - both dilemmas are left as unresolved questions (teiku), partly because they depend on the unresolved dispute between Ben Zoma and Rabbi Yehuda about the nature of the immersion."
+          "question": "Are the questions about interpositions (chatzitzot) and partial entry in the pre-service immersion resolved in the Gemara?",
+          "answer": "No - both dilemmas are left as unresolved questions (teiku), partly because they depend on the unresolved dispute between Ben Zoma and Rabbi Yehuda about the nature of the immersion."
         }
       ],
       "finalRuling": "Both the chatzitza and partial-entry questions remain unresolved. The underlying dispute (Ben Zoma vs R. Yehuda) controls the analysis but is itself unresolved.",
@@ -378,13 +391,20 @@
       ],
       "display": {
         "whats": "The Mishna: the High Priest immerses five times and sanctifies (kiddush yadayim veraglayim) ten times on Yom Kippur. The immersion chamber was above the Water Gate, so the gate height determines the chamber's minimum height.",
-        "hint": "Five immersions, each accompanied by two sanctifications (before undressing and after dressing), gives ten total sanctifications."
+        "hint": "Five immersions, each accompanied by two sanctifications (before undressing and after dressing), gives ten total sanctifications.",
+        "title": "The Mishna's count: five immersions, ten sanctifications"
       },
       "learning": {
-        "summary": "The Mishna specifies: the High Priest immerses five times and sanctifies his hands and feet ten times on Yom Kippur, in a sacred area with a linen sheet spread for privacy. The Gemara begins explaining: the immersion chamber was located above the Water Gate, which was twenty cubits tall - so the chamber was at least twenty-three cubits above ground level. This architectural detail explains certain aspects of the Yom Kippur service.",
         "ahaMoment": "Ten sanctifications from five immersions: each immersion is accompanied by two sanctifications - one before undressing (before the garment change) and one after dressing (before beginning the new service). Five changes of garments = five immersions = ten total sanctifications.",
         "memoryAnchor": "5 immersions x 2 sanctifications = 10 sanctifications. Each garment change requires: sanctify, undress, immerse, dress, sanctify.",
-        "openQuestion": "Why did each garment change require two sanctifications (before and after) rather than one? What does the before-undressing sanctification accomplish if the priest is about to immerse anyway?"
+        "learnerQuestion": "Why does the High Priest immerse five times and sanctify his hands and feet ten times over the course of Yom Kippur?",
+        "coreTension": "The Mishna asserts specific numbers - five immersions, ten sanctifications - without yet explaining why; the Gemara must establish both the geometry of where these immersions happened (the chamber above the Water Gate) and, in the sugyot that follow, the textual basis for the numbers themselves.",
+        "coreMove": "The Gemara opens its explanation with an architectural detail: the immersion chamber stood above the twenty-cubit Water Gate, making the chamber itself at least twenty-three cubits above ground - a feature it needs to account for in describing the High Priest's movement through the Temple precincts.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Mishna's headline numbers (five immersions, ten sanctifications) are not arbitrary; the Gemara grounds them first in physical layout and afterward in textual derivation, treating the architecture of the Temple as part of the legal record."
+        },
+        "learningBlocker": "A reader can take the 'five immersions, ten sanctifications' figure as a simple count to memorize, missing that the Gemara treats both the physical setting (chamber height) and each individual transition as halachically significant and in need of justification."
       },
       "argumentFlow": [
         {
@@ -437,8 +457,14 @@
         "linen vs golden garments"
       ],
       "misconceptions": [
-        "Ten sanctifications means ten immersions - five immersions paired with two sanctifications each gives ten total (not ten separate immersions).",
-        "The immersion chamber was at ground level - it was elevated above the Water Gate, placing it well above the Temple courtyard floor."
+        {
+          "misconception": "Ten sanctifications means ten immersions.",
+          "correction": "Five immersions paired with two sanctifications each gives ten total (not ten separate immersions)."
+        },
+        {
+          "misconception": "The immersion chamber was at ground level.",
+          "correction": "It was elevated above the Water Gate, placing it well above the Temple courtyard floor."
+        }
       ],
       "relatedSugyot": [
         "yoma-032a-s02",
@@ -458,12 +484,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many times does the High Priest immerse and sanctify on Yom Kippur?",
-          "a": "Five immersions and ten sanctifications (two per immersion: one before undressing and one after dressing)."
+          "question": "How many times does the High Priest immerse and sanctify on Yom Kippur?",
+          "answer": "Five immersions and ten sanctifications (two per immersion: one before undressing and one after dressing)."
         },
         {
-          "q": "Why was the immersion chamber so high above the ground?",
-          "a": "It was located above the Water Gate, which was twenty cubits tall, placing the chamber at least twenty-three cubits above ground level."
+          "question": "Why was the immersion chamber so high above the ground?",
+          "answer": "It was located above the Water Gate, which was twenty cubits tall, placing the chamber at least twenty-three cubits above ground level."
         }
       ],
       "finalRuling": "The High Priest immerses five times and sanctifies ten times on Yom Kippur. The immersion chamber was elevated above the Water Gate.",

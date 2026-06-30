@@ -388,13 +388,20 @@
       ],
       "display": {
         "whats": "Conclusion of the rov simanim discussion: majority of one organ (trachea) in a bird, majority of both (trachea and esophagus) in a beast.",
-        "hint": "This brief conclusion closes the shechita discussion before Abaye's major sequence teaching."
+        "hint": "This brief conclusion closes the shechita discussion before Abaye's major sequence teaching.",
+        "title": "Bird versus beast: how many organs make a valid shechita?"
       },
       "learning": {
-        "summary": "The Gemara concludes the rov simanim discussion: for a bird, majority of one organ (either the trachea or the esophagus) completes valid shechita; for a beast, majority of both organs must be cut. This clarification closes the shechita discussion before transitioning to Abaye's comprehensive Temple service sequence.",
         "ahaMoment": "Bird and beast have different shechita requirements - this distinction applies equally to Temple offerings and everyday slaughter.",
         "memoryAnchor": "Bird = one organ majority. Beast = both organs majority. The High Priest's tamid uses beast rules.",
-        "openQuestion": "Why do birds require only one organ while beasts require both?"
+        "learnerQuestion": "Does the majority-organ rule for valid slaughter apply the same way to birds as it does to animals like the tamid lamb?",
+        "coreTension": "The rov simanim discussion needs to specify whether the majority requirement applies to one organ or to both, and whether that requirement is the same across different categories of creatures.",
+        "coreMove": "The Gemara closes the discussion by distinguishing the two cases: a bird's shechita is valid with a majority cut through just one of its two organs (trachea or esophagus), while a beast - including the tamid lamb the High Priest slaughters - requires a majority cut through both organs.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The general principle of rov simanim is not uniform across all creatures; birds and beasts have distinct thresholds, and applying the wrong one would misjudge whether a slaughter is valid."
+        },
+        "learningBlocker": "A learner might assume rov simanim means the same single standard for every animal, missing that the Gemara explicitly sets a lighter bar for birds than for beasts."
       },
       "argumentFlow": [
         {
@@ -428,7 +435,10 @@
         "tamid slaughter"
       ],
       "misconceptions": [
-        "The rov simanim rule is the same for all animals - birds require only one organ while beasts require both."
+        {
+          "misconception": "The rov simanim rule is the same for all animals.",
+          "correction": "Birds require only one organ while beasts require both."
+        }
       ],
       "relatedSugyot": [
         "yoma-032b-s02"
@@ -442,8 +452,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "How many organs must be cut through for valid shechita in a beast vs a bird?",
-          "a": "In a beast: majority of both organs (trachea and esophagus). In a bird: majority of either one organ."
+          "question": "How many organs must be cut through for valid shechita in a beast vs a bird?",
+          "answer": "In a beast: majority of both organs (trachea and esophagus). In a bird: majority of either one organ."
         }
       ],
       "finalRuling": "Beast shechita requires majority of both organs; bird shechita requires majority of one.",
@@ -519,13 +529,20 @@
       ],
       "display": {
         "whats": "Abaye presents the definitive sequence of the morning Temple service: large wood arrangement - small arrangement for incense - five-lamp ash removal - tamid slaughter - blood - incense - two logs - inner altar ash removal - two remaining lamp ashes. Each item's precedence is derived from scripture or logic.",
-        "hint": "This is the most comprehensive listing of Temple morning service order in the Talmud - each step is carefully sequenced and justified."
+        "hint": "This is the most comprehensive listing of Temple morning service order in the Talmud - each step is carefully sequenced and justified.",
+        "title": "Abaye's master sequence for the morning Temple service"
       },
       "learning": {
-        "summary": "Abaye presents the complete morning Temple service sequence, deriving each item's position from biblical language or logical necessity. The sequence: (1) Large wood arrangement (ma'aracha gedola) - for the fire. (2) Second wood arrangement (ketoret fire). (3) Ash removal from five of seven menorah lamps. (4) Tamid slaughter and blood sprinkling. (5) Ash removal from inner altar. (6) Two-log placement. Wait - actually: (5) Two logs, then (6) inner altar ash removal. (7) Ash removal from remaining two menorah lamps. (8) Ketoret (incense) burning. (9) Tamid limbs to altar. (10) Meal-offerings. (11) Wine libation. The Gemara analyzes each step: from 'in the morning, in the morning' (doubled phrase), each 'morning' teaches which task precedes another. Rabbi Yirmeya explains the 'category of wood' principle for the two logs.",
         "ahaMoment": "Abaye's sequence is not a simple list - every item's position is derived from textual analysis. The morning Temple service was a precisely ordered liturgy where each act was performed in a specific sequence determined by biblical interpretation.",
         "memoryAnchor": "Think of the morning Temple service as a carefully scripted ritual in seven stages: Wood + fire, Lamps (5), Tamid, Inner altar, Incense, Limbs, Meals. Each stage has its biblical anchor.",
-        "openQuestion": "Why does the incense offering come between the tamid's blood service and the burning of the limbs, rather than at the very beginning or end of the morning service?"
+        "learnerQuestion": "In what exact order did the priests perform the many separate tasks that made up the morning Temple service, and how does the Gemara know that order is correct?",
+        "coreTension": "The Torah describes the components of the morning service - wood arrangement, lamp cleaning, the tamid, incense, and more - without spelling out their precise sequence, leaving the order to be reconstructed from scattered textual cues.",
+        "coreMove": "Abaye builds out the full sequence step by step, anchoring each item's position to specific biblical language - most notably the doubled phrase 'in the morning, in the morning,' which he reads as teaching that one task must precede another - so that the order is derived rather than assumed.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A long, intricate ritual sequence can be reconstructed entirely from a handful of textual cues, such as a doubled word or a paired phrase, when each cue is read as deliberately signaling a precedence relationship between two specific tasks."
+        },
+        "learningBlocker": "It is easy to read Abaye's sequence as simply a traditional or practical ordering, when in fact nearly every step's position is defended with a specific textual derivation rather than assumed convenience."
       },
       "argumentFlow": [
         {
@@ -657,9 +674,18 @@
         "wood arrangements (large and small)"
       ],
       "misconceptions": [
-        "The Temple morning service had no fixed order - Abaye demonstrates it had a precise biblically-derived sequence.",
-        "All seven menorah lamps were cleaned at the same time - five are cleaned before the tamid slaughter, and two are cleaned only after the inner altar ash removal.",
-        "The incense offering (ketoret) came at the beginning of the day - it came in the middle of the sequence, after the tamid's blood was sprinkled."
+        {
+          "misconception": "The Temple morning service had no fixed order.",
+          "correction": "Abaye demonstrates it had a precise biblically-derived sequence."
+        },
+        {
+          "misconception": "All seven menorah lamps were cleaned at the same time.",
+          "correction": "Five are cleaned before the tamid slaughter, and two are cleaned only after the inner altar ash removal."
+        },
+        {
+          "misconception": "The incense offering (ketoret) came at the beginning of the day.",
+          "correction": "It came in the middle of the sequence, after the tamid's blood was sprinkled."
+        }
       ],
       "relatedSugyot": [
         "yoma-033b-s01",
@@ -680,12 +706,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "In Abaye's morning service sequence, does the ash removal from all seven menorah lamps happen at once?",
-          "a": "No - five lamps are cleaned before the tamid slaughter, and the remaining two are cleaned only after the inner altar ash removal."
+          "question": "In Abaye's morning service sequence, does the ash removal from all seven menorah lamps happen at once?",
+          "answer": "No - five lamps are cleaned before the tamid slaughter, and the remaining two are cleaned only after the inner altar ash removal."
         },
         {
-          "q": "What does Rabbi Yirmeya teach about the two-log placement with the phrase 'category of wood'?",
-          "a": "Even logs that do not actually burn still fulfill the obligation to place two logs on the altar fire - they are in the 'category of wood' and their presence suffices."
+          "question": "What does Rabbi Yirmeya teach about the two-log placement with the phrase 'category of wood'?",
+          "answer": "Even logs that do not actually burn still fulfill the obligation to place two logs on the altar fire - they are in the 'category of wood' and their presence suffices."
         }
       ],
       "finalRuling": "Abaye's sequence of the morning Temple service is the definitive ordering, each step with its biblical or logical source.",
