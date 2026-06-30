@@ -280,12 +280,14 @@ function TweaksPanel({ title = 'Tweaks', noDeckControls = false, children }) {
       else if (t === '__deactivate_edit_mode') setOpen(false);
     };
     window.addEventListener('message', onMsg);
+    // '*' is intentional: parent origin is unknown in cross-origin embed mode.
     window.parent.postMessage({ type: '__edit_mode_available' }, '*');
     return () => window.removeEventListener('message', onMsg);
   }, []);
 
   const dismiss = () => {
     setOpen(false);
+    // '*' is intentional: parent origin is unknown in cross-origin embed mode.
     window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
   };
 
