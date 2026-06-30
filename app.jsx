@@ -1643,11 +1643,20 @@ function genAmudim(first, last) {
   return out;
 }
 
+function isAllowedModuleDataScript(mod) {
+  if (!mod || typeof mod.id !== "string" || typeof mod.dataScript !== "string") return false;
+  return /^[a-z0-9_-]+$/.test(mod.id) && mod.dataScript === "modules/" + mod.id + "/learning_data.js";
+}
+
 // Lazy-load a module's data script once; resolves when its globals are live.
 function loadModuleData(mod) {
   return new Promise((resolve, reject) => {
     if (!mod || !mod.id || typeof mod.dataScript !== "string" || !mod.dataScript) {
       reject(new Error("loadModuleData: invalid module descriptor"));
+      return;
+    }
+    if (!isAllowedModuleDataScript(mod)) {
+      reject(new Error("loadModuleData: unsafe dataScript path for " + mod.id));
       return;
     }
     const sel = 'script[data-mod-data="' + mod.id + '"]';

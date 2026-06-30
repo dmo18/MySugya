@@ -45,24 +45,6 @@ const homeLinkPlugin = {
         if (contents === before) {
           throw new Error('homeLinkPlugin: brand div not found in app.jsx - check for source drift');
         }
-
-        before = contents;
-        contents = contents.replace(
-          '\n// Lazy-load a module\'s data script once; resolves when its globals are live.\nfunction loadModuleData(mod) {',
-          '\nfunction isAllowedModuleDataScript(mod) {\n  if (!mod || typeof mod.id !== "string" || typeof mod.dataScript !== "string") return false;\n  return /^[a-z0-9_-]+$/.test(mod.id) && mod.dataScript === "modules/" + mod.id + "/learning_data.js";\n}\n\n// Lazy-load a module\'s data script once; resolves when its globals are live.\nfunction loadModuleData(mod) {'
-        );
-        if (contents === before) {
-          throw new Error('homeLinkPlugin: loadModuleData injection point not found in app.jsx - check for source drift');
-        }
-
-        before = contents;
-        contents = contents.replace(
-          '    if (!mod || !mod.id || typeof mod.dataScript !== "string" || !mod.dataScript) {\n      reject(new Error("loadModuleData: invalid module descriptor"));\n      return;\n    }',
-          '    if (!mod || !mod.id || typeof mod.dataScript !== "string" || !mod.dataScript) {\n      reject(new Error("loadModuleData: invalid module descriptor"));\n      return;\n    }\n    if (!isAllowedModuleDataScript(mod)) {\n      reject(new Error("loadModuleData: unsafe dataScript path for " + mod.id));\n      return;\n    }'
-        );
-        if (contents === before) {
-          throw new Error('homeLinkPlugin: loadModuleData guard not found in app.jsx - check for source drift');
-        }
       }
       return { contents, loader: 'jsx' };
     });

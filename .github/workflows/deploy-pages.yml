@@ -4,14 +4,15 @@ name: Deploy GitHub Pages
 on:
   pull_request:
   push:
-    branches: ['**']
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: pages-${{ github.ref }}
+  group: pages
   cancel-in-progress: true
 
 jobs:
