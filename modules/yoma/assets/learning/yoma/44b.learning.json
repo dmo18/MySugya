@@ -57,13 +57,20 @@
       ],
       "display": {
         "whats": "Is the 'no man in the Tent of Meeting' prohibition limited to incense burning, or does it extend to blood sprinkling?",
-        "hint": "The Gemara clarifies: absolute solitude is required only during incense burning. During blood sprinkling on the inner altar, the exclusion is more limited - people must leave the Sanctuary (Hekhal) but a graduated system applies depending on which rite is performed."
+        "hint": "The Gemara clarifies: absolute solitude is required only during incense burning. During blood sprinkling on the inner altar, the exclusion is more limited - people must leave the Sanctuary (Hekhal) but a graduated system applies depending on which rite is performed.",
+        "title": "Incense-Only or All Tumah? The Scope of 'No Man'"
       },
       "learning": {
-        "summary": "The 'no man' rule is incense-specific; blood sprinkling has its own exclusion rules based on where the sprinkling occurs. The space between the two curtains is a special halakhic zone with its own rules.",
         "ahaMoment": "Temple holiness is not binary (holy/not holy) but graduated: Azarah, Hekhal, between the curtains, Kodesh Kodashim - each with different exclusion rules for different rites.",
         "memoryAnchor": "The graduated exclusion mirrors the graduated holiness of Temple space - the closer to the ark, the stricter the solitude requirement.",
-        "openQuestion": "Why does blood sprinkling require less solitude than incense burning, even though blood sprinkling is what actually effects atonement?"
+        "learnerQuestion": "Does the 'no man' exclusion from the Tent of Meeting apply only while the incense is burning, or does it extend through the blood-sprinkling that follows?",
+        "coreTension": "If 'no man' is read narrowly it covers only the moment of incense burning, but the blood sprinkling that immediately follows also occurs in the Holy of Holies, raising the question of whether the exclusion zone should extend to cover that rite too.",
+        "coreMove": "The Gemara distinguishes the incense-specific exclusion from a broader, graduated exclusion tied to the bein haparakhot zone, showing the two prohibitions operate on different scopes rather than being one continuous rule.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The 'no man' exclusion for incense burning is distinct from the graduated bein haparakhot exclusion that governs the blood-sprinkling rite - they are separate prohibitions with separate scopes, not one continuous rule."
+        },
+        "learningBlocker": "Learners may treat 'no man' and the bein haparakhot exclusion as the same rule extended over a longer period, missing that the Gemara distinguishes them as separate prohibitions with different scopes."
       },
       "argumentFlow": [
         {
@@ -132,7 +139,11 @@
         "Temple architecture and holiness zones"
       ],
       "misconceptions": [
-        "The 'no man' verse applies only to the incense burning; blood sprinkling has a different, less absolute exclusion rule."
+        {
+          "misconception": "The 'no man' exclusion and the bein haparakhot exclusion are the same prohibition, just covering a longer stretch of the Yom Kippur service.",
+          "correction": "The Gemara treats them as distinct prohibitions: 'no man' applies specifically and narrowly during the incense burning, while the bein haparakhot exclusion is a separate, graduated rule governing the blood-sprinkling rite.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-044a-s01"
@@ -149,8 +160,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "During what Temple act was the 'no man in the Tent of Meeting' prohibition in force?",
-          "answer": "Only during the incense burning inside the Holy of Holies on Yom Kippur."
+          "answer": "Only during the incense burning inside the Holy of Holies on Yom Kippur.",
+          "question": "During what Temple act was the 'no man in the Tent of Meeting' prohibition in force?"
         }
       ],
       "finalRuling": "The 'no man' exclusion applies only during incense burning; blood sprinkling has a graduated exclusion based on proximity to the Holy of Holies.",
@@ -177,13 +188,20 @@
       ],
       "display": {
         "whats": "Why was the daily incense pan made of silver?",
-        "hint": "Silver is used for the ordinary daily service to distinguish it from the elevated Yom Kippur service performed with gold utensils inside the Holy of Holies."
+        "hint": "Silver is used for the ordinary daily service to distinguish it from the elevated Yom Kippur service performed with gold utensils inside the Holy of Holies.",
+        "title": "Silver by Day, Gold by Night: The Two Coal Pans"
       },
       "learning": {
-        "summary": "The daily incense pan is silver because the daily service is of a lesser (though still high) level of sanctity than the unique Yom Kippur inner service.",
         "ahaMoment": "Silver for the routine; gold for the singular - the material of the utensil signals the rank of the occasion.",
         "memoryAnchor": "Silver pan = daily routine. Gold pan = Yom Kippur singular holiness. The material is a sign.",
-        "openQuestion": "Does the use of silver for the daily service imply that the daily incense is less important?"
+        "learnerQuestion": "Why does the Yom Kippur incense service use a gold coal pan when the daily service uses a silver one?",
+        "coreTension": "The daily incense offering uses a silver coal pan, but Yom Kippur substitutes a gold one, raising the question of what about the Yom Kippur rite specifically calls for the more precious material.",
+        "coreMove": "The Gemara identifies the material switch itself as a deliberate halachic distinction marking Yom Kippur's incense service as elevated above the daily rite, not an incidental variation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The daily incense offering uses a silver coal pan, while the Yom Kippur incense offering uses a gold coal pan - the upgraded material marks the day's elevated status."
+        },
+        "learningBlocker": "Learners may assume the same coal pan was reused for both the daily and Yom Kippur incense services, missing that the vessels are deliberately different - silver for the daily rite, gold for Yom Kippur."
       },
       "argumentFlow": [
         {
@@ -221,7 +239,11 @@
         "daily vs Yom Kippur service distinctions"
       ],
       "misconceptions": [
-        "Silver is not inferior in absolute terms - it is a halachic designation for the ordinary vs. the singular."
+        {
+          "misconception": "The same coal pan, whatever its material, was used for both the daily incense offering and the special Yom Kippur incense offering.",
+          "correction": "The vessels differ by design: the daily incense offering uses a silver coal pan, while Yom Kippur uses a gold one, marking the day's elevated status.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-044b-s01"
@@ -234,8 +256,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What material was the daily incense pan made of?",
-          "answer": "Silver, to distinguish it from the Yom Kippur golden pan."
+          "answer": "Silver, to distinguish it from the Yom Kippur golden pan.",
+          "question": "What material was the daily incense pan made of?"
         }
       ],
       "finalRuling": "The daily incense pan is silver; the Yom Kippur pan is gold - corresponding to the relative holiness of each occasion.",
@@ -262,13 +284,20 @@
       ],
       "display": {
         "whats": "Why was the Yom Kippur incense pan made of gold?",
-        "hint": "Gold is used inside the Holy of Holies on Yom Kippur because everything inside is gold - the ark, the kapporet, the cherubim - and the Yom Kippur service is the most elevated of all."
+        "hint": "Gold is used inside the Holy of Holies on Yom Kippur because everything inside is gold - the ark, the kapporet, the cherubim - and the Yom Kippur service is the most elevated of all.",
+        "title": "Matching the Metal to the Moment"
       },
       "learning": {
-        "summary": "The Yom Kippur pan is gold because it is used inside the Kodesh Kodashim, where the ark, kapporet, and cherubim are all gold. Material consistency reflects holiness.",
         "ahaMoment": "The gold of the Yom Kippur pan harmonizes with the gold of the Kodesh Kodashim - the utensil belongs to the space it enters.",
         "memoryAnchor": "Gold for the holiest space on the holiest day, silver for the daily service.",
-        "openQuestion": "If everything inside the Holy of Holies is gold, why was only the incense pan carried inside on Yom Kippur - why not other utensils?"
+        "learnerQuestion": "Why specifically gold, rather than some other valuable material, for the Yom Kippur coal pan?",
+        "coreTension": "Having established that Yom Kippur uses a gold coal pan rather than the daily silver one, the Gemara must explain why gold specifically suits the day's service rather than treating the upgrade as arbitrary.",
+        "coreMove": "The Gemara reasons that gold harmonizes with the other gold vessels and the heightened sanctity of the Yom Kippur Holy of Holies service, making the material choice a matter of fitting the vessel to the day's elevated character.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Gold is chosen for the Yom Kippur coal pan because it matches the heightened sanctity of the day and harmonizes with the service's other gold vessels - material choice reflects and reinforces the day's elevated status."
+        },
+        "learningBlocker": "Learners may think the gold pan is simply a richer, more expensive substitute with no deeper rationale, missing that the Gemara grounds the choice in material harmony with the day's heightened sanctity."
       },
       "argumentFlow": [
         {
@@ -306,7 +335,11 @@
         "Temple vessel materials"
       ],
       "misconceptions": [
-        "The gold is about material harmony with the Kodesh Kodashim, not just hierarchy."
+        {
+          "misconception": "Using gold instead of silver for the Yom Kippur coal pan is simply an arbitrary upgrade in expense, with no deeper halachic rationale.",
+          "correction": "The Gemara reasons that gold fits the Yom Kippur service because it harmonizes with the day's other gold vessels and the heightened sanctity of the rite - the material choice reflects the day's elevated character, not mere expense.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -317,8 +350,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was the Yom Kippur incense pan gold?",
-          "answer": "Because inside the Holy of Holies everything is gold - the ark, the cover, the cherubim - and the pan must harmonize with its space."
+          "answer": "Because inside the Holy of Holies everything is gold - the ark, the cover, the cherubim - and the pan must harmonize with its space.",
+          "question": "Why was the Yom Kippur incense pan gold?"
         }
       ],
       "finalRuling": "The Yom Kippur incense pan is gold to match the gold interior of the Holy of Holies.",
@@ -360,13 +393,20 @@
       ],
       "display": {
         "whats": "How many kavim of coals were used in the daily firepan vs. the Yom Kippur firepan?",
-        "hint": "The daily firepan holds 4 kavim; the Yom Kippur firepan holds only 3. The reduction is because the High Priest carries the Yom Kippur pan alone and the smaller space of the Kodesh Kodashim requires less coal for the incense cloud to fill it."
+        "hint": "The daily firepan holds 4 kavim; the Yom Kippur firepan holds only 3. The reduction is because the High Priest carries the Yom Kippur pan alone and the smaller space of the Kodesh Kodashim requires less coal for the incense cloud to fill it.",
+        "title": "Four Kavim or Three? Sizing the Coals for One Pair of Hands"
       },
       "learning": {
-        "summary": "Two reasons for fewer coals on Yom Kippur: (1) the High Priest carries it alone with no assistance; (2) the Kodesh Kodashim is smaller than the outer areas, so 3 kavim is sufficient for the cloud to fill the space.",
         "ahaMoment": "Fewer coals on Yom Kippur is not a sign of lesser importance - it is calibrated to the smaller space and the one-person carry requirement.",
         "memoryAnchor": "3 kavim on Yom Kippur vs 4 kavim daily - the holier act uses less, because it is more intimate.",
-        "openQuestion": "If the Kodesh Kodashim is smaller, does that mean it required proportionally less smoke?"
+        "learnerQuestion": "Why does the daily coal pan hold four kavim of coals while the Yom Kippur coal pan holds only three?",
+        "coreTension": "The daily coal pan is carried by a team and holds four kavim of coals, but the Yom Kippur coal pan is carried by the High Priest alone into a smaller space, raising the question of how the coal quantity should be calibrated to that solo, confined task.",
+        "coreMove": "The Gemara explains the smaller three-kavim quantity by the High Priest's solo carry and the more confined space of the Holy of Holies, showing the measure is calibrated to who carries it and where it goes rather than fixed for all incense rites.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The daily coal pan holds four kavim of coals carried by a team, while the Yom Kippur coal pan holds only three kavim because the High Priest carries it alone into the smaller space of the Holy of Holies."
+        },
+        "learningBlocker": "Learners may assume the coal quantity is fixed regardless of who carries the pan or where it goes, missing that the Gemara calibrates the smaller Yom Kippur measure specifically to a solo carrier and a more confined space."
       },
       "argumentFlow": [
         {
@@ -433,7 +473,11 @@
         "Kodesh Kodashim dimensions"
       ],
       "misconceptions": [
-        "The 3-kavim Yom Kippur amount is not less holy - it is precisely calibrated."
+        {
+          "misconception": "The amount of coals in the incense pan is a fixed quantity that does not change between the daily service and the Yom Kippur service.",
+          "correction": "The quantity is calibrated to the circumstances: four kavim for the daily pan carried by a team, but only three kavim for the Yom Kippur pan, since the High Priest carries it alone into the more confined Holy of Holies.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -444,8 +488,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many kavim of coals did the Yom Kippur firepan hold?",
-          "answer": "3 kavim, reduced from the daily 4 kavim because the High Priest carried it alone and the Kodesh Kodashim is a smaller space."
+          "answer": "3 kavim, reduced from the daily 4 kavim because the High Priest carried it alone and the Kodesh Kodashim is a smaller space.",
+          "question": "How many kavim of coals did the Yom Kippur firepan hold?"
         }
       ],
       "finalRuling": "The Yom Kippur firepan uses 3 kavim of coals (vs. 4 daily) because the High Priest carries it alone and the smaller space of the Kodesh Kodashim requires less.",
@@ -477,13 +521,20 @@
       ],
       "display": {
         "whats": "Why was the daily firepan heavy while the Yom Kippur firepan was lighter?",
-        "hint": "The daily firepan was large and heavy because it was carried by a team during the public daily service. The Yom Kippur firepan was smaller and lighter because the High Priest carried it alone into the Holy of Holies."
+        "hint": "The daily firepan was large and heavy because it was carried by a team during the public daily service. The Yom Kippur firepan was smaller and lighter because the High Priest carried it alone into the Holy of Holies.",
+        "title": "Heavy for a Team, Light for One: Designing the Yom Kippur Pan"
       },
       "learning": {
-        "summary": "The daily firepan was designed for team use with no weight restriction; the Yom Kippur firepan was an individual-carry design, purposely made manageable for one person.",
         "ahaMoment": "Despite gold being denser than silver, the Yom Kippur pan weighed less overall because it was smaller in size.",
         "memoryAnchor": "Daily firepan: team carry, large, heavy. Yom Kippur firepan: solo carry, smaller, lighter.",
-        "openQuestion": "How did the Rabbis know the exact weights and sizes of the Temple utensils?"
+        "learnerQuestion": "Why is the daily coal pan heavier than the Yom Kippur coal pan?",
+        "coreTension": "If the Yom Kippur pan holds less coal than the daily pan, the question remains whether its physical weight follows the same logic, since a heavier pan might still be needed for structural or service reasons even with less content.",
+        "coreMove": "The Gemara confirms the weight difference tracks the carrying arrangement directly: the heavier daily pan is built for a team to carry, while the lighter Yom Kippur pan is built so the High Priest can carry it alone.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The daily coal pan is heavier because a team carries it, while the Yom Kippur coal pan is lighter because the High Priest must carry it alone - the vessel's weight is designed around who carries it."
+        },
+        "learningBlocker": "Learners may think a lighter vessel is simply a cheaper or lesser version of the heavier one, missing that the weight difference is a deliberate design choice tied to solo versus team carrying."
       },
       "argumentFlow": [
         {
@@ -535,7 +586,11 @@
         "High Priest's solo service"
       ],
       "misconceptions": [
-        "The weight difference reflects design intent, not a statement about holiness."
+        {
+          "misconception": "The Yom Kippur coal pan is lighter than the daily one simply because it is a smaller or lesser-quality vessel.",
+          "correction": "The weight difference is a deliberate design choice: the daily pan is built heavier for a team to carry, while the Yom Kippur pan is built lighter so the High Priest can carry it alone.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -546,8 +601,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was the Yom Kippur firepan lighter than the daily firepan?",
-          "answer": "Because the High Priest carried it alone into the Holy of Holies, so it had to be manageable for one person; the daily pan was carried by a team."
+          "answer": "Because the High Priest carried it alone into the Holy of Holies, so it had to be manageable for one person; the daily pan was carried by a team.",
+          "question": "Why was the Yom Kippur firepan lighter than the daily firepan?"
         }
       ],
       "finalRuling": "The Yom Kippur firepan was deliberately lighter than the daily pan to enable solo carrying by the High Priest.",
@@ -574,13 +629,20 @@
       ],
       "display": {
         "whats": "Why was the gold of the daily incense pan described as yellow-green?",
-        "hint": "Rav Chisda explains: the daily pan was made from gold brought from Sheba (Yemen/Ethiopia), which was known in antiquity for its distinctive greenish-yellow tint."
+        "hint": "Rav Chisda explains: the daily pan was made from gold brought from Sheba (Yemen/Ethiopia), which was known in antiquity for its distinctive greenish-yellow tint.",
+        "title": "Greenish Gold for the Daily Pan, Fine Gold for Yom Kippur"
       },
       "learning": {
-        "summary": "The Gemara preserves an ethnographic detail: gold from Sheba had a recognizable greenish hue. The daily pan was made from this variety, while the Yom Kippur pan used zahav tov (finest gold).",
         "ahaMoment": "Gold from Sheba: distinctive greenish-yellow. Zahav tov (Yom Kippur): the purest, most lustrous gold. Even gold quality varies - and the Rabbis knew the difference.",
         "memoryAnchor": "Sheba gold = greenish-yellow daily pan. Best gold (zahav tov) = the Yom Kippur golden pan.",
-        "openQuestion": "How did the Rabbis preserve knowledge of where specific Temple utensils' gold came from?"
+        "learnerQuestion": "What kind of gold is used for each coal pan, and why does the Yom Kippur pan use a different grade than the daily one?",
+        "coreTension": "Having established that the two coal pans differ in size and weight, the Gemara must also account for the daily pan's silver default and the specific gold grades named for Yom Kippur, since 'gold' alone does not specify which of the Torah's several gold types is meant.",
+        "coreMove": "The Gemara identifies sheba gold, a greenish-yellow grade, for instances tied to the daily pattern, and zahav tov, a superior grade, specifically for the Yom Kippur pan, showing that even within 'gold' vessels the Temple distinguishes grades by the day's sanctity.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Sheba gold (a greenish-yellow grade) is associated with the daily-pattern vessels, while zahav tov (a superior gold grade) is specified for the Yom Kippur coal pan - even among gold vessels, the Temple distinguishes grades by the day's heightened sanctity."
+        },
+        "learningBlocker": "Learners may assume 'gold' is a single uniform material across all Temple vessels, missing that the Gemara names distinct grades (sheba gold vs. zahav tov) and assigns the finer grade specifically to the Yom Kippur vessel."
       },
       "argumentFlow": [
         {
@@ -620,7 +682,11 @@
         "gold varieties in antiquity"
       ],
       "misconceptions": [
-        "The green tinge of Sheba gold is not a defect - it is a recognizable variety known to antiquity."
+        {
+          "misconception": "All gold Temple vessels are made from the same grade of gold, since the Torah and Gemara simply call it 'gold' without further distinction.",
+          "correction": "The Gemara names distinct grades of gold - sheba gold (greenish-yellow) and zahav tov (a superior grade) - and assigns the finer zahav tov specifically to the Yom Kippur coal pan, reflecting the day's heightened sanctity.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -631,8 +697,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What was distinctive about the gold of the daily incense pan?",
-          "answer": "It was yellow-green (yarok) because it was made from gold that came from Sheba, which had a distinctive greenish tint."
+          "answer": "It was yellow-green (yarok) because it was made from gold that came from Sheba, which had a distinctive greenish tint.",
+          "question": "What was distinctive about the gold of the daily incense pan?"
         }
       ],
       "finalRuling": "The daily incense pan's gold was yellow-green, coming from Sheba; Rav Chisda preserves this ethnographic-archaeological detail.",

@@ -87,13 +87,20 @@
       ],
       "display": {
         "whats": "What does bar Kappara teach in R. Meir's name, and does the wood added from the sides of the altar count as a valid arrangement?",
-        "hint": "Bar Kappara taught: R. Meir would say that wood added from the sides of the altar (not from the main arrangements) is not counted as a distinct arrangement. The Gemara then pivots to the question of which prohibitions are overridden by the Temple service and which are not."
+        "hint": "Bar Kappara taught: R. Meir would say that wood added from the sides of the altar (not from the main arrangements) is not counted as a distinct arrangement. The Gemara then pivots to the question of which prohibitions are overridden by the Temple service and which are not.",
+        "title": "Wood From the Sides Doesn't Count, and Who Overrides Shabbat"
       },
       "learning": {
-        "summary": "Two discussions: (1) whether wood from the altar's sides counts as an arrangement; (2) the general principle of which prohibitions are overridden by communal Temple service (Shabbat and tumah) vs. those that are not (ritual impurity for certain offerings).",
         "ahaMoment": "Communal public offerings override Shabbat and communal tumah. Individual offerings and certain other prohibitions are not overridden. The distinction is between 'tzibur' (communal) and 'yachid' (individual).",
         "memoryAnchor": "Bar Kappara teaching R. Meir: wood from the sides of the altar is not a valid arrangement.",
-        "openQuestion": "What is the principle that determines whether a Temple service overrides a biblical prohibition?"
+        "learnerQuestion": "Does wood placed on the sides of the altar count as a valid arrangement, and which Temple services are permitted to override Shabbat and ritual impurity?",
+        "coreTension": "Bar Kappara cites R. Meir that wood from the altar's sides is not counted as a valid arrangement, and the Gemara must explain what this teaches beyond what was already known, before turning to the broader question of which prohibitions communal Temple service may override.",
+        "coreMove": "The Gemara clarifies that wood placed on the sides (not the designated arrangement positions) does not count, and establishes the broader principle that communal public offerings override Shabbat and communal ritual impurity, while individual offerings do not.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Wood placed on the sides of the altar, rather than the designated arrangement positions, is not counted as a valid arrangement; communal public offerings override Shabbat and ritual impurity, but individual offerings do not."
+        },
+        "learningBlocker": "Learners may assume the override of Shabbat and impurity applies to any Temple offering, missing that the Gemara restricts it specifically to communal (tzibur) offerings, not individual (yachid) ones."
       },
       "argumentFlow": [
         {
@@ -189,7 +196,11 @@
         "ritual impurity and Temple service"
       ],
       "misconceptions": [
-        "The override of Shabbat applies to communal offerings (tamid, musaf), not to individual korbanot brought on Shabbat."
+        {
+          "misconception": "Any offering brought in the Temple, communal or individual, overrides Shabbat and ritual impurity restrictions.",
+          "correction": "The override applies specifically to communal public offerings, such as the tamid and musaf - individual offerings do not override Shabbat or ritual impurity.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-045b-s01"
@@ -206,8 +217,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Do private offerings override Shabbat in the Temple?",
-          "answer": "No. Only communal public offerings (like the tamid and musaf) override Shabbat and communal ritual impurity."
+          "answer": "No. Only communal public offerings (like the tamid and musaf) override Shabbat and communal ritual impurity.",
+          "question": "Do private offerings override Shabbat in the Temple?"
         }
       ],
       "finalRuling": "Wood from the sides of the altar is not a valid arrangement; communal offerings override Shabbat and tumah; private offerings do not.",

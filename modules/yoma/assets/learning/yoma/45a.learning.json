@@ -27,13 +27,20 @@
       ],
       "display": {
         "whats": "What is 'paz' gold, and how many types of gold are there?",
-        "hint": "Paz gold gets its name because it glistens like pearls. Rav Ashi counts five types of gold, each with distinctive properties - the classification matters because different Temple vessels required different quality gold."
+        "hint": "Paz gold gets its name because it glistens like pearls. Rav Ashi counts five types of gold, each with distinctive properties - the classification matters because different Temple vessels required different quality gold.",
+        "title": "Five Names for Gold: Rav Ashi's Taxonomy"
       },
       "learning": {
-        "summary": "The Gemara begins with a linguistic question about the word 'paz' (fine gold) and pivots to Rav Ashi's taxonomy of five gold types, each with a specific origin or characteristic.",
         "ahaMoment": "Five types of gold, each with a name and a property - the Talmud preserves a complete taxonomy of gold quality for Temple use.",
         "memoryAnchor": "Paz gold glistens like pearls - the name is descriptive of its appearance.",
-        "openQuestion": "Why do different gold types matter for Temple vessels?"
+        "learnerQuestion": "How many distinct types of gold does the Torah name, and what does each name mean?",
+        "coreTension": "The Torah uses several different words for gold across its verses, and without a structured account a reader cannot tell whether these are just stylistic variation or genuinely distinct grades relevant to Temple vessels.",
+        "coreMove": "Rav Ashi lays out a taxonomy of five named gold types, each tied to a distinguishing quality or verse, establishing that the Torah's varied gold-language reflects real, distinct grades rather than interchangeable synonyms.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Rav Ashi identifies five distinct types of gold named in the Torah, each with its own defining quality - the variation in gold-language across verses reflects genuinely distinct grades, not stylistic synonyms."
+        },
+        "learningBlocker": "Learners may assume the Torah's different gold-words are just stylistic variety for the same material, missing that Rav Ashi treats them as a structured taxonomy of five genuinely distinct grades."
       },
       "argumentFlow": [
         {
@@ -85,7 +92,11 @@
         "parah adumah gold pan discussion"
       ],
       "misconceptions": [
-        "'Paz' is not a separate metal - it is a quality designation for the finest gold."
+        {
+          "misconception": "The Torah's different words for gold (zahav, zahav tov, paz, etc.) are just stylistic variation describing the same single material.",
+          "correction": "Rav Ashi treats these as a structured taxonomy of five distinct gold grades, each defined by its own quality or verse - the varied language reflects real differences, not synonyms.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-044b-s01"
@@ -98,8 +109,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does 'paz' mean and why is it called that?",
-          "answer": "Paz is fine gold named because it glistens like the luster of pearls (paz = pearl-like sheen)."
+          "answer": "Paz is fine gold named because it glistens like the luster of pearls (paz = pearl-like sheen).",
+          "question": "What does 'paz' mean and why is it called that?"
         }
       ],
       "finalRuling": "Five types of gold exist; paz is the finest, named for its pearl-like glistening quality.",
@@ -126,13 +137,20 @@
       ],
       "display": {
         "whats": "What incense measure was used on ordinary days vs. Yom Kippur?",
-        "hint": "On ordinary days, a priest offered a peras (half-measure) of incense on the golden altar. On Yom Kippur, the High Priest used a different quantity inside the Kodesh Kodashim."
+        "hint": "On ordinary days, a priest offered a peras (half-measure) of incense on the golden altar. On Yom Kippur, the High Priest used a different quantity inside the Kodesh Kodashim.",
+        "title": "How Much Incense? Ordinary Days vs. Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishna specifies the incense quantity for ordinary days, providing a baseline against which the Yom Kippur uniqueness can be measured.",
         "ahaMoment": "Ordinary incense: a peras. Yom Kippur: a different quantity inside the most sacred space - the contrast defines what makes Yom Kippur unique.",
         "memoryAnchor": "A peras of incense daily on the golden altar; a different measure inside the Holy of Holies on Yom Kippur.",
-        "openQuestion": "Why is a different incense quantity used inside the Holy of Holies?"
+        "learnerQuestion": "Does the Yom Kippur incense use the same measure (peras) as the daily incense offering, or a different amount?",
+        "coreTension": "The daily incense offering uses a fixed peras measure, but Yom Kippur's incense service - carried by the High Priest's own hands into the Holy of Holies - raises the question of whether the same fixed measure still applies or whether the unique rite calls for a different quantity.",
+        "coreMove": "The Gemara confirms the peras measure used for the ordinary daily incense also governs the Yom Kippur incense, showing that despite all the ways the Yom Kippur rite differs in vessel and procedure, the quantity measure itself remains constant.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The peras measure of incense used on ordinary days also governs the Yom Kippur incense offering - the quantity stays constant even though the vessels and procedure differ."
+        },
+        "learningBlocker": "Learners may assume that because the Yom Kippur incense rite differs so much in vessel, carrier, and location, its incense quantity must differ too, missing that the Gemara holds the peras measure constant across both."
       },
       "argumentFlow": [
         {
@@ -169,7 +187,11 @@
         "daily Temple service structure"
       ],
       "misconceptions": [
-        "A peras is a half-maneh; the Yom Kippur quantity is a full maneh."
+        {
+          "misconception": "Since the Yom Kippur incense service differs from the daily service in vessel, carrier, and location, it must also use a different quantity of incense.",
+          "correction": "The Gemara holds the incense quantity constant: the same peras measure used for the ordinary daily incense also governs the Yom Kippur incense, even though the vessels and procedure differ.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -180,8 +202,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What quantity of incense was used on ordinary days?",
-          "answer": "A peras (half-measure) of incense on the golden altar."
+          "answer": "A peras (half-measure) of incense on the golden altar.",
+          "question": "What quantity of incense was used on ordinary days?"
         }
       ],
       "finalRuling": "On ordinary days a peras of incense is offered; the Yom Kippur quantity is different and larger.",
@@ -208,13 +230,20 @@
       ],
       "display": {
         "whats": "Which ramp did priests use on ordinary days, and which did the High Priest use today?",
-        "hint": "On ordinary days, priests ascend the altar via the eastern side of the ramp. On Yom Kippur, the High Priest ascends via the middle of the ramp - a special path reserved for this day."
+        "hint": "On ordinary days, priests ascend the altar via the eastern side of the ramp. On Yom Kippur, the High Priest ascends via the middle of the ramp - a special path reserved for this day.",
+        "title": "Eastern Ramp for the Daily Rite, Middle Ramp for the High Priest"
       },
       "learning": {
-        "summary": "The ramp (kevesh) had multiple paths; the eastern side was standard. Using the middle was a mark of honor and distinction for the High Priest on Yom Kippur.",
         "ahaMoment": "Same ramp, different path - the middle path of the kevesh is reserved for the High Priest on Yom Kippur.",
         "memoryAnchor": "East side for priests on ordinary days; middle of the ramp for the High Priest on Yom Kippur.",
-        "openQuestion": "What was the significance of using the middle path vs. the eastern side of the ramp?"
+        "learnerQuestion": "Why does the High Priest ascend the altar by the middle ramp on Yom Kippur instead of the eastern ramp used on ordinary days?",
+        "coreTension": "Ordinary priests ascend the altar's ramp from the east side for the daily service, but the Yom Kippur procedure has the High Priest use the middle of the ramp, raising the question of what about his role or the day calls for a different approach path.",
+        "coreMove": "The Gemara explains the middle-ramp ascent as an expression of honor for the High Priest, distinguishing his approach from the ordinary priests' eastern approach to mark his elevated status on the day's central rite.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Ordinary priests ascend the altar ramp from the east for the daily service, but the High Priest ascends via the middle of the ramp on Yom Kippur - a deliberate mark of honor distinguishing his role."
+        },
+        "learningBlocker": "Learners may assume the ramp approach is identical for all priests regardless of day or rank, missing that the middle-ramp ascent is a specific honor reserved for the High Priest on Yom Kippur."
       },
       "argumentFlow": [
         {
@@ -251,7 +280,11 @@
         "High Priest's special status on Yom Kippur"
       ],
       "misconceptions": [
-        "The middle path is not always available - it is specifically designated for the High Priest's honor on Yom Kippur."
+        {
+          "misconception": "All priests, including the High Priest on Yom Kippur, ascend the altar ramp the same way, from the east side.",
+          "correction": "The High Priest ascends via the middle of the ramp on Yom Kippur, distinct from the eastern approach used by ordinary priests in the daily service - a deliberate mark of honor for his role.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -262,8 +295,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Which path on the ramp did the High Priest use on Yom Kippur?",
-          "answer": "The middle of the ramp, as opposed to ordinary priests who use the eastern side."
+          "answer": "The middle of the ramp, as opposed to ordinary priests who use the eastern side.",
+          "question": "Which path on the ramp did the High Priest use on Yom Kippur?"
         }
       ],
       "finalRuling": "On Yom Kippur the High Priest uses the middle path of the altar ramp; ordinary priests use the eastern path.",
@@ -290,13 +323,20 @@
       ],
       "display": {
         "whats": "How many wood-pyre arrangements were on the altar on ordinary days vs. Yom Kippur?",
-        "hint": "On ordinary days there were four wood-pyre arrangements on the altar; on Yom Kippur the arrangement was different. The Mishna specifies the ordinary baseline so the Yom Kippur variation can be understood."
+        "hint": "On ordinary days there were four wood-pyre arrangements on the altar; on Yom Kippur the arrangement was different. The Mishna specifies the ordinary baseline so the Yom Kippur variation can be understood.",
+        "title": "Four Wood Arrangements: The Baseline Pyre"
       },
       "learning": {
-        "summary": "Wood arrangements on the altar were carefully structured; the number varied by day. Four arrangements were standard; Yom Kippur changed this.",
         "ahaMoment": "Four wood arrangements on ordinary days; the Yom Kippur arrangement is the subject of rabbinic dispute.",
         "memoryAnchor": "Four wood-pyre arrangements on ordinary days on the outer altar.",
-        "openQuestion": "What were the functions of each of the four wood arrangements on the altar?"
+        "learnerQuestion": "How many separate wood arrangements were set on the altar, and what was each one for?",
+        "coreTension": "The altar fire requires organized wood arrangements rather than an undifferentiated pile, so the Gemara must establish the baseline number and purpose of these arrangements before the later dispute over whether Yom Kippur adds a fifth.",
+        "coreMove": "The Gemara lays out four distinct wood arrangements, each serving a specific function in the daily Temple fire system, establishing the baseline structure that the later R. Meir/R. Yehuda dispute will build on.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The altar fire is organized into four distinct wood arrangements, each with its own specific function, not a single undifferentiated pile of wood."
+        },
+        "learningBlocker": "Learners may picture the altar fire as one generic woodpile, missing that the Gemara establishes four distinct, purpose-built arrangements as the baseline structure."
       },
       "argumentFlow": [
         {
@@ -332,7 +372,11 @@
         "daily Temple service"
       ],
       "misconceptions": [
-        "The four arrangements served different purposes: main fire, incense fire, and so on."
+        {
+          "misconception": "The wood on the altar is just one undifferentiated pile, with no meaningful distinction between separate arrangements.",
+          "correction": "The Gemara establishes four distinct wood arrangements on the altar, each serving its own specific function within the daily Temple fire system.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -343,8 +387,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many wood-pyre arrangements were on the altar on ordinary days?",
-          "answer": "Four arrangements."
+          "answer": "Four arrangements.",
+          "question": "How many wood-pyre arrangements were on the altar on ordinary days?"
         }
       ],
       "finalRuling": "Four wood-pyre arrangements are on the altar on ordinary days.",
@@ -371,13 +415,20 @@
       ],
       "display": {
         "whats": "How did the High Priest sanctify his hands and feet differently on Yom Kippur vs. ordinary days?",
-        "hint": "On ordinary days, a priest sanctifies his hands and feet from the laver. On Yom Kippur, the High Priest sanctifies from the golden pitcher. This is a specific Yom Kippur distinction noted in the Mishna."
+        "hint": "On ordinary days, a priest sanctifies his hands and feet from the laver. On Yom Kippur, the High Priest sanctifies from the golden pitcher. This is a specific Yom Kippur distinction noted in the Mishna.",
+        "title": "Laver Water for Ordinary Days, Golden Pitcher for Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishna establishes the distinction between the ordinary and Yom Kippur sanctification vessels - the golden pitcher on Yom Kippur marks the special status of the day.",
         "ahaMoment": "Golden pitcher for Yom Kippur hand-foot sanctification vs. the ordinary laver - the vessel itself signals the day's sanctity.",
         "memoryAnchor": "Ordinary day: laver for sanctification. Yom Kippur: golden pitcher.",
-        "openQuestion": "Why does the golden pitcher replace the laver specifically on Yom Kippur?"
+        "learnerQuestion": "Why does the High Priest use a golden pitcher to sanctify his hands and feet on Yom Kippur instead of the laver used on ordinary days?",
+        "coreTension": "Ordinary priests sanctify their hands and feet from the laver before service, but the Yom Kippur procedure substitutes a golden pitcher for the High Priest, raising the question of why the day's heightened sanctity requires departing from the standard laver.",
+        "coreMove": "The Gemara explains the golden-pitcher substitution as fitting the elevated, vessel-upgraded character of the Yom Kippur service, paralleling the earlier silver-to-gold upgrade seen with the coal pan.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Ordinary priests sanctify their hands and feet from the laver, but on Yom Kippur the High Priest uses a golden pitcher instead - another instance of the day's vessels being upgraded to match its heightened sanctity."
+        },
+        "learningBlocker": "Learners may assume the same laver is used for hand/foot sanctification on every day of Temple service, missing that Yom Kippur substitutes a golden pitcher specifically for the High Priest."
       },
       "argumentFlow": [
         {
@@ -414,7 +465,11 @@
         "Yom Kippur distinctions"
       ],
       "misconceptions": [
-        "The laver is not invalid on Yom Kippur; the golden pitcher is used as an honor."
+        {
+          "misconception": "The High Priest sanctifies his hands and feet from the same laver used by ordinary priests on every day, including Yom Kippur.",
+          "correction": "On Yom Kippur the High Priest uses a golden pitcher instead of the laver - a vessel upgrade matching the day's heightened sanctity, similar to the silver-to-gold upgrade seen with the coal pan.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -425,8 +480,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What vessel was used for hand-foot sanctification on Yom Kippur?",
-          "answer": "A golden pitcher, as opposed to the ordinary copper laver."
+          "answer": "A golden pitcher, as opposed to the ordinary copper laver.",
+          "question": "What vessel was used for hand-foot sanctification on Yom Kippur?"
         }
       ],
       "finalRuling": "On Yom Kippur a golden pitcher is used for the High Priest's hand-foot sanctification instead of the ordinary laver.",
@@ -493,13 +548,20 @@
       ],
       "display": {
         "whats": "How many wood-pyre arrangements were on the altar, and what was the dispute between R. Meir and R. Yehuda?",
-        "hint": "The Mishna says four arrangements; R. Meir and R. Yehuda dispute whether there is a fifth arrangement needed for the Yom Kippur avodah. The Gemara analyzes each arrangement's source and function."
+        "hint": "The Mishna says four arrangements; R. Meir and R. Yehuda dispute whether there is a fifth arrangement needed for the Yom Kippur avodah. The Gemara analyzes each arrangement's source and function.",
+        "title": "Five Arrangements or Four? R. Meir and R. Yehuda Dispute the Pyre"
       },
       "learning": {
-        "summary": "The four arrangements are: the main fire, the incense fire, and two more for adding wood. The dispute is whether a fifth is needed specifically for Yom Kippur. Each arrangement is derived from a specific verse.",
         "ahaMoment": "R. Meir: five arrangements (one more for Yom Kippur coals). R. Yehuda: four suffice. The Gemara derives each arrangement from a separate Torah verse.",
         "memoryAnchor": "Four vs. five wood arrangements - the extra one for Yom Kippur is the dispute. Each arrangement comes from a different Torah verse.",
-        "openQuestion": "Why would Yom Kippur need an additional wood arrangement not required on other days?"
+        "learnerQuestion": "Does Yom Kippur require a fifth wood arrangement beyond the four used on ordinary days?",
+        "coreTension": "R. Meir holds that Yom Kippur requires an extra wood arrangement specifically for the incense coals beyond the baseline four, while R. Yehuda holds the same four arrangements suffice even on Yom Kippur, and each grounds his position in a verse-by-verse reading.",
+        "coreMove": "R. Meir derives a fifth arrangement from the verse's wording to supply coals for the Yom Kippur incense specifically, while R. Yehuda reads the same verses as not requiring any addition beyond the standard four - the dispute turns on competing derivations from the same textual material.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "R. Meir holds Yom Kippur requires a fifth wood arrangement to supply coals for the incense, while R. Yehuda holds the standard four arrangements suffice even on Yom Kippur - both positions are derived from close readings of the same verses."
+        },
+        "learningBlocker": "Learners may assume the number of wood arrangements is a settled, undisputed fact, missing that R. Meir and R. Yehuda actively dispute whether Yom Kippur adds a fifth arrangement, each from verse-based derivation."
       },
       "argumentFlow": [
         {
@@ -609,7 +671,11 @@
         "Yom Kippur avodah structure"
       ],
       "misconceptions": [
-        "The four arrangements are not arbitrary - each is anchored in a separate Torah verse."
+        {
+          "misconception": "The number of wood arrangements on the altar is a fixed, undisputed fact rather than a matter of tannaitic disagreement.",
+          "correction": "R. Meir and R. Yehuda dispute the count: R. Meir derives a fifth arrangement for the Yom Kippur incense coals, while R. Yehuda holds four suffice even on Yom Kippur - each position rests on a verse-based derivation.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-045b-s01"
@@ -626,8 +692,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why did R. Meir hold there were five wood arrangements on the altar?",
-          "answer": "He required a fifth arrangement specifically to provide the coals for the Yom Kippur incense firepan, which R. Yehuda derived from one of the four standard arrangements."
+          "answer": "He required a fifth arrangement specifically to provide the coals for the Yom Kippur incense firepan, which R. Yehuda derived from one of the four standard arrangements.",
+          "question": "Why did R. Meir hold there were five wood arrangements on the altar?"
         }
       ],
       "finalRuling": "On ordinary days four wood-pyre arrangements; R. Meir requires a fifth for Yom Kippur coal sourcing.",

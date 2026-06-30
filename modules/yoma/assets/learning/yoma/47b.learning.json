@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "What is the law regarding a meal-offering prepared in a pan?",
-        "hint": "The Gemara opens by noting a ruling about a meal-offering prepared in a pan (machavat): how is the kometz taken from it when the offering is in liquid/semi-liquid form? The rules differ from dry flour."
+        "hint": "The Gemara opens by noting a ruling about a meal-offering prepared in a pan (machavat): how is the kometz taken from it when the offering is in liquid/semi-liquid form? The rules differ from dry flour.",
+        "title": "Kometz From a Pan-Offering: Same Measure, Different Texture"
       },
       "learning": {
-        "summary": "A pan-prepared meal-offering has different consistency from dry flour; the kometz mechanics change accordingly.",
         "ahaMoment": "Pan meal-offering: the texture changes the kometz procedure - the three-finger rule still applies but the physical mechanics differ.",
         "memoryAnchor": "Pan meal-offering requires kometz but the consistency makes it different from dry flour.",
-        "openQuestion": "Does a liquid-consistency offering change the quantity requirement for kometz?"
+        "learnerQuestion": "Does the three-finger kometz measure still apply when the meal-offering is prepared in a pan rather than as dry flour?",
+        "coreTension": "A pan-prepared meal-offering (machavat) has a different, more semi-liquid consistency than loose dry flour, raising the question of whether the same kometz mechanics and measure can even apply to it.",
+        "coreMove": "The Gemara rules that the same three-finger kometz amount is taken from a pan-offering, with the physical technique adapting to the different consistency rather than the measure itself changing.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The kometz from a pan-prepared meal-offering (machavat) is still the three-finger measure - the consistency changes the physical technique, not the required amount."
+        },
+        "learningBlocker": "Learners may assume a different-consistency offering requires a different kometz quantity, missing that the Gemara holds the measure constant and adapts only the technique."
       },
       "argumentFlow": [
         {
@@ -65,7 +72,11 @@
         "meal-offering varieties"
       ],
       "misconceptions": [
-        "The kometz quantity is the same; only the physical technique adapts to the consistency."
+        {
+          "misconception": "Because a pan-prepared meal-offering has a different consistency than dry flour, it requires a different kometz quantity than the standard three-finger measure.",
+          "correction": "The kometz quantity stays the same three-finger measure regardless of consistency - only the physical technique adapts to the semi-liquid texture of a pan-prepared offering.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -78,8 +89,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How is kometz taken from a meal-offering prepared in a pan?",
-          "answer": "The same three-finger amount is taken, but the technique adapts to the semi-liquid consistency of the pan-prepared offering."
+          "answer": "The same three-finger amount is taken, but the technique adapts to the semi-liquid consistency of the pan-prepared offering.",
+          "question": "How is kometz taken from a meal-offering prepared in a pan?"
         }
       ],
       "finalRuling": "Kometz from a pan meal-offering uses the same measure but adapted technique.",
@@ -131,13 +142,20 @@
       ],
       "display": {
         "whats": "What is the law if the kometz was taken 'bein habeinayim' (from the space between the fingers)?",
-        "hint": "R. Yehoshua ben Uza'a raised the dilemma: what if incense was taken from the space between the fingers rather than by cupping the fingers together? This is a bein habeinayim dilemma - the flour/incense sits in the gaps between fingers rather than on the pads."
+        "hint": "R. Yehoshua ben Uza'a raised the dilemma: what if incense was taken from the space between the fingers rather than by cupping the fingers together? This is a bein habeinayim dilemma - the flour/incense sits in the gaps between fingers rather than on the pads.",
+        "title": "Between the Fingers: Does It Count?"
       },
       "learning": {
-        "summary": "The dilemma: the kometz requires the finger-pads to cup the offering, not the inter-finger spaces. If it fell into the gaps, is that a valid kometz? The Gemara analyzes whether 'handfuls' requires the pad-contact or whether inter-finger gaps also count.",
         "ahaMoment": "Bein habeinayim: the flour is in the spaces between fingers, not on the pads. Valid kometz? The Gemara builds a case by analogy to other 'in-between' scenarios.",
         "memoryAnchor": "If the offering settled between the fingers instead of on the pads - valid or not? The answer depends on what 'handfuls' means physically.",
-        "openQuestion": "Does 'his handfuls' require the fingerpads, or does 'between the fingers' also count as 'in his hands'?"
+        "learnerQuestion": "If incense or flour settles in the gaps between the fingers rather than on the finger-pads, is that still a valid kometz?",
+        "coreTension": "A natural cupped grip leaves some material on the finger-pads and some in the gaps between fingers, and R. Yehoshua ben Uza'a's dilemma asks whether material resting only in those inter-finger gaps - not the pads - still counts as being 'in his hand.'",
+        "coreMove": "The Gemara narrows the dilemma specifically to material resting only between the fingers (since pad-contact is agreed to be valid) and weighs analogies for and against counting the inter-finger space as part of 'his handfuls,' leaving the question unresolved.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Whether incense or flour resting only in the spaces between the fingers (bein habeinayim), rather than on the finger-pads, constitutes a valid kometz is a dilemma the Gemara raises and leaves unresolved."
+        },
+        "learningBlocker": "Learners may assume any flour touching any part of the hand counts as a valid kometz, missing that the Gemara specifically isolates the inter-finger gaps as a distinct, unresolved boundary case from the agreed-valid finger-pads."
       },
       "argumentFlow": [
         {
@@ -202,7 +220,11 @@
         "meal-offering precision laws"
       ],
       "misconceptions": [
-        "The Gemara leaves this dilemma unresolved (teiku) - it is not a practical issue that arose but a theoretical boundary case."
+        {
+          "misconception": "Any incense or flour touching any part of the High Priest's cupped hand automatically counts as a valid kometz, with no distinction between locations.",
+          "correction": "The Gemara distinguishes the finger-pads (agreed valid) from the spaces between the fingers (bein habeinayim) - whether material resting only in those gaps counts as a valid kometz is raised as a specific, unresolved dilemma.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -213,8 +235,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the 'bein habeinayim' dilemma in kometz law?",
-          "answer": "Whether incense or flour that fell into the spaces between the fingers (rather than cupped on the finger-pads) constitutes a valid kometz."
+          "answer": "Whether incense or flour that fell into the spaces between the fingers (rather than cupped on the finger-pads) constitutes a valid kometz.",
+          "question": "What is the 'bein habeinayim' dilemma in kometz law?"
         }
       ],
       "finalRuling": "Whether flour taken from between the fingers (bein habeinayim) constitutes a valid kometz remains an unresolved dilemma.",
@@ -261,13 +283,20 @@
       ],
       "display": {
         "whats": "What if the kometz was extended, pressed flat, or spread out?",
-        "hint": "The Gemara raises further kometz dilemmas: what if the incense was extended (pashat) - spread beyond the finger boundaries? What if it was pressed (machatz) flat? What if it was spread wide (pizer)? Each represents a different way the kometz geometry might be altered."
+        "hint": "The Gemara raises further kometz dilemmas: what if the incense was extended (pashat) - spread beyond the finger boundaries? What if it was pressed (machatz) flat? What if it was spread wide (pizer)? Each represents a different way the kometz geometry might be altered.",
+        "title": "Stretched, Pressed, or Scattered: Three Ways to Break the Kometz"
       },
       "learning": {
-        "summary": "Three body-of-kometz dilemmas: pashat (extended beyond fingers), machatz (pressed flat), pizer (dispersed). Do these alter the validity of the kometz? The Gemara also mentions the mnemonic of these terms.",
         "ahaMoment": "Pashat, machatz, pizer: three ways the kometz shape might be altered. Each is a separate dilemma about whether the exact kometz requirement is still met.",
         "memoryAnchor": "The mnemonic 'bein habeinayim, pashat, machatz, pizer, v'chishev' lists all the kometz geometry dilemmas.",
-        "openQuestion": "If the kometz is pressed flat and thin, does it still count as 'his handfuls'?"
+        "learnerQuestion": "If the kometz is extended beyond the natural finger boundaries, pressed flat, or spread out, does it still count as a valid 'handful'?",
+        "coreTension": "The kometz's validity depends on a specific natural cupped shape, but the Gemara raises three distinct ways that shape might be altered - extended (pashat), pressed flat (machatz), or spread wide (pizer) - each testing whether 'his handfuls' still applies once the geometry changes.",
+        "coreMove": "The Gemara raises all three geometry dilemmas in turn, analyzing whether each altered shape still satisfies 'his handfuls,' and leaves all three unresolved as boundary cases defining the outer limits of the kometz requirement.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Whether an extended (pashat), pressed-flat (machatz), or spread-out (pizer) kometz still satisfies 'his handfuls' are three distinct dilemmas the Gemara raises and leaves unresolved."
+        },
+        "learningBlocker": "Learners may assume these are minor variations of the same single question, missing that the Gemara treats pashat, machatz, and pizer as three distinct geometry dilemmas, each tested separately."
       },
       "argumentFlow": [
         {
@@ -333,7 +362,11 @@
         "meal-offering laws"
       ],
       "misconceptions": [
-        "These are theoretical dilemmas; in practice the kometz was done correctly by trained kohanim."
+        {
+          "misconception": "Pashat, machatz, and pizer are essentially the same question about altering the kometz, raised once and not as three separate dilemmas.",
+          "correction": "The Gemara treats pashat (extended), machatz (pressed flat), and pizer (spread wide) as three distinct geometry dilemmas, each analyzed and left unresolved in its own right.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -344,8 +377,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is 'pashat' in the context of kometz law?",
-          "answer": "'Extended' - when the kometz is spread or extended beyond the natural boundaries of the three fingers; a dilemma whether this invalidates the kometz."
+          "answer": "'Extended' - when the kometz is spread or extended beyond the natural boundaries of the three fingers; a dilemma whether this invalidates the kometz.",
+          "question": "What is 'pashat' in the context of kometz law?"
         }
       ],
       "finalRuling": "Kometz geometry dilemmas (pashat, machatz, pizer) remain unresolved.",
@@ -372,13 +405,20 @@
       ],
       "display": {
         "whats": "What if the High Priest scooped the handfuls at midnight?",
-        "hint": "Another kometz dilemma: the Yom Kippur incense service should be done during the day. If the High Priest scooped the handfuls at midnight (bein hashemashot or before dawn), is the kometz valid?"
+        "hint": "Another kometz dilemma: the Yom Kippur incense service should be done during the day. If the High Priest scooped the handfuls at midnight (bein hashemashot or before dawn), is the kometz valid?",
+        "title": "A Midnight Kometz: Can Daylight Validate It Retroactively?"
       },
       "learning": {
-        "summary": "Timing dilemma: the kometz must be taken 'in the morning' or 'by day.' If taken at midnight, is it retrospectively valid when day comes, or is it invalid from the start?",
         "ahaMoment": "Midnight kometz: taken before the permitted time. The question is whether daylight validates a pre-dawn kometz.",
         "memoryAnchor": "If the kometz is taken at midnight, does it become valid when day comes?",
-        "openQuestion": "Can a pre-dawn kometz be completed during the day, or must the entire act occur during daylight?"
+        "learnerQuestion": "If the High Priest scoops the incense handfuls at midnight, before the Yom Kippur service may begin, is the kometz valid once day arrives?",
+        "coreTension": "The Yom Kippur incense service must occur by day, but the Gemara raises the dilemma of a kometz taken too early - at midnight - asking whether the act is invalid from the moment it happens or whether the arrival of daylight can retroactively validate it.",
+        "coreMove": "The Gemara raises the timing dilemma and treats it on the model of other Temple acts performed before their permitted time, which cannot be retroactively validated once the proper time arrives - so a kometz taken before the permitted time is invalid from the outset.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Taking the kometz at midnight, before the Yom Kippur incense service may begin, is invalid - like other Temple acts performed before their permitted time, the later arrival of the proper time does not retroactively validate it."
+        },
+        "learningBlocker": "Learners may assume an act performed too early simply waits to 'become' valid once the proper time arrives, missing that the Gemara treats premature Temple acts as invalid from the outset, not retroactively curable."
       },
       "argumentFlow": [
         {
@@ -415,7 +455,11 @@
         "kometz laws"
       ],
       "misconceptions": [
-        "The incense service must be done during the day; midnight is invalid."
+        {
+          "misconception": "If the High Priest takes the kometz too early, at midnight, the act becomes valid retroactively once daylight - the permitted time - arrives.",
+          "correction": "The Gemara treats a kometz taken before its permitted time as invalid from the outset, following the pattern of other Temple acts performed too early - the later arrival of the proper time does not retroactively validate it.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -428,8 +472,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the dilemma about taking the kometz at midnight?",
-          "answer": "The Yom Kippur incense service must be performed by day. If the High Priest took the kometz at midnight, it may be invalid; the question is whether daylight retrospectively validates it."
+          "answer": "The Yom Kippur incense service must be performed by day. If the High Priest took the kometz at midnight, it may be invalid; the question is whether daylight retrospectively validates it.",
+          "question": "What is the dilemma about taking the kometz at midnight?"
         }
       ],
       "finalRuling": "Taking the kometz at midnight is invalid; all Yom Kippur incense service must be during the day.",

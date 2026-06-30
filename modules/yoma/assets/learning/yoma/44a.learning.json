@@ -72,13 +72,20 @@
       ],
       "display": {
         "whats": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
-        "hint": "The Sages derive from 'before God' that the incense must be placed inside - the Sadducees wanted to prepare it outside first. The cloud requirement is absolute: if it does not fill the space, the rite is incomplete. The 'no man' prohibition applies only during burning."
+        "hint": "The Sages derive from 'before God' that the incense must be placed inside - the Sadducees wanted to prepare it outside first. The cloud requirement is absolute: if it does not fill the space, the rite is incomplete. The 'no man' prohibition applies only during burning.",
+        "title": "Inside the Cloud: Where Incense Atones"
       },
       "learning": {
-        "summary": "The verse analysis is precise: 'before God' means inside the Kodesh Kodashim itself; 'so the cloud covers' means the filling must be complete before any approach; 'in the Tent of Meeting' limits the exclusion zone.",
         "ahaMoment": "The incense rite embodies a theological principle: even the High Priest cannot approach the divine presence without mediation. The smoke cloud is not protection from danger - it is the act of reverence itself.",
         "memoryAnchor": "The cloud of incense must fill the entire space of the Holy of Holies before the High Priest approaches the ark - the rite cannot be rushed.",
-        "openQuestion": "If incense effects atonement for lashon hara, does that mean lashon hara is particularly associated with the Temple or with the priesthood?"
+        "learnerQuestion": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
+        "coreTension": "The Sadducees held the incense should be lit outside so the High Priest enters already wrapped in smoke, while the verse 'before God' must be reconciled with the 'no man' exclusion and with how complete the cloud must be before any approach to the ark.",
+        "coreMove": "The Gemara reads 'before God' as requiring the incense to be placed on the coals inside the Kodesh Kodashim itself, reads 'so the cloud covers' as requiring the fill to be complete before approach, and limits the 'no man' exclusion to the duration of the burning itself.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The incense must be placed on the coals inside the Holy of Holies, not prepared outside; the cloud must fill the space completely before the High Priest approaches the ark; the 'no man' exclusion applies only during the burning, not throughout the whole service."
+        },
+        "learningBlocker": "Learners may assume the 'no man' prohibition excludes everyone from the Tent of Meeting for the entire Yom Kippur Holy of Holies service, missing that it applies specifically during the incense burning."
       },
       "argumentFlow": [
         {
@@ -208,7 +215,11 @@
         "atonement theology"
       ],
       "misconceptions": [
-        "The 'no man' verse does not apply during blood sprinkling - only during incense burning itself."
+        {
+          "misconception": "The 'no man' prohibition excludes anyone from the Tent of Meeting throughout the whole Yom Kippur service, including during the blood sprinkling.",
+          "correction": "The 'no man' verse applies only during the incense burning itself - it does not apply during the blood sprinkling that follows.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-043b-s01",
@@ -230,12 +241,12 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the verse 'before God' teach about the incense offering?",
-          "answer": "That the incense must be placed on the coals inside the Holy of Holies, in the presence of God - not prepared outside and carried in as a cloud."
+          "answer": "That the incense must be placed on the coals inside the Holy of Holies, in the presence of God - not prepared outside and carried in as a cloud.",
+          "question": "What does the verse 'before God' teach about the incense offering?"
         },
         {
-          "seed": "For what sin does incense atone according to the Gemara?",
-          "answer": "Lashon hara (evil speech), derived from the story of Miriam who was punished for speaking against Moses."
+          "answer": "Lashon hara (evil speech), derived from the story of Miriam who was punished for speaking against Moses.",
+          "question": "For what sin does incense atone according to the Gemara?"
         }
       ],
       "finalRuling": "The incense must be placed on the coals inside the Holy of Holies; the cloud must fill completely before the High Priest approaches the ark; the exclusion applies only during the burning.",

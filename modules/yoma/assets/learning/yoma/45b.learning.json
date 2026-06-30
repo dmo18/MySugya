@@ -72,13 +72,20 @@
       ],
       "display": {
         "whats": "How does R. Meir resolve the question of wood arrangements, and what does 'the fire on the altar shall be kept burning' add?",
-        "hint": "The Gemara analyzes how R. Meir uses the repeated mention of 'fire on the altar' to derive an additional wood arrangement. Each mention yields one arrangement. R. Meir needs five; R. Yehuda four. The verse 'it shall not be extinguished' adds the prohibition against extinguishing, not a new arrangement."
+        "hint": "The Gemara analyzes how R. Meir uses the repeated mention of 'fire on the altar' to derive an additional wood arrangement. Each mention yields one arrangement. R. Meir needs five; R. Yehuda four. The verse 'it shall not be extinguished' adds the prohibition against extinguishing, not a new arrangement.",
+        "title": "'It Shall Not Be Extinguished': A Prohibition, Not a New Pyre"
       },
       "learning": {
-        "summary": "The Gemara proceeds verse by verse, counting 'fire' mentions and deriving an arrangement from each. The dispute is whether a particular mention creates a new arrangement or only reinforces an existing one.",
         "ahaMoment": "Every 'fire on the altar' phrase in Torah creates a new wood arrangement. Count the mentions, count the arrangements. R. Meir finds one more than R. Yehuda.",
         "memoryAnchor": "The fire prohibition ('lo tichbeh') is not a new arrangement but a prohibition against extinguishing what already exists.",
-        "openQuestion": "If the prohibition against extinguishing the fire is violated, what is the punishment?"
+        "learnerQuestion": "Does the verse 'the fire on the altar shall be kept burning, it shall not be extinguished' support R. Meir's fifth wood arrangement, or does it mean something else entirely?",
+        "coreTension": "R. Meir reads added phrases about the perpetual fire as justifying an extra wood arrangement, but the Gemara must determine whether 'lo tichbeh' (it shall not be extinguished) is really describing a new arrangement requirement or is simply a prohibition against letting the fire go out.",
+        "coreMove": "The Gemara works through the verse phrase by phrase and concludes that 'lo tichbeh' is a prohibition against extinguishing the fire, not a directive to add a new wood arrangement, so the verse does not support R. Meir's fifth arrangement - the final ruling follows R. Yehuda's four.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "'It shall not be extinguished' (lo tichbeh) is a prohibition against letting the altar fire go out, not a command to add a new wood arrangement; the final ruling follows R. Yehuda that four arrangements suffice."
+        },
+        "learningBlocker": "Learners may read 'lo tichbeh' as describing an additional wood-arrangement requirement because it appears alongside the wood-arrangement verses, missing that the Gemara identifies it as a separate prohibition about maintaining the fire."
       },
       "argumentFlow": [
         {
@@ -173,7 +180,11 @@
         "wood arrangement count dispute"
       ],
       "misconceptions": [
-        "The prohibition 'lo tichbeh' is about maintaining the fire, not creating a new pyre."
+        {
+          "misconception": "The phrase 'it shall not be extinguished' is part of the verse's instructions for how many wood arrangements to build on the altar.",
+          "correction": "The Gemara reads 'lo tichbeh' as a prohibition against letting the fire go out, not as a new wood-arrangement requirement; the final ruling follows R. Yehuda's four arrangements.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-045a-s01"
@@ -186,8 +197,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does 'lo tichbeh' (it shall not be extinguished) teach about the altar fire?",
-          "answer": "It is a prohibition against extinguishing the altar fire, not a requirement for a new separate wood arrangement."
+          "answer": "It is a prohibition against extinguishing the altar fire, not a requirement for a new separate wood arrangement.",
+          "question": "What does 'lo tichbeh' (it shall not be extinguished) teach about the altar fire?"
         }
       ],
       "finalRuling": "The altar fire prohibition 'lo tichbeh' is not a new arrangement but a ban on extinguishing the existing fire; R. Yehuda holds four arrangements suffice.",

@@ -72,13 +72,20 @@
       ],
       "display": {
         "whats": "Is ritual impurity hutrah (permitted) or dechuyah (suspended) for communal service, and what is the scope of the perpetual altar fire prohibition?",
-        "hint": "Two key principles: (1) Communal tumah is hutrah - truly permitted, not merely suspended. This affects edge cases like a priest who becomes impure mid-service. (2) The altar fire prohibition applies continuously and is not suspended even on Shabbat. The Gemara works through both."
+        "hint": "Two key principles: (1) Communal tumah is hutrah - truly permitted, not merely suspended. This affects edge cases like a priest who becomes impure mid-service. (2) The altar fire prohibition applies continuously and is not suspended even on Shabbat. The Gemara works through both.",
+        "title": "Truly Permitted, Not Just Tolerated: Hutrah vs. Dechuyah"
       },
       "learning": {
-        "summary": "The hutrah vs. dechuyah distinction determines how to handle a situation where a priest becomes impure mid-service on a day when the majority are impure. If tumah is hutrah, he may continue; if dechuyah, perhaps not.",
         "ahaMoment": "Tumah hutrah b'tzibur: communal impurity is truly permitted, not just tolerated. The altar fire never goes out - even on Shabbat the fire is not among the 39 prohibited labors because it was never included.",
         "memoryAnchor": "Hutrah = truly permitted. Dechuyah = prohibited but overridden. The practical difference shows when the impurity arose mid-service.",
-        "openQuestion": "If a kohen becomes impure mid-service on a day when the community is impure, can he finish the service?"
+        "learnerQuestion": "Is communal ritual impurity truly permitted (hutrah) for Temple service, or merely tolerated and pushed aside (dechuyah) - and does the altar fire's perpetual burning ever count as violating Shabbat?",
+        "coreTension": "Whether communal tumah is hutrah or dechuyah has real practical stakes, such as whether a priest who becomes impure mid-service may continue, and the perpetual altar fire raises a parallel question of whether maintaining it on Shabbat is an override or was never included in the Shabbat prohibition at all.",
+        "coreMove": "The Gemara proves from Rav Chisda that communal tumah must be hutrah, since two would-be dechuyot would otherwise cancel each other out, and rules that the altar fire was never included among the Shabbat-prohibited labors, so tending it is not an override at all.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Communal ritual impurity is hutrah (truly permitted), not merely dechuyah (suspended) - proven from the fact that competing dechuyot would otherwise cancel each other out; the altar fire's continuous burning on Shabbat is not an override, since the fire was never included in the Shabbat prohibitions to begin with."
+        },
+        "learningBlocker": "Learners may assume 'hutrah' means the prohibition was technically violated but excused, missing that it means the case was never included in the prohibition in the first place."
       },
       "argumentFlow": [
         {
@@ -160,7 +167,11 @@
         "Shabbat and Temple service"
       ],
       "misconceptions": [
-        "'Hutrah' does not mean the prohibition was violated - it means this case was never included in the prohibition."
+        {
+          "misconception": "'Hutrah' means the prohibition technically applies but is excused or overlooked for the sake of Temple service.",
+          "correction": "'Hutrah' means the case was never included in the prohibition at all - it is genuinely permitted, not merely excused, which is why competing dechuyot would otherwise cancel each other out but hutrah does not.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -171,8 +182,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the difference between tumah hutrah and tumah dechuyah?",
-          "answer": "Hutrah means tumah was never prohibited in communal Temple service (truly permitted); dechuyah means it is prohibited but overridden by Temple service need. The difference appears when impurity arises mid-service."
+          "answer": "Hutrah means tumah was never prohibited in communal Temple service (truly permitted); dechuyah means it is prohibited but overridden by Temple service need. The difference appears when impurity arises mid-service.",
+          "question": "What is the difference between tumah hutrah and tumah dechuyah?"
         }
       ],
       "finalRuling": "Communal tumah is hutrah (truly permitted) for Temple service; the altar fire prohibition applies on Shabbat since the fire is not among the 39 prohibited labors.",

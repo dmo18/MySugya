@@ -27,13 +27,20 @@
       ],
       "display": {
         "whats": "What was brought out to the High Priest and why does the Mishna call the vessel a 'spoon'?",
-        "hint": "The Mishna says a spoon and coal pan were brought out. The Gemara is surprised - a spoon is normally for liquids, not incense powder. The answer: a special incense spoon was used because it is physically impossible to scoop dry incense powder with bare hands without spilling."
+        "hint": "The Mishna says a spoon and coal pan were brought out. The Gemara is surprised - a spoon is normally for liquids, not incense powder. The answer: a special incense spoon was used because it is physically impossible to scoop dry incense powder with bare hands without spilling.",
+        "title": "A Spoon for Powder: Why Not Just Use Hands?"
       },
       "learning": {
-        "summary": "The Mishna uses 'spoon' (kaf) because the incense is fine powder that cannot be held in cupped hands. The spoon transfers the incense into the hollow of the High Priest's hands - a unique handling method.",
         "ahaMoment": "You cannot scoop dry incense with your hands - you would spill it. The spoon pours it into the cupped hands. It's a practical necessity that looks unusual.",
         "memoryAnchor": "A spoon for incense powder - unusual but necessary because dry powder cannot be hand-scooped without spilling.",
-        "openQuestion": "Why not use the spoon to carry the incense directly into the Holy of Holies instead of transferring to the hands?"
+        "learnerQuestion": "Why does the Mishna call the vessel brought to the High Priest a 'spoon' when a spoon is normally used for liquids, not incense powder?",
+        "coreTension": "A spoon (kaf) ordinarily transfers liquids, but the Mishna uses it to bring out dry incense powder, and the Gemara is surprised by the vessel choice until it identifies the practical necessity behind it.",
+        "coreMove": "The Gemara explains that dry incense powder cannot be scooped directly by bare hands without spilling, so the spoon serves to pour the powder into the High Priest's cupped hands - resolving the apparent mismatch as a practical necessity, not a naming error.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The 'spoon' brought to the High Priest is used because dry incense powder cannot be hand-scooped without spilling - the spoon pours the powder into his cupped hands, a practical necessity despite the unusual vessel choice."
+        },
+        "learningBlocker": "Learners may assume the Mishna's word 'spoon' is simply loose terminology for any small vessel, missing that the Gemara treats the word choice as significant and resolves it through a specific practical explanation."
       },
       "argumentFlow": [
         {
@@ -85,7 +92,11 @@
         "Holy of Holies entry sequence"
       ],
       "misconceptions": [
-        "The spoon is not for measuring - it is for transferring powder to the hands."
+        {
+          "misconception": "The Mishna's use of the word 'spoon' for the incense vessel is just loose or generic terminology, with no real significance to the Gemara.",
+          "correction": "The Gemara is struck by the word choice precisely because a spoon is normally for liquids, and resolves it with a specific practical explanation: dry incense powder cannot be hand-scooped without spilling, so the spoon pours it into the High Priest's cupped hands.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-047b-s01"
@@ -98,8 +109,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was a spoon used for the Yom Kippur incense?",
-          "answer": "Because it is impossible to scoop dry incense powder with bare hands without spilling; the spoon transfers the incense into the cupped hands."
+          "answer": "Because it is impossible to scoop dry incense powder with bare hands without spilling; the spoon transfers the incense into the cupped hands.",
+          "question": "Why was a spoon used for the Yom Kippur incense?"
         }
       ],
       "finalRuling": "A spoon is used to transfer incense powder to the High Priest's cupped hands because dry powder cannot be hand-scooped without spilling.",
@@ -141,13 +152,20 @@
       ],
       "display": {
         "whats": "How does the High Priest scoop his handfuls and why is this called the most difficult act?",
-        "hint": "The High Priest scoops both handfuls of incense from the spoon into his palms, holding the spoon with his thumbs and little fingers while his three middle fingers hold the incense. This is called 'the most difficult service in the Temple' because it requires extraordinary manual dexterity."
+        "hint": "The High Priest scoops both handfuls of incense from the spoon into his palms, holding the spoon with his thumbs and little fingers while his three middle fingers hold the incense. This is called 'the most difficult service in the Temple' because it requires extraordinary manual dexterity.",
+        "title": "The Hardest Grip in the Temple"
       },
       "learning": {
-        "summary": "The physical mechanics: the High Priest must hold the spoon with his thumbs/little fingers while the middle three fingers cup the incense. No spillage allowed. This requires intense practice and is the hardest physical act of the entire Yom Kippur service.",
         "ahaMoment": "The most difficult Temple service act: cupping incense in the middle three fingers while pinching the spoon with thumbs and little fingers. Practiced for months before Yom Kippur.",
         "memoryAnchor": "The kometz act is so difficult that young kohanim trained intensively; even experienced ones sometimes failed.",
-        "openQuestion": "How long did High Priests train specifically for this act, and was there ever a case of failure?"
+        "learnerQuestion": "What makes the act of scooping the incense handfuls (kometz) the most difficult service in the Temple?",
+        "coreTension": "The Mishna calls the kometz the most difficult Temple service, but a simple scooping motion does not obviously explain why - the Gemara must specify the precise mechanics that make it so demanding.",
+        "coreMove": "The Gemara details the exact grip: the High Priest holds the spoon with his thumbs and little fingers while his three middle fingers cup the incense without spilling, showing that the difficulty lies in the extraordinary manual dexterity this dual grip requires.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The kometz is called the most difficult Temple service because the High Priest must grip the spoon with his thumbs and little fingers while his middle three fingers simultaneously cup the incense without spilling - a feat of manual dexterity, not spiritual intensity."
+        },
+        "learningBlocker": "Learners may assume 'most difficult service' refers to spiritual or emotional intensity, missing that the Gemara specifically grounds the difficulty in the physical dexterity required by the dual-grip mechanics."
       },
       "argumentFlow": [
         {
@@ -215,7 +233,11 @@
         "kometz laws generally"
       ],
       "misconceptions": [
-        "The 'most difficult service' designation is about physical dexterity, not spiritual intensity."
+        {
+          "misconception": "The kometz is called the 'most difficult service' because of the spiritual intensity and emotional weight of the moment, not its physical mechanics.",
+          "correction": "The Gemara grounds the difficulty specifically in physical dexterity: gripping the spoon with thumbs and little fingers while the middle three fingers cup the incense without spilling is a genuinely demanding manual feat.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -226,8 +248,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why is the kometz (handful scooping) act called the most difficult service in the Temple?",
-          "answer": "Because the High Priest must hold the incense spoon with his thumbs and little fingers while his middle three fingers cup the incense powder without spilling - an act requiring extraordinary dexterity."
+          "answer": "Because the High Priest must hold the incense spoon with his thumbs and little fingers while his middle three fingers cup the incense powder without spilling - an act requiring extraordinary dexterity.",
+          "question": "Why is the kometz (handful scooping) act called the most difficult service in the Temple?"
         }
       ],
       "finalRuling": "The kometz is the most difficult Temple service act, requiring the High Priest to grip the spoon with thumbs and little fingers while cupping incense in the middle three fingers.",
@@ -259,13 +281,20 @@
       ],
       "display": {
         "whats": "Which hand held the coal pan and which held the incense spoon?",
-        "hint": "The coal pan was held in the right hand and the incense ladle in the left. The High Priest then transferred the coal pan to his left side (using his left arm) and placed the incense on the coals with his right hand inside the Holy of Holies."
+        "hint": "The coal pan was held in the right hand and the incense ladle in the left. The High Priest then transferred the coal pan to his left side (using his left arm) and placed the incense on the coals with his right hand inside the Holy of Holies.",
+        "title": "Right Hand for Coals, Left for Incense - Then Switch"
       },
       "learning": {
-        "summary": "The right/left hand assignment matters for the sequence inside the Holy of Holies - the pan goes right, the ladle left, then switching enables placing incense on coals.",
         "ahaMoment": "Right hand: coal pan. Left hand: incense spoon. Inside the Kodesh Kodashim: switch so right hand places incense on coals.",
         "memoryAnchor": "Coal pan in right hand, incense ladle in left - then the right hand places the incense.",
-        "openQuestion": "What happens if the High Priest held the coal pan in his left hand?"
+        "learnerQuestion": "Which hand held the coal pan and which held the incense spoon, and why does the assignment matter?",
+        "coreTension": "The High Priest carries two vessels into the Holy of Holies, and the Mishna's specific right/left hand assignment raises the question of whether this detail is incidental or essential to the sequence that follows once he is inside.",
+        "coreMove": "The Mishna specifies the coal pan in the right hand and the incense spoon in the left, and the Gemara shows this assignment enables the subsequent sequence: inside the Holy of Holies he sets down the pan and uses his right hand to place the incense on the coals.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The coal pan is held in the right hand and the incense spoon in the left while entering; inside the Holy of Holies, the High Priest sets the pan down and places the incense on the coals with his right hand."
+        },
+        "learningBlocker": "Learners may treat the right/left hand assignment as an incidental detail, missing that it sets up the specific sequence of actions that follows once the High Priest is inside the Holy of Holies."
       },
       "argumentFlow": [
         {
@@ -318,7 +347,11 @@
         "Holy of Holies entry mechanics"
       ],
       "misconceptions": [
-        "The right hand is the dominant hand; the coal pan (heavier) goes in the right."
+        {
+          "misconception": "Which hand holds the coal pan versus the incense spoon is an incidental detail with no bearing on what happens next inside the Holy of Holies.",
+          "correction": "The hand assignment sets up the sequence that follows: with the coal pan in the right hand and the incense spoon in the left, the High Priest can set down the pan and use his right hand to place the incense on the coals once inside.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -329,8 +362,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Which hand held the coal pan?",
-          "answer": "The right hand held the coal pan; the left hand held the incense ladle (spoon)."
+          "answer": "The right hand held the coal pan; the left hand held the incense ladle (spoon).",
+          "question": "Which hand held the coal pan?"
         }
       ],
       "finalRuling": "Coal pan in right hand; incense ladle in left hand; inside the Holy of Holies the incense is placed on the coals with the right hand.",
@@ -377,13 +410,20 @@
       ],
       "display": {
         "whats": "What happened to R. Yishmael ben Kimhit, and what merit allowed her sons to serve as High Priests?",
-        "hint": "R. Yishmael ben Kimhit had seven sons who all served as High Priests. The Sages asked what merit she had. She answered: the walls of my house never saw the braids of my hair. Her extreme modesty within the home was the merit. One son became impure from a Gentile's spittle on Yom Kippur; she replaced him with a brother."
+        "hint": "R. Yishmael ben Kimhit had seven sons who all served as High Priests. The Sages asked what merit she had. She answered: the walls of my house never saw the braids of my hair. Her extreme modesty within the home was the merit. One son became impure from a Gentile's spittle on Yom Kippur; she replaced him with a brother.",
+        "title": "Kimhit's Modesty: Seven Sons, One Merit"
       },
       "learning": {
-        "summary": "The extreme modesty of Kimhit - not just covering her hair in public but even the walls of her house never saw her braids - merited having seven sons serve as High Priest. One dramatic moment: a Gentile's spittle splashed on her son during Yom Kippur, making him impure; a brother substituted.",
         "ahaMoment": "Seven sons as High Priests because their mother's modesty was so complete that even the walls of her home never saw her hair uncovered. Modesty of this level is considered a supreme merit.",
         "memoryAnchor": "Kimhit's modesty: even the walls never saw her hair. Seven High Priest sons. One Yom Kippur emergency replacement when a son became impure.",
-        "openQuestion": "If extreme personal modesty can merit seven High Priest sons, what does this teach about the spiritual value of tzniut?"
+        "learnerQuestion": "What merit did Kimhit have that all seven of her sons served as High Priest, and what happened when one of them became impure on Yom Kippur itself?",
+        "coreTension": "Having seven sons serve as High Priest is an extraordinary, seemingly unrepeatable outcome, and the Sages press Kimhit to explain what she did to merit it, while the Yom Kippur service itself demands an immediate answer when a son becomes impure mid-service.",
+        "coreMove": "Kimhit answers that the walls of her house never saw the braids of her hair - a level of modesty extending even into private space - and the Gemara notes other women practiced similar modesty without the same result, marking her case as exceptional; meanwhile a brother substitutes when one son is disqualified by a Gentile's spittle.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Kimhit attributed her seven sons' service as High Priest to modesty so complete that even the walls of her own house never saw her hair uncovered; when one son became impure on Yom Kippur from a Gentile's spittle, a brother substituted for him."
+        },
+        "learningBlocker": "Learners may assume Kimhit's modesty was simply standard practice that any woman would have followed, missing that the Sages specifically note other women practiced similarly without the same result - marking her case as exceptional."
       },
       "argumentFlow": [
         {
@@ -468,7 +508,11 @@
         "tzniut values"
       ],
       "misconceptions": [
-        "Kimhit's modesty went beyond the legal requirement - it was an act of extraordinary piety."
+        {
+          "misconception": "Kimhit's modesty was simply ordinary, expected practice that any observant woman of the time would have followed.",
+          "correction": "The Sages note that many women practiced similar modesty without the same result - Kimhit's case is marked as exceptional, going beyond the ordinary expectation.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-040b-s01"
@@ -485,8 +529,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What merit did Kimhit claim for having seven sons serve as High Priest?",
-          "answer": "The walls of her house never saw the braids of her hair - her modesty inside her home was so extreme that even her own walls never witnessed her hair uncovered."
+          "answer": "The walls of her house never saw the braids of her hair - her modesty inside her home was so extreme that even her own walls never witnessed her hair uncovered.",
+          "question": "What merit did Kimhit claim for having seven sons serve as High Priest?"
         }
       ],
       "finalRuling": "Kimhit's extraordinary modesty - walls never seeing her hair - merited seven sons as High Priests; when one became impure on Yom Kippur from Gentile spittle, a brother substituted.",
@@ -533,13 +577,20 @@
       ],
       "display": {
         "whats": "What does 'his handfuls' (kometz) require - exactly three middle fingers' worth?",
-        "hint": "The baraita discusses 'his handfuls' (v'kamatz) - does this mean exactly three fingers, or can it be more? The Gemara analyzes whether the kometz must be exactly filled (not overflowing, not scant) and what the verse requires."
+        "hint": "The baraita discusses 'his handfuls' (v'kamatz) - does this mean exactly three fingers, or can it be more? The Gemara analyzes whether the kometz must be exactly filled (not overflowing, not scant) and what the verse requires.",
+        "title": "Not a Fist, Not Fingertips: The Exact Kometz"
       },
       "learning": {
-        "summary": "The kometz requirement is precise: not a fist (too much), not fingers only (too little), but exactly the middle-of-three-fingers amount. The verse teaches the exact measure.",
         "ahaMoment": "Kometz: not too much (clenched fist), not too little (finger-tips only), but exactly the middle-finger-pad amount.",
         "memoryAnchor": "The kometz must be precisely the middle three fingers' worth - exact calibration is part of the service.",
-        "openQuestion": "If a bit more or less than the exact kometz amount is taken, is the service valid?"
+        "learnerQuestion": "What does the Torah's phrase 'his handfuls' (v'kamatz) require - is any amount of fingers acceptable, or is there an exact measure?",
+        "coreTension": "The verse could be read either as requiring a full closed fist or as permitting any small amount touched by the fingertips, and the baraita must narrow this open-ended phrase to a precise, workable measure.",
+        "coreMove": "The Gemara derives from 'kometz' that the amount must not overflow a closed fist, and from 'his handfuls' that it must not be a mere fingertip touch, converging on the exact middle-three-fingers amount as the only valid measure.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The kometz must be exactly the amount held by the three middle fingers - 'kometz' excludes an overflowing full fist, and 'his handfuls' excludes a mere fingertip touch."
+        },
+        "learningBlocker": "Learners may think any amount roughly fitting in the hand satisfies 'his handfuls,' missing that the Gemara derives a precise measure - not too much, not too little - from the verse's specific wording."
       },
       "argumentFlow": [
         {
@@ -592,7 +643,11 @@
         "incense service precision"
       ],
       "misconceptions": [
-        "The kometz is both a quantity (three fingers) and a technique (middle fingers specifically)."
+        {
+          "misconception": "Any amount of incense or flour that roughly fits in the High Priest's hand satisfies the Torah's requirement of 'his handfuls.'",
+          "correction": "The Gemara derives an exact measure from the verse's wording: 'kometz' excludes an overflowing fist and 'his handfuls' excludes a mere fingertip touch, leaving only the precise middle-three-fingers amount as valid.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -603,8 +658,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does 'kometz' (handful) require in Temple law?",
-          "answer": "Exactly the amount held by the three middle fingers - not a clenched fist (too much) and not just fingertips (too little)."
+          "answer": "Exactly the amount held by the three middle fingers - not a clenched fist (too much) and not just fingertips (too little).",
+          "question": "What does 'kometz' (handful) require in Temple law?"
         }
       ],
       "finalRuling": "The kometz must be exactly the three-middle-finger amount: not overflowing and not scant.",
@@ -631,13 +686,20 @@
       ],
       "display": {
         "whats": "What additional detail does the baraita teach about 'his handfuls' in the incense service?",
-        "hint": "The final baraita on this page teaches that 'his handfuls' means the High Priest must take the incense with his own hands and not use a vessel as the primary measure. The human hand is the measure - the spoon is only for transfer."
+        "hint": "The final baraita on this page teaches that 'his handfuls' means the High Priest must take the incense with his own hands and not use a vessel as the primary measure. The human hand is the measure - the spoon is only for transfer.",
+        "title": "His Own Hands: The Body as the Measuring Tool"
       },
       "learning": {
-        "summary": "The human hand is the kometz measure - not a standardized vessel. The spoon is secondary; the hand is primary.",
         "ahaMoment": "The hand is the measuring instrument for the kometz - Temple law uses the human body as the standard.",
         "memoryAnchor": "His handfuls = specifically his hands, not a vessel measuring a fixed volume.",
-        "openQuestion": "If different High Priests had different hand sizes, did the kometz quantity vary?"
+        "learnerQuestion": "Does 'his handfuls' mean the High Priest must use his own hands specifically, rather than a standardized measuring vessel?",
+        "coreTension": "Temple measures are usually fixed and standardized, so it is not obvious whether the kometz should likewise be measured by a uniform vessel or by the variable hands of whichever kohen performs the rite.",
+        "coreMove": "The baraita reads 'his handfuls' as requiring the kohen's own hands as the measuring instrument, rejecting a standardized vessel and establishing the human hand itself as the Torah's chosen measure for this rite.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "'His handfuls' means the kometz must be taken with the kohen's own hands, not a standardized vessel - the human hand itself is the measuring instrument the Torah specifies."
+        },
+        "learningBlocker": "Learners may assume Temple measures are always standardized vessels for consistency, missing that the Gemara specifically reads 'his handfuls' as requiring the variable human hand as the measure."
       },
       "argumentFlow": [
         {
@@ -674,7 +736,11 @@
         "Temple measurement standards"
       ],
       "misconceptions": [
-        "The hand size of the High Priest determines the quantity - this is intentional, not a flaw."
+        {
+          "misconception": "Like other Temple measures, the kometz must be taken using a standardized vessel to ensure a consistent quantity regardless of who performs the rite.",
+          "correction": "The Gemara reads 'his handfuls' as requiring the kohen's own hands, not a vessel - the human hand itself is the Torah's chosen measuring instrument for this rite, even though hand sizes vary.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -685,8 +751,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the standard measure for a kometz?",
-          "answer": "The human hand of the kohen himself - not a standardized vessel. The hand is the measuring instrument."
+          "answer": "The human hand of the kohen himself - not a standardized vessel. The hand is the measuring instrument.",
+          "question": "What is the standard measure for a kometz?"
         }
       ],
       "finalRuling": "The kometz must be taken with his own hands - the human hand is the measure, not a fixed-volume vessel.",

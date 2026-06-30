@@ -10,6 +10,14 @@ validator cannot catch.
 Do not act on entries here without an explicit Rashi pass. Do not edit
 `modules/yoma/` Rashi content based on this note alone.
 
+## Scope note
+
+When a dedicated Rashi helper audit pass is eventually run, it must check
+both alignment (he order/count vs. Vilna, en+enSource presence, no leak
+into Gemara - already covered by `validate:rashi:yoma`) and nekudot/
+vowelization correctness in the `he:` fields, which the structural
+validator does not check.
+
 ## Status
 
 No entries yet. No dedicated Rashi audit pass has been run against the
