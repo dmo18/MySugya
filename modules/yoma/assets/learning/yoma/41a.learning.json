@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "Anonymous Sifra = R. Yehuda; the goat going to Azazel belongs to this ruling.",
-        "hint": "The anonymous view in the Sifra is R. Yehuda; this affects rulings about the Azazel goat."
+        "hint": "The anonymous view in the Sifra is R. Yehuda; this affects rulings about the Azazel goat.",
+        "title": "The Anonymous Sifra Follows R. Yehuda"
       },
       "learning": {
-        "summary": "A general principle: the anonymous (setam) Sifra follows R. Yehuda. The goat-to-Azazel provisions follow this attribution.",
         "ahaMoment": "When the Gemara says 'the Sifra' without naming an author, it always means R. Yehuda.",
         "memoryAnchor": "Setam Sifra = R. Yehuda - the quiet author behind the Torat Kohanim.",
-        "openQuestion": "Why does knowing the anonymous author of the Sifra matter halachically?"
+        "learnerQuestion": "Why does it matter that an unattributed ruling in the Sifra is assumed to follow R. Yehuda?",
+        "coreTension": "A ruling stated without a named author could in principle follow any tanna's position, leaving its halachic weight and scope ambiguous until the author is identified.",
+        "coreMove": "The Gemara states the general attribution rule directly, then applies it to the goat-to-Azazel provisions, fixing their authorship and thereby their legal context.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When the Sifra states a ruling anonymously, the Gemara treats it as following R. Yehuda's position, a default attribution rule applied here to the goat-to-Azazel provisions."
+        },
+        "learningBlocker": "Learners may assume anonymous rulings are authorless or universally agreed-upon, missing that the Gemara assigns them a specific, identifiable author by a fixed convention."
       },
       "argumentFlow": [
         {
@@ -82,8 +89,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Whose view does the anonymous Sifra follow?",
-          "a": "R. Yehuda."
+          "question": "Whose view does the anonymous Sifra follow?",
+          "answer": "R. Yehuda."
         }
       ],
       "finalRuling": "Anonymous Sifra = R. Yehuda.",
@@ -175,13 +182,20 @@
       ],
       "display": {
         "whats": "Rav Chisda: bird pairs (kinnim) are only designated at the moment of slaughter.",
-        "hint": "When a woman designates two birds for kinnim offerings, they become specific only when the first is slaughtered."
+        "hint": "When a woman designates two birds for kinnim offerings, they become specific only when the first is slaughtered.",
+        "title": "Kinnim: Designated by Slaughter, Not by Intent"
       },
       "learning": {
-        "summary": "Rav Chisda rules that when a woman brings two birds as kinnim (bird-pair offerings - one as olah, one as chatat), they are not specifically designated until the moment of slaughter. Before slaughter, each bird is potentially either the olah or the chatat. The first bird slaughtered for chatat becomes the chatat; the second becomes the olah. This has major implications for what happens if one bird dies before the pair is offered.",
         "ahaMoment": "Bird pair designation is activated by the act of slaughter, not by prior intent - the event determines identity.",
         "memoryAnchor": "Kinnim identity = determined at slaughter: which is cut first = that becomes the chatat; the survivor becomes the olah.",
-        "openQuestion": "If a woman said 'this one is the chatat and this one is the olah,' does Rav Chisda's rule still apply?"
+        "learnerQuestion": "When does a pair of birds (kinnim) become specifically designated as the chatat and the olah?",
+        "coreTension": "A woman bringing kinnim might intend from the outset which bird is which, yet Rav Chisda holds that intent alone does not fix their identity, raising the question of what actually does.",
+        "coreMove": "Rav Chisda rules that designation occurs only at the moment of slaughter, the first bird slaughtered for chatat becomes the chatat, while R. Yochanan counters that explicit prior naming is also binding even before slaughter, and the Gemara traces the practical fallout (replacement pairs, mixed-up scenarios) from each position.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Rav Chisda rules that kinnim are designated only at the moment of slaughter, the first bird slaughtered becomes the chatat and the second the olah; R. Yochanan holds that explicit prior designation is also binding, which determines what happens if a bird dies or the pair gets mixed up before slaughter."
+        },
+        "learningBlocker": "Learners may assume verbal designation always fixes an offering's identity, missing Rav Chisda's distinct claim that for kinnim specifically, the act of slaughter, not stated intent, is what fixes it."
       },
       "argumentFlow": [
         {
@@ -388,7 +402,11 @@
         "olah"
       ],
       "misconceptions": [
-        "The pair is designated when the woman says 'this is the chatat'"
+        {
+          "misconception": "A pair of kinnim birds becomes specifically designated the moment the woman says 'this one is the chatat.'",
+          "correction": "According to Rav Chisda, that statement alone does not fix the designation; the birds remain potentially either the chatat or the olah until the moment of slaughter, when the first one slaughtered becomes the chatat. R. Yochanan disagrees and holds explicit prior naming is binding even before slaughter, the two positions disagree precisely on whether the woman's statement is enough.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-041b-s01"
@@ -402,8 +420,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "According to Rav Chisda, when are kinnim bird pairs specifically designated?",
-          "a": "At the moment of slaughter; the first bird slaughtered becomes the chatat and the second the olah."
+          "question": "According to Rav Chisda, when are kinnim bird pairs specifically designated?",
+          "answer": "At the moment of slaughter; the first bird slaughtered becomes the chatat and the second the olah."
         }
       ],
       "finalRuling": "Rav Chisda: kinnim are designated at slaughter; first slaughtered = chatat, second = olah; prior explicit naming may also bind.",

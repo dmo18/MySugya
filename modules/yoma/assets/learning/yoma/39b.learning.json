@@ -27,13 +27,20 @@
       ],
       "display": {
         "whats": "Continuation: 'chamtzan' (sour/bitter) describes the era after Shimon HaTzaddik.",
-        "hint": "The era following Shimon HaTzaddik became 'sour' - divine favor withdrew."
+        "hint": "The era following Shimon HaTzaddik became 'sour' - divine favor withdrew.",
+        "title": "Chamtzan: The Sour Era After Shimon HaTzaddik"
       },
       "learning": {
-        "summary": "Brief continuation from 39a: the word 'chamtzan' (sour, bitter) describes how the priestly service became diminished after Shimon HaTzaddik died. His era was sweet; what followed was bitter.",
         "ahaMoment": "Chamtzan = the bitterness of decline; the sweetness of Shimon HaTzaddik's era contrasted with what came after.",
         "memoryAnchor": "Sweet era (Shimon) vs sour era (aftermath) - one word captures the contrast.",
-        "openQuestion": "Does 'chamtzan' refer to moral decline or simply the loss of miraculous signs?"
+        "learnerQuestion": "What does the term 'chamtzan' (sour/bitter) capture about the period immediately following Shimon HaTzaddik's death?",
+        "coreTension": "The four-miracle era was sweet (good); chamtzan names what came after as its opposite, but the single word leaves open how sharply or how soon the change occurred.",
+        "coreMove": "The Gemara's placement of 'chamtzan' directly after the account of the signs ceasing ties the word to that same abrupt transition, not a gradual fading.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "'Chamtzan' (sour, bitter) names the era after Shimon HaTzaddik's death, when the four miraculous signs of his service ceased, the word captures a sudden reversal, not a slow decline."
+        },
+        "learningBlocker": "Learners may assume 'chamtzan' implies a gradual souring over generations, missing that the Gemara places it immediately after the account of the signs reversing at his death."
       },
       "argumentFlow": [
         {
@@ -97,8 +104,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What does 'chamtzan' describe?",
-          "a": "The sour/bitter quality of the Temple service era after Shimon HaTzaddik's death, when the miraculous signs ceased."
+          "question": "What does 'chamtzan' describe?",
+          "answer": "The sour/bitter quality of the Temple service era after Shimon HaTzaddik's death, when the miraculous signs ceased."
         }
       ],
       "finalRuling": "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
@@ -155,13 +162,20 @@
       ],
       "display": {
         "whats": "The year Shimon HaTzaddik told his disciples he would die; the goat to Azazel grew thin.",
-        "hint": "Shimon HaTzaddik predicted his death; that year the Azazel goat grew lean and the crimson thread did not turn white."
+        "hint": "Shimon HaTzaddik predicted his death; that year the Azazel goat grew lean and the crimson thread did not turn white.",
+        "title": "The Year Shimon HaTzaddik Foretold His Death"
       },
       "learning": {
-        "summary": "The year Shimon HaTzaddik died, he told his disciples beforehand. That year the Yom Kippur goat sent to Azazel began to grow thin during its walk to the cliff - a sign of rejection. The crimson thread tied to it did not turn white as usual. These are additional signs that his era was ending. The baraita about when exactly the crimson thread would turn white is discussed.",
         "ahaMoment": "Shimon HaTzaddik foresaw his own death; the ominous signs on the Azazel goat confirmed that Yom Kippur's spiritual power was fading.",
         "memoryAnchor": "Thin Azazel goat + thread stays red = Yom Kippur atonement weakening; Shimon HaTzaddik knew his time was up.",
-        "openQuestion": "Did the Azazel goat's weight indicate whether Yom Kippur atonement was accepted?"
+        "learnerQuestion": "What signs accompanied the specific year Shimon HaTzaddik told his disciples he would die?",
+        "coreTension": "Shimon HaTzaddik predicted his own death in advance, and that same year the Azazel goat grew thin and the crimson thread did not turn white, raising the question of whether these were independent omens or directly connected to his prophecy.",
+        "coreMove": "The Gemara places the prediction and the physical signs (thin goat, thread staying red) in the same account, treating the goat's and thread's behavior as confirming evidence alongside his own foreknowledge.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The year Shimon HaTzaddik foretold his death, the Azazel goat grew thin on its way to the cliff and the crimson thread did not turn white, signs the Gemara reads as confirming that his era of divine favor was ending."
+        },
+        "learningBlocker": "Learners may treat the crimson thread's behavior as a fixed ritual outcome rather than a variable sign whose failure to turn white was itself meaningful."
       },
       "argumentFlow": [
         {
@@ -281,7 +295,11 @@
         "Azazel goat"
       ],
       "misconceptions": [
-        "The crimson thread always turned white if the ritual was performed"
+        {
+          "misconception": "The crimson thread always turned white automatically whenever the Yom Kippur ritual was correctly performed.",
+          "correction": "The Gemara presents the thread's turning white as a variable sign of divine acceptance, not a guaranteed mechanical outcome of correct ritual performance. Its failure to turn white in Shimon HaTzaddik's final year, despite the ritual being performed, is precisely what made it significant as an omen.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-039b-s03"
@@ -295,8 +313,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What happened to the Azazel goat in the year Shimon HaTzaddik died?",
-          "a": "It grew thin on its way to the cliff, and the crimson thread tied to it did not turn white - signs of declining atonement."
+          "question": "What happened to the Azazel goat in the year Shimon HaTzaddik died?",
+          "answer": "It grew thin on its way to the cliff, and the crimson thread tied to it did not turn white - signs of declining atonement."
         }
       ],
       "finalRuling": "In Shimon HaTzaddik's final year the Azazel goat grew thin and the crimson thread did not turn white.",
@@ -338,13 +356,20 @@
       ],
       "display": {
         "whats": "The lots are placed on the two goats; baraita: ten times the God-lot came up right.",
-        "hint": "The KG places the lots on the goats' heads; in Second Temple times the right-hand lot was usually for God."
+        "hint": "The KG places the lots on the goats' heads; in Second Temple times the right-hand lot was usually for God.",
+        "title": "Placing the Lots: A Public Oracle"
       },
       "learning": {
-        "summary": "After drawing the lots, the KG places them on the goats: the 'for God' lot on the right goat, 'for Azazel' on the left. A baraita notes that in Second Temple times, more often than not the God-lot came up in the right hand - a good omen. In the 40 years before destruction it consistently came up in the left.",
         "ahaMoment": "The lot's hand position was a public divine oracle: right = accepted, left = rejected. Everyone watching knew the verdict.",
         "memoryAnchor": "Right hand = God accepts; left hand = God rejects. The lot was a live barometer of national standing.",
-        "openQuestion": "Does the left-hand lot mean atonement failed, or simply that the omen was bad?"
+        "learnerQuestion": "How did the Kohen Gadol designate the two goats after drawing the lots, and what did onlookers learn from it?",
+        "coreTension": "The lot drawing itself happened in the KG's hands, but its result needed to become public and binding, the question is how the private draw became a visible, formal designation.",
+        "coreMove": "The Gemara describes the KG placing each lot on the corresponding goat's head and declaring 'chattat l'HaShem,' converting the private draw into a public, verbally confirmed designation that everyone present could witness.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The KG placed the 'for God' lot on the right goat's head and the 'for Azazel' lot on the left, announcing 'chattat l'HaShem', the lot's outcome was a public, verbally confirmed oracle, not a private determination."
+        },
+        "learningBlocker": "Learners may assume the lot ceremony was a quiet procedural step, missing that the Gemara frames it as a publicly witnessed declaration with real evidentiary weight for the nation."
       },
       "argumentFlow": [
         {
@@ -440,8 +465,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What did the KG say when placing the 'for God' lot on the goat?",
-          "a": "'Chattat l'HaShem' - a sin-offering for God."
+          "question": "What did the KG say when placing the 'for God' lot on the goat?",
+          "answer": "'Chattat l'HaShem' - a sin-offering for God."
         }
       ],
       "finalRuling": "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
@@ -498,13 +523,20 @@
       ],
       "display": {
         "whats": "R. Yannai: drawing the lot from the box; dispute whether right or left hand matters.",
-        "hint": "The manner of drawing the lots and whether the hand matters is debated."
+        "hint": "The manner of drawing the lots and whether the hand matters is debated.",
+        "title": "Must the God-Lot Land in the Right Hand?"
       },
       "learning": {
-        "summary": "R. Yannai rules about the drawing of the lots from the box. The dispute is whether it matters which hand naturally drew which lot, or whether the right-hand position of the 'for God' lot is always required. The Gemara also discusses what happens if the lot ends up in the wrong hand and whether the KG must switch it.",
         "ahaMoment": "The miracle of the right-hand lot was a sign, not a requirement - the lot itself designates the goat regardless of hand.",
         "memoryAnchor": "Right-hand lot = good omen (sign); but any hand is valid for designation - the miracle was the omen, not the rule.",
-        "openQuestion": "If the right hand drew 'for Azazel,' must the KG switch it to his left hand?"
+        "learnerQuestion": "Is it halachically required that the 'for God' lot come up in the Kohen Gadol's right hand, or is this only a good omen?",
+        "coreTension": "The right-hand lot was celebrated throughout Shimon HaTzaddik's era as a sign of favor, which could suggest it is required for validity, yet the Gemara also describes practical handling for when it lands left, suggesting it remains valid either way.",
+        "coreMove": "R. Yannai's account of the simultaneous two-handed draw, combined with the description of the Deputy assisting when the lot lands left, leads the Gemara to treat the right hand as the preferred and auspicious outcome, but not the sole valid one.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Whichever hand draws the 'for God' lot from the box validly designates that goat; the right hand is the favorable omen, but the left hand does not invalidate the ceremony."
+        },
+        "learningBlocker": "Learners may conflate 'good omen' with 'halachic requirement,' missing the Gemara's distinction between what is auspicious and what is strictly necessary for validity."
       },
       "argumentFlow": [
         {
@@ -621,7 +653,11 @@
         "Deputy KG (segan)"
       ],
       "misconceptions": [
-        "The lot MUST come up in the right hand or it is invalid"
+        {
+          "misconception": "The 'for God' lot must come up in the Kohen Gadol's right hand, or the entire designation is invalid.",
+          "correction": "The Gemara treats the right hand as a favorable omen (siman tov), not a strict requirement for validity. If the lot lands in the left hand, the Deputy helps transfer it and the designation still stands, the right hand's significance is auspicious, not determinative.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-040a-s01"
@@ -635,8 +671,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Is it halachically required that the 'for God' lot come up in the KG's right hand?",
-          "a": "No - right hand is a good omen but both hands are technically valid for designation."
+          "question": "Is it halachically required that the 'for God' lot come up in the KG's right hand?",
+          "answer": "No - right hand is a good omen but both hands are technically valid for designation."
         }
       ],
       "finalRuling": "The right-hand 'for God' lot is a good omen but not technically required; both hands validly designate the goat.",

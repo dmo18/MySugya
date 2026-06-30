@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "The get in seirugim (alternating script) - continuation from 37b.",
-        "hint": "B'seirugim means written in alternating blocks, not continuous text."
+        "hint": "B'seirugim means written in alternating blocks, not continuous text.",
+        "title": "A Get Written in Alternating Script (Seirugim)"
       },
       "learning": {
-        "summary": "Brief continuation: b'seirugim means the letters are written in alternating or block-style rather than continuous. The derivation from Helene's tablet is concluded.",
         "ahaMoment": "Seirugim = alternating pattern; the halachic ruling about gittin is complete.",
         "memoryAnchor": "Seirugim: alternating = still valid for a get.",
-        "openQuestion": "Is seirugim a completely different script or just a stylistic variation?"
+        "learnerQuestion": "Does writing a get in seirugim (an alternating, block-style script) invalidate it?",
+        "coreTension": "A get's validity depends on its writing meeting a recognized standard, yet seirugim breaks from continuous script - the question is whether style variation undermines that standard.",
+        "coreMove": "The Gemara derives validity from Queen Helene's tablet, which used seirugim for sacred Temple text, establishing seirugim as a recognized valid script, not a deviation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A get written b'seirugim (in alternating/block-style script) is halachically valid; precedent from a sacred Temple text settles the question."
+        },
+        "learningBlocker": "Learners may assume any non-continuous script style is per se invalid, missing that seirugim is a recognized format, not an error."
       },
       "argumentFlow": [
         {
@@ -80,8 +87,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What does 'b'seirugim' mean in the context of gittin?",
-          "a": "Written in alternating or block-style script; still halachically valid."
+          "question": "What does 'b'seirugim' mean in the context of gittin?",
+          "answer": "Written in alternating or block-style script; still halachically valid."
         }
       ],
       "finalRuling": "A get written b'seirugim (alternating script) is valid.",
@@ -118,13 +125,20 @@
       ],
       "display": {
         "whats": "Nicanor's miracle: the full story of his copper doors from Alexandria.",
-        "hint": "Nicanor's devotion and a miracle brought his doors to the Temple; they were of copper but shone like gold."
+        "hint": "Nicanor's devotion and a miracle brought his doors to the Temple; they were of copper but shone like gold.",
+        "title": "Nicanor's Copper Doors: Honored Above Gold"
       },
       "learning": {
-        "summary": "The full baraita about Nicanor's miracle: his doors were made in Alexandria of special copper (nechoshet). On the return voyage a storm struck; one door was thrown overboard and when the ship arrived at Akko, the door appeared beneath the ship. All other Temple gates were replaced with gold; only Nicanor's remained copper because the miracle had occurred to them.",
         "ahaMoment": "Nicanor's copper doors kept their copper finish forever - the miracle made them more precious than gold.",
         "memoryAnchor": "Copper doors shining like gold: the miracle of devotion made them more precious than any replacement.",
-        "openQuestion": "Why were Nicanor's copper doors not replaced with gold if all others were?"
+        "learnerQuestion": "Why did the Temple keep Nicanor's copper doors instead of replacing them with gold like the other gates?",
+        "coreTension": "Every other Temple gate was upgraded to gold, the standard of highest honor, yet Nicanor's doors stayed copper, which looks like a downgrade unless the copper itself carries a different kind of honor.",
+        "coreMove": "The Gemara tells the miracle story: a door thrown overboard in a storm to save Nicanor's life miraculously surfaced at Akko, and that miracle made the doors more sacred than gold could make them.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Nicanor's copper doors were preserved as-is, not gilded, because the miracle that saved them outranked the honor that gold overlay would have given."
+        },
+        "learningBlocker": "Learners may read 'kept in copper while others became gold' as a demotion rather than recognizing it as the higher honor in this narrative's logic."
       },
       "argumentFlow": [
         {
@@ -204,8 +218,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Why were Nicanor's copper doors not overlaid with gold like the other Temple gates?",
-          "a": "Because a miracle had occurred to them; they were kept as is to honor the miracle."
+          "question": "Why were Nicanor's copper doors not overlaid with gold like the other Temple gates?",
+          "answer": "Because a miracle had occurred to them; they were kept as is to honor the miracle."
         }
       ],
       "finalRuling": "Nicanor's copper doors were kept while others were gilded, because the miracle made them more honorable than gold.",
@@ -252,13 +266,20 @@
       ],
       "display": {
         "whats": "Mishna: Beth Garmu refused to teach the art of baking the lechem hapanim (showbread).",
-        "hint": "Families who refused to share their Temple skills are criticized; Beth Garmu and Beth Avtinas."
+        "hint": "Families who refused to share their Temple skills are criticized; Beth Garmu and Beth Avtinas.",
+        "title": "Four Families Remembered for Shame"
       },
       "learning": {
-        "summary": "A new Mishna lists families known 'for shame': Beth Garmu refused to teach the technique of baking the showbread; Beth Avtinas refused to teach the technique of compounding the incense; Hugras ben Levi refused to teach his voice technique for the Levitical songs; Ben Kamtsar refused to teach the art of writing multiple letters simultaneously.",
         "ahaMoment": "Secret-keeping in the Temple: the families who refused to share their skills are remembered in infamy rather than honor.",
         "memoryAnchor": "Four families hoarded Temple knowledge: Beth Garmu (bread), Beth Avtinas (incense), Hugras (voice), Ben Kamtsar (writing) - all shamed.",
-        "openQuestion": "Why did these families refuse to share their techniques?"
+        "learnerQuestion": "Which Temple families are named in the Mishna for refusing to teach their specialized skills, and why does that matter?",
+        "coreTension": "Each family possessed a skill essential to Temple service, yet kept it within the family, raising the question of whether guarding expertise protects it or betrays the service it was meant for.",
+        "coreMove": "The Mishna lists Beth Garmu (showbread baking), Beth Avtinas (incense compounding), Hugras ben Levi (vocal technique), and Ben Kamtsar (four-quill writing) by name specifically to record their refusal as shameful.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Beth Garmu, Beth Avtinas, Hugras ben Levi, and Ben Kamtsar are named in the Mishna 'for shame' because each refused to teach a Temple-essential skill to others."
+        },
+        "learningBlocker": "Learners may treat this list as praise for craftsmanship rather than recognizing the Mishna's explicit framing as condemnation of secrecy."
       },
       "argumentFlow": [
         {
@@ -367,8 +388,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "Why are Beth Garmu and Beth Avtinas mentioned 'for shame' in the Mishna?",
-          "a": "They refused to teach their specialized Temple skills (showbread and incense) to others."
+          "question": "Why are Beth Garmu and Beth Avtinas mentioned 'for shame' in the Mishna?",
+          "answer": "They refused to teach their specialized Temple skills (showbread and incense) to others."
         }
       ],
       "finalRuling": "Beth Garmu, Beth Avtinas, Hugras, and Ben Kamtsar are remembered in infamy for refusing to share Temple skills.",
@@ -425,13 +446,20 @@
       ],
       "display": {
         "whats": "Beth Avtinas refused to teach incense compounding; they justified themselves and were brought back.",
-        "hint": "Beth Avtinas claimed they refused to prevent misuse; eventually they were brought back and paid double."
+        "hint": "Beth Avtinas claimed they refused to prevent misuse; eventually they were brought back and paid double.",
+        "title": "Beth Avtinas's Defense and Return from Alexandria"
       },
       "learning": {
-        "summary": "The Gemara gives more detail about Beth Avtinas: they refused to teach the incense formula, claiming they feared someone might use the formula for idol worship. The Sages had to bring them back and double their pay. The incense formula included a special herb (maaleh ashan) that made the smoke rise straight up. Beth Avtinas knew this ingredient but refused to share it.",
         "ahaMoment": "Beth Avtinas claimed a principled reason for secrecy; whether this justifies their refusal is debated.",
         "memoryAnchor": "Beth Avtinas: incense secret = maaleh ashan herb; they feared misuse but still shamed; brought back at double wages.",
-        "openQuestion": "Was Beth Avtinas's fear of idol-worship misuse a valid reason to withhold knowledge from the Sages?"
+        "learnerQuestion": "Did Beth Avtinas have a legitimate reason for withholding the incense formula, and how did the Sages respond?",
+        "coreTension": "Beth Avtinas claimed a principled motive, fear that the maaleh ashan secret would be misused for idol worship, yet the Sages still classified their silence as shameful and needed the family back when no one else could replicate the smoke.",
+        "coreMove": "The Gemara presents Beth Avtinas's justification, the Sages' rejection of it as insufficient (they should have at least taught the Sages), and the practical resolution: bringing the family back from Alexandria at double wages.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Beth Avtinas's professed fear of misuse did not exempt them from the Mishna's shame; the Sages held that withholding from the Sages themselves was unjustified even given a principled motive."
+        },
+        "learningBlocker": "Learners may treat Beth Avtinas's stated justification as fully vindicating them, missing that the Gemara records the Sages' rejection of that excuse as insufficient."
       },
       "argumentFlow": [
         {
@@ -567,8 +595,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What was Beth Avtinas's secret regarding the incense?",
-          "a": "They knew the identity of the maaleh ashan herb that made the incense smoke rise straight up."
+          "question": "What was Beth Avtinas's secret regarding the incense?",
+          "answer": "They knew the identity of the maaleh ashan herb that made the incense smoke rise straight up."
         }
       ],
       "finalRuling": "Beth Avtinas knew the maaleh ashan herb; they claimed principled secrecy but were still shamed; brought back at double pay.",

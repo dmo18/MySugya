@@ -77,13 +77,20 @@
       ],
       "display": {
         "whats": "The live goat stands before God until when? The KG's confession over it; the full confession text.",
-        "hint": "The live goat stands in the Azarah until the KG confesses over it; the third confession text covers all Israel."
+        "hint": "The live goat stands in the Azarah until the KG confesses over it; the third confession text covers all Israel.",
+        "title": "The Live Goat's Standing and the Third Confession"
       },
       "learning": {
-        "summary": "The verse 'the live goat shall stand before God to atone for it' is analyzed: until when must it stand? The Gemara answers: until the KG confesses over it. The text of the third confession is given - this time covering chatati aviti pashati before God: I, my household, and the sons of Aaron, and all of Israel. After this confession the goat is sent to the desert. The KG then must wash hands and feet before returning to any further service.",
         "ahaMoment": "The third confession is the culmination: it covers all Israel. The live goat, laden with the nation's sins, then goes to the wilderness.",
         "memoryAnchor": "Third confession: chatati aviti pashati, I + household + kohanim + all Israel - the goat carries it all.",
-        "openQuestion": "Must the live goat be present and alive throughout the entire Yom Kippur service until the confession over it?"
+        "learnerQuestion": "Until what point in the service must the live goat 'stand before God,' and what does the third confession cover?",
+        "coreTension": "The verse requires the goat to 'stand before God to atone,' but does not specify an endpoint, leaving open exactly how long that standing requirement lasts within the unfolding service.",
+        "coreMove": "The Gemara answers that the standing requirement lasts until the KG's third confession over the goat, then gives that confession's expanding text, covering the KG, his household, the priests, and finally all of Israel, before the goat is sent to the wilderness.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The live goat must stand before God until the Kohen Gadol's third confession is recited over it, a confession that, unlike the first two, extends to cover all of Israel, after which the goat is sent away."
+        },
+        "learningBlocker": "Learners may assume the goat's required presence ends whenever it is physically sent off, missing that the Gemara ties the standing requirement specifically to the confession's recitation, not to the departure itself."
       },
       "argumentFlow": [
         {
@@ -267,7 +274,11 @@
         "sair hamishtaleiach"
       ],
       "misconceptions": [
-        "The goat only needs to be alive when sent; its earlier presence is optional"
+        {
+          "misconception": "The Azazel goat only needs to be present and alive at the moment it is sent to the wilderness; its presence earlier in the service is optional.",
+          "correction": "The Gemara derives from the verse that the goat must stand before God continuously through the service, specifically until the Kohen Gadol's third confession is recited over it. Its presence is required throughout that period, not just at the moment of sending, which is why the Gemara then addresses what happens if the goat dies or is lost beforehand.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-041b-s02"
@@ -281,8 +292,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What is the third Yom Kippur confession?",
-          "a": "'Chatati, aviti, pashati before You - I, my household, the sons of Aaron Your holy people, and all Israel Your nation' - said over the live Azazel goat."
+          "question": "What is the third Yom Kippur confession?",
+          "answer": "'Chatati, aviti, pashati before You - I, my household, the sons of Aaron Your holy people, and all Israel Your nation' - said over the live Azazel goat."
         }
       ],
       "finalRuling": "The third confession over the live goat covers all Israel; afterward the goat is sent to the wilderness.",

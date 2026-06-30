@@ -87,13 +87,20 @@
       ],
       "display": {
         "whats": "Shimon HaTzaddik served 40 years; four miracles confirmed his righteousness.",
-        "hint": "The lot, the western lamp, the showbread, and the incense smoke all showed miraculous signs during his tenure."
+        "hint": "The lot, the western lamp, the showbread, and the incense smoke all showed miraculous signs during his tenure.",
+        "title": "Shimon HaTzaddik's Forty Years of Miracles"
       },
       "learning": {
-        "summary": "The baraita about measuring naphtha (kerosene) leads into an extended account of Shimon HaTzaddik's 40-year tenure as KG. During his time four miraculous signs occurred: (1) the Yom Kippur lot for God came up in the right hand every year; (2) the western lamp of the menorah burned continuously; (3) the showbread was always found perfectly fresh; (4) the incense smoke rose straight up. After he died, these signs reversed.",
         "ahaMoment": "Forty years of miracles - the lot, the lamp, the bread, and the smoke - each confirmed that Shimon HaTzaddik's service was accepted by God.",
         "memoryAnchor": "Four miracles: right-hand lot, western lamp, fresh showbread, straight smoke - all during Shimon HaTzaddik's service.",
-        "openQuestion": "Why did these four specific signs stop after Shimon HaTzaddik died?"
+        "learnerQuestion": "What four miraculous signs marked Shimon HaTzaddik's forty years of service, and why did they matter?",
+        "coreTension": "Ordinary priestly service could in principle produce the same outward results, lot, lamp, bread, smoke, by chance, yet the baraita treats their unbroken consistency across forty years as proof of something beyond chance.",
+        "coreMove": "The baraita lists all four signs together, then reports that all four ceased simultaneously upon Shimon HaTzaddik's death, using the abrupt and total reversal to argue the signs were miraculous, tied to him personally, not generic outcomes.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "During Shimon HaTzaddik's forty years, the lot always fell right, the western lamp stayed lit, the showbread stayed fresh, and the incense smoke rose straight, four signs the baraita reads as miraculous confirmation of his service, not coincidence."
+        },
+        "learningBlocker": "Learners may read each sign in isolation as a plausible natural outcome, missing that the baraita's argument rests on all four occurring together for forty straight years and stopping together at his death."
       },
       "argumentFlow": [
         {
@@ -301,7 +308,11 @@
         "western lamp (ner ma'aravi)"
       ],
       "misconceptions": [
-        "These were standard results, not miraculous"
+        {
+          "misconception": "These were standard, naturally expected results of the Temple service, not miraculous.",
+          "correction": "The baraita's argument is built on the signs' total reversal immediately after Shimon HaTzaddik's death. If they were standard results of the service itself, they would have continued under his successors. Their simultaneous cessation is the Gemara's evidence that they were tied to him personally, not the routine.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-039b-s02"
@@ -315,8 +326,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What four signs occurred during Shimon HaTzaddik's tenure?",
-          "a": "Right-hand lot every year, western lamp burning throughout, fresh showbread, straight incense smoke."
+          "question": "What four signs occurred during Shimon HaTzaddik's tenure?",
+          "answer": "Right-hand lot every year, western lamp burning throughout, fresh showbread, straight incense smoke."
         }
       ],
       "finalRuling": "During Shimon HaTzaddik's 40 years: lot always right hand, western lamp continuous, showbread fresh, incense smoke straight.",
@@ -353,13 +364,20 @@
       ],
       "display": {
         "whats": "Forty years before the Temple's destruction, further signs of decline appeared.",
-        "hint": "40 years before destruction: western lamp stopped, lot came left, gates opened themselves."
+        "hint": "40 years before destruction: western lamp stopped, lot came left, gates opened themselves.",
+        "title": "The Mirror Forty Years: Omens Before the Destruction"
       },
       "learning": {
-        "summary": "A separate baraita records that 40 years before the Temple's destruction (approximately the time of Jesus), the western lamp stopped burning consistently, the Yom Kippur lot for God came up in the left hand, and the Temple gates opened by themselves every night - all ominous signs that Rabban Yochanan ben Zakkai interpreted as foretelling destruction.",
         "ahaMoment": "The 40-year countdown to destruction mirrors the 40-year era of Shimon HaTzaddik's miracles - same timeframe, opposite direction.",
         "memoryAnchor": "40 years miracles (Shimon) vs 40 years omens (pre-destruction) - same timeline, inverted meaning.",
-        "openQuestion": "What is the significance of the 40-year period in both cases?"
+        "learnerQuestion": "What is the significance of a second forty-year period, this time of decline, appearing in the same baraita tradition?",
+        "coreTension": "Shimon HaTzaddik's forty years showed favor; the forty years before the destruction showed the same signs in reverse, raising the question of why the Gemara frames decline using the identical timeframe and the identical signs.",
+        "coreMove": "The baraita reports the lot coming up left, the lamp failing, and the gates opening by themselves, then has Rabban Yochanan ben Zakkai rebuke the gates directly, reading their self-opening as the Temple's own admission of its coming fate, fulfilling Zechariah's prophecy.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Forty years before the destruction, the lot came up left, the western lamp went out, and the Temple gates opened by themselves at night, the same sign-structure as Shimon HaTzaddik's era, inverted, which Rabban Yochanan ben Zakkai read as a direct omen of destruction."
+        },
+        "learningBlocker": "Learners may treat these omens as a list of disconnected ill signs rather than recognizing the deliberate parallel structure to the earlier forty years of miracles."
       },
       "argumentFlow": [
         {
@@ -442,8 +460,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What did Rabban Yochanan ben Zakkai say about the Temple gates opening by themselves?",
-          "a": "He rebuked them: 'Heichal, Heichal, why do you alarm yourself? I know your end will be destruction.'"
+          "question": "What did Rabban Yochanan ben Zakkai say about the Temple gates opening by themselves?",
+          "answer": "He rebuked them: 'Heichal, Heichal, why do you alarm yourself? I know your end will be destruction.'"
         }
       ],
       "finalRuling": "40 years before destruction: lot came left, western lamp went out, gates opened - Rabban Yochanan ben Zakkai foretold the end.",

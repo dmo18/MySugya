@@ -22,13 +22,20 @@
       ],
       "display": {
         "whats": "'And from yours they give you' - God provides what is needed for Temple service.",
-        "hint": "Whatever skills are needed, God will provide them through those who possess them."
+        "hint": "Whatever skills are needed, God will provide them through those who possess them.",
+        "title": "'From Yours They Give You': Temple Provision Belongs to God"
       },
       "learning": {
-        "summary": "A brief teaching: 'And from yours they give you' - the materials and skills used in Temple service ultimately come from God; no person can truly withhold what God has designated for sacred use. This contextualizes the Beth Avtinas narrative: ultimately the knowledge returned.",
         "ahaMoment": "Temple service depends on God's provision: even withheld knowledge eventually becomes available.",
         "memoryAnchor": "From yours - everything dedicated to the Temple comes from God; no one can permanently withhold.",
-        "openQuestion": "Does this principle mean that secret-keeping in Temple matters is ultimately futile?"
+        "learnerQuestion": "What does the teaching 'from yours they give you' add to the story of families withholding Temple skills?",
+        "coreTension": "Beth Avtinas and others believed their family knowledge was theirs to withhold, yet the Temple's resources, the Gemara teaches, ultimately come from God, not from any individual's private possession.",
+        "coreMove": "The Gemara frames the entire withheld-knowledge narrative through this principle: whatever serves the Temple was never truly owned by the families who held it.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "'From yours they give you' teaches that no person can permanently withhold what belongs to Temple service, since the knowledge ultimately comes from God's provision."
+        },
+        "learningBlocker": "Learners may treat this teaching as a separate aphorism rather than seeing it as the Gemara's theological frame for the families-who-withheld narrative."
       },
       "argumentFlow": [
         {
@@ -78,8 +85,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What does 'from yours they give you' teach about Temple service?",
-          "a": "Whatever is used for Temple service ultimately comes from God; human beings cannot permanently withhold what God has designated for sacred use."
+          "question": "What does 'from yours they give you' teach about Temple service?",
+          "answer": "Whatever is used for Temple service ultimately comes from God; human beings cannot permanently withhold what God has designated for sacred use."
         }
       ],
       "finalRuling": "'From yours they give you' - God provides all that is needed for the Temple service.",
@@ -111,13 +118,20 @@
       ],
       "display": {
         "whats": "Hugras ben Levi's voice technique for Temple music; a negative tradition.",
-        "hint": "Hugras could hit the musical note with his thumb in his mouth; his descendants kept this secret too."
+        "hint": "Hugras could hit the musical note with his thumb in his mouth; his descendants kept this secret too.",
+        "title": "Hugras's Lost Vocal Trill"
       },
       "learning": {
-        "summary": "Hugras ben Levi had a special vocal technique: he would place his thumb in his mouth to produce a special vocal effect (possibly a trill or resonance) for the Temple Levitical songs. He refused to teach it. His method was considered extraordinary but his descendants also refused to share it.",
         "ahaMoment": "Hugras's vocal artistry was extraordinary but his secrecy was criticized; the voice and knowledge both perished with him.",
         "memoryAnchor": "Thumb in mouth = Hugras's secret trill; never shared; lost with his death.",
-        "openQuestion": "Was Hugras's vocal technique a legitimate trade secret or an obligation to share?"
+        "learnerQuestion": "What was Hugras ben Levi's secret technique, and why does the Gemara record it negatively despite its skill?",
+        "coreTension": "Hugras's thumb-in-mouth vocal trill was an extraordinary skill for Temple song, yet extraordinary skill did not exempt him, or his descendants, from the same shame applied to the other secret-keeping families.",
+        "coreMove": "The Gemara describes the technique in detail, then notes that he and his descendants kept it secret until it was lost entirely, illustrating that skill without teaching still earns the Mishna's censure.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Hugras ben Levi's vocal trill technique was extraordinary, but his refusal to teach it, continued by his descendants, meant the skill was lost and his family is remembered for shame, not praise."
+        },
+        "learningBlocker": "Learners may assume the detailed, admiring description of the technique signals approval, missing that the Gemara pairs technical praise with moral censure."
       },
       "argumentFlow": [
         {
@@ -184,8 +198,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What was Hugras ben Levi's secret technique?",
-          "a": "He placed his thumb in his mouth to produce a special trill or resonance for Levitical Temple music."
+          "question": "What was Hugras ben Levi's secret technique?",
+          "answer": "He placed his thumb in his mouth to produce a special trill or resonance for Levitical Temple music."
         }
       ],
       "finalRuling": "Hugras's vocal trill (thumb in mouth) was extraordinary but never taught; lost at his death.",
@@ -237,13 +251,20 @@
       ],
       "display": {
         "whats": "The name of the wicked rots (Prov. 10:7); positive vs negative Temple family legacies.",
-        "hint": "R. Elazar: the name of the wicked is forgotten; R. Yochanan: their deeds live on in infamy."
+        "hint": "R. Elazar: the name of the wicked is forgotten; R. Yochanan: their deeds live on in infamy.",
+        "title": "'The Name of the Wicked Shall Rot': Forgotten or Shamed?"
       },
       "learning": {
-        "summary": "Proverbs 10:7 is interpreted: 'the name of the wicked shall rot.' R. Elazar says this means their name is forgotten. R. Yochanan says it means their name is preserved in infamy (the families are remembered for shame). This is illustrated by the contrast between the families remembered for praise (Ben Katin, Queen Helene) and those remembered for shame (Beth Garmu, Hugras).",
         "ahaMoment": "Memory cuts both ways: the righteous are remembered for blessing; the wicked for shame. Temple legacy is permanent.",
         "memoryAnchor": "Name rots = either forgotten or remembered in shame - either way, no honor. Temple shame endures.",
-        "openQuestion": "Is it better to be forgotten or remembered in infamy?"
+        "learnerQuestion": "Does Proverbs 10:7's 'the name of the wicked shall rot' mean their name disappears, or that it persists as a mark of shame?",
+        "coreTension": "R. Elazar reads 'rot' as forgetting, while R. Yochanan reads it as persisting in infamy, two opposite outcomes from the same verse, both called 'rot.'",
+        "coreMove": "The Gemara resolves the dispute using the Mishna itself as proof: since Beth Garmu and the other families are named explicitly for shame, their names were not forgotten, supporting R. Yochanan's reading.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The Mishna's explicit naming of shamed families serves as proof for R. Yochanan: 'the name of the wicked shall rot' means the name endures in infamy, not that it is forgotten."
+        },
+        "learningBlocker": "Learners may assume 'rot' straightforwardly means disappearance, missing how the Gemara uses the Mishna's preserved names as textual evidence against that reading."
       },
       "argumentFlow": [
         {
@@ -360,8 +381,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What does R. Yochanan say about 'the name of the wicked shall rot'?",
-          "a": "Their name is preserved in infamy - they are remembered in shame, not forgotten."
+          "question": "What does R. Yochanan say about 'the name of the wicked shall rot'?",
+          "answer": "Their name is preserved in infamy - they are remembered in shame, not forgotten."
         }
       ],
       "finalRuling": "The name of the wicked endures in shame; the righteous are blessed even after death - both legacies are permanent.",
@@ -418,13 +439,20 @@
       ],
       "display": {
         "whats": "From the blessing of the righteous one can learn about the curse of the wicked, and vice versa.",
-        "hint": "The contrasting memories of Temple families teach about divine reward and punishment."
+        "hint": "The contrasting memories of Temple families teach about divine reward and punishment.",
+        "title": "Blessing of the Righteous, Curse of the Wicked: Mirror Principles"
       },
       "learning": {
-        "summary": "R. Elazar teaches: from the blessing of the righteous you can learn about the curse of the wicked, and from the curse of the wicked about the blessing of the righteous. The Temple families who shared their knowledge (Ben Katin, Helene) are blessed; those who withheld it (Beth Garmu, etc.) are cursed in memory. The verse about the righteous being remembered for blessing is derived.",
         "ahaMoment": "One lesson teaches two: bless the righteous by contrasting with the wicked, curse the wicked by contrasting with the righteous.",
         "memoryAnchor": "Mirror image: righteous = blessing (learn from it the curse of the wicked); wicked = shame (learn the blessing of the righteous).",
-        "openQuestion": "Is this teaching descriptive of how God judges, or prescriptive about how we should remember people?"
+        "learnerQuestion": "Why does R. Elazar say the blessing of the righteous and the curse of the wicked can each be learned from the other?",
+        "coreTension": "The Mishna records both praised families (Ben Katin, Queen Helene) and shamed families (Beth Garmu) in the same list, raising the question of whether these are two separate lessons or one principle running in both directions.",
+        "coreMove": "R. Elazar derives that the two are mirror images: the qualities that earn blessing, sharing freely, are the inverse of the qualities that earn curse, withholding, so each illuminates the other from a single textual contrast.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "R. Elazar's principle: from the blessing of the righteous you can derive the nature of the wicked's curse, and vice versa, since the Mishna's praised and shamed families are mirror images of the same behavior."
+        },
+        "learningBlocker": "Learners may treat the Mishna's two lists as unrelated examples rather than seeing R. Elazar's point that they function as a single mirrored teaching."
       },
       "argumentFlow": [
         {
@@ -554,8 +582,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "What principle does R. Elazar derive about righteous and wicked legacies?",
-          "a": "From the blessing of the righteous you can understand the nature of the wicked's curse, and vice versa - they are mirror images."
+          "question": "What principle does R. Elazar derive about righteous and wicked legacies?",
+          "answer": "From the blessing of the righteous you can understand the nature of the wicked's curse, and vice versa - they are mirror images."
         }
       ],
       "finalRuling": "From the blessing of the righteous you learn the nature of the wicked's punishment; their legacies are mirror images.",

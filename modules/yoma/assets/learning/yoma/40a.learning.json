@@ -92,13 +92,20 @@
       ],
       "display": {
         "whats": "The right vs left hand lot dispute resolved; R. Yochanan and Reish Lakish debate.",
-        "hint": "The lot is valid from either hand; if right draws 'for God' it is a good omen; the Deputy helps if needed."
+        "hint": "The lot is valid from either hand; if right draws 'for God' it is a good omen; the Deputy helps if needed.",
+        "title": "Resolving the Right-Hand Lot Dispute"
       },
       "learning": {
-        "summary": "The Gemara continues the dispute from 39b. R. Yochanan holds that both hands are equally valid; Reish Lakish holds the right hand is required. The Gemara resolves: the right hand is preferred but not strictly required. If the 'for God' lot came up in the left, the Deputy would take it and place it on the goat's head anyway. The lot's landing in the right hand is a 'siman tov' (good omen) but not a halachic requirement for validity. Additional details about the goat designation formula and the public announcement follow.",
         "ahaMoment": "The lot ceremony's spiritual significance transcends technical hand requirements: God's acceptance is shown by the omen (right hand), not determined by it.",
         "memoryAnchor": "Right hand = omen; left hand = still valid. The miracle was in the omen, not in invalidating the left.",
-        "openQuestion": "If right-hand lot is only an omen, what does it mean theologically when it came up left for 40 years?"
+        "learnerQuestion": "How does the Gemara resolve R. Yochanan and Reish Lakish's dispute over whether the right-hand lot is required?",
+        "coreTension": "R. Yochanan holds both hands are equally valid; Reish Lakish holds the right hand is required, two opposing positions on the same designation ceremony that the Gemara must reconcile into a working rule.",
+        "coreMove": "The Gemara resolves the dispute as preferred-but-not-required: the right hand is le-chatchila (the ideal way to perform it), while the left hand remains valid b'dieved (after the fact), with the Deputy assisting if the lot needs transferring.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The right-hand 'for God' lot is the preferred, ideal outcome (le-chatchila), but a left-hand draw remains valid after the fact (b'dieved), the dispute resolves into a single graded rule rather than an either/or contradiction."
+        },
+        "learningBlocker": "Learners may read the resolution as simply 'right hand wins' or 'both are equal,' missing the le-chatchila/b'dieved distinction that actually reconciles the two positions."
       },
       "argumentFlow": [
         {
@@ -323,7 +330,11 @@
         "crimson thread (lashon shel zehorit)"
       ],
       "misconceptions": [
-        "Right hand lot is absolutely required; left hand invalidates the ceremony"
+        {
+          "misconception": "The right-hand lot is absolutely required for the ceremony's validity; a left-hand draw invalidates the entire Yom Kippur designation.",
+          "correction": "The Gemara's resolution is graded, not absolute: the right hand is the ideal (le-chatchila) outcome, but a left-hand draw is valid after the fact (b'dieved). The dispute between R. Yochanan and Reish Lakish is resolved by distinguishing the preferred method from the minimum requirement for validity, not by ruling one position simply wrong.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-039b-s04"
@@ -337,8 +348,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "What is the halachic status of the 'for God' lot landing in the left hand?",
-          "a": "It is valid post-facto; the right hand is preferred as a good omen but not strictly required."
+          "question": "What is the halachic status of the 'for God' lot landing in the left hand?",
+          "answer": "It is valid post-facto; the right hand is preferred as a good omen but not strictly required."
         }
       ],
       "finalRuling": "Right-hand lot is preferred (omen) but not required; verbal designation required; crimson thread split between goat and cliff.",
