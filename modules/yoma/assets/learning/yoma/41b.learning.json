@@ -57,13 +57,20 @@
       ],
       "display": {
         "whats": "Kinnim conclusion: don't say 'after he said' but 'after he confessed'; the verbal formula.",
-        "hint": "The confession must be completed; the kinnim discussion closes; transition to Mishna."
+        "hint": "The confession must be completed; the kinnim discussion closes; transition to Mishna.",
+        "title": "Confessed, Not Said: Precision in the Kinnim Viduy"
       },
       "learning": {
-        "summary": "The Gemara resolves the kinnim issue and also addresses a textual question about the confession: the language should be 'after he confessed' not 'after he said' - the verbal act of confession is what matters, not just utterance. Various kinnim edge cases are resolved before the new Mishna begins.",
         "ahaMoment": "Precision matters: 'after he confessed' captures the act of atonement through words, while 'after he said' is merely descriptive.",
         "memoryAnchor": "'Confessed' vs 'said' - the former is the halachic category; the Gemara insists on precision in describing the atoning act.",
-        "openQuestion": "Does the distinction between 'said' and 'confessed' have practical halachic implications?"
+        "learnerQuestion": "Why does the Gemara insist on saying 'after he confessed' rather than 'after he said,' and what closes out the kinnim discussion?",
+        "coreTension": "Describing the High Priest's first confession only as 'he said' would describe mere speech, but the formula needs to capture viduy as a halachic act of confession, not just an utterance.",
+        "coreMove": "The Gemara corrects the language to 'after he confessed' (hitvadeh), establishing that the formula must name the legal category of confession itself, not merely report that words were spoken.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The formula must say 'after he confessed,' not 'after he said' - confession (viduy) is the legal category that carries atonement, and the Gemara insists the language used to describe it conveys that category precisely."
+        },
+        "learningBlocker": "Learners may treat 'said' and 'confessed' as interchangeable since both describe speech, missing that only 'confessed' names the halachic act of viduy that carries atonement."
       },
       "argumentFlow": [
         {
@@ -210,8 +217,8 @@
       "quizSeeds": [
         {
           "type": "conceptual",
-          "q": "Why does the Gemara insist on 'confessed' rather than 'said'?",
-          "a": "Because 'confessed' (hitvadeh) captures the halachic category of kaparat devarim; 'said' is merely descriptive speech."
+          "question": "Why does the Gemara insist on 'confessed' rather than 'said'?",
+          "answer": "Because 'confessed' (hitvadeh) captures the halachic category of kaparat devarim; 'said' is merely descriptive speech."
         }
       ],
       "finalRuling": "Use 'confessed' not 'said' - the act of confession (hitvadeh) is the halachic category; kinnim discussion concludes.",
@@ -303,13 +310,20 @@
       ],
       "display": {
         "whats": "Mishna: scarlet thread tied to goat's head; sent to desert with the ish iti; 10 booths; the Tsuk.",
-        "hint": "The goat is sent to the desert by the ish iti through a series of 10 booths at set intervals."
+        "hint": "The goat is sent to the desert by the ish iti through a series of 10 booths at set intervals.",
+        "title": "The Azazel Goat's Organized Journey: Ten Booths to the Tsuk"
       },
       "learning": {
-        "summary": "A Mishna describes the sending of the Azazel goat: a scarlet thread is tied to its head (or between its horns). The appointed handler (ish iti) takes it. Ten booths were set up from Jerusalem to the Tsuk (cliff), each staffed with people offering food and drink. The ish iti could eat (though he fasted), and at each station he was accompanied to the next. The Tsuk was a steep cliff 12 mil from Jerusalem.",
         "ahaMoment": "The Azazel goat's journey was organized and companioned - not abandoned. The infrastructure of booths reflects the community's active participation in the ceremony.",
         "memoryAnchor": "10 booths = 10 stations = organized ritual journey for the goat, with national support along the way.",
-        "openQuestion": "Why were the booths staffed with food if the ish iti was fasting on Yom Kippur?"
+        "learnerQuestion": "How was the Azazel goat actually sent to the wilderness, and was it truly abandoned alone?",
+        "coreTension": "The Torah commands the goat be sent away by the hand of a designated man, but the Mishna's description of ten staffed booths and an accompanying retinue raises the question of how much communal structure surrounded what could be read as a solitary act of abandonment.",
+        "coreMove": "The Mishna details ten booths from Jerusalem to the Tsuk, each offering the ish iti food and drink and a relay of escorts to the next station, showing the sending was a structured, accompanied journey rather than the goat being left alone from the start.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Azazel goat's journey to the Tsuk was an organized, staffed, and escorted procession of ten booths spanning 12 mil, not a solitary abandonment - communal structure surrounded the sending even as the goat itself was finally left alone at the cliff."
+        },
+        "learningBlocker": "Learners may picture the goat as simply turned loose into the wilderness alone, missing the elaborate infrastructure of ten booths, provisions, and escorts that organized its journey."
       },
       "argumentFlow": [
         {
@@ -523,7 +537,11 @@
         "eretz gezerah"
       ],
       "misconceptions": [
-        "The goat is simply abandoned in the desert alone"
+        {
+          "misconception": "The Azazel goat is simply abandoned in the desert alone, with no communal involvement.",
+          "correction": "The Mishna describes an organized journey: ten booths staffed with food and drink from Jerusalem to the Tsuk (12 mil), with escorts relaying the ish iti from station to station - the sending was a structured communal procession, not a solitary abandonment.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-042a-s01"
@@ -537,8 +555,8 @@
       "quizSeeds": [
         {
           "type": "factual",
-          "q": "How many booths were set up for the Azazel goat's journey?",
-          "a": "Ten booths, from Jerusalem to the Tsuk cliff, staffed with food and drink for the ish iti."
+          "question": "How many booths were set up for the Azazel goat's journey?",
+          "answer": "Ten booths, from Jerusalem to the Tsuk cliff, staffed with food and drink for the ish iti."
         }
       ],
       "finalRuling": "Scarlet thread on goat's head; 10 booths from Jerusalem to Tsuk (12 mil); ish iti becomes impure; goat pushed off cliff.",

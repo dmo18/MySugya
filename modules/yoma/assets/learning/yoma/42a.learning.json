@@ -87,13 +87,20 @@
       ],
       "display": {
         "whats": "How much did the crimson thread weigh, and when does the ish iti become impure?",
-        "hint": "Two disputes run in parallel: the weight of the crimson thread (for parah vs. Yom Kippur goat) and whether a non-priest may slaughter the parah. R. Yochanan boldly contradicts his own teacher on the latter."
+        "hint": "Two disputes run in parallel: the weight of the crimson thread (for parah vs. Yom Kippur goat) and whether a non-priest may slaughter the parah. R. Yochanan boldly contradicts his own teacher on the latter.",
+        "title": "Crimson Thread Weights and the Non-Priest Slaughter Dispute"
       },
       "learning": {
-        "summary": "The daf opens with a weight dispute about the crimson thread, pivots to a major halakhic question about who may slaughter the red heifer, includes an aggadic digression on Jericho customs, and closes with the ish iti's ritual impurity.",
         "ahaMoment": "R. Yochanan publicly contradicts his own teacher because he is convinced that non-priest slaughter is always valid - one of the few cases where a student overrules his teacher on record.",
         "memoryAnchor": "Crimson thread: 10 zuz for the red cow, 2 sela for the Yom Kippur goat - and R. Yochanan tells a tanna to 'go teach that outside' when the tanna claims otherwise.",
-        "openQuestion": "Does the ish iti's impurity begin when he takes the goat or only when it reaches the wilderness?"
+        "learnerQuestion": "How much did the crimson thread weigh for each rite, and may a non-priest validly slaughter the red heifer?",
+        "coreTension": "A baraita's crimson-thread weights for the red heifer and the Yom Kippur goat sit alongside a live dispute over whether the parah may be slaughtered by a non-priest, with R. Yochanan breaking from his own teacher's ruling that such slaughter is invalid.",
+        "coreMove": "R. Yochanan rejects the baraita's claim and the position of his own teacher R. Shimon ben Yehotzadak, ruling that non-priest slaughter of the parah has never been found invalid, while the digression on Jericho's customs and the ish iti's impurity round out the daf's practical details.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The crimson thread weighed ten zuz for the red heifer and two sela for the Yom Kippur goat; R. Yochanan rules that non-priest slaughter of the parah is valid, even overruling his own teacher on the matter."
+        },
+        "learningBlocker": "Learners may conflate the non-priest slaughter dispute (about the parah) with the Yom Kippur goat rite, since both share the crimson-thread theme on this daf, when the slaughter debate is specifically about parah."
       },
       "argumentFlow": [
         {
@@ -237,7 +244,11 @@
         "ritual impurity categories"
       ],
       "misconceptions": [
-        "The non-priest slaughter debate is about parah specifically, not about Yom Kippur sacrifices."
+        {
+          "misconception": "The dispute over whether a non-priest may slaughter applies to the Yom Kippur goat sacrifice, since both are discussed together with the crimson thread.",
+          "correction": "The non-priest slaughter dispute is specifically about the parah adumah (red heifer); the Yom Kippur goat is a separate rite, linked on this daf only by the shared crimson-thread theme.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-041b-s01"
@@ -254,12 +265,12 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What was the weight of the crimson thread for the Yom Kippur goat?",
-          "answer": "Two sela."
+          "answer": "Two sela.",
+          "question": "What was the weight of the crimson thread for the Yom Kippur goat?"
         },
         {
-          "seed": "Why did R. Yochanan tell the tanna to 'go teach outside'?",
-          "answer": "Because the tanna claimed non-priest parah slaughter is invalid, and R. Yochanan held we have never found non-priest slaughter to be invalid."
+          "answer": "Because the tanna claimed non-priest parah slaughter is invalid, and R. Yochanan held we have never found non-priest slaughter to be invalid.",
+          "question": "Why did R. Yochanan tell the tanna to 'go teach outside'?"
         }
       ],
       "finalRuling": "The ish iti becomes impure by carrying the goat; he must immerse and wait until nightfall.",

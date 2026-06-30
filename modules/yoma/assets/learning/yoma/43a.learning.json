@@ -87,13 +87,20 @@
       ],
       "display": {
         "whats": "What does each phrase in the parah adumah verse teach, and what are the physical details of the Azazel goat ceremony?",
-        "hint": "The Gemara is doing two things simultaneously: a verse-by-verse drasha of Numbers 19 (each word teaches a halakha about the parah rite) and filling in practical details of the Yom Kippur goat journey - the cliff distance, the manner of pushing, the signal system."
+        "hint": "The Gemara is doing two things simultaneously: a verse-by-verse drasha of Numbers 19 (each word teaches a halakha about the parah rite) and filling in practical details of the Yom Kippur goat journey - the cliff distance, the manner of pushing, the signal system.",
+        "title": "The Parah Verses, the Tsuk, and the Whitening Thread"
       },
       "learning": {
-        "summary": "A verse-by-verse reading of Numbers 19 generates a long chain of halakhot about the parah, while simultaneously the Mishna's description of the Azazel journey is unpacked - the 12-mil Tsuk, the backward push, the crimson thread.",
         "ahaMoment": "The crimson thread turning white is Is. 1:18 fulfilled physically - 'though your sins be red as scarlet, they shall become white as snow.' The Temple era was when this verse was literally enacted.",
         "memoryAnchor": "Crimson thread + backward push + 12-mil cliff: the ceremony was designed so there would be no ambiguity that the goat had truly been sent away and could not return.",
-        "openQuestion": "If the thread sometimes did not turn white even in Temple times, does that mean atonement was not achieved?"
+        "learnerQuestion": "What halakhot does each phrase of the parah adumah verse yield, and what does it mean when the crimson thread fails to turn white?",
+        "coreTension": "The crimson thread's whitening is treated as a sign that atonement was accepted, but the thread did not always turn white even in Temple times, raising the question of whether the sending itself, not the sign, is what actually achieves atonement.",
+        "coreMove": "Rabban Yochanan ben Zakkai's warning, 'do not rely on the thread - it is a sign but not the atonement itself,' resolves the tension: the verse-by-verse halakhot (12-mil Tsuk, backward push, signal relay, divided thread) establish a precisely defined ceremony whose efficacy does not depend on the thread turning white.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The crimson thread turning white is a sign of atonement, not its cause; the goat's sending itself, carried out exactly as the verse-by-verse halakhot specify, is what achieves atonement, whether or not the thread whitens."
+        },
+        "learningBlocker": "Learners may treat the whitening thread as the mechanism of atonement itself, missing Rabban Yochanan ben Zakkai's point that it is only a sign and the goat's sending is what actually atones."
       },
       "argumentFlow": [
         {
@@ -224,7 +231,11 @@
         "atonement theology"
       ],
       "misconceptions": [
-        "The thread not turning white does not mean atonement was denied - the sending itself achieves atonement."
+        {
+          "misconception": "If the crimson thread fails to turn white, the goat's sending failed to achieve atonement that year.",
+          "correction": "Rabban Yochanan ben Zakkai taught that the thread's whitening is merely a sign, not the atonement itself; the sending of the goat achieves atonement regardless of whether the thread turns white.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-042b-s01",
@@ -246,12 +257,12 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How far was the Tsuk from Jerusalem?",
-          "answer": "12 mil, corresponding to the measure of the Israelite camp."
+          "answer": "12 mil, corresponding to the measure of the Israelite camp.",
+          "question": "How far was the Tsuk from Jerusalem?"
         },
         {
-          "seed": "How was the crimson thread divided on Yom Kippur?",
-          "answer": "Half was tied to the cliff rock and half to the goat's horns; when the goat fell, the thread on the cliff turned white."
+          "answer": "Half was tied to the cliff rock and half to the goat's horns; when the goat fell, the thread on the cliff turned white.",
+          "question": "How was the crimson thread divided on Yom Kippur?"
         }
       ],
       "finalRuling": "The Tsuk is 12 mil from Jerusalem; the goat is pushed backward; the crimson thread's whitening is a sign of atonement but not its cause.",

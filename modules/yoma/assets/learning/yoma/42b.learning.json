@@ -82,13 +82,20 @@
       ],
       "display": {
         "whats": "Does a non-priest invalidate the parah slaughter, and what is the legal basis for the ish iti's impurity?",
-        "hint": "The verse 'l'mishmerit l'mei nidda' does double duty: it establishes geographic requirements (excluding Tur Shimon) and implicitly addresses personnel requirements (a kohen for slaughter). The ish iti's impurity is rabbinic but immersion is still required."
+        "hint": "The verse 'l'mishmerit l'mei nidda' does double duty: it establishes geographic requirements (excluding Tur Shimon) and implicitly addresses personnel requirements (a kohen for slaughter). The ish iti's impurity is rabbinic but immersion is still required.",
+        "title": "Tur Shimon Excluded, and the Ish Iti's Rabbinic Impurity"
       },
       "learning": {
-        "summary": "Two intertwined threads: the geographic exclusion of Tur Shimon from parah validity, and the continuing dispute about whether non-priest slaughter of parah is valid. The page resolves both.",
         "ahaMoment": "The term 'l'mishmerit' (for keeping/guarding) is read as restricting where parah can be performed - a geographic halakha derived from a word about storage.",
         "memoryAnchor": "The word 'mishmerit' restricts both location (not Tur Shimon) and handling (a kohen for slaughter) - one word, two limiting functions.",
-        "openQuestion": "If the ish iti's impurity is only rabbinic, why did the Sages require immersion at all?"
+        "learnerQuestion": "What does the verse 'l'mishmerit l'mei nidda' exclude, and why must the ish iti immerse if his impurity is only rabbinic?",
+        "coreTension": "The verse 'l'mishmerit l'mei nidda' must do double duty - excluding Tur Shimon geographically while the ongoing non-priest slaughter dispute and the ish iti's impurity status (biblical or merely rabbinic) remain unresolved.",
+        "coreMove": "The Gemara reads 'l'mishmerit' as excluding Tur Shimon from valid parah locations, and resolves the ish iti dispute (R. Yehuda: no immersion needed since impurity is rabbinic; Sages: immerse anyway) by ruling that he immerses and waits until nightfall regardless.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Tur Shimon is excluded as a valid location for the parah rite by the verse 'l'mishmerit l'mei nidda'; the ish iti's impurity is rabbinic, not biblical, but the final ruling requires him to immerse and wait until nightfall regardless."
+        },
+        "learningBlocker": "Learners may assume the goat itself is impure like an ordinary impurity source, missing that its 'for Azazel' designation, not its physical state, is what causes the ish iti's impurity."
       },
       "argumentFlow": [
         {
@@ -215,7 +222,11 @@
         "rabbinic vs biblical impurity"
       ],
       "misconceptions": [
-        "The ish iti's impurity is not because the goat itself is impure in a standard sense - it is a special designation-based impurity."
+        {
+          "misconception": "The ish iti becomes impure because the live goat itself carries ordinary ritual impurity, the way a corpse or other impurity-source would.",
+          "correction": "The goat is alive and not impure in the ordinary sense; its designation 'for Azazel' gives it a special status that causes the one who carries it to become impure, a designation-based impurity rather than standard contact impurity.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-042a-s01"
@@ -232,12 +243,12 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does 'l'mishmerit l'mei nidda' exclude?",
-          "answer": "Tur Shimon - a region outside the Land of Israel - as a valid location for the parah rite."
+          "answer": "Tur Shimon - a region outside the Land of Israel - as a valid location for the parah rite.",
+          "question": "What does 'l'mishmerit l'mei nidda' exclude?"
         },
         {
-          "seed": "Why does the ish iti need to immerse if his impurity is only rabbinic?",
-          "answer": "The Sages enacted immersion even for rabbinic impurity to maintain the seriousness of the Yom Kippur rite."
+          "answer": "The Sages enacted immersion even for rabbinic impurity to maintain the seriousness of the Yom Kippur rite.",
+          "question": "Why does the ish iti need to immerse if his impurity is only rabbinic?"
         }
       ],
       "finalRuling": "The ish iti must immerse and wait until nightfall; non-priest slaughter of parah is invalid according to the majority view.",

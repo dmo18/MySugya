@@ -57,13 +57,20 @@
       ],
       "display": {
         "whats": "Does R. Yehuda agree with the Mishna's ruling about the tevul yom's validity for the parah rite?",
-        "hint": "Abaye explains that Ulla's principle (some verse-implications preclude earlier ones, some add on) means R. Yehuda actually does disagree - his silence in the Mishna does not mean consent."
+        "hint": "Abaye explains that Ulla's principle (some verse-implications preclude earlier ones, some add on) means R. Yehuda actually does disagree - his silence in the Mishna does not mean consent.",
+        "title": "Does R. Yehuda Disagree? Reading Silence in the Mishna"
       },
       "learning": {
-        "summary": "The Gemara uses Abaye's application of Ulla's abstract principle to show that R. Yehuda must hold a different position even though he did not explicitly state it in the Mishna.",
         "ahaMoment": "Silence in a Mishna is sometimes read as agreement - but here, given the logical structure of the verse conditions, Abaye argues R. Yehuda's silence is not agreement but omission.",
         "memoryAnchor": "Ulla's principle: in legal verses, sometimes the conditions in a later clause cancel the earlier clause's conditions; sometimes they stack. The difference determines whether R. Yehuda disagrees.",
-        "openQuestion": "When does a scholar's silence in a Mishna indicate agreement versus simply that he did not comment?"
+        "learnerQuestion": "Does R. Yehuda actually disagree with the Mishna's ruling that a tevul yom is valid for the parah rite, even though he says nothing about it there?",
+        "coreTension": "R. Yehuda's silence in the Mishna could be read as agreement with the ruling that a tevul yom may sprinkle the parah waters, but Abaye argues that silence does not always signal consent.",
+        "coreMove": "Abaye applies Ulla's principle, that some implied verse-conditions preclude earlier ones while others stack onto them, to show the logical structure requires that R. Yehuda in fact disagrees, even though the Mishna records no explicit dissent from him.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "A scholar's silence in a Mishna does not automatically mean agreement; here, Ulla's principle about how implied verse-conditions interact shows that R. Yehuda's omission reflects a real, unstated disagreement rather than consent."
+        },
+        "learningBlocker": "Learners often read a sage's silence in a Mishna as implicit agreement, missing that Abaye shows R. Yehuda's silence here actually conceals a real disagreement."
       },
       "argumentFlow": [
         {
@@ -159,7 +166,11 @@
         "parah adumah rite personnel"
       ],
       "misconceptions": [
-        "R. Yehuda's silence in the Mishna does not mean he agrees - it means the dispute was not recorded here."
+        {
+          "misconception": "Since R. Yehuda does not explicitly object in the Mishna, his silence indicates that he agrees with the ruling that a tevul yom is valid for parah.",
+          "correction": "Abaye's application of Ulla's principle shows R. Yehuda's silence does not mean agreement - the logical structure of the verse conditions indicates he holds a different position, even though the Mishna does not record it explicitly.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-043a-s01"
@@ -172,8 +183,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does 'the pure one shall sprinkle' teach about the parah rite?",
-          "answer": "That 'pure' implies the person was previously impure - teaching that a tevul yom (who immersed but awaits nightfall) is valid for sprinkling parah waters."
+          "answer": "That 'pure' implies the person was previously impure - teaching that a tevul yom (who immersed but awaits nightfall) is valid for sprinkling parah waters.",
+          "question": "What does 'the pure one shall sprinkle' teach about the parah rite?"
         }
       ],
       "finalRuling": "A tevul yom is valid for the parah water sprinkling; R. Yehuda does disagree with this ruling.",
@@ -245,13 +256,20 @@
       ],
       "display": {
         "whats": "How does the High Priest handle the bull's blood, and what are the laws of the incense offering inside the Holy of Holies?",
-        "hint": "The Mishna describes the bull slaughter and blood-in-bowl sequence, then pivots to the incense offering - the most private act of Yom Kippur. The central dispute: must the incense be placed on the coals inside, or may it be prepared outside?"
+        "hint": "The Mishna describes the bull slaughter and blood-in-bowl sequence, then pivots to the incense offering - the most private act of Yom Kippur. The central dispute: must the incense be placed on the coals inside, or may it be prepared outside?",
+        "title": "Bull's Blood, Golden Firepan, and the Pharisee-Sadducee Incense Dispute"
       },
       "learning": {
-        "summary": "The High Priest slaughters the bull, hands off the blood to a kohen-stirrer, then takes coals and incense into the Holy of Holies alone. The Pharisee-Sadducee dispute about incense placement is the theological core of this section.",
         "ahaMoment": "The Sadducees wanted to prepare the incense cloud outside and walk in protected; the Sages said no - the act of placing incense on coals must happen inside, making the High Priest momentarily in danger before the cloud forms.",
         "memoryAnchor": "The blood bowl is held by a kohen outside while the High Priest enters alone with fire and incense - the sequence requires him to be completely unaccompanied for the most sacred moment of the year.",
-        "openQuestion": "If the incense cloud must form inside the Kodesh Kodashim, isn't the High Priest in danger before the cloud forms?"
+        "learnerQuestion": "How does the High Priest handle the bull's blood, and where must the Yom Kippur incense actually be placed on burning coals: inside or outside the Holy of Holies?",
+        "coreTension": "The Sadducees held the incense should be prepared and lit outside so the High Priest enters already shielded by smoke, while the Sages insist the incense must be placed on the coals only after he is already inside the Holy of Holies, alone.",
+        "coreMove": "The Sages rule that the act of placing incense on coals must happen inside the Kodesh Kodashim itself, rejecting the Sadducee practice of pre-lighting outside, because the incense placement is a halakhic requirement of the rite rather than a means of physically shielding the High Priest.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The bull's blood must be stirred continuously by a designated kohen so it does not congeal, and the incense must be placed on the coals inside the Holy of Holies, not prepared and carried in already burning, as the Sadducees held."
+        },
+        "learningBlocker": "Learners may assume, with the Sadducee position, that the incense cloud functions as protective cover for the High Priest, missing that the Sages treat its inside-placement as a halakhic requirement of the rite, not a safety measure."
       },
       "argumentFlow": [
         {
@@ -353,7 +371,11 @@
         "incense composition"
       ],
       "misconceptions": [
-        "The incense cloud is not meant to protect the High Priest - it is a halakhic requirement of the rite."
+        {
+          "misconception": "The incense cloud's purpose is to shield the High Priest from the danger of seeing the ark directly, so it should be prepared before he enters.",
+          "correction": "The Sages hold the incense cloud is not a protective shield - placing the incense on the coals is a halakhic requirement of the rite itself, which is why it must happen only after the High Priest is already inside, not prepared beforehand as the Sadducees held.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [
         "yoma-044a-s01"
@@ -370,12 +392,12 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why did a kohen stir the bull's blood?",
-          "answer": "To prevent it from congealing before it could be sprinkled; if the blood congealed, the sprinkling would fail."
+          "answer": "To prevent it from congealing before it could be sprinkled; if the blood congealed, the sprinkling would fail.",
+          "question": "Why did a kohen stir the bull's blood?"
         },
         {
-          "seed": "What was the Sadducee position on the incense offering?",
-          "answer": "They held the incense should be prepared and lit outside the Holy of Holies before the High Priest entered, so he walked in already protected by the smoke cloud."
+          "answer": "They held the incense should be prepared and lit outside the Holy of Holies before the High Priest entered, so he walked in already protected by the smoke cloud.",
+          "question": "What was the Sadducee position on the incense offering?"
         }
       ],
       "finalRuling": "The incense must be placed on coals inside the Holy of Holies, not prepared outside; the bull's blood must be stirred continuously by a designated kohen.",
