@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Analogy cannot derive from analogy; golden altar needs its own verse",
-        "hint": "A key hermeneutic principle: a law derived by analogy cannot itself serve as the basis for a further analogy. The golden altar's sprinkling therefore requires its own direct biblical source ('as you shall do to the Tent of Meeting')."
+        "hint": "A key hermeneutic principle: a law derived by analogy cannot itself serve as the basis for a further analogy. The golden altar's sprinkling therefore requires its own direct biblical source ('as you shall do to the Tent of Meeting').",
+        "title": "Parochet Service Derived by Analogy from Inner Service"
       },
       "learning": {
-        "summary": "The Gemara raises the question: the parochet service was derived by analogy from the inner service. Can the golden altar service then be derived by analogy from the parochet? The answer is no - in sacrificial law, a ruling derived by analogy (hekkesh) cannot generate further derived law by analogy (hekkesh mi-hekkesh). A separate, direct verse is required for the golden altar. The Gemara locates it: 'as you shall do to the Tent of Meeting.' A subtlety: the bull-goat inner analogy may not technically count as pure analogy since both have explicit verses, only the count being derived by inference.",
         "ahaMoment": "Analogy is a one-generation tool in halachic law - you can derive from explicit text, but what you derive cannot generate further derivations by analogy. Each link in the chain needs its own explicit ground.",
         "memoryAnchor": "Hekkesh cannot teach hekkesh: every link needs its own anchor, not just a connection to the previous link.",
-        "openQuestion": "Why is chaining analogies dangerous in halachic reasoning? What errors could it produce?"
+        "learnerQuestion": "Is the parochet blood service explicitly described in the Torah, or is it derived by analogy from the inner Holy of Holies service?",
+        "coreTension": "The Torah's Yom Kippur passage explicitly describes the inner sprinkling but is less explicit about the parochet; if the parochet service is purely derived by analogy, its status and precise details may be weaker than if it has a direct verse.",
+        "coreMove": "The Talmud derives the parochet sprinkling service primarily through analogy with the inner service, using verbal parallels in the Torah passage to establish that the same pattern applies to the parochet.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The parochet blood sprinkling service is derived through analogy with the inner Holy of Holies service; the Torah's parallel language for the inner and outer services establishes that the same count and pattern apply to both."
+        },
+        "learningBlocker": "Students may assume every ritual action on Yom Kippur has an explicit verse; the derivation of the parochet service by analogy is a significant example of how the Oral Torah structures what the Torah implies."
       },
       "argumentFlow": [
         {
@@ -138,7 +145,10 @@
         "Knowing the verse 'as you shall do to the Tent of Meeting'"
       ],
       "misconceptions": [
-        "The parochet service also has a direct verse - it is not purely derived by analogy"
+        {
+          "misconception": "The parochet has its own direct verse specifying its blood sprinkling service, independent of the inner service.",
+          "correction": "The parochet blood sprinkling service is primarily derived by analogy from the inner service, using the Torah's parallel language; it does not have the same independent explicit source as the inner kapporet service."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -153,8 +163,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why can't the golden altar service be derived by analogy from the parochet sprinkling?",
-          "answer": "Because the parochet itself was derived by analogy from the inner service, and halachic law (hekkesh mi-hekkesh principle) prohibits deriving law by analogy from a ruling that was itself derived by analogy."
+          "answer": "Because the parochet itself was derived by analogy from the inner service, and halachic law (hekkesh mi-hekkesh principle) prohibits deriving law by analogy from a ruling that was itself derived by analogy.",
+          "question": "Why can't the golden altar service be derived by analogy from the parochet sprinkling?"
         }
       ],
       "finalRuling": "Analogy cannot generate further analogy in sacrificial law - the golden altar requires its own explicit biblical verse.",
@@ -221,13 +231,20 @@
       ],
       "display": {
         "whats": "Golden altar service: corner sprinkles from separate bloods, then seven on top from mixed blood",
-        "hint": "The HP sprinkles on the golden altar's four corners from the bull's blood alone, then from the goat's blood alone, then mixes both bloods and sprinkles seven times on the altar's top surface."
+        "hint": "The HP sprinkles on the golden altar's four corners from the bull's blood alone, then from the goat's blood alone, then mixes both bloods and sprinkles seven times on the altar's top surface.",
+        "title": "Golden Altar - Two Distinct Sub-Services"
       },
       "learning": {
-        "summary": "The golden altar service has two distinct sub-services. First: the HP sprinkles on the four horns (corners) from the bull's blood only, then from the goat's blood only - keeping them separate at this stage. Second: he mixes both bloods together and sprinkles seven times on the top surface of the altar. The mixing only happens after both corner services are complete; the order is fixed and cannot be reversed. The source for mixing before the top sprinkles is derived from the verse.",
         "ahaMoment": "The golden altar unifies what all other services kept separate: the bull and goat bloods converge at this altar, mixed for the top sprinkles. The inner services were separate; the golden altar synthesis is the only point where both bloods combine.",
         "memoryAnchor": "Corner sprinkles separate, top sprinkles combined: the golden altar is where the two atonement streams finally merge.",
-        "openQuestion": "What is the significance of keeping bull and goat blood separate until after the corner sprinkles?"
+        "learnerQuestion": "What two distinct sub-services does the golden altar receive on Yom Kippur, and what is the count for each?",
+        "coreTension": "The golden altar receives blood on Yom Kippur, but the precise application - whether on the corners, on the top, or in the air above - must be established, and the count for each sub-service is defined separately.",
+        "coreMove": "The Talmud distinguishes two sub-services for the golden altar: applications of blood onto the corners (horns) of the altar, and sprinklings onto its top surface - each derived separately and forming distinct components of the golden altar service.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The golden altar receives two distinct blood services on Yom Kippur: applications onto the four corners (horns) of the altar, and additional sprinklings onto the top surface - each is a separate ritual act with its own derivation."
+        },
+        "learningBlocker": "Students may lump the golden altar service into a single undifferentiated act; the distinction between corner (horn) applications and top-surface sprinklings is a technical detail they are likely to overlook."
       },
       "argumentFlow": [
         {
@@ -316,7 +333,10 @@
         "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
       ],
       "misconceptions": [
-        "The seven sprinkles go on the top surface of the golden altar, not into the air above it"
+        {
+          "misconception": "The sprinklings on the golden altar all go on the top surface - there is only one type of application there.",
+          "correction": "The golden altar receives two distinct sub-services: applications on the corners (horns) and sprinklings onto the top surface; these are separate acts with different purposes and derivations."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -335,8 +355,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How does the HP use the bull and goat blood on the golden altar?",
-          "answer": "First he sprinkles on the four corners from bull blood only, then from goat blood only. Then he mixes both bloods and sprinkles seven times on the top surface."
+          "answer": "First he sprinkles on the four corners from bull blood only, then from goat blood only. Then he mixes both bloods and sprinkles seven times on the top surface.",
+          "question": "How does the HP use the bull and goat blood on the golden altar?"
         }
       ],
       "finalRuling": "The HP sprinkles individual blood on the golden altar's corners, then mixes both bloods and sprinkles seven times on the top surface.",

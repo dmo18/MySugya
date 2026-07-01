@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "The HP does not pile incense from in front of the coal pan - he approaches from the side",
-        "hint": "The Gemara clarifies the HP's approach direction: he approaches the coal pan from the side, not from in front. Approaching from in front would be even more directly facing the kapporet, which is reserved for the sprinkling moment."
+        "hint": "The Gemara clarifies the HP's approach direction: he approaches the coal pan from the side, not from in front. Approaching from in front would be even more directly facing the kapporet, which is reserved for the sprinkling moment.",
+        "title": "High Priest Approaches Coal Pan from the Side"
       },
       "learning": {
-        "summary": "When piling incense on the coals, the HP approaches from the side of the coal pan rather than from in front of it. Coming from in front would place him directly facing the kapporet too early. The side approach allows him to pour the incense correctly while maintaining the proper orientation for the subsequent blood sprinkling.",
         "ahaMoment": "The HP's every movement inside the Holy of Holies is calibrated - even the direction of approach to the coal pan.",
         "memoryAnchor": "Side approach to the coal pan - not from the front which is reserved for the kapporet sprinkling position.",
-        "openQuestion": "Does the direction of approach to the coal pan inside the Holy of Holies have independent halachic significance?"
+        "learnerQuestion": "In what position does the High Priest place the incense onto the coal pan inside the Holy of Holies, and why does the approach angle matter?",
+        "coreTension": "The coal pan holds burning coals and is placed near the kapporet; approaching from directly in front would mean the HP's hands pass very close to the kapporet. The proper approach must be from a direction that respects both safety and the sacred object.",
+        "coreMove": "The Talmud teaches that the HP approaches the coal pan from its side (not front), allowing him to pile the incense while keeping his body properly oriented and avoiding approaching the kapporet too directly with his hands.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest places incense on the coal pan from the side, not from directly in front; the angle of approach inside the Holy of Holies is a defined halachic detail, not left to discretion."
+        },
+        "learningBlocker": "The mechanics of incense placement inside the small Holy of Holies chamber are not described explicitly in the Torah; learners may assume the HP had discretion over exactly how to position himself."
       },
       "argumentFlow": [
         {
@@ -79,8 +86,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP approach the coal pan from the side rather than from in front?",
-          "answer": "Approaching from in front is the position reserved for the kapporet sprinkling. For incense piling, the side approach is used so the HP is properly oriented for each act."
+          "answer": "Approaching from in front is the position reserved for the kapporet sprinkling. For incense piling, the side approach is used so the HP is properly oriented for each act.",
+          "question": "Why does the HP approach the coal pan from the side rather than from in front?"
         }
       ],
       "finalRuling": "The HP approaches the coal pan from the side when piling incense - not from in front.",
@@ -137,13 +144,20 @@
       ],
       "display": {
         "whats": "A baraita teaches that the HP places the incense inside the Holy of Holies - the Sadducee interpretation rejected",
-        "hint": "A baraita confirms: the HP piles the incense inside the Holy of Holies (after entering, not before). The Sadducee position - that he should pile it outside before entering - is rejected."
+        "hint": "A baraita confirms: the HP piles the incense inside the Holy of Holies (after entering, not before). The Sadducee position - that he should pile it outside before entering - is rejected.",
+        "title": "Pharisees vs. Sadducees on Where Incense Is Lit"
       },
       "learning": {
-        "summary": "The Sadducees read 'and he shall put the incense on the fire before God' to mean: pile it outside the parochet, then enter with the smoking incense. The Pharisees/Sages read the same verse as: enter first with the coals and incense separately, then pile the incense on the coals inside. A baraita explicitly supports the rabbinic position: the incense is placed on the coals inside. The Sadducee interpretation would mean the HP entered with ready-made incense smoke, but the verse's context requires the piling to occur inside.",
         "ahaMoment": "The Sadducees vs. Sages debate on incense timing is one of the most famous disputes in Temple service history - it has theological implications about when the HP may be 'before God.'",
         "memoryAnchor": "Sadducees: pile outside then enter with smoke. Sages: enter with separate coals and incense, pile inside. The baraita supports the Sages.",
-        "openQuestion": "What does 'before God' mean - does it require the incense smoke to be present from before the HP's entry, or does it mean he creates the smoke once inside?"
+        "learnerQuestion": "Did the Sadducean position that the HP lights the incense outside have any scriptural basis, and how do the Sages counter it?",
+        "coreTension": "The verse says the HP should come 'before God' in a cloud of incense; Sadducees read this to mean the cloud must form before entry (outside), while Pharisees read it as describing a cloud that forms inside, 'before God' in the Holy of Holies.",
+        "coreMove": "The Sages refute the Sadducean reading by noting that 'before God' specifies the place the cloud must reach - inside the Holy of Holies - not that it must already exist before entry; the incense is lit inside so the cloud forms 'before God.'",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The phrase 'before God' in the Yom Kippur incense verse refers to where the cloud must exist (inside the Holy of Holies), not to when it must form; therefore the incense is placed on the coals after entry."
+        },
+        "learningBlocker": "The Sadducean reading feels intuitive: 'come in a cloud' sounds like 'already be in a cloud when you come in.' Students need to understand how the Sages parse the verse differently."
       },
       "argumentFlow": [
         {
@@ -213,7 +227,10 @@
         "Temple service halacha"
       ],
       "misconceptions": [
-        "The Sadducees were correct - the HP should pile incense outside before entering."
+        {
+          "misconception": "The Sadducees were correct that the HP should pile incense outside and enter already surrounded by smoke - their reading of the verse is the natural one.",
+          "correction": "The Sages ruled that 'before God' indicates where the cloud must exist (inside the Holy of Holies), not when it must form; the HP enters separately and places incense on the coals only after he is inside."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -224,8 +241,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the Sadducee-Sages dispute about incense and how is it resolved?",
-          "answer": "Sadducees: HP piles incense outside then enters with smoke. Sages (supported by baraita): HP enters with coals and incense separately and piles inside. The Sages' position is the accepted halacha."
+          "answer": "Sadducees: HP piles incense outside then enters with smoke. Sages (supported by baraita): HP enters with coals and incense separately and piles inside. The Sages' position is the accepted halacha.",
+          "question": "What is the Sadducee-Sages dispute about incense and how is it resolved?"
         }
       ],
       "finalRuling": "The incense is piled inside the Holy of Holies (Sages/baraita position); the Sadducee position is rejected.",
@@ -287,13 +304,20 @@
       ],
       "display": {
         "whats": "R. Eliezer's baraita and the Sadducee challenge to the timing of the incense cloud",
-        "hint": "A baraita in the name of R. Eliezer presents the Sadducee position more formally. The Gemara then presents the challenge: if the smoke must be present 'before God,' doesn't that require piling it outside?"
+        "hint": "A baraita in the name of R. Eliezer presents the Sadducee position more formally. The Gemara then presents the challenge: if the smoke must be present 'before God,' doesn't that require piling it outside?",
+        "title": "R. Eliezer: 'Before God' Means Inside the Holy of Holies"
       },
       "learning": {
-        "summary": "R. Eliezer's baraita formulates the argument more precisely: 'before God' (lifnei Hashem) means the incense must be lit while already in God's presence (inside the Holy of Holies). A second interpretation: the incense must fill the space before the HP approaches. The Gemara challenges the Sadducee reading by showing that the verse's context and other verses about the Yom Kippur service support the inside-piling interpretation.",
         "ahaMoment": "The debate about 'before God' - does it describe where the smoke must be, or when it must be created - is the core theological question of this Sadducee-Sages dispute.",
         "memoryAnchor": "R. Eliezer's baraita: 'before God' means inside the Holy of Holies, not before the parochet.",
-        "openQuestion": "Can 'before God' have different meanings depending on whether it describes location or timing?"
+        "learnerQuestion": "What interpretive evidence does R. Eliezer bring to establish that 'before God' definitively refers to inside the Holy of Holies and not to outside the parochet?",
+        "coreTension": "The phrase 'before God' could in theory refer to anywhere in the Temple precincts where God's presence resides; R. Eliezer must establish that it specifically means inside the innermost chamber, the Holy of Holies.",
+        "coreMove": "R. Eliezer derives from context and Temple geography that 'before God' in the Yom Kippur incense passage refers uniquely to the inner sanctum, distinguishing it from 'before God' used elsewhere for the Heichal or outer areas.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "R. Eliezer establishes that 'before God' in the Yom Kippur incense context means inside the Holy of Holies specifically, ruling out the possibility that the parochet area or Heichal satisfies the requirement."
+        },
+        "learningBlocker": "The phrase 'before God' appears in many contexts throughout the Torah referring to different Temple areas; students need to learn how context narrows its meaning in each specific passage."
       },
       "argumentFlow": [
         {
@@ -363,7 +387,10 @@
         "biblical analysis"
       ],
       "misconceptions": [
-        "'Before God' can only mean outside the parochet - the Gemara rejects this reading."
+        {
+          "misconception": "'Before God' can refer to any area in the Temple where God's presence dwells, including outside the parochet.",
+          "correction": "R. Eliezer demonstrates from context that in the Yom Kippur incense verse, 'before God' specifically means inside the Holy of Holies, not merely within the broader Temple precinct."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -374,8 +401,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How does R. Eliezer's baraita address the Sadducee challenge?",
-          "answer": "R. Eliezer teaches that 'before God' (lifnei Hashem) means inside the Holy of Holies. The incense is piled on the coals once inside, creating the protective cloud in the presence of God."
+          "answer": "R. Eliezer teaches that 'before God' (lifnei Hashem) means inside the Holy of Holies. The incense is piled on the coals once inside, creating the protective cloud in the presence of God.",
+          "question": "How does R. Eliezer's baraita address the Sadducee challenge?"
         }
       ],
       "finalRuling": "R. Eliezer: 'before God' means inside - incense is piled inside the Holy of Holies.",
@@ -417,13 +444,20 @@
       ],
       "display": {
         "whats": "The HP exits backward from the Holy of Holies out of respect - not turning his back to the Ark",
-        "hint": "After completing the incense and blood service, the HP exits the Holy of Holies by walking backward - he does not turn his back to the Ark's location. This is maximum kavod for the divine presence."
+        "hint": "After completing the incense and blood service, the HP exits the Holy of Holies by walking backward - he does not turn his back to the Ark's location. This is maximum kavod for the divine presence.",
+        "title": "High Priest Exits the Holy of Holies Walking Backward"
       },
       "learning": {
-        "summary": "When the HP finishes the innermost service, he exits walking backward (facing inward) rather than turning around to walk out. Turning one's back to the Ark or the divine presence is disrespectful. The backward walk shows the HP maintains his deferential posture throughout his time in the Holy of Holies - he entered facing inward and exits the same way.",
         "ahaMoment": "Leaving a holy presence: you do not turn your back - you walk backward facing it until you exit. This principle applies from the Holy of Holies to leaving a Torah scholar's presence.",
         "memoryAnchor": "HP exits backward: he faces the kapporet location until he is fully outside - the ultimate deference.",
-        "openQuestion": "Does the obligation to exit backward from holy presences derive from Temple practice or is it an independent principle that also applies in the Temple?"
+        "learnerQuestion": "When the High Priest leaves the Holy of Holies after the blood and incense service, does he turn around and walk out normally, or does he exit differently?",
+        "coreTension": "Turning one's back to the Holy Ark or to the divine presence when leaving is considered disrespectful; but walking backward out of a small chamber after completing a complex ritual is physically awkward.",
+        "coreMove": "The Talmud rules that the HP exits the Holy of Holies walking backward, face still turned toward the kapporet, because one does not turn one's back on the divine presence when departing.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest exits the Holy of Holies walking backward, facing inward toward the kapporet, because turning one's back on the divine presence when departing is considered disrespectful."
+        },
+        "learningBlocker": "Students assume that after completing the service the HP simply turns and walks out normally; the backward-exit rule is not stated explicitly in the Torah and is easily overlooked."
       },
       "argumentFlow": [
         {
@@ -478,7 +512,10 @@
         "deference to holiness"
       ],
       "misconceptions": [
-        "The HP turns around to walk out normally - backward walking is specifically required."
+        {
+          "misconception": "The HP turns around normally and walks forward out of the Holy of Holies after completing the blood and incense service.",
+          "correction": "The HP exits the Holy of Holies walking backward, keeping his face toward the kapporet, because turning one's back on the divine presence during departure is forbidden."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -489,8 +526,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP exit the Holy of Holies walking backward?",
-          "answer": "Walking backward shows he does not turn his back to the Ark's location (the divine presence). This is maximum kavod, derived from the general principle of not turning one's back to a holy presence."
+          "answer": "Walking backward shows he does not turn his back to the Ark's location (the divine presence). This is maximum kavod, derived from the general principle of not turning one's back to a holy presence.",
+          "question": "Why does the HP exit the Holy of Holies walking backward?"
         }
       ],
       "finalRuling": "The HP exits the Holy of Holies walking backward - maintaining deference to the divine presence throughout.",
@@ -537,13 +574,20 @@
       ],
       "display": {
         "whats": "The HP offers a brief prayer at the exit from the Holy of Holies - short to prevent public anxiety",
-        "hint": "Upon exiting the Holy of Holies the HP offers a brief prayer. The Gemara explains it must be short so the people outside do not worry that he has died inside."
+        "hint": "Upon exiting the Holy of Holies the HP offers a brief prayer. The Gemara explains it must be short so the people outside do not worry that he has died inside.",
+        "title": "The High Priest's Exit Prayer Must Be Brief"
       },
       "learning": {
-        "summary": "After exiting the Holy of Holies, the HP pauses to recite a brief prayer. The prayer must be short - if he stayed too long praying, the people who are waiting and fasting would become anxious that something went wrong inside (and that the HP died). The HP prays for a good year, for the Temple and its people, and that Yom Kippur not fall on Shabbat. He does not pray for personal benefit but for the community.",
         "ahaMoment": "The HP's prayer must be communal and brief - his role as representative means even his prayer is for others, and its brevity protects public wellbeing.",
         "memoryAnchor": "HP's exit prayer: brief (so people don't panic), communal (for Israel, not personal).",
-        "openQuestion": "What are the competing obligations of the HP at the moment of exit: thorough prayer vs. public reassurance?"
+        "learnerQuestion": "After the High Priest exits the Holy of Holies on Yom Kippur, is he required to pray, and if so, how long may his prayer last?",
+        "coreTension": "The HP has just completed the most sacred service of the year and the congregation is waiting outside; he should express gratitude and supplication, but extending the prayer while the people wait causes public anxiety and is potentially dangerous.",
+        "coreMove": "The Talmud rules that the HP's exit prayer must be brief; prolonging it causes the people outside to fear that something has gone wrong inside the Holy of Holies, potentially leading to panic.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest's prayer upon exiting the Holy of Holies must be kept brief because prolonging it while the congregation waits outside could trigger fear that something went wrong inside."
+        },
+        "learningBlocker": "Students might assume that after the holiest act of the year, an extended prayer of thanksgiving or supplication would be appropriate and even expected; the public-anxiety concern is not immediately obvious."
       },
       "argumentFlow": [
         {
@@ -613,7 +657,10 @@
         "Yom Kippur service"
       ],
       "misconceptions": [
-        "The HP can pray as long as he wants after exiting - brevity is specifically required to prevent public panic."
+        {
+          "misconception": "The HP can pray at length after emerging from the Holy of Holies - extended prayer after such a holy act is fitting and appropriate.",
+          "correction": "The HP's exit prayer must be brief; the congregation waiting outside would interpret a long absence as a sign that something went wrong inside, potentially causing panic."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -624,8 +671,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why must the HP's exit prayer be brief?",
-          "answer": "If the HP spent too long inside after the service, the fasting crowd would fear he died inside. The brief exit prayer reassures them. The prayer itself is for communal welfare (good year, proper rain, Israel's prosperity) not personal matters."
+          "answer": "If the HP spent too long inside after the service, the fasting crowd would fear he died inside. The brief exit prayer reassures them. The prayer itself is for communal welfare (good year, proper rain, Israel's prosperity) not personal matters.",
+          "question": "Why must the HP's exit prayer be brief?"
         }
       ],
       "finalRuling": "The HP offers a brief communal exit prayer - brevity prevents public panic; content is communal, not personal.",

@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Walking backward when leaving a rabbi or place of learning - derived from Temple practice",
-        "hint": "The Gemara derives the practice of walking backward when leaving a Torah scholar's presence from the HP's backward exit from the Holy of Holies."
+        "hint": "The Gemara derives the practice of walking backward when leaving a Torah scholar's presence from the HP's backward exit from the Holy of Holies.",
+        "title": "Backward Walking Extended to Leaving Torah Scholars"
       },
       "learning": {
-        "summary": "The HP walks backward when leaving the Holy of Holies (53a). The Gemara derives from this: when leaving a Torah scholar's presence, one should also walk backward as a sign of respect. Rav Yosef (who was blind) and Rava applied this principle. The backward walk shows that one does not turn one's back on a holy presence - whether it is God's presence in the Temple or a Torah scholar's presence.",
         "ahaMoment": "The Temple practice becomes the paradigm for all respectful departures: from the Holy of Holies to leaving a rabbi's presence, backward walking shows deference.",
         "memoryAnchor": "Backward exit from the Holy of Holies becomes the model for leaving any holy presence - including a Torah scholar.",
-        "openQuestion": "Is the backward walk when leaving a rabbi's presence a full halachic obligation or a custom derived from Temple practice?"
+        "learnerQuestion": "Does the rule of walking backward out of respect apply only to the Temple and the Holy of Holies, or does it generalize to other sacred encounters?",
+        "coreTension": "The backward-walk rule was established for the HP exiting the Holy of Holies; the question is whether this reflects a general principle of reverence for sacred presence or is a unique Temple rite.",
+        "coreMove": "The Talmud extends the backward-walk principle to leaving the presence of Torah scholars: just as the HP walks backward when departing from the divine presence, so too one should back away when departing from a great Torah teacher.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "The reverence shown by walking backward when departing from sacred presence extends beyond the Temple: one should also back away when departing from Torah scholars, applying the same principle of not turning one's back on the sacred."
+        },
+        "learningBlocker": "Students treat the backward-walk rule as purely a Temple-specific technical detail rather than as an expression of a general value of reverence that has broader applications."
       },
       "argumentFlow": [
         {
@@ -66,7 +73,10 @@
         "Temple practice and daily life"
       ],
       "misconceptions": [
-        "Walking backward is only required in the Temple - it is also applied to leaving Torah scholars."
+        {
+          "misconception": "Walking backward is a Temple ritual specific to the priestly service and has no application outside it.",
+          "correction": "The Talmud extends the backward-walk principle to departing from Torah scholars, establishing it as a general expression of reverence that applies wherever sacred presence is encountered."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -79,8 +89,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What kavod practice derives from the HP's backward exit from the Holy of Holies?",
-          "answer": "The practice of walking backward when leaving a Torah scholar's presence. Just as the HP does not turn his back on the divine presence, one does not turn one's back on a Torah scholar."
+          "answer": "The practice of walking backward when leaving a Torah scholar's presence. Just as the HP does not turn his back on the divine presence, one does not turn one's back on a Torah scholar.",
+          "question": "What kavod practice derives from the HP's backward exit from the Holy of Holies?"
         }
       ],
       "finalRuling": "Walking backward when leaving a Torah scholar derives from the HP's backward exit from the Holy of Holies.",
@@ -122,13 +132,20 @@
       ],
       "display": {
         "whats": "The HP's brief exit prayer: content and the principle that communal prayers must be short",
-        "hint": "The Gemara details what the HP prays at his exit and explains why communal representatives must keep their prayers brief. A long prayer would cause public anxiety."
+        "hint": "The Gemara details what the HP prays at his exit and explains why communal representatives must keep their prayers brief. A long prayer would cause public anxiety.",
+        "title": "High Priest's Exit Prayer - Communal Focus Only"
       },
       "learning": {
-        "summary": "The HP's exit prayer has specific content: a good year, proper rain, Israel's prosperity, that the people of the Sharon Valley not lose their homes to floods. He does not pray for personal benefit. The Gemara explains: a communal representative's prayer must be short because the people waiting and fasting will become anxious if he is gone too long. This becomes a general principle for prayer leaders (shlichei tzibbur).",
         "ahaMoment": "The HP's brief prayer is not from laziness but from care for the people waiting - prolonged absence would cause panic. Community welfare shapes even the content and length of prayer.",
         "memoryAnchor": "HP prays briefly for community: good year, rain, Sharon Valley safety. Brevity is itself an act of care.",
-        "openQuestion": "How does the community's anxiety about the HP's safety shape the halakhic requirements of the exit prayer?"
+        "learnerQuestion": "What topics does the High Priest include in his brief prayer upon exiting the Holy of Holies, and are personal petitions appropriate?",
+        "coreTension": "The HP has just performed the holiest service of the year on behalf of all Israel; his exit prayer should reflect communal responsibility, but as an individual he might naturally include personal petitions as well.",
+        "coreMove": "The Talmud specifies that the HP's exit prayer is entirely communal: he prays for a good year, for sufficient rain, and that Yom Kippur should not fall on Shabbat. Personal petitions are not included because the role demands communal focus.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest's exit prayer consists only of communal petitions - for a good year, rain, and a favorable calendar - because his role on Yom Kippur is as representative of all Israel, not as a private individual."
+        },
+        "learningBlocker": "Students assume that a prayer said by a person is naturally a blend of communal and personal content; the strict limitation to communal topics reflects the HP's unique representative role."
       },
       "argumentFlow": [
         {
@@ -198,7 +215,10 @@
         "Yom Kippur prayer"
       ],
       "misconceptions": [
-        "The HP prays for personal matters too in the exit prayer - his prayer is entirely communal."
+        {
+          "misconception": "The HP prays for personal matters as well as communal ones during his exit prayer, since he is still an individual with his own needs.",
+          "correction": "The HP's exit prayer is strictly communal - for a good year, rain, and an appropriate calendar - because on Yom Kippur he acts exclusively as the community's representative, not as a private person."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -211,8 +231,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the HP pray at his exit from the Holy of Holies?",
-          "answer": "He prays briefly for a good year, proper rain, Israel's welfare, and specifically for the Sharon Valley people that their homes not collapse in floods. His prayer is entirely communal; brevity prevents public panic during his absence."
+          "answer": "He prays briefly for a good year, proper rain, Israel's welfare, and specifically for the Sharon Valley people that their homes not collapse in floods. His prayer is entirely communal; brevity prevents public panic during his absence.",
+          "question": "What does the HP pray at his exit from the Holy of Holies?"
         }
       ],
       "finalRuling": "The HP's exit prayer is brief and communal; brevity is required to prevent public anxiety about the service's success.",
@@ -249,13 +269,20 @@
       ],
       "display": {
         "whats": "The even ha-shetiya - the foundation stone from which the world was created",
-        "hint": "The Gemara discusses the even ha-shetiya (foundation stone) in the Holy of Holies. It is called shetiya because the world was 'woven' (shuteh) from it - it is the primordial foundation point of creation."
+        "hint": "The Gemara discusses the even ha-shetiya (foundation stone) in the Holy of Holies. It is called shetiya because the world was 'woven' (shuteh) from it - it is the primordial foundation point of creation.",
+        "title": "The Even Ha-Shetiya - Foundation Stone of the World"
       },
       "learning": {
-        "summary": "The even ha-shetiya is the stone upon which the Ark rested in the Holy of Holies. In the Second Temple (with no Ark), it was the location the HP stood when performing the blood sprinkling. Its name 'shetiya' derives from the word for 'woven' or 'foundation' - the world was created from this point outward. The Gemara presents different opinions about this cosmological claim.",
         "ahaMoment": "The world's creation began at a specific point - the site of the Temple. The HP's service at this location on Yom Kippur is thus cosmologically central.",
         "memoryAnchor": "Even ha-shetiya: the world's foundation point is in the Holy of Holies where the HP performs the most sacred service.",
-        "openQuestion": "What is the theological significance of performing the Yom Kippur blood sprinkling at the precise point where creation began?"
+        "learnerQuestion": "What is the even ha-shetiya, and what is the significance of the claim that the world was created from it?",
+        "coreTension": "The Talmud makes a cosmological claim that seems beyond the ritual: the even ha-shetiya in the Holy of Holies is not just the stone on which the Ark stood, but the foundation point from which all of creation emanated. How should this claim be understood?",
+        "coreMove": "The Talmud teaches that the even ha-shetiya is the primal point of creation - the first solid ground to emerge from the primordial waters. Its location in the Holy of Holies marks Jerusalem and the Temple as the metaphysical center of the world.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The even ha-shetiya is understood as both the Ark's base in the Temple and the cosmological foundation point of creation - the first solid ground to emerge from chaos - making the Temple Mount the world's center."
+        },
+        "learningBlocker": "Students may dismiss the cosmological claim as metaphorical and miss that the Talmud treats it as a meaningful statement about the Temple's unique status, not just poetic language."
       },
       "argumentFlow": [
         {
@@ -311,7 +338,10 @@
         "Second Temple service"
       ],
       "misconceptions": [
-        "The even ha-shetiya is just a rock - its cosmological significance is a rabbinic teaching, not merely descriptive."
+        {
+          "misconception": "The even ha-shetiya is just a rock that served as a pedestal for the Ark - calling it the foundation of the world is purely poetic.",
+          "correction": "The Talmud treats the even ha-shetiya as the literal first solid point of creation that emerged from the primordial waters, giving the Temple Mount a unique cosmological role as the origin point of the physical world."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -322,8 +352,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the even ha-shetiya and why is it significant?",
-          "answer": "The foundation stone in the Holy of Holies, upon which the Ark rested. Called 'shetiya' (foundation/woven) because the world was created from this point. The HP performs Yom Kippur atonement at the world's cosmological center."
+          "answer": "The foundation stone in the Holy of Holies, upon which the Ark rested. Called 'shetiya' (foundation/woven) because the world was created from this point. The HP performs Yom Kippur atonement at the world's cosmological center.",
+          "question": "What is the even ha-shetiya and why is it significant?"
         }
       ],
       "finalRuling": "The even ha-shetiya is the world's foundation point - creation began here; the HP performs atonement at this cosmic center.",
@@ -350,13 +380,20 @@
       ],
       "display": {
         "whats": "How high above the ground did the even ha-shetiya protrude in the Holy of Holies?",
-        "hint": "The Gemara notes the even ha-shetiya protruded three finger-breadths above the floor of the Holy of Holies. The HP placed the coal pan on it when performing the incense service."
+        "hint": "The Gemara notes the even ha-shetiya protruded three finger-breadths above the floor of the Holy of Holies. The HP placed the coal pan on it when performing the incense service.",
+        "title": "Even Ha-Shetiya Protrudes Three Finger-Breadths; Coal Pan Placed on It"
       },
       "learning": {
-        "summary": "The foundation stone (even ha-shetiya) protruded three finger-breadths above the Temple floor. The HP placed the coal pan on this elevated stone when performing the incense service inside the Holy of Holies. The elevation is important for understanding the physical acts the HP performed at this location.",
         "ahaMoment": "A three finger-breadth protrusion makes the stone both practically and symbolically the foundation - elevated above the floor, the world's foundation point is literally above everything else.",
         "memoryAnchor": "Three finger-breadths high - the even ha-shetiya is elevated above the floor, elevated above creation.",
-        "openQuestion": "Does the exact height of the even ha-shetiya have halachic implications for how the HP performed his service?"
+        "learnerQuestion": "How high does the even ha-shetiya protrude above the floor of the Holy of Holies, and what is the practical implication for the coal pan placement?",
+        "coreTension": "The even ha-shetiya is not level with the floor but protrudes above it; the HP must place the coal pan during the incense service, and whether it goes on the stone or on the floor next to it affects the precise fulfillment of the ritual.",
+        "coreMove": "The Talmud specifies that the even ha-shetiya protrudes three finger-breadths above the floor, and that the HP places the coal pan directly on the stone, not beside it on the floor.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The even ha-shetiya protrudes three finger-breadths above the floor of the Holy of Holies, and the High Priest places the coal pan on top of it during the incense service."
+        },
+        "learningBlocker": "Students may picture the floor of the Holy of Holies as level and assume the coal pan is placed on the floor; the protrusion of the even ha-shetiya and its role as the coal pan's resting place is a specific technical detail."
       },
       "argumentFlow": [
         {
@@ -395,7 +432,10 @@
         "incense service"
       ],
       "misconceptions": [
-        "The coal pan was placed on the floor next to the even ha-shetiya - it was placed on the stone itself."
+        {
+          "misconception": "The coal pan is placed on the floor next to the even ha-shetiya, not on the stone itself.",
+          "correction": "The coal pan is placed directly on top of the even ha-shetiya, which protrudes three finger-breadths above the floor; the stone itself is the platform for the coal pan."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -408,8 +448,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How high did the even ha-shetiya protrude and what was placed on it?",
-          "answer": "Three finger-breadths above the floor. The HP placed the coal pan (with incense) on the even ha-shetiya when performing the incense service inside the Holy of Holies."
+          "answer": "Three finger-breadths above the floor. The HP placed the coal pan (with incense) on the even ha-shetiya when performing the incense service inside the Holy of Holies.",
+          "question": "How high did the even ha-shetiya protrude and what was placed on it?"
         }
       ],
       "finalRuling": "The even ha-shetiya protruded three finger-breadths above the floor; the HP placed the coal pan on it.",
@@ -471,13 +511,20 @@
       ],
       "display": {
         "whats": "Mishna: the HP takes the blood of the bull from the stirrer to sprinkle it before the curtain",
-        "hint": "After completing the inner service (incense and blood inside the Holy of Holies), the Mishna describes the HP going out to the outer service: taking blood from the stirrer to sprinkle before the parochet."
+        "hint": "After completing the inner service (incense and blood inside the Holy of Holies), the Mishna describes the HP going out to the outer service: taking blood from the stirrer to sprinkle before the parochet.",
+        "title": "Inner Service Precedes Outer Service"
       },
       "learning": {
-        "summary": "The HP now moves to the outer service (before the parochet, outside the Holy of Holies). He takes the bull's blood from whoever has been stirring it. The Gemara discusses the order of service: bull blood before goat blood. The HP sprinkles the bull's blood before the parochet (outside the Holy of Holies) using the same formula: once upward, seven times downward.",
         "ahaMoment": "The Yom Kippur blood service has two phases: inside (Holy of Holies) and outside (before the parochet). The inner service complete, the outer service now begins.",
         "memoryAnchor": "HP exits Holy of Holies, takes bull blood from stirrer, sprinkles before the parochet - the outer blood service begins.",
-        "openQuestion": "Why must the outer blood service (before the parochet) follow the inner service rather than preceding it?"
+        "learnerQuestion": "In the sequence of Yom Kippur services, does the Holy of Holies (inner) service come before or after the parochet (outer) service, and why?",
+        "coreTension": "Both the inner (Holy of Holies) and outer (parochet and golden altar) blood services are part of Yom Kippur; the question of their sequence reflects a broader principle about moving from inner holiness outward versus beginning from the accessible outer areas.",
+        "coreMove": "The Talmud establishes that the inner service always precedes the outer: the HP completes the Holy of Holies blood service first, then moves to the parochet and then the golden altar, working outward from the most sacred space.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "On Yom Kippur, the inner service (Holy of Holies blood sprinkling) always precedes the outer service (parochet and golden altar), reflecting the principle that one proceeds from the innermost sanctity outward."
+        },
+        "learningBlocker": "Students may intuit that an outer service would be performed first as preparation for the inner one, or may not have a clear mental model of the spatial and sequential structure of the Yom Kippur services."
       },
       "argumentFlow": [
         {
@@ -545,7 +592,10 @@
         "inner vs outer service"
       ],
       "misconceptions": [
-        "The outer service comes before the inner service - the inner service is performed first."
+        {
+          "misconception": "The outer service (parochet and golden altar) comes before the inner service (Holy of Holies) on Yom Kippur.",
+          "correction": "The inner service (Holy of Holies) always comes first; the HP completes the innermost blood service before moving outward to the parochet and golden altar."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -556,8 +606,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the outer blood service after the HP exits the Holy of Holies?",
-          "answer": "The HP takes the bull blood from the stirrer and sprinkles it before the parochet (one upward, seven downward, same counting formula). This follows the inner Holy of Holies service in the mandated sequence."
+          "answer": "The HP takes the bull blood from the stirrer and sprinkles it before the parochet (one upward, seven downward, same counting formula). This follows the inner Holy of Holies service in the mandated sequence.",
+          "question": "What is the outer blood service after the HP exits the Holy of Holies?"
         }
       ],
       "finalRuling": "After the inner service, the HP performs the outer blood service: bull blood before the parochet, one up seven down.",

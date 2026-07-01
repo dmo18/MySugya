@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "The bull and goat are carried out and burned at the ash-disposal site; carriers become impure",
-        "hint": "The Mishnah records the final Yom Kippur service: the bull and goat are carried outside Jerusalem to the ash-disposal site and burned. Those who carry them become ritually impure and must immerse before they can return."
+        "hint": "The Mishnah records the final Yom Kippur service: the bull and goat are carried outside Jerusalem to the ash-disposal site and burned. Those who carry them become ritually impure and must immerse before they can return.",
+        "title": "Bull and Goat Burned Outside Jerusalem"
       },
       "learning": {
-        "summary": "The final ritual act of Yom Kippur: the bull (offered for the HP and priesthood) and the goat (the slaughtered one, for Israel) must be carried out of Jerusalem to the place where ash is disposed of and burned there. Those who perform this task become ritually impure through contact with the burning animals. They immerse in a mikveh and wait for sundown before returning to Jerusalem. This burning is the physical conclusion of the Yom Kippur sacrifice complex.",
         "ahaMoment": "The animals that purified the most sacred space must be taken to the most impure location (the ash heap) and burned - the holiest and most impure places are connected through these animals on this one day.",
         "memoryAnchor": "The Yom Kippur animals make a complete journey: from the Temple's innermost to the city's outermost - from sacred center to impure periphery.",
-        "openQuestion": "Why do those who burn the animals become impure? What does this teach about handling the holiest sacrifices?"
+        "learnerQuestion": "What happens to the bull and goat after all the blood services are complete on Yom Kippur, and why must they be burned outside Jerusalem specifically?",
+        "coreTension": "Animals used as sin-offerings whose blood is brought inside the sanctuary have a special disposal requirement; the reason for burning them outside Jerusalem (rather than on the altar or within the city) reflects the unique status of these inner sin-offerings.",
+        "coreMove": "The Talmud establishes that the Yom Kippur bull and goat are burned outside Jerusalem because they are inner sin-offerings (pnimiim) whose blood was brought inside the Sanctuary; this category of sacrifice requires burning 'outside the camp' (or city), not on the altar.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Yom Kippur bull and goat must be burned outside Jerusalem because they are inner sin-offerings (pnimiim) whose blood entered the Sanctuary; this category requires burning 'outside the camp,' not on the outer altar."
+        },
+        "learningBlocker": "Students may assume the animals are burned on the altar like other sacrifices; the special 'outside the camp' rule for pnimiim is a distinct category that applies specifically to inner sin-offerings."
       },
       "argumentFlow": [
         {
@@ -129,7 +136,10 @@
         "Knowing that contact with certain burned offerings conveys impurity"
       ],
       "misconceptions": [
-        "The burning outside Jerusalem is a halacha that applies to these specific animals, not all offerings"
+        {
+          "misconception": "The burning outside Jerusalem is an unusual exception specific only to these Yom Kippur animals due to their special role.",
+          "correction": "The burning outside Jerusalem follows a general principle for inner sin-offerings (pnimiim): any sacrifice whose blood enters the Sanctuary must be burned outside the city; the Yom Kippur animals fall into this established category."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -148,8 +158,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens to the Yom Kippur bull and goat after all the services are complete?",
-          "answer": "They are carried outside Jerusalem to the ash-disposal site and burned there. Those who carry them become ritually impure and must immerse and wait for sundown before returning."
+          "answer": "They are carried outside Jerusalem to the ash-disposal site and burned there. Those who carry them become ritually impure and must immerse and wait for sundown before returning.",
+          "question": "What happens to the Yom Kippur bull and goat after all the services are complete?"
         }
       ],
       "finalRuling": "The Yom Kippur bull and goat are burned outside Jerusalem; those who carry them become impure and must immerse afterward.",

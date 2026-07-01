@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Does the HP enter the Holy of Holies directly or by walking along the south wall?",
-        "hint": "The Gemara discusses the path the HP takes to reach the Holy of Holies - entering directly facing inward is more respectful than walking along the wall. Yosef of Hutzal's dilemma about whether the HP enters from the right is also explored."
+        "hint": "The Gemara discusses the path the HP takes to reach the Holy of Holies - entering directly facing inward is more respectful than walking along the wall. Yosef of Hutzal's dilemma about whether the HP enters from the right is also explored.",
+        "title": "High Priest Entry Direction into the Holy of Holies"
       },
       "learning": {
-        "summary": "When the HP enters the Holy of Holies, should he walk along the south wall and then turn, or enter directly (facing the Holy of Holies straight on)? The Gemara resolves: entering directly is more respectful (kavod). Yosef of Hutzal raises a related question about whether the HP specifically enters from the right side. R. Natan adds that in the Second Temple period there were two curtains one cubit apart, and the HP walked between them.",
         "ahaMoment": "The most respectful entry into the holiest space is the most direct one - walking in facing the destination, not approaching from the side.",
         "memoryAnchor": "HP enters Holy of Holies directly (most respectful), walks between two curtains one cubit apart.",
-        "openQuestion": "Why does the direction of approach to the Holy of Holies matter for kavod - isn't arriving what counts?"
+        "learnerQuestion": "Does the direction the High Priest faces when entering the Holy of Holies matter ritually, or is only the sprinkling act itself halachically significant?",
+        "coreTension": "The HP must reach the kapporet to sprinkle, but two possible entry paths exist: entering directly facing forward, or entering along the south wall and then turning. Each implies a different understanding of what constitutes respectful approach to the sacred.",
+        "coreMove": "The Talmud rules that the HP must enter walking directly forward, face toward the kapporet from the first step, because turning one's back or side to the sacred object during approach is itself an act of disrespect.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Entry into the Holy of Holies requires a direct forward approach toward the kapporet; approaching sideways from the south wall and then turning is considered disrespectful and is prohibited."
+        },
+        "learningBlocker": "Learners focus on the sprinkling as the main act and may assume the approach route is irrelevant as long as the HP ends up in the correct position for sprinkling."
       },
       "argumentFlow": [
         {
@@ -124,7 +131,10 @@
         "kavod principles"
       ],
       "misconceptions": [
-        "The HP walked along the south wall and turned - direct entry is preferred."
+        {
+          "misconception": "The High Priest approached along the south wall and then turned toward the kapporet - the approach path is just a practical matter, not a ritual one.",
+          "correction": "The Talmud requires direct entry walking face-forward toward the kapporet from the very beginning; the approach itself is a ritual act of reverence, and turning one's back during it is forbidden."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -135,8 +145,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How does the HP enter the Holy of Holies and why?",
-          "answer": "He enters directly (facing inward), which is more respectful. In the Second Temple two curtains were one cubit apart and the HP walked between them."
+          "answer": "He enters directly (facing inward), which is more respectful. In the Second Temple two curtains were one cubit apart and the HP walked between them.",
+          "question": "How does the HP enter the Holy of Holies and why?"
         }
       ],
       "finalRuling": "The HP enters the Holy of Holies directly (most respectful); in the Second Temple he walked between two curtains one cubit apart.",
@@ -173,13 +183,20 @@
       ],
       "display": {
         "whats": "The HP enters the Holy of Holies directly facing the kapporet - the most respectful approach",
-        "hint": "The Gemara confirms: the HP enters facing directly toward the kapporet (Ark cover) without turning. This is the maximally respectful posture for approaching the holiest object."
+        "hint": "The Gemara confirms: the HP enters facing directly toward the kapporet (Ark cover) without turning. This is the maximally respectful posture for approaching the holiest object.",
+        "title": "Facing the Kapporet Directly - Maximum Reverence Requires Directness"
       },
       "learning": {
-        "summary": "The kapporet (Ark cover with the cheruvim) is the focal point of the HP's service inside the Holy of Holies. The HP approaches it directly - facing forward, not sideways. This posture of direct approach reflects the maximum respect one shows before the divine presence. The Gemara connects this to the general principle of walking right and facing forward in sacred spaces.",
         "ahaMoment": "Approaching the divine presence: directly, facing it, without turning - maximum deference in body posture.",
         "memoryAnchor": "HP faces the kapporet directly - the most respectful approach to the holiest object in the world.",
-        "openQuestion": "Does the direction you face when approaching a holy object have independent halachic significance?"
+        "learnerQuestion": "Once the HP is inside the Holy of Holies, does the exact direction he faces during the sprinkling motion matter, or is it enough to be in the right room?",
+        "coreTension": "Reverence could mean simply being present before the kapporet, or it could demand that the HP orient his entire body and gaze directly at the kapporet during each sprinkling motion.",
+        "coreMove": "The Talmud teaches that the HP must face the kapporet directly during the sprinkling act; maximum reverence requires the most direct, frontal orientation possible, not merely proximity.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest must face the kapporet directly during blood sprinkling in the Holy of Holies; presence without proper orientation is insufficient expression of reverence."
+        },
+        "learningBlocker": "Students may assume that being inside the Holy of Holies and performing the act is enough, without appreciating that the exact bodily orientation is itself ritually significant."
       },
       "argumentFlow": [
         {
@@ -232,7 +249,10 @@
         "Holy of Holies protocols"
       ],
       "misconceptions": [
-        "The HP can approach from any direction - facing direction matters for kavod."
+        {
+          "misconception": "The HP can approach the kapporet from any direction as long as he is inside the Holy of Holies when he sprinkles - facing direction is incidental.",
+          "correction": "The HP must orient himself directly facing the kapporet; the facing direction (kavod) is independently required and is not satisfied merely by being in the room."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -243,8 +263,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP face the kapporet directly when entering?",
-          "answer": "Direct facing is the most respectful approach. Kavod requires facing the holy object straight on rather than approaching sideways."
+          "answer": "Direct facing is the most respectful approach. Kavod requires facing the holy object straight on rather than approaching sideways.",
+          "question": "Why does the HP face the kapporet directly when entering?"
         }
       ],
       "finalRuling": "The HP enters the Holy of Holies directly facing the kapporet - the maximally respectful approach.",

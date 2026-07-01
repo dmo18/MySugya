@@ -70,13 +70,20 @@
       ],
       "display": {
         "whats": "Bowl confusion and blood mixing emergencies: three-round sprinkling covers all scenarios",
-        "hint": "If the HP cannot identify which bowl holds bull vs. goat blood, or if some blood spills into a third bowl, the Gemara prescribes sprinkling from each bowl in sequence - guaranteeing the required service regardless of which bowl holds which blood."
+        "hint": "If the HP cannot identify which bowl holds bull vs. goat blood, or if some blood spills into a third bowl, the Gemara prescribes sprinkling from each bowl in sequence - guaranteeing the required service regardless of which bowl holds which blood.",
+        "title": "Bowl Confusion - Systematic Coverage Protocol"
       },
       "learning": {
-        "summary": "The Gemara addresses two emergency scenarios. First: bowls are confused - the HP cannot tell which holds bull blood and which holds goat blood. Solution: sprinkle from each bowl in three successive rounds. Since bull must precede goat, the required sequence will be fulfilled by at least one of the round-pairs regardless of actual bowl identity. Second: some blood spills into an empty third bowl, creating a mixed and uncertain quantity. Solution: sprinkle from all three bowls, covering all possibilities. Each blood retains its atonement power even when mixed.",
         "ahaMoment": "When you can't identify the blood, systematic sequential coverage guarantees the service is done - certainty of procedure substitutes for certainty of identity.",
         "memoryAnchor": "Three bowls: when identity is lost, sequence coverage ensures the service is complete no matter what.",
-        "openQuestion": "What is the minimum level of certainty required for the Yom Kippur blood service to be valid?"
+        "learnerQuestion": "If the High Priest loses track of which bowl holds the bull's blood and which holds the goat's blood during the service, what happens?",
+        "coreTension": "The bull and goat blood services are distinct with different atonement targets; confusing them would mean applying the wrong blood to each station, potentially invalidating the entire service.",
+        "coreMove": "The Talmud establishes a coverage protocol for bowl confusion: the HP must complete all required blood acts for all locations using both bowls, systematically covering every station with both bloods to ensure the correct blood is applied even if he cannot identify which bowl is which.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "If bowl confusion occurs during the Yom Kippur blood services, the High Priest follows a systematic coverage protocol: applying blood from each bowl to all stations, ensuring correct coverage even under uncertainty."
+        },
+        "learningBlocker": "Students may assume bowl confusion simply invalidates the service and requires starting over; the Talmud's solution is a forward-looking systematic coverage approach, not a restart."
       },
       "argumentFlow": [
         {
@@ -178,7 +185,10 @@
         "Knowing the structure of each phase's service"
       ],
       "misconceptions": [
-        "The service is not invalidated by bowl confusion - systematic coverage solves it"
+        {
+          "misconception": "Bowl confusion during the Yom Kippur service automatically invalidates everything and the service must begin again from scratch.",
+          "correction": "The Talmud provides a coverage protocol for bowl confusion: the HP applies both bowls to all required locations systematically, ensuring the service is valid without knowing which bowl is which."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -193,8 +203,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "If the HP cannot tell which bowl holds bull blood and which holds goat blood, what does he do?",
-          "answer": "He sprinkles from each bowl in sequence for three rounds. Since bull must precede goat, the required sequence is guaranteed to be fulfilled by at least one of the round-pairs."
+          "answer": "He sprinkles from each bowl in sequence for three rounds. Since bull must precede goat, the required sequence is guaranteed to be fulfilled by at least one of the round-pairs.",
+          "question": "If the HP cannot tell which bowl holds bull blood and which holds goat blood, what does he do?"
         }
       ],
       "finalRuling": "When blood bowls are confused, sprinkling from each bowl in sequence guarantees the required service is fulfilled regardless of actual identity.",
@@ -236,13 +246,20 @@
       ],
       "display": {
         "whats": "Remaining blood poured at the outer altar's western base; blood service complete",
-        "hint": "After all sprinklings are complete, the HP pours the remaining blood from all services at the western base of the outer altar, concluding the complete four-zone Yom Kippur blood circuit."
+        "hint": "After all sprinklings are complete, the HP pours the remaining blood from all services at the western base of the outer altar, concluding the complete four-zone Yom Kippur blood circuit.",
+        "title": "Remaining Blood Poured onto the Altar Base"
       },
       "learning": {
-        "summary": "The final act: the HP brings whatever blood remains after all the sprinklings to the western base of the outer altar and pours it there. This concludes the spatial circuit - blood that entered the Holy of Holies has now completed its journey at the outermost point of the Temple. The circuit is: Holy of Holies (kapporet), boundary (parochet), inner altar (golden altar), outer altar base. With this pour, the entire blood service is complete.",
         "ahaMoment": "The blood completes its journey from the innermost (kapporet) to the outermost (outer altar base) - a full traversal of Temple sacred space in the service of atonement.",
         "memoryAnchor": "Blood's circuit: from the Ark to the outer altar - the entire Temple purified in one Yom Kippur day.",
-        "openQuestion": "Why is the blood remainder poured rather than simply disposed of? What is its concluding function?"
+        "learnerQuestion": "After all the sprinkling services are complete, what happens to the remaining blood in the bowls?",
+        "coreTension": "Blood used in Temple services cannot simply be discarded; there is a specific designated place for disposal, and the manner of disposal (pouring versus sprinkling) is itself a defined act.",
+        "coreMove": "The Talmud establishes that remaining blood from the Yom Kippur services is poured onto the base (yesod) of the outer altar; this base-pour is a disposal pour, not a sprinkling act, completing the blood service sequence.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Remaining blood from the Yom Kippur blood services is disposed of by pouring it onto the base (yesod) of the outer altar; this is a designated disposal act, not an additional sprinkling."
+        },
+        "learningBlocker": "Students may confuse the base-pour with the sprinkling acts and count it as part of the ritual sprinkling sequence; the distinction between a sprinkling act and a disposal pour is important for understanding the total blood-act count."
       },
       "argumentFlow": [
         {
@@ -314,7 +331,10 @@
         "Knowing the western base specifically receives this blood"
       ],
       "misconceptions": [
-        "The base pouring is not a sprinkle - it is a disposal pour that completes the service"
+        {
+          "misconception": "The base-pour is just another sprinkling act - it counts as part of the blood service's sprinkling total.",
+          "correction": "The base-pour is a disposal act, not a sprinkling; remaining blood is poured (not sprinkled) onto the altar base to complete the service, and it is not counted among the sprinkling acts."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -329,8 +349,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Where does the remaining blood go after all the Yom Kippur sprinklings are complete?",
-          "answer": "The HP pours it at the western base of the outer altar, completing the full four-zone circuit of purification."
+          "answer": "The HP pours it at the western base of the outer altar, completing the full four-zone circuit of purification.",
+          "question": "Where does the remaining blood go after all the Yom Kippur sprinklings are complete?"
         }
       ],
       "finalRuling": "The remaining blood is poured at the outer altar's western base, completing the full Yom Kippur blood service circuit across four zones.",

@@ -40,13 +40,20 @@
       ],
       "display": {
         "whats": "Sprinkling technique: not on the kapporet surface but toward its thickness; hand tilts like a whip",
-        "hint": "The HP does not sprinkle directly on top of the kapporet but alongside its edge. For the upward sprinkle he tilts his hand one way; for the seven downward he tilts the other - the Gemara compares it to lashing with a whip."
+        "hint": "The HP does not sprinkle directly on top of the kapporet but alongside its edge. For the upward sprinkle he tilts his hand one way; for the seven downward he tilts the other - the Gemara compares it to lashing with a whip.",
+        "title": "Sprinkling Toward the Side of the Kapporet"
       },
       "learning": {
-        "summary": "The baraita clarifies that the HP does not aim the blood at the kapporet's flat surface but toward its thickness. The physical technique requires careful hand positioning: tilting the wrist backward for the upward sprinkle so the blood arcs upward without landing on the surface, and tilting it forward for the seven downward sprinkles. The whip analogy captures the arc of motion. Scripture explicitly teaches this from the phrase 'on the kapporet and before the kapporet.'",
         "ahaMoment": "The physical technique of sprinkling encodes spiritual precision - the blood must fly true without landing on the most sacred surface.",
         "memoryAnchor": "Whip arc: tilt one way for up, the other for down - the hand itself knows where the blood must go.",
-        "openQuestion": "What does the deliberate non-contact with the kapporet surface teach about approaching the most sacred?"
+        "learnerQuestion": "Where exactly does the High Priest aim when sprinkling blood before the kapporet - at the flat top surface, at the side, or forward in front of it?",
+        "coreTension": "The Torah says to sprinkle 'before' the kapporet; the precise target surface or direction - top, side, or forward toward it - must be established, as each implies different physical execution of the rite.",
+        "coreMove": "The Talmud establishes that the HP sprinkles toward the side (face) of the kapporet, not downward onto its flat top surface; the motion is a forward-and-upward flick toward the kapporet's vertical side.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest sprinkles toward the side (face) of the kapporet, directing the blood forward toward its vertical surface, not downward onto its flat top."
+        },
+        "learningBlocker": "Students imagining the physical act of sprinkling may default to thinking of it as a downward sprinkle onto the top surface of the kapporet, like sprinkling water onto a table."
       },
       "argumentFlow": [
         {
@@ -118,7 +125,10 @@
         "Familiarity with the bull's blood service as the first inner service"
       ],
       "misconceptions": [
-        "The HP sprinkles toward the side of the kapporet, not on its top surface"
+        {
+          "misconception": "The HP sprinkles the blood downward onto the flat top surface of the kapporet.",
+          "correction": "The HP sprinkles toward the side (face) of the kapporet, with an upward and forward motion directed at the kapporet's vertical face, not a downward motion onto its top."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -137,8 +147,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How does the HP's hand position differ for the upward vs. downward sprinkles?",
-          "answer": "For upward: tilts back of hand downward, sprinkles toward above. For the seven downward: tilts hand upward and sprinkles facing himself. Like lashing with a whip."
+          "answer": "For upward: tilts back of hand downward, sprinkles toward above. For the seven downward: tilts hand upward and sprinkles facing himself. Like lashing with a whip.",
+          "question": "How does the HP's hand position differ for the upward vs. downward sprinkles?"
         }
       ],
       "finalRuling": "The HP tilts his hand in opposite directions for upward vs. downward sprinkles, directing blood toward the kapporet's thickness without touching its surface.",
@@ -195,13 +205,20 @@
       ],
       "display": {
         "whats": "Counting formula 'one; one and one; one and two...' keeps the upward sprinkle in every count",
-        "hint": "The HP counts each downward sprinkle while maintaining the first (upward) sprinkle in the count: 'one and one, one and two...' so he can never forget the upward sprinkle or lose his place in the sequence."
+        "hint": "The HP counts each downward sprinkle while maintaining the first (upward) sprinkle in the count: 'one and one, one and two...' so he can never forget the upward sprinkle or lose his place in the sequence.",
+        "title": "Counting Formula as Error-Prevention System"
       },
       "learning": {
-        "summary": "The distinctive counting formula serves as a built-in error-correction system. By saying 'one' for the upward sprinkle and then 'one and one, one and two...' for the downward ones, the HP ensures the upward sprinkle is perpetually acknowledged in the count. This prevents him from accidentally repeating the upward sprinkle (thinking he hasn't done it yet) or losing his place in the seven downward ones. The Gemara derives this from the verse structure.",
         "ahaMoment": "The formula is a self-monitoring system: every count carries the first sprinkle within it, making omission or repetition impossible as long as he counts correctly.",
         "memoryAnchor": "The 'one and...' formula: you can't forget what you never stop counting.",
-        "openQuestion": "Could a simpler formula (just counting 1-8) work? What makes the compound formula superior?"
+        "learnerQuestion": "Why does the Mishnah prescribe a precise verbal counting formula (achat, achat v'achat, achat u'shtayim...) for the blood sprinklings, rather than simply counting silently?",
+        "coreTension": "Counting is a simple task; an elaborate verbal formula seems excessive. But in a high-stress setting where any miscounting could invalidate the service and require repetition, the counting method must be error-proof.",
+        "coreMove": "The Talmud explains that the verbal counting formula is specifically designed to prevent losing count: by always including the running total in each call, the HP maintains a cumulative count that makes miscounting nearly impossible even under extreme stress.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "The verbal counting formula for kapporet sprinklings is an error-prevention system: each count includes the running total so that even under stress or distraction, the HP cannot lose his place in the sequence."
+        },
+        "learningBlocker": "Students see the counting formula as a liturgical formality rather than as a practical error-prevention mechanism designed for a high-stakes, high-stress ritual context."
       },
       "argumentFlow": [
         {
@@ -287,7 +304,10 @@
         "Knowing what happens if the HP loses count during the service"
       ],
       "misconceptions": [
-        "One and one does not mean two upward sprinkles - it means the first upward plus one downward"
+        {
+          "misconception": "The elaborate counting formula (achat, achat v'achat...) is a liturgical convention with no functional purpose; simple silent counting would work just as well.",
+          "correction": "The formula is specifically designed as an error-prevention system: each count embeds the running total, making it nearly impossible to lose count even in the intense stress of the Yom Kippur service."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -302,8 +322,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP count 'one and one, one and two' instead of simply 'one, two, three...'?",
-          "answer": "The compound formula keeps the initial upward sprinkle embedded in every subsequent count, preventing the HP from ever forgetting it or losing his place."
+          "answer": "The compound formula keeps the initial upward sprinkle embedded in every subsequent count, preventing the HP from ever forgetting it or losing his place.",
+          "question": "Why does the HP count 'one and one, one and two' instead of simply 'one, two, three...'?"
         }
       ],
       "finalRuling": "The 'one and one, one and two...' formula embeds the upward sprinkle in every subsequent count, making it impossible to forget.",
@@ -350,13 +370,20 @@
       ],
       "display": {
         "whats": "Biblical derivation of the sprinkling count for bull and goat; why Scripture states both explicitly",
-        "hint": "The Gemara derives why Scripture needed to spell out both bull and goat counts rather than letting one derive from the other by analogy, and establishes the principle that analogy is insufficient to impose kareth penalties."
+        "hint": "The Gemara derives why Scripture needed to spell out both bull and goat counts rather than letting one derive from the other by analogy, and establishes the principle that analogy is insufficient to impose kareth penalties.",
+        "title": "Goat's Lower Sprinklings Derived from Its Own Verse"
       },
       "learning": {
-        "summary": "The Gemara asks: if the goat's lower sprinkles could be derived by analogy from the bull's, why does Scripture bother stating them explicitly? Answer: because derivation by analogy is insufficient to impose kareth penalties for violation. Scripture therefore explicitly states the sprinkling count for both bull and goat. The Gemara also resolves the apparent redundancy by showing each derivation serves a different purpose.",
         "ahaMoment": "Scripture is more explicit than logic requires because when kareth is at stake, analogy alone is not enough - lives and atonement cannot rest on implication.",
         "memoryAnchor": "When kareth is at stake, Scripture speaks directly: no inference is safe enough for Yom Kippur.",
-        "openQuestion": "Why is analogy insufficient to impose penalties? What does this reveal about the limits of reasoning in halachic law?"
+        "learnerQuestion": "Is the number of lower sprinklings for the goat's blood service derived purely by analogy with the bull, or does the Torah provide an independent textual basis for the goat's count?",
+        "coreTension": "Using analogy alone to derive ritual details can be questioned; if the goat's lower sprinkling count were only inferred from the bull, it could theoretically be rejected by those who do not accept the analogy.",
+        "coreMove": "The Talmud establishes that the goat's lower sprinkling count has independent derivation from its own verse, not only from analogy with the bull; the verse language for the goat parallels that for the bull, providing an independent textual anchor.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The seven lower sprinklings for the goat blood service in the Holy of Holies are derived from the goat's own verse, not merely by analogy with the bull; both blood services have independent textual grounding for their counts."
+        },
+        "learningBlocker": "Students may assume the goat's service is only a copy of the bull's service, derived entirely by analogy; they miss that each has its own independent textual derivation."
       },
       "argumentFlow": [
         {
@@ -428,7 +455,10 @@
         "Knowing the principle that analogies cannot impose penalties"
       ],
       "misconceptions": [
-        "The goat's count is explicit in the verse, not just derived - Scripture does not leave it to inference"
+        {
+          "misconception": "The goat's seven lower sprinklings are purely an extension by analogy from the bull - there is no independent verse for the goat's count.",
+          "correction": "The goat's seven lower sprinklings are derived from the goat's own verse, not only by analogy; both blood services have independent textual bases for their respective sprinkling counts."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -443,8 +473,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does Scripture explicitly state the sprinkling count for the goat's blood if it could be derived from the bull by analogy?",
-          "answer": "Because derivation by analogy is insufficient to impose kareth penalties. Scripture must explicitly state the requirement when violation carries such severe consequences."
+          "answer": "Because derivation by analogy is insufficient to impose kareth penalties. Scripture must explicitly state the requirement when violation carries such severe consequences.",
+          "question": "Why does Scripture explicitly state the sprinkling count for the goat's blood if it could be derived from the bull by analogy?"
         }
       ],
       "finalRuling": "Scripture explicitly states the sprinkling count for both bull and goat because analogy alone cannot impose kareth penalties.",
@@ -476,13 +506,20 @@
       ],
       "display": {
         "whats": "HP exits, places bull's bowl, takes goat's blood, and re-enters for the second inner sprinkling",
-        "hint": "After the bull's blood service, the HP exits the Holy of Holies, places the bull's bowl on the stand, takes the goat's blood bowl, re-enters, and performs the identical one-above-seven-below formula."
+        "hint": "After the bull's blood service, the HP exits the Holy of Holies, places the bull's bowl on the stand, takes the goat's blood bowl, re-enters, and performs the identical one-above-seven-below formula.",
+        "title": "High Priest Enters the Holy of Holies More Than Twice"
       },
       "learning": {
-        "summary": "The Mishnah records the transition between the bull and goat services inside the Holy of Holies. The HP exits, places the bull's blood bowl on a golden stand in the Heichal, takes the goat's blood bowl, and re-enters the Holy of Holies. There he sprinkles once above and seven below - the identical formula and technique as for the bull. Both inner services are structurally parallel.",
         "ahaMoment": "Two entries to the innermost: one for the priesthood's representative (bull), one for the entire nation (goat). The HP serves as messenger for both.",
         "memoryAnchor": "Exit, swap, re-enter: two bloods, two services, one agent, one formula.",
-        "openQuestion": "What is the significance of the HP exiting between the bull and goat services rather than doing them in a single entry?"
+        "learnerQuestion": "How many separate times does the High Priest enter the Holy of Holies on Yom Kippur, and why is it more than the simple bull-and-goat count might suggest?",
+        "coreTension": "There are two blood services (bull and goat) inside the Holy of Holies, suggesting two entries; but the incense service is also performed inside, adding at least one more entry. The exact total matters for understanding the full ritual sequence.",
+        "coreMove": "The Talmud establishes that the HP enters the Holy of Holies more than twice: once for the incense service, then again for the bull blood, and again for the goat blood - resulting in at least three separate entries.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest enters the Holy of Holies more than twice on Yom Kippur: separate entries are required for the incense service, the bull blood, and the goat blood, totaling at least three distinct entries."
+        },
+        "learningBlocker": "Students count only the two blood services and assume two entries; the incense service is a distinct entry that they overlook when tallying the HP's movements."
       },
       "argumentFlow": [
         {
@@ -540,7 +577,10 @@
         "Knowing the HP enters the Holy of Holies only on Yom Kippur"
       ],
       "misconceptions": [
-        "The HP enters the Holy of Holies exactly twice for blood sprinkling - not more"
+        {
+          "misconception": "The HP enters the Holy of Holies exactly twice on Yom Kippur - once for the bull blood and once for the goat blood.",
+          "correction": "The HP enters at least three times: once for the incense service, once for the bull blood, and once for the goat blood; the incense and blood services require separate distinct entries."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -555,8 +595,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the HP do between the bull's and goat's blood sprinklings inside the Holy of Holies?",
-          "answer": "He exits, places the bull's bowl on a gold stand, takes the goat's blood bowl, and re-enters the Holy of Holies for the identical sprinkling sequence."
+          "answer": "He exits, places the bull's bowl on a gold stand, takes the goat's blood bowl, and re-enters the Holy of Holies for the identical sprinkling sequence.",
+          "question": "What does the HP do between the bull's and goat's blood sprinklings inside the Holy of Holies?"
         }
       ],
       "finalRuling": "The HP exits between services, swaps bowls at the gold stand, and re-enters for the goat's blood service - an exact parallel to the bull's service.",

@@ -55,13 +55,20 @@
       ],
       "display": {
         "whats": "The verse 'all her splendor has gone' and how the cheruvim in the Holy of Holies were facing each other",
-        "hint": "Lamentations says 'all her splendor has gone.' The Gemara interprets this: when the Temple was destroyed, the cheruvim on the Ark were seen facing each other (as in times of divine favor), yet God had abandoned it. R. Yehuda notes the world's extremities meet in Jerusalem."
+        "hint": "Lamentations says 'all her splendor has gone.' The Gemara interprets this: when the Temple was destroyed, the cheruvim on the Ark were seen facing each other (as in times of divine favor), yet God had abandoned it. R. Yehuda notes the world's extremities meet in Jerusalem.",
+        "title": "Cheruvim Facing Each Other as a Sign of Divine Favor"
       },
       "learning": {
-        "summary": "Lamentations 1:1 says 'all her splendor has gone.' The Gemara reads this against the cheruvim: in times of divine favor, the cheruvim on the kapporet faced each other (symbolizing intimacy). When the Temple was destroyed and the gentiles entered, they found the cheruvim in this intimate posture - 'all her splendor' refers to this divine intimacy that was then exposed and violated. R. Yehuda adds: the world's geographic ends all converge at Jerusalem (a cosmological claim about the Temple's centrality).",
         "ahaMoment": "The cheruvim facing each other symbolized divine-Israel intimacy. Their exposure during destruction was the ultimate violation of sacred privacy.",
         "memoryAnchor": "Cheruvim facing each other = divine love; their exposed intimacy at destruction = Israel's deepest humiliation.",
-        "openQuestion": "What does the facing position of the cheruvim reveal about the nature of God's relationship with Israel even at the moment of destruction?"
+        "learnerQuestion": "What did the position of the cheruvim on the Ark indicate about the relationship between God and Israel, and how was this visible to people?",
+        "coreTension": "The cheruvim were in the Holy of Holies, normally unseen; yet the Talmud connects their facing position to the state of the divine-human relationship. The question is how this private indicator became a public sign.",
+        "coreMove": "The Talmud teaches that when the cheruvim faced each other, it was a sign of divine favor and love - like two people facing each other in intimacy. When Israel would sin, the cheruvim would turn away. Pilgrims were shown this during festivals as testimony to God's love.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The cheruvim facing each other was a sign of divine favor and love toward Israel; the Talmud records that pilgrims were shown this during festivals as living testimony that God cherished the Jewish people."
+        },
+        "learningBlocker": "Students may find it strange that something inside the Holy of Holies was shown to pilgrims; the disclosure of the cheruvim's position during festivals is not obvious from the usual descriptions of Temple access."
       },
       "argumentFlow": [
         {
@@ -131,7 +138,10 @@
         "Lamentations"
       ],
       "misconceptions": [
-        "The cheruvim facing each other was a sign of disfavor - the opposite: facing each other shows divine love."
+        {
+          "misconception": "The cheruvim facing each other was a sign of disfavor or tension, like two adversaries facing off.",
+          "correction": "The cheruvim facing each other represented divine love and favor toward Israel, like two people facing each other in closeness and affection; pilgrims were shown this as evidence of God's enduring love."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -142,8 +152,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the significance of the cheruvim facing each other at the Temple's destruction?",
-          "answer": "The cheruvim facing each other symbolized divine intimacy and love. Their exposed intimate posture at the moment of destruction shows that even in the moment God allowed destruction, the love persisted - yet was violated by the gentiles' intrusion."
+          "answer": "The cheruvim facing each other symbolized divine intimacy and love. Their exposed intimate posture at the moment of destruction shows that even in the moment God allowed destruction, the love persisted - yet was violated by the gentiles' intrusion.",
+          "question": "What is the significance of the cheruvim facing each other at the Temple's destruction?"
         }
       ],
       "finalRuling": "The cheruvim facing each other symbolized divine love; their exposed intimacy at destruction was Israel's deepest humiliation and paradoxically, a sign of God's enduring love.",
@@ -215,13 +225,20 @@
       ],
       "display": {
         "whats": "Where was the Ark hidden? Various traditions about its location",
-        "hint": "The Gemara presents multiple traditions about where the Ark was hidden: under the Temple, in a cave in Beit Shemesh, carried to Babylon, or hidden elsewhere. The Mishna preserves the tradition that it was hidden by the Sages of Josiah's generation."
+        "hint": "The Gemara presents multiple traditions about where the Ark was hidden: under the Temple, in a cave in Beit Shemesh, carried to Babylon, or hidden elsewhere. The Mishna preserves the tradition that it was hidden by the Sages of Josiah's generation.",
+        "title": "Ark Fate Traditions and the Second Temple Sprinkling Target"
       },
       "learning": {
-        "summary": "Multiple traditions exist about the Ark's fate. R. Eliezer holds it was taken to Babylon; R. Shimon ben Yochai holds it was hidden under the Temple sanctuary. The Mishna records Josiah hid it (53b). The Gemara explores these traditions and asks whether the Ark will be restored in the future. The location matters for understanding Yom Kippur service: where exactly in the Holy of Holies did the HP perform the blood sprinkling in the Second Temple?",
         "ahaMoment": "Multiple traditions about the Ark's hiding place reflect its supreme importance - people preserved traditions about it even when they could not verify them.",
         "memoryAnchor": "Where is the Ark? Babylon (R. Eliezer) or under the Temple (R. Shimon ben Yochai). Both preserve hope of finding it.",
-        "openQuestion": "Does knowing where the Ark was hidden have practical halachic implications for the HP's service, or is it a purely historical question?"
+        "learnerQuestion": "Given the various traditions about what happened to the Ark, does uncertainty about the Ark's fate undermine the validity of the Second Temple Yom Kippur service?",
+        "coreTension": "Multiple traditions exist about the Ark: that it was hidden by Josiah, taken to Babylon, or stored in a chamber. The blood sprinkling requires a specific target location; if the Ark's fate is uncertain, so might be the sprinkling target.",
+        "coreMove": "The Talmud resolves this by establishing that regardless of what happened to the Ark, the even ha-shetiya marks the precise spot where the Ark stood. The HP sprinkles on or toward that spot in all cases, making the sprinkling target stable despite Ark-fate uncertainty.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Regardless of which tradition about the Ark's fate is correct, the even ha-shetiya marks the permanent location of the Ark's original position; the High Priest always sprinkles toward that spot, making the ritual independent of the Ark's actual fate."
+        },
+        "learningBlocker": "Students may assume that the Second Temple Yom Kippur service was somehow incomplete or invalid because the Ark was missing; the Talmud establishes that the spatial location was always the true target."
       },
       "argumentFlow": [
         {
@@ -307,7 +324,10 @@
         "HP service location"
       ],
       "misconceptions": [
-        "The Ark's location changes the HP's sprinkling target - the even ha-shetiya is the target regardless."
+        {
+          "misconception": "Without knowing where the Ark ended up, the Second Temple HP could not know where to direct his sprinkling.",
+          "correction": "The even ha-shetiya permanently marks the Ark's original location; the HP always sprinkles toward that spot, making the ritual spatially anchored regardless of the Ark's actual fate."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -318,8 +338,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What are the main traditions about where the Ark was hidden?",
-          "answer": "R. Eliezer: taken to Babylon. R. Shimon ben Yochai: hidden under the Temple. Josiah hid it (Mishna). All agree it was not destroyed. The HP in the Second Temple sprinkled toward the even ha-shetiya regardless of the Ark's location."
+          "answer": "R. Eliezer: taken to Babylon. R. Shimon ben Yochai: hidden under the Temple. Josiah hid it (Mishna). All agree it was not destroyed. The HP in the Second Temple sprinkled toward the even ha-shetiya regardless of the Ark's location.",
+          "question": "What are the main traditions about where the Ark was hidden?"
         }
       ],
       "finalRuling": "Multiple traditions preserve the Ark's hiding place; the HP's service location (even ha-shetiya) is independent of where the Ark is.",

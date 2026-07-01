@@ -70,13 +70,20 @@
       ],
       "display": {
         "whats": "Breira (retroactive clarification) debate; Yom Kippur requires certainty not retroactive determination",
-        "hint": "The Gemara explores breira through an eruv case - can one set up conditional eruvin and retroactively determine which applied? Rav and Shmuel dispute. The conclusion relevant to Yom Kippur: the blood service requires explicit certainty at each step, leaving no room for retroactive determination."
+        "hint": "The Gemara explores breira through an eruv case - can one set up conditional eruvin and retroactively determine which applied? Rav and Shmuel dispute. The conclusion relevant to Yom Kippur: the blood service requires explicit certainty at each step, leaving no room for retroactive determination.",
+        "title": "Breira - Retroactive Determination in Halacha"
       },
       "learning": {
-        "summary": "Using eruv as a vehicle, the Gemara explores whether breira (retroactive determination of what 'was always' the case) applies in biblical law. Rav holds breira works; Shmuel says it does not in biblical matters. The Yom Kippur blood service clearly follows Shmuel's line: each sprinkle must be performed with explicit, real-time certainty. The HP counts aloud precisely so no retroactive clarification is ever needed.",
         "ahaMoment": "The Yom Kippur service is the anti-breira: every drop of blood is placed with full certainty in the moment, not retroactively determined. The holiest service requires the clearest consciousness.",
         "memoryAnchor": "Yom Kippur vs. breira: where eternal atonement is at stake, every act must be certain as it happens.",
-        "openQuestion": "If breira does not apply to Yom Kippur, how does the HP handle genuine uncertainty (e.g., losing count)?"
+        "learnerQuestion": "What is the halachic concept of breira, and why does the Talmud use the eruv case to explore it in the context of the Yom Kippur service?",
+        "coreTension": "Breira asks whether an ambiguous act can be retroactively determined to have been a specific act once the outcome is known. This has implications for situations where choices are not made explicitly in advance.",
+        "coreMove": "The Talmud explores breira through the eruv scenario to determine whether retroactive clarification is a valid halachic mechanism; the majority view restricts its use in biblical-level matters, limiting the cases where an ambiguous prior act can be retroactively specified.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Breira (retroactive determination) is a limited halachic concept: while it may work for rabbinic matters, it generally cannot retroactively specify which biblical-level act was performed; ambiguous acts require prospective definition."
+        },
+        "learningBlocker": "The concept of retroactive determination is intuitive in ordinary life but the Talmud restricts it severely in halacha, and students are surprised by how limited its application is."
       },
       "argumentFlow": [
         {
@@ -164,7 +171,10 @@
         "Knowing the Yom Kippur service requires explicit counting"
       ],
       "misconceptions": [
-        "Breira is about retroactive clarification of what was always true - not changing the past"
+        {
+          "misconception": "Breira means that once you know how things turned out, you can retroactively declare what your original intention was, and this always works in halacha.",
+          "correction": "The Talmud generally rejects breira for biblical-level acts; you cannot retroactively define which specific act you performed at a biblical level - the specification must be made prospectively."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -179,8 +189,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why is breira inapplicable to the Yom Kippur blood service?",
-          "answer": "The blood service requires each sprinkle to be performed with explicit real-time certainty. Retroactive clarification of which sprinkle 'was' which cannot substitute for deliberate, counted, certain action."
+          "answer": "The blood service requires each sprinkle to be performed with explicit real-time certainty. Retroactive clarification of which sprinkle 'was' which cannot substitute for deliberate, counted, certain action.",
+          "question": "Why is breira inapplicable to the Yom Kippur blood service?"
         }
       ],
       "finalRuling": "Breira does not apply to Yom Kippur service - the HP must act with explicit certainty at every moment, not rely on retroactive clarification.",
@@ -212,13 +222,20 @@
       ],
       "display": {
         "whats": "HP sprinkles bull blood on the parochet: once above, seven below",
-        "hint": "After the inner service, the HP sprinkles once above and seven below from the bull's blood on the face of the parochet, using the identical formula and technique as the inner service."
+        "hint": "After the inner service, the HP sprinkles once above and seven below from the bull's blood on the face of the parochet, using the identical formula and technique as the inner service.",
+        "title": "Parochet Receives Eight Bull Blood Sprinklings"
       },
       "learning": {
-        "summary": "The parochet (curtain) separating the Holy of Holies from the Heichal receives the first round of outer sprinklings. The HP stands before it and sprinkles once upward and seven downward from the bull's blood - the same one-plus-seven formula as the inner kapporet service. The same hand-tilting technique applies.",
         "ahaMoment": "The formula is the same, the hand position is the same - but the surface differs. The parochet is not the kapporet; this is purification of the boundary, not the center.",
         "memoryAnchor": "Parochet: same formula, new surface. Purification moves from the center to its border.",
-        "openQuestion": "Does the parochet receive the same atonement weight as the kapporet, or is it a lesser service?"
+        "learnerQuestion": "After the Holy of Holies service, what does the HP do with the bull's blood at the parochet, and how many sprinklings does the parochet receive from the bull?",
+        "coreTension": "The Torah specifies a sprinkling pattern for the inner kapporet; a parallel but distinct pattern applies to the parochet (outer curtain). The count and direction of sprinklings at the parochet must be derived separately.",
+        "coreMove": "The Talmud establishes that the HP sprinkles the bull's blood at the parochet with the same count as inside: one upward and seven downward, totaling eight sprinklings from the bull alone.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The parochet receives eight sprinklings from the bull's blood: one upward and seven downward, using the same pattern as the inner kapporet sprinkling."
+        },
+        "learningBlocker": "Students who know the inner sprinkling count (one up, seven down) may not realize the identical pattern is applied again at the parochet, effectively repeating the count."
       },
       "argumentFlow": [
         {
@@ -274,7 +291,10 @@
         "Knowing the HP sprinkles on the side facing the Heichal"
       ],
       "misconceptions": [
-        "The HP does not touch the parochet - he sprinkles toward it"
+        {
+          "misconception": "The HP does not touch the parochet itself - he only sprinkles toward it from a distance without following a specific count.",
+          "correction": "The HP sprinkles the bull's blood at the parochet with a defined pattern: one upward and seven downward (eight total), mirroring the inner sprinkling count."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -289,8 +309,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the first outer service the HP performs after exiting the Holy of Holies?",
-          "answer": "He sprinkles once above and seven below from the bull's blood on the face of the parochet."
+          "answer": "He sprinkles once above and seven below from the bull's blood on the face of the parochet.",
+          "question": "What is the first outer service the HP performs after exiting the Holy of Holies?"
         }
       ],
       "finalRuling": "The HP sprinkles bull blood once above and seven below on the parochet, extending the inner service formula to the curtain boundary.",
@@ -327,13 +347,20 @@
       ],
       "display": {
         "whats": "HP sprinkles goat blood on the parochet: completing sixteen total sprinkles on the curtain",
-        "hint": "The HP then sprinkles once above and seven below from the goat's blood on the parochet - identical to the bull service - completing a total of sixteen sprinkles on the curtain from both bloods."
+        "hint": "The HP then sprinkles once above and seven below from the goat's blood on the parochet - identical to the bull service - completing a total of sixteen sprinkles on the curtain from both bloods.",
+        "title": "Parochet Total: Sixteen Sprinklings"
       },
       "learning": {
-        "summary": "Following the bull's blood parochet service, the HP takes the goat's blood bowl and performs the identical once-above-seven-below formula on the parochet. Combined, the parochet now has sixteen sprinkles from two bloods, paralleling the sixteen sprinkles inside the Holy of Holies (eight from bull, eight from goat). The Gemara notes the order is fixed: bull's parochet service must precede goat's.",
         "ahaMoment": "Eight plus eight on the parochet: the outer boundary receives exactly what the inner sanctum received - full dual-blood coverage.",
         "memoryAnchor": "Sixteen on the parochet: what entered the most sacred space must also purify the curtain through which the HP entered.",
-        "openQuestion": "Why is it significant that the parochet receives the same total count as the kapporet?"
+        "learnerQuestion": "How many total sprinklings does the parochet receive from both the bull and the goat blood services combined?",
+        "coreTension": "Both bull and goat blood services include a parochet component; the total must be calculated carefully because each service contributes an independent set of sprinklings with the same count.",
+        "coreMove": "The Talmud sums the parochet sprinklings: eight from the bull (one up, seven down) plus eight from the goat (one up, seven down) equals sixteen total sprinklings on the parochet.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The parochet receives a total of sixteen sprinklings on Yom Kippur: eight from the bull blood and eight from the goat blood, each following the pattern of one upward and seven downward."
+        },
+        "learningBlocker": "Students may count only the inner (kapporet) sprinklings and forget that the parochet receives its own independent set; the doubling of the count (bull plus goat) is easily missed."
       },
       "argumentFlow": [
         {
@@ -404,7 +431,10 @@
         "Knowing the total count at each zone"
       ],
       "misconceptions": [
-        "The parochet gets 16 total: 8 from bull (1+7) + 8 from goat (1+7)"
+        {
+          "misconception": "The parochet receives eight total sprinklings - one combined set of eight from both blood services.",
+          "correction": "The parochet receives sixteen total: eight from the bull (one up, seven down) and eight from the goat (one up, seven down), each service contributing its own full set."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -419,8 +449,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many total sprinkles does the parochet receive on Yom Kippur?",
-          "answer": "Sixteen: once above and seven below from the bull's blood (8), then once above and seven below from the goat's blood (8)."
+          "answer": "Sixteen: once above and seven below from the bull's blood (8), then once above and seven below from the goat's blood (8).",
+          "question": "How many total sprinkles does the parochet receive on Yom Kippur?"
         }
       ],
       "finalRuling": "The parochet receives sixteen total sprinkles: 8 from bull blood and 8 from goat blood, mirroring the inner kapporet service.",

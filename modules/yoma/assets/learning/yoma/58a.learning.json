@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "Order of services: parochet from individual bloods, then mixing, then golden altar from combined blood",
-        "hint": "The Gemara clarifies the precise order: the parochet receives the individual blood sprinkles first (bull then goat separately), then the two bloods are mixed, and the mixture is sprinkled seven times on the golden altar's top."
+        "hint": "The Gemara clarifies the precise order: the parochet receives the individual blood sprinkles first (bull then goat separately), then the two bloods are mixed, and the mixture is sprinkled seven times on the golden altar's top.",
+        "title": "Service Order: Parochet Before Golden Altar; Blood Mixed After Both Parochet Services"
       },
       "learning": {
-        "summary": "A potential confusion: does the parochet service come before or after the golden altar? The Gemara resolves this from the verse structure. The parochet receives individual blood sprinkles (one above + seven below from bull, then the same from goat). Only after all parochet sprinklings are complete does the HP mix the two bloods. The mixed blood then goes on the golden altar's top (seven sprinkles). The sequence is mandated by Scripture and cannot be reversed.",
         "ahaMoment": "Parochet gets individual blood; golden altar gets combined blood. The sequence forces the mixing to happen at precisely the right moment - after the parochet, before the golden altar.",
         "memoryAnchor": "The mixing is perfectly timed: after the parochet's individual blood service, before the golden altar's combined blood service.",
-        "openQuestion": "What would happen to the service if the HP accidentally mixed the bloods before completing the parochet service?"
+        "learnerQuestion": "What is the correct sequence of the outer blood services on Yom Kippur, and when does the mixing of bull and goat blood occur?",
+        "coreTension": "The outer services involve the parochet and the golden altar; the order between them, and the timing of when the two bloods are mixed, must be precisely defined to ensure the correct sequence.",
+        "coreMove": "The Talmud establishes that the parochet service comes before the golden altar service; the mixing of the bull and goat blood occurs only after both parochet services (bull and goat) are complete, not before them.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The outer blood services follow this order: bull parochet, then goat parochet, then mixing, then golden altar; the blood is not mixed until both parochet services are complete."
+        },
+        "learningBlocker": "Students may assume the bloods are mixed first and then applied to all outer locations together; the Talmud's separate sequential treatment of each location with each blood is not immediately obvious."
       },
       "argumentFlow": [
         {
@@ -108,7 +115,10 @@
         "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
       ],
       "misconceptions": [
-        "The mixing does not happen before the parochet service - only after both blood services on the parochet"
+        {
+          "misconception": "The mixing of bull and goat blood happens before the parochet service - the mixed blood is then used for all the outer services.",
+          "correction": "The mixing occurs after both parochet services are complete; the parochet receives bull and goat blood separately before any mixing, and the mixing precedes only the golden altar service."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -123,8 +133,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "When does the HP mix the bull and goat blood during the Yom Kippur service?",
-          "answer": "After completing the parochet sprinklings from individual bloods (bull then goat separately), and before the golden altar service - the mixed blood is used for the seven sprinkles on the altar's top."
+          "answer": "After completing the parochet sprinklings from individual bloods (bull then goat separately), and before the golden altar service - the mixed blood is used for the seven sprinkles on the altar's top.",
+          "question": "When does the HP mix the bull and goat blood during the Yom Kippur service?"
         }
       ],
       "finalRuling": "The parochet receives individual blood sprinkles first, then the HP mixes both bloods, then sprinkles seven times on the golden altar's top from the combined blood.",
@@ -171,13 +181,20 @@
       ],
       "display": {
         "whats": "The outer altar service and the pouring of combined blood at the western base",
-        "hint": "After the Heichal services, the HP moves to the outer courtyard with the remaining combined blood. He sprinkles on the outer altar's corners and pours the remainder at the western base, concluding the spatial circuit."
+        "hint": "After the Heichal services, the HP moves to the outer courtyard with the remaining combined blood. He sprinkles on the outer altar's corners and pours the remainder at the western base, concluding the spatial circuit.",
+        "title": "High Priest at the Outer Altar on Yom Kippur"
       },
       "learning": {
-        "summary": "The HP exits the Heichal with the remaining combined blood bowl. In the outer azarah, he performs corner sprinkles on the four horns of the outer altar (the large copper altar). He then pours the remaining blood at the western base. This is the final act of the formal blood service. The HP has now traced the complete circuit from the innermost point (kapporet) to the outermost point (outer altar base).",
         "ahaMoment": "From the Ark at the center of the Temple to the outer altar at the courtyard's heart: the HP's blood circuit spans the full extent of Israel's sacred space.",
         "memoryAnchor": "Outer altar base: the last stop on blood's journey from the innermost sacred to the outer court.",
-        "openQuestion": "Why specifically the western base? What is the theological significance of the direction?"
+        "learnerQuestion": "What does the High Priest do at the outer altar (mizbeach ha-chitzon) as part of the Yom Kippur service, and how does it differ from the inner altar service?",
+        "coreTension": "The outer altar (bronze altar) is used for daily and festival sacrifices; on Yom Kippur, the HP also has a specific service there, but its nature and relationship to the inner services must be defined.",
+        "coreMove": "The Talmud clarifies the HP's outer altar service on Yom Kippur: this involves corner (horn) blood applications from the mixed blood, distinct from the regular daily offerings; the outer altar receives a specific Yom Kippur service in addition to the regular Temple schedule.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest performs a specific service at the outer altar on Yom Kippur, applying the mixed blood to the altar's corners; this is distinct from the regular daily altar service and is a required component of the Yom Kippur blood services."
+        },
+        "learningBlocker": "Students may confuse the outer altar's Yom Kippur service with regular daily sacrificial services, or may not realize the HP separately services the outer altar as part of the Yom Kippur ritual."
       },
       "argumentFlow": [
         {
@@ -251,7 +268,10 @@
         "Knowing the western base receives this blood specifically"
       ],
       "misconceptions": [
-        "The outer altar's corners also receive sprinkles - not just its top and base"
+        {
+          "misconception": "The outer altar's corners also receive seven sprinklings from the Yom Kippur blood service, identical in count to the golden altar.",
+          "correction": "The outer altar (bronze) and inner golden altar have separate and distinct blood services on Yom Kippur; they do not receive identical treatments, and the counts and methods differ between them."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -270,8 +290,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "After completing all the inner Heichal services, what blood service does the HP perform in the outer court?",
-          "answer": "He sprinkles on the four corners of the outer altar from the combined blood, then pours the remainder at the western base."
+          "answer": "He sprinkles on the four corners of the outer altar from the combined blood, then pours the remainder at the western base.",
+          "question": "After completing all the inner Heichal services, what blood service does the HP perform in the outer court?"
         }
       ],
       "finalRuling": "The HP concludes the blood service by sprinkling on the outer altar's corners and pouring the remainder at the western base.",
@@ -308,13 +328,20 @@
       ],
       "display": {
         "whats": "Complete accounting of Yom Kippur blood sprinkles across all four zones",
-        "hint": "The Gemara totals the blood sprinkle acts across all four zones: Holy of Holies (8+8), parochet (8+8), golden altar (4+4 corners + 7 on top), and outer altar (4 corners + base pour)."
+        "hint": "The Gemara totals the blood sprinkle acts across all four zones: Holy of Holies (8+8), parochet (8+8), golden altar (4+4 corners + 7 on top), and outer altar (4 corners + base pour).",
+        "title": "Total Yom Kippur Blood Acts: 43"
       },
       "learning": {
-        "summary": "A comprehensive accounting: 1 above + 7 below from bull inside (8), 1+7 from goat inside (8), 1+7 from bull on parochet (8), 1+7 from goat on parochet (8), plus the golden altar (4 corners each from bull and goat = 8, then 7 on top from combined = 7), plus outer altar corners (4) and base pour. The total exceeds 40 individual sprinkle acts. This overview reveals the enormity and systematic nature of the Yom Kippur service.",
         "ahaMoment": "Over 40 sprinkle acts across four zones - Yom Kippur atonement is not one gesture but an entire systematic purification of sacred space.",
         "memoryAnchor": "40+ sprinkles, 4 zones, 2 bloods: the arithmetic reveals the architecture of atonement.",
-        "openQuestion": "Is there a theological principle encoded in the total number of sprinkles?"
+        "learnerQuestion": "How does the Talmud arrive at 43 total blood acts for the complete Yom Kippur blood service, and which stations contribute to that count?",
+        "coreTension": "The various blood services (inner kapporet, parochet, golden altar, outer altar, base pours) each contribute their own counts; tallying them requires careful tracking to avoid double-counting and to include every required act.",
+        "coreMove": "The Talmud systematically tallies: the inner kapporet sprinklings total 32 (16 from bull and 16 from goat, each with one up and seven down twice), plus 11 at the golden altar (7 corner and 4 top sprinklings), equaling 43 total blood acts.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The complete Yom Kippur blood service totals 43 acts: 32 from the kapporet sprinklings (16 from bull and 16 from goat) plus 11 at the golden altar (7 corner and 4 top)."
+        },
+        "learningBlocker": "The multi-station, multi-blood complexity makes accurate counting difficult; students often undercount by forgetting one station or by not correctly counting the direction (up vs. down) of each sprinkling."
       },
       "argumentFlow": [
         {
@@ -387,7 +414,10 @@
         "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
       ],
       "misconceptions": [
-        "The golden altar receives both corner sprinkles and top sprinkles - 11 acts, not just 7"
+        {
+          "misconception": "The golden altar receives only 7 blood acts on Yom Kippur - the seven corner sprinklings.",
+          "correction": "The golden altar receives 11 total acts on Yom Kippur: 7 corner applications plus 4 additional top sprinklings; together with the 32 kapporet sprinklings, the total is 43."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -402,8 +432,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many total blood sprinkle acts does the HP perform across all Yom Kippur services?",
-          "answer": "Over 40: 8 from bull at kapporet, 8 from goat at kapporet, 8 from bull at parochet, 8 from goat at parochet, 8 corner sprinkles at golden altar, 7 on top of golden altar, plus outer altar corners and base."
+          "answer": "Over 40: 8 from bull at kapporet, 8 from goat at kapporet, 8 from bull at parochet, 8 from goat at parochet, 8 corner sprinkles at golden altar, 7 on top of golden altar, plus outer altar corners and base.",
+          "question": "How many total blood sprinkle acts does the HP perform across all Yom Kippur services?"
         }
       ],
       "finalRuling": "The Yom Kippur blood service involves over 40 individual sprinkle acts across four Temple zones, constituting a complete systematic purification.",

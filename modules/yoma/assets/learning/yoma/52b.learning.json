@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Four words in the Torah whose meaning is uncertain: Se'et, Meshukkadim, Mahar, Arur",
-        "hint": "The Gemara identifies four biblical words with uncertain meanings: Se'et (elevation/skin disease?), Meshukkadim (almond-like?), Mahar (tomorrow/soon?), and Arur (cursed?). Their ambiguity affects practical halachic rulings."
+        "hint": "The Gemara identifies four biblical words with uncertain meanings: Se'et (elevation/skin disease?), Meshukkadim (almond-like?), Mahar (tomorrow/soon?), and Arur (cursed?). Their ambiguity affects practical halachic rulings.",
+        "title": "Four Torah Words of Uncertain Meaning"
       },
       "learning": {
-        "summary": "The Torah contains four words whose precise meaning was uncertain to the Sages. Se'et appears in skin-disease (tzara'at) contexts but its exact meaning is debated. Meshukkadim appears in descriptions of the Temple Menorah. Mahar appears in contexts of future time. Arur (cursed) appears in blessings-and-curses contexts. The Gemara notes that the meaning of each affects halachic decisions.",
         "ahaMoment": "Even foundational Torah words can have uncertain meanings - demonstrating that halachic precision requires ongoing textual analysis.",
         "memoryAnchor": "Four uncertain Torah words: the Sages preserved the uncertainty rather than deciding arbitrarily.",
-        "openQuestion": "How did the Sages handle halachic situations where a key Torah word had an uncertain meaning?"
+        "learnerQuestion": "Were there words in the Torah whose meaning was genuinely unknown even to the Sages, or was every Hebrew word always understood through an unbroken tradition?",
+        "coreTension": "The Oral Torah is supposed to preserve the meaning of every word; yet the Talmud identifies four Torah words (se'et, meshukkadim, mahar, arur) whose precise meaning was uncertain even among the greatest scholars.",
+        "coreMove": "The Talmud acknowledges that even the Sages had gaps in their lexical tradition; certain rare or archaic words survived only in usage contexts that left their precise meaning unclear, requiring deduction from context rather than direct transmission.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Oral Torah preserves meaning for most words through living tradition, but rare terms could become uncertain even for the greatest Sages when the chain of direct transmission was thin."
+        },
+        "learningBlocker": "Students assume the Oral Torah is a complete and gapless record; the admission that specific words were uncertain can seem like a theological problem rather than an honest record of tradition."
       },
       "argumentFlow": [
         {
@@ -112,7 +119,10 @@
         "biblical lexicography"
       ],
       "misconceptions": [
-        "These words were always clear to the Sages - their uncertainty is a rabbinic acknowledgment."
+        {
+          "misconception": "The meaning of every word in the Torah was always perfectly clear to the Sages through the Oral Torah tradition.",
+          "correction": "The Talmud honestly records that four specific Torah words had uncertain meanings even for the greatest scholars, because rare words could become unclear when direct oral transmission was thin."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -125,8 +135,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What are the four uncertain Torah words and why do they matter?",
-          "answer": "Se'et, Meshukkadim, Mahar, and Arur - four words whose precise meaning was uncertain to the Sages, affecting halachic decisions in areas of skin disease, Temple vessels, timing, and oaths/curses."
+          "answer": "Se'et, Meshukkadim, Mahar, and Arur - four words whose precise meaning was uncertain to the Sages, affecting halachic decisions in areas of skin disease, Temple vessels, timing, and oaths/curses.",
+          "question": "What are the four uncertain Torah words and why do they matter?"
         }
       ],
       "finalRuling": "Four biblical words (Se'et, Meshukkadim, Mahar, Arur) have uncertain meanings preserved by tradition.",
@@ -168,13 +178,20 @@
       ],
       "display": {
         "whats": "The outer curtain of the Sanctuary had hookings on the south side - what was their function?",
-        "hint": "The Gemara describes the outer parochet's hookings (kavim) on the south side that held it in place. This architectural detail relates to how the HP moved between the curtains."
+        "hint": "The Gemara describes the outer parochet's hookings (kavim) on the south side that held it in place. This architectural detail relates to how the HP moved between the curtains.",
+        "title": "Parochet Hookings on the South Side"
       },
       "learning": {
-        "summary": "The Sanctuary curtain (parochet) had structural hookings on the south side. The Gemara discusses their placement and function in relation to the HP's movement through the space between the two curtains. These hookings determined the exact path the HP could take when entering between the curtains.",
         "ahaMoment": "Temple architecture was precisely designed to support the service - even a curtain's hookings had halachic significance.",
         "memoryAnchor": "Curtain hookings on the south side: architectural details that shaped the HP's path.",
-        "openQuestion": "How did the architectural design of the curtains affect the HP's ability to move through the Temple service?"
+        "learnerQuestion": "Was the location of the parochet's attachment hooks on the south side a purely architectural detail, or did it have functional significance for the Yom Kippur service?",
+        "coreTension": "Temple architectural details could be arbitrary or deliberately functional; the parochet's south-side hookings need to be understood as either a construction convention or as something tied to the HP's ritual path.",
+        "coreMove": "The Talmud establishes that the south-side hookings were practically significant: they positioned the parochet's accessible opening along the HP's route into the Holy of Holies, integrating Temple architecture with the ritual path.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The parochet's hookings were located on the south side because that aligned with the High Priest's entry path into the Holy of Holies, making Temple architecture functionally integrated with the ritual sequence."
+        },
+        "learningBlocker": "Learners treat Temple architectural details as background information rather than as legally and ritually significant facts; the hooking location seems like a building detail but is actually connected to the ritual path."
       },
       "argumentFlow": [
         {
@@ -226,7 +243,10 @@
         "HP entry path"
       ],
       "misconceptions": [
-        "The curtain hookings were purely decorative - they had practical significance for the HP's path."
+        {
+          "misconception": "The parochet hookings were placed on the south side for purely structural reasons with no bearing on the ritual.",
+          "correction": "The south-side hookings were positioned to facilitate the High Priest's ritual path into the Holy of Holies; Temple architecture was designed to align with and support the ritual sequence."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -236,8 +256,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What were the hookings on the outer curtain's south side?",
-          "answer": "Structural attachments that held the outer parochet in place. Their placement on the south side affected the path the HP could take when walking between the two curtains into the Holy of Holies."
+          "answer": "Structural attachments that held the outer parochet in place. Their placement on the south side affected the path the HP could take when walking between the two curtains into the Holy of Holies.",
+          "question": "What were the hookings on the outer curtain's south side?"
         }
       ],
       "finalRuling": "The outer curtain had hookings on the south side that shaped the HP's path between the two curtains.",
@@ -284,13 +304,20 @@
       ],
       "display": {
         "whats": "Josiah hid the Ark of the Covenant - a Mishna records this tradition",
-        "hint": "The Mishna records that King Josiah hid the Ark so it would not be taken into Babylonian exile. This explains why the Ark was absent in the Second Temple, yet the HP's service continued in its designated location."
+        "hint": "The Mishna records that King Josiah hid the Ark so it would not be taken into Babylonian exile. This explains why the Ark was absent in the Second Temple, yet the HP's service continued in its designated location.",
+        "title": "Josiah Hid the Ark; Second Temple HP Sprinkled on the Even Ha-Shetiya"
       },
       "learning": {
-        "summary": "King Josiah, foreseeing the destruction, hid the Ark in a chamber beneath the Temple to prevent it from being taken into exile. The Mishna records this tradition. This is why the Holy of Holies in the Second Temple had no Ark - yet the HP performed the blood sprinkling service in the Ark's designated location, on the foundation stone (even ha-shetiya) where the Ark had stood.",
         "ahaMoment": "The Ark was hidden, not destroyed - preserving hope of its future restoration while explaining the Second Temple's absence of the physical Ark.",
         "memoryAnchor": "Josiah hid the Ark to protect it. In the Second Temple, the HP sprinkled on the even ha-shetiya where the Ark had stood.",
-        "openQuestion": "If the Ark was absent in the Second Temple, what was the HP's blood actually sprinkled toward?"
+        "learnerQuestion": "If the Ark was not present in the Second Temple, how did the High Priest know where to aim his blood sprinkling on Yom Kippur?",
+        "coreTension": "The inner sprinkling rite requires a target; the Ark with its kapporet served as that target in the First Temple, but the Second Temple had no Ark. The question is whether the rite was fundamentally changed or preserved with a new target.",
+        "coreMove": "The Talmud teaches that King Josiah hid the Ark underground when he foresaw the Exile, and that in the Second Temple the HP sprinkled on the even ha-shetiya (foundation stone) which stood in the place where the Ark had been.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "In the Second Temple, the High Priest sprinkled on the even ha-shetiya in the precise location where the Ark had stood, preserving the spatial integrity of the rite despite the Ark's absence."
+        },
+        "learningBlocker": "Students either assume the Ark was destroyed (not hidden) or assume that its absence completely changed or invalidated the Second Temple Yom Kippur service."
       },
       "argumentFlow": [
         {
@@ -347,7 +374,10 @@
         "blood sprinkling location"
       ],
       "misconceptions": [
-        "The Ark was destroyed by the Babylonians - the tradition says it was hidden, not destroyed."
+        {
+          "misconception": "The Ark was destroyed by the Babylonians, so the Second Temple had no valid target for the Yom Kippur blood sprinkling.",
+          "correction": "According to talmudic tradition, King Josiah hid the Ark underground before the Exile; in the Second Temple, the HP sprinkled on the even ha-shetiya that marked the Ark's original location."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -358,8 +388,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What did Josiah do with the Ark and why does it matter for Yom Kippur?",
-          "answer": "Josiah hid the Ark to protect it from Babylon. In the Second Temple (which lacked the Ark), the HP sprinkled blood on the foundation stone (even ha-shetiya) where the Ark had stood."
+          "answer": "Josiah hid the Ark to protect it from Babylon. In the Second Temple (which lacked the Ark), the HP sprinkled blood on the foundation stone (even ha-shetiya) where the Ark had stood.",
+          "question": "What did Josiah do with the Ark and why does it matter for Yom Kippur?"
         }
       ],
       "finalRuling": "Josiah hid the Ark; in the Second Temple the HP sprinkled blood on the foundation stone (even ha-shetiya).",
@@ -391,13 +421,20 @@
       ],
       "display": {
         "whats": "Mishna: the HP piles the incense on the coals inside the Holy of Holies",
-        "hint": "The Mishna describes the HP piling the incense on the coal pan inside the Holy of Holies. He must approach from a specific direction and pile it carefully."
+        "hint": "The Mishna describes the HP piling the incense on the coal pan inside the Holy of Holies. He must approach from a specific direction and pile it carefully.",
+        "title": "Incense Placed on Coals Inside the Holy of Holies"
       },
       "learning": {
-        "summary": "After entering the Holy of Holies with the coal pan and incense ladle, the HP piles the incense onto the glowing coals. The Gemara discusses how he approaches the coal pan and in which direction he faces when performing this service. The incense smoke fills the Holy of Holies and creates the protective cloud over the kapporet.",
         "ahaMoment": "The incense cloud inside the Holy of Holies creates the divine protective presence - it must fill the entire space before the HP approaches the kapporet.",
         "memoryAnchor": "HP piles incense on coals inside the Holy of Holies - the smoke fills the sacred space, creating the protective cloud.",
-        "openQuestion": "Why does the incense precede the blood sprinkling inside the Holy of Holies?"
+        "learnerQuestion": "Does the High Priest pile the incense onto the coal pan before entering the Holy of Holies, or does the incense placement happen after he is already inside?",
+        "coreTension": "The Sadducean view was that the HP should load the incense outside and enter with a full cloud of smoke already formed; the Pharisaic view requires the incense to be placed on the coals only after the HP is inside the Holy of Holies.",
+        "coreMove": "The Talmud establishes the Pharisaic ruling: the HP carries the fire pan and incense pan separately into the Holy of Holies, and only then places the incense on the coals so the cloud forms inside - before the blood sprinkling.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest places the incense onto the coals only after entering the Holy of Holies, so that the incense cloud forms inside the chamber; this happens before the blood service begins."
+        },
+        "learningBlocker": "The practical difficulty of carrying a full incense pan and fire pan separately into a small chamber while maintaining ritual integrity is not obvious; students may assume the simpler preparation-outside approach is correct."
       },
       "argumentFlow": [
         {
@@ -453,7 +490,10 @@
         "protective cloud"
       ],
       "misconceptions": [
-        "The blood sprinkling comes before the incense inside the Holy of Holies - the order is incense first, then blood."
+        {
+          "misconception": "The HP prepares the full incense cloud outside the Holy of Holies before entering, so he enters already surrounded by smoke.",
+          "correction": "The HP carries the fire pan and incense separately into the Holy of Holies and only then piles the incense on the coals; the cloud forms inside, before the blood service begins."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -464,8 +504,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the order of service inside the Holy of Holies?",
-          "answer": "First the incense is piled on the coals (creating the protective smoke cloud), then the blood is sprinkled toward the kapporet. The smoke precedes the blood service."
+          "answer": "First the incense is piled on the coals (creating the protective smoke cloud), then the blood is sprinkled toward the kapporet. The smoke precedes the blood service.",
+          "question": "What is the order of service inside the Holy of Holies?"
         }
       ],
       "finalRuling": "Inside the Holy of Holies: incense is piled on coals first (creating protective cloud), then blood is sprinkled.",

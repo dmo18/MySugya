@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Bowl placement system: two stands prevent confusion between bull and goat blood",
-        "hint": "The HP holds only one blood bowl at a time, using two stands in the Heichal so he never confuses the bull and goat bloods. The Gemara illustrates with a Passover parallel how sequential handling prevents confusion in complex concurrent activities."
+        "hint": "The HP holds only one blood bowl at a time, using two stands in the Heichal so he never confuses the bull and goat bloods. The Gemara illustrates with a Passover parallel how sequential handling prevents confusion in complex concurrent activities.",
+        "title": "Two Bowls and the Stand System in the Heichal"
       },
       "learning": {
-        "summary": "The Gemara discusses the practical challenge: two bowls in the Heichal could be confused. The solution is the stand system - the HP never simultaneously holds both bowls. He holds one, uses it, sets it down, and only then picks up the other. A parallel is drawn to Passover registration procedures where systematic sequencing prevents confusion among multiple concurrent activities. The inner service order is also specified: bull inside, goat inside, bull's parochet service, goat's parochet service.",
         "ahaMoment": "The stand system is not organizational convenience - it prevents the worst possible error on the holiest day. Physical arrangement serves spiritual integrity.",
         "memoryAnchor": "Two bowls, two stands, one at a time: the system guarantees correct sequence even under pressure.",
-        "openQuestion": "Why couldn't the HP simply memorize which bowl is which rather than using the stand system?"
+        "learnerQuestion": "How does the High Priest manage two blood bowls (bull and goat) during the Heichal services, given that both are needed sequentially?",
+        "coreTension": "The HP cannot hold both bowls simultaneously while sprinkling, but setting one down without a designated stand risks confusion or impurity; the practical management of two active blood containers requires a defined system.",
+        "coreMove": "The Talmud describes a stand in the Heichal where the HP places one bowl while working with the other; this stand enforces sequential handling and prevents the bowls from being confused or set on the floor.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A designated stand in the Heichal allows the High Priest to place one blood bowl while working with the other; this system enforces proper sequential handling and prevents confusion between the bull and goat blood."
+        },
+        "learningBlocker": "Students may not think about the practical logistics of managing two blood bowls simultaneously and may not realize the Talmud has a detailed, specified solution for this."
       },
       "argumentFlow": [
         {
@@ -139,7 +146,10 @@
         "Knowing the Heichal contains stands for holding the bowls"
       ],
       "misconceptions": [
-        "The HP cannot hold both bowls at once - the stand system enforces sequential handling"
+        {
+          "misconception": "The HP simply held one bowl in each hand alternately - the stand system is a minor detail with no halachic significance.",
+          "correction": "The Talmud specifies a stand system in the Heichal where the HP places one bowl while sprinkling with the other; this is a defined technical detail of the ritual, not improvised."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -158,8 +168,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why would having two blood bowls in the Heichal pose a danger, and how was it solved?",
-          "answer": "The HP might confuse which bowl holds bull blood and which holds goat blood. The stand system ensures he handles one bowl at a time, setting it down before picking up the other."
+          "answer": "The HP might confuse which bowl holds bull blood and which holds goat blood. The stand system ensures he handles one bowl at a time, setting it down before picking up the other.",
+          "question": "Why would having two blood bowls in the Heichal pose a danger, and how was it solved?"
         }
       ],
       "finalRuling": "The two-stand system in the Heichal ensures the HP handles one blood bowl at a time, preventing any confusion between bull and goat blood.",

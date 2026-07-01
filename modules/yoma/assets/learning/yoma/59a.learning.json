@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "The Yom Kippur service order: when the scapegoat is dispatched relative to the blood services",
-        "hint": "The Mishnah or Gemara establishes when in the day's sequence the scapegoat departs and which services precede and follow it."
+        "hint": "The Mishnah or Gemara establishes when in the day's sequence the scapegoat departs and which services precede and follow it.",
+        "title": "Fixed Order: Blood Services Before Scapegoat"
       },
       "learning": {
-        "summary": "The Gemara establishes the fixed order of the Yom Kippur day: the blood services (bull and goat inside, parochet, golden altar, outer altar) are completed before the scapegoat is dispatched. The scapegoat's third confession and dispatch happen after all blood services. After the scapegoat departs, the HP proceeds to the Torah reading and subsequent services.",
         "ahaMoment": "The scapegoat is not the first act of Yom Kippur atonement - the blood services come first. The scapegoat is the culmination, the visible communal expression after the invisible inner atonement.",
         "memoryAnchor": "Blood services first (invisible, inside), then scapegoat (visible, outside): two phases of one atonement.",
-        "openQuestion": "Why does the blood service precede the scapegoat dispatch rather than the other way around?"
+        "learnerQuestion": "Can the scapegoat be sent to the wilderness before the blood services are complete, or must the blood services always come first?",
+        "coreTension": "The scapegoat and blood services are both central Yom Kippur atonement acts; intuitively one might assume either can come first. But the Torah's specific ordering has halachic force.",
+        "coreMove": "The Talmud establishes that the blood services (bull and goat blood sprinkling in all locations) must precede the scapegoat dispatch; the Torah's order is binding and cannot be inverted.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The blood services must be completed before the scapegoat is sent to the wilderness; the Torah's prescribed order is binding, and sending the scapegoat first would invalidate the service."
+        },
+        "learningBlocker": "Students may assume the scapegoat is sent early as a dramatic opening act of atonement; the binding force of the Torah's specific sequence is easy to overlook."
       },
       "argumentFlow": [
         {
@@ -88,7 +95,10 @@
         "Knowing the HP's Torah reading comes after the scapegoat"
       ],
       "misconceptions": [
-        "The scapegoat is not the first atonement act - it follows all blood services"
+        {
+          "misconception": "The scapegoat could be sent first as the primary public atonement act, before the blood services begin.",
+          "correction": "The blood services must precede the scapegoat dispatch; the Torah's prescribed order is halachically binding and the scapegoat is not the first atonement act of Yom Kippur."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -103,8 +113,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "In what order do the Yom Kippur services occur relative to the scapegoat dispatch?",
-          "answer": "The blood services (inside, parochet, golden altar, outer altar) are completed first; then the scapegoat is dispatched; then the HP performs the Torah reading and subsequent services."
+          "answer": "The blood services (inside, parochet, golden altar, outer altar) are completed first; then the scapegoat is dispatched; then the HP performs the Torah reading and subsequent services.",
+          "question": "In what order do the Yom Kippur services occur relative to the scapegoat dispatch?"
         }
       ],
       "finalRuling": "All blood services are completed before the scapegoat is dispatched; the scapegoat is followed by the Torah reading.",
@@ -146,13 +156,20 @@
       ],
       "display": {
         "whats": "HP reads the Torah to the assembled community; eight blessings recited after the reading",
-        "hint": "After the blood and scapegoat services, the HP reads the Yom Kippur Torah portions to the assembled people and recites eight blessings, with the community prostrating at each mention of the Divine Name."
+        "hint": "After the blood and scapegoat services, the HP reads the Yom Kippur Torah portions to the assembled people and recites eight blessings, with the community prostrating at each mention of the Divine Name.",
+        "title": "Torah Reading: Leviticus from Scroll, Numbers from Memory"
       },
       "learning": {
-        "summary": "The Mishnah details the public Torah reading: the HP reads the relevant Leviticus portions from a sefer Torah, then places it in his bosom and recites the Numbers portions by heart. Following the reading, he recites eight blessings: Torah, Temple service, Thanksgiving, Forgiveness of sins, Temple, Israel, Jerusalem, priests, and a general blessing. The assembled community prostrates when they hear the explicit Divine Name (the Shem haMeforash) recited in the Temple context.",
         "ahaMoment": "The HP who performed the most private act (the blood service in the Holy of Holies alone) now leads the most public act - reading Torah to all Israel. The inner and outer, private and communal, are one unified service.",
         "memoryAnchor": "After atoning alone inside, the HP leads Israel in public Torah reading - the private sacred act reaches its communal completion.",
-        "openQuestion": "Why does the HP roll the sefer Torah and recite the Numbers portion by heart rather than reading it from the scroll?"
+        "learnerQuestion": "How does the High Priest perform the public Torah reading on Yom Kippur, and why is one portion read from a scroll while another is recited from memory?",
+        "coreTension": "Public Torah reading normally requires reading from an actual scroll; but the HP reads two separate portions on Yom Kippur, and the Talmud indicates a distinction between how they are read - one from the scroll, one not.",
+        "coreMove": "The Talmud rules that the HP reads the Leviticus portions (Acharei Mot) from the actual scroll, but then recites the Numbers portion (Pinchas) from memory, because unrolling the scroll to a distant section in front of the congregation would be awkward and disrespectful to the audience.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest reads the Leviticus portions of the Yom Kippur Torah reading from an actual scroll, then recites the Numbers portion from memory to avoid the awkwardness of rolling the scroll to a distant section in front of the congregation."
+        },
+        "learningBlocker": "Students assume the full reading is always from a scroll; the mix of scroll-reading and memory-recitation, and the practical reason behind it, is an interesting detail they may not anticipate."
       },
       "argumentFlow": [
         {
@@ -239,7 +256,10 @@
         "Knowing which eight blessings are recited"
       ],
       "misconceptions": [
-        "The HP reads from the actual Torah scroll, not from memory - only the second portion is from memory"
+        {
+          "misconception": "The HP reads both Torah portions from the actual scroll; reading by heart is never an acceptable substitute for public Torah reading.",
+          "correction": "The HP reads the Leviticus portions from the scroll but recites the Numbers portion from memory; reading by heart is permitted here to spare the congregation the awkwardness of watching the scroll rolled to a distant section."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -258,8 +278,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the HP do after the scapegoat service and before the additional sacrifices?",
-          "answer": "He reads the Yom Kippur Torah portions to the assembled community, rolling the Torah after Leviticus and reciting the Numbers portion by heart, then recites eight blessings."
+          "answer": "He reads the Yom Kippur Torah portions to the assembled community, rolling the Torah after Leviticus and reciting the Numbers portion by heart, then recites eight blessings.",
+          "question": "What does the HP do after the scapegoat service and before the additional sacrifices?"
         }
       ],
       "finalRuling": "The HP reads the Yom Kippur Torah portions and recites eight blessings to the assembled community, who prostrate at the Divine Name.",
@@ -291,13 +311,20 @@
       ],
       "display": {
         "whats": "Content of the eight blessings: covering all major aspects of the Jewish covenant",
-        "hint": "The eight blessings recited after the Torah reading address Torah, Temple service, Thanksgiving, Forgiveness, the Temple itself, Israel, Jerusalem, and the priests."
+        "hint": "The eight blessings recited after the Torah reading address Torah, Temple service, Thanksgiving, Forgiveness, the Temple itself, Israel, Jerusalem, and the priests.",
+        "title": "Eight Blessings Corresponding to Covenant Pillars"
       },
       "learning": {
-        "summary": "Each of the eight blessings corresponds to a pillar of the Jewish covenant relationship: (1) for the Torah, (2) for the Temple service/Avodah, (3) for Hoda'ah (Thanksgiving), (4) for forgiveness of sins, (5) for the Temple, (6) for Israel, (7) for Jerusalem, (8) for the priests and (9) a concluding general blessing. The Gemara or Mishnah specifies the content and structure of these blessings, which constituted a comprehensive statement of Israel's identity and aspirations.",
         "ahaMoment": "The eight blessings together constitute a complete theology of Israel's relationship with God: Torah, service, gratitude, forgiveness, land, people, city, and priesthood - everything Israel is.",
         "memoryAnchor": "Eight blessings = eight pillars of Jewish existence: Torah, Temple, gratitude, forgiveness, land, people, city, priesthood.",
-        "openQuestion": "Why are these particular eight categories chosen as the blessings for Yom Kippur?"
+        "learnerQuestion": "What are the eight blessings the High Priest recites on Yom Kippur, and what principle governs their structure?",
+        "coreTension": "The eight blessings cover a range of topics; their specific number and subjects must be explained by a unifying principle rather than appearing arbitrary.",
+        "coreMove": "The Talmud lists the eight blessings: Torah, Temple service, thanksgiving, forgiveness of sin, the Temple structure, Israel (the people), the priests, and general supplication. Together they correspond to the fundamental pillars of Jewish covenantal life.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The High Priest recites eight blessings on Yom Kippur, each corresponding to a fundamental pillar of Jewish covenantal life: Torah, Temple service, thanksgiving, forgiveness, the Temple structure, Israel, the priests, and general supplication."
+        },
+        "learningBlocker": "Students may try to memorize the eight blessings as a rote list without understanding the conceptual structure; seeing them as corresponding to covenant pillars gives the list meaning and makes it memorable."
       },
       "argumentFlow": [
         {
@@ -357,7 +384,10 @@
         "Understanding why Yom Kippur includes a comprehensive covenantal prayer"
       ],
       "misconceptions": [
-        "There are eight blessings but nine categories - some count a ninth blessing for the priests separately"
+        {
+          "misconception": "There are eight blessings but they cover nine distinct categories - one blessing category is doubled.",
+          "correction": "There are exactly eight blessings, each covering one distinct topic corresponding to a pillar of covenantal life; there is no doubling or overlap in the list."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -372,8 +402,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What do the eight blessings recited after the Yom Kippur Torah reading cover?",
-          "answer": "Torah, Temple service (Avodah), Thanksgiving (Hoda'ah), Forgiveness of sins, the Temple building, Israel, Jerusalem, and the priests - plus a concluding general blessing."
+          "answer": "Torah, Temple service (Avodah), Thanksgiving (Hoda'ah), Forgiveness of sins, the Temple building, Israel, Jerusalem, and the priests - plus a concluding general blessing.",
+          "question": "What do the eight blessings recited after the Yom Kippur Torah reading cover?"
         }
       ],
       "finalRuling": "The eight blessings after the Torah reading cover all major pillars of the Jewish covenant: Torah, service, gratitude, forgiveness, Temple, people, city, and priesthood.",
@@ -405,13 +435,20 @@
       ],
       "display": {
         "whats": "Which portions the HP reads and rolls; Numbers portion recited from memory",
-        "hint": "The HP reads 'After the death' (Leviticus 16) and 'But on the tenth' (Leviticus 23) from the Torah scroll, then rolls and places it aside to recite 'And on the tenth' (Numbers 29) from memory."
+        "hint": "The HP reads 'After the death' (Leviticus 16) and 'But on the tenth' (Leviticus 23) from the Torah scroll, then rolls and places it aside to recite 'And on the tenth' (Numbers 29) from memory.",
+        "title": "Which Torah Portions Are Read on Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishnah specifies exactly which Torah portions are read: from the sefer Torah, the HP reads the main Yom Kippur service passage (Leviticus 16, beginning 'After the death of Aaron's sons') and the calendar passage (Leviticus 23:26-32). He then rolls the sefer Torah, places it in his bosom, and recites from memory the additional Yom Kippur Musaf passage (Numbers 29:7-11). Reading a second scroll would require unrolling a new one - recitation by heart is more respectful to the assembly than having them wait.",
         "ahaMoment": "The HP rolls the Torah out of respect for the congregation - rather than making them wait while a second scroll is unrolled, he recites from memory. Consideration for the assembly shapes the reading format.",
         "memoryAnchor": "Roll and recite: respect for the congregation's waiting time shapes the very form of the Torah reading.",
-        "openQuestion": "What does it mean that the HP recites the Numbers portion 'by heart'? Is this halachically significant?"
+        "learnerQuestion": "Which specific Torah passages does the High Priest read during the public Torah reading on Yom Kippur, and what is the source for selecting these passages?",
+        "coreTension": "Multiple Torah passages relate to Yom Kippur; the selection of which ones to read publicly must have a principled basis, not be arbitrary.",
+        "coreMove": "The Talmud specifies that the HP reads from Leviticus 16 (Acharei Mot - the main Yom Kippur passage) and from Numbers 29:7-11 (the Pinchas section describing the Yom Kippur mussaf offering); the first from the scroll, the second from memory.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Yom Kippur Torah reading consists of Leviticus 16 (read from the scroll) and Numbers 29:7-11 (recited from memory); these two passages directly describe the Yom Kippur service and its additional offering."
+        },
+        "learningBlocker": "Students may not know which Torah passages are read or why these specific selections; the combination of the Leviticus atonement passage and the Numbers mussaf passage covers both dimensions of the day."
       },
       "argumentFlow": [
         {
@@ -469,7 +506,10 @@
         "Understanding why the Numbers portion is recited from memory"
       ],
       "misconceptions": [
-        "The HP reads from the actual Torah scroll for the Leviticus portions - not from memory"
+        {
+          "misconception": "The HP reads from the actual Torah scroll for both portions of the Yom Kippur public Torah reading.",
+          "correction": "Only the Leviticus 16 portion is read from the scroll; the Numbers 29 portion (mussaf) is recited from memory to avoid rolling the scroll to a distant location in front of the congregation."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -484,8 +524,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP recite the Numbers portion of the Yom Kippur reading from memory rather than from the Torah scroll?",
-          "answer": "So the congregation does not have to wait while a second scroll is unrolled. Consideration for the assembly's time shapes the reading format."
+          "answer": "So the congregation does not have to wait while a second scroll is unrolled. Consideration for the assembly's time shapes the reading format.",
+          "question": "Why does the HP recite the Numbers portion of the Yom Kippur reading from memory rather than from the Torah scroll?"
         }
       ],
       "finalRuling": "The HP reads Leviticus 16 and 23 from the Torah scroll, then recites Numbers 29 from memory to avoid making the congregation wait for a second scroll.",
@@ -517,13 +557,20 @@
       ],
       "display": {
         "whats": "The HP's prayer upon emerging from the Holy of Holies: a brief prayer for Israel",
-        "hint": "After completing the inner service and emerging from the Holy of Holies, the HP offers a brief prayer for Israel. He does not prolong it so that the people are not frightened by his extended absence."
+        "hint": "After completing the inner service and emerging from the Holy of Holies, the HP offers a brief prayer for Israel. He does not prolong it so that the people are not frightened by his extended absence.",
+        "title": "High Priest Prays Briefly After Emerging from the Holy of Holies"
       },
       "learning": {
-        "summary": "The Mishnah notes that the HP prays after emerging from the Holy of Holies. He keeps the prayer brief - the people are waiting outside, and a prolonged absence would cause fear that something went wrong inside. The prayer asks for the year to be good for Israel. The Gemara records what specific things the HP prayed for, with different traditions reporting different formulations.",
         "ahaMoment": "The HP constrains his prayer for psychological reasons: a leader who prays too long makes his people afraid. Even on the holiest occasion, pastoral sensitivity shapes the ritual.",
         "memoryAnchor": "Brief prayer, deep intent: the HP cannot linger in prayer because the people's anxiety is itself a halachic concern.",
-        "openQuestion": "What is the tension between wanting to pray at length in this sacred moment and the need to reassure the waiting people?"
+        "learnerQuestion": "Does the High Priest actually pray after emerging from the Holy of Holies on Yom Kippur, or does he proceed immediately to the next service?",
+        "coreTension": "The exit prayer was established as needing to be brief; but students might wonder if the prayer is even required, or whether exiting and proceeding directly is the rule.",
+        "coreMove": "The Talmud confirms that the HP does pray upon emerging, but the prayer must be kept brief; the practice is confirmed, but the length is strictly limited to avoid public anxiety about what happened inside.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest does pray upon emerging from the Holy of Holies, but the prayer must be kept brief; extended prayer is prohibited because it would cause the waiting congregation to fear that something went wrong inside."
+        },
+        "learningBlocker": "After earlier discussions about brevity, students may be confused about whether the prayer happens at all; the Talmud confirms it does happen, just briefly."
       },
       "argumentFlow": [
         {
@@ -582,7 +629,10 @@
         "Understanding that a prolonged absence would cause fear"
       ],
       "misconceptions": [
-        "The HP does pray after emerging - but briefly, not at length"
+        {
+          "misconception": "The HP skips any prayer upon emerging and proceeds immediately to the next stage of the service.",
+          "correction": "The HP does pray upon emerging, but briefly; the prayer is required but must be short to prevent public anxiety among the congregation waiting outside."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -597,8 +647,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP keep his prayer brief after emerging from the Holy of Holies?",
-          "answer": "So the people waiting outside are not frightened by an extended absence, which they might interpret as something having gone wrong during the inner service."
+          "answer": "So the people waiting outside are not frightened by an extended absence, which they might interpret as something having gone wrong during the inner service.",
+          "question": "Why does the HP keep his prayer brief after emerging from the Holy of Holies?"
         }
       ],
       "finalRuling": "The HP prays briefly after emerging from the Holy of Holies so the waiting congregation is not frightened by a prolonged absence.",
@@ -625,13 +675,20 @@
       ],
       "display": {
         "whats": "Content of the HP's prayer: specific petitions for the coming year",
-        "hint": "The Gemara records the content of the HP's prayer: petitions for rain, fruitful harvests, a good year, and that Israel's borders remain secure."
+        "hint": "The Gemara records the content of the HP's prayer: petitions for rain, fruitful harvests, a good year, and that Israel's borders remain secure.",
+        "title": "Exit Prayer Content - Rain and Communal Welfare"
       },
       "learning": {
-        "summary": "The brief prayer the HP recites after emerging has specific content. The Gemara records traditions about what the HP prayed for: that the year be good for Israel, that rains come at the right time, that the harvests be plentiful, and that Israel's borders be secure. Some sources add that he prayed that the Shechina not depart from Israel. The prayer is a comprehensive petition for Israel's physical and spiritual welfare in the coming year.",
         "ahaMoment": "The HP's first words upon emerging from the Holy of Holies are a petition for Israel's welfare - the atonement was for them and his first public act is to pray for their future.",
         "memoryAnchor": "Emerging from before God, the HP prays for rain, peace, and security - the year begins at Yom Kippur.",
-        "openQuestion": "Why does the HP pray for rain specifically at this moment? What is the connection to Yom Kippur?"
+        "learnerQuestion": "What exactly does the High Priest pray for in his brief exit prayer, and is the rain petition here the same as the formal rain prayer at other times of year?",
+        "coreTension": "Rain is central to Jewish agricultural prayer and is formally requested at Shemini Atzeret; the HP's Yom Kippur exit prayer also includes a rain petition. The question is whether these two prayers are identical in content and timing.",
+        "coreMove": "The Talmud distinguishes the HP's Yom Kippur rain petition from the formal Shemini Atzeret rain prayer; the HP includes rain as part of his broader communal welfare prayer, making it a general supplication rather than the formal seasonal transition prayer.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The rain element of the High Priest's Yom Kippur exit prayer is a communal welfare petition, distinct from the formal Shemini Atzeret rain prayer; both address rain but serve different ritual functions and contexts."
+        },
+        "learningBlocker": "Students who know the Shemini Atzeret rain prayer may assume the HP's Yom Kippur rain petition is the same thing; the Talmud treats them as distinct despite both involving prayer for rain."
       },
       "argumentFlow": [
         {
@@ -676,7 +733,10 @@
         "Understanding the connection between Yom Kippur and the agricultural year"
       ],
       "misconceptions": [
-        "The rain prayer at Yom Kippur is different from Shemini Atzeret - here it's part of the HP's personal petition"
+        {
+          "misconception": "The HP's rain prayer on Yom Kippur is the same prayer formally recited at Shemini Atzeret - it is the seasonal rain prayer.",
+          "correction": "The Yom Kippur exit prayer's rain petition is a general communal welfare prayer, not the formal seasonal Shemini Atzeret prayer; the two prayers serve different purposes even though both address rain."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -691,8 +751,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the HP pray for immediately after emerging from the Holy of Holies?",
-          "answer": "He prays briefly for Israel's welfare: a good year, timely rains, fruitful harvests, and secure borders - a comprehensive petition for national wellbeing in the coming year."
+          "answer": "He prays briefly for Israel's welfare: a good year, timely rains, fruitful harvests, and secure borders - a comprehensive petition for national wellbeing in the coming year.",
+          "question": "What does the HP pray for immediately after emerging from the Holy of Holies?"
         }
       ],
       "finalRuling": "The HP's brief prayer petitions for a good year, timely rains, fruitful harvests, and national security for Israel.",
@@ -739,13 +799,20 @@
       ],
       "display": {
         "whats": "The HP accompanies the community home; celebration after the service is completed",
-        "hint": "After completing all services, the HP accompanies people home in a joyous procession. He and his family celebrate his safe emergence, making a feast for friends and relatives."
+        "hint": "After completing all services, the HP accompanies people home in a joyous procession. He and his family celebrate his safe emergence, making a feast for friends and relatives.",
+        "title": "High Priest Accompanied Home with Celebration"
       },
       "learning": {
-        "summary": "After the public service concludes, the HP is accompanied home by a celebratory procession. The Mishnah describes this as a time of joy and celebration. The HP's family hosts a feast for friends because he emerged safely from the Holy of Holies. The emergence from the most dangerous ritual encounter (alone before the Ark on the holiest day) was treated like a personal miracle - surviving intact warranted celebration. This feast was held the day after Yom Kippur.",
         "ahaMoment": "The post-Yom Kippur celebration is not only about forgiveness - it is about the HP having survived his encounter with the divine. His safe emergence is itself a cause for gratitude.",
         "memoryAnchor": "A feast after Yom Kippur: the HP's family celebrates his safe return from the most dangerous moment a human can face.",
-        "openQuestion": "What does celebrating the HP's safe emergence reveal about the Jewish understanding of encountering the divine?"
+        "learnerQuestion": "What happens after the Yom Kippur service concludes - how does the community mark the end of the day and the HP's completion of the service?",
+        "coreTension": "Yom Kippur is a fast day of atonement; a festive celebration accompanying the HP home might seem incongruous with the day's solemnity. The basis and character of the post-service celebration must be explained.",
+        "coreMove": "The Talmud records that after the HP completes all services and emerges, he is accompanied home by a joyful procession; this celebration is not for the day per se but for the HP's survival - having survived entry into the Holy of Holies is considered a remarkable achievement worthy of celebration.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The festive celebration accompanying the HP home after Yom Kippur is a celebration of the HP's survival of the Holy of Holies service, not a general Yom Kippur feast; completing the service safely was considered a remarkable achievement."
+        },
+        "learningBlocker": "Students may find it surprising that there is any celebration on Yom Kippur, a fast day; understanding that the celebration is specifically about the HP's survival of the most dangerous ritual in the Temple calendar makes it intelligible."
       },
       "argumentFlow": [
         {
@@ -818,7 +885,10 @@
         "Understanding the feast is day after Yom Kippur, not on Yom Kippur itself"
       ],
       "misconceptions": [
-        "The feast is not a Yom Kippur celebration per se - it celebrates the HP's survival"
+        {
+          "misconception": "The feast when the HP returns home is a general celebration with friends and family marking the end of Yom Kippur.",
+          "correction": "The feast is specifically a celebration of the HP's survival of the Holy of Holies service; entering the innermost sanctum was considered potentially fatal for anyone not fully worthy, making the HP's safe return an occasion for relief and joy."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -833,8 +903,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP's family make a feast after Yom Kippur?",
-          "answer": "Because he emerged safely from the Holy of Holies - entering the most sacred space alone was genuinely dangerous, and surviving intact was a cause for personal celebration and gratitude."
+          "answer": "Because he emerged safely from the Holy of Holies - entering the most sacred space alone was genuinely dangerous, and surviving intact was a cause for personal celebration and gratitude.",
+          "question": "Why does the HP's family make a feast after Yom Kippur?"
         }
       ],
       "finalRuling": "The HP and his family celebrate his safe emergence from the Holy of Holies with a feast for friends and relatives after Yom Kippur.",
@@ -861,13 +931,20 @@
       ],
       "display": {
         "whats": "The fifteen services performed in white garments; summary of the Yom Kippur service structure",
-        "hint": "The Gemara summarizes the services performed in white linen (the inner services) and those in golden garments (outer services), establishing the complete structure of the HP's Yom Kippur day."
+        "hint": "The Gemara summarizes the services performed in white linen (the inner services) and those in golden garments (outer services), establishing the complete structure of the HP's Yom Kippur day.",
+        "title": "High Priest Garment Changes on Yom Kippur - Five Times"
       },
       "learning": {
-        "summary": "The Gemara provides a comprehensive summary of the Yom Kippur service structure: the services performed in white linen garments (entering the Holy of Holies for incense, blood, and fire pan retrieval) and those in golden garments (outer services, scapegoat, readings, and personal offerings). This summary makes clear that the HP changes garments multiple times: white for inner services, gold for outer ones, white again for the final Holy of Holies entry, and gold again afterward.",
         "ahaMoment": "The garment changes are not just symbolic - they mark structural transitions between the inner and outer realms. White is for approaching God directly; gold is for serving the community.",
         "memoryAnchor": "White in, gold out: the garments map the HP's movement between the divine presence and the human community.",
-        "openQuestion": "What does the repeated alternation between white and gold garments teach about the relationship between inner and outer service?"
+        "learnerQuestion": "How many times does the High Priest change his vestments on Yom Kippur, and why is the count higher than the two sets of garments might suggest?",
+        "coreTension": "The HP wears linen garments for the holy inner service and gold vestments for other services; the transitions between these sets constitute garment changes. But the total count depends on exactly how many transitions occur.",
+        "coreMove": "The Talmud establishes that the HP changes garments five times: from regular clothes to gold for the morning offering, gold to linen for the inner service, linen back to gold for the afternoon service, gold back to linen for removing the incense pan, and finally a fifth change back to gold for the closing service.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest changes his vestments five times on Yom Kippur, alternating between gold and linen garments with a ritual immersion before each change; the count exceeds four because the inner service requires multiple entries and exits."
+        },
+        "learningBlocker": "Students who know there are two sets of garments (gold and linen) may assume the HP changes twice; the actual count requires tracking all the service phases and the specific entry and exit movements that trigger each change."
       },
       "argumentFlow": [
         {
@@ -911,7 +988,10 @@
         "Knowing how many times the HP changes garments"
       ],
       "misconceptions": [
-        "The HP changes garments four times on Yom Kippur: white, gold, white again, then gold again"
+        {
+          "misconception": "The HP changes garments four times on Yom Kippur - once into linen, once back to gold, and so on for exactly two cycles.",
+          "correction": "The HP changes garments five times, not four; the multiple entries and exits from the Holy of Holies, combined with the afternoon and closing services, create more than four garment transition points."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -926,8 +1006,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many times does the HP change garments on Yom Kippur and why?",
-          "answer": "Four times: he begins in golden garments for morning service, changes to white for inner services, changes back to gold for outer services and reading, then changes to white for the final Holy of Holies entry, then gold again for the closing services."
+          "answer": "Four times: he begins in golden garments for morning service, changes to white for inner services, changes back to gold for outer services and reading, then changes to white for the final Holy of Holies entry, then gold again for the closing services.",
+          "question": "How many times does the HP change garments on Yom Kippur and why?"
         }
       ],
       "finalRuling": "The HP changes garments four times on Yom Kippur - white for inner services (approaching God directly), gold for outer services (before the community).",

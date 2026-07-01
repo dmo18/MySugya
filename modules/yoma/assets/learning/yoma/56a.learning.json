@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Mishnah: HP exits the Holy of Holies completing the inner blood service",
-        "hint": "The Mishnah briefly records the HP's exit from the Holy of Holies after the goat's blood service, marking the conclusion of the innermost Yom Kippur service and the beginning of the outer phase."
+        "hint": "The Mishnah briefly records the HP's exit from the Holy of Holies after the goat's blood service, marking the conclusion of the innermost Yom Kippur service and the beginning of the outer phase.",
+        "title": "High Priest Exits the Holy of Holies - Transition to Outer Services"
       },
       "learning": {
-        "summary": "This brief Mishnah is a transitional statement: the HP exits the Holy of Holies having completed both the bull's and goat's blood sprinklings inside. The exit marks the end of the innermost phase of Yom Kippur. What follows is the parochet and golden altar services in the Heichal, then the outer courtyard services. The Gemara surrounding this passage discusses tangential matters before returning to the main Yom Kippur sequence.",
         "ahaMoment": "The HP exits the most sacred space having completed atonement's innermost act - now the purification radiates outward through the remaining Temple zones.",
         "memoryAnchor": "Exiting the Holy of Holies: inner atonement complete, outer atonement begins.",
-        "openQuestion": "What does the HP experience as he exits the Holy of Holies after standing before the Ark?"
+        "learnerQuestion": "What does the Mishnah emphasize when describing the HP's exit from the Holy of Holies, and what marks the transition to the next stage of the Yom Kippur service?",
+        "coreTension": "The exit is a transition point: the inner services are complete and the outer services begin. The Mishnah's language of 'exit' signals more than a physical movement - it marks the boundary between the innermost and the outer ritual domains.",
+        "coreMove": "The Mishnah records the HP's exit as a formal transition marker: upon exiting, the inner service is entirely complete, and the HP moves to the outer blood services (parochet and golden altar), with the blood bowls now carried to their next destination.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The HP's exit from the Holy of Holies is a formal transition point in the Yom Kippur service, marking the complete end of the inner service and the beginning of the outer (parochet and golden altar) services."
+        },
+        "learningBlocker": "Students may picture the exit as just a physical step and miss that it is a legal threshold: once the HP exits with the completed inner service, the ritual domain shifts and the next phase is formally underway."
       },
       "argumentFlow": [
         {
@@ -69,7 +76,10 @@
         "Knowing the parochet service comes next"
       ],
       "misconceptions": [
-        "The HP exits carrying the blood bowls for use in the subsequent services"
+        {
+          "misconception": "When the HP exits the Holy of Holies, he carries the blood bowls to immediately dispose of them - the blood's role in the service is over.",
+          "correction": "Upon exiting, the HP proceeds to the parochet and golden altar blood services; the blood bowls are carried for continued use in the outer services, not for disposal."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -84,8 +94,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What signals the end of the innermost Yom Kippur service?",
-          "answer": "The HP exits the Holy of Holies after completing the goat's blood sprinkling - two entries (bull and goat) are now complete and the outer services begin."
+          "answer": "The HP exits the Holy of Holies after completing the goat's blood sprinkling - two entries (bull and goat) are now complete and the outer services begin.",
+          "question": "What signals the end of the innermost Yom Kippur service?"
         }
       ],
       "finalRuling": "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",

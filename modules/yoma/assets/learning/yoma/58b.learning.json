@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "R. Eliezer vs. R. Shimon: do inner and outer blood remainders go to different altar bases?",
-        "hint": "R. Eliezer rules that each service's remainder goes to the altar base of the zone where it was performed (inner to inner, outer to outer). R. Shimon rules all remainders go to the outer altar's western base."
+        "hint": "R. Eliezer rules that each service's remainder goes to the altar base of the zone where it was performed (inner to inner, outer to outer). R. Shimon rules all remainders go to the outer altar's western base.",
+        "title": "Where Remaining Blood Is Poured - R. Eliezer vs. R. Shimon"
       },
       "learning": {
-        "summary": "After all sprinklings are complete, blood remains in the bowls. The question is where to pour it. R. Eliezer distinguishes by zone: blood from the inner Holy of Holies and parochet services goes to the inner (golden) altar's base; blood from the outer services goes to the outer altar's base. R. Shimon simplifies: all remaining blood goes to the outer altar's base regardless of where the service was performed. Their practical dispute focuses on the parochet service's remainder - does it count as inner (Eliezer's inner base) or does everything go outside (Shimon)?",
         "ahaMoment": "R. Eliezer matches blood to its zone even for the final pour; R. Shimon unifies all remainders at the outer altar - two different visions of how the blood's journey concludes.",
         "memoryAnchor": "Eliezer: each blood ends where it served. Shimon: all blood ends at the outermost point.",
-        "openQuestion": "What theological principle underlies each position - does blood 'belong' to the zone where it was used?"
+        "learnerQuestion": "After all blood services are complete, where does the remaining blood go - is there a dispute about which altar's base receives it?",
+        "coreTension": "R. Eliezer and R. Shimon dispute which altar's base receives the remaining blood: R. Eliezer says the outer altar base, R. Shimon distinguishes inner-service blood from outer-service blood. The practical difference reflects deeper principles about where each service's blood 'belongs.'",
+        "coreMove": "The dispute turns on which is the service's conceptual home base: R. Eliezer follows the outer altar as the primary base for all leftover blood; R. Shimon argues that blood used inside ends at the inside base, so remaining inner blood goes to the golden altar's base.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Eliezer and R. Shimon dispute the destination of remaining blood: R. Eliezer sends all remaining blood to the outer altar base, while R. Shimon distinguishes inner-service blood (to the golden altar base) from outer-service blood (to the outer altar base)."
+        },
+        "learningBlocker": "Students may assume a single unified rule for all remaining blood; the Talmud's dispute reveals that the principle governing leftover blood destination depends on the conceptual locus of the service."
       },
       "argumentFlow": [
         {
@@ -144,7 +151,10 @@
         "Knowing the inner and outer services are distinguished by zone"
       ],
       "misconceptions": [
-        "Not all blood goes to the same base - R. Eliezer and R. Shimon dispute this"
+        {
+          "misconception": "All remaining blood from both the inner and outer services is always poured to the same single base with no distinction.",
+          "correction": "R. Eliezer and R. Shimon dispute whether inner-service blood must go to the golden altar base or can go to the outer altar base; the destination is not uniformly the same for all remaining blood."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -159,8 +169,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the dispute between R. Eliezer and R. Shimon about blood remainder?",
-          "answer": "R. Eliezer: inner service blood goes to the inner altar base, outer service blood to the outer altar base. R. Shimon: all blood remainders go to the outer altar's base."
+          "answer": "R. Eliezer: inner service blood goes to the inner altar base, outer service blood to the outer altar base. R. Shimon: all blood remainders go to the outer altar's base.",
+          "question": "What is the dispute between R. Eliezer and R. Shimon about blood remainder?"
         }
       ],
       "finalRuling": "R. Eliezer rules inner/outer blood remainders go to their respective altar bases; R. Shimon rules all go to the outer altar's western base.",
@@ -212,13 +222,20 @@
       ],
       "display": {
         "whats": "The HP's third confession over the scapegoat; sins transferred to Azazel",
-        "hint": "The HP places both hands on the scapegoat's head and recites the third and most comprehensive confession, transferring all of Israel's sins to the goat before it is sent to Azazel."
+        "hint": "The HP places both hands on the scapegoat's head and recites the third and most comprehensive confession, transferring all of Israel's sins to the goat before it is sent to Azazel.",
+        "title": "High Priest's Confession over the Scapegoat"
       },
       "learning": {
-        "summary": "The HP stands before the scapegoat (the live goat designated for Azazel after the lottery), places both hands on its head, and recites the confession: all of Israel's sins, transgressions, and rebellions are confessed and symbolically transferred to the goat. This is the third of three Yom Kippur confessions - the first two were for the HP's household and the priesthood. The designated person then leads the goat away to Azazel.",
         "ahaMoment": "The HP's hands on the scapegoat's head: a physical bridge between the nation's sins and their departure. What the mind alone cannot release, the ritual transfers.",
         "memoryAnchor": "Two hands, one goat, all of Israel: the HP's body becomes the conduit through which the nation's sins are symbolically dispatched.",
-        "openQuestion": "How is the third confession different from the first two in terms of who is being represented and what sins are confessed?"
+        "learnerQuestion": "When the High Priest confesses over the scapegoat, who is he confessing on behalf of, and what does the confession accomplish?",
+        "coreTension": "The scapegoat is sent to Azazel bearing 'all the sins of Israel'; the HP confesses over it in a way that transfers communal sin. But the mechanism of how verbal confession and a goat combine to achieve communal atonement is conceptually challenging.",
+        "coreMove": "The Talmud explains that the HP's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates and expresses the community's sins on behalf of all Israel, and the act of sending the goat away enacts their removal. The goat is the vehicle, the confession is the primary act.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The High Priest's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates Israel's sins, and the act of sending the goat away enacts their symbolic removal; the goat is the vehicle for communal expiation."
+        },
+        "learningBlocker": "Students may either be confused by the mechanism of 'transferring sins to a goat' or may assume the goat itself accomplishes something metaphysical; the Talmud treats the confession as the primary act and the goat as its vehicle."
       },
       "argumentFlow": [
         {
@@ -307,7 +324,10 @@
         "Knowing the scapegoat was designated by lot earlier in the service"
       ],
       "misconceptions": [
-        "The goat does not metaphysically absorb sins - the confession is a communal commitment to repentance expressed through ritual"
+        {
+          "misconception": "The goat metaphysically absorbs Israel's sins and physically carries them away - the goat itself is the independent agent of atonement.",
+          "correction": "The HP's verbal confession is the primary act of transfer; the goat is the vehicle for enacting what the confession expresses. The goat's departure symbolizes the removal of sins that the confession has already addressed."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -326,8 +346,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What makes the third confession over the scapegoat different from the first two?",
-          "answer": "The third covers all of Israel's sins, transgressions, and rebellions - it represents the entire nation. The first was for the HP and his household; the second was for the priesthood."
+          "answer": "The third covers all of Israel's sins, transgressions, and rebellions - it represents the entire nation. The first was for the HP and his household; the second was for the priesthood.",
+          "question": "What makes the third confession over the scapegoat different from the first two?"
         }
       ],
       "finalRuling": "The HP's third confession transfers all of Israel's sins to the scapegoat, which is then led by a designated person to Azazel in the wilderness.",
@@ -359,13 +379,20 @@
       ],
       "display": {
         "whats": "Ten relay stations on the Azazel route; news relayed back to HP during Torah reading",
-        "hint": "Ten stations were established along the route from Jerusalem to the Azazel cliff, providing support for the goat's guide and relaying news of the goat's arrival back to the HP while he reads the Torah."
+        "hint": "Ten stations were established along the route from Jerusalem to the Azazel cliff, providing support for the goat's guide and relaying news of the goat's arrival back to the HP while he reads the Torah.",
+        "title": "Ten Relay Stations for the Scapegoat's Guide"
       },
       "learning": {
-        "summary": "The Mishnah records that ten relay stations were set up between Jerusalem and the cliff (Tzuk) from which the scapegoat was pushed. At each station, the guide could receive food and drink (though traditionally declined as a sign of solidarity with the fasting city). More practically, a relay system transmitted news back: when the goat reached the cliff, word was sent back station by station until it reached Jerusalem. The HP received this news while in the middle of reading the Torah portion - he continued his service knowing the scapegoat had fulfilled its role.",
         "ahaMoment": "The relay system means the HP and the nation know the scapegoat has arrived while the day's service continues - the entire Yom Kippur is one synchronized event, inner and outer, city and wilderness.",
         "memoryAnchor": "Ten relay stations: the city reaches all the way to the wilderness to confirm what cannot be left to uncertainty.",
-        "openQuestion": "Why was it important for the HP to know the scapegoat had arrived before completing his own service?"
+        "learnerQuestion": "Why are there ten relay stations set up along the path from Jerusalem to the wilderness for the person leading the scapegoat?",
+        "coreTension": "The wilderness destination is far from Jerusalem; the guide who leads the scapegoat to Azazel needs support and rest along the way, but the specific number and spacing of stations must be explained.",
+        "coreMove": "The Talmud describes ten relay stations set up with food, drink, and escort so that the guide can complete the long journey without hardship; the stations are spaced at practical intervals along the route, ensuring the guide's welfare throughout the mission.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Ten relay stations were established along the route from Jerusalem to the wilderness to support the scapegoat's guide with food, drink, and escort, ensuring he could complete the journey and return safely."
+        },
+        "learningBlocker": "Students may focus on the scapegoat as the ritual subject and overlook the practical logistical system set up to support the human guide who led it; the ten-station system reflects care for the guide's wellbeing."
       },
       "argumentFlow": [
         {
@@ -425,7 +452,10 @@
         "Knowing the scapegoat must reach the cliff (not just leave the city)"
       ],
       "misconceptions": [
-        "The relay stations were for the guide's practical needs, not for the goat - the goat needed no assistance"
+        {
+          "misconception": "The ten relay stations were set up for the scapegoat's benefit - to ensure it traveled safely and comfortably to its destination.",
+          "correction": "The relay stations were for the human guide's practical needs - food, drink, and escort - not for the goat; the guide needed support to make the long journey to the wilderness and return."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -440,8 +470,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What was the purpose of the ten relay stations on the route to the Azazel cliff?",
-          "answer": "They provided support for the person leading the goat, and more importantly served as a relay system to transmit news of the goat's arrival back to Jerusalem - ultimately reaching the HP while he was still reading the Torah."
+          "answer": "They provided support for the person leading the goat, and more importantly served as a relay system to transmit news of the goat's arrival back to Jerusalem - ultimately reaching the HP while he was still reading the Torah.",
+          "question": "What was the purpose of the ten relay stations on the route to the Azazel cliff?"
         }
       ],
       "finalRuling": "Ten relay stations enable news of the scapegoat's arrival at the Azazel cliff to be relayed back to the HP during his Torah reading.",
