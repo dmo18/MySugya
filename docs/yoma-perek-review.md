@@ -24,9 +24,11 @@ needed to confirm or reject each finding before it was recorded here.
   backfill batches). The app does not render this field; deferred to a
   schema normalization pass.
 - 1 low-risk, unambiguous wording fix applied (21b/yoma-021b-s03).
-- 8 sugyot documented as requiring new authored content (crosswired or
-  near-duplicate aha/memory anchor content). Not fixed; each needs
-  judgment about what the correct content should say.
+- 8 sugyot were originally documented as requiring new authored content
+  (crosswired or near-duplicate aha/memory anchor content). All 8 are now
+  resolved in follow-up passes; see the per-perek entries below for each
+  fix and its commit/version. No non-Rashi Gemara-learning items remain
+  open from this review.
 - 1 sugya's internal contradiction, unresolvable from the local corpus
   alone, was resolved via external Mishnah/Gemara source review
   (45a/yoma-045a-s02).
@@ -35,6 +37,10 @@ needed to confirm or reject each finding before it was recorded here.
   removed from the issues list below.
 - One finding from the earlier pass (57b/yoma-057b-s01, "three bowls") was
   re-checked and confirmed accurate as written; no fix applied.
+- Rashi content-quality and nekudot audits are separate, not-yet-started
+  work; see `docs/rashi-audit-backlog.md`. This review covers only the
+  non-Rashi Gemara-learning scaffolding described above, and as of this
+  update has no remaining open items in that scope.
 
 ---
 
@@ -75,38 +81,43 @@ heaven vs. brought by a human; there is no mention of the menorah anywhere
 in this sugya's line range. Fixed: replaced "the eternal flame (ner tamid)"
 with "the eternal altar fire (eish tamid)" in the ahaMoment.
 
-**REQUIRES NEW CONTENT - 9b/yoma-009b-s02 and 9b/yoma-009b-s03
-(substantial content overlap):**
-Both sugyot cover the same aggadic passage (sinat chinam equals the three
-cardinal sins combined) with the same learnerQuestion core ("how can sinat
-chinam be equal to all three cardinal sins combined"), the same coreTension,
-coreMove, ahaMoment logic, and memoryAnchor structure, differing mainly in
-wording rather than in angle. (An earlier review pass described the two
-learnerQuestions as "word-for-word identical" - on re-checking, they are
-not word-for-word identical, s03's is a shorter subset of s02's wording, but
-the overlap across every other learning field is still substantial enough
-that a learner gets the same conceptual moment twice with no progression.)
-Titles differ ("First Temple: three cardinal sins..." vs. "Second Temple
-destroyed...") but the learning scaffolding does not differentiate the two.
-Status: one of the two sugyot needs a distinct ahaMoment and memoryAnchor
-that adds a genuinely new angle. Requires judgment about which angle to
-add; not applied.
+**RESOLVED - 9b/yoma-009b-s02 and 9b/yoma-009b-s03 (substantial content
+overlap, fixed VERSION 14.61, commit `538ade0`):**
+Both sugyot covered the same aggadic passage (sinat chinam equals the
+three cardinal sins combined) with substantially overlapping
+learnerQuestion, coreTension, coreMove, ahaMoment, and memoryAnchor -
+differing mainly in wording rather than in angle. Fixed by redirecting
+s02's learnerQuestion, coreTension, coreMove, takeaway.text, resolution,
+ahaMoment, learningBlocker, and memoryAnchor to s02's own argumentFlow (the
+First Temple's three cardinal sins and their individual scriptural
+proof-texts - the narrow-bed verse for idolatry, the daughters-of-Zion
+catalogue for immorality, the Manasseh verse for bloodshed), rather than
+restating s03's sinat chinam/hidden-sin content. s03 was left untouched
+throughout; it was already accurate to its own topic and never needed a
+fix. `takeaway.type` and `rashiTranslations` were not touched.
 
-**REQUIRES NEW CONTENT - 5a/yoma-005a-s02 (aha content mismatch):**
-The learnerQuestion, coreTension, coreMove, and takeaway all correctly focus
-on the sugya's actual open-ended stub: R. Yitzchak bar Bisna's derivation of
-R. Yochanan's "kachah" principle only covers requirements written in the
-inauguration passage itself, and the daf ends without resolving how
-requirements written elsewhere are included. The ahaMoment, however,
-pivots to the baraita's "michal mikol makom" combination rule (rivui/
-meshicha), which is genuinely part of this sugya's own shortSummary content
-(discussed earlier in the same sugya) but is not the specific unresolved-
-question angle that the learnerQuestion/coreTension/coreMove/takeaway are
-built around. This is a narrower problem than a straightforward crosswired
-paste from another sugya: the ahaMoment content belongs to this sugya, just
-not to the angle the rest of the learning fields commit to. Status: needs a
-new ahaMoment addressing the open-question character of the kachah scope
-limit. Requires judgment; not applied.
+**RESOLVED - 5a/yoma-005a-s02 (aha content mismatch, fixed 2026-07-01):**
+The learnerQuestion, coreTension, coreMove, resolution, takeaway, and
+learningBlocker all correctly focus on the sugya's actual open-ended stub:
+R. Yitzchak bar Bisna's derivation of R. Yochanan's "kachah" principle
+only covers requirements written in the inauguration passage itself, and
+the daf ends without resolving how requirements written elsewhere are
+included. The ahaMoment, however, pivoted to the baraita's "michal mikol
+makom" combination rule (rivui/meshicha) - genuinely part of this sugya's
+own content (argumentFlow steps 1-3), but not the specific unresolved-
+question angle (argumentFlow steps 4-6) that the rest of the learning
+fields commit to. memoryAnchor already covered both angles correctly and
+needed no change.
+
+Re-read against the sugya's own full argumentFlow (all 6 steps): steps
+1-3 are the rivui/meshicha combination rule the old ahaMoment described;
+steps 4-6 are R. Yitzchak bar Bisna's kachah derivation and its scope
+limit, ending in the open stub. This is locally resolvable - both angles
+are the sugya's own embedded content, so the fix only needed to redirect
+the ahaMoment to the same angle the rest of the fields already commit to,
+grounded in argumentFlow steps 4-6. Fixed: replaced ahaMoment only.
+takeaway.type, display fields, resolution, learningBlocker, memoryAnchor,
+argumentFlow, and rashiTranslations were all left untouched.
 
 **SCHEMA TYPE - 49 sugyot (2a-20b, non-canonical takeaway.type):**
 Listed in the schema normalization table at the end of this document. The
@@ -356,18 +367,18 @@ that closes the perek.
 
 ### Issues found
 
-**REQUIRES NEW CONTENT - 72b/yoma-072b-s03 (ahaMoment, memoryAnchor,
-display all copied from 72b/yoma-072b-s02):**
+**RESOLVED - 72b/yoma-072b-s03 (ahaMoment, memoryAnchor, display all
+copied from 72b/yoma-072b-s02, fixed VERSION 14.60, commit `cbb8a25`):**
 72b/yoma-072b-s03's title ("The Gate Without a Courtyard: When Torah Stays
-on the Outside"), learnerQuestion, coreTension, coreMove, and takeaway are
-all correctly about external Torah learning without internalization - a
-distinct topic from s02. However, this sugya's display.whats, display.hint,
-ahaMoment, and memoryAnchor are all identical, word for word, to
-72b/yoma-072b-s02's fields (the three-crowns sugya: "the crown of Torah is
-the only one that has no dynasty," "zar vs. zeir"). Confirmed by direct
-comparison of both sugyot's JSON. Status: needs a new display.whats,
-display.hint, ahaMoment, and memoryAnchor for the gate-without-a-courtyard
-concept. Requires judgment about what to write; not applied.
+on the Outside"), learnerQuestion, coreTension, coreMove, and takeaway
+were all already correctly about external Torah learning without
+internalization - a distinct topic from s02. But display.whats,
+display.hint, ahaMoment, and memoryAnchor were identical, word for word,
+to 72b/yoma-072b-s02's fields (the three-crowns sugya). Fixed by rewriting
+those four fields, grounded in this sugya's own argumentFlow (Rabbi
+Yannai's gate-without-a-courtyard parable and the ark-covered-within-and-
+without material), to match the angle the rest of the fields already
+committed to.
 
 ---
 
@@ -393,53 +404,47 @@ as an aggadic digression in its own titles.
 
 ### Issues found
 
-**REQUIRES NEW CONTENT - 73b/yoma-073b-s03 (ahaMoment and memoryAnchor
-copied from the Urim VeTummim sugyot):**
+**RESOLVED - 73b/yoma-073b-s03 (ahaMoment and memoryAnchor copied from the
+Urim VeTummim sugyot, fixed VERSION 14.60, commit `cbb8a25`):**
 This sugya's title ("The Five Afflictions of Yom Kippur..."), display.whats,
-learnerQuestion, coreTension, coreMove, and takeaway are all correctly
-about the five-fold derivation of afflictions from "ta'anu et
-nafshoteichem." The ahaMoment ("The Urim VeTummim was not a personal
-oracle - it was reserved for national decisions by the king") and
-memoryAnchor ("The Urim belongs to the king, not the individual...") are
-Urim VeTummim content belonging to 73b/yoma-073b-s02, immediately before
-it in the same daf file. Confirmed by direct comparison. Status: needs a
-new ahaMoment and memoryAnchor for the five-afflictions derivation.
-Requires judgment about what to write; not applied.
+learnerQuestion, coreTension, coreMove, and takeaway were all already
+correctly about the five-fold derivation of afflictions from "ta'anu et
+nafshoteichem." The ahaMoment and memoryAnchor were Urim VeTummim content
+belonging to 73b/yoma-073b-s02, immediately before it in the same daf
+file. Fixed by rewriting ahaMoment and memoryAnchor, grounded in this
+sugya's own coreMove, for the five-afflictions derivation.
 
-**REQUIRES NEW CONTENT - 74a/yoma-074a-s02 and 74a/yoma-074a-s03 (identical
-ahaMoment and memoryAnchor across two distinct sugyot):**
+**RESOLVED - 74a/yoma-074a-s02 and 74a/yoma-074a-s03 (identical ahaMoment
+and memoryAnchor across two distinct sugyot, fixed VERSION 14.61, commit
+`538ade0`):**
 The two sugyot have distinct titles, learnerQuestions, coreTensions, and
 coreMoves (s02 is the R. Yochanan/Reish Lakish biblical-vs-rabbinic chatzi
 shiur dispute; s03 is specifically what the Mishnah's word "forbidden"
-adds beyond the karet penalty). Their ahaMoment and memoryAnchor text is
-word-for-word identical between the two. Confirmed by corpus-wide exact-
-match search. Status: one of the two needs a distinct ahaMoment/
-memoryAnchor matching its own angle. Requires judgment; not applied.
+adds beyond the karet penalty). Their ahaMoment and memoryAnchor text was
+word-for-word identical between the two. Fixed by rewriting both sugyot's
+ahaMoment and memoryAnchor: s02's now reflects the scope-vs-level framing
+distinction its own argumentFlow makes; s03's now reflects the specific
+baraita-and-koy evidence its own argumentFlow brings.
 
-**REQUIRES NEW CONTENT - 74b/yoma-074b-s01 (ahaMoment and memoryAnchor
-belong to 74b/yoma-074b-s02, not this sugya):**
+**RESOLVED - 74b/yoma-074b-s01 (ahaMoment and memoryAnchor belonged to
+74b/yoma-074b-s02, fixed VERSION 14.60, commit `cbb8a25`):**
 74b/yoma-074b-s01's title, learnerQuestion, and coreTension are about
 whether temperature exposure counts as a Yom Kippur affliction. Its
-ahaMoment ("Yom Kippur affliction is about the act of eating itself...")
-and memoryAnchor ("Climbing the severity ladder: karet, death, lav, no
-prohibition...") are both about 74b/yoma-074b-s02's actual topic (the
-severity ladder for eating violations), and are word-for-word identical to
-s02's own ahaMoment and memoryAnchor. Confirmed by corpus-wide exact-match
-search and direct comparison. Status: needs a new ahaMoment/memoryAnchor
-about why temperature exposure does not count as active affliction.
-Requires judgment; not applied.
+ahaMoment and memoryAnchor were word-for-word identical to 74b/
+yoma-074b-s02's own fields (the severity ladder for eating violations, a
+different topic). Fixed by rewriting ahaMoment and memoryAnchor, grounded
+in this sugya's own coreMove, to explain why temperature exposure does not
+count as active affliction.
 
-**REQUIRES NEW CONTENT - 74b/yoma-074b-s04 (ahaMoment and memoryAnchor
-belong to 74b/yoma-074b-s03, not this sugya):**
+**RESOLVED - 74b/yoma-074b-s04 (ahaMoment and memoryAnchor belonged to
+74b/yoma-074b-s03, fixed VERSION 14.60, commit `cbb8a25`):**
 74b/yoma-074b-s04's title, learnerQuestion, and coreTension are about how
 visual engagement with food connects to the danger of "setting eyes on
-wine." Its ahaMoment ("The manna was food that came without natural hunger
-satisfaction...") and memoryAnchor ("Blind people eat but can't be
-satisfied...") are both s03's actual topic (the manna/blind-people
-derivation about eyes and satiation) and are word-for-word identical to
-s03's own fields. Confirmed by corpus-wide exact-match search and direct
-comparison. Status: needs a new ahaMoment/memoryAnchor about the wine
-danger. Requires judgment; not applied.
+wine." Its ahaMoment and memoryAnchor were word-for-word identical to
+74b/yoma-074b-s03's own fields (the manna/blind-people derivation about
+eyes and satiation, a different topic). Fixed by rewriting ahaMoment and
+memoryAnchor, grounded in this sugya's own coreMove, to explain the wine
+danger.
 
 ### Observations
 
@@ -463,15 +468,11 @@ danger. Requires judgment; not applied.
 
 ## Content errors requiring human review (new content authoring needed)
 
-| Sugya | Error | What is needed |
-|-------|-------|----------------|
-| 9b/yoma-009b-s02 and s03 | Substantial overlap in learnerQuestion, coreTension, coreMove, ahaMoment, memoryAnchor across two distinct sugyot | One sugya needs a distinct ahaMoment and memoryAnchor that adds a genuinely new angle |
-| 5a/yoma-005a-s02 | ahaMoment discusses the combination rule (part of this sugya's own content) instead of the open-question angle the rest of the fields commit to | New ahaMoment addressing the open-question character of the kachah scope limit |
-| 72b/yoma-072b-s03 | display.whats, display.hint, ahaMoment, and memoryAnchor are copied verbatim from 72b/yoma-072b-s02 (three crowns), not this sugya's gate-without-courtyard topic | New display.whats, display.hint, ahaMoment, and memoryAnchor |
-| 73b/yoma-073b-s03 | ahaMoment and memoryAnchor are Urim VeTummim content copied from 73b/yoma-073b-s02, not this sugya's five-afflictions topic | New ahaMoment and memoryAnchor for the five-afflictions derivation |
-| 74a/yoma-074a-s02 and s03 | ahaMoment and memoryAnchor are word-for-word identical across two sugyot with distinct topics | One sugya needs distinct ahaMoment/memoryAnchor |
-| 74b/yoma-074b-s01 | ahaMoment and memoryAnchor are word-for-word identical to s02's (severity ladder), not this sugya's temperature-exposure topic | New ahaMoment/memoryAnchor about temperature exposure not counting as affliction |
-| 74b/yoma-074b-s04 | ahaMoment and memoryAnchor are word-for-word identical to s03's (manna/blind people), not this sugya's wine-danger topic | New ahaMoment/memoryAnchor about the danger of setting eyes on wine |
+None remaining. All 8 sugyot originally listed in this table are resolved;
+see the "RESOLVED" entries in the per-perek sections above (9b/
+yoma-009b-s02, 72b/yoma-072b-s03, 73b/yoma-073b-s03, 74a/yoma-074a-s02 and
+s03, 74b/yoma-074b-s01, 74b/yoma-074b-s04) and `docs/yoma-completion-report.md`
+Phase 3 for the full fix record and commit/version citations.
 
 ## Content requiring source-text review before any fix (ambiguous)
 

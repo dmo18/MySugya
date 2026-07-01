@@ -20,20 +20,15 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.65: schema backfill is complete, the perek-level semantic
+As of VERSION 14.66: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
-complete, `takeaway.type` normalization is complete, and the 45a
-source-review issue is resolved (see `docs/yoma-completion-report.md` for
-the full phase-by-phase record). `validate:rashi:yoma` has passed
-throughout every one of those passes, confirming structural integrity was
-never disturbed.
+complete, `takeaway.type` normalization is complete, the 45a
+source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
+resolved (see `docs/yoma-completion-report.md` for the full
+phase-by-phase record). `validate:rashi:yoma` has passed throughout every
+one of those passes, confirming structural integrity was never disturbed.
 
-One non-Rashi Gemara-learning follow-up remains documented and open:
-5a/yoma-005a-s02 needs new authored content for its ahaMoment (a distinct
-category from the crosswire/scaffold fixes above - it requires judgment
-about what to write, not a mechanical field swap). See
-`docs/yoma-perek-review.md` and `docs/yoma-completion-report.md` for
-details.
+No non-Rashi Gemara-learning follow-ups remain documented as open.
 
 Rashi is the next planned area of work but has not started. No dedicated
 Rashi content-quality or nekudot audit pass has been run against any

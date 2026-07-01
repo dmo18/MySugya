@@ -1,7 +1,7 @@
 # Yoma Completion Report
 
 Factual record of the Yoma schema-completeness and content-quality work
-completed between VERSION 14.43 and VERSION 14.64. This is the concrete
+completed between VERSION 14.43 and VERSION 14.66. This is the concrete
 worked example behind `docs/tractate-build-process.md` - read that
 document for the generalized, reusable procedure; read this one for what
 actually happened, in what order, with what results, so the next tractate
@@ -104,14 +104,13 @@ content - was folded into the same redo and committed together in
 All fixes in Phase 3 were grounded strictly in each sugya's own
 `argumentFlow`; no new Gemara claims were introduced.
 
-**5a/yoma-005a-s02 and 9b/yoma-009b-s03 remain open.** 5a/s02's ahaMoment
-is a genuine near-duplicate issue (part of the sugya's own content, but
-addressing a different angle than the rest of the sugya's fields commit
-to) requiring new authored content, not a mechanical swap. 9b/s03 was
-left untouched throughout (it was already accurate; 9b/s02 was the side
-that needed fixing). Neither has been revisited since Phase 3; both
-remain listed in `docs/yoma-perek-review.md` under "Content errors
-requiring human review."
+**9b/yoma-009b-s03 required no fix.** It was left untouched throughout;
+it was already accurate, and 9b/s02 was the side that needed fixing (see
+above).
+
+**5a/yoma-005a-s02 was resolved in a follow-up pass (Phase 6 below),**
+not left open as originally expected in Phase 3 - see Phase 6 for what
+changed.
 
 ---
 
@@ -173,16 +172,45 @@ before any fix" table is now empty.
 
 ---
 
-## Cumulative state at VERSION 14.64
+## Phase 6: 5a/yoma-005a-s02 resolution
+
+**Goal:** revisit 5a/yoma-005a-s02, the one item Phase 3 left open as
+"requires new authored content" (its ahaMoment addressed the sugya's own
+rivui/meshicha combination-rule content, argumentFlow steps 1-3, instead
+of the open-question kachah-scope-limit angle, argumentFlow steps 4-6,
+that the rest of the sugya's fields - learnerQuestion, coreTension,
+coreMove, resolution, takeaway, learningBlocker - all commit to).
+
+**Process:** re-read the sugya's full `argumentFlow` (all 6 steps) rather
+than relying on the earlier characterization. Confirmed both angles
+(the combination rule and the kachah-scope stub) are genuinely the
+sugya's own content, just from different steps of the same passage - not
+a crosswire from a different sugya, and not a genuine textual
+contradiction requiring external source review like 45a's. `memoryAnchor`
+was checked and found to already cover both angles correctly, ending on
+the stub angle that matches the rest of the fields - no change needed
+there.
+
+**Result:** VERSION 14.66. Rewrote only `ahaMoment`,
+grounding it in argumentFlow steps 4-6 (R. Yitzchak bar Bisna's kachah
+derivation and its scope limit), matching the angle every other learning
+field already committed to. `takeaway.type`, all display fields,
+`resolution`, `learningBlocker`, `memoryAnchor`, `argumentFlow`, and
+`rashiTranslations` were left untouched. This closes the last item from
+Phase 3's "requires new authored content" list that had not yet been
+revisited (9b/yoma-009b-s03 was never actually broken; see Phase 3).
+
+---
+
+## Cumulative state at VERSION 14.66
 
 - 492/492 sugyot schema-complete.
 - 0 non-canonical `takeaway.type` values.
 - 1 confirmed, resolved internal source-text contradiction (45a/s02).
-- Of the 7 crosswire/near-duplicate findings recorded in Phase 2, 6 are
-  resolved (72b/s03, 73b/s03, 74a/s02 and s03, 74b/s01, 74b/s04, and the
-  9b/s02-s03 near-duplicate pairing via redirecting s02 to its own
-  content). 1 remains open: 5a/yoma-005a-s02, which needs new authored
-  content rather than a mechanical fix.
+- All 7 crosswire/near-duplicate findings recorded in Phase 2 are now
+  resolved: 72b/s03, 73b/s03, 74a/s02 and s03, 74b/s01, 74b/s04, and the
+  9b/s02-s03 near-duplicate pairing were resolved in Phase 3; 5a/s02 was
+  resolved in Phase 6.
 - All Yoma source-text validators (`validate:yoma`, `validate:en:yoma`,
   `validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
   `audit:order:yoma`) green.
@@ -192,9 +220,6 @@ before any fix" table is now empty.
 
 ## What is not yet done
 
-- **5a/yoma-005a-s02**: ahaMoment needs new authored content addressing
-  the open-question character of the kachah scope limit. Requires
-  judgment about what to write; documented, not fixed.
 - **Rashi content-quality and nekudot audit**: structural integrity
   (`validate:rashi:yoma`) has passed throughout, but no dedicated pass has
   checked Rashi translation quality or Hebrew vowelization correctness.
@@ -202,7 +227,7 @@ before any fix" table is now empty.
   not started.
 - `modules/yoma/MODULE.md` still states "FROZEN at v10.75" and "Do not
   modify any learning content" - both are now stale relative to the
-  actual corpus state (VERSION 14.64, substantial approved content work
+  actual corpus state (VERSION 14.66, substantial approved content work
   completed since). This report does not update `MODULE.md`; that is a
   separate, explicit follow-up decision for a maintainer, since the
   freeze declaration and its version number are a deliberate project
