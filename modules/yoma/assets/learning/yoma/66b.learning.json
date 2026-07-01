@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "The Azazel guide is designated the day before; digression on the word 'appointed'",
-        "hint": "The Mishnah specifies that the guide for the Azazel goat is designated the day before Yom Kippur. The Gemara uses the word 'appointed' as a bridge to a broader discussion."
+        "hint": "The Mishnah specifies that the guide for the Azazel goat is designated the day before Yom Kippur. The Gemara uses the word 'appointed' as a bridge to a broader discussion.",
+        "title": "Designating the Guide in Advance: Precision Extends to Every Role"
       },
       "learning": {
-        "summary": "The Mishnah teaches that the guide who will lead the Azazel goat is designated the day before Yom Kippur - advance preparation mirrors the HP's own preparation. The Gemara explores the word 'mu'ad' (appointed/designated) and its various appearances in halachic contexts, using the shared vocabulary to connect related discussions.",
         "ahaMoment": "The guide's advance designation parallels the HP's seven-day preparation: even the guide role requires preparation, not improvisation. The service's precision extends to every participant.",
         "memoryAnchor": "Even the guide is prepared in advance - Yom Kippur's precision extends to every participant, not just the HP.",
-        "openQuestion": "Why is it important to designate the guide the day before rather than on the day itself?"
+        "learnerQuestion": "Why must the guide for the Azazel goat be designated the day before Yom Kippur rather than on the day itself?",
+        "coreTension": "Many Yom Kippur roles are assigned on the day. Why does the guide need advance designation? Is this a formal requirement or merely practical preparation?",
+        "coreMove": "Advance designation ensures the guide is mentally and ritually prepared. The Mishnah treats this as a formal halachic requirement, not just practical planning. Just as the HP underwent seven days of preparation, even the guide's role cannot be improvised on the day.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The guide must be formally designated the day before Yom Kippur - advance preparation is required even for supporting roles, not just the HP."
+        },
+        "learningBlocker": "Students may assume advance designation is just practical planning. But the Mishnah presents it as a formal halachic requirement - the guide designation must happen before Yom Kippur begins, not on the morning."
       },
       "argumentFlow": [
         {
@@ -136,7 +143,10 @@
         "Understanding that all service roles require preparation"
       ],
       "misconceptions": [
-        "The guide designation is not optional - it must be done the day before, not on the day"
+        {
+          "misconception": "The guide can be assigned on the morning of Yom Kippur like other service assistants",
+          "correction": "The guide designation is not optional - it must be done the day before, not on the day. Even this supporting role requires formal advance designation as a matter of halachic requirement."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -151,8 +161,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "When is the guide for the Azazel goat designated?",
-          "answer": "The day before Yom Kippur. Advance designation ensures preparation; even the guide's role cannot be improvised on the day."
+          "answer": "The day before Yom Kippur. Advance designation ensures preparation; even the guide's role cannot be improvised on the day.",
+          "question": "When is the guide for the Azazel goat designated?"
         }
       ],
       "finalRuling": "The Azazel guide is designated the day before Yom Kippur, reflecting the principle that every role in the Yom Kippur service requires advance preparation.",
@@ -229,13 +239,20 @@
       ],
       "display": {
         "whats": "Students asked their teacher: a record of dialogic halachic transmission about Yom Kippur law",
-        "hint": "The Gemara records a teaching dialogue: students asked their teacher about certain Yom Kippur matters, and the questions and answers together reveal the depth of halachic reasoning and the tradition of dialogic transmission."
+        "hint": "The Gemara records a teaching dialogue: students asked their teacher about certain Yom Kippur matters, and the questions and answers together reveal the depth of halachic reasoning and the tradition of dialogic transmission.",
+        "title": "The Question as Torah: Why Student-Teacher Dialogues Are Preserved"
       },
       "learning": {
-        "summary": "The Gemara records a series of questions students asked their teacher about matters arising from the Yom Kippur service. The exchange illustrates how halachic knowledge was transmitted through dialogue: the teacher's initial answer prompts further questions, each clarifying or extending the principle. The recorded dialogue preserves both the legal conclusion and the reasoning process. This dialogic method is characteristic of Talmudic pedagogy.",
         "ahaMoment": "The Talmud values the question as much as the answer. The students' questions advance the discussion and are preserved alongside the teacher's answers - both are Torah.",
         "memoryAnchor": "Students asking, teacher answering: the dialogue is preserved because the questions were as important as the answers.",
-        "openQuestion": "What makes a student's question worthy of preservation in the Talmud alongside the teacher's answer?"
+        "learnerQuestion": "What does it mean that the Talmud preserves students' questions alongside the teacher's answers, and why are these dialogues considered Torah?",
+        "coreTension": "The Talmud typically records rulings and reasoning. Why preserve the dialogue itself - the question and the back-and-forth? Are student questions just historical curiosity, or do they carry halachic weight?",
+        "coreMove": "The Talmud values the question as much as the answer. The dialogue is the vehicle of Torah transmission - understanding what was puzzling, and why, is part of the learning itself. Preserved questions show what needed clarification, which shapes how we understand the ruling.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The preserved student-teacher dialogue teaches that asking is an act of Torah learning, not a display of ignorance. The question illuminates the ruling."
+        },
+        "learningBlocker": "Students may read preserved dialogues as incidental. But the Talmud's choice to record both question and answer signals that the process of questioning is itself part of the transmitted Torah."
       },
       "argumentFlow": [
         {
@@ -335,7 +352,10 @@
         "Knowing that both questions and answers are part of Torah"
       ],
       "misconceptions": [
-        "The student's question is not a failure to know - it is an act of Torah learning"
+        {
+          "misconception": "A student's recorded question shows a gap in their knowledge - these dialogues are just historical background to the ruling",
+          "correction": "The student's question is not a failure to know - it is an act of Torah learning. The Talmud preserves these dialogues because the question illuminates the ruling and the dialogue is itself part of Torah transmission."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -350,8 +370,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the Talmud's preservation of student-teacher dialogues reveal about how halachic knowledge was transmitted?",
-          "answer": "The Talmud values the question as much as the answer. Both are preserved because the dialogue - the process of questioning and responding - is itself the Torah transmission. Understanding the reasoning, not just the conclusion, is the goal."
+          "answer": "The Talmud values the question as much as the answer. Both are preserved because the dialogue - the process of questioning and responding - is itself the Torah transmission. Understanding the reasoning, not just the conclusion, is the goal.",
+          "question": "What does the Talmud's preservation of student-teacher dialogues reveal about how halachic knowledge was transmitted?"
         }
       ],
       "finalRuling": "The Talmud preserves teacher-student dialogues because the questions advance halachic understanding as much as the answers; dialogue is the mode of Torah transmission.",
@@ -383,13 +403,20 @@
       ],
       "display": {
         "whats": "The five afflictions of Yom Kippur; their connection to bodily expression of repentance",
-        "hint": "The Mishnah lists the five afflictions prohibited on Yom Kippur - eating/drinking, bathing, anointing, sandals, marital relations. These afflictions engage the body in the work of repentance."
+        "hint": "The Mishnah lists the five afflictions prohibited on Yom Kippur - eating/drinking, bathing, anointing, sandals, marital relations. These afflictions engage the body in the work of repentance.",
+        "title": "Five Afflictions: The Body Joins the Soul in Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishnah lists the five afflictions (inuyim) that Yom Kippur prohibits: eating and drinking, bathing, anointing, wearing sandals, and marital relations. These five denials engage the body in the work of repentance - the physical self expresses through denial what the spiritual self expresses through prayer. The Gemara notes various correspondences with other sets of five in the Yom Kippur service.",
         "ahaMoment": "The five afflictions make Yom Kippur a full-body experience: the soul repents and the body participates through denial. Neither alone is sufficient for the full Yom Kippur experience.",
         "memoryAnchor": "Five denials: the body joins the soul in Yom Kippur's work - through what it gives up, not just through what it says.",
-        "openQuestion": "Why do the five specific afflictions (eating, bathing, anointing, sandals, marital relations) represent the complete physical expression of Yom Kippur?"
+        "learnerQuestion": "What are the five Yom Kippur afflictions and why do these five specifically constitute the day's unique bodily observance?",
+        "coreTension": "Why these five physical restraints and not others? And what unifies them into a single concept rather than five separate prohibitions?",
+        "coreMove": "The five afflictions engage the whole person in Yom Kippur: nourishment, cleanliness, comfort, protection, and intimacy are all suspended. The soul's repentance is mirrored by bodily deprivation - each deprivation addresses a different dimension of physical comfort, making the body a full participant alongside the soul.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The five afflictions are not general asceticism - they are a structured engagement of the entire person, body and soul, in Yom Kippur's atonement. Each targets a distinct dimension of physical comfort."
+        },
+        "learningBlocker": "Students may treat the five as an arbitrary list. The Mishnah's logic is that together these five cover the full range of bodily comfort - they constitute total bodily participation in the day's atonement."
       },
       "argumentFlow": [
         {
@@ -446,7 +473,10 @@
         "Understanding why physical denial expresses spiritual repentance"
       ],
       "misconceptions": [
-        "The five afflictions are Yom Kippur-specific - they are not general ascetic practices but specifically linked to the day's atonement"
+        {
+          "misconception": "The five Yom Kippur afflictions are general ascetic practices similar to other Jewish fast days",
+          "correction": "The five afflictions are Yom Kippur-specific - they are not general ascetic practices but specifically linked to the day's atonement. Each of the five targets a different dimension of physical comfort, making Yom Kippur a full-body experience."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -461,8 +491,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What are the five afflictions prohibited on Yom Kippur and what purpose do they serve?",
-          "answer": "Eating/drinking, bathing, anointing, wearing sandals, and marital relations. They engage the body in the work of repentance alongside the soul's prayer - the full person, body and soul, observes Yom Kippur."
+          "answer": "Eating/drinking, bathing, anointing, wearing sandals, and marital relations. They engage the body in the work of repentance alongside the soul's prayer - the full person, body and soul, observes Yom Kippur.",
+          "question": "What are the five afflictions prohibited on Yom Kippur and what purpose do they serve?"
         }
       ],
       "finalRuling": "The five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) engage the body in repentance alongside the soul's prayer.",
@@ -489,13 +519,20 @@
       ],
       "display": {
         "whats": "Hakhel: the king reads Torah once every seven years; parallel to the Yom Kippur Torah reading",
-        "hint": "The Mishnah mentions Hakhel - the once-every-seven-years gathering when the king reads Torah to all Israel - drawing a parallel to the Yom Kippur Torah reading."
+        "hint": "The Mishnah mentions Hakhel - the once-every-seven-years gathering when the king reads Torah to all Israel - drawing a parallel to the Yom Kippur Torah reading.",
+        "title": "Two Rhythms of Covenant Renewal: Yom Kippur and Hakhel"
       },
       "learning": {
-        "summary": "The Gemara mentions Hakhel, the once-every-seven-years public Torah reading commanded in Deuteronomy 31. Every seven years after Shemita, the king reads the Torah to all assembled Israel. This is connected to the Yom Kippur Torah reading: both are moments of public, communal covenant renewal through the reading of Torah. The Yom Kippur reading is annual; Hakhel is septennial. Together they frame the Jewish people's regular renewal of the covenantal relationship through public Torah reading.",
         "ahaMoment": "Two public Torah readings: Yom Kippur every year, Hakhel every seven years - both are covenant renewal events, marking different rhythms of the people's relationship with the Torah.",
         "memoryAnchor": "Two renewal rhythms: annual (Yom Kippur) and septennial (Hakhel) - both using public Torah reading to renew the covenant.",
-        "openQuestion": "What do Yom Kippur and Hakhel have in common beyond the Torah reading? What makes them both moments of covenant renewal?"
+        "learnerQuestion": "What is Hakhel, and how does the Gemara connect it to the Yom Kippur Torah reading?",
+        "coreTension": "Hakhel is septennial (every seven years); Yom Kippur is annual. Both involve public Torah reading. Are they the same category of event, or is the comparison merely structural?",
+        "coreMove": "Both Yom Kippur and Hakhel use public Torah reading as covenant renewal - Yom Kippur annually (HP reads), Hakhel every seven years (the king reads). They share the structure of a national assembly hearing Torah as an act of communal renewal, though led by different officials at different intervals.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Yom Kippur and Hakhel share the structure of public Torah reading as covenant renewal - one annual, one septennial, one led by the HP, one by the Davidic king."
+        },
+        "learningBlocker": "Students may see these as simply two occasions where Torah is read publicly. The deeper connection is that both are acts of communal covenant renewal, using public Torah reading to bind Israel to its obligations."
       },
       "argumentFlow": [
         {
@@ -540,7 +577,10 @@
         "Understanding the function of public Torah reading in covenant renewal"
       ],
       "misconceptions": [
-        "Hakhel requires the king to read - not any leader, specifically the king"
+        {
+          "misconception": "Any civic or religious leader of sufficient standing can conduct the Hakhel Torah reading",
+          "correction": "Hakhel requires the Davidic king to read - not any leader, specifically the king. This is a key structural difference from the Yom Kippur reading conducted by the HP."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -555,8 +595,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is Hakhel and how does it relate to the Yom Kippur Torah reading?",
-          "answer": "Hakhel is the once-every-seven-years gathering where the king reads Torah to all Israel, commanded in Deuteronomy 31. Both Yom Kippur and Hakhel use public Torah reading as a form of covenant renewal - one annually, the other every seven years."
+          "answer": "Hakhel is the once-every-seven-years gathering where the king reads Torah to all Israel, commanded in Deuteronomy 31. Both Yom Kippur and Hakhel use public Torah reading as a form of covenant renewal - one annually, the other every seven years.",
+          "question": "What is Hakhel and how does it relate to the Yom Kippur Torah reading?"
         }
       ],
       "finalRuling": "Hakhel (septennial public Torah reading) parallels the annual Yom Kippur Torah reading: both are moments of covenant renewal through public Torah.",

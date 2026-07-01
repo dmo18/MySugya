@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Where exactly is the burning place? North of Jerusalem. A dispute about whether the site must first have ash from the altar placed there. Also a dispute about whether tum'ah begins when the burner makes it charred or only when it is fully ash.",
-        "hint": "Why would Rabbi Eliezer b. Yaakov require ash to be placed at the burning site before the bull and goat arrive?"
+        "hint": "Why would Rabbi Eliezer b. Yaakov require ash to be placed at the burning site before the bull and goat arrive?",
+        "title": "The Ash-Pit Requirement: Not Just Location, but Designation"
       },
       "learning": {
-        "summary": "The burning of the Yom Kippur bull and goat takes place to the north of Jerusalem, at the ash-pit (beit ha-deshen). Rabbi Eliezer b. Yaakov requires that altar ash be brought there first so the location is designated. There is also a dispute about when the burning handlers become tamei: the first Tanna says only when the carcasses become ash; Rabbi Eliezer b. Rabbi Shimon says even charred flesh causes tum'ah.",
         "ahaMoment": "The 'beit ha-deshen' requirement is not just geographic - it must be a recognized place associated with altar ash. Rabbi Eliezer b. Yaakov adds that you must actively designate it by bringing altar ash there first, making it a real 'ash place' before the Yom Kippur burning.",
         "memoryAnchor": "North of Jerusalem, ash-pit first - two requirements for the burning site. Tum'ah debate: ash vs charred.",
-        "openQuestion": "Why is there no equivalent requirement to designate the parah adumah burning site with altar ash?"
+        "learnerQuestion": "What makes a valid burning site for the Yom Kippur bull and goat beyond simply being north of Jerusalem?",
+        "coreTension": "The burning must be north of Jerusalem - but is any northern location sufficient? Or must the site itself be specifically prepared or designated as a recognized burning site?",
+        "coreMove": "The site must qualify as 'beit ha-deshen' - a recognized ash-pit. Rabbi Eliezer b. Yaakov adds that altar ash must be brought to the site first to designate it, and the site must be sloped so ashes flow down. Location alone is insufficient - the site must be properly constituted as a designated ash-pit.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The burning site requires both geographic placement (north of Jerusalem) and specific designation as an ash-pit. Location without designation is insufficient."
+        },
+        "learningBlocker": "Students may read 'north of Jerusalem' as the complete requirement. The beit ha-deshen clause adds a second dimension: the site must be a recognized, designated spot - not merely a place that happens to be north."
       },
       "argumentFlow": [
         {
@@ -274,13 +281,20 @@
       ],
       "display": {
         "whats": "Mishnah Ch. 7: The HP cannot begin burning the eimurim until news arrives that the goat has reached the wilderness. Relay men stood from Jerusalem to the cliff waving cloths to signal the goat's arrival. Then the HP came to read the Torah portion - either in his linen vestments or in his own white garments - with the scroll handed to him by the chazan.",
-        "hint": "Why was the HP prohibited from beginning the next part of the service before the Azazel goat reached the wilderness?"
+        "hint": "Why was the HP prohibited from beginning the next part of the service before the Azazel goat reached the wilderness?",
+        "title": "The Signal Chain: Waiting for Wilderness Confirmation"
       },
       "learning": {
-        "summary": "Mishnah: The elders told the HP he could not begin the next service until the goat reached the wilderness (derived from Lev. 16 - first the sending, then the burning of fats). A relay system of signal-wavers stood from Jerusalem to the cliff. Once word came, the HP came to read the Torah portion. He could read in either his white linen vestments or his own (non-priestly) white garment. The synagogue chazan handed him the Torah scroll. He read Leviticus 16 and then Leviticus 23, followed by eight blessings.",
         "ahaMoment": "The relay signal system - people standing in a chain from Jerusalem to the cliff waving cloths - was real-time telecommunications in the ancient world, ensuring the HP could not proceed until the goat was definitively dispatched.",
         "memoryAnchor": "Signal wavers from Jerusalem to the cliff - the 'text message' of its time telling the HP the Azazel goat arrived.",
-        "openQuestion": "Why was the HP permitted to use his own personal white garments for the Torah reading rather than requiring the official priestly vestments?"
+        "learnerQuestion": "How did the HP know when to proceed to the Torah reading, and why did he need to wait for a signal before continuing?",
+        "coreTension": "The HP has many remaining services after the Azazel dispatch. Why must he wait for confirmation before proceeding? Can't he simply continue while the goat is en route?",
+        "coreMove": "The HP waited for confirmation that the goat had actually reached the wilderness - signaled by a relay chain of men waving cloths from Jerusalem to the cliff. Only after the wilderness signal reached Jerusalem could the HP proceed to the Torah reading and the burning of the fats.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Torah reading and subsequent services could not begin until the HP received wilderness confirmation via the relay signal chain - the Azazel service had to be fully confirmed complete before the next phase."
+        },
+        "learningBlocker": "Students may assume the sequence of services is strictly time-based. The signal dependency shows that certain services have prerequisite completions - the Azazel dispatch must be confirmed complete before the next phase begins."
       },
       "argumentFlow": [
         {

@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "When a replacement sin-offering is designated and then the original reappears: the original must die",
-        "hint": "If a designated sin-offering is lost, a replacement is brought. If the original then reappears, the original must be left to die - it cannot serve since the replacement already fulfilled its purpose."
+        "hint": "If a designated sin-offering is lost, a replacement is brought. If the original then reappears, the original must be left to die - it cannot serve since the replacement already fulfilled its purpose.",
+        "title": "The Stranded Original: When Replacement Seals the Outcome"
       },
       "learning": {
-        "summary": "The Gemara establishes a baseline ruling agreed upon by all: if the designated Yom Kippur sin-offering is lost and a replacement is designated, then the original reappears - the original cannot now serve. Two consecrated animals exist for one role, and since the replacement fulfilled the purpose, the original is left to die (it cannot be sacrificed but must expire on its own). This ruling is the shared premise for the subsequent dispute.",
         "ahaMoment": "Once a replacement is designated, the original sin-offering is in limbo: too holy to be released back into ordinary use, but no longer needed for its original purpose. It must die because it has no other legitimate use.",
         "memoryAnchor": "Two animals, one role: when the replacement fills the purpose, the original is left in sacred limbo until it dies.",
-        "openQuestion": "Why can't the original be used for another sacrifice or sold? Why must it specifically die?"
+        "learnerQuestion": "If a Yom Kippur sin-offering was lost, replaced, and then the original reappears, what happens to each animal?",
+        "coreTension": "The original animal is still consecrated and technically valid - yet its ritual purpose has been fulfilled by the replacement. Can it serve another role, or is it permanently stranded?",
+        "coreMove": "The Gemara rules the original is left to die. The replacement already fulfilled the Yom Kippur purpose, so the original cannot serve as a sin-offering again. Yet it remains consecrated and cannot be sold. It is a holy animal with no remaining outlet.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A consecrated animal whose designated purpose was fulfilled by a replacement is left to die - it cannot serve (purpose gone) and cannot be sold (still sacred)."
+        },
+        "learningBlocker": "Students assume that because the original is still valid and holy it must have some use. The key is the irreversibility of the purpose transfer: once the replacement fulfilled the specific Yom Kippur role, the original's sacred role is permanently vacated."
       },
       "argumentFlow": [
         {
@@ -127,7 +134,10 @@
         "Understanding why a consecrated animal cannot simply be released or sold"
       ],
       "misconceptions": [
-        "The original is not invalid - it is still holy. But its purpose has been filled by the replacement"
+        {
+          "misconception": "The original animal, still being holy and technically valid, can be used for another sacrifice or redeemed",
+          "correction": "The original is not invalid - it is still holy. But its purpose has been filled by the replacement. It cannot serve (its role is taken) and cannot be sold (still consecrated). So it is left to die."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -142,8 +152,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens when a sin-offering that was lost and replaced then reappears?",
-          "answer": "The original is left to die - it cannot serve since the replacement already fulfilled the Yom Kippur sin-offering purpose. It is still consecrated and cannot be released, but has no remaining role."
+          "answer": "The original is left to die - it cannot serve since the replacement already fulfilled the Yom Kippur sin-offering purpose. It is still consecrated and cannot be released, but has no remaining role.",
+          "question": "What happens when a sin-offering that was lost and replaced then reappears?"
         }
       ],
       "finalRuling": "When the original sin-offering reappears after a replacement was designated and used, the original is left to die - its purpose is filled and it has no remaining role.",
@@ -205,13 +215,20 @@
       ],
       "display": {
         "whats": "R. Yehuda: the lottery designates the Yom Kippur goats; it is the act that makes them the Yom Kippur offering",
-        "hint": "R. Yehuda teaches that the lottery is the essential designating act for the Yom Kippur goats - not just a procedure but the very act that transforms a valid goat into the Yom Kippur offering. Without the lottery, no goat can serve as the Yom Kippur offering."
+        "hint": "R. Yehuda teaches that the lottery is the essential designating act for the Yom Kippur goats - not just a procedure but the very act that transforms a valid goat into the Yom Kippur offering. Without the lottery, no goat can serve as the Yom Kippur offering.",
+        "title": "The Lottery as Divine Designation, Not Random Selection"
       },
       "learning": {
-        "summary": "R. Yehuda adds to the baseline discussion: what happens when the HP has two valid goats at the time of service (original + replacement)? The lottery must be performed on the pair, and the lottery's outcome determines which goat serves. Without the lottery, even a perfectly valid goat cannot serve as the Yom Kippur offering. The lottery is not a procedure to determine which of two equal options wins - it is the theological act that creates the Yom Kippur offering status. The Gemara also explores the distinction between individual and communal sin-offerings and how replacement rules differ.",
         "ahaMoment": "The lottery is not a randomizer but a divine designator. What appears as a chance mechanism reveals divine choice: God determines which animal becomes the Yom Kippur offering by determining the lot's outcome.",
         "memoryAnchor": "The lottery as divine determination: what looks random reveals which goat God chose for His service.",
-        "openQuestion": "Why must the lottery be performed even when both goats are identical and either would be equally valid?"
+        "learnerQuestion": "Why must the lottery always be performed for the Yom Kippur goats, even when both are identical and either could serve?",
+        "coreTension": "If both goats are identical and interchangeable, the lottery seems pointless. Yet R. Yehuda insists it is indispensable. Is the lottery a legal formality or something more essential?",
+        "coreMove": "R. Yehuda holds the lottery is not a selection mechanism but a designating act. Without the lottery, no goat acquires the status of 'Yom Kippur offering.' The lottery is divine designation that creates the halachic role - however valid the animal, without the lottery it has no status.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The lottery is not mere randomization - it is the essential act that designates which goat serves God and which serves Azazel. Without it, neither goat has its Yom Kippur status."
+        },
+        "learningBlocker": "Learners may see the lottery as logistical selection and assume that when both animals qualify, it could be skipped. R. Yehuda teaches that the lottery is constitutive - it does not reveal which goat to use; it creates the goat's legal identity."
       },
       "argumentFlow": [
         {
@@ -312,7 +329,10 @@
         "Understanding the difference between communal and individual offerings"
       ],
       "misconceptions": [
-        "The lottery doesn't choose randomly - it reveals divine determination of which goat serves"
+        {
+          "misconception": "The lottery is just a fair selection mechanism and can be skipped when both goats are identical and interchangeable",
+          "correction": "The lottery does not choose randomly - it reveals and creates divine determination. Without the lottery, neither goat has its Yom Kippur designation, regardless of physical similarity."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -327,8 +347,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "According to R. Yehuda, why must the lottery always be performed for the Yom Kippur goats even when both are valid?",
-          "answer": "The lottery is the essential designating act that creates the Yom Kippur offering status. Without the lottery, no goat - however valid - can serve as the Yom Kippur offering. The lottery is divine designation, not mere selection."
+          "answer": "The lottery is the essential designating act that creates the Yom Kippur offering status. Without the lottery, no goat - however valid - can serve as the Yom Kippur offering. The lottery is divine designation, not mere selection.",
+          "question": "According to R. Yehuda, why must the lottery always be performed for the Yom Kippur goats even when both are valid?"
         }
       ],
       "finalRuling": "R. Yehuda: the lottery is the essential designating act for the Yom Kippur goats; it is not a procedure but the theological act that makes a goat into the Yom Kippur offering.",

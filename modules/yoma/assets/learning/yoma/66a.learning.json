@@ -60,13 +60,20 @@
       ],
       "display": {
         "whats": "Leap year extension in contracts; then: HP approaches the Azazel goat for the third confession",
-        "hint": "The Gemara briefly addresses leap year contract law, then returns to the Yom Kippur service: the HP approaches the Azazel goat, places both hands on its head, and recites the third confession transferring all Israel's sins."
+        "hint": "The Gemara briefly addresses leap year contract law, then returns to the Yom Kippur service: the HP approaches the Azazel goat, places both hands on its head, and recites the third confession transferring all Israel's sins.",
+        "title": "Two Hands, All of Israel: The Third Confession"
       },
       "learning": {
-        "summary": "The Gemara addresses a tangential topic (leap year contract rules: when a year is extended, contract dates are interpreted generously for the later party), then returns to the Yom Kippur service. The Mishnah describes the HP approaching the Azazel goat at the Temple gate, placing both hands on its head, and reciting the comprehensive third confession. All of Israel's sins are verbally transferred to the goat through the confession and physically through the hand-laying.",
         "ahaMoment": "The HP's hands on the scapegoat's head: this moment bridges the inner service (blood in the Holy of Holies) and the outer service (scapegoat in the wilderness). The HP himself is the bridge - his hands connect the sanctuary to the wilderness.",
         "memoryAnchor": "Two hands, one goat, all of Israel: the HP's body is the bridge between the most sacred space and the most desolate place.",
-        "openQuestion": "What is the relationship between the leap year discussion and the Yom Kippur service on this page?"
+        "learnerQuestion": "What is the HP's physical role in the Azazel service, and what does placing both hands on the goat's head accomplish?",
+        "coreTension": "The HP has already confessed twice - once for himself and once for the kohanim. Now he approaches the Azazel goat for a third confession. Why a third confession, and why both hands specifically?",
+        "coreMove": "The HP places both hands on the Azazel goat's head and recites a third comprehensive confession, this time transferring all Israel's sins collectively. This act bridges the inner Temple service (blood sprinklings) with the outer world (Azazel). He then hands the goat to the designated guide.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The HP's third confession - both hands on the goat's head - is the moment of communal transfer: all Israel's sins are collectively placed on the scapegoat before it departs."
+        },
+        "learningBlocker": "Learners may conflate the three confessions. The first covered the HP himself, the second covered all kohanim - this third one covers all of Israel, and the physical hand-laying completes the transfer ritual."
       },
       "argumentFlow": [
         {
@@ -168,7 +175,10 @@
         "Understanding hand-laying as a formal transfer mechanism"
       ],
       "misconceptions": [
-        "The HP confesses, then hands the goat to the guide - he does not accompany it to the cliff"
+        {
+          "misconception": "The HP accompanies the Azazel goat to the cliff after placing his hands on its head",
+          "correction": "The HP confesses, places both hands on the goat's head, and then hands the goat to the designated guide - he does not accompany it to the cliff. He remains in Jerusalem for subsequent services."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -183,8 +193,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the HP's physical role in the scapegoat service?",
-          "answer": "He approaches the tethered Azazel goat, places both hands on its head, and recites the third comprehensive confession transferring all Israel's sins. He then hands the goat to the designated guide."
+          "answer": "He approaches the tethered Azazel goat, places both hands on its head, and recites the third comprehensive confession transferring all Israel's sins. He then hands the goat to the designated guide.",
+          "question": "What is the HP's physical role in the scapegoat service?"
         }
       ],
       "finalRuling": "The HP places both hands on the scapegoat's head and recites the third confession - the physical and verbal transfer of all Israel's sins before the goat is dispatched.",
@@ -236,13 +246,20 @@
       ],
       "display": {
         "whats": "The guide takes the scapegoat; the HP cannot accompany it due to remaining Temple service obligations",
-        "hint": "The designated guide takes the Azazel goat after the confession. The HP cannot accompany it because he is needed for the subsequent communal services. The guide is the HP's agent for the final dispatch."
+        "hint": "The designated guide takes the Azazel goat after the confession. The HP cannot accompany it because he is needed for the subsequent communal services. The guide is the HP's agent for the final dispatch.",
+        "title": "The Guide as Agent: Completing What the HP Began"
       },
       "learning": {
-        "summary": "After the HP completes the confession, a designated guide leads the Azazel goat from the Temple gate toward the wilderness. The HP does not accompany the goat - he is needed in the Temple for the subsequent services (Torah reading, additional offerings, etc.). The guide acts as the HP's agent for the journey. Halachically, the guide's action completes what the HP began. The Gemara discusses the relationship between the HP's confession/hand-laying and the guide's dispatch as two halves of one service.",
         "ahaMoment": "The HP and the guide are two parts of one service: the HP provides the intentional act (confession, hand-laying), the guide provides the dispatch act. Neither alone constitutes the complete service.",
         "memoryAnchor": "HP at the gate, guide on the road: a divided service with two essential actors completing one atonement.",
-        "openQuestion": "Is the guide's role merely practical (the HP is busy) or is there a deeper reason the HP cannot accompany the scapegoat?"
+        "learnerQuestion": "Why doesn't the HP accompany the Azazel goat to the cliff himself, and what is the guide's legal status in completing the service?",
+        "coreTension": "The HP began the Azazel service but cannot complete it - the guide takes over. Is this a practical division of labor, or does the guide have a distinct halachic role?",
+        "coreMove": "The HP needs to remain for subsequent Temple services. The guide acts as his legal agent (shaliach), completing the Azazel dispatch. The HP provides intention and conferral; the guide provides execution. Together they constitute one unified service.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The guide is the HP's legal agent for the Azazel dispatch - not a mere helper but a halachic extension of the HP's service, whose acts are attributed to the HP."
+        },
+        "learningBlocker": "Students may view the guide as merely logistical. The key is agency: the guide's acts are attributed to the HP. The service is not split between two independent actors but unified through the law of agency."
       },
       "argumentFlow": [
         {
@@ -330,7 +347,10 @@
         "Understanding halachic agency (shlichut)"
       ],
       "misconceptions": [
-        "The guide is not just a practical helper - he is the HP's legal agent for the dispatch"
+        {
+          "misconception": "The guide is just a practical helper filling in because the HP is busy with other services",
+          "correction": "The guide is not just a practical helper - he is the HP's legal agent for the Azazel dispatch. His actions complete the HP's initiated service; together they constitute one halachic act."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -345,8 +365,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why doesn't the HP accompany the Azazel goat to the cliff himself?",
-          "answer": "He is needed in the Temple for the subsequent services (Torah reading, blessings, additional offerings). The designated guide acts as his agent to complete the dispatch."
+          "answer": "He is needed in the Temple for the subsequent services (Torah reading, blessings, additional offerings). The designated guide acts as his agent to complete the dispatch.",
+          "question": "Why doesn't the HP accompany the Azazel goat to the cliff himself?"
         }
       ],
       "finalRuling": "The guide acts as the HP's agent for the scapegoat dispatch while the HP returns to the Temple for the communal reading and offering services.",

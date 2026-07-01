@@ -55,13 +55,20 @@
       ],
       "display": {
         "whats": "Communal offerings cannot be 'lost': how this affects replacement rules for the Yom Kippur goats",
-        "hint": "A challenge to the previous discussion: communal offerings work differently from individual ones. Communal offerings like the Yom Kippur goats are funded by the half-shekel and can always be replaced by public funds, unlike individual offerings which depend on a private owner."
+        "hint": "A challenge to the previous discussion: communal offerings work differently from individual ones. Communal offerings like the Yom Kippur goats are funded by the half-shekel and can always be replaced by public funds, unlike individual offerings which depend on a private owner.",
+        "title": "Why Communal Offerings Cannot Get Lost"
       },
       "learning": {
-        "summary": "The Gemara raises an objection to the previous discussion by pointing out a fundamental distinction: communal offerings and individual offerings have different replacement dynamics. An individual's sin-offering can be lost because it belongs to a private person with limited resources. A communal offering is funded by the half-shekel (the community's public fund) and can always be replaced - it is never 'lost' in the same sense. The Yom Kippur goats, being communal offerings, are always replaceable from public funds. The HP as the community's agent conducts this communal service.",
         "ahaMoment": "Communal offerings cannot truly be 'lost' because the community always has resources to replace them. The Yom Kippur goats as communal offerings are therefore always replaceable - the community's relationship with God is not contingent on the fate of any particular pair of goats.",
         "memoryAnchor": "The community's atonement is never 'stuck': communal offerings can always be replaced, ensuring Yom Kippur always goes forward.",
-        "openQuestion": "What does the distinction between communal and individual offerings teach about the nature of communal responsibility?"
+        "learnerQuestion": "In what sense can a communal offering never truly be 'lost' the way an individual's offering can?",
+        "coreTension": "Individual sin-offerings can be 'lost,' triggering replacement procedures. But the Gemara raises an objection: the Yom Kippur goats are communal. Does the lost-and-replaced framework even apply to them?",
+        "coreMove": "Communal offerings are funded from the public treasury. The community always has resources to replace them; they can never be irretrievably lost. This structural difference means the entire lost-and-replaced framework targets individual offerings specifically, not communal ones.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Communal obligations are structurally different from individual ones: communal offerings can always be replaced from public funds, so the 'lost offering' problem is exclusively an individual concern."
+        },
+        "learningBlocker": "Students may treat 'lost offering' rules as universal. The distinction is structural: individual ownership can be lost; communal ownership cannot, because the public treasury is always available to fund a replacement."
       },
       "argumentFlow": [
         {
@@ -163,7 +170,10 @@
         "Understanding the difference between individual and communal obligation"
       ],
       "misconceptions": [
-        "The HP is not acting on his own behalf when he serves on Yom Kippur - he is the community's agent throughout"
+        {
+          "misconception": "The HP acts on his own behalf when serving on Yom Kippur, so individual offering rules apply to the Yom Kippur goats",
+          "correction": "The HP is not acting on his own behalf - he is the community's agent throughout. The Yom Kippur goats are communal offerings funded from the public treasury. The community never 'loses' its offering the way an individual does."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -178,8 +188,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why can't the Yom Kippur goats be 'lost' in the same sense as an individual's sin-offering?",
-          "answer": "The Yom Kippur goats are communal offerings funded by the half-shekel public fund. Communal offerings can always be replaced from public funds - the community never 'loses' its ability to replace them the way an individual might."
+          "answer": "The Yom Kippur goats are communal offerings funded by the half-shekel public fund. Communal offerings can always be replaced from public funds - the community never 'loses' its ability to replace them the way an individual might.",
+          "question": "Why can't the Yom Kippur goats be 'lost' in the same sense as an individual's sin-offering?"
         }
       ],
       "finalRuling": "Communal offerings like the Yom Kippur goats cannot be truly 'lost' because the half-shekel fund always provides for replacements; the HP acts as the community's agent, not as a private individual.",

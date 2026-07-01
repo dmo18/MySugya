@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "The burning of the Yom Kippur bull and goat is derived from the parah adumah (red heifer) via gezerah shavah - 'outside the camp' appears in both passages, linking their burning requirements. The carcasses are taken out whole, unflayed.",
-        "hint": "Why did the Sages need a biblical derivation to know where to burn the Yom Kippur bull and goat?"
+        "hint": "Why did the Sages need a biblical derivation to know where to burn the Yom Kippur bull and goat?",
+        "title": "Deriving the Burning Site: Gezerah Shavah from Parah Adumah"
       },
       "learning": {
-        "summary": "The Gemara derives the laws of the Yom Kippur bull and goat burning from the parah adumah (red heifer) using gezerah shavah: the phrase 'outside the camp' in both passages links them. Just as the red heifer was burned east of Jerusalem outside three camps, so too the Yom Kippur bull and goat are burned north of Jerusalem outside three camps. The carcasses are taken out whole - not flayed.",
         "ahaMoment": "The parah adumah is the archetypal 'outside the camp' purification ritual - linking the Yom Kippur burning to it establishes the full set of requirements including direction (east vs north) and distance (outside three camps).",
         "memoryAnchor": "Yom Kippur burning = parah adumah derivation: both go 'outside the camp' but one goes north.",
-        "openQuestion": "Why does the Yom Kippur burning happen north of Jerusalem rather than east like the parah adumah?"
+        "learnerQuestion": "How is the burning location for the Yom Kippur bull and goat derived from the Torah, and why does it differ in direction from the parah adumah location?",
+        "coreTension": "The Yom Kippur bull and goat are burned 'outside the camp.' The parah adumah is burned 'outside the camp.' They seem to share a category. But the Yom Kippur burning is north of Jerusalem while parah adumah is east. How can they share a derivation yet differ in location?",
+        "coreMove": "The gezerah shavah establishes the 'three-camp' requirement from the parah adumah passage - the shared term creates the structural category (outside the camp). The specific direction (north vs. east) is determined separately. A gezerah shavah establishes a framework without locking in every specific detail.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A gezerah shavah can establish a legal category (outside the camp) without determining every specific detail (direction). The shared term creates the framework; other derivations fill in specifics."
+        },
+        "learningBlocker": "Students may expect that a gezerah shavah means all details are shared. The Gemara shows that the shared term establishes the structural rule while other derivations can determine specific details independently."
       },
       "argumentFlow": [
         {
@@ -184,13 +191,20 @@
       ],
       "display": {
         "whats": "When does the burning of the Yom Kippur bull and goat begin? A tannaitic dispute: one opinion says tum'ah starts when the fire ignites in most of the carcass; another says it starts when the carcasses leave the Azarah wall. The Gemara works through the derivations.",
-        "hint": "What is the practical difference between the two opinions about when tum'ah begins?"
+        "hint": "What is the practical difference between the two opinions about when tum'ah begins?",
+        "title": "When Does Carrying the Bull and Goat Create Tum'ah?"
       },
       "learning": {
-        "summary": "There is a dispute about when the handlers of the Yom Kippur bull and goat become ritually impure (tamei) in their garments. Rabbi Shimon holds: not until the fire has ignited in most of the carcass. The Sages hold: from when the carcasses exit the Azarah wall. This affects the timing of when the handlers must immerse. The Gemara also discusses how the gezerah shavah from parah adumah establishes these laws for all similar sacrifices.",
         "ahaMoment": "The dispute is not just theoretical - it affects when the carriers can rejoin the Temple service. The Sages' view makes the tum'ah begin earlier (at the Azarah exit), while Rabbi Shimon delays it until the fire actually catches - a significant practical difference.",
         "memoryAnchor": "R. Shimon: tum'ah at fire; Sages: tum'ah at the Azarah gate.",
-        "openQuestion": "Why would Rabbi Shimon delay tum'ah until the fire actually ignites rather than at the moment of removal from the Temple?"
+        "learnerQuestion": "When do the handlers who carry the Yom Kippur bull and goat carcasses become ritually impure - at which moment does this tum'ah status begin?",
+        "coreTension": "The handlers will inevitably become tamei. The question is when this begins. Does it depend on where they are (exiting the Azarah gate) or what is happening to the carcasses (the fire catching)?",
+        "coreMove": "The Sages hold tum'ah begins when the carcasses exit the Azarah wall - a location trigger. Rabbi Shimon delays it until the fire has ignited in most of the carcass - a process trigger. The practical difference: when the handlers can immerse and rejoin the Yom Kippur service.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The tum'ah trigger dispute reflects different conceptions of what defines 'burned outside the camp': is it the departure from the sacred precincts, or the actual onset of burning?"
+        },
+        "learningBlocker": "Students may assume tum'ah from carrying sacrificial carcasses is always triggered the same way. The Yom Kippur bull and goat are unique - the specific trigger is disputed and has practical consequences for when handlers can return to service."
       },
       "argumentFlow": [
         {

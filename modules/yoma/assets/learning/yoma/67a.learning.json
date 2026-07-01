@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Ten relay stations were set up along the 90-ris route from Jerusalem to the Azazel cliff, each a mil apart (Shabbat boundary), except the last which was two mil away - so the final escort stopped short and watched from a distance.",
-        "hint": "Why was the last station different from all the others?"
+        "hint": "Why was the last station different from all the others?",
+        "title": "The Relay System: Engineering Shabbat Observance for the Azazel Escort"
       },
       "learning": {
-        "summary": "The Mishnah states ten sukkot (relay stations) were built along the route from Jerusalem to the Azazel cliff. The Gemara works out the math: 90 ris equals 12 mil, divided into 11 stages. Each escort group accompanied the designated man exactly one mil (the Shabbat boundary), except the last group which was 2 mil from the cliff.",
         "ahaMoment": "The whole relay system was designed around the Shabbat boundary: each escort could walk one mil out and return without violating Shabbat - except at the end where they permitted extra distance because the man was exhausted and afraid to be alone.",
         "memoryAnchor": "Ten sukkot, each a mil apart - like pit stops on a desert marathon, with the last runner watching from afar.",
-        "openQuestion": "Why did the Sages permit the last escort to go beyond the Shabbat boundary?"
+        "learnerQuestion": "Why were ten relay stations built along the Azazel goat's route, and what was the significance of each station being exactly one mil apart?",
+        "coreTension": "The Azazel goat had to travel 90 ris to the cliff, yet Shabbat restrictions limit how far anyone could walk. How was a complete escort service possible without violating Shabbat?",
+        "coreMove": "One mil equals the Shabbat boundary (2,000 amot). Each escort walked exactly one mil with the designated man, then returned home within the permitted limit. Ten relay stations allowed full coverage of the route. The final escort was granted an exception to go beyond the boundary to complete the mission.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The relay system solved a real halachic problem: how to escort the Azazel goat the full distance on Shabbat without violating the boundary. Each mil-long station allowed an escort to go and return within the limit."
+        },
+        "learningBlocker": "Students may wonder why not simply designate one person for the whole journey. The answer is Shabbat: no single escort could walk 90 ris and return. The relay architecture was the halachic solution."
       },
       "argumentFlow": [
         {
@@ -227,13 +234,20 @@
       ],
       "display": {
         "whats": "The designated man pushed the Azazel goat backward off the cliff. Half the crimson thread was tied between the goat's horns; when the thread turned white, Israel's atonement was accepted.",
-        "hint": "Why push the goat backward rather than simply letting it fall forward?"
+        "hint": "Why push the goat backward rather than simply letting it fall forward?",
+        "title": "The Crimson Thread: Real-Time Sign of Atonement Accepted"
       },
       "learning": {
-        "summary": "At the cliff, the designated man pushed the goat backward (al achorav) so it would somersault and not land on its feet. Half the crimson thread was tied between the goat's horns so the escort could watch for it turning white - the sign that Israel's sins were forgiven, based on Isaiah 1:18.",
         "ahaMoment": "The thread turning white was not merely symbolic - it was real-time feedback that atonement had been accepted. The Talmud elsewhere records that in the last 40 years of the Second Temple the thread stopped turning white.",
         "memoryAnchor": "The goat pushed backward so it could not land on its feet - and the red thread tied to its horns as atonement's status indicator.",
-        "openQuestion": "What theological message does the crimson-to-white transformation communicate about the nature of Divine forgiveness?"
+        "learnerQuestion": "How did the relay escorts know the Azazel service was accepted, and why was the goat pushed backward off the cliff?",
+        "coreTension": "The Azazel service ends at the cliff. How does anyone know it was accepted? And why push the goat backward specifically rather than simply pushing it off forward?",
+        "coreMove": "The goat was pushed backward to prevent it from landing on its feet and surviving. Half the crimson thread tied between the goat's horns was the signal: the escort at the cliff watched for it turning white - the tangible sign, referencing Isaiah's promise, that God had accepted Israel's atonement.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The crimson-to-white transformation was not merely symbolic - it was real-time confirmation that atonement was accepted, referencing the Isaiah promise that sins like crimson will become white as snow."
+        },
+        "learningBlocker": "Students may treat the cliff-push as the operative moment of atonement. But the atonement began with the confession and designation; the cliff event is the conclusion and the color change is the sign of acceptance."
       },
       "argumentFlow": [
         {
@@ -370,13 +384,20 @@
       ],
       "display": {
         "whats": "If the designated man and the Azazel goat did not reach the cliff before nightfall, the service is still valid - the Azazel dispatch is not subject to the daytime requirement that governs other Temple services.",
-        "hint": "Does the Azazel service have a daytime requirement like other Temple offerings?"
+        "hint": "Does the Azazel service have a daytime requirement like other Temple offerings?",
+        "title": "The Night Exception: Why Azazel Alone Is Valid After Dark"
       },
       "learning": {
-        "summary": "The Gemara addresses the case where the designated man and goat did not arrive at the Azazel cliff before Yom Kippur nightfall. The ruling is that the service remains valid - unlike most Temple services which are invalid after dark, the Azazel dispatch and the goat's death at the cliff are valid even at night.",
         "ahaMoment": "The Azazel service is exceptional: most Temple work must be done by day, but since the goat's death at the cliff is not a Temple altar service in the classic sense, the nightfall cutoff does not apply.",
         "memoryAnchor": "The goat can arrive after dark - the only Yom Kippur act that works at night.",
-        "openQuestion": "Why does the Azazel service uniquely escape the daytime requirement that governs all other Temple offerings?"
+        "learnerQuestion": "Why is the Azazel service at the cliff valid even after nightfall, unlike virtually every other Temple service?",
+        "coreTension": "All Temple services are required to be performed by day. The Azazel goat could be delayed and arrive at the cliff after dark. Is the service simply invalid if it happens at night?",
+        "coreMove": "The Gemara rules the Azazel service is categorically different: it is not an altar offering but a dispatch (shelicha) to the wilderness. This exempts it from the daytime requirement. Even if the goat arrives at the cliff after nightfall, the service is valid.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Azazel service is the only Yom Kippur act valid at night because it is categorically a dispatch, not an altar sacrifice - and the daytime requirement applies only to altar services."
+        },
+        "learningBlocker": "Students may assume the daytime rule applies universally to all Yom Kippur service elements. The key distinction is the nature of the act: altar offering vs. dispatch. Azazel belongs to the dispatch category, which is exempt."
       },
       "argumentFlow": [
         {

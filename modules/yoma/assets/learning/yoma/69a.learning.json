@@ -55,13 +55,20 @@
       ],
       "display": {
         "whats": "The HP was kept awake the night before Yom Kippur. The Gemara discusses: could he sleep in the priestly vestments, and does sleeping in them constitute me'ilah (misuse of sacred property)? The conclusion: he may use them - placing them under his head is permitted, and sleep is the key distinction for requiring immersion.",
-        "hint": "Why does sleeping in the vestments matter more than simply wearing them between service sessions?"
+        "hint": "Why does sleeping in the vestments matter more than simply wearing them between service sessions?",
+        "title": "Sleep as a Dividing Line: Why Rest Requires a Fresh Immersion"
       },
       "learning": {
-        "summary": "The Gemara continues from the previous discussion about priestly vestments and immersion requirements. It establishes that the HP may place his vestments near/under his head when resting - there is no me'ilah concern because the vestments are given for honor and use. Sleep is the critical factor: if he sleeps in them, he needs a new immersion before continuing service. The shatnez (mixed fiber) question is also addressed regarding the HP's belt.",
         "ahaMoment": "The ruling that the HP may place the vestments near his head when sleeping shows that 'me'ilah' (misuse of sacred items) does not apply to vestments - they are given for use, and using them is the purpose, not misuse.",
         "memoryAnchor": "Sleep = new immersion needed. Vestments under the head = permitted, no me'ilah.",
-        "openQuestion": "Why is sleep the dividing line for requiring a new immersion rather than simply the passage of time?"
+        "learnerQuestion": "Why does the HP need a new immersion after sleeping on Yom Kippur, and is placing his vestments near his head while sleeping considered misuse of sacred property?",
+        "coreTension": "The HP must immerse between each vestment change. Sleep seems different from actively stopping service. Why does sleep specifically trigger a new immersion requirement?",
+        "coreMove": "Sleep creates a complete break in consciousness and service readiness - waking from sleep is treated as a new beginning, requiring fresh ritual preparation. As for the vestments: placing them nearby for safekeeping is not me'ilah, because the vestments are given for service use and nearby storage serves that purpose.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Sleep is treated as a complete interruption of service readiness, requiring a new immersion - unlike other pauses. Placing vestments nearby during sleep is permitted because proximity to use is not misuse."
+        },
+        "learningBlocker": "Students may think any pause in service would require immersion. The Gemara singles out sleep because it creates a qualitative break, not merely a temporal one - consciousness itself is interrupted, constituting a new beginning."
       },
       "argumentFlow": [
         {
@@ -276,13 +283,20 @@
       ],
       "display": {
         "whats": "The HP read the Torah in his priestly vestments. The Gemara discusses whether doing so constitutes me'ilah in the vestments and what garments are appropriate. Also: which vestments specifically - the golden or white linen - are worn for the Torah reading.",
-        "hint": "Why might reading Torah in the priestly vestments be considered me'ilah?"
+        "hint": "Why might reading Torah in the priestly vestments be considered me'ilah?",
+        "title": "Me'ilah and Proper Use: When Sacred Vestments Are Worn for Torah Reading"
       },
       "learning": {
-        "summary": "The Gemara analyzes whether the HP's Torah reading in priestly vestments constitutes me'ilah (misuse of sacred property). The conclusion: the vestments were given for use - wearing them for the reading is their intended use. The Gemara also addresses which specific vestments are worn and how they relate to the subsequent immersion.",
         "ahaMoment": "Me'ilah requires benefiting from sacred property in an unintended way. Since the vestments are designed to be worn by the HP during his official functions - including the Torah reading - wearing them is not me'ilah but exactly their purpose.",
         "memoryAnchor": "Torah reading in vestments = proper use, not me'ilah. The vestments are for the HP to wear.",
-        "openQuestion": "At what point does using sacred items cross from appropriate use into me'ilah?"
+        "learnerQuestion": "Does the HP commit me'ilah by wearing the priestly vestments for the Yom Kippur Torah reading, an act outside the inner Temple service?",
+        "coreTension": "Me'ilah is misuse of sacred property. The Torah reading takes place in the courtyard before the congregation. Is this within the vestments' intended use, or does it cross into misuse?",
+        "coreMove": "Me'ilah applies when sacred items are used for purposes outside their intended function. The HP's Torah reading is an official part of the Yom Kippur service. Wearing the vestments for it is within their intended use - they are given for the HP's official functions, which include the Torah reading.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Me'ilah requires use outside a sacred item's intended purpose. The HP's official functions - including the Yom Kippur Torah reading - are within the vestments' intended scope, so wearing them for the reading is not me'ilah."
+        },
+        "learningBlocker": "Students may define 'intended use' narrowly as only the inner altar service. The Gemara defines it broadly: any official function of the HP on Yom Kippur falls within the vestments' intended scope."
       },
       "argumentFlow": [
         {
@@ -441,13 +455,20 @@
       ],
       "display": {
         "whats": "The chazan (synagogue attendant) took the Torah scroll from the ark and gave it to the head of the synagogue, who gave it to the deputy HP, who gave it to the HP - a formal chain of handoffs to honor the HP.",
-        "hint": "Why was the scroll passed through multiple hands rather than given directly to the HP?"
+        "hint": "Why was the scroll passed through multiple hands rather than given directly to the HP?",
+        "title": "Four Hands, Maximum Honor: The Torah Scroll's Journey to the HP"
       },
       "learning": {
-        "summary": "The Torah scroll was passed through a chain of handoffs: from the chazan to the rosh ha-knesset (synagogue head), to the segan (deputy HP), to the HP himself. This protocol maximized the public honor accorded to the HP at the moment he was about to read before the assembled people.",
         "ahaMoment": "The elaborate handoff protocol is a form of public honoring - each delegation increasing the dignity of the final recipient. The HP receives the scroll from the deputy, the second-highest Temple official, making his receipt maximally honorable.",
         "memoryAnchor": "Chazan to head to deputy to HP - four hands, maximum honor.",
-        "openQuestion": "Why was it specifically the deputy HP who made the final handoff rather than the chazan or the rosh ha-knesset?"
+        "learnerQuestion": "Why did the Torah scroll pass through four pairs of hands before reaching the HP, rather than being handed directly to him?",
+        "coreTension": "The HP is the most important official in the Temple. If anything, he should receive the scroll with maximum directness. Why the elaborate chain of handoffs?",
+        "coreMove": "The chain of handoffs - from chazan to rosh ha-knesset to segan (deputy HP) to HP - is a deliberate honor protocol. Each successive handoff elevates the HP's status: the scroll's journey through increasingly senior hands signals the HP's supreme position before he even receives it.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The elaborate Torah scroll handoff is not logistical but honorific - each step in the chain is a public declaration of the HP's elevated status, building anticipation and honor before he receives it."
+        },
+        "learningBlocker": "Students may see the four-step handoff as ceremonial inefficiency. The Talmud's point is that this protocol IS the honor - it is not a path to the goal but the goal itself, publicly enacted through increasingly senior hands."
       },
       "argumentFlow": [
         {
@@ -535,13 +556,20 @@
       ],
       "display": {
         "whats": "The HP stood on a raised platform (bimah) to read the Torah, so the congregation could see and hear him.",
-        "hint": "What does the bimah represent in terms of the HP's role as teacher and leader of the nation?"
+        "hint": "What does the bimah represent in terms of the HP's role as teacher and leader of the nation?",
+        "title": "The HP on the Bimah: A National Ceremony, Not a Private Act"
       },
       "learning": {
-        "summary": "The HP stood on a raised bimah (platform) for the Torah reading so the assembled congregation in the Temple courtyard could see him. This parallels the biblical description of Ezra's Torah reading where he also stood on a raised platform before the assembled nation.",
         "ahaMoment": "The Yom Kippur Torah reading was a national event, not a private priestly ritual. The HP served here not just as a priest but as the nation's teacher - which is why the bimah (normally a teaching platform) was central.",
         "memoryAnchor": "HP on the bimah - the priest becomes the teacher for one day a year.",
-        "openQuestion": "How does the Yom Kippur Torah reading compare to Ezra's national Torah reading in Nehemiah 8?"
+        "learnerQuestion": "Why did the HP stand on a raised platform (bimah) for the Yom Kippur Torah reading?",
+        "coreTension": "The HP's primary role is Temple service - offerings, sprinklings, confessions. The Torah reading seems like a different category of activity. Is the HP reading Torah as a priestly act or as a national leader addressing the people?",
+        "coreMove": "The HP reads from a raised bimah so the entire assembled congregation can see and hear. This is not a private priestly ritual but a national public ceremony. For one day a year, the HP functions as the people's teacher and leader - not only their Temple officiator.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Yom Kippur Torah reading transforms the HP into a national teacher for the day - the bimah makes it a public ceremony, not a private priestly act."
+        },
+        "learningBlocker": "Students may categorize all the HP's Yom Kippur activities as 'Temple service.' The Torah reading on the bimah is a distinct category - a public national ceremony that the HP performs in a leadership role."
       },
       "argumentFlow": [
         {

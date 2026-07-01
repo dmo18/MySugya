@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Sitting in the Temple Azarah is prohibited - only Davidic kings were permitted to sit there, derived from King David sitting before God (2 Sam. 7:18). The HP stood throughout the Torah reading ceremony.",
-        "hint": "What is the source that only Davidic kings may sit in the Azarah?"
+        "hint": "What is the source that only Davidic kings may sit in the Azarah?",
+        "title": "Standing to Serve: Why Only Davidic Kings May Sit in the Azarah"
       },
       "learning": {
-        "summary": "The Mishnah states that the HP read the Torah standing. The Gemara derives that sitting in the Azarah is prohibited in general - derived from the verse 'to stand to serve' (Deut. 18). The sole exception: Davidic kings were permitted to sit in the Azarah, based on 2 Samuel 7:18 where David sat before God.",
         "ahaMoment": "The entire Temple service is characterized by standing - the kohanim 'stand to serve.' The exception for Davidic kings is not about comfort but about the king's unique status as God's anointed: the king's sitting before God is itself a form of reverence.",
         "memoryAnchor": "Only Davidic kings sit in the Azarah. Everyone else stands.",
-        "openQuestion": "Why is a Davidic king permitted to sit in the Azarah while even the HP must stand?"
+        "learnerQuestion": "Why must the HP stand throughout the Yom Kippur service, and who is the only person permitted to sit in the Temple Azarah?",
+        "coreTension": "The HP is the highest religious official. If anyone deserves the honor of sitting, it should be him. Yet even he must stand. What makes a Davidic king's sitting different from the HP's?",
+        "coreMove": "All Temple service is performed standing - the kohanim 'stand to serve' (Deut. 18). The HP is no exception. Only Davidic kings may sit in the Azarah, derived from David sitting before God (2 Sam. 7:18). This royal exception reflects kingship, not religious rank.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Standing is the posture of all Temple service. Only Davidic kings receive the exceptional permission to sit in the Azarah - religious rank (HP) does not grant this privilege, only royal lineage does."
+        },
+        "learningBlocker": "Students may assume the HP's supreme religious status would entitle him to sit. The distinction is between religious and royal authority: the sitting privilege belongs to kingship, not priesthood."
       },
       "argumentFlow": [
         {
@@ -185,13 +192,20 @@
       ],
       "display": {
         "whats": "The Great Assembly restored the full divine epithets 'great, mighty, and awesome' to prayer - epithets that Jeremiah and Daniel had omitted during the Temple's destruction. Aggadah: the evil inclination (yetzer hara) for idolatry was captured and imprisoned by the Anshei Knesset HaGedolah.",
-        "hint": "How could prophets like Jeremiah and Daniel - who spoke the truth - omit attributes of God that Moses had written in the Torah?"
+        "hint": "How could prophets like Jeremiah and Daniel - who spoke the truth - omit attributes of God that Moses had written in the Torah?",
+        "title": "When Prophets Omitted God's Praises: The Great Assembly's Response"
       },
       "learning": {
-        "summary": "Jeremiah omitted 'awesome' from God's attributes in prayer, since pagans desecrated His Temple. Daniel omitted 'mighty,' since pagans subjugated Israel for 70 years. The Anshei Knesset HaGedolah (Men of the Great Assembly) restored all three attributes, explaining: God's greatest power is precisely His patience with the wicked, and His awesomeness is that Israel survives among hostile nations. They also captured the yetzer hara for idolatry, imprisoned it, but had to release it partially because the world could not function without reproductive drive.",
         "ahaMoment": "The prophets were not wrong - they legitimately could not call God 'mighty' while they saw His children enslaved. The Great Assembly reconciled this by redefining what 'mighty' and 'awesome' mean: constraint and patience ARE power, and Israel's survival IS God's awesomeness.",
         "memoryAnchor": "Jeremiah omits 'awesome,' Daniel omits 'mighty' - Great Assembly restores both by redefining them as patience and survival.",
-        "openQuestion": "Is it ever appropriate to omit praises of God from prayer based on historical circumstances, as Jeremiah and Daniel did?"
+        "learnerQuestion": "Why did Jeremiah and Daniel each omit one of God's traditional attributes from prayer, and how did the Great Assembly restore them?",
+        "coreTension": "Standard Jewish liturgy praises God as 'the great, mighty, and awesome.' Two prophets omitted attributes - Jeremiah omitted 'awesome,' Daniel omitted 'mighty.' Were they wrong? Can liturgy vary based on historical experience?",
+        "coreMove": "The prophets were not wrong - they acted with integrity. Jeremiah could not call God 'awesome' while watching the Temple desecrated; Daniel could not call God 'mighty' while Israel was enslaved. The Great Assembly restored both by reinterpreting: God's might is demonstrated in sustaining patience; God's awesomeness is that Israel survived at all among hostile nations.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Great Assembly did not criticize Jeremiah and Daniel for their omissions but reinterpreted the attributes to show they remained true even in catastrophe. Authentic prayer must be honest about experience."
+        },
+        "learningBlocker": "Students may assume the prophets made errors corrected by the Great Assembly. The Gemara's logic is that both the omissions AND the restoration were correct - the prophets were honest, and the Great Assembly's reinterpretation validated the attributes without denying that honesty."
       },
       "argumentFlow": [
         {
@@ -502,13 +516,20 @@
       ],
       "display": {
         "whats": "The Leviticus 23 passage was read by heart (not from the scroll) because it was close to the Leviticus 16 portion - rolling the scroll there would not cause a delay for the congregation. The eight blessings that followed are listed.",
-        "hint": "Why was it necessary to explain that no Torah scroll was brought out for the Leviticus 23 reading?"
+        "hint": "Why was it necessary to explain that no Torah scroll was brought out for the Leviticus 23 reading?",
+        "title": "Lev. 16 and Lev. 23: Scroll and Memory in the HP's Torah Reading"
       },
       "learning": {
-        "summary": "The HP read Leviticus 16 from the scroll, then Leviticus 23 by heart - because the two portions are adjacent in the scroll and rolling from one to the other would not be an embarrassing delay. The by-heart reading was also permitted so as not to denigrate the Torah scroll (people might think the third passage was missing from the scroll). After the readings came eight blessings.",
         "ahaMoment": "The 'by heart' reading was actually a protective measure for the Torah scroll's honor - if people saw the HP reading by heart, they might think that passage was missing from the scroll. So he declared afterward: 'More is written here than what I read.'",
         "memoryAnchor": "Lev. 16 from scroll, Lev. 23 by heart - then declare 'more is written here' to protect the scroll's honor.",
-        "openQuestion": "What is the difference between reading Torah by heart and reading from the scroll in terms of validity?"
+        "learnerQuestion": "Why did the HP read Leviticus 16 from the scroll but recite Leviticus 23 by heart, and what was the declaration he made afterward?",
+        "coreTension": "Normally one reads Torah from the scroll. Reading by heart seems less formal. Why is reading by heart acceptable here, and what is the significance of the subsequent declaration?",
+        "coreMove": "Leviticus 23 is adjacent to Leviticus 16 in the scroll. Rolling to it while the congregation watches would be time-consuming and disrespectful. Reading by heart avoided this. Afterward, the HP declared 'more is written here than what I read' to protect the scroll's honor - signaling that the content exists in writing even though he read it from memory.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Reading a Torah portion by heart is permitted when rolling the scroll would cause congregational embarrassment - and the follow-up declaration protects the Torah's honor by acknowledging the written source."
+        },
+        "learningBlocker": "Students may assume the HP's by-heart reading was a leniency or concession. The Gemara explains it was actually the more respectful option - protecting both the congregation's time and the Torah scroll's dignity."
       },
       "argumentFlow": [
         {
