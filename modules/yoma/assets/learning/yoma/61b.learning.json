@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "The rule: offerings whose blood was brought inside are burned outside Jerusalem",
-        "hint": "The Gemara establishes a general principle: any sin-offering whose blood was brought inside the sanctuary (the Heichal or Holy of Holies) is burned outside Jerusalem at the ash-disposal site. This applies to the Yom Kippur bull and goat."
+        "hint": "The Gemara establishes a general principle: any sin-offering whose blood was brought inside the sanctuary (the Heichal or Holy of Holies) is burned outside Jerusalem at the ash-disposal site. This applies to the Yom Kippur bull and goat.",
+        "title": "Inside Blood, Outside Burning: The Rule for Inner Sin-Offerings"
       },
       "learning": {
-        "summary": "The Gemara states the principle governing which offerings are burned outside the city: any sin-offering whose blood was brought inside the sanctuary (into the Heichal or Holy of Holies) must be burned outside Jerusalem at the beit ha-deshen. This rule covers the HP's bull (whose blood was brought to the Holy of Holies), the nation's Yom Kippur goat (whose blood was brought to the Holy of Holies), and various other sin-offerings in other contexts. The rule is: inside blood, outside burning - the two are paired.",
         "ahaMoment": "Inside blood, outside burning: the blood goes to the most sacred place; the body is expelled to the least sacred. The sacred and the profane are linked through the same offering.",
         "memoryAnchor": "A rule of sacred geography: blood travels inward (to the Holy of Holies); the body travels outward (beyond the city).",
-        "openQuestion": "What is the theological logic of requiring offerings whose blood was brought inside to be burned outside?"
+        "learnerQuestion": "Why must the bodies of the Yom Kippur bull and goat be burned outside Jerusalem if their blood was brought inside the Temple's innermost spaces?",
+        "coreTension": "Sanctified offerings are normally processed within the Temple precinct; burning them outside the city seems to invert the normal logic of holiness concentrating inward.",
+        "coreMove": "The Gemara states the governing principle: offerings whose blood was brought into the innermost sanctuary (Heichal or Holy of Holies) must be burned at the most external impure location (beit ha-deshen outside Jerusalem) - the blood's journey inward is paired with the body's journey outward, creating a complete axis of atonement.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Sin-offerings whose blood was brought into the sanctuary are burned outside Jerusalem at the beit ha-deshen; the blood travels to the innermost sacred space while the body travels to the outermost impure location, completing an atonement axis that spans both poles."
+        },
+        "learningBlocker": "Students focus on the blood rites as the primary atonement act and treat the burning as a secondary disposal step; they miss that the outside burning is the structural completion of the atonement, with blood and body moving in opposite directions as a unified circuit."
       },
       "argumentFlow": [
         {
@@ -137,7 +144,10 @@
         "Knowing which offerings have their blood brought inside"
       ],
       "misconceptions": [
-        "The burning outside is not a disgrace but a requirement for offerings that entered the innermost space"
+        {
+          "misconception": "The burning of the Yom Kippur bull and goat outside Jerusalem is a disposal step with no special theological significance beyond removing the remains.",
+          "correction": "The outside burning is the required structural completion of the atonement: offerings whose blood was brought inside the sanctuary are burned outside Jerusalem, completing a sacred axis where blood moves inward and body moves outward."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -152,8 +162,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What general rule governs which offerings must be burned outside Jerusalem?",
-          "answer": "Any sin-offering whose blood was brought inside the sanctuary (Heichal or Holy of Holies) must be burned outside Jerusalem at the ash-disposal site. This pairs inner blood service with outer body disposal."
+          "answer": "Any sin-offering whose blood was brought inside the sanctuary (Heichal or Holy of Holies) must be burned outside Jerusalem at the ash-disposal site. This pairs inner blood service with outer body disposal.",
+          "question": "What general rule governs which offerings must be burned outside Jerusalem?"
         }
       ],
       "finalRuling": "The general rule: sin-offerings whose blood was brought inside the sanctuary are burned outside Jerusalem at the ash-disposal site.",
@@ -185,13 +195,20 @@
       ],
       "display": {
         "whats": "The bull and goat of Yom Kippur: their burning as the completion of the atonement",
-        "hint": "The HP's bull and the Yom Kippur goat are burned outside Jerusalem, physically completing the atonement cycle - the blood served inside at the most sacred points, and the body is externalized to the most mundane place."
+        "hint": "The HP's bull and the Yom Kippur goat are burned outside Jerusalem, physically completing the atonement cycle - the blood served inside at the most sacred points, and the body is externalized to the most mundane place.",
+        "title": "The Atonement Circuit: Blood Inward, Body Outward"
       },
       "learning": {
-        "summary": "The Gemara applies the general principle to the specific Yom Kippur offerings: the HP's bull (for himself and the priesthood) and the slaughtered goat (for Israel) are both carried outside Jerusalem and burned at the beit ha-deshen. This burning is the physical completion of the atonement circuit. The blood was brought to the innermost sacred space; the body now goes to the most external impure location. The atonement is complete when the offering has been fully processed in both directions.",
         "ahaMoment": "Complete atonement requires the complete circuit: blood goes in, body goes out. The atonement is not finished until both directions are fulfilled.",
         "memoryAnchor": "In and out: the blood enters the innermost, the body exits beyond the outer. Atonement spans the full distance of sacred space.",
-        "openQuestion": "Why must the body of the offering travel as far outward as the blood traveled inward?"
+        "learnerQuestion": "What is the theological significance of the Yom Kippur bull and goat being burned at the beit ha-deshen outside Jerusalem after their blood was brought into the Holy of Holies?",
+        "coreTension": "The atonement seems complete once the blood is sprinkled in the Holy of Holies; treating the subsequent burning outside Jerusalem as a continuation of the atonement rather than mere disposal requires understanding how the two acts relate.",
+        "coreMove": "The Gemara establishes that the burning outside Jerusalem is not disposal but the physical completion of the atonement: the offering's two components (blood and body) must each reach their respective poles - innermost sacred space and outermost space - for the atonement circuit to close.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Yom Kippur bull and goat's atonement is complete only when both components have reached their poles: the blood is brought into the Holy of Holies (innermost sacred space) and the body is burned outside Jerusalem (outermost space) - the burning is not disposal but the closing of the atonement circuit."
+        },
+        "learningBlocker": "Students may view the burning as a separate obligation disconnected from the atonement; they miss that the body's journey outward is the physical mirror of the blood's journey inward, making the burning the completion of the atonement process."
       },
       "argumentFlow": [
         {
@@ -249,7 +266,10 @@
         "Understanding the inner-outer symmetry of the atonement"
       ],
       "misconceptions": [
-        "The body is burned at the beit ha-deshen, not in the Temple courtyard"
+        {
+          "misconception": "Once the blood of the Yom Kippur bull and goat was sprinkled in the Holy of Holies, the atonement was complete and the bodies could simply be disposed of.",
+          "correction": "The atonement is complete only when both the blood and body have reached their respective poles; the burning outside Jerusalem mirrors the blood's entry inward and is the physical completion of the atonement circuit, not mere disposal."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -264,8 +284,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why must the bodies of the Yom Kippur bull and goat be burned outside Jerusalem?",
-          "answer": "Because their blood was brought inside the sanctuary (to the Holy of Holies, the innermost point). The rule is: inner blood service requires outside burning. The offering must complete the full circuit: inward (blood) and outward (body)."
+          "answer": "Because their blood was brought inside the sanctuary (to the Holy of Holies, the innermost point). The rule is: inner blood service requires outside burning. The offering must complete the full circuit: inward (blood) and outward (body).",
+          "question": "Why must the bodies of the Yom Kippur bull and goat be burned outside Jerusalem?"
         }
       ],
       "finalRuling": "The Yom Kippur bull and goat are burned outside Jerusalem because their blood was brought inside the Holy of Holies - the full atonement circuit requires both inner and outer movement.",
@@ -297,13 +317,20 @@
       ],
       "display": {
         "whats": "The carriers become impure; immersion completes the day; concluding laws of Yom Kippur",
-        "hint": "The people who carry the bull and goat outside Jerusalem become impure through the process; they immerse in water, wait for sundown, and return - forming a fitting conclusion to the day that began with immersion."
+        "hint": "The people who carry the bull and goat outside Jerusalem become impure through the process; they immerse in water, wait for sundown, and return - forming a fitting conclusion to the day that began with immersion.",
+        "title": "Yom Kippur's Circular Structure: The Day Ends with Immersion"
       },
       "learning": {
-        "summary": "The Mishnah concludes: those who carry the bull and goat outside Jerusalem for burning become ritually impure through contact with these animals. They must immerse in a mikveh, wait for sundown (tum'ah ends at nightfall), and may then return. Yom Kippur itself ends with the nightfall that ends the carriers' impurity. The day that began with the HP's immersion before service also ends with immersion - those who conclude the day's physical work purify themselves as night falls and the day concludes.",
         "ahaMoment": "Yom Kippur is framed by immersion: the HP immerses before the service begins, and the burning-carriers immerse as the day concludes. The holiest day is bookended by purification.",
         "memoryAnchor": "Yom Kippur: from immersion to immersion. The day opens and closes with purification - the whole day is one long act of becoming pure.",
-        "openQuestion": "What does it mean that Yom Kippur both begins and ends with immersion?"
+        "learnerQuestion": "Why do those who carry the Yom Kippur bull and goat outside Jerusalem become ritually impure, and what does this closing impurity reveal about the day's structure?",
+        "coreTension": "Yom Kippur is dominated by purification; yet the day's final physical act generates impurity in those who perform it, requiring immersion at day's end - holiness and impurity seem to paradoxically coincide.",
+        "coreMove": "Contact with the atonement offerings generates impurity because they are holy objects that have completed their service; this closing impurity mirrors the day's opening when the HP immersed before beginning - Yom Kippur is framed symmetrically by immersions at both ends, with the sacred and the impure marking the day's boundaries.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Those who carry the Yom Kippur bull and goat outside Jerusalem become ritually impure and must immerse at nightfall; this creates a structural symmetry where the day begins with the HP's immersion before service and ends with the carriers' immersion after the final act, framing Yom Kippur within ritual boundaries at both ends."
+        },
+        "learningBlocker": "Students focus on the HP's immersions as the day's purification framework and miss that the closing impurity of the carriers creates a symmetrical ritual frame that encompasses the entire day."
       },
       "argumentFlow": [
         {
@@ -363,7 +390,10 @@
         "Knowing Yom Kippur itself ends at nightfall"
       ],
       "misconceptions": [
-        "The carriers' impurity ends exactly when Yom Kippur itself ends - both conclude at nightfall"
+        {
+          "misconception": "Once the Yom Kippur service was complete and the HP's final immersion was done, the day ended in a state of completed purity with no further ritual transitions.",
+          "correction": "The day ends with those who carried the bull and goat outside Jerusalem becoming impure and immersing at nightfall; this closing immersion mirrors the day's opening immersion, framing Yom Kippur symmetrically with ritual boundaries at both ends."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -378,8 +408,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens to those who carry the bull and goat outside Jerusalem for burning?",
-          "answer": "They become ritually impure, must immerse in a mikveh, wait for sundown, and may then return. Yom Kippur's impurity (for them) ends exactly when the day itself ends."
+          "answer": "They become ritually impure, must immerse in a mikveh, wait for sundown, and may then return. Yom Kippur's impurity (for them) ends exactly when the day itself ends.",
+          "question": "What happens to those who carry the bull and goat outside Jerusalem for burning?"
         }
       ],
       "finalRuling": "The carriers of the Yom Kippur offerings become impure, immerse, and await sundown - Yom Kippur ends as it began, with purification.",

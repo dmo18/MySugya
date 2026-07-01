@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Which Yom Kippur services are essential (me'akev) and which are not",
-        "hint": "The Gemara establishes which Yom Kippur services are indispensable for the atonement to be achieved and which are required but do not void the atonement if omitted or done out of order."
+        "hint": "The Gemara establishes which Yom Kippur services are indispensable for the atonement to be achieved and which are required but do not void the atonement if omitted or done out of order.",
+        "title": "Essential vs. Required: What Voids Yom Kippur Atonement?"
       },
       "learning": {
-        "summary": "The Gemara works through the question of which services are me'akev (essential, such that their omission voids the atonement) and which are mandated but not invalidating if omitted. The blood services and confessions are essential; their omission or reversal undermines the atonement. The communal reading and blessings, while required, are not essential to the atonement mechanism itself. Some immersions are disputed.",
         "ahaMoment": "Not all Yom Kippur services are equal - the blood services and confessions are the load-bearing structure; the rest, while required, are the completing framework.",
         "memoryAnchor": "Me'akev vs. not me'akev: the distinction reveals which services are the core and which surround it.",
-        "openQuestion": "How does one distinguish between a required act and an indispensable act in Temple service?"
+        "learnerQuestion": "Is every required act of the Yom Kippur service equally critical, or are only some acts essential (me'akev) such that their omission voids the atonement?",
+        "coreTension": "The Mishnah prescribes many service elements, from blood sprinklings to public readings to immersions; if all were equally essential, any minor omission could void the entire day's atonement, which seems disproportionate.",
+        "coreMove": "The Gemara categorizes service elements as either me'akev (blood services and confessions, whose omission voids atonement) or obligatory-but-not-essential (readings, blessings, some immersions), anchoring the atonement mechanism in specific required acts while treating the broader service as obligatory but not invalidating.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The blood services and confessions are me'akev - their omission voids the Yom Kippur atonement; the Torah readings, blessings, and some immersions are obligatory but not me'akev, meaning their omission does not invalidate the atonement if the core services were completed."
+        },
+        "learningBlocker": "Students may assume that if the Mishnah prescribes an act, omitting it automatically voids the atonement; they miss the halakhic distinction between obligatory and me'akev that preserves proportionality in Temple law."
       },
       "argumentFlow": [
         {
@@ -70,7 +77,10 @@
         "Knowing the full list of Yom Kippur services"
       ],
       "misconceptions": [
-        "The reading and blessings are required but not me'akev - their omission does not void the atonement"
+        {
+          "misconception": "Every act prescribed by the Mishnah for Yom Kippur is equally essential - omitting any one of them would void the entire day's atonement.",
+          "correction": "The Gemara distinguishes obligatory acts from me'akev acts; only the blood services and confessions are me'akev - omitting them voids atonement - while readings and blessings are obligatory but do not invalidate the atonement if omitted."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -85,8 +95,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Which Yom Kippur services are considered me'akev (essential such that omission voids the atonement)?",
-          "answer": "The blood services (bull and goat), the confessions, and the scapegoat dispatch are essential. The Torah reading, blessings, and some immersions are required but are not me'akev."
+          "answer": "The blood services (bull and goat), the confessions, and the scapegoat dispatch are essential. The Torah reading, blessings, and some immersions are required but are not me'akev.",
+          "question": "Which Yom Kippur services are considered me'akev (essential such that omission voids the atonement)?"
         }
       ],
       "finalRuling": "The blood services, confessions, and scapegoat are me'akev (essential); the Torah reading and blessings are required but not invalidating if omitted.",
@@ -113,13 +123,20 @@
       ],
       "display": {
         "whats": "HP who performed service while impure: service is valid but he is punished",
-        "hint": "If the HP performed a Temple service while impure (with a non-extreme impurity), the service itself is valid - impurity does not retroactively invalidate completed service - but the HP is liable for having served while impure."
+        "hint": "If the HP performed a Temple service while impure (with a non-extreme impurity), the service itself is valid - impurity does not retroactively invalidate completed service - but the HP is liable for having served while impure.",
+        "title": "Impure HP, Valid Service: Communal Atonement vs. Personal Liability"
       },
       "learning": {
-        "summary": "The Gemara addresses the scenario where the HP performed a Yom Kippur service while in a state of ritual impurity. The ruling: the service is valid (bedi'avad, after the fact) because impurity does not retroactively void completed Temple service. However, the HP is personally liable for having served in an impure state, which violates the rules of priestly service. This distinction (service valid, person liable) is important: Israel's atonement is not undermined by the HP's personal failure.",
         "ahaMoment": "The HP's personal impurity does not undermine Israel's atonement - the service's validity and the priest's personal liability are separate questions. The nation's atonement is not held hostage to the HP's personal status.",
         "memoryAnchor": "Service valid, HP liable: the atonement's validity is protected even when the HP fails in his personal obligation.",
-        "openQuestion": "What does the separation between service validity and personal liability teach about the relationship between the priest's personal state and his communal function?"
+        "learnerQuestion": "If the HP performed the Yom Kippur service while ritually impure, is Israel's national atonement void, or is the service valid despite the HP's personal violation?",
+        "coreTension": "The HP's ritual purity seems central to the service's validity; yet declaring the service void whenever the HP was technically impure would leave Israel unprotected whenever an HP made a personal error.",
+        "coreMove": "The Gemara rules that impurity does not retroactively invalidate a completed Temple service; Israel's atonement stands because the service itself was performed, while the HP bears personal liability for having violated priestly service rules - communal function and personal status are legally independent categories.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A Yom Kippur service performed by an impure HP is bedi'avad valid; Israel's atonement is not voided by the HP's personal state, though the HP is personally liable for serving while impure - halakha separates the service's objective validity from the officiant's personal obligation."
+        },
+        "learningBlocker": "Students assume the HP's personal purity is a precondition for the service's validity and that his impurity would contaminate the communal atonement; they miss that halakha separates service validity from personal obligation, protecting the community from the priest's individual failure."
       },
       "argumentFlow": [
         {
@@ -177,7 +194,10 @@
         "Understanding the distinction between bedi'avad and ab initio"
       ],
       "misconceptions": [
-        "The HP's impurity does not void the service - Israel's atonement is not dependent on the HP's personal purity level"
+        {
+          "misconception": "If the HP served Yom Kippur while ritually impure, the entire national atonement is void because his impurity contaminated the service.",
+          "correction": "The Gemara rules the service is bedi'avad valid even if performed by an impure HP; Israel's atonement stands because completed Temple service is not retroactively voided, though the HP is personally liable for his violation."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -192,8 +212,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "If the HP performed Yom Kippur services while ritually impure, are the services valid?",
-          "answer": "Yes, the services are valid after the fact (bedi'avad) - impurity does not retroactively void completed Temple service. However, the HP is personally liable for having served while impure."
+          "answer": "Yes, the services are valid after the fact (bedi'avad) - impurity does not retroactively void completed Temple service. However, the HP is personally liable for having served while impure.",
+          "question": "If the HP performed Yom Kippur services while ritually impure, are the services valid?"
         }
       ],
       "finalRuling": "A HP who served while impure: the service is valid (impurity doesn't void it) but the HP is personally liable for the violation.",
@@ -260,13 +280,20 @@
       ],
       "display": {
         "whats": "The deputy HP (Mishneh) prepared to substitute if the main HP becomes unfit",
-        "hint": "A substitute HP (Mishneh) is designated and prepared in case the primary HP becomes impure, dies, or is otherwise unable to serve on Yom Kippur. Dispute over which services the Mishneh can perform."
+        "hint": "A substitute HP (Mishneh) is designated and prepared in case the primary HP becomes impure, dies, or is otherwise unable to serve on Yom Kippur. Dispute over which services the Mishneh can perform.",
+        "title": "The Deputy High Priest: Scope of His Authority"
       },
       "learning": {
-        "summary": "The Mishnah states that a Mishneh (deputy HP) was prepared alongside the HP throughout his seven-day preparation period. If the HP became unfit through impurity, death, or other incapacity, the Mishneh could potentially substitute. A dispute arises about which services the Mishneh can perform - specifically whether he can perform the essential blood services. One view: the Mishneh can perform all services. Another: he can only perform some, not the blood services which are exclusively the primary HP's role.",
         "ahaMoment": "The Mishneh represents a key tension: Yom Kippur's service is designed around one specific person, yet the service cannot simply not happen if that person fails. The backup exists but is limited.",
         "memoryAnchor": "The Mishneh is a backup that protects the day, but his limitations reveal that the primary HP is irreplaceable for the core services.",
-        "openQuestion": "If the Mishneh cannot perform the blood services, what happens if the HP dies after beginning but before completing them?"
+        "learnerQuestion": "If the HP becomes unfit during Yom Kippur and his designated deputy steps in, can the deputy perform all services including the essential blood services, or only some?",
+        "coreTension": "The deputy exists precisely to ensure continuity if the HP fails; yet if the deputy cannot perform the essential blood services, his role in a mid-service emergency is drastically limited precisely when continuity matters most.",
+        "coreMove": "A tannaitic dispute arises over whether the blood services - the most sacred inner acts of the day - are exclusively the primary HP's role or can be performed by his designated deputy; the question is whether the HP's uniqueness is tied to the office (which the deputy holds by designation) or to the individual's specific preparation and divine appointment.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Mishneh was designated as potential backup HP for Yom Kippur, but a tannaitic dispute exists about whether he can perform the blood services; one view holds these acts are exclusively the primary HP's role, tied to his individual preparation and designation rather than to the office itself."
+        },
+        "learningBlocker": "Students assume the designated deputy was a full substitute who could perform any service the HP could; they miss the question of whether the blood services' exclusivity is tied to the individual HP's preparation rather than to the office."
       },
       "argumentFlow": [
         {
@@ -367,7 +394,10 @@
         "Understanding what makes the HP's role unique on Yom Kippur"
       ],
       "misconceptions": [
-        "The Mishneh is not a co-HP - he is a backup only, and his role is disputed"
+        {
+          "misconception": "The designated Mishneh was a full substitute who could perform any Yom Kippur service including the blood services if the HP became unfit.",
+          "correction": "A tannaitic dispute exists over whether the Mishneh can perform the blood services; one view holds these are exclusively the primary HP's role because they are tied to his individual preparation and appointment, not just to the office of HP."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -382,8 +412,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was a deputy HP (Mishneh) prepared for Yom Kippur?",
-          "answer": "In case the primary HP became ritually impure, died, or was otherwise unfit to serve, a deputy was ready. Dispute exists whether the Mishneh can perform all services or only some."
+          "answer": "In case the primary HP became ritually impure, died, or was otherwise unfit to serve, a deputy was ready. Dispute exists whether the Mishneh can perform all services or only some.",
+          "question": "Why was a deputy HP (Mishneh) prepared for Yom Kippur?"
         }
       ],
       "finalRuling": "A deputy HP is prepared throughout the seven preparatory days in case the primary HP becomes unfit; dispute exists over which services he may perform.",
@@ -440,13 +470,20 @@
       ],
       "display": {
         "whats": "The closing services of Yom Kippur: personal and communal offerings completing the day",
-        "hint": "After retrieving the fire pan from the Holy of Holies and changing to golden garments, the HP completes the day with his personal ram, the people's ram, and the Musaf offerings."
+        "hint": "After retrieving the fire pan from the Holy of Holies and changing to golden garments, the HP completes the day with his personal ram, the people's ram, and the Musaf offerings.",
+        "title": "The Day's Closing Offerings in Golden Garments"
       },
       "learning": {
-        "summary": "The Mishnah lists the closing animal services: the HP's personal ram (offered for him and his household), the ram of the people (communal burnt-offering), and the additional Musaf offerings specific to Yom Kippur (seven lambs, one bull, two rams, and the sin-offering goat of Musaf). These are performed in golden garments. This concludes the formal service of the day. The evening tamid offering may also be included here. With these offerings, the Yom Kippur service is formally complete.",
         "ahaMoment": "The day that began with the HP's personal bull and the nation's goat ends with the HP's personal ram and the nation's ram - a symmetry of personal and communal representation.",
         "memoryAnchor": "Beginning: bull for priesthood, goat for Israel. Ending: ram for HP, ram for Israel. The symmetry of the closing mirrors the opening.",
-        "openQuestion": "Is there theological significance to the day beginning and ending with parallel personal-and-communal offerings?"
+        "learnerQuestion": "After the inner atonement services in white linen, what do the closing animal offerings in golden garments signify as the Yom Kippur service concludes?",
+        "coreTension": "The Yom Kippur service is dominated by the unique white-linen inner atonement acts; the closing offerings in golden garments return to the normal priestly register, raising the question of how the transition between sacred registers works on the holiest day.",
+        "coreMove": "The closing offerings (HP's personal ram, the people's ram, and the Musaf offerings) are standard Temple service elements performed in gold - the attire of normal priestly dignity - signaling that once the unique inner atonement is complete, the day transitions back to the ordinary sacred register while still on Yom Kippur.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "After completing the inner Yom Kippur services in white linen, the HP changes back to gold for the closing animal offerings - his ram, the people's ram, and the Musaf offerings; this return to gold marks the transition from the unique inner atonement phase back to the ordinary sacred register, completing the day's architectural structure."
+        },
+        "learningBlocker": "Students may not notice the structural parallel between the day's opening and closing offerings or recognize that the return to golden garments signals a deliberate shift in sacred register rather than mere practical transition."
       },
       "argumentFlow": [
         {
@@ -535,7 +572,10 @@
         "Knowing the Musaf offerings for Yom Kippur"
       ],
       "misconceptions": [
-        "The Musaf offerings are additional beyond the daily tamid - not a replacement for the daily offering"
+        {
+          "misconception": "The HP remains in white garments for all Yom Kippur offerings because the whole day is dominated by the inner atonement service's sacred character.",
+          "correction": "The HP changes back to golden garments for the closing animal offerings - his ram, the people's ram, and the Musaf; this return to gold signals the transition from the unique inner atonement phase back to the ordinary sacred register, marking a deliberate architectural shift within the day."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -550,8 +590,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What are the closing animal offerings of Yom Kippur?",
-          "answer": "The HP offers his personal ram and the people's ram in golden garments, followed by the Musaf offerings specific to Yom Kippur - completing the day's formal service."
+          "answer": "The HP offers his personal ram and the people's ram in golden garments, followed by the Musaf offerings specific to Yom Kippur - completing the day's formal service.",
+          "question": "What are the closing animal offerings of Yom Kippur?"
         }
       ],
       "finalRuling": "The HP closes Yom Kippur with his personal ram, the communal ram, and the Musaf offerings, completing the day's formal service in golden garments.",

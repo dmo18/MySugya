@@ -55,13 +55,20 @@
       ],
       "display": {
         "whats": "HP immerses five times and washes hands and feet ten times on Yom Kippur",
-        "hint": "Every change between white and golden garments requires immersion and hand-and-foot washing. The HP immerses five times and washes hands and feet ten times across the Yom Kippur day."
+        "hint": "Every change between white and golden garments requires immersion and hand-and-foot washing. The HP immerses five times and washes hands and feet ten times across the Yom Kippur day.",
+        "title": "Five Immersions and Ten Washings on Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishnah details the purification requirements accompanying each garment change. Every time the HP transitions from white linen to golden garments or vice versa, he must immerse in a mikveh and wash his hands and feet. This results in five immersions and ten hand-and-foot washings across the full Yom Kippur day. Each immersion marks a ritual reset between phases. The HP's level of purity on Yom Kippur exceeds any other day's requirements.",
         "ahaMoment": "Five immersions and ten hand-and-foot washings: the HP's body is reset five times across the day, marking each transition between inner (divine presence) and outer (community) service.",
         "memoryAnchor": "Five resets: the HP's body is purified five times, matching the five major transitions of his Yom Kippur day.",
-        "openQuestion": "Why does each garment change require a new immersion? Couldn't the HP maintain purity across transitions without immersing?"
+        "learnerQuestion": "Does the High Priest need a separate immersion for each garment change, or could one immersion at the start of the day suffice for the whole Yom Kippur service?",
+        "coreTension": "The HP's purity is continuous throughout the day yet each garment change triggers a mandatory ritual reset; the question is whether immersion remedies impurity that has occurred or marks a phase boundary regardless of current purity status.",
+        "coreMove": "Each garment change marks a distinct service phase with its own sacred character; the immersion is not a remediation of impurity but a ritual demarcation between phases, treating each phase as requiring its own consecrated entry - producing five immersions and ten washings total.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Each garment change on Yom Kippur requires a separate immersion and hand-and-foot washing regardless of the HP's current purity status, producing five immersions and ten washings for the full day; immersion functions as a phase-boundary consecration, not a response to actual impurity."
+        },
+        "learningBlocker": "Students assume immersion is only required when impurity has actually occurred; on Yom Kippur, immersion functions as a consecration marker at each phase transition, required even when no impurity has intervened."
       },
       "argumentFlow": [
         {
@@ -149,7 +156,10 @@
         "Knowing regular priests only wash once before morning service"
       ],
       "misconceptions": [
-        "The HP immerses five times total, not once at the beginning of the day"
+        {
+          "misconception": "The HP only needs to immerse if he becomes ritually impure during Yom Kippur; one initial immersion would suffice for the whole day if purity were maintained throughout.",
+          "correction": "Yom Kippur requires five immersions and ten hand-and-foot washings regardless of impurity; each garment change triggers a mandatory ritual reset as a phase-boundary consecration, not as a response to actual impurity."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -164,8 +174,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How many times does the HP immerse on Yom Kippur and why so many times?",
-          "answer": "Five times - once for each transition between white and golden garments. Each garment change requires a fresh immersion and hand-and-foot washing to maintain the proper purity level for each new phase of service."
+          "answer": "Five times - once for each transition between white and golden garments. Each garment change requires a fresh immersion and hand-and-foot washing to maintain the proper purity level for each new phase of service.",
+          "question": "How many times does the HP immerse on Yom Kippur and why so many times?"
         }
       ],
       "finalRuling": "The HP immerses five times and washes hands and feet ten times on Yom Kippur, once per garment change between white and golden vestments.",
@@ -207,13 +217,20 @@
       ],
       "display": {
         "whats": "Dispute: must immersions be in holy water (kiyor) or is a regular mikveh sufficient?",
-        "hint": "A dispute arises whether the HP's Yom Kippur immersions must be in the Temple's holy water basin or whether a regular mikveh (ritual pool) qualifies."
+        "hint": "A dispute arises whether the HP's Yom Kippur immersions must be in the Temple's holy water basin or whether a regular mikveh (ritual pool) qualifies.",
+        "title": "Which Immersions Require the Kiyor?"
       },
       "learning": {
-        "summary": "The Gemara records a dispute about the nature of the immersions: one position holds that the HP must immerse specifically in the kiyor (the holy water basin in the Temple courtyard) or water sanctified in a holy vessel. The other position holds that an ordinary mikveh is sufficient. This distinction matters practically, as the kiyor holds limited water. The Gemara works out which immersions require holy water and which are satisfied by regular mikveh.",
         "ahaMoment": "The dispute reflects a fundamental question: does the HP's Yom Kippur immersion require special sanctified water, or is any kosher mikveh water sufficient? The former makes the immersion uniquely Temple-connected; the latter makes it a standard purity act.",
         "memoryAnchor": "Holy water vs. regular mikveh: does the HP's immersion require Temple-specific sanctification, or just halachic purity?",
-        "openQuestion": "What is the practical implication if the HP's immersions require the kiyor specifically?"
+        "learnerQuestion": "When the Mishnah prescribes immersion for each garment change, must the HP use the kiyor (the Temple's sacred basin) or does any valid mikveh suffice?",
+        "coreTension": "If immersion must use the kiyor specifically, the kiyor's limited capacity creates a practical constraint on the service; if any mikveh suffices, the kiyor's special role is diminished.",
+        "coreMove": "The Gemara distinguishes between immersions requiring water sanctified in a holy vessel (adjacent to Temple service acts) and those satisfied by an ordinary mikveh, resolving the practical constraint while preserving the kiyor's specific role for particular service transitions.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Not all five HP immersions on Yom Kippur require the kiyor; the Gemara differentiates between immersions requiring water sanctified in a holy vessel and those satisfied by an ordinary mikveh, preserving the kiyor's specific role without extending it universally."
+        },
+        "learningBlocker": "Students assume the kiyor is the relevant vessel for all Temple purification and miss that distinct immersion requirements apply to different parts of the Yom Kippur service."
       },
       "argumentFlow": [
         {
@@ -301,7 +318,10 @@
         "Understanding the difference between Temple-sanctified water and regular mikveh water"
       ],
       "misconceptions": [
-        "Not all immersions need kiyor water - some may be satisfied by regular mikveh"
+        {
+          "misconception": "All of the HP's immersions on Yom Kippur must use the kiyor because the kiyor is the Temple's designated purification vessel.",
+          "correction": "The Gemara distinguishes between immersions requiring the kiyor or water sanctified in a holy vessel and those satisfied by an ordinary mikveh; the kiyor's role is specific to certain service transitions, not universal."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -316,8 +336,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the dispute regarding the HP's immersion water on Yom Kippur?",
-          "answer": "Whether the HP must immerse specifically in the Temple's kiyor or sanctified water (one position) or whether any valid mikveh is sufficient (another position)."
+          "answer": "Whether the HP must immerse specifically in the Temple's kiyor or sanctified water (one position) or whether any valid mikveh is sufficient (another position).",
+          "question": "What is the dispute regarding the HP's immersion water on Yom Kippur?"
         }
       ],
       "finalRuling": "A dispute exists whether the HP's Yom Kippur immersions require Temple-sanctified water (kiyor) or whether a regular mikveh suffices.",

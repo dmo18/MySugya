@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Rav Chisda: slaughtering Yom Kippur animals outside the Temple invalidates the service",
-        "hint": "Rav Chisda derives that the Yom Kippur animals must be slaughtered in the Temple courtyard; slaughtering outside violates a prohibition and invalidates the service."
+        "hint": "Rav Chisda derives that the Yom Kippur animals must be slaughtered in the Temple courtyard; slaughtering outside violates a prohibition and invalidates the service.",
+        "title": "Slaughter Must Be in the Azarah: Location as Service Requirement"
       },
       "learning": {
-        "summary": "Rav Chisda states the location requirement for the Yom Kippur animal slaughter: it must take place in the Temple courtyard (azarah). Slaughtering outside the Temple violates the prohibition against slaughtering consecrated animals outside their proper location, and also invalidates the Yom Kippur service. When Rav Dimi came from Eretz Yisrael, he brought a supporting tradition from Rabbi Yochanan that reinforces Rav Chisda's position.",
         "ahaMoment": "Location is intrinsic to the Temple service, not incidental. Performing the service in the wrong location is not a lesser version of the service - it is not the service at all.",
         "memoryAnchor": "The Temple's sacred geography is not decorative - each zone requires its specific service and each service requires its specific zone.",
-        "openQuestion": "Why does location matter so much in Temple service? What does slaughtering outside the Temple actually do wrong?"
+        "learnerQuestion": "Why must the Yom Kippur animals be slaughtered specifically within the Temple courtyard (azarah), and what goes wrong if they are slaughtered just outside it?",
+        "coreTension": "A slaughter performed just outside the azarah still kills the animal and could produce blood for subsequent service; one might think location is incidental if procedure and intent are correct.",
+        "coreMove": "Rav Chisda establishes that location within the azarah is itself a required element of valid Temple slaughter; slaughtering outside violates the prohibition against offering consecrated animals outside their designated location and simultaneously invalidates the service - the azarah's sacred domain is a precondition, not merely a setting.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Yom Kippur animals must be slaughtered within the Temple courtyard (azarah); slaughtering outside the azarah violates the prohibition against outside offering and invalidates the service entirely, because location within the designated sacred zone is a precondition for valid Temple animal service, not merely a procedural preference."
+        },
+        "learningBlocker": "Students think of slaughter as a purely procedural act (correct method, correct intent) and miss that where it occurs is equally a halakhic requirement; the azarah is not just the context for the service but a precondition for its validity."
       },
       "argumentFlow": [
         {
@@ -137,7 +144,10 @@
         "Knowing the Yom Kippur service zones"
       ],
       "misconceptions": [
-        "Slaughtering outside is not just procedurally wrong - it violates a biblical prohibition"
+        {
+          "misconception": "As long as the HP performed the slaughter with correct procedure and intent, the exact location is a secondary consideration that does not affect the service's validity.",
+          "correction": "Location within the azarah is a fundamental requirement; slaughtering the Yom Kippur animals outside the azarah violates the prohibition against outside offering and invalidates the service entirely, regardless of correct procedure and intent."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -152,8 +162,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens if the HP slaughters the Yom Kippur animals outside the Temple?",
-          "answer": "The service is invalidated and a prohibition is violated - the Temple's sacred geography is essential to service validity, and the required location is the Temple courtyard."
+          "answer": "The service is invalidated and a prohibition is violated - the Temple's sacred geography is essential to service validity, and the required location is the Temple courtyard.",
+          "question": "What happens if the HP slaughters the Yom Kippur animals outside the Temple?"
         }
       ],
       "finalRuling": "Slaughtering the Yom Kippur animals outside the Temple violates a prohibition and invalidates the service; location is intrinsic to the service, not incidental.",
@@ -225,13 +235,20 @@
       ],
       "display": {
         "whats": "The prohibition of slaughtering outside the Temple: its source, scope, and relationship to the positive obligation to slaughter inside",
-        "hint": "The Gemara derives both the prohibition of slaughtering sacrifices outside the Temple and the positive obligation to slaughter inside, showing they are two sides of the same requirement."
+        "hint": "The Gemara derives both the prohibition of slaughtering sacrifices outside the Temple and the positive obligation to slaughter inside, showing they are two sides of the same requirement.",
+        "title": "Two Aspects of the Location Requirement: Positive and Negative"
       },
       "learning": {
-        "summary": "The Gemara analyzes the biblical basis for the location requirement. There are two aspects: the positive obligation to bring sacrifices to the Temple (you shall bring them there) and the negative prohibition against offering sacrifices outside (you shall not offer your burnt-offerings in every place). The Gemara works through the derivations and their scope, showing how they interact with the Yom Kippur service specifically. The two aspects together create a coherent requirement that the Temple is the exclusive location for all sacrificial service.",
         "ahaMoment": "A location rule has two sides: a positive obligation (where it must be) and a negative prohibition (where it must not be). Understanding both gives the complete picture of the Temple's exclusive domain.",
         "memoryAnchor": "Two aspects, one principle: the Temple's exclusivity is enforced by both a positive command and a negative prohibition.",
-        "openQuestion": "Is the positive obligation to slaughter inside different from the negative prohibition against slaughtering outside? When would they diverge?"
+        "learnerQuestion": "Is the requirement to slaughter within the Temple a positive command (bring it here) or a negative prohibition (do not slaughter outside), and does this distinction have practical implications?",
+        "coreTension": "Positive obligations and negative prohibitions generate different legal consequences; if the location requirement has both aspects with independent derivations, understanding their separate scopes clarifies what is precisely violated in edge cases.",
+        "coreMove": "The Gemara derives both aspects from separate biblical verses: a positive obligation to bring sacrifices to the Temple and an independent negative prohibition against offering them elsewhere; together they establish the Temple as the exclusive location, but they may diverge in scope for specific service types or specific Yom Kippur animals.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The Temple location requirement has two independent biblical aspects: a positive obligation to bring sacrifices to the Temple and a separate negative prohibition against offering them elsewhere; the Gemara derives these from different verses and considers where they may diverge in application to specific Yom Kippur services."
+        },
+        "learningBlocker": "Students treat the location requirement as a single rule and miss that it has two distinct biblical derivations with potentially different scopes; understanding both aspects is necessary to analyze edge cases precisely."
       },
       "argumentFlow": [
         {
@@ -332,7 +349,10 @@
         "Knowing the positive command to bring sacrifices to the Temple"
       ],
       "misconceptions": [
-        "The two aspects (positive and negative) can overlap but are independent obligations"
+        {
+          "misconception": "The requirement to slaughter in the Temple is a single rule; there is no meaningful distinction between a positive obligation to bring sacrifices and a negative prohibition against offering them elsewhere.",
+          "correction": "The Gemara derives two independent aspects from separate biblical verses: a positive obligation to bring sacrifices to the Temple and a negative prohibition against offering them elsewhere; these can diverge in scope and have different implications for specific edge cases."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -347,8 +367,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What are the two legal aspects of the Temple's location requirement for sacrifices?",
-          "answer": "A positive obligation: bring sacrifices to the place God chooses. And a negative prohibition: do not offer sacrifices outside that place. Together they make the Temple the exclusive domain for sacrificial service."
+          "answer": "A positive obligation: bring sacrifices to the place God chooses. And a negative prohibition: do not offer sacrifices outside that place. Together they make the Temple the exclusive domain for sacrificial service.",
+          "question": "What are the two legal aspects of the Temple's location requirement for sacrifices?"
         }
       ],
       "finalRuling": "The Temple's location requirement has two sides: a positive obligation to slaughter there and a negative prohibition against slaughtering elsewhere.",
@@ -380,13 +400,20 @@
       ],
       "display": {
         "whats": "Concluding principle: the location requirement preserves the Temple's sacred geography",
-        "hint": "The Gemara concludes that location is not incidental to Temple service but is intrinsic to it, reflecting the Temple's designed sacred geography where each zone has its specific service."
+        "hint": "The Gemara concludes that location is not incidental to Temple service but is intrinsic to it, reflecting the Temple's designed sacred geography where each zone has its specific service.",
+        "title": "Sacred Geography: Each Zone Has Its Designated Service"
       },
       "learning": {
-        "summary": "The Gemara draws the conclusion that the Temple's sacred geography - the system of nested sacred zones each with its designated service - is itself part of what makes the Yom Kippur atonement work. The location requirements are not bureaucratic rules but reflections of a designed sacred order. Each zone (Holy of Holies, Heichal, azarah, outside the city) has its specific service role. Performing a service in the wrong zone is not just a technical error but a violation of the theological architecture of atonement.",
         "ahaMoment": "The Temple's zones are not just practical divisions - they encode a theology of sacred gradations. The location requirements preserve this theology by insisting each service stay in its proper zone.",
         "memoryAnchor": "Zone theology: the Temple's sacred geography maps the structure of atonement itself, with each zone requiring its specific service.",
-        "openQuestion": "What would be lost if the Temple's services were not zone-specific? What does the zone structure teach about the nature of holiness?"
+        "learnerQuestion": "What does the Temple's system of nested sacred zones reveal about how holiness and atonement are structured - is zoning administrative or theologically essential?",
+        "coreTension": "The Temple's zoning system could be viewed as administrative organization (managing space, preventing crowding); the Gemara insists it is theologically essential - the zone structure is not incidental but constitutive of what makes the service work.",
+        "coreMove": "The Gemara concludes that the Temple's nested sacred zones are theological architecture, not administrative convention: each zone has an exclusive designated service, and performing a service in the wrong zone is not a technical procedural error but a violation of the designed structure through which atonement operates.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Temple's nested sacred zones are not organizational convenience but theological architecture; each zone has an exclusive designated service role, and performing a service in the wrong zone violates the structured design through which atonement operates - the location requirements reflect the system's essential design rather than procedural preferences."
+        },
+        "learningBlocker": "Students view Temple zoning as administrative organization and miss that zone boundaries are theologically constitutive; the prohibition on performing a service in the wrong zone is not a bureaucratic rule but a protection of the atonement system's designed structure."
       },
       "argumentFlow": [
         {
@@ -444,7 +471,10 @@
         "Understanding what makes the Yom Kippur service unique in spanning all zones"
       ],
       "misconceptions": [
-        "The zone boundaries are not arbitrary - they reflect a designed theology of sacred space"
+        {
+          "misconception": "The Temple's division into different zones was primarily organizational to manage space and traffic; the prohibition on services in wrong zones is a procedural rule, not a theological requirement.",
+          "correction": "The Gemara establishes that the Temple's zoning is theological architecture; each zone has an exclusive designated service role, and performing a service in the wrong zone violates the designed structure through which atonement operates, not merely a procedural preference."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -459,8 +489,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the Temple's zone structure reveal about the Yom Kippur service?",
-          "answer": "The Yom Kippur service is unique in spanning all zones - from the Holy of Holies (innermost) to outside the city (for burning). The location requirements reflect the Temple's designed sacred geography where each zone has its specific role in atonement."
+          "answer": "The Yom Kippur service is unique in spanning all zones - from the Holy of Holies (innermost) to outside the city (for burning). The location requirements reflect the Temple's designed sacred geography where each zone has its specific role in atonement.",
+          "question": "What does the Temple's zone structure reveal about the Yom Kippur service?"
         }
       ],
       "finalRuling": "The Temple's sacred geography is intrinsic to the Yom Kippur service: each zone has its specific role, and the location requirements preserve this designed theology of holiness.",

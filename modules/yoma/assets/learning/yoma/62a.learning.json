@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Does the burning obligation apply to multiple goats in replacement scenarios?",
-        "hint": "The Torah obligates burning the slaughtered Yom Kippur goat. When replacement goats are brought, the question is how many must be burned and which ones."
+        "hint": "The Torah obligates burning the slaughtered Yom Kippur goat. When replacement goats are brought, the question is how many must be burned and which ones.",
+        "title": "Do Replacement Yom Kippur Goats Require Outside Burning?"
       },
       "learning": {
-        "summary": "The Gemara opens with a fundamental question about the burning obligation: when the Yom Kippur goats are replaced (due to death or other disqualification), does the burning obligation extend to all replacement goats or only to those that actually performed their service? The slaughtered 'for God' goat must be burned outside Jerusalem. When replacements are brought, understanding exactly which goats fall under this obligation is the question.",
         "ahaMoment": "The burning obligation is tied to service performance, not just designation. A goat designated but never used sits in a different legal category from one that performed its role.",
         "memoryAnchor": "Designated vs. performed: the burning tracks performance, not mere designation.",
-        "openQuestion": "Why would it matter whether the burning obligation applies to replacement goats that never performed their service?"
+        "learnerQuestion": "When the Yom Kippur goats are replaced due to death or disqualification, does the outside burning obligation extend to replacement goats that never actually performed their service?",
+        "coreTension": "The burning obligation attaches to goats whose blood was brought inside the sanctuary; replacement goats that died before service never had their blood brought inside, so whether they fall under the burning rule depends on whether the obligation follows service-performed or designation.",
+        "coreMove": "The Gemara examines whether the burning obligation follows from service-performed (only goats whose blood was actually brought inside) or from designation-as-atonement-offering (all animals designated for the Yom Kippur pair); the answer determines the scope of the outside burning obligation across all replacement scenarios.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A dispute arises about whether the outside burning obligation attaches only to Yom Kippur goats that had their blood brought inside, or also to designated replacements that never completed their service; the question turns on whether the obligation follows service-performed or designation-as-atonement-offering."
+        },
+        "learningBlocker": "Students assume the burning rule applies only to the goat that completed service; they miss the question of whether designation alone - independent of service completion - can activate the burning obligation for replacement animals."
       },
       "argumentFlow": [
         {
@@ -69,7 +76,10 @@
         "Knowing the Azazel goat is sent away, not burned"
       ],
       "misconceptions": [
-        "The Azazel goat is never burned - only the slaughtered goat undergoes burning"
+        {
+          "misconception": "Only the Yom Kippur goat that actually had its blood brought into the Holy of Holies requires outside burning; replacement goats that died before service have no burning obligation because they performed no service.",
+          "correction": "The Gemara debates whether the burning obligation follows from service-performed or from designation; if designation activates the obligation, replacement goats could require outside burning even if they never performed their service."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -84,8 +94,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Does the obligation to burn the Yom Kippur goat apply to replacement goats?",
-          "answer": "Only to replacement goats that actually performed their service (the slaughtered 'for God' goat). Goats designated but not used sit in a different category."
+          "answer": "Only to replacement goats that actually performed their service (the slaughtered 'for God' goat). Goats designated but not used sit in a different category.",
+          "question": "Does the obligation to burn the Yom Kippur goat apply to replacement goats?"
         }
       ],
       "finalRuling": "The burning obligation applies to goats that performed their service, not merely those that were designated.",
@@ -157,13 +167,20 @@
       ],
       "display": {
         "whats": "Rav Pappi and Rav Pappa dispute the scope of the burning obligation in replacement scenarios",
-        "hint": "Two amoraim disagree: Rav Pappi holds that the burning applies more broadly to replacements; Rav Pappa holds it applies more narrowly. The dispute turns on how the replacement pair-dynamics work."
+        "hint": "Two amoraim disagree: Rav Pappi holds that the burning applies more broadly to replacements; Rav Pappa holds it applies more narrowly. The dispute turns on how the replacement pair-dynamics work.",
+        "title": "Paired Unit vs. Individual Roles: Rav Pappi and Rav Pappa Dispute"
       },
       "learning": {
-        "summary": "The Gemara records a detailed dispute between Rav Pappi and Rav Pappa about the burning obligation when the Yom Kippur goats are replaced. When the Azazel goat dies and is replaced, what happens to the original 'for God' goat's burning status? Does the new pair function entirely independently, or does the original goat's status affect the new one? The two amoraim analyze the interdependence between the paired goats and reach different conclusions. The practical scenarios are carefully enumerated.",
         "ahaMoment": "Two amoraim, same texts, different conclusions: the paired nature of the Yom Kippur goats creates a complex web of interdependence that even great scholars must untangle carefully.",
         "memoryAnchor": "Rav Pappi vs. Rav Pappa: the same two goats create opposite conclusions depending on which interdependence principle you prioritize.",
-        "openQuestion": "When is it more important to treat the two Yom Kippur goats as a unified pair vs. as two independent sacrifices?"
+        "learnerQuestion": "When one Yom Kippur goat is replaced, does the replacement form a new independent pair with the survivor, or does the original pair's status carry through to bind the new arrangement?",
+        "coreTension": "The two goats are designated as a pair with matched properties, yet each has an individual role; when replacement becomes necessary, the tension between paired-unit logic and individual-role logic determines whether new pairings reset inherited obligations.",
+        "coreMove": "Rav Pappi and Rav Pappa dispute whether replacing one goat dissolves the original pairing and creates a fresh independent unit (resetting obligations) or whether original status carries through to the new pair; the dispute reflects whether the pair-unit or the individual-role is primary when the two conflict.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Rav Pappi and Rav Pappa dispute whether replacing one Yom Kippur goat creates a fully independent new pair or carries through the original pair's status to the new arrangement; the disagreement has practical implications for which replacement animals are subject to outside burning and how the service proceeds after a mid-stage replacement."
+        },
+        "learningBlocker": "Students may assume a replacement pair automatically starts fresh with no inherited status from the original pair; they miss that the original pairing's obligations may carry through, making the interdependence between the two goats more binding than their individual roles suggest."
       },
       "argumentFlow": [
         {
@@ -264,7 +281,10 @@
         "Knowing what happens to the partner when one goat dies or is replaced"
       ],
       "misconceptions": [
-        "The two goats are a pair but also independent - the balance between these principles is the dispute"
+        {
+          "misconception": "When one Yom Kippur goat is replaced, the replacement and the surviving original form a completely fresh pair with no inherited obligations from the original pairing.",
+          "correction": "Rav Pappi and Rav Pappa dispute whether replacing one goat creates a fresh independent pair or carries the original pairing's status through; the Gemara's analysis shows that pair-unit obligations can bind even replacement animals, not just the original pair."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -279,8 +299,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the dispute between Rav Pappi and Rav Pappa about the burning obligation?",
-          "answer": "Rav Pappi holds the burning obligation applies more broadly to replacement goats; Rav Pappa holds it applies narrowly. The disagreement turns on how the paired nature of the two goats affects replacement scenarios."
+          "answer": "Rav Pappi holds the burning obligation applies more broadly to replacement goats; Rav Pappa holds it applies narrowly. The disagreement turns on how the paired nature of the two goats affects replacement scenarios.",
+          "question": "What is the dispute between Rav Pappi and Rav Pappa about the burning obligation?"
         }
       ],
       "finalRuling": "Rav Pappi and Rav Pappa dispute how broadly the burning obligation applies in goat replacement scenarios, disagreeing on the interdependence principle of the paired Yom Kippur goats.",

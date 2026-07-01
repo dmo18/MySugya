@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Replacement goats: choosing the superior animal; the matching requirement applies to replacements",
-        "hint": "When replacement Yom Kippur goats are needed, the finest available animals should be chosen. The matching requirement ('he shall take two goats') applies to replacement pairs as much as to the original."
+        "hint": "When replacement Yom Kippur goats are needed, the finest available animals should be chosen. The matching requirement ('he shall take two goats') applies to replacement pairs as much as to the original.",
+        "title": "The Best Available: Hidur Mitzvah Applied to Replacement Offerings"
       },
       "learning": {
-        "summary": "The Mishnah states that if a superior goat is available as a replacement, that one should be chosen. The Gemara explores this: the quality requirement for Yom Kippur offerings does not relax in contingency scenarios. The replacement pair must also be matched with each other (same appearance, height, value), and should be of equal or better quality than what was originally designated. This reflects the principle of hidur mitzvah (beautifying the commandment) as applied to Temple service: always the best for God.",
         "ahaMoment": "Even in replacement scenarios, the Yom Kippur standard demands the best. The circumstances may be difficult but the quality requirement is unchanged - the relationship with God is not compromised by operational challenges.",
         "memoryAnchor": "Even in replacement: the best available is owed to God. The standard doesn't drop because the situation is difficult.",
-        "openQuestion": "What does the requirement to choose the superior replacement reveal about the theology of Temple offerings?"
+        "learnerQuestion": "When replacing a disqualified Yom Kippur goat, is any valid matching animal sufficient, or must the replacement be of equal or superior quality to the original?",
+        "coreTension": "In contingency scenarios, quality standards might reasonably relax since the ideal pair is no longer available; yet the Mishnah insists on choosing the superior replacement even in an already-disrupted situation.",
+        "coreMove": "The principle of hidur mitzvah (beautifying the commandment) applies to contingency scenarios without relaxation; the obligation to offer the best available animal is unconditional - the disruption does not lower the quality standard, and the replacement pair must still be matched in appearance, height, and value.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When a Yom Kippur goat requires replacement, the superior available animal must be chosen; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations for Temple service are unconditional rather than situational."
+        },
+        "learningBlocker": "Students may assume contingency scenarios allow quality relaxation since the ideal has already been disrupted; they miss that hidur mitzvah is not conditional on circumstances and applies with full force even when the original ideal conditions have been lost."
       },
       "argumentFlow": [
         {
@@ -155,7 +162,10 @@
         "Understanding hidur mitzvah in the context of Temple service"
       ],
       "misconceptions": [
-        "The quality requirement for replacements is as stringent as for the original pair - not a relaxed standard"
+        {
+          "misconception": "When a Yom Kippur goat must be replaced, any valid matching animal is acceptable - quality standards are secondary once a contingency situation has already disrupted the original plan.",
+          "correction": "The Mishnah requires choosing the superior available replacement; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations in Temple service are unconditional and do not relax in contingency scenarios."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -170,8 +180,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "When a replacement Yom Kippur goat is needed, what quality standard applies?",
-          "answer": "The finest available goat should be chosen - the quality requirement doesn't relax in replacement scenarios. If a superior goat is available, that one is used. The replacement pair must also match each other, just like the original pair."
+          "answer": "The finest available goat should be chosen - the quality requirement doesn't relax in replacement scenarios. If a superior goat is available, that one is used. The replacement pair must also match each other, just like the original pair.",
+          "question": "When a replacement Yom Kippur goat is needed, what quality standard applies?"
         }
       ],
       "finalRuling": "Replacement goats must meet the same quality and matching standards as the original pair; the finest available animal is required, reflecting hidur mitzvah.",

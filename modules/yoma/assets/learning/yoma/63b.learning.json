@@ -80,13 +80,20 @@
       ],
       "display": {
         "whats": "The prohibition on slaughtering sacrifices outside the Temple: scope, derivation, and the kareth penalty",
-        "hint": "The Gemara refines the scope of the prohibition against outside slaughter - it applies to animals intended as sacrifices, not to routine food slaughter. The penalty is kareth (spiritual excision)."
+        "hint": "The Gemara refines the scope of the prohibition against outside slaughter - it applies to animals intended as sacrifices, not to routine food slaughter. The penalty is kareth (spiritual excision).",
+        "title": "Outside Slaughter of Sacred Animals: Why Kareth?"
       },
       "learning": {
-        "summary": "The Gemara carefully analyzes what the prohibition on outside slaughter covers. The prohibition targets intentional sacrificial acts performed outside the Temple - animals intended to be brought as offerings but offered outside instead. Routine slaughter for food is categorically different and not subject to the prohibition. The Gemara derives this scope from the verse's language. The penalty for violating the prohibition is kareth (spiritual excision from the nation), reflecting the severity of bypassing the Temple's role as exclusive intermediary.",
         "ahaMoment": "The prohibition is about intent: routine slaughter for food is permitted everywhere; only slaughtering with sacrificial intent outside the Temple violates the prohibition. Intent transforms the same physical act into either food or forbidden sacrifice.",
         "memoryAnchor": "The same physical cut: but with sacrificial intent outside the Temple, it becomes kareth. Intent changes everything in Temple law.",
-        "openQuestion": "Why is the penalty for outside slaughter (kareth) so severe? What makes bypassing the Temple worthy of spiritual excision?"
+        "learnerQuestion": "Why does intentional slaughter of consecrated animals outside the Temple carry the severe penalty of kareth (spiritual excision), and what category of transgression does this represent?",
+        "coreTension": "Many Temple violations carry less severe penalties; the severity of kareth for outside slaughter suggests this is not merely a procedural error but a fundamental transgression - yet what makes bypassing the Temple's location requirement so grave?",
+        "coreMove": "The prohibition targets intentional sacrificial acts that bypass the Temple; kareth is the penalty because outside sacrifice is not a location error but an assertion of alternative sacred authority - it challenges the Temple's exclusive role as covenantal intermediary between Israel and God, making spiritual excision the structurally appropriate response.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Intentional slaughter of consecrated animals outside the Temple carries kareth because it is not a procedural location error but an assertion of alternative sacred authority; bypassing the Temple's exclusive role as covenantal intermediary is a fundamental transgression of Israel's covenantal structure, warranting spiritual excision."
+        },
+        "learningBlocker": "Students may view kareth for outside slaughter as a disproportionate penalty for a location violation; they miss that intentional outside sacrifice challenges the Temple's exclusive authority as covenantal intermediary, making it a fundamental transgression rather than a technical error."
       },
       "argumentFlow": [
         {
@@ -188,7 +195,10 @@
         "Knowing the distinction between food slaughter and sacrificial slaughter"
       ],
       "misconceptions": [
-        "The prohibition requires sacrificial intent - routine food slaughter anywhere is never prohibited"
+        {
+          "misconception": "The prohibition on outside slaughter is a technical location requirement, and kareth seems disproportionate for what is essentially a procedural violation about where an act takes place.",
+          "correction": "Intentional outside sacrifice is not a procedural error but a challenge to the Temple's exclusive covenantal authority; kareth reflects that bypassing the Temple's intermediary role is a fundamental transgression of Israel's covenant structure, not merely a location mistake."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -203,8 +213,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "When does the prohibition against slaughtering outside the Temple apply?",
-          "answer": "Only when the animal is intended as a sacrifice (burnt-offering, sin-offering, etc.) and is slaughtered outside the Temple. Routine slaughter for food is not subject to this prohibition. The penalty for violation is kareth."
+          "answer": "Only when the animal is intended as a sacrifice (burnt-offering, sin-offering, etc.) and is slaughtered outside the Temple. Routine slaughter for food is not subject to this prohibition. The penalty for violation is kareth.",
+          "question": "When does the prohibition against slaughtering outside the Temple apply?"
         }
       ],
       "finalRuling": "The outside-slaughter prohibition requires sacrificial intent; routine food slaughter is permitted everywhere. Violation with sacrificial intent incurs kareth.",

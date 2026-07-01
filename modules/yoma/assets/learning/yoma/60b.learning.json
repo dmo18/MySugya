@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "Eight blessings after the Torah reading; the Divine Name pronounced aloud in the Temple",
-        "hint": "The HP recites eight blessings after the Torah reading. In the Temple, he pronounces the explicit Divine Name (Shem haMeforash), and the congregation prostrates at each mention."
+        "hint": "The HP recites eight blessings after the Torah reading. In the Temple, he pronounces the explicit Divine Name (Shem haMeforash), and the congregation prostrates at each mention.",
+        "title": "The Eight Blessings and the Shem haMeforash"
       },
       "learning": {
-        "summary": "The Mishnah details the eight blessings recited by the HP in the Temple courtyard following the Torah reading. In the Temple - and only in the Temple on Yom Kippur - the HP pronounced the Shem haMeforash (the explicit Divine Name) when reciting these blessings. The entire congregation, hearing the Name pronounced, performed a full prostration (face to the ground). This moment was one of the most intense spiritual experiences of the Temple year: the people heard the Name of God from the mouth of the HP who had just emerged from standing before the Ark.",
         "ahaMoment": "The Divine Name pronounced in the Temple courtyard: the private encounter (HP alone before the Ark with the Name) becomes public, reaching the entire assembly prostrate before God.",
         "memoryAnchor": "The Name spoken aloud in the Temple: the holiest moment of the inner service echoes outward to the entire community prostrating together.",
-        "openQuestion": "What was it like for the congregation to hear the Shem haMeforash pronounced and to prostrate? Why is this only possible in the Temple?"
+        "learnerQuestion": "What made the HP's recitation of the eight blessings after the Torah reading uniquely powerful, and why was the pronunciation of the explicit Divine Name reserved exclusively for this moment in the Temple?",
+        "coreTension": "Divine Names are normally pronounced euphemistically to preserve their sanctity; yet the Temple on Yom Kippur permitted their full pronunciation, creating a tension between concealment-as-protection and direct-address-as-honor.",
+        "coreMove": "In the Temple on Yom Kippur, the HP's direct pronunciation of the Shem haMeforash was a sanctioned moment of maximum divine intimacy - not a breach of concealment but a deliberate revelation available only at the intersection of the holiest day and the holiest place; the congregation's full prostration was the appropriate response.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The HP pronounced the explicit Divine Name during the eight blessings only in the Temple on Yom Kippur; this was a sanctioned exception to the general prohibition, representing the maximum point of divine-human intimacy in Jewish practice, marked by the congregation's full prostration upon hearing the Name."
+        },
+        "learningBlocker": "Students may think the prohibition on pronouncing the Shem haMeforash was absolute and universal; they miss that the Temple on Yom Kippur was a sanctioned exception representing the maximum point of divine closeness, not a violation."
       },
       "argumentFlow": [
         {
@@ -140,7 +147,10 @@
         "Understanding what full prostration (hishtachavaya) looks like"
       ],
       "misconceptions": [
-        "The Divine Name was pronounced aloud only in the Temple - elsewhere, even then, 'Adonai' was substituted"
+        {
+          "misconception": "The prohibition against pronouncing the Shem haMeforash was absolute even in the Temple; the HP always used a substitute name for the Divine Name.",
+          "correction": "In the Temple on Yom Kippur the HP pronounced the explicit Divine Name during the eight blessings - this was a sanctioned exception representing maximum divine intimacy, and the congregation responded with full prostration upon hearing the Name spoken directly."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -159,8 +169,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens when the HP recites the eight blessings in the Temple courtyard on Yom Kippur?",
-          "answer": "He pronounces the explicit Divine Name (Shem haMeforash) in each blessing, and the entire congregation performs a full prostration each time they hear it - a uniquely direct communal encounter with the divine."
+          "answer": "He pronounces the explicit Divine Name (Shem haMeforash) in each blessing, and the entire congregation performs a full prostration each time they hear it - a uniquely direct communal encounter with the divine.",
+          "question": "What happens when the HP recites the eight blessings in the Temple courtyard on Yom Kippur?"
         }
       ],
       "finalRuling": "The HP pronounces the explicit Divine Name in the eight blessings; the congregation performs full prostration at each mention - possible only in the Temple.",
@@ -192,13 +202,20 @@
       ],
       "display": {
         "whats": "Closing services: HP's personal offerings, Musaf offerings, and return to white garments for final entry",
-        "hint": "After the Torah reading, the HP offers his personal ram, the communal ram, and the Musaf offerings. He then changes back to white garments for a brief final entry to retrieve the fire pan, then changes to gold for the remaining closing services."
+        "hint": "After the Torah reading, the HP offers his personal ram, the communal ram, and the Musaf offerings. He then changes back to white garments for a brief final entry to retrieve the fire pan, then changes to gold for the remaining closing services.",
+        "title": "The HP's Final Entry into the Holy of Holies"
       },
       "learning": {
-        "summary": "The Mishnah describes the closing sequence: after the Torah reading and blessings, the HP changes from gold to white garments (immersing and washing), re-enters the Holy of Holies briefly to retrieve the fire pan and incense spoon left from the incense service, exits, changes back to gold, and then completes the day's remaining animal offerings (his personal ram, the communal ram, certain Musaf offerings, and possibly the daily evening tamid). This final white-garment entry is the HP's last entry to the Holy of Holies on Yom Kippur.",
         "ahaMoment": "The last entry to the Holy of Holies: a brief, humble retrieval of the fire pan - not a blood service, not an atonement rite, just a caretaking act to complete the day.",
         "memoryAnchor": "Last entry in white: after all the atonement work is done, the HP enters one final time for the humble task of retrieving the pan.",
-        "openQuestion": "Why does the HP need to enter the Holy of Holies a final time for the fire pan? Could someone else retrieve it?"
+        "learnerQuestion": "After the blood services, why must the HP re-enter the Holy of Holies specifically to retrieve the fire pan and spoon, and could someone else retrieve them?",
+        "coreTension": "The fire pan and spoon have already served their purpose; one might assume they could be retrieved by any kohen or left until a convenient time, making the HP's re-entry seem unnecessary.",
+        "coreMove": "The retrieval of the fire pan and spoon is itself a service act bound to the Holy of Holies' sacred domain; items brought inside by the HP as part of service remain within that service's requirements until formally removed by the HP, completing the incense service's physical circuit.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The HP must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon left from the incense service; this retrieval is a required service act that only the HP can perform, completing the incense service's physical circuit and constituting the last entry into the Holy of Holies on Yom Kippur."
+        },
+        "learningBlocker": "Students treat the retrieval of the fire pan as a practical cleanup task that could be delegated; they miss that objects brought into the Holy of Holies as part of service remain bound by that service's requirements until the HP formally removes them."
       },
       "argumentFlow": [
         {
@@ -257,7 +274,10 @@
         "Knowing this is the fourth and final entry to the Holy of Holies"
       ],
       "misconceptions": [
-        "The final entry in white is not for atonement - just to retrieve the fire pan"
+        {
+          "misconception": "The fire pan and spoon could be retrieved later by any kohen once the essential Yom Kippur services were complete.",
+          "correction": "The HP alone must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon; their retrieval is a required service act bound to the HP's role, not a delegable cleanup task, and constitutes the last entry into the Holy of Holies on Yom Kippur."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -272,8 +292,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the HP's final entry to the Holy of Holies on Yom Kippur for?",
-          "answer": "To retrieve the fire pan (the coal pan) and incense spoon left inside from the morning incense service - a brief practical task rather than an atonement rite."
+          "answer": "To retrieve the fire pan (the coal pan) and incense spoon left inside from the morning incense service - a brief practical task rather than an atonement rite.",
+          "question": "What is the HP's final entry to the Holy of Holies on Yom Kippur for?"
         }
       ],
       "finalRuling": "The HP's final entry to the Holy of Holies is to retrieve the fire pan left from the incense service; he then changes to golden garments for the closing offerings.",

@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "Why a verse is needed to exclude the scapegoat from altar service",
-        "hint": "The Gemara asks why Scripture needs to designate the scapegoat 'for Azazel' - without this designation, the goat might be considered a valid altar offering. The verse excludes it from the sacrificial system."
+        "hint": "The Gemara asks why Scripture needs to designate the scapegoat 'for Azazel' - without this designation, the goat might be considered a valid altar offering. The verse excludes it from the sacrificial system.",
+        "title": "The 'For Azazel' Designation Excludes the Goat from Altar Service"
       },
       "learning": {
-        "summary": "The Gemara presents another angle on why the verse designating the goat 'for Azazel' is necessary. Without this exclusive designation, one might think the scapegoat could be brought on the altar as a regular sacrifice. The 'for Azazel' designation serves to exclude it from the sacrificial category, channeling it exclusively toward dispatch rather than altar service. This exclusion-by-designation analysis reveals the interplay between inclusion and exclusion in Temple law.",
         "ahaMoment": "The scapegoat is 'for Azazel' - not 'for the altar.' This exclusive designation does two things: it channels the goat to Azazel and simultaneously removes it from the realm of regular sacrifice.",
         "memoryAnchor": "The 'for Azazel' designation excludes the goat from the altar as much as it includes it in the dispatch service.",
-        "openQuestion": "What would happen if someone tried to slaughter the designated Azazel goat as a regular sacrifice?"
+        "learnerQuestion": "Why does the Torah explicitly designate the scapegoat 'for Azazel,' and what would happen if someone tried to slaughter the designated Azazel goat as a regular altar sacrifice?",
+        "coreTension": "Both Yom Kippur goats are identical animals before the lottery; without explicit designation, the 'for Azazel' goat might seem potentially usable as an altar sacrifice - making the designation's exclusionary function essential.",
+        "coreMove": "The Gemara establishes that the 'for Azazel' designation functions as an exclusion from the sacrificial category, not merely an assignment of dispatch role; without this exclusion, one might bring the scapegoat on the altar as a regular offering, which the Torah preemptively closes off through the explicit designation.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The 'for Azazel' designation serves a dual function: assigning the goat its dispatch role and simultaneously excluding it from altar service; the Gemara establishes that without this exclusionary designation, someone might attempt to bring the scapegoat as an ordinary sacrifice."
+        },
+        "learningBlocker": "Students read 'for Azazel' as purely assigning the dispatch role and miss its exclusionary function; the designation is not just 'this goat goes here' but also 'this goat cannot go there' - restriction from altar use is built into the designation."
       },
       "argumentFlow": [
         {
@@ -88,7 +95,10 @@
         "Knowing the scapegoat's unique role outside the sacrificial system"
       ],
       "misconceptions": [
-        "The scapegoat is not a sacrifice brought on the altar - its 'service' is the dispatch to the wilderness"
+        {
+          "misconception": "The 'for Azazel' designation simply tells the HP which goat to dispatch; it describes the positive role but has no relevance to whether the goat could be sacrificed on the altar.",
+          "correction": "The 'for Azazel' designation also functions as an exclusion from altar service; the Gemara establishes that this designation preemptively closes off the option of bringing the scapegoat as an ordinary sacrifice, making the exclusion as important as the assignment."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -103,8 +113,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does Scripture need to designate the scapegoat 'for Azazel' rather than just leaving it as an undesignated goat?",
-          "answer": "Without the explicit designation, the goat might be thought eligible for altar service. The 'for Azazel' designation simultaneously channels it to dispatch and excludes it from the regular sacrificial category."
+          "answer": "Without the explicit designation, the goat might be thought eligible for altar service. The 'for Azazel' designation simultaneously channels it to dispatch and excludes it from the regular sacrificial category.",
+          "question": "Why does Scripture need to designate the scapegoat 'for Azazel' rather than just leaving it as an undesignated goat?"
         }
       ],
       "finalRuling": "The 'for Azazel' designation excludes the scapegoat from the sacrificial category as much as it designates its role; the verse is necessary to create this exclusion.",
@@ -196,13 +206,20 @@
       ],
       "display": {
         "whats": "If one of the Yom Kippur goats dies after the lottery: replacement rules and the survivor's status",
-        "hint": "The Mishnah teaches: if one goat dies after the lottery but before slaughtering, a new lottery is performed on a replacement pair. The surviving goat's status pending the new lottery is analyzed."
+        "hint": "The Mishnah teaches: if one goat dies after the lottery but before slaughtering, a new lottery is performed on a replacement pair. The surviving goat's status pending the new lottery is analyzed.",
+        "title": "New Lottery Required When a Yom Kippur Goat Dies Before Service"
       },
       "learning": {
-        "summary": "The Mishnah states: if the 'for God' goat dies after the lottery but before slaughtering, a replacement is brought and a new lottery is performed on the entire pair (original survivor + new replacement). The Gemara analyzes what happens to the surviving Azazel goat in the interim. Is it held in limbo? Does its partner's death automatically render it invalid? The analysis reveals the delicate balance between the paired nature of the two goats and their individual roles. The ruling ensures the Yom Kippur service can always be completed.",
         "ahaMoment": "The replacement lottery system ensures Yom Kippur can proceed even when goats fail - the service's completion is protected by a systematic contingency built into the law.",
         "memoryAnchor": "If one fails, the system continues: a replacement lottery brings the surviving goat back into a valid pair.",
-        "openQuestion": "Why must a new lottery be performed rather than simply replacing the dead goat and assigning it the same role?"
+        "learnerQuestion": "If the 'for God' goat dies after the lottery but before being slaughtered, why must a new lottery be performed rather than simply designating the replacement to fill the same role?",
+        "coreTension": "The lottery already established which role each goat fills; when the 'for God' goat dies and a replacement is brought, assigning the same role to the replacement seems like a simple continuation of what was already determined.",
+        "coreMove": "The Gemara rules that the lottery assigned roles to the specific original goats, not to interchangeable slots; when one goat dies, the surviving goat's Azazel assignment was also specific to the original pair and cannot automatically carry over to a new pairing - a new lottery is required to establish both assignments for the new pair.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When the 'for God' goat dies after the lottery and a replacement is brought, a new lottery must be performed on the entire new pair; the original lottery's assignments were specific to the original animals as a pair, not transferable to a replacement, requiring a new divine designation for the new pair."
+        },
+        "learningBlocker": "Students assume the surviving Azazel goat retains its role while only the dead goat's slot needs to be refilled; they miss that the lottery assigned roles to specific animals as a paired unit, so when one dies, both assignments require re-establishment through a new lottery."
       },
       "argumentFlow": [
         {
@@ -302,7 +319,10 @@
         "Knowing what a new lottery accomplishes"
       ],
       "misconceptions": [
-        "The new lottery is on both the original survivor and the new replacement - not just on the new goat"
+        {
+          "misconception": "When the 'for God' goat dies, a replacement is simply designated to fill that role without a new lottery - the surviving Azazel goat retains its assignment and only the dead goat's slot needs to be filled.",
+          "correction": "A new lottery must be performed on the entire replacement pair because the original lottery assigned roles to specific animals as a paired unit; when one goat dies, the surviving goat's assignment also becomes invalid and must be re-established by a new lottery on the new pair."
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -317,8 +337,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens if the 'for God' goat dies after the lottery but before slaughtering?",
-          "answer": "A replacement goat is brought and a new lottery is performed on the full pair (original surviving Azazel goat + new replacement). The surviving Azazel goat is held pending the new lottery."
+          "answer": "A replacement goat is brought and a new lottery is performed on the full pair (original surviving Azazel goat + new replacement). The surviving Azazel goat is held pending the new lottery.",
+          "question": "What happens if the 'for God' goat dies after the lottery but before slaughtering?"
         }
       ],
       "finalRuling": "If a Yom Kippur goat dies after the lottery, a replacement is brought and a new lottery determines the roles of both the survivor and the replacement.",
