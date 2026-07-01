@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Joshua's manna and why manna fell daily (not annually)",
-        "hint": "Why did manna fall daily instead of once a year?"
+        "hint": "Why did manna fall daily instead of once a year?",
+        "title": "Daily Manna Builds Daily Relationship"
       },
       "learning": {
-        "summary": "Rabbi Shimon ben Yochai's students ask: why not save a year's supply all at once? He answers with a father-and-son parable: if the father gave food only once a year, the son would pray to him only once. By giving it daily, the son prays daily. Additional reasons: eat it fresh; avoid heavy loads; teach daily reliance on God. The passage opens with Joshua, who received manna for all of Israel during the forty days Moses was on the mountain.",
-        "ahaMoment": "Daily manna = daily prayer. The physical dependency was designed to create spiritual dependency.",
-        "memoryAnchor": "Annual manna would produce annual thanksgiving. Daily manna produces daily relationship with God.",
-        "openQuestion": "What is the deeper purpose of making Israel dependent on a daily gift?"
+        "ahaMoment": "Scarcity is a relationship tool: God used daily manna to build daily intimacy with Israel.",
+        "memoryAnchor": "Son visits daily for bread, once a year for a gift - manna kept Israel returning.",
+        "learnerQuestion": "Why did God give manna daily instead of a year's supply at once?",
+        "coreTension": "Between practical convenience (a year's supply means no daily labor) and the spiritual goal of continuous dependence and daily prayer.",
+        "coreMove": "Rabbi Shimon's parable makes the logic explicit: a father who gives his son everything at once is visited once a year; a father who gives daily is visited daily. Daily manna was a relationship technology - it required Israel to return to God every morning.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Daily dependence creates daily relationship. The manna was calibrated not for convenience but to make prayer a genuine necessity rather than a habit."
+        },
+        "learningBlocker": "Students may focus on the inconvenience and miss that the limitation was deliberate and purposeful."
       },
       "argumentFlow": [
         {
@@ -182,13 +189,20 @@
       ],
       "display": {
         "whats": "Manna amount calculation and Isi ben Yehuda's comparison with the Flood",
-        "hint": "How much manna fell and how does it compare to the Flood waters?"
+        "hint": "How much manna fell and how does it compare to the Flood waters?",
+        "title": "Tarfon Challenges Elazar on Manna Volume"
       },
       "learning": {
-        "summary": "Rabbi Tarfon challenges Rabbi Elazar HaModa'i's derivation about the manna's volume. Rabbi Elazar derives from the Flood verse (fifteen amot above the peaks) and the window calculation how much water fell - and compares this to the manna's hourly provision. Isi ben Yehuda: the manna fell in a single hour, while the Flood took forty days - making the manna far more miraculous. The Gemara challenges this comparison.",
-        "ahaMoment": "Manna fell in one hour what the Flood produced over forty days - a compressed miracle of provision versus destruction.",
-        "memoryAnchor": "The Flood destroyed what took forty days; the manna nourished what took one hour. Destruction is slower than divine provision.",
-        "openQuestion": "What does it mean that the manna was a greater miracle than the Flood?"
+        "ahaMoment": "Every analogy carries the burden of proving it is apt; Tarfon's challenge is a lesson in analogy-vetting.",
+        "memoryAnchor": "Tarfon challenges the Flood comparison: show the parallel is sound before the number stands.",
+        "learnerQuestion": "How did the rabbis calculate the total volume of manna, and why does the method matter?",
+        "coreTension": "Between Rabbi Elazar's derivation of manna volume by analogy from the Flood and Rabbi Tarfon's challenge that the analogy is internally inconsistent.",
+        "coreMove": "The debate is about the standard for a valid derivation by analogy. Tarfon argues that the Flood comparison succeeds only if the two situations share the same operative feature; an inconsistency in the parallel defeats the derivation.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A quantitative derivation by analogy requires that the parallel case share the same operative feature; a demonstrated inconsistency in the analogy defeats the derivation."
+        },
+        "learningBlocker": "Students may focus on the quantity (how much manna fell) and miss the methodological argument about how analogies work."
       },
       "argumentFlow": [
         {
@@ -352,13 +366,20 @@
       ],
       "display": {
         "whats": "Isi ben Yehuda: manna in one hour; five YK afflictions and drinking subsumed under eating",
-        "hint": "Why does the mishna list only five afflictions when six are forbidden? Is drinking included in eating?"
+        "hint": "Why does the mishna list only five afflictions when six are forbidden? Is drinking included in eating?",
+        "title": "Manna Greater Than the Flood"
       },
       "learning": {
-        "summary": "Isi ben Yehuda: the manna fell in a single hour what the Flood produced in forty days - making it a greater miracle. The Gemara then transitions: five afflictions of Yom Kippur correspond to five Torah verses of inuy. The mishna actually lists six (including drinking), but drinking is subsumed under eating. Rav Acha bar Yaakov: the verse 'spend money on whatever your soul desires' (food and drink together) proves drinking equals eating.",
-        "ahaMoment": "The Gemara treats drinking as a subset of eating - both are forms of physical consumption that the affliction requirement targets.",
-        "memoryAnchor": "Eating and drinking: one act of taking pleasure through the mouth. Yom Kippur affliction targets all oral pleasure as a single category.",
-        "openQuestion": "What does it mean to derive drinking from a verse that mentions food alone?"
+        "ahaMoment": "Halakhic derivation can follow physiological logic: eating and drinking share the same oral mechanism, so one prohibition covers both.",
+        "memoryAnchor": "Eating includes drinking - one verse, one body, two Yom Kippur prohibitions.",
+        "learnerQuestion": "How can a single verse about eating on Yom Kippur prohibit both eating and drinking?",
+        "coreTension": "Between the need for each prohibition to have its own explicit source and the possibility of deriving two prohibitions from a single verse.",
+        "coreMove": "The Gemara reasons that eating normally includes drinking (physiologically intertwined acts); a prohibition on eating therefore extends to drinking when both fall under the same bodily category of oral intake.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "When two acts are physiologically intertwined, a prohibition stated for one can extend to the other by analogy of function - one verse, one body mechanism, two prohibitions."
+        },
+        "learningBlocker": "Students may expect a separate explicit verse for drinking and be surprised that the eating verse can cover it."
       },
       "argumentFlow": [
         {

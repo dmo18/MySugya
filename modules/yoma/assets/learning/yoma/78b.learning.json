@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Cork shoe on Yom Kippur: is it a real shoe? Permitted or forbidden?",
-        "hint": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether it falls under the prohibition or is permitted."
+        "hint": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether it falls under the prohibition or is permitted.",
+        "title": "The Cork Sandal: Real Shoe or Not?"
       },
       "learning": {
-        "summary": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether it falls under the prohibition or is permitted.",
-        "ahaMoment": "The shoe prohibition targets protection and comfort - a cork sandal's minimal protection puts it in a gray area that the Gemara must resolve.",
-        "memoryAnchor": "Cork sandal: minimal shoe, maximum question - protection matters more than material.",
-        "openQuestion": "What is the deeper significance of the ruling about cork shoe on yom kippur: is it a real shoe? permitted or for?"
+        "ahaMoment": "Cork may be permitted on YK: it is too minimal to be the 'shoe' that signals dignity, and the prohibition targets the dignity marker.",
+        "memoryAnchor": "Cork sandal - too minimal for the prohibition: the shoe YK targets is a dignity marker, not any foot covering.",
+        "learnerQuestion": "Does a sandal made of cork qualify as the 'shoe' prohibited on Yom Kippur?",
+        "coreTension": "Between the functional definition of footwear (cork protects the foot minimally) and the dignity-based definition the YK prohibition envisions (a shoe as a status marker).",
+        "coreMove": "The Gemara raises the cork sandal question to probe the definition of 'shoe' in the prohibition. Since cork provides only minimal protection and minimal dignity, it may not qualify as the dignified footwear the Torah targets. The prohibition reveals it is about status, not foot coverage.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK shoe prohibition targets dignified footwear as a social status marker; minimal foot coverings that provide little protection and no social dignity may not meet the definition of 'shoe' the prohibition envisions."
+        },
+        "learningBlocker": "Students may assume any foot covering is prohibited; the Gemara's analysis of the cork sandal reveals the criterion is dignity, not material."
       },
       "argumentFlow": [
         {
@@ -139,12 +146,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is Abaye's argument that the Yom Kippur ban on a wooden prosthesis is about comfort, and how does Rava refute it?",
-          "a": "Abaye says the prosthesis is forbidden because of the comforting rags inside it, implying comfort itself is banned. Rava refutes this: rags do not make a non-shoe into a shoe, only shoes are forbidden, and Rabba bar Rav Huna's permitted wrapped feet plus the baraita's structure show the first clause had no rags at all."
+          "question": "What is Abaye's argument that the Yom Kippur ban on a wooden prosthesis is about comfort, and how does Rava refute it?",
+          "answer": "Abaye says the prosthesis is forbidden because of the comforting rags inside it, implying comfort itself is banned. Rava refutes this: rags do not make a non-shoe into a shoe, only shoes are forbidden, and Rabba bar Rav Huna's permitted wrapped feet plus the baraita's structure show the first clause had no rags at all."
         },
         {
-          "q": "According to Rava, what is the actual subject of the Shabbat dispute over the prosthetic leg?",
-          "a": "All agree the prosthesis counts as a shoe. The dispute is only whether to decree against wearing it on Shabbat lest it slip off and one carry it four cubits in public; Rabbi Yosei makes the decree, Rabbi Meir does not."
+          "question": "According to Rava, what is the actual subject of the Shabbat dispute over the prosthetic leg?",
+          "answer": "All agree the prosthesis counts as a shoe. The dispute is only whether to decree against wearing it on Shabbat lest it slip off and one carry it four cubits in public; Rabbi Yosei makes the decree, Rabbi Meir does not."
         }
       ],
       "finalRuling": "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether ",
@@ -181,13 +188,20 @@
       ],
       "display": {
         "whats": "Young children permitted to wear shoes on Yom Kippur",
-        "hint": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them."
+        "hint": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
+        "title": "Children and the Shoe Prohibition"
       },
       "learning": {
-        "summary": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
-        "ahaMoment": "Children's exemption from YK afflictions is not just leniency - it reflects that affliction has a purpose (atonement) that requires adult capacity.",
-        "memoryAnchor": "Children in shoes on YK: affliction requires adult capacity for atonement.",
-        "openQuestion": "What is the deeper significance of the ruling about young children permitted to wear shoes on yom kippur?"
+        "ahaMoment": "The afflictions are the form the YK mitzvah takes - without the mitzvah, there is no prohibition. Children are exempt from the mitzvah, so they are exempt from the affliction.",
+        "memoryAnchor": "Children wear shoes on YK: no mitzvah obligation, no affliction prohibition.",
+        "learnerQuestion": "Why are young children permitted to wear shoes on Yom Kippur?",
+        "coreTension": "Between the communal observance of YK (creating an expectation that everyone participates) and the halakhic reality that affliction obligations apply only to those obligated in the commandments.",
+        "coreMove": "The Gemara reasons that the affliction obligations are the form the YK mitzvot take; without the underlying mitzvah obligation, there is no prohibition. Young children are exempt from the mitzvot of the day and therefore from the afflictions that express them.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "YK affliction obligations apply only to those who bear full commandment obligations; minors who are exempt from the mitzvot of the day are also exempt from the afflictions that are their expression."
+        },
+        "learningBlocker": "Students may think children should afflict themselves for educational reasons; the Gemara's ruling is about legal obligation, not chinuch."
       },
       "argumentFlow": [
         {
@@ -270,12 +284,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is wearing shoes singled out as forbidden for children when other Yom Kippur acts are permitted to them?",
-          "a": "An onlooker seeing a child in shoes assumes an adult put them on that day, implying adult wrongdoing. With bathing or oil one could assume it was done the previous day, but a child would not have slept in shoes overnight, so shoes must have been put on during Yom Kippur itself."
+          "question": "Why is wearing shoes singled out as forbidden for children when other Yom Kippur acts are permitted to them?",
+          "answer": "An onlooker seeing a child in shoes assumes an adult put them on that day, implying adult wrongdoing. With bathing or oil one could assume it was done the previous day, but a child would not have slept in shoes overnight, so shoes must have been put on during Yom Kippur itself."
         },
         {
-          "q": "How does the Gemara reconcile permitting children's shoes ab initio with the concern about onlookers?",
-          "a": "It reinterprets the rule: the Sages decreed only against acts not needed for a child's growth, while permitting those that are. Footwear and care that support the child's development are allowed, so the onlooker concern does not bar what the child genuinely needs."
+          "question": "How does the Gemara reconcile permitting children's shoes ab initio with the concern about onlookers?",
+          "answer": "It reinterprets the rule: the Sages decreed only against acts not needed for a child's growth, while permitting those that are. Footwear and care that support the child's development are allowed, so the onlooker concern does not bar what the child genuinely needs."
         }
       ],
       "finalRuling": "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
@@ -317,13 +331,20 @@
       ],
       "display": {
         "whats": "A king wears shoes even on Yom Kippur for honor; dispute about kings",
-        "hint": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some."
+        "hint": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some.",
+        "title": "The King's Shoes on Yom Kippur"
       },
       "learning": {
-        "summary": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some.",
-        "ahaMoment": "Royal dignity is itself a religious value - even on YK, a king's honor has its own halachic weight.",
-        "memoryAnchor": "King in shoes: royal dignity is a religious category on YK.",
-        "openQuestion": "What is the deeper significance of the ruling about a king wears shoes even on yom kippur for honor; dispute abo?"
+        "ahaMoment": "The shoe prohibition is not only self-directed: if it were purely personal self-humbling, the king's public dignity would be irrelevant. The dispute itself reveals that public appearance is part of what YK regulates.",
+        "memoryAnchor": "King's shoes on YK: does royal dignity compete with public humility before God? The dispute is preserved.",
+        "learnerQuestion": "Can a king wear shoes on Yom Kippur because of royal dignity?",
+        "coreTension": "Between the universal application of the shoe prohibition (everyone goes barefoot on YK) and the special legal status of a king whose public dignity is a matter of law.",
+        "coreMove": "The Gemara debates whether kavod hamelech (royal dignity) overrides personal affliction obligations. The dispute reveals whether the shoe prohibition is purely a personal act of self-humbling or also carries a public dimension of appearing before God in humility.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The question of whether royal dignity overrides the YK shoe prohibition turns on whether the prohibition is purely self-directed or also a public statement; if it has a public dimension, the king's public dignity is a genuine competing principle."
+        },
+        "learningBlocker": "Students may assume religious prohibitions always override dignity considerations; the Gemara treats kavod hamelech as a genuine competing principle that requires resolution."
       },
       "argumentFlow": [
         {
@@ -422,12 +443,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What are the distinct reasons a king and a bride are permitted to wash their faces on Yom Kippur?",
-          "a": "A king must appear regal to his nation, as 'your eyes shall see the king in his beauty.' A bride washes so she will not appear repulsive to her husband at the start of their marriage, when her appearance is most critical, which the Gemara fixes at the first thirty days."
+          "question": "What are the distinct reasons a king and a bride are permitted to wash their faces on Yom Kippur?",
+          "answer": "A king must appear regal to his nation, as 'your eyes shall see the king in his beauty.' A bride washes so she will not appear repulsive to her husband at the start of their marriage, when her appearance is most critical, which the Gemara fixes at the first thirty days."
         },
         {
-          "q": "On what principle may a new mother or someone fearing scorpions wear shoes on Yom Kippur?",
-          "a": "That one need not endanger himself to observe the affliction. A new mother is weak and could fall ill from the cold, and a barefoot person facing scorpions is at risk, so in both cases health and safety override the prohibition on wearing shoes."
+          "question": "On what principle may a new mother or someone fearing scorpions wear shoes on Yom Kippur?",
+          "answer": "That one need not endanger himself to observe the affliction. A new mother is weak and could fall ill from the cold, and a barefoot person facing scorpions is at risk, so in both cases health and safety override the prohibition on wearing shoes."
         }
       ],
       "finalRuling": "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only s",
@@ -454,13 +475,20 @@
       ],
       "display": {
         "whats": "Eating a date-bulk on YK is prohibited; one who eats this amount is liable",
-        "hint": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not incur a sin offering."
+        "hint": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not incur a sin offering.",
+        "title": "The Date-Bulk Measure for Yom Kippur Eating"
       },
       "learning": {
-        "summary": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not incur a sin offering.",
-        "ahaMoment": "The measure of liability (shiur) on YK is a date-bulk, not an egg-bulk - Yom Kippur has its own distinct eating measure separate from Shabbat or other holidays.",
-        "memoryAnchor": "Date-bulk: YK has its own eating measure, distinct from all other days.",
-        "openQuestion": "What is the deeper significance of the ruling about eating a date-bulk on yk is prohibited; one who eats this am?"
+        "ahaMoment": "The measure reveals the logic: YK's prohibition is about affliction-relief, so the operative threshold is the amount that actually relieves affliction.",
+        "memoryAnchor": "Date-bulk not olive-bulk: YK targets satisfaction, so the measure matches satisfaction.",
+        "learnerQuestion": "Why does Yom Kippur use a date-bulk (kotevet) as its eating measure rather than the standard olive-bulk?",
+        "coreTension": "Between the standard olive-bulk (k'zayit) used as the minimum eating measure in most halakhic contexts and the larger kotevet used specifically for YK eating liability.",
+        "coreMove": "The Gemara establishes that YK uses the larger kotevet because the prohibition targets the relief of affliction, not the mere act of consumption. Eating less than a kotevet does not provide enough satisfaction to genuinely relieve the fasting state, so it does not trigger liability.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The YK eating measure is calibrated to satisfaction rather than consumption: the measure is larger than usual because the prohibition targets the relief of affliction, and only a quantity sufficient to actually relieve affliction triggers liability."
+        },
+        "learningBlocker": "Students may assume all eating prohibitions share the same minimum measure; understanding that different prohibitions have different operative criteria explains the variation."
       },
       "argumentFlow": [
         {
@@ -516,8 +544,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What measure of food makes one liable for eating on Yom Kippur, and what does Rav Pappa probe about it?",
-          "a": "The mishna sets liability at the volume of a large date. Rav Pappa opens the question of how exactly to measure it, for instance whether the date is counted with or without its pit, which the Gemara pursues on the next page."
+          "question": "What measure of food makes one liable for eating on Yom Kippur, and what does Rav Pappa probe about it?",
+          "answer": "The mishna sets liability at the volume of a large date. Rav Pappa opens the question of how exactly to measure it, for instance whether the date is counted with or without its pit, which the Gemara pursues on the next page."
         }
       ],
       "finalRuling": "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not i",

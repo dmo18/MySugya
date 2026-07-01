@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "The 'large date-bulk' measure: what it includes and how the Rabbis determined it",
-        "hint": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pit, and the Gemara explains how the Rabbis establis..."
+        "hint": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pit, and the Gemara explains how the Rabbis establis...",
+        "title": "Calculating the Kotevet Hagasah"
       },
       "learning": {
-        "summary": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pit, and the Gemara explains how the Rabbis established this particular size through tradition and analysis.",
-        "ahaMoment": "Including the date pit in the measure is not arbitrary - it reflects the actual size of something you might swallow at one time, not just the edible portion.",
-        "memoryAnchor": "Date-bulk includes the pit: the measure reflects real eating, not just nutrition.",
-        "openQuestion": "What is the deeper significance of the ruling about the 'large date-bulk' measure: what it includes and how the ?"
+        "ahaMoment": "Including the pit is about anchoring an abstract concept (affliction-relief) to a tangible physical object; the whole date, not just its flesh, is the unit the Gemara uses.",
+        "memoryAnchor": "Kotevet hagasah includes the pit - the whole date is the measure, not just the flesh.",
+        "learnerQuestion": "What exactly counts as part of the large date-bulk (kotevet hagasah) used for Yom Kippur liability?",
+        "coreTension": "Between a conceptual measure (enough to relieve affliction) and the need for a precise physical measurement that can be practically applied.",
+        "coreMove": "The Gemara specifies that the kotevet hagasah includes the pit: the measure is the whole date, not just its edible flesh. This precision ruling ensures the physical measure corresponds to the conceptual goal - measuring the whole unit as consumed, not just the edible part.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK eating measure is the whole date including the pit, because the measure derives from the date as a complete unit; only by measuring the whole object (pit included) can a conceptual measure (affliction-relief) be anchored to a tangible physical referent."
+        },
+        "learningBlocker": "Students may assume the measure refers only to the edible flesh, as with most food measures; the inclusion of the pit is a specific ruling for the kotevet hagasah."
       },
       "argumentFlow": [
         {
@@ -121,12 +128,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara settle whether the large-date measure includes the pit?",
-          "a": "From the word 'large' in the mishna. Since it specifies a large date, it means as large as possible, which necessarily includes the pit, so liability is measured by the date together with its pit."
+          "question": "How does the Gemara settle whether the large-date measure includes the pit?",
+          "answer": "From the word 'large' in the mishna. Since it specifies a large date, it means as large as possible, which necessarily includes the pit, so liability is measured by the date together with its pit."
         },
         {
-          "q": "Why does Rabban Gamliel's insistence on eating two dates in the sukka challenge the view that a large date exceeds an egg?",
-          "a": "His insistence implies the two dates amounted to a fixed, obligation-bearing meal requiring a sukka. If two dates without pits do not even reach an egg-bulk, it is hard to maintain that a single large date with its pit is larger than an egg, creating tension with that view."
+          "question": "Why does Rabban Gamliel's insistence on eating two dates in the sukka challenge the view that a large date exceeds an egg?",
+          "answer": "His insistence implies the two dates amounted to a fixed, obligation-bearing meal requiring a sukka. If two dates without pits do not even reach an egg-bulk, it is hard to maintain that a single large date with its pit is larger than an egg, creating tension with that view."
         }
       ],
       "finalRuling": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pi",

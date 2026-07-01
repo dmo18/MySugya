@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Tirosh (new wine) and the YK drinking prohibition scope",
-        "hint": "Does the Yom Kippur prohibition apply to all beverages or only wine?"
+        "hint": "Does the Yom Kippur prohibition apply to all beverages or only wine?",
+        "title": "Sheikhar: Linking Yom Kippur to the Nazir"
       },
       "learning": {
-        "summary": "The Gemara derives via gezerah shavah from nazir: 'sheikhar' in the Yom Kippur verse is linked to 'sheikhar' by the nazir - since for the nazir, tirosh (new wine) is included, so too on Yom Kippur. A discussion follows on whether tirosh means fermented wine or unfermented new wine: the Gemara concludes it is the same substance called by different names depending on its effect. Rav Kahana: 'tirosh' is written 'tirash' (without the vav) - if you merit, it gives you wealth (tirosh); if not, it impoverishes you (tirash).",
-        "ahaMoment": "The same grape juice is called tirosh (inheritance/wealth) when used properly, or tirash (impoverishment) when misused - the liquid itself contains both possibilities.",
-        "memoryAnchor": "Wine can be wealth or poverty - the same cup, two words, two destinies.",
-        "openQuestion": "Why does Yom Kippur's drinking prohibition use the word 'sheikhar' (strong drink) rather than 'yayin' (wine)?"
+        "ahaMoment": "The word 'sheikhar' in the YK verse is a hook, not a scope limit - it exists to enable the gezerah shavah, not to restrict the prohibition.",
+        "memoryAnchor": "Sheikhar appears in both places: the shared word imports the nazir's full prohibition into YK.",
+        "learnerQuestion": "Why does the Yom Kippur verse use the word 'sheikhar' (strong drink) if the prohibition covers all liquids?",
+        "coreTension": "Between the literal scope of 'sheikhar' (strong drink only) and the gezerah shavah that extends the prohibition to all drinking via the nazir's prohibition.",
+        "coreMove": "The shared word 'sheikhar' in the YK verse and the nazir section creates a gezerah shavah that imports the nazir's total prohibition on all drink into YK, expanding far beyond the literal meaning of sheikhar.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A gezerah shavah uses a shared word as a legal hook to import the full framework of one context into another; the word need not define the scope of the prohibition - it only needs to anchor the analogy."
+        },
+        "learningBlocker": "Students may think 'sheikhar' limits the prohibition to strong drink; the gezerah shavah mechanism is what matters, not the word's literal meaning."
       },
       "argumentFlow": [
         {
@@ -236,13 +243,20 @@
       ],
       "display": {
         "whats": "Sources for bathing and anointing as Yom Kippur afflictions",
-        "hint": "From which verses do we derive that bathing and anointing are forbidden on Yom Kippur?"
+        "hint": "From which verses do we derive that bathing and anointing are forbidden on Yom Kippur?",
+        "title": "Anointing as Affliction: Daniel's Proof"
       },
       "learning": {
-        "summary": "The Gemara derives that anointing is called affliction from Daniel: 'bread of affliction I did not eat, water I did not drink, and anointing I did not anoint' - the verse brackets anointing between eating and drinking. From where is bathing derived? Rav Zutra: from the same Daniel verse (bathing is implied). However, the tanna in the mishnah derives the order differently - anointing from the mourner passage - leading to a question about which is primary. The passage closes with the angel's statement to Daniel: 'I came according to your words' - referring to the 70 elders.",
-        "ahaMoment": "Daniel's self-affliction (no bread, no water, no anointing) became the model for Yom Kippur - not just eating but all physical pleasure.",
-        "memoryAnchor": "Daniel's three-part abstention: food, water, anointing. The Gemara maps these to three separate Yom Kippur prohibitions.",
-        "openQuestion": "Why does the Gemara need multiple sources for bathing and anointing - isn't the Daniel verse sufficient?"
+        "ahaMoment": "Daniel's mourning list is the Gemara's key: by grouping anointing with fasting from food, it reclassifies anointing from luxury to genuine bodily need.",
+        "memoryAnchor": "Daniel abstained from bread, water, and anointing - three items, one act of affliction, anointing elevated to need.",
+        "learnerQuestion": "Why does the Gemara need multiple proofs to establish that abstaining from anointing counts as inui (affliction)?",
+        "coreTension": "Between the intuition that anointing is a luxury (not a need, so abstaining from it should not count as affliction) and the halakhic requirement that it does count as inui on Yom Kippur.",
+        "coreMove": "Daniel's text groups bread, water, and anointing together as what he abstained from in mourning, treating all three as equivalent forms of deprivation. This grouping elevates anointing from luxury to genuine need.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "When a verse groups multiple abstentions together as a single act of self-deprivation, each item in the group gains the halakhic status of affliction, even items that seem like luxuries."
+        },
+        "learningBlocker": "Students may ask why one clear proof isn't enough; the Gemara needs multiple proofs because bathing and anointing seem like luxuries rather than necessities, making each step of the proof work harder."
       },
       "argumentFlow": [
         {

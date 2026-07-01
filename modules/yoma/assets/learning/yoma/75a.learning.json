@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Eyes on the cup: drunk men see all women as permitted",
-        "hint": "What moral danger comes from habitual drinking?"
+        "hint": "What moral danger comes from habitual drinking?",
+        "title": "Wine Habit and Moral Erosion"
       },
       "learning": {
-        "summary": "One who habitually sets his eye on the wine cup comes to see all forbidden women as if they were permitted - like flat terrain with no boundaries.",
-        "ahaMoment": "Drunkenness dissolves moral distinctions, not just coordination.",
-        "memoryAnchor": "Eyes on the cup: all women look permitted, like flat land. One glass too many flattens all moral boundaries.",
-        "openQuestion": "Is the danger of wine about drunkenness or about a pattern of attention?"
+        "ahaMoment": "The 'flat terrain' metaphor is the key: when you habituate yourself to wine, the hills that mark boundaries disappear from view.",
+        "memoryAnchor": "Flat terrain - the wine habit levels every hill until no boundary is visible.",
+        "learnerQuestion": "Why does the Gemara connect wine consumption to sexual transgression?",
+        "coreTension": "Between treating wine as merely a physical pleasure and recognizing it as something that reshapes moral perception over time.",
+        "coreMove": "The Gemara uses 'flat terrain' (meishar) as its key image: habitual drinking trains the eye to see all moral distinctions as flat, until forbidden women appear as permitted. This is not about drunkenness but about a pattern that erodes discernment.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Habitual indulgence erodes moral perception not through a single act but through a pattern that trains the eye to see all limits as equally flat."
+        },
+        "learningBlocker": "Students may think this is about a single episode of drunkenness rather than a cumulative pattern of attention."
       },
       "argumentFlow": [
         {
@@ -99,13 +106,20 @@
       ],
       "display": {
         "whats": "Worry: share it or suppress it?",
-        "hint": "When you have deep worry, what should you do with it?"
+        "hint": "When you have deep worry, what should you do with it?",
+        "title": "Sharing or Suppressing Worry"
       },
       "learning": {
-        "summary": "Rabbi Ami and Rabbi Asi dispute: one says share worry with others (to lighten it); the other says suppress it and push it aside.",
-        "ahaMoment": "Two valid responses to anxiety - neither is universally right.",
-        "memoryAnchor": "Worry: share it (lighten the load) or swallow it (keep moving). The Gemara offers both as valid paths.",
-        "openQuestion": "When is sharing worry helpful versus harmful?"
+        "ahaMoment": "The Talmud's preservation of both views is the instruction: there is no one-size answer to managing anxiety.",
+        "memoryAnchor": "Two sages, two counsels: share it or hold it - both preserved, neither ruled out.",
+        "learnerQuestion": "Should a person share worry with others or suppress it inwardly?",
+        "coreTension": "Rabbi Ami and Rabbi Asi give opposite advice, and the Gemara preserves both without resolving which is correct.",
+        "coreMove": "The Gemara holds both positions: share worry to lighten it (others can help carry the burden) vs. suppress worry to contain it (speaking it out amplifies anxiety). The dispute implies neither is universally right.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Talmud preserves two opposing counsels about managing worry without resolution, implying the right approach depends on the person and context."
+        },
+        "learningBlocker": "Students may expect the Gemara to rule one way; recognizing that the preserved dispute is itself the teaching requires a shift in expectation."
       },
       "argumentFlow": [
         {
@@ -238,13 +252,20 @@
       ],
       "display": {
         "whats": "Fish we ate in Egypt, cucumbers, and the manna's appearance",
-        "hint": "Were Israel's complaints about fish and vegetables literally true, or were they about something else?"
+        "hint": "Were Israel's complaints about fish and vegetables literally true, or were they about something else?",
+        "title": "Fish or Licentiousness in Egypt"
       },
       "learning": {
-        "summary": "Rav and Shmuel dispute whether 'the fish we ate in Egypt' refers to actual fish (available freely) or to sexual immorality (a polite euphemism). Evidence for immorality: Moses heard them weeping 'by their families.' The Gemara then discusses the cucumbers and melons, the manna's appearance (coriander, white, round like a pearl), and the manna's spiritual effect: its whiteness whitened Israel's sins.",
-        "ahaMoment": "The manna's whiteness is simultaneously physical and spiritual - the same color that describes it also symbolizes what it did to Israel's soul.",
-        "memoryAnchor": "White manna, white sins - the food's appearance matched its effect. And fish was a coded complaint about forbidden relations.",
-        "openQuestion": "How does the manna's white color connect to spiritual purification?"
+        "ahaMoment": "The manna purified not just the body but the moral climate - that is what the complainers actually resented losing.",
+        "memoryAnchor": "Free fish = free license; the manna's holiness closed that door.",
+        "learnerQuestion": "What did Israel actually miss when they said 'the fish we ate in Egypt for free'?",
+        "coreTension": "Rav and Shmuel disagree on whether the verse is literal (fish were available freely) or euphemistic (sexual license was freely available).",
+        "coreMove": "Shmuel reads 'fish' as a euphemism for sexual immorality: the manna's purity imposed moral constraints on behavior that Egypt lacked. What Israel resented was not the lack of fish but the loss of license.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Rabbinic exegesis can read a verse as euphemistic when the literal meaning conflicts with the theological context; here the manna's holiness frames what 'free' availability really meant."
+        },
+        "learningBlocker": "Students unfamiliar with rabbinic euphemism may miss the double meaning the Gemara detects in the word 'fish.'"
       },
       "argumentFlow": [
         {
@@ -497,13 +518,20 @@
       ],
       "display": {
         "whats": "Manna as prophecy, and its prophetic function in legal disputes",
-        "hint": "How did the manna reveal truth beyond just being food?"
+        "hint": "How did the manna reveal truth beyond just being food?",
+        "title": "Manna as Prophetic Oracle"
       },
       "learning": {
-        "summary": "Rabbi Yosei: just as a prophet told them what they would eat tomorrow, so too the manna tasted prophetically like tomorrow's food. In legal disputes brought before Moses, the manna fell near the innocent party's tent, physically revealing truth. The upper and lower dew layers preserved and delivered the manna like a chest.",
-        "ahaMoment": "The manna was not just food - it was a daily revelation about both future events and present truth.",
-        "memoryAnchor": "Manna at your tent, not your neighbor's - God's verdict delivered as food.",
-        "openQuestion": "What made the manna function as a divine judgment system in legal disputes?"
+        "ahaMoment": "God built a court of inquiry into the desert diet: the manna did not just sustain Israel, it testified about them.",
+        "memoryAnchor": "Manna as oracle - it testified through the body, settling wrong in the guilty.",
+        "learnerQuestion": "How could the manna function as evidence in legal disputes?",
+        "coreTension": "Between natural food (which has a fixed, passive taste) and miraculous food that actively responds to the moral state of the eater.",
+        "coreMove": "The manna's taste revealed truth: in cases of suspected adultery, the manna settled wrongly in the guilty person's body, making it a living oracle. The daily miracle doubled as a divine court of inquiry.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The manna was not merely miraculous food but a divine instrument of justice: its physical behavior in the body could serve as evidence in legal disputes."
+        },
+        "learningBlocker": "Students may treat this as pure aggadah without recognizing that the Gemara is making a claim about how miracles can have evidentiary standing."
       },
       "argumentFlow": [
         {
@@ -615,13 +643,20 @@
       ],
       "display": {
         "whats": "Manna preparation, taste like nursing, and evening meat vs morning bread",
-        "hint": "Could the manna be prepared in multiple ways, and what did it taste like?"
+        "hint": "Could the manna be prepared in multiple ways, and what did it taste like?",
+        "title": "One Manna, Many Preparations"
       },
       "learning": {
-        "summary": "Multiple verses about the manna (bread, cakes, ground, beaten in mortar) are harmonized: some ate it raw, some baked, some cooked. The manna also tasted like whatever each person wanted. Rabbi Abbahu: its taste was like nursing itself - intimate nourishment. The provision schedule: meat was given at night, bread in the morning.",
-        "ahaMoment": "Manna tasted like nursing - the most intimate, personalized form of nourishment, calibrated to exactly what each person needed.",
-        "memoryAnchor": "Nursing: no two feedings the same, calibrated to the child. The manna was like that - uniquely nourishing each person.",
-        "openQuestion": "What does it mean that the manna tasted like 'nursing'?"
+        "ahaMoment": "The manna was infinitely personalized - not a single food but a miraculous substance that took the shape each person required.",
+        "memoryAnchor": "Raw, baked, ground, beaten - one manna, shaped differently for each person.",
+        "learnerQuestion": "Why do multiple verses describe the manna being eaten in so many different ways?",
+        "coreTension": "Between the apparent contradiction among the verses (raw, baked, ground, beaten in mortar) and the need to harmonize them into a coherent account.",
+        "coreMove": "The Gemara resolves the contradiction by holding that different people experienced the manna differently according to their needs and preferences. The miracle adapted to each individual.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "When scripture describes a miraculous phenomenon in contradictory ways, the Gemara often resolves by positing that the miracle accommodated different individuals simultaneously."
+        },
+        "learningBlocker": "Students may assume one verse must be correct and others allegorical, missing the Gemara's harmonizing strategy of universal applicability."
       },
       "argumentFlow": [
         {

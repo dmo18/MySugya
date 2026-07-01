@@ -70,13 +70,20 @@
       ],
       "display": {
         "whats": "Egg-bulk measure for YK; how eating measures were determined; combining foods",
-        "hint": "The Gemara discusses the egg-bulk (beitza) measure used in many halachic contexts, and how it relates to the YK eating measure. The discussion covers how the Sages determined these measures and whethe..."
+        "hint": "The Gemara discusses the egg-bulk (beitza) measure used in many halachic contexts, and how it relates to the YK eating measure. The discussion covers how the Sages determined these measures and whethe...",
+        "title": "Egg-Bulk and Date-Bulk: Calibrating Yom Kippur Measures"
       },
       "learning": {
-        "summary": "The Gemara discusses the egg-bulk (beitza) measure used in many halachic contexts, and how it relates to the YK eating measure. The discussion covers how the Sages determined these measures and whether different foods combine toward the minimum amount.",
-        "ahaMoment": "The egg-bulk is a practical measure from daily life - the Rabbis anchored abstract legal thresholds in observable, common objects rather than precise weights.",
-        "memoryAnchor": "Egg-bulk: a kitchen measure becomes a legal threshold - law anchored in daily life.",
-        "openQuestion": "What is the deeper significance of the ruling about egg-bulk measure for yk; how eating measures were determined?"
+        "ahaMoment": "The Talmud's system of measures is applied physical science: each measure is derived from something stable and observable, and the egg is the most universally reliable calibration point.",
+        "memoryAnchor": "Egg-bulk is the baseline: stable, uniform, universally available - all measures calibrate against it.",
+        "learnerQuestion": "How does the egg-bulk (beitza) measure relate to the Yom Kippur eating prohibition?",
+        "coreTension": "Between the various halakhic measures used in different contexts (olive-bulk, egg-bulk, date-bulk) and the need to understand how they relate to each other and to a shared physical referent.",
+        "coreMove": "The Gemara anchors halakhic measures to physical realities that can be observed and calibrated. The egg-bulk serves as a baseline because eggs are uniform and universally available; from this stable baseline, other measures can be derived or compared.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "Halakhic measures are not arbitrary but are anchored to stable physical referents; the egg-bulk serves as a baseline because of its uniformity and universal availability, making it the most reliable calibration standard."
+        },
+        "learningBlocker": "Students may find the multiple measures (olive, egg, date) confusing; recognizing them as a coherent physical calibration system makes each measure's rationale clear."
       },
       "argumentFlow": [
         {
@@ -273,12 +280,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara reconcile that two pitless dates are smaller than an egg yet a large date with its pit exceeds one?",
-          "a": "The pit accounts for the difference. Date pits are unusually large, as the folk saying notes that two kav of dates contain over a kav of pits, so the flesh of two dates falls short of an egg while a single date counted with its very large pit surpasses it."
+          "question": "How does the Gemara reconcile that two pitless dates are smaller than an egg yet a large date with its pit exceeds one?",
+          "answer": "The pit accounts for the difference. Date pits are unusually large, as the folk saying notes that two kav of dates contain over a kav of pits, so the flesh of two dates falls short of an egg while a single date counted with its very large pit surpasses it."
         },
         {
-          "q": "How does the zimmun dispute help fix the size of the large date relative to an egg?",
-          "a": "Rabbi Yehuda holds an egg-bulk is the measure of satisfying eating. Since a large date only 'settles the mind' rather than fully satisfies, it must be less than an egg; were it larger it would already satisfy and remove the affliction outright."
+          "question": "How does the zimmun dispute help fix the size of the large date relative to an egg?",
+          "answer": "Rabbi Yehuda holds an egg-bulk is the measure of satisfying eating. Since a large date only 'settles the mind' rather than fully satisfies, it must be less than an egg; were it larger it would already satisfy and remove the affliction outright."
         }
       ],
       "finalRuling": "The Gemara discusses the egg-bulk (beitza) measure used in many halachic contexts, and how it relates to the YK eating measure. The discussion covers ",

@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "Temple river bubbles up from beneath the threshold and becomes mighty",
-        "hint": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot be crossed on foot."
+        "hint": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot be crossed on foot.",
+        "title": "Bubbles to Sea: The Temple River's Origin"
       },
       "learning": {
-        "summary": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot be crossed on foot.",
-        "ahaMoment": "The Temple river aggadah is placed here because this sugya discusses water and crossing - the Talmud's associative logic connects mundane halacha to eschatological vision.",
-        "memoryAnchor": "Temple river aggadah: begins as a trickle, ends as a torrent - placed here because of the water discussion.",
-        "openQuestion": "What is the deeper significance of the ruling about temple river bubbles up from beneath the threshold and becom?"
+        "ahaMoment": "From under the threshold, not from above: the blessing is grounded in the foundation of the holy space itself, not in something external to it.",
+        "memoryAnchor": "Bubbles from beneath the threshold - holiness rises from the ground up, then grows to an uncrossable sea.",
+        "learnerQuestion": "Why does Ezekiel's river begin as bubbles beneath the Temple threshold rather than from above?",
+        "coreTension": "Between the Temple's threshold as the symbolic entry point (suggesting the river should flow from above, outward) and the image of the river emerging from beneath the threshold itself.",
+        "coreMove": "The Gemara emphasizes the threshold as the precise origin point. The blessing comes from beneath the holy space - not just from the Temple building but from its very foundation. This grounds divine blessing in the physical structure of the sanctuary.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The eschatological river's origin beneath the threshold teaches that the Temple's holiness is literally grounded - embedded in the foundation, not merely symbolic - and all future blessing flows from that physical and spiritual root."
+        },
+        "learningBlocker": "Students may not register the significance of 'beneath' the threshold; the Gemara's careful attention to this detail reveals the depth of the theological claim."
       },
       "argumentFlow": [
         {
@@ -101,8 +108,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does the Gemara reject Rav Yosef's claim that a mikveh must be deep enough to sit neck-high?",
-          "a": "Because the halachic requirement is volume, not depth. A ritual bath is valid as long as it can cover an entire adult body at once; how deep one can sit in it is not the criterion."
+          "question": "Why does the Gemara reject Rav Yosef's claim that a mikveh must be deep enough to sit neck-high?",
+          "answer": "Because the halachic requirement is volume, not depth. A ritual bath is valid as long as it can cover an entire adult body at once; how deep one can sit in it is not the criterion."
         }
       ],
       "finalRuling": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot",
@@ -144,13 +151,20 @@
       ],
       "display": {
         "whats": "Crossing water on Yom Kippur: does it constitute prohibited bathing?",
-        "hint": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing."
+        "hint": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing.",
+        "title": "River Crossing on Yom Kippur"
       },
       "learning": {
-        "summary": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing.",
-        "ahaMoment": "Intent matters for bathing: crossing water to get somewhere is different from immersing for pleasure. The prohibition targets the pleasure, not the water.",
-        "memoryAnchor": "Crossing water on YK: intent and manner determine whether it is bathing.",
-        "openQuestion": "What is the deeper significance of the ruling about crossing water on yom kippur: does it constitute prohibited ?"
+        "ahaMoment": "Purpose and intention define the act: crossing a river is travel, not bathing - the same water contact can be prohibited or permitted depending on why you are in the water.",
+        "memoryAnchor": "Cross to get there, not to bathe: intent determines whether water contact is prohibited.",
+        "learnerQuestion": "If you must cross a river on Yom Kippur, does wading through it violate the bathing prohibition?",
+        "coreTension": "Between the bathing prohibition (which covers contact with water) and the practical necessity of crossing a body of water for legitimate purposes.",
+        "coreMove": "The Gemara distinguishes purposeful bathing (prohibited) from incidental wetting while crossing for a legitimate reason (not prohibited). The prohibition targets the pleasure-act of bathing, not every form of water contact.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK bathing prohibition targets the act of bathing as pleasure-seeking; incidental water contact incurred while doing something else for a legitimate purpose does not violate it."
+        },
+        "learningBlocker": "Students may think any contact with water on YK violates the prohibition; the distinction is between purposeful bathing and incidental wetting."
       },
       "argumentFlow": [
         {
@@ -248,12 +262,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is crossing water in sandals on Shabbat more problematic than crossing in shoes?",
-          "a": "Shoes can be tied on tightly, but sandals fit loosely and may slip off in the water. If a sandal comes off and one picks it up, he violates the Shabbat prohibition of carrying, so Rav Ashi forbids crossing in sandals ab initio."
+          "question": "Why is crossing water in sandals on Shabbat more problematic than crossing in shoes?",
+          "answer": "Shoes can be tied on tightly, but sandals fit loosely and may slip off in the water. If a sandal comes off and one picks it up, he violates the Shabbat prohibition of carrying, so Rav Ashi forbids crossing in sandals ab initio."
         },
         {
-          "q": "How does Ravina's explanation for missing the lecture turn on a point of law?",
-          "a": "Ravina's foot pain ruled out closed shoes, sandals would have failed crossing a pool because of Rav Ashi's ban on crossing water in sandals, so he had no permissible footwear for the trip. His absence was a halachic constraint, not a slight to the Exilarch."
+          "question": "How does Ravina's explanation for missing the lecture turn on a point of law?",
+          "answer": "Ravina's foot pain ruled out closed shoes, sandals would have failed crossing a pool because of Rav Ashi's ban on crossing water in sandals, so he had no permissible footwear for the trip. His absence was a halachic constraint, not a slight to the Exilarch."
         }
       ],
       "finalRuling": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossi",
@@ -295,13 +309,20 @@
       ],
       "display": {
         "whats": "Sick person wearing shoes on YK; wooden shoes; danger exceptions",
-        "hint": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition."
+        "hint": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
+        "title": "Sick Person's Shoes on Yom Kippur"
       },
       "learning": {
-        "summary": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
-        "ahaMoment": "Illness creates its own category on YK - even the shoe prohibition, which is about dignity and affliction, yields to health needs.",
-        "memoryAnchor": "Sick person's shoes: health needs override the affliction framework.",
-        "openQuestion": "What is the deeper significance of the ruling about sick person wearing shoes on yk; wooden shoes; danger except?"
+        "ahaMoment": "The YK afflictions presuppose a healthy body capable of bearing them; the sick are already in their own form of deprivation and are not required to compound it.",
+        "memoryAnchor": "Sick person wears shoes on YK: affliction laws apply to the healthy, not to those already suffering.",
+        "learnerQuestion": "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
+        "coreTension": "Between the universal prohibition on wearing shoes (one of the five afflictions) and the need to protect a sick person's health and safety.",
+        "coreMove": "The Gemara permits a sick person to wear shoes because the affliction obligations are calibrated to a healthy person capable of bearing them; health risk overrides the prohibition. Wooden sandals may raise additional questions about what qualifies as 'shoes.'",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Health considerations can override YK affliction obligations; the afflictions are designed to humble the healthy person before God, not to endanger the sick."
+        },
+        "learningBlocker": "Students may assume the shoe prohibition is absolute; recognizing that it is calibrated to the capable body resolves the apparent rigidity."
       },
       "argumentFlow": [
         {
@@ -399,12 +420,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is a full silver cup forbidden for cooling on Yom Kippur while an empty one is debated?",
-          "a": "A full cup risks spilling water onto the body, which approaches bathing. Rav Pappa permits an empty silver cup, but Rav Ashi forbids even that, since it may slip from the hand and spill. A ceramic cup is forbidden regardless because water seeps through its walls."
+          "question": "Why is a full silver cup forbidden for cooling on Yom Kippur while an empty one is debated?",
+          "answer": "A full cup risks spilling water onto the body, which approaches bathing. Rav Pappa permits an empty silver cup, but Rav Ashi forbids even that, since it may slip from the hand and spill. A ceramic cup is forbidden regardless because water seeps through its walls."
         },
         {
-          "q": "What is the key distinction between the cloth practice for Yom Kippur and for the Ninth of Av?",
-          "a": "On Yom Kippur the cloth had to be soaked and wrung out before the fast, because wringing is forbidden on Yom Kippur just as on Shabbat. The Ninth of Av, being only rabbinic, allowed greater leniency with the cloth, which is why the two practices were not interchangeable."
+          "question": "What is the key distinction between the cloth practice for Yom Kippur and for the Ninth of Av?",
+          "answer": "On Yom Kippur the cloth had to be soaked and wrung out before the fast, because wringing is forbidden on Yom Kippur just as on Shabbat. The Ninth of Av, being only rabbinic, allowed greater leniency with the cloth, which is why the two practices were not interchangeable."
         }
       ],
       "finalRuling": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
@@ -441,13 +462,20 @@
       ],
       "display": {
         "whats": "Rain water, river crossing, measuring bathing by amount",
-        "hint": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed."
+        "hint": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
+        "title": "Puddles and Rivers: Measuring Prohibited Bathing"
       },
       "learning": {
-        "summary": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
-        "ahaMoment": "Rain water vs. river: the Gemara is precise about what type of water contact triggers which prohibition.",
-        "memoryAnchor": "Rain puddles vs. rivers: the Gemara distinguishes types of water contact.",
-        "openQuestion": "What is the deeper significance of the ruling about rain water, river crossing, measuring bathing by amount?"
+        "ahaMoment": "You can get wet crossing a puddle on Yom Kippur without violating the prohibition: the Talmud's analysis is about the act, not the wetness.",
+        "memoryAnchor": "Puddles and rivers: the question is the quality of the act (bathing vs. crossing), not the volume of water.",
+        "learnerQuestion": "Is there a minimum amount of water that triggers the Yom Kippur bathing prohibition?",
+        "coreTension": "Between a prohibition defined by the act of bathing (suggesting any water contact counts) and the practical reality that incidental wetting from puddles or shallow crossings seems qualitatively different from bathing.",
+        "coreMove": "The Gemara explores whether the character of the act or the quantity of water is the operative criterion. The analysis leans toward the character of the act: casual wetting incidental to movement is not the prohibited bathing.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The criterion for prohibited bathing is the character of the act rather than the quantity of water; the prohibition targets intentional bathing for pleasure or comfort, not incidental wetting."
+        },
+        "learningBlocker": "Students may assume any amount of water triggers the prohibition; recognizing that quality of act, not quantity of water, is the key criterion resolves the apparent over-breadth."
       },
       "argumentFlow": [
         {
@@ -530,12 +558,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why was the Nasi's authority to grant permission to rule on firstborns established?",
-          "a": "To raise the stature of the Nasi's house. Because seeking his permission itself honors the Nasi, the question arises whether even a Torah scholar of standing must request it, or whether his own learning exempts him."
+          "question": "Why was the Nasi's authority to grant permission to rule on firstborns established?",
+          "answer": "To raise the stature of the Nasi's house. Because seeking his permission itself honors the Nasi, the question arises whether even a Torah scholar of standing must request it, or whether his own learning exempts him."
         },
         {
-          "q": "How does Rabbi Abba reinterpret the testimony about Rabbi Yosei ben Zimra approaching the Nasi?",
-          "a": "He says it was not a request for permission at all but a halachic question. As a priest, suspected of blemishing firstborns after the Temple's destruction, Rabbi Yosei asked whether such priests are believed, resolved by the ruling that one suspect about himself is still believed about others."
+          "question": "How does Rabbi Abba reinterpret the testimony about Rabbi Yosei ben Zimra approaching the Nasi?",
+          "answer": "He says it was not a request for permission at all but a halachic question. As a priest, suspected of blemishing firstborns after the Temple's destruction, Rabbi Yosei asked whether such priests are believed, resolved by the ruling that one suspect about himself is still believed about others."
         }
       ],
       "finalRuling": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
@@ -562,13 +590,20 @@
       ],
       "display": {
         "whats": "Unresolved question about water crossing and the shoe prohibition",
-        "hint": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions."
+        "hint": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
+        "title": "Water Crossing and Shoes: The Unresolved Question"
       },
       "learning": {
-        "summary": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
-        "ahaMoment": "Some questions the Talmud leaves open - the unresolved teiku preserves intellectual honesty about the limits of halachic derivation.",
-        "memoryAnchor": "Teiku: some answers must wait.",
-        "openQuestion": "What is the deeper significance of the ruling about unresolved question about water crossing and the shoe prohib?"
+        "ahaMoment": "Teiku is not failure - it is the Talmud's most honest answer: we do not know, and we will not pretend otherwise.",
+        "memoryAnchor": "Water crossing on YK: teiku - the question stays open, practice requires stringency.",
+        "learnerQuestion": "What does it mean when the Talmud leaves a Yom Kippur question unresolved?",
+        "coreTension": "Between the need for a practical ruling (what do you do when you must cross water on YK?) and the Talmud's intellectual honesty in acknowledging it cannot fully resolve the question.",
+        "coreMove": "The Gemara records teiku - no resolution. This is not a failure but a principled acknowledgment of the limits of halakhic derivation. In practice, unresolved doubts in biblical prohibitions require stringency.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Teiku is the Talmud's principled acknowledgment that some questions exceed what legal derivation can resolve; in practice, unresolved doubts involving biblical prohibitions default to stringency."
+        },
+        "learningBlocker": "Students may feel frustrated by teiku and want a definitive ruling; recognizing teiku as intellectual honesty rather than an omission is important for understanding how the Talmud works."
       },
       "argumentFlow": [
         {
@@ -623,8 +658,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is the core uncertainty in the question about cork sandals on Yom Kippur?",
-          "a": "Whether a cork sandal is legally a 'shoe' for the affliction of not wearing shoes. If it counts as a shoe it is forbidden; if it is too unlike a real shoe to provide that comfort, it may be permitted. The Gemara leaves this to resolve on the next page."
+          "question": "What is the core uncertainty in the question about cork sandals on Yom Kippur?",
+          "answer": "Whether a cork sandal is legally a 'shoe' for the affliction of not wearing shoes. If it counts as a shoe it is forbidden; if it is too unlike a real shoe to provide that comfort, it may be permitted. The Gemara leaves this to resolve on the next page."
         }
       ],
       "finalRuling": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",

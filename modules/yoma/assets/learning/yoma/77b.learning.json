@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "Verse about afflicting daughters in Laban's house relates to fasting obligation",
-        "hint": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast."
+        "hint": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast.",
+        "title": "Laban's Affliction and YK Inui"
       },
       "learning": {
-        "summary": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast.",
-        "ahaMoment": "The same word (vayah'anu) used by Jacob about Laban's oppression is the source for YK affliction - the Torah embeds the fast's purpose in a family story of survival.",
-        "memoryAnchor": "Jacob and Laban: affliction has a story behind it before it becomes a law.",
-        "openQuestion": "What is the deeper significance of the ruling about verse about afflicting daughters in laban's house relates to?"
+        "ahaMoment": "The Gemara's cross-context exegesis: a family dispute becomes the source for a religious law because the Torah uses the same word, and words carry their meaning across contexts.",
+        "memoryAnchor": "Laban afflicted daughters - that word 'afflict' links domestic deprivation to YK inui.",
+        "learnerQuestion": "How does Jacob's complaint about Laban's treatment of his daughters prove that fasting is a form of inui?",
+        "coreTension": "Between a domestic narrative (Jacob and Laban's household dispute) and its use as a legal source to define inui in the context of Yom Kippur.",
+        "coreMove": "The word 'afflict' in Laban's context refers to deprivation of marital rights, not food. The Gemara uses this to prove that 'inui' (affliction) is a broad category that encompasses multiple forms of deprivation - including fasting - by the same legal logic.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The Talmud reads the Torah as a unified legal text; a word meaning 'affliction' in a domestic narrative can define the same concept in religious law, broadening what counts as inui on YK."
+        },
+        "learningBlocker": "Students may not see how Laban's household dispute applies to YK law; the connection is through the shared word 'affliction,' not through the context."
       },
       "argumentFlow": [
         {
@@ -121,12 +128,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does the Gemara refuse to read both of Laban's clauses as referring to rival wives?",
-          "a": "The wording 'and if you take' signals a second, separate matter, and the order of the clauses (afflict before take) tracks severity from harsher to milder, which only works if 'afflict' refers to withholding relations rather than to another mention of rival wives."
+          "question": "Why does the Gemara refuse to read both of Laban's clauses as referring to rival wives?",
+          "answer": "The wording 'and if you take' signals a second, separate matter, and the order of the clauses (afflict before take) tracks severity from harsher to milder, which only works if 'afflict' refers to withholding relations rather than to another mention of rival wives."
         },
         {
-          "q": "How does Abaye resolve Rav Pappa's objection that relations themselves are called affliction in the Shechem verse?",
-          "a": "Abaye distinguishes the cases: Shechem 'afflicted' her through unnatural relations, which is inherently painful. Ordinary marital relations are a pleasure, so withholding them is the affliction relevant to Yom Kippur."
+          "question": "How does Abaye resolve Rav Pappa's objection that relations themselves are called affliction in the Shechem verse?",
+          "answer": "Abaye distinguishes the cases: Shechem 'afflicted' her through unnatural relations, which is inherently painful. Ordinary marital relations are a pleasure, so withholding them is the affliction relevant to Yom Kippur."
         }
       ],
       "finalRuling": "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies t",
@@ -163,13 +170,20 @@
       ],
       "display": {
         "whats": "Prohibition on marital relations on Yom Kippur",
-        "hint": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope."
+        "hint": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
+        "title": "Marital Relations: The Fifth Affliction"
       },
       "learning": {
-        "summary": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
-        "ahaMoment": "Marital relations as an affliction? Their prohibition expresses that YK is a day of withdrawing from all bodily pleasures, not just food.",
-        "memoryAnchor": "Marital relations on YK: the fifth affliction completes the set.",
-        "openQuestion": "What is the deeper significance of the ruling about prohibition on marital relations on yom kippur?"
+        "ahaMoment": "YK is not anti-mitzvah; it is anti-pleasure. The prohibition isolates the bodily enjoyment from the act and targets that alone.",
+        "memoryAnchor": "Fifth affliction = marital abstinence: YK prohibits the pleasure, not the mitzvah.",
+        "learnerQuestion": "How is abstaining from marital relations categorized as an affliction on Yom Kippur?",
+        "coreTension": "Between marital relations as a positive mitzvah (onah) and their prohibition on YK as a form of self-affliction.",
+        "coreMove": "The Gemara separates the mitzvah dimension (conjugal obligation) from the pleasure dimension (bodily enjoyment). YK's prohibition targets the physical enjoyment component, not the mitzvah. This is why the same activity that is obligatory in one context is prohibited in another.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK affliction framework targets the pleasure dimension of normal human activities even when those activities are otherwise positive obligations; the prohibition isolates enjoyment from obligation."
+        },
+        "learningBlocker": "Students may struggle with prohibiting a mitzvah; the Gemara's distinction between the physical pleasure and the religious obligation is essential to resolve the apparent paradox."
       },
       "argumentFlow": [
         {
@@ -252,12 +266,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "On what basis may a sick person apply oil on Yom Kippur despite the anointing prohibition?",
-          "a": "Because the prohibition targets oiling for pleasure. When oil is applied for medicinal need, such as for illness or painful scabs, the purpose is relief rather than enjoyment, so it is permitted in the ordinary manner."
+          "question": "On what basis may a sick person apply oil on Yom Kippur despite the anointing prohibition?",
+          "answer": "Because the prohibition targets oiling for pleasure. When oil is applied for medicinal need, such as for illness or painful scabs, the purpose is relief rather than enjoyment, so it is permitted in the ordinary manner."
         },
         {
-          "q": "Why were the Sages stricter with Shammai than Shammai was with himself regarding washing a hand?",
-          "a": "Shammai avoided washing even one hand and so would not feed his children, leaving them hungry. The Sages, weighing the children's wellbeing, required him to use and wash both hands, treating the children's needs as overriding his personal stringency."
+          "question": "Why were the Sages stricter with Shammai than Shammai was with himself regarding washing a hand?",
+          "answer": "Shammai avoided washing even one hand and so would not feed his children, leaving them hungry. The Sages, weighing the children's wellbeing, required him to use and wash both hands, treating the children's needs as overriding his personal stringency."
         }
       ],
       "finalRuling": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
@@ -319,13 +333,20 @@
       ],
       "display": {
         "whats": "Greeting others on Yom Kippur; walking to visit father or teacher",
-        "hint": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day."
+        "hint": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
+        "title": "Greeting and Visiting on Yom Kippur"
       },
       "learning": {
-        "summary": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
-        "ahaMoment": "Even walking to honor one's father or teacher must be weighed on YK - the day's seriousness applies even to mitzvot of honor.",
-        "memoryAnchor": "Greeting on YK: communal connection persists even in affliction.",
-        "openQuestion": "What is the deeper significance of the ruling about greeting others on yom kippur; walking to visit father or te?"
+        "ahaMoment": "YK does not dissolve relationships - human obligations of honor persist even through the day's severity because they are duties, not pleasures.",
+        "memoryAnchor": "Visit your father on YK: duty is not a pleasure, so the affliction prohibition does not reach it.",
+        "learnerQuestion": "Is it appropriate to visit or greet others on Yom Kippur?",
+        "coreTension": "Between the solemnity of YK (suggesting silence and isolation) and the social obligations of honoring parents and teachers.",
+        "coreMove": "The Gemara permits greeting and visiting as expressions of honor and relationship; they do not violate the spirit of YK because they are obligations of respect, not pleasures. The afflictions target pleasure-seeking, not the fulfillment of relational duties.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Social obligations of honor (visiting parents, greeting teachers) are not suspended by YK because they are relational duties, not pleasures; the five afflictions target only pleasure-seeking activities."
+        },
+        "learningBlocker": "Students may assume YK requires complete social withdrawal; the Gemara permits what is an expression of obligation rather than enjoyment."
       },
       "argumentFlow": [
         {
@@ -479,16 +500,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does Rav Yosef ultimately permit the people of Bei Tarbu to cross the water both coming and going?",
-          "a": "Because barring the return trip would discourage people from attending his lecture in the future. To keep them from being deterred, he permits the crossing in both directions, even though the bathing concern only justified the trip to the lecture."
+          "question": "Why does Rav Yosef ultimately permit the people of Bei Tarbu to cross the water both coming and going?",
+          "answer": "Because barring the return trip would discourage people from attending his lecture in the future. To keep them from being deterred, he permits the crossing in both directions, even though the bathing concern only justified the trip to the lecture."
         },
         {
-          "q": "What is the problem with lifting the hem of one's cloak while crossing a river on Yom Kippur?",
-          "a": "Raising the hems to keep them dry is a form of carrying that would make one liable to a sin-offering. One must therefore walk normally and let the garment get wet rather than try to keep it dry."
+          "question": "What is the problem with lifting the hem of one's cloak while crossing a river on Yom Kippur?",
+          "answer": "Raising the hems to keep them dry is a form of carrying that would make one liable to a sin-offering. One must therefore walk normally and let the garment get wet rather than try to keep it dry."
         },
         {
-          "q": "How does Abaye limit the proof from Ezekiel's river that deep water may not be crossed?",
-          "a": "He restricts the danger to fast-flowing rivers, where deep water can sweep a person away. Still water may be crossed even above the waist, so the verse does not set a universal depth limit."
+          "question": "How does Abaye limit the proof from Ezekiel's river that deep water may not be crossed?",
+          "answer": "He restricts the danger to fast-flowing rivers, where deep water can sweep a person away. Still water may be crossed even above the waist, so the verse does not set a universal depth limit."
         }
       ],
       "finalRuling": "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
@@ -525,13 +546,20 @@
       ],
       "display": {
         "whats": "Future river flowing from the Temple in the End of Days (Ezekiel 47)",
-        "hint": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river that heals the land."
+        "hint": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river that heals the land.",
+        "title": "Ezekiel's Temple River"
       },
       "learning": {
-        "summary": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river that heals the land.",
-        "ahaMoment": "Ezekiel's future river - flowing from the Temple - will be so powerful it sweetens even the Dead Sea. The Temple's sanctity radiates outward.",
-        "memoryAnchor": "Ezekiel's river from the Temple: sanctity overflows into the world.",
-        "openQuestion": "What is the deeper significance of the ruling about future river flowing from the temple in the end of days (eze?"
+        "ahaMoment": "The river's growth is a teaching device: holiness spreads from center to periphery, and what begins small at its source becomes overwhelming at the ends of the earth.",
+        "memoryAnchor": "Ankle, waist, swimming - the river grows outward; divine blessing expands from the Temple's center.",
+        "learnerQuestion": "What is the theological significance of the river that Ezekiel prophesied flowing from the Temple?",
+        "coreTension": "Between the river as a future eschatological vision and the Gemara's effort to understand its physical nature and symbolic meaning.",
+        "coreMove": "The Gemara reads the river's growth (ankle-deep to waist-deep to uncrossable) as a symbol of how holiness radiates from the Temple: small at the sacred center, vast at the periphery. The direction of flow embodies the principle of expanding divine blessing.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Ezekiel's river teaches that divine blessing originates from the sacred center and expands outward; what begins as a trickle at the Temple threshold becomes an ocean of blessing at the far reaches."
+        },
+        "learningBlocker": "Students may treat this as pure aggadah without seeing its theological function as a model for how holiness operates."
       },
       "argumentFlow": [
         {
@@ -615,12 +643,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara build up the claim that Ezekiel's future river is wholly uncrossable?",
-          "a": "It rules out each means in turn: not by swimming, since the waters require a boat; not by a small boat, excluded by 'no galley with oars'; and not by a large fishing boat, excluded by the verse about the 'tzi adir,' leaving no way across."
+          "question": "How does the Gemara build up the claim that Ezekiel's future river is wholly uncrossable?",
+          "answer": "It rules out each means in turn: not by swimming, since the waters require a boat; not by a small boat, excluded by 'no galley with oars'; and not by a large fishing boat, excluded by the verse about the 'tzi adir,' leaving no way across."
         },
         {
-          "q": "What is the textual link that even the Angel of Death cannot cross this river?",
-          "a": "Rabbi Yehuda ben Pazi connects 'ani shayt' (galley with oars) with 'mishut' (going to and fro) said by Satan, and since Satan is the Angel of Death, the shared root shows that he too is barred from crossing."
+          "question": "What is the textual link that even the Angel of Death cannot cross this river?",
+          "answer": "Rabbi Yehuda ben Pazi connects 'ani shayt' (galley with oars) with 'mishut' (going to and fro) said by Satan, and since Satan is the Angel of Death, the shared root shows that he too is barred from crossing."
         }
       ],
       "finalRuling": "The Gemara discusses the miraculous river that Ezekiel prophesied would flow from beneath the Temple threshold in the future, becoming a mighty river ",

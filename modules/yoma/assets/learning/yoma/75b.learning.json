@@ -55,13 +55,20 @@
       ],
       "display": {
         "whats": "Bread asked appropriately, meat not; quail types and miraculous supply",
-        "hint": "Why did bread arrive properly but meat bring punishment? How was the quail provided?"
+        "hint": "Why did bread arrive properly but meat bring punishment? How was the quail provided?",
+        "title": "Bread from Need, Meat from Desire"
       },
       "learning": {
-        "summary": "Bread was a legitimate need, so it arrived correctly (morning, organized). Meat was asked from excess desire, so it brought death - some died immediately, others ate for a month. The quail: Reish Lakish reads 'vayishtehu' as 'they laid it as flooring' (so abundant it paved the ground). Rabbi teaches slaughter laws were given at Marah. The manna tasted differently to young (oil/honey) and old. Four types of quail. The quail appeared miraculously in the Sages' homes.",
-        "ahaMoment": "The provision schedule itself is God's judgment: morning bread = legitimate need met; night meat = excess desire with consequences.",
-        "memoryAnchor": "Bread in the morning, meat at night - the timing reveals the verdict on each request.",
-        "openQuestion": "What makes a request for food from God legitimate?"
+        "ahaMoment": "God always gives - but the posture of the asking determines the character of what is given.",
+        "memoryAnchor": "Manna graceful, quail deadly: the difference was the spirit of the request, not the food.",
+        "learnerQuestion": "Why was the manna given graciously while the quail came with punishment?",
+        "coreTension": "Between requests to God born of genuine need and demands driven by excess or ingratitude.",
+        "coreMove": "The Gemara distinguishes: bread is a legitimate necessity, so manna came without shame. Meat was craved from excess desire, so quail came with fatal consequences. The spirit of the request shapes the character of the divine response.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "A request to God for genuine need is answered with grace; a demand born of excess desire is answered with judgment."
+        },
+        "learningBlocker": "Students may think the Gemara is punishing Israel for eating meat; the critique is about the spirit of the asking, not the food itself."
       },
       "argumentFlow": [
         {
@@ -273,13 +280,20 @@
       ],
       "display": {
         "whats": "Manna: between dew layers, flaky, angels' bread, and Israel's fear of infertility",
-        "hint": "What were the manna's physical properties, and why did Israel fear it would leave no offspring?"
+        "hint": "What were the manna's physical properties, and why did Israel fear it would leave no offspring?",
+        "title": "Manna Between the Dew Layers"
       },
       "learning": {
-        "summary": "Rav Papa: manna fell between two dew layers. Reish Lakish: dak mechusfas - dissolves at the palm's edge. Two views on 'bread of the mighty': (1) angels' bread; (2) bread absorbed by all 248 limbs with no waste product. Rabbi Elazar ben Perata: manna materialized even Gentile trade goods. Israel's fear: since manna needed no digestion, they worried it left no seed for children. Rabbi Yishmael's wordplay: 'bilti' (except) read as 'blitenu' (our wearing away). Closes with Joshua receiving manna for all of Israel.",
-        "ahaMoment": "Perfect nourishment left Israel afraid of the future - the same property that made the manna miraculous (no waste) made them worry it was consuming their reproductive potential.",
-        "memoryAnchor": "No waste, no children - the paradox of perfect food. The manna that purified everything also terrified Israel that it consumed their future.",
-        "openQuestion": "What does Joshua receiving manna for all of Israel tell us about his unique status?"
+        "ahaMoment": "The manner of the manna's descent was itself the miracle: protected in transit, perfectly responsive to the hand.",
+        "memoryAnchor": "Between dew layers or dissolving at the palm - both images say: manna arrived exactly right.",
+        "learnerQuestion": "What do the different descriptions of how the manna arrived reveal about its miraculous nature?",
+        "coreTension": "Between Rav Papa's view (manna sandwiched between two dew layers) and Reish Lakish's view (dak mechusfas - it dissolves instantly at the palm's edge).",
+        "coreMove": "Both views emphasize divine precision: the manna arrived perfectly protected and perfectly suited for use. Whether sandwiched in dew or instantly responsive to the hand, it was never exposed to contamination or waste.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Gemara's two accounts of manna's descent both express the same theological point: the miracle was precise and tailored - protected in transit, perfectly available on arrival."
+        },
+        "learningBlocker": "Students may treat these accounts as contradictions rather than two aspects of the same miraculous care."
       },
       "argumentFlow": [
         {
