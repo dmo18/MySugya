@@ -27,8 +27,9 @@ needed to confirm or reject each finding before it was recorded here.
 - 8 sugyot documented as requiring new authored content (crosswired or
   near-duplicate aha/memory anchor content). Not fixed; each needs
   judgment about what the correct content should say.
-- 1 sugya documented as an internal contradiction that could not be
-  resolved from the daftext alone (45a/yoma-045a-s02).
+- 1 sugya's internal contradiction, unresolvable from the local corpus
+  alone, was resolved via external Mishnah/Gemara source review
+  (45a/yoma-045a-s02).
 - One finding from an earlier, interrupted review pass was re-checked and
   found to be incorrect (66b/yoma-066b-s03 is not crosswired); it is
   removed from the issues list below.
@@ -218,42 +219,41 @@ subject matter changes.
 
 ### Issues found
 
-**AMBIGUOUS - DEFERRED - 45a/yoma-045a-s02 (internal contradiction, re-checked
-2026-07-01, still unresolved from local corpus):**
-The coreMove and takeaway state that the peras measure "remains constant"
-or "stays constant" between ordinary-day and Yom Kippur incense. The
-display.hint, ahaMoment, memoryAnchor, and finalRuling all say the Yom
-Kippur quantity is different. The misconceptions.correction field sides
-with "constant," matching coreMove/takeaway; argumentFlow states only the
-ordinary-day peras and is silent on Yom Kippur. So within this sugya's own
-fields the split is 3 (constant) vs. 4 (different), with argumentFlow
-taking no side.
+**RESOLVED - 45a/yoma-045a-s02 (internal contradiction, resolved 2026-07-01
+via external source review):**
+The coreMove and takeaway previously stated that the peras measure
+"remains constant" between ordinary-day and Yom Kippur incense, while
+display.hint, ahaMoment, memoryAnchor, and finalRuling said the Yom Kippur
+quantity is "different." The local corpus (daftext, the file's older-schema
+rashiTranslations entry for this exact segment, and a corpus-wide search
+for "peras"/"chofnav"/"melo chofnav" across all 173 Yoma learning JSON
+files) could not resolve which framing was correct - see prior version of
+this entry, preserved in git history, for that investigation.
 
-Re-checked against modules/yoma/assets/daftexts/45a.txt: this sugya's own
-line range (Vilna line 7) is still a single truncated Mishnah citation,
-"בכל יום מקריב פרס שחרית וכו'" ("every day he offers a peras in the
-morning, etc."), with the actual "today" (Yom Kippur) comparison elided by
-"etc." This file's rashiTranslations array uses an older per-Sefaria-segment
-schema (empty he: fields, no source/confidence metadata) rather than this
-project's standard per-Vilna-line schema; its entry for this exact segment
-("On ordinary days, a peras (half-measure) of incense was offered in the
-morning and evening") also only paraphrases the same truncated line and
-adds nothing about Yom Kippur.
+Source basis for the resolution: Sefaria, William Davidson Talmud
+translation of Yoma 45a:3 (Koren Noe Talmud edition with Steinsaltz
+commentary), https://www.sefaria.org/Yoma.45a.3. The Hebrew returned by
+Sefaria for this segment ("בְּכׇל יוֹם מַקְרִיב פְּרָס שַׁחֲרִית וְכוּ׳...")
+matches this sugya's own daftext line 7 exactly, confirming it is the same
+passage the local "וכו'" (etc.) elides. The English translation states:
+"On every other day, a priest sacrificed a peras, half of a maneh, of
+incense in the morning, and a peras in the afternoon, but on this day the
+High Priest adds an additional handful of incense and burns it in the Holy
+of Holies." This confirms the additive structure: the daily peras
+(morning and afternoon, on the golden altar) is unchanged on Yom Kippur;
+Yom Kippur separately adds a second, distinct incense service - a handful
+the High Priest burns inside the Holy of Holies. Neither prior framing
+("constant" alone or "different" alone) was fully correct; both were
+half-true relative to the actual additive structure.
 
-A corpus-wide search across all 173 Yoma learning JSON files for "melo
-chofnav," "chofnav," and "peras" found zero hits outside this single sugya
-- no other daf in this project's embedded corpus corroborates or refutes
-either framing. The "additive structure" theory recorded in the previous
-version of this note (daily peras continues unchanged, Yom Kippur
-separately adds a melo chofnav handful per Vayikra 16:12) was drawn from
-outside Judaic knowledge, not from any content present in this project's
-local corpus, and should not be treated as a locally-sourced finding.
-Resolving this requires consulting the fuller Mishnah/Gemara text (Yoma
-44b-45a) or a secondary source beyond what this corpus currently embeds.
-Flagged; not fixed. Do not rewrite either side without that broader
-source review - a local-only fix here would risk asserting a specific
-halachic conclusion (same vs. different vs. additive) that the embedded
-corpus cannot itself verify.
+Fix applied: rewrote display.hint, ahaMoment, memoryAnchor, coreMove,
+takeaway.text, misconceptions.correction, and finalRuling in
+yoma-045a-s02 to state the additive structure consistently across all
+seven fields. learnerQuestion and coreTension were left unchanged since
+their same-vs-different framing still sets up the question the resolved
+fields now answer. argumentFlow, quizSeeds, topicTags, concepts,
+requiresUnderstanding, difficulty, and rashiTranslations were left
+untouched.
 
 ### Observations
 
@@ -475,9 +475,15 @@ danger. Requires judgment; not applied.
 
 ## Content requiring source-text review before any fix (ambiguous)
 
-| Sugya | Error | What is needed |
-|-------|-------|----------------|
-| 45a/yoma-045a-s02 | coreMove/takeaway/misconceptions.correction say the peras measure is constant between ordinary days and Yom Kippur; display.hint/ahaMoment/memoryAnchor/finalRuling say it is different. argumentFlow states only the ordinary-day peras and is silent on Yom Kippur. Re-checked 2026-07-01: the sugya's own truncated daftext line still does not resolve which framing it intends, and a corpus-wide search found zero corroborating mentions of "peras," "chofnav," or "melo chofnav" outside this one sugya. Any additive-structure resolution (peras continues, plus a separately added handful) would rely on outside Judaic knowledge, not on content present in this corpus. | Human review against the fuller Mishnah/Gemara text of Yoma 44b-45a, or a secondary source, before deciding how to rewrite either side |
+None remaining. 45a/yoma-045a-s02 (the only entry in this table) was
+resolved 2026-07-01 via external Mishnah/Gemara source review; see the
+"RESOLVED" entry under Perek 4 above and the fix table below.
+
+## Content fixes applied via external source review
+
+| Sugya | Fields | Source basis | Fix |
+|-------|--------|---------------|-----|
+| 45a/yoma-045a-s02 | display.hint, ahaMoment, memoryAnchor, coreMove, takeaway.text, misconceptions.correction, finalRuling | Sefaria, William Davidson Talmud, Yoma 45a:3 (https://www.sefaria.org/Yoma.45a.3), Hebrew confirmed matching this sugya's own daftext line 7 | Rewrote all seven fields to state the additive structure consistently: the daily peras (morning and afternoon, golden altar) is unchanged on Yom Kippur; Yom Kippur separately adds a distinct handful the High Priest burns inside the Holy of Holies |
 
 ---
 

@@ -137,18 +137,18 @@
       ],
       "display": {
         "whats": "What incense measure was used on ordinary days vs. Yom Kippur?",
-        "hint": "On ordinary days, a priest offered a peras (half-measure) of incense on the golden altar. On Yom Kippur, the High Priest used a different quantity inside the Kodesh Kodashim.",
+        "hint": "On every day, including Yom Kippur, a priest offers a peras of incense in the morning and a peras in the afternoon on the golden altar, unchanged. Yom Kippur adds something new: the High Priest also burns an additional handful of incense inside the Holy of Holies.",
         "title": "How Much Incense? Ordinary Days vs. Yom Kippur"
       },
       "learning": {
-        "ahaMoment": "Ordinary incense: a peras. Yom Kippur: a different quantity inside the most sacred space - the contrast defines what makes Yom Kippur unique.",
-        "memoryAnchor": "A peras of incense daily on the golden altar; a different measure inside the Holy of Holies on Yom Kippur.",
+        "ahaMoment": "The regular peras offering is not replaced on Yom Kippur, it is joined by something new: the High Priest carries an additional handful of incense into the Holy of Holies itself, a service that exists on no other day.",
+        "memoryAnchor": "Peras, morning and afternoon, unchanged, every day including Yom Kippur, on the golden altar. Plus, only on Yom Kippur, an added handful inside the Holy of Holies.",
         "learnerQuestion": "Does the Yom Kippur incense use the same measure (peras) as the daily incense offering, or a different amount?",
         "coreTension": "The daily incense offering uses a fixed peras measure, but Yom Kippur's incense service - carried by the High Priest's own hands into the Holy of Holies - raises the question of whether the same fixed measure still applies or whether the unique rite calls for a different quantity.",
-        "coreMove": "The Gemara confirms the peras measure used for the ordinary daily incense also governs the Yom Kippur incense, showing that despite all the ways the Yom Kippur rite differs in vessel and procedure, the quantity measure itself remains constant.",
+        "coreMove": "The Gemara's baraita reads 'the incense' twice in the same line: once for the peras burned morning and afternoon on the golden altar exactly as on every other day, and once for an additional handful the High Priest burns inside the Holy of Holies specifically on Yom Kippur. The peras measure for the daily incense is not replaced or altered; a distinct second incense service, using a handful rather than a peras, is added inside the Holy of Holies for Yom Kippur alone.",
         "takeaway": {
           "type": "legal_principle",
-          "text": "The peras measure of incense used on ordinary days also governs the Yom Kippur incense offering - the quantity stays constant even though the vessels and procedure differ."
+          "text": "The daily peras measure of incense continues unchanged on Yom Kippur for the regular golden-altar offering. Yom Kippur adds a separate, additional incense service: a handful the High Priest burns inside the Holy of Holies. The two are distinct services, not one measure replacing the other."
         },
         "learningBlocker": "Learners may assume that because the Yom Kippur incense rite differs so much in vessel, carrier, and location, its incense quantity must differ too, missing that the Gemara holds the peras measure constant across both."
       },
@@ -189,7 +189,7 @@
       "misconceptions": [
         {
           "misconception": "Since the Yom Kippur incense service differs from the daily service in vessel, carrier, and location, it must also use a different quantity of incense.",
-          "correction": "The Gemara holds the incense quantity constant: the same peras measure used for the ordinary daily incense also governs the Yom Kippur incense, even though the vessels and procedure differ.",
+          "correction": "The Gemara does not replace the daily peras with a different measure. The peras for the regular golden-altar incense stays exactly as on every other day; Yom Kippur adds a second, separate incense service - a handful burned inside the Holy of Holies - on top of the unchanged daily peras.",
           "correctedByStepId": null
         }
       ],
@@ -206,7 +206,7 @@
           "question": "What quantity of incense was used on ordinary days?"
         }
       ],
-      "finalRuling": "On ordinary days a peras of incense is offered; the Yom Kippur quantity is different and larger.",
+      "finalRuling": "The daily peras of incense continues unchanged on Yom Kippur. Yom Kippur adds a separate incense service: an additional handful the High Priest burns inside the Holy of Holies.",
       "difficulty": "introductory",
       "alternateAngles": [],
       "glossary": [],
