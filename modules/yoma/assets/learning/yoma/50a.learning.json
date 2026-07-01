@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Does 'he shall remove his linen garments' create a positive commandment or only a prohibition?",
-        "hint": "R. Yitzchak Nappacha objects: the verse describing vestment removal may not create a required service act but only prohibit wearing them afterward."
+        "hint": "R. Yitzchak Nappacha objects: the verse describing vestment removal may not create a required service act but only prohibit wearing them afterward.",
+        "title": "Remove or Forbidden to Wear? The Positive Commandment of Vestment Removal"
       },
       "learning": {
-        "summary": "Lev. 16:23 says 'he shall remove his linen garments and leave them there.' R. Yitzchak Nappacha asks whether this is (a) a required positive commandment to actively remove the garments as part of the service, or (b) merely a prohibition against continuing to wear them after the Yom Kippur service ends. The Gemara resolves that the verse's placement in the service sequence confirms it is a required service act.",
         "ahaMoment": "The same verse can yield a positive commandment or a prohibition depending on whether it is read as prescribing an act or banning continued conduct.",
         "memoryAnchor": "Removing linen vestments - is it an obligatory ceremony at service end or only a ban on wearing them afterward?",
-        "openQuestion": "How do we determine whether a verse describing a change in action requires that action or only prohibits not changing?"
+        "learnerQuestion": "Is 'he shall remove his linen garments' a positive commandment requiring active removal, or only a prohibition against continuing to wear them after service?",
+        "coreTension": "The verse can be read as creating either a positive commandment to actively remove the vestments at a specific time, or merely a prohibition against wearing them outside their permitted context, and each reading has different legal consequences.",
+        "coreMove": "The Gemara debates whether 'he shall remove his linen garments' is a positive commandment with independent legal force or only a prohibition, with R. Yitzchak Nappacha establishing it as a genuine positive commandment requiring an affirmative act of removal.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The verse 'he shall remove his linen garments' generates a positive commandment to actively remove the vestments, not merely a prohibition against continued wearing - it imposes a required action, not just a restriction."
+        },
+        "learningBlocker": "Learners may read the vestment-removal verse as purely prohibitory - don't continue wearing them - missing that R. Yitzchak Nappacha establishes it as a positive commandment requiring an affirmative act of removal."
       },
       "argumentFlow": [
         {
@@ -110,8 +117,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What did R. Yitzchak Nappacha question about vestment removal?",
-          "answer": "Whether 'he shall remove his linen garments' is an obligatory service act (positive commandment) or only a prohibition against continuing to wear them after the service."
+          "answer": "Whether 'he shall remove his linen garments' is an obligatory service act (positive commandment) or only a prohibition against continuing to wear them after the service.",
+          "question": "What did R. Yitzchak Nappacha question about vestment removal?"
         }
       ],
       "finalRuling": "Removing the linen garments is a required service act based on the verse's placement in the service sequence.",
@@ -163,13 +170,20 @@
       ],
       "display": {
         "whats": "Is a slaughtered bull's blood still legally called 'the blood of a bull'?",
-        "hint": "The Gemara debates whether slaughter changes the blood's legal category. Abaye holds the blood retains its identity as 'blood of a bull'; Rava disputes. The classification determines whether the replacement HP can use the original blood."
+        "hint": "The Gemara debates whether slaughter changes the blood's legal category. Abaye holds the blood retains its identity as 'blood of a bull'; Rava disputes. The classification determines whether the replacement HP can use the original blood.",
+        "title": "Does Slaughtered Blood Stay 'Bull's Blood'? An Abaye-Rava Dispute"
       },
       "learning": {
-        "summary": "Once the HP's bull is slaughtered, is its blood still categorized as 'blood of a bull,' or does slaughter transform it into merely 'blood'? Abaye holds slaughter does not change the blood's legal category - it remains 'blood of a bull.' Rava holds slaughter may change the status. The practical implication: if the original blood retains its category, the replacement HP may potentially use it; if not, a new bull and new blood are needed.",
         "ahaMoment": "Slaughter changes the animal's existence but may not change the blood's legal identity - the label depends on legal convention, not biological fact.",
         "memoryAnchor": "After slaughter: is it still 'bull blood' or just 'blood'? The Abaye-Rava dispute turns on whether legal categories follow biological states.",
-        "openQuestion": "Does slaughter change the legal identity of an offering's blood, or does the blood retain its original category throughout?"
+        "learnerQuestion": "After the High Priest's bull is slaughtered, does its blood legally remain 'the blood of a bull' for Yom Kippur purposes, or does slaughter change its legal identity?",
+        "coreTension": "Abaye holds that slaughtered blood retains its category as 'blood of a bull,' preserving the legal identity needed for the Yom Kippur service, while Rava disputes this, creating uncertainty about whether the blood has the required legal status once the animal is dead.",
+        "coreMove": "Abaye and Rava dispute whether slaughter changes the legal identity of the blood: Abaye maintains it retains its offering-category status as 'blood of a bull,' while Rava holds that slaughter does change the blood's legal characterization, leaving the service's legal grounding open to challenge.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Whether slaughtered blood retains its legal identity as 'blood of a bull' is disputed: Abaye holds it does, preserving the offering's legal character; Rava disputes this, holding slaughter changes the blood's legal characterization."
+        },
+        "learningBlocker": "Learners may assume that because the blood came from the bull, it automatically and permanently retains its legal identity as 'bull's blood,' missing that Rava specifically challenges this assumption."
       },
       "argumentFlow": [
         {
@@ -237,7 +251,11 @@
         "legal categories of offerings"
       ],
       "misconceptions": [
-        "Slaughtered blood always retains its offering category - Rava explicitly disputes this."
+        {
+          "misconception": "Once blood comes from an offering animal, it permanently retains its offering-category identity - slaughter does not change the blood's legal characterization.",
+          "correction": "Rava explicitly disputes this: slaughter may change the blood's legal identity, so that what was 'blood of a bull' while the animal lived does not automatically remain 'blood of a bull' for Yom Kippur service purposes after slaughter.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -250,8 +268,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the Abaye-Rava dispute about slaughtered blood?",
-          "answer": "Abaye: the blood retains its category as 'blood of a bull' after slaughter. Rava: slaughter may change the blood's legal status. The practical issue: can the replacement HP use the original blood?"
+          "answer": "Abaye: the blood retains its category as 'blood of a bull' after slaughter. Rava: slaughter may change the blood's legal status. The practical issue: can the replacement HP use the original blood?",
+          "question": "What is the Abaye-Rava dispute about slaughtered blood?"
         }
       ],
       "finalRuling": "Whether slaughtered blood retains its legal category is disputed by Abaye and Rava; unresolved.",
@@ -303,13 +321,20 @@
       ],
       "display": {
         "whats": "Is the HP's bull a communal sin-offering or a personal one?",
-        "hint": "Abaye holds the HP's bull is a communal offering (overriding Shabbat and tumah); Rava holds it is personal. The verse 'for himself and his household' is the crux."
+        "hint": "Abaye holds the HP's bull is a communal offering (overriding Shabbat and tumah); Rava holds it is personal. The verse 'for himself and his household' is the crux.",
+        "title": "Communal or Personal? The Status of the High Priest's Bull"
       },
       "learning": {
-        "summary": "If the HP's bull is a communal sin-offering (chatat tzibur), then it cannot become pigul, overrides Shabbat, and tumah does not disqualify. If it is personal (chatat yachid), those overrides do not apply and a tamei HP must be replaced. Abaye reads the HP's representative role as making his offering communal; Rava reads 'for himself and his household' as limiting it to a personal offering.",
         "ahaMoment": "The HP brings the bull 'for himself' yet represents all Israel - the tension between these roles drives the communal/personal classification dispute.",
         "memoryAnchor": "HP's bull: 'for himself and his household' - personal (Rava) or communal representative (Abaye)?",
-        "openQuestion": "When does an offering brought by an individual on behalf of a group become legally communal?"
+        "learnerQuestion": "Is the High Priest's Yom Kippur bull a communal offering brought on behalf of all Israel, or a personal offering for himself and his household?",
+        "coreTension": "Abaye, following R. Meir, holds the bull is a communal chatat because the High Priest represents all Israel; Rava holds it is personal, based on 'for himself and his household,' and the two positions rest on competing readings of the same verses and traditions.",
+        "coreMove": "The Gemara frames the dispute as turning on whose interests the High Priest represents when he brings the bull: Abaye with R. Meir reads the HP as a communal representative, while Rava reads 'for himself and his household' as the limiting scope, making the offering personal.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Abaye with R. Meir holds the High Priest's bull is a communal sin-offering because the HP represents all Israel, while Rava holds it is personal because 'for himself and his household' limits its scope - this is an active, unresolved dispute."
+        },
+        "learningBlocker": "Learners may assume the High Priest's representative role as national leader settles the question in favor of a communal offering, missing that Rava explicitly disputes this based on a competing reading of the verse."
       },
       "argumentFlow": [
         {
@@ -377,7 +402,11 @@
         "Shabbat and tumah override"
       ],
       "misconceptions": [
-        "The HP's bull is obviously communal because he represents all Israel - this is exactly the Abaye-Rava dispute."
+        {
+          "misconception": "The High Priest represents all Israel, so his Yom Kippur bull is obviously a communal offering - this is settled and not a matter of dispute.",
+          "correction": "The Gemara frames this as an active dispute: Rava holds the bull is personal because the verse limits its scope to 'himself and his household,' and Abaye's communal reading with R. Meir is one position in the argument, not the settled ruling.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -387,8 +416,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the Abaye-Rava dispute about the HP's bull?",
-          "answer": "Abaye: communal offering (HP represents all Israel), overriding Shabbat/tumah. Rava: personal offering ('for himself and his household'), subject to individual offering rules."
+          "answer": "Abaye: communal offering (HP represents all Israel), overriding Shabbat/tumah. Rava: personal offering ('for himself and his household'), subject to individual offering rules.",
+          "question": "What is the Abaye-Rava dispute about the HP's bull?"
         }
       ],
       "finalRuling": "Whether the HP's bull is communal or personal is disputed by Abaye (communal) and Rava (personal).",

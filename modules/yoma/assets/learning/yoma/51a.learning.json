@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Does automatic sanctity (firstborn, tithe) still require formal designation before use in service?",
-        "hint": "Rav Huna and Rava confirm: even animals with inherent automatic sanctity need explicit designation. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity."
+        "hint": "Rav Huna and Rava confirm: even animals with inherent automatic sanctity need explicit designation. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
+        "title": "Automatic Sanctity Is Not Enough: Designation Still Required"
       },
       "learning": {
-        "summary": "A firstborn animal has inherent sanctity from birth - yet halacha still requires formal designation before it may be offered. Rav Huna and Rava use this principle to support R. Elazar: even if the HP's bull has automatic communal sanctity, the Yom Kippur service remains exclusively designated. Automatic sanctity and designated service are separate categories that operate independently.",
         "ahaMoment": "Automatic sanctity does not bypass the need for explicit designation. The two categories - sanctity and designation - are legally independent.",
         "memoryAnchor": "Firstborn is holy automatically yet needs designation. Yom Kippur is designated exclusively and cannot be supplemented.",
-        "openQuestion": "Why are automatic sanctity and specific service designation two separate legal categories rather than one?"
+        "learnerQuestion": "If an animal acquires sanctity automatically (as firstborn or tithe), does it still need to be explicitly designated before it can be used for a specific Temple purpose?",
+        "coreTension": "An animal that becomes holy automatically might seem to need no further act of designation, but R. Elazar's ruling that Yom Kippur service cannot discharge personal vows implies that automatic sanctity does not pre-designate an offering for a specific purpose, and Rav Huna and Rava demonstrate this from firstborn and tithe laws.",
+        "coreMove": "Rav Huna and Rava show from the laws of firstborn and tithe animals that automatic sanctity does not eliminate the need for further explicit designation - these animals are holy by birth or by count, yet still require designation before serving a specific Temple function, supporting R. Elazar's exclusivity ruling.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Automatic sanctity (firstborn, tithe) does not substitute for explicit designation - an automatically holy animal still needs to be designated for its specific Temple purpose, supporting R. Elazar's ruling that the Yom Kippur service cannot simultaneously serve as fulfillment of a personal vow."
+        },
+        "learningBlocker": "Learners may assume that once an animal is automatically holy it is thereby ready for any Temple purpose without further designation, missing that Rav Huna and Rava demonstrate automatic sanctity and specific designation are two separate requirements."
       },
       "argumentFlow": [
         {
@@ -110,7 +117,11 @@
         "designated service principles"
       ],
       "misconceptions": [
-        "Automatic sanctity eliminates the need for further designation - Rav Huna explicitly rules otherwise."
+        {
+          "misconception": "An animal that automatically acquires sanctity (like a firstborn or tithe animal) is already designated for Temple use and needs no further act of specification before serving a particular purpose.",
+          "correction": "Rav Huna and Rava demonstrate that automatic sanctity and specific designation are separate requirements: a firstborn or tithe animal is automatically holy but still requires explicit designation before it can serve a particular Temple function.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -123,8 +134,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What principle do Rav Huna and Rava establish about automatic sanctity?",
-          "answer": "Even animals with automatic inherent sanctity (firstborn, tithe) require explicit designation before being used in a specific service. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity."
+          "answer": "Even animals with automatic inherent sanctity (firstborn, tithe) require explicit designation before being used in a specific service. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
+          "question": "What principle do Rav Huna and Rava establish about automatic sanctity?"
         }
       ],
       "finalRuling": "Automatic sanctity requires explicit designation; designated service exclusivity is an independent legal category.",
@@ -161,13 +172,20 @@
       ],
       "display": {
         "whats": "Mishna: the HP receives the bull's blood from the stirrer and enters the Holy of Holies to sprinkle",
-        "hint": "The Mishna describes the critical moment: the HP takes the bowl of blood from whoever has been stirring it to prevent congealing, then enters the Holy of Holies."
+        "hint": "The Mishna describes the critical moment: the HP takes the bowl of blood from whoever has been stirring it to prevent congealing, then enters the Holy of Holies.",
+        "title": "The Blood Passes Hands: Only the High Priest May Enter"
       },
       "learning": {
-        "summary": "The blood was stirred continuously by another priest to prevent it from congealing. The HP then takes the bowl and enters the Holy of Holies - the most sacred space in the world, entered only by the HP and only on Yom Kippur. The Gemara discusses who the stirrer was and whether his identity matters for the blood's validity.",
         "ahaMoment": "The moment the HP receives the blood from the stirrer is the transition from preparation to the most sacred service in Jewish history.",
         "memoryAnchor": "Blood stirred to stay liquid, HP receives it and enters the innermost sanctum - the most sacred act of the year.",
-        "openQuestion": "Does the identity of the priest who stirred the blood affect the validity of the blood that the HP receives?"
+        "learnerQuestion": "Who stirs the blood after the bull is slaughtered, and who may carry it into the Holy of Holies?",
+        "coreTension": "The blood must be stirred and then received by the High Priest for entry into the Holy of Holies, creating a two-step interaction that raises the question of whether any other priest could perform either step and thereby substitute for the HP.",
+        "coreMove": "The Mishna establishes that a designee stirs the blood and hands it to the HP, but only the High Priest himself may receive the blood and enter the Holy of Holies - the entry is person-specific to the HP in a way the stirring is not.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The bull's blood is stirred by a designee who hands it to the High Priest, but only the High Priest may receive it and carry it into the Holy of Holies - the entry is person-specific and cannot be performed by any other priest."
+        },
+        "learningBlocker": "Learners may assume that any qualified priest who performs the stirring could also complete the sequence by entering the Holy of Holies, missing that the Mishna restricts entry explicitly and solely to the High Priest."
       },
       "argumentFlow": [
         {
@@ -234,7 +252,11 @@
         "HP exclusive acts"
       ],
       "misconceptions": [
-        "Any priest can receive the blood and enter the Holy of Holies - only the HP may do this."
+        {
+          "misconception": "Any priest who stirs and holds the bull's blood may then carry it into the Holy of Holies - entry is not restricted to the High Priest specifically.",
+          "correction": "The Mishna establishes that only the High Priest may receive the blood and enter the Holy of Holies - the stirring can be delegated, but the entry into the inner sanctum is person-specific to the HP and cannot be performed by another priest.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -244,8 +266,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was the blood stirred and who was doing it?",
-          "answer": "Another priest stirred the blood continuously to prevent it from congealing. The HP then received it for sprinkling. The stirrer's identity does not affect blood validity; stirring is preparatory, not a service act."
+          "answer": "Another priest stirred the blood continuously to prevent it from congealing. The HP then received it for sprinkling. The stirrer's identity does not affect blood validity; stirring is preparatory, not a service act.",
+          "question": "Why was the blood stirred and who was doing it?"
         }
       ],
       "finalRuling": "The HP personally receives the stirred blood and enters the Holy of Holies to begin the atonement sprinkling.",

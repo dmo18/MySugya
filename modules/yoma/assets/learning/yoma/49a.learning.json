@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "How could Rav Sheshet both cite and contradict the same baraita about non-priest blood service?",
-        "hint": "The Gemara resolves the apparent contradiction: Rav Sheshet originally did not know the baraita, made a ruling, then later heard it and used it to challenge Rav Hisda."
+        "hint": "The Gemara resolves the apparent contradiction: Rav Sheshet originally did not know the baraita, made a ruling, then later heard it and used it to challenge Rav Hisda.",
+        "title": "A Sage Who Changed His Mind: Rav Sheshet and the Overlooked Baraita"
       },
       "learning": {
-        "summary": "Rav Sheshet ruled that blood-carrying by a non-priest is valid, but a baraita disqualifies it. The Gemara asks how Rav Sheshet could later cite that same baraita against Rav Hisda if he did not know it. The resolution: he heard it after his original ruling, and then used it as an objection.",
         "ahaMoment": "A sage can reverse his own position when shown a baraita he had not known - then use that very baraita against others.",
         "memoryAnchor": "Rav Sheshet did not know the baraita when he ruled; once he learned it, he used it to object to Rav Hisda.",
-        "openQuestion": "Can a sage who previously did not know a baraita later rely on it - even to contradict his own prior ruling?"
+        "learnerQuestion": "Can a sage who cited a baraita as support for his ruling later reverse that ruling when confronted with a different baraita he had not previously seen?",
+        "coreTension": "Once a sage publicly commits to a position by citing evidence, the expectation might be that he is bound to that position, but Rav Sheshet's case challenges this assumption when the evidence itself turns out to be incomplete.",
+        "coreMove": "Rav Sheshet reversed his ruling on incense pigul upon seeing a baraita he had not previously encountered, showing that a sage's obligation is to the evidence, not to statements previously made - reversal upon new evidence is legitimate, not contradictory.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Rav Sheshet's reversal on incense pigul upon learning a new baraita illustrates that a sage is bound by evidence, not by prior statements - updating one's ruling when confronted with new evidence is expected, not a contradiction."
+        },
+        "learningBlocker": "Learners may think a sage's public citation of evidence locks him into his position permanently, missing that Rav Sheshet's case shows a sage must update when confronted with evidence he had not previously seen."
       },
       "argumentFlow": [
         {
@@ -125,8 +132,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How is the Rav Sheshet contradiction resolved?",
-          "answer": "Rav Sheshet did not know the baraita when he ruled. Once he heard it he reversed position and cited it as an objection to Rav Hisda."
+          "answer": "Rav Sheshet did not know the baraita when he ruled. Once he heard it he reversed position and cited it as an objection to Rav Hisda.",
+          "question": "How is the Rav Sheshet contradiction resolved?"
         }
       ],
       "finalRuling": "Non-priest blood-carrying is disqualified per the baraita; Rav Sheshet's reversal is consistent.",
@@ -153,13 +160,20 @@
       ],
       "display": {
         "whats": "Is kabbalat hakometz (scooping the incense) a required distinct service act?",
-        "hint": "The Gemara raises whether the act of scooping the incense into the ladle is itself an independent obligatory service step or merely preparatory handling."
+        "hint": "The Gemara raises whether the act of scooping the incense into the ladle is itself an independent obligatory service step or merely preparatory handling.",
+        "title": "Is Scooping the Incense Its Own Service Act? The Kabbalat HaKometz Question"
       },
       "learning": {
-        "summary": "Temple service acts fall into two categories: required obligatory acts (which must be done correctly and by a priest) and preparatory acts (which have fewer requirements). The question is whether kabbalah (reception/scooping) of the incense qualifies as an obligatory service act.",
         "ahaMoment": "The line between required service and preparation determines who may do it and what invalidates it - not every physical act in the Temple is an obligatory service step.",
         "memoryAnchor": "Is scooping the incense a full service act or just handling? The answer changes everything about who may do it.",
-        "openQuestion": "What makes a Temple act count as an obligatory service step versus mere preparation?"
+        "learnerQuestion": "Does scooping the incense (kabbalat hakometz) constitute a distinct, independent service step comparable to kabbalah in the blood service, or is it merely part of the preparation?",
+        "coreTension": "In the blood service, kabbalah (receiving the blood) is a distinct, legally recognized service act with its own consequences for validity; whether the parallel act of scooping the incense carries the same independent status is disputed.",
+        "coreMove": "The Gemara examines whether scooping the incense is a fully independent service step with its own legal consequences or only a preparatory act, and treats the question as genuinely contested rather than settling it by simple analogy to the blood service.",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "Whether scooping the incense (kabbalat hakometz) is a legally independent service step analogous to kabbalah in the blood service, or merely a preparatory act, is disputed - the structural analogy to the blood service is not automatically decisive."
+        },
+        "learningBlocker": "Learners may assume the structural analogy to blood-service kabbalah is sufficient to establish incense scooping as an independent step, missing that the Gemara treats the question as genuinely open."
       },
       "argumentFlow": [
         {
@@ -212,8 +226,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the question about kabbalat hakometz?",
-          "answer": "Whether scooping the incense is an independent required service act (requiring a priest, right hand, etc.) or merely preparatory handling."
+          "answer": "Whether scooping the incense is an independent required service act (requiring a priest, right hand, etc.) or merely preparatory handling.",
+          "question": "What is the question about kabbalat hakometz?"
         }
       ],
       "finalRuling": "Whether kabbalat hakometz is an independent obligatory service act remains under discussion.",
@@ -310,13 +324,20 @@
       ],
       "display": {
         "whats": "If the HP scooped incense and died mid-service, can a replacement HP enter with that same scooping?",
-        "hint": "R. Yehoshua ben Levi raises the dilemma: HP scooped and died - may the replacement use that incense? R. Chanina says no: a new bull is needed, and incense scooped before the bull's slaughter is void."
+        "hint": "R. Yehoshua ben Levi raises the dilemma: HP scooped and died - may the replacement use that incense? R. Chanina says no: a new bull is needed, and incense scooped before the bull's slaughter is void.",
+        "title": "Midservice Death: The Replacement's Starting Point"
       },
       "learning": {
-        "summary": "R. Yehoshua ben Levi's dilemma: the HP completed the incense scooping but died before entering the Holy of Holies. May the replacement HP take that same scooped incense and enter? R. Chanina derives from 'a bull' (not 'the blood of a bull') that a fresh bull and fresh scooping are required. Since incense must follow the bull's slaughter, the replacement's incense scooping would predate his bull's slaughter - making it void.",
         "ahaMoment": "R. Chanina's ruling reveals a structural rule: the incense scooping is valid only after the HP's own bull is slaughtered. A replacement inherits no service steps - he must restart from the bull.",
         "memoryAnchor": "If the HP dies after scooping: R. Chanina says void - the replacement needs his own bull and his own scooping.",
-        "openQuestion": "Does the replacement HP inherit any completed service steps from the HP who died, or must he restart from the beginning?"
+        "learnerQuestion": "If the High Priest scoops the incense and then dies before completing the Yom Kippur service, must the replacement start over from the beginning?",
+        "coreTension": "Once the incense has been scooped, it might seem the replacement High Priest can use it and continue from that point, but R. Chanina rules otherwise, requiring the replacement to bring his own bull and perform his own scooping.",
+        "coreMove": "R. Chanina holds that the replacement High Priest cannot carry forward service acts begun by his predecessor - the replacement must start fresh with his own bull and his own incense scooping, because the service is tied to the specific person who began it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "If the High Priest dies after scooping the incense, the replacement may not use that scooped incense and continue from there - R. Chanina rules the replacement must begin again with his own bull and his own incense scooping."
+        },
+        "learningBlocker": "Learners may assume completed service acts by the first High Priest remain valid and can be used by the replacement, missing R. Chanina's ruling that the service is person-specific and the replacement must restart from the beginning."
       },
       "argumentFlow": [
         {
@@ -400,7 +421,11 @@
         "replacement rules"
       ],
       "misconceptions": [
-        "The replacement can always use the first HP's scooped incense - R. Chanina explicitly rules otherwise."
+        {
+          "misconception": "Once the High Priest has scooped the incense, that scooped portion remains valid and the replacement can use it to continue the service without repeating that step.",
+          "correction": "R. Chanina rules the replacement cannot use the first High Priest's scooped incense - the service is person-specific, and the replacement must start over with his own bull and his own incense scooping.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -413,8 +438,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is R. Chanina's ruling about the replacement HP?",
-          "answer": "The replacement needs a new bull ('a bull' not 'the blood of a bull'). Since incense scooped before the bull's slaughter is void, the replacement must re-scoop after slaughtering his own bull."
+          "answer": "The replacement needs a new bull ('a bull' not 'the blood of a bull'). Since incense scooped before the bull's slaughter is void, the replacement must re-scoop after slaughtering his own bull.",
+          "question": "What is R. Chanina's ruling about the replacement HP?"
         }
       ],
       "finalRuling": "R. Chanina: replacement HP requires a new bull and new scooping. R. Yehoshua ben Levi's dilemma implies he disputes this.",

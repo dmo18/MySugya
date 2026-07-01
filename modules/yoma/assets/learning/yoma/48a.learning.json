@@ -27,13 +27,20 @@
       ],
       "display": {
         "whats": "What if the handful was stuck to the side of the pan?",
-        "hint": "Rav Pappa asks: what if the kometz stuck to the side of the pan instead of remaining in the hand? Mar bar Rav Ashi extends the dilemma: what if it stuck to the High Priest's garment?"
+        "hint": "Rav Pappa asks: what if the kometz stuck to the side of the pan instead of remaining in the hand? Mar bar Rav Ashi extends the dilemma: what if it stuck to the High Priest's garment?",
+        "title": "Stuck to the Surface: Is the Kometz Still Valid?"
       },
       "learning": {
-        "summary": "Location matters for the kometz - the flour must be in the priest's hand, not on a surface or garment. If it transferred to another surface, is the kometz still valid?",
         "ahaMoment": "Kometz stuck to pan side or garment: has it left 'his hands'? The answer determines validity.",
         "memoryAnchor": "If the kometz sticks to the pan or the priest's garment, is it still considered 'in his hands'?",
-        "openQuestion": "Does 'his handfuls' require the offering to be actively held, or is close proximity sufficient?"
+        "learnerQuestion": "If the handful of flour sticks to the side of the pan or the High Priest's garment rather than remaining in his palm, does the kometz still count?",
+        "coreTension": "The kometz requires the flour to be 'in his hand,' but if it adheres to a surface other than his palm - the pan wall or his garment - the hand condition may no longer be met, and the Gemara must determine whether contact through an adjacent surface is sufficient.",
+        "coreMove": "The Gemara raises the dilemma of flour sticking to the pan side or the garment and leaves it unresolved, treating it as a boundary case where the hand-contact requirement and adherence to adjacent surfaces pull in opposite directions.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Whether a kometz that adheres to the pan's side or the High Priest's garment rather than resting directly in his palm still satisfies the 'in his hand' requirement is a dilemma the Gemara raises and leaves unresolved."
+        },
+        "learningBlocker": "Learners may assume any flour adjacent to the priest's hand automatically counts as 'in his hand,' missing that the Gemara specifically isolates pan-side and garment contact as unresolved boundary cases."
       },
       "argumentFlow": [
         {
@@ -84,7 +91,11 @@
         "meal-offering laws"
       ],
       "misconceptions": [
-        "The kometz must be in the hand - sticking to another surface raises whether the 'hand' condition is still met."
+        {
+          "misconception": "As long as the flour is held close to the priest's hand - stuck to the pan side or to his garment - it counts as being 'in his hand' for the kometz.",
+          "correction": "The Gemara treats pan-side and garment contact as unresolved boundary cases. The 'in his hand' requirement is not satisfied by mere proximity or adherence to an adjacent surface, but whether those cases definitively disqualify the kometz is left open.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -97,8 +108,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does Rav Pappa ask about the kometz and the side of the pan?",
-          "answer": "Whether a kometz that stuck to the side of the pan (leaving the hand) is still valid, or whether leaving the hand's surface invalidates it."
+          "answer": "Whether a kometz that stuck to the side of the pan (leaving the hand) is still valid, or whether leaving the hand's surface invalidates it.",
+          "question": "What does Rav Pappa ask about the kometz and the side of the pan?"
         }
       ],
       "finalRuling": "Whether the kometz sticking to the pan or garment invalidates it remains an unresolved dilemma.",
@@ -125,13 +136,20 @@
       ],
       "display": {
         "whats": "Should the Sages' kometz requirement be given the same stringency as the biblical requirement?",
-        "hint": "Rav Pappa asks: should the rabbinic requirements for the kometz be given the same strictness as the biblical ones? This is a meta-question about the hierarchy of kometz rules."
+        "hint": "Rav Pappa asks: should the rabbinic requirements for the kometz be given the same strictness as the biblical ones? This is a meta-question about the hierarchy of kometz rules.",
+        "title": "Rabbinic Standards, Biblical Act: Same Invalidation?"
       },
       "learning": {
-        "summary": "Some kometz requirements are biblical (three fingers, his hand) and some are rabbinic (exact measure, not overflowing). Are both treated equally in practice?",
         "ahaMoment": "Biblical kometz rules vs. rabbinic kometz rules - same stringency or different?",
         "memoryAnchor": "Do the Sages' added kometz requirements have the same weight as the biblical requirements?",
-        "openQuestion": "If a rabbinic kometz requirement is violated, does the service become invalid?"
+        "learnerQuestion": "If the kometz fails only a rabbinic requirement rather than a biblical one, is the Yom Kippur service nonetheless invalid?",
+        "coreTension": "A biblical deficiency in the kometz clearly invalidates the service, but a rabbinic deficiency raises the question of whether the same invalidation follows, since rabbinic and biblical obligations ordinarily differ in their disqualifying force.",
+        "coreMove": "The Gemara examines whether a kometz that satisfies the biblical requirements but falls short of a rabbinic standard still renders the service invalid, and treats the rabbinic requirement as carrying its own capacity to disqualify the offering even where the biblical act is technically complete.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A kometz that satisfies biblical requirements but violates a rabbinic standard may still invalidate the service - the Gemara treats rabbinic kometz requirements as having real disqualifying force, not merely advisory status."
+        },
+        "learningBlocker": "Learners may assume that because the biblical kometz act is technically complete, a rabbinic deficiency cannot invalidate the service, missing that the Gemara considers rabbinic requirements capable of disqualifying the offering."
       },
       "argumentFlow": [
         {
@@ -168,7 +186,11 @@
         "hierarchy of halakha"
       ],
       "misconceptions": [
-        "Violating a rabbinic requirement may invalidate the service even if the biblical act is technically complete."
+        {
+          "misconception": "A kometz that fully satisfies the biblical requirements can never be invalidated by a rabbinic deficiency - the biblical act being complete is enough.",
+          "correction": "The Gemara treats rabbinic kometz requirements as having real disqualifying force: a kometz that fails a rabbinic standard may invalidate the service even if the biblical act is technically complete.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -181,8 +203,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the dilemma about the Sages' requirements for kometz?",
-          "answer": "Whether the rabbinic additions to the kometz requirement (exact measure, not overflowing) are treated with the same stringency as the biblical requirements."
+          "answer": "Whether the rabbinic additions to the kometz requirement (exact measure, not overflowing) are treated with the same stringency as the biblical requirements.",
+          "question": "What is the dilemma about the Sages' requirements for kometz?"
         }
       ],
       "finalRuling": "Whether rabbinic kometz requirements have the same binding force as biblical ones remains a dilemma.",
@@ -224,13 +246,20 @@
       ],
       "display": {
         "whats": "If the blood that touched the floor during the Zevahim service was considered non-valid - does this affect the kometz?",
-        "hint": "A ruling from tractate Zevahim (32a): if blood touched the floor, it is invalid for sprinkling. Rav Pappa asks: does this principle affect the kometz? If the kometz touches the floor, is it invalid by analogy?"
+        "hint": "A ruling from tractate Zevahim (32a): if blood touched the floor, it is invalid for sprinkling. Rav Pappa asks: does this principle affect the kometz? If the kometz touches the floor, is it invalid by analogy?",
+        "title": "Blood on the Floor vs. Flour on the Floor: Different Rules"
       },
       "learning": {
-        "summary": "The Zevahim floor-touch ruling: blood that touches the floor loses its valid-sprinkling status. Does the same apply to incense/flour that touches the floor during the kometz process?",
         "ahaMoment": "Blood touching the floor = invalid for sprinkling. Does flour touching the floor = invalid kometz by analogy?",
         "memoryAnchor": "Blood on the floor is invalid for sprinkling; does floor-touch invalidate the kometz by the same rule?",
-        "openQuestion": "Are the blood and flour kometz governed by the same rules, or are they different Temple categories?"
+        "learnerQuestion": "Does the Zevahim ruling that blood touching the floor is disqualified apply equally to kometz flour?",
+        "coreTension": "The Zevahim tractate establishes that offering blood contacting the floor is disqualified, and the question is whether this rule carries over to the kometz, which is also a Temple service element that must not touch impermissible surfaces.",
+        "coreMove": "The Gemara rules explicitly that the Zevahim floor-contact disqualification is specific to blood and does not extend to kometz flour, grounding the difference in the category-specific nature of the blood rule rather than a general Temple-surface prohibition.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Zevahim ruling that blood touching the floor is disqualified applies only to blood - it does not extend to kometz flour, which operates under its own set of disqualifying conditions."
+        },
+        "learningBlocker": "Learners may assume a general principle that any Temple service element contacting the floor is disqualified, missing that the Gemara treats the Zevahim floor-contact rule as blood-specific with no kometz extension."
       },
       "argumentFlow": [
         {
@@ -311,7 +340,11 @@
         "Zevahim tractate connections"
       ],
       "misconceptions": [
-        "The Zevahim ruling about blood on the floor is category-specific and does not extend to kometz flour."
+        {
+          "misconception": "The Zevahim ruling about blood touching the floor is a general Temple principle that applies equally to kometz flour.",
+          "correction": "The Gemara rules the Zevahim floor-contact disqualification is category-specific to blood and does not extend to kometz flour - the two are governed by different rules.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -322,8 +355,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Does the Zevahim ruling about blood on the floor apply to the kometz?",
-          "answer": "No - blood on the floor is invalid for sprinkling (a specific blood-law), but this ruling does not extend to kometz flour since they are different Temple categories."
+          "answer": "No - blood on the floor is invalid for sprinkling (a specific blood-law), but this ruling does not extend to kometz flour since they are different Temple categories.",
+          "question": "Does the Zevahim ruling about blood on the floor apply to the kometz?"
         }
       ],
       "finalRuling": "The Zevahim floor-contact ruling applies to blood only, not to kometz flour.",
@@ -350,13 +383,20 @@
       ],
       "display": {
         "whats": "What if the High Priest scooped from a pile that was more than the required amount?",
-        "hint": "Rav Pappa asks: if the incense pile was more than needed and the High Priest scooped from it, is the kometz valid? The question is whether the excess invalidates the act."
+        "hint": "Rav Pappa asks: if the incense pile was more than needed and the High Priest scooped from it, is the kometz valid? The question is whether the excess invalidates the act.",
+        "title": "The Extra Flour: May the Kometz Come From Leftovers?"
       },
       "learning": {
-        "summary": "Taking kometz from excess: the pile has more than one kometz; the priest takes three fingers from it. Is this valid when 'his handfuls' implies a specific measure?",
         "ahaMoment": "Taking the correct amount from an oversized pile - valid or not?",
         "memoryAnchor": "If the incense pile has excess and the priest takes the exact kometz amount, is the service valid?",
-        "openQuestion": "Does 'his handfuls' imply the pile cannot have excess, or only that the amount taken must be correct?"
+        "learnerQuestion": "If the kohen takes his handful from the excess flour pile rather than from the measured main offering, is that a valid kometz?",
+        "coreTension": "The kometz is supposed to be taken from the specific measured portion designated for the offering, but excess flour also surrounds it, raising the question of whether a handful scooped from the undifferentiated overflow is sufficiently 'from' the offering to count.",
+        "coreMove": "The Gemara raises the dilemma of whether scooping from the excess pile satisfies the kometz requirement and leaves it unresolved, treating it as a boundary case at the edge of what counts as taking 'his handfuls' from the designated offering.",
+        "takeaway": {
+          "type": "open_question",
+          "text": "Whether a handful scooped from the excess flour pile rather than from the main measured offering satisfies the kometz requirement is a dilemma the Gemara raises and leaves unresolved."
+        },
+        "learningBlocker": "Learners may assume any flour from the general offering area counts for the kometz, missing that the Gemara specifically isolates excess-pile scooping as an unresolved boundary case."
       },
       "argumentFlow": [
         {
@@ -392,7 +432,11 @@
         "kometz laws"
       ],
       "misconceptions": [
-        "The concern: taking from excess might mean the 'handfuls' are not precisely measured."
+        {
+          "misconception": "Since the excess flour is part of the same offering, taking the kometz from the excess pile rather than the main measured portion is clearly valid.",
+          "correction": "The Gemara does not settle this - scooping from the excess pile is an unresolved boundary case, since the kometz may need to come from the specific measured main portion rather than overflow flour.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -405,8 +449,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the Rav Pappa dilemma about scooping kometz from an excess pile?",
-          "answer": "If the incense pile is larger than one kometz and the priest scoops exactly the right amount, the question is whether the excess in the pile invalidates the service."
+          "answer": "If the incense pile is larger than one kometz and the priest scoops exactly the right amount, the question is whether the excess in the pile invalidates the service.",
+          "question": "What is the Rav Pappa dilemma about scooping kometz from an excess pile?"
         }
       ],
       "finalRuling": "Taking the exact kometz amount from an oversized pile remains a dilemma.",
@@ -443,13 +487,20 @@
       ],
       "display": {
         "whats": "What if the High Priest completed the kometz act with a different kometz in mind?",
-        "hint": "Rav Pappa's final dilemma: what if the High Priest performed the kometz while mentally thinking about a different offering? The intent (kavvanah) must match the act. If he scooped while thinking about a different offering, is this kometz valid?"
+        "hint": "Rav Pappa's final dilemma: what if the High Priest performed the kometz while mentally thinking about a different offering? The intent (kavvanah) must match the act. If he scooped while thinking about a different offering, is this kometz valid?",
+        "title": "Wrong Intent, Invalid Kometz: Disqualification by Kavvanah"
       },
       "learning": {
-        "summary": "Kavvanah (intent) is normally required for Temple service. If the High Priest scooped the incense but was thinking about a different offering, the intent mismatch might invalidate the act.",
         "ahaMoment": "Intent mismatch during kometz: thinking about one offering while scooping another. The mental state must match the physical act for valid Temple service.",
         "memoryAnchor": "Kometz done with wrong intent - thinking about a different offering invalidates the service.",
-        "openQuestion": "Must the High Priest actively think about the specific Yom Kippur incense while scooping, or is default intent sufficient?"
+        "learnerQuestion": "If the kohen performs the kometz with intent directed toward a different offering rather than the one being served, is the kometz valid?",
+        "coreTension": "Kavvanah (intent) governs Temple service validity, so intent directed toward a different offering during the kometz should in principle invalidate it, but the mechanism by which wrong intent disqualifies this specific act needs to be established.",
+        "coreMove": "The Gemara rules that a kometz performed with intent toward a different offering is invalid, applying the principle that wrong-offering kavvanah disqualifies a Temple service act to the specific case of the kometz.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A kometz performed with intent toward a different offering is invalid - wrong-offering kavvanah disqualifies this Temple service act just as it does others."
+        },
+        "learningBlocker": "Learners may assume the kometz is a mechanical act immune to intent-based disqualification, or that wrong intent only makes it 'problematic' without rendering it definitively invalid, missing the Gemara's clear ruling."
       },
       "argumentFlow": [
         {
@@ -518,7 +569,11 @@
         "pigul (improper intent) laws"
       ],
       "misconceptions": [
-        "Wrong intent during kometz makes the service invalid - not merely problematic."
+        {
+          "misconception": "Wrong intent during the kometz makes the act problematic or requires a follow-up correction, but does not render the offering definitively invalid.",
+          "correction": "The Gemara rules without qualification that a kometz performed with intent toward a different offering is invalid - the service is disqualified, not merely flagged as needing correction.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -529,8 +584,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What happens if the High Priest scoops the kometz while mentally focused on a different offering?",
-          "answer": "The wrong intent (kavvanah) during the kometz invalidates the service - Temple acts require intent that matches the specific service being performed."
+          "answer": "The wrong intent (kavvanah) during the kometz invalidates the service - Temple acts require intent that matches the specific service being performed.",
+          "question": "What happens if the High Priest scoops the kometz while mentally focused on a different offering?"
         }
       ],
       "finalRuling": "Kometz performed with intent toward a different offering is invalid.",

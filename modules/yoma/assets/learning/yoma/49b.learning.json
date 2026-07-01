@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "How does the HP transfer incense from the ladle into his bare palms inside the Holy of Holies?",
-        "hint": "The Mishna details the most physically demanding Temple act: gripping the ladle with fingertips, tilting it between the arms, and using the thumbs to pour incense into cupped palms."
+        "hint": "The Mishna details the most physically demanding Temple act: gripping the ladle with fingertips, tilting it between the arms, and using the thumbs to pour incense into cupped palms.",
+        "title": "Fingertips and Thumbs: The Physical Challenge of the Incense Transfer"
       },
       "learning": {
-        "summary": "The HP must not use a vessel to place incense on the coals - he must use his bare hands. The technique: hold the ladle's handle between his fingertips, tilt the ladle between his forearms, use both thumbs to draw the handle toward his body until the ladle head is at palm level, then turn the ladle sideways to pour the incense into his cupped palms. This is why the kometz service was called the most difficult in the Temple.",
         "ahaMoment": "The kometz was called the hardest Temple service because the HP had to hold the ladle with fingertips and pour with thumbs into bare palms - extraordinary dexterity required.",
         "memoryAnchor": "HP tilts ladle between forearms, draws handle with thumbs toward body, tips incense into bare cupped palms - the most awkward act in the Temple.",
-        "openQuestion": "Why could the HP not use a small vessel to transfer the incense and why were bare hands required?"
+        "learnerQuestion": "How did the High Priest transfer the incense from the ladle into his bare palms without using his thumbs as scoops?",
+        "coreTension": "The incense must end up cupped in the High Priest's palms, but his thumbs are occupied gripping the spoon and cannot be used for scooping, making the transfer a balance-and-tip maneuver rather than a simple pour.",
+        "coreMove": "The Gemara describes the High Priest balancing the ladle on his fingertips while using his thumbs to tip it, demonstrating that the transfer requires an extraordinary technique - not an ordinary pour - and is part of why the kometz is called the most difficult service.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The High Priest transferred incense from ladle to palms by balancing the ladle on his fingertips and tipping it with his thumbs - a technically demanding maneuver that contributes to the kometz being called the most difficult Temple service."
+        },
+        "learningBlocker": "Learners may picture an ordinary pour from the ladle into the hands, missing that the thumb-grip constraint forces a balance-and-tip technique that is the source of the service's extreme difficulty."
       },
       "argumentFlow": [
         {
@@ -97,8 +104,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why was the kometz called the most difficult Temple service?",
-          "answer": "The HP had to grip the ladle with his fingertips, draw the handle with his thumbs, and tip incense into his bare cupped palms - no vessel allowed, requiring extraordinary manual dexterity."
+          "answer": "The HP had to grip the ladle with his fingertips, draw the handle with his thumbs, and tip incense into his bare cupped palms - no vessel allowed, requiring extraordinary manual dexterity.",
+          "question": "Why was the kometz called the most difficult Temple service?"
         }
       ],
       "finalRuling": "The HP must use bare hands to transfer incense; no vessel is permitted for this step.",
@@ -155,13 +162,20 @@
       ],
       "display": {
         "whats": "The Passover registration system and whether withdrawal is valid after slaughter",
-        "hint": "The Gemara discusses who may register on the Passover offering and when withdrawal is permitted. This connects to the replacement HP question: can an act be completed by a different agent than the one who initiated it?"
+        "hint": "The Gemara discusses who may register on the Passover offering and when withdrawal is permitted. This connects to the replacement HP question: can an act be completed by a different agent than the one who initiated it?",
+        "title": "'According to the Sheep': Registration Must Happen While It Is Alive"
       },
       "learning": {
-        "summary": "Registration on the Passover offering (nimnaim) works as follows: people register before slaughter and may withdraw before slaughter. The verse 'according to the sheep' implies the animal must still be alive for someone to be registered on it. After slaughter, the status of who can be counted as a registrant changes. This parallels the replacement HP question: can the replacement be 'registered' on the first HP's acts?",
         "ahaMoment": "Passover registration and replacement HP share the structural question: once an act is initiated under one person's authority, can another person complete or join it?",
         "memoryAnchor": "Can you register on a slaughtered sheep? The Gemara's no answer illuminates the replacement HP question.",
-        "openQuestion": "Does slaughter end the possibility of others joining or completing a sacrificial act?"
+        "learnerQuestion": "Can a person join the registered group of a Passover offering after the sheep has already been slaughtered?",
+        "coreTension": "The verse says the lamb is counted 'according to its eating,' which could be read as permitting registration at any point before the meal including after slaughter, but the Gemara restricts the timing to while the animal is still alive.",
+        "coreMove": "The Gemara reads 'according to the sheep' as requiring registration while the animal is still alive - 'according to the sheep' means in reference to the living animal, and once it is slaughtered, the window for joining its group has closed.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Registration on a Passover offering must take place while the animal is alive - 'according to the sheep' means in reference to the living animal, and post-slaughter registration is invalid."
+        },
+        "learningBlocker": "Learners may assume registration can happen at any point before the meal including after slaughter, missing that the Gemara derives a pre-slaughter deadline from the phrase 'according to the sheep.'"
       },
       "argumentFlow": [
         {
@@ -228,7 +242,11 @@
         "replacement rules"
       ],
       "misconceptions": [
-        "One can register on a Passover offering at any point including after slaughter - the Gemara rules otherwise."
+        {
+          "misconception": "A person may join the registered group of a Passover offering at any point before the meal, including after the sheep has already been slaughtered.",
+          "correction": "The Gemara rules that registration must happen while the animal is alive - 'according to the sheep' means in reference to the living animal, so post-slaughter registration is invalid.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -241,8 +259,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does the Passover registration discussion reveal about the replacement HP?",
-          "answer": "Slaughter ends the possibility of new registration on an offering. Similarly, the replacement HP cannot simply join the first HP's initiated service - the question of a new bull turns on this parallel."
+          "answer": "Slaughter ends the possibility of new registration on an offering. Similarly, the replacement HP cannot simply join the first HP's initiated service - the question of a new bull turns on this parallel.",
+          "question": "What does the Passover registration discussion reveal about the replacement HP?"
         }
       ],
       "finalRuling": "After slaughter, new registration on a Passover offering is not possible; this parallels the replacement HP question.",

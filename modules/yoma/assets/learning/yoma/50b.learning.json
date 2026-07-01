@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "R. Meir: the HP's bull is a communal sin-offering",
-        "hint": "R. Meir explicitly states the HP's bull is a chatat tzibur (communal sin-offering), supporting Abaye. This has major practical implications."
+        "hint": "R. Meir explicitly states the HP's bull is a chatat tzibur (communal sin-offering), supporting Abaye. This has major practical implications.",
+        "title": "R. Meir: The High Priest's Bull Is a Communal Sin-Offering"
       },
       "learning": {
-        "summary": "R. Meir's explicit ruling: the HP's bull on Yom Kippur is a communal sin-offering. This supports Abaye's position from 50a. Communal sin-offerings cannot become pigul, override Shabbat, and tumah does not disqualify them. R. Meir reads the HP's atonement as extending to all Israel through his representative role, making 'for himself and his household' a description of the HP's representative capacity rather than a limitation.",
         "ahaMoment": "R. Meir's communal ruling is the clearest tannaitic statement: the HP represents all Israel, so his bull is communal.",
         "memoryAnchor": "R. Meir: HP's bull = communal offering. 'For himself and his household' describes his role, not a limitation.",
-        "openQuestion": "How can an offering explicitly described as 'for himself' be classified as communal?"
+        "learnerQuestion": "What does R. Meir's explicit ruling on the status of the High Priest's bull settle, and how does it bear on the Abaye-Rava dispute?",
+        "coreTension": "The HP brings a bull described as 'for himself and his household,' but R. Meir rules it is in fact a communal sin-offering (chatat tzibur), creating tension with any reading that limits the bull's scope to the HP's personal or household atoning function.",
+        "coreMove": "R. Meir's explicit ruling that the HP's bull is a communal chatat anchors the Abaye-Rava dispute in tannaitic tradition, showing that the communal reading is not Abaye's invention but reflects a tanna's direct ruling that the HP's role encompasses all Israel.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Meir rules explicitly that the High Priest's Yom Kippur bull is a communal sin-offering (chatat tzibur), establishing the communal-representative reading as a tannaitic position - not merely an amoraic inference."
+        },
+        "learningBlocker": "Learners may think the communal interpretation of the HP's bull is Abaye's creative reading with no tannaitic foundation, missing that R. Meir's explicit ruling provides direct tannaitic support for the communal-offering status."
       },
       "argumentFlow": [
         {
@@ -98,8 +105,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What does R. Meir rule about the HP's bull?",
-          "answer": "It is a communal sin-offering - the HP represents all Israel, making his bull communally classified with all the resulting leniencies (no pigul, overrides Shabbat/tumah)."
+          "answer": "It is a communal sin-offering - the HP represents all Israel, making his bull communally classified with all the resulting leniencies (no pigul, overrides Shabbat/tumah).",
+          "question": "What does R. Meir rule about the HP's bull?"
         }
       ],
       "finalRuling": "R. Meir: the HP's bull is a communal sin-offering.",
@@ -186,13 +193,20 @@
       ],
       "display": {
         "whats": "Can the HP fulfill a personal vow during Yom Kippur service in lieu of a separate offering?",
-        "hint": "R. Elazar raises a dilemma: is the Yom Kippur service exclusively designated, such that the HP cannot simultaneously fulfill personal votive obligations through it?"
+        "hint": "R. Elazar raises a dilemma: is the Yom Kippur service exclusively designated, such that the HP cannot simultaneously fulfill personal votive obligations through it?",
+        "title": "Yuchad: The Yom Kippur Service Cannot Be Co-opted for Personal Obligations"
       },
       "learning": {
-        "summary": "R. Elazar's question: the HP is bringing his bull on Yom Kippur. He also has a personal vow to bring a sin-offering. Can he intend the Yom Kippur bull to simultaneously fulfill his personal vow? The Gemara rules NO - the Yom Kippur service is exclusively designated (yuchad) for its specific atonement. The HP cannot use it to discharge personal obligations. This is independent of whether the bull is communal or personal.",
         "ahaMoment": "The Yom Kippur service is not just important - it is legally exclusive. No personal obligation can be grafted onto it.",
         "memoryAnchor": "HP on Yom Kippur: his entire service is designated for national atonement. No personal obligation may share that designation.",
-        "openQuestion": "Does the exclusive designation of Yom Kippur service prevent the HP from having any secondary personal intent?"
+        "learnerQuestion": "Can the High Priest use the Yom Kippur service to simultaneously fulfill a personal votive obligation?",
+        "coreTension": "The HP performs the Yom Kippur service as the national representative, but if he personally holds a vow that his designated offering could also discharge, the question is whether the Yom Kippur service is exclusive to its designated purpose or can serve both functions at once.",
+        "coreMove": "R. Elazar rules the Yom Kippur service is exclusively designated (yuchad) for its own purpose, prohibiting the HP from using it to also discharge a personal vow - the service belongs to the day and its atoning function, not to any personal obligation of the HP.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Elazar rules the Yom Kippur service is exclusively designated (yuchad) for its own purpose - the High Priest may not simultaneously use it to discharge a personal votive obligation."
+        },
+        "learningBlocker": "Learners may assume the HP can direct the service toward dual purposes since he is performing the act anyway, missing R. Elazar's ruling that the exclusivity of the service prohibits any co-opting for personal obligations."
       },
       "argumentFlow": [
         {
@@ -274,7 +288,11 @@
         "exclusive designation"
       ],
       "misconceptions": [
-        "The HP can include personal votive intent in the Yom Kippur service - this is exactly what is prohibited."
+        {
+          "misconception": "Since the High Priest is performing the Yom Kippur service anyway, he can simultaneously direct it toward fulfilling a personal vow without any halachic problem.",
+          "correction": "R. Elazar rules explicitly that the Yom Kippur service is yuchad - exclusively designated for its own purpose - so the High Priest may not co-opt it to discharge a personal vow at the same time.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -287,8 +305,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is R. Elazar's dilemma and the Gemara's resolution?",
-          "answer": "R. Elazar asks whether the HP can use the Yom Kippur service to fulfill a personal vow simultaneously. The Gemara rules no: the service is exclusively designated (yuchad) for its specific atonement and cannot discharge other obligations."
+          "answer": "R. Elazar asks whether the HP can use the Yom Kippur service to fulfill a personal vow simultaneously. The Gemara rules no: the service is exclusively designated (yuchad) for its specific atonement and cannot discharge other obligations.",
+          "question": "What is R. Elazar's dilemma and the Gemara's resolution?"
         }
       ],
       "finalRuling": "The Yom Kippur service is exclusively designated - the HP cannot use it to fulfill personal votive obligations.",

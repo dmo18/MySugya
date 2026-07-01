@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Does 'which is for himself' resolve R. Elazar's question about personal obligations in Yom Kippur service?",
-        "hint": "The verse 'which is for himself' (asher lo) provides the textual basis for exclusive designation: the Yom Kippur service covers only its specific atonement, not any personal obligations."
+        "hint": "The verse 'which is for himself' (asher lo) provides the textual basis for exclusive designation: the Yom Kippur service covers only its specific atonement, not any personal obligations.",
+        "title": "'Which Is for Himself': The Verse That Closes the Door on Dual Intent"
       },
       "learning": {
-        "summary": "R. Elazar's dilemma - can the HP satisfy personal votive obligations through the Yom Kippur service - is resolved by the verse 'which is for himself.' The service is designated specifically for the atonement it specifies. 'For himself' pins the service to its own purpose, not to any additional personal obligation the HP may have.",
         "ahaMoment": "A single phrase 'which is for himself' locks an entire service to its designated purpose - no personal intent may attach to it.",
         "memoryAnchor": "'Which is for himself' - the verse seals the Yom Kippur service to its designated atonement only.",
-        "openQuestion": "How does a single verse phrase resolve the entire question of whether personal obligations can attach to designated service?"
+        "learnerQuestion": "Where does the Gemara find textual support for R. Elazar's ruling that the Yom Kippur service cannot serve as a personal vow fulfillment?",
+        "coreTension": "R. Elazar's ruling requires a textual anchor, since the prohibition against using the designated service for a personal vow is not stated outright but must be derived from the verse's specific language.",
+        "coreMove": "The Gemara reads 'asher lo' ('which is for himself') as a limiting phrase that restricts the Yom Kippur bull's purpose exclusively to the HP's own designated atoning role, excluding any additional personal-vow function - the limiting phrase seals the exclusivity ruling.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The phrase 'asher lo' ('which is for himself') provides the textual basis for R. Elazar's ruling: it limits the Yom Kippur bull's purpose exclusively to the HP's designated atoning role, excluding any co-opting for a personal vow."
+        },
+        "learningBlocker": "Learners may read 'asher lo' as an expansive phrase permitting the HP personal benefit from the service, missing that the Gemara reads it as a limiting phrase that closes off any additional personal-vow function."
       },
       "argumentFlow": [
         {
@@ -94,7 +101,11 @@
         "atonement"
       ],
       "misconceptions": [
-        "'For himself' means for personal benefit - allowing personal intent. The Gemara reads it as limiting, not expanding."
+        {
+          "misconception": "'For himself' (asher lo) means the High Priest may personally benefit from and direct the Yom Kippur service, including using it to fulfill a personal vow.",
+          "correction": "The Gemara reads 'asher lo' as a limiting phrase that restricts the bull's purpose exclusively to the HP's designated atoning role - it excludes, rather than expands, any personal-vow use.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -107,8 +118,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "How does 'which is for himself' resolve R. Elazar's question?",
-          "answer": "The verse pins the Yom Kippur service to its specific designated atonement. 'For himself' means this service covers its designated purpose only - not personal votive obligations the HP may have."
+          "answer": "The verse pins the Yom Kippur service to its specific designated atonement. 'For himself' means this service covers its designated purpose only - not personal votive obligations the HP may have.",
+          "question": "How does 'which is for himself' resolve R. Elazar's question?"
         }
       ],
       "finalRuling": "The verse 'which is for himself' establishes that the Yom Kippur service is exclusively designated for its specific atonement.",
@@ -140,13 +151,20 @@
       ],
       "display": {
         "whats": "The HP walks west through the Sanctuary on the right (south) side as a mark of respect",
-        "hint": "The HP enters from the east and walks toward the Holy of Holies heading west. The rule is to walk on the right side - a general principle of showing kavod (respect) in entering important spaces."
+        "hint": "The HP enters from the east and walks toward the Holy of Holies heading west. The rule is to walk on the right side - a general principle of showing kavod (respect) in entering important spaces.",
+        "title": "Entering on the Right: The High Priest's Path Through the Sanctuary"
       },
       "learning": {
-        "summary": "When the HP enters the Heikhal (Sanctuary) heading west toward the Holy of Holies, he walks on the right side - which when facing west is the south side. Walking on the right when entering is a general sign of respect. The Gemara confirms this is a kavod convention, not a separate halakhic requirement, though the HP observes it as part of showing maximum deference in the holiest space.",
         "ahaMoment": "Entering any important space: turn right as a mark of respect. In the Temple, this convention takes on supreme significance.",
         "memoryAnchor": "HP enters heading west, walks south side (right) - kavod in the holiest space on the holiest day.",
-        "openQuestion": "Is the right-side walking rule specifically required for the Temple or is it a general respect convention that the HP observes?"
+        "learnerQuestion": "Why does the High Priest enter the Sanctuary on the right (south) side rather than any other path?",
+        "coreTension": "The HP's choice of side when entering the Sanctuary might seem like a personal or incidental convention, but the Gemara grounds the right-side path in a halachic norm of respect rather than custom or preference.",
+        "coreMove": "Turning right upon entry is a halachic norm of respect (kavod) applied in the Temple as a legal requirement, not a convention the HP may vary - his path through the Sanctuary on the right side is governed by this norm.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The High Priest enters the Sanctuary on the right (south) side because turning right upon entry is a halachic norm of respect - it is a legal requirement in the Temple, not a matter of personal custom."
+        },
+        "learningBlocker": "Learners may assume the HP's right-side path is a personal or customary choice with no legal significance, missing that the Gemara grounds it in a halachic respect norm applied as a Temple requirement."
       },
       "argumentFlow": [
         {
@@ -212,8 +230,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "Why does the HP walk on the right side of the Sanctuary?",
-          "answer": "Walking on the right side is a mark of respect (kavod). The HP demonstrates maximum deference to the sacred space by following this directional convention when entering."
+          "answer": "Walking on the right side is a mark of respect (kavod). The HP demonstrates maximum deference to the sacred space by following this directional convention when entering.",
+          "question": "Why does the HP walk on the right side of the Sanctuary?"
         }
       ],
       "finalRuling": "The HP walks on the right (south) side of the Sanctuary heading west - a mark of respect (kavod).",
@@ -255,13 +273,20 @@
       ],
       "display": {
         "whats": "Blood sprinkling inside the Holy of Holies: one upward, seven downward, with counting formula 'achat, achat v'achat...'",
-        "hint": "The HP sprinkles the bull's blood on the Ark cover: once upward then seven times downward, using the counting formula 'achat, achat v'achat, achat ushtayim...' to track each sprinkle without losing count."
+        "hint": "The HP sprinkles the bull's blood on the Ark cover: once upward then seven times downward, using the counting formula 'achat, achat v'achat, achat ushtayim...' to track each sprinkle without losing count.",
+        "title": "Once Up, Seven Down: The Counting Formula for Blood Sprinkling"
       },
       "learning": {
-        "summary": "The sprinkling sequence requires one upward motion (above the kapporet) followed by seven downward motions (below the kapporet), totaling eight sprinkles. The counting formula keeps 'one' (achat) in every count so the HP always knows where he is: 'one, one-and-one, one-and-two, one-and-three...' up to 'one-and-seven.' If he loses count he must restart the entire sequence.",
         "ahaMoment": "The counting formula was engineered to make losing track nearly impossible - anchoring every count with the initial 'one' is brilliant mnemonic design for the most critical moment of the year.",
         "memoryAnchor": "Sprinkling formula: 'achat, achat v'achat, achat ushtayim...' - the initial 'one' anchors every subsequent count so the HP cannot lose his place.",
-        "openQuestion": "Why was a special counting formula needed? Could the HP not simply count one through eight normally?"
+        "learnerQuestion": "How does the High Priest count the blood sprinklings inside the Holy of Holies, and in which direction does each sprinkling go?",
+        "coreTension": "The blood must be sprinkled once upward and seven times downward, but the order and counting formula are precise - inverting the direction or losing count would invalidate the service, making the exact formula essential.",
+        "coreMove": "The Mishna establishes the formula: one sprinkling upward, then seven downward, counted as 'achat, achat v'achat, achat ushtayim...' to ensure the HP maintains count even inside the Holy of Holies where no assistant is present.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The High Priest sprinkles the blood once upward and then seven times downward, counting 'achat, achat v'achat, achat ushtayim...' - the one upward sprinkling comes first, not last."
+        },
+        "learningBlocker": "Learners may invert the formula, imagining seven upward sprinklings followed by one downward, missing that the single upward sprinkling precedes all seven of the downward ones."
       },
       "argumentFlow": [
         {
@@ -329,7 +354,11 @@
         "Holy of Holies service"
       ],
       "misconceptions": [
-        "The HP sprinkles seven times upward and once downward - the reverse is true."
+        {
+          "misconception": "The High Priest sprinkles the blood seven times in an upward motion and once downward inside the Holy of Holies.",
+          "correction": "The formula is the reverse: one sprinkling upward first, then seven times downward, counted with the formula 'achat, achat v'achat, achat ushtayim...' to maintain an accurate count.",
+          "correctedByStepId": null
+        }
       ],
       "relatedSugyot": [],
       "visualizableElements": [
@@ -339,8 +368,8 @@
       ],
       "quizSeeds": [
         {
-          "seed": "What is the sprinkling counting formula and why was it invented?",
-          "answer": "The HP counts 'achat, achat v'achat, achat ushtayim...' - keeping 'one' in every count anchors his position. If he loses count he must restart. The formula was designed to make losing track nearly impossible during the most sacred moment of the year."
+          "answer": "The HP counts 'achat, achat v'achat, achat ushtayim...' - keeping 'one' in every count anchors his position. If he loses count he must restart. The formula was designed to make losing track nearly impossible during the most sacred moment of the year.",
+          "question": "What is the sprinkling counting formula and why was it invented?"
         }
       ],
       "finalRuling": "The HP sprinkles once upward and seven times downward using the anchoring counting formula.",
