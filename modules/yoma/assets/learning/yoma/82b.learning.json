@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "A murderer's own life: do we violate YK to save him?",
-        "hint": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is ex..."
+        "hint": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is ex...",
+        "title": "Does Pikuach Nefesh Apply to a Murderer?"
       },
       "learning": {
-        "summary": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is explored.",
-        "ahaMoment": "Even a murderer's life is a life - YK is violated to save anyone, because human life belongs to God, not to the community's judgment.",
-        "memoryAnchor": "Murderer's life on YK: life is life, even when the person forfeited the moral high ground.",
-        "openQuestion": "What is the deeper significance of the ruling about a murderer's own life: do we violate yk to save him??"
+        "ahaMoment": "The murderer question is a philosophical limit-test: does the 'Torah was given to live by' apply to all lives equally, or only to those who have not forfeited legal life-protection?",
+        "memoryAnchor": "Murderer's life on YK: the question itself is the teaching - pikuach nefesh meets judicial forfeiture.",
+        "learnerQuestion": "Do we violate Yom Kippur to save the life of someone who has committed murder?",
+        "coreTension": "Between the universal application of pikuach nefesh (all lives override YK) and the intuition that a murderer's life might be treated differently by the same law that would have obligated execution.",
+        "coreMove": "The Gemara raises but does not definitively resolve the question: does someone who forfeited their life-protection by committing murder still benefit from pikuach nefesh? The question forces a distinction between the life-value principle and the judicial forfeiture of life.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The question of whether pikuach nefesh applies to a murderer reveals a distinction between intrinsic life-value (which pikuach nefesh protects) and judicial life-status (which murder can forfeit); the tension between these two frameworks is unresolved."
+        },
+        "learningBlocker": "Students may assume pikuach nefesh is simply universal and be surprised by the question; the Gemara is probing the philosophical foundations of the principle."
       },
       "argumentFlow": [
         {
@@ -119,13 +126,20 @@
       ],
       "display": {
         "whats": "Story of a pregnant woman's craving; R. Yannai whispers to her",
-        "hint": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the re..."
+        "hint": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the re...",
+        "title": "R. Yannai's Whisper to the Pregnant Woman"
       },
       "learning": {
-        "summary": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the relationship between body and mind in craving.",
-        "ahaMoment": "R. Yannai whispered to the pregnant woman: sometimes the craving is psychological; naming it (you are about to eat) can satisfy without actual eating.",
-        "memoryAnchor": "R. Yannai's whisper: mind over matter - the craving responded to language, not food.",
-        "openQuestion": "What is the deeper significance of the ruling about story of a pregnant woman's craving; r. yannai whispers to h?"
+        "ahaMoment": "R. Yannai's story is about the relationship between halakhic defaults and creative sage intervention: the rule stands ready; a sage may try wisdom before invoking it.",
+        "memoryAnchor": "R. Yannai whispered, the craving resolved - but the rule to feed was always there as the backup.",
+        "learnerQuestion": "What did R. Yannai whisper to the pregnant woman craving food on Yom Kippur, and why did it work?",
+        "coreTension": "Between the halakhic rule (feed a pregnant woman who craves food) and a seemingly miraculous alternative where the craving is resolved without feeding.",
+        "coreMove": "R. Yannai's whisper resolved the craving without breaking the fast. The story raises the question of whether this was miraculous (divine assistance) or psychological (reassurance resolved psychosomatic hunger). Either way, it illustrates that the halakhic default (feed her) was available; R. Yannai tried another path first.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The story of R. Yannai's whisper illustrates that halakhic defaults (feed the craving woman) represent the baseline, but sages might try other interventions first when available; the halakha remains the safety net when the alternative fails."
+        },
+        "learningBlocker": "Students may focus on what was whispered; the legal point is that the halakhic option was always available and the story does not displace it."
       },
       "argumentFlow": [
         {

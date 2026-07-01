@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Cheekful debate between Rav and Shmuel; method of measuring",
-        "hint": "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure."
+        "hint": "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
+        "title": "Rav and Shmuel Measure Each Other's Cheeks"
       },
       "learning": {
-        "summary": "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
-        "ahaMoment": "Rav and Shmuel personally measured each other's cheeks - the law required an empirical test that could only be done between friends willing to put things in each other's mouths.",
-        "memoryAnchor": "Rav and Shmuel measured each other's cheeks: the personalized measure required personal testing.",
-        "openQuestion": "What is the deeper significance of the ruling about cheekful debate between rav and shmuel; method of measuring?"
+        "ahaMoment": "The story is a lesson in legal epistemology: a principle is not complete until you can answer 'how do you actually measure it?' - Rav and Shmuel provide the method.",
+        "memoryAnchor": "Rav and Shmuel measure each other's cheeks: abstract measure meets practical verification.",
+        "learnerQuestion": "How did Rav and Shmuel determine the size of the cheekful measure in practice?",
+        "coreTension": "Between the abstract principle (the cheekful is the measure) and the practical challenge of establishing a usable standard when the measure varies by individual.",
+        "coreMove": "The story of Rav and Shmuel measuring each other's cheeks is the Gemara's illustration that the measure, though body-relative, requires practical calibration. Even an abstract measure must eventually be anchored to a physical act of verification.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Even a body-relative halakhic measure must be grounded in a practical method of determination; Rav and Shmuel's mutual calibration shows how abstract principles become actionable standards."
+        },
+        "learningBlocker": "Students may find the story humorous and miss its legal point: the cheekful needs a method, not just a definition."
       },
       "argumentFlow": [
         {
@@ -196,16 +203,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "How is the apparent problem that a cheekful is smaller than Beit Shammai's quarter-log resolved?",
-          "a": "The cheekful measure was set even for someone as large as Og, king of Bashan, whose mouthful far exceeds a quarter-log. For such a person Beit Shammai's fixed quarter-log is the more lenient measure, so the case stands as a real, if narrow, Beit Shammai stringency."
+          "question": "How is the apparent problem that a cheekful is smaller than Beit Shammai's quarter-log resolved?",
+          "answer": "The cheekful measure was set even for someone as large as Og, king of Bashan, whose mouthful far exceeds a quarter-log. For such a person Beit Shammai's fixed quarter-log is the more lenient measure, so the case stands as a real, if narrow, Beit Shammai stringency."
         },
         {
-          "q": "Why does Abaye hold the eating measure is a fixed large date while drinking varies by person?",
-          "a": "Because the accepted tradition fixes the large date as the amount that settles anyone's mind and relieves affliction, even if it settles a large person only slightly. For drinking, by contrast, only one's own cheekful settles one's mind, so the measure must scale to each individual's mouth."
+          "question": "Why does Abaye hold the eating measure is a fixed large date while drinking varies by person?",
+          "answer": "Because the accepted tradition fixes the large date as the amount that settles anyone's mind and relieves affliction, even if it settles a large person only slightly. For drinking, by contrast, only one's own cheekful settles one's mind, so the measure must scale to each individual's mouth."
         },
         {
-          "q": "How does Rav Pappa defend the larger impurity measure eaten within the same time span?",
-          "a": "He argues that impurity of the body from eating impure food is only rabbinic, so the Sages were lenient with its measure. Therefore it cannot be compared to the Torah-level Yom Kippur measure, and the verse he had cited for bodily impurity serves only as a support."
+          "question": "How does Rav Pappa defend the larger impurity measure eaten within the same time span?",
+          "answer": "He argues that impurity of the body from eating impure food is only rabbinic, so the Sages were lenient with its measure. Therefore it cannot be compared to the Torah-level Yom Kippur measure, and the verse he had cited for bodily impurity serves only as a support."
         }
       ],
       "finalRuling": "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
@@ -232,13 +239,20 @@
       ],
       "display": {
         "whats": "All foods combine toward the eating measure on YK",
-        "hint": "All foods combine toward the eating measure on YK - you cannot eat small amounts of multiple foods and avoid liability."
+        "hint": "All foods combine toward the eating measure on YK - you cannot eat small amounts of multiple foods and avoid liability.",
+        "title": "All Foods Combine Toward the YK Eating Measure"
       },
       "learning": {
-        "summary": "All foods combine toward the eating measure on YK - you cannot eat small amounts of multiple foods and avoid liability.",
-        "ahaMoment": "Combination of foods: YK's eating prohibition is about the act of eating, not specific foods - all edibles count together.",
-        "memoryAnchor": "All foods combine: YK eating is about the act, not the type of food.",
-        "openQuestion": "What is the deeper significance of the ruling about all foods combine toward the eating measure on yk?"
+        "ahaMoment": "The combination rule reveals what YK is really about: it prohibits the relief of affliction, and that relief can come from any combination of foods.",
+        "memoryAnchor": "All foods combine on YK: the target is satisfied hunger, not any particular food.",
+        "learnerQuestion": "If you eat small amounts of many different foods on Yom Kippur, do they combine to create liability?",
+        "coreTension": "Between the intuition that each food is a separate act and the halakhic principle of combination (tziruf) that aggregates amounts toward a single measure.",
+        "coreMove": "The Gemara rules that all foods combine: eating a tiny bit of each of many foods adds up toward the date-bulk, and liability attaches when the total reaches the measure. The prohibition targets the satisfaction of hunger, not the specific food consumed.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "All foods combine toward the YK eating measure because the prohibition targets the relief of affliction (satisfied hunger), not the identity of the food; any combination that provides that relief is prohibited."
+        },
+        "learningBlocker": "Students may think each food is measured independently; recognizing that the prohibition targets satisfaction rather than specific consumption explains the combination rule."
       },
       "argumentFlow": [
         {
@@ -293,8 +307,8 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does brine on a vegetable combine with the vegetable toward the Yom Kippur measure?",
-          "a": "Although one might think brine is a beverage that does not combine with food, the Gemara teaches that anything which prepares food for eating is itself considered food. Since the brine readies the vegetable for eating, it joins it toward the large-date measure."
+          "question": "Why does brine on a vegetable combine with the vegetable toward the Yom Kippur measure?",
+          "answer": "Although one might think brine is a beverage that does not combine with food, the Gemara teaches that anything which prepares food for eating is itself considered food. Since the brine readies the vegetable for eating, it joins it toward the large-date measure."
         }
       ],
       "finalRuling": "All foods combine toward the eating measure on YK - you cannot eat small amounts of multiple foods and avoid liability.",
@@ -326,13 +340,20 @@
       ],
       "display": {
         "whats": "Reish Lakish: overeating on YK creates liability even without swallowing",
-        "hint": "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure."
+        "hint": "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure.",
+        "title": "Chewing Without Swallowing: Reish Lakish on Overfilling"
       },
       "learning": {
-        "summary": "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure.",
-        "ahaMoment": "Chewing without swallowing: intent to eat and the physical act of filling the mouth triggers liability - the prohibition is not about nutrition but about the act of pleasurable eating.",
-        "memoryAnchor": "Reish Lakish: chewing counts, swallowing is not required for liability.",
-        "openQuestion": "What is the deeper significance of the ruling about reish lakish: overeating on yk creates liability even withou?"
+        "ahaMoment": "Reish Lakish's ruling reveals the logic of the cheekful: it is a sensation measure, and the sensation of full mouth exists even before swallowing.",
+        "memoryAnchor": "Reish Lakish: fill the cheek and liability attaches, even without swallowing - sensation is the trigger.",
+        "learnerQuestion": "Does chewing food on Yom Kippur without swallowing create liability?",
+        "coreTension": "Between the standard definition of 'eating' (which requires swallowing) and Reish Lakish's ruling that filling the mouth to the cheekful creates liability even without swallowing.",
+        "coreMove": "Reish Lakish rules that for YK's drinking measure (cheekful), filling the mouth to capacity itself constitutes the act, even without swallowing, because the cheekful is defined by the sensory experience of fullness in the mouth - and that experience has occurred.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The cheekful measure for YK drinking can be met by filling the mouth to capacity even without swallowing, because the measure is defined by the sensory experience of oral fullness, not by ingestion."
+        },
+        "learningBlocker": "Students may assume that eating/drinking requires ingestion in all halakhic contexts; Reish Lakish's ruling shows that the oral-sensation-based cheekful measure operates differently."
       },
       "argumentFlow": [
         {
@@ -402,12 +423,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is one who eats to excess on Yom Kippur exempt from liability?",
-          "a": "Because the prohibition is framed as failing to be 'afflicted,' and eating past satiety to the point of harming oneself is not the normal, enjoyable eating the verse addresses. One who forces food down beyond fullness is harming himself, not benefiting, so he is excluded."
+          "question": "Why is one who eats to excess on Yom Kippur exempt from liability?",
+          "answer": "Because the prohibition is framed as failing to be 'afflicted,' and eating past satiety to the point of harming oneself is not the normal, enjoyable eating the verse addresses. One who forces food down beyond fullness is harming himself, not benefiting, so he is excluded."
         },
         {
-          "q": "How does Reish Lakish's principle carry over to a non-priest who eats teruma excessively?",
-          "a": "Such a person pays the principal but not the added fifth. The verse 'if a man eat' refers to normal eating and excludes one who harms himself by overeating, so the penalty fifth does not apply, though he still repays the principal because the priest suffered a real loss."
+          "question": "How does Reish Lakish's principle carry over to a non-priest who eats teruma excessively?",
+          "answer": "Such a person pays the principal but not the added fifth. The verse 'if a man eat' refers to normal eating and excludes one who harms himself by overeating, so the penalty fifth does not apply, though he still repays the principal because the priest suffered a real loss."
         }
       ],
       "finalRuling": "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure.",

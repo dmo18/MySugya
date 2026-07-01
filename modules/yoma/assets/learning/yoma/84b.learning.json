@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "Proof that tzefardea is dangerous (the Rabba bar Shela incident)",
-        "hint": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override."
+        "hint": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override.",
+        "title": "Proof That Tzefardea Is Dangerous"
       },
       "learning": {
-        "summary": "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override.",
-        "ahaMoment": "Proof from a death: sometimes halachic status is confirmed by the worst outcome. Tzefardea killed someone, so its danger is established.",
-        "memoryAnchor": "Tzefardea's danger proven by death: the worst case establishes the legal status.",
-        "openQuestion": "What is the deeper significance of the ruling about proof that tzefardea is dangerous (the rabba bar shela incid?"
+        "ahaMoment": "The Gemara's evidential standard is serious: you cannot invoke pikuach nefesh on an assertion of danger - you need proof, and here a death provides it.",
+        "memoryAnchor": "Rabba bar Shela incident: someone died from tzefardea. Death is the proof that grounds the legal override.",
+        "learnerQuestion": "What evidence does the Gemara cite to establish that tzefardea is a genuinely life-threatening condition?",
+        "coreTension": "Between the general assertion that tzefardea is dangerous and the need to establish this with actual evidence that can be cited as legal precedent.",
+        "coreMove": "Rabba bar Shela's story provides the empirical proof: someone died from tzefardea, establishing that the condition is genuinely lethal. The Gemara uses this real-world case to ground the legal ruling in evidence rather than theoretical assertion.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Halakhic classification of a condition as life-threatening requires evidentiary grounding; the Gemara cites a real case (Rabba bar Shela incident) to establish tzefardea's lethality as a matter of record rather than assertion."
+        },
+        "learningBlocker": "Students may not see why the Gemara needs to prove tzefardea is dangerous rather than just asserting it; the standard of evidence for overriding YK prohibitions requires actual proof."
       },
       "argumentFlow": [
         {
@@ -149,13 +156,20 @@
       ],
       "display": {
         "whats": "Throat pain: medicine placed inside the mouth, not swallowed - not eating",
-        "hint": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not constitute 'eating' and is permitted."
+        "hint": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not constitute 'eating' and is permitted.",
+        "title": "Medicine for Throat Pain: Placed But Not Swallowed"
       },
       "learning": {
-        "summary": "The medicine for throat pain on YK is placed inside the mouth but not swallowed in the normal way - since it is not ingested as food, it does not constitute 'eating' and is permitted.",
-        "ahaMoment": "Medicine in the mouth but not swallowed: halachic categories are precise. The prohibition is 'eating' - if the substance is not eaten in the normal way, the prohibition does not apply.",
-        "memoryAnchor": "Medicine in mouth, not swallowed: placement matters - it is not 'eating' if not ingested normally.",
-        "openQuestion": "What is the deeper significance of the ruling about throat pain: medicine placed inside the mouth, not swallowed?"
+        "ahaMoment": "The Gemara's nuance: even within an emergency override, you still ask 'can we accomplish the medical goal without triggering the full prohibition?' When yes, do it that way.",
+        "memoryAnchor": "Throat medicine on YK: place it, don't swallow - treat the throat without triggering the eating prohibition.",
+        "learnerQuestion": "How is medicine administered for throat pain on Yom Kippur in a way that minimizes the YK violation?",
+        "coreTension": "Between the need to treat the throat medically and the desire to minimize the violation of the YK eating prohibition (which requires swallowing).",
+        "coreMove": "The Gemara's ruling describes placing the medicine inside the mouth and in contact with the throat without swallowing in the normal way. Since the medicine is not ingested as food, the YK eating prohibition is not triggered, even though treatment occurs.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When treatment can be administered without crossing the threshold that triggers a prohibition (placing medicine without swallowing), that method is preferred even in emergencies; minimizing violation within an override situation is still required."
+        },
+        "learningBlocker": "Students may think once an emergency override is invoked, there is no further requirement to minimize violation; the ruling shows that even in overrides, the least-violation method is preferred."
       },
       "argumentFlow": [
         {
@@ -305,13 +319,20 @@
       ],
       "display": {
         "whats": "Tosefta: engaging in life-preserving activities on Yom Kippur",
-        "hint": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment."
+        "hint": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment.",
+        "title": "Tosefta on Life-Preserving Activities on Yom Kippur"
       },
       "learning": {
-        "summary": "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment.",
-        "ahaMoment": "Pikuach nefesh as positive commandment: the Tosefta frames saving life not just as an override of prohibition but as itself a mitzva to be performed.",
-        "memoryAnchor": "Tosefta on life-preservation: saving life is not just permitted on YK, it is itself a commandment.",
-        "openQuestion": "What is the deeper significance of the ruling about tosefta: engaging in life-preserving activities on yom kippu?"
+        "ahaMoment": "The Tosefta's specificity is a gift to the practitioner under pressure: when someone is dying, you should not be deliberating from first principles. The list is prepared knowledge for the prepared practitioner.",
+        "memoryAnchor": "Tosefta's list: specific cases given in advance so the practitioner in crisis can act with confidence, not deliberation.",
+        "learnerQuestion": "What does the Tosefta teach about performing life-preserving activities on Yom Kippur?",
+        "coreTension": "Between the sweeping rule (pikuach nefesh overrides YK) and the need to specify which activities count as life-preserving in the Tosefta's more detailed framework.",
+        "coreMove": "The Tosefta provides a list of specific life-preserving activities that may be performed on YK, grounding the general principle in concrete cases. This specificity helps practitioners know in advance what is permitted, rather than requiring case-by-case deliberation in the moment of crisis.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Tosefta's specific list of permitted life-preserving activities on YK serves a pedagogical function: by specifying cases in advance, it enables practitioners to act confidently without dangerous deliberation in a crisis."
+        },
+        "learningBlocker": "Students may see the Tosefta's list as redundant given the general principle; the list's purpose is enabling crisis-time confidence, not expanding the principle."
       },
       "argumentFlow": [
         {
@@ -475,13 +496,20 @@
       ],
       "display": {
         "whats": "Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK danger situations",
-        "hint": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the fast."
+        "hint": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the fast.",
+        "title": "A Chain of Tradition: Rav Yosef, Rav Yehuda, Shmuel"
       },
       "learning": {
-        "summary": "A chain of Amoraic tradition: Rav Yosef citing Rav Yehuda citing Shmuel on various YK danger rulings, covering specific cases of when to violate the fast.",
-        "ahaMoment": "Shmuel's chain of rulings: the tradition of transmitting life-danger rulings carefully shows how much care went into establishing when YK may be violated.",
-        "memoryAnchor": "Shmuel's chain: YK danger rulings passed carefully through tradition - precision in pikuach nefesh.",
-        "openQuestion": "What is the deeper significance of the ruling about rav yosef citing rav yehuda citing shmuel: rulings on yk dan?"
+        "ahaMoment": "When the Gemara gives you a three-link chain for a ruling, it is telling you this ruling matters enough to trace and preserve. For YK overrides, that precision is itself a halakhic value.",
+        "memoryAnchor": "Rav Yosef - Rav Yehuda - Shmuel: three named links for a YK danger ruling. The chain is the statement of importance.",
+        "learnerQuestion": "What does the chain of tradition from Shmuel through Rav Yehuda to Rav Yosef teach about YK danger rulings?",
+        "coreTension": "Between viewing these rulings as simply transmitted halakha and recognizing the chain of attribution as itself a statement about how important rulings in pikuach nefesh contexts are tracked and preserved.",
+        "coreMove": "The Gemara records a named chain (Rav Yosef citing Rav Yehuda citing Shmuel) for specific YK danger rulings. The chain of attribution signals that these rulings carry special authority and have been carefully preserved, generation by generation, precisely because they involve overriding YK.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The named chain of tradition for YK danger rulings signals their special importance: when a ruling involves overriding a severe prohibition like YK, its chain of transmission is preserved with extra care to prevent both over-extension and under-application."
+        },
+        "learningBlocker": "Students may see the chain of attribution as a formality; the Gemara's careful naming is a substantive signal about the ruling's significance."
       },
       "argumentFlow": [
         {

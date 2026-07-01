@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "Mishna: children are not afflicted on YK but trained gradually before bar/bat mitzvah",
-        "hint": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for increasing portions of the day."
+        "hint": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for increasing portions of the day.",
+        "title": "Training Children to Fast Before Bar Mitzvah"
       },
       "learning": {
-        "summary": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for increasing portions of the day.",
-        "ahaMoment": "Gradual training: the year before majority, children begin partial fasts - the law builds responsibility gradually rather than suddenly.",
-        "memoryAnchor": "Children trained before majority: the fast is learned before it is required.",
-        "openQuestion": "What is the deeper significance of the ruling about mishna: children are not afflicted on yk but trained gradual?"
+        "ahaMoment": "The Mishna encodes a developmental theory of religious education: obligations are introduced gradually so they are internalized before they become formally binding.",
+        "memoryAnchor": "Children near bar mitzvah age are trained to fast gradually: preparation is required, not optional.",
+        "learnerQuestion": "Are children required to fast on Yom Kippur, and how are they prepared for the obligation?",
+        "coreTension": "Between the general rule that minors are exempt from the full obligations of the day and the educational need to prepare children to take on those obligations at maturity.",
+        "coreMove": "The Mishna establishes a graduated approach: young children are not required to fast, but in the years approaching majority, they are trained incrementally - beginning with partial fasts - so that the full obligation at bar/bat mitzvah is not a sudden shock.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Preparing children for adult religious obligations is itself a mitzvah obligation on parents; the Mishna's graduated fasting rule is a model for how the Torah transitions minors into full observance."
+        },
+        "learningBlocker": "Students may assume children are simply exempt with no educational requirement; the Mishna's graduated approach makes preparation itself mandatory."
       },
       "argumentFlow": [
         {
@@ -167,13 +174,20 @@
       ],
       "display": {
         "whats": "Children in danger of death: we violate YK to save them",
-        "hint": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast."
+        "hint": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
+        "title": "Saving a Child's Life Overrides Yom Kippur"
       },
       "learning": {
-        "summary": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
-        "ahaMoment": "A child in danger: even though children are not obligated to fast, we already know saving life overrides YK - the explicit ruling emphasizes the child's full inclusion in this principle.",
-        "memoryAnchor": "Child in danger on YK: saving life is the law, not the exception.",
-        "openQuestion": "What is the deeper significance of the ruling about children in danger of death: we violate yk to save them?"
+        "ahaMoment": "Developmental exemptions and life-value are separate questions: exempting children from obligations says nothing about how much their lives matter.",
+        "memoryAnchor": "A child's life overrides YK just like an adult's: exemption from fasting never means lesser life-value.",
+        "learnerQuestion": "Does saving a child's life override the Yom Kippur prohibitions?",
+        "coreTension": "Between the exemption of minors from YK obligations (making it seem like their life should be treated differently) and the universal principle of pikuach nefesh.",
+        "coreMove": "The Gemara rules that saving a child's life fully overrides YK's prohibitions, just as for an adult. The minor's exemption from fasting is a developmental accommodation, not a lesser status: their life is equally precious and pikuach nefesh applies without distinction.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Pikuach nefesh (saving life) applies equally to minors and adults on Yom Kippur; a child's developmental exemption from fasting obligations does not diminish the value of their life for purposes of overriding the day's prohibitions."
+        },
+        "learningBlocker": "Students may confuse the minor's exemption from fasting with a lesser legal status; the Gemara explicitly treats their life as equally protected by pikuach nefesh."
       },
       "argumentFlow": [
         {
@@ -318,13 +332,20 @@
       ],
       "display": {
         "whats": "Mishna: pregnant woman smells food - feed her until she recovers",
-        "hint": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur."
+        "hint": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
+        "title": "The Pregnant Woman Who Smelled Food"
       },
       "learning": {
-        "summary": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
-        "ahaMoment": "Pregnant woman smells food: the body's signal is taken seriously by the Torah - physiological need overrides the fast.",
-        "memoryAnchor": "Pregnant woman smells food: physiology becomes halacha - the body speaks, the law listens.",
-        "openQuestion": "What is the deeper significance of the ruling about mishna: pregnant woman smells food - feed her until she reco?"
+        "ahaMoment": "The Mishna encodes early intervention as a principle: we do not wait for a crisis to become obvious before acting to preserve life.",
+        "memoryAnchor": "Pregnant woman smells food and is distressed - feed her: don't wait for the crisis to escalate.",
+        "learnerQuestion": "What does the Mishna rule when a pregnant woman smells food on Yom Kippur and becomes distressed?",
+        "coreTension": "Between the YK eating prohibition and the obligation to protect the life of both the mother and the fetus.",
+        "coreMove": "The Mishna rules: if a pregnant woman smells food and becomes physically distressed, we feed her until she recovers, even on YK. We do not wait to see how serious the situation becomes - we act on the first sign of danger. The life before us is the priority.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When a pregnant woman's physical state suggests danger from deprivation of food on YK, we feed her immediately without waiting to gauge severity; the precautionary application of pikuach nefesh is itself the ruling."
+        },
+        "learningBlocker": "Students may expect a threshold of actual danger before the override kicks in; the Mishna rules that early signs of distress are sufficient."
       },
       "argumentFlow": [
         {
@@ -459,13 +480,20 @@
       ],
       "display": {
         "whats": "Pikuach nefesh (saving life) overrides all of Yom Kippur",
-        "hint": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life."
+        "hint": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
+        "title": "Pikuach Nefesh Overrides Yom Kippur"
       },
       "learning": {
-        "summary": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
-        "ahaMoment": "Pikuach nefesh overrides YK: the Torah's highest value is life itself, not ritual observance.",
-        "memoryAnchor": "Pikuach nefesh: YK is sacred, but life is more sacred.",
-        "openQuestion": "What is the deeper significance of the ruling about pikuach nefesh (saving life) overrides all of yom kippur?"
+        "ahaMoment": "'The Torah was given to live by' - pikuach nefesh is not an exception to Torah but its clearest expression. Life-preservation is what the Torah is for.",
+        "memoryAnchor": "Pikuach nefesh: 'live by them' - preserving life fulfills Torah, it does not violate it.",
+        "learnerQuestion": "What is the legal basis for pikuach nefesh overriding the Yom Kippur prohibitions?",
+        "coreTension": "Between the severity of YK (it carries karet for intentional violation) and the sweeping rule that life-saving overrides it.",
+        "coreMove": "The Gemara establishes the principle: the Torah was given to live by, not to die by. Every prohibition exists within a framework that values life. When life is threatened, the Torah itself authorizes - and even requires - its own override. Pikuach nefesh is not an exception to Torah but an expression of it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Pikuach nefesh overrides YK prohibitions because the Torah was given for life; violating a prohibition to preserve life fulfills the Torah's purpose rather than transgressing it."
+        },
+        "learningBlocker": "Students may feel that overriding YK is a reluctant concession; the Gemara reframes it as an affirmative expression of Torah values."
       },
       "argumentFlow": [
         {

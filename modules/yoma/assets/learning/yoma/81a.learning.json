@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "Chewing unground barley of teruma without swallowing: does it count as eating?",
-        "hint": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes."
+        "hint": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes.",
+        "title": "Chewing Unground Teruma Without Swallowing"
       },
       "learning": {
-        "summary": "The Gemara asks whether chewing unground teruma barley without swallowing counts as eating for liability purposes.",
-        "ahaMoment": "Chewing teruma barley: even inadvertent consumption has legal status, but swallowing is the decisive act for eating liability.",
-        "memoryAnchor": "Chewing teruma: the act without the swallow is not the eating the Torah prohibits.",
-        "openQuestion": "What is the deeper significance of the ruling about chewing unground barley of teruma without swallowing: does i?"
+        "ahaMoment": "The teruma chewing question is a definitional probe: what exactly is the act that triggers 'eating' status? The answer may vary by context.",
+        "memoryAnchor": "Chewing without swallowing: does it count? The answer depends on what 'eating' means in the specific legal context.",
+        "learnerQuestion": "Does chewing unground teruma barley without swallowing constitute eating for ritual purposes?",
+        "coreTension": "Between the common-sense view that eating requires swallowing and the question of whether chewing alone can trigger ritual eating status in specialized halakhic contexts.",
+        "coreMove": "The Gemara explores the teruma case as a test of what constitutes ritual 'eating': if the concern is ingestion, chewing without swallowing should not count; if the concern is the physical act of taking food into the mouth and processing it, it might. The case probes the definition's edges.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The question of whether chewing without swallowing constitutes ritual eating reveals that different halakhic contexts may define 'eating' differently, based on whether ingestion or oral processing is the operative act."
+        },
+        "learningBlocker": "Students may assume a single universal definition of 'eating'; the teruma case shows that the definition can vary depending on which legal concern is operative."
       },
       "argumentFlow": [
         {
@@ -148,13 +155,20 @@
       ],
       "display": {
         "whats": "Food and drink do not combine toward the eating or drinking measure",
-        "hint": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid."
+        "hint": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid.",
+        "title": "Food and Drink Do Not Combine"
       },
       "learning": {
-        "summary": "Food and drink do not combine toward each other's measures - you need a full cheekful of liquid separately, not a combination of food and liquid.",
-        "ahaMoment": "Food and drink are legally separate categories - they measure different kinds of pleasure and therefore cannot combine.",
-        "memoryAnchor": "Food and drink stay separate: two categories, two measures, never combined.",
-        "openQuestion": "What is the deeper significance of the ruling about food and drink do not combine toward the eating or drinking ?"
+        "ahaMoment": "The no-cross-combination rule reflects the fact that eating and drinking are separate prohibitions with separate rationales, even on the same day.",
+        "memoryAnchor": "Food + drink do not cross-combine on YK: two categories, two measures, each independent.",
+        "learnerQuestion": "Can eating a small amount of food and drinking a small amount of liquid combine to create Yom Kippur liability?",
+        "coreTension": "Between the combination rule (all foods combine) established in the previous sugya and the question of whether food and liquid cross-combine toward each other's measures.",
+        "coreMove": "The Gemara rules they do not combine: the food measure (date-bulk) and the drinking measure (cheekful) are separate categories. Partial eating plus partial drinking does not aggregate into liability in either category.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Food and drink maintain separate measures on Yom Kippur and do not cross-combine; you need a full date-bulk of food or a full cheekful of liquid, not a combination of both, to create liability."
+        },
+        "learningBlocker": "Students may apply the food-combination rule to cross-category combination; the Gemara's ruling limits combination to within-category aggregation only."
       },
       "argumentFlow": [
         {
@@ -299,13 +313,20 @@
       ],
       "display": {
         "whats": "Mishna: if one ate and drank in one period of unawareness, one atonement covers both",
-        "hint": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act."
+        "hint": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act.",
+        "title": "Eating and Drinking in One Lapse of Awareness"
       },
       "learning": {
-        "summary": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, not separate ones for each act.",
-        "ahaMoment": "One atonement for both eating and drinking in one lapse of awareness: the Torah shows mercy on human fallibility.",
-        "memoryAnchor": "Eating and drinking in one unawareness: one mistake, one atonement.",
-        "openQuestion": "What is the deeper significance of the ruling about mishna: if one ate and drank in one period of unawareness, o?"
+        "ahaMoment": "Halakhic liability tracks subjective awareness, not just objective acts; one lapse creates one liability, even if multiple prohibitions were violated within it.",
+        "memoryAnchor": "One lapse of awareness = one atonement, even for both eating and drinking on YK.",
+        "learnerQuestion": "If someone eats and drinks on Yom Kippur in a single period of unawareness, do they bring one atonement or two?",
+        "coreTension": "Between the principle that each separate prohibition requires separate atonement and the possibility that a single lapse of awareness unifies multiple acts into one.",
+        "coreMove": "The Mishna rules that eating and drinking in one period of unawareness brings a single atonement, because the single period of unawareness is the legally operative unit - it is one lapse, not two, even if multiple types of violation occurred within it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A single period of unawareness unifies all violations committed within it for the purpose of atonement; the subjective unit (one lapse of forgetting) is what halakhically counts, not the objective number of prohibited acts."
+        },
+        "learningBlocker": "Students may expect each prohibited act to require separate atonement regardless of awareness; the Mishna's ruling shows that awareness-structure determines atonement-structure."
       },
       "argumentFlow": [
         {
@@ -490,13 +511,20 @@
       ],
       "display": {
         "whats": "YK and Shabbat: how the labor prohibition on YK compares to Shabbat",
-        "hint": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two."
+        "hint": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two.",
+        "title": "YK Labor Prohibition: Compared to Shabbat"
       },
       "learning": {
-        "summary": "The work prohibition on Yom Kippur parallels the Shabbat prohibition; the Gemara compares liability and exceptions between the two.",
-        "ahaMoment": "YK labor prohibition resembles Shabbat but has its own character - both are called 'Shabbat' in the Torah, creating interesting parallels.",
-        "memoryAnchor": "YK and Shabbat: two days both called 'Shabbat', two sets of parallel rules.",
-        "openQuestion": "What is the deeper significance of the ruling about yk and shabbat: how the labor prohibition on yk compares to ?"
+        "ahaMoment": "YK and Shabbat have the same labor prohibition - what distinguishes YK is the affliction layer, not any difference in the prohibition of work.",
+        "memoryAnchor": "YK = Shabbat labor prohibition + five afflictions: same labor rules, different added layer.",
+        "learnerQuestion": "How does the work prohibition on Yom Kippur compare to the work prohibition on Shabbat?",
+        "coreTension": "Between YK and Shabbat both having labor prohibitions and the question of whether they are identical, parallel, or different in their operative details.",
+        "coreMove": "The Gemara compares the two: both prohibit the 39 categories of labor, both carry karet for intentional violation, both require a sin-offering for unintentional violation. But YK has the additional five afflictions. The comparison helps define each by the other.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK and Shabbat labor prohibitions share the same 39 categories and penalties; YK's distinctiveness lies in the additional five afflictions, not in the labor prohibition itself."
+        },
+        "learningBlocker": "Students may assume YK has a special or different labor prohibition; the Gemara's comparison shows they share the same structure."
       },
       "argumentFlow": [
         {

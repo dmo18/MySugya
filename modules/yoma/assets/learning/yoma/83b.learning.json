@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "Rabba: if possible, satisfy bulmos with non-forbidden food first",
-        "hint": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting to non-kosher."
+        "hint": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting to non-kosher.",
+        "title": "Rabba's Qualification: If Non-Forbidden Food Is Available"
       },
       "learning": {
-        "summary": "Rabba qualifies the Mishna: if it is possible to satisfy the person with bulmos using non-forbidden food, that should be tried first before resorting to non-kosher.",
-        "ahaMoment": "Rabba's qualification: even in an emergency, if you can solve it without violating a prohibition, do so. Minimum necessary violation is the principle.",
-        "memoryAnchor": "Rabba: try permitted food first - minimum violation, even in emergencies.",
-        "openQuestion": "What is the deeper significance of the ruling about rabba: if possible, satisfy bulmos with non-forbidden food f?"
+        "ahaMoment": "Rabba restores the hierarchy: non-kosher is the emergency fallback, not the first choice. Urgency justifies it; absence of urgency does not.",
+        "memoryAnchor": "Rabba qualifies: if kosher is equally available, use it. Non-kosher is the emergency option, not the default.",
+        "learnerQuestion": "Does Rabba qualify the Mishna's ruling about feeding non-kosher in bulmos cases?",
+        "coreTension": "Between the blanket Mishna ruling (feed non-kosher) and the intuition that if permitted food is equally available, the forbidden food should be avoided.",
+        "coreMove": "Rabba qualifies: the Mishna's non-kosher ruling applies when non-kosher is faster or more available. If non-forbidden food is equally available and can satisfy the bulmos just as quickly, it should be preferred. The override of kashrut is not a license to prefer it; it is a practical concession to urgency.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Rabba's qualification preserves the principle of minimizing violations: when permitted food is equally accessible and equally effective, it is preferred; the non-kosher override in bulmos applies only when non-kosher is faster or the only option."
+        },
+        "learningBlocker": "Students may read the Mishna as giving blanket preference for non-kosher in emergencies; Rabba's qualification shows that forbidden food is used only when needed, not as a default."
       },
       "argumentFlow": [
         {
@@ -173,13 +180,20 @@
       ],
       "display": {
         "whats": "Two sages' approaches to treating bulmos; the principle behind the dispute",
-        "hint": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The dispute reflects different understandings of what cons..."
+        "hint": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The dispute reflects different understandings of what cons...",
+        "title": "Two Tannaim on the Priority Order in Bulmos"
       },
       "learning": {
-        "summary": "Two Tannaim dispute the treatment of bulmos: one prefers to start with permitted foods; the other goes straight to the most effective remedy. The dispute reflects different understandings of what constitutes the minimum violation.",
-        "ahaMoment": "The two sages' dispute reflects a deeper question: is the goal to minimize halachic violation, or to maximize the speed of recovery? Both are legitimate priorities.",
-        "memoryAnchor": "Two sages, two priorities: minimize violation vs. maximize speed. Both views have halachic logic.",
-        "openQuestion": "What is the deeper significance of the ruling about two sages' approaches to treating bulmos; the principle behi?"
+        "ahaMoment": "The dispute is not about facts but about values: should emergency response minimize violation or maximize effect? Both are valid halakhic priorities, and the tension between them is preserved.",
+        "memoryAnchor": "Two Tannaim, two frameworks: minimize-violation first vs. maximize-effect first - both preserved in emergency logic.",
+        "learnerQuestion": "Do the Tannaim agree on whether permitted or forbidden food should be offered first to someone with bulmos?",
+        "coreTension": "Between the view that you should start with permitted foods (preserving the principle of minimizing violations) and the view that the most effective immediate restoration is what matters most.",
+        "coreMove": "The dispute captures a deeper principle: is the emergency response logic governed by 'minimize halakhic violations' (start with permitted) or by 'maximize immediate effect' (start with whatever works fastest)? Each Tanna represents a different framework for emergencies.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The Tannaitic dispute about bulmos priority reflects two frameworks for halakhic emergencies: one that always minimizes violation type and one that always maximizes effectiveness; both are legitimate positions within the pikuach nefesh framework."
+        },
+        "learningBlocker": "Students may expect a clear and universal rule; the preserved dispute signals that reasonable authorities have different emergency frameworks."
       },
       "argumentFlow": [
         {
@@ -404,13 +418,20 @@
       ],
       "display": {
         "whats": "R. Meir and R. Yehuda's incident with a student who had bulmos",
-        "hint": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches."
+        "hint": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches.",
+        "title": "R. Meir and R. Yehuda Treat Their Student's Bulmos"
       },
       "learning": {
-        "summary": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches.",
-        "ahaMoment": "The real-life incident with the student brought the abstract dispute to life: what do you actually do first when someone collapses in front of you?",
-        "memoryAnchor": "Student with bulmos: the real incident forced the abstract debate to become practical.",
-        "openQuestion": "What is the deeper significance of the ruling about r. meir and r. yehuda's incident with a student who had bulm?"
+        "ahaMoment": "The story is the dispute made flesh: seeing what each sage actually did in the moment is more illuminating than the theoretical debate alone.",
+        "memoryAnchor": "R. Meir and R. Yehuda, both treating the same student their own way: the dispute lives in the emergency room.",
+        "learnerQuestion": "What does the story of R. Meir and R. Yehuda treating a student with bulmos teach about emergency halakhic decision-making?",
+        "coreTension": "Between the theoretical dispute (which food first) and the practical moment when a teacher must act immediately for a student in crisis.",
+        "coreMove": "The story shows R. Meir and R. Yehuda each acting according to their respective positions when the emergency arose. The student was saved, and both approaches worked. The narrative confirms that both positions are viable and that a sage must act according to their understanding in the emergency moment.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "When a theoretical dispute meets a practical emergency, each sage acts according to their own position, and the narrative confirms the validity of each approach by recording that the student was saved; the story is the lived text of the theoretical dispute."
+        },
+        "learningBlocker": "Students may want to know which sage was 'right'; the story deliberately avoids declaring a winner, leaving both positions operative."
       },
       "argumentFlow": [
         {
@@ -574,13 +595,20 @@
       ],
       "display": {
         "whats": "Mad dog bite on Yom Kippur: danger overrides YK",
-        "hint": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to life is extreme."
+        "hint": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to life is extreme.",
+        "title": "Mad Dog Bite on Yom Kippur"
       },
       "learning": {
-        "summary": "If someone is bitten by a mad (rabid) dog on Yom Kippur, the healing measures that might violate YK are performed immediately because the danger to life is extreme.",
-        "ahaMoment": "Mad dog bite: some dangers are so extreme and immediate that YK is violated without hesitation or debate.",
-        "memoryAnchor": "Mad dog bite: some dangers are so obvious that YK yields immediately.",
-        "openQuestion": "What is the deeper significance of the ruling about mad dog bite on yom kippur: danger overrides yk?"
+        "ahaMoment": "The rabid dog ruling is the clearest version of pikuach nefesh: recognized immediate lethal danger, no deliberation needed, treat immediately.",
+        "memoryAnchor": "Mad dog bite on YK: immediate danger, immediate treatment, no deliberation.",
+        "learnerQuestion": "If someone is bitten by a rabid dog on Yom Kippur, may healing measures be taken immediately?",
+        "coreTension": "Between the YK prohibition on certain activities and the acute danger of rabies, which is lethal without immediate treatment.",
+        "coreMove": "The Gemara rules that a rabid dog bite constitutes immediate life-threatening danger, and all healing measures are performed without delay. The YK prohibition has no standing in the face of life-threatening danger from infection; the urgency of the case makes the override obvious.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Immediate life-threatening danger from infection (such as a rabid dog bite) overrides YK prohibitions without any deliberation; when the danger is recognized and imminent, treatment is not a close call."
+        },
+        "learningBlocker": "Students may not realize that ancient authorities recognized rabies as a lethal condition requiring immediate treatment; the ruling depends on recognizing the severity."
       },
       "argumentFlow": [
         {

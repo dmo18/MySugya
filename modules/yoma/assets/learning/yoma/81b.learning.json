@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Yom Kippur itself is called 'Shabbat' by the Torah; implications for the work prohibition",
-        "hint": "The Torah calls Yom Kippur 'Shabbat Shabbaton' - a Shabbat of complete rest. The Gemara explores what this means for the structure of YK's work prohibition."
+        "hint": "The Torah calls Yom Kippur 'Shabbat Shabbaton' - a Shabbat of complete rest. The Gemara explores what this means for the structure of YK's work prohibition.",
+        "title": "Yom Kippur: 'Shabbat Shabbaton'"
       },
       "learning": {
-        "summary": "The Torah calls Yom Kippur 'Shabbat Shabbaton' - a Shabbat of complete rest. The Gemara explores what this means for the structure of YK's work prohibition.",
-        "ahaMoment": "YK is 'Shabbat Shabbaton': the emphatic doubling makes YK even more solemn than a regular Shabbat, hence the comparison of their labor rules.",
-        "memoryAnchor": "Shabbat Shabbaton: double Shabbat, double gravity - YK's work prohibition derives from its name.",
-        "openQuestion": "What is the deeper significance of the ruling about yom kippur itself is called 'shabbat' by the torah; implicat?"
+        "ahaMoment": "The doubled 'Shabbat' term is doing legal work: it signals that YK's rest is complete in a way Shabbat alone cannot be, because it includes the body's full cessation through the five afflictions.",
+        "memoryAnchor": "Shabbat Shabbaton = doubled rest: body stops working AND is deprived of its comforts.",
+        "learnerQuestion": "What does the Torah mean when it calls Yom Kippur 'Shabbat Shabbaton' (a Shabbat of complete rest)?",
+        "coreTension": "Between Shabbat and YK each having their own identity (Shabbat is the weekly rest, YK is the annual day of atonement) and the Torah's use of the same 'Shabbat' term for both.",
+        "coreMove": "The Gemara reads 'Shabbat Shabbaton' as intensifying YK's rest beyond regular Shabbat: it is a doubly complete rest that encompasses both labor prohibition and afflictions. The doubled term signals that YK is not merely Shabbat-plus-afflictions but a qualitatively deeper rest.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "'Shabbat Shabbaton' is a superlative: YK is not just Shabbat with additions but a qualitatively deeper form of rest that encompasses all five afflictions along with the labor prohibition."
+        },
+        "learningBlocker": "Students may read 'Shabbat Shabbaton' as redundant; the Gemara mines it for a legal distinction about YK's qualitative intensity."
       },
       "argumentFlow": [
         {
@@ -200,13 +207,20 @@
       ],
       "display": {
         "whats": "Food not fit for human consumption does not count toward the measure; bile and other unfit foods",
-        "hint": "Food that is not fit for human consumption does not count toward the YK eating measure. The Gemara discusses bile, bitter substances, and other unpalatable foods."
+        "hint": "Food that is not fit for human consumption does not count toward the YK eating measure. The Gemara discusses bile, bitter substances, and other unpalatable foods.",
+        "title": "Inedible Food Does Not Count Toward YK Measure"
       },
       "learning": {
-        "summary": "Food that is not fit for human consumption does not count toward the YK eating measure. The Gemara discusses bile, bitter substances, and other unpalatable foods.",
-        "ahaMoment": "Unfit food doesn't count: the eating prohibition is about eating as a pleasure - something you cannot eat is not a pleasure, and withholding it is not an affliction.",
-        "memoryAnchor": "Bile is not eating: unfit food fails the pleasure test and doesn't count toward the measure.",
-        "openQuestion": "What is the deeper significance of the ruling about food not fit for human consumption does not count toward the?"
+        "ahaMoment": "The Gemara's ruling reveals the target of the prohibition: not consuming substances but relieving affliction. Inedible food relieves nothing, so it cannot violate the prohibition.",
+        "memoryAnchor": "Bile and inedible food don't count on YK: if it doesn't relieve hunger, it doesn't violate the prohibition.",
+        "learnerQuestion": "Does eating something that is technically food but inedible for humans count toward the Yom Kippur eating measure?",
+        "coreTension": "Between a broad definition of 'eating' (consuming any substance) and the halakhic principle that only human-quality food counts toward eating measures.",
+        "coreMove": "The Gemara rules that bile, bitter herbs of a bitter-beyond-eating degree, and other foods not fit for normal human consumption do not count toward the date-bulk measure. The prohibition targets the relief of affliction through eating; inedible food provides no such relief.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Inedible or non-human-quality food does not count toward the YK eating measure because the prohibition targets the satisfaction of hunger through normal eating; substances that do not satisfy cannot be the thing prohibited."
+        },
+        "learningBlocker": "Students may assume any oral consumption of food-category items counts; the Gemara limits it to food that actually functions as food for humans."
       },
       "argumentFlow": [
         {

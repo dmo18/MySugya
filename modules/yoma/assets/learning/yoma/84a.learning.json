@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "Killing a mad dog; signs of madness (symptoms that define a dangerous dog)",
-        "hint": "The Gemara discusses how to deal with a mad dog and what signs indicate rabies. The mad dog may be killed even on Shabbat if it poses immediate danger."
+        "hint": "The Gemara discusses how to deal with a mad dog and what signs indicate rabies. The mad dog may be killed even on Shabbat if it poses immediate danger.",
+        "title": "Identifying a Rabid Dog: Signs of Madness"
       },
       "learning": {
-        "summary": "The Gemara discusses how to deal with a mad dog and what signs indicate rabies. The mad dog may be killed even on Shabbat if it poses immediate danger.",
-        "ahaMoment": "The signs of a mad dog are listed as specific observable symptoms - the Talmud treats medical danger empirically, not speculatively.",
-        "memoryAnchor": "Mad dog symptoms: observable signs determine danger - empirical, not theoretical.",
-        "openQuestion": "What is the deeper significance of the ruling about killing a mad dog; signs of madness (symptoms that define a ?"
+        "ahaMoment": "The Gemara is being practical: you cannot invoke pikuach nefesh to kill the dog unless you can identify it as dangerous. The symptom list makes recognition a legal competence.",
+        "memoryAnchor": "Signs of a mad dog (open mouth, dripping saliva, flapping ears): recognize them and the animal may be killed on Shabbat.",
+        "learnerQuestion": "How do you identify a mad (rabid) dog, and may it be killed even on Shabbat?",
+        "coreTension": "Between the prohibition on killing animals on Shabbat and the danger that a rabid dog poses to anyone it encounters.",
+        "coreMove": "The Gemara details the signs of rabies (mouth open, saliva dripping, tail hanging, ears flopping, gait off) and rules that a dog showing these signs may be killed even on Shabbat, because leaving it alive constitutes ongoing danger to human life. Recognizing danger is the prerequisite for acting on it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A potentially rabid animal may be killed on Shabbat (and YK) because leaving it alive constitutes ongoing threat to human life; the specific signs must be identified to apply this override, making recognition a halakhic skill."
+        },
+        "learningBlocker": "Students may not realize that the Gemara's list of symptoms is a practical diagnostic tool embedded in halakhic law."
       },
       "argumentFlow": [
         {
@@ -162,13 +169,20 @@
       ],
       "display": {
         "whats": "R. Matya ben Harash: throat pain on YK permits taking medicine",
-        "hint": "R. Matya ben Harash rules that one suffering from throat pain on Yom Kippur may take medicine, as the throat is near vital organs and danger to life is present."
+        "hint": "R. Matya ben Harash rules that one suffering from throat pain on Yom Kippur may take medicine, as the throat is near vital organs and danger to life is present.",
+        "title": "R. Matya ben Harash: Throat Pain Permits Medicine"
       },
       "learning": {
-        "summary": "R. Matya ben Harash rules that one suffering from throat pain on Yom Kippur may take medicine, as the throat is near vital organs and danger to life is present.",
-        "ahaMoment": "Throat pain overrides YK because the throat is adjacent to vital organs - proximity to danger qualifies as actual danger.",
-        "memoryAnchor": "Throat pain on YK: proximity to vital organs = actual danger. Take the medicine.",
-        "openQuestion": "What is the deeper significance of the ruling about r. matya ben harash: throat pain on yk permits taking medici?"
+        "ahaMoment": "The throat's proximity to vital organs is not a medical fact added to halakha - it is the halakhic fact. Anatomy determines the legal threshold here.",
+        "memoryAnchor": "Throat pain on YK: treat with medicine immediately - anatomical proximity to vital organs raises the stakes.",
+        "learnerQuestion": "Why does R. Matya ben Harash rule that throat pain on Yom Kippur permits taking medicine?",
+        "coreTension": "Between the general rule that minor pain does not override YK and R. Matya ben Harash's specific ruling about throat pain.",
+        "coreMove": "R. Matya ben Harash rules that the throat is anatomically near vital organs; throat infection or pain can quickly progress to life-threatening conditions. This proximity justifies treating throat symptoms with medicine immediately, without waiting for the condition to deteriorate into obvious danger.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The anatomical proximity of the throat to vital organs means throat pain on YK justifies immediate medical treatment; halakhic application of pikuach nefesh tracks medical reality about which conditions can rapidly become life-threatening."
+        },
+        "learningBlocker": "Students may think all pain requires the same level of danger before treatment on YK; R. Matya's ruling shows that anatomy shapes the halakhic calculus."
       },
       "argumentFlow": [
         {
@@ -304,13 +318,20 @@
       ],
       "display": {
         "whats": "Tzefardea (snake-related illness): what it is, its symptoms, its danger",
-        "hint": "The Gemara discusses 'tzefardea,' a serious illness apparently related to snake or frog venom, describing its symptoms and confirming that it is life-threatening."
+        "hint": "The Gemara discusses 'tzefardea,' a serious illness apparently related to snake or frog venom, describing its symptoms and confirming that it is life-threatening.",
+        "title": "Tzefardea: A Dangerous Illness"
       },
       "learning": {
-        "summary": "The Gemara discusses 'tzefardea,' a serious illness apparently related to snake or frog venom, describing its symptoms and confirming that it is life-threatening.",
-        "ahaMoment": "Tzefardea: named after the Hebrew word for frog, possibly related to a venomous bite or infection. The Talmud's medical categories reflect ancient understanding but recognize genuine danger.",
-        "memoryAnchor": "Tzefardea: a dangerous illness, possibly venom-related, that overrides YK.",
-        "openQuestion": "What is the deeper significance of the ruling about tzefardea (snake-related illness): what it is, its symptoms,?"
+        "ahaMoment": "The Gemara is doing something remarkable: it is doing medical evaluation as halakhic practice. Knowing the disease's lethality is itself required halakhic knowledge.",
+        "memoryAnchor": "Tzefardea: classified dangerous because medical evidence says so. Pikuach nefesh is evidence-based.",
+        "learnerQuestion": "What is tzefardea and why does the Gemara treat it as a dangerous condition that overrides Yom Kippur?",
+        "coreTension": "Between ordinary illness (which does not automatically override YK) and the specific condition called tzefardea, which the Gemara classifies as immediately dangerous.",
+        "coreMove": "The Gemara describes tzefardea (apparently a condition related to snake or frog venom, or a specific pharyngeal infection) and its symptoms. It classifies it as life-threatening based on medical evidence from authorities who recognized it as rapidly fatal without treatment.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The classification of an illness as YK-overriding follows empirical medical evidence; the Gemara's tzefardea ruling shows that halakhic application of pikuach nefesh is evidence-based, tracking actual medical danger rather than relying on intuition."
+        },
+        "learningBlocker": "Students may not know what tzefardea is; the key point is that halakhic emergency classification requires knowing the medical facts, not just applying a general rule."
       },
       "argumentFlow": [
         {

@@ -25,13 +25,20 @@
       ],
       "display": {
         "whats": "All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur",
-        "hint": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard."
+        "hint": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard.",
+        "title": "Egg-Bulk as the Universal Eating Measure"
       },
       "learning": {
-        "summary": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard.",
-        "ahaMoment": "YK is unique even in its measures: the date-bulk is larger than other Torah eating measures, reflecting that YK's affliction applies only to substantial eating.",
-        "memoryAnchor": "Egg-bulk for everything, date-bulk for YK: one exception to remember.",
-        "openQuestion": "What is the deeper significance of the ruling about all torah eating measures are egg-bulk; the date-bulk is uni?"
+        "ahaMoment": "The egg-bulk is not just one measure among many - it is the anchor of the entire eating-measure system, with everything else derived from or compared against it.",
+        "memoryAnchor": "All Torah eating measures = egg-bulk baseline: the whole system anchors here.",
+        "learnerQuestion": "Why does the Talmud say that all Torah eating measures equal an egg-bulk?",
+        "coreTension": "Between the seemingly different measures used in various contexts (olive-bulk, date-bulk, egg-bulk) and the claim that they all reduce to a single standard.",
+        "coreMove": "The Gemara establishes that the egg-bulk is the underlying standard from which all Torah eating measures derive; the date-bulk for YK is itself derived from this baseline, making the egg-bulk the foundation of the whole system of eating measures.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "All Torah eating measures are calibrated against the egg-bulk as their foundational standard; apparent differences in measure across contexts resolve to variations on this single baseline."
+        },
+        "learningBlocker": "Students may see the different measures as unconnected; recognizing the egg-bulk as the shared foundation unifies them into a coherent system."
       },
       "argumentFlow": [
         {
@@ -101,12 +108,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is the Yom Kippur measure a large date rather than the standard olive-bulk?",
-          "a": "Because the verse changes its language: it says 'any soul which shall not be afflicted' rather than 'shall eat.' The altered wording signals to the Sages that the measure differs from the usual olive-bulk, so it is set at the volume of a large date."
+          "question": "Why is the Yom Kippur measure a large date rather than the standard olive-bulk?",
+          "answer": "Because the verse changes its language: it says 'any soul which shall not be afflicted' rather than 'shall eat.' The altered wording signals to the Sages that the measure differs from the usual olive-bulk, so it is set at the volume of a large date."
         },
         {
-          "q": "Why does the baraita need both the impurity case and the Yom Kippur case to make its point?",
-          "a": "From the impurity verse alone, one might dismiss the unusual wording as mere stylistic variation. The Yom Kippur case establishes the general rule that whenever a verse deviates from standard language, it implies a corresponding change in the halacha."
+          "question": "Why does the baraita need both the impurity case and the Yom Kippur case to make its point?",
+          "answer": "From the impurity verse alone, one might dismiss the unusual wording as mere stylistic variation. The Yom Kippur case establishes the general rule that whenever a verse deviates from standard language, it implies a corresponding change in the halacha."
         }
       ],
       "finalRuling": "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger stan",
@@ -178,13 +185,20 @@
       ],
       "display": {
         "whats": "Where is the YK eating measure derived? Gezerah shavah from matzah",
-        "hint": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah."
+        "hint": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah.",
+        "title": "Deriving the YK Eating Measure by Gezerah Shavah"
       },
       "learning": {
-        "summary": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah.",
-        "ahaMoment": "Gezerah shavah: when the same word appears in two places in the Torah, the law can be derived from one to the other - a technical but powerful hermeneutic tool.",
-        "memoryAnchor": "Gezerah shavah: same word, same law - matzah and YK share an eating derivation.",
-        "openQuestion": "What is the deeper significance of the ruling about where is the yk eating measure derived? gezerah shavah from ?"
+        "ahaMoment": "The gezerah shavah is a precision tool: it imports not just the category but the exact quantity, giving the Gemara access to measurements the Torah did not state explicitly.",
+        "memoryAnchor": "Gezerah shavah on 'eating' imports the egg-bulk quantity into YK from its paired verse.",
+        "learnerQuestion": "How does the Gemara derive the specific eating measure for Yom Kippur liability?",
+        "coreTension": "Between the need for an explicit source for each specific halakhic measure and the use of a gezerah shavah to import the measure from another context.",
+        "coreMove": "The Gemara links the word 'eating' in the YK verse to 'eating' in another context via gezerah shavah, importing the egg-bulk measure from the second context into YK law. The analogy does the work that explicit derivation cannot do alone.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A gezerah shavah can import a specific quantity (not just a legal category) from one context to another; when the same word appears in two legal contexts, the measure established in one transfers to the other."
+        },
+        "learningBlocker": "Students may wonder why the Torah didn't specify the measure directly; the gezerah shavah mechanism is what enables the Gemara to fill textual gaps systematically."
       },
       "argumentFlow": [
         {
@@ -366,16 +380,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara arrive at a chicken egg as the measure for the impurity of foods?",
-          "a": "Rabbi Abbahu's accepted basis is that 'food which may be eaten' means food eaten at one time, and the Sages estimated the esophagus holds no more than a chicken's egg at once. The earlier derivation from 'food that comes from food' was left open because it could not exclude a tiny or giant egg."
+          "question": "How does the Gemara arrive at a chicken egg as the measure for the impurity of foods?",
+          "answer": "Rabbi Abbahu's accepted basis is that 'food which may be eaten' means food eaten at one time, and the Sages estimated the esophagus holds no more than a chicken's egg at once. The earlier derivation from 'food that comes from food' was left open because it could not exclude a tiny or giant egg."
         },
         {
-          "q": "Why should someone who unwittingly ate forbidden fat record exactly how much he ate?",
-          "a": "In case a future court raises the liability-measure. If a later court requires a larger olive, his recorded amount might fall short of the new threshold, exempting him. He cannot be newly obligated by a smaller future measure, since offerings follow awareness of sin, not a rule change."
+          "question": "Why should someone who unwittingly ate forbidden fat record exactly how much he ate?",
+          "answer": "In case a future court raises the liability-measure. If a later court requires a larger olive, his recorded amount might fall short of the new threshold, exempting him. He cannot be newly obligated by a smaller future measure, since offerings follow awareness of sin, not a rule change."
         },
         {
-          "q": "How does the Gemara reconcile that the measures of punishment are both from Sinai and from the court of Jabez?",
-          "a": "Because a prophet may introduce nothing new, the measures must have originated at Sinai. Over time they were forgotten, and the court of Jabez and the prophets reestablished them, so Jabez restored rather than invented the measures."
+          "question": "How does the Gemara reconcile that the measures of punishment are both from Sinai and from the court of Jabez?",
+          "answer": "Because a prophet may introduce nothing new, the measures must have originated at Sinai. Over time they were forgotten, and the court of Jabez and the prophets reestablished them, so Jabez restored rather than invented the measures."
         }
       ],
       "finalRuling": "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating proh",
@@ -417,13 +431,20 @@
       ],
       "display": {
         "whats": "Drinking measure on YK: a cheekful (male'o lugmav); how it is derived",
-        "hint": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measure."
+        "hint": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measure.",
+        "title": "The Cheekful: YK Drinking Measure"
       },
       "learning": {
-        "summary": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measure.",
-        "ahaMoment": "The cheekful is a subjective measure - it varies by person - which is unusual in halacha where measures are typically objective. This personalization matters.",
-        "memoryAnchor": "Cheekful: a personal measure - what fills your cheek, not a fixed amount.",
-        "openQuestion": "What is the deeper significance of the ruling about drinking measure on yk: a cheekful (male'o lugmav); how it i?"
+        "ahaMoment": "The cheekful is the Gemara's acknowledgment that thirst is personal: what relieves one person may not relieve another, so the measure must follow the body.",
+        "memoryAnchor": "Cheekful = body-relative measure: YK drinking liability follows the individual, not a fixed volume.",
+        "learnerQuestion": "Why is the Yom Kippur drinking measure a cheekful (male'o lugmav) rather than a standard volume?",
+        "coreTension": "Between standard liquid measures (revi'it, etc.) used in most halakhic contexts and the body-relative cheekful used specifically for YK drinking liability.",
+        "coreMove": "The Gemara derives that 'affliction' by thirst is subjective: the amount that relieves thirst varies by person. Therefore the measure is body-relative (a cheekful) rather than fixed volume, calibrating the prohibition to the actual experience of relief.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK drinking measure is body-relative (a cheekful) because the prohibition targets the relief of thirst-affliction, which is subjective; a fixed volume cannot capture individual variation in what constitutes genuine relief."
+        },
+        "learningBlocker": "Students may expect a fixed volume like other liquid measures; understanding that the cheekful is calibrated to subjective relief explains the departure from standard measures."
       },
       "argumentFlow": [
         {
@@ -521,12 +542,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "According to Shmuel, what does the mishna's 'cheekful' actually require?",
-          "a": "Not two literally full cheeks, but enough liquid that when pushed to one side of the mouth it makes a single cheek appear full. The plural language means it should look like two cheeks full when viewed from one side, even though it is one cheek's worth."
+          "question": "According to Shmuel, what does the mishna's 'cheekful' actually require?",
+          "answer": "Not two literally full cheeks, but enough liquid that when pushed to one side of the mouth it makes a single cheek appear full. The plural language means it should look like two cheeks full when viewed from one side, even though it is one cheek's worth."
         },
         {
-          "q": "How do the Sages distinguish Beit Hillel's measure from Rabbi Eliezer's once both are read as 'the appearance of a cheekful'?",
-          "a": "By the case of a paltry cheekful, slightly less than a full cheek. Beit Hillel holds one liable only for a full cheekful, while Rabbi Eliezer holds one liable even for the lesser, paltry mouthful."
+          "question": "How do the Sages distinguish Beit Hillel's measure from Rabbi Eliezer's once both are read as 'the appearance of a cheekful'?",
+          "answer": "By the case of a paltry cheekful, slightly less than a full cheek. Beit Hillel holds one liable only for a full cheekful, while Rabbi Eliezer holds one liable even for the lesser, paltry mouthful."
         }
       ],
       "finalRuling": "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measu",

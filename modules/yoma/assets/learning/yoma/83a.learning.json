@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "'The wicked estranged from the womb': R. Yochanan on innate evil inclination",
-        "hint": "R. Yochanan interprets 'the wicked estranged from the womb' as referring to the innate evil inclination present from birth."
+        "hint": "R. Yochanan interprets 'the wicked estranged from the womb' as referring to the innate evil inclination present from birth.",
+        "title": "R. Yochanan on the Innate Evil Inclination"
       },
       "learning": {
-        "summary": "R. Yochanan interprets 'the wicked estranged from the womb' as referring to the innate evil inclination present from birth.",
-        "ahaMoment": "Evil inclination from the womb: the Torah acknowledges that the struggle with sin begins before we are even conscious of it.",
-        "memoryAnchor": "Evil inclination from the womb: the struggle begins before consciousness.",
-        "openQuestion": "What is the deeper significance of the ruling about 'the wicked estranged from the womb': r. yochanan on innate ?"
+        "ahaMoment": "If the evil inclination is innate, then YK is not just for specific sins - it addresses the human condition of living with an internal opponent from day one.",
+        "memoryAnchor": "Wicked from the womb: R. Yochanan reads innate evil as the target of YK atonement.",
+        "learnerQuestion": "What does R. Yochanan mean by interpreting 'the wicked estranged from the womb'?",
+        "coreTension": "Between the view that people choose evil (implying it is avoidable) and R. Yochanan's suggestion that the evil inclination is present and active from birth.",
+        "coreMove": "R. Yochanan reads the verse as describing the yetzer hara as innate: human beings are not born morally neutral but with an active pull toward evil already present. This reading contextualizes YK's purpose - it is not just for deliberate sins but for the entire human struggle against an innate inclination.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "R. Yochanan's reading frames the yetzer hara as innate rather than chosen, making YK atonement relevant not only for deliberate sin but for the fundamental human condition of struggling against an inclination present from birth."
+        },
+        "learningBlocker": "Students may expect the Gemara to attribute sin to free choice alone; R. Yochanan's innate-inclination reading adds a dimension that makes YK relevant to the human condition itself."
       },
       "argumentFlow": [
         {
@@ -119,13 +126,20 @@
       ],
       "display": {
         "whats": "An ill person fed on YK by expert judgment",
-        "hint": "An ill person on Yom Kippur may be fed based on expert (physician) judgment, even without the patient's request."
+        "hint": "An ill person on Yom Kippur may be fed based on expert (physician) judgment, even without the patient's request.",
+        "title": "The Ill Person Fed by Expert Judgment"
       },
       "learning": {
-        "summary": "An ill person on Yom Kippur may be fed based on expert (physician) judgment, even without the patient's request.",
-        "ahaMoment": "Expert judgment for the ill on YK: we trust medicine. The physician's assessment is enough to override the fast - we do not demand the patient ask for it.",
-        "memoryAnchor": "Expert judgment for the ill: medicine is trusted; the patient need not ask.",
-        "openQuestion": "What is the deeper significance of the ruling about an ill person fed on yk by expert judgment?"
+        "ahaMoment": "The Gemara treats medical expertise as objective evidence that can override subjective patient experience; the physician's eyes see danger the patient may not perceive or report.",
+        "memoryAnchor": "Physician's assessment overrides YK: expert judgment of danger, even without patient's request, is enough.",
+        "learnerQuestion": "On Yom Kippur, can we feed a sick person based on the physician's assessment alone, without the patient requesting food?",
+        "coreTension": "Between relying on the patient's own report of their condition (they know how they feel) and relying on the physician's external assessment of danger.",
+        "coreMove": "The Gemara rules that expert judgment alone is sufficient to override YK for a sick person: a physician who assesses danger authorizes feeding, even without the patient's request. Expert medical assessment is privileged over patient self-report for the purpose of pikuach nefesh.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A physician's assessment of danger is sufficient to override Yom Kippur prohibitions for a sick person; expert external evaluation takes legal priority over patient self-report in pikuach nefesh determinations."
+        },
+        "learningBlocker": "Students may expect patient autonomy to be the decisive factor; the Gemara's ruling privileges medical expertise over subjective experience in these determinations."
       },
       "argumentFlow": [
         {
@@ -257,13 +271,20 @@
       ],
       "display": {
         "whats": "If an ill person needs to eat: feed on expert opinion or on the patient's own request?",
-        "hint": "The Gemara debates: if an ill person needs to eat on YK, do we rely on the physician's assessment or does the patient's own statement of need override?"
+        "hint": "The Gemara debates: if an ill person needs to eat on YK, do we rely on the physician's assessment or does the patient's own statement of need override?",
+        "title": "Patient's Own Report vs. Physician's Assessment"
       },
       "learning": {
-        "summary": "The Gemara debates: if an ill person needs to eat on YK, do we rely on the physician's assessment or does the patient's own statement of need override?",
-        "ahaMoment": "Patient's own request vs. expert opinion: the more lenient standard wins. If either says the person needs to eat, we feed them.",
-        "memoryAnchor": "Patient or expert: whoever says they need to eat - we feed them. More lenient wins.",
-        "openQuestion": "What is the deeper significance of the ruling about if an ill person needs to eat: feed on expert opinion or on ?"
+        "ahaMoment": "The Gemara distinguishes types of knowledge: physicians assess danger objectively, but only the patient knows their hunger subjectively. Different questions call for different epistemic sources.",
+        "memoryAnchor": "Patient reports needing food, physician disagrees: the patient wins - subjective need is self-known.",
+        "learnerQuestion": "When a sick patient says they need to eat on Yom Kippur but the physician says they don't, whose assessment wins?",
+        "coreTension": "Between the physician's expertise (objective, external assessment of the body's state) and the patient's self-knowledge (subjective, internal experience of need).",
+        "coreMove": "The Gemara distinguishes two cases: if the patient claims they need to eat and the physician disagrees, the patient's own report of their inner experience takes precedence. The patient's body-knowledge about their need for food is more reliable than the physician's external observation about that specific subjective need.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When the question is whether the patient needs food (a subjective determination), the patient's own report takes precedence over the physician's external assessment; self-knowledge of bodily need is privileged over external observation."
+        },
+        "learningBlocker": "Students may expect the expert's assessment to always win; the Gemara creates a nuanced framework where different kinds of questions privilege different sources of knowledge."
       },
       "argumentFlow": [
         {
@@ -450,13 +471,20 @@
       ],
       "display": {
         "whats": "Mishna: one seized with hungry frenzy (bulmos) - feed even non-kosher to revive",
-        "hint": "The Mishna: someone seized with an extreme hunger attack (bulmos) is fed even non-kosher food to save their life - in emergency, non-kosher overrides YK."
+        "hint": "The Mishna: someone seized with an extreme hunger attack (bulmos) is fed even non-kosher food to save their life - in emergency, non-kosher overrides YK.",
+        "title": "Bulmos: Extreme Hunger Attack on Yom Kippur"
       },
       "learning": {
-        "summary": "The Mishna: someone seized with an extreme hunger attack (bulmos) is fed even non-kosher food to save their life - in emergency, non-kosher overrides YK.",
-        "ahaMoment": "Bulmos and non-kosher food: the hierarchy of prohibitions is clear - life comes first, then kashrut, then YK. Emergency overrides all other categories.",
-        "memoryAnchor": "Bulmos gets non-kosher: emergency collapses all the usual hierarchies.",
-        "openQuestion": "What is the deeper significance of the ruling about mishna: one seized with hungry frenzy (bulmos) - feed even n?"
+        "ahaMoment": "The bulmos ruling is about urgency: when consciousness is threatened, the search for ideal food becomes itself dangerous. Any food that restores function takes priority.",
+        "memoryAnchor": "Bulmos on YK: feed non-kosher immediately - urgency trumps food selection.",
+        "learnerQuestion": "What is bulmos and how does the Mishna rule when it strikes on Yom Kippur?",
+        "coreTension": "Between the severity of YK's fasting prohibition and the immediate life-threatening nature of an extreme hunger attack that can cause loss of consciousness or death.",
+        "coreMove": "The Mishna rules: when bulmos (an extreme hunger attack causing loss of reason or consciousness) strikes, we feed even non-kosher food to restore the person immediately. The priority is restoration of basic function, and any available food - even non-kosher - is used without delay.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When an extreme hunger attack threatens life or consciousness on Yom Kippur, any available food including non-kosher is used immediately for life-restoration; the cascading loss of function makes the case too urgent for careful food selection."
+        },
+        "learningBlocker": "Students may expect that even in an emergency, kosher food should be sought first; the Mishna's ruling that non-kosher is used immediately reflects the urgency of the bulmos state."
       },
       "argumentFlow": [
         {
@@ -597,13 +625,20 @@
       ],
       "display": {
         "whats": "The Sages' ruling about bulmos: what to feed and why non-kosher is permitted",
-        "hint": "The Sages explain why non-kosher is the first thing to give the person with bulmos: sometimes it is more readily available or quickly effective."
+        "hint": "The Sages explain why non-kosher is the first thing to give the person with bulmos: sometimes it is more readily available or quickly effective.",
+        "title": "Why Non-Kosher Is Given First in Bulmos"
       },
       "learning": {
-        "summary": "The Sages explain why non-kosher is the first thing to give the person with bulmos: sometimes it is more readily available or quickly effective.",
-        "ahaMoment": "What to give someone with bulmos: the fastest, most effective remedy wins, even if it would normally be forbidden.",
-        "memoryAnchor": "Feed bulmos with what works fastest: effectiveness, not piety, governs the emergency.",
-        "openQuestion": "What is the deeper significance of the ruling about the sages' ruling about bulmos: what to feed and why non-kos?"
+        "ahaMoment": "The Sages are teaching about the psychology of emergency response: in a genuine life crisis, stopping to be meticulous about food selection can itself be a dangerous delay.",
+        "memoryAnchor": "Non-kosher first in bulmos: fastest available food, not most kosher - emergency logic.",
+        "learnerQuestion": "Why do the Sages rule that non-kosher food should be given first to someone with bulmos, rather than searching for kosher food?",
+        "coreTension": "Between the principle of minimizing violations where possible and the practical imperative of immediate life-restoration.",
+        "coreMove": "The Sages explain: sometimes non-kosher is more readily available. Delaying to search for kosher food when non-kosher is immediately at hand is itself a risk to life. The ruling prioritizes the most direct available intervention over minimizing the type of prohibition violated.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When both non-kosher food and kosher food are equally accessible, the Sages prefer non-kosher in bulmos to avoid the appearance of excessive care about lesser matters during a life-threatening emergency."
+        },
+        "learningBlocker": "Students may think even in emergency situations, the principle of 'least violation' requires searching for kosher first; the Sages' ruling explicitly rejects this in bulmos cases."
       },
       "argumentFlow": [
         {
