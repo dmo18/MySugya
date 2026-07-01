@@ -50,13 +50,20 @@
       ],
       "display": {
         "whats": "Thread counts in priestly vestments via gezerah shavah",
-        "hint": "Why six strands, not eight? Why not derive from the pomegranates?"
+        "hint": "Why six strands, not eight? Why not derive from the pomegranates?",
+        "title": "The Breastplate's Thread Count: Gold Woven Into Every Strand"
       },
       "learning": {
-        "summary": "The Gemara works out how many strands (threads) each priestly garment required by using verbal analogies. The robe: six (like the parokhet). The parokhet: twenty-four. The breastplate and ephod: twenty-eight each (four materials plus gold twisted through each).",
         "ahaMoment": "The gold thread had to be woven inside every color - so it multiplied each material's count rather than just adding on top.",
         "memoryAnchor": "Think of gold wire braided into every strand of a colored fabric - not a fifth color added on, but interwoven through each of the four.",
-        "openQuestion": "Why does the Torah specify the gold must be woven inside (betoch) the other colors?"
+        "learnerQuestion": "How many strands made up each thread of the breastplate, and how was the gold physically incorporated into the fabric?",
+        "coreTension": "The breastplate was woven from multiple materials including gold. How could gold wire be 'woven inside' the other threads rather than simply running alongside them? And what does this teach about the precise construction requirement?",
+        "coreMove": "Each thread of the breastplate had 28 strands: seven for each of four materials (blue, purple, crimson, linen), with gold wire twisted inside each color. The Torah says gold was woven 'betoch' (inside) the colored threads - gold permeated every strand rather than running as a separate element.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The breastplate's gold thread was woven inside every other strand - 'betoch' means embedded within, not running alongside. This yields 28 strands per thread and ensures gold is integral to every part of the fabric."
+        },
+        "learningBlocker": "Students may picture gold as a decorative overlay. 'Betoch' means gold is actually twisted into every thread of every color - it is not added atop but embedded within, making it inseparable from the fabric's structure."
       },
       "argumentFlow": [
         {
@@ -236,13 +243,20 @@
       ],
       "display": {
         "whats": "Tearing vestments, removing breastplate, and the ark staves contradiction",
-        "hint": "What happens if a kohen tears his vestments or removes the breastplate?"
+        "hint": "What happens if a kohen tears his vestments or removes the breastplate?",
+        "title": "Tearing Priestly Vestments: Lashes for Destroying Sacred Service"
       },
       "learning": {
-        "summary": "Rachava rules tearing priestly vestments incurs lashes. Rabbi Elazar adds that detaching the breastplate from the ephod or removing ark staves also violates a prohibition. A Talmudic contradiction about the staves (permanent vs. movable) is resolved: the staves remain always in the rings but swing within them (thick at ends, thin in middle).",
         "ahaMoment": "The same verse that says the vestments must be worn continuously is also the source for not tearing them.",
         "memoryAnchor": "The breastplate was physically attached to the ephod by chains and rings - removing it was like undressing the Mishkan.",
-        "openQuestion": "Does the prohibition apply even when the kohen is not currently performing service?"
+        "learnerQuestion": "What is the penalty for tearing priestly vestments, and what verse teaches that their physical integrity is a specific requirement?",
+        "coreTension": "Priestly vestments have unique legal status. If someone tears them, is this ordinary property damage, a Temple violation, or its own distinct prohibition with its own penalty?",
+        "coreMove": "Rachava rules tearing priestly vestments incurs lashes. Rabbi Elazar adds the source: the vestment must remain continuously 'upon him,' and the breastplate's chains to the ephod must not be loosened. Physical integrity and proper connection between garments are part of the service requirement.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Tearing priestly vestments is a standalone Torah prohibition carrying lashes - not merely damage to sacred property. The vestments' physical integrity and proper connections between pieces are service requirements."
+        },
+        "learningBlocker": "Students may treat vestment tearing as ordinary sacrilege. The Gemara establishes a specific derived prohibition with its own penalty - distinct from general Temple damage and derived from the continuous-wearing requirement."
       },
       "argumentFlow": [
         {
@@ -372,13 +386,20 @@
       ],
       "display": {
         "whats": "Standing acacia wood = Torah scholars who endure",
-        "hint": "What does 'standing' acacia wood teach about Torah scholars?"
+        "hint": "What does 'standing' acacia wood teach about Torah scholars?",
+        "title": "Standing Acacia Wood: The Scholar Who Does Not Decay"
       },
       "learning": {
-        "summary": "Rabbi Chama son of Rabbi Chanina interprets 'standing acacia wood' (atzei shitim omdim) as a reference to Torah scholars who stand upright and never decay. A parallel statement: 'bigdei haserad' (service garments) are garments that cause those who wear them to endure forever.",
         "ahaMoment": "The Torah's description of the Mishkan's wood became a permanent allusion to scholars whose Torah learning preserves them across generations.",
         "memoryAnchor": "Standing wood vs fallen wood - the scholar who internalizes Torah stands; the one who does not eventually falls.",
-        "openQuestion": "What quality of Torah study causes a scholar to 'stand' and endure?"
+        "learnerQuestion": "What does Rabbi Chama derive from the description of the Mishkan's planks as 'standing acacia wood,' and what does this teach about Torah scholars?",
+        "coreTension": "The Mishkan's planks were made from 'standing' acacia wood. This seems to describe the wood's orientation during construction. Why would a Torah interpretation focus on this descriptor?",
+        "coreMove": "Rabbi Chama derives: just as standing wood does not decay (unlike fallen wood), Torah scholars stand upright and their learning preserves them from spiritual decay. The 'standing' quality of the wood - its permanence and resistance to decay - becomes an attribute of those who internalize Torah.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The 'standing acacia' teaches that Torah scholars do not decay - their learning gives them permanence and uprightness. Fallen wood decays; standing wood endures - and Torah-internalized scholars endure alongside it."
+        },
+        "learningBlocker": "Students may see this as a pleasant homily tangential to the legal discussion. The Gemara embeds these teachings in the legal corpus because they express essential truths about Torah's role in sustaining the scholar."
       },
       "argumentFlow": [
         {

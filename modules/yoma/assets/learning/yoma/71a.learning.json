@@ -80,13 +80,20 @@
       ],
       "display": {
         "whats": "The Gemara resolves the service sequence debate using two Amoraim - Rava analyzes the Mishnah's ordering. A key dispute: does 'the dispatcher' (hameshale'ach) refer to an earlier past action or to a concurrent present one? The resolution establishes the sequence of vestment changes.",
-        "hint": "How can the same verse be read as describing either a past action or a current one?"
+        "hint": "How can the same verse be read as describing either a past action or a current one?",
+        "title": "Textual Flashback: Why the Dispatcher and Burner Are Mentioned Late"
       },
       "learning": {
-        "summary": "Rava resolves the service sequence debate: the Mishnah's order reflects scripture but uses the device of a speaker who interrupts and returns to a topic. 'The one who dispatches the goat' (written after the eimurim fats) actually refers to the earlier Azazel dispatch - the Torah returns to mention the tum'ah consequences of an earlier act. Similarly 'the one who burns them' refers to the burning that happened in white vestments - both are textual flashbacks.",
         "ahaMoment": "The Torah uses a non-chronological narrative device - it mentions the tum'ah of 'the dispatcher' and 'the burner' at the end of the passage even though those acts happened earlier. Rashi explains this as 'someone who interrupted a topic and returns to complete it.'",
         "memoryAnchor": "Torah flashback technique: dispatcher and burner mentioned late but their acts happened earlier. The Mishnah follows this scriptural order.",
-        "openQuestion": "Are there other examples in Tanach where the Torah records tum'ah consequences of an act at a different point in the text than the act itself?"
+        "learnerQuestion": "Why does the Torah appear to mention the Yom Kippur dispatcher and burner out of chronological order in the narrative?",
+        "coreTension": "The Torah records tum'ah consequences of burning the bull and goat after describing the eimurim burning. But the acts themselves happened earlier. Is the Torah presenting events out of order, and if so, why?",
+        "coreMove": "Rava identifies this as a textual flashback: the Torah returns to record tum'ah consequences of earlier acts (the Azazel dispatch and the bull/goat burning) at a later position in the narrative. This is a recognizable literary-legal device, not confusion. Both the dispatcher and the burner are mentioned late because the Torah is circling back.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The Torah uses non-chronological structure to attach tum'ah consequences to acts described earlier. Rava identifies this as a specific literary-legal device - textual flashback - not a scribal error."
+        },
+        "learningBlocker": "Students may assume Torah narrative is always strictly chronological. Rava identifies a specific pattern: tum'ah consequences can be recorded at a later position even when the triggering act occurred earlier in the story."
       },
       "argumentFlow": [
         {
@@ -370,13 +377,20 @@
       ],
       "display": {
         "whats": "After Yom Kippur the HP made a festive celebration for his loved ones, rejoicing that he emerged safely from the Holy of Holies. Shemaiah and Avtalyon bid farewell to the HP - and the HP's insulting response became a famous teaching about what distinguishes true disciples of Aaron.",
-        "hint": "What was the HP's insult to Shemaiah and Avtalyon, and why was it so shocking?"
+        "hint": "What was the HP's insult to Shemaiah and Avtalyon, and why was it so shocking?",
+        "title": "The HP's Banquet and the Insult That Became a Teaching"
       },
       "learning": {
-        "summary": "The HP's festive banquet after Yom Kippur was a celebration of successful completion - emerging alive from the Holy of Holies was itself cause for celebration. Shemaiah and Avtalyon (leaders of the Sanhedrin, descendants of converts) came to take leave, and the HP dismissed them: 'Let the descendants of pagans come in peace.' They responded: 'Let the descendants of pagans come in peace since they perform the deeds of Aaron - not like the descendant of Aaron who does not perform Aaron's deeds.' The confrontation became a teaching about what makes a true disciple of peace.",
         "ahaMoment": "The HP insulted two of the greatest Torah scholars of his generation based on their ancestry - and they responded not with anger but with a lesson about how the deeds of Aaron (love and pursuit of peace) matter more than biological descent. Their response was itself an act of Aaron's way.",
         "memoryAnchor": "HP's insult to Shemaiah and Avtalyon becomes their greatest teaching: Aaron's deeds, not Aaron's blood, define discipleship.",
-        "openQuestion": "Why did Shemaiah and Avtalyon choose this moment - right after Yom Kippur - to respond to the HP's insult with their famous statement?"
+        "learnerQuestion": "What happened between the HP and Shemaiah and Avtalyon after Yom Kippur, and what did their measured response reveal about true halachic leadership?",
+        "coreTension": "The HP snubbed the leading sages by dismissively invoking their non-Jewish ancestry. This violated Torah law (ona'at devarim). Yet Shemaiah and Avtalyon responded with a teaching. Was this restraint, or rebuttal?",
+        "coreMove": "The HP insulted Shemaiah and Avtalyon by referring to them as 'descendants of nations.' They responded: 'let the descendants of nations come in peace who perform Aaron's deeds' - implying the HP himself had failed to act like Aaron. The crowd understood and followed the scholars, not the HP.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Shemaiah and Avtalyon's response defined the criterion for Aaron's true disciple as deeds, not lineage - exposing that the HP had violated Aaron's spirit while they embodied it. The crowd's recognition confirmed where true authority lay."
+        },
+        "learningBlocker": "Students may focus on the ancestry question. The deeper point is halachic: the HP violated the specific prohibition of ona'at devarim (reminding a convert of their origins) while the scholars responded by embodying Aaron's defining virtue."
       },
       "argumentFlow": [
         {

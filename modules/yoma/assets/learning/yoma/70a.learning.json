@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "The HP may not roll a Torah scroll backward (from the end toward the beginning) when moving between passages - an established principle in Torah reading.",
-        "hint": "What is the practical reason behind the prohibition of rolling the scroll backward?"
+        "hint": "What is the practical reason behind the prohibition of rolling the scroll backward?",
+        "title": "No Rolling Backward: The Torah Scroll's One-Way Journey"
       },
       "learning": {
-        "summary": "The Gemara establishes that rolling a Torah scroll backward (from the end of the book toward the beginning) is prohibited. This applies to the HP's Yom Kippur reading: he cannot roll from Leviticus 23 back to Leviticus 16 after reading in the wrong order.",
         "ahaMoment": "The backward-rolling prohibition protects the congregation's dignity - making them wait while the scroll is laboriously re-wound is disrespectful to the public assembly.",
         "memoryAnchor": "No rolling backward - the scroll only moves forward.",
-        "openQuestion": "Does the prohibition of backward rolling apply equally to private Torah study or only to public readings?"
+        "learnerQuestion": "Is it permitted to roll a Torah scroll backward during a public reading to reach an earlier passage?",
+        "coreTension": "Sometimes reaching a specific passage requires rolling backward through the scroll. Why should direction matter for what seems like a practical logistics question?",
+        "coreMove": "The Gemara establishes that rolling a Torah scroll backward is prohibited during a reading. Rolling backward makes the congregation wait unnecessarily. The scroll must always move forward - the HP's declaration after reading Lev. 23 by heart resolves this practical constraint for the Yom Kippur ceremony.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "One may not roll a Torah scroll backward during a reading - the scroll must always advance forward. This formal prohibition protects the congregation from unnecessary waiting."
+        },
+        "learningBlocker": "Students may think backward scrolling is merely inconvenient, not prohibited. The ruling establishes it as a formal prohibition derived from respect for the congregation."
       },
       "argumentFlow": [
         {
@@ -112,13 +119,20 @@
       ],
       "display": {
         "whats": "After the Torah reading the HP rolled the scroll, pressed it to his chest, and declared: 'More than what I have read is written here' - to prevent the congregation from thinking the third passage (Lev. 23) was missing from the scroll.",
-        "hint": "Why would the congregation think the Lev. 23 passage was missing from the scroll?"
+        "hint": "Why would the congregation think the Lev. 23 passage was missing from the scroll?",
+        "title": "The HP's Declaration: Protecting the Scroll's Honor"
       },
       "learning": {
-        "summary": "After reading Lev. 16 from the scroll and Lev. 23 by heart, the HP rolled the scroll, pressed it to his chest, and declared that more is written in it than he read aloud. This declaration was necessary to protect the Torah scroll's honor - lest the congregation think the by-heart portion was missing from the scroll.",
         "ahaMoment": "The scroll was pressed to the HP's chest in a physical gesture of intimacy with the Torah - a moment of public honor for both the HP and the scroll before the assembled nation.",
         "memoryAnchor": "HP presses rolled scroll to chest and declares: 'More is written here than I read.'",
-        "openQuestion": "How does this declaration relate to the broader principle of protecting Torah from public suspicion?"
+        "learnerQuestion": "After reading Leviticus 23 by heart, what did the HP do to protect the Torah scroll's honor, and why was this necessary?",
+        "coreTension": "The HP read Lev. 23 by heart, not from the scroll. The congregation might conclude that portion was missing from the scroll - a serious implied denigration. How was this misimpression prevented?",
+        "coreMove": "The HP pressed the rolled scroll to his chest and declared 'more is written here than what I read.' This declaration was legally necessary - without it, the congregation might conclude the Torah scroll was defective, constituting a public denigration of the Torah.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When Torah is read by heart, a declaration is legally required that the scroll contains more than what was recited - protecting the Torah's honor and preventing the impression of a defective text."
+        },
+        "learningBlocker": "Students may treat the declaration as ceremonial. The Gemara establishes it is legally necessary: without it, the silence would imply the scroll is missing a passage, which constitutes a public degradation of the Torah."
       },
       "argumentFlow": [
         {
@@ -220,13 +234,20 @@
       ],
       "display": {
         "whats": "Eight blessings are required for the by-heart reading (not just seven for the standard reading). The Gemara explains the reason - and discusses displaying Torah scrolls to honor the congregation and the commandment of beautifying mitzvot.",
-        "hint": "Why does reading from memory require an additional blessing compared to reading from the scroll?"
+        "hint": "Why does reading from memory require an additional blessing compared to reading from the scroll?",
+        "title": "Eight Blessings and the Beauty of Torah Scrolls"
       },
       "learning": {
-        "summary": "The Mishnah lists eight blessings for the HP's reading. The Gemara discusses why an additional blessing is needed for by-heart reading. The Gemara also discusses the practice of displaying Torah scrolls to the assembled congregation before the HP's reading, connecting to the principle of 'beautifying yourself before God in commandments' - using a beautiful Torah scroll, parchment, ink, and a skilled scribe.",
         "ahaMoment": "The practice of displaying the Torah scrolls to the congregation isn't just ceremonial - it connects to the principle of beautifying commandments (hidur mitzvah). The physical beauty of Torah is itself a religious statement.",
         "memoryAnchor": "Eight blessings + beautiful Torah scrolls displayed = honoring God through beauty of the mitzvah.",
-        "openQuestion": "What is the relationship between the beauty of physical religious objects and their spiritual effectiveness?"
+        "learnerQuestion": "What are the HP's eight blessings after the Torah reading, and what principle does the practice of displaying Torah scrolls to the congregation reflect?",
+        "coreTension": "The eight blessings conclude the Torah reading ceremony. Torah scrolls were also displayed to the congregation. Is this purely ceremonial, or does it reflect a deeper principle about how to serve God?",
+        "coreMove": "The eight blessings are enumerated and Torah scrolls were displayed to the congregation as hiddur mitzvah - beautifying the commandment. The source is Exodus 15:2: 've'anveihu' means to glorify God by performing commandments with beautiful objects - beautiful Torah scroll, beautiful lulav, beautiful parchment and ink.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Beautifying sacred objects - beautiful Torah scrolls, beautiful lulav - is itself a Torah value derived from 've'anveihu.' The HP's ceremony makes this principle public and visible."
+        },
+        "learningBlocker": "Students may see displaying Torah scrolls as merely ceremonial. The Gemara grounds it in hiddur mitzvah - beautification is not optional but an expression of how one honors God in performing commandments."
       },
       "argumentFlow": [
         {
@@ -362,13 +383,20 @@
       ],
       "display": {
         "whats": "The HP prostrated himself eight times - once for each of the eight blessings. The exact count and sequence is derived from the Mishnah's list.",
-        "hint": "What is the significance of prostrating once for each blessing rather than once at the end?"
+        "hint": "What is the significance of prostrating once for each blessing rather than once at the end?",
+        "title": "Eight Prostrations: Embodied Submission at Each Blessing"
       },
       "learning": {
-        "summary": "The HP prostrated himself (hishtachavayah) eight times - once for each of the eight blessings he recited. This created a dramatic visual: the highest religious authority of Israel, repeatedly prostrating before God, in full view of the assembled nation.",
         "ahaMoment": "Eight prostrations in public view was itself a powerful religious statement - the most elevated person in Israel repeatedly flattening himself before God, demonstrating that true greatness is measured by submission.",
         "memoryAnchor": "Eight blessings = eight prostrations. Greatest man in Israel, eight times on the floor.",
-        "openQuestion": "What message did the HP's repeated prostrations send to the assembled nation about the nature of leadership?"
+        "learnerQuestion": "How many times did the HP prostrate himself during the Yom Kippur Torah reading ceremony, and what was the theological message of repeated prostration?",
+        "coreTension": "The HP recited eight blessings. Was his prostration one act at the end, or did each blessing conclude with its own physical act of submission?",
+        "coreMove": "The HP prostrated eight times - once after each blessing. The repeated prostrations in public view, while wearing the magnificent vestments of the HP, created a powerful paradox: the greatest man in Israel repeatedly and publicly humbling himself before God.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Eight blessings, eight prostrations - each individual act of honor concludes with embodied submission. The HP's repeated public humility was itself the theological message of Yom Kippur."
+        },
+        "learningBlocker": "Students may assume one final prostration at the close of all blessings. The pattern is one prostration per blessing - each individual blessing is concluded with its own physical act of submission."
       },
       "argumentFlow": [
         {
@@ -476,13 +504,20 @@
       ],
       "display": {
         "whats": "Witnessing the HP's reading and prostration was a unique spiritual experience - those who saw it described it as incomparable. The service had both halachic precision and spiritual power.",
-        "hint": "What made witnessing the HP's Yom Kippur ceremony uniquely powerful for the observers?"
+        "hint": "What made witnessing the HP's Yom Kippur ceremony uniquely powerful for the observers?",
+        "title": "Nothing Compared to It: The Witness Reports on the HP's Prostration"
       },
       "learning": {
-        "summary": "The Gemara relates that those who witnessed the HP reading Torah and prostrating on Yom Kippur described it as an experience unlike any other. The combination of the HP's white vestments, the assembled nation, the prostrations, and the declarations created a moment of national spiritual intensity.",
         "ahaMoment": "Witnessing the HP prostrate while wearing the vestments of atonement, before the assembled nation on the holiest day of the year - this was the visible apex of Israel's relationship with God.",
         "memoryAnchor": "Those who saw it said: nothing compared to it.",
-        "openQuestion": "How can we recreate the emotional and spiritual impact of the Temple service through prayer and study today?"
+        "learnerQuestion": "What did those who witnessed the HP prostrating in his vestments on Yom Kippur report about the experience?",
+        "coreTension": "The Talmud preserves eyewitness reports that the experience was incomparable. What made the sight so overwhelming, and why is the experiential record worth preserving alongside legal data?",
+        "coreMove": "Witnesses reported that seeing the HP prostrate while wearing the magnificent vestments of the High Priesthood was unlike anything else - supreme human honor combined with utter submission to God. The mussaf offering sequence is also clarified: one lamb with the morning tamid, the remaining mussaf with the afternoon tamid.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The combination of supreme dignity and complete submission made the HP's prostration uniquely powerful. Those who witnessed it preserved the memory as incomparable - the experiential record is itself part of what Torah transmits."
+        },
+        "learningBlocker": "Students may focus on the halachic detail (mussaf timing). The Gemara also preserves the experiential witness as valuable in itself - the emotional and spiritual impact of the Temple service is part of the corpus, not just a sentimental footnote."
       },
       "argumentFlow": [
         {
@@ -643,13 +678,20 @@
       ],
       "display": {
         "whats": "Mishnah Ch. 8 introduces the five Yom Kippur afflictions. The Gemara discusses the correct service sequence: dispute between Rabbi Eliezer and Rabbi Akiva about when to perform the mussaf - before or after the day's service. Each position has scriptural support and practical concerns about the HP's strength.",
-        "hint": "Why would performing all the mussaf offerings before the day's service be a problem?"
+        "hint": "Why would performing all the mussaf offerings before the day's service be a problem?",
+        "title": "R. Akiva's Service Order: Protecting the HP for the Essential Atonement"
       },
       "learning": {
-        "summary": "Mishnah Ch. 8: five afflictions. The Gemara discusses the service order for the mussaf offerings. Rabbi Eliezer holds: all mussaf with the morning tamid (first vestment change). Rabbi Akiva holds: one mussaf lamb with the morning tamid, then the day's service, then the rest. Rabbi Akiva's concern: performing all mussafin first might exhaust the HP before the day's essential atonement service.",
         "ahaMoment": "Rabbi Akiva's position shows sophisticated awareness of human limitations: if the HP is exhausted by the mussaf before the day's service, the essential atonement work might be compromised. Pragmatic concern for the HP's strength is itself a halachic consideration.",
         "memoryAnchor": "R. Akiva: one mussaf lamb first, then day's service, then the rest. Don't tire the HP before the essential work.",
-        "openQuestion": "How does the Gemara balance the requirement to follow scripture's order against practical concerns about the HP's physical capacity?"
+        "learnerQuestion": "Why does Rabbi Akiva insist that only one mussaf lamb be performed before the day's essential Yom Kippur service, rearranging the apparent scriptural sequence?",
+        "coreTension": "Scripture's order seems to place the mussaf offerings before the essential atonement service. R. Akiva disrupts this. On what grounds can the sequence be rearranged, and why does he do so?",
+        "coreMove": "R. Akiva is concerned that performing all the mussaf offerings first would tire the HP before the essential atonement service - the day's primary purpose. He places one mussaf lamb first, then the essential service, then the remaining mussaf at the third immersion, and the afternoon tamid at the fifth.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Akiva's service sequence protects the HP's stamina for the essential atonement service. Halachic reasoning about the HP's capacity informs how services are arranged, prioritizing the essential over the incidental."
+        },
+        "learningBlocker": "Students may assume the scriptural order is inviolable. R. Akiva demonstrates that protecting the HP's capacity for the central service can legitimately inform how the full service is sequenced."
       },
       "argumentFlow": [
         {

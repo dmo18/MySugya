@@ -65,13 +65,20 @@
       ],
       "display": {
         "whats": "Urim VeTummim: answers, reliability, mechanism, and who may consult it",
-        "hint": "What happens when questions are asked out of order, and can the Urim VeTummim be wrong?"
+        "hint": "What happens when questions are asked out of order, and can the Urim VeTummim be wrong?",
+        "title": "The Urim VeTummim's Reliability: More Certain Than Prophecy"
       },
       "learning": {
-        "summary": "The Urim VeTummim answers questions in the correct order even when asked incorrectly. Its answers are infallible - unlike prophecy, they cannot be revoked. At Gibeah of Benjamin, the first two failures came from improper consultation. Urim/Tummim means illuminates/fulfills. The mechanism: letters protrude (Rabbi Yochanan) or join (Reish Lakish). Missing letter tzadi supplied by Patriarchal names. Only a spirit-filled HP can read the answer; the Shechinah assists.",
         "ahaMoment": "The Urim VeTummim has a higher reliability than prophecy itself - its answers cannot be reversed.",
         "memoryAnchor": "A prophet's decree can be overturned by repentance; the Urim's answer cannot. Divine law vs. divine speech.",
-        "openQuestion": "What does it mean that the Urim illuminates and the Tummim fulfills?"
+        "learnerQuestion": "How does the reliability of the Urim VeTummim compare to a prophet's decree, and why does the Urim's answer have greater certainty?",
+        "coreTension": "Both the Urim VeTummim and prophecy transmit divine communication. Are they equivalent in authority? Can both types of divine communication be overridden by changed circumstances?",
+        "coreMove": "The Urim VeTummim's answer is more reliable than a prophet's decree: a prophet's verdict can be reversed by repentance, but the Urim's answer cannot be revoked. The Urim also reorganizes questions asked out of order - it imposes its own structure, further demonstrating its higher reliability.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The Urim VeTummim's answer exceeds prophetic decree in certainty: prophecy is conditional on human response, but the Urim's answer is final and cannot be undone by subsequent events or repentance."
+        },
+        "learningBlocker": "Students may assume all forms of divine communication have equal authority. The Gemara establishes a hierarchy: the Urim VeTummim's finality exceeds even prophetic decree because it cannot be reversed."
       },
       "argumentFlow": [
         {
@@ -264,13 +271,20 @@
       ],
       "display": {
         "whats": "Only kings may consult the Urim VeTummim; Hadran closing Chapter 7",
-        "hint": "Does the Urim VeTummim answer by having letters protrude from the breastplate or by having them combine?"
+        "hint": "Does the Urim VeTummim answer by having letters protrude from the breastplate or by having them combine?",
+        "title": "Who May Consult the Urim VeTummim: Kings Only, with Inspired Interpretation"
       },
       "learning": {
-        "summary": "Rabbi Abbahu: only a king may consult the Urim VeTummim. The Hadran formula closes Chapter 7 of Tractate Yoma (Ba Lo Kohen Gadol).",
         "ahaMoment": "The Urim VeTummim is not self-interpreting - it needed a spirit-filled HP to read the protruding or combining letters.",
         "memoryAnchor": "Letters floating up from the breastplate - but only a prophet-like priest could read which ones and what they said.",
-        "openQuestion": "How does the HP know which combination of letters spells the correct answer?"
+        "learnerQuestion": "Who was permitted to consult the Urim VeTummim, and what was required to interpret the letters it illuminated?",
+        "coreTension": "The Urim VeTummim illuminates letters from the tribal names on the breastplate. But illuminated letters are not yet words. How was the answer read, and was the oracle truly self-interpreting?",
+        "coreMove": "Rabbi Abbahu rules only a king may consult the Urim VeTummim - it is reserved for national questions, not private use. Interpreting the illuminated letters required a spirit of holiness (ruach ha-kodesh) to assemble them into the correct message. The Patriarchs' names were inscribed on the stones to supply any missing letters.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Urim VeTummim was not personal or self-interpreting: only a king could consult it, and reading the answer required inspired interpretation. The oracle and its interpretation were two separate acts."
+        },
+        "learningBlocker": "Students may imagine the Urim VeTummim as a divine display that self-assembles readable words. The Gemara establishes that reading the illuminated letters required ruach ha-kodesh - the oracle needed a qualified interpreter."
       },
       "argumentFlow": [
         {
@@ -382,13 +396,20 @@
       ],
       "display": {
         "whats": "New Mishnah Ch.8: Yom Kippur prohibitions and the chatzi shi'ur dispute",
-        "hint": "Who has the right to ask the Urim VeTummim, and what is the topic of the new chapter?"
+        "hint": "Who has the right to ask the Urim VeTummim, and what is the topic of the new chapter?",
+        "title": "The Five Afflictions of Yom Kippur: What 'Afflict Yourselves' Specifically Requires"
       },
       "learning": {
-        "summary": "Mishnah Chapter 8: Yom Kippur forbids eating, drinking, bathing, anointing, sandals, and marital relations. The Gemara debates: the mishna uses 'forbidden' not 'karet' - suggesting it covers less than the minimum measure. Rabbi Yochanan vs Reish Lakish: is eating a half-measure (chatzi shi'ur) on Yom Kippur a Torah prohibition or only rabbinic?",
         "ahaMoment": "The Urim VeTummim was not a personal oracle - it was reserved for national decisions by the king.",
         "memoryAnchor": "The Urim belongs to the king, not the individual - it answers questions that affect the whole people.",
-        "openQuestion": "Why are bathing and anointing included among the five afflictions, not just eating and drinking?"
+        "learnerQuestion": "What does the Torah phrase 'afflict yourselves' (ta'anu et nafshoteichem) specifically require, and why are the five identified afflictions the complete list?",
+        "coreTension": "The Torah commands affliction without specifying what kind. Eating is obvious. But why are bathing, anointing, sandals, and marital relations included as 'afflictions' - and why these five specifically?",
+        "coreMove": "The Mishnah derives five specific Yom Kippur afflictions: eating/drinking, bathing, anointing, sandals, and marital relations. 'Ta'anu' means these specific active deprivations - not temperature exposure or other suffering. Each targets a different dimension of bodily comfort, making the full body a participant in the day.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "'Afflict yourselves' on Yom Kippur means specifically these five active deprivations - not general discomfort. The Torah's language is precise, and the Sages derive the exact scope from the text."
+        },
+        "learningBlocker": "Students may assume any significant suffering fulfills the obligation. The Gemara limits 'ta'anu' to the specific five active deprivations - other forms of discomfort do not substitute for the required afflictions."
       },
       "argumentFlow": [
         {

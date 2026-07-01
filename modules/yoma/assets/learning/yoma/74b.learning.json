@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "What does 'afflict yourselves' on Yom Kippur mean, and what foods violate it?",
-        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?"
+        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?",
+        "title": "Active Deprivation: Why Temperature Exposure Does Not Count as Affliction"
       },
       "learning": {
-        "summary": "The Sages derive 'ta'anu et nafshoteichem' means food deprivation, not temperature exposure. A midrashic ladder of inclusions: karet foods, death-penalty foods, lav foods, and even normally permitted foods all fall under the Yom Kippur affliction framework. The verse 'I will destroy that soul' broadens the prohibition. Verbal analogy from metzora confirms that affliction means food deprivation.",
         "ahaMoment": "Yom Kippur affliction is about the act of eating itself - not just about forbidden foods.",
         "memoryAnchor": "Climbing the severity ladder: karet, death, lav, no prohibition - Yom Kippur covers them all.",
-        "openQuestion": "What distinguishes food-denial as affliction versus other forms of physical hardship?"
+        "learnerQuestion": "Does the Yom Kippur affliction obligation apply to suffering from extreme temperature, or is it limited to active food and drink deprivation?",
+        "coreTension": "Exposure to extreme heat or cold produces genuine suffering. If 'ta'anu' (afflict yourselves) means affliction, why doesn't passive temperature suffering fulfill it alongside fasting?",
+        "coreMove": "The Sages derive that 'ta'anu' specifically means active food and drink deprivation - not passive exposure to physical discomfort. The affliction obligation requires a deliberate withholding of pleasure, not merely experiencing hardship. Temperature exposure fails this criterion.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Yom Kippur affliction requires active deprivation - deliberately withholding pleasure (food, drink, etc.) - not passive exposure to discomfort. The obligation is fulfilled through specific chosen abstentions, not through any form of suffering."
+        },
+        "learningBlocker": "Students may assume any significant physical suffering fulfills the Yom Kippur obligation. The Gemara limits it to the five specific active deprivations - temperature exposure, however severe, does not substitute."
       },
       "argumentFlow": [
         {
@@ -156,13 +163,20 @@
       ],
       "display": {
         "whats": "What does 'afflict yourselves' mean, and what foods violate it? Gezerah shavah and manna connection",
-        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?"
+        "hint": "What does 'afflict yourselves' on Yom Kippur actually mean?",
+        "title": "The Severity Ladder: Karet, Death, Prohibition, and the Half-Measure"
       },
       "learning": {
-        "summary": "The Sages derive 'ta'anu' means food deprivation, not temperature exposure. A midrashic ladder of inclusions: karet, death, lav, and even permitted foods all fall under the Yom Kippur framework. The verse 'I will destroy' broadens it further. Verbal analogy from metzora confirms it. Discussion of why not derive from 'afflicting daughters' or Egypt affliction. The manna verse teaches: denying food = affliction.",
         "ahaMoment": "Yom Kippur affliction is about the act of eating itself - not just about forbidden foods.",
         "memoryAnchor": "Climbing the severity ladder: karet, death, lav, no prohibition - Yom Kippur covers them all.",
-        "openQuestion": "What distinguishes food-denial as affliction versus other forms of physical hardship?"
+        "learnerQuestion": "How does the Gemara arrange the different levels of Yom Kippur eating violation into a hierarchy, and what does each level cover?",
+        "coreTension": "Yom Kippur eating violations carry different consequences. How are these calibrated, and what does structuring them into a ladder reveal about how the Torah approaches this prohibition?",
+        "coreMove": "The Gemara climbs from most to least severe: karet (willful full-measure eating), death by heaven (other categories), lav (negative commandment), and the explicit prohibition of the half-measure. Each level receives its own derivation. Even the lowest level is independently derived - not merely inferred from the higher.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Yom Kippur eating prohibition has a tiered severity hierarchy, with each level independently derived. The half-measure prohibition is its own teaching - not a weakened version of karet but its own halachic category."
+        },
+        "learningBlocker": "Students may assume that the highest penalty (karet) defines the full scope and lower amounts follow by inference. The Gemara shows each level requires its own derivation - the Torah explicitly addresses every rung of the ladder."
       },
       "argumentFlow": [
         {
@@ -396,13 +410,20 @@
       ],
       "display": {
         "whats": "Manna, hunger, and blindness",
-        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?"
+        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?",
+        "title": "Eyes and Eating: Why Blind People Are Not Fully Satisfied by Food"
       },
       "learning": {
-        "summary": "Rav Yosef: from the manna verse, there is an allusion that blind people eat without satisfaction - their eyes cannot guide them to the food. The verse about 'setting your eyes on wine' is then disputed.",
         "ahaMoment": "The manna was food that came without natural hunger satisfaction - a teaching about the relationship between eyes and satisfaction.",
         "memoryAnchor": "Blind people eat but can't be satisfied - eyes needed for full nourishment.",
-        "openQuestion": "What is the connection between setting eyes on wine and losing moral clarity?"
+        "learnerQuestion": "What does Rav Yosef derive from the manna verse about the role of visual perception in food satisfaction?",
+        "coreTension": "Physiological satiation from food seems to depend on eating, not on seeing. Why would the manna verse suggest that vision is a separate component of being satisfied by food?",
+        "coreMove": "Rav Yosef derives from the manna verse that blind people eat without being fully satisfied - because their eyes do not see the food. The verse alludes that visual engagement with food is its own component of satiation: one who cannot see what they eat lacks something that contributes to feeling full and satisfied.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Visual perception contributes independently to food satisfaction - not just physical ingestion. Blind people eat without full satisfaction because the visual component of satiation is absent."
+        },
+        "learningBlocker": "Students may assume satisfaction from food is purely physiological (taste, stomach fullness). Rav Yosef establishes that vision is an independent component - the eyes 'participate' in eating, and their absence leaves the experience incomplete."
       },
       "argumentFlow": [
         {
@@ -495,13 +516,20 @@
       ],
       "display": {
         "whats": "Manna, hunger, and blindness",
-        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?"
+        "hint": "What do the verses about manna and hunger teach about eating and satisfaction?",
+        "title": "Setting Eyes on Wine: When Visual Engagement Becomes Danger"
       },
       "learning": {
-        "summary": "Rav Yosef: from the manna verse, there is an allusion that blind people eat without satisfaction - their eyes cannot guide them to the food. The verse about 'setting your eyes on wine' is then disputed.",
         "ahaMoment": "The manna was food that came without natural hunger satisfaction - a teaching about the relationship between eyes and satisfaction.",
         "memoryAnchor": "Blind people eat but can't be satisfied - eyes needed for full nourishment.",
-        "openQuestion": "What is the connection between setting eyes on wine and losing moral clarity?"
+        "learnerQuestion": "How does the principle that visual engagement contributes to food satisfaction connect to the danger of 'setting eyes on wine'?",
+        "coreTension": "Eyes contribute positively to food satisfaction. But the same visual engagement that enables full satisfaction from permitted food seems to create vulnerability with wine. Is this the same mechanism, or a different one?",
+        "coreMove": "The same principle that makes visual engagement part of food satisfaction makes it dangerous with wine. 'Setting eyes on wine' (Prov. 23:31) draws one toward it and loosens moral restraint: the eyes lead a person before the mouth acts. What enables legitimate satisfaction can also enable dangerous attraction to forbidden pleasure.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The visual principle is dual-edged: the eyes that enable full satisfaction from permitted food also create the danger of wine fixation. Visual engagement is powerful in both directions - enabling legitimate pleasure and enabling harmful attraction."
+        },
+        "learningBlocker": "Students may see the wine warning as a separate topic from the manna discussion. The Gemara connects them directly: both depend on the insight that eyes play a primary role in the relationship between a person and what they consume."
       },
       "argumentFlow": [
         {

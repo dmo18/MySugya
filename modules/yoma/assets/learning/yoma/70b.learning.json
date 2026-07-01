@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "The Mishnah's service sequence for the HP after the Torah reading: he went to the bull and goat, performed the day's service with the five immersions and ten sanctifications. The Gemara analyzes the order in detail.",
-        "hint": "Why did the HP need five immersions during the Yom Kippur service?"
+        "hint": "Why did the HP need five immersions during the Yom Kippur service?",
+        "title": "Five Immersions, Ten Sanctifications: The HP's Ritual Architecture"
       },
       "learning": {
-        "summary": "The Gemara continues analyzing the service sequence. After the Torah reading, the HP performed additional services: rams and sin-offering fats at the third immersion, afternoon tamid at the fifth. The Gemara justifies the sequence by showing it follows both Torat Kohanim (for the day's service) and the Numbers section (for mussaf), with the HP changing vestments five times and immersing after each change.",
         "ahaMoment": "Five immersions and ten sanctifications correspond to five vestment changes: the HP alternated between white linen (inner service) and gold (outer service) five times during the day. Each change required immersion and sanctification of hands and feet.",
         "memoryAnchor": "Five immersions, ten sanctifications - the HP changed clothes (and immersed) five times throughout Yom Kippur.",
-        "openQuestion": "Why does each vestment change require both immersion and sanctification of hands and feet?"
+        "learnerQuestion": "How many times did the HP immerse and sanctify his hands and feet on Yom Kippur, and what triggered each round of purification?",
+        "coreTension": "The HP changed vestments multiple times. Each change required ritual preparation. Is this repeated purification purely formalistic, or does each immersion serve a distinct purpose?",
+        "coreMove": "The HP immersed five times and sanctified his hands and feet ten times (twice per change - before and after each vestment transition). Five vestment changes between white linen vestments (for inner service) and golden vestments (for outer service) each required their own purification cycle.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Five vestment changes, five immersions, ten sanctifications - the repeated ritual preparations mark each transition as a new beginning, ensuring the HP enters each service mode with full purity."
+        },
+        "learningBlocker": "Students may assume the HP immersed once at the start of the day. The repeated immersions are triggered by the vestment changes, not by time - each transition between white and golden vestments requires its own purification."
       },
       "argumentFlow": [
         {
@@ -204,13 +211,20 @@
       ],
       "display": {
         "whats": "The Gemara discusses the kiyor (laver): when the HP sanctified his hands and feet from the kiyor, he sat rather than stood. Discussion of the kiyor's use in the five sanctification sequences.",
-        "hint": "Why is the HP permitted to sit for sanctification from the kiyor when normally all Temple service must be done standing?"
+        "hint": "Why is the HP permitted to sit for sanctification from the kiyor when normally all Temple service must be done standing?",
+        "title": "The Kiyor and the Golden Stool: Sanctification's Special Setting"
       },
       "learning": {
-        "summary": "The Gemara addresses the kiyor (Temple laver) used for sanctification of hands and feet. When the HP sanctified from the kiyor on Yom Kippur, he sat on a golden stool next to it - because the kiyor was designed to be used while standing but the HP's status granted him special accommodation. The Gemara debates whether this sitting constitutes a violation of the 'standing to serve' principle.",
         "ahaMoment": "The HP's sitting by the kiyor is not about comfort but about practical necessity: the kiyor was positioned at a height requiring a specific posture. The permission is carefully circumscribed.",
         "memoryAnchor": "HP sat on golden stool by the kiyor - sanctification on Yom Kippur had its own special rules.",
-        "openQuestion": "Why was a golden stool provided for the HP at the kiyor rather than adjusting the kiyor's height?"
+        "learnerQuestion": "Why was a golden stool provided for the HP at the kiyor during Yom Kippur sanctification, and what does this setting signal?",
+        "coreTension": "The kiyor is a functional ritual vessel. Why is special furniture needed alongside it? Is the golden stool purely about comfort or does it carry ceremonial significance?",
+        "coreMove": "A golden stool was provided at the kiyor to support the HP during sanctification. This is not merely about comfort - the dignified setting honors the sanctification act itself. The HP alternated five times between white linen (Holy of Holies) and golden (outer service) vestments, each requiring immersion and sanctification.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The golden stool at the kiyor dignifies even the preparation acts - sanctification is performed with kavod appropriate to the occasion, not merely as a functional prerequisite to service."
+        },
+        "learningBlocker": "Students may see the kiyor as merely functional. The golden stool signals that even preparatory acts carry their own ceremonial weight and are performed with honor befitting the occasion."
       },
       "argumentFlow": [
         {
@@ -385,13 +399,20 @@
       ],
       "display": {
         "whats": "The HP used the kiyor for sanctification between each service segment. The Gemara notes the kiyor's role as the sanctification vessel throughout the day.",
-        "hint": "What is the significance of the kiyor being specifically the vessel for the HP's ten sanctifications?"
+        "hint": "What is the significance of the kiyor being specifically the vessel for the HP's ten sanctifications?",
+        "title": "The Kiyor as Crossing Point: Each Sanctification Marks a Transition"
       },
       "learning": {
-        "summary": "The final sugya of 70b completes the discussion of the kiyor's use throughout the day. The kiyor served as the single vessel for all ten sanctifications - hands and feet twice at each vestment change. This emphasizes the kiyor as the boundary marker between service segments.",
         "ahaMoment": "The kiyor is literally the 'crossing point' between service segments - each sanctification is both a conclusion of one service and a preparation for the next.",
         "memoryAnchor": "Kiyor = the transition point of Yom Kippur. Each sanctification closes one chapter and opens the next.",
-        "openQuestion": "Why is sanctification of hands AND feet required at each transition, rather than just hands?"
+        "learnerQuestion": "Why does the HP sanctify his hands and feet ten times - twice for each of five vestment changes - and what does the kiyor represent as this transition point?",
+        "coreTension": "Five vestment changes would seem to require five sanctifications. Why does the count reach ten? And why is the kiyor specifically required rather than any vessel of water?",
+        "coreMove": "Each vestment change requires sanctification both before entering and before exiting each service mode - hence ten times from five changes. Only the kiyor (Temple laver) is valid for this sanctification. The kiyor is the literal pivot point of the Yom Kippur service: every transition passes through it.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Ten sanctifications (twice per vestment change) because each transition requires separate preparation for entering and exiting. The kiyor alone is valid - making it the service's mandatory crossing point."
+        },
+        "learningBlocker": "Students may assume sanctification is required once per vestment set. The Gemara establishes it is required at each entry and each exit - ten times total, and only the kiyor qualifies."
       },
       "argumentFlow": [
         {

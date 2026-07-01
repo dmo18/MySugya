@@ -30,13 +30,20 @@
       ],
       "display": {
         "whats": "Priestly vestments atone like sacrifices; loom-woven whole",
-        "hint": "How did the vestments atone, and how were they physically made?"
+        "hint": "How did the vestments atone, and how were they physically made?",
+        "title": "Vestments Woven Without Seams: Perfection Built Into the Process"
       },
       "learning": {
-        "summary": "The Gemara teaches that without priestly vestments (which brought atonement), Israel's enemies would not have survived the desert. Rabbi Shmuel bar Nachmani adds that vestments were woven as complete garments off the loom - not cut and sewn with a needle - making them seamless tubes.",
         "ahaMoment": "Vestments were not sewn - they came off the loom as complete garments, like a sock knitted in the round.",
         "memoryAnchor": "Imagine knitting a sweater on circular needles - no seams, finished when removed from the loom.",
-        "openQuestion": "Which specific vestment atones for which sin?"
+        "learnerQuestion": "How were the priestly vestments physically constructed, and why does their seamless construction matter?",
+        "coreTension": "The vestments had to be flawless for Temple service. Any physical defect could potentially invalidate them. Was their construction designed to prevent flaws, or did flawlessness need to be verified after the fact?",
+        "coreMove": "According to R. Shmuel bar Nachmani, the priestly vestments were woven as complete seamless tubes on a loom - never cut and sewn. This seamless construction made them flawless by design: no seams means no weak points, no unraveling, no improper joins. Without valid vestments, the kohanim lack their atoning function.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Priestly vestments were woven seamlessly as complete garments - flawlessness was built into the construction method, not inspected afterward. Seamless weaving ensured integrity from the loom outward."
+        },
+        "learningBlocker": "Students may assume seamless = luxury or extra quality. The seamless technique was the method that ensured structural validity: cut-and-sewn garments would have potential failure points; seamless weaving eliminates them by design."
       },
       "argumentFlow": [
         {
@@ -150,13 +157,20 @@
       ],
       "display": {
         "whats": "Three crowns of the Temple, Torah as inner/outer integrity, scholars' warnings",
-        "hint": "What do the three crowns of the Temple teach about who rules Israel?"
+        "hint": "What do the three crowns of the Temple teach about who rules Israel?",
+        "title": "Three Crowns: Only the Torah Crown Is Open to All"
       },
       "learning": {
-        "summary": "Rabbi Yochanan: three Temple crowns - altar (priesthood), ark (Torah), table (kingship). The Torah crown is available to anyone who earns it. Extended aggadah: a Torah scholar must be the same inside and outside. Rava's plea to students: do not inherit Gehenna twice by shaming scholars. Torah must be taught freely (given through wilderness). Fear of God makes Torah endure.",
         "ahaMoment": "The crown of Torah is the only one that has no dynasty - any person can earn it. The word zar (stranger) becomes zeir (crown) depending on how you use Torah.",
         "memoryAnchor": "Zar vs zeir - one letter difference between 'stranger' and 'crown' mirrors the difference between misusing Torah and elevating it.",
-        "openQuestion": "What does it mean for a Torah scholar to 'wear' the crown of Torah versus become a stranger to it?"
+        "learnerQuestion": "What are the three Temple crowns, and why is the Torah crown uniquely available to anyone, unlike the other two?",
+        "coreTension": "Three crowns are associated with the Mishkan's furnishings: the altar (priesthood), the ark (Torah), and the table (kingship). What does the structure of each crown teach about who can access that form of honor?",
+        "coreMove": "Rabbi Yochanan derives three categories of honor: priesthood (hereditary), kingship (dynastic), and Torah (open). The Torah's crown is the only one with no dynastic succession - anyone can acquire it through learning. The ark's 'zeir' (crown) is one letter away from 'zar' (stranger), encoding the teaching that even a stranger can earn the Torah crown.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Priesthood passes by birth; kingship passes by dynasty; the Torah crown has no succession - it is available to anyone. The one-letter shift from 'zeir' to 'zar' encodes this radical openness."
+        },
+        "learningBlocker": "Students may treat the 'crown of Torah' as metaphorical. The Gemara treats it as a real category of honor - structurally distinct from the other crowns precisely because it requires no lineage qualification."
       },
       "argumentFlow": [
         {
@@ -323,13 +337,20 @@
       ],
       "display": {
         "whats": "Three crowns of the Temple, Torah as inner/outer integrity, scholars' warnings",
-        "hint": "What do the three crowns of the Temple teach about who rules Israel?"
+        "hint": "What do the three crowns of the Temple teach about who rules Israel?",
+        "title": "The Gate Without a Courtyard: When Torah Stays on the Outside"
       },
       "learning": {
-        "summary": "Rabbi Yochanan: three Temple crowns - altar (priesthood), ark (Torah), table (kingship). The Torah crown is available to anyone who earns it. Extended aggadah: a Torah scholar must be the same inside and outside. Rava's plea to students: do not inherit Gehenna twice by shaming scholars. Torah must be taught freely (given through wilderness). Fear of God makes Torah endure.",
         "ahaMoment": "The crown of Torah is the only one that has no dynasty - any person can earn it. The word zar (stranger) becomes zeir (crown) depending on how you use Torah.",
         "memoryAnchor": "Zar vs zeir - one letter difference between 'stranger' and 'crown' mirrors the difference between misusing Torah and elevating it.",
-        "openQuestion": "What does it mean for a Torah scholar to 'wear' the crown of Torah versus become a stranger to it?"
+        "learnerQuestion": "What does the Gemara mean by 'a gate without a courtyard,' and what does this teach about how Torah must be studied?",
+        "coreTension": "Building a gate requires effort and skill. Why is externally-acquired Torah knowledge described as a gate without a courtyard - implying useless construction - rather than simply incomplete learning?",
+        "coreMove": "A gate without a courtyard is functionally useless - it guards nothing. Similarly, acquiring the outer form of Torah (texts, arguments, structures) without internalizing its values and meaning is effort that achieves nothing. The Torah crown requires substance; mere external mastery is form without content.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "External Torah learning without internalization is a gate without a courtyard: constructed effort that serves no purpose. The Torah crown requires substance, not form alone."
+        },
+        "learningBlocker": "Students may interpret 'gate without a courtyard' as merely shallow learning. The image is stronger: the gate is not just incomplete but purposeless - it guards nothing. External Torah mastery without internalization misses the entire point."
       },
       "argumentFlow": [
         {
@@ -567,13 +588,20 @@
       ],
       "display": {
         "whats": "Weaving techniques and Urim VeTummim: when may it be consulted?",
-        "hint": "What is the difference between embroiderer and weaver, and when can one consult the Urim VeTummim?"
+        "hint": "What is the difference between embroiderer and weaver, and when can one consult the Urim VeTummim?",
+        "title": "Consulting the Urim VeTummim: Active Service as the Prerequisite"
       },
       "learning": {
-        "summary": "The Gemara distinguishes rokem (embroiderer, needle-work) from choshev (weaver, loom-work): the loom produces patterns visible on both sides, while needle-work shows the pattern only on one side. Then the mishnah's law: when dressed in the eight vestments, the High Priest may be consulted via Urim VeTummim. Rav Dimi clarifies: only when the HP is actively serving.",
         "ahaMoment": "The Urim VeTummim could only be consulted when the High Priest was actually dressed and serving - not merely wearing the vestments for other purposes.",
         "memoryAnchor": "Urim VeTummim: the ultimate decision tool, but it requires the HP in full service mode - not ceremonial dress.",
-        "openQuestion": "Why does the HP need to be actively serving, not just wearing vestments, for the Urim VeTummim to work?"
+        "learnerQuestion": "Under what conditions may the Urim VeTummim be consulted, and what does the requirement for active service signify?",
+        "coreTension": "The Urim VeTummim answers national questions. Can it be consulted whenever the HP is available, or are specific service conditions required? And what is the distinction between the two weaving techniques for vestments?",
+        "coreMove": "The Urim VeTummim can only be consulted when the HP is dressed in all eight vestments and actively performing Temple service. The Gemara also distinguishes rokem (needle-work embroidery from one side) from choshev (weaving that creates pattern on both faces) - the vestments required the more complex choshev technique.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Urim VeTummim requires active Temple service as its precondition. It is not available for private consultation but only within the full service setting - linking divine inquiry to its proper institutional context."
+        },
+        "learningBlocker": "Students may assume the HP could consult the Urim VeTummim privately at any time. The requirement for active service in eight vestments restricts the oracle to its proper institutional setting."
       },
       "argumentFlow": [
         {

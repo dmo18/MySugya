@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Oath on Yom Kippur eating: Rabbi Akiva's view and the gambler exclusion",
-        "hint": "Can an oath create a new eating prohibition even when Torah permits a half-measure?"
+        "hint": "Can an oath create a new eating prohibition even when Torah permits a half-measure?",
+        "title": "R. Akiva and the Half-Measure Oath Problem"
       },
       "learning": {
-        "summary": "The Gemara resolves the oath question through Rabbi Akiva's view: he holds that any amount can be self-forbidden through an oath, even what Torah permits. A tangential point: Rav Acha bar Yaakov notes that the mishna about oaths excludes a gambler from testimony. The Gemara explains: the gambler's exclusion comes from 'if he does not tell' - a gambler is not a reliable declarant.",
         "ahaMoment": "Rabbi Akiva's position allows oaths to apply even to half-measures, solving the oath-conflict problem Reish Lakish faced.",
         "memoryAnchor": "A gambler's exclusion from testimony appears here as a legal footnote - the verse requires someone who can make declarations.",
-        "openQuestion": "What makes the gambler's exclusion specifically from oaths rather than all testimony?"
+        "learnerQuestion": "How does R. Akiva's position on oaths resolve the question of whether an oath can validly apply to a half-measure of Yom Kippur food?",
+        "coreTension": "A half-measure of Yom Kippur food is not punishable by karet. Can an oath even apply to eating such an amount? And what does the gambler's exclusion from testimony have to do with this discussion?",
+        "coreMove": "R. Akiva holds that oaths can restrict even Torah-permitted amounts. This means an oath not to eat any Yom Kippur food is valid even for sub-karet amounts like the half-measure. The gambler's exclusion from testimony appears as a legal data point in the surrounding analysis about oaths and their scope.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "R. Akiva's broad view of oaths extends them to Torah-permitted amounts, making the half-measure oath valid. Without this position, an oath not to eat any Yom Kippur food would have no operative effect for the sub-karet amount."
+        },
+        "learningBlocker": "Students may assume oaths can only apply to halachically significant amounts (those carrying penalties). R. Akiva extends oaths to amounts below the karet threshold, giving oaths broader reach than the underlying prohibition."
       },
       "argumentFlow": [
         {
@@ -162,13 +169,20 @@
       ],
       "display": {
         "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
-        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?"
+        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
+        "title": "Chatzi Shi'ur: Biblical or Rabbinic? The Core Dispute"
       },
       "learning": {
-        "summary": "The chatzi shi'ur dispute is presented formally: Rabbi Yochanan (Torah prohibition - the forbidden substance is present in any amount) vs Reish Lakish (rabbinic prohibition - the full measure is required for Torah liability). Rabbi Yochanan cites a baraita; the Gemara notes the koy case suggests the baraita may reflect rabbinic language.",
         "ahaMoment": "The Gemara is tracking two different questions: (1) what does the mishna's 'forbidden' add over karet? and (2) is a half-measure Torah or rabbinic?",
         "memoryAnchor": "Same word 'forbidden' - used for the half-measure question and for additional items. The Gemara carefully separates these two threads.",
-        "openQuestion": "If chatzi shi'ur is only rabbinic, what happens when someone inadvertently eats half-measures on Yom Kippur?"
+        "learnerQuestion": "Is eating a half-measure (chatzi shi'ur) of Yom Kippur food prohibited by Torah law or only rabbinically, and what is the basis for each position?",
+        "coreTension": "Karet applies only to a full measure. What is the status of a half-measure - is there a Torah-level prohibition, or only rabbinic protection? And does the Mishnah's word 'forbidden' resolve this?",
+        "coreMove": "R. Yochanan holds chatzi shi'ur is a Torah prohibition because the Torah forbids 'any' eating. Reish Lakish holds it is only rabbinic since there is no karet for it. The Mishnah's word 'forbidden' adds content beyond the karet verse - covering the half-measure - but does not resolve the level (biblical vs. rabbinic) of the prohibition.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The chatzi shi'ur dispute is foundational: R. Yochanan makes the half-measure biblically prohibited; Reish Lakish makes it rabbinic. The Mishnah's 'forbidden' establishes scope (half-measures are included) but leaves the level to be argued by the amoraim."
+        },
+        "learningBlocker": "Students may conflate the scope question (does 'forbidden' cover half-measures?) with the level question (is the prohibition biblical or rabbinic?). These are two separate questions, and the Mishnah only answers the first."
       },
       "argumentFlow": [
         {
@@ -253,13 +267,20 @@
       ],
       "display": {
         "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
-        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?"
+        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
+        "title": "Beyond Karet: What 'Forbidden' Adds to the Yom Kippur Eating Prohibition"
       },
       "learning": {
-        "summary": "The chatzi shi'ur dispute is presented formally: Rabbi Yochanan (Torah prohibition - the forbidden substance is present in any amount) vs Reish Lakish (rabbinic prohibition - the full measure is required for Torah liability). Rabbi Yochanan cites a baraita; the Gemara notes the koy case suggests the baraita may reflect rabbinic language.",
         "ahaMoment": "The Gemara is tracking two different questions: (1) what does the mishna's 'forbidden' add over karet? and (2) is a half-measure Torah or rabbinic?",
         "memoryAnchor": "Same word 'forbidden' - used for the half-measure question and for additional items. The Gemara carefully separates these two threads.",
-        "openQuestion": "If chatzi shi'ur is only rabbinic, what happens when someone inadvertently eats half-measures on Yom Kippur?"
+        "learnerQuestion": "What additional content does the Mishnah's word 'forbidden' contribute to the Yom Kippur eating prohibition, beyond the already-stated karet penalty?",
+        "coreTension": "The Torah imposes karet for eating on Yom Kippur. The Mishnah also uses the word 'forbidden.' If karet is already known, what independent content does 'forbidden' add?",
+        "coreMove": "The Mishnah's 'forbidden' extends the prohibition to amounts below the karet threshold - teaching that even a chatzi shi'ur (half-measure) is forbidden even though it carries no karet. The word creates a distinct prohibition layer: full-measure eating triggers karet; sub-karet amounts are separately 'forbidden.'",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Mishnah's 'forbidden' adds an independent prohibition layer below karet. This creates a two-tier structure: karet for full-measure willful eating, a separate prohibition status for the half-measure."
+        },
+        "learningBlocker": "Students may read 'forbidden' as simply restating the karet prohibition in milder terms. The Gemara shows it carries independent legal content - covering amounts that the karet verse alone would not reach."
       },
       "argumentFlow": [
         {

@@ -90,13 +90,20 @@
       ],
       "display": {
         "whats": "Anointed-for-war priest vestments, HP vs ordinary kohen, and animosity rules",
-        "hint": "The anointed-for-war priest is neither a full HP nor an ordinary kohen - so how many vestments does he wear?"
+        "hint": "The anointed-for-war priest is neither a full HP nor an ordinary kohen - so how many vestments does he wear?",
+        "title": "The Anointed-for-War Priest: A Category Between Categories"
       },
       "learning": {
-        "summary": "The Gemara debates the vestments of the anointed-for-war priest (neither four nor eight). A comprehensive baraita lists the differences between the High Priest and ordinary kohen: HP brings a bull for individual sin, does not tear garments from above in mourning, sacrifices even as an onen, takes the first showbread portion. These rules apply also to the merubeh begadim priest and former HP. The animosity concern applies among subordinates, not among equals. An account of Rabbi Abbahu's transmission of this halakha.",
         "ahaMoment": "A special category of priest requiring a custom ruling - neither fully up nor fully down.",
         "memoryAnchor": "The anointed-for-war priest is stuck between categories, requiring the rabbis to carve out a new rule.",
-        "openQuestion": "Is the anointed-for-war priest's status permanent or only during wartime?"
+        "learnerQuestion": "What vestments does the anointed-for-war priest wear, and why does his status create a halachic problem that existing categories cannot resolve?",
+        "coreTension": "The anointed-for-war priest has been anointed but is not the HP. He cannot wear the four vestments of ordinary kohanim (that would demote him) nor the eight of the HP (he is not the HP). Where does he fit?",
+        "coreMove": "The Gemara debates the anointed-for-war priest's vestments because he occupies an intermediate category that existing rules do not neatly address. Neither the four-vestment rule nor the eight-vestment rule applies without qualification - his unique status requires independent halachic analysis.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The anointed-for-war priest is his own distinct halachic category - not ordinary kohen, not HP. Categories that seem exhaustive can contain gaps that require dedicated analysis rather than forced application of existing rules."
+        },
+        "learningBlocker": "Students may try to resolve the question by analogy - treating him like either an ordinary kohen or the HP. The Gemara establishes he is genuinely in between, and the resolution requires independent derivation."
       },
       "argumentFlow": [
         {
@@ -368,13 +375,20 @@
       ],
       "display": {
         "whats": "How to consult the Urim VeTummim: procedure and voice level",
-        "hint": "What is the exact procedure for consulting the Urim VeTummim?"
+        "hint": "What is the exact procedure for consulting the Urim VeTummim?",
+        "title": "The Protocol for Consulting the Urim VeTummim"
       },
       "learning": {
-        "summary": "The Sages taught: the questioner faces the HP. He states his question clearly but not aloud (not loud enough to be heard by others). The HP does not merely think the answer; the response is received at an intermediate level - between thought and speech. One may not ask two questions simultaneously.",
         "ahaMoment": "Asking the Urim VeTummim is not a public announcement and not a private thought - it occupies a unique middle space.",
         "memoryAnchor": "Quiet but spoken - neither shouted nor silent. An unusual halakhic category for divine communication.",
-        "openQuestion": "What happens if someone asks two questions of the Urim VeTummim at once?"
+        "learnerQuestion": "How did one consult the Urim VeTummim, and at what volume was the question asked?",
+        "coreTension": "The Urim VeTummim answers questions of national importance. Was the question spoken aloud (a public announcement), thought silently (a private mental act), or something else?",
+        "coreMove": "The Sages taught: the questioner faces the HP and states the question - neither aloud (heard by others) nor purely mental, but at a specific intermediate vocal level. This unique mode - spoken but not publicly audible - reflects the private, authoritative nature of the consultation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Consulting the Urim VeTummim requires a specific intermediate mode of speech - not public announcement, not private thought. This intermediate level is its own halachic category protecting the oracle's confidentiality while making it a genuine verbal act."
+        },
+        "learningBlocker": "Students may imagine the consultation as either public announcement or silent prayer. The specific intermediate mode - spoken but not publicly heard - is a distinct requirement with its own rationale."
       },
       "argumentFlow": [
         {

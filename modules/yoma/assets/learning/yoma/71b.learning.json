@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "An aggadic passage: Torah scholars are likened to a tree revived by the scent of water (Job 14:9). The image captures how Torah study constantly renews and revives those who engage with it.",
-        "hint": "How does the tree-and-water metaphor capture something specific about the relationship between scholars and Torah?"
+        "hint": "How does the tree-and-water metaphor capture something specific about the relationship between scholars and Torah?",
+        "title": "Trees and Scholars: Responding to Even the Scent of Torah"
       },
       "learning": {
-        "summary": "The Gemara uses the phrase from Job 14:9 'from the scent of water it will blossom' to describe Torah scholars - they are revived and renewed through Torah study just as a dying tree comes back to life when it senses water even before it is watered. The image implies that Torah scholars have an essential vitality that responds to the presence of learning.",
         "ahaMoment": "The scholar is not merely one who studies but one who is constitutionally alive to Torah - responding to its mere 'scent' before even engaging directly. This describes an intrinsic relationship between the scholar and learning.",
         "memoryAnchor": "Torah scholars = trees revived by the scent of water. They bloom before the water even arrives.",
-        "openQuestion": "What is the difference between studying Torah as an obligation and having the sensitivity of the 'tree' that responds to Torah's mere scent?"
+        "learnerQuestion": "What does the comparison of Torah scholars to trees revived by the 'scent of water' (Job 14:9) teach about the nature of true Torah scholarship?",
+        "coreTension": "The metaphor says scholars respond to the scent of water - not the water itself. Does this mean scholars only need minimal Torah exposure, or does it describe something deeper about their relationship with learning?",
+        "coreMove": "Torah scholars are like trees that blossom even from the scent of water - not waiting for the water itself. This describes the scholar's continuous sensitivity and responsiveness to Torah: they are perpetually alive to learning, revived by even a hint rather than requiring full immersion. Internalization, not quantity, is the mark.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The scent response describes the scholar's depth of connection - so attuned that even a hint of Torah revives them. This is a description of internalization, not minimal exposure."
+        },
+        "learningBlocker": "Students may read 'scent of water' as suggesting partial commitment. The opposite is true: scent response demonstrates deeper engagement than requiring the full water - it marks the scholar who has truly internalized Torah."
       },
       "argumentFlow": [
         {
@@ -115,13 +122,20 @@
       ],
       "display": {
         "whats": "The people followed Shemaiah and Avtalyon (not the HP) as they left the Temple. The HP's jealous remark about their pagan ancestry triggered their famous response. The incident concludes with a teaching about ona'at devarim.",
-        "hint": "What does the crowd's behavior - following Shemaiah and Avtalyon rather than the HP - reveal about the nature of religious authority?"
+        "hint": "What does the crowd's behavior - following Shemaiah and Avtalyon rather than the HP - reveal about the nature of religious authority?",
+        "title": "The People Follow the Scholars: Authority of Deeds Over Title"
       },
       "learning": {
-        "summary": "When Shemaiah and Avtalyon departed from the Temple after Yom Kippur, the crowd followed them rather than the HP. Stung by jealousy, the HP made his derogatory remark about their pagan ancestry. Their response - defining true discipleship of Aaron by deeds rather than lineage - became a lasting teaching. The Gemara connects this to the prohibition of ona'at devarim: reminding converts of their origins is forbidden (Lev. 25).",
         "ahaMoment": "The crowd's instinct was right - they followed Torah wisdom rather than official status. Shemaiah and Avtalyon embodied Aaron's deeds; the HP did not, precisely in this moment of insult.",
         "memoryAnchor": "People followed the scholars, not the HP. The HP's jealousy revealed who the real 'disciples of Aaron' were.",
-        "openQuestion": "How does this story challenge the assumption that institutional religious position and genuine spiritual authority always coincide?"
+        "learnerQuestion": "What does the crowd's decision to follow Shemaiah and Avtalyon rather than the HP reveal about the source of religious authority?",
+        "coreTension": "The HP holds the highest institutional office. Shemaiah and Avtalyon are his inferiors in official standing. Yet the crowd follows them when they leave. Does this represent disrespect for the HP or a correct instinct?",
+        "coreMove": "The crowd recognized the greater moral and Torah authority of Shemaiah and Avtalyon despite the HP's official supremacy. The HP's remark had also violated ona'at devarim - a specific Torah prohibition forbidding reminders of a convert's origins. The scholars' departure became a quiet public judgment.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Religious authority ultimately follows Torah stature and moral character, not institutional title. The crowd's instinct to follow the scholars was theologically correct - and the scholars' response demonstrated why."
+        },
+        "learningBlocker": "Students may read the crowd's behavior as disrespectful to the HP. The Gemara presents it as a correct reading: genuine Torah leadership was demonstrated by the scholars, and the people recognized it."
       },
       "argumentFlow": [
         {
@@ -278,13 +292,20 @@
       ],
       "display": {
         "whats": "New Mishnah on priestly vestments: ordinary priests wear four vestments; the HP wears eight. The thread count of priestly garments - how many strands are twisted together - is derived from scripture. Discussion of what 'shesh' (fine linen) means technically and the thread-twist count for each garment.",
-        "hint": "Why does it matter exactly how many threads are twisted together in the priestly vestments?"
+        "hint": "Why does it matter exactly how many threads are twisted together in the priestly vestments?",
+        "title": "Shesh Written Five Times: The Precision Requirements of Priestly Vestments"
       },
       "learning": {
-        "summary": "A new Mishnah addresses priestly vestments: ordinary priests wear four (tunic, pants, belt, turban); the HP adds four more (robe, ephod, breastplate, tzitz). The Gemara then analyzes the exact thread count of the vestments - 'shesh' (six) means each thread is six-ply. The word 'shesh' appears five times about the same garments, teaching that all threads in the vestment are six-ply. For the HP's breastplate the thread count differs (twenty-four, not twenty-eight as might be calculated).",
         "ahaMoment": "The technical precision about thread counts reflects a broader principle: the sanctity of the priestly vestments is partly constituted by their precise construction. A garment made with the wrong thread count is invalid - the vestment's spiritual function requires physical exactitude.",
         "memoryAnchor": "Shesh (six) = six-ply thread. Five times 'shesh' written for the same garments = applies to all their threads. Belt has four types x six = twenty-four strands total.",
-        "openQuestion": "What is the relationship between the physical precision of the vestment construction and its spiritual atoning power for the HP?"
+        "learnerQuestion": "What does 'shesh' mean in the context of priestly vestments, and why does the Torah write it five times in the relevant passage?",
+        "coreTension": "Ordinary priests wear four vestments; the HP wears eight. The Torah specifies 'shesh' (six-ply thread) repeatedly. Is this repetition stylistic emphasis or does each occurrence add a distinct requirement?",
+        "coreMove": "Shesh means six-ply - each thread is twisted from six strands. The Torah writes it five times to extend the requirement to all thread types in the vestment, not just linen. Using fewer or more strands than specified makes the vestment invalid for Temple service.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Priestly vestments require six-ply thread throughout. 'Shesh' written five times extends this to every thread type, not just one material - incorrect construction (wrong strand count) invalidates the vestment."
+        },
+        "learningBlocker": "Students may assume 'shesh' is a poetic descriptor. It is a precise construction requirement: six strands per thread, for all thread types. The repetition in the Torah adds legal content, not emphasis."
       },
       "argumentFlow": [
         {
