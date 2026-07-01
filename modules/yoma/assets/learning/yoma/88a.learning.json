@@ -60,13 +60,20 @@
       ],
       "display": {
         "whats": "Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location",
-        "hint": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited."
+        "hint": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited.",
+        "title": "Havdalah After Yom Kippur"
       },
       "learning": {
-        "summary": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited.",
-        "ahaMoment": "Havdalah placement: the end of YK mirrors its opening - the transition out of holiness requires its own formal marking, just as the entry did.",
-        "memoryAnchor": "Havdalah after YK: the exit from holiness is marked as carefully as the entry.",
-        "openQuestion": "What is the deeper significance of the ruling about havdalah after yom kippur: recited in the havdil blessing of?"
+        "ahaMoment": "YK's Havdalah paralleling Shabbat's is a halakhic statement about YK's nature: 'Shabbat Shabbaton' is not just rhetoric - it carries structural consequences in how the day is concluded.",
+        "memoryAnchor": "Havdalah after YK: same structure as Shabbat Havdalah, reflecting YK's Shabbat-level sacred status.",
+        "learnerQuestion": "Where and how is Havdalah recited at the conclusion of Yom Kippur?",
+        "coreTension": "Between the structure of Shabbat Havdalah (recited at the end of Shabbat) and the question of how Yom Kippur's conclusion is marked when YK does not have the same Havdalah as Shabbat.",
+        "coreMove": "The Gemara discusses where the Havdalah blessing marking the conclusion of YK is recited: in the Atah Chonantanu blessing of the first weekday Amidah (just as after Shabbat), and separately over a flame. The close parallel to Shabbat Havdalah reflects YK's status as 'Shabbat Shabbaton.'",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Havdalah after YK parallels Havdalah after Shabbat, reflecting YK's halakhic status as 'Shabbat Shabbaton'; the blessing is inserted in the first Amidah of the new day, marking the transition from the sacred day back to ordinary time."
+        },
+        "learningBlocker": "Students may not realize YK has its own Havdalah form; understanding the parallel to Shabbat Havdalah explains why and how it is done."
       },
       "argumentFlow": [
         {
@@ -236,16 +243,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does the need to say havdala require a full evening Amida after Yom Kippur?",
-          "a": "Havdala is inserted into the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to put it. So those tannaim require the full eighteen blessings, implying ne'ila does not exempt the evening prayer."
+          "question": "Why does the need to say havdala require a full evening Amida after Yom Kippur?",
+          "answer": "Havdala is inserted into the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to put it. So those tannaim require the full eighteen blessings, implying ne'ila does not exempt the evening prayer."
         },
         {
-          "q": "How does the Gemara resolve the two contradictory baraitot about whether Rabbi Yosei lets a ba'al keri immerse after mincha?",
-          "a": "The 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and needs to immerse in order to pray it. The timing relative to ne'ila reconciles them."
+          "question": "How does the Gemara resolve the two contradictory baraitot about whether Rabbi Yosei lets a ba'al keri immerse after mincha?",
+          "answer": "The 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and needs to immerse in order to pray it. The timing relative to ne'ila reconciles them."
         },
         {
-          "q": "Why do the Rabbis permit immersion on Yom Kippur even after one has already prayed ne'ila?",
-          "a": "Because they hold that immersion at its proper time is itself a mitzva, independent of needing to pray. So when the proper time falls on Yom Kippur, the person immerses regardless of whether an immediate prayer requires it."
+          "question": "Why do the Rabbis permit immersion on Yom Kippur even after one has already prayed ne'ila?",
+          "answer": "Because they hold that immersion at its proper time is itself a mitzva, independent of needing to pray. So when the proper time falls on Yom Kippur, the person immerses regardless of whether an immediate prayer requires it."
         }
       ],
       "finalRuling": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or s",
@@ -282,13 +289,20 @@
       ],
       "display": {
         "whats": "Seminal emission (keri) on Yom Kippur: whether immersion is required",
-        "hint": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the broader question of immersion for keri on Shabbat ..."
+        "hint": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the broader question of immersion for keri on Shabbat ...",
+        "title": "Seminal Emission on Yom Kippur: Is Immersion Required?"
       },
       "learning": {
-        "summary": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the broader question of immersion for keri on Shabbat and holidays.",
-        "ahaMoment": "Keri and immersion on YK: the requirement to immerse was eventually abolished for Shabbat and holidays, but the Gemara works through the logic of when it might still apply.",
-        "memoryAnchor": "Keri on YK: immersion requirements and their relationship to the day's prohibitions.",
-        "openQuestion": "What is the deeper significance of the ruling about seminal emission (keri) on yom kippur: whether immersion is ?"
+        "ahaMoment": "The question reveals the purpose-based nature of YK's bathing prohibition: if the water contact serves purity (a mitzvah) rather than pleasure, it may be categorically different from what the prohibition targets.",
+        "memoryAnchor": "Seminal emission on YK: immersion for purity vs. bathing for pleasure - purpose determines whether the act is prohibited.",
+        "learnerQuestion": "If a man experiences a seminal emission on Yom Kippur, must he immerse in a mikveh?",
+        "coreTension": "Between the general requirement of immersion after seminal emission (talmud Torah and prayer require a state of purity) and the YK prohibitions that may restrict immersion as a form of bathing.",
+        "coreMove": "The Gemara debates whether immersion in a mikveh on YK for this purpose constitutes the prohibited bathing. The resolution involves the distinction between bathing for pleasure or cleanliness (prohibited) and immersion for ritual purity purposes (potentially permitted even on YK).",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Immersion for ritual purity purposes may be distinguishable from prohibited bathing on Yom Kippur because the operative distinction is the purpose of the water contact; ritual immersion serves purity, not comfort or cleanliness."
+        },
+        "learningBlocker": "Students may assume any immersion is prohibited because of the bathing prohibition; the distinction between purpose-of-purification and purpose-of-pleasure is the key to understanding when immersion might be permitted."
       },
       "argumentFlow": [
         {
@@ -374,12 +388,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does the Gemara reconcile that one who has an emission on Yom Kippur has 'his sins forgiven' with the source saying his sins are 'arranged before him'?",
-          "a": "'Arranged' (mesudarin) is read as 'arranged to be forgiven.' Both sources agree the involuntary emission is a favorable sign pointing toward forgiveness, not condemnation."
+          "question": "How does the Gemara reconcile that one who has an emission on Yom Kippur has 'his sins forgiven' with the source saying his sins are 'arranged before him'?",
+          "answer": "'Arranged' (mesudarin) is read as 'arranged to be forgiven.' Both sources agree the involuntary emission is a favorable sign pointing toward forgiveness, not condemnation."
         },
         {
-          "q": "What does Rav Dimi say a seminal emission on Yom Kippur signifies, and what verse alludes to it?",
-          "a": "That the person will live long, grow, and raise others - a sign of long life - alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10)."
+          "question": "What does Rav Dimi say a seminal emission on Yom Kippur signifies, and what verse alludes to it?",
+          "answer": "That the person will live long, grow, and raise others - a sign of long life - alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10)."
         }
       ],
       "finalRuling": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the ",

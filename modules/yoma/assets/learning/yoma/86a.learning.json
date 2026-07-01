@@ -35,13 +35,20 @@
       ],
       "display": {
         "whats": "Desecrating God's name: not atoned by any mechanism alone",
-        "hint": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, not YK, not death alone, and not repentance alone."
+        "hint": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, not YK, not death alone, and not repentance alone.",
+        "title": "Chilul Hashem: Beyond All Atonement Mechanisms"
       },
       "learning": {
-        "summary": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, not YK, not death alone, and not repentance alone.",
-        "ahaMoment": "Chilul Hashem resists all four mechanisms alone: it is a relational sin against God's reputation in the world, and repairing that reputation requires more than ritual alone.",
-        "memoryAnchor": "Chilul Hashem evades all four mechanisms alone: it requires something more comprehensive.",
-        "openQuestion": "What is the deeper significance of the ruling about desecrating god's name: not atoned by any mechanism alone?"
+        "ahaMoment": "Chilul Hashem is a different kind of sin: it does not just damage the sinner's soul but alters how others perceive God. No private repair can fix a public wound.",
+        "memoryAnchor": "Chilul Hashem escapes the four mechanisms: the public damage to God's name requires public repair, not just private atonement.",
+        "learnerQuestion": "Why is desecrating God's name (chilul Hashem) uniquely serious and not fully atoned by the standard four mechanisms?",
+        "coreTension": "Between the Mishna's four atonement mechanisms (which cover all other categories of sin) and the claim that chilul Hashem escapes this framework.",
+        "coreMove": "The Gemara reasons: chilul Hashem creates a public reality of disrespect for God's name that persists even after repentance, YK, or death. The rupture is not only internal (the sinner's relationship to God) but external (how others now perceive God). Only sustained life-behavior that demonstrates Kiddush Hashem can repair what chilul Hashem broke.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Chilul Hashem is uniquely severe because it creates a public impression that no private atonement can erase; the repair must be as public as the damage, which no single atonement event can fully accomplish."
+        },
+        "learningBlocker": "Students may expect repentance to cover everything; the Gemara's point is that chilul Hashem is not just a private sin but a public harm to God's reputation in the world."
       },
       "argumentFlow": [
         {
@@ -140,12 +147,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Does 'you shall not take the name of the Lord in vain' stand alone as the one severe prohibition, or represent a category?",
-          "a": "It represents a category. The Gemara explains it stands for that verse 'and anything like it' - all severe prohibitions carrying court punishment, not just that single sin."
+          "question": "Does 'you shall not take the name of the Lord in vain' stand alone as the one severe prohibition, or represent a category?",
+          "answer": "It represents a category. The Gemara explains it stands for that verse 'and anything like it' - all severe prohibitions carrying court punishment, not just that single sin."
         },
         {
-          "q": "What is the underlying machloket the Gemara settles on regarding full prohibitions?",
-          "a": "It is a tannaitic dispute: whether repentance alone atones for full-fledged prohibitions (those warranting lashes), or whether such sins require repentance to suspend and Yom Kippur to atone."
+          "question": "What is the underlying machloket the Gemara settles on regarding full prohibitions?",
+          "answer": "It is a tannaitic dispute: whether repentance alone atones for full-fledged prohibitions (those warranting lashes), or whether such sins require repentance to suspend and Yom Kippur to atone."
         }
       ],
       "finalRuling": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, n",
@@ -187,13 +194,20 @@
       ],
       "display": {
         "whats": "What is 'bearing God's name in vain'? Clarification of the category",
-        "hint": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor."
+        "hint": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor.",
+        "title": "What Constitutes Bearing God's Name in Vain"
       },
       "learning": {
-        "summary": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor.",
-        "ahaMoment": "The definition of chilul Hashem shifts by person: what is neutral for an ordinary person is a desecration for a Torah scholar - reputation is part of the equation.",
-        "memoryAnchor": "Scholar's chilul Hashem: the standard is higher because the stakes of representation are higher.",
-        "openQuestion": "What is the deeper significance of the ruling about what is 'bearing god's name in vain'? clarification of the c?"
+        "ahaMoment": "The criterion is not the act but its social effect: does this behavior make people think less of God? If yes, it is chilul Hashem regardless of whether God was explicitly mentioned.",
+        "memoryAnchor": "Chilul Hashem = whatever causes others to disrespect God's name: effect on observers, not words spoken.",
+        "learnerQuestion": "What exactly does it mean to 'bear God's name in vain,' and how is this defined in the context of chilul Hashem?",
+        "coreTension": "Between the narrow interpretation (false oaths, explicit misuse of God's name) and the broader understanding that any behavior which causes others to disrespect God constitutes chilul Hashem.",
+        "coreMove": "The Gemara clarifies that bearing God's name in vain is not limited to liturgical misuse. Any action that causes observers to form a negative impression of the God whose name the actor bears qualifies. The criterion is the effect on observers, not the explicit mention of God's name.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Chilul Hashem (desecrating God's name) is defined by its effect on observers: any behavior that causes people to form a negative impression of the God whose name the actor represents constitutes chilul Hashem, regardless of whether God's name is explicitly invoked."
+        },
+        "learningBlocker": "Students may limit chilul Hashem to explicit misuse of God's name in speech; the Gemara's definition extends to any behavior that damages God's reputation."
       },
       "argumentFlow": [
         {
@@ -291,12 +305,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What are the three (not four) categories of atonement Rabbi Yishmael taught, and what does each require?",
-          "a": "(1) A neglected positive mitzva: repentance brings immediate forgiveness. (2) A prohibition: repentance suspends, Yom Kippur atones. (3) Karet or court-death sins: repentance and Yom Kippur suspend, and suffering completes atonement. Repentance is needed in all three."
+          "question": "What are the three (not four) categories of atonement Rabbi Yishmael taught, and what does each require?",
+          "answer": "(1) A neglected positive mitzva: repentance brings immediate forgiveness. (2) A prohibition: repentance suspends, Yom Kippur atones. (3) Karet or court-death sins: repentance and Yom Kippur suspend, and suffering completes atonement. Repentance is needed in all three."
         },
         {
-          "q": "How is chilul Hashem (desecrating God's name) atoned, and what verse teaches this?",
-          "a": "It is the hardest case: repentance, Yom Kippur, and suffering together only suspend the punishment, and only death finally cleanses it, from 'this iniquity shall not be atoned for until you die' (Isaiah 22:14)."
+          "question": "How is chilul Hashem (desecrating God's name) atoned, and what verse teaches this?",
+          "answer": "It is the hardest case: repentance, Yom Kippur, and suffering together only suspend the punishment, and only death finally cleanses it, from 'this iniquity shall not be atoned for until you die' (Isaiah 22:14)."
         }
       ],
       "finalRuling": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Tora",
@@ -343,13 +357,20 @@
       ],
       "display": {
         "whats": "What circumstances cause a Torah scholar to desecrate God's name?",
-        "hint": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the standard for scholars is higher."
+        "hint": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the standard for scholars is higher.",
+        "title": "Chilul Hashem for Torah Scholars"
       },
       "learning": {
-        "summary": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the standard for scholars is higher.",
-        "ahaMoment": "Scholar's standard: a Torah scholar buying meat without immediately paying, or walking without upright bearing - these actions desecrate God's name because they attach Torah to unseemliness.",
-        "memoryAnchor": "Buying meat without paying: a small act, a large chilul - scholar's every action is watched.",
-        "openQuestion": "What is the deeper significance of the ruling about what circumstances cause a torah scholar to desecrate god's ?"
+        "ahaMoment": "The scholar is always 'on duty' as a representative of Torah. Their technically-permitted behavior is still read through the lens of 'what does this say about God?' by observers.",
+        "memoryAnchor": "Scholar's chilul Hashem: even technically-permitted behavior can desecrate God's name when it creates a bad impression in observers.",
+        "learnerQuestion": "Are Torah scholars held to a higher standard for chilul Hashem than ordinary people?",
+        "coreTension": "Between a single standard of chilul Hashem for all Jews and the possibility that the scholar's public role and representative status creates additional exposure.",
+        "coreMove": "The Gemara rules that for a Torah scholar, actions that are not technically prohibited but create a negative impression in observers still constitute chilul Hashem. The scholar's social visibility means that more behaviors carry the risk of damaging God's reputation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Torah scholars bear enhanced exposure to chilul Hashem because their public role makes their behavior a representation of Torah and God's name; behavior that is technically permitted but creates a negative impression can constitute chilul Hashem for a scholar."
+        },
+        "learningBlocker": "Students may assume only technically prohibited acts can create chilul Hashem; the Gemara shows that the scholar's heightened representational role expands the category for them."
       },
       "argumentFlow": [
         {
@@ -462,16 +483,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why does Rav say that he, a public figure, would desecrate God's name by taking meat without paying immediately?",
-          "a": "Because people seeing a prominent figure not pay may assume he never intends to, brand him a thief, and learn from his example that theft is acceptable. A respected person's conduct teaches others, so carelessness becomes a public desecration."
+          "question": "Why does Rav say that he, a public figure, would desecrate God's name by taking meat without paying immediately?",
+          "answer": "Because people seeing a prominent figure not pay may assume he never intends to, brand him a thief, and learn from his example that theft is acceptable. A respected person's conduct teaches others, so carelessness becomes a public desecration."
         },
         {
-          "q": "According to this sugya, why is chilul Hashem measured by a person's stature and reputation?",
-          "a": "Because the more learned or respected a person is, the more others learn from and judge Torah by his behavior. So Rabbi Yochanan's walking without tefillin, or a scholar's dishonest dealings, desecrates the name even though the same act by an unknown person might not."
+          "question": "According to this sugya, why is chilul Hashem measured by a person's stature and reputation?",
+          "answer": "Because the more learned or respected a person is, the more others learn from and judge Torah by his behavior. So Rabbi Yochanan's walking without tefillin, or a scholar's dishonest dealings, desecrates the name even though the same act by an unknown person might not."
         },
         {
-          "q": "What is the positive counterpart to chilul Hashem described by Abaye?",
-          "a": "Kiddush Hashem: a Torah scholar who deals honestly and pleasantly makes people praise his upbringing and teachers, fulfilling 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3)."
+          "question": "What is the positive counterpart to chilul Hashem described by Abaye?",
+          "answer": "Kiddush Hashem: a Torah scholar who deals honestly and pleasantly makes people praise his upbringing and teachers, fulfilling 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3)."
         }
       ],
       "finalRuling": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the stand",
@@ -508,13 +529,20 @@
       ],
       "display": {
         "whats": "R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne",
-        "hint": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately be addressed through deep, sincere repentance."
+        "hint": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately be addressed through deep, sincere repentance.",
+        "title": "Great Repentance Reaches the Divine Throne"
       },
       "learning": {
-        "summary": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately be addressed through deep, sincere repentance.",
-        "ahaMoment": "Teshuva that reaches the Throne: even the most severe sins are reachable by sufficiently deep repentance. The door is never completely closed.",
-        "memoryAnchor": "Teshuva rabbah reaches the Throne: no sin is permanently sealed against deep repentance.",
-        "openQuestion": "What is the deeper significance of the ruling about r. hama bar hanina: great repentance (teshuva rabbah) reache?"
+        "ahaMoment": "Great teshuva reaches the Throne: the inner act of genuine return is itself a form of standing before God, no intermediary required.",
+        "memoryAnchor": "Teshuva rabbah reaches the Throne directly: profound repentance bypasses mechanism and encounters God face to face.",
+        "learnerQuestion": "What does R. Hama bar Hanina mean when he says that great repentance reaches the Divine Throne?",
+        "coreTension": "Between the ordinary atonement process (which goes through specific mechanisms) and the claim that profound teshuva bypasses all limits and reaches directly to God's presence.",
+        "coreMove": "R. Hama bar Hanina teaches that the intensity of genuine repentance is itself capable of reaching God without any intermediate mechanism. Deep teshuva is not a ritual but a direct encounter with God. The image of 'reaching the Throne' conveys that nothing is beyond the reach of authentic return.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Genuine, intense repentance can transcend the formal atonement system and reach directly to God; R. Hama bar Hanina's teaching is that the depth of authentic teshuva is itself a form of direct encounter with the Divine."
+        },
+        "learningBlocker": "Students may think all atonement must go through formal mechanisms; R. Hama bar Hanina's teaching points to the direct power of the inner act of return."
       },
       "argumentFlow": [
         {
@@ -571,12 +599,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does Rabbi Chama bar Chanina resolve the tension between 'return, backsliding children' and 'I will heal your backsliding'?",
-          "a": "The first verse, where the sin is treated as if it never happened, refers to repentance out of love; the second, where the sin is still remembered, refers to repentance out of fear. Love-driven repentance erases the sin more completely."
+          "question": "How does Rabbi Chama bar Chanina resolve the tension between 'return, backsliding children' and 'I will heal your backsliding'?",
+          "answer": "The first verse, where the sin is treated as if it never happened, refers to repentance out of love; the second, where the sin is still remembered, refers to repentance out of fear. Love-driven repentance erases the sin more completely."
         },
         {
-          "q": "What is the difference between repentance from love and repentance from fear in this sugya?",
-          "a": "Repentance from love wipes the sin away as if it never occurred and is achieved by few; repentance from fear, or through suffering, still leaves the sin remembered but is available to everyone."
+          "question": "What is the difference between repentance from love and repentance from fear in this sugya?",
+          "answer": "Repentance from love wipes the sin away as if it never occurred and is achieved by few; repentance from fear, or through suffering, still leaves the sin remembered but is available to everyone."
         }
       ],
       "finalRuling": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately b",

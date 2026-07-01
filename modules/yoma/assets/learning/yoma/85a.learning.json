@@ -20,13 +20,20 @@
       ],
       "display": {
         "whats": "Shmuel's ruling: found a child - majority determines whether to violate YK",
-        "hint": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local population."
+        "hint": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local population.",
+        "title": "Majority Rule: Rescuing a Child Under Rubble"
       },
       "learning": {
-        "summary": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local population.",
-        "ahaMoment": "Majority determines: we go by statistical likelihood when we cannot know for certain. The law is probabilistic under uncertainty.",
-        "memoryAnchor": "Shmuel and majority: probability determines the YK override when certainty is unavailable.",
-        "openQuestion": "What is the deeper significance of the ruling about shmuel's ruling: found a child - majority determines whether?"
+        "ahaMoment": "The majority rule here is not about statistics - it is a legal tool that converts probability into obligation. If most residents are Jewish, the obligation to save is fully triggered.",
+        "memoryAnchor": "Majority Jewish population - violate YK to rescue: probability of Jewishness is enough to require action.",
+        "learnerQuestion": "When a child is found buried in rubble on Yom Kippur, how do we decide whether to violate the day to rescue them?",
+        "coreTension": "Between the obligation to save every potentially Jewish life and the reality that the rescue itself involves certain YK violations, requiring some principle to determine when to act.",
+        "coreMove": "Shmuel rules that the demographic majority of the local population is the operative criterion: if the majority is Jewish, we assume the buried child may be Jewish and we violate YK to rescue them. The majority functions as a legal presumption of identity.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When identity is unknown and life is at stake, halakha uses the demographic majority as a legal presumption to determine whether to violate YK for rescue; probability about identity translates directly into an obligation to act."
+        },
+        "learningBlocker": "Students may expect certainty of Jewish identity before violating YK; the Gemara's ruling shows that probabilistic reasoning (majority) is sufficient to trigger the life-saving obligation."
       },
       "argumentFlow": [
         {
@@ -84,12 +91,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "If most of the town is gentile, may one clear Shabbat debris off a buried foundling to save his life?",
-          "a": "Yes. The majority rule sets the child's status for matters like lineage, but it does not govern pikuach nefesh. To save a life we act on the mere possibility he is alive, ignoring the majority."
+          "question": "If most of the town is gentile, may one clear Shabbat debris off a buried foundling to save his life?",
+          "answer": "Yes. The majority rule sets the child's status for matters like lineage, but it does not govern pikuach nefesh. To save a life we act on the mere possibility he is alive, ignoring the majority."
         },
         {
-          "q": "What was the Gemara's mistaken reading of Shmuel, and how was it corrected?",
-          "a": "The mistaken reading was that Shmuel applied 'follow the majority' even to life-saving, which would bar clearing debris in a gentile-majority town. The correction: Shmuel spoke only about the child's legal status, not about saving a life."
+          "question": "What was the Gemara's mistaken reading of Shmuel, and how was it corrected?",
+          "answer": "The mistaken reading was that Shmuel applied 'follow the majority' even to life-saving, which would bar clearing debris in a gentile-majority town. The correction: Shmuel spoke only about the child's legal status, not about saving a life."
         }
       ],
       "finalRuling": "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local popul",
@@ -126,13 +133,20 @@
       ],
       "display": {
         "whats": "Majority of inhabitants gentile: do we save a person whose identity is unknown?",
-        "hint": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK."
+        "hint": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
+        "title": "Gentile Majority and the Rescue Obligation"
       },
       "learning": {
-        "summary": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
-        "ahaMoment": "Majority gentile: even when odds are against it being a Jew, if there is any realistic chance, we violate YK - the doubt is enough.",
-        "memoryAnchor": "Majority gentile: statistical doubt still triggers YK override - any realistic chance is enough.",
-        "openQuestion": "What is the deeper significance of the ruling about majority of inhabitants gentile: do we save a person whose i?"
+        "ahaMoment": "The gentile-majority debate is really a debate about the limits of probabilistic reasoning: does majority determine the rule completely, or does any residual uncertainty trigger caution?",
+        "memoryAnchor": "Gentile majority - disputed whether to violate YK: probability cuts both ways, and the Gemara preserves both positions.",
+        "learnerQuestion": "If the majority of local inhabitants are gentiles, do we still violate Yom Kippur to rescue someone from rubble?",
+        "coreTension": "Between the general obligation to preserve every human life and the specific halakhic framework for YK violations that tracks the identity of the person being saved.",
+        "coreMove": "The Gemara debates whether a gentile majority removes the obligation to violate YK for rescue, or whether the non-zero possibility of a Jewish person still requires action. The debate reflects a tension between strict majority-following and cautious uncertainty.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When the local majority is gentile, the obligation to violate YK for rescue becomes uncertain; the debate reflects a broader principle about how far halakha extends the benefit of the doubt when probability weighs against it."
+        },
+        "learningBlocker": "Students may assume gentile majority means no violation is ever permitted; the Gemara's debate shows the question is more nuanced."
       },
       "argumentFlow": [
         {
@@ -217,12 +231,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "In a gentile-majority town, what is the practical consequence of treating a foundling as a gentile?",
-          "a": "One need not protect him from every prohibition and may even feed him non-kosher food, as one would a gentile."
+          "question": "In a gentile-majority town, what is the practical consequence of treating a foundling as a gentile?",
+          "answer": "One need not protect him from every prohibition and may even feed him non-kosher food, as one would a gentile."
         },
         {
-          "q": "Why does treating the half-and-half foundling as a Jew help him specifically when his ox does the goring?",
-          "a": "A Jew pays only half-damages for a tam ox, while a gentile pays in full. As a presumed Jew he pays half, and he can tell the victim: bring proof I am a gentile if you want the rest. The burden of proof shifts to the victim."
+          "question": "Why does treating the half-and-half foundling as a Jew help him specifically when his ox does the goring?",
+          "answer": "A Jew pays only half-damages for a tam ox, while a gentile pays in full. As a presumed Jew he pays half, and he can tell the victim: bring proof I am a gentile if you want the rest. The burden of proof shifts to the victim."
         }
       ],
       "finalRuling": "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
@@ -254,13 +268,20 @@
       ],
       "display": {
         "whats": "Rocks collapse on a person on Yom Kippur - remove rocks to save them",
-        "hint": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary."
+        "hint": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
+        "title": "Rocks Fall on Someone: Remove Them on Yom Kippur"
       },
       "learning": {
-        "summary": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
-        "ahaMoment": "Rubble on YK: the practical emergency is described in steps - you remove, you check, you continue or stop based on what you find.",
-        "memoryAnchor": "Rubble removal steps: check while removing, not after. YK override is active until you know the outcome.",
-        "openQuestion": "What is the deeper significance of the ruling about rocks collapse on a person on yom kippur - remove rocks to s?"
+        "ahaMoment": "The Gemara is teaching emergency response: when you can see the danger and the person is alive, you act first and deliberate never. Delay itself becomes a violation.",
+        "memoryAnchor": "Rocks collapse on a person - remove them immediately: no deliberation when life is visibly at stake.",
+        "learnerQuestion": "If a pile of rocks collapses on a person on Yom Kippur, may we move the rocks?",
+        "coreTension": "Between the general prohibition on moving objects on YK (muktze, labor prohibition) and the immediate danger to a human life buried beneath.",
+        "coreMove": "The Gemara rules unambiguously: remove the rocks. The life-saving principle fully overrides the YK prohibitions. There is no deliberation required when the danger is obvious and immediate. Pikuach nefesh is the operative principle, and it is applied without hesitation.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "When a human life is visibly and immediately endangered on Yom Kippur, the relevant prohibitions are overridden without deliberation; pikuach nefesh is not a reluctant exception but the governing principle in life-threatening emergencies."
+        },
+        "learningBlocker": "Students may still expect some form of deliberation or rabbinic consultation before acting; the ruling emphasizes that speed is itself required when life is at stake."
       },
       "argumentFlow": [
         {
@@ -332,12 +353,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What are the three uncertainties the Mishnah stacks, and which one is the real teaching?",
-          "a": "Whether he is under the rubble at all, whether he is alive or dead, and whether he is gentile or Jew. The real teaching is the last: we clear the rubble even when it is uncertain whether the buried person is Jewish."
+          "question": "What are the three uncertainties the Mishnah stacks, and which one is the real teaching?",
+          "answer": "Whether he is under the rubble at all, whether he is alive or dead, and whether he is gentile or Jew. The real teaching is the last: we clear the rubble even when it is uncertain whether the buried person is Jewish."
         },
         {
-          "q": "What does the 'needless to say' (lo mivaya) style accomplish here?",
-          "a": "It escalates from the obviously permitted (doubt about his presence) to the genuinely novel (doubt about his Jewish status), showing that even compounded uncertainty does not stop us from saving a possible life."
+          "question": "What does the 'needless to say' (lo mivaya) style accomplish here?",
+          "answer": "It escalates from the obviously permitted (doubt about his presence) to the genuinely novel (doubt about his Jewish status), showing that even compounded uncertainty does not stop us from saving a possible life."
         }
       ],
       "finalRuling": "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
@@ -364,13 +385,20 @@
       ],
       "display": {
         "whats": "If found alive, continue removing rocks; if dead, stop",
-        "hint": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing rocks."
+        "hint": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing rocks.",
+        "title": "Found Alive: Continue; Found Dead: Stop"
       },
       "learning": {
-        "summary": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing rocks.",
-        "ahaMoment": "Found alive, keep going; found dead, stop: the override of YK is calibrated to its purpose (saving life) and ends when that purpose is no longer achievable.",
-        "memoryAnchor": "Alive - continue. Dead - stop. The override tracks the purpose, not the action.",
-        "openQuestion": "What is the deeper significance of the ruling about if found alive, continue removing rocks; if dead, stop?"
+        "ahaMoment": "The ruling creates a dynamic obligation: it begins on probability (might be alive) and shifts to certainty (confirmed alive) with full obligation to complete the rescue - then ends cleanly when death is confirmed.",
+        "memoryAnchor": "Found alive - remove all rocks; found dead at first uncover - stop. Life-saving obligation follows life.",
+        "learnerQuestion": "If you find the person alive while removing rubble on Yom Kippur, do you continue? What if you find them dead at the first stage?",
+        "coreTension": "Between the obligation to save life (which continues as long as the person is alive) and the cessation of that obligation once death is confirmed.",
+        "coreMove": "The Gemara rules: found alive, continue removing rocks until completely free - the life-saving obligation extends through full rescue. Found dead at an early point, stop - the YK violation no longer has justification. The life-saving override terminates when life ends.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK override for rescue tracks the presence of life: as long as the person is alive, complete the rescue regardless of effort; the moment death is confirmed, the justification for YK violation ends and activity stops."
+        },
+        "learningBlocker": "Students may think 'start removing rocks' and 'continue once alive' are the same ruling; the Gemara distinguishes the trigger (life may be present) from the continuation (life is confirmed present)."
       },
       "argumentFlow": [
         {
@@ -428,12 +456,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why is the ruling 'if found alive, keep clearing' not simply obvious?",
-          "a": "It teaches that we desecrate Shabbat even for chayei sha'ah - life that will last only a short time. Even momentary survival is reason enough to keep digging."
+          "question": "Why is the ruling 'if found alive, keep clearing' not simply obvious?",
+          "answer": "It teaches that we desecrate Shabbat even for chayei sha'ah - life that will last only a short time. Even momentary survival is reason enough to keep digging."
         },
         {
-          "q": "What is chayei sha'ah and what does this sugya establish about it?",
-          "a": "Chayei sha'ah is fleeting life, where the person will certainly die soon. The sugya establishes that saving even such fleeting life overrides Shabbat."
+          "question": "What is chayei sha'ah and what does this sugya establish about it?",
+          "answer": "Chayei sha'ah is fleeting life, where the person will certainly die soon. The sugya establishes that saving even such fleeting life overrides Shabbat."
         }
       ],
       "finalRuling": "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing roc",
@@ -480,13 +508,20 @@
       ],
       "display": {
         "whats": "If found dead, leave them and do not continue violating YK",
-        "hint": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead."
+        "hint": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead.",
+        "title": "The Dead Cannot Be Saved: Stop the Violation"
       },
       "learning": {
-        "summary": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead.",
-        "ahaMoment": "Stop when dead: the dead have their own honor rights, but those do not override YK in the same way. Only the living claim the full YK override.",
-        "memoryAnchor": "Dead body does not extend the override: pikuach nefesh is for the living only.",
-        "openQuestion": "What is the deeper significance of the ruling about if found dead, leave them and do not continue violating yk?"
+        "ahaMoment": "The override is not a blanket permission for compassionate action - it is a specific authorization for a specific goal. When the goal is gone, the permission is gone.",
+        "memoryAnchor": "Dead body stops the violation: the YK override was for life, not for the dead.",
+        "learnerQuestion": "Why do we stop violating Yom Kippur once a buried person is confirmed dead?",
+        "coreTension": "Between ongoing concern for the dignity of the deceased (perhaps we should still uncover the body) and the principle that the YK override was justified only for life-saving.",
+        "coreMove": "The Gemara is explicit: the YK violation was authorized for life-saving, not for the dead. Once death is confirmed, there is no longer a life to save, and the justification is removed. Continued violation would now be without authorization.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The YK life-saving override applies strictly to the goal of preserving life; once death is confirmed, the authorization ends and no further violation is permitted, even for the dignity of the deceased."
+        },
+        "learningBlocker": "Students may think ongoing respect for the deceased justifies continuing; the Gemara strictly limits the override to life-preservation."
       },
       "argumentFlow": [
         {
@@ -570,16 +605,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why isn't 'if found dead, leave him' simply obvious?",
-          "a": "It is needed to reject Rabbi Yehuda ben Lakish's view that one saves a corpse from fire. That leniency applies only to fire, where panic might lead to extinguishing. In a collapse there is no such risk, so a corpse does not override Shabbat."
+          "question": "Why isn't 'if found dead, leave him' simply obvious?",
+          "answer": "It is needed to reject Rabbi Yehuda ben Lakish's view that one saves a corpse from fire. That leniency applies only to fire, where panic might lead to extinguishing. In a collapse there is no such risk, so a corpse does not override Shabbat."
         },
         {
-          "q": "What is the decisive sign of life when checking a buried victim, and what verse supports it?",
-          "a": "Breath at the nose. Even Abba Shaul, who locates a fetus's formation at the navel, agrees the main sign of life is in the nose, from 'all in whose nostrils was the breath of the spirit of life' (Genesis 7:22)."
+          "question": "What is the decisive sign of life when checking a buried victim, and what verse supports it?",
+          "answer": "Breath at the nose. Even Abba Shaul, who locates a fetus's formation at the navel, agrees the main sign of life is in the nose, from 'all in whose nostrils was the breath of the spirit of life' (Genesis 7:22)."
         },
         {
-          "q": "According to Rav Pappa, when does the nose-versus-heart distinction actually matter?",
-          "a": "When uncovering the body from the feet upward. Then checking to the heart is not enough - one must reach the nose. But uncovering from the head down, once you check the nose and find no breath, you may stop."
+          "question": "According to Rav Pappa, when does the nose-versus-heart distinction actually matter?",
+          "answer": "When uncovering the body from the feet upward. Then checking to the heart is not enough - one must reach the nose. But uncovering from the head down, once you check the nose and find no breath, you may stop."
         }
       ],
       "finalRuling": "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead",
@@ -616,13 +651,20 @@
       ],
       "display": {
         "whats": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural basis for saving life on YK",
-        "hint": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different facet of the principle."
+        "hint": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different facet of the principle.",
+        "title": "Three Tannaim on the Source for Life Overriding YK"
       },
       "learning": {
-        "summary": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different facet of the principle.",
-        "ahaMoment": "Three derivations: when multiple Sages offer different sources for the same principle, the Talmud values all of them - each adds a dimension to the principle.",
-        "memoryAnchor": "Three scriptural sources: multiple derivations enrich the principle rather than compete.",
-        "openQuestion": "What is the deeper significance of the ruling about r. yishmael, r. akiva, r. elazar ben azaryah: scriptural bas?"
+        "ahaMoment": "When three major Tannaim all independently derive the same principle, the preserved disagreement about method signals certainty about the conclusion. The principle is beyond dispute; only the best derivation is debated.",
+        "memoryAnchor": "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: three verses, one conclusion. Life overrides YK is so certain every sage found their own proof.",
+        "learnerQuestion": "What scriptural basis do R. Yishmael, R. Akiva, and R. Elazar ben Azaryah each use to derive that saving life overrides Yom Kippur?",
+        "coreTension": "Between the practical consensus (life overrides YK, obviously) and the Tannaitic need to ground this principle in an explicit scriptural derivation.",
+        "coreMove": "Each Tanna finds a different verse: R. Yishmael from 'the Israelites shall keep the Shabbat' (implying not at the cost of life), R. Akiva from 'do not hand over to death those unjustly condemned' (life preservation as a value), R. Elazar ben Azaryah from 'live by them' (the mitzvot enable life, not death). The preserved disagreement signals that the principle is so fundamental that every sage sought to anchor it in their own reading.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "The fact that three major Tannaim each offer different scriptural sources for pikuach nefesh overriding YK shows that this principle is so fundamental that every sage sought an independent anchor for it; the multiple derivations are expressions of shared conviction, not competing claims."
+        },
+        "learningBlocker": "Students may ask 'which derivation is correct?' - the Gemara preserves all three because the principle is held with such certainty that multiple prooftexts are treated as reinforcing rather than competing."
       },
       "argumentFlow": [
         {
@@ -708,12 +750,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "What is Rabbi Yishmael's a fortiori argument that saving a life overrides Shabbat?",
-          "a": "The Torah lets a homeowner kill a burglar despite only a doubt that the burglar means to kill, and despite bloodshed defiling the land and banishing the Divine Presence. If a doubtful threat to life justifies that, certainly saving a life overrides Shabbat."
+          "question": "What is Rabbi Yishmael's a fortiori argument that saving a life overrides Shabbat?",
+          "answer": "The Torah lets a homeowner kill a burglar despite only a doubt that the burglar means to kill, and despite bloodshed defiling the land and banishing the Divine Presence. If a doubtful threat to life justifies that, certainly saving a life overrides Shabbat."
         },
         {
-          "q": "What does 'take him from My altar' (Exodus 21:14) teach according to Rabbi Akiva?",
-          "a": "A murderer-priest is removed even from the altar for execution, but only before he begins the service. 'From on top of My altar' - once mid-service - he is not interrupted to be executed; that interruption is reserved, as the next sugya shows, for saving a life."
+          "question": "What does 'take him from My altar' (Exodus 21:14) teach according to Rabbi Akiva?",
+          "answer": "A murderer-priest is removed even from the altar for execution, but only before he begins the service. 'From on top of My altar' - once mid-service - he is not interrupted to be executed; that interruption is reserved, as the next sugya shows, for saving a life."
         }
       ],
       "finalRuling": "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different fac",

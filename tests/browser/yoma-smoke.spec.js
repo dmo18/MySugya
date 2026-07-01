@@ -49,8 +49,8 @@ test.describe('Yoma daf smoke test', () => {
   });
 });
 
-test.describe('Yoma legacy-schema fallback (daf 87b)', () => {
-  test('renders non-blank sugya titles and fallback learning content', async ({ page }) => {
+test.describe('Yoma backfilled schema (daf 87b)', () => {
+  test('renders canonical sugya titles and learning content with no fallback markup', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
 
     await page.goto(DAF_87B);
@@ -62,15 +62,10 @@ test.describe('Yoma legacy-schema fallback (daf 87b)', () => {
       expect(title.trim().length).toBeGreaterThan(0);
     }
 
-    // 87b predates the canonical display/learning schema, so titles must come
-    // from the fallback derivation, not display.title.
-    await expect(page.locator('.sugya-title-fallback')).toHaveCount(3);
-
-    // Each sugya renders its understanding panel twice (desktop block plus the
-    // mobile <details> fold); scope to the desktop block to count per-sugya.
-    const fallbackPanels = page.locator('.desktop-understanding .learn-panel-fallback');
-    await expect(fallbackPanels).toHaveCount(3);
-    await expect(fallbackPanels.first().locator('.learn-row')).not.toHaveCount(0);
+    // 87b was backfilled with the canonical display/learning schema, so it must
+    // no longer fall through to the legacy fallback rendering path.
+    await expect(page.locator('.sugya-title-fallback')).toHaveCount(0);
+    await expect(page.locator('.desktop-understanding .learn-panel-fallback')).toHaveCount(0);
 
     expect(pageErrors).toEqual([]);
   });

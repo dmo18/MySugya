@@ -45,13 +45,20 @@
       ],
       "display": {
         "whats": "'Live by them' (Lev 18:5): not die by them; derivation for saving life on YK",
-        "hint": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating Shabbat and YK to save life."
+        "hint": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating Shabbat and YK to save life.",
+        "title": "'Live By Them': The Torah Is for Life"
       },
       "learning": {
-        "summary": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating Shabbat and YK to save life.",
-        "ahaMoment": "'Live by them, not die by them': the Torah's commandments are instruments of life. When following a commandment would cause death, the commandment itself says to stay alive.",
-        "memoryAnchor": "Live by them, not die by them: the Torah sustains life, it does not sacrifice it.",
-        "openQuestion": "What is the deeper significance of the ruling about 'live by them' (lev 18:5): not die by them; derivation for s?"
+        "ahaMoment": "The Torah gave us commandments to live by, not to die by. Pikuach nefesh is not the suspension of Torah - it is the Torah most fully expressing what it was created for.",
+        "memoryAnchor": "'Live by them, not die by them' - the Torah's own purpose is life, making life-saving its truest expression.",
+        "learnerQuestion": "What does 'you shall live by them' (Lev 18:5) teach about the purpose of the commandments?",
+        "coreTension": "Between reading the commandments as obligations that must be fulfilled regardless of consequence and reading them as instruments of life that must yield when they threaten life.",
+        "coreMove": "The Gemara interprets 'live by them' as 'not die because of them': the commandments are given to create life, not to take it. This reading frames pikuach nefesh not as an exception to Torah but as the expression of the Torah's own purpose.",
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "'Live by them' (Lev 18:5) is the foundational proof that the commandments were given for life; violating them to preserve life is therefore not transgression but the fulfillment of their deepest purpose."
+        },
+        "learningBlocker": "Students may view life-saving as a reluctant exception carved out from halakha; this derivation reframes it as the halakha's primary intention."
       },
       "argumentFlow": [
         {
@@ -179,16 +186,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "Why, according to Rava, do all the proofs except Shmuel's fail?",
-          "a": "Each one only establishes that saving a life from certain danger overrides Shabbat. The real question is doubtful danger (safek pikuach nefesh), and only Shmuel's 'and live by them' (Leviticus 18:5) reaches it, since it forbids even risking a life to keep mitzvot."
+          "question": "Why, according to Rava, do all the proofs except Shmuel's fail?",
+          "answer": "Each one only establishes that saving a life from certain danger overrides Shabbat. The real question is doubtful danger (safek pikuach nefesh), and only Shmuel's 'and live by them' (Leviticus 18:5) reaches it, since it forbids even risking a life to keep mitzvot."
         },
         {
-          "q": "What does 'and live by them' (Leviticus 18:5) prove that the other verses do not?",
-          "a": "That one must not even place a life in possible danger to fulfill mitzvot - 'live by them, and not die by them.' This covers safek pikuach nefesh, the case the kal vachomer proofs cannot reach."
+          "question": "What does 'and live by them' (Leviticus 18:5) prove that the other verses do not?",
+          "answer": "That one must not even place a life in possible danger to fulfill mitzvot - 'live by them, and not die by them.' This covers safek pikuach nefesh, the case the kal vachomer proofs cannot reach."
         },
         {
-          "q": "How does Rava reinterpret the burglar case to show it only proves certain danger?",
-          "a": "A person being robbed will not stand by while his money is taken, so the burglar anticipates resistance and is presumed ready to kill. The threat is therefore certain, not doubtful, so the case cannot prove that doubtful danger overrides Shabbat."
+          "question": "How does Rava reinterpret the burglar case to show it only proves certain danger?",
+          "answer": "A person being robbed will not stand by while his money is taken, so the burglar anticipates resistance and is presumed ready to kill. The threat is therefore certain, not doubtful, so the case cannot prove that doubtful danger overrides Shabbat."
         }
       ],
       "finalRuling": "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating",
@@ -230,13 +237,20 @@
       ],
       "display": {
         "whats": "Mishna: four atonement mechanisms; sin-offering, repentance, death+YK",
-        "hint": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each atones for different categories."
+        "hint": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each atones for different categories.",
+        "title": "Four Atonement Mechanisms"
       },
       "learning": {
-        "summary": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each atones for different categories.",
-        "ahaMoment": "Four mechanisms, not one: atonement is not a single formula but a graduated system calibrated to the severity and nature of the sin.",
-        "memoryAnchor": "Four mechanisms: know which atonement matches which sin category.",
-        "openQuestion": "What is the deeper significance of the ruling about mishna: four atonement mechanisms; sin-offering, repentance,?"
+        "ahaMoment": "Atonement is calibrated to sin. The Torah did not give one universal repair mechanism but a system that matches the depth of the break with the demands of the repair.",
+        "memoryAnchor": "Four mechanisms: sin-offering, repentance, YK, death - each matched to a category of sin's severity.",
+        "learnerQuestion": "What are the four atonement mechanisms the Mishna identifies, and how do they differ?",
+        "coreTension": "Between the simplicity of a single atonement path and the Mishna's recognition that different categories of sin require different atonement mechanisms.",
+        "coreMove": "The Mishna distinguishes: sin-offerings for specific technical violations, repentance for violations of positive commandments, Yom Kippur for certain categories, and death for the most severe. Each mechanism targets a different level of sin and requires different conditions, creating a graduated system of atonement.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The Mishna's four atonement mechanisms form a graduated system matching the severity and type of sin: the more severe the transgression, the more demanding the atonement mechanism required."
+        },
+        "learningBlocker": "Students may assume all sins require the same process; the Mishna's system reveals that the type and severity of sin shape the appropriate atonement path."
       },
       "argumentFlow": [
         {
@@ -337,16 +351,16 @@
       ],
       "quizSeeds": [
         {
-          "q": "For which sins does Yom Kippur not atone until further action is taken, and what action?",
-          "a": "For sins between a person and another person. Yom Kippur atones only after the wrongdoer appeases the one he hurt. This is derived from 'before the Lord you shall be cleansed' (Leviticus 16:30)."
+          "question": "For which sins does Yom Kippur not atone until further action is taken, and what action?",
+          "answer": "For sins between a person and another person. Yom Kippur atones only after the wrongdoer appeases the one he hurt. This is derived from 'before the Lord you shall be cleansed' (Leviticus 16:30)."
         },
         {
-          "q": "Why does a definite guilt-offering atone while a doubtful one (asham talui) does not fully atone?",
-          "a": "The definite offering gives complete atonement. The doubtful guilt-offering only provides temporary protection until the person discovers whether he truly sinned. Also, Yom Kippur can substitute for the doubtful offering but not for the definite ones."
+          "question": "Why does a definite guilt-offering atone while a doubtful one (asham talui) does not fully atone?",
+          "answer": "The definite offering gives complete atonement. The doubtful guilt-offering only provides temporary protection until the person discovers whether he truly sinned. Also, Yom Kippur can substitute for the doubtful offering but not for the definite ones."
         },
         {
-          "q": "What happens to one who says 'I will sin and Yom Kippur will atone'?",
-          "a": "Yom Kippur does not atone for sins committed in reliance on it. Treating atonement as a license to sin forfeits that atonement."
+          "question": "What happens to one who says 'I will sin and Yom Kippur will atone'?",
+          "answer": "Yom Kippur does not atone for sins committed in reliance on it. Treating atonement as a license to sin forfeits that atonement."
         }
       ],
       "finalRuling": "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each ",
@@ -378,13 +392,20 @@
       ],
       "display": {
         "whats": "Death and Yom Kippur together atone for repented sins",
-        "hint": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone."
+        "hint": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
+        "title": "Death and Yom Kippur Together Atone for Severe Sins"
       },
       "learning": {
-        "summary": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
-        "ahaMoment": "Death + YK + repentance: the most serious sins require the most comprehensive combination - nothing is beyond atonement, but severe sins require correspondingly serious acknowledgment.",
-        "memoryAnchor": "Death + YK + repentance: nothing is beyond reach - but the heaviest sins need the full combination.",
-        "openQuestion": "What is the deeper significance of the ruling about death and yom kippur together atone for repented sins?"
+        "ahaMoment": "Death as atonement reframes the relationship between life, sin, and repair. Death is not the end of the story but part of the resolution.",
+        "memoryAnchor": "Death + YK = atonement for the most severe sins: death completes what YK cannot finish alone.",
+        "learnerQuestion": "Why do some sins require both Yom Kippur and death together for complete atonement?",
+        "coreTension": "Between the expectation that repentance and YK should be sufficient to atone for any sin and the Mishna's ruling that certain severe sins require death itself as part of the atonement process.",
+        "coreMove": "The Gemara explains: some sins represent such a profound rupture that only the ultimate life-event (death) combined with the ultimate atonement-day (YK) can complete the repair. Death purifies what YK cannot fully cleanse alone.",
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The requirement of death plus YK for the most severe sins reflects the principle that atonement must be proportionate to transgression; death is not punishment alone but part of the repair mechanism for the most fundamental ruptures."
+        },
+        "learningBlocker": "Students may view death as purely punitive; the Gemara frames it as also cathartic and restorative, completing what YK cannot."
       },
       "argumentFlow": [
         {
@@ -455,12 +476,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "According to Rabbi (Yehuda HaNasi), does Yom Kippur atone without repentance?",
-          "a": "Yes, for nearly all sins Yom Kippur atones whether or not one repented - except four severe cases (rejecting the yoke of mitzvot, denying God, distorting the Torah, and violating circumcision), which still require repentance."
+          "question": "According to Rabbi (Yehuda HaNasi), does Yom Kippur atone without repentance?",
+          "answer": "Yes, for nearly all sins Yom Kippur atones whether or not one repented - except four severe cases (rejecting the yoke of mitzvot, denying God, distorting the Torah, and violating circumcision), which still require repentance."
         },
         {
-          "q": "How is the Mishnah reconciled with Rabbi's view?",
-          "a": "The Mishnah can be read as: repentance still needs Yom Kippur to complete atonement, while Yom Kippur does not need repentance. So it does not have to contradict Rabbi."
+          "question": "How is the Mishnah reconciled with Rabbi's view?",
+          "answer": "The Mishnah can be read as: repentance still needs Yom Kippur to complete atonement, while Yom Kippur does not need repentance. So it does not have to contradict Rabbi."
         }
       ],
       "finalRuling": "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
@@ -492,13 +513,20 @@
       ],
       "display": {
         "whats": "Repentance itself atones for some categories of sin",
-        "hint": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual."
+        "hint": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
+        "title": "Repentance Alone Atones for the Lightest Sins"
       },
       "learning": {
-        "summary": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
-        "ahaMoment": "Teshuva alone for light sins: the lightest transgressions need only a sincere turning - the act of return itself is complete atonement.",
-        "memoryAnchor": "Teshuva alone for minor sins: the turning is the atonement; no further mechanism needed.",
-        "openQuestion": "What is the deeper significance of the ruling about repentance itself atones for some categories of sin?"
+        "ahaMoment": "The lightest sins require only the hardest thing: genuine return. No ritual, no sacrifice - just honest repentance. Ease of mechanism, depth of demand.",
+        "memoryAnchor": "Positive command violation: teshuva alone atones. The simplest mechanism, the most internal demand.",
+        "learnerQuestion": "For which category of sin is repentance alone sufficient for complete atonement?",
+        "coreTension": "Between the powerful atonement mechanisms of YK and sacrifice and the claim that for certain sins, none of these external mechanisms are required - teshuva is sufficient.",
+        "coreMove": "The Mishna establishes that for violations of positive commandments (where no explicit punishment is specified), sincere repentance alone achieves complete atonement immediately. The internal work of return is the full repair, requiring no external ritual.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "For the lightest categories of sin (violations of positive commandments without specified penalty), sincere repentance alone achieves complete atonement; the internal act of return is sufficient without any external mechanism."
+        },
+        "learningBlocker": "Students may expect all sins to require some external atonement process; recognizing that the internal act of teshuva can be complete in itself is a key distinction."
       },
       "argumentFlow": [
         {
@@ -569,12 +597,12 @@
       ],
       "quizSeeds": [
         {
-          "q": "How does Rav Yehuda reread the Mishnah so that listing a positive mitzva is not redundant?",
-          "a": "He explains that repentance atones for a positive mitzva and for a negative mitzva that can be rectified by a positive act (lav hanitak la'aseh). Such a prohibition has the lenient status of a positive command, so both belong in the lighter category."
+          "question": "How does Rav Yehuda reread the Mishnah so that listing a positive mitzva is not redundant?",
+          "answer": "He explains that repentance atones for a positive mitzva and for a negative mitzva that can be rectified by a positive act (lav hanitak la'aseh). Such a prohibition has the lenient status of a positive command, so both belong in the lighter category."
         },
         {
-          "q": "What is a lav hanitak la'aseh?",
-          "a": "A prohibition the Torah pairs with a corrective positive act. Because it can be set right by performing that act, the court does not impose lashes, and it is treated with the leniency of a positive mitzva."
+          "question": "What is a lav hanitak la'aseh?",
+          "answer": "A prohibition the Torah pairs with a corrective positive act. Because it can be set right by performing that act, the court does not impose lashes, and it is treated with the leniency of a positive mitzva."
         }
       ],
       "finalRuling": "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
