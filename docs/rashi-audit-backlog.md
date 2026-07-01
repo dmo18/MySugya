@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.67: schema backfill is complete, the perek-level semantic
+As of VERSION 14.69: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -34,8 +34,12 @@ A bounded two-entry Rashi helper audit pilot was run at VERSION 14.67
 (see the Pilot findings table below). Both entries were fixed. A bounded
 Batch 1 audit (10 more entries, all in 10b) was run at VERSION 14.68
 (see Batch 1 findings below). That batch also surfaced two major
-systemic findings, documented further down, that are explicitly NOT
-resolved by Batch 1 and need a dedicated pass of their own. This is
+systemic findings, documented further down. A bounded Batch 2 audit (6
+entries: 4 in 10a, 2 in 11a, the exact lines Batch 1 had already
+Hebrew-checked) was run at VERSION 14.69, fixing all 6 documented
+examples from the descriptive-style systemic finding (see Batch 2
+findings below). Both systemic findings are still open beyond the lines
+each batch fixed and need a dedicated pass of their own. This is
 still small, explicitly scoped work, not the dedicated Rashi
 content-quality audit described in the Scope note above. Rashi
 content-quality auditing of the remaining corpus and the
@@ -86,37 +90,41 @@ challenge). All fixed via English-only rewrites; no Rashi Hebrew touched.
 | 10b | 10 | Prior text ("summarizes the resolution") is the wrong topic; actual Hebrew is the literal continuation of the imprisonment-concern sentence. | Fixed: reworded to match. |
 | 10b | 11 | Prior text ("transitions to the new question about identifying the tanna of a related baraita") describes a topic from much later in the daf. Actual Hebrew closes the imprisonment sentence, then opens Rava's sukka challenge (dibbur hamatchil quoting Gemara line `yoma-010b-l06`). | Fixed: reworded to describe both halves accurately. |
 
+## Batch 2 findings (VERSION 14.69)
+
+All 6 entries below are the exact examples Batch 1 had already
+Hebrew/Gemara-checked in the systemic finding section (see below), now
+fixed. For each, both the English helper text and, where the checked
+Gemara line was wrong, `linkedGemaraLineIds` were corrected. No Rashi
+Hebrew touched.
+
+| daf | vilnaLine | placement (before -> after) | English alignment | resolution |
+|---|---|---|---|---|
+| 10a | 3 | `yoma-010a-l02` (wrong) -> `yoma-010a-l10` | misaligned - described "tents of Shem" content from an earlier comment | Fixed: reworded to Rav Yosef's identification of Sabtah/Raamah/Sabteca with inner/outer Sakistan; placement corrected to l10. |
+| 10a | 4 | `yoma-010a-l02` (wrong) -> `yoma-010a-l10` | misaligned - described the opening of the Genesis 10 nation list, a different comment | Fixed: reworded to Sakistan's geography (mountains, outer region encircling inner); placement corrected to l10. |
+| 10a | 22 | `yoma-010a-l39` (wrong) -> `yoma-010a-l42` | misaligned - described Rome "ruling the whole world" as a Mashiach precondition, several comments earlier | Fixed: reworded to Rabbi Yehuda's challenge about other Temple chambers used as guard residences; placement corrected to l42. |
+| 10a | 23 | `yoma-010a-l41` (wrong) -> `yoma-010a-l42` | misaligned - described a topic transition to the Parhedrin chamber that had already happened two comments earlier | Fixed: reworded to the end of the "guards of the house" phrase plus Rashi's gloss "it was a decree, explained further on"; placement corrected to l42 (the specific line containing "אלא לשכת פרהדרין גזירה היתה"). |
+| 11a | 2 | `yoma-011a-l01` (wrong) -> `yoma-011a-l06` | misaligned - fabricated "a fully walled city ... residents pass daily," details absent from the Hebrew | Fixed: reworded to the actual content (a province surrounded by mountains and forests, reachable only through gates); placement corrected to l06, whose baraita literally contains the phrase "ve-echad sha'arei medinot" (gates of provinces) that this Rashi comment glosses. |
+| 11a | 4 | `yoma-011a-l03` (wrong) -> `yoma-011a-l06` | misaligned - described "which tanna authored the baraita," a topic from later in the daf | Fixed: reworded to the place-name gloss "Akra de-Kuvei" (an arch-built structure near Machoza); placement corrected to l06, matching neighboring vilnaLine 6-7's Machoza discussion, which is already linked to l06. |
+
+Placement note: `linkedGemaraLineIds` is inert metadata (see the pilot's
+secondary observation above) - correcting it here was done because the
+correct line was locally certain for all 6 entries, not because any
+validator or rendered UI depends on it.
+
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
 While reconstructing 10b's real comment boundaries for Batch 1, the same
 verification method was applied to two neighboring daf as a spot check:
-10a and 11a. Both showed the same failure pattern as 10b did before this
+10a and 11a. Both showed the same failure pattern as 10b did before that
 batch: the English helper text describes a plausible-sounding but wrong
 topic, usually one that belongs to a different point later in the same
 daf, rather than the specific Rashi words actually at that vilnaLine.
-Confirmed examples (Hebrew/Gemara-checked, not fixed, out of scope for
-this batch):
+The 6 examples first confirmed there (10a vilnaLine 3-4 and 22-23, 11a
+vilnaLine 2 and 4) were fixed in Batch 2 above.
 
-- 10a vilnaLine 3-4: Hebrew is Rav Yosef's geographic identification of
-  "Sakistan" (inner/outer), linked to Gemara line `yoma-010a-l10`
-  ("Sabtah and Raamah and Sabteca"). Prior text describes "tents of
-  Shem" / "study halls and synagogues descended from Shem's lineage,"
-  a topic from a different, earlier comment entirely.
-- 10a vilnaLine 22-23: Hebrew is R. Yehuda's question about Temple
-  chambers used as guard residences, matching Gemara line
-  `yoma-010a-l41`/`l42`. Prior text describes "what it means for Rome
-  to 'rule the whole world' as a precondition for Mashiach," a topic
-  from several comments earlier.
-- 11a vilnaLine 2: Hebrew describes a province ("medina") surrounded by
-  mountains and forests, reachable only through gates. Prior text
-  fabricates "a fully walled city with proper entrance gates through
-  which residents pass daily" - details not present in the Hebrew.
-- 11a vilnaLine 4: Hebrew is a place-name gloss ("Akra de-Kuvei," an
-  arch-built structure). Prior text describes "the question of which
-  tanna authored the Temple-gates baraita," a topic from later in the
-  daf (near Gemara line `yoma-011a-l03`).
-
-10a's rashiTranslations (35 entries) were not fixed in this batch - the
+10a's remaining rashiTranslations (31 of 35 entries, all besides
+vilnaLine 3, 4, 22, 23) were not fixed in either batch - the
 mismatch pattern likely affects most or all of the daf, and correcting
 it requires the same real-comment reconstruction done for 10b, plus new
 historical/geographic research (nation identifications, Rome/Persia
@@ -124,8 +132,8 @@ eschatological material) that is out of scope for a "highest confidence,
 minimal rewrite" pass. 10b vilnaLine 12-20 (Rava's sukka challenge
 resolution and the dirat keva citation from Sukka 7b) have the same
 confirmed mismatch pattern and were also left unfixed - Batch 1 stopped
-at vilnaLine 11 to stay bounded. 11a was spot-checked only (2 of 43
-entries); the rest were not reviewed.
+at vilnaLine 11 to stay bounded. 11a's remaining entries (41 of 43, all
+besides vilnaLine 2 and 4) were not reviewed.
 
 Scope check: entries whose `en` text starts with "Rashi:" or "Rashi "
 (the descriptive-paraphrase style seen in 10a/10b/11a, as opposed to the

@@ -410,9 +410,9 @@
   ],
   "rashiTranslations": [
     { "vilnaLine": 1, "en": "Rashi on 'all Temple gates': the eastern gates of the Temple courtyard. All had no mezuza.", "linkedGemaraLineIds": ["yoma-011a-l01"] },
-    { "vilnaLine": 2, "en": "Rashi: 'a city that has gates' - this refers to a fully walled city with proper entrance gates through which residents pass daily.", "linkedGemaraLineIds": ["yoma-011a-l01"] },
+    { "vilnaLine": 2, "en": "Rashi: on 'the gates of provinces' - a province surrounded by mountains and forests for several parasangs, leaveable only through gates.", "linkedGemaraLineIds": ["yoma-011a-l06"] },
     { "vilnaLine": 3, "en": "Rashi on Nicanor Gate: the Nicanor Gate is named after Nikanor of Alexandria who donated its famous copper doors. Caretakers lived in chambers there.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
-    { "vilnaLine": 4, "en": "Rashi: the question of which tanna authored the Temple-gates baraita is important because it determines whether R. Yehuda's position is self-consistent.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
+    { "vilnaLine": 4, "en": "Rashi: closes the Machoza note, then glosses 'to Akra de-Kuvei' - a structure built on pillars near Machoza's gates, called 'Kuvei.'", "linkedGemaraLineIds": ["yoma-011a-l06"] },
     { "vilnaLine": 5, "en": "Rashi on the gezeira ligzeira problem: a decree made to protect another decree is normally prohibited because it exceeds the original legislation's scope.", "linkedGemaraLineIds": ["yoma-011a-l03"] },
     { "vilnaLine": 6, "en": "Rashi on 'Abulei d'Machoza': the city gates of Machoza, a major Jewish city in Babylonia. The question is why these obligated structures had no mezuzot.", "linkedGemaraLineIds": ["yoma-011a-l06"] },
     { "vilnaLine": 7, "en": "Rashi on Rav Safra's answer: the gates were built into the city wall structure itself, not freestanding gates with doorposts in the normal sense.", "linkedGemaraLineIds": ["yoma-011a-l06"] },
