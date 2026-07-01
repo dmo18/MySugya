@@ -4,6 +4,8 @@ MySugya is a universal React Talmud study app. Tractates are loaded as self-cont
 
 Yoma scope: 173 daf, 492 sugyot. The `en_lit:` layer stores literal translation data for Yoma.
 
+For the full, granular, step-by-step process behind schema backfill, perek review, source-text contradiction resolution, `takeaway.type` normalization, Rashi audit prep, validation gates, CI/deploy troubleshooting, and stale-container recovery, see `docs/tractate-build-process.md`. For the concrete record of how Yoma reached its current state, see `docs/yoma-completion-report.md`.
+
 ---
 
 ## Universal rules
@@ -56,6 +58,10 @@ MySugya/
     browser/runtime-guards.spec.js      Playwright runtime guard smoke test
   docs/
     vilna-breaks.md             Vilna edition reference
+    tractate-build-process.md   Generalized, reusable build/review/audit procedure for any masechta
+    yoma-completion-report.md   Concrete record of the Yoma build and review, phase by phase
+    yoma-perek-review.md        Perek-by-perek semantic review findings for Yoma
+    rashi-audit-backlog.md      Read-only backlog for the not-yet-started Rashi content/nekudot audit
   modules/
     yoma/                       Frozen Yoma module, see modules/yoma/MODULE.md
 ```
@@ -260,7 +266,7 @@ The pattern generalizes: each module has its own `scripts/`, `assets/`, and `MOD
 
 # Part B: Building a New Masechta
 
-Follow this pipeline. Replace Yoma/yoma with the new masechta throughout.
+Follow this pipeline. Replace Yoma/yoma with the new masechta throughout. For the fully granular version of every step below, including exact commands, decision trees for fix/defer/document, and pre-commit/post-push checklists, see `docs/tractate-build-process.md`.
 
 1. Create the source store. Fetch each daf from the Sefaria API and copy he/en verbatim into a JS source file under `modules/<masechta>/source_store.js`.
 2. Fetch the talmud.dev cache.

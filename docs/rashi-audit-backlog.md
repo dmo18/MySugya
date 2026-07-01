@@ -20,9 +20,26 @@ validator does not check.
 
 ## Status
 
-No entries yet. No dedicated Rashi audit pass has been run against the
-24a-27a batch (or any other batch); this note was created as a place to
-log findings if and when such a pass happens.
+As of VERSION 14.65: schema backfill is complete, the perek-level semantic
+review is complete, crosswired and duplicated scaffold fixes are
+complete, `takeaway.type` normalization is complete, and the 45a
+source-review issue is resolved (see `docs/yoma-completion-report.md` for
+the full phase-by-phase record). `validate:rashi:yoma` has passed
+throughout every one of those passes, confirming structural integrity was
+never disturbed.
+
+One non-Rashi Gemara-learning follow-up remains documented and open:
+5a/yoma-005a-s02 needs new authored content for its ahaMoment (a distinct
+category from the crosswire/scaffold fixes above - it requires judgment
+about what to write, not a mechanical field swap). See
+`docs/yoma-perek-review.md` and `docs/yoma-completion-report.md` for
+details.
+
+Rashi is the next planned area of work but has not started. No dedicated
+Rashi content-quality or nekudot audit pass has been run against any
+batch. No entries below. This note remains the place to log findings if
+and when that pass happens; see `docs/tractate-build-process.md` Section
+9 for how to prepare for it.
 
 ## Entry format
 
