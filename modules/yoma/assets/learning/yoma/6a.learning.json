@@ -43,7 +43,7 @@
         "coreMove": "Each disputant builds a coherent reading using the same two verses - but assigns one verse to sequence and one to material, or vice versa. The resolution of 'can you gird five people simultaneously' - 'not literally, but sequentially in one uninterrupted operation' - dissolves the practical objection to the 'together' position.",
         "resolution": "Both readings are internally coherent. The dispute about belt-material and the dispute about sequence are entangled: your answer to one determines your answer to the other. The Gemara presents both packages without ruling between them.",
         "takeaway": {
-          "type": "hermeneutical",
+          "type": "derivation_principle",
           "text": "When two verses appear to conflict, the resolution often requires assigning each verse a distinct teaching role. Which verse carries 'sequence' and which carries 'material' is not obvious from the text - it requires a prior commitment about what is more likely to be the command's emphasis vs. the implementation's emphasis."
         },
         "reasoningPattern": {
@@ -236,7 +236,7 @@
         "coreMove": "Introduce the safek niddah mechanism: blood discovered after relations creates retroactive impurity uncertainty. The solution is physical separation for seven days before Yom Kippur to prevent the scenario from arising at all.",
         "resolution": "R. Yehuda ben Beteira's answer: the separation from his home/wife is precisely to prevent the post-coital-blood scenario. The Gemara's phrasing correction ('and then she was found') clarifies this is not about known impurity but about a condition that becomes apparent after the fact.",
         "takeaway": {
-          "type": "legal_mechanism",
+          "type": "legal_principle",
           "text": "Jewish law responds to the legal state that actually obtains, not to subjective awareness. A man who had innocent relations and then discovers blood on the sheets is retroactively placed in a state of uncertainty - regardless of what he knew at the time. Prophylactic separation prevents this scenario from materializing."
         },
         "reasoningPattern": {
@@ -457,7 +457,7 @@
         "coreMove": "Use the impossibility proof: if the nighttime rule applied to bo'el niddah, the Kohen Gadol who accidentally became impure before sequestering could never serve on Yom Kippur (he would need an extra day beyond his seventh). Since the halakha does allow him to serve, the daytime rule must be correct.",
         "resolution": "R. Zeira's conclusion: bo'el niddah is like tamei met (corpse impurity), not like niddah - he immerses by day on his seventh day. This allows the Yom Kippur service to proceed. Rav Shimi proposes an alternative escape route (separate him slightly earlier), but R. Zeira's ruling stands as the more elegant resolution.",
         "takeaway": {
-          "type": "legal_derivation",
+          "type": "derivation_principle",
           "text": "Impossibility proofs are powerful in Talmudic reasoning: if a legal rule would make a legitimate Torah obligation impossible to fulfill in a known scenario, the rule must be modified. R. Zeira uses the Yom Kippur impossibility to prove the bo'el niddah daytime rule."
         },
         "reasoningPattern": {

@@ -361,7 +361,7 @@
         "coreMove": "From there the Gemara pivots to a parallel concern outside the Temple: a baraita on washing hands before a meal, where Rav Chisda rules that the washing should be done where others can see it, so the practice isn't mistaken for an idiosyncratic stringency.",
         "resolution": "The practical rulings stand as stated: a priest brushes away visible urine residue, and a person washes hands before a meal in view of others rather than hidden away.",
         "takeaway": {
-          "type": "halachic_distinction",
+          "type": "legal_principle",
           "text": "Dignity in service runs from major ritual purity down to small visible details - what is seen reflects what is expected, whether in the Temple courtyard or at an ordinary meal."
         },
         "ahaMoment": "Temple purity isn't only about ritual impurity (tum'ah) - it includes physical hygiene standards that reflect the dignity of divine service.",
@@ -502,7 +502,7 @@
         "coreTension": "The Mishna states flatly that no one enters the Temple courtyard for service without immersing, even if already pure - a requirement that cannot be purifying anyone, since the entrant is pure to begin with. Ben Zoma derives the requirement from the verse about the High Priest's Yom Kippur immersion, treating it as biblical and applying broadly to all Temple-service immersions; Rabbi Yehuda holds instead that it is only a rabbinic precaution, a 'reminder immersion' meant to make a priest consciously aware of his purity status before serving.",
         "coreMove": "Having laid out the two positions, the Gemara asks the natural follow-up: what practical halachic difference actually flows from calling the immersion biblical versus rabbinic, since either way every priest currently immerses before service?",
         "takeaway": {
-          "type": "halachic_distinction",
+          "type": "legal_principle",
           "text": "An immersion can function as ritual preparation and intentionality rather than purification - Ben Zoma and Rabbi Yehuda agree on the practice but disagree on whether it is a biblical mandate or a rabbinic reminder."
         },
         "ahaMoment": "The immersion isn't a purification - it's a consciousness-raising act. Even a pure priest must go through a physical act that says 'I am entering the realm of the sacred.' Ben Zoma finds a biblical basis; R. Yehuda says it's good practice.",

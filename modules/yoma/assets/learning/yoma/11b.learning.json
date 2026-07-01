@@ -34,7 +34,7 @@
         "coreMove": "The Gemara identifies three distinct reasons for exemption (not-dwelling, not-honor, not-mundane-residential), showing that mezuza obligation is multi-conditional: a space must be (1) used as a dwelling, (2) used with dignity, and (3) not a sacred precinct reserved for Temple service.",
         "resolution": "The three-part framework is established. The Temple Mount/chamber exemption definitively answers the question of the Parhedrin chamber: since the whole Temple is categorically exempt, the Parhedrin chamber's mezuza must be rabbinic only. This confirms the Sages' position against Rav Yehuda.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "A mezuza marks a human home, not divine space. The Temple's exemption from mezuza reveals that mezuza is a domestic institution - it belongs where people live, not where God is formally served. This is why the KG's personal chamber required a special decree: the Temple setting normally exempts everything there from mezuza."
         },
         "reasoningPattern": {
@@ -149,7 +149,7 @@
         "coreMove": "R. Meir's chokkein lehashlem principle: potential or theoretical compliance with a dimensional requirement is treated as actual compliance. This is a legal fiction that the Rabbis reject - for them, what exists currently matters, not what could theoretically be made.",
         "resolution": "The dispute is unresolved - both R. Meir's and the Rabbis' positions are preserved. In practice, the Median gate is treated as exempt by most (since the Rabbis are the majority view against R. Meir on this).",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Halakhic dimensional requirements are assessed based on the current reality, not on what could theoretically be made. R. Meir's dissenting position (theoretical completion counts) is a significant minority view preserved for its principled basis."
         },
         "reasoningPattern": {
@@ -266,7 +266,7 @@
         "coreMove": "The two parallel baraitot (mezuza and tzaraat) share the same structural reasoning: when there is a caretaker who effectively treats the synagogue as his residence, the synagogue can receive both obligations. Without a caretaker, the synagogue lacks a personal 'owner' to receive the tzaraat warning.",
         "resolution": "A synagogue with a caretaker's quarters attached: obligated in mezuza, susceptible to tzaraat. A synagogue without: the mezuza/tzaraat status depends on whether R. Meir or the Rabbis are followed (dispute continues in the next sugya).",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Halakhic categories like mezuza and tzaraat track personal ownership and residential connection, not just physical structure. A synagogue 'becomes' a house for these purposes when someone actually lives in it - the caretaker's residence transforms the legal character of the whole structure."
         },
         "reasoningPattern": {
@@ -403,7 +403,7 @@
         "coreMove": "The Gemara does not simply declare one baraita correct and the other wrong. It finds conditions under which each baraita is true, preserving both as valid rulings in different circumstances.",
         "resolution": "The most refined answer (third resolution): synagogues with caretakers' residences attached are susceptible to tzaraat; those without are not. This also applies to mezuza. The caretaker's personal residence creates the 'designated owner' relationship that both laws require.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Communal property can acquire the legal character of personal property when a specific individual has a sufficiently personal connection to it. The caretaker who lives in the synagogue building gives it a 'personal owner' in the halakhic sense, transforming its legal status for multiple laws simultaneously."
         },
         "reasoningPattern": {

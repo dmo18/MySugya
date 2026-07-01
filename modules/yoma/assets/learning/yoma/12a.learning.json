@@ -39,7 +39,7 @@
         "coreMove": "The Gemara identifies the two positions as a tannaitic dispute and then illustrates R. Yehuda's position with a baraita that specifically maps Temple structures to their tribal portions. The baraita presupposes division - it could not list which structure was 'in Judah's portion' if there were no division.",
         "resolution": "The dispute remains unresolved in the Gemara, with both positions preserved. The baraita supports R. Yehuda's view implicitly. Practically, city synagogues' tzaraat status depends on which position is accepted.",
         "takeaway": {
-          "type": "historical-halakhic",
+          "type": "legal_principle",
           "text": "The status of Jerusalem as divided or undivided tribal territory is not a theological abstraction - it determines which buildings in the city are subject to property-based laws like tzaraat. Historical geography shapes contemporary halakha."
         },
         "reasoningPattern": {
@@ -144,7 +144,7 @@
         "coreMove": "Rav Adda identifies the belt as the operative investment garment - the single item that marks the transition from regular kohen to Cohen Gadol status. Abaye insists that investiture is not reducible to one garment; the full eight garments plus the tzinnora (ritual fork) are required to properly initiate a replacement.",
         "resolution": "The dispute is unresolved on this daf. Rav Pappa's answer, which attempts to synthesize or decide between the positions, begins at the daf's end and continues on 12b.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Investiture is both symbolic and functional. The dispute between Rav Adda and Abaye reflects two models: either one garment can represent the full status change (symbolic sufficiency), or the complete set of garments is required because each one contributes to the Cohen Gadol's halakhic standing (functional totality)."
         },
         "reasoningPattern": {

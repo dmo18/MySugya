@@ -55,7 +55,7 @@
         "coreMove": "The Gemara introduces the distinction between voluntary and coerced residence. R. Yehuda holds that a dwelling one is compelled to occupy ('dirat anusim') does not create a mezuza obligation. The High Priest does not choose to stay in the Parhedrin chamber - he is required to. That compulsion removes the 'dwelling' status.",
         "resolution": "The contradiction dissolves: sukka requires permanent structure (and meets the dwelling threshold); Parhedrin is a coerced residence (and does not meet the dwelling threshold on its own). The Parhedrin mezuza comes from a separate rabbinic decree. R. Yehuda is internally consistent.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Mezuza does not follow from physical presence alone - it requires voluntary dwelling. The distinction between permanent/temporary and voluntary/coerced residence is fundamental to mezuza law. R. Yehuda's positions are not contradictory once you see that he is tracking different variables in each case."
         },
         "reasoningPattern": {
@@ -214,7 +214,7 @@
         "coreMove": "The Gemara entertains the possibility that R. Yehuda can hold the baraita's position, because the ruling about Temple gates and the ruling about Temple chambers can be seen as parts of a single unified decree rather than independent rulings.",
         "resolution": "The identification will be completed on 11a. The key move is showing that two rulings attributed to different contexts (gates and chambers) may stem from a single rabbinic decree, allowing R. Yehuda to hold both without contradiction.",
         "takeaway": {
-          "type": "methodological",
+          "type": "logical_principle",
           "text": "When a baraita appears anonymous, the Gemara traces which tanna could hold it. This is not merely academic - the attribution determines which body of reasoning the ruling belongs to, affecting how it interacts with other rulings by the same tanna."
         },
         "reasoningPattern": {

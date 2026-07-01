@@ -386,7 +386,7 @@
         "coreTension": "The Ben Zoma/Rabbi Yehuda dispute from the previous daf is not merely theoretical: if the immersion is biblically mandated (Ben Zoma), skipping it should disqualify the Temple service entirely; if it is only a rabbinic precaution (Rabbi Yehuda), the service remains valid even though the priest has failed to fulfill a positive commandment. The Gemara then tests Rabbi Yehuda's position against a baraita about the healed leper (metzora), who immerses the evening before his purification day - a case that initially seems to require a further morning immersion under Rabbi Yehuda's logic, contradicting the baraita's silence on that point.",
         "coreMove": "The Gemara resolves the apparent contradiction by treating the leper's case as distinct: the leper's evening immersion is its own established preparation, exempting him from immersing again the next morning. Ravina articulates this reconciliation. The sugya closes with Abaye putting a related question to Rav Yosef: do the Rabbis who disagree with Rabbi Yehuda actually require two separate immersions in certain edge cases?",
         "takeaway": {
-          "type": "halachic_distinction",
+          "type": "legal_principle",
           "text": "Whether an obligation is biblical or rabbinic is not just a label - it directly decides whether skipping it spoils the entire act (Ben Zoma) or only leaves a separate violation on the books while the service itself stands (Rabbi Yehuda)."
         },
         "ahaMoment": "The entire practical force of the dispute hinges on one question: does a purely procedural (non-purificatory) immersion, if skipped, affect the validity of Temple service? Ben Zoma says yes (it's biblical), R. Yehuda says no (it's procedural).",

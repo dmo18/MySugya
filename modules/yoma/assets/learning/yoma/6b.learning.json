@@ -51,7 +51,7 @@
         "coreMove": "The argument from omission: because the Sages did not institute a guard against visiting-related tumas meit, we can conclude something about the underlying legal status of tumas meit in the tzibbur. Rav Tachilifa uses this argument to support hutrah; Ravina blocks the argument by offering an alternative pragmatic explanation.",
         "resolution": "Two valid responses to the omission argument. Rav Tachilifa: it proves hutrah. Ravina: it proves only that frequency matters in rabbinical ordinances. Neither is conclusive - the underlying dispute will be carried into the next sugya.",
         "takeaway": {
-          "type": "legal_reasoning",
+          "type": "logical_principle",
           "text": "Arguments from legislative omission (why no guard against X?) can support either a legal conclusion (X is not legally prohibited) or a pragmatic one (X is too rare to warrant legislation). The Talmud presents both readings without immediately adjudicating between them."
         },
         "reasoningPattern": {
@@ -301,7 +301,7 @@
         "coreMove": "Map the hutrah/dchuya distinction onto the legislative question: when communal service proceeds with impure priests, does the system actively prefer purity (dchuya: seek replacements) or treat impurity as legally non-existent (hutrah: no preference required)?",
         "resolution": "Two versions of the dispute, each with a different threshold. The first version: agree on same-beit-av purity preference; disagree on cross-beit-av search. The second version: even within the same unit, Rav Nachman holds impure priests may serve alongside pure ones.",
         "takeaway": {
-          "type": "legal_structure",
+          "type": "legal_principle",
           "text": "Hutrah and dchuya are not just philosophical positions - they encode different legislative programs. Hutrah generates a flat permissive rule. Dchuya generates a 'do the best you can within the exception' rule, which means actively minimizing the prohibited act wherever possible."
         },
         "reasoningPattern": {

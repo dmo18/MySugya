@@ -58,7 +58,7 @@
         "coreMove": "The principle 'biddayn talya milta' (the matter depends on us) vs. 'b'kevi'a d'yar'cha talya milta' (the matter depends on the calendar) distinguishes the two cases. This is a scheduling solution, not a halachic change.",
         "resolution": "Rava's ruling: separate the YK kohein gadol on 3 Tishrei each year (no matter what day of the week it falls on). Separate the para priest on the fourth day of the week - so that his 4th day falls on Shabbat, the hazaah-free day.",
         "takeaway": {
-          "type": "practical",
+          "type": "legal_principle",
           "text": "Halachic problems can sometimes be solved through scheduling rather than legal reinterpretation. When we control the variables (when to start a process), we can engineer the outcome to match the ideal halachic result."
         },
         "reasoningPattern": {
@@ -251,7 +251,7 @@
         "coreMove": "R. Yehuda's question ('was it really called Parhedrin?') invites the honest answer: no, it was called that by the people as dark humor/social commentary on the corrupt practice of selling and rotating the High Priesthood.",
         "resolution": "The practical halacha about bakers' tithes continues in 9a with Yochanan High Priest's decree on dema'i tithes.",
         "takeaway": {
-          "type": "aggadic",
+          "type": "conceptual",
           "text": "Temple institutions are not just halachic constructs - they encode historical memory. The name 'Parhedrin' preserved in the Mishnah is itself a form of mourning for what the High Priesthood became in the late Second Temple period."
         },
         "reasoningPattern": {
@@ -420,7 +420,7 @@
         "coreMove": "The burden-of-proof principle ('hamotzi m'chaveiro alav hara'ayah') is applied to each tier of tithes. For maaser rishon and maaser ani: the Levi/poor person must prove the grain was untithed; they cannot. Therefore no separation required from the baker.",
         "resolution": "Bakers separate only trumat maaser and challah. The full explanation for maaser sheni exemption (government pressure by parhedrin enforcers) comes in 9a via Ulla.",
         "takeaway": {
-          "type": "practical",
+          "type": "legal_principle",
           "text": "Halachic obligations are calibrated to professional realities. Bakers sell continuously, cannot track each batch's tithe history, and face government economic pressure. The Rabbis recognized these structural constraints when ruling on their tithe obligations."
         },
         "reasoningPattern": {

@@ -58,7 +58,7 @@
         "coreMove": "The principle 'ראוי למצח' (fit for the forehead) is R. Shimon's solution to the broken-tzitz case without needing an extra derivation. R. Yehuda needs an additional derivation (doubled 'mitzcho') for the same conclusion.",
         "resolution": "Both R. Yehuda and R. Shimon agree: broken tzitz does not atone. They derive this from different parts of the verses. Both agree: tzitz on the forehead definitely atones. Their dispute is only about the peg case.",
         "takeaway": {
-          "type": "analytical",
+          "type": "logical_principle",
           "text": "When two tanaim reach the same conclusion (broken tzitz does not atone) but from different sources, that tells you something about how they read the verses - and by extension, what other conclusions they might draw differently from the same texts."
         },
         "reasoningPattern": {
@@ -337,7 +337,7 @@
         "coreMove": "The correct resolution distinguishes two questions: (1) Is tevila bizmana a mitzva? Both agree: yes. (2) Do we equate hazaah to tevila for the timing-mitzva rule? R. Meir: yes. R. Yosei: no. These are separate questions, so R. Yosei can hold 'yes' to (1) and 'no' to (2) without contradiction.",
         "resolution": "The halakha follows R. Yosei's position (hazaah only on day 3 and day 7) for the YK kohein gadol, and R. Chanina Segan's ruling for the para priest distinction. The practical implications are worked out in 8b.",
         "takeaway": {
-          "type": "dialectical",
+          "type": "logical_principle",
           "text": "When the Gemara rejects a hypothesis, look carefully at WHY it was rejected. Each rejection adds a constraint on what the correct resolution must look like. By the time all false resolutions are eliminated, the remaining answer is often precise and surprising."
         },
         "reasoningPattern": {

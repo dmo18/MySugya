@@ -48,7 +48,7 @@
         "coreMove": "Choosing a proof-case requires identifying a case where the mechanism you are proving IS operative. R. Yehuda chose a case where, in R. Shimon's view, the mechanism is entirely suspended. A proof can only work if both sides agree on the baseline.",
         "resolution": "The argument establishes the positions: R. Shimon = dchuya (tzitz needed, works even off forehead); R. Yehuda = hutrah (tzitz not needed, must be on forehead when worn). Abaye will clarify this in the next sugya.",
         "takeaway": {
-          "type": "analytical",
+          "type": "logical_principle",
           "text": "A proof from an example only works if both parties agree the example falls within the disputed category. Choosing an example where one party says 'this is a completely different category' does not advance the argument - it generates a new clarification (what makes that case different?)."
         },
         "reasoningPattern": {
@@ -249,7 +249,7 @@
         "coreMove": "Once the dispute is localized to the peg case, the verse analysis reveals the real disagreement: R. Yehuda holds 'al mitzcho v'nasa' controls (fitness for forehead required); R. Shimon holds 'tamid liratzon' controls (perpetual atonement, fitness not required).",
         "resolution": "Halakha: R. Yehuda's position - the tzitz must be on the forehead or at least fit for the forehead to atone. The kal v'chomer to tefillin is accepted as a binding application.",
         "takeaway": {
-          "type": "analytical",
+          "type": "logical_principle",
           "text": "Localizing a dispute to its precise scope is as valuable as resolving it. Abaye identifies the one case the tanaim actually disagree about, preventing overextension of both positions and allowing the verse analysis to be targeted."
         },
         "reasoningPattern": {

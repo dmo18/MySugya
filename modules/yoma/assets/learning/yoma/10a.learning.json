@@ -37,7 +37,7 @@
         "coreMove": "The Gemara uses the nation-list in Genesis 10 as a lookup table. By identifying each name with a known nation, it determines which nations fall under each patriarch's prophetic category. Rav Yosef's identification of Tiras with Persia is the linchpin for the eschatological argument that follows.",
         "resolution": "The identifications are accepted as received tradition. The conclusion is that Persia descends from Japheth, setting up the prophecy that Persia will overcome Rome.",
         "takeaway": {
-          "type": "hermeneutical",
+          "type": "derivation_principle",
           "text": "Biblical nation lists encode prophetic significance. The Rabbis read Genesis 10 not as ancient history but as a map of contemporary geopolitics - knowing who is who determines which prophecies apply to which powers."
         },
         "reasoningPattern": {
@@ -132,7 +132,7 @@
         "coreMove": "Rav introduces a factor that the nation-identification proofs do not account for: current behavior. Even if prophecy favors Persia, their destruction of synagogues creates a deficit that overrides the prophetic trajectory. This is a classic Rabbinic move: moral conduct can redirect prophetic outcomes.",
         "resolution": "The Gemara does not explicitly adjudicate between the majority view and Rav. Both positions are preserved. The nine-month calculation about Rome ruling the world introduces a timeline element.",
         "takeaway": {
-          "type": "theological",
+          "type": "conceptual",
           "text": "Prophetic fulfillment is not automatic. Even when lineage and scripture favor a nation, moral behavior - particularly regarding sacred spaces - can change the outcome. The Rabbis believed history is both determined by prophecy and responsive to human action."
         },
         "reasoningPattern": {
@@ -229,7 +229,7 @@
         "coreMove": "The Sages introduce a non-halakhic factor: public perception. The mezuza was placed not because the chamber legally required one, but to prevent the degrading impression that the High Priest was imprisoned. This is a rabbinic decree motivated by kavod (dignity), not dirah (residence).",
         "resolution": "The Sages' view - special rabbinic decree for kavod purposes - is the majority position. R. Yehuda's view that Parhedrin genuinely qualifies as a residence will generate further debate on the next daf.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "The Rabbis sometimes issued decrees for social and dignitary reasons, not just legal ones. The mezuza on the Parhedrin chamber is a reminder that halakha is sensitive to how observers perceive a situation - not only to technical legal requirements."
         },
         "reasoningPattern": {

@@ -33,7 +33,7 @@
         "coreMove": "The Gemara collapses the gate and chamber into one combined rabbinic decree rather than treating them as two separate decrees in sequence. This avoids the prohibition on stacking rabbinic decrees.",
         "resolution": "The Temple-gates baraita can reflect R. Yehuda's position because gate and chamber form a single unit - the decree applies to the whole structure, not to each part separately.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Rabbinic decrees that apply to connected structures can be treated as one ruling rather than two stacked decrees. The prohibition on gezeira ligzeira applies to distinct independent decrees, not to one ruling that covers a connected structure."
         },
         "reasoningPattern": {
@@ -139,7 +139,7 @@
         "coreMove": "The Gemara distinguishes between unpredictable supernatural danger (covered by mitzva-agent protection) and predictable human-imposed consequences (not covered). Samuel's example applies this distinction practically.",
         "resolution": "Machoza's gates lacked mezuzot because the danger of checking was real and predictable: if you find a mezuza that has been there unchecked for years and discover it is now pasul, you may be liable for all the time it was defective. This is not a risk mitzva-agent protection eliminates.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Mitzva-agent protection is not a blanket exemption from all harm. When danger is specific, predictable, and human in origin (like a legal fine), one should not rely on divine protection and may legitimately avoid the risky action."
         },
         "reasoningPattern": {
@@ -270,7 +270,7 @@
         "coreMove": "The interpretive dispute about 'nashim ne'otot bahen' reveals that the criterion is not women per se, but the domestic character of the use. Rav Kahana reads 'women drawing wine' as domestic use (= mezuza). Rav Yehuda reads 'women bringing wine to sell' as commercial use (= no mezuza).",
         "resolution": "Unresolved on this daf - the baraita conflict continues into 11b where the full conclusion emerges.",
         "takeaway": {
-          "type": "halakhic",
+          "type": "legal_principle",
           "text": "Mezuza obligation follows residential character, not just building type. The same storehouse can be obligated or exempt depending on how it is actually used by the household - storage for domestic use differs from commercial storage."
         },
         "reasoningPattern": {

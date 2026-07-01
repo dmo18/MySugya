@@ -367,7 +367,7 @@
         "coreMove": "Rava resolves the tension not by picking a side but by affirming both: Rabbi Zeira's objection is well-founded and the father of Rabbi Avin's principle is also well-founded, each describing a different layer of the same status. The practical instruction follows from this: leave the kometz in place without burning it until day breaks, then take a new kometz at the proper time. The page closes with the Mishna's related Temple protocol - any priest who needs to relieve himself must step away from the service area first.",
         "resolution": "The practical ruling is to leave the kometz in place overnight without burning it, and take a new kometz once day breaks - the nighttime kometz is treated as suspended rather than disqualified.",
         "takeaway": {
-          "type": "halachic_distinction",
+          "type": "legal_principle",
           "text": "An offering whose proper time simply hasn't arrived yet is not the same halachic category as one that is actually disqualified - the nighttime kometz waits for its moment rather than being thrown out."
         },
         "ahaMoment": "The nighttime kometz is neither 'valid' nor 'permanently invalid' - it is in a waiting state, and this temporal ambiguity drives the entire halachic analysis.",

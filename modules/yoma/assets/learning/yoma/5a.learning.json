@@ -56,7 +56,7 @@
         "coreMove": "Introduce the category of 'shirei mitzva': a residual, secondary component of a mitzva that is not itself the atonement mechanism but whose omission is still counted against you. The verse's 'to atone' is conditional, not causal: it signals that neglecting this optional step means the Torah credits you with less than optimal atonement.",
         "resolution": "The verse teaches: if you treat semikha as optional and skip it, the Torah considers this as if your atonement were incomplete - even though you did atone through the blood. This proves semikha is a shirei mitzva (not indispensable), and therefore its omission does not invalidate ongoing service. Consequently (for R. Chanina), it also does not invalidate the inauguration service.",
         "takeaway": {
-          "type": "conceptual_distinction",
+          "type": "conceptual",
           "text": "The category of 'shirei mitzva' captures optional mitzva components: they do not validate or invalidate the core transaction, but their omission still registers as a spiritual deficit. Recognizing this category allows the Gemara to read verses about secondary actions without over-inflating their legal weight."
         },
         "reasoningPattern": {
@@ -346,7 +346,7 @@
         "coreMove": "The daf ends without answering. This is an open stub - 'milta' - signaling the discussion continues on the next page. The question is deliberately left dangling to invite the learner to ask: what verse would extend the principle?",
         "resolution": "The resolution is left for the next section. The stub question shows that R. Yitzchak bar Bisna's kachah derivation is not complete - it covers only the inauguration text itself. Some further derivation is needed to include outside requirements.",
         "takeaway": {
-          "type": "methodological",
+          "type": "logical_principle",
           "text": "A word like 'kachah' creates an obligation of exact replication only within the scope of its context. Requirements written elsewhere require their own derivation. The Gemara is transparent about this gap - it ends the page with an open question rather than papering over it."
         },
         "reasoningPattern": {

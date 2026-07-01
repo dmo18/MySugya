@@ -55,7 +55,7 @@
         "coreMove": "Three independent bridges are offered - gezerah shavah on 'petach,' the all-inclusive 'keep God's charge,' and the phrase 'ki chen tzuviti.' Each provides a different jurisprudential basis. The baraita then shows that phrases that look redundant are actually doing distinct legal-narrative work.",
         "resolution": "The Leviticus requirements are brought under the same invalidation umbrella as the Exodus ones, either via verbal analogy or via independent inclusive phrases. A baraita then parses three near-identical phrases to show each targets a unique halakhic or contextual point.",
         "takeaway": {
-          "type": "methodological",
+          "type": "logical_principle",
           "text": "When the Torah uses nearly identical language in adjacent verses, the Gemara's default is not redundancy but specificity: each occurrence targets a different audience, moment, or legal question. Recognizing which phrase addresses which concern is a core exegetical skill."
         },
         "reasoningPattern": {
@@ -327,7 +327,7 @@
         "coreMove": "Shift the question from 'historical order' to 'verse-reconciliation': the dispute is about how to read two texts that appear to contradict each other. Abaye narrows the real dispute to the belt, the one garment where the texts genuinely diverge.",
         "resolution": "For tunic and mitre: no dispute, both texts agree Aaron came first. For the belt: the command says 'together,' the implementation says sequentially. This generates the two-position dispute. Abaye's contribution is eliminating all the false scope.",
         "takeaway": {
-          "type": "methodological",
+          "type": "logical_principle",
           "text": "When Amoraim dispute how an event happened in the Torah, they are usually not guessing about history - they are adjudicating between competing textual readings. Abaye's precision ('the dispute is only about the belt') is the key: it proves both parties are reading verses, not reconstructing events."
         },
         "reasoningPattern": {

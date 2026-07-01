@@ -48,7 +48,7 @@
         "coreMove": "Ulla's explanation introduces a sociological factor into halachic reasoning: when government pressure makes a community economically precarious, the Rabbis considered that factor when legislating tithe obligations. This is not halachic flexibility but a deliberate welfare consideration embedded in the ruling.",
         "resolution": "Practical: bakers who buy grain from amei ha'aretz need to separate only trumat maaser (1/100) and challah. They are not required to handle maaser sheni.",
         "takeaway": {
-          "type": "practical",
+          "type": "legal_principle",
           "text": "Halacha is not context-blind. When a community faces structural economic pressure that makes compliance impossible, the Rabbis can adjust obligations accordingly - not by waiving the Torah requirement but by adjusting the Rabbinic dema'i framework."
         },
         "reasoningPattern": {
@@ -221,7 +221,7 @@
         "coreMove": "The calculation is precise and memorable: total Second Temple years (420), minus four exceptional High Priests' terms (40 + 80 + 10 + 11 = 141), leaves ~279 years for 300+ remaining High Priests, each serving less than a year. The arithmetic is the sermon.",
         "resolution": "The Shiloh discussion closes with a rehabilitation: Eli's sons did not commit adultery. They committed a different sin (delaying offerings) that scripture treats with equivalent gravity. The severity of delaying korbanot for women is stated as equivalent to the most extreme sin, as a warning about neglecting Temple service.",
         "takeaway": {
-          "type": "aggadic",
+          "type": "conceptual",
           "text": "Institutional longevity does not equal spiritual health. A corrupt institution can persist for centuries while a righteous one may be brief. The measure of a generation is not how long its institutions last but the quality of its leadership and service."
         },
         "reasoningPattern": {
@@ -391,7 +391,7 @@
         "coreMove": "This is the principle of 'scriptural attribution by effect': when someone's action causes another to be placed in a sin-adjacent situation (forced separation from spouse), scripture holds the original actor responsible as if they committed the act. This is a recurring Talmudic reading strategy.",
         "resolution": "Eli's sons' actual sins: (1) delaying bird-offerings, causing women's extended stay (giluy arayot by attribution); (2) seizing raw meat before the fat was burned (bizayon kodashim). Both reflect priests treating Temple service as personal benefit.",
         "takeaway": {
-          "type": "aggadic",
+          "type": "conceptual",
           "text": "Scripture sometimes describes a sin in terms of its worst downstream effect rather than the literal act, in order to drive home the severity. The Talmud respects the surface reading enough to explain it without accepting it as literal."
         },
         "reasoningPattern": {

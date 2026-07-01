@@ -428,7 +428,7 @@
         "coreMove": "Counter the Sadducean misconception with a deliberate public act, then neutralize the secondary risk that act creates by making the vessels themselves impervious to impurity.",
         "resolution": "The deliberate tumah-and-immersion demonstrated Pharisaic halacha; the impurity-proof vessels prevented that demonstration from being read as permission to be lax about purity.",
         "takeaway": {
-          "type": "practical_application",
+          "type": "legal_principle",
           "text": "A public halachic demonstration can create a secondary perception problem; the remedy for that secondary problem must be baked into the demonstration itself."
         },
         "reasoningPattern": {
@@ -622,7 +622,7 @@
         "coreMove": "Multi-requirement convergence: when two halakhic orientations must be respected, select the intersection point and make it the site - then the site itself serves as a mnemonic.",
         "resolution": "Northeast corner = north (chatat requirement) + east (facing the Tent of Meeting). The location encodes the law.",
         "takeaway": {
-          "type": "practical_application",
+          "type": "legal_principle",
           "text": "Physical placement can encode halakhic requirements, making the location itself a heikher (distinctive indicator) that keeps the law vivid for those performing it."
         },
         "reasoningPattern": {
@@ -809,7 +809,7 @@
         "coreMove": "Verse-based definition: Reish Lakish derives the broader meaning from David's use of 'bira' in Chronicles for the entire future Temple.",
         "resolution": "The dispute is left unresolved here; both views are preserved. Context-dependent: the Para mishna's meaning is established by whichever reading the reader accepts.",
         "takeaway": {
-          "type": "conceptual_distinction",
+          "type": "conceptual",
           "text": "Hebrew words in Mishnaic geography can be proper names (specific locations) or common nouns (categories). Reading them correctly requires knowing which function the word serves in each context."
         },
         "reasoningPattern": {
@@ -1003,7 +1003,7 @@
         "coreMove": "Elimination + gezerah shavah: first prove the verse must split between two laws (by showing each phrase fits only one), then formally link the second law to the verse via a shared word.",
         "resolution": "Leviticus 8:34 is the anchor: 'to do' (parah) + 'to atone' (Yom Kippur). The gezerah shavah ('tzivah'/'tzivah' with Num 19:2) formally proves that 'to do' in Lev 8:34 refers to the heifer, completing the two-law derivation.",
         "takeaway": {
-          "type": "textual_principle",
+          "type": "derivation_principle",
           "text": "A gezerah shavah can do double work: it identifies what a phrase refers to AND imports a law from the text being linked. Here it both identifies 'to do' as the heifer AND imports the sequestration rule."
         },
         "reasoningPattern": {

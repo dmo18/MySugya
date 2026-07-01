@@ -39,7 +39,7 @@
         "coreMove": "Each tanna identifies a different dimension of preparation: R. Akiva focuses on honor (public witness), R. Natan on physical transformation (like an angel), R. Matya on spiritual preparation (awe). They do not contradict each other - they address different layers of readiness.",
         "resolution": "The three readings are complementary, not competing. Moses needed public recognition (R. Akiva), physical purification (R. Natan), and psychological awe (R. Matya). Rav Adda's addition integrates joy and trembling as the emotional tone of any genuine divine encounter.",
         "takeaway": {
-          "type": "spiritual_principle",
+          "type": "conceptual",
           "text": "Preparation for encountering the Divine involves multiple dimensions: public legitimacy, physical readiness, and interior awe. The Psalm adds that joy and trembling are not opposites - they must coexist in genuine religious experience."
         },
         "reasoningPattern": {
@@ -270,7 +270,7 @@
         "coreMove": "Use the 17 Tammuz tradition (when the tablets were shattered - a fixed and well-known date) as a calendar check. Count backward 40 days. Whichever opinion produces 40 days ending exactly on 17 Tammuz wins the arithmetic argument.",
         "resolution": "R. Akiva's count works: 7 Sivan + 24 days remaining in Sivan + 16 days of Tammuz = exactly 40 days, arriving at 17 Tammuz. R. Yosi HaGalili's count only works if the 6 preparation days are included within the 40.",
         "takeaway": {
-          "type": "reasoning_method",
+          "type": "derivation_principle",
           "text": "A tannaitic dispute can be tested against a fixed historical date. If only one opinion is arithmetically consistent with a known tradition (17 Tammuz), that is evidence - though not proof - in its favor. The losing opinion must then account for the discrepancy."
         },
         "reasoningPattern": {
@@ -502,7 +502,7 @@
         "coreMove": "Distinguish between the call (kria) and the speech (dibbur). At Sinai the call was public but the speaking was private. At the Tent both were private. Context determines which parts of a divine communication are public and which are not.",
         "resolution": "Public vs. private depends on the setting and purpose: Sinai required public witness to honor Moses and authenticate the revelation. The ongoing Tent of Meeting communications were private by design. The contradiction is resolved by differentiating calling from speaking.",
         "takeaway": {
-          "type": "behavioral_norm",
+          "type": "legal_principle",
           "text": "Two practical norms are derived from the Leviticus verse: (1) always call someone's attention before speaking to them (derekh eretz, from 'vayikra vayedaber'); (2) information shared with you is confidential until you are given permission to share it (from 'lemor' read as 'lo emor')."
         },
         "reasoningPattern": {
@@ -754,7 +754,7 @@
         "coreMove": "Reish Lakish's challenge to R. Yochanan assumed he holds that all written inauguration requirements invalidate. R. Yochanan did not object to this characterization - his silence confirms it. The Gemara reads non-refutation as implicit acceptance.",
         "resolution": "R. Yochanan is identified as the strict position: all written inauguration requirements invalidate. R. Chanina is more limited: only requirements shared with ongoing service invalidate. Both agree inauguration requirements can invalidate - they disagree on the scope.",
         "takeaway": {
-          "type": "reasoning_method",
+          "type": "derivation_principle",
           "text": "In Talmudic debate, silence in the face of an accusation or characterization is treated as concession. When R. Yochanan did not refute Reish Lakish's assumption about his position, the Gemara takes that as confirmation of the strict reading."
         },
         "reasoningPattern": {
