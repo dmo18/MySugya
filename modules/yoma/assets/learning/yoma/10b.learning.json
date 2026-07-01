@@ -412,65 +412,65 @@
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: explains which baraita is under discussion and what position it represents.",
+      "en": "Rashi: continuing on Rava's challenge, notes that the Rabbis exempt the sukka even during the festival - so evidently, even during the seven days, there is an opinion that exempts.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l18"
+        "yoma-010b-l06"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: on the possibility that R. Yehuda could be the tanna of the baraita.",
+      "en": "Rashi: closes that thought, then opens a new comment on Rava's resolution: 'when they disagree is regarding the seven days.'",
       "linkedGemaraLineIds": [
-        "yoma-010b-l18"
+        "yoma-010b-l07"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: explains the single-decree approach - how treating gates and chambers as one decree allows R. Yehuda to hold both rulings.",
+      "en": "Rashi: explains that the dispute over the seven days applies both to the chamber and to the sukka, and that the position which exempts one obligates the other.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l07"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: clarifies what 'one decree' means in this context - a unified rabbinic enactment covering related cases.",
+      "en": "Rashi: notes that the Rabbis and Rabbi Yehuda have effectively swapped their positions between sukka and chamber. Then Rashi opens a new comment on 'and sukka, the reason is separate.'",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: notes that the full resolution of the tanna identification question will continue on the next daf.",
+      "en": "Rashi: explains that Rabbi Yehuda follows his own established reasoning here.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: brief note on how this question connects to the broader mezuza law discussion spanning both daf.",
+      "en": "Rashi: cites Rabbi Yehuda's statement in Tractate Sukkah (7b) that a valid sukka requires a permanent dwelling.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: on the phrase used to introduce the identification question in the Gemara.",
+      "en": "Rashi: notes that on this basis Rabbi Yehuda validated a sukka higher than twenty cubits.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: closing comment on how the single-decree explanation preserves R. Yehuda's consistency.",
+      "en": "Rashi: explains that such a tall sukka is valid only because it must be built with a permanent partition.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: notes the significance of the coercion principle for later mezuza applications beyond the Temple context.",
+      "en": "Rashi: concludes that a permanent-walled structure is therefore significant for mezuza purposes too, closing the sukka comparison.",
       "linkedGemaraLineIds": [
-        "yoma-010b-l19"
+        "yoma-010b-l10"
       ]
     },
     {

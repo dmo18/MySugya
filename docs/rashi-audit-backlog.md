@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.69: schema backfill is complete, the perek-level semantic
+As of VERSION 14.70: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -38,12 +38,17 @@ systemic findings, documented further down. A bounded Batch 2 audit (6
 entries: 4 in 10a, 2 in 11a, the exact lines Batch 1 had already
 Hebrew-checked) was run at VERSION 14.69, fixing all 6 documented
 examples from the descriptive-style systemic finding (see Batch 2
-findings below). Both systemic findings are still open beyond the lines
-each batch fixed and need a dedicated pass of their own. This is
-still small, explicitly scoped work, not the dedicated Rashi
-content-quality audit described in the Scope note above. Rashi
-content-quality auditing of the remaining corpus and the
-nekudot/vowelization audit have not started.
+findings below). A bounded Batch 3 audit (10b vilnaLine 12-20, the
+documented remaining entries in that range) was run at VERSION 14.70
+(see Batch 3 findings below), resolving 10b through vilnaLine 20;
+vilnaLine 21 remains open (see Batch 3 findings for why). Both systemic
+findings are still open beyond the lines fixed so far (10a's remaining
+entries, 11a's remaining entries, 10b vilnaLine 21, and the 77a-88a
+placeholder text) and need a dedicated pass of their own. This is still
+small, explicitly scoped work, not the dedicated Rashi content-quality
+audit described in the Scope note above. Rashi content-quality auditing
+of the remaining corpus and the nekudot/vowelization audit have not
+started.
 
 ## Pilot findings (VERSION 14.67)
 
@@ -111,6 +116,49 @@ Placement note: `linkedGemaraLineIds` is inert metadata (see the pilot's
 secondary observation above) - correcting it here was done because the
 correct line was locally certain for all 6 entries, not because any
 validator or rendered UI depends on it.
+
+## Batch 3 findings (VERSION 14.70)
+
+10b vilnaLine 12-20 (the 9 entries left after Batch 1 stopped at
+vilnaLine 11) are fixed below. Re-derived the real comment boundaries by
+joining the raw talmud.dev print-lines and comparing each to the Gemara
+lines `yoma-010b-l06` (Rava's sukka challenge), `l07` (Rava's
+resolution: sukka and chamber rest on separate reasons), and `l10` (the
+sukka reason spelled out: Rabbi Yehuda requires a permanent dwelling,
+citing Sukka 7b). Both English text and `linkedGemaraLineIds` were
+corrected where wrong; no Rashi Hebrew touched.
+
+| daf | vilnaLine | placement (before -> after) | English alignment | resolution |
+|---|---|---|---|---|
+| 10b | 12 | `yoma-010b-l18` (wrong) -> `yoma-010b-l06` | misaligned - described "which baraita is under discussion," a topic from much later in the daf | Fixed: reworded to the actual continuation of Rava's sukka-challenge gloss (the Rabbis exempt it, so an exempting opinion exists even for the seven days); placement corrected to l06. |
+| 10b | 13 | `yoma-010b-l18` (wrong) -> `yoma-010b-l07` | misaligned - described "R. Yehuda as the tanna of the baraita," a topic from later in the daf | Fixed: reworded to the comment boundary (closes the prior thought, opens the dibbur hamatchil quoting "when they disagree is regarding the seven"); placement corrected to l07. |
+| 10b | 14 | `yoma-010b-l19` (wrong) -> `yoma-010b-l07` | misaligned - described a "single-decree approach" for gates and chambers, a topic not present here | Fixed: reworded to the actual content (the seven-day dispute applies to both chamber and sukka, with positions swapped between them); placement corrected to l07. |
+| 10b | 15 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described what "one decree" means, a fabricated framing | Fixed: reworded to the comment boundary (closes the swapped-positions point, opens the dibbur hamatchil "and sukka, the reason is separate"); placement corrected to l10. |
+| 10b | 16 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described a "tanna identification question" continuing to the next daf, a fabricated framing | Fixed: reworded to the actual content (Rabbi Yehuda follows his own established reasoning); placement corrected to l10. |
+| 10b | 17 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described a cross-daf connection to "mezuza law discussion," not present here | Fixed: reworded to Rashi's actual citation of Rabbi Yehuda's statement in Tractate Sukkah 7b; placement corrected to l10. |
+| 10b | 18 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described "the phrase used to introduce the identification question," a fabricated framing | Fixed: reworded to the actual content (Rabbi Yehuda validated a sukka higher than twenty cubits); placement corrected to l10. |
+| 10b | 19 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described "preserving R. Yehuda's consistency" in the tanna-identification framing | Fixed: reworded to the actual content (such a tall sukka is valid only with a permanent partition); placement corrected to l10. |
+| 10b | 20 | `yoma-010b-l19` (wrong) -> `yoma-010b-l10` | misaligned - described "the coercion principle for later mezuza applications," a topic from the earlier chamber discussion, not this comment | Fixed: reworded to the actual closing content (a permanent-walled structure is significant for mezuza too, closing the sukka comparison); placement corrected to l10. |
+
+10b's rashiTranslations (21 entries total: 1 fixed in the pilot, 10
+fixed in Batch 1, 9 fixed in Batch 3) are resolved through vilnaLine 20.
+vilnaLine 21 (the last entry, Hebrew "כל" - the truncated start of the
+mishna continuing onto 11a, matching the empty-`en` Gemara line
+`yoma-010b-l19`) was not reviewed and remains open; it was out of this
+batch's stated scope (vilnaLine 12-20).
+
+Secondary observations (not acted on, out of Batch 3 scope):
+
+- While verifying this batch, vilnaLine 11's `linkedGemaraLineIds`
+  (`yoma-010b-l18`, fixed for content only in Batch 1) was also found to
+  be a placement mismatch - the fixed English text describes a comment
+  boundary between `l13` (the "imprisoned" concern, closing) and `l06`
+  (Rava's sukka challenge, opening), not `l18`. Batch 3's scope was
+  explicitly limited to vilnaLine 12-20, so this was not corrected here.
+- vilnaLine 21's Hebrew ("כל") is a one-word fragment at the daf
+  boundary with no clear standalone comment content to translate; a
+  future pass should determine whether it needs a translation fix, a
+  placement fix, or is better left as-is given its truncated nature.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
