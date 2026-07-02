@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.78: schema backfill is complete, the perek-level semantic
+As of VERSION 14.79: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -74,7 +74,10 @@ disqualification scenarios, Rav Adda's belt proposal, Abaye's eight
 garments and tzinnora counter-proposal, and the cross-daf continuation
 into 12b). 12a (66 entries) is now fully resolved, bringing the
 descriptive-style hotspot total to 10a-12a (99 + 39 + 66 = 204
-entries). The descriptive-style systemic finding is still open beyond the lines fixed
+entries). The 12b index-misalignment finding documented after Batch
+11 was resolved in a dedicated remap (VERSION 14.79, see the "12b
+remap" section below): all 62 entries were rebuilt from a full
+raw-line reconstruction, closing 12b entirely. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -513,6 +516,67 @@ at 10a-vl35, 10b-vl21, 11a-vl43, and 11b-vl39.
 No deferrals were needed in Batch 11. This closes out 12a entirely:
 all 66 rashiTranslations entries are now grounded in their local
 Rashi Hebrew and correctly linked to their Gemara lines.
+
+## 12b remap (VERSION 14.79): full raw-line reconstruction, closing 12b
+
+Resolved the index-misalignment finding documented above (VERSION
+14.78). All 62 `rashiTranslations` entries were rebuilt from a full
+raw-line reconstruction of `assets/talmuddev/12b.json`'s Rashi text,
+joining consecutive print-lines to find genuine dibbur-hamatchil
+boundaries and cross-referencing each against the actual Gemara lines
+in `learning_data.js` (`yoma-012b-l01` through `l35`), rather than
+reworded in place - the prior content's index drift meant per-line
+wording, not just placement, needed to be regenerated to match this
+daf's real raw-line boundaries.
+
+The reconstructed sugya: `l01` (Rav Pappa's "his service inducts him"
+ruling and its Temple-vessel proof, continuing from 12a), `l04`
+(Rav Dimi's tradition on the common priest's belt material and a
+textual note on the correct Gemara reading), `l06` (the "is this
+during the year or on Yom Kippur" analysis), `l11`-`l12` (the
+resolution: on Yom Kippur both wear linen, so the distinguishing
+garments are those worn in common the rest of the year), `l13`
+(Ravin's tradition, clarifying Rav Dimi's), `l19` (Rav Nachman bar
+Yitzchak's baraita on "he shall wear," extending to the turban and
+belt), `l22` (Rabbi Dosa's teaching that the Yom Kippur garments
+remain valid for the common priest, and Rabbi's two rebuttals, the
+first about the belt), `l26` (Rabbi's second rebuttal and the
+"worn-out garments" gloss), `l29` (Rabbi Dosa's own reasoning from the
+genizah baraita), `l31` (Rabbi Meir's ruling on the replacement's
+status), `l33` (Rabbi Yosei's stricter ruling), and `l35` (Rabbi
+Yosei's proof from Yosef ben Ilem of Tzippori, including Rashi's
+extended halachic elaboration of the "rivalry" and "we elevate but do
+not lower in sanctity" reasoning, continuing to vilnaLine 62). `l41`
+and `l42` (Rabbah bar bar Chana's halachic ruling, truncated) have no
+corresponding Rashi commentary in this daf's raw print-lines and are
+correctly unreferenced.
+
+vilnaLine 57-61 (the "rivalry"/pashita/tumah-shechicha elaboration)
+do not correspond to a distinct Gemara line id of their own - they
+are Rashi's extended explanation of the halachic mechanics behind
+Rabbi Yosei's ruling on `l33`/`l35`, a sub-argument the learning JSON's
+Gemara scaffolding does not itemize as separate citations. These were
+linked to the nearest matching real anchor (`l33` for vilnaLine 57,
+`l35` for vilnaLine 58-61) rather than left unlinked or given a
+fabricated id, consistent with how prior batches handled comments
+that elaborate on, rather than newly cite, a Gemara line.
+
+vilnaLine 62 is the daf's final raw print-line, a single truncated
+word ("kivan," since) matching the opening word of 13a's rashi[0]
+raw text ("kivan d'amrei..."), confirmed by checking `assets/talmuddev/13a.json`
+directly. Documented as a cross-daf continuation rather than
+fabricated, matching the established pattern.
+
+All 62 entries' `linkedGemaraLineIds` were also corrected from the
+unpadded, dangling `yoma-12b-lXX` form to the real zero-padded
+`yoma-012b-lXX` ids; every id now used (`l01`, `l04`, `l06`, `l11`,
+`l12`, `l13`, `l19`, `l22`, `l26`, `l29`, `l31`, `l33`, `l35`) was
+confirmed present in `learning_data.js` before committing.
+
+No deferrals were needed. This closes out 12b entirely: all 62
+rashiTranslations entries are now grounded in their local Rashi
+Hebrew, correctly indexed to their raw print-lines, and correctly
+linked to their Gemara lines.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
