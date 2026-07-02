@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.72: schema backfill is complete, the perek-level semantic
+As of VERSION 14.73: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -48,16 +48,19 @@ vilnaLine 21 content); Subtask B fixed 6 entries in 10a and 6 in 11a;
 Subtask C fixed 12 more entries in 11a, resolving 11a through vilnaLine
 26. Batch 5 (VERSION 14.72, see Batch 5 findings below) closed out 11a
 entirely: the remaining 24 entries (vilnaLine 1, 3-8, 27-43) were fixed,
-including a correction of one Batch 2 placement (vilnaLine 4). The
-descriptive-style systemic finding is still open beyond the lines fixed
-so far. Unreviewed entries remain at 10a vilnaLine 1 (spot-checked only,
-appears aligned, not formally verified) and vilnaLine 9-21 and 25-35;
-plus the other descriptive-style daf named in the scope estimate below;
-plus the 77a-88a placeholder text. All need a dedicated pass of their
-own. This is still small, explicitly scoped work, not the dedicated
-Rashi content-quality audit described in the Scope note above. Rashi
-content-quality auditing of the remaining corpus and the
-nekudot/vowelization audit have not started.
+including a correction of one Batch 2 placement (vilnaLine 4). Batch 6
+(VERSION 14.73, see Batch 6 findings below) closed out 10a entirely: the
+remaining 25 entries (vilnaLine 1, 9-21, 25-35) were fixed. The
+early-daf hotspot first identified in Batch 1 (10a, 10b, 11a) is now
+fully resolved: 99 entries audited and corrected across those three daf.
+The descriptive-style systemic finding is still open beyond them - the
+scope estimate below lists the other daf using the descriptive
+"Rashi:" style, none of which have been verified yet - plus the 77a-88a
+placeholder text. All need a dedicated pass of their own. This is still
+small, explicitly scoped work, not the dedicated Rashi content-quality
+audit described in the Scope note above. Rashi content-quality auditing
+of the remaining corpus and the nekudot/vowelization audit have not
+started.
 
 ## Pilot findings (VERSION 14.67)
 
@@ -257,6 +260,41 @@ Gemara lines. This closes out 11a's rashiTranslations (43/43 resolved).
 | 11a | 43 | unchanged (`l51`) | English fabricated "seven gate types" content; actual Hebrew is the single word "beit," the truncated start of the "beit sha'ar" comment continuing onto 11b (confirmed against 11b's first Rashi line). Placement already matched the Gemara's identical truncated word at `l51`. | Fixed: reworded to state the cross-daf continuation. |
 
 No deferrals were needed in Batch 5.
+
+## Batch 6 findings (VERSION 14.73): 10a closed out
+
+The remaining 25 entries of 10a (vilnaLine 1, 9-21, 25-35), fixed by
+the same reconstruction method. This closes out 10a's rashiTranslations
+(35/35 resolved), completing the early-daf hotspot (10a, 10b, 11a).
+Even the aggadic name-etymology comments turned out to be fully
+locally groundable: each dibbur hamatchil quotes a phrase in Gemara
+line `l25` verbatim, and the glosses are self-contained (strides,
+Lamentations 3 citation, plow rows, neck through the sky window), so
+no external research or deferral was needed.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 10a | 1 | unchanged (`l01`) | English was a vague paraphrase ("explains the verse... and how it connects"); actual Hebrew opens 'even though God will enlarge Japheth' - the Persians merited to build the Second Temple, yet. | Fixed: reworded for precision. |
+| 10a | 9 | `l10` -> `l25` | English fabricated "on Tuval - Beit Unaiki"; actual Hebrew completes the Ahiman comment (the tanna was expounding names, so he cited this verse too). | Fixed: reworded and placement corrected. |
+| 10a | 10 | `l10` -> `l25` | English fabricated "on Meshech - Musya"; actual Hebrew opens the gloss on 'who renders the land like pits' (quoting `l25` verbatim) - with his strides. | Fixed: reworded and placement corrected. |
+| 10a | 11 | `l12` -> `l25` | English fabricated "on Tiras - Persia"; actual Hebrew closes the strides gloss and opens 'and Sheshai' - a term of ruin. | Fixed: reworded and placement corrected. |
+| 10a | 12 | `l12` -> `l25` | English fabricated Tiras/Persia significance; actual Hebrew cites 'ruin and breaking' (Lamentations 3) and begins the one-root-letter point. | Fixed: reworded and placement corrected. |
+| 10a | 13 | `l15` -> `l25` | English fabricated "proof that Persia will overcome Rome"; actual Hebrew concludes the shin-root point and opens 'furrows' - like the rows. | Fixed: reworded and placement corrected. |
+| 10a | 14 | `l15` -> `l25` | English fabricated "first of three proofs"; actual Hebrew concludes 'of the plow,' then records a girsa note - the 'davar acher' reading is not in Rashi's text. | Fixed: reworded and placement corrected. |
+| 10a | 15 | `l15` -> `l25` | English fabricated "second proof"; actual Hebrew opens 'the sun is a necklace' (quoting `l25`) - it appears as though his neck. | Fixed: reworded and placement corrected. |
+| 10a | 16 | `l25` -> `l28` | English fabricated "third proof"; actual Hebrew concludes the sky-window image and opens a textual note on the next statement's attribution. | Fixed: reworded and placement corrected to the newly-opened comment's line. |
+| 10a | 17 | unchanged (`l28`) | English fabricated "Rav's dissent... destroy synagogues" (an `l37` topic); actual Hebrew is a girsa note: the correct reading is 'Rabbi Yehoshua ben Levi said in the name of Rabbi.' | Fixed: reworded. |
+| 10a | 18 | `l28` -> `l32` | English fabricated synagogue-destruction significance; actual Hebrew opens 'he stated it before one of the Sages' (quoting `l32`). | Fixed: reworded and placement corrected. |
+| 10a | 19 | `l30` -> `l34` | English fabricated "how Rav's position differs"; actual Hebrew concludes (the thing stated was Rabbah bar Ulla's objection) and opens 'the Chaldeans fell' (quoting `l34`). | Fixed: reworded and placement corrected to the newly-opened comment's line. |
+| 10a | 20 | `l37` -> `l34` | English fabricated nine-month-tradition content (an `l39` topic); actual Hebrew continues - Belshazzar into the hand of. | Fixed: reworded and placement corrected. |
+| 10a | 21 | `l37` -> `l34` | English fabricated a Micah-verse identification; actual Hebrew concludes - Darius the Mede and Cyrus the Persian, his son-in-law. | Fixed: reworded and placement corrected. |
+| 10a | 25 | unchanged (`l44`) | English said the comment "clarifies R. Yehuda's position that the chamber qualifies as a genuine residence" - backwards; actual Hebrew concludes the imprisonment concern and opens 'is not a house' (quoting `l44`). | Fixed: reworded. |
+| 10a | 26 | `l44` -> `l46` | English fabricated "the Sages' counter-position"; actual Hebrew concludes (for mezuza we require a significant house) and opens 'Rabbi Yehuda obligates' (quoting `l46`). | Fixed: reworded and placement corrected to the newly-opened comment's line. |
+| 10a | 27-30 | 27-28 unchanged (`l46`); 29-30 `l47` -> `l46` | English fabricated imprisonment-reason and residence-type content; actual Hebrew is one continuous gloss on 'Rabbi Yehuda obligates': regarding tithes, tevel is not obligated (even against casual eating) until it enters through the front of the house, citing 'I have removed the sacred portion from the house.' | Fixed: reworded as accurate continuations, placement corrected where wrong. |
+| 10a | 31-34 | 31 `l47` -> `l46`; 32-34 `l48` -> `l46` | English fabricated dirat keva/coercion content (topics belonging to `l44`/10b); actual Hebrew glosses 'in eruv' (an unmerged sukka opening onto a shared courtyard prohibits all residents from carrying) and 'and in mezuza' (even though not made for both seasons). | Fixed: reworded as accurate continuations and placement corrected. |
+| 10a | 35 | unchanged (`l48`) | English fabricated a "closing note on how the Sages' decree differs"; actual Hebrew is the single word 'ela,' the truncated start of the 'ela amar Abaye' comment continuing onto 10b (confirmed against 10b's first Rashi line). `l48` is the daf's own truncated final Gemara word, the closest local anchor. | Fixed: reworded to state the cross-daf continuation. |
+
+No deferrals were needed in Batch 6.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
