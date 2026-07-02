@@ -35157,12 +35157,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 1,
         he: "אגופיה דמזבח. על גגו ומאי לשון טהרו על שם שמטהר ומפנה",
-        en: "Rashi: 'on the body of the altar itself' - what is the meaning of tohoro (purity)? It is the altar's cleared top - where incense was burned in the morning and cleared away, exposing the stone. 'Like the very sky for purity' - as clear as the sky.",
+        en: "Rashi: opens 'on the body of the altar', completing the word begun on 15a - on its roof; and why the term tohoro? Because he clears away and removes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l01"
+          "yoma-015b-l01"
         ]
       },
       {
@@ -35171,12 +35171,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 2,
         he: "הקטורת שנשרף עליו בבקר וחותיהו אילך ואילך ומזה על מקום",
-        en: "Rashi: 'like the very sky for purity' proves it means the exposed upper face of the altar, like the clear open sky.",
+        en: "Rashi: continues - the incense burned on it that morning, pushing it aside, and sprinkles on the exposed spot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l01"
+          "yoma-015b-l01"
         ]
       },
       {
@@ -35185,12 +35185,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 3,
         he: "הגילוי כדכתיב וכעצם השמים לטוהר כמו לטהר: עולה טעונה",
-        en: "Rashi: 'olah requires a yesod' - the foundation ledge must be below the point where olah blood is applied.",
+        en: "Rashi: concludes - as it is written 'like the very sky for purity (latohar)', meaning to clear. Then opens 'a burnt offering requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l02"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35199,12 +35199,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 4,
         he: "יסוד. שיהא דמה ניתן במקום שיהא יסוד למטה הימנו דהכי",
-        en: "Rashi: 'so that there is a yesod below it' - olah blood goes to the area where the foundation extends beneath.",
+        en: "Rashi: continues - a base (yesod)' - its blood must be placed where there is a base below it, for so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l02"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35213,12 +35213,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 5,
         he: "אמרינן בזבחים (דף נא.) אל יסוד",
-        en: "Rashi: the Gemara quotes from Zevachim about where the olah blood must be placed relative to the yesod.",
+        en: "Rashi: continues - we say in Zevachim (51a): 'at the base of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l02"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35227,12 +35227,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 6,
         he: "מזבח העולה לזבחה של עולה יהא",
-        en: "Rashi: 'for the olah at its base' - meaning the yesod must be present below the point of application.",
+        en: "Rashi: continues - the altar of the burnt offering' - the burnt offering's blood must have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35241,12 +35241,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 7,
         he: "יסוד למטה הימנו: קרן מזרחית",
-        en: "Rashi: southeast corner - this corner had a yesod and was the first encountered when ascending the ramp and turning right.",
+        en: "Rashi: concludes - a base below it. Then opens 'the southeast corner",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35255,12 +35255,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 8,
         he: "דרומית לא היה לה יסוד. כדאמרינן",
-        en: "Rashi: Tractate Middot (Chapter 3, Mishna 1) states: the yesod ran along the entire north face and entire west face.",
+        en: "Rashi: continues - had no base' - as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35269,12 +35269,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 9,
         he: "במסכת מדות (פ\"ג משנה א') היסוד",
-        en: "Rashi: the yesod occupied one cubit at the east (where the north face ends) and one cubit at the south (where the west face ends).",
+        en: "Rashi: continues - in tractate Middot (3:1): the base",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35283,12 +35283,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 10,
         he: "היה מהלך על פני כל הצפון ועל",
-        en: "Rashi: so the yesod ran: full north, full west, one cubit into east at the north end, and one cubit into south at the west end.",
+        en: "Rashi: continues - ran along the entire north side and along",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35297,12 +35297,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 11,
         he: "פני כל המערב אוכל במזרח אמה",
-        en: "Rashi: therefore there was no yesod in the south portion of the east face (southeast corner area).",
+        en: "Rashi: continues - the entire west side, taking up one cubit on the east",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35311,12 +35311,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 12,
         he: "אחת כשהצפון כלה למזרח ובדרום",
-        en: "Rashi: and no yesod in the east portion of the south face (southeast again).",
+        en: "Rashi: continues - where the north ends at the east, and on the south",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35325,12 +35325,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 13,
         he: "אמה אחת כשהמערב כלה לדרום",
-        en: "Rashi: meaning the southeast corner (mizrachit dromit) had no yesod.",
+        en: "Rashi: continues - one cubit where the west ends at the south,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35339,12 +35339,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 14,
         he: "אלמא לא היה יסוד למזרחית דרומית",
-        en: "Rashi: and Zevachim 53b explains why - Benjamin's tribe got the altar territory and no yesod belongs to him there.",
+        en: "Rashi: continues - so evidently there was no base at the southeast corner,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35353,12 +35353,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 15,
         he: "ואמרינן בזבחים (דף נג:) לפי שלא",
-        en: "Rashi: therefore there was no yesod for the southeast corner - as stated in Zevachim.",
+        en: "Rashi: continues - and we say in Zevachim (53b) it was because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l05"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35367,12 +35367,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 16,
         he: "היתה אמה היסוד של כל המזרח",
-        en: "Rashi: 'since the Master said' - since Middot's yesod distribution is established, applying it here.",
+        en: "Rashi: continues - the base cubit of the whole east side",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35381,12 +35381,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 17,
         he: "ושל כל דרום בחלקו של בנימין",
-        en: "Rashi: in this context the northeast-to-east direction is not relevant - the concern is about which corners have a yesod.",
+        en: "Rashi: continues - and of the whole south side was not in Benjamin's portion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35395,12 +35395,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 18,
         he: "כדמתרגמינן באחסנתיה יתבני",
-        en: "Rashi: 'only to the right toward the east' - this general principle about rightward turns comes from Zevachim's discussion of the altar ramp.",
+        en: "Rashi: continues - as we render the verse 'in his inheritance shall the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35409,12 +35409,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 19,
         he: "מדבחא (בראשית מט) לפיכך לא היה",
-        en: "Rashi: in Zevachim 53a the rule 'all turns are to the right' applies during the priestly service movements around the altar.",
+        en: "Rashi: concludes - be built' (Genesis 49); therefore there was no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l05"
         ]
       },
       {
@@ -35423,12 +35423,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 20,
         he: "יסוד לה: כיון דאמר מר כו'.",
-        en: "Rashi: the priest ascending the ramp turns right - so the first corner encountered is the southeast (mizrachit dromit).",
+        en: "Rashi: concludes - base for it. Then opens 'since the Master said, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35437,12 +35437,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 21,
         he: "ממתניתין דרמי בר יחזקאל היא",
-        en: "Rashi: there, since there is no yesod, the priest cannot apply olah blood - he continues to the next corner.",
+        en: "Rashi: continues - it is from the baraita of Rami bar Yechezkel,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35451,12 +35451,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 22,
         he: "לקמן (דף נח:): לא יהו אלא דרך",
-        en: "Rashi: he circles and arrives at the northeast corner (mizrachit tzefonit) - first with a yesod present.",
+        en: "Rashi: concludes - cited further ahead (58b). Then opens 'they are only to the right,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35465,12 +35465,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 23,
         he: "ימין למזרח. הכא לא שייך למזרח",
-        en: "Rashi: there he applies the blood - even though the blood-giver stands on the floor (not the ramp), he throws from a distance as stated 've-zarku.'",
+        en: "Rashi: continues - toward the east' - here 'toward the east' does not apply,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35479,12 +35479,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 24,
         he: "אבל בזבחים שייך למיתנייה דאיירי",
-        en: "Rashi: even though blood service does not happen on the ramp itself, the priest stands on the floor and throws toward the corner - below the red line (chut ha-sikra).",
+        en: "Rashi: continues - but in Zevachim it fits to teach it, since it deals",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35493,12 +35493,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 25,
         he: "התם בנתינת כבש המזבח לדרום",
-        en: "Rashi: even so, since for chatat blood (which goes above the red line) the priest must ascend the ramp to apply - for all blood applications the practice begins from the south face, turning rightward.",
+        en: "Rashi: continues - there with placing the altar's ramp to the south,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35507,12 +35507,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 26,
         he: "ויליף לה מן ומעלותיהו פונות קדים",
-        en: "Rashi: 'perhaps for the chatat' - could the verse be referring to a New Moon chatat whose blood R. Shimon applies with olah-style rites?",
+        en: "Rashi: continues - deriving it from 'and its steps facing east' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35521,12 +35521,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 27,
         he: "תן מעלותיו לדרום כדי שתהא תחילת",
-        en: "Rashi: it cannot be, because the verse states 'as a chatat upon the olah of the TAMID' - limiting R. Shimon's ruling to the tamid only.",
+        en: "Rashi: continues - put its steps to the south so that the start",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l09"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35535,12 +35535,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 28,
         he: "פינותיו לקדים כשתפנה לדרך ימין",
-        en: "Rashi: 'we taught there in Tamid' - the mishna in Tractate Tamid about the Beit HaMoked chambers is not embedded in Yoma's Gemara because it belongs to Tamid.",
+        en: "Rashi: continues - of your turning is eastward when you turn to the right,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l14"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35549,12 +35549,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 29,
         he: "דכל פינות דרך ימין הן דתני רמי",
-        en: "Rashi: but it is cited here because the earlier passage discussed who authored the Yoma service order - and now it is R. Shimon's parallel in Tamid.",
+        en: "Rashi: continues - since all turns are to the right, as Rami",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l14"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35563,12 +35563,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 30,
         he: "בר יחזקאל עומד על שנים עשר",
-        en: "Rashi: the citation is appropriate here even though it belongs to Tamid, because of the thematic connection.",
+        en: "Rashi: continues - bar Yechezkel taught about 'standing on twelve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l14"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35577,12 +35577,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 31,
         he: "בקר וגו' ואגב ההיא גירסא נקט",
-        en: "Rashi: 'who authored the Yoma service order? It is R. Shimon ish HaMitzpah' - we don't hear from him that he said this specifically.",
+        en: "Rashi: continues - oxen, etc.'; and on account of that version it uses",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l19"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35591,12 +35591,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 32,
         he: "בכל דוכתי למזרח ולא שייך למימר",
-        en: "Rashi: except because we know he disputed the Tamid service order, we attribute the Yoma anonymous text to him.",
+        en: "Rashi: continues - 'toward the east' everywhere, though here one need only say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l19"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35605,12 +35605,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 33,
         he: "אלא דרך ימין ותו לא: ברישא",
-        en: "Rashi: he disagrees with the Tamid order, so the Yoma anonymous position is his.",
+        en: "Rashi: concludes - 'to the right' and no more. Then opens 'he encounters that one first' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l19"
+          "yoma-015b-l09"
         ]
       },
       {

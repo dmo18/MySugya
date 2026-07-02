@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.89: schema backfill is complete, the perek-level semantic
+As of VERSION 14.90: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -116,7 +116,12 @@ vilnaLine 59 (closing 14b entirely, 59/59), and fixed 15a's
 vilnaLine 1-33 (15a has 66 entries, above the single-chunk
 threshold, so it is split in two). A second sub-chunk at VERSION
 14.89 (see "15a, vilnaLine 34-66" below) fixed the remaining 33
-entries, closing 15a entirely (66/66 resolved). No
+entries, closing 15a entirely (66/66 resolved). A first sub-chunk of
+15b at VERSION 14.90 (see "15b, vilnaLine 1-33" below) verified the
+15a/15b boundary (15b's raw text opens "אגופיה דמזבח", restating
+15a's truncated final word) and fixed 15b's vilnaLine 1-33 (15b has
+66 entries, split in two); vilnaLine 34-66 remain for a follow-up
+chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1071,6 +1076,42 @@ All 33 fixed entries' ids were corrected to the real zero-padded
 the split pair `l44a`/`l44b` for vilna line 44, which the old
 unpadded ids collapsed into a single wrong `l44`. No deferrals. 15a
 is fully resolved, 66/66.
+
+## 15b, vilnaLine 1-33 (VERSION 14.90), first half of a two-part daf
+
+Verified the 15a/15b boundary first: 15b's raw talmud.dev Rashi text
+opens "אגופיה דמזבח. על גגו ומאי לשון טהרו", restating and completing
+15a's truncated final word "אגופיה" - no regression, no change needed
+on 15a.
+
+15b has 66 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-33 here, vilnaLine 34-66 in a follow-up chunk. 15b has
+only 8 real Gemara lines (`yoma-015b-l01` through `l30`), and its
+stale entries showed both the unpadded-id pattern and genuine
+content drift (for example vilnaLine 3-5 were linked to `l02`,
+which has no yesod text, while the Rashi there quotes `l05`'s
+"עולה טעונה יסוד" verbatim).
+
+vilnaLine 1-2 open `l01` (tohoro means the altar's roof, cleared of
+that morning's incense ash, per "like the very sky for purity").
+vilnaLine 3-19 open `l05` (the burnt offering requires a base; the
+southeast corner had no base, with the Middot 3:1 geometry of the
+base running along the north and west sides only and the Zevachim
+53b explanation that the missing sides were not in Benjamin's
+portion). vilnaLine 20-33 open `l09` (the "since the Master said"
+citation from Rami bar Yechezkel's baraita at 58b, why "toward the
+east" is borrowed wording from Zevachim's ramp discussion, and the
+opening of "he encounters that one first").
+
+All 33 fixed entries' ids were corrected to the real zero-padded
+`yoma-015b-lXX` form (`l01`, `l05`, `l09`). No deferrals in this
+sub-chunk. vilnaLine 34-66 (the rest of the right-turn circuit
+discussion, the sin-offering/burnt-offering derivation, the Chamber
+of the Lambs and Hall of the Hearth topography, and the truncated
+final word "ששיקצום" continuing onto 16a) remain for the follow-up
+chunk; the stale entries there include vilnaLine 51-66 with empty
+`linkedGemaraLineIds` and placeholder text, a worse baseline than
+usual.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
