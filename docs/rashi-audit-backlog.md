@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.73: schema backfill is complete, the perek-level semantic
+As of VERSION 14.74: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -53,7 +53,10 @@ including a correction of one Batch 2 placement (vilnaLine 4). Batch 6
 remaining 25 entries (vilnaLine 1, 9-21, 25-35) were fixed. The
 early-daf hotspot first identified in Batch 1 (10a, 10b, 11a) is now
 fully resolved: 99 entries audited and corrected across those three daf.
-The descriptive-style systemic finding is still open beyond them - the
+Batch 7 (VERSION 14.74, see Batch 7 findings below) moved to the next
+daf in the sugya, 11b, fixing vilnaLine 1-25 of its 39 descriptive-style
+entries; vilnaLine 26-39 remain for Batch 8. The descriptive-style
+systemic finding is still open beyond the lines fixed so far - the
 scope estimate below lists the other daf using the descriptive
 "Rashi:" style, none of which have been verified yet - plus the 77a-88a
 placeholder text. All need a dedicated pass of their own. This is still
@@ -295,6 +298,42 @@ no external research or deferral was needed.
 | 10a | 35 | unchanged (`l48`) | English fabricated a "closing note on how the Sages' decree differs"; actual Hebrew is the single word 'ela,' the truncated start of the 'ela amar Abaye' comment continuing onto 10b (confirmed against 10b's first Rashi line). `l48` is the daf's own truncated final Gemara word, the closest local anchor. | Fixed: reworded to state the cross-daf continuation. |
 
 No deferrals were needed in Batch 6.
+
+## Batch 7 findings (VERSION 14.74): 11b, vilnaLine 1-25
+
+Moved to the next daf in the same mezuza sugya (11a vilnaLine 43's
+truncated comment continues directly into 11b vilnaLine 1, "beit
+sha'ar"). 11b's rashiTranslations (39 entries) had the same descriptive-
+style mismatch pattern, compounded by a real complication: raw print-
+lines 1-3 gloss three terms (beit sha'ar, marpeset, akhsadra) in a
+different order than the prior entries assumed, so the term-to-content
+alignment was off by roughly one line throughout the opening block.
+Raw print-lines 4-25 are dense architectural/geometric material (the
+Median gate dispute over arch dimensions - foot height, opening width,
+"chokkein lehashlem") where each vilnaLine is often a short fragment of
+one long technical sentence; fixes here describe the specific fragment
+at that position rather than summarizing the whole passage, matching
+the established per-fragment convention (see Batch 1's 10b dirat-keva
+fixes). Every fix was grounded directly in the raw talmud.dev text
+cross-checked against the Gemara's own detailed English translation
+(same measurements, same terms), so no external source was needed. This
+batch covers vilnaLine 1-25 of 39; vilnaLine 26-39 remain for Batch 8.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 11b | 1 | unchanged (`l01`) | English was reasonably close ("gatehouse... passageway... exempt") but not a precise gloss of the specific Hebrew (which glosses "shortcut," not "passageway/not a dwelling"). | Fixed: reworded for precision. |
+| 11b | 2 | unchanged (`l01`) | English fabricated "aksenedra" content, a term not glossed until much later (Batch 8's vl30 area, per the prior mis-numbering); actual Hebrew closes the gatehouse gloss and opens on "marpeset" (balcony), not aksenedra. | Fixed: reworded to the actual term and content. |
+| 11b | 3 | unchanged (`l01`) | English fabricated "marpeset" content, which actually belongs at vilnaLine 2; actual Hebrew closes the balcony gloss and opens "akhsadra" (portico), then a new comment "a conclusive refutation." | Fixed: reworded to the actual terms and content. |
+| 11b | 4 | `l03` -> `l10` | English fabricated a bathroom/kavod exemption (an `l03` topic, but not glossed at this position); actual Hebrew closes the "tannaitic dispute" note and opens "and the Median gate" (quoting `l10`). | Fixed: reworded and placement corrected. |
+| 11b | 5 | `l03` -> `l10` | English fabricated tannery-exemption content; actual Hebrew continues the Median gate gloss (made in Media) and opens "that is not roofed." | Fixed: reworded and placement corrected. |
+| 11b | 6 | `l03` -> `l10` | English fabricated bathhouse-exemption content; actual Hebrew continues the unroofed-gate gloss and opens "and the Rabbis." | Fixed: reworded and placement corrected. |
+| 11b | 7 | `l07` -> `l10` | English fabricated mikveh-exemption content (an `l07` topic, misattributed here); actual Hebrew continues "who exempt it, because there is no gate without four handbreadths width." | Fixed: reworded and placement corrected. |
+| 11b | 8 | `l07` -> `l10` | English fabricated Temple Mount exemption content; actual Hebrew continues the dome-narrowing point. | Fixed: reworded and placement corrected. |
+| 11b | 9 | `l07` -> `l15` | English fabricated "tiyuvta d'Rav Yehuda" content (that note is actually vilnaLine 3, not here); actual Hebrew closes the narrowing point and opens "and they agree that if at its foot there are ten" (quoting `l15`). | Fixed: reworded and placement corrected. |
+| 11b | 10-24 | `l10`/`l15`/`l21` (varied) -> `l15` (each) | English throughout this range fabricated summary content about the "six gates" count and the chokkein lehashlem dispute in general terms, not tied to the specific fragment at each line; actual Hebrew is the granular geometric text (foot/height/width measurements for the two disputed sub-cases). | Fixed: reworded each as the accurate specific fragment; placement corrected to `l15` throughout (the line containing this entire passage). |
+| 11b | 25 | `l38` -> `l21` | English fabricated a "first resolution: R. Meir vs. Rabbis" synagogue-tzaraat framing (an `l38` topic from much later); actual Hebrew opens the transition into `l21`'s specific dispute case (foot 3, width not yet 4, room to carve). | Fixed: reworded and placement corrected. |
+
+No deferrals were needed in Batch 7.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
