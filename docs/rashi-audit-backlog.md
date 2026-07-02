@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.82: schema backfill is complete, the perek-level semantic
+As of VERSION 14.83: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -92,8 +92,11 @@ competing later Gemara lines. A follow-up dedicated pass at VERSION
 14.82 (see "13a vilnaLine 18-29 resolved" below) resolved that
 ambiguity by cross-referencing the local English translation stored
 alongside each Gemara line, fixing the remaining 12 entries and
-closing 13a entirely (29/29 resolved). No regression was found on 12b
-in either pass. The descriptive-style systemic finding is still open beyond the lines fixed
+closing 13a entirely (29/29 resolved). A dedicated 13b pass at
+VERSION 14.83 (see "13b resolved" below) verified the 13a/13b
+boundary (no regression), then fixed all 28 of 13b's entries by
+reading the daf's sugya scaffolding first, closing 13b entirely.
+No regression was found on 12b or 13a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -734,6 +737,71 @@ unpadded, dangling `yoma-13a-lXX` form to the real zero-padded
 | 13a | 29 | `l13` (dangling) -> `l29b` (valid) | English fabricated "staggered conditions still fail" summary content; actual Hebrew is a single truncated word ("im," if) matching the opening of 13b's own raw Rashi text ("if her counterpart dies"). | Fixed: reworded to document the cross-daf continuation (verified against 13b's raw talmud.dev text); placement corrected to `l29b`. |
 
 No deferrals remain. This closes out 13a entirely: all 29
+rashiTranslations entries are now grounded in their local Rashi
+Hebrew, correctly indexed to their raw print-lines, and correctly
+linked to their Gemara lines.
+
+## 13b resolved (VERSION 14.83), closing 13b entirely
+
+Checked 13b next, following 13a. Confirmed the 13a/13b boundary first:
+13a vilnaLine 29 (a single truncated word, "if") links correctly to
+`yoma-013a-l29b`, and 13b's own raw talmud.dev text opens "אם מתה
+חבירתה" ("if her counterpart dies"), the direct continuation - no
+regression, no change needed on 13a.
+
+13b showed the same index-misalignment pattern as 12b and 13a (real,
+on-topic Rashi translation assigned to the wrong vilnaLine), plus the
+same unpadded `yoma-13b-lXX` id bug. Reading the sugya scaffolding
+first (`yoma-13b-s01`: `l01`-`l11`, the conditional-divorce sugya's
+tail carried over from 13a; `yoma-13b-s02`: `l20`-`l22`, two
+levirate-marriage objections to the "one house" premise; `yoma-13b-s03`:
+`l24`-`l29`, the onen High Priest sugya) supplied the disambiguating
+structure needed to walk all 28 raw print-lines with confidence.
+
+vilnaLine 1 closes 13a's carried-over formula (`l01`) then opens a
+brief gloss on `l05`'s "on condition you do not enter the synagogue"
+stipulation, clarifying it applies specifically on Yom Kippur (a
+detail the Gemara's own text leaves implicit). vilnaLine 2 closes that
+gloss, then opens Rashi's own transitional recap ("since we said above
+that 'his house' does not imply two") bridging directly into `l20`'s
+formal objection - confirmed by the near-identical "אלא מעתה" phrasing
+and by vilnaLine 3-4's content ("two yevamot coming from one man")
+matching `l20`'s objection almost verbatim, just with "one man" in
+place of the Gemara's "one house." vilnaLine 4-6 open and explain
+`l22`'s parallel objection about a betrothed woman, an exact phrase
+match ("ארוסה לא תתייבם"). Notably, `l05`'s "divorce both wives with
+complementary conditions" formula and `l11`'s further exploration are
+not otherwise commented on in this run of raw print-lines - like `l25`
+on 13a, Rashi does not comment on every Gemara clause.
+
+vilnaLine 7-21 are one continuous stretch explaining `l24`, the onen
+baraita and Rava's "kol hayom" gloss: the verse source permitting the
+Kohen Gadol to serve despite being an onen (Leviticus 21, expounded via
+Zevachim 16a), the contrasting rule for a common priest, the
+prohibition on eating consecrated food (an a fortiori inference from
+the lenient ma'aser law, Deuteronomy 26), and Rava's explanation that
+"the whole day" means a mitzva to actively bring him from home to
+serve. vilnaLine 22-27 open and explain `l25`, Abaye's challenge to
+Rava (an exact phrase match, "השתא לרבי") and its cited baraita.
+vilnaLine 28, the daf's final raw print-line, is a single word
+("lomar," to say) that verbatim matches Gemara `l29`'s own truncated
+text, confirming the established cross-daf continuation pattern
+without needing to read into 14a (out of this pass's scope).
+
+All 28 entries' `linkedGemaraLineIds` were also corrected from the
+unpadded, dangling `yoma-13b-lXX` form to the real zero-padded
+`yoma-013b-lXX` ids (`l01`, `l05`, `l20`, `l22`, `l24`, `l25`, `l29`).
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 13a | 29 | `l29b` (unchanged) | Boundary check only: confirmed correct, no regression found. | No change. |
+| 13b | 1-2 | `l01` (dangling) -> `l05`/`l20` | English fabricated "retroactively" reasoning attached to the wrong clause; actual Hebrew closes the 13a-carried formula, glosses `l05`'s synagogue-entry timing, then opens the transitional bridge into `l20`'s objection. | Fixed: reworded as accurate continuations; placement corrected to `l05` then `l20`. |
+| 13b | 3-6 | `l01`/`l02` (dangling) -> `l20`/`l22` | English fabricated content describing formulas from elsewhere in the sugya, out of place; actual Hebrew states and explains the two levirate-marriage objections almost verbatim. | Fixed: reworded as accurate continuations; placement corrected to `l20` then `l22`. |
+| 13b | 7-21 | `l06`-`l09` (dangling, mixed order) -> `l24` (each) | English fabricated or repeated content across multiple non-adjacent entries (vilnaLine 17-19 duplicated vilnaLine 9-11's topic out of order); actual Hebrew is a single continuous explanation of the onen baraita and Rava's "kol hayom" gloss. | Fixed: reworded as accurate continuations grounded in the raw Hebrew; placement corrected to `l24`. |
+| 13b | 22-27 | `l08`/`l09` (dangling) -> `l25` (each) | English fabricated "final note on the section" summary content; actual Hebrew opens and explains Abaye's challenge to Rava and its cited baraita. | Fixed: reworded as accurate continuations; placement corrected to `l25`. |
+| 13b | 28 | `l09` (dangling) -> `l29` (valid) | English fabricated content describing Abaye's challenge already covered elsewhere; actual Hebrew is a single word matching Gemara `l29`'s own truncated text. | Fixed: reworded to document the cross-daf continuation; placement corrected to `l29`. |
+
+No deferrals were needed. This closes out 13b entirely: all 28
 rashiTranslations entries are now grounded in their local Rashi
 Hebrew, correctly indexed to their raw print-lines, and correctly
 linked to their Gemara lines.
