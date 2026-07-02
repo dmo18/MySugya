@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.88: schema backfill is complete, the perek-level semantic
+As of VERSION 14.89: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -114,8 +114,9 @@ below) confirmed that boundary (15a's raw text opens "מערב עד בקר",
 completing 14b's truncated "מערב"), resolved the deferred 14b
 vilnaLine 59 (closing 14b entirely, 59/59), and fixed 15a's
 vilnaLine 1-33 (15a has 66 entries, above the single-chunk
-threshold, so it is split in two); vilnaLine 34-66 remain for a
-follow-up chunk. No
+threshold, so it is split in two). A second sub-chunk at VERSION
+14.89 (see "15a, vilnaLine 34-66" below) fixed the remaining 33
+entries, closing 15a entirely (66/66 resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1037,6 +1038,39 @@ real zero-padded `yoma-015a-lXX` ids (`l01`, `l06`, `l12`, `l13`,
 reply, the sin-offering/burnt-offering sprinkling derivation, the
 matzlif discussion, and the truncated final word "אגופיה" continuing
 onto 15b) remain for the follow-up chunk.
+
+## 15a, vilnaLine 34-66 (VERSION 14.89), second half, closing 15a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 34-36 open
+`l21` (the "it was taught first, in wonder" challenge to Rav Pappa).
+vilnaLine 37-45 open and close `l25` (Abaye's reply: the first
+chapter's mishna is general instruction, not a sequence, teaching
+that the High Priest stays engaged in the service all seven days).
+vilnaLine 46-53 open `l33` (the derivation from Numbers 28:15 that
+the daily burnt offering carries sin-offering placement procedure
+alongside its own). vilnaLine 53 also opens `l36` ("four that are
+four", on the four corners). vilnaLine 54-56 open `l39` ("we have
+not found blood that atones and atones again"). vilnaLine 57-60 open
+`l41` (the "separation of placements" answer and the challenge to
+put one placement below and two above the scarlet line). vilnaLine
+61 opens `l42` (the sprinkling one-above-seven-below mishna cited
+from 53b). vilnaLine 62-63 open `l44a` (the matzlif answer and Rav
+Yehuda's "like a lasher" demonstration, including Rashi's admission
+that the word matzlif is unknown to him). vilnaLine 64-65 open
+`l44b` (the "tohoro of the altar" mishna, "apalgeih", and "tihara"
+meaning noon). vilnaLine 66 is the daf's final truncated word
+"אגופיה", the start of the dibbur hamatchil continuing on 15b,
+linked to `l47` ("אַגּוּפֵיהּ", 15a's own truncated final Gemara
+line), consistent with all prior boundary handling; 15b's raw text
+was already confirmed to open "אגופיה דמזבח" by the 15a boundary
+reconnaissance.
+
+All 33 fixed entries' ids were corrected to the real zero-padded
+`yoma-015a-lXX` form (`l21`, `l25`, `l33`, `l36`, `l39`, `l41`,
+`l42`, `l44a`, `l44b`, `l47`); this daf's real id scheme includes
+the split pair `l44a`/`l44b` for vilna line 44, which the old
+unpadded ids collapsed into a single wrong `l44`. No deferrals. 15a
+is fully resolved, 66/66.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

@@ -34111,12 +34111,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 34,
         he: "תנא ברישא וכו'. [בתמיה] דאוקי",
-        en: "Rashi: teaching first X and then Y - but Abaye placed Chapter 1 with the two-lamp section.",
+        en: "Rashi: opens 'it was taught first, etc.' - said in wonder, for Abaye established",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l33"
+          "yoma-015a-l21"
         ]
       },
       {
@@ -34125,12 +34125,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 35,
         he: "אביי מתניתין דפ\"ק בהטבת שתי",
-        en: "Rashi: Abaye places the first chapter at the two-lamp service (first cleaning) and the second chapter at the five-lamp cleaning.",
+        en: "Rashi: continues - the mishna of the first chapter as the cleaning of two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l33"
+          "yoma-015a-l21"
         ]
       },
       {
@@ -34139,12 +34139,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 36,
         he: "נרות ודפרק שני בהטבת ה' נרות:",
-        en: "Rashi: 'And Abaye says to you' - Abaye's own resolution: Chapter 1's 'all seven days he sprinkles' is not about Yom Kippur.",
+        en: "Rashi: concludes - lamps, and that of the second chapter as the cleaning of five lamps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l36"
+          "yoma-015a-l21"
         ]
       },
       {
@@ -34153,12 +34153,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 37,
         he: "ואביי אמר לך. האי דפ\"ק דקתני",
-        en: "Rashi: the 'all seven days he sprinkles' passage does not describe Yom Kippur service specifically.",
+        en: "Rashi: opens 'and Abaye could say to you' - that mishna of the first chapter, which teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l36"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34167,12 +34167,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 38,
         he: "כל שבעת הימים הוא זורק כו' לאו",
-        en: "Rashi: it does not apply to Yom Kippur at all - it is a general teaching about the KG's preparation.",
+        en: "Rashi: continues - all seven days he sprinkles, etc., does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l36"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34181,12 +34181,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 39,
         he: "ביום הכפורים קאי ולא קפיד",
-        en: "Rashi: the passage teaches that the KG must be occupied with Temple service throughout the seven preparatory days to be practiced and ready.",
+        en: "Rashi: continues - refer to Yom Kippur itself and is not particular",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l39"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34195,12 +34195,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 40,
         he: "אסידרא אלא אורויי בעלמא מיירי",
-        en: "Rashi: the KG must practice throughout the seven days so he is expert and prepared on Yom Kippur.",
+        en: "Rashi: continues - about the sequence; rather it deals with general instruction,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l39"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34209,12 +34209,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 41,
         he: "ומלמדנו שצריך כהן גדול להיות",
-        en: "Rashi: the requirement for the KG to practice all seven days ensures he is fluent in the service.",
+        en: "Rashi: continues - teaching us that the High Priest must be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l41"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34223,12 +34223,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 42,
         he: "עסוק בעבודה כל שבעה כדי שיהא",
-        en: "Rashi: being practiced and ready (ragil u-mezuman) for the Yom Kippur service is the point of the seven days.",
+        en: "Rashi: continues - engaged in the service all seven days so that he will be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l41"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34237,12 +34237,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 43,
         he: "רגיל ומזומן בה ביום הכפורים",
-        en: "Rashi: the Yoma service order is then taught again in Chapter 2 - that is why Chapter 2 repeats the tending of five lamps.",
+        en: "Rashi: continues - practiced and ready for it on Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l42"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34251,12 +34251,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 44,
         he: "וסדרא דיומא הדר תני לה לכך שנה",
-        en: "Rashi: Chapter 2 retaught the five-lamp tending; Chapter 3 retaught the two-lamp tending.",
+        en: "Rashi: continues - and the order of the day the mishna teaches again later; therefore it taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l44"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34265,12 +34265,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 45,
         he: "בפרק שני הטבת חמש ובפ\"ג שנה",
-        en: "Rashi: Chapter 2 deals with five lamps, Chapter 3 with two lamps - the sequence is then clear.",
+        en: "Rashi: concludes - in the second chapter the cleaning of five and in the third chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l44"
+          "yoma-015a-l25"
         ]
       },
       {
@@ -34279,12 +34279,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 46,
         he: "הטבת שתים: לחטאת לה' על",
-        en: "Rashi: 'as a chatat upon the olah of the tamid' - the blood acts like a chatat on top of the tamid which is an olah.",
+        en: "Rashi: concludes - the cleaning of two. Then opens 'for a sin offering to the Lord, beside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34293,12 +34293,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 47,
         he: "עולת התמיד. מעשה חטאת על",
-        en: "Rashi: the tamid blood requires both chatat applications (four horns) and olah applications (two corners) - since the verse equates it to both.",
+        en: "Rashi: continues - the daily burnt offering' - the procedure of a sin offering applied to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34307,12 +34307,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 48,
         he: "עולת התמיד והחטאת טעונה פיסוק",
-        en: "Rashi: chatat blood goes on four horns, olah blood goes at two corners - R. Shimon requires both for the tamid.",
+        en: "Rashi: continues - the daily burnt offering. A sin offering requires separated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34321,12 +34321,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 49,
         he: "מתנות שהרי דמה ניתן על ארבע",
-        en: "Rashi: but these two blood applications cannot both be executed because used blood cannot atone twice.",
+        en: "Rashi: continues - placements, since its blood is put on the four",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34335,12 +34335,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 50,
         he: "קרנות אף עולת התמיד יש בה",
-        en: "Rashi: the chatat blood went to four horns; reusing it for olah's two corners is atonement on already-atoned blood.",
+        en: "Rashi: continues - corners; so the daily burnt offering too has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34349,12 +34349,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 51,
         he: "פיסוק מתנות לא שביטלו ממנו",
-        en: "Rashi: 'pisuq matanot only' - the four-corner application is merely the separating of matanot, not a separate atonement function.",
+        en: "Rashi: continues - separated placements. Not that they removed from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34363,12 +34363,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 52,
         he: "מעשה עולה שהרי עולה היא אלא",
-        en: "Rashi: since both applications go to the same corner, there is no proof of a distinct chatat act.",
+        en: "Rashi: continues - the burnt-offering procedure, for it is a burnt offering; rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l33"
         ]
       },
       {
@@ -34377,12 +34377,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 53,
         he: "שניהן נוהגין בה: ארבע שהן ארבע.",
-        en: "Rashi: 'four that are four' - on all four corners. The dual requirement applies at each of the four corners.",
+        en: "Rashi: concludes - both apply to it. Then opens 'four that are four' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l46"
+          "yoma-015a-l36"
         ]
       },
       {
@@ -34391,12 +34391,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 54,
         he: "על ארבע קרנות: לא מצינו דמים",
-        en: "Rashi: 'on four corners' - we have not found blood that atones and then re-atones.",
+        en: "Rashi: concludes - on the four corners. Then opens 'we have not found blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l39"
         ]
       },
       {
@@ -34405,12 +34405,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 55,
         he: "שמכפרים. כפרה אחת שלהן",
-        en: "Rashi: we have no precedent for a single blood application serving two atonement purposes.",
+        en: "Rashi: continues - that atones' - achieves one atonement of theirs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l39"
         ]
       },
       {
@@ -34419,12 +34419,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 56,
         he: "וחוזרין ומכפרין כפרה אחרת:",
-        en: "Rashi: the atoning function is unique to each application - one cannot do double atonement.",
+        en: "Rashi: concludes - and then goes back and atones another atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l39"
         ]
       },
       {
@@ -34433,12 +34433,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 57,
         he: "פיסוק מתנות בעלמא הוא. הואיל",
-        en: "Rashi: 'separation of matanot only' - the application is just the required separation between corner-applications, not an independent chatat act.",
+        en: "Rashi: opens 'it is merely a separation of placements' - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l41"
         ]
       },
       {
@@ -34447,12 +34447,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 58,
         he: "ושתיהן בקרן אחת אין כאן הוכחת",
-        en: "Rashi: since both the olah and chatat applications are at the same corner, there is no separate chatat identity visible.",
+        en: "Rashi: continues - both are on one corner, there is no demonstration here of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l41"
         ]
       },
       {
@@ -34461,12 +34461,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 59,
         he: "מעשה חטאת: וניתיב אחת וכו'.",
-        en: "Rashi: 'give one etc.' - olah blood goes below the red line, chatat blood goes above it; since this final application must be above (chatat), it goes above.",
+        en: "Rashi: concludes - sin-offering procedure. Then opens 'and let him place one, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l41"
         ]
       },
       {
@@ -34475,12 +34475,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 60,
         he: "דם עולה ניתן למטה מחוט הסיקרא ודם החטאת למעלה וכיון דהך מתנה בתרייתא המפסקת משום מעשה חטאת עבידא",
-        en: "Rashi: olah blood placed below the red line (chut ha-sikra); chatat blood placed above. The last matana above serves as chatat.",
+        en: "Rashi: continues - burnt-offering blood is placed below the scarlet line and sin-offering blood above, and since this latter placement, the one that separates, is done as sin-offering procedure,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l41"
         ]
       },
       {
@@ -34489,12 +34489,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 61,
         he: "תהוי למעלה כחטאת: הזה ממנו כו'. לקמן בפרק חמישי [דף נג:] כשהוא מזה מדם הפר כנגד עובי של כפורת וקא ס\"ד",
-        en: "Rashi: referring forward to Chapter 5 (53b) - when sprinkling the bull's blood toward the parochet: once upward and seven downward.",
+        en: "Rashi: concludes - let it be above, like a sin offering. Then opens 'he sprinkled from it, etc.' - later in the fifth chapter (53b), when he sprinkles from the bull's blood toward the thickness of the ark cover, and the questioner assumed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l42"
         ]
       },
       {
@@ -34503,12 +34503,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 62,
         he: "אחת מאמצע עוביה למעלה ושבע מאמצעיתה ולמטה: ומשני כמצליף. האי למטה ולמעלה דתני לא אאמצעית קאי אלא ראשונה",
-        en: "Rashi: one upward and seven downward from the middle thickness of the blood, as counted in Chapter 5.",
+        en: "Rashi: concludes - one from the middle of its thickness upward and seven from its middle downward. Then opens 'and he answers: like a matzlif' - the 'below' and 'above' taught there do not refer to the middle; rather the first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l44a"
         ]
       },
       {
@@ -34517,12 +34517,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 63,
         he: "נתן תחילה כלפי מעלה והשבע תחתיה זו למטה מזו כמצליף: כמנגדנא. כשליח ב\"ד המכה ברצועה זו למטה מזו שאינו מכה במקום",
-        en: "Rashi: 'ke-matzlif' - like a whip-motion: the upward sprinkle and the seven below it are done in a descending whip-like arc.",
+        en: "Rashi: concludes - was placed toward the top and the seven beneath it, each lower than the last, like a matzlif. Then opens 'like a lasher' - like the court agent who whips with a strap, one blow below the next, not striking in one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l44a"
         ]
       },
       {
@@ -34531,12 +34531,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 64,
         he: "אחד ולשון מצליף לא נודע לי: הזה על טהרו של מזבח הפנימי שבע פעמים. כמו שנאמר והזה עליו מן הדם וגו': אפלגיה.  נגד",
-        en: "Rashi: 'like a court officer who whips' - the whipping motion, one upward and seven in descending arc below it.",
+        en: "Rashi: concludes - place; and the word matzlif is not known to me. Then opens 'he sprinkled on the tohoro of the inner altar seven times' - as it is said: and he shall sprinkle on it from the blood, etc. Then opens 'apalgeih' - toward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l44b"
         ]
       },
       {
@@ -34545,12 +34545,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 65,
         he: "אמצע גובה קירו: טיהרא. צהרים פלגא דיומא וכיון דשבע הזאות הזה המזה אי אפשר לצמצם שלא יהא מהן לא למעלה ולא למטה:",
-        en: "Rashi: 'sprinkle on the tohoro of the inner altar seven times' - as stated in the verse; tohoro is the middle of the altar's wall height.",
+        en: "Rashi: concludes - the middle of its wall's height. Then opens 'tihara' - noon, the half of the day; and since the sprinkler sprinkled seven sprinklings, it is impossible to be so exact that none of them lands above or below",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l44b"
         ]
       },
       {
@@ -34559,12 +34559,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 66,
         he: "אגופיה",
-        en: "Rashi: 'tihara' - the 'purity' of the altar, meaning its surface (the top), because sprinkling purifies and clears it.",
+        en: "Rashi: the daf's final truncated word - 'on its body', the start of the dibbur hamatchil 'on the body of the altar' whose text continues on 15b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l47"
+          "yoma-015a-l47"
         ]
       }
     ],
