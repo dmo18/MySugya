@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.86: schema backfill is complete, the perek-level semantic
+As of VERSION 14.87: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -105,8 +105,11 @@ entries, closing 14a entirely (58/58 resolved). A first sub-chunk of
 14b at VERSION 14.86 (see "14b, vilnaLine 1-30" below) verified the
 14a/14b boundary (no regression), then fixed 14b's vilnaLine 1-30
 (14b has 59 entries, above the single-chunk threshold, so it is split
-in two); vilnaLine 31-59 remain for a follow-up chunk. No regression
-was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
+in two); vilnaLine 31-59 remained for a follow-up chunk. A second
+sub-chunk at VERSION 14.87 (see "14b, vilnaLine 31-58" below) fixed
+the remaining mapped entries, vilnaLine 31-58, leaving only vilnaLine
+59 deferred pending the 14b/15a boundary check (58/59 resolved). No
+regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -933,6 +936,54 @@ No deferrals were needed in this sub-chunk. vilnaLine 31-59 (the
 remainder of the lottery/pais discussion and the lamp-tending-versus-
 incense dispute between the Rabbis and Abba Shaul) remain for a
 follow-up chunk.
+
+## 14b, vilnaLine 31-58 (VERSION 14.87), second half, closing 14b except one deferral
+
+Continued directly from the first sub-chunk's stopping point. Read the
+real Gemara lines for the remainder of the daf directly out of
+`learning_data.js` (`yoma-014b-l11` through `yoma-014b-l31`, full
+Hebrew and English) before touching any raw Rashi text, then walked
+`assets/talmuddev/14b.json`'s raw print-lines 31-59 (1:1 with
+`rashiTranslations` vilnaLine 31-59) to find dibbur-hamatchil
+boundaries.
+
+vilnaLine 31-35 continue `l11`'s baraita on Rabbi Shimon Ish
+HaMitzpa's altered sprinkling order (the westward-then-southward
+approach and the paused double sprinkling), closing out the same
+Gemara line the first sub-chunk had already opened at vilnaLine 26.
+vilnaLine 36-40 open and close `l14` (Rabbi Yochanan's resolution:
+Rabbi Shimon Ish HaMitzpa authored the Yoma service order, not just
+the Tamid dispute). vilnaLine 41-50 open and close `l16` (the second
+lottery's thirteen service assignments, why priests disperse and
+reconvene for the third lottery, and the "new" versus "veteran"
+priests distinction for the incense lottery). vilnaLine 51-53 open
+`l20` (Abaye's two-lamps-versus-five-lamps resolution). vilnaLine
+54-58 open and close `l22` (the interposition dispute: whether
+incense or the daily offering's blood-sprinkling separates the two
+lamp-cleaning sessions, the Abba Shaul/Rabbanan baraita, and Abba
+Shaul's own statement).
+
+Where a single raw print-line concluded one dibbur-hamatchil and
+opened a new one in the same line (for example vilnaLine 36, 41, 51,
+and 54), the whole entry was linked to the newly-opened line rather
+than the one being concluded, consistent with the precedent set at
+vilnaLine 8 in the first sub-chunk. All 28 fixed entries'
+`linkedGemaraLineIds` were corrected from the sequential-but-wrong
+`yoma-14b-lXX` form (the old entries pointed at only four distinct
+wrong buckets, `l07` through `l10`, for all 29 remaining entries) to
+the real zero-padded ids (`l11`, `l14`, `l16`, `l20`, `l22`).
+
+One deferral: vilnaLine 59, the daf's final raw print-line, is a
+single truncated word, "מערב" (west, or possibly the start of a
+longer word). The corresponding Gemara line `yoma-014b-l31` is itself
+truncated ("בְּעֵידָן", "at the time of", with an empty `en:`),
+confirming this is a cross-daf continuation, but the raw word on 14b
+does not obviously match a continuation of "בְּעֵידָן" from local
+text alone, so it needs 15a's opening raw Rashi text to confirm
+before it can be fixed with confidence. Left unchanged, both `en` and
+`linkedGemaraLineIds`, pending that boundary check in the 15a chunk.
+
+14b is now 58/59 resolved; only vilnaLine 59 remains open.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

@@ -32581,12 +32581,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 31,
         he: "שתים שהן שתים להפסיקה ולתת",
-        en: "Rashi: closing note on this section - the dispute between Abba Shaul and the Rabbanan is about the scriptural derivation for service order; both agree that lamp-cleaning is split into two sessions of five and two lamps.",
+        en: "Rashi: continues - two that count as two, to separate them, and to give",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l11"
         ]
       },
       {
@@ -32595,12 +32595,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 32,
         he: "מערבה תחילה ואח\"כ דרומה כדרך",
-        en: "Rashi: 'v'heichi avid - and how did he do it?' Continuing the analysis: how does the lamp-cleaning service proceed when split into two sessions around the incense offering?",
+        en: "Rashi: continues - westward first and then southward, in the manner",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l11"
         ]
       },
       {
@@ -32609,12 +32609,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 33,
         he: "ביאתו שהוא מקיף ובא מן המערב",
-        en: "Rashi: 'l'mayim shel ketoret b'risha b'hatavat shtei nerot kamar - here referring to lamp-cleaning of two lamps.' The second lottery reference to lamps (two, not five) describes the second lamp-cleaning session.",
+        en: "Rashi: continues - of his approach, since he circles around and comes from the west",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l11"
         ]
       },
       {
@@ -32623,12 +32623,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 34,
         he: "לדרום וכשמגיע לקרן נותן שתי",
-        en: "Rashi: 'v'ha d'tanan hatava b'risha b'hatavat chamishah nerot - and what the mishna taught as lamp-cleaning first means cleaning five lamps.' The first session cleans five; the second cleans two after incense.",
+        en: "Rashi: continues - to the south, and when he reaches the corner he gives two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l11"
         ]
       },
       {
@@ -32637,12 +32637,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 35,
         he: "מתנות בפיסוק וטעמא מפרש לקמיה",
-        en: "Rashi: 'mashma d'gemara - the received tradition says.' This phrase indicates the ordering of incense vs. lamp-cleaning is a transmitted tradition, not purely a scriptural derivation.",
+        en: "Rashi: concludes - sprinklings with a pause between them, and the reason is explained further ahead",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l11"
         ]
       },
       {
@@ -32651,12 +32651,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 36,
         he: "(שם ע\"א): מאן תנא סדר יומא. מאן תנא",
-        en: "Rashi: 'maan tana seder Yoma - who authored the Yoma tractate order?' Rabbi Yochanan's attribution: R. Shimon ish HaMitzpah authored the Yom Kippur tractate, whose service order differs from Tamid.",
+        en: "Rashi: opens 'who is the tanna of the order of Yoma' - which tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l07"
+          "yoma-014b-l14"
         ]
       },
       {
@@ -32665,12 +32665,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 37,
         he: "לסדר תמיד דהך מס' דמיירי בסדר",
-        en: "Rashi: 'l'seder Tamid d'hakh mas'ta d'miirei b'seder Yom HaKipurim - for the Tamid order that this tractate discusses in Yom Kippur terms.' The Yoma tractate describes the Yom Kippur service using different ordering from Tamid's daily service.",
+        en: "Rashi: continues - authored the order of Tamid, since this tractate deals with the order of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l07"
+          "yoma-014b-l14"
         ]
       },
       {
@@ -32679,12 +32679,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 38,
         he: "יום הכפורים דפליג אמשניות דסדר",
-        en: "Rashi: 'd'falig a'mishnayot d'seder ha-Tamid Rabbi Shimon ish HaMitzpah hu - who disputes the mishnayot of tractate Tamid? R. Shimon ish HaMitzpah.' This confirms the attribution.",
+        en: "Rashi: continues - Yom Kippur, who disagrees with the mishnayot of the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l07"
+          "yoma-014b-l14"
         ]
       },
       {
@@ -32693,12 +32693,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 39,
         he: "התמיד רבי שמעון איש המצפה הוא",
-        en: "Rashi: 'd'shema'inan lei d'falig a'stama d'Tamid - we hear that he disputes the anonymous ruling of Tamid.' The Tosefta is the fingerprint identifying R. Shimon as Yoma's author, not Tamid's.",
+        en: "Rashi: continues - of Tamid. It is Rabbi Shimon Ish HaMitzpa",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l07"
+          "yoma-014b-l14"
         ]
       },
       {
@@ -32707,12 +32707,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 40,
         he: "דשמעינן ליה דפליג אסתמיה דתמיד:",
-        en: "Rashi: 'ha-payis ha-sheni - the second lottery.' In the description of the lottery system in Yoma's next chapter (25a), the second lottery covers thirteen Temple service assignments.",
+        en: "Rashi: concludes - since we hear him disagree with the unattributed mishna of Tamid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l14"
         ]
       },
       {
@@ -32721,12 +32721,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 41,
         he: "הפייס השני. בפירקין דלקמן (כה.)",
-        en: "Rashi: 'b'firkin d'lekhaman - in our chapter that follows.' Reference to Yoma 25a where the four lottery system is described in detail.",
+        en: "Rashi: opens 'the second lottery' - in our chapter further ahead (25a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32735,12 +32735,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 42,
         he: "איירי בסדר ארבע פייסות שהיו שם בכל יום וקתני באסיפת קיבוץ",
-        en: "Rashi: 'aiiri b'seder arba payisot she-hayu sham b'khol yom - it discusses the four-lottery system that operated daily in the Temple.' The lottery system determined who performed each Temple service.",
+        en: "Rashi: continues - it deals with the order of the four daily lotteries, and teaches at the gathering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32749,12 +32749,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 43,
         he: "פייס שני היו מפייסין שלש עשרה עבודות: מי שוחט ומי זורק.",
-        en: "Rashi: 'v'katani b'asifat kibbutz payis sheni hayu mepayyesin shelosh esrei avodot - and it teaches: in the gathering of the second lottery they would cast lots for thirteen services.' Listing: who slaughters, who sprinkles blood, etc.",
+        en: "Rashi: continues - for the second lottery they cast lots for thirteen services: who slaughters and who sprinkles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32763,12 +32763,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 44,
         he: "את דמו ומי מדשן מזבח הפנימי ומי מעלה אברי תמיד לכבש",
-        en: "Rashi: 'mi shohet u'mi zorek - who slaughters and who sprinkles the blood.' The thirteen services include: slaughterer, blood-sprinkler, inner altar ash-cleaner, ramp-bearer, those who bring the limbs.",
+        en: "Rashi: continues - its blood, who removes ash from the inner altar, and who brings the daily offering's limbs to the ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32777,12 +32777,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 45,
         he: "וסודרן אותן עליו ואחר כך מעלן משם למזבח משום ברוב עם",
-        en: "Rashi: 'et dam'o u'mi medashein mizbeach ha-penimi u'mi ma'aleh evrei tamid l'khevesh - its blood, who clears the inner altar, who brings the limbs to the ramp.' All thirteen lottery assignments listed.",
+        en: "Rashi: continues - and arranges them there, then brings them up to the altar, for the sake of the multitude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32791,12 +32791,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 46,
         he: "הדרת מלך ומונה והולך שלש עשרה ומתפרדין וחוזרין ונאספין",
-        en: "Rashi: 'v'soderan otam alav v'achar kakh ma'alan misham l'mizbeach mishum b'rov am hadrat melekh - they arrange them on the ramp then bring them to the altar, for the sake of dignity before the King in the presence of the multitude.' The reason for the two-step process.",
+        en: "Rashi: continues - is the glory of a king. He counts to thirteen, then they disperse and later reassemble",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32805,12 +32805,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 47,
         he: "לאחר שעה ומכריזין לפייס שלישי כלומר באסיפה שלישית ולקמן",
-        en: "Rashi: 'u'moneh v'holekh shelosh esrei - and he counts thirteen.' All thirteen assignments are distributed by lottery, then the kohanim disperse and reassemble for the third lottery (incense).",
+        en: "Rashi: continues - after an hour, and announce the third lottery, meaning the third gathering, and further ahead",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32819,12 +32819,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 48,
         he: "(דף כד:) מפרש למה מתפרדין וחוזרין ונאספין כדי שתהא הרגש",
-        en: "Rashi: 'u'mitparedin v'chozrim v'ne'asfin l'achar sha'ah - they disperse and reassemble after an hour.' This interval allows the Temple to fill with activity and sound before the third lottery.",
+        en: "Rashi: continues - (24b) explains why they disperse and reassemble, so there will be a stirring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l08"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32833,12 +32833,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 49,
         he: "קול בעזרה שנאמר (תהלים נה) בבית אלהים נהלך ברגש: חדשים. כהנים שלא הקטירו קטרת מימיהם יתקבצו כולן לכאן לגורל הקטרת אבל לא",
-        en: "Rashi: 'chadashim - new kohanim.' The incense lottery was reserved for kohanim who had never won it before, since incense was known to bring prosperity; each kohen got one lifetime chance.",
+        en: "Rashi: concludes - of sound in the courtyard, citing Psalms 55. Then opens 'new ones' - priests who never yet burned incense should all gather here for the incense lottery, but not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32847,12 +32847,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 50,
         he: "ישנים דאמר לקמן (דף כו.) מעולם לא שנה בה אדם לפי שהיתה מעשרת שנאמר ישימו קטורה באפך (דברים לג) וכתיב בתריה ברך ה' חילו",
-        en: "Rashi: 'yeshanim - the old/previous ones.' After incense, the established kohanim (who had previously won various lotteries) return to finish any remaining service.",
+        en: "Rashi: continues - veterans, since it says further ahead (26a) that no one ever repeated this lottery, because it enriched, per Deuteronomy 33 and the verse after it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l16"
         ]
       },
       {
@@ -32861,12 +32861,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 51,
         he: "מ\"מ שמעינן מינה הטבת הנרות קודמת לקטורת: כאן בהטבת שתי נרות וכו'. לקמן בפ' שלישי (דף לג.) אמרינן שמפסיק בהטבת הנרות",
-        en: "Rashi: 'mi-mah shema'inan minah hatavat ha-nerot kodem l'ketoret - in any case we learn that lamp-cleaning precedes incense.' The second lottery order shows this sequence.",
+        en: "Rashi: concludes - in any case we learn lamp-cleaning precedes incense. Then opens 'here, regarding the two lamps, etc.' - further ahead (33a) we say the lamp-cleaning is interrupted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l20"
         ]
       },
       {
@@ -32875,12 +32875,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 52,
         he: "משהטיב חמש פוסק וממתין עד שנעשה עבודה אחרת בנתים וחוזר ומטיב שתים ופליגא אבא שאול ורבנן איכא למאן דאמר בקטורת מפסיק",
-        en: "Rashi: 'mashma d'gemarah - of received tradition.' The order (lamps before incense) is known from oral tradition, confirmed by the lottery sequence.",
+        en: "Rashi: continues - after cleaning five he pauses and waits for another service in between, then cleans the last two. Abba Shaul and the Rabbis dispute what interposes: some say incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l20"
         ]
       },
       {
@@ -32889,12 +32889,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 53,
         he: "להו ואיכא למ\"ד בשחיטת התמיד וזריקת דמו מפסיק להו ולקמן (שם:) מפרש טעמא דהפסקה ותנא דידן סבירא ליה בקטרת מפסיק להו הלכך הא",
-        en: "Rashi: 'l'hav'ir ner - to kindle the lamp.' The distinction between cleaning lamps (hatavah) and kindling them; some readings see these as two separate services in the sequence.",
+        en: "Rashi: continues - between them, others say the slaughter and blood-sprinkling of the daily offering does. Further ahead the reason is explained. Our tanna holds incense interposes, so this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l09"
+          "yoma-014b-l20"
         ]
       },
       {
@@ -32903,12 +32903,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 54,
         he: "דקתני קטרת ברישא בהטבת שתי נרות קאמר והא דתנן הטבה ברישא בהטבת חמש ראשונות קאמר: והא אביי. לקמן בפ' שלישי (שם.) מסדר",
-        en: "Rashi: 'd'katani ketoret b'reisha b'hatavat shtei nerot kamar - that it taught incense first refers to the two-lamp cleaning.' Clarifying: when Yoma says incense first and two lamps after, it means after the first five lamps, the incense, then the last two.",
+        en: "Rashi: concludes - the mishna's 'incense first' means relative to the two lamps, and 'cleaning first' means relative to the first five. Then opens 'but Abaye' - further ahead (ibid.) he arranges",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l22"
         ]
       },
       {
@@ -32917,12 +32917,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 55,
         he: "בגירסי דסדר מערכה עבודת כל יום ויום: משמיה דגמרא. דבר מקובל מכל בני הישיבה שקיבלו מרבותיהם: לא ייטיב. שבעתן ואחר כך",
-        en: "Rashi: 'b'girsai d'seder marachah avodah kol yom va-yom - in the arrangement of the daily service.' The scriptural order (verse sequence) is the standard for determining which service precedes which.",
+        en: "Rashi: continues - in his version the order of arranging each day's service. Then opens 'in the name of tradition' - a teaching received from the yeshiva's members from their own teachers. Then opens 'he shall not clean'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l22"
         ]
       },
       {
@@ -32931,12 +32931,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 56,
         he: "יקטיר אלא יקטיר באמצע ואח\"כ יגמור הטבת שתים והא ליכא למימר יקטיר תחלה ואח\"כ יתחיל להיטיב קאמרי רבנן דהא קיי\"ל דבעי הפסקה",
-        en: "Rashi: 'yaktir ela yaktir b'emtza - he should burn incense only in the middle' (of the lamp-cleaning). According to one view, the incense is inserted between the two lamp sessions - not before all lamps or after all lamps.",
+        en: "Rashi: continues - and then burn incense, but rather he burns incense in the middle and then finishes cleaning the two. This cannot mean incense first, say the Rabbis, since a pause is required",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l22"
         ]
       },
       {
@@ -32945,12 +32945,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 57,
         he: "וכל עבודות סדורות זו אחר זו על פי הכתובים לקמן במילתא דאביי ואי אפשר להקטיר עד לאחר זריקת דם התמיד ואי אמרת קטרת",
-        en: "Rashi: 'v'aha leka l'meimr yaktir b'emtza - but this cannot mean burning incense in the middle.' The structural problem with placing incense between lamp sessions when the verse order doesn't support it.",
+        en: "Rashi: continues - and all services follow one another per the verses, as in Abaye's statement further ahead. Incense cannot be burned before the daily offering's blood is sprinkled, and if you say incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l22"
         ]
       },
       {
@@ -32959,12 +32959,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 58,
         he: "קודמת להטבת הנרות אין לך עוד עבודה להפסיקן בה: אבא שאול אומר מטיב. את כולם קודם להקטרת והפסקה בדם התמיד:",
-        en: "Rashi: 'v'khol avodot sedurot zu achar zu al pi ha-ketuvim - and all services are arranged in sequence according to the verses.' The scriptural verse order determines the service order; both Abba Shaul and the Rabbanan derive from specific verses.",
+        en: "Rashi: concludes - precedes lamp-cleaning, there is no other service left to interpose. Then opens 'Abba Shaul says: he cleans' - all the lamps before the incense, with the daily offering's blood as the pause",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l22"
         ]
       },
       {
