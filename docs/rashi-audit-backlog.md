@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.79: schema backfill is complete, the perek-level semantic
+As of VERSION 14.80: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -77,7 +77,14 @@ descriptive-style hotspot total to 10a-12a (99 + 39 + 66 = 204
 entries). The 12b index-misalignment finding documented after Batch
 11 was resolved in a dedicated remap (VERSION 14.79, see the "12b
 remap" section below): all 62 entries were rebuilt from a full
-raw-line reconstruction, closing 12b entirely. The descriptive-style systemic finding is still open beyond the lines fixed
+raw-line reconstruction, closing 12b entirely. A self-correction at
+VERSION 14.80 (see "Self-correction" under the 12b remap section)
+relinked 12b vilnaLine 57-62 from an incorrect `l35` anchor to the
+correct `l42` anchor after cross-referencing 13a's Gemara text
+surfaced the error; 13a itself was found to have the same index-
+misalignment pattern as 12b, but its reconstruction is deferred to
+its own dedicated chunk given denser, harder-to-sequence hypotheticals
+(see the "13a" section below) - no content was changed on 13a. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -577,6 +584,59 @@ No deferrals were needed. This closes out 12b entirely: all 62
 rashiTranslations entries are now grounded in their local Rashi
 Hebrew, correctly indexed to their raw print-lines, and correctly
 linked to their Gemara lines.
+
+### Self-correction (VERSION 14.80): 12b vilnaLine 57-62 relinked from `l35` to `l42`
+
+While starting the 13a chunk immediately after the 12b remap, cross-
+referencing 13a's real Gemara text (`l01`, `l04`, `l05`, `l12`)
+against 12b's own raw Rashi lines 57-62 surfaced a placement error in
+the remap above: vilnaLine 58-61 had been linked to `l35` (the Yosef
+ben Ilem story), but their actual content - "that if he transgressed
+and served, his service is valid," "the second returns to his
+service," "obviously," "lest you say [he'd be] a rival-wife during
+the first's lifetime" - verbatim matches Gemara text that begins with
+12b's own truncated `l42` ("the halacha [is]...") and continues fully
+onto 13a's `l01` and `l04`, not the Yosef ben Ilem material at all.
+The two discussions both concern "eivah"/rivalry reasoning applied to
+a replacement figure, which is what caused the original misreading in
+Chunk 1. vilnaLine 57 and 62 were also relinked to `l42` for
+consistency (57's newly-opened content is the same overflow passage;
+62's cross-daf-continuation content was unaffected but is now
+correctly anchored). All 6 entries (vilnaLine 57-62) now link to
+`yoma-012b-l42`, the true local anchor for this passage, with English
+describing the halachic ruling and its rivalry-reasoning elaboration
+that continues from 12b's truncated Halacha statement into 13a rather
+than claiming precise sub-clause-level certainty about which of 13a's
+several nearby Gemara lines each phrase individually explains.
+
+## 13a: index-remapping pattern confirmed, deferred pending careful reconstruction
+
+Checked 13a next, following 12b. It shows the same index-misalignment
+pattern as 12b (real, on-topic Rashi translation of the conditional-
+divorce "backup wife" sugya - Rabbi Yehuda's proposal, the "al menat
+shetamuti"/"al menat shelo tamuti" conditional-get formulas, Rava's
+"kol yemei chayai" ruling on what counts as keritut - misassigned to
+the wrong vilnaLine), plus the same unpadded `yoma-13a-lXX` id bug
+seen on 12b. No content was changed on 13a in this pass.
+
+Reconstruction is more difficult here than on 12b for two compounding
+reasons. First, 13a's raw Rashi lines 1-3 are themselves a direct
+continuation of the passage corrected above - discovered only by
+cross-referencing 13a's Gemara text back against 12b's Rashi content,
+which is what surfaced the 12b correction in the first place. Second,
+the sugya itself is denser: a sequence of nested conditional-divorce
+hypotheticals (single wife, then two wives, staggered conditions),
+where several raw lines describe scenarios ("she and her counterpart
+dies, this one remains for him") that do not appear in the Gemara
+text in the order the raw lines would suggest, meaning a purely
+sequential raw-line-to-Gemara-line walk (the method that worked
+cleanly on 12b) produced a mapping that stopped holding up around raw
+line 7. Getting this right requires slower, more careful verification
+of each hypothetical against the actual Gemara sequence (`l01`, `l04`,
+`l05`, `l08`, `l12`, `l15`, `l20`, `l23`, `l25`, `l27`, `l32`) than is
+safe to do in the same pass as an active chunk, per the "cannot
+confidently map a batch's Rashi Hebrew to Gemara line IDs" stop
+condition. Deferred to its own dedicated chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
