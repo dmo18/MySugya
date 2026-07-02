@@ -616,205 +616,205 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'to say that he does not serve the whole day' - R. Yehuda's 'kol hayom' means restriction, not mandate. The onen KG refrains from service all day as a precaution.",
+      "en": "Rashi: continues 13b's truncated word - to say that he does not serve the whole day, until night. But at night, if he comes to burn",
       "linkedGemaraLineIds": [
-        "yoma-14a-l01"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: 'gezeira shema yokhal' - the decree lest he eat. All day he is forbidden from eating kodshim by Torah law; the rabbis extended this by keeping him from service entirely, to avoid confusion.",
+      "en": "Rashi: continues - fats and innards, he may burn them. Then opens 'decree lest he eat' - all day it is forbidden to eat",
       "linkedGemaraLineIds": [
-        "yoma-14a-l01"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: 'aninus of the night' - after burial on the same day, nighttime aninus is only rabbinic (not Torah-mandated). But the daytime prohibition on eating kodshim is Torah law throughout.",
+      "en": "Rashi: continues - consecrated foods by Torah law, but the mourning status of the night after the deceased was buried during the day is not",
       "linkedGemaraLineIds": [
-        "yoma-14a-l01"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: R. Yehuda's position in tractate Zevachim (99b) - the onen does not serve all day but may burn fats and limbs at night (when Torah aninus ends).",
+      "en": "Rashi: continues - from Torah law but from the words of the Sages, and this is how we understand Rabbi Yehuda's view",
       "linkedGemaraLineIds": [
-        "yoma-14a-l01"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: 'v'ha migarsah - but she is divorced!' The backup wife who received a conditional get might already be divorced. Does aninus even apply to her relationship with the KG?",
+      "en": "Rashi: continues - in tractate Zevachim (99b), and this is what he says:",
       "linkedGemaraLineIds": [
-        "yoma-14a-l02"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: 'mi lo mitreid - is he not disturbed?' Even if technical aninus doesn't apply, the emotional distraction of his wife's death would disturb his concentration for Yom Kippur service. Distraction alone is disqualifying.",
+      "en": "Rashi: continues - Rabbi Yehuda: the whole day he is in mourning status",
       "linkedGemaraLineIds": [
-        "yoma-14a-l02"
+        "yoma-014a-l01"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: 'v'ha migarsah' - the backup wife was conditionally divorced; so when she dies, it might be only his conditionally-divorced wife who died, not his 'wife' in the full sense. Does he become an onen at all?",
+      "en": "Rashi: concludes - and he may not sacrifice. Then opens 'but she is divorced' -",
       "linkedGemaraLineIds": [
-        "yoma-14a-l02"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: the KG's distraction in Yom Kippur service is itself disqualifying - 'ukhadashim beinan mimla v'gedulah' - the Torah requires eating kodshim be done 'as kings eat,' in a state of joy and greatness.",
+      "en": "Rashi: continues - as we established: that if he sees she is about to die, he precedes",
       "linkedGemaraLineIds": [
-        "yoma-14a-l02"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: 'matni - he throws the blood.' The mishna's listing of services: blood of daily offerings, incense, lamp cleaning, limb offerings. These are the daily Temple services the KG performs during his seven-day preparation.",
+      "en": "Rashi: continues - and enters the synagogue, and makes",
       "linkedGemaraLineIds": [
-        "yoma-14a-l03"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: 'u'meitev et ha-nerot - and he cleans the lamps.' Removing the used wicks and ash from the previous day's lamps; done each morning in preparation for re-lighting.",
+      "en": "Rashi: continues - the get of the one who died retroactive. Then opens 'is he not' -",
       "linkedGemaraLineIds": [
-        "yoma-14a-l03"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: 'v'shar kol ha-yamim im ratza - and on all other days, if he wishes.' The KG has priority to perform any Temple service on any day of the year; no mishmar (priestly division) can prevent him.",
+      "en": "Rashi: continues - troubled? And for sacred offerings we require joy",
       "linkedGemaraLineIds": [
-        "yoma-14a-l03"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: 'makrib chelek b'rosh - he offers a portion at the head.' The KG takes the first choice portion of any sacrifice he performs, and is given priority placement in the service order.",
+      "en": "Rashi: continues - and greatness, as it is written (Numbers 18), 'to you I have given them",
       "linkedGemaraLineIds": [
-        "yoma-14a-l03"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: 'gemarah d'Rabbi Akiva' - the later mishna (about the sprinkling of the KG during his seven-day sequestration) will follow R. Akiva's position.",
+      "en": "Rashi: concludes - for anointing, in the way that kings eat",
       "linkedGemaraLineIds": [
-        "yoma-14a-l04"
+        "yoma-014a-l10"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: 'heichi avid avodah - how can he perform service?' If the KG is sprinkled with mei para (purification water) while still pure, R. Akiva's rule would make him impure, preventing his service.",
+      "en": "Rashi: concludes - (Chullin 132b). Then opens on the mishna's 'he sprinkles the' -",
       "linkedGemaraLineIds": [
-        "yoma-14a-l04"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: 'kol shivat hayamim mazin alav - all seven days they sprinkle on him.' During his sequestration, the KG is sprinkled with purification water every day to ensure he is pure for Yom Kippur.",
+      "en": "Rashi: continues - blood, of the daily offerings, so that he becomes accustomed",
       "linkedGemaraLineIds": [
-        "yoma-14a-l05"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: 'al ha-tamei yitaher v'al ha-tahor yitamei - on the impure it purifies, on the pure it impurifies.' R. Akiva's paradoxical ruling derived from the doubled 'al' in Numbers 19.",
+      "en": "Rashi: concludes - and prepared for the Yom Kippur service. Then opens 'and he tends the' -",
       "linkedGemaraLineIds": [
-        "yoma-14a-l05"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: 'v'chakhamim omrim - and the Sages say.' The Sages interpret 'al ha-tamei' as a scope limitation: purification water only works on objects that can receive impurity; it doesn't mandate the reverse effect on the pure.",
+      "en": "Rashi: continues - lamps: he removes the ash from the burnt wicks",
       "linkedGemaraLineIds": [
-        "yoma-14a-l06"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: 'l'omer she'ein divrei hazayah amurim' - the Sages' drasha: the words about sprinkling apply only to things that can receive impurity (humans and impurity-susceptible vessels), not to things that cannot.",
+      "en": "Rashi: continues - that went out, and so every day he tends them in the morning,",
       "linkedGemaraLineIds": [
-        "yoma-14a-l06"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'v'nafka minah she-hashirayim she-ba-ezov' - the practical difference (nafka minah): leftover drops on the hyssop - are they valid for re-sprinkling? If they impu rify the pure as R. Akiva says, that matters.",
+      "en": "Rashi: continues - as it says: 'morning by morning, when he tends",
       "linkedGemaraLineIds": [
-        "yoma-14a-l07"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: 'k'detanan niskavein... im yesh ba-ezov - as we learned: if there is enough in the hyssop' to dip and sprinkle, leftover drops can be re-used. This baraita aligns with R. Akiva.",
+      "en": "Rashi: continues - the lamps'; and every day they burn incense",
       "linkedGemaraLineIds": [
-        "yoma-14a-l07"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: 'la yishaneh - he should not re-use the hyssop.' The invalidated drops cannot re-sprinkle because 'hanitztzah alav melakhah' - they were used in a 'work' (melacha) of sprinkling an animal, which invalidates them.",
+      "en": "Rashi: continues - in the Sanctuary, half in the morning and half in the",
       "linkedGemaraLineIds": [
-        "yoma-14a-l08"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: 'l'mazeh tahor - to the one sprinkling who is pure.' R. Akiva's ruling: sprinkling renders the sprinkling kohen impure; Rashi explains the drasha: after sprinkling it still calls him 'pure' - meaning even after sprinkling he retains the name 'tahor.'",
+      "en": "Rashi: concludes - afternoon. Then opens 'and on all the other days, if he wishes' -",
       "linkedGemaraLineIds": [
-        "yoma-14a-l09"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: 'haniacha l'man d'amar... plugtah hi b'Zevachim' - this dispute is parallel to one in Zevachim chapter ha-terovet (80a) about whether a kohen who did a forbidden service is still called 'tahor' afterward.",
+      "en": "Rashi: continues - to tend and to sacrifice any offering he wishes,",
       "linkedGemaraLineIds": [
-        "yoma-14a-l10"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: 'agba d'gavra - on the body of the person.' Even a tiny amount of mei para on a person is sufficient to purify (no minimum volume required for body contact); but in a vessel, a minimum is needed.",
+      "en": "Rashi: continues - he sacrifices it, and the priestly watch cannot prevent",
       "linkedGemaraLineIds": [
-        "yoma-14a-l11"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: 'aval b'mana - but in a vessel.' A vessel containing purification water requires a minimum volume (enough to actually dip the hyssop and sprinkle). Body contact requires no minimum.",
+      "en": "Rashi: concludes - him. Then opens 'he sacrifices a portion first' - 'first' means",
       "linkedGemaraLineIds": [
-        "yoma-14a-l11"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: 'sheyitbil roshei giv'olin v'yazzeh - so that he can dip the tops of the hyssop stems and sprinkle.' The minimum in the vessel is defined functionally: enough to dip and sprinkle effectively.",
+      "en": "Rashi: continues - to burn and to sacrifice any portion",
       "linkedGemaraLineIds": [
-        "yoma-14a-l12"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: the conclusion on minimum volume for mei para in a vessel - must be enough for a complete dipping action that produces effective droplets for sprinkling.",
+      "en": "Rashi: concludes - that he chooses. Then opens 'and he takes a portion' - in the distribution",
       "linkedGemaraLineIds": [
-        "yoma-14a-l12"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: 'v'noteil chelek b'rosh - and takes a portion at the head.' The KG receives a first-choice portion from any sacrifice performed during his seven days of service.",
+      "en": "Rashi: continues - of eating consecrated foods. Then opens 'first' - a choice portion",
       "linkedGemaraLineIds": [
-        "yoma-14a-l03"
+        "yoma-014a-l12"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: 'gemara d'Rabbi Akiva - the Gemara (practice) of Rabbi Akiva.' The reference to R. Akiva's position as discussed later in this tractate (the sprinkling section).",
+      "en": "Rashi: concludes - that he chooses for himself. Then opens the Gemara section - regarding Rabbi Akiva's view,",
       "linkedGemaraLineIds": [
-        "yoma-14a-l04"
+        "yoma-014a-l17"
       ]
     },
     {

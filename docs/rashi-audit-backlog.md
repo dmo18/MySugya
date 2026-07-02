@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.83: schema backfill is complete, the perek-level semantic
+As of VERSION 14.84: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -95,8 +95,13 @@ alongside each Gemara line, fixing the remaining 12 entries and
 closing 13a entirely (29/29 resolved). A dedicated 13b pass at
 VERSION 14.83 (see "13b resolved" below) verified the 13a/13b
 boundary (no regression), then fixed all 28 of 13b's entries by
-reading the daf's sugya scaffolding first, closing 13b entirely.
-No regression was found on 12b or 13a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
+reading the daf's sugya scaffolding first, closing 13b entirely. A
+first sub-chunk of 14a at VERSION 14.84 (see "14a, vilnaLine 1-29"
+below) verified the 13b/14a boundary (no regression), then fixed
+14a's vilnaLine 1-29 (14a has 58 entries, above the single-chunk
+threshold, so it is split in two); vilnaLine 30-58 remain for a
+follow-up chunk. No regression was found on 12b, 13a, or 13b in any
+of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -805,6 +810,49 @@ No deferrals were needed. This closes out 13b entirely: all 28
 rashiTranslations entries are now grounded in their local Rashi
 Hebrew, correctly indexed to their raw print-lines, and correctly
 linked to their Gemara lines.
+
+## 14a, vilnaLine 1-29 (VERSION 14.84), first half of a two-part daf
+
+14a has 58 raw Rashi print-lines, above the 40-entry single-chunk
+threshold, so it is split into two sub-chunks: vilnaLine 1-29 here,
+vilnaLine 30-58 in a follow-up chunk. Verified the 13b/14a boundary
+first: 13b vilnaLine 28 links correctly to `l29`, and 14a's own raw
+talmud.dev text opens "לומר שאינו עובד כל היום" ("to say that he
+does not serve the whole day"), the direct continuation of 13b's
+truncated "לומר" - no regression, no change needed on 13b.
+
+14a showed the same index-misalignment pattern as 12b, 13a, and 13b:
+real, on-topic Rashi translation assigned to sequential-looking but
+wrong ids (`yoma-14a-l01` through `l12`) that do not match the real,
+vilna-line-numbered ids in `learning_data.js` (`l01`, `l10`, `l12`,
+`l17`, ...). Reading the sugya scaffolding first (`yoma-14a-s01`:
+`l01`-`l10`, closing the onen/backup-wife discussion carried from
+13b; `yoma-14a-s02`: `l12`, the mishna on the High Priest's
+sequestering-week and year-round sacrificial prerogatives;
+`yoma-14a-s03`: `l17`-`l47`, the Gemara on that mishna, opening with
+the red-heifer sprinkling dispute) supplied the structure.
+
+vilnaLine 1-6 continue and close `l01` (Rav Adda bar Ahava's challenge
+to Rava about the "decree lest he eat," and Rava's resolution
+distinguishing Yom Kippur from the rest of the year). vilnaLine 7-13
+open and close `l10` (the "but she is divorced" question about
+whether mourning-status even applies, and the "is he not troubled"
+answer, plus the requirement of joy for sacred service). vilnaLine
+14-28 are one continuous stretch on the mishna itself (`l12`): the
+daily blood-tossing and incense, tending the lamps each morning, the
+year-round privilege to sacrifice any portion he chooses first.
+vilnaLine 29 closes the mishna commentary and opens the transition
+into the Gemara section (`l17`), matching Rav Chisda's "not according
+to Rabbi Akiva" framing.
+
+All 29 fixed entries' `linkedGemaraLineIds` were also corrected from
+the unpadded, sequential-but-wrong `yoma-14a-lXX` form to the real
+zero-padded `yoma-014a-lXX` ids matching the actual vilna-line
+numbering (`l01`, `l10`, `l12`, `l17`).
+
+No deferrals were needed in this sub-chunk. vilnaLine 30-58 (the bulk
+of the red-heifer sprinkling dispute between Rabbi Akiva and the
+Sages) remain for a follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
