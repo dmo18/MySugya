@@ -83,6 +83,10 @@ jobs:
                 per_page: 10
               });
               for (const d of deployments) {
+                if (d.sha === context.sha) {
+                  console.log(`Skipping current deployment ${d.id} (${d.sha.slice(0,7)})`);
+                  continue;
+                }
                 const { data: statuses } = await github.rest.repos.listDeploymentStatuses({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
@@ -91,12 +95,13 @@ jobs:
                 });
                 const state = statuses[0]?.state;
                 if (!state || ['pending', 'queued', 'in_progress'].includes(state)) {
-                  console.log(`Setting deployment ${d.id} (${d.sha.slice(0,7)}) to inactive`);
+                  console.log(`Setting stale deployment ${d.id} (${d.sha.slice(0,7)}) to inactive`);
                   await github.rest.repos.createDeploymentStatus({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
                     deployment_id: d.id,
                     state: 'inactive',
+                    description: 'Superseded by a newer Pages deployment run'
                   });
                 }
               }
