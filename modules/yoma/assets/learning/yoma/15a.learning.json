@@ -709,236 +709,236 @@
       "en": "'We have not found' - there is no halakhic precedent for this. Blood cannot atone twice."
     }
   ],
-  "rashiTranslations": [
+    "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'from evening to morning' - the verse about the menorah (Exodus 27:21) means give it enough oil to burn all night. The Sages estimated a half-log per lamp.",
+      "en": "Rashi: opens 'from evening until morning', completing the word begun on 14b - concerning the lamps it is written: Aaron and his sons shall set it in order from evening until",
       "linkedGemaraLineIds": [
-        "yoma-15a-l01"
+        "yoma-015a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: 'give it its measure' - the amount of oil for the menorah to burn until morning.",
+      "en": "Rashi: concludes - morning. Then opens 'give it' - give the candelabrum a measure of oil so that it burns the whole night, and the Sages estimated",
       "linkedGemaraLineIds": [
-        "yoma-15a-l01"
+        "yoma-015a-l06"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: the Sages calculated half a log per lamp, sufficient for the longest winter night (Tevet).",
+      "en": "Rashi: continues - half a log for each and every lamp, which is enough to burn through the whole night of the season of",
       "linkedGemaraLineIds": [
-        "yoma-15a-l01"
+        "yoma-015a-l06"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: 'you have no service' - no daytime service remains valid after the lamps are lit.",
+      "en": "Rashi: concludes - Tevet, and if some is left over on a short night, let it be left over. Then opens 'you have no service that is valid' - meaning there is no",
       "linkedGemaraLineIds": [
-        "yoma-15a-l01"
+        "yoma-015a-l06"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: no daytime service is valid after the lamps are ignited.",
+      "en": "Rashi: continues - daytime service that is valid after their lighting",
       "linkedGemaraLineIds": [
-        "yoma-15a-l01"
+        "yoma-015a-l06"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: explaining the word 'oto' - 'that one' - referring to that specific lamp at that specific time.",
+      "en": "Rashi: continues - for he expounds it thus: 'it' from evening until morning",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l06"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: 'oto' (that lamp) - not after the completion of that same lamp service.",
+      "en": "Rashi: concludes - and nothing else is valid from evening until morning. Then opens 'as it is written",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l12"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: as explained, the word 'oto' proves the incense must accompany the lighting.",
+      "en": "Rashi: continues - oto (it)' - as I explained, and perforce 'at the time of",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l12"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: at the time of the lighting the incense must be burning - not after.",
+      "en": "Rashi: continues - lighting the incense shall be burned' is what it says,",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l12"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: but in the morning, the plain reading of Scripture (Exodus 30:7) sets the order: clean lamps then burn incense.",
+      "en": "Rashi: continues - but in the morning, by the plain sense of the verse,",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l12"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: the sequence 'prepare them and burn incense' establishes the morning order.",
+      "en": "Rashi: concludes - the order of the service is 'when he cleans the lamps' and then 'he shall burn it'",
       "linkedGemaraLineIds": [
-        "yoma-15a-l06"
+        "yoma-015a-l12"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: Rav Pappa's resolution - 'not difficult': Yoma Chapter 1 follows one Tanna, Chapter 2 follows another.",
+      "en": "Rashi: opens 'Rav Pappa said: it is not difficult' - the order",
       "linkedGemaraLineIds": [
-        "yoma-15a-l12"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: Yoma's opening mishna, on the order of the two lamps on the day the KG tends them.",
+      "en": "Rashi: continues - of Yoma against the order of Yoma, etc. Regarding the cleaning of two",
       "linkedGemaraLineIds": [
-        "yoma-15a-l13"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: when it states 'ketoret first' that reflects the Rabbanan's view.",
+      "en": "Rashi: continues - lamps: the mishna teaching incense first is the Rabbis,",
       "linkedGemaraLineIds": [
-        "yoma-15a-l13"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: when it says 'lamps first' that reflects Abba Shaul's position.",
+      "en": "Rashi: concludes - and the mishna teaching lamps first is Abba Shaul",
       "linkedGemaraLineIds": [
-        "yoma-15a-l13"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: pointing to the lottery mishna of Chapter 1 (14b): the lottery order there.",
+      "en": "Rashi: opens 'the mishna here' - the one of the first chapter (14a)",
       "linkedGemaraLineIds": [
-        "yoma-15a-l16"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: the lottery mishna in Chapter 2 (25a) says ketoret is last - like Abba Shaul.",
+      "en": "Rashi: opens 'the lottery' - the lottery mishna taught in the",
       "linkedGemaraLineIds": [
-        "yoma-15a-l16"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: the second-chapter lottery has incense last, consistent with Abba Shaul.",
+      "en": "Rashi: continues - second chapter (25a), which teaches incense last,",
       "linkedGemaraLineIds": [
-        "yoma-15a-l16"
+        "yoma-015a-l13"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'look at the end' of the Yoma service order (Chapter 3, 31b): it brings the tamid last.",
+      "en": "Rashi: concludes - like Abba Shaul. Then opens 'say the latter clause' - of the order",
       "linkedGemaraLineIds": [
-        "yoma-15a-l16"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: Chapter 3 (Yoma 31b) says they brought the tamid to the KG after other preparations.",
+      "en": "Rashi: continues - of Yoma, taught in the third chapter (31b): they brought",
       "linkedGemaraLineIds": [
-        "yoma-15a-l16"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: 'they cut it' - the slaughter of the tamid: cutting through most of the two pipes.",
+      "en": "Rashi: continues - him the daily offering, to the High Priest on the Day",
       "linkedGemaraLineIds": [
-        "yoma-15a-l21"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: the valid cut (shechita) requires severing the majority of both windpipe and gullet.",
+      "en": "Rashi: concludes - of Atonement. Then opens 'he cut it' - he cut it, making in it",
       "linkedGemaraLineIds": [
-        "yoma-15a-l21"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: the KG must hurry to take the blood-basin because only he may perform all Yom Kippur service.",
+      "en": "Rashi: continues - a cut valid for slaughter, through the majority of the two pipes and not all of them,",
       "linkedGemaraLineIds": [
-        "yoma-15a-l21"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: the KG himself receives the blood - all Yom Kippur service is invalid except when performed by him.",
+      "en": "Rashi: continues - because he himself must hurry to take",
       "linkedGemaraLineIds": [
-        "yoma-15a-l21"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: the KG must personally receive the blood since all Yom Kippur service must be his.",
+      "en": "Rashi: continues - a basin to receive the blood, since every service of the Day",
       "linkedGemaraLineIds": [
-        "yoma-15a-l25"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: all Yom Kippur Temple service is invalid if performed by anyone other than the KG.",
+      "en": "Rashi: concludes - of Atonement is valid only through him",
       "linkedGemaraLineIds": [
-        "yoma-15a-l25"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: 'to tend the lamps' - this refers to the last two lamps (the ones not yet cleaned), since no one holds incense comes before all five lamps.",
+      "en": "Rashi: opens 'to clean the lamps' - and perforce",
       "linkedGemaraLineIds": [
-        "yoma-15a-l27"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: the two remaining lamps are those cleaned after the incense - there is no opinion that incense precedes all five lamps.",
+      "en": "Rashi: continues - it speaks of the last two, since there is no",
       "linkedGemaraLineIds": [
-        "yoma-15a-l27"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: according to the position that incense precedes the lamps, only five lamps are cleaned first.",
+      "en": "Rashi: concludes - opinion that incense precedes the five lamps",
       "linkedGemaraLineIds": [
-        "yoma-15a-l27"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: 'beginning and end of the Yoma service order' - the whole tractate follows one consistent sequence like the order of the Torah portions.",
+      "en": "Rashi: opens 'the first and last clauses' - of the Yoma order are the Rabbis",
       "linkedGemaraLineIds": [
-        "yoma-15a-l27"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: the entire tractate Yoma is organized as a single continuous mishna following the Torah's sequence.",
+      "en": "Rashi: continues - etc., said in wonder, since this whole tractate is like a single",
       "linkedGemaraLineIds": [
-        "yoma-15a-l27"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: a rhetorical challenge - if so, how did Abaye place Chapter 1 with Chapter 2?",
+      "en": "Rashi: continues - mishna, occupied entirely with the order just as",
       "linkedGemaraLineIds": [
-        "yoma-15a-l33"
+        "yoma-015a-l16"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: Abaye explained Chapter 1 as dealing with the two lamps and Chapter 2 with the five lamps.",
+      "en": "Rashi: concludes - the verses are arranged in sequence",
       "linkedGemaraLineIds": [
-        "yoma-15a-l33"
+        "yoma-015a-l16"
       ]
     },
     {

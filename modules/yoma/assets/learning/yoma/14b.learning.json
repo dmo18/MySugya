@@ -556,7 +556,7 @@
       "en": "A Tanna who holds that incense is burned before all lamp-cleaning (incense, then five lamps, then two lamps), in contrast to the Rabbanan who place incense between the two lamp sessions."
     }
   ],
-    "rashiTranslations": [
+      "rashiTranslations": [
     {
       "vilnaLine": 1,
       "en": "Rashi: continues 14a's truncated word - so that he dips the tops of the stems and sprinkles. Meaning: so that he dips them in a dipping that will be",
@@ -965,9 +965,9 @@
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: 'kodem l'hatavat ha-nerot - precedes lamp-cleaning.' Final statement of Abba Shaul's position: incense comes entirely before both lamp sessions. 'Maarev' closing note at end of section.",
+      "en": "Rashi: the daf's final truncated word - 'from evening', the start of the dibbur hamatchil 'from evening until morning' whose text continues on 15a",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l31"
       ]
     }
   ]

@@ -32973,12 +32973,12 @@ const DAF_CONTENT = {
         daf: "14b",
         vilnaLine: 59,
         he: "מערב",
-        en: "Rashi: 'kodem l'hatavat ha-nerot - precedes lamp-cleaning.' Final statement of Abba Shaul's position: incense comes entirely before both lamp sessions. 'Maarev' closing note at end of section.",
+        en: "Rashi: the daf's final truncated word - 'from evening', the start of the dibbur hamatchil 'from evening until morning' whose text continues on 15a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-14b-l10"
+          "yoma-014b-l31"
         ]
       }
     ],
@@ -33649,12 +33649,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 1,
         he: "מערב עד בקר. בנרות כתיב יערוך אותו אהרן ובניו מערב עד",
-        en: "Rashi: 'from evening to morning' - the verse about the menorah (Exodus 27:21) means give it enough oil to burn all night. The Sages estimated a half-log per lamp.",
+        en: "Rashi: opens 'from evening until morning', completing the word begun on 14b - concerning the lamps it is written: Aaron and his sons shall set it in order from evening until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l01"
+          "yoma-015a-l01"
         ]
       },
       {
@@ -33663,12 +33663,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 2,
         he: "בקר: תן לה. למנורה מדת שמן כדי שתהא דולקת כל הלילה ושיערו",
-        en: "Rashi: 'give it its measure' - the amount of oil for the menorah to burn until morning.",
+        en: "Rashi: concludes - morning. Then opens 'give it' - give the candelabrum a measure of oil so that it burns the whole night, and the Sages estimated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l01"
+          "yoma-015a-l06"
         ]
       },
       {
@@ -33677,12 +33677,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 3,
         he: "חכמים חצי לוג לכל נר ונר ויש בו כדי להדליק כל הלילה של תקופת",
-        en: "Rashi: the Sages calculated half a log per lamp, sufficient for the longest winter night (Tevet).",
+        en: "Rashi: continues - half a log for each and every lamp, which is enough to burn through the whole night of the season of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l01"
+          "yoma-015a-l06"
         ]
       },
       {
@@ -33691,12 +33691,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 4,
         he: "טבת ואם יותיר בקצרה יותיר: אין לך עבודה שכשירה. כלומר אין",
-        en: "Rashi: 'you have no service' - no daytime service remains valid after the lamps are lit.",
+        en: "Rashi: concludes - Tevet, and if some is left over on a short night, let it be left over. Then opens 'you have no service that is valid' - meaning there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l01"
+          "yoma-015a-l06"
         ]
       },
       {
@@ -33705,12 +33705,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 5,
         he: "לך עבודת יום כשירה אחר הדלקתן",
-        en: "Rashi: no daytime service is valid after the lamps are ignited.",
+        en: "Rashi: continues - daytime service that is valid after their lighting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l01"
+          "yoma-015a-l06"
         ]
       },
       {
@@ -33719,12 +33719,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 6,
         he: "דדריש הכי אותו מערב ועד בקר",
-        en: "Rashi: explaining the word 'oto' - 'that one' - referring to that specific lamp at that specific time.",
+        en: "Rashi: continues - for he expounds it thus: 'it' from evening until morning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l06"
         ]
       },
       {
@@ -33733,12 +33733,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 7,
         he: "ולא אחר מערב עד בקר: דכתיב",
-        en: "Rashi: 'oto' (that lamp) - not after the completion of that same lamp service.",
+        en: "Rashi: concludes - and nothing else is valid from evening until morning. Then opens 'as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l12"
         ]
       },
       {
@@ -33747,12 +33747,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 8,
         he: "אותו. כדפרישית ועל כרחך בעידן",
-        en: "Rashi: as explained, the word 'oto' proves the incense must accompany the lighting.",
+        en: "Rashi: continues - oto (it)' - as I explained, and perforce 'at the time of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l12"
         ]
       },
       {
@@ -33761,12 +33761,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 9,
         he: "הדלקה תהא מיקטרא קטורת קאמר",
-        en: "Rashi: at the time of the lighting the incense must be burning - not after.",
+        en: "Rashi: continues - lighting the incense shall be burned' is what it says,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l12"
         ]
       },
       {
@@ -33775,12 +33775,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 10,
         he: "אבל שחרית בסדר משמעו של מקרא",
-        en: "Rashi: but in the morning, the plain reading of Scripture (Exodus 30:7) sets the order: clean lamps then burn incense.",
+        en: "Rashi: continues - but in the morning, by the plain sense of the verse,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l12"
         ]
       },
       {
@@ -33789,12 +33789,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 11,
         he: "סדר העבודה בהיטיבו והדר יקטירנה:",
-        en: "Rashi: the sequence 'prepare them and burn incense' establishes the morning order.",
+        en: "Rashi: concludes - the order of the service is 'when he cleans the lamps' and then 'he shall burn it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l06"
+          "yoma-015a-l12"
         ]
       },
       {
@@ -33803,12 +33803,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 12,
         he: "רב פפא אמר לא קשיא. סדר",
-        en: "Rashi: Rav Pappa's resolution - 'not difficult': Yoma Chapter 1 follows one Tanna, Chapter 2 follows another.",
+        en: "Rashi: opens 'Rav Pappa said: it is not difficult' - the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l12"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33817,12 +33817,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 13,
         he: "יומא אסדר יומא וכו' א] בהטבת שתי",
-        en: "Rashi: Yoma's opening mishna, on the order of the two lamps on the day the KG tends them.",
+        en: "Rashi: continues - of Yoma against the order of Yoma, etc. Regarding the cleaning of two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l13"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33831,12 +33831,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 14,
         he: "נרות הא דתנן קטרת ברישא רבנן",
-        en: "Rashi: when it states 'ketoret first' that reflects the Rabbanan's view.",
+        en: "Rashi: continues - lamps: the mishna teaching incense first is the Rabbis,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l13"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33845,12 +33845,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 15,
         he: "והא דתנן נרות ברישא אבא שאול:",
-        en: "Rashi: when it says 'lamps first' that reflects Abba Shaul's position.",
+        en: "Rashi: concludes - and the mishna teaching lamps first is Abba Shaul",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l13"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33859,12 +33859,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 16,
         he: "למתניתין דהכא. דפירקא קמא (יד.):",
-        en: "Rashi: pointing to the lottery mishna of Chapter 1 (14b): the lottery order there.",
+        en: "Rashi: opens 'the mishna here' - the one of the first chapter (14a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l16"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33873,12 +33873,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 17,
         he: "פייס. דמתניתין דפייסות השנויה בפ'",
-        en: "Rashi: the lottery mishna in Chapter 2 (25a) says ketoret is last - like Abba Shaul.",
+        en: "Rashi: opens 'the lottery' - the lottery mishna taught in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l16"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33887,12 +33887,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 18,
         he: "שני (דף כה.) דקתני קטרת לבסוף",
-        en: "Rashi: the second-chapter lottery has incense last, consistent with Abba Shaul.",
+        en: "Rashi: continues - second chapter (25a), which teaches incense last,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l16"
+          "yoma-015a-l13"
         ]
       },
       {
@@ -33901,12 +33901,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 19,
         he: "כאבא שאול: אימא סיפא. דסדר",
-        en: "Rashi: 'look at the end' of the Yoma service order (Chapter 3, 31b): it brings the tamid last.",
+        en: "Rashi: concludes - like Abba Shaul. Then opens 'say the latter clause' - of the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l16"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33915,12 +33915,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 20,
         he: "יומא קתני בפ' שלישי (דף לא:) הביאו",
-        en: "Rashi: Chapter 3 (Yoma 31b) says they brought the tamid to the KG after other preparations.",
+        en: "Rashi: continues - of Yoma, taught in the third chapter (31b): they brought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l16"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33929,12 +33929,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 21,
         he: "לו את התמיד לכהן גדול ביום",
-        en: "Rashi: 'they cut it' - the slaughter of the tamid: cutting through most of the two pipes.",
+        en: "Rashi: continues - him the daily offering, to the High Priest on the Day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l21"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33943,12 +33943,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 22,
         he: "הכפורים: קרצו. חתכו חתך בו",
-        en: "Rashi: the valid cut (shechita) requires severing the majority of both windpipe and gullet.",
+        en: "Rashi: concludes - of Atonement. Then opens 'he cut it' - he cut it, making in it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l21"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33957,12 +33957,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 23,
         he: "הכשר שחיטה ברוב שנים ולא כולן",
-        en: "Rashi: the KG must hurry to take the blood-basin because only he may perform all Yom Kippur service.",
+        en: "Rashi: continues - a cut valid for slaughter, through the majority of the two pipes and not all of them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l21"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33971,12 +33971,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 24,
         he: "לפי שצריך הוא עצמו למהר וליטול",
-        en: "Rashi: the KG himself receives the blood - all Yom Kippur service is invalid except when performed by him.",
+        en: "Rashi: continues - because he himself must hurry to take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l21"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33985,12 +33985,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 25,
         he: "מזרק לקבל הדם שכל עבודת יום",
-        en: "Rashi: the KG must personally receive the blood since all Yom Kippur service must be his.",
+        en: "Rashi: continues - a basin to receive the blood, since every service of the Day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l25"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -33999,12 +33999,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 26,
         he: "הכפורים אינה כשירה אלא בו:",
-        en: "Rashi: all Yom Kippur Temple service is invalid if performed by anyone other than the KG.",
+        en: "Rashi: concludes - of Atonement is valid only through him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l25"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34013,12 +34013,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 27,
         he: "להיטיב את הנרות. ועל כרחך",
-        en: "Rashi: 'to tend the lamps' - this refers to the last two lamps (the ones not yet cleaned), since no one holds incense comes before all five lamps.",
+        en: "Rashi: opens 'to clean the lamps' - and perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l27"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34027,12 +34027,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 28,
         he: "בשתים האחרונות קאמר דליכא",
-        en: "Rashi: the two remaining lamps are those cleaned after the incense - there is no opinion that incense precedes all five lamps.",
+        en: "Rashi: continues - it speaks of the last two, since there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l27"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34041,12 +34041,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 29,
         he: "למ\"ד קטורת קודמת לחמש הנרות:",
-        en: "Rashi: according to the position that incense precedes the lamps, only five lamps are cleaned first.",
+        en: "Rashi: concludes - opinion that incense precedes the five lamps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l27"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34055,12 +34055,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 30,
         he: "רישא וסיפא. דסדר יומא רבנן",
-        en: "Rashi: 'beginning and end of the Yoma service order' - the whole tractate follows one consistent sequence like the order of the Torah portions.",
+        en: "Rashi: opens 'the first and last clauses' - of the Yoma order are the Rabbis",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l27"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34069,12 +34069,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 31,
         he: "וכו' בתמיה [דכל מסכת זו כמשנה",
-        en: "Rashi: the entire tractate Yoma is organized as a single continuous mishna following the Torah's sequence.",
+        en: "Rashi: continues - etc., said in wonder, since this whole tractate is like a single",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l27"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34083,12 +34083,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 32,
         he: "אחת שעסוקה כולה בסדר כמות",
-        en: "Rashi: a rhetorical challenge - if so, how did Abaye place Chapter 1 with Chapter 2?",
+        en: "Rashi: continues - mishna, occupied entirely with the order just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l33"
+          "yoma-015a-l16"
         ]
       },
       {
@@ -34097,12 +34097,12 @@ const DAF_CONTENT = {
         daf: "15a",
         vilnaLine: 33,
         he: "שהן הפסוקים סדורין והולכין]:",
-        en: "Rashi: Abaye explained Chapter 1 as dealing with the two lamps and Chapter 2 with the five lamps.",
+        en: "Rashi: concludes - the verses are arranged in sequence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15a-l33"
+          "yoma-015a-l16"
         ]
       },
       {

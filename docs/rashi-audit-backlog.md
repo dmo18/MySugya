@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.87: schema backfill is complete, the perek-level semantic
+As of VERSION 14.88: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -108,7 +108,14 @@ entries, closing 14a entirely (58/58 resolved). A first sub-chunk of
 in two); vilnaLine 31-59 remained for a follow-up chunk. A second
 sub-chunk at VERSION 14.87 (see "14b, vilnaLine 31-58" below) fixed
 the remaining mapped entries, vilnaLine 31-58, leaving only vilnaLine
-59 deferred pending the 14b/15a boundary check (58/59 resolved). No
+59 deferred pending the 14b/15a boundary check (58/59 resolved). A
+first sub-chunk of 15a at VERSION 14.88 (see "15a, vilnaLine 1-33"
+below) confirmed that boundary (15a's raw text opens "מערב עד בקר",
+completing 14b's truncated "מערב"), resolved the deferred 14b
+vilnaLine 59 (closing 14b entirely, 59/59), and fixed 15a's
+vilnaLine 1-33 (15a has 66 entries, above the single-chunk
+threshold, so it is split in two); vilnaLine 34-66 remain for a
+follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -984,6 +991,52 @@ before it can be fixed with confidence. Left unchanged, both `en` and
 `linkedGemaraLineIds`, pending that boundary check in the 15a chunk.
 
 14b is now 58/59 resolved; only vilnaLine 59 remains open.
+
+## 15a, vilnaLine 1-33 (VERSION 14.88), first half of a two-part daf, closing 14b
+
+Verified the 14b/15a boundary first: 15a's raw talmud.dev Rashi text
+opens "מערב עד בקר. בנרות כתיב יערוך אותו אהרן ובניו מערב עד", the
+direct completion of 14b's truncated final word "מערב". That resolves
+the one deferral from the prior chunk: 14b vilnaLine 59 is the
+truncated start of the dibbur hamatchil "from evening until morning"
+and is now linked to `yoma-014b-l31` ("בְּעֵידָן", 14b's own truncated
+final Gemara line), consistent with how every prior daf-boundary
+truncation was handled (14a vilnaLine 58 to l47, and so on). 14b is
+now fully resolved, 59/59.
+
+15a has 66 raw Rashi print-lines, above the 40-entry single-chunk
+threshold, so it is split into two sub-chunks: vilnaLine 1-33 here,
+vilnaLine 34-66 in a follow-up chunk. 15a showed the usual
+index-misalignment pattern: unpadded `yoma-15a-lXX` ids and content
+drifting one or more Gemara lines off (for example vilnaLine 2-5 were
+linked to `l01` but belong to `l06`, vilnaLine 21-29 were spread
+across `l21`/`l25`/`l27` but all belong to `l16`).
+
+Read the sugya scaffolding first (`yoma-15a-s01`: `l01`-`l12`, the
+morning/evening incense-and-lamps derivation and Abba Shaul's "oto"
+answer; `yoma-15a-s02`: `l13`-`l25`, Rav Pappa's alternative
+resolution and Abaye's counter; `yoma-15a-s03`: `l27`-`l47`, the
+sprinkling geometry discussion), then walked the raw print-lines.
+
+vilnaLine 1 completes the boundary DH and explains `l01` (the baraita
+"from evening until morning" quoted at the end of that line).
+vilnaLine 2-6 open and explain `l06` (the oil measure, half a log per
+lamp, and "you have no service valid from evening to morning").
+vilnaLine 7-11 open `l12` (Abba Shaul's answer "as it is written:
+oto"). vilnaLine 12-18 open `l13` (Rav Pappa's resolution, including
+the sub-DHs "the mishna here" and "the lottery"). vilnaLine 19-33
+open `l16` (the "say the latter clause" challenge, including the
+sub-DHs "he cut it", "to clean the lamps", and "the first and last
+clauses"; the last of these carries Rashi's "in wonder" gloss, which
+matches the exclamatory challenge form in `l16` rather than the
+"granted" concession in `l21` where the same phrase recurs).
+
+All 33 fixed entries' `linkedGemaraLineIds` were corrected to the
+real zero-padded `yoma-015a-lXX` ids (`l01`, `l06`, `l12`, `l13`,
+`l16`). No deferrals in this sub-chunk. vilnaLine 34-66 (Abaye's
+reply, the sin-offering/burnt-offering sprinkling derivation, the
+matzlif discussion, and the truncated final word "אגופיה" continuing
+onto 15b) remain for the follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
