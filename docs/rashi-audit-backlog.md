@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.80: schema backfill is complete, the perek-level semantic
+As of VERSION 14.81: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -82,9 +82,14 @@ VERSION 14.80 (see "Self-correction" under the 12b remap section)
 relinked 12b vilnaLine 57-62 from an incorrect `l35` anchor to the
 correct `l42` anchor after cross-referencing 13a's Gemara text
 surfaced the error; 13a itself was found to have the same index-
-misalignment pattern as 12b, but its reconstruction is deferred to
-its own dedicated chunk given denser, harder-to-sequence hypotheticals
-(see the "13a" section below) - no content was changed on 13a. The descriptive-style systemic finding is still open beyond the lines fixed
+misalignment pattern as 12b. A dedicated 13a chunk at VERSION 14.81
+(see the "13a" section below) read the daf's actual Gemara-line
+sequence first and fixed vilnaLine 1-17 (the halacha ruling's
+cross-daf tail, the backup-wife discussion's close, and the first two
+conditional-divorce formulas); vilnaLine 18-29 were left unchanged
+after the raw-line walk hit genuine ambiguity between competing later
+Gemara lines, and are deferred to a future dedicated pass. No
+regression was found on 12b in the process. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -609,34 +614,71 @@ that continues from 12b's truncated Halacha statement into 13a rather
 than claiming precise sub-clause-level certainty about which of 13a's
 several nearby Gemara lines each phrase individually explains.
 
-## 13a: index-remapping pattern confirmed, deferred pending careful reconstruction
+## 13a: dedicated alignment pass, vilnaLine 1-17 fixed, 18-29 deferred
 
-Checked 13a next, following 12b. It shows the same index-misalignment
-pattern as 12b (real, on-topic Rashi translation of the conditional-
-divorce "backup wife" sugya - Rabbi Yehuda's proposal, the "al menat
-shetamuti"/"al menat shelo tamuti" conditional-get formulas, Rava's
-"kol yemei chayai" ruling on what counts as keritut - misassigned to
-the wrong vilnaLine), plus the same unpadded `yoma-13a-lXX` id bug
-seen on 12b. No content was changed on 13a in this pass.
+A dedicated chunk revisited 13a with the actual Gemara-line sequence
+read first, rather than assumed sequentially: `yoma-013a-l01` (halacha
+k'Rabbi Yosei ruling), `l04` (pashita/mahu detapina/tzara machayim),
+`l05` (Rabbi Yehuda's backup-wife proposal, tumah shechicha/mita lo
+shechicha), `l08` (ein ladavar sof, chayishinan lechada lo letrei),
+`l12` (nimru inhu lenafshaihu, zariz hu), `l15` (u'mi sagi lei
+b'takanta - the two-houses problem), `l20` (hadra kushyain, al menat
+shetamuti), `l23` (al menat shelo tamuti), `l25` (al menat shetamut
+achat mikem), `l27` (Rava's kol yemei chayai ruling - ein zeh
+keritut), `l29a`/`l29b` (kol yemei chayei peloni - harei zeh keritut;
+shelo tamut chavertich), and `l32` (truncated "lemafrea," continuing
+to 13b). Reading the learning_data.js sugya scaffolding directly
+(rather than inferring from raw-line order alone) also clarified the
+prior 12b self-correction: sugya `yoma-13a-s01` covers only `l01`-`l04`
+and is entirely about the replacement Kohen Gadol resuming service
+when the original dies (confirming 12b vilnaLine 57-62's correct
+anchor at `l42`), while `yoma-13a-s02` (`l05`-`l12`) is the separate
+backup-wife discussion, and `yoma-13a-s03` (`l15`-`l32`) is the
+conditional-divorce sugya. No regression was found on 12b; its
+vilnaLine 57-62 remain correctly linked to `l42` and were not
+modified in this pass.
 
-Reconstruction is more difficult here than on 12b for two compounding
-reasons. First, 13a's raw Rashi lines 1-3 are themselves a direct
-continuation of the passage corrected above - discovered only by
-cross-referencing 13a's Gemara text back against 12b's Rashi content,
-which is what surfaced the 12b correction in the first place. Second,
-the sugya itself is denser: a sequence of nested conditional-divorce
-hypotheticals (single wife, then two wives, staggered conditions),
-where several raw lines describe scenarios ("she and her counterpart
-dies, this one remains for him") that do not appear in the Gemara
-text in the order the raw lines would suggest, meaning a purely
-sequential raw-line-to-Gemara-line walk (the method that worked
-cleanly on 12b) produced a mapping that stopped holding up around raw
-line 7. Getting this right requires slower, more careful verification
-of each hypothetical against the actual Gemara sequence (`l01`, `l04`,
-`l05`, `l08`, `l12`, `l15`, `l20`, `l23`, `l25`, `l27`, `l32`) than is
-safe to do in the same pass as an active chunk, per the "cannot
-confidently map a batch's Rashi Hebrew to Gemara line IDs" stop
-condition. Deferred to its own dedicated chunk.
+vilnaLine 1-2 continue the cross-daf bridge from 12b's vilnaLine 62
+("kivan"), and verbatim-match `l08`'s "ein ladavar sof" (there is no
+end to the matter). vilnaLine 3 opens on "zariz hu" (`l12`, exact
+phrase match) then opens "b'takanta" (`l15`, exact phrase match, but
+its own explanation is on the next line so `l12` was kept as the
+dominant anchor for vilnaLine 3). vilnaLine 4 closes the "b'takanta"
+gloss then opens "hadra kushyain" and "al menat shetamuti," both
+verbatim matches to `l20`. vilnaLine 5-15 continue elaborating that
+same `l20` formula, including a seven-line editorial aside (vilnaLine
+8-14) where Rashi explicitly comments that "this entire sugya" of
+proposed resolutions is pedagogical rather than a settled ruling -
+Rashi's own words, not a new Gemara citation, so kept anchored to
+`l20` where it appears in the print order. vilnaLine 16 closes that
+formula's failure analysis and opens "al menat shelo tamuti,"
+verbatim-matching `l23`; vilnaLine 17 continues it.
+
+All 17 fixed entries' `linkedGemaraLineIds` were also corrected from
+the unpadded, dangling `yoma-13a-lXX` form to the real zero-padded
+`yoma-013a-lXX` ids.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 13a | 1-2 | `l01` (dangling) -> `l08` (each) | English already described this content reasonably but with a dangling id and without recognizing it as the direct continuation of 12b's "nimru inhu lenafshaihu" bridge into `l08`'s "ein ladavar sof" reasoning. | Fixed: reworded to frame the continuation explicitly; placement corrected to `l08`. |
+| 13a | 3 | `l03` (dangling) -> `l12` (each) | English conflated the "zariz hu" gloss with unrelated framing ("the Rabbanan's distinction"); actual Hebrew is a direct explanation of `l12`'s "kohen gadol zariz hu," then opens toward `l15`. | Fixed: reworded and placement corrected to `l12`. |
+| 13a | 4 | `l04` (dangling) -> `l20` (each) | English fabricated "the backup wife arrangement... parallel to the backup KG arrangement" for content that is actually `l15`'s brief close, followed immediately by `l20`'s "hadra kushyain / al menat shetamuti" opening (the dominant content on this line). | Fixed: reworded and placement corrected to `l20`. |
+| 13a | 5-15 | `l05`-`l11` (mixed, dangling) -> `l20` (each) | English fabricated content describing later formulas ("al menat shelo tamuti," "kol yemei chayei peloni") out of order, out of place on lines that are still working through the first ("al menat shetamuti") formula and Rashi's own editorial aside about the pedagogical nature of these resolutions. | Fixed: reworded as accurate continuations grounded in the raw Hebrew; placement corrected to `l20`. |
+| 13a | 16-17 | `l08`/`l09` (dangling) -> `l23` (each) | English fabricated formula content already misplaced elsewhere; actual Hebrew closes the `l20` formula and opens `l23`'s "al menat shelo tamuti" formula. | Fixed: reworded and placement corrected to `l23`. |
+
+vilnaLine 18-29 were left unchanged. Continuing the raw-line walk past
+vilnaLine 17 found real ambiguity: vilnaLine 18's "k'hai gavna" phrase
+and vilnaLine 21's "kol yemei chayei peloni" phrase both plausibly
+connect to more than one later Gemara line (`l23`'s own continuation
+versus `l27`'s later, explicit "ein zeh keritut" citation; and `l25`
+versus `l29a`'s near-identical "kol yemei chayei peloni" wording,
+which are not adjacent in the Gemara's own line order). This is
+exactly the "nested conditional-divorce sequence becomes ambiguous"
+stop condition - forcing a guess here risks repeating the same kind
+of misattribution just corrected in 12b. Deferred to a future
+dedicated pass that resolves each of `l23`, `l25`, `l27`, `l29a`,
+`l29b`, and `l32` against vilnaLine 18-29 one hypothesis at a time
+before writing any fix.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
