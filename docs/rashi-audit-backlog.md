@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.77: schema backfill is complete, the perek-level semantic
+As of VERSION 14.78: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -67,10 +67,14 @@ from 11b's truncated final word. Batch 10 (VERSION 14.77, see Batch 10
 findings below) fixed 12a vilnaLine 17-36, the remainder of Gemara
 sugya s01 (tribal-boundary geography, the tannaitic dispute over
 whether Jerusalem was divided, and the tzaraat/family-ownership
-sequence); 12a vilnaLine 37-66, the separate Kohen Gadol investiture
-sugya (Rav Adda's belt proposal, Abaye's eight garments and tzinnora,
-and its cross-daf continuation into 12b), remains open for a future
-batch. The descriptive-style systemic finding is still open beyond the lines fixed
+sequence). Batch 11 (VERSION 14.78, see Batch 11 findings below)
+closed out 12a entirely, fixing the remaining 30 entries (vilnaLine
+37-66, the Kohen Gadol investiture dispute proper - the mishna's two
+disqualification scenarios, Rav Adda's belt proposal, Abaye's eight
+garments and tzinnora counter-proposal, and the cross-daf continuation
+into 12b). 12a (66 entries) is now fully resolved, bringing the
+descriptive-style hotspot total to 10a-12a (99 + 39 + 66 = 204
+entries). The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -467,6 +471,48 @@ No deferrals were needed in Batch 10. vilnaLine 37-66 (the Kohen Gadol
 investiture dispute proper - Rav Adda's belt proposal, Abaye's eight
 garments and tzinnora, and the cross-daf continuation into 12b) remain
 open for a future batch.
+
+## Batch 11 findings (VERSION 14.78): 12a, vilnaLine 37-66 (closing 12a)
+
+Finished 12a with vilnaLine 37-66, all of Gemara sugya s02 (lines `l33`,
+`l36`, `l42`, `l45`): the Kohen Gadol investiture dispute proper. The
+mishna's two disqualification scenarios (before vs. after the morning
+tamid) are both on `l33`; Rav Adda bar Ahava's proposal that the belt
+alone marks the investiture, plus the sub-dispute over whether the
+High Priest's everyday belt matches the common priest's, is on `l36`;
+Abaye's counter-proposal (eight garments plus turning a tamid limb
+with an iron fork, the tzinnora) and Rav Huna's death-penalty ruling
+for a non-priest who does the same are on `l42`. All prior English
+described this same dispute but attached it to the wrong lines within
+it (Rav Adda's belt proposal mislabeled as tied to `l42`/`l45`
+instead of `l36`, Abaye's proposal split across `l36`/`l42`/`l45`
+instead of consolidated on `l42`, and several lines carrying vague,
+non-committal restatements like "notes the practical significance" or
+"summary of the tribal-geography and investiture sections" that named
+no actual Rashi content) - a milder version of the same fabrication
+pattern, since the topic was already correct but the line-level
+placement and specificity were not.
+
+vilnaLine 66 is the daf's final raw print-line, a single truncated
+word ("avodato," his service) matching Gemara `l45`'s own truncated
+final word. Checked 12b vilnaLine 1: its rashiTranslations entry was
+already correctly fixed in an earlier pass and confirms the
+continuation - the raw talmud.dev text there opens "avodato
+mechanchato" (his service inducts him), Rav Pappa's resolution of the
+belt dispute. vilnaLine 66 was reworded to document the cross-daf
+link rather than fabricate content, matching the pattern already used
+at 10a-vl35, 10b-vl21, 11a-vl43, and 11b-vl39.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 12a | 37-47 | `l45` (each) -> `l33` (each) | English fabricated generic content ("Yom Kippur context," "closing comment on the dispute," "connects back to the mishna," vague notes on garments/textual sources); actual Hebrew is Rashi's explanation of both mishna scenarios on `l33`: disqualification before the morning tamid (induct via the tamid itself, in eight garments) and disqualification after it (what then identifies the replacement as a genuine Cohen Gadol). | Fixed: reworded as accurate continuations of the real DHs "eira" and "bameh mechanchin oto"; placement corrected to `l33`. |
+| 12a | 48-60 | `l45`/`l33`/`l36` (mixed) -> `l36` (each) | English fabricated or vaguely restated the belt dispute ("linguistic and contextual definition of tzinnora" on lines that do not mention tzinnora, "brief note on shared garments," generic summaries); actual Hebrew is Rav Adda's belt proposal and the sub-dispute over whether the High Priest's everyday belt equals the common priest's, all glossing `l36`. | Fixed: reworded as accurate continuations of the real DHs "be'avnet," "hanicha lemad," "zehu avneto shel kohen hedyot," and "ella lemaan de'amar"; placement corrected to `l36`. |
+| 12a | 61-65 | `l36`/`l42` (mixed) -> `l42` (each) | English fabricated "timing of investiture," "Rav Adda's reasoning," and "why minimal investiture is insufficient" content not grounded in these specific lines; actual Hebrew is Abaye's counter-proposal (eight garments plus turning a tamid limb with an iron fork, the tzinnora) and Rav Huna's death-penalty ruling for a non-priest performing the same act. | Fixed: reworded as accurate continuations of the real DHs "amar Abaye," "b'tzinnora," and "chayav mitah"; placement corrected to `l42`. |
+| 12a | 66 | `l45` (valid, but content fabricated) | English fabricated "final note on Abaye's position" content; actual Hebrew is a single truncated word ("avodato") matching Gemara `l45`'s own truncation, continuing onto 12b. | Fixed: reworded to document the cross-daf continuation (verified against 12b vilnaLine 1, already correctly resolved); placement id unchanged (`l45` is already correct). |
+
+No deferrals were needed in Batch 11. This closes out 12a entirely:
+all 66 rashiTranslations entries are now grounded in their local
+Rashi Hebrew and correctly linked to their Gemara lines.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
