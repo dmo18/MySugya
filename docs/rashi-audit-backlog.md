@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.71: schema backfill is complete, the perek-level semantic
+As of VERSION 14.72: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -46,14 +46,18 @@ pass at VERSION 14.71 ran three bounded subtasks (see Batch 4 findings
 below): Subtask A closed out 10b entirely (vilnaLine 11 placement,
 vilnaLine 21 content); Subtask B fixed 6 entries in 10a and 6 in 11a;
 Subtask C fixed 12 more entries in 11a, resolving 11a through vilnaLine
-26. Both systemic findings are still open beyond the lines fixed so far.
-Unreviewed entries remain at 10a vilnaLine 1 (spot-checked only, appears
-aligned, not formally verified) and vilnaLine 9-21 and 25-35; 11a
-vilnaLine 1, 3, 5-8, and 27-43; plus the 77a-88a placeholder text. All
-need a dedicated pass of their own. This is still small, explicitly
-scoped work, not the dedicated Rashi content-quality audit described in
-the Scope note above. Rashi content-quality auditing of the remaining
-corpus and the nekudot/vowelization audit have not started.
+26. Batch 5 (VERSION 14.72, see Batch 5 findings below) closed out 11a
+entirely: the remaining 24 entries (vilnaLine 1, 3-8, 27-43) were fixed,
+including a correction of one Batch 2 placement (vilnaLine 4). The
+descriptive-style systemic finding is still open beyond the lines fixed
+so far. Unreviewed entries remain at 10a vilnaLine 1 (spot-checked only,
+appears aligned, not formally verified) and vilnaLine 9-21 and 25-35;
+plus the other descriptive-style daf named in the scope estimate below;
+plus the 77a-88a placeholder text. All need a dedicated pass of their
+own. This is still small, explicitly scoped work, not the dedicated
+Rashi content-quality audit described in the Scope note above. Rashi
+content-quality auditing of the remaining corpus and the
+nekudot/vowelization audit have not started.
 
 ## Pilot findings (VERSION 14.67)
 
@@ -216,14 +220,43 @@ wasn't available locally, except where explicitly noted.
 | 11a | 25 | `l44` -> `l26` | English fabricated "dirat adam/dirat kavod" framing; actual Hebrew continues explaining the shameful nature of women bathing unclothed there. | Fixed: reworded and placement corrected. |
 | 11a | 26 | `l44` -> `l26` | English fabricated "bathrooms, tanneries" content, a topic from much later; actual Hebrew concludes this specific comment (not fitting for Heaven's honor to have a mezuza present). | Fixed: reworded and placement corrected. |
 
-11a's rashiTranslations (43 entries total) are now resolved through
-vilnaLine 26 (vilnaLine 2, 4, and 9-26: 20 entries fixed across Batch 2
-and Batch 4). vilnaLine 1, 3, 5-8, and 27-43 (23 entries) remain
-unreviewed.
+11a's rashiTranslations (43 entries total) were resolved through
+vilnaLine 26 as of Batch 4 (vilnaLine 2, 4, and 9-26: 20 entries fixed
+across Batch 2 and Batch 4). The remaining entries were closed out in
+Batch 5 below.
 
 No deferrals were needed in Batch 4 - every line audited had a locally
 certain fix (grounded in the raw talmud.dev text and the matching
 Gemara line), so nothing required external source review.
+
+## Batch 5 findings (VERSION 14.72): 11a closed out
+
+The remaining 24 entries of 11a (vilnaLine 1, 3-8, 27-43), fixed by
+reconstructing the real comment boundaries and comparing to the local
+Gemara lines. This closes out 11a's rashiTranslations (43/43 resolved).
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 11a | 1 | unchanged (`l01`) | English covered only the first half of the line ("all the gates" gloss) and omitted that the line also opens a second dibbur hamatchil, "echad sha'arei medinot." | Fixed: reworded to describe both halves. |
+| 11a | 3 | `l03` -> `l10` | English fabricated a Nicanor Gate history (Nikanor of Alexandria, copper doors, caretakers); actual Hebrew closes the province gloss ("like the land of Hagar") and opens the "abulei d'Machoza" comment, quoting Gemara `l10`. | Fixed: reworded and placement corrected. |
+| 11a | 4 | `l06` -> `l10` | Correction of a Batch 2 placement: Batch 2 correctly rewrote the English (Machoza/Akra de-Kuvei) but anchored to `l06` by matching the then-unverified neighboring entries; the Machoza/Kuvei discussion is actually Gemara `l10`. Also refined the English: the Hebrew says the structure is built above the gates, and notes Machoza's mostly-Jewish population. | Fixed: placement corrected, English refined. |
+| 11a | 5 | `l03` -> `l10` | English fabricated a "gezeira ligzeira" explanation (a `l03` topic, but not this Rashi's content); actual Hebrew continues the Kuvei gloss (gates beneath it are arch-shaped). | Fixed: reworded and placement corrected. |
+| 11a | 6 | `l06` -> `l10` | English described the "abulei d'Machoza" gloss, which actually sits at vilnaLine 3; actual Hebrew here finishes the arch-strength point and opens "ve-akra de-Kuvei gufah." | Fixed: reworded and placement corrected. |
+| 11a | 7 | `l06` -> `l10` | English fabricated a "Rav Safra's answer" paraphrase; actual Hebrew continues "the fort of Kuvei itself" (because of that very building). | Fixed: reworded and placement corrected. |
+| 11a | 8 | unchanged (`l10`) | English paraphrased Abaye's challenge with fabricated reasoning about doorposts; actual Hebrew gives the real reason (one enters the fort through that gate). | Fixed: reworded. |
+| 11a | 27 | `l45` -> `l32` | English fabricated "second baraita" framing; actual Hebrew opens the comment on "even though the women adorn themselves" (with perfumes), quoting `l32`. | Fixed: reworded and placement corrected. |
+| 11a | 28 | `l48` -> `l32` | English fabricated "conflict between the two baraitot" content; actual Hebrew continues (you might think it is a dwelling; it teaches us). | Fixed: reworded and placement corrected. |
+| 11a | 29 | `l48` -> `l36` | English fabricated "gatehouse exclusion" content (an 11b topic); actual Hebrew concludes "not a dwelling," then opens "ela mai it lakh lemeimar," quoting `l36`. | Fixed: reworded and placement corrected. |
+| 11a | 30 | `l51` -> `l36` | English fabricated "aksenedra" content (an 11b topic); actual Hebrew continues (when you explained ne'otot as mitkashtot). | Fixed: reworded and placement corrected. |
+| 11a | 31 | `l51` -> `l36` | English fabricated "marpeset" content (an 11b topic); actual Hebrew continues (baraita would contradict baraita, forcing a tannaitic dispute). | Fixed: reworded and placement corrected. |
+| 11a | 32 | `l51` -> `l36` | English fabricated "three exclusion categories" content; actual Hebrew opens "ve-yesh mechayvin" (quoting `l36`): this is the tannaitic dispute, each Amora resolves per his reasoning. | Fixed: reworded and placement corrected. |
+| 11a | 33-36 | `l51` -> `l36` (each) | English fabricated bathroom/tannery/bathhouse/mikveh exclusion content (topics from `l38`/`l45`, described inaccurately); actual Hebrew spells out the two resolutions: Rav Kahana (dispute is the standard case; adorning obligates per all) and Rav Yehuda (dispute is the adorning case; standard exempt per all). | Fixed: reworded as accurate continuations and placement corrected. |
+| 11a | 37 | `l51` -> `l38` | English fabricated Temple Mount/sacred-space content; actual Hebrew closes the prior comment and opens "ve-she-hanashim ne'otot bahen," quoting the `l38` baraita. | Fixed: reworded and placement corrected. |
+| 11a | 38-41 | `l51` -> `l38` (each) | English fabricated tiyuvta/sacred-mundane/three-part-framework content; actual Hebrew explains the referent (hay/cattle/wood structures where women bathe) and why the immersion house needed separate mention despite lacking filth. | Fixed: reworded as accurate continuations and placement corrected. |
+| 11a | 42 | `l51` -> `l48` | English fabricated a "six gates" count discussion; actual Hebrew closes the immersion-house point and glosses "ve-lulin" (chicken coops, a place for raising chickens), quoting the `l48` baraita. | Fixed: reworded and placement corrected. |
+| 11a | 43 | unchanged (`l51`) | English fabricated "seven gate types" content; actual Hebrew is the single word "beit," the truncated start of the "beit sha'ar" comment continuing onto 11b (confirmed against 11b's first Rashi line). Placement already matched the Gemara's identical truncated word at `l51`. | Fixed: reworded to state the cross-daf continuation. |
+
+No deferrals were needed in Batch 5.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
