@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.85: schema backfill is complete, the perek-level semantic
+As of VERSION 14.86: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -101,8 +101,12 @@ below) verified the 13b/14a boundary (no regression), then fixed
 14a's vilnaLine 1-29 (14a has 58 entries, above the single-chunk
 threshold, so it is split in two). A second sub-chunk at VERSION
 14.85 (see "14a, vilnaLine 30-58" below) fixed the remaining 29
-entries, closing 14a entirely (58/58 resolved). No regression was
-found on 12b, 13a, or 13b in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
+entries, closing 14a entirely (58/58 resolved). A first sub-chunk of
+14b at VERSION 14.86 (see "14b, vilnaLine 1-30" below) verified the
+14a/14b boundary (no regression), then fixed 14b's vilnaLine 1-30
+(14b has 59 entries, above the single-chunk threshold, so it is split
+in two); vilnaLine 31-59 remain for a follow-up chunk. No regression
+was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -889,6 +893,46 @@ No deferrals were needed. This closes out 14a entirely: all 58
 rashiTranslations entries are now grounded in their local Rashi
 Hebrew, correctly indexed to their raw print-lines, and correctly
 linked to their Gemara lines.
+
+## 14b, vilnaLine 1-30 (VERSION 14.86), first half of a two-part daf
+
+14b has 59 raw Rashi print-lines, above the 40-entry single-chunk
+threshold, so it is split into two sub-chunks: vilnaLine 1-30 here,
+vilnaLine 31-59 in a follow-up chunk. Verified the 14a/14b boundary
+first: 14a vilnaLine 58 links correctly to `l47`, and 14b's own raw
+talmud.dev text opens "שיטביל ראשי גבעולין ויזה" ("so that he dips the
+tops of the stems and sprinkles"), the direct continuation of 14a's
+truncated "שיטביל" - no regression, no change needed on 14a.
+
+14b showed the same index-misalignment pattern as the prior daf-boundary
+daf (sequential-but-wrong ids `yoma-14b-l01` through `l10` that do not
+match the real, vilna-line-numbered ids in `learning_data.js`). Reading
+the sugya scaffolding first (`yoma-14b-s01`: `l01` only, closing the
+red-heifer sprinkling dispute carried from 14a; `yoma-14b-s02`:
+`l03`-`l14`, the mishna's service-order and its apparent contradiction
+with tractate Tamid; `yoma-14b-s03`: `l16`-`l31`, continuing into the
+lottery/pais and lamp-tending-versus-incense dispute) supplied the
+structure.
+
+vilnaLine 1 closes `l01` (Abaye's resolution of the sprinkling
+dispute). vilnaLine 2-7 open and explain `l03` (the mishna's service
+order and the contradiction raised from tractate Tamid's own mishna).
+vilnaLine 8-25 open and explain `l07` (Rav Huna's attribution to Rabbi
+Shimon Ish HaMitzpa, the objection from Tamid's blood-sprinkling
+mishna, and the geometry of the four sprinklings on two altar
+corners). vilnaLine 26-30 open `l11` (the baraita distinguishing Rabbi
+Shimon Ish HaMitzpa's practice from the ordinary burnt offering's
+sprinkling order).
+
+All 30 fixed entries' `linkedGemaraLineIds` were also corrected from
+the sequential-but-wrong `yoma-14b-lXX` form to the real zero-padded
+`yoma-014b-lXX` ids matching the actual vilna-line numbering (`l01`,
+`l03`, `l07`, `l11`).
+
+No deferrals were needed in this sub-chunk. vilnaLine 31-59 (the
+remainder of the lottery/pais discussion and the lamp-tending-versus-
+incense dispute between the Rabbis and Abba Shaul) remain for a
+follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

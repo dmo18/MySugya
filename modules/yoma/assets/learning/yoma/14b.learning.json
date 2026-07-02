@@ -559,212 +559,212 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'sheyitbil roshei giv'olin v'yazzeh - so that he can dip the tops of the hyssop stems and sprinkle.' Continuing from 14a: the minimum water volume in the vessel is defined by functional sufficiency for sprinkling.",
+      "en": "Rashi: continues 14a's truncated word - so that he dips the tops of the stems and sprinkles. Meaning: so that he dips them in a dipping that will be",
       "linkedGemaraLineIds": [
-        "yoma-14b-l01"
+        "yoma-014b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: 'kol mi she-zacha... shalosh mishnayot hein b'seder ha-tamid' - three mishnayot in tractate Tamid are arranged sequentially describing the service: lottery for ash-clearing, then lamp-tending, then incense - each with its own lottery winner.",
+      "en": "Rashi: concludes - enough in it to sprinkle from it. Then opens 'everyone who merited,' etc. - there are three mishnayot in the order of Tamid,",
       "linkedGemaraLineIds": [
-        "yoma-14b-l02"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: 'mi she-zacha b'menorah noteil et ha-teni' - the winner of the menorah lottery takes the basket (teni) to collect the used wicks and ash; Rashi explains the three sequential mishnayot of Tamid about the service order.",
+      "en": "Rashi: continues - arranged one after another in the order of his service: the one who merited the lottery for the removal of ashes from the",
       "linkedGemaraLineIds": [
-        "yoma-14b-l02"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: 'u'mefaresh ma'aseh hatavat nerot' - Tamid explains the process of tending the lamps in detail, then proceeds to the incense lottery. This shows Tamid's order: lamps before incense.",
+      "en": "Rashi: continues - inner altar takes, etc., and when he finished the order of the ash-removal act, he then mentions afterward",
       "linkedGemaraLineIds": [
-        "yoma-14b-l03"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: 'v'chozer v'shoneh mi she-zacha b'ketoret' - Tamid then describes the incense-winner's procedure. Thus Tamid's order is: lamp-cleaning, then incense.",
+      "en": "Rashi: continues - the one who merited the candelabrum takes the pan, etc.",
       "linkedGemaraLineIds": [
-        "yoma-14b-l03"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: 'alma k'kha sideiran - evidently this is the order they arranged.' The three Tamid mishnayot establish the order: ash-clearing, then lamps, then incense.",
+      "en": "Rashi: continues - and explains the act of tending the lamps, and then goes back",
       "linkedGemaraLineIds": [
-        "yoma-14b-l04"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: 'man tana Tamid Rabbi Shimon ish HaMitzpah hu' - Rav Huna's attribution: R. Shimon ish HaMitzpah is the Tanna of tractate Tamid, deduced from his appearance in a related Tosefta.",
+      "en": "Rashi: continues - and repeats: the one who merited the incense, and explains",
       "linkedGemaraLineIds": [
-        "yoma-14b-l04"
+        "yoma-014b-l03"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: 'v'ha ipcha shema'inan lei - but we heard from him the opposite!' A Tosefta shows R. Shimon holds a different view from Tamid's anonymous ruling on the blood application order.",
+      "en": "Rashi: concludes - its laws, so this is the order they arranged. Then opens 'who' -",
       "linkedGemaraLineIds": [
-        "yoma-14b-l05"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: 'davar plugtaihyu hu d'shema'inan lei d'falig a'stama d'Tamid' - the matter of their dispute: we hear that R. Shimon ish HaMitzpah disputes the anonymous ruling of tractate Tamid on blood application.",
+      "en": "Rashi: continues - is the tanna of Tamid? Rabbi Shimon Ish HaMitzpah",
       "linkedGemaraLineIds": [
-        "yoma-14b-l05"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: 'detanan b'masechet Tamid ba l'kren mizrachit tzfonit' - in tractate Tamid, the blood-applying kohen goes to the northeast corner of the altar first, then to the southwest corner. This is what R. Shimon disputes.",
+      "en": "Rashi: continues - is he, for we hear him in a baraita that deals",
       "linkedGemaraLineIds": [
-        "yoma-14b-l06"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: 'v'tani alah Rabbi Shimon ish HaMitzpah misneh b'Tamid' - R. Shimon ish HaMitzpah explicitly differs from Tamid's ruling on this point, which means he cannot be Tamid's author.",
+      "en": "Rashi: concludes - with the laws of the order of Tamid. Then opens 'but this is the opposite' -",
       "linkedGemaraLineIds": [
-        "yoma-14b-l06"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: 'man tana seder Yoma' - who authored the tractate dealing with the Yom Kippur service order (Yoma)?",
+      "en": "Rashi: continues - we hear from him. This is the matter of their dispute",
       "linkedGemaraLineIds": [
-        "yoma-14b-l07"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: 'man tana Tamid d'hach mas'ta d'miirei b'seder yom ha-kipurim d'falig a'mishnayot d'seder ha-tamid' - who authored the tractate about Yom Kippur that disputes the rulings of tractate Tamid? R. Shimon ish HaMitzpah.",
+      "en": "Rashi: continues - that we hear that he disagrees with the unattributed mishna of tractate",
       "linkedGemaraLineIds": [
-        "yoma-14b-l07"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: 'ha-payis ha-sheni' - the second lottery in Yoma (chapter 2) involves thirteen Temple service assignments. Rashi explains what they are: who slaughters, who sprinkles blood, etc.",
+      "en": "Rashi: continues - Tamid, and the unattributed mishna of Tamid cannot be established",
       "linkedGemaraLineIds": [
-        "yoma-14b-l08"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: Rashi lists the thirteen services in the second lottery: slaughterer, blood-sprinkler, ash-cleaner from inner altar, who brings limbs to the ramp, who arranges them on the altar. They separate and reassemble for the third lottery.",
+      "en": "Rashi: concludes - according to him. Then opens 'as we learned' - in tractate Tamid: he comes to",
       "linkedGemaraLineIds": [
-        "yoma-14b-l08"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: 'chadashim - new kohanim.' The fourth lottery (incense) was only for those who had never won it before - since incense was known to make one wealthy, each kohen got one chance.",
+      "en": "Rashi: continues - the priest who tosses the blood, to the northeast",
       "linkedGemaraLineIds": [
-        "yoma-14b-l09"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: 'u'memela shema'inan minah hatavat ha-nerot kodem l'ketoret - in any event we learn from this that lamp-cleaning precedes incense.' Rashi explains the inference from the lottery order.",
+      "en": "Rashi: continues - corner of the altar, gives the first sprinkling",
       "linkedGemaraLineIds": [
-        "yoma-14b-l09"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: 'kan b'hatavat shtei nerot - here referring to cleaning two lamps.' The reference to lamps after incense is specifically the second lamp-cleaning session (two lamps), not the first (five lamps).",
+      "en": "Rashi: continues - northeast, one sprinkling like the letter gamma",
       "linkedGemaraLineIds": [
-        "yoma-14b-l09"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'mashma d'gemarah - a received tradition.' The service order has an oral tradition (mashmiya d'gemara) supporting it, meaning: it is known from the teaching itself, not derived by reasoning.",
+      "en": "Rashi: continues - in Greek, visible to the east and north, and from there he circles",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: 'mosaf al kach sheyigmor hatavat ha-nerot - and then he finishes cleaning the lamps.' After the incense, the kohen returns to clean the remaining two lamps. Rashi explains the sequence.",
+      "en": "Rashi: continues - around and comes to the southwest corner",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: 'v'ein l'khah od avodah l'hafsikan bah' - there is no other service left to interrupt between the incense and the final two lamps. Once incense is done, the two remaining lamps are cleaned immediately.",
+      "en": "Rashi: continues - and gives westward, southward, since a burnt offering requires",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: 'Abba Shaul omer' - Abba Shaul holds that incense precedes all lamp-cleaning. His scriptural derivation differs from the Rabbanan.",
+      "en": "Rashi: continues - two sprinklings that are four, on two corners, this",
       "linkedGemaraLineIds": [
-        "yoma-14b-l08"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: 'b'girsai d'seder marachah avodah kol yom va-yom - in the version of the service-arrangement, the daily service follows scriptural sequence.' The standard for service order is the order verses appear in the Torah.",
+      "en": "Rashi: continues - opposite the diagonal of that, so that there will be from",
       "linkedGemaraLineIds": [
-        "yoma-14b-l09"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: 'mishemei d'gemara - in the name of a received tradition.' Citing an oral tradition about the service order that predates the dispute.",
+      "en": "Rashi: continues - the blood on the four sides of the altar, corresponding to the four",
       "linkedGemaraLineIds": [
-        "yoma-14b-l09"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: on the scriptural basis for lamps before incense (Rabbanan's view): the verse about lamps (Exodus 30:7) is connected by 'b'heitivo' to the morning incense offering, but the lamps come first in the verse structure.",
+      "en": "Rashi: continues - sprinklings, and further on (15b) it explains what is different about",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l07"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: 'yaktir alav ketoret samim' - Exodus 30:7 'he shall burn incense upon it' - the word 'alav' (upon it) in the lamp context shows incense follows lamp-cleaning (Rabbanan's reading).",
+      "en": "Rashi: concludes - these two corners. Then opens 'and it was taught concerning it, Rabbi Shimon' -",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l11"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: Abba Shaul's counter-reading of the same verse: 'b'heitivo' (in his tending) refers to incense burning; the lamp-cleaning then comes afterward. Abba Shaul reads the temporal reference differently.",
+      "en": "Rashi: continues - Ish HaMitzpah changes in the order of Tamid. In the giving of blood",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l11"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: 'kodmei l'hatavat ha-nerot' - Abba Shaul: incense precedes lamp-cleaning. His entire service sequence: incense first, then all seven lamps. The Rabbanan interrupt with incense in the middle (after five lamps).",
+      "en": "Rashi: continues - of the daily offering, from the giving of blood of all other burnt offerings, to give",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l11"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: '51b (shm)' reference note - the parallel discussion in later Yoma where Abba Shaul's position is analyzed more fully in the context of the lottery descriptions.",
+      "en": "Rashi: continues - from it one first sprinkling that is counted as two,",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l11"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: 'kodem l'hatavat ha-nerot - incense before lamp-cleaning.' Summary of Abba Shaul's position: he maintains the incense comes entirely first, before either lamp session.",
+      "en": "Rashi: continues - as we said, like the Greek gamma, and in the second",
       "linkedGemaraLineIds": [
-        "yoma-14b-l10"
+        "yoma-014b-l11"
       ]
     },
     {
