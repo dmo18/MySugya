@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.76: schema backfill is complete, the perek-level semantic
+As of VERSION 14.77: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -63,9 +63,14 @@ one daf (the actual Rashi text is on 12a). The mezuza sugya spanning
 10a-11b (99 + 39 = 138 entries) is now fully resolved. Batch 9 (VERSION
 14.76, see Batch 9 findings below) moved to 12a and fixed vilnaLine 1-16,
 the self-contained conclusion of the mezuza/tzaraat sugya continuing
-from 11b's truncated final word; 12a vilnaLine 17-66, a separate Kohen
-Gadol investiture sugya, remains open for a future batch. The
-descriptive-style systemic finding is still open beyond the lines fixed
+from 11b's truncated final word. Batch 10 (VERSION 14.77, see Batch 10
+findings below) fixed 12a vilnaLine 17-36, the remainder of Gemara
+sugya s01 (tribal-boundary geography, the tannaitic dispute over
+whether Jerusalem was divided, and the tzaraat/family-ownership
+sequence); 12a vilnaLine 37-66, the separate Kohen Gadol investiture
+sugya (Rav Adda's belt proposal, Abaye's eight garments and tzinnora,
+and its cross-daf continuation into 12b), remains open for a future
+batch. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -415,6 +420,53 @@ duplicate-vilna-line split, same pattern as 11b's `l41a`/`l41b`).
 
 No deferrals were needed in Batch 9. vilnaLine 17-66 (the Kohen Gadol
 investiture sugya) remain open for a future batch.
+
+## Batch 10 findings (VERSION 14.77): 12a, vilnaLine 17-36
+
+Continued 12a with vilnaLine 17-36, the remaining portion of Gemara
+sugya s01 (Gemara lines `l10` through `l30`, ending at the sugya
+boundary right before `l33` begins sugya s02, the Kohen Gadol
+investiture dispute). This range covers the tail of the tribal-boundary
+geography (the altar strip crossing from Judah's portion into
+Benjamin's), Rashi's gloss on "chofef" and "ushpizchan" (Deuteronomy
+33:12, cited for why Benjamin is called the Divine Presence's host),
+a tannaitic dispute about whether Jerusalem was divided among the
+tribes, a gloss on "hides of consecrated offerings / jug / hide" (the
+custom of leaving these for one's host), and the "la'achuzah" /
+"to the paternal houses" / "each individual does not recognize his
+own" sequence that ties back into the tzaraat-in-Jerusalem discussion
+via Leviticus 14. All prior English at these lines described the
+Kohen Gadol investiture/belt dispute (real content, but belonging to
+vilnaLine 37+, not here) - the same fabrication pattern as every
+other daf in this hotspot: plausible-sounding but wrong content,
+lifted from later on the same daf.
+
+vilnaLine 17-20 continue the single Rashi comment opened at vilnaLine
+10-16 (Batch 9), so they stay linked to `yoma-012a-l10`. vilnaLine
+21-23 are Rashi's "chofef" gloss, linked to `l17`. vilnaLine 24-30
+cover three short DHs ("and this tanna," "hides of consecrated
+offerings," "golfa"/"u-maskha") that all explain material within
+`l19` (the "Jerusalem was not divided" baraita and Abaye's
+host-custom statement), so they stay linked to `l19`. vilnaLine 31-34
+are the "la'achuzah" / "to the paternal houses" / "and each
+individual does not" sequence, linked to `l26`. vilnaLine 35-36 open
+"as we answered originally, that it has dwelling in it" - Rashi's
+gloss on the Gemara's own back-reference (`l30`) - and end right as
+the Gemara's text moves into the disqualified-Kohen-Gadol scenario
+(`l33`), which is where vilnaLine 37 and the next batch pick up.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 12a | 17-20 | `l33` -> `l10` (each) | English fabricated "Gemara's return to the mishna's disqualified Cohen Gadol scenario" (an `l33`+ topic); actual Hebrew continues the tribal-boundary description from vilnaLine 10-16: the boundary runs westward into Benjamin's portion, except that the altar's strip crosses in from Judah's portion into the southeastern corner. | Fixed: reworded as accurate continuations; placement corrected to `l10`. |
+| 12a | 21-23 | `l36` -> `l17` (each) | English fabricated "urgency of the investiture question" content; actual Hebrew glosses "chofef" (hovers) as the self-scratching of unfulfilled desire (citing Nazir 42a), then opens "ushpizchan" (their host). | Fixed: reworded and placement corrected to `l17`. |
+| 12a | 24-30 | `l42`/`l45` -> `l19` (each) | English fabricated "Rav Adda's belt proposal" and "tzinnora" content (an `l36`+ topic); actual Hebrew explains "ushpizchan" (the Ark was in Benjamin's portion), then a tannaitic dispute over whether Jerusalem was divided among the tribes, then the custom of leaving a jug and hide for one's host. | Fixed: reworded as accurate continuations; placement corrected to `l19`. |
+| 12a | 31-34 | `l45` -> `l26` (each) | English fabricated "Abaye's counter-proposal" and "symbolic minimum" content; actual Hebrew glosses "la'achuzah" (for a possession, Leviticus 14) and "to the paternal houses" (to families), tying tzaraat-susceptibility to individual family ownership. | Fixed: reworded and placement corrected to `l26`. |
+| 12a | 35-36 | `l45` -> `l30` (each) | English fabricated "Rav Pappa's answer continues on the next daf" and "practical significance" content; actual Hebrew closes the "and each individual does not [recognize his own]" gloss, then opens "as we answered originally, that it has dwelling in it," which explains the Gemara's own back-reference before the text shifts to the disqualified-Kohen-Gadol scenario. | Fixed: reworded and placement corrected to `l30`. |
+
+No deferrals were needed in Batch 10. vilnaLine 37-66 (the Kohen Gadol
+investiture dispute proper - Rav Adda's belt proposal, Abaye's eight
+garments and tzinnora, and the cross-daf continuation into 12b) remain
+open for a future batch.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
