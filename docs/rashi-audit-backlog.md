@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.90: schema backfill is complete, the perek-level semantic
+As of VERSION 14.91: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -120,8 +120,10 @@ entries, closing 15a entirely (66/66 resolved). A first sub-chunk of
 15b at VERSION 14.90 (see "15b, vilnaLine 1-33" below) verified the
 15a/15b boundary (15b's raw text opens "אגופיה דמזבח", restating
 15a's truncated final word) and fixed 15b's vilnaLine 1-33 (15b has
-66 entries, split in two); vilnaLine 34-66 remain for a follow-up
-chunk. No
+66 entries, split in two). A second sub-chunk at VERSION 14.91 (see
+"15b, vilnaLine 34-66" below) fixed the remaining 33 entries,
+closing 15b entirely (66/66 resolved), including the 16 entries that
+previously had empty linkedGemaraLineIds and placeholder text. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1112,6 +1114,37 @@ final word "ששיקצום" continuing onto 16a) remain for the follow-up
 chunk; the stale entries there include vilnaLine 51-66 with empty
 `linkedGemaraLineIds` and placeholder text, a worse baseline than
 usual.
+
+## 15b, vilnaLine 34-66 (VERSION 14.91), second half, closing 15b entirely
+
+Continued directly from the first sub-chunk. vilnaLine 34-44
+continue `l09` (the "he encounters that one first" explanation: the
+right-turn circuit up the ramp, why the southeast corner is skipped
+for lack of a base, and why even blood placed from the pavement
+follows the same circuit direction as the sin offering placed at
+the corner's top). vilnaLine 45-46 open `l14` (the "perhaps for the
+sin offering of the New Moon" objection and the "it cannot enter
+your mind, as it is written" answer). vilnaLine 47-63 open `l19`
+(the "we learned there" mishna from Tamid: why it is placed in Yoma
+at all, given that the attribution pattern to Rabbi Shimon Ish
+HaMitzpa is unusual; then the sub-DHs on the appointee/deputy, the
+Chamber of the Lambs and its inspected lambs per Arachin 13a, the
+northwest corner of the Hall of the Hearth with its fires for the
+barefoot priests, the Chamber of the Seals with the four seals of
+Shekalim 7b, the small Beit HaMoked chamber, and the shewbread
+chamber of the house of Garmu). vilnaLine 64-65 open `l26` (the
+contradiction from Middot: the four chambers opening into the Hall
+of the Hearth, two in sacred ground and two not, with the pispasin
+ends marking the division). vilnaLine 66 is the daf's final
+truncated word "ששיקצום", linked to `l30` ("דְּרוֹמִית", 15b's own
+truncated final Gemara line); 16a's raw text was confirmed to open
+"ששיקצום מלכי עובדי כוכבים", the standard boundary pattern.
+
+This sub-chunk also repaired a worse-than-usual baseline: vilnaLine
+51-66 previously had EMPTY `linkedGemaraLineIds` arrays and generic
+placeholder English. All 33 fixed entries now carry real zero-padded
+`yoma-015b-lXX` ids (`l09`, `l14`, `l19`, `l26`, `l30`). No
+deferrals. 15b is fully resolved, 66/66.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

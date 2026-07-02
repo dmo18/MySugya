@@ -608,7 +608,7 @@
       "en": "Chamber of the Lambs - where tamid lambs were kept before being offered. Its location is disputed between Yoma and Middot."
     }
   ],
-    "rashiTranslations": [
+      "rashiTranslations": [
     {
       "vilnaLine": 1,
       "en": "Rashi: opens 'on the body of the altar', completing the word begun on 15a - on its roof; and why the term tohoro? Because he clears away and removes",
@@ -842,217 +842,233 @@
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: 'and we said in the name of Rav Huna' - Rav Huna's teaching about the Chamber of the Lambs location follows.",
+      "en": "Rashi: continues - when he goes up the ramp and turns",
       "linkedGemaraLineIds": [
-        "yoma-15b-l19"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: the discussion raises where the Chamber of the Lambs sat in the four-corner Beit HaMoked arrangement.",
+      "en": "Rashi: continues - to the right, he encounters the southeast corner",
       "linkedGemaraLineIds": [
-        "yoma-15b-l19"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: Rav Huna suggests going rightward from south: lamps, seals, Beit HaMoked, lambs.",
+      "en": "Rashi: continues - first, and there one cannot place blood because",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: the counter-clockwise circuit of the four chambers starting from south.",
+      "en": "Rashi: continues - it has no base, so he circles on until the northeast",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: the circuit going south to east to north to west placing Chamber of Lambs at northwest corner.",
+      "en": "Rashi: continues - corner and places there. And although blood placement does not",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: the challenge: if the chamber was in the northwest (as Rav Huna says from the Tamid view), what does Middot say?",
+      "en": "Rashi: continues - require going up the ramp, for he stands on the pavement",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: the circuit going rightward from south when the Middot author counted starting from the south - would place it differently.",
+      "en": "Rashi: continues - with the vessel in his hand and throws from a distance, as it is written",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: Middot lists the Beit HaMoked chambers starting from the southeast corner and going rightward.",
+      "en": "Rashi: continues - 'and they shall throw it', for he places below the scarlet line,",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: Middot's rightward circuit: southeast, northeast, northwest, southwest - placing Chamber of Lambs at a specific corner.",
+      "en": "Rashi: continues - even so, since for a sin offering, placed on the upper part of the corner, one must go up",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: the Shewbread chamber would end up in the northeast (mizrachit tzefonit) on this counting.",
+      "en": "Rashi: continues - the ramp by way of the south and turn to the east, so too with all bloods: even though he places them",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: but Middot itself says the Shewbread chamber is in the southeast - this creates the direct contradiction.",
+      "en": "Rashi: continues - below, he begins his circuit from the south side, which is the front of the altar, facing",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l09"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: 'we can say the Shewbread chamber is on the Shewbread' - it is in the southeast (as Middot states elsewhere), contradicting the rightward count.",
+      "en": "Rashi: concludes - the entrance of the Sanctuary, and from there turns right. Then opens 'perhaps for the sin offering' - of the New Moon,",
       "linkedGemaraLineIds": [
-        "yoma-15b-l26"
+        "yoma-015b-l14"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: 'we taught there in Tamid' - the Tamid mishna says the Chamber of Lambs was in the northwest corner.",
+      "en": "Rashi: concludes - the Torah said to apply burnt-offering procedure to it. Then opens 'it cannot enter your mind, as it is written' - 'for a sin offering",
       "linkedGemaraLineIds": [
-        "yoma-15b-l30"
+        "yoma-015b-l14"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: the Tamid mishnah explicitly places the Chamber of Lambs in one corner, which Yoma's tradition follows.",
+      "en": "Rashi: concludes - beside the burnt offering'. Then opens 'we learned there' - in tractate Tamid, and it would not belong in the Gemara",
       "linkedGemaraLineIds": [
-        "yoma-15b-l30"
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: this citation from Tamid confirms Yoma's position about the Chamber of the Lambs location.",
+      "en": "Rashi: continues - of Yoma, except that since the passage above dealt with a difference of this kind - who is the tanna",
       "linkedGemaraLineIds": [
-        "yoma-15b-l30"
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: 'who authored the Yoma tractate? R. Shimon' - now we revisit: Tamid places the Chamber differently from Middot.",
+      "en": "Rashi: continues - of the Yoma order, it is Rabbi Shimon Ish HaMitzpa - whom we never actually heard say so,",
       "linkedGemaraLineIds": [
-        "yoma-15b-l30"
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: we do not hear R. Shimon says the Yoma service order is like this unless from the fact that he disputes Tamid's service order.",
+      "en": "Rashi: continues - but because we hear him disagree with the Tamid order they attribute the unattributed mishna",
       "linkedGemaraLineIds": [
-        "yoma-15b-l30"
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 51).",
+      "en": "Rashi: continues - that disagrees with Tamid to him, and since such a pattern is not common in the Gemara, it fixed",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 52).",
+      "en": "Rashi: concludes - this passage here too, since it also fits that pattern. Then opens and closes 'the appointee' - that is, the deputy High Priest",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 53).",
+      "en": "Rashi: opens 'and bring, etc.' - for the daily offering. Then opens 'from the Chamber of the Lambs' - where the lambs were kept,",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 54).",
+      "en": "Rashi: continues - already inspected, as we learned (Arachin 13a): no fewer than six inspected lambs",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 55).",
+      "en": "Rashi: concludes - in the Chamber of the Lambs. Then opens 'but was it not' - meaning: but behold, it is in such-and-such a place. Then opens 'in the corner",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 56).",
+      "en": "Rashi: continues - northwest' - of the Hall of the Hearth, which was a great hall where they kindled",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 57).",
+      "en": "Rashi: continues - large fires for the priests to warm themselves, since they walk barefoot on the pavement",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 58).",
+      "en": "Rashi: continues - of the courtyard, which is marble; and in its corners were chambers opening like small rooms",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 59).",
+      "en": "Rashi: concludes - into the hall, as taught below: four chambers in its four corners, one the Chamber of the Lambs, etc. Then opens 'the Chamber of the Seals' - where they keep",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 60).",
+      "en": "Rashi: continues - the seals of one who buys fine flour and libations from the Temple treasury, as we learned in Shekalim (7b): four seals were in the Temple, inscribed",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 61).",
+      "en": "Rashi: continues - calf, kid, ram, sinner - the marks for lamb, ram, bull, and the leper's three animals; whoever needs libations comes to the appointee over the seals,",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 62).",
+      "en": "Rashi: continues - gives him money according to the libations he needs, receives from him the seal for those libations, then comes to the appointee over the libations and shows him the seal,",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 63,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 63).",
+      "en": "Rashi: concludes - and receives the libations, etc., as explained there. Then opens 'the Chamber of the Hall of the Hearth' - a small chamber called Beit HaMoked, opening into the great Hall of the Hearth. Then opens 'where they make",
       "linkedGemaraLineIds": [
+        "yoma-015b-l19"
       ]
     },
     {
       "vilnaLine": 64,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 64).",
+      "en": "Rashi: concludes - the shewbread' - the house of Garmu prepared the shewbread there. Then opens 'into the Hall of the Hearth' - opening into it. Then opens 'two in sacred ground and two in non-sacred' - of the Hall of the Hearth,",
       "linkedGemaraLineIds": [
+        "yoma-015b-l26"
       ]
     },
     {
       "vilnaLine": 65,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 65).",
+      "en": "Rashi: concludes - part was built inside the sanctified courtyard and part outside. Then opens 'the ends of the pispasin' - pieces of wood dividing as a marker where sacred and non-sacred separate",
       "linkedGemaraLineIds": [
+        "yoma-015b-l26"
       ]
     },
     {
       "vilnaLine": 66,
-      "en": "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 66).",
+      "en": "Rashi: the daf's final truncated word - 'that they defiled', the start of the dibbur hamatchil whose text continues on 16a",
       "linkedGemaraLineIds": [
+        "yoma-015b-l30"
       ]
     }
   ]

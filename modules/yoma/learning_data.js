@@ -35619,12 +35619,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 34,
         he: "בההוא פגע. כשעלה בכבש ופונה",
-        en: "Rashi: 'and we said in the name of Rav Huna' - Rav Huna's teaching about the Chamber of the Lambs location follows.",
+        en: "Rashi: continues - when he goes up the ramp and turns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l19"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35633,12 +35633,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 35,
         he: "לימין פוגע בקרן מזרחית דרומית",
-        en: "Rashi: the discussion raises where the Chamber of the Lambs sat in the four-corner Beit HaMoked arrangement.",
+        en: "Rashi: continues - to the right, he encounters the southeast corner",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l19"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35647,12 +35647,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 36,
         he: "תחילה ושם אי אפשר ליתן משום",
-        en: "Rashi: Rav Huna suggests going rightward from south: lamps, seals, Beit HaMoked, lambs.",
+        en: "Rashi: continues - first, and there one cannot place blood because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35661,12 +35661,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 37,
         he: "דאין לה יסוד ומקיף ובא עד מזרחית",
-        en: "Rashi: the counter-clockwise circuit of the four chambers starting from south.",
+        en: "Rashi: continues - it has no base, so he circles on until the northeast",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35675,12 +35675,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 38,
         he: "צפונית ונותן ואע\"ג דמתן דם אינו",
-        en: "Rashi: the circuit going south to east to north to west placing Chamber of Lambs at northwest corner.",
+        en: "Rashi: continues - corner and places there. And although blood placement does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35689,12 +35689,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 39,
         he: "עולה בכבש דהא על הרצפה עומד",
-        en: "Rashi: the challenge: if the chamber was in the northwest (as Rav Huna says from the Tamid view), what does Middot say?",
+        en: "Rashi: continues - require going up the ramp, for he stands on the pavement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35703,12 +35703,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 40,
         he: "והכלי בידו וזורק למרחוק דכתיב",
-        en: "Rashi: the circuit going rightward from south when the Middot author counted starting from the south - would place it differently.",
+        en: "Rashi: continues - with the vessel in his hand and throws from a distance, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35717,12 +35717,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 41,
         he: "וזרקו דהא למטה מן החוט הוא נותן",
-        en: "Rashi: Middot lists the Beit HaMoked chambers starting from the southeast corner and going rightward.",
+        en: "Rashi: continues - 'and they shall throw it', for he places below the scarlet line,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35731,12 +35731,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 42,
         he: "אפילו הכי כיון שבחטאת שניתנה בעליונה של קרן צריך לעלות",
-        en: "Rashi: Middot's rightward circuit: southeast, northeast, northwest, southwest - placing Chamber of Lambs at a specific corner.",
+        en: "Rashi: continues - even so, since for a sin offering, placed on the upper part of the corner, one must go up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35745,12 +35745,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 43,
         he: "בכבש דרך הדרום ופונה למזרח ה\"נ בכל הדמים אע\"פ שנותנן",
-        en: "Rashi: the Shewbread chamber would end up in the northeast (mizrachit tzefonit) on this counting.",
+        en: "Rashi: continues - the ramp by way of the south and turn to the east, so too with all bloods: even though he places them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35759,12 +35759,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 44,
         he: "למטה מתחיל להקיף מדרך הדרום שהוא פניו של מזבח כפתח",
-        en: "Rashi: but Middot itself says the Shewbread chamber is in the southeast - this creates the direct contradiction.",
+        en: "Rashi: continues - below, he begins his circuit from the south side, which is the front of the altar, facing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l09"
         ]
       },
       {
@@ -35773,12 +35773,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 45,
         he: "כניסת הבית ומשם פונה לימין: דילמא בחטאת. דראש חודש",
-        en: "Rashi: 'we can say the Shewbread chamber is on the Shewbread' - it is in the southeast (as Middot states elsewhere), contradicting the rightward count.",
+        en: "Rashi: concludes - the entrance of the Sanctuary, and from there turns right. Then opens 'perhaps for the sin offering' - of the New Moon,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l26"
+          "yoma-015b-l14"
         ]
       },
       {
@@ -35787,12 +35787,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 46,
         he: "אמר רחמנא עביד ביה מעשה עולה: לא ס\"ד דכתיב. לחטאת",
-        en: "Rashi: 'we taught there in Tamid' - the Tamid mishna says the Chamber of Lambs was in the northwest corner.",
+        en: "Rashi: concludes - the Torah said to apply burnt-offering procedure to it. Then opens 'it cannot enter your mind, as it is written' - 'for a sin offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l30"
+          "yoma-015b-l14"
         ]
       },
       {
@@ -35801,12 +35801,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 47,
         he: "על עולת: תנן התם. במסכת תמיד ולא שייך למיקבעיה בגמרא",
-        en: "Rashi: the Tamid mishnah explicitly places the Chamber of Lambs in one corner, which Yoma's tradition follows.",
+        en: "Rashi: concludes - beside the burnt offering'. Then opens 'we learned there' - in tractate Tamid, and it would not belong in the Gemara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l30"
+          "yoma-015b-l19"
         ]
       },
       {
@@ -35815,12 +35815,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 48,
         he: "דיומא אלא משום דמיירי לעיל בשינוי כהאי גוונא מאן תנא",
-        en: "Rashi: this citation from Tamid confirms Yoma's position about the Chamber of the Lambs location.",
+        en: "Rashi: continues - of Yoma, except that since the passage above dealt with a difference of this kind - who is the tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l30"
+          "yoma-015b-l19"
         ]
       },
       {
@@ -35829,12 +35829,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 49,
         he: "סדר יומא ר\"ש איש המצפה היא לא שמעינן ליה דאמר הכי",
-        en: "Rashi: 'who authored the Yoma tractate? R. Shimon' - now we revisit: Tamid places the Chamber differently from Middot.",
+        en: "Rashi: continues - of the Yoma order, it is Rabbi Shimon Ish HaMitzpa - whom we never actually heard say so,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l30"
+          "yoma-015b-l19"
         ]
       },
       {
@@ -35843,12 +35843,12 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 50,
         he: "אלא משום דשמעינן ליה דפליג אסדר תמיד מוקמי לסתמיה",
-        en: "Rashi: we do not hear R. Shimon says the Yoma service order is like this unless from the fact that he disputes Tamid's service order.",
+        en: "Rashi: continues - but because we hear him disagree with the Tamid order they attribute the unattributed mishna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-15b-l30"
+          "yoma-015b-l19"
         ]
       },
       {
@@ -35857,11 +35857,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 51,
         he: "דפליגי אתמיד אליביה ואין שיטה כזאת מצויה בגמרא קבעה",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 51).",
+        en: "Rashi: continues - that disagrees with Tamid to him, and since such a pattern is not common in the Gemara, it fixed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-052",
@@ -35869,11 +35871,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 52,
         he: "נמי להך גביה דמתוקמא נמי בהך שיטתא: הממונה. הוא הסגן:",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 52).",
+        en: "Rashi: concludes - this passage here too, since it also fits that pattern. Then opens and closes 'the appointee' - that is, the deputy High Priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-053",
@@ -35881,11 +35885,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 53,
         he: "והביאו כו'. לתמיד: מלשכת הטלאים. שהיו הטלאים שם",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 53).",
+        en: "Rashi: opens 'and bring, etc.' - for the daily offering. Then opens 'from the Chamber of the Lambs' - where the lambs were kept,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-054",
@@ -35893,11 +35899,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 54,
         he: "מבוקרין כדתנן (ערכין דף יג.) אין פוחתין מששה טלאים המבוקרין",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 54).",
+        en: "Rashi: continues - already inspected, as we learned (Arachin 13a): no fewer than six inspected lambs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-055",
@@ -35905,11 +35913,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 55,
         he: "בלשכת הטלאים: והלא. כמו והרי היא במקום פלוני: במקצוע",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 55).",
+        en: "Rashi: concludes - in the Chamber of the Lambs. Then opens 'but was it not' - meaning: but behold, it is in such-and-such a place. Then opens 'in the corner",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-056",
@@ -35917,11 +35927,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 56,
         he: "צפונית מערבית. של בית המוקד שהיה טרקלין גדול והיו מסיקין",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 56).",
+        en: "Rashi: continues - northwest' - of the Hall of the Hearth, which was a great hall where they kindled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-057",
@@ -35929,11 +35941,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 57,
         he: "בו מדורות גדולות להתחמם שם הכהנים שהולכים יחפים על רצפת",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 57).",
+        en: "Rashi: continues - large fires for the priests to warm themselves, since they walk barefoot on the pavement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-058",
@@ -35941,11 +35955,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 58,
         he: "עזרה שהיא של שיש והיו במקצעותיה לשכות פתוחות כקטוניות",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 58).",
+        en: "Rashi: continues - of the courtyard, which is marble; and in its corners were chambers opening like small rooms",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-059",
@@ -35953,11 +35969,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 59,
         he: "פתוחות לטרקלין כדקתני לקמן וארבע לשכות היו שם בד' המקצועות אחת לשכת הטלאים וכו': לשכת החותמות. שמניחין",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 59).",
+        en: "Rashi: concludes - into the hall, as taught below: four chambers in its four corners, one the Chamber of the Lambs, etc. Then opens 'the Chamber of the Seals' - where they keep",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-060",
@@ -35965,11 +35983,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 60,
         he: "שם חותמות של לוקח סלתות ונסכים מן ההקדש בדמים כדתנן במסכת שקלים (דף ז:) ד' חותמות היו במקדש והיה כתוב עליהן",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 60).",
+        en: "Rashi: continues - the seals of one who buys fine flour and libations from the Temple treasury, as we learned in Shekalim (7b): four seals were in the Temple, inscribed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-061",
@@ -35977,11 +35997,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 61,
         he: "עגל גדי זכר חוטא והן סימני כבש ואיל ופר ושלש בהמות של מצורע כל מי שמבקש נסכים בא לו אצל הממונה על החותמות",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 61).",
+        en: "Rashi: continues - calf, kid, ram, sinner - the marks for lamb, ram, bull, and the leper's three animals; whoever needs libations comes to the appointee over the seals,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-062",
@@ -35989,11 +36011,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 62,
         he: "ונותן לו מעות כפי נסכים שהוא צריך ומקבל ממנו חותם של אותם נסכים ובא לו אצל הממונה על הנסכים ומראה לו החותם",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 62).",
+        en: "Rashi: continues - gives him money according to the libations he needs, receives from him the seal for those libations, then comes to the appointee over the libations and shows him the seal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-063",
@@ -36001,11 +36025,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 63,
         he: "ומקבל ממנו נסכים וכו' כדמפרש התם: לשכת בית המוקד. לשכה קטנה שקרויה בית המוקד ופתוחה לבית המוקד הגדול: שעושים בה",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 63).",
+        en: "Rashi: concludes - and receives the libations, etc., as explained there. Then opens 'the Chamber of the Hall of the Hearth' - a small chamber called Beit HaMoked, opening into the great Hall of the Hearth. Then opens 'where they make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l19"
+        ]
       },
       {
         id: "rashi-yoma-015b-064",
@@ -36013,11 +36039,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 64,
         he: "לחם הפנים. של בית גרמו עושין שם מעשה לחם הפנים שהיו שם: לבית המוקד. פתוחות לה: שתים בקודש ושתים בחול. של בית המוקד",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 64).",
+        en: "Rashi: concludes - the shewbread' - the house of Garmu prepared the shewbread there. Then opens 'into the Hall of the Hearth' - opening into it. Then opens 'two in sacred ground and two in non-sacred' - of the Hall of the Hearth,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l26"
+        ]
       },
       {
         id: "rashi-yoma-015b-065",
@@ -36025,11 +36053,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 65,
         he: "מקצתה בנויה בתוך עזרה מקודשת ומקצתה בחול: וראשי פספסין. חתיכות עצים מבדילין לסימן במקום המפסיק בין קודש לחול:",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 65).",
+        en: "Rashi: concludes - part was built inside the sanctified courtyard and part outside. Then opens 'the ends of the pispasin' - pieces of wood dividing as a marker where sacred and non-sacred separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l26"
+        ]
       },
       {
         id: "rashi-yoma-015b-066",
@@ -36037,11 +36067,13 @@ const DAF_CONTENT = {
         daf: "15b",
         vilnaLine: 66,
         he: "ששיקצום",
-        en: "Rashi: continuation of the Chamber of the Lambs / Beit HaMoked topographical discussion (line 66).",
+        en: "Rashi: the daf's final truncated word - 'that they defiled', the start of the dibbur hamatchil whose text continues on 16a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-015b-l30"
+        ]
       }
     ],
     review: {
