@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.75: schema backfill is complete, the perek-level semantic
+As of VERSION 14.76: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -60,7 +60,11 @@ entries. Batch 8 (VERSION 14.75, see Batch 8 findings below) closed out
 uncovering that the prior English had fabricated an entire synagogue/
 tzaraat discussion that turned out to be real content misattributed by
 one daf (the actual Rashi text is on 12a). The mezuza sugya spanning
-10a-11b (99 + 39 = 138 entries) is now fully resolved. The
+10a-11b (99 + 39 = 138 entries) is now fully resolved. Batch 9 (VERSION
+14.76, see Batch 9 findings below) moved to 12a and fixed vilnaLine 1-16,
+the self-contained conclusion of the mezuza/tzaraat sugya continuing
+from 11b's truncated final word; 12a vilnaLine 17-66, a separate Kohen
+Gadol investiture sugya, remains open for a future batch. The
 descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -376,6 +380,41 @@ undescribed here and correctly attributed to 12a instead.
 | 11b | 39 | `l41` -> `l41b` | English fabricated a "caretaker principle recalled on 12a" summary; actual Hebrew is the single word "dekarkhim" (of cities), confirmed via cross-daf match to be the truncated start of 12a's own first Rashi comment. Placement corrected to the daf's actual final (truncated) Gemara line `l41b`, replacing a dangling reference to the nonexistent id `l41` (the real ids are `l41a`/`l41b`; this was a pre-existing broken reference not touched in prior batches since placement was out of scope until now). | Fixed: reworded to state the cross-daf continuation; placement corrected to a valid id. |
 
 No deferrals were needed in Batch 8.
+
+## Batch 9 findings (VERSION 14.76): 12a, vilnaLine 1-16
+
+Moved to the next daf, 12a, which continues 11b's final truncated word
+("dekarkhim," of cities). 12a's rashiTranslations has 66 entries total
+(matching 66 raw talmud.dev print-lines) with the same descriptive-style
+fabrication pattern, now covering two genuinely distinct topics: the
+tail of the Jerusalem tribal-division/synagogue-tzaraat discussion
+(vilnaLine 1-16, continuing directly from 11b) and a separate Kohen
+Gadol investiture sugya (vilnaLine 17-66, roughly 50 entries, many
+collapsed onto the single empty-`en` Gemara line `yoma-012a-l45`, which
+is itself truncated at the daf boundary and continues onto 12b). Given
+the size (66 entries, over twice the per-batch bound) and the clean
+topic break at vilnaLine 16/17, this batch covers only vilnaLine 1-16 -
+the complete, self-contained conclusion of the mezuza/tzaraat sugya
+that has run since 10a. vilnaLine 17-66 (the investiture sugya) is new
+scope, not part of the original mezuza discussion, and needs its own
+dedicated batch(es).
+
+Also found and fixed a pre-existing dangling `linkedGemaraLineIds`
+reference: the prior entries pointed to `yoma-012a-l01`, `l08`, `l10`,
+etc., but the real ids for the first Gemara line are `l01a`/`l01b` (a
+duplicate-vilna-line split, same pattern as 11b's `l41a`/`l41b`).
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 12a | 1 | `l01` (dangling) -> `l01a` | English fabricated "opens the tribal-division discussion, R. Yehuda vs. Tanna Kama"; actual Hebrew is the direct continuation of 11b's truncated word, glossing "cities" as marketplaces with no specific owner. | Fixed: reworded and placement corrected to a valid id. |
+| 12a | 2 | `l01` (dangling) -> `l01a` | English fabricated "what it means for Jerusalem to be divided"; actual Hebrew closes the cities gloss and opens on "villages" - owners identifiable, like a house of partners. | Fixed: reworded and placement corrected. |
+| 12a | 3-6 | `l01` (dangling) -> `l01b` (each) | English fabricated "Tanna Kama's position" and "tzaraat of city synagogues" content; actual Hebrew closes the villages gloss and opens on "and Jerusalem does not become impure with plagues," explaining the "not divided among the tribes" view, then "I did not hear [otherwise]" for the opposing view. | Fixed: reworded as accurate continuations and placement corrected. |
+| 12a | 7-10 | `l08` (dangling) -> `l01b` (each) | English fabricated "baraita detailing Temple structures" and "Lishkat HaGazit" content (an `l10` topic, described too early); actual Hebrew continues the "except for the site of the Temple alone" gloss, citing the David/Aravna threshing-floor purchase and its source in Sifrei and Zevachim 116b. | Fixed: reworded as accurate continuations and placement corrected. |
+| 12a | 11 | `l08` (dangling) -> `l08` (valid) | English fabricated content already covered (misplaced) at vilnaLine 5-6; actual Hebrew opens "about what do they disagree" - Rabbi Yehuda and the Rabbis. | Fixed: reworded; placement id corrected to the valid form (no `a`/`b` split needed here). |
+| 12a | 12-16 | `l10` (dangling) -> `l10` (valid) (each) | English fabricated "Altar in Benjamin's portion" and "Heikhal" content out of order; actual Hebrew is Rashi's geographic description of the Temple Mount's eastern side, courtyard measurements, and the priests' tread-area, leading toward the altar strip in Benjamin's portion. | Fixed: reworded as accurate continuations; placement id corrected to the valid form. |
+
+No deferrals were needed in Batch 9. vilnaLine 17-66 (the Kohen Gadol
+investiture sugya) remain open for a future batch.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
