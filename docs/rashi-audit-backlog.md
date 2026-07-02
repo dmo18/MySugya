@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.84: schema backfill is complete, the perek-level semantic
+As of VERSION 14.85: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -99,9 +99,10 @@ reading the daf's sugya scaffolding first, closing 13b entirely. A
 first sub-chunk of 14a at VERSION 14.84 (see "14a, vilnaLine 1-29"
 below) verified the 13b/14a boundary (no regression), then fixed
 14a's vilnaLine 1-29 (14a has 58 entries, above the single-chunk
-threshold, so it is split in two); vilnaLine 30-58 remain for a
-follow-up chunk. No regression was found on 12b, 13a, or 13b in any
-of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
+threshold, so it is split in two). A second sub-chunk at VERSION
+14.85 (see "14a, vilnaLine 30-58" below) fixed the remaining 29
+entries, closing 14a entirely (58/58 resolved). No regression was
+found on 12b, 13a, or 13b in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -853,6 +854,41 @@ numbering (`l01`, `l10`, `l12`, `l17`).
 No deferrals were needed in this sub-chunk. vilnaLine 30-58 (the bulk
 of the red-heifer sprinkling dispute between Rabbi Akiva and the
 Sages) remain for a follow-up chunk.
+
+## 14a, vilnaLine 30-58 (VERSION 14.85), second half, closing 14a entirely
+
+Completed 14a with vilnaLine 30-58, continuing the red-heifer
+sprinkling dispute from where vilnaLine 29 opened at `l17`. Building
+on the same sugya scaffolding (`yoma-14a-s03`: `l17`-`l47`), this
+range covers `l17` (Rav Chisda's "not Rabbi Akiva" ruling), `l20`
+(Rabbi Akiva vs. the Sages on sprinkling the pure/impure), `l24` (the
+mishna on reusing hyssop residue), `l33` (the Rabbis' answer to
+Solomon's bewilderment - who is rendered pure or impure by the
+sprinkling), and `l41` (whether sprinkling requires a minimum measure,
+resolved differently for the body versus a vessel). Two Gemara lines
+in this range, `l28` and `l36`/`l39`, are not separately commented on
+by Rashi in this run of raw print-lines - the same "not every clause
+gets its own DH" pattern already documented on 13a (`l25`) and 13b
+(`l05`/`l11`).
+
+vilnaLine 58, the daf's final raw print-line, is a single word ("so
+that he may dip") that does not simply close out the preceding "aval
+b'mana" comment - checking 14b's raw talmud.dev text directly confirms
+it is a new, truncated comment continuing onto 14b, whose rashi[0]
+opens "שיטביל ראשי גבעולין ויזה" ("so that he may dip the tops of the
+stalks and sprinkle"), matching the established cross-daf continuation
+pattern. It was linked to `l47`, the Gemara's own truncated
+continuation of `l41`'s ending, rather than back to `l41` itself.
+
+All 29 fixed entries' `linkedGemaraLineIds` were also corrected from
+the unpadded, sequential-but-wrong `yoma-14a-lXX` form to the real
+zero-padded `yoma-014a-lXX` ids (`l17`, `l20`, `l24`, `l33`, `l41`,
+`l47`).
+
+No deferrals were needed. This closes out 14a entirely: all 58
+rashiTranslations entries are now grounded in their local Rashi
+Hebrew, correctly indexed to their raw print-lines, and correctly
+linked to their Gemara lines.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
