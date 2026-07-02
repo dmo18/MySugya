@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.81: schema backfill is complete, the perek-level semantic
+As of VERSION 14.82: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -86,10 +86,14 @@ misalignment pattern as 12b. A dedicated 13a chunk at VERSION 14.81
 (see the "13a" section below) read the daf's actual Gemara-line
 sequence first and fixed vilnaLine 1-17 (the halacha ruling's
 cross-daf tail, the backup-wife discussion's close, and the first two
-conditional-divorce formulas); vilnaLine 18-29 were left unchanged
-after the raw-line walk hit genuine ambiguity between competing later
-Gemara lines, and are deferred to a future dedicated pass. No
-regression was found on 12b in the process. The descriptive-style systemic finding is still open beyond the lines fixed
+conditional-divorce formulas); vilnaLine 18-29 were initially left
+unchanged after the raw-line walk hit genuine ambiguity between
+competing later Gemara lines. A follow-up dedicated pass at VERSION
+14.82 (see "13a vilnaLine 18-29 resolved" below) resolved that
+ambiguity by cross-referencing the local English translation stored
+alongside each Gemara line, fixing the remaining 12 entries and
+closing 13a entirely (29/29 resolved). No regression was found on 12b
+in either pass. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
 the 77a-88a
@@ -614,7 +618,7 @@ that continues from 12b's truncated Halacha statement into 13a rather
 than claiming precise sub-clause-level certainty about which of 13a's
 several nearby Gemara lines each phrase individually explains.
 
-## 13a: dedicated alignment pass, vilnaLine 1-17 fixed, 18-29 deferred
+## 13a: dedicated alignment pass, vilnaLine 1-17 fixed, 18-29 initially deferred
 
 A dedicated chunk revisited 13a with the actual Gemara-line sequence
 read first, rather than assumed sequentially: `yoma-013a-l01` (halacha
@@ -679,6 +683,60 @@ of misattribution just corrected in 12b. Deferred to a future
 dedicated pass that resolves each of `l23`, `l25`, `l27`, `l29a`,
 `l29b`, and `l32` against vilnaLine 18-29 one hypothesis at a time
 before writing any fix.
+
+## 13a vilnaLine 18-29 resolved (VERSION 14.82), closing 13a entirely
+
+A follow-up dedicated pass resolved the vilnaLine 18-29 deferral
+above by cross-referencing the local English translation stored
+alongside each Gemara line in `learning_data.js` (not just the Hebrew)
+against the raw Rashi print-lines, which supplied the missing
+disambiguating signal. Two findings resolved the prior ambiguity.
+
+First, vilnaLine 18's "k'hai gavna" ("in such a case") phrase is a
+near-verbatim match for `l27`'s own rhetorical question ("כי האי
+גוונא מי הוי גיטא" / "is a document of that sort a valid bill of
+divorce?"), confirmed by the local English's near-identical wording
+("Is a document of that sort a valid bill of divorce?"). Rashi asks
+this question as his own bridging comment right after closing out
+`l23`'s formula, before the Gemara's own text formally reaches `l27`
+with Rava's citation - so vilnaLine 18 closes `l23` and opens `l27`,
+not `l23` alone as first suspected.
+
+Second, `l25`'s formula ("on condition that one of you dies") turns
+out not to have its own dedicated Rashi comment in this run of raw
+print-lines at all - the raw Hebrew moves directly from explaining
+`l27`'s meta-question to `l29a`'s "kol yemei chayei peloni" resolution
+(an exact phrase match), meaning there was no real "l25 vs l29a"
+choice to make. Rashi sometimes does not comment on every Gemara
+clause; `l25` is one of the lines skipped here.
+
+With those two points settled, the remainder followed cleanly:
+vilnaLine 19-20 continue explaining `l27`'s "ein zeh keritut" (not a
+severance) conclusion; vilnaLine 21-25 explain `l29a`'s resolution
+(a condition tied to a third party's life is a valid severance, unlike
+one tied to the couple's own); vilnaLine 26-28 open and explain
+`l29b`'s new formula ("on condition your counterpart does not die,"
+an exact phrase match); and vilnaLine 29, a single truncated word
+("im," if), is the start of a comment continuing onto 13b - confirmed
+by checking `assets/talmuddev/13b.json` directly, whose rashi[0] opens
+"אם מתה חבירתה" (if her counterpart dies), matching the established
+cross-daf continuation pattern used throughout this hotspot.
+
+All 12 entries' `linkedGemaraLineIds` were also corrected from the
+unpadded, dangling `yoma-13a-lXX` form to the real zero-padded
+`yoma-013a-lXX` ids (`l27`, `l29a`, `l29b`).
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 13a | 18-20 | `l08`/`l09` (dangling) -> `l27` (each) | English fabricated "was it a get" reasoning attached to the wrong formula; actual Hebrew closes `l23`'s formula, then opens and explains `l27`'s meta-question and its "ein zeh keritut" conclusion. | Fixed: reworded as accurate continuations; placement corrected to `l27`. |
+| 13a | 21-25 | `l10`-`l12` (dangling) -> `l29a` (each) | English fabricated "v'lo ayla hi l'veit hakenesset" content that does not correspond to any of these lines' actual Hebrew; actual Hebrew opens and elaborates `l29a`'s "kol yemei chayei peloni" resolution (a condition tied to a third party's life is a valid severance). | Fixed: reworded as accurate continuations; placement corrected to `l29a`. |
+| 13a | 26-28 | `l10`/`l12`/`l13` (dangling) -> `l29b` (each) | English fabricated "the inherent trap" / "staggered conditions" summary content not grounded in these lines; actual Hebrew opens and explains `l29b`'s new formula ("on condition your counterpart does not die"). | Fixed: reworded as accurate continuations; placement corrected to `l29b`. |
+| 13a | 29 | `l13` (dangling) -> `l29b` (valid) | English fabricated "staggered conditions still fail" summary content; actual Hebrew is a single truncated word ("im," if) matching the opening of 13b's own raw Rashi text ("if her counterpart dies"). | Fixed: reworded to document the cross-daf continuation (verified against 13b's raw talmud.dev text); placement corrected to `l29b`. |
+
+No deferrals remain. This closes out 13a entirely: all 29
+rashiTranslations entries are now grounded in their local Rashi
+Hebrew, correctly indexed to their raw print-lines, and correctly
+linked to their Gemara lines.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

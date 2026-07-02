@@ -734,86 +734,86 @@
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: 'k'hai gavna - in this way: was it a get?' If the condition is her surviving her whole life, she remains bound to him while alive - not a keritut.",
+      "en": "Rashi: concludes - retroactively. Then opens 'in such a case' - that the condition is dependent on her being alive,",
       "linkedGemaraLineIds": [
-        "yoma-13a-l08"
+        "yoma-013a-l27"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'ain zeh keritut - not a severance.' Throughout her life she remains halakhically connected; the get only works after she is already dead, which is logically incoherent as a divorce instrument.",
+      "en": "Rashi: continues - was it a get? Then opens 'this is not a severance' -",
       "linkedGemaraLineIds": [
-        "yoma-13a-l09"
+        "yoma-013a-l27"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: 'shelo tamut chavartikh - on condition your counterpart does not die.' This is addressing Wife 2: the get to Wife 1 is on condition Wife 2 doesn't die.",
+      "en": "Rashi: continues - since all the days of her life she is bound to him, and we",
       "linkedGemaraLineIds": [
-        "yoma-13a-l10"
+        "yoma-013a-l27"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: 'v'dilma lo mayta chavarta - and perhaps the counterpart won't die.' If Wife 2 survives, Wife 1's get is effective retroactively, and Wife 2's conditional get on a different condition might also become valid - leaving him with no wife.",
+      "en": "Rashi: concludes - require severance. Then opens 'all the days of so-and-so's life' -",
       "linkedGemaraLineIds": [
-        "yoma-13a-l11"
+        "yoma-013a-l29a"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: 'v'lo ayla hi l'beit ha-knesset - and she herself did not enter the synagogue.' If both conditions are fulfilled simultaneously, both wives receive valid divorces at the same time.",
+      "en": "Rashi: continues - this is a severance. And she may remarry after",
       "linkedGemaraLineIds": [
-        "yoma-13a-l12"
+        "yoma-013a-l29a"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: 'v'hava lei gita d'tarvayhu gita - both divorces are valid, and he has no house at all.' The formula that tries to use two independent conditions ends up dissolving both marriages simultaneously.",
+      "en": "Rashi: continues - the death of so-and-so, and also from today it is a get,",
       "linkedGemaraLineIds": [
-        "yoma-13a-l12"
+        "yoma-013a-l29a"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: final summary note - the complexity shows why R. Yehuda's backup wife idea, while logically demanded, is practically unworkable through conditional divorce. The discussion will continue on 13b.",
+      "en": "Rashi: continues - so that if she became spoiled there is no obligation of a",
       "linkedGemaraLineIds": [
-        "yoma-13a-l13"
+        "yoma-013a-l29a"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: 'al menat shelo tamut chavartikh - on condition your counterpart does not die.' Trying one more formula where each wife's get is contingent on the other's survival.",
+      "en": "Rashi: continues - married woman here, since it is only a concern lest she drink",
       "linkedGemaraLineIds": [
-        "yoma-13a-l09"
+        "yoma-013a-l29a"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: the inherent trap - if neither dies, both gets are valid and he has no wife. If one dies, only one get is valid and he retains one wife but has now had two houses during service.",
+      "en": "Rashi: concludes - wine during so-and-so's life. Then opens 'on condition your counterpart does not die' -",
       "linkedGemaraLineIds": [
-        "yoma-13a-l10"
+        "yoma-013a-l29b"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: further exploration of the two-pronged formula and its failure modes.",
+      "en": "Rashi: continues - and if her counterpart does not die, she has a get",
       "linkedGemaraLineIds": [
-        "yoma-13a-l11"
+        "yoma-013a-l29b"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: 'ailu tamut chaverta' - one wife's get takes effect on the condition of the other's death; trying to stagger the conditions to avoid simultaneous dissolution.",
+      "en": "Rashi: continues - retroactively, and there is only one house here.",
       "linkedGemaraLineIds": [
-        "yoma-13a-l12"
+        "yoma-013a-l29b"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: the staggered conditions still fail - if Wife 2 dies first, Wife 1's get is valid; if Wife 1 then 'conditionally' divorces Wife 2 on a different condition, both are gone.",
+      "en": "Rashi: opens with the word 'if' (im), the start of a comment that continues onto the next daf (13b), where it explains what happens if the counterpart dies.",
       "linkedGemaraLineIds": [
-        "yoma-13a-l13"
+        "yoma-013a-l29b"
       ]
     }
   ]
