@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.70: schema backfill is complete, the perek-level semantic
+As of VERSION 14.71: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -41,14 +41,19 @@ examples from the descriptive-style systemic finding (see Batch 2
 findings below). A bounded Batch 3 audit (10b vilnaLine 12-20, the
 documented remaining entries in that range) was run at VERSION 14.70
 (see Batch 3 findings below), resolving 10b through vilnaLine 20;
-vilnaLine 21 remains open (see Batch 3 findings for why). Both systemic
-findings are still open beyond the lines fixed so far (10a's remaining
-entries, 11a's remaining entries, 10b vilnaLine 21, and the 77a-88a
-placeholder text) and need a dedicated pass of their own. This is still
-small, explicitly scoped work, not the dedicated Rashi content-quality
-audit described in the Scope note above. Rashi content-quality auditing
-of the remaining corpus and the nekudot/vowelization audit have not
-started.
+vilnaLine 21 remained open pending a follow-up. A self-managed sequenced
+pass at VERSION 14.71 ran three bounded subtasks (see Batch 4 findings
+below): Subtask A closed out 10b entirely (vilnaLine 11 placement,
+vilnaLine 21 content); Subtask B fixed 6 entries in 10a and 6 in 11a;
+Subtask C fixed 12 more entries in 11a, resolving 11a through vilnaLine
+26. Both systemic findings are still open beyond the lines fixed so far.
+Unreviewed entries remain at 10a vilnaLine 1 (spot-checked only, appears
+aligned, not formally verified) and vilnaLine 9-21 and 25-35; 11a
+vilnaLine 1, 3, 5-8, and 27-43; plus the 77a-88a placeholder text. All
+need a dedicated pass of their own. This is still small, explicitly
+scoped work, not the dedicated Rashi content-quality audit described in
+the Scope note above. Rashi content-quality auditing of the remaining
+corpus and the nekudot/vowelization audit have not started.
 
 ## Pilot findings (VERSION 14.67)
 
@@ -159,6 +164,66 @@ Secondary observations (not acted on, out of Batch 3 scope):
   boundary with no clear standalone comment content to translate; a
   future pass should determine whether it needs a translation fix, a
   placement fix, or is better left as-is given its truncated nature.
+
+## Batch 4 findings (VERSION 14.71): self-managed sequenced pass
+
+Three bounded subtasks run in sequence, each grounded only in local
+Hebrew (talmud.dev raw print-lines, reconstructed into real comment
+boundaries) and local Gemara text (`learning_data.js`). No external
+sources consulted; nothing deferred required outside verification that
+wasn't available locally, except where explicitly noted.
+
+### Subtask A: 10b's last two open items
+
+| daf | vilnaLine | issue | resolution |
+|---|---|---|---|
+| 10b | 11 | Placement mismatch flagged in Batch 3's secondary observations: `linkedGemaraLineIds` was `yoma-010b-l18`, but the already-correct English text (fixed in Batch 1) describes a boundary between `l13` (closing) and `l06` (opening, Rava's sukka challenge). | Fixed: placement corrected to `yoma-010b-l06`. English text unchanged (was already accurate). |
+| 10b | 21 | Hebrew is the single word "כל" - the truncated start of a mishna citation. Prior English fabricated "final comment connecting the Parhedrin discussion to the general principle of what constitutes a dwelling." | Fixed: confirmed via cross-daf check that this is the same Rashi comment whose continuation is 11a vilnaLine 1 ("כל השערים. שערי מזרח עזרה:", glossing the mishna's "all the gates" as the Temple courtyard's eastern gates). Reworded to state this directly, grounded in the local 11a text rather than fabricating content. Placement (`yoma-010b-l19`, matching the identical Hebrew "כׇּל" in the Gemara) was already correct. |
+
+10b's rashiTranslations (21 entries) are now fully resolved.
+
+### Subtask B: 6 entries in 10a, 6 in 11a
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 10a | 2 | `l02` -> `l01` | Placement only - the Hebrew ("שכינה שורה אלא במקדש ראשון...") is the tail of the same comment as vilnaLine 1, which glosses Genesis 9:27 (`l01`), not the nation list (`l02`). English was already accurate. | Fixed: placement corrected. |
+| 10a | 5 | unchanged (`l10`) | English fabricated "on Gomer - identifies it with Germania"; actual Hebrew continues the Sakistan geography measurement from vilnaLine 4 (the outer circumference distance). | Fixed: reworded to the actual measurement content. |
+| 10a | 6 | unchanged (`l10`) | English fabricated "on Magog - identifies it with Kandia"; actual Hebrew closes the same Sakistan measurement (one thousand parasangs). | Fixed: reworded to match. |
+| 10a | 7 | `l10` -> `l15` | English fabricated "on Madai - identifies it with Macedonia"; actual Hebrew is a new comment on "out of that land went forth Asshur" (Genesis 10:11, matching `l15`), explaining Asshur left to avoid the Tower of Babel generation's plan. | Fixed: reworded and placement corrected. |
+| 10a | 8 | `l10` -> `l25` | English fabricated "on Yavan - identifies it with Greece"; actual Hebrew is a new comment on the verse "and there were Ahiman, Sheshai, and Talmai" (Numbers 13:22, matching `l25`), explaining why the tanna included this tangential verse. | Fixed: reworded and placement corrected. |
+| 10a | 24 | `l41` -> `l42` | English described "why the Parhedrin chamber is exceptional," a vague paraphrase; actual Hebrew is the direct continuation of vilnaLine 22-23's comment (fixed in Batch 2, already linked to `l42`) explaining the decree's rationale (avoiding the impression of imprisonment). | Fixed: reworded to continue the same comment accurately and placement corrected to match vilnaLine 22-23. |
+| 11a | 9 | `l10` -> `l17` | English prematurely described "checked only twice per jubilee" content that belongs several lines later; actual Hebrew opens a new comment on "because of danger" (matching `l17`), explaining the king might suspect witchcraft. | Fixed: reworded and placement corrected. |
+| 11a | 10 | `l10` -> `l17` | English described "the 1000-zuz fine," content belonging to a much later comment (`l19`); actual Hebrew completes the "danger" comment (witchcraft accusation). | Fixed: reworded and placement corrected. |
+| 11a | 11 | unchanged (`l17`, already correct) | English described "shluchei mitzva einan nizzokin," content belonging to `l19`; actual Hebrew is a new comment on "is checked" (rot or theft). | Fixed: reworded, placement was already correct. |
+| 11a | 12 | unchanged (`l17`, already correct) | English described "Samuel's precedent," content belonging to `l19`; actual Hebrew continues "and the public's" (gates of courtyards and provinces). | Fixed: reworded, placement was already correct. |
+| 11a | 13 | `l19` -> `l17` | English described "shani sakanta d'keviya," misattributed phrasing; actual Hebrew opens "twice in the jubilee," explaining reduced-frequency checking for public property. | Fixed: reworded and placement corrected. |
+| 11a | 14 | `l26` -> `l17` | English fabricated storehouse-type content (`l26` topic, much later); actual Hebrew continues the "twice in the jubilee" comment (public property should not be over-burdened). | Fixed: reworded and placement corrected. |
+
+### Subtask C: 12 more entries in 11a (vilnaLine 15-26)
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 11a | 15 | `l26` -> `l17` | English fabricated Rav Kahana storehouse content; actual Hebrew closes the "over-burdened public property" comment. | Fixed: reworded and placement corrected. |
+| 11a | 16 | `l26` -> `l19` | English fabricated "nashim ne'otot bahen" content (`l26` topic); actual Hebrew opens a new comment on "be-artavin" (the mezuza examiner's name), matching `l19`. | Fixed: reworded and placement corrected. |
+| 11a | 17 | `l32` -> `l19` | English described a fabricated "Rav Yehuda's position" on wood vs. wine storehouses; actual Hebrew continues the "artavin" name gloss. | Fixed: reworded and placement corrected. |
+| 11a | 18 | `l32` -> `l19` | English fabricated content; actual Hebrew opens a new comment on "kasdor" (the Roman official's title). | Fixed: reworded and placement corrected. |
+| 11a | 19 | `l36` -> `l19` | English fabricated "second Rav Yehuda ruling" content; actual Hebrew opens "where the danger is permanent," glossing the ruler's standing false accusations. | Fixed: reworded and placement corrected. |
+| 11a | 20 | `l36` -> `l19` | English fabricated content; actual Hebrew opens the Samuel/David-anointing verse citation ("how will I go"). | Fixed: reworded and placement corrected. |
+| 11a | 21 | `l38` -> `l19` | English fabricated "nashim ne'otot bahen interpretation" content; actual Hebrew closes the Samuel citation gloss, then opens on "storehouses." | Fixed: reworded and placement corrected. |
+| 11a | 22 | `l38` -> `l26` | English fabricated content; actual Hebrew explains "storehouses" means those holding wine, oil, and grain, matching `l26`. | Fixed: reworded and placement corrected. |
+| 11a | 23 | `l41` -> `l26` | English fabricated "first baraita" content; actual Hebrew closes the storehouse gloss, then opens "what does make-use mean? Bathe." | Fixed: reworded and placement corrected. |
+| 11a | 24 | `l41` -> `l26` | English fabricated content; actual Hebrew explains "na'ot" as a term for benefit or pleasure. | Fixed: reworded and placement corrected. |
+| 11a | 25 | `l44` -> `l26` | English fabricated "dirat adam/dirat kavod" framing; actual Hebrew continues explaining the shameful nature of women bathing unclothed there. | Fixed: reworded and placement corrected. |
+| 11a | 26 | `l44` -> `l26` | English fabricated "bathrooms, tanneries" content, a topic from much later; actual Hebrew concludes this specific comment (not fitting for Heaven's honor to have a mezuza present). | Fixed: reworded and placement corrected. |
+
+11a's rashiTranslations (43 entries total) are now resolved through
+vilnaLine 26 (vilnaLine 2, 4, and 9-26: 20 entries fixed across Batch 2
+and Batch 4). vilnaLine 1, 3, 5-8, and 27-43 (23 entries) remain
+unreviewed.
+
+No deferrals were needed in Batch 4 - every line audited had a locally
+certain fix (grounded in the raw talmud.dev text and the matching
+Gemara line), so nothing required external source review.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
