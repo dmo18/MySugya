@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.74: schema backfill is complete, the perek-level semantic
+As of VERSION 14.75: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -55,10 +55,16 @@ early-daf hotspot first identified in Batch 1 (10a, 10b, 11a) is now
 fully resolved: 99 entries audited and corrected across those three daf.
 Batch 7 (VERSION 14.74, see Batch 7 findings below) moved to the next
 daf in the sugya, 11b, fixing vilnaLine 1-25 of its 39 descriptive-style
-entries; vilnaLine 26-39 remain for Batch 8. The descriptive-style
-systemic finding is still open beyond the lines fixed so far - the
-scope estimate below lists the other daf using the descriptive
-"Rashi:" style, none of which have been verified yet - plus the 77a-88a
+entries. Batch 8 (VERSION 14.75, see Batch 8 findings below) closed out
+11b entirely, fixing the remaining 14 entries (vilnaLine 26-39) and
+uncovering that the prior English had fabricated an entire synagogue/
+tzaraat discussion that turned out to be real content misattributed by
+one daf (the actual Rashi text is on 12a). The mezuza sugya spanning
+10a-11b (99 + 39 = 138 entries) is now fully resolved. The
+descriptive-style systemic finding is still open beyond the lines fixed
+so far - the scope estimate below lists the other daf using the
+descriptive "Rashi:" style, none of which have been verified yet - plus
+the 77a-88a
 placeholder text. All need a dedicated pass of their own. This is still
 small, explicitly scoped work, not the dedicated Rashi content-quality
 audit described in the Scope note above. Rashi content-quality auditing
@@ -334,6 +340,42 @@ batch covers vilnaLine 1-25 of 39; vilnaLine 26-39 remain for Batch 8.
 | 11b | 25 | `l38` -> `l21` | English fabricated a "first resolution: R. Meir vs. Rabbis" synagogue-tzaraat framing (an `l38` topic from much later); actual Hebrew opens the transition into `l21`'s specific dispute case (foot 3, width not yet 4, room to carve). | Fixed: reworded and placement corrected. |
 
 No deferrals were needed in Batch 7.
+
+## Batch 8 findings (VERSION 14.75): 11b closed out
+
+The remaining 14 entries of 11b (vilnaLine 26-39), fixed by the same
+reconstruction method. This closes out 11b's rashiTranslations (39/39
+resolved). A significant finding: the previous English for vilnaLine
+26-39 fabricated an entire synagogue/tzaraat contradiction-resolution
+discussion (three resolutions: tanna dispute, city-vs-village
+synagogues, caretaker's residence) attributed to Gemara lines
+`l38`/`l40`/`l41`. That discussion is real (it happens in the actual
+Gemara text), but Rashi's local commentary on 11b never reaches it - the
+real Rashi text at vilnaLine 26-32 is still finishing the chokkein
+lehashlem geometry comment from Batch 7, vilnaLine 33-38 covers two
+unrelated topics (the Deuteronomy reward-verse gloss and an aggadah
+about stinginess causing house-plagues), and vilnaLine 39 is a single
+truncated word ("dekarkhim," of cities) that continues onto 12a. The
+city-vs-village synagogue content the prior English fabricated does
+turn out to be real Rashi commentary - just one daf later, confirmed by
+matching 11b's vilnaLine 39 word-for-word against 12a's own first Rashi
+line ("דכרכים. שהוא מקום שווקים ומתקבצים שם ממקומות הרבה..."). No new
+content was invented for 11b; the fabricated material was left
+undescribed here and correctly attributed to 12a instead.
+
+| daf | vilnaLine | placement (before -> after) | issue | resolution |
+|---|---|---|---|---|
+| 11b | 26 | `l38` -> `l21` | English fabricated "R. Meir vs. Rabbis" content; actual Hebrew continues the chokkein lehashlem diagram note from Batch 7 (the wall does not taper to match the inner space). | Fixed: reworded and placement corrected. |
+| 11b | 27-28 | `l40` -> `l21` (each) | English fabricated "city vs. village synagogues" content (this topic is real, but on 12a - see above); actual Hebrew continues the same diagram note (the wall runs long outside, relative to the inner space, in this pattern). | Fixed: reworded and placement corrected. |
+| 11b | 29 | `l41` -> `l21` | English fabricated "caretaker's house" content; actual Hebrew closes the diagram note and opens "Rabbi Meir holds." | Fixed: reworded and placement corrected. |
+| 11b | 30-32 | `l41` -> `l21` (each) | English fabricated "three resolutions" summary content; actual Hebrew continues Rabbi Meir's carve-to-complete reasoning (since it began with three handbreadths in a width of four, there is a doorway on it, viewed as though carved to widen it above to match the measure below). | Fixed: reworded as accurate continuations and placement corrected. |
+| 11b | 33 | `l41` -> `l27` | English fabricated a "12a transition, Jerusalem's tribal division" summary; actual Hebrew opens a new comment on "so that your days be many" (Deuteronomy 11:21, quoting `l27`). | Fixed: reworded and placement corrected. |
+| 11b | 34 | `l41` -> `l29` | English fabricated "tzaraat in Jerusalem" content; actual Hebrew closes the reward-verse gloss and opens "the way of your entry" (quoting `l29`, Rava's right-foot teaching). | Fixed: reworded and placement corrected. |
+| 11b | 35 | `l41` -> `l29` | English fabricated "three-part contradiction resolution preserved" content; actual Hebrew continues Rava's teaching (entering the house, not exiting) and opens "to the one who." | Fixed: reworded and placement corrected. |
+| 11b | 36-38 | `l41` -> `l33` (each) | English fabricated "review of 11b themes" and "parallel mezuza/tzaraat structure" content; actual Hebrew is the aggadah on "who dedicates his house to himself" - vessels reserved for personal use, not lent to neighbors, meaning that house-plagues (nega'im) come on account of stinginess (quoting `l33`). | Fixed: reworded as accurate continuations and placement corrected. |
+| 11b | 39 | `l41` -> `l41b` | English fabricated a "caretaker principle recalled on 12a" summary; actual Hebrew is the single word "dekarkhim" (of cities), confirmed via cross-daf match to be the truncated start of 12a's own first Rashi comment. Placement corrected to the daf's actual final (truncated) Gemara line `l41b`, replacing a dangling reference to the nonexistent id `l41` (the real ids are `l41a`/`l41b`; this was a pre-existing broken reference not touched in prior batches since placement was out of scope until now). | Fixed: reworded to state the cross-daf continuation; placement corrected to a valid id. |
+
+No deferrals were needed in Batch 8.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
