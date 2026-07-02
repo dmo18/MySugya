@@ -547,6 +547,43 @@ against their Gemara source so far, and all three showed the mismatch
 pattern. The dedicated pass should verify each descriptive-style daf
 individually rather than assume the pattern from these three examples.
 
+Update after 12a closed (Batch 11, VERSION 14.78): 12b was checked next
+as the natural continuation of the 10a-12a hotspot and does **not**
+show the topic-fabrication pattern above. Its 62 `rashiTranslations`
+entries are all `en`-text starting with "Rashi:" (so it matched the
+scope-check heuristic), but spot-checking against the raw talmud.dev
+print lines and the Gemara text shows the translations are
+substantively real and on-topic for the daf's actual sugya (the belt
+dispute continuing from 12a via Rav Dimi's and Ravin's traditions, the
+replacement Cohen Gadol's status, the Yom Kippur-garment mishna). The
+problem instead is that the `en` content is **index-misaligned**
+against `vilnaLine`: at vilnaLine 3-4 and vilnaLine 45 the content is
+shifted by one raw print-line (vilnaLine 3's `en` describes raw line
+4's content, etc.); at vilnaLine 20 and vilnaLine 30 the drift is far
+larger and non-uniform (18 and 28-30 raw lines ahead respectively,
+confirmed by searching for unique terms like "דוסא" and "צרה"/"איבה"
+that only occur once in the raw text); by vilnaLine 55-56 the content
+is back in correct alignment. This is not a constant offset that a
+simple shift-by-N could fix - it looks like the enrichment was
+authored against a differently-segmented (likely DH-based, not
+print-line-based) breakdown of the same real Rashi content, then
+mapped onto `vilnaLine` indices incorrectly, with the misalignment
+growing and shrinking unpredictably across the daf. Separately, all 62
+entries' `linkedGemaraLineIds` reference unpadded ids (`yoma-12b-l01`
+etc.) that do not exist in `learning_data.js`, where the real ids use
+zero-padded daf numbers (`yoma-012b-l01`) - a mechanical fix, but not
+useful to apply before the content-to-line mapping itself is
+corrected, since the ids would still point the (currently
+mislocated) content at the wrong Gemara lines.
+
+This is a different failure mode from the topic-fabrication pattern
+audited in Batches 1-11 and needs its own diagnosis and reconstruction
+approach (full raw-line-by-raw-line remapping of all 62 entries, not
+per-line rewording) rather than the established per-entry fix method.
+No changes were made to 12b's `rashiTranslations` in this pass -
+this is a documented, deferred finding pending guidance on how to
+proceed.
+
 ## Major systemic finding: placeholder/generic filler text on 77a-88a
 
 Separately from the mismatch pattern above, 765 `rashiTranslations`
