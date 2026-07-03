@@ -228,271 +228,299 @@
       "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
     }
   ],
-  "rashiTranslations": [
+    "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'it is agreed that it was in the SW corner' - verdict from the Shewbread chamber identification that only SW works for Middot.",
+      "en": "Rashi: opens 'rather, conclude from this that it is Rabbi Eliezer ben Yaakov', completing the word begun on 16b - and the entrance is concealed by the extra step and not",
       "linkedGemaraLineIds": [
-        "yoma-17a-l01"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: Rav Adda bar Yitzchak's alternative: the Chamber of the Lambs was not in a true corner but extended along the west wall, appearing NW from south, SW from north.",
+      "en": "Rashi: continues - by the altar, for we hear Rabbi Eliezer ben Yaakov in the third chapter (37a below) say that the whole",
       "linkedGemaraLineIds": [
-        "yoma-17a-l02"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: 'it was cut off at both corners' - the chamber was long and extended along the west wall between the two western corners.",
+      "en": "Rashi: continues - altar stands in the south, leaving the entrance's whole half opening exposed; and if you find it difficult how",
       "linkedGemaraLineIds": [
-        "yoma-17a-l02"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: 'from the north it appears to be in the SW' - approaching from north you see the chamber jutting out at the SW corner.",
+      "en": "Rashi: continues - the unattributed Middot can be established per him, when we hear from this unattributed mishna that the altar takes up",
       "linkedGemaraLineIds": [
-        "yoma-17a-l02"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: 'from the south it appears as NW' - from the south, the chamber's northern extent looks like the NW corner.",
+      "en": "Rashi: continues - seven cubits in the north - perforce",
       "linkedGemaraLineIds": [
-        "yoma-17a-l05"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: 'it is more probable it was in the SW corner' - the Gemara prefers the simple two-authorities solution over Rav Adda's perspective-dependent one.",
+      "en": "Rashi: continues - explain it thus: those twenty-five",
       "linkedGemaraLineIds": [
-        "yoma-17a-l05"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: 'since we establish Shewbread against Shewbread' - using the SE Shewbread chamber as fixed, all others fall into place with SW for Lambs.",
+      "en": "Rashi: continues - cubits that you allot - between ramp",
       "linkedGemaraLineIds": [
-        "yoma-17a-l05"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: 'from Shewbread' - the Shewbread chamber in SE is anchor; rightward from there: Seals (NE), Hearth (NW), Lambs (SW) = Middot's order.",
+      "en": "Rashi: continues - and wall there are only five cubits and a half,",
       "linkedGemaraLineIds": [
-        "yoma-17a-l05"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: 'if you grant: the Tamid tanna goes left' - the leftward count starting from south places Lambs in NW (Tamid).",
+      "en": "Rashi: continues - and the ramp and altar are sixty-two, so",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: this explains how both Tamid (NW) and Middot (SW) describe the same chamber - each author counted in a different circuit direction.",
+      "en": "Rashi: continues - the whole altar stands in the south, all of it against",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: 'but if you say it was in the NW corner exactly' - Rav Adda's middle-wall theory is less probable than two-circuit-direction theory.",
+      "en": "Rashi: continues - the courtyard's middle, and the remainder goes entirely to the",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: Rav Adda's resolution cannot explain the Shewbread placement contradiction - so it is not adopted.",
+      "en": "Rashi: continues - nenasin area. And if you say: if so, since the tanna was not",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: 'from Shewbread we contra Shewbread' - the Shewbread reference in Middot's chamber listing resolves which corner each chamber was in.",
+      "en": "Rashi: continues - precise to divide it in halves, and you may enlarge",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: new topic - 'two loaves of Shavuot' - the two communal leavened loaves brought on Shavuot are now discussed in the context of the KG's share.",
+      "en": "Rashi: continues - and reduce wherever you wish, you could establish it as Rabbi Yehuda",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: 'four or five' - the number of Shewbread loaves the KG receives each Shabbat varies: sometimes four, sometimes five.",
+      "en": "Rashi: continues - as well, with the altar centered",
       "linkedGemaraLineIds": [
-        "yoma-17a-l07"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: 'and it was for Aaron and his sons' - the Shewbread verse assigns it to the kohanim; the KG's share is derived from this.",
+      "en": "Rashi: continues - in the courtyard's middle - how? Allot twenty-one",
       "linkedGemaraLineIds": [
-        "yoma-17a-l09"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: 'half for Aaron etc.' - each Shabbat the twelve loaves are split: half to the outgoing shift, half to the incoming shift, with the KG taking from both.",
+      "en": "Rashi: continues - and a half of them between ramp and wall, the ramp thirty, and half the altar sixteen;",
       "linkedGemaraLineIds": [
-        "yoma-17a-l09"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: despite there being twelve loaves, two of them (the KG's) are never split - explained below.",
+      "en": "Rashi: continues - the altar's middle then falls at sixty-seven and a half, which is the courtyard's middle - this",
       "linkedGemaraLineIds": [
-        "yoma-17a-l09"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'we arrive at the Rabbanan' - Abaye's resolution involves the Rabbanan's position that the KG takes less than half.",
+      "en": "Rashi: continues - you cannot say, for then the tables' and nenasin's area would be only three",
       "linkedGemaraLineIds": [
-        "yoma-17a-l09"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: 'beginning and middle = Rabbanan' - the mishna's opening and middle clauses reflect the Rabbanan; only the end reflects R. Yehuda.",
+      "en": "Rashi: continues - and a half. And in my eyes it seems right to explain this statement of Rav Adda bar Ahava and the whole passage",
       "linkedGemaraLineIds": [
-        "yoma-17a-l09"
+        "yoma-017a-l01"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 21).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - differently: Rav Adda bar Ahava's 'whose is this' refers to the mishna of Tamid,",
+      "linkedGemaraLineIds": [
+        "yoma-017a-l01"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 22).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'the appointee said to them', against which Middot was cast; the mishna of Tamid,",
+      "linkedGemaraLineIds": [
+        "yoma-017a-l01"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 23).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - which disagrees with the unattributed Middot, is Rabbi Yehuda, whom we hear disagree with the unattributed",
+      "linkedGemaraLineIds": [
+        "yoma-017a-l01"
+      ]
     },
     {
       "vilnaLine": 24,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 24).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 25,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 25).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 26,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 26).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 27,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 27).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 28,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 28).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 29,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 29).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 30,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 30).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 31,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 31).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 32,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 32).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 33,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 33).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 34,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 34).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 35,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 35).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 36,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 36).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 37,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 37).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 38,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 38).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 39,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 39).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 40,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 40).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 41,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 41).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 42,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 42).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 43,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 43).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 44,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 44).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 45,
       "en": "Rashi: continued Shewbread distribution and KG's portion discussion (line 45).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     }
   ]
 }

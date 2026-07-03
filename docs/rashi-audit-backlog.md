@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.95: schema backfill is complete, the perek-level semantic
+As of VERSION 14.96: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -138,7 +138,12 @@ word) and fixed 16b's vilnaLine 1-31 (16b has 62 entries, split in
 two). A second sub-chunk at VERSION 14.95 (see "16b, vilnaLine
 32-62" below) fixed the remaining 31 entries, closing 16b entirely
 (62/62 resolved), including 37 entries that previously had empty
-linkedGemaraLineIds. No
+linkedGemaraLineIds. A first sub-chunk of 17a at VERSION 14.96 (see
+"17a, vilnaLine 1-23" below) verified the 16b/17a boundary (17a's
+raw text opens "אלא לאו שמע מינה ראב"י היא", restating 16b's
+truncated final word) and fixed 17a's vilnaLine 1-23 (17a has 45
+entries, split in two); vilnaLine 24-45 remain for a follow-up
+chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1308,6 +1313,44 @@ entries previously had EMPTY `linkedGemaraLineIds` and stub text
 sub-chunk's range). All 31 fixed entries carry real zero-padded
 `yoma-016b-lXX` ids (`l12`, `l18`, `l21`). No deferrals. 16b is
 fully resolved, 62/62.
+
+## 17a, vilnaLine 1-23 (VERSION 14.96), first half of a two-part daf
+
+Verified the 16b/17a boundary first: 17a's raw talmud.dev Rashi text
+opens "אלא לאו שמע מינה ראב"י היא. ואיכסי ליה במעלה יתירה", restating
+and completing 16b's truncated final word "אלא" - no regression, no
+change needed on 16b.
+
+17a has 45 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-23 here, vilnaLine 24-45 in a follow-up chunk. 17a has
+only 5 real Gemara lines (`yoma-017a-l01`, `l02`, `l05`, `l07`, and
+the truncated `l09`). An independent reconnaissance pass verified
+the DH segmentation against Sefaria's Rashi on Yoma 17a (exactly 7
+segments matching the raw print-line boundaries verbatim).
+
+The entire first sub-chunk sits inside a single enormous dibbur
+hamatchil: vilnaLine 1-23 all belong to `l01` ("rather, conclude
+from this that it is Rabbi Eliezer ben Yaakov"), in which Rashi
+explains that the entrance is concealed by the extra step rather
+than the altar (citing Rabbi Eliezer ben Yaakov's position at 37a
+that the whole altar stands in the south), answers how the
+unattributed Middot fits him by reworking the twenty-five-cubit
+allocation (five and a half between ramp and wall), rebuts a
+possible Rabbi Yehuda reading with the twenty-one-and-a-half
+arithmetic that would leave only three and a half cubits for tables
+and nenasin, and then begins his own preferred rereading of Rav
+Adda bar Ahava's statement as aimed at the Tamid mishna.
+
+All 23 fixed entries carry the real zero-padded id `yoma-017a-l01`.
+Before this fix, vilnaLine 5-20 pointed at wrong lines (l05, l07,
+l09) with English describing material from the daf's later DHs and
+even from 17b, and vilnaLine 21-23 had empty ids. No deferrals in
+this sub-chunk. vilnaLine 24-45 (the close of the big DH including
+Rashi's textual note "we do not read: rather, conclude that it is
+Rabbi Eliezer ben Yaakov", the set-off Chamber of the Lambs and the
+viewing-angle DHs, the shewbread contradiction, Rav Huna son of Rav
+Yehoshua's right/left-circuit resolution, and the truncated final
+word "אי" continuing onto 17b) remain for the follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

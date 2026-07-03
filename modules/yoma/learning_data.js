@@ -38627,12 +38627,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 1,
         he: "אלא לאו שמע מינה ראב\"י היא. ואיכסי ליה במעלה יתירה ולא",
-        en: "Rashi: 'it is agreed that it was in the SW corner' - verdict from the Shewbread chamber identification that only SW works for Middot.",
+        en: "Rashi: opens 'rather, conclude from this that it is Rabbi Eliezer ben Yaakov', completing the word begun on 16b - and the entrance is concealed by the extra step and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l01"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38641,12 +38641,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 2,
         he: "במזבח דשמעינן ליה לראב\"י בפ' שלישי (לקמן דף לז.) דאמר כוליה",
-        en: "Rashi: Rav Adda bar Yitzchak's alternative: the Chamber of the Lambs was not in a true corner but extended along the west wall, appearing NW from south, SW from north.",
+        en: "Rashi: continues - by the altar, for we hear Rabbi Eliezer ben Yaakov in the third chapter (37a below) say that the whole",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l02"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38655,12 +38655,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 3,
         he: "מזבח בדרום קאי וכל חצי חלל הפתח מגולה ואי קשיא היכי",
-        en: "Rashi: 'it was cut off at both corners' - the chamber was long and extended along the west wall between the two western corners.",
+        en: "Rashi: continues - altar stands in the south, leaving the entrance's whole half opening exposed; and if you find it difficult how",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l02"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38669,12 +38669,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 4,
         he: "מתוקמא סתמא מדות אליביה הא שמעינן מהא סתמא שאוכל",
-        en: "Rashi: 'from the north it appears to be in the SW' - approaching from north you see the chamber jutting out at the SW corner.",
+        en: "Rashi: continues - the unattributed Middot can be established per him, when we hear from this unattributed mishna that the altar takes up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l02"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38683,12 +38683,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 5,
         he: "המזבח שבע אמות בצפון על כרחיך",
-        en: "Rashi: 'from the south it appears as NW' - from the south, the chamber's northern extent looks like the NW corner.",
+        en: "Rashi: continues - seven cubits in the north - perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l05"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38697,12 +38697,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 6,
         he: "הכי מפרשי' הני עשרים וחמשה",
-        en: "Rashi: 'it is more probable it was in the SW corner' - the Gemara prefers the simple two-authorities solution over Rav Adda's perspective-dependent one.",
+        en: "Rashi: continues - explain it thus: those twenty-five",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l05"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38711,12 +38711,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 7,
         he: "אמות שאתה נותן שאין בין כבש",
-        en: "Rashi: 'since we establish Shewbread against Shewbread' - using the SE Shewbread chamber as fixed, all others fall into place with SW for Lambs.",
+        en: "Rashi: continues - cubits that you allot - between ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l05"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38725,12 +38725,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 8,
         he: "לכותל אלא חמשה אמות ומחצה",
-        en: "Rashi: 'from Shewbread' - the Shewbread chamber in SE is anchor; rightward from there: Seals (NE), Hearth (NW), Lambs (SW) = Middot's order.",
+        en: "Rashi: continues - and wall there are only five cubits and a half,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l05"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38739,12 +38739,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 9,
         he: "והכבש והמזבח ששים ושתים הרי",
-        en: "Rashi: 'if you grant: the Tamid tanna goes left' - the leftward count starting from south places Lambs in NW (Tamid).",
+        en: "Rashi: continues - and the ramp and altar are sixty-two, so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38753,12 +38753,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 10,
         he: "המזבח כולו בדרום קאי וכולו כנגד",
-        en: "Rashi: this explains how both Tamid (NW) and Middot (SW) describe the same chamber - each author counted in a different circuit direction.",
+        en: "Rashi: continues - the whole altar stands in the south, all of it against",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38767,12 +38767,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 11,
         he: "אמצע עזרה והמותר כולו למקום",
-        en: "Rashi: 'but if you say it was in the NW corner exactly' - Rav Adda's middle-wall theory is less probable than two-circuit-direction theory.",
+        en: "Rashi: continues - the courtyard's middle, and the remainder goes entirely to the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38781,12 +38781,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 12,
         he: "הננסין וא\"ת אם כן שלא דקדק",
-        en: "Rashi: Rav Adda's resolution cannot explain the Shewbread placement contradiction - so it is not adopted.",
+        en: "Rashi: continues - nenasin area. And if you say: if so, since the tanna was not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38795,12 +38795,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 13,
         he: "התנא לחלקו לחצאין ויש לך להרבות",
-        en: "Rashi: 'from Shewbread we contra Shewbread' - the Shewbread reference in Middot's chamber listing resolves which corner each chamber was in.",
+        en: "Rashi: continues - precise to divide it in halves, and you may enlarge",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38809,12 +38809,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 14,
         he: "ולמעט להיכן שתרצה כר\"י נמי מצית",
-        en: "Rashi: new topic - 'two loaves of Shavuot' - the two communal leavened loaves brought on Shavuot are now discussed in the context of the KG's share.",
+        en: "Rashi: continues - and reduce wherever you wish, you could establish it as Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38823,12 +38823,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 15,
         he: "מוקמת לה ויהא מזבח ממוצע",
-        en: "Rashi: 'four or five' - the number of Shewbread loaves the KG receives each Shabbat varies: sometimes four, sometimes five.",
+        en: "Rashi: continues - as well, with the altar centered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l07"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38837,12 +38837,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 16,
         he: "באמצע עזרה כיצד תן עשרים ואחד",
-        en: "Rashi: 'and it was for Aaron and his sons' - the Shewbread verse assigns it to the kohanim; the KG's share is derived from this.",
+        en: "Rashi: continues - in the courtyard's middle - how? Allot twenty-one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l09"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38851,12 +38851,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 17,
         he: "ומחצה מהם בין כבש לכותל והכבש שלשים וחצי המזבח ששה עשר",
-        en: "Rashi: 'half for Aaron etc.' - each Shabbat the twelve loaves are split: half to the outgoing shift, half to the incoming shift, with the KG taking from both.",
+        en: "Rashi: continues - and a half of them between ramp and wall, the ramp thirty, and half the altar sixteen;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l09"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38865,12 +38865,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 18,
         he: "נמצא אמצעו של מזבח לסוף ס\"ז ומחצה שהוא אמצע עזרה הא",
-        en: "Rashi: despite there being twelve loaves, two of them (the KG's) are never split - explained below.",
+        en: "Rashi: continues - the altar's middle then falls at sixty-seven and a half, which is the courtyard's middle - this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l09"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38879,12 +38879,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 19,
         he: "לא מצית אמרת שלא יהו מקום השולחנות והננסין אלא שלש",
-        en: "Rashi: 'we arrive at the Rabbanan' - Abaye's resolution involves the Rabbanan's position that the KG takes less than half.",
+        en: "Rashi: continues - you cannot say, for then the tables' and nenasin's area would be only three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l09"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38893,12 +38893,12 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 20,
         he: "ומחצה ובעיני נראה לפרש הא דרב אדא בר אהבה וכל הסוגיא",
-        en: "Rashi: 'beginning and middle = Rabbanan' - the mishna's opening and middle clauses reflect the Rabbanan; only the end reflects R. Yehuda.",
+        en: "Rashi: continues - and a half. And in my eyes it seems right to explain this statement of Rav Adda bar Ahava and the whole passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17a-l09"
+          "yoma-017a-l01"
         ]
       },
       {
@@ -38907,11 +38907,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 21,
         he: "בלשון אחר רב אדא בר אהבה אמר הא מני אמתניתין דתמיד",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 21).",
+        en: "Rashi: continues - differently: Rav Adda bar Ahava's 'whose is this' refers to the mishna of Tamid,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-022",
@@ -38919,11 +38921,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 22,
         he: "אמר להם הממונה קאי דרמיא מדות עילויה מתניתין דתמיד",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 22).",
+        en: "Rashi: continues - 'the appointee said to them', against which Middot was cast; the mishna of Tamid,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-023",
@@ -38931,11 +38935,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 23,
         he: "דפליגי אסתמא דמדות ר\"י היא דשמעינן ליה דפליג אסתמא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 23).",
+        en: "Rashi: continues - which disagrees with the unattributed Middot, is Rabbi Yehuda, whom we hear disagree with the unattributed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-024",
