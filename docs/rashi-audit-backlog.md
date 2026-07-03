@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.98: schema backfill is complete, the perek-level semantic
+As of VERSION 14.99: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -149,7 +149,12 @@ previously had empty linkedGemaraLineIds. A full-daf chunk for 17b
 at VERSION 14.98 (see "17b" below) verified the 17a/17b boundary
 (17b's raw text opens "אי אמרת בשלמא", restating 17a's truncated
 final word) and fixed all 33 of 17b's entries in one pass (17b is
-under the 40-entry split threshold), closing 17b entirely. No
+under the 40-entry split threshold), closing 17b entirely. A first
+sub-chunk of 18a at VERSION 14.99 (see "18a, vilnaLine 1-29" below)
+verified the 17b/18a boundary (18a's raw text opens "ומאי ארבע או
+חמש", restating 17b's truncated final word) and fixed 18a's
+vilnaLine 1-29 (18a has 58 entries, split in two); vilnaLine 30-58
+remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1424,6 +1429,44 @@ truncated final Gemara line) continuing onto 18a.
 
 All 33 fixed entries carry real zero-padded `yoma-017b-lXX` ids.
 No deferrals. 17b is fully resolved, 33/33.
+
+## 18a, vilnaLine 1-29 (VERSION 14.99), first half of a two-part daf
+
+Verified the 17b/18a boundary first: 18a's raw talmud.dev Rashi text
+opens "ומאי ארבע או חמש. מתי ארבע ומתי חמש", restating and completing
+17b's truncated final word "ומאי" - no regression, no change needed
+on 17b.
+
+18a has 58 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-29 here, vilnaLine 30-58 in a follow-up chunk. 18a has
+17 real Gemara lines (`yoma-018a-l01` through `l39`, including the
+mishna line `l12`). An independent reconnaissance pass verified the
+DH segmentation against Sefaria's Rashi on Yoma 18a (exactly 22
+segments matching the raw print-line boundaries verbatim), and the
+mapping was re-verified against the local files after a container
+restart before applying.
+
+vilnaLine 1-2 open `l01` (when four and when five loaves, and the
+Rabbis' twelve-loaf division from Sukka 56a). vilnaLine 3-5 open
+`l04` (per Rabbi Yehuda: the incoming watch's two loaves are the
+door-closing fee, so the division is from ten and he takes four).
+vilnaLine 6-8 open `l07` (Rava: the whole baraita is Rabbi, who
+holds like Rabbi Yehuda). vilnaLine 9-29 open `l09` (the long
+compound DH "but what is four... this is where there is a delayed
+watch": Rashi's extended explanation of the mishmar hamitakev - the
+watch that arrives early or lingers around a Festival adjacent to
+Shabbat, with the Sukka 55b rule that on such Shabbatot all watches
+share equally). The old entries for this daf had been written
+against the Gemara's vilna numbering rather than the Rashi print
+lines, so most were off; vilnaLine 29 onward were empty stubs.
+
+All 29 fixed entries carry real zero-padded `yoma-018a-lXX` ids
+(`l01`, `l04`, `l07`, `l09`). No deferrals in this sub-chunk.
+vilnaLine 30-58 (the rest of the delayed-watch comment, the mishna
+DHs on "my lord" and the order of the day, the First/Second Temple
+contrast with Marta bat Baytus, the erev Yom Kippur feeding DHs,
+the zav/keri distinction, and the truncated final word "השחלין"
+continuing onto 18b) remain for the follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

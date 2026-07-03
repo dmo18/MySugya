@@ -40698,12 +40698,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 1,
         he: "ומאי ארבע או חמש. מתי ארבע ומתי חמש: לרבנן. דפליגי עליה דר' יהודה בפרק החליל (סוכה דף נו.) ואמרי משמר היוצא נוטל שש",
-        en: "Rashi: 'what are four or five' - explaining when the KG gets four vs five Shewbread loaves based on mishmar configurations.",
+        en: "Rashi: opens 'and what is four or five', completing the word begun on 17b - when four and when five. Then opens 'per the Rabbis' - who disagree with Rabbi Yehuda in the chapter HeChalil (Sukka 56a) and say the outgoing watch takes six",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l01"
+          "yoma-018a-l01"
         ]
       },
       {
@@ -40712,12 +40712,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 2,
         he: "ומשמר הנכנס נוטל שש חלות ושכר הגפת דלתות לא שקיל משמר הנכנס נמצאו כולן באות ומחלקות וכהן גדול חולק עם שתיהן ומשנים",
-        en: "Rashi: 'for the Rabbanan' (who dispute R. Yehuda in the Khalil chapter of tractate Sukkah): the incoming shift takes 6 and the outgoing shift 6; the KG waits for the closing of the gates fee.",
+        en: "Rashi: continues - and the incoming watch takes six loaves, and the incoming watch takes no door-closing fee, so all twelve come to division and the High Priest shares with both watches, and from twelve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l02"
+          "yoma-018a-l01"
         ]
       },
       {
@@ -40726,12 +40726,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 3,
         he: "עשר בעי מיפלג ומחצה שלם אינו נוטל בציר חדא מפלגא חמש שקיל: לר' יהודה דאמר נכנס נוטל שתים. בלא מחלוקת בשכר שהוא",
-        en: "Rashi: 'the incoming shift takes 10, needs to split, half a loaf not taken' - with 10 remaining after 2 Shavuot chalot set aside, each gets 5.",
+        en: "Rashi: concludes - he must divide; a full half he does not take, one less than half, so he takes five. Then opens 'per Rabbi Yehuda, who says the incoming watch takes two' - without division, as the fee for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l03"
+          "yoma-018a-l04"
         ]
       },
       {
@@ -40740,12 +40740,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 4,
         he: "מגיף למוצאי שבת דלתות העזרה וחיל והיכל ולשכות שפתחו שחרית משמר שיצא לו מעשר בעי מיפלג שאין השתים באות במחלוקת כי",
-        en: "Rashi: 'for R. Yehuda, the incoming shift closes the doors on Saturday night' - a different timetable for gate-closing fees.",
+        en: "Rashi: continues - closing at Shabbat's end the doors of the courtyard, rampart, Sanctuary, and chambers that the outgoing watch opened that morning; so he must divide from ten, since the two do not come to division, for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l04"
+          "yoma-018a-l04"
         ]
       },
       {
@@ -40754,12 +40754,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 5,
         he: "שכרם הם: בציר חדא מפלגא.",
-        en: "Rashi: 'less than half of half is not taken' - the minimum portion principle.",
+        en: "Rashi: concludes - they are their fee. Then opens 'one less than half' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l05"
+          "yoma-018a-l04"
         ]
       },
       {
@@ -40768,12 +40768,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 6,
         he: "דעשר ושקיל ארבע: כולה רבי",
-        en: "Rashi: 'it is all Rabbi's position, and holds like R. Yehuda' - Rava's alternative reading: entire mishna = Rabbi.",
+        en: "Rashi: concludes - of ten, so he takes four. Then opens 'the whole of it is Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l06"
+          "yoma-018a-l07"
         ]
       },
       {
@@ -40782,12 +40782,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 7,
         he: "היא. דאמר פלגא שקיל: וסבר",
-        en: "Rashi: 'and what is always five?' - Rava answers: 5 is always given when there are the two Shavuot chalot + ten regular loaves.",
+        en: "Rashi: concludes - who says he takes half. Then opens 'and he holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l07"
+          "yoma-018a-l07"
         ]
       },
       {
@@ -40796,12 +40796,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 8,
         he: "לה כרבי יהודה. דאין השתים",
-        en: "Rashi: 'my Lord' (Ishi) - the term of address used by the elders for the KG; a respectful form.",
+        en: "Rashi: continues - like Rabbi Yehuda' - that the two loaves are never",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l08"
+          "yoma-018a-l07"
         ]
       },
       {
@@ -40810,12 +40810,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 9,
         he: "מתחלקות לעולם: אלא מאי ארבע",
-        en: "Rashi: 'read before him in the service order' - the elders recite the Yom Kippur service daily for the KG to learn.",
+        en: "Rashi: concludes - divided. Then opens 'but what is four?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l09"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40824,12 +40824,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 10,
         he: "הא חמש בעי למישקל לא קשיא",
-        en: "Rashi: 'so he would be familiar with the animals' - the KG needs to recognize the animals on Yom Kippur by sight.",
+        en: "Rashi: continues - surely he should take five! It is not difficult:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l10"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40838,12 +40838,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 11,
         he: "הא דאיכא משמר המתעכב וכו'.",
-        en: "Rashi: 'in the First Temple' - proper appointments from legitimate priestly families, as the Torah requires.",
+        en: "Rashi: continues - this is where there is a delayed watch, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l11"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40852,12 +40852,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 12,
         he: "פעמים שיום טוב חל בשני בשבת ויש",
-        en: "Rashi: 'from the First Temple period' - they appointed only from eligible, worthy candidates.",
+        en: "Rashi: continues - sometimes a Festival falls on Monday and there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l12"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40866,12 +40866,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 13,
         he: "משמר מקדים ובא מערב שבת",
-        en: "Rashi: 'Maratha bat Baytus' - a wealthy widow; she was betrothed to Yehoshua ben Gamla and paid the king for his appointment.",
+        en: "Rashi: continues - a watch that comes early, on the eve of Shabbat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l13"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40880,12 +40880,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 14,
         he: "ומתעכב עד הרגל שכל המשמרות",
-        en: "Rashi: 'tarkeva' - a half-se'ah measure of dinars (gold coins). She paid this as a bribe for the KG appointment.",
+        en: "Rashi: continues - and is delayed until the Festival, since all the watches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l14"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40894,12 +40894,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 15,
         he: "באות ברגל או פעמים שמוצאי יום",
-        en: "Rashi: 'dinars' - gold coins, the currency of the Roman period.",
+        en: "Rashi: continues - come for the Festival; or sometimes the Festival's end",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l15"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40908,12 +40908,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 16,
         he: "טוב ערב שבת והמשמרות הולכות",
-        en: "Rashi: 'a royal official' (dayla, from the Latin 'dialis') - the king's representative.",
+        en: "Rashi: continues - is the eve of Shabbat, and the watches go",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l16"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40922,12 +40922,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 17,
         he: "למקומם בערב שבת ויש משמר",
-        en: "Rashi: 'do not change money in front of him' - he knows you are rich from before; he will find ways to extort you.",
+        en: "Rashi: continues - home on the eve of Shabbat, and there is a watch",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l17"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40936,12 +40936,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 18,
         he: "שמתעכב שם עד מוצאי שבת ותנן",
-        en: "Rashi: 'feed him' - the eve of Yom Kippur morning, feed the KG fine flour and eggs to fill his digestive system.",
+        en: "Rashi: continues - delayed there until Shabbat's end; and we learned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l18"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40950,12 +40950,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 19,
         he: "במסכת סוכה (דף נה:) שבת שבתוך",
-        en: "Rashi: 'eggs' - cause emission if eaten excessively. But a moderate amount fills the digestive system without causing problems.",
+        en: "Rashi: continues - in tractate Sukka (55b): on a Shabbat within",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l19"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40964,12 +40964,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 20,
         he: "הרגל היו כל המשמרות שוות בחילוק",
-        en: "Rashi: 'to lubricate his intestines' - the fine foods help his digestion the next day so he does not need to relieve himself during the Yom Kippur service.",
+        en: "Rashi: continues - the Festival all the watches shared equally in the division",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l20"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40978,12 +40978,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 21,
         he: "לחם הפנים וכן י\"ט הסמוך לשבת בין",
-        en: "Rashi: 'to avoid causing heat' - excessive eggs cause seminal heat. So feed moderately.",
+        en: "Rashi: continues - of the shewbread, and likewise a Festival adjacent to Shabbat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l21"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -40992,12 +40992,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 22,
         he: "מלפניה שאין יכולין לשוב בשבת",
-        en: "Rashi: 'Av'i and Avav'i' - a mnemonic for the emission-causing foods. The specific letters point to the foods.",
+        en: "Rashi: continues - whether before it, when they cannot return on Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l22"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41006,12 +41006,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 23,
         he: "למקומן בין מלאחריה שעל כרחן הן",
-        en: "Rashi: 'a sign for the food' - if he ate a large quantity of any single food type, we attribute the emission to the food and he is treated as oness.",
+        en: "Rashi: continues - to their homes, or after it, when perforce they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l23"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41020,12 +41020,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 24,
         he: "מקדימין לבא מע\"ש היו כל המשמרות",
-        en: "Rashi: 'but if a ba'al keri (who had emission) is not a zav' - distinguishing between emission impurity and zov impurity. They come from different physiological causes.",
+        en: "Rashi: continues - come early on the eve of Shabbat - all the watches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l24"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41034,12 +41034,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 25,
         he: "שוות בחילוק לחם הפנים שהרי על",
-        en: "Rashi: 'barley grain' (se'orim) - the appearance of zov discharge is like a loose barley grain, while emission is dense like an unfertilized egg white.",
+        en: "Rashi: continues - shared equally in the shewbread division, since perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l25"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41048,12 +41048,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 26,
         he: "כרחן שוהין שם והרי היא כשבת",
-        en: "Rashi: 'and semen is dense like a fertilized egg white' - the two discharges look distinctly different.",
+        en: "Rashi: continues - they linger there, and it is like a Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l26"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41062,12 +41062,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 27,
         he: "שבתוך הרגל חל יום אחד להפסיק",
-        en: "Rashi: 'Abay' and 'Abavay' as memory signs - remembering the emission-food list by initial letters.",
+        en: "Rashi: continues - within the Festival. If one day falls in between,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l27"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41076,12 +41076,12 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 28,
         he: "בינתים או מלפניה כגון שכלה המועד",
-        en: "Rashi: 'shalhin' - a type of cress (garden cress or mustard cress) - one of the emission-causing foods.",
+        en: "Rashi: continues - whether before it, as when the Festival ended",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18a-l28"
+          "yoma-018a-l09"
         ]
       },
       {
@@ -41090,11 +41090,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 29,
         he: "בחמישי בשבת או מאחריה שהתחיל",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 29).",
+        en: "Rashi: continues - on Thursday, or after it, when the Festival began",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-030",
