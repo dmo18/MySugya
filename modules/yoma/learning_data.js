@@ -45664,7 +45664,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 1,
         he: "לפתח חטאת רובץ. יצה\"ר מחטיאו בעל כרחו: מתני' תורמין",
-        en: "At the entrance sin crouches - the evil inclination forces him to sin against his will. MISHNA: removing from the altar - the ash that one takes from the fire with a shovel once, whether much or little, provided it is no less than a full fistful, and places it on the east side of the ramp, where it is absorbed into its place.",
+        en: "Rashi: opens and closes 'at the door sin crouches' - the evil inclination causes him to sin against his will. Then the mishna section opens 'they remove ashes from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -45678,12 +45678,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 2,
         he: "את המזבח. הדשן שהוא חותה מן הדשן במחתה פעם אחת בין רב",
-        en: "and he shall burn - burning the limbs.",
+        en: "Rashi: continues - the altar' - the ash that he scoops from the ash-heap with the fire pan, one scooping, whether much",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l01"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45692,12 +45692,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 3,
         he: "למעט ובלבד שלא יפחות ממלא קומץ ונותנו במזרחו של כבש ונבלע",
-        en: "and he shall remove - removal of the ashes. This is what the verse teaches.",
+        en: "Rashi: continues - or little, provided he takes no less than a full handful, and puts it on the eastern side of the ramp,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l01"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45706,12 +45706,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 4,
         he: "במקומו שנאמר (ויקרא ו) והרים את הדשן וגו' ושמו אצל המזבח וילפינן",
-        en: "half for burning and half for removal - the first half of the night for burning the limbs, the second half for removing the ashes.",
+        en: "Rashi: continues - where it is absorbed in its place, as it is said (Leviticus 6): 'and he shall remove the ashes,' etc., 'and put it beside the altar'; and we derive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l01"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45720,12 +45720,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 5,
         he: "לקמן מוהרים ממנו בקומצו והיא היתה",
-        en: "Rav Kahana objected - he raised a difficulty against Rav from the mishna itself.",
+        en: "Rashi: continues - further ahead from 'and he shall remove some of it' that he removes it with his handful, and this was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45734,12 +45734,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 6,
         he: "תחילת עבודת שחרית בהשכמה: סמוך",
-        en: "From midnight on Yom Kippur - which contradicts Rav if midnight is fixed by the Torah.",
+        en: "Rashi: concludes - the start of the morning service, at daybreak. Then opens 'adjacent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45748,12 +45748,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 7,
         he: "לו. סמוך לקריאת הגבר לפני קריאתו או",
-        en: "he was still saying - Rav Kahana continued his challenge, the answer will come on the next page.",
+        en: "Rashi: continues - to it' - adjacent to the crowing of the rooster, before its crowing or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45762,7 +45762,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 8,
         he: "לאחריה: ביוה\"כ. תורם מחצות:",
-        en: "Commentary on the ash removal procedure and the talmud.dev source text.",
+        en: "Rashi: concludes - after it. Then opens and closes 'on Yom Kippur' - he removes ashes from midnight.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -45776,7 +45776,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 9,
         he: "וברגלים מאשמורה הראשונה. שהיא",
-        en: "Commentary on the timing tiers.",
+        en: "Rashi: opens 'and on the Festivals from the first watch' - which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -45790,7 +45790,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 10,
         he: "בשלישית הלילה כדאמר במסכת",
-        en: "Commentary on the Festival crowd filling the courtyard.",
+        en: "Rashi: continues - the third of the night, as it says in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -45804,7 +45804,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 11,
         he: "ברכות (דף ג.) ג' משמרות הוי הלילה",
-        en: "Commentary on the ash removal procedure details.",
+        en: "Rashi: continues - Berachot (3a): the night has three watches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -45818,12 +45818,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 12,
         he: "ובגמרא מפרש טעמא דכולהו: ולא",
-        en: "Commentary on the Zevachim derivation.",
+        en: "Rashi: concludes - and the Gemara explains the reason for all of them. Then opens 'and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45832,12 +45832,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 13,
         he: "היתה קריאת הגבר מגעת. ברגלים",
-        en: "Commentary on limbs blown off the altar.",
+        en: "Rashi: continues - the crowing of the rooster would not' - on the Festivals",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45846,12 +45846,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 14,
         he: "עד שהיתה העזרה מלאה מישראל",
-        en: "Commentary on me'ila liability after midnight.",
+        en: "Rashi: continues - arrive until the courtyard was full of Israel,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45860,12 +45860,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 15,
         he: "המביאין קרבנותיהן להיות מזומנים",
-        en: "Commentary on Rav's verse derivation.",
+        en: "Rashi: continues - who bring their offerings so as to be ready",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l15"
+          "yoma-020a-l07"
         ]
       },
       {
@@ -45874,12 +45874,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 16,
         he: "להקריבן אחר התמיד מיד:",
-        en: "Commentary on the two competing verses.",
+        en: "Rashi: concludes - to offer them right after the daily offering. Then the Gemara section opens 'where do we stand' - I do not know how to explain it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l15"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45888,12 +45888,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 17,
         he: "גמ' אהיכא קיימי'. איני יודע לפרשה",
-        en: "Commentary on dividing the night at midnight.",
+        en: "Rashi: continues - and it seems to me the correct reading is: we learned there: limbs that were forced off, etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l15"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45902,12 +45902,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 18,
         he: "ונ\"ל דה\"ג תנן התם אברים שפקעו כו'",
-        en: "Commentary on Rav Kahana's objection.",
+        en: "Rashi: continues - which is a mishna in tractate Zevachim (86a), and from their",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45916,12 +45916,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 19,
         he: "והיא משנה במסכת זבחים (דף פו.) ומתוך",
-        en: "Commentary on the mishna's three-tier timing.",
+        en: "Rashi: concludes - forcing off they bounce and fall from the arrangement. Then opens 'before midnight' - meaning at night; then opens and closes 'they are subject to misuse of consecrated property' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45930,12 +45930,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 20,
         he: "פקיעותן קופצין ונופלין מן המערכה:",
-        en: "Commentary on how Festivals begin earlier.",
+        en: "Rashi: continues - for before midnight it is not considered a full burning of the limb",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {

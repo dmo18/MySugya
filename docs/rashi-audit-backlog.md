@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.05: schema backfill is complete, the perek-level semantic
+As of VERSION 15.06: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -176,7 +176,12 @@ sub-chunk at VERSION 15.05 (see "19b, vilnaLine 35-68" below) fixed
 the remaining 34 entries, closing 19b entirely (68/68 resolved),
 including 28 entries that previously had empty linkedGemaraLineIds.
 The 12b-19b index-misalignment hotspot is now fully resolved end to
-end. No
+end. A first sub-chunk of 20a at VERSION 15.06 (see "20a, vilnaLine
+1-20" below) verified the 19b/20a boundary (20a's raw text opens
+"לפתח חטאת רובץ", restating 19b's truncated final word) and fixed
+20a's vilnaLine 1-20 (20a has 41 entries, one over the 40-entry
+split threshold, so it is split in two); vilnaLine 21-41 remain for
+a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1721,6 +1726,44 @@ All 34 fixed entries carry real zero-padded `yoma-019b-lXX` ids
 (`l33`, `l34`, `l36`, `l40`, `l42`, `l44`, `l45`, `l47`, `l49`).
 No deferrals. 19b is fully resolved, 68/68, and with it the entire
 12b-19b hotspot.
+
+## 20a, vilnaLine 1-20 (VERSION 15.06), first half of a two-part daf
+
+Verified the 19b/20a boundary first: 20a's raw talmud.dev Rashi text
+opens "לפתח חטאת רובץ. יצה"ר מחטיאו בעל כרחו", restating and
+completing 19b's truncated final word "לפתח" - no regression, no
+change needed on 19b.
+
+20a has only 5 real Gemara/mishna lines (`yoma-020a-l01`, `l07`,
+`l12`, `l15`, `l18`); the sugya scaffolding confirms `l07`'s span is
+vilna 7-11 (the mishna alone) and `l12`-`l18` is one sugya (the
+midnight-derivation and Rav Kahana's objection). 41 raw Rashi
+print-lines is one over the 40-entry split threshold, so it is split
+into two sub-chunks: vilnaLine 1-20 here, vilnaLine 21-41 in a
+follow-up chunk.
+
+vilnaLine 1 closes the "at the door sin crouches" comment on `l01`
+and opens the mishna DH "they remove ashes from the altar", which
+belongs to `l07`. vilnaLine 2-16 continue through `l07`'s sub-DHs
+(the handful-scooping procedure, "adjacent to it", "on Yom Kippur
+from midnight", "and on the Festivals from the first watch" with
+its Berachot 3a citation on the three night-watches, and "the
+rooster's crow would not arrive" until the courtyard filled with
+Festival pilgrims). vilnaLine 16-20 open `l12` (the Gemara-section
+transition "where do we stand", which Rashi glosses as textually
+uncertain and proposes reading as the direct citation of the
+Zevachim 86a mishna on limbs forced off the altar, then "before
+midnight" and "they are subject to misuse of consecrated property").
+
+All 20 fixed entries carry real zero-padded `yoma-020a-lXX` ids
+(`l01`, `l07`, `l12`). No deferrals in this sub-chunk. vilnaLine
+21-41 (the rest of the misuse-of-consecrated-property discussion,
+"after midnight", the Leviticus derivation of the midnight cutoff
+from the two "all night" verses, and the truncated final word "ואי"
+whose DH - "and if it is Torah law, how do we advance it" -
+continues on 20b, anchored to `l18`, the daf's own truncated final
+Gemara line covering Rav Kahana's objection) remain for the
+follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
