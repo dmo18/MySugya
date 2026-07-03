@@ -44311,12 +44311,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 1,
         he: "הכי קאמרי ליה. האי דקאמרי ליה אתה שלוחנו לאו בעבודה קאמרי",
-        en: "Rashi: 'this is what they say to him' - the oath formula 'attah shluchenu' does not declare legal agency; it means 'act per our understanding of the law, not your own private interpretation.'",
+        en: "Rashi: opens 'thus they say to him', completing the word begun on 19a - when they say to him 'you are our agent' they do not say it of the service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l01"
+          "yoma-019b-l01"
         ]
       },
       {
@@ -44325,12 +44325,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 2,
         he: "ליה אלא לענין קבלת שבועה כלומר לא לפי מחשבה שבלבך אם",
-        en: "Rashi: 'not per the thought in your heart' - the oath is about intention. Do not follow whatever you secretly believe (Sadducee interpretations) but act per the Pharisaic tradition.",
+        en: "Rashi: continues - but of the acceptance of the oath; that is: not by the thought in your heart - if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l01"
+          "yoma-019b-l01"
         ]
       },
       {
@@ -44339,12 +44339,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 3,
         he: "באת להערים בקבלת השבועה אנו משביעין אותך לפי דעתינו ודעת",
-        en: "Rashi: 'per the court's understanding' - 'lifi da'atanu u-da'at Beit Din' - we adjure you to act according to our (the Sanhedrin's) interpretation, not your own.",
+        en: "Rashi: concludes - you come to deceive in accepting the oath, we adjure you by our understanding and the understanding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l01"
+          "yoma-019b-l01"
         ]
       },
       {
@@ -44353,12 +44353,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 4,
         he: "ב\"ד: שחשדוהו צדוקי. לתקן הקטורת ולתת אותה על מחתת",
-        en: "Rashi: 'one who suspects the innocent is struck in his body' - from Exodus 4: Moses said 'they will not believe me' and was struck with leprosy on his hand. This principle justifies the elders' weeping.",
+        en: "Rashi: concludes - of the court. Then opens 'for they suspected him of being a Sadducee' - of preparing the incense and setting it on the fire",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l04"
+          "yoma-019b-l04"
         ]
       },
       {
@@ -44367,12 +44367,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 5,
         he: "האש בהיכל ולהכניסה אחרי כן לבית",
-        en: "Rashi: the verse 've-hinei yado metzora'at ka-shaleg' - Moses's hand became leprous for suspecting Israel. So too the elders might suffer for suspecting the KG.",
+        en: "Rashi: continues - pan in the Sanctuary and bringing it in afterward to the Holy of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l04"
+          "yoma-019b-l04"
         ]
       },
       {
@@ -44381,12 +44381,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 6,
         he: "קדשי הקדשים שכן אומרים הצדוקים",
-        en: "Rashi: 'and all this - why?' - why was the oath instituted at all? What is the Sadducee practice that necessitated it?",
+        en: "Rashi: continues - Holies, for so the Sadducees say,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l04"
+          "yoma-019b-l04"
         ]
       },
       {
@@ -44395,12 +44395,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 7,
         he: "כדלקמן: החושד בכשרים לוקה בגופו.",
-        en: "Rashi: 'one who suspects the innocents' - this is the general principle applied: if you suspect someone wrongly, you suffer.",
+        en: "Rashi: concludes - as further on. Then opens 'one who suspects the fit is stricken in his body' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l07"
+          "yoma-019b-l04"
         ]
       },
       {
@@ -44409,12 +44409,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 8,
         he: "דכתיב (שמות ד) הן לא יאמינו לי וגו'",
-        en: "Rashi: 'lest he arrange (the incense) outside and bring it in' - the Sadducee practice: light the incense on the pan outside the Holy of Holies and carry in the already-smoking pan.",
+        en: "Rashi: continues - as it is written (Exodus 4): 'but they will not believe me,' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l07"
+          "yoma-019b-l04"
         ]
       },
       {
@@ -44423,12 +44423,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 9,
         he: "וכתיב והנה ידו מצורעת כשלג: וכל",
-        en: "Rashi: 'from his nose' - the first body part to enter a building when entering face-forward. The Sadducee KG died; wounds appeared near his nose/face.",
+        en: "Rashi: concludes - and it is written: 'and behold, his hand was leprous as snow'. Then opens 'and why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44437,12 +44437,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 10,
         he: "כך למה. השבועה הזאת למה: שלא",
-        en: "Rashi: 'for one entering a building face-forward, the nose enters first' - Shevuot 17b: the nose is the leading entry point.",
+        en: "Rashi: concludes - all this' - why this oath? Then opens 'that he not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44451,12 +44451,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 11,
         he: "יתקן. הקטורת מלא חפנים הניתנת",
-        en: "Rashi: 'teach it to Hiya bar Rav' - Rav dictated the halacha to his student Hiya bar Rav, using the letter beit (b) as the first letter of a mnemonic.",
+        en: "Rashi: continues - prepare' - the double handful of incense placed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44465,12 +44465,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 12,
         he: "ביה\"כ על המחתה כדכתיב (ויקרא טז)",
-        en: "Rashi: 'he showed him the beit' - Rav used a hand gesture showing the letter beit to indicate 'remember: the key word here starts with beit.'",
+        en: "Rashi: continues - on Yom Kippur on the fire pan, as it is written (Leviticus 16):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44479,12 +44479,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 13,
         he: "ומלא חפניו וגו' ונתן את הקטורת",
-        en: "Rashi: 'yirmoz, yikrotz, yoreh' - all are synonyms for similar gestures: winking the eye, pinching the fingers, pointing. Each applies to a different limb.",
+        en: "Rashi: continues - 'and his hands full of incense,' etc., 'and he shall put the incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44493,12 +44493,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 14,
         he: "על האש וגו': מבחוץ. בהיכל היו",
-        en: "Rashi: 'in the first chapter (of Shema)' - the first paragraph of Shema (Shema Yisrael through v'ahavta) requires kavanah (intention) from the verse 'these words shall be upon your heart.'",
+        en: "Rashi: concludes - on the fire,' etc. Then opens 'outside' - in the Sanctuary the Sadducees",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44507,12 +44507,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 15,
         he: "נותנין אותה צדוקין על האש ואח\"כ",
-        en: "Rashi: 'bam (in them)' - 've-dibartem bam': you shall speak them. 'Bam' = with them, in your mouth, meaning the recitation must be audible.",
+        en: "Rashi: continues - would put it on the fire and afterward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l09"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44521,12 +44521,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 16,
         he: "מכניסין שהיו דורשין אל יבא כי אם",
-        en: "Rashi: 'and not in prayer' - prayer (Amidah) may be silent (like Chana's prayer); Shema must be audible.",
+        en: "Rashi: continues - bring it in, for they expounded: 'let him not come except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44535,12 +44535,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 17,
         he: "בענן כי בענן אראה (שם) וכתיב",
-        en: "Rashi: found in the responsum of Rav Achai Gaon (She'iltot): 've-dibartem bam' - speech, not silence.",
+        en: "Rashi: continues - with a cloud, for in a cloud I shall appear' (Leviticus 16), and it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44549,12 +44549,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 18,
         he: "ברישא דקרא ואל יבא בכל עת אל",
-        en: "Rashi: 'bam' (in them) = Torah words; 've-lo bi-devarim acherim' (not in other things) = not idle talk or children's conversations.",
+        en: "Rashi: continues - at the verse's start 'and let him not come at all times into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44563,12 +44563,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 19,
         he: "הקדש ומשמע כי בענן עשן הקטרת",
-        en: "Rashi: 'no man can speak' - there is no permission to interrupt for speech matters.",
+        en: "Rashi: continues - the sacred place', implying: with a cloud of the incense's smoke",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l07"
         ]
       },
       {
@@ -44577,12 +44577,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 20,
         he: "יבא ואז אראה על הכפורת: מחוטמו.",
-        en: "Rashi: 'etzba tzarda' - the finger adjacent to the thumb. Pressed against the thumb base and released sharply - making a loud snapping sound on the palm.",
+        en: "Rashi: concludes - let him come, and then 'I shall appear upon the ark cover'. Then opens 'from his nostrils' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44591,12 +44591,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 21,
         he: "שהוא ראשון לאברים ליכנס לבית לפי",
-        en: "Rashi: 'and hafeg' - 'cool yourself': walk and shake off the sleep. 'Stand and cool yourself once on the floor' - walk barefoot on the cold Temple stone.",
+        en: "Rashi: continues - which is the first of the limbs to enter a house, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44605,12 +44605,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 22,
         he: "שהוא בולט לפניו כדאמר נמי במס'",
-        en: "Rashi: 'laugh for us once' - have the KG do something amusing to break the sleepiness; even a brief bit of play.",
+        en: "Rashi: continues - it juts out before him, as it says too in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44619,12 +44619,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 23,
         he: "שבועות (דף יז:) הנכנס לבית המנוגע",
-        en: "Rashi: 'on the floor' - the cool stone floor of the Temple; walking barefoot on it helps alert the KG.",
+        en: "Rashi: continues - Shevuot (17b): one who enters an afflicted house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44633,12 +44633,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 24,
         he: "דרך אחוריו ואפילו נכנס כולו חוץ",
-        en: "Rashi: 'the Gemara explains what hafeg is' - the Gemara below explains the specific 'cooling' technique.",
+        en: "Rashi: continues - backward, even if all of him entered except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l16"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44647,12 +44647,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 25,
         he: "מחוטמו טהור אלמא הבא דרך",
-        en: "Rashi: 'they kept him occupied' - the young priests continuously occupied the KG with these activities until the time for the morning tamid slaughter.",
+        en: "Rashi: continues - his nostrils, is pure; evidently one coming",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l22"
+          "yoma-019b-l16"
         ]
       },
       {
@@ -44661,12 +44661,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 26,
         he: "אחוריו נכנס חוטמו אחרון: מתני",
-        en: "Rashi: 'until the time of the morning tamid slaughter, which is at dawn' - when the eastern sky lightens.",
+        en: "Rashi: concludes - backward brings his nose in last. Then opens 'he taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l22"
+          "yoma-019b-l22"
         ]
       },
       {
@@ -44675,12 +44675,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 27,
         he: "ליה לחייא בר רב א\"ר זכריה בן",
-        en: "Rashi: 'tzarta d'da' - 'the affliction (tzara) of this one' - one finger afflicts the other by pressing hard against it.",
+        en: "Rashi: continues - Chiyya bar Rav: Rabbi Zecharya ben",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l22"
+          "yoma-019b-l22"
         ]
       },
       {
@@ -44689,12 +44689,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 28,
         he: "קפוטל. בפ\"א ומחוי ליה רב בבי\"ת",
-        en: "Rashi: 'what is it? The thumb' - the index finger presses against the adjacent thumb, and when released snaps against the palm.",
+        en: "Rashi: continues - Kaputal' - with a peh, and Rav gestured to him: with a bet;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l26"
+          "yoma-019b-l22"
         ]
       },
       {
@@ -44703,12 +44703,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 29,
         he: "עשה לו סימן שהוא קבוטל בבי\"ת:",
-        en: "Rashi: 'in the whole beit ha-midrash' - the gesture snapping sound was heard throughout the study hall when Rav demonstrated it.",
+        en: "Rashi: concludes - he made him a sign that it is Kevutal with a bet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l26"
+          "yoma-019b-l22"
         ]
       },
       {
@@ -44717,12 +44717,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 30,
         he: "ירמוז יקרוץ יורה. כולן לשון אחד",
-        en: "Rashi: 'al chadta' - 'regarding a novelty' - Rav showed the students a new interpretation or practice.",
+        en: "Rashi: opens 'gesture, wink, point' - they are all one term,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l26"
+          "yoma-019b-l26"
         ]
       },
       {
@@ -44731,12 +44731,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 31,
         he: "הן אלא שזה נופל על העינים וזה",
-        en: "Rashi: 'achui kidda' - he showed a 'kidda' bow: pressing the big toes to the ground, bowing forward, face nearly to the floor, then rising. Very difficult to do.",
+        en: "Rashi: continues - except that one falls on the eyes and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l33"
+          "yoma-019b-l26"
         ]
       },
       {
@@ -44745,12 +44745,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 32,
         he: "נופל על האצבעות שנאמר (משלי ו)",
-        en: "Rashi: explained in tractate Sukkah (53a): the Beit Gamliels could do the kidda; they would bow until their faces touched the floor while pressing only the toes to the ground.",
+        en: "Rashi: continues - falls on the fingers, as it is said (Proverbs 6):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l33"
+          "yoma-019b-l26"
         ]
       },
       {
@@ -44759,12 +44759,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 33,
         he: "קורץ בעיניו מולל ברגליו מורה",
-        en: "Rashi: 'only with the mouth' (ila b'pe) - they sang before the KG with their voices alone (no instruments, as instruments were Levitical), just singing.",
+        en: "Rashi: continues - 'winking with his eyes, shuffling with his feet, pointing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l33"
+          "yoma-019b-l26"
         ]
       },
       {
@@ -44773,12 +44773,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 34,
         he: "באצבעותיו: בפרק ראשון. צריך בו",
-        en: "Rashi: 'Im Hashem lo yivneh bayit' (Psalm 127) - 'if God does not build the house, in vain do its builders toil.' This psalm reminds the KG his service is only meaningful if sincere.",
+        en: "Rashi: concludes - with his fingers'. Then opens 'in the first chapter' - it requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l34"
+          "yoma-019b-l33"
         ]
       },
       {

@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.03: schema backfill is complete, the perek-level semantic
+As of VERSION 15.04: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -168,7 +168,11 @@ verified the 18b/19a boundary (19a's raw text opens "גמ' תנא ללמדו
 sub-chunk at VERSION 15.03 (see "19a, vilnaLine 30-58" below) fixed
 the remaining 29 entries, closing 19a entirely (58/58 resolved),
 including 11 entries that previously had empty linkedGemaraLineIds.
-No
+A first sub-chunk of 19b at VERSION 15.04 (see "19b, vilnaLine 1-34"
+below) verified the 19a/19b boundary (19b's raw text opens "הכי
+קאמרי ליה", restating 19a's truncated final word) and fixed 19b's
+vilnaLine 1-34 (19b has 68 entries, split in two); vilnaLine 35-68
+remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1628,6 +1632,56 @@ empty `linkedGemaraLineIds` and stub text, and replaced entries
 whose ids pointed at a nonexistent unsplit `l36`. All 29 fixed
 entries carry real zero-padded `yoma-019a-lXX` ids (`l30`, `l32`,
 `l36a`, `l36b`, `l38`). No deferrals. 19a is fully resolved, 58/58.
+
+## 19b, vilnaLine 1-34 (VERSION 15.04), first half of a two-part daf
+
+Verified the 19a/19b boundary first: 19b's raw talmud.dev Rashi text
+opens "הכי קאמרי ליה. האי דקאמרי ליה אתה שלוחנו", restating and
+completing 19a's truncated final word "הכי" - no regression, no
+change needed on 19a.
+
+19b has 68 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-34 here, vilnaLine 35-68 in a follow-up chunk. It has
+16 real lines (`yoma-019b-l01` through `l49`, including the mishna
+line `l40`). Every order-sensitive anchor was verified against the
+full local Hebrew before applying: "שלא יתקן מבחוץ ויכניס" sits in
+`l07` (so the "מבחוץ" DH is l07, not the Sadducee-incident baraita
+of l09, which correctly receives no Rashi lines at all), "לא יוכל
+איש לדבר" in `l36`, and both psalm phrases in `l45`. An independent
+reconnaissance pass also verified the DH segmentation against
+Sefaria's Rashi on Yoma 19b (28 dibburim, all matched verbatim).
+
+vilnaLine 1-3 open `l01` ("thus they say to him": the oath is
+administered by the court's understanding, against mental
+reservation). vilnaLine 4-8 open `l04` (the suspicion of Sadducee
+practice and "one who suspects the fit is stricken in his body",
+with the Exodus 4 prooftext). vilnaLine 9-19 open `l07` ("and why
+all this", "that he not prepare" the double handful per Leviticus
+16, and "outside": the Sadducee exegesis of "for in a cloud I shall
+appear"). vilnaLine 20-25 open `l16` ("from his nostrils", first of
+the limbs to enter, per Shevuot 17b on entering an afflicted house
+backward). vilnaLine 26-29 open `l22` (the Kaputal/Kevutal
+peh-versus-bet gesture; the word "מתני" ending vilnaLine 26 is part
+of the lemma "מתני ליה", not a mishna marker). vilnaLine 30-33 open
+`l26` ("gesture, wink, point" as one term split across eyes and
+fingers, per Proverbs 6). vilnaLine 34 opens `l33` (the start of
+"in the first chapter" on Shema intent).
+
+All 34 fixed entries carry real zero-padded `yoma-019b-lXX` ids
+(`l01`, `l04`, `l07`, `l16`, `l22`, `l26`, `l33`). No deferrals in
+this sub-chunk. vilnaLine 35-68 (the rest of the Shema-intent
+comment, the "bam" derashot, the mishna on the tzerada finger and
+keeping him occupied, the Gemara's tzarta-dida and kidda
+demonstrations, the singing "if the Lord does not build a house",
+the notables of Jerusalem, the sinning in the provinces at
+Nehardea, and the truncated final word "לפתח" continuing onto 20a)
+remain for the follow-up chunk.
+
+Note: this chunk was applied twice. The first application passed
+the full validator suite but was lost, uncommitted, when the
+session's container was recycled a second time; the work was
+re-applied identically from the retained fix content and
+re-validated before commit. No pushed history was affected.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
