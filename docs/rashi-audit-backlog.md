@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.11: schema backfill is complete, the perek-level semantic
+As of VERSION 15.12: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -200,7 +200,14 @@ below) a fast alignment run verified the 20b/21a boundary read-only
 concluded) and fixed all 62 of 21a's entries in two sub-chunks,
 replacing generic descriptive-style placeholder text with real
 translations and correcting every linkedGemaraLineIds value, closing
-21a entirely (62/62 resolved). No
+21a entirely (62/62 resolved). At VERSION 15.12 (see "21b, full daf"
+below) the run continued to 21b, verifying the 21a/21b boundary
+read-only (both the truncated Rashi word and the truncated Gemara
+word complete cleanly on 21b's opening) and fixing all 46 of 21b's
+entries in two sub-chunks, closing 21b and Perek 1 of Yoma entirely
+(46/46 resolved), including a self-caught correction of an initial
+mismapping (vilnaLine 40-41 moved from `l37` to `l40` after a direct
+text check). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2011,6 +2018,64 @@ then 32-62, since the daf exceeds the 40-entry split threshold).
 21a is fully resolved, 62/62, with real translations replacing every
 generic placeholder and every linkedGemaraLineIds value corrected to
 its real zero-padded `yoma-021a-lXX` target.
+
+## 21b, full daf (VERSION 15.12), two sub-chunks, closing 21b and Perek 1 entirely
+
+Continuing the fast alignment run from 21a. Before any edit, the
+21a/21b boundary was re-verified read-only: 21a's truncated final
+Rashi word "עשוי" is completed by 21b's opening dibbur hamatchil
+"עשוי לנחת" (made to rest), and 21a's truncated final Gemara word
+"כלי" is completed by 21b's opening Gemara text "כלי עץ העשוי לנחת"
+(a wooden vessel made to rest), confirming both columns continue
+cleanly with no gap. No edit was made to 21a.
+
+21b's Gemara side has 15 real captured lines (`l01`, `l06`, `l14`,
+`l15`, `l18`, `l19`, `l21`, `l25`, `l27`, `l31`, `l36`, `l37`, `l40`,
+`l41`, `l42`) against 42 raw print lines, and its Rashi side has 46
+raw print lines, all carrying the same generic descriptive-style
+placeholder text as 21a ("Commentary on the Holy of Holies' spatial
+rules," "Commentary on the divine acceptance signaled by straight
+smoke") with `linkedGemaraLineIds` pointing at nearby real ids
+largely disconnected from actual content.
+
+All 46 raw Rashi print lines were read against the raw Gemara text
+and the 15 real captured line ids, using the same multi-DH rule as
+21a. The correspondence: vilnaLine 1-2 (wooden vessel impurity, the
+sack analogy) to `l01`; 3 (the Temple pomegranate-tree miracle
+citation) to `l06`; 4 (the "fixed things" catchword) to `l14`; 5-8
+(the crouching-lion ember of the altar fire) to `l15`; 9-10 ("when we
+say" ordinary smoke) to `l18`; 11-16 (the "I will accept it" verse
+and the five things absent in the Second Temple) to `l21`; 17-26 (the
+six fires baraita's explanations, Gabriel's fire, and the Sanhedrin
+citation) to `l27`; 27-32 (the festival-end smoke-watching omen for
+rain, north-leaning) to `l31`; 33-39 (east/west-leaning smoke and the
+Gittin citation) to `l36`; 40-41 (the wind-crop mnemonic "this one
+increases its own") to `l40`; 42-45 ("this is for us, that is for
+them," Babylonia versus the land of Israel) to `l41`; 46 (the
+perek-closing "Hadran" formula) to `l42`. `l19` (Rabbi Chanina's
+"crouching like a dog" testimony, already glossed once by the
+vilnaLine 5-8 comment on the phrase's first occurrence), `l25` (the
+bare six-fires list header), and `l37` (the east/west/north/south
+wind-quality list, superseded by the more specific comment on `l40`'s
+mnemonic) all have no dedicated Rashi comment in this daf's column
+and legitimately carry no vilnaLine. An initial pass mistakenly
+linked vilnaLine 40-41 to `l37` before a direct text check found the
+DH's own phrase "האי מרבה דידיה והאי מרבה דידיה" verbatim inside
+`l40`'s captured Hebrew rather than `l37`'s; this was corrected
+before regenerating `learning_data.js`.
+
+vilnaLine 46, the daf's final raw Rashi line, is not a dibbur
+hamatchil at all but the "Hadran alach Shivat Yamim" formula marking
+the end of Perek 1, printed identically in both the Gemara and Rashi
+columns. It is documented as such rather than force-fit into the
+boundary-catchword convention, and linked to the Gemara's own
+matching `l42` line for this daf.
+
+All 46 entries were fixed across two sub-chunks (vilnaLine 1-26, then
+27-46). 21b is fully resolved, 46/46, closing Perek 1 of Yoma
+entirely with real translations replacing every generic placeholder
+and every linkedGemaraLineIds value corrected to its real zero-padded
+`yoma-021b-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

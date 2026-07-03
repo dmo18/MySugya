@@ -49285,7 +49285,7 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 1,
         he: "עשוי לנחת. שאינו מיטלטל וכלי עץ לענין טומאה הוקש לשק שנאמר (ויקרא יא) מכל כלי עץ או בגד או עור או שק וגו' מה שק",
-        en: "The ketoret vessel - can it contract impurity from resting on the floor?",
+        en: "Rashi: opens 'made to rest' - that it is not meant to be moved; and a wooden vessel, regarding impurity, is likened to a sack, as it is stated (Leviticus 11): 'any vessel of wood, or garment, or hide, or sack,' etc. - just as a sack",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -49299,7 +49299,7 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 2,
         he: "מיטלטל מלא וריקן אף כלי עץ מיטלטל מלא וריקן ואף על גב דשלחן מצופה בזהב בטל ציפוי לגביה כדאמרינן בשילהי חגיגה שאני",
-        en: "Commentary on vessel impurity from ground contact.",
+        en: "Rashi: continues - is moved whether full or empty, so too a wooden vessel is moved whether full or empty; and even though the Table was overlaid with gold, the overlay is nullified relative to it, as we say at the end of tractate Chagigah, that a different",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -49313,7 +49313,7 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 3,
         he: "שלחן דקרייא רחמנא עץ: שמגביהין אותו. ומראין אותו לחוץ ירעש כלבנון פריו. ירעש פריו של ישראל כפירי הלבנון אלמא יש פירי",
-        en: "Commentary on the Holy of Holies' spatial rules.",
+        en: "Rashi: concludes - Table is one which the Torah calls wood. Then opens and closes 'they would lift it up' - and show it outward. Then opens 'let its fruit rustle like the Lebanon' - the fruit of Israel would rustle like the fruits of Lebanon, implying there is fruit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -49327,12 +49327,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 4,
         he: "בלבנון ולבנון הוא בית המקדש ומהו הרעש כשהרוח נושבת והן מקישין זה לזה רועשים ונשמע קולם: דקביעי. קבועים ועומדים תמיד",
-        en: "It served in a miraculous space - the normal rules do not apply.",
+        en: "Rashi: continues - in Lebanon, and Lebanon is the Temple; and what is the rustling? When the wind blows and they knock against one another, they rustle and their sound is heard. Then opens 'the fixed ones' - fixed and standing always",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l06"
+          "yoma-021b-l14"
         ]
       },
       {
@@ -49341,12 +49341,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 5,
         he: "במקומן: רבוצה כארי. גחלת שנפלה",
-        en: "Commentary on the exemption from floor impurity.",
+        en: "Rashi: concludes - in their place. Then opens 'crouching like a lion' - an ember that fell",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l06"
+          "yoma-021b-l15"
         ]
       },
       {
@@ -49355,12 +49355,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 6,
         he: "מן השמים בימי שלמה והיתה על",
-        en: "Commentary on the Holy of Holies miracles.",
+        en: "Rashi: continues - from the heavens in the days of Solomon, and it was upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l06"
+          "yoma-021b-l15"
         ]
       },
       {
@@ -49369,12 +49369,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 7,
         he: "המזבח עד שבא מנשה וסילקה היתה",
-        en: "Five things were present in the First Temple but absent in the Second.",
+        en: "Rashi: continues - the altar until Menashe came and removed it; it was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l15"
         ]
       },
       {
@@ -49383,12 +49383,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 8,
         he: "דומה לארי רובץ: ויש בה ממש.",
-        en: "The Ark with the tablets - the first absence.",
+        en: "Rashi: concludes - shaped like a crouching lion. Then opens 'and it has substance' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l15"
         ]
       },
       {
@@ -49397,12 +49397,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 9,
         he: "בשלהבת שלה: כי קאמרי'. דמעלה",
-        en: "The heavenly fire - the second absence.",
+        en: "Rashi: concludes - in its own flame. Then opens 'when we say' - that it produces",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l18"
         ]
       },
       {
@@ -49411,12 +49411,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 10,
         he: "עשן בהדיוט קאמרי' באש הדיוט שהיו",
-        en: "The Shechina - the third absence.",
+        en: "Rashi: continues - smoke, we say it of an ordinary fire, of the ordinary fire that they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l18"
         ]
       },
       {
@@ -49425,12 +49425,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 11,
         he: "מביאין אצלה: וארצה בו ואכבד. חסר",
-        en: "The holy spirit (prophecy) - the fourth absence.",
+        en: "Rashi: concludes - would bring alongside it. Then opens 'and I will accept it and be honored' - lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49439,12 +49439,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 12,
         he: "ה\"א בנבואת חגי (א) כתיבא ובבית",
-        en: "The Urim VeTumim - the fifth absence.",
+        en: "Rashi: continues - a heh; it is written in the prophecy of Haggai (1), and the verse speaks of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49453,12 +49453,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 13,
         he: "שני משתעי קרא: ארון כפורת",
-        en: "Commentary on the five absences and their implications.",
+        en: "Rashi: concludes - Second Temple. Then opens 'the Ark, the ark-cover",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49467,12 +49467,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 14,
         he: "וכרובים. כוליה חדא מילתא ושכינה",
-        en: "Commentary on the transition to the smoke miracle question.",
+        en: "Rashi: continues DH - and the Cherubs' - all one matter. Then the comment - and the Divine Presence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l15"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49481,12 +49481,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 15,
         he: "לא שרתה בו ורוח הקודש לא היתה",
-        en: "Did the Second Temple have the straight-smoke miracle?",
+        en: "Rashi: continues - did not rest in it, and the holy spirit was not present",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l15"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49495,12 +49495,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 16,
         he: "בנביאים משנת שתים לדריוש ואילך:",
-        en: "Commentary on the Shechina's absence and its effect on miracles.",
+        en: "Rashi: concludes - among the prophets from the second year of Darius onward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l18"
+          "yoma-021b-l21"
         ]
       },
       {
@@ -49509,12 +49509,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 17,
         he: "דחולין. מן הקדחת שהוא כאש וצמא",
-        en: "Commentary on the debate about Second Temple smoke.",
+        en: "Rashi: opens 'of an ordinary person' - from fever, which is like fire, and thirsty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l18"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49523,12 +49523,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 18,
         he: "למים ואינו חפץ לאכול: דוחה אש.",
-        en: "Commentary on the wind not displacing the smoke.",
+        en: "Rashi: concludes - for water and unwilling to eat. Then opens 'fire that pushes away fire' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l21"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49537,12 +49537,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 19,
         he: "ממקומה להלן: דגבריאל. שירד",
-        en: "Commentary on what 'smoke not displaced' means technically.",
+        en: "Rashi: concludes - away from its place. Then opens 'Gabriel's' - who descended",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l21"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49551,12 +49551,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 20,
         he: "להציל חנניה מישאל ועזריה שצינן את",
-        en: "Commentary on the east wind test.",
+        en: "Rashi: continues - to save Hananiah, Mishael, and Azariah, cooling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l25"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49565,12 +49565,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 21,
         he: "הכבשן מבפנים והקדיח מבחוץ לשרוף",
-        en: "Commentary on the smoke miracle in the two Temples.",
+        en: "Rashi: continues - the furnace from within while heating it from without, so as to burn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l25"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49579,7 +49579,7 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 22,
         he: "את זורקיהן לתוכו כדאמרינן בערבי",
-        en: "Commentary on the divine acceptance signaled by straight smoke.",
+        en: "Rashi: continues - those who threw them into it, as we say in tractate Pesachim, chapter Arvei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -49593,7 +49593,7 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 23,
         he: "פסחים (דף קיח.): הושיט אצבעו.",
-        en: "Commentary on the conclusion of the smoke discussion.",
+        en: "Rashi: concludes - Pesachim (118a). Then opens 'he extended his finger' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -49607,12 +49607,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 24,
         he: "בסנהדרין הוא בפרק אחד דיני",
-        en: "Commentary on the transition to fire arrangements.",
+        en: "Rashi: continues - in tractate Sanhedrin, in the chapter Echad Dinei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l31"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49621,12 +49621,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 25,
         he: "ממונות (דף לח:) גבי כיתות של",
-        en: "The two fire arrangements on the altar - their purposes.",
+        en: "Rashi: continues - Mamonot (38b), regarding the groups of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l31"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49635,12 +49635,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 26,
         he: "מלאכים שאמרו לפניו מה אנוש",
-        en: "Commentary on the large arrangement for offerings.",
+        en: "Rashi: continues - angels who said before Him: what is man",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l31"
+          "yoma-021b-l27"
         ]
       },
       {
@@ -49649,12 +49649,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 27,
         he: "כי תזכרנו: מוצאי י\"ט האחרון של",
-        en: "Commentary on the small arrangement for incense coals.",
+        en: "Rashi: concludes - that You are mindful of him. Then opens 'the conclusion of the last festival day of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l36"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49663,12 +49663,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 28,
         he: "חג. שמאתמול נתחתם גזר דינם על",
-        en: "The divine fire descended from heaven - yet human fire was also commanded.",
+        en: "Rashi: continues DH - the festival [Sukkot]. Then the comment - for the day before, their judgment for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l36"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49677,12 +49677,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 29,
         he: "גשמי שנה כדתנן בחג נידונין על",
-        en: "Commentary on the verse 'you shall kindle fire.'",
+        en: "Rashi: continues - the year's rains was sealed, as we learned: on the festival they are judged concerning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l37"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49691,12 +49691,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 30,
         he: "המים: נוטה כלפי צפון. שרוח",
-        en: "Commentary on both fires being required simultaneously.",
+        en: "Rashi: concludes - the water. Then opens 'leaning toward the north' - for the wind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l37"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49705,12 +49705,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 31,
         he: "דרומית נושבת ופירותיהן מרקיבין",
-        en: "Commentary on the wood arrangement details.",
+        en: "Rashi: continues - from the south blows, and their produce rots,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l40"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49719,12 +49719,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 32,
         he: "ואינן יכולין לאוצרן ופותחין ומוכרין",
-        en: "Commentary on the altar wood structure.",
+        en: "Rashi: continues - and they cannot store it, so they open their stores and sell",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l40"
+          "yoma-021b-l31"
         ]
       },
       {
@@ -49733,12 +49733,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 33,
         he: "אותן בזול: הכל שמחים. שרוח",
-        en: "Commentary on the incense coal supply.",
+        en: "Rashi: concludes - it cheaply. Then opens 'everyone rejoices' - for the wind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l41"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49747,12 +49747,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 34,
         he: "מערבית שקולה היא ומביאה גשמים",
-        en: "Commentary on the Yom Kippur incense pan.",
+        en: "Rashi: continues - from the west is balanced and brings rain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l41"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49761,12 +49761,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 35,
         he: "לפי הראוי לא הפירות מרקיבין",
-        en: "Commentary on the KG taking coals from the small arrangement.",
+        en: "Rashi: continues - in proper measure, so the produce does not rot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l41"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49775,12 +49775,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 36,
         he: "ותבואת הזרע מצלחת ואין רעב",
-        en: "Commentary on the conclusion of the fire section.",
+        en: "Rashi: continues - and the grain crop thrives, and there is no famine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l42"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49789,12 +49789,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 37,
         he: "בעולם: הכל עצבים. שהוא רוח",
-        en: "Commentary on the dual fire theology.",
+        en: "Rashi: concludes - in the world. Then opens 'everyone is sad' - for it is a wind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l37"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49803,12 +49803,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 38,
         he: "המייבשת את הזרעים כדאמרינן",
-        en: "Commentary on the biblical sources.",
+        en: "Rashi: continues - that dries out the seeds, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l37"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49817,12 +49817,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 39,
         he: "במסכת גיטין (דף לב.) אפי' שופתא",
-        en: "Commentary on the human-divine collaboration.",
+        en: "Rashi: continues - in tractate Gittin (32a): even a peg",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l42"
+          "yoma-021b-l36"
         ]
       },
       {
@@ -49831,12 +49831,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 40,
         he: "בקופינא דמרא רפיא: האי מרבה",
-        en: "Commentary on the closing of this section.",
+        en: "Rashi: concludes - loosens in the socket of a hoe from that wind. Then opens 'this one increases'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l42"
+          "yoma-021b-l40"
         ]
       },
       {
@@ -49845,12 +49845,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 41,
         he: "דידיה. צפונית מגדלת הראויין",
-        en: "Commentary on the transition to Chapter 2 main topic.",
+        en: "Rashi: continues DH - its own' - the north wind grows those crops fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l42"
+          "yoma-021b-l40"
         ]
       },
       {
@@ -49859,12 +49859,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 42,
         he: "לשלחן: הא לן והא להו. מזרחית",
-        en: "Commentary on the smoke and fire as interlocking topics.",
+        en: "Rashi: concludes - for the Table's showbread wheat. Then opens 'this is for us and that is for them' - the east wind is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l42"
+          "yoma-021b-l41"
         ]
       },
       {
@@ -49873,12 +49873,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 43,
         he: "יפה לארץ בבל שהיא ארץ לחה מחמת",
-        en: "Commentary on the five absences list.",
+        en: "Rashi: continues - good for Babylonia, which is a land moist because of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l41"
         ]
       },
       {
@@ -49887,12 +49887,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 44,
         he: "מימיה לעולם ולארץ ישראל קשה שהיא",
-        en: "Commentary on the Ark's absence and its implications.",
+        en: "Rashi: continues - its waters always, and harsh for the land of Israel, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l41"
         ]
       },
       {
@@ -49901,12 +49901,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 45,
         he: "ארץ הרים ובקעות וממהרת ליבש:",
-        en: "Commentary on the kapporet and its Yom Kippur role.",
+        en: "Rashi: concludes - a land of mountains and valleys that dries out quickly.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l41"
         ]
       },
       {
@@ -49915,12 +49915,12 @@ const DAF_CONTENT = {
         daf: "21b",
         vilnaLine: 46,
         he: "הדרן עלך שבעת ימים",
-        en: "Commentary on the even hashtiya replacing the Ark.",
+        en: "The Vilna page's closing formula 'Hadran alach Shivat Yamim' (we shall return to you, Seven Days), marking the end of Perek 1, printed identically in both the Gemara and Rashi columns; not a Rashi dibbur hamatchil, so it is linked to the Gemara's own matching final line for this daf and perek.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021b-l14"
+          "yoma-021b-l42"
         ]
       }
     ],
