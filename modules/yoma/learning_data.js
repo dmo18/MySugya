@@ -42873,12 +42873,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 1,
         he: "גמ' תנא ללמדו חפינה. מוליכין אותו לבית אבטינס ששם הקטרת",
-        en: "Rashi: 'to teach him the incense-scooping' - they take the KG to Beit Avtinas to practice the hanifa (scooping) technique for the Yom Kippur incense service.",
+        en: "Rashi: the Gemara section opens 'it was taught: to teach him the handful-scooping' - they take him to the House of Avtinas, where the incense is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l01"
+          "yoma-019a-l01"
         ]
       },
       {
@@ -42887,12 +42887,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 2,
         he: "מצוי: לשכת פרהדרין. לישן שם: לשכת אבטינס. ללמוד חפינה: על גגה.",
-        en: "Rashi: 'Lishkat Parhedrin - to sleep there' - the KG's chamber for his seven-day stay.",
+        en: "Rashi: concludes - found. Then opens and closes 'the Parhedrin chamber' - to sleep there. Then opens and closes 'the Avtinas chamber' - to learn the handful-scooping. Then opens 'on its roof' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l01"
+          "yoma-019a-l05"
         ]
       },
       {
@@ -42901,12 +42901,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 3,
         he: "היה בית הטבילה מי מעיין היו באין לשם ברומה: מסיבה. בנין",
-        en: "Rashi: 'Lishkat Avtinas - to learn the incense-scooping' - the second KG chamber, for practicing the incense service.",
+        en: "Rashi: concludes - was the immersion house; spring water came there, at its height. Then opens 'mesiba' - a stone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l01"
+          "yoma-019a-l05"
         ]
       },
       {
@@ -42915,12 +42915,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 4,
         he: "אבנים מעלות מגלגלות וסובבות במקיף עמוד כמין עץ גלגל של",
-        en: "Rashi: 'on its roof' - the Parvah chamber's roof had a water source fed by the Etam spring for immersion.",
+        en: "Rashi: continues - structure of winding, circling steps around a pillar, like the wooden roller of a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l01"
+          "yoma-019a-l05"
         ]
       },
       {
@@ -42929,12 +42929,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 5,
         he: "גת: לגג בית הפרוה. לעלות",
-        en: "Rashi: 'musiba' - a spiral stone staircase, like a mill wheel winding around a central post.",
+        en: "Rashi: concludes - press. Then opens 'to the roof of the House of Parva' - to ascend",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l05"
         ]
       },
       {
@@ -42943,12 +42943,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 6,
         he: "לה דרך המסיבה: לשכת הגולה.",
-        en: "Rashi: 'to ascend to the roof of Beit Parvah' - you go up the spiral staircase to reach the immersion pool on the roof.",
+        en: "Rashi: concludes - to it by way of the mesiba. Then opens 'the Chamber of the Golah' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l11"
         ]
       },
       {
@@ -42957,12 +42957,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 7,
         he: "על שם בור שכרו שם עולי גולה:",
-        en: "Rashi: 'Lishkat HaGolah' - named after a cistern dug by the returning exiles (golah); the water for the Temple was stored there.",
+        en: "Rashi: concludes - named for the cistern that the returnees of the exile dug there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l11"
         ]
       },
       {
@@ -42971,12 +42971,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 8,
         he: "אחורי שתיהן. ללשכת הגולה וללשכת",
-        en: "Rashi: 'behind both of them' - behind both Lishkat HaGolah and Lishkat HaGazit.",
+        en: "Rashi: opens 'behind the two of them' - behind the Golah chamber and the Chamber of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l11"
         ]
       },
       {
@@ -42985,12 +42985,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 9,
         he: "הגזית: וגג שלשתן שוה. קירוי אחד",
-        en: "Rashi: 'and the roof of all three is level' - the same roof covers all three northern chambers.",
+        en: "Rashi: concludes - Hewn Stone. Then opens 'and the roof of the three of them was level' - one roofing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l11"
         ]
       },
       {
@@ -42999,12 +42999,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 10,
         he: "לשלשתן: שער הדלקה שער הקרבן.",
-        en: "Rashi: 'Sha'ar HaDalak' (Fuel Gate) / 'Sha'ar HaKorban' (Sacrifice Gate) - Rashi admits he does not know how these gates got their names.",
+        en: "Rashi: concludes - for all three. Then opens 'the Fuel Gate, the Offering Gate' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l05"
+          "yoma-019a-l19"
         ]
       },
       {
@@ -43013,12 +43013,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 11,
         he: "לא ידעתי למה נקרא שמם כך: שער",
-        en: "Rashi: 'Sha'ar HaMayim (Water Gate)' - through this gate the water for Sukkot water-drawing (nisuch ha-mayim) was brought in, as mentioned in Shekalim.",
+        en: "Rashi: concludes - I do not know why they were so named. Then opens 'the Gate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l11"
+          "yoma-019a-l19"
         ]
       },
       {
@@ -43027,12 +43027,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 12,
         he: "המים. שבו מכניסין צלוחית של מים",
-        en: "Rashi: 'ten sanctifications' - the KG sanctifies (immerses and washes) his hands and feet ten times on Yom Kippur, corresponding to five changes of garments.",
+        en: "Rashi: continues - of the Water' - through it they bring in the flask of water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l11"
+          "yoma-019a-l19"
         ]
       },
       {
@@ -43041,12 +43041,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 13,
         he: "של ניסוך בחג כך מפרש בשקלים",
-        en: "Rashi: 'on the same day' (Yom Kippur) - these ten immersions/washings all occur within Yom Kippur itself.",
+        en: "Rashi: continues - for the libation on the Festival; so it is explained in Shekalim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l11"
+          "yoma-019a-l19"
         ]
       },
       {
@@ -43055,12 +43055,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 14,
         he: "(דף ט:): ועשרה קדושין. ידיו ורגליו",
-        en: "Rashi: 'and all of them in sanctity' - all ten immersions on Yom Kippur must be done in a sanctified location (the Parvah roof pool or other dedicated spot).",
+        en: "Rashi: concludes - (9b). Then opens 'and ten sanctifications' - of his hands and feet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l15"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43069,12 +43069,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 15,
         he: "מן הכיור: בו ביום. ביוה\"כ ולקמן",
-        en: "Rashi: 'except this one' - the first regular immersion (required of anyone entering the Azara) is not counted among the ten Yom Kippur immersions.",
+        en: "Rashi: concludes - from the laver. Then opens 'on that day' - on Yom Kippur, and further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l15"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43083,12 +43083,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 16,
         he: "(דף לב.) יליף להו מקראי וכולן בקדש",
-        en: "Rashi: 'not because of Yom Kippur but because of the Azara' - the regular immersion before entering the Azara is a year-round requirement, not Yom Kippur-specific.",
+        en: "Rashi: continues - (32a) it derives them from verses; and all of them in the sacred area,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l15"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43097,12 +43097,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 17,
         he: "כדמפרש: על גג בית פרוה.",
-        en: "Rashi: 'on the roof of Beit Parvah' - the sanctified immersion pool on the Parvah chamber's roof is where the five special Yom Kippur immersions occur.",
+        en: "Rashi: concludes - as it explains. Then opens 'on the roof of the House of Parva' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l15"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43111,12 +43111,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 18,
         he: "שהיתה בנויה בתוך עזרה מקודשת:",
-        en: "Rashi: 'since it is built within the sanctified Azara' - the Parvah roof pool is sanctified because the building it is on stands within the Azara.",
+        en: "Rashi: concludes - which was built inside the sanctified courtyard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l15"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43125,12 +43125,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 19,
         he: "חוץ מזו. טבילה ראשונה שאינה באה",
-        en: "Rashi: 'except for this immersion' - only the first (pre-Azara) immersion is not in a sanctified location; all Yom Kippur immersions must be sanctified.",
+        en: "Rashi: opens 'except this one' - the first immersion, which does not come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l19"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43139,12 +43139,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 20,
         he: "בשביל יוה\"כ שאף כל ימות השנה",
-        en: "Rashi: 'and next to his chamber' - the immersion bath was adjacent to the KG's Parhedrin chamber - hence the Parhedrin chamber must be near the immersion facility.",
+        en: "Rashi: continues - on account of Yom Kippur, for on all the days of the year too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l19"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43153,12 +43153,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 21,
         he: "שנינו בפ\"ג (דף ל:) אין אדם נכנס",
-        en: "Rashi: 'therefore the Parhedrin chamber is in the south' - because the immersion bath is in the south (near the Water Gate), and Parhedrin is adjacent to it.",
+        en: "Rashi: continues - we learned in the third chapter (30b) that no one enters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l19"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43167,12 +43167,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 22,
         he: "לעזרה אפילו טהור עד שיטבול אבל",
-        en: "Rashi: 'it is more probable that the Parhedrin chamber is in the south' - stronger evidence for south than north.",
+        en: "Rashi: continues - the courtyard, even one who is pure, until he immerses; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l19"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43181,12 +43181,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 23,
         he: "טבילות הבאות מחמת יוה\"כ בעינן",
-        en: "Rashi: 'why is he rising early?' - each morning during the seven days, when the KG wakes early, he needs to use the bathroom, requiring a general immersion to enter the Azara.",
+        en: "Rashi: continues - the immersions that come on account of Yom Kippur require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l23"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43195,12 +43195,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 24,
         he: "מקום קדוש דהכי כתיב בהו ורחץ את",
-        en: "Rashi: 'and covers his feet' - a euphemism for relieving himself, like 'he covered his feet' in the book of Samuel about Saul in the cave.",
+        en: "Rashi: continues - a sacred place, for so it is written of them: 'and he shall wash his",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l23"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43209,12 +43209,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 25,
         he: "בשרו במים במקום קדוש (ויקרא טז) :",
-        en: "Rashi: 'and immerses' - after relieving himself, the KG immerses at the Water Gate (south) before entering the Azara.",
+        en: "Rashi: concludes - flesh in water in a sacred place' (Leviticus 16)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l25"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43223,12 +43223,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 26,
         he: "ובצד לשכתו היתה. אלמא לשכה יש",
-        en: "Rashi: 'and goes north to his chamber' - after the south immersion, he walks north to the Beit Avtinas chamber to practice the incense scooping.",
+        en: "Rashi: opens 'and it was beside his chamber' - evidently he has a chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l25"
+          "yoma-019a-l25"
         ]
       },
       {
@@ -43237,12 +43237,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 27,
         he: "לו בדרום: ומסתברא לשכת פרהדרין.",
-        en: "Rashi: 'and immerses there according to R. Akiva' - the purification sprinkling in the evening (per R. Akiva's position) makes the KG tamei, requiring immersion.",
+        en: "Rashi: concludes - in the south. Then opens 'and it stands to reason that the Parhedrin chamber' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l25"
+          "yoma-019a-l28"
         ]
       },
       {
@@ -43251,12 +43251,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 28,
         he: "שהוא ישן שם בדרום הויא אצל בית",
-        en: "Rashi: 'and rests' - after the evening immersion and waiting for nightfall, the KG rests in the Parhedrin chamber in the south.",
+        en: "Rashi: continues - where he sleeps, was in the south, next to the weekday",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l28"
+          "yoma-019a-l28"
         ]
       },
       {
@@ -43265,12 +43265,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 29,
         he: "הטבילת חול: מאי טעמא מקדים",
-        en: "Rashi: 'if Parhedrin were in the north, you would have given him extra work' - if north, the KG would need to walk south for immersion and back north twice every day.",
+        en: "Rashi: concludes - immersion house. Then opens 'what is the reason? He rises early,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l28"
+          "yoma-019a-l30"
         ]
       },
       {

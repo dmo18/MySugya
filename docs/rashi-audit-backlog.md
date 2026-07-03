@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.01: schema backfill is complete, the perek-level semantic
+As of VERSION 15.02: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -160,7 +160,12 @@ including 30 entries across both halves that previously had empty
 linkedGemaraLineIds. A full-daf chunk for 18b at VERSION 15.01 (see
 "18b" below) verified the 18a/18b boundary (18b's raw text opens
 "השחלין. קרש"ין", restating 18a's truncated final word) and fixed
-all 34 of 18b's entries in one pass, closing 18b entirely. No
+all 34 of 18b's entries in one pass, closing 18b entirely. A first
+sub-chunk of 19a at VERSION 15.02 (see "19a, vilnaLine 1-29" below)
+verified the 18b/19a boundary (19a's raw text opens "גמ' תנא ללמדו
+חפינה", restating 18b's trailing Gemara-section header) and fixed
+19a's vilnaLine 1-29 (19a has 58 entries, split in two); vilnaLine
+30-58 remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1541,6 +1546,51 @@ following on 19a.
 
 All 34 fixed entries carry real zero-padded `yoma-018b-lXX` ids.
 No deferrals. 18b is fully resolved, 34/34.
+
+## 19a, vilnaLine 1-29 (VERSION 15.02), first half of a two-part daf
+
+Verified the 18b/19a boundary first: 19a's raw talmud.dev Rashi text
+opens "גמ' תנא ללמדו חפינה. מוליכין אותו לבית אבטינס", restating the
+bare Gemara-section header that closed 18b - no regression, no
+change needed on 18b.
+
+19a has 58 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-29 here, vilnaLine 30-58 in a follow-up chunk. It has
+13 real Gemara lines (`yoma-019a-l01` through `l38`, including the
+split pair `l36a`/`l36b` for vilna line 36). An independent
+reconnaissance pass verified the DH segmentation against Sefaria's
+Rashi on Yoma 19a (28 comments, all matched verbatim), including
+the one genuinely order-sensitive anchor: the DH "לשכת הגולה"
+glosses the chamber list in `l11` (Sefaria 3.1), not the later
+elaboration in `l15`; `l15` and `l23` correctly receive no Rashi
+lines at all.
+
+vilnaLine 1 opens `l01` (the Gemara header and "to teach him the
+handful-scooping"). vilnaLine 2-5 open `l05` (the Parhedrin and
+Avtinas chamber glosses close within vilnaLine 2, whose newly
+opened DH "on its roof" belongs to `l05`; then the mesiba spiral
+and the ascent to the Parva roof). vilnaLine 6-9 open `l11` (the
+Golah chamber named for the returnees' cistern, "behind the two of
+them", and the level roof over all three). vilnaLine 10-13 open
+`l19` (the Fuel and Offering Gates - Rashi: "I do not know why they
+were so named" - and the Water Gate of the Festival libation per
+Shekalim 9b). vilnaLine 14-26 open `l25` (the ten sanctifications,
+"on that day" with the derivation at 32a, the Parva roof inside
+the sanctified courtyard, "except this one" with the year-round
+immersion rule of 30b against the Leviticus 16 sacred-place
+requirement, and "beside his chamber"). vilnaLine 27-28 open `l28`
+(it stands to reason Parhedrin was in the south, next to the
+weekday immersion house). vilnaLine 29 opens `l30` (the start of
+the "what is the reason? He rises early" comment).
+
+All 29 fixed entries carry real zero-padded `yoma-019a-lXX` ids
+(`l01`, `l05`, `l11`, `l19`, `l25`, `l28`, `l30`). No deferrals in
+this sub-chunk. vilnaLine 30-58 (the rest of the early-rising
+comment with the Etam spring aqueduct, the "if you say Parhedrin
+was north" counter-scenario, the Sadducee and haughtiness answers,
+the agency question on Rav Huna son of Rav Yehoshua, and the
+trailing catchword "הכי" whose DH continues on 19b) remain for the
+follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
