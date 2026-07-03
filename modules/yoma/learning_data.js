@@ -43279,12 +43279,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 30,
         he: "קאי כו'. כשהוא משכים לבקר כל",
-        en: "Rashi: 'rises early and covers his feet' - rises from bed in the north (hypothetically) and goes south to the Water Gate for immersion.",
+        en: "Rashi: continues - etc.' - when he rises early in the morning, all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l30"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43293,12 +43293,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 31,
         he: "שבעה עומד ממטתו: ומיסך רגליו",
-        en: "Rashi: 'and goes north' - after the south immersion, walks north to Beit Avtinas for incense practice.",
+        en: "Rashi: concludes - seven days, getting up from his bed. Then opens 'and covers his legs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l30"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43307,12 +43307,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 32,
         he: "וטובל. התם על גב שער המים",
-        en: "Rashi: 'and immerses and finishes the incense practice' - at Beit Avtinas (which is in the north, at least the northern section).",
+        en: "Rashi: continues - and immerses' - there, on top of the Water Gate,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l32"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43321,12 +43321,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 33,
         he: "שהיא על גבה בעובי החומה מתוקן",
-        en: "Rashi: 'goes to the Temple and does the service all day' - the seven-day service practice continues throughout the day.",
+        en: "Rashi: continues - above which, in the thickness of the wall, was fitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l32"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43335,12 +43335,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 34,
         he: "בית טבילת חול ומעיין משוך שם",
-        en: "Rashi: 'as we said at the beginning of the chapter' - referring back to the R. Akiva para aduma discussion from 14a-14b.",
+        en: "Rashi: continues - a weekday immersion house, with spring water drawn there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l32"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43349,12 +43349,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 35,
         he: "באמה מעין עיטם כדלקמן (דף כח.)",
-        en: "Rashi: 'goes south and immerses' - the evening purification sprinkling (from para aduma) makes the KG impure; he immerses at the Water Gate to restore purity.",
+        en: "Rashi: continues - by aqueduct from the Etam spring, as further ahead (28a);",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l32"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43363,12 +43363,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 36,
         he: "וכל המיסך רגליו טעון טבילה ליכנס",
-        en: "Rashi: 'and rests' - after the evening immersion, goes back to rest in the Parhedrin chamber (south if accepted).",
+        en: "Rashi: continues - and whoever covers his legs requires immersion to enter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l36"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43377,12 +43377,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 37,
         he: "בעזרה ואזיל לצפון ללשכתו השניה",
-        en: "Rashi: 'why not? For it is like him having two chambers close together' - if Parhedrin were in the south and Avtinas in the north, would it not be better to put both in the same area?",
+        en: "Rashi: continues - the courtyard; and he goes north to his second chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l36"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43391,12 +43391,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 38,
         he: "ללמוד חפינה ואתי לבית המקדש",
-        en: "Rashi: the agency question is introduced: when the KG or any kohen brings a sacrifice, are they God's agents or Israel's agents? This matters for forbidden-benefit scenarios.",
+        en: "Rashi: continues - to learn the handful-scooping, and comes to the Temple",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43405,12 +43405,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 39,
         he: "ועביד עבודה כוליה יומא כדתנן",
-        en: "Rashi: 'may it be said this is a refutation of Rav Huna?' - citing the mishna 'you are our agent' (the oath ceremony) as suggesting kohanim = Israel's agents.",
+        en: "Rashi: continues - and performs service all day, as we learned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43419,12 +43419,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 40,
         he: "(לעיל דף יד.) כל שבעת הימים הוא",
-        en: "Rashi: Rav Huna says kohanim are God's agents (shlichei shamayim) - hence even someone forbidden to benefit from the kohen can have his sacrifice offered.",
+        en: "Rashi: continues - (above, 14a): all seven days he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43433,12 +43433,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 41,
         he: "זורק את הדם וכו': לבהדי פניא מדו",
-        en: "Rashi: the practical case: someone took a vow forbidding benefit from a specific kohen - can that kohen still bring his sacrifice? Depends on agent-of-God vs agent-of-Israel.",
+        en: "Rashi: concludes - sprinkles the blood, etc. Then opens 'toward evening they sprinkle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43447,12 +43447,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 42,
         he: "עליה. כדאמרינן בריש פירקין: ואזיל",
-        en: "Rashi: 'shelichei shamayim ninhu' - they are Heaven's agents. In Rav Huna's view, the vow is irrelevant to the sacrifice.",
+        en: "Rashi: concludes - upon him' - as we say at the chapter's start. Then opens 'and he goes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43461,12 +43461,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 43,
         he: "לדרום וטבל. על שער המים כר\"ע",
-        en: "Rashi: 'the case: he is forbidden to benefit from him' - this is about nedarim (vows), not about priestly status.",
+        en: "Rashi: continues - south and immerses' - on the Water Gate, per Rabbi Akiva,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43475,12 +43475,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 44,
         he: "דאמר (שם) טהור שנפל עליו הזאה",
-        en: "Rashi: the case where the kohen made a vow against the offerer - can he still bring the sacrifice if he is God's agent (not personally acting for the offerer)?",
+        en: "Rashi: continues - who says (there) that a pure person on whom sprinkling fell",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43489,12 +43489,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 45,
         he: "טמאתו: ונייח. הולך ושוכב בלשכת",
-        en: "Rashi: 'does not receive benefit, only sanctifies the sacrifice' - if the kohen is God's agent, he is not 'serving' the offerer personally and the vow may not apply.",
+        en: "Rashi: concludes - is made impure by it. Then opens 'and rests' - he goes and lies down in the Parhedrin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43503,12 +43503,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 46,
         he: "פרהדרין אשר אצל בית הטבילה:",
-        en: "Rashi: transition to the oath ceremony at Beit Avtinas - 'let it be said the mishna is a refutation of Rav Huna' from the phrase 'you are our agent.'",
+        en: "Rashi: concludes - chamber, which is next to the immersion house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l30"
         ]
       },
       {
@@ -43517,12 +43517,12 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 47,
         he: "דאי אמרת לשכת פרהדרין. שהוא",
-        en: "Rashi: the oath says 'attah shluchenu' (you are our agent) - does this phrase prove the kohanim are Israel's agents, contradicting Rav Huna?",
+        en: "Rashi: opens 'for if you say the Parhedrin chamber' - where he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19a-l38"
+          "yoma-019a-l32"
         ]
       },
       {
@@ -43531,11 +43531,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 48,
         he: "ישן בה הויא בצפון ורחוקה מבית",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 48).",
+        en: "Rashi: continues - sleeps was in the north, far from the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l32"
+        ]
       },
       {
         id: "rashi-yoma-019a-049",
@@ -43543,11 +43545,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 49,
         he: "הטבילה הטרחתו כל העמל",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 49).",
+        en: "Rashi: continues - immersion house, you have burdened him with all this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l32"
+        ]
       },
       {
         id: "rashi-yoma-019a-050",
@@ -43555,11 +43559,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 50,
         he: "הזה: מקדים קאי ומיסך רגליו. כדרך",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 50).",
+        en: "Rashi: concludes - toil. Then opens 'he rises early and covers his legs' - in the way",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l32"
+        ]
       },
       {
         id: "rashi-yoma-019a-051",
@@ -43567,11 +43573,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 51,
         he: "כל המשכימין: ואזיל לדרום. לשער",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 51).",
+        en: "Rashi: concludes - of all early risers. Then opens 'and goes south' - to the Water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l32"
+        ]
       },
       {
         id: "rashi-yoma-019a-052",
@@ -43579,11 +43587,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 52,
         he: "המים: וטבל וגמר חפינה. התם",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 52).",
+        en: "Rashi: concludes - Gate. Then opens 'and immerses and finishes the handful-scooping' - there,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l32"
+        ]
       },
       {
         id: "rashi-yoma-019a-053",
@@ -43591,11 +43601,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 53,
         he: "בבית אבטינס אשר שם ואזיל לבית המקדש וכו': אלמה לא. קושיא היא כלומר וכי לא טוב לך להטריחו מטרחינן ליה מדעת דאי צדוקי הוא ואינו",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 53).",
+        en: "Rashi: concludes - in the House of Avtinas which is there, and goes to the Temple, etc. Then opens 'why not?' - it is a challenge, meaning: is it not good for you to burden him? We burden him deliberately, for if he is a Sadducee and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l36a"
+        ]
       },
       {
         id: "rashi-yoma-019a-054",
@@ -43603,11 +43615,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 54,
         he: "ירא שמים לקבל עליו טורח המקדש ליפרוש מן הכהונה גדולה ולא יקבלנה מתחילה וטוב לנו שהרי הן משנין את עבודה כדלקמן בשמעתין:",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 54).",
+        en: "Rashi: concludes - God-fearing enough to accept the Temple's toil, let him withdraw from the High Priesthood and not accept it in the first place; and that is good for us, since they change the service, as further on in our passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l36a"
+        ]
       },
       {
         id: "rashi-yoma-019a-055",
@@ -43615,11 +43629,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 55,
         he: "א\"נ. אפילו אדם כשר הוא טוב לנו להטריחו כדי שלא תזוח דעתו עליו להתגאות בכתר כהונה: דאי לא תימא הכי.  דלא בעינן לאטרוחיה",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 55).",
+        en: "Rashi: opens and closes 'alternatively' - even if he is a fit man, it is good for us to burden him so that his mind not swell to pride in the crown of priesthood. Then opens 'for if you do not say so' - that we do not want to burden him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l36b"
+        ]
       },
       {
         id: "rashi-yoma-019a-056",
@@ -43627,11 +43643,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 56,
         he: "ליעבד שתי לשכיותיו בהדי הדדי: לימא תיהוי. מתני' דקתני אתה שלוחנו תיובתא דרב הונא כו': הני כהני. בהקרבת קרבנותיו שלוחי",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 56).",
+        en: "Rashi: concludes - let his two chambers be made next to each other. Then opens and closes 'let us say it is' - that our mishna, which teaches 'you are our agent', refutes Rav Huna, etc. Then opens 'these priests' - in offering his sacrifices they are agents",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l38"
+        ]
       },
       {
         id: "rashi-yoma-019a-057",
@@ -43639,11 +43657,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 57,
         he: "דרחמנא נינהו ולא שלוחינו ונפקא מינה דאם הוא מודר הנאה ממנו מותר לו שיקריב עליו קרבנותיו כדתנן בנדרים (דף לה:):",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 57).",
+        en: "Rashi: concludes - of the Merciful One and not our agents; the practical difference is that if one is forbidden by vow to benefit from a priest, the priest may still offer his sacrifices for him, as we learned in Nedarim (35b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l38"
+        ]
       },
       {
         id: "rashi-yoma-019a-058",
@@ -43651,11 +43671,13 @@ const DAF_CONTENT = {
         daf: "19a",
         vilnaLine: 58,
         he: "הכי",
-        en: "Rashi: continued agency debate and Temple layout discussion (line 58).",
+        en: "Rashi: the daf's final truncated word - 'thus', the start of the dibbur hamatchil 'thus they say to him' whose text continues on 19b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019a-l38"
+        ]
       }
     ],
     review: {

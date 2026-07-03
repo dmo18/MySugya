@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.02: schema backfill is complete, the perek-level semantic
+As of VERSION 15.03: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -164,8 +164,11 @@ all 34 of 18b's entries in one pass, closing 18b entirely. A first
 sub-chunk of 19a at VERSION 15.02 (see "19a, vilnaLine 1-29" below)
 verified the 18b/19a boundary (19a's raw text opens "גמ' תנא ללמדו
 חפינה", restating 18b's trailing Gemara-section header) and fixed
-19a's vilnaLine 1-29 (19a has 58 entries, split in two); vilnaLine
-30-58 remain for a follow-up chunk. No
+19a's vilnaLine 1-29 (19a has 58 entries, split in two). A second
+sub-chunk at VERSION 15.03 (see "19a, vilnaLine 30-58" below) fixed
+the remaining 29 entries, closing 19a entirely (58/58 resolved),
+including 11 entries that previously had empty linkedGemaraLineIds.
+No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1591,6 +1594,40 @@ was north" counter-scenario, the Sadducee and haughtiness answers,
 the agency question on Rav Huna son of Rav Yehoshua, and the
 trailing catchword "הכי" whose DH continues on 19b) remain for the
 follow-up chunk.
+
+## 19a, vilnaLine 30-58 (VERSION 15.03), second half, closing 19a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 30-46
+continue `l30` (the long "what is the reason" comment: rising early
+all seven days, the weekday immersion house fitted in the wall's
+thickness above the Water Gate with spring water drawn by aqueduct
+from the Etam spring, the rule that covering one's legs requires
+immersion before entering the courtyard, the walk north to learn
+the handful-scooping and the all-day service per 14a, the dusk
+sprinkling per Rabbi Akiva's view that sprinkling renders the pure
+impure, and "and rests" in the Parhedrin chamber beside the
+immersion house). vilnaLine 47-52 open `l32` (the
+counter-scenario: if Parhedrin were in the north, the toil of the
+south-north-south circuit, with the sub-DHs on rising early, going
+south, and immersing and finishing the handful-scooping in the
+House of Avtinas). vilnaLine 53-54 open `l36a` ("why not?" - we
+burden him deliberately, so that a Sadducee not God-fearing enough
+would withdraw before accepting the office, which serves us since
+they change the service). vilnaLine 55 opens `l36b`
+("alternatively", so his mind not swell with pride; and "if you do
+not say so", the two chambers should be adjacent). vilnaLine 56-57
+open `l38` ("let us say it refutes Rav Huna" and "these priests"
+are agents of the Merciful One, with the Nedarim 35b vow
+consequence). vilnaLine 58 is the daf's final truncated word
+"הכי", linked to `l38` (19a's own final line, whose sentence the
+19b continuation answers); 19b's raw text was confirmed to open
+"הכי קאמרי ליה", the standard boundary pattern.
+
+This sub-chunk also repaired vilnaLine 48-58, which previously had
+empty `linkedGemaraLineIds` and stub text, and replaced entries
+whose ids pointed at a nonexistent unsplit `l36`. All 29 fixed
+entries carry real zero-padded `yoma-019a-lXX` ids (`l30`, `l32`,
+`l36a`, `l36b`, `l38`). No deferrals. 19a is fully resolved, 58/58.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

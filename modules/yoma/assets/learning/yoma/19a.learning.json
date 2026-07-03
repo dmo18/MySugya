@@ -574,7 +574,7 @@
       "en": "Agents of Heaven - one position on kohanim's status: they act for God, not for the individual offerer."
     }
   ],
-    "rashiTranslations": [
+      "rashiTranslations": [
     {
       "vilnaLine": 1,
       "en": "Rashi: the Gemara section opens 'it was taught: to teach him the handful-scooping' - they take him to the House of Avtinas, where the incense is",
@@ -780,194 +780,205 @@
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: 'rises early and covers his feet' - rises from bed in the north (hypothetically) and goes south to the Water Gate for immersion.",
+      "en": "Rashi: continues - etc.' - when he rises early in the morning, all",
       "linkedGemaraLineIds": [
-        "yoma-19a-l30"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: 'and goes north' - after the south immersion, walks north to Beit Avtinas for incense practice.",
+      "en": "Rashi: concludes - seven days, getting up from his bed. Then opens 'and covers his legs",
       "linkedGemaraLineIds": [
-        "yoma-19a-l30"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: 'and immerses and finishes the incense practice' - at Beit Avtinas (which is in the north, at least the northern section).",
+      "en": "Rashi: continues - and immerses' - there, on top of the Water Gate,",
       "linkedGemaraLineIds": [
-        "yoma-19a-l32"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: 'goes to the Temple and does the service all day' - the seven-day service practice continues throughout the day.",
+      "en": "Rashi: continues - above which, in the thickness of the wall, was fitted",
       "linkedGemaraLineIds": [
-        "yoma-19a-l32"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: 'as we said at the beginning of the chapter' - referring back to the R. Akiva para aduma discussion from 14a-14b.",
+      "en": "Rashi: continues - a weekday immersion house, with spring water drawn there",
       "linkedGemaraLineIds": [
-        "yoma-19a-l32"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: 'goes south and immerses' - the evening purification sprinkling (from para aduma) makes the KG impure; he immerses at the Water Gate to restore purity.",
+      "en": "Rashi: continues - by aqueduct from the Etam spring, as further ahead (28a);",
       "linkedGemaraLineIds": [
-        "yoma-19a-l32"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: 'and rests' - after the evening immersion, goes back to rest in the Parhedrin chamber (south if accepted).",
+      "en": "Rashi: continues - and whoever covers his legs requires immersion to enter",
       "linkedGemaraLineIds": [
-        "yoma-19a-l36"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: 'why not? For it is like him having two chambers close together' - if Parhedrin were in the south and Avtinas in the north, would it not be better to put both in the same area?",
+      "en": "Rashi: continues - the courtyard; and he goes north to his second chamber",
       "linkedGemaraLineIds": [
-        "yoma-19a-l36"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: the agency question is introduced: when the KG or any kohen brings a sacrifice, are they God's agents or Israel's agents? This matters for forbidden-benefit scenarios.",
+      "en": "Rashi: continues - to learn the handful-scooping, and comes to the Temple",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: 'may it be said this is a refutation of Rav Huna?' - citing the mishna 'you are our agent' (the oath ceremony) as suggesting kohanim = Israel's agents.",
+      "en": "Rashi: continues - and performs service all day, as we learned",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: Rav Huna says kohanim are God's agents (shlichei shamayim) - hence even someone forbidden to benefit from the kohen can have his sacrifice offered.",
+      "en": "Rashi: continues - (above, 14a): all seven days he",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: the practical case: someone took a vow forbidding benefit from a specific kohen - can that kohen still bring his sacrifice? Depends on agent-of-God vs agent-of-Israel.",
+      "en": "Rashi: concludes - sprinkles the blood, etc. Then opens 'toward evening they sprinkle",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: 'shelichei shamayim ninhu' - they are Heaven's agents. In Rav Huna's view, the vow is irrelevant to the sacrifice.",
+      "en": "Rashi: concludes - upon him' - as we say at the chapter's start. Then opens 'and he goes",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: 'the case: he is forbidden to benefit from him' - this is about nedarim (vows), not about priestly status.",
+      "en": "Rashi: continues - south and immerses' - on the Water Gate, per Rabbi Akiva,",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: the case where the kohen made a vow against the offerer - can he still bring the sacrifice if he is God's agent (not personally acting for the offerer)?",
+      "en": "Rashi: continues - who says (there) that a pure person on whom sprinkling fell",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: 'does not receive benefit, only sanctifies the sacrifice' - if the kohen is God's agent, he is not 'serving' the offerer personally and the vow may not apply.",
+      "en": "Rashi: concludes - is made impure by it. Then opens 'and rests' - he goes and lies down in the Parhedrin",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: transition to the oath ceremony at Beit Avtinas - 'let it be said the mishna is a refutation of Rav Huna' from the phrase 'you are our agent.'",
+      "en": "Rashi: concludes - chamber, which is next to the immersion house",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l30"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: the oath says 'attah shluchenu' (you are our agent) - does this phrase prove the kohanim are Israel's agents, contradicting Rav Huna?",
+      "en": "Rashi: opens 'for if you say the Parhedrin chamber' - where he",
       "linkedGemaraLineIds": [
-        "yoma-19a-l38"
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 48).",
+      "en": "Rashi: continues - sleeps was in the north, far from the",
       "linkedGemaraLineIds": [
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 49).",
+      "en": "Rashi: continues - immersion house, you have burdened him with all this",
       "linkedGemaraLineIds": [
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 50).",
+      "en": "Rashi: concludes - toil. Then opens 'he rises early and covers his legs' - in the way",
       "linkedGemaraLineIds": [
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 51).",
+      "en": "Rashi: concludes - of all early risers. Then opens 'and goes south' - to the Water",
       "linkedGemaraLineIds": [
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 52).",
+      "en": "Rashi: concludes - Gate. Then opens 'and immerses and finishes the handful-scooping' - there,",
       "linkedGemaraLineIds": [
+        "yoma-019a-l32"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 53).",
+      "en": "Rashi: concludes - in the House of Avtinas which is there, and goes to the Temple, etc. Then opens 'why not?' - it is a challenge, meaning: is it not good for you to burden him? We burden him deliberately, for if he is a Sadducee and not",
       "linkedGemaraLineIds": [
+        "yoma-019a-l36a"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 54).",
+      "en": "Rashi: concludes - God-fearing enough to accept the Temple's toil, let him withdraw from the High Priesthood and not accept it in the first place; and that is good for us, since they change the service, as further on in our passage",
       "linkedGemaraLineIds": [
+        "yoma-019a-l36a"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 55).",
+      "en": "Rashi: opens and closes 'alternatively' - even if he is a fit man, it is good for us to burden him so that his mind not swell to pride in the crown of priesthood. Then opens 'for if you do not say so' - that we do not want to burden him,",
       "linkedGemaraLineIds": [
+        "yoma-019a-l36b"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 56).",
+      "en": "Rashi: concludes - let his two chambers be made next to each other. Then opens and closes 'let us say it is' - that our mishna, which teaches 'you are our agent', refutes Rav Huna, etc. Then opens 'these priests' - in offering his sacrifices they are agents",
       "linkedGemaraLineIds": [
+        "yoma-019a-l38"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 57).",
+      "en": "Rashi: concludes - of the Merciful One and not our agents; the practical difference is that if one is forbidden by vow to benefit from a priest, the priest may still offer his sacrifices for him, as we learned in Nedarim (35b)",
       "linkedGemaraLineIds": [
+        "yoma-019a-l38"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: continued agency debate and Temple layout discussion (line 58).",
+      "en": "Rashi: the daf's final truncated word - 'thus', the start of the dibbur hamatchil 'thus they say to him' whose text continues on 19b",
       "linkedGemaraLineIds": [
+        "yoma-019a-l38"
       ]
     }
   ]
