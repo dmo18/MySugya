@@ -47906,7 +47906,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 1,
         he: "וי\"א אף רידייא. מלאך הממונה על השקות הארץ ממטר השמים",
-        en: "A baraita was taught like R. Sheila - the rooster's call, as Ezra uses gever to mean the bird.",
+        en: "Rashi: opens 'and some say, also the irrigation angel' - the angel appointed over irrigating the earth from the rain of heaven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -47920,12 +47920,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 2,
         he: "ממעל ומן התהום מתחת וקורא להן שנאמר תהום אל תהום קורא",
-        en: "What is Ridya? An angelic being described in Ezekiel.",
+        en: "Rashi: continues - from above and from the deep below, and it calls to them, as it is stated: deep calls unto deep,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l01"
         ]
       },
       {
@@ -47934,12 +47934,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 3,
         he: "כדאמרי' במס' [תענית דף כד. ודף כה:] ואמרינן התם דדמי לעגלא",
-        en: "Like a young heifer with a split face - its hollow face draws down water from above.",
+        en: "Rashi: continues - as is said in tractate Taanit (24a and 25b), and we say there that it resembles a calf,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l01"
         ]
       },
       {
@@ -47948,12 +47948,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 4,
         he: "ולכך נקרא רידייא לשון שור החורש מתרגמינן לא תחרוש לא תירדי",
-        en: "Standing between upper and lower waters - mediating between the two great bodies of water.",
+        en: "Rashi: continues - and therefore it is called ridya, a term for a plowing ox; we translate 'you shall not plow' as 'lo teirdei,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l01"
         ]
       },
       {
@@ -47962,7 +47962,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 5,
         he: "(דברים כב) : כוותיה דר' שילא.",
-        en: "Ridya runs (radi) - its name comes from the Aramaic for running, since rain runs down.",
+        en: "Rashi: concludes - citing Deuteronomy 22. Then opens 'in accordance with Rabbi Sheila' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -47976,12 +47976,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 6,
         he: "דאמר קרות הגבר קרא תרנגולא:",
-        en: "Five things were never seen in the Temple - the baraita of five ongoing miracles.",
+        en: "Rashi: concludes - who said that keriat hagever means the crowing of the rooster.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l03"
         ]
       },
       {
@@ -47990,12 +47990,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 7,
         he: "היוצא יחידי לדרך דמו בראשו.",
-        en: "Commentary on the five miracles.",
+        en: "Rashi: opens 'one who sets out alone on the road, his blood is on his own head' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l03"
         ]
       },
       {
@@ -48004,12 +48004,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 8,
         he: "מפני המזיקין: דמו בראשו. עון",
-        en: "Commentary on the list structure.",
+        en: "Rashi: concludes - because of the demons. Then opens 'his blood is on his own head' - the guilt",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l03"
         ]
       },
       {
@@ -48018,12 +48018,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 9,
         he: "מותו על ראשו מוטל שהוא המית",
-        en: "Commentary on the Temple miracles enumeration.",
+        en: "Rashi: continues - of his death rests on his own head, for he killed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l03"
         ]
       },
       {
@@ -48032,12 +48032,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 10,
         he: "עצמו: בתרנגול בינוני. שאינו ממהר",
-        en: "Commentary on the prostration miracle setup.",
+        en: "Rashi: concludes - himself. Then opens 'a middling rooster' - one that neither hurries",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l03"
         ]
       },
       {
@@ -48046,12 +48046,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 11,
         he: "קריאתו ולא מאחר: צפופים. לשון",
-        en: "Commentary on the crowds and the space.",
+        en: "Rashi: concludes - its call nor delays it. Then opens 'packed' - a term of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48060,12 +48060,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 12,
         he: "צף מרוב העם היו נדחקים איש",
-        en: "Commentary on the 4-amot requirement for prostration.",
+        en: "Rashi: continues - rising (tzaf), from the multitude of people they were pressed, each man",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48074,12 +48074,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 13,
         he: "באחיו ואין לו מקום לנטות על צדו",
-        en: "Commentary on the miracle of space appearing.",
+        en: "Rashi: continues - against his brother, with no room to lean to his side,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48088,12 +48088,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 14,
         he: "לכאן ולכאן וזקוף כקורה אף רגליו",
-        en: "The prostration miracle: they stood packed, yet had space to bow.",
+        en: "Rashi: continues - this way or that, and stood upright like a beam, even his feet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48102,12 +48102,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 15,
         he: "ניטלים מעל הארץ: משתחוים רווחים.",
-        en: "Commentary on the packed courtyard.",
+        en: "Rashi: concludes - were lifted off the ground. Then opens 'they prostrated themselves spaciously' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48116,12 +48116,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 16,
         he: "וכשמשתחוים ונופלים נעשה להם נס",
-        en: "Commentary on the 4-amot per person.",
+        en: "Rashi: continues - and when they prostrated and fell, a miracle occurred for them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48130,12 +48130,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 17,
         he: "והמקום מרחיב עד שיש ביניהן ארבע",
-        en: "Commentary on the Yom Kippur prostration.",
+        en: "Rashi: continues - and the place widened until there were four",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48144,12 +48144,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 18,
         he: "אמות שלא ישמע איש וידוי של חבירו",
-        en: "Commentary on the meaning of space miracle.",
+        en: "Rashi: continues - cubits between them, so that no man would hear his fellow's confession,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48158,12 +48158,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 19,
         he: "שלא יכלם: נמשכין אחת עשרה אמה",
-        en: "Commentary on the biblical source for the miracle.",
+        en: "Rashi: concludes - so as not to shame him. Then opens 'they extended eleven cubits'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48172,12 +48172,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 20,
         he: "אחורי בית הכפורת. נמשכין מתוך",
-        en: "Commentary on the comparison to the Ark's zero space.",
+        en: "Rashi: continues DH - behind the place of atonement. Then the comment - they extended, out of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48186,12 +48186,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 21,
         he: "דוחקן ומתפזרין על פני אורך כל",
-        en: "Commentary on the continuation of the miracle list.",
+        en: "Rashi: continues - their pressing, and dispersed over the whole length",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l22"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48200,12 +48200,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 22,
         he: "י\"א אמה של מקום דריסת רגלי",
-        en: "No snake or scorpion ever harmed in Jerusalem.",
+        en: "Rashi: continues - of the eleven cubits where the feet of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l22"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48214,12 +48214,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 23,
         he: "ישראל לצפון ולדרום ויוצאין ממקום",
-        en: "Commentary on the safety miracle.",
+        en: "Rashi: continues - Israel trod, to the north and south, and went out from the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l22"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48228,12 +48228,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 24,
         he: "דריסת רגליהם ונכנסין דרך בית",
-        en: "Commentary on the range of the miracle (all of Jerusalem).",
+        en: "Rashi: continues - their feet trod, and entered through the passage of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l22"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48242,12 +48242,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 25,
         he: "החליפות בין צידי ההיכל לכותלי",
-        en: "Commentary on the snake-scorpion miracle and its limits.",
+        en: "Rashi: continues - the Chalifot, between the sides of the Sanctuary and the walls of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l22"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48256,12 +48256,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 26,
         he: "העזרה לצפון ולדרום ומשם נכנסין",
-        en: "Commentary on the no-lodging-refused miracle.",
+        en: "Rashi: continues - the courtyard, to north and south, and from there entered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l27"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48270,12 +48270,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 27,
         he: "למערב באחת עשרה אמה שיש אויר",
-        en: "No one said 'I have no room in Jerusalem' - despite hundreds of thousands.",
+        en: "Rashi: continues - westward, within the eleven cubits of open airspace",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l27"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48284,12 +48284,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 28,
         he: "אחורי בית הכפורת עד כותל מערבי",
-        en: "Commentary on the overnight lodging miracle.",
+        en: "Rashi: continues - behind the place of atonement, up to the western wall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l27"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48298,12 +48298,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 29,
         he: "של עזרה כדתנן במסכת מדות (פ\"ה",
-        en: "The rain did not extinguish the altar fire.",
+        en: "Rashi: continues - of the courtyard, as we learned in tractate Middot (chapter 5,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l29"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48312,12 +48312,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 30,
         he: "משנה א) ואמרינן לה לעיל בפרקין",
-        en: "Commentary on the altar fire miracle.",
+        en: "Rashi: continues - mishna 1), and we stated it above in our chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l29"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48326,12 +48326,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 31,
         he: "(דף טז:): מאי קאמר. מאחר",
-        en: "Commentary on the perpetual fire outdoors.",
+        en: "Rashi: concludes - (16b). Then opens 'what does it mean' - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l29"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48340,12 +48340,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 32,
         he: "שמשתחוים רווחים ונתרווח המקום",
-        en: "The smoke from the altar rose straight up regardless of wind.",
+        en: "Rashi: continues - they prostrated spaciously and the place widened",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l32"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48354,12 +48354,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 33,
         he: "על ידי הנס אתה מזקיקו לימשך",
-        en: "Commentary on the smoke direction miracle.",
+        en: "Rashi: continues - through the miracle, so you require it to extend",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l32"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48368,12 +48368,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 34,
         he: "ולהתפשט אחורי בית הכפורת: הכי",
-        en: "Commentary on the significance of straight smoke.",
+        en: "Rashi: concludes - and spread out behind the place of atonement. Then opens 'thus'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48382,12 +48382,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 35,
         he: "קאמר כו'. האי ונמשכים אחורי כו'",
-        en: "Commentary on divine acceptance signaled by straight smoke.",
+        en: "Rashi: continues DH - he says, etc. This 'and they extend behind,' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48396,12 +48396,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 36,
         he: "ארישא קאי קודם השתחואה והכי",
-        en: "Commentary on the wind and the miracle.",
+        en: "Rashi: continues - refers back to before the prostration, and thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48410,12 +48410,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 37,
         he: "קאמר אע\"פ שנמשכין אחורי הכפורת",
-        en: "Commentary on the conclusion of the five miracles.",
+        en: "Rashi: continues - it means: even though they extend behind the place of atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48424,7 +48424,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 38,
         he: "והיו צריכין לעמוד צפופים מרוב",
-        en: "Commentary on the baraita's structure.",
+        en: "Rashi: continues - and needed to stand packed from the crush",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -48438,12 +48438,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 39,
         he: "דוחקן אפילו הכי כשהיו כולם",
-        en: "Commentary on the transition from the keriat hagever discussion.",
+        en: "Rashi: continues - of their pressing, nevertheless when they all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l01"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48452,7 +48452,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 40,
         he: "משתחוים באים למזרח המזבח מתוך",
-        en: "Commentary on how these five miracles relate to chapter 2.",
+        en: "Rashi: continues - prostrated, they came to the east of the altar, out from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -48466,12 +48466,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 41,
         he: "העזרה ומשתחוים לפני ההיכל ובריוח:",
-        en: "Commentary on the Ark's miraculous space.",
+        en: "Rashi: concludes - the courtyard, and prostrated before the Sanctuary with room to spare.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l06"
         ]
       },
       {
@@ -48480,7 +48480,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 42,
         he: "לא הפילה אשה. עוברה שנתאותה",
-        en: "Commentary on the link between space and divine presence.",
+        en: "Rashi: opens 'no woman miscarried' - her unborn child, when she craved",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -48494,12 +48494,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 43,
         he: "לאכול מבשר הצלי כשמעלה ריח:",
-        en: "Commentary on the closing of the miracle section.",
+        en: "Rashi: concludes - to eat from the roasted sacrificial meat as its aroma rose.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48508,12 +48508,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 44,
         he: "בבית המטבחים. של עזרה: ולא",
-        en: "Commentary on the transition to 21b.",
+        en: "Rashi: opens and closes 'in the slaughterhouse' - of the courtyard. Then opens 'and no'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48522,12 +48522,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 45,
         he: "נמצא פסול בעומר. שאם יארע בו",
-        en: "Commentary on the continuation.",
+        en: "Rashi: continues DH - disqualification was found in the omer. Comment: for if a disqualification occurred in it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48536,12 +48536,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 46,
         he: "פסול אין אחר להביא תחתיו שהוא",
-        en: "Commentary on the theological significance.",
+        en: "Rashi: continues - there was no other omer to bring in its place, since it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48550,12 +48550,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 47,
         he: "נקצר בליל מוצאי י\"ט ואין מרבין",
-        en: "Commentary on miracle as ongoing feature.",
+        en: "Rashi: continues - was harvested on the night after the festival, and they did not harvest more",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48564,12 +48564,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 48,
         he: "לקצור אלא כפי השיעור של עשרון מנופה בי\"ג נפה וכן שתי הלחם נאפין מערב י\"ט ואין אפייתן דוחה יום טוב ואם יפסל לא יאפו אחרת",
-        en: "Commentary on the closing observation.",
+        en: "Rashi: continues - than the measure of a tenth-ephah sifted through thirteen sieves; and likewise the two loaves are baked on the eve of the festival, and their baking does not override the festival, so if disqualified they could not bake a replacement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l34"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48578,12 +48578,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 49,
         he: "בי\"ט וכן לחם הפנים שנאפה מע\"ש ואם יפסל אין חילוף והשלחן עומד ריקם עד שבת הבאה: צר לי המקום. מזונותי דחוקים דירתי",
-        en: "Commentary on the divine presence sustaining these miracles.",
+        en: "Rashi: concludes - on the festival, and likewise the showbread, baked on the eve of Shabbat, has no replacement if disqualified, leaving the table empty until the next Shabbat. Then opens 'the place is too cramped for me' - my sustenance is constrained, my dwelling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l14"
         ]
       },
       {
@@ -48592,12 +48592,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 50,
         he: "דחוקה: בקלנבו. שם מקום: שברי כלי חרס. שמבשלים בהן קדשי קדשים ובליעתן נאסרת משום נותר וטעונין שבירה כדכתיב (ויקרא ו)",
-        en: "Commentary on the verse sources for the miracles.",
+        en: "Rashi: concludes - is cramped. Then opens and closes 'in Kalanevo' - a place name. Then opens 'broken earthenware vessels' - in which offerings of the most sacred order were cooked; their absorption becomes forbidden as leftover (notar), requiring the vessel to be broken, as it is written (Leviticus 6),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l27"
         ]
       },
       {
@@ -48606,12 +48606,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 51,
         he: "וכלי חרש אשר תבושל בו ישבר ושבירתו במקום קדוש כדאמרי' התם בזבחים בפרק דם חטאת (דף צג:) ואם אין נבלעין נמצאו אשפתות",
-        en: "Commentary on the five-miracle framework.",
+        en: "Rashi: continues - 'and the earthen vessel in which it was cooked shall be broken'; its breaking takes place in a sacred spot, as stated there in Zevachim, chapter Dam Chatat (93b), and if they did not absorb it there would be heaps of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l27"
         ]
       },
       {
@@ -48620,12 +48620,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 52,
         he: "של שברים בעזרה: מוראה ונוצה. של עולת העוף: ודישון מזבח הפנימי ודישון המנורה. בכל בקר נותנן עם תרומת הדשן במזרח של",
-        en: "Commentary on the connection to pilgrimage.",
+        en: "Rashi: concludes - shards in the courtyard. Then opens and closes 'crop and feathers' - of the bird burnt offering. Then opens 'the ash removal of the inner altar and of the candelabrum' - every morning they place them with the removal of the ash, on the east side of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l27"
         ]
       },
       {
@@ -48634,12 +48634,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 53,
         he: "כבש כדתנן גבי תרומת הדשן (תמיד פ\"א משנה ד) הגיע לרצפה הפך פניו לצפון והולך במזרחו של כבש כעשר אמות מקום שנותנין",
-        en: "Commentary on the closing of chapter 2 introduction.",
+        en: "Rashi: continues - the ramp, as we learned regarding the removal of the ash (Tamid 1:4): when he reached the floor he turned his face north and walked along the east side of the ramp about ten cubits, the place where they placed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l27"
         ]
       },
       {
@@ -48648,12 +48648,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 54,
         he: "שם מוראה ונוצה ודישון מזבח הפנימי והמנורה וקרא נמי דמוראה ונוצה הכי כתיב והשליך אותה אצל המזבח קדמה אל מקום הדשן (ויקרא א) :",
-        en: "Commentary on the smoke miracle's theological meaning.",
+        en: "Rashi: concludes - the crop and feathers there, along with the ash removal of the inner altar and candelabrum; and the verse on crop and feathers likewise states: 'and he shall cast it beside the altar, on the east side, to the place of the ashes' (Leviticus 1).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l32"
+          "yoma-021a-l27"
         ]
       },
       {
@@ -48662,7 +48662,7 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 55,
         he: "פסולי תלתא הוו. פסול עומר ושתי הלחם ולחם הפנים תלת ניסי חשבתינהו: בלועין תרי הוו. דשברי כלי חרס הוה חד ומוראה ונוצה",
-        en: "Commentary on rain vs. fire on the altar.",
+        en: "Rashi: opens and closes 'there were three disqualification-related [miracles]' - the disqualification of the omer, the two loaves, and the showbread, counted as three miracles. Then opens 'the absorption-related ones were two' - since broken earthenware vessels was one, and crop and feathers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -48676,12 +48676,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 56,
         he: "וכל הניתנים שם חד הוה: סילוקו כסידורו. כשמסלקין אותו עדיין הוא חם: חום ביום הלקחו. שהוא חם ביום שנלקח משם והאי קרא",
-        en: "Commentary on pilgrims in the azara.",
+        en: "Rashi: concludes - along with everything else placed there counted as the second. Then opens and closes 'its removal was like its arrangement' - when they removed it, it was still hot. Then opens 'hot on the day it was taken' - that it was hot on the day it was taken from there, and this verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l27"
+          "yoma-021a-l29"
         ]
       },
       {
@@ -48690,12 +48690,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 57,
         he: "בלחם הפנים כתיב בספר שמואל: מקום ארון אינו מן המדה. אינו תופס למעט ממדת החלל של בית כלום דתניא ארון שעשה משה",
-        en: "Commentary on the first miracle's details.",
+        en: "Rashi: concludes - about the showbread is written in the book of Samuel. Then opens 'the place of the Ark was not included in the measurement' - it did not occupy space to diminish the measure of the chamber's interior at all, as it was taught: the Ark that Moses made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l14"
+          "yoma-021a-l32"
         ]
       },
       {
@@ -48704,12 +48704,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 58,
         he: "יש לו עשר אמות אויר לכל רוח כשניתן באמצע בית הכפורת והרי כל החלל לא היה אלא כ' על כ' שנאמר (מלכים א ו) ולפני הדביר",
-        en: "Commentary on the baraita's ending.",
+        en: "Rashi: continues - had ten cubits of airspace on every side when placed in the middle of the place of atonement, and the entire chamber was only twenty by twenty, as it says (I Kings 6): 'and before the Sanctuary'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l06"
+          "yoma-021a-l32"
         ]
       },
       {
@@ -48718,12 +48718,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 59,
         he: "עשרים אמה אורך ועשרים אמה רוחב נמצא שאין מקום הארון ממעט כלום: כרובין בנס היו עומדין. גופי הכרובים שעשה שלמה עומדין",
-        en: "Commentary on the Ridya transition.",
+        en: "Rashi: concludes - twenty cubits long and twenty cubits wide, so the place of the Ark diminished nothing. Then opens 'the Cherubs stood by a miracle' - the bodies of the Cherubs that Solomon made stood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l32"
         ]
       },
       {
@@ -48732,12 +48732,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 60,
         he: "בארץ אצל ארון אחד בצפון ואחד בדרום (שם) ובכנפיהם עשרים אמה פרושות מקיר אל קיר כדכתיב כנף הכרוב חמש אמות נמצאו הכנפים",
-        en: "Commentary on Ridya's description.",
+        en: "Rashi: continues - on the ground beside the Ark, one to the north and one to the south (ibid.), their wings spread twenty cubits from wall to wall, as it is written that the Cherub's wing was five cubits, so the wings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l32"
         ]
       },
       {
@@ -48746,12 +48746,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 61,
         he: "מחזיקים את כל החלל נמצא עובי הגוף אינו מן המדה: דבראי. מבחוץ בעזרה נסים הידועים לכל: מכלל שהוא טמא. שמקבל טומאה:",
-        en: "Commentary on the cosmic water system.",
+        en: "Rashi: concludes - occupied the entire chamber's space, so the thickness of the bodies was not included in the measurement. Then opens and closes 'external ones' - outside, in the courtyard, miracles known to all. Then opens 'implying that it is impure' - meaning it is susceptible to impurity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l34"
         ]
       },
       {
@@ -48760,12 +48760,12 @@ const DAF_CONTENT = {
         daf: "21a",
         vilnaLine: 62,
         he: "עשוי",
-        en: "Commentary on the closing of the Ridya section.",
+        en: "Rashi: the daf's final truncated word - 'made' (asuy), continuing the dibbur hamatchil 'implying that it is impure' whose explanation continues on 21b, elaborating on why calling the table pure implies an impure counterpart exists. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though that line's own text ends before this closing clarification.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-021a-l03"
+          "yoma-021a-l34"
         ]
       }
     ],

@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.10: schema backfill is complete, the perek-level semantic
+As of VERSION 15.11: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -193,7 +193,14 @@ policy decision on cross-daf boundary anchoring. A dedicated policy
 pass at VERSION 15.10 (see "Cross-daf Rashi boundary link policy"
 below) reviewed the corpus precedent, reversed the vilnaLine 62
 deferral, and linked it per the established convention, closing 20b
-entirely (62/62 resolved). No
+entirely (62/62 resolved). At VERSION 15.11 (see "21a, full daf"
+below) a fast alignment run verified the 20b/21a boundary read-only
+(21a's raw Rashi opens "וי\"א אף רידייא", the full DH continuing
+20b's truncated final word, exactly as the boundary policy pass
+concluded) and fixed all 62 of 21a's entries in two sub-chunks,
+replacing generic descriptive-style placeholder text with real
+translations and correcting every linkedGemaraLineIds value, closing
+21a entirely (62/62 resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1951,6 +1958,59 @@ clause the Rashi entry glosses. This matches the positional pattern
 of every other resolved boundary case and closes the deferral opened
 in the "20b, vilnaLine 32-62" section above without requiring any
 edit to 21a.
+
+## 21a, full daf (VERSION 15.11), two sub-chunks, closing 21a entirely
+
+A fast alignment run resumed from 21a following the boundary policy
+pass above. Before any edit, the 20b/21a boundary was re-verified
+read-only: 21a's raw Rashi column opens with the full dibbur
+hamatchil "וי\"א אף רידייא. מלאך הממונה על השקות הארץ..." (and some
+say, also the irrigation angel - the angel appointed over irrigating
+the earth), the exact continuation of 20b's truncated final catchword
+"וי\"א", confirming the boundary decision was correct and requiring
+no change to either file.
+
+21a's Gemara side has 9 real captured lines (`l01`, `l03`, `l06`,
+`l14`, `l22`, `l27`, `l29`, `l32`, `l34`) against 37 raw print lines,
+and its Rashi side has 62 raw print lines carrying entirely
+generic, placeholder-style `en` text ("Commentary on the five
+miracles," "Commentary on the list structure," "Commentary on the
+cosmic water system") with `linkedGemaraLineIds` uniformly pointing
+at whichever of `l01`/`l03`/`l06` happened to be nearby, regardless
+of actual content - the same descriptive-style failure pattern
+documented in the systemic finding below, not yet previously
+verified for this daf.
+
+All 62 raw Rashi print lines were read against the raw Gemara text
+and the 9 real captured line ids, and each vilnaLine's dibbur
+hamatchil was identified and matched to the real Gemara line whose
+content it actually glosses, using the same multi-DH rule as prior
+daf (a raw print line that both closes one comment and opens another
+is assigned to the last-opened DH). The correspondence: vilnaLine
+1-4 (the Ridya passage) to `l01`; 5-10 (Rabbi Sheila's baraita on
+keriat hagever) to `l03`; 11-41 (the packed-yet-spacious prostration
+miracle and the eleven-cubit movement mechanics) to `l06`; 42-49
+(the omer/two loaves/showbread and "the place is cramped" items from
+the ten-miracles list) to `l14`; 50-54 (broken vessels, crop and
+feathers, ash removal) to `l27`; 55-56 (the three-disqualification
+and two-absorption count, the showbread's timing) to `l29`; 57-60
+(the Ark's space and the Cherubs' miraculous wingspan) to `l32`;
+61-62 (the "external miracles" summary and the pure/impure table
+inference) to `l34`. `l22` (the fire/rain and smoke miracles) has
+no dedicated Rashi comment in this daf's column and legitimately
+carries no vilnaLine.
+
+vilnaLine 62, the daf's final truncated word "עשוי" (made), is the
+same kind of boundary case as 20b's vilnaLine 62: per the policy
+above, it is linked to `yoma-021a-l34`, 21a's own final locally
+captured Gemara line, even though the DH it belongs to ("מכלל שהוא
+טמא") continues its explanation onto 21b. No edit was made to 21b.
+
+All 62 entries were fixed across two sub-chunks (vilnaLine 1-31,
+then 32-62, since the daf exceeds the 40-entry split threshold).
+21a is fully resolved, 62/62, with real translations replacing every
+generic placeholder and every linkedGemaraLineIds value corrected to
+its real zero-padded `yoma-021a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
