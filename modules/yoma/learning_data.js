@@ -39602,12 +39602,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 1,
         he: "אי אמרת בשלמא. תנא דתמיד גופיה דתני לשכת הטלאים",
-        en: "Rashi: 'if you grant' - this is the opening of the confirmation argument for the SW corner (against Rav Adda's west-wall theory).",
+        en: "Rashi: opens 'if you say granted', completing the word begun on 17a - the tanna of Tamid himself, who taught the Chamber of the Lambs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l01"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39616,12 +39616,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 2,
         he: "בצפונית מערבית מודי הוא דלצד מערבית דרומית הואי טפי אלא",
-        en: "Rashi: the Tamid tanna himself would agree that the chamber was closer to the SW than the NW, but described it from his southward approach as NW.",
+        en: "Rashi: continues - in the northwest, concedes that it lay more toward the southwest; only that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l01"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39630,12 +39630,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 3,
         he: "לפי מראית עינו שנה משנתו ודאתי מדרום מיתחזיא ליה מצפון",
-        en: "Rashi: 'always toward the right, toward the east' - the rule about priestly rightward turns comes from Zevachim's discussion of the altar ramp.",
+        en: "Rashi: continues - he taught his mishna by the sight of his eye, and to one coming from the south it appears in the north,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l01"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39644,12 +39644,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 4,
         he: "ולעולם מקרן [דרומית] מערבית בא להתחיל למנות היינו דמתרץ",
-        en: "Rashi: in Zevachim (53b) this rule is taught in the context of ascending the ramp and beginning the altar circuit.",
+        en: "Rashi: continues - while in fact he set out to count from the southwest corner - that is how the shewbread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l01"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39658,12 +39658,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 5,
         he: "לחם הפנים אלחם הפנים להיות",
-        en: "Rashi: 'from Shewbread to Shewbread' - the Shewbread chamber is the anchor: placed in SE by Middot, so the rightward count places Lambs in SW.",
+        en: "Rashi: continues - contradiction is resolved, the shewbread chamber being",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l01"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39672,12 +39672,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 6,
         he: "בדרומית מזרחית כדקתני במדות",
-        en: "Rashi: 'but if you say the author is strict about right turns' for counting chamber locations, then Shewbread couldn't be in SE (the rightward count would put it elsewhere).",
+        en: "Rashi: continues - in the southeast as Middot teaches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l06"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39686,12 +39686,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 7,
         he: "דלא ליקשי אהדדי כיצד לשכת הטלאים",
-        en: "Rashi: 'two chalot of Shavuot' - the Shavuot loaves are brought on Shavuot and distributed. When does this affect the KG's loaf count?",
+        en: "Rashi: continues - so they do not clash. How so? The Chamber of the Lambs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l06"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39700,12 +39700,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 8,
         he: "בדרומית מערבית לשכת החותמות",
-        en: "Rashi: 'four or five' - sometimes the KG receives 4, sometimes 5 Shewbread loaves. This variability needs explanation.",
+        en: "Rashi: continues - in the southwest; the Chamber of the Seals,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l06"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39714,12 +39714,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 9,
         he: "כי אזלת דרך שמאל במערבית",
-        en: "Rashi: 'and it was for Aaron and his sons' (Leviticus 24:9) - the verse allocating Shewbread to kohanim. From here we derive the KG's entitlement.",
+        en: "Rashi: continues - going leftward, in the northwest;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l09"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39728,12 +39728,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 10,
         he: "צפונית לשכת בית המוקד צפונית",
-        en: "Rashi: 'half for Aaron etc.' - the twelve loaves divide: 6 to Aaron (representing the KG) and 6 to his sons (the regular kohanim).",
+        en: "Rashi: continues - the Beit HaMoked chamber in the northeast;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l09"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39742,12 +39742,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 11,
         he: "מזרחית לשכת לחם הפנים במזרחית",
-        en: "Rashi: 'even though there are twelve loaves, two of them are never divided' - the two Shavuot chalot are not split.",
+        en: "Rashi: continues - and the shewbread chamber in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l09"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39756,12 +39756,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 12,
         he: "דרומית: אלא אי אמרת. דוקא",
-        en: "Rashi: 'we arrive at the Rabbanan' - Abaye's argument: the mishna's first clause follows Rabbanan (proportional distribution).",
+        en: "Rashi: concludes - southeast. Then opens 'but if you say' - that the tanna taught exactly,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l12"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39770,12 +39770,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 13,
         he: "תנא לשכת הטלאים במקצוע צפונית",
-        en: "Rashi: Rabbanan say: the KG cannot take an exact half because then one shift would receive nothing; he takes proportionally.",
+        en: "Rashi: continues - the Chamber of the Lambs in the true northwest corner,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l12"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39784,12 +39784,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 14,
         he: "מערבית סוף סוף מאי תרצתא לחם",
-        en: "Rashi: 'less than half he does not take' - the KG won't accept a share less than his entitled proportion.",
+        en: "Rashi: continues - then in the end what resolution is there for the shewbread?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l12"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39798,12 +39798,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 15,
         he: "הפנים כי מני דרך שמאל הוה לשכת",
-        en: "Rashi: the practical result: with 10 loaves to split (after the Shavuot chalot are set aside), the KG gets 5 and each shift gets 5 - or 4 if the KG takes differently.",
+        en: "Rashi: continues - When he counts leftward, the shewbread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l12"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39812,12 +39812,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 16,
         he: "לחם הפנים בדרומית מערבית לפי",
-        en: "Rashi: 'beginning and middle of the mishna are Rabbanan' - the opening clause and the middle clause of the mishna represent the Rabbanan's view.",
+        en: "Rashi: continues - chamber falls in the southwest by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l12"
+          "yoma-017b-l01"
         ]
       },
       {
@@ -39826,12 +39826,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 17,
         he: "מניינו: והאמר מר. לקמן (דף",
-        en: "Rashi: 'and the Shavuot chalot - Rabbanan agree they are not split' - even Rabbanan agree the two Shavuot loaves cannot be divided because it is undignified to give the KG a broken loaf.",
+        en: "Rashi: concludes - his count. Then opens 'but the Master said' - further ahead (58b):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l06"
         ]
       },
       {
@@ -39840,12 +39840,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 18,
         he: "נח:): משתי חלות. של עצרת:",
-        en: "Rashi: the undignified nature of giving a broken loaf (pherusa) to the High Priest - all agree this is inappropriate.",
+        en: "Rashi: concludes - all turns must be rightward. Then opens and closes 'from the two loaves' - of Shavuot.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39854,12 +39854,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 19,
         he: "ארבע או חמש. בכל שבת ושבת",
-        en: "Rashi: 'from the Shavuot chalot' context: the mishna says the KG takes one whole loaf, then the remaining loaves are split. This is the Rabbanan's view.",
+        en: "Rashi: opens 'four or five' - on each and every Shabbat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39868,12 +39868,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 20,
         he: "ולקמיה מפרש מתי ארבע ומתי",
-        en: "Rashi: 'and what is four or five?' - answering when the KG gets four vs when he gets five Shewbread loaves.",
+        en: "Rashi: continues - and further on it explains when four and when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39882,12 +39882,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 21,
         he: "חמש: והיתה לאהרן ולבניו. בלחם",
-        en: "Rashi: when a Yom Tov immediately precedes or follows the Shabbat, extra mishmarot (shifts) are present or delayed, changing the loaf count.",
+        en: "Rashi: concludes - five. Then opens 'and it shall be for Aaron and his sons' - it is written of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39896,12 +39896,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 22,
         he: "הפנים כתיב: מחצה לאהרן כו'.",
-        en: "Rashi: specifically: if Shavuot falls on Sunday, the outgoing Friday mishmar stays; if on Saturday, the incoming mishmar arrives early.",
+        en: "Rashi: concludes - shewbread. Then opens 'half for Aaron, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l17"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39910,12 +39910,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 23,
         he: "ואף על פי שהן שנים עשר יש",
-        en: "Rashi: 'the staying mishmar receives 2 loaves' - when an extra mishmar stays through Shabbat, it receives only 2 loaves, not 6.",
+        en: "Rashi: continues - even though they are twelve, there are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l23"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39924,12 +39924,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 24,
         he: "בהן שתי חלות שאינן מתחלקות",
-        en: "Rashi: the remaining 10 are split: the KG, the outgoing mishmar, the incoming mishmar each get their portion.",
+        en: "Rashi: continues - among them two loaves that are not divided,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l23"
+          "yoma-017b-l12"
         ]
       },
       {
@@ -39938,12 +39938,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 25,
         he: "כדמפרש ואזיל: אתאן לרבנן.",
-        en: "Rashi: 'all Rabbis' view' - Abaye says the entire mishna (beginning, middle, end) actually follows all Rabbanan consistently.",
+        en: "Rashi: concludes - as it goes on to explain. Then opens 'we arrive at the Rabbis' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l17"
         ]
       },
       {
@@ -39952,12 +39952,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 26,
         he: "דאמרי לא שקיל פלגא דאי שקיל",
-        en: "Rashi: 'and holds like R. Yehuda' - and the two Shavuot chalot are not divided (both Rabbanan and R. Yehuda agree on this point).",
+        en: "Rashi: continues - who say he does not take half, for were he to take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l17"
         ]
       },
       {
@@ -39966,12 +39966,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 27,
         he: "פלגא בציר מחמש לא שקיל: רישא",
-        en: "Rashi: the division principle when an extra mishmar is present: the staying mishmar gets 2, the KG gets his portion, the two regular mishmarot split the rest.",
+        en: "Rashi: concludes - half, less than five he would not take. Then opens 'the first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -39980,12 +39980,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 28,
         he: "ומציעתא רבנן. דאמרי לא שקיל",
-        en: "Rashi: 'and what is always five?' - when is the KG's portion always 5 regardless of mishmar configurations?",
+        en: "Rashi: continues - and middle clauses are the Rabbis' - who say he does not take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -39994,12 +39994,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 29,
         he: "פלגא אלא בציר מפלגא ודקשיא לך",
-        en: "Rashi: Rava's reading: the mishna is consistently Rabbi's (R. Yehuda the Prince) throughout.",
+        en: "Rashi: continues - half but less than half; and as for your difficulty about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -40008,12 +40008,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 30,
         he: "חלה דשתי לחם דשקיל לה כולה",
-        en: "Rashi: Rabbi's position: the KG always takes half (6 out of 12), with no variation between 4 and 5.",
+        en: "Rashi: continues - the loaf of the two loaves, which he takes whole,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -40022,12 +40022,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 31,
         he: "מודו רבנן דלאו אורח ארעא",
-        en: "Rashi: Rabbanan's agreement that the Shavuot chalot cannot be broken - it is unbecoming to give the KG a piece.",
+        en: "Rashi: continues - the Rabbis concede that it is not proper conduct",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -40036,12 +40036,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 32,
         he: "למיפרסיה ולמיתב פרוסה לכ\"ג:",
-        en: "Rashi: 'and what is' the final clause about?' - Rava resolves the final mishna clause about loaf distribution.",
+        en: "Rashi: concludes - to slice it and give a slice to the High Priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l23"
         ]
       },
       {
@@ -40050,12 +40050,12 @@ const DAF_CONTENT = {
         daf: "17b",
         vilnaLine: 33,
         he: "ומאי",
-        en: "Rashi: conclusion of the Shewbread debate - the mishna's varying numbers are explained by the mishmar configurations, not by different tannaitic disputes about the KG's portion.",
+        en: "Rashi: the daf's final truncated word - 'and what', the start of the dibbur hamatchil whose text continues on 18a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-17b-l25"
+          "yoma-017b-l25"
         ]
       }
     ],

@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.97: schema backfill is complete, the perek-level semantic
+As of VERSION 14.98: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -145,7 +145,11 @@ truncated final word) and fixed 17a's vilnaLine 1-23 (17a has 45
 entries, split in two). A second sub-chunk at VERSION 14.97 (see
 "17a, vilnaLine 24-45" below) fixed the remaining 22 entries,
 closing 17a entirely (45/45 resolved), including 25 entries that
-previously had empty linkedGemaraLineIds. No
+previously had empty linkedGemaraLineIds. A full-daf chunk for 17b
+at VERSION 14.98 (see "17b" below) verified the 17a/17b boundary
+(17b's raw text opens "אי אמרת בשלמא", restating 17a's truncated
+final word) and fixed all 33 of 17b's entries in one pass (17b is
+under the 40-entry split threshold), closing 17b entirely. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1384,6 +1388,42 @@ all 22 entries fell in the range that previously had empty
 material partly belonging to 17b. All 22 fixed entries carry real
 zero-padded `yoma-017a-lXX` ids (`l01`, `l02`, `l05`, `l07`,
 `l09`). No deferrals. 17a is fully resolved, 45/45.
+
+## 17b (VERSION 14.98), full daf in one chunk, closing 17b entirely
+
+Verified the 17a/17b boundary first: 17b's raw talmud.dev Rashi text
+opens "אי אמרת בשלמא. תנא דתמיד גופיה דתני לשכת הטלאים", restating
+and completing 17a's truncated final word "אי" - no regression, no
+change needed on 17a.
+
+17b has 33 raw Rashi print-lines, under the 40-entry threshold, so
+it was fixed as a single full-daf chunk. It has 7 real Gemara lines
+(`yoma-017b-l01`, `l06`, `l09`, `l12`, `l17`, `l23`, and the
+truncated `l25`).
+
+vilnaLine 1-16 open `l01` (the "if you say granted" argument: the
+Tamid tanna concedes the chamber lay more toward the southwest and
+taught by eye, so his left-hand count places the four chambers
+without clashing with Middot; then the "but if you say" counter,
+that if the northwest placement were exact, the leftward count would
+leave the shewbread chamber in the southwest). vilnaLine 17 opens
+`l06` (the "but the Master said" objection from the rightward-turns
+rule at 58b, answered there as applying only to service). vilnaLine
+18-24 open `l12` (the sub-DHs on the High Priest's precedence
+portion: the two loaves of Shavuot, "four or five" per Shabbat,
+"and it shall be for Aaron and his sons" written of the shewbread,
+and "half for Aaron" with the two undivided loaves). No raw line
+carries its own DH for `l09` - the usual not-every-line pattern.
+vilnaLine 25-26 open `l17` ("we arrive at the Rabbis", who say he
+does not take half, for less than five he would not take).
+vilnaLine 27-32 open `l23` (Abaye's "the first and middle clauses
+are the Rabbis", with the concession that it is not proper conduct
+to give the High Priest a slice). vilnaLine 33 is the daf's final
+truncated word "ומאי", linked to `l25` ("וּמַאי", 17b's own
+truncated final Gemara line) continuing onto 18a.
+
+All 33 fixed entries carry real zero-padded `yoma-017b-lXX` ids.
+No deferrals. 17b is fully resolved, 33/33.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
