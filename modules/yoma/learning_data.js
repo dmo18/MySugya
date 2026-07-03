@@ -41857,12 +41857,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 1,
         he: "השחלין. קרש\"ין: חלגלוגות. פולפו\"ר: הגרגיר. ארוג\"א: מצרנאה.",
-        en: "Rashi: 'shalhin' - cress (garden cress); one of the five emission-causing foods.",
+        en: "Rashi: opens 'the cress', completing the word begun on 18a - kreshin in Old French. Then opens and closes 'purslane' - polpier. Then opens 'the arugula' - aruga; metzranaa,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l01"
+          "yoma-018b-l01"
         ]
       },
       {
@@ -41871,12 +41871,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 2,
         he: "הגדל על המיצר שאין סביבותיו זרע אחר שיכחיש כחו: לא יאכל",
-        en: "Rashi: 'halaglogot' - purslane; grows at field boundaries without competing crops nearby.",
+        en: "Rashi: concludes - the one growing on the border, with no other seed around it to sap its strength. Then opens 'a guest should not eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l01"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41885,12 +41885,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 3,
         he: "ביצים. שמביאין לידי קרי ומתגנה על בני הבית: לא יישן בטליתו",
-        en: "Rashi: 'gargir' - arugula; one of the emission foods, but also used for eye-brightening.",
+        en: "Rashi: concludes - eggs' - for they bring on emission and he becomes repugnant to the household. Then opens 'nor sleep in the cloak",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l01"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41899,12 +41899,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 4,
         he: "של בעל הבית. שהוא מתכסה בה ביום שלא ימצא עליה קרי: כי",
-        en: "Rashi: 'do not eat eggs' - in excess; eggs cause emission and the KG should avoid them.",
+        en: "Rashi: concludes - of the householder' - who covers himself with it by day, lest he find an emission on it. Then opens 'when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l01"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41913,12 +41913,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 5,
         he: "מיקלע לדרשיש. שם היה רגיל לילך:",
-        en: "Rashi: 'do not sleep in the host's cloak' - if sleeping in the cloak of the host (who had seminal emission), one might find the discharge on the garment and become tamei.",
+        en: "Rashi: concludes - he happened to come to Darshish' - he was accustomed to go there. Then",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l01"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41927,12 +41927,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 6,
         he: "מאן הויא ליומא. יש אשה שתנשא",
-        en: "Rashi: 'ki mikale l'Darshish' - when Rav would travel to a place called Darshish (or similar), he would announce for a temporary wife.",
+        en: "Rashi: opens 'who will be mine for the day' - is there a woman who will marry",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l07"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41941,12 +41941,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 7,
         he: "לי ליומא שאתעכב כאן ותצא לאחר",
-        en: "Rashi: 'man havya li l'yoma' - 'who will be my wife for the day?' - the announcement Rav would make on arrival in a town.",
+        en: "Rashi: continues - me for the day that I stay here, and be divorced after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l07"
+          "yoma-018b-l07"
         ]
       },
       {
@@ -41955,12 +41955,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 8,
         he: "מכאן: זה אצל זה. בן שיוליד",
-        en: "Rashi: 'this one near that one' - the concern about children from different towns who might marry each other (as siblings).",
+        en: "Rashi: concludes - that. Then opens 'one with the other' - a son he fathers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l07"
+          "yoma-018b-l11"
         ]
       },
       {
@@ -41969,12 +41969,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 9,
         he: "במדינה זו עם בת שיוליד במדינה",
-        en: "Rashi: 'rabbanan kala alaihu' - scholars are widely known by reputation, so their children can be identified.",
+        en: "Rashi: continues - in this country with a daughter he fathers in another",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l11"
         ]
       },
       {
@@ -41983,12 +41983,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 10,
         he: "אחרת: רבנן קלא אית להו. ושמם",
-        en: "Rashi: 'tzerichah lashevet shiva nekiyim' - she requires seven clean days (after blood from desire) before she can remarry.",
+        en: "Rashi: concludes - country. Then opens 'the Sages have renown' - and their name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l11"
         ]
       },
       {
@@ -41997,12 +41997,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 11,
         he: "קרוי על בניהם: צריכה לישב שבעה",
-        en: "Rashi: 'yihud bilvad' - they were alone together but did not have relations; the Gemara clarifies the degree of contact involved.",
+        en: "Rashi: concludes - is called over their children. Then opens 'she must sit seven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l17"
         ]
       },
       {
@@ -42011,12 +42011,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 12,
         he: "נקיים. מיום שנתרצית שמא מחמת",
-        en: "Rashi: 'since she accepted him' - her desire for him could cause blood (dam teshuka), requiring the seven clean days.",
+        en: "Rashi: continues - clean days' - from the day she consented, lest out of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l17"
         ]
       },
       {
@@ -42025,12 +42025,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 13,
         he: "חימוד ראתה דם: יחודי בעלמא.",
-        en: "Rashi: 'not the Jewish nation's agents' - segue to the agency question about whether kohanim act as God's agents or Israel's agents in offering sacrifices.",
+        en: "Rashi: concludes - desire she saw blood. Then opens 'mere seclusion' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l20"
         ]
       },
       {
@@ -42039,12 +42039,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 14,
         he: "ואין נזקקין להן אלא שהנשוי אשה",
-        en: "Rashi: 'not to turn things around' - the concern about using the agency question to permit a vow-bound kohen from acting for the vow-holder.",
+        en: "Rashi: continues - and they did not consummate with them; only that one who has a wife",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l11"
+          "yoma-018b-l20"
         ]
       },
       {
@@ -42053,12 +42053,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 15,
         he: "אין מתאוה כמי שאין לו אשה:",
-        en: "Rashi: 'maseruhu' - they handed him (the KG) to the elders of the priesthood on the eve of Yom Kippur.",
+        en: "Rashi: concludes - does not crave like one who has no wife",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l17"
+          "yoma-018b-l20"
         ]
       },
       {
@@ -42067,12 +42067,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 16,
         he: "מתני' מסרוהו זקני בית דין.",
-        en: "Rashi: 'zlekni kehunah' - the elders of the priesthood instructed him in the Temple service specifics.",
+        en: "Rashi: the mishna section opens 'the elders of the court handed him over' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l17"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42081,12 +42081,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 17,
         he: "שקראו לפניו בסדר היום: לזקני",
-        en: "Rashi: 'he would depart and weep' - explained in the Gemara below (19b): he wept at the implication that they suspected him.",
+        en: "Rashi: concludes - those who had read before him in the order of the day. Then opens 'to the elders of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l17"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42095,12 +42095,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 18,
         he: "כהונה. ללמדו חפינת הקטורת",
-        en: "Rashi: 'and they departed weeping' - the elders also wept because they had to suspect him (treating him as a possible Sadducee).",
+        en: "Rashi: continues - the priesthood' - to teach him the handful-scooping of the incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l17"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42109,12 +42109,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 19,
         he: "המוטלת עליו ביום הכפורים שנאמר",
-        en: "Rashi: 'if he was a Torah scholar, he gave a dvar Torah' - the KG teaches Torah to himself and those present to stay awake all night.",
+        en: "Rashi: continues - incumbent on him on Yom Kippur, as it is said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l20"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42123,12 +42123,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 20,
         he: "(ויקרא טז) ומלא חפניו קטורת סמים",
-        en: "Rashi: 'if not' - if he was not a scholar who could teach, the elders would teach Torah before him.",
+        en: "Rashi: continues - (Leviticus 16): 'and his hands full of incense of spices,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l20"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42137,12 +42137,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 21,
         he: "וגו' ועבודה קשה היא כדלקמן",
-        en: "Rashi: 'they would read before him in the order of the day' - the full Yom Kippur Torah portions.",
+        en: "Rashi: continues - etc., and it is a difficult service, as further ahead",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l20"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42151,12 +42151,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 22,
         he: "(דף מז:): בית אבטינס. היו עושין",
-        en: "Rashi: 'in Job, Ezra, Chronicles' - books that engage the heart and prevent sleep.",
+        en: "Rashi: concludes - (47b). Then opens 'the House of Avtinas' - there they would prepare",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l20"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42165,12 +42165,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 23,
         he: "את הקטרת כותשין אותו ומערבין",
-        en: "Rashi: 'beit Avtinas' - the family whose chamber in the Temple was used for this vigil; they also prepared the incense.",
+        en: "Rashi: continues - the incense, pounding it and mixing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l23"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42179,12 +42179,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 24,
         he: "סממני': והשביעוהו. שלא יהא צדוקי",
-        en: "Rashi: 'to teach him the hanifa (incense-offering)' - the specific incense-scooping technique for Yom Kippur, which was especially difficult.",
+        en: "Rashi: concludes - its spices. Then opens 'and they adjured him' - that he not be a Sadducee,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l23"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42193,12 +42193,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 25,
         he: "לתקן מבחוץ ולהכניס בפנים כדאמרינן",
-        en: "Rashi: 'and they adjured him' - they made the KG swear he would not deviate from their instruction (i.e., not perform the Sadducee version of the incense service).",
+        en: "Rashi: continues - preparing the incense outside and bringing it in already smoking, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l23"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42207,12 +42207,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 26,
         he: "בגמרא (לקמן דף יט:): אישי. אדוני:",
-        en: "Rashi: 'Ishi' (my Lord) - the respectful address used for the KG by the elders.",
+        en: "Rashi: concludes - in the Gemara (19b below). Then opens and closes 'ishi' - my lord.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l23"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42221,12 +42221,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 27,
         he: "הוא פורש ובוכה. מפרש בגמ' (שם):",
-        en: "Rashi: 'he departs and weeps' - the KG wept because being sworn implies suspicion of Sadducee tendencies.",
+        en: "Rashi: opens and closes 'he withdraws and weeps' - explained in the Gemara (there).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l23"
+          "yoma-018b-l23"
         ]
       },
       {
@@ -42235,12 +42235,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 28,
         he: "אם היה חכם דורש. בדבר הלכה כל",
-        en: "Rashi: 'if he was a Torah scholar, he gave a lesson' - the vigil methods: scholar teaches, non-scholar hears Torah, sleepy KG is startled by finger-snapping.",
+        en: "Rashi: opens 'if he was a scholar, he expounds' - on a matter of halacha, all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42249,12 +42249,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 29,
         he: "ליל יוה\"כ שלא יישן ויראה קרי: ואם",
-        en: "Rashi: 'if not a scholar who knows the content but can hear and understand' - if he can follow along with Torah study, others read to him.",
+        en: "Rashi: concludes - the night of Yom Kippur, so that he not sleep and see an emission. Then opens 'and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42263,12 +42263,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 30,
         he: "לאו. חכם הוא ויודע להבין ולשמוע דבר",
-        en: "Rashi: 'from Job and Ezra and Chronicles' - specifically books that draw the heart. Sleep doesn't come when hearing these.",
+        en: "Rashi: continues - not' - he is a scholar who knows how to understand and hear a matter of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42277,12 +42277,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 31,
         he: "הלכה ואינו יודע לדרוש דורשין לפניו:",
-        en: "Rashi: 'Tzarda finger' - the finger next to the thumb (index or middle finger). Pressing it hard against the thumb and releasing causes a loud snap.",
+        en: "Rashi: concludes - halacha but does not know how to expound, they expound before him. Then",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42291,12 +42291,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 32,
         he: "באיוב ובעזרא וכו'. שהן דברים ממשיכין",
-        en: "Rashi: 'stand up and cool yourself once on the floor' - the young priests say to the KG: stand up and walk to dispel the sleepiness.",
+        en: "Rashi: opens 'in Job and in Ezra, etc.' - for they are matters that draw",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42305,12 +42305,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 33,
         he: "את הלב לשומען ואין שינה חוטפתו:",
-        en: "Rashi: they would engage him to keep him from sleep by any means - dancing, walking, until the time for the morning tamid slaughter when it was time to begin the Yom Kippur service.",
+        en: "Rashi: concludes - the heart to hear them, and sleep does not snatch him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       },
       {
@@ -42319,12 +42319,12 @@ const DAF_CONTENT = {
         daf: "18b",
         vilnaLine: 34,
         he: "גמ'",
-        en: "Rashi: summary of the all-night vigil - 'and the young priests kept him occupied with their antics until dawn.'",
+        en: "Rashi: the daf's final item - the bare Gemara-section header; the first dibbur hamatchil of the Gemara follows on 19a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-18b-l28"
+          "yoma-018b-l28"
         ]
       }
     ],

@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.00: schema backfill is complete, the perek-level semantic
+As of VERSION 15.01: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -157,7 +157,10 @@ vilnaLine 1-29 (18a has 58 entries, split in two). A second
 sub-chunk at VERSION 15.00 (see "18a, vilnaLine 30-58" below) fixed
 the remaining 29 entries, closing 18a entirely (58/58 resolved),
 including 30 entries across both halves that previously had empty
-linkedGemaraLineIds. No
+linkedGemaraLineIds. A full-daf chunk for 18b at VERSION 15.01 (see
+"18b" below) verified the 18a/18b boundary (18b's raw text opens
+"השחלין. קרש"ין", restating 18a's truncated final word) and fixed
+all 34 of 18b's entries in one pass, closing 18b entirely. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1502,6 +1505,42 @@ dayala and a garbled version of the zov/semen comparison, all
 replaced here from the raw Hebrew. All 29 fixed entries carry real
 zero-padded `yoma-018a-lXX` ids (`l09`, `l11`, `l12`, `l21`, `l28`,
 `l29`, `l35`, `l39`). No deferrals. 18a is fully resolved, 58/58.
+
+## 18b (VERSION 15.01), full daf in one chunk, closing 18b entirely
+
+Verified the 18a/18b boundary first: 18b's raw talmud.dev Rashi text
+opens "השחלין. קרש"ין", restating and completing 18a's truncated
+final word "השחלין" - no regression, no change needed on 18a.
+
+18b has 34 raw Rashi print-lines, under the 40-entry threshold, so
+it was fixed as a single full-daf chunk. It has 7 real lines: the
+Gemara lines `yoma-018b-l01`, `l07`, `l11`, `l17`, `l20` and the
+mishna lines `l23`, `l28`. Both sub-DH anchors that could have been
+ambiguous were verified against the full local Hebrew: "רבנן קלא
+אית להו" sits inside `l11` and "הוא פורש ובוכה" inside `l23`.
+
+vilnaLine 1 opens `l01` (the Old French glosses for cress, purslane,
+and arugula, with the border-grown metzranaa). vilnaLine 2-7 open
+`l07` (the guest who should not eat eggs or sleep in the
+householder's cloak, Rav's visits to Darshish, and "who will be
+mine for the day"). vilnaLine 8-10 open `l11` (Rabbi Eliezer ben
+Yaakov's decree lest half-siblings born in different countries
+marry, and the answer that the Sages have renown). vilnaLine 11-12
+open `l17` (Rava's seven clean days from consent, lest desire
+brought blood). vilnaLine 13-15 open `l20` (mere seclusion: one
+with bread in his basket does not crave). vilnaLine 16-27 open the
+mishna line `l23` (handing over to the elders of the priesthood,
+the incense handful per Leviticus 16 and its difficulty per 47b,
+the House of Avtinas, the oath against Sadducee practice per 19b,
+"ishi", and "he withdraws and weeps"). vilnaLine 28-33 open the
+mishna line `l28` (expounding all Yom Kippur night so he not
+sleep, the not-a-darshan case, and Job/Ezra as heart-drawing
+reading). vilnaLine 34 is the bare Gemara-section header "גמ'",
+linked to `l28` (18b's own final line), with the Gemara's first DH
+following on 19a.
+
+All 34 fixed entries carry real zero-padded `yoma-018b-lXX` ids.
+No deferrals. 18b is fully resolved, 34/34.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
