@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.94: schema backfill is complete, the perek-level semantic
+As of VERSION 14.95: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -135,7 +135,10 @@ and stub text. A first sub-chunk of 16b at VERSION 14.94 (see "16b,
 vilnaLine 1-31" below) verified the 16a/16b boundary (16b's raw text
 opens "עשר אמות כנגד פתחו של היכל", restating 16a's truncated final
 word) and fixed 16b's vilnaLine 1-31 (16b has 62 entries, split in
-two); vilnaLine 32-62 remain for a follow-up chunk. No
+two). A second sub-chunk at VERSION 14.95 (see "16b, vilnaLine
+32-62" below) fixed the remaining 31 entries, closing 16b entirely
+(62/62 resolved), including 37 entries that previously had empty
+linkedGemaraLineIds. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1273,6 +1276,38 @@ reckoning - including his citation of his teacher Rabbeinu Yitzchak
 bar Yehuda and his twice-stated reservation "my heart hesitates" -
 and the truncated final word "אלא" continuing onto 17a) remain for
 the follow-up chunk.
+
+## 16b, vilnaLine 32-62 (VERSION 14.95), second half, closing 16b entirely
+
+Continued directly from the first sub-chunk. An independent
+reconnaissance pass verified the DH segmentation for this daf
+against Sefaria's Rashi on Yoma 16b (exactly 11 segments, matching
+the raw print-line boundaries word for word), giving a second source
+of confirmation for the whole mapping. vilnaLine 32-34 open `l12`
+(the "and the remainder" clause: the uncounted surplus of the 135,
+with the tables' width known from Ezekiel 40, split half to the
+south and half to the nenasin area). vilnaLine 35-61 open `l18`
+(the single long "most of the altar stands in the south" comment:
+the cubit-by-cubit reckoning from the northern wall, the eight
+tables of Shekalim 9b, the conclusion that the entrance's north edge
+is exposed by two cubits, the objection from the altar's own height
+answered by the 13.5 plus 6 count, and then Rashi's extended personal
+discussion - his first "my heart hesitates", the alternative
+reckoning in which nothing of the entrance is exposed, the
+explanation he heard from his teacher Rabbeinu Yitzchak bar Yehuda
+splitting the twenty-five as twelve and thirteen, his second
+hesitation, and his preference for his first explanation). vilnaLine
+62 is the daf's final truncated word "אלא", linked to `l21`
+("אֶלָּא", 16b's own truncated final Gemara line); 17a's raw text
+was confirmed to open "אלא לאו שמע מינה ראב"י היא", the standard
+boundary pattern.
+
+This sub-chunk also repaired vilnaLine 32-62's baseline, of which 31
+entries previously had EMPTY `linkedGemaraLineIds` and stub text
+(the daf's empty-id total was 37, of which 6 fell in the first
+sub-chunk's range). All 31 fixed entries carry real zero-padded
+`yoma-016b-lXX` ids (`l12`, `l18`, `l21`). No deferrals. 16b is
+fully resolved, 62/62.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

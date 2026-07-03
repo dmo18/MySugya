@@ -37979,11 +37979,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 32,
         he: "ברזל קבועין בהן שבהן תולין את הבהמה להפשיט: והמותר.",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 32).",
+        en: "Rashi: concludes - iron hooks fixed in them, on which the animal is hung for flaying. Then opens 'and the remainder' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-033",
@@ -37991,11 +37993,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 33,
         he: "ממאה ושלשים וחמש שלא נמנה כאן ומקום השלחנות שלא",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 33).",
+        en: "Rashi: continues - of the hundred thirty-five not counted here, along with the tables' space, which did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-034",
@@ -38003,11 +38007,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 34,
         he: "הוצרך לפרש שרחבו מפורש בספר יחזקאל (מ) אותו העודף",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 34).",
+        en: "Rashi: continues - need spelling out since its width is spelled out in the book of Ezekiel (40); that surplus,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-035",
@@ -38015,11 +38021,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 35,
         he: "חלקהו חציו לדרום בין כבש לכותל וחציה למקום הננסין: רובא",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 35).",
+        en: "Rashi: concludes - divide it: half to the south between ramp and wall, and half to the nenasin area. Then opens 'most",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-036",
@@ -38027,11 +38035,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 36,
         he: "דמזבח בדרום קאי. לפי מנין זה שהרי חצי רוחב העזרה ששים",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 36).",
+        en: "Rashi: continues - of the altar stands in the south' - by this count, for half the courtyard's width is sixty-",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-037",
@@ -38039,11 +38049,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 37,
         he: "ושבעה וחצי וכשתתן מהם מכותל צפונית לננסין שמונה ומן הננסין",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 37).",
+        en: "Rashi: continues - seven and a half, and when you allot of them eight from the northern wall to the nenasin, and from the nenasin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-038",
@@ -38051,11 +38063,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 38,
         he: "לשולחנות ד' הרי י\"ב ומקום ד' שולחנות זו אצל זו אינו פחות",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 38).",
+        en: "Rashi: continues - to the tables four, that is twelve; and the space of four tables side by side is no less",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-039",
@@ -38063,11 +38077,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 39,
         he: "מד' והן היו ח' שלחנות כדתנן בשקלים (דף ט:) נתונות ד' בראש",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 39).",
+        en: "Rashi: continues - than four, and there were eight tables, as we learned in Shekalim (9b), set four at the head of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-040",
@@ -38075,11 +38091,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 40,
         he: "ארבע נמצאו ד' זו אצל זו ברוחב הרי ט\"ז ומשם לטבעות ארבע",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 40).",
+        en: "Rashi: continues - four, giving four side by side across the width, that is sixteen; from there to the rings four,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-041",
@@ -38087,11 +38105,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 41,
         he: "הרי כ' ומקום הטבעות כ\"ד הרי מ\"ד ומן הטבעות ולמזבח ח'",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 41).",
+        en: "Rashi: continues - that is twenty; the rings' space twenty-four, that is forty-four; from the rings to the altar eight,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-042",
@@ -38099,11 +38119,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 42,
         he: "הרי נ\"ב ומקום הננסין י' אמות ומחצה שהוא חצי העודף הנשאר",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 42).",
+        en: "Rashi: continues - that is fifty-two; and the nenasin area ten cubits and a half, which is half the leftover surplus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-043",
@@ -38111,11 +38133,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 43,
         he: "מהנותר שלא מנה במשנה שהרי מאה ועשר אמות מנה מן הכבש",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 43).",
+        en: "Rashi: continues - not counted in the mishna, for it counted one hundred ten cubits from the ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-044",
@@ -38123,11 +38147,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 44,
         he: "לצפון נשארו ממאה ושלשים וחמשה של רוחב העזרה כ\"ה ונתנו",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 44).",
+        en: "Rashi: continues - northward, leaving twenty-five of the courtyard's hundred thirty-five width; four were given",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-045",
@@ -38135,11 +38161,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 45,
         he: "לשלחנות ד' ונשאר כ\"א אותן תחלוק למקום הננסין חציין וחציין",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 45).",
+        en: "Rashi: continues - to the tables, leaving twenty-one; divide those, half to the nenasin area and half",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-046",
@@ -38147,11 +38175,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 46,
         he: "[השניה] בין כבש לכותל הרי מן המזבח לצפון ס\"ב ומחצה כשתתן",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 46).",
+        en: "Rashi: continues - between ramp and wall; so from the altar northward is sixty-two and a half, and when you add",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-047",
@@ -38159,11 +38189,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 47,
         he: "חמש אמות הצפונית של מזבח עליהם הרי חצי רוחב העזרה שהוא ס\"ז ומחצה נמצא כ\"ז אמות מן דרומית של מזבח כלין בחצי דרומי",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 47).",
+        en: "Rashi: continues - the altar's five northern cubits to them, that is half the courtyard's width, sixty-seven and a half; so twenty-seven cubits of the altar's south end fall in the southern half",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-048",
@@ -38171,11 +38203,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 48,
         he: "של העזרה ונמצא צפונו של מזבח כלה לסוף צפוני של חלל הפתח אצל המזוזה צא ממקום המזבח ב' אמות של כניסת היסוד והסובב",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 48).",
+        en: "Rashi: continues - of the courtyard, and the altar's north end finishes at the north edge of the entrance's opening by the doorpost; subtract from the altar's footprint the two cubits of the base's and the surround's setback,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-049",
@@ -38183,11 +38217,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 49,
         he: "נמצא צפון חלל הפתח מגולה למעלה מכניסת הסובב ב' אמות ויכול לראות כהן שבראש הר המשחה דרך אותן ב' אמות את פתח ההיכל",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 49).",
+        en: "Rashi: continues - and the north of the entrance's opening turns out exposed, above the surround's setback, by two cubits, and the priest atop the Mount of Anointment can see through those two cubits the Sanctuary entrance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-050",
@@ -38195,11 +38231,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 50,
         he: "דרך פתח התחתון ואם תאמר גובה שש אמות שגבה המזבח עד כניסת הסובב סותם את פתח התחתון אינו כן שהרי קרקע העזרה",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 50).",
+        en: "Rashi: continues - through the lowest gate. And if you say the six cubits of the altar's height up to the surround's setback seal the lowest gate, it is not so, for the courtyard floor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-051",
@@ -38207,11 +38245,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 51,
         he: "לא עלה מקרקע הר הבית אלא י\"ג ומחצה ושש של גובה הסובב הרי תשע עשרה ומחצה אכתי פש ליה פלגא דאמתא בגובה פתח",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 51).",
+        en: "Rashi: continues - rose only thirteen and a half above the Temple Mount floor, plus six of the surround's height is nineteen and a half, still leaving half a cubit in the height of the lowest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-052",
@@ -38219,11 +38259,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 52,
         he: "התחתון אלא לאו ר\"א היא ואיכסי ליה במעלה יתירה שמע מינה ולבי מגמגם ביה דיש לומר הואיל ולא פירשה המשנה מקום השלחנות",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 52).",
+        en: "Rashi: continues - gate; rather, is it not Rabbi Eliezer ben Yaakov, and it is concealed by the extra step - conclude so. But my heart hesitates over it, for one can say: since the mishna did not spell out the tables' space,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-053",
@@ -38231,11 +38273,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 53,
         he: "שמא עם מקום הננסין הוא כלול באותו חלק שאתה חולק כ\"ה אמות העודפים ברוחב העזרה על מאה ועשר המפורשין נמצא מן",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 53).",
+        en: "Rashi: continues - perhaps it is included with the nenasin area in that portion you divide from the twenty-five cubits by which the courtyard's width exceeds the hundred ten spelled out; then from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-054",
@@ -38243,11 +38287,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 54,
         he: "הכבש לכותל דרומי י\"ב ומחצה והכבש והמזבח ס\"ב הרי ע\"ד ומחצה צא מהן ב' אמות של כניסת היסוד והסובב לצפון נשארו ע\"ב",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 54).",
+        en: "Rashi: continues - the ramp to the southern wall is twelve and a half, and the ramp and altar sixty-two, that is seventy-four and a half; subtract the two cubits of the base's and surround's setback to the north, leaving seventy-two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-055",
@@ -38255,11 +38301,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 55,
         he: "ומחצה ולא נתגלה מחלל הפתח מלא החוט שהרי אמצעו של פתח באמצע רוחב עזרה שהיא לסוף ששים ושבע ומחצה הוסיף עליהן",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 55).",
+        en: "Rashi: continues - and a half, and not a thread's breadth of the opening is exposed, for the middle of the entrance is at the middle of the courtyard's width, at sixty-seven and a half; add",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-056",
@@ -38267,11 +38315,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 56,
         he: "חמש אמות שיהיו שבעים ושתים ומחצה כללתה כאן חמש אמות של חצי הפתח הצפוני ואני כך שמעתי שמקום השלחנות כלול עם",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 56).",
+        en: "Rashi: continues - five cubits to make seventy-two and a half, and you have included here the five cubits of the entrance's northern half. And so I heard, that the tables' space is included with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-057",
@@ -38279,11 +38329,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 57,
         he: "מקום הננסין אבל מה ששנינו כאן והמותר בין כבש לכותל ומקום הננסין פירש לי מורי צדק רבינו יצחק בר יהודה ז\"ל שנים עשר",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 57).",
+        en: "Rashi: continues - the nenasin area. But as for what we learned here, 'and the remainder is between ramp and wall, and the nenasin area', my righteous teacher Rabbeinu Yitzchak bar Yehuda of blessed memory explained to me: twelve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-058",
@@ -38291,11 +38343,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 58,
         he: "מן העשרים וחמש בין כבש לכותל ושלש עשרה למקום הננסין והשלחנות ונתן טעם לדבריו לפי שבין כבש לכותל מקום",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 58).",
+        en: "Rashi: continues - of the twenty-five between ramp and wall and thirteen for the nenasin and tables area, and he gave a reason for his words: because between ramp and wall is empty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-059",
@@ -38303,11 +38357,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 59,
         he: "פנוי וכאן יש צורך תשמיש של שלחנות וננסין ונמצא מחלל הפתח מגולה חצי אמה ולבי מגמגם לפי שהיה לתנא לפרש וכיון",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 59).",
+        en: "Rashi: continues - space, while here there is a working need for tables and nenasin; on that reckoning half a cubit of the opening turns out exposed. But my heart hesitates, because the tanna should have spelled it out, and since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-060",
@@ -38315,11 +38371,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 60,
         he: "שלא פירש צריך אתה לחלקו לחצאין ואם באת להרבות כאן ולמעט כאן יכול אתה לגלות הפתח כמה שתחפוץ או לכסות כמה",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 60).",
+        en: "Rashi: continues - he did not, you must divide it in halves; and if you come to enlarge here and reduce there, you could expose the entrance as much as you wish or cover as much",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-061",
@@ -38327,11 +38385,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 61,
         he: "שתחפוץ לפיכך טוב לי כמו שפירשתי (מלומר כן שבשפת חצי רוחב היכל דרומי כלה המזבח והוא כנגד חלל הפתח):",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 61).",
+        en: "Rashi: concludes - as you wish; therefore what I explained first seems best to me",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l18"
+        ]
       },
       {
         id: "rashi-yoma-016b-062",
@@ -38339,11 +38399,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 62,
         he: "אלא",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 62).",
+        en: "Rashi: the daf's final truncated word - 'rather', the start of the dibbur hamatchil 'rather, conclude from this that it is Rabbi Eliezer ben Yaakov' whose text continues on 17a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l21"
+        ]
       }
     ],
     review: {
