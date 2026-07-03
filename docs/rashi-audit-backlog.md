@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.96: schema backfill is complete, the perek-level semantic
+As of VERSION 14.97: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -142,8 +142,10 @@ linkedGemaraLineIds. A first sub-chunk of 17a at VERSION 14.96 (see
 "17a, vilnaLine 1-23" below) verified the 16b/17a boundary (17a's
 raw text opens "אלא לאו שמע מינה ראב"י היא", restating 16b's
 truncated final word) and fixed 17a's vilnaLine 1-23 (17a has 45
-entries, split in two); vilnaLine 24-45 remain for a follow-up
-chunk. No
+entries, split in two). A second sub-chunk at VERSION 14.97 (see
+"17a, vilnaLine 24-45" below) fixed the remaining 22 entries,
+closing 17a entirely (45/45 resolved), including 25 entries that
+previously had empty linkedGemaraLineIds. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1351,6 +1353,37 @@ Rabbi Eliezer ben Yaakov", the set-off Chamber of the Lambs and the
 viewing-angle DHs, the shewbread contradiction, Rav Huna son of Rav
 Yehoshua's right/left-circuit resolution, and the truncated final
 word "אי" continuing onto 17b) remain for the follow-up chunk.
+
+## 17a, vilnaLine 24-45 (VERSION 14.97), second half, closing 17a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 24-26
+conclude the giant `l01` DH (the baraita of Rabbi Yehuda's centered
+altar, the "where do you find it" objection, and Rashi's textual
+note that on his reading the girsa "rather, conclude that it is
+Rabbi Eliezer ben Yaakov" is not read, the conclusion being instead
+that Middot is not Rabbi Yehuda). vilnaLine 27-30 open `l02` (Rav
+Adda son of Rav Yitzchak: the Chamber of the Lambs was set off,
+long, standing on the west and stretching toward both corners, with
+the two viewing-angle sub-DHs). vilnaLine 31-38 open `l05` (per the
+established multi-DH rule vilnaLine 31 carries the "it stands to
+reason it was in the southwest" opening; then the shewbread
+contradiction sub-DH with the assumed right-hand circuit placing
+the four chambers, against Middot's placement of the shewbread
+chamber in the southeast). vilnaLine 39-44 open `l07` (Rav Huna son
+of Rav Yehoshua's resolution: Middot counts by the right,
+explicitly south to east to north to west, the way one circles the
+House from outside, while Tamid, which spelled nothing out, can be
+said to count by the left). vilnaLine 45 is the daf's final
+truncated word "אי", linked to `l09` ("אִי", 17a's own truncated
+final Gemara line); 17b's raw text was confirmed to open "אי אמרת
+בשלמא. תנא דתמיד גופיה", the standard boundary pattern.
+
+This sub-chunk also repaired vilnaLine 24-45's baseline, of which
+all 22 entries fell in the range that previously had empty
+`linkedGemaraLineIds` (vilnaLine 21-45) with stub text describing
+material partly belonging to 17b. All 22 fixed entries carry real
+zero-padded `yoma-017a-lXX` ids (`l01`, `l02`, `l05`, `l07`,
+`l09`). No deferrals. 17a is fully resolved, 45/45.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

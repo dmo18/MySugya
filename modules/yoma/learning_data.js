@@ -38949,11 +38949,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 24,
         he: "דמדות דתניא ר\"י אומר מזבח ממוצע וכו' ואי ס\"ד מדות ר\"י היא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 24).",
+        en: "Rashi: continues - Middot, as the baraita teaches: Rabbi Yehuda says the altar is centered, etc.; and if it entered your mind that Middot is Rabbi Yehuda,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-025",
@@ -38961,11 +38963,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 25,
         he: "מי משכחת לה והא תנן כו' אלמא רוביה דמזבח בדרום קאי שמע",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 25).",
+        en: "Rashi: continues - where do you find it? For we learned, etc., so most of the altar stands in the south; conclude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-026",
@@ -38973,11 +38977,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 26,
         he: "מינה ולא גרסינן אלא לאו שמע מינה ר\"א היא והכי פירושו שמע",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 26).",
+        en: "Rashi: continues - so. And on this reading we do not read 'rather, conclude from this that it is Rabbi Eliezer ben Yaakov'; its meaning is: conclude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l01"
+        ]
       },
       {
         id: "rashi-yoma-017a-027",
@@ -38985,11 +38991,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 27,
         he: "מינה מדות לאו ר' יהודה היא: רב אדא בר יצחק אמר הא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 27).",
+        en: "Rashi: concludes - from this that Middot is not Rabbi Yehuda. Then opens 'Rav Adda son of Rav Yitzchak said: that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l02"
+        ]
       },
       {
         id: "rashi-yoma-017a-028",
@@ -38997,11 +39005,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 28,
         he: "לשכת הטלאים אקצויי מקציא. בשתי המקצועות נראית שארוכה",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 28).",
+        en: "Rashi: continues - Chamber of the Lambs was set off at the corners' - it shows in two corners, since it is long,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l02"
+        ]
       },
       {
         id: "rashi-yoma-017a-029",
@@ -39009,11 +39019,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 29,
         he: "היא ועומדת במערב ומארכת לצד הצפון ודרום עד קרוב למקצועות",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 29).",
+        en: "Rashi: continues - standing on the west and stretching toward the north and the south, up to near the corners",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l02"
+        ]
       },
       {
         id: "rashi-yoma-017a-030",
@@ -39021,11 +39033,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 30,
         he: "שמכאן ומכאן: ודאתי מצפון מיתחזיא ליה. שמשוכה לצד דרום",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 30).",
+        en: "Rashi: concludes - on either side. Then opens 'and to one coming from the north it appears' - since it is drawn toward the south",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l02"
+        ]
       },
       {
         id: "rashi-yoma-017a-031",
@@ -39033,11 +39047,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 31,
         he: "יותר: ודאתי מדרום מיתחזיא ליה. משוכה לצד צפון: מסתברא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 31).",
+        en: "Rashi: concludes - more. Then opens and closes 'and to one coming from the south it appears' - drawn toward the north. Then opens 'it stands to reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-032",
@@ -39045,11 +39061,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 32,
         he: "דבמערבית דרומית הוה. טפי ומודי בה תנא דתמיד אלא דנקיט",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 32).",
+        en: "Rashi: continues - that it was in the southwest' - more so, and the tanna of Tamid concedes it, only that, taking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-033",
@@ -39057,11 +39075,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 33,
         he: "סידרא מדרום לצפון מיתחזי ליה דרך הילוכו כאילו הוא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 33).",
+        en: "Rashi: continues - his order from south to north, along his way it appeared to him as if it were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-034",
@@ -39069,11 +39089,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 34,
         he: "בצפון: מדרמינן לחם הפנים. דהוה סלקא דעתיה שהוא מונה",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 34).",
+        en: "Rashi: concludes - in the north. Then opens 'from the contradiction we raise about the shewbread' - for the questioner assumed the tanna counts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-035",
@@ -39081,11 +39103,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 35,
         he: "והולך דרך ימין מצפון למערב וממערב לדרום ומדרום למזרח",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 35).",
+        en: "Rashi: continues - along to the right, from north to west, from west to south, and from south to east:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-036",
@@ -39093,11 +39117,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 36,
         he: "לשכת הטלאים בצפונית מערבית לשכת החותמות במערבית",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 36).",
+        en: "Rashi: continues - the Chamber of the Lambs in the northwest, the Chamber of the Seals in the southwest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-037",
@@ -39105,11 +39131,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 37,
         he: "דרומית לשכת בית המוקד בדרומית מזרחית לשכת לחם הפנים",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 37).",
+        en: "Rashi: continues - the Beit HaMoked chamber in the southeast, and the shewbread chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-038",
@@ -39117,11 +39145,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 38,
         he: "במזרחית צפונית והוה רמינן עלה מתני' דמדות דקתני דרומית",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 38).",
+        en: "Rashi: continues - in the northeast; and we cast against it the Middot mishna, which teaches that the southeast",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l05"
+        ]
       },
       {
         id: "rashi-yoma-017a-039",
@@ -39129,11 +39159,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 39,
         he: "מזרחית היא היתה לשכת לחם הפנים: ומשנינן אמר רב הונא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 39).",
+        en: "Rashi: concludes - was the shewbread chamber. Then opens 'and we resolve it: Rav Huna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-040",
@@ -39141,11 +39173,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 40,
         he: "בריה דרב יהושע. תנא דמדות קא חשיב דרך ימין כדמפרש",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 40).",
+        en: "Rashi: continues - son of Rav Yehoshua said' - the tanna of Middot counts by the right, as he spells out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-041",
@@ -39153,11 +39187,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 41,
         he: "בהדיא דקאזיל ומני מדרום למזרח וממזרח לצפון ומצפון למערב",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 41).",
+        en: "Rashi: continues - explicitly, going and counting from south to east, east to north, north to west,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-042",
@@ -39165,11 +39201,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 42,
         he: "וממערב לדרום והבא להקיף סביב כל הבית ומקיף דרך ימין",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 42).",
+        en: "Rashi: continues - and west to south; one coming to circle the whole House around circles to the right",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-043",
@@ -39177,11 +39215,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 43,
         he: "מבחוץ זהו סדר הקפתו ומתניתין דתמיד דלא פירש מידי איכא",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 43).",
+        en: "Rashi: continues - from outside - that is his circuit's order; and the Tamid mishna, which spelled out nothing, one can",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-044",
@@ -39189,11 +39229,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 44,
         he: "למימר דדרך שמאל מנה ותו לא תיקשי מידי מהשתא:",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 44).",
+        en: "Rashi: concludes - say counted by the left, and now nothing is difficult any longer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l07"
+        ]
       },
       {
         id: "rashi-yoma-017a-045",
@@ -39201,11 +39243,13 @@ const DAF_CONTENT = {
         daf: "17a",
         vilnaLine: 45,
         he: "אי",
-        en: "Rashi: continued Shewbread distribution and KG's portion discussion (line 45).",
+        en: "Rashi: the daf's final truncated word - 'if', the start of the dibbur hamatchil 'if you say granted' whose text continues on 17b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-017a-l09"
+        ]
       }
     ],
     review: {
