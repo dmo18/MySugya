@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.06: schema backfill is complete, the perek-level semantic
+As of VERSION 15.07: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -180,8 +180,9 @@ end. A first sub-chunk of 20a at VERSION 15.06 (see "20a, vilnaLine
 1-20" below) verified the 19b/20a boundary (20a's raw text opens
 "לפתח חטאת רובץ", restating 19b's truncated final word) and fixed
 20a's vilnaLine 1-20 (20a has 41 entries, one over the 40-entry
-split threshold, so it is split in two); vilnaLine 21-41 remain for
-a follow-up chunk. No
+split threshold, so it is split in two). A second sub-chunk at
+VERSION 15.07 (see "20a, vilnaLine 21-41" below) fixed the
+remaining 21 entries, closing 20a entirely (41/41 resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1764,6 +1765,26 @@ whose DH - "and if it is Torah law, how do we advance it" -
 continues on 20b, anchored to `l18`, the daf's own truncated final
 Gemara line covering Rav Kahana's objection) remain for the
 follow-up chunk.
+
+## 20a, vilnaLine 21-41 (VERSION 15.07), second half, closing 20a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 21-32
+continue `l12` (closing "before midnight", then the full
+"misuse of consecrated property" and "after midnight" comments,
+including the Pesachim 26a citation on why a limb that has already
+fulfilled its mitzva carries no misuse liability, and the Leviticus
+5 "sins by mistake against the sacred things" prooftext). vilnaLine
+33-40 open `l15` (the derivation itself: the two "all night" verses,
+one for burning and one for ash removal, split in half to yield
+midnight as the cutoff, including the note that the burnt offering's
+flesh is only called "ash" once consumed by fire). vilnaLine 41 is
+the daf's final truncated word "ואי", linked to `l18` (Rav Kahana's
+objection, 20a's own truncated final Gemara line); 20b's raw text
+was confirmed to open "ואי דאורייתא הוא היכי מקדמינן", the standard
+boundary pattern.
+
+All 21 fixed entries carry real zero-padded `yoma-020a-lXX` ids
+(`l12`, `l15`, `l18`). No deferrals. 20a is fully resolved, 41/41.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

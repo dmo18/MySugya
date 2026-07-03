@@ -45944,12 +45944,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 21,
         he: "קודם חצות. לילה: ומועלין בהן.",
-        en: "Commentary on the unresolved objection.",
+        en: "Rashi: opens and closes 'before midnight' - meaning at night. Then opens 'and they are subject to misuse of consecrated property' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45958,12 +45958,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 22,
         he: "וקודם חצות אינו חשוב עיכול באבר",
-        en: "Commentary on the resolution pending.",
+        en: "Rashi: continues - for before midnight it is not considered a full burning of the limb,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45972,12 +45972,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 23,
         he: "שיש בו עדיין ממש לפיכך צריך",
-        en: "Commentary on Rav Kahana's challenge.",
+        en: "Rashi: continues - since there is still substance in it, so it must",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -45986,12 +45986,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 24,
         he: "להחזירו למערכה וכיון שלא נעשית",
-        en: "Commentary on the continuation.",
+        en: "Rashi: continues - be returned to the arrangement; and since its commandment was not yet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46000,12 +46000,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 25,
         he: "כל מצותן קדשי ה' קרינן ביה ואית",
-        en: "Commentary on the ash removal timing on Yom Kippur.",
+        en: "Rashi: continues - fully performed, we call it 'sacred to the Lord', and there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l07"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46014,12 +46014,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 26,
         he: "ביה מעילה לנהנין ממנו: אחר חצות.",
-        en: "Commentary on the Festival first watch timing.",
+        en: "Rashi: concludes - is misuse of consecrated property for benefiting from it. Then opens 'after midnight' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l07"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46028,12 +46028,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 27,
         he: "אין צריך להחזיר (בו) שהחצות עושה",
-        en: "Commentary on Rav Kahana's source.",
+        en: "Rashi: continues - it need not be returned, for midnight brings about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l18"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46042,12 +46042,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 28,
         he: "עיכול באברים שמשלה בו האור",
-        en: "Commentary on the midnight derivation.",
+        en: "Rashi: continues - a full burning of limbs that the fire has already consumed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l15"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46056,12 +46056,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 29,
         he: "ואע\"פ שיש בו ממש כדיליף לה לקמיה:",
-        en: "Commentary on the verse from Leviticus.",
+        en: "Rashi: concludes - even though there is still substance in it, as it derives further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l15"
+          "yoma-020a-l12"
         ]
       },
       {
@@ -46070,7 +46070,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 30,
         he: "ואין מועלין בהן. כדקיי\"ל (פסחים דף",
-        en: "Commentary on the burning period.",
+        en: "Rashi: opens 'and they are not subject to misuse of consecrated property' - as we hold (Pesachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46084,7 +46084,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 31,
         he: "כו.) שנעשית מצותו אין מועלין בו כיון דלית בה צורך גבוה לא",
-        en: "Commentary on the ash removal period.",
+        en: "Rashi: continues - 26a) that once its commandment is performed there is no misuse of consecrated property for it, since it no longer serves a sacred purpose, we do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46098,7 +46098,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 32,
         he: "קרינן ביה קדשי ה' ובמעילה כתיב (ויקרא ה) וחטאה בשגגה מקדשי",
-        en: "Commentary on the Zevachim ruling.",
+        en: "Rashi: concludes - call it 'sacred to the Lord', and of misuse it is written (Leviticus 5): 'and sins by mistake against the sacred things of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46112,12 +46112,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 33,
         he: "ה': מנה\"מ. דחצות עושה עיכול: כל הלילה והקטיר. היא העולה",
-        en: "Commentary on displaced limbs.",
+        en: "Rashi: concludes - the Lord'. Then opens and closes 'from where do we derive this' - that midnight brings about full burning. Then opens 'all night, and he shall burn' - this is the burnt offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46126,12 +46126,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 34,
         he: "על מוקדה כל הלילה אלמא כל הלילה מצוה להיות על מוקדה",
-        en: "Commentary on sanctity before midnight.",
+        en: "Rashi: continues - upon its firewood all night, evidently all night is the mitzva for it to be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46140,12 +46140,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 35,
         he: "אלמא כל ליליא הויא הקטרת אברים ואפי' מה שעל המוקד אם",
-        en: "Commentary on ash status after midnight.",
+        en: "Rashi: continues - upon its firewood, meaning the burning of limbs continues the whole night, even a limb",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46154,12 +46154,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 36,
         he: "פקע: וכתוב אחד אומר כל הלילה והרים. דסמיך ליה לההוא",
-        en: "Commentary on the legal implications.",
+        en: "Rashi: concludes - that was forced off. Then opens 'and one verse says: all night, and he shall remove' - for it is adjacent to that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l12"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46168,7 +46168,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 37,
         he: "קרא ולבש הכהן מדו בד והרים הדשן אלמא כל הלילה הוא חשיב",
-        en: "Commentary on the night division.",
+        en: "Rashi: continues - verse, 'and the priest shall don his linen garment... and remove the ashes', evidently all night it is still considered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46182,7 +46182,7 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 38,
         he: "כעיכול וקרי בשר העולה דשן משמשלה בו האור וכשר להרימו:",
-        en: "Commentary on Rav's derivation method.",
+        en: "Rashi: concludes - a full burning, and the flesh of the burnt offering is called ash once the fire has consumed it, fit to be removed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46196,12 +46196,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 39,
         he: "חציו להקטרה. שאינו עיכול ואם פקעו צריך להחזיר להקטיר",
-        en: "Commentary on the opening of Chapter 2.",
+        en: "Rashi: opens 'half for burning' - meaning it is not yet a full burning, and if forced off it must be returned to burn,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l07"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46210,12 +46210,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 40,
         he: "וחציו להרמה מחצות ולהלן קרוי דשן אלמא חצות משויא ליה עיכול:",
-        en: "Commentary on the transition from Chapter 1.",
+        en: "Rashi: concludes - and half for removal, from midnight onward it is called ash, evidently midnight makes it a full burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l01"
+          "yoma-020a-l15"
         ]
       },
       {
@@ -46224,12 +46224,12 @@ const DAF_CONTENT = {
         daf: "20a",
         vilnaLine: 41,
         he: "ואי",
-        en: "Commentary on Satan's limitation on Yom Kippur.",
+        en: "Rashi: the daf's final truncated word - 'and if', the start of the dibbur hamatchil 'and if it is Torah law, how do we advance it' whose text continues on 20b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020a-l01"
+          "yoma-020a-l18"
         ]
       }
     ],
