@@ -421,7 +421,7 @@
       "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
     }
   ],
-    "rashiTranslations": [
+      "rashiTranslations": [
     {
       "vilnaLine": 1,
       "en": "Rashi: opens 'that the kings of the idolaters defiled them', completing the word begun on 15b - they burned offerings on them for idolatry",
@@ -641,192 +641,212 @@
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: 300 kohanim were needed to carry the golden vine when it had to be moved.",
+      "en": "Rashi: continues - sprinkles the blood, as it is written (Numbers 19): 'and he shall sprinkle",
       "linkedGemaraLineIds": [
-        "yoma-16a-l32"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: the enormous weight was from the accumulated gold donations over generations.",
+      "en": "Rashi: continues - toward the front of the Tent of Meeting, etc.'; and if",
       "linkedGemaraLineIds": [
-        "yoma-16a-l32"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: some say Rav Huna's proof for the eastern wall height is from the Shewbread (lechem ha-panim) chamber connection.",
+      "en": "Rashi: continues - the wall were high, even though the gates",
       "linkedGemaraLineIds": [
-        "yoma-16a-l32"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: the eastern wall height is derived from the cherubim's dimensions - a cubits calculation based on the verse.",
+      "en": "Rashi: continues - are aligned one opposite the other - the Temple Mount gate",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: the Sanctuary (Heikhal) height of 40 cubits is derived from cherubim measurements: each cherub 10 cubits, wing 5, half span = 20 = height.",
+      "en": "Rashi: continues - opposite the Women's Courtyard gate, the Women's",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: the House measured 20 cubits in width = cherubim wing span = so the House was 20 cubits high (inner dimension) by this analogy.",
+      "en": "Rashi: continues - Courtyard gate opposite the great Courtyard gate,",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: from the '20 cubit height' of the Heikhal we can derive the eastern wall's total height by adding foundation and upper floor dimensions.",
+      "en": "Rashi: continues - and the Courtyard gate opposite the Sanctuary entrance - he could not",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: 'if you say Middot is R. Yehuda's' - the counter-hypothesis about the eastern wall measurement.",
+      "en": "Rashi: continues - have seen the Sanctuary entrance",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: if Middot followed R. Yehuda, the altar would be centered in the courtyard, but a Tamid mishna contradicts that - proving Middot is not R. Yehuda.",
+      "en": "Rashi: continues - through the gateways, because the Mount keeps rising",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: the Tamid mishna (which describes the Overseer saying 'arise') contradicts R. Yehuda's centered-altar view.",
+      "en": "Rashi: continues - higher until the ground of the Sanctuary entrance",
       "linkedGemaraLineIds": [
-        "yoma-16a-l35"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 42).",
+      "en": "Rashi: continues - is twenty cubits above the ground at the foot of",
       "linkedGemaraLineIds": [
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 43).",
+      "en": "Rashi: continues - the Temple Mount, so the Sanctuary threshold turns out",
       "linkedGemaraLineIds": [
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 44).",
+      "en": "Rashi: continues - higher than the lintel of the Temple Mount gate, and he could not",
       "linkedGemaraLineIds": [
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 45).",
+      "en": "Rashi: continues - see the opening of the Sanctuary entrance through",
       "linkedGemaraLineIds": [
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 46).",
+      "en": "Rashi: concludes - that gate. Then opens 'and we learned: all the gateways, etc., and we learned: within it, etc.' - all these citations are brought here to explain that the lowest entrance is found blocked",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 47).",
+      "en": "Rashi: concludes - by the Temple Mount's steps only per Rabbi Eliezer ben Yaakov. Then opens 'twenty cubits high' - since they are twenty cubits high, you do not find it sealed by the Mount's steps",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 48).",
+      "en": "Rashi: concludes - according to the Rabbis. Then opens 'within it a soreg' - it stood inward of the eastern wall, a partition full of holes like the crisscross webbing of a rope bed, made",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 49).",
+      "en": "Rashi: concludes - of long and short wooden slats (called lattes) mounted diagonally one over another, called prodni in Old French. Then opens 'within' - inward of that soreg",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 50).",
+      "en": "Rashi: concludes - was an open space of ten cubits, called the chel. Then opens 'and twelve steps were there' - within those ten cubits the Mount rises from the soreg to the Women's Courtyard gate,",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 51).",
+      "en": "Rashi: concludes - each step half a cubit high, so the Women's Courtyard ground has risen six cubits. Then opens 'and its run' - the tread depth of each step, half a cubit, its length spanning the Mount's whole width",
       "linkedGemaraLineIds": [
+        "yoma-016a-l23"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 52).",
+      "en": "Rashi: concludes - north to south. Then opens 'fifteen steps' - the Israelite Courtyard ground above the Women's Courtyard, so the Mount has risen thirteen and a half cubits. Then opens 'and we learned: between the Hall and the altar, twelve",
       "linkedGemaraLineIds": [
+        "yoma-016a-l26"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 53).",
+      "en": "Rashi: continues - steps' - so the Sanctuary ground stands nineteen and a half cubits above the lowest Temple Mount ground, still leaving the upper half cubit of the lowest gate to see",
       "linkedGemaraLineIds": [
+        "yoma-016a-l26"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 54).",
+      "en": "Rashi: concludes - through it the bottom half cubit of the Sanctuary entrance's opening. Then opens 'and we learned: Rabbi Eliezer ben Yaakov says there was a step' - an additional one in the Israelite Courtyard, a cubit high, running the width",
       "linkedGemaraLineIds": [
+        "yoma-016a-l29"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 55).",
+      "en": "Rashi: concludes - of the whole Courtyard. Then opens and closes 'and a platform' - of the Levites, built on it, a cubit and a half high. Then opens and closes 'with three steps of half a cubit each' - by which one ascends the platform. Then opens 'granted, if you say' - the unattributed mishna teaching",
       "linkedGemaraLineIds": [
+        "yoma-016a-l30"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 56).",
+      "en": "Rashi: concludes - that the eastern wall was low enough to see over it, through the Women's Courtyard and Israelite Courtyard gates, the opening of the Sanctuary entrance. Then opens 'it is Rabbi Eliezer ben Yaakov' - who holds the extra step, raising",
       "linkedGemaraLineIds": [
+        "yoma-016a-l30"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 57).",
+      "en": "Rashi: concludes - the Sanctuary ground twenty and a half cubits above the lowest ground. Then opens and closes 'that is why the entrance is concealed' - the lowest gate, by the height of the Sanctuary ground. Then opens 'but if you say the Rabbis' - the steps",
       "linkedGemaraLineIds": [
+        "yoma-016a-l31"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 58).",
+      "en": "Rashi: concludes - climbed only nineteen and a half cubits, leaving half a cubit through which the Sanctuary entrance shows, for the priest on the Mount of Olives. Then opens 'Rav Adda bar Ahava said: whose is this' -",
       "linkedGemaraLineIds": [
+        "yoma-016a-l32"
       ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 59).",
+      "en": "Rashi: continues - the teaching that the eastern wall had to be low is Rabbi Yehuda's, who says the altar stood in the middle of the Courtyard opposite the gates, so its height blocks the lowest entrance,",
       "linkedGemaraLineIds": [
+        "yoma-016a-l32"
       ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 60).",
+      "en": "Rashi: concludes - for the Israelite Courtyard ground had risen thirteen and a half cubits before reaching the altar, and the altar is nine high - twenty-two and a half in all",
       "linkedGemaraLineIds": [
+        "yoma-016a-l32"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi: continued Temple measurement and attribution discussion (line 61).",
+      "en": "Rashi: the daf's final truncated word - 'ten', the start of the dibbur hamatchil 'ten cubits opposite the Sanctuary entrance' whose text continues on 16b",
       "linkedGemaraLineIds": [
+        "yoma-016a-l35"
       ]
     }
   ]

@@ -36910,12 +36910,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 32,
         he: "מזה בדם כדכתיב (במדבר יט) והזה",
-        en: "Rashi: 300 kohanim were needed to carry the golden vine when it had to be moved.",
+        en: "Rashi: continues - sprinkles the blood, as it is written (Numbers 19): 'and he shall sprinkle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l32"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36924,12 +36924,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 33,
         he: "אל נוכח פני אהל מועד וגו' ואם",
-        en: "Rashi: the enormous weight was from the accumulated gold donations over generations.",
+        en: "Rashi: continues - toward the front of the Tent of Meeting, etc.'; and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l32"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36938,12 +36938,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 34,
         he: "היתה הכותל גבוה אע\"פ שהשערים",
-        en: "Rashi: some say Rav Huna's proof for the eastern wall height is from the Shewbread (lechem ha-panim) chamber connection.",
+        en: "Rashi: continues - the wall were high, even though the gates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l32"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36952,12 +36952,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 35,
         he: "מכוונים זה כנגד זה שער הר הבית",
-        en: "Rashi: the eastern wall height is derived from the cherubim's dimensions - a cubits calculation based on the verse.",
+        en: "Rashi: continues - are aligned one opposite the other - the Temple Mount gate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36966,12 +36966,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 36,
         he: "כנגד שער עזרת נשים ושער עזרת",
-        en: "Rashi: the Sanctuary (Heikhal) height of 40 cubits is derived from cherubim measurements: each cherub 10 cubits, wing 5, half span = 20 = height.",
+        en: "Rashi: continues - opposite the Women's Courtyard gate, the Women's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36980,12 +36980,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 37,
         he: "נשים כנגד שער העזרה הגדולה",
-        en: "Rashi: the House measured 20 cubits in width = cherubim wing span = so the House was 20 cubits high (inner dimension) by this analogy.",
+        en: "Rashi: continues - Courtyard gate opposite the great Courtyard gate,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36994,12 +36994,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 38,
         he: "ושער העזרה כנגד פתח ההיכל לא",
-        en: "Rashi: from the '20 cubit height' of the Heikhal we can derive the eastern wall's total height by adding foundation and upper floor dimensions.",
+        en: "Rashi: continues - and the Courtyard gate opposite the Sanctuary entrance - he could not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -37008,12 +37008,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 39,
         he: "היה יכול לראות את פתח ההיכל",
-        en: "Rashi: 'if you say Middot is R. Yehuda's' - the counter-hypothesis about the eastern wall measurement.",
+        en: "Rashi: continues - have seen the Sanctuary entrance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -37022,12 +37022,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 40,
         he: "דרך פתחים לפי שההר הולך ומגביה",
-        en: "Rashi: if Middot followed R. Yehuda, the altar would be centered in the courtyard, but a Tamid mishna contradicts that - proving Middot is not R. Yehuda.",
+        en: "Rashi: continues - through the gateways, because the Mount keeps rising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -37036,12 +37036,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 41,
         he: "ועולה עד שקרקע פתח ההיכל",
-        en: "Rashi: the Tamid mishna (which describes the Overseer saying 'arise') contradicts R. Yehuda's centered-altar view.",
+        en: "Rashi: continues - higher until the ground of the Sanctuary entrance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l35"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -37050,11 +37050,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 42,
         he: "גבוה כ' אמות יותר מקרקעי רגלי",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 42).",
+        en: "Rashi: continues - is twenty cubits above the ground at the foot of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l20"
+        ]
       },
       {
         id: "rashi-yoma-016a-043",
@@ -37062,11 +37064,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 43,
         he: "הר הבית ונמצאת איסקופת ההיכל",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 43).",
+        en: "Rashi: continues - the Temple Mount, so the Sanctuary threshold turns out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l20"
+        ]
       },
       {
         id: "rashi-yoma-016a-044",
@@ -37074,11 +37078,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 44,
         he: "גבוהה ממשקוף פתח הר הבית ולא",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 44).",
+        en: "Rashi: continues - higher than the lintel of the Temple Mount gate, and he could not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l20"
+        ]
       },
       {
         id: "rashi-yoma-016a-045",
@@ -37086,11 +37092,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 45,
         he: "יוכל לראות חלל פתח היכל דרך",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 45).",
+        en: "Rashi: continues - see the opening of the Sanctuary entrance through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l20"
+        ]
       },
       {
         id: "rashi-yoma-016a-046",
@@ -37098,11 +37106,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 46,
         he: "אותו פתח: ותנן כל הפתחים וכו' ותנן לפנים הימנו וכו'. כל הני תנן ותנן דקא מייתי הכא לפרושי אתי דלא משכחת דאיכסי",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 46).",
+        en: "Rashi: concludes - that gate. Then opens 'and we learned: all the gateways, etc., and we learned: within it, etc.' - all these citations are brought here to explain that the lowest entrance is found blocked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-047",
@@ -37110,11 +37120,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 47,
         he: "פיתחא תתאה במעלות הר הבית אלא לר' אליעזר בן יעקב: גבוהין עשרים אמה. כיון דגבוהין עשרים אמה לא משכחת שנסתם במעלות",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 47).",
+        en: "Rashi: concludes - by the Temple Mount's steps only per Rabbi Eliezer ben Yaakov. Then opens 'twenty cubits high' - since they are twenty cubits high, you do not find it sealed by the Mount's steps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-048",
@@ -37122,11 +37134,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 48,
         he: "ההר לרבנן: לפנים ממנו סורג. היה שם לפנים מכותל מזרחי והיא מחיצה העשויה נקבים נקבים כסירוגי מטה של חבלים ועושין",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 48).",
+        en: "Rashi: concludes - according to the Rabbis. Then opens 'within it a soreg' - it stood inward of the eastern wall, a partition full of holes like the crisscross webbing of a rope bed, made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-049",
@@ -37134,11 +37148,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 49,
         he: "אותה בדפי עץ ארוכים וקצרים שקורין לט\"ש ומרכיבין אותן זו על גב זו באלכסון וקורין אותן בלע\"ז פרודנ\"י: לפנים. מאותו סורג",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 49).",
+        en: "Rashi: concludes - of long and short wooden slats (called lattes) mounted diagonally one over another, called prodni in Old French. Then opens 'within' - inward of that soreg",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-050",
@@ -37146,11 +37162,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 50,
         he: "היה מקום פנוי י' אמות והוא נקרא חיל: ושתים עשרה מעלות היו. באותן י' אמות שההר מגביה מן הסורג עד שער עזרת נשים",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 50).",
+        en: "Rashi: concludes - was an open space of ten cubits, called the chel. Then opens 'and twelve steps were there' - within those ten cubits the Mount rises from the soreg to the Women's Courtyard gate,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-051",
@@ -37158,11 +37176,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 51,
         he: "רום כל מעלה ומעלה חצי אמה הרי שעלה קרקע עזרת נשים ו' אמות: ושלחה. משך רוחב המעלה חצי אמה ואורכה בכל רוחב ההר",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 51).",
+        en: "Rashi: concludes - each step half a cubit high, so the Women's Courtyard ground has risen six cubits. Then opens 'and its run' - the tread depth of each step, half a cubit, its length spanning the Mount's whole width",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l23"
+        ]
       },
       {
         id: "rashi-yoma-016a-052",
@@ -37170,11 +37190,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 52,
         he: "לצפון ולדרום: ט\"ו מעלות. גובה קרקע עזרת ישראל מעזרת נשים הרי שעלה ההר י\"ג אמה וחצי: ותנן בין האולם למזבח י\"ב",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 52).",
+        en: "Rashi: concludes - north to south. Then opens 'fifteen steps' - the Israelite Courtyard ground above the Women's Courtyard, so the Mount has risen thirteen and a half cubits. Then opens 'and we learned: between the Hall and the altar, twelve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l26"
+        ]
       },
       {
         id: "rashi-yoma-016a-053",
@@ -37182,11 +37204,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 53,
         he: "מעלות. הרי שגבה קרקע היכל מקרקע הר הבית התחתון תשע עשרה אמה וחצי עדיין נשאר מן הפתח התחתון חצי אמה עליונה לראות",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 53).",
+        en: "Rashi: continues - steps' - so the Sanctuary ground stands nineteen and a half cubits above the lowest Temple Mount ground, still leaving the upper half cubit of the lowest gate to see",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l26"
+        ]
       },
       {
         id: "rashi-yoma-016a-054",
@@ -37194,11 +37218,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 54,
         he: "דרך שם חצי אמה התחתונה של חלל פתח ההיכל: ותנן ר\"א בן יעקב אומר מעלה היתה. עוד בעזרת ישראל וגבוהה אמה ואורכה ברוחב",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 54).",
+        en: "Rashi: concludes - through it the bottom half cubit of the Sanctuary entrance's opening. Then opens 'and we learned: Rabbi Eliezer ben Yaakov says there was a step' - an additional one in the Israelite Courtyard, a cubit high, running the width",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l29"
+        ]
       },
       {
         id: "rashi-yoma-016a-055",
@@ -37206,11 +37232,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 55,
         he: "כל העזרה: ודוכן. של לוים בנוי עליה וגבוה אמה וחצי: ובו ג' מעלות של חצי אמה. שעולין בהן לדוכן: אי אמרת בשלמא. סתמא דקתני",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 55).",
+        en: "Rashi: concludes - of the whole Courtyard. Then opens and closes 'and a platform' - of the Levites, built on it, a cubit and a half high. Then opens and closes 'with three steps of half a cubit each' - by which one ascends the platform. Then opens 'granted, if you say' - the unattributed mishna teaching",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l30"
+        ]
       },
       {
         id: "rashi-yoma-016a-056",
@@ -37218,11 +37246,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 56,
         he: "דכותל מזרחי נמוך כדי לראות ממעל לו דרך שערי עזרת נשים ועזרת ישראל את חלל פתח ההיכל: ר\"א היא. דאית ליה מעלה יתירה וגבה",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 56).",
+        en: "Rashi: concludes - that the eastern wall was low enough to see over it, through the Women's Courtyard and Israelite Courtyard gates, the opening of the Sanctuary entrance. Then opens 'it is Rabbi Eliezer ben Yaakov' - who holds the extra step, raising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l30"
+        ]
       },
       {
         id: "rashi-yoma-016a-057",
@@ -37230,11 +37260,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 57,
         he: "קרקע ההיכל מקרקע התחתון כ' אמה וחצי : היינו דאיכסי ליה. פתח התחתון בגובה קרקע ההיכל: אלא אי אמרת רבנן. הרי לא עלו",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 57).",
+        en: "Rashi: concludes - the Sanctuary ground twenty and a half cubits above the lowest ground. Then opens and closes 'that is why the entrance is concealed' - the lowest gate, by the height of the Sanctuary ground. Then opens 'but if you say the Rabbis' - the steps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l31"
+        ]
       },
       {
         id: "rashi-yoma-016a-058",
@@ -37242,11 +37274,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 58,
         he: "המעלות אלא י\"ט אמה וחצי ופש ליה פלגא אמתא דמיתחזי ליה פתח ההיכל בגוויה לכהן שבהר הזיתים: רב אדא בר אהבה אמר הא מני.",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 58).",
+        en: "Rashi: concludes - climbed only nineteen and a half cubits, leaving half a cubit through which the Sanctuary entrance shows, for the priest on the Mount of Olives. Then opens 'Rav Adda bar Ahava said: whose is this' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l32"
+        ]
       },
       {
         id: "rashi-yoma-016a-059",
@@ -37254,11 +37288,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 59,
         he: "דקתני דכותל מזרחי הוצרך להיות נמוך ר' יהודה היא דאמר המזבח עומד באמצע העזרה כנגד הפתחים ונמצא גובהו סותם את הפתח התחתון",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 59).",
+        en: "Rashi: continues - the teaching that the eastern wall had to be low is Rabbi Yehuda's, who says the altar stood in the middle of the Courtyard opposite the gates, so its height blocks the lowest entrance,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l32"
+        ]
       },
       {
         id: "rashi-yoma-016a-060",
@@ -37266,11 +37302,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 60,
         he: "שהרי עלה קרקע עזרת ישראל מקרקע התחתון י\"ג אמה וחצי אמה קודם שהגיע למזבח והמזבח גובהו תשע הרי עשרים ושתים וחצי:",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 60).",
+        en: "Rashi: concludes - for the Israelite Courtyard ground had risen thirteen and a half cubits before reaching the altar, and the altar is nine high - twenty-two and a half in all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l32"
+        ]
       },
       {
         id: "rashi-yoma-016a-061",
@@ -37278,11 +37316,13 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 61,
         he: "עשר",
-        en: "Rashi: continued Temple measurement and attribution discussion (line 61).",
+        en: "Rashi: the daf's final truncated word - 'ten', the start of the dibbur hamatchil 'ten cubits opposite the Sanctuary entrance' whose text continues on 16b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016a-l35"
+        ]
       }
     ],
     review: {

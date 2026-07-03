@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.92: schema backfill is complete, the perek-level semantic
+As of VERSION 14.93: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -127,8 +127,11 @@ previously had empty linkedGemaraLineIds and placeholder text. A
 first sub-chunk of 16a at VERSION 14.92 (see "16a, vilnaLine 1-31"
 below) verified the 15b/16a boundary (16a's raw text opens "ששיקצום
 מלכי עובדי כוכבים", restating 15b's truncated final word) and fixed
-16a's vilnaLine 1-31 (16a has 61 entries, split in two); vilnaLine
-32-61 remain for a follow-up chunk. No
+16a's vilnaLine 1-31 (16a has 61 entries, split in two). A second
+sub-chunk at VERSION 14.93 (see "16a, vilnaLine 32-61" below) fixed
+the remaining 30 entries, closing 16a entirely (61/61 resolved),
+including 20 entries that previously had empty linkedGemaraLineIds
+and stub text. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1193,6 +1196,42 @@ full validator suite but was lost, uncommitted, when the session's
 container was recycled; the work was re-applied identically from the
 retained fix content and re-validated before commit. No pushed
 history was affected.
+
+## 16a, vilnaLine 32-61 (VERSION 14.93), second half, closing 16a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 32-45
+continue `l20` (the long "and directs his gaze and sees" comment:
+the Numbers 19 sprinkling verse, the aligned gates from the Temple
+Mount gate through to the Sanctuary entrance, and why the rising
+Mount would hide the entrance if the eastern wall were tall, since
+the Sanctuary floor sits twenty cubits above the Mount's foot).
+vilnaLine 46-51 open `l23` (the chained "and we learned" citations:
+gateways twenty cubits high, the soreg lattice - Rashi describes its
+diagonal wooden slats and gives the Old French name prodni - the
+ten-cubit chel, its twelve half-cubit steps, and the tread depth).
+vilnaLine 52-53 open `l26` (the fifteen steps to the Israelite
+Courtyard and the twelve steps between the Hall and the altar,
+totaling nineteen and a half cubits, leaving half a cubit of
+sight-line). vilnaLine 54 opens `l29` (Rabbi Eliezer ben Yaakov's
+extra cubit-high step with the Levites' platform). vilnaLine 55-56
+open `l30` (the "granted, if you say" argument: with his extra step
+the entrance is concealed). vilnaLine 57 opens `l31` (but per the
+Rabbis half a cubit remains visible). vilnaLine 58-60 open `l32`
+(Rav Adda bar Ahava's alternative: the mishna is Rabbi Yehuda, whose
+centered altar - nine cubits atop the thirteen and a half already
+climbed - blocks the view at twenty-two and a half cubits).
+vilnaLine 61 is the daf's final truncated word "עשר", linked to
+`l35` ("עֶשֶׂר", 16a's own truncated final Gemara line); 16b's raw
+text was confirmed to open "עשר אמות כנגד פתחו של היכל", the
+standard boundary pattern.
+
+This sub-chunk also repaired vilnaLine 42-61, which previously had
+EMPTY `linkedGemaraLineIds` and stub text, and replaced English on
+vilnaLine 32-38 that had drifted into golden-vine material from
+Middot 3:8 appearing nowhere on this daf. All 30 fixed entries carry
+real zero-padded `yoma-016a-lXX` ids (`l20`, `l23`, `l26`, `l29`,
+`l30`, `l31`, `l32`, `l35`). No deferrals. 16a is fully resolved,
+61/61.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
