@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.07: schema backfill is complete, the perek-level semantic
+As of VERSION 15.08: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -182,7 +182,12 @@ end. A first sub-chunk of 20a at VERSION 15.06 (see "20a, vilnaLine
 20a's vilnaLine 1-20 (20a has 41 entries, one over the 40-entry
 split threshold, so it is split in two). A second sub-chunk at
 VERSION 15.07 (see "20a, vilnaLine 21-41" below) fixed the
-remaining 21 entries, closing 20a entirely (41/41 resolved). No
+remaining 21 entries, closing 20a entirely (41/41 resolved). A first
+sub-chunk of 20b at VERSION 15.08 (see "20b, vilnaLine 1-31" below)
+verified the 20a/20b boundary (20b's raw text opens "ואי דאורייתא
+הוא היכי מקדמינן", restating 20a's truncated final word) and fixed
+20b's vilnaLine 1-31 (20b has 62 entries, split in two); vilnaLine
+32-62 remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1785,6 +1790,44 @@ boundary pattern.
 
 All 21 fixed entries carry real zero-padded `yoma-020a-lXX` ids
 (`l12`, `l15`, `l18`). No deferrals. 20a is fully resolved, 41/41.
+
+## 20b, vilnaLine 1-31 (VERSION 15.08), first half of a two-part daf
+
+Verified the 20a/20b boundary first: 20b's raw talmud.dev Rashi text
+opens "ואי דאורייתא הוא היכי מקדמינן. גרסינן ולא גרסינן", restating
+and completing 20a's truncated final word "ואי" - no regression, no
+change needed on 20a.
+
+20b has 62 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-31 here, vilnaLine 32-62 in a follow-up chunk. 20b has
+11 real lines (`yoma-020b-l01`, `l02`, `l05`, `l11`, `l13`, `l18`,
+`l24`, `l28`, `l33`, `l35`, and the truncated `l40`), spanning three
+sugyot (`s01`: l01-l05, vilna 1-10; `s02`: l11-l24, vilna 11-27;
+`s03`: l28-l40, vilna 28-49).
+
+vilnaLine 1-3 open `l01` (the challenge: if midnight were
+Torah-fixed, why can it be advanced or delayed, since half-consumed
+ash is equally fit for removal regardless of timing). vilnaLine 4-20
+open `l02` (Rabbi Yochanan's resolution: the "all night...until
+morning" verse gives a second morning, dawn, meaning the Torah's own
+cutoff for burning is not stated, so the Sages inferred midnight;
+this single long comment continues into the practical outcome that
+daily removal needs only the rooster's crow, without a formal new
+DH marker - not every clause gets its own dibbur hamatchil).
+vilnaLine 20-32 open `l05` (Yom Kippur's High-Priest weakness
+requiring an earlier start, and the Festivals' abundant offerings
+requiring removal from the first watch, with the Tamid 28b citation
+on the tapuach ash-heap).
+
+All 31 fixed entries carry real zero-padded `yoma-020b-lXX` ids
+(`l01`, `l02`, `l05`). No deferrals in this sub-chunk. vilnaLine
+32-62 (the "who crowed" dispute between Rav and Rabbi Sheila, the
+Rav-in-Rabbi-Sheila's-territory anecdote with its wool-carding and
+"one elevates in sanctity but does not lower" proverbs, Gevini the
+herald, King Agrippa's account of hearing the confession from three
+parasangs, the sun's wheel drowning out human voices, and the
+truncated final word "וי"א" continuing onto 21a) remain for the
+follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

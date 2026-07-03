@@ -46705,7 +46705,7 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 1,
         he: "ואי דאורייתא הוא היכי מקדמינן. גרסינן ולא גרסינן היכי מאחרינן",
-        en: "And if it enters your mind that midnight is Torah law - how do we advance it on Festivals and delay it on ordinary days?",
+        en: "Rashi: opens 'and if it is Torah law, how do we advance it', completing the word begun on 20a - do we read this way, or do we not read it, asking instead how do we delay it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -46719,12 +46719,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 2,
         he: "הלא כל חציו ראוי להרמה ומה לנו אם יאחר: היכי מקדמינן.",
-        en: "Rather R. Yochanan said - the derivation is different. From the fact that it says 'all night' don't I know it means until morning? So why add 'until morning'?",
+        en: "Rashi: continues - is not the whole half fit for removal, so what does it matter to us if it is delayed? Then opens 'how do we advance it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l02"
+          "yoma-020b-l01"
         ]
       },
       {
@@ -46733,12 +46733,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 3,
         he: "אפילו דשן המעוכל יפה והא אמרת חציו להרמה אלמא אין חצי",
-        en: "Add a morning to the morning of the night - make it before dawn, early enough for the need at hand. The time is not fixed.",
+        en: "Rashi: concludes - even fully-consumed ash, yet you said half is for removal, evidently not the first half is fit for that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l02"
+          "yoma-020b-l01"
         ]
       },
       {
@@ -46747,12 +46747,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 4,
         he: "הראשון כשר לכך: אלא א\"ר יוחנן. לא תימא חציו לכך וחציו לכך",
-        en: "Therefore every day at the crow - since on an ordinary day removing the ashes just before dawn suffices.",
+        en: "Rashi: concludes - purpose. Then opens 'rather, Rabbi Yochanan said' - do not say half for one and half for the other,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l05"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46761,12 +46761,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 5,
         he: "אלא הכי דריש הכתוב הכשר כל הלילה",
-        en: "On Yom Kippur there is the weakness of the KG - he fasts all day, so begin at midnight.",
+        en: "Rashi: continues - rather the verse is expounded thus: it validates the whole night",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l05"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46775,12 +46775,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 6,
         he: "בין להקטרה שאין מעוכלין בין להרמה",
-        en: "On Festivals the Jewish people and offerings are numerous - begin from the first watch.",
+        en: "Rashi: continues - both for burning limbs not yet fully consumed and for removal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l05"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46789,12 +46789,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 7,
         he: "אם יש דשן מעוכל וחצות דעושה",
-        en: "As taught in the mishna - confirmed by the mishna's own reason: the courtyard was full before the rooster crowed.",
+        en: "Rashi: continues - if there is fully-consumed ash, and midnight brings about a full",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l05"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46803,12 +46803,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 8,
         he: "עיכול באברים שמשלה בהן האור",
-        en: "What is keriat hagever? The question the Gemara examines.",
+        en: "Rashi: continues - burning for limbs the fire has already consumed;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l11"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46817,12 +46817,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 9,
         he: "מהכא נפקא ממשמע שנאמר בהקטרה",
-        en: "Rav said: the call of a man - an appointed crier called the priests to service.",
+        en: "Rashi: continues - this we derive from here: from the implication that it says of burning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l11"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46831,12 +46831,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 10,
         he: "כל הלילה על מוקדה איני יודע שעד",
-        en: "R. Sheila said: the call of the rooster - gever also means rooster in Hebrew.",
+        en: "Rashi: continues - 'all night, on its firewood' - would I not know that it is until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l11"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46845,12 +46845,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 11,
         he: "הבקר קרוי לילה: ומה ת\"ל עד בקר",
-        en: "Rav happened to come to R. Sheila's town - Rav was not yet famous there.",
+        en: "Rashi: concludes - morning that it is called night? Then opens 'and what does the verse teach by saying until morning' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l13"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46859,12 +46859,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 12,
         he: "תן השכמה אחרת לבקרו של לילה.",
-        en: "There was no disseminator for R. Sheila - Rav volunteered to disseminate the lecture.",
+        en: "Rashi: continues - give it a different morning, the morning of the night.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l13"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46873,12 +46873,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 13,
         he: "בוקרו של לילה הוא עלות השחר",
-        en: "A flute for noblemen is music; for weavers they reject it - the sophisticated appreciate my interpretation.",
+        en: "Rashi: continues - The morning of the night is dawn,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l13"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46887,12 +46887,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 14,
         he: "ונתן לך הכתוב בו בקר אחר לומר",
-        en: "When I stood before R. Chiyya - Rav cites his precedent; R. Chiyya did not object.",
+        en: "Rashi: continues - and the verse gave you a different morning to say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l18"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46901,12 +46901,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 15,
         he: "שאין צריך להקטיר מן השכמה ואילך",
-        en: "Is the Master Rav? Let him rest - R. Sheila, recognizing Rav, offers to excuse him from the task.",
+        en: "Rashi: continues - that one need not burn from dawn onward;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l18"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46915,12 +46915,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 16,
         he: "וכיון שלא נתן זמן באותו בקר על",
-        en: "If you hired yourself out, comb the wool - complete the task you undertook.",
+        en: "Rashi: continues - and since it gave no time within that morning, perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l18"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46929,12 +46929,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 17,
         he: "כרחך הוא חצות לילה הלכך הואיל",
-        en: "We elevate in holiness - once a great man is doing a task, a lesser man cannot replace him.",
+        en: "Rashi: continues - it is midnight; therefore, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l18"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46943,12 +46943,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 18,
         he: "וכל הלילה כשר להרמה קבעו חכמים",
-        en: "A baraita was taught like Rav; a baraita like R. Sheila - both have support.",
+        en: "Rashi: continues - the whole night is valid for removal, the Sages fixed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l24"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46957,12 +46957,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 19,
         he: "זמנה הכל לפי שעה בכל יום",
-        en: "Gevini the Crier - his call 'Arise, priests!' was the Temple's official dawn signal.",
+        en: "Rashi: continues - its time to be flexible each day, since offerings are not numerous",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l24"
+          "yoma-020b-l02"
         ]
       },
       {
@@ -46971,12 +46971,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 20,
         he: "דלא נפישי קרבנות ורב להם היום",
-        en: "His voice was heard three parasangs - approximately 8 miles, an extraordinary reach.",
+        en: "Rashi: concludes - and the day suffices them with the crow of the rooster. Then opens 'on Yom Kippur, where there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l24"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -46985,12 +46985,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 21,
         he: "בקרות הגבר סגי: ביוה\"כ דאיכא",
-        en: "Commentary on the baraita supporting R. Sheila.",
+        en: "Rashi: continues - weakness of the High Priest' - for the whole burden falls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l24"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -46999,12 +46999,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 22,
         he: "חולשא דכ\"ג. שהרי עליו לבדו הוא",
-        en: "Commentary on Gevini's role in the Temple.",
+        en: "Rashi: concludes - on him alone, he must rise earlier. Then opens 'for offerings are numerous' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47013,12 +47013,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 23,
         he: "מוטל צריך להשכים יותר: דנפישי",
-        en: "Commentary on the Temple crier's proclamation.",
+        en: "Rashi: continues - and the ash is abundant at the arrangement's place,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47027,12 +47027,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 24,
         he: "קרבנות. ורב הדשן במקום המערכה",
-        en: "King Agrippa sent him gifts - impressed by the voice carrying three parasangs.",
+        en: "Rashi: continues - and one must raise the ash to the tapuach after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47041,12 +47041,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 25,
         he: "וצריך להעלות את הדשן לתפוח לאחר",
-        en: "The Sages said: do not accept them - lest other priests become jealous of the favoritism.",
+        en: "Rashi: continues - the removal, as we learned in tractate Tamid (28b):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47055,12 +47055,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 26,
         he: "ההרמה כדתנן במסכת תמיד (דף כח:)",
-        en: "Commentary on Gevini and the king.",
+        en: "Rashi: continues - they raise the ash to the tapuach, and the tapuach is a heap",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47069,12 +47069,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 27,
         he: "מעלין האפר לתפוח ותפוח הוא גל",
-        en: "Commentary on the rabbinic concern about gifts.",
+        en: "Rashi: continues - of ash like a heap of grapes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47083,12 +47083,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 28,
         he: "של אפר כמין תפוח של ענבים",
-        en: "The KG's voice announcing his immersion was heard in Jericho - 10 parasangs.",
+        en: "Rashi: continues - trodden in the winepress, where they gathered the ash of all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47097,12 +47097,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 29,
         he: "הנדרך בגת ששם כנסו אפר של כל",
-        en: "Other sounds of the Temple reached Jericho - the gates opening, the psalm.",
+        en: "Rashi: continues - the days of the Festival, and it was in the middle of the altar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47111,12 +47111,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 30,
         he: "ימות החג והוא באמצע המזבח",
-        en: "Commentary on the various Temple sounds.",
+        en: "Rashi: continues - and sometimes it was as much as three hundred kor,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47125,12 +47125,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 31,
         he: "ופעמים שהוא עליו כג' מאות כור",
-        en: "Commentary on Jericho as benchmark distance.",
+        en: "Rashi: continues - therefore they must advance the removal to the first watch:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l05"
         ]
       },
       {
