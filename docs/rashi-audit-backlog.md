@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.04: schema backfill is complete, the perek-level semantic
+As of VERSION 15.05: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -171,8 +171,12 @@ including 11 entries that previously had empty linkedGemaraLineIds.
 A first sub-chunk of 19b at VERSION 15.04 (see "19b, vilnaLine 1-34"
 below) verified the 19a/19b boundary (19b's raw text opens "הכי
 קאמרי ליה", restating 19a's truncated final word) and fixed 19b's
-vilnaLine 1-34 (19b has 68 entries, split in two); vilnaLine 35-68
-remain for a follow-up chunk. No
+vilnaLine 1-34 (19b has 68 entries, split in two). A second
+sub-chunk at VERSION 15.05 (see "19b, vilnaLine 35-68" below) fixed
+the remaining 34 entries, closing 19b entirely (68/68 resolved),
+including 28 entries that previously had empty linkedGemaraLineIds.
+The 12b-19b index-misalignment hotspot is now fully resolved end to
+end. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1682,6 +1686,41 @@ the full validator suite but was lost, uncommitted, when the
 session's container was recycled a second time; the work was
 re-applied identically from the retained fix content and
 re-validated before commit. No pushed history was affected.
+
+## 19b, vilnaLine 35-68 (VERSION 15.05), second half, closing 19b entirely
+
+Continued directly from the first sub-chunk. vilnaLine 35 concludes
+the `l33` "in the first chapter" comment (the Deuteronomy 6 intent
+verse). vilnaLine 36-42 open `l34` (the four "bam" sub-DHs: making
+audible what leaves the mouth, "and not in prayer" per I Samuel 1
+as found in the Sheiltot of Rav Achai Gaon, "of them" meaning words
+of Torah, and "not of other things" - children's chatter and
+lightheadedness). vilnaLine 43 opens `l36` ("no man can speak" - he
+has no license). vilnaLine 44-51 open the mishna line `l40` (the
+tzerada finger deferred to the Gemara, "cool off" walks to dispel
+sleep, and "they occupy him" until the daily offering's slaughter
+when the east lights up). vilnaLine 52-57 open `l42` (the Gemara
+section: "the rival of this" thumb-snap demonstration heard through
+the whole study hall). vilnaLine 58-61 open `l44` ("something
+novel" and the kidda bow per Sukka 53a). vilnaLine 62-65 open `l45`
+("but with the mouth" they sang, and "if the Lord does not build a
+house" as a warning that unaccepted service counts for nothing).
+vilnaLine 66 opens `l47` (per the multi-DH rule: it closes the
+psalm comment, carries "in vain do its builders labor" whole, and
+opens "of the notables of Jerusalem"). vilnaLine 67 opens `l49`
+(closing the notables comment, carrying "except that they would
+sin" whole, and opening "interpret it" - Nehardea). vilnaLine 68 is
+the daf's final truncated word "לפתח", linked to `l49` (19b's own
+final line, whose mid-dialogue text the 20a verse quote completes);
+20a's raw text was confirmed to open "לפתח חטאת רובץ", the standard
+boundary pattern.
+
+This sub-chunk also repaired vilnaLine 41-68, of which 28 entries
+previously had empty `linkedGemaraLineIds` and identical stub text.
+All 34 fixed entries carry real zero-padded `yoma-019b-lXX` ids
+(`l33`, `l34`, `l36`, `l40`, `l42`, `l44`, `l45`, `l47`, `l49`).
+No deferrals. 19b is fully resolved, 68/68, and with it the entire
+12b-19b hotspot.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

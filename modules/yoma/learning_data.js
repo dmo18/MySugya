@@ -44787,12 +44787,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 35,
         he: "כוונה שנאמר בו (דברים ו) והיו",
-        en: "Rashi: 'be careful with your service that it be for the sake of Heaven' - the psalm is a reminder that hollow labor accomplishes nothing.",
+        en: "Rashi: continues - intent, for of it is said (Deuteronomy 6): 'and these",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l34"
+          "yoma-019b-l33"
         ]
       },
       {
@@ -44801,12 +44801,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 36,
         he: "הדברים האלה על לבבך: בם. שיש",
-        en: "Rashi: 'if it is not desired' - if the KG's service lacks sincerity and is not desired by God, then 'shav amelo bonav bo' - in vain did the builders (kohanim) toil.",
+        en: "Rashi: concludes - words shall be upon your heart'. Then opens 'of them' - that you must",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l36"
+          "yoma-019b-l34"
         ]
       },
       {
@@ -44815,12 +44815,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 37,
         he: "לך להשמיע מה שאתה מוציא",
-        en: "Rashi: 'shav amelo bonav bo' - the builders' labor is in vain; meaning the kohanim's night-long preparation is wasted if the service is not sincere.",
+        en: "Rashi: continues - make audible what you bring out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l36"
+          "yoma-019b-l34"
         ]
       },
       {
@@ -44829,12 +44829,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 38,
         he: "מפיך: ולא בתפלה. שהתפלה בלחש",
-        en: "Rashi: 'they did not sleep' during the Simchat Beit HaShoeva, but 'they were sinning' - the men and women mingled and it led to improper behavior.",
+        en: "Rashi: concludes - of your mouth. Then opens 'and not in prayer' - for prayer is in a whisper,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l36"
+          "yoma-019b-l34"
         ]
       },
       {
@@ -44843,12 +44843,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 39,
         he: "שנאמר (ש\"א א) וקולה לא ישמע כך",
-        en: "Rashi: 'they were sinning' = mixed men and women during the water-drawing celebrations, which led to sexual immorality.",
+        en: "Rashi: continues - as it is said (I Samuel 1): 'and her voice was not heard'; so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l36"
+          "yoma-019b-l34"
         ]
       },
       {
@@ -44857,12 +44857,12 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 40,
         he: "מצאתי בשאלתות דרב אחאי גאון :",
-        en: "Rashi: 'targuma' - an Aramaic translation or alternative form of a word, indicating an Aramaic source for this term.",
+        en: "Rashi: concludes - I found in the Sheiltot of Rav Achai Gaon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-19b-l40"
+          "yoma-019b-l34"
         ]
       },
       {
@@ -44871,11 +44871,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 41,
         he: "בם. בדברי תורה: ולא בדברים",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 41).",
+        en: "Rashi: opens and closes 'of them' - of words of Torah. Then opens 'and not of other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l34"
+        ]
       },
       {
         id: "rashi-yoma-019b-042",
@@ -44883,11 +44885,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 42,
         he: "אחרים. שיחת הילדים וקלות ראש:",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 42).",
+        en: "Rashi: concludes - things' - children's chatter and lightheadedness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l34"
+        ]
       },
       {
         id: "rashi-yoma-019b-043",
@@ -44895,11 +44899,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 43,
         he: "לא יוכל איש לדבר. אין לו רשות:",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 43).",
+        en: "Rashi: opens and closes 'no man can speak' - he has no license to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l36"
+        ]
       },
       {
         id: "rashi-yoma-019b-044",
@@ -44907,11 +44913,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 44,
         he: "מתני' אצבע צרדא. מפרש",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 44).",
+        en: "Rashi: the mishna section opens 'the tzerada finger' - explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-045",
@@ -44919,11 +44927,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 45,
         he: "בגמ': והפג. טייל להפיג שינה",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 45).",
+        en: "Rashi: concludes - in the Gemara. Then opens 'and cool off' - walk about to dispel the sleep",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-046",
@@ -44931,11 +44941,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 46,
         he: "מעיניך עמוד והפג אחת שחוק לנו",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 46).",
+        en: "Rashi: continues - from your eyes; 'stand and cool off once' - show us a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-047",
@@ -44943,11 +44955,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 47,
         he: "פעם אחת על הרצפה להפיג",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 47).",
+        en: "Rashi: continues - single act on the floor, to dispel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-048",
@@ -44955,11 +44969,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 48,
         he: "שינתך ובגמרא מפרש מאי היא:",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 48).",
+        en: "Rashi: concludes - your sleep; and in the Gemara it explains what it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-049",
@@ -44967,11 +44983,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 49,
         he: "ומעסיקין אותו. בהפיגותם",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 49).",
+        en: "Rashi: opens 'and they occupy him' - with their sleep-dispelling acts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-050",
@@ -44979,11 +44997,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 50,
         he: "ובטיוליהם שלא יישן עד שמגיע",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 50).",
+        en: "Rashi: continues - and their walks, so that he not sleep until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-051",
@@ -44991,11 +45011,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 51,
         he: "זמן שחיטת תמיד של שחרית שהוא",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 51).",
+        en: "Rashi: continues - the time of slaughtering the morning daily offering arrives, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l40"
+        ]
       },
       {
         id: "rashi-yoma-019b-052",
@@ -45003,11 +45025,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 52,
         he: "בהאיר המזרח: גמ' צרתה דדא.",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 52).",
+        en: "Rashi: concludes - when the east lights up. Then the Gemara section opens 'the rival of this' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-053",
@@ -45015,11 +45039,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 53,
         he: "צרתה של זו אצבע תהי צרה",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 53).",
+        en: "Rashi: continues - the rival of this finger; which finger shall be the rival",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-054",
@@ -45027,11 +45053,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 54,
         he: "לזו ומאי היא זו גודל באצבע",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 54).",
+        en: "Rashi: continues - of this one? It is the thumb: with the finger",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-055",
@@ -45039,11 +45067,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 55,
         he: "הסמוכה לגודל היה מחברו לאגודל",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 55).",
+        en: "Rashi: continues - next to the thumb he would join it to the thumb",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-056",
@@ -45051,11 +45081,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 56,
         he: "בחזקה ושומטה ומכה על כפו",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 56).",
+        en: "Rashi: continues - firmly, then release it and strike his palm,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-057",
@@ -45063,11 +45095,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 57,
         he: "ונשמע הקול: בכוליה בי רב.",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 57).",
+        en: "Rashi: concludes - and the sound was heard. Then opens 'through the whole study house' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l42"
+        ]
       },
       {
         id: "rashi-yoma-019b-058",
@@ -45075,11 +45109,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 58,
         he: "בית המדרש: על חדת. דרך",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 58).",
+        en: "Rashi: concludes - the study hall. Then opens 'something novel' - show us something by way",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l44"
+        ]
       },
       {
         id: "rashi-yoma-019b-059",
@@ -45087,11 +45123,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 59,
         he: "חידוש הראה לנו: אחוי קידה.",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 59).",
+        en: "Rashi: concludes - of novelty. Then opens 'he demonstrated kidda' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l44"
+        ]
       },
       {
         id: "rashi-yoma-019b-060",
@@ -45099,11 +45137,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 60,
         he: "נועץ גודליו בארץ ושוחה ונושק את",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 60).",
+        en: "Rashi: continues - he plants his thumbs on the ground, bows, kisses",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l44"
+        ]
       },
       {
         id: "rashi-yoma-019b-061",
@@ -45111,11 +45151,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 61,
         he: "הרצפה ועומד כך מפורש במס'",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 61).",
+        en: "Rashi: continues - the floor, and rises; so it is explained in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l44"
+        ]
       },
       {
         id: "rashi-yoma-019b-062",
@@ -45123,11 +45165,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 62,
         he: "סוכה (דף נג.): אלא בפה. היו",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 62).",
+        en: "Rashi: concludes - Sukka (53a). Then opens 'but with the mouth' - they would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l45"
+        ]
       },
       {
         id: "rashi-yoma-019b-063",
@@ -45135,11 +45179,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 63,
         he: "משוררין לפניו: אם ה' לא יבנה",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 63).",
+        en: "Rashi: concludes - sing before him. Then opens 'if the Lord does not build",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l45"
+        ]
       },
       {
         id: "rashi-yoma-019b-064",
@@ -45147,11 +45193,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 64,
         he: "בית וגו'. כלומר הזהר בעבודתך",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 64).",
+        en: "Rashi: continues - a house, etc.' - meaning: take care with your service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l45"
+        ]
       },
       {
         id: "rashi-yoma-019b-065",
@@ -45159,11 +45207,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 65,
         he: "שתהא לשם שמים שתהא לרצות",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 65).",
+        en: "Rashi: continues - that it be for the sake of Heaven, that it be accepted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l45"
+        ]
       },
       {
         id: "rashi-yoma-019b-066",
@@ -45171,11 +45221,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 66,
         he: "שאם אינה רצויה אין טורחך עולה לכלום: שוא עמלו בוניו בו. בחנם יגעים בבנין שלא יתקיים: מיקירי ירושלים. מחשובי ירושלים עושין",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 66).",
+        en: "Rashi: concludes - for if it is not accepted your toil counts for nothing. Then opens and closes 'in vain do its builders labor on it' - they toil for nothing on a building that will not stand. Then opens 'of the notables of Jerusalem' - the distinguished of Jerusalem did",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l47"
+        ]
       },
       {
         id: "rashi-yoma-019b-067",
@@ -45183,11 +45235,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 67,
         he: "כך שלא היו ישנים: אלא שהיו חוטאין. משחקין אנשים ונשים יחד ובאין לעבירה: תרגומא. להאי בגבולים היכא היו חוטאין בנהרדעא:",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 67).",
+        en: "Rashi: concludes - so, not sleeping. Then opens and closes 'except that they would sin' - men and women reveling together and coming to transgression. Then opens and closes 'interpret it' - this statement about the provinces: where did they sin? In Nehardea",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l49"
+        ]
       },
       {
         id: "rashi-yoma-019b-068",
@@ -45195,11 +45249,13 @@ const DAF_CONTENT = {
         daf: "19b",
         vilnaLine: 68,
         he: "לפתח",
-        en: "Rashi: continued discussion of the all-night vigil, incense practices, and Shema interruption rules (line 68).",
+        en: "Rashi: the daf's final truncated word - 'at the door', the start of the dibbur hamatchil 'at the door sin crouches' whose text continues on 20a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-019b-l49"
+        ]
       }
     ],
     review: {
