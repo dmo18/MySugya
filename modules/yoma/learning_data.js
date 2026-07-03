@@ -47559,11 +47559,13 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 62,
         he: "וי\"א",
-        en: "Rashi: this truncated catchword's dibbur hamatchil comments on a Gemara clause that continues beyond the locally captured text of this daf and is fully quoted only on 21a; the local Gemara line l40 ends at a different point (the childbirth clause) and is not the DH's actual referent, so no local Gemara line can be confidently determined for this entry.",
+        en: "Rashi: the daf's final truncated word - 'and some say' (ve'i alef), the start of the dibbur hamatchil 'and some say, also the irrigation angel' whose text continues on 21a, identifying the angel appointed over irrigating the earth from the rain above and the deep below. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though that line's own text ends one clause earlier, at the childbirth mention.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-020b-l40"
+        ]
       }
     ],
     review: "reviewed"

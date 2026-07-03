@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.09: schema backfill is complete, the perek-level semantic
+As of VERSION 15.10: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -188,9 +188,12 @@ verified the 20a/20b boundary (20b's raw text opens "ואי דאורייתא
 הוא היכי מקדמינן", restating 20a's truncated final word) and fixed
 20b's vilnaLine 1-31 (20b has 62 entries, split in two). A second
 sub-chunk at VERSION 15.09 (see "20b, vilnaLine 32-62" below) fixed
-30 of the remaining 31 entries, deferring vilnaLine 62 (the local
-data cannot confirm its target - see that section), closing 20b to
-61/62 resolved. No
+30 of the remaining 31 entries, deferring vilnaLine 62 pending a
+policy decision on cross-daf boundary anchoring. A dedicated policy
+pass at VERSION 15.10 (see "Cross-daf Rashi boundary link policy"
+below) reviewed the corpus precedent, reversed the vilnaLine 62
+deferral, and linked it per the established convention, closing 20b
+entirely (62/62 resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1863,26 +1866,91 @@ there is weakness" and "and here it is daytime," both anchored to
 `l33`). vilnaLine 61 opens `l35` (the sun's roar and the sawdust
 wordplay, both anchored to `l35`).
 
-vilnaLine 62, the daf's final truncated word "וי"א", is deferred
-rather than linked. Every other daf boundary in this run has
-resolved by linking the truncated catchword to the daf's own final
-Gemara line, but that pattern breaks down here: `l40` ends at a
-different clause ("וְיֵשׁ אוֹמְרִים: אַף לֵידָה," the childbirth
-mention) than the one this Rashi entry actually glosses. 21a's own
-Rashi opens with the full DH "וי"א אף רידייא," commenting on the
-irrigation-angel clause "וְיֵשׁ אוֹמְרִים אַף רִידְיָא," a further
-continuation of 20b's own Gemara text beyond what `l40` captures
-and beyond any locally available real line id. Rather than force a
-misleading link, vilnaLine 62's `linkedGemaraLineIds` was cleared
-and its `en` field replaced with an explicit note of why no local
-target can be determined; this is a genuine external-source-needed
-deferral, not an oversight.
+vilnaLine 62, the daf's final truncated word "וי"א", was initially
+deferred rather than linked. At the time, the reasoning was that
+every other daf boundary in this run had resolved by linking the
+truncated catchword to the daf's own final Gemara line, but that
+pattern appeared to break down here: `l40` ends at a different
+clause ("וְיֵשׁ אוֹמְרִים: אַף לֵידָה," the childbirth mention) than
+the one this Rashi entry actually glosses. 21a's own Rashi opens
+with the full DH "וי"א אף רידייא," commenting on the irrigation-angel
+clause "וְיֵשׁ אוֹמְרִים אַף רִידְיָא," a further continuation of
+20b's own Gemara text beyond what `l40` captures and beyond any
+locally available real line id. Rather than force what looked like a
+mismatched link, vilnaLine 62's `linkedGemaraLineIds` was cleared and
+its `en` field replaced with a note explaining why no local target
+could be determined.
+
+A dedicated policy pass at VERSION 15.10 (see "Cross-daf Rashi
+boundary link policy" below) revisited this deferral by checking the
+established convention against corpus precedent rather than
+assumption. That check found the deferral rested on a requirement -
+that the Rashi catchword's own words must literally appear in the
+linked Gemara line's text - that the convention never actually
+imposed. 12b's boundary case proves this: its catchword "כיון" links
+to `l42`, whose entire captured Hebrew is the unrelated word
+"הֲלָכָה." Rashi and Gemara are independently typeset columns on the
+same physical page, each truncated at its own trailing word at the
+shared page-turn point; the link is positional (same daf, same
+final captured line), not a phrase match. Under that convention,
+vilnaLine 62's deferral was reversed: it is now linked to
+`yoma-020b-l40`, 20b's own final locally captured Gemara line, per
+the same rule every other boundary case in this run already follows.
 
 30 of the 31 entries in this sub-chunk carry real zero-padded
 `yoma-020b-lXX` ids (`l05`, `l11`, `l13`, `l18`, `l24` via `l28`'s
-neighbor, `l28`, `l33`, `l35`). 20b is 61/62 resolved; vilnaLine 62
-remains open pending either a 21a-side cross-reference convention
-or a decision to accept the empty link as final.
+neighbor, `l28`, `l33`, `l35`); vilnaLine 62 now carries `l40` per
+the reversal above. 20b is fully resolved, 62/62.
+
+## Cross-daf Rashi boundary link policy (VERSION 15.10)
+
+This section documents the general convention for daf-boundary Rashi
+entries in this audit, decided during a bounded policy pass on the
+20b vilnaLine 62 case above.
+
+**Investigation.** Every prior cross-daf boundary case fixed in this
+run was checked for its resolved `linkedGemaraLineIds` target: 12b to
+`yoma-012b-l42`, 13a to `yoma-013a-l29b`, 13b to `yoma-013b-l29`, 14a
+to `yoma-014a-l47`, 14b to `yoma-014b-l31`, 15a to `yoma-015a-l47`,
+17b to `yoma-017b-l25`, and 19b to `yoma-019b-l49`. In every case the
+truncated final Rashi entry of a daf links to that same daf's own
+final locally captured Gemara line id. None of the eight cases links
+across daf boundaries to the next daf's line id.
+
+**Finding.** Literal phrase matching between the Rashi catchword and
+the linked Gemara line's text was never a requirement of this
+convention. 12b's catchword "כיון" (kivan) links to `l42`, whose full
+captured text is "הֲלָכָה" (halacha), a completely different word.
+This is expected: the Rashi column and the Gemara column are
+independently paginated on the same physical printed page. Each
+column's own trailing word is whatever that column happens to end on
+at the shared page-turn point; the two need not, and generally do
+not, share vocabulary. Confirmed directly against 13a's opening
+Gemara text, which repeats "הלכה" as its own catchword, independent
+of Rashi's "כיון."
+
+**Decided convention.** The truncated final Rashi entry of a daf
+links to that same daf's own final locally captured Gemara line id,
+as a positional and mechanical anchor. This holds even when that
+line's own captured text ends at an earlier clause than the one the
+Rashi catchword's dibbur hamatchil actually continues into on the
+next daf. Cross-daf `linkedGemaraLineIds` (linking a daf's Rashi
+entry to a line id on the following daf) are not used anywhere in
+this corpus and are not part of the established pattern. The `en`
+field for such an entry should name the catchword, state that it is
+the start of a dibbur hamatchil continuing onto the next daf, and
+briefly describe what the comment actually says, drawing on the next
+daf's text for that description even though the link itself stays on
+the current daf.
+
+**20b vilnaLine 62 resolution.** Applying this convention, vilnaLine
+62 (catchword "וי"א") is linked to `yoma-020b-l40`, 20b's own final
+locally captured Gemara line, even though `l40`'s captured text ends
+at the childbirth clause one clause earlier than the irrigation-angel
+clause the Rashi entry glosses. This matches the positional pattern
+of every other resolved boundary case and closes the deferral opened
+in the "20b, vilnaLine 32-62" section above without requiring any
+edit to 21a.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
