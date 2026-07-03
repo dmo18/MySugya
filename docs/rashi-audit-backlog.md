@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.99: schema backfill is complete, the perek-level semantic
+As of VERSION 15.00: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -153,8 +153,11 @@ under the 40-entry split threshold), closing 17b entirely. A first
 sub-chunk of 18a at VERSION 14.99 (see "18a, vilnaLine 1-29" below)
 verified the 17b/18a boundary (18a's raw text opens "ומאי ארבע או
 חמש", restating 17b's truncated final word) and fixed 18a's
-vilnaLine 1-29 (18a has 58 entries, split in two); vilnaLine 30-58
-remain for a follow-up chunk. No
+vilnaLine 1-29 (18a has 58 entries, split in two). A second
+sub-chunk at VERSION 15.00 (see "18a, vilnaLine 30-58" below) fixed
+the remaining 29 entries, closing 18a entirely (58/58 resolved),
+including 30 entries across both halves that previously had empty
+linkedGemaraLineIds. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1467,6 +1470,38 @@ DHs on "my lord" and the order of the day, the First/Second Temple
 contrast with Marta bat Baytus, the erev Yom Kippur feeding DHs,
 the zav/keri distinction, and the truncated final word "השחלין"
 continuing onto 18b) remain for the follow-up chunk.
+
+## 18a, vilnaLine 30-58 (VERSION 15.00), second half, closing 18a entirely
+
+Continued directly from the first sub-chunk. vilnaLine 30-35
+conclude the long `l09` delayed-watch comment (the one-day gap case
+where the watches do not share equally and the delayed watch takes
+two loaves). vilnaLine 36 opens `l11` ("if so, what is 'Rabbi says:
+always five'"). vilnaLine 37-41 open the mishna line `l12` (the
+sub-DHs "ishi" meaning my lord, "they read before him in the order
+of the day" being Acharei Mot, and "so that he will recognize" the
+animals). vilnaLine 42-48 open `l21` (the Gemara section: in the
+First Temple only fitting priests were appointed; Marta bat Baytus
+paying King Yannai a tarkav, half a se'ah, of gold dinars to
+appoint Yehoshua ben Gamla). vilnaLine 49-52 open `l28` (the dayala
+officer and Ravina's marketplace proverb). vilnaLine 53 opens `l29`
+(feeding him fine flour and eggs on erev Yom Kippur morning to
+loosen his bowels). vilnaLine 54-57 open `l35` (the "to heat" and
+mnemonic sub-DHs close within their lines; then the zav-attribution
+DH with Rashi's zov-versus-semen appearance comparison, the water
+of barley dough against the bound egg white, and "they do not feed
+him" during his days of examination). vilnaLine 58 is the daf's
+final truncated word "השחלין", linked to `l39` (the five-things
+baraita whose list the word continues); 18b's raw text was
+confirmed to open "השחלין. קרש"ין", the standard boundary pattern.
+
+The prior entries for vilnaLine 29-58 were empty stubs; the earlier
+populated entries had been keyed to Gemara vilna numbers rather
+than Rashi print lines, including an invented Latin etymology for
+dayala and a garbled version of the zov/semen comparison, all
+replaced here from the raw Hebrew. All 29 fixed entries carry real
+zero-padded `yoma-018a-lXX` ids (`l09`, `l11`, `l12`, `l21`, `l28`,
+`l29`, `l35`, `l39`). No deferrals. 18a is fully resolved, 58/58.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

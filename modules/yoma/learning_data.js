@@ -41104,11 +41104,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 30,
         he: "המועד בשני בשבת לא היה להם",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 30).",
+        en: "Rashi: continues - on Monday, so they had no reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-031",
@@ -41116,11 +41118,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 31,
         he: "להקדים לבא מלפני השבת אינן שוות",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 31).",
+        en: "Rashi: continues - to come early before that Shabbat - then the watches do not share equally;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-032",
@@ -41128,11 +41132,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 32,
         he: "אלא משמר המתעכב בשבת בין שהוא",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 32).",
+        en: "Rashi: continues - rather, the watch delayed over that Shabbat, whether it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-033",
@@ -41140,11 +41146,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 33,
         he: "משמר אחד בין שהוא משמרות הרבה",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 33).",
+        en: "Rashi: continues - one watch or many watches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-034",
@@ -41152,11 +41160,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 34,
         he: "נוטל שתי חלות והשאר מתחלקות",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 34).",
+        en: "Rashi: continues - takes two loaves, and the rest are divided",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-035",
@@ -41164,11 +41174,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 35,
         he: "למשמר היוצא ונכנס שזמנו קבוע",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 35).",
+        en: "Rashi: continues - between the outgoing and incoming watches whose set time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l09"
+        ]
       },
       {
         id: "rashi-yoma-018a-036",
@@ -41176,11 +41188,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 36,
         he: "לאותה שבת: אי הכי. דמציעתא",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 36).",
+        en: "Rashi: concludes - is that Shabbat. Then opens 'if so' - that the middle clause",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l11"
+        ]
       },
       {
         id: "rashi-yoma-018a-037",
@@ -41188,11 +41202,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 37,
         he: "רבי היא מאי לעולם חמש: מתני'",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 37).",
+        en: "Rashi: concludes - is Rabbi, what is 'Rabbi says: always five'? Then the mishna section opens",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l12"
+        ]
       },
       {
         id: "rashi-yoma-018a-038",
@@ -41200,11 +41216,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 38,
         he: "אישי. אדוני: קורין לפניו",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 38).",
+        en: "Rashi: opens and closes 'ishi' - my lord. Then opens 'they read before him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l12"
+        ]
       },
       {
         id: "rashi-yoma-018a-039",
@@ -41212,11 +41230,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 39,
         he: "בסדר היום. פרשת אחרי מות וכן",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 39).",
+        en: "Rashi: continues - in the order of the day' - the portion of Acharei Mot, and so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l12"
+        ]
       },
       {
         id: "rashi-yoma-018a-040",
@@ -41224,11 +41244,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 40,
         he: "כל שבעת הימים: שיהא מכיר.",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 40).",
+        en: "Rashi: concludes - all seven days. Then opens 'so that he will recognize' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l12"
+        ]
       },
       {
         id: "rashi-yoma-018a-041",
@@ -41236,11 +41258,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 41,
         he: "מתבונן בבהמות העוברות לפניו לתת",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 41).",
+        en: "Rashi: continues - he studies the animals passing before him, to set",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l12"
+        ]
       },
       {
         id: "rashi-yoma-018a-042",
@@ -41248,11 +41272,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 42,
         he: "אל לבו בהלכות סדר היום: גמ'",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 42).",
+        en: "Rashi: concludes - his heart to the laws of the day's order. Then the Gemara section opens 'in the First Temple' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-043",
@@ -41260,11 +41286,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 43,
         he: "במקדש ראשון. לא העמידו אלא",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 43).",
+        en: "Rashi: continues - they appointed only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-044",
@@ -41272,11 +41300,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 44,
         he: "על פי התורה כהנים מהוגנין:",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 44).",
+        en: "Rashi: concludes - fitting priests, according to the Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-045",
@@ -41284,11 +41314,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 45,
         he: "מרתא בת בייתוס. אלמנה עשירה",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 45).",
+        en: "Rashi: opens 'Marta bat Baytus' - a rich widow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-046",
@@ -41296,11 +41328,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 46,
         he: "היתה וקידשה יהושע בן גמלא ונתנה",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 46).",
+        en: "Rashi: continues - she was, and Yehoshua ben Gamla betrothed her, and she gave",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-047",
@@ -41308,11 +41342,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 47,
         he: "ממון לינאי המלך ומינהו להיות",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 47).",
+        en: "Rashi: continues - money to King Yannai, who appointed him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-048",
@@ -41320,11 +41356,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 48,
         he: "כהן גדול: תרקבא. חצי סאה תרי",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 48).",
+        en: "Rashi: concludes - High Priest. Then opens 'tarkav' - half a se'ah, two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l21"
+        ]
       },
       {
         id: "rashi-yoma-018a-049",
@@ -41332,11 +41370,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 49,
         he: "קב: דינרי. זהובים: דיילא. שוטר",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 49).",
+        en: "Rashi: concludes - kav. Then opens and closes 'dinarei' - gold coins. Then opens 'dayala' - an officer of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l28"
+        ]
       },
       {
         id: "rashi-yoma-018a-050",
@@ -41344,11 +41384,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 50,
         he: "המלך: בשוקא קמיה לא תחליף.",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 50).",
+        en: "Rashi: concludes - the king. Then opens 'do not pass before him in the marketplace' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l28"
+        ]
       },
       {
         id: "rashi-yoma-018a-051",
@@ -41356,11 +41398,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 51,
         he: "מתוך שהיה מכירך מתחילה בקי",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 51).",
+        en: "Rashi: continues - since he knew you from before, he is versed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l28"
+        ]
       },
       {
         id: "rashi-yoma-018a-052",
@@ -41368,11 +41412,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 52,
         he: "הוא בעושרך ובמעשיך למצוא עלילה",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 52).",
+        en: "Rashi: continues - in your wealth and your dealings, to find a pretext",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l28"
+        ]
       },
       {
         id: "rashi-yoma-018a-053",
@@ -41380,11 +41426,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 53,
         he: "לגבות ממך ממון: מאכילין אותו. ערב יום הכפורים שחרית סלתות וביצים כדי למסמס אכילה שבמעיו לשלשלו שלא יצטרך",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 53).",
+        en: "Rashi: concludes - to collect money from you. Then opens 'they feed him' - on the eve of Yom Kippur in the morning, fine flour and eggs, to soften the food in his innards and loosen him, so that he will not need",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l29"
+        ]
       },
       {
         id: "rashi-yoma-018a-054",
@@ -41392,11 +41440,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 54,
         he: "לנקביו למחרת: לידי חימום. של קרי שהסלתות וביצים מרבים את הזרע: אב\"י ואבב\"י. סימנים הן ומפרש להו ואזיל: זב תולין",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 54).",
+        en: "Rashi: concludes - to relieve himself the next day. Then opens and closes 'to heat' - of seminal emission, for fine flour and eggs increase seed. Then opens and closes 'AB'Y and ABB'Y' - they are mnemonics, explained as it proceeds. Then opens 'a zav, they attribute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l35"
+        ]
       },
       {
         id: "rashi-yoma-018a-055",
@@ -41404,11 +41454,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 55,
         he: "לו במאכל. אם אכל מאכל הרבה מכל מין שהוא תולין לומר שמחמת רוב מאכל ראה ואינו זב לטומאת שבעה ולקרבן דכתיב (ויקרא טו)",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 55).",
+        en: "Rashi: continues - it to food' - if he ate much food of any kind, they attribute it, saying the emission came from excess food, and he is not a zav for seven-day impurity or an offering, as it is written (Leviticus 15)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l35"
+        ]
       },
       {
         id: "rashi-yoma-018a-056",
@@ -41416,11 +41468,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 56,
         he: "בשרו ולא מחמת אונסו אבל בעל קרי טמא באונס דאין קרי וזוב באים ממקום אחד ואין מראיהם שוה שהזוב דומה למי בצק של",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 56).",
+        en: "Rashi: continues - 'his flesh' - and not from his compulsion; but one with a seminal emission is impure even under compulsion, for keri and zov do not come from one source and their appearances differ: zov resembles the water of barley",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l35"
+        ]
       },
       {
         id: "rashi-yoma-018a-057",
@@ -41428,11 +41482,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 57,
         he: "שעורין ואינו קשור אלא כלובן ביצה המוזרת ושכבת זרע קשור כלובן ביצה שאינה מוזרת: אין מאכילין אותו. בימי בדיקתו:",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 57).",
+        en: "Rashi: concludes - dough and is unbound, like the white of a spoiled egg, while semen is bound, like the white of an unspoiled egg. Then opens and closes 'they do not feed him' - during his days of examination",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l35"
+        ]
       },
       {
         id: "rashi-yoma-018a-058",
@@ -41440,11 +41496,13 @@ const DAF_CONTENT = {
         daf: "18a",
         vilnaLine: 58,
         he: "השחלין",
-        en: "Rashi: continuation of Yom Kippur preparation and dietary restrictions discussion (line 58).",
+        en: "Rashi: the daf's final truncated word - 'cress', the start of the dibbur hamatchil whose text continues on 18b",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-018a-l39"
+        ]
       }
     ],
     review: {
