@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.91: schema backfill is complete, the perek-level semantic
+As of VERSION 14.92: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -123,7 +123,12 @@ entries, closing 15a entirely (66/66 resolved). A first sub-chunk of
 66 entries, split in two). A second sub-chunk at VERSION 14.91 (see
 "15b, vilnaLine 34-66" below) fixed the remaining 33 entries,
 closing 15b entirely (66/66 resolved), including the 16 entries that
-previously had empty linkedGemaraLineIds and placeholder text. No
+previously had empty linkedGemaraLineIds and placeholder text. A
+first sub-chunk of 16a at VERSION 14.92 (see "16a, vilnaLine 1-31"
+below) verified the 15b/16a boundary (16a's raw text opens "ששיקצום
+מלכי עובדי כוכבים", restating 15b's truncated final word) and fixed
+16a's vilnaLine 1-31 (16a has 61 entries, split in two); vilnaLine
+32-61 remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1145,6 +1150,49 @@ This sub-chunk also repaired a worse-than-usual baseline: vilnaLine
 placeholder English. All 33 fixed entries now carry real zero-padded
 `yoma-015b-lXX` ids (`l09`, `l14`, `l19`, `l26`, `l30`). No
 deferrals. 15b is fully resolved, 66/66.
+
+## 16a, vilnaLine 1-31 (VERSION 14.92), first half of a two-part daf
+
+Verified the 15b/16a boundary first: 16a's raw talmud.dev Rashi text
+opens "ששיקצום מלכי עובדי כוכבים. שהקטירו עליה לעבודת כוכבים",
+restating and completing 15b's truncated final word "ששיקצום" - no
+regression, no change needed on 15b.
+
+16a has 61 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-31 here, vilnaLine 32-61 in a follow-up chunk. The real
+Gemara line ids for this daf were read directly from
+`learning_data.js` (`yoma-016a-l01` through `l35`), and each mapping
+below was grounded in the actual Hebrew of both the raw Rashi lines
+and the Gemara lines.
+
+vilnaLine 1-3 open `l01` (the Hasmoneans hiding the altar stones the
+idolatrous kings defiled, Rav Huna's "who is the tanna of Middot",
+and the answer "it is Rabbi Eliezer ben Yaakov"). vilnaLine 4-7 open
+`l06` (the Women's Courtyard dimensions and the nazirites' "send it
+under the pot" per Numbers 6). vilnaLine 8-13 open `l16` (the
+Chamber of the Lepers, their eighth-day immersion for the thumb
+placements, and Rabbi Eliezer ben Yaakov's "I forgot" with its
+inference that the earlier clause is also his). vilnaLine 14-31 open
+`l20` (the "so too it stands to reason" argument: all the walls were
+high except the eastern wall, so the priest burning the red heifer
+on the Mount of Olives could sight the Sanctuary entrance over it).
+
+All 31 fixed entries carry real zero-padded `yoma-016a-lXX` ids
+(`l01`, `l06`, `l16`, `l20`). No deferrals in this sub-chunk.
+vilnaLine 32-61 (the sight-line geometry with the rising Temple
+Mount elevations, the step-by-step cubit accounting, Rabbi Eliezer
+ben Yaakov's extra step, Rav Adda bar Ahava's alternative attribution
+to Rabbi Yehuda, and the truncated final word "עשר" continuing onto
+16b) remain for the follow-up chunk. The stale entries in that range
+include vilnaLine 42-61 with empty `linkedGemaraLineIds` and stub
+text, and vilnaLine 29-38 whose English described golden-vine
+material from Middot 3:8 that appears nowhere on this daf.
+
+Note: this chunk was applied twice. The first application passed the
+full validator suite but was lost, uncommitted, when the session's
+container was recycled; the work was re-applied identically from the
+retained fix content and re-validated before commit. No pushed
+history was affected.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

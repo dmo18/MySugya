@@ -36476,12 +36476,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 1,
         he: "ששיקצום מלכי עובדי כוכבים. שהקטירו עליה לעבודת כוכבים",
-        en: "Rashi: 'the four Beit HaMoked chambers' - Rav Huna explains which tanna authored Middot to resolve the Yoma contradiction.",
+        en: "Rashi: opens 'that the kings of the idolaters defiled them', completing the word begun on 15b - they burned offerings on them for idolatry",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l01"
+          "yoma-016a-l01"
         ]
       },
       {
@@ -36490,12 +36490,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 2,
         he: "במקדש קתני בלשכת הטלאים שהוא במערבית דרומית: מאן",
-        en: "Rashi: 'proven from a second Middot mishna' - R. Eliezer ben Yaakov's own statement that he forgot two chambers identifies Middot as his tractate.",
+        en: "Rashi: concludes - in the Temple; and it is taught concerning the Chamber of the Lambs that it is in the southwest. Then opens 'who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l01"
+          "yoma-016a-l01"
         ]
       },
       {
@@ -36504,12 +36504,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 3,
         he: "תנא מדות. הא מתניתין דמסכת מדות היא: ר\"א בן יעקב",
-        en: "Rashi: the Women's Courtyard had four chambers; R. Eliezer ben Yaakov says he forgot which served which function - proving Middot is his.",
+        en: "Rashi: concludes - is the tanna of Middot' - for this mishna is from tractate Middot. Then opens 'it is Rabbi Eliezer ben Yaakov'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l01"
+          "yoma-016a-l01"
         ]
       },
       {
@@ -36518,12 +36518,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 4,
         he: "היא. דסתמיה דמתניתין דמדות קיימי כוותיה: היתה אורך. מן",
-        en: "Rashi: 'he forgot' - an author might later forget his own work; this admission is his personal statement.",
+        en: "Rashi: concludes - for the unattributed mishnayot of Middot stand in accordance with him. Then opens 'was the length' - from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l01"
+          "yoma-016a-l06"
         ]
       },
       {
@@ -36532,12 +36532,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 5,
         he: "המזרח למערב על רוחב מן הצפון",
-        en: "Rashi: the Nazirite and Leper chambers in the four corners of the Women's Courtyard - which two did he forget?",
+        en: "Rashi: continues - east to west, by a width from north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l01"
+          "yoma-016a-l06"
         ]
       },
       {
@@ -36546,12 +36546,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 6,
         he: "לדרום: ומשלחין תחת הדוד.",
-        en: "Rashi: 'as we said above' - citing the earlier discussion from 15b about who authored the Yoma service description.",
+        en: "Rashi: concludes - to south. Then opens 'and send it under the pot' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l06"
         ]
       },
       {
@@ -36560,12 +36560,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 7,
         he: "דכתיב (במדבר ו) ונתן על האש אשר",
-        en: "Rashi: the four Women's Courtyard chambers: oil, wine, Nazirites, lepers (wood?). R. EbY forgot two of them.",
+        en: "Rashi: continues - as it is written (Numbers 6): 'and put it on the fire that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l06"
         ]
       },
       {
@@ -36574,12 +36574,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 8,
         he: "תחת זבח השלמים: לשכת המצורעין.",
-        en: "Rashi: the forgetting itself marks the tractate as his - only the author could forget his own chamber descriptions.",
+        en: "Rashi: concludes - under the peace offering'. Then opens 'the Chamber of the Lepers' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36588,12 +36588,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 9,
         he: "מפרש בפירקין דלקמן ששם המצורעין",
-        en: "Rashi: Rav Huna bar Yehoshua: the Tamid author (who counted chambers from south to east) counted left-hand direction.",
+        en: "Rashi: continues - explained in the chapter further ahead: there the lepers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36602,12 +36602,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 10,
         he: "טובלין בשמיני לטהרתן כשבאין",
-        en: "Rashi: 'going rightward from south' - when entering from the south and turning right, the first chamber encountered is SE, then SW.",
+        en: "Rashi: continues - immerse on the eighth day of their purification when they come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36616,12 +36616,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 11,
         he: "להכניס ידיהן לבהונות אע\"פ שטבל",
-        en: "Rashi: the Middot author counted from south going east, north, west - that is a rightward (counterclockwise inside) circuit.",
+        en: "Rashi: continues - to insert their hands for the thumb placements, even though one immersed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36630,12 +36630,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 12,
         he: "מבערב: אמר ר\"א בן יעקב שכחתי",
-        en: "Rashi: going from south to east (right circuit from outside) would hit the south-east chamber first.",
+        en: "Rashi: concludes - the prior evening. Then opens 'Rabbi Eliezer ben Yaakov said: I forgot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36644,12 +36644,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 13,
         he: "כו'. מכלל דרישא ר\"א בן יעקב",
-        en: "Rashi: 'and those coming from the north see it' - the Chamber of Lambs, being near the west wall and south, appears northern to someone approaching from the south.",
+        en: "Rashi: continues - etc.' - implying that the first clause too is Rabbi Eliezer ben Yaakov",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l16"
         ]
       },
       {
@@ -36658,12 +36658,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 14,
         he: "קאמר לה: ה\"נ מסתברא. דסתמא",
-        en: "Rashi: 'and those coming from the south see it as from the north' - it is elongated along the west wall, appearing north or south depending on approach direction.",
+        en: "Rashi: concludes - who says it. Then opens 'so too it stands to reason' - that the unattributed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36672,12 +36672,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 15,
         he: "דמדות ר\"א קאמר לה: דתנן כל",
-        en: "Rashi: 'it appears more probable that it was in the southwest corner' - the southwest placement (Middot) is more defensible.",
+        en: "Rashi: concludes - Middot is said by Rabbi Eliezer ben Yaakov. Then opens 'as we learned: all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l06"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36686,12 +36686,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 16,
         he: "הכתלים וכו'. ולא מצית מוקמת",
-        en: "Rashi: 'since we establish Shewbread against Shewbread' - the Shewbread chamber must be in the southeast (southeast = Shewbread per Middot), confirming the whole circuit.",
+        en: "Rashi: continues - the walls, etc.' - and you cannot establish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l16"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36700,12 +36700,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 17,
         he: "לה אלא כר\"א בן יעקב: כל הכתלים",
-        en: "Rashi: the Tamid description goes from south to north (a left-hand circuit viewed from outside), while Middot goes right.",
+        en: "Rashi: concludes - it except per Rabbi Eliezer ben Yaakov. Then opens 'all the walls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l16"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36714,12 +36714,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 18,
         he: "שהיו שם. בכל בניני הר הבית היו",
-        en: "Rashi: Rav Huna bar Yehoshua explains Tamid counted left-hand from south: Chamber of Lambs at NW according to Tamid.",
+        en: "Rashi: continues - that were there' - in all the Temple Mount buildings they were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l16"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36728,12 +36728,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 19,
         he: "גבוהין הרבה מאד עד שהיו כל",
-        en: "Rashi: the 'from the south' left-hand circuit (Tamid): south, west, north, east - placing Chamber of Lambs in the NW.",
+        en: "Rashi: continues - very high, such that all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l16"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36742,12 +36742,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 20,
         he: "פתחים שבהן גבוהין כ' אמה לבד",
-        en: "Rashi: 'the eastern wall' - now a separate proof using the Temple's height measurements for the eastern wall.",
+        en: "Rashi: continues - the gateways in them were twenty cubits high, apart",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l20"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36756,12 +36756,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 21,
         he: "ממה שעל הפתחים הרבה מאד:",
-        en: "Rashi: Rav Adda bar Ahavah: the eastern wall height measurement resolves the question - its measure proves Middot = R. EbY.",
+        en: "Rashi: concludes - from the great height of wall above the gateways",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l20"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36770,12 +36770,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 22,
         he: "חוץ מכותל מזרחית. הוא התחתון",
-        en: "Rashi: the Temple Mount's eastern wall (outer wall) had specific height; Middot's number for it matches R. EbY's other Temple dimensions.",
+        en: "Rashi: opens 'except the eastern wall' - the lowest one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l20"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36784,12 +36784,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 23,
         he: "לרגלי הר הבית שבו נכנסין לחיל",
-        en: "Rashi: 'the Women's Courtyard had no roof' - the galleries (izteba'ot) were added later as a rabbinic fence to separate men and women.",
+        en: "Rashi: continues - at the foot of the Temple Mount, through which one enters the chel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l23"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36798,12 +36798,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 24,
         he: "שלפני עזרת נשים ומן החיל נכנסין",
-        en: "Rashi: originally the courtyard was flat; galleries were added above around the perimeter when Simhat Beit HaShoeva crowds required separation.",
+        en: "Rashi: continues - before the Women's Courtyard, and from the chel one enters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l23"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36812,12 +36812,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 25,
         he: "לעזרת נשים ומעזרת נשים לעזרה",
-        en: "Rashi: they found support from a verse for this separation arrangement after the fact.",
+        en: "Rashi: continues - the Women's Courtyard, and from the Women's Courtyard to the great",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l23"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36826,12 +36826,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 26,
         he: "הגדולה: שכהן השורף את הפרה",
-        en: "Rashi: 'proven from the cherubim' - the cherubim's wingspan equaled the House's width = 20 cubits, and by proportion derives the wall height.",
+        en: "Rashi: concludes - Courtyard. Then opens 'for the priest who burns the red heifer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l26"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36840,12 +36840,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 27,
         he: "עומד בהר המשחה. הוא הר הזיתים",
-        en: "Rashi: the cherubim stood 10 cubits tall; their wingspan = 20 cubits (each wing 5 cubits). The house interior = 20 cubits wide = 20 cubits high by this proportion.",
+        en: "Rashi: continues - stands on the Mount of Anointment' - that is the Mount of Olives,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l26"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36854,12 +36854,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 28,
         he: "אשר על פני ירושלים מקדם ופני",
-        en: "Rashi: now deriving the Heikhal entrance height: 'as the wing to the cherub, so the Heikhal to itself' means the height and width are proportional.",
+        en: "Rashi: continues - which faces Jerusalem from the east, the priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l26"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36868,12 +36868,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 29,
         he: "הכהן למערב: ומתכוין ורואה. מעל",
-        en: "Rashi: 'the golden vine' - a large golden vine hung above the entrance to the Heikhal between the Ulam and the Heikhal.",
+        en: "Rashi: concludes - facing west. Then opens 'and directs his gaze and sees' - over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l29"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36882,12 +36882,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 30,
         he: "גובה ראש הכותל דרך השערים",
-        en: "Rashi: 'who wanted to donate a leaf, a grape, or a cluster of gold' - these were deposited with the gizbar (treasurer) and later attached to the vine.",
+        en: "Rashi: continues - the top of the wall, through the gates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l30"
+          "yoma-016a-l20"
         ]
       },
       {
@@ -36896,12 +36896,12 @@ const DAF_CONTENT = {
         daf: "16a",
         vilnaLine: 31,
         he: "שלפנים הימנו פתחו של היכל כשהוא",
-        en: "Rashi: Rabbi Elazar bar Zadok: 'I saw it and it required 300 kohanim to move it' - the golden vine became so heavy from donations.",
+        en: "Rashi: continues - inward of it, the Sanctuary's entrance, when he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16a-l30"
+          "yoma-016a-l20"
         ]
       },
       {

@@ -421,222 +421,222 @@
       "en": "Golden vine - decorative gold vine over the Sanctuary entrance, built from worshippers' donations of gold grape clusters."
     }
   ],
-  "rashiTranslations": [
+    "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'the four Beit HaMoked chambers' - Rav Huna explains which tanna authored Middot to resolve the Yoma contradiction.",
+      "en": "Rashi: opens 'that the kings of the idolaters defiled them', completing the word begun on 15b - they burned offerings on them for idolatry",
       "linkedGemaraLineIds": [
-        "yoma-16a-l01"
+        "yoma-016a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: 'proven from a second Middot mishna' - R. Eliezer ben Yaakov's own statement that he forgot two chambers identifies Middot as his tractate.",
+      "en": "Rashi: concludes - in the Temple; and it is taught concerning the Chamber of the Lambs that it is in the southwest. Then opens 'who",
       "linkedGemaraLineIds": [
-        "yoma-16a-l01"
+        "yoma-016a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: the Women's Courtyard had four chambers; R. Eliezer ben Yaakov says he forgot which served which function - proving Middot is his.",
+      "en": "Rashi: concludes - is the tanna of Middot' - for this mishna is from tractate Middot. Then opens 'it is Rabbi Eliezer ben Yaakov'",
       "linkedGemaraLineIds": [
-        "yoma-16a-l01"
+        "yoma-016a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: 'he forgot' - an author might later forget his own work; this admission is his personal statement.",
+      "en": "Rashi: concludes - for the unattributed mishnayot of Middot stand in accordance with him. Then opens 'was the length' - from",
       "linkedGemaraLineIds": [
-        "yoma-16a-l01"
+        "yoma-016a-l06"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: the Nazirite and Leper chambers in the four corners of the Women's Courtyard - which two did he forget?",
+      "en": "Rashi: continues - east to west, by a width from north",
       "linkedGemaraLineIds": [
-        "yoma-16a-l01"
+        "yoma-016a-l06"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: 'as we said above' - citing the earlier discussion from 15b about who authored the Yoma service description.",
+      "en": "Rashi: concludes - to south. Then opens 'and send it under the pot' -",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l06"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: the four Women's Courtyard chambers: oil, wine, Nazirites, lepers (wood?). R. EbY forgot two of them.",
+      "en": "Rashi: continues - as it is written (Numbers 6): 'and put it on the fire that is",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l06"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: the forgetting itself marks the tractate as his - only the author could forget his own chamber descriptions.",
+      "en": "Rashi: concludes - under the peace offering'. Then opens 'the Chamber of the Lepers' -",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: Rav Huna bar Yehoshua: the Tamid author (who counted chambers from south to east) counted left-hand direction.",
+      "en": "Rashi: continues - explained in the chapter further ahead: there the lepers",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: 'going rightward from south' - when entering from the south and turning right, the first chamber encountered is SE, then SW.",
+      "en": "Rashi: continues - immerse on the eighth day of their purification when they come",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: the Middot author counted from south going east, north, west - that is a rightward (counterclockwise inside) circuit.",
+      "en": "Rashi: continues - to insert their hands for the thumb placements, even though one immersed",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: going from south to east (right circuit from outside) would hit the south-east chamber first.",
+      "en": "Rashi: concludes - the prior evening. Then opens 'Rabbi Eliezer ben Yaakov said: I forgot,",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: 'and those coming from the north see it' - the Chamber of Lambs, being near the west wall and south, appears northern to someone approaching from the south.",
+      "en": "Rashi: continues - etc.' - implying that the first clause too is Rabbi Eliezer ben Yaakov",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l16"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: 'and those coming from the south see it as from the north' - it is elongated along the west wall, appearing north or south depending on approach direction.",
+      "en": "Rashi: concludes - who says it. Then opens 'so too it stands to reason' - that the unattributed",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: 'it appears more probable that it was in the southwest corner' - the southwest placement (Middot) is more defensible.",
+      "en": "Rashi: concludes - Middot is said by Rabbi Eliezer ben Yaakov. Then opens 'as we learned: all",
       "linkedGemaraLineIds": [
-        "yoma-16a-l06"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: 'since we establish Shewbread against Shewbread' - the Shewbread chamber must be in the southeast (southeast = Shewbread per Middot), confirming the whole circuit.",
+      "en": "Rashi: continues - the walls, etc.' - and you cannot establish",
       "linkedGemaraLineIds": [
-        "yoma-16a-l16"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: the Tamid description goes from south to north (a left-hand circuit viewed from outside), while Middot goes right.",
+      "en": "Rashi: concludes - it except per Rabbi Eliezer ben Yaakov. Then opens 'all the walls",
       "linkedGemaraLineIds": [
-        "yoma-16a-l16"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: Rav Huna bar Yehoshua explains Tamid counted left-hand from south: Chamber of Lambs at NW according to Tamid.",
+      "en": "Rashi: continues - that were there' - in all the Temple Mount buildings they were",
       "linkedGemaraLineIds": [
-        "yoma-16a-l16"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: the 'from the south' left-hand circuit (Tamid): south, west, north, east - placing Chamber of Lambs in the NW.",
+      "en": "Rashi: continues - very high, such that all",
       "linkedGemaraLineIds": [
-        "yoma-16a-l16"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: 'the eastern wall' - now a separate proof using the Temple's height measurements for the eastern wall.",
+      "en": "Rashi: continues - the gateways in them were twenty cubits high, apart",
       "linkedGemaraLineIds": [
-        "yoma-16a-l20"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: Rav Adda bar Ahavah: the eastern wall height measurement resolves the question - its measure proves Middot = R. EbY.",
+      "en": "Rashi: concludes - from the great height of wall above the gateways",
       "linkedGemaraLineIds": [
-        "yoma-16a-l20"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: the Temple Mount's eastern wall (outer wall) had specific height; Middot's number for it matches R. EbY's other Temple dimensions.",
+      "en": "Rashi: opens 'except the eastern wall' - the lowest one,",
       "linkedGemaraLineIds": [
-        "yoma-16a-l20"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: 'the Women's Courtyard had no roof' - the galleries (izteba'ot) were added later as a rabbinic fence to separate men and women.",
+      "en": "Rashi: continues - at the foot of the Temple Mount, through which one enters the chel",
       "linkedGemaraLineIds": [
-        "yoma-16a-l23"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: originally the courtyard was flat; galleries were added above around the perimeter when Simhat Beit HaShoeva crowds required separation.",
+      "en": "Rashi: continues - before the Women's Courtyard, and from the chel one enters",
       "linkedGemaraLineIds": [
-        "yoma-16a-l23"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: they found support from a verse for this separation arrangement after the fact.",
+      "en": "Rashi: continues - the Women's Courtyard, and from the Women's Courtyard to the great",
       "linkedGemaraLineIds": [
-        "yoma-16a-l23"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: 'proven from the cherubim' - the cherubim's wingspan equaled the House's width = 20 cubits, and by proportion derives the wall height.",
+      "en": "Rashi: concludes - Courtyard. Then opens 'for the priest who burns the red heifer",
       "linkedGemaraLineIds": [
-        "yoma-16a-l26"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: the cherubim stood 10 cubits tall; their wingspan = 20 cubits (each wing 5 cubits). The house interior = 20 cubits wide = 20 cubits high by this proportion.",
+      "en": "Rashi: continues - stands on the Mount of Anointment' - that is the Mount of Olives,",
       "linkedGemaraLineIds": [
-        "yoma-16a-l26"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: now deriving the Heikhal entrance height: 'as the wing to the cherub, so the Heikhal to itself' means the height and width are proportional.",
+      "en": "Rashi: continues - which faces Jerusalem from the east, the priest",
       "linkedGemaraLineIds": [
-        "yoma-16a-l26"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: 'the golden vine' - a large golden vine hung above the entrance to the Heikhal between the Ulam and the Heikhal.",
+      "en": "Rashi: concludes - facing west. Then opens 'and directs his gaze and sees' - over",
       "linkedGemaraLineIds": [
-        "yoma-16a-l29"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: 'who wanted to donate a leaf, a grape, or a cluster of gold' - these were deposited with the gizbar (treasurer) and later attached to the vine.",
+      "en": "Rashi: continues - the top of the wall, through the gates",
       "linkedGemaraLineIds": [
-        "yoma-16a-l30"
+        "yoma-016a-l20"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: Rabbi Elazar bar Zadok: 'I saw it and it required 300 kohanim to move it' - the golden vine became so heavy from donations.",
+      "en": "Rashi: continues - inward of it, the Sanctuary's entrance, when he",
       "linkedGemaraLineIds": [
-        "yoma-16a-l30"
+        "yoma-016a-l20"
       ]
     },
     {
@@ -712,102 +712,122 @@
     {
       "vilnaLine": 42,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 42).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 43,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 43).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 44,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 44).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 45,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 45).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 46,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 46).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 47,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 47).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 48,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 48).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 49,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 49).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 50,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 50).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 51,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 51).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 52,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 52).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 53,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 53).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 54,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 54).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 55,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 55).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 56,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 56).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 57,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 57).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 58,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 58).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 59,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 59).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 60,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 60).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 61,
       "en": "Rashi: continued Temple measurement and attribution discussion (line 61).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     }
   ]
 }
