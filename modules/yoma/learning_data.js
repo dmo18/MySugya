@@ -37545,12 +37545,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 1,
         he: "עשר אמות כנגד פתחו של היכל. י' אמצעית של רחבו: אחת עשרה",
-        en: "Rashi: 'R. Yehuda says the altar was centered' - he holds all spaces around the altar were equal. Now refuting this from measurements.",
+        en: "Rashi: opens 'ten cubits opposite the Sanctuary entrance', completing the word begun on 16a - the middle ten of its width. Then opens 'eleven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l01"
+          "yoma-016b-l01"
         ]
       },
       {
@@ -37559,12 +37559,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 2,
         he: "לצפון. כנגד ה' אמות הנותרים לחלל ההיכל מן המזוזה ולצפון",
-        en: "Rashi: 'the altar's 32 cubits' - the altar platform measured 32x32 cubits at its top. How can this be centered in a 187-cubit court?",
+        en: "Rashi: continues - to the north' - corresponding to the five cubits remaining of the Sanctuary's interior from the doorpost northward,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l01"
+          "yoma-016b-l01"
         ]
       },
       {
@@ -37573,12 +37573,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 3,
         he: "שהרי חלל ההיכל כ' אמה רחב וכנגד ו' של עובי כותל צפונית של",
-        en: "Rashi: R. Yehuda proposes: 10 cubits between the altar's north face and the Heikhal, 11 to the south, 11 to the north, 11 to the south of center. This attempts centering.",
+        en: "Rashi: continues - for the Sanctuary interior is twenty cubits wide, plus corresponding to the six of the thickness of the Sanctuary's northern wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l01"
         ]
       },
       {
@@ -37587,12 +37587,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 4,
         he: "היכל וכן לדרום נמצא רוחבו של מזבח מצומצם כנגד היכל וכותליו:",
-        en: "Rashi: 'between the ramp and the wall only 5 cubits and a half' - R. Yehuda's centering requires only 5.5 cubits between the ramp's south end and the south courtyard wall.",
+        en: "Rashi: concludes - and likewise to the south; so the altar's width turns out exactly matched against the Sanctuary and its walls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l01"
         ]
       },
       {
@@ -37601,12 +37601,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 5,
         he: "ואי סלקא דעתך מדות רבי יהודה",
-        en: "Rashi: but we need space for the Shewbread-tables (shulchanot) and the rinsing-station (nnasim). R. Yehuda says they fit in 5.5 cubits.",
+        en: "Rashi: opens 'and if it enters your mind that Middot is Rabbi Yehuda,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37615,12 +37615,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 6,
         he: "היא וכו'. פרכא היא דקא פריך",
-        en: "Rashi: 'and if you say he did not calculate precisely' - perhaps R. Yehuda wasn't exact about centering and allows minor adjustment.",
+        en: "Rashi: continues - etc.' - it is an objection the Gemara raises",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37629,12 +37629,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 7,
         he: "הש\"ס לרב אדא דאוקמי כרבי יהודה",
-        en: "Rashi: 'where would the Shewbread tables and rinsing station fit?' - these require 3.5 cubits minimum, leaving only 2 cubits - insufficient.",
+        en: "Rashi: continues - against Rav Adda, who established the mishna as Rabbi Yehuda:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37643,12 +37643,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 8,
         he: "ואי סתמי מדות רבי יהודה נינהו",
-        en: "Rashi: from R. Yehuda's centering, 21.5 cubits are available south of the altar - half of 187 minus half of altar (16) minus ramp (16) = 21.5. But the northern side needs only 10 between altar and Heikhal.",
+        en: "Rashi: continues - if the unattributed Middot mishnayot are Rabbi Yehuda,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37657,12 +37657,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 9,
         he: "מזבח דאתא באמצע עזרה אליבא",
-        en: "Rashi: if all this math works out, R. Yehuda can achieve centering with some stretching. But Middot disagrees.",
+        en: "Rashi: continues - where do you find an altar standing in the middle of the courtyard according to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37671,12 +37671,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 10,
         he: "דסתמא דמדות מי משכחת לה: כל",
-        en: "Rashi: 'you could still say it is R. Yehuda' by distributing the 21.5 cubits differently - perhaps he has a different ramp length.",
+        en: "Rashi: concludes - the unattributed Middot? Then opens 'the whole",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37685,12 +37685,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 11,
         he: "היקף העזרה. הגדולה אורך קפ\"ז",
-        en: "Rashi: Rashi clarifies that according to his understanding the Gemara is showing it works out for R. Yehuda if we allow some flexibility.",
+        en: "Rashi: continues - circuit of the courtyard' - the great one, 187 long,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l03"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37699,12 +37699,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 12,
         he: "ובתוך אותו היקף נבנה הבית לצד",
-        en: "Rashi: the detailed cubit-by-cubit breakdown: Heikhal (north) = 100 cubits from north wall to Heikhal south face; then 11 cubit gap; then 32 cubit altar; then 16 cubit ramp; then 22 cubits to south wall.",
+        en: "Rashi: continues - and within that circuit the House was built toward the west",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37713,12 +37713,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 13,
         he: "מערבי והחצר והמזבח במזרחו היכל",
-        en: "Rashi: 100 + 11 + 32 + 16 + 22 = 181. But the courtyard is 187. The remaining 6 cubits are the wall thicknesses and the Ulam entrance.",
+        en: "Rashi: continues - side, with the court and the altar on its east: the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37727,12 +37727,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 14,
         he: "מאה אורך עם כותל אולם וחללו",
-        en: "Rashi: the Heikhal's 100 cubits includes the Ulam (11 cubits deep at the front) and the Devir (rear holy of holies, 20 cubits), leaving 69 for the Heikhal proper.",
+        en: "Rashi: continues - one hundred long including the Porch wall and its interior,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37741,12 +37741,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 15,
         he: "וכותל היכל וחללו ואמה טרקסין",
-        en: "Rashi: 'therefore most of the altar is in the south' - summing the sections, the altar center falls at cubit 116 from the north, past the midpoint of 93.5, so the altar is south of center.",
+        en: "Rashi: continues - the Sanctuary wall and its interior, the one-cubit traksin partition,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37755,12 +37755,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 16,
         he: "וחלל בית קדשי הקדשים ועובי כותל",
-        en: "Rashi: 'shma mina' - conclude from this: Middot's layout contradicts R. Yehuda's centered altar. Therefore Middot is NOT R. Yehuda's tractate.",
+        en: "Rashi: continues - the Holy of Holies' interior, the thickness of the western wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37769,12 +37769,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 17,
         he: "מערבי וחלל התא אחריו ועובי",
-        en: "Rashi: 'shma mina Middot is not R. Yehuda' - the measurement proof rules out R. Yehuda's authorship.",
+        en: "Rashi: continues - the chamber's space behind it, and the thickness of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l12"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37783,12 +37783,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 18,
         he: "כותל חיצון הכי מיפרשא במסכת",
-        en: "Rashi: Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but in the middle of the west wall, appearing at different corners depending on your viewpoint.",
+        en: "Rashi: continues - the outer wall; so it is spelled out in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l18"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37797,12 +37797,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 19,
         he: "מדות ולקמן מייתי לה בפרק הוציאו",
-        en: "Rashi: 'it appears to jut out at both corners' - because the chamber extended along the middle of the west wall, someone approaching from north sees it at the SW corner, someone from south sees it at the NW corner.",
+        en: "Rashi: concludes - Middot, and it is cited further ahead in the chapter Hotziu Lo (52b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l18"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37811,12 +37811,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 20,
         he: "לו (דף נב:): י\"א אמה. היה מקום",
-        en: "Rashi: so Yoma and Middot don't contradict each other - they describe the same chamber from different viewing angles.",
+        en: "Rashi: opens 'eleven cubits' - it was an open space",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l18"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37825,12 +37825,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 21,
         he: "פנוי אחורי בית הכפורת בין כותל",
-        en: "Rashi: 'it is more probable that it was in the SW corner' - despite Rav Adda's middle-wall theory, the Gemara concludes SW corner placement (Middot/R. EbY) is more defensible.",
+        en: "Rashi: continues - behind the House of the Ark-cover, between the chamber's wall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l21"
+          "yoma-016b-l03"
         ]
       },
       {
@@ -37839,12 +37839,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 22,
         he: "התא לכותל עזרה: הכבש והמזבח",
-        en: "Rashi: the tanna of Tamid (who places it at NW) was describing from his southward walking direction - it appeared northern to him.",
+        en: "Rashi: concludes - and the courtyard wall. Then opens 'the ramp and the altar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l21"
+          "yoma-016b-l12"
         ]
       },
       {
@@ -37853,12 +37853,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 23,
         he: "כו'. ולא פירש עכשיו מקום פנוי",
-        en: "Rashi: the Middot author (R. EbY) placed it definitively at SW; the Tamid tanna described it as it appeared from his approach, which was the NW.",
+        en: "Rashi: continues - etc.' - it does not yet spell out the open space",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l21"
+          "yoma-016b-l12"
         ]
       },
       {
@@ -37867,12 +37867,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 24,
         he: "שבין כבש לכותל דרומי של עזרה",
-        en: "Rashi: 'from the south, it appears northern' - the chamber's elongation from the west wall made it look northwest from a southern approach.",
+        en: "Rashi: continues - between the ramp and the courtyard's southern wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l21"
+          "yoma-016b-l12"
         ]
       },
       {
@@ -37881,12 +37881,12 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 25,
         he: "ובסיפא קתני לה ועכשיו מונה והולך",
-        en: "Rashi: 'it is agreed that it was in the SW corner' - the most likely corner, consistent with all evidence.",
+        en: "Rashi: continues - teaching it in the latter clause instead; for now it counts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-16b-l21"
+          "yoma-016b-l12"
         ]
       },
       {
@@ -37895,11 +37895,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 26,
         he: "מן הדרום לצפון: מן המזבח",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 26).",
+        en: "Rashi: concludes - from south to north. Then opens 'from the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-027",
@@ -37907,11 +37909,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 27,
         he: "ולטבעות.  קבועים בקרקע",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 27).",
+        en: "Rashi: continues - to the rings' - fixed in the ground",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-028",
@@ -37919,11 +37923,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 28,
         he: "בבית המטבחים שבצפון המזבח",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 28).",
+        en: "Rashi: continues - in the slaughtering area north of the altar;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-029",
@@ -37931,11 +37937,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 29,
         he: "שנותנים בהן צוארי בהמות כששוחטין",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 29).",
+        en: "Rashi: continues - the animals' necks are placed in them when slaughtering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-030",
@@ -37943,11 +37951,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 30,
         he: "קדשי קדשים ששחיטתן בצפון: שלחנות. שעליהן מדיחים קרבי",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 30).",
+        en: "Rashi: concludes - offerings of the most holy order, whose slaughter is in the north. Then opens 'tables' - on which they rinse the innards of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-031",
@@ -37955,11 +37965,13 @@ const DAF_CONTENT = {
         daf: "16b",
         vilnaLine: 31,
         he: "קדשים: ננסין. עמודים נמוכין התקועין בקרקע ואונקלאות של",
-        en: "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 31).",
+        en: "Rashi: concludes - offerings. Then opens 'nenasin' - low posts fixed in the ground, with iron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-016b-l12"
+        ]
       },
       {
         id: "rashi-yoma-016b-032",

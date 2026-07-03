@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 14.93: schema backfill is complete, the perek-level semantic
+As of VERSION 14.94: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -131,7 +131,11 @@ below) verified the 15b/16a boundary (16a's raw text opens "ששיקצום
 sub-chunk at VERSION 14.93 (see "16a, vilnaLine 32-61" below) fixed
 the remaining 30 entries, closing 16a entirely (61/61 resolved),
 including 20 entries that previously had empty linkedGemaraLineIds
-and stub text. No
+and stub text. A first sub-chunk of 16b at VERSION 14.94 (see "16b,
+vilnaLine 1-31" below) verified the 16a/16b boundary (16b's raw text
+opens "עשר אמות כנגד פתחו של היכל", restating 16a's truncated final
+word) and fixed 16b's vilnaLine 1-31 (16b has 62 entries, split in
+two); vilnaLine 32-62 remain for a follow-up chunk. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1232,6 +1236,43 @@ Middot 3:8 appearing nowhere on this daf. All 30 fixed entries carry
 real zero-padded `yoma-016a-lXX` ids (`l20`, `l23`, `l26`, `l29`,
 `l30`, `l31`, `l32`, `l35`). No deferrals. 16a is fully resolved,
 61/61.
+
+## 16b, vilnaLine 1-31 (VERSION 14.94), first half of a two-part daf
+
+Verified the 16a/16b boundary first: 16b's raw talmud.dev Rashi text
+opens "עשר אמות כנגד פתחו של היכל. י' אמצעית של רחבו", restating and
+completing 16a's truncated final word "עשר" - no regression, no
+change needed on 16a.
+
+16b has 62 raw Rashi print-lines, split into two sub-chunks:
+vilnaLine 1-31 here, vilnaLine 32-62 in a follow-up chunk. 16b has
+only 5 real Gemara lines (`yoma-016b-l01`, `l03`, `l12`, `l18`, and
+the truncated `l21`). Every mapping below was grounded in the actual
+Hebrew of both the raw Rashi lines and the Gemara lines, including
+confirming that `l03`'s east-west measurement list ends with "ואחת
+עשרה אמה אחורי בית הכפורת", which anchors the "eleven cubits" DH.
+
+vilnaLine 1-4 open `l01` (the altar aligned opposite the Sanctuary:
+ten middle cubits against the entrance, eleven to the north and
+south against the remaining interior plus the six-cubit walls).
+vilnaLine 5-21 open `l03` (the objection to Rav Adda: per the
+unattributed Middot the courtyard is 187 by 135, with the whole
+east-west breakdown - Porch, Sanctuary, traksin, Holy of Holies,
+walls - spelled out in Middot and cited at 52b, ending with the
+eleven open cubits behind the Ark-cover). vilnaLine 22-31 open `l12`
+(the south-to-north list: ramp and altar, the space between ramp and
+southern wall deferred to the latter clause, the rings north of the
+altar for slaughtering most-holy offerings, the rinsing tables, and
+the nenasin posts).
+
+All 31 fixed entries carry real zero-padded `yoma-016b-lXX` ids
+(`l01`, `l03`, `l12`). No deferrals in this sub-chunk. vilnaLine
+32-62 (the rest of the south-to-north accounting, the "most of the
+altar stands in the south" calculation with Rashi's own extended
+reckoning - including his citation of his teacher Rabbeinu Yitzchak
+bar Yehuda and his twice-stated reservation "my heart hesitates" -
+and the truncated final word "אלא" continuing onto 17a) remain for
+the follow-up chunk.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

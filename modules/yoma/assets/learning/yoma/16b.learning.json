@@ -229,366 +229,409 @@
       "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
     }
   ],
-  "rashiTranslations": [
+    "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: 'R. Yehuda says the altar was centered' - he holds all spaces around the altar were equal. Now refuting this from measurements.",
+      "en": "Rashi: opens 'ten cubits opposite the Sanctuary entrance', completing the word begun on 16a - the middle ten of its width. Then opens 'eleven",
       "linkedGemaraLineIds": [
-        "yoma-16b-l01"
+        "yoma-016b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: 'the altar's 32 cubits' - the altar platform measured 32x32 cubits at its top. How can this be centered in a 187-cubit court?",
+      "en": "Rashi: continues - to the north' - corresponding to the five cubits remaining of the Sanctuary's interior from the doorpost northward,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l01"
+        "yoma-016b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: R. Yehuda proposes: 10 cubits between the altar's north face and the Heikhal, 11 to the south, 11 to the north, 11 to the south of center. This attempts centering.",
+      "en": "Rashi: continues - for the Sanctuary interior is twenty cubits wide, plus corresponding to the six of the thickness of the Sanctuary's northern wall,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: 'between the ramp and the wall only 5 cubits and a half' - R. Yehuda's centering requires only 5.5 cubits between the ramp's south end and the south courtyard wall.",
+      "en": "Rashi: concludes - and likewise to the south; so the altar's width turns out exactly matched against the Sanctuary and its walls",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: but we need space for the Shewbread-tables (shulchanot) and the rinsing-station (nnasim). R. Yehuda says they fit in 5.5 cubits.",
+      "en": "Rashi: opens 'and if it enters your mind that Middot is Rabbi Yehuda,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: 'and if you say he did not calculate precisely' - perhaps R. Yehuda wasn't exact about centering and allows minor adjustment.",
+      "en": "Rashi: continues - etc.' - it is an objection the Gemara raises",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: 'where would the Shewbread tables and rinsing station fit?' - these require 3.5 cubits minimum, leaving only 2 cubits - insufficient.",
+      "en": "Rashi: continues - against Rav Adda, who established the mishna as Rabbi Yehuda:",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: from R. Yehuda's centering, 21.5 cubits are available south of the altar - half of 187 minus half of altar (16) minus ramp (16) = 21.5. But the northern side needs only 10 between altar and Heikhal.",
+      "en": "Rashi: continues - if the unattributed Middot mishnayot are Rabbi Yehuda,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: if all this math works out, R. Yehuda can achieve centering with some stretching. But Middot disagrees.",
+      "en": "Rashi: continues - where do you find an altar standing in the middle of the courtyard according to",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: 'you could still say it is R. Yehuda' by distributing the 21.5 cubits differently - perhaps he has a different ramp length.",
+      "en": "Rashi: concludes - the unattributed Middot? Then opens 'the whole",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: Rashi clarifies that according to his understanding the Gemara is showing it works out for R. Yehuda if we allow some flexibility.",
+      "en": "Rashi: continues - circuit of the courtyard' - the great one, 187 long,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l03"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: the detailed cubit-by-cubit breakdown: Heikhal (north) = 100 cubits from north wall to Heikhal south face; then 11 cubit gap; then 32 cubit altar; then 16 cubit ramp; then 22 cubits to south wall.",
+      "en": "Rashi: continues - and within that circuit the House was built toward the west",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: 100 + 11 + 32 + 16 + 22 = 181. But the courtyard is 187. The remaining 6 cubits are the wall thicknesses and the Ulam entrance.",
+      "en": "Rashi: continues - side, with the court and the altar on its east: the Sanctuary",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: the Heikhal's 100 cubits includes the Ulam (11 cubits deep at the front) and the Devir (rear holy of holies, 20 cubits), leaving 69 for the Heikhal proper.",
+      "en": "Rashi: continues - one hundred long including the Porch wall and its interior,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: 'therefore most of the altar is in the south' - summing the sections, the altar center falls at cubit 116 from the north, past the midpoint of 93.5, so the altar is south of center.",
+      "en": "Rashi: continues - the Sanctuary wall and its interior, the one-cubit traksin partition,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: 'shma mina' - conclude from this: Middot's layout contradicts R. Yehuda's centered altar. Therefore Middot is NOT R. Yehuda's tractate.",
+      "en": "Rashi: continues - the Holy of Holies' interior, the thickness of the western wall,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: 'shma mina Middot is not R. Yehuda' - the measurement proof rules out R. Yehuda's authorship.",
+      "en": "Rashi: continues - the chamber's space behind it, and the thickness of",
       "linkedGemaraLineIds": [
-        "yoma-16b-l12"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but in the middle of the west wall, appearing at different corners depending on your viewpoint.",
+      "en": "Rashi: continues - the outer wall; so it is spelled out in tractate",
       "linkedGemaraLineIds": [
-        "yoma-16b-l18"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: 'it appears to jut out at both corners' - because the chamber extended along the middle of the west wall, someone approaching from north sees it at the SW corner, someone from south sees it at the NW corner.",
+      "en": "Rashi: concludes - Middot, and it is cited further ahead in the chapter Hotziu Lo (52b).",
       "linkedGemaraLineIds": [
-        "yoma-16b-l18"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: so Yoma and Middot don't contradict each other - they describe the same chamber from different viewing angles.",
+      "en": "Rashi: opens 'eleven cubits' - it was an open space",
       "linkedGemaraLineIds": [
-        "yoma-16b-l18"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: 'it is more probable that it was in the SW corner' - despite Rav Adda's middle-wall theory, the Gemara concludes SW corner placement (Middot/R. EbY) is more defensible.",
+      "en": "Rashi: continues - behind the House of the Ark-cover, between the chamber's wall",
       "linkedGemaraLineIds": [
-        "yoma-16b-l21"
+        "yoma-016b-l03"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: the tanna of Tamid (who places it at NW) was describing from his southward walking direction - it appeared northern to him.",
+      "en": "Rashi: concludes - and the courtyard wall. Then opens 'the ramp and the altar,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l21"
+        "yoma-016b-l12"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: the Middot author (R. EbY) placed it definitively at SW; the Tamid tanna described it as it appeared from his approach, which was the NW.",
+      "en": "Rashi: continues - etc.' - it does not yet spell out the open space",
       "linkedGemaraLineIds": [
-        "yoma-16b-l21"
+        "yoma-016b-l12"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: 'from the south, it appears northern' - the chamber's elongation from the west wall made it look northwest from a southern approach.",
+      "en": "Rashi: continues - between the ramp and the courtyard's southern wall,",
       "linkedGemaraLineIds": [
-        "yoma-16b-l21"
+        "yoma-016b-l12"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: 'it is agreed that it was in the SW corner' - the most likely corner, consistent with all evidence.",
+      "en": "Rashi: continues - teaching it in the latter clause instead; for now it counts",
       "linkedGemaraLineIds": [
-        "yoma-16b-l21"
+        "yoma-016b-l12"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 26).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - from south to north. Then opens 'from the altar",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 27).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to the rings' - fixed in the ground",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 28).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in the slaughtering area north of the altar;",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 29).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the animals' necks are placed in them when slaughtering",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 30).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - offerings of the most holy order, whose slaughter is in the north. Then opens 'tables' - on which they rinse the innards of",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 31).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - offerings. Then opens 'nenasin' - low posts fixed in the ground, with iron",
+      "linkedGemaraLineIds": [
+        "yoma-016b-l12"
+      ]
     },
     {
       "vilnaLine": 32,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 32).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 33,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 33).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 34,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 34).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 35,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 35).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 36,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 36).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 37,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 37).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 38,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 38).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 39,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 39).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 40,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 40).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 41,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 41).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 42,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 42).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 43,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 43).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 44,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 44).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 45,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 45).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 46,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 46).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 47,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 47).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 48,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 48).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 49,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 49).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 50,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 50).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 51,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 51).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 52,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 52).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 53,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 53).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 54,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 54).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 55,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 55).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 56,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 56).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 57,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 57).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 58,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 58).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 59,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 59).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 60,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 60).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 61,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 61).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     },
     {
       "vilnaLine": 62,
       "en": "Rashi: continued Temple geometry discussion, altar measurement and courtyard layout (line 62).",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+      ]
     }
   ]
 }
