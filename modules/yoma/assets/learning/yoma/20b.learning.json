@@ -486,7 +486,7 @@
       "en": "Weakness of the High Priest from fasting; reason ash removal starts at midnight on Yom Kippur."
     }
   ],
-    "rashiTranslations": [
+      "rashiTranslations": [
     {
       "vilnaLine": 1,
       "en": "Rashi: opens 'and if it is Torah law, how do we advance it', completing the word begun on 20a - do we read this way, or do we not read it, asking instead how do we delay it,",
@@ -706,219 +706,218 @@
     },
     {
       "vilnaLine": 32,
-      "en": "Commentary on the sound of the KG at immersion.",
+      "en": "Rashi: concludes - therefore they advance the removal to the first watch.",
       "linkedGemaraLineIds": [
-        "yoma-020b-l33"
+        "yoma-020b-l05"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Why do sounds travel farther at night? R. Levi's explanation.",
+      "en": "Rashi: closes that comment. Then opens 'kara gavra' - the appointee over the proclamation announces and says: rise,",
       "linkedGemaraLineIds": [
-        "yoma-020b-l35"
+        "yoma-020b-l11"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Commentary on the question of nighttime acoustics.",
+      "en": "Rashi: continues - priests, to your service,",
       "linkedGemaraLineIds": [
-        "yoma-020b-l35"
+        "yoma-020b-l11"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "The sun's sphere roars - its noise fills the world by day, masking distant sounds.",
+      "en": "Rashi: concludes - as taught in a baraita in our passage.",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l11"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "At night the sun passes behind the firmament - its roar goes with it.",
+      "en": "Rashi: closes that comment. Then opens 'Rav happened to visit Rabbi Sheila's place' -",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "The noise of Rome and the sun cancel each other on the far side.",
+      "en": "Rashi: concludes - and they did not recognize him. Then opens 'there was no disseminator' -",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Commentary on R. Levi's cosmological model.",
+      "en": "Rashi: continues - the interpreter who stands before",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Commentary on the two sounds that cancel.",
+      "en": "Rashi: continues - the expounding sage, and the sage whispers to him in",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Commentary on the sun's path behind the firmament.",
+      "en": "Rashi: continues - Hebrew, and he translates for the many in the language",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Commentary on Rome as cosmic counterweight.",
+      "en": "Rashi: concludes - they understand. Then opens 'and he was explaining kriat hagever' -",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Commentary on nighttime quiet.",
+      "en": "Rashi: continues - as kara gavra, it fell to him within the exposition",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Commentary on the firmament's role.",
+      "en": "Rashi: continues - that Rabbi Sheila whispered to him kriat hagever in the Hebrew",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Commentary on the acoustic implications.",
+      "en": "Rashi: concludes - language, and he translated it for the many as kara gavra.",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Commentary on the cosmological background.",
+      "en": "Rashi: opens 'a flute for nobles is music' - a flute regarded as fine,",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Commentary on why Gevini's three parasangs was remarkable.",
+      "en": "Rashi: concludes - pleasant music before free men.",
       "linkedGemaraLineIds": [
-        "yoma-020b-l24"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Commentary on the Temple sounds reaching Jericho.",
+      "en": "Rashi: opens 'the weavers would not accept it from him' - he came to",
       "linkedGemaraLineIds": [
-        "yoma-020b-l33"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Commentary on the KG's immersion timing before dawn.",
+      "en": "Rashi: continues - the weavers to sing and play for them, and it was not deemed fit",
       "linkedGemaraLineIds": [
-        "yoma-020b-l33"
+        "yoma-020b-l13"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Commentary on the closing of the Gevini section.",
+      "en": "Rashi: continues - in their eyes; and it is a parable, meaning: this explanation",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continues - that I explained before many nobles many",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: continues - times, and they did not protest against me; now I explained",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: concludes - it before you, who are not as great as them, and you did not",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: closes 'accept it.' Then opens 'you are the Master' - for you are accustomed",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continues - to rise and translate before Rabbi Chiyya, who is",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: concludes - your uncle. Then opens 'let the Master rest' - go and sit in your honor,",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: concludes - for I am not worthy to be your interpreter. Then opens 'if you were hired' -",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: concludes - to card his wool - if you were hired by a person for a day's labor, any labor he assigns you, even a lowly one such as carding wool, which is",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: continues - women's work, do it for him; since I have begun your tasks, I will finish them. Then opens 'and one does not descend' -",
+      "linkedGemaraLineIds": [
+        "yoma-020b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: concludes - it would be a disgrace to the exposition were I to step down. Then opens and closes 'Gevini the herald' - Gevini who proclaims. Then opens and closes 'as the Master said' - further ahead in the fourth chapter (39b). Then opens 'he already said, I beseech the Name' - once, a story occurred",
       "linkedGemaraLineIds": [
         "yoma-020b-l28"
       ]
     },
     {
-      "vilnaLine": 50,
-      "en": "Commentary on the transition to the next topic.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Commentary on R. Levi's source.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Commentary on ancient cosmological views.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Commentary on the sun's sphere (galgal).",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Commentary on the noise of Rome.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Commentary on the competing cosmic sounds.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Commentary on the continuation of this topic.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Commentary on the conclusion of this section.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Commentary on R. Levi's teaching.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Commentary on the cosmic balance.",
-      "linkedGemaraLineIds": [
-        "yoma-020b-l40"
-      ]
-    },
-    {
       "vilnaLine": 60,
-      "en": "Commentary on the Temple-cosmology connection.",
+      "en": "Rashi: continues - where the High Priest confessed over his bull on Yom Kippur, saying 'I beseech the Name, I have sinned,' etc., and his voice was heard in Jericho. Then opens and closes 'and there is weakness' - from the fast. Then opens 'and here it is daytime' - for the voice is not heard",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l33"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Commentary on the daytime noise masking sounds.",
+      "en": "Rashi: concludes - by day as it is by night. Then opens and closes 'this daytime roar is not so called' - the sawdust residue, visible in the sun's own column at midday. Then opens and closes 'is not so called' - meaning it has no such name",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
+        "yoma-020b-l35"
       ]
     },
     {
       "vilnaLine": 62,
-      "en": "Commentary on the closing of this chapter section.",
+      "en": "Rashi: this truncated catchword's dibbur hamatchil comments on a Gemara clause that continues beyond the locally captured text of this daf and is fully quoted only on 21a; the local Gemara line l40 ends at a different point (the childbirth clause) and is not the DH's actual referent, so no local Gemara line can be confidently determined for this entry.",
       "linkedGemaraLineIds": [
-        "yoma-020b-l40"
       ]
     }
   ]

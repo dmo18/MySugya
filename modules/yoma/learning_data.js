@@ -47139,12 +47139,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 32,
         he: "לפיכך צריך להקדים לתרום מאשמורה",
-        en: "Commentary on the sound of the KG at immersion.",
+        en: "Rashi: concludes - therefore they advance the removal to the first watch.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l05"
         ]
       },
       {
@@ -47153,12 +47153,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 33,
         he: "הראשונה: קרא גברא. מכריז",
-        en: "Why do sounds travel farther at night? R. Levi's explanation.",
+        en: "Rashi: closes that comment. Then opens 'kara gavra' - the appointee over the proclamation announces and says: rise,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l35"
+          "yoma-020b-l11"
         ]
       },
       {
@@ -47167,12 +47167,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 34,
         he: "הממונה על הכרוז ואומר עמדו",
-        en: "Commentary on the question of nighttime acoustics.",
+        en: "Rashi: continues - priests, to your service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l35"
+          "yoma-020b-l11"
         ]
       },
       {
@@ -47181,12 +47181,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 35,
         he: "כהנים לעבודתכם כדקתני בברייתא",
-        en: "The sun's sphere roars - its noise fills the world by day, masking distant sounds.",
+        en: "Rashi: concludes - as taught in a baraita in our passage.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l11"
         ]
       },
       {
@@ -47195,12 +47195,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 36,
         he: "בשמעתין: רב איקלע לאתריה דר'",
-        en: "At night the sun passes behind the firmament - its roar goes with it.",
+        en: "Rashi: closes that comment. Then opens 'Rav happened to visit Rabbi Sheila's place' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47209,12 +47209,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 37,
         he: "שילא. ולא היו מכירין אותו: לא",
-        en: "The noise of Rome and the sun cancel each other on the far side.",
+        en: "Rashi: concludes - and they did not recognize him. Then opens 'there was no disseminator' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47223,12 +47223,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 38,
         he: "היה אמורא. מתורגמן העומד לפני",
-        en: "Commentary on R. Levi's cosmological model.",
+        en: "Rashi: continues - the interpreter who stands before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47237,12 +47237,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 39,
         he: "חכם הדרשן והחכם לוחש לו לשון",
-        en: "Commentary on the two sounds that cancel.",
+        en: "Rashi: continues - the expounding sage, and the sage whispers to him in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47251,12 +47251,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 40,
         he: "עברית והוא מתרגם לרבים לשון",
-        en: "Commentary on the sun's path behind the firmament.",
+        en: "Rashi: continues - Hebrew, and he translates for the many in the language",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47265,12 +47265,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 41,
         he: "שהן שומעין: וקא מפרש קרות הגבר",
-        en: "Commentary on Rome as cosmic counterweight.",
+        en: "Rashi: concludes - they understand. Then opens 'and he was explaining kriat hagever' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47279,12 +47279,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 42,
         he: "קרא גברא. נפל לו בתוך הדרש",
-        en: "Commentary on nighttime quiet.",
+        en: "Rashi: continues - as kara gavra, it fell to him within the exposition",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47293,12 +47293,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 43,
         he: "שלחש לו ר' שילא קרות הגבר לשון",
-        en: "Commentary on the firmament's role.",
+        en: "Rashi: continues - that Rabbi Sheila whispered to him kriat hagever in the Hebrew",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47307,12 +47307,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 44,
         he: "עברי והוא תרגם לרבים קרא גברא:",
-        en: "Commentary on the acoustic implications.",
+        en: "Rashi: concludes - language, and he translated it for the many as kara gavra.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47321,12 +47321,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 45,
         he: "אבוב לחרי זמר. חליל שהוא חשוב",
-        en: "Commentary on the cosmological background.",
+        en: "Rashi: opens 'a flute for nobles is music' - a flute regarded as fine,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47335,12 +47335,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 46,
         he: "לפני בני חורים זמר נאה וערב:",
-        en: "Commentary on why Gevini's three parasangs was remarkable.",
+        en: "Rashi: concludes - pleasant music before free men.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l24"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47349,12 +47349,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 47,
         he: "לגרדאי לא קבלוה מיניה. בא אצל",
-        en: "Commentary on the Temple sounds reaching Jericho.",
+        en: "Rashi: opens 'the weavers would not accept it from him' - he came to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47363,12 +47363,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 48,
         he: "גרדיים לשורר ולחולל להם לא הוכשר",
-        en: "Commentary on the KG's immersion timing before dawn.",
+        en: "Rashi: continues - the weavers to sing and play for them, and it was not deemed fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l33"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47377,12 +47377,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 49,
         he: "בעיניהם ומשל הוא כלומר פירוש זה",
-        en: "Commentary on the closing of the Gevini section.",
+        en: "Rashi: continues - in their eyes; and it is a parable, meaning: this explanation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l28"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47391,12 +47391,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 50,
         he: "שפירשתי לפני שרים רבים פעמים",
-        en: "Commentary on the transition to the next topic.",
+        en: "Rashi: continues - that I explained before many nobles many",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47405,12 +47405,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 51,
         he: "רבות ולא מיחו בידי עכשיו פירשתי",
-        en: "Commentary on R. Levi's source.",
+        en: "Rashi: continues - times, and they did not protest against me; now I explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47419,12 +47419,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 52,
         he: "לפניך שאינך גדול כמותם ולא",
-        en: "Commentary on ancient cosmological views.",
+        en: "Rashi: concludes - it before you, who are not as great as them, and you did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l13"
         ]
       },
       {
@@ -47433,12 +47433,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 53,
         he: "קבלתו: מר הוא רב. שאתה רגיל",
-        en: "Commentary on the sun's sphere (galgal).",
+        en: "Rashi: closes 'accept it.' Then opens 'you are the Master' - for you are accustomed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47447,12 +47447,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 54,
         he: "לקום ולתרגם לפני ר' חייא שהוא",
-        en: "Commentary on the noise of Rome.",
+        en: "Rashi: continues - to rise and translate before Rabbi Chiyya, who is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47461,12 +47461,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 55,
         he: "דודך: נינח מר. לך ושב בכבודך",
-        en: "Commentary on the competing cosmic sounds.",
+        en: "Rashi: concludes - your uncle. Then opens 'let the Master rest' - go and sit in your honor,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47475,12 +47475,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 56,
         he: "שאיני כדאי שתהא מתורגמני: אי",
-        en: "Commentary on the continuation of this topic.",
+        en: "Rashi: concludes - for I am not worthy to be your interpreter. Then opens 'if you were hired' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47489,12 +47489,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 57,
         he: "תגרת ליה פוץ עמריה. אם נשכרת אצל אדם למלאכת יום כל מלאכה שיטיל עליך ואפילו היא בזויה כגון ניפוץ צמר שהיא",
-        en: "Commentary on the conclusion of this section.",
+        en: "Rashi: concludes - to card his wool - if you were hired by a person for a day's labor, any labor he assigns you, even a lowly one such as carding wool, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47503,12 +47503,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 58,
         he: "מלאכת נשים עשה לו אף אני מאחר שהתחלתי בפעולותיך אגמור: ולא מורידין. גנאי הדרשה הוא שארד אני ויקום פחות ממני",
-        en: "Commentary on R. Levi's teaching.",
+        en: "Rashi: continues - women's work, do it for him; since I have begun your tasks, I will finish them. Then opens 'and one does not descend' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l18"
         ]
       },
       {
@@ -47517,12 +47517,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 59,
         he: "לגומרה: גביני כרוז. גביני המכריז: דאמר מר. לקמן בפ\"ד (דף לט:): כבר אמר אנא השם. כבר פעם אחת היה מעשה שהיה כ\"ג",
-        en: "Commentary on the cosmic balance.",
+        en: "Rashi: concludes - it would be a disgrace to the exposition were I to step down. Then opens and closes 'Gevini the herald' - Gevini who proclaims. Then opens and closes 'as the Master said' - further ahead in the fourth chapter (39b). Then opens 'he already said, I beseech the Name' - once, a story occurred",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l28"
         ]
       },
       {
@@ -47531,12 +47531,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 60,
         he: "מתודה על פרו ביום הכפורים ואמר אנא השם חטאתי וכו' ונשמע קולו ביריחו: ואיכא חולשא. דתעניתא: והכא יממא. שאין הקול נשמע",
-        en: "Commentary on the Temple-cosmology connection.",
+        en: "Rashi: continues - where the High Priest confessed over his bull on Yom Kippur, saying 'I beseech the Name, I have sinned,' etc., and his voice was heard in Jericho. Then opens and closes 'and there is weakness' - from the fast. Then opens 'and here it is daytime' - for the voice is not heard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l33"
         ]
       },
       {
@@ -47545,12 +47545,12 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 61,
         he: "בו כבלילה: והאי חירגא לא שמיה. והאי פסולת הנסורות והוא נראה בעמוד של חמה דיומא ממש: לא שמיה. כן שמו לשון אין:",
-        en: "Commentary on the daytime noise masking sounds.",
+        en: "Rashi: concludes - by day as it is by night. Then opens and closes 'this daytime roar is not so called' - the sawdust residue, visible in the sun's own column at midday. Then opens and closes 'is not so called' - meaning it has no such name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-020b-l40"
+          "yoma-020b-l35"
         ]
       },
       {
@@ -47559,13 +47559,11 @@ const DAF_CONTENT = {
         daf: "20b",
         vilnaLine: 62,
         he: "וי\"א",
-        en: "Commentary on the closing of this chapter section.",
+        en: "Rashi: this truncated catchword's dibbur hamatchil comments on a Gemara clause that continues beyond the locally captured text of this daf and is fully quoted only on 21a; the local Gemara line l40 ends at a different point (the childbirth clause) and is not the DH's actual referent, so no local Gemara line can be confidently determined for this entry.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-020b-l40"
-        ]
+        linkedGemaraLineIds: []
       }
     ],
     review: "reviewed"

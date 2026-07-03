@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.08: schema backfill is complete, the perek-level semantic
+As of VERSION 15.09: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -186,8 +186,11 @@ remaining 21 entries, closing 20a entirely (41/41 resolved). A first
 sub-chunk of 20b at VERSION 15.08 (see "20b, vilnaLine 1-31" below)
 verified the 20a/20b boundary (20b's raw text opens "ואי דאורייתא
 הוא היכי מקדמינן", restating 20a's truncated final word) and fixed
-20b's vilnaLine 1-31 (20b has 62 entries, split in two); vilnaLine
-32-62 remain for a follow-up chunk. No
+20b's vilnaLine 1-31 (20b has 62 entries, split in two). A second
+sub-chunk at VERSION 15.09 (see "20b, vilnaLine 32-62" below) fixed
+30 of the remaining 31 entries, deferring vilnaLine 62 (the local
+data cannot confirm its target - see that section), closing 20b to
+61/62 resolved. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -1814,7 +1817,7 @@ cutoff for burning is not stated, so the Sages inferred midnight;
 this single long comment continues into the practical outcome that
 daily removal needs only the rooster's crow, without a formal new
 DH marker - not every clause gets its own dibbur hamatchil).
-vilnaLine 20-32 open `l05` (Yom Kippur's High-Priest weakness
+vilnaLine 20-31 open `l05` (Yom Kippur's High-Priest weakness
 requiring an earlier start, and the Festivals' abundant offerings
 requiring removal from the first watch, with the Tamid 28b citation
 on the tapuach ash-heap).
@@ -1828,6 +1831,58 @@ herald, King Agrippa's account of hearing the confession from three
 parasangs, the sun's wheel drowning out human voices, and the
 truncated final word "וי"א" continuing onto 21a) remain for the
 follow-up chunk.
+
+## 20b, vilnaLine 32-62 (VERSION 15.09), second half, one deferral
+
+Continued directly from the first sub-chunk. An independent
+reconnaissance pass verified this daf's DH segmentation against
+Sefaria's Rashi on Yoma 20b (10 comment groups, matching the raw
+print-line boundaries verbatim) and flagged the same two judgment
+calls documented below before any edit was applied.
+
+vilnaLine 32 concludes `l05`. vilnaLine 33-35 open `l11` (the
+"kara gavra" proclamation, the appointee calling the priests to
+their service). vilnaLine 36-52 open `l13` (the long anecdote: Rav
+visits Rabbi Sheila's town unrecognized, serves as disseminator
+translating "kriat hagever" as "kara gavra," is challenged with
+"kara tarnegola," and answers with the flute-for-weavers parable).
+vilnaLine 53-58 open `l18` (Rav declines Rabbi Sheila's offer to
+relieve him, citing "one elevates in sanctity but does not lower,"
+with the wool-carding proverb). vilnaLine 59 opens `l28` per the
+multi-DH rule: it closes the `l18` comment, carries the complete
+"Gevini the herald" DH (`l24`) and "as the Master said" DH (`l28`)
+each opening and closing within the line, and finally opens "he
+already said, I beseech the Name," left open at line end - so per
+the established rule the raw line's target is the last-opened DH,
+`l28`. This means `l24` (Gevini's own line) legitimately receives
+no dedicated vilnaLine of its own; its entire Rashi comment is a
+single clause fully nested inside vilnaLine 59, and forcing a split
+would misassign real content rather than resolve a genuine gap.
+vilnaLine 60 opens `l33` (the confession story concludes, then "and
+there is weakness" and "and here it is daytime," both anchored to
+`l33`). vilnaLine 61 opens `l35` (the sun's roar and the sawdust
+wordplay, both anchored to `l35`).
+
+vilnaLine 62, the daf's final truncated word "וי"א", is deferred
+rather than linked. Every other daf boundary in this run has
+resolved by linking the truncated catchword to the daf's own final
+Gemara line, but that pattern breaks down here: `l40` ends at a
+different clause ("וְיֵשׁ אוֹמְרִים: אַף לֵידָה," the childbirth
+mention) than the one this Rashi entry actually glosses. 21a's own
+Rashi opens with the full DH "וי"א אף רידייא," commenting on the
+irrigation-angel clause "וְיֵשׁ אוֹמְרִים אַף רִידְיָא," a further
+continuation of 20b's own Gemara text beyond what `l40` captures
+and beyond any locally available real line id. Rather than force a
+misleading link, vilnaLine 62's `linkedGemaraLineIds` was cleared
+and its `en` field replaced with an explicit note of why no local
+target can be determined; this is a genuine external-source-needed
+deferral, not an oversight.
+
+30 of the 31 entries in this sub-chunk carry real zero-padded
+`yoma-020b-lXX` ids (`l05`, `l11`, `l13`, `l18`, `l24` via `l28`'s
+neighbor, `l28`, `l33`, `l35`). 20b is 61/62 resolved; vilnaLine 62
+remains open pending either a 21a-side cross-reference convention
+or a decision to accept the empty link as final.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
