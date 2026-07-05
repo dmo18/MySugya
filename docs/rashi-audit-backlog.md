@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.15: schema backfill is complete, the perek-level semantic
+As of VERSION 15.16: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -225,7 +225,13 @@ removed rather than translated. At VERSION 15.15 (see "23a, full
 daf" below) the run continued to the Torah-scholar-and-snake sugya,
 confirming the 22b/23a boundary is clean, confirming the entry-count
 check introduced after 22b's surprise still passes here, and fixing
-all 45 of 23a's entries in two sub-chunks (45/45 resolved). No
+all 45 of 23a's entries in two sub-chunks (45/45 resolved). At
+VERSION 15.16 (see "23b, full daf" below) the run closed the
+garment-changing baraita, confirming the 23a/23b boundary is clean
+and fixing all 65 of 23b's entries in two sub-chunks (65/65
+resolved), including anchoring one unusually long, uninterrupted
+22-line Rashi passage by matching its own wording to the real
+captured lines it echoes rather than forcing artificial breaks. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2293,6 +2299,73 @@ All 45 entries were fixed across two sub-chunks (vilnaLine 1-22, then
 23-45). 23a is fully resolved, 45/45, with real translations
 replacing every generic placeholder and every linkedGemaraLineIds
 value corrected to its real zero-padded `yoma-023a-lXX` target.
+
+## 23b, full daf (VERSION 15.16), two sub-chunks, the garment-changing baraita
+
+Continuing the fast alignment run. Before any edit, the 23a/23b
+boundary was re-verified read-only: 23a's truncated final word
+"אינה" (she is not) is completed by 23b's opening "אינה מביאה עגלה
+ערופה" (she does not bring an axed heifer) in both the Gemara and
+Rashi columns, continuing the "ten things said about Jerusalem" list
+cleanly. No edit was made to 23a. The entry-count check introduced
+after 22b's surprise was run again first: `len(rashiTranslations)`
+(65) matched talmud.dev's non-empty raw Rashi array length (65)
+before any translation work began.
+
+23b's Gemara side has 15 real captured lines (`l01`, `l03`, `l10`,
+`l12`, `l15`, `l18`, `l21`, `l24`, `l27`, `l29`, `l31`, `l34`, `l36`,
+`l39`, `l41`) against 46 raw Gemara print lines, and its Rashi side
+has 65 raw print lines carrying the same generic descriptive-style
+placeholder text as the daf before it.
+
+This daf's Rashi column contains an unusually long, uninterrupted
+explanatory passage (vilnaLine 3-24, 22 raw print lines with no
+internal DH-closing punctuation) working through the baraita on
+changing garments between the tapuach-ash removal and the
+outside-the-camp carrying-out. Rather than force artificial breaks,
+it was read as one continuous unit and anchored at each place its own
+wording most directly echoes a real captured line: vilnaLine 3-6
+("thus we read in Torat Kohanim... one might think") to `l12`, since
+that phrase is the baraita's own opening premise; vilnaLine 7-24 (the
+extended walk through the five daily vestment changes and the tapuach
+mechanics) to `l15`, since it explicitly quotes "תלמוד לומר" ("the
+verse teaches"), the exact phrase that opens `l15`'s own text, before
+elaborating well beyond it. Two shorter multi-DH judgment calls were
+also required: vilnaLine 3's own comment on "תלמודא" (matching
+`l10`'s "תָּא שְׁמַע... תַּלְמוּדָא") closes before the same raw
+line immediately opens the DH that carries the whole entry to `l12`,
+so `l10` receives no dedicated vilnaLine; and vilnaLine 53-59 ("he
+shall wear, upon his flesh... why is it written") was anchored to
+`l34` rather than the more proximate `l31`, since its content
+("if you do not say so, why is 'upon his flesh' written") directly
+answers `l34`'s own derivation "מֵ״עַל בְּשָׂרוֹ״ נָפְקָא". The
+correspondence: vilnaLine 1-2 (Jerusalem was never divided among the
+tribes) to `l01`; 3-6 to `l12`; 7-24 to `l15`; 25-34 (why the verse
+says "others," lesser garments, the blemished priests) to `l18`;
+35-38 (not pouring wine in soiled garments) to `l21`; 39-41 (the
+dispute extends to lifting the ash too) to `l24`; 42 (a service valid
+with two vessels) to `l27`; 43-46 (the linen tunic and trousers
+requirement) to `l29`; 47-52 (why the turban and sash are also
+included, the tunic's proper fit) to `l31`; 53-59 (the boundary case
+above) to `l34`; 60 (why the trousers verse repeats "upon his flesh")
+to `l36`; 61-63 (Rabbi Dosa's four extra garments) to `l39`; 64-65
+(the boundary case below) to `l41`. `l03` (the aggadic father-and-
+son narrative and the bloodshed-versus-purity dilemma, both already
+covered similarly on 23a and not re-glossed here) has no dedicated
+Rashi comment in this daf's column and legitimately carries no
+vilnaLine.
+
+vilnaLine 65, the daf's final truncated word "לרבות" (to include), is
+the same kind of boundary case as the prior daf endings in this run:
+per the policy, it is linked to `yoma-023b-l41`, 23b's own final
+locally captured Gemara line (Rabbi's second answer about the sash),
+even though the DH's own point is itself still open at the point of
+truncation, continuing onto 24a.
+
+All 65 entries were fixed across two sub-chunks (vilnaLine 1-34, then
+35-65). 23b is fully resolved, 65/65, with real translations
+replacing every generic placeholder and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-023b-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
