@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.16: schema backfill is complete, the perek-level semantic
+As of VERSION 15.17: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -231,7 +231,11 @@ garment-changing baraita, confirming the 23a/23b boundary is clean
 and fixing all 65 of 23b's entries in two sub-chunks (65/65
 resolved), including anchoring one unusually long, uninterrupted
 22-line Rashi passage by matching its own wording to the real
-captured lines it echoes rather than forcing artificial breaks. No
+captured lines it echoes rather than forcing artificial breaks. At
+VERSION 15.17 (see "24a, full daf" below) the run continued to the
+four-capital-services sugya, confirming the 23b/24a boundary is
+clean and fixing all 47 of 24a's entries in two sub-chunks (47/47
+resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2366,6 +2370,58 @@ All 65 entries were fixed across two sub-chunks (vilnaLine 1-34, then
 35-65). 23b is fully resolved, 65/65, with real translations
 replacing every generic placeholder and every linkedGemaraLineIds
 value corrected to its real zero-padded `yoma-023b-lXX` target.
+
+## 24a, full daf (VERSION 15.17), two sub-chunks, the four capital services
+
+Continuing the fast alignment run. Before any edit, the 23b/24a
+boundary was re-verified read-only: 23b's truncated final word
+"לרבות" (to include) is completed by 24a's opening "לרבות את
+השחקים" (to include the worn ones) in both the Gemara and Rashi
+columns, continuing Rabbi's second answer about the sash cleanly. No
+edit was made to 23b. The entry-count check was run again first:
+`len(rashiTranslations)` (47) matched talmud.dev's non-empty raw
+Rashi array length (47) before any translation work began.
+
+24a's Gemara side has 10 real captured lines (`l01a`, `l01b`, `l04`,
+`l06`, `l08`, `l13`, `l16`, `l22`, `l25`, `l26`; `l01a` and `l01b`
+share the same `vilna_line` since two adjacent Gemara statements were
+grouped under one Vilna line stamp) against 30 raw Gemara print
+lines, and its Rashi side has 47 raw print lines carrying the same
+generic descriptive-style placeholder text as the daf before it.
+
+All 47 raw Rashi print lines were read against the raw Gemara text
+and the 10 real captured line ids, using the same multi-DH rule as
+prior daf. The correspondence: vilnaLine 1-2 (the worn garments are
+still valid, cross-referencing Zevachim) to `l01a`; 3-6 (Rabbi Yehuda
+and Rabbi Dosa's dispute over whether donning the turban and sash is
+itself a service) to `l04`; 7-13 (why a verse was needed to include
+the Yom Kippur garments) to `l06`; 14-24 (deriving the ash-removal's
+minimum handful from the tithe-offering or the Midianite tribute) to
+`l08`; 25-26 (the four services carrying capital liability for a
+non-priest) to `l13`; 27-38 (the verse's own exclusions: a gift-
+service, not a removal-service; a complete service, not one followed
+by another) to `l16`; 39-43 (the inner sprinklings and the leper's
+oil, included via "any matter of the altar") to `l22`; 44-46 (Levi's
+alternate derivation from the doubled "matter") to `l25`; 47 (the
+boundary case below) to `l26`. `l01b` (Rabbi Dosa's ruling that the
+worn garments are fit for an ordinary priest, sharing `l01a`'s Vilna
+line) has no separately dedicated vilnaLine, since the single raw
+Rashi comment spanning vilnaLine 1-2 stays anchored at its own
+opening DH rather than splitting mid-comment; this is the same
+pattern already documented for co-located real lines elsewhere in
+this run.
+
+vilnaLine 47, the daf's final truncated word "ולמבית" (and to
+inside), is the same kind of boundary case as the prior daf endings
+in this run: per the policy, it is linked to `yoma-024a-l26`, 24a's
+own final locally captured Gemara line (Levi's derivation via "any
+matter"), even though the DH's own point is itself still open at the
+point of truncation, continuing onto 24b.
+
+All 47 entries were fixed across two sub-chunks (vilnaLine 1-24, then
+25-47). 24a is fully resolved, 47/47, with real translations
+replacing every generic placeholder and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-024a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

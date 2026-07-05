@@ -55295,12 +55295,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 1,
         he: "לרבות שחקים. שכשירין לכל עבודה ובלבד שלא יהו מקורעין והכי",
-        en: "The worn garments are one-quarter the fabric of the regular four garments.",
+        en: "Rashi: opens 'to include the worn ones' - that they are valid for any service, provided they are not torn; and thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l01"
+          "yoma-024a-l01a"
         ]
       },
       {
@@ -55309,12 +55309,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 2,
         he: "קאמר בזבחים (דף יח.) ואזדא רבי דוסא לטעמיה לא שייך הכא",
-        en: "'And he shall put on his linen garments' - same type but worn.",
+        en: "Rashi: continues - he says in tractate Zevachim (18a): and Rabbi Dosa follows his own reasoning; it is not relevant here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l01b"
+          "yoma-024a-l01a"
         ]
       },
       {
@@ -55323,12 +55323,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 3,
         he: "למימר דהא כולה מלתא אגב גררא נסבה: מאי לאו. רבי יהודה",
-        en: "Commentary on the verse source for the worn garment requirement.",
+        en: "Rashi: concludes - to say that this whole matter was mentioned incidentally. Then opens 'is it not that' - Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l01b"
+          "yoma-024a-l04"
         ]
       },
       {
@@ -55337,7 +55337,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 4,
         he: "ורבי דוסא בהא פליגי דר\"י דדריש ילבש להביא מצנפת ואבנט סבר",
-        en: "The garments must still be valid priestly vestments - not ordinary clothes.",
+        en: "Rashi: continues - and Rabbi Dosa disagree about this: that Rabbi Yehuda, who expounds 'he shall wear' to include the turban and sash, holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55351,7 +55351,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 5,
         he: "עבודה היא ובעי מצנפת ואבנט ור'",
-        en: "Commentary on the smallest acceptable priestly vestment set.",
+        en: "Rashi: continues - it is a service and requires the turban and sash; and Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55365,12 +55365,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 6,
         he: "דוסא סבר לאו עבודה היא ולא בעי",
-        en: "The KG likely used his previous year's worn vestments for ash removal.",
+        en: "Rashi: continues - Dosa holds it is not a service and does not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l06"
+          "yoma-024a-l04"
         ]
       },
       {
@@ -55379,7 +55379,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 7,
         he: "מצנפת ואבנט: צריכא קרא לרבויי.",
-        en: "Commentary on the ash removal garments and their origin.",
+        en: "Rashi: concludes - the turban and sash. Then opens and closes 'a verse is needed to include it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55393,329 +55393,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 8,
         he: "דלא תימא הני דווקא ולמימרא דלאו",
-        en: "A fistful of ash placed in the golden pan from the top of the heap.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-009",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 9,
-        he: "עבודה: ומר סבר לא צריכא לרבויי",
-        en: "Commentary on the golden pan (machta shel zahav).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-010",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 10,
-        he: "לה מקראי. דכיון דגלי בה כתונת",
-        en: "Commentary on the quantity and source of ash.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-011",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 11,
-        he: "בד קדש ומכנסי קדש אשמעינן",
-        en: "Commentary on the pan not overflowing.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-012",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 12,
-        he: "דעבודה היא ובעיא כולהו וכי אתא",
-        en: "Commentary on the transition to non-priest eligibility.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-013",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 13,
-        he: "קרא לרבויי לבגדי יוה\"כ אתא:",
-        en: "Slaughter is valid by any Israelite.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-014",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 14,
-        he: "מתרומת מעשר ילפינן לה. דהא",
-        en: "Commentary on blood reception requiring a priest.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-015",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 15,
-        he: "והרים כתיב לשון והרמותם ממנו",
-        en: "Commentary on the division of labor: slaughter vs. blood.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-016",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 16,
-        he: "(במדבר יח) והויא באומד אחד",
-        en: "Commentary on wood carrying to the altar.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l16"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-017",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 17,
-        he: "מעשרה בדשן המערכה: או מתרומת",
-        en: "Dispute: is wood carrying formal service or logistical support?",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l16"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-018",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 18,
-        he: "מדין. דכתיב (שם לא) והרמות מכס",
-        en: "Commentary on the distinction between avodah and support.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-019",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 19,
-        he: "לה' וגו' אחד נפש מחמש המאות: תא",
-        en: "Commentary on the ash carrying from ramp to pit.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-020",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 20,
-        he: "שמע. דמהרמת קומץ ילפינן לה לא",
-        en: "R. Elazar: non-priests may carry ash to the pit once formal mitzvah is done.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-021",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 21,
-        he: "יפחות מאומד מלא הקומץ ואם רצה",
-        en: "Commentary on R. Elazar's ruling and its basis.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-022",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 22,
-        he: "להוסיף יוסיף דהא ליכא למימר",
-        en: "Commentary on the governing principle: inherent-to-offering requires priests.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-023",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 23,
-        he: "דווקא קאמר דהא לא אפשר לפשוט",
-        en: "Commentary on the non-priest eligibility summary.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-024",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 24,
-        he: "ברמץ גחלים רותחות ידיו לקמוץ:",
-        en: "Commentary on the avodah vs. support distinction.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-025",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 25,
-        he: "ארבע עבודות כו'. אע\"פ שכולן",
-        en: "Commentary on the transition to 24b.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-026",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 26,
-        he: "מוזהר עליהן זר אין חיוב מיתה אלא",
-        en: "Commentary on the closing of the non-priest section.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-027",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 27,
-        he: "בארבע האלו כדמפרש ואזיל: ואתה",
-        en: "Commentary on the worn garment law's source.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l01b"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-028",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 28,
-        he: "ובניך אתך וגו'. סיפיה דקרא והזר",
-        en: "Commentary on the chapter 2 halakha structure.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-029",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 29,
-        he: "הקרב יומת: עבודת מתנה. שאתה",
-        en: "Commentary on the ash removal vessel details.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-030",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 30,
-        he: "נותן על המזבח ולא עבודת סילוק",
-        en: "Commentary on the golden pan and Temple vessel dignity.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-031",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 31,
-        he: "שאתה מסלק וסר מעל המזבח כגון",
-        en: "Commentary on the closing of the garment section.",
+        en: "Rashi: continues DH comment - lest you say these are exclusive, meaning it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55724,40 +55402,236 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-024a-032",
+        id: "rashi-yoma-024a-009",
         sourceType: "rashi",
         daf: "24a",
-        vilnaLine: 32,
-        he: "תרומת הדשן: עבודה תמה. עבודה",
-        en: "Commentary on the worn garments as still valid bigdei kehuna.",
+        vilnaLine: 9,
+        he: "עבודה: ומר סבר לא צריכא לרבויי",
+        en: "Rashi: concludes - a service. Then opens 'and the other master holds no verse is needed to include'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l04"
+          "yoma-024a-l06"
         ]
       },
       {
-        id: "rashi-yoma-024a-033",
+        id: "rashi-yoma-024a-010",
         sourceType: "rashi",
         daf: "24a",
-        vilnaLine: 33,
-        he: "שהיא גומרת ומתממת את הדבר ולא",
-        en: "Commentary on the ash removal service conclusion.",
+        vilnaLine: 10,
+        he: "לה מקראי. דכיון דגלי בה כתונת",
+        en: "Rashi: continues DH - it from the verses' - since it revealed regarding it, a tunic of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l26"
+          "yoma-024a-l06"
         ]
       },
       {
-        id: "rashi-yoma-024a-034",
+        id: "rashi-yoma-024a-011",
         sourceType: "rashi",
         daf: "24a",
-        vilnaLine: 34,
-        he: "שיש אחריה עבודה כגון שחיטה",
-        en: "Commentary on the slaughter by non-priests conclusion.",
+        vilnaLine: 11,
+        he: "בד קדש ומכנסי קדש אשמעינן",
+        en: "Rashi: continues - linen, sacred, and linen trousers, sacred, it taught us",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-012",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 12,
+        he: "דעבודה היא ובעיא כולהו וכי אתא",
+        en: "Rashi: continues - that it is a service and requires all of them; and when",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-013",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 13,
+        he: "קרא לרבויי לבגדי יוה\"כ אתא:",
+        en: "Rashi: concludes - the verse came to include, it came for the garments of Yom Kippur.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-014",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 14,
+        he: "מתרומת מעשר ילפינן לה. דהא",
+        en: "Rashi: opens 'we derive it from the tithe-offering' - since",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-015",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 15,
+        he: "והרים כתיב לשון והרמותם ממנו",
+        en: "Rashi: continues - 'and he shall raise' is written, similar to the language 'and you shall raise from it'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-016",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 16,
+        he: "(במדבר יח) והויא באומד אחד",
+        en: "Rashi: continues - (Numbers 18), and it is an estimate of one",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-017",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 17,
+        he: "מעשרה בדשן המערכה: או מתרומת",
+        en: "Rashi: concludes - part in ten in the ash of the arrangement. Then opens 'or from the tribute'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-018",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 18,
+        he: "מדין. דכתיב (שם לא) והרמות מכס",
+        en: "Rashi: continues DH - of Midian' - as it is written (ibid. 31): 'and you shall raise a tribute",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-019",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 19,
+        he: "לה' וגו' אחד נפש מחמש המאות: תא",
+        en: "Rashi: concludes - to the Lord,' etc., one soul out of five hundred. Then opens 'come and hear'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-020",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 20,
+        he: "שמע. דמהרמת קומץ ילפינן לה לא",
+        en: "Rashi: continues DH - that from the raising of the handful we derive it: it should not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-021",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 21,
+        he: "יפחות מאומד מלא הקומץ ואם רצה",
+        en: "Rashi: continues - be less than the estimate of a full handful, and if he wishes",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-022",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 22,
+        he: "להוסיף יוסיף דהא ליכא למימר",
+        en: "Rashi: continues - to add, he may add, since one cannot say",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-023",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 23,
+        he: "דווקא קאמר דהא לא אפשר לפשוט",
+        en: "Rashi: continues - it means exactly this amount, since it is impossible to stretch",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-024",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 24,
+        he: "ברמץ גחלים רותחות ידיו לקמוץ:",
+        en: "Rashi: concludes - his hands into the embers of burning coals to scoop a handful.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-025",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 25,
+        he: "ארבע עבודות כו'. אע\"פ שכולן",
+        en: "Rashi: opens 'four services, etc.' - even though for all of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55766,54 +55640,12 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-024a-035",
+        id: "rashi-yoma-024a-026",
         sourceType: "rashi",
         daf: "24a",
-        vilnaLine: 35,
-        he: "וקבלה והולכה שיש אחריה זריקה אבל",
-        en: "Commentary on the chapter 2 main service laws.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-036",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 36,
-        he: "זריקה עבודה אחרונה שבדם וכן",
-        en: "Commentary on the final summary of ash removal laws.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-037",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 37,
-        he: "הקטרה בקומץ מנחה ובאברים",
-        en: "Commentary on the transition to lottery main topic.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-024a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-024a-038",
-        sourceType: "rashi",
-        daf: "24a",
-        vilnaLine: 38,
-        he: "ופדרים וכן ניסוך היין בכל השנה וכן",
-        en: "Commentary on the slaughter topic details.",
+        vilnaLine: 26,
+        he: "מוזהר עליהן זר אין חיוב מיתה אלא",
+        en: "Rashi: continues - a non-priest is warned, there is no capital liability except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55822,12 +55654,12 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-024a-039",
+        id: "rashi-yoma-024a-027",
         sourceType: "rashi",
         daf: "24a",
-        vilnaLine: 39,
-        he: "המים בחג: לכל דבר המזבח. לרבות",
-        en: "Commentary on wood carrying eligibility.",
+        vilnaLine: 27,
+        he: "בארבע האלו כדמפרש ואזיל: ואתה",
+        en: "Rashi: concludes - for these four, as is explained further on. Then opens 'and you'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55836,12 +55668,180 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-024a-028",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 28,
+        he: "ובניך אתך וגו'. סיפיה דקרא והזר",
+        en: "Rashi: continues DH - and your sons with you, etc.' - the end of the verse: 'and the stranger",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-029",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 29,
+        he: "הקרב יומת: עבודת מתנה. שאתה",
+        en: "Rashi: concludes - who approaches shall be put to death.' Then opens 'a service of gift' - that you",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-030",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 30,
+        he: "נותן על המזבח ולא עבודת סילוק",
+        en: "Rashi: continues - place upon the altar, and not a removal-service,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-031",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 31,
+        he: "שאתה מסלק וסר מעל המזבח כגון",
+        en: "Rashi: continues - that you remove and take away from the altar, such as",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-032",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 32,
+        he: "תרומת הדשן: עבודה תמה. עבודה",
+        en: "Rashi: concludes - the removal of the ash. Then opens 'a complete service' - a service",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-033",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 33,
+        he: "שהיא גומרת ומתממת את הדבר ולא",
+        en: "Rashi: continues - that finishes and completes the matter, and not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-034",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 34,
+        he: "שיש אחריה עבודה כגון שחיטה",
+        en: "Rashi: continues - one after which there is another service, such as slaughtering",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-035",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 35,
+        he: "וקבלה והולכה שיש אחריה זריקה אבל",
+        en: "Rashi: continues - and receiving and carrying the blood, after which comes the sprinkling; but",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-036",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 36,
+        he: "זריקה עבודה אחרונה שבדם וכן",
+        en: "Rashi: continues - the sprinkling is the final service of the blood; and likewise",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-037",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 37,
+        he: "הקטרה בקומץ מנחה ובאברים",
+        en: "Rashi: continues - the burning, with the handful of a meal offering, and with the limbs",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-038",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 38,
+        he: "ופדרים וכן ניסוך היין בכל השנה וכן",
+        en: "Rashi: concludes - and fats; and likewise the wine libation all year; and likewise",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-024a-039",
+        sourceType: "rashi",
+        daf: "24a",
+        vilnaLine: 39,
+        he: "המים בחג: לכל דבר המזבח. לרבות",
+        en: "Rashi: continues DH - the water on the festival. Then opens 'for any matter of the altar' - to include",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-024a-l22"
+        ]
+      },
+      {
         id: "rashi-yoma-024a-040",
         sourceType: "rashi",
         daf: "24a",
         vilnaLine: 40,
         he: "עבודת סילוק אם עבודה תמה היא",
-        en: "Commentary on the non-priest tasks discussion.",
+        en: "Rashi: continues - a removal-service, if it is a complete service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55855,7 +55855,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 41,
         he: "כגון תרומת הדשן: שבע הזאות שבפנים. שמזה על הפרוכת מפר",
-        en: "Commentary on R. Elazar's principle.",
+        en: "Rashi: concludes - such as the removal of the ash. Then opens 'the seven sprinklings inside' - one who sprinkles on the curtain, from the bull of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -55869,12 +55869,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 42,
         he: "העלם דבר ופר משיח ושל יוה\"כ ושבמצורע שמזה מלוג שמן בהיכל",
-        en: "Commentary on the end of the avodah section.",
+        en: "Rashi: continues - a communal unwitting sin, and the bull of the anointed priest, and that of Yom Kippur; and that of the leper, who sprinkles a log of oil in the Sanctuary,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l26"
+          "yoma-024a-l22"
         ]
       },
       {
@@ -55883,12 +55883,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 43,
         he: "כדכתיב (ויקרא יד) והזה מן השמן באצבעו וגו' דסלקא דעתך",
-        en: "Commentary on the principle of inherent-to-offering.",
+        en: "Rashi: continues - as it is written (Leviticus 14): 'and he shall sprinkle from the oil with his finger,' etc.; for you might think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l25"
+          "yoma-024a-l22"
         ]
       },
       {
@@ -55897,12 +55897,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 44,
         he: "אמינא לאו דבר המזבח הוא להכי רבי לכל: ולוי נפקא להו. כולהו",
-        en: "Commentary on the closing of chapter 2 laws.",
+        en: "Rashi: concludes - to say it is not a matter of the altar, therefore he includes it with 'any.' Then opens 'and Levi derives them' - all of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l26"
+          "yoma-024a-l25"
         ]
       },
       {
@@ -55911,12 +55911,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 45,
         he: "מיניה מדבר לכל דבר דהא דבר המזבח גופיה יתירה הוא ונגמר",
-        en: "Commentary on the continuation to 24b.",
+        en: "Rashi: continues - from 'matter' to 'any matter,' since 'matter of the altar' itself is superfluous, and from it is derived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l26"
+          "yoma-024a-l25"
         ]
       },
       {
@@ -55925,12 +55925,12 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 46,
         he: "מיניה תרומת הדשן ומריבויא דלכל דריש ביה הזאה הפנימית:",
-        en: "Commentary on the ash removal and lottery connection.",
+        en: "Rashi: concludes - the removal of the ash, and from the extra 'any' he derives the inner sprinkling.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-024a-l26"
+          "yoma-024a-l25"
         ]
       },
       {
@@ -55939,7 +55939,7 @@ const DAF_CONTENT = {
         daf: "24a",
         vilnaLine: 47,
         he: "ולמבית",
-        en: "Commentary on the final ash removal summary.",
+        en: "Rashi: the daf's final truncated word - 'and to inside,' continuing Rav's derivation of the inner sprinklings from the extra word 'matter,' whose text continues on 24b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
