@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.25: schema backfill is complete, the perek-level semantic
+As of VERSION 15.26: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -3020,6 +3020,97 @@ This closes out a third consecutive dangling-link daf (27a, 27b,
 28a), reinforcing that the dangling-link failure mode is now a
 standing check to run on every remaining daf in this corpus,
 independent of the raw-count preflight.
+
+## 28b, full daf (VERSION 15.26), fourth dangling-link daf in a row, closes the 25a-28b run
+
+Continuing and closing the resumed run. Before any edit, the 28a/28b
+boundary was re-verified read-only: 28a's truncated final "word" was
+the bare Gemara-section marker "גמ'" (marking the start of Perek 3's
+own discussion with no further text captured on 28a), completed by
+28b's opening "גמ' תניא ר' ישמעאל אומר ברק ברקאי" in both the Gemara
+and Rashi columns, opening the baraita on the dawn-announcement
+formula cleanly. No edit was made to 28a. The mandatory preflight
+raw-count check was run first: talmud.dev's non-empty raw Rashi array
+for 28b has 79 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 79 entries, an exact match on count.
+
+As with the three preceding daf, every existing `linkedGemaraLineIds`
+value was independently checked against the daf's real captured
+Gemara line ids before trusting the count match. 28b's real ids are
+`l01`, `l07`, `l08`, `l10`, `l16`, `l19`, `l25`, `l32`, `l34`, `l36`,
+`l37`, `l39`, `l41`, `l42`, `l44`, `l45` (16 total, spanning 47 raw
+Gemara print lines). Checking every prior entry against this set found
+8 dangling references to nonexistent ids: vilnaLine 2 to `l02`,
+vilnaLine 4 to `l09`, vilnaLine 6 to `l11`, vilnaLine 7 to `l12`,
+vilnaLine 8 to `l13`, vilnaLine 9 to `l14`, vilnaLine 10 to `l15`, and
+vilnaLine 16 to `l46` (which does not exist at all, the closest real
+id being `l45`). This is the fourth consecutive daf with this failure
+mode, so the whole daf was rebuilt using the list-indexed methodology.
+
+All 79 raw Rashi print lines were read against the raw Gemara text
+and the 16 real captured line ids, using the multi-DH rule. One
+transcription slip mid-draft, where one raw line's own multi-DH
+transition ("he himself said - this is the one on the roof" opening
+one comment, then "to Hebron - it is a question" opening another, both
+appearing on the SAME raw print line) was incorrectly split across
+two list entries, leaving the total at 80 rather than 79, was caught
+by the script's own length assertion and by a per-target-id count
+check before any file was written; the two entries were merged back
+into one (the whole line correctly targets whichever real line the
+LAST-opened dibbur hamatchil on it belongs to, per the established
+multi-DH rule) and the full list re-verified index by index before
+applying. A separate transcription slip, where the target ids were
+accidentally typed with the `028a-` prefix from the daf just closed
+rather than `028b-`, was caught immediately by a plain text search
+across the whole draft before the count check even ran.
+
+The correspondence: vilnaLine 1-2 (the light has risen, to hire
+workers) to `l07`; 3-12 (the prayer of Abraham, the walls blacken) to
+`l08`; 13-14 (shall we arise and derive a halakha from Abraham) to
+`l10`; 15-23 (when it occurs on the eve of Shabbat, one needed to
+hurry the offering) to `l16`; 24-34 (they were not perfectly aligned,
+astronomy, all the kings of east and west) to `l19`; 35 (who draws
+and gives drink) to `l32`; 36-37 (the seven Noahide mitzvot) to `l34`;
+38-39 (even the joining of cooked foods) to `l36`; 40 (and he
+interprets the dream, meaning he both asks and answers) to `l37`;
+41-47 (he himself said, this is the one on the roof, if you wish say)
+to `l41`; 48-62 (are they confused, a column of sun light, a cloudy
+day, learn from this) to `l42`; 63 (to spread hides) to `l44`; 64-79
+(the hazy light of the sun, a jar of vinegar, dazzling sunlight) to
+`l45`. `l01` (the four tanna'im's own wordings for the dawn
+announcement, folded per the multi-DH rule since the daf's opening
+raw print line both closes a comment on Rabbi Akiva's own phrase and
+opens the comment that targets `l07`, and the whole line's target is
+therefore `l07`, not `l01`), `l25` (the elders-in-Egypt, Isaac, and
+Jacob citation chain, self-explanatory and requiring no dedicated
+Rashi gloss), and `l39` (a near-duplicate restatement of the
+roof-versus-ground exchange, absorbed into the comment anchored to
+`l41`, whose own opening phrase matches the raw text more precisely)
+have no dedicated vilnaLine of their own in this daf's column.
+
+vilnaLine 79, the daf's final truncated word "הרהורי" (musings of),
+is the same kind of boundary case as every other daf ending in this
+run: per the policy, it is linked to `yoma-028b-l45`, 28b's own final
+locally captured Gemara line (Rav Nachman's teaching about hazy
+sunlight and dazzling light), even though the DH's own point is
+itself still open at the point of truncation, continuing onto 29a.
+
+All 79 entries were fixed in a single list-indexed pass. 28b is fully
+resolved, 79/79, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 8 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
+
+This closes the bounded fast Rashi alignment run covering 25a through
+28b (8 daf: 25a, 25b, 26a, 26b, 27a, 27b, 28a, 28b), fixing 61 + 62 +
+42 + 61 + 53 + 44 + 45 + 79 = 447 entries total. No daf in this range
+was deferred. The run also produced one major corpus-quality finding
+applicable beyond this range: the dangling-linkedGemaraLineIds failure
+mode (first found at 27a and confirmed on every daf through 28b),
+distinct from the generic descriptive-style placeholder pattern that
+dominated 21a through 26b, worth checking for specifically on every
+remaining daf in this corpus regardless of whether the raw-count
+preflight passes cleanly.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

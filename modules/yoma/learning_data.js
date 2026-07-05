@@ -65750,12 +65750,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 1,
         he: "גמ' עלה ברקאי. האיר יותר מברק: לשכור פועלים. האי יצאו",
-        en: "Dispute about the exact formula: 'Is the entire sky illuminated?' or 'Has the morning star risen?'",
+        en: "Rashi: opens 'the light has risen' - it is brighter than a mere flash. Then opens 'to hire workers' - this 'they went out'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l01"
+          "yoma-028b-l07"
         ]
       },
       {
@@ -65764,12 +65764,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 2,
         he: "איש למלאכתו לאו על הפועלים קאי אלא בעה\"ב שהוא משכים",
-        en: "If the eastern sky is already illuminated, why ask? Implication about the formula.",
+        en: "Rashi: continues - each to his own labor, does not refer to the workers themselves but to the employer who rises early",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l02"
+          "yoma-028b-l07"
         ]
       },
       {
@@ -65778,7 +65778,7 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 3,
         he: "ביותר למצוא פועלים לשכור: צלותיה דאברהם. תפלת הערב שלו:",
-        en: "Rav Safra: Abraham's afternoon prayer time was when walls begin to blacken.",
+        en: "Rashi: concludes - to find workers to hire. Then opens and closes 'the prayer of Abraham' - his own afternoon prayer.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -65792,12 +65792,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 4,
         he: "מכי משחרי כותלי. חומות הפונות למזרח שהלבינו מהנץ החמה",
-        en: "Rav Yosef: can we derive law from Abraham's pre-Sinai conduct?",
+        en: "Rashi: opens 'from when the walls blacken' - the walls facing east that whitened from the rising sun",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l09"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65806,12 +65806,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 5,
         he: "הבאה מן המזרח ונוצצת עליהן",
-        en: "Rava: Rav Yosef's objection was about deriving from Abraham's practice - not that Abraham didn't do it.",
+        en: "Rashi: continues - coming from the east and glinting upon them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l10"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65820,12 +65820,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 6,
         he: "ובתחילת שבע שעות שהחמה באמצע",
-        en: "The Gemara asks: what does 'walls beginning to blacken' mean exactly?",
+        en: "Rashi: continues - and at the start of the seventh hour, when the sun is in the middle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l11"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65834,12 +65834,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 7,
         he: "הרקיע בראש כל אדם אינה עושה",
-        en: "Egypt had its own yeshiva: 'Go and gather the elders of Israel' (Exodus 3:16).",
+        en: "Rashi: continues - of the sky, directly above every person, it makes no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l12"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65848,12 +65848,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 8,
         he: "עמוד אלא תחתיהן משחירין אותן",
-        en: "Eliezer, Abraham's servant, was an elder in the academy.",
+        en: "Rashi: continues - shadow, but below them the walls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l13"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65862,12 +65862,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 9,
         he: "הכתלים לפי שאין חמה נוצצת אלא",
-        en: "Rav: Abraham observed the entire Torah, as the verse says 'because Abraham obeyed My voice' (Gen. 26:5).",
+        en: "Rashi: continues - begin to blacken, since the sun only glints",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l14"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65876,12 +65876,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 10,
         he: "בראש הכותל בעוביו ומיצל חודו",
-        en: "Abraham also observed eruv tavshilin - derived from 'Torah and mitzvot' (plural) in the same verse.",
+        en: "Rashi: continues - on the top of the wall's own thickness, and the edge of its rim casts shade",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l15"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65890,12 +65890,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 11,
         he: "של שפת עוביו על זקיפת הכותל",
-        en: "Mishna: Matya ben Shmuel announces 'Is the entire eastern sky illuminated?'",
+        en: "Rashi: continues - over the wall's own upright face,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l37"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65904,12 +65904,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 12,
         he: "ומשחרת מההיא שעתא נוטים צללי",
-        en: "Who makes this announcement: someone standing on the ground or on a high place?",
+        en: "Rashi: continues - and it blackens from that time; the shadows of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l41"
+          "yoma-028b-l08"
         ]
       },
       {
@@ -65918,12 +65918,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 13,
         he: "ערב וקרוי ערב: אנן מאברהם",
-        en: "Alternative: the person on the ground asks; the person on the elevated spot responds.",
+        en: "Rashi: concludes - evening lengthen, and it is called evening. Then opens 'shall we arise'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l42"
+          "yoma-028b-l10"
         ]
       },
       {
@@ -65932,12 +65932,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 14,
         he: "ניקום ונגמר.  באת ללמדנו להיות",
-        en: "The confusion incident: priests slaughtered the tamid before dawn due to moonlight.",
+        en: "Rashi: concludes - and derive - you have come to teach us to be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l44"
+          "yoma-028b-l10"
         ]
       },
       {
@@ -65946,12 +65946,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 15,
         he: "זריזין כאברהם: חל להיות בערב",
-        en: "Practical question: what difference does it make if a cloudy day resembles a complete darkness?",
+        en: "Rashi: opens 'diligent like Abraham. Then opens and closes 'when it occurs on the eve of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l45"
+          "yoma-028b-l16"
         ]
       },
       {
@@ -65960,12 +65960,12 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 16,
         he: "שבת. הוצרך למהר תמיד של בין",
-        en: "Rav Nachman: the pale light of sun through clouds is more harmful than sunlight.",
+        en: "Rashi: continues - Shabbat, one needed to hurry the afternoon daily-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028b-l46"
+          "yoma-028b-l16"
         ]
       },
       {
@@ -65974,11 +65974,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 17,
         he: "הערבים בכל יכולת לפי שפסחים",
-        en: "And needed to be roasted before Shabbat began.",
+        en: "Rashi: continues - as much as possible, since the Paschal offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-018",
@@ -65986,11 +65988,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 18,
         he: "נשחטו אחריו וצריך לצלותן מבעוד",
-        en: "As stated in that tractate: it is offered at its proper time.",
+        en: "Rashi: continues - were slaughtered after it and needed to be roasted while it was still",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-019",
@@ -65998,11 +66002,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 19,
         he: "יום ואמרינן התם מוקמינן ליה",
-        en: "From when the shadows incline, as the Mishna teaches.",
+        en: "Rashi: continues - day, and we say there: we establish it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-020",
@@ -66010,11 +66016,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 20,
         he: "אדיניה מכי ינטו צללי ערב וקתני",
-        en: "The tamid was slaughtered at six and a half hours.",
+        en: "Rashi: continues - at its own time, from when the evening shadows lengthen, and it teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-021",
@@ -66022,11 +66030,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 21,
         he: "נשחט התמיד בשש ומחצה ואי מכי",
-        en: "If 'from when the walls whiten' is already considered afternoon.",
+        en: "Rashi: continues - that the daily-offering is slaughtered at six and a half hours, but if from when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-022",
@@ -66034,11 +66044,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 22,
         he: "משחרי כותלי מיקרי בין הערבים",
-        en: "Slaughter it from when the walls whiten - that is from the start of the seventh hour.",
+        en: "Rashi: continues - the walls blacken it is called the afternoon,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-023",
@@ -66046,11 +66058,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 23,
         he: "נשחטיה מכי משחרי דהיינו מתחלת",
-        en: "The walls were not perfectly straight and vertical.",
+        en: "Rashi: concludes - let us slaughter it from when the walls blacken, which is from the start of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l16"
+        ]
       },
       {
         id: "rashi-yoma-028b-024",
@@ -66058,11 +66072,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 24,
         he: "שבע: דלא מכווני. לא הוו זקופים",
-        en: "The walls were wider at the bottom and narrowed upward.",
+        en: "Rashi: opens 'the seventh hour. Then opens and closes 'they are not perfectly aligned' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-025",
@@ -66070,11 +66086,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 25,
         he: "בצמצום ולפי שהחומה היתה רחבה",
-        en: "Therefore the top edge does not cast shadow on the wall face.",
+        en: "Rashi: continues - they were not perfectly upright, and since the wall was broad",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-026",
@@ -66082,11 +66100,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 26,
         he: "מלמטה והולכת ומתקצרת ועולה",
-        en: "Until the sun moves westward.",
+        en: "Rashi: continues - at the bottom and gradually narrowed as it rose,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-027",
@@ -66094,11 +66114,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 27,
         he: "ולפיכך אין חודו של שפת עוביו",
-        en: "Astronomy - expertise in the movement of the stars and the beginning of the hours.",
+        en: "Rashi: continues - therefore the edge of its own rim's thickness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-028",
@@ -66106,11 +66128,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 28,
         he: "למעלה מיצל על זקיפתו להשחירו עד",
-        en: "As taught in Bava Batra (16b): 'God blessed Abraham with everything.'",
+        en: "Rashi: continues - above did not cast shade on its own upright face to blacken it until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-029",
@@ -66118,11 +66142,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 29,
         he: "שתימשך חמה למערב: איצטגנינות.",
-        en: "Abraham had great astrological expertise.",
+        en: "Rashi: concludes - the sun had moved further west. Then opens and closes 'astronomy' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-030",
@@ -66130,11 +66156,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 30,
         he: "להיות בקי בהליכות המזלות ותחילות",
-        en: "All the kings of east and west came early to his door to inquire about the constellations.",
+        en: "Rashi: continues - to be expert in the movements of the constellations and the beginnings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-031",
@@ -66142,11 +66170,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 31,
         he: "השעות דהכי תניא בבבא בתרא",
-        en: "Drawing and watering - a notarikon for Damascus.",
+        en: "Rashi: continues - of the hours, as it is taught in Bava Batra",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-032",
@@ -66154,11 +66184,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 32,
         he: "(דף טז:) וה' ברך את אברהם בכל",
-        en: "Seven commandments - those given to all the children of Noah.",
+        en: "Rashi: continues - (16b): and the Lord blessed Abraham with everything,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-033",
@@ -66166,11 +66198,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 33,
         he: "איצטגנינות גדולה היתה בלבו וכל",
-        en: "But the Torah was not given to him.",
+        en: "Rashi: continues - there was great astronomy in his heart, and all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-034",
@@ -66178,11 +66212,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 34,
         he: "מלכי מזרח ומערב משכימין לפתחו",
-        en: "Even eruv tavshilin - which is not a law from Sinai but a rabbinic enactment.",
+        en: "Rashi: continues - the kings of east and west would rise early to his door",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l19"
+        ]
       },
       {
         id: "rashi-yoma-028b-035",
@@ -66190,11 +66226,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 35,
         he: "לשאול במזלות: דולה ומשקה.",
-        en: "That the later Sages were destined to enact.",
+        en: "Rashi: concludes - to ask about the constellations. Then opens and closes 'who draws and gives drink' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l32"
+        ]
       },
       {
         id: "rashi-yoma-028b-036",
@@ -66202,11 +66240,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 36,
         he: "נוטריקון של דמשק: שבע מצות.",
-        en: "He himself interprets - he asks and answers his own question.",
+        en: "Rashi: concludes - an acronym of Damascus. Then opens and closes 'seven mitzvot' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l34"
+        ]
       },
       {
         id: "rashi-yoma-028b-037",
@@ -66214,11 +66254,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 37,
         he: "שנצטוו לשאר כל בני נח אבל תורה",
-        en: "The one on the roof said it; 'until it reaches Hebron' - this is a question.",
+        en: "Rashi: continues - which were commanded to the rest of Noah's descendants, but the Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l34"
+        ]
       },
       {
         id: "rashi-yoma-028b-038",
@@ -66226,11 +66268,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 38,
         he: "לא נתנה לו: אפילו עירובי תבשילין.",
-        en: "And he who stands on the ground - said 'yes'; how did the one on the ground say it?",
+        en: "Rashi: concludes - was not given to him. Then opens and closes 'even the joining of cooked foods' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l36"
+        ]
       },
       {
         id: "rashi-yoma-028b-039",
@@ -66238,11 +66282,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 39,
         he: "שאינו הלכה למשה מסיני אלא תקנת סופרים שעתידין לתקן:",
-        en: "The one who stands on the ground asked 'has the entire eastern sky lit up.'",
+        en: "Rashi: concludes - since it is not a law given to Moses at Sinai but a later rabbinic enactment.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l36"
+        ]
       },
       {
         id: "rashi-yoma-028b-040",
@@ -66250,11 +66296,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 40,
         he: "ואיהו מפשר. פותר החלום כלומר הוא שואל הוא משיב: אמר",
-        en: "And the one on the roof answered 'until Hebron' - meaning yes, it has lit that far.",
+        en: "Rashi: opens 'and he interprets' - he interprets the dream, meaning he both asks and answers.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l37"
+        ]
       },
       {
         id: "rashi-yoma-028b-041",
@@ -66262,11 +66310,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 41,
         he: "איהו. זה שעל הגג: עד שבחברון. שאילה היא: ואיבעית אימא",
-        en: "And the ground person said 'yes' - meaning: that is what I am asking, has it lit until Hebron.",
+        en: "Rashi: opens 'he himself said' - this one who is on the roof. 'To Hebron' is a question. Then opens 'if you wish, say' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-042",
@@ -66274,11 +66324,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 42,
         he: "האי דקאי אארעא. אמר הן כיצד אמר הא דקאי אארעא האיר",
-        en: "We find in the Jerusalem Talmud (ch. 3 h. 1) that they mention Hebron.",
+        en: "Rashi: continues - that one who is standing on the ground said yes; how so, the one on the ground said: the entire east has lit up,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-043",
@@ -66286,11 +66338,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 43,
         he: "פני כל המזרח בלשון שאילה וזה",
-        en: "To invoke the merit of the patriarchs buried there.",
+        en: "Rashi: continues - as a question, and this one answers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-044",
@@ -66298,11 +66352,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 44,
         he: "אומר לו עד שבחברון האיר וא\"ל",
-        en: "Can they be confused? The column of sunlight looks like the column of moonlight.",
+        en: "Rashi: continues - him: has it lit up to Hebron, and he said to him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-045",
@@ -66310,11 +66366,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 45,
         he: "האי דקאי אארעא הן כך אני שואל",
-        en: "The column of the sun - at dawn it splits and rises like a palm tree.",
+        en: "Rashi: continues - the one on the ground, yes, that is what I ask,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-046",
@@ -66322,11 +66380,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 46,
         he: "ומצינו בתלמוד ירושלמי (פ\"ג ה\"א) כדי",
-        en: "'And pillars of smoke' (Joel 3) - because it rises erect.",
+        en: "Rashi: continues - and we find in the Jerusalem Talmud (3:1) that in order to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-047",
@@ -66334,11 +66394,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 47,
         he: "להזכיר זכות אבות מזכירין חברון:",
-        en: "A cloudy day - the sky is covered with clouds and the column is not visible through the mist.",
+        en: "Rashi: concludes - mention the merit of the patriarchs, they mention Hebron.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l41"
+        ]
       },
       {
         id: "rashi-yoma-028b-048",
@@ -66346,11 +66408,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 48,
         he: "ומי מיחלף. צימוח תימור חמה בצימוח",
-        en: "Only in the gaps between clouds in many places between cloud and cloud.",
+        en: "Rashi: opens 'and are they confused' - the rising of the sun's column with the rising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-049",
@@ -66358,11 +66422,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 49,
         he: "תימור לבנה: תימור של חמה.",
-        en: "Learn from this - since he says 'on a cloudy day it splits in many places.'",
+        en: "Rashi: concludes - of the moon's column. Then opens and closes 'a column of sun light' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-050",
@@ -66370,11 +66436,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 50,
         he: "עלות השחר שנבקע ונראה כתמר",
-        en: "A completely overcast day - even in shadowed spots the sun breaks through.",
+        en: "Rashi: continues - dawn, which splits and appears like a raised",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-051",
@@ -66382,11 +66450,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 51,
         he: "זקוף לשון ותמרות עשן (יואל ג) על",
-        en: "It is not directed through a specific window; it spreads over all the clouds.",
+        en: "Rashi: continues - staff, an expression like 'columns of smoke' (Joel 3), for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-052",
@@ -66394,11 +66464,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 52,
         he: "שם שזוקף ועולה: יום המעונן.",
-        en: "And breaks through every gap in them.",
+        en: "Rashi: concludes - it stands and rises. Then opens and closes 'a cloudy day' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-053",
@@ -66406,11 +66478,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 53,
         he: "הרקיע קשור בעבים ואין התימור",
-        en: "To spread hides for drying.",
+        en: "Rashi: continues - the sky is bound with clouds, and the column is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-054",
@@ -66418,11 +66492,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 54,
         he: "נראה בעד ערפל אלא במקום פיזור",
-        en: "Do not knead on Pesach.",
+        en: "Rashi: continues - seen through the haze except where the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-055",
@@ -66430,11 +66506,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 55,
         he: "העבים במקומות הרבה בין עב",
-        en: "The heat of the sun on a cloudy day.",
+        en: "Rashi: continues - clouds are scattered, in many places between one cloud",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-056",
@@ -66442,11 +66520,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 56,
         he: "לעב: שמע מינה. מדקאמר ביום",
-        en: "A sealed flask - its mouth is well sealed so the smell does not escape.",
+        en: "Rashi: concludes - and another. Then opens 'learn from this' - since it says on a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-057",
@@ -66454,11 +66534,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 57,
         he: "המעונן נבקע במקומות הרבה:",
-        en: "When you poke a small hole the smell escapes strongly.",
+        en: "Rashi: concludes - cloudy day it splits in many places.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-058",
@@ -66466,11 +66548,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 58,
         he: "יומא דעיבא כוליה שימשא. אפילו",
-        en: "Similarly on a cloudy day the sun is covered and when it breaks through a gap.",
+        en: "Rashi: opens 'a cloudy day is entirely sun' - even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-059",
@@ -66478,11 +66562,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 59,
         he: "במקום צל שהחמה בוקעת בכל",
-        en: "It bursts through with great force.",
+        en: "Rashi: continues - in the place of shade the sun breaks through everywhere,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-060",
@@ -66490,11 +66576,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 60,
         he: "מקום ואינה יוצאת דרך חלון כנגד",
-        en: "The sun's glare on a cloudy day - blindness (Gen. 19) means sun-blindness.",
+        en: "Rashi: continues - and it does not come out through a window opposite",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-061",
@@ -66502,11 +66590,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 61,
         he: "חלונות שהעבים עומדים בפניה",
-        en: "The sun piercing through small cloud gaps is harder on the eyes.",
+        en: "Rashi: continues - windows where the clouds stand before it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-062",
@@ -66514,11 +66604,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 62,
         he: "והיא מתפשט' עליהם ובוקעת בכל",
-        en: "The sun that beats down through cloud gaps.",
+        en: "Rashi: continues - and it spreads over them and breaks through every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l42"
+        ]
       },
       {
         id: "rashi-yoma-028b-063",
@@ -66526,11 +66618,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 63,
         he: "פיסוק שבהן: לשטוח עורות.",
-        en: "Than the sun visible in open sky.",
+        en: "Rashi: concludes - opening among them. Then opens and closes 'to spread hides' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l44"
+        ]
       },
       {
         id: "rashi-yoma-028b-064",
@@ -66538,11 +66632,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 64,
         he: "לייבש: לא תלוש. בפסח: זוהמא",
-        en: "The sun's heat on a cloudy day is like a sealed flask.",
+        en: "Rashi: concludes - to dry them. Then opens and closes 'may not knead' - on Passover. Then opens 'the hazy'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-065",
@@ -66550,11 +66646,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 65,
         he: "דשמשא. אותו חום של יום המעונן:",
-        en: "And the sign is a leaky roof - drip water is harder than full immersion.",
+        en: "Rashi: concludes - of the sun - that heat of a cloudy day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-066",
@@ -66562,11 +66660,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 66,
         he: "דנא דחלא. שפיה סתום יפה שלא",
-        en: "A flask of vinegar - whose mouth is well-sealed.",
+        en: "Rashi: opens 'a jar of vinegar' - its mouth sealed well so that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-067",
@@ -66574,11 +66674,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 67,
         he: "יצא ריחו ויחלוש וכשאתה נוקב",
-        en: "When you poke a small opening the smell emerges strongly.",
+        en: "Rashi: continues - its odor does not escape and weaken, and when you make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-068",
@@ -66586,11 +66688,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 68,
         he: "נקב קטן יוצא שם ריח חזק מאד",
-        en: "So too on a cloudy day.",
+        en: "Rashi: continues - a small hole, a very strong odor comes out from there,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-069",
@@ -66598,11 +66702,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 69,
         he: "כך יום המעונן מתוך שהחמה",
-        en: "The sun, covered and hidden, bursts through cloud gaps with force.",
+        en: "Rashi: continues - so too a cloudy day, since the sun",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-070",
@@ -66610,11 +66716,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 70,
         he: "מכוסה וחום שלה כבוש נוקבת בכח",
-        en: "The sign is: sun-blindness from the sun on a cloudy day.",
+        en: "Rashi: continues - is covered and its heat suppressed, it breaks through with force",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-071",
@@ -66622,11 +66730,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 71,
         he: "דרך נקב העבים: שברירי דשמשא.",
-        en: "Glare - blindness (sanverim) as translated in Aramaic: brilliance of the sun.",
+        en: "Rashi: concludes - through the opening in the clouds. Then opens and closes 'dazzling light of the sun' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-072",
@@ -66634,11 +66744,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 72,
         he: "סנורים (בראשית יט) מתרגמינן שברירי",
-        en: "Sanverim in Gen. 19 is translated as 'sun-brilliance.'",
+        en: "Rashi: continues - blindness (Genesis 19), which we translate as 'shavrirei'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-073",
@@ -66646,11 +66758,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 73,
         he: "שמש הנוקבת בכח דרך נקב",
-        en: "The sun piercing through small gaps with force.",
+        en: "Rashi: continues - sunlight breaking through with force through a small",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-074",
@@ -66658,11 +66772,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 74,
         he: "העבים קטנים הנותן עיניו כנגד",
-        en: "Whoever looks toward the gap is stricken with eye-blindness.",
+        en: "Rashi: continues - opening in the clouds; one who sets his eyes against",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-075",
@@ -66670,11 +66786,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 75,
         he: "הנקב קשים לו הסנורים יותר מן",
-        en: "More than one who stares at the open sun.",
+        en: "Rashi: continues - the opening finds the dazzling more painful than",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-076",
@@ -66682,11 +66800,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 76,
         he: "המסתכל בחמה שבאויר: וסימניך",
-        en: "The sign: a dripping roof - drip-water falling on a person is harder.",
+        en: "Rashi: concludes - looking at the sun in the open air. Then opens 'and your mnemonic'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-077",
@@ -66694,11 +66814,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 77,
         he: "דילפא. קשה דלף היורד על",
-        en: "Than immersing the whole body in water.",
+        en: "Rashi: concludes - is a drip - a drip falling on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-078",
@@ -66706,11 +66828,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 78,
         he: "האדם משאם נכנס כל גופו למים:",
-        en: "The sign: dripping beats immersion.",
+        en: "Rashi: concludes - a person is harder than his whole body entering water.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       },
       {
         id: "rashi-yoma-028b-079",
@@ -66718,11 +66842,13 @@ const DAF_CONTENT = {
         daf: "28b",
         vilnaLine: 79,
         he: "הרהורי",
-        en: "Sinful thoughts.",
+        en: "Rashi: the daf's final truncated word, continuing the Gemara's own next musing that flows from this discussion of sunlight and dreams, whose text continues on 29a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028b-l45"
+        ]
       }
     ],
     review: {

@@ -26,430 +26,556 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Dispute about the exact formula: 'Is the entire sky illuminated?' or 'Has the morning star risen?'",
+      "en": "Rashi: opens 'the light has risen' - it is brighter than a mere flash. Then opens 'to hire workers' - this 'they went out'",
       "linkedGemaraLineIds": [
-        "yoma-028b-l01"
+        "yoma-028b-l07"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "If the eastern sky is already illuminated, why ask? Implication about the formula.",
+      "en": "Rashi: continues - each to his own labor, does not refer to the workers themselves but to the employer who rises early",
       "linkedGemaraLineIds": [
-        "yoma-028b-l02"
+        "yoma-028b-l07"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rav Safra: Abraham's afternoon prayer time was when walls begin to blacken.",
+      "en": "Rashi: concludes - to find workers to hire. Then opens and closes 'the prayer of Abraham' - his own afternoon prayer.",
       "linkedGemaraLineIds": [
         "yoma-028b-l08"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rav Yosef: can we derive law from Abraham's pre-Sinai conduct?",
+      "en": "Rashi: opens 'from when the walls blacken' - the walls facing east that whitened from the rising sun",
       "linkedGemaraLineIds": [
-        "yoma-028b-l09"
+        "yoma-028b-l08"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rava: Rav Yosef's objection was about deriving from Abraham's practice - not that Abraham didn't do it.",
+      "en": "Rashi: continues - coming from the east and glinting upon them",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: continues - and at the start of the seventh hour, when the sun is in the middle",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues - of the sky, directly above every person, it makes no",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - shadow, but below them the walls",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - begin to blacken, since the sun only glints",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - on the top of the wall's own thickness, and the edge of its rim casts shade",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - over the wall's own upright face,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - and it blackens from that time; the shadows of",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - evening lengthen, and it is called evening. Then opens 'shall we arise'",
       "linkedGemaraLineIds": [
         "yoma-028b-l10"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "The Gemara asks: what does 'walls beginning to blacken' mean exactly?",
+      "vilnaLine": 14,
+      "en": "Rashi: concludes - and derive - you have come to teach us to be",
       "linkedGemaraLineIds": [
-        "yoma-028b-l11"
+        "yoma-028b-l10"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Egypt had its own yeshiva: 'Go and gather the elders of Israel' (Exodus 3:16).",
+      "vilnaLine": 15,
+      "en": "Rashi: opens 'diligent like Abraham. Then opens and closes 'when it occurs on the eve of'",
       "linkedGemaraLineIds": [
-        "yoma-028b-l12"
+        "yoma-028b-l16"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "Eliezer, Abraham's servant, was an elder in the academy.",
+      "vilnaLine": 16,
+      "en": "Rashi: continues - Shabbat, one needed to hurry the afternoon daily-offering",
       "linkedGemaraLineIds": [
-        "yoma-028b-l13"
+        "yoma-028b-l16"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Rav: Abraham observed the entire Torah, as the verse says 'because Abraham obeyed My voice' (Gen. 26:5).",
+      "vilnaLine": 17,
+      "en": "Rashi: continues - as much as possible, since the Paschal offerings",
       "linkedGemaraLineIds": [
-        "yoma-028b-l14"
+        "yoma-028b-l16"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Abraham also observed eruv tavshilin - derived from 'Torah and mitzvot' (plural) in the same verse.",
+      "vilnaLine": 18,
+      "en": "Rashi: continues - were slaughtered after it and needed to be roasted while it was still",
       "linkedGemaraLineIds": [
-        "yoma-028b-l15"
+        "yoma-028b-l16"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Mishna: Matya ben Shmuel announces 'Is the entire eastern sky illuminated?'",
+      "vilnaLine": 19,
+      "en": "Rashi: continues - day, and we say there: we establish it",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - at its own time, from when the evening shadows lengthen, and it teaches",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - that the daily-offering is slaughtered at six and a half hours, but if from when",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - the walls blacken it is called the afternoon,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: concludes - let us slaughter it from when the walls blacken, which is from the start of",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: opens 'the seventh hour. Then opens and closes 'they are not perfectly aligned' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - they were not perfectly upright, and since the wall was broad",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - at the bottom and gradually narrowed as it rose,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - therefore the edge of its own rim's thickness",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - above did not cast shade on its own upright face to blacken it until",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - the sun had moved further west. Then opens and closes 'astronomy' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - to be expert in the movements of the constellations and the beginnings",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - of the hours, as it is taught in Bava Batra",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - (16b): and the Lord blessed Abraham with everything,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - there was great astronomy in his heart, and all",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - the kings of east and west would rise early to his door",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l19"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: concludes - to ask about the constellations. Then opens and closes 'who draws and gives drink' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l32"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - an acronym of Damascus. Then opens and closes 'seven mitzvot' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continues - which were commanded to the rest of Noah's descendants, but the Torah",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: concludes - was not given to him. Then opens and closes 'even the joining of cooked foods' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l36"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: concludes - since it is not a law given to Moses at Sinai but a later rabbinic enactment.",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l36"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: opens 'and he interprets' - he interprets the dream, meaning he both asks and answers.",
       "linkedGemaraLineIds": [
         "yoma-028b-l37"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Who makes this announcement: someone standing on the ground or on a high place?",
+      "vilnaLine": 41,
+      "en": "Rashi: opens 'he himself said' - this one who is on the roof. 'To Hebron' is a question. Then opens 'if you wish, say' -",
       "linkedGemaraLineIds": [
         "yoma-028b-l41"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Alternative: the person on the ground asks; the person on the elevated spot responds.",
+      "vilnaLine": 42,
+      "en": "Rashi: continues - that one who is standing on the ground said yes; how so, the one on the ground said: the entire east has lit up,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continues - as a question, and this one answers",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continues - him: has it lit up to Hebron, and he said to him,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - the one on the ground, yes, that is what I ask,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: continues - and we find in the Jerusalem Talmud (3:1) that in order to",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: concludes - mention the merit of the patriarchs, they mention Hebron.",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l41"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: opens 'and are they confused' - the rising of the sun's column with the rising",
       "linkedGemaraLineIds": [
         "yoma-028b-l42"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "The confusion incident: priests slaughtered the tamid before dawn due to moonlight.",
+      "vilnaLine": 49,
+      "en": "Rashi: concludes - of the moon's column. Then opens and closes 'a column of sun light' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continues - dawn, which splits and appears like a raised",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: continues - staff, an expression like 'columns of smoke' (Joel 3), for",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: concludes - it stands and rises. Then opens and closes 'a cloudy day' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: continues - the sky is bound with clouds, and the column is not",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continues - seen through the haze except where the",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: continues - clouds are scattered, in many places between one cloud",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: concludes - and another. Then opens 'learn from this' - since it says on a",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: concludes - cloudy day it splits in many places.",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: opens 'a cloudy day is entirely sun' - even",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: continues - in the place of shade the sun breaks through everywhere,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: continues - and it does not come out through a window opposite",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: continues - windows where the clouds stand before it,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 62,
+      "en": "Rashi: continues - and it spreads over them and breaks through every",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l42"
+      ]
+    },
+    {
+      "vilnaLine": 63,
+      "en": "Rashi: concludes - opening among them. Then opens and closes 'to spread hides' -",
       "linkedGemaraLineIds": [
         "yoma-028b-l44"
       ]
     },
     {
-      "vilnaLine": 15,
-      "en": "Practical question: what difference does it make if a cloudy day resembles a complete darkness?",
+      "vilnaLine": 64,
+      "en": "Rashi: concludes - to dry them. Then opens and closes 'may not knead' - on Passover. Then opens 'the hazy'",
       "linkedGemaraLineIds": [
         "yoma-028b-l45"
       ]
     },
     {
-      "vilnaLine": 16,
-      "en": "Rav Nachman: the pale light of sun through clouds is more harmful than sunlight.",
+      "vilnaLine": 65,
+      "en": "Rashi: concludes - of the sun - that heat of a cloudy day.",
       "linkedGemaraLineIds": [
-        "yoma-028b-l46"
+        "yoma-028b-l45"
       ]
     },
     {
-      "vilnaLine": 17,
-      "en": "And needed to be roasted before Shabbat began.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "As stated in that tractate: it is offered at its proper time.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "From when the shadows incline, as the Mishna teaches.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The tamid was slaughtered at six and a half hours.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "If 'from when the walls whiten' is already considered afternoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Slaughter it from when the walls whiten - that is from the start of the seventh hour.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The walls were not perfectly straight and vertical.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The walls were wider at the bottom and narrowed upward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Therefore the top edge does not cast shadow on the wall face.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Until the sun moves westward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Astronomy - expertise in the movement of the stars and the beginning of the hours.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "As taught in Bava Batra (16b): 'God blessed Abraham with everything.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Abraham had great astrological expertise.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "All the kings of east and west came early to his door to inquire about the constellations.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Drawing and watering - a notarikon for Damascus.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Seven commandments - those given to all the children of Noah.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "But the Torah was not given to him.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Even eruv tavshilin - which is not a law from Sinai but a rabbinic enactment.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "That the later Sages were destined to enact.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "He himself interprets - he asks and answers his own question.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The one on the roof said it; 'until it reaches Hebron' - this is a question.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "And he who stands on the ground - said 'yes'; how did the one on the ground say it?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The one who stands on the ground asked 'has the entire eastern sky lit up.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "And the one on the roof answered 'until Hebron' - meaning yes, it has lit that far.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "And the ground person said 'yes' - meaning: that is what I am asking, has it lit until Hebron.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "We find in the Jerusalem Talmud (ch. 3 h. 1) that they mention Hebron.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "To invoke the merit of the patriarchs buried there.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Can they be confused? The column of sunlight looks like the column of moonlight.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "The column of the sun - at dawn it splits and rises like a palm tree.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "'And pillars of smoke' (Joel 3) - because it rises erect.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "A cloudy day - the sky is covered with clouds and the column is not visible through the mist.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Only in the gaps between clouds in many places between cloud and cloud.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Learn from this - since he says 'on a cloudy day it splits in many places.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "A completely overcast day - even in shadowed spots the sun breaks through.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "It is not directed through a specific window; it spreads over all the clouds.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "And breaks through every gap in them.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "To spread hides for drying.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Do not knead on Pesach.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The heat of the sun on a cloudy day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "A sealed flask - its mouth is well sealed so the smell does not escape.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "When you poke a small hole the smell escapes strongly.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Similarly on a cloudy day the sun is covered and when it breaks through a gap.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "It bursts through with great force.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "The sun's glare on a cloudy day - blindness (Gen. 19) means sun-blindness.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "The sun piercing through small cloud gaps is harder on the eyes.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "The sun that beats down through cloud gaps.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "en": "Than the sun visible in open sky.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "en": "The sun's heat on a cloudy day is like a sealed flask.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "en": "And the sign is a leaky roof - drip water is harder than full immersion.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 66,
-      "en": "A flask of vinegar - whose mouth is well-sealed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'a jar of vinegar' - its mouth sealed well so that",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 67,
-      "en": "When you poke a small opening the smell emerges strongly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - its odor does not escape and weaken, and when you make",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 68,
-      "en": "So too on a cloudy day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - a small hole, a very strong odor comes out from there,",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 69,
-      "en": "The sun, covered and hidden, bursts through cloud gaps with force.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so too a cloudy day, since the sun",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 70,
-      "en": "The sign is: sun-blindness from the sun on a cloudy day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is covered and its heat suppressed, it breaks through with force",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 71,
-      "en": "Glare - blindness (sanverim) as translated in Aramaic: brilliance of the sun.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - through the opening in the clouds. Then opens and closes 'dazzling light of the sun' -",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 72,
-      "en": "Sanverim in Gen. 19 is translated as 'sun-brilliance.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - blindness (Genesis 19), which we translate as 'shavrirei'",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 73,
-      "en": "The sun piercing through small gaps with force.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - sunlight breaking through with force through a small",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 74,
-      "en": "Whoever looks toward the gap is stricken with eye-blindness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - opening in the clouds; one who sets his eyes against",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 75,
-      "en": "More than one who stares at the open sun.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the opening finds the dazzling more painful than",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 76,
-      "en": "The sign: a dripping roof - drip-water falling on a person is harder.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - looking at the sun in the open air. Then opens 'and your mnemonic'",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 77,
-      "en": "Than immersing the whole body in water.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - is a drip - a drip falling on",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 78,
-      "en": "The sign: dripping beats immersion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - a person is harder than his whole body entering water.",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     },
     {
       "vilnaLine": 79,
-      "en": "Sinful thoughts.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word, continuing the Gemara's own next musing that flows from this discussion of sunlight and dreams, whose text continues on 29a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-028b-l45"
+      ]
     }
   ],
   "sugyot": [
