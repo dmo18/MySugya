@@ -52915,12 +52915,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 1,
         he: "שאינו נוקם. נקמתו: ונוטר. איבה כנחש בלבו: איני כמותך שלא",
-        en: "One who does not take vengeance is hated before Heaven.",
+        en: "Rashi: opens and closes 'who does not take revenge' - his revenge. Then opens and closes 'nor bear a grudge' - enmity like a snake, in his heart. Then opens 'I am not like you, who' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l01"
+          "yoma-023a-l07"
         ]
       },
       {
@@ -52929,12 +52929,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 2,
         he: "השאלתני זו היא נטירה. שהדבר שמור בלבו ולא הסיחו מדעתו:",
-        en: "God forgave Israel but required punishment for their enemies.",
+        en: "Rashi: concludes - did not lend to me, this is bearing a grudge - that the matter is kept in his heart and not put out of his mind.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l01"
+          "yoma-023a-l07"
         ]
       },
       {
@@ -52943,119 +52943,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 3,
         he: "דנקיט בליביה. ואם בא אחר לנקום נקמתו בקיום המשפט",
-        en: "Commentary on honor debts not being simply forgiven.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-004",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 4,
-        he: "ישתוק: דמפייסו ליה. לבקש מחילה: חולה. אינו יכול לכבש",
-        en: "Commentary on divine vengeance for honor.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-005",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 5,
-        he: "אצבעותיו וכשמוציא אחת יוצאה",
-        en: "Commentary on the verse proof.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-006",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 6,
-        he: "חבירתה עמה: ויחידים. בחולין",
-        en: "Commentary on the transition to personal vs. Torah honor.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l07"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-007",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 7,
-        he: "שאינן יושבין עם שאר בני אדם",
-        en: "A scholar may forgo personal honor; but Torah honor is not his to waive.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l07"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-008",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 8,
-        he: "אלא שוכבין או יושבין לבדם:",
-        en: "Commentary on the distinction between personal and Torah honor.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l07"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-009",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 9,
-        he: "אלא אחד. אין נמנה אלא איש אחד:",
-        en: "Commentary on the biblical proof for divine vengeance.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-010",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 10,
-        he: "אין מוציאין. עם האצבע לא שליש",
-        en: "Commentary on Midian and other enemies who dishonored Israel.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-023a-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-023a-011",
-        sourceType: "rashi",
-        daf: "23a",
-        vilnaLine: 11,
-        he: "ולא גודל דאין מוציאין שתים: ואם",
-        en: "Commentary on the closing of the vengeance discussion.",
+        en: "Rashi: opens 'that he keeps it in his heart' - and if another comes to avenge him by carrying out judgment,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53064,17 +52952,129 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-023a-004",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 4,
+        he: "ישתוק: דמפייסו ליה. לבקש מחילה: חולה. אינו יכול לכבש",
+        en: "Rashi: continues - let him stay silent. Then opens and closes 'that they appease him' - to seek forgiveness. Then opens 'sick' - he cannot control",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-005",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 5,
+        he: "אצבעותיו וכשמוציא אחת יוצאה",
+        en: "Rashi: continues - his fingers, and when he extends one, its companion comes out",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-006",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 6,
+        he: "חבירתה עמה: ויחידים. בחולין",
+        en: "Rashi: continues - with it. Then opens 'and individuals' - among ordinary people,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-007",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 7,
+        he: "שאינן יושבין עם שאר בני אדם",
+        en: "Rashi: continues - who do not sit with other people,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-008",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 8,
+        he: "אלא שוכבין או יושבין לבדם:",
+        en: "Rashi: concludes - but rather lie down or sit alone.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-009",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 9,
+        he: "אלא אחד. אין נמנה אלא איש אחד:",
+        en: "Rashi: opens and closes 'only one' - only a single man is counted.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-010",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 10,
+        he: "אין מוציאין. עם האצבע לא שליש",
+        en: "Rashi: opens 'they do not extend' - with the finger, neither the third finger",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l24"
+        ]
+      },
+      {
+        id: "rashi-yoma-023a-011",
+        sourceType: "rashi",
+        daf: "23a",
+        vilnaLine: 11,
+        he: "ולא גודל דאין מוציאין שתים: ואם",
+        en: "Rashi: continues - nor the thumb, since together they extend as two. Then opens 'and if'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-023a-l24"
+        ]
+      },
+      {
         id: "rashi-yoma-023a-012",
         sourceType: "rashi",
         daf: "23a",
         vilnaLine: 12,
         he: "הוציא שליש מונין לו. שאינו רמאי",
-        en: "Commentary on the transition to the lottery procedure.",
+        en: "Rashi: continues DH - he extended the third finger, he is counted' - since he is not a cheat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l17"
+          "yoma-023a-l24"
         ]
       },
       {
@@ -53083,12 +53083,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 13,
         he: "לפי שהוא ניכר שאינו משני בני אדם",
-        en: "All priests gather in the Chamber of Hewn Stone.",
+        en: "Rashi: continues - because it is recognizable that it is not from two people,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l17"
+          "yoma-023a-l24"
         ]
       },
       {
@@ -53097,12 +53097,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 14,
         he: "שאין יכול להרחיק זה מזה: גודל.",
-        en: "The supervisor loosens his garment - anti-cheating measure.",
+        en: "Rashi: continues - since one cannot spread these apart. Then opens 'the thumb' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l19"
+          "yoma-023a-l24"
         ]
       },
       {
@@ -53111,12 +53111,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 15,
         he: "אם הוציא גודל אין מונין לו כלל",
-        en: "Commentary on preventing manipulation of the lottery.",
+        en: "Rashi: continues - if he extended the thumb he is not counted at all,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l19"
+          "yoma-023a-l24"
         ]
       },
       {
@@ -53125,7 +53125,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 16,
         he: "אלא מוציאין אותו מביניהן: הממונה",
-        en: "The starting priest extends his robe to mark the starting point.",
+        en: "Rashi: continues - rather he is removed from among them. Then opens 'the officer'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53139,7 +53139,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 17,
         he: "בפקיע. הממונה על רצועות",
-        en: "Commentary on how the count begins.",
+        en: "Rashi: continues DH - over the pekia' - the officer over the straps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53153,7 +53153,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 18,
         he: "המלקות: שליש. אצבע שלישי אם",
-        en: "Commentary on the finger-extension procedure.",
+        en: "Rashi: concludes - of lashes. Then opens 'the third' - the third finger, if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53167,7 +53167,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 19,
         he: "הוציא שלישי מונין לו קא סלקא",
-        en: "The supervisor names a large number; they count extended fingers.",
+        en: "Rashi: continues - he extended the third, he is counted; the assumption was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53181,12 +53181,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 20,
         he: "דעתיה מונין לו שנים: מטרקא",
-        en: "Whoever's count reaches the named number wins the service.",
+        en: "Rashi: concludes - his intent was that he would be counted as two. Then opens 'a matreka'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l28"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53195,7 +53195,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 21,
         he: "דטייעי. רצועות ישמעאלים העשויה",
-        en: "Commentary on counting fingers rather than people.",
+        en: "Rashi: continues DH - of the Arabs' - Ishmaelite straps made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53209,7 +53209,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 22,
         he: "שוט לסוסים: דפסיק רישיה. לכך",
-        en: "Census taboo: not counting Jews directly - fingers are the workaround.",
+        en: "Rashi: concludes - as a whip for horses. Then opens 'whose head is split' - therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53223,12 +53223,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 23,
         he: "קרויה פקיעה שאינה רחבה בראשה",
-        en: "Commentary on the summary of the lottery procedure.",
+        en: "Rashi: continues - it is called pekia, since it is not wide at its head",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l30"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53237,12 +53237,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 24,
         he: "כשאר רצועות מלקות אלא מפסקת",
-        en: "Commentary on the transition to the stabbing incident.",
+        en: "Rashi: continues - like other lashing straps, but rather splits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53251,12 +53251,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 25,
         he: "בראשה לרצועות דקות כדי שירגיש",
-        en: "Two priests race up the ramp; one pushes and stabs the other.",
+        en: "Rashi: continues - at its head into thin strips, so that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53265,12 +53265,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 26,
         he: "בה הסוס יותר ופקיע לשון פיסוק",
-        en: "Commentary on the violence in detail.",
+        en: "Rashi: continues - the horse would feel it more, and 'pakia' is a term for splitting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53279,12 +53279,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 27,
         he: "וסדקים כמו מבלאי מכנסי הכהנים",
-        en: "The priest fell within four amot of the top.",
+        en: "Rashi: continues - and cracks, like the phrase 'from the worn-out trousers of the priests'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l29"
         ]
       },
       {
@@ -53293,12 +53293,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 28,
         he: "מפקיעין לשון קריעה: דתנן.",
-        en: "Commentary on the court's dilemma.",
+        en: "Rashi: concludes - 'they would tear' is a term for ripping. Then opens and closes 'as we learned' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l39"
+          "yoma-023a-l30"
         ]
       },
       {
@@ -53307,12 +53307,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 29,
         he: "במסכת שקלים (פ\"ה משנה א):",
-        en: "Who should now perform the service? The court deliberates.",
+        en: "Rashi: continues - in tractate Shekalim (chapter 5, mishna 1).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l39"
+          "yoma-023a-l30"
         ]
       },
       {
@@ -53321,12 +53321,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 30,
         he: "ביבאי. שם האיש: היו מפקיעין.",
-        en: "Commentary on the uncertainty about the priest's condition.",
+        en: "Rashi: opens and closes 'ben Beivai' - the man's name. Then opens 'they would tear' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l39"
+          "yoma-023a-l30"
         ]
       },
       {
@@ -53335,12 +53335,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 31,
         he: "לעשות פתילות לשמחת בית השואבה",
-        en: "The father comes forward: 'My son is still alive - knife not impure.'",
+        en: "Rashi: continues - to make wicks for the Rejoicing of the Water-Drawing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l42"
+          "yoma-023a-l30"
         ]
       },
       {
@@ -53349,12 +53349,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 32,
         he: "בחג: נגדא. רצועות מלקות: על",
-        en: "Commentary on the father's halakhic announcement.",
+        en: "Rashi: concludes - on the festival. Then opens and closes 'lashing' - straps of lashes. Then opens 'on'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l42"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53363,12 +53363,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 33,
         he: "מעלות האולם. בהר הבית אולמות",
-        en: "Commentary on the father's primary concern: knife status.",
+        en: "Rashi: continues DH - the steps of the portico' - on the Temple Mount there were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l42"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53377,12 +53377,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 34,
         he: "הרבה בנה שם הורדוס כמו שכתוב",
-        en: "The crowd realizes the priest is alive from the father's statement.",
+        en: "Rashi: continues - many porticoes that Herod built there, as is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l45"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53391,12 +53391,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 35,
         he: "בספר יוסף בן גוריון על מעלות",
-        en: "Commentary on what this incident taught the Sages.",
+        en: "Rashi: continues - in the book of Yosef ben Gurion: 'on the steps of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l47"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53405,12 +53405,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 36,
         he: "האולם בהר הבית אולמות גרסינן",
-        en: "The Sages conclude: institute the lottery system.",
+        en: "Rashi: continues - the portico on the Temple Mount' - we read 'porticoes'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l49"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53419,12 +53419,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 37,
         he: "בתוספתא: על מי להביא. משל מי",
-        en: "Commentary on the lottery as the permanent solution.",
+        en: "Rashi: concludes - in the Tosefta. Then opens 'to whom shall it be brought' - from whom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l49"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53433,12 +53433,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 38,
         he: "תלקח מן היושבים בעיר או מן",
-        en: "Commentary on violence being incompatible with Temple service.",
+        en: "Rashi: continues - shall it be taken, from those who dwell in the city, or from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l49"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53447,12 +53447,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 39,
         he: "הכהנים שומרי עזרה: געו. צעקו:",
-        en: "Commentary on the closing of the chapter introduction.",
+        en: "Rashi: concludes - the priests who guard the Courtyard. Then opens and closes 'they cried out' - they wept.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l49"
+          "yoma-023a-l39"
         ]
       },
       {
@@ -53461,12 +53461,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 40,
         he: "הרי הוא כפרתכם. מיתתו תכפר",
-        en: "Commentary on the father's statement as inadvertent information.",
+        en: "Rashi: opens 'behold, he is your atonement' - his death shall atone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l45"
+          "yoma-023a-l42"
         ]
       },
       {
@@ -53475,12 +53475,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 41,
         he: "עליכם: ארבע אמות מאי",
-        en: "Commentary on the transition to chapter 2 main content.",
+        en: "Rashi: concludes - for you. Then opens 'the four cubits, what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l49"
+          "yoma-023a-l47"
         ]
       },
       {
@@ -53489,12 +53489,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 42,
         he: "עבידתייהו. גבי מרוצת שפיכות",
-        en: "Commentary on the four amot threshold.",
+        en: "Rashi: continues DH - was their function' - regarding the running for bloodshed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l47"
         ]
       },
       {
@@ -53503,12 +53503,12 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 43,
         he: "דמים: עשרה דברים. בבבא קמא",
-        en: "Commentary on the legal status of a priest within four amot of the top.",
+        en: "Rashi: concludes - that is. Then opens 'ten things' - in tractate Bava Kamma",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023a-l36"
+          "yoma-023a-l49"
         ]
       },
       {
@@ -53517,7 +53517,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 44,
         he: "חשיב לה בפרק מרובה (דף פב:):",
-        en: "Commentary on the closing of this chapter section.",
+        en: "Rashi: concludes - he enumerates it, in chapter Meruba (82b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -53531,7 +53531,7 @@ const DAF_CONTENT = {
         daf: "23a",
         vilnaLine: 45,
         he: "אינה",
-        en: "Commentary on the transition to 23b.",
+        en: "Rashi: the daf's final truncated word - 'she is not,' continuing the dibbur hamatchil naming one of the ten things said about Jerusalem, whose text continues on 23b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

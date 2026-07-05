@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.14: schema backfill is complete, the perek-level semantic
+As of VERSION 15.15: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -221,7 +221,11 @@ a single chunk (35/35 resolved), after discovering and correcting a
 structural anomaly - the prior enrichment JSON carried 14 orphaned
 entries beyond talmud.dev's real 35-line Rashi array for this daf,
 which build_learning_data.py silently never renders; those were
-removed rather than translated. No
+removed rather than translated. At VERSION 15.15 (see "23a, full
+daf" below) the run continued to the Torah-scholar-and-snake sugya,
+confirming the 22b/23a boundary is clean, confirming the entry-count
+check introduced after 22b's surprise still passes here, and fixing
+all 45 of 23a's entries in two sub-chunks (45/45 resolved). No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2225,6 +2229,70 @@ replacing every generic placeholder and every linkedGemaraLineIds
 value corrected to its real zero-padded `yoma-022b-lXX` target. This
 also resolves the misattribution noted in the 22a section above: the
 prior stub's "Saul counted Israel" content genuinely belongs here.
+
+## 23a, full daf (VERSION 15.15), two sub-chunks, the Torah scholar and the snake
+
+Continuing the fast alignment run. Before any edit, the 22b/23a
+boundary was re-verified read-only: 22b's truncated final word
+"שאינו" (who does not) is completed by 23a's opening "שאינו נוקם
+ונוטר כנחש" (who does not take revenge or bear a grudge like a
+snake) in both the Gemara and Rashi columns, continuing the "every
+Torah scholar" teaching cleanly. No edit was made to 22b. As a
+first check specifically motivated by 22b's orphaned-entry surprise,
+`len(rashiTranslations)` in the prior JSON (45) was compared against
+talmud.dev's non-empty raw Rashi array length (45) before any
+translation work began; they matched, so no cleanup was needed here.
+
+23a's Gemara side has 16 real captured lines (`l01`, `l07`, `l11`,
+`l15`, `l17`, `l19`, `l24`, `l28`, `l29`, `l30`, `l36`, `l39`, `l42`,
+`l45`, `l47`, `l49`) against 52 raw Gemara print lines, and its Rashi
+side has 45 raw print lines carrying the same generic
+descriptive-style placeholder text as the daf before it.
+
+All 45 raw Rashi print lines were read against the raw Gemara text
+and the 16 real captured line ids, using the same multi-DH rule as
+prior daf. Two points required particular care: (1) vilnaLine 9
+("only one is counted") closes with a phrase that also appears
+verbatim at the end of `l19`'s own text ("וְאֵין מוֹנִין לָהֶן אֶלָּא
+אַחַת"), not just in the following `l24` challenge that quotes it
+again with a different pronoun, so it was anchored to `l19` rather
+than assumed to open the next real line's commentary; (2) vilnaLine
+18-19 ("the third finger, he is counted... the assumption was [he
+would be counted as] two") echoes wording already glossed once at
+vilnaLine 12 under `l24`, but its content ("קא סלקא דעתיה", the
+Gemara's initial assumption) only matches `l28`'s own question-and-
+answer structure ("מַאי מוֹנִין לוֹ" - what does "counted for him"
+mean?), so it was anchored to `l28`, a second, distinct comment on
+the same Hebrew word rather than a duplicate. The correspondence:
+vilnaLine 1-2 (bearing a grudge, distinguished from taking revenge)
+to `l07`; 3 (holding it in one's heart) to `l15`; 4-9 (the sick
+exception, individuals counted as one) to `l19`; 10-17 (excluding the
+third finger and thumb from the count, the officer over the lash-
+straps) to `l24`; 18-19 (the count clarification) to `l28`; 20-27
+(the pekia strap's construction and etymology) to `l29`; 28-31 (Ben
+Beivai, the wick-making) to `l30`; 32-39 (Rabbi Tzadok on the steps
+of the portico, whose census the heifer-ritual falls on) to `l39`;
+40 (his death shall atone for you) to `l42`; 41-42 (the four cubits'
+purpose) to `l47`; 43-45 (the boundary case below) to `l49`. `l01`
+(the opening definition, folded into the vilnaLine 1 comment that
+ultimately targets `l07`), `l11` (the aggadic "insulted but do not
+insult" teaching), `l17` (the rhetorical "extending two, is one even
+a question" challenge), `l36` (the two-priests incident's plain
+narrative opening), and `l45` (the "which incident came first"
+question) all have no dedicated Rashi comment in this daf's column
+and legitimately carry no vilnaLine.
+
+vilnaLine 45, the daf's final truncated word "אינה" (she is not), is
+the same kind of boundary case as the prior daf endings in this run:
+per the policy, it is linked to `yoma-023a-l49`, 23a's own final
+locally captured Gemara line (the "ten things said about Jerusalem"
+list), even though the specific item this DH names is itself still
+open at the point of truncation, continuing onto 23b.
+
+All 45 entries were fixed across two sub-chunks (vilnaLine 1-22, then
+23-45). 23a is fully resolved, 45/45, with real translations
+replacing every generic placeholder and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-023a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
