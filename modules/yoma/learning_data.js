@@ -59026,7 +59026,7 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 1,
         he: "לא היה פייס למחתה. כשהיו מפיסין לקטורת כדתנן מתניתין חדשים",
-        en: "Can one priest do both the slaughter and the blood-receiving?",
+        en: "Rashi: opens 'there was no lottery for the fire-pan' - when they would hold the lottery for the incense, as our mishna teaches: newcomers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -59040,7 +59040,7 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 2,
         he: "לקטורת באו והפיסו והקטורת צריכה שני כהנים א' שמוליך הקטורת",
-        en: "Baraita: R. Yehuda says the incense and coal-pan are combined - proves single lottery is possible.",
+        en: "Rashi: continues - come to the incense lottery, and the incense requires two priests: one who carries the incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -59054,12 +59054,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 3,
         he: "להיכל ומקטירו ואחד שחותה גחלים מעל המזבח החיצון ומכניס להיכל",
-        en: "Rejection: coal-pan and incense are different because they must be done together.",
+        en: "Rashi: continues - to the Sanctuary and burns it, and one who scoops coals from the outer altar and brings them into the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l02"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59068,12 +59068,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 4,
         he: "ונותן על המזבח הפנימי להקטיר את הקטורת עליהן כדילפינן לקמן",
-        en: "Alternative reading of the baraita - incense specifically requires a new priest each time.",
+        en: "Rashi: continues - and places them on the inner altar to burn the incense on them, as will be derived further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l03"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59082,12 +59082,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 5,
         he: "(דף מה.) מקראי שגחלי מזבח הפנימי",
-        en: "Explicit baraita: R. Chiyya - no separate lottery for each individual service task.",
+        en: "Rashi: continues - (45a) from verses, that the coals of the inner altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l05"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59096,12 +59096,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 6,
         he: "ניטלין ממזבח החיצון בכל יום",
-        en: "Mishna question: who sprinkles the blood? And who collects it beforehand?",
+        en: "Rashi: continues - are taken from the outer altar every day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l11"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59110,12 +59110,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 7,
         he: "וקאמר ר' יהודה לא היו מפיסין מי",
-        en: "Possible inference: the sprinkler also collects, since continuity of the blood service matters.",
+        en: "Rashi: continues DH - and Rabbi Yehuda says' - there was no lottery for who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l07"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59124,12 +59124,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 8,
         he: "שזוכה במחתה אלא מי יזכה בקטורת",
-        en: "Proof from another mishna: the sprinkler and collector are the same person.",
+        en: "Rashi: continues - wins the fire-pan, only for who would win the incense,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l08"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59138,12 +59138,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 9,
         he: "ומי שזכה בה אומר לזה שבימינו זכה",
-        en: "Argument from multiplicity: if the slaughterer also collected, there would be too many priests.",
+        en: "Rashi: continues - and whoever won it says to this one who is with him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l09"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59152,12 +59152,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 10,
         he: "עמי במחתה אלמא לאו לכל עבודה",
-        en: "Rav Acha son of Rava brings further support from the Tamid mishna.",
+        en: "Rashi: concludes - 'win with me in the fire-pan,' implying it is not for every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l10"
+          "yoma-025b-l01"
         ]
       },
       {
@@ -59166,12 +59166,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 11,
         he: "ועבודה מפיסין: הואיל ולא שכיחא.",
-        en: "Ben Azzai's alternative limb order before Rabbi Akiva.",
+        en: "Rashi: concludes - service that they hold a lottery. Then opens 'since it is uncommon' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l23"
+          "yoma-025b-l06"
         ]
       },
       {
@@ -59180,12 +59180,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 12,
         he: "הקטורת אלא פעמיים ליום שאין",
-        en: "Rabbi Akiva: limbs brought up in order of cutting, starting with the head.",
+        en: "Rashi: continues - the incense, only twice a day, since it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l25"
+          "yoma-025b-l06"
         ]
       },
       {
@@ -59194,12 +59194,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 13,
         he: "הקטרת באה נדבה: ומעתרא.",
-        en: "R. Yosei HaGelili's view: every good piece (head) goes up first.",
+        en: "Rashi: concludes - not brought as a voluntary offering. Then opens and closes 'and it enriches' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l28"
+          "yoma-025b-l06"
         ]
       },
       {
@@ -59208,12 +59208,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 14,
         he: "ומעשרת את העוסקין בה כדאמרינן",
-        en: "Rava: both the mishna and Ben Azzai agree the head goes up first - they differ only on what follows.",
+        en: "Rashi: concludes - and enriches those occupied with it, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l30"
+          "yoma-025b-l06"
         ]
       },
       {
@@ -59222,12 +59222,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 15,
         he: "לקמן בפרקין (דף כו.): מי מקבל.",
-        en: "Why does the right leg go up alongside the head?",
+        en: "Rashi: concludes - further on in our chapter (26a). Then opens 'who receives' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l34"
+          "yoma-025b-l11"
         ]
       },
       {
@@ -59236,12 +59236,12 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 16,
         he: "דם התמיד כיון דלא מנה לה במתני'",
-        en: "Gemara asks: does every tanna agree that every limb is brought up by a single priest?",
+        en: "Rashi: continues - the blood of the daily-offering, since it was not counted in our mishna's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-025b-l40"
+          "yoma-025b-l11"
         ]
       },
       {
@@ -59250,11 +59250,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 17,
         he: "כהן שמע מינה חד מהני עביד לה:",
-        en: "Implying one of the other winners also does it.",
+        en: "Rashi: concludes - list of priests, we may conclude that one of these performs it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l11"
+        ]
       },
       {
         id: "rashi-yoma-025b-018",
@@ -59262,11 +59264,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 18,
         he: "אגב חביבותיה. דזריקה שהיא עבודת",
-        en: "Because sprinkling is so beloved as an altar service.",
+        en: "Rashi: opens 'due to its dearness' - for the sprinkling, being the altar's own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l11"
+        ]
       },
       {
         id: "rashi-yoma-025b-019",
@@ -59274,11 +59278,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 19,
         he: "מזבח לא מקבל ליה לכוליה דם",
-        en: "One kohen does not collect all the blood.",
+        en: "Rashi: continues - service, he would not receive the entire blood himself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l11"
+        ]
       },
       {
         id: "rashi-yoma-025b-020",
@@ -59286,11 +59292,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 20,
         he: "ואמרינן לקמן (דף מח.) צריך שיקבל",
-        en: "As stated later (48a) one must collect all the blood.",
+        en: "Rashi: continues - and we say further on (48a) that he must receive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l11"
+        ]
       },
       {
         id: "rashi-yoma-025b-021",
@@ -59298,11 +59306,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 21,
         he: "את כל הדם שנאמר (ויקרא ד) ואת",
-        en: "As it says (Lev. 4) 'and all the blood.'",
+        en: "Rashi: concludes - the entire blood, as it is stated (Leviticus 4): 'and all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l11"
+        ]
       },
       {
         id: "rashi-yoma-025b-022",
@@ -59310,11 +59320,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 22,
         he: "כל (הדם) ישפך: זימנין דשחיט זר.",
-        en: "And it happens that a non-kohen slaughters.",
+        en: "Rashi: concludes - the blood he shall pour out.' Then opens 'sometimes the slaughterer is a non-priest' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l14"
+        ]
       },
       {
         id: "rashi-yoma-025b-023",
@@ -59322,11 +59334,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 23,
         he: "שהשחיטה כשרה בזר והקבלה פסולה",
-        en: "Slaughter is valid by a non-kohen but collection is not.",
+        en: "Rashi: continues - for the slaughtering is valid by a non-priest while the receiving is invalid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l14"
+        ]
       },
       {
         id: "rashi-yoma-025b-024",
@@ -59334,11 +59348,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 24,
         he: "בו שנאמר (ויקרא א) ושחט את בן",
-        en: "As it says (Lev. 1) 'and he shall slaughter the bull.'",
+        en: "Rashi: continues - by him, as it is stated (Leviticus 1): 'and he shall slaughter the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l14"
+        ]
       },
       {
         id: "rashi-yoma-025b-025",
@@ -59346,11 +59362,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 25,
         he: "הבקר והקריבו הכהנים את הדם",
-        en: "'And the kohanim shall present the blood' - from collection onward is a priestly duty.",
+        en: "Rashi: continues - bull, and the priests shall present the blood,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l14"
+        ]
       },
       {
         id: "rashi-yoma-025b-026",
@@ -59358,11 +59376,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 26,
         he: "מקבלה ואילך מצות כהונה לימד על",
-        en: "From collection onward it is a priestly obligation, teaching slaughter is valid by a non-kohen.",
+        en: "Rashi: concludes - teaching that from the receiving onward the priesthood's requirement applies, implying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l14"
+        ]
       },
       {
         id: "rashi-yoma-025b-027",
@@ -59370,11 +59390,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 27,
         he: "השחיטה שכשירה בזר: בן קטין.",
-        en: "Ben Katin was the KG.",
+        en: "Rashi: concludes - that the slaughtering, which is valid by a non-priest, is so. Then opens 'ben Katin' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l15"
+        ]
       },
       {
         id: "rashi-yoma-025b-028",
@@ -59382,11 +59404,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 28,
         he: "כ\"ג היה: י\"ב דדים. שהוא יוצק בהן",
-        en: "He had twelve spigots which he poured water into.",
+        en: "Rashi: concludes - he was a High Priest. Then opens 'twelve spigots' - for he would pour from them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l15"
+        ]
       },
       {
         id: "rashi-yoma-025b-029",
@@ -59394,11 +59418,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 29,
         he: "מים: תליסר הוי. שהרי שלש עשרה",
-        en: "There are thirteen, since thirteen services are counted in our Mishna.",
+        en: "Rashi: concludes - water. Then opens 'it would be thirteen' - for there were thirteen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-030",
@@ -59406,11 +59432,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 30,
         he: "עבודות נמנו במשנתנו בעבודות",
-        en: "But slaughter does not require sanctification of hands and feet.",
+        en: "Rashi: continues - services counted in our mishna among the daily-offering's lottery services, other than",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-031",
@@ -59418,11 +59446,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 31,
         he: "פייס התמיד אלא שהשחיטה אינה",
-        en: "Even when performed by a kohen, since it is valid by a non-kohen.",
+        en: "Rashi: continues - the slaughtering, which does not require the sanctification of hands and feet even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-032",
@@ -59430,11 +59460,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 32,
         he: "טעונה קידוש ידים ורגלים אפילו",
-        en: "And if you say the slaughterer also receives the blood.",
+        en: "Rashi: continues - when performed by a priest, since it is a service that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-033",
@@ -59442,11 +59474,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 33,
         he: "כשהיא בכהן לפי שהיא עבודה שהיא",
-        en: "It turns out he needs to sanctify hands and feet for the collection.",
+        en: "Rashi: continues - is valid by a non-priest, and if you say the slaughterer receives,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-034",
@@ -59454,11 +59488,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 34,
         he: "כשירה בזר ואי אמרת שוחט מקבל",
-        en: "Since collection requires it.",
+        en: "Rashi: continues - it turns out he must sanctify his hands and feet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-035",
@@ -59466,11 +59502,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 35,
         he: "נמצא שהוא צריך לקדש ידיו ורגליו",
-        en: "He would need to sanctify for the blood collection.",
+        en: "Rashi: continues - for the receiving.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l18"
+        ]
       },
       {
         id: "rashi-yoma-025b-036",
@@ -59478,11 +59516,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 36,
         he: "בשביל הקבלה: אף אנן נמי תנינא.",
-        en: "We too have learned this in the Mishna of Tamid: 'he came to sprinkle.'",
+        en: "Rashi: concludes - for the receiving. Then opens 'we too have learned it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l20"
+        ]
       },
       {
         id: "rashi-yoma-025b-037",
@@ -59490,11 +59530,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 37,
         he: "במסכת תמיד ובא לו לזרוק גרסינן:",
-        en: "The correct reading in Tamid is 'and he came to sprinkle.'",
+        en: "Rashi: concludes - in Tractate Tamid, where the text reads 'and he came to sprinkle.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l20"
+        ]
       },
       {
         id: "rashi-yoma-025b-038",
@@ -59502,11 +59544,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 38,
         he: "דרך הלוכו. של צד הראש קודמין",
-        en: "The order follows the path of the head - the leading parts come first.",
+        en: "Rashi: opens 'in the manner of its walking' - the side of the head takes precedence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l23"
+        ]
       },
       {
         id: "rashi-yoma-025b-039",
@@ -59514,11 +59558,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 39,
         he: "הקודם קודם: הראש והרגל. של",
-        en: "The head and the right leg - everyone agrees they come first, derived from a verse below.",
+        en: "Rashi: concludes - what comes first in the animal's walk takes precedence. Then opens 'the head and the leg' - of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l23"
+        ]
       },
       {
         id: "rashi-yoma-025b-040",
@@ -59526,11 +59572,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 40,
         he: "ימין לדברי הכל קודמת ומקרא יליף",
-        en: "The order follows the flaying - from the leg side to the head side.",
+        en: "Rashi: continues - the right, by consensus, take precedence, derived from a verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l23"
+        ]
       },
       {
         id: "rashi-yoma-025b-041",
@@ -59538,11 +59586,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 41,
         he: "לה לקמן: דרך הפשטו. מצד הרגלים",
-        en: "The order follows the dissection - the order of cutting after flaying.",
+        en: "Rashi: concludes - further on. Then opens 'in the manner of its flaying' - from the side of the legs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l23"
+        ]
       },
       {
         id: "rashi-yoma-025b-042",
@@ -59550,11 +59600,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 42,
         he: "לצד הראש: דרך ניתוחו. כסדר",
-        en: "Limb after limb, and the dissection order is specified in Tamid.",
+        en: "Rashi: concludes - toward the side of the head. Then opens 'in the manner of its cutting up' - according to the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-043",
@@ -59562,11 +59614,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 43,
         he: "שמנתחין אותו לאחר הפשטו אבר אחר",
-        en: "Arranged here as it is there, how is the dissection order? etc.",
+        en: "Rashi: continues - in which they cut it up after flaying it, limb by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-044",
@@ -59574,11 +59628,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 44,
         he: "אבר וסדר ניתוחו מפורש במס'",
-        en: "When he dissects, each limb is given to the winner and all stand.",
+        en: "Rashi: continues - limb, and the order of its cutting up is explained in Tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-045",
@@ -59586,11 +59642,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 45,
         he: "תמיד (ד' לא.) כמו שהוא סדור כאן",
-        en: "Until all have received their limb, then they all proceed together.",
+        en: "Rashi: continues - Tamid (31a), just as it is arranged here:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-046",
@@ -59598,11 +59656,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 46,
         he: "כיצד דרך ניתוחו כו' וכשהוא מנתח",
-        en: "They carry their limbs to the ramp, one after another.",
+        en: "Rashi: continues - 'how is the manner of its cutting up,' etc., and when he cuts it up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-047",
@@ -59610,11 +59670,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 47,
         he: "נותן כל אבר ואבר למי שזכה בו וכולן",
-        en: "The order of carrying is disputed among these tannaim.",
+        en: "Rashi: continues - he gives each limb to whoever won it, and they all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-048",
@@ -59622,11 +59684,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 48,
         he: "עומדים שם עד שיקבלו שם כולן",
-        en: "One says one way and the other says the other.",
+        en: "Rashi: continues - stand there until they all receive theirs,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-049",
@@ -59634,11 +59698,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 49,
         he: "והולכין ומוליכין אותן לכבש זה אחר",
-        en: "The correct reading is: how is the dissection order? Head and right leg, two forelegs, chest and throat, two flanks, tail and left leg.",
+        en: "Rashi: continues - and they go and carry them to the ramp, one after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-050",
@@ -59646,11 +59712,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 50,
         he: "זה ובסדר הולכתן פליגי הני תנאי מר",
-        en: "One says this and one says that.",
+        en: "Rashi: continues - another, and these tanna'im disagree about the order of their carrying: one master",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-051",
@@ -59658,11 +59726,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 51,
         he: "אמר הכי ומר אמר הכי: הכי גרסינן",
-        en: "The correct text: how is the order of excellence? Head and right leg.",
+        en: "Rashi: concludes - says thus and one master says thus. Then opens 'this is the correct text' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-052",
@@ -59670,11 +59740,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 52,
         he: "כיצד דרך ניתוחו הראש והרגל ושתי",
-        en: "Chest and throat, two flanks, tail and left leg, two forelegs.",
+        en: "Rashi: continues - 'how is the manner of its cutting up: the head and the leg, and the two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-053",
@@ -59682,11 +59754,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 53,
         he: "ידיו והחזה והגרה ושתי הדפנות",
-        en: "But it is written 'the best portion - the thigh and shoulder.'",
+        en: "Rashi: continues - forelegs, and the breast and the neck-piece, and the two flanks,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-054",
@@ -59694,11 +59768,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 54,
         he: "עוקץ והרגל: דרך עילויו. דרך מיטב",
-        en: "In lean animals the thigh is better since it is stronger.",
+        en: "Rashi: concludes - the tail-bone and the leg.' Then opens 'in the manner of its being prized' - the manner of its choicest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-055",
@@ -59706,11 +59782,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 55,
         he: "שלו ומבחר נתחיו המובחר קודם:",
-        en: "The tanna of our Mishna does not rule like either of them.",
+        en: "Rashi: concludes - part, its finest cuts, the choicest coming first. Then opens 'this is the correct text' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-056",
@@ -59718,11 +59796,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 56,
         he: "ה\"ג כיצד דרך עילויו הראש והרגל",
-        en: "This tanna follows the greatness of the limb.",
+        en: "Rashi: continues - 'how is the manner of its being prized: the head and the leg,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l28"
+        ]
       },
       {
         id: "rashi-yoma-025b-057",
@@ -59730,11 +59810,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 57,
         he: "החזה והגרה ושתי דפנות והעוקץ והרגל ושתי ידים: והכתיב כל נתח",
-        en: "One tanna follows the excellence of size, the other follows the excellence of fat.",
+        en: "Rashi: concludes - the breast and the neck-piece, and the two flanks and the tail-bone and the leg and the two forelegs.' Then opens 'but is it not written: every choice cut,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l34"
+        ]
       },
       {
         id: "rashi-yoma-025b-058",
@@ -59742,11 +59824,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 58,
         he: "טוב ירך וכתף. אלמא ירך מעלי מכתף: בכחושה. ירך מעלי דאלים: תנא",
-        en: "Another verse: 'the pieces, the head, and the fat.'",
+        en: "Rashi: continues - 'thigh and shoulder' - implying the thigh is better than the shoulder: 'in a lean animal.' The thigh is better when the animal is fat. Then opens 'our own tanna' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l35"
+        ]
       },
       {
         id: "rashi-yoma-025b-059",
@@ -59754,11 +59838,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 59,
         he: "דידן. תנא דמתניתין לא אמר כחד מנייהו: מר אזיל בתר איברא. תנא דידן",
-        en: "What purpose does this verse serve? We have the pieces encompassing them.",
+        en: "Rashi: continues - the tanna of our mishna, did not say like either of them. Then opens 'the master follows the limb' - our own tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l35"
+        ]
       },
       {
         id: "rashi-yoma-025b-060",
@@ -59766,11 +59852,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 60,
         he: "הולך אחר עילוי גודל האיברים ור' יוסי הולך אחר עילוי השמן:",
-        en: "Summary: one tanna follows limb significance, R. Yosi follows fat content.",
+        en: "Rashi: concludes - follows the size of the limbs, and Rabbi Yosei follows the fattiness.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l35"
+        ]
       },
       {
         id: "rashi-yoma-025b-061",
@@ -59778,11 +59866,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 61,
         he: "ואידך פדר. קרא אחרינא כתיב את הנתחים את הראש ואת הפדר:",
-        en: "Another verse: 'the pieces, the head, and the fat' - cited for the fat.",
+        en: "Rashi: opens and closes 'and the other, fat' - a different verse is written, 'the pieces, the head, and the fat.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l40"
+        ]
       },
       {
         id: "rashi-yoma-025b-062",
@@ -59790,11 +59880,13 @@ const DAF_CONTENT = {
         daf: "25b",
         vilnaLine: 62,
         he: "למאי",
-        en: "Purpose of the additional verse about the fat.",
+        en: "Rashi: the daf's final truncated word - 'for what,' continuing the dibbur hamatchil that opens the Gemara's own question about the extra verse teaching the fat's precedence, whose text continues on 26a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-025b-l40"
+        ]
       }
     ],
     review: {

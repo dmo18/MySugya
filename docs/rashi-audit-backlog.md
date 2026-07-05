@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.19: schema backfill is complete, the perek-level semantic
+As of VERSION 15.20: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2573,6 +2573,71 @@ indexing slips noted above). 25a is fully resolved, 61/61, with real
 translations replacing every generic placeholder and every
 linkedGemaraLineIds value corrected to its real zero-padded
 `yoma-025a-lXX` target.
+
+## 25b, full daf (VERSION 15.20)
+
+Continuing the resumed run. Before any edit, the 25a/25b boundary was
+re-verified read-only: 25a's truncated final word "לא" (no) is
+completed by 25b's opening "תא שמע רבי יהודה אומר לא היה פייס למחתה"
+in both the Gemara and Rashi columns, continuing the Gemara's own
+question about lottery frequency cleanly. No edit was made to 25a.
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 25b has 62 lines, and the prior
+enrichment JSON's `rashiTranslations` also had 62 entries, an exact
+match, so no orphaned-entry cleanup was needed here, and no sign of
+one-daf-early content misattribution was found on inspection of the
+prior stub text.
+
+25b's Gemara side has 16 real captured lines (`l01`, `l03`, `l04`,
+`l06`, `l08`, `l11`, `l14`, `l15`, `l18`, `l20`, `l23`, `l28`, `l34`,
+`l35`, `l38`, `l40`) against 44 raw Gemara print lines, and its Rashi
+side has 62 raw print lines carrying the same generic descriptive-
+style placeholder text as the daf before it.
+
+All 62 raw Rashi print lines were read against the raw Gemara text
+and the 16 real captured line ids, using the same multi-DH rule as
+prior daf, continuing the list-indexed methodology adopted at 25a
+(translations written as an ordered list matching talmud.dev's raw
+array position for position, `vilnaLine` derived automatically from
+list index, cross-checked against the raw text at each DH-boundary
+line before being applied; one transcription slip during drafting,
+a stray comma splitting one list entry into two arguments, was
+caught by the script's own length assertion before any file was
+written, and a second slip, an off-by-one shift in the target ids
+around vilnaLine 35-59 from a miscounted line span, was caught by
+side-by-side comparison against the raw array before applying and
+fully corrected). The correspondence: vilnaLine 1-10 (the fire-pan
+lottery background, Rabbi Yehuda's paraphrase of the mishna) to
+`l01`; 11-14 (the incense's rarity and enriching effect) to `l06`;
+15-21 (who receives the blood, due to the sprinkling's own dearness)
+to `l11`; 22-26 (sometimes the slaughterer is a non-priest) to `l14`;
+27-28 (ben Katin, the twelve spigots) to `l15`; 29-35 (thirteen
+lottery services, the sanctification of hands and feet) to `l18`;
+36-37 (the baraita confirming the receiver, from Tractate Tamid) to
+`l20`; 38-41 (the order of the animal's walking, flaying) to `l23`;
+42-56 (the order of cutting up, the carrying to the ramp, the
+disputed cutting-up and prizing sequences) to `l28`; 57 (the
+"choice cut" verse challenge) to `l34`; 58-60 (the two tanna'im's
+size-versus-fat criterion) to `l35`; 61-62 (the extra verse teaching
+the fat's own precedence) to `l40`. `l03` (the alternate view that
+other services do require a lottery), `l04` (the "some say" version
+of that alternate view), `l08` (the baraita about twelve priests
+accompanying the daily-offering's winner), and `l38` (the reasoning
+for why the leg accompanies the head) have no dedicated vilnaLine of
+their own in this daf's column, the same established folding pattern
+seen throughout this run.
+
+vilnaLine 62, the daf's final truncated word "למאי" (for what), is
+the same kind of boundary case as every other daf ending in this
+run: per the policy, it is linked to `yoma-025b-l40`, 25b's own final
+locally captured Gemara line (the extra verse teaching the fat's
+precedence), even though the DH's own point is itself still open at
+the point of truncation, continuing onto 26a.
+
+All 62 entries were fixed in a single list-indexed pass. 25b is fully
+resolved, 62/62, with real translations replacing every generic
+placeholder and every linkedGemaraLineIds value corrected to its
+real zero-padded `yoma-025b-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

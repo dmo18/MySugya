@@ -26,345 +26,437 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Can one priest do both the slaughter and the blood-receiving?",
+      "en": "Rashi: opens 'there was no lottery for the fire-pan' - when they would hold the lottery for the incense, as our mishna teaches: newcomers",
       "linkedGemaraLineIds": [
         "yoma-025b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Baraita: R. Yehuda says the incense and coal-pan are combined - proves single lottery is possible.",
+      "en": "Rashi: continues - come to the incense lottery, and the incense requires two priests: one who carries the incense",
       "linkedGemaraLineIds": [
         "yoma-025b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rejection: coal-pan and incense are different because they must be done together.",
+      "en": "Rashi: continues - to the Sanctuary and burns it, and one who scoops coals from the outer altar and brings them into the Sanctuary",
       "linkedGemaraLineIds": [
-        "yoma-025b-l02"
+        "yoma-025b-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Alternative reading of the baraita - incense specifically requires a new priest each time.",
+      "en": "Rashi: continues - and places them on the inner altar to burn the incense on them, as will be derived further on",
       "linkedGemaraLineIds": [
-        "yoma-025b-l03"
+        "yoma-025b-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Explicit baraita: R. Chiyya - no separate lottery for each individual service task.",
+      "en": "Rashi: continues - (45a) from verses, that the coals of the inner altar",
       "linkedGemaraLineIds": [
-        "yoma-025b-l05"
+        "yoma-025b-l01"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Mishna question: who sprinkles the blood? And who collects it beforehand?",
+      "en": "Rashi: continues - are taken from the outer altar every day.",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues DH - and Rabbi Yehuda says' - there was no lottery for who",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - wins the fire-pan, only for who would win the incense,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - and whoever won it says to this one who is with him,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: concludes - 'win with me in the fire-pan,' implying it is not for every",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: concludes - service that they hold a lottery. Then opens 'since it is uncommon' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - the incense, only twice a day, since it is",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - not brought as a voluntary offering. Then opens and closes 'and it enriches' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: concludes - and enriches those occupied with it, as we say",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: concludes - further on in our chapter (26a). Then opens 'who receives' -",
       "linkedGemaraLineIds": [
         "yoma-025b-l11"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Possible inference: the sprinkler also collects, since continuity of the blood service matters.",
+      "vilnaLine": 16,
+      "en": "Rashi: continues - the blood of the daily-offering, since it was not counted in our mishna's",
       "linkedGemaraLineIds": [
-        "yoma-025b-l07"
+        "yoma-025b-l11"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "Proof from another mishna: the sprinkler and collector are the same person.",
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - list of priests, we may conclude that one of these performs it.",
       "linkedGemaraLineIds": [
-        "yoma-025b-l08"
+        "yoma-025b-l11"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Argument from multiplicity: if the slaughterer also collected, there would be too many priests.",
+      "vilnaLine": 18,
+      "en": "Rashi: opens 'due to its dearness' - for the sprinkling, being the altar's own",
       "linkedGemaraLineIds": [
-        "yoma-025b-l09"
+        "yoma-025b-l11"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Rav Acha son of Rava brings further support from the Tamid mishna.",
+      "vilnaLine": 19,
+      "en": "Rashi: continues - service, he would not receive the entire blood himself.",
       "linkedGemaraLineIds": [
-        "yoma-025b-l10"
+        "yoma-025b-l11"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Ben Azzai's alternative limb order before Rabbi Akiva.",
+      "vilnaLine": 20,
+      "en": "Rashi: continues - and we say further on (48a) that he must receive",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: concludes - the entire blood, as it is stated (Leviticus 4): 'and all",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l11"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: concludes - the blood he shall pour out.' Then opens 'sometimes the slaughterer is a non-priest' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - for the slaughtering is valid by a non-priest while the receiving is invalid",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - by him, as it is stated (Leviticus 1): 'and he shall slaughter the",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - bull, and the priests shall present the blood,'",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: concludes - teaching that from the receiving onward the priesthood's requirement applies, implying",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l14"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: concludes - that the slaughtering, which is valid by a non-priest, is so. Then opens 'ben Katin' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: concludes - he was a High Priest. Then opens 'twelve spigots' - for he would pour from them",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - water. Then opens 'it would be thirteen' - for there were thirteen",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - services counted in our mishna among the daily-offering's lottery services, other than",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - the slaughtering, which does not require the sanctification of hands and feet even",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - when performed by a priest, since it is a service that",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - is valid by a non-priest, and if you say the slaughterer receives,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - it turns out he must sanctify his hands and feet",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - for the receiving.",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - for the receiving. Then opens 'we too have learned it' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: concludes - in Tractate Tamid, where the text reads 'and he came to sprinkle.'",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: opens 'in the manner of its walking' - the side of the head takes precedence",
       "linkedGemaraLineIds": [
         "yoma-025b-l23"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Rabbi Akiva: limbs brought up in order of cutting, starting with the head.",
+      "vilnaLine": 39,
+      "en": "Rashi: concludes - what comes first in the animal's walk takes precedence. Then opens 'the head and the leg' - of",
       "linkedGemaraLineIds": [
-        "yoma-025b-l25"
+        "yoma-025b-l23"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "R. Yosei HaGelili's view: every good piece (head) goes up first.",
+      "vilnaLine": 40,
+      "en": "Rashi: continues - the right, by consensus, take precedence, derived from a verse",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: concludes - further on. Then opens 'in the manner of its flaying' - from the side of the legs",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l23"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: concludes - toward the side of the head. Then opens 'in the manner of its cutting up' - according to the order",
       "linkedGemaraLineIds": [
         "yoma-025b-l28"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "Rava: both the mishna and Ben Azzai agree the head goes up first - they differ only on what follows.",
+      "vilnaLine": 43,
+      "en": "Rashi: continues - in which they cut it up after flaying it, limb by",
       "linkedGemaraLineIds": [
-        "yoma-025b-l30"
+        "yoma-025b-l28"
       ]
     },
     {
-      "vilnaLine": 15,
-      "en": "Why does the right leg go up alongside the head?",
+      "vilnaLine": 44,
+      "en": "Rashi: continues - limb, and the order of its cutting up is explained in Tractate",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - Tamid (31a), just as it is arranged here:",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: continues - 'how is the manner of its cutting up,' etc., and when he cuts it up",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: continues - he gives each limb to whoever won it, and they all",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: continues - stand there until they all receive theirs,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: continues - and they go and carry them to the ramp, one after",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continues - another, and these tanna'im disagree about the order of their carrying: one master",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: concludes - says thus and one master says thus. Then opens 'this is the correct text' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: continues - 'how is the manner of its cutting up: the head and the leg, and the two",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: continues - forelegs, and the breast and the neck-piece, and the two flanks,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: concludes - the tail-bone and the leg.' Then opens 'in the manner of its being prized' - the manner of its choicest",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: concludes - part, its finest cuts, the choicest coming first. Then opens 'this is the correct text' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: continues - 'how is the manner of its being prized: the head and the leg,",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: concludes - the breast and the neck-piece, and the two flanks and the tail-bone and the leg and the two forelegs.' Then opens 'but is it not written: every choice cut,'",
       "linkedGemaraLineIds": [
         "yoma-025b-l34"
       ]
     },
     {
-      "vilnaLine": 16,
-      "en": "Gemara asks: does every tanna agree that every limb is brought up by a single priest?",
+      "vilnaLine": 58,
+      "en": "Rashi: continues - 'thigh and shoulder' - implying the thigh is better than the shoulder: 'in a lean animal.' The thigh is better when the animal is fat. Then opens 'our own tanna' -",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: continues - the tanna of our mishna, did not say like either of them. Then opens 'the master follows the limb' - our own tanna",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: concludes - follows the size of the limbs, and Rabbi Yosei follows the fattiness.",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l35"
+      ]
+    },
+    {
+      "vilnaLine": 61,
+      "en": "Rashi: opens and closes 'and the other, fat' - a different verse is written, 'the pieces, the head, and the fat.'",
       "linkedGemaraLineIds": [
         "yoma-025b-l40"
       ]
     },
     {
-      "vilnaLine": 17,
-      "en": "Implying one of the other winners also does it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Because sprinkling is so beloved as an altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "One kohen does not collect all the blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "As stated later (48a) one must collect all the blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "As it says (Lev. 4) 'and all the blood.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "And it happens that a non-kohen slaughters.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Slaughter is valid by a non-kohen but collection is not.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "As it says (Lev. 1) 'and he shall slaughter the bull.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "'And the kohanim shall present the blood' - from collection onward is a priestly duty.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "From collection onward it is a priestly obligation, teaching slaughter is valid by a non-kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Ben Katin was the KG.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "He had twelve spigots which he poured water into.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "There are thirteen, since thirteen services are counted in our Mishna.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "But slaughter does not require sanctification of hands and feet.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Even when performed by a kohen, since it is valid by a non-kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "And if you say the slaughterer also receives the blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "It turns out he needs to sanctify hands and feet for the collection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Since collection requires it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "He would need to sanctify for the blood collection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "We too have learned this in the Mishna of Tamid: 'he came to sprinkle.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The correct reading in Tamid is 'and he came to sprinkle.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The order follows the path of the head - the leading parts come first.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The head and the right leg - everyone agrees they come first, derived from a verse below.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The order follows the flaying - from the leg side to the head side.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The order follows the dissection - the order of cutting after flaying.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Limb after limb, and the dissection order is specified in Tamid.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Arranged here as it is there, how is the dissection order? etc.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "When he dissects, each limb is given to the winner and all stand.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Until all have received their limb, then they all proceed together.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "They carry their limbs to the ramp, one after another.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "The order of carrying is disputed among these tannaim.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "One says one way and the other says the other.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "The correct reading is: how is the dissection order? Head and right leg, two forelegs, chest and throat, two flanks, tail and left leg.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "One says this and one says that.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "The correct text: how is the order of excellence? Head and right leg.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Chest and throat, two flanks, tail and left leg, two forelegs.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "But it is written 'the best portion - the thigh and shoulder.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "In lean animals the thigh is better since it is stronger.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The tanna of our Mishna does not rule like either of them.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "This tanna follows the greatness of the limb.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "One tanna follows the excellence of size, the other follows the excellence of fat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Another verse: 'the pieces, the head, and the fat.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "What purpose does this verse serve? We have the pieces encompassing them.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Summary: one tanna follows limb significance, R. Yosi follows fat content.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Another verse: 'the pieces, the head, and the fat' - cited for the fat.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 62,
-      "en": "Purpose of the additional verse about the fat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'for what,' continuing the dibbur hamatchil that opens the Gemara's own question about the extra verse teaching the fat's precedence, whose text continues on 26a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-025b-l40"
+      ]
     }
   ],
   "sugyot": [
