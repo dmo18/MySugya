@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.21: schema backfill is complete, the perek-level semantic
+As of VERSION 15.22: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2699,6 +2699,87 @@ All 42 entries were fixed in a single list-indexed pass. 26a is fully
 resolved, 42/42, with real translations replacing every generic
 placeholder and every linkedGemaraLineIds value corrected to its
 real zero-padded `yoma-026a-lXX` target.
+
+## 26b, full daf (VERSION 15.22)
+
+Continuing the resumed run. Before any edit, the 26a/26b boundary was
+re-verified read-only: 26a's truncated final word "דלא" (not) is
+completed by 26b's opening "ההוא דלא כרבי אליעזר בן יעקב ודלא כרבי
+יהודה" in both the Gemara and Rashi columns, continuing the Gemara's
+own question about finding a tanna who taught five lottery rounds
+cleanly. No edit was made to 26a. The mandatory preflight raw-count
+check was run first: talmud.dev's non-empty raw Rashi array for 26b
+has 61 lines, and the prior enrichment JSON's `rashiTranslations`
+also had 61 entries, an exact match, so no orphaned-entry cleanup was
+needed here, and no sign of one-daf-early content misattribution was
+found on inspection of the prior stub text.
+
+26b's Gemara side has 16 real captured lines (`l01`, `l02` [mishna],
+`l05`, `l10`, `l15`, `l18`, `l24`, `l26`, `l28`, `l30`, `l31a`,
+`l31b`, `l32` [mishna], `l39`, `l40`, `l41`) against 43 raw Gemara
+print lines, continuing the lettered-suffix convention seen for the
+first time at 26a (`l31a`/`l31b` here, both carrying `vilna_line: 31`
+since two distinct Gemara clauses share one raw print line). Its
+Rashi side has 61 raw print lines carrying the same generic
+descriptive-style placeholder text as the daf before it. This daf
+also crosses two mishna/gemara boundaries mid-page (the third
+Mishna's daily-offering count at `l02`, and the fourth Mishna's ram
+and bull counts at `l32`).
+
+All 61 raw Rashi print lines were read against the raw Gemara text
+and the 16 real captured line ids, using the same multi-DH rule and
+list-indexed methodology as the prior three daf. The correspondence:
+vilnaLine 1-2 (the baraita is not like either Rabbi Eliezer ben
+Yaakov or Rabbi Yehuda) to `l01`; 3-9 (the mishna's own count clauses
+for the daily-offering, the festival water libation, one priest with
+the jug) to `l02`; 10-17 (the afternoon and Shabbat additions, the
+two logs of wood) to `l05`; 18-24 (the Gemara's proof that the water
+libation applies only in the morning) to `l10`; 25-35 (the pourer
+raising his hand, the Sadducee priest pelted with etrogim) to `l15`;
+36-40 (the proposal that one priest could arrange the wood twice in
+the morning) to `l24`; 41 (the challenge that the verse should have
+repeated the same verb) to `l28`; 42-47 (the baraita's four possible
+totals: thirteen, fourteen, fifteen, sixteen) to `l30`; 48 (the
+challenge that a baraita teaches seventeen) to `l31a`; 49-57 (the
+resolution: that baraita follows Rabbi Yehuda, not Rabbi Eliezer ben
+Yaakov, with Rashi's own extended discussion of what can and cannot
+be inferred about a priest for the fire-pan) to `l31b`; 58 (the
+fourth Mishna's ram and bull clauses) to `l32`; 59-60 (in what case
+is this said, an individual may sacrifice alone, the flaying and
+cutting up are equal) to `l39`. `l18` (Rabbi Shimon ben Yochai's own
+baraita deriving the two-logs requirement from the verse, whose
+substance Rashi had already glossed while covering `l05`), `l26`
+(the Gemara's "if the Merciful One wrote it twice" reasoning, folded
+into the same comment anchored to `l24`), and `l40` (the Gemara's own
+near-verbatim restatement of the mishna's flaying and cutting up
+clause, already covered by Rashi's comment on `l39`) have no
+dedicated vilnaLine of their own in this daf's column, the same
+established folding pattern seen throughout this run. The vl10-17
+and vl36-40 spans in particular required a judgment call, since their
+content closely paraphrases the derivation that a nearby real line
+supplies without a fresh independent lemma of its own opening; both
+were resolved on the positional-anchoring principle (anchor to the
+comment's own opening catchword) already established in the boundary
+policy, rather than requiring an exact phrase match to the linked
+line's own text.
+
+vilnaLine 61, the daf's final truncated word "האי" (this), is the
+same kind of boundary case as every other daf ending in this run:
+per the policy, it is linked to `yoma-026b-l41`, 26b's own final
+locally captured Gemara line (Hizkiya's proof from the verse about
+placing fire that flaying and cutting up do not require priesthood),
+even though the DH's own point is itself still open at the point of
+truncation, continuing onto 27a.
+
+All 61 entries were fixed in a single list-indexed pass (one
+transcription slip, a three-way split of one raw line's content
+across three list entries that left the final truncated entry
+missing entirely, was caught by the script's own length assertion
+before any file was written, and corrected by merging back to the
+correct two-entry span before re-running). 26b is fully resolved,
+61/61, with real translations replacing every generic placeholder and
+every linkedGemaraLineIds value corrected to its real zero-padded
+`yoma-026b-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

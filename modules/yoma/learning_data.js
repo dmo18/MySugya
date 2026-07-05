@@ -61550,7 +61550,7 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 1,
         he: "דלא כר\"א בן יעקב ודלא כרבי יהודה. דחשיב פייס למחתה דלא",
-        en: "Final resolution of the previous lottery discussion.",
+        en: "Rashi: opens 'not according to Rabbi Eliezer ben Yaakov and not according to Rabbi Yehuda' - since it counts a lottery for the fire-pan, which is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -61564,12 +61564,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 2,
         he: "כרבי יהודה ופייס דמן הכבש למזבח דלא כר\"א בן יעקב:",
-        en: "Mishna: Morning tamid - nine priests; each limb/task listed.",
+        en: "Rashi: concludes - like Rabbi Yehuda, and a lottery for bringing the limbs from the ramp to the altar, which is not like Rabbi Eliezer ben Yaakov.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l02"
+          "yoma-026b-l01"
         ]
       },
       {
@@ -61578,12 +61578,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 3,
         he: "מתני' תמיד קרב. משעת הולכת איברים ואילך קא חשיב:",
-        en: "Afternoon tamid - eleven priests; additional tasks listed.",
+        en: "Rashi: opens and closes 'mishna: the daily-offering is sacrificed' - counted from the time the limbs are carried onward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l08"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61592,12 +61592,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 4,
         he: "עצמו. בכל יום בתשעה חמשה לאיברים ואחד לקרבים ואחד לסולת",
-        en: "R. Abba: on festivals wine libations were added - are water libations only for Sukkot?",
+        en: "Rashi: opens 'itself' - every day by nine, five for the limbs and one for the entrails and one for the fine flour",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l12"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61606,12 +61606,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 5,
         he: "ואחד לחביתין ואחד ליין והא כר\"א",
-        en: "Rav Ashi: the Tamid mishna's count confirms libations were added only on some days.",
+        en: "Rashi: continues - and one for the fried cakes and one for the wine; but is not this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l14"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61620,12 +61620,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 6,
         he: "בן יעקב היא דלית ליה חד להעלות",
-        en: "R. Shimon ben Yochai: source verse for the afternoon offering's requirement.",
+        en: "Rashi: continues - Rabbi Eliezer ben Yaakov's own view, who holds there is no separate one for bringing up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l15"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61634,12 +61634,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 7,
         he: "מכבש למזבח: בחג. שצריך שני",
-        en: "Gemara challenges: perhaps both verses refer only to the morning offering.",
+        en: "Rashi: concludes - from the ramp to the altar. Then opens 'on the festival' - since it requires two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l19"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61648,12 +61648,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 8,
         he: "נסכין אחד של יין ואחד של מים:",
-        en: "If the Torah had written 'and he shall burn wood on it' once, we might have thought only morning.",
+        en: "Rashi: concludes - libations, one of wine and one of water.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l21"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61662,12 +61662,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 9,
         he: "ביד. כהן אחד צלוחית אחת של מים:",
-        en: "The extra 'on it in the morning' teaches the afternoon service too.",
+        en: "Rashi: opens and closes 'in whose hand' - one priest, one jug of water.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l23"
+          "yoma-026b-l02"
         ]
       },
       {
@@ -61676,12 +61676,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 10,
         he: "בין הערבים. שבכל יום שנים בידם",
-        en: "R. Chiyya: sometimes thirteen priests - explains what extra tasks required additional priests.",
+        en: "Rashi: opens 'in the afternoon' - since every day two are added to their hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l28"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61690,12 +61690,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 11,
         he: "שני גזירי עצים להוסיף על עצי",
-        en: "Contradiction with baraita that says sometimes fourteen.",
+        en: "Rashi: continues - two logs of wood to add to the arrangement of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l30"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61704,12 +61704,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 12,
         he: "המערכה להרבות' ובגמרא יליף לה",
-        en: "Resolution: baraita of 14 is not according to R. Eliezer ben Yaakov.",
+        en: "Rashi: continues - the pyre, and the Gemara derives this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l31"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61718,12 +61718,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 13,
         he: "מקרא שבין הערבים צריך התמיד",
-        en: "Mishna: communal ram burnt-offering - eleven priests.",
+        en: "Rashi: continues - from a verse, that the afternoon-offering requires the daily-offering to have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l32"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61732,12 +61732,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 14,
         he: "שני גזירין בשני כהנים אבל בשחרית",
-        en: "Different distribution for communal ram vs tamid.",
+        en: "Rashi: continues - two logs by two priests, but in the morning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l33"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61746,12 +61746,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 15,
         he: "לא בעי סידור שני גזירין אלא בכהן",
-        en: "Gemara: individual and communal offerings are equal for flaying and cutting.",
+        en: "Rashi: continues - it does not require the arrangement of two logs, only by one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l36"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61760,12 +61760,12 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 16,
         he: "אחד דכתיב ובער עליה הכהן:",
-        en: "Hizkiya's source for this equality.",
+        en: "Rashi: concludes - priest, since it is written 'and the priest shall burn wood on it.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026b-l41"
+          "yoma-026b-l05"
         ]
       },
       {
@@ -61774,11 +61774,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 17,
         he: "ובשבת שבתוך החג וכו'. הרי שנים",
-        en: "On Shabbat within Sukkot etc. - that makes twelve.",
+        en: "Rashi: concludes - Then opens and closes 'and on Shabbat that occurs within the festival, etc.' - that makes twelve.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l05"
+        ]
       },
       {
         id: "rashi-yoma-026b-018",
@@ -61786,11 +61788,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 18,
         he: "עשר: גמ' ממאי מדקתני ובשבת",
-        en: "Gemara: from what? Since it teaches 'and on Shabbat' etc.",
+        en: "Rashi: opens 'gemara: from where' - from the fact that it is taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-019",
@@ -61798,11 +61802,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 19,
         he: "וכו'. מכלל דשאר ימות החג לא",
-        en: "By inference the rest of the Sukkot days do not require twelve.",
+        en: "Rashi: continues - and on Shabbat, etc., implying that on the other days of the festival it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-020",
@@ -61810,11 +61816,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 20,
         he: "מצא שיטעון שנים עשר ואי אמרת",
-        en: "If you say they also do water libations on the regular days of Sukkot.",
+        en: "Rashi: continues - reach the requirement of twelve, and if you say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-021",
@@ -61822,11 +61830,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 21,
         he: "אף בין הערבים מנסכין מים בחול של",
-        en: "You could find twelve on any afternoon of Sukkot.",
+        en: "Rashi: continues - the water libation is also poured in the afternoon on the weekdays of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-022",
@@ -61834,11 +61844,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 22,
         he: "כל ימות החג משכחת לה י\"ב בין",
-        en: "Afternoon alone would yield twelve.",
+        en: "Rashi: continues - the entire festival, you would find twelve in the afternoon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-023",
@@ -61846,11 +61858,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 23,
         he: "הערבים עצמו בתשעה ושנים בידן",
-        en: "Nine plus two carrying logs plus one carrying water flask.",
+        en: "Rashi: continues - service too: itself by nine and two in their hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-024",
@@ -61858,11 +61872,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 24,
         he: "שני גזירין ואחד בידו צלוחית של מים:",
-        en: "And to the water libator he says 'raise your hand.'",
+        en: "Rashi: concludes - two logs and one in his hand a jug of water.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l10"
+        ]
       },
       {
         id: "rashi-yoma-026b-025",
@@ -61870,11 +61886,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 25,
         he: "ולמנסך את המים אומר לו הגבה",
-        en: "To show that he is pouring the flask into the silver bowl on the altar.",
+        en: "Rashi: opens 'and to the pourer of the water he says: raise your'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-026",
@@ -61882,11 +61900,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 26,
         he: "ידך. ונראה שתערה הצלוחית לתוך",
-        en: "Which has a thin spout-like opening through which the wine flows.",
+        en: "Rashi: continues - hand. And it appears that he would empty the jug into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-027",
@@ -61894,11 +61914,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 27,
         he: "ספל של כסף שעל המזבח שהוא",
-        en: "And it is the libation bowl.",
+        en: "Rashi: continues - a silver vessel on the altar that has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-028",
@@ -61906,11 +61928,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 28,
         he: "נקוב כמין חוטם דק שהיין מקלח",
-        en: "The bowl has a thin spout.",
+        en: "Rashi: continues - a hole like a thin nostril through which the wine spurts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-029",
@@ -61918,11 +61942,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 29,
         he: "ויוצא בו והוא הניסוך: שפעם אחת",
-        en: "On one occasion he poured it on his feet - did not pour into the bowl.",
+        en: "Rashi: concludes - and comes out, and that is the libation. Then opens 'that one time' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-030",
@@ -61930,11 +61956,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 30,
         he: "נסך על רגליו. לא עירה הצלוחית",
-        en: "A Sadducee who did not believe in water libation.",
+        en: "Rashi: continues - he poured it on his feet. He did not empty the jug",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-031",
@@ -61942,11 +61970,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 31,
         he: "לתוך הספל ושפך המים על רגליו לפי",
-        en: "He poured it on his feet out of Sadducean rejection.",
+        en: "Rashi: continues - into the vessel but rather poured the water on his feet, because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-032",
@@ -61954,11 +61984,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 32,
         he: "שהיה צדוקי ואינו מודה בניסוך המים:",
-        en: "The people pelted him with their etrogim.",
+        en: "Rashi: concludes - he was a Sadducee and did not accept the water libation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-033",
@@ -61966,11 +61998,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 33,
         he: "באתרוגיהן. למה לי למיתני באתרוגיהן",
-        en: "Why mention 'with their etrogim' - to teach.",
+        en: "Rashi: opens 'with their etrogim' - why did it need to teach 'with their etrogim,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-034",
@@ -61978,11 +62012,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 34,
         he: "אם לא בא ללמדנו שניסוך המים",
-        en: "Water libation only applies during lulav-taking days.",
+        en: "Rashi: continues - if not to teach us that the water libation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-035",
@@ -61990,11 +62026,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 35,
         he: "אינו אלא בשעת נטילת לולב:",
-        en: "Why not just do it from one kohen arranging two logs in the morning.",
+        en: "Rashi: concludes - is only at the time of taking the lulav.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l15"
+        ]
       },
       {
         id: "rashi-yoma-026b-036",
@@ -62002,11 +62040,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 36,
         he: "[ואימא] דנעביד [חד]. כהן אחד",
-        en: "As written 'and the kohen shall kindle on it' - one kohen.",
+        en: "Rashi: opens 'and say let us do it once' - one priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l24"
+        ]
       },
       {
         id: "rashi-yoma-026b-037",
@@ -62014,11 +62054,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 37,
         he: "יסדר שני גזירין בבקר דכתיב ובער",
-        en: "Then bring two additional kohanim for the extra logs.",
+        en: "Rashi: continues - would arrange the two logs in the morning, as it is written 'and the priest shall burn wood on it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l24"
+        ]
       },
       {
         id: "rashi-yoma-026b-038",
@@ -62026,11 +62068,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 38,
         he: "עליה הכהן ונעביד תרי שוב יביאו",
-        en: "Then again in the morning as written 'and they shall arrange wood.'",
+        en: "Rashi: continues - and let us do it twice, meaning afterward two priests would bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l24"
+        ]
       },
       {
         id: "rashi-yoma-026b-039",
@@ -62038,11 +62082,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 39,
         he: "שני כהנים לעשות שני גזיריהן עוד",
-        en: "Why does the Torah write both 'and he shall kindle' and 'and they shall arrange'?",
+        en: "Rashi: continues - two priests to make their two logs again",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l24"
+        ]
       },
       {
         id: "rashi-yoma-026b-040",
@@ -62050,11 +62096,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 40,
         he: "בבקר כדכתיב וערכו שנים:",
-        en: "Because it requires both singular and plural.",
+        en: "Rashi: concludes - in the morning, as it is written 'and they shall lay out,' twice.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l24"
+        ]
       },
       {
         id: "rashi-yoma-026b-041",
@@ -62062,11 +62110,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 41,
         he: "ובער ובערו. יכתוב שניהן בלשון",
-        en: "The Torah should have used the same form for both.",
+        en: "Rashi: opens and closes 'and he shall burn, and they shall burn' - he should write both in the same",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l28"
+        ]
       },
       {
         id: "rashi-yoma-026b-042",
@@ -62074,11 +62124,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 42,
         he: "אחד: פעמים י\"ג. כהנים עסוקין",
-        en: "Thirteen kohanim are busy with the tamid service as counted in the Mishna.",
+        en: "Rashi: concludes - language. Then opens and closes 'sometimes thirteen' - priests occupied",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-043",
@@ -62086,11 +62138,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 43,
         he: "בעבודת התמיד כדתנן במתני'",
-        en: "In the second lottery, thirteen kohanim win it.",
+        en: "Rashi: continues - in the daily-offering's service, as our mishna teaches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-044",
@@ -62098,11 +62152,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 44,
         he: "בפייס שני י\"ג כהנים זוכין בו:",
-        en: "Fourteen on Sukkot - one holds the water flask.",
+        en: "Rashi: concludes - in the second lottery thirteen priests win it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-045",
@@ -62110,11 +62166,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 45,
         he: "פעמים י\"ד. בחג ביד אחד צלוחית",
-        en: "Fifteen on Shabbat.",
+        en: "Rashi: opens and closes 'sometimes fourteen' - on the festival, an added one with a jug",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-046",
@@ -62122,11 +62180,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 46,
         he: "של מים: פעמים ט\"ו. בשבת:",
-        en: "Sixteen on Shabbat of Sukkot.",
+        en: "Rashi: concludes - of water. Then opens and closes 'sometimes fifteen' - on Shabbat.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-047",
@@ -62134,11 +62194,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 47,
         he: "פעמים ששה עשר. בשבת שבתוך",
-        en: "The correct text reads: seventeen.",
+        en: "Rashi: opens 'sometimes sixteen' - on the Shabbat within",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l30"
+        ]
       },
       {
         id: "rashi-yoma-026b-048",
@@ -62146,11 +62208,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 48,
         he: "החג: ה\"ג והא תניא שבעה עשר",
-        en: "That is not following R. Eliezer ben Yaakov but rather R. Yehuda.",
+        en: "Rashi: concludes - the festival. Then opens 'this is the correct text: but was it not taught seventeen' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31a"
+        ]
       },
       {
         id: "rashi-yoma-026b-049",
@@ -62158,11 +62222,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 49,
         he: "ההוא דלא כר\"א בן יעקב אלא כר'",
-        en: "That tanna counts an additional kohen.",
+        en: "Rashi: opens 'that is not according to Rabbi Eliezer ben Yaakov but according to Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-050",
@@ -62170,11 +62236,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 50,
         he: "יהודה. ההוא תנא אית ליה עוד",
-        en: "One additional kohen to bring limbs from ramp to altar.",
+        en: "Rashi: continues - Yehuda. That tanna holds there is an additional",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-051",
@@ -62182,11 +62250,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 51,
         he: "כהן אחד המעלה איברים מן",
-        en: "Making seventeen, not following R. Eliezer ben Yaakov.",
+        en: "Rashi: continues - priest who brings the limbs up from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-052",
@@ -62194,11 +62264,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 52,
         he: "הכבש למזבח והרי כאן י\"ז דלא",
-        en: "But following R. Yehuda.",
+        en: "Rashi: continues - the ramp to the altar, and so there are seventeen, not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-053",
@@ -62206,11 +62278,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 53,
         he: "כר\"א בן יעקב אלא כרבי יהודה",
-        en: "Who says there was no lottery for the fire-pan.",
+        en: "Rashi: continues - like Rabbi Eliezer ben Yaakov but like Rabbi Yehuda,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-054",
@@ -62218,11 +62292,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 54,
         he: "דאמר לא היה פייס למחתה ועל",
-        en: "And necessarily he rejects R. Eliezer ben Yaakov.",
+        en: "Rashi: continues - who says there was no lottery for the fire-pan, and by necessity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-055",
@@ -62230,11 +62306,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 55,
         he: "כרחך לית ליה דר\"א בן יעקב דאם כן בצרי להו פייסות כדאמרינן לעיל והוצרך לו כהן מן הכבש למזבח ואני שמעתיה בלשונות",
-        en: "Otherwise there would be too few lottery rounds as discussed above.",
+        en: "Rashi: continues - he does not hold like Rabbi Eliezer ben Yaakov, for if so the lotteries would be reduced, as we said above, and he would need a priest from the ramp to the altar; and I have heard it explained in other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-056",
@@ -62242,11 +62320,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 56,
         he: "אחרות ואי אפשר להעמידה א] ואי שמעינן ליה דרבי יהודה לא היה פייס למחתה לא שמעינן ליה דאמר לא היה כהן למחתה אלא",
-        en: "And another view cannot be reconciled.",
+        en: "Rashi: continues - versions, but it is not possible to establish it that way; and if we hear him say that Rabbi Yehuda held there was no lottery for the fire-pan, we do not hear him say there was no priest at all for the fire-pan, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-057",
@@ -62254,11 +62334,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 57,
         he: "הרי הוא אומר כהן שזכה בקטורת אומר לזה שעומד אצלו זכה עמי במחתה אבל ר\"א בן יעקב שמעינן ליה דאמר לא היה כהן",
-        en: "R. Yehuda: kohen who won incense tells his neighbor to win the fire-pan with him.",
+        en: "Rashi: concludes - the text itself says: a priest who won the incense says to the one standing next to him, win with me in the fire-pan; but Rabbi Eliezer ben Yaakov we do hear him say there was no priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l31b"
+        ]
       },
       {
         id: "rashi-yoma-026b-058",
@@ -62266,11 +62348,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 58,
         he: "להעלות איברים מכבש למזבח אבל הן עצמם שהעלום לכבש היו מעלין למזבח: מתני' הבשר בחמשה. ככבש התמיד: הסולת.",
-        en: "But they themselves who carried the limbs up the ramp brought them to the altar.",
+        en: "Rashi: concludes - to bring the limbs up from the ramp to the altar, but that they themselves who brought them up to the ramp would bring them up to the altar. Then opens and closes 'mishna: the flesh by five' - like the ramp of the daily-offering. Then opens and closes 'the fine flour' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l32"
+        ]
       },
       {
         id: "rashi-yoma-026b-059",
@@ -62278,11 +62362,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 59,
         he: "שני עשרונים היה ושני כהנים: במה דברים אמורים. דבעינן כל הני כהנים לכל בהמה ובעינן פייס: אם רצה להקריב",
-        en: "Mishna: two tenth-ephahs and two kohanim.",
+        en: "Rashi: concludes - it was two tenth-ephahs and two priests. Then opens 'in what case is this said' - since we require all these priests for each animal, and we require a lottery. Then opens and closes 'if he wishes to sacrifice'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l39"
+        ]
       },
       {
         id: "rashi-yoma-026b-060",
@@ -62290,11 +62376,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 60,
         he: "כהן. יחיד את הכל ובלא פייס: הפשיטן וניתוחן. של ציבור ושל יחיד שוין להיות כשירין בזר והכי מפרש בגמרא:",
-        en: "When does this apply? For the communal offering requiring all these kohanim.",
+        en: "Rashi: concludes - it, a single priest may sacrifice it all, and without a lottery. Then opens and closes 'the flaying and the cutting up' - of communal and individual offerings are equal in being valid by a non-priest, and so it is explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l39"
+        ]
       },
       {
         id: "rashi-yoma-026b-061",
@@ -62302,11 +62390,13 @@ const DAF_CONTENT = {
         daf: "26b",
         vilnaLine: 61,
         he: "האי",
-        en: "A private individual does it all without a lottery.",
+        en: "Rashi: the daf's final truncated word - 'this,' continuing the dibbur hamatchil that opens Rashi's own comment on Hizkiya's proof from the verse about placing fire, whose text continues on 27a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026b-l41"
+        ]
       }
     ],
     review: {

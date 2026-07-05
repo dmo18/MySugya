@@ -26,340 +26,430 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Final resolution of the previous lottery discussion.",
+      "en": "Rashi: opens 'not according to Rabbi Eliezer ben Yaakov and not according to Rabbi Yehuda' - since it counts a lottery for the fire-pan, which is not",
       "linkedGemaraLineIds": [
         "yoma-026b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Mishna: Morning tamid - nine priests; each limb/task listed.",
+      "en": "Rashi: concludes - like Rabbi Yehuda, and a lottery for bringing the limbs from the ramp to the altar, which is not like Rabbi Eliezer ben Yaakov.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: opens and closes 'mishna: the daily-offering is sacrificed' - counted from the time the limbs are carried onward.",
       "linkedGemaraLineIds": [
         "yoma-026b-l02"
       ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Afternoon tamid - eleven priests; additional tasks listed.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l08"
-      ]
-    },
-    {
       "vilnaLine": 4,
-      "en": "R. Abba: on festivals wine libations were added - are water libations only for Sukkot?",
+      "en": "Rashi: opens 'itself' - every day by nine, five for the limbs and one for the entrails and one for the fine flour",
       "linkedGemaraLineIds": [
-        "yoma-026b-l12"
+        "yoma-026b-l02"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rav Ashi: the Tamid mishna's count confirms libations were added only on some days.",
+      "en": "Rashi: continues - and one for the fried cakes and one for the wine; but is not this",
       "linkedGemaraLineIds": [
-        "yoma-026b-l14"
+        "yoma-026b-l02"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "R. Shimon ben Yochai: source verse for the afternoon offering's requirement.",
+      "en": "Rashi: continues - Rabbi Eliezer ben Yaakov's own view, who holds there is no separate one for bringing up",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: concludes - from the ramp to the altar. Then opens 'on the festival' - since it requires two",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: concludes - libations, one of wine and one of water.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: opens and closes 'in whose hand' - one priest, one jug of water.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l02"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: opens 'in the afternoon' - since every day two are added to their hands",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - two logs of wood to add to the arrangement of",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - the pyre, and the Gemara derives this",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: continues - from a verse, that the afternoon-offering requires the daily-offering to have",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - two logs by two priests, but in the morning",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - it does not require the arrangement of two logs, only by one",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: concludes - priest, since it is written 'and the priest shall burn wood on it.'",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - Then opens and closes 'and on Shabbat that occurs within the festival, etc.' - that makes twelve.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l05"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: opens 'gemara: from where' - from the fact that it is taught",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - and on Shabbat, etc., implying that on the other days of the festival it does not",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - reach the requirement of twelve, and if you say",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - the water libation is also poured in the afternoon on the weekdays of",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - the entire festival, you would find twelve in the afternoon",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - service too: itself by nine and two in their hands",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: concludes - two logs and one in his hand a jug of water.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l10"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: opens 'and to the pourer of the water he says: raise your'",
       "linkedGemaraLineIds": [
         "yoma-026b-l15"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Gemara challenges: perhaps both verses refer only to the morning offering.",
+      "vilnaLine": 26,
+      "en": "Rashi: continues - hand. And it appears that he would empty the jug into",
       "linkedGemaraLineIds": [
-        "yoma-026b-l19"
+        "yoma-026b-l15"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "If the Torah had written 'and he shall burn wood on it' once, we might have thought only morning.",
+      "vilnaLine": 27,
+      "en": "Rashi: continues - a silver vessel on the altar that has",
       "linkedGemaraLineIds": [
-        "yoma-026b-l21"
+        "yoma-026b-l15"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "The extra 'on it in the morning' teaches the afternoon service too.",
+      "vilnaLine": 28,
+      "en": "Rashi: continues - a hole like a thin nostril through which the wine spurts",
       "linkedGemaraLineIds": [
-        "yoma-026b-l23"
+        "yoma-026b-l15"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "R. Chiyya: sometimes thirteen priests - explains what extra tasks required additional priests.",
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - and comes out, and that is the libation. Then opens 'that one time' -",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - he poured it on his feet. He did not empty the jug",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - into the vessel but rather poured the water on his feet, because",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: concludes - he was a Sadducee and did not accept the water libation.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: opens 'with their etrogim' - why did it need to teach 'with their etrogim,'",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - if not to teach us that the water libation",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: concludes - is only at the time of taking the lulav.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l15"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: opens 'and say let us do it once' - one priest",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continues - would arrange the two logs in the morning, as it is written 'and the priest shall burn wood on it'",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: continues - and let us do it twice, meaning afterward two priests would bring",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: continues - two priests to make their two logs again",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: concludes - in the morning, as it is written 'and they shall lay out,' twice.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: opens and closes 'and he shall burn, and they shall burn' - he should write both in the same",
       "linkedGemaraLineIds": [
         "yoma-026b-l28"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Contradiction with baraita that says sometimes fourteen.",
+      "vilnaLine": 42,
+      "en": "Rashi: concludes - language. Then opens and closes 'sometimes thirteen' - priests occupied",
       "linkedGemaraLineIds": [
         "yoma-026b-l30"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Resolution: baraita of 14 is not according to R. Eliezer ben Yaakov.",
+      "vilnaLine": 43,
+      "en": "Rashi: continues - in the daily-offering's service, as our mishna teaches,",
       "linkedGemaraLineIds": [
-        "yoma-026b-l31"
+        "yoma-026b-l30"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Mishna: communal ram burnt-offering - eleven priests.",
+      "vilnaLine": 44,
+      "en": "Rashi: concludes - in the second lottery thirteen priests win it.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l30"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: opens and closes 'sometimes fourteen' - on the festival, an added one with a jug",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l30"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: concludes - of water. Then opens and closes 'sometimes fifteen' - on Shabbat.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l30"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: opens 'sometimes sixteen' - on the Shabbat within",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l30"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: concludes - the festival. Then opens 'this is the correct text: but was it not taught seventeen' -",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31a"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: opens 'that is not according to Rabbi Eliezer ben Yaakov but according to Rabbi'",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: continues - Yehuda. That tanna holds there is an additional",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: continues - priest who brings the limbs up from",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: continues - the ramp to the altar, and so there are seventeen, not",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: continues - like Rabbi Eliezer ben Yaakov but like Rabbi Yehuda,",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continues - who says there was no lottery for the fire-pan, and by necessity",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: continues - he does not hold like Rabbi Eliezer ben Yaakov, for if so the lotteries would be reduced, as we said above, and he would need a priest from the ramp to the altar; and I have heard it explained in other",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: continues - versions, but it is not possible to establish it that way; and if we hear him say that Rabbi Yehuda held there was no lottery for the fire-pan, we do not hear him say there was no priest at all for the fire-pan, but rather",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: concludes - the text itself says: a priest who won the incense says to the one standing next to him, win with me in the fire-pan; but Rabbi Eliezer ben Yaakov we do hear him say there was no priest",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l31b"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "Rashi: concludes - to bring the limbs up from the ramp to the altar, but that they themselves who brought them up to the ramp would bring them up to the altar. Then opens and closes 'mishna: the flesh by five' - like the ramp of the daily-offering. Then opens and closes 'the fine flour' -",
       "linkedGemaraLineIds": [
         "yoma-026b-l32"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "Different distribution for communal ram vs tamid.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Gemara: individual and communal offerings are equal for flaying and cutting.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Hizkiya's source for this equality.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l41"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "On Shabbat within Sukkot etc. - that makes twelve.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Gemara: from what? Since it teaches 'and on Shabbat' etc.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "By inference the rest of the Sukkot days do not require twelve.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "If you say they also do water libations on the regular days of Sukkot.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "You could find twelve on any afternoon of Sukkot.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Afternoon alone would yield twelve.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Nine plus two carrying logs plus one carrying water flask.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "And to the water libator he says 'raise your hand.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "To show that he is pouring the flask into the silver bowl on the altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Which has a thin spout-like opening through which the wine flows.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "And it is the libation bowl.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The bowl has a thin spout.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "On one occasion he poured it on his feet - did not pour into the bowl.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "A Sadducee who did not believe in water libation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "He poured it on his feet out of Sadducean rejection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The people pelted him with their etrogim.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Why mention 'with their etrogim' - to teach.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Water libation only applies during lulav-taking days.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Why not just do it from one kohen arranging two logs in the morning.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "As written 'and the kohen shall kindle on it' - one kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Then bring two additional kohanim for the extra logs.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Then again in the morning as written 'and they shall arrange wood.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Why does the Torah write both 'and he shall kindle' and 'and they shall arrange'?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Because it requires both singular and plural.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The Torah should have used the same form for both.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Thirteen kohanim are busy with the tamid service as counted in the Mishna.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "In the second lottery, thirteen kohanim win it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Fourteen on Sukkot - one holds the water flask.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Fifteen on Shabbat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Sixteen on Shabbat of Sukkot.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "The correct text reads: seventeen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "That is not following R. Eliezer ben Yaakov but rather R. Yehuda.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "That tanna counts an additional kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "One additional kohen to bring limbs from ramp to altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Making seventeen, not following R. Eliezer ben Yaakov.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "But following R. Yehuda.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Who says there was no lottery for the fire-pan.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "And necessarily he rejects R. Eliezer ben Yaakov.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Otherwise there would be too few lottery rounds as discussed above.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "And another view cannot be reconciled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "R. Yehuda: kohen who won incense tells his neighbor to win the fire-pan with him.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "But they themselves who carried the limbs up the ramp brought them to the altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 59,
-      "en": "Mishna: two tenth-ephahs and two kohanim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - it was two tenth-ephahs and two priests. Then opens 'in what case is this said' - since we require all these priests for each animal, and we require a lottery. Then opens and closes 'if he wishes to sacrifice'",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l39"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "When does this apply? For the communal offering requiring all these kohanim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - it, a single priest may sacrifice it all, and without a lottery. Then opens and closes 'the flaying and the cutting up' - of communal and individual offerings are equal in being valid by a non-priest, and so it is explained in the Gemara.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l39"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "A private individual does it all without a lottery.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'this,' continuing the dibbur hamatchil that opens Rashi's own comment on Hizkiya's proof from the verse about placing fire, whose text continues on 27a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-026b-l41"
+      ]
     }
   ],
   "sugyot": [
