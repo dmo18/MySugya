@@ -21,245 +21,311 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Brief transitional text connecting the previous discussion.",
+      "en": "Rashi: opens 'you must say this is the lamb' - the morning daily-offering, which the verse requires a new",
       "linkedGemaraLineIds": [
-        "yoma-027b-l01"
+        "yoma-027b-l01a"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "R. Asi citing R. Yochanan: non-priest who sets up wood arrangement is liable to death.",
+      "en": "Rashi: continues - woodpile for every morning, and the altar's fire shall burn on it, and this burning is the arranging of",
       "linkedGemaraLineIds": [
-        "yoma-027b-l02"
+        "yoma-027b-l01a"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Zeira's objection: is there any service valid when performed by a non-priest that also incurs the death penalty?",
+      "en": "Rashi: continues - the woodpile itself, as it is taught further on in chapter 3: and the priest shall burn wood on it in the morning",
       "linkedGemaraLineIds": [
-        "yoma-027b-l03"
+        "yoma-027b-l01a"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Wonder: is there no service valid when done by a non-priest but punishable?",
+      "en": "Rashi: continues - and arrange the burnt-offering on it, and the master said: the burnt-offering is the first offering, but the other offerings",
       "linkedGemaraLineIds": [
-        "yoma-027b-l04"
+        "yoma-027b-l01a"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Ash removal at night is valid but done without priestly garments - different category.",
+      "en": "Rashi: continues - were not the ones requiring the renewal of the woodpile, and this wood",
       "linkedGemaraLineIds": [
-        "yoma-027b-l05"
+        "yoma-027b-l01a"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Revision of R. Yochanan's ruling: the service is valid when done by a non-priest, but the non-priest has transgressed.",
+      "en": "Rashi: continues - and fire that are written regarding the young bull are not there to require",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues - its own arranging, but rather because the passage of",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - the arranging of the woodpile, written in 'command Aaron,' had not yet been stated,",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - and here it began to speak of the needs of the burnt-offering, and needed to say",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - how it should be given, so it wrote for us here 'and they shall place fire",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - and they shall arrange wood,' referring to the morning's own arranging of the woodpile",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - that it refers to.",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01a"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: opens 'liable' - death; 'he dismantles it' - the non-priest",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01b"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - need not have a priest undo his arranging, but rather",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l01b"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: concludes - the non-priest himself. Then opens and closes 'but isn't there the limbs and the fats' -",
       "linkedGemaraLineIds": [
         "yoma-027b-l06"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Another difficulty: daytime service by non-priest - is there a daytime service that is valid but incurs the penalty?",
+      "vilnaLine": 16,
+      "en": "Rashi: continues - the burning of the fats, which lasts the whole night,",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - and we already counted it above (24a) among the four services",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l06"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - for which a non-priest is liable to death. Then opens and closes 'but isn't there'",
       "linkedGemaraLineIds": [
         "yoma-027b-l07"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "Further difficulty: complete service by non-priest - is there such a case where it's both complete and punishable?",
+      "vilnaLine": 19,
+      "en": "Rashi: concludes - the removal of the ashes,' since priesthood is written for it. Then opens 'if so it remains difficult' -",
       "linkedGemaraLineIds": [
-        "yoma-027b-l08"
+        "yoma-027b-l07"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Mar Zutra asks: what exactly does R. Yochanan's ruling cover?",
+      "vilnaLine": 20,
+      "en": "Rashi: opens and closes 'and do you have any service that is valid",
       "linkedGemaraLineIds": [
-        "yoma-027b-l09"
+        "yoma-027b-l04"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Response: the mishna mentions slaughter because that is the natural starting point, not because slaughter is the subject of the dispute.",
+      "vilnaLine": 21,
+      "en": "Rashi: opens and closes 'at night and invalid by a non-priest: and it is a daytime service' -",
       "linkedGemaraLineIds": [
         "yoma-027b-l10"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Alternative version of R. Zeira's objection about non-priest wood arrangement.",
+      "vilnaLine": 22,
+      "en": "Rashi: continues - since it is written: and the priest shall burn wood on it",
       "linkedGemaraLineIds": [
-        "yoma-027b-l11"
+        "yoma-027b-l10"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "It wrote here 'they shall place fire' concerning the morning wood arrangement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Death penalty applies; 'dismantle it' - a non-kohen need not dismantle it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "A non-kohen can dismantle it without violating anything.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "But limbs and fat - the burning of them lasts all night.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "We categorized them above (24a) as one of the four services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "That a non-kohen is liable to death for performing.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "And the removal of ash - written with kohen requirement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "It is a difficulty. Is there really a service valid only by night but invalid for a non-kohen?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rather it is a daytime service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "As written 'and the kohen shall kindle wood on it in the morning, in the morning.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "'In the morning' indicates it is a daytime service.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 23,
-      "en": "If so - since it is so significant as a daytime service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in the morning, morning. Then opens 'if so' -",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l10"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "And a non-kohen is liable for it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - that it is important enough to be a daytime service and a non-priest is liable for it.",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l10"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "It implies a daytime service requires a lottery.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'is that to say that a daytime' -",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l16"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "Since Rava objected 'if so it requires a lottery.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - service requires a lottery. Since Rava strongly objected: if so",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l16"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Implying this service should require one.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - it should require a lottery, by inference this",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l16"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "But we do not teach that the wood arrangement requires a lottery.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - service does require a lottery. Then opens and closes 'but didn't we learn' -",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l23"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Since it is not a daytime service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - that the arranging of the two logs is itself a daytime service.",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l23"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "If the time of slaughter arrives - if dawn has broken.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'if the time for slaughtering has arrived' - if the east",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l23"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Time to slaughter the tamid, since slaughter is invalid at night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - has lit up, and it is time to slaughter the daily-offerings,",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l23"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "As written (Lev. 19) 'on the day of your sacrifice.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - since slaughtering is invalid at night, as it is written",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l23"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "There is no remedy - if it was slaughtered at night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens '(Leviticus 19): on the day of your slaughtering. Then opens 'that which has no'",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "There is a remedy - if the logs were arranged at night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - rectification - if it was slaughtered at night. Then opens 'that which has'",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "They can be dismantled and re-arranged by day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - rectification - if they arranged it at night, they may dismantle it",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Therefore the Sages did not trouble the men to go up to the roof.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and rearrange it during the day; therefore they did not trouble",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "And check - since once was enough.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the priests to go up to the roof and see if it had arrived, for that",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "One time moonlight caused them to think dawn broke.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - trouble they did not impose except because once",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "And they slaughtered the tamid as recounted in chapter three.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the moonlight rose and they thought the east had lit up",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "But if wood was arranged by moonlight there is a remedy.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and they slaughtered the daily-offering, as is taught in chapter 3",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Since the arrangement stays on the Temple floor until dawn; if they erred with moonlight it matters not.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (28a); but one who arranged the logs, his arranging is on the courtyard ground once the east has lit up,",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l26"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Since there is a remedy.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and if he erred by the moonlight it does not matter to them, since there is a remedy for it. Then opens 'that has'",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l28"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "An avodah follows it - the wood arrangement is followed by the limb arrangement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - after it - the arranging of a service, the arranging of the two logs, and it is invalid by a non-priest to the point of being liable to death.",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l28"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "It is invalid for a non-kohen making one liable to death.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'but isn't there,' continuing the dibbur hamatchil that opens the Gemara's own next challenge to the second version of Rabbi Zeira's objection, whose text continues on 28a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-027b-l28"
+      ]
     }
   ],
   "sugyot": [

@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.23: schema backfill is complete, the perek-level semantic
+As of VERSION 15.24: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2859,6 +2859,89 @@ resolved, 53/53, with every entry's `en` text and linkedGemaraLineIds
 now verified against the raw Rashi Hebrew and the real captured line
 ids, correcting both the 5 confirmed dangling links and the
 surrounding entries that had not been independently checked before.
+
+## 27b, full daf (VERSION 15.24), second dangling-link daf in a row
+
+Continuing the resumed run. Before any edit, the 27a/27b boundary was
+re-verified read-only: 27a's truncated final word "הוי" (is) is
+completed by 27b's opening "הוי אומר זה טלה" in both the Gemara and
+Rashi columns, continuing Rav Hamnuna's resolution of the six-priests
+derivation cleanly. No edit was made to 27a. The mandatory preflight
+raw-count check was run first: talmud.dev's non-empty raw Rashi array
+for 27b has 44 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 44 entries, an exact match on count.
+
+However, following the practice adopted after 27a's discovery, every
+existing `linkedGemaraLineIds` value was independently checked
+against the daf's real captured Gemara line ids before trusting the
+count match, since a dangling link does not always show up as a raw
+count mismatch. 27b's real ids are `l01a`, `l01b`, `l04`, `l06`,
+`l07`, `l10`, `l16`, `l20`, `l23`, `l26`, `l28` (11 total, spanning 30
+raw Gemara print lines; `l01a` and `l01b` both carry `vilna_line: 1`
+since two distinct Gemara statements share the daf's first raw print
+line, the same lettered-pair convention seen at 26a's `l11a`/`l11b`
+and 26b's `l31a`/`l31b`). Checking every prior entry against this set
+found 7 dangling references to ids that do not exist anywhere in
+`learning_data.js` for this daf: vilnaLine 1 to a nonexistent `l01`,
+vilnaLine 2 to `l02`, vilnaLine 3 to `l03`, vilnaLine 5 to `l05`,
+vilnaLine 8 to `l08`, vilnaLine 9 to `l09`, and vilnaLine 11 to `l11`.
+This is the same failure mode found on 27a (not the generic
+descriptive-style placeholder pattern), now confirmed on a second
+consecutive daf, so the whole daf was rebuilt using the list-indexed
+methodology rather than patching only the confirmed-dangling entries.
+
+All 44 raw Rashi print lines were read against the raw Gemara text
+and the 11 real captured line ids, using the multi-DH rule. One
+transcription slip mid-draft, where two raw lines' content was
+merged into a single list entry at the `l01a`/`l01b` boundary
+(dropping the total to 43 and shifting every id after that point by
+one), was caught by the script's own length assertion and by a
+per-target-id count check before any file was written; the merged
+entry was split back into its two original lines and the full list
+re-verified index by index before applying. The correspondence:
+vilnaLine 1-12 (you must say this is the lamb, why the young bull's
+own wood and fire verses do not require a fresh arranging) to
+`l01a`; 13-14 (liable, the non-priest dismantles it) to `l01b`; 15-17
+(but isn't there the limbs and the fats, already counted among the
+four services) to `l06`; 18-19 (but isn't there the removal of the
+ashes) to `l07`; 20 (and do you have any service valid at night and
+invalid by a non-priest, recapping Rabbi Zeira's own objection out of
+strict Gemara-linear order once the surrounding exchange resolves) to
+`l04`; 21-24 (it is a daytime service, since it is written: and the
+priest shall burn wood on it in the morning) to `l10`; 25-27 (is that
+to say a daytime service requires a lottery) to `l16`; 28-32 (but
+didn't we learn, if the time for slaughtering has arrived) to `l23`;
+33-41 (on the day of your slaughtering, that which has no
+rectification, that which has rectification) to `l26`; 42-43 (that
+has after it, the arranging of a service) to `l28`. `l20` (a
+near-duplicate variant of `l16`'s own "is that to say a daytime
+service" challenge, adding the death-penalty element, absorbed into
+the same comment anchored to `l16`) has no dedicated vilnaLine of its
+own in this daf's column, the same established folding pattern seen
+throughout this run. As with 27a's vl30-38 and 26b's vl10-17 and
+vl36-40, vilnaLine 20's placement (positioned after the `l06`/`l07`
+exchange resolves rather than immediately after `l04` itself) was a
+positional-anchoring judgment call rather than a strict linear match,
+consistent with the established boundary policy.
+
+vilnaLine 44, the daf's final truncated word "והרי" (but isn't
+there), is the same kind of boundary case as every other daf ending
+in this run: per the policy, it is linked to `yoma-027b-l28`, 27b's
+own final locally captured Gemara line (the second version of Rabbi
+Zeira's objection, that a service followed by another service should
+not be invalid for a non-priest), even though the DH's own point is
+itself still open at the point of truncation, continuing onto 28a.
+
+All 44 entries were fixed in a single list-indexed pass. 27b is fully
+resolved, 44/44, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 7 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
+Combined with 27a, this closes out a second consecutive dangling-link
+daf; both are documented here as a distinct systemic finding from the
+generic-stub pattern that dominated 21a through 26b, worth checking
+for specifically (independently of the raw-count preflight) on every
+remaining daf in this run.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

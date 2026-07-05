@@ -63708,12 +63708,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 1,
         he: "הוי אומר זה טלה. תמיד של שחר הזקיקך הכתוב בו למערכת עצים",
-        en: "Brief transitional text connecting the previous discussion.",
+        en: "Rashi: opens 'you must say this is the lamb' - the morning daily-offering, which the verse requires a new",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l01"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63722,12 +63722,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 2,
         he: "חדשה בכל בקר ואש על המזבח תוקד בו והך מוקדה סידור",
-        en: "R. Asi citing R. Yochanan: non-priest who sets up wood arrangement is liable to death.",
+        en: "Rashi: continues - woodpile for every morning, and the altar's fire shall burn on it, and this burning is the arranging of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l02"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63736,12 +63736,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 3,
         he: "המערכה היא כדתניא לקמן בפ\"ג ובער עליה הכהן עצים בבקר",
-        en: "R. Zeira's objection: is there any service valid when performed by a non-priest that also incurs the death penalty?",
+        en: "Rashi: continues - the woodpile itself, as it is taught further on in chapter 3: and the priest shall burn wood on it in the morning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l03"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63750,12 +63750,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 4,
         he: "וערך עליה העולה ואמר מר העולה עולה ראשונה אבל שאר קרבנות",
-        en: "Wonder: is there no service valid when done by a non-priest but punishable?",
+        en: "Rashi: continues - and arrange the burnt-offering on it, and the master said: the burnt-offering is the first offering, but the other offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l04"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63764,12 +63764,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 5,
         he: "לא הוזקקו לחידוש מערכה והנך עצים",
-        en: "Ash removal at night is valid but done without priestly garments - different category.",
+        en: "Rashi: continues - were not the ones requiring the renewal of the woodpile, and this wood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l05"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63778,12 +63778,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 6,
         he: "ואש דכתיבי בבן בקר לאו לאצרוכי",
-        en: "Revision of R. Yochanan's ruling: the service is valid when done by a non-priest, but the non-priest has transgressed.",
+        en: "Rashi: continues - and fire that are written regarding the young bull are not there to require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l06"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63792,12 +63792,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 7,
         he: "סידרי עצמו אלא משום דעדיין לא",
-        en: "Another difficulty: daytime service by non-priest - is there a daytime service that is valid but incurs the penalty?",
+        en: "Rashi: continues - its own arranging, but rather because the passage of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l07"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63806,12 +63806,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 8,
         he: "נאמרה פרשת סידור המערכה",
-        en: "Further difficulty: complete service by non-priest - is there such a case where it's both complete and punishable?",
+        en: "Rashi: continues - the arranging of the woodpile, written in 'command Aaron,' had not yet been stated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l08"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63820,12 +63820,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 9,
         he: "הכתובה בצו את אהרן וכאן התחיל",
-        en: "Mar Zutra asks: what exactly does R. Yochanan's ruling cover?",
+        en: "Rashi: continues - and here it began to speak of the needs of the burnt-offering, and needed to say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l09"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63834,12 +63834,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 10,
         he: "לדבר בצרכי עולה והוצרך לומר",
-        en: "Response: the mishna mentions slaughter because that is the natural starting point, not because slaughter is the subject of the dispute.",
+        en: "Rashi: continues - how it should be given, so it wrote for us here 'and they shall place fire",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l10"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63848,12 +63848,12 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 11,
         he: "האיך תינתן כתב לן כאן ונתנו אש",
-        en: "Alternative version of R. Zeira's objection about non-priest wood arrangement.",
+        en: "Rashi: continues - and they shall arrange wood,' referring to the morning's own arranging of the woodpile",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027b-l11"
+          "yoma-027b-l01a"
         ]
       },
       {
@@ -63862,11 +63862,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 12,
         he: "וערכו עצים דאסידור מערכה דשחרית",
-        en: "It wrote here 'they shall place fire' concerning the morning wood arrangement.",
+        en: "Rashi: concludes - that it refers to.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-027b-013",
@@ -63874,11 +63876,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 13,
         he: "קאי: חייב. מיתה: פורקה. הזר",
-        en: "Death penalty applies; 'dismantle it' - a non-kohen need not dismantle it.",
+        en: "Rashi: opens 'liable' - death; 'he dismantles it' - the non-priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-027b-014",
@@ -63886,11 +63890,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 14,
         he: "אין צריך כהן לסתור סידורה אלא",
-        en: "A non-kohen can dismantle it without violating anything.",
+        en: "Rashi: continues - need not have a priest undo his arranging, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-027b-015",
@@ -63898,11 +63904,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 15,
         he: "הזר בעצמו: והרי אברים ופדרים.",
-        en: "But limbs and fat - the burning of them lasts all night.",
+        en: "Rashi: concludes - the non-priest himself. Then opens and closes 'but isn't there the limbs and the fats' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l06"
+        ]
       },
       {
         id: "rashi-yoma-027b-016",
@@ -63910,11 +63918,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 16,
         he: "הקטר חלבים שהוא כל הלילה",
-        en: "We categorized them above (24a) as one of the four services.",
+        en: "Rashi: continues - the burning of the fats, which lasts the whole night,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l06"
+        ]
       },
       {
         id: "rashi-yoma-027b-017",
@@ -63922,11 +63932,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 17,
         he: "ושווינהו לעיל [כד.] מארבע עבודות",
-        en: "That a non-kohen is liable to death for performing.",
+        en: "Rashi: concludes - and we already counted it above (24a) among the four services",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l06"
+        ]
       },
       {
         id: "rashi-yoma-027b-018",
@@ -63934,11 +63946,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 18,
         he: "שהזר חייב עליהן מיתה: והרי",
-        en: "And the removal of ash - written with kohen requirement.",
+        en: "Rashi: continues - for which a non-priest is liable to death. Then opens and closes 'but isn't there'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l07"
+        ]
       },
       {
         id: "rashi-yoma-027b-019",
@@ -63946,11 +63960,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 19,
         he: "תרומת הדשן. דכתיב כהונה: אלא",
-        en: "It is a difficulty. Is there really a service valid only by night but invalid for a non-kohen?",
+        en: "Rashi: concludes - the removal of the ashes,' since priesthood is written for it. Then opens 'if so it remains difficult' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l07"
+        ]
       },
       {
         id: "rashi-yoma-027b-020",
@@ -63958,11 +63974,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 20,
         he: "קשיא. וכי יש לך עבודה שכשירה",
-        en: "Rather it is a daytime service.",
+        en: "Rashi: opens and closes 'and do you have any service that is valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l04"
+        ]
       },
       {
         id: "rashi-yoma-027b-021",
@@ -63970,11 +63988,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 21,
         he: "בלילה שפסולה בזר: ועבודת יום",
-        en: "As written 'and the kohen shall kindle wood on it in the morning, in the morning.'",
+        en: "Rashi: opens and closes 'at night and invalid by a non-priest: and it is a daytime service' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l10"
+        ]
       },
       {
         id: "rashi-yoma-027b-022",
@@ -63982,11 +64002,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 22,
         he: "היא. דכתיב ובער עליה הכהן",
-        en: "'In the morning' indicates it is a daytime service.",
+        en: "Rashi: continues - since it is written: and the priest shall burn wood on it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l10"
+        ]
       },
       {
         id: "rashi-yoma-027b-023",
@@ -63994,11 +64016,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 23,
         he: "עצים בבקר בבקר: אלא מעתה.",
-        en: "If so - since it is so significant as a daytime service.",
+        en: "Rashi: continues - in the morning, morning. Then opens 'if so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l10"
+        ]
       },
       {
         id: "rashi-yoma-027b-024",
@@ -64006,11 +64030,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 24,
         he: "דחשיבא כולי האי שהיא עבודת יום",
-        en: "And a non-kohen is liable for it.",
+        en: "Rashi: concludes - that it is important enough to be a daytime service and a non-priest is liable for it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l10"
+        ]
       },
       {
         id: "rashi-yoma-027b-025",
@@ -64018,11 +64044,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 25,
         he: "וזר חייב עליה: למימרא דעבודת",
-        en: "It implies a daytime service requires a lottery.",
+        en: "Rashi: opens 'is that to say that a daytime' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l16"
+        ]
       },
       {
         id: "rashi-yoma-027b-026",
@@ -64030,11 +64058,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 26,
         he: "יום בעי פייס. מדאתקיף רבא אלא",
-        en: "Since Rava objected 'if so it requires a lottery.'",
+        en: "Rashi: continues - service requires a lottery. Since Rava strongly objected: if so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l16"
+        ]
       },
       {
         id: "rashi-yoma-027b-027",
@@ -64042,11 +64072,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 27,
         he: "מעתה תבעי פייס מכלל הך",
-        en: "Implying this service should require one.",
+        en: "Rashi: concludes - it should require a lottery, by inference this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l16"
+        ]
       },
       {
         id: "rashi-yoma-027b-028",
@@ -64054,11 +64086,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 28,
         he: "עבודה היא בעיא: והא אנן לא תנן.",
-        en: "But we do not teach that the wood arrangement requires a lottery.",
+        en: "Rashi: concludes - service does require a lottery. Then opens and closes 'but didn't we learn' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l23"
+        ]
       },
       {
         id: "rashi-yoma-027b-029",
@@ -64066,11 +64100,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 29,
         he: "שיהא סידור שני גזירין עבודת יום:",
-        en: "Since it is not a daytime service.",
+        en: "Rashi: concludes - that the arranging of the two logs is itself a daytime service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l23"
+        ]
       },
       {
         id: "rashi-yoma-027b-030",
@@ -64078,11 +64114,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 30,
         he: "אם הגיע זמן השחיטה. אם האיר",
-        en: "If the time of slaughter arrives - if dawn has broken.",
+        en: "Rashi: opens 'if the time for slaughtering has arrived' - if the east",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l23"
+        ]
       },
       {
         id: "rashi-yoma-027b-031",
@@ -64090,11 +64128,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 31,
         he: "המזרח ועת לשחוט את התמידין",
-        en: "Time to slaughter the tamid, since slaughter is invalid at night.",
+        en: "Rashi: continues - has lit up, and it is time to slaughter the daily-offerings,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l23"
+        ]
       },
       {
         id: "rashi-yoma-027b-032",
@@ -64102,11 +64142,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 32,
         he: "שהשחיטה פסולה בלילה דכתיב",
-        en: "As written (Lev. 19) 'on the day of your sacrifice.'",
+        en: "Rashi: concludes - since slaughtering is invalid at night, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l23"
+        ]
       },
       {
         id: "rashi-yoma-027b-033",
@@ -64114,11 +64156,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 33,
         he: "(ויקרא יט) ביום זבחכם: דלית ליה",
-        en: "There is no remedy - if it was slaughtered at night.",
+        en: "Rashi: opens '(Leviticus 19): on the day of your slaughtering. Then opens 'that which has no'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-034",
@@ -64126,11 +64170,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 34,
         he: "תקנתא. אם נשחט בלילה: דאית",
-        en: "There is a remedy - if the logs were arranged at night.",
+        en: "Rashi: continues - rectification - if it was slaughtered at night. Then opens 'that which has'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-035",
@@ -64138,11 +64184,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 35,
         he: "ליה תקנתא. אם סידרן בלילה פורקן",
-        en: "They can be dismantled and re-arranged by day.",
+        en: "Rashi: continues - rectification - if they arranged it at night, they may dismantle it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-036",
@@ -64150,11 +64198,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 36,
         he: "וחוזר וסודרן ביום לכך לא הטריחו",
-        en: "Therefore the Sages did not trouble the men to go up to the roof.",
+        en: "Rashi: continues - and rearrange it during the day; therefore they did not trouble",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-037",
@@ -64162,11 +64212,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 37,
         he: "לעלות לגג ולראות אם הגיע שאותו",
-        en: "And check - since once was enough.",
+        en: "Rashi: continues - the priests to go up to the roof and see if it had arrived, for that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-038",
@@ -64174,11 +64226,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 38,
         he: "הטורח לא הטריחו אלא שבפעם אחת",
-        en: "One time moonlight caused them to think dawn broke.",
+        en: "Rashi: continues - trouble they did not impose except because once",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-039",
@@ -64186,11 +64240,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 39,
         he: "עלה מאור הלבנה ודימו שהאיר המזרח",
-        en: "And they slaughtered the tamid as recounted in chapter three.",
+        en: "Rashi: continues - the moonlight rose and they thought the east had lit up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-040",
@@ -64198,11 +64254,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 40,
         he: "ושחטו את התמיד כדקתני לה בפ\"ג",
-        en: "But if wood was arranged by moonlight there is a remedy.",
+        en: "Rashi: continues - and they slaughtered the daily-offering, as is taught in chapter 3",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-041",
@@ -64210,11 +64268,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 41,
         he: "[דף כח.] אבל סידר גזירין סידורו בקרקע עזרה משהאיר המזרח",
-        en: "Since the arrangement stays on the Temple floor until dawn; if they erred with moonlight it matters not.",
+        en: "Rashi: continues - (28a); but one who arranged the logs, his arranging is on the courtyard ground once the east has lit up,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l26"
+        ]
       },
       {
         id: "rashi-yoma-027b-042",
@@ -64222,11 +64282,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 42,
         he: "ואם טעה במאור הלבנה לא איכפת להו שהרי יש תקנה בדבר: שיש",
-        en: "Since there is a remedy.",
+        en: "Rashi: concludes - and if he erred by the moonlight it does not matter to them, since there is a remedy for it. Then opens 'that has'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l28"
+        ]
       },
       {
         id: "rashi-yoma-027b-043",
@@ -64234,11 +64296,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 43,
         he: "אחריה. סידור עבודה סידור שני גזירין ופסולה בזר להתחייב מיתה:",
-        en: "An avodah follows it - the wood arrangement is followed by the limb arrangement.",
+        en: "Rashi: continues - after it - the arranging of a service, the arranging of the two logs, and it is invalid by a non-priest to the point of being liable to death.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l28"
+        ]
       },
       {
         id: "rashi-yoma-027b-044",
@@ -64246,11 +64310,13 @@ const DAF_CONTENT = {
         daf: "27b",
         vilnaLine: 44,
         he: "והרי",
-        en: "It is invalid for a non-kohen making one liable to death.",
+        en: "Rashi: the daf's final truncated word - 'but isn't there,' continuing the dibbur hamatchil that opens the Gemara's own next challenge to the second version of Rabbi Zeira's objection, whose text continues on 28a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027b-l28"
+        ]
       }
     ],
     review: {
