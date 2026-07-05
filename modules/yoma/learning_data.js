@@ -51919,7 +51919,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 1,
         he: "או דילמא. לסמיכת רצפת תחתונה דמזבח נקיט להו לבד מיסוד",
-        en: "The ramp height calculation: 30+1+1=32 amot.",
+        en: "Rashi: opens 'or perhaps' - he took them relative to the lower pavement adjacent to the altar, excluding the base",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51933,7 +51933,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 2,
         he: "וסובב שהוא שש קודם לסמיכת גגו: ונימנינהו לדידהו. לגלגלותם:",
-        en: "Four lotteries were held: the mishna describes them.",
+        en: "Rashi: concludes - and the ledge, which is six before reaching the level of its roof. Then opens and closes 'let them count themselves' - by their own heads.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51947,7 +51947,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 3,
         he: "בבזק. לשון שברי חרסים נטל כל אחד ואחד חרס והשליך לפניו",
-        en: "Commentary on the first lottery for ash removal.",
+        en: "Rashi: opens 'in Bezek' - a term for broken shards; each one took a shard and cast it before him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51961,7 +51961,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 4,
         he: "ומנו החרסים: ויפקדם בטלאים. צום לקחת כל אחד טלה מצאן",
-        en: "Commentary on the second lottery's 13 positions.",
+        en: "Rashi: concludes - and they counted the shards. Then opens 'and he counted them with lambs' - he commanded each one to take a lamb from the flock of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51975,7 +51975,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 5,
         he: "המלך ובאו למרחב ונמנו הטלאים:",
-        en: "Commentary on the morning service sequence.",
+        en: "Rashi: concludes - the king, and they came to Marchav, and the lambs were counted.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51989,12 +51989,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 6,
         he: "כתיב והיה מספר בני ישראל כחול",
-        en: "Commentary on the thirteen service positions.",
+        en: "Rashi: it is written 'and the number of the children of Israel shall be like the sand'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l07"
+          "yoma-022b-l14"
         ]
       },
       {
@@ -52003,12 +52003,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 7,
         he: "הים. אלמא אית להו מנין: כמה לא",
-        en: "Third lottery: the incense, for those who had not done it before.",
+        en: "Rashi: concludes - of the sea, implying they do have a count. Then opens 'how [secure]'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l10"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52017,12 +52017,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 8,
         he: "חלי ולא מרגיש גברא דמרא סייעיה.",
-        en: "Commentary on the first-timer rule for incense.",
+        en: "Rashi: continues DH - one does not fall ill nor take notice, a person whose Master assists him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l10"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52031,12 +52031,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 9,
         he: "כמה סמוך ומובטח ואין צריך לחלות",
-        en: "Commentary on the wealth associated with incense.",
+        en: "Rashi: continues - how secure and assured he is, with no need to fall ill",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l14"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52045,12 +52045,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 10,
         he: "ולדאג מכל רעה מי שהקב\"ה בעזרו",
-        en: "One who burned incense never became poor.",
+        en: "Rashi: continues - or worry over any harm, one whom the Holy One assists,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l14"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52059,12 +52059,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 11,
         he: "שהרי מצינו שאול נכשל באחת",
-        en: "Commentary on the scent clinging to the priest.",
+        en: "Rashi: continues - for we find that Saul stumbled in one sin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l14"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52073,12 +52073,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 12,
         he: "ועלתה לו לרעה לקונסו מיתה לבטל",
-        en: "Fourth lottery: carrying limbs to the altar.",
+        en: "Rashi: continues - and it was held against him for ill, to penalize him with death, to annul",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l17"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52087,12 +52087,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 13,
         he: "מלכותו ודוד נכשל בשתים ולא עלתה",
-        en: "Commentary on the fourth lottery participants.",
+        en: "Rashi: continues - his kingship, while David stumbled in two sins and it was not held against him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l17"
+          "yoma-022b-l31"
         ]
       },
       {
@@ -52101,12 +52101,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 14,
         he: "לו לרעה: דאוריה ודהסתה. שהוסת",
-        en: "Commentary on the lottery counting procedure.",
+        en: "Rashi: concludes - for ill. Then opens 'of Uriah and of the incitement' - that he was incited",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l21"
+          "yoma-022b-l34a"
         ]
       },
       {
@@ -52115,12 +52115,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 15,
         he: "למנות את ישראל בסוף ימיו וגרם",
-        en: "Counting by extended fingers; officer names the number.",
+        en: "Rashi: continues - to count Israel in his later days, and it caused",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l21"
+          "yoma-022b-l34a"
         ]
       },
       {
@@ -52129,12 +52129,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 16,
         he: "לבא עליהם דבר: דבת שבע. שבא",
-        en: "Commentary on the lottery as fair selection.",
+        en: "Rashi: concludes - harm to come upon them. Then opens 'of Bat Sheva' - whom he came upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l21"
+          "yoma-022b-l34b"
         ]
       },
       {
@@ -52143,189 +52143,7 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 17,
         he: "עליה: ילד. בנה הראשון: לשון",
-        en: "Commentary on the transition to the Saul section.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-018",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 18,
-        he: "הרע. על מפיבושת מפי ציבא:",
-        en: "Saul merited kingship through humility.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-019",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 19,
-        he: "האי אפרעו מיניה. מדה במדה הוא",
-        en: "'Am I not from the smallest tribe?' - Saul's self-deprecation.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-020",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 20,
-        he: "הפסידו לחלק נחלתו והוא נפסד נחלת",
-        en: "Commentary on Saul's humility as the basis for his selection.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l25"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-021",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 21,
-        he: "מלכות: סיוטא. מלאכי פחד מבהילים",
-        en: "Why Saul lost the kingdom: his repentance was not genuine.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l29"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-022",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 22,
-        he: "אותו: לא נמשכה. לאורך ימים:",
-        en: "Saul said 'I have sinned' but added 'honor me now.'",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-023",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 23,
-        he: "שלא היה בו שום דופי. משפחה",
-        en: "Commentary on Saul's reputation-protecting repentance.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-024",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 24,
-        he: "ויתגאו המלכים היוצאים מזרעו על",
-        en: "David: 'I have sinned to God' - genuine, to Nathan.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-025",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 25,
-        he: "ישראל אבל דוד מרות המואביה אתא:",
-        en: "Commentary on David's genuine repentance.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-026",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 26,
-        he: "קופה של שרצים. דופי משפחה:",
-        en: "Commentary on public sin requiring public response.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l34"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-027",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 27,
-        he: "נענש שאול. לבוא לידי דבר שעליו",
-        en: "Saul's Amalek sin was a public violation of a public command.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l34"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-028",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 28,
-        he: "ניטל ממנו מלכות: מפני. שמתחילת",
-        en: "Commentary on why private repentance cannot fix public sin.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l34"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-029",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 29,
-        he: "מלכותו מחל על כבודו וגילה על עצמו",
-        en: "A talmid chacham must avenge like a snake.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022b-l36"
-        ]
-      },
-      {
-        id: "rashi-yoma-022b-030",
-        sourceType: "rashi",
-        daf: "22b",
-        vilnaLine: 30,
-        he: "שאינו כדאי למלוך: וכתיב ויעל נחש",
-        en: "The snake's method: quiet, patient, eventual.",
+        en: "Rashi: concludes - and had relations with. Then opens and closes 'the child' - her first son. Then opens 'lashon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -52334,26 +52152,26 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-022b-031",
+        id: "rashi-yoma-022b-018",
         sourceType: "rashi",
         daf: "22b",
-        vilnaLine: 31,
-        he: "העמוני. ומסקנא דמילתא שאמרו",
-        en: "Commentary on the Torah scholar's response to insult.",
+        vilnaLine: 18,
+        he: "הרע. על מפיבושת מפי ציבא:",
+        en: "Rashi: concludes DH - hara' [slander] - about Mefivoshet, from Ziva's mouth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l36"
+          "yoma-022b-l38"
         ]
       },
       {
-        id: "rashi-yoma-022b-032",
+        id: "rashi-yoma-022b-019",
         sourceType: "rashi",
         daf: "22b",
-        vilnaLine: 32,
-        he: "ישראל מי האומר שאול ימלוך עלינו",
-        en: "Commentary on the conclusion of the Saul comparison.",
+        vilnaLine: 19,
+        he: "האי אפרעו מיניה. מדה במדה הוא",
+        en: "Rashi: opens 'this: he was punished for it' - it was measure for measure:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -52362,17 +52180,199 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-022b-020",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 20,
+        he: "הפסידו לחלק נחלתו והוא נפסד נחלת",
+        en: "Rashi: continues - he caused Mefivoshet to lose his share of the inheritance, so he himself lost the inheritance of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l39"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-021",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 21,
+        he: "מלכות: סיוטא. מלאכי פחד מבהילים",
+        en: "Rashi: concludes - the kingdom. Then opens 'a nightmare' - angels of dread who terrify",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l42"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-022",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 22,
+        he: "אותו: לא נמשכה. לאורך ימים:",
+        en: "Rashi: concludes - him. Then opens and closes 'did not extend' - for a long time.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l44"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-023",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 23,
+        he: "שלא היה בו שום דופי. משפחה",
+        en: "Rashi: opens 'that there was no blemish in him' - a family",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l44"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-024",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 24,
+        he: "ויתגאו המלכים היוצאים מזרעו על",
+        en: "Rashi: continues - blemish, lest the kings descended from his line grow haughty over",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l44"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-025",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 25,
+        he: "ישראל אבל דוד מרות המואביה אתא:",
+        en: "Rashi: concludes - Israel; but David descended from Ruth the Moabite.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l44"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-026",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 26,
+        he: "קופה של שרצים. דופי משפחה:",
+        en: "Rashi: opens and closes 'a basket of vermin' - a family blemish.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l44"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-027",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 27,
+        he: "נענש שאול. לבוא לידי דבר שעליו",
+        en: "Rashi: opens 'Saul was punished' - to come to a matter for which",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-028",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 28,
+        he: "ניטל ממנו מלכות: מפני. שמתחילת",
+        en: "Rashi: concludes - the kingship was taken from him. Then opens 'because' - that from the start of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-029",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 29,
+        he: "מלכותו מחל על כבודו וגילה על עצמו",
+        en: "Rashi: continues - his reign he forwent his honor, and revealed about himself",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-030",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 30,
+        he: "שאינו כדאי למלוך: וכתיב ויעל נחש",
+        en: "Rashi: concludes - that he was unworthy to reign. Then opens 'and it is written, and Nachash came up' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-031",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 31,
+        he: "העמוני. ומסקנא דמילתא שאמרו",
+        en: "Rashi: continues DH - the Ammonite' - and the conclusion of the matter is that they said,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-022b-032",
+        sourceType: "rashi",
+        daf: "22b",
+        vilnaLine: 32,
+        he: "ישראל מי האומר שאול ימלוך עלינו",
+        en: "Rashi: continues - Israel: who is it that says Saul shall reign over us,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022b-l47"
+        ]
+      },
+      {
         id: "rashi-yoma-022b-033",
         sourceType: "rashi",
         daf: "22b",
         vilnaLine: 33,
         he: "בתמיהה תנו (את) האנשים ונמיתם",
-        en: "Commentary on the Nov massacre.",
+        en: "Rashi: continues - in a mocking tone; give over the men and we shall put them to death,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l41"
+          "yoma-022b-l47"
         ]
       },
       {
@@ -52381,12 +52381,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 34,
         he: "והוא אמר לא יומת איש היום הזה:",
-        en: "David: 'I am responsible for your father's house.'",
+        en: "Rashi: concludes - yet he said, no man shall be put to death this day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l41"
+          "yoma-022b-l47"
         ]
       },
       {
@@ -52395,12 +52395,12 @@ const DAF_CONTENT = {
         daf: "22b",
         vilnaLine: 35,
         he: "שאינו",
-        en: "Commentary on David accepting indirect causation.",
+        en: "Rashi: the daf's final truncated word - 'who does not,' continuing the dibbur hamatchil on 'every Torah scholar' into the well known teaching that a scholar does not bear a grudge or take revenge like a snake, whose text continues on 23a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own explanation is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022b-l42"
+          "yoma-022b-l49"
         ]
       }
     ],

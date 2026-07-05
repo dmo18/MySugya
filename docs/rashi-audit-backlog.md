@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.13: schema backfill is complete, the perek-level semantic
+As of VERSION 15.14: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -211,8 +211,17 @@ text check). At VERSION 15.13 (see "22a, full daf" below) the run
 continued into Perek 2, confirming 22a opens with a clean perek
 boundary (Mishna's full opening phrase, not a truncated
 continuation) and fixing all 65 of 22a's entries in two sub-chunks
-(65/65 resolved), including replacing one stub run's fabricated
-"Saul counted Israel" tangent that did not exist in the real text. No
+(65/65 resolved), including replacing one stub run's "Saul counted
+Israel" tangent that turned out to be real content misattributed one
+daf early (it belongs on 22b, not 22a), the same one-daf-off pattern
+already documented for 11b/12a. At VERSION 15.14 (see "22b, full
+daf" below) the run closed the Saul/David digression, confirming the
+22a/22b boundary is clean and fixing all 35 of 22b's real entries in
+a single chunk (35/35 resolved), after discovering and correcting a
+structural anomaly - the prior enrichment JSON carried 14 orphaned
+entries beyond talmud.dev's real 35-line Rashi array for this daf,
+which build_learning_data.py silently never renders; those were
+removed rather than translated. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2096,11 +2105,14 @@ other daf boundary in this run. No edit was needed to 21b.
 `l12`, `l16`, `l18`, `l21`, `l22`, `l27`, `l30`, `l36`, `l39`, `l40`)
 against 41 raw print lines, and its Rashi side has 65 raw print
 lines, all carrying the same generic descriptive-style placeholder
-text as 21a/21b. One stub run even fabricated an entire tangent not
-present in the real text (a "Saul counted Israel" digression,
-vilnaLine 10-15 in the prior stub), illustrating why this audit reads
-the raw Rashi print lines directly rather than trusting existing `en`
-text.
+text as 21a/21b. The prior stub's vilnaLine 10-15 ("Saul counted
+Israel," the Saul/David comparison) is not fabricated - it is real
+content, but it belongs to 22b's own extensive Rabbi Elazar/Saul
+digression (see "22b, full daf" below), misattributed one daf early
+in this stub, the same one-daf-off pattern already documented for
+11b/12a. This was corrected when 22b was audited directly, confirming
+why this audit reads the raw Rashi print lines of each daf directly
+rather than trusting existing `en` text or its daf attribution.
 
 All 65 raw Rashi print lines were read against the raw Gemara text
 and the 13 real captured line ids, using the same multi-DH rule as
@@ -2134,9 +2146,85 @@ truncation and its resolution continues onto 22b.
 
 All 65 entries were fixed across two sub-chunks (vilnaLine 1-33, then
 34-65). 22a is fully resolved, 65/65, with real translations
-replacing every generic placeholder (including the fabricated Saul
-tangent) and every linkedGemaraLineIds value corrected to its real
-zero-padded `yoma-022a-lXX` target.
+replacing every generic placeholder (including the misattributed
+Saul tangent, corrected on 22b below) and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-022a-lXX` target.
+
+## 22b, full daf (VERSION 15.14), single chunk, closing the Saul/David digression
+
+Continuing the fast alignment run. Before any edit, the 22a/22b
+boundary was re-verified read-only: 22a's truncated final word "או"
+(or) is completed by 22b's opening "או דילמא" (or perhaps) in both
+the Gemara and Rashi columns, continuing Rav Pappa's base/ledge
+dilemma cleanly. No edit was made to 22a.
+
+22b's Gemara side has 21 real captured lines (`l01`, `l02`, `l07`,
+`l10`, `l14`, `l17`, `l21`, `l25`, `l29`, `l31`, `l34a`, `l34b`,
+`l35`, `l36`, `l38`, `l39`, `l41`, `l42`, `l44`, `l47`, `l49`) against
+50 raw Gemara print lines, while talmud.dev's raw Rashi array for
+this daf has only 35 non-empty print lines - noticeably sparser than
+the Gemara side, since Rashi comments lightly on this daf's long
+aggadic Saul/David digression, leaving several real lines (`l10`,
+`l17`, `l21`, `l25`, `l29`, `l35`, `l36`, `l41`) with no dedicated
+comment at all.
+
+Before any translation work, a structural anomaly was found: the
+prior enrichment JSON carried 49 `rashiTranslations` entries
+(vilnaLine 1-49), but `build_learning_data.py`'s `load_rashi_lines()`
+only ever looks up `vilnaLine` values 1 through the talmud.dev raw
+array's own length (`vl = i + 1` for `i` in `range(len(rashi_he))`),
+so any entry with `vilnaLine` beyond that length is silently
+orphaned and never rendered. A spot check of every other daf fixed in
+this run (20a, 20b, 21a, 21b, 22a) confirmed all of them have an
+exact match between their `rashiTranslations` entry count and their
+talmud.dev raw Rashi array length; 22b was the sole exception, with
+14 orphaned entries (vilnaLine 36-49) beyond its real 35-line range.
+These 14 entries were removed rather than translated, since they can
+never render and keeping them would misrepresent the corpus's actual
+coverage; this matches the established one-entry-per-real-print-line
+convention followed everywhere else in this run.
+
+All 35 raw Rashi print lines were read against the raw Gemara text
+and the 21 real captured line ids, using the same multi-DH rule as
+prior daf, with particular care taken on two ambiguous spans: (1) the
+citation "וְהָיָה מִסְפַּר בְּנֵי יִשְׂרָאֵל כְּחוֹל הַיָּם" appears
+verbatim in both `l10` and `l14`, but the comment's own logic
+("implying they do have a count") only makes sense as setting up
+`l14`'s explicit two-verse contradiction, not `l10`'s plain citation,
+so vilnaLine 6 was anchored to `l14`, leaving `l10` uncommented; (2)
+the phrase "אפרעו מיניה" (he was punished for it) appears in `l34b`,
+`l35`, and `l39`, but the comment's own content ("measure for
+measure: he caused [Mefivoshet] to lose his land-inheritance, so he
+lost the kingdom's inheritance") only fits `l39`'s Mefivoshet/land
+narrative, so vilnaLine 19-20 was anchored to `l39` rather than the
+more proximate `l34b`/`l35`. The correspondence: vilnaLine 1 (Rav
+Pappa's ramp-and-altar cubits resolved as "let it stand") to `l01`;
+2-3 (the prohibition on counting Israel directly, the shard-count
+workaround) to `l02`; 4-5 (the lamb-count workaround) to `l07`; 6
+(the two-verse contradiction setup) to `l14`; 7-13 (Rav Huna's "one
+whose Master assists him" maxim, Saul's one sin versus David's two)
+to `l31`; 14-15 (Uriah and the incitement to count Israel) to `l34a`;
+16 (the Bat Sheva incident) to `l34b`; 17-18 (the lashon hara about
+Mefivoshet) to `l38`; 19-20 (measure for measure: land for kingdom)
+to `l39`; 21 (the nightmare that troubled Rav Nachman) to `l42`; 22-26
+(no blemish in Saul's family line, the basket of vermin) to `l44`;
+27-34 (why Saul was punished, the Nachash Ha'amoni aftermath) to
+`l47`; 35 (the boundary case below) to `l49`.
+
+vilnaLine 35, the daf's final truncated word "שאינו" (who does not),
+is the same kind of boundary case as the prior daf endings in this
+run: per the policy, it is linked to `yoma-022b-l49`, 22b's own final
+locally captured Gemara line (the "every Torah scholar" teaching),
+even though the DH's own point (the well known teaching that a
+scholar does not bear a grudge like a snake) continues onto 23a.
+
+All 35 entries were fixed in a single chunk (under the 40-entry split
+threshold). 22b is fully resolved, 35/35 real entries (14 orphaned
+entries beyond the real range removed), with real translations
+replacing every generic placeholder and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-022b-lXX` target. This
+also resolves the misattribution noted in the 22a section above: the
+prior stub's "Saul counted Israel" content genuinely belongs here.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
