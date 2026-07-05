@@ -64537,7 +64537,7 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 1,
         he: "והרי איברים ופדרים. לא גרסינן לכוליה הך גירסא דאיברים",
-        en: "Continuation: wonder at R. Zeira's argument about wood-arrangement and burning of incense.",
+        en: "Rashi: opens 'but isn't there the limbs and the fats' - we do not read this entire reading of 'the limbs'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -64551,12 +64551,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 2,
         he: "ודתרומת הדשן הכא דהא מנינן להו לגבי פלוגתייהו דרב ולוי",
-        en: "Revision of R. Yochanan's position: the statement applies only to the two-log placement.",
+        en: "Rashi: continues - and 'the removal of the ashes' here, since we already counted them regarding the dispute of Rav and Levi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l02"
+          "yoma-028a-l01"
         ]
       },
       {
@@ -64565,12 +64565,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 3,
         he: "בעבודה שאין אחריה עבודה ואגב שיטפא דריהטא דגירסא דלעיל",
-        en: "Rava's objection: if placing the two logs is complete service, it should require its own lottery.",
+        en: "Rashi: continues - about a service not followed by another service, and due to the flow of the copying of the earlier reading,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l03"
+          "yoma-028a-l01"
         ]
       },
       {
@@ -64579,12 +64579,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 4,
         he: "דלישנא קמא דרבי זירא הדר וגרסינהו בלישנא בתרא וה\"ג יש לך",
-        en: "Rava's actual position: the two-log placement is complete service and thus requires priesthood.",
+        en: "Rashi: continues - the copyist repeated the first version of Rabbi Zeira's question in the later version too, and our own text reads: do you have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l04"
+          "yoma-028a-l01"
         ]
       },
       {
@@ -64593,12 +64593,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 5,
         he: "עבודה שיש אחריה עבודה ופסולה",
-        en: "Question: is there any complete service by a non-priest that is valid but punishable?",
+        en: "Rashi: concludes - a service that is followed by another service and is invalid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l05"
+          "yoma-028a-l01"
         ]
       },
       {
@@ -64607,12 +64607,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 6,
         he: "בזר אלא אי איתמר כו': הואיל",
-        en: "Further question about complete service and the lottery requirement.",
+        en: "Rashi: opens and closes 'by a non-priest? rather, if it was stated, etc.' Then opens 'since'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l06"
+          "yoma-028a-l05"
         ]
       },
       {
@@ -64621,12 +64621,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 7,
         he: "ועבודה תמה. דשלים ליה סידור:",
-        en: "Why R. Yochanan's teaching is framed around slaughtering in the mishna.",
+        en: "Rashi: concludes - it is a complete service - since the arranging is finished by it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l07"
+          "yoma-028a-l05"
         ]
       },
       {
@@ -64635,12 +64635,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 8,
         he: "למימרא דעבודה תמה בעי פייס",
-        en: "Rejection: the mishna mentions slaughter because slaughter is simply the first step listed.",
+        en: "Rashi: opens and closes 'is that to say that a complete service requires a lottery,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l08"
+          "yoma-028a-l11"
         ]
       },
       {
@@ -64649,11 +64649,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 9,
         he: "כו' עד משום מעשה שהיה לא גרסינן:",
-        en: "Blank or gap in the Sefaria sequence.",
+        en: "Rashi: concludes - through 'due to the incident that occurred' - we do not read this passage.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l11"
+        ]
       },
       {
         id: "rashi-yoma-028a-010",
@@ -64661,12 +64663,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 10,
         he: "אף אנן נמי תנינא. דסידור גזירין",
-        en: "Mishna: Appointed priest tells priests - go out and see if it is dawn yet.",
+        en: "Rashi: opens 'we too have learned it' - that the arranging of the logs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l25"
+          "yoma-028a-l18"
         ]
       },
       {
@@ -64675,12 +64677,12 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 11,
         he: "עבודה תמה היא כרבי יוחנן ודלא",
-        en: "The High Priest is brought to the Hall of Immersion for his first immersion of Yom Kippur.",
+        en: "Rashi: continues - is a complete service according to Rabbi Yochanan and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-028a-l30"
+          "yoma-028a-l18"
         ]
       },
       {
@@ -64689,11 +64691,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 12,
         he: "כרב ולוי דלא מנו לה בעבודה שזר",
-        en: "Among the services for which a non-kohen is liable.",
+        en: "Rashi: continues - according to Rav and Levi, who did not count it among the services for which a non-priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-013",
@@ -64701,11 +64705,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 13,
         he: "חייב עליה משום דיש אחריה סידור",
-        en: "Because it is followed by the limb arrangement.",
+        en: "Rashi: continues - is liable, since it is followed by the arranging of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-014",
@@ -64713,11 +64719,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 14,
         he: "איברים: ואילו זמן שני גזירין לא",
-        en: "But the time of the two fire-logs is not taught - implying it is a nighttime service.",
+        en: "Rashi: concludes - the limbs. Then opens 'but the time for arranging the two logs is not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-015",
@@ -64725,11 +64733,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 15,
         he: "קתני. אלמא עבודת לילה היא",
-        en: "And it completes the fire arrangement.",
+        en: "Rashi: concludes - taught, implying it is a nighttime service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-016",
@@ -64737,11 +64747,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 16,
         he: "והוא גמר סידור מערכה וסידור האיברים",
-        en: "The limb arrangement which is a daytime service is the start of a new service.",
+        en: "Rashi: continues - and it completes the arranging of the woodpile, whereas the arranging of the limbs,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-017",
@@ -64749,11 +64761,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 17,
         he: "שהוא עבודת יום תחילת עבודה אחרת",
-        en: "Not the completion of the fire arrangement.",
+        en: "Rashi: continues - which is a daytime service, is the beginning of a different service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-018",
@@ -64761,11 +64775,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 18,
         he: "היא ולא גמר סידור המערכה היא:",
-        en: "End of chapter - the second chapter concludes.",
+        en: "Rashi: concludes - not the completion of the arranging of the woodpile.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l18"
+        ]
       },
       {
         id: "rashi-yoma-028a-019",
@@ -64773,11 +64789,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 19,
         he: "הדרן עלך בראשונה",
-        en: "The Hadran.",
+        en: "Rashi: opens and closes 'we take our leave of you, Barishona' - the formula closing this chapter.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l23"
+        ]
       },
       {
         id: "rashi-yoma-028a-020",
@@ -64785,11 +64803,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 20,
         he: "אמר להם הממונה. הוא הסגן:",
-        en: "Chapter Three: The Superintendent said - this refers to the Deputy KG.",
+        en: "Rashi: opens and closes 'the appointed said to them' - he is the deputy High Priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-021",
@@ -64797,11 +64817,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 21,
         he: "צאו וראו. על החומה או",
-        en: "Go out and see - onto the wall or the roof.",
+        en: "Rashi: opens and closes 'go out and see' - on the wall or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-022",
@@ -64809,11 +64831,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 22,
         he: "על הגג: זמן השחיטה. שחיטת",
-        en: "The time for slaughter - slaughter of the tamid.",
+        en: "Rashi: concludes - on the roof. Then opens 'the time for slaughtering' - the slaughtering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-023",
@@ -64821,11 +64845,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 23,
         he: "התמיד כלומר אם האיר המזרח",
-        en: "Meaning: has dawn broken, since slaughter is invalid at night.",
+        en: "Rashi: continues - the daily-offering, meaning if the east has lit up,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-024",
@@ -64833,11 +64859,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 24,
         he: "שהשחיטה פסולה בלילה כדכתיב",
-        en: "As written (Lev. 19) 'on the day of your sacrifice.'",
+        en: "Rashi: continues - since slaughtering is invalid at night, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-025",
@@ -64845,11 +64873,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 25,
         he: "(ויקרא יט) ביום זבחכם: הרואה.",
-        en: "The one who sees - the one who went up to the roof.",
+        en: "Rashi: concludes - (Leviticus 19): on the day of your slaughtering. Then opens and closes 'the observer' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-026",
@@ -64857,11 +64887,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 26,
         he: "זה שעלה לגג: ברקאי. לשון צוהר",
-        en: "'Berkai' - the word means brightness.",
+        en: "Rashi: concludes - the one who went up to the roof. Then opens 'barkai' - an expression of dawn-light,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-027",
@@ -64869,11 +64901,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 27,
         he: "כמו למען היות לה ברק (יחזקאל",
-        en: "As in 'to give it a brightness' (Ezek. 21) and 'the lightning lit up' (Ps. 77).",
+        en: "Rashi: continues - like 'so that it has brightness' (Ezekiel 21),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-028",
@@ -64881,11 +64915,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 28,
         he: "כא) האירו ברקים (תהלים עז) : עד",
-        en: "'Until it reaches Hebron' - until the light is visible as far as Hebron.",
+        en: "Rashi: concludes - 'the lightnings lit up' (Psalms 77). Then opens and closes 'until'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-029",
@@ -64893,11 +64929,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 29,
         he: "שהוא בחברון. עד שנראה הצוהר",
-        en: "And he replied 'yes' - the Gemara explains.",
+        en: "Rashi: concludes - it reaches Hebron - until the dawn-light appears",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-030",
@@ -64905,11 +64943,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 30,
         he: "עד חברון: והוא אמר להן הן. מפרש",
-        en: "Why did they need to do this - to ascend to the roof and check?",
+        en: "Rashi: concludes - as far as Hebron. Then opens and closes 'and he says to them: yes' - explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-031",
@@ -64917,11 +64957,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 31,
         he: "בגמרא: למה הוצרכו לכך. לעלות",
-        en: "The moonlight of early dawn glowed.",
+        en: "Rashi: continues - in the Gemara. Then opens 'and why did they need this' - to go up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-032",
@@ -64929,11 +64971,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 32,
         he: "לגג ולראות: עלה מאור הלבנה.",
-        en: "The moon's form appeared close to morning time.",
+        en: "Rashi: concludes - to the roof and look. Then opens and closes 'the light of the moon rose' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-033",
@@ -64941,11 +64985,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 33,
         he: "צמח תואר הלבנה סמוך לשחרית:",
-        en: "And they thought - they assumed it was dawn.",
+        en: "Rashi: concludes - the shape of the moon appeared near dawn.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-034",
@@ -64953,11 +64999,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 34,
         he: "ודימו. וחישבו: והוציאוהו לבית",
-        en: "'They took him to the burning place' - when they realized it was slaughtered at night.",
+        en: "Rashi: opens and closes 'and they imagined' - and they thought. Then opens 'and they took it out to'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-035",
@@ -64965,11 +65013,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 35,
         he: "השריפה. כשהבינו שנשחט בלילה:",
-        en: "They brought the KG down - explained in the Gemara.",
+        en: "Rashi: concludes - the place of burning - once they realized it had been slaughtered at night.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l24"
+        ]
       },
       {
         id: "rashi-yoma-028a-036",
@@ -64977,11 +65027,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 36,
         he: "הורידו כ\"ג כו'. מפרש לה בגמ':",
-        en: "Easing his bodily needs - refers to the large needs.",
+        en: "Rashi: opens and closes 'they brought down the High Priest, etc.' - explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-037",
@@ -64989,11 +65041,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 37,
         he: "מיסך רגליו. נקבים הגדולים",
-        en: "The term 'to ease' is like 'a tree covering the ground' (Nazir 54a).",
+        en: "Rashi: opens 'one who covers his legs' - the large orifices,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-038",
@@ -65001,11 +65055,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 38,
         he: "ולשון מיסך כמו אילן המיסך על",
-        en: "Since for the large needs one crouches on one's knees.",
+        en: "Rashi: continues - and the expression 'covers' is like 'a tree that covers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-039",
@@ -65013,11 +65069,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 39,
         he: "הארץ (נזיר דף נד:) לפי שהצריך",
-        en: "And covers one's feet with the body.",
+        en: "Rashi: continues - the ground' (Nazir 54b), since one who needs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-040",
@@ -65025,11 +65083,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 40,
         he: "לנקבים גדולים כורע על ברכיו",
-        en: "As written about Saul (1 Sam. 24) 'and Saul went in to cover his feet.'",
+        en: "Rashi: continues - the large orifices kneels on his knees",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-041",
@@ -65037,11 +65097,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 41,
         he: "ומכסה גופו את רגליו וכן",
-        en: "Sanctification of hands and feet - from the laver.",
+        en: "Rashi: continues - and covers his own body with his legs, and so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-042",
@@ -65049,11 +65111,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 42,
         he: "בשאול כתיב (שמואל א כד) ושם",
-        en: "He sanctified hands and feet from the laver before the first service.",
+        en: "Rashi: continues - it is written regarding Saul (I Samuel 24): and there was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-043",
@@ -65061,11 +65125,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 43,
         he: "מערה ויבא שאול להסך את רגליו:",
-        en: "Sanctification of hands and feet is from the laver.",
+        en: "Rashi: concludes - a cave, and Saul came in to cover his legs.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-044",
@@ -65073,11 +65139,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 44,
         he: "קידוש ידים ורגלים. מן הכיור:",
-        en: "Sanctification of hands and feet is from the laver.",
+        en: "Rashi: opens and closes 'sanctification of hands and feet' - from the basin.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       },
       {
         id: "rashi-yoma-028a-045",
@@ -65085,11 +65153,13 @@ const DAF_CONTENT = {
         daf: "28a",
         vilnaLine: 45,
         he: "גמ'",
-        en: "Gemara begins.",
+        en: "Rashi: the daf's final truncated word, marking the start of the Gemara section on this chapter's opening mishna, whose text continues on 28b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the Gemara's own discussion is itself still unopened at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-028a-l30"
+        ]
       }
     ],
     review: {

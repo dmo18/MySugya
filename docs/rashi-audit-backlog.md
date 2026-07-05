@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.24: schema backfill is complete, the perek-level semantic
+As of VERSION 15.25: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2942,6 +2942,84 @@ daf; both are documented here as a distinct systemic finding from the
 generic-stub pattern that dominated 21a through 26b, worth checking
 for specifically (independently of the raw-count preflight) on every
 remaining daf in this run.
+
+## 28a, full daf (VERSION 15.25), third dangling-link daf in a row, perek boundary
+
+Continuing the resumed run. Before any edit, the 27b/28a boundary was
+re-verified read-only: 27b's truncated final word "והרי" (but isn't
+there) is completed by 28a's opening "והרי אברים ופדרים" in both the
+Gemara and Rashi columns, continuing the second version of Rabbi
+Zeira's objection cleanly. No edit was made to 27b. The mandatory
+preflight raw-count check was run first: talmud.dev's non-empty raw
+Rashi array for 28a has 45 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 45 entries, an exact match on count.
+
+As with 27a and 27b, every existing `linkedGemaraLineIds` value was
+independently checked against the daf's real captured Gemara line ids
+before trusting the count match. 28a's real ids are `l01`, `l05`,
+`l07`, `l10`, `l11`, `l14`, `l18`, `l21`, `l23`, `l24` (mishna), `l30`
+(11 total, spanning 34 raw Gemara print lines). Checking every prior
+entry against this set found 6 dangling references to nonexistent
+ids: vilnaLine 2 to `l02`, vilnaLine 3 to `l03`, vilnaLine 4 to `l04`,
+vilnaLine 6 to `l06`, vilnaLine 8 to `l08`, and vilnaLine 10 to `l25`.
+This is the third consecutive daf with this failure mode rather than
+the generic descriptive-style placeholder pattern, so the whole daf
+was rebuilt using the list-indexed methodology.
+
+This daf also contains a perek boundary: raw Gemara line 23 (`l23`)
+is the standalone formula "הדרן עלך בראשונה" ("we take our leave of
+you, Barishona"), closing Perek 2 (named for its own opening word,
+Barishona), distinct from the "Shivat Yamim" perek-close already
+documented at 21b. `l23`'s own `en` field is correctly empty in
+`learning_data.js`, since the formula needs no translation. The raw
+Rashi array itself also carries this same formula as its own entry
+(vilnaLine 19), apparently because the print layout centers the
+hadran phrase across both columns; it was treated the same way,
+linked to `l23` with no substantive commentary content of its own.
+Perek 3 (also opening with "אמר להם הממונה," elaborating in more
+detail on the appointed priest's dawn announcement already introduced
+at the end of Perek 2) begins immediately after at `l24`, the daf's
+mishna.
+
+All 45 raw Rashi print lines were read against the raw Gemara text
+and the 11 real captured line ids, using the multi-DH rule. The
+correspondence: vilnaLine 1-5 (a girsa note on which version of
+Rabbi Zeira's question belongs here) to `l01`; 6-7 (since it is a
+complete service) to `l05`; 8-9 (a girsa note that a stretch of text
+through "due to the incident that occurred" is not read in Rashi's
+own version) to `l11`; 10-18 (we too have learned it, that arranging
+the two logs is a complete service, not the completion of the
+woodpile's arranging) to `l18`; 19 (the perek-closing formula itself)
+to `l23`; 20-35 (the appointed priest is the deputy High Priest, the
+watchman's exchange about dawn, the moonlight mistake) to `l24`; 36-45
+(they brought down the High Priest, covering one's legs, sanctifying
+hands and feet) to `l30`. `l07` (Rava's own objection that a lottery
+should be required), `l10` (the Gemara's own resolution that a
+separate lottery was in fact already implied), `l14` (a near-duplicate
+restatement of the "complete service requires a lottery" challenge),
+and `l21` (the answer distinguishing services with and without a
+remedy) have no dedicated vilnaLine of their own in this daf's
+column; `l07`, `l10`, and `l14` in particular fall within the same
+stretch Rashi's own girsa note (vilnaLine 8-9) explicitly says his
+text omits, which is consistent with them having no dedicated
+comment.
+
+vilnaLine 45, the daf's final entry, is the truncated Gemara-section
+marker "גמ'" itself (the start of Perek 3's Gemara discussion on its
+own opening mishna, with no further text captured on this daf): per
+the policy, it is linked to `yoma-028a-l30`, 28a's own final locally
+captured Gemara line, even though the Gemara's own discussion had not
+yet been opened at the point of truncation, continuing onto 28b.
+
+All 45 entries were fixed in a single list-indexed pass. 28a is fully
+resolved, 45/45, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 6 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
+This closes out a third consecutive dangling-link daf (27a, 27b,
+28a), reinforcing that the dangling-link failure mode is now a
+standing check to run on every remaining daf in this corpus,
+independent of the raw-count preflight.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
