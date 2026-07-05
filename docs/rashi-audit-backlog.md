@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.20: schema backfill is complete, the perek-level semantic
+As of VERSION 15.21: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2638,6 +2638,67 @@ All 62 entries were fixed in a single list-indexed pass. 25b is fully
 resolved, 62/62, with real translations replacing every generic
 placeholder and every linkedGemaraLineIds value corrected to its
 real zero-padded `yoma-025b-lXX` target.
+
+## 26a, full daf (VERSION 15.21)
+
+Continuing the resumed run. Before any edit, the 25b/26a boundary was
+re-verified read-only: 25b's truncated final word "למאי" (for what)
+is completed by 26a's opening "למאי אתא לכדתניא כיצד היה עושה" in
+both the Gemara and Rashi columns, continuing the question about the
+extra verse teaching the fat's own precedence cleanly. No edit was
+made to 25b. The mandatory preflight raw-count check was run first:
+talmud.dev's non-empty raw Rashi array for 26a has 42 lines, and the
+prior enrichment JSON's `rashiTranslations` also had 42 entries, an
+exact match, so no orphaned-entry cleanup was needed here, and no
+sign of one-daf-early content misattribution was found on inspection
+of the prior stub text.
+
+26a's Gemara side has 15 real captured lines (`l01`, `l03` [mishna],
+`l06`, `l07`, `l11a`, `l11b`, `l18`, `l22`, `l24`, `l26`, `l28`,
+`l31`, `l34`, `l35`, `l37`) against 38 raw Gemara print lines. This
+daf's real-line ids include a lettered pair, `l11a`/`l11b`, the first
+time this run has encountered that naming convention rather than a
+plain zero-padded number; both were confirmed as real, distinct
+captured lines before being used as link targets. Its Rashi side has
+42 raw print lines carrying the same generic descriptive-style
+placeholder text as the daf before it.
+
+All 42 raw Rashi print lines were read against the raw Gemara text
+and the 15 real captured line ids, using the same multi-DH rule and
+list-indexed methodology as the prior two daf. The correspondence:
+vilnaLine 1-7 (why the verse needed to teach the fat's inclusion,
+the honor of covering the slaughtering-place) to `l01`; 8-10 (the
+mishna's newcomers-for-the-incense clause) to `l03`; 11-12 (because
+it enriches) to `l06`; 13 (the challenge from the burnt-offering
+verse) to `l07`; 14-15 (that verse is about what is uncommon) to
+`l11a`; 16-18 (one who issues rulings, in accordance with the
+halakha) to `l11b`; 19-20 (who won it in the morning wins it in the
+evening) to `l18`; 21-23 (since the priestly watches are renewed) to
+`l26`; 24-27 (why the assumed schedule would multiply lotteries) to
+`l28`; 28-36 (the mishna's own fourth clause, who carries the limbs
+up the ramp to the altar, addressed out of Gemara-linear order after
+the surrounding Gemara discussion concludes) to `l03`; 37 (not proper
+conduct, so as not to appear burdened) to `l34`; 38-41 (Rabbi
+Eliezer ben Yaakov's own view does not track Rabbi Yehuda's) to
+`l35`. `l22` and `l24` (the stacked, near-identical baraita
+objections about the evening lottery) and `l31` (Rabbi Eliezer ben
+Yaakov's own baraita, self-explanatory and folded into the DH that
+follows) have no dedicated vilnaLine of their own in this daf's
+column, the same established folding pattern seen throughout this
+run.
+
+vilnaLine 42, the daf's final truncated word "דלא" (not), is the
+same kind of boundary case as every other daf ending in this run:
+per the policy, it is linked to `yoma-026a-l37`, 26a's own final
+locally captured Gemara line (the Gemara's own question about
+finding a tanna who taught five lottery rounds), even though the
+DH's own point is itself still open at the point of truncation,
+continuing onto 26b.
+
+All 42 entries were fixed in a single list-indexed pass. 26a is fully
+resolved, 42/42, with real translations replacing every generic
+placeholder and every linkedGemaraLineIds value corrected to its
+real zero-padded `yoma-026a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

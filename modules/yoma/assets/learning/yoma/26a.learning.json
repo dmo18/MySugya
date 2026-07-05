@@ -26,241 +26,297 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Continuation: the previous sugya's conclusion about the lottery.",
+      "en": "Rashi: opens 'for what purpose did it come' - for even these are already included among the pieces, granted the head is derived",
       "linkedGemaraLineIds": [
         "yoma-026a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "This is explained in Chulin (27a): the head is specifically needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from the slaughtering of non-sacred animals (27a), for it was needed since it is stated 'and he shall flay it and cut it into pieces,' I would have thought",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Mishna: Third lottery - incense goes only to those who have never done it before.",
+      "en": "Rashi: continues - the head is not included in cutting into pieces, but rather pieces that are included in the flaying; from where is the head included,",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: continues - since it was already severed at the slaughtering and was not present at the time of flaying, the verse teaches 'the head'; but",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: continues - the fat is already included among the flayed parts, so for what purpose did the verse",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: continues - come to write it. Then opens 'in the manner of honor' - because the place",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: concludes - of slaughtering is soiled with the blood of the head.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: opens 'mishna: newcomers for the incense' - one who",
       "linkedGemaraLineIds": [
         "yoma-026a-l03"
       ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Tosefta: no one ever burned the incense twice, as new priests always wanted the task.",
+      "vilnaLine": 9,
+      "en": "Rashi: continues - has never won the incense, and the Gemara explains",
       "linkedGemaraLineIds": [
-        "yoma-026a-l04"
+        "yoma-026a-l03"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Why? Incense brings wealth - priests who burned it became prosperous.",
+      "vilnaLine": 10,
+      "en": "Rashi: concludes - why specifically newcomers, and so they would announce in the courtyard.",
       "linkedGemaraLineIds": [
-        "yoma-026a-l05"
+        "yoma-026a-l03"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "Rava: You never find a young scholar who gives rulings and then becomes impoverished - analogous to incense.",
+      "vilnaLine": 11,
+      "en": "Rashi: opens and closes 'gemara: because it enriches' -",
       "linkedGemaraLineIds": [
         "yoma-026a-l06"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "R. Yochanan: No separate lottery for the afternoon tamid service.",
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - therefore they would not let him repeat it.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: opens 'but is it not written: and whole burnt-offerings on Your altar' - in that",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: concludes - very verse. Then opens and closes 'that is uncommon' - and it stands to reason",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l11a"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: concludes - that when wealth is written it is about what is uncommon, for otherwise",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l11a"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: concludes - everyone would turn out wealthy. Then opens and closes 'who issues rulings' -",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l11b"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - one who issues halakhic rulings for Israel. Then opens 'in accordance with' -",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l11b"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: concludes - the halakha, to rule according to the correct law.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l11b"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: opens 'who won it in the morning' - any priest who won",
       "linkedGemaraLineIds": [
         "yoma-026a-l18"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "But a baraita says they do hold a lottery in the afternoon - contradiction.",
+      "vilnaLine": 20,
+      "en": "Rashi: concludes - the service. Then opens and closes 'when that was taught it was about the incense' -",
       "linkedGemaraLineIds": [
-        "yoma-026a-l19"
+        "yoma-026a-l18"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Another baraita says the same as R. Yochanan - no separate afternoon lottery.",
+      "vilnaLine": 21,
+      "en": "Rashi: concludes - because a person did not repeat it. Then opens 'since' -",
       "linkedGemaraLineIds": [
-        "yoma-026a-l20"
+        "yoma-026a-l26"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Resolution: one baraita deals with Shabbat (when a new lottery is held), the other with weekdays.",
+      "vilnaLine": 22,
+      "en": "Rashi: continues - the watches are renewed, meaning the priestly watch that served",
       "linkedGemaraLineIds": [
-        "yoma-026a-l21"
+        "yoma-026a-l26"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Question: if no afternoon lottery, how were the afternoon tasks distributed?",
+      "vilnaLine": 23,
+      "en": "Rashi: concludes - in the morning does not serve in the afternoon.",
       "linkedGemaraLineIds": [
-        "yoma-026a-l22"
+        "yoma-026a-l26"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Fourth lottery mishna: open to everyone, including those who had already served.",
+      "vilnaLine": 24,
+      "en": "Rashi: opens 'and according to what we had assumed' - that they would hold a separate lottery",
       "linkedGemaraLineIds": [
-        "yoma-026a-l31"
+        "yoma-026a-l28"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Dispute: R. Eliezer ben Yaakov vs other tanna on the fourth lottery's scope.",
+      "vilnaLine": 25,
+      "en": "Rashi: concludes - for the afternoon, there would be too many lotteries.",
       "linkedGemaraLineIds": [
-        "yoma-026a-l33"
+        "yoma-026a-l28"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "Rava: R. Eliezer ben Yaakov holds that the limb-carrier also brings them onto the fire.",
+      "vilnaLine": 26,
+      "en": "Rashi: opens 'all of them come from the morning' - and there they would hold a lottery for",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - who would win the morning portion and who the afternoon",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l28"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: concludes - portion. Then opens 'he brings it up to the altar' -",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continues - that same priest who won it, having carried it to the ramp, returns",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - and brings it up after a time to the altar; and when they would",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - carry it, they would set it down at the ramp's midpoint",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - below, so that he would not need to carry it",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - the whole length of the ramp, and he walks and ascends the ramp, and when he reaches",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - the place where the limbs are, he takes them, and so we learn",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - in Tractate Shekalim (13a): the limbs of the daily-offering",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - are placed from the ramp's midpoint downward, on the east.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: opens 'not proper conduct' - so as not to appear",
       "linkedGemaraLineIds": [
         "yoma-026a-l34"
       ]
     },
     {
-      "vilnaLine": 15,
-      "en": "If a tanna says five lotteries, that view aligns with neither major position.",
+      "vilnaLine": 38,
+      "en": "Rashi: concludes - as one for whom the matter is a burden. Then opens 'not Rabbi Eliezer' -",
       "linkedGemaraLineIds": [
-        "yoma-026a-l37"
+        "yoma-026a-l35"
       ]
     },
     {
-      "vilnaLine": 16,
-      "en": "Otherwise everyone would become rich.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "One who issues rulings for Israel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "To rule according to the law and halacha.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The one who won [the third lottery] in the morning.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "When this teaching is cited, it refers to the incense.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Because no one repeated the incense service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Since the priestly watches change - the watch that served morning does not serve afternoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Therefore the lottery is repeated for afternoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "According to what we initially assumed - that afternoon had a separate lottery.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "There would be many lottery rounds.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "All are held in the morning - both morning and afternoon winners are chosen then.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Who will win the morning portion and who the afternoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "He brings it up to the altar - the winner carries the limb.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "That kohen who won carrying the limb to the ramp returns and brings it up to the altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "When carrying to the ramp, they placed it halfway down.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "So he would not need to carry it the whole ramp's length.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "He walks up the ramp and when he reaches the limbs' location takes them.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "As taught in Shekalim (13a): the tamid's limbs are placed midway on the ramp, on the eastern side.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "As taught in Shekalim.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Cited: 'the limbs of the tamid are placed from mid-ramp down on the east side.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Because the ramp slopes up and placing them lower avoids effort.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "It is not respectful to appear burdened.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "R. Eliezer ben Yaakov does not hold the ruling of R. Yehuda.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 39,
-      "en": "Who says there was no lottery for the fire-pan.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - ben Yaakov holds like Rabbi Yehuda, who says there was no lottery",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l35"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "R. Eliezer ben Yaakov gives a lottery for the fire-pan.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for the fire-pan, while Rabbi Eliezer ben Yaakov applies a lottery for the fire-pan",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l35"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "In place of the lottery from ramp to altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - in place of the lottery for bringing the limbs from the ramp to the altar.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l35"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Not following R. Eliezer ben Yaakov and not following R. Yehuda.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'not,' continuing the dibbur hamatchil that opens the Gemara's own question about finding a tanna who taught five lottery rounds, whose text continues on 26b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-026a-l37"
+      ]
     }
   ],
   "sugyot": [

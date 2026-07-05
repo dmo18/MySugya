@@ -60486,7 +60486,7 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 1,
         he: "למאי אתא. הא אף הם בכלל הנתחים דבשלמא הראש דרשינן ליה",
-        en: "Continuation: the previous sugya's conclusion about the lottery.",
+        en: "Rashi: opens 'for what purpose did it come' - for even these are already included among the pieces, granted the head is derived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -60500,11 +60500,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 2,
         he: "בשחיטת חולין (דף כז.) דאיצטריך לפי שנאמר והפשיט וערכו אין לי",
-        en: "This is explained in Chulin (27a): the head is specifically needed.",
+        en: "Rashi: continues - from the slaughtering of non-sacred animals (27a), for it was needed since it is stated 'and he shall flay it and cut it into pieces,' I would have thought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l01"
+        ]
       },
       {
         id: "rashi-yoma-026a-003",
@@ -60512,12 +60514,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 3,
         he: "בכלל עריכה אלא נתחים שהן בכלל הפשט מניין לרבות הראש",
-        en: "Mishna: Third lottery - incense goes only to those who have never done it before.",
+        en: "Rashi: continues - the head is not included in cutting into pieces, but rather pieces that are included in the flaying; from where is the head included,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l03"
+          "yoma-026a-l01"
         ]
       },
       {
@@ -60526,12 +60528,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 4,
         he: "שכבר הותז בשחיטה ולא היה בשעת הפשט ת\"ל את הראש אלא",
-        en: "Tosefta: no one ever burned the incense twice, as new priests always wanted the task.",
+        en: "Rashi: continues - since it was already severed at the slaughtering and was not present at the time of flaying, the verse teaches 'the head'; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l04"
+          "yoma-026a-l01"
         ]
       },
       {
@@ -60540,12 +60542,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 5,
         he: "פדר בכלל המופשטים הוא ולמאי",
-        en: "Why? Incense brings wealth - priests who burned it became prosperous.",
+        en: "Rashi: continues - the fat is already included among the flayed parts, so for what purpose did the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l05"
+          "yoma-026a-l01"
         ]
       },
       {
@@ -60554,12 +60556,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 6,
         he: "כתבי': דרך כבוד. לפי שבית",
-        en: "Rava: You never find a young scholar who gives rulings and then becomes impoverished - analogous to incense.",
+        en: "Rashi: continues - come to write it. Then opens 'in the manner of honor' - because the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l06"
+          "yoma-026a-l01"
         ]
       },
       {
@@ -60568,12 +60570,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 7,
         he: "השחיטה מלוכלך בדם הראש:",
-        en: "R. Yochanan: No separate lottery for the afternoon tamid service.",
+        en: "Rashi: concludes - of slaughtering is soiled with the blood of the head.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l18"
+          "yoma-026a-l01"
         ]
       },
       {
@@ -60582,12 +60584,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 8,
         he: "מתני' חדשים לקטורת.  מי",
-        en: "But a baraita says they do hold a lottery in the afternoon - contradiction.",
+        en: "Rashi: opens 'mishna: newcomers for the incense' - one who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l19"
+          "yoma-026a-l03"
         ]
       },
       {
@@ -60596,12 +60598,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 9,
         he: "שלא זכה לקטורת מימיו ובגמ' מפרש",
-        en: "Another baraita says the same as R. Yochanan - no separate afternoon lottery.",
+        en: "Rashi: continues - has never won the incense, and the Gemara explains",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l20"
+          "yoma-026a-l03"
         ]
       },
       {
@@ -60610,12 +60612,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 10,
         he: "מאי שנא חדשים וכך היו מכריזין קול",
-        en: "Resolution: one baraita deals with Shabbat (when a new lottery is held), the other with weekdays.",
+        en: "Rashi: concludes - why specifically newcomers, and so they would announce in the courtyard.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l21"
+          "yoma-026a-l03"
         ]
       },
       {
@@ -60624,12 +60626,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 11,
         he: "בעזרה: גמ' מפני שמעשרת.",
-        en: "Question: if no afternoon lottery, how were the afternoon tasks distributed?",
+        en: "Rashi: opens and closes 'gemara: because it enriches' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l22"
+          "yoma-026a-l06"
         ]
       },
       {
@@ -60638,12 +60640,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 12,
         he: "לפיכך לא היו מניחין אותו לשנות:",
-        en: "Fourth lottery mishna: open to everyone, including those who had already served.",
+        en: "Rashi: concludes - therefore they would not let him repeat it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l31"
+          "yoma-026a-l06"
         ]
       },
       {
@@ -60652,12 +60654,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 13,
         he: "והא כתיב וכליל על מזבחך. בההוא",
-        en: "Dispute: R. Eliezer ben Yaakov vs other tanna on the fourth lottery's scope.",
+        en: "Rashi: opens 'but is it not written: and whole burnt-offerings on Your altar' - in that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l33"
+          "yoma-026a-l07"
         ]
       },
       {
@@ -60666,12 +60668,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 14,
         he: "קרא גופיה: הא לא שכיחא.  ומסתברא",
-        en: "Rava: R. Eliezer ben Yaakov holds that the limb-carrier also brings them onto the fire.",
+        en: "Rashi: concludes - very verse. Then opens and closes 'that is uncommon' - and it stands to reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l34"
+          "yoma-026a-l11a"
         ]
       },
       {
@@ -60680,12 +60682,12 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 15,
         he: "דכי כתיב עושר אדלא שכיחא דאם",
-        en: "If a tanna says five lotteries, that view aligns with neither major position.",
+        en: "Rashi: concludes - that when wealth is written it is about what is uncommon, for otherwise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-026a-l37"
+          "yoma-026a-l11a"
         ]
       },
       {
@@ -60694,11 +60696,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 16,
         he: "לא כן נמצאו הכל עשירים: דמורי.",
-        en: "Otherwise everyone would become rich.",
+        en: "Rashi: concludes - everyone would turn out wealthy. Then opens and closes 'who issues rulings' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l11b"
+        ]
       },
       {
         id: "rashi-yoma-026a-017",
@@ -60706,11 +60710,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 17,
         he: "שמורה הוראות בישראל: אליבא",
-        en: "One who issues rulings for Israel.",
+        en: "Rashi: concludes - one who issues halakhic rulings for Israel. Then opens 'in accordance with' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l11b"
+        ]
       },
       {
         id: "rashi-yoma-026a-018",
@@ -60718,11 +60724,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 18,
         he: "דהילכתא. להורות כדת וכהלכה:",
-        en: "To rule according to the law and halacha.",
+        en: "Rashi: concludes - the halakha, to rule according to the correct law.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l11b"
+        ]
       },
       {
         id: "rashi-yoma-026a-019",
@@ -60730,11 +60738,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 19,
         he: "שזכה בו שחרית. איש איש שזכה",
-        en: "The one who won [the third lottery] in the morning.",
+        en: "Rashi: opens 'who won it in the morning' - any priest who won",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l18"
+        ]
       },
       {
         id: "rashi-yoma-026a-020",
@@ -60742,11 +60752,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 20,
         he: "בעבודה: כי תניא ההיא בקטרת.",
-        en: "When this teaching is cited, it refers to the incense.",
+        en: "Rashi: concludes - the service. Then opens and closes 'when that was taught it was about the incense' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l18"
+        ]
       },
       {
         id: "rashi-yoma-026a-021",
@@ -60754,11 +60766,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 21,
         he: "לפי שלא שנה אדם בה: הואיל",
-        en: "Because no one repeated the incense service.",
+        en: "Rashi: concludes - because a person did not repeat it. Then opens 'since' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l26"
+        ]
       },
       {
         id: "rashi-yoma-026a-022",
@@ -60766,11 +60780,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 22,
         he: "ומשמרות מתחדשות. ומשמר שעבד",
-        en: "Since the priestly watches change - the watch that served morning does not serve afternoon.",
+        en: "Rashi: continues - the watches are renewed, meaning the priestly watch that served",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l26"
+        ]
       },
       {
         id: "rashi-yoma-026a-023",
@@ -60778,11 +60794,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 23,
         he: "שחרית אינו עובד בין הערבים:",
-        en: "Therefore the lottery is repeated for afternoon.",
+        en: "Rashi: concludes - in the morning does not serve in the afternoon.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l26"
+        ]
       },
       {
         id: "rashi-yoma-026a-024",
@@ -60790,11 +60808,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 24,
         he: "ולמאי דסליק אדעתין. שהיו מפייסין",
-        en: "According to what we initially assumed - that afternoon had a separate lottery.",
+        en: "Rashi: opens 'and according to what we had assumed' - that they would hold a separate lottery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l28"
+        ]
       },
       {
         id: "rashi-yoma-026a-025",
@@ -60802,11 +60822,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 25,
         he: "בין הערבים נפישי להו פייסות:",
-        en: "There would be many lottery rounds.",
+        en: "Rashi: concludes - for the afternoon, there would be too many lotteries.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l28"
+        ]
       },
       {
         id: "rashi-yoma-026a-026",
@@ -60814,11 +60836,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 26,
         he: "כולהו מצפרא. ושם מפייסין",
-        en: "All are held in the morning - both morning and afternoon winners are chosen then.",
+        en: "Rashi: opens 'all of them come from the morning' - and there they would hold a lottery for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l28"
+        ]
       },
       {
         id: "rashi-yoma-026a-027",
@@ -60826,11 +60850,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 27,
         he: "מי יזכה לשל שחרית ומי לשל בין",
-        en: "Who will win the morning portion and who the afternoon.",
+        en: "Rashi: continues - who would win the morning portion and who the afternoon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l28"
+        ]
       },
       {
         id: "rashi-yoma-026a-028",
@@ -60838,11 +60864,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 28,
         he: "הערבים: הוא מעלה לגבי המזבח.",
-        en: "He brings it up to the altar - the winner carries the limb.",
+        en: "Rashi: concludes - portion. Then opens 'he brings it up to the altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-029",
@@ -60850,11 +60878,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 29,
         he: "אותו איש שזכה בו להוליכו לכבש חוזר",
-        en: "That kohen who won carrying the limb to the ramp returns and brings it up to the altar.",
+        en: "Rashi: continues - that same priest who won it, having carried it to the ramp, returns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-030",
@@ -60862,11 +60892,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 30,
         he: "ומעלהו לאחר זמן למזבח וכשהיו",
-        en: "When carrying to the ramp, they placed it halfway down.",
+        en: "Rashi: continues - and brings it up after a time to the altar; and when they would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-031",
@@ -60874,11 +60906,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 31,
         he: "מוליכין אותו מניחין אותו מחציו של",
-        en: "So he would not need to carry it the whole ramp's length.",
+        en: "Rashi: continues - carry it, they would set it down at the ramp's midpoint",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-032",
@@ -60886,11 +60920,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 32,
         he: "כבש למטה כדי שלא יצטרך להוליכו",
-        en: "He walks up the ramp and when he reaches the limbs' location takes them.",
+        en: "Rashi: continues - below, so that he would not need to carry it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-033",
@@ -60898,11 +60934,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 33,
         he: "כל הכבש והולך ועולה בכבש וכשמגיע",
-        en: "As taught in Shekalim (13a): the tamid's limbs are placed midway on the ramp, on the eastern side.",
+        en: "Rashi: continues - the whole length of the ramp, and he walks and ascends the ramp, and when he reaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-034",
@@ -60910,11 +60948,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 34,
         he: "למקום שהאיברים שם נוטלן והכי תנן",
-        en: "As taught in Shekalim.",
+        en: "Rashi: continues - the place where the limbs are, he takes them, and so we learn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-035",
@@ -60922,11 +60962,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 35,
         he: "במסכת שקלים (דף יג.) איברי תמיד",
-        en: "Cited: 'the limbs of the tamid are placed from mid-ramp down on the east side.'",
+        en: "Rashi: continues - in Tractate Shekalim (13a): the limbs of the daily-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-036",
@@ -60934,11 +60976,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 36,
         he: "ניתנין מחצי כבש ולמטה במזרח:",
-        en: "Because the ramp slopes up and placing them lower avoids effort.",
+        en: "Rashi: concludes - are placed from the ramp's midpoint downward, on the east.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l03"
+        ]
       },
       {
         id: "rashi-yoma-026a-037",
@@ -60946,11 +60990,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 37,
         he: "לאו אורח ארעא. למיתחזי כמאן",
-        en: "It is not respectful to appear burdened.",
+        en: "Rashi: opens 'not proper conduct' - so as not to appear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l34"
+        ]
       },
       {
         id: "rashi-yoma-026a-038",
@@ -60958,11 +61004,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 38,
         he: "דטריח ליה מילתא: לא ר\"א בן יעקב",
-        en: "R. Eliezer ben Yaakov does not hold the ruling of R. Yehuda.",
+        en: "Rashi: concludes - as one for whom the matter is a burden. Then opens 'not Rabbi Eliezer' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l35"
+        ]
       },
       {
         id: "rashi-yoma-026a-039",
@@ -60970,11 +61018,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 39,
         he: "אית ליה דר' יהודה. דאמר לא היה פייס",
-        en: "Who says there was no lottery for the fire-pan.",
+        en: "Rashi: continues - ben Yaakov holds like Rabbi Yehuda, who says there was no lottery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l35"
+        ]
       },
       {
         id: "rashi-yoma-026a-040",
@@ -60982,11 +61032,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 40,
         he: "למחתה ונותן ראב\"י פייס למחתה",
-        en: "R. Eliezer ben Yaakov gives a lottery for the fire-pan.",
+        en: "Rashi: continues - for the fire-pan, while Rabbi Eliezer ben Yaakov applies a lottery for the fire-pan",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l35"
+        ]
       },
       {
         id: "rashi-yoma-026a-041",
@@ -60994,11 +61046,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 41,
         he: "תחת פייס מן הכבש ולמזבח:",
-        en: "In place of the lottery from ramp to altar.",
+        en: "Rashi: concludes - in place of the lottery for bringing the limbs from the ramp to the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l35"
+        ]
       },
       {
         id: "rashi-yoma-026a-042",
@@ -61006,11 +61060,13 @@ const DAF_CONTENT = {
         daf: "26a",
         vilnaLine: 42,
         he: "דלא",
-        en: "Not following R. Eliezer ben Yaakov and not following R. Yehuda.",
+        en: "Rashi: the daf's final truncated word - 'not,' continuing the dibbur hamatchil that opens the Gemara's own question about finding a tanna who taught five lottery rounds, whose text continues on 26b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-026a-l37"
+        ]
       }
     ],
     review: {
