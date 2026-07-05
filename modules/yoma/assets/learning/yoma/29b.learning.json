@@ -26,287 +26,381 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Can we restore a nighttime kometz with a new daytime handful?",
+      "en": "Rashi: opens 'he taught it' - this mishna, and he said its resolution on his own reasoning.",
       "linkedGemaraLineIds": [
         "yoma-029b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Baraita principle: any offering whose time has not yet come cannot be disqualified by improper intent.",
+      "en": "Rashi: opens 'service vessels consecrate even not at their proper time' - the handful requires being placed in a vessel, and once the handful was consecrated",
       "linkedGemaraLineIds": [
-        "yoma-029b-l05"
+        "yoma-029b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Zeira objects: the baraita principle shows the nighttime kometz cannot be replaced.",
+      "en": "Rashi: concludes - in the vessel for the sake of the handful, it cannot revert to being untithed like a meal-offering not yet handfuled, and by necessity, once it is called a handful, the rest becomes leftover.",
       "linkedGemaraLineIds": [
-        "yoma-029b-l07"
+        "yoma-029b-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "What should be done? Leave the offering in place until a new kometz can be taken.",
+      "en": "Rashi: opens 'anything sacrificed during the day' - such as",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: concludes - the meal-offerings, the frankincense, the blood, and the incense.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: opens 'is consecrated' - in a service vessel during the day it becomes consecrated with",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: concludes - bodily sanctity. Then opens 'anything sacrificed at night' - such as",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - the libation meal-offering, of which the master said (Menachot 44b)",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: concludes - 'and their meal-offerings and libations,' even at night.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: opens 'is consecrated' - in a service vessel with bodily sanctity if",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: concludes - it was placed in them at night. Then opens 'in any case it teaches: anything sacrificed'",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - during the day is consecrated during the day, but at night",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - no, it is not consecrated. Then opens 'to be sacrificed' - to be valid",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - to be sacrificed, but consecrated to become fit with that",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - sanctity to be disqualified by one who immersed that day and by one lacking",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: continues - atonement if he touched it, and by one who left the Temple courtyard if he left,",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: continues - and by remaining overnight if it remained, and this too becomes disqualified",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - by remaining overnight, since we hold in Zevachim (87a) that the rise of",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - dawn causes the status of remaining overnight, and a handful taken",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: concludes - at night is disqualified since it can no longer be re-tithed.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l03"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: opens 'disqualified' - since it was not arranged on Shabbat to remain",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - there its seven days as required, and it is now",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - lacking its time. And it seems to me that the reading does not include 'disqualified,' since",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - the conclusion of our sugya does not consider the arrangement",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - of the first day an arrangement at all, but rather it is as if a monkey arranged it",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - and it is as if it were still lying in its box, and why would it disqualify",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - the bread by burning the frankincense vessels, when the table never even",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - consecrated it for the bread at all, unless he removed it",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continues - the following Shabbat and rearranged it, and this is",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - also proven from the fact that it teaches 'how shall he proceed,' implying",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - there is a remedy for the matter, and so too Rabbeinu Chananan",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - of Rome reads it explicitly: Rabbi Zeira raised an objection, etc.,",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - 'and he burned the frankincense vessels on Shabbat, how shall he proceed,' etc., and it is a novel point that he states even though",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: concludes - he burned the frankincense vessels on Shabbat as they usually do, he shall bring other vessels and arrange them with the bread.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: opens 'how shall he proceed: he shall leave it' - on the table until the following Shabbat. Then opens 'it should become consecrated'",
       "linkedGemaraLineIds": [
         "yoma-029b-l10"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Rava says: R. Zeira raises a good objection; the father of R. Avin is also raising a good point.",
+      "vilnaLine": 36,
+      "en": "Rashi: continues - 'and disqualified' - since service vessels consecrate even not at their time, it should become disqualified, and the table should consecrate",
       "linkedGemaraLineIds": [
-        "yoma-029b-l12"
+        "yoma-029b-l10"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "If nighttime service is not premature, when Shabbat comes, the wood arrangement should be left in place.",
+      "vilnaLine": 37,
+      "en": "Rashi: concludes - the bread from the first day of the week, to be disqualified by an arrangement not at its proper time. Then opens 'Rava said: this'",
       "linkedGemaraLineIds": [
         "yoma-029b-l13"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Mishna: Temple principle - anyone who 'covers his legs' (needs bathroom) leaves service.",
+      "vilnaLine": 38,
+      "en": "Rashi: continues - one who raises the objection raises it well, and the father of Rabbi Avin' - those who challenge him from it",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: continues - are not merely a statement of the Amoraim that would say to conclude it is refuted, but rather a baraita of a tanna",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continues - and we need to reconcile so the baraitot do not contradict each other, and resolve them thus: the tanna",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continues - of the father of Rabbi Avin holds that night is not a lack of time, since it was",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: concludes - fit to be consecrated in a service vessel the next morning, therefore service vessels consecrate the handful at night.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: opens 'but a day is a lack of time' - something whose time is not today but tomorrow, and it is",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: concludes - lacking a whole day's time, a lack of time, and all the more so this, whose time to be consecrated does not arrive until",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: opens 'the day of Shabbat. When Shabbat evening arrives' - since Friday night is fit to be consecrated the next day, it should",
       "linkedGemaraLineIds": [
         "yoma-029b-l16"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "As the master says (Menachot 44a) 'their meal and libation offerings' - even at night.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Is sanctified in a vessel at night.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "If placed in them at night, it has bodily sanctity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The baraita teaches: whatever is offered by day is sanctified during the day, but not at night.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Meaning: not sanctified at night for the purpose of being offered.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "But it is sanctified to become susceptible to invalidation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "By a tevul yom or one lacking atonement who touches it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Or if it went outside the boundary.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Or if it remained overnight - it would be invalidated by overnight.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Since we rule in Zevachim (87a) that dawn renders overnight invalid.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The night-time kometz which was pinched is invalidated overnight.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "It cannot revert to being meal offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Invalid - since it was not arranged on Shabbat to stand there the required seven days.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "It lacks time and is incomplete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "I add a note: perhaps we should not read 'invalid' here.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Since the conclusion of the passage is that arranging on the first day is not considered arrangement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "But like a monkey arranging it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "And it is as if it were placed in a box.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Why would the bread be invalidated by burning the frankincense bowls?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The table did not sanctify the bread at all.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Unless they clear it on the coming Shabbat and re-arrange it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "This is also proven by the teaching 'what shall he do? He leaves it.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Implying there is a remedy.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "R. Chananya of Rome reads: 'R. Zeira objected.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "And the frankincense bowls were burned on Shabbat: what shall he do?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Even though the bowls were burned on Shabbat as usual, bring new bowls and re-arrange.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Even after burning the bowls on Shabbat as usual, bring new bowls and arrange with the bread.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "What shall he do - leave it on the table until the next Shabbat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "It should be sanctified and invalidated - since sacred vessels sanctify out of time.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The table should sanctify the bread from Sunday onward and invalidate it by nighttime arrangement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rava said: he who objects well objects; and the father of R. Avin.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "From whom the objection was raised - he does not mean an amora's teaching was refuted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "It is a Tannaitic text and we must reconcile the texts without contradiction.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The tanna of the father of R. Avin holds: nighttime is not a deficiency of time.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Since it could be sanctified in the vessel in the morning; therefore sacred vessels sanctify the kometz at night.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "But a full day is a deficiency of time - something not to be offered until tomorrow.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Lacks a full day of time.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "When Friday evening arrives - nighttime of Shabbat when it can be sanctified next morning.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 46,
-      "en": "The table sanctifies it; and at night it is invalidated for overnight.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - become consecrated on the table, for you said night is not a lack of time, and it should become disqualified because of an arrangement",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "He removed it early on Friday - before Shabbat night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - at night, and it becomes disqualified in the morning by remaining overnight. Then opens 'one who removed it beforehand' - close to nightfall on the eve of",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Not as commanded - lacking the proper time.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - Shabbat. Then opens 'not in accordance with its mitzva' - through a lack of time. Then opens 'it becomes as if a monkey arranged it' - not",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "It is as if a monkey arranged it - without intent, as if placed in a box.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - deliberately, since it was arranged before Friday night on the table at a time when it was lacking",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 29b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - its time, unlike the handful taken at night and the bread arranged on Friday night, which is not",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 29b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - lacking its time and is consecrated to be disqualified (and now on Shabbat, when the time to arrange the showbread",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 29b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - arrives, the priest enters in the morning, removes it, and arranges it again), and when its own",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 29b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - time arrives, the table does not consecrate it until he removes it and rearranges it.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l16"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 29b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word, continuing the dibbur hamatchil that opens Rashi's own comment on Rabbi Abba's teaching about hand-sanctification, whose text continues on 30a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-029b-l20"
+      ]
     }
   ],
   "sugyot": [

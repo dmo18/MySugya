@@ -68190,7 +68190,7 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 1,
         he: "הוא תני לה. להא מתניתין והוא אמר לה האי תירוצא מדעתו: כלי",
-        en: "Can we restore a nighttime kometz with a new daytime handful?",
+        en: "Rashi: opens 'he taught it' - this mishna, and he said its resolution on his own reasoning.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -68204,12 +68204,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 2,
         he: "שרת מקדשין שלא בזמנו. והקומץ טעון מתן כלי וכיון שקידש הקומץ",
-        en: "Baraita principle: any offering whose time has not yet come cannot be disqualified by improper intent.",
+        en: "Rashi: opens 'service vessels consecrate even not at their proper time' - the handful requires being placed in a vessel, and once the handful was consecrated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l05"
+          "yoma-029b-l01"
         ]
       },
       {
@@ -68218,12 +68218,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 3,
         he: "בכלי לשם קומץ אינו חוזר להיות טבל כמנחה שלא נקמצה ועל כרחיה",
-        en: "R. Zeira objects: the baraita principle shows the nighttime kometz cannot be replaced.",
+        en: "Rashi: concludes - in the vessel for the sake of the handful, it cannot revert to being untithed like a meal-offering not yet handfuled, and by necessity, once it is called a handful, the rest becomes leftover.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l07"
+          "yoma-029b-l01"
         ]
       },
       {
@@ -68232,12 +68232,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 4,
         he: "מאחר שזה קרוי קומץ אינך הוו שירים: כל הקרב ביום. כגון",
-        en: "What should be done? Leave the offering in place until a new kometz can be taken.",
+        en: "Rashi: opens 'anything sacrificed during the day' - such as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l10"
+          "yoma-029b-l03"
         ]
       },
       {
@@ -68246,12 +68246,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 5,
         he: "המנחות והלבונה והדם והקטורת:",
-        en: "Rava says: R. Zeira raises a good objection; the father of R. Avin is also raising a good point.",
+        en: "Rashi: concludes - the meal-offerings, the frankincense, the blood, and the incense.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l12"
+          "yoma-029b-l03"
         ]
       },
       {
@@ -68260,12 +68260,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 6,
         he: "קדוש. בכלי שרת ביום ויקדש קדושת",
-        en: "If nighttime service is not premature, when Shabbat comes, the wood arrangement should be left in place.",
+        en: "Rashi: opens 'is consecrated' - in a service vessel during the day it becomes consecrated with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l13"
+          "yoma-029b-l03"
         ]
       },
       {
@@ -68274,12 +68274,12 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 7,
         he: "הגוף: כל הקרב בלילה. כגון",
-        en: "Mishna: Temple principle - anyone who 'covers his legs' (needs bathroom) leaves service.",
+        en: "Rashi: concludes - bodily sanctity. Then opens 'anything sacrificed at night' - such as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029b-l16"
+          "yoma-029b-l03"
         ]
       },
       {
@@ -68288,11 +68288,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 8,
         he: "מנחת נסכים דאמר מר (מנחות מד:)",
-        en: "As the master says (Menachot 44a) 'their meal and libation offerings' - even at night.",
+        en: "Rashi: continues - the libation meal-offering, of which the master said (Menachot 44b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-009",
@@ -68300,11 +68302,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 9,
         he: "ומנחתם ונסכיהם אפילו בלילה:",
-        en: "Is sanctified in a vessel at night.",
+        en: "Rashi: concludes - 'and their meal-offerings and libations,' even at night.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-010",
@@ -68312,11 +68316,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 10,
         he: "קדוש. בכלי שרת קדושת הגוף אם",
-        en: "If placed in them at night, it has bodily sanctity.",
+        en: "Rashi: opens 'is consecrated' - in a service vessel with bodily sanctity if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-011",
@@ -68324,11 +68330,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 11,
         he: "נתנו בהן בלילה: קתני מיהת כל",
-        en: "The baraita teaches: whatever is offered by day is sanctified during the day, but not at night.",
+        en: "Rashi: concludes - it was placed in them at night. Then opens 'in any case it teaches: anything sacrificed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-012",
@@ -68336,11 +68344,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 12,
         he: "הקרב ביום קדוש ביום אבל בלילה",
-        en: "Meaning: not sanctified at night for the purpose of being offered.",
+        en: "Rashi: continues - during the day is consecrated during the day, but at night",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-013",
@@ -68348,11 +68358,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 13,
         he: "לא. אינו קדוש: ליקרב. להיות כשר",
-        en: "But it is sanctified to become susceptible to invalidation.",
+        en: "Rashi: concludes - no, it is not consecrated. Then opens 'to be sacrificed' - to be valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-014",
@@ -68360,11 +68372,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 14,
         he: "ליקרב אבל קדוש להיות מוכשר באותה",
-        en: "By a tevul yom or one lacking atonement who touches it.",
+        en: "Rashi: continues - to be sacrificed, but consecrated to become fit with that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-015",
@@ -68372,11 +68386,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 15,
         he: "קדושה ליפסל בטבול יום ובמחוסר",
-        en: "Or if it went outside the boundary.",
+        en: "Rashi: continues - sanctity to be disqualified by one who immersed that day and by one lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-016",
@@ -68384,11 +68400,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 16,
         he: "כפורים אם נגע בו וביוצא אם יצא",
-        en: "Or if it remained overnight - it would be invalidated by overnight.",
+        en: "Rashi: continues - atonement if he touched it, and by one who left the Temple courtyard if he left,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-017",
@@ -68396,11 +68414,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 17,
         he: "ובלינה אם לן וזו גם היא נפסלת",
-        en: "Since we rule in Zevachim (87a) that dawn renders overnight invalid.",
+        en: "Rashi: continues - and by remaining overnight if it remained, and this too becomes disqualified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-018",
@@ -68408,11 +68428,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 18,
         he: "בלינה דקי\"ל בזבחים (דף פז.) עמוד",
-        en: "The night-time kometz which was pinched is invalidated overnight.",
+        en: "Rashi: continues - by remaining overnight, since we hold in Zevachim (87a) that the rise of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-019",
@@ -68420,11 +68442,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 19,
         he: "השחר עושה לינה ונפסלת קמיצת",
-        en: "It cannot revert to being meal offering.",
+        en: "Rashi: continues - dawn causes the status of remaining overnight, and a handful taken",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-020",
@@ -68432,11 +68456,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 20,
         he: "לילה שאין חוזרת עוד לטבלה:",
-        en: "Invalid - since it was not arranged on Shabbat to stand there the required seven days.",
+        en: "Rashi: concludes - at night is disqualified since it can no longer be re-tithed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l03"
+        ]
       },
       {
         id: "rashi-yoma-029b-021",
@@ -68444,11 +68470,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 21,
         he: "פסולה. שלא נסדרה בשבת לעמוד",
-        en: "It lacks time and is incomplete.",
+        en: "Rashi: opens 'disqualified' - since it was not arranged on Shabbat to remain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-022",
@@ -68456,11 +68484,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 22,
         he: "שם שבעת ימים כמשפטם והרי היא",
-        en: "I add a note: perhaps we should not read 'invalid' here.",
+        en: "Rashi: continues - there its seven days as required, and it is now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-023",
@@ -68468,11 +68498,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 23,
         he: "מחוסרת זמן [ול\"נ דל\"ג פסולה דהא",
-        en: "Since the conclusion of the passage is that arranging on the first day is not considered arrangement.",
+        en: "Rashi: continues - lacking its time. And it seems to me that the reading does not include 'disqualified,' since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-024",
@@ -68480,11 +68512,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 24,
         he: "מסקנא דשמעתין לא חשיב סידור",
-        en: "But like a monkey arranging it.",
+        en: "Rashi: continues - the conclusion of our sugya does not consider the arrangement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-025",
@@ -68492,11 +68526,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 25,
         he: "יום ראשון סידור אלא כסידרו הקוף",
-        en: "And it is as if it were placed in a box.",
+        en: "Rashi: continues - of the first day an arrangement at all, but rather it is as if a monkey arranged it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-026",
@@ -68504,11 +68540,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 26,
         he: "וכמונח בקופסא דמי ולמה יפסול",
-        en: "Why would the bread be invalidated by burning the frankincense bowls?",
+        en: "Rashi: continues - and it is as if it were still lying in its box, and why would it disqualify",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-027",
@@ -68516,11 +68554,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 27,
         he: "הלחם בהקטרת הבזיכין והלא לא",
-        en: "The table did not sanctify the bread at all.",
+        en: "Rashi: continues - the bread by burning the frankincense vessels, when the table never even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-028",
@@ -68528,11 +68568,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 28,
         he: "קידש השלחן ללחם כלל אא\"כ פירקו",
-        en: "Unless they clear it on the coming Shabbat and re-arrange it.",
+        en: "Rashi: continues - consecrated it for the bread at all, unless he removed it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-029",
@@ -68540,11 +68582,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 29,
         he: "בשבת הבאה ויחזור ויסדרנו והכי",
-        en: "This is also proven by the teaching 'what shall he do? He leaves it.'",
+        en: "Rashi: continues - the following Shabbat and rearranged it, and this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-030",
@@ -68552,11 +68596,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 30,
         he: "מוכח נמי מדקתני כיצד יעשה אלמא",
-        en: "Implying there is a remedy.",
+        en: "Rashi: continues - also proven from the fact that it teaches 'how shall he proceed,' implying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-031",
@@ -68564,11 +68610,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 31,
         he: "יש תקנה לדבר וה\"נ גריס בפירוש",
-        en: "R. Chananya of Rome reads: 'R. Zeira objected.'",
+        en: "Rashi: continues - there is a remedy for the matter, and so too Rabbeinu Chananan",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-032",
@@ -68576,11 +68624,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 32,
         he: "ר\"ח איש רומי מתיב רבי זירא כו'",
-        en: "And the frankincense bowls were burned on Shabbat: what shall he do?",
+        en: "Rashi: continues - of Rome reads it explicitly: Rabbi Zeira raised an objection, etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-033",
@@ -68588,11 +68638,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 33,
         he: "והקטיר הבזיכין בשבת כיצד יעשה וכו' ורבותא הוא דנקיט אע\"ג",
-        en: "Even though the bowls were burned on Shabbat as usual, bring new bowls and re-arrange.",
+        en: "Rashi: continues - 'and he burned the frankincense vessels on Shabbat, how shall he proceed,' etc., and it is a novel point that he states even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-034",
@@ -68600,11 +68652,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 34,
         he: "דהקטיר הבזיכין בשבת כמו שרגילין לעשות יביא בזיכין אחרים ויסדר",
-        en: "Even after burning the bowls on Shabbat as usual, bring new bowls and arrange with the bread.",
+        en: "Rashi: concludes - he burned the frankincense vessels on Shabbat as they usually do, he shall bring other vessels and arrange them with the bread.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l08"
+        ]
       },
       {
         id: "rashi-yoma-029b-035",
@@ -68612,11 +68666,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 35,
         he: "עם הלחם]: כיצד יעשה יניחנו. על השלחן עד שבת הבאה: תיקדש",
-        en: "What shall he do - leave it on the table until the next Shabbat.",
+        en: "Rashi: opens 'how shall he proceed: he shall leave it' - on the table until the following Shabbat. Then opens 'it should become consecrated'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l10"
+        ]
       },
       {
         id: "rashi-yoma-029b-036",
@@ -68624,11 +68680,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 36,
         he: "ותיפסל. כיון דכלי שרת מקדשין שלא בזמנו ליפסל ויקדש השלחן את",
-        en: "It should be sanctified and invalidated - since sacred vessels sanctify out of time.",
+        en: "Rashi: continues - 'and disqualified' - since service vessels consecrate even not at their time, it should become disqualified, and the table should consecrate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l10"
+        ]
       },
       {
         id: "rashi-yoma-029b-037",
@@ -68636,11 +68694,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 37,
         he: "הלחם מאחד בשבת ליפסול בסידור שלא בזמנו: אמר רבא האי",
-        en: "The table should sanctify the bread from Sunday onward and invalidate it by nighttime arrangement.",
+        en: "Rashi: concludes - the bread from the first day of the week, to be disqualified by an arrangement not at its proper time. Then opens 'Rava said: this'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-038",
@@ -68648,11 +68708,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 38,
         he: "דקא מותיב שפיר קא מותיב ואבוה דרבי אבין. דמותבי ליה מיניה",
-        en: "Rava said: he who objects well objects; and the father of R. Avin.",
+        en: "Rashi: continues - one who raises the objection raises it well, and the father of Rabbi Avin' - those who challenge him from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-039",
@@ -68660,11 +68722,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 39,
         he: "לאו שמעתתא דאמוראי אמר דנימא דאיתותב אלא מתניתא תנא",
-        en: "From whom the objection was raised - he does not mean an amora's teaching was refuted.",
+        en: "Rashi: continues - are not merely a statement of the Amoraim that would say to conclude it is refuted, but rather a baraita of a tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-040",
@@ -68672,11 +68736,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 40,
         he: "וצריכין אנו ליישב דלא ליקשו מתניתא אהדדי ותרצינהו הכי קסבר",
-        en: "It is a Tannaitic text and we must reconcile the texts without contradiction.",
+        en: "Rashi: continues - and we need to reconcile so the baraitot do not contradict each other, and resolve them thus: the tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-041",
@@ -68684,11 +68750,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 41,
         he: "תנא דאבוה דר' אבין לילה לא הוי חסרון זמן הואיל והיתה ראויה",
-        en: "The tanna of the father of R. Avin holds: nighttime is not a deficiency of time.",
+        en: "Rashi: continues - of the father of Rabbi Avin holds that night is not a lack of time, since it was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-042",
@@ -68696,11 +68764,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 42,
         he: "ליקדש בכלי שרת שחרית הלכך כלי שרת מקדשין הקומץ בלילה:",
-        en: "Since it could be sanctified in the vessel in the morning; therefore sacred vessels sanctify the kometz at night.",
+        en: "Rashi: concludes - fit to be consecrated in a service vessel the next morning, therefore service vessels consecrate the handful at night.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-043",
@@ -68708,11 +68778,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 43,
         he: "אבל יום מחוסר זמן. דבר שאין זמנו היום עד מחר והרי הוא",
-        en: "But a full day is a deficiency of time - something not to be offered until tomorrow.",
+        en: "Rashi: opens 'but a day is a lack of time' - something whose time is not today but tomorrow, and it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-044",
@@ -68720,11 +68792,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 44,
         he: "מחוסר זמן יום שלם הוי חסרון זמן וכ\"ש זה שאינו זמנו לקדש עד",
-        en: "Lacks a full day of time.",
+        en: "Rashi: concludes - lacking a whole day's time, a lack of time, and all the more so this, whose time to be consecrated does not arrive until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l13"
+        ]
       },
       {
         id: "rashi-yoma-029b-045",
@@ -68732,11 +68806,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 45,
         he: "יום השבת: כי מטי בי שמשי. דלילי שבת שהיא ראויה לקדש מחר",
-        en: "When Friday evening arrives - nighttime of Shabbat when it can be sanctified next morning.",
+        en: "Rashi: opens 'the day of Shabbat. When Shabbat evening arrives' - since Friday night is fit to be consecrated the next day, it should",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-046",
@@ -68744,11 +68820,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 46,
         he: "תקדש על השלחן דקאמרת לילה אין מחוסר זמן ותיפסל משום סידור",
-        en: "The table sanctifies it; and at night it is invalidated for overnight.",
+        en: "Rashi: continues - become consecrated on the table, for you said night is not a lack of time, and it should become disqualified because of an arrangement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-047",
@@ -68756,11 +68834,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 47,
         he: "לילה ולשחרית נפסל בלינה: שקדם וסילקו. סמוך לחשיכה ערב",
-        en: "He removed it early on Friday - before Shabbat night.",
+        en: "Rashi: concludes - at night, and it becomes disqualified in the morning by remaining overnight. Then opens 'one who removed it beforehand' - close to nightfall on the eve of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-048",
@@ -68768,11 +68848,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 48,
         he: "שבת: שלא כמצותו. בחסרון זמן: נעשה כמו שסידרו הקוף. שלא",
-        en: "Not as commanded - lacking the proper time.",
+        en: "Rashi: concludes - Shabbat. Then opens 'not in accordance with its mitzva' - through a lack of time. Then opens 'it becomes as if a monkey arranged it' - not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-049",
@@ -68780,11 +68862,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 49,
         he: "מדעתו שהרי נסדר קודם ליל שבת על השלחן בשעה שהוא מחוסר",
-        en: "It is as if a monkey arranged it - without intent, as if placed in a box.",
+        en: "Rashi: continues - deliberately, since it was arranged before Friday night on the table at a time when it was lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-050",
@@ -68792,11 +68876,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 50,
         he: "זמן דלא דמי לקומץ שנקמץ בלילה ולחם שנסדר בליל שבת דלאו",
-        en: "Rashi commentary on line 50 of 29b.",
+        en: "Rashi: continues - its time, unlike the handful taken at night and the bread arranged on Friday night, which is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-051",
@@ -68804,11 +68890,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 51,
         he: "מחוסר זמן הוא וקדוש ליפסל (ועתה בשבת כשמגיע זמן עריכת לחם",
-        en: "Rashi commentary on line 51 of 29b.",
+        en: "Rashi: continues - lacking its time and is consecrated to be disqualified (and now on Shabbat, when the time to arrange the showbread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-052",
@@ -68816,11 +68904,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 52,
         he: "הפנים הכהן יכנס שחרית ויסלק ויסדר שנית) וכשמגיע",
-        en: "Rashi commentary on line 52 of 29b.",
+        en: "Rashi: continues - arrives, the priest enters in the morning, removes it, and arranges it again), and when its own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-053",
@@ -68828,11 +68918,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 53,
         he: "זמנו אין השלחן מקדשו עד שיסלקנו ממנו ויחזור ויסדרנו:",
-        en: "Rashi commentary on line 53 of 29b.",
+        en: "Rashi: concludes - time arrives, the table does not consecrate it until he removes it and rearranges it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l16"
+        ]
       },
       {
         id: "rashi-yoma-029b-054",
@@ -68840,11 +68932,13 @@ const DAF_CONTENT = {
         daf: "29b",
         vilnaLine: 54,
         he: "מצוה",
-        en: "Rashi commentary on line 54 of 29b.",
+        en: "Rashi: the daf's final truncated word, continuing the dibbur hamatchil that opens Rashi's own comment on Rabbi Abba's teaching about hand-sanctification, whose text continues on 30a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029b-l20"
+        ]
       }
     ],
     review: {

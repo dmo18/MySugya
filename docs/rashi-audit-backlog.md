@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.27: schema backfill is complete, the perek-level semantic
+As of VERSION 15.28: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -3173,6 +3173,66 @@ resolved, 56/56, with every entry's `en` text and linkedGemaraLineIds
 now verified against the raw Rashi Hebrew and the real captured line
 ids, correcting both the 6 confirmed dangling links and the
 surrounding entries that had not been independently checked before.
+
+## 29b, full daf (VERSION 15.28), sixth dangling-link daf in a row
+
+Continuing the resumed run. Before any edit, the 29a/29b boundary was
+re-verified read-only: 29a's truncated final word "הוא" (it/he) is
+completed by 29b's opening, which itself repeats 29a's own final
+Gemara word "נהדרה" (let us return it) before continuing "ונהדר
+ונקמצה ביממא" (and let us return it and take the handful during the
+day), in both the Gemara and Rashi columns, continuing the baraita on
+pinching a bird and taking a handful at night cleanly. No edit was
+made to 29a. The mandatory preflight raw-count check was run first:
+talmud.dev's non-empty raw Rashi array for 29b has 54 lines, and the
+prior enrichment JSON's `rashiTranslations` also had 54 entries, an
+exact match on count.
+
+Per the now-standard practice, every existing `linkedGemaraLineIds`
+value was independently checked against the daf's real captured
+Gemara line ids before trusting the count match. 29b's real ids are
+`l01`, `l03`, `l08`, `l10`, `l13`, `l16`, `l20` (7 total, spanning 23
+raw Gemara print lines). Checking every prior entry against this set
+found 3 dangling references to nonexistent ids: vilnaLine 2 to `l05`,
+vilnaLine 3 to `l07`, and vilnaLine 5 to `l12`. This is the sixth
+consecutive daf with this failure mode, so the whole daf was rebuilt
+using the list-indexed methodology.
+
+All 54 raw Rashi print lines were read against the raw Gemara text
+and the 7 real captured line ids, using the multi-DH rule. The
+correspondence: vilnaLine 1-3 (he taught it, service vessels
+consecrate even not at their proper time) to `l01`; 4-20 (anything
+sacrificed during the day, at night, is consecrated, in any case it
+teaches, to be sacrificed, to be disqualified by remaining overnight)
+to `l03`; 21-34 (disqualified, a girsa note that the reading may omit
+the word "disqualified" since the conclusion of the sugya treats the
+first day's arrangement as no arrangement at all, citing Rabbeinu
+Chananel of Rome's explicit reading) to `l08`; 35-36 (how shall he
+proceed: he shall leave it, it should become consecrated and
+disqualified) to `l10`; 37-44 (Rava said: this one who raises the
+objection raises it well, but a day is a lack of time) to `l13`;
+45-53 (when Shabbat evening arrives, one who removed it beforehand,
+it becomes as if a monkey arranged it) to `l16`. All 7 of this daf's
+real captured Gemara lines received a dedicated comment; none were
+folded.
+
+vilnaLine 54, the daf's final truncated word "מצוה" (mitzva, i.e. a
+matter of proper conduct), is the same kind of boundary case as every
+other daf ending in this run: per the policy, it is linked to
+`yoma-029b-l20`, 29b's own final locally captured Gemara line (Rabbi
+Abba's teaching that one learns proper conduct from the requirement
+to sanctify hands as well as feet), even though the DH's own point is
+itself still open at the point of truncation, continuing onto 30a.
+
+All 54 entries were fixed in a single list-indexed pass. 29b is fully
+resolved, 54/54, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 3 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
+This closes out a sixth consecutive dangling-link daf (27a, 27b, 28a,
+28b, 29a, 29b), further confirming the dangling-link check is now the
+default expectation, not an edge case, for the remainder of this
+corpus.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
