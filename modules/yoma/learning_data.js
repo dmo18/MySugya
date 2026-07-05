@@ -50334,7 +50334,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 1,
         he: "בראשונה כל מי שרוצה לתרום. כל כהן שהיה מאותו בית",
-        en: "Initially: whoever arrives first removes the ashes - the competitive ramp race.",
+        en: "Rashi: opens 'initially, whoever wished to remove the ashes' - any priest from that priestly watch",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -50348,7 +50348,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 2,
         he: "אב רוצה לתרום הדשן שחרית תורם ולא היה פייס",
-        en: "Commentary on the original free-for-all procedure.",
+        en: "Rashi: continues - who wished to remove the ashes in the morning would do so, and there was no lottery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -50362,7 +50362,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 3,
         he: "לדבר: ובזמן שהן מרובין. הבאים לתרום זה אומר אני תורם וזה",
-        en: "Commentary on why priests wanted this service so zealously.",
+        en: "Rashi: concludes - for the matter. Then opens 'and when they were many' - those coming to remove the ashes, one saying I will remove them and another",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -50376,7 +50376,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 4,
         he: "אומר אני תורם זה היה משפטו: רצין ועולין בכבש. שהיא שלשים",
-        en: "Commentary on the ramp race.",
+        en: "Rashi: concludes - saying I will remove them, this was the practice. Then opens 'they would run up the ramp' - which is thirty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -50390,12 +50390,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 5,
         he: "ושתים אורך: וכל הקודם בהן. ליכנס",
-        en: "When two are equal - a count-off or restart race.",
+        en: "Rashi: concludes - two cubits in length. Then opens 'and whoever preceded his fellow' - by entering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l05"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50404,12 +50404,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 6,
         he: "לתוך ארבע אמות עליונות של כבש",
-        en: "Commentary on the tie-breaking procedure.",
+        en: "Rashi: continues - into the upper four cubits of the ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l07"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50418,12 +50418,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 7,
         he: "הסמוכות לראש המזבח זכה לתרום",
-        en: "The count-off: officer names a number; priests extend fingers.",
+        en: "Rashi: continues - adjacent to the top of the altar, would win the removal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l07"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50432,12 +50432,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 8,
         he: "וזהו גורלם: ואם היו שניהם שוים.",
-        en: "Commentary on how the count-off worked.",
+        en: "Rashi: concludes - and this was their means of deciding. Then opens 'and if the two of them were equal' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l07"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50446,12 +50446,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 9,
         he: "בכניסתן אין אחד מהן זוכה לתרום",
-        en: "Commentary on the fairness of the count-off.",
+        en: "Rashi: continues - in their entry, so that neither of them won the removal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l07"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50460,12 +50460,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 10,
         he: "אבל מעתה כולם באין להטיל גורל",
-        en: "Commentary on the transition to the Saul digression.",
+        en: "Rashi: continues - then all of them would come to cast lots,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l12"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50474,12 +50474,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 11,
         he: "ומהו הגורל הממונה על הפייסות",
-        en: "Saul counted Israel - the word mispar connects to the Temple count-off.",
+        en: "Rashi: continues - and what was the lottery? The officer in charge of the lotteries",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l12"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50488,12 +50488,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 12,
         he: "אומר לכולם: הצביעו. הוציאו",
-        en: "Commentary on the Saul and David comparison.",
+        en: "Rashi: continues DH - would say to all of them, 'extend a finger.' Then the comment - put forward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l16"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50502,12 +50502,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 13,
         he: "אצבעותיכם כל אחד יראה אצבעו",
-        en: "Why was Saul punished more severely than David?",
+        en: "Rashi: continues - your fingers, each one showing his finger,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l16"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50516,12 +50516,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 14,
         he: "כדמפרש לקמן בפרקין מקיפין ועומדין",
-        en: "Saul uprooted a Torah command publicly.",
+        en: "Rashi: continues - as is explained further on in this chapter: they would encircle and stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l18"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50530,12 +50530,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 15,
         he: "בעגולה בא הממונה ונוטל מצנפת",
-        en: "David sinned privately and repented immediately.",
+        en: "Rashi: continues - in a circle, and the officer would come and take the turban",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l18"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50544,12 +50544,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 16,
         he: "מעל ראש של אחד מהן וממנו פייס",
-        en: "Commentary on Saul's sin with Amalek.",
+        en: "Rashi: continues - off the head of one of them, and from him the counting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l21"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50558,12 +50558,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 17,
         he: "מתחיל לימנות ומוציא כל אחד ואחד",
-        en: "Saul spared Agag and the best sheep despite the command to destroy all.",
+        en: "Rashi: continues - would begin, and each one in turn would put forward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l21"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50572,12 +50572,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 18,
         he: "אצבעו למנין והממונה אומר כל",
-        en: "Samuel: you rejected God's word, God rejects you.",
+        en: "Rashi: continues - his finger to be counted, and the officer would say that whoever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l22"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50586,12 +50586,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 19,
         he: "שהמנין כלה בו הוא זוכה ומוציא",
-        en: "Commentary on Samuel's response to partial obedience.",
+        en: "Rashi: continues - the count ended on would be the winner, and he would call out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l22"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50600,12 +50600,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 20,
         he: "מפיו מנין או מאה או ששים הרבה",
-        en: "Commentary on David's sin with Bathsheba and Uriah.",
+        en: "Rashi: continues - from his mouth a number, whether a hundred or sixty, much",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l27"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50614,12 +50614,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 21,
         he: "יותר משהיו שם הכהנים ומתחיל",
-        en: "David's sin: adultery and arranging Uriah's death.",
+        en: "Rashi: continues - greater than the number of priests present, and he would begin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l27"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50628,12 +50628,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 22,
         he: "למנות מזה שנטל מראשו המצנפת",
-        en: "Commentary on why David was not dethroned.",
+        en: "Rashi: continues - counting from the one whose turban was taken,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l27"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50642,12 +50642,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 23,
         he: "וסובב והולך ומונה וחוזר חלילה עד",
-        en: "Commentary on the nature of repentance in each case.",
+        en: "Rashi: continues - and go around counting, circling repeatedly until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l30"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50656,12 +50656,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 24,
         he: "סוף המנין ומי שהמנין כלה בו הוא",
-        en: "Commentary on public vs. private sin.",
+        en: "Rashi: continues - the count was finished, and whoever the count ended on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l30"
+          "yoma-022a-l01"
         ]
       },
       {
@@ -50670,12 +50670,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 25,
         he: "הזוכה וכן לכל הפייסות: אחת או",
-        en: "Commentary on the resolution of the Saul-David comparison.",
+        en: "Rashi: concludes - was the winner, and so for all the lottery rounds. Then opens 'one or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l30"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50684,12 +50684,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 26,
         he: "שתים. בגמרא פריך לה עלה: ואין",
-        en: "Commentary on the transition back to the main topic.",
+        en: "Rashi: continues DH - two' [fingers] - the Gemara challenges this below. Then opens 'and they would not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l36"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50698,12 +50698,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 27,
         he: "מוציאין אגודל במקדש. בגמרא מפרש",
-        en: "The incident: two priests race, one pushes and stabs the other.",
+        en: "Rashi: continues DH - extend a thumb in the Temple' - the Gemara explains below",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l36"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50712,12 +50712,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 28,
         he: "מפני הרמאין כשיקרב המנין לכלות",
-        en: "Commentary on the violence in the Temple.",
+        en: "Rashi: continues - because of cheats: when the count was about to end",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l36"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50726,12 +50726,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 29,
         he: "ויביט למי יכלה יוציא זה העומד לפניו",
-        en: "Commentary on the stabbing on the ramp.",
+        en: "Rashi: continues - and he saw on whom it would land, the one standing before him would put forward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l36"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50740,12 +50740,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 30,
         he: "שתי אצבעות כדי שימנה בשני בני",
-        en: "The father runs to remove the knife - concerned about impurity, not his son.",
+        en: "Rashi: continues - two fingers so that he would be counted as two people,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l39"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50754,12 +50754,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 31,
         he: "אדם וימהר המנין לכלות בו והממונה",
-        en: "Commentary on the father's halakhic reflex.",
+        en: "Rashi: continues - hastening the count to land on him, and the officer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l39"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50768,12 +50768,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 32,
         he: "לא יבין לפי שאדם יכול להרחיק",
-        en: "They saw he was still alive - the crowd realizing the priest had survived.",
+        en: "Rashi: continues - would not notice, since a person can spread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l39"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50782,12 +50782,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 33,
         he: "אגודל מן האצבע הרבה ונראין",
-        en: "Commentary on the institution of the lottery.",
+        en: "Rashi: continues - the thumb far from the finger, so that they appear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l05"
         ]
       },
       {
@@ -50796,12 +50796,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 34,
         he: "כאצבעות ב' בני אדם: אלא בפייס.",
-        en: "The Sages abolished the race and instituted the lottery system.",
+        en: "Rashi: concludes - like the fingers of two people. Then opens 'rather, by lottery' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l07"
         ]
       },
       {
@@ -50810,12 +50810,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 35,
         he: "זה שפירשנו: ארבע פייסות היו שם.",
-        en: "Commentary on the lottery as the comprehensive reform.",
+        en: "Rashi: concludes - this, which we explained. Then opens 'there were four lottery rounds there' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l07"
         ]
       },
       {
@@ -50824,12 +50824,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 36,
         he: "ד' פעמים ביום נאספים לפייס:",
-        en: "Commentary on the transition from violence to order.",
+        en: "Rashi: concludes - four times a day they gathered for a lottery.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l07"
         ]
       },
       {
@@ -50838,315 +50838,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 37,
         he: "גמ' והא. עבודה זו של תרומת",
-        en: "Commentary on the knife impurity concern.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l39"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-038",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 38,
-        he: "הדשן: מעיקרא. קודם שאירע תקלה",
-        en: "Commentary on tumeat met and knife status.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l39"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-039",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 39,
-        he: "במרוצתם: מ\"ט לא תקינו לה פייסא.",
-        en: "Commentary on the closing of the incident.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-040",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 40,
-        he: "ככל שאר עבודות דמתני' דתנינן",
-        en: "Commentary on the lottery replacing all competition.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-041",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 41,
-        he: "שכל תחילתן בפייס היתה: מעיקרא",
-        en: "Commentary on the shock that caused reform.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-042",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 42,
-        he: "סבור. בית דין: כיון דעבודת לילה",
-        en: "Commentary on the chapter structure.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-043",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 43,
-        he: "היא. הואיל והוכשר בלילה לא חשיבא",
-        en: "Commentary on the Saul digression ending.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-044",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 44,
-        he: "ליה לכהנים ולא אתו לאינצויי עלה:",
-        en: "Commentary on repentance theme.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-045",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 45,
-        he: "והא הקטרת איברים. שהוא כשר",
-        en: "Commentary on the conclusion of this section.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-046",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 46,
-        he: "כל הלילה ותנן גבי פייסות דמתני'",
-        en: "Commentary on the continuation to 22b.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-047",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 47,
-        he: "(לקמן דף כה.) מי מעלה איברים",
-        en: "Commentary on the priests and their zeal for service.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-048",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 48,
-        he: "לכבש ומן הכבש למזבח: סוף עבודה",
-        en: "Commentary on the original race system.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-049",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 49,
-        he: "דיממא היא. שהוא גמרו של קרבן",
-        en: "Commentary on the ramp race in context.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-050",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 50,
-        he: "שנשחט ביום ונזרק דמו ביום לכך",
-        en: "Commentary on chapter 2 opening.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-051",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 51,
-        he: "חשובה בעיני הכהנים לבא לריב",
-        en: "Commentary on the Saul-David comparison conclusion.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-052",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 52,
-        he: "עליה: למחר אין צריך לקדש. אם",
-        en: "Commentary on the incident's impact on Temple law.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-053",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 53,
-        he: "לא יצא מן המקדש ואפי' לרבי דאמר בשחיטת קדשים (זבחים דף יט:) לינה מועלת בקידוש ידים ורגלים מודה הוא דמקרות גבר עד צפרא לא",
-        en: "Commentary on the lottery as divine selection.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-054",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 54,
-        he: "פסלה לינה: מתחילת עבודה. אלמא תחילת עבודה קרי לה: אימא שכבר קידש מתחילה. לשם עבודה: שאני מיגנא ממיקם. נוח",
-        en: "Commentary on the closing of chapter 2 opening.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-055",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 55,
-        he: "לו לאדם לנדד שינה מעיניו מלילך לישן עד סוף הלילה מלהיות עומד ממטתו בהשכמה שהיא תרומת הדשן: ותקנתא להאי גיסא הואי.",
-        en: "Commentary on the transition to the lottery procedure.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l40"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-056",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 56,
-        he: "קושיא היא וכי מפני תקלה שאירעה נתקן לה פייס: והא להאי גיסא הואי. בשביל סידור המערכה ושני גזירי עצים שהתורם הוא",
-        en: "Commentary on the count-off as precursor to lottery.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l07"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-057",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 57,
-        he: "המסדר וכיון דכולן בכהן אחד יש כאן עבודות חשובות ומעיקרא בעו פייס: שני גזירי עצים. שני בקעיות עצים ארוכים כמדת רוחב",
-        en: "Commentary on the Saul narrative context.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l16"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-058",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 58,
-        he: "המערכה ונותן אותן ממעל עצי המערכה ומקרא יליף לה לקמן (דף כו:) ובער עליה הכהן עצים ובער על המערכת העצים שני",
-        en: "Commentary on the continuation of the Saul-David discussion.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-022a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-022a-059",
-        sourceType: "rashi",
-        daf: "22a",
-        vilnaLine: 59,
-        he: "גזירי עצים דהא קרא במערכה משתעי רישיה דקרא והאש על המזבח תוקד בו וגו' וכל מוקדה שבענין לשון מערכת",
-        en: "Commentary on the role of Scripture in this digression.",
+        en: "Rashi: opens 'Gemara: but this' - this service of the removal of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -51155,17 +50847,325 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-022a-038",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 38,
+        he: "הדשן: מעיקרא. קודם שאירע תקלה",
+        en: "Rashi: concludes - the ashes. Then opens 'originally' - before the mishap occurred",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-039",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 39,
+        he: "במרוצתם: מ\"ט לא תקינו לה פייסא.",
+        en: "Rashi: concludes - in their running. Then opens 'what is the reason they did not institute a lottery for it' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-040",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 40,
+        he: "ככל שאר עבודות דמתני' דתנינן",
+        en: "Rashi: continues - like all the other services in the mishna, about which we learned",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-041",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 41,
+        he: "שכל תחילתן בפייס היתה: מעיקרא",
+        en: "Rashi: concludes - that all of them began by lottery. Then opens 'originally'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-042",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 42,
+        he: "סבור. בית דין: כיון דעבודת לילה",
+        en: "Rashi: continues DH - they assumed' - the court. Then opens 'since it is a nighttime service'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-043",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 43,
+        he: "היא. הואיל והוכשר בלילה לא חשיבא",
+        en: "Rashi: continues DH - it is' - since it is valid at night, it was not significant",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-044",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 44,
+        he: "ליה לכהנים ולא אתו לאינצויי עלה:",
+        en: "Rashi: concludes - to the priests, so they did not come to quarrel over it.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-045",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 45,
+        he: "והא הקטרת איברים. שהוא כשר",
+        en: "Rashi: opens 'but the burning of the limbs' - which is valid",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-046",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 46,
+        he: "כל הלילה ותנן גבי פייסות דמתני'",
+        en: "Rashi: continues - all night, and we learned regarding the lotteries of the mishna",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-047",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 47,
+        he: "(לקמן דף כה.) מי מעלה איברים",
+        en: "Rashi: continues - (below, 25a): who brings up the limbs",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-048",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 48,
+        he: "לכבש ומן הכבש למזבח: סוף עבודה",
+        en: "Rashi: concludes - to the ramp and from the ramp to the altar. Then opens 'the end of a daytime service' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-049",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 49,
+        he: "דיממא היא. שהוא גמרו של קרבן",
+        en: "Rashi: continues DH - it is' - for it is the completion of an offering",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-050",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 50,
+        he: "שנשחט ביום ונזרק דמו ביום לכך",
+        en: "Rashi: continues - slaughtered by day whose blood was sprinkled by day, therefore",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-051",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 51,
+        he: "חשובה בעיני הכהנים לבא לריב",
+        en: "Rashi: continues - it was significant in the priests' eyes, leading them to quarrel",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-052",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 52,
+        he: "עליה: למחר אין צריך לקדש. אם",
+        en: "Rashi: concludes - over it. Then opens 'the next day he need not sanctify his hands again' - if",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l18"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-053",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 53,
+        he: "לא יצא מן המקדש ואפי' לרבי דאמר בשחיטת קדשים (זבחים דף יט:) לינה מועלת בקידוש ידים ורגלים מודה הוא דמקרות גבר עד צפרא לא",
+        en: "Rashi: continues - he did not leave the Temple; and even according to Rabbi, who says in tractate Zevachim (19b) that an overnight stay undoes the sanctification of the hands and feet, he concedes that from the rooster's crow until dawn it does not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l18"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-054",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 54,
+        he: "פסלה לינה: מתחילת עבודה. אלמא תחילת עבודה קרי לה: אימא שכבר קידש מתחילה. לשם עבודה: שאני מיגנא ממיקם. נוח",
+        en: "Rashi: concludes - count as an overnight stay that disqualifies. Then opens and closes 'from the start of the service' - implying it is called the start of the service. Then opens and closes 'say rather that he already sanctified from the start' - for the sake of the service. Then opens 'it is easier to forgo sleep than to rise' - it is easier",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l22"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-055",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 55,
+        he: "לו לאדם לנדד שינה מעיניו מלילך לישן עד סוף הלילה מלהיות עומד ממטתו בהשכמה שהיא תרומת הדשן: ותקנתא להאי גיסא הואי.",
+        en: "Rashi: concludes - for a person to keep sleep from his eyes by not going to sleep until the end of the night, than to rise early from his bed for the removal of the ashes. Then opens 'and the enactment was for this side' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l27"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-056",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 56,
+        he: "קושיא היא וכי מפני תקלה שאירעה נתקן לה פייס: והא להאי גיסא הואי. בשביל סידור המערכה ושני גזירי עצים שהתורם הוא",
+        en: "Rashi: concludes - this is a difficulty: was a lottery instituted for it only because of the mishap that occurred? Then opens 'but it was for this side too' - for the sake of arranging the woodpile and the two wood logs, since the one who removes the ashes is",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l27"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-057",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 57,
+        he: "המסדר וכיון דכולן בכהן אחד יש כאן עבודות חשובות ומעיקרא בעו פייס: שני גזירי עצים. שני בקעיות עצים ארוכים כמדת רוחב",
+        en: "Rashi: concludes - the one who arranges them, and since they all fall to one priest there are significant services here, which from the start required a lottery. Then opens 'two wood logs' - two long split logs, the size of the width of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l27"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-058",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 58,
+        he: "המערכה ונותן אותן ממעל עצי המערכה ומקרא יליף לה לקמן (דף כו:) ובער עליה הכהן עצים ובער על המערכת העצים שני",
+        en: "Rashi: continues - the woodpile, placed atop the wood of the arrangement; and this is derived from a verse below (26b): 'and the priest shall kindle wood upon it,' and 'the wood shall burn upon the arrangement' - two",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l27"
+        ]
+      },
+      {
+        id: "rashi-yoma-022a-059",
+        sourceType: "rashi",
+        daf: "22a",
+        vilnaLine: 59,
+        he: "גזירי עצים דהא קרא במערכה משתעי רישיה דקרא והאש על המזבח תוקד בו וגו' וכל מוקדה שבענין לשון מערכת",
+        en: "Rashi: continues - wood logs, since the verse speaks of the arrangement, its beginning being 'and the fire on the altar shall be kept burning on it,' etc., and every 'kept burning' in that passage is a term for an arranged",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-022a-l27"
+        ]
+      },
+      {
         id: "rashi-yoma-022a-060",
         sourceType: "rashi",
         daf: "22a",
         vilnaLine: 60,
         he: "מדורה היא: אמרי מי יימר דמתרמי. לא חשיבא עלייהו למיטרח עלה מספיקא: דארעא. ארבע אמות קרקע הסמוכות",
-        en: "Commentary on the closing of the scriptural digression.",
+        en: "Rashi: concludes - bonfire. Then opens and closes 'they said, who can guarantee it will fall to us' - it was not significant enough to them to trouble over it on mere possibility. Then opens 'of the ground' - the four cubits of ground adjacent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l30"
+          "yoma-022a-l36"
         ]
       },
       {
@@ -51174,12 +51174,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 61,
         he: "קודם עלות לכבש: קמייתא נמי לא. ארבע ראשונות שברגל הכבש: דביני ביני. לברור ארבע אמות בתוך שלשים",
-        en: "Commentary on the chapter 2 introduction structure.",
+        en: "Rashi: concludes - before ascending the ramp. Then opens and closes 'the first ones also not' - the first four at the foot of the ramp. Then opens 'in between' - to select four cubits within the thirty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l01"
+          "yoma-022a-l39"
         ]
       },
       {
@@ -51188,12 +51188,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 62,
         he: "ושתים (לכך): לא מסיימין. לא יהא בהן סימן: פשיטא לי. דארבע דכבש גבי מזבח תנן מיהו הא מיבעי לי דקי\"ל בזבחים",
-        en: "Commentary on the lottery's role in chapter 2.",
+        en: "Rashi: concludes - two cubits ramp length, for this purpose. Then opens and closes 'not defined' - that they have no marker. Then opens 'it is clear to me' - that the four cubits of the ramp we learned refer to the altar; but this I still need to ask, since we hold in tractate Zevachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l39"
         ]
       },
       {
@@ -51202,12 +51202,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 63,
         he: "(דף סב:) שהכבש פורח אמה על כניסת היסוד ואמה הסובב נמצאו ארבע הסמוכות לכבש לתחילת יסוד מזבח מלמטה הן שש לסמיכת גג",
-        en: "Commentary on the count-off procedure details.",
+        en: "Rashi: continues - (62b) that the ramp overhangs the base's projection by a cubit and the ledge by a cubit, so the four cubits adjacent to the ramp at the start of the altar's base from below turn out to be six at the level of the roof",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l07"
+          "yoma-022a-l39"
         ]
       },
       {
@@ -51216,12 +51216,12 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 64,
         he: "המזבח שהוא משוך מנגד היסוד (מזבח) הראשון שתי אמות ומבעיא ליה ד' אמות דמתני' לגג המזבח נקט להו דהיינו בהדי אמה יסוד ואמה סובב:",
-        en: "Commentary on the transition to 22b lottery discussion.",
+        en: "Rashi: concludes - of the altar, which is set back from the first base by two cubits; and he raises the question of whether the mishna's four cubits, taken at the roof of the altar, already include the cubit of the base and the cubit of the ledge.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-022a-l40"
+          "yoma-022a-l39"
         ]
       },
       {
@@ -51230,7 +51230,7 @@ const DAF_CONTENT = {
         daf: "22a",
         vilnaLine: 65,
         he: "או",
-        en: "Commentary on the lottery system overview.",
+        en: "Rashi: the daf's final truncated word - 'or,' continuing Rav Pappa's dilemma about the four cubits into its second alternative, whose text continues on 22b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though that line's own text (Rav Pappa's question) is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

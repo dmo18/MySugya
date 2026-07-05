@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.12: schema backfill is complete, the perek-level semantic
+As of VERSION 15.13: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -207,7 +207,12 @@ word complete cleanly on 21b's opening) and fixing all 46 of 21b's
 entries in two sub-chunks, closing 21b and Perek 1 of Yoma entirely
 (46/46 resolved), including a self-caught correction of an initial
 mismapping (vilnaLine 40-41 moved from `l37` to `l40` after a direct
-text check). No
+text check). At VERSION 15.13 (see "22a, full daf" below) the run
+continued into Perek 2, confirming 22a opens with a clean perek
+boundary (Mishna's full opening phrase, not a truncated
+continuation) and fixing all 65 of 22a's entries in two sub-chunks
+(65/65 resolved), including replacing one stub run's fabricated
+"Saul counted Israel" tangent that did not exist in the real text. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2076,6 +2081,62 @@ All 46 entries were fixed across two sub-chunks (vilnaLine 1-26, then
 entirely with real translations replacing every generic placeholder
 and every linkedGemaraLineIds value corrected to its real zero-padded
 `yoma-021b-lXX` target.
+
+## 22a, full daf (VERSION 15.13), two sub-chunks, opening Perek 2
+
+Continuing the fast alignment run into Perek 2. 21b ended with the
+"Hadran" perek-closing formula, and 22a opens fresh with Perek 2's
+Mishna "בראשונה כל מי שרוצה לתרום" (initially, whoever wished to
+remove the ashes), a complete, non-truncated phrase in both the
+Gemara and Rashi columns - a clean perek boundary with no
+continuation issue, unlike the mid-sentence truncations at every
+other daf boundary in this run. No edit was needed to 21b.
+
+22a's Gemara side has 13 real captured lines (`l01`, `l05`, `l07`,
+`l12`, `l16`, `l18`, `l21`, `l22`, `l27`, `l30`, `l36`, `l39`, `l40`)
+against 41 raw print lines, and its Rashi side has 65 raw print
+lines, all carrying the same generic descriptive-style placeholder
+text as 21a/21b. One stub run even fabricated an entire tangent not
+present in the real text (a "Saul counted Israel" digression,
+vilnaLine 10-15 in the prior stub), illustrating why this audit reads
+the raw Rashi print lines directly rather than trusting existing `en`
+text.
+
+All 65 raw Rashi print lines were read against the raw Gemara text
+and the 13 real captured line ids, using the same multi-DH rule as
+prior daf. The correspondence: vilnaLine 1-24 (the original
+first-come ramp race, its danger, and the finger-count lottery
+mechanics) to `l01`; 25-33 (one or two fingers, no thumbs, the
+cheating countermeasure) to `l05`; 34-36 (the four daily lottery
+rounds) to `l07`; 37-44 (why a lottery was not instituted from the
+start) to `l12`; 45-51 (the limb-burning counter-question) to `l16`;
+52-53 (no re-sanctification needed the next day) to `l18`; 54 (easier
+to stay awake than rise early) to `l22`; 55-59 (the wood-arrangement
+enactment and the two wood logs) to `l27`; 60 (the four cubits of
+ground before the ramp) to `l36`; 61-64 (the ramp's own four cubits
+and Rav Pappa's base/ledge question) to `l39`; 65 (the boundary case
+below) to `l40`. `l21` (the alternate "they said" framing of the
+sleep-deprivation answer) and `l30` (Rav Sheshet's "who can guarantee
+it will fall to us" aside) each have their own dibbur hamatchil
+opened and closed within a single raw print line whose comment
+continues on to a later-opened DH; per the same multi-DH rule used
+throughout this run, that raw line's vilnaLine target follows the
+last-opened DH, so `l21` and `l30` legitimately carry no vilnaLine of
+their own, the same pattern already seen for `l19`/`l25`/`l37` in 21b
+and `l22` in 21a.
+
+vilnaLine 65, the daf's final truncated word "או" (or), is the same
+kind of boundary case as 20b's vilnaLine 62 and 21a's vilnaLine 62:
+per the policy, it is linked to `yoma-022a-l40`, 22a's own final
+locally captured Gemara line, even though `l40`'s own text (Rav
+Pappa's base/ledge question) is itself still open at the point of
+truncation and its resolution continues onto 22b.
+
+All 65 entries were fixed across two sub-chunks (vilnaLine 1-33, then
+34-65). 22a is fully resolved, 65/65, with real translations
+replacing every generic placeholder (including the fabricated Saul
+tangent) and every linkedGemaraLineIds value corrected to its real
+zero-padded `yoma-022a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
