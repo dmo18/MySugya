@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.17: schema backfill is complete, the perek-level semantic
+As of VERSION 15.18: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -235,7 +235,12 @@ captured lines it echoes rather than forcing artificial breaks. At
 VERSION 15.17 (see "24a, full daf" below) the run continued to the
 four-capital-services sugya, confirming the 23b/24a boundary is
 clean and fixing all 47 of 24a's entries in two sub-chunks (47/47
-resolved). No
+resolved). At VERSION 15.18 (see "24b, full daf" below) the run
+closed out at the bounded 21a-24b endpoint, confirming the 24a/24b
+boundary is clean, confirming 24b's own final line ends mid-word
+rather than at a perek close, and fixing all 65 of 24b's entries in
+two sub-chunks (65/65 resolved). This completes the bounded fast
+alignment run: 8 daf (21a-24b), 430 entries fixed, no daf deferred. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2422,6 +2427,77 @@ All 47 entries were fixed across two sub-chunks (vilnaLine 1-24, then
 25-47). 24a is fully resolved, 47/47, with real translations
 replacing every generic placeholder and every linkedGemaraLineIds
 value corrected to its real zero-padded `yoma-024a-lXX` target.
+
+## 24b, full daf (VERSION 15.18), two sub-chunks, closing the fast alignment run at 21a-24b
+
+Continuing and closing out the bounded fast alignment run. Before any
+edit, the 24a/24b boundary was re-verified read-only: 24a's truncated
+final word "ולמבית" (and to inside) is completed by 24b's opening
+"ולמבית לפרוכת" (and to inside the curtain) in both the Gemara and
+Rashi columns, continuing Levi's derivation of the inner sprinklings
+cleanly. No edit was made to 24a. The entry-count check was run again
+first: `len(rashiTranslations)` (65) matched talmud.dev's non-empty
+raw Rashi array length (65) before any translation work began. 24b's
+own final Gemara line ends mid-word ("מַאי") rather than with a
+Hadran formula, confirming this is a standard truncation boundary,
+not a perek close (Yoma's Perek 2 continues past 24b).
+
+24b's Gemara side has 18 real captured lines (`l01`, `l03`, `l06`,
+`l07`, `l09a`, `l09b`, `l12`, `l14`, `l15`, `l20`, `l23`, `l26`,
+`l31`, `l35`, `l37`, `l39`, `l41`, `l43`; `l09a`/`l09b` share one
+Vilna line, the same pattern already seen at `l01a`/`l01b` on 24a)
+against 45 raw Gemara print lines, and its Rashi side has 65 raw
+print lines carrying the same generic descriptive-style placeholder
+text as the daf before it.
+
+All 65 raw Rashi print lines were read against the raw Gemara text
+and the 18 real captured line ids, using the same multi-DH rule as
+prior daf. The correspondence: vilnaLine 1-4 (the gift-service inside
+the curtain) to `l01`; 5-8 (the complete-service reading of the same
+verse) to `l03`; 9-13 (why the verse repeats "and he shall serve")
+to `l06`; 14-15 (a removal-service in the Sanctuary itself) to `l07`;
+16-19 (why the verse writes "and to inside" rather than "inside")
+to `l09a`; 20-28 (the "if so" challenges: the showbread, the dishes,
+the ash-pan) to `l09b`; 29-32 (arranging the candelabrum) to `l12`;
+33-41 (kindling the tinder, the priestly garments required) to `l15`;
+42-46 (arranging the wood-pile and the two logs) to `l20`; 47-52
+(Rav and Rabbi Yochanan's dispute over whether arranging the two logs
+is a complete service) to `l23`; 53-59 (the specific capital-liability
+services: sprinkling, the bird offerings, the libations) to `l26`;
+60-61 (the boundary case for the lottery's four daily rounds) to
+`l35`; 62 (why they gather with noise) to `l37`; 63 (which garments
+for the lottery) to `l39`; 64-65 (the boundary case below, the
+attendants who received the priests' garments) to `l43`. `l14` (the
+straightforward "lighting is not itself a service" clause), `l31`
+(Levi's own baraita enumerating the capital-liability services, whose
+own DH gets folded into the following comment by the multi-DH rule),
+and `l41` (Rav Nachman and Rav Sheshet's dueling justifications for
+their own view, likewise folded into the DH that follows) all have
+no dedicated vilnaLine of their own in this daf's column, the same
+established folding pattern seen throughout this run.
+
+vilnaLine 65, the daf's final truncated word "שלא" (that not), is
+the same kind of boundary case as every other daf ending in this
+run: per the policy, it is linked to `yoma-024b-l43`, 24b's own final
+locally captured Gemara line (the account of stripping the
+attendants of their garments), even though the DH's own point is
+itself still open at the point of truncation, continuing onto 25a.
+
+All 65 entries were fixed across two sub-chunks (vilnaLine 1-32, then
+33-65). 24b is fully resolved, 65/65, with real translations
+replacing every generic placeholder and every linkedGemaraLineIds
+value corrected to its real zero-padded `yoma-024b-lXX` target.
+
+This closes the bounded fast Rashi alignment run covering 21a through
+24b (8 daf: 21a, 21b, 22a, 22b, 23a, 23b, 24a, 24b), fixing 430
+entries total (62 + 46 + 65 + 35 + 45 + 65 + 47 + 65, after 22b's 14
+orphaned entries were removed rather than counted). No daf in this
+range was deferred. The run also produced two corpus-quality
+findings applicable beyond this range: the orphaned-entries anomaly
+(only 22b, now documented as a check to run before every future daf)
+and the one-daf-early misattribution of real content (22a's stub
+carrying 22b's own Saul/David material, the same pattern already on
+record for 11b/12a).
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
