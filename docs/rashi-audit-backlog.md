@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.18: schema backfill is complete, the perek-level semantic
+As of VERSION 15.19: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -239,8 +239,15 @@ resolved). At VERSION 15.18 (see "24b, full daf" below) the run
 closed out at the bounded 21a-24b endpoint, confirming the 24a/24b
 boundary is clean, confirming 24b's own final line ends mid-word
 rather than at a perek close, and fixing all 65 of 24b's entries in
-two sub-chunks (65/65 resolved). This completes the bounded fast
-alignment run: 8 daf (21a-24b), 430 entries fixed, no daf deferred. No
+two sub-chunks (65/65 resolved). This completed the bounded fast
+alignment run: 8 daf (21a-24b), 430 entries fixed, no daf deferred. A
+second bounded run resumed at VERSION 15.19 (see "25a, full daf"
+below), covering 25a-28b; the mandatory raw-count preflight check
+(introduced after 22b's orphaned-entry surprise) was run before any
+edit and matched cleanly (61/61), and all 61 of 25a's entries were
+fixed in a single list-indexed pass after two prior daf (23a, 23b) in
+the first run had shown manually-typed dictionary keys drift by one
+position at DH boundaries. No
 regression was found on 12b, 13a, 13b, or 14a in any of these passes. The descriptive-style systemic finding is still open beyond the lines fixed
 so far - the scope estimate below lists the other daf using the
 descriptive "Rashi:" style, none of which have been verified yet - plus
@@ -2498,6 +2505,74 @@ findings applicable beyond this range: the orphaned-entries anomaly
 and the one-daf-early misattribution of real content (22a's stub
 carrying 22b's own Saul/David material, the same pattern already on
 record for 11b/12a).
+
+## 25a, full daf (VERSION 15.19), two sub-chunks, resuming the run at 25a-28b
+
+Resuming the fast alignment run into new territory (25a-28b). Before
+any edit, the 24b/25a boundary was re-verified read-only: 24b's
+truncated final word "שלא" (that not) is completed by 25a's opening
+"שלא זכו לפייס" (who did not win the lottery) in both the Gemara and
+Rashi columns, continuing the account of stripping the attendants of
+their garments cleanly. No edit was made to 24b. The mandatory
+preflight raw-count check was run first: talmud.dev's non-empty raw
+Rashi array for 25a has 61 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 61 entries - an exact match, so no
+orphaned-entry cleanup was needed here, and no sign of one-daf-early
+content misattribution was found on inspection of the prior stub
+text.
+
+25a's Gemara side has 12 real captured lines (`l01`, `l03`, `l07`,
+`l10`, `l17`, `l19`, `l25`, `l28`, `l35` [mishna], `l37`, `l40`,
+`l42`) against 49 raw Gemara print lines, and its Rashi side has 61
+raw print lines carrying the same generic descriptive-style
+placeholder text as the daf before it. This daf also crosses a
+mishna/gemara boundary mid-page (the second lottery's Mishna opens at
+`l35`), the first mishna transition encountered mid-daf in this
+resumed run; Rashi's own comment on the Mishna's opening word ("מִי
+שׁוֹחֵט" - who slaughters) was handled the same as any other DH,
+confirming the multi-DH rule applies uniformly across the
+mishna/gemara boundary.
+
+All 61 raw Rashi print lines were read against the raw Gemara text
+and the 12 real captured line ids, using the same multi-DH rule as
+prior daf. Given repeated indexing slips on the previous two daf in
+this run (23a, 23b) from manually typed dictionary keys, this daf's
+fix was built differently: translations were written as an ordered
+list matching talmud.dev's raw array position for position, with
+`vilnaLine` derived automatically from list index rather than typed
+by hand, and cross-checked against the raw text at each of the
+daf's DH-boundary lines before being applied. The correspondence:
+vilnaLine 1-4 (the ordinary-garment stripping, resolved by the
+baraita on trouser priority) to `l03`; 5-6 (dressing them in sacred
+trousers so they would not stand naked) to `l07`; 7-14 (the Chamber
+of Hewn Stone's layout, the lottery's circular gathering) to `l10`;
+15-20 (the priest whose mother made him a fine tunic) to `l17`; 21-26
+(no sitting in the Temple courtyard except for the House of David) to
+`l19`; 27-28 (the lottery must occur in the house of God) to `l25`;
+29 (the second lottery's Mishna opening) to `l35`; 30-48 (the
+thirteen priestly roles enumerated by the Mishna, including the
+libation and meal-offering portions) to `l37`; 49 (the daily-offering
+was slaughtered in the order it would walk) to `l40`; 50-61 (the
+Gemara's own question of whether the lottery repeats per service)
+to `l42`. `l01` (the Gemara's own opening question, folded into the
+vilnaLine 1 comment that ultimately targets `l03`) and `l28` (the
+follow-up "if it had one entrance" hypothesis, superseded before any
+dedicated comment addresses it) have no dedicated vilnaLine of their
+own, the same established folding pattern seen throughout this run.
+
+vilnaLine 61, the daf's final truncated word "לא" (no), is the same
+kind of boundary case as every other daf ending in this run: per the
+policy, it is linked to `yoma-025a-l42`, 25a's own final locally
+captured Gemara line (the Gemara's own question about lottery
+frequency), even though the DH's own point is itself still open at
+the point of truncation, continuing onto 25b.
+
+All 61 entries were fixed in a single list-indexed pass (the switch
+away from manually keyed sub-chunks was itself the fix for the
+indexing slips noted above). 25a is fully resolved, 61/61, with real
+translations replacing every generic placeholder and every
+linkedGemaraLineIds value corrected to its real zero-padded
+`yoma-025a-lXX` target.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

@@ -26,332 +26,430 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Whether the lottery priests wore sacred or non-sacred garments is the question Rav Sheshet answers.",
+      "en": "Rashi: opens 'who did not win the lottery' - they would strip off the sacred garments they had put on. Then opens 'for if you think'",
       "linkedGemaraLineIds": [
-        "yoma-025a-l01"
+        "yoma-025a-l03"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "The proof from the baraita supports Rav Sheshet's position that they wore sacred garments.",
+      "en": "Rashi: continues DH - those who won' - and this stripping is of ordinary garments, to dress them in sacred garments; and it teaches",
       "linkedGemaraLineIds": [
         "yoma-025a-l03"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "The other view (Rav Nachman) resolves the difficulty differently without Rav Sheshet's assumption.",
+      "en": "Rashi: continues - they would leave on them only ordinary trousers, implying they dress them in sacred",
       "linkedGemaraLineIds": [
         "yoma-025a-l03"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rav Sheshet's own baraita source - the headdress (mitznefet) proves priests wore sacred garments.",
+      "en": "Rashi: concludes - garments over the ordinary trousers, and afterward remove the ordinary trousers and put on the sacred trousers.",
       "linkedGemaraLineIds": [
-        "yoma-025a-l09"
+        "yoma-025a-l03"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "The Gemara rejects: there is a non-sacred mitre, so the headdress doesn't prove sacred garments.",
+      "en": "Rashi: concludes - and it was taught, etc. Then opens 'they dress them in the trousers'",
       "linkedGemaraLineIds": [
-        "yoma-025a-l09"
+        "yoma-025a-l07"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Abaye introduces his deduction about the Chamber of Hewn Stone from the garment baraita.",
+      "en": "Rashi: continues DH - of the sacred' - so that they would not stand naked",
       "linkedGemaraLineIds": [
-        "yoma-025a-l14"
+        "yoma-025a-l07"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Abaye continues: if the chamber were entirely outside sacred precincts, the proof fails.",
+      "en": "Rashi: concludes - when they stripped them. Then opens 'the Chamber of Hewn Stone' - that there",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: concludes - they would hold the lottery. Then opens 'like a basilica' - a tall building",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: concludes - with an upper story. Then opens 'the lottery to its east' - the gathering of",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - those participating in the lottery was to the east.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: opens 'and the elder' - of the court, who instructs them in the order of",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - the lotteries, sits to the west. Then opens and closes 'like a kulyar' -",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: continues DH - a circle, which is called 'nushka.' Then opens and closes 'from whom it begins' -",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - the count, the number of the lottery, as I explained",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: concludes - at the beginning of the chapter. Then opens 'as Rav Shmuel",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: continues DH - bar Yehuda teaches' - further on, in chapter 3 (35b),",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: continues - that the mothers of the priests would make",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - for their sons, from their own means, a kind of priestly garment,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - to display the glory of their wealth and the beauty of their workmanship,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - and how much they beautify the commandments, as it teaches: a priest",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - whose mother made him a tunic, wears it and serves",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: concludes - with it an individual's service. Then opens 'there is no sitting in the courtyard' -",
       "linkedGemaraLineIds": [
         "yoma-025a-l19"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "And if the chamber had only one doorway into the sacred area, the calculation still fails.",
+      "vilnaLine": 23,
+      "en": "Rashi: continues - as it is stated (Deuteronomy 18): 'to stand and serve",
       "linkedGemaraLineIds": [
-        "yoma-025a-l24"
+        "yoma-025a-l19"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Mishna: The second lottery - thirteen tasks divided among thirteen priests for the morning tamid.",
+      "vilnaLine": 24,
+      "en": "Rashi: concludes - those who stand there before the Lord.' Then opens 'except for the kings of'",
       "linkedGemaraLineIds": [
-        "yoma-025a-l28"
+        "yoma-025a-l19"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "How the limbs were distributed: head with right leg, tail with left leg, etc.",
+      "vilnaLine": 25,
+      "en": "Rashi: continues DH - the house of David' - for we find that they sat, as it is stated",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - (II Samuel 7): 'and King David came and sat before",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: concludes - the Lord, and said: who am I and what is my house,' etc.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l19"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: opens and closes 'but we require: in the house of God we walked in fellowship' -",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l25"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - implying the lottery must take place in the house of God.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l25"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: opens and closes 'Mishna: who slaughters' - the daily-offering.",
       "linkedGemaraLineIds": [
         "yoma-025a-l35"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Ben Azzai's alternative tradition: limbs carried in a different order before Rabbi Akiva.",
+      "vilnaLine": 31,
+      "en": "Rashi: opens 'the head and the leg' - the right ones, by one priest,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: concludes - and the two forelegs by a second priest. Then opens 'the tail-bone' - it is",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: concludes - the tail and the left hind leg, by a third priest.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: opens 'the breast' - it is the fat facing",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - the ground, and they cut it on this side and that,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - without the tips of the ribs. Then opens 'and the neck-piece' - it is",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continues - the neck, to which the windpipe and the liver are attached,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: concludes - and the heart; and the breast and the neck-piece, by a fourth priest.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: opens and closes 'and the two flanks' - by a fifth. Then opens 'and the entrails' -",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: concludes - by a sixth. Then opens 'and the fine flour' - a tenth-ephah for the meal-offering of",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: concludes - the daily-offering's libation. Then opens 'and the chavitin' -",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continues - half the High Priest's tenth-ephah, which is offered with",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continues - the daily offerings every day, as it is stated (Leviticus 6):",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continues - 'half of it in the morning and half of it in the evening,'",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - and adjacent to it: 'on a griddle, with oil, it shall be made',",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: concludes - therefore it is called chavitin. Then opens 'and the wine' - three log-measures",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: concludes - of libation for the lamb of the daily-offering. Then opens 'thirteen",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: continues DH - priests won it' - in this one lottery,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: concludes - thirteen services, priests are appointed here.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: opens 'in the manner of its own walking' - in its life it would be offered",
       "linkedGemaraLineIds": [
         "yoma-025a-l40"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Gemara asks: did the lottery assign all tasks together or separate the incense from other tasks?",
+      "vilnaLine": 51,
+      "en": "Rashi: concludes - the daily-offering, and the Gemara explains it. Then opens 'Gemara' -",
       "linkedGemaraLineIds": [
         "yoma-025a-l42"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "The koliar is a round object from which the count begins.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The lottery count begins from the koliar as explained at the start of the chapter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "As R. Shmuel bar Yehuda teaches.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Cited later in chapter three (35b).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Mothers of kohanim would make for their sons.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "From their own funds, vestment-like garments.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "To display the beauty of their wealth and fine craftsmanship.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "How greatly they would beautify the mitzvah - as the Mishna states.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "If his mother made him a tunic, he may wear it for private avodah.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Sitting is prohibited in the Temple Courtyard.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "As it says (Deut. 18) 'to stand and minister.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Except for kings of the House of David.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "For whom we find sitting, as it says.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "(2 Sam. 7) 'And King David went in and sat before God.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The verse 'who am I and what is my house' is cited.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "But we need 'in the House of God let us walk together.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Showing the lottery must occur in the House of God.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Mishna: who slaughters the tamid offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The head and right leg to one kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Both forelegs to a second kohen; the tail.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The tail and left leg to a third kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The chest - the fat membrane that faces the ground.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "It is cut from both sides.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Without the rib ends; the throat area.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The neck with windpipe, liver, heart, chest, and throat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The chest and throat to the fourth kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The two flanks to the fifth; the innards.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "To the sixth; the fine flour.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "A tenth-ephah for the tamid meal-offering; the griddle-cakes (chavittin).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Half a tenth-ephah of the KG offered daily.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "As it says (Lev. 6) 'half in the morning.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "'And half in the evening.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Adjacent to 'on a griddle with oil shall it be made.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Hence called chavittin; the wine - three log.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Libation wine for the tamid lamb; thirteen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Kohanim win the lottery; this [first] lottery.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Thirteen services are enumerated here.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "As the animal walked in life, the limbs are carried; the Gemara explains.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Gemara: one lottery for all services.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 52,
-      "en": "Such as who slaughters; once a winner is found.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues DH - they hold a lottery for one service' - such as who",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The winner of slaughter does not re-draw.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - slaughters; and once the one who won the lottery for slaughtering is determined,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "For the remaining 12 services.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - there is no more lottery for the remaining twelve services, but rather",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The kohanim to his right follow in the sequence of our Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the priests surrounding him to his right follow after him,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Second gets blood sprinkling, third gets inner altar ash.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - according to the order of our mishna: the second for the sprinkling,",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "Fourth gets the menorah, and so on.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the third for clearing the ash of the inner altar, the fourth",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "Or perhaps for each service separately.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - for the candelabrum, and so all of them. Then opens 'or perhaps for each",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "They would again extend fingers for a new count.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues DH - and every service' - they would again extend",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "And the winner takes that service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - their fingers for the count, and the winner wins.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "No [one lottery for all services].",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'no,' continuing the dibbur hamatchil that opens the Gemara's own resolution of the lottery-frequency question, whose text continues on 25b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-025a-l42"
+      ]
     }
   ],
   "sugyot": [
