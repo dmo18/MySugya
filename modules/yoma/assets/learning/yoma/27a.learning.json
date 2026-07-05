@@ -26,294 +26,374 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The verse about wood-placement on the altar is needed for its own purpose - you can't derive non-priest exclusion from it.",
+      "en": "Rashi: opens 'gemara: this is needed for itself' - that we would need a priesthood exclusion, from where do we derive it for flaying",
       "linkedGemaraLineIds": [
         "yoma-027a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "But the verse also teaches that only the priest's sons shall place the blood portions.",
+      "en": "Rashi: continues - and cutting up. Then opens 'that he would explain to his son' -",
       "linkedGemaraLineIds": [
-        "yoma-027a-l03"
+        "yoma-027a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Abaye asks: from the blood-collection verse onward, services are priestly - what does 'from blood onward' include?",
+      "en": "Rashi: continues - the Rav Chizkiya matter, and this is how he would explain it to him, as it is taught in Torat Kohanim: slaughtering is valid by a non-priest. Then opens 'and from where did you come' -",
       "linkedGemaraLineIds": [
-        "yoma-027a-l05"
+        "yoma-027a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Wood placement on the altar is required as a priestly service from the same passage.",
+      "en": "Rashi: continues - this is the mishna's own language, and from where did you come to say it is invalid, that it needed",
       "linkedGemaraLineIds": [
-        "yoma-027a-l07"
+        "yoma-027a-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rejection of Hizkiya's original derivation - another verse must be found.",
+      "en": "Rashi: concludes - to bring a verse to validate it. Then opens 'by inference from what is stated' -",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: concludes - etc., and from that same inclusive category I would have come to invalidate it.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: opens and closes 'the verse teaches: and he shall slaughter' -",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - and the priests shall present. Since it writes priest",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - for the receiving but not for the slaughtering, implying that",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - 'and he shall slaughter' refers to the owner, and 'and he shall lay his hand",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - and he shall slaughter' teaches about the slaughtering, that it is valid",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - by a non-priest, end of the mishna's quoted language; and from it he would explain",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l06"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: continues - to Abaye's son the Chizkiya matter this way. Then opens and closes 'by inference' -",
       "linkedGemaraLineIds": [
         "yoma-027a-l09"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "New derivation: the verse that says 'the sons of Aaron' for the arrangement teaches non-priests are excluded.",
+      "vilnaLine": 14,
+      "en": "Rashi: continues - we have learned here that from the receiving onward is a priestly",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - requirement, and this placing of fire, written after the receiving,",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: concludes - why do I need to write priesthood in it. Then opens 'to exclude flaying and cutting up' -",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - since priesthood is not written in it, and let it be derived from here,",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - that specifically here the verse is written and if not for it.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: opens 'and they shall place: I would have said this' - one where priesthood is not written for flaying and cutting up, is because",
       "linkedGemaraLineIds": [
         "yoma-027a-l11"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Alternatively: 'they shall arrange' - the emphasis on 'they' excludes non-priests.",
+      "vilnaLine": 20,
+      "en": "Rashi: continues - it is not needed, since it already revealed to us that priesthood is required",
       "linkedGemaraLineIds": [
-        "yoma-027a-l13"
+        "yoma-027a-l11"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "Cannot say this verse excludes from arrangement of limbs - the context refers to wood.",
+      "vilnaLine": 21,
+      "en": "Rashi: continues - from the receiving onward, so it is not necessary, since it revealed that priesthood",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - is required from the receiving onward. Then opens 'since it does not preclude' -",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: concludes - atonement, since atonement is only through the blood.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l11"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: opens 'rather, from here: and the sons of Aaron",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - the priests shall arrange. Behold we have learned that from the receiving onward there is no",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: concludes - need for priesthood except to exclude flaying and cutting up.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: opens 'but say it is to exclude the arrangement of the two",
       "linkedGemaraLineIds": [
         "yoma-027a-l17"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Return to original derivation: the 'sons of Aaron' phrase specifically teaches exclusion for wood and limb arrangement.",
+      "vilnaLine": 28,
+      "en": "Rashi: continues - logs of wood, since for the afternoon-offering it is not written",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - priesthood in them, but for the morning it is written explicitly.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: opens 'and the priest shall burn wood on it: this should not enter your mind' -",
       "linkedGemaraLineIds": [
         "yoma-027a-l20"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Teach: 'they shall lay out the pieces' - the same verse teaches about limbs.",
+      "vilnaLine": 31,
+      "en": "Rashi: continues - that the arranging of the logs would not require",
       "linkedGemaraLineIds": [
-        "yoma-027a-l22"
+        "yoma-027a-l20"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "When Torah writes 'the priest shall burn wood' - teaches the priest (and not a non-priest) for wood.",
+      "vilnaLine": 32,
+      "en": "Rashi: continues - priesthood, since it needed to exclude the carrying of",
       "linkedGemaraLineIds": [
-        "yoma-027a-l25"
+        "yoma-027a-l20"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "When Torah writes 'the sons of Aaron, the priests, shall lay out the pieces' - teaches priests only for limbs.",
+      "vilnaLine": 33,
+      "en": "Rashi: concludes - wood, implying that its arranging requires a priest.",
       "linkedGemaraLineIds": [
-        "yoma-027a-l27"
+        "yoma-027a-l20"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Rav Hamnuna: difficulty - this verse is about a young bull, not the tamid lamb. How does it apply?",
+      "vilnaLine": 34,
+      "en": "Rashi: opens 'carrying wood does not require priesthood, for this'",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - priest written regarding carrying the limbs, must by necessity be to exclude some other carrying that",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: continues - requires priesthood, for if it were needed for itself",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continues - it would not have been necessary, since this already",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: concludes - teaches us that from the receiving onward is a priestly requirement.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l20"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: opens 'why do I need and they shall arrange' - since priesthood is written in them",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continues - to exclude flaying and cutting up; and priesthood",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continues - in and they shall place is for its own sake, as we say: do not say",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continues - since it does not preclude atonement, priesthood would not be required,",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continues - but since it revealed that priesthood is required,",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continues - it was not necessary to write it again",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - as priesthood in the arranging of the pieces, and even though it does not",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: concludes - preclude atonement, by necessity it comes to exclude, as our text reads.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l24"
+      ]
+    },
+    {
+      "vilnaLine": 47,
+      "en": "Rashi: opens and closes 'that it requires six' - the meat by five",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l31"
+      ]
+    },
+    {
+      "vilnaLine": 48,
+      "en": "Rashi: concludes - and the innards by one. Then opens 'and he resolves it: he then answers it this way, on'",
       "linkedGemaraLineIds": [
         "yoma-027a-l33"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "The placing of fire comes after collection - why does it write 'kohen' for fire?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Placing fire comes after collection; why state it requires priesthood?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Since we already know from collection onward requires priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "To exclude flaying and dissection - no priesthood required.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Since kohen is not written for them, one might derive they require priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "But since 'and they shall place' states priesthood explicitly.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "We derive it not because flaying/dissection require priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "But because the verse reveals that placing fire needs priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Even though it does not prevent atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Atonement is only through blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "'And the sons of Aaron the kohanim shall arrange' - from collection onward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "No priesthood is needed before collection except to exclude flaying and dissection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Only to exclude flaying and dissection from requiring priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Perhaps to exclude the arranging of the two fire-wood logs in the afternoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Which is not explicitly written 'the kohanim' but the morning explicitly states 'the kohen.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "That cannot be the intent.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "We would not think arranging the fire-wood needs priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Since the wood-carrying already needs a separate derivation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Implying that arranging the wood does require priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Wood carrying does not require priesthood, as the verse proves.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The 'kohen' written for carrying limbs is needed to exclude another carrying.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "If it were for its own sake it would be unnecessary.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Since we already know from collection onward requires priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "If it is not needed for itself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "It teaches that this particular carrying (wood) does not need a kohen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "'And they shall arrange' - why does it write priesthood here?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "To exclude flaying and dissection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "And the priesthood in 'and they shall give fire' is for its own purpose.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Lest one say: since it does not prevent atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "No priesthood is needed; the verse teaches it is required.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Even though it does not prevent atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Even without the redundancy one would not say arrangement requires no priesthood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Therefore the verse must come to exclude - flaying and dissection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Six are required - five for the meat and one for the innards.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "He revises his explanation: 'on the wood that is on the fire' is an extra phrase.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 49,
-      "en": "After 'they shall place fire' and 'arrange wood' and 'arrange pieces' - why add 'on the wood on the fire'?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the wood that is on the fire, is an extra verse, for it is already written 'and they shall place fire' and 'they shall arrange wood' and 'they shall arrange",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l33"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "To derive that these six kohanim are needed for something requiring fire, wood, and altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the pieces,' why do I need furthermore 'on the wood that is on the fire,' etc.; it comes to derive from it",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l33"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "What is that? The wood arrangement which requires fire, wood, and altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that these six priests were required for a matter about which fire, wood, and altar are stated, and what",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l33"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "That is what required these six kohanim for the wood arrangement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - is that matter that I required for you, to arrange wood and fire on the altar for its sake.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l33"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "It is.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'it is,' continuing the dibbur hamatchil that opens Rashi's own resolution of the six-priests derivation, whose text continues on 27b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-027a-l33"
+      ]
     }
   ],
   "sugyot": [

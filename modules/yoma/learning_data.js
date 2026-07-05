@@ -62666,7 +62666,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 1,
         he: "גמ' האי מבעיא ליה לגופיה. דניבעי כהן מיעוטא מנא לן להפשט",
-        en: "The verse about wood-placement on the altar is needed for its own purpose - you can't derive non-priest exclusion from it.",
+        en: "Rashi: opens 'gemara: this is needed for itself' - that we would need a priesthood exclusion, from where do we derive it for flaying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62680,12 +62680,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 2,
         he: "וניתוח: דהוה מסבר ליה לבריה. הא דחזקיה והכי מסבר ליה",
-        en: "But the verse also teaches that only the priest's sons shall place the blood portions.",
+        en: "Rashi: continues - and cutting up. Then opens 'that he would explain to his son' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l03"
+          "yoma-027a-l01"
         ]
       },
       {
@@ -62694,12 +62694,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 3,
         he: "ניהליה דתניא בתורת כהנים ושחט שחיטה בזר כשירה: וכי מאין",
-        en: "Abaye asks: from the blood-collection verse onward, services are priestly - what does 'from blood onward' include?",
+        en: "Rashi: continues - the Rav Chizkiya matter, and this is how he would explain it to him, as it is taught in Torat Kohanim: slaughtering is valid by a non-priest. Then opens 'and from where did you come' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l05"
+          "yoma-027a-l01"
         ]
       },
       {
@@ -62708,12 +62708,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 4,
         he: "באת. לישנא דמתני' הוא וכי מאין באת לומר פסולה שנזקקת",
-        en: "Wood placement on the altar is required as a priestly service from the same passage.",
+        en: "Rashi: continues - this is the mishna's own language, and from where did you come to say it is invalid, that it needed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l07"
+          "yoma-027a-l01"
         ]
       },
       {
@@ -62722,12 +62722,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 5,
         he: "להביא מקרא להכשירה: מכלל",
-        en: "Rejection of Hizkiya's original derivation - another verse must be found.",
+        en: "Rashi: concludes - to bring a verse to validate it. Then opens 'by inference from what is stated' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l09"
+          "yoma-027a-l01"
         ]
       },
       {
@@ -62736,12 +62736,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 6,
         he: "שנאמר כו'. ומתוך אותו כלל הייתי",
-        en: "New derivation: the verse that says 'the sons of Aaron' for the arrangement teaches non-priests are excluded.",
+        en: "Rashi: concludes - etc., and from that same inclusive category I would have come to invalidate it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l11"
+          "yoma-027a-l01"
         ]
       },
       {
@@ -62750,12 +62750,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 7,
         he: "בא לפסול: תלמוד לומר ושחט",
-        en: "Alternatively: 'they shall arrange' - the emphasis on 'they' excludes non-priests.",
+        en: "Rashi: opens and closes 'the verse teaches: and he shall slaughter' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l13"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62764,12 +62764,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 8,
         he: "והקריבו הכהנים. ומדכתיב כהן",
-        en: "Cannot say this verse excludes from arrangement of limbs - the context refers to wood.",
+        en: "Rashi: continues - and the priests shall present. Since it writes priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l17"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62778,12 +62778,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 9,
         he: "בקבלה ובשחיטה לא כתיב מכלל",
-        en: "Return to original derivation: the 'sons of Aaron' phrase specifically teaches exclusion for wood and limb arrangement.",
+        en: "Rashi: continues - for the receiving but not for the slaughtering, implying that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l20"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62792,12 +62792,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 10,
         he: "דושחט אבעלים קאי וסמך ידו",
-        en: "Teach: 'they shall lay out the pieces' - the same verse teaches about limbs.",
+        en: "Rashi: continues - 'and he shall slaughter' refers to the owner, and 'and he shall lay his hand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l22"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62806,12 +62806,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 11,
         he: "ושחט לימד על השחיטה שכשירה",
-        en: "When Torah writes 'the priest shall burn wood' - teaches the priest (and not a non-priest) for wood.",
+        en: "Rashi: continues - and he shall slaughter' teaches about the slaughtering, that it is valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l25"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62820,12 +62820,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 12,
         he: "בזר עכ\"ל משנה ומינה הוה מסבר",
-        en: "When Torah writes 'the sons of Aaron, the priests, shall lay out the pieces' - teaches priests only for limbs.",
+        en: "Rashi: concludes - by a non-priest, end of the mishna's quoted language; and from it he would explain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l27"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62834,12 +62834,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 13,
         he: "אביי לבריה הא דחזקיה הכי: מכדי.",
-        en: "Rav Hamnuna: difficulty - this verse is about a young bull, not the tamid lamb. How does it apply?",
+        en: "Rashi: continues - to Abaye's son the Chizkiya matter this way. Then opens and closes 'by inference' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l33"
+          "yoma-027a-l09"
         ]
       },
       {
@@ -62848,11 +62848,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 14,
         he: "למדנו כאן דמקבלה ואילך מצות",
-        en: "The placing of fire comes after collection - why does it write 'kohen' for fire?",
+        en: "Rashi: continues - we have learned here that from the receiving onward is a priestly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l09"
+        ]
       },
       {
         id: "rashi-yoma-027a-015",
@@ -62860,11 +62862,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 15,
         he: "כהונה והך נתינת אש בתר קבלה",
-        en: "Placing fire comes after collection; why state it requires priesthood?",
+        en: "Rashi: continues - requirement, and this placing of fire, written after the receiving,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l09"
+        ]
       },
       {
         id: "rashi-yoma-027a-016",
@@ -62872,11 +62876,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 16,
         he: "כתיבה למה לי למכתב בה כהונה:",
-        en: "Since we already know from collection onward requires priesthood.",
+        en: "Rashi: concludes - why do I need to write priesthood in it. Then opens 'to exclude flaying and cutting up' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l09"
+        ]
       },
       {
         id: "rashi-yoma-027a-017",
@@ -62884,11 +62890,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 17,
         he: "למעוטי הפשט וניתוח. דלא כתיב",
-        en: "To exclude flaying and dissection - no priesthood required.",
+        en: "Rashi: concludes - since priesthood is not written in it, and let it be derived from here,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l09"
+        ]
       },
       {
         id: "rashi-yoma-027a-018",
@@ -62896,11 +62904,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 18,
         he: "בה כהן ותילף מהכא דדוקא כתיב",
-        en: "Since kohen is not written for them, one might derive they require priesthood.",
+        en: "Rashi: continues - that specifically here the verse is written and if not for it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l09"
+        ]
       },
       {
         id: "rashi-yoma-027a-019",
@@ -62908,11 +62918,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 19,
         he: "קרא ואי לא ונתנו הוה אמינא האי",
-        en: "But since 'and they shall place' states priesthood explicitly.",
+        en: "Rashi: opens 'and they shall place: I would have said this' - one where priesthood is not written for flaying and cutting up, is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l11"
+        ]
       },
       {
         id: "rashi-yoma-027a-020",
@@ -62920,11 +62932,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 20,
         he: "דלא כתיב כהן בהפשט וניתוח משום",
-        en: "We derive it not because flaying/dissection require priesthood.",
+        en: "Rashi: continues - it is not needed, since it already revealed to us that priesthood is required",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l11"
+        ]
       },
       {
         id: "rashi-yoma-027a-021",
@@ -62932,11 +62946,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 21,
         he: "דלא אצטריך הוא דגלי ליה דבעי",
-        en: "But because the verse reveals that placing fire needs priesthood.",
+        en: "Rashi: continues - from the receiving onward, so it is not necessary, since it revealed that priesthood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l11"
+        ]
       },
       {
         id: "rashi-yoma-027a-022",
@@ -62944,11 +62960,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 22,
         he: "כהונה מקבלה ואילך: דלא מעכבא",
-        en: "Even though it does not prevent atonement.",
+        en: "Rashi: continues - is required from the receiving onward. Then opens 'since it does not preclude' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l11"
+        ]
       },
       {
         id: "rashi-yoma-027a-023",
@@ -62956,11 +62974,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 23,
         he: "כפרה. דאין כפרה אלא בדם:",
-        en: "Atonement is only through blood.",
+        en: "Rashi: concludes - atonement, since atonement is only through the blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l11"
+        ]
       },
       {
         id: "rashi-yoma-027a-024",
@@ -62968,11 +62988,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 24,
         he: "אלא מהכא וערכו בני אהרן",
-        en: "'And the sons of Aaron the kohanim shall arrange' - from collection onward.",
+        en: "Rashi: opens 'rather, from here: and the sons of Aaron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l14"
+        ]
       },
       {
         id: "rashi-yoma-027a-025",
@@ -62980,11 +63002,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 25,
         he: "הכהנים. הרי למדנו מקבלה א] שאין",
-        en: "No priesthood is needed before collection except to exclude flaying and dissection.",
+        en: "Rashi: continues - the priests shall arrange. Behold we have learned that from the receiving onward there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l14"
+        ]
       },
       {
         id: "rashi-yoma-027a-026",
@@ -62992,11 +63016,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 26,
         he: "צריך כהונה אלא למעוטי הפשט",
-        en: "Only to exclude flaying and dissection from requiring priesthood.",
+        en: "Rashi: concludes - need for priesthood except to exclude flaying and cutting up.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l14"
+        ]
       },
       {
         id: "rashi-yoma-027a-027",
@@ -63004,11 +63030,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 27,
         he: "וניתוח: אימא למעוטי סידור שני",
-        en: "Perhaps to exclude the arranging of the two fire-wood logs in the afternoon.",
+        en: "Rashi: opens 'but say it is to exclude the arrangement of the two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l17"
+        ]
       },
       {
         id: "rashi-yoma-027a-028",
@@ -63016,11 +63044,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 28,
         he: "גזירי עצים. דבין הערבים דלא כתיב",
-        en: "Which is not explicitly written 'the kohanim' but the morning explicitly states 'the kohen.'",
+        en: "Rashi: continues - logs of wood, since for the afternoon-offering it is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l17"
+        ]
       },
       {
         id: "rashi-yoma-027a-029",
@@ -63028,11 +63058,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 29,
         he: "בהו הכהנים אבל בצפרא בהדיא",
-        en: "That cannot be the intent.",
+        en: "Rashi: concludes - priesthood in them, but for the morning it is written explicitly.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l17"
+        ]
       },
       {
         id: "rashi-yoma-027a-030",
@@ -63040,11 +63072,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 30,
         he: "כתיב ובער עליה הכהן: לא סלקא",
-        en: "We would not think arranging the fire-wood needs priesthood.",
+        en: "Rashi: opens 'and the priest shall burn wood on it: this should not enter your mind' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-031",
@@ -63052,11 +63086,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 31,
         he: "דעתך. דלא ניבעי סידור גזירין",
-        en: "Since the wood-carrying already needs a separate derivation.",
+        en: "Rashi: continues - that the arranging of the logs would not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-032",
@@ -63064,11 +63100,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 32,
         he: "כהונה מדאיצטריך למעוטי הולכת",
-        en: "Implying that arranging the wood does require priesthood.",
+        en: "Rashi: continues - priesthood, since it needed to exclude the carrying of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-033",
@@ -63076,11 +63114,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 33,
         he: "עצים מכלל דסידורן בעי כהן:",
-        en: "Wood carrying does not require priesthood, as the verse proves.",
+        en: "Rashi: concludes - wood, implying that its arranging requires a priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-034",
@@ -63088,11 +63128,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 34,
         he: "הולכת עצים לא בעי כהונה. דהאי",
-        en: "The 'kohen' written for carrying limbs is needed to exclude another carrying.",
+        en: "Rashi: opens 'carrying wood does not require priesthood, for this'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-035",
@@ -63100,11 +63142,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 35,
         he: "כהן דכתיב בהולכת אברים על",
-        en: "If it were for its own sake it would be unnecessary.",
+        en: "Rashi: continues - priest written regarding carrying the limbs, must by necessity be to exclude some other carrying that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-036",
@@ -63112,11 +63156,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 36,
         he: "כרחך למעוטי הולכה אחרת בעי",
-        en: "Since we already know from collection onward requires priesthood.",
+        en: "Rashi: continues - requires priesthood, for if it were needed for itself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-037",
@@ -63124,11 +63170,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 37,
         he: "דאי לגופיה לא איצטריך דהא",
-        en: "If it is not needed for itself.",
+        en: "Rashi: continues - it would not have been necessary, since this already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-038",
@@ -63136,11 +63184,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 38,
         he: "אשמעינן מקבלה ואילך מצות כהונה:",
-        en: "It teaches that this particular carrying (wood) does not need a kohen.",
+        en: "Rashi: concludes - teaches us that from the receiving onward is a priestly requirement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l20"
+        ]
       },
       {
         id: "rashi-yoma-027a-039",
@@ -63148,11 +63198,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 39,
         he: "וערכו למה לי. דכתיב בהן כהונה:",
-        en: "'And they shall arrange' - why does it write priesthood here?",
+        en: "Rashi: opens 'why do I need and they shall arrange' - since priesthood is written in them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-040",
@@ -63160,11 +63212,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 40,
         he: "למעוטי הפשט וניתוח. וכהונה",
-        en: "To exclude flaying and dissection.",
+        en: "Rashi: continues - to exclude flaying and cutting up; and priesthood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-041",
@@ -63172,11 +63226,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 41,
         he: "דונתנו לגופיה כדאמרינן דלא תימא",
-        en: "And the priesthood in 'and they shall give fire' is for its own purpose.",
+        en: "Rashi: continues - in and they shall place is for its own sake, as we say: do not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-042",
@@ -63184,11 +63240,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 42,
         he: "כיון דלא מיעכבא כפרה לא תיבעי",
-        en: "Lest one say: since it does not prevent atonement.",
+        en: "Rashi: continues - since it does not preclude atonement, priesthood would not be required,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-043",
@@ -63196,11 +63254,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 43,
         he: "כהונה ומדגלי בה דבעיא כהונה",
-        en: "No priesthood is needed; the verse teaches it is required.",
+        en: "Rashi: continues - but since it revealed that priesthood is required,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-044",
@@ -63208,11 +63268,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 44,
         he: "לא איצטריך למיהדר למיכתב",
-        en: "Even though it does not prevent atonement.",
+        en: "Rashi: continues - it was not necessary to write it again",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-045",
@@ -63220,11 +63282,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 45,
         he: "כהונה בהערכת נתחין ואע\"ג דלא",
-        en: "Even without the redundancy one would not say arrangement requires no priesthood.",
+        en: "Rashi: continues - as priesthood in the arranging of the pieces, and even though it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-046",
@@ -63232,11 +63296,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 46,
         he: "מיעכבא ועל כרחך למעוטי כתבי':",
-        en: "Therefore the verse must come to exclude - flaying and dissection.",
+        en: "Rashi: concludes - preclude atonement, by necessity it comes to exclude, as our text reads.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l24"
+        ]
       },
       {
         id: "rashi-yoma-027a-047",
@@ -63244,11 +63310,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 47,
         he: "שטעון ששה. הבשר בחמשה",
-        en: "Six are required - five for the meat and one for the innards.",
+        en: "Rashi: opens and closes 'that it requires six' - the meat by five",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l31"
+        ]
       },
       {
         id: "rashi-yoma-027a-048",
@@ -63256,11 +63324,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 48,
         he: "והקרבים באחד: וניחא ליה. הדר משני ליה הכי על",
-        en: "He revises his explanation: 'on the wood that is on the fire' is an extra phrase.",
+        en: "Rashi: concludes - and the innards by one. Then opens 'and he resolves it: he then answers it this way, on'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       },
       {
         id: "rashi-yoma-027a-049",
@@ -63268,11 +63338,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 49,
         he: "העצים אשר על האש קרא יתירא הוא דהכתיב ונתנו אש וערכו עצים וערכו",
-        en: "After 'they shall place fire' and 'arrange wood' and 'arrange pieces' - why add 'on the wood on the fire'?",
+        en: "Rashi: continues - the wood that is on the fire, is an extra verse, for it is already written 'and they shall place fire' and 'they shall arrange wood' and 'they shall arrange",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       },
       {
         id: "rashi-yoma-027a-050",
@@ -63280,11 +63352,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 50,
         he: "נתחים למה לי תו על העצים אשר על האש וגו' למידרש ביה",
-        en: "To derive that these six kohanim are needed for something requiring fire, wood, and altar.",
+        en: "Rashi: continues - the pieces,' why do I need furthermore 'on the wood that is on the fire,' etc.; it comes to derive from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       },
       {
         id: "rashi-yoma-027a-051",
@@ -63292,11 +63366,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 51,
         he: "דהני ו' כהנים הוצרכו לדבר שנאמר בו אש ועצים ומזבח ואיזהו",
-        en: "What is that? The wood arrangement which requires fire, wood, and altar.",
+        en: "Rashi: continues - that these six priests were required for a matter about which fire, wood, and altar are stated, and what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       },
       {
         id: "rashi-yoma-027a-052",
@@ -63304,11 +63380,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 52,
         he: "דבר שהזקקתי לכם למערכה לסדר עצים ואש למזבח בשבילו:",
-        en: "That is what required these six kohanim for the wood arrangement.",
+        en: "Rashi: concludes - is that matter that I required for you, to arrange wood and fire on the altar for its sake.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       },
       {
         id: "rashi-yoma-027a-053",
@@ -63316,11 +63394,13 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 53,
         he: "הוי",
-        en: "It is.",
+        en: "Rashi: the daf's final truncated word - 'it is,' continuing the dibbur hamatchil that opens Rashi's own resolution of the six-priests derivation, whose text continues on 27b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-027a-l33"
+        ]
       }
     ],
     review: {

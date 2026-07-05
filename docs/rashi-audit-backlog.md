@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.22: schema backfill is complete, the perek-level semantic
+As of VERSION 15.23: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -2780,6 +2780,85 @@ correct two-entry span before re-running). 26b is fully resolved,
 61/61, with real translations replacing every generic placeholder and
 every linkedGemaraLineIds value corrected to its real zero-padded
 `yoma-026b-lXX` target.
+
+## 27a, full daf (VERSION 15.23), dangling-link finding (distinct from the generic-stub pattern)
+
+Continuing the resumed run. Before any edit, the 26b/27a boundary was
+re-verified read-only: 26b's truncated final word "האי" (this) is
+completed by 27a's opening "האי מבעיא ליה לגופיה" in both the Gemara
+and Rashi columns, continuing Hizkiya's proof from the verse about
+placing fire cleanly. No edit was made to 26b. The mandatory
+preflight raw-count check was run first: talmud.dev's non-empty raw
+Rashi array for 27a has 53 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 53 entries, an exact match, so no
+orphaned-entry cleanup was needed on count grounds.
+
+27a is a new failure mode, distinct from every daf fixed so far in
+this run. Its prior `en` text did not show the generic
+descriptive-style placeholder pattern ("Rashi: opens/continues/
+concludes" boilerplate) seen on every other daf in this run; instead
+it read as plausible, content-specific prose tracking the sugya's own
+legal reasoning. But checking every `linkedGemaraLineIds` value
+against the daf's 13 real captured Gemara line ids (`l01`, `l06`,
+`l09`, `l11`, `l14`, `l17`, `l19`, `l20`, `l24`, `l25`, `l27`, `l31`,
+`l33`) found 5 entries pointing to ids that do not exist anywhere in
+`learning_data.js` for this daf: vilnaLine 2 linked to a nonexistent
+`l03`, vilnaLine 3 to `l05`, vilnaLine 4 to `l07`, vilnaLine 7 to
+`l13`, and vilnaLine 10 to `l22`. These are dangling references, not
+generic filler; the `en` text they attached to also did not survive
+scrutiny once compared word-for-word against the raw Rashi Hebrew
+line by line, so the whole daf was rebuilt using the same
+list-indexed methodology as every other daf in this run, rather than
+patching only the 5 confirmed-dangling entries.
+
+All 53 raw Rashi print lines were read against the raw Gemara text
+and the 13 real captured line ids, using the multi-DH rule. One
+transcription slip mid-draft, where two raw lines' content was
+folded into a single list entry partway through the vl19-46 span
+(dropping the total below 53 and shifting every id after that point
+by one), was caught by the script's own length assertion and by a
+full recount against every target id before any file was written;
+the list was rebuilt from scratch with one tuple per raw line and
+re-verified index by index before applying. The correspondence:
+vilnaLine 1-6 (this verse is needed for itself, Rav Shimi bar Ashi's
+account of Abaye explaining slaughtering by a non-priest to his son)
+to `l01`; 7-12 (the verse teaches: and he shall slaughter, and the
+priests shall present) to `l06`; 13-18 (by inference, from the
+receiving onward is a priestly requirement) to `l09`; 19-23 (I would
+have said this, since it does not preclude atonement) to `l11`; 24-26
+(rather, from here: and the sons of Aaron the priests shall arrange)
+to `l14`; 27-29 (but say it excludes the arrangement of the two wood
+logs) to `l17`; 30-38 (this should not enter your mind, carrying wood
+does not require priesthood) to `l20`; 39-46 (why do I need "and they
+shall arrange," since priesthood is written in them) to `l24`; 47
+(that it requires six, the meat by five) to `l31`; 48-53 (Rav
+Hamnuna's resolution: the verse about wood on the fire is an extra
+phrase, teaching six priests for the wood arrangement) to `l33`.
+`l19` (a short one-line objection, "on the contrary, a similar
+arrangement should exclude," folded into the comment anchored to
+`l20`), `l25` (the Gemara's own restatement of the same
+carrying-limbs-versus-carrying-wood point already covered while
+explaining `l20`), and `l27` (a near-duplicate restatement of `l20`'s
+own point, likewise folded) have no dedicated vilnaLine of their own
+in this daf's column. The vl30-38 span required the same kind of
+positional-anchoring judgment call as 26b's vl10-17 and vl36-40: `l20`
+and `l27` state almost the same fact twice in the Gemara, and since
+the Rashi comment picks up immediately after the `l20`-anchored
+comment without a fresh independent catchword, it was kept anchored
+to `l20` rather than jumped ahead to `l27`.
+
+vilnaLine 53, the daf's final truncated word "הוי" (is), is the same
+kind of boundary case as every other daf ending in this run: per the
+policy, it is linked to `yoma-027a-l33`, 27a's own final locally
+captured Gemara line (Rav Hamnuna's resolution of the six-priests
+derivation), even though the DH's own point is itself still open at
+the point of truncation, continuing onto 27b.
+
+All 53 entries were fixed in a single list-indexed pass. 27a is fully
+resolved, 53/53, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 5 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
