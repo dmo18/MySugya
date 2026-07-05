@@ -67194,7 +67194,7 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 1,
         he: "הרהורי עבירה. תאות נשים קשים להכחיש את בשרו יותר מגופו",
-        en: "Sinful thoughts are worse than the sin itself - mnemonic: smell of meat.",
+        en: "Rashi: opens 'thoughts of transgression' - desire for women is harder on the body than the act",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -67208,12 +67208,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 2,
         he: "של מעשה: ריחא דבישרא. המריח בשר צלי קשה לו ריח מאד",
-        en: "Fever in winter is worse than in summer - mnemonic: heating a cold oven.",
+        en: "Rashi: concludes - itself. Then opens 'the odor of meat' - one who smells roasting meat finds the smell very",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l02"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67222,12 +67222,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 3,
         he: "שמתאוה לו: שילהי דקייטא. אלול שהוא סוף הקיץ קשה מקייטא קשה",
-        en: "Rabbi Abbahu: the morning star is stronger than moonlight - from Psalm 22:1.",
+        en: "Rashi: concludes - appetizing. Then opens 'the end of summer' - Elul, the end of summer, is more oppressive than summer, its",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l05"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67236,12 +67236,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 4,
         he: "חומו מחום הקיץ של תמוז לפי שכבר נתחמם כל האויר וגוף הבריות",
-        en: "Esther is compared to the morning star - the last of all miracles.",
+        en: "Rashi: continues - heat is more oppressive than the heat of summer itself in Tammuz, since the whole air and people's bodies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l06"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67250,12 +67250,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 5,
         he: "בחום הקיץ שעבר עליו תמיד מתחמם",
-        en: "Why isn't Hanukkah the last miracle? Hanukkah was after Purim.",
+        en: "Rashi: continues - have already grown warm from the summer heat that has passed over them, so a person now grows warm",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l08"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67264,12 +67264,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 6,
         he: "הוא עתה בחום קל ומזיקו: וסימניך",
-        en: "Purim was not the conclusion of all miracles for all Jews - Hanukkah was the last universal miracle.",
+        en: "Rashi: concludes - even from mild heat, and it harms him. Then opens 'and your mnemonic'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l10"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67278,12 +67278,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 7,
         he: "תנורא שגירא. תנורא שהוסק ביום",
-        en: "Mishna: they slaughtered the tamid before dawn - what is the ruling?",
+        en: "Rashi: continues - is a heated oven - an oven heated twice or three times",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l18"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67292,12 +67292,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 8,
         he: "פעמים ושלש חם הוא ונוח להסיקו",
-        en: "The incident occurred during the rest of the year (not Yom Kippur) - not a Yom Kippur ruling.",
+        en: "Rashi: concludes - a day is hot and easy to heat further with little wood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l19"
+          "yoma-029a-l01"
         ]
       },
       {
@@ -67306,12 +67306,12 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 9,
         he: "בעצים מועטים: אישתא דסיתווא.",
-        en: "Father of R. Avin: a daily offering slaughtered before dawn is invalid.",
+        en: "Rashi: opens and closes 'a fever in the winter' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-029a-l22"
+          "yoma-029a-l03"
         ]
       },
       {
@@ -67320,11 +67320,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 10,
         he: "קדחת של ימות החורף מחממות",
-        en: "Winter fever is more intense than summer fever.",
+        en: "Rashi: continues - a fever in the winter months that heats",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-011",
@@ -67332,11 +67334,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 11,
         he: "את החולה בידוע שהוא קשה מאד",
-        en: "Because the body and air are cold; the illness heats it from within.",
+        en: "Rashi: continues - the patient is known to be much more severe",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-012",
@@ -67344,11 +67348,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 12,
         he: "יותר מקדחת המבערתו בימות הקיץ:",
-        en: "The sign: a cold oven - needs much wood to heat; winter fever similarly works against cold body.",
+        en: "Rashi: concludes - than a fever burning him in the summer months.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-013",
@@ -67356,11 +67362,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 13,
         he: "וסימניך תנורא קרירא. צריך עצים",
-        en: "A cold oven requires much wood - similarly winter fever must work harder to heat a cold body.",
+        en: "Rashi: opens 'and your mnemonic is a cold oven' - it requires much",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-014",
@@ -67368,11 +67376,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 14,
         he: "מרובים להסיקו אף זה שהאויר צונן",
-        en: "The sign: a cold oven.",
+        en: "Rashi: continues - wood to heat it, so too here, where the air is cold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-015",
@@ -67380,11 +67390,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 15,
         he: "והגוף צונן והחולי מבעירו בידוע",
-        en: "The illness must work harder against a cold body.",
+        en: "Rashi: continues - and the body is cold and the illness inflames it, it is known",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-016",
@@ -67392,11 +67404,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 16,
         he: "שהוא חולי קשה: מיגמר בעתיקתא",
-        en: "Re-learning something forgotten is harder than learning something new.",
+        en: "Rashi: concludes - to be a severe illness. Then opens 'relearning old material'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-017",
@@ -67404,11 +67418,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 17,
         he: "קשה מחדתא. מי שלמד והסיח דעתו",
-        en: "One who learned, became distracted, and forgot finds it hard to re-learn.",
+        en: "Rashi: continues - is harder than new - one who learned and turned his mind away",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-018",
@@ -67416,11 +67432,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 18,
         he: "ושכח קשה לחזור וללמוד מה ששכח",
-        en: "More so than learning something never studied.",
+        en: "Rashi: continues - and forgot, it is harder for him to return and relearn what he forgot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-019",
@@ -67428,11 +67446,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 19,
         he: "יותר ממה שלא למד: וסימניך טינא",
-        en: "The sign: clay from old clay - mixing mortar from old clay.",
+        en: "Rashi: concludes - than what he never learned. Then opens 'and your mnemonic is mortar'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-020",
@@ -67440,11 +67460,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 20,
         he: "בר טינא. טיט שגובלים אותו מטיט",
-        en: "Is harder than mixing fresh earth clay.",
+        en: "Rashi: continues - from mortar - clay that one kneads from the clay of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-021",
@@ -67452,11 +67474,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 21,
         he: "חומר כותל ישן קשה לגבלו יותר",
-        en: "Because old material is harder to blend.",
+        en: "Rashi: continues - an old wall's material is harder to knead than",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l03"
+        ]
       },
       {
         id: "rashi-yoma-029a-022",
@@ -67464,11 +67488,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 22,
         he: "מטיט של עפר חדש: מאי טעמא",
-        en: "What is R. Yehuda's reasoning for saying the sun column splits?",
+        en: "Rashi: concludes - clay from fresh earth. Then opens 'what is the reason'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l06"
+        ]
       },
       {
         id: "rashi-yoma-029a-023",
@@ -67476,11 +67502,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 23,
         he: "דרבי. דאמר תימור של חמה מפצע:",
-        en: "This doe - not exactly a doe since a doe has no horns.",
+        en: "Rashi: concludes - of Rabbi - who says a column of sunlight splits.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l06"
+        ]
       },
       {
         id: "rashi-yoma-029a-024",
@@ -67488,11 +67516,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 24,
         he: "אילה זו. לאו דווקא נקט שהרי אין",
-        en: "Why is Esther compared to a morning doe?",
+        en: "Rashi: opens 'this hind' - it is not stated precisely, since there are no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-025",
@@ -67500,11 +67530,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 25,
         he: "קרנים לנקיבה : למה נמשלה",
-        en: "In tractate Megilla (15b) we are told Esther said this psalm.",
+        en: "Rashi: concludes - antlers on the female. Then opens 'why was Esther likened'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-026",
@@ -67512,11 +67544,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 26,
         he: "אסתר כאילת. במס' מגילה (ד' טו:)",
-        en: "When she entered the idol chamber the Shechina left her.",
+        en: "Rashi: continues - to a hind - in Tractate Megilla (15b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-027",
@@ -67524,11 +67558,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 27,
         he: "אמרינן דאסתר אמרה מזמור זה",
-        en: "She said 'my God, my God, why have you forsaken me?'",
+        en: "Rashi: continues - we say that Esther recited this psalm",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-028",
@@ -67536,11 +67572,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 28,
         he: "כיון שהגיעה לבית הצלמים נסתלקה",
-        en: "This fits well according to the view that says - there is a dispute in Megilla.",
+        en: "Rashi: continues - once she reached the house of idols, the Divine Presence departed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-029",
@@ -67548,11 +67586,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 29,
         he: "הימנה שכינה אמרה אלי אלי למה",
-        en: "One view says it [Esther] makes hands impure [as sacred scripture].",
+        en: "Rashi: concludes - from her, and she said: my God, my God, why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l09"
+        ]
       },
       {
         id: "rashi-yoma-029a-030",
@@ -67560,11 +67600,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 30,
         he: "עזבתני: הניחא למ\"ד. פלוגתא",
-        en: "And one view says it does not.",
+        en: "Rashi: opens 'have you forsaken me. That works out well according to the one who said' - a dispute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l15"
+        ]
       },
       {
         id: "rashi-yoma-029a-031",
@@ -67572,11 +67614,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 31,
         he: "במסכת מגילה (דף ז.) איכא למאן",
-        en: "He aligns it with R. Binyamin bar Yefet's interpretation.",
+        en: "Rashi: continues - in Tractate Megilla (7a), there is one who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l15"
+        ]
       },
       {
         id: "rashi-yoma-029a-032",
@@ -67584,11 +67628,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 32,
         he: "דאמר מטמאה את הידים ואיכא",
-        en: "Who derives 'morning star' as R. Binyamin bar Yefet does.",
+        en: "Rashi: continues - says it renders the hands impure, and there is one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l15"
+        ]
       },
       {
         id: "rashi-yoma-029a-033",
@@ -67596,11 +67642,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 33,
         he: "למ\"ד דאינה מטמאה את הידים",
-        en: "Why are the prayers of the righteous compared to a doe?",
+        en: "Rashi: concludes - who says it does not render the hands impure, since it is not a book.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l15"
+        ]
       },
       {
         id: "rashi-yoma-029a-034",
@@ -67608,11 +67656,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 34,
         he: "דלאו ספר היא: מוקים לה כרבי",
-        en: "This 'shachar' is interpreted as prayer.",
+        en: "Rashi: opens 'establishes it in accordance with Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-035",
@@ -67620,11 +67670,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 35,
         he: "בנימין בר יפת. כלומר דריש להאי",
-        en: "As in 'my spirit within me I seek You at dawn' (Is. 26).",
+        en: "Rashi: continues - Binyamin bar Yefet' - meaning he interprets this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-036",
@@ -67632,11 +67684,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 36,
         he: "שחר כר' בנימין בר יפת: למה נמשלה",
-        en: "'For the conductor of the morning' - prayer is like a doe.",
+        en: "Rashi: concludes - dawn like Rabbi Binyamin bar Yefet. Then opens 'why were'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-037",
@@ -67644,11 +67698,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 37,
         he: "תפלתן של צדיקים כו'. דהאי שחר",
-        en: "Each year as its horns grow, they branch further.",
+        en: "Rashi: continues - the prayers of the righteous likened, etc.' - since he interprets this dawn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-038",
@@ -67656,11 +67712,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 38,
         he: "לשון תפלה הוא דריש ליה כמו רוחי",
-        en: "When is this? We assumed 'they brought the KG down to the immersion chamber' is the end of the Mishna.",
+        en: "Rashi: continues - as an expression of prayer, like 'my spirit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-039",
@@ -67668,11 +67726,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 39,
         he: "בקרבי אשחרך (ישעיה כו) למנצח על",
-        en: "And that on the day they erred and slaughtered the tamid at night.",
+        en: "Rashi: continues - within me I seek You' (Isaiah 26); for the leader, about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-040",
@@ -67680,11 +67740,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 40,
         he: "התפלה שהיא כאילת שכ\"ז שמגדלת",
-        en: "They brought the KG down to the immersion chamber to slaughter another tamid after immersion.",
+        en: "Rashi: continues - the prayer that is like a hind, that each year it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-041",
@@ -67692,11 +67754,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 41,
         he: "קרניה מפצילות בכל שנה ושנה נוסף",
-        en: "When did this error occur? If we say on a regular year - not Yom Kippur.",
+        en: "Rashi: concludes - grows its antlers, an additional branching is added to it each year.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l18"
+        ]
       },
       {
         id: "rashi-yoma-029a-042",
@@ -67704,11 +67768,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 42,
         he: "בה פיצול אחד: אימת אילימא כו'.",
-        en: "At end of a month when the moon rises just before dawn.",
+        en: "Rashi: opens and closes 'when, if we say, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-043",
@@ -67716,11 +67782,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 43,
         he: "קא סלקא דעתיה הורידו כהן גדול לבית הטבילה סיפא דמתניתין הוא",
-        en: "A KG is not needed - other days' service does not require a KG.",
+        en: "Rashi: continues - one might think that they led the High Priest down to the Hall of Immersion is the mishna's own end,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-044",
@@ -67728,11 +67796,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 44,
         he: "וביום שטעו לשחוט את התמיד בלילה קאמר הורידו כ\"ג לבית הטבילה",
-        en: "Can moonlight appear just before dawn? The premise is questioned.",
+        en: "Rashi: continues - and it speaks of the day they mistakenly slaughtered the daily-offering at night, that they led the High Priest down to the Hall of Immersion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-045",
@@ -67740,11 +67810,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 45,
         he: "לשחוט תמיד אחרי הטבילה אימת הוה האי טעות: אי נימא בשאר",
-        en: "The conclusion: on Yom Kippur, when the observer said 'Berkai' etc., they took him to the burning place.",
+        en: "Rashi: concludes - to slaughter the daily-offering after immersion; when did this mistake occur. Then opens 'if we say during the rest'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-046",
@@ -67752,11 +67824,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 46,
         he: "ימות השנה. דלאו יוה\"כ ובסוף אחד מן החדשים כשהלבנה צומחת",
-        en: "And 'they brought the KG down' is a separate statement, about the Yom Kippur procedure.",
+        en: "Rashi: continues - of the days of the year - meaning not Yom Kippur, at the end of one of the months when the moon rises",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-047",
@@ -67764,11 +67838,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 47,
         he: "סמוך לעלות השחר: לא סגי דלאו כהן גדול. לא דיי עבודת שאר",
-        en: "Teaching the order of Yom Kippur service: when the observer says 'Berkai' they bring the KG down.",
+        en: "Rashi: concludes - close to dawn. Then opens 'is there no alternative to the High Priest' - the service of other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-048",
@@ -67776,11 +67852,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 48,
         he: "ימים דלאו בכהן גדול: מאור הלבנה מי איכא. לצמוח סמוך לשחר:",
-        en: "For the morning immersion on Yom Kippur.",
+        en: "Rashi: concludes - days does not require the High Priest. Then opens and closes 'is there moonlight' - rising close to dawn.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l24"
+        ]
       },
       {
         id: "rashi-yoma-029a-049",
@@ -67788,11 +67866,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 49,
         he: "ה\"ק וביום הכפורים כי אמר ברק ברקאי כו'. והוציאוהו לבית השריפה",
-        en: "Not only this sacrifice - not only the slaughter at night was burnt.",
+        en: "Rashi: opens 'this is what is meant: and on Yom Kippur when they said the light flashed, etc.' - and they took it out to the place of burning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l27"
+        ]
       },
       {
         id: "rashi-yoma-029a-050",
@@ -67800,11 +67880,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 50,
         he: "מסקנא דמילתא הוא והורידו כ\"ג מילתא באפיה נפשיה היא ומהדר",
-        en: "But also bird-neckings and flour-pinchings done at night are burnt.",
+        en: "Rashi: continues - is the conclusion of the matter, and they led the High Priest down is its own separate matter, and it returns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l27"
+        ]
       },
       {
         id: "rashi-yoma-029a-051",
@@ -67812,11 +67894,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 51,
         he: "לאורויי בסדר עבודה דיוה\"כ והכי קאמר כשהרואה אומר ברקאי היו",
-        en: "Because they are derived from animal slaughter - bird neckings and flour pinchings.",
+        en: "Rashi: concludes - to teach the order of the Yom Kippur service, and this is what it says: when the observer said 'the light flashed,' they would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l27"
+        ]
       },
       {
         id: "rashi-yoma-029a-052",
@@ -67824,11 +67908,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 52,
         he: "מורידין כ\"ג ביוה\"כ לבית הטבילה שחרית: לא זו בלבד. לא זבח לבדו",
-        en: "Take the place of animal slaughter.",
+        en: "Rashi: opens and closes 'not this alone' - not the offering alone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l28"
+        ]
       },
       {
         id: "rashi-yoma-029a-053",
@@ -67836,11 +67922,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 53,
         he: "שנשחט בלילה אמרו ישרף: אלא אף מליקת העוף וקמיצת המנחה",
-        en: "They are derived from animal slaughter; what happened happened - they cannot be restored.",
+        en: "Rashi: concludes - that was slaughtered at night did they say is burned. Then opens 'but even the pinching of the bird and the taking of the handful of the meal-offering'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l28"
+        ]
       },
       {
         id: "rashi-yoma-029a-054",
@@ -67848,11 +67936,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 54,
         he: "בלילה תשרף. דגמרי להו משחיטה דמליקת העוף וקמיצת מנחה",
-        en: "The tanna teaches it and answers it from his own reasoning.",
+        en: "Rashi: continues - at night, is burned - since they derive them from slaughtering, that the pinching of the bird and the taking of the handful",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l28"
+        ]
       },
       {
         id: "rashi-yoma-029a-055",
@@ -67860,11 +67950,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 55,
         he: "במקום שחיטת הזבחים הם: מאי דהוה הוה. אי אפשר להחזירה:",
-        en: "He himself teaches it and gives this explanation.",
+        en: "Rashi: concludes - stand in the place of the slaughtering of offerings. Then opens and closes 'what was, was' - it cannot be undone.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l28"
+        ]
       },
       {
         id: "rashi-yoma-029a-056",
@@ -67872,11 +67964,13 @@ const DAF_CONTENT = {
         daf: "29a",
         vilnaLine: 56,
         he: "הוא",
-        en: "He.",
+        en: "Rashi: the daf's final truncated word, continuing the dibbur hamatchil that opens Rashi's own comment on whether the handful of the meal-offering can still be returned, whose text continues on 29b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-029a-l28"
+        ]
       }
     ],
     review: {

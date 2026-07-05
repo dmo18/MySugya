@@ -20,7 +20,7 @@ validator does not check.
 
 ## Status
 
-As of VERSION 15.26: schema backfill is complete, the perek-level semantic
+As of VERSION 15.27: schema backfill is complete, the perek-level semantic
 review is complete, crosswired and duplicated scaffold fixes are
 complete, `takeaway.type` normalization is complete, the 45a
 source-review issue is resolved, and the 5a/yoma-005a-s02 follow-up is
@@ -3111,6 +3111,68 @@ distinct from the generic descriptive-style placeholder pattern that
 dominated 21a through 26b, worth checking for specifically on every
 remaining daf in this corpus regardless of whether the raw-count
 preflight passes cleanly.
+
+## 29a, full daf (VERSION 15.27), fifth dangling-link daf, resuming the run at 29a-32b
+
+Resuming the fast alignment run into new territory (29a-32b). Before
+any edit, the 28b/29a boundary was re-verified read-only: 28b's
+truncated final word "הרהורי" (musings of) is completed by 29a's
+opening "הרהורי עבירה קשו מעבירה" in both the Gemara and Rashi
+columns, continuing Rav Nachman's teaching about hazy sunlight and
+dazzling light cleanly. No edit was made to 28b. The mandatory
+preflight raw-count check was run first: talmud.dev's non-empty raw
+Rashi array for 29a has 56 lines, and the prior enrichment JSON's
+`rashiTranslations` also had 56 entries, an exact match on count.
+
+Per the practice established in the 25a-28b run, every existing
+`linkedGemaraLineIds` value was independently checked against the
+daf's real captured Gemara line ids before trusting the count match.
+29a's real ids are `l01`, `l03`, `l06`, `l09`, `l15`, `l18`, `l24`,
+`l27`, `l28` (9 total, spanning 32 raw Gemara print lines). Checking
+every prior entry against this set found 6 dangling references to
+nonexistent ids: vilnaLine 2 to `l02`, vilnaLine 3 to `l05`, vilnaLine
+5 to `l08`, vilnaLine 6 to `l10`, vilnaLine 8 to `l19`, and vilnaLine
+9 to `l22`. This is the fifth consecutive daf with this failure mode
+(after 27a, 27b, 28a, 28b), so the whole daf was rebuilt using the
+list-indexed methodology.
+
+All 56 raw Rashi print lines were read against the raw Gemara text
+and the 9 real captured line ids, using the multi-DH rule. One
+boundary slip mid-draft, where a line transitioning from the machloket
+about whether the Scroll of Esther renders the hands impure into the
+comment establishing the dawn/prayer analogy was assigned to the
+wrong side of the transition, was caught by comparing the raw text
+against the target id before applying and corrected (the line
+concluding "since it is not a book" still belongs to the same comment
+as the lines before it, not the one opening immediately after). The
+correspondence: vilnaLine 1-8 (thoughts of transgression, the odor of
+meat, the end of summer, a heated oven) to `l01`; 9-21 (a fever in
+the winter, a cold oven, relearning old material, mortar from mortar)
+to `l03`; 22-23 (what is the reason of Rabbi) to `l06`; 24-29 (this
+hind is not stated precisely, why was Esther likened to a hind) to
+`l09`; 30-33 (that works out well according to the one who said, a
+dispute over whether the scroll renders the hands impure) to `l15`;
+34-41 (establishes it in accordance with Rabbi Binyamin bar Yefet,
+why were the prayers of the righteous likened to a hind) to `l18`;
+42-48 (when, if we say, is there no alternative to the High Priest,
+is there moonlight) to `l24`; 49-51 (this is what is meant: and on
+Yom Kippur when they said the light flashed) to `l27`; 52-56 (not
+this alone, but even the pinching of the bird, what was, was) to
+`l28`. All 9 of this daf's real captured Gemara lines received a
+dedicated comment; none were folded.
+
+vilnaLine 56, the daf's final truncated word "הוא" (it/he), is the
+same kind of boundary case as every other daf ending in this run: per
+the policy, it is linked to `yoma-029a-l28`, 29a's own final locally
+captured Gemara line (the baraita on pinching a bird and taking the
+handful of a meal-offering at night), even though the DH's own point
+is itself still open at the point of truncation, continuing onto 29b.
+
+All 56 entries were fixed in a single list-indexed pass. 29a is fully
+resolved, 56/56, with every entry's `en` text and linkedGemaraLineIds
+now verified against the raw Rashi Hebrew and the real captured line
+ids, correcting both the 6 confirmed dangling links and the
+surrounding entries that had not been independently checked before.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

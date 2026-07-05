@@ -26,301 +26,395 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Sinful thoughts are worse than the sin itself - mnemonic: smell of meat.",
+      "en": "Rashi: opens 'thoughts of transgression' - desire for women is harder on the body than the act",
       "linkedGemaraLineIds": [
         "yoma-029a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Fever in winter is worse than in summer - mnemonic: heating a cold oven.",
+      "en": "Rashi: concludes - itself. Then opens 'the odor of meat' - one who smells roasting meat finds the smell very",
       "linkedGemaraLineIds": [
-        "yoma-029a-l02"
+        "yoma-029a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rabbi Abbahu: the morning star is stronger than moonlight - from Psalm 22:1.",
+      "en": "Rashi: concludes - appetizing. Then opens 'the end of summer' - Elul, the end of summer, is more oppressive than summer, its",
       "linkedGemaraLineIds": [
-        "yoma-029a-l05"
+        "yoma-029a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Esther is compared to the morning star - the last of all miracles.",
+      "en": "Rashi: continues - heat is more oppressive than the heat of summer itself in Tammuz, since the whole air and people's bodies",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: continues - have already grown warm from the summer heat that has passed over them, so a person now grows warm",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: concludes - even from mild heat, and it harms him. Then opens 'and your mnemonic'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues - is a heated oven - an oven heated twice or three times",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: concludes - a day is hot and easy to heat further with little wood.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: opens and closes 'a fever in the winter' -",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - a fever in the winter months that heats",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - the patient is known to be much more severe",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - than a fever burning him in the summer months.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: opens 'and your mnemonic is a cold oven' - it requires much",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - wood to heat it, so too here, where the air is cold",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - and the body is cold and the illness inflames it, it is known",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: concludes - to be a severe illness. Then opens 'relearning old material'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: continues - is harder than new - one who learned and turned his mind away",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - and forgot, it is harder for him to return and relearn what he forgot",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: concludes - than what he never learned. Then opens 'and your mnemonic is mortar'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - from mortar - clay that one kneads from the clay of",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - an old wall's material is harder to knead than",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: concludes - clay from fresh earth. Then opens 'what is the reason'",
       "linkedGemaraLineIds": [
         "yoma-029a-l06"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Why isn't Hanukkah the last miracle? Hanukkah was after Purim.",
+      "vilnaLine": 23,
+      "en": "Rashi: concludes - of Rabbi - who says a column of sunlight splits.",
       "linkedGemaraLineIds": [
-        "yoma-029a-l08"
+        "yoma-029a-l06"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "Purim was not the conclusion of all miracles for all Jews - Hanukkah was the last universal miracle.",
+      "vilnaLine": 24,
+      "en": "Rashi: opens 'this hind' - it is not stated precisely, since there are no",
       "linkedGemaraLineIds": [
-        "yoma-029a-l10"
+        "yoma-029a-l09"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Mishna: they slaughtered the tamid before dawn - what is the ruling?",
+      "vilnaLine": 25,
+      "en": "Rashi: concludes - antlers on the female. Then opens 'why was Esther likened'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - to a hind - in Tractate Megilla (15b)",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - we say that Esther recited this psalm",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - once she reached the house of idols, the Divine Presence departed",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - from her, and she said: my God, my God, why",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: opens 'have you forsaken me. That works out well according to the one who said' - a dispute",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - in Tractate Megilla (7a), there is one who",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - says it renders the hands impure, and there is one",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: concludes - who says it does not render the hands impure, since it is not a book.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l15"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: opens 'establishes it in accordance with Rabbi",
       "linkedGemaraLineIds": [
         "yoma-029a-l18"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "The incident occurred during the rest of the year (not Yom Kippur) - not a Yom Kippur ruling.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Father of R. Avin: a daily offering slaughtered before dawn is invalid.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Winter fever is more intense than summer fever.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Because the body and air are cold; the illness heats it from within.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The sign: a cold oven - needs much wood to heat; winter fever similarly works against cold body.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "A cold oven requires much wood - similarly winter fever must work harder to heat a cold body.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The sign: a cold oven.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The illness must work harder against a cold body.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Re-learning something forgotten is harder than learning something new.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "One who learned, became distracted, and forgot finds it hard to re-learn.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "More so than learning something never studied.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The sign: clay from old clay - mixing mortar from old clay.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Is harder than mixing fresh earth clay.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Because old material is harder to blend.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "What is R. Yehuda's reasoning for saying the sun column splits?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "This doe - not exactly a doe since a doe has no horns.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Why is Esther compared to a morning doe?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "In tractate Megilla (15b) we are told Esther said this psalm.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "When she entered the idol chamber the Shechina left her.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "She said 'my God, my God, why have you forsaken me?'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "This fits well according to the view that says - there is a dispute in Megilla.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "One view says it [Esther] makes hands impure [as sacred scripture].",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "And one view says it does not.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "He aligns it with R. Binyamin bar Yefet's interpretation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Who derives 'morning star' as R. Binyamin bar Yefet does.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Why are the prayers of the righteous compared to a doe?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "This 'shachar' is interpreted as prayer.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 35,
-      "en": "As in 'my spirit within me I seek You at dawn' (Is. 26).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Binyamin bar Yefet' - meaning he interprets this",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "'For the conductor of the morning' - prayer is like a doe.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - dawn like Rabbi Binyamin bar Yefet. Then opens 'why were'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Each year as its horns grow, they branch further.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the prayers of the righteous likened, etc.' - since he interprets this dawn",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "When is this? We assumed 'they brought the KG down to the immersion chamber' is the end of the Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as an expression of prayer, like 'my spirit",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "And that on the day they erred and slaughtered the tamid at night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - within me I seek You' (Isaiah 26); for the leader, about",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "They brought the KG down to the immersion chamber to slaughter another tamid after immersion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the prayer that is like a hind, that each year it",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "When did this error occur? If we say on a regular year - not Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - grows its antlers, an additional branching is added to it each year.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l18"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "At end of a month when the moon rises just before dawn.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens and closes 'when, if we say, etc.' -",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "A KG is not needed - other days' service does not require a KG.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one might think that they led the High Priest down to the Hall of Immersion is the mishna's own end,",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "Can moonlight appear just before dawn? The premise is questioned.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it speaks of the day they mistakenly slaughtered the daily-offering at night, that they led the High Priest down to the Hall of Immersion",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The conclusion: on Yom Kippur, when the observer said 'Berkai' etc., they took him to the burning place.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - to slaughter the daily-offering after immersion; when did this mistake occur. Then opens 'if we say during the rest'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "And 'they brought the KG down' is a separate statement, about the Yom Kippur procedure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of the days of the year - meaning not Yom Kippur, at the end of one of the months when the moon rises",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "Teaching the order of Yom Kippur service: when the observer says 'Berkai' they bring the KG down.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - close to dawn. Then opens 'is there no alternative to the High Priest' - the service of other",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "For the morning immersion on Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - days does not require the High Priest. Then opens and closes 'is there moonlight' - rising close to dawn.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l24"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "Not only this sacrifice - not only the slaughter at night was burnt.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'this is what is meant: and on Yom Kippur when they said the light flashed, etc.' - and they took it out to the place of burning,",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l27"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "But also bird-neckings and flour-pinchings done at night are burnt.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is the conclusion of the matter, and they led the High Priest down is its own separate matter, and it returns",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l27"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Because they are derived from animal slaughter - bird neckings and flour pinchings.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - to teach the order of the Yom Kippur service, and this is what it says: when the observer said 'the light flashed,' they would",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l27"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Take the place of animal slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens and closes 'not this alone' - not the offering alone",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l28"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "They are derived from animal slaughter; what happened happened - they cannot be restored.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - that was slaughtered at night did they say is burned. Then opens 'but even the pinching of the bird and the taking of the handful of the meal-offering'",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l28"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "The tanna teaches it and answers it from his own reasoning.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - at night, is burned - since they derive them from slaughtering, that the pinching of the bird and the taking of the handful",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l28"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "He himself teaches it and gives this explanation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - stand in the place of the slaughtering of offerings. Then opens and closes 'what was, was' - it cannot be undone.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l28"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "He.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word, continuing the dibbur hamatchil that opens Rashi's own comment on whether the handful of the meal-offering can still be returned, whose text continues on 29b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-029a-l28"
+      ]
     }
   ],
   "sugyot": [
