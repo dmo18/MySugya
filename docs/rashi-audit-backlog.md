@@ -3234,6 +3234,37 @@ This closes out a sixth consecutive dangling-link daf (27a, 27b, 28a,
 default expectation, not an edge case, for the remainder of this
 corpus.
 
+## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
+
+A post-hoc spot check of the completed 21a-29b work (sampling 40
+entries across 20a, 20b, 21a, 22b, 23a, 24b, 25a, 26b, 27a, 27b, 28a,
+28b, 29a, 29b) found one failure: 20b vilnaLine 31's `en` text
+described vilnaLine 32's own raw Hebrew, not its own. Dumping all 41
+entries of 20a and all 62 entries of 20b side by side (raw Hebrew
+against `en`) confirmed this is isolated to 20b and is a pre-existing
+issue inherited from before this run began at 21a; 20a and the rest of
+20b (vilnaLine 1-18, 33-62) show no shift.
+
+Re-inspecting vilnaLine 18-35 (wider than the original 20-32 estimate,
+per instruction, to catch edge bleed) against the raw Hebrew found the
+actual affected span is vilnaLine 19-35 (17 entries, not 13): the
+drift starts as a partial two-line merge at vilnaLine 19 (which had
+folded in the first clause of vilnaLine 20's own Hebrew), runs as a
+clean one-line-ahead shift from vilnaLine 20 through 31, partially
+resolves with a duplicated phrase at vilnaLine 32, then re-drifts as a
+merge through vilnaLine 33-35 before resolving cleanly at vilnaLine 36
+(vilnaLine 36's own `en` was already correct and was left unchanged).
+
+`linkedGemaraLineIds` was checked against the real captured Gemara
+lines for the whole span and found correct throughout: vilnaLine
+19 to `l02`, 20-32 to `l05` (one real line, itself long enough to
+span the mishna's daily/Yom Kippur/Festival removal-timing rules that
+Rashi's comment tracks across all thirteen print lines), 33-35 to
+`l11`. No placement error was found, so per instruction no
+`linkedGemaraLineIds` values were changed; only the `en` field was
+rewritten for vilnaLine 19 through 35, each now describing its own
+raw Hebrew print line rather than a neighbor's.
+
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 
 While reconstructing 10b's real comment boundaries for Batch 1, the same
