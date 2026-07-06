@@ -2639,6 +2639,39 @@ resolved, 62/62, with real translations replacing every generic
 placeholder and every linkedGemaraLineIds value corrected to its
 real zero-padded `yoma-025b-lXX` target.
 
+## 25b, vilnaLine 30-35 (VERSION 15.29), second correction found by the 20a-29b audit
+
+The compact structural + full-content audit of 20a-29b (run after the
+20b fix above) found a second, smaller contiguous English-helper
+content shift, this time introduced during this session's own build
+of 25b rather than inherited as pre-existing content. Full raw-vs-en
+comparison of vilnaLine 18-45 found the drift begins as a partial
+merge at vilnaLine 30 (which had folded in the opening clause of
+vilnaLine 31's own Hebrew), runs as a clean one-line-ahead shift
+through vilnaLine 34, partially resolves with a duplicated phrase at
+vilnaLine 35 ("for the receiving"), and is fully correct again from
+vilnaLine 36 onward (36's own `en` was already correct describing its
+own raw text and was left unchanged).
+
+`linkedGemaraLineIds` was checked against the real captured Gemara
+lines for the whole span and found correct throughout: vilnaLine
+29-35 all correctly target `l18` (the Gemara's own line proving the
+thirteen-priest count via the sprinkler-is-the-receiver derivation,
+long enough to cover Rashi's multi-line elaboration on why the
+sanctification of hands and feet is required for the receiving even
+though the slaughtering itself is valid by a non-priest). No
+placement error was found, so per instruction no `linkedGemaraLineIds`
+values were changed; only the `en` field was rewritten for vilnaLine
+30 through 35 (6 entries), each now describing its own raw Hebrew
+print line.
+
+This is the second instance of this exact failure mode found in this
+audit (after 20b), but unlike 20b this one was introduced during this
+session's own fast-alignment build rather than inherited - a reminder
+that the full-index, no-sampling verification discipline established
+for id-mapping slips applies equally to the `en` text itself, not just
+to `linkedGemaraLineIds`.
+
 ## 26a, full daf (VERSION 15.21)
 
 Continuing the resumed run. Before any edit, the 25b/26a boundary was
@@ -3264,6 +3297,32 @@ Rashi's comment tracks across all thirteen print lines), 33-35 to
 `linkedGemaraLineIds` values were changed; only the `en` field was
 rewritten for vilnaLine 19 through 35, each now describing its own
 raw Hebrew print line rather than a neighbor's.
+
+## Quality audit of 20a-29b (VERSION 15.29), full raw-vs-en re-verification
+
+After the two content-shift corrections above (20b vilnaLine 19-35,
+25b vilnaLine 30-35), a full audit was run across all twenty daf from
+20a through 29b before resuming forward production at 30a. Two
+layers were checked for every daf:
+
+Structural (scripted): raw non-empty Rashi line count against
+`rashiTranslations` entry count, `vilnaLine` sequence contiguity,
+every `linkedGemaraLineIds` value checked against the real captured
+ids for that daf (dangling-link check), no empty `linkedGemaraLineIds`,
+and the final truncated entry's boundary-policy compliance (linked to
+the daf's own final locally captured line). All twenty daf passed
+every structural check with no exceptions.
+
+Content (full manual re-verification, not sampling): every raw Rashi
+print line for all twenty daf was read against its own `en` field and
+`linkedGemaraLineIds` target, checking for the same one-line-ahead
+content-shift pattern found in 20b and 25b. 20a, 21a, 21b, 22a, 22b,
+23a, 23b, 24a, 24b, 25a, 26a, 26b, 27a, 27b, 28a, 28b, 29a, and 29b
+all passed with no shift found anywhere in any of them. Only the two
+already-documented and already-corrected spans (20b vilnaLine 19-35,
+25b vilnaLine 30-35) were found across the entire 20a-29b range.
+
+No further corrections were needed. The 20a-29b audit is closed.
 
 ## Major systemic finding: descriptive-style Rashi helper content-to-line mismatches
 

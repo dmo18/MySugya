@@ -229,42 +229,42 @@
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continues - services counted in our mishna among the daily-offering's lottery services, other than",
+      "en": "Rashi: continues - services were counted in our mishna, among the services",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continues - the slaughtering, which does not require the sanctification of hands and feet even",
+      "en": "Rashi: continues - of the daily-offering's lottery, except that the slaughtering is not",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - when performed by a priest, since it is a service that",
+      "en": "Rashi: continues - requiring the sanctification of hands and feet, even",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: continues - is valid by a non-priest, and if you say the slaughterer receives,",
+      "en": "Rashi: continues - when performed by a priest, since it is a service that",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: continues - it turns out he must sanctify his hands and feet",
+      "en": "Rashi: continues - is valid by a non-priest; and if you say the slaughterer receives,",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: continues - for the receiving.",
+      "en": "Rashi: continues - it turns out he must sanctify his hands and feet",
       "linkedGemaraLineIds": [
         "yoma-025b-l18"
       ]
@@ -506,7 +506,10 @@
         "coreTension": "Any precedent for combining two Temple tasks under one lottery winner looks like it should generalize to other task pairs, yet the Gemara refuses to extend the coal-and-incense precedent to slaughter and sprinkling.",
         "coreMove": "The Gemara distinguishes physically inseparable acts, the coal-pan and incense must happen as one continuous motion by one person, from sequential but distinct acts like slaughter and blood-sprinkling. R. Chiyya's explicit ruling that no per-task lottery is held then settles the structural question: tasks are grouped together in a single lottery round, but grouping the lottery is not the same as proving one priest performs every task in the group.",
         "resolution": "No separate lottery is held for each individual task; related tasks are grouped together in one lottery round. Whether slaughter and blood-collection specifically fall to the same priest is a separate question, taken up immediately afterward.",
-        "takeaway": {"type": "legal_principle", "text": "A shared lottery round does not by itself prove that the same priest performs every task within it. Physically inseparable tasks must be combined; which priest performs each sequential task is determined by separate criteria."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A shared lottery round does not by itself prove that the same priest performs every task within it. Physically inseparable tasks must be combined; which priest performs each sequential task is determined by separate criteria."
+        },
         "ahaMoment": "The coal-pan and incense are inseparable not just in practice but as a single combined service; that distinction between intrinsically linked services and separable ones, not the lottery's grouping, is what drives the legal analysis.",
         "learningBlocker": "Learners may read 'no per-task lottery' as meaning one priest does everything assigned in that lottery round. The grouping is a procedural fact about how the lottery is conducted; which specific priest performs which task within the group is answered separately, and the Gemara goes on to establish that the blood collector is the sprinkler, not the slaughterer.",
         "memoryAnchor": "Coal-pan and incense are like one glove, you cannot hold the coal without the incense going in, so they must be one role. Slaughter and blood-sprinkling are two separate steps; grouped lottery, not automatically merged roles."
@@ -672,7 +675,10 @@
         "coreTension": "The mishna's silence about who collects the blood could just as easily mean the slaughterer, already standing at the animal, collects it; instead the Gemara reads that silence as assuming a stricter single-handler rule.",
         "coreMove": "Multiple independent proofs, the priest count implied by the Tamid mishna, a direct baraita, and Rav Acha son of Rava's additional source, all converge on the same answer: continuity of custody. Blood that changes hands between collection and sprinkling carries the same invalidation risk the Gemara guards against in other blood services, so the mishna's silence is read as presupposing the sprinkler collects, not as leaving the question open.",
         "resolution": "The priest who sprinkles the tamid's blood on the altar is the same priest who collected it after slaughter; continuity of custody from collection through sprinkling is the operative rule.",
-        "takeaway": {"type": "legal_principle", "text": "Where a source text is silent about a transitional step, the Gemara reads that silence through governing principles already established elsewhere, here continuity of blood-service custody, rather than treating the silence as permission to deviate."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Where a source text is silent about a transitional step, the Gemara reads that silence through governing principles already established elsewhere, here continuity of blood-service custody, rather than treating the silence as permission to deviate."
+        },
         "ahaMoment": "Blood that stays in one priest's hands from collection through sprinkling has unbroken chain of custody; the service's integrity, not the mishna's wording alone, is what drives the single-handler reading.",
         "learningBlocker": "Learners may wonder what happens if the slaughterer collects the blood by mistake, whether it could simply be handed to the designated sprinkler. The sugya does not address this contingency; its proofs establish the standard procedure, that the sprinkler collects, not the consequences of a deviation from it.",
         "memoryAnchor": "The blood collector equals the blood sprinkler: one priest, unbroken custody, from neck to altar corner."
@@ -834,7 +840,10 @@
         "coreTension": "Three named traditions describing the same procedure look like a genuine three-way dispute over Temple practice, the kind that would normally require picking a winner.",
         "coreMove": "Rava reframes the dispute by isolating what all three actually share: the head, accompanied by the right leg as the side of honor, is carried to the altar first in every version. What looked like competing full orderings collapses into one shared starting principle, with real disagreement confined to the lower-stakes question of what follows the head.",
         "resolution": "All tannaim agree the head, together with the right leg, is carried to the altar first. The dispute among them is limited to the sequence of the remaining limbs.",
-        "takeaway": {"type": "conceptual", "text": "A dispute that looks total at first can collapse into agreement on the operative principle once a later authority isolates what the disputants actually share."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A dispute that looks total at first can collapse into agreement on the operative principle once a later authority isolates what the disputants actually share."
+        },
         "ahaMoment": "Rava's reconciliation shows that what looks like a fundamental dispute is actually agreement on the core principle, the head always leads, with disagreement only on the details of what follows.",
         "learningBlocker": "Learners may assume the limb order carries the same stakes as the slaughter/sprinkling question, where the Gemara works hard to pin down exactly who must perform which role. This sugya does not state whether deviating from the limb order invalidates the offering or is merely a procedural preference; that question is left open here.",
         "memoryAnchor": "All tannaim: head first, right leg alongside, like a general leading a march. Real dispute only over what follows."
