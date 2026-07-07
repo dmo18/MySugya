@@ -74625,7 +74625,7 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 1,
         he: "כפרתן מרובה. שמשמש בהן כל ימות השנה אבל עבודת פנים דיום",
-        en: "School of R. Yishmael: kal vachomer - before donning golden garments, immersion is required.",
+        en: "Rashi: opens 'their atonement is greater' - since he uses them all the days of the year, but the inner service of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -74639,12 +74639,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 2,
         he: "הכפורים אינה מכפרת אלא על טומאת מקדש וקדשיו כדאמרינן",
-        en: "R. Yehuda HaNasi's derivation - second version from the school of R. Yishmael.",
+        en: "Rashi: continues - Yom Kippur atones only for impurity of the Sanctuary and its sacred things, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l03"
+          "yoma-032b-l01"
         ]
       },
       {
@@ -74653,12 +74653,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 3,
         he: "בשבועות (דף ז:): נפקא ליה מדרבי. כתונת בד קדש ילבש ורחץ",
-        en: "Another kal vachomer: just as before donning white garments immersion is required, so before golden garments.",
+        en: "Rashi: concludes - in Shevuot (7b). Then opens 'he derives it from Rebbi' - 'a sacred linen tunic he shall wear, and bathe'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l04"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74667,12 +74667,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 4,
         he: "במים ולבשם: א\"ר וכו'. לפרושי מתניתא דלעיל קא מהדר:",
-        en: "Can refute: what comparison to white garments? White garments are associated with atonement.",
+        en: "Rashi: continues - 'in water, and don them.' Then opens 'Rebbi said, etc.' - he returns to explain the earlier baraita.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l07"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74681,12 +74681,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 5,
         he: "היינו דקתני. במילתא דרבי ואומר",
-        en: "Five services with immersions: morning tamid in gold, etc.",
+        en: "Rashi: continues - this is what it teaches, in Rebbi's own statement. Then opens 'and it says'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l10"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74695,12 +74695,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 6,
         he: "בגדי קדש הם והכי דריש ליה תלה",
-        en: "How do we know each immersion requires two sanctifications?",
+        en: "Rashi: continues - 'they are sacred garments,' and this is how he expounds it: the verse hung",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l13"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74709,12 +74709,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 7,
         he: "הכתוב טעם הטבילה בשביל שהם",
-        en: "Should the Torah write sanctification of hands only - why mention feet too?",
+        en: "Rashi: continues - the reason for immersion on the fact that they are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l16"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74723,12 +74723,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 8,
         he: "בגדי קדש ללמדך שכל חליפות בגדי",
-        en: "R. Yehuda: his derivation - immersion is required before donning garments from Leviticus 16:4.",
+        en: "Rashi: continues - sacred garments, to teach you that every change of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l22"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74737,12 +74737,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 9,
         he: "קדש בו ביום טעונין טבילה ובגדי",
-        en: "Rav Chisda: R. Yehuda HaNasi's five-immersion ruling was a chiddush (original ruling).",
+        en: "Rashi: continues - sacred garments on that day requires immersion; and the golden",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l26"
+          "yoma-032b-l06"
         ]
       },
       {
@@ -74751,12 +74751,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 10,
         he: "זהב גם הם קדש: האי בטבילה",
-        en: "Rav Acha bar Yaakov: everyone agrees about the second sanctification - the debate is about the first.",
+        en: "Rashi: concludes - garments are also sacred. Then opens 'but this is written regarding immersion' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l30"
+          "yoma-032b-l20"
         ]
       },
       {
@@ -74765,12 +74765,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 11,
         he: "כתיב. דהא כתיב בשרו: הכי גרסינן",
-        en: "Rav Acha son of Rava: neither does Rav Chisda actually say R. Yehuda HaNasi's ruling was completely original.",
+        en: "Rashi: continues - since it says 'his flesh.' Then opens 'this is our reading' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l34"
+          "yoma-032b-l20"
         ]
       },
       {
@@ -74779,12 +74779,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 12,
         he: "אם אינו ענין לטבילה דנפקא ליה",
-        en: "Mishna: the High Priest is handed the knife and slaughters the tamid.",
+        en: "Rashi: continues - 'if it is not needed for the matter of immersion, since he derives it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l42"
+          "yoma-032b-l20"
         ]
       },
       {
@@ -74793,12 +74793,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 13,
         he: "מבגדי קדש הם תנהו לענין קידוש:",
-        en: "R. Yochanan: with the majority of each of the two organs (rov simanim).",
+        en: "Rashi: concludes - from \"they are sacred garments,\" apply it to the matter of sanctification.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l45"
+          "yoma-032b-l20"
         ]
       },
       {
@@ -74807,12 +74807,12 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 14,
         he: "הא קמ\"ל. מדאפק' בלשון טבילה",
-        en: "Could you have thought he needs only some organs, not the majority?",
+        en: "Rashi: opens 'this teaches us' - since he stated it in the language of immersion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-032b-l49"
+          "yoma-032b-l24"
         ]
       },
       {
@@ -74821,11 +74821,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 15,
         he: "דילפינן טבילה מיניה: מה קידוש",
-        en: "For the tamid, both the windpipe and the gullet must be cut.",
+        en: "Rashi: continues - that we derive immersion from it. Then opens 'just as sanctification'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l24"
+        ]
       },
       {
         id: "rashi-yoma-032b-016",
@@ -74833,11 +74835,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 16,
         he: "במקום קדוש. כדכתיב בה במקום",
-        en: "For a bird, one organ suffices.",
+        en: "Rashi: continues - is in a sacred place, as it is written regarding it, in a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l24"
+        ]
       },
       {
         id: "rashi-yoma-032b-017",
@@ -74845,11 +74849,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 17,
         he: "קדוש אף טבילות הבאות מחמת",
-        en: "For a beast, both organs must be cut in their majority.",
+        en: "Rashi: continues - sacred place, so too the immersions that come on account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l24"
+        ]
       },
       {
         id: "rashi-yoma-032b-018",
@@ -74857,11 +74863,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 18,
         he: "מחלפות היום במקום קדוש אבל",
-        en: "The ruling about slaughter is established.",
+        en: "Rashi: continues - the day's own changes must be in a sacred place; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l24"
+        ]
       },
       {
         id: "rashi-yoma-032b-019",
@@ -74869,11 +74877,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 19,
         he: "טבילה ראשונה לא ילפת מיניה דהא",
-        en: "Rov simanim is the standard for valid slaughter.",
+        en: "Rashi: continues - the first immersion you do not derive from it, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l24"
+        ]
       },
       {
         id: "rashi-yoma-032b-020",
@@ -74881,11 +74891,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 20,
         he: "לאו דאורייתא היא: ור' יהודה. דמפקא",
-        en: "R. Yochanan and Reish Lakish agree on this ruling.",
+        en: "Rashi: concludes - it is not a Torah-level law. Then opens 'and Rabbi Yehuda' - who derives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l27"
+        ]
       },
       {
         id: "rashi-yoma-032b-021",
@@ -74893,11 +74905,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 21,
         he: "ליה להאי קרא לטבילת בגדי זהב",
-        en: "The derivation of rov simanim.",
+        en: "Rashi: continues - from this verse the immersion for the golden garments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l27"
+        ]
       },
       {
         id: "rashi-yoma-032b-022",
@@ -74905,11 +74919,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 22,
         he: "לא דריש בגדי קדש הם קידוש מנא",
-        en: "The halacha follows this ruling.",
+        en: "Rashi: concludes - does not expound 'they are sacred garments' for sanctification; from where does he derive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-023",
@@ -74917,11 +74933,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 23,
         he: "ליה: אמר רב חסדא כו'. קסבר",
-        en: "Summary of the slaughter requirements.",
+        en: "Rashi: continues - it? Then opens 'Rav Chisda said, etc.' - he holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-024",
@@ -74929,11 +74947,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 24,
         he: "רב חסדא דוקא א\"ר ופשט ורחץ ורחץ",
-        en: "The chapter transitions to the next topic.",
+        en: "Rashi: continues - that Rav Chisda specifically requires that Rebbi, from 'and he shall remove, and bathe, and bathe,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-025",
@@ -74941,11 +74961,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 25,
         he: "ולבש שני קידושין בין פשיטה ולבישה",
-        en: "The KG's slaughter of the tamid on Yom Kippur morning.",
+        en: "Rashi: continues - and don,' [derives] two sanctifications between undressing and dressing,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-026",
@@ -74953,11 +74975,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 26,
         he: "אחד לפני טבילה ואחד לאחריה קודם",
-        en: "He himself slaughters to show the importance of the service.",
+        en: "Rashi: continues - one before immersion and one after it, before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-027",
@@ -74965,11 +74989,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 27,
         he: "לבישה: מפקא מדר' מאיר. מוצאת",
-        en: "The KG personally performs this service.",
+        en: "Rashi: continues - dressing. Then opens 'it excludes from Rabbi Meir' - it emerges",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-028",
@@ -74977,11 +75003,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 28,
         he: "היא מכלל דבריו של ר\"מ לא סבירא",
-        en: "The ruling about rov simanim applies to all animal slaughter.",
+        en: "Rashi: continues - from the implication of Rabbi Meir's own words that he does not hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-029",
@@ -74989,11 +75017,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 29,
         he: "ליה כר\"מ דאע\"ג דאמרינן במתניתין",
-        en: "Both windpipe and gullet majority must be cut for beasts.",
+        en: "Rashi: continues - like Rabbi Meir, since even though we say in the mishna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-030",
@@ -75001,11 +75031,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 30,
         he: "פשט וקידש ידיו ורגליו דס\"ל קידוש",
-        en: "For birds only one organ's majority is required.",
+        en: "Rashi: continues - he undressed and sanctified his hands and feet, that he holds the sanctification",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-031",
@@ -75013,11 +75045,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 31,
         he: "שלפני הטבילה אחר פשיטה הוא פליג",
-        en: "The standard is established for all slaughter.",
+        en: "Rashi: continues - before the immersion is after undressing, he disagrees",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-032",
@@ -75025,11 +75059,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 32,
         he: "עליה מיהא בקידוש שני דקאמר אחר",
-        en: "The halacha is clear: rov simanim makes slaughter valid.",
+        en: "Rashi: continues - with him, however, about the second sanctification, that he says it is after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-033",
@@ -75037,11 +75073,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 33,
         he: "לבישה הוא כדקתני ברייתא דר\"מ",
-        en: "Chapter concludes with the slaughter ruling.",
+        en: "Rashi: continues - dressing, as is taught in the baraita of Rabbi Meir",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l28"
+        ]
       },
       {
         id: "rashi-yoma-032b-034",
@@ -75049,11 +75087,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 34,
         he: "לעיל לבש קידוש ידיו ורגליו: הכל",
-        en: "The next chapter discusses the service sequence.",
+        en: "Rashi: concludes - above: he dressed, sanctified his hands and feet. Then opens 'all'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l34"
+        ]
       },
       {
         id: "rashi-yoma-032b-035",
@@ -75061,11 +75101,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 35,
         he: "מודים. ואפילו רבי שהקידוש הסמוך",
-        en: "Rashi commentary on line 35 of 32b.",
+        en: "Rashi: continues - agree - even Rebbi, that the sanctification adjacent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l34"
+        ]
       },
       {
         id: "rashi-yoma-032b-036",
@@ -75073,11 +75115,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 36,
         he: "לפני העבודה כשהוא לבוש מקדשו:",
-        en: "Rashi commentary on line 36 of 32b.",
+        en: "Rashi: concludes - to the service, when he is dressed, he sanctifies it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l34"
+        ]
       },
       {
         id: "rashi-yoma-032b-037",
@@ -75085,11 +75129,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 37,
         he: "לא רב חסדא. דאמר מילתיה דרבי",
-        en: "Rashi commentary on line 37 of 32b.",
+        en: "Rashi: opens 'not Rav Chisda' - who says Rebbi's own statement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-038",
@@ -75097,11 +75143,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 38,
         he: "דוקא בעי שני קידושין בין פשיטה",
-        en: "Rashi commentary on line 38 of 32b.",
+        en: "Rashi: continues - specifically requires two sanctifications between undressing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-039",
@@ -75109,11 +75157,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 39,
         he: "ללבישה: אית ליה דרב אחא. דאמר",
-        en: "Rashi commentary on line 39 of 32b.",
+        en: "Rashi: concludes - and dressing. Then opens 'he holds like Rav Acha' - who says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-040",
@@ -75121,11 +75171,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 40,
         he: "קידוש אחר לבישה בעינן: לא רב",
-        en: "Rashi commentary on line 40 of 32b.",
+        en: "Rashi: continues - we require a sanctification after dressing. Then opens 'not Rav'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-041",
@@ -75133,11 +75185,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 41,
         he: "אחא. דבעי קידוש סמוך לעבודה:",
-        en: "Rashi commentary on line 41 of 32b.",
+        en: "Rashi: continues - Acha - who requires a sanctification adjacent to the service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-042",
@@ -75145,11 +75199,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 42,
         he: "אית ליה דרב חסדא. דבעי לרבי",
-        en: "Rashi commentary on line 42 of 32b.",
+        en: "Rashi: continues - 'he holds like Rav Chisda' - who requires that Rebbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-043",
@@ -75157,11 +75213,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 43,
         he: "שני קידושין כשהוא ערום דאם כן",
-        en: "Rashi commentary on line 43 of 32b.",
+        en: "Rashi: continues - two sanctifications when he is naked, for if so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-044",
@@ -75169,11 +75227,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 44,
         he: "דאית להו בהדדי הוו ליה לרבי ג'",
-        en: "Rashi commentary on line 44 of 32b.",
+        en: "Rashi: continues - that both apply together, Rebbi would have three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-045",
@@ -75181,11 +75241,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 45,
         he: "קידושין בכל טבילה ב' כשהוא ערום",
-        en: "Rashi commentary on line 45 of 32b.",
+        en: "Rashi: continues - sanctifications for every immersion: two while naked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l38"
+        ]
       },
       {
         id: "rashi-yoma-032b-046",
@@ -75193,11 +75255,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 46,
         he: "ואחד כשהוא [לבוש]: ברוב שנים.",
-        en: "Rashi commentary on line 46 of 32b.",
+        en: "Rashi: concludes - and one while dressed. Then opens 'by more than half of two' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l42"
+        ]
       },
       {
         id: "rashi-yoma-032b-047",
@@ -75205,11 +75269,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 47,
         he: "הכשר שחיטה בצמצום: וכי מאחר",
-        en: "Rashi commentary on line 47 of 32b.",
+        en: "Rashi: continues - the validity of the slaughter is by the exact minimum. Then opens 'but since'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l47"
+        ]
       },
       {
         id: "rashi-yoma-032b-048",
@@ -75217,11 +75283,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 48,
         he: "ששנינו. בשחיטת חולין ורובו של",
-        en: "Rashi commentary on line 48 of 32b.",
+        en: "Rashi: continues - we learned - in the slaughtering of non-sacred animals, and the majority of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l47"
+        ]
       },
       {
         id: "rashi-yoma-032b-049",
@@ -75229,11 +75297,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 49,
         he: "אחד כמוהו ממילא שמעינן רוב",
-        en: "Rashi commentary on line 49 of 32b.",
+        en: "Rashi: continues - one is like it; automatically we learn the majority of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l47"
+        ]
       },
       {
         id: "rashi-yoma-032b-050",
@@ -75241,11 +75311,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 50,
         he: "שנים כשנים: למה שנינו. בצדה",
-        en: "Rashi commentary on line 50 of 32b.",
+        en: "Rashi: concludes - two is like two. Then opens 'why did we teach' - alongside it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l47"
+        ]
       },
       {
         id: "rashi-yoma-032b-051",
@@ -75253,11 +75325,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 51,
         he: "רוב אחד בעוף וכו': יכול יהא",
-        en: "Rashi commentary on line 51 of 32b.",
+        en: "Rashi: concludes - a majority of one for a bird, etc. Then opens 'one might think it would be'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l49"
+        ]
       },
       {
         id: "rashi-yoma-032b-052",
@@ -75265,11 +75339,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 52,
         he: "פסול מדרבנן. הואיל וכל עצמו",
-        en: "Rashi commentary on line 52 of 32b.",
+        en: "Rashi: continues - invalid by rabbinic law, since the whole matter itself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l49"
+        ]
       },
       {
         id: "rashi-yoma-032b-053",
@@ -75277,11 +75353,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 53,
         he: "לדם הוא צריך פסול וכי תנן רובו",
-        en: "Rashi commentary on line 53 of 32b.",
+        en: "Rashi: continues - is for the sake of the blood, he requires... invalid; and when we learned 'the majority of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l49"
+        ]
       },
       {
         id: "rashi-yoma-032b-054",
@@ -75289,11 +75367,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 54,
         he: "של אחד כמוהו בחולין תנן:",
-        en: "Rashi commentary on line 54 of 32b.",
+        en: "Rashi: concludes - one is like it,' we learned this regarding non-sacred slaughter.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l49"
+        ]
       },
       {
         id: "rashi-yoma-032b-055",
@@ -75301,11 +75381,13 @@ const DAF_CONTENT = {
         daf: "32b",
         vilnaLine: 55,
         he: "לכך",
-        en: "Rashi commentary on line 55 of 32b.",
+        en: "Rashi: the daf's final truncated word - 'therefore,' the start of the dibbur hamatchil explaining why the mishna's own teaching is needed twice, once for non-sacred and once for sacred slaughter, whose text continues on 33a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-032b-l49"
+        ]
       }
     ],
     review: {

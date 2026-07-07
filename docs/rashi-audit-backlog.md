@@ -3611,6 +3611,83 @@ dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
 30a, 30b, 31a, 31b, 32a), and closes the 30a-32b portion of the
 resumed run pending 32b.
 
+## 32b, full daf (VERSION 15.36), twelfth dangling-link daf, closes the 30a-32b run
+
+Continuing the run. Before any edit, the 32a/32b boundary was
+re-verified read-only: 32a's truncated final word "כפרתן" (their
+atonement) is completed by 32b's opening "כפרתן מרובה. שמשמש בהן כל
+ימות השנה", continuing the same dibbur hamatchil cleanly in both the
+Gemara and Rashi columns. No edit was made to 32a.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 32b has 55 lines, matching the prior
+enrichment JSON's 55 `rashiTranslations` entries exactly.
+
+Checking every existing `linkedGemaraLineIds` value against 32b's 14
+real captured ids (`l01`, `l06`, `l11`, `l14`, `l17`, `l20`, `l24`,
+`l27`, `l28`, `l34`, `l38`, `l42`, `l47`, `l49`) found the same
+pattern as the prior daf: vilnaLine 2-10 and 13 pointed to
+nonexistent unpadded ids, and vilnaLine 15-55 (41 entries) had
+`linkedGemaraLineIds` entirely empty, carrying the older generic
+descriptive-style filler text throughout. The whole daf was rebuilt
+using the list-indexed methodology.
+
+Three consecutive real captured lines (`l11`, `l14`, `l17`) fold with
+no dedicated vilnaLine of their own - the largest single fold run
+found in this corpus so far. Close reading confirmed this rather than
+assumed it: vilnaLine 9-10's own gloss ("golden garments are also
+sacred") bridges directly from `l06`'s citation into `l20`'s own text
+("but this is written regarding immersion"), with no raw print line
+in between quoting any phrase unique to `l11`'s reverse kal-vachomer
+(white garments' lesser atonement implying golden garments' greater
+one must also require immersion) or `l14`'s rebuttal (distinguishing
+white garments by their use in the innermost sanctum). Since both
+`l11` and `l14` restate a kal-vachomer structure essentially already
+covered on 32a, Rashi's own commentary here moves directly to the
+newer two-sanctifications derivation without separately glossing
+them.
+
+The correspondence: vilnaLine 1-2 (the golden garments' own greater
+atonement, and why that alone does not obligate immersion) to `l01`;
+3-9 (Rebbi's own verse derivation from the sacred-linen-tunic
+passage, and why golden garments count as "sacred" too) to `l06`;
+10-13 (the verse's own literal subject is immersion, redirected to
+sanctification since immersion is independently derived) to `l20`;
+14-19 (why the two-sanctification derivation implies a sacred
+place, and why the first immersion is exempt as a later rabbinic
+enactment) to `l24`; 20-21 (Rabbi Yehuda's own alternate source for
+immersion) to `l27`; 22-33 (Rav Chisda's account of how Rebbi's view
+differs from both Rabbi Meir's and the Rabbis', with the two-
+sanctification placement worked out relative to undressing and
+dressing) to `l28`; 34-36 (Rav Acha bar Yaakov's rule that all agree
+the second sanctification follows dressing) to `l34`; 37-45 (Rav
+Acha the son of Rava's reconciliation of Rav Chisda and Rav Acha bar
+Yaakov, and the resulting sanctification count for Rebbi) to `l38`;
+46 (Ulla's "majority of two" measure for the daily-offering's
+notching) to `l42`; 47-50 (Rabbi Yochanan and Reish Lakish's
+agreement, and why the mishna needed to state both the bird's and
+the animal's own majority rule) to `l47`; 51-54 (the possibility that
+an incomplete slaughter is only rabbinically invalid, since the
+concern is solely for the blood) to `l49`.
+
+vilnaLine 55, the daf's final truncated word "לכך" (therefore), is
+the same kind of boundary case as every other daf ending in this
+run: per the policy, it is linked to `yoma-032b-l49`, 32b's own final
+locally captured Gemara line, even though the DH's own point is
+itself still open at the point of truncation. 33a's own opening line
+("לכך שנינו כו'. ממשנה יתירא חדא בחולין וחדא בקדשים") was read
+read-only to confirm this word begins a dibbur hamatchil explaining
+why the mishna's teaching is needed twice, once for non-sacred and
+once for sacred slaughter, continuing onto 33a; no edit was made to
+33a.
+
+All 55 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying; no drafting slips survived to the applied version.
+32b is fully resolved, 55/55. This is the twelfth consecutive
+dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
+30a, 30b, 31a, 31b, 32a, 32b), and closes the resumed 30a-32b run.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

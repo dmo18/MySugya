@@ -26,306 +26,388 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "School of R. Yishmael: kal vachomer - before donning golden garments, immersion is required.",
+      "en": "Rashi: opens 'their atonement is greater' - since he uses them all the days of the year, but the inner service of",
       "linkedGemaraLineIds": [
         "yoma-032b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "R. Yehuda HaNasi's derivation - second version from the school of R. Yishmael.",
+      "en": "Rashi: continues - Yom Kippur atones only for impurity of the Sanctuary and its sacred things, as we say",
       "linkedGemaraLineIds": [
-        "yoma-032b-l03"
+        "yoma-032b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Another kal vachomer: just as before donning white garments immersion is required, so before golden garments.",
+      "en": "Rashi: concludes - in Shevuot (7b). Then opens 'he derives it from Rebbi' - 'a sacred linen tunic he shall wear, and bathe'",
       "linkedGemaraLineIds": [
-        "yoma-032b-l04"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Can refute: what comparison to white garments? White garments are associated with atonement.",
+      "en": "Rashi: continues - 'in water, and don them.' Then opens 'Rebbi said, etc.' - he returns to explain the earlier baraita.",
       "linkedGemaraLineIds": [
-        "yoma-032b-l07"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Five services with immersions: morning tamid in gold, etc.",
+      "en": "Rashi: continues - this is what it teaches, in Rebbi's own statement. Then opens 'and it says'",
       "linkedGemaraLineIds": [
-        "yoma-032b-l10"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "How do we know each immersion requires two sanctifications?",
+      "en": "Rashi: continues - 'they are sacred garments,' and this is how he expounds it: the verse hung",
       "linkedGemaraLineIds": [
-        "yoma-032b-l13"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Should the Torah write sanctification of hands only - why mention feet too?",
+      "en": "Rashi: continues - the reason for immersion on the fact that they are",
       "linkedGemaraLineIds": [
-        "yoma-032b-l16"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "R. Yehuda: his derivation - immersion is required before donning garments from Leviticus 16:4.",
+      "en": "Rashi: continues - sacred garments, to teach you that every change of the",
       "linkedGemaraLineIds": [
-        "yoma-032b-l22"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rav Chisda: R. Yehuda HaNasi's five-immersion ruling was a chiddush (original ruling).",
+      "en": "Rashi: continues - sacred garments on that day requires immersion; and the golden",
       "linkedGemaraLineIds": [
-        "yoma-032b-l26"
+        "yoma-032b-l06"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rav Acha bar Yaakov: everyone agrees about the second sanctification - the debate is about the first.",
+      "en": "Rashi: concludes - garments are also sacred. Then opens 'but this is written regarding immersion' -",
       "linkedGemaraLineIds": [
-        "yoma-032b-l30"
+        "yoma-032b-l20"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rav Acha son of Rava: neither does Rav Chisda actually say R. Yehuda HaNasi's ruling was completely original.",
+      "en": "Rashi: continues - since it says 'his flesh.' Then opens 'this is our reading' -",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - 'if it is not needed for the matter of immersion, since he derives it",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - from \"they are sacred garments,\" apply it to the matter of sanctification.'",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: opens 'this teaches us' - since he stated it in the language of immersion,",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - that we derive immersion from it. Then opens 'just as sanctification'",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: continues - is in a sacred place, as it is written regarding it, in a",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: continues - sacred place, so too the immersions that come on account of",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - the day's own changes must be in a sacred place; but",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - the first immersion you do not derive from it, since",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l24"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: concludes - it is not a Torah-level law. Then opens 'and Rabbi Yehuda' - who derives",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - from this verse the immersion for the golden garments,",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l27"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: concludes - does not expound 'they are sacred garments' for sanctification; from where does he derive",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - it? Then opens 'Rav Chisda said, etc.' - he holds",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - that Rav Chisda specifically requires that Rebbi, from 'and he shall remove, and bathe, and bathe,",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - and don,' [derives] two sanctifications between undressing and dressing,",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - one before immersion and one after it, before",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - dressing. Then opens 'it excludes from Rabbi Meir' - it emerges",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - from the implication of Rabbi Meir's own words that he does not hold",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continues - like Rabbi Meir, since even though we say in the mishna",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - he undressed and sanctified his hands and feet, that he holds the sanctification",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - before the immersion is after undressing, he disagrees",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - with him, however, about the second sanctification, that he says it is after",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - dressing, as is taught in the baraita of Rabbi Meir",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l28"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: concludes - above: he dressed, sanctified his hands and feet. Then opens 'all'",
       "linkedGemaraLineIds": [
         "yoma-032b-l34"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Mishna: the High Priest is handed the knife and slaughters the tamid.",
+      "vilnaLine": 35,
+      "en": "Rashi: continues - agree - even Rebbi, that the sanctification adjacent",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - to the service, when he is dressed, he sanctifies it.",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l34"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: opens 'not Rav Chisda' - who says Rebbi's own statement",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: continues - specifically requires two sanctifications between undressing",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: concludes - and dressing. Then opens 'he holds like Rav Acha' - who says",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continues - we require a sanctification after dressing. Then opens 'not Rav'",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continues - Acha - who requires a sanctification adjacent to the service.",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continues - 'he holds like Rav Chisda' - who requires that Rebbi",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continues - two sanctifications when he is naked, for if so",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continues - that both apply together, Rebbi would have three",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - sanctifications for every immersion: two while naked",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l38"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: concludes - and one while dressed. Then opens 'by more than half of two' -",
       "linkedGemaraLineIds": [
         "yoma-032b-l42"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "R. Yochanan: with the majority of each of the two organs (rov simanim).",
+      "vilnaLine": 47,
+      "en": "Rashi: continues - the validity of the slaughter is by the exact minimum. Then opens 'but since'",
       "linkedGemaraLineIds": [
-        "yoma-032b-l45"
+        "yoma-032b-l47"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "Could you have thought he needs only some organs, not the majority?",
+      "vilnaLine": 48,
+      "en": "Rashi: continues - we learned - in the slaughtering of non-sacred animals, and the majority of",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l47"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "Rashi: continues - one is like it; automatically we learn the majority of",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l47"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "Rashi: concludes - two is like two. Then opens 'why did we teach' - alongside it",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l47"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: concludes - a majority of one for a bird, etc. Then opens 'one might think it would be'",
       "linkedGemaraLineIds": [
         "yoma-032b-l49"
       ]
     },
     {
-      "vilnaLine": 15,
-      "en": "For the tamid, both the windpipe and the gullet must be cut.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "For a bird, one organ suffices.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "For a beast, both organs must be cut in their majority.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The ruling about slaughter is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rov simanim is the standard for valid slaughter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "R. Yochanan and Reish Lakish agree on this ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The derivation of rov simanim.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The halacha follows this ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Summary of the slaughter requirements.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The chapter transitions to the next topic.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "The KG's slaughter of the tamid on Yom Kippur morning.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "He himself slaughters to show the importance of the service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The KG personally performs this service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The ruling about rov simanim applies to all animal slaughter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Both windpipe and gullet majority must be cut for beasts.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "For birds only one organ's majority is required.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The standard is established for all slaughter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The halacha is clear: rov simanim makes slaughter valid.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Chapter concludes with the slaughter ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The next chapter discusses the service sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi commentary on line 35 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi commentary on line 36 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi commentary on line 37 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi commentary on line 38 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi commentary on line 39 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi commentary on line 40 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi commentary on line 41 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi commentary on line 42 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi commentary on line 43 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi commentary on line 44 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi commentary on line 45 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi commentary on line 46 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi commentary on line 47 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi commentary on line 48 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 32b.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 32b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - invalid by rabbinic law, since the whole matter itself",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l49"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 32b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is for the sake of the blood, he requires... invalid; and when we learned 'the majority of",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l49"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 32b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - one is like it,' we learned this regarding non-sacred slaughter.",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l49"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi commentary on line 55 of 32b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'therefore,' the start of the dibbur hamatchil explaining why the mishna's own teaching is needed twice, once for non-sacred and once for sacred slaughter, whose text continues on 33a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-032b-l49"
+      ]
     }
   ],
   "sugyot": [
