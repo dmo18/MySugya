@@ -80870,11 +80870,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 1,
         he: "מיתיבי גרסינן ברישא והדר גרסינן תני רב שמואל: מיתיבי ולבשו בגדים אחרים. ולא גרסינן וקרבו אל אשר לעם דההוא קרא לא",
-        en: "Challenge from verse 'and he shall put on other garments and shall not sanctify' - does this mean no sanctification needed?",
+        en: "Opens an editorial note on reading order: read 'they raise an objection' first, then 'Rav Shmuel taught'; the objection quotes 'and they shall wear other garments,' and we do not read [the earlier verse about] 'and they shall approach the people,' since that verse is not -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-002",
@@ -80882,11 +80884,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 2,
         he: "גבי שירות כתיב אלא גבי בגדים שאכלו בהן ולא אפשר לאוקומי ביוה\"כ אלא מהאי קרא מותיב ובצאתם אל חצר החיצונה וגו' דאיכא",
-        en: "The verse teaches that even 'other' sacred garments require immersion and sanctification.",
+        en: "written about the [special] service but about the garments they ate in [certain sacrificial meals], and it cannot be located on Yom Kippur except from this verse; [Rashi] raises the objection from 'and when they go out to the outer court, etc.,' since there is -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-003",
@@ -80894,11 +80898,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 3,
         he: "לאוקומי ביוה\"כ דכתיב לעיל מיניה והיה בבואם אל שערי החצר הפנימית ולא יעלה עליהם צמר הא ודאי ביום הכיפורים כתיב דאי בשאר",
-        en: "R. Yehuda: 'other garments' = other sacred linen garments, not ordinary clothes.",
+        en: "reason to locate it on Yom Kippur, as it is written just before it, 'and when they come to the gates of the inner court, wool shall not go up on them' - this is certainly written about Yom Kippur, for on any -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-004",
@@ -80906,11 +80912,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 4,
         he: "ימות השנה הא איכא מעיל דכוליה תכלת וחושן ואפוד דאית ביה תכלת וכתיב בתריה ובצאתם אל החצר החיצונה יפשטו את בגדיהם וגו'",
-        en: "The five Yom Kippur immersions correspond to five garment changes in Lev. 16.",
+        en: "other day of the year there is the [regular] robe, which is entirely turquoise wool, and the breastplate and ephod, which contain turquoise wool, and after it is written 'and when they go out to the outer court they shall remove their garments, etc.,' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-005",
@@ -80918,11 +80926,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 5,
         he: "ולבשו בגדים אחרים וקא סלקא דעתיך",
-        en: "Derivation of the five immersions from the Lev. 16 passages.",
+        en: "'and don other garments' - and you might think -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-006",
@@ -80930,11 +80940,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 6,
         he: "דהכי קאמר וכשיחזור ויכנס שם",
-        en: "But those are the golden garments - what about the white ones?",
+        en: "that this means: and when he returns and enters there -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-007",
@@ -80942,11 +80954,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 7,
         he: "בין הערבים ולבש בגדי בד אחרים",
-        en: "The white garments also require sanctification, derived from other passages.",
+        en: "in the afternoon, he shall wear other linen garments -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-008",
@@ -80954,11 +80968,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 8,
         he: "ולא את הראשונים ומשום דלא רמזה",
-        en: "Summary: both white and gold garment changes require immersion and sanctification.",
+        en: "not the first ones, and because Moses did not hint at this in the Torah, and it was learned as a law given [orally] to Moses at Sinai, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-009",
@@ -80966,11 +80982,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 9,
         he: "משה באורייתא והילכתא הוו גמירי",
-        en: "Baraita: poor, rich, and wicked come to heavenly judgment.",
+        en: "Ezekiel came and supported it with a verse, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-010",
@@ -80978,11 +80996,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 10,
         he: "לה אתא יחזקאל ואסמכיה אקרא",
-        en: "Poor man says: poverty prevented me from studying Torah.",
+        en: "'and they shall not sanctify the people' - since it is written in the latter clause -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-011",
@@ -80990,11 +81010,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 11,
         he: "ולא יקדשו את העם דכתיב בסיפא",
-        en: "He is told: were you poorer than Hillel?",
+        en: "that this is a separate matter, and when they mix with -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-012",
@@ -81002,11 +81024,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 12,
         he: "מילתא אחריתי היא וכשיתערבו עם",
-        en: "Hillel worked half a dinar daily, gave half for the study hall, half for his family.",
+        en: "the people they shall wear ordinary weekday clothes (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l01"
+        ]
       },
       {
         id: "rashi-yoma-035b-013",
@@ -81014,11 +81038,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 13,
         he: "העם ילבשו בגדי חול: מאי לאו",
-        en: "One Friday when he had no money he climbed to the roof of the study hall.",
+        en: "Opens 'is it not [that] \"other\" means more distinguished than them': for if not [so], -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-014",
@@ -81026,11 +81052,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 14,
         he: "אחרים חשובין מהן. דאי לאו",
-        en: "He lay there in the snow to hear the Torah from Shemaya and Avtalyon.",
+        en: "why would it need to write 'other' at all, to elevate them, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-015",
@@ -81038,11 +81066,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 15,
         he: "לעילוינהו למה לי למכתב אחרים",
-        en: "He was found under three cubits of snow; they brought him down and bathed him.",
+        en: "since 'other' implies they should not resemble the first ones (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-016",
@@ -81050,11 +81080,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 16,
         he: "דמשמע שלא יהיו דומין לראשונים:",
-        en: "That day was Shabbat - he was worth violating Shabbat restrictions for.",
+        en: "Opens 'no, [rather \"other\" means] lesser than them': since the first service -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-017",
@@ -81062,11 +81094,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 17,
         he: "לא פחותין מהן. לפי שעבודה הראשונה",
-        en: "Rich man says: wealth and preoccupations prevented me from studying.",
+        en: "is significant and atones, whereas this one is only to clear -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-018",
@@ -81074,11 +81108,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 18,
         he: "חשובה ומכפרת וזו אינה אלא לפנות",
-        en: "He is told: were you richer than Elazar ben Charsum?",
+        en: "the place, as it is not fitting for the vessels to remain lying -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-019",
@@ -81086,11 +81122,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 19,
         he: "את המקום שאין כבוד שיהיו מונחין",
-        en: "His father left him a thousand villages on land and a thousand ships at sea.",
+        en: "there; therefore Scripture changed the garments -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-020",
@@ -81098,11 +81136,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 20,
         he: "שם לפיכך שינה הכתוב בבגדים",
-        en: "He never saw them - he studied Torah all day with a sack of flour on his shoulder.",
+        en: "to lesser ones (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l02"
+        ]
       },
       {
         id: "rashi-yoma-035b-021",
@@ -81110,11 +81150,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 21,
         he: "לפחות: עבודת יחיד. הוצאת",
-        en: "Once his servants tried to press-gang him for labor, not recognizing their master.",
+        en: "Opens 'an individual's service': taking out -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-022",
@@ -81122,11 +81164,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 22,
         he: "כף ומחתה שאינה צריכה לציבור אלא",
-        en: "He begged them: let me go study Torah. They refused.",
+        en: "the ladle and fire-pan, which is not required by the community, but rather -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-023",
@@ -81134,11 +81178,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 23,
         he: "לפי שמוטלת עליו לפנות את המקום",
-        en: "Wicked man says: my evil inclination was irresistibly powerful.",
+        en: "is incumbent on him to clear the place; -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-024",
@@ -81146,11 +81192,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 24,
         he: "לפיכך קורא לה עבודת יחיד: ובלבד",
-        en: "He is told: were you more powerfully tempted than Joseph?",
+        en: "therefore it is called an individual's service (closing). Opens 'and provided' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-025",
@@ -81158,11 +81206,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 25,
         he: "שימסרנה לציבור. דסוף סוף מעבודת",
-        en: "Potiphar's wife tried to seduce Joseph day after day.",
+        en: "'that he gives it over to the community': since ultimately it is from -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-026",
@@ -81170,11 +81220,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 26,
         he: "ציבור היא כך נראה בעיני ואני",
-        en: "She even changed her clothes morning and evening to entice him.",
+        en: "the community's own service - so it appears to me; but I -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-027",
@@ -81182,11 +81234,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 27,
         he: "שמעתי עבודת יחיד מקרא פרשה",
-        en: "Yet Joseph withstood the temptation.",
+        en: "have heard [another explanation]: 'an individual's service' means he reads the [Torah] portion, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-028",
@@ -81194,11 +81248,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 28,
         he: "דתנן [במתני'] (לקמן דף סח:) קורא",
-        en: "Hillel condemns the poor man; Elazar condemns the rich man; Joseph condemns the wicked man.",
+        en: "as we learned in the mishna (below, 68b): he reads -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-029",
@@ -81206,11 +81262,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 29,
         he: "באיצטלית לבן משלו וקשיא לי בגוה",
-        en: "Hillel said it is fitting that he be judged by these three.",
+        en: "in his own white robe; but I find this difficult, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-030",
@@ -81218,11 +81276,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 30,
         he: "דלא תנן התם ובלבד שימסרנה לציבור:",
-        en: "Joseph's reward: as he fled from her grasp he was elevated to ruler.",
+        en: "since we did not learn there 'provided that he gives it to the community' (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-031",
@@ -81230,11 +81290,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 31,
         he: "פשיטא. דעובד בה כיון דאמרת",
-        en: "And his garments were used: Potiphar's wife used his garment as evidence against him.",
+        en: "Opens 'obviously': that he performs the service with it, since you said -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l03"
+        ]
       },
       {
         id: "rashi-yoma-035b-032",
@@ -81242,11 +81304,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 32,
         he: "מוסרה לציבור דציבור היא: משתי",
-        en: "Then Pharaoh dressed him in fine linen garments as ruler of Egypt.",
+        en: "he gives it to the community, as it belongs to the community anyway (closing). Opens 'from two' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-033",
@@ -81254,11 +81318,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 33,
         he: "ריבוא. מנה: האמר מר חוטן.",
-        en: "What the wicked woman used for evil, God turned into honor for the righteous man.",
+        en: "'ten-thousands' - [means] maneh (closing). Opens 'but did not the master say its thread' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-034",
@@ -81266,11 +81332,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 34,
         he: "של בגדי כהונה כפול ששה לקמן",
-        en: "Mishna ch. 4: the KG came to his bull.",
+        en: "of the priestly garments is six-ply, [as stated] below, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-035",
@@ -81278,11 +81346,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 35,
         he: "בפרק בא לו (דף עא:): כחמרא",
-        en: "The bull stood between the vestibule (Ulam) and the altar.",
+        en: "in the chapter Ba Lo (71a) (closing). Opens 'like wine' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-036",
@@ -81290,11 +81360,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 36,
         he: "במזגא. כיין הנראה מחוץ לכלי",
-        en: "Head facing south, face toward the west.",
+        en: "'in a glass': like wine visible from outside a glass -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-037",
@@ -81302,11 +81374,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 37,
         he: "זכוכית ואע\"פ שהזכוכית עבה כך היה",
-        en: "The KG stood east of the bull, facing west, with both hands pressed on its head.",
+        en: "vessel - even though the glass is thick, so too was -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-038",
@@ -81314,11 +81388,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 38,
         he: "הפשתן מוצהב ונראה בשרו מתוכה:",
-        en: "And he confessed - the viduy formula begins.",
+        en: "the linen so fine that his flesh showed through it (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l12"
+        ]
       },
       {
         id: "rashi-yoma-035b-039",
@@ -81326,11 +81402,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 39,
         he: "לעני אומרים וכו'. כלומר אם באו",
-        en: "The full text of the confession is given in the following Mishna.",
+        en: "Opens 'to the poor they say, etc.': meaning, if there came -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l16"
+        ]
       },
       {
         id: "rashi-yoma-035b-040",
@@ -81338,11 +81416,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 40,
         he: "ב\"ד שלמעלה לחייב עניים ע\"י הלל",
-        en: "He confessed for himself, his household, and all Israel.",
+        en: "before the heavenly court [a case] condemning the poor via Hillel, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l16"
+        ]
       },
       {
         id: "rashi-yoma-035b-041",
@@ -81350,11 +81430,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 41,
         he: "ועשירים ע\"י ר' אלעזר וטרודי היצר",
-        en: "The bull was his personal offering for inadvertent sins of kohanim.",
+        en: "and the rich via Rabbi Elazar, and those overcome by the [evil] inclination -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l16"
+        ]
       },
       {
         id: "rashi-yoma-035b-042",
@@ -81362,11 +81444,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 42,
         he: "על ידי יוסף יש פתחון פה לבעל הדין",
-        en: "Standing between vestibule and altar - the exact prescribed location.",
+        en: "via Joseph, the prosecutor has grounds -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l16"
+        ]
       },
       {
         id: "rashi-yoma-035b-043",
@@ -81374,11 +81458,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 43,
         he: "לחייבם: טרפעיק. סלע מדינה שהוא",
-        en: "Both his hands were pressed firmly on the bull's head.",
+        en: "to condemn them (closing). Opens 'trafa'ik': a provincial sela, which is -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l20"
+        ]
       },
       {
         id: "rashi-yoma-035b-044",
@@ -81386,11 +81472,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 44,
         he: "חצי דינר כך מפורש בכתובות (סד.):",
-        en: "The KG bowed deeply in reciting the confession.",
+        en: "half a dinar, as explained in Ketubot (64a) (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l20"
+        ]
       },
       {
         id: "rashi-yoma-035b-045",
@@ -81398,11 +81486,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 45,
         he: "פירקוהו. פירקו משוי השלג מעליו:",
-        en: "The congregation in the Azarah heard and prostrated when God's name was spoken.",
+        en: "Opens and closes 'they unloaded him': they removed the weight of snow from upon him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l27"
+        ]
       },
       {
         id: "rashi-yoma-035b-046",
@@ -81410,11 +81500,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 46,
         he: "אנגריא. עבודת שר העיר ועבודת",
-        en: "The full confession text begins here.",
+        en: "Opens 'angarya [forced labor]': the town official's own service -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l36"
+        ]
       },
       {
         id: "rashi-yoma-035b-047",
@@ -81422,11 +81514,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 47,
         he: "עצמו היתה והם אינם מכירים בו",
-        en: "The congregation would prostrate on hearing the explicit Divine Name.",
+        en: "it actually was, but they did not recognize him -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l36"
+        ]
       },
       {
         id: "rashi-yoma-035b-048",
@@ -81434,11 +81528,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 48,
         he: "וסבורים שהוא מיושבי העיירות שלו",
-        en: "This ends the preliminary description of the confession scene.",
+        en: "and thought he was one of the people of his own estate-towns, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l36"
+        ]
       },
       {
         id: "rashi-yoma-035b-049",
@@ -81446,11 +81542,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 49,
         he: "שעבודת אדוני הארץ מוטלת עליהם:",
-        en: "The Mishna's location notation: between vestibule and altar.",
+        en: "upon whom service to the land's lord is imposed (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l36"
+        ]
       },
       {
         id: "rashi-yoma-035b-050",
@@ -81458,11 +81556,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 50,
         he: "משדלתו. מפתה אותו כי יפתה",
-        en: "The KG then confessed; chapter 4 begins the core Yom Kippur avodah.",
+        en: "Opens 'meshadelto [she entices him]': she seduces him, [as] 'ki yefateh' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l39"
+        ]
       },
       {
         id: "rashi-yoma-035b-051",
@@ -81470,11 +81570,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 51,
         he: "מתרגמינן ארי ישדל (שמות כב) :",
-        en: "The ritual positioning of bull and KG is now fixed.",
+        en: "is translated [in Targum] as 'ari yishdal' (Exodus 22:15) (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l39"
+        ]
       },
       {
         id: "rashi-yoma-035b-052",
@@ -81482,11 +81584,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 52,
         he: "שלבשה לו. בשבילו: מתני' ראשו",
-        en: "Summary: bull between vestibule and altar, KG facing west, both hands on bull.",
+        en: "Opens and closes 'she wore for him': for his sake. Opens the next mishna's 'his head' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-053",
@@ -81494,11 +81598,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 53,
         he: "לדרום ופניו למערב. מפרש בגמרא",
-        en: "This sets the stage for the full Yom Kippur avodah narrative.",
+        en: "'to the south, and his face to the west': the Gemara explains -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-054",
@@ -81506,11 +81612,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 54,
         he: "שעוקם ראשו לצד ההיכל וקא בעי",
-        en: "The Mishna continues in 36a with the exact positioning details.",
+        en: "that he turned his head toward the Sanctuary, and it asks -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-055",
@@ -81518,11 +81626,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 55,
         he: "טעמא אמאי לא מוקי ליה להדיא",
-        en: "All details of position are legally significant for the validity of the confession.",
+        en: "the reason why it does not state directly -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-056",
@@ -81530,11 +81640,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 56,
         he: "זנבו למזרח וראשו למערב: והכהן",
-        en: "The chapter transitions from the KG's preparation to the avodah proper.",
+        en: "'its tail to the east and its head to the west' (closing). Opens 'and the priest' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-057",
@@ -81542,11 +81654,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 57,
         he: "עומד במזרח. אחוריו למזרח:",
-        en: "Chapter 4 is the beginning of the climax of the tractate.",
+        en: "'stands in the east': his back is to the east (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l49"
+        ]
       },
       {
         id: "rashi-yoma-035b-058",
@@ -81554,11 +81668,13 @@ const DAF_CONTENT = {
         daf: "35b",
         vilnaLine: 58,
         he: "גמ'",
-        en: "The bull's position is confirmed; the Gemara will examine each element.",
+        en: "Truncated: the single word 'Gemara,' the section heading for the next comment on the confession formula, continuing onto 36a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035b-l50"
+        ]
       }
     ],
     review: "reviewed"

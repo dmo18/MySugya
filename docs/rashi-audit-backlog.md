@@ -4038,6 +4038,88 @@ resolved, 14/14. This is the seventeenth consecutive dangling-link daf
 found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b,
 32a, 32b, 33a, 33b, 34a, 34b, 35a). Continuing the batch at 35b.
 
+## 35b, full daf (VERSION 15.42), eighteenth dangling-link daf, closes the 34a-35b escalated batch
+
+Continuing and closing the escalated batch. Before any edit, the
+35a/35b boundary was re-verified read-only: 35a's truncated final word
+"מיתיבי" ("they raised an objection") is completed by 35b's opening
+raw Rashi print-line, "מיתיבי גרסינן ברישא..." ("we read 'they raise
+an objection' first..."), matching the Gemara's own opening line 1
+("מֵיתִיבִי: וְלָבְשׁוּ בְּגָדִים אֲחֵרִים..."). No edit was made to
+35a.
+
+This is the largest daf in the batch: 53 raw Gemara print-lines, 58 raw
+Rashi print-lines, and all 58 `rashiTranslations` entries had empty
+`linkedGemaraLineIds` before this fix (fully dangling, like 35a).
+
+The daf's real captured Gemara/mishna "lines" objects are `l01`, `l02`,
+`l03`, `l07`, `l12`, `l16`, `l20`, `l27`, `l32`, `l36`, `l39`, `l43`,
+`l47`, `l49` (the mishna beginning "he came to his bull"), and `l50` -
+fifteen ids. All 58 Rashi entries were rebuilt from scratch against
+these fifteen real ids.
+
+The correspondence: vilnaLine 1-12 (Rashi's own editorial note on
+reading order, then the full analysis locating "and they shall wear
+other garments" specifically on Yom Kippur via the Ezekiel-supported
+verse about the outer court) to `l01`; vilnaLine 13-20 (both sides of
+"is it not that 'other' means more distinguished," and the resolution
+that it means lesser, since the second immersion's service only
+clears the vessels rather than atoning) to `l02`; vilnaLine 21-31
+("an individual's service" - the ladle and fire-pan clearing that
+falls to whichever priest wears his own tunic, then "provided he gives
+it to the community," including Rashi's own alternate explanation and
+its difficulty) to `l03`; vilnaLine 32-38 (the "two ten-thousands"
+value of Rabbi Elazar ben Charsom's mother's tunic, the "six-ply
+thread" cross-reference, and the "wine in a glass" simile for how
+sheer the linen was) to `l12`; vilnaLine 39-42 (the structural preview
+of the poor/rich/wicked baraita: Hillel, Rabbi Elazar, and Joseph as
+the three test cases) to `l16`; vilnaLine 43-44 ("trafa'ik," Hillel's
+daily half-dinar wage) to `l20`; vilnaLine 45 ("they unloaded him" of
+the snow) to `l27`; vilnaLine 46-49 ("angarya," the forced-labor
+incident where Rabbi Elazar ben Charsom's own servants failed to
+recognize him) to `l36`; vilnaLine 50-52a ("meshadelto," Potiphar's
+wife's enticement, and "she wore for him") to `l39`; vilnaLine 52b-57
+(the next mishna: the bull's head to the south and face west, the
+Gemara's question about why it does not simply say "tail east, head
+west," and the priest standing to the east) to `l49`. `l07` (Rabbi
+Yishmael ben Pabi's hundred-maneh tunic story), `l32` (Rabbi Elazar ben
+Charsom's thousand villages and ships), `l43` (Potiphar's wife's
+threats and the thousand silver talents), and `l47` (the "in this
+world"/"in the world to come" reading and the baraita's closing
+sentence) get no dedicated Rashi comment at all in this daf's raw
+column - Rashi picks up specific difficult words within these longer
+aggadic narratives (like "trafa'ik" and "angarya") rather than glossing
+every clause, the same kind of no-fold gap already documented
+repeatedly in this run, just more frequent here given how much of this
+daf is continuous aggada.
+
+vilnaLine 58, the daf's final raw print-line, is the single word
+"גמ'" ("Gemara") - not a mid-word truncation like the boundary markers
+on most other daf in this run, but the section-heading label that
+opens the next comment (on the confession formula in `l50`). Checked
+against 36a's own raw Rashi array, which begins directly with its own
+first real comment ("מאן שמעת ליה דאמר בין אולם ולמזבח...") rather than
+repeating this heading - so unlike the 34b/35a seam, this is not a
+literal word split across the daf boundary, just talmud.dev's line-
+splitting placing the trailing heading marker on 35b's side. Per the
+same established convention used for every other final-line boundary
+case in this run, it is linked to `l50`, 35b's own final locally
+captured Gemara line; no edit was made to 36a.
+
+All 58 entries were rebuilt in a single indexed pass (a one-off local
+script, not committed), verified by recomputing the Gemara-line-id
+distribution and re-scanning `learning_data.js` for any remaining
+linkedGemaraLineIds not present in the daf's real `lines`/mishna
+objects (none found) before applying. `validate:yoma`,
+`audit:order:yoma`, `validate:en:yoma`, `validate:daftext:yoma`,
+`validate:rashi:yoma`, `validate:literal:yoma`, and
+`validate:schema:yoma` all pass; `npm test` and `npm run test:browser`
+(10/10) both pass. 35b is fully resolved, 58/58. This is the
+eighteenth consecutive dangling-link daf found in this corpus (27a,
+27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b, 32a, 32b, 33a, 33b, 34a,
+34b, 35a, 35b), closing out the escalated 34a-35b batch. Haiku can
+resume at 36a.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
