@@ -616,188 +616,262 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "In seirugim - in alternating/block style; valid for a get.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'in alternation' - if he did not lie with her, the acrostic letters continue through the end of the verse 'and if you have gone astray'",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l01a"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The full Nicanor story: his doors were made of special Alexandrian copper.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and after it the acrostic letters continue through the end of the verse 'the Lord make you' and after it the acrostic",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l01a"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "On the return voyage a storm arose; they threw one door overboard but the storm continued.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - letters continue through the end of the verse 'and the water shall come,' and after it the acrostic letters (if he lay with her, or if",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l01a"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "They wanted to throw the second when Nicanor embraced it saying 'throw me with it.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - she went astray). Then opens 'to bring the doors' - for the eastern gate of the courtyard, and they were of copper.",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l01b"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The storm calmed; when they arrived at Akko the first door surfaced beneath the ship.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Then opens 'a storm' - a tempest. Then opens 'and they cast it into the sea' - to lighten",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l01b"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Some say a sea creature swallowed it and spat it out at the shore.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the ship. Then opens 'and he wrapped himself' - he embraced it. Then opens 'to the harbor of' -",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "All other Temple gates were overlaid with gold; Nicanor's were kept in copper.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Porto, the place where ships are drawn",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "The miracle made them more precious than any gold overlay.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'to the dry land: our rafters' - a term for a door that",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l11"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "Some say they shone like gold because of their miraculous copper quality.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - runs and locks, runs and opens. Then opens 'rather a covenant of the sea' -",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l11"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "His memory was honored: his doors bore his name forever.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as if they had made a covenant, this one with that one, and some",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l11"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Summary: Nicanor's copper doors kept as miracle memorial surpassing gold.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - say a creature of the sea. Then opens 'they changed' - when they grew wealthy.",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l11"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Mishna: these are for shame.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Then opens 'kelonita' - refined; and it is also the name of a type of copper",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l11"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "Beth Garmu did not want to teach the art of baking the lechem hapanim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - which is called plain copper. Then opens the mishna: 'the son of a Levite' -",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l16"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Beth Avtinas did not want to teach the art of compounding the incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - meaning from among the Levites. Then opens 'a chapter' - a musical",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l16"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Hugras ben Levi did not want to teach his voice technique.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - refrain. Then opens 'on the matter of the writing' - he binds",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l17"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Ben Kamtsar did not want to teach the art of writing (four letters simultaneously).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - four quills between his four fingers and writes",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l17"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "What was Hugras's technique? He put his thumb in his mouth and created a special trill.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the four-letter Name all at once. Then opens the Gemara:",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l17"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "What was Ben Kamtsar's technique? He wrote four letters simultaneously with four quills.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'to remove' - from the oven. Then opens 'that these' - who came",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l18"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The Sages praised the ones in the first Mishna and criticized these four.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from Alexandria, since they did not know how to remove from the oven without breaking it,",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l18"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "These four are remembered for shame because they withheld Temple knowledge.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - since it was made like an open box, like a ship, they were afraid to affix",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l18"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "If others cannot learn the skill, Temple service is at risk.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'they doubled their wages' - from the Chamber's own",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l21"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Withholding is a form of negligence toward the sacred service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - terumah funds. Then opens 'and for this reason they are mentioned favorably, for never' etc. - Then opens 'to pound spices' -",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l24"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Beth Avtinas defended themselves: we fear someone will use it for idol worship.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to crush the spices and blend them well, as",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l27"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The maaleh ashan herb made the smoke rise straight up without spreading.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is stated (Exodus 30): 'well blended.' Then opens 'to make the smoke rise' -",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l27"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Without it the smoke would spread in all directions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - since they did not recognize the herb that",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l27"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "This herb was the secret of their incense preparation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - makes the smoke rise straight and column-like, like a rod.",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l27"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "The Sages replied: their concern about misuse does not justify withholding from the Sages.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'and diminished their honor' - through the destruction of His own House. Then opens 'to make",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l36"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "They should at least have taught the Sages in private.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'smoke rise' - the herb that makes the smoke rise",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l38"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "When others tried to replicate the incense and failed to make smoke rise straight, the Sages sought them.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - I saw before me. Then opens 'the scroll of spices' - upon which were written",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l41"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "They went to Alexandria in Egypt and brought them back.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the names of the spices of the incense. Then opens 'from here'",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "The Sages doubled their wages as an incentive.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'ben Azzai said' - from the incident of Beit Garmu",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Their descendants maintained the maaleh ashan knowledge.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and Beit Avtinas, whom the Sages sought to remove",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "One positive thing about Beth Avtinas: their women never wore perfume.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from their place and could not. Then opens 'by your own name'",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Lest people suspect they used the incense formula for personal use.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - they shall call you - a person need not worry, saying: so-and-so",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "This shows their personal integrity even if they withheld the knowledge.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - will take away my livelihood, since necessarily by your own name",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "The Sages praised their personal stringency but criticized their lack of teaching.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - they shall call you, to come and return to your own place.",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Summary: maaleh ashan = smoke-rising herb; Beth Avtinas's defense; their personal stringency.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'and from what is yours,' the start of the dibbur hamatchil completing ben Azzai's own maxim about reward measured out to each person, whose text continues on 38b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-038a-l44"
+      ]
     }
   ]
 }

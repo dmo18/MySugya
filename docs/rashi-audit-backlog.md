@@ -4409,6 +4409,44 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 37b), the fourth
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 38a, full daf (VERSION 15.48), twenty-third dangling-link daf, fifth of the 36a-52b batch
+
+Real ids extracted directly from `learning_data.js` first: 16 ids
+including a letter-suffixed split-line pair (`l01a`, `l01b`) from the
+carryover of 37b's own final truncated word "בסירוגין," which turns
+out to be its own tiny one-word real paragraph (`l01a`) before the
+Nikanor-doors story proper begins at `l01b`.
+
+37 raw Rashi print-lines, all fully dangling before this fix. The
+correspondence: vilnaLine 1-3 (completing the acrostic-letter
+explanation for the sotah scroll begun on 37b) to `l01a`; vilnaLine
+4-5 (the Nikanor-doors storm-at-sea story opening) to `l01b`;
+vilnaLine 6-7 (reaching the harbor) to `l06`; vilnaLine 8-12 (the "our
+rafters/covenant of the sea" wordplay and the gates changing to gold
+except Nikanor's copper ones) to `l11`; vilnaLine 13-14 (the new
+mishna's own opening, Hugras ben Levi) to `l16`; vilnaLine 15-17
+(ben Kamtzar's four-quill writing technique) to `l17`; vilnaLine 18-20
+(Beit Garmu's bread-baking technique the Alexandrian bakers could not
+replicate) to `l18`; vilnaLine 21 (their doubled wages) to `l21`;
+vilnaLine 22 (why they are praised) to `l24`; vilnaLine 23-26 (Beit
+Avtinas's incense-blending and smoke-column technique) to `l27`;
+vilnaLine 27 (Rabbi Yishmael's own closing line to Beit Garmu's
+descendant, "and diminished their honor") to `l36`; vilnaLine 28-29
+(Rabbi Akiva's report of the rising-smoke sign) to `l38`; vilnaLine 30
+(the scroll of spice-names) to `l41`; vilnaLine 31-36 (ben Azzai's own
+maxim, "by your own name they shall call you") to `l44`; vilnaLine 37
+(the daf's final truncated word) to `l44`, the daf's own final real
+captured line (boundary policy).
+
+Zero-bogus-id check confirmed all 37 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+38a is fully resolved, 37/37. This is the twenty-third consecutive
+dangling-link daf found in this corpus (27a through 38a), the fifth
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

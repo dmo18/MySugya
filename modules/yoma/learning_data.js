@@ -87132,11 +87132,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 1,
         he: "בסירוגין. אם לא שכב אחריו ראשי תיבות עד סוף המקרא ואת כי שטית",
-        en: "In seirugim - in alternating/block style; valid for a get.",
+        en: "Rashi: opens 'in alternation' - if he did not lie with her, the acrostic letters continue through the end of the verse 'and if you have gone astray'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l01a"
+        ]
       },
       {
         id: "rashi-yoma-038a-002",
@@ -87144,11 +87146,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 2,
         he: "ואחריו ראשי תיבות עד סוף המקרא יתן ה' אותך ואחריו ראשי",
-        en: "The full Nicanor story: his doors were made of special Alexandrian copper.",
+        en: "Rashi: continues - and after it the acrostic letters continue through the end of the verse 'the Lord make you' and after it the acrostic",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l01a"
+        ]
       },
       {
         id: "rashi-yoma-038a-003",
@@ -87156,11 +87160,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 3,
         he: "תיבות עד סוף המקרא ובאו המים ואחריו ראשי תיבות א] (אם שכב ואת",
-        en: "On the return voyage a storm arose; they threw one door overboard but the storm continued.",
+        en: "Rashi: concludes - letters continue through the end of the verse 'and the water shall come,' and after it the acrostic letters (if he lay with her, or if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l01a"
+        ]
       },
       {
         id: "rashi-yoma-038a-004",
@@ -87168,11 +87174,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 4,
         he: "כי שטית): להביא דלתות. לשער המזרח של העזרה ושל נחושת היו:",
-        en: "They wanted to throw the second when Nicanor embraced it saying 'throw me with it.'",
+        en: "Rashi: concludes - she went astray). Then opens 'to bring the doors' - for the eastern gate of the courtyard, and they were of copper.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-038a-005",
@@ -87180,11 +87188,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 5,
         he: "נחשול. סערה: והטילוה לים. להקל",
-        en: "The storm calmed; when they arrived at Akko the first door surfaced beneath the ship.",
+        en: "Rashi: continues - Then opens 'a storm' - a tempest. Then opens 'and they cast it into the sea' - to lighten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-038a-006",
@@ -87192,11 +87202,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 6,
         he: "לספינה: וכרכה. חבקה: לנמלה.",
-        en: "Some say a sea creature swallowed it and spat it out at the shore.",
+        en: "Rashi: continues - the ship. Then opens 'and he wrapped himself' - he embraced it. Then opens 'to the harbor of' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l06"
+        ]
       },
       {
         id: "rashi-yoma-038a-007",
@@ -87204,11 +87216,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 7,
         he: "פורט\"ו מקום שהספינות נמשכות שם",
-        en: "All other Temple gates were overlaid with gold; Nicanor's were kept in copper.",
+        en: "Rashi: continues - Porto, the place where ships are drawn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l06"
+        ]
       },
       {
         id: "rashi-yoma-038a-008",
@@ -87216,11 +87230,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 8,
         he: "ליבשה: רהיטנו. לשון דלת שהוא",
-        en: "The miracle made them more precious than any gold overlay.",
+        en: "Rashi: opens 'to the dry land: our rafters' - a term for a door that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l11"
+        ]
       },
       {
         id: "rashi-yoma-038a-009",
@@ -87228,11 +87244,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 9,
         he: "רץ ונועל רץ ופותח: אלא ברית ים.",
-        en: "Some say they shone like gold because of their miraculous copper quality.",
+        en: "Rashi: continues - runs and locks, runs and opens. Then opens 'rather a covenant of the sea' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l11"
+        ]
       },
       {
         id: "rashi-yoma-038a-010",
@@ -87240,11 +87258,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 10,
         he: "כאילו כרתו ברית זו עם זו ויש",
-        en: "His memory was honored: his doors bore his name forever.",
+        en: "Rashi: continues - as if they had made a covenant, this one with that one, and some",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l11"
+        ]
       },
       {
         id: "rashi-yoma-038a-011",
@@ -87252,11 +87272,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 11,
         he: "אומרים בריית ים: נשתנו. כשהעשירו:",
-        en: "Summary: Nicanor's copper doors kept as miracle memorial surpassing gold.",
+        en: "Rashi: continues - say a creature of the sea. Then opens 'they changed' - when they grew wealthy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l11"
+        ]
       },
       {
         id: "rashi-yoma-038a-012",
@@ -87264,11 +87286,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 12,
         he: "קלניתא. מזוקקת וכן שם מין נחושת",
-        en: "Mishna: these are for shame.",
+        en: "Rashi: continues - Then opens 'kelonita' - refined; and it is also the name of a type of copper",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l11"
+        ]
       },
       {
         id: "rashi-yoma-038a-013",
@@ -87276,11 +87300,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 13,
         he: "והוא נחושת קלל: מתני' בן לוי.",
-        en: "Beth Garmu did not want to teach the art of baking the lechem hapanim.",
+        en: "Rashi: concludes - which is called plain copper. Then opens the mishna: 'the son of a Levite' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l16"
+        ]
       },
       {
         id: "rashi-yoma-038a-014",
@@ -87288,11 +87314,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 14,
         he: "כלומר מן הלוים: פרק. הכרעת",
-        en: "Beth Avtinas did not want to teach the art of compounding the incense.",
+        en: "Rashi: continues - meaning from among the Levites. Then opens 'a chapter' - a musical",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l16"
+        ]
       },
       {
         id: "rashi-yoma-038a-015",
@@ -87300,11 +87328,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 15,
         he: "קול נעימה: על מעשה הכתב. קושר",
-        en: "Hugras ben Levi did not want to teach his voice technique.",
+        en: "Rashi: continues - refrain. Then opens 'on the matter of the writing' - he binds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l17"
+        ]
       },
       {
         id: "rashi-yoma-038a-016",
@@ -87312,11 +87342,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 16,
         he: "ד' קולמוסין בד' אצבעותיו וכותב",
-        en: "Ben Kamtsar did not want to teach the art of writing (four letters simultaneously).",
+        en: "Rashi: continues - four quills between his four fingers and writes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l17"
+        ]
       },
       {
         id: "rashi-yoma-038a-017",
@@ -87324,11 +87356,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 17,
         he: "שם בן ארבע אותיות כאחד: גמ'",
-        en: "What was Hugras's technique? He put his thumb in his mouth and created a special trill.",
+        en: "Rashi: concludes - the four-letter Name all at once. Then opens the Gemara:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l17"
+        ]
       },
       {
         id: "rashi-yoma-038a-018",
@@ -87336,11 +87370,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 18,
         he: "לרדות. מן התנור: שהללו. שבאו",
-        en: "What was Ben Kamtsar's technique? He wrote four letters simultaneously with four quills.",
+        en: "Rashi: opens 'to remove' - from the oven. Then opens 'that these' - who came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l18"
+        ]
       },
       {
         id: "rashi-yoma-038a-019",
@@ -87348,11 +87384,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 19,
         he: "מן אלכסנדריא לפי שלא יודעים לרדות מן התנור שלא יהא נשבר",
-        en: "The Sages praised the ones in the first Mishna and criticized these four.",
+        en: "Rashi: continues - from Alexandria, since they did not know how to remove from the oven without breaking it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l18"
+        ]
       },
       {
         id: "rashi-yoma-038a-020",
@@ -87360,11 +87398,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 20,
         he: "לפי שהוא עשוי כמין תיבה פרוצה כמין ספינה היו יראים לדבקם",
-        en: "These four are remembered for shame because they withheld Temple knowledge.",
+        en: "Rashi: continues - since it was made like an open box, like a ship, they were afraid to affix",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l18"
+        ]
       },
       {
         id: "rashi-yoma-038a-021",
@@ -87372,11 +87412,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 21,
         he: "מבפנים לתנור ואופין אותן מבחוץ: כפלו להם שכרם. מתרומת",
-        en: "If others cannot learn the skill, Temple service is at risk.",
+        en: "Rashi: opens 'they doubled their wages' - from the Chamber's own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l21"
+        ]
       },
       {
         id: "rashi-yoma-038a-022",
@@ -87384,11 +87426,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 22,
         he: "הלשכה: ועל דבר זה מזכירים אותם לשבח שמעולם כו': לפטם.",
-        en: "Withholding is a form of negligence toward the sacred service.",
+        en: "Rashi: continues - terumah funds. Then opens 'and for this reason they are mentioned favorably, for never' etc. - Then opens 'to pound spices' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l24"
+        ]
       },
       {
         id: "rashi-yoma-038a-023",
@@ -87396,11 +87440,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 23,
         he: "לכתוש הסמנין ולערבם יפה כמו",
-        en: "Beth Avtinas defended themselves: we fear someone will use it for idol worship.",
+        en: "Rashi: continues - to crush the spices and blend them well, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l27"
+        ]
       },
       {
         id: "rashi-yoma-038a-024",
@@ -87408,11 +87454,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 24,
         he: "שנאמר (שמות ל) ממולח: להעלות",
-        en: "The maaleh ashan herb made the smoke rise straight up without spreading.",
+        en: "Rashi: continues - it is stated (Exodus 30): 'well blended.' Then opens 'to make the smoke rise' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l27"
+        ]
       },
       {
         id: "rashi-yoma-038a-025",
@@ -87420,11 +87468,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 25,
         he: "עשן. שלא היו מכירין בעשב שהוא",
-        en: "Without it the smoke would spread in all directions.",
+        en: "Rashi: continues - since they did not recognize the herb that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l27"
+        ]
       },
       {
         id: "rashi-yoma-038a-026",
@@ -87432,11 +87482,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 26,
         he: "מעלה את העשן זוקף ומתמר כמקל:",
-        en: "This herb was the secret of their incense preparation.",
+        en: "Rashi: concludes - makes the smoke rise straight and column-like, like a rod.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l27"
+        ]
       },
       {
         id: "rashi-yoma-038a-027",
@@ -87444,11 +87496,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 27,
         he: "מיעט כבודם. בחורבן ביתו: מעלה",
-        en: "The Sages replied: their concern about misuse does not justify withholding from the Sages.",
+        en: "Rashi: opens 'and diminished their honor' - through the destruction of His own House. Then opens 'to make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l36"
+        ]
       },
       {
         id: "rashi-yoma-038a-028",
@@ -87456,11 +87510,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 28,
         he: "עשן. עשב שהוא מעלה עשן",
-        en: "They should at least have taught the Sages in private.",
+        en: "Rashi: opens 'smoke rise' - the herb that makes the smoke rise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l38"
+        ]
       },
       {
         id: "rashi-yoma-038a-029",
@@ -87468,11 +87524,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 29,
         he: "ראיתי כנגדי: מגילת סמנין. שכתובין",
-        en: "When others tried to replicate the incense and failed to make smoke rise straight, the Sages sought them.",
+        en: "Rashi: continues - I saw before me. Then opens 'the scroll of spices' - upon which were written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l41"
+        ]
       },
       {
         id: "rashi-yoma-038a-030",
@@ -87480,11 +87538,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 30,
         he: "בה שמות סמני הקטורת: מכאן",
-        en: "They went to Alexandria in Egypt and brought them back.",
+        en: "Rashi: continues - the names of the spices of the incense. Then opens 'from here'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-031",
@@ -87492,11 +87552,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 31,
         he: "אמר בן עזאי. ממעשה בית גרמו",
-        en: "The Sages doubled their wages as an incentive.",
+        en: "Rashi: opens 'ben Azzai said' - from the incident of Beit Garmu",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-032",
@@ -87504,11 +87566,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 32,
         he: "ובית אבטינס שבקשו חכמים לדחותם",
-        en: "Their descendants maintained the maaleh ashan knowledge.",
+        en: "Rashi: continues - and Beit Avtinas, whom the Sages sought to remove",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-033",
@@ -87516,11 +87580,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 33,
         he: "ממקומם ולא יכלו: בשמך",
-        en: "One positive thing about Beth Avtinas: their women never wore perfume.",
+        en: "Rashi: continues - from their place and could not. Then opens 'by your own name'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-034",
@@ -87528,11 +87594,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 34,
         he: "יקראוך. לא ידאג אדם לומר פלוני",
-        en: "Lest people suspect they used the incense formula for personal use.",
+        en: "Rashi: continues - they shall call you - a person need not worry, saying: so-and-so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-035",
@@ -87540,11 +87608,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 35,
         he: "יקפח פרנסתי כי על כרחך בשם",
-        en: "This shows their personal integrity even if they withheld the knowledge.",
+        en: "Rashi: continues - will take away my livelihood, since necessarily by your own name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-036",
@@ -87552,11 +87622,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 36,
         he: "יקראוך לבא ולשוב במקומך:",
-        en: "The Sages praised their personal stringency but criticized their lack of teaching.",
+        en: "Rashi: concludes - they shall call you, to come and return to your own place.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       },
       {
         id: "rashi-yoma-038a-037",
@@ -87564,11 +87636,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 37,
         he: "ומשלך",
-        en: "Summary: maaleh ashan = smoke-rising herb; Beth Avtinas's defense; their personal stringency.",
+        en: "Rashi: the daf's final truncated word - 'and from what is yours,' the start of the dibbur hamatchil completing ben Azzai's own maxim about reward measured out to each person, whose text continues on 38b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038a-l44"
+        ]
       }
     ],
     review: "reviewed"
