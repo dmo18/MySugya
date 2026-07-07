@@ -86191,11 +86191,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 1,
         he: "בידות סכינין. שאי אפשר לעשות סכינין עצמן של זהב: כני כלים.",
-        en: "Abaye says: bid'ot sakinin - knife handles, which are long wooden rods used as the winding mechanism.",
+        en: "Rashi: opens 'handles of knives' - since it is impossible to make the knives themselves of gold. Then opens 'sockets of vessels' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l01"
+        ]
       },
       {
         id: "rashi-yoma-037b-002",
@@ -86203,11 +86205,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 2,
         he: "בסיסי מושבן: ואוגני כלים. בית אחיזתן: וידות סכינין וידות כלים.",
-        en: "He also [Ben Katin] made for it a winding device (morat) to lower the laver into a cistern overnight.",
+        en: "Rashi: continues - the bases on which they sit. Then opens 'and rims of vessels' - their grips. Then opens 'and handles of knives and handles of vessels' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l01"
+        ]
       },
       {
         id: "rashi-yoma-037b-003",
@@ -86215,11 +86219,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 3,
         he: "קתני סכינין וקתני כלים: בקתתא דנרגי וחציני. ידות הקרדומות",
-        en: "So that its water would not become passul (invalid) from overnight exposure.",
+        en: "Rashi: continues - it teaches 'knives' and it teaches 'vessels.' Then opens 'in the handle-sockets of axes and hatchets' - the handles of axes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l01"
+        ]
       },
       {
         id: "rashi-yoma-037b-004",
@@ -86227,11 +86233,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 4,
         he: "ומגלות: ניצוצות. זהרורית שהחמה זורחת מן המזרח ונטה על פתח",
-        en: "Queen Helene donated a golden candlestick over the entrance to the Heichal.",
+        en: "Rashi: continues - and sickles. Then opens 'sparks' - a glow, since the sun rises from the east and turns toward the entrance of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l04"
+        ]
       },
       {
         id: "rashi-yoma-037b-005",
@@ -86239,11 +86247,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 5,
         he: "ההיכל שהוא לצד מערבי: שהגיע",
-        en: "When the sun rose it shone on the candlestick; people knew the time of sunrise had arrived.",
+        en: "Rashi: continues - the Sanctuary, which faces west. Then opens 'that the time has arrived'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l04"
+        ]
       },
       {
         id: "rashi-yoma-037b-006",
@@ -86251,11 +86261,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 6,
         he: "זמן ק\"ש. כדתניא (ברכות דף כו.)",
-        en: "Also Nicanor went to Alexandria of Egypt to bring copper doors for the eastern gate.",
+        en: "Rashi: continues - for reciting the Shema, as it is taught (Berachot 26a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l04"
+        ]
       },
       {
         id: "rashi-yoma-037b-007",
@@ -86263,11 +86275,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 7,
         he: "מצותה עם הנץ החמה: שאנשי",
-        en: "On the return voyage a storm arose and threatened to sink the ship.",
+        en: "Rashi: opens 'its mitzva is with sunrise. Then opens 'that the men of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-008",
@@ -86275,11 +86289,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 8,
         he: "משמר. שהכהנים שהעבודה מוטלת",
-        en: "They took one door and threw it into the sea but the storm did not stop.",
+        en: "Rashi: continues - the priestly watch' - since the priests upon whom the service falls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-009",
@@ -86287,11 +86303,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 9,
         he: "עליהם מקדימין לקרותה קודם היום",
-        en: "They wanted to throw the second door but Nicanor embraced it and said 'throw me with it.'",
+        en: "Rashi: continues - hasten to recite it before the day,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-010",
@@ -86299,11 +86317,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 10,
         he: "שמא תמשך עליהן העבודה וימנעו",
-        en: "The storm calmed immediately; he was distressed about the first door.",
+        en: "Rashi: continues - lest the service delay them and they be prevented",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-011",
@@ -86311,11 +86331,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 11,
         he: "לקרות: ואנשי מעמד. ישראל העומדים",
-        en: "When they arrived at Akko, the first door surfaced from beneath the ship.",
+        en: "Rashi: continues - from reciting. Then opens 'and the men of the delegation' - Israelites standing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-012",
@@ -86323,11 +86345,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 12,
         he: "בשליחות הצבור על הקרבן שנאמר",
-        en: "Others say: a sea creature swallowed it and spat it out at the shore.",
+        en: "Rashi: continues - as agents of the community for the offering, as it is stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-013",
@@ -86335,11 +86359,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 13,
         he: "(במדבר כח) תשמרו להקריב לי מצוה",
-        en: "Because of this the doors were called by his name - Nicanor's gates.",
+        en: "Rashi: continues - (Numbers 28): 'you shall guard to offer unto Me' - a commandment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-014",
@@ -86347,11 +86373,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 14,
         he: "שיהיו משמרים ועומדים על קרבנם",
-        en: "Queen Helene also made a golden tablet on which the sotah passage was inscribed.",
+        en: "Rashi: continues - that they be guarding and standing over their own offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-015",
@@ -86359,11 +86387,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 15,
         he: "הכי דריש ליה בספרי ובמסכת תענית",
-        en: "The entire passage from Numbers 5 (the sotah waters section) was on this golden tablet.",
+        en: "Rashi: continues - so it is expounded in the Sifrei and in Tractate Ta'anit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-016",
@@ -86371,11 +86401,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 16,
         he: "(דף כו.): מאחרין. לקרות עד כלות",
-        en: "From this we learn that gittin (bills of divorce) may be written b'seirugim.",
+        en: "Rashi: continues - (26a). Then opens 'they delay' - reciting until the completion of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-017",
@@ -86383,11 +86415,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 17,
         he: "עבודת התמיד: לשאר עמא. הבאים",
-        en: "Seirugim = alternating or cursive letters, not continuous script.",
+        en: "Rashi: continues - the tamid service. Then opens 'to the rest of the people' - those who come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-018",
@@ -86395,11 +86429,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 18,
         he: "בעזרה הוא סימן להודיע זמן קריאת",
-        en: "Just as Helene's tablet had the passage in a particular script style, so too gittin may vary.",
+        en: "Rashi: concludes - into the courtyard, it is a sign to inform the time for reciting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l08"
+        ]
       },
       {
         id: "rashi-yoma-037b-019",
@@ -86407,11 +86443,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 19,
         he: "שמע: שמע מינה כו'. ופלוגתא",
-        en: "A get written in seirugim is valid.",
+        en: "Rashi: concludes - the Shema. Then opens 'learn from it' etc. - and this is a dispute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l12"
+        ]
       },
       {
         id: "rashi-yoma-037b-020",
@@ -86419,11 +86457,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 20,
         he: "היא במסכת גיטין בפרק הניזקין",
-        en: "The halachic derivation from the Temple artifact.",
+        en: "Rashi: continues - found in Tractate Gittin, in the chapter Hanizakin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l12"
+        ]
       },
       {
         id: "rashi-yoma-037b-021",
@@ -86431,11 +86471,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 21,
         he: "(דף ס.): באלף בית. אותיות של",
-        en: "Helene's tablet had both the Hebrew text and its meaning, written in alternating style.",
+        en: "Rashi: continues - (60a). Then opens 'in the alef-bet' - the letters of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l12"
+        ]
       },
       {
         id: "rashi-yoma-037b-022",
@@ -86443,11 +86485,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 22,
         he: "ראשי התיבות: כשהוא כותב. כהן",
-        en: "The Gemara derives the get law from this precedent.",
+        en: "Rashi: opens 'the acrostic. Then opens 'when he writes' - the priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l14"
+        ]
       },
       {
         id: "rashi-yoma-037b-023",
@@ -86455,11 +86499,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 23,
         he: "הכותב את המגילה להשקותה: כמה",
-        en: "Summary: Ben Katin's mechanism (knife handles), Helene's candlestick and tablet, Nicanor's doors.",
+        en: "Rashi: continues - who writes the scroll for her to drink. Then opens 'according to'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l14"
+        ]
       },
       {
         id: "rashi-yoma-037b-024",
@@ -86467,11 +86513,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 24,
         he: "שכתוב בטבלא. לפי סימני האותיות:",
-        en: "Three major Temple improvements in 37b, all with halachic or narrative significance.",
+        en: "Rashi: concludes - what is written on the tablet - following the letter-markers on it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l14"
+        ]
       },
       {
         id: "rashi-yoma-037b-025",
@@ -86479,11 +86527,13 @@ const DAF_CONTENT = {
         daf: "37b",
         vilnaLine: 25,
         he: "בסירוגין",
-        en: "The Nicanor miracle demonstrates God's care for those who give generously to the Temple.",
+        en: "Rashi: the daf's final truncated word - 'in alternation,' the start of the dibbur hamatchil resolving how the priest can write the sotah scroll's own words in the correct order despite the acrostic tablet's letters not being sequential, whose text continues on 38a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037b-l17"
+        ]
       }
     ],
     review: "reviewed"

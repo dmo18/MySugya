@@ -349,128 +349,178 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Abaye says: bid'ot sakinin - knife handles, which are long wooden rods used as the winding mechanism.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'handles of knives' - since it is impossible to make the knives themselves of gold. Then opens 'sockets of vessels' -",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "He also [Ben Katin] made for it a winding device (morat) to lower the laver into a cistern overnight.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bases on which they sit. Then opens 'and rims of vessels' - their grips. Then opens 'and handles of knives and handles of vessels' -",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "So that its water would not become passul (invalid) from overnight exposure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it teaches 'knives' and it teaches 'vessels.' Then opens 'in the handle-sockets of axes and hatchets' - the handles of axes",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Queen Helene donated a golden candlestick over the entrance to the Heichal.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and sickles. Then opens 'sparks' - a glow, since the sun rises from the east and turns toward the entrance of",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "When the sun rose it shone on the candlestick; people knew the time of sunrise had arrived.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the Sanctuary, which faces west. Then opens 'that the time has arrived'",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Also Nicanor went to Alexandria of Egypt to bring copper doors for the eastern gate.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for reciting the Shema, as it is taught (Berachot 26a)",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l04"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "On the return voyage a storm arose and threatened to sink the ship.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'its mitzva is with sunrise. Then opens 'that the men of'",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "They took one door and threw it into the sea but the storm did not stop.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the priestly watch' - since the priests upon whom the service falls",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "They wanted to throw the second door but Nicanor embraced it and said 'throw me with it.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - hasten to recite it before the day,",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "The storm calmed immediately; he was distressed about the first door.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - lest the service delay them and they be prevented",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "When they arrived at Akko, the first door surfaced from beneath the ship.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from reciting. Then opens 'and the men of the delegation' - Israelites standing",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Others say: a sea creature swallowed it and spat it out at the shore.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as agents of the community for the offering, as it is stated",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "Because of this the doors were called by his name - Nicanor's gates.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (Numbers 28): 'you shall guard to offer unto Me' - a commandment",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Queen Helene also made a golden tablet on which the sotah passage was inscribed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that they be guarding and standing over their own offering,",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The entire passage from Numbers 5 (the sotah waters section) was on this golden tablet.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so it is expounded in the Sifrei and in Tractate Ta'anit",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "From this we learn that gittin (bills of divorce) may be written b'seirugim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (26a). Then opens 'they delay' - reciting until the completion of",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Seirugim = alternating or cursive letters, not continuous script.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the tamid service. Then opens 'to the rest of the people' - those who come",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Just as Helene's tablet had the passage in a particular script style, so too gittin may vary.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - into the courtyard, it is a sign to inform the time for reciting",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l08"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "A get written in seirugim is valid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the Shema. Then opens 'learn from it' etc. - and this is a dispute",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l12"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "The halachic derivation from the Temple artifact.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - found in Tractate Gittin, in the chapter Hanizakin",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l12"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Helene's tablet had both the Hebrew text and its meaning, written in alternating style.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (60a). Then opens 'in the alef-bet' - the letters of",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l12"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "The Gemara derives the get law from this precedent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'the acrostic. Then opens 'when he writes' - the priest",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l14"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Summary: Ben Katin's mechanism (knife handles), Helene's candlestick and tablet, Nicanor's doors.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - who writes the scroll for her to drink. Then opens 'according to'",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l14"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Three major Temple improvements in 37b, all with halachic or narrative significance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - what is written on the tablet - following the letter-markers on it.",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l14"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The Nicanor miracle demonstrates God's care for those who give generously to the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'in alternation,' the start of the dibbur hamatchil resolving how the priest can write the sotah scroll's own words in the correct order despite the acrostic tablet's letters not being sequential, whose text continues on 38a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-037b-l17"
+      ]
     }
   ]
 }

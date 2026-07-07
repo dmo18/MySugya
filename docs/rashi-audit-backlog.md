@@ -4381,6 +4381,34 @@ twenty-first consecutive dangling-link daf found in this corpus (27a
 through 37a), the third daf fixed under the explicit 36a-52b
 frozen-corpus exception.
 
+## 37b, full daf (VERSION 15.47), twenty-second dangling-link daf, fourth of the 36a-52b batch
+
+Real ids extracted directly from `learning_data.js` first, per the
+corrected methodology: 6 real ids for this short daf (`l01`, `l04`,
+`l08`, `l12`, `l14`, `l17`). 25 raw Rashi print-lines, all fully
+dangling before this fix.
+
+The correspondence: vilnaLine 1-3 (the vessel-handle and knife-handle
+terminology, glossing "handles of axes and sickles") to `l01`;
+vilnaLine 4-6 (the sun's own sparks marking the time for the morning
+Shema) to `l04`; vilnaLine 7-18 (the priestly-watch/delegation dispute
+over who recites first, its scriptural source, and the resolution
+that "the rest of the people" is the true audience for the sign) to
+`l08`; vilnaLine 19-21 (the Gittin cross-reference on writing a
+practice scroll, and the acrostic method) to `l12`; vilnaLine 22-24
+(the priest writing the sotah scroll by copying the acrostic tablet)
+to `l14`; vilnaLine 25 (the daf's final truncated word) to `l17`, the
+daf's own final real captured line (boundary policy).
+
+Zero-bogus-id check confirmed all 25 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+37b is fully resolved, 25/25. This is the twenty-second consecutive
+dangling-link daf found in this corpus (27a through 37b), the fourth
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
