@@ -4189,6 +4189,89 @@ resolved, 54/54. This is the nineteenth consecutive dangling-link daf
 found in this corpus (27a through 36a), and the first daf fixed under
 the explicit, directly-user-granted 36a-52b frozen-corpus exception.
 
+## 36b, full daf (VERSION 15.44), twentieth dangling-link daf, second of the 36a-52b batch
+
+Before any edit, the 36a/36b boundary was re-verified read-only: 36a's
+truncated final word "בלאו" (with a negative commandment) is completed
+by 36b's own opening Gemara line 1, "בלאו דנבילה קא מיפלגי" (they
+dispute regarding a negative commandment of an unslaughtered carcass),
+confirming a clean continuation with no edit needed to 36a.
+
+62 raw Rashi print-lines, 46 real captured Gemara lines (`l01` through
+`l46`); all 62 `rashiTranslations` entries had empty
+`linkedGemaraLineIds` before this fix (fully dangling).
+
+The correspondence: vilnaLine 1-5 (the opening DH on why the negative
+commandment of eating an unslaughtered carcass cannot itself be
+diverted to the positive "give it to the stranger" commandment) to
+`l01`; vilnaLine 6-18 (Rabbi Akiva's and Rabbi Yosei HaGelili's
+competing views on whether the same logic applies to gleanings,
+forgotten sheaves, and the corner) to `l02`; vilnaLine 19-20 (Abaye's
+unifying view that all agree the negative commandment of an
+unslaughtered carcass is a proper one) to `l03`; vilnaLine 21-23
+(introducing the parallel dispute over "you shall leave") to `l04`;
+vilnaLine 24-26 (Rabbi Yosei's reasoning, explained before Rabbi
+Akiva's even though the Gemara states Akiva's view first in the same
+sentence) to `l06`; vilnaLine 27-29 (Rabbi Akiva's reasoning) to `l05`;
+vilnaLine 30-31 (the scapegoat's confession formula, sins before
+transgressions) to `l08`-`l09`; vilnaLine 32-34 (the rebellious/spiteful
+sinner, and the two prooftexts about the king of Moab and Livna) to
+`l13`-`l15`; vilnaLine 35-37 (why one confesses unwitting sins even
+after confessing intentional ones) to `l18`; vilnaLine 38 (turning
+intentional sins into unwitting ones through repentance) to `l27`;
+vilnaLine 39-40 (Moshe's own verse as the scriptural support) to `l31`;
+vilnaLine 41-44 (the prayer leader who structured the Yom Kippur
+liturgy on the High Priest's own service order, closing with the Hosea
+verse) to `l32`; vilnaLine 45-46 (the baraita on "and he shall atone"
+being words of confession) to `l35`; vilnaLine 47-48 (the same
+confession language for the scapegoat) to `l38`; vilnaLine 49-52 (the
+gezeirah shavah's rejection as proof that atonement means only through
+blood) to `l40`; vilnaLine 53-54 (the first proof from Aaron's own bull
+verse) to `l41`; vilnaLine 55-57 (the proof that the bull was not yet
+slaughtered when "he shall atone" is stated, so the atonement must be
+verbal) to `l42`; vilnaLine 58-59 (why a different reason was still
+needed) to `l43`; vilnaLine 60 (the rejected derivation from the inner
+goat) to `l44`; vilnaLine 61 (the reason that derivation fails, since
+the inner goat's atonement is through blood and has no confession) to
+`l45`.
+
+vilnaLine 24-29 is a reverse-order explanation: the Gemara states
+Rabbi Akiva's view before Rabbi Yosei HaGelili's in one sentence
+("דרבי עקיבא סבר תעזוב מעיקרא משמע ורבי יוסי הגלילי סבר השתא משמע"),
+but Rashi explains Yosei's reasoning first (vilnaLine 24-26) and
+Akiva's second (vilnaLine 27-29). This was verified as a deliberate
+Rashi ordering choice, not a transcription error, since each comment's
+own wording ("יוסי סבר השתא משמע" / "ור"ע סבר... מעיקרא") matches its
+respective clause exactly; `linkedGemaraLineIds` reflects the actual
+content match (`l06` then `l05`) rather than forcing strict left-to-
+right monotonicity.
+
+A first drafting pass of this fix mis-keyed vilnaLine 26 onward,
+producing a one-line-ahead content shift for roughly the second half
+of the daf (each `en` describing the next vilnaLine's raw Hebrew
+instead of its own). This was caught during the mandatory full
+side-by-side review before applying, not after; the entire vilnaLine
+26-62 span was rebuilt line-by-line against the raw array a second
+time and reverified clean before writing to disk.
+
+vilnaLine 62, the daf's final truncated word "ומנין" ("and from
+where"), matches `l46`'s own text exactly (`l46` is itself just this
+one word), confirming the daf boundary lines up cleanly; the DH
+continues onto 37a. No edit was made to 37a at this stage.
+
+All 62 entries were rebuilt in a single indexed pass (after the
+one drafting correction above), verified by a full side-by-side
+comparison of every index against the raw array before applying; no
+further slips survived to the applied version. `validate:schema:yoma`,
+`validate:yoma`, `validate:en:yoma`, `validate:daftext:yoma`,
+`validate:rashi:yoma`, `validate:literal:yoma`, and `audit:order:yoma`
+all pass (the same 9 pre-existing warnings at 39a, 47a, 51b, 77b, 79b
+are unrelated to this daf and untouched); `npm test` and
+`npm run test:browser` (10/10) both pass. 36b is fully resolved, 62/62.
+This is the twentieth consecutive dangling-link daf found in this
+corpus (27a through 36b), the second daf fixed under the explicit
+36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

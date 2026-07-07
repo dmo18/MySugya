@@ -492,313 +492,437 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Do R. Yehuda and the Rabbis dispute about nevelah (an animal that died without slaughter)?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'they dispute regarding a negative commandment of an unslaughtered carcass' - as it is written 'you shall give it to the stranger in your gates",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "Their dispute about the bull's location relates to nevelah liability in Temple precincts.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and he may eat it' (Deuteronomy 14), but nevertheless necessarily this is not diverted to a positive commandment, since",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "The space between the vestibule and altar has different nevelah rules than the Azarah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - giving it to the stranger cannot come after one has already transgressed the prohibition of eating, and",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "The location choice reflects concern about which nevelah prohibition zone applies.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - nevertheless the positive commandment necessarily implies beforehand: do not eat any carcass, but rather give it to the stranger",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l01"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Summary: the location dispute is fundamentally about nevelah in sacred spaces.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and do not eat it. Then opens 'Rabbi Akiva holds it is a negative commandment'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l01"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Baraita: how does the KG confess? He says: Anna HaShem...",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'that is not proper' - and one is lashed for it, and the negative commandment of gleanings",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Chatati, aviti, pashati lefanecha - I have sinned, transgressed, rebelled before You.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - forgotten sheaves and the corner is also implied beforehand by its own following positive commandment",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "Ana HaShem - this is the anna formula; its derivation is discussed in 37a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and so the verse means",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "I and my household and the sons of Aaron Your holy people.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (Leviticus 19): 'you shall not fully reap the corner of your field'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "Kapper na - please atone - for the sins, transgressions, rebellions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - rather leave it for the poor person, do not reap it, and one is lashed",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "That I (or we) have sinned before You - the full formula is stated.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for it, and no burnt-offering comes for it. Then opens 'and Rabbi Yosei",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "And they (the congregation) respond after him: Baruch Shem kavod malchuto l'olam va'ed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'HaGelili holds' - the negative commandment of an unslaughtered carcass, even though",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The Blessed Name of His glorious kingdom forever - said when the Divine Name is spoken.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is nevertheless necessarily implied beforehand by its own following positive commandment,",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "He (the KG) says to them: you shall be pure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - since the negative commandment is written after it,",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The first confession is for himself and his household.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one is not lashed for it, since it is unlike the negative commandment of muzzling",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The second confession adds the sons of Aaron (all kohanim).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - which does have a burnt-offering, but the negative commandment of gleanings, forgotten sheaves",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The third confession on the goat will be for all Israel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the corner is also implied, even if we say its following positive commandment is",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "The formula chatati, aviti, pashati covers all three categories of sin.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - meant beforehand, still one is not",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l02"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "Chatati = shegaga (unintentional); aviti = mezid (deliberate); pashati = zadon (willful).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - lashed for it. Then opens 'Abaye said: all agree it is the negative commandment",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l03"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Some reverse the order to aviti, pashati, chatati - from lightest to most serious.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of an unslaughtered carcass' - since necessarily its following positive commandment is meant beforehand,",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l03"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Kapper na - the request for atonement also lists all three categories.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - meaning it is a proper negative commandment and one is lashed for it. Then opens 'and here, regarding you shall leave'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l04"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "As it is written in the Torah - the verse supports this formula.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'the verse discussed after the negative commandment of gleanings' -",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l04"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The congregation prostrates themselves on hearing the explicit Divine Name.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - forgotten sheaves and the corner, this is where they dispute. Then opens 'Rabbi'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l04"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "They fall on their faces in the Temple to honor the Shem HaMeforash.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'Yosei holds it means now' - meaning after he has gathered",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l06"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "This occurred three times: at each of the KG's three confessions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and transgressed the negative commandment, the verse diverted it",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l06"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The third confession over the goat sent to Azazel covers all Israel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - to a positive commandment, and commanded him to leave it there for the poor person and the stranger,",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l06"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "The full viduy text and procedure is now established.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and therefore one is not lashed for it. Then opens 'and Rabbi Akiva holds'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l05"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "Derivation of what v'chipper (he shall atone) means.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it means beforehand: prior to the gathering, the positive commandment already stands",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l05"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "The Gemara asks: what kind of atonement does the verse mandate?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and one is lashed for it, since it was not diverted to a positive commandment, and no burnt-offering",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l05"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "Kaparat devarim - atonement through words (verbal confession).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - comes for it. Then opens 'and likewise regarding the scapegoat, it",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l08"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "The verse teaches that words - the verbal confession - is the atoning mechanism.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - says' - sins first and afterward transgressions",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l09"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The blood of the sacrifice atones for ritual impurity (tumat mikdash).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and afterward iniquities. Then opens 'the rebellious ones' - one who acts",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l13"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The verbal confession atones for intentional and deliberate sins.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - out of spite. Then opens 'the king of Moab rebelled against me' - rebelled",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l14"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Both are required: sacrifice + verbal confession = complete Yom Kippur atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - against me. Then opens 'then Livna rebelled' - the inhabitants of",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l15"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "V'chipper = kaparat devarim is derived from the context.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - Livna rebelled against the king of Judah. Then opens 'he returns and confesses'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l18"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Verbal confession is thus a biblical requirement, not merely rabbinic.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - etc. - as a rhetorical question: if for iniquities they are forgiven",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l18"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The verse mandates the speech as the means of atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - him, he need not ask again regarding the unwitting sins.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l18"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "This is why the Mishna records the exact confession text.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'make their iniquities like unwitting sins' - and so it means",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l27"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "The formula is not optional - it is the very act of atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he bears iniquity and transgression like an unwitting sin-offering. Then opens 'that it",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l31"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Blood handles ritual impurity; words handle intentional sin.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - supports him from the verse - from the confession of Yom Kippur itself.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l31"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Dual mechanism: sacrifice for purity, confession for sin.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'that one who descended' - the prayer leader who arranges",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l32"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "The two tracks of atonement on Yom Kippur are now clear.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in his Yom Kippur prayer the order",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l32"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "Summary: sacrifice for impurity, words for sin - both on Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of the High Priest's services, based on the verse",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l32"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "37a will continue with the anna formula and congregation's response.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - 'so we shall render as bulls our lips' (Hosea 14).",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l32"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The Yom Kippur service has both ritual and verbal dimensions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'and he shall atone' - what is stated regarding his own bull, 'and he shall atone for himself",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l35"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "The confession text and its meaning are now established.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and for his household' (Leviticus 16), are words of confession.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l35"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The chapter transitions to the next stage of the avodah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is stated further on regarding the scapegoat: 'shall be made to stand",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l38"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "The KG's triple confession is the verbal backbone of Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - alive before the Lord to make atonement over it' (ibid). Then opens 'and if",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l38"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "V'chipper by words: a remarkable teaching about the power of speech.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'you wish to say' - to answer",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l40"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "The verbal formula is the mechanism; the sacrifice provides the context.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this gezeirah shavah, to say that atonement means only",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l40"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Both are indispensable - neither alone achieves atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - through the giving of blood; necessarily from the verse itself",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l40"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Summary of 36b: nevelah dispute, confession formula, kaparat devarim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - you can derive that one cannot say this.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l40"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Three distinct topics in 36b, all central to the Yom Kippur service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens (new proof) - since it says: 'and Aaron shall bring near'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l41"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "The verbal and sacrificial dimensions are now both established.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - his bull of the sin-offering that is his, and he shall atone for himself",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l41"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Chapter 4 is progressing through the sequence of the KG's bull service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and for his household, and afterward: 'and he shall slaughter'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l42"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "The confession text is the highlight of this section.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - his bull of the sin-offering,' etc. - necessarily 'and he shall atone'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l42"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "Full formula, congregation response, and atonement mechanism are all taught.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - for himself, while it was not yet slaughtered - hence",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l42"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "The avodah continues in 37a with the lots for the goats.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - this atonement is through words. Then opens 'what does if you wish to say mean' - what else was there",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l43"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "36b is the center of the verbal atonement teaching.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to answer him, that he needed a different reason. Then opens 'and if you say'",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l43"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The halacha of viduy is derived here.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - let us derive this 'atonement' from the atonement written regarding the inner goat, as it is written",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l44"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "Kaparat devarim is the principle; the formula is its application.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - 'and he shall atone for the sanctuary from the impurities of the children of Israel,' and that atonement is through the giving of blood, since it is written after the giving of blood, and moreover it has no confession.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l45"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "The next stage: the lot for the goats begins.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'and from where,' the start of the dibbur hamatchil asking the further source for the confession's own wording, whose text continues on 37a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-036b-l46"
+      ]
     }
   ]
 }

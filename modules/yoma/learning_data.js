@@ -83222,11 +83222,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 1,
         he: "בלאו דנבילה קא מיפלגי. דכתיב עשה אחריו לגר אשר בשעריך",
-        en: "Do R. Yehuda and the Rabbis dispute about nevelah (an animal that died without slaughter)?",
+        en: "Rashi: opens 'they dispute regarding a negative commandment of an unslaughtered carcass' - as it is written 'you shall give it to the stranger in your gates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l01"
+        ]
       },
       {
         id: "rashi-yoma-036b-002",
@@ -83234,11 +83236,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 2,
         he: "תתננה ואכלה (דברים יד) ומיהו על כרחך אין זה ניתק לעשה דהא",
-        en: "Their dispute about the bull's location relates to nevelah liability in Temple precincts.",
+        en: "Rashi: continues - and he may eat it' (Deuteronomy 14), but nevertheless necessarily this is not diverted to a positive commandment, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l01"
+        ]
       },
       {
         id: "rashi-yoma-036b-003",
@@ -83246,11 +83250,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 3,
         he: "נתינתה לגר אי אפשר לאחר שעבר על לא תעשה של אכילה ועל",
-        en: "The space between the vestibule and altar has different nevelah rules than the Azarah.",
+        en: "Rashi: continues - giving it to the stranger cannot come after one has already transgressed the prohibition of eating, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l01"
+        ]
       },
       {
         id: "rashi-yoma-036b-004",
@@ -83258,11 +83264,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 4,
         he: "כרחך עשה מעיקרא משמע לא תאכלו כל נבילה אלא לגר תתננה",
-        en: "The location choice reflects concern about which nevelah prohibition zone applies.",
+        en: "Rashi: continues - nevertheless the positive commandment necessarily implies beforehand: do not eat any carcass, but rather give it to the stranger",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l01"
+        ]
       },
       {
         id: "rashi-yoma-036b-005",
@@ -83270,11 +83278,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 5,
         he: "ולא תאכלוה: רבי עקיבא סבר לאו",
-        en: "Summary: the location dispute is fundamentally about nevelah in sacred spaces.",
+        en: "Rashi: concludes - and do not eat it. Then opens 'Rabbi Akiva holds it is a negative commandment'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l01"
+        ]
       },
       {
         id: "rashi-yoma-036b-006",
@@ -83282,11 +83292,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 6,
         he: "מעליא הוא. ולוקין עליו ולאו דלקט",
-        en: "Baraita: how does the KG confess? He says: Anna HaShem...",
+        en: "Rashi: opens 'that is not proper' - and one is lashed for it, and the negative commandment of gleanings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-007",
@@ -83294,11 +83306,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 7,
         he: "שכחה ופאה נמי עשה דבתריה",
-        en: "Chatati, aviti, pashati lefanecha - I have sinned, transgressed, rebelled before You.",
+        en: "Rashi: continues - forgotten sheaves and the corner is also implied beforehand by its own following positive commandment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-008",
@@ -83306,11 +83320,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 8,
         he: "מעיקרא משמע והכי קאמר קרא",
-        en: "Ana HaShem - this is the anna formula; its derivation is discussed in 37a.",
+        en: "Rashi: continues - and so the verse means",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-009",
@@ -83318,11 +83334,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 9,
         he: "(ויקרא יט) ולקט קצירך לא תלקט",
-        en: "I and my household and the sons of Aaron Your holy people.",
+        en: "Rashi: continues - (Leviticus 19): 'you shall not fully reap the corner of your field'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-010",
@@ -83330,11 +83348,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 10,
         he: "אלא לעני תעזבנו ולא תלקטנו ולקי",
-        en: "Kapper na - please atone - for the sins, transgressions, rebellions.",
+        en: "Rashi: continues - rather leave it for the poor person, do not reap it, and one is lashed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-011",
@@ -83342,11 +83362,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 11,
         he: "עליה ואין עולה באה עליו: ור' יוסי",
-        en: "That I (or we) have sinned before You - the full formula is stated.",
+        en: "Rashi: continues - for it, and no burnt-offering comes for it. Then opens 'and Rabbi Yosei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-012",
@@ -83354,11 +83376,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 12,
         he: "הגלילי סבר. לאו דנבילה אע\"ג",
-        en: "And they (the congregation) respond after him: Baruch Shem kavod malchuto l'olam va'ed.",
+        en: "Rashi: opens 'HaGelili holds' - the negative commandment of an unslaughtered carcass, even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-013",
@@ -83366,11 +83390,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 13,
         he: "דעל כרחך עשה דבתריה מעיקרא",
-        en: "The Blessed Name of His glorious kingdom forever - said when the Divine Name is spoken.",
+        en: "Rashi: continues - it is nevertheless necessarily implied beforehand by its own following positive commandment,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-014",
@@ -83378,11 +83404,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 14,
         he: "משמע הואיל ובתריה דלאו כתיב",
-        en: "He (the KG) says to them: you shall be pure.",
+        en: "Rashi: continues - since the negative commandment is written after it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-015",
@@ -83390,11 +83418,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 15,
         he: "אין לוקין עליו דלא דמי ללאו דחסימה",
-        en: "The first confession is for himself and his household.",
+        en: "Rashi: continues - one is not lashed for it, since it is unlike the negative commandment of muzzling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-016",
@@ -83402,11 +83432,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 16,
         he: "ובאה עליו עולה ולאו דלקט שכחה",
-        en: "The second confession adds the sons of Aaron (all kohanim).",
+        en: "Rashi: continues - which does have a burnt-offering, but the negative commandment of gleanings, forgotten sheaves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-017",
@@ -83414,11 +83446,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 17,
         he: "ופאה נמי אפילו אמרינן דעשה",
-        en: "The third confession on the goat will be for all Israel.",
+        en: "Rashi: continues - and the corner is also implied, even if we say its following positive commandment is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-018",
@@ -83426,11 +83460,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 18,
         he: "דבתריה מעיקרא הוא משמע לא",
-        en: "The formula chatati, aviti, pashati covers all three categories of sin.",
+        en: "Rashi: continues - meant beforehand, still one is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l02"
+        ]
       },
       {
         id: "rashi-yoma-036b-019",
@@ -83438,11 +83474,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 19,
         he: "לקי עליה: אביי אמר דכ\"ע לאו",
-        en: "Chatati = shegaga (unintentional); aviti = mezid (deliberate); pashati = zadon (willful).",
+        en: "Rashi: concludes - lashed for it. Then opens 'Abaye said: all agree it is the negative commandment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l03"
+        ]
       },
       {
         id: "rashi-yoma-036b-020",
@@ -83450,11 +83488,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 20,
         he: "דנבילה. דע\"כ עשה דבתריה מעיקרא",
-        en: "Some reverse the order to aviti, pashati, chatati - from lightest to most serious.",
+        en: "Rashi: continues - of an unslaughtered carcass' - since necessarily its following positive commandment is meant beforehand,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l03"
+        ]
       },
       {
         id: "rashi-yoma-036b-021",
@@ -83462,11 +83502,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 21,
         he: "משמע ולאו מעליא הוי ומלקינן עליה:",
-        en: "Kapper na - the request for atonement also lists all three categories.",
+        en: "Rashi: concludes - meaning it is a proper negative commandment and one is lashed for it. Then opens 'and here, regarding you shall leave'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l04"
+        ]
       },
       {
         id: "rashi-yoma-036b-022",
@@ -83474,11 +83516,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 22,
         he: "והכא בתעזוב. הכתוב אחר לאו של",
-        en: "As it is written in the Torah - the verse supports this formula.",
+        en: "Rashi: opens 'the verse discussed after the negative commandment of gleanings' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l04"
+        ]
       },
       {
         id: "rashi-yoma-036b-023",
@@ -83486,11 +83530,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 23,
         he: "לקט שכחה ופאה קא מיפלגי: רבי",
-        en: "The congregation prostrates themselves on hearing the explicit Divine Name.",
+        en: "Rashi: concludes - forgotten sheaves and the corner, this is where they dispute. Then opens 'Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l04"
+        ]
       },
       {
         id: "rashi-yoma-036b-024",
@@ -83498,11 +83544,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 24,
         he: "יוסי סבר השתא משמע. אחר שלקט",
-        en: "They fall on their faces in the Temple to honor the Shem HaMeforash.",
+        en: "Rashi: opens 'Yosei holds it means now' - meaning after he has gathered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l06"
+        ]
       },
       {
         id: "rashi-yoma-036b-025",
@@ -83510,11 +83558,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 25,
         he: "ועבר על לא תעשה נתקו הכתוב",
-        en: "This occurred three times: at each of the KG's three confessions.",
+        en: "Rashi: continues - and transgressed the negative commandment, the verse diverted it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l06"
+        ]
       },
       {
         id: "rashi-yoma-036b-026",
@@ -83522,11 +83572,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 26,
         he: "לעשה וצוהו לעוזבו שם לעני ולגר",
-        en: "The third confession over the goat sent to Azazel covers all Israel.",
+        en: "Rashi: concludes - to a positive commandment, and commanded him to leave it there for the poor person and the stranger,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l06"
+        ]
       },
       {
         id: "rashi-yoma-036b-027",
@@ -83534,11 +83586,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 27,
         he: "ולפיכך אין לוקין עליו: ור\"ע סבר.",
-        en: "The full viduy text and procedure is now established.",
+        en: "Rashi: concludes - and therefore one is not lashed for it. Then opens 'and Rabbi Akiva holds'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l05"
+        ]
       },
       {
         id: "rashi-yoma-036b-028",
@@ -83546,11 +83600,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 28,
         he: "מעיקרא קודם לקיטה קאי עשה",
-        en: "Derivation of what v'chipper (he shall atone) means.",
+        en: "Rashi: continues - it means beforehand: prior to the gathering, the positive commandment already stands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l05"
+        ]
       },
       {
         id: "rashi-yoma-036b-029",
@@ -83558,11 +83614,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 29,
         he: "ולקי עליה דלא ניתק לעשה ואין עולה",
-        en: "The Gemara asks: what kind of atonement does the verse mandate?",
+        en: "Rashi: continues - and one is lashed for it, since it was not diverted to a positive commandment, and no burnt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l05"
+        ]
       },
       {
         id: "rashi-yoma-036b-030",
@@ -83570,11 +83628,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 30,
         he: "באה עליו: וכן בשעיר המשתלח הוא",
-        en: "Kaparat devarim - atonement through words (verbal confession).",
+        en: "Rashi: concludes - comes for it. Then opens 'and likewise regarding the scapegoat, it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l08"
+        ]
       },
       {
         id: "rashi-yoma-036b-031",
@@ -83582,11 +83642,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 31,
         he: "אומר. עונות תחילה ואח\"כ פשעים",
-        en: "The verse teaches that words - the verbal confession - is the atoning mechanism.",
+        en: "Rashi: continues - says' - sins first and afterward transgressions",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l09"
+        ]
       },
       {
         id: "rashi-yoma-036b-032",
@@ -83594,11 +83656,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 32,
         he: "ואחר כך חטאים: המרדים. העושה",
-        en: "The blood of the sacrifice atones for ritual impurity (tumat mikdash).",
+        en: "Rashi: concludes - and afterward iniquities. Then opens 'the rebellious ones' - one who acts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l13"
+        ]
       },
       {
         id: "rashi-yoma-036b-033",
@@ -83606,11 +83670,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 33,
         he: "להכעיס: מלך מואב פשע בי. מרד",
-        en: "The verbal confession atones for intentional and deliberate sins.",
+        en: "Rashi: concludes - out of spite. Then opens 'the king of Moab rebelled against me' - rebelled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l14"
+        ]
       },
       {
         id: "rashi-yoma-036b-034",
@@ -83618,11 +83684,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 34,
         he: "בי: אז תפשע לבנה. מרדו יושבי",
-        en: "Both are required: sacrifice + verbal confession = complete Yom Kippur atonement.",
+        en: "Rashi: concludes - against me. Then opens 'then Livna rebelled' - the inhabitants of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l15"
+        ]
       },
       {
         id: "rashi-yoma-036b-035",
@@ -83630,11 +83698,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 35,
         he: "לבנה על מלך יהודה: חוזר ומתודה",
-        en: "V'chipper = kaparat devarim is derived from the context.",
+        en: "Rashi: concludes - Livna rebelled against the king of Judah. Then opens 'he returns and confesses'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l18"
+        ]
       },
       {
         id: "rashi-yoma-036b-036",
@@ -83642,11 +83712,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 36,
         he: "כו'. בתמיה אם על זדונות ימחלו",
-        en: "Verbal confession is thus a biblical requirement, not merely rabbinic.",
+        en: "Rashi: continues - etc. - as a rhetorical question: if for iniquities they are forgiven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l18"
+        ]
       },
       {
         id: "rashi-yoma-036b-037",
@@ -83654,11 +83726,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 37,
         he: "לו אין צריך לבקש שוב על השגגות:",
-        en: "The verse mandates the speech as the means of atonement.",
+        en: "Rashi: concludes - him, he need not ask again regarding the unwitting sins.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l18"
+        ]
       },
       {
         id: "rashi-yoma-036b-038",
@@ -83666,11 +83740,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 38,
         he: "עשה להן זדונות כשגגות. והכי קאמר",
-        en: "This is why the Mishna records the exact confession text.",
+        en: "Rashi: opens 'make their iniquities like unwitting sins' - and so it means",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l27"
+        ]
       },
       {
         id: "rashi-yoma-036b-039",
@@ -83678,11 +83754,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 39,
         he: "נושא עון ופשע כחטאת שוגג: דקא",
-        en: "The formula is not optional - it is the very act of atonement.",
+        en: "Rashi: continues - he bears iniquity and transgression like an unwitting sin-offering. Then opens 'that it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l31"
+        ]
       },
       {
         id: "rashi-yoma-036b-040",
@@ -83690,11 +83768,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 40,
         he: "מסייע ליה קרא. דוידוי יוה\"כ גופיה:",
-        en: "Blood handles ritual impurity; words handle intentional sin.",
+        en: "Rashi: concludes - supports him from the verse - from the confession of Yom Kippur itself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l31"
+        ]
       },
       {
         id: "rashi-yoma-036b-041",
@@ -83702,11 +83782,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 41,
         he: "ההוא דנחית. שליח צבור שמסדר",
-        en: "Dual mechanism: sacrifice for purity, confession for sin.",
+        en: "Rashi: opens 'that one who descended' - the prayer leader who arranges",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l32"
+        ]
       },
       {
         id: "rashi-yoma-036b-042",
@@ -83714,11 +83796,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 42,
         he: "בתפלתו של יום הכפורים סדר",
-        en: "The two tracks of atonement on Yom Kippur are now clear.",
+        en: "Rashi: continues - in his Yom Kippur prayer the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l32"
+        ]
       },
       {
         id: "rashi-yoma-036b-043",
@@ -83726,11 +83810,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 43,
         he: "עבודותיו של כהן גדול על שם",
-        en: "Summary: sacrifice for impurity, words for sin - both on Yom Kippur.",
+        en: "Rashi: continues - of the High Priest's services, based on the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l32"
+        ]
       },
       {
         id: "rashi-yoma-036b-044",
@@ -83738,11 +83824,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 44,
         he: "ונשלמה פרים שפתינו (הושע יד) :",
-        en: "37a will continue with the anna formula and congregation's response.",
+        en: "Rashi: concludes - 'so we shall render as bulls our lips' (Hosea 14).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l32"
+        ]
       },
       {
         id: "rashi-yoma-036b-045",
@@ -83750,11 +83838,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 45,
         he: "וכפר. מה שאמור בפרו וכפר בעדו",
-        en: "The Yom Kippur service has both ritual and verbal dimensions.",
+        en: "Rashi: opens 'and he shall atone' - what is stated regarding his own bull, 'and he shall atone for himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l35"
+        ]
       },
       {
         id: "rashi-yoma-036b-046",
@@ -83762,11 +83852,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 46,
         he: "ובעד ביתו (ויקרא טז) דברי וידוי:",
-        en: "The confession text and its meaning are now established.",
+        en: "Rashi: concludes - and for his household' (Leviticus 16), are words of confession.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l35"
+        ]
       },
       {
         id: "rashi-yoma-036b-047",
@@ -83774,11 +83866,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 47,
         he: "נאמר להלן בשעיר המשתלח יעמד",
-        en: "The chapter transitions to the next stage of the avodah.",
+        en: "Rashi: continues - it is stated further on regarding the scapegoat: 'shall be made to stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l38"
+        ]
       },
       {
         id: "rashi-yoma-036b-048",
@@ -83786,11 +83880,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 48,
         he: "חי לפני ה' לכפר עליו (שם) : ואם",
-        en: "The KG's triple confession is the verbal backbone of Yom Kippur.",
+        en: "Rashi: concludes - alive before the Lord to make atonement over it' (ibid). Then opens 'and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l38"
+        ]
       },
       {
         id: "rashi-yoma-036b-049",
@@ -83798,11 +83894,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 49,
         he: "נפשך לומר. להשיב תשובה על",
-        en: "V'chipper by words: a remarkable teaching about the power of speech.",
+        en: "Rashi: opens 'you wish to say' - to answer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l40"
+        ]
       },
       {
         id: "rashi-yoma-036b-050",
@@ -83810,11 +83908,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 50,
         he: "גזירה שוה זו לומר שאין וכפר אלא",
-        en: "The verbal formula is the mechanism; the sacrifice provides the context.",
+        en: "Rashi: continues - this gezeirah shavah, to say that atonement means only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l40"
+        ]
       },
       {
         id: "rashi-yoma-036b-051",
@@ -83822,11 +83922,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 51,
         he: "במתן דמים על כרחך מיניה וביה",
-        en: "Both are indispensable - neither alone achieves atonement.",
+        en: "Rashi: continues - through the giving of blood; necessarily from the verse itself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l40"
+        ]
       },
       {
         id: "rashi-yoma-036b-052",
@@ -83834,11 +83936,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 52,
         he: "תיפוק לך דלא אפשר למימר הכי",
-        en: "Summary of 36b: nevelah dispute, confession formula, kaparat devarim.",
+        en: "Rashi: concludes - you can derive that one cannot say this.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l40"
+        ]
       },
       {
         id: "rashi-yoma-036b-053",
@@ -83846,11 +83950,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 53,
         he: "שהרי הוא אומר והקריב אהרן את",
-        en: "Three distinct topics in 36b, all central to the Yom Kippur service.",
+        en: "Rashi: opens (new proof) - since it says: 'and Aaron shall bring near'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l41"
+        ]
       },
       {
         id: "rashi-yoma-036b-054",
@@ -83858,11 +83964,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 54,
         he: "פר החטאת אשר לו וכפר בעדו",
-        en: "The verbal and sacrificial dimensions are now both established.",
+        en: "Rashi: continues - his bull of the sin-offering that is his, and he shall atone for himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l41"
+        ]
       },
       {
         id: "rashi-yoma-036b-055",
@@ -83870,11 +83978,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 55,
         he: "ובעד ביתו ואחר כך ושחט את",
-        en: "Chapter 4 is progressing through the sequence of the KG's bull service.",
+        en: "Rashi: continues - and for his household, and afterward: 'and he shall slaughter'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l42"
+        ]
       },
       {
         id: "rashi-yoma-036b-056",
@@ -83882,11 +83992,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 56,
         he: "פר החטאת וגו' על כרחך וכפר",
-        en: "The confession text is the highlight of this section.",
+        en: "Rashi: continues - his bull of the sin-offering,' etc. - necessarily 'and he shall atone'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l42"
+        ]
       },
       {
         id: "rashi-yoma-036b-057",
@@ -83894,11 +84006,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 57,
         he: "בעדו ועדיין לא נשחט אלמא",
-        en: "Full formula, congregation response, and atonement mechanism are all taught.",
+        en: "Rashi: concludes - for himself, while it was not yet slaughtered - hence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l42"
+        ]
       },
       {
         id: "rashi-yoma-036b-058",
@@ -83906,11 +84020,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 58,
         he: "כפרה זו בדברים היא: מאי אם נפשך לומר. מה היה",
-        en: "The avodah continues in 37a with the lots for the goats.",
+        en: "Rashi: concludes - this atonement is through words. Then opens 'what does if you wish to say mean' - what else was there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l43"
+        ]
       },
       {
         id: "rashi-yoma-036b-059",
@@ -83918,11 +84034,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 59,
         he: "להשיב לו דאיצטריך ליה טעמא אחרינא: וכי תימא",
-        en: "36b is the center of the verbal atonement teaching.",
+        en: "Rashi: continues - to answer him, that he needed a different reason. Then opens 'and if you say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l43"
+        ]
       },
       {
         id: "rashi-yoma-036b-060",
@@ -83930,11 +84048,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 60,
         he: "נילף. האי וכפר מכפרה דכתיבא בשעיר הפנימי דכתיב",
-        en: "The halacha of viduy is derived here.",
+        en: "Rashi: continues - let us derive this 'atonement' from the atonement written regarding the inner goat, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l44"
+        ]
       },
       {
         id: "rashi-yoma-036b-061",
@@ -83942,11 +84062,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 61,
         he: "וכפר על הקדש מטומאת בני ישראל וההיא במתן היא דבתר מתן דמים כתובה ועוד שאין בו וידוי:",
-        en: "Kaparat devarim is the principle; the formula is its application.",
+        en: "Rashi: concludes - 'and he shall atone for the sanctuary from the impurities of the children of Israel,' and that atonement is through the giving of blood, since it is written after the giving of blood, and moreover it has no confession.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l45"
+        ]
       },
       {
         id: "rashi-yoma-036b-062",
@@ -83954,11 +84076,13 @@ const DAF_CONTENT = {
         daf: "36b",
         vilnaLine: 62,
         he: "ומנין",
-        en: "The next stage: the lot for the goats begins.",
+        en: "Rashi: the daf's final truncated word - 'and from where,' the start of the dibbur hamatchil asking the further source for the confession's own wording, whose text continues on 37a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036b-l46"
+        ]
       }
     ],
     review: "reviewed"
