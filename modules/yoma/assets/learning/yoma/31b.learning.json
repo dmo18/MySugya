@@ -26,338 +26,444 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Gate is twenty cubits high; chamber is three more cubits = twenty-three total.",
+      "en": "Rashi: opens 'but is there not a cubit' - the thickness of the ceiling over the gate's own chamber. Then opens 'and a cubit of plaster' - of mortar",
       "linkedGemaraLineIds": [
         "yoma-031b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Linen screen spread for privacy during the High Priest's immersion.",
+      "en": "Rashi: continues - and sand kneaded together, so that the water settles there, aside from the chamber's own depth of three cubits",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: concludes - that you calculated. Then opens 'with a minimal amount they made it' - their own ceiling. Then opens 'that the day's service is in linen garments' -",
       "linkedGemaraLineIds": [
         "yoma-031b-l04"
       ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Mishna: High Priest's garment sequence - morning golden service, change to white, inner service, change back.",
+      "vilnaLine": 4,
+      "en": "Rashi: continues - that today he has a service that is in linen garments, since he is not accustomed to serve without",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: continues - the eight garments, some of which are golden, such as",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: concludes - the forehead-plate, the breastplate, the ephod, and the bells of the robe.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l04"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: opens 'mishna: and he dried himself' - wraps himself in a towel",
       "linkedGemaraLineIds": [
         "yoma-031b-l08"
       ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Inner sanctuary service: burn incense, clean lamp wicks, sprinkle blood on Kapporet.",
-      "linkedGemaraLineIds": [
-        "yoma-031b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "If High Priest is old and needs warm water for his immersion - who heats it?",
-      "linkedGemaraLineIds": [
-        "yoma-031b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Sages say this mishna is not according to Rabbi Meir.",
-      "linkedGemaraLineIds": [
-        "yoma-031b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rav Pappa: the mishna is consistent with both Rabbis and R. Meir.",
-      "linkedGemaraLineIds": [
-        "yoma-031b-l28"
-      ]
-    },
-    {
       "vilnaLine": 8,
-      "en": "Rabbis: garment change requires juxtaposition (immediately adjacent); R. Meir: requires immersion between each change.",
+      "en": "Rashi: continues - of cloth, to absorb the water on his flesh",
       "linkedGemaraLineIds": [
-        "yoma-031b-l32"
+        "yoma-031b-l08"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Sages to Rav Pappa: how can you say the first immersion is in golden garments if R. Meir holds otherwise?",
+      "en": "Rashi: concludes - and dried and wiped himself clean. Then opens 'and he sanctified his hands and feet' -",
       "linkedGemaraLineIds": [
-        "yoma-031b-l35"
+        "yoma-031b-l08"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Gemara: how can you find five immersions according to R. Meir if two of them are in the non-sacred area?",
+      "en": "Rashi: continues - from the basin, as he derives further on (32a),",
       "linkedGemaraLineIds": [
-        "yoma-031b-l37"
+        "yoma-031b-l08"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Gold for the final afternoon tamid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that he requires a sanctification for every change of the day's garments,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The Sages disagree about the total count.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one for undressing and one for dressing; and this",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "R. Meir counts ten immersions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - first immersion, since its undressing was of ordinary garments,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The Sages say five immersions are sufficient.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - he did not need to sanctify for the undressing.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rav Pappa reconciles: both agree on five immersions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens and closes 'he notched it' - explained in the Gemara. Then opens 'and another completed' -",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The ten sanctifications of R. Meir are two per immersion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and another priest completed the slaughtering, since",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "One before removing old garments and one after donning new ones.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the receiving of the blood is valid only by the High Priest,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "The five Yom Kippur-specific immersions are the obligatory ones.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and he must hurry to receive it. Then opens 'on his behalf' - for his sake,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The debate concerns the preliminary morning immersion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - like 'a person contracts on his own behalf' (Bava Metzia 93a);",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rav Pappa's reconciliation satisfies both positions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - or, alternatively, 'al yado' is a term for 'after him' and adjacent",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "All agree on five obligatory Yom Kippur immersions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to him; and there are many such usages in the Book of Ezra, 'al yado'",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "The preliminary immersion is additional.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - meaning so-and-so repaired the wall (Nehemiah 3).",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l08"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Both Sages agree it is not counted among the Yom Kippur five.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'the morning incense' - it was offered",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l12"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The KG's garment sequence follows the atonement order in Leviticus 16.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - etc., explained in the Gemara. Then opens 'they heat water for him' -",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Each garment change is followed by immersion and sanctification.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from the eve of Yom Kippur, and they pour it in, on",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The debate between R. Meir and the Sages is resolved.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Yom Kippur, into a hollow built into the house of",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Five immersions are the halacha.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - his immersion. Then opens 'so that it tempers' - to remove its coldness immediately",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The ten sanctifications correspond to five immersions, two per immersion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - somewhat, like 'and his heart grew faint' (Genesis 45),",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Before undressing and after dressing for each garment change.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'they lose their taste' (Beitza 14a); and like 'and its smell has not",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rav Pappa's reconciliation of R. Meir and the Sages.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - changed' (Jeremiah 48), which we translate as 'and its smell has not",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l16"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Both agree on five immersions with two sanctifications each.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - faded.' Then opens 'gemara: the Rabbanan' - the disciples of Rav",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Making ten sanctifications total.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Pappa, said this before him. Then opens 'this' - our mishna,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The halacha follows this reconciled view.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that we did not learn in it two sanctifications for the",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The summary of the immersion and sanctification debate.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - first immersion. Then opens 'this is not according to Rabbi Meir' - who disagrees in the mishna",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "The debate is resolved in favor of five immersions and ten sanctifications.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - about the second immersion, against the Rabbis, who would place first",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "The debate is resolved.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the sanctification before the undressing, while he placed the undressing",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rav Pappa's reconciliation is accepted.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - before the sanctification, as we learned: Rabbi Meir says he undressed",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi commentary on line 38 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and then sanctified; and we learn from this that he holds there are two",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi commentary on line 39 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - sanctifications that the verse required, between one garment",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi commentary on line 40 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and another, as he derives further on, both of them because of",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi commentary on line 41 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the wearing of the garments that are exchanged in place of",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi commentary on line 42 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the first ones; and they say the mishna is not",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi commentary on line 43 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - taught in accordance with him, for if it were Rabbi Meir, for the immersion",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi commentary on line 44 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - first too, he should require two sanctifications, since",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l18"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi commentary on line 45 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - he comes to wear sacred garments. Then opens 'one' -",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi commentary on line 46 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues DH - for the undressing.' Therefore here, since the undressing",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi commentary on line 47 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is of ordinary garments, it does not require sanctification; and here,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi commentary on line 48 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - regarding the second immersion, where Rabbi Meir disagreed",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to place the undressing before the sanctification, it is not because",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he holds the first sanctification of every immersion comes on account of dressing, but rather by the decree of",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the verse that they disagree. Then opens 'and he shall remove, and bathe, (and bathe,) and don' - 'and he shall remove the linen garments",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that he wore,' etc., and adjacent to it: 'and he shall bathe his flesh in water in a holy place, and don",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - his garments' - and the verse placed the bathing between the undressing and the dressing; and this 'and he shall bathe'",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - we expound further on regarding sanctification, and we derive from it two sanctifications, by treating",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi commentary on line 55 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and he shall bathe' as attached to both 'he shall remove' and 'he shall don,' as if 'and he shall bathe' were written twice. Then opens 'Rabbi Meir holds' -",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi commentary on line 56 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues DH - he juxtaposes' - the sanctification of undressing to the sanctification of dressing: just as with dressing, he dresses and afterward",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi commentary on line 57 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - sanctifies with the second sanctification, as we say further on that all agree the second sanctification, when he is",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l22"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi commentary on line 58 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - dressed, he sanctifies, and he derives it from the verses; so too the sanctification of undressing: he undresses and afterward sanctifies. Then opens 'and the Rabbis hold' - just as with dressing, when he is dressed he sanctifies,",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l27"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi commentary on line 59 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - so too with undressing: when he is dressed in the garments he comes to remove, he sanctifies and only afterward removes them. Then opens 'and how can you say this' - that Rabbi Meir does not require, for the",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l27"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi commentary on line 60 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - first immersion, two sanctifications. Then opens 'but was it not taught, etc.' - that the first immersion too is taught with two, since the Rabbis required only one sanctification for him; rather, the reason of Rabbi Meir is because",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l29"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi commentary on line 61 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - he holds both are on account of the garments he is wearing. Then opens 'he said to them: if it was taught' - explicitly requiring two sanctifications, it was taught, and from that one can learn that Rabbi Meir's reason is because",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l29"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi commentary on line 62 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - both are on account of the dressing; but had you not found it explicit in a mishna, one could not have learned it from the dispute over the second immersion in our own mishna, since it could be explained otherwise, as we said to them.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l29"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "Rashi commentary on line 63 of 31b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'ten,' the start of the dibbur hamatchil about the ten sanctifications for the mishna's five immersions, whose text continues on 32a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-031b-l37"
+      ]
     }
   ],
   "sugyot": [

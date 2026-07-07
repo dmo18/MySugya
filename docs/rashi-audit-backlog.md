@@ -3464,6 +3464,71 @@ before applying (including the one caught-and-corrected slip above).
 dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
 30a, 30b, 31a).
 
+## 31b, full daf (VERSION 15.34), tenth dangling-link daf, densest sugya of the run
+
+Continuing the run. Before any edit, the 31a/31b boundary was
+re-verified read-only: 31a's truncated final word "והאיכא" (but is
+there not) is completed by 31b's opening "והאיכא אמה. עובי תקרה על
+חלל השער", continuing the same dibbur hamatchil cleanly in both the
+Gemara and Rashi columns. No edit was made to 31a.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 31b has 63 lines, matching the prior
+enrichment JSON's 63 `rashiTranslations` entries exactly.
+
+Checking every existing `linkedGemaraLineIds` value against 31b's 10
+real captured ids (`l01`, `l04`, `l08` (mishna), `l12`, `l16`, `l18`,
+`l22`, `l27`, `l29`, `l37`) found the same pattern as the prior daf:
+vilnaLine 4-9 pointed to nonexistent unpadded ids, and vilnaLine
+11-63 (53 entries) had `linkedGemaraLineIds` entirely empty, carrying
+the older generic descriptive-style filler text throughout. The whole
+daf was rebuilt using the list-indexed methodology.
+
+This is the densest sugya encountered in the run so far: a single
+real mishna line (`l08`) spans the entire High Priest vestry
+procedure from drying off through the daily-offering's notching, and
+a single real gemara line (`l22`) carries Rav Pappa's full analysis
+including the two-sanctification derivation from the repeated verb
+"and he shall bathe," requiring unusually careful line-by-line
+tracking since both Rabbi Meir's view (within `l22` itself) and the
+Rabbis' contrasting view (`l27`, opening only after `l22`'s own text
+concludes) share overlapping vocabulary ("מקיש פשיטה ללבישה," "מה
+לבישה... אף פשיטה") that could otherwise be mistaken for a repeated
+citation of the same real line rather than two adjacent ones.
+
+The correspondence: vilnaLine 1-2 (the cubit of ceiling and plaster
+accounted for) to `l01`; 3-6 (the minimal marble thickness, then why
+specifically linen garments for the sheet) to `l04`; 7-22 (the whole
+undressing-through-daily-offering mishna, including the "notched it,"
+"on his behalf" idiom traced to the Book of Ezra) to `l08`; 23 (the
+morning incense's own placement in the service order) to `l12`; 24-30
+(heating water for an elderly or delicate High Priest, the verbs for
+"tempering" traced to Genesis, Beitza, and Jeremiah) to `l16`; 31-44
+(the Rabbanan's report to Rav Pappa that the mishna does not match
+Rabbi Meir, since he reverses the sanctification/undressing order)
+to `l18`; 45-57 (Rav Pappa's resolution and Rabbi Meir's own view,
+deriving two sanctifications from the doubled "and he shall bathe")
+to `l22`; 58-59 (the Rabbis' contrasting view, opening only once
+`l22`'s own text is fully glossed) to `l27`; 60-62 (the Rabbanan's
+challenge from a baraita, and Rav Pappa's reply) to `l29`.
+
+vilnaLine 63, the daf's final truncated word "עשרה" (ten), is the
+same kind of boundary case as every other daf ending in this run: per
+the policy, it is linked to `yoma-031b-l37`, 31b's own final locally
+captured Gemara line ("granted according to Rabbi Meir, this is how
+you find it"), even though the DH's own point is itself still open
+at the point of truncation. 32a's own opening line ("עשרה קידושין.
+לחמש טבילות") was read read-only to confirm this word begins a
+dibbur hamatchil about the ten sanctifications for the mishna's five
+immersions, continuing onto 32a; no edit was made to 32a.
+
+All 63 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying; no drafting slips survived to the applied version
+this time. 31b is fully resolved, 63/63. This is the tenth
+consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
+28b, 29a, 29b, 30a, 30b, 31a, 31b).
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
