@@ -4120,6 +4120,75 @@ eighteenth consecutive dangling-link daf found in this corpus (27a,
 34b, 35a, 35b), closing out the escalated 34a-35b batch. Haiku can
 resume at 36a.
 
+## 36a, full daf (VERSION 15.43), nineteenth dangling-link daf, first of the explicitly user-approved 36a-52b frozen-corpus exception batch
+
+Per direct user authorization (not agent-declared) covering 36a through
+52b only, scoped to `rashiTranslations` (`linkedGemaraLineIds` and `en`
+fields), this daf was resolved. 54 raw Rashi print-lines, 30 real
+captured Gemara lines (`l01` through `l30`); all 54
+`rashiTranslations` entries had empty `linkedGemaraLineIds` before this
+fix (fully dangling).
+
+The correspondence: vilnaLine 1-5 (the opening DH identifying "between
+the vestibule and the altar" as north for slaughtering the most sacred
+offerings, tracing it to the mishna's own bull-slaughter location) to
+`l01`; vilnaLine 6-12 (the thirty-two-cubit width of the altar itself
+and why only the portion of the courtyard directly opposite it counts
+as "north," sourced from "on the side of the altar, northward") to
+`l04`; vilnaLine 13-16 (extending "north" to include the area between
+vestibule and altar even off that exact line) to `l06`; vilnaLine
+17-19 (Rebbi's further extension to the full eleven-cubit priests'
+tread-path) to `l07`; vilnaLine 20-30 (the long digression on "beit
+hachalifot," the vestibule's fifteen-cubit overhang and its
+twenty-four sacred-knife alcove windows) to `l08`; vilnaLine 31-34
+("all agree it is invalid" there, since the altar is not visible, and
+that this view is Rabbi Elazar b'Rabbi Shimon's alone) to `l09`;
+vilnaLine 35-38 (unpacking "now, Rabbi against Rabbi Yosei adds" as a
+non-literal formulation) to `l11`; vilnaLine 39-41 (the resolution that
+the far point is valid for Rabbi Yosei but not for Rabbi Elazar) to
+`l12`; vilnaLine 42-43 (why the mishna cannot follow Rebbi's broader
+view) to `l13`; vilnaLine 44 (the alternative placement between the
+altar's own north wall and the courtyard's north wall) to `l14`;
+vilnaLine 45 (three short DHs sharing one raw print-line: the location
+confirmed, then the High Priest's-weakness reason for bringing it
+close) to `l16`; vilnaLine 46 ("for Rebbi too," the same weakness
+reason, then "let us place it explicitly") to `l18`; vilnaLine 47
+(why not facing away from the altar - "lest he pass excrement") to
+`l19`; vilnaLine 48 (the resulting orientation of the bull's body) to
+`l20`; vilnaLine 49 (the mishna's own semicha positions: north, west,
+east) to `l21`; vilnaLine 50 (the confession formula: "sin of a
+sin-offering," and the burnt-offering's confession over gleanings,
+forgotten sheaves, and the corner) to `l24`; vilnaLine 51 (the Tosefta
+citation excluding "poor man's tithe" from that same confession list)
+to `l26`; vilnaLine 52-53 (Rabbi Akiva's view that a burnt-offering
+atones only for a positive commandment or a negative one convertible
+to a positive one) to `l27`-`l28`.
+
+vilnaLine 45 is a three-DH-per-print-line case (not previously this
+dense in the run): "ממש התם הוא" concludes the prior DH, "אלא מאי אית
+לך למימר" opens a new one, and "משום חולשא דכהן" opens a third, all
+within one raw Rashi line; it was kept as a single entry describing all
+three transitions rather than force-split, consistent with the
+established multi-DH-per-line convention.
+
+vilnaLine 54, the daf's final truncated word "בלאו" ("with a negative
+commandment"), matches `l30`'s own text exactly (`l30` is itself just
+this one word, "בלאו"), confirming the daf boundary lines up cleanly;
+the DH continues onto 36b per the established boundary convention. No
+edit was made to 36b at this stage.
+
+All 54 entries were rebuilt in a single indexed pass, verified by a
+full side-by-side comparison of every index against the raw array
+before applying; no drafting slips survived to the applied version.
+`validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (the latter's 9 pre-existing warnings
+at 39a, 47a, 51b, 77b, 79b are unrelated to this daf and untouched);
+`npm test` and `npm run test:browser` (10/10) both pass. 36a is fully
+resolved, 54/54. This is the nineteenth consecutive dangling-link daf
+found in this corpus (27a through 36a), and the first daf fixed under
+the explicit, directly-user-granted 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

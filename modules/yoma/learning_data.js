@@ -81994,11 +81994,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 1,
         he: "מאן שמעת ליה דאמר בין אולם ולמזבח. קרוי צפון לשחיטת קדשי",
-        en: "Who holds the view that the bull stands between the vestibule and the altar?",
+        en: "Rashi: opens 'who do you hear say between the vestibule and the altar' - is called north for slaughtering the most sacred offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l01"
+        ]
       },
       {
         id: "rashi-yoma-036a-002",
@@ -82006,11 +82008,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 2,
         he: "קדשים מחצי פתח ההיכל ולצפון בין האולם למזבח דתנן במתני'",
-        en: "R. Yehuda holds this position; it corresponds to where the blood is sprinkled.",
+        en: "Rashi: continues - from half the entrance of the Sanctuary and northward, between the vestibule and the altar, as we learned in our mishna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l01"
+        ]
       },
       {
         id: "rashi-yoma-036a-003",
@@ -82018,11 +82022,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 3,
         he: "ופרו היה עומד בין האולם ולמזבח ותנן בפרק דלקמן (דף מא:)",
-        en: "The Rabbis say the confession takes place further east in the Azarah.",
+        en: "Rashi: continues - that the bull stood between the vestibule and the altar, and we learned in the coming chapter (41b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l01"
+        ]
       },
       {
         id: "rashi-yoma-036a-004",
@@ -82030,11 +82036,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 4,
         he: "שבמקום וידוי שחטו דקתני בא לו אצל פרו שניה וסמך שתי ידיו",
-        en: "Blood of the bull is sprinkled between vestibule and altar - so confession is there too.",
+        en: "Rashi: continues - that in the place of confession he slaughtered it, as it teaches: he comes to his second bull and places his two hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l01"
+        ]
       },
       {
         id: "rashi-yoma-036a-005",
@@ -82042,11 +82050,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 5,
         he: "כו' שחטו וקיבל במזרק כו' : וכנגד",
-        en: "The Mishna follows R. Yehuda's ruling on the bull's location.",
+        en: "Rashi: concludes - etc., slaughtered it and received in a basin, etc. Then opens 'and opposite'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l01"
+        ]
       },
       {
         id: "rashi-yoma-036a-006",
@@ -82054,11 +82064,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 6,
         he: "כל המזבח כולו. שלשים ושתים אמה",
-        en: "Geometric question: how can head face south and face face west?",
+        en: "Rashi: opens 'the whole altar' - thirty-two cubits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-007",
@@ -82066,11 +82078,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 7,
         he: "שכנגד המזבח בצפון קרוי צפון",
-        en: "The bull stands with body along east-west axis, head turned southward.",
+        en: "Rashi: continues - that is opposite the altar to the north is called north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-008",
@@ -82078,11 +82092,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 8,
         he: "לשחיטת קדשי קדשים אבל שלא כנגד",
-        en: "The KG stands east of the bull, facing west, hands pressed on the head.",
+        en: "Rashi: continues - for slaughtering the most sacred offerings, but not opposite",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-009",
@@ -82090,11 +82106,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 9,
         he: "המזבח לצד מערב ולצד מזרח אע\"פ",
-        en: "Facing west = facing the Heichal entrance and the Divine Presence.",
+        en: "Rashi: continues - the altar, to the west side or east side, even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-010",
@@ -82102,11 +82120,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 10,
         he: "שהוא צפון העזרה אינו צפון לשחיטה",
-        en: "The positioning allows the KG to lean forward in the direction of the Holy.",
+        en: "Rashi: continues - it is the north of the courtyard, it is not the north for slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-011",
@@ -82114,11 +82134,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 11,
         he: "דבעינן על ירך המזבח כדכתיב",
-        en: "The head is turned sideways so the neck faces south while the muzzle points west.",
+        en: "Rashi: continues - since we require 'on the side of the altar' as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-012",
@@ -82126,11 +82148,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 12,
         he: "(ויקרא א) ושחט אותו על ירך המזבח",
-        en: "This is geometrically possible since the neck can turn.",
+        en: "Rashi: concludes - (Leviticus 1): 'and he shall slaughter it on the side of the altar'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l04"
+        ]
       },
       {
         id: "rashi-yoma-036a-013",
@@ -82138,11 +82162,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 13,
         he: "צפונה: אף בין האולם למזבח. כל",
-        en: "The KG's two hands are on the bull's head as required for valid viduy (confession).",
+        en: "Rashi: opens 'northward: even between the vestibule and the altar' - any",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l06"
+        ]
       },
       {
         id: "rashi-yoma-036a-014",
@@ -82150,11 +82176,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 14,
         he: "חלק צפוני לצד מערב אע\"פ שאינו",
-        en: "The Gemara confirms this arrangement is halachically valid.",
+        en: "Rashi: continues - northern portion toward the west, even though it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l06"
+        ]
       },
       {
         id: "rashi-yoma-036a-015",
@@ -82162,11 +82190,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 15,
         he: "ירך ממש אבל חלק צפוני שמן המזרח",
-        en: "Summary of bull and KG positioning for the Yom Kippur bull confession.",
+        en: "Rashi: continues - literally the side, but the northern portion that is toward the east",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l06"
+        ]
       },
       {
         id: "rashi-yoma-036a-016",
@@ -82174,11 +82204,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 16,
         he: "ולמזבח לא (שמן מזבח): רבי",
-        en: "Both hands on the head while facing west is confirmed.",
+        en: "Rashi: concludes - and the altar, no (which is from the altar). Then opens 'Rebbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l06"
+        ]
       },
       {
         id: "rashi-yoma-036a-017",
@@ -82186,11 +82218,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 17,
         he: "מוסיף. אף כל צפון העזרה שבאחת",
-        en: "The positioning details are now settled.",
+        en: "Rashi: opens 'adds' - even all the north of the courtyard which is in the eleven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l07"
+        ]
       },
       {
         id: "rashi-yoma-036a-018",
@@ -82198,11 +82232,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 18,
         he: "עשרה אמה של מקום דריסת רגלי",
-        en: "The chapter will continue with the text of the confession formula.",
+        en: "Rashi: continues - cubits of the area where the priests tread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l07"
+        ]
       },
       {
         id: "rashi-yoma-036a-019",
@@ -82210,11 +82246,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 19,
         he: "הכהנים עד כותל מזרחי של עזרה:",
-        en: "Next: the content of what the KG says during the confession.",
+        en: "Rashi: concludes - until the eastern wall of the courtyard.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l07"
+        ]
       },
       {
         id: "rashi-yoma-036a-020",
@@ -82222,11 +82260,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 20,
         he: "אבל מן החליפות ולפנים. רוחב",
-        en: "36b begins with the confession text analysis.",
+        en: "Rashi: opens 'but from the beit hachalifot inward' - the width",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-021",
@@ -82234,11 +82274,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 21,
         he: "האולם עודף על רוחב ההיכל ט\"ו",
-        en: "The physical setup is complete; now the verbal service begins.",
+        en: "Rashi: continues - of the vestibule exceeds the width of the Sanctuary by fifteen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-022",
@@ -82246,11 +82288,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 22,
         he: "אמה לצפון וכנגדו לדרום ומשך אותו",
-        en: "Rashi continues: the arrangement enables the KG to face the Holy.",
+        en: "Rashi: continues - cubits to the north, and correspondingly to the south, and the length of that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-023",
@@ -82258,11 +82302,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 23,
         he: "עודף אינו אלא עשר אמות ממזרח",
-        en: "The orientation toward the west (Heichal) is central to the confession.",
+        en: "Rashi: continues - excess is only ten cubits from east",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-024",
@@ -82270,11 +82316,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 24,
         he: "לצד מערב ואותו עודף קרוי בית",
-        en: "Analysis of R. Yehuda's view on blood sprinkling location.",
+        en: "Rashi: continues - to the west, and that excess is called beit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-025",
@@ -82282,11 +82330,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 25,
         he: "החליפות שהיו בהן עשרים וארבע",
-        en: "The connection between confession location and blood sprinkling location.",
+        en: "Rashi: continues - hachalifot, which had twenty-four",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-026",
@@ -82294,11 +82344,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 26,
         he: "חלונות חלון לכל משמר ששם גונזים",
-        en: "Between vestibule and altar: the specific sacred space for this service.",
+        en: "Rashi: continues - windows, one window for each priestly watch, where they stored",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-027",
@@ -82306,11 +82358,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 27,
         he: "סכינים של קודש וסכין קרוי חילוף",
-        en: "The KG presses both hands on the bull - a form of semicha (hand-laying).",
+        en: "Rashi: continues - the sacred knives, and a knife is called chalif",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-028",
@@ -82318,11 +82372,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 28,
         he: "בלשון ערבי ואויר שאחורי אותו",
-        en: "This semi-chalike pressing is required for the validity of the confession.",
+        en: "Rashi: continues - in Arabic, and the air behind that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-029",
@@ -82330,11 +82386,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 29,
         he: "עודף למערב ואויר שבין צפון כותל",
-        en: "The Gemara's analysis of positioning is complete.",
+        en: "Rashi: continues - excess westward, and the air between the north wall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-030",
@@ -82342,11 +82400,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 30,
         he: "העודף לבין כותל העזרה קרוי לפנים",
-        en: "Transition to discussion of the confession text.",
+        en: "Rashi: concludes - of the excess and the wall of the courtyard is called inward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l08"
+        ]
       },
       {
         id: "rashi-yoma-036a-031",
@@ -82354,11 +82414,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 31,
         he: "מן החליפות: הכל מודים שפסול.",
-        en: "The Mishna's geographic details are now fully explained.",
+        en: "Rashi: concludes - from the beit hachalifot. Then opens 'all agree it is invalid' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l09"
+        ]
       },
       {
         id: "rashi-yoma-036a-032",
@@ -82366,11 +82428,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 32,
         he: "דכיון שאין המזבח נראה שם אינו",
-        en: "Summary: R. Yehuda's view, confirmed positioning, Heichal orientation.",
+        en: "Rashi: continues - since the altar is not visible there, it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l09"
+        ]
       },
       {
         id: "rashi-yoma-036a-033",
@@ -82378,11 +82442,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 33,
         he: "קרוי ירך המזבח: לימא. דוקא",
-        en: "The Gemara will next examine what words the KG says.",
+        en: "Rashi: concludes - called the side of the altar. Then opens 'let us say' - specifically",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l09"
+        ]
       },
       {
         id: "rashi-yoma-036a-034",
@@ -82390,11 +82456,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 34,
         he: "רבי אלעזר ברבי שמעון היא ולא",
-        en: "Position established; confession text is next.",
+        en: "Rashi: continues - Rabbi Elazar b'Rabbi Shimon holds this, and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l09"
+        ]
       },
       {
         id: "rashi-yoma-036a-035",
@@ -82402,11 +82470,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 35,
         he: "רבי: השתא ר' אדרבי יוסי מוסיף",
-        en: "The spatial analysis of the Yom Kippur service is a key halachic topic.",
+        en: "Rashi: concludes - Rebbi. Then opens 'now, Rabbi against Rabbi Yosei adds'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l11"
+        ]
       },
       {
         id: "rashi-yoma-036a-036",
@@ -82414,11 +82484,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 36,
         he: "וכו'. כלומר מאי תיבעי לך פשיטא",
-        en: "Between vestibule and altar is a distinct sacred zone.",
+        en: "Rashi: continues - etc. - meaning what is the question, is it not obvious",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l11"
+        ]
       },
       {
         id: "rashi-yoma-036a-037",
@@ -82426,11 +82498,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 37,
         he: "דלאו דוקא קא אמרי וכי רבי",
-        en: "The KG's position there is prescribed and meaningful.",
+        en: "Rashi: continues - that they do not speak precisely, and that Rebbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l11"
+        ]
       },
       {
         id: "rashi-yoma-036a-038",
@@ -82438,11 +82512,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 38,
         he: "דמוסיף את צפון של צד מזרח שהוא",
-        en: "Both the physical stance and verbal formula are analyzed in these pages.",
+        en: "Rashi: continues - who adds the north of the eastern side, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l11"
+        ]
       },
       {
         id: "rashi-yoma-036a-039",
@@ -82450,11 +82526,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 39,
         he: "מרוחק מקדושת היכל אדרבי יוסי",
-        en: "36a concludes the spatial analysis.",
+        en: "Rashi: continues - further from the sanctity of the Sanctuary, it is regarding Rabbi Yosei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l12"
+        ]
       },
       {
         id: "rashi-yoma-036a-040",
@@ -82462,11 +82540,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 40,
         he: "הוא דמוסיף לה אבל דרבי אלעזר לית ליה אפשר לומר כן המרוחק",
-        en: "36b opens the verbal confession analysis.",
+        en: "Rashi: continues - that he adds it, but regarding Rabbi Elazar's view he does not hold so, one could say the further point",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l12"
+        ]
       },
       {
         id: "rashi-yoma-036a-041",
@@ -82474,11 +82554,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 41,
         he: "כשר והמקורב פסול: אנן הכי קאמרינן. כלומר הא ודאי פשיטא",
-        en: "The session transitions from where to what - location to formula.",
+        en: "Rashi: concludes - is valid and the closer point is invalid. Then opens 'we are saying this' - meaning it is certainly obvious",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l12"
+        ]
       },
       {
         id: "rashi-yoma-036a-042",
@@ -82486,11 +82568,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 42,
         he: "לן דרבי נמי אית ליה בין האולם ולמזבח צפון והאי דקא אמרי מתני' לימא דלא כרבי הכי קשיא לן דתנא דמתניתין לית ליה דרבי",
-        en: "The confession formula is analyzed in detail in 36b.",
+        en: "Rashi: concludes - to us that Rebbi too holds that between the vestibule and the altar is north, and this that the mishna says 'let us say' it is not like Rebbi, this is our difficulty, that the tanna of the mishna does not hold like Rebbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l13"
+        ]
       },
       {
         id: "rashi-yoma-036a-043",
@@ -82498,11 +82582,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 43,
         he: "דמכשיר כל צפון העזרה דאי כרבי למה לי לקרוביה לבין האולם ולמזבח נוקמיה בחלק צפוני דכל העזרה באיזה מקום שירצה:",
-        en: "The tanna R. Yehuda's influence on the Mishna's ruling is confirmed.",
+        en: "Rashi: concludes - who validates the whole north of the courtyard, for if it were like Rebbi why bring it close to between the vestibule and the altar, let him place it in any northern portion of the whole courtyard wherever he wishes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l13"
+        ]
       },
       {
         id: "rashi-yoma-036a-044",
@@ -82510,11 +82596,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 44,
         he: "אלא מאי רבי אלעזר ברבי שמעון נוקמיה בין כותל מזבח צפוני לכותל עזרה צפונית. דהא לכולי עלמא עיקר צפון דירך המזבח",
-        en: "The spatial layout of the Temple is key to understanding this service.",
+        en: "Rashi: opens 'rather, what - Rabbi Elazar b'Rabbi Shimon' - let him place it between the altar's northern wall and the courtyard's northern wall, since according to everyone the essential side of the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l14"
+        ]
       },
       {
         id: "rashi-yoma-036a-045",
@@ -82522,11 +82610,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 45,
         he: "ממש התם הוא: אלא מאי אית לך למימר. אמאי מקרב ליה כולי האי: משום חולשא דכהן. שלא יכבד עליו משוי מזרק הדם",
-        en: "Summary: between vestibule and altar; head south; face west; KG east facing west.",
+        en: "Rashi: concludes - is truly there. Then opens 'rather, what can you say' - why does he bring it so close. Then opens 'because of the weakness of the priest' - so that the weight of the blood basin not be heavy upon him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l16"
+        ]
       },
       {
         id: "rashi-yoma-036a-046",
@@ -82534,11 +82624,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 46,
         he: "מרחוק: לרבי נמי. אע\"ג דכל עזרה כשירה בצפון שלה מקרב ליה לצד הפתח משום חולשא דכהן: ונוקמיה להדיא. אחוריו למזבח",
-        en: "All these details are necessary for a valid Yom Kippur bull confession.",
+        en: "Rashi: concludes - from far. Then opens 'for Rebbi too' - even though the whole courtyard is valid in its own north, he brings it close to the entrance because of the weakness of the priest. Then opens 'let us place it explicitly' - his back to the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l18"
+        ]
       },
       {
         id: "rashi-yoma-036a-047",
@@ -82546,11 +82638,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 47,
         he: "ופניו להיכל: שמא ירביץ גללים. וגנאי הוא להראות בית הריעי שלו לצד המזבח והכי שפיר טפי להיות זנבו לצפון וראשו לדרום",
-        en: "The service now begins in earnest.",
+        en: "Rashi: concludes - and his face to the Sanctuary. Then opens 'lest he pass excrement' - it is disgraceful to show the place of his waste toward the altar, and it is better this way, that his tail face south and his head north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l19"
+        ]
       },
       {
         id: "rashi-yoma-036a-048",
@@ -82558,11 +82652,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 48,
         he: "נמצא זנבו שלא כנגד המזבח שאינו מושכו לצד דרום כל אורך הפר אלא שיהא מקצת גופו בין האולם ולמזבח: כיצד סומך. כל",
-        en: "Chapter 4 is now fully underway.",
+        en: "Rashi: concludes - it comes out that his tail is not opposite the altar, since he does not draw it southward the whole length of the bull, but rather that part of his body is between the vestibule and the altar. Then opens 'how does one lean' - all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l20"
+        ]
       },
       {
         id: "rashi-yoma-036a-049",
@@ -82570,11 +82666,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 49,
         he: "סמיכת קדשי קדשים: עומד בצפון. שקדשי קדשים טעונין צפון: ופניו למערב. ואחוריו למזרח: והסומך. הבעלים: עומד במזרח.",
-        en: "The core Yom Kippur avodah narrative continues.",
+        en: "Rashi: concludes - leaning of the most sacred offerings. Then opens 'stands in the north' - since the most sacred offerings require north. Then opens 'and his face west' - and his back east. Then opens 'and the one leaning' - the owner. Then opens 'stands in the east'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l21"
+        ]
       },
       {
         id: "rashi-yoma-036a-050",
@@ -82582,11 +82680,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 50,
         he: "אחוריו למזרח: עון חטאת. אותו חטא שהוא מביא עליו: ועל עולה עון לקט שכחה ופאה. שאין להן וידוי הכי גרסינן לה בתוספתא",
-        en: "36a concludes the preliminary spatial and positional analysis.",
+        en: "Rashi: concludes - his back to the east. Then opens 'sin of a sin-offering' - that sin which he brings it for. Then opens 'and for a burnt-offering, the sin of gleanings, forgotten sheaves, and the corner' - since these have no confession, so we read it in the Tosefta",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l24"
+        ]
       },
       {
         id: "rashi-yoma-036a-051",
@@ -82594,11 +82694,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 51,
         he: "דמנחות (פ\"י) ולא גרסינן בה מעשר עני דהא יש לו וידוי וגם נתתיו ללוי זה מעשר ראשון ליתום ולאלמנה זה מעשר עני (מעשר שני פ\"ה",
-        en: "Next daf: the confession formula (viduy) text.",
+        en: "Rashi: concludes - of Menachot (chapter 10), and we do not read in it 'poor man's tithe,' since that has a confession, and also 'and I have given it to the Levite' - this is the first tithe, 'to the orphan and widow' - this is the poor man's tithe (Ma'aser Sheni chapter 5",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l26"
+        ]
       },
       {
         id: "rashi-yoma-036a-052",
@@ -82606,11 +82708,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 52,
         he: "משנה י): רבי עקיבא אומר אין עולה באה כו'. טעמא מפרש בתוספתא על מה עולה באה אם על כריתות ומיתות ב\"ד הרי עונשן",
-        en: "The transition from spatial to verbal analysis.",
+        en: "Rashi: concludes - mishna 10). Then opens 'Rabbi Akiva says: a burnt-offering does not come' etc. - the reason is explained in the Tosefta: for what does a burnt-offering come, if for matters punishable by karet or court death, their punishment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l27"
+        ]
       },
       {
         id: "rashi-yoma-036a-053",
@@ -82618,11 +82722,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 53,
         he: "אמור אם על לא תעשה הרי עונשן אמור מלקות הא אין עולה באה אלא על עשה ועל לא תעשה שניתק לעשה שאין לוקין עליו:",
-        en: "The KG's confession is both an act (pressing hands) and a speech (viduy).",
+        en: "Rashi: concludes - is already stated; if for a negative commandment, its punishment of lashes is stated; so a burnt-offering comes only for a positive commandment or for a negative commandment that is convertible to a positive one, for which there is no lashing.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l28"
+        ]
       },
       {
         id: "rashi-yoma-036a-054",
@@ -82630,11 +82736,13 @@ const DAF_CONTENT = {
         daf: "36a",
         vilnaLine: 54,
         he: "בלאו",
-        en: "Both dimensions are analyzed carefully by the Gemara.",
+        en: "Rashi: the daf's final truncated word - 'with a negative commandment,' the start of the dibbur hamatchil analyzing Rabbi Yirmeya's account of the point of dispute between the sages, whose text continues on 36b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-036a-l30"
+        ]
       }
     ],
     review: "reviewed"
