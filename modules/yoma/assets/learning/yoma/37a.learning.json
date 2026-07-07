@@ -789,358 +789,500 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "How do we know the confession begins with 'anna' (please, O Lord)?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'and from where that with anna' - this is the confession's own wording. Then opens 'atonement is stated at Chorev' - regarding the sin of the golden calf",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "Gezerah shavah: 'kappara' appears in Lev. 16 (Yom Kippur) and in Num. 14 (Moses's prayer for atonement where he says 'anna HaShem').",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (Exodus 32): 'perhaps I may atone for your sin.' Then opens 'what is meant by with anna' - the people sinned",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Since Moses used 'anna HaShem' when asking for kappara, the Yom Kippur confession must also use 'anna.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - this great sin, etc. Then opens 'and from where that with the Name' - anna Hashem. Then opens 'in the heifer whose neck is broken' - atone for",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "The gezerah shavah links the two verses through the shared word kappara.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - Your people Israel whom You redeemed, Hashem (Deuteronomy 21). Then opens 'granted that Chorev cannot derive from' - to say",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l05"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Therefore the confession formula must begin with 'Anna HaShem.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that the Name must be invoked",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l05"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Baraita: R. Yehuda taught that when the Divine Name is spoken the congregation responds.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - what was, was, and cannot be reconsidered.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l05"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Because the Name of God is called upon in My presence - they acknowledge the Name.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'but let the heifer whose neck is broken derive from Chorev.'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l05"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "They answer after him: Baruch Shem kavod malchuto l'olam va'ed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and let it also require anna. Then opens 'but do we not learn' - together with",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l05"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "And they fall prostrate (kidat arkevayim) when the Shem HaMeforash is spoken.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the heifer-whose-neck-is-broken passage in Tractate Sotah (46a)",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l09"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "This occurred three times: at each of the three confessions on Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'the priests say' etc. This is how we read it -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l09"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The prostration was the full prostration unique to the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'at the time I invoke the Holy One's own Name'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l09"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Mishna: the KG came to the east of the Azarah, to the north of the altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - etc. Then opens the mishna: 'he comes to the east' - he turns",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The two goats stood before him facing north.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - his back toward the east, close to the entrance, since they would not",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The lot box (kalpei) was there.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - bring in the goats for the lottery except",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The segan (Deputy) stood to his right and the head of bet av to his left.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - within the open space of the courtyard, as it is written",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The KG put both hands into the box simultaneously.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (Leviticus 16): 'and he shall stand them before the Lord'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "He drew one lot with his right hand and one with his left.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but not so close to the Sanctuary as to bring them",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Whatever his right hand drew was placed on the goat to his right.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for slaughter, they would offer it",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The left lot was placed on the left goat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as we learn further on (53b): 'they brought him",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "If the 'for God' lot came up in his right hand, this was a good omen.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the goat, he slaughtered it,' etc. Then opens 'to the north of the altar' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Deputy on the right - the more honorable position.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - meaning drawn from opposite the altar toward the north",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Head of bet av on the left.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so that it faces the air-space between the altar and the north,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "R. Yehuda reverses: head of bet av to the right, Deputy to the left.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for although he does not slaughter it here, nevertheless all",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The positions reflect relative honor in the Temple hierarchy.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - its acts require the north, and this teaches us that",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Right side is more honorable; left is secondary.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - north is not opposite the altar's own east side. Then opens 'kalpi' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The dispute about positions reflects different assessments of precedence.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - askoren in the vernacular. Then opens 'of eshkroa' - cypress.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Summary: Mishna - Deputy right, head of bet av left; R. Yehuda reverses.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'Yehoshua ben Gamla' - when he was appointed to the high",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l16"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The kalpei (lot box) was there containing the two lots.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - priesthood. Then opens 'ben Katin' - he was a High Priest. Then opens 'he made'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Originally the lots were made of boxwood.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - twelve spigots - for pouring the water. Then opens 'a mechanism' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "A KG had them made of gold to beautify the service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - explained in the Gemara, a wheel to sink it",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "The gold lots were used from then on.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - into a pit so that its waters would be connected to the waters of",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Baraita: Ben Katin made 12 spigots for the laver (instead of 2).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the laver, and otherwise they would become invalid overnight,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "He also made a winding mechanism (morat) to lower the laver into a cistern overnight.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - since they were sanctified in a vessel, and it is not the honor of sacred things",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l20"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "This prevented the water from becoming passul (invalid) overnight.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - for sacred waters to become invalid. Then opens 'a menorah' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Monobaz the king made all the handles of the Yom Kippur vessels of gold.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - a candelabrum, similar to the word in the book of",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "His mother Helene made a golden candlestick over the Heichal entrance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Daniel (5): 'to receive the golden candelabrum,' in the incident",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Also a golden tablet on which the sotah passage was written.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of Belshazzar. Then opens 'that the passage of the sotah was written'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Nicanor's doors - miracles happened with them.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - upon it - so that one need not bring a Torah scroll to write",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "Nicanor brought his famous doors from Alexandria; a miracle occurred in transport.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from it the scroll of the sotah in the Temple. Then opens 'Nikanor'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "The other improvement donors are listed alongside Ben Katin.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - miracles were done for its doors - the man's name",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "All these improvements were voluntary donations to beautify the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - was Nikanor, and his own miracle is explained in the Gemara.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l23"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "The Mishna records them to honor the donors and the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens the Gemara: 'from the fact that it says to the north of the altar' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "Ben Katin the KG's laver improvement benefited all the kohanim daily.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - since it had to be drawn away from opposite the altar and toward the north.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "12 spigots allowed 12 kohanim to sanctify simultaneously.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - it follows that the altar does not itself stand in the north.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The cistern mechanism kept water valid through the night.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'nothing of the altar is in the north of the courtyard'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "These practical improvements facilitated the Temple service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and were it to stand even slightly opposite the altar's own east side",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The list of donors reflects the Temple as a community institution.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it would not be standing in the north. Then opens 'northward, on'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Both Jewish royalty (Helene) and kohanim (Ben Katin) contributed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the side of the altar' - 'northward' implies open air,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The Temple was built and maintained by the entire people.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - this extra letter meaning toward the north, which is the open",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l28"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Summary: kalpei with two lots, boxwood then gold, Ben Katin's 12 spigots.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - air-space. Then opens 'but the opening clause is Rabbi Elazar' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l30"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "The list continues in 37b with more Temple improvements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - b'Rabbi Shimon's, who says the altar's north portion validates the bull's slaughter",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l30"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "37b discusses Nicanor's doors, Queen Helene's candlestick.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - between the vestibule and the altar; the whole clause is Rabbi Eliezer ben Yaakov's, and it teaches",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l30"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The narrative of Temple benefactors provides historical context.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'in the opening clause, the bull stood between the vestibule",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "These stories humanize the Temple service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the altar' - close to between the vestibule",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Each contribution represents love for the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the altar, near the northern corner of the altar,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "The Gemara preserves these names to honor them.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - since he would bring it close to the entrance with all his ability,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "The service was beautiful because people cared enough to improve it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - because of the High Priest's weakness, and no further than this could he",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "Ben Katin's name is remembered for his practical innovation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - bring it close, for if he brought it in opposite",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "12 spigots for 12 kohanim = maximum efficiency.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the east of the altar, it would not be in the north: 'behold, this is'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l31"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The cistern mechanism = honor for the sanctification water.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - a boor - even in matters of common courtesy, he is not learned.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l33"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "All improvements serve both practical and honorific purposes.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'three who were walking on a road' - they would not walk one",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l33"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "The Gemara's list is a tribute to Temple devotion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - after another, but rather in a single row, and so we find",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l33"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "The next daf continues with Nicanor's miracle.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - among the ministering angels, since it is written (Genesis 18)",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l33"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "The lot ceremony context gives way to this broader Temple-history narrative.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - 'three men were standing over him,' implying they stood in a single row,",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l33"
+      ]
     },
     {
       "vilnaLine": 65,
-      "en": "37a concludes with Temple improvement history.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - each beside the other, for if they had stood one after another, it would not say 'standing over him,' but rather 'the first.' Then opens 'so that his teacher be covered by him' - this teaching that 'on his right' means not to walk beside him but",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l35"
+      ]
     },
     {
       "vilnaLine": 66,
-      "en": "The Yom Kippur service is the product of centuries of devotion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - behind him, though the greater disciple to the right and the lesser to the left beside the greater, both truly behind the teacher. Then reads it: 'but is it not taught: one who walks facing his teacher, behold this is a boor; behind his teacher, behold'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l35"
+      ]
     },
     {
       "vilnaLine": 67,
-      "en": "The KG performed his service in a Temple beautified by many hands.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - this is one of the coarse-spirited. He walks at an angle - not truly beside and not truly behind, but rather so that he covers his teacher's own side partially. Then opens 'should one give two lots for this one and two for that one.'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l39"
+      ]
     },
     {
       "vilnaLine": 68,
-      "en": "This context enriches the understanding of the Yom Kippur avodah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and this is what the verse means: 'and he shall place lots upon each of the two,' implying two, therefore the verse states 'one lot for the Lord.' The word 'for the Lord' is written only regarding one of them, and 'for Azazel' is not written",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l39"
+      ]
     },
     {
       "vilnaLine": 69,
-      "en": "The chapter's narrative breadth reflects the Talmud's holistic approach.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - only regarding one of them. Then opens 'should he give one of the Lord's own lot and one of Azazel's own lot on this one' - to fulfill 'and he shall place lots,' two on each of the two, and whichever he wishes he may designate for the Lord. Then opens 'therefore the verse states one.'",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l39"
+      ]
     },
     {
       "vilnaLine": 70,
-      "en": "Summary of 37a: anna derivation, Baruch Shem, lot ceremony Mishna, Temple improvements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from the mere fact that the verse says 'lot for the Lord,' I already know it is one, so why does it also write 'one' - it is written for its own exposition. Then opens 'should this too be so' -",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l44"
+      ]
     },
     {
       "vilnaLine": 71,
-      "en": "Six topics in 37a, all connected to the Yom Kippur service narrative.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'handles,' referring to the vessels, the start of the dibbur hamatchil on Munbaz the king's own golden vessel-handles, whose text continues on 37b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-037a-l51"
+      ]
     }
   ]
 }

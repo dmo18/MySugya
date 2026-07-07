@@ -4337,6 +4337,50 @@ are extracted directly from `learning_data.js` (via a regex over
 building any vilnaLine-to-id mapping, rather than assumed from
 talmud.dev's raw per-line array length.
 
+## 37a, full daf (VERSION 15.46), twenty-first dangling-link daf, third of the 36a-52b batch
+
+First daf fixed using the corrected methodology: real ids (17 total:
+`l01`, `l05`, `l09`, `l16` (mishna), `l20`, `l23`, `l28`, `l30`, `l31`,
+`l33`, `l35`, `l39`, `l44`, `l51`, plus three more folded into these
+ranges) were extracted directly from `learning_data.js` before
+building any mapping, confirmed against their own paragraph text.
+
+71 raw Rashi print-lines, all fully dangling before this fix. The
+correspondence: vilnaLine 1-3 (the gezeirah shavah source for the
+confession word "anna") to `l01`; vilnaLine 4-8 (Abaye's own reasoning
+for why the heifer-whose-neck-is-broken cannot derive from Chorev) to
+`l05`; vilnaLine 9-11 (the baraita on invoking the Divine Name) to
+`l09`; vilnaLine 12-27 (the new mishna's own opening through the
+kalpi/lots/Ben Gamla details) to `l16`; vilnaLine 28-33 (Ben Katin's
+laver spigots and mechanism) to `l20`; vilnaLine 34-41 (Helena's
+menorah, the sotah tablet, and Nikanor's doors) to `l23`; vilnaLine
+42-49 (the true Gemara discussion opening, on why "north of the altar"
+implies the altar itself is not in the north) to `l28`; vilnaLine
+50-52 (reconciling the mishna's opening clause with Rabbi Eliezer ben
+Yaakov's own view) to `l30`; vilnaLine 53-59 (the bull's exact
+position, close to the entrance because of the High Priest's
+weakness) to `l31`; vilnaLine 60-64 (the three-who-walk-together
+baraita and its angelic prooftext) to `l33`; vilnaLine 65-66 (Rav
+Shmuel bar Pappa's reading, "so that his teacher be covered") to `l35`;
+vilnaLine 67-69 (the two-lots baraita, why not two lots on the same
+goat) to `l39`; vilnaLine 70 (the tzitz comparison, "should this too
+be so") to `l44`; vilnaLine 71 (the daf's final truncated word) to
+`l51`, the daf's own final real captured line (boundary policy;
+Rashi's own comment on the "twelve spigots" recap at `l47` and the
+mechanism at `l50` has no dedicated entry, a no-fold gap since Rashi
+already explained both terms earlier at `l20`).
+
+`validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (the same 9 pre-existing warnings at
+39a, 47a, 51b, 77b, 79b are unrelated); `npm test` and
+`npm run test:browser` (10/10) both pass. A post-edit zero-bogus-id
+check confirmed every `linkedGemaraLineIds` value resolves to a real
+`learning_data.js` entry. 37a is fully resolved, 71/71. This is the
+twenty-first consecutive dangling-link daf found in this corpus (27a
+through 37a), the third daf fixed under the explicit 36a-52b
+frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

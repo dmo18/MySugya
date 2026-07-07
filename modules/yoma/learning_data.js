@@ -84854,11 +84854,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 1,
         he: "ומנין שבאנא. יהא וידוי זה: נאמר כפרה בחורב. במעשה עגל",
-        en: "How do we know the confession begins with 'anna' (please, O Lord)?",
+        en: "Rashi: opens 'and from where that with anna' - this is the confession's own wording. Then opens 'atonement is stated at Chorev' - regarding the sin of the golden calf",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l01"
+        ]
       },
       {
         id: "rashi-yoma-037a-002",
@@ -84866,11 +84868,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 2,
         he: "(שמות לב) אולי אכפרה בעד חטאתכם: מה להלן באנא. אנא חטא",
-        en: "Gezerah shavah: 'kappara' appears in Lev. 16 (Yom Kippur) and in Num. 14 (Moses's prayer for atonement where he says 'anna HaShem').",
+        en: "Rashi: continues - (Exodus 32): 'perhaps I may atone for your sin.' Then opens 'what is meant by with anna' - the people sinned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l01"
+        ]
       },
       {
         id: "rashi-yoma-037a-003",
@@ -84878,11 +84882,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 3,
         he: "העם הזה וגו': ומנין שבשם. אנא ה': בעגלה ערופה. כפר לעמך",
-        en: "Since Moses used 'anna HaShem' when asking for kappara, the Yom Kippur confession must also use 'anna.'",
+        en: "Rashi: concludes - this great sin, etc. Then opens 'and from where that with the Name' - anna Hashem. Then opens 'in the heifer whose neck is broken' - atone for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l01"
+        ]
       },
       {
         id: "rashi-yoma-037a-004",
@@ -84890,11 +84896,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 4,
         he: "ישראל אשר פדית ה' (דברים כא) : בשלמא חורב מעגלה לא יליף. לומר",
-        en: "The gezerah shavah links the two verses through the shared word kappara.",
+        en: "Rashi: concludes - Your people Israel whom You redeemed, Hashem (Deuteronomy 21). Then opens 'granted that Chorev cannot derive from' - to say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l05"
+        ]
       },
       {
         id: "rashi-yoma-037a-005",
@@ -84902,11 +84910,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 5,
         he: "שיהא שם הזכרת השם: מאי דהוה",
-        en: "Therefore the confession formula must begin with 'Anna HaShem.'",
+        en: "Rashi: continues - that the Name must be invoked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l05"
+        ]
       },
       {
         id: "rashi-yoma-037a-006",
@@ -84914,11 +84924,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 6,
         he: "הוה. כבר עבר ואי אפשר לחזור:",
-        en: "Baraita: R. Yehuda taught that when the Divine Name is spoken the congregation responds.",
+        en: "Rashi: continues - what was, was, and cannot be reconsidered.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l05"
+        ]
       },
       {
         id: "rashi-yoma-037a-007",
@@ -84926,11 +84938,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 7,
         he: "אלא עגלה ערופה נילף מחורב.",
-        en: "Because the Name of God is called upon in My presence - they acknowledge the Name.",
+        en: "Rashi: opens 'but let the heifer whose neck is broken derive from Chorev.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l05"
+        ]
       },
       {
         id: "rashi-yoma-037a-008",
@@ -84938,11 +84952,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 8,
         he: "ותיבעי אנא: והתנן. בהדי' מעשה",
-        en: "They answer after him: Baruch Shem kavod malchuto l'olam va'ed.",
+        en: "Rashi: continues - and let it also require anna. Then opens 'but do we not learn' - together with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l05"
+        ]
       },
       {
         id: "rashi-yoma-037a-009",
@@ -84950,11 +84966,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 9,
         he: "עגלה ערופה במסכת סוטה (דף מו.)",
-        en: "And they fall prostrate (kidat arkevayim) when the Shem HaMeforash is spoken.",
+        en: "Rashi: continues - the heifer-whose-neck-is-broken passage in Tractate Sotah (46a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l09"
+        ]
       },
       {
         id: "rashi-yoma-037a-010",
@@ -84962,11 +84980,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 10,
         he: "הכהנים אומרים כו': הכי גרסינן",
-        en: "This occurred three times: at each of the three confessions on Yom Kippur.",
+        en: "Rashi: continues - 'the priests say' etc. This is how we read it -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l09"
+        ]
       },
       {
         id: "rashi-yoma-037a-011",
@@ -84974,11 +84994,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 11,
         he: "בשעה שאני מזכיר שמו של הקב\"ה",
-        en: "The prostration was the full prostration unique to the Temple.",
+        en: "Rashi: continues - 'at the time I invoke the Holy One's own Name'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l09"
+        ]
       },
       {
         id: "rashi-yoma-037a-012",
@@ -84986,11 +85008,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 12,
         he: "כו': מתני' בא לו למזרח. חוזר",
-        en: "Mishna: the KG came to the east of the Azarah, to the north of the altar.",
+        en: "Rashi: concludes - etc. Then opens the mishna: 'he comes to the east' - he turns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-013",
@@ -84998,11 +85022,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 13,
         he: "אחוריו לצד מזרח סמוך לפתח שלא",
-        en: "The two goats stood before him facing north.",
+        en: "Rashi: continues - his back toward the east, close to the entrance, since they would not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-014",
@@ -85010,11 +85036,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 14,
         he: "היו מכניסין השעירים להגריל",
-        en: "The lot box (kalpei) was there.",
+        en: "Rashi: continues - bring in the goats for the lottery except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-015",
@@ -85022,11 +85050,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 15,
         he: "אלא שיהיו בתוך חלל העזרה כדכתיב",
-        en: "The segan (Deputy) stood to his right and the head of bet av to his left.",
+        en: "Rashi: continues - within the open space of the courtyard, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-016",
@@ -85034,11 +85064,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 16,
         he: "(ויקרא טז) והעמיד אותם לפני ה'",
-        en: "The KG put both hands into the box simultaneously.",
+        en: "Rashi: continues - (Leviticus 16): 'and he shall stand them before the Lord'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-017",
@@ -85046,11 +85078,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 17,
         he: "אבל לא לקרבן כל כך לצד ההיכל",
-        en: "He drew one lot with his right hand and one with his left.",
+        en: "Rashi: continues - but not so close to the Sanctuary as to bring them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-018",
@@ -85058,11 +85092,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 18,
         he: "עד שהוא בא לשוחטו היו מקריבין",
-        en: "Whatever his right hand drew was placed on the goat to his right.",
+        en: "Rashi: continues - for slaughter, they would offer it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-019",
@@ -85070,11 +85106,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 19,
         he: "אותו כדתנן לקמן (דף נג:) הביאו לו",
-        en: "The left lot was placed on the left goat.",
+        en: "Rashi: continues - as we learn further on (53b): 'they brought him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-020",
@@ -85082,11 +85120,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 20,
         he: "את השעיר שחטו וכו': לצפון המזבח.",
-        en: "If the 'for God' lot came up in his right hand, this was a good omen.",
+        en: "Rashi: concludes - the goat, he slaughtered it,' etc. Then opens 'to the north of the altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-021",
@@ -85094,11 +85134,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 21,
         he: "כלומר משוך מכנגד המזבח לצד צפון",
-        en: "Deputy on the right - the more honorable position.",
+        en: "Rashi: continues - meaning drawn from opposite the altar toward the north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-022",
@@ -85106,11 +85148,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 22,
         he: "שיהא כנגד אויר שבין מזבח לצפון",
-        en: "Head of bet av on the left.",
+        en: "Rashi: continues - so that it faces the air-space between the altar and the north,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-023",
@@ -85118,11 +85162,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 23,
         he: "דאע\"ג דלא שחיט ליה הכא מ\"מ כל",
-        en: "R. Yehuda reverses: head of bet av to the right, Deputy to the left.",
+        en: "Rashi: continues - for although he does not slaughter it here, nevertheless all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-024",
@@ -85130,11 +85176,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 24,
         he: "מעשיו טעונין צפון ואשמועינן שאין",
-        en: "The positions reflect relative honor in the Temple hierarchy.",
+        en: "Rashi: continues - its acts require the north, and this teaches us that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-025",
@@ -85142,11 +85190,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 25,
         he: "צפון כנגד מזרחו של מזבח: קלפי.",
-        en: "Right side is more honorable; left is secondary.",
+        en: "Rashi: concludes - north is not opposite the altar's own east side. Then opens 'kalpi' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-026",
@@ -85154,11 +85204,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 26,
         he: "אשקור\"ן בלע\"ז: של אשכרוע. ברוש:",
-        en: "The dispute about positions reflects different assessments of precedence.",
+        en: "Rashi: concludes - askoren in the vernacular. Then opens 'of eshkroa' - cypress.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-027",
@@ -85166,11 +85218,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 27,
         he: "יהושע בן גמלא. כשנתמנה בכהונה",
-        en: "Summary: Mishna - Deputy right, head of bet av left; R. Yehuda reverses.",
+        en: "Rashi: opens 'Yehoshua ben Gamla' - when he was appointed to the high",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l16"
+        ]
       },
       {
         id: "rashi-yoma-037a-028",
@@ -85178,11 +85232,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 28,
         he: "גדולה: בן קטין. כ\"ג היה: עשה",
-        en: "The kalpei (lot box) was there containing the two lots.",
+        en: "Rashi: concludes - priesthood. Then opens 'ben Katin' - he was a High Priest. Then opens 'he made'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-029",
@@ -85190,11 +85246,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 29,
         he: "י\"ב דד. ליציקת המים: מוכני.",
-        en: "Originally the lots were made of boxwood.",
+        en: "Rashi: continues - twelve spigots - for pouring the water. Then opens 'a mechanism' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-030",
@@ -85202,11 +85260,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 30,
         he: "מפרש בגמרא גלגל לשקעו בו",
-        en: "A KG had them made of gold to beautify the service.",
+        en: "Rashi: continues - explained in the Gemara, a wheel to sink it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-031",
@@ -85214,11 +85274,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 31,
         he: "בבור שיהו מימיו מחוברים למימי",
-        en: "The gold lots were used from then on.",
+        en: "Rashi: continues - into a pit so that its waters would be connected to the waters of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-032",
@@ -85226,11 +85288,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 32,
         he: "הכיור ואי לא הוו מיפסלי בלינה",
-        en: "Baraita: Ben Katin made 12 spigots for the laver (instead of 2).",
+        en: "Rashi: continues - the laver, and otherwise they would become invalid overnight,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-033",
@@ -85238,11 +85302,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 33,
         he: "לפי שקדשו בכלי ולא כבוד קדשים",
-        en: "He also made a winding mechanism (morat) to lower the laver into a cistern overnight.",
+        en: "Rashi: concludes - since they were sanctified in a vessel, and it is not the honor of sacred things",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l20"
+        ]
       },
       {
         id: "rashi-yoma-037a-034",
@@ -85250,11 +85316,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 34,
         he: "הוא ליפסל מים קדושים: נברשתא.",
-        en: "This prevented the water from becoming passul (invalid) overnight.",
+        en: "Rashi: concludes - for sacred waters to become invalid. Then opens 'a menorah' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-035",
@@ -85262,11 +85330,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 35,
         he: "מנורה ודומה לו בספר (דניאל ה)",
-        en: "Monobaz the king made all the handles of the Yom Kippur vessels of gold.",
+        en: "Rashi: continues - a candelabrum, similar to the word in the book of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-036",
@@ -85274,11 +85344,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 36,
         he: "לקבל נברשתא דדהבא במעשה",
-        en: "His mother Helene made a golden candlestick over the Heichal entrance.",
+        en: "Rashi: continues - Daniel (5): 'to receive the golden candelabrum,' in the incident",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-037",
@@ -85286,11 +85358,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 37,
         he: "בלשאצר: שפרשת סוטה כתובה",
-        en: "Also a golden tablet on which the sotah passage was written.",
+        en: "Rashi: continues - of Belshazzar. Then opens 'that the passage of the sotah was written'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-038",
@@ -85298,11 +85372,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 38,
         he: "עליה. ולא יצטרך להביא תורה לכתוב",
-        en: "Nicanor's doors - miracles happened with them.",
+        en: "Rashi: continues - upon it - so that one need not bring a Torah scroll to write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-039",
@@ -85310,11 +85386,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 39,
         he: "ממנו מגילת סוטה במקדש: נקנור",
-        en: "Nicanor brought his famous doors from Alexandria; a miracle occurred in transport.",
+        en: "Rashi: continues - from it the scroll of the sotah in the Temple. Then opens 'Nikanor'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-040",
@@ -85322,11 +85400,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 40,
         he: "נעשו נסים לדלתותיו. שם האיש",
-        en: "The other improvement donors are listed alongside Ben Katin.",
+        en: "Rashi: continues - miracles were done for its doors - the man's name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-041",
@@ -85334,11 +85414,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 41,
         he: "נקנור ונס שלו מפורש בגמרא:",
-        en: "All these improvements were voluntary donations to beautify the Temple.",
+        en: "Rashi: concludes - was Nikanor, and his own miracle is explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l23"
+        ]
       },
       {
         id: "rashi-yoma-037a-042",
@@ -85346,11 +85428,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 42,
         he: "גמ' מדקאמר לצפון המזבח.",
-        en: "The Mishna records them to honor the donors and the Temple.",
+        en: "Rashi: opens the Gemara: 'from the fact that it says to the north of the altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-043",
@@ -85358,11 +85442,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 43,
         he: "שהוצרך למושכו מכנגד המזבח ולצפון:",
-        en: "Ben Katin the KG's laver improvement benefited all the kohanim daily.",
+        en: "Rashi: continues - since it had to be drawn away from opposite the altar and toward the north.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-044",
@@ -85370,11 +85456,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 44,
         he: "מכלל דמזבח לאו בצפון הוי קאי.",
-        en: "12 spigots allowed 12 kohanim to sanctify simultaneously.",
+        en: "Rashi: concludes - it follows that the altar does not itself stand in the north.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-045",
@@ -85382,11 +85470,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 45,
         he: "אין כלום מן המזבח בצפון העזרה",
-        en: "The cistern mechanism kept water valid through the night.",
+        en: "Rashi: opens 'nothing of the altar is in the north of the courtyard'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-046",
@@ -85394,11 +85484,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 46,
         he: "ואי הוו קיימי כנגד מזרחה של מזבח",
-        en: "These practical improvements facilitated the Temple service.",
+        en: "Rashi: continues - and were it to stand even slightly opposite the altar's own east side",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-047",
@@ -85406,11 +85498,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 47,
         he: "פורתא לאו בצפון קיימי: צפונה על",
-        en: "The list of donors reflects the Temple as a community institution.",
+        en: "Rashi: continues - it would not be standing in the north. Then opens 'northward, on'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-048",
@@ -85418,11 +85512,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 48,
         he: "ירך המזבח. צפונה לשון אויר משמע",
-        en: "Both Jewish royalty (Helene) and kohanim (Ben Katin) contributed.",
+        en: "Rashi: continues - the side of the altar' - 'northward' implies open air,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-049",
@@ -85430,11 +85526,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 49,
         he: "הך ה' יתירה אל צפון שהוא האויר",
-        en: "The Temple was built and maintained by the entire people.",
+        en: "Rashi: concludes - this extra letter meaning toward the north, which is the open",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l28"
+        ]
       },
       {
         id: "rashi-yoma-037a-050",
@@ -85442,11 +85540,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 50,
         he: "הפנוי: והא רישא ר\"א בר\"ש. דאמר",
-        en: "Summary: kalpei with two lots, boxwood then gold, Ben Katin's 12 spigots.",
+        en: "Rashi: concludes - air-space. Then opens 'but the opening clause is Rabbi Elazar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l30"
+        ]
       },
       {
         id: "rashi-yoma-037a-051",
@@ -85454,11 +85554,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 51,
         he: "מזבח מקצתו בצפון שהכשיר שחיטת",
-        en: "The list continues in 37b with more Temple improvements.",
+        en: "Rashi: continues - b'Rabbi Shimon's, who says the altar's north portion validates the bull's slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l30"
+        ]
       },
       {
         id: "rashi-yoma-037a-052",
@@ -85466,11 +85568,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 52,
         he: "הפר בין האולם ולמזבח: כולה ראב\"י",
-        en: "37b discusses Nicanor's doors, Queen Helene's candlestick.",
+        en: "Rashi: concludes - between the vestibule and the altar; the whole clause is Rabbi Eliezer ben Yaakov's, and it teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l30"
+        ]
       },
       {
         id: "rashi-yoma-037a-053",
@@ -85478,11 +85582,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 53,
         he: "ותני. ברישא פר היה עומד בבין",
-        en: "The narrative of Temple benefactors provides historical context.",
+        en: "Rashi: opens 'in the opening clause, the bull stood between the vestibule",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-054",
@@ -85490,11 +85596,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 54,
         he: "האולם ולמזבח סמוך לבין האולם",
-        en: "These stories humanize the Temple service.",
+        en: "Rashi: continues - and the altar' - close to between the vestibule",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-055",
@@ -85502,11 +85610,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 55,
         he: "ולמזבח אצל מקצוע צפונית של מזבח",
-        en: "Each contribution represents love for the Temple.",
+        en: "Rashi: continues - and the altar, near the northern corner of the altar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-056",
@@ -85514,11 +85624,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 56,
         he: "שהיה מקרבן אצל הפתח בכל יכולת",
-        en: "The Gemara preserves these names to honor them.",
+        en: "Rashi: continues - since he would bring it close to the entrance with all his ability,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-057",
@@ -85526,11 +85638,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 57,
         he: "משום חולשא דכהן ויותר מכאן לא",
-        en: "The service was beautiful because people cared enough to improve it.",
+        en: "Rashi: continues - because of the High Priest's weakness, and no further than this could he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-058",
@@ -85538,11 +85652,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 58,
         he: "יכול לקרבן דאי מעייל ליה כנגד",
-        en: "Ben Katin's name is remembered for his practical innovation.",
+        en: "Rashi: continues - bring it close, for if he brought it in opposite",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-059",
@@ -85550,11 +85666,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 59,
         he: "מזרח המזבח לאו בצפון הוא: הרי זה",
-        en: "12 spigots for 12 kohanim = maximum efficiency.",
+        en: "Rashi: concludes - the east of the altar, it would not be in the north: 'behold, this is'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l31"
+        ]
       },
       {
         id: "rashi-yoma-037a-060",
@@ -85562,11 +85680,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 60,
         he: "בור. אפי' בדרך ארץ אינו בקי:",
-        en: "The cistern mechanism = honor for the sanctification water.",
+        en: "Rashi: concludes - a boor - even in matters of common courtesy, he is not learned.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l33"
+        ]
       },
       {
         id: "rashi-yoma-037a-061",
@@ -85574,11 +85694,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 61,
         he: "ג' שהיו מהלכין בדרך. לא ילכו זה",
-        en: "All improvements serve both practical and honorific purposes.",
+        en: "Rashi: opens 'three who were walking on a road' - they would not walk one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l33"
+        ]
       },
       {
         id: "rashi-yoma-037a-062",
@@ -85586,11 +85708,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 62,
         he: "אחר זה אלא בשורה אחת וכן מצינו",
-        en: "The Gemara's list is a tribute to Temple devotion.",
+        en: "Rashi: continues - after another, but rather in a single row, and so we find",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l33"
+        ]
       },
       {
         id: "rashi-yoma-037a-063",
@@ -85598,11 +85722,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 63,
         he: "במלאכי השרת מדכתיב (בראשית יח)",
-        en: "The next daf continues with Nicanor's miracle.",
+        en: "Rashi: continues - among the ministering angels, since it is written (Genesis 18)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l33"
+        ]
       },
       {
         id: "rashi-yoma-037a-064",
@@ -85610,11 +85736,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 64,
         he: "שלשה נצבים עליו מכלל שבשורה אחת",
-        en: "The lot ceremony context gives way to this broader Temple-history narrative.",
+        en: "Rashi: concludes - 'three men were standing over him,' implying they stood in a single row,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l33"
+        ]
       },
       {
         id: "rashi-yoma-037a-065",
@@ -85622,11 +85750,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 65,
         he: "הוו קיימי זה אצל זה דאי זה אחר זה קיימי אין זה נצבים עליו אלא ראשון: כדי שיתכסה בו רבו. הא דקתני מימינו לא שילך אצלו אלא",
-        en: "37a concludes with Temple improvement history.",
+        en: "Rashi: concludes - each beside the other, for if they had stood one after another, it would not say 'standing over him,' but rather 'the first.' Then opens 'so that his teacher be covered by him' - this teaching that 'on his right' means not to walk beside him but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l35"
+        ]
       },
       {
         id: "rashi-yoma-037a-066",
@@ -85634,11 +85764,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 66,
         he: "מאחוריו ומיהו גדול לימין וקטן לצד שמאל אצל גדול ושניהם אחורי הרב ממש: ה\"ג והתניא המהלך כנגד רבו הרי זה בור אחורי רבו הרי",
-        en: "The Yom Kippur service is the product of centuries of devotion.",
+        en: "Rashi: concludes - behind him, though the greater disciple to the right and the lesser to the left beside the greater, both truly behind the teacher. Then reads it: 'but is it not taught: one who walks facing his teacher, behold this is a boor; behind his teacher, behold'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l35"
+        ]
       },
       {
         id: "rashi-yoma-037a-067",
@@ -85646,11 +85778,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 67,
         he: "זה מגסי הרוח : דמצדד אצדודי. לא אצל ממש ולא אחורי ממש אלא שיכסה בו רבו מקצת צד רבו: יכול יתן שנים על זה ושנים על זה.",
-        en: "The KG performed his service in a Temple beautified by many hands.",
+        en: "Rashi: concludes - this is one of the coarse-spirited. He walks at an angle - not truly beside and not truly behind, but rather so that he covers his teacher's own side partially. Then opens 'should one give two lots for this one and two for that one.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l39"
+        ]
       },
       {
         id: "rashi-yoma-037a-068",
@@ -85658,11 +85792,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 68,
         he: "והכי קאמר קרא ונתן על כל אחד משניהם גורלות דמשמע שנים: ת\"ל גורל אחד לה'. אין כתיב שם אלא על אחד מהם ואין כתיב עזאזל",
-        en: "This context enriches the understanding of the Yom Kippur avodah.",
+        en: "Rashi: continues - and this is what the verse means: 'and he shall place lots upon each of the two,' implying two, therefore the verse states 'one lot for the Lord.' The word 'for the Lord' is written only regarding one of them, and 'for Azazel' is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l39"
+        ]
       },
       {
         id: "rashi-yoma-037a-069",
@@ -85670,11 +85806,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 69,
         he: "אלא על אחד מהם: יכול יתן של שם ושל עזאזל על זה. לקיים ונתן גורלות שנים על כל אחד משניהם ואיזה שירצה יעשה לשם: ת\"ל אחד.",
-        en: "The chapter's narrative breadth reflects the Talmud's holistic approach.",
+        en: "Rashi: continues - only regarding one of them. Then opens 'should he give one of the Lord's own lot and one of Azazel's own lot on this one' - to fulfill 'and he shall place lots,' two on each of the two, and whichever he wishes he may designate for the Lord. Then opens 'therefore the verse states one.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l39"
+        ]
       },
       {
         id: "rashi-yoma-037a-070",
@@ -85682,11 +85820,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 70,
         he: "ממשמע שנאמר גורל לה' יודע אני שהוא אחד וכי כתיב אחד לדרשה כתביה: יכול אף זה כן. גורל שהשם כתוב עליו: לדידהו. לכלים:",
-        en: "Summary of 37a: anna derivation, Baruch Shem, lot ceremony Mishna, Temple improvements.",
+        en: "Rashi: continues - from the mere fact that the verse says 'lot for the Lord,' I already know it is one, so why does it also write 'one' - it is written for its own exposition. Then opens 'should this too be so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l44"
+        ]
       },
       {
         id: "rashi-yoma-037a-071",
@@ -85694,11 +85834,13 @@ const DAF_CONTENT = {
         daf: "37a",
         vilnaLine: 71,
         he: "בידות",
-        en: "Six topics in 37a, all connected to the Yom Kippur service narrative.",
+        en: "Rashi: the daf's final truncated word - 'handles,' referring to the vessels, the start of the dibbur hamatchil on Munbaz the king's own golden vessel-handles, whose text continues on 37b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-037a-l51"
+        ]
       }
     ],
     review: "reviewed"
