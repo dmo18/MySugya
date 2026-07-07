@@ -26,333 +26,437 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Ten sanctifications: according to R. Meir, each of the five immersions requires two sanctifications.",
+      "en": "Rashi: opens 'ten sanctifications' - for five immersions. Then opens 'they would be nine' - since he lacks",
       "linkedGemaraLineIds": [
         "yoma-032a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Baraita: the verse 'And Aaron shall come into the Tent of Meeting' - what does it teach?",
+      "en": "Rashi: continues - the first immersion's own single sanctification. Then opens 'the Rabbis say to you' - the tenth sanctification that is missing here,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Rashi: continues - 'the last sanctification' - when he finished the whole day's service and removes the sacred garments and dons",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Rashi: continues - ordinary garments. Then opens 'he performs it there' - when he comes to remove the sacred garments, since according to our own view,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: continues - sanctification is one for undressing and one for dressing; but according to Rabbi",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: concludes - Meir, he does not sanctify at all, since he does not come",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: concludes - to wear sacred garments. Then opens 'and Aaron shall come to'",
       "linkedGemaraLineIds": [
         "yoma-032a-l03"
       ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Rav Chisda: tradition of five immersions and ten sanctifications.",
+      "vilnaLine": 8,
+      "en": "Rashi: continues - the Tent of Meeting - stated after he finished",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: concludes - the burning and the placing of the blood of the bull and the goat. Then opens 'why'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - does he come - to the Sanctuary; behold",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - he finished his services; even in this verse it did not explain",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: concludes - what he shall do there. Then opens 'he comes only'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: continues - to take out the ladle and the fire-pan, which he had placed between the poles",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - as it is written: 'and he shall place the incense upon the fire'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: concludes - etc. Then opens 'that the whole passage' - the verses were stated",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: continues - in the order of the alternating services",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: continues - in their order in the passage, so is the order of their service,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues - except for this verse, which wrote the taking out of the ladle",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - and fire-pan together with the inner services, and did not",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - interrupt with the service of his own ram and the people's ram in between;",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - it should have written first: 'and he went out and performed",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - his burnt-offering,' etc., and afterward: 'and Aaron shall come to take out",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - the ladle and the fire-pan,' and afterward: 'and he shall remove the linen",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - garments and leave them there, and bathe his flesh in water,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - and don his own garments' - the eight of the whole year,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: concludes - and perform the additional offerings and the afternoon daily-offering.",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: opens 'what is the reason' - he must interrupt with his own ram and the ram of",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - the people, between the day's service and the taking out of the ladle",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: concludes - and the fire-pan. Then opens 'Rav Chisda said: it is a tradition' -",
       "linkedGemaraLineIds": [
         "yoma-032a-l07"
       ]
     },
     {
-      "vilnaLine": 4,
-      "en": "R. Yehuda derives from three Leviticus passages the obligation for five immersions.",
+      "vilnaLine": 30,
+      "en": "Rashi: concludes - given to Moses at Sinai. Then opens 'five immersions' -",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: concludes - on that day. Then opens 'but if in their order' - of the services",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: concludes - this verse is written. Then opens 'you would not find among them except'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - three immersions - one for the morning daily-offering,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - and one between it and the whole of the day's service, together with",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - the taking out of the ladle and fire-pan, and one between the taking out",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: continues - of the ladle and fire-pan and his own ram and the people's ram, and with them",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "Rashi: continues - the additional offerings and the afternoon daily-offering.",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: continues - Therefore he must interrupt with his own ram and the people's ram",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: continues - between the day's service and the taking out of the ladle and fire-pan,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continues - and their taking out shall interrupt between his own ram and the people's ram",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continues - and the afternoon daily-offering; behold, five.",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continues - The morning daily-offering in golden garments, the day's",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: continues - service in white garments, his own ram and the people's ram in golden garments,",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: continues - on the outer altar; the taking out of the ladle",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "Rashi: continues - and fire-pan in white garments; and the additional offerings and the daily-offering of",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 46,
+      "en": "Rashi: concludes - the afternoon in golden garments. Then opens 'and he shall don his'",
       "linkedGemaraLineIds": [
         "yoma-032a-l10"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "R. Yehuda HaNasi: derives differently - from five distinct garment changes mentioned in Leviticus 16.",
+      "vilnaLine": 47,
+      "en": "Rashi: continues - garments' - the eight garments unique to him",
       "linkedGemaraLineIds": [
-        "yoma-032a-l14"
+        "yoma-032a-l10"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "Five services listed: morning tamid in gold, inner Yom Kippur in white, musaf in gold, etc.",
+      "vilnaLine": 48,
+      "en": "Rashi: concludes - all the days of the year. Then opens 'from service to service' -",
       "linkedGemaraLineIds": [
-        "yoma-032a-l18"
+        "yoma-032a-l10"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Each immersion requires two sanctifications: the verse is doubled - how do we know?",
+      "vilnaLine": 49,
+      "en": "Rashi: continues - from an inner service to an outer service, and the same applies",
       "linkedGemaraLineIds": [
-        "yoma-032a-l23"
+        "yoma-032a-l10"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "R. Elazar son of R. Shimon: kal vachomer from Sanhedrin - if ordinary court requires immersion, High Priest certainly does.",
+      "vilnaLine": 50,
+      "en": "Rashi: continues - from outer to inner; and further on he completes his own statement",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "Rashi: concludes - and teaches: there were five services - behold, five",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l10"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "Rashi: concludes - immersions. Then opens 'a sacred linen tunic he shall wear, and bathe'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Rashi: concludes - in water,' etc. Then opens 'behold, when he changes from the service of'",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "Rashi: continues - the daily-offering to begin the day's service, which is",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "Rashi: continues - an inner one, as it is written afterward: 'and he shall take",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "Rashi: concludes - the two goats,' etc., and the whole matter. Then opens 'and it says: they are sacred garments' - within this very verse, to expound, you have these three superfluous words, all of them, and he explains further on",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l16"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Rashi: concludes - what the exposition is. Then opens 'and there are five services' - this works out according to both Rebbi and Rabbi Yehuda. Then opens 'the verse teaches: and he shall remove and bathe,' etc. - this matter, Rebbi says it, that he derives the immersions from 'and bathe in water,' which is written regarding the garments of",
       "linkedGemaraLineIds": [
         "yoma-032a-l27"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "The inference can be refuted - High Priest doesn't necessarily need immersion just because ordinary priests do.",
+      "vilnaLine": 58,
+      "en": "Rashi: continues - white; and this verse of Rabbi Yehuda's is left over for him, and he expounds it for the sanctifications: 'and he shall remove, and bathe, and bathe, and don' - the verse placed 'and bathe' between 'and he shall remove' and 'and don,' to give a bathing to the undressing and a bathing to the dressing.",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l27"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Rashi: opens 'just as a place that does not require immersion' - all the rest of the year, one who comes to serve does not require immersion by Torah law, but rather by the words of the Sages, to remember old impurity. Then opens 'requires sanctification' - as it is written",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l29"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Rashi: opens '(Exodus 40): when they come to the Tent of Meeting and when they approach the altar they shall wash.' Then opens 'a place that requires immersion' - on Yom Kippur, for every change of garments. Then opens 'just as dressing requires sanctification' -",
       "linkedGemaraLineIds": [
         "yoma-032a-l31"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "R. Yehuda's actual derivation from the verse about donning garments.",
+      "vilnaLine": 61,
+      "en": "Rashi: concludes - which we derive from the kal vachomer of immersion, as we said; and Rabbi Elazar b'Rabbi Shimon does not derive from 'and he shall remove and bathe' that it requires sanctification, since he needs that phrase for immersion, to change into golden garments, like Rabbi Yehuda.",
       "linkedGemaraLineIds": [
-        "yoma-032a-l37"
+        "yoma-032a-l31"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Five changes times two sanctifications equals ten total.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rav Hisda says this ruling of R. Yehuda HaNasi was a novel teaching.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Not derived from prior authorities but a new ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rav Acha bar Yaakov: the dispute concerns only the first vs second sanctification.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Whether the first sanctification (morning) is included in the five.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "R. Elazar son of R. Shimon's kal vachomer from the Sanhedrin.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "If the Sanhedrin requires immersion when changing roles.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Then certainly the KG on Yom Kippur requires it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The kal vachomer argument is stated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The objection to the kal vachomer.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The counter-argument.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The kal vachomer is defended.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The derivation from R. Elazar son of R. Shimon is accepted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Five garment changes require five immersions and ten sanctifications.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "The five garment changes are enumerated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Each change requires immersion before and sanctification after.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The ten sanctifications are thus accounted for.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The halacha is established: five immersions, ten sanctifications.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Summary of the derivations.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The halacha follows R. Yehuda HaNasi's ruling of five immersions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "And ten sanctifications as reconciled by Rav Pappa.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The debate between authorities is resolved.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The five immersions on Yom Kippur are biblically derived.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The ten sanctifications follow from two per immersion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The final ruling is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "All authorities accept five immersions on Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The chapter concludes with this ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi commentary on line 38 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi commentary on line 39 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi commentary on line 40 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi commentary on line 41 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi commentary on line 42 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi commentary on line 43 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi commentary on line 44 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi commentary on line 45 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi commentary on line 46 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi commentary on line 47 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi commentary on line 48 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi commentary on line 55 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi commentary on line 56 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi commentary on line 57 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi commentary on line 58 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi commentary on line 59 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi commentary on line 60 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Rashi commentary on line 61 of 32a.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 62,
-      "en": "Rashi commentary on line 62 of 32a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'their atonement,' the start of the dibbur hamatchil comparing the broader atonement of the golden garments worn all year to the more limited atonement of the inner Yom Kippur service, whose text continues on 32b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-032a-l37"
+      ]
     }
   ],
   "sugyot": [

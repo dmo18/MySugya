@@ -3529,6 +3529,88 @@ this time. 31b is fully resolved, 63/63. This is the tenth
 consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
 28b, 29a, 29b, 30a, 30b, 31a, 31b).
 
+## 32a, full daf (VERSION 15.35), eleventh dangling-link daf, closes the 30a-32b run
+
+Continuing the run. Before any edit, the 31b/32a boundary was
+re-verified read-only: 31b's truncated final word "עשרה" (ten) is
+completed by 32a's opening "עשרה קידושין. לחמש טבילות", continuing
+the same dibbur hamatchil cleanly in both the Gemara and Rashi
+columns. No edit was made to 31b.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 32a has 62 lines, matching the prior
+enrichment JSON's 62 `rashiTranslations` entries exactly.
+
+Checking every existing `linkedGemaraLineIds` value against 32a's 10
+real captured ids (`l01`, `l03`, `l07`, `l10`, `l16`, `l24`, `l27`,
+`l29`, `l31`, `l37`) found the same pattern as the prior daf:
+vilnaLine 5-7 pointed to nonexistent unpadded ids, and vilnaLine
+11-62 (52 entries) had `linkedGemaraLineIds` entirely empty, carrying
+the older generic descriptive-style filler text throughout. The whole
+daf was rebuilt using the list-indexed methodology.
+
+One drafting slip was caught and fixed before applying: the initial
+draft merged vilnaLine 6's own content ("Meir, he does not sanctify
+at all, since he does not come") with vilnaLine 7's opening clause
+("to wear sacred garments. Then opens 'and Aaron shall come to'"),
+assigning the combined phrase to a single entry tagged with `l03`
+alone, silently dropping vilnaLine 6's own `l01` target. Counting
+`ITEMS` against the raw array (61 vs. 62) caught the discrepancy
+immediately, before any full-index comparison was even needed; the
+merge was split back into its own two entries, vilnaLine 6 keeping
+`l01` and vilnaLine 7 opening `l03`, matching the raw print-line
+boundary exactly.
+
+Two real captured lines needed careful disambiguation because their
+own text shares near-identical phrasing: `l22`/`l27`'s equivalent
+pair in 31b ("מקיש פשיטה ללבישה, מה לבישה... אף פשיטה") recurs here
+between `l27` (Rebbi's own two-sanctification derivation) and the
+handoff into `l29`/`l31` (Rabbi Elazar b'Rabbi Shimon's kal vachomer
+and its own "מה לבישה טעון קידוש" verse-exposition, phrased almost
+identically to the earlier design). Close reading of each real line's
+own full text (not just its opening words) was required to place
+vilnaLine 60's "מה לבישה טעון קידוש" gloss correctly against `l31`
+rather than the more obvious-seeming `l29`.
+
+The correspondence: vilnaLine 1-6 (the nine-versus-ten sanctification
+count for the Rabbis, the last sanctification's own placement) to
+`l01`; 7-28 (why Aaron comes to the Tent of Meeting only to remove
+the ladle and fire-pan, Rashi's extended excursus on the passage's
+own out-of-order verse sequence) to `l03`; 29-45 (Rav Chisda's
+tradition of five immersions and ten sanctifications, Rashi's full
+accounting of which service is performed in which garment) to `l07`;
+46-51 (Rabbi Yehuda's own verse derivation, "from service to
+service") to `l10`; 52-56 (Rebbi's alternate verse derivation from
+the linen-tunic passage) to `l16`; 57-58 (Rebbi's derivation of the
+two sanctifications from the doubled "and bathe") to `l27`; 59
+(Rabbi Elazar b'Rabbi Shimon's kal vachomer opening) to `l29`; 60-61
+(the verse basis for the kal vachomer's own conclusion, and why he
+does not also derive sanctification from "and he shall remove and
+bathe") to `l31`. `l24` (the mishna's own five-service enumeration,
+already covered by Rashi's parallel accounting under `l07`) has no
+dedicated vilnaLine of its own in this daf's column, the same
+established folding pattern seen throughout this run.
+
+vilnaLine 62, the daf's final truncated word "כפרתן" (their
+atonement), is the same kind of boundary case as every other daf
+ending in this run: per the policy, it is linked to `yoma-032a-l37`,
+32a's own final locally captured Gemara line (deriving the golden
+garments from white and the reverse), even though the DH's own point
+is itself still open at the point of truncation. 32b's own opening
+line ("כפרתן מרובה. שמשמש בהן כל ימות השנה") was read read-only to
+confirm this word begins a dibbur hamatchil comparing the broader
+atonement of garments worn all year to the narrower atonement of the
+inner Yom Kippur service, continuing onto 32b; no edit was made to
+32b.
+
+All 62 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying (including the one caught-and-corrected slip above).
+32a is fully resolved, 62/62. This is the eleventh consecutive
+dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
+30a, 30b, 31a, 31b, 32a), and closes the 30a-32b portion of the
+resumed run pending 32b.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
