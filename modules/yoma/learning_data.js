@@ -71273,7 +71273,7 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 1,
         he: "חוצץ או אינו חוצץ. לר' יהודה דאמר מפני סרך טבילה בעלמא היא",
-        en: "Does a normal interposition (chatzitza) invalidate the pre-service immersion?",
+        en: "Rashi: opens 'does it interpose or does it not interpose' - according to Rabbi Yehuda, who says it is merely a formality of immersion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -71287,12 +71287,12 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 2,
         he: "פסלה בה חציצה כשאר טבילות או דילמא כיון דאינה באה אלא",
-        en: "Abaye: pose this dilemma according to Ben Zoma - according to whom is the immersion biblical.",
+        en: "Rashi: continues - an interposition would invalidate it like other immersions; or perhaps, since it comes only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-031a-l03"
+          "yoma-031a-l01"
         ]
       },
       {
@@ -71301,12 +71301,12 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 3,
         he: "להזכירו על הטומאה ישנה ולא לטהר בה היא באה לא פסלה בה",
-        en: "Also pose it according to the Rabbis - do they say the immersion must be thorough?",
+        en: "Rashi: concludes - to make him remember old impurity and not to purify him, an interposition would not invalidate it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-031a-l04"
+          "yoma-031a-l01"
         ]
       },
       {
@@ -71315,12 +71315,12 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 4,
         he: "חציצה: שמה ביאה. לענין טבילה זו וצריך לטבול אם בא להכניס",
-        en: "Similarly: does partial body entry count as entry for the pre-service immersion?",
+        en: "Rashi: opens 'is it called entry' - regarding this immersion, and whether he must immerse if he comes to insert",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-031a-l05"
+          "yoma-031a-l02"
         ]
       },
       {
@@ -71329,12 +71329,12 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 5,
         he: "אחד מאיבריו לעזרה: מהו שיעשה",
-        en: "Mishna: Five immersions and ten sanctifications the High Priest performs on Yom Kippur.",
+        en: "Rashi: continues - one of his limbs into the courtyard. Then opens 'what if he made'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-031a-l14"
+          "yoma-031a-l02"
         ]
       },
       {
@@ -71343,12 +71343,12 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 6,
         he: "סכין ארוכה. לפטור עצמו מן הטבילה",
-        en: "The immersion chamber is above the Water Gate - the gate height explains why the chamber must be high.",
+        en: "Rashi: continues DH - a long knife' - to exempt himself from immersion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-031a-l20"
+          "yoma-031a-l02"
         ]
       },
       {
@@ -71357,11 +71357,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 7,
         he: "ויעמוד חוץ לעזרה ויושיט ידו לפנים",
-        en: "The immersion chamber was above the Water Gate.",
+        en: "Rashi: continues - and stand outside the courtyard and extend his hand inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-008",
@@ -71369,11 +71371,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 8,
         he: "וישחוט מי מיפטר בהכי מן הטבילה",
-        en: "The roof of Chamber of Parva - twenty-three cubits above ground.",
+        en: "Rashi: continues - and slaughter - is he exempted from immersion by this,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-009",
@@ -71381,11 +71385,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 9,
         he: "או דילמא בעי טבילה ולענין הכשירה",
-        en: "The minimum height above Temple floor.",
+        en: "Rashi: continues - or perhaps he requires immersion. And regarding the validity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-010",
@@ -71393,11 +71399,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 10,
         he: "דקרבן לא קא מיבעיא ליה דאף",
-        en: "Above the Water Gate.",
+        en: "Rashi: continues - of the offering, it is not in question for him, since even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-011",
@@ -71405,11 +71413,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 11,
         he: "על גב דעמד מבחוץ ושחט כשירה",
-        en: "The excavation for the immersion pool required depth from the roof.",
+        en: "Rashi: continues - though he stood outside and slaughtered, it is valid,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-012",
@@ -71417,11 +71427,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 12,
         he: "דתניא בזבחים (דף לב:) בן הבקר",
-        en: "The roof was at twenty-three cubits, allowing the pool depth below.",
+        en: "Rashi: continues - as it is taught in Zevachim (32b): 'a young bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l02"
+        ]
       },
       {
         id: "rashi-yoma-031a-013",
@@ -71429,11 +71441,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 13,
         he: "לפני ה' ולא שוחט לפני ה': תיבעי",
-        en: "The Water Gate was twenty cubits high.",
+        en: "Rashi: concludes - before the Lord,' and not 'the slaughterer before the Lord.' Then opens 'let it be asked'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l07"
+        ]
       },
       {
         id: "rashi-yoma-031a-014",
@@ -71441,11 +71455,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 14,
         he: "לבן זומא. דמחמיר בה: תיבעי",
-        en: "The Chamber of Parva roof was three more cubits above that.",
+        en: "Rashi: continues - according to Ben Zoma, who is stringent about it. Then opens 'let it be asked'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l07"
+        ]
       },
       {
         id: "rashi-yoma-031a-015",
@@ -71453,11 +71469,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 15,
         he: "לרבנן דפליגי עליה דר\"י. ואמרו",
-        en: "Giving the required twenty-three cubits minimum.",
+        en: "Rashi: continues - according to the Rabbis who disagree with Rabbi Yehuda, and who said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l07"
+        ]
       },
       {
         id: "rashi-yoma-031a-016",
@@ -71465,11 +71483,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 16,
         he: "כל אדם לא בעו טבילה: לגואי.",
-        en: "The pool itself was below the roof level, excavated into the structure.",
+        en: "Rashi: concludes - any person did not require immersion. Then opens 'for entering inside' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l07"
+        ]
       },
       {
         id: "rashi-yoma-031a-017",
@@ -71477,11 +71497,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 17,
         he: "הנכנס לה: עין עיטם. ממנו",
-        en: "Additional details about the chamber and pool construction.",
+        en: "Rashi: concludes - one who enters it. Then opens 'Ein Eitam' - from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-018",
@@ -71489,11 +71511,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 18,
         he: "באה אמת המים לבית טבילת שער",
-        en: "Below the required height the pool would be below the Temple threshold.",
+        en: "Rashi: continues - comes the water channel to the immersion-place of the gate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-019",
@@ -71501,11 +71525,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 19,
         he: "המים שעל החומה ולפי ענין",
-        en: "The minimum twenty-three cubits allows adequate pool depth.",
+        en: "Rashi: continues - of the water that is upon the wall; and according to the sense of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-020",
@@ -71513,11 +71539,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 20,
         he: "המקראות נראה לי שהוא מעיין מי",
-        en: "The chamber's position above the Water Gate is established.",
+        en: "Rashi: continues - the verses, it seems to me that it is the spring of the waters of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-021",
@@ -71525,11 +71553,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 21,
         he: "נפתוח האמור בספר יהושע (טו)",
-        en: "Rashi commentary on line 21 of 31a.",
+        en: "Rashi: continues - Nephtoach, stated in the Book of Joshua (15),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-022",
@@ -71537,11 +71567,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 22,
         he: "שמשם הגבול משפע ויורד למזרח",
-        en: "Rashi commentary on line 22 of 31a.",
+        en: "Rashi: continues - from where the border slopes down to the east",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-023",
@@ -71549,11 +71581,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 23,
         he: "ולמערב והוא הגבול בכל ארץ",
-        en: "Rashi commentary on line 23 of 31a.",
+        en: "Rashi: continues - and to the west, and it is the border throughout the land of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-024",
@@ -71561,11 +71595,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 24,
         he: "ישראל והך מילתא דאביי משום",
-        en: "Rashi commentary on line 24 of 31a.",
+        en: "Rashi: continues - Israel; and this statement of Abaye is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-025",
@@ -71573,11 +71609,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 25,
         he: "דאמרינן בזבחים (דף נד:) סבור",
-        en: "Rashi commentary on line 25 of 31a.",
+        en: "Rashi: continues - we say in Zevachim (54b): they thought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-026",
@@ -71585,11 +71623,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 26,
         he: "למיבנייה לבית המקדש בעין עיטם",
-        en: "Rashi commentary on line 26 of 31a.",
+        en: "Rashi: continues - to build the Temple at Ein Eitam,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-027",
@@ -71597,11 +71637,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 27,
         he: "אמרי ניחתי ביה פורתא דכתיב",
-        en: "Rashi commentary on line 27 of 31a.",
+        en: "Rashi: continues - they said: let us lower it a bit, since it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-028",
@@ -71609,11 +71651,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 28,
         he: "(דברים לג) ובין כתפיו שכן דשמעינן",
-        en: "Rashi commentary on line 28 of 31a.",
+        en: "Rashi: continues - (Deuteronomy 33): 'between his shoulders,' from which we learn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-029",
@@ -71621,11 +71665,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 29,
         he: "מיניה שהוא גבוה מן הכל ולא פריש",
-        en: "Rashi commentary on line 29 of 31a.",
+        en: "Rashi: continues - that it is higher than everything; but he did not explain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-030",
@@ -71633,11 +71679,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 30,
         he: "מנא ליה ופריש ליה אביי הכא:",
-        en: "Rashi commentary on line 30 of 31a.",
+        en: "Rashi: continues - from where he derives this, and Abaye explains it here:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-031",
@@ -71645,11 +71693,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 31,
         he: "גבוה מקרקע עזרה עשרים ושלש",
-        en: "Rashi commentary on line 31 of 31a.",
+        en: "Rashi: continues - high above the courtyard floor by twenty-three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-032",
@@ -71657,11 +71707,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 32,
         he: "אמות. כמדת גובה שער המים",
-        en: "Rashi commentary on line 32 of 31a.",
+        en: "Rashi: continues - cubits - like the measure of the height of the Water Gate,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-033",
@@ -71669,11 +71721,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 33,
         he: "ובנין כלי של שלש אמות מלמעלה",
-        en: "Rashi commentary on line 33 of 31a.",
+        en: "Rashi: continues - and the construction of a vessel of three cubits on top,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-034",
@@ -71681,11 +71735,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 34,
         he: "להחזיק ארבעים סאה שאי אפשר",
-        en: "Rashi commentary on line 34 of 31a.",
+        en: "Rashi: continues - to hold forty se'ah, since it is not possible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-035",
@@ -71693,11 +71749,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 35,
         he: "למים לעלות להר שהוא גבוה",
-        en: "Rashi commentary on line 35 of 31a.",
+        en: "Rashi: continues - for water to rise to a mountain that is higher",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l14"
+        ]
       },
       {
         id: "rashi-yoma-031a-036",
@@ -71705,11 +71763,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 36,
         he: "ממקום שנובעין שם: חוץ משל אולם. שגבהו ארבעים ורחבו עשרים:",
-        en: "Rashi commentary on line 36 of 31a.",
+        en: "Rashi: concludes - than the place from which it springs. Then opens and closes 'except for the Ulam's' - whose height was forty and width twenty.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l20"
+        ]
       },
       {
         id: "rashi-yoma-031a-037",
@@ -71717,11 +71777,13 @@ const DAF_CONTENT = {
         daf: "31a",
         vilnaLine: 37,
         he: "והאיכא",
-        en: "Rashi commentary on line 37 of 31a.",
+        en: "Rashi: the daf's final truncated word - 'but is there not,' the start of the dibbur hamatchil about the added cubit of ceiling thickness over the gate's own chamber, whose text continues on 31b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-031a-l20"
+        ]
       }
     ],
     review: {

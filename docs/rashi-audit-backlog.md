@@ -3398,6 +3398,72 @@ before applying. 30b is fully resolved, 51/51. This is the eighth
 consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
 28b, 29a, 29b, 30a, 30b).
 
+## 31a, full daf (VERSION 15.33), ninth dangling-link daf, one drafting slip self-caught
+
+Continuing the run. Before any edit, the 30b/31a boundary was
+re-verified read-only: 30b's truncated final word "חוצץ" (interposes)
+is completed by 31a's opening "חוצץ או אינו חוצץ. לר' יהודה דאמר
+מפני סרך טבילה בעלמא היא", continuing the same dibbur hamatchil
+cleanly in both the Gemara and Rashi columns. No edit was made to
+30b.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 31a has 37 lines, matching the prior
+enrichment JSON's 37 `rashiTranslations` entries exactly.
+
+Checking every existing `linkedGemaraLineIds` value against 31a's 6
+real captured ids (`l01`, `l02`, `l07`, `l10`, `l14`, `l20`) found the
+same pattern as the prior daf: vilnaLine 2-4 pointed to nonexistent
+unpadded ids, and vilnaLine 7-37 (31 entries) had `linkedGemaraLineIds`
+entirely empty, carrying the older generic descriptive-style filler
+text throughout. The whole daf was rebuilt using the list-indexed
+methodology.
+
+All 37 raw Rashi print lines were read against the raw Gemara text
+and the 6 real captured line ids, using the multi-DH rule. The
+correspondence: vilnaLine 1-3 (whether an interposition invalidates
+this immersion, given it is merely a formality) to `l01`; 4-12
+(whether partial entry counts as entry, the long-knife hypothetical,
+its irrelevance to the offering's own validity per Zevachim 32b) to
+`l02`; 13-16 (the question restated for Ben Zoma and for the Rabbis
+who disagree with Rabbi Yehuda, identifying both disputants) to `l07`;
+17-35 (Rashi's own extended geographic and structural excursus on Ein
+Eitam's height, tracing the verse in Joshua 15 and the Zevachim 54b
+account of the Temple's siting, then the mikveh-construction
+reasoning for the specific twenty-three-cubit figure) to `l14`; 36
+(the Ulam's exceptional forty-by-twenty measurement) to `l20`. `l10`
+(the Rabbis' own elaboration of the "let it be asked" question) has
+no dedicated vilnaLine of its own in this daf's column, the same
+established folding pattern seen throughout this run.
+
+One drafting slip was caught and fixed before applying: the initial
+draft merged vilnaLine 35's own content ("for water to rise to a
+mountain that is higher") with vilnaLine 36's opening clause ("than
+the place from which it springs"), assigning the combined phrase to
+vilnaLine 35 alone and leaving vilnaLine 36 to open directly with the
+unrelated Ulam citation. The mandatory post-edit full-index
+comparison against the raw array caught this before commit; the split
+was corrected so vilnaLine 35 ends at its own raw line's own content
+and vilnaLine 36 opens with its own raw line's own content before the
+Ulam citation.
+
+vilnaLine 37, the daf's final truncated word "והאיכא" (but is there
+not), is the same kind of boundary case as every other daf ending in
+this run: per the policy, it is linked to `yoma-031a-l20`, 31a's own
+final locally captured Gemara line (the Ulam's exceptional
+measurement), even though the DH's own point is itself still open at
+the point of truncation. 31b's own opening line ("והאיכא אמה. עובי
+תקרה על חלל השער") was read read-only to confirm this word begins a
+dibbur hamatchil about an added cubit of ceiling thickness over the
+gate's own chamber, continuing onto 31b; no edit was made to 31b.
+
+All 37 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying (including the one caught-and-corrected slip above).
+31a is fully resolved, 37/37. This is the ninth consecutive
+dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
+30a, 30b, 31a).
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

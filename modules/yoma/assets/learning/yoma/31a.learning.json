@@ -26,200 +26,262 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Does a normal interposition (chatzitza) invalidate the pre-service immersion?",
+      "en": "Rashi: opens 'does it interpose or does it not interpose' - according to Rabbi Yehuda, who says it is merely a formality of immersion,",
       "linkedGemaraLineIds": [
         "yoma-031a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Abaye: pose this dilemma according to Ben Zoma - according to whom is the immersion biblical.",
+      "en": "Rashi: continues - an interposition would invalidate it like other immersions; or perhaps, since it comes only",
       "linkedGemaraLineIds": [
-        "yoma-031a-l03"
+        "yoma-031a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Also pose it according to the Rabbis - do they say the immersion must be thorough?",
+      "en": "Rashi: concludes - to make him remember old impurity and not to purify him, an interposition would not invalidate it.",
       "linkedGemaraLineIds": [
-        "yoma-031a-l04"
+        "yoma-031a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Similarly: does partial body entry count as entry for the pre-service immersion?",
+      "en": "Rashi: opens 'is it called entry' - regarding this immersion, and whether he must immerse if he comes to insert",
       "linkedGemaraLineIds": [
-        "yoma-031a-l05"
+        "yoma-031a-l02"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Mishna: Five immersions and ten sanctifications the High Priest performs on Yom Kippur.",
+      "en": "Rashi: continues - one of his limbs into the courtyard. Then opens 'what if he made'",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "Rashi: continues DH - a long knife' - to exempt himself from immersion",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues - and stand outside the courtyard and extend his hand inside",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - and slaughter - is he exempted from immersion by this,",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - or perhaps he requires immersion. And regarding the validity",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - of the offering, it is not in question for him, since even",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: continues - though he stood outside and slaughtered, it is valid,",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - as it is taught in Zevachim (32b): 'a young bull",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l02"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - before the Lord,' and not 'the slaughterer before the Lord.' Then opens 'let it be asked'",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: continues - according to Ben Zoma, who is stringent about it. Then opens 'let it be asked'",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: continues - according to the Rabbis who disagree with Rabbi Yehuda, and who said",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: concludes - any person did not require immersion. Then opens 'for entering inside' -",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l07"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - one who enters it. Then opens 'Ein Eitam' - from it",
       "linkedGemaraLineIds": [
         "yoma-031a-l14"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "The immersion chamber is above the Water Gate - the gate height explains why the chamber must be high.",
+      "vilnaLine": 18,
+      "en": "Rashi: continues - comes the water channel to the immersion-place of the gate",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - of the water that is upon the wall; and according to the sense of",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: continues - the verses, it seems to me that it is the spring of the waters of",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues - Nephtoach, stated in the Book of Joshua (15),",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: continues - from where the border slopes down to the east",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - and to the west, and it is the border throughout the land of",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - Israel; and this statement of Abaye is because",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - we say in Zevachim (54b): they thought",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - to build the Temple at Ein Eitam,",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: continues - they said: let us lower it a bit, since it is written",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: continues - (Deuteronomy 33): 'between his shoulders,' from which we learn",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continues - that it is higher than everything; but he did not explain",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - from where he derives this, and Abaye explains it here:",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - high above the courtyard floor by twenty-three",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - cubits - like the measure of the height of the Water Gate,",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: continues - and the construction of a vessel of three cubits on top,",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: continues - to hold forty se'ah, since it is not possible",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: continues - for water to rise to a mountain that is higher",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Rashi: concludes - than the place from which it springs. Then opens and closes 'except for the Ulam's' - whose height was forty and width twenty.",
       "linkedGemaraLineIds": [
         "yoma-031a-l20"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "The immersion chamber was above the Water Gate.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "The roof of Chamber of Parva - twenty-three cubits above ground.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The minimum height above Temple floor.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Above the Water Gate.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The excavation for the immersion pool required depth from the roof.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The roof was at twenty-three cubits, allowing the pool depth below.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The Water Gate was twenty cubits high.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The Chamber of Parva roof was three more cubits above that.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Giving the required twenty-three cubits minimum.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The pool itself was below the roof level, excavated into the structure.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Additional details about the chamber and pool construction.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Below the required height the pool would be below the Temple threshold.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The minimum twenty-three cubits allows adequate pool depth.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The chamber's position above the Water Gate is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi commentary on line 21 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi commentary on line 22 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi commentary on line 23 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi commentary on line 24 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi commentary on line 25 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi commentary on line 26 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi commentary on line 27 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi commentary on line 28 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi commentary on line 29 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi commentary on line 30 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi commentary on line 31 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi commentary on line 32 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi commentary on line 33 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi commentary on line 34 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi commentary on line 35 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi commentary on line 36 of 31a.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 37,
-      "en": "Rashi commentary on line 37 of 31a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'but is there not,' the start of the dibbur hamatchil about the added cubit of ceiling thickness over the gate's own chamber, whose text continues on 31b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-031a-l20"
+      ]
     }
   ],
   "sugyot": [
