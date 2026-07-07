@@ -4708,6 +4708,12 @@ dangling-link daf found in this corpus (27a through 40b), the tenth
 daf fixed under the 36a-52b frozen-corpus exception, and closes the
 37b-40b run agreed as the checkpoint before the next report.
 
+## 40b, vilnaLine 13-19 (VERSION 15.54), post-session English-helper shift correction
+
+A post-session read-only verification of 40b (prior to starting 41a audit) found one one-line-ahead shifted-English block affecting vilnaLine 14-18. The block described the Gemara line correctly (l04, Rashi's elaboration on the "when he has finished atoning" verse), but the English helper text for each vilnaLine was describing the *next* vilnaLine's raw Hebrew instead of its own. Edge-bleed inspection of vilnaLine 12-20 confirmed the shift started at vilnaLine 14 (which absorbed opening words from HE 14 but continued with content from HE 15) and ran through vilnaLine 18 (which was only "the confession," re-syncing with HE 19's opening word). linkedGemaraLineIds for the block all pointed to l04 and were correct; only the en fields needed repair.
+
+Repair method: each vilnaLine 14-18 en was rewritten to describe its own raw Rashi print line only, preserving structure ("Rashi: opens/continues/concludes") and word-level accuracy. No linkedGemaraLineIds values were changed. Vilnaline 13 and 19-20 were verified to be in correct alignment and left unchanged. Zero-bogus-id check and full validation/build/test suite confirm all 43 linkedGemaraLineIds still resolve to real ids and the block now correctly maps per-line en to per-line raw Hebrew. 40b remains fully resolved, 43/43.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
