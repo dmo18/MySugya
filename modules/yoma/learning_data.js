@@ -78223,7 +78223,7 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 1,
         he: "ת\"ל וערך עליה העולה וגו'. העולה משמע תהא ראשונה דאי",
-        en: "Verse: 'the priest shall burn wood upon it in the morning' - this teaches burning the wood arrangement precedes all else.",
+        en: "Opens the verse citation 'and he shall place the burnt-offering upon it, etc.': the word 'the burnt-offering' implies it must be first, for if -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -78237,12 +78237,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 2,
         he: "לאורויי בעלמא אתא שיקטירו עליה עולה ושלמים נכתוב וערך עליה:",
-        en: "Meal-offering precedes the kohen gadol's griddle-cake (minchat chavittin).",
+        en: "the verse had come merely to teach in general that they offer a burnt-offering and peace-offerings upon it, it would have written 'and he shall place upon it' alone, without naming the burnt-offering (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l03"
+          "yoma-034a-l01"
         ]
       },
       {
@@ -78251,12 +78251,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 3,
         he: "עולה ומנחה. להקריב אשה לה' עולה ומנחה זבח ונסכים דבר",
-        en: "Griddle-cake precedes the wine libation accompanying the tamid.",
+        en: "Opens 'the burnt-offering and the meal-offering': from the verse, 'to bring offerings by fire to the Lord: burnt-offerings, meal-offerings, sacrifices, and libations, each -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l06"
+          "yoma-034a-l02a"
         ]
       },
       {
@@ -78265,12 +78265,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 4,
         he: "יום ביומו (ויקרא כג) עולה ומנחה לימדך שתהא מנחת העולה",
-        en: "Wine libation precedes the musaf offerings - 'offerings and libations' precede musaf in all contexts.",
+        en: "on its own day' (Leviticus 23:37) - 'burnt-offering and meal-offering' teaches that the meal-offering of the burnt-offering follows -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l09"
+          "yoma-034a-l02a"
         ]
       },
       {
@@ -78279,12 +78279,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 5,
         he: "אחר העולה מיד ולא יפסיקו חביתין",
-        en: "Abaye: it is logical that the vessels of frankincense precede the musaf.",
+        en: "the burnt-offering immediately, and the griddle-cakes do not interrupt -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l11"
+          "yoma-034a-l02a"
         ]
       },
       {
@@ -78293,12 +78293,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 6,
         he: "בין עולה למנחת התמיד: שום",
-        en: "What is the rationale of the opinion that musaf precedes the frankincense vessels?",
+        en: "between the burnt-offering and the meal-offering of the tamid (closing). Opens 'since [it is a category of]' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l13"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78307,12 +78307,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 7,
         he: "מנחה. הואיל וחביתין אף הן מנחה",
-        en: "If frankincense vessels precede musaf, why not derive everything from that verse?",
+        en: "'meal-offering': since the griddle-cakes are also a meal-offering, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l16"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78321,12 +78321,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 8,
         he: "והזקיקם הכתוב עם התמיד דכתיב",
-        en: "Gemara returns to discuss whether this mishna follows Rabbis or R. Yehuda HaNasi.",
+        en: "Scripture required them to be linked to the tamid, as it is written -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l19"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78335,12 +78335,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 9,
         he: "בה (במדבר כח) ועשירית האיפה",
-        en: "Actually the mishna follows the Rabbis - but the mishna is not simple about the musaf sequence.",
+        en: "regarding it (Numbers 28): 'a tenth of an ephah -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l22"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78349,12 +78349,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 10,
         he: "סולת למנחה תמיד אף היא תהא",
-        en: "Afternoon incense was burned between taking up limbs and the wine libation.",
+        en: "of fine flour for a perpetual meal-offering' - so too it [the griddle-cake] must be -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l24"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78363,12 +78363,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 11,
         he: "סמוכה לתמיד אחר מנחת נסכים",
-        en: "If incense precedes limbs in morning, why not in the afternoon too?",
+        en: "adjacent to the tamid, after the libation-linked meal-offering, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l27"
+          "yoma-034a-l02b"
         ]
       },
       {
@@ -78377,12 +78377,12 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 12,
         he: "כדכתיב עולה ומנחה: זבח ונסכים.",
-        en: "Wine libation: 'one quarter hin for the one lamb' - teaches about the afternoon tamid libation.",
+        en: "as it is written 'olah u-mincha' (closing). Opens 'sacrifice and libations': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034a-l30"
+          "yoma-034a-l03"
         ]
       },
       {
@@ -78391,11 +78391,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 13,
         he: "למדנו שלא יפסיק קרבן אחר בין",
-        en: "The incense timing in the afternoon is derived from verse.",
+        en: "we learn that no other offering may interrupt between -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l03"
+        ]
       },
       {
         id: "rashi-yoma-034a-014",
@@ -78403,11 +78405,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 14,
         he: "זבח לנסכים: תנאי היא. רבי",
-        en: "The limbs of the afternoon tamid are offered before the incense.",
+        en: "the sacrifice and the libations (closing). Opens 'it is a [dispute of] Tannaim': Rabbi -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l03"
+        ]
       },
       {
         id: "rashi-yoma-034a-015",
@@ -78415,11 +78419,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 15,
         he: "ישמעאל ורבי עקיבא פליגי בה",
-        en: "The incense comes after the limbs in the afternoon.",
+        en: "Yishmael and Rabbi Akiva disagree about this -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l03"
+        ]
       },
       {
         id: "rashi-yoma-034a-016",
@@ -78427,11 +78433,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 16,
         he: "בפסחים בפרק תמיד נשחט (דף נח.):",
-        en: "Then the wine libation concludes the afternoon service.",
+        en: "in tractate Pesachim, in the chapter 'Tamid Nishchat' (58a) (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l03"
+        ]
       },
       {
         id: "rashi-yoma-034a-017",
@@ -78439,11 +78447,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 17,
         he: "ביום. ביום השבת יערכנו (ויקרא",
-        en: "The derivation for the afternoon sequence is established.",
+        en: "Opens 'on the day': from the verse 'on the day of Shabbat he shall arrange it' (Leviticus -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l05"
+        ]
       },
       {
         id: "rashi-yoma-034a-018",
@@ -78451,11 +78461,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 18,
         he: "כד) ולשון ביום משמע באור עצום",
-        en: "The chapter discusses whether the ruling follows R. Meir or the Sages.",
+        en: "24:8) - the term 'on the day' implies in the full light of -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l05"
+        ]
       },
       {
         id: "rashi-yoma-034a-019",
@@ -78463,11 +78475,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 19,
         he: "היום ולא בבקרו: חוקה חוקה.",
-        en: "Both authorities are presented and reconciled.",
+        en: "day itself, not in its early morning (closing). Opens 'statute, statute' [the verbal analogy]: -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-020",
@@ -78475,11 +78489,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 20,
         he: "בחביתין כתיב (שם ו) חק עולם",
-        en: "The halacha for the afternoon service sequence is established.",
+        en: "regarding the griddle-cakes it is written (ibid. 6): 'a perpetual statute, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-021",
@@ -78487,11 +78503,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 21,
         he: "לה' כליל תקטר ובבזיכין כתיב (שם",
-        en: "The Yom Kippur afternoon service follows this sequence.",
+        en: "wholly burned to the Lord,' and regarding the frankincense-vessels it is written (ibid. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-022",
@@ -78499,11 +78517,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 22,
         he: "כד) קדש קדשים הוא לו מאשי ה'",
-        en: "The complete day of Yom Kippur service is now mapped.",
+        en: "24): 'it is most holy to him from the Lord's fire-offerings, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-023",
@@ -78511,11 +78531,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 23,
         he: "חק עולם ואכולה מילתא קאי וגמרינן",
-        en: "Morning service, unique Yom Kippur services, afternoon service.",
+        en: "a perpetual statute' - and this phrase governs the whole matter, and we derive -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-024",
@@ -78523,11 +78545,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 24,
         he: "מיניה שתקדים למוספין כחביתין:",
-        en: "The chapter concludes with the afternoon service established.",
+        en: "from it that the vessels should precede the additional offerings just as the griddle-cakes do (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l08"
+        ]
       },
       {
         id: "rashi-yoma-034a-025",
@@ -78535,11 +78559,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 25,
         he: "וליגמרה לכולה מילתא. להקדימן אף",
-        en: "Rashi commentary on line 25 of 34a.",
+        en: "Opens 'and let him derive the entire matter': to have them [the frankincense-vessels] precede -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l10"
+        ]
       },
       {
         id: "rashi-yoma-034a-026",
@@ -78547,11 +78573,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 26,
         he: "לנסכים: אי רבנן. דאמרי בפ' קמא",
-        en: "Rashi commentary on line 26 of 34a.",
+        en: "the libations too (closing). Opens 'if [it follows] the Rabbis': who say in the first chapter -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l12"
+        ]
       },
       {
         id: "rashi-yoma-034a-027",
@@ -78559,11 +78587,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 27,
         he: "(דף טו.) בקטרת מפסיק להטבת",
-        en: "Rashi commentary on line 27 of 34a.",
+        en: "(15a) that with the incense he interrupts before the trimming of -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l12"
+        ]
       },
       {
         id: "rashi-yoma-034a-028",
@@ -78571,11 +78601,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 28,
         he: "נרות: בין דם לנרות מיבעי ליה.",
-        en: "Rashi commentary on line 28 of 34a.",
+        en: "the lamps (closing). Opens “'between the blood and the lamps' it should have stated”: -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l12"
+        ]
       },
       {
         id: "rashi-yoma-034a-029",
@@ -78583,11 +78615,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 29,
         he: "בין עבודת הדם לעבודת הנרות",
-        en: "Rashi commentary on line 29 of 34a.",
+        en: "meaning between the service of the blood and the service of the lamps, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l12"
+        ]
       },
       {
         id: "rashi-yoma-034a-030",
@@ -78595,11 +78629,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 30,
         he: "קודם שיגמרם: לעולם רבנן היא.",
-        en: "Rashi commentary on line 30 of 34a.",
+        en: "before he finishes trimming them (closing). Opens 'actually it is the Rabbis' [view]': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l15"
+        ]
       },
       {
         id: "rashi-yoma-034a-031",
@@ -78607,11 +78643,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 31,
         he: "ניחא ליה לאוקמה כרבנן: ובסידרא",
-        en: "Rashi commentary on line 31 of 34a.",
+        en: "it is preferable for the Gemara to establish the mishna according to the Rabbis (closing). Opens 'and of the sequence, it does not speak': the mishna is not being precise about the full order (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l15"
+        ]
       },
       {
         id: "rashi-yoma-034a-032",
@@ -78619,11 +78657,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 32,
         he: "לא קא מיירי. לא דק: בין איברים",
-        en: "Rashi commentary on line 32 of 34a.",
+        en: "Opens 'between the limbs' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l16"
+        ]
       },
       {
         id: "rashi-yoma-034a-033",
@@ -78631,11 +78671,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 33,
         he: "לנסכים. למנחת נסכים: כמנחת",
-        en: "Rashi commentary on line 33 of 34a.",
+        en: "'and the libations': refers to the libation-linked meal-offering (closing). Opens 'like the meal-offering of' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l16"
+        ]
       },
       {
         id: "rashi-yoma-034a-034",
@@ -78643,11 +78685,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 34,
         he: "הבקר. תהא מנחת ערב: מה",
-        en: "Rashi commentary on line 34 of 34a.",
+        en: "'the morning': the meal-offering of the evening shall be treated the same (closing). Opens 'just as' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l16"
+        ]
       },
       {
         id: "rashi-yoma-034a-035",
@@ -78655,11 +78699,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 35,
         he: "מנחת הבקר. תהא מאוחרת",
-        en: "Rashi commentary on line 35 of 34a.",
+        en: "'the meal-offering of the morning' is later -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l16"
+        ]
       },
       {
         id: "rashi-yoma-034a-036",
@@ -78667,11 +78713,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 36,
         he: "לקטורת שהרי אף איברים מאוחרים לה: אף מנחת הערב.",
-        en: "Rashi commentary on line 36 of 34a.",
+        en: "than the incense, since even the limbs [of the morning tamid] are later than it (closing). Opens 'so too the meal-offering of the evening': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l16"
+        ]
       },
       {
         id: "rashi-yoma-034a-037",
@@ -78679,11 +78727,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 37,
         he: "קטורת קודמת לה: מי כתיב כאיברי הבקר. כן יהיה איברי הערב",
-        en: "Rashi commentary on line 37 of 34a.",
+        en: "the incense precedes it too (closing). Opens “'is it written, like the limbs of the morning'?”: if it were, it would read 'the limbs of the evening,' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l21"
+        ]
       },
       {
         id: "rashi-yoma-034a-038",
@@ -78691,11 +78741,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 38,
         he: "ותידוק מינה מה איברי הבקר מאוחרים לקטרת אף איברי הערב",
-        en: "Rashi commentary on line 38 of 34a.",
+        en: "and you would deduce that just as the morning's limbs are later than the incense, so too the evening's -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l21"
+        ]
       },
       {
         id: "rashi-yoma-034a-039",
@@ -78703,11 +78755,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 39,
         he: "מאוחרים לה: כמנחת הבקר. תהא מנחת הערב: ולא כאיברי",
-        en: "Rashi commentary on line 39 of 34a.",
+        en: "limbs are later than it (closing). Opens 'like the meal-offering of the morning': the evening's meal-offering shall be the same (closing). Opens 'and not like the limbs of' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l21"
+        ]
       },
       {
         id: "rashi-yoma-034a-040",
@@ -78715,11 +78769,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 40,
         he: "הבקר. איברי הערב: ונסכו רביעית ההין לכבש האחד. גבי",
-        en: "Rashi commentary on line 40 of 34a.",
+        en: "'the morning': meaning the limbs of the evening (closing). Opens \"'and its libation shall be a quarter-hin for the one lamb'\": stated regarding -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-041",
@@ -78727,11 +78783,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 41,
         he: "תמידין כתיב ולימד על האחד שטעון נסכים ומיהו האחד הוא",
-        en: "Rashi commentary on line 41 of 34a.",
+        en: "the daily offerings, teaching that 'the one' requires libations; but 'the one' here is -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-042",
@@ -78739,11 +78797,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 42,
         he: "של ערבית דהא מיניה סליק דכתיב לעיל מיניה ואת הכבש",
-        en: "Rashi commentary on line 42 of 34a.",
+        en: "the evening lamb, since the passage continues directly from it, as it is written just before: 'and the second lamb -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-043",
@@ -78751,11 +78811,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 43,
         he: "השני תעשה בין הערבים ועשירית האיפה סולת וגו' עולת",
-        en: "Rashi commentary on line 43 of 34a.",
+        en: "you shall offer in the afternoon, and a tenth of an ephah of fine flour, etc., the perpetual burnt-offering -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-044",
@@ -78763,11 +78825,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 44,
         he: "תמיד העשויה וגו' ונסכו רביעית ההין: ילמד שחרית",
-        en: "Rashi commentary on line 44 of 34a.",
+        en: "that is made, etc., and its libation a quarter-hin' (closing). Opens 'the morning shall be derived -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-045",
@@ -78775,11 +78839,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 45,
         he: "משל ערבית. מה זה טעון נסכים אף זה טעון נסכים:",
-        en: "Rashi commentary on line 45 of 34a.",
+        en: "from the evening': just as the evening lamb requires libations, so too the morning lamb requires libations (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       },
       {
         id: "rashi-yoma-034a-046",
@@ -78787,11 +78853,13 @@ const DAF_CONTENT = {
         daf: "34a",
         vilnaLine: 46,
         he: "רבי",
-        en: "Rashi commentary on line 46 of 34a.",
+        en: "Truncated: the single word 'Rabbi,' opening a new comment (Rabbi's view that the evening quantity is derived from the morning) that continues onto 34b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034a-l24"
+        ]
       }
     ],
     review: {

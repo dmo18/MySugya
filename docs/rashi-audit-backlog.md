@@ -3850,6 +3850,77 @@ the fourteenth consecutive dangling-link daf found in this corpus
 (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b, 32a, 32b, 33a, 33b),
 closing out the run through 33b. Haiku can resume at 34a.
 
+## 34a, full daf (VERSION 15.39), fifteenth dangling-link daf, escalated from Haiku, first of a 34a-35b batch
+
+Batch escalation from Haiku (34a, 34b, 35a, 35b). Before any edit, the
+33b/34a boundary was re-verified read-only: 33b's truncated final word
+"ת\"ל" ("the verse teaches") is completed by 34a's opening raw Rashi
+print-line, "ת\"ל וערך עליה העולה וגו'" ("the verse teaches: and he
+shall place the burnt-offering upon it, etc."), the exact phrase 33b's
+own final Gemara line quotes. No edit was made to 33b.
+
+Same failure mode as every daf since 27a: of the daf's 46 raw
+talmud.dev Rashi print-lines, only 12 were assigned (vilnaLine 1-12),
+and only 3 of those 12 ids (`l01`, `l03`, `l24`) match real captured
+Gemara lines; the other 9 (`l06`, `l09`, `l11`, `l13`, `l16`, `l19`,
+`l22`, `l27`, `l30`) do not exist as `lines` objects for this daf, and
+even the 3 real ids were attached to the wrong vilnaLine. vilnaLine
+13-46 had no `linkedGemaraLineIds` at all (empty arrays).
+
+The daf's real captured Gemara "lines" objects are `l01`, `l02a`,
+`l02b`, `l03`, `l05`, `l08`, `l10`, `l12`, `l15`, `l16`, `l21`, `l24` -
+twelve ids, taken directly from the raw print-line position
+(`vilna_line` matches the numeric part of the id, with `l02a`/`l02b`
+splitting one raw Gemara print line's two clauses into separate
+captured lines). All 46 Rashi entries were rebuilt from scratch against
+these 12 real ids by walking the raw Hebrew print-lines end to end and
+matching each comment's opening lemma against the Gemara's own quoted
+phrases.
+
+The correspondence: vilnaLine 1-2 (the verse "ve'arach aleha ha'olah"
+proves the burnt-offering is placed first) to `l01`; vilnaLine 3-5
+(the "olah u-mincha" derivation that the meal-offering follows the
+burnt-offering immediately) to `l02a`; vilnaLine 6-11 (the griddle-cake
+is itself a meal-offering, so it too is tied to the tamid, proven from
+the Numbers 28 tenth-ephah verse) to `l02b`; vilnaLine 12-16 ("zevach
+u-nesachim" proving libations follow the sacrifice, then the Gemara's
+own "tannai hi" - Rabbi Yishmael and Rabbi Akiva's dispute in Pesachim
+58a) to `l03`; vilnaLine 17-19 ("ba-yom" implying full daylight, not
+early morning) to `l05`; vilnaLine 19-24 (the "chuka chuka" verbal
+analogy between the griddle-cakes' and frankincense-vessels' "chok
+olam" phrasing) to `l08`; vilnaLine 25-26 (the question of why the
+analogy is not extended to the libations too) to `l10`; vilnaLine
+26-30 (the Rabbis' view that the incense interrupts before the lamps
+are trimmed, glossing the mishna's own "between the blood and the
+lamps") to `l12`; vilnaLine 30-32 ("actually it is the Rabbis' view,
+and the mishna is not being precise about the full order") to `l15`;
+vilnaLine 32-37 (the afternoon incense's relation to the limbs and
+libations, and the morning-meal-offering/limb ordering analogy) to
+`l16`; vilnaLine 37-40 (the "is it written like the limbs of the
+morning" rejection of the analogy's extension to limbs) to `l21`;
+vilnaLine 40-46 (the "quarter-hin" libation verse and Rabbi Yehuda
+HaNasi's "morning is derived from evening" baraita) to `l24`.
+
+vilnaLine 46, the daf's final raw print-line, is the single truncated
+word "רבי" ("Rabbi"), the opening word of Rabbi [Yehuda HaNasi]'s
+statement that continues onto 34b's own opening Rashi line ("רבי אומר
+של ערבית משל שחרית..."), confirmed against 34b's raw Rashi array
+before this fix was applied. Per the established boundary convention,
+it is linked to `l24`, 34a's own final locally captured Gemara line; no
+edit was made to 34b.
+
+All 46 entries were rebuilt in a single indexed pass (a one-off local
+script, not committed), verified by recomputing the Gemara-line-id
+distribution and re-scanning `learning_data.js` for any remaining
+linkedGemaraLineIds not present in the daf's real `lines` objects
+(none found) before applying. `validate:yoma`, `audit:order:yoma`,
+`validate:en:yoma`, `validate:daftext:yoma`, `validate:rashi:yoma`,
+`validate:literal:yoma`, and `validate:schema:yoma` all pass; `npm
+test` and `npm run test:browser` (10/10) both pass. 34a is fully
+resolved, 46/46. This is the fifteenth consecutive dangling-link daf
+found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b,
+32a, 32b, 33a, 33b, 34a). Continuing the escalated 34a-35b batch at 34b.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
