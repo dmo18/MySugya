@@ -80179,11 +80179,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 1,
         he: "גמ' פרווה אמגושא. מכשף אחד",
-        en: "The Chamber of Parva - Parva was a sorcerer who built an underground room.",
+        en: "Opens 'Parva - a sorcerer': one -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l01"
+        ]
       },
       {
         id: "rashi-yoma-035a-002",
@@ -80191,11 +80193,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 2,
         he: "בנאה ושמו פרווה: תנא מניינא",
-        en: "A Persian magician (amgushei) who created a hidden chamber beneath the mikveh.",
+        en: "built it, and his name was Parva (closing). Opens 'the Tanna, [why give] the number' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-003",
@@ -80203,11 +80207,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 3,
         he: "אתא לאשמועינן. דקתני הכל שלשים",
-        en: "To observe the KG at his immersion from below.",
+        en: "comes to teach us - since it taught 'all together thirty -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-004",
@@ -80215,11 +80221,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 4,
         he: "מנה וכי אין אנו יודעין ששמונה עשר",
-        en: "Why a linen (buz) sheet specifically for the privacy screen.",
+        en: "maneh' - but don't we already know that eighteen -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-005",
@@ -80227,11 +80235,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 5,
         he: "ושנים עשר הרי שלשים: הא קמ\"ל.",
-        en: "Because his vestments are also buz - linen - same material prevents confusion.",
+        en: "and twelve make thirty (closing)? Opens 'this teaches us' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-006",
@@ -80239,11 +80249,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 6,
         he: "להכי הדר כיילינהו לאשמועינן דהא",
-        en: "Morning garments - Pelusium linen - 18 maneh.",
+        en: "that is why it repeats and totals them, to teach that -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-007",
@@ -80251,11 +80263,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 7,
         he: "דשלשים מנה סך הכל הוא דיהיב",
-        en: "Afternoon garments - Indian linen - 12 maneh.",
+        en: "the sum of thirty maneh is the total given -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-008",
@@ -80263,11 +80277,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 8,
         he: "שיעורא ליטול מן ההקדש ובציר",
-        en: "If an individual donated them, the KG still uses the public set.",
+        en: "as the measure to take from the Temple treasury, and less -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-009",
@@ -80275,11 +80291,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 9,
         he: "משלשים מנה לא ליעביד סך הכל:",
-        en: "So as not to make the public feel their contribution is inadequate.",
+        en: "than thirty maneh, one may not make the total (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-010",
@@ -80287,11 +80305,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 10,
         he: "הא אי בציר מהני. דשחרית משמונה",
-        en: "And to avoid appearing impoverished if his personal set were inferior.",
+        en: "Opens 'but if it is less than these': the morning offering, if less than eighteen -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-011",
@@ -80299,11 +80319,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 11,
         he: "עשר וטפי אהני דערבית משנים",
-        en: "The public set is always used regardless of private donations.",
+        en: "and the afternoon offering more than twelve, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l04"
+        ]
       },
       {
         id: "rashi-yoma-035a-012",
@@ -80311,11 +80333,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 12,
         he: "עשר לית לן בה: בד בד. ארבעה",
-        en: "If his own were finer he uses his, if the public are finer he uses those.",
+        en: "we do not mind (closing). Opens 'linen, linen': four -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l08"
+        ]
       },
       {
         id: "rashi-yoma-035a-013",
@@ -80323,11 +80347,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 13,
         he: "זימני כתיב בלבישת בגדי שחרית למימר דהוי בד בד המובחר בבד:",
-        en: "The KG's dignity and the public honor are both considered.",
+        en: "times it is written regarding the wearing of the morning linen garments, to say that it means the choicest of the linen (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l08"
+        ]
       },
       {
         id: "rashi-yoma-035a-014",
@@ -80335,11 +80361,13 @@ const DAF_CONTENT = {
         daf: "35a",
         vilnaLine: 14,
         he: "מיתיבי",
-        en: "Conclusion: the public always funds the Yom Kippur vestments.",
+        en: "Truncated: the single word 'they raised an objection,' opening a new challenge that continues onto 35b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-035a-l08"
+        ]
       }
     ],
     review: "reviewed"

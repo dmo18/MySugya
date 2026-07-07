@@ -3988,6 +3988,56 @@ consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
 28b, 29a, 29b, 30a, 30b, 31a, 31b, 32a, 32b, 33a, 33b, 34a, 34b).
 Continuing the batch at 35a.
 
+## 35a, full daf (VERSION 15.41), seventeenth dangling-link daf, third of the 34a-35b escalated batch
+
+Continuing the escalated batch. Before any edit, the 34b/35a boundary
+was re-verified read-only: 34b's truncated final word "גמ'" ("Gemara")
+is completed by 35a's opening raw Rashi print-line, "גמ' פרווה אמגושא"
+("Gemara: Parva - a sorcerer"), matching the Gemara's own opening line
+1 ("גְּמָ׳ מַאי ״פַּרְוָה״? אָמַר רַב יוֹסֵף: פַּרְוָה אַמְגּוּשָׁא").
+No edit was made to 34b.
+
+This short daf (11 raw Gemara print-lines, 14 raw Rashi print-lines)
+had all 14 `rashiTranslations` entries with empty `linkedGemaraLineIds`
+- fully dangling rather than mismapped to wrong-but-real ids, the same
+pattern as the tail of 33b and other daf in this run.
+
+The daf's real captured Gemara "lines" objects are `l01`, `l02`, `l04`,
+and `l08` - four ids. All 14 Rashi entries were rebuilt from scratch
+against these four real ids. The correspondence: vilnaLine 1-2 ("Parva
+- a sorcerer, who built it and whose name was Parva") to `l01`;
+vilnaLine 2-11 (the Tanna's "number" question - why state "all
+together thirty" when eighteen and twelve already total thirty, and
+the answer that thirty is a fixed total permitting mixing between the
+morning and afternoon garment allowances) to `l04`; vilnaLine 12-13
+("linen, linen" written four times regarding the morning garments,
+proving they must be the choicest linen) to `l08`. `l02` (the fine-
+linen privacy screen, "so that he would recognize that the day's
+service is in linen garments") gets no dedicated Rashi comment at all
+- Rashi moves directly from glossing `l01` to `l04` without a separate
+gloss on this short, self-explanatory clause, the same kind of no-fold
+gap already documented for earlier daf in this run.
+
+vilnaLine 14, the daf's final raw print-line, is the single truncated
+word "מיתיבי" ("they raised an objection"), confirmed against 35b's
+raw Rashi array ("מיתיבי גרסינן ברישא...") before this fix was
+applied, matching 35b's own opening Gemara line ("מיתיבי ולבשו בגדים
+אחרים..."). Per the established boundary convention it is linked to
+`l08`, 35a's own final locally captured Gemara line; no edit was made
+to 35b.
+
+All 14 entries were rebuilt in a single indexed pass (a one-off local
+script, not committed), verified by recomputing the Gemara-line-id
+distribution and re-scanning `learning_data.js` for any remaining
+linkedGemaraLineIds not present in the daf's real `lines` objects
+(none found) before applying. `validate:yoma`, `audit:order:yoma`,
+`validate:en:yoma`, `validate:daftext:yoma`, `validate:rashi:yoma`,
+`validate:literal:yoma`, and `validate:schema:yoma` all pass; `npm
+test` and `npm run test:browser` (10/10) both pass. 35a is fully
+resolved, 14/14. This is the seventeenth consecutive dangling-link daf
+found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b,
+32a, 32b, 33a, 33b, 34a, 34b, 35a). Continuing the batch at 35b.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

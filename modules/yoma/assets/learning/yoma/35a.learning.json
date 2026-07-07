@@ -320,73 +320,101 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The Chamber of Parva - Parva was a sorcerer who built an underground room.",
-      "linkedGemaraLineIds": []
+      "en": "Opens 'Parva - a sorcerer': one -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "A Persian magician (amgushei) who created a hidden chamber beneath the mikveh.",
-      "linkedGemaraLineIds": []
+      "en": "built it, and his name was Parva (closing). Opens 'the Tanna, [why give] the number' -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "To observe the KG at his immersion from below.",
-      "linkedGemaraLineIds": []
+      "en": "comes to teach us - since it taught 'all together thirty -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Why a linen (buz) sheet specifically for the privacy screen.",
-      "linkedGemaraLineIds": []
+      "en": "maneh' - but don't we already know that eighteen -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Because his vestments are also buz - linen - same material prevents confusion.",
-      "linkedGemaraLineIds": []
+      "en": "and twelve make thirty (closing)? Opens 'this teaches us' -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Morning garments - Pelusium linen - 18 maneh.",
-      "linkedGemaraLineIds": []
+      "en": "that is why it repeats and totals them, to teach that -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Afternoon garments - Indian linen - 12 maneh.",
-      "linkedGemaraLineIds": []
+      "en": "the sum of thirty maneh is the total given -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "If an individual donated them, the KG still uses the public set.",
-      "linkedGemaraLineIds": []
+      "en": "as the measure to take from the Temple treasury, and less -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "So as not to make the public feel their contribution is inadequate.",
-      "linkedGemaraLineIds": []
+      "en": "than thirty maneh, one may not make the total (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "And to avoid appearing impoverished if his personal set were inferior.",
-      "linkedGemaraLineIds": []
+      "en": "Opens 'but if it is less than these': the morning offering, if less than eighteen -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The public set is always used regardless of private donations.",
-      "linkedGemaraLineIds": []
+      "en": "and the afternoon offering more than twelve, -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l04"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "If his own were finer he uses his, if the public are finer he uses those.",
-      "linkedGemaraLineIds": []
+      "en": "we do not mind (closing). Opens 'linen, linen': four -",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l08"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The KG's dignity and the public honor are both considered.",
-      "linkedGemaraLineIds": []
+      "en": "times it is written regarding the wearing of the morning linen garments, to say that it means the choicest of the linen (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l08"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Conclusion: the public always funds the Yom Kippur vestments.",
-      "linkedGemaraLineIds": []
+      "en": "Truncated: the single word 'they raised an objection,' opening a new challenge that continues onto 35b.",
+      "linkedGemaraLineIds": [
+        "yoma-035a-l08"
+      ]
     }
   ]
 }
