@@ -26,291 +26,381 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Mitzva to brush urine drops off legs so they cannot be seen.",
+      "en": "Rashi: opens 'it is a mitzva to rub with his hand' - the drops of urine that splash onto his feet, so that he not go out",
       "linkedGemaraLineIds": [
         "yoma-030a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rav Pappa: excrement in its place (on the body) has a different rule than excrement on the flesh.",
+      "en": "Rashi: continues - with them outside and appear to have a severed member, since his urine does not flow in a stream but trickles",
       "linkedGemaraLineIds": [
-        "yoma-030a-l02"
+        "yoma-030a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "What is different about excrement on the flesh vs in its place?",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Baraita: washing hands before a meal - where should one wash in public?",
+      "en": "Rashi: concludes - and one with a severed member cannot father children, and they would say his children are not his own. Then opens 'in its place' - at the hole of",
       "linkedGemaraLineIds": [
         "yoma-030a-l04"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Rav Chisda: wash only where others can see you do so.",
+      "vilnaLine": 4,
+      "en": "Rashi: concludes - the anus, this is forbidden for reciting the Shema. Then opens 'his hands were in the bathroom' - a partition separates",
       "linkedGemaraLineIds": [
-        "yoma-030a-l05"
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "Rashi: continues - and the bathroom is on the inner side of the partition, and this one",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Mishna: no one enters the Temple courtyard for service without immersing, even if pure.",
+      "en": "Rashi: concludes - inserted his hands through a hole in the partition. Then opens 'and Rav'",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "Rashi: continues DH - Chisda said: forbidden' - because of the verse 'all",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Rashi: continues - my bones shall say,' etc. (Psalms 35)",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Rashi: continues - the reason is because of 'all my bones,' but not because of",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Rashi: continues - the foulness of the smell; and this poses a difficulty for Rav Pappa",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "Rashi: concludes - from both of them. Then opens 'in its place there is more foulness' -",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "Rashi: continues - since it is warm, not having been exposed to open air, and",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l08"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "Rashi: concludes - its smell has not dispersed. Then opens 'a halakha regarding a meal' - meaning",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "Rashi: concludes - this halakha was stated among the halakhot of a meal.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "Rashi: opens 'a person' - who goes out from the meal to urinate",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "Rashi: continues - washes one hand, the one with which he wiped",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "Rashi: concludes - the drops with. Then opens 'and delayed' - lingered. Then opens 'washes' -",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Rashi: continues DH - both his hands' - since, having lingered an hour",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "Rashi: continues - or two, he turned his mind away from his meal and did not",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Rashi: concludes - take care to guard his hands, and they are active. Then opens 'he should not' -",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rashi: continues DH - wash outside' - so that they not say about him that he did not",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "Rashi: concludes - wash. Then opens 'and he returns the pitcher to the guests' - so is the reading",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "Rashi: continues - of it in the Tosefta (chapter 4) of Berachot: a pitcher is a jug",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "Rashi: continues - from which water is poured on the hands; he returns it",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "Rashi: continues - to the guests who are reclining, and the attendant returns it",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "Rashi: continues - to them and says: is there among you one who still needs to wash",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "Rashi: concludes - and this is only to make known that this one who brought in",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l13"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Rashi: concludes - his hands has washed. Then opens 'we only said this' - that he need not",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "Rashi: continues - wash outside, except that he no longer needs",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "Rashi: continues - to eat, but rather he enters to drink, since they were",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "Rashi: continues - accustomed to prolong their drinking after",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "Rashi: continues - the meal; but nevertheless he must wash, lest he put",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "Rashi: concludes - a piece of bread into his mouth. Then opens 'it is well known that he is uneasy'",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "Rashi: concludes - about it, and they do not suspect him. Then marks the start of the new mishna.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l18"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "Rashi: opens 'for the service' - not precisely, for a person does not enter",
       "linkedGemaraLineIds": [
         "yoma-030a-l22"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Ben Zoma asked: why does a pure person need to immerse?",
+      "vilnaLine": 36,
+      "en": "Rashi: continues - the courtyard for any purpose until he immerses, and the reason is explained",
       "linkedGemaraLineIds": [
-        "yoma-030a-l24"
+        "yoma-030a-l22"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "R. Yehuda: it is an ancillary immersion, not a biblical obligation - to remind one that one is already pure.",
+      "vilnaLine": 37,
+      "en": "Rashi: concludes - in the Gemara. Then opens 'five immersions, etc.' - he derives",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "Rashi: concludes - it in the Gemara. Then opens 'on the Beit HaParva' - on the roof of",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "Rashi: concludes - the chamber of Beit HaParva. Then opens 'except for this one' - the first",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "Rashi: continues - which does not come as an obligation specific to Yom Kippur,",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "Rashi: continues - since it also occurs every other day too, but the immersions",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Rashi: continues - that come as an obligation for Yom Kippur, it is written of them",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "Rashi: concludes - 'in a sacred place,' in the passage of Acharei Mot.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "Rashi: opens 'gemara: this immersion' - the one performed every morning, why",
       "linkedGemaraLineIds": [
         "yoma-030a-l28"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "What difference flows from their dispute?",
+      "vilnaLine": 45,
+      "en": "Rashi: concludes - is it required for one who is pure? Then opens 'and just as one who changes from sacred to sacred, etc.' -",
       "linkedGemaraLineIds": [
-        "yoma-030a-l35"
+        "yoma-030a-l28"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "In its place the smell is stronger - the odor has not escaped into the air.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "There is intense odor where it has not dispersed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Halacha is discussed here in the context of meal rules.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "A person who left the meal to urinate should wash one hand - the one that wiped the drops.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "He delayed - he took a long time.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "He washes both hands - since he delayed one or two hours.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "He distracted himself from the meal and was not careful to keep his hands clean.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Hands are busy and might touch things.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "He should not wash outside - so they do not say he did not wash inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "He returns the flask to the guests - as taught in Tosefta Berachot (ch. 4).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Flask - a jug from which water is poured over hands.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "He returns it to the diners and the attendant goes around asking.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "'Is there anyone who needs to wash?' Only to publicize that this person washed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "This only applies when he no longer needs to eat but only to drink.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "As they customarily extended the drinking session after the meal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Yet he needs to wash in case he touches a piece of food.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "It is known that he is distracted - and they do not suspect him.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Mishna: for the avodah - not specifically for it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "One may not enter the Temple Courtyard without immersing; the reason is explained in the Gemara.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Five immersions etc. - derived in the Gemara.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "On the roof of the Chamber of Parva.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Except for this first one - the first morning immersion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Which is not obligatory for Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Since it is also done every ordinary day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "But the Yom Kippur-obligatory immersions are written 'in a holy place.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Gemara: why this immersion - the morning one? For a pure person?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "And the lesser changes to a more sacred - the KG on Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Who performs five services between outside and inside, both sacred, and liable for entering impure.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Requires immersion - between each service as derived.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "What about the change from sacred to sacred on an ordinary day?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "A kohen who changes from one Temple service to another.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Does he also need to immerse?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "This is the Yom Kippur requirement derived from 'in a holy place' in Acharei Mot.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Gemara: this immersion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Why immerse when pure?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "The greater to lesser - KG on Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 46,
-      "en": "In five services on Yom Kippur shifting between outside and inside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the High Priest, in the five services on Yom Kippur,",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l28"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "Both places are sacred and one is liable for entering impure; immersion is required between services.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - which alternate from outside to inside and from inside to outside, since both places are sacred, and for entering either of them impure",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l28"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "As derived in the Gemara.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - one is liable to karet. Then opens 'requires immersion' - between one service and the next, as he derives",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l28"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - further on in this chapter (32a); and this one who comes from his home to the courtyard, which is from the mundane to the sacred, etc.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l28"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'this is a mere formality of immersion' - there is no Torah obligation here, but rather to establish an order and to hold onto",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l33"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the name of immersion, so that it come to mind that immersion is only for the impure, and so that he take to heart",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l33"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - whether there is impurity upon him, and remember old impurity that may be upon him and forgotten, and separate",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l33"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - from entering the courtyard that day, until his purification is complete after the immersion, and not serve that day before then.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l33"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 30a.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'in the profanation of,' the start of the dibbur hamatchil 'the service' - regarding whether failing to immerse before serving invalidates the service performed, whose text continues on 30b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-030a-l35"
+      ]
     }
   ],
   "sugyot": [

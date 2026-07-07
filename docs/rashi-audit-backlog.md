@@ -3267,6 +3267,75 @@ This closes out a sixth consecutive dangling-link daf (27a, 27b, 28a,
 default expectation, not an edge case, for the remainder of this
 corpus.
 
+## 30a, full daf (VERSION 15.31), seventh dangling-link daf, worse than prior six
+
+Resuming forward production after the 20a-29b audit closed clean. The
+29a/29b to 30a boundary was independently re-verified read-only before
+any edit: 29b's truncated final word "מצוה" (a matter of proper
+conduct) is completed by 30a's opening, which begins with a fresh
+dibbur hamatchil ("מצוה לשפשף בידו") rather than a direct word
+continuation, but both concern the same "proper conduct" teaching
+about hand-sanctification and the mitzva to wipe away drops of urine,
+consistent with 29b's own final locally captured Gemara line (Rabbi
+Abba's teaching). No edit was made to 29b.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 30a has 54 lines, matching the prior
+enrichment JSON's 54 `rashiTranslations` entries, an exact count
+match - independently re-confirmed rather than trusted from any
+earlier note.
+
+Checking every existing `linkedGemaraLineIds` value against 30a's 9
+real captured Gemara/mishna ids (`l01`, `l04`, `l08`, `l13`, `l18`,
+`l22` (mishna), `l28`, `l33`, `l35`) found this daf worse than the
+prior six dangling-link daf: only vilnaLine 1 had a live id, vilnaLine
+2, 3, 5, and 7 pointed to nonexistent unpadded ids, and vilnaLine
+10-54 (45 entries) had `linkedGemaraLineIds` entirely empty. The whole
+daf carried the older generic descriptive-style filler text (for
+example, "Mitzva to brush urine drops off legs so they cannot be
+seen." at vilnaLine 1), not per-print-line translations. The whole
+daf was rebuilt using the list-indexed methodology.
+
+All 54 raw Rashi print lines were read against the raw Gemara/mishna
+text and the 9 real captured line ids, using the multi-DH rule. The
+correspondence: vilnaLine 1-2 (the mitzva to wipe away urine drops,
+so as not to appear to have a severed member) to `l01`; 3 (feces at
+its own place, forbidden for reciting the Shema) to `l04`; 4-12 (the
+partition in the bathroom, the Rav Huna/Rav Chisda dispute over
+reciting the Shema with unseen feces, citing Psalms 35) to `l08`;
+13-27 (the halakha of washing hands during a meal, one hand or two,
+returning the pitcher to the guests, citing Tosefta Berachot) to
+`l13`; 28-34 (washing is only required before eating, not merely
+continued drinking, lest he take bread in his hand; bare "מתני'"
+marker at the end of vilnaLine 34 stays with `l18` per the same
+convention already documented at 20a, since no new gloss content
+begins until the following line) to `l18`; 35-43 (the mishna's own
+five immersions and ten sanctifications, the Beit HaParva exception)
+to `l22`; 44-49 (Ben Zoma's question on why the immersion is
+required, deriving it from a change of sacred-to-sacred domain) to
+`l28`; 50-53 (Rabbi Yehuda's view that the immersion is a mere
+formality, not a Torah-level obligation) to `l33`. `l35` receives no
+dedicated mid-daf vilnaLine (it opens only at the daf's own final
+truncated word, per the boundary case below).
+
+vilnaLine 54, the daf's final truncated word "באחולי" (in the
+profanation of), is the same kind of boundary case as every other daf
+ending in this run: per the policy, it is linked to `yoma-030a-l35`,
+30a's own final locally captured Gemara line (the Gemara's opening
+question "in what do they disagree"), even though the DH's own point
+is itself still open at the point of truncation. 30b's own opening
+line ("באחולי עבודה. אם לא טבל שחרית ועבד") was read read-only to
+confirm this word begins a dibbur hamatchil about whether failing to
+immerse before serving invalidates the service performed, continuing
+onto 30b; no edit was made to 30b.
+
+All 54 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying. 30a is fully resolved, 54/54. This is the seventh
+consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
+28b, 29a, 29b, 30a), and the first where the majority of entries had
+no link at all rather than a wrong one.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

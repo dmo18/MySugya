@@ -69268,7 +69268,7 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 1,
         he: "מצוה לשפשף בידו. ניצוצות של מי רגלים הניתזין על רגליו שלא יצא",
-        en: "Mitzva to brush urine drops off legs so they cannot be seen.",
+        en: "Rashi: opens 'it is a mitzva to rub with his hand' - the drops of urine that splash onto his feet, so that he not go out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -69282,12 +69282,12 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 2,
         he: "בהן חוץ ונראה ככרות שפכה שאין מי רגליו מקלחין אלא שותתין",
-        en: "Rav Pappa: excrement in its place (on the body) has a different rule than excrement on the flesh.",
+        en: "Rashi: continues - with them outside and appear to have a severed member, since his urine does not flow in a stream but trickles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l02"
+          "yoma-030a-l01"
         ]
       },
       {
@@ -69296,21 +69296,7 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 3,
         he: "וכרות שפכה אינו מוליד ויאמרו על בניו שאינם שלו: במקומה. בנקב",
-        en: "What is different about excrement on the flesh vs in its place?",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-030a-l03"
-        ]
-      },
-      {
-        id: "rashi-yoma-030a-004",
-        sourceType: "rashi",
-        daf: "30a",
-        vilnaLine: 4,
-        he: "פי הטבעת אסור זה לקרות ק\"ש: ידיו בבית הכסא. מחיצה מפסקת",
-        en: "Baraita: washing hands before a meal - where should one wash in public?",
+        en: "Rashi: concludes - and one with a severed member cannot father children, and they would say his children are not his own. Then opens 'in its place' - at the hole of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -69319,17 +69305,31 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-030a-004",
+        sourceType: "rashi",
+        daf: "30a",
+        vilnaLine: 4,
+        he: "פי הטבעת אסור זה לקרות ק\"ש: ידיו בבית הכסא. מחיצה מפסקת",
+        en: "Rashi: concludes - the anus, this is forbidden for reciting the Shema. Then opens 'his hands were in the bathroom' - a partition separates",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-030a-l08"
+        ]
+      },
+      {
         id: "rashi-yoma-030a-005",
         sourceType: "rashi",
         daf: "30a",
         vilnaLine: 5,
         he: "ובית הכסא לפנים מהמחיצה וזה",
-        en: "Rav Chisda: wash only where others can see you do so.",
+        en: "Rashi: continues - and the bathroom is on the inner side of the partition, and this one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l05"
+          "yoma-030a-l08"
         ]
       },
       {
@@ -69338,12 +69338,12 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 6,
         he: "הכניס ידיו דרך חור שבמחיצה: ורב",
-        en: "Mishna: no one enters the Temple courtyard for service without immersing, even if pure.",
+        en: "Rashi: concludes - inserted his hands through a hole in the partition. Then opens 'and Rav'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l22"
+          "yoma-030a-l08"
         ]
       },
       {
@@ -69352,12 +69352,12 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 7,
         he: "חסדא אמר אסור. משום כל",
-        en: "Ben Zoma asked: why does a pure person need to immerse?",
+        en: "Rashi: continues DH - Chisda said: forbidden' - because of the verse 'all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l24"
+          "yoma-030a-l08"
         ]
       },
       {
@@ -69366,12 +69366,12 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 8,
         he: "עצמותי תאמרנה וגו' (תהלים לה)",
-        en: "R. Yehuda: it is an ancillary immersion, not a biblical obligation - to remind one that one is already pure.",
+        en: "Rashi: continues - my bones shall say,' etc. (Psalms 35)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l28"
+          "yoma-030a-l08"
         ]
       },
       {
@@ -69380,12 +69380,12 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 9,
         he: "טעמא משום כל עצמותי אבל משום",
-        en: "What difference flows from their dispute?",
+        en: "Rashi: continues - the reason is because of 'all my bones,' but not because of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030a-l35"
+          "yoma-030a-l08"
         ]
       },
       {
@@ -69394,11 +69394,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 10,
         he: "זוהמת הריח לא וקשיא לרב פפא",
-        en: "In its place the smell is stronger - the odor has not escaped into the air.",
+        en: "Rashi: continues - the foulness of the smell; and this poses a difficulty for Rav Pappa",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l08"
+        ]
       },
       {
         id: "rashi-yoma-030a-011",
@@ -69406,11 +69408,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 11,
         he: "מתרוייהו: במקומה נפיש זוהמא.",
-        en: "There is intense odor where it has not dispersed.",
+        en: "Rashi: concludes - from both of them. Then opens 'in its place there is more foulness' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l08"
+        ]
       },
       {
         id: "rashi-yoma-030a-012",
@@ -69418,11 +69422,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 12,
         he: "שחמה היא שלא יצאה לאויר ולא",
-        en: "Halacha is discussed here in the context of meal rules.",
+        en: "Rashi: continues - since it is warm, not having been exposed to open air, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l08"
+        ]
       },
       {
         id: "rashi-yoma-030a-013",
@@ -69430,11 +69436,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 13,
         he: "נתפזר ריחה: הלכה בסעודה. כלומר",
-        en: "A person who left the meal to urinate should wash one hand - the one that wiped the drops.",
+        en: "Rashi: concludes - its smell has not dispersed. Then opens 'a halakha regarding a meal' - meaning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-014",
@@ -69442,11 +69450,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 14,
         he: "הלכה זו אמרו בהלכות סעודה:",
-        en: "He delayed - he took a long time.",
+        en: "Rashi: concludes - this halakha was stated among the halakhot of a meal.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-015",
@@ -69454,11 +69464,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 15,
         he: "אדם. שיצא מתוך הסעודה להשתין",
-        en: "He washes both hands - since he delayed one or two hours.",
+        en: "Rashi: opens 'a person' - who goes out from the meal to urinate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-016",
@@ -69466,11 +69478,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 16,
         he: "מים נוטל ידו אחת אותה ששיפשף",
-        en: "He distracted himself from the meal and was not careful to keep his hands clean.",
+        en: "Rashi: continues - washes one hand, the one with which he wiped",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-017",
@@ -69478,11 +69492,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 17,
         he: "בה ניצוצות: והפליג. שהה: נוטל",
-        en: "Hands are busy and might touch things.",
+        en: "Rashi: concludes - the drops with. Then opens 'and delayed' - lingered. Then opens 'washes' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-018",
@@ -69490,11 +69506,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 18,
         he: "שתי ידיו. דכיון שהפליג שעה אחת",
-        en: "He should not wash outside - so they do not say he did not wash inside.",
+        en: "Rashi: continues DH - both his hands' - since, having lingered an hour",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-019",
@@ -69502,11 +69520,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 19,
         he: "או שתים הסיח דעתו מסעודתו ולא",
-        en: "He returns the flask to the guests - as taught in Tosefta Berachot (ch. 4).",
+        en: "Rashi: continues - or two, he turned his mind away from his meal and did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-020",
@@ -69514,11 +69534,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 20,
         he: "נזהר לשמור ידיו והן עסקניות: לא",
-        en: "Flask - a jug from which water is poured over hands.",
+        en: "Rashi: concludes - take care to guard his hands, and they are active. Then opens 'he should not' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-021",
@@ -69526,11 +69548,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 21,
         he: "יטול מבחוץ. שלא יאמרו עליו לא",
-        en: "He returns it to the diners and the attendant goes around asking.",
+        en: "Rashi: continues DH - wash outside' - so that they not say about him that he did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-022",
@@ -69538,11 +69562,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 22,
         he: "נטל: ומחזיר הטפיח על האורחין. ה\"ג",
-        en: "'Is there anyone who needs to wash?' Only to publicize that this person washed.",
+        en: "Rashi: concludes - wash. Then opens 'and he returns the pitcher to the guests' - so is the reading",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-023",
@@ -69550,11 +69576,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 23,
         he: "לה בתוספתא [פ\"ד] דברכות טפיח פך",
-        en: "This only applies when he no longer needs to eat but only to drink.",
+        en: "Rashi: continues - of it in the Tosefta (chapter 4) of Berachot: a pitcher is a jug",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-024",
@@ -69562,11 +69590,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 24,
         he: "שיוצקין ממנו מים על הידים מחזירו",
-        en: "As they customarily extended the drinking session after the meal.",
+        en: "Rashi: continues - from which water is poured on the hands; he returns it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-025",
@@ -69574,11 +69604,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 25,
         he: "על האורחים המסובין והשמש מחזירו",
-        en: "Yet he needs to wash in case he touches a piece of food.",
+        en: "Rashi: continues - to the guests who are reclining, and the attendant returns it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-026",
@@ -69586,11 +69618,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 26,
         he: "עליהן ואומר יש בכם הצריך ליטול",
-        en: "It is known that he is distracted - and they do not suspect him.",
+        en: "Rashi: continues - to them and says: is there among you one who still needs to wash",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-027",
@@ -69598,11 +69632,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 27,
         he: "ואין זאת אלא להודיע שנטל זה",
-        en: "Mishna: for the avodah - not specifically for it.",
+        en: "Rashi: concludes - and this is only to make known that this one who brought in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l13"
+        ]
       },
       {
         id: "rashi-yoma-030a-028",
@@ -69610,11 +69646,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 28,
         he: "שהכניס את ידיו: לא אמרן. דלא",
-        en: "One may not enter the Temple Courtyard without immersing; the reason is explained in the Gemara.",
+        en: "Rashi: concludes - his hands has washed. Then opens 'we only said this' - that he need not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-029",
@@ -69622,11 +69660,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 29,
         he: "יטול בחוץ אלא שאינו צריך עוד",
-        en: "Five immersions etc. - derived in the Gemara.",
+        en: "Rashi: continues - wash outside, except that he no longer needs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-030",
@@ -69634,11 +69674,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 30,
         he: "לאכול אלא לשתות הוא נכנס שהיו",
-        en: "On the roof of the Chamber of Parva.",
+        en: "Rashi: continues - to eat, but rather he enters to drink, since they were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-031",
@@ -69646,11 +69688,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 31,
         he: "רגילין להאריך לשתות בשתיה אחר",
-        en: "Except for this first one - the first morning immersion.",
+        en: "Rashi: continues - accustomed to prolong their drinking after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-032",
@@ -69658,11 +69702,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 32,
         he: "המזון ומיהו צריך ליטול שמא יתן",
-        en: "Which is not obligatory for Yom Kippur.",
+        en: "Rashi: continues - the meal; but nevertheless he must wash, lest he put",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-033",
@@ -69670,11 +69716,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 33,
         he: "פרוסה לתוך פיו: מידע ידיע דאנינא",
-        en: "Since it is also done every ordinary day.",
+        en: "Rashi: concludes - a piece of bread into his mouth. Then opens 'it is well known that he is uneasy'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-034",
@@ -69682,11 +69730,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 34,
         he: "דעתיה. ולא חשדי ליה: מתני'",
-        en: "But the Yom Kippur-obligatory immersions are written 'in a holy place.'",
+        en: "Rashi: concludes - about it, and they do not suspect him. Then marks the start of the new mishna.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l18"
+        ]
       },
       {
         id: "rashi-yoma-030a-035",
@@ -69694,11 +69744,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 35,
         he: "לעבודה. לאו דוקא דאין אדם נכנס",
-        en: "Gemara: why this immersion - the morning one? For a pure person?",
+        en: "Rashi: opens 'for the service' - not precisely, for a person does not enter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-036",
@@ -69706,11 +69758,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 36,
         he: "לעזרה עד שיטבול וטעמא מפרש",
-        en: "And the lesser changes to a more sacred - the KG on Yom Kippur.",
+        en: "Rashi: continues - the courtyard for any purpose until he immerses, and the reason is explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-037",
@@ -69718,11 +69772,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 37,
         he: "בגמרא: חמש טבילות וכו'. יליף",
-        en: "Who performs five services between outside and inside, both sacred, and liable for entering impure.",
+        en: "Rashi: concludes - in the Gemara. Then opens 'five immersions, etc.' - he derives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-038",
@@ -69730,11 +69786,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 38,
         he: "לה בגמרא: על בית הפרוה. על גג",
-        en: "Requires immersion - between each service as derived.",
+        en: "Rashi: concludes - it in the Gemara. Then opens 'on the Beit HaParva' - on the roof of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-039",
@@ -69742,11 +69800,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 39,
         he: "לשכת בית הפרוה: חוץ מזו. הראשונה",
-        en: "What about the change from sacred to sacred on an ordinary day?",
+        en: "Rashi: concludes - the chamber of Beit HaParva. Then opens 'except for this one' - the first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-040",
@@ -69754,11 +69814,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 40,
         he: "שאינה באה חובה ליום הכפורים",
-        en: "A kohen who changes from one Temple service to another.",
+        en: "Rashi: continues - which does not come as an obligation specific to Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-041",
@@ -69766,11 +69828,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 41,
         he: "דהא כל יומא נמי איתא אבל טבילות",
-        en: "Does he also need to immerse?",
+        en: "Rashi: continues - since it also occurs every other day too, but the immersions",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-042",
@@ -69778,11 +69842,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 42,
         he: "הבאות חובה ליוה\"כ כתיב בהן",
-        en: "This is the Yom Kippur requirement derived from 'in a holy place' in Acharei Mot.",
+        en: "Rashi: continues - that come as an obligation for Yom Kippur, it is written of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-043",
@@ -69790,11 +69856,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 43,
         he: "במקום קדוש בעניינא דאחרי מות:",
-        en: "Gemara: this immersion.",
+        en: "Rashi: concludes - 'in a sacred place,' in the passage of Acharei Mot.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l22"
+        ]
       },
       {
         id: "rashi-yoma-030a-044",
@@ -69802,11 +69870,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 44,
         he: "גמ' טבילה זו. של כל שחרית למה",
-        en: "Why immerse when pure?",
+        en: "Rashi: opens 'gemara: this immersion' - the one performed every morning, why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-045",
@@ -69814,11 +69884,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 45,
         he: "לטהור: ומה המשנה מקודש וכו'.",
-        en: "The greater to lesser - KG on Yom Kippur.",
+        en: "Rashi: concludes - is it required for one who is pure? Then opens 'and just as one who changes from sacred to sacred, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-046",
@@ -69826,11 +69898,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 46,
         he: "כהן גדול בחמש עבודות ביוה\"כ",
-        en: "In five services on Yom Kippur shifting between outside and inside.",
+        en: "Rashi: continues - the High Priest, in the five services on Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-047",
@@ -69838,11 +69912,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 47,
         he: "המשתנות מחוץ לפנים ומפנים לחוץ ששני המקומות קדש ועל שניהן",
-        en: "Both places are sacred and one is liable for entering impure; immersion is required between services.",
+        en: "Rashi: continues - which alternate from outside to inside and from inside to outside, since both places are sacred, and for entering either of them impure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-048",
@@ -69850,11 +69926,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 48,
         he: "ענוש כרת הנכנס בטומאה: טעון טבילה. בין עבודה לעבודה כדיליף",
-        en: "As derived in the Gemara.",
+        en: "Rashi: concludes - one is liable to karet. Then opens 'requires immersion' - between one service and the next, as he derives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-049",
@@ -69862,11 +69940,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 49,
         he: "בפרקין (דף לב.) וזה הבא מביתו לעזרה שהוא מחול אל הקדש וכו':",
-        en: "Rashi commentary on line 49 of 30a.",
+        en: "Rashi: concludes - further on in this chapter (32a); and this one who comes from his home to the courtyard, which is from the mundane to the sacred, etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l28"
+        ]
       },
       {
         id: "rashi-yoma-030a-050",
@@ -69874,11 +69954,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 50,
         he: "סרך טבילה היא זו. אין כאן חובה מן התורה אלא לסרך ולתפוש",
-        en: "Rashi commentary on line 50 of 30a.",
+        en: "Rashi: opens 'this is a mere formality of immersion' - there is no Torah obligation here, but rather to establish an order and to hold onto",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l33"
+        ]
       },
       {
         id: "rashi-yoma-030a-051",
@@ -69886,11 +69968,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 51,
         he: "בשם טבילה כדי לעלות על לב שאין טבילה אלא לטמאין ולתת ללבו",
-        en: "Rashi commentary on line 51 of 30a.",
+        en: "Rashi: continues - the name of immersion, so that it come to mind that immersion is only for the impure, and so that he take to heart",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l33"
+        ]
       },
       {
         id: "rashi-yoma-030a-052",
@@ -69898,11 +69982,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 52,
         he: "אם יש טומאה עליו ויזכור טומאה ישנה שיש עליו ושכחה ויפרוש",
-        en: "Rashi commentary on line 52 of 30a.",
+        en: "Rashi: continues - whether there is impurity upon him, and remember old impurity that may be upon him and forgotten, and separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l33"
+        ]
       },
       {
         id: "rashi-yoma-030a-053",
@@ -69910,11 +69996,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 53,
         he: "מלבא לעזרה היום עד שיעריב שמשו אחר הטבילה ולא יעבוד היום:",
-        en: "Rashi commentary on line 53 of 30a.",
+        en: "Rashi: concludes - from entering the courtyard that day, until his purification is complete after the immersion, and not serve that day before then.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l33"
+        ]
       },
       {
         id: "rashi-yoma-030a-054",
@@ -69922,11 +70010,13 @@ const DAF_CONTENT = {
         daf: "30a",
         vilnaLine: 54,
         he: "באחולי",
-        en: "Rashi commentary on line 54 of 30a.",
+        en: "Rashi: the daf's final truncated word - 'in the profanation of,' the start of the dibbur hamatchil 'the service' - regarding whether failing to immerse before serving invalidates the service performed, whose text continues on 30b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030a-l35"
+        ]
       }
     ],
     review: {
