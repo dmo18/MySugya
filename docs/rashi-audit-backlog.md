@@ -4584,6 +4584,88 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 39b), the eighth
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 40a, full daf (VERSION 15.52), twenty-seventh dangling-link daf, ninth of the 36a-52b batch
+
+Escalated from a prior session that got stuck on one placement question
+(see below). Real ids extracted directly from `learning_data.js` first:
+15 ids (`l01`, `l03`, `l04`, `l07`, `l10`, `l15a`, `l15b`, `l16`, `l19`,
+`l21`, `l23`, `l27`, `l28`, `l29`, `l31`), including one letter-suffixed
+split pair (`l15a`/`l15b`, the two clauses of one baraita sentence: "the
+bull disqualifies the goat" and "the goat does not disqualify the bull,
+regarding the inner sprinklings"). 65 raw Rashi print-lines, all fully
+dangling before this fix.
+
+**The escalated question.** The phrase "at the inner gifts" (`במתנות
+שבפנים`) appears twice in 40a's real Gemara text: once in `l15b`'s own
+text (the baraita's original statement) and again in `l27` (a later
+challenge quoting it back: "but it explicitly teaches 'at the inner
+gifts'!"). Raw Rashi vilnaLine 51 ("`במתנות שבפנים. קאמרי דסדר הפר
+מעכב את השעיר`") glosses this phrase, and it was unclear from the
+Hebrew alone which occurrence it targets.
+
+Resolved to `l15b`, not `l27`, on two independent grounds. First,
+textual: the catchword "at the inner gifts" is quoted verbatim only in
+`l15b`'s own text; `l27`'s text is "but it explicitly teaches 'at the
+inner gifts'!", a challenge that reuses the phrase but is not itself
+the phrase's source. Second, and decisively, positional: Rashi's print
+comments run strictly in the Gemara's own linear order down the page.
+Comments unambiguously matching `l16` (vilnaLine 53-54), `l19`
+(vilnaLine 55-57), `l21` (vilnaLine 58-61), `l23` (vilnaLine 62), and
+`l29` (vilnaLine 63) all appear later in the print sequence than
+vilnaLine 51. Since `l27` comes after `l23` in the Gemara's own order,
+a comment on `l27` would have to appear after the comments on `l16`,
+`l19`, `l21`, and `l23` in the print, not before them. VilnaLine 51
+appears before all of them, so it cannot be commenting on `l27`. The
+comment's own content confirms this: it clarifies the scope of the
+baraita's original two-clause statement ("they mean that this
+qualifies the sequencing whereby the bull disqualifies the goat"),
+which is what a first-pass gloss on `l15b` does, not what a
+challenge-response gloss on `l27` would say.
+
+The correspondence: vilnaLine 1-2 (with a one-word tail into vilnaLine
+3, "Nechemia's:") the setup naming which Tanna the emended baraita
+fits, to `l01`; vilnaLine 3-7 (the emendation "teach: it is a mitzva to
+place," with Rashi's own proof from the verses being written once for
+placing but twice for raising) to `l03`; vilnaLine 8-9 (the "and to
+confess" clause) to `l04`; vilnaLine 10-18 ("if we say he did not
+place," Rabbi Shimon's view on raising, and the goat-died baraita
+cross-referenced to 62a) to `l07`; vilnaLine 19-36 ("Rabbi Shimon did
+not know," Rashi's own two-branch resolution distinguishing actual
+drawing from placing, closing with the reason for both being folded
+into the confession) to `l10`; vilnaLine 37-48 (the long service-order
+comment on "the bull disqualifies the goat," listing the full
+confession/lottery/sprinkling sequence) to `l15a`; vilnaLine 49-51 ("the
+goat does not disqualify the bull" and the "at the inner gifts"
+qualifier, per the escalated resolution above) to `l15b`; vilnaLine 52
+(continuing "if he advanced it for the goat, regarding the sprinkling
+between the poles," which returns to elaborate `l15a`'s own case) back
+to `l15a`; vilnaLine 53-54 ("what is this referring to," restating the
+question with "at the inner gifts") to `l16`; vilnaLine 55-57 ("in the
+Sanctuary, on the curtain" and "'statute' is written of them") to
+`l19`; vilnaLine 58-61 ("rather, is it not that he advanced the bull's
+inner gifts before the drawing" and the sequencing-implies-drawing
+challenge) to `l21`; vilnaLine 62 ("that he advanced the bull's gifts,"
+on the altar, with the Leviticus 16 proof-text) to `l23`; vilnaLine 63
+("and granted that by sequence it is not indispensable, the drawing
+itself is") to `l29`; vilnaLine 64 ("and they follow their own
+reasoning," Rashi's own girsa note on reading order) to `l31`;
+vilnaLine 65 (the daf's final truncated word, "let it stand") to `l31`,
+the daf's own final real captured line (boundary policy; confirmed
+against 40b's own opening Rashi line, "let it stand, alive," which
+continues the same dibbur hamatchil). `l27` and `l28` (the challenge
+itself and its "rather, it's Rabbi Shimon's" answer) get no dedicated
+Rashi comment, a no-fold gap consistent with the pattern seen
+throughout this corpus.
+
+Zero-bogus-id check confirmed all 65 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+40a is fully resolved, 65/65. This is the twenty-seventh consecutive
+dangling-link daf found in this corpus (27a through 40a), the ninth
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

@@ -363,328 +363,458 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Continuation of the right vs left hand dispute from 39b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'but according to that version you said' - along these lines they disagree in accordance with Rabbi Yehuda, and Rabbi Yannai said",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The position: do we say the lot's hand matters halachically or only as an omen?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is indispensable, and all the more so for Rabbi Nechemia. Whose view is this? Not Rabbi Yehuda's and not Rabbi",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Yochanan: both hands are equally valid for the lot designation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - Nechemia's. Then opens 'teach: it is a mitzva to place' - and if he did not place it is valid, and about this all",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Reish Lakish: the right hand is required; left hand makes it invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - agree that regarding placing the verse states it only once, as it is written 'and Aaron shall place etc.,' but regarding raising it states",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l03"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The resolution: right hand is le-chatchila (preferred) but b'dieved (post-facto) both are valid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'Aaron etc.,' but regarding raising the verse states it in",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l03"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The Deputy (segan) would help transfer the lot to the right hand if needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - a further verse, as it is written 'and Aaron shall bring the goat",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l03"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "If the 'for God' lot came up in the left, the Deputy assists in placing it on the goat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that came up upon it etc.,' and it is written 'and the goat",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l03"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "The KG says 'for God' while placing the lot on the right goat's head.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - that came up.' Then opens 'and to confess' - upon the goat",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l04"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "He says 'for Azazel' while placing the other lot on the left goat's head.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - that is sent away, as it is written 'and he shall confess over it etc.'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l04"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "R. Yehuda: the KG must say 'chattat l'HaShem' (sin-offering for God) explicitly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'if we say he did not place' - it is in that case that",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The verbal formula is required according to R. Yehuda.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Rabbi Shimon says it is valid, but its raising from the",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The Rabbis say: the lot itself designates the goat; verbal formula is rabbinic enhancement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - lot box, Rabbi Shimon holds is indispensable.",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The lot's placement on the head is the operative act of designation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'but wasn't it taught: one of them died' - after the drawing of lots,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The crimson thread (lashon shel zehorit) is placed on the goat sent to Azazel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for it is not possible to draw lots again unless",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Half the thread is tied to the goat's neck and half to the cliff (Tsuk).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he brings two others and one goes to waste,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "When the thread turns white, it signals atonement was accepted.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as stated in the chapter 'the two goats' (below, 62a):",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The thread turning white was connected to Is. 1:18: 'though your sins be as scarlet, they shall be white as snow.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he brings one from the market in place of the one that died,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "This visual miracle was the public announcement of Yom Kippur's success.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it becomes the partner of the surviving one, and there is no",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l07"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "People in Jerusalem could see the thread from afar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - need to draw lots again. Then opens 'Rabbi Shimon did not know",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Signal fires were originally used to convey the news to the diaspora.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - etc.' - actually, 'he did not draw lots' that the first",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "The Samaritans lit false fires to confuse the diaspora; fires were abandoned.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - tanna calls valid means he did not place, and as for your difficulty,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Messengers were then used instead of fires.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - how can Rabbi Shimon say about it 'he did not draw lots, valid,'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The system of conveying Yom Kippur news was thus disrupted by Samaritan interference.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - if this drawing is the same as placing, implying that if",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The practical consequence: the crimson thread system was a Jerusalem-centered sign.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he did not raise it, it is invalid according to Rabbi Shimon - this is not",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Those outside Jerusalem depended on secondary communication systems.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - difficult, for when Rabbi Shimon says",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The crimson thread's location: tied to the goat going to Azazel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'he did not draw lots' he means actually did not draw lots, and he did not know",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Half on the animal, half on the cliff - when the goat was pushed off, both halves could be seen.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that when the first tanna said 'he did not draw lots' he meant the placing,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The cliff (Tsuk) was outside Jerusalem; the thread's whitening was visible from a distance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that is what he meant; and this is what Rabbi Shimon",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "The half left on the cliff was the marker that remained after the goat was pushed off.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - says to the Rabbis: if by 'he did not draw lots, valid' that you say",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "Summary of the crimson thread system and its communication network.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - you mean the raising, which is the actual drawing,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "The lot dispute is resolved; the thread system is described.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - I disagree with you in one matter, without the confession.",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Both the halachic (lot validity) and practical (thread communication) aspects are addressed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'and if by drawing lots you say you mean the placing.'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The Yom Kippur ceremony's dual audience: those in the Temple and those watching from a distance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but the raising is, according to you, indispensable, I disagree",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The lot and thread together formed the complete atonement confirmation system.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with you in two, for according to me the drawing is not indispensable",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "First: lot drawn - one omen; then thread turns white - second omen.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - at all, and the confession is indispensable, and below it explains",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Both required for full public confirmation of accepted atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the reason for both regarding the confession. Then opens 'the bull disqualifies",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l10"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The two signs are complementary: one in the Temple, one visible outside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the goat.' - if he advanced one of",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Summary: right hand preferred, both valid; verbal 'for God' required; thread half on goat half on cliff.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the goat's services that are later than those of",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "40a concludes the lot ceremony analysis.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bull, and performed it before the bull, the bull's service, which is",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "40b continues with the live goat's standing before God and the confession over it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - fit to precede it, disqualifies and invalidates it, and it does not",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "The service now moves from the lot ceremony to the live goat's role.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - count for him, and he must go back and perform it after",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "The live goat (sair hamishtaleiach) stands for confession before being sent away.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bull's service. And the order of their services is thus,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "Its role: to carry Israel's sins to the uninhabited wilderness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as stated in the Torah portion: first he confesses over the bull, a first confession, and afterward draws lots on",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The lot ceremony designated it; the confession loads it with sins; then it is sent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the goat, and afterward confesses over the bull a second confession, and slaughters it, and brings in the ladle",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "This three-step process (designate → confess → send) is the Azazel ritual.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the fire pan, and puts the incense on the coals (etc.), and puts some of the bull's blood on",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "The Gemara will examine each step's requirements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the Ark cover, and afterward slaughters the goat and puts some of its blood on the Ark cover, and afterward",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "40a has fully addressed the designation step via the lot ceremony.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - puts some of the bull's blood on the curtain, and afterward the goat's, and afterward",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "40b will address the confession over the live goat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - mixes the bloods and puts it on the inner altar. Then opens 'but the goat does not disqualify",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The sequence of the Yom Kippur avodah continues methodically.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bull' - if he advanced the bull's service, which is among those later than the goat's,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15b"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Summary of 40a: lot resolution, verbal designation, crimson thread placement and communication.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - and performed it before the goat, the goat which should have preceded it does not invalidate it.",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15b"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "The lot ceremony chapter is now complete.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens 'regarding the inner gifts' - they mean that this qualifies the sequencing whereby the bull disqualifies the goat. Then opens 'if he advanced'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15b"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Transition to the live goat and its confession.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - it for the goat, regarding the sprinkling between the poles, before the bull, he did nothing. Then opens 'but the goat does not'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l15a"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The Yom Kippur service has multiple acts; the Gemara tracks each one carefully.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'disqualify the bull, what is this referring to' - what service do we find performed by the goat before that of",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l16"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "40a represents the conclusion of the lot ceremony discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bull regarding the inner gifts, such that we would say about it that if he reversed it to advance the bull's before it,",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l16"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The next major topic: the live goat's standing and the KG's confession over it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - the goat, which should properly precede it, would not invalidate it. Then opens 'in the Sanctuary - on the curtain.' Then opens 'statute",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l19"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "This will be the third of the KG's three Yom Kippur confessions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is written of them' - for even Rabbi Yehuda agrees that regarding matters performed inside",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l19"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "The first two were over the bull; the third is over the live goat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'statute' is written, and here he changed the order among the inner services, since he advanced to it the",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l19"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "The third confession covers all of Israel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - outer service, which comes later than it. Then opens 'rather, is it not that he advanced the bull's inner gifts before",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l21"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "Summary: 40a resolves lot hand dispute and describes the crimson thread system.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the drawing of lots' - for the goat, since of necessity you cannot find any of the goat's services preceding the",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l21"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The chapter transitions smoothly to the live goat in 40b.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - bull's inner gifts except this one, and it teaches that it is not indispensable. Then opens 'and since the sequencing is not indispensable, the drawing itself is also not indispensable' - even if he removed it entirely; proof that there is one who",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l21"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "The overall Yom Kippur service sequence is now well-established.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - holds the drawing is not indispensable, and this is difficult for the one who holds it is indispensable even according to Rabbi Yehuda, and all the more so for Rabbi Nechemia - whose view is this. Then opens 'that he advanced the bull's gifts.'",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l21"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "Lot ceremony → live goat → bull blood sprinkling → goat blood → incense → final service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - on the inner altar, as it is written (Leviticus 16), 'and he shall take of the bull's blood and of the goat's blood etc.,' and he should have delayed it until finishing the curtain's gifts. Then opens 'and granted that by sequence it is not",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l23"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "Each step is analyzed as the Gemara works through chapter 4.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - indispensable' - the drawing, for according to Rabbi Yehuda 'statute' is not written regarding matters performed outside; but the drawing itself, when he removes it entirely, is indispensable, for a",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l29"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "The methodical approach reflects the service's importance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - verse teaches about it, as we said. Then opens 'and they follow their own reasoning' - it refers back to the dispute about not confessing, and before 'come and hear: the bull disqualifies the goat' we read it.",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l31"
+      ]
     },
     {
       "vilnaLine": 65,
-      "en": "40a is the pivot between lot ceremony and live goat discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: the daf's final truncated word - 'let it stand,' the start of the dibbur hamatchil explaining why the goat must remain alive, whose text continues on 40b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "linkedGemaraLineIds": [
+        "yoma-040a-l31"
+      ]
     }
   ]
 }
