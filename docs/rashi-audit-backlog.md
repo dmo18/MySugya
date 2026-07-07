@@ -4447,6 +4447,46 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 38a), the fifth
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 38b, full daf (VERSION 15.49), twenty-fourth dangling-link daf, sixth of the 36a-52b batch
+
+Real ids extracted directly from `learning_data.js` first: 16 ids
+(`l01`, `l03`, `l06`, `l14`, `l19`, `l21`, `l23`, `l26`, `l29`, `l32`,
+`l35`, `l39`, `l41`, `l44`, `l46`, `l49`). 49 raw Rashi print-lines,
+all fully dangling before this fix.
+
+The correspondence: vilnaLine 1-6 ("and from what is yours" and no
+kingdom touching another's, illustrated by Belshazzar falling at night
+and Tachpanches by day) to `l01`; vilnaLine 7-9 (Hugras ben Levi's
+singing technique, finger between the lips) to `l03`; vilnaLine 10-14
+(the "rakvivut/rust" wordplay and Doeg's own mother measuring him
+daily) to `l14` (skipping `l06`'s own ben Kamtzar writing-technique
+recap entirely, a no-fold gap, since Rashi already explained this
+technique in 38a); vilnaLine 15-19 (Zecharia the priest-prophet, the
+Doeg naming objection, "see what became of him") to `l19`; vilnaLine
+20-22 ("a righteous person of his own accord... a wicked person
+through his fellow") to `l21`; vilnaLine 23-25 ("I who conceal from
+Abraham," the blessing that follows) to `l23`; vilnaLine 26 (Ovadia,
+who dwelled between Achav and Izevel) to `l29` (skipping `l26`'s own
+Sodom-derivation content, another no-fold gap); vilnaLine 27-28 (the
+blessing/curse parallel) to `l32`; vilnaLine 29-30 ("and He saw the
+light") to `l35`; vilnaLine 31-33 ("and He set the world upon them")
+to `l41`; vilnaLine 34-35 ("the feet of His pious ones," the Lavan
+prooftext) to `l44`; vilnaLine 36-40 (the singular/plural chasid
+grammar point folding into "he no longer sins" and the two-strikes
+rule) to `l46`; vilnaLine 41-48 (the "if for scoffers... if for the
+humble" verse and the doors of impurity/purity opening themselves) to
+`l49`; vilnaLine 49 (the daf's final truncated word) to `l49`, the
+daf's own final real captured line (boundary policy).
+
+Zero-bogus-id check confirmed all 49 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+38b is fully resolved, 49/49. This is the twenty-fourth consecutive
+dangling-link daf found in this corpus (27a through 38b), the sixth
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

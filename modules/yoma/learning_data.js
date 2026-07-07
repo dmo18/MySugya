@@ -88222,11 +88222,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 1,
         he: "ומשלך יתנו לך. כלומר לא משלהם הוא מתנה אלא מזונות קצובים",
-        en: "And from yours they give you - God provides what is needed for the Temple; no person owns Temple knowledge permanently.",
+        en: "Rashi: opens 'and from what is yours they will give you' - meaning it is not a gift from their own, but rather a fixed sustenance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-002",
@@ -88234,11 +88236,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 2,
         he: "לך מן השמים: ואין מלכות נוגעת בחברתה. משהגיע זמן המלכות",
-        en: "Even the knowledge that Beth Avtinas withheld ultimately returned to the Temple's service.",
+        en: "Rashi: continues - given you from Heaven. Then opens 'and no kingdom touches its fellow's own' - once the time for the kingdom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-003",
@@ -88246,11 +88250,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 3,
         he: "ליפול ותעמוד אחרת לא יאחר זמן כמלא נימא אלא מי שזמנה ליפול",
-        en: "Hugras ben Levi's vocal technique: he placed his thumb in his mouth for a special trill.",
+        en: "Rashi: continues - to fall arrives, and another rises, it does not delay even a hairsbreadth, but whichever kingdom's time is to fall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-004",
@@ -88258,11 +88264,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 4,
         he: "בלילה נופלת בלילה שנאמר (דניאל ה) ביה בליליא איתקטל בלשצר",
-        en: "The thumb created a resonance or trill effect in Levitical Temple music.",
+        en: "Rashi: continues - at night falls at night, as it is stated (Daniel 5): 'in that night Belshazzar was slain,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-005",
@@ -88270,11 +88278,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 5,
         he: "ושזמנה ביום נופלת ביום שנאמר",
-        en: "He refused to teach this technique and his descendants also refused.",
+        en: "Rashi: continues - and whichever kingdom's time is by day falls by day, as it is stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-006",
@@ -88282,11 +88292,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 6,
         he: "(יחזקאל ל) ובתחפנחס חשך היום:",
-        en: "The technique died with his family - a loss to the Temple service.",
+        en: "Rashi: concludes - (Ezekiel 30): 'and at Tachpanches the day grew dark.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l01"
+        ]
       },
       {
         id: "rashi-yoma-038b-007",
@@ -88294,11 +88306,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 7,
         he: "לבין הנימין. בין חליקת נימת השפה",
-        en: "The Mishna records his name for shame alongside Beth Garmu and Beth Avtinas.",
+        en: "Rashi: opens 'between the folds' - between the split of the lip's own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l03"
+        ]
       },
       {
         id: "rashi-yoma-038b-008",
@@ -88306,11 +88320,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 8,
         he: "נגד מחיצת החוטם: נזקרים בבת",
-        en: "Even extraordinary skill is shameful if withheld from the sacred service.",
+        en: "Rashi: continues - flesh opposite the partition of the nose. Then opens 'they would recoil with a sudden'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l03"
+        ]
       },
       {
         id: "rashi-yoma-038b-009",
@@ -88318,11 +88334,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 9,
         he: "ראש. נרתעין מהכרעת הקול:",
-        en: "Ben Kamtsar: wrote four letters simultaneously with four quills, refused to teach.",
+        en: "Rashi: concludes - jerk of the head - they would startle at the strength of the sound.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l03"
+        ]
       },
       {
         id: "rashi-yoma-038b-010",
@@ -88330,11 +88348,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 10,
         he: "רקביבות. רדולי\"א חלודה ככלי",
-        en: "He held four quills between his fingers and wrote four letters at once.",
+        en: "Rashi: opens 'rakvivut' - rust, like a rusted iron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l14"
+        ]
       },
       {
         id: "rashi-yoma-038b-011",
@@ -88342,11 +88362,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 11,
         he: "ברזל שאין משתמשין בו: דלא מסקי",
-        en: "This remarkable skill was used for certain Torah writing; he refused to share it.",
+        en: "Rashi: continues - vessel that is no longer used. Then opens 'since we do not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l14"
+        ]
       },
       {
         id: "rashi-yoma-038b-012",
@@ -88354,11 +88376,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 12,
         he: "בשמייהו. לא יקרא אדם לבנו שם",
-        en: "His name too is for shame, listed among those who withheld Temple knowledge.",
+        en: "Rashi: continues - name children after them' - a person should not name his son a wicked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l14"
+        ]
       },
       {
         id: "rashi-yoma-038b-013",
@@ -88366,11 +88390,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 13,
         he: "אדם רשע: מודדתו בטפחים.",
-        en: "Summary: all four families held extraordinary skills; all four are shamed for secrecy.",
+        en: "Rashi: continues - man's name. Then opens 'she measured him in handbreadths' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l14"
+        ]
       },
       {
         id: "rashi-yoma-038b-014",
@@ -88378,11 +88404,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 14,
         he: "לידע כמה נוסף בו מיום ליום ונותנת",
-        en: "The verse from Proverbs: the name of the wicked shall rot.",
+        en: "Rashi: concludes - to know how much he grew from day to day, and gave the weight equal to the growth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l14"
+        ]
       },
       {
         id: "rashi-yoma-038b-015",
@@ -88390,11 +88418,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 15,
         he: "המשקל אומד התוספת: כהן ונביא.",
-        en: "R. Elazar: it means their name is forgotten - it rots away like rotting matter.",
+        en: "Rashi: opens 'a priest and a prophet' - Zecharia ben Yehoyada the priest, so it seems that we do",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l19"
+        ]
       },
       {
         id: "rashi-yoma-038b-016",
@@ -88402,11 +88432,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 16,
         he: "זכריה בן יהוידע הכהן אלמא מסקינן",
-        en: "R. Yochanan: it means their name is preserved in shame - it rots in the sense of being associated with decay.",
+        en: "Rashi: continues - name children after the wicked, since Doeg the Edomite was wicked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l19"
+        ]
       },
       {
         id: "rashi-yoma-038b-017",
@@ -88414,11 +88446,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 17,
         he: "בשמייהו דהא דואג האדומי רשע",
-        en: "The Mishna proves R. Yochanan right: these families are remembered by name, but for shame.",
+        en: "Rashi: continues - and this one named his child after him. Then opens 'see what became'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l19"
+        ]
       },
       {
         id: "rashi-yoma-038b-018",
@@ -88426,11 +88460,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 18,
         he: "היה וזה קראו לתינוק בשמו: חזי",
-        en: "Their names are not forgotten but are synonymous with negative behavior.",
+        en: "Rashi: continues - of him - see what happened",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l19"
+        ]
       },
       {
         id: "rashi-yoma-038b-019",
@@ -88438,11 +88474,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 19,
         he: "מאי דסליק ביה. ראה מה עלתה",
-        en: "But the memory of the righteous is for blessing - they are blessed even after death.",
+        en: "Rashi: concludes - to him, that he was slaughtered.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l19"
+        ]
       },
       {
         id: "rashi-yoma-038b-020",
@@ -88450,11 +88488,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 20,
         he: "ביה שנשחט: צדיק מעצמו. ע\"י",
-        en: "Ben Katin, Queen Helene, Nicanor are blessed through memory.",
+        en: "Rashi: opens 'a righteous person of his own accord' - through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l21"
+        ]
       },
       {
         id: "rashi-yoma-038b-021",
@@ -88462,11 +88502,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 21,
         he: "מעשיו נזכר לטובה: רשע אף ע\"י",
-        en: "The contrast: Beth Garmu (shame) vs Ben Katin (blessing) - same Mishna, opposite sides.",
+        en: "Rashi: continues - his own deeds is remembered for good, 'a wicked person also through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l21"
+        ]
       },
       {
         id: "rashi-yoma-038b-022",
@@ -88474,11 +88516,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 22,
         he: "חבירו. נזכר לרעה: שם רשעים.",
-        en: "The Mishna preserves both as a lesson in Temple values.",
+        en: "Rashi: concludes - his fellow' - is remembered for evil. Then opens 'the name of the wicked' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l21"
+        ]
       },
       {
         id: "rashi-yoma-038b-023",
@@ -88486,11 +88530,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 23,
         he: "ולא כתיב שם רשע: המכסה אני",
-        en: "R. Elazar teaches: from blessing of righteous → learn curse of wicked, and vice versa.",
+        en: "Rashi: concludes - and it does not say 'the wicked one' in the singular. Then opens 'I who conceal'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l23"
+        ]
       },
       {
         id: "rashi-yoma-038b-024",
@@ -88498,11 +88544,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 24,
         he: "מאברהם. וכיון שהזכיר שמו ברכו",
-        en: "The righteous who shared knowledge: their sharing is what made them righteous in this context.",
+        en: "Rashi: continues - from Abraham' - and since He mentioned his own name, He blessed him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l23"
+        ]
       },
       {
         id: "rashi-yoma-038b-025",
@@ -88510,11 +88558,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 25,
         he: "וסמיך ליה ואברהם היו יהיה וגו':",
-        en: "The wicked who withheld: their withholding is what made them wicked here.",
+        en: "Rashi: concludes - and immediately adjacent: 'and Abraham shall surely become,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l23"
+        ]
       },
       {
         id: "rashi-yoma-038b-026",
@@ -88522,11 +88572,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 26,
         he: "עובדיה. היה דר בין אחאב ואיזבל:",
-        en: "The principle of generosity vs. selfishness in service of the sacred.",
+        en: "Rashi: opens 'Ovadia' - who dwelled between Achav and Izevel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l29"
+        ]
       },
       {
         id: "rashi-yoma-038b-027",
@@ -88534,11 +88586,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 27,
         he: "מברכתן של צדיקים כו'. במקום",
-        en: "Additional teachings about the righteous and wicked.",
+        en: "Rashi: opens 'from the blessing of the righteous, etc.' - in the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l32"
+        ]
       },
       {
         id: "rashi-yoma-038b-028",
@@ -88546,11 +88600,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 28,
         he: "שהקב\"ה מברך את הצדיקים שם",
-        en: "The righteous man is called yesod olam - the foundation of the world.",
+        en: "Rashi: continues - where the Holy One blesses the righteous, there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l32"
+        ]
       },
       {
         id: "rashi-yoma-038b-029",
@@ -88558,11 +88614,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 29,
         he: "מקלל את הרשעים: וירא את האור.",
-        en: "He who studies Torah is compared to various positive images.",
+        en: "Rashi: concludes - He curses the wicked. Then opens 'and He saw the light' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l35"
+        ]
       },
       {
         id: "rashi-yoma-038b-030",
@@ -88570,11 +88628,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 30,
         he: "ראה בדעתו להתקיים האור של עולם",
-        en: "Further aggadic teachings on Temple legacy and divine reward.",
+        en: "Rashi: continues - He saw in His own mind that the world's light would endure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l35"
+        ]
       },
       {
         id: "rashi-yoma-038b-031",
@@ -88582,11 +88642,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 31,
         he: "בשביל הצדיק שהוא טוב: וישת",
-        en: "The families' stories provide concrete illustrations of abstract principles.",
+        en: "Rashi: concludes - for the sake of the righteous one, who is good. Then opens 'and He set'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l41"
+        ]
       },
       {
         id: "rashi-yoma-038b-032",
@@ -88594,11 +88656,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 32,
         he: "עליהם תבל. פיזרן בכל הדורות",
-        en: "Temple service is the context; the broader principle applies universally.",
+        en: "Rashi: continues - upon them the world' - He scattered them through all the generations,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l41"
+        ]
       },
       {
         id: "rashi-yoma-038b-033",
@@ -88606,11 +88670,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 33,
         he: "להיות שתות וקיום ויסוד לקיים",
-        en: "Those who share sacred knowledge enrich the community.",
+        en: "Rashi: concludes - to be the foundation and support and pillar sustaining the world.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l41"
+        ]
       },
       {
         id: "rashi-yoma-038b-034",
@@ -88618,11 +88684,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 34,
         he: "תבל: רגלי חסידיו. בשביל חסידיו",
-        en: "Those who withhold impoverish it - and are remembered accordingly.",
+        en: "Rashi: opens 'the feet of His pious ones' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l44"
+        ]
       },
       {
         id: "rashi-yoma-038b-035",
@@ -88630,11 +88698,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 35,
         he: "כמו ויברך ה' אותך לרגלי (בראשית",
-        en: "The Talmud preserves these names precisely so future generations learn from them.",
+        en: "Rashi: continues - for the sake of His pious ones, like 'the Lord has blessed you for my sake' (Genesis",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l44"
+        ]
       },
       {
         id: "rashi-yoma-038b-036",
@@ -88642,11 +88712,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 36,
         he: "ל) : שוב אינו חוטא שנא' רגלי חסידיו",
-        en: "The lesson: be like Ben Katin, not like Beth Garmu.",
+        en: "Rashi: continues - 30). Then opens 'he no longer sins,' as it is stated 'the feet of His pious ones'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l46"
+        ]
       },
       {
         id: "rashi-yoma-038b-037",
@@ -88654,11 +88726,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 37,
         he: "ישמור. סופי חסידיו ישמור: פעם",
-        en: "Share knowledge, especially sacred knowledge, freely.",
+        en: "Rashi: continues - He shall guard - He guards the very end of His pious ones. Then opens 'a first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l46"
+        ]
       },
       {
         id: "rashi-yoma-038b-038",
@@ -88666,11 +88740,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 38,
         he: "ראשונה ושנייה כו'. רגלי חסידיו",
-        en: "The Temple was built on sharing - all of Israel contributed.",
+        en: "Rashi: continues - time and a second time,' etc. - 'the feet of His pious ones'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l46"
+        ]
       },
       {
         id: "rashi-yoma-038b-039",
@@ -88678,11 +88754,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 39,
         he: "משהנהיג בחסד שני רגלים כמו זה",
-        en: "Those who bucked this spirit violated the essence of the Temple's communal nature.",
+        en: "Rashi: continues - once he has conducted himself in kindness twice, like this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l46"
+        ]
       },
       {
         id: "rashi-yoma-038b-040",
@@ -88690,11 +88768,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 40,
         he: "שלש רגלים (במדבר כב) פעמים ישמור",
-        en: "Their names live in shame as a warning to future generations.",
+        en: "Rashi: continues - phrase 'three regalim' (Numbers 22), twice He guards",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l46"
+        ]
       },
       {
         id: "rashi-yoma-038b-041",
@@ -88702,11 +88782,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 41,
         he: "אותו מן החטא: כיון שבא אדם לטמא.",
-        en: "The Mishna's dual list (praise and shame) is a complete moral teaching.",
+        en: "Rashi: concludes - him from sin. Then opens 'once a person comes to defile himself' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-042",
@@ -88714,11 +88796,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 42,
         he: "להיות רשע: פותחין לו. פתח",
-        en: "The chapter of Temple improvements and shames concludes here.",
+        en: "Rashi: continues - to become wicked. Then opens 'they open for him' - an opening",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-043",
@@ -88726,11 +88810,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 43,
         he: "הטומאה ליכנס בו מספיקין בידו",
-        en: "The next section returns to the Yom Kippur service narrative.",
+        en: "Rashi: continues - for impurity to enter him, they facilitate it in his hand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-044",
@@ -88738,11 +88824,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 44,
         he: "ואין מונעין ממנו מן השמים לעכבו:",
-        en: "The Shimon HaTzaddik section begins in 39a.",
+        en: "Rashi: concludes - and they do not withhold from him, from Heaven, to stop him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-045",
@@ -88750,11 +88838,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 45,
         he: "אם ללצים הוא יליץ. אם ללצים הוא",
-        en: "Summary of 38b: divine provision, Hugras's trill, name-of-wicked aggadah, blessing/curse principle.",
+        en: "Rashi: opens 'if it is for scoffers, he scoffs' - if it is for scoffers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-046",
@@ -88762,11 +88852,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 46,
         he: "בא להתחבר הוא יליץ לא ימנעוהו",
-        en: "Four sugyot in 38b, bridging Temple history and theological reflection.",
+        en: "Rashi: continues - he comes to join, He shall scoff - they neither withhold from him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-047",
@@ -88774,11 +88866,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 47,
         he: "ולא יעזרוהו: אם לענוים. הוא בא",
-        en: "The chapter transitions back to the Yom Kippur service in 39a.",
+        en: "Rashi: continues - nor help him. Then opens 'if for the humble' - he comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-048",
@@ -88786,11 +88880,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 48,
         he: "להתחבר יתן לו חן מי שבידו ליתן:",
-        en: "The historical digressions on Temple families enrich the halachic framework.",
+        en: "Rashi: concludes - to join, He shall grant favor to whoever it is in His power to grant.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       },
       {
         id: "rashi-yoma-038b-049",
@@ -88798,11 +88894,13 @@ const DAF_CONTENT = {
         daf: "38b",
         vilnaLine: 49,
         he: "בא",
-        en: "The Temple was a human institution built by people whose names are remembered.",
+        en: "Rashi: the daf's final truncated word - 'came,' the start of the dibbur hamatchil in Rabbi Yishmael's own school parable about a merchant of naphtha and balsam, whose text continues on 39a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-038b-l49"
+        ]
       }
     ],
     review: "reviewed"
