@@ -26,219 +26,283 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "R. Yehuda HaNasi: afternoon offering derives from morning - 'the one lamb' (ha-echad).",
+      "en": "Opens 'Rabbi says: the evening is derived from the morning': since 'the one lamb' -",
       "linkedGemaraLineIds": [
-        "yoma-034b-l01"
+        "yoma-034b-l01a"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rabbis: how can the afternoon be derived from morning when both are written separately?",
+      "en": "is stated about it, 'the one lamb you shall sacrifice in the morning' (closing). Opens 'and they are both needed': there is a leaning to say -",
       "linkedGemaraLineIds": [
-        "yoma-034b-l03"
+        "yoma-034b-l05"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rabbis: 'one' means the special lamb that is unique - the Yom Kippur additional offering.",
+      "en": "that a voluntary offering needs to be beautified so it will be well-received as a gift and for the giver's reception, and there is a leaning -",
       "linkedGemaraLineIds": [
         "yoma-034b-l05"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Mishna: if High Priest was old or physically delicate, they heated water for his immersion.",
+      "en": "to say that an imposed obligatory debt must be paid in full (closing). Opens 'thick iron bars' -",
       "linkedGemaraLineIds": [
         "yoma-034b-l08"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Abaye: is this not the same as an unintentional act being permitted?",
+      "en": "thick pieces, like 'plates of ivory' (Song of Songs 5:14), -",
       "linkedGemaraLineIds": [
-        "yoma-034b-l11"
+        "yoma-034b-l08"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "When Abaye said R. Yehuda permits unintentional acts, that was only about Torah prohibitions.",
+      "en": "and even in the Sages' own language 'a lampstand comes from' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "the 'eshet' [a thick block] (Menachot 28a) - 'massif' in the vernacular (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Opens 'but doesn't this temper it': one who puts iron from the fire -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "into water tempers it, strengthening and hardening it (closing). Opens 'that had not' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "'reached the point of tempering': it was already partially cooled -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "even though they placed them overnight inside -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "glowing coals, it is not so intensely heated -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l08"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "that it would gain strength from contact with water (closing). Opens 'did Abaye really say this': quoting Abaye's own ruling that an unintentional act is permitted, now under challenge -",
       "linkedGemaraLineIds": [
         "yoma-034b-l13"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "Mishna: second immersion in the Hall of Parva - in the sacred area.",
+      "vilnaLine": 14,
+      "en": "[the beraita says] an unintentional act is forbidden (closing). Opens 'why do I need the verse': -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "'flesh' - to include the leprous convert, since one could -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "have written 'he shall circumcise his foreskin,' yet it wrote 'flesh,' to include -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "the 'flesh' stated regarding leprous marks (Leviticus 13): 'when a person -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "has [a swelling] on the skin of his flesh' - why do I need the verse, since already -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "this is an unintentional act (closing). Opens 'and Abaye said, etc.': -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l13"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "this shows that Abaye holds the verse supports -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "Rabbi Yehuda's view, since the verse was needed -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "to permit it there (closing). Opens 'in the entire Torah' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "a Torah-level prohibition, such as one who cuts off his own leprous mark, as it is written -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "(Deuteronomy 24:8): 'Take heed of the plague of leprosy' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "and the master said: the verse speaks of one who cuts off -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "his own leprous mark. And 'there is no rabbinic rest-prohibition in the Temple' is not the reading here, -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "since the Gemara made the reason depend on 'unintentional' instead (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l17"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Opens the mishna's 'they brought him to the Parva chamber': -",
       "linkedGemaraLineIds": [
         "yoma-034b-l18"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "Morning garments (white): Egyptian Pelusium linen, worth twelve maneh (1,200 dinar).",
+      "vilnaLine": 29,
+      "en": "to immerse the second immersion, which requires -",
       "linkedGemaraLineIds": [
-        "yoma-034b-l22"
+        "yoma-034b-l18"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "The afternoon garments were Indian linen worth 8 maneh (800 dinar).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The afternoon garments were less costly than the morning ones.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The price difference reflects the different quality of the two sets.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The morning Pelusium linen was the finest available.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The afternoon Indian linen was high quality but less precious.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Both garment sets were donated by the public, not the KG personally.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "If donated by an individual, the KG used the public set instead.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The principle of not appearing impoverished on Yom Kippur applies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Both garment sets fulfilled the requirement for sacred linen vestments.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The chapter concludes with the garment values.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The Yom Kippur service description is now complete for this tractate section.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The next chapter continues with the unique Yom Kippur service details.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The discussion of garments, immersions, and sequence is concluded.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The normative halacha for the KG's Yom Kippur preparation is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The chapter ends with the material and cost of the Yom Kippur vestments.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi commentary on line 24 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi commentary on line 25 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi commentary on line 26 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi commentary on line 27 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi commentary on line 28 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi commentary on line 29 of 34b.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 30,
-      "en": "Rashi commentary on line 30 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "a sacred place, as I explained above (closing). Opens 'Rabbi Meir' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l18"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi commentary on line 31 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "'says': he undressed first and only afterward sanctified his hands and feet -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l18"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi commentary on line 32 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "but I already explained their dispute above (closing). Opens 'in the morning' -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi commentary on line 33 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "the garments he wears for this immersion were of linen -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi commentary on line 34 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "from the province of Pelusium, which is prized -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi commentary on line 35 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "and excellent (closing). Opens 'and in the afternoon': the garments he wears -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi commentary on line 36 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "for taking out the ladle and fire-pan (closing). Opens 'Hindavin [linen]': they were -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi commentary on line 37 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "from the flax of the land of Hodu, which is the land of Cush, -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi commentary on line 38 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "as Yonatan ben Uziel translates (Jeremiah -",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi commentary on line 39 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "13:23): 'can the Cushite change his skin?' as 'Hindava' (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi commentary on line 40 of 34b.",
-      "linkedGemaraLineIds": []
+      "en": "Truncated: the single word 'Gemara,' opening a new heading that continues onto 35a.",
+      "linkedGemaraLineIds": [
+        "yoma-034b-l23"
+      ]
     }
   ],
   "sugyot": [

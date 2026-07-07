@@ -79298,12 +79298,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 1,
         he: "רבי אומר של ערבית משל שחרית. דלכבש האחד אדשחרית קאי",
-        en: "R. Yehuda HaNasi: afternoon offering derives from morning - 'the one lamb' (ha-echad).",
+        en: "Opens 'Rabbi says: the evening is derived from the morning': since 'the one lamb' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l01"
+          "yoma-034b-l01a"
         ]
       },
       {
@@ -79312,12 +79312,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 2,
         he: "שנאמר בו את הכבש אחד תעשה בבקר: וצריכי. יש צד נוטה",
-        en: "Rabbis: how can the afternoon be derived from morning when both are written separately?",
+        en: "is stated about it, 'the one lamb you shall sacrifice in the morning' (closing). Opens 'and they are both needed': there is a leaning to say -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l03"
+          "yoma-034b-l05"
         ]
       },
       {
@@ -79326,7 +79326,7 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 3,
         he: "שהנדבה צריך לייפותה כדי שתתרצה לדורון והקבלת פנים ויש צד",
-        en: "Rabbis: 'one' means the special lamb that is unique - the Yom Kippur additional offering.",
+        en: "that a voluntary offering needs to be beautified so it will be well-received as a gift and for the giver's reception, and there is a leaning -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -79340,7 +79340,7 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 4,
         he: "נוטה לומר שהחובה המוטלת צריך לפרוע חובו משלם: עששיות.",
-        en: "Mishna: if High Priest was old or physically delicate, they heated water for his immersion.",
+        en: "to say that an imposed obligatory debt must be paid in full (closing). Opens 'thick iron bars' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -79354,12 +79354,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 5,
         he: "חתיכות עבות כמו עשת שן (שיר ה)",
-        en: "Abaye: is this not the same as an unintentional act being permitted?",
+        en: "thick pieces, like 'plates of ivory' (Song of Songs 5:14), -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l11"
+          "yoma-034b-l08"
         ]
       },
       {
@@ -79368,12 +79368,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 6,
         he: "ואף לשון חכמים מנורה באה מן",
-        en: "When Abaye said R. Yehuda permits unintentional acts, that was only about Torah prohibitions.",
+        en: "and even in the Sages' own language 'a lampstand comes from' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l13"
+          "yoma-034b-l08"
         ]
       },
       {
@@ -79382,12 +79382,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 7,
         he: "העשת (מנחות דף כח.) משי\"ש בלע\"ז:",
-        en: "Mishna: second immersion in the Hall of Parva - in the sacred area.",
+        en: "the 'eshet' [a thick block] (Menachot 28a) - 'massif' in the vernacular (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l18"
+          "yoma-034b-l08"
         ]
       },
       {
@@ -79396,12 +79396,12 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 8,
         he: "והלא מצרף. הנותן ברזל מן האש",
-        en: "Morning garments (white): Egyptian Pelusium linen, worth twelve maneh (1,200 dinar).",
+        en: "Opens 'but doesn't this temper it': one who puts iron from the fire -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-034b-l22"
+          "yoma-034b-l08"
         ]
       },
       {
@@ -79410,11 +79410,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 9,
         he: "למים מצרפו מחזקו ומקשהו: שלא",
-        en: "The afternoon garments were Indian linen worth 8 maneh (800 dinar).",
+        en: "into water tempers it, strengthening and hardening it (closing). Opens 'that had not' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l08"
+        ]
       },
       {
         id: "rashi-yoma-034b-010",
@@ -79422,11 +79424,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 10,
         he: "הגיע לצירוף. כבר היה מצונן במקצת",
-        en: "The afternoon garments were less costly than the morning ones.",
+        en: "'reached the point of tempering': it was already partially cooled -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l08"
+        ]
       },
       {
         id: "rashi-yoma-034b-011",
@@ -79434,11 +79438,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 11,
         he: "אף על פי שהיו נותנין בלילה בתוך",
-        en: "The price difference reflects the different quality of the two sets.",
+        en: "even though they placed them overnight inside -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l08"
+        ]
       },
       {
         id: "rashi-yoma-034b-012",
@@ -79446,11 +79452,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 12,
         he: "גחלים לוחשות אינו מלובן כל כך",
-        en: "The morning Pelusium linen was the finest available.",
+        en: "glowing coals, it is not so intensely heated -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l08"
+        ]
       },
       {
         id: "rashi-yoma-034b-013",
@@ -79458,11 +79466,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 13,
         he: "שיהא לו חיזוק ע\"י מים: מי אמר",
-        en: "The afternoon Indian linen was high quality but less precious.",
+        en: "that it would gain strength from contact with water (closing). Opens 'did Abaye really say this': quoting Abaye's own ruling that an unintentional act is permitted, now under challenge -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-014",
@@ -79470,11 +79480,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 14,
         he: "אביי הכי. דדבר שאינו מתכוין מותר:",
-        en: "Both garment sets were donated by the public, not the KG personally.",
+        en: "[the beraita says] an unintentional act is forbidden (closing). Opens 'why do I need the verse': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-015",
@@ -79482,11 +79494,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 15,
         he: "קרא ל\"ל. בשר לרבות המנוגע דמצי",
-        en: "If donated by an individual, the KG used the public set instead.",
+        en: "'flesh' - to include the leprous convert, since one could -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-016",
@@ -79494,11 +79508,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 16,
         he: "למכתב ימול ערלתו וכתב בשר לרבות",
-        en: "The principle of not appearing impoverished on Yom Kippur applies.",
+        en: "have written 'he shall circumcise his foreskin,' yet it wrote 'flesh,' to include -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-017",
@@ -79506,11 +79522,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 17,
         he: "בשר האמור בנגעים (ויקרא יג) אדם",
-        en: "Both garment sets fulfilled the requirement for sacred linen vestments.",
+        en: "the 'flesh' stated regarding leprous marks (Leviticus 13): 'when a person -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-018",
@@ -79518,11 +79536,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 18,
         he: "כי יהיה בעור בשרו ל\"ל קרא הא",
-        en: "The chapter concludes with the garment values.",
+        en: "has [a swelling] on the skin of his flesh' - why do I need the verse, since already -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-019",
@@ -79530,11 +79550,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 19,
         he: "דבר שאינו מתכוין הוא: ואמר אביי",
-        en: "The Yom Kippur service description is now complete for this tractate section.",
+        en: "this is an unintentional act (closing). Opens 'and Abaye said, etc.': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l13"
+        ]
       },
       {
         id: "rashi-yoma-034b-020",
@@ -79542,11 +79564,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 20,
         he: "וכו'. אלמא ס\"ל לאביי דקרא מסייע",
-        en: "The next chapter continues with the unique Yom Kippur service details.",
+        en: "this shows that Abaye holds the verse supports -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-021",
@@ -79554,11 +79578,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 21,
         he: "ליה לר' יהודה מדאצטריך קרא",
-        en: "The discussion of garments, immersions, and sequence is concluded.",
+        en: "Rabbi Yehuda's view, since the verse was needed -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-022",
@@ -79566,11 +79592,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 22,
         he: "למישרייה: בכל התורה. באיסורא",
-        en: "The normative halacha for the KG's Yom Kippur preparation is established.",
+        en: "to permit it there (closing). Opens 'in the entire Torah' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-023",
@@ -79578,11 +79606,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 23,
         he: "דאורייתא כגון קוצץ בהרת דכתיב",
-        en: "The chapter ends with the material and cost of the Yom Kippur vestments.",
+        en: "a Torah-level prohibition, such as one who cuts off his own leprous mark, as it is written -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-024",
@@ -79590,11 +79620,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 24,
         he: "(דברים כד) השמר בנגע הצרעת",
-        en: "Rashi commentary on line 24 of 34b.",
+        en: "(Deuteronomy 24:8): 'Take heed of the plague of leprosy' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-025",
@@ -79602,11 +79634,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 25,
         he: "ואמר מר בקוצץ בהרתו הכתוב",
-        en: "Rashi commentary on line 25 of 34b.",
+        en: "and the master said: the verse speaks of one who cuts off -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-026",
@@ -79614,11 +79648,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 26,
         he: "מדבר. ואין שבות במקדש לא גרסינן",
-        en: "Rashi commentary on line 26 of 34b.",
+        en: "his own leprous mark. And 'there is no rabbinic rest-prohibition in the Temple' is not the reading here, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-027",
@@ -79626,11 +79662,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 27,
         he: "דהא תלה טעמא באין מתכוין:",
-        en: "Rashi commentary on line 27 of 34b.",
+        en: "since the Gemara made the reason depend on 'unintentional' instead (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l17"
+        ]
       },
       {
         id: "rashi-yoma-034b-028",
@@ -79638,11 +79676,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 28,
         he: "מתני' הביאוהו לבית הפרוה.",
-        en: "Rashi commentary on line 28 of 34b.",
+        en: "Opens the mishna's 'they brought him to the Parva chamber': -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l18"
+        ]
       },
       {
         id: "rashi-yoma-034b-029",
@@ -79650,11 +79690,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 29,
         he: "לטבול טבילה שניה שהיא טעונה",
-        en: "Rashi commentary on line 29 of 34b.",
+        en: "to immerse the second immersion, which requires -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l18"
+        ]
       },
       {
         id: "rashi-yoma-034b-030",
@@ -79662,11 +79704,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 30,
         he: "מקום קדוש כדפרישית לעיל : ר\"מ",
-        en: "Rashi commentary on line 30 of 34b.",
+        en: "a sacred place, as I explained above (closing). Opens 'Rabbi Meir' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l18"
+        ]
       },
       {
         id: "rashi-yoma-034b-031",
@@ -79674,11 +79718,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 31,
         he: "אומר. פשט תחלה ואחר כך קידש",
-        en: "Rashi commentary on line 31 of 34b.",
+        en: "'says': he undressed first and only afterward sanctified his hands and feet -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l18"
+        ]
       },
       {
         id: "rashi-yoma-034b-032",
@@ -79686,11 +79732,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 32,
         he: "והא פרישית לעיל פלוגתייהו: בשחר.",
-        en: "Rashi commentary on line 32 of 34b.",
+        en: "but I already explained their dispute above (closing). Opens 'in the morning' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-033",
@@ -79698,11 +79746,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 33,
         he: "בגדים שלובש בטבילה זו היו מפשתן",
-        en: "Rashi commentary on line 33 of 34b.",
+        en: "the garments he wears for this immersion were of linen -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-034",
@@ -79710,11 +79760,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 34,
         he: "של מדינת פילוסין שהוא חשוב",
-        en: "Rashi commentary on line 34 of 34b.",
+        en: "from the province of Pelusium, which is prized -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-035",
@@ -79722,11 +79774,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 35,
         he: "ומעולה: ובין הערבים. בגדים שלובש",
-        en: "Rashi commentary on line 35 of 34b.",
+        en: "and excellent (closing). Opens 'and in the afternoon': the garments he wears -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-036",
@@ -79734,11 +79788,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 36,
         he: "להוצאת כף ומחתה: הנדוין. שהיו",
-        en: "Rashi commentary on line 36 of 34b.",
+        en: "for taking out the ladle and fire-pan (closing). Opens 'Hindavin [linen]': they were -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-037",
@@ -79746,11 +79802,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 37,
         he: "מפשתן של ארץ הינדוין והיא ארץ כוש",
-        en: "Rashi commentary on line 37 of 34b.",
+        en: "from the flax of the land of Hodu, which is the land of Cush, -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-038",
@@ -79758,11 +79816,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 38,
         he: "כדמתרגם יונתן בן עוזיאל (ירמיה",
-        en: "Rashi commentary on line 38 of 34b.",
+        en: "as Yonatan ben Uziel translates (Jeremiah -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-039",
@@ -79770,11 +79830,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 39,
         he: "יג) היהפוך כושי עורו הינדוואה:",
-        en: "Rashi commentary on line 39 of 34b.",
+        en: "13:23): 'can the Cushite change his skin?' as 'Hindava' (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       },
       {
         id: "rashi-yoma-034b-040",
@@ -79782,11 +79844,13 @@ const DAF_CONTENT = {
         daf: "34b",
         vilnaLine: 40,
         he: "גמ'",
-        en: "Rashi commentary on line 40 of 34b.",
+        en: "Truncated: the single word 'Gemara,' opening a new heading that continues onto 35a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-034b-l23"
+        ]
       }
     ],
     review: {

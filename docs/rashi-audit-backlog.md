@@ -3921,6 +3921,73 @@ resolved, 46/46. This is the fifteenth consecutive dangling-link daf
 found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b,
 32a, 32b, 33a, 33b, 34a). Continuing the escalated 34a-35b batch at 34b.
 
+## 34b, full daf (VERSION 15.40), sixteenth dangling-link daf, second of the 34a-35b escalated batch
+
+Continuing the escalated batch. Before any edit, the 34a/34b boundary
+was re-verified read-only: 34a's truncated final word "רבי" ("Rabbi")
+is completed by 34b's opening raw Rashi print-line, "רבי אומר של ערבית
+משל שחרית" ("Rabbi says: the evening is derived from the morning"),
+matching the Gemara's own opening line 1 ("רַבִּי אוֹמֵר: עַרְבִית
+מִשֶּׁל שַׁחֲרִית"). No edit was made to 34a.
+
+Same failure mode again: of the 40 raw talmud.dev Rashi print-lines,
+several were assigned (vilnaLine 1-8ish) but pointed at ids that do not
+exist for this daf (`l01`, `l03`, `l11`, `l13` used without the `a`/`b`
+suffix that the real captured lines actually carry, plus `l18`, `l22`
+used where the real ids are `l17`/`l18`/`l23`), and multiple vilnaLine
+entries in the middle of the daf had empty `linkedGemaraLineIds`
+despite non-generic-looking `en` text.
+
+The daf's real captured Gemara/mishna "lines" objects are `l01a`,
+`l01b`, `l05`, `l08`, `l13`, `l17`, `l18` (the mishna beginning "they
+brought him to the Parva chamber"), and `l23` - eight ids. All 40
+Rashi entries were rebuilt from scratch against these eight real ids.
+
+The correspondence: vilnaLine 1 (Rabbi's "evening from morning" and
+the "one lamb" proof-text) to `l01a`; vilnaLine 2-4 (why both the
+"one" and "your choice vows" derivations are needed - beautifying a
+voluntary offering versus paying an obligatory debt in full) to `l05`;
+vilnaLine 4-13 (the heated iron bars for the elderly/frail High
+Priest's immersion water, "eshet" as a thick block, the tempering
+question and Abaye's "unintentional" answer) to `l08`; vilnaLine 13-19
+(the challenge from the leprous convert's circumcision beraita,
+testing whether Abaye's own view is even consistent) to `l13`;
+vilnaLine 19-27 (Abaye's own follow-up limiting the "unintentional"
+leniency to Torah-level prohibitions, since tempering the immersion
+water is only a rabbinic-level shevut concern) to `l17`; vilnaLine
+28-31 (the mishna itself: the Parva chamber, the sequence of
+undressing and sanctifying, Rabbi Meir's reversed order) to `l18`;
+vilnaLine 32-39 (the morning Pelusium-linen garments versus the
+afternoon Hodu/Cush-linen garments, with the Targum Yonatan citation
+for "Hodu") to `l23`. `l01b` (Rabbah bar Ulla's own formal proof
+"le-cheves ha-echad ... hevei omer zeh tamid shel shachar") gets no
+dedicated Rashi comment of its own - Rashi's single comment on
+vilnaLine 1 glosses Rabbi's opening position directly by previewing
+this proof rather than commenting on it a second time when Rabbah bar
+Ulla states it formally, the same kind of no-fold gap already
+documented for earlier daf in this run.
+
+vilnaLine 40, the daf's final raw print-line, is the single truncated
+word "גמ'" ("Gemara"), the start of the next section-heading;
+confirmed against 35a's raw Rashi array ("גמ' פרווה אמגושא...") before
+this fix was applied, showing it opens 35a's own Gemara-heading
+comment. Per the established boundary convention it is linked to
+`l23`, 34b's own final locally captured Gemara line; no edit was made
+to 35a.
+
+All 40 entries were rebuilt in a single indexed pass (a one-off local
+script, not committed), verified by recomputing the Gemara-line-id
+distribution and re-scanning `learning_data.js` for any remaining
+linkedGemaraLineIds not present in the daf's real `lines`/mishna
+objects (none found) before applying. `validate:yoma`,
+`audit:order:yoma`, `validate:en:yoma`, `validate:daftext:yoma`,
+`validate:rashi:yoma`, `validate:literal:yoma`, and
+`validate:schema:yoma` all pass; `npm test` and `npm run test:browser`
+(10/10) both pass. 34b is fully resolved, 40/40. This is the sixteenth
+consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
+28b, 29a, 29b, 30a, 30b, 31a, 31b, 32a, 32b, 33a, 33b, 34a, 34b).
+Continuing the batch at 35a.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
