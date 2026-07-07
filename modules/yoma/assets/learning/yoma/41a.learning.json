@@ -435,283 +435,395 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Anonymous Sifra is R. Yehuda; the goat-to-Azazel rulings follow his authority.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - the anonymous Sifra (Torat Kohanim) is [attributed to] R. Yehuda, as stated in Sanhedrin.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The attribution of the anonymous Sifra is a key principle for understanding Torat Kohanim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this appears in the Sifra [Torat Kohanim] because the source verse is written in the book of Leviticus.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Knowing the author clarifies disputed rulings in the Sifra.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - kinnim are not designated [as to] which is the olah and which is the chatat, except by either the owner's taking [at acquisition] or the priest's act [at performance].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l04"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rav Chisda: the kinnim (bird-pair offerings) are not specifically designated until slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [explaining the owner's specification:] if at acquisition he says 'this one I take for the olah, this one for the chatat,' [then beyond that point] the priest cannot change them at performance.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Before slaughter each bird is in potential both the chatat and the olah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - if the priest changed them [the designation], it is invalid; and if the owner did not specify at acquisition, [then] not [does the designation take effect].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The act of slaughter fixes the identity: first bird slaughtered for chatat = the chatat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but if the owner] specified, even though he called them [named them], [the specification does not take effect retroactively].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The surviving bird becomes the olah by default.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [because he] specified - even though he called them by name [later], the name does not apply to them.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "If one bird dies before slaughter, what is the law?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the priest is able to change them [if no specification was made].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "The surviving bird cannot fulfill both obligations alone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [to prove this about the priest's power, the text says] 'and she shall take and make,' establishing the principle.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l08"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "A new pair must be brought.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in [the section about] the young woman it is written 'and she shall take two doves or [two young pigeons].'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The designation was never fixed since slaughter had not occurred.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one for the olah and one for the chatat, and likewise in the tzaraat-afflicted person, and regarding the zav the priest shall make one a chatat and one an olah.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Further scenario: both birds die before slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from this we derive [the principle] that either at the time of taking they are designated, or at the time of performance [they are designated], but not in between.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l12"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "A completely new pair must be brought; nothing was ever designated.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'the priest shall make one a chatat and one an olah' - [this shows that designation occurs through the priest's act at performance].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l13"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "What if one bird flew away before slaughter?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the text states:] either at the time of taking they are designated, or at the time of performance, but not [in between].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l13"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Same ruling: designation was never fixed; a new pair is needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the passage states [multiple times] 'she shall make' and 'the priest makes,' [showing timing of designation].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "What if a buyer and seller had a dispute about which bird was which?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [a new issue:] since it is taught here that when the lot sanctifies [one bird], it is not [automatic that the] Name sanctifies [it].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The dispute resolves according to Rav Chisda's principle.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it might enter [one's] mind that the sanctification of the Name [operates differently from the lot's sanctification].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Various seller-buyer kinnim scenarios are analyzed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but the resolution is that] the sanctification of the Name [occurs] at the time of the lot's sanctification - this is the teaching.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The woman specifically designated: 'this is my chatat and this is my olah' in advance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [saying] that it is not the time of taking and not the time of performance - so we have heard [the tradition].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Does prior explicit naming override Rav Chisda's principle?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and therefore there is a difficulty here [in reconciling the times of designation with the lot and the Name].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l15"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "One view: prior explicit naming fixes the designation before slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that it is not the time of taking and not the time of performance, yet it is taught that it was fixed [somehow, despite these constraints].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l21"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Another view: even explicit naming requires slaughter to confirm.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [new case:] one impure who enters the Temple, and he is bringing a kinnim offering.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l22"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "R. Yochanan: explicit prior designation is binding immediately.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [explaining:] one who enters the Temple impure - this is regarding a chatat for Temple impurity, which is an offering that ascends and descends in wealth categories.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l22"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The dispute between Rav Chisda and R. Yochanan is stated.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the poverty [offering here] is the one mentioned [in Leviticus] alongside the oath of falsehood and the oath of voice.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l22"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Practical implication: if the designated chatat dies, what happens?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and there [in Leviticus] it is written 'or a soul who touches' - and we have established this in [Tractate] Shevuot [regarding] Temple impurity and holy things [desecration].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l25"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "According to Rav Chisda: new pair needed (designation wasn't fixed).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [meaning: this applies] after [the person] became impure, he entered the Temple or ate holy things.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l26"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "According to R. Yochanan: the olah must be left to die or sent to graze (it was explicitly the olah and cannot serve as chatat).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and the rich man' [from the Mishnah] - and he must bring [his offering] in the category of wealth.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l26"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "Mixed-up kinnim: what if the pair got mixed with non-designated birds?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and afterwards' - [the person] divided the monies [set aside] and said 'these [birds/money] for his chatat, these for his olah,' even though there is now no obligation on him for a poor man's offering but only a rich man's offering.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l28"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Complex scenarios from tractate Kinnim are referenced.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in a rich man's offering there is only a chatat from a [larger] animal - when he comes before the court, the court says to him 'bring a rich man's offering.'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l28"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The tractate Kinnim exists specifically to address these many scenarios.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [explaining 'adds':] [he brings money] from his house until [reaching] the price of the animal, and brings his obligation from the monies they called 'chatat.'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l28"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "41a's digression into kinnim is prompted by the parallel with Azazel goat designation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and does not add' - [he cannot take a] chatat from an animal [using money] from the monies of the olah, because he is not able to change [or redirect] the olah-monies to get the chatat from them.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l31"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Both the Azazel goat and kinnim involve paired offerings with complex designation rules.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and there is a difficulty here' - after [he] separated [the monies], he specified [which is which], and this is neither the time of taking nor the time of performance.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l31"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The parallel is: when is designation binding? The same question applies to both.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - yet it is taught [in the Mishnah] that it was fixed [the designation took effect].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rav Chisda's kinnim ruling illuminates the Azazel goat designation timing question.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Rav Sheshet said [a resolution], and does it seem reasonable? Did not R. Elazar say [in the name of] R. Hoshayah...",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Summary: setam Sifra = R. Yehuda; kinnim designated at slaughter (Rav Chisda); R. Yochanan: prior naming also binds.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'one impure entering the Temple' - rich man - brought a poor man's offering - he does not fulfill [his obligation].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "41a bridges the Azazel goat scenario discussion with the kinnim halakha.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so since he does not fulfill [it], how can the name [of 'olah'] be fixed on them [the birds], when he became rich?",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The Gemara's associative logic: similar designation questions draw both topics together.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [because] behold he is not obligated for the olah [after becoming rich, the offering type changed, so it cannot be the olah].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "41b will continue with the kinnim discussion and transition back to the Yom Kippur avodah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - but what [can] you say [to resolve this]? Perforce there is a problem [a disruption in the teaching logic] and [we must] say that this 'afterwards' [in the Mishnah]...",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "The kinnim digression is methodologically typical of the Talmud's comparative approach.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the problem is a disruption;] the teaching should [instead] be: and he said 'these for his chatat, these for his olah,' and afterwards the rich man [became rich]; this is how it should flow.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "By examining kinnim, the Gemara clarifies broader principles about offering designation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the resolution is:] because at the time [when] he designated [the monies], an offering [that was] appropriate [to his status] existed for him, and since perforce there is a disruption, so also R. Chisda resolved it thus - he already said from the time of separation.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "These principles then feed back into the Yom Kippur service analysis.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and here [the Mishnah] teaches: one impure [who] entered [the Temple] - poor - separated monies for his kinnim and said at the time of separation 'these for his chatat, these for his olah.'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Summary of 41a: Sifra attribution, Rav Chisda's kinnim designation ruling, R. Yochanan's counter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and afterwards [he] became rich - he adds and brings his obligation by monies, [and this is as the time of taking birds, because] the designation of monies is like the time of taking of birds.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "Two sugyot in 41a, both focused on designation timing for paired offerings.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and according to R. Chaga who says one impure [who] entered the Temple - rich man - brought a poor man's offering - he fulfilled [his obligation].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The broader principle: designation requires an act, not merely an intent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and because of this it is not disrupted, and this is the resolution, since he found that this offering was acceptable to him post-facto, he can teach that it was fixed.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "This principle has wide implications across the laws of korbanot.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but what [can] you say [to explain the disruption]? Perforce it is a problem [confusion in the teaching] and [we must] say that this 'afterwards' [indicates] confusion.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "41b continues and concludes the kinnim discussion before returning to Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but the resolution is:] rather it should be taught that he said 'these for his chatat, these for his olah, and afterwards the rich man [designation]...'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The Yom Kippur service narrative resumes in 41b with the Mishna about the scarlet thread.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [showing] how the problem [disruption] arises from the text; [this is] R. Sheshet's reasoning [challenge to Rav Chisda's resolution].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "The goat to Azazel chapter continues with the Mishna about how it is sent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [explaining further:] that he already said from the time of separation, and here [the Mishnah] teaches one impure [who] entered - poor - separated monies for kinnim and said...",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The kinnim interlude serves as a halachic enrichment of the Azazel goat discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [from] the time of separation - and R. Chisda also so resolved it, [saying] he already said from the time of separation-time.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "The Gemara's methodology: use parallel cases to clarify the main topic.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and here the Gemara teaches one impure [who] entered the Temple - poor man who separated monies for his kinnim, saying at the time of separation 'these for the chatat, these for the olah.'",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "41a is a good example of this associative, comparative Talmudic reasoning.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and afterwards [he] became rich - he adds and brings his obligation by monies, [because] the designation of monies is like the time of taking of birds [for kinnim].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "The student of Yoma must understand kinnim designation to understand the Azazel goat rules.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [reiterating:] because designation of monies is [equivalent to] the time of taking the birds themselves.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Both are governed by the same underlying principle of when designation becomes binding.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and according to R. Chaga who says one impure [who] entered the Temple - rich man - brought a poor man's offering - he fulfilled [the obligation] and [from that] it is not disrupted.",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Summary: setam Sifra, kinnim by slaughter, prior naming also considered binding.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and this resolution stands, since he found that this offering was acceptable to him even post-facto, he can teach that it was fixed [the Name established it].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "41a is a transition daf: it closes 40b's goat-scenarios and opens 41b's Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [on your account] perforce it [the teaching] is disrupted [without this explanation], and [this shows the problem in Rav Sheshet's challenge].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "The service continues: after the live goat is sent, the blood service of the bull begins.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: ends - [unresolved word at end of extended discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-041a-l33"
+      ]
     }
   ]
 }
