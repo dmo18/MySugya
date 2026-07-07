@@ -4272,6 +4272,71 @@ This is the twentieth consecutive dangling-link daf found in this
 corpus (27a through 36b), the second daf fixed under the explicit
 36a-52b frozen-corpus exception.
 
+## 36a and 36b, linkedGemaraLineIds correction (VERSION 15.45), self-caught methodology error
+
+Before starting 37a, a preflight check on 37a's real captured Gemara
+ids revealed that the real `kind: "gemara"` paragraph ids in
+`learning_data.js` are sparse (one id per paragraph, named by the
+paragraph's own starting Vilna line, not one id per raw talmud.dev
+print-line). The 36a and 36b fixes above had wrongly assumed a dense,
+sequential id scheme (one id per raw print-line), producing
+`linkedGemaraLineIds` values that mostly pointed at ids that do not
+exist anywhere in `learning_data.js`.
+
+A direct check confirmed the scope: 36a had 44 of 54 entries pointing
+at non-existent ids (only 9 real ids exist for 36a: `l01`, `l02`,
+`l09`, `l12`, `l15`, `l17`, `l20`, `l27`, `l29`); 36b had 53 of 62
+entries wrong (only 11 real ids exist for 36b: `l03`, `l04`, `l06`,
+`l13`, `l18`, `l28`, `l31`, `l34`, `l37`, `l40`, `l43`). A sweep of
+27a through 36b confirmed this error was isolated to 36a and 36b (this
+session's own work); 27a-35b, done by earlier agent passes, used the
+correct sparse-id methodology already (one minor false alarm was
+raised and cleared during the sweep: 35b vilnaLine 52-57's `l49` id is
+a valid `kind: "mishna"` entry, not an error).
+
+Both daf were corrected by re-deriving each entry's real id from the
+real paragraph text (extracted directly from `learning_data.js`),
+keeping every already-verified `en` description unchanged and only
+replacing `linkedGemaraLineIds`. For 36a, several ranges collapse into
+a single real id since one real paragraph spans what this session
+had wrongly split into 4-7 separate fake ids (e.g. vilnaLine 6-32, the
+entire "כנגד המזבח / בין האולם ולמזבח / רבי מוסיף / מן החליפות ולפנים
+/ הכל מודים שפסול" span, is all one real paragraph, `l02`). For 36b,
+vilnaLine 1-18 (the opening dispute framing and the Rabbi
+Akiva/Rabbi Yosei HaGelili gleanings dispute, before Abaye's own
+ruling) has no dedicated real id in 36b at all; since the boundary
+policy forbids cross-daf `linkedGemaraLineIds` and no earlier id
+exists on the 36b side, these entries are anchored to `l03` (36b's
+own first real id) as a symmetric start-of-daf boundary case,
+analogous to how a final truncated entry anchors to the daf's own
+last real id.
+
+Also corrected: both daf's final truncated entries had been linked to
+a fabricated next-integer id (36a to a nonexistent `l30`, 36b to a
+nonexistent `l46`) instead of the daf's actual final real id (`l29`
+for 36a, `l43` for 36b); both are now corrected to the real ids.
+
+This does not affect the live app: `linkedGemaraLineIds` is declared
+`optional`/`status: "helper"` in `shared/schema_map.js`
+("best-effort by dibur hamatchil, usable by tutor/image/learning
+tools for context") and is not read anywhere in `app.jsx`; no
+validator checks referential integrity of this field, which is why
+the error passed every gate cleanly the first time. It was caught by
+a manual cross-check against `learning_data.js` before starting 37a,
+not by any automated gate.
+
+`validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass; `npm test` and `npm run test:browser`
+(10/10) both pass. No Rashi Hebrew, `en` text, or Gemara-learning
+fields were touched in this correction pass, only
+`linkedGemaraLineIds` values. Going forward for 37a onward, real ids
+are extracted directly from `learning_data.js` (via a regex over
+`kind: "gemara"` and `kind: "mishna"` entries, including the `l01a`/
+`l01b` letter-suffixed split-line variant seen in some daf) before
+building any vilnaLine-to-id mapping, rather than assumed from
+talmud.dev's raw per-line array length.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
