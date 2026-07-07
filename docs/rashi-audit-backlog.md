@@ -3764,6 +3764,92 @@ resolved, 64/64. This is the thirteenth consecutive dangling-link daf
 found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a,
 31b, 32a, 32b, 33a). Haiku can resume the run at 33b.
 
+## 33b, full daf (VERSION 15.38), fourteenth dangling-link daf, closes the run at 33b
+
+Escalated from Haiku, same failure mode as every daf since 27a: of the
+60 raw talmud.dev Rashi print-lines, only 13 were assigned
+(vilnaLine 1-13), and that assignment mixed 5 ids that match real
+captured Gemara lines (`l01`, `l07`, `l09`, `l20`, `l28`) with 8 ids
+that do not exist as real `lines` objects at all (`l03`, `l08`, `l10`,
+`l11`, `l12`, `l14`, `l17`, `l24` - argumentFlow-only conceptual
+markers); vilnaLine 14-60 carried the generic
+"Rashi commentary on line N of 33b" stub filler.
+
+Independently re-read `assets/talmuddev/33b.json` (60 raw Rashi lines,
+45 raw Gemara lines) and `learning_data.js`'s actual built content
+before touching anything. The 33a/33b boundary was already verified:
+33a's own final vilnaLine 64 is the truncated word "וכי" ("and
+behold"), and 33b's raw Gemara line 1 opens "וכי עייל להיכל" - the
+same word completing itself at the top of 33b, confirming no edit was
+needed on either side of that seam.
+
+The daf's real captured Gemara "lines" objects (the ones with he/en
+gemara text) are `l01`, `l07`, `l09`, `l16`, `l18`, `l20`, `l26`,
+`l28`, `l30`, `l35`, `l39`, `l41`, `l43` - thirteen ids, taken from the
+Gemara's own vilna_line numbering. All 60 Rashi entries were rebuilt
+from scratch against these 13 real ids, reconstructing the dibbur-
+hamatchil boundaries by walking the raw Hebrew print-lines end to end
+and cross-referencing each comment's opening lemma against the
+Gemara's own quoted phrases.
+
+Three of the daf's real Gemara lines get no dedicated Rashi comment at
+all: `l30` (Ravina and Rav Ashi's exchange over whether the two-log
+"in the morning" is superfluous), `l35` (the "what is different, five
+lamps first" question and its wood-count answer), and `l39` (the
+verse ordering the two lamps before the incense). A direct text search
+confirmed none of their distinctive vocabulary (מייתר, אוקימנא,
+חברתה, שנא, רובא, פחותות, קודמת לקטורת) appears anywhere in the raw
+Rashi array, so this is a genuine content gap rather than a mapping
+error - the same kind of no-fold gap already documented for 32b's
+`l11`/`l14` and 33a's `l31`, just three lines wide this time because
+Rashi treats the whole `l20`-through-`l39` stretch (the two "in the
+morning" derivations for Reish Lakish's and Rabbi Yochanan's views) as
+one continuous argument and only glosses the specific difficulties he
+flags.
+
+vilnaLine 1-12 (the altar-before-menorah layout and the two-log/
+phylactery-order questions building to "let us stand it alongside
+them - so why pulled outward") fold to `l01`; vilnaLine 13-19 (Reish
+Lakish's "do not bypass a mitzva," applied to phylactery order) to
+`l07`; vilnaLine 20-23 (the two extraneous "in the morning" instances
+for the two logs) to `l09`; vilnaLine 24-29 (the "here three, here
+two" count proof from Exodus 29) to `l16`; vilnaLine 30-32 ("although
+here two and here two," the atonement-priority reasoning) to `l18`;
+vilnaLine 33-38 ("if so, on what basis do you pause," Abba Shaul's
+view) to `l20`; vilnaLine 39-44 (quoting ahead to Reish Lakish's own
+answer, "to increase the sense of transition," and "well: to allow
+time to go out and come in") to `l26`; vilnaLine 45-53 ("but according
+to Rabbi Yochanan," the challenge that no other service can fill the
+gap since everything is verse-ordered) to `l28`; vilnaLine 54-57 ("to
+the matter with only one mention of morning," the daily-offering
+verse) to `l41`; vilnaLine 58-60 ("from where is it derived that no
+matter may precede," closing with the truncated "ת"ל") to `l43`.
+Several raw print-lines straddle a comment boundary (the tail of one
+dibbur hamatchil and the head of the next on the same physical line);
+per the established convention, these were linked to the newly-opened
+comment's Gemara line, with the English describing both halves.
+
+vilnaLine 60, the daf's final raw print-line, is the single truncated
+word "ת"ל" ("the verse teaches"); per the same boundary convention
+used at every other daf seam in this run, it is linked to `l43`, 33b's
+own final locally captured Gemara line, continuing onto 34a (no edit
+made to 34a). Note for the record: the escalation brief assumed the
+final line would link to `yoma-033b-l45`, but no `l44` or `l45` object
+exists for this daf - a direct grep of `learning_data.js` confirms
+`l43` is the last real captured Gemara line, the same pattern as
+33a's own final line (`l41`, not a higher-numbered id).
+
+All 60 entries were rebuilt in a single indexed pass (a one-off local
+script, not committed), verified by recomputing the Gemara-line-id
+distribution against the reconstructed comment boundaries before
+applying. `validate:yoma`, `audit:order:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `validate:schema:yoma` all pass; `npm test` and `npm run
+test:browser` (10/10) both pass. 33b is fully resolved, 60/60. This is
+the fourteenth consecutive dangling-link daf found in this corpus
+(27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a, 31b, 32a, 32b, 33a, 33b),
+closing out the run through 33b. Haiku can resume at 34a.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

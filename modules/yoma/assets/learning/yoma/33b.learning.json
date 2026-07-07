@@ -26,329 +26,423 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "When entering the Sanctuary, the priest encounters the altar first, then the menorah - so altar comes first.",
+      "en": "Opens the daf's question: when the priest enters the Sanctuary, the altar is what he encounters first, before he reaches the menorah, since the altar -",
       "linkedGemaraLineIds": [
         "yoma-033b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rava: derive from Reish Lakish - do not bypass a mitzva (ein ma'avirin).",
+      "en": "is pulled slightly toward the east (closing). Opens 'removed from the wall': the table stood removed from the north wall -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l03"
+        "yoma-033b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Ash removal from five lamps precedes slaughter and blood of the daily offering.",
+      "en": "two and a half cubits, the width needed for two priests walking side by side, the ones who arrange the two -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "arrangements of showbread on Shabbat, whose mitzva is to set them up and clear them together, with four priests entering -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 5,
+      "en": "two from this side of the table -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 6,
+      "en": "to clear away the old arrangement of bread -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 7,
+      "en": "and two from the other side to set up the new one (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 8,
+      "en": "Opens 'removed from the wall two and a half cubits' (the menorah's own placement):",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "matching the table's measure, since it is written (Exodus 26) -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "'opposite the table,' each on its own side (closing). Opens 'outward':",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "toward the east, facing the entrance of the Sanctuary (closing). Opens 'let us stand it -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "alongside them': centered directly between the table and the menorah - so why was the altar pulled -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l01"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "outward (closing)? Opens 'from Reish Lakish': who says one may not -",
       "linkedGemaraLineIds": [
         "yoma-033b-l07"
       ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Cast one 'in the morning' to the five lamps so they precede blood.",
+      "vilnaLine": 14,
+      "en": "bypass the mitzvot (closing). Opens 'to forego [the phylactery] of the arm for that -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l08"
+        "yoma-033b-l07"
       ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Cast the other 'in the morning' to the blood so it precedes the ash removal from two lamps.",
+      "vilnaLine": 15,
+      "en": "of the head' is forbidden (closing lemma). Opens the reason: to delay the arm-phylactery -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "for the sake of the head-phylactery is forbidden, since -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "he encounters the arm first (closing). Opens 'how does he conduct himself: -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "from the arm to the head' (closing lemma): from the arm-phylactery he proceeds -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "to the head; he places the arm one first and afterward -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l07"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "places the head one (closing). Opens 'the two instances of \"in the morning\"' -",
       "linkedGemaraLineIds": [
         "yoma-033b-l09"
       ]
     },
     {
-      "vilnaLine": 6,
-      "en": "Rav Pappa to Abaye: why not reverse - apply 'in the morning' to blood first?",
+      "vilnaLine": 21,
+      "en": "written for the two logs' (closing lemma): they are not needed, since we already established the more atoning act -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l10"
+        "yoma-033b-l09"
       ]
     },
     {
-      "vilnaLine": 7,
-      "en": "According to Reish Lakish: priest removes ash from five lamps to avoid bypassing the menorah on the way to altar.",
+      "vilnaLine": 22,
+      "en": "takes precedence (closing). Opens 'cast them here': this is a principle -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l11"
+        "yoma-033b-l09"
       ]
     },
     {
-      "vilnaLine": 8,
-      "en": "According to R. Yochanan: the verse 'Aaron shall burn upon it incense' requires incense in the morning.",
+      "vilnaLine": 23,
+      "en": "in the Torah - a matter with no context of its own is given -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l12"
+        "yoma-033b-l09"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Ravina to Rav Ashi: is 'in the morning' in the menorah verse or the wood-burning verse?",
+      "vilnaLine": 24,
+      "en": "the context of another matter (closing). Opens 'here three and here two' -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l14"
+        "yoma-033b-l16"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "What is different between five lamps and two lamps?",
+      "vilnaLine": 25,
+      "en": "(closing lemma): here, regarding removal of ashes from the lamps, three instances of 'in the morning' are written -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l17"
+        "yoma-033b-l16"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Ash removal from two lamps precedes burning the incense.",
+      "vilnaLine": 26,
+      "en": "and the extra one we cast onto it makes -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "three total; and regarding the daily offering it is written (Exodus 29) -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "'you shall offer the one lamb in the morning,' and that -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "extra instance we cast onto it, as Abaye stated: one is cast to the blood -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l16"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "of the daily offering (closing). Opens 'although here two and here two' -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "(closing lemma): these are the atoning acts, since the burnt-offering atones for a positive commandment and for a negative commandment convertible -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "to a positive commandment, as will be explained later in this chapter -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l18"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "(36a) (closing). Opens 'if so' -",
       "linkedGemaraLineIds": [
         "yoma-033b-l20"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Incense burning precedes burning the tamid's limbs on the fire.",
+      "vilnaLine": 34,
+      "en": "since it precedes the blood of the daily offering, on what basis do you pause -",
       "linkedGemaraLineIds": [
-        "yoma-033b-l24"
+        "yoma-033b-l20"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Burning the limbs precedes the meal-offering accompanying the tamid.",
+      "vilnaLine": 35,
+      "en": "between them? According to Abba Shaul -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "who holds that the lamps are tended first and afterward -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "the daily offering's blood is presented, the lamp-tending would precede and the incense -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "would follow later - with what intervening service do you separate them? And if you ask -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l20"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "what does it matter to you (closing question). Opens, quoting ahead, 'this works out well for Reish Lakish' -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "who says the pause between the two lamp-cleanings exists only to increase -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "the sense of the walking of footsteps and the sound marking -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "the start of the services in the courtyard (closing the quoted answer). Opens 'well': you may -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "say the pause between them is to allow time to wait between these -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "and those, to go out and come in, so that no service -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l26"
+      ]
+    },
+    {
+      "vilnaLine": 45,
+      "en": "occurs in between (closing). Opens 'but according to Rabbi Yochanan' -",
       "linkedGemaraLineIds": [
         "yoma-033b-l28"
       ]
     },
     {
-      "vilnaLine": 14,
-      "en": "Five lamps must come before the blood sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Because 'in the morning' (first mention) comes before the blood service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The blood service precedes the second 'in the morning.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Then the two remaining lamps are cleaned.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rav Pappa challenges the interpretation of the two 'in the morning' phrases.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Reish Lakish vs R. Yochanan on the two 'in the morning' derivations.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "One says first morning = five lamps, second morning = two lamps.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The other interprets differently.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The two lamps must precede the incense.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The incense is offered after the menorah is completely attended to.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The incense precedes the limb placement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "As stated in the Torah's incense command.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The limbs precede the meal offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "As the order of the daily tamid service demonstrates.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The meal offering precedes the libation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "As derived from the Torah's sequence in Numbers.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The libation is the final act of the morning service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Abaye's sequence is now fully validated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Each step has at least one derivation supporting its position.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The chapter has established the complete normative sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "This sequence applies to the daily tamid service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "And by extension to Yom Kippur's unique services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The principle of ein ma'avirin governs service order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The service order follows both textual derivation and physical layout.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The discussion of challenges to the sequence is complete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The sequence is established as authoritative.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The chapter moves toward its conclusion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The morning service sequence is the foundation for Yom Kippur understanding.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The next chapter will apply this to the Yom Kippur service specifically.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "The discussion of Abaye's sequence concludes.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi commentary on line 44 of 33b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi commentary on line 45 of 33b.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 46,
-      "en": "Rashi commentary on line 46 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "who interprets 'in the morning, in the morning' together with 'when he tends the lamps,' dividing it into two -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi commentary on line 47 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "mornings: these two lamps precede one other service -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi commentary on line 48 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "implying there is a service in between them. And this -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "cannot be said to be filled by cleaning of the inner altar -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "for if so, advancing the cleaning of the five lamps ahead of that cleaning -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "would make the priest bypass -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "a mitzva; and there is no other service left to bring forward -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "and insert in its place between them, since all of them are ordered -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l28"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "here according to the verses (closing). Opens 'to the matter that -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l41"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi commentary on line 55 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "has only one mention of \"morning\"' (closing lemma): the daily offering -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l41"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi commentary on line 56 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "has 'you shall offer in the morning' stated of it once. And if you ask -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l41"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi commentary on line 57 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "we cast one of the two-log 'in the morning' instances onto it - it is onto the daily offering's blood that we cast it, and not -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l41"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi commentary on line 58 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "onto the limbs; and if you say the more atoning act takes precedence, there is no atonement except through the blood (closing). Opens 'from where is it derived that no matter -",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l43"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi commentary on line 59 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "[may be placed]' (closing lemma): may be placed on the great wood arrangement before the limbs of the daily offering (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l43"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi commentary on line 60 of 33b.",
-      "linkedGemaraLineIds": []
+      "en": "Single truncated word, 'the verse teaches' (talmud lomar), continuing onto 34a.",
+      "linkedGemaraLineIds": [
+        "yoma-033b-l43"
+      ]
     }
   ],
   "sugyot": [

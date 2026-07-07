@@ -77023,7 +77023,7 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 1,
         he: "וכי עייל להיכל במזבח פגע ברישא. קודם שיגיע למנורה שהמזבח",
-        en: "When entering the Sanctuary, the priest encounters the altar first, then the menorah - so altar comes first.",
+        en: "Opens the daf's question: when the priest enters the Sanctuary, the altar is what he encounters first, before he reaches the menorah, since the altar -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -77037,12 +77037,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 2,
         he: "משוך כלפי מזרח קימעא: משוך מן הכותל. מרוחק מן הכותל צפוני",
-        en: "Rava: derive from Reish Lakish - do not bypass a mitzva (ein ma'avirin).",
+        en: "is pulled slightly toward the east (closing). Opens 'removed from the wall': the table stood removed from the north wall -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l03"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77051,12 +77051,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 3,
         he: "שתי אמות ומחצה שיעור דרך שני כהנים זה אצל זה המסדרין שתי",
-        en: "Ash removal from five lamps precedes slaughter and blood of the daily offering.",
+        en: "two and a half cubits, the width needed for two priests walking side by side, the ones who arrange the two -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l07"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77065,12 +77065,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 4,
         he: "מערכות של לחם הפנים בשבת ומצוותו לסדרן ולסלקן יחד וארבעה",
-        en: "Cast one 'in the morning' to the five lamps so they precede blood.",
+        en: "arrangements of showbread on Shabbat, whose mitzva is to set them up and clear them together, with four priests entering -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l08"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77079,12 +77079,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 5,
         he: "נכנסין שנים מצד זה של שלחן",
-        en: "Cast the other 'in the morning' to the blood so it precedes the ash removal from two lamps.",
+        en: "two from this side of the table -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l09"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77093,12 +77093,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 6,
         he: "לסלק את המערכה הישנה של לחם",
-        en: "Rav Pappa to Abaye: why not reverse - apply 'in the morning' to blood first?",
+        en: "to clear away the old arrangement of bread -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l10"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77107,12 +77107,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 7,
         he: "הפנים ושנים מצד זה לסדר החדשה:",
-        en: "According to Reish Lakish: priest removes ash from five lamps to avoid bypassing the menorah on the way to altar.",
+        en: "and two from the other side to set up the new one (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l11"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77121,12 +77121,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 8,
         he: "משוכה מן הכותל שתי אמות ומחצה.",
-        en: "According to R. Yochanan: the verse 'Aaron shall burn upon it incense' requires incense in the morning.",
+        en: "Opens 'removed from the wall two and a half cubits' (the menorah's own placement):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l12"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77135,12 +77135,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 9,
         he: "כמדת השולחן דהא כתיב (שמות כו)",
-        en: "Ravina to Rav Ashi: is 'in the morning' in the menorah verse or the wood-burning verse?",
+        en: "matching the table's measure, since it is written (Exodus 26) -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l14"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77149,12 +77149,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 10,
         he: "נכח השלחן זה בצד זה: כלפי חוץ.",
-        en: "What is different between five lamps and two lamps?",
+        en: "'opposite the table,' each on its own side (closing). Opens 'outward':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l17"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77163,12 +77163,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 11,
         he: "כלפי מזרח לצד פתח ההיכל: לוקמא",
-        en: "Ash removal from two lamps precedes burning the incense.",
+        en: "toward the east, facing the entrance of the Sanctuary (closing). Opens 'let us stand it -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l20"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77177,12 +77177,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 12,
         he: "בהדייהו. מכוון בינייהו ולמה נמשך",
-        en: "Incense burning precedes burning the tamid's limbs on the fire.",
+        en: "alongside them': centered directly between the table and the menorah - so why was the altar pulled -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l24"
+          "yoma-033b-l01"
         ]
       },
       {
@@ -77191,12 +77191,12 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 13,
         he: "לחוץ: מדריש לקיש. דאמר אין",
-        en: "Burning the limbs precedes the meal-offering accompanying the tamid.",
+        en: "outward (closing)? Opens 'from Reish Lakish': who says one may not -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033b-l28"
+          "yoma-033b-l07"
         ]
       },
       {
@@ -77205,11 +77205,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 14,
         he: "מעבירין על המצות: עבורי דרעא",
-        en: "Five lamps must come before the blood sprinkling.",
+        en: "bypass the mitzvot (closing). Opens 'to forego [the phylactery] of the arm for that -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-015",
@@ -77217,11 +77219,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 15,
         he: "אטוטפתא. לאחר תפילין שבזרוע",
-        en: "Because 'in the morning' (first mention) comes before the blood service.",
+        en: "of the head' is forbidden (closing lemma). Opens the reason: to delay the arm-phylactery -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-016",
@@ -77229,11 +77233,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 16,
         he: "בשביל תפילין של ראש אסור דהא",
-        en: "The blood service precedes the second 'in the morning.'",
+        en: "for the sake of the head-phylactery is forbidden, since -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-017",
@@ -77241,11 +77247,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 17,
         he: "בזרוע פגע תחילה: היכי עביד",
-        en: "Then the two remaining lamps are cleaned.",
+        en: "he encounters the arm first (closing). Opens 'how does he conduct himself: -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-018",
@@ -77253,11 +77261,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 18,
         he: "מדרעא לטוטפתא. מן הזרוע יבא",
-        en: "Rav Pappa challenges the interpretation of the two 'in the morning' phrases.",
+        en: "from the arm to the head' (closing lemma): from the arm-phylactery he proceeds -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-019",
@@ -77265,11 +77275,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 19,
         he: "על ראש יניח שבזרוע תחילה ואח\"כ",
-        en: "Reish Lakish vs R. Yochanan on the two 'in the morning' derivations.",
+        en: "to the head; he places the arm one first and afterward -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l07"
+        ]
       },
       {
         id: "rashi-yoma-033b-020",
@@ -77277,11 +77289,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 20,
         he: "יניח של ראש: בבקר בבקר דשני",
-        en: "One says first morning = five lamps, second morning = two lamps.",
+        en: "places the head one (closing). Opens 'the two instances of \"in the morning\"' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l09"
+        ]
       },
       {
         id: "rashi-yoma-033b-021",
@@ -77289,11 +77303,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 21,
         he: "גזירין. דלא צריך דהא אמרן מכשיר",
-        en: "The other interprets differently.",
+        en: "written for the two logs' (closing lemma): they are not needed, since we already established the more atoning act -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l09"
+        ]
       },
       {
         id: "rashi-yoma-033b-022",
@@ -77301,11 +77317,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 22,
         he: "עדיף: שדינהו להכא. שזו מדה",
-        en: "The two lamps must precede the incense.",
+        en: "takes precedence (closing). Opens 'cast them here': this is a principle -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l09"
+        ]
       },
       {
         id: "rashi-yoma-033b-023",
@@ -77313,11 +77331,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 23,
         he: "בתורה דבר שאינו ענין לו תנהו",
-        en: "The incense is offered after the menorah is completely attended to.",
+        en: "in the Torah - a matter with no context of its own is given -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l09"
+        ]
       },
       {
         id: "rashi-yoma-033b-024",
@@ -77325,11 +77345,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 24,
         he: "ענין לחבירו: דהכא תלתא והכא",
-        en: "The incense precedes the limb placement.",
+        en: "the context of another matter (closing). Opens 'here three and here two' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-025",
@@ -77337,11 +77359,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 25,
         he: "תרי. הכא תלתא בהטבת נרות כתיב",
-        en: "As stated in the Torah's incense command.",
+        en: "(closing lemma): here, regarding removal of ashes from the lamps, three instances of 'in the morning' are written -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-026",
@@ -77349,11 +77373,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 26,
         he: "בבקר בבקר והאי דשדינן עליה חד",
-        en: "The limbs precede the meal offering.",
+        en: "and the extra one we cast onto it makes -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-027",
@@ -77361,11 +77387,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 27,
         he: "הא תלתא ובתמיד כתיב (שמות כט)",
-        en: "As the order of the daily tamid service demonstrates.",
+        en: "three total; and regarding the daily offering it is written (Exodus 29) -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-028",
@@ -77373,11 +77401,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 28,
         he: "את הכבש האחד תעשה בבקר והאי",
-        en: "The meal offering precedes the libation.",
+        en: "'you shall offer the one lamb in the morning,' and that -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-029",
@@ -77385,11 +77415,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 29,
         he: "דשדינן עליה כדאמר חד שדי לדם",
-        en: "As derived from the Torah's sequence in Numbers.",
+        en: "extra instance we cast onto it, as Abaye stated: one is cast to the blood -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l16"
+        ]
       },
       {
         id: "rashi-yoma-033b-030",
@@ -77397,11 +77429,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 30,
         he: "התמיד: אע\"ג דהכא תרי והכא",
-        en: "The libation is the final act of the morning service.",
+        en: "of the daily offering (closing). Opens 'although here two and here two' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l18"
+        ]
       },
       {
         id: "rashi-yoma-033b-031",
@@ -77409,11 +77443,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 31,
         he: "תרי. הני מכפרי שהעולה מכפרת",
-        en: "Abaye's sequence is now fully validated.",
+        en: "(closing lemma): these are the atoning acts, since the burnt-offering atones for a positive commandment and for a negative commandment convertible -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l18"
+        ]
       },
       {
         id: "rashi-yoma-033b-032",
@@ -77421,11 +77457,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 32,
         he: "על עשה ועל לא תעשה שניתק",
-        en: "Each step has at least one derivation supporting its position.",
+        en: "to a positive commandment, as will be explained later in this chapter -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l18"
+        ]
       },
       {
         id: "rashi-yoma-033b-033",
@@ -77433,11 +77471,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 33,
         he: "לעשה לקמן בפירקין (דף לו.): א\"כ.",
-        en: "The chapter has established the complete normative sequence.",
+        en: "(36a) (closing). Opens 'if so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-034",
@@ -77445,11 +77485,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 34,
         he: "דמקדמת ליה לדם התמיד אפסוקיה",
-        en: "This sequence applies to the daily tamid service.",
+        en: "since it precedes the blood of the daily offering, on what basis do you pause -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-035",
@@ -77457,11 +77499,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 35,
         he: "במאי פסקת להטבת הנרות לאבא",
-        en: "And by extension to Yom Kippur's unique services.",
+        en: "between them? According to Abba Shaul -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-036",
@@ -77469,11 +77513,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 36,
         he: "שאול כיון דאית ליה מיטיב ואח\"כ",
-        en: "The principle of ein ma'avirin governs service order.",
+        en: "who holds that the lamps are tended first and afterward -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-037",
@@ -77481,11 +77527,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 37,
         he: "יקטיר דם התמיד תקדים והקטורת",
-        en: "The service order follows both textual derivation and physical layout.",
+        en: "the daily offering's blood is presented, the lamp-tending would precede and the incense -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-038",
@@ -77493,11 +77541,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 38,
         he: "תאחר ובאיזו עבודה תפסיקו וא\"ת",
-        en: "The discussion of challenges to the sequence is complete.",
+        en: "would follow later - with what intervening service do you separate them? And if you ask -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l20"
+        ]
       },
       {
         id: "rashi-yoma-033b-039",
@@ -77505,11 +77555,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 39,
         he: "מאי איכפת לך הניחא לר\"ש בן",
-        en: "The sequence is established as authoritative.",
+        en: "what does it matter to you (closing question). Opens, quoting ahead, 'this works out well for Reish Lakish' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-040",
@@ -77517,11 +77569,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 40,
         he: "לקיש דאמר אין הפסקתן אלא להרבות",
-        en: "The chapter moves toward its conclusion.",
+        en: "who says the pause between the two lamp-cleanings exists only to increase -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-041",
@@ -77529,11 +77583,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 41,
         he: "הרגש מהלך פסיעות וקול תחילת",
-        en: "The morning service sequence is the foundation for Yom Kippur understanding.",
+        en: "the sense of the walking of footsteps and the sound marking -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-042",
@@ -77541,11 +77597,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 42,
         he: "עבודות בעזרה: שפיר. יש לך",
-        en: "The next chapter will apply this to the Yom Kippur service specifically.",
+        en: "the start of the services in the courtyard (closing the quoted answer). Opens 'well': you may -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-043",
@@ -77553,11 +77611,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 43,
         he: "לומר יפסיק ביניהם להמתין בין אלו",
-        en: "The discussion of Abaye's sequence concludes.",
+        en: "say the pause between them is to allow time to wait between these -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-044",
@@ -77565,11 +77625,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 44,
         he: "לאלו לצאת וליכנס ולא תהא עבודה",
-        en: "Rashi commentary on line 44 of 33b.",
+        en: "and those, to go out and come in, so that no service -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l26"
+        ]
       },
       {
         id: "rashi-yoma-033b-045",
@@ -77577,11 +77639,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 45,
         he: "בינתיים: אלא לרבי יוחנן. דדריש",
-        en: "Rashi commentary on line 45 of 33b.",
+        en: "occurs in between (closing). Opens 'but according to Rabbi Yochanan' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-046",
@@ -77589,11 +77653,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 46,
         he: "בבקר בבקר בהיטיבו חלקהו לב'",
-        en: "Rashi commentary on line 46 of 33b.",
+        en: "who interprets 'in the morning, in the morning' together with 'when he tends the lamps,' dividing it into two -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-047",
@@ -77601,11 +77667,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 47,
         he: "נרות לשני בקרים אלו יקדמו לעבודה",
-        en: "Rashi commentary on line 47 of 33b.",
+        en: "mornings: these two lamps precede one other service -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-048",
@@ -77613,11 +77681,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 48,
         he: "אחת אלמא יש עבודה ביניהם והא",
-        en: "Rashi commentary on line 48 of 33b.",
+        en: "implying there is a service in between them. And this -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-049",
@@ -77625,11 +77695,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 49,
         he: "ליכא למימר אפסקיה בדישון מזבח",
-        en: "Rashi commentary on line 49 of 33b.",
+        en: "cannot be said to be filled by cleaning of the inner altar -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-050",
@@ -77637,11 +77709,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 50,
         he: "הפנימי דא\"כ דמקדים הטבת ה'",
-        en: "Rashi commentary on line 50 of 33b.",
+        en: "for if so, advancing the cleaning of the five lamps ahead of that cleaning -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-051",
@@ -77649,11 +77723,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 51,
         he: "נרות לדישון הוה ליה מעביר על",
-        en: "Rashi commentary on line 51 of 33b.",
+        en: "would make the priest bypass -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-052",
@@ -77661,11 +77737,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 52,
         he: "המצות ועבודה תו ליכא להקדים",
-        en: "Rashi commentary on line 52 of 33b.",
+        en: "a mitzva; and there is no other service left to bring forward -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-053",
@@ -77673,11 +77751,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 53,
         he: "מקומה לתתה ביניהם שכולם סדורות",
-        en: "Rashi commentary on line 53 of 33b.",
+        en: "and insert in its place between them, since all of them are ordered -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l28"
+        ]
       },
       {
         id: "rashi-yoma-033b-054",
@@ -77685,11 +77765,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 54,
         he: "כאן ע\"פ המקראות: לדבר שלא",
-        en: "Rashi commentary on line 54 of 33b.",
+        en: "here according to the verses (closing). Opens 'to the matter that -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l41"
+        ]
       },
       {
         id: "rashi-yoma-033b-055",
@@ -77697,11 +77779,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 55,
         he: "נאמר בו אלא בקר אחד. התמיד",
-        en: "Rashi commentary on line 55 of 33b.",
+        en: "has only one mention of \"morning\"' (closing lemma): the daily offering -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l41"
+        ]
       },
       {
         id: "rashi-yoma-033b-056",
@@ -77709,11 +77793,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 56,
         he: "נאמר בו תעשה בבקר וא\"ת הא",
-        en: "Rashi commentary on line 56 of 33b.",
+        en: "has 'you shall offer in the morning' stated of it once. And if you ask -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l41"
+        ]
       },
       {
         id: "rashi-yoma-033b-057",
@@ -77721,11 +77807,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 57,
         he: "שדינן עליה חד מהנך דשני גזירין אדם התמיד הוא דשדינן עליה ולא",
-        en: "Rashi commentary on line 57 of 33b.",
+        en: "we cast one of the two-log 'in the morning' instances onto it - it is onto the daily offering's blood that we cast it, and not -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l41"
+        ]
       },
       {
         id: "rashi-yoma-033b-058",
@@ -77733,11 +77821,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 58,
         he: "על האברים ואם תאמר מכפר עדיף אין כפרה אלא בדם: מניין שלא",
-        en: "Rashi commentary on line 58 of 33b.",
+        en: "onto the limbs; and if you say the more atoning act takes precedence, there is no atonement except through the blood (closing). Opens 'from where is it derived that no matter -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l43"
+        ]
       },
       {
         id: "rashi-yoma-033b-059",
@@ -77745,11 +77835,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 59,
         he: "יהא דבר. ניתן על מערכה גדולה קודם לאברי התמיד:",
-        en: "Rashi commentary on line 59 of 33b.",
+        en: "[may be placed]' (closing lemma): may be placed on the great wood arrangement before the limbs of the daily offering (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l43"
+        ]
       },
       {
         id: "rashi-yoma-033b-060",
@@ -77757,11 +77849,13 @@ const DAF_CONTENT = {
         daf: "33b",
         vilnaLine: 60,
         he: "ת\"ל",
-        en: "Rashi commentary on line 60 of 33b.",
+        en: "Single truncated word, 'the verse teaches' (talmud lomar), continuing onto 34a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033b-l43"
+        ]
       }
     ],
     review: {
