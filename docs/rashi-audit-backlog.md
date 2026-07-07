@@ -3688,6 +3688,82 @@ before applying; no drafting slips survived to the applied version.
 dangling-link daf found in this corpus (27a, 27b, 28a, 28b, 29a, 29b,
 30a, 30b, 31a, 31b, 32a, 32b), and closes the resumed 30a-32b run.
 
+## 33a, full daf (VERSION 15.37), thirteenth dangling-link daf, escalated from Haiku and resolved
+
+Took over this daf after Haiku escalated: it could not confidently
+infer the fold pattern between 33a's 64 raw talmud.dev Rashi print-
+lines and the daf's real captured Gemara lines. Independently
+re-read `assets/talmuddev/33a.json` (64 raw Rashi lines, 45 raw Gemara
+lines) and `learning_data.js`'s actual built content before touching
+anything.
+
+The 32a/32b boundary and 32b/33a boundary were both already verified
+read-only in the prior 32b entry above (33a's own opening line "לכך
+שנינו כו'" was confirmed there to continue 32b's truncated "לכך"); no
+further boundary work was needed at the 33a start.
+
+The key discovery: 33a's real captured Gemara "lines" objects (the
+ones with `he`/`en` gemara text, matching `validate_rashi.py`'s and
+the app's actual render target) are `l01`, `l03`, `l09`, `l14`, `l17`,
+`l22`, `l23`, `l27`, `l31`, `l32`, `l37`, `l41` - twelve ids, taken
+from the Gemara's own `vilna_line` numbering, not from raw print-line
+position. The daf's separate `argumentFlow` annotations use a
+different, overlapping-but-distinct set of ids (`l07`, `l11`, `l13`,
+`l16`, `l20`, `l35` do not exist as real `lines` objects at all - they
+are argumentFlow-only conceptual-step markers). The 12 entries Haiku
+had already assigned (vilnaLine 1-12) used a mix of both id sets,
+so 6 of the 12 (`l07`, `l11`, `l13`, `l16`, `l20`, `l35`) pointed at
+non-existent Gemara line objects - a different failure mode from the
+generic-stub problem on vilnaLine 13-64, but still wrong. All 64
+entries were rebuilt from scratch against the 12 real ids.
+
+Reconstructing the real dibbur-hamatchil boundaries (roughly 30
+distinct Rashi comments across the 64 print-lines) and cross-checking
+each against the Gemara's own quoted phrases: vilnaLine 1-3 (the
+rov-simanim conclusion and "mitzva to finish") to `l01`; vilnaLine
+4-19 (Abaye's introduction through the incense-arrangement and
+two-log setup, in the overview list) to `l03` - the largest fold on
+this daf, since Rashi glosses this long overview list term by term
+without a new Gemara line being captured until the list's next
+raw-print-line clause; vilnaLine 20-26 (the blood/incense/limbs/
+meal-offering/libation chain) to `l09`; vilnaLine 27-35 (libations to
+musaf, and the "aleha hashlem" derivation) to `l14`; vilnaLine 36-38
+(the "mokda"/"tukad" baraita gloss) to `l17`; vilnaLine 39-43 (the
+"ve'eifoch ana" reversal question and its "great atonement" answer)
+to `l22`; vilnaLine 44 (the "if you wish say" alternate answer's
+close) to `l23`; vilnaLine 45-47 ("uve'er aleha") to `l27`; vilnaLine
+48-58 (the Exodus 30 verse derivation through the facilitator/
+"mechusar kefara" reasoning) to `l32` - the second-largest fold;
+vilnaLine 59 (Rabbi Yirmeya's "category of wood") to `l37`; vilnaLine
+60-64 (Abaye's "I learned it as tradition," Rava's Reish Lakish
+citation, and the daf's own truncated final word) to `l41`. `l31`
+(the "aleha is written twice" line) gets no dedicated Rashi comment
+at all - Rashi moves directly from glossing `l27` to `l32` without a
+separate gloss on this short, self-explanatory clause, the same kind
+of no-fold gap already documented for 32b's `l11`/`l14`.
+
+Several raw print-lines straddle a comment boundary (the tail of one
+dibbur hamatchil and the head of the next on the same physical line).
+Per the established convention, these were linked to the newly-opened
+comment's Gemara line, with the English describing both halves.
+
+vilnaLine 64, the daf's final raw print-line, is the single truncated
+word "וכי" ("and behold"), matching the same truncation pattern as
+every other daf boundary in this run; it is linked to `l41`, 33a's
+own final locally captured Gemara line, continuing onto 33b (no edit
+made to 33b).
+
+All 64 entries were rebuilt in a single indexed pass (`fix_33a.py`,
+not committed - a one-off local script), verified by recomputing the
+Gemara-line-id distribution against the reconstructed comment
+boundaries before applying. `validate:yoma`, `audit:order:yoma`,
+`validate:en:yoma`, `validate:daftext:yoma`, `validate:rashi:yoma`,
+`validate:literal:yoma`, and `validate:schema:yoma` all pass; `npm
+test` and `npm run test:browser` (10/10) both pass. 33a is fully
+resolved, 64/64. This is the thirteenth consecutive dangling-link daf
+found in this corpus (27a, 27b, 28a, 28b, 29a, 29b, 30a, 30b, 31a,
+31b, 32a, 32b, 33a). Haiku can resume the run at 33b.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

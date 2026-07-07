@@ -26,347 +26,451 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Majority of one organ in a bird and majority of both in an animal completes shechita.",
+      "en": "Opens explaining why the mishna repeats the rov-simanim teaching separately for non-sacred slaughter and for sacred offerings: Reish Lakish's statement, said regarding this very passage on the order of the day's service.",
       "linkedGemaraLineIds": [
         "yoma-033a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Abaye's ordering: first the wood arrangement (ma'aracha gedola), then the small arrangement for incense.",
+      "en": "Continues: since this passage of Reish Lakish's is learned in connection with the order of the day's service, it shows that non-sacred slaughter too follows the majority-of-two-organs rule taught here.",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 3,
+      "en": "Closes that point, then opens 'a mitzva to finish': completing the cut, though not strictly required, lets the blood flow out well.",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l01"
+      ]
+    },
+    {
+      "vilnaLine": 4,
+      "en": "Closes 'to finish... well,' then opens 'Abaye arranges the sequence in the name of the Gemara': he counted the order of every day's Temple services.",
       "linkedGemaraLineIds": [
         "yoma-033a-l03"
       ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Removal of ash from five lamps precedes the slaughter of the tamid.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Slaughter precedes the blood service; libations precede the musaf.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l11"
-      ]
-    },
-    {
       "vilnaLine": 5,
-      "en": "Source for the order: 'in the morning, in the morning' - each 'morning' teaches one thing.",
+      "en": "Continues 'in the name of the Gemara': meaning it came from the entire study hall of the Sages.",
       "linkedGemaraLineIds": [
-        "yoma-033a-l13"
+        "yoma-033a-l03"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Should the verse be reversed? No - the second arrangement takes precedence.",
+      "en": "Closes that gloss, opens 'and according to Abba Shaul' -",
       "linkedGemaraLineIds": [
-        "yoma-033a-l16"
+        "yoma-033a-l03"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Second arrangement (for incense) precedes the two logs - derived from the verse's order.",
+      "en": "continuing: Abba Shaul, who states in the first chapter (of Tamid) that cleaning of all the lamps precedes -",
       "linkedGemaraLineIds": [
-        "yoma-033a-l20"
+        "yoma-033a-l03"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "But the verse phrase 'upon it' is needed for the two-log obligation itself.",
+      "en": "the incense (closing the Abba Shaul citation).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 9,
+      "en": "Opens 'the large arrangement': the wood pile on the altar on which all the offerings are burned.",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 10,
+      "en": "Closes that, opens 'precedes': explaining the location of the second (incense) arrangement, set up before -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 11,
+      "en": "the second arrangement, which is made in the southwest corner,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 12,
+      "en": "drawn four cubits north from the corner,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 13,
+      "en": "as taught in Tractate Tamid (folio",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 14,
+      "en": "29a); closes that citation. Opens 'of incense': explaining that coals are raked from it",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 15,
+      "en": "to bring into the inner altar, morning and evening,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 16,
+      "en": "to burn the twice-daily incense offering upon it,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "half in the morning and half in the afternoon (closing the gloss).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 18,
+      "en": "Opens 'for arranging the two logs': which are arranged upon -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 19,
+      "en": "the large arrangement; all these reasons are explained further on (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l03"
+      ]
+    },
+    {
+      "vilnaLine": 20,
+      "en": "Closes that promise of reasons ahead, then opens 'for the blood of the daily offering': referring to -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 21,
+      "en": "the slaughter and the sprinkling (closing). Opens 'incense': of the inner altar, precedes -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 22,
+      "en": "the limbs, to burn the daily offering's limbs",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 23,
+      "en": "on the outer altar (closing). Opens 'for the meal-offering':",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 24,
+      "en": "the daily offering's own meal-offering and its libations,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 25,
+      "en": "as it is written (Numbers 28): 'a tenth of an ephah of fine flour for a meal-offering...'",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 26,
+      "en": "closing that verse citation. Opens 'for the libations': to pour -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l09"
+      ]
+    },
+    {
+      "vilnaLine": 27,
+      "en": "the daily offering's own wine (closing). Opens 'and libations to the additional offerings': if it is Shabbat.",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 28,
+      "en": "Closes that. Opens 'as it is stated, and he shall burn on it the fats of the peace-offerings':",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 29,
+      "en": "he reads 'upon it' as a term of completion,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 30,
+      "en": "referring back to the morning daily-offering",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 31,
+      "en": "mentioned at the top of the verse, as it is stated,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 32,
+      "en": "'and he shall arrange upon it the burnt-offering, and burn'; and he added",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 33,
+      "en": "'and complete' after it all the other offerings, teaching that this is not",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 34,
+      "en": "about the afternoon offering itself, but rather that the afternoon",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 35,
+      "en": "daily offering is the last of all the offerings (closing the gloss).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l14"
+      ]
+    },
+    {
+      "vilnaLine": 36,
+      "en": "Opens 'mokda': a term for a wood bonfire, and likewise -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 37,
+      "en": "'tukad' (closing). Opens 'this is the second arrangement': teaching -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 38,
+      "en": "it must be on the outer altar, from where they bring in",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l17"
+      ]
+    },
+    {
+      "vilnaLine": 39,
+      "en": "coals to the inner one (closing). Opens 'and I will reverse it': to advance -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 40,
+      "en": "the incense arrangement's verse ... and the verse",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 41,
+      "en": "stays in its own order, since 'all night' refers to [the large arrangement] (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 42,
+      "en": "Opens 'its atonement is great': since upon it they burn",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 43,
+      "en": "all the offerings except for the incense that goes inside",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l22"
+      ]
+    },
+    {
+      "vilnaLine": 44,
+      "en": "the Sanctuary (closing). Opens 'does he not bring in, etc.': proving that",
       "linkedGemaraLineIds": [
         "yoma-033a-l23"
       ]
     },
     {
-      "vilnaLine": 9,
-      "en": "Two logs precede the ash removal from the inner altar.",
+      "vilnaLine": 45,
+      "en": "the large arrangement too is fit for use inside (closing). Opens 'and he shall kindle upon it': referring to -",
       "linkedGemaraLineIds": [
         "yoma-033a-l27"
       ]
     },
     {
-      "vilnaLine": 10,
-      "en": "Rabbi Yirmeya: 'category of wood' - even logs that don't burn still count.",
+      "vilnaLine": 46,
+      "en": "the large arrangement, since right nearby it says 'and he shall arrange upon it wood' -",
       "linkedGemaraLineIds": [
-        "yoma-033a-l31"
+        "yoma-033a-l27"
       ]
     },
     {
-      "vilnaLine": 11,
-      "en": "Ash removal from inner altar precedes ash removal from five of the seven lamps.",
+      "vilnaLine": 47,
+      "en": "two logs (closing that gloss).",
       "linkedGemaraLineIds": [
-        "yoma-033a-l35"
+        "yoma-033a-l27"
       ]
     },
     {
-      "vilnaLine": 12,
-      "en": "Why remove ash from only five lamps first, then two later?",
+      "vilnaLine": 48,
+      "en": "Closes 'and not its counterpart' (the incense arrangement), then opens 'and here it is written':",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 49,
+      "en": "'in the morning, in the morning, when he tends the lamps he shall burn it' (Exodus 30) - meant",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 50,
+      "en": "to be expounded regarding the inner altar's ash removal, and the lamp-tending,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 51,
+      "en": "and the incense, since it says 'he shall burn it,' and there is",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 52,
+      "en": "no incense except after the ash removal (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 53,
+      "en": "Opens 'the facilitator takes precedence': what facilitates and prepares",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 54,
+      "en": "this thing precedes it, and the logs are facilitators of the incense",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 55,
+      "en": "since logs are what facilitate",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 56,
+      "en": "the incense (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 57,
+      "en": "Opens 'what is the facilitator': what facilitator are we dealing with here?",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 58,
+      "en": "The two logs (closing). Opens 'but don't they go to the large arrangement': and so are not facilitators of the incense (closing).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l32"
+      ]
+    },
+    {
+      "vilnaLine": 59,
+      "en": "Opens 'category of wood': even though these logs do not go to the incense arrangement,",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l37"
+      ]
+    },
+    {
+      "vilnaLine": 60,
+      "en": "Closes 'category of wood' (they still count as wood, a facilitator of incense), states 'I learned it as a tradition - that this is their order,' and opens 'reasoning' -",
       "linkedGemaraLineIds": [
         "yoma-033a-l41"
       ]
     },
     {
-      "vilnaLine": 13,
-      "en": "Then the wine libation is poured.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "R. Yirmeya's principle about 'category of wood' - sequential wood services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "All wood-related services are grouped in category for sequencing purposes.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The ketoret arrangement uses coals from the outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The two logs add to the fire arrangement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The limbs are arranged on the fire.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "All three involve the wood or fire of the altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "R. Yirmeya: all belong to the same category.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The wood category principle determines service order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The menorah cleaning order is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Five lamps before blood, two lamps after blood sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The sequence follows Leviticus 'in the morning' repeated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Two mentions of 'in the morning' = two separate morning times.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "First morning: first five lamps before blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Second morning: the last two lamps after blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The incense follows the two lamps.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "The limbs follow the incense.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The meal offering follows the limbs.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The libation follows the meal offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The complete sequence is established by Abaye.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The chapter will discuss each element of the sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Abaye's sequence becomes the normative ruling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The chapter discusses derivations for each step.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Challenges to the sequence are addressed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The complete morning service sequence is established.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Beginning with wood arrangement through final libation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Each step in the sequence has biblical support.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The sequence reflects the actual Temple practice.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The chapter's discussion validates Abaye's reconstruction.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi commentary on line 42 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi commentary on line 43 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi commentary on line 44 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi commentary on line 45 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi commentary on line 46 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi commentary on line 47 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi commentary on line 48 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi commentary on line 49 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi commentary on line 50 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi commentary on line 51 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi commentary on line 52 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi commentary on line 53 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi commentary on line 54 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi commentary on line 55 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi commentary on line 56 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi commentary on line 57 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi commentary on line 58 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi commentary on line 59 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi commentary on line 60 of 33a.",
-      "linkedGemaraLineIds": []
-    },
-    {
       "vilnaLine": 61,
-      "en": "Rashi commentary on line 61 of 33a.",
-      "linkedGemaraLineIds": []
+      "en": "'I do not know it,' to give a reason on my own understanding (closing). Opens 'one does not pass over a mitzva': one who encounters -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l41"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi commentary on line 62 of 33a.",
-      "linkedGemaraLineIds": []
+      "en": "a mitzva should not pass it by; this is derived in the Mekhilta from the phrase 'you shall guard' -",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l41"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "Rashi commentary on line 63 of 33a.",
-      "linkedGemaraLineIds": []
+      "en": "'the mitzvot,' read as: do not delay performing it lest it become leavened and stale (closing the comment).",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l41"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "Rashi commentary on line 64 of 33a.",
-      "linkedGemaraLineIds": []
+      "en": "Single truncated word, 'and behold' (ve'chi), continuing onto 33b.",
+      "linkedGemaraLineIds": [
+        "yoma-033a-l41"
+      ]
     }
   ],
   "sugyot": [

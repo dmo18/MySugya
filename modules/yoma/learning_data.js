@@ -75755,7 +75755,7 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 1,
         he: "לכך שנינו כו'. ממשנה יתירא חדא בחולין וחדא בקדשים מדקאמר",
-        en: "Majority of one organ in a bird and majority of both in an animal completes shechita.",
+        en: "Opens explaining why the mishna repeats the rov-simanim teaching separately for non-sacred slaughter and for sacred offerings: Reish Lakish's statement, said regarding this very passage on the order of the day's service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -75769,12 +75769,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 2,
         he: "ר\"ש בן לקיש דלפרושה הך דסדר יומא תנן לה דשחיטת חולין שמע",
-        en: "Abaye's ordering: first the wood arrangement (ma'aracha gedola), then the small arrangement for incense.",
+        en: "Continues: since this passage of Reish Lakish's is learned in connection with the order of the day's service, it shows that non-sacred slaughter too follows the majority-of-two-organs rule taught here.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l03"
+          "yoma-033a-l01"
         ]
       },
       {
@@ -75783,12 +75783,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 3,
         he: "מינה קרצו דהכא ברוב שנים: מצוה למרק. כדי להוציא את הדם",
-        en: "Removal of ash from five lamps precedes the slaughter of the tamid.",
+        en: "Closes that point, then opens 'a mitzva to finish': completing the cut, though not strictly required, lets the blood flow out well.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l07"
+          "yoma-033a-l01"
         ]
       },
       {
@@ -75797,12 +75797,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 4,
         he: "יפה: אביי מסדר מערכה משמיה דגמרא. מנה סדר עבודות של כל",
-        en: "Slaughter precedes the blood service; libations precede the musaf.",
+        en: "Closes 'to finish... well,' then opens 'Abaye arranges the sequence in the name of the Gemara': he counted the order of every day's Temple services.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l11"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75811,12 +75811,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 5,
         he: "יום ויום: משמיה דגמרא. דכוליה",
-        en: "Source for the order: 'in the morning, in the morning' - each 'morning' teaches one thing.",
+        en: "Continues 'in the name of the Gemara': meaning it came from the entire study hall of the Sages.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l13"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75825,12 +75825,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 6,
         he: "ישיבה דרבנן דבי מדרשא: ואליבא",
-        en: "Should the verse be reversed? No - the second arrangement takes precedence.",
+        en: "Closes that gloss, opens 'and according to Abba Shaul' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l16"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75839,12 +75839,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 7,
         he: "דאבא שאול. דאמר בפ\"ק הטבת",
-        en: "Second arrangement (for incense) precedes the two logs - derived from the verse's order.",
+        en: "continuing: Abba Shaul, who states in the first chapter (of Tamid) that cleaning of all the lamps precedes -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l20"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75853,12 +75853,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 8,
         he: "כל הנרות קודמות (לכל) לקטורת:",
-        en: "But the verse phrase 'upon it' is needed for the two-log obligation itself.",
+        en: "the incense (closing the Abba Shaul citation).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l23"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75867,12 +75867,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 9,
         he: "מערכה גדולה. שעליה יקטירו כל",
-        en: "Two logs precede the ash removal from the inner altar.",
+        en: "Opens 'the large arrangement': the wood pile on the altar on which all the offerings are burned.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l27"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75881,12 +75881,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 10,
         he: "הקטרות: קודמת. לסדר לפני",
-        en: "Rabbi Yirmeya: 'category of wood' - even logs that don't burn still count.",
+        en: "Closes that, opens 'precedes': explaining the location of the second (incense) arrangement, set up before -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l31"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75895,12 +75895,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 11,
         he: "המערכה שניה שעושין בקרן מערבית",
-        en: "Ash removal from inner altar precedes ash removal from five of the seven lamps.",
+        en: "the second arrangement, which is made in the southwest corner,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l35"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75909,12 +75909,12 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 12,
         he: "דרומית משוך מן הקרן ד' אמות",
-        en: "Why remove ash from only five lamps first, then two later?",
+        en: "drawn four cubits north from the corner,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-033a-l41"
+          "yoma-033a-l03"
         ]
       },
       {
@@ -75923,11 +75923,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 13,
         he: "לצד צפון כדתנן במסכת תמיד (דף",
-        en: "Then the wine libation is poured.",
+        en: "as taught in Tractate Tamid (folio",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-014",
@@ -75935,11 +75937,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 14,
         he: "כט.): של קטורת. שממנה חותין",
-        en: "R. Yirmeya's principle about 'category of wood' - sequential wood services.",
+        en: "29a); closes that citation. Opens 'of incense': explaining that coals are raked from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-015",
@@ -75947,11 +75951,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 15,
         he: "גחלים להכניס למזבח פנימי שחרית",
-        en: "All wood-related services are grouped in category for sequencing purposes.",
+        en: "to bring into the inner altar, morning and evening,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-016",
@@ -75959,11 +75965,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 16,
         he: "וערבית להקטיר עליה קטורת תמיד",
-        en: "The ketoret arrangement uses coals from the outer altar.",
+        en: "to burn the twice-daily incense offering upon it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-017",
@@ -75971,11 +75979,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 17,
         he: "פרס שחרית ופרס בין הערבים:",
-        en: "The two logs add to the fire arrangement.",
+        en: "half in the morning and half in the afternoon (closing the gloss).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-018",
@@ -75983,11 +75993,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 18,
         he: "לסידור שני גזירין. שמסדרין על",
-        en: "The limbs are arranged on the fire.",
+        en: "Opens 'for arranging the two logs': which are arranged upon -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-019",
@@ -75995,11 +76007,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 19,
         he: "מערכה גדולה וכולהו טעמי מפרש",
-        en: "All three involve the wood or fire of the altar.",
+        en: "the large arrangement; all these reasons are explained further on (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l03"
+        ]
       },
       {
         id: "rashi-yoma-033a-020",
@@ -76007,11 +76021,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 20,
         he: "לקמיה: לדם התמיד. לשחיטה",
-        en: "R. Yirmeya: all belong to the same category.",
+        en: "Closes that promise of reasons ahead, then opens 'for the blood of the daily offering': referring to -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-021",
@@ -76019,11 +76035,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 21,
         he: "ולזריקה: קטורת. של מזבח הפנימי",
-        en: "The wood category principle determines service order.",
+        en: "the slaughter and the sprinkling (closing). Opens 'incense': of the inner altar, precedes -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-022",
@@ -76031,11 +76049,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 22,
         he: "קודמת לאברים להקטיר אברי",
-        en: "The menorah cleaning order is established.",
+        en: "the limbs, to burn the daily offering's limbs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-023",
@@ -76043,11 +76063,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 23,
         he: "התמיד על מזבח החיצון: למנחה.",
-        en: "Five lamps before blood, two lamps after blood sprinkling.",
+        en: "on the outer altar (closing). Opens 'for the meal-offering':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-024",
@@ -76055,11 +76077,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 24,
         he: "מנחת נסכו של תמיד ונסכיהן",
-        en: "The sequence follows Leviticus 'in the morning' repeated.",
+        en: "the daily offering's own meal-offering and its libations,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-025",
@@ -76067,11 +76091,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 25,
         he: "דכתיב (במדבר כח) ועשירית האיפה",
-        en: "Two mentions of 'in the morning' = two separate morning times.",
+        en: "as it is written (Numbers 28): 'a tenth of an ephah of fine flour for a meal-offering...'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-026",
@@ -76079,11 +76105,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 26,
         he: "סולת למנחה וגו': לנסכין. לנסך",
-        en: "First morning: first five lamps before blood.",
+        en: "closing that verse citation. Opens 'for the libations': to pour -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l09"
+        ]
       },
       {
         id: "rashi-yoma-033a-027",
@@ -76091,11 +76119,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 27,
         he: "יינו של תמיד: ונסכין למוספין.",
-        en: "Second morning: the last two lamps after blood.",
+        en: "the daily offering's own wine (closing). Opens 'and libations to the additional offerings': if it is Shabbat.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-028",
@@ -76103,11 +76133,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 28,
         he: "אם שבת הוא: שנאמר והקטיר עליה",
-        en: "The incense follows the two lamps.",
+        en: "Closes that. Opens 'as it is stated, and he shall burn on it the fats of the peace-offerings':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-029",
@@ -76115,11 +76147,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 29,
         he: "חלבי השלמים. ודרש ליה לשון השלמה",
-        en: "The limbs follow the incense.",
+        en: "he reads 'upon it' as a term of completion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-030",
@@ -76127,11 +76161,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 30,
         he: "עליה על העולה תמיד של שחר",
-        en: "The meal offering follows the limbs.",
+        en: "referring back to the morning daily-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-031",
@@ -76139,11 +76175,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 31,
         he: "האמורה בראש המקרא שנאמר",
-        en: "The libation follows the meal offering.",
+        en: "mentioned at the top of the verse, as it is stated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-032",
@@ -76151,11 +76189,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 32,
         he: "וערך עליה העולה והקטיר והוסיף",
-        en: "The complete sequence is established by Abaye.",
+        en: "'and he shall arrange upon it the burnt-offering, and burn'; and he added",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-033",
@@ -76163,11 +76203,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 33,
         he: "והשלים אחריה כל הקרבנות ולא על",
-        en: "The chapter will discuss each element of the sequence.",
+        en: "'and complete' after it all the other offerings, teaching that this is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-034",
@@ -76175,11 +76217,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 34,
         he: "שבין הערבים למד על תמיד של בין",
-        en: "Abaye's sequence becomes the normative ruling.",
+        en: "about the afternoon offering itself, but rather that the afternoon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-035",
@@ -76187,11 +76231,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 35,
         he: "הערבים שהוא אחרון לכל הקרבנות:",
-        en: "The chapter discusses derivations for each step.",
+        en: "daily offering is the last of all the offerings (closing the gloss).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l14"
+        ]
       },
       {
         id: "rashi-yoma-033a-036",
@@ -76199,11 +76245,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 36,
         he: "מוקדה. לשון מדורת עצים וכן",
-        en: "Challenges to the sequence are addressed.",
+        en: "Opens 'mokda': a term for a wood bonfire, and likewise -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l17"
+        ]
       },
       {
         id: "rashi-yoma-033a-037",
@@ -76211,11 +76259,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 37,
         he: "תוקד: זו מערכה שניה. ולימדך",
-        en: "The complete morning service sequence is established.",
+        en: "'tukad' (closing). Opens 'this is the second arrangement': teaching -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l17"
+        ]
       },
       {
         id: "rashi-yoma-033a-038",
@@ -76223,11 +76273,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 38,
         he: "שתהא על מזבח החיצון ומשם יכניסו",
-        en: "Beginning with wood arrangement through final libation.",
+        en: "it must be on the outer altar, from where they bring in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l17"
+        ]
       },
       {
         id: "rashi-yoma-033a-039",
@@ -76235,11 +76287,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 39,
         he: "גחלים על הפנימי: ואיפוך. להקדים",
-        en: "Each step in the sequence has biblical support.",
+        en: "coals to the inner one (closing). Opens 'and I will reverse it': to advance -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l22"
+        ]
       },
       {
         id: "rashi-yoma-033a-040",
@@ -76247,11 +76301,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 40,
         he: "מערכה של קטורת א] [וקרא]",
-        en: "The sequence reflects the actual Temple practice.",
+        en: "the incense arrangement's verse ... and the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l22"
+        ]
       },
       {
         id: "rashi-yoma-033a-041",
@@ -76259,11 +76315,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 41,
         he: "כסידורה דהא בהקטר כל הלילה קאי:",
-        en: "The chapter's discussion validates Abaye's reconstruction.",
+        en: "stays in its own order, since 'all night' refers to [the large arrangement] (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l22"
+        ]
       },
       {
         id: "rashi-yoma-033a-042",
@@ -76271,11 +76329,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 42,
         he: "כפרתה מרובה. שעליה מקטירים",
-        en: "Rashi commentary on line 42 of 33a.",
+        en: "Opens 'its atonement is great': since upon it they burn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l22"
+        ]
       },
       {
         id: "rashi-yoma-033a-043",
@@ -76283,11 +76343,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 43,
         he: "כל הקטרות חוץ מן הקטורת לפנים",
-        en: "Rashi commentary on line 43 of 33a.",
+        en: "all the offerings except for the incense that goes inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l22"
+        ]
       },
       {
         id: "rashi-yoma-033a-044",
@@ -76295,11 +76357,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 44,
         he: "להיכל: מי לא מעייל כו'. נמצאת",
-        en: "Rashi commentary on line 44 of 33a.",
+        en: "the Sanctuary (closing). Opens 'does he not bring in, etc.': proving that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l23"
+        ]
       },
       {
         id: "rashi-yoma-033a-045",
@@ -76307,11 +76371,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 45,
         he: "אף הגדולה ראויה לפנים: ובער",
-        en: "Rashi commentary on line 45 of 33a.",
+        en: "the large arrangement too is fit for use inside (closing). Opens 'and he shall kindle upon it': referring to -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l27"
+        ]
       },
       {
         id: "rashi-yoma-033a-046",
@@ -76319,11 +76385,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 46,
         he: "עליה. אמערכה גדולה קאי דסמיך",
-        en: "Rashi commentary on line 46 of 33a.",
+        en: "the large arrangement, since right nearby it says 'and he shall arrange upon it wood' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l27"
+        ]
       },
       {
         id: "rashi-yoma-033a-047",
@@ -76331,11 +76399,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 47,
         he: "ליה וערך עליה עצים ב' עצים:",
-        en: "Rashi commentary on line 47 of 33a.",
+        en: "two logs (closing that gloss).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l27"
+        ]
       },
       {
         id: "rashi-yoma-033a-048",
@@ -76343,11 +76413,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 48,
         he: "ולא על חברתה. של קטורת: והכא",
-        en: "Rashi commentary on line 48 of 33a.",
+        en: "Closes 'and not its counterpart' (the incense arrangement), then opens 'and here it is written':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-049",
@@ -76355,11 +76427,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 49,
         he: "כתיב. בבקר בבקר בהיטיבו את",
-        en: "Rashi commentary on line 49 of 33a.",
+        en: "'in the morning, in the morning, when he tends the lamps he shall burn it' (Exodus 30) - meant",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-050",
@@ -76367,11 +76441,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 50,
         he: "הנרות יקטירנה (שמות ל) קאי",
-        en: "Rashi commentary on line 50 of 33a.",
+        en: "to be expounded regarding the inner altar's ash removal, and the lamp-tending,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-051",
@@ -76379,11 +76455,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 51,
         he: "למידרשיה אדישון פנימי ואהטבה",
-        en: "Rashi commentary on line 51 of 33a.",
+        en: "and the incense, since it says 'he shall burn it,' and there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-052",
@@ -76391,11 +76469,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 52,
         he: "והקטורת כדכתיב יקטירנה ואין",
-        en: "Rashi commentary on line 52 of 33a.",
+        en: "no incense except after the ash removal (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-053",
@@ -76403,11 +76483,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 53,
         he: "קטורת אלא לאחר דישון: מכשיר",
-        en: "Rashi commentary on line 53 of 33a.",
+        en: "Opens 'the facilitator takes precedence': what facilitates and prepares",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-054",
@@ -76415,11 +76497,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 54,
         he: "עדיף. המכשיר ומתקן את הדבר",
-        en: "Rashi commentary on line 54 of 33a.",
+        en: "this thing precedes it, and the logs are facilitators of the incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-055",
@@ -76427,11 +76511,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 55,
         he: "הזה קודמו ועצים מכשירי קטורת",
-        en: "Rashi commentary on line 55 of 33a.",
+        en: "since logs are what facilitate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-056",
@@ -76439,11 +76525,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 56,
         he: "הם שהרי עצים הן המכשירין",
-        en: "Rashi commentary on line 56 of 33a.",
+        en: "the incense (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-057",
@@ -76451,11 +76539,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 57,
         he: "את הקטורת: מכשיר מאי נינהו. מכשיר דהכא במאי עסקת",
-        en: "Rashi commentary on line 57 of 33a.",
+        en: "Opens 'what is the facilitator': what facilitator are we dealing with here?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-058",
@@ -76463,11 +76553,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 58,
         he: "בשני גזירי עצים: והא למערכה גדולה אזלי. ואינם מכשירי",
-        en: "Rashi commentary on line 58 of 33a.",
+        en: "The two logs (closing). Opens 'but don't they go to the large arrangement': and so are not facilitators of the incense (closing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l32"
+        ]
       },
       {
         id: "rashi-yoma-033a-059",
@@ -76475,11 +76567,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 59,
         he: "קטורת: שום עצים. אף על גב דהני לאו לקטורת אזלי שם",
-        en: "Rashi commentary on line 59 of 33a.",
+        en: "Opens 'category of wood': even though these logs do not go to the incense arrangement,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l37"
+        ]
       },
       {
         id: "rashi-yoma-033a-060",
@@ -76487,11 +76581,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 60,
         he: "עצים מכשירי קטורת הן: גמרא גמירנא. שכן סידרן: סברא",
-        en: "Rashi commentary on line 60 of 33a.",
+        en: "Closes 'category of wood' (they still count as wood, a facilitator of incense), states 'I learned it as a tradition - that this is their order,' and opens 'reasoning' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l41"
+        ]
       },
       {
         id: "rashi-yoma-033a-061",
@@ -76499,11 +76595,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 61,
         he: "לא ידענא. לתת טעם לדבר מדעתי: אין מעבירין. הפוגע",
-        en: "Rashi commentary on line 61 of 33a.",
+        en: "'I do not know it,' to give a reason on my own understanding (closing). Opens 'one does not pass over a mitzva': one who encounters -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l41"
+        ]
       },
       {
         id: "rashi-yoma-033a-062",
@@ -76511,11 +76609,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 62,
         he: "במצוה לא יעבור ממנה ונפקא לן במכילתא מושמרתם את",
-        en: "Rashi commentary on line 62 of 33a.",
+        en: "a mitzva should not pass it by; this is derived in the Mekhilta from the phrase 'you shall guard' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l41"
+        ]
       },
       {
         id: "rashi-yoma-033a-063",
@@ -76523,11 +76623,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 63,
         he: "המצות קרי ביה את המצות לא תמתין לה שתחמיץ ותיישן:",
-        en: "Rashi commentary on line 63 of 33a.",
+        en: "'the mitzvot,' read as: do not delay performing it lest it become leavened and stale (closing the comment).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l41"
+        ]
       },
       {
         id: "rashi-yoma-033a-064",
@@ -76535,11 +76637,13 @@ const DAF_CONTENT = {
         daf: "33a",
         vilnaLine: 64,
         he: "וכי",
-        en: "Rashi commentary on line 64 of 33a.",
+        en: "Single truncated word, 'and behold' (ve'chi), continuing onto 33b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-033a-l41"
+        ]
       }
     ],
     review: {
