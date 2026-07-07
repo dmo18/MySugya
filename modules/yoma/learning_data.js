@@ -93277,11 +93277,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 1,
         he: "יעמד חי. על כרחך ללמדנו שאם מת אתה צריך להביא אחר דאי לא",
-        en: "The live goat shall stand before God to atone for it - until when must it stand?",
+        en: "Rashi: opens 'he shall stand alive' - necessarily to teach us that if it dies you must bring another, since if not,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l01"
+        ]
       },
       {
         id: "rashi-yoma-040b-002",
@@ -93289,11 +93291,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 2,
         he: "למאי אתא אם תאמר שלא ישלחנו עד לאחר מתן דמים ליכתוב",
-        en: "Until the KG confesses over it; the standing is for the purpose of the confession.",
+        en: "Rashi: continues - what is this teaching for? If you say it is so that he not send it until after the giving of the blood, let the verse write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l01"
+        ]
       },
       {
         id: "rashi-yoma-040b-003",
@@ -93301,11 +93305,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 3,
         he: "יעמד לפני ה' לכפר עליו חי למה לי אלא שאם מת צריך להביא",
-        en: "The third confession is now given: it covers all of Israel.",
+        en: "Rashi: continues - 'he shall stand before the Lord to atone over it' - why do I need 'alive'? Rather, it teaches that if it dies he must bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l01"
+        ]
       },
       {
         id: "rashi-yoma-040b-004",
@@ -93313,11 +93319,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 4,
         he: "אחר: ועד מתי הזקיקו להיות חי עד שעת מתן דמים של חבירו.",
-        en: "Anna HaShem: chatati, aviti, pashati before You - I and my household.",
+        en: "Rashi: concludes - another. Then opens 'and until when was it required to be alive: until the time of the giving of the blood of its fellow.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l01"
+        ]
       },
       {
         id: "rashi-yoma-040b-005",
@@ -93325,11 +93333,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 5,
         he: "דכתיב לכפר עד שיכפר בדמו של",
-        en: "And the sons of Aaron Your holy people.",
+        en: "Rashi: opens 'as it is written 'to atone' - until he atones with the blood of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-006",
@@ -93337,11 +93347,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 6,
         he: "חבירו אבל משעת מתן דמים ואילך",
-        en: "And all the house of Israel, Your nation.",
+        en: "Rashi: continues - its fellow, but from the time of the giving of the blood onward,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-007",
@@ -93349,11 +93361,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 7,
         he: "אע\"פ שעדיין לא התודה לפי סדר",
-        en: "Please, HaShem: kapper na (atone please) for the chatati, aviti, pashati.",
+        en: "Rashi: continues - even though he has not yet confessed, according to the order of the verses,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-008",
@@ -93361,11 +93375,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 8,
         he: "המקראות וכלה מכפר וגו' (ויקרא טז)",
-        en: "That all the house of Israel, Your people, has done before You.",
+        en: "Rashi: continues - 'and when he has finished atoning' etc. (Leviticus 16),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-009",
@@ -93373,11 +93389,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 9,
         he: "וסמך אהרן וגו' אם מת אין צריך",
-        en: "The congregation responded with Baruch Shem on hearing the Divine Name.",
+        en: "Rashi: continues - 'and Aaron shall lay,' etc. - if it dies he need not bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-010",
@@ -93385,11 +93403,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 10,
         he: "אחר אלמא וידוי לא מיעכב: רבי",
-        en: "This is the third time the Shem HaMeforash was uttered; the third prostration.",
+        en: "Rashi: opens 'another; this shows that confession does not preclude. Then opens Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l07"
+        ]
       },
       {
         id: "rashi-yoma-040b-011",
@@ -93397,11 +93417,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 11,
         he: "שמעון אומר כו'. כדפריש טעמא",
-        en: "After the confession the KG hands the goat to the handler (ish iti).",
+        en: "Rashi: continues - 'Shimon says,' etc. - as he explains the reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l07"
+        ]
       },
       {
         id: "rashi-yoma-040b-012",
@@ -93409,11 +93431,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 12,
         he: "לקמן ואני שמעתי ואזדו לטעמייהו",
-        en: "The ish iti was appointed to take the goat to the Tsuk (cliff).",
+        en: "Rashi: continues - further on. And I have heard: and they go by their own reasoning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l07"
+        ]
       },
       {
         id: "rashi-yoma-040b-013",
@@ -93421,11 +93445,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 13,
         he: "בהגרלה מיעכבא ולא מיעכבא ואי",
-        en: "If the Azazel goat died before being sent, a new one must be brought.",
+        en: "Rashi: concludes - regarding whether the lottery precludes or does not preclude, and it is not possible to establish it otherwise.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l07"
+        ]
       },
       {
         id: "rashi-yoma-040b-014",
@@ -93433,11 +93459,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 14,
         he: "אפשר להעמידה: וכן הוא אומר",
-        en: "The designation is specific to that animal; if it dies, a new lot must be drawn.",
+        en: "Rashi: opens 'and so it says: and when he has finished atoning the Sanctuary' - this refers to the giving of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-015",
@@ -93445,11 +93473,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 15,
         he: "וכלה מכפר את הקודש. הוא מתן",
-        en: "If it got lost on the way, what happens? It depends on when it was lost.",
+        en: "Rashi: continues - the blood, 'and he shall bring the live goat' - up to this point",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-016",
@@ -93457,11 +93487,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 16,
         he: "דמים והקריב את השעיר החי עד כאן",
-        en: "If after the blood of the God-goat was sprinkled, the Azazel goat was already fulfilled.",
+        en: "Rashi: continues - it must be alive. Then opens 'to atone over it' - the verse speaks of the atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-017",
@@ -93469,11 +93501,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 17,
         he: "צריך להיות חי: לכפר עליו. בכפרה",
-        en: "If before the blood was sprinkled, a new Azazel goat must be designated.",
+        en: "Rashi: continues - that falls upon it, and this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-018",
@@ -93481,11 +93515,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 18,
         he: "המוטלת עליו הכתוב מדבר והוא",
-        en: "What if the God-goat (for sacrifice) dies after its blood was already sprinkled?",
+        en: "Rashi: concludes - the confession.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l04"
+        ]
       },
       {
         id: "rashi-yoma-040b-019",
@@ -93493,11 +93529,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 19,
         he: "הוידוי: עלה בשמאל. גורל שם:",
-        en: "Its blood already atoned; the dead carcass is disposed of.",
+        en: "Rashi: opens 'it came up on the left' - the lot 'for the Name.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l09"
+        ]
       },
       {
         id: "rashi-yoma-040b-020",
@@ -93505,11 +93543,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 20,
         he: "אל תתנו מקום לצדוקים. תלמידים",
-        en: "What if the goats got mixed up before any lots were drawn?",
+        en: "Rashi: opens 'do not give room to the Sadducees' - students",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l09"
+        ]
       },
       {
         id: "rashi-yoma-040b-021",
@@ -93517,11 +93557,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 21,
         he: "החולקים על התורה לרדות ולמשול",
-        en: "A new pair must be acquired and lots drawn again.",
+        en: "Rashi: continues - who dispute the Torah, to dominate and rule",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l09"
+        ]
       },
       {
         id: "rashi-yoma-040b-022",
@@ -93529,11 +93571,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 22,
         he: "בהן לקפח אתכם בדברים שיאמרו",
-        en: "What if they got mixed up after the lots were placed on them?",
+        en: "Rashi: continues - over them, to shortchange you with words they will say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l09"
+        ]
       },
       {
         id: "rashi-yoma-040b-023",
@@ -93541,11 +93585,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 23,
         he: "לפי רצונם הם עושים הכל: הא לאו",
-        en: "If before any sprinkling, new lots must be drawn from a new pair.",
+        en: "Rashi: concludes - according to their own will, that they do everything.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l09"
+        ]
       },
       {
         id: "rashi-yoma-040b-024",
@@ -93553,11 +93599,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 24,
         he: "הכי מהדרינן. של עזאזל לשם: כיון",
-        en: "If after the blood was sprinkled, the remaining Azazel goat (whichever it is) is sent.",
+        en: "Rashi: opens 'if not so, we would return it' - of the goat marked for Azazel, to the Name. Then opens 'once",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l11"
+        ]
       },
       {
         id: "rashi-yoma-040b-025",
@@ -93565,11 +93613,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 25,
         he: "שעלה. מתוך קלפי ויודע איזו לשם",
-        en: "The various scenarios are analyzed to determine when designation is irreversible.",
+        en: "Rashi: opens 'it came up' - from within the urn and it is known which is for the Name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l17"
+        ]
       },
       {
         id: "rashi-yoma-040b-026",
@@ -93577,11 +93627,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 26,
         he: "ואיזו לעזאזל א] שוב אינו צריך להיות",
-        en: "After blood sprinkling of the God-goat, the Azazel goat's identity is locked in.",
+        en: "Rashi: continues - and which is for Azazel, it no longer needs to be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l17"
+        ]
       },
       {
         id: "rashi-yoma-040b-027",
@@ -93589,11 +93641,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 27,
         he: "מונח עליו ואפילו למצוה אבל עלייה",
-        en: "Before sprinkling, both goats' identities are still fluid.",
+        en: "Rashi: continues - placed upon it, even for the sake of a mitzva; but the rising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l17"
+        ]
       },
       {
         id: "rashi-yoma-040b-028",
@@ -93601,11 +93655,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 28,
         he: "והנחה מצוה (היא) מיהא איכא:",
-        en: "The lot creates a conditional designation; the blood sprinkling makes it final.",
+        en: "Rashi: concludes - and the placement are each nevertheless a mitzva.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l17"
+        ]
       },
       {
         id: "rashi-yoma-040b-029",
@@ -93613,11 +93669,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 29,
         he: "ואין השם. אם קרא לו שם בלא גורל:",
-        en: "Summary: third confession text; goat sent after confession; replacement scenarios based on timing.",
+        en: "Rashi: opens 'and the Name does not' - if he called it a name without a lottery.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l25"
+        ]
       },
       {
         id: "rashi-yoma-040b-030",
@@ -93625,11 +93683,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 30,
         he: "במקום שלא קידש הגורל. בשאר",
-        en: "The live goat's standing requirement: until the confession over it.",
+        en: "Rashi: opens 'in a place where the lottery did not sanctify' - regarding other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-031",
@@ -93637,11 +93697,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 31,
         he: "קרבנות הצריכין פירוש כגון קיני",
-        en: "The confession's scope: all Israel - this is the broadest of the three confessions.",
+        en: "Rashi: continues - offerings that require specification, such as the bird-offerings of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-032",
@@ -93649,11 +93711,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 32,
         he: "זבין וזבות ויולדות שאחד מהן חטאת",
-        en: "The first confession (bull): KG and his household.",
+        en: "Rashi: continues - zavim and zavot and women after childbirth, where one of them is a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-033",
@@ -93661,11 +93725,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 33,
         he: "ואחד מהן עולה שלא קידש הגורל אם",
-        en: "The second confession (bull again): KG, household, and the sons of Aaron.",
+        en: "Rashi: continues - and one of them is a burnt-offering, where the lottery did not sanctify. If",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-034",
@@ -93673,11 +93739,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 34,
         he: "כתב על שני גורלות על אחד חטאת ועל",
-        en: "The third confession (live goat): KG, household, sons of Aaron, and all Israel.",
+        en: "Rashi: continues - he wrote on two lots, on one 'sin-offering' and on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-035",
@@ -93685,11 +93753,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 35,
         he: "א' עולה ונתנן עליהם לא מצינו שהגורל",
-        en: "Progressive expansion: self → family → kohanim → all Israel.",
+        en: "Rashi: concludes - the other 'burnt-offering,' and placed them upon them, we do not find that the lottery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-036",
@@ -93697,11 +93767,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 36,
         he: "קובעם ולא יכול לשנותן: קידש",
-        en: "The live goat carries the widest net of atonement.",
+        en: "Rashi: opens 'sanctifies them and he cannot change them. Then opens the name'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-037",
@@ -93709,11 +93781,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 37,
         he: "השם. מאחר שקרא לזו חטאת",
-        en: "The blood offerings (bull and goat) atone for impurity in the Temple.",
+        en: "Rashi: continues - 'sanctified' - since he called this one sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-038",
@@ -93721,11 +93795,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 38,
         he: "ולזו עולה אין הכהן רשאי לשנותן",
-        en: "The live goat and verbal confession atone for intentional sins of all Israel.",
+        en: "Rashi: continues - and that one burnt-offering, the priest may not change them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-039",
@@ -93733,11 +93809,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 39,
         he: "כדאמרינן לקמן (דף מא.) מולקחה",
-        en: "The two mechanisms (blood and speech) work on different types of wrongdoing.",
+        en: "Rashi: continues - as we say further on (41a): 'and he shall take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-040",
@@ -93745,11 +93823,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 40,
         he: "שתי תורים או שני בני יונה אחד",
-        en: "Summary: third confession, goat sent, replacement rules analyzed.",
+        en: "Rashi: continues - two turtledoves or two young pigeons,' one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-041",
@@ -93757,11 +93837,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 41,
         he: "לעולה ואחד לחטאת בשעת לקיחה הן נקבעין זו לעולה",
-        en: "40b concludes the live goat discussion.",
+        en: "Rashi: continues - for a burnt-offering and one for a sin-offering; at the time of taking they are designated one for the burnt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-042",
@@ -93769,11 +93851,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 42,
         he: "וזו לחטאת כאן שמצינו שהגורל קובען אינו דין שהשם קובען:",
-        en: "41a opens with the Sifra attribution question.",
+        en: "Rashi: continues - and the other for the sin-offering; here, where we find that the lottery designates them, is it not logical that the name should designate them?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l27"
+        ]
       },
       {
         id: "rashi-yoma-040b-043",
@@ -93781,11 +93865,13 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 43,
         he: "סתם",
-        en: "The transition from live goat to the next stage of service.",
+        en: "Rashi: the daf's final truncated word - 'plainly,' the start of the dibbur hamatchil resolving the objection that the lottery's own designating power should extend by kal vachomer to the name, whose text continues on 41a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-040b-l29"
+        ]
       }
     ],
     review: "reviewed"

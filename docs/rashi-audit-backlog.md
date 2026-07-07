@@ -4666,6 +4666,48 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 40a), the ninth
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 40b, full daf (VERSION 15.53), twenty-eighth dangling-link daf, tenth of the 36a-52b batch, closes the 37b-40b run
+
+Real ids extracted directly from `learning_data.js` first: 12 ids
+(`l01`, `l04`, `l07`, `l09`, `l11`, `l15`, `l17`, `l20`, `l22`, `l25`,
+`l27`, `l29`). 43 raw Rashi print-lines, all fully dangling before
+this fix. No pre-existing bogus ids found (clean starting state,
+unlike 36a/36b).
+
+The correspondence: vilnaLine 1-4 (the "he shall stand alive" verse,
+proving a dead goat must be replaced) to `l01`; vilnaLine 5-9 (Rabbi
+Yehuda's own reading, that atonement means through blood, so
+confession does not preclude) to `l04`; vilnaLine 10-13 (Rabbi
+Shimon's own view, and Rashi's own note that the two disputed points,
+lottery and confession, cannot both be established) to `l07`;
+vilnaLine 14-18 (Rashi's further elaboration on the same "and when he
+has finished atoning" verse, tracing exactly how long the goat must
+stay alive) to `l04` (Rashi returns to elaborate the Rabbi Yehuda
+citation a second time before moving on, rather than strict
+line-by-line advance); vilnaLine 19-23 ("it came up on the left," and
+the "do not give room to the Sadducees" caution) to `l09`; vilnaLine
+24 (why we would otherwise switch the lot back) to `l11`; vilnaLine
+25-28 (once the lot has risen, placement is no longer indispensable
+though still a mitzva) to `l17`; vilnaLine 29 ("and the Name does
+not" designate without a lottery) to `l25`; vilnaLine 30-42 (the
+kal vachomer from bird-offerings, that if the lottery designates a
+sin-offering versus a burnt-offering, the name should too) to `l27`;
+vilnaLine 43 (the daf's final truncated word) to `l29`, the daf's own
+final real captured line (boundary policy). `l15`, `l20`, and `l22`
+get no dedicated Rashi comment, no-fold gaps since they restate
+positions (Rava's own rephrasing) that Rashi had already glossed via
+the parallel Sadducee/Azazel material.
+
+Zero-bogus-id check confirmed all 43 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+40b is fully resolved, 43/43. This is the twenty-eighth consecutive
+dangling-link daf found in this corpus (27a through 40b), the tenth
+daf fixed under the 36a-52b frozen-corpus exception, and closes the
+37b-40b run agreed as the checkpoint before the next report.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40
