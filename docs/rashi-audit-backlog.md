@@ -4487,6 +4487,56 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 38b), the sixth
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 39a, full daf (VERSION 15.50), twenty-fifth dangling-link daf, seventh of the 36a-52b batch
+
+Real ids extracted directly from `learning_data.js` first: 17 ids
+(`l01`, `l03`, `l06`, `l10`, `l13`, `l14`, `l17`, `l19`, `l20`, `l21`,
+`l24`, `l27`, `l28`, `l29`, `l32`, `l35`, `l38`). 59 raw Rashi
+print-lines, all fully dangling before this fix.
+
+The correspondence: vilnaLine 1 (the naphtha-buyer story carried over
+from 38b, folding directly into "sin numbs the heart") to `l01`;
+vilnaLine 2 (a person who defiles himself a little is left to defile
+himself greatly) to `l06`; vilnaLine 3-4 (the parallel for
+sanctification) to `l10`; vilnaLine 5 (the new mishna's own opening,
+"we return to you") to `l13`; vilnaLine 6-12 (shaking the urn, the two
+lots, the goats' own positions) to `l14`; vilnaLine 13-16 (why he must
+not feel for the lot by touch) to `l19`; vilnaLine 17-24 (the profane
+urn, the Torah's mercy on Israel's property, with Rashi's own extended
+kal vachomer from leprous-house pottery through valuable and righteous
+property) to `l21`; vilnaLine 25-26 (if the lot came up in the
+deputy's own right hand) to `l24`; vilnaLine 27-29 ("since it did not
+come up in his own hand," the High Priest's mind troubled) to `l27`;
+vilnaLine 30-35 (why the deputy stands at the right, with Rashi's own
+two-answer discussion citing Rabbi Yitzchak HaLevi and his own
+teacher) to `l29`; vilnaLine 36-55 (the crimson tongue whitening, the
+western lamp burning, its testimony to the Divine Presence, and the
+extended dispute over which lamp is "western") to `l32`; vilnaLine
+56 (the fire of the arrangement growing stronger by itself) to `l35`;
+vilnaLine 57-58 (blessing withdrawn from the omer offerings, and the
+doubled portions the modest priests would not take) to `l38`;
+vilnaLine 59 (the daf's final truncated word) to `l38`, the daf's own
+final real captured line (boundary policy).
+
+A drafting slip was caught before applying: the first draft omitted a
+dedicated entry for vilnaLine 13 ("when he invokes the Divine Name")
+entirely, causing every subsequent entry to describe the next
+vilnaLine's own raw Hebrew instead of its own (a one-line-ahead shift
+for the rest of the daf). This was caught by the mandatory
+`len(ITEMS) == len(raw)` assertion failing (58 vs 59) before any
+application; the missing entry was located and inserted, and a full
+side-by-side comparison of every index against the raw array confirmed
+correctness before the second, corrected application.
+
+Zero-bogus-id check confirmed all 59 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+39a is fully resolved, 59/59. This is the twenty-fifth consecutive
+dangling-link daf found in this corpus (27a through 39a), the seventh
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

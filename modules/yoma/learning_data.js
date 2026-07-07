@@ -89354,11 +89354,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 1,
         he: "בא. הלוקח למדוד נפט מפני שריחו רע אומר לו המוכר מדוד לעצמך: מטמטמת. אוטמת וסותמת מכל חכמה: ונטמתם. חסר א':",
-        en: "Measuring naphtha: if someone asks you to measure for him, tell him to measure himself - the context for the Shimon HaTzaddik discussion.",
+        en: "Rashi: opens 'he came' - the buyer, to measure naphtha, since its smell is bad, the seller tells him: measure it yourself. Then opens 'numbs' - it seals and closes off from all wisdom. Then opens 'and you shall be numbed' - lacking an alef",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l01"
+        ]
       },
       {
         id: "rashi-yoma-039a-002",
@@ -89366,11 +89368,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 2,
         he: "מטמאין אותו הרבה. מניחין אותו ליטמא הרבה והכי קאמר קרא אל תטמאו בהן ואם תטמאו סוף ונטמתם: והתקדשתם. מעט",
-        en: "No person should touch what is designated for others.",
+        en: "Rashi: opens 'they make him greatly impure' - they allow him to become greatly impure, and this is what the verse means: do not defile yourselves through them, but if you do defile yourselves, in the end 'you shall be numbed.' Then opens 'and you shall sanctify yourselves' - a little",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l06"
+        ]
       },
       {
         id: "rashi-yoma-039a-003",
@@ -89378,11 +89382,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 3,
         he: "והייתם קדושים הרבה הבא ליטהר",
-        en: "Baraita: forty years Shimon HaTzaddik served as High Priest.",
+        en: "Rashi: continues - and you shall become holy greatly. Then opens 'one who comes to purify'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l10"
+        ]
       },
       {
         id: "rashi-yoma-039a-004",
@@ -89390,11 +89396,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 4,
         he: "מסייעין אותו:",
-        en: "All forty years the Yom Kippur lot for God came up in the right hand.",
+        en: "Rashi: concludes - is assisted.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l10"
+        ]
       },
       {
         id: "rashi-yoma-039a-005",
@@ -89402,11 +89410,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 5,
         he: "הדרן עלך אמר להם הממונה",
-        en: "This was a good omen: right hand = divine favor.",
+        en: "Rashi: opens 'we return to you: the appointed one said to them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l13"
+        ]
       },
       {
         id: "rashi-yoma-039a-006",
@@ -89414,11 +89424,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 6,
         he: "טרף בקלפי. שנינו בפרק שלמעלה",
-        en: "Sign 1: the lot for God always came up in the right hand.",
+        en: "Rashi: opens 'he shook it in the urn' - we learned this in the chapter above (37a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-007",
@@ -89426,11 +89438,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 7,
         he: "(דף לז.) וקלפי היתה שם:",
-        en: "Sign 2: the western lamp (ner ma'aravi) of the menorah burned all day without going out.",
+        en: "Rashi: continues - and the urn was there.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-008",
@@ -89438,11 +89452,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 8,
         he: "טרף. פתאום בטריפה ובחטיפה:",
-        en: "The western lamp was meant to burn continuously as proof of God's presence.",
+        en: "Rashi: continues - Then opens 'he shook' - suddenly, by shaking and snatching.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-009",
@@ -89450,11 +89466,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 9,
         he: "והעלה שני גורלות. אחד בימין ואחד",
-        en: "Sign 3: the showbread was warm and fresh when it was removed each Shabbat.",
+        en: "Rashi: continues - Then opens 'and he brought up two lots' - one to the right and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-010",
@@ -89462,11 +89480,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 10,
         he: "בשמאל והשעירים עומדים אחד לימין",
-        en: "The showbread (lechem hapanim) stayed miraculously fresh all week.",
+        en: "Rashi: continues - to the left, and the goats stood one to the right",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-011",
@@ -89474,11 +89494,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 11,
         he: "ואחד בשמאל ונותן גורל שעולה בימין",
-        en: "Sign 4: the incense smoke rose straight up without dispersing.",
+        en: "Rashi: continues - and one to the left, and he gives the lot that comes up in his right hand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-012",
@@ -89486,11 +89508,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 12,
         he: "לשעיר של ימין: והן עונין אחריו.",
-        en: "Straight smoke = the incense was accepted above; it did not spread sideways.",
+        en: "Rashi: concludes - to the goat on the right. Then opens 'and they answer after him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l14"
+        ]
       },
       {
         id: "rashi-yoma-039a-013",
@@ -89498,11 +89522,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 13,
         he: "כשמזכיר את השם: גמ' דלא ניכוין.",
-        en: "After his death, these four signs ceased.",
+        en: "Rashi: concludes - when he invokes the Divine Name. Then opens the Gemara: 'so that he not intend' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l19"
+        ]
       },
       {
         id: "rashi-yoma-039a-014",
@@ -89510,11 +89536,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 14,
         he: "שלא ימשמש להבין במשמושו איזה של",
-        en: "The lot began to come up in the left hand - an ill omen.",
+        en: "Rashi: opens 'so that he not feel around' - so that he not feel around to discern by his own feeling which lot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l19"
+        ]
       },
       {
         id: "rashi-yoma-039a-015",
@@ -89522,11 +89550,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 15,
         he: "שם ויטלנו בימין לפי שהוא סימן",
-        en: "The western lamp went out and could not be maintained.",
+        en: "Rashi: continues - is which, so as to take it in his right hand, since it is a good",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l19"
+        ]
       },
       {
         id: "rashi-yoma-039a-016",
@@ -89534,11 +89564,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 16,
         he: "יפה כשהוא עולה בימין: ושל חול",
-        en: "The showbread was found crushed or stale.",
+        en: "Rashi: continues - sign when it comes up in the right hand. Then opens 'and that it was of profane wood' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l19"
+        ]
       },
       {
         id: "rashi-yoma-039a-017",
@@ -89546,11 +89578,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 17,
         he: "היתה. אינה מקודשת: התורה חסה",
-        en: "The incense smoke began to spread and disperse sideways.",
+        en: "Rashi: opens 'was' - it is not sanctified. Then opens 'the Torah has mercy'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-018",
@@ -89558,11 +89592,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 18,
         he: "כו'. שנאמר (ויקרא יד) וצוה הכהן",
-        en: "The priests stopped pronouncing God's name explicitly in the blessing.",
+        en: "Rashi: continues - etc. - as it is stated (Leviticus 14): 'and the priest shall command",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-019",
@@ -89570,11 +89606,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 19,
         he: "ופנו את הבית וגו' על מה חסה",
-        en: "They began to use a substituted word (Adonai) instead of the Shem HaMeforash.",
+        en: "Rashi: continues - and they shall empty the house,' etc. On what does the Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-020",
@@ -89582,11 +89620,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 20,
         he: "תורה על פכין של כלי חרס שאין",
-        en: "The crimson thread (lashon shel zehorit) stopped turning white on Yom Kippur.",
+        en: "Rashi: continues - have mercy - on earthenware jugs, which have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-021",
@@ -89594,11 +89634,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 21,
         he: "להם טהרה במקוה א\"כ חסה על",
-        en: "In the time of Shimon HaTzaddik the crimson thread turned white reliably.",
+        en: "Rashi: continues - no purification through immersion; if so, it has mercy on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-022",
@@ -89606,11 +89648,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 22,
         he: "ממון קל כ\"ש על ממון חשוב א\"כ",
-        en: "After his death it sometimes turned white, sometimes not, then stopped entirely.",
+        en: "Rashi: continues - lesser property, all the more so on valuable property; if so, it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-023",
@@ -89618,11 +89662,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 23,
         he: "חסה על ממונן של (צירועין) קל",
-        en: "The self-opening gates of the Sanctuary were a new and ominous sign.",
+        en: "Rashi: continues - has mercy on the property of those with tzara'at, which is lesser - all the more",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-024",
@@ -89630,11 +89676,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 24,
         he: "וחומר על ממונן של צדיקים: ואם",
-        en: "Rabban Yochanan ben Zakkai rebuked the gates: why do you open yourselves in alarm?",
+        en: "Rashi: concludes - so by a kal vachomer, on the property of the righteous.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l21"
+        ]
       },
       {
         id: "rashi-yoma-039a-025",
@@ -89642,11 +89690,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 25,
         he: "בימינו של סגן עלה ראש בית אב",
-        en: "His rebuke: 'I know your end will be Zechariah's prophecy - destruction by fire.'",
+        en: "Rashi: opens 'and if in the deputy's own right hand it came up, the head of the patrilineal watch",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l24"
+        ]
       },
       {
         id: "rashi-yoma-039a-026",
@@ -89654,11 +89704,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 26,
         he: "אומר לו לכהן גדול דבר מילך.",
-        en: "The gates' opening foreshadowed the Romans opening them by force.",
+        en: "Rashi: concludes - says to the High Priest: state your own word.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l24"
+        ]
       },
       {
         id: "rashi-yoma-039a-027",
@@ -89666,11 +89718,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 27,
         he: "דבר דבריך לה' חטאת: כיון דלא",
-        en: "Summary: 40-year golden era of Shimon HaTzaddik = 4 miracles; then reversal.",
+        en: "Rashi: opens 'state your own words to the Lord as a sin-offering: since it did not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l27"
+        ]
       },
       {
         id: "rashi-yoma-039a-028",
@@ -89678,11 +89732,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 28,
         he: "סליק בידיה. דכהן גדול ובידיה",
-        en: "Baraita about 40 years before destruction: lot came left.",
+        en: "Rashi: continues - come up in his own hand' - the High Priest's, and it came up in the deputy's own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l27"
+        ]
       },
       {
         id: "rashi-yoma-039a-029",
@@ -89690,11 +89746,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 29,
         he: "דסגן סליק חלש דעתיה דכהן גדול אי",
-        en: "Western lamp went out consistently; crimson thread stopped turning white.",
+        en: "Rashi: concludes - hand, the High Priest's own mind is troubled, if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l27"
+        ]
       },
       {
         id: "rashi-yoma-039a-030",
@@ -89702,11 +89760,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 30,
         he: "אומר לו סגן: למה סגן מימינו כו'.",
-        en: "Temple gates opened by themselves each night.",
+        en: "Rashi: opens 'the deputy tells him: why is the deputy on his right' etc. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-031",
@@ -89714,11 +89774,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 31,
         he: "שהולך תמיד לימינו כך אמרו בשם",
-        en: "Rabban Yochanan ben Zakkai interpreted this as prophetic fulfillment.",
+        en: "Rashi: continues - since he always walks at his right, so they said in the name of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-032",
@@ -89726,11 +89788,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 32,
         he: "ר' יצחק הלוי ואני שמעתי מרבינו",
-        en: "Zechariah: 'Open your doors, O Lebanon, that fire may consume your cedars.'",
+        en: "Rashi: continues - Rabbi Yitzchak HaLevi, and I heard from our teacher",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-033",
@@ -89738,11 +89802,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 33,
         he: "יצחק בר יהודה למה סגן ממונה שאם",
-        en: "Lebanon = the Temple (white as snow); fire = Roman destruction.",
+        en: "Rashi: continues - Yitzchak bar Yehuda: why is the deputy appointed - so that if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-034",
@@ -89750,11 +89816,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 34,
         he: "יארע פסול אבל כל זמן שלא יארע",
-        en: "The signs of decline mirrored the earlier signs of divine favor.",
+        en: "Rashi: continues - a disqualification should occur, but as long as no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-035",
@@ -89762,11 +89830,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 35,
         he: "בו פסול אין הסגן עובד שום עבודה",
-        en: "The 40-year period of omens is the mirror of Shimon HaTzaddik's 40 years.",
+        en: "Rashi: concludes - disqualification has occurred, the deputy performs no service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l29"
+        ]
       },
       {
         id: "rashi-yoma-039a-036",
@@ -89774,11 +89844,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 36,
         he: "בעולם: לשון של זהורית. צמר סרוק",
-        en: "Both periods teach that Temple service directly reflects the nation's spiritual state.",
+        en: "Rashi: opens 'in the world. Then opens 'the tongue of crimson wool' - carded wool",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-037",
@@ -89786,11 +89858,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 37,
         he: "ומשוך כמין לשון וצבוע אדום וקושרין",
-        en: "When the nation is worthy, miracles abound; when not, signs of withdrawal appear.",
+        en: "Rashi: continues - drawn out like a tongue and dyed red, and they tie",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-038",
@@ -89798,11 +89872,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 38,
         he: "אותו בראש שעיר המשתלח והיה",
-        en: "The Gemara preserves these traditions to teach about the nature of divine relationship.",
+        en: "Rashi: continues - it on the head of the scapegoat, and it would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-039",
@@ -89810,11 +89886,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 39,
         he: "מלבין מאיליו והוא סימן שמחל הקב\"ה",
-        en: "The Temple's fate was written in these signs before the destruction came.",
+        en: "Rashi: continues - whiten by itself, and this is a sign that the Holy One forgave",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-040",
@@ -89822,11 +89900,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 40,
         he: "לישראל שנאמר (ישעיה א) אם יהיו",
-        en: "Rabban Yochanan ben Zakkai's rebuke shows prophetic foreknowledge.",
+        en: "Rashi: continues - Israel, as it is stated (Isaiah 1): 'though your",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-041",
@@ -89834,11 +89914,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 41,
         he: "חטאיכם כשנים כשלג ילבינו: והיה",
-        en: "He understood that the self-opening gates were the Temple's own alarm.",
+        en: "Rashi: continues - sins be like scarlet, they shall become white as snow.' Then opens 'and the western",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-042",
@@ -89846,11 +89928,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 42,
         he: "נר מערבי דולק. לאחר שכבו שאר",
-        en: "The Heichal knew its fate before the people did.",
+        en: "Rashi: continues - lamp would burn' - after all the other lamps had gone out,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-043",
@@ -89858,11 +89942,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 43,
         he: "כל הנרות ואע\"פ שממנו מתחיל",
-        en: "Summary: 40 years of Shimon HaTzaddik's miracles vs 40 years of pre-destruction omens.",
+        en: "Rashi: continues - and even though the evening kindling would begin from it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-044",
@@ -89870,11 +89956,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 44,
         he: "להדליק ערבית בו היה מסיי' הטבת",
-        en: "These traditions frame the entire Yom Kippur service within cosmic history.",
+        en: "Rashi: continues - it would also finish the morning lamp-tending,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-045",
@@ -89882,11 +89970,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 45,
         he: "נרות שחרית והוא עדות שהשכינה",
-        en: "The lot, the lamp, the bread, the smoke - each speaks to divine presence.",
+        en: "Rashi: continues - and this is testimony that the Divine Presence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-046",
@@ -89894,11 +89984,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 46,
         he: "שורה בישראל כדכתיב מחוץ לפרוכת",
-        en: "Their cessation speaks to divine withdrawal.",
+        en: "Rashi: continues - rests upon Israel, as it is written 'outside the curtain of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-047",
@@ -89906,11 +89998,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 47,
         he: "העדות ואמרינן במסכת שבת (דף כב:)",
-        en: "The Gemara's historical narrative enriches the halachic Yom Kippur service.",
+        en: "Rashi: continues - the testimony,' and we say in Tractate Shabbat (22b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-048",
@@ -89918,11 +90012,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 48,
         he: "עדות היא לכל באי עולם שהשכינה",
-        en: "39a concludes with the historical backdrop for the Yom Kippur avodah.",
+        en: "Rashi: continues - it is testimony to all who come into the world that the Divine Presence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-049",
@@ -89930,11 +90026,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 49,
         he: "שורה בישראל ואמרינן (שם) מאי",
-        en: "The service is performed in hope of restoration of these miracles.",
+        en: "Rashi: continues - rests upon Israel, and we say (ibid.): what is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-050",
@@ -89942,11 +90040,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 50,
         he: "עדות זה נר מערבי שנותן בה שמן",
-        en: "Each year's Yom Kippur is a prayer for the return of Shimon HaTzaddik's era.",
+        en: "Rashi: continues - the testimony? This is the western lamp, into which one puts oil",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-051",
@@ -89954,11 +90054,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 51,
         he: "כמדת חברותיה וממנה היה מתחיל",
-        en: "The theological stakes of Yom Kippur are embedded in this historical narrative.",
+        en: "Rashi: continues - the same measure as its fellows, and from it he would begin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-052",
@@ -89966,11 +90068,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 52,
         he: "ובה היה מסיים ואיזהו נר מערבי",
-        en: "Summary of 39a: measuring naphtha, 40-year Shimon HaTzaddik miracles, 40-year omens.",
+        en: "Rashi: continues - and with it he would finish; and which is the western lamp,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-053",
@@ -89978,11 +90082,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 53,
         he: "למאן דאמר (מנחות דף צח:) שבעת הנרות סדורים מזרח ומערב קרי נר מערבי נר שני שסמוך לראשון שבמזרח כדתנן (תמיד פ\"ו משנה א)",
-        en: "Two time periods: one of miraculous favor, one of ominous withdrawal.",
+        en: "Rashi: continues - according to the one who says (Menachot 98b) the seven lamps were arranged east and west, one calls the western lamp the second lamp adjacent to the first one in the east, as we learn (Tamid 6:1)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-054",
@@ -89990,11 +90096,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 54,
         he: "נכנס אחד ומצא שתי נרות מזרחיות דולקות וכו' למאן דאמר כו' צפון ודרום נתונין היו אמצעיתן פניו מסובין כלפי מערב והוא",
-        en: "Both measured in 40 years; both teach about the Temple's relationship with heaven.",
+        en: "Rashi: continues - one entered and found two eastern lamps burning, etc.; according to the one who says etc. they were set north and south, the middle one's face turned toward the west, and it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-055",
@@ -90002,11 +90110,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 55,
         he: "קרוי מערבי ושאר הנרות מצדדין פניהם כלפי אמצעי כדכתיב (במדבר ח) אל מול פני המנורה היא אמצעית יאירו נרות של ששה",
-        en: "39b continues with more details about the signs and the lot ceremony.",
+        en: "Rashi: continues - called the western one, and the other lamps turned their faces toward the middle one, as it is written (Numbers 8) 'toward the face of the candelabrum,' meaning the middle one; the lamps of the six",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l32"
+        ]
       },
       {
         id: "rashi-yoma-039a-056",
@@ -90014,11 +90124,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 56,
         he: "קנים: והיה אש המערכה מתגבר. ודולק מאיליו בלא תוספת עצים ולא היו צריכין להביא עצים משסדרוהו שחרית: חוץ משני",
-        en: "The lot discussion resumes with the Yom Kippur service narrative.",
+        en: "Rashi: opens 'branches shall give light. Then opens 'and the fire of the arrangement would grow stronger' - and burn by itself without additional wood, and they did not need to bring wood once it was arranged in the morning. Then opens 'except for the two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l35"
+        ]
       },
       {
         id: "rashi-yoma-039a-057",
@@ -90026,11 +90138,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 57,
         he: "גזירין. של בין הערבים שהן חובה כדאמרי בפרקין לעיל: נשתלחה מאירה. שאינו משביעו: וכל כהן מגיעו כפול. שאינו כזית",
-        en: "The transition from historical digression back to halacha occurs in 39b.",
+        en: "Rashi: continues - logs' - of the afternoon offering, which are obligatory, as they said in our earlier chapter. Then opens 'blessing was withdrawn' - meaning the portion no longer satisfied. Then opens 'and every priest's portion was doubled' - meaning it was not like an olive's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l38"
+        ]
       },
       {
         id: "rashi-yoma-039a-058",
@@ -90038,11 +90152,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 58,
         he: "מאחר שראו שאינו משביע הצנועין מושכין את ידיהן (ואם יותיר לא היו מושכין ידיהם) ובימי שמעון את מי שמגיע כפול לא היו מושכין ידיהם:",
-        en: "The Gemara returns to the lot ceremony after the Shimon HaTzaddik narrative.",
+        en: "Rashi: continues - volume after they saw it no longer satisfied; the modest ones would withdraw their own hands (and if it remained they would not withdraw their hands), and in Shimon's own days, whoever received a doubled portion would not withdraw his hand.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l38"
+        ]
       },
       {
         id: "rashi-yoma-039a-059",
@@ -90050,11 +90166,13 @@ const DAF_CONTENT = {
         daf: "39a",
         vilnaLine: 59,
         he: "חמצן",
-        en: "Both historical and halachic elements serve the same goal: understanding Yom Kippur.",
+        en: "Rashi: the daf's final truncated word - 'they became sour,' the start of the dibbur hamatchil on the sons of Kohen who did not draw back their own hands when portions were doubled, whose text continues on 39b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039a-l38"
+        ]
       }
     ],
     review: "reviewed"
