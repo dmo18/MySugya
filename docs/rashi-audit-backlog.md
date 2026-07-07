@@ -3336,6 +3336,68 @@ consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
 28b, 29a, 29b, 30a), and the first where the majority of entries had
 no link at all rather than a wrong one.
 
+## 30b, full daf (VERSION 15.32), eighth dangling-link daf in a row
+
+Continuing the run. Before any edit, the 30a/30b boundary was
+re-verified read-only: 30a's truncated final word "באחולי" (in the
+profanation of) is completed by 30b's opening "באחולי עבודה. אם לא
+טבל שחרית ועבד" (regarding the profanation of the service - if he did
+not immerse in the morning and served anyway), continuing the same
+dibbur hamatchil cleanly in both the Gemara and Rashi columns. No
+edit was made to 30a.
+
+The mandatory preflight raw-count check was run first: talmud.dev's
+non-empty raw Rashi array for 30b has 51 lines, matching the prior
+enrichment JSON's 51 `rashiTranslations` entries exactly, independently
+re-confirmed.
+
+Checking every existing `linkedGemaraLineIds` value against 30b's 12
+real captured ids (`l01`, `l02`, `l07`, `l09`, `l12`, `l13`, `l17`,
+`l20`, `l23`, `l27`, `l32`, `l36`) found the same pattern as 30a: only
+vilnaLine 1 and 2 had live (if partially wrong) ids, vilnaLine 3-11
+pointed to nonexistent unpadded ids, and vilnaLine 13-51 (39 entries)
+had `linkedGemaraLineIds` entirely empty, carrying the older generic
+descriptive-style filler text throughout. The whole daf was rebuilt
+using the list-indexed methodology.
+
+All 51 raw Rashi print lines were read against the raw Gemara text
+and the 12 real captured line ids, using the multi-DH rule. The
+correspondence: vilnaLine 1-2 (the profanation-of-service dispute
+itself, Ben Zoma versus Rabbi Yehuda) to `l01`; 3-8 (Ben Zoma's own
+proof from the High Priest baraita, citing Zevachim 19b) to `l02`;
+9-12 (Ben Zoma's own view rests on a positive commandment, citing
+Leviticus 16) to `l07`; 13-21 (does Rabbi Yehuda hold this reasoning,
+the leper baraita, standing at the Gate of Nikanor) to `l09`; 22-26
+(the reason a leper needs no morning immersion, since he already
+immersed the evening before) to `l12`; 27-34 (why the questioner
+raised this, the Chamber of Lepers, Rabbi Yehuda's "any person"
+reading) to `l13`; 35-38 (the four-way split on immersion and
+mind-wandering) to `l17`; 39-42 (Ravina's own reading of Rabbi
+Yehuda, a leper treads in impurity) to `l27`; 43-50 (Abaye's question
+to Rav Yosef, whether the Rabbis hold like Ben Zoma) to `l32`. `l20`
+(the mind-wandering sprinkling requirement) and `l23` (the two
+resolutions distinguishing intent to enter the Temple) have no
+dedicated vilnaLine of their own in this daf's column, the same
+established folding pattern seen throughout this run.
+
+vilnaLine 51, the daf's final truncated word "חוצץ" (interposes), is
+the same kind of boundary case as every other daf ending in this run:
+per the policy, it is linked to `yoma-030b-l36`, 30b's own final
+locally captured Gemara line (Abaye's question to Rav Yosef about
+Rabbi Yehuda's formality-only view of immersion), even though the
+DH's own point is itself still open at the point of truncation. 31a's
+own opening line ("חוצץ או אינו חוצץ. לר' יהודה דאמר מפני סרך טבילה
+בעלמא היא") was read read-only to confirm this word begins the
+dibbur hamatchil asking whether an interposition invalidates the
+immersion given Rabbi Yehuda's view, continuing onto 31a; no edit was
+made to 31a.
+
+All 51 entries were fixed in a single list-indexed pass, verified by
+a full side-by-side comparison of every index against the raw array
+before applying. 30b is fully resolved, 51/51. This is the eighth
+consecutive dangling-link daf found in this corpus (27a, 27b, 28a,
+28b, 29a, 29b, 30a, 30b).
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

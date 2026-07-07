@@ -70262,7 +70262,7 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 1,
         he: "באחולי עבודה. אם לא טבל שחרית ועבד: לבן זומא. דאמר",
-        en: "Does failure to immerse before Temple service disqualify the avodah?",
+        en: "Rashi: opens 'regarding the profanation of the service' - if he did not immerse in the morning and served anyway. Then opens 'according to Ben Zoma' - who says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -70276,12 +70276,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 2,
         he: "דאורייתא היא שהרי ניתן ק\"ו לידרש הויא עבודתו מחוללת: לרבי",
-        en: "Ben Zoma: the service is disqualified. Baraita: without immersion, service is invalid.",
+        en: "Rashi: continues - it is a Torah-level law, since a kal vachomer can be derived, his service becomes profaned. Then opens 'according to Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l02"
+          "yoma-030b-l01"
         ]
       },
       {
@@ -70290,12 +70290,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 3,
         he: "יהודה. דאמר דרבנן היא לא מחיל: ולבן זומא מי מחיל. והא מכהן",
-        en: "R. Yehuda: failure to immerse violates a positive commandment but does not disqualify the service.",
+        en: "Rashi: concludes - Yehuda, who says it is a rabbinic law, it does not profane. Then opens 'but according to Ben Zoma, does it profane? But is it not from the High",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l03"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70304,12 +70304,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 4,
         he: "גדול ביום הכפורים יליף לה והוא עצמו שלא טבל ולא קדש ביוה\"כ",
-        en: "But R. Yehuda himself says lepers need not immerse the evening before - contradiction?",
+        en: "Rashi: continues - Priest, on Yom Kippur, that he derives it, and he himself, who did not immerse and did not sanctify on Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l04"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70318,12 +70318,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 5,
         he: "בין בגדי זהב לבגדי לבן שהוא",
-        en: "Resolution: lepers are different - they immerse the previous evening, not before service itself.",
+        en: "Rashi: continues - between the golden garments and the white garments, that he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l05"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70332,12 +70332,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 6,
         he: "משנה בה עבודתו כשירה: אחד",
-        en: "How does the objector reconcile R. Yehuda's view about lepers with his Temple immersion ruling?",
+        en: "Rashi: concludes - changes in it, his service is valid. Then opens 'both'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l06"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70346,12 +70346,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 7,
         he: "כ\"ג כו' עבודתו פסולה. בפרק שני",
-        en: "Answer: lepers who immersed the previous evening are covered; but those who didn't need not immerse again specifically for morning service.",
+        en: "Rashi: concludes - a High Priest, etc., his service is invalid. Then opens 'in the second chapter'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l07"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70360,12 +70360,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 8,
         he: "דזבחים (דף יט:) ילפינן דכשלא רחוץ",
-        en: "If distracted from avoiding corpse impurity - sprinkling is required, not immersion.",
+        en: "Rashi: continues - of Zevachim (19b) we derive that when he has not washed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l08"
+          "yoma-030b-l02"
         ]
       },
       {
@@ -70374,12 +70374,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 9,
         he: "ידים ורגלים מחלל עבודה: לבן",
-        en: "Both baraitot refer to non-distracted lepers - alternative resolution.",
+        en: "Rashi: concludes - his hands and feet, it profanes the service. Then opens 'according to Ben'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l09"
+          "yoma-030b-l07"
         ]
       },
       {
@@ -70388,12 +70388,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 10,
         he: "זומא קאי עליה בעשה. מק\"ו דכ\"ג",
-        en: "Ravina: the leper who immerses evening before is covered for morning service.",
+        en: "Rashi: continues - Zoma, he violates a positive commandment regarding him - from a kal vachomer of the High Priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l10"
+          "yoma-030b-l07"
         ]
       },
       {
@@ -70402,12 +70402,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 11,
         he: "שעובר בעשה כדכתיב (ויקרא טז)",
-        en: "Abaye asks Rav Yosef: do the Rabbis require two immersions in some cases?",
+        en: "Rashi: continues - who violates a positive commandment, as it is written (Leviticus 16)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l11"
+          "yoma-030b-l07"
         ]
       },
       {
@@ -70416,12 +70416,12 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 12,
         he: "ורחץ את בשרו במים ולבשם:",
-        en: "R. Yehuda: for a pure priest, one immersion suffices as a 'reminder'; the Rabbis require none beyond standard purity.",
+        en: "Rashi: concludes - 'and he shall bathe his flesh in water, and don them.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-030b-l12"
+          "yoma-030b-l07"
         ]
       },
       {
@@ -70430,11 +70430,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 13,
         he: "ומי אית ליה לר' יהודה הך סברא.",
-        en: "So too the leper analogy should hold.",
+        en: "Rashi: opens 'and does Rabbi Yehuda hold this reasoning' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-014",
@@ -70442,11 +70444,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 14,
         he: "דמתני' שיהיו כל הנכנסין לעזרה",
-        en: "But the leper must immerse even between services on his purification day.",
+        en: "Rashi: continues - that the mishna teaches that all who enter the courtyard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-015",
@@ -70454,11 +70458,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 15,
         he: "צריכין טבילה: מצורע. בשמיני",
-        en: "The leper's immersions are explicitly written.",
+        en: "Rashi: concludes - require immersion. Then opens 'a leper' - on the eighth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-016",
@@ -70466,11 +70472,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 16,
         he: "שלו אע\"פ שטבל בשביעי כדכתיב",
-        en: "The KG's Yom Kippur immersions are also explicitly written.",
+        en: "Rashi: continues - day of his own, even though he immersed on the seventh day, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-017",
@@ -70478,11 +70486,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 17,
         he: "(שם יד) והיה ביום השביעי יגלח",
-        en: "Just as the KG's are written, so too they are needed.",
+        en: "Rashi: continues - (ibid. 14): 'and it shall be, on the seventh day he shall shave,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-018",
@@ -70490,11 +70500,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 18,
         he: "וגו' חוזר וטובל בשמיני כשמביא",
-        en: "Rav Pappa proposes a different derivation.",
+        en: "Rashi: continues - etc.; he returns and immerses on the eighth day, when he brings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-019",
@@ -70502,11 +70514,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 19,
         he: "קרבנותיו: ועומד בשער ניקנור.",
-        en: "A kal vachomer from the leper - even less stringent cases require immersion.",
+        en: "Rashi: concludes - his offerings. Then opens 'and stands at the Gate of Nikanor' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-020",
@@ -70514,11 +70528,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 20,
         he: "להכניס ידיו ורגליו בפנים למתן",
-        en: "Ben Zoma says: scriptural derivation.",
+        en: "Rashi: continues - to insert his hands and feet inside, for the placing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-021",
@@ -70526,11 +70542,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 21,
         he: "בהונות מדם האשם ושמן הלוג:",
-        en: "R. Yehuda says: rabbinic safeguard.",
+        en: "Rashi: concludes - on the thumbs, from the blood of the guilt-offering and the oil of the log.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l09"
+        ]
       },
       {
         id: "rashi-yoma-030b-022",
@@ -70538,11 +70556,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 22,
         he: "כדתני טעמא שכבר טבל בערב.",
-        en: "Ben Zoma's scriptural derivation from the verse.",
+        en: "Rashi: opens 'as the reason is taught: since he already immersed the evening before' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l12"
+        ]
       },
       {
         id: "rashi-yoma-030b-023",
@@ -70550,11 +70570,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 23,
         he: "רבי יהודה לטעמיה דאמר אין",
-        en: "Ben Zoma derives from 'and bathe his body in water.'",
+        en: "Rashi: continues - Rabbi Yehuda follows his own reasoning, who says there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l12"
+        ]
       },
       {
         id: "rashi-yoma-030b-024",
@@ -70562,11 +70584,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 24,
         he: "טבילת שחרית הבאים לעזרה אלא",
-        en: "R. Yehuda says: even without a verse there is rabbinic requirement.",
+        en: "Rashi: continues - morning immersion for those who come to the courtyard, except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l12"
+        ]
       },
       {
         id: "rashi-yoma-030b-025",
@@ -70574,11 +70598,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 25,
         he: "לזכור טומאה ישנה וזה אין צריך",
-        en: "As a precautionary safeguard.",
+        en: "Rashi: continues - to remember old impurity, and this one does not need",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l12"
+        ]
       },
       {
         id: "rashi-yoma-030b-026",
@@ -70586,11 +70612,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 26,
         he: "לכך שהרי טבל אמש לכל טומאה",
-        en: "What is the halachic difference between them?",
+        en: "Rashi: continues - this, since he already immersed last night for any impurity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l12"
+        ]
       },
       {
         id: "rashi-yoma-030b-027",
@@ -70598,11 +70626,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 27,
         he: "שעליו: ודקארי לה מאי קארי לה.",
-        en: "The practical difference is whether the avodah performed without immersion is valid.",
+        en: "Rashi: concludes - upon him. Then opens 'and the one who raises this question, why does he raise it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-028",
@@ -70610,11 +70640,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 28,
         he: "מי שעוסק במשנה זו להשיב ממנה",
-        en: "Ben Zoma: service without immersion is biblically invalid.",
+        en: "Rashi: continues - one who studies this mishna in order to raise an objection from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-029",
@@ -70622,11 +70654,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 29,
         he: "בבית המדרש למה נתעסק הלא",
-        en: "R. Yehuda: service is valid but a positive mitzvah was violated.",
+        en: "Rashi: continues - in the study hall, why did he trouble himself, is it not that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-030",
@@ -70634,11 +70668,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 30,
         he: "טעם מפורש בה: לשכת מצורעין.",
-        en: "Ravina reconciles: Ben Zoma also holds the service is valid.",
+        en: "Rashi: concludes - the reason is explicit in it. Then opens 'the Chamber of the Lepers' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-031",
@@ -70646,11 +70682,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 31,
         he: "למה נקראת לשכת מצורעים: ששם",
-        en: "But a positive commandment was violated.",
+        en: "Rashi: continues - why is it called the Chamber of Lepers - because there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-032",
@@ -70658,11 +70696,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 32,
         he: "מצורעים טובלין. בשביל שמכניסין",
-        en: "And R. Yehuda also agrees - the service is valid.",
+        en: "Rashi: continues - lepers immerse, since they bring in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-033",
@@ -70670,11 +70710,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 33,
         he: "בהונותיהן לעזרה: אלא כל אדם.",
-        en: "Abaye asks: is there a biblical source for R. Yehuda's position?",
+        en: "Rashi: concludes - their thumbs into the courtyard. Then opens 'but rather any person' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-034",
@@ -70682,11 +70724,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 34,
         he: "הנכנס לעזרה מדקאמר בלבד מכלל",
-        en: "Question from Abaye: where is the biblical basis?",
+        en: "Rashi: continues - who enters the courtyard; since it says 'only,' implying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l13"
+        ]
       },
       {
         id: "rashi-yoma-030b-035",
@@ -70694,11 +70738,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 35,
         he: "דאית ליה טבילה במצורע: דלא",
-        en: "Perhaps the verse teaches only the mitzvah, not invalidation.",
+        en: "Rashi: concludes - that he does hold there is a requirement of immersion for a leper. Then opens 'who did not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l17"
+        ]
       },
       {
         id: "rashi-yoma-030b-036",
@@ -70706,11 +70752,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 36,
         he: "טביל. מבערב לצרעתו: אסח",
-        en: "Ravina resolves: both agree service is valid post-facto.",
+        en: "Rashi: continues - immerse - from the evening before, for his leprosy. Then opens 'turned his mind away'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l17"
+        ]
       },
       {
         id: "rashi-yoma-030b-037",
@@ -70718,11 +70766,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 37,
         he: "דעתיה. משמירת גופו צריך הזאה",
-        en: "Rashi commentary on line 37 of 30b.",
+        en: "Rashi: continues - from guarding his own body, requires sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l17"
+        ]
       },
       {
         id: "rashi-yoma-030b-038",
@@ -70730,11 +70780,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 38,
         he: "שמא נכנס לאהל המת ולא שם אל",
-        en: "Rashi commentary on line 38 of 30b.",
+        en: "Rashi: concludes - lest he entered a tent with a corpse and did not pay attention.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l17"
+        ]
       },
       {
         id: "rashi-yoma-030b-039",
@@ -70742,11 +70794,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 39,
         he: "לבו: לדידי מצורע אין צריך טבילה.",
-        en: "Rashi commentary on line 39 of 30b.",
+        en: "Rashi: opens 'according to me, a leper does not need immersion' - since he already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l27"
+        ]
       },
       {
         id: "rashi-yoma-030b-040",
@@ -70754,11 +70808,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 40,
         he: "שכבר טבל: דייש בטומאה. אותה",
-        en: "Rashi commentary on line 40 of 30b.",
+        en: "Rashi: concludes - immersed. Then opens 'treads in impurity' - that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l27"
+        ]
       },
       {
         id: "rashi-yoma-030b-041",
@@ -70766,11 +70822,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 41,
         he: "טומאה והורגל עד עכשיו ליגע",
-        en: "Rashi commentary on line 41 of 30b.",
+        en: "Rashi: continues - impurity, and has become accustomed until now to touch",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l27"
+        ]
       },
       {
         id: "rashi-yoma-030b-042",
@@ -70778,11 +70836,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 42,
         he: "בטומאה לפיכך הוא בחשש טומאות",
-        en: "Rashi commentary on line 42 of 30b.",
+        en: "Rashi: concludes - impurity, therefore he is under suspicion of impurities",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l27"
+        ]
       },
       {
         id: "rashi-yoma-030b-043",
@@ -70790,11 +70850,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 43,
         he: "שמא אחר טבילה נגע: נימא רבנן",
-        en: "Rashi commentary on line 43 of 30b.",
+        en: "Rashi: opens 'lest after immersion he touched something impure. Let us say the Rabbis' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-044",
@@ -70802,11 +70864,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 44,
         he: "דפליגי עליה דר\"י. במתני' קמייתא",
-        en: "Rashi commentary on line 44 of 30b.",
+        en: "Rashi: continues - who disagree with him, Rabbi Yehuda - in the first mishna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-045",
@@ -70814,11 +70878,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 45,
         he: "דקתני מצורע טובל ועומד וכו' כבן",
-        en: "Rashi commentary on line 45 of 30b.",
+        en: "Rashi: continues - that teaches: a leper immerses and stands, etc. - like Ben",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-046",
@@ -70826,11 +70892,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 46,
         he: "זומא סבירא להו דאמר דאורייתא",
-        en: "Rashi commentary on line 46 of 30b.",
+        en: "Rashi: continues - Zoma, they hold, who says it is a Torah-level law",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-047",
@@ -70838,11 +70906,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 47,
         he: "היא לכל אדם הילכך לא שנא טבל",
-        en: "Rashi commentary on line 47 of 30b.",
+        en: "Rashi: continues - for anyone, therefore it makes no difference whether he immersed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-048",
@@ -70850,11 +70920,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 48,
         he: "א] מבערב ול\"ש לא טבל ולאו היינו",
-        en: "Rashi commentary on line 48 of 30b.",
+        en: "Rashi: continues - in the evening or did not immerse; and this is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-049",
@@ -70862,11 +70934,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 49,
         he: "רבנן דמתני' דפליגי עליה במשנה",
-        en: "Rashi commentary on line 49 of 30b.",
+        en: "Rashi: continues - the Rabbis of the mishna who disagree with him, in the mishna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-050",
@@ -70874,11 +70948,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 50,
         he: "דמדות או דילמא חדא תנא היא ושאני מצורע דדייש בטומאה:",
-        en: "Rashi commentary on line 50 of 30b.",
+        en: "Rashi: concludes - of Middot; or perhaps it is a single tanna, and a leper is different, since he treads in impurity.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l32"
+        ]
       },
       {
         id: "rashi-yoma-030b-051",
@@ -70886,11 +70962,13 @@ const DAF_CONTENT = {
         daf: "30b",
         vilnaLine: 51,
         he: "חוצץ",
-        en: "Rashi commentary on line 51 of 30b.",
+        en: "Rashi: the daf's final truncated word - 'interposes,' the start of the dibbur hamatchil 'does it interpose or does it not interpose' - the Gemara's question of whether an interposition invalidates this immersion given Rabbi Yehuda's view that it is a mere formality, whose text continues on 31a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-030b-l36"
+        ]
       }
     ],
     review: {
