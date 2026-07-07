@@ -4537,6 +4537,53 @@ warnings); `npm test` and `npm run test:browser` (10/10) both pass.
 dangling-link daf found in this corpus (27a through 39a), the seventh
 daf fixed under the 36a-52b frozen-corpus exception.
 
+## 39b, full daf (VERSION 15.51), twenty-sixth dangling-link daf, eighth of the 36a-52b batch
+
+Real ids extracted directly from `learning_data.js` first: 19 ids
+including two letter-suffixed split-line pairs (`l01a`/`l01b`,
+`l47a`/`l47b`, `l50a`/`l50b` - three pairs total). 65 raw Rashi
+print-lines, all fully dangling before this fix.
+
+The correspondence: vilnaLine 1 (the "chometz/robber" wordplay
+carried over as the tail of 39a's own truncated word) to `l01a`;
+vilnaLine 2 (the Sanhedrin cross-reference on attending to the
+plaintiff first) to `l01b`; vilnaLine 3 (priests refraining from the
+explicit-Name blessing) to `l12`; vilnaLine 4-5 (the Sanctuary doors
+opening by themselves, Zecharia's own prophecy) to `l16`; vilnaLine
+6-8 (the ten Divine-Name invocations, the confession formulas) to
+`l32`; vilnaLine 9-10 (Shimon HaTzaddik's own voice heard as far as
+Jericho) to `l35`; vilnaLine 11 (a bride's own perfuming) to `l36`;
+vilnaLine 12-13 (the goats of Michmar sneezing from the incense scent)
+to `l39`; vilnaLine 14-28 (the lot-raising-versus-placement dispute
+over what is indispensable) to `l42`; vilnaLine 29-58 (the extended
+sugya on Rabbi Yehuda's and Rabbi Nechemia's own positions on
+indispensability for white-garment services, including Rashi's own
+long parenthetical aside on why the lottery is not classified as
+"avoda") to `l43`; vilnaLine 59-60 ("all agree it is indispensable,"
+the alternate version's own opening) to `l47b`; vilnaLine 61-64 (the
+resolution that a superfluous verse teaches indispensability
+specifically here) to `l50b`; vilnaLine 65 (the daf's final truncated
+word) to `l50b`, the daf's own final real captured line (boundary
+policy). `l47a`'s own two-word transition marker ("some say") and
+`l50a`'s own objection text get no dedicated Rashi comment, a no-fold
+gap consistent with the pattern seen throughout this corpus.
+
+A drafting slip in the first pass of the vilnaLine 29-58 span (a dense
+halachic sugya) produced 28 entries for what needed to be 30, caught
+by the mandatory `len(ITEMS) == len(raw)` assertion failing (63 vs 65)
+before any application; the entire span was rebuilt line-by-line
+against the raw array a second time, and a full side-by-side
+comparison of all 65 entries confirmed correctness before applying.
+
+Zero-bogus-id check confirmed all 65 `linkedGemaraLineIds` resolve to
+real ids. `validate:schema:yoma`, `validate:yoma`, `validate:en:yoma`,
+`validate:daftext:yoma`, `validate:rashi:yoma`, `validate:literal:yoma`,
+and `audit:order:yoma` all pass (same 9 pre-existing unrelated
+warnings); `npm test` and `npm run test:browser` (10/10) both pass.
+39b is fully resolved, 65/65. This is the twenty-sixth consecutive
+dangling-link daf found in this corpus (27a through 39b), the eighth
+daf fixed under the 36a-52b frozen-corpus exception.
+
 ## 20b, vilnaLine 19-35 (VERSION 15.29), pre-existing content-shift correction found by spot check
 
 A post-hoc spot check of the completed 21a-29b work (sampling 40

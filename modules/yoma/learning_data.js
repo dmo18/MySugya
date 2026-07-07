@@ -90833,11 +90833,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 1,
         he: "חמצן. גזלן: אשרו חמוץ. החזיקו הנגזל: ולא חומץ. לא שייך הכא",
-        en: "Chamtzan - sour/bitter - describes the era after Shimon HaTzaddik.",
+        en: "Rashi: opens 'chometz' - a robber. Then opens 'strengthen the chametz' - support the victim of the robbery. Then opens 'and not vinegar' - this does not apply here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-039b-002",
@@ -90845,11 +90847,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 2,
         he: "אלא [בסנהדרין] (דף לה.) שלמדנו מכאן שנזקקין לתובע תחילה:",
-        en: "His death marked the end of the miraculous era; the service became spiritually diminished.",
+        en: "Rashi: continues - only in Sanhedrin (35a), where we learn from this that we attend to the plaintiff first.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-039b-003",
@@ -90857,11 +90861,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 3,
         he: "מלברך בשם. מלברך ברכת כהנים את העם בשם המפורש שלא",
-        en: "The year Shimon HaTzaddik died, he told his disciples beforehand.",
+        en: "Rashi: opens 'from blessing by the Name' - from blessing the priestly blessing of the people with the explicit Name, since they were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l12"
+        ]
       },
       {
         id: "rashi-yoma-039b-004",
@@ -90869,11 +90875,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 4,
         he: "היו כדאי: נפתחות מאליהן. סימן לאויבים לבא וליכנס: וכבר",
-        en: "He saw prophetically that his time had come.",
+        en: "Rashi: opens 'unworthy: they would open by themselves' - a sign for enemies to come and enter. Then opens 'and already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l16"
+        ]
       },
       {
         id: "rashi-yoma-039b-005",
@@ -90881,11 +90889,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 5,
         he: "נתנבא עליך. שהפתיחה זו היא סימן",
-        en: "That year the KG who served instead did not wear the gold vestments - a sign of Shimon's absence.",
+        en: "Rashi: concludes - it was prophesied about you' - this opening itself is a sign",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l16"
+        ]
       },
       {
         id: "rashi-yoma-039b-006",
@@ -90893,11 +90903,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 6,
         he: "לחורבן: שלשה בוידוי ראשון. של פר",
-        en: "The Azazel goat grew thin on its way to the Tsuk (cliff).",
+        en: "Rashi: opens 'of the destruction. Then opens 'three in the first confession' - of his own bull,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l32"
+        ]
       },
       {
         id: "rashi-yoma-039b-007",
@@ -90905,11 +90917,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 7,
         he: "אנא השם חטאתי אנא השם כפר",
-        en: "A healthy fat goat would have been a better carrier of Israel's sins symbolically.",
+        en: "Rashi: continues - 'please, the Lord, I have sinned, please, the Lord, atone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l32"
+        ]
       },
       {
         id: "rashi-yoma-039b-008",
@@ -90917,11 +90931,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 8,
         he: "לפני ה' תטהרו: ואחד בגורלות. לה'",
-        en: "A thin goat = diminished service = sins not fully carried away.",
+        en: "Rashi: concludes - before the Lord, be purified.' Then opens 'and one in the lots' - for the Lord",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l32"
+        ]
       },
       {
         id: "rashi-yoma-039b-009",
@@ -90929,11 +90945,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 9,
         he: "חטאת: וכבר אמר. כלומר וכבר",
-        en: "The crimson thread did not turn white that Yom Kippur.",
+        en: "Rashi: opens 'as a sin-offering: and he already said' - meaning it already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l35"
+        ]
       },
       {
         id: "rashi-yoma-039b-010",
@@ -90941,11 +90959,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 10,
         he: "היה מעשה שהלך קולו עד יריחו:",
-        en: "In Shimon's time it always turned white; after his death the pattern ended.",
+        en: "Rashi: concludes - happened that his own voice was heard as far as Jericho.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l35"
+        ]
       },
       {
         id: "rashi-yoma-039b-011",
@@ -90953,11 +90973,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 11,
         he: "כלה. דרכה להתקשט בבשמים:",
-        en: "The showbread was found stale when removed the following Shabbat.",
+        en: "Rashi: opens 'a bride' - it is her own way to adorn herself with perfumes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l36"
+        ]
       },
       {
         id: "rashi-yoma-039b-012",
@@ -90965,11 +90987,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 12,
         he: "בהרי מכמר. שם המחוז: והרחתי",
-        en: "When was the crimson thread supposed to turn white? Some say at the desert.",
+        en: "Rashi: opens 'in the mountains of Michmar' - the name of the district. Then opens 'and I smelled'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l39"
+        ]
       },
       {
         id: "rashi-yoma-039b-013",
@@ -90977,11 +91001,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 13,
         he: "ריח קטרת. מקטורת שנעשה בו",
-        en: "Some say when the goat reached the top of the cliff.",
+        en: "Rashi: continues - the scent of incense' - from the incense that was made while",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l39"
+        ]
       },
       {
         id: "rashi-yoma-039b-014",
@@ -90989,11 +91015,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 14,
         he: "בעוד המשכן בשילה: עליית גורל",
-        en: "Some say when the goat was pushed off the cliff.",
+        en: "Rashi: concludes - the Tabernacle was still in Shiloh. Then opens 'the rising of the lot'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-015",
@@ -91001,11 +91029,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 15,
         he: "מתוך קלפי מעכבת. עבודה שאין",
-        en: "The turning white was the public sign of atonement being accepted.",
+        en: "Rashi: continues - from within the urn is indispensable - since the service by which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-016",
@@ -91013,11 +91043,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 16,
         he: "השעירים מתפרשין זה לשם וזה לעזאזל",
-        en: "Once the thread turned white, the people rejoiced and the fast became festive.",
+        en: "Rashi: continues - the goats are designated, one for the Lord and one for Azazel,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-017",
@@ -91025,11 +91057,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 17,
         he: "אלא ע\"פ הגורל לפיכך צריך לראות",
-        en: "Dispute about timing; the key is that turning white = divine acceptance.",
+        en: "Rashi: continues - depends only on the lot, therefore he must see",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-018",
@@ -91037,11 +91071,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 18,
         he: "איזה עלה בימין ויהא שעיר של ימין",
-        en: "In the 40 years before destruction the thread stopped turning white consistently.",
+        en: "Rashi: continues - which one came up on the right, so that the goat on the right",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-019",
@@ -91049,11 +91085,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 19,
         he: "נקבע בו ואי זה עלה בשמאל ויהא",
-        en: "Sometimes it turned, sometimes not, then not at all.",
+        en: "Rashi: continues - be designated by it, and which one came up on the left, so that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-020",
@@ -91061,11 +91099,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 20,
         he: "שעיר של שמאל נקבע בו: אבל",
-        en: "This pattern of failure was a running public omen over many years.",
+        en: "Rashi: continues - the goat on the left be designated by it. Then opens 'but'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-021",
@@ -91073,11 +91113,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 21,
         he: "הנחה. של גורל על השעיר אינה",
-        en: "The KG placed the lots on the goats: 'for God' lot on the right goat's head.",
+        en: "Rashi: continues - 'the placement' - of the lot upon the goat is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-022",
@@ -91085,11 +91127,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 22,
         he: "מעכבא אפילו לא הניחו עליו שהרי",
-        en: "He said: a sin-offering for God (chattat l'HaShem).",
+        en: "Rashi: continues - indispensable, even if he did not place it upon it, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-023",
@@ -91097,11 +91141,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 23,
         he: "הוקבע של ימין בגורל שעלה בימין",
-        en: "'For Azazel' lot placed on the left goat's head.",
+        en: "Rashi: continues - the right one was already designated by the lot that came up on the right,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-024",
@@ -91109,11 +91155,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 24,
         he: "וכן שעיר השמאל לגורל שמאל: אף",
-        en: "Baraita: in Second Temple times, more often the God-lot came up in the right hand.",
+        en: "Rashi: continues - and likewise the left goat by the left lot. Then opens 'even'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-025",
@@ -91121,11 +91169,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 25,
         he: "עלייה אינה מעכבת. ואם יקרא",
-        en: "This was a positive omen for the nation's Yom Kippur.",
+        en: "Rashi: continues - 'the rising itself is not indispensable' - and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-026",
@@ -91133,11 +91183,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 26,
         he: "הכהן שם חטאת על האחת ושם",
-        en: "In the 40 years before destruction it came up in the left hand every time.",
+        en: "Rashi: continues - the priest calls out the name 'sin-offering' over one and the name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-027",
@@ -91145,11 +91197,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 27,
         he: "עזאזל על חבירו הוקבעו בלא הגרלה",
-        en: "This public omen was visible to all in the Temple on Yom Kippur.",
+        en: "Rashi: continues - 'Azazel' over its fellow, they are designated without a lottery at all,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-028",
@@ -91157,11 +91211,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 28,
         he: "שאין הגרלה מעכבת אלא שחיסר",
-        en: "The lot ceremony was a national oracle - the crowd knew the verdict instantly.",
+        en: "Rashi: concludes - since the lottery is not indispensable, only a mitzva has been lacking.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l42"
+        ]
       },
       {
         id: "rashi-yoma-039b-029",
@@ -91169,11 +91225,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 29,
         he: "מצוה: אליבא דרבי יהודה כו'.",
-        en: "The transition from right to left was a multi-decade decline signal.",
+        en: "Rashi: concludes - a mitzva has been lacking. Then opens 'according to Rabbi Yehuda,' etc. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-030",
@@ -91181,11 +91239,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 30,
         he: "בפרק הוציאו לו (לקמן דף ס.) פליגי",
-        en: "R. Yannai: the drawing of the lots from the box.",
+        en: "Rashi: continues - in the chapter 'They brought out to him' (below, 60a) they dispute,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-031",
@@ -91193,11 +91253,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 31,
         he: "ר' יהודה ור' נחמיה אם שינה בסדר",
-        en: "Both hands go in simultaneously; whichever draws 'for God' designates that goat.",
+        en: "Rashi: continues - Rabbi Yehuda and Rabbi Nechemia, whether one who changed the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-032",
@@ -91205,11 +91267,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 32,
         he: "עבודות להקדים את המאוחר ואמר",
-        en: "Dispute: must 'for God' end up in the right hand, or is the left also valid?",
+        en: "Rashi: continues - of the services, bringing forward what is later. And",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-033",
@@ -91217,11 +91281,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 33,
         he: "ר' נחמיה כל סדר העבודות שנעשות",
-        en: "If the right hand drew 'for Azazel,' must he switch the lots?",
+        en: "Rashi: continues - Rabbi Nechemia said: any order of the services that are performed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-034",
@@ -91229,11 +91295,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 34,
         he: "בבגדי לבן בין בפנים כגון לפני לפנים",
-        en: "One view: he must switch so that 'for God' is always in the right hand.",
+        en: "Rashi: continues - in white garments, whether inside, such as the innermost sanctum,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-035",
@@ -91241,11 +91309,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 35,
         he: "בין מבחוץ כגון בהיכל או בעזרה",
-        en: "Another view: the designation by the lot is valid regardless of which hand holds it.",
+        en: "Rashi: continues - or outside, such as in the Sanctuary or the courtyard,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-036",
@@ -91253,11 +91323,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 36,
         he: "מעכב דחוקה דכתיבא בענינא",
-        en: "The right-hand position is the ideal (le-chatchila) but not required post-facto.",
+        en: "Rashi: continues - is indispensable, since a statute is written in the passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-037",
@@ -91265,11 +91337,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 37,
         he: "דאחרי מות עלייהו כתיבא ור' יהודה",
-        en: "The Deputy would help the KG if he needed to switch the lot to his right hand.",
+        en: "Rashi: continues - of Acharei Mot regarding them. But Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-038",
@@ -91277,11 +91351,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 38,
         he: "אומר לא כתיבא חוקה אלא בדברים",
-        en: "If he held 'for God' in his left, the Deputy might help transfer it.",
+        en: "Rashi: continues - says the statute is written only regarding matters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-039",
@@ -91289,11 +91365,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 39,
         he: "הנעשים בבגדי לבן מבפנים הלכך",
-        en: "Debate continues in 40a about the halachic requirement of the right hand.",
+        en: "Rashi: continues - done in white garments inside; therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-040",
@@ -91301,11 +91379,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 40,
         he: "הגרלה שהיא אינה נעשית מבפנים",
-        en: "The crimson thread turning white is a related sign - atonement publicly confirmed.",
+        en: "Rashi: continues - the lottery, which is not performed inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-041",
@@ -91313,11 +91393,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 41,
         he: "אלא מבחוץ לר' יהודה דאמר אדברים",
-        en: "The thread was tied to the goat's neck or horn; if it turned white = atonement accepted.",
+        en: "Rashi: continues - but rather outside, according to Rabbi Yehuda who speaks of matters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-042",
@@ -91325,11 +91407,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 42,
         he: "שנעשים מבחוץ לא כתיבא חוקה:",
-        en: "This gave the nation a visual confirmation after the Yom Kippur service.",
+        en: "Rashi: concludes - done outside, the statute is not written. Then opens 'all agree' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-043",
@@ -91337,11 +91421,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 43,
         he: "דכולי עלמא לא פליגי. דאפילו ר'",
-        en: "Summary of 39b: chamtzan era, Shimon's death signs, lot placement on goats, right vs left debate.",
+        en: "Rashi: continues - they do not dispute, since even Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-044",
@@ -91349,11 +91435,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 44,
         he: "ינאי מודה דלר' יהודה לא מעכבא",
-        en: "The lot ceremony is now fully described including the placement and designation.",
+        en: "Rashi: continues - Yannai agrees that according to Rabbi Yehuda it is not indispensable,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-045",
@@ -91361,11 +91449,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 45,
         he: "דהא לא כתיב בהו עיכובא: כי",
-        en: "40a continues with the right vs left hand dispute.",
+        en: "Rashi: continues - since indispensability is not written regarding them. Then opens 'when'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-046",
@@ -91373,11 +91463,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 46,
         he: "פליגי אליבא דרבי נחמיה. דאמר",
-        en: "The chapter continues the Yom Kippur service narrative from the lot ceremony onward.",
+        en: "Rashi: continues - 'they dispute, it is according to Rabbi Nechemia' - who says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-047",
@@ -91385,11 +91477,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 47,
         he: "חוקה אכל דברים הנעשים בבגדי",
-        en: "The transition from lot drawing to lot placement to goat designation is complete.",
+        en: "Rashi: continues - the statute applies to all matters done in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-048",
@@ -91397,11 +91491,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 48,
         he: "לבן כתיבא וזו בבגדי לבן היא כדכתיב",
-        en: "The crimson thread's turning white is the coda to the lot ceremony.",
+        en: "Rashi: continues - white garments, and this is done in white garments, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-049",
@@ -91409,11 +91505,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 49,
         he: "בענינא: הני מילי. דכתיב חוקה",
-        en: "Together: lot drawn → placed on goat → KG says chattat l'HaShem → thread turns white.",
+        en: "Rashi: continues - in that passage. Then opens 'this applies' - since the statute is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-050",
@@ -91421,11 +91519,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 50,
         he: "לעיכובא בעבודה הוא דאתא לעיכובא",
-        en: "Each step is halachically and theologically significant.",
+        en: "Rashi: continues - for indispensability, it is regarding the service that it comes to teach indispensability.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-051",
@@ -91433,11 +91533,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 51,
         he: "(עד כאן לא אמר רבי נחמיה דכתיב",
-        en: "The Gemara's detailed treatment reflects the centrality of this ceremony.",
+        en: "Rashi: continues - (until here Rabbi Nechemia did not say that the statute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-052",
@@ -91445,11 +91547,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 52,
         he: "חוקה בעבודה לעכובא כגון חתיות",
-        en: "The lot ceremony is the climax of the Yom Kippur public service.",
+        en: "Rashi: continues - of indispensability applies except regarding a service, such as taking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-053",
@@ -91457,11 +91561,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 53,
         he: "גחלים מן המזבח ושחיטת פר",
-        en: "All Israel watching in the Azarah knew in real time if atonement was accepted.",
+        en: "Rashi: continues - coals from the altar or slaughtering the bull,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-054",
@@ -91469,11 +91575,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 54,
         he: "דעבודות נינהו ופסולות בכהן אחר",
-        en: "The right-hand lot and the white thread were their confirmation.",
+        en: "Rashi: continues - which are services and are invalid if done by another priest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-055",
@@ -91481,11 +91589,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 55,
         he: "אבל הגרלה דלאו עבודה היא שכשרה",
-        en: "Summary concludes 39b.",
+        en: "Rashi: continues - but the lottery, which is not itself a service, and is valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-056",
@@ -91493,11 +91603,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 56,
         he: "בסגן למאן דאמר לעיל הסגן וכ\"ג",
-        en: "40a will resolve the right vs left hand requirement.",
+        en: "Rashi: continues - performed by the deputy, according to the one who said above that the deputy and the High Priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-057",
@@ -91505,11 +91617,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 57,
         he: "מכניסין ידיהן של ימין בקלפי אימא",
-        en: "The next stage: the live goat's standing and the confession over it.",
+        en: "Rashi: continues - insert their right hands into the urn - say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-058",
@@ -91517,11 +91631,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 58,
         he: "הכא מודה ר' נחמיה דלא מעכבא):",
-        en: "The service continues with the bull's blood sprinkling.",
+        en: "Rashi: concludes - here Rabbi Nechemia too agrees it is not indispensable):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l43"
+        ]
       },
       {
         id: "rashi-yoma-039b-059",
@@ -91529,11 +91645,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 59,
         he: "כולי עלמא לא פליגי דמעכבא.",
-        en: "The Yom Kippur avodah sequence is methodically examined.",
+        en: "Rashi: opens 'all agree it is indispensable' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l47b"
+        ]
       },
       {
         id: "rashi-yoma-039b-060",
@@ -91541,11 +91659,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 60,
         he: "דקאמר חוקה עלייהו כתיב:",
-        en: "The Gemara's careful attention to each step shows the service's importance.",
+        en: "Rashi: continues - since he says the statute is written regarding them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l47b"
+        ]
       },
       {
         id: "rashi-yoma-039b-061",
@@ -91553,11 +91673,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 61,
         he: "שאני הכא דתנא בה קרא. אף",
-        en: "39b is a rich mixture of miracle narrative and halachic analysis.",
+        en: "Rashi: opens 'here it is different, since the verse expressly teaches it. Even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l50b"
+        ]
       },
       {
         id: "rashi-yoma-039b-062",
@@ -91565,11 +91687,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 62,
         he: "על גב דחוקה לאו עלה קיימא לעכב",
-        en: "The chapter continues without interruption into 40a.",
+        en: "Rashi: continues - though the general statute does not itself stand to make it indispensable,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l50b"
+        ]
       },
       {
         id: "rashi-yoma-039b-063",
@@ -91577,11 +91701,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 63,
         he: "מעכבא שהרי שנה עליו הכתוב לעכב",
-        en: "The right vs left lot dispute is the connector between 39b and 40a.",
+        en: "Rashi: continues - it is indispensable, since the verse repeated regarding it, to make it indispensable,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l50b"
+        ]
       },
       {
         id: "rashi-yoma-039b-064",
@@ -91589,11 +91715,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 64,
         he: "ומקרא יתירה נפקא לה עיכובא:",
-        en: "Summary: signs of decline, lot placement, crimson thread, right-hand debate.",
+        en: "Rashi: continues - and from the superfluous verse the indispensability is derived.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l50b"
+        ]
       },
       {
         id: "rashi-yoma-039b-065",
@@ -91601,11 +91729,13 @@ const DAF_CONTENT = {
         daf: "39b",
         vilnaLine: 65,
         he: "אלא",
-        en: "All topics in 39b relate to the Yom Kippur lot ceremony and its confirmation signs.",
+        en: "Rashi: the daf's final truncated word - 'rather,' the start of the dibbur hamatchil continuing the resolution of how the objection about the lottery not being indispensable is reconciled with Rabbi Nechemia's own view, whose text continues on 40a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-039b-l50b"
+        ]
       }
     ],
     review: "reviewed"
