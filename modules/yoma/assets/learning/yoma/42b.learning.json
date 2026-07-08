@@ -273,303 +273,423 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The verse 'it shall be kept for impurity water' (Num. 19:9) - excludes Tur Shimon from being a valid location for the parah rite.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - for watch [to those who keep it pure] - for whom? For menstruating women. [This means they] require guarding until [the water is] sprinkled from it.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "Amoraic dispute: slaughter of parah by a non-priest - R. Ami says valid, Rav says invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to support Rav [who] said: [that the] heifer, [when] slaughtered by a non-Jew, is disqualified.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Yehoshua bar Abba raises an objection to the opinion that Rav supports from a different baraita.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and this [water of] its [sprinkling] is not fit in a woman - [the Mishna continues:] and there is nothing fit except on the day [when specified].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "From where is it derived to include all stages of the parah rite in the general law?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as it is written [in Numbers 19] 'he shall cleanse himself with it on the third day' - [from where do we derive] that [this includes] the slaughter and receiving [of the blood]",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l03"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "If the word 'law' includes all stages and 'statute' also includes all stages - what do we learn from 'statute of the Torah'?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the sprinkling of its blood and burning and casting [of the] cedar [and] hyssop [and] scarlet wool [that they are required only on] that day?",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l03"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The double expression 'statute of the Torah' teaches both that it is an eternal law and that it is a statute (chok) - without rational explanation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - '[the term] 'this' is not written [in Scripture except to teach that these things are required on the day only, and if they were to be done] on [any other] day they would not be fit.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Alternative: one term includes stages before; the other includes stages after.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but [regarding the matter of] a woman, [the scripture does not need] to add multiple restrictive terms, [because the negative] 'not fit except on a day [is already stated]'.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "The Gemara discusses what 'before' and 'after' mean in this context.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and all these terms are written in Scripture: that everything concerning] both the man [and the woman are fit], either Elazar or [any] priest [except in the case of the heifer itself, which requires Elazar or a specific priest].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "R. Yehoshua bar Abba's objection: the mixing stage is done by a non-priest and it is valid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the sprinkling of its blood [is written:] 'before the tent of meeting seven times'.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "Counter: mixing is not a 'service' in the Temple sense; it can be done outside the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Gemara] says [we must derive it from] the Torah - 'this is the statute of the Torah' [Numbers 19] - [the word] 'Torah' appears once here [and once elsewhere].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rav's position refined: it is specifically slaughter by a non-priest that is invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [implying] one statute for all its services - [the phrase] 'this' appears to teach you that the written [text] here holds [firm] and do not add [to it].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The verse specifying Elazar the priest is the source text - but Elazar himself was not the High Priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - after the scripture increased and diminished [restrictive and inclusive terms], and did not explain what increased and what diminished, from now on do not entrust them [to you to determine yourself]",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "This teaches: the parah rite is performed by an ordinary kohen, not necessarily the High Priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but rather [you must] examine it to understand the truth and the straight [path].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Transition: the ish iti's impurity mechanism revisited.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - you say: behold we learn all of them from the sprinkling of its water [that nightfall invalidates it, as is explicitly stated regarding women].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The goat is alive when carried - how does a living creature convey impurity to its carrier?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] there are [other matters] not fit in a woman just as in a man [so if you rule that the heifer] slaughtered by a non-Jew is disqualified - [then it should also be disqualified if slaughtered] by a woman.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Answer: the designation of the goat as 'for Azazel' gives it a special status that causes carrier impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and regarding] a woman, what is the reason? From where does she have that slaughter is disqualified in a woman? [In the scriptural text about] receiving the blood and sprinkling the blood [Elazar is mentioned, but regarding] slaughter it is not written [that he must do it].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Parallel: the omer, the two loaves, and items consecrated for the altar can all affect purity status.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - certainly receiving the blood and sprinkling the blood [are written:] 'and Elazar the priest received [its blood]' [and] 'sprinkled before the tent of meeting', and burning and casting [are also written:] 'the priest shall burn [the heifer]' [and] 'cast cedar'.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l08"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "The impurity of the ish iti is a rabbinic ordinance, not biblical - but why was it enacted?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but slaughter - from where [do we know a priest must do it]? [The tanna] teaches: 'and slaughter it before him [Elazar]'.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l18"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "So that people should not say: the one who performed the Yom Kippur rite is the same as an ordinary person.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - thus the tanna is deriving [that slaughter requires] a priest just as Rav [rules] - and if [we say that] another [could] slaughter and Elazar [watches], how [would the tanna] derive [it]? [Rather,]",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l18"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Alternatively: to prevent people from making the role of ish iti seem too light and unimportant.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from here [the text] derives [that] a non-Jew [slaughtering is] disqualified, and similarly a woman is disqualified.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l18"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "The ish iti bathed, waited until nightfall, and then he was pure - this is the normal sequence.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and regarding] a woman, what is the reason? From where [do we derive] that slaughter is disqualified in a woman? [In scriptural passages about] receiving the blood and the sprinkling of the blood [Elazar or priest is mentioned], but [regarding] slaughter - [the text does not explicitly state, so the tanna must teach it].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l18"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "R. Yehuda: the ish iti need not immerse - his impurity is only rabbinic and immersion was not required.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the tanna] says: come and hear [and understand the tradition] - so that you should not say [that because] the teaching [states] 'slaughter is disqualified in a non-Jew, [therefore] disqualified also in a woman'.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The Sages: even a rabbinically impure person should immerse before entering Jerusalem after Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but] what is the refutation [against this reasoning]? To Shmuel - if we say [the reasoning is based] on the teaching ['slaughter is disqualified in a woman it is also disqualified in a non-Jew'].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Tur Shimon is a region east of the Jordan - the verse excludes it as a valid location.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - a woman - what is the reason? From where [do we learn] that slaughter is disqualified in a woman? [Certainly regarding] receiving the blood and sprinkling of the blood [the text mentions] Elazar the priest [but regarding] slaughter - [it is not explicitly stated].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Why Tur Shimon specifically? It was outside the Land of Israel proper in rabbinic geography.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and burning [is written:] 'the priest shall burn the heifer before him' [so] Elazar - and the casting [is written:] 'cedar [and] hyssop [and] scarlet wool' [it is written] priest - but slaughter - from where [do we derive it requires a priest]?",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The exclusion: parah waters must be 'kept' inside the Land - Tur Shimon is outside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [only] from the [additional teaching:] 'and slaughter it before him [Elazar]' [is slaughter mentioned as requiring a priest] - thus the tanna [rules] as Rav - [meaning] slaughter requires a priest.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Practical consequence: parah ashes from Tur Shimon are invalid for purification use.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and if another were to slaughter and Elazar [watches], from where [does the text teach] that? [Rather, it must be that] from here the text restricts [to require] a priest.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The verse uses the word 'kept' (mishmerit) to teach permanence - the waters must be stored properly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - thus the tanna is deriving just as Rav [taught].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "This also teaches: the waters cannot be prepared in an area that is questionable regarding purity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - therefore from here [we understand the entire passage as a continuous whole treating] the whole section [of the heifer].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "Connection to the ish iti: the goat must be sent to a valid wilderness area, not just any place.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of the heifer [the entire section is structured] like its services are arranged one after another.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l22"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "The cliff (Tsuk) is 12 mil from Jerusalem - this is well within the required zone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [meaning the entire interpretation of the heifer law] is derived by examining how each word and phrase contributes to the complete understanding.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The ish iti's journey takes him outside Jerusalem, where he completes his designated role.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [End of the detailed discussion on red heifer slaughter requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "After the goat is pushed off, the ish iti begins his return and his purification process.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Continuation of analysis of the red heifer passage structure].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "He immerses at one of the ten booths on the way back.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Further examination of how the scriptural text teaches requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "The booths were established as rest stations and immersion sites for the ish iti.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Analysis of the logical structure of the heifer section].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "The Gemara confirms: ten booths, ten stations, and the ish iti is provided for at each.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Discussion of how different parts of the passage interconnect].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "Final ruling: the ish iti must immerse and wait until nightfall regardless of the dispute.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Extended treatment of the heifer section's teachings].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "The daf concludes the ish iti material and prepares to enter the incense offering discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Detailed examination of scriptural terminology in the passage].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "Transition: next Mishna deals with the incense - a crucial and secret Temple procedure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Concluding remarks on the structure of this section].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "The incense composition was known only to the Beth Avtinas family.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - the entire section of the heifer - of [all matters pertaining to] the heifer, [structured] like its services are arranged one after another.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Review of 42b themes: verse analysis (Tur Shimon), parah slaughter, ish iti impurity mechanism.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it [the passage] is understood by examining it [carefully, since] 'derives' [appears multiple times, indicating] some scriptural citations extract [restrictive lessons] from the implied meaning of earlier verses.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Key insight: designation for a holy purpose can cause the designated item to affect carrier purity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [some] scriptural citations [extract meanings] from their own [direct meaning], and by their arrangement you [will] understand what [lesson is] extracted from the association [with] another and who [derives] its [meaning] from [direct scriptural] implication.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "This principle will recur throughout the laws of terumah and Temple service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [This requires careful] thought in order to understand the complete [picture, since one cannot equalize the order of the entire section into a uniform sequence].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The Gemara's legal reasoning here is tight: verse exclusions, inclusions, and purpose-based rules.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [rather] each matter [has] its [own] scriptural source, and some scriptural [passages] convey [their meaning through] direct implication [while] others [are understood through] the association [with what comes before].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "Halakhic summary: parah slaughter valid only by a kohen (not non-priest); ish iti is rabbinically impure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and furthermore] there are scriptural passages [whose meanings] stand by themselves [independently] and do not extract [or teach] about the [meaning of] the associated [passage] - rather their meaning stands in its place.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "The parah rite continues to be a paradigm case for Temple-specific rules that defy general principles.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and according to their arrangement you have [the key] to understand what extracts [restricts] the associated [passage].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "Tur Shimon exclusion: regional geography matters for determining validity of ritual acts.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and who [derives its meaning] from [direct scriptural] implication [rather than from association].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "The verse 'for impurity water' is both descriptive and restrictive - it limits where the waters are valid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The careful study of this entire section requires understanding] how each teaching operates - whether it restricts a previous [one].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "R. Ami's position (non-priest slaughter valid) is a minority view; most hold Elazar implies a priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - or [whether it] permits [something that was previously restricted].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "The debate continues: what exactly does 'Elazar' teach - only one-time, or all generations?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and now the Gemara says: come and interpret the entire passage accordingly].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Answer: 'Elazar' establishes the paradigm; subsequent parah rites follow the same pattern.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [interpreting each element according to the principles established above].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Discussion of the parah rite in detail: burning, mixing, storing - each stage has its own rules.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the complete teaching of the heifer becomes clear when each part is understood in its proper context].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The mixing of the ashes with water is the simplest act and can be done by anyone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [End of the methodological discussion on interpreting the red heifer passage].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Sprinkling requires a pure person; storing requires proper vessels; all stages have verse support.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Transition to practical application of the red heifer law]: to Elazar [the High Priest, since he was designated for this service].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The Gemara completes its analysis of the parah service and its personnel requirements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [even though the statute says] 'to generations' [and theoretically any priest could perform it], [regarding any] regular priest - [they are all fit to perform it, since] the scripture did not establish it specifically for the High Priest.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Summary: the parah rite requires a kohen for slaughter; other stages are more flexible.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but only for Elazar because of] specific tradition [that Elazar was chosen] - [this teaches that] not [all] say [that both would be] fit [to perform all aspects].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "The ish iti's role is complete once the goat has gone over the cliff.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [all persons who work with the heifer from beginning to end disqualify it, as taught in the Mishna in Tractate Para (chapter 4, law 4)] - [anyone who] works with [it] [during any stage from] beginning to end disqualifies it.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "His impurity lasts until nightfall; he immerses at a booth provided for this purpose.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and below (folio 43) it is also stated:] and slaughter it so that [he] does not slaughter another [heifer] together with it - because it is said 'it [the heifer]' [exclusively].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "The Yom Kippur avodah continues: the High Priest now prepares for the incense service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the Talmud brings a] support: [from] Bava Metzia (folio 115) - [a case regarding] a widow [who is] rich and they give a lien to [take payment from] an orphan, they do not give a lien to a poor [widow] because you need her [poor widow to be solvent to] return [to her], and you [should not] give her a bad name in her neighborhood.",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "42b ends with the resolution of the ish iti question and transition to the incense Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [End of orphaned Rashi content from the extended discussion on the heifer].",
+      "linkedGemaraLineIds": [
+        "yoma-042b-l31"
+      ]
     }
   ]
 }
