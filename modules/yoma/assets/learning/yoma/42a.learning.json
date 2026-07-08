@@ -300,263 +300,367 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The weight of the crimson thread used for the red heifer is ten zuz; for the Yom Kippur goat, two sela.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [of the heifer, the weight is] ten denarii - [because it] requires weight; [of the] goat, [the weight is] two selas and that suffices.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "R. Shimon ben Chalafta and the Rabbis disagree about a related matter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [of the] leper - [the weight] is insufficient [from either of the above, so] just a shekel suffices.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Yirmeyah of Difti: this is not about the parah strip but about the goat strip.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this is our text: [the Amoraim] dispute regarding it - R. Shimon ben Halfta and the Rabbis dispute [regarding the specifications of the red] heifer.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "R. Yitzchak: I heard a distinction between two strips - one before, one after.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [there is] a sign [to remember the distinctions] - lest you err to say that one [Tanna] was saying [a weight of] two selas.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l03"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "An amoraic dispute: slaughter of the parah by a non-priest - R. Ami says valid, Rav says invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this Mishna [serves] as a sign for you: [as taught in] Tractate Menachot (folio 110:).",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l03"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The verse says 'and Elazar the priest shall slaughter it' - priest is required for parah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'one who adds [more than the measure] and one who diminishes [less than the measure]'.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "But did we not learn that all slaughterings are valid if done by a non-priest?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but provided [that] he intends his heart [toward] Heaven - [in this sign].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "R. Yochanan to the tanna: go teach that outside - we have not found slaughter invalid with a non-priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - you will remember [how] to say that the one [Tanna] gave in it [the thread] a measure of the one who adds [more] than all of them.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l06"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "The Gemara notes R. Yochanan didn't even follow his own teacher R. Shimon ben Yehotzadak.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the one [Tanna] gave in it a measure of the one who diminishes [less] than all of them.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l06"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "R. Shimon ben Yehotzadak said: slaughter of parah by non-priest is invalid; R. Yochanan disagrees.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but a medium measure was not mentioned here [in the teaching].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The people of Jericho did six things - three they were permitted, three they were not.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Amoraim] do not dispute regarding the heifer.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "They permitted: grafting carobs on Shabbat eve of sabbatical year, gathering scattered stalks, and using Jericho pine.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [they dispute only] in the language [terminology] of the heifer - and that day.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l10"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "They forbade: eating fallen fruit on Shabbat, forgetting the Omer, permitting crop stalks.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [which day was] that? [When R. Nachum ben Kisi] spoke [and said]:",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The Sages did not agree but did not object; the things permitted they were right about.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he atones - [meaning] the death of the righteous atones.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Grafting carobs: R. Yehuda says there is no prohibition; the Sages permitted them retroactively.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as [is] stated in general [in] Tractate Moed Katan (folio 28:).",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Scattered stalks: a poor person may gather them; the people of Jericho allowed anyone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - why was the death of Aaron adjoined to the [High] Priest's garments?",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Pine branches: they used them on Pesach without objection - but the matter is disputed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [this is] to say to you: just as the [High] Priest's garments atone,",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "The forbidden acts: eating fallen fruit they should not have done on Shabbat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so [too] the death of the righteous atones.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l13"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "Forgetting the Omer: Rebbi permitted it in his locale but not universally.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - of his heifer [referring to] the heifer of the High Priest on Yom Kippur.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Permitting crop stalks before Shabbat: they relied on lenient opinions but the Sages objected.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and the Mishna mentions] Elazar and its statute - [that] Elazar [is mentioned] in [Scripture].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Another teaching about Jericho customs and what the Sages permitted or forbade.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it is written [Numbers 19] 'and you shall give her to Elazar the Priest' etc.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Summary: some Jericho practices were corrected by the Sages and some remained.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it is written [ibid.] 'this is the statute of the Torah' and everywhere that [the term] 'statute' is written,",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The ish iti (the designated man) who takes the goat becomes impure through carrying it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is a [binding] condition [that must be fulfilled].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Even though the goat is alive, it makes the handler impure - because it is a carrier of impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding] Aaron and [its] statute - [that the term] 'statute' is written [in Leviticus 16]: 'and Aaron shall bring [his chatat bull]'",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l19"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The goat is designated for the wilderness; its very purpose transmits impurity status.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the bull of sin [offering] which is his [own] and atone etc. and slaughter the bull of sin [offering] which is his etc.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "This teaches: a living creature can convey impurity upon the person who carries it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it is written in Acharei Mot regarding the matter [Leviticus 16]:",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Discussion of what exactly makes the ish iti impure - the goat itself or the act of sending.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and this shall be [to you] an everlasting statute [to make atonement for the children of Israel]'.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The verse 'and he who sends the goat shall wash his garments' indicates deliberate impurity designation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [thus showing the statute regarding] the bull of the High Priest.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "R. Akiva: the ish iti becomes impure from the moment he takes the goat and sends it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the] slaughter [of the red heifer] is not a [priestly] service - and [so] the statute does not stand [based] on [the] slaughter.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The Sages: he becomes impure only when the goat has reached the wilderness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [it] is different regarding the heifer [since it] is sanctified [with the holiness of] Temple maintenance [funds] - meaning there is not in it the sanctity of the altar.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Practical difference: if he bathed mid-journey and the goat died - is he still impure?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but only the sanctity of [the] money [value] alone.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l25"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The debate about when the impurity takes effect corresponds to when the goat's mission is complete.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] if so [that] its slaughter [is] on the Mount of Anointing, therefore there is no [special] division of services in it, and all services are [of the] same [status] in it.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "Both opinions agree the ish iti must immerse and wait until nightfall.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and not so - [if it were so, then regarding] the High Priest's bull - which [is] sanctified [with the holiness of] the body, [for which] there is no statute written, and the slaughter of the red heifer - [for which] a statute is written.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Connection to the general principle: items sent for impure purposes convey impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the red heifer] is disqualified [if touched] by a non-priest [since the statute requires specific handling].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Final ruling: the ish iti is impure until evening and must immerse.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [therefore] with wonder [I ask]: the slaughter of the High Priest's bull - which [is] of the sanctity of the body - is not written [as a] statute.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Summary of the ish iti impurity laws and their biblical basis.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but the slaughter of the red heifer is written [as a] statute, and [it] is disqualified [if touched] by a non-priest.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The Gemara concludes the discussion of Yom Kippur goat and attendant impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the question is raised regarding] the red heifer [service] - [referring to those who] see [the] afflictions [of the metzora].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Transition to the next Mishna topic regarding the High Priest's subsequent actions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - as [is] written [in Leviticus 13] '(as a plague appears) and [the person with] the appearance [is brought] to Aaron the Priest'.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "The bull's blood and the goat's blood will be handled next in the avodah sequence.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the Mishna states] she was slaughtered before him [Elazar] - from [the fact that is] written 'before him', [we derive] from the entirety [of the verse] that the slaughter is not [referring] to Elazar [alone].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Review: the parah slaughter dispute and ish iti impurity have been resolved.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but [rather] she was slaughtered by another before Elazar.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Additional details about the 10-booth journey stations to the Tsuk cliff.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the Gemara suggests] Rav [says] - always [it was] Elazar [who] slaughtered [it].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "The booths are spaced along the route; provisions are made at each.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and what [does the phrase] 'before him' [mean]? - [it means he must be present so as] not to divert his attention from guarding it.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "People would accompany the ish iti from station to station as honor.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [thus] [it is] now [that] the heifer becomes [ritually] fit - [in other words, the entire process validates the offering].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "At the Tsuk: the ish iti pushes the goat off backward; it tumbles and is killed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [for] her entire [being] is made only for [the production of] ashes.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The crimson thread tied to the goat turns white - a sign of atonement (Is. 1:18).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to exclude what [ritual details are essential]? - [meaning to teach] that [an involuntary] diversion of attention does not disqualify [the red heifer ritual].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "If the thread does not turn white, this was seen as a bad omen in later generations.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna states] the gathering of ashes [requires specific ritual] - [as written in Numbers 19] 'and a ritually pure man gathered [them]'.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The Gemara notes: in Shimon HaTzaddik's era the thread always turned white.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and continues] the filling with water - [to put into the ashes to sprinkle].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "After his death, results became unreliable; eventually they stopped relying on the sign.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and continues] for sanctification - [this is the sprinkling itself, which] is the giving of water on the ashes and mixing them together.",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The Gemara will now proceed to the next chapter of Mishna Yoma.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [End of the detailed discussion on the red heifer specifications and requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "End of discussion of the goat ceremony; transition to incense offerings.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Further clarifications on the ritual procedures for the red heifer].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Summary of 42a: thread weight, parah slaughter dispute, ish iti impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Conclusion of this section of Rashi explanation on red heifer procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "The page concludes the goat ceremony material and anticipates incense discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [End of orphaned Rashi content from the extended discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-042a-l32"
+      ]
     }
   ]
 }
