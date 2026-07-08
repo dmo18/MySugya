@@ -96927,11 +96927,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 1,
         he: "של פרה משקל עשר זוז. דבעיא כובד: של שעיר. דבעיא חלוקה",
-        en: "The weight of the crimson thread used for the red heifer is ten zuz; for the Yom Kippur goat, two sela.",
+        en: "Rashi: opens - [of the heifer, the weight is] ten denarii - [because it] requires weight; [of the] goat, [the weight is] two selas and that suffices.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l01"
+        ]
       },
       {
         id: "rashi-yoma-042a-002",
@@ -96939,11 +96941,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 2,
         he: "משקל שני סלעים ודייה בכך: של מצורע. דלא הא ולא הא סגי",
-        en: "R. Shimon ben Chalafta and the Rabbis disagree about a related matter.",
+        en: "Rashi: continues - [of the] leper - [the weight] is insufficient [from either of the above, so] just a shekel suffices.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l01"
+        ]
       },
       {
         id: "rashi-yoma-042a-003",
@@ -96951,11 +96955,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 3,
         he: "ליה בשקל: הכי גרסינן פליגי בה ר\"ש בן חלפתא ורבנן בפרה:",
-        en: "R. Yirmeyah of Difti: this is not about the parah strip but about the goat strip.",
+        en: "Rashi: continues - this is our text: [the Amoraim] dispute regarding it - R. Shimon ben Halfta and the Rabbis dispute [regarding the specifications of the red] heifer.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l03"
+        ]
       },
       {
         id: "rashi-yoma-042a-004",
@@ -96963,11 +96969,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 4,
         he: "וסימן. שלא תטעה לומר שאחד היה אומר משקל שני סלעים",
-        en: "R. Yitzchak: I heard a distinction between two strips - one before, one after.",
+        en: "Rashi: continues - and [there is] a sign [to remember the distinctions] - lest you err to say that one [Tanna] was saying [a weight of] two selas.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l03"
+        ]
       },
       {
         id: "rashi-yoma-042a-005",
@@ -96975,11 +96983,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 5,
         he: "משנה זו תהא לך סימן ששנינו (מנחות",
-        en: "An amoraic dispute: slaughter of the parah by a non-priest - R. Ami says valid, Rav says invalid.",
+        en: "Rashi: continues - this Mishna [serves] as a sign for you: [as taught in] Tractate Menachot (folio 110:).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l03"
+        ]
       },
       {
         id: "rashi-yoma-042a-006",
@@ -96987,11 +96997,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 6,
         he: "דף קי.) אחד המרבה ואחד הממעיט",
-        en: "The verse says 'and Elazar the priest shall slaughter it' - priest is required for parah.",
+        en: "Rashi: continues - 'one who adds [more than the measure] and one who diminishes [less than the measure]'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l06"
+        ]
       },
       {
         id: "rashi-yoma-042a-007",
@@ -96999,11 +97011,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 7,
         he: "ובלבד שיכוין לבו לשמים בסימן זה",
-        en: "But did we not learn that all slaughterings are valid if done by a non-priest?",
+        en: "Rashi: continues - but provided [that] he intends his heart [toward] Heaven - [in this sign].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l06"
+        ]
       },
       {
         id: "rashi-yoma-042a-008",
@@ -97011,11 +97025,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 8,
         he: "תזכור לומר שהאחד נתן בה שיעור",
-        en: "R. Yochanan to the tanna: go teach that outside - we have not found slaughter invalid with a non-priest.",
+        en: "Rashi: continues - you will remember [how] to say that the one [Tanna] gave in it [the thread] a measure of the one who adds [more] than all of them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l06"
+        ]
       },
       {
         id: "rashi-yoma-042a-009",
@@ -97023,11 +97039,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 9,
         he: "המרבה מכולן והאחד נתן בה שיעור",
-        en: "The Gemara notes R. Yochanan didn't even follow his own teacher R. Shimon ben Yehotzadak.",
+        en: "Rashi: continues - and the one [Tanna] gave in it a measure of the one who diminishes [less] than all of them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l06"
+        ]
       },
       {
         id: "rashi-yoma-042a-010",
@@ -97035,11 +97053,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 10,
         he: "וקא ממעט מכולן אבל שיעור בינוני",
-        en: "R. Shimon ben Yehotzadak said: slaughter of parah by non-priest is invalid; R. Yochanan disagrees.",
+        en: "Rashi: continues - but a medium measure was not mentioned here [in the teaching].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l10"
+        ]
       },
       {
         id: "rashi-yoma-042a-011",
@@ -97047,11 +97067,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 11,
         he: "לא הוזכר כאן: לא בפרה פליגי.",
-        en: "The people of Jericho did six things - three they were permitted, three they were not.",
+        en: "Rashi: continues - [the Amoraim] do not dispute regarding the heifer.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l10"
+        ]
       },
       {
         id: "rashi-yoma-042a-012",
@@ -97059,11 +97081,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 12,
         he: "בלשון של פרה: וההוא יומא. דאיפליגי",
-        en: "They permitted: grafting carobs on Shabbat eve of sabbatical year, gathering scattered stalks, and using Jericho pine.",
+        en: "Rashi: continues - [they dispute only] in the language [terminology] of the heifer - and that day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l10"
+        ]
       },
       {
         id: "rashi-yoma-042a-013",
@@ -97071,11 +97095,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 13,
         he: "בה נח רביא בר קיסי. שם חכם:",
-        en: "They forbade: eating fallen fruit on Shabbat, forgetting the Omer, permitting crop stalks.",
+        en: "Rashi: continues - [which day was] that? [When R. Nachum ben Kisi] spoke [and said]:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-014",
@@ -97083,11 +97109,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 14,
         he: "מכפר. מיתת צדיקים מכפרת",
-        en: "The Sages did not agree but did not object; the things permitted they were right about.",
+        en: "Rashi: continues - he atones - [meaning] the death of the righteous atones.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-015",
@@ -97095,11 +97123,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 15,
         he: "כדאמר בעלמא (מועד קטן דף כח.)",
-        en: "Grafting carobs: R. Yehuda says there is no prohibition; the Sages permitted them retroactively.",
+        en: "Rashi: continues - as [is] stated in general [in] Tractate Moed Katan (folio 28:).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-016",
@@ -97107,11 +97137,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 16,
         he: "למה נסמכה מיתת אהרן לבגדי",
-        en: "Scattered stalks: a poor person may gather them; the people of Jericho allowed anyone.",
+        en: "Rashi: continues - why was the death of Aaron adjoined to the [High] Priest's garments?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-017",
@@ -97119,11 +97151,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 17,
         he: "כהונה לומר לך מה בגדי כהונה",
-        en: "Pine branches: they used them on Pesach without objection - but the matter is disputed.",
+        en: "Rashi: continues - [this is] to say to you: just as the [High] Priest's garments atone,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-018",
@@ -97131,11 +97165,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 18,
         he: "מכפרין אף מיתת צדיקים מכפרת:",
-        en: "The forbidden acts: eating fallen fruit they should not have done on Shabbat.",
+        en: "Rashi: continues - so [too] the death of the righteous atones.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l13"
+        ]
       },
       {
         id: "rashi-yoma-042a-019",
@@ -97143,11 +97179,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 19,
         he: "של פרו. פר כהן גדול של יוה\"כ:",
-        en: "Forgetting the Omer: Rebbi permitted it in his locale but not universally.",
+        en: "Rashi: opens - of his heifer [referring to] the heifer of the High Priest on Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-020",
@@ -97155,11 +97193,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 20,
         he: "אלעזר וחוקה. אלעזר כתיב בה ונתתם",
-        en: "Permitting crop stalks before Shabbat: they relied on lenient opinions but the Sages objected.",
+        en: "Rashi: continues - [and the Mishna mentions] Elazar and its statute - [that] Elazar [is mentioned] in [Scripture].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-021",
@@ -97167,11 +97207,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 21,
         he: "אותה אל אלעזר הכהן וגו' (במדבר יט)",
-        en: "Another teaching about Jericho customs and what the Sages permitted or forbade.",
+        en: "Rashi: continues - and it is written [Numbers 19] 'and you shall give her to Elazar the Priest' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-022",
@@ -97179,11 +97221,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 22,
         he: "וכתיב (שם) זאת חקת התורה וכל היכא",
-        en: "Summary: some Jericho practices were corrected by the Sages and some remained.",
+        en: "Rashi: continues - and it is written [ibid.] 'this is the statute of the Torah' and everywhere that [the term] 'statute' is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-023",
@@ -97191,11 +97235,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 23,
         he: "דכתי' חוקה עיכובא הוא: אהרן וחוקה.",
-        en: "The ish iti (the designated man) who takes the goat becomes impure through carrying it.",
+        en: "Rashi: continues - it is a [binding] condition [that must be fulfilled].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-024",
@@ -97203,11 +97249,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 24,
         he: "דכתיב (ויקרא טז) והקריב אהרן את",
-        en: "Even though the goat is alive, it makes the handler impure - because it is a carrier of impurity.",
+        en: "Rashi: continues - [regarding] Aaron and [its] statute - [that the term] 'statute' is written [in Leviticus 16]: 'and Aaron shall bring [his chatat bull]'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l19"
+        ]
       },
       {
         id: "rashi-yoma-042a-025",
@@ -97215,11 +97263,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 25,
         he: "פר החטאת אשר לו וכפר וגו' ושחט",
-        en: "The goat is designated for the wilderness; its very purpose transmits impurity status.",
+        en: "Rashi: continues - the bull of sin [offering] which is his [own] and atone etc. and slaughter the bull of sin [offering] which is his etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-026",
@@ -97227,11 +97277,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 26,
         he: "את פר החטאת אשר לו וגו' וכתיב",
-        en: "This teaches: a living creature can convey impurity upon the person who carries it.",
+        en: "Rashi: continues - and it is written in Acharei Mot regarding the matter [Leviticus 16]:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-027",
@@ -97239,11 +97291,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 27,
         he: "באחרי מות בענינא (שם) והיתה זאת",
-        en: "Discussion of what exactly makes the ish iti impure - the goat itself or the act of sending.",
+        en: "Rashi: continues - 'and this shall be [to you] an everlasting statute [to make atonement for the children of Israel]'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-028",
@@ -97251,11 +97305,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 28,
         he: "לכם לחקת עולם לכפר על בני ישראל:",
-        en: "The verse 'and he who sends the goat shall wash his garments' indicates deliberate impurity designation.",
+        en: "Rashi: continues - [thus showing the statute regarding] the bull of the High Priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-029",
@@ -97263,11 +97319,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 29,
         he: "שחיטה לאו עבודה היא. ולא קיימא",
-        en: "R. Akiva: the ish iti becomes impure from the moment he takes the goat and sends it.",
+        en: "Rashi: continues - [the] slaughter [of the red heifer] is not a [priestly] service - and [so] the statute does not stand [based] on [the] slaughter.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-030",
@@ -97275,11 +97333,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 30,
         he: "חוקה אשחיטה: שאני פרה דקדשי",
-        en: "The Sages: he becomes impure only when the goat has reached the wilderness.",
+        en: "Rashi: continues - [it] is different regarding the heifer [since it] is sanctified [with the holiness of] Temple maintenance [funds] - meaning there is not in it the sanctity of the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-031",
@@ -97287,11 +97347,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 31,
         he: "בדק הבית היא. כלומר אין בה קדושת",
-        en: "Practical difference: if he bathed mid-journey and the goat died - is he still impure?",
+        en: "Rashi: continues - but only the sanctity of [the] money [value] alone.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l25"
+        ]
       },
       {
         id: "rashi-yoma-042a-032",
@@ -97299,11 +97361,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 32,
         he: "המזבח אלא קדושת דמים בעלמא",
-        en: "The debate about when the impurity takes effect corresponds to when the goat's mission is complete.",
+        en: "Rashi: continues - [and] if so [that] its slaughter [is] on the Mount of Anointing, therefore there is no [special] division of services in it, and all services are [of the] same [status] in it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-033",
@@ -97311,11 +97375,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 33,
         he: "שהרי שחיטתה בהר המשחה הלכך",
-        en: "Both opinions agree the ish iti must immerse and wait until nightfall.",
+        en: "Rashi: continues - and not so - [if it were so, then regarding] the High Priest's bull - which [is] sanctified [with the holiness of] the body, [for which] there is no statute written, and the slaughter of the red heifer - [for which] a statute is written.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-034",
@@ -97323,11 +97389,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 34,
         he: "אין צד עבודות נחלקות בה וכל",
-        en: "Connection to the general principle: items sent for impure purposes convey impurity.",
+        en: "Rashi: continues - and [the red heifer] is disqualified [if touched] by a non-priest [since the statute requires specific handling].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-035",
@@ -97335,11 +97403,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 35,
         he: "העבודות שוות בה: ולא כן דכן",
-        en: "Final ruling: the ish iti is impure until evening and must immerse.",
+        en: "Rashi: continues - [therefore] with wonder [I ask]: the slaughter of the High Priest's bull - which [is] of the sanctity of the body - is not written [as a] statute.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-036",
@@ -97347,11 +97417,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 36,
         he: "הוא. בתמיה אשחיטת פרו דקדושת",
-        en: "Summary of the ish iti impurity laws and their biblical basis.",
+        en: "Rashi: continues - but the slaughter of the red heifer is written [as a] statute, and [it] is disqualified [if touched] by a non-priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-037",
@@ -97359,11 +97431,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 37,
         he: "הגוף היא לא כתיבא חוקה ואשחיטת",
-        en: "The Gemara concludes the discussion of Yom Kippur goat and attendant impurity.",
+        en: "Rashi: continues - [the question is raised regarding] the red heifer [service] - [referring to those who] see [the] afflictions [of the metzora].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-038",
@@ -97371,11 +97445,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 38,
         he: "פרה כתיבה חוקה ומיפסלא בזר:",
-        en: "Transition to the next Mishna topic regarding the High Priest's subsequent actions.",
+        en: "Rashi: continues - as [is] written [in Leviticus 13] '(as a plague appears) and [the person with] the appearance [is brought] to Aaron the Priest'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-039",
@@ -97383,11 +97459,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 39,
         he: "אמראות נגעים. דכתיב (ויקרא יג)",
-        en: "The bull's blood and the goat's blood will be handled next in the avodah sequence.",
+        en: "Rashi: continues - and [the Mishna states] she was slaughtered before him [Elazar] - from [the fact that is] written 'before him', [we derive] from the entirety [of the verse] that the slaughter is not [referring] to Elazar [alone].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-040",
@@ -97395,11 +97473,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 40,
         he: "(כנגע נראה) והובא אל אהרן",
-        en: "Review: the parah slaughter dispute and ish iti impurity have been resolved.",
+        en: "Rashi: continues - but [rather] she was slaughtered by another before Elazar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-041",
@@ -97407,11 +97487,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 41,
         he: "הכהן: ושחט אותה לפניו. מדכתיב",
-        en: "Additional details about the 10-booth journey stations to the Tsuk cliff.",
+        en: "Rashi: continues - and [the Gemara suggests] Rav [says] - always [it was] Elazar [who] slaughtered [it].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-042",
@@ -97419,11 +97501,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 42,
         he: "לפניו מכלל דהשחיטה לאו אאלעזר",
-        en: "The booths are spaced along the route; provisions are made at each.",
+        en: "Rashi: continues - and what [does the phrase] 'before him' [mean]? - [it means he must be present so as] not to divert his attention from guarding it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-043",
@@ -97431,11 +97515,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 43,
         he: "קאי אלא ושחט אותה אחר לפני",
-        en: "People would accompany the ish iti from station to station as honor.",
+        en: "Rashi: continues - [thus] [it is] now [that] the heifer becomes [ritually] fit - [in other words, the entire process validates the offering].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-044",
@@ -97443,11 +97529,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 44,
         he: "אלעזר: ורב. לעולם אלעזר שחטה",
-        en: "At the Tsuk: the ish iti pushes the goat off backward; it tumbles and is killed.",
+        en: "Rashi: continues - [for] her entire [being] is made only for [the production of] ashes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-045",
@@ -97455,11 +97543,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 45,
         he: "ומאי לפניו שלא יסיח דעתו משמירתה:",
-        en: "The crimson thread tied to the goat turns white - a sign of atonement (Is. 1:18).",
+        en: "Rashi: continues - to exclude what [ritual details are essential]? - [meaning to teach] that [an involuntary] diversion of attention does not disqualify [the red heifer ritual].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-046",
@@ -97467,11 +97557,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 46,
         he: "דהשתא הוא דמתכשרא פרה. שהרי",
-        en: "If the thread does not turn white, this was seen as a bad omen in later generations.",
+        en: "Rashi: continues - [the Mishna states] the gathering of ashes [requires specific ritual] - [as written in Numbers 19] 'and a ritually pure man gathered [them]'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-047",
@@ -97479,11 +97571,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 47,
         he: "כל עצמה אינה עשויה אלא לאפרה:",
-        en: "The Gemara notes: in Shimon HaTzaddik's era the thread always turned white.",
+        en: "Rashi: continues - [and continues] the filling with water - [to put into the ashes to sprinkle].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-048",
@@ -97491,11 +97585,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 48,
         he: "למעוטי מאי. דלא פסיל בה היסח",
-        en: "After his death, results became unreliable; eventually they stopped relying on the sign.",
+        en: "Rashi: continues - [and continues] for sanctification - [this is the sprinkling itself, which] is the giving of water on the ashes and mixing them together.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-049",
@@ -97503,11 +97599,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 49,
         he: "הדעת במעשה פרה: אסיפת אפרה. ואסף איש טהור וגו'",
-        en: "The Gemara will now proceed to the next chapter of Mishna Yoma.",
+        en: "Rashi: continues - [End of the detailed discussion on the red heifer specifications and requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-050",
@@ -97515,11 +97613,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 50,
         he: "(במדבר יט) : ומילוי מים. לתת לתוך אפר להזות: לקידוש.",
-        en: "End of discussion of the goat ceremony; transition to incense offerings.",
+        en: "Rashi: continues - [Further clarifications on the ritual procedures for the red heifer].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-051",
@@ -97527,11 +97627,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 51,
         he: "היא נתינת מים על האפר ומערבן יחד:",
-        en: "Summary of 42a: thread weight, parah slaughter dispute, ish iti impurity.",
+        en: "Rashi: continues - [Conclusion of this section of Rashi explanation on red heifer procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       },
       {
         id: "rashi-yoma-042a-052",
@@ -97539,11 +97641,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 52,
         he: "למשמרת",
-        en: "The page concludes the goat ceremony material and anticipates incense discussion.",
+        en: "Rashi: concludes - [End of orphaned Rashi content from the extended discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-042a-l32"
+        ]
       }
     ],
     review: "reviewed"
