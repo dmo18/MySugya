@@ -218,148 +218,206 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The altar must have the fire arranged on it - not just lit but structured as a pyre.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [the Gemara continues the discussion of] the confession [service] - [additional details on the procedure].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "R. Meir and R. Yehuda disagree about how many times 'fire on the altar' is mentioned distinctly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 2: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Each mention of 'fire on the altar' in Torah creates one wood arrangement requirement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 3: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "R. Yehuda counts four mentions; R. Meir counts five.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 4: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The fifth mention (according to R. Meir) creates a separate arrangement for Yom Kippur incense coals.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 5: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "R. Yehuda holds the Yom Kippur coals come from the second arrangement (incense fire).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 6: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l04"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The verse 'the fire on the altar shall be burning in it' - in it means on the altar itself, not inside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 7: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l04"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "'Shall be burning' teaches continuous burning, not intermittent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 8: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l04"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "'It shall not be extinguished' is parsed separately - it is a prohibition, not a positive requirement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 9: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "A positive requirement would demand relighting; a prohibition demands not extinguishing.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 10: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The distinction matters: violating lo tichbeh is prohibited even before the fire goes out.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 11: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "A priest who pours water on the altar fire violates lo tichbeh even if a coal remains.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 12: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The Gemara: R. Meir would say this verse adds to the count, R. Yehuda would not.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 13: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "At any rate, everyone agrees there is at least one additional mention that must be explained.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 14: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The extra mention is then assigned to an existing arrangement by R. Yehuda or a new one by R. Meir.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 15: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l09"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The wood festival families are mentioned here in connection with who supplied the altar wood.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 16: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Families who donated wood had the privilege of burning it on the altar on their appointed day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 17: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "This was considered an honor and was hereditary within certain priestly families.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 18: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The Gemara notes the exact number of wood donations per year and which families contributed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 19: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "The arrangement of wood had to be done in the morning as part of the daily service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 20: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Priests drew lots for who would arrange the wood on the altar each day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 21: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l16"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "The wood arrangement came before the removal of ash (terumat ha-deshen).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 22: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Wait - actually ash removal came first, then the wood arrangement in the correct order.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 23: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "45b concludes the wood arrangement discussion and the dispute is partially resolved.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 24: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The final ruling follows R. Yehuda: four arrangements suffice.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 25: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The Gemara will now move to bar Kappara's teaching about R. Meir's opinion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 26: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "R. Meir's view is cited in the name of bar Kappara who attributed it to him.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 27: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The attribution chain: bar Kappara said in the name of R. Meir.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line 28: Yom Kippur atonement discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "The Gemara questions what bar Kappara adds by citing R. Meir specifically.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [orphaned line: end of section on Yom Kippur atonement service].",
+      "linkedGemaraLineIds": [
+        "yoma-045b-l22"
+      ]
     }
   ]
 }

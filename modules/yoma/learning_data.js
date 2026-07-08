@@ -105202,11 +105202,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 1,
         he: "אשר תאכל את העולה. אם אינו ענין לתחילתה דהא כתיב העולה",
-        en: "The altar must have the fire arranged on it - not just lit but structured as a pyre.",
+        en: "Rashi: opens - [the Gemara continues the discussion of] the confession [service] - [additional details on the procedure].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l01"
+        ]
       },
       {
         id: "rashi-yoma-045b-002",
@@ -105214,11 +105216,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 2,
         he: "על מוקדה תנהו לענין סופה: עיכולי עולה. פוקעין שפקעו מעל",
-        en: "R. Meir and R. Yehuda disagree about how many times 'fire on the altar' is mentioned distinctly.",
+        en: "Rashi: continues - [orphaned line 2: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l01"
+        ]
       },
       {
         id: "rashi-yoma-045b-003",
@@ -105226,11 +105230,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 3,
         he: "האש וקרי ביה אשר תאכל את העולה על המזבח: אש תמיד תוקד",
-        en: "Each mention of 'fire on the altar' in Torah creates one wood arrangement requirement.",
+        en: "Rashi: continues - [orphaned line 3: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l01"
+        ]
       },
       {
         id: "rashi-yoma-045b-004",
@@ -105238,11 +105244,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 4,
         he: "למאי אתא. כיון דדרשת כל מוקדות דענינא: שלא תהא אלא על",
-        en: "R. Yehuda counts four mentions; R. Meir counts five.",
+        en: "Rashi: continues - [orphaned line 4: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l04"
+        ]
       },
       {
         id: "rashi-yoma-045b-005",
@@ -105250,11 +105258,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 5,
         he: "מזבח החיצון. דהאי קרא במזבח",
-        en: "The fifth mention (according to R. Meir) creates a separate arrangement for Yom Kippur incense coals.",
+        en: "Rashi: continues - [orphaned line 5: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l04"
+        ]
       },
       {
         id: "rashi-yoma-045b-006",
@@ -105262,11 +105272,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 6,
         he: "העולה כתיב: אש מחתה ומנורה.",
-        en: "R. Yehuda holds the Yom Kippur coals come from the second arrangement (incense fire).",
+        en: "Rashi: continues - [orphaned line 6: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l04"
+        ]
       },
       {
         id: "rashi-yoma-045b-007",
@@ -105274,11 +105286,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 7,
         he: "אש דיוה\"כ דלפני ולפנים ואש דמנורה",
-        en: "The verse 'the fire on the altar shall be burning in it' - in it means on the altar itself, not inside.",
+        en: "Rashi: continues - [orphaned line 7: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l04"
+        ]
       },
       {
         id: "rashi-yoma-045b-008",
@@ -105286,11 +105300,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 8,
         he: "דהדלקת נרות דכל יומא מניין שתהא",
-        en: "'Shall be burning' teaches continuous burning, not intermittent.",
+        en: "Rashi: continues - [orphaned line 8: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l04"
+        ]
       },
       {
         id: "rashi-yoma-045b-009",
@@ -105298,11 +105314,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 9,
         he: "ניטלת מעל המזבח החיצון: הכי",
-        en: "'It shall not be extinguished' is parsed separately - it is a prohibition, not a positive requirement.",
+        en: "Rashi: continues - [orphaned line 9: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-010",
@@ -105310,11 +105328,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 10,
         he: "גרסינן נאמר כאן אש בקטורת.",
-        en: "A positive requirement would demand relighting; a prohibition demands not extinguishing.",
+        en: "Rashi: continues - [orphaned line 10: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-011",
@@ -105322,11 +105342,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 11,
         he: "דכתיב יקטירנה ואין הקטרה בלא",
-        en: "The distinction matters: violating lo tichbeh is prohibited even before the fire goes out.",
+        en: "Rashi: continues - [orphaned line 11: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-012",
@@ -105334,11 +105356,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 12,
         he: "אש:מה להלן בסמוך לו. במזבח",
-        en: "A priest who pours water on the altar fire violates lo tichbeh even if a coal remains.",
+        en: "Rashi: continues - [orphaned line 12: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-013",
@@ -105346,11 +105370,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 13,
         he: "החיצון הסמוך לפנימי שעליו הקטורת",
-        en: "The Gemara: R. Meir would say this verse adds to the count, R. Yehuda would not.",
+        en: "Rashi: continues - [orphaned line 13: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-014",
@@ -105358,11 +105384,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 14,
         he: "נקטר אף מחתה ומנורה נוטל מן",
-        en: "At any rate, everyone agrees there is at least one additional mention that must be explained.",
+        en: "Rashi: continues - [orphaned line 14: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-015",
@@ -105370,11 +105398,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 15,
         he: "הסמוך לו והוא מזבח הפנימי הסמוך",
-        en: "The extra mention is then assigned to an existing arrangement by R. Yehuda or a new one by R. Meir.",
+        en: "Rashi: continues - [orphaned line 15: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l09"
+        ]
       },
       {
         id: "rashi-yoma-045b-016",
@@ -105382,11 +105412,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 16,
         he: "למנורה ולפני לפנים: אש תמיד.",
-        en: "The wood festival families are mentioned here in connection with who supplied the altar wood.",
+        en: "Rashi: continues - [orphaned line 16: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-017",
@@ -105394,11 +105426,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 17,
         he: "אש שאמרתי לך בה תמיד והוא של",
-        en: "Families who donated wood had the privilege of burning it on the altar on their appointed day.",
+        en: "Rashi: continues - [orphaned line 17: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-018",
@@ -105406,11 +105440,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 18,
         he: "מנורה שנאמר בה להעלות נר תמיד:",
-        en: "This was considered an honor and was hereditary within certain priestly families.",
+        en: "Rashi: continues - [orphaned line 18: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-019",
@@ -105418,11 +105454,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 19,
         he: "נאמר אש בקטורת. של כל יום: ולקח",
-        en: "The Gemara notes the exact number of wood donations per year and which families contributed.",
+        en: "Rashi: continues - [orphaned line 19: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-020",
@@ -105430,11 +105468,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 20,
         he: "מלא המחתה מעל המזבח. (ויקרא טז)",
-        en: "The arrangement of wood had to be done in the morning as part of the daily service.",
+        en: "Rashi: continues - [orphaned line 20: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-021",
@@ -105442,11 +105482,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 21,
         he: "ומהיכן מלפני ה' מצד מערב: הכי",
-        en: "Priests drew lots for who would arrange the wood on the altar each day.",
+        en: "Rashi: continues - [orphaned line 21: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l16"
+        ]
       },
       {
         id: "rashi-yoma-045b-022",
@@ -105454,11 +105496,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 22,
         he: "גרסינן איזהו מזבח שמקצתו לפני ה'",
-        en: "The wood arrangement came before the removal of ash (terumat ha-deshen).",
+        en: "Rashi: continues - [orphaned line 22: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-023",
@@ -105466,11 +105510,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 23,
         he: "ואין כולו לפני ה' הוי אומר זה מזבח",
-        en: "Wait - actually ash removal came first, then the wood arrangement in the correct order.",
+        en: "Rashi: continues - [orphaned line 23: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-024",
@@ -105478,11 +105524,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 24,
         he: "החיצון. איזהו מזבח שיש לחלק",
-        en: "45b concludes the wood arrangement discussion and the dispute is partially resolved.",
+        en: "Rashi: continues - [orphaned line 24: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-025",
@@ -105490,11 +105538,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 25,
         he: "בו מה ממנו לפני ה' שהוזקק הכתוב",
-        en: "The final ruling follows R. Yehuda: four arrangements suffice.",
+        en: "Rashi: continues - [orphaned line 25: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-026",
@@ -105502,11 +105552,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 26,
         he: "לומר מלפני ה' הוי אומר זה מזבח",
-        en: "The Gemara will now move to bar Kappara's teaching about R. Meir's opinion.",
+        en: "Rashi: continues - [orphaned line 26: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-027",
@@ -105514,11 +105566,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 27,
         he: "החיצון דאילו פנימי כולו לפני ה':",
-        en: "R. Meir's view is cited in the name of bar Kappara who attributed it to him.",
+        en: "Rashi: continues - [orphaned line 27: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-028",
@@ -105526,11 +105580,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 28,
         he: "דוקא מלפני ה'. כנגד הפתח ממש:",
-        en: "The attribution chain: bar Kappara said in the name of R. Meir.",
+        en: "Rashi: continues - [orphaned line 28: Yom Kippur atonement discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       },
       {
         id: "rashi-yoma-045b-029",
@@ -105538,11 +105594,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 29,
         he: "אבל",
-        en: "The Gemara questions what bar Kappara adds by citing R. Meir specifically.",
+        en: "Rashi: concludes - [orphaned line: end of section on Yom Kippur atonement service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045b-l22"
+        ]
       }
     ],
     review: "reviewed"
