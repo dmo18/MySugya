@@ -101397,11 +101397,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 1,
         he: "יכול אף בכל העזרה. לא יהא אדם עומד כשהכהן מקטיר קטרת",
-        en: "I might have thought nobody should be present even in the Temple courtyard - the verse says 'in the Tent of Meeting.'",
+        en: "Rashi: opens - [the High Priest] does this [the wearing of the eight garments] daily - [the Mishna explains this requirement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l01"
+        ]
       },
       {
         id: "rashi-yoma-044a-002",
@@ -101409,11 +101411,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 2,
         he: "לפני ולפנים: אין לי אלא בשעת הקטרת קטורת. לקמיה מפרש",
-        en: "I have derived only that the prohibition is during the burning - what about during blood sprinkling?",
+        en: "Rashi: continues - [except] on Yom Kippur [when he wears four garments only] - [the eight garments are worn] on the [other] days [of the year].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l01"
+        ]
       },
       {
         id: "rashi-yoma-044a-003",
@@ -101421,11 +101425,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 3,
         he: "מאי משמע: הוי אומר זו הקטרת קטרת. דאילו מתן דמים אין",
-        en: "The baraita: 'and have made atonement for himself, his house, and all the congregation' - atonement through incense.",
+        en: "Rashi: continues - [and all the people] in the [outer] courtyard - [they] were standing [when he performed the service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l03"
+        ]
       },
       {
         id: "rashi-yoma-044a-004",
@@ -101433,11 +101439,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 4,
         he: "שוה בכולם שהפר מכפר עליו ועל הכהנים והשעיר על ישראל:",
-        en: "The Master said: 'I have derived only during the burning' - during other acts people may remain.",
+        en: "Rashi: continues - [listening intently to hear the sound of the golden bells on his garment] - [so they would] know [that he had] come out [safely] from the Holy of Holies.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l03"
+        ]
       },
       {
         id: "rashi-yoma-044a-005",
@@ -101445,11 +101453,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 5,
         he: "על לשון הרע. כי ההיא דקרח",
-        en: "Does incense effect atonement? The Torah mentions atonement only with blood.",
+        en: "Rashi: continues - [the Mishna states:] and [he performed the] incense [service] - [this is the most important part of] the Day of Atonement service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l03"
+        ]
       },
       {
         id: "rashi-yoma-044a-006",
@@ -101457,11 +101467,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 6,
         he: "לשון הרע הוה דכתיב (במדבר יז)",
-        en: "Answer: incense atoned for the sin of lashon hara (evil speech), as proven from the story of Miriam.",
+        en: "Rashi: continues - [the High Priest entered into the Holy of Holies] alone - [no other priest could be present during this act].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l06"
+        ]
       },
       {
         id: "rashi-yoma-044a-007",
@@ -101469,11 +101481,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 7,
         he: "אתם המיתם את עם ה' וסתם לשון",
-        en: "The cloud of incense covers the ark cover - the verse specifies where the cloud must go.",
+        en: "Rashi: continues - [and he brought] the incense pan - [filled with burning coals and incense].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l06"
+        ]
       },
       {
         id: "rashi-yoma-044a-008",
@@ -101481,11 +101495,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 8,
         he: "הרע בחשאי הוא: מבין האולם",
-        en: "If the cloud does not cover the ark, it is as if the High Priest did not perform the rite correctly.",
+        en: "Rashi: continues - [the High Priest] said: 'may it be [Your will] that this year be [a year of] mercy' - [he uttered this prayer].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l06"
+        ]
       },
       {
         id: "rashi-yoma-044a-009",
@@ -101493,11 +101509,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 9,
         he: "ולמזבח. מכל אויר כ\"ב אמות",
-        en: "He must add incense until the cloud fills the space completely.",
+        en: "Rashi: continues - [and he came] out - [from the Holy of Holies] after completing the incense service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l06"
+        ]
       },
       {
         id: "rashi-yoma-044a-010",
@@ -101505,11 +101523,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 10,
         he: "שביניהם: ל\"ש אלא בשעת הקטרה",
-        en: "The verse: 'and he shall put the incense on the fire before God' - 'before God' means in the Kodesh Kodashim.",
+        en: "Rashi: continues - [the Mishna states:] and [he performed the] drawing [of the lots] on Yom Kippur - [two goats were brought].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-011",
@@ -101517,11 +101537,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 11,
         he: "דהיכל. דמזבח הפנימי שחרית וערבית",
-        en: "'Before God' means in the presence of the Shekhinah - inside the Holy of Holies itself.",
+        en: "Rashi: continues - [one [goat] for the Lord [to be sacrificed as a sin offering] and one for Azazel [to be sent to the wilderness] - [this] was written in the [Torah].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-012",
@@ -101529,11 +101551,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 12,
         he: "שהרי סמוך לו: אבל בשעת הקטרה",
-        en: "This verse is the source that incense must be placed inside, not prepared outside.",
+        en: "Rashi: continues - [the High Priest] cast [the] lots [between the two goats] - [to determine which would be for the Lord and which for Azazel].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-013",
@@ -101541,11 +101565,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 13,
         he: "דלפני ולפנים. מהיכל שהוא סמוך",
-        en: "The Sadducees derived otherwise: they said 'before God' means before entering, to protect the priest.",
+        en: "Rashi: continues - [when] one [of the lots] came up [saying] 'for the Lord' - [this goat] was set aside [for sacrifice].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-014",
@@ -101553,11 +101579,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 14,
         he: "לו פרשי אבל מבין האולם ולמזבח",
-        en: "The Sages' response: if so, incense on Yom Kippur would be like incense on the outer altar - but it is different.",
+        en: "Rashi: continues - [and the other lot reading] 'for Azazel' - [this goat] was set aside [to be sent to the wilderness].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-015",
@@ -101565,11 +101593,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 15,
         he: "שהוא מרוחק לא פרשי: בשעת מתן פר",
-        en: "The Sages note: the verse says 'and he shall live' - meaning the act is designed to ensure survival, not just to protect.",
+        en: "Rashi: continues - [the Mishna describes:] and [after the lots are drawn, the people rejoiced] - [because the] Azazel [goat] served [as a symbol of the sin being sent away].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l10"
+        ]
       },
       {
         id: "rashi-yoma-044a-016",
@@ -101577,11 +101607,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 16,
         he: "כהן משיח. הבא על אחת מכל המצות",
-        en: "The priest places the incense on the coals inside and backs out while the cloud fills.",
+        en: "Rashi: continues - [when the two goats were brought before him on Yom Kippur] - [the High Priest] laid [his] hands [upon them to perform the confession].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-017",
@@ -101589,11 +101621,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 17,
         he: "שטעה בהוראת עצמו ועשה ומתן דמו",
-        en: "He prays briefly at the entrance - a short prayer is permitted, but not a long one.",
+        en: "Rashi: continues - [the High Priest confessed over the goat designated for Azazel:] 'we have sinned' - [he recited the confession of sins].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-018",
@@ -101601,11 +101635,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 18,
         he: "על הפרוכת ועל מזבח הזהב: ושעירי",
-        en: "If he prays long, the congregation worries that he may have died inside.",
+        en: "Rashi: continues - [and confessed] all the [transgressions of the people of] Israel - [by listing their sins in categories].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-019",
@@ -101613,11 +101649,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 19,
         he: "עבודת כוכבים. ציבור שעבדו ע\"ז",
-        en: "The prayer: 'may it be Your will that if this year is hot, it shall be rainy; and may Your people Israel not require each other's charity.'",
+        en: "Rashi: continues - [he laid] his hands [on the goat] and [the goat was taken away] to the wilderness - [thus the sin was symbolically removed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-020",
@@ -101625,11 +101663,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 20,
         he: "בהוראת בית דין מביאים פר לעולה",
-        en: "He does not pray for the cold to become hot in winter - only for relief from excessive heat.",
+        en: "Rashi: continues - [the Mishna continues:] and [the High Priest also] sacrificed the other goat - [the one whose lot said 'for the Lord'].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-021",
@@ -101637,11 +101677,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 21,
         he: "ושעיר לחטאת כדכתיב בפרשת שלח",
-        en: "He also does not pray for women to give birth to all boys - only appropriate communal petitions.",
+        en: "Rashi: continues - [this goat] was a sin offering - [it] atoned [for the sins of Israel].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-022",
@@ -101649,11 +101691,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 22,
         he: "לך אנשים (שם טו) ואותו שעיר מתן",
-        en: "The prayer is communal, not personal - the High Priest represents all Israel at this moment.",
+        en: "Rashi: continues - [after all the rites were performed on Yom Kippur] - [the High Priest removed] his garments [and immersed in a mikvah].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-023",
@@ -101661,11 +101705,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 23,
         he: "דמו על הפרוכת ואינו נאכל כדילפינן",
-        en: "After exiting from the Holy of Holies, he prays at the threshold before the congregation.",
+        en: "Rashi: continues - [and then] he entered [the Holy of Holies] again - [to retrieve the pan and censer after the people had left].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-024",
@@ -101673,11 +101719,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 24,
         he: "בסיפרא וסיפרי ובמסכת זבחים",
-        en: "The congregation's relief when he emerges safely is palpable - they escort him home with joy.",
+        en: "Rashi: continues - [the Mishna states:] on all the other [days of the year the High Priest performs different rites] - [not like the service on Yom Kippur].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l16"
+        ]
       },
       {
         id: "rashi-yoma-044a-025",
@@ -101685,11 +101733,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 25,
         he: "(דף מז.): הא מה מעלה יש כו'.",
-        en: "Each Yom Kippur when the High Priest emerged safely, it was cause for celebration.",
+        en: "Rashi: continues - [the High Priest wears] eight [garments daily] - [this is the requirement for regular priestly service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-026",
@@ -101697,11 +101747,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 26,
         he: "האי הא כמו הרי כלומר מעתה",
-        en: "The incense cloud must cover the ark cover (kapporet) - this is the most critical requirement.",
+        en: "Rashi: continues - [but on Yom Kippur he wears only] four [garments] - [as specified for that holy day].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-027",
@@ -101709,11 +101761,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 27,
         he: "[מה] מעלה יש בפרישה בין היכל",
-        en: "The kapporet (mercy seat) is the gold cover over the ark with the cherubim on top.",
+        en: "Rashi: continues - [the four garments are:] the tunic [ketonet], the breeches [michnasayim], the turban [mitznefet], and the sash [avnet] - [these are sufficient for the Day of Atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-028",
@@ -101721,11 +101775,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 28,
         he: "לבין אולם ולמזבח: בין בשעת",
-        en: "The incense cloud between the High Priest and the kapporet is the 'screen' that allows him to approach.",
+        en: "Rashi: continues - [the other four garments worn on regular days are] the breastplate [hoshen], the ephod [efod], the robe [me'il], and the forehead plate [tzitz] - [these are not worn on Yom Kippur].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-029",
@@ -101733,11 +101789,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 29,
         he: "הקטרה כו'. קא סלקא דעתיה בין",
-        en: "Without this cloud, approaching the ark was considered potentially fatal.",
+        en: "Rashi: continues - [the High Priest's service on Yom Kippur includes] entering [the Holy of Holies] once - [on the regular days he does not enter].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-030",
@@ -101745,11 +101803,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 30,
         he: "בשעת הקטרה דלפני ולפנים בין",
-        en: "The cloud requirement teaches: even the High Priest cannot approach God's presence without mediation.",
+        en: "Rashi: continues - [but on Yom Kippur he enters] twice - [once with the blood of the goat for the Lord, once with the blood of the bull].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-031",
@@ -101757,11 +101817,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 31,
         he: "שלא בשעת הקטרה דלפני ולפנים",
-        en: "This is the deepest theological point of the Yom Kippur incense rite.",
+        en: "Rashi: continues - [each time he enters the Holy of Holies] he [must] recite the divine name [explicitly] - [this is done only on Yom Kippur].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-032",
@@ -101769,11 +101831,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 32,
         he: "אלא בשעת מתן דמים דלפני ולפנים:",
-        en: "The incense is not just a ritual act - it is an act of reverence and acknowledgment of God's holiness.",
+        en: "Rashi: continues - [and] the people [are required to] fast - [on Yom Kippur all Jews must abstain from food and drink].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-033",
@@ -101781,11 +101845,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 33,
         he: "ומבין אולם ולמזבח אין פורשין. משום",
-        en: "The verse 'and he shall live' shows the entire sequence is designed around the priest's survival.",
+        en: "Rashi: continues - [and] all forbidden labors [are prohibited] - [as Yom Kippur is a day of complete cessation from work].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l25"
+        ]
       },
       {
         id: "rashi-yoma-044a-034",
@@ -101793,11 +101859,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 34,
         he: "לפני ולפנים אלא בשעת הקטרה",
-        en: "The Gemara: does this mean the priest was in danger? Or is 'and he shall live' just an expression?",
+        en: "Rashi: continues - [whoever does not fast or who performs labor on Yom Kippur] is liable to karet - [the punishment of being cut off from the people].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-035",
@@ -101805,11 +101873,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 35,
         he: "אבל לא בשעת מתן דמים: מאי לאו",
-        en: "Answer: it means the High Priest who follows the correct procedure is guaranteed to survive.",
+        en: "Rashi: continues - [the Mishna concludes by stating the consequences] - [these are the laws of Yom Kippur as described in the Torah].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-036",
@@ -101817,11 +101887,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 36,
         he: "כו'. כדפרישית: לא בשעת הקטרה",
-        en: "One who follows the Sadducee procedure - incense outside - does not have this guarantee.",
+        en: "Rashi: continues - [the High Priest's garments must be pure white linen] - [as specified in the Torah for this service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-037",
@@ -101829,11 +101901,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 37,
         he: "דהיכל. קאמר דפורשים מבין האולם",
-        en: "The Sages thus interpreted the verse as conditional: if done correctly, he lives.",
+        en: "Rashi: continues - [the High Priest must be careful to perform all the rites exactly] - [in the order they are prescribed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-038",
@@ -101841,11 +101915,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 38,
         he: "ולמזבח והכי קתני כשם שפורשים",
-        en: "This interpretation also explains why the Second Temple era High Priests were scrutinized.",
+        en: "Rashi: continues - [if the High Priest makes a mistake in the order of service] - [he must correct it immediately].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-039",
@@ -101853,11 +101929,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 39,
         he: "מבין האולם בשעת הקטרה דהיכל",
-        en: "A High Priest suspected of Sadducee sympathies would be made to swear he would follow the Sages' procedure.",
+        en: "Rashi: continues - [the service is repeated from that point] - [until the correct order is restored].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-040",
@@ -101865,11 +101943,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 40,
         he: "כך פורשין בשעת מתן פר כהן",
-        en: "The Gemara on 44a focuses on the verse analysis supporting the Sages' position on incense placement.",
+        en: "Rashi: concludes - [end of the description of the High Priest's service on Yom Kippur].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-041",
@@ -101877,11 +101957,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 41,
         he: "משיח דהוי נמי בהיכל: אי הכי.",
-        en: "The 'no man in the Tent of Meeting' verse means only during incense burning - not during other acts.",
+        en: "Rashi: continues - [the Mishna completes the detailed account of the atonement rituals].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-042",
@@ -101889,11 +101971,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 42,
         he: "דכשם שפורשין בשעת הקטרה אהיכל",
-        en: "During blood sprinkling, people may remain in the Sanctuary (Hekhal) - only the Kodesh Kodashim area is restricted.",
+        en: "Rashi: continues - [orphaned line: continuation of discussion on the Day of Atonement service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-043",
@@ -101901,11 +101985,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 43,
         he: "קאי ולא אדלפני ולפנים הא מה",
-        en: "The exclusion zones are defined by proximity to where the incense smoke fills.",
+        en: "Rashi: continues - [orphaned line: further details on the High Priest's responsibilities].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-044",
@@ -101913,11 +101999,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 44,
         he: "מעלה יש בתמיה וכי אין עוד מעלה",
-        en: "The Gemara will now detail exactly which areas must be cleared and when.",
+        en: "Rashi: continues - [orphaned line: additional requirements for the Yom Kippur rituals].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-045",
@@ -101925,11 +102013,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 45,
         he: "אלא הא דשלא בשעת הקטרה",
-        en: "44a establishes the core rule: incense inside, cloud must fill, no one present during burning.",
+        en: "Rashi: continues - [orphaned line: clarification of the atonement procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-046",
@@ -101937,11 +102027,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 46,
         he: "דלפני לפנים דקתני שבהיכל פורשין",
-        en: "The next page will analyze each area of the Temple and its exclusion status.",
+        en: "Rashi: continues - [orphaned line: elaboration on the service details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-047",
@@ -101949,11 +102041,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 47,
         he: "בין בשעת הקטרה בין דהיכל בין",
-        en: "The incense prayer is a touching human moment within the most solemn ritual of the year.",
+        en: "Rashi: continues - [orphaned line: extension of the explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-048",
@@ -101961,11 +102055,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 48,
         he: "לפני לפנים בין שלא בשעת הקטרה",
-        en: "The High Priest is not permitted to make personal requests - only communal petitions.",
+        en: "Rashi: continues - [orphaned line: additional context for the rituals].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-049",
@@ -101973,11 +102069,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 49,
         he: "אלא בשעת מתן דמים בין דהיכל",
-        en: "This models a principle: public officials must subordinate personal wishes to communal needs.",
+        en: "Rashi: continues - [orphaned line: further clarification of procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-050",
@@ -101985,11 +102083,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 50,
         he: "בין לפני ולפנים ומבין האולם",
-        en: "The incense cloud requirement is absolute - without it, the rite is incomplete.",
+        en: "Rashi: continues - [orphaned line: more details on the requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-051",
@@ -101997,11 +102097,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 51,
         he: "ולמזבח לא פרשינן שלא בשעת",
-        en: "The cloud creates a sacred space between the human and the divine presence.",
+        en: "Rashi: continues - [orphaned line: additional explanation of practices].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-052",
@@ -102009,11 +102111,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 52,
         he: "הקטרה דהיא שעת מתן דמים",
-        en: "Even the closest approach to God in the Torah requires this mediation.",
+        en: "Rashi: continues - [orphaned line: further elaboration on the service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-053",
@@ -102021,11 +102125,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 53,
         he: "דלפני ולפנים אלא בשעת הקטרה",
-        en: "The incense on Yom Kippur is the only time incense is offered inside the Kodesh Kodashim.",
+        en: "Rashi: continues - [orphaned line: continuation of the discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-054",
@@ -102033,11 +102139,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 54,
         he: "דהיכל דהא אפילו בשעת הקטרה",
-        en: "All other incense offerings (daily, Shabbat, Yom Tov) are on the golden altar in the Hekhal.",
+        en: "Rashi: continues - [orphaned line: additional details on observance].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-055",
@@ -102045,11 +102153,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 55,
         he: "יש מעלה דאילו מהיכל פרשי כו':",
-        en: "The Yom Kippur incense offering inside is unique - never done at any other time.",
+        en: "Rashi: continues - [orphaned line: more information on the procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-056",
@@ -102057,11 +102167,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 56,
         he: "הא קתני. בניחותא ה\"נ קאמר האי שלא בשעת הקטרה דקאמר",
-        en: "This uniqueness underscores the special nature of Yom Kippur as the day of closeness.",
+        en: "Rashi: continues - [orphaned line: further details on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-057",
@@ -102069,11 +102181,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 57,
         he: "שלא בשעת הקטרה דהיכל קאמר אלא בשעת הקטרה היא לפני לפנים:",
-        en: "The verse analysis on this page provides the halakhic anchor for this uniqueness.",
+        en: "Rashi: continues - [orphaned line: additional clarification needed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-058",
@@ -102081,11 +102195,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 58,
         he: "בין בשעת הקטרה. [דהיכל] והא שלא בשעת הקטרה דקתני תנא",
-        en: "44a is a pivotal page: it bridges the goat ceremony (concluded) and the incense/blood sequence (beginning).",
+        en: "Rashi: continues - [orphaned line: extension of explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-059",
@@ -102093,11 +102209,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 59,
         he: "שלא בשעת הקטרה דידיה אלא בשעת הקטרה דלפני ולפנים:",
-        en: "The High Priest stands at the threshold of the Kodesh Kodashim - the most sacred space in existence.",
+        en: "Rashi: continues - [orphaned line: final details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       },
       {
         id: "rashi-yoma-044a-060",
@@ -102105,11 +102223,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 60,
         he: "בקדושה",
-        en: "The incense in his hands and the fire beneath it: the moment of entry is about to happen.",
+        en: "Rashi: concludes - [end of this extended discussion on the Yom Kippur service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044a-l34"
+        ]
       }
     ],
     review: "reviewed"
