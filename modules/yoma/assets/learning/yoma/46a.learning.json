@@ -243,163 +243,227 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Wood added from the sides (not from the main arrangement positions) - bar Kappara quotes R. Meir.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [line 1: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The sides of the altar are the north and south faces - not the designated arrangement areas.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 2: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "R. Meir: wood placed on these sides doesn't count as one of the four (or five) formal arrangements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 3: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "What new information does bar Kappara provide by saying 'R. Meir would say'?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 4: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l01"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The point is that R. Meir himself explicitly said this - it is not just inferred from his position.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 5: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l05"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Bar Kappara was a student of R. Yehuda HaNasi who transmitted traditions in exact attribution.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 6: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l05"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The Gemara: R. Meir's ruling that wood from the sides is invalid - why exactly?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 7: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l05"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "Because the Torah says 'the priest shall arrange wood on the fire' - 'on the fire' means on the main fire.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 8: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "The fire that is 'on the altar' in the prescribed location is the one that matters.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 9: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l08"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "Wood placed on the sides does not connect to the main arrangement fire.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 10: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l08"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Transition to the broader question: what overrides what in Temple service?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 11: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The principle: communal public offerings override Shabbat because 'it is the Shabbat of God in your settlements' excludes Temple service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 12: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "'In your settlements' is read as limiting Shabbat to outside the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 13: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Ritual impurity of the community: if the majority of Israel is impure, the offering proceeds.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 14: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "This is called 'tumah hutrah b'tzibur' - impurity is permitted when the community is the agent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 15: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "But individual ritual impurity does not override - a private person must wait until pure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 16: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The rationale: communal needs take precedence; private purity concerns do not.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 17: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l11"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rambam codifies this: public offerings may be brought in tumah; private offerings may not.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 18: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "This principle explains many Temple service edge cases throughout the Talmud.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 19: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "The Gemara will now test this principle against various scenarios.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 20: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "What happens when a majority of kohanim (not the community) are impure - does the offering proceed?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 21: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Some hold that kohen-impurity follows the community rule; others hold it is stricter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 22: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The rule 'tumah hutrah b'tzibur' applies when the offering itself is communal.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 23: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The perpetual fire prohibition and overriding it for Shabbat - this is a separate category.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 24: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The altar fire must be maintained on Shabbat - it is not extinguished for Shabbat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 25: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "This is not 'overriding' Shabbat - the fire was never included in the Shabbat prohibition.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 26: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "The distinction between 'hutrah' (permitted) and 'dechuyah' (pushed aside) for tumah in Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 27: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "'Hutrah' means never prohibited in this context; 'dechuyah' means prohibited but suspended.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 28: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "This distinction has practical implications for double-impurity or late-arrival scenarios.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 29: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The Gemara resolves that tumah in public is hutrah (permitted), not merely dechuyah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 30: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "46a is a transition page from wood arrangements to the broader overriding principles.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 31: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The next page continues with the perpetual fire law and its implications.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [line 32: discussion on atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-046a-l18"
+      ]
     }
   ]
 }

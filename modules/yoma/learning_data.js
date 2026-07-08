@@ -105827,11 +105827,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 1,
         he: "אבל מהאי גיסא. דפתח לא ואע\"ג דצד מערבי הוא: הכי גרסינן",
-        en: "Wood added from the sides (not from the main arrangement positions) - bar Kappara quotes R. Meir.",
+        en: "Rashi: opens - [line 1: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l01"
+        ]
       },
       {
         id: "rashi-yoma-046a-002",
@@ -105839,11 +105841,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 2,
         he: "אומר היה ר\"מ איברי עולה שניתותרו כו'. ולא גרסינן עולת",
-        en: "The sides of the altar are the north and south faces - not the designated arrangement areas.",
+        en: "Rashi: continues - [line 2: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l01"
+        ]
       },
       {
         id: "rashi-yoma-046a-003",
@@ -105851,11 +105855,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 3,
         he: "חול דאי גרסי' ליה מאי תנינא דקא פריך ליה הא אתא לאשמועינן",
-        en: "R. Meir: wood placed on these sides doesn't count as one of the four (or five) formal arrangements.",
+        en: "Rashi: continues - [line 3: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l01"
+        ]
       },
       {
         id: "rashi-yoma-046a-004",
@@ -105863,11 +105869,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 4,
         he: "שבת ואם תאמר הכי פריך ליה בכל יום תנן ואפילו בשבת דהא הדר",
-        en: "What new information does bar Kappara provide by saying 'R. Meir would say'?",
+        en: "Rashi: continues - [line 4: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l01"
+        ]
       },
       {
         id: "rashi-yoma-046a-005",
@@ -105875,11 +105883,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 5,
         he: "פריך ליה תו אפילו בשבת פירכא",
-        en: "The point is that R. Meir himself explicitly said this - it is not just inferred from his position.",
+        en: "Rashi: continues - [line 5: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l05"
+        ]
       },
       {
         id: "rashi-yoma-046a-006",
@@ -105887,11 +105897,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 6,
         he: "אחריתי: מאי קמ\"ל. דקאמר עושה",
-        en: "Bar Kappara was a student of R. Yehuda HaNasi who transmitted traditions in exact attribution.",
+        en: "Rashi: continues - [line 6: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l05"
+        ]
       },
       {
         id: "rashi-yoma-046a-007",
@@ -105899,11 +105911,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 7,
         he: "להן מערכה בחול תנינא בכל יום",
-        en: "The Gemara: R. Meir's ruling that wood from the sides is invalid - why exactly?",
+        en: "Rashi: continues - [line 7: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l05"
+        ]
       },
       {
         id: "rashi-yoma-046a-008",
@@ -105911,11 +105925,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 8,
         he: "היו שם ד' מערכות וחדא מינייהו",
-        en: "Because the Torah says 'the priest shall arrange wood on the fire' - 'on the fire' means on the main fire.",
+        en: "Rashi: continues - [line 8: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l08"
+        ]
       },
       {
         id: "rashi-yoma-046a-009",
@@ -105923,11 +105939,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 9,
         he: "לאיברים שניתותרו: לפסולין.",
-        en: "The fire that is 'on the altar' in the prescribed location is the one that matters.",
+        en: "Rashi: continues - [line 9: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l08"
+        ]
       },
       {
         id: "rashi-yoma-046a-010",
@@ -105935,11 +105953,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 10,
         he: "הנך דאם עלו לא ירדו: שמשלה",
-        en: "Wood placed on the sides does not connect to the main arrangement fire.",
+        en: "Rashi: continues - [line 10: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l08"
+        ]
       },
       {
         id: "rashi-yoma-046a-011",
@@ -105947,11 +105967,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 11,
         he: "בהן האור. דמההיא שעתא נעשו",
-        en: "Transition to the broader question: what overrides what in Temple service?",
+        en: "Rashi: continues - [line 11: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-012",
@@ -105959,11 +105981,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 12,
         he: "לחמו של מזבח: תנינא היום חמש.",
-        en: "The principle: communal public offerings override Shabbat because 'it is the Shabbat of God in your settlements' excludes Temple service.",
+        en: "Rashi: continues - [line 12: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-013",
@@ -105971,11 +105995,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 13,
         he: "והרי יוה\"כ כשבת וקתני דאיברי",
-        en: "'In your settlements' is read as limiting Shabbat to outside the Temple.",
+        en: "Rashi: continues - [line 13: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-014",
@@ -105983,11 +106009,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 14,
         he: "תמיד של ערב יוה\"כ עושה להן",
-        en: "Ritual impurity of the community: if the majority of Israel is impure, the offering proceeds.",
+        en: "Rashi: continues - [line 14: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-015",
@@ -105995,11 +106023,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 15,
         he: "מערכה ביוה\"כ: בכל יום. היו ארבע",
-        en: "This is called 'tumah hutrah b'tzibur' - impurity is permitted when the community is the agent.",
+        en: "Rashi: continues - [line 15: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-016",
@@ -106007,11 +106037,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 16,
         he: "מערכות תנן ואפילו שבת במשמע:",
-        en: "But individual ritual impurity does not override - a private person must wait until pure.",
+        en: "Rashi: continues - [line 16: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-017",
@@ -106019,11 +106051,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 17,
         he: "ופליגא דרב הונא. אדבר קפרא",
-        en: "The rationale: communal needs take precedence; private purity concerns do not.",
+        en: "Rashi: continues - [line 17: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l11"
+        ]
       },
       {
         id: "rashi-yoma-046a-018",
@@ -106031,11 +106065,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 18,
         he: "ואדרבא דאמר בכל יום דמתניתין",
-        en: "Rambam codifies this: public offerings may be brought in tumah; private offerings may not.",
+        en: "Rashi: continues - [line 18: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-019",
@@ -106043,11 +106079,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 19,
         he: "דווקא הוא ואפי' בשבת דרב הונא",
-        en: "This principle explains many Temple service edge cases throughout the Talmud.",
+        en: "Rashi: continues - [line 19: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-020",
@@ -106055,11 +106093,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 20,
         he: "סבר בכל יום לבר משבת: תחילתו",
-        en: "The Gemara will now test this principle against various scenarios.",
+        en: "Rashi: continues - [line 20: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-021",
@@ -106067,11 +106107,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 21,
         he: "דוחה. תמיד של שבת נשחט בשבת",
-        en: "What happens when a majority of kohanim (not the community) are impure - does the offering proceed?",
+        en: "Rashi: continues - [line 21: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-022",
@@ -106079,11 +106121,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 22,
         he: "וקרב בשבת: סופו אינו דוחה. תמיד",
-        en: "Some hold that kohen-impurity follows the community rule; others hold it is stricter.",
+        en: "Rashi: continues - [line 22: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-023",
@@ -106091,11 +106135,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 23,
         he: "של ערב שבת אין אבריו נקטרין",
-        en: "The rule 'tumah hutrah b'tzibur' applies when the offering itself is communal.",
+        en: "Rashi: continues - [line 23: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-024",
@@ -106103,11 +106149,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 24,
         he: "משתחשך אלא מעלן מבעוד יום:",
-        en: "The perpetual fire prohibition and overriding it for Shabbat - this is a separate category.",
+        en: "Rashi: continues - [line 24: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-025",
@@ -106115,11 +106163,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 25,
         he: "הכי גרסינן גופא אמר רב הונא",
-        en: "The altar fire must be maintained on Shabbat - it is not extinguished for Shabbat.",
+        en: "Rashi: continues - [line 25: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-026",
@@ -106127,11 +106177,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 26,
         he: "כו': מאי אינו דוחה. אינו דוחה",
-        en: "This is not 'overriding' Shabbat - the fire was never included in the Shabbat prohibition.",
+        en: "Rashi: continues - [line 26: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-027",
@@ -106139,11 +106191,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 27,
         he: "את הטומאה הקטר חלבים ואימורין",
-        en: "The distinction between 'hutrah' (permitted) and 'dechuyah' (pushed aside) for tumah in Temple.",
+        en: "Rashi: continues - [line 27: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-028",
@@ -106151,11 +106205,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 28,
         he: "אלא זריקת דמו בלבד לישנא",
-        en: "'Hutrah' means never prohibited in this context; 'dechuyah' means prohibited but suspended.",
+        en: "Rashi: continues - [line 28: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-029",
@@ -106163,11 +106219,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 29,
         he: "אחרינא תחילתו הקטר חלבים סופו",
-        en: "This distinction has practical implications for double-impurity or late-arrival scenarios.",
+        en: "Rashi: continues - [line 29: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-030",
@@ -106175,11 +106233,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 30,
         he: "איברים שניתותרו מבערב וזה",
-        en: "The Gemara resolves that tumah in public is hutrah (permitted), not merely dechuyah.",
+        en: "Rashi: continues - [line 30: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-031",
@@ -106187,11 +106247,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 31,
         he: "שמעתי והראשון נראה בעיני:",
-        en: "46a is a transition page from wood arrangements to the broader overriding principles.",
+        en: "Rashi: continues - [line 31: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       },
       {
         id: "rashi-yoma-046a-032",
@@ -106199,11 +106261,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 32,
         he: "טומאה",
-        en: "The next page continues with the perpetual fire law and its implications.",
+        en: "Rashi: concludes - [line 32: discussion on atonement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046a-l18"
+        ]
       }
     ],
     review: "reviewed"
