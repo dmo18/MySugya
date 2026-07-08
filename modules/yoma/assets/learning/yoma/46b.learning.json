@@ -208,83 +208,115 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The dispute whether tumah is hutrah or dechuyah in communal service has major practical implications.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [line 1: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "If hutrah: a kohen who became impure mid-service on a communal-tumah day may finish.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 2: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "If dechuyah: he must stop, since the override applies only to the initial state, not to new impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 3: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rav Chisda's proof: two dechuyot do not combine into a permission; if it were dechuyah, competing rules would block each other.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 4: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l01"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Since the communal tumah ruling holds even in complex cases, it must be hutrah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 5: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l01"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The Gemara brings another proof from R. Yochanan about the nature of the override.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 6: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The perpetual fire: 'a fire shall always be burning on the altar' - always, including Shabbat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 7: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "'It shall not be extinguished' - even on Shabbat, the fire must not go out.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 8: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l06"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "But maintaining the fire requires adding wood on Shabbat - how is this permitted?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 9: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l06"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "Answer: the fire was never included in the Shabbat prohibition. 'In your settlements' excludes Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 10: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "This is not an override of Shabbat - it is a carve-out that was never part of Shabbat law.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 11: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Practical consequence: a priest who adds wood to the altar fire on Shabbat has not violated Shabbat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 12: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The violation he might commit is the prohibition of extinguishing if he handled the fire improperly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 13: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Adding wood is a mitzvah; extinguishing even one coal is a prohibition.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 14: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The Gemara concludes 46b with the perpetual fire laws fully analyzed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [line 15: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l10"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Transition: 47a will begin a new Mishna about the spoon and coal pan brought to the High Priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [line 16: conclusion of Yom Kippur service discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-046b-l16"
+      ]
     }
   ]
 }
