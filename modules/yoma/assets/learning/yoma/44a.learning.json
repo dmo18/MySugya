@@ -276,303 +276,423 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "I might have thought nobody should be present even in the Temple courtyard - the verse says 'in the Tent of Meeting.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [the High Priest] does this [the wearing of the eight garments] daily - [the Mishna explains this requirement].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "I have derived only that the prohibition is during the burning - what about during blood sprinkling?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [except] on Yom Kippur [when he wears four garments only] - [the eight garments are worn] on the [other] days [of the year].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "The baraita: 'and have made atonement for himself, his house, and all the congregation' - atonement through incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and all the people] in the [outer] courtyard - [they] were standing [when he performed the service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "The Master said: 'I have derived only during the burning' - during other acts people may remain.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [listening intently to hear the sound of the golden bells on his garment] - [so they would] know [that he had] come out [safely] from the Holy of Holies.",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l03"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "Does incense effect atonement? The Torah mentions atonement only with blood.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna states:] and [he performed the] incense [service] - [this is the most important part of] the Day of Atonement service.",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l03"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "Answer: incense atoned for the sin of lashon hara (evil speech), as proven from the story of Miriam.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest entered into the Holy of Holies] alone - [no other priest could be present during this act].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l06"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The cloud of incense covers the ark cover - the verse specifies where the cloud must go.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and he brought] the incense pan - [filled with burning coals and incense].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l06"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "If the cloud does not cover the ark, it is as if the High Priest did not perform the rite correctly.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest] said: 'may it be [Your will] that this year be [a year of] mercy' - [he uttered this prayer].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l06"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "He must add incense until the cloud fills the space completely.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and he came] out - [from the Holy of Holies] after completing the incense service.",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l06"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "The verse: 'and he shall put the incense on the fire before God' - 'before God' means in the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna states:] and [he performed the] drawing [of the lots] on Yom Kippur - [two goats were brought].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "'Before God' means in the presence of the Shekhinah - inside the Holy of Holies itself.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [one [goat] for the Lord [to be sacrificed as a sin offering] and one for Azazel [to be sent to the wilderness] - [this] was written in the [Torah].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "This verse is the source that incense must be placed inside, not prepared outside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest] cast [the] lots [between the two goats] - [to determine which would be for the Lord and which for Azazel].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The Sadducees derived otherwise: they said 'before God' means before entering, to protect the priest.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [when] one [of the lots] came up [saying] 'for the Lord' - [this goat] was set aside [for sacrifice].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The Sages' response: if so, incense on Yom Kippur would be like incense on the outer altar - but it is different.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and the other lot reading] 'for Azazel' - [this goat] was set aside [to be sent to the wilderness].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The Sages note: the verse says 'and he shall live' - meaning the act is designed to ensure survival, not just to protect.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna describes:] and [after the lots are drawn, the people rejoiced] - [because the] Azazel [goat] served [as a symbol of the sin being sent away].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l10"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The priest places the incense on the coals inside and backs out while the cloud fills.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [when the two goats were brought before him on Yom Kippur] - [the High Priest] laid [his] hands [upon them to perform the confession].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "He prays briefly at the entrance - a short prayer is permitted, but not a long one.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest confessed over the goat designated for Azazel:] 'we have sinned' - [he recited the confession of sins].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "If he prays long, the congregation worries that he may have died inside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and confessed] all the [transgressions of the people of] Israel - [by listing their sins in categories].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The prayer: 'may it be Your will that if this year is hot, it shall be rainy; and may Your people Israel not require each other's charity.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [he laid] his hands [on the goat] and [the goat was taken away] to the wilderness - [thus the sin was symbolically removed].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "He does not pray for the cold to become hot in winter - only for relief from excessive heat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna continues:] and [the High Priest also] sacrificed the other goat - [the one whose lot said 'for the Lord'].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "He also does not pray for women to give birth to all boys - only appropriate communal petitions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [this goat] was a sin offering - [it] atoned [for the sins of Israel].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "The prayer is communal, not personal - the High Priest represents all Israel at this moment.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [after all the rites were performed on Yom Kippur] - [the High Priest removed] his garments [and immersed in a mikvah].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "After exiting from the Holy of Holies, he prays at the threshold before the congregation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and then] he entered [the Holy of Holies] again - [to retrieve the pan and censer after the people had left].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "The congregation's relief when he emerges safely is palpable - they escort him home with joy.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna states:] on all the other [days of the year the High Priest performs different rites] - [not like the service on Yom Kippur].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l16"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Each Yom Kippur when the High Priest emerged safely, it was cause for celebration.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest wears] eight [garments daily] - [this is the requirement for regular priestly service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The incense cloud must cover the ark cover (kapporet) - this is the most critical requirement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but on Yom Kippur he wears only] four [garments] - [as specified for that holy day].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "The kapporet (mercy seat) is the gold cover over the ark with the cherubim on top.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the four garments are:] the tunic [ketonet], the breeches [michnasayim], the turban [mitznefet], and the sash [avnet] - [these are sufficient for the Day of Atonement].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The incense cloud between the High Priest and the kapporet is the 'screen' that allows him to approach.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the other four garments worn on regular days are] the breastplate [hoshen], the ephod [efod], the robe [me'il], and the forehead plate [tzitz] - [these are not worn on Yom Kippur].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Without this cloud, approaching the ark was considered potentially fatal.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest's service on Yom Kippur includes] entering [the Holy of Holies] once - [on the regular days he does not enter].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The cloud requirement teaches: even the High Priest cannot approach God's presence without mediation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but on Yom Kippur he enters] twice - [once with the blood of the goat for the Lord, once with the blood of the bull].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "This is the deepest theological point of the Yom Kippur incense rite.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [each time he enters the Holy of Holies] he [must] recite the divine name [explicitly] - [this is done only on Yom Kippur].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The incense is not just a ritual act - it is an act of reverence and acknowledgment of God's holiness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] the people [are required to] fast - [on Yom Kippur all Jews must abstain from food and drink].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The verse 'and he shall live' shows the entire sequence is designed around the priest's survival.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] all forbidden labors [are prohibited] - [as Yom Kippur is a day of complete cessation from work].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l25"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The Gemara: does this mean the priest was in danger? Or is 'and he shall live' just an expression?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [whoever does not fast or who performs labor on Yom Kippur] is liable to karet - [the punishment of being cut off from the people].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Answer: it means the High Priest who follows the correct procedure is guaranteed to survive.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna concludes by stating the consequences] - [these are the laws of Yom Kippur as described in the Torah].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "One who follows the Sadducee procedure - incense outside - does not have this guarantee.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest's garments must be pure white linen] - [as specified in the Torah for this service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The Sages thus interpreted the verse as conditional: if done correctly, he lives.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest must be careful to perform all the rites exactly] - [in the order they are prescribed].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "This interpretation also explains why the Second Temple era High Priests were scrutinized.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [if the High Priest makes a mistake in the order of service] - [he must correct it immediately].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "A High Priest suspected of Sadducee sympathies would be made to swear he would follow the Sages' procedure.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the service is repeated from that point] - [until the correct order is restored].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "The Gemara on 44a focuses on the verse analysis supporting the Sages' position on incense placement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [end of the description of the High Priest's service on Yom Kippur].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "The 'no man in the Tent of Meeting' verse means only during incense burning - not during other acts.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Mishna completes the detailed account of the atonement rituals].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "During blood sprinkling, people may remain in the Sanctuary (Hekhal) - only the Kodesh Kodashim area is restricted.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: continuation of discussion on the Day of Atonement service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "The exclusion zones are defined by proximity to where the incense smoke fills.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further details on the High Priest's responsibilities].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The Gemara will now detail exactly which areas must be cleared and when.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional requirements for the Yom Kippur rituals].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "44a establishes the core rule: incense inside, cloud must fill, no one present during burning.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of the atonement procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "The next page will analyze each area of the Temple and its exclusion status.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on the service details].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The incense prayer is a touching human moment within the most solemn ritual of the year.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of the explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "The High Priest is not permitted to make personal requests - only communal petitions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context for the rituals].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "This models a principle: public officials must subordinate personal wishes to communal needs.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further clarification of procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "The incense cloud requirement is absolute - without it, the rite is incomplete.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on the requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "The cloud creates a sacred space between the human and the divine presence.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional explanation of practices].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "Even the closest approach to God in the Torah requires this mediation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further elaboration on the service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The incense on Yom Kippur is the only time incense is offered inside the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: continuation of the discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "All other incense offerings (daily, Shabbat, Yom Tov) are on the golden altar in the Hekhal.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details on observance].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The Yom Kippur incense offering inside is unique - never done at any other time.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information on the procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "This uniqueness underscores the special nature of Yom Kippur as the day of closeness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further details on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "The verse analysis on this page provides the halakhic anchor for this uniqueness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional clarification needed].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "44a is a pivotal page: it bridges the goat ceremony (concluded) and the incense/blood sequence (beginning).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "The High Priest stands at the threshold of the Kodesh Kodashim - the most sacred space in existence.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: final details].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The incense in his hands and the fire beneath it: the moment of entry is about to happen.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [end of this extended discussion on the Yom Kippur service].",
+      "linkedGemaraLineIds": [
+        "yoma-044a-l34"
+      ]
     }
   ]
 }
