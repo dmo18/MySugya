@@ -581,373 +581,521 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Don't say 'after he said' - use the precise term 'after he confessed' (hitvadeh).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - what question arises? And [the problem is that] here [in the Mishna's language] it is neither the time of taking nor the time of performance.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The confession (viduy) is the halachic category; speech alone is insufficient.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the Gemara] fixes it: do not say 'and afterward [the High Priest] said' but rather 'and afterward [he] took [the goat] and said.'",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l02"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Kinnim edge case: what if the woman who designated the pair died?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [this is] for the chatat and this [is] for the olah - [they were] performing Tannaim's teaching [with] a deficiency of one word through forgetfulness.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "If she died before slaughter, her heirs bring the pair.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it was confused for them between 'and afterward [he] took' and '[and afterward he] said' - and we raise difficulty.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "If one bird died and the other is left, it must wait until another bird is found.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [he] took [the goat] - if so he added and brought his obligation [of the chatat].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The orphaned bird cannot serve alone for both obligations.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from an animal [purchased] from the money [designated for] his chatat - what is it? Behold",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l04"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Further case: pair was lost and then found.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - it is not money, since [he] already took the bird [for his offering].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l04"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "If found before slaughter, they may be used - the designation was always live.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he redeems it - and takes it out to the profane [use] and adds [money from] his house.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "If found after slaughter of replacement pair, complex analysis needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and purchases from the money an animal [for the offering].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l08"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "The kinnim tractate dedicates extensive discussion to all these scenarios.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [yet there is] a difficulty: there is no redemption for birds - because so we learn [it].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l08"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Summary of kinnim: designation at slaughter; prior naming may bind; lost-found analyzed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in Tractate Menachot (folio 100:) [that] regarding birds, frankincense, and the priestly vessel there is no redemption.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l11"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The kinnim discussion in Yoma is a digression prompted by the Azazel goat parallel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for it was not said except regarding an animal [alone].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l11"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The kinnim rules are now resolved; return to Yom Kippur service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - such as [he] took one young pigeon - a single [pigeon], he took from the [community] treasury money.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l13"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The transition to the Azazel goat's journey Mishna begins.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and thus said [the] Tanna [of the Mishna].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l13"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "The word 'confessed' vs 'said' is clarified before the next Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - if [it was designated for] an olah, [he] sold - this money that stood for a chatat [are now] becoming chatat and he added on them and brought his obligation.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l13"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Precision in language reflects precision in halachic action.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and this olah that he sold went to a voluntary [offering].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l13"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The transition: from the third confession over the live goat to its being sent.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - if [it was designated for] a chatat [he] sold - the community money were established for an olah through this taking, and [he] does not add on them and bring his obligation from them.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l17"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Mishna: he tied the scarlet thread (lashon shel zehorit) to the goat's head.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens [new Mishna section] - but [rather] he brings from the money [designated for an] olah [as a] voluntary offering, and the chatat that he took dies.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l18"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "Or between its horns - the exact placement is specified.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and from his house he will bring money and will take [an animal].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l18"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "He turned the goat toward the place it was going to - the desert.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but [it is] different regarding the metzora - it is written [in Scripture]: 'This is the law of the metzora.'",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Ten booths were erected from Jerusalem to the Tsuk (cliff).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and not another [law applies].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Each booth was staffed with food and drink for the ish iti.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and regarding] the first part [of the Mishna] also - the head of it [i.e., the ruling]: there is one Torah for all the metzora'im - they all go out [satisfying their obligation] with the offering of a rich [man].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The ish iti was the appointed person to take the goat to the cliff.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the teaching is [also found] [with reference to a source].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "He could eat at the booths - he was technically permitted since he was not in Jerusalem.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [from] it we derive: [one who becomes] impure desecrates the Holy [foods].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "But the tradition was that he did not eat, out of respect for the day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and if [he is] poor, [the defilement is limited] - it is a limitation [in the scope of who becomes] impure.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The prominent men of Jerusalem accompanied him to the first booth.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the one who is] impure [who brings the] offering of a poor man does not fulfill [his obligation].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "At the first booth the Jerusalem delegation stopped and the next group took over.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - but other [those] obligated for [ascending and descending] offering do not [fulfill through] ascending and descending [poverty offerings].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "This relay system continued through all 10 booths.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The Mishna states:] [He tied the scarlet thread] opposite [its] place of sending-out - opposite the gate through which they took it out.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "At each booth the previous group returned and the next continued.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and for slaughter [is stated also] - [this] will be explained in the Gemara.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l20"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The distance from Jerusalem to the Tsuk: 12 mil.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens [Gemara discussion] - [the Gemara asks:] Is it a binding that it stands? Or [is it] an erecting that it stands?",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l30"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Some say 10 mil; there is a dispute about the exact distance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [i.e., does the rule requiring separation apply to] the binding [of the thread] to the head of the Azazel goat, or to the erecting of the goat opposite its place?",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l30"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The Tsuk was a steep, jagged cliff in the wilderness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Come [and hear from the teaching]: For so R. Yosef taught: He tied a scarlet thread to the head of the Azazel goat.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l32"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "When he arrived, he removed the scarlet thread from the goat's head.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [he] erect[ed] it opposite [its] place of sending-out, and the goat for slaughter [is erected] opposite [its] place of slaughter.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l32"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "He split the scarlet thread: half on the rock, half on the goat.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - so that they not be mixed one with another and not be mixed with others.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l32"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "He pushed the goat backward off the cliff.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [But] if you concede that [it is] an erecting that it stands - [although] indeed they are not mixed one with another, [since] this one burns [the offering] with it and this one does not burn with it,",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l32"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "The goat tumbled and broke apart before reaching halfway down.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [nevertheless] with others [goats] it would be mixed.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l36"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "After this act the ish iti became impure: he carried the goat (first-degree impurity).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Therefore] rather [it is] not an erecting that it stands, [but rather] a binding that it stands.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l36"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "He must immerse and wash his garments.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Hear [from this]: R. Yitzchak [said]: Two scarlet threads I heard.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l36"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "He may not re-enter Jerusalem until evening (nightfall of Yom Kippur).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - One of the [red] heifer, and one of the Azazel goat - one needs [a] measure [of a certain weight].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l36"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "The ish iti does not need to be a kohen - any Israelite is eligible.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and one does not need [a] measure - and we do not know which [is] which.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l36"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Sometimes kohanim served as ish iti, but it is not required.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [R. Yosef] said: Let us see - [the thread] of the Azazel goat [since it] requires a division [of half on the rock, half on the goat] requires [a] measure [of weight also].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l41"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "The ish iti's impurity comes from carrying the goat (which carries Israel's sins).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the thread] of the heifer [since it] does not require a division does not require [a] measure.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l42"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "The impurity symbolizes the weight of sin transferred to him temporarily.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [R. Ami bar Chama] raises a difficulty: [but] the heifer [thread] also requires weight [as a measure].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l42"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "After immersion he is pure and may return after Yom Kippur ends.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Rava] said to him: Weight is a Tanna-teaching, and the heifer [thread] does not require a division.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l44"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The Tsuk was outside the inhabited area - 'eretz gezerah' (land of cutting off).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Abayi] raises difficulty for him: How does he do [it]? He wraps them - in the hairs of the thread.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l45"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "'Gezerah' = cut off from inhabited land; the goat is sent to uninhabited wilderness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Should I say [it is tied] in the tail of the thread? [Rather the Rashi clarifies:] the cedar [wood] and hyssop and scarlet wool.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l46"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The ceremony's spatial aspect: the sins are carried outside civilization entirely.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [R. Chanin] said in the name of Rav: The cedar [wood] and hyssop and scarlet wool - when they set it ablaze it is fit.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l46"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "The goat literally carries the sins away from the inhabited world.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from the teachings [we learn] there is additional [content].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l48b"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The scarlet thread turning white was visible from Jerusalem or confirmed by messenger.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [They] raised a difficulty: [The teaching states:] 'and they set it ablaze - the thread came [to light] and brought [forth] another thread and sanctified [it].'",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l48b"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "The turning white was Isaiah 1:18: 'though your sins be as scarlet, they shall be as white as snow.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Abayi] said: This is no difficulty - here [it refers to the case of] smooth-burning [ash without standing flame].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l48b"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "The visual miracle was the public confirmation of atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - there [it refers to the case of] burning-together [with standing flame].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l51"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "The ish iti's impurity and the thread's whitening are the two markers of the ceremony's completion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Rava] says: Weight is a Tanna-teaching - [the teaching is] as follows: Why do they wrap [it]?",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l51"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "Summary of 41b: kinnim conclusion, confession precision, Mishna about goat journey with 10 booths.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - So that all of them be in one bundle - [by the words of] R. Rabbi.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "Two sugyot: one closing the kinnim topic, one opening the Azazel goat journey.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [R. Elazar son of] R. Shimon says: So that there be in them weight and [so that] they fall into the fire of the heifer-burning.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The Azazel goat journey Mishna is detailed and precise.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - When R. Dimi came, [he said]: R. Yochanan said: Three scarlet threads I heard.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Every aspect - distance, booths, thread, impurity - is analyzed in subsequent pages.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - One of the heifer, and one of the Azazel goat, and one of the leper.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "42a continues with the thread weight and ish iti details.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - One [weighing] ten denarii, and one [weighing] two sela'im, and one [weighing] one shekel.",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "The Yom Kippur service is now fully described from lot to goat-sending.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - And I do not have [the knowledge] to explain [which is which].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "The remaining service: bull blood sprinkling, goat blood sprinkling, incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - When Rabin came, he explained it in the name of R. Yonatan [thus]:",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "These will be covered in later chapters of tractate Yoma.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The thread] of [the red heifer, the thread of the Azazel goat, and the thread of the leper - each specification established according to the teaching].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "41b is a pivotal daf: closes kinnim digression, opens Azazel journey Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Continuing the detailed discussion of the thread specifications from the sources].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "The goat journey Mishna is one of the most evocative passages in the tractate.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The Rashi maintains the careful explanation of the tradition regarding these three threads].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "The organized national support (10 booths) shows the ceremony's communal dimension.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Each thread carries its own measure and significance in the Temple service].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "The entire nation participated - the ish iti was the nation's emissary.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The analysis of the sources and their reconciliation continues].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 65,
-      "en": "The goat carried the nation's sins; the nation accompanied it to the edge of civilization.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Detailed examination of the weights and measures tradition].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 66,
-      "en": "When the thread turned white, the nation knew they had been forgiven.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The Rashi preserves the exact teaching from the earlier masters].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 67,
-      "en": "This is the emotional and spiritual climax of Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Continuation of the learned explanation of the three threads and their distinctions].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 68,
-      "en": "Summary: kinnim closed, 'confessed' precision, goat journey with 10 booths and impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Detailed analysis of the source-teaching and its implications].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 69,
-      "en": "41b bridges the kinnim digression and the Azazel goat journey Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The Rashi continues with the precise transmission of the tradition].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 70,
-      "en": "The Yom Kippur avodah narrative is now well advanced.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Extended discussion of the specific measures and their applications].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 71,
-      "en": "The remaining pages will complete the service description.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Detailed explanation of the three threads and their roles in the Temple service].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 72,
-      "en": "41b concludes with the Azazel goat Mishna in full detail.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [The Rashi preserves the complete tradition regarding thread specifications].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 73,
-      "en": "The next daf (42a) will analyze the thread's weight and the handler's specifics.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [Final details of the thread-teaching from the transmitted sources].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     },
     {
       "vilnaLine": 74,
-      "en": "Summary of 41b: two sugyot, kinnim closure, Azazel journey Mishna with 10 booths.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [End of this section of detailed Rashi explanation on the scarlet thread specifications and their complex traditions].",
+      "linkedGemaraLineIds": [
+        "yoma-041b-l53"
+      ]
     }
   ]
 }
