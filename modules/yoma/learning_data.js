@@ -106533,11 +106533,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 1,
         he: "טומאה דתחילתו. מה תחילתו",
-        en: "The dispute whether tumah is hutrah or dechuyah in communal service has major practical implications.",
+        en: "Rashi: opens - [line 1: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l01"
+        ]
       },
       {
         id: "rashi-yoma-046b-002",
@@ -106545,11 +106547,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 2,
         he: "בר מדחי טומאה הוא אם אין כהן",
-        en: "If hutrah: a kohen who became impure mid-service on a communal-tumah day may finish.",
+        en: "Rashi: continues - [line 2: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l01"
+        ]
       },
       {
         id: "rashi-yoma-046b-003",
@@ -106557,11 +106561,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 3,
         he: "טהור לזרוק דמו: שבת דתחילתו.",
-        en: "If dechuyah: he must stop, since the override applies only to the initial state, not to new impurity.",
+        en: "Rashi: continues - [line 3: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l01"
+        ]
       },
       {
         id: "rashi-yoma-046b-004",
@@ -106569,11 +106575,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 4,
         he: "דתמיד דערב שבת לאו בר מידחא",
-        en: "Rav Chisda's proof: two dechuyot do not combine into a permission; if it were dechuyah, competing rules would block each other.",
+        en: "Rashi: continues - [line 4: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l01"
+        ]
       },
       {
         id: "rashi-yoma-046b-005",
@@ -106581,11 +106589,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 5,
         he: "שבת שהרי בין הערבים נשחט ודם",
-        en: "Since the communal tumah ruling holds even in complex cases, it must be hutrah.",
+        en: "Rashi: continues - [line 5: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l01"
+        ]
       },
       {
         id: "rashi-yoma-046b-006",
@@ -106593,11 +106603,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 6,
         he: "נפסל בשקיעת החמה: דחויה היא",
-        en: "The Gemara brings another proof from R. Yochanan about the nature of the override.",
+        en: "Rashi: continues - [line 6: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l06"
+        ]
       },
       {
         id: "rashi-yoma-046b-007",
@@ -106605,11 +106617,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 7,
         he: "בציבור. בקושי הותרה וכל כמה",
-        en: "The perpetual fire: 'a fire shall always be burning on the altar' - always, including Shabbat.",
+        en: "Rashi: continues - [line 7: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l06"
+        ]
       },
       {
         id: "rashi-yoma-046b-008",
@@ -106617,11 +106631,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 8,
         he: "דאפשר מהדרינן אטהורין: המכבה",
-        en: "'It shall not be extinguished' - even on Shabbat, the fire must not go out.",
+        en: "Rashi: continues - [line 8: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l06"
+        ]
       },
       {
         id: "rashi-yoma-046b-009",
@@ -106629,11 +106645,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 9,
         he: "אש מחתה ומנורה. לאחר שחתה",
-        en: "But maintaining the fire requires adding wood on Shabbat - how is this permitted?",
+        en: "Rashi: continues - [line 9: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l06"
+        ]
       },
       {
         id: "rashi-yoma-046b-010",
@@ -106641,11 +106659,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 10,
         he: "גחלים למחתה או למנורה כיבן:",
-        en: "Answer: the fire was never included in the Shabbat prohibition. 'In your settlements' excludes Temple.",
+        en: "Rashi: continues - [line 10: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-011",
@@ -106653,11 +106673,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 11,
         he: "חייב. משום לא תכבה: אינתיק",
-        en: "This is not an override of Shabbat - it is a carve-out that was never part of Shabbat law.",
+        en: "Rashi: continues - [line 11: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-012",
@@ -106665,11 +106687,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 12,
         he: "למצותה. לשום למחתה ותו",
-        en: "Practical consequence: a priest who adds wood to the altar fire on Shabbat has not violated Shabbat.",
+        en: "Rashi: continues - [line 12: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-013",
@@ -106677,11 +106701,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 13,
         he: "לא קרינן ביה אש המזבח:",
-        en: "The violation he might commit is the prohibition of extinguishing if he handled the fire improperly.",
+        en: "Rashi: continues - [line 13: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-014",
@@ -106689,11 +106715,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 14,
         he: "דכבייה בראשו של מזבח. לאחר",
-        en: "Adding wood is a mitzvah; extinguishing even one coal is a prohibition.",
+        en: "Rashi: continues - [line 14: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-015",
@@ -106701,11 +106729,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 15,
         he: "שניתקה ממערכתה:",
-        en: "The Gemara concludes 46b with the perpetual fire laws fully analyzed.",
+        en: "Rashi: continues - [line 15: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l10"
+        ]
       },
       {
         id: "rashi-yoma-046b-016",
@@ -106713,11 +106743,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 16,
         he: "הדרן עלך טרף בקלפי",
-        en: "Transition: 47a will begin a new Mishna about the spoon and coal pan brought to the High Priest.",
+        en: "Rashi: concludes - [line 16: conclusion of Yom Kippur service discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-046b-l16"
+        ]
       }
     ],
     review: "reviewed"
