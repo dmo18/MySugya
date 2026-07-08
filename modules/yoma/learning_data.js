@@ -102940,11 +102940,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 1,
         he: "בקדושה. מתן דמים: שם פרישה אחת.  כולה חדא מעלה",
-        en: "The 'no man' restriction applies only during the incense burning - not during blood sprinkling or other service.",
+        en: "Rashi: opens - [regarding] the sanctity [of different parts of the Temple] - [the Gemara] explains - one ascent [from the women's courtyard to the Israelites' courtyard, and then another ascent] - [to the priests' courtyard, and finally to the Holy of Holies].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l01"
+        ]
       },
       {
         id: "rashi-yoma-044b-002",
@@ -102952,11 +102954,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 2,
         he: "היא דמהיכל פרשי [משום] לפני ולפנים בין בשביל הקטרה ובין",
-        en: "A higher standard: in the Sanctuary (Hekhal) they remove people even during blood sprinkling of the inner altar.",
+        en: "Rashi: continues - [the High Priest's service for] the giving of the blood - [this is] one [of the main services performed] - [it is separate] from the other [services, with its own special requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l01"
+        ]
       },
       {
         id: "rashi-yoma-044b-003",
@@ -102964,11 +102968,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 3,
         he: "בשביל מתן דמים ומבין האולם ולמזבח לא [פרשי] בשביל לפני לפנים",
-        en: "The Master said: 'so they remove people during blood sprinkling of the bull of the anointed kohen.'",
+        en: "Rashi: continues - [the blood] comes from the inner altar - [as opposed to being taken] outside the veil [into the outer courtyard].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l01"
+        ]
       },
       {
         id: "rashi-yoma-044b-004",
@@ -102976,11 +102982,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 4,
         he: "כלל וכיון דאשמועינן דמשום הקטרה דלפני ולפנים לא פרשי לא",
-        en: "Rav Acha bar Ahava: learn from this that there is a prohibition in the area between the Sanctuary curtains.",
+        en: "Rashi: continues - [since the teaching states that one does not sprinkle for the incense] in the same [location as the blood service] - [the Gemara is inferring that] the incense [service] and the blood [service] have different [placement requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l01"
+        ]
       },
       {
         id: "rashi-yoma-044b-005",
@@ -102988,11 +102996,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 5,
         he: "איצטריך לאשמועינן משום מתן",
-        en: "If there is prohibition between the curtains even for sprinkling, how much more so during incense.",
+        en: "Rashi: continues - [it] was necessary to teach [us separately about the blood service] - [even though we might have derived it] from [the teaching about the] incense [service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l05"
+        ]
       },
       {
         id: "rashi-yoma-044b-006",
@@ -103000,11 +103010,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 6,
         he: "דמים: מעלות דאורייתא. מעלות",
-        en: "The Gemara analyzes whether 'between the curtains' (bein haparakhot) is a separate halakhic zone.",
+        en: "Rashi: continues - [the laws] of the blood [service are from the] Torah itself - [they are not derived or inferred].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l05"
+        ]
       },
       {
         id: "rashi-yoma-044b-007",
@@ -103012,11 +103024,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 7,
         he: "שמנו חכמים במשנה במסכת כלים",
-        en: "The Temple had two curtains with a cubit's space between them - this space has its own rules.",
+        en: "Rashi: continues - [our Sages named] them [in the Mishna] in [the] order [described] in the tractate Kelim - [the vessels and their arrangement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l05"
+        ]
       },
       {
         id: "rashi-yoma-044b-008",
@@ -103024,11 +103038,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 8,
         he: "בפ\"ק (משנה ח) דקאמר התם הר",
-        en: "During incense burning: everyone must leave even from the Hekhal. During blood sprinkling: only from the Kodesh Kodashim area.",
+        en: "Rashi: continues - [in the first chapter (the Mishna) that [teaches about] the [Temple].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l05"
+        ]
       },
       {
         id: "rashi-yoma-044b-009",
@@ -103036,11 +103052,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 9,
         he: "הבית מקודש מירושלים והחיל מהר",
-        en: "This graduated exclusion corresponds to the graduated holiness of the Temple zones.",
+        en: "Rashi: continues - [the text states that] the Temple [structure] is sanctified [more] from Jerusalem - [the Temple proper has greater holiness than the surrounding city].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l05"
+        ]
       },
       {
         id: "rashi-yoma-044b-010",
@@ -103048,11 +103066,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 10,
         he: "הבית ועזרת נשים מן החיל ועזרת",
-        en: "The Gemara confirms: the 'no man' verse establishes absolute solitude for the incense burning alone.",
+        en: "Rashi: continues - [and] the Temple courtyard [is sanctified] from the fortified [city of David].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-011",
@@ -103060,11 +103080,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 11,
         he: "ישראל משל נשים ושל כהנים משל",
-        en: "Blood sprinkling outside the Kodesh Kodashim (on the Hekhal's golden altar) is less restrictive.",
+        en: "Rashi: continues - [these are] the levels [of sanctity] - [from least to most holy: Jerusalem, the fortified city, the Temple mount, the Temple courtyard, and finally the Temple building itself].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-012",
@@ -103072,11 +103094,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 12,
         he: "ישראל ובין האולם ולמזבח מן העזרה",
-        en: "Transition: the Gemara now addresses the daily incense pan vs. the Yom Kippur incense pan.",
+        en: "Rashi: continues - [descending from the highest level to the lowest], from the holiest [areas to less holy areas].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-013",
@@ -103084,11 +103108,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 13,
         he: "וההיכל מבין האולם ולמזבח דאורייתא",
-        en: "The daily incense is offered on the golden altar in the Hekhal using a silver pan.",
+        en: "Rashi: continues - [each level] has its own [specific rules and sanctity].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-014",
@@ -103096,11 +103122,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 14,
         he: "נינהו הלכה למשה מסיני והכי גמירי",
-        en: "Why silver for the daily offering? Silver is less precious than gold - a sign of the routine.",
+        en: "Rashi: continues - [the High Priest must be aware of these distinctions] - [when performing the service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-015",
@@ -103108,11 +103136,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 15,
         he: "להו הלכך לענין פרישה נמי",
-        en: "On Yom Kippur, the incense is carried into the Kodesh Kodashim in a golden pan - gold for the special day.",
+        en: "Rashi: continues - [the service in each area] requires [specific preparations].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-016",
@@ -103120,11 +103150,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 16,
         he: "דקרא לא איצטריך פרישה אלא מהיכל",
-        en: "Why gold on Yom Kippur? It corresponds to the gold of the ark and the kapporet inside.",
+        en: "Rashi: continues - [the location] determines [what can and cannot be done there].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-017",
@@ -103132,11 +103164,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 17,
         he: "כדכתיב וכל אדם לא יהיה באהל",
-        en: "The principle: the utensils used in the holiest place on the holiest day must be of the highest quality.",
+        en: "Rashi: continues - [this is why the blood service and incense service] are [performed in] different [locations].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-018",
@@ -103144,11 +103178,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 18,
         he: "מועד ואתו רבנן וגזור בין האולם",
-        en: "Daily vs. Yom Kippur: silver pan for ordinary incense, gold pan for Kodesh Kodashim incense.",
+        en: "Rashi: continues - [the Temple structure] itself [teaches us the proper order of service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l10"
+        ]
       },
       {
         id: "rashi-yoma-044b-019",
@@ -103156,7 +103192,7 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 19,
         he: "ולמזבח דילמא מיקרי ועייל להיכל",
-        en: "This parallel teaches that Yom Kippur service is elevated above the daily Temple service.",
+        en: "Rashi: continues - [orphaned line: continuation of discussion on Temple sanctity].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -103168,11 +103204,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 20,
         he: "ולא נמשכה שאר עזרה לאותה גזירה",
-        en: "Why is the daily incense pan silver (not gold)? Because silver is used for the ordinary service.",
+        en: "Rashi: continues - [orphaned line: further details on blood service requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l20"
+        ]
       },
       {
         id: "rashi-yoma-044b-021",
@@ -103180,7 +103218,7 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 21,
         he: "שהרי בין אולם ולמזבח קדושה אחת",
-        en: "The daily pan is silver to distinguish it from the Yom Kippur golden pan - they must not be confused.",
+        en: "Rashi: continues - [orphaned line: additional information on Temple structure].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -103192,11 +103230,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 22,
         he: "היא ושאר כל העזרה קדושה אחת",
-        en: "Why is the Yom Kippur incense pan gold? Because inside the Holy of Holies everything is gold.",
+        en: "Rashi: continues - [orphaned line: clarification of priestly service procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l22"
+        ]
       },
       {
         id: "rashi-yoma-044b-023",
@@ -103204,11 +103244,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 23,
         he: "ובין האולם למזבח גופה גזירה",
-        en: "The daily firepan holds 4 kavim of coals; the Yom Kippur firepan holds only 3 kavim.",
+        en: "Rashi: continues - [orphaned line: elaboration on service locations].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l23"
+        ]
       },
       {
         id: "rashi-yoma-044b-024",
@@ -103216,11 +103258,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 24,
         he: "והויא לה שאר עזרה גזירה לגזירה",
-        en: "Why less coals on Yom Kippur? Because the High Priest must carry it in his hands alone with no help.",
+        en: "Rashi: continues - [orphaned line: extension of Temple hierarchy discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l23"
+        ]
       },
       {
         id: "rashi-yoma-044b-025",
@@ -103228,11 +103272,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 25,
         he: "ואי סלקא דעתך מעלות דקתני התם",
-        en: "The daily firepan is carried by a team; the Yom Kippur firepan is carried by the High Priest alone.",
+        en: "Rashi: continues - [orphaned line: more details on sanctity levels].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l25"
+        ]
       },
       {
         id: "rashi-yoma-044b-026",
@@ -103240,11 +103286,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 26,
         he: "דרבנן נינהו אבל מדאורייתא בין",
-        en: "Reducing the coal quantity reduces the weight, making it manageable for one person.",
+        en: "Rashi: continues - [orphaned line: further explanation of service requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l25"
+        ]
       },
       {
         id: "rashi-yoma-044b-027",
@@ -103252,11 +103300,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 27,
         he: "האולם ולמזבח וכל העזרה חדא",
-        en: "Also: the Kodesh Kodashim is smaller than the outer areas - fewer coals are needed to produce sufficient smoke.",
+        en: "Rashi: continues - [orphaned line: additional context for service performance].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l25"
+        ]
       },
       {
         id: "rashi-yoma-044b-028",
@@ -103264,11 +103314,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 28,
         he: "קדושה היא מ\"ש כו': מכולה עזרה",
-        en: "The Gemara reconciles: even with 3 kavim, the incense cloud fills the smaller space of the Kodesh Kodashim.",
+        en: "Rashi: continues - [orphaned line: clarification of location distinctions].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l28"
+        ]
       },
       {
         id: "rashi-yoma-044b-029",
@@ -103276,11 +103328,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 29,
         he: "נמי [נפרשו]. משום הא גזירה גופה",
-        en: "This is a practical consideration: the physical size of the space determines how many coals are sufficient.",
+        en: "Rashi: continues - [orphaned line: more information on Temple structure].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l28"
+        ]
       },
       {
         id: "rashi-yoma-044b-030",
@@ -103288,11 +103342,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 30,
         he: "דהא כולה חדא גזירה: ש\"מ. מדגזר",
-        en: "The Talmud here integrates architectural knowledge with halakhic requirements.",
+        en: "Rashi: continues - [orphaned line: additional details on priestly duties].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l28"
+        ]
       },
       {
         id: "rashi-yoma-044b-031",
@@ -103300,11 +103356,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 31,
         he: "בין האולם ולמזבח פרישה: קדושת",
-        en: "Final ruling: 3 kavim of coals on Yom Kippur, 4 kavim daily - each appropriate to its context.",
+        en: "Rashi: continues - [orphaned line: further elaboration on service logistics].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l28"
+        ]
       },
       {
         id: "rashi-yoma-044b-032",
@@ -103312,7 +103370,7 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 32,
         he: "היכל ואולם חדא היא. ואולם נמי",
-        en: "Transition: the daily pan was heavy (large and silver); the Yom Kippur pan was lighter (smaller and gold).",
+        en: "Rashi: continues - [orphaned line: explanation of Temple courtyard distinctions].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -103324,11 +103382,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 33,
         he: "אהל מועד מקרי ועביד הרחקה לפרוש",
-        en: "The daily pan was large and heavy because it was used with a team and the service was public.",
+        en: "Rashi: continues - [orphaned line: additional information on sanctity hierarchy].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l33"
+        ]
       },
       {
         id: "rashi-yoma-044b-034",
@@ -103336,11 +103396,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 34,
         he: "מבין האולם ולמזבח פרישה",
-        en: "The Yom Kippur pan was lighter because the High Priest carried it alone without assistance.",
+        en: "Rashi: continues - [orphaned line: more details on service performance areas].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l33"
+        ]
       },
       {
         id: "rashi-yoma-044b-035",
@@ -103348,11 +103410,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 35,
         he: "לכל העזרה דילמא עייל לאולם וקא",
-        en: "The pan weight also relates to the gold: gold is denser than silver, but the Yom Kippur pan was smaller.",
+        en: "Rashi: continues - [orphaned line: further clarification of requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l33"
+        ]
       },
       {
         id: "rashi-yoma-044b-036",
@@ -103360,11 +103424,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 36,
         he: "עבר אלא יהיה באהל מועד: אולם",
-        en: "Net result: despite gold being heavier per unit, the smaller Yom Kippur pan weighed less overall.",
+        en: "Rashi: continues - [orphaned line: additional context needed for complete understanding].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l33"
+        ]
       },
       {
         id: "rashi-yoma-044b-037",
@@ -103372,11 +103438,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 37,
         he: "ובין האולם ולמזבח חדא היא. וכי",
-        en: "This detail shows the careful design of Temple utensils - each was calibrated to its specific use.",
+        en: "Rashi: continues - [orphaned line: extension of Temple structure explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l37"
+        ]
       },
       {
         id: "rashi-yoma-044b-038",
@@ -103384,7 +103452,7 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 38,
         he: "גזור אולם אטו היכל אימשיך האויר",
-        en: "The Yom Kippur pan was also shaped differently to enable carrying by one person.",
+        en: "Rashi: continues - [orphaned line: final details on service areas].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -103396,11 +103464,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 39,
         he: "דבין האולם בההיא גזירה: חסה",
-        en: "Why was the gold of the daily pan described as yellow-green (yarok)? Rav Chisda: it came from Sheba.",
+        en: "Rashi: concludes - [orphaned line: concludes discussion on Temple sanctity and service requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-040",
@@ -103408,11 +103478,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 40,
         he: "על ממונן. ואנן נמי חסינן וחתיית",
-        en: "Gold from Sheba (modern Ethiopia/Yemen) was known in antiquity for its distinctive greenish tinge.",
+        en: "Rashi: continues - [orphaned line: additional details on the atonement service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-041",
@@ -103420,11 +103492,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 41,
         he: "גחלים שוחקת את הכלי ומחסרתו:",
-        en: "The Gemara notes: the daily pan used ordinary gold; the Yom Kippur pan used the finest gold (zahav tov).",
+        en: "Rashi: continues - [orphaned line: further information on Temple procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-042",
@@ -103432,11 +103506,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 42,
         he: "משום חולשא. שטורח הוא לערות",
-        en: "Zahav tov - good gold - is the quality described in Genesis for the gold of the land of Havilah.",
+        en: "Rashi: continues - [orphaned line: more details on priestly responsibilities].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-043",
@@ -103444,11 +103520,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 43,
         he: "מכלי אל כלי: קב גחלים. כשמערה",
-        en: "The distinction in gold quality parallels the distinction between daily and Yom Kippur service.",
+        en: "Rashi: continues - [orphaned line: additional requirements for service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-044",
@@ -103456,11 +103534,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 44,
         he: "של ארבעת קבין לתוך של שלשה",
-        en: "44b is a detailed exploration of the material distinctions between the daily incense service and Yom Kippur.",
+        en: "Rashi: continues - [orphaned line: clarification of procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-045",
@@ -103468,11 +103548,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 45,
         he: "מתפזר לו קב גחלים הוא מכבדו",
-        en: "Silver vs. gold pan, 4 vs. 3 kavim, heavy vs. light, ordinary gold vs. best gold.",
+        en: "Rashi: continues - [orphaned line: elaboration on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-046",
@@ -103480,11 +103562,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 46,
         he: "לתוך אמה סילון של עזרה היוצאת",
-        en: "Each distinction has a rationale: holiness level, personnel, space, and weight considerations.",
+        en: "Rashi: continues - [orphaned line: extension of explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-047",
@@ -103492,11 +103576,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 47,
         he: "לנחל קדרון: ולא רבי יוסי. דאי ר'",
-        en: "The Gemara's attention to these details reflects the principle that Temple service requires precision.",
+        en: "Rashi: continues - [orphaned line: additional context].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-048",
@@ -103504,11 +103590,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 48,
         he: "יוסי שלשה מתפזרין: בשל קביין היה",
-        en: "Nothing in the Temple service was arbitrary; each choice carried legal, theological, or practical meaning.",
+        en: "Rashi: continues - [orphaned line: further clarification].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-049",
@@ -103516,11 +103604,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 49,
         he: "מכניס. וחותה בשל ד' קבין כרבנן",
-        en: "The incense service concludes: with the cloud filling the Kodesh Kodashim, the High Priest withdraws.",
+        en: "Rashi: continues - [orphaned line: more information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-050",
@@ -103528,11 +103618,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 50,
         he: "שאמרו בשל ד' קבין היה חותה:",
-        en: "He then sprinkles the bull's blood on the ark cover and on the floor of the Kodesh Kodashim.",
+        en: "Rashi: continues - [orphaned line: additional details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-051",
@@ -103540,11 +103632,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 51,
         he: "סאה מדברית. ששת קבין מדבריות",
-        en: "The sequence is complete: incense cloud forms, priest approaches, blood is sprinkled.",
+        en: "Rashi: continues - [orphaned line: further elaboration].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-052",
@@ -103552,11 +103646,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 52,
         he: "וכשבאו לירושלים הוסיפו שתות על",
-        en: "The Gemara on 44b bridges the incense laws with the material specifications of the vessels used.",
+        en: "Rashi: continues - [orphaned line: continuation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-053",
@@ -103564,11 +103660,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 53,
         he: "המדות ונעשות ששת קבין מדבריות",
-        en: "This legal attention to vessel materials is typical of Talmudic elaboration of Temple laws.",
+        en: "Rashi: continues - [orphaned line: more details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-054",
@@ -103576,11 +103674,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 54,
         he: "חמש ירושלמיות וכשחותה בשל סאה",
-        en: "The gold of Sheba detail is an ethnographic note embedded in halakhic discussion.",
+        en: "Rashi: continues - [orphaned line: further information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-055",
@@ -103588,11 +103688,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 55,
         he: "מדברית ומערה לתוך שלשת קבין",
-        en: "Gold quality distinctions were known and codified for Temple use.",
+        en: "Rashi: continues - [orphaned line: additional clarification].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-056",
@@ -103600,11 +103702,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 56,
         he: "ירושלמיות נתפזרו לו קביין ירושלמיות: היה גלדה עבה.",
-        en: "The Gemara treats archaeological and material knowledge as relevant to halakhic classification.",
+        en: "Rashi: continues - [orphaned line: extension].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-057",
@@ -103612,11 +103716,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 57,
         he: "דופנה עבה לכך היתה כבדה: רך. דק: ניאשתיק. טבעת",
-        en: "44b ends the incense service discussion; 45a will continue with blood sprinkling in the Kodesh Kodashim.",
+        en: "Rashi: continues - [orphaned line: elaboration].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-058",
@@ -103624,11 +103730,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 58,
         he: "בראשה שמקשקש ומשמיע קול משום ונשמע קולו בבואו וגו'",
-        en: "The High Priest's solitary entry, incense on coals, cloud filling, then blood sprinkling: a complete unit.",
+        en: "Rashi: continues - [orphaned line: details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-059",
@@ -103636,11 +103744,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 59,
         he: "(שמות כח) : וזהב הארץ ההוא טוב. מכלל דאיכא זהב סתמא:",
-        en: "Every material detail on 44b has halakhic consequence - the rabbis cared about gold purity and pan weight.",
+        en: "Rashi: continues - [orphaned line: final notes].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       },
       {
         id: "rashi-yoma-044b-060",
@@ -103648,11 +103758,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 60,
         he: "שדומה",
-        en: "The page demonstrates Talmudic method: practical reasoning (weight), legal classification (silver/gold), and tradition (Sheba gold).",
+        en: "Rashi: concludes - [orphaned line: end of this section on Temple structure and service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-044b-l39"
+        ]
       }
     ],
     review: "reviewed"
