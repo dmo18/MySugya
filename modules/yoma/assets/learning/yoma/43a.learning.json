@@ -287,328 +287,458 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "A donkey was taken with the goat according to the first Tanna - implying the goat could ride.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - a donkey was taken along with the goat - according to the first Tanna [this was permitted], since there is no [scriptural] basis [for prohibiting it].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "The verse 'and he shall slaughter it' means he shall not slaughter another animal at the same time.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to Shmuel - [the proof is that] it is written 'and [Elazar] the priest shall take' - [this refers to] the taking of [its] blood.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Verse: 'And Elazar the priest shall take some of its blood with his finger' - for its own sake.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [implying] the non-Jew is fit for slaughter - [therefore] it was necessary to write [separately regarding the] taking [of blood, to teach that Elazar alone must perform it].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "The cedar wood and the hyssop and the crimson thread - all three must be present together.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the taking of blood [must be] by Elazar - to return [the word back] to Elazar [from the previous context] - [for] if [the verse] had written '[and he shall take]' [referring to] the blood, it would seem [that] the slaughter [is also done by someone else].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The priest washes his garments and immerses his body in water.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the sprinkling [is written:] 'and he shall sprinkle with his finger' - [this too] would [seem to be done by someone other than Elazar].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "He remains impure until evening - this is the rule for all who handle the parah ritual.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to Rav - [who] also said [that] the slaughter is [by] Elazar - [therefore] it was not necessary to write [the taking of blood, as the entire ceremony requires Elazar].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The stranger who burns the heifer: even a non-priest may burn it according to some; others disagree.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - regarding Elazar, [the scripture] was not [required] to write [about taking blood separately, since] the slaughter is [already taught to be by Elazar].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "The gathering of the ashes: 'and a pure man shall gather' - must be a ritually pure person.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - regarding the taking of blood, [the scripture] did write - and if [the word] 'he' is written, [this teaches] a diminution [from the usual rule].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "The ashes are deposited 'outside the camp in a pure place' - this requires a special location.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - after [another] diminution [we have] for Elazar - and [there is] no diminution after diminution [permitted in Torah law].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "The verse specifies 'pure place' to teach that the ashes must be kept away from impurity.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - '[therefore:] and the priest shall take cedar' - [this is the next phrase in Numbers 19].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l04"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Distance to the Tsuk (cliff): 12 mil from Jerusalem, matching the Israelite camp in the wilderness.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding] cedar wood - to Shmuel - [he] said [that] the taking of blood and the sprinkling are [both performed] by Elazar, [as is] written [in the verse].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l11"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "The 12 mil corresponds to the measure of the Israelite camp, as the verse says 'to the wilderness.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - regarding the priest in [general] - it is written [that] the burning and the casting [are also performed by the priest].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l11"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The goat is pushed off the cliff backward - this is the manner of its sending to Azazel.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the casting of cedar wood [is performed] by a common priest - [this is] permitted, [whereas the taking of blood requires Elazar].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "The goat tumbles and breaks apart before it reaches halfway down - a halakhic detail about when death occurs.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this [teaching] implies [that] a non-Jew is excluded [from] this [task] - [the text teaches] that [a non-Jew] cannot [perform] the casting.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Even if the goat does not die from the fall, it is considered sent and the rite is complete.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and all of these [tasks] that we have stated - [regarding] the slaughter [and] sprinkling - [are] to Rav - [who rules that they require Elazar].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The ish iti's impurity begins at the moment he pushes the goat - the act of sending causes it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [whether performed] by a common priest - [the text teaches] that it is excluded [from the general rule].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Why backward? So the goat cannot scramble back up and return.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [this exclusion is] not [derived] from [the general scope of] the verse before it - [therefore] it was necessary to write [it separately].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Practical: the cliff is so steep that even a small push results in certain death.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that [the priest must perform this act] - [for] if [the verse] had written '[and] he [shall take] cedar wood,' and [it did] not [write] 'priest,' [we would understand].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The wilderness requirement: the cliff must be a desolate, uninhabited area.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - '[that any] one who wishes [may] take [it],' and [there would be] no [basis to] establish him [as needing to be] a priest.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "The verse 'to the wilderness' implies to a place of isolation, not to a city or town.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [rather, the verse] establishes [him as] a priest, [since it] says [that the priest performs this] - [this is the resolution of the textual difficulty].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "The 10 booths spaced along the route: the first is at the Jerusalem city limit.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - regarding [the question of whether] a non-Jew [performs the] burning or [whether] Elazar [performs it] - [the Gemara raises the issue].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "At each booth, the ish iti could rest and be offered food and water.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - perhaps [we should] say [that since this is not the body [of the ritual], we can infer that] a non-Jew [could perform the] burning.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The ish iti would decline - fasting was customary for him on Yom Kippur out of honor.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [but the Tanna] teaches [regarding] 'the priest in his office' - this [phrase] 'priest' [appears to be] extra, [it] was not [necessary to write it, except].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l13"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "At the final booth: the ish iti prepares to cross to the cliff area alone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [to teach something regarding the previous context] - and thus [the word] 'priest' is not [superfluous, but rather].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l24"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The cliff area itself is outside the normal limits; a non-Jew was stationed at the Tsuk.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [establishes that the taking of blood and the sprinkling] are [performed by] the priest - and I know [that this is the case from the following].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l24"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "Why a non-Jew at the Tsuk? To wave a signal cloth when the goat had gone over.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that this [reference] is [made to establish the rule for] the one [who performs] the burning - [the text] stands [as an independent teaching].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l24"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "The signal was relayed back station by station to Jerusalem - 'your goat is gone.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding] the priest and his garments, [the text] teaches [that he must wash his garments] - [implying that] in the [priest's] garments [of priesthood, the rule] is [applied].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l24"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "This signal was how people in Jerusalem knew the rite was complete before the crimson thread.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] not in [the priest's] garments [of ordinary] profane [use] - [this is a crucial limitation of when the rule applies].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "The crimson thread: half tied to the cliff rock, half to the goat's horns.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and [the priest] becomes impure until [the] evening - [this teaches the extent of the impurity].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "When the goat fell, its half of the thread turned white - a supernatural sign of atonement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [on] the red heifer [that is] made [for] generations - [implying that for all future] generations, [this halakha applies].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "If it turned white: they rejoiced. If not: they were troubled, but the rite was still valid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [whether performed] by a common priest, and [not] based on the completion of the statute [from] the day [of its original performance].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "In Shimon HaTzaddik's time, it always turned white; later it became unreliable.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [for the Gemara is asking:] did [the procedure] become [fixed] on the day [Yom Kippur]? [This was] necessary to write [the word] 'priest' here.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "The verse 'though your sins be red as scarlet, they shall become white as snow' (Is. 1:18) is the basis.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to teach [that] it [the statute] is [performed] by [priests of all] generations, [not just the] High Priest.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The Gemara notes: this verse was fulfilled literally in the Temple era through the crimson thread.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [all of whom must wear] the [garments] of priesthood [when performing this] service.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l28"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "After Shimon HaTzaddik's death: sometimes white, sometimes not - this caused anxiety.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - '[the verse says:] a man for him to make fit the [stranger]' - from the [preceding verse, it appears that] a priest [is performing this task].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rabban Yochanan ben Zakkai, 40 years before the Destruction, observed the thread stopped turning.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the text] here [says] 'a man' [instead of 'the priest'] - [implying] that a non-priest [could perform this task].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "He said: 'Do not rely on the thread - it is a sign but not the atonement itself.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [therefore] if [the verse] had written '[and he shall] gather [the ashes] of the heifer,' [we would say].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "The actual atonement is through the goat being sent; the thread is a physical indicator.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - a priest [must gather them, since the previous verses mentioned] 'the priest' [throughout].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "The Gemara will now proceed to the bull's blood sprinkling in the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [now the text] here [writes] 'a man' - [this] 'man' [teaching teaches that] the priest [mentioned] in the previous [context is the basis].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Review: 43a covered the parah verse exposition, the Tsuk distance, and the goat's manner of death.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'a man' [to make fit] the woman - [the Gemara continues:] [from what source] do [we derive that] a pure [person].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "The page also established the signal relay system from Tsuk back to Jerusalem.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is [required for making fit the woman]? [The fact] that it is written [in the verse - this teaches].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Key halacha: the cliff must be 12 mil away; pushing backward; impurity begins at act of pushing.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Gemara brings proof from another verse] the Lord said [concerning the offering].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "The crimson thread's whitening is a sign of atonement, not the atonement itself.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding] the giving of water [to be placed] on the ashes in [a vessel of] earthen [ware].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The booth system shows the communal infrastructure built around this annual ceremony.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [after the verse states] 'and [he shall] gather' - [which emphasizes] after the gathering [comes the next phase].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The ish iti is treated with honor and provided for throughout his journey.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and it is written '[and they took it]' - [referring to] those [mentioned] in the gathering - [specifically] a non-Jew.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "His fasting is a custom of piety, not a requirement - he may eat if needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and a woman - [but] not a deaf-mute, an imbecile, or a minor.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The Tsuk cliff: the Gemara identifies it with modern topography based on the 12-mil measurement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [therefore, if] this [rule applies] - [then] because it stands [in the verse from the previous context, we could] say '[and] he shall take [it].'",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Other opinions about which cliff is intended; the main point is the distance requirement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [implying that] what [is mentioned] regarding the gathering - [in the] singular [form], [the text] has written it.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The goat pushed backward: various explanations for this unusual manner.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [regarding] a woman - from where [do we derive this]? - [and] so [too] an androgyne [applies] - because of [its] uncertain [status as a] woman.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "One explanation: to prevent the goat from turning back and clinging to the cliff edge.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and the Rabbis - [said] to him: 'For ever you [are] standing in the previous [context] - and from the fact that it is not written '[and] he shall take' [with the] singular [form].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "Another: the backward push symbolizes rejection and sending away - 'l'Azazel' means sent outward.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [from] this [negative phrasing] - [if the verse] had written '[and] he shall take [it] and [he himself] shall give [it] on the water,' [we would say].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "The verse says 'and he shall send it away to the wilderness by the hand of a man in his time.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'until [only] one [person] takes [some of] the ashes, and he himself gives it on the water' - it is written '[and] he shall take' [using the singular].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The 'man in his time' is the ish iti - designated for this task specifically.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [implying that even] if two [people] take [it] - [the rite is still valid].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "No one else may perform this act; if the ish iti dies, a replacement must be found immediately.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the verse] and [he shall take] hyssop - [the Gemara continues the discussion of which items are required].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "The Gemara examines what happens if the ish iti becomes incapacitated mid-journey.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [it is written] 'in the sprinkling with the water [of the heifer]' - and this [sprinkling] is [a] work [that occurs] after the sanctification.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "Answer: another person takes over - the sending is what matters, not who specifically does it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to the Rabbis - [who] said [that] the sanctification is made [using the ashes] of that [batch] - and in the gathering it is written 'a man.'",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "But the impurity falls on whoever actually performs the sending act.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [meaning] a pure [person] - [this is what] the [verse] means - a non-Jew and a woman [can perform] the gathering - on your life [you must understand it this way].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "Final ruling on 43a: all details of the Tsuk journey are confirmed; ish iti impurity is deliberate.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [because] a pure [person here does not mean] to make fit a non-Jew and a woman - [but rather, as it] were [to teach].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "Transition: with the goat sent, the High Priest returns to the Temple for the incense service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the] verse [must] be silent [about this matter], and [instead] it should write '[and] he shall take hyssop and [dip] in water and sprinkle' - and I know [that].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The incense offering inside the Holy of Holies is the next and most private act of Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the] fact [is that] in that [gathering, the rule] stands [and comes] from [the previous context] - [so] even if [we wrote] 'a man' [in the sprinkling verse], [we would say].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "No one may be in the Temple when the incense is offered - absolute solitude required.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - '[this means] not [that] a woman [is excluded]' - on your life [this would be] the implication [from the] directly [stated meaning].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "This will be the focus of 43b-44b: the incense laws and who must leave during the offering.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding] a pure [person] to make fit a minor - [the Gemara rules:] from [the fact that] he is disqualified [in] the sanctification.",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "The Gemara prepares by completing all the goat-ceremony halakhot first.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [regarding the view] to Rabbi Yehuda - [who] said [that] a woman [is disqualified] in the sanctification, and a minor [is] fit - [therefore the teaching] comes [in reverse order].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "43a is a dense legal exposition of Numbers 19 verses combined with Yom Kippur avodah details.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [teaching that] a man [is required] - not a minor - [and] a pure [person] to make fit [a] woman - [this] of necessity [means that] there is no [way] to say [that] 'a man' [and] 'pure' [means] 'from the implication' [alone].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     },
     {
       "vilnaLine": 65,
-      "en": "The parah adumah and the Azazel goat share important structural parallels explored throughout these daf.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [this] is the end [of the detailed discussion on the parah adumah specifications and requirements on 43a].",
+      "linkedGemaraLineIds": [
+        "yoma-043a-l35"
+      ]
     }
   ]
 }
