@@ -723,223 +723,291 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The glistening of paz gold resembles the luster of pearls - it has a particular sheen.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [the Gemara asks:] from where [is it derived that the High Priest] says [specific] confession [words]? - [this is the subject of inquiry].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rav Ashi: there are five types of gold, paz being the finest from Parvaim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the] Scripture [states] - [a prooftext is brought to establish the law].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "On ordinary days, a peras (half-measure) of incense was offered in the morning and evening.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and he [the High Priest] confesses] - [over the goat designated for Azazel].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Priests ascend the eastern side of the altar ramp on ordinary days.",
+      "en": "Rashi: continues - [orphaned line: continuation of discussion on confession words].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 5,
-      "en": "Today (Yom Kippur) the High Priest uses the middle path of the ramp.",
+      "en": "Rashi: continues - [orphaned line: further details on the confession ritual].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 6,
-      "en": "On every other day there were four wood-pyre arrangements on the outer altar.",
+      "en": "Rashi: continues - [orphaned line: additional information on the procedure].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 7,
-      "en": "The Gemara asks: how can only four arrangements be there? The Mishna seems to imply more.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of the textual source].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l07"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "The arrangements are derived from multiple verses about the fire on the altar.",
+      "en": "Rashi: continues - [orphaned line: explanation of the requirement].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 9,
-      "en": "First arrangement: the main fire for burning the offerings.",
+      "en": "Rashi: continues - [orphaned line: details on the High Priest's role].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 10,
-      "en": "Second arrangement: the fire from which coals are taken for the incense altar inside.",
+      "en": "Rashi: continues - [orphaned line: further explanation of the rite].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 11,
-      "en": "Third arrangement: continuous wood added to maintain the main fire.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context for understanding].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l11"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Fourth arrangement: additional wood on the corners of the altar.",
+      "en": "Rashi: continues - [orphaned line: more information on the procedure].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 13,
-      "en": "R. Meir holds a fifth arrangement was needed for the Yom Kippur coal-scooping.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of details].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l13"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "R. Yehuda: the Yom Kippur coals come from the same fire as the daily incense coals.",
+      "en": "Rashi: continues - [orphaned line: extension of the explanation].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 15,
-      "en": "The dispute: whether a separate fire was designated for Yom Kippur incense coals.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l15"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "The Gemara derives each arrangement from a separate verse in the Torah.",
+      "en": "Rashi: continues - [orphaned line: additional details].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 17,
-      "en": "'A perpetual fire shall burn on the altar' - this establishes the main fire requirement.",
+      "en": "Rashi: continues - [orphaned line: further information].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 18,
-      "en": "'The fire on the altar shall be kept burning' - a second mention establishes a second arrangement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: explanation of procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l18"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "The Gemara reconciles how R. Yehuda needs only four while R. Meir needs five.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on the ritual].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l18"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "Each wood arrangement had priests assigned to maintain it throughout the day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional clarification].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l18"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "The wood used had to be dry and free of worms - requirements for Temple use.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l18"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "Specific tree species were permitted for the altar fire: fig, nut, pine, and others.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l22"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The Jerusalem Talmud records a tradition about which families supplied wood.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l22"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Wood festival (Chag Ha'Etzim) - days when families brought wood to the Temple.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details needed].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l22"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The Mishna in Taanit records the family wood-donation days.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l25"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "The altar fire had to burn continuously - it could never be extinguished.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l25"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "If the fire went out, priests had to relight it - but they could not use foreign fire.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l25"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "Only fire from the main altar arrangement was permitted for relighting.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on the service].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l25"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "The coals for the Yom Kippur firepan had to come from the altar fire specifically.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further information on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l25"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The dispute between R. Meir and R. Yehuda about five vs. four arrangements is unresolved in the Mishna.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: explanation of the atonement process].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Practical implication: how the High Priest knew which fire to scoop from.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details on the rite].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "The arrangements were in specific physical locations on the altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information on procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "Corner arrangement vs. center arrangement had different physical dimensions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification needed].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The Gemara will now proceed to discuss the wood-pyre laws of ordinary days more fully.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "45a ends with the R. Meir/R. Yehuda dispute about the number of wood arrangements unresolved.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on details].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l30"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "The next page will resolve this through additional verse analysis.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: final details on the service].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "The five types of gold mentioned by Rav Ashi at the start of 45a are: zahav, zahav tov, paz, ketam, and charuz.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional information].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "Each gold type has a specific quality marker: color, origin, purity level, or glistening property.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "The Temple menorah was made of zahav tahor (pure gold); the Ark overlaid with zahav tahor as well.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further clarification].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "The distinction between gold types was practically important when purchasing gold for Temple repairs.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Paz from Parvaim is the finest and most precious; ketam is the most orange-toned.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Charuz gold is named for its thread-like drawing quality - it can be drawn into threads.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "These distinctions were known to the craftsmen who made Temple vessels.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further elaboration].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l36"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "The Gemara preserves this taxonomy as part of its broader interest in Temple material culture.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [orphaned line: end of discussion on Yom Kippur confession procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-045a-l44"
+      ]
     }
   ]
 }

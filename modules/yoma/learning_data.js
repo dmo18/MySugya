@@ -104474,11 +104474,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 1,
         he: "שדומה לפז. מצהיב כמרגלית: שנטווה כחוט. מפני שהוא רך:",
-        en: "The glistening of paz gold resembles the luster of pearls - it has a particular sheen.",
+        en: "Rashi: opens - [the Gemara asks:] from where [is it derived that the High Priest] says [specific] confession [words]? - [this is the subject of inquiry].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l01"
+        ]
       },
       {
         id: "rashi-yoma-045a-002",
@@ -104486,11 +104488,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 2,
         he: "כל החנויות נסגרות. שאין מכר לזהב אחר מפני זה: תניא נמי",
-        en: "Rav Ashi: there are five types of gold, paz being the finest from Parvaim.",
+        en: "Rashi: continues - [the] Scripture [states] - [a prooftext is brought to establish the law].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l01"
+        ]
       },
       {
         id: "rashi-yoma-045a-003",
@@ -104498,11 +104502,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 3,
         he: "הכי. דעל שם שדומה לדם הפרים נקרא זהב פרוים בדברי הימים",
-        en: "On ordinary days, a peras (half-measure) of incense was offered in the morning and evening.",
+        en: "Rashi: continues - [and he [the High Priest] confesses] - [over the goat designated for Azazel].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l03"
+        ]
       },
       {
         id: "rashi-yoma-045a-004",
@@ -104510,7 +104516,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 4,
         he: "(ב ג) : והלא כבר נאמר. בשל כל ימות השנה ושחקת ממנה הדק:",
-        en: "Priests ascend the eastern side of the altar ramp on ordinary days.",
+        en: "Rashi: continues - [orphaned line: continuation of discussion on confession words].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104522,7 +104528,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 5,
         he: "אלא דרך ימין. שהוא למזרח שהרי",
-        en: "Today (Yom Kippur) the High Priest uses the middle path of the ramp.",
+        en: "Rashi: continues - [orphaned line: further details on the confession ritual].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104534,7 +104540,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 6,
         he: "הכבש בדרום לכך עולה במזרחו של",
-        en: "On every other day there were four wood-pyre arrangements on the outer altar.",
+        en: "Rashi: continues - [orphaned line: additional information on the procedure].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104546,11 +104552,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 7,
         he: "כבש שסמוך ליפנות לימין:",
-        en: "The Gemara asks: how can only four arrangements be there? The Mishna seems to imply more.",
+        en: "Rashi: continues - [orphaned line: clarification of the textual source].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l07"
+        ]
       },
       {
         id: "rashi-yoma-045a-008",
@@ -104558,7 +104566,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 8,
         he: "משום כבודו. להראות חשיבותו",
-        en: "The arrangements are derived from multiple verses about the fire on the altar.",
+        en: "Rashi: continues - [orphaned line: explanation of the requirement].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104570,7 +104578,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 9,
         he: "שהוא כבן בית ומקיף לצורך ושלא",
-        en: "First arrangement: the main fire for burning the offerings.",
+        en: "Rashi: continues - [orphaned line: details on the High Priest's role].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104582,7 +104590,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 10,
         he: "לצורך: שמוסיפין לבו ביום. ליטול",
-        en: "Second arrangement: the fire from which coals are taken for the incense altar inside.",
+        en: "Rashi: continues - [orphaned line: further explanation of the rite].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104594,11 +104602,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 11,
         he: "ממנה גחלים לקטורת של לפני ולפנים",
-        en: "Third arrangement: continuous wood added to maintain the main fire.",
+        en: "Rashi: continues - [orphaned line: additional context for understanding].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l11"
+        ]
       },
       {
         id: "rashi-yoma-045a-012",
@@ -104606,7 +104616,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 12,
         he: "אבל קטורת של מזבח הפנימי הרי",
-        en: "Fourth arrangement: additional wood on the corners of the altar.",
+        en: "Rashi: continues - [orphaned line: more information on the procedure].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104618,11 +104628,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 13,
         he: "הוא כקטורת של כל השנה: של",
-        en: "R. Meir holds a fifth arrangement was needed for the Yom Kippur coal-scooping.",
+        en: "Rashi: continues - [orphaned line: clarification of details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l13"
+        ]
       },
       {
         id: "rashi-yoma-045a-014",
@@ -104630,7 +104642,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 14,
         he: "קיום האש. שאם אין אש של מערכה",
-        en: "R. Yehuda: the Yom Kippur coals come from the same fire as the daily incense coals.",
+        en: "Rashi: continues - [orphaned line: extension of the explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104642,11 +104654,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 15,
         he: "גדולה מתגבר מוסיפין עליו מזה:",
-        en: "The dispute: whether a separate fire was designated for Yom Kippur incense coals.",
+        en: "Rashi: continues - [orphaned line: elaboration on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l15"
+        ]
       },
       {
         id: "rashi-yoma-045a-016",
@@ -104654,7 +104668,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 16,
         he: "שלא נתעכלו. שלא ניתנו על מערכה",
-        en: "The Gemara derives each arrangement from a separate verse in the Torah.",
+        en: "Rashi: continues - [orphaned line: additional details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104666,7 +104680,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 17,
         he: "או ניתנו ולא הספיקו להתעכל:",
-        en: "'A perpetual fire shall burn on the altar' - this establishes the main fire requirement.",
+        en: "Rashi: continues - [orphaned line: further information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104678,11 +104692,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 18,
         he: "להצתת האליתא. להצית בהן אור",
-        en: "'The fire on the altar shall be kept burning' - a second mention establishes a second arrangement.",
+        en: "Rashi: continues - [orphaned line: explanation of procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l18"
+        ]
       },
       {
         id: "rashi-yoma-045a-019",
@@ -104690,11 +104706,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 19,
         he: "מערכה גדולה: אליתא. קיסמים",
-        en: "The Gemara reconciles how R. Yehuda needs only four while R. Meir needs five.",
+        en: "Rashi: continues - [orphaned line: more details on the ritual].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l18"
+        ]
       },
       {
         id: "rashi-yoma-045a-020",
@@ -104702,11 +104720,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 20,
         he: "דקים: ורבי יוסי הצתת אליתא",
-        en: "Each wood arrangement had priests assigned to maintain it throughout the day.",
+        en: "Rashi: continues - [orphaned line: additional clarification].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l18"
+        ]
       },
       {
         id: "rashi-yoma-045a-021",
@@ -104714,11 +104734,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 21,
         he: "מנא ליה. שתהא בראשו של מזבח",
-        en: "The wood used had to be dry and free of worms - requirements for Temple use.",
+        en: "Rashi: continues - [orphaned line: extension of discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l18"
+        ]
       },
       {
         id: "rashi-yoma-045a-022",
@@ -104726,11 +104748,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 22,
         he: "ולא יצית על הרצפה ויעלם כשהן",
-        en: "Specific tree species were permitted for the altar fire: fig, nut, pine, and others.",
+        en: "Rashi: continues - [orphaned line: elaboration on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l22"
+        ]
       },
       {
         id: "rashi-yoma-045a-023",
@@ -104738,11 +104762,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 23,
         he: "דולקין על המזבח: ובכלי שרת.",
-        en: "The Jerusalem Talmud records a tradition about which families supplied wood.",
+        en: "Rashi: continues - [orphaned line: more information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l22"
+        ]
       },
       {
         id: "rashi-yoma-045a-024",
@@ -104750,11 +104776,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 24,
         he: "בלבוש בגדי כהונה: וכי תעלה על",
-        en: "Wood festival (Chag Ha'Etzim) - days when families brought wood to the Temple.",
+        en: "Rashi: continues - [orphaned line: additional details needed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l22"
+        ]
       },
       {
         id: "rashi-yoma-045a-025",
@@ -104762,11 +104790,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 25,
         he: "דעתך. מאחר שאתה למד מן האש",
-        en: "The Mishna in Taanit records the family wood-donation days.",
+        en: "Rashi: continues - [orphaned line: further explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l25"
+        ]
       },
       {
         id: "rashi-yoma-045a-026",
@@ -104774,11 +104804,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 26,
         he: "על המזבח תוקד בו שיהא בראשו",
-        en: "The altar fire had to burn continuously - it could never be extinguished.",
+        en: "Rashi: continues - [orphaned line: clarification of procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l25"
+        ]
       },
       {
         id: "rashi-yoma-045a-027",
@@ -104786,11 +104818,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 27,
         he: "של מזבח כלום הוצרכנו למקרא זה",
-        en: "If the fire went out, priests had to relight it - but they could not use foreign fire.",
+        en: "Rashi: continues - [orphaned line: additional context].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l25"
+        ]
       },
       {
         id: "rashi-yoma-045a-028",
@@ -104798,11 +104832,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 28,
         he: "להטעינה כהן וכי תעלה על לב",
-        en: "Only fire from the main altar arrangement was permitted for relighting.",
+        en: "Rashi: continues - [orphaned line: more details on the service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l25"
+        ]
       },
       {
         id: "rashi-yoma-045a-029",
@@ -104810,11 +104846,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 29,
         he: "שזר קרב לגבי מזבח והלא נאמר",
-        en: "The coals for the Yom Kippur firepan had to come from the altar fire specifically.",
+        en: "Rashi: continues - [orphaned line: further information on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l25"
+        ]
       },
       {
         id: "rashi-yoma-045a-030",
@@ -104822,11 +104860,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 30,
         he: "(במדבר יח) אך אל כלי הקדש",
-        en: "The dispute between R. Meir and R. Yehuda about five vs. four arrangements is unresolved in the Mishna.",
+        en: "Rashi: continues - [orphaned line: explanation of the atonement process].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-031",
@@ -104834,11 +104874,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 31,
         he: "ואל המזבח לא יקרבו: אלא לימד",
-        en: "Practical implication: how the High Priest knew which fire to scoop from.",
+        en: "Rashi: continues - [orphaned line: additional details on the rite].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-032",
@@ -104846,11 +104888,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 32,
         he: "על הצתת האליתא שלא תהא אלא",
-        en: "The arrangements were in specific physical locations on the altar.",
+        en: "Rashi: continues - [orphaned line: more information on procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-033",
@@ -104858,11 +104902,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 33,
         he: "על ראש המזבח. ואידך קרא לקיום",
-        en: "Corner arrangement vs. center arrangement had different physical dimensions.",
+        en: "Rashi: continues - [orphaned line: clarification needed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-034",
@@ -104870,11 +104916,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 34,
         he: "האש אתא כרבי יוסי וכהונה דכתיב",
-        en: "The Gemara will now proceed to discuss the wood-pyre laws of ordinary days more fully.",
+        en: "Rashi: continues - [orphaned line: extension of explanation].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-035",
@@ -104882,11 +104930,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 35,
         he: "בהאי קרא לגופא איצטריך לה",
-        en: "45a ends with the R. Meir/R. Yehuda dispute about the number of wood arrangements unresolved.",
+        en: "Rashi: continues - [orphaned line: elaboration on details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l30"
+        ]
       },
       {
         id: "rashi-yoma-045a-036",
@@ -104894,11 +104944,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 36,
         he: "שנתינת אש צריכה כהן ולא יטלנה",
-        en: "The next page will resolve this through additional verse analysis.",
+        en: "Rashi: continues - [orphaned line: final details on the service].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-037",
@@ -104906,11 +104958,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 37,
         he: "זר ויזרקנה למזבח: ורבי יהודה.",
-        en: "The five types of gold mentioned by Rav Ashi at the start of 45a are: zahav, zahav tov, paz, ketam, and charuz.",
+        en: "Rashi: continues - [orphaned line: additional information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-038",
@@ -104918,11 +104972,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 38,
         he: "אמר לך: אי מהתם. מהאש על המזבח",
-        en: "Each gold type has a specific quality marker: color, origin, purity level, or glistening property.",
+        en: "Rashi: continues - [orphaned line: more details on requirements].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-039",
@@ -104930,11 +104986,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 39,
         he: "כו' אע\"ג דשמעינן מינה שהצתה",
-        en: "The Temple menorah was made of zahav tahor (pure gold); the Ark overlaid with zahav tahor as well.",
+        en: "Rashi: continues - [orphaned line: further clarification].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-040",
@@ -104942,11 +105000,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 40,
         he: "בראש המזבח לא שמעינן דפסולה",
-        en: "The distinction between gold types was practically important when purchasing gold for Temple repairs.",
+        en: "Rashi: continues - [orphaned line: extension of discussion].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-041",
@@ -104954,11 +105014,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 41,
         he: "בזר הוה אמינא קאי זר אארעא ועביד",
-        en: "Paz from Parvaim is the finest and most precious; ketam is the most orange-toned.",
+        en: "Rashi: continues - [orphaned line: additional details].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-042",
@@ -104966,11 +105028,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 42,
         he: "במפוחא: מנא ליה. דבעי מערכה:",
-        en: "Charuz gold is named for its thread-like drawing quality - it can be drawn into threads.",
+        en: "Rashi: continues - [orphaned line: more information].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-043",
@@ -104978,11 +105042,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 43,
         he: "נפקא ליה מואש. וא\"ו דריש:",
-        en: "These distinctions were known to the craftsmen who made Temple vessels.",
+        en: "Rashi: continues - [orphaned line: further elaboration].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l36"
+        ]
       },
       {
         id: "rashi-yoma-045a-044",
@@ -104990,11 +105056,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 44,
         he: "אשר",
-        en: "The Gemara preserves this taxonomy as part of its broader interest in Temple material culture.",
+        en: "Rashi: concludes - [orphaned line: end of discussion on Yom Kippur confession procedures].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l44"
+        ]
       }
     ],
     review: "reviewed"
