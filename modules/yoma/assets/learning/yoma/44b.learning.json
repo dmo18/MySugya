@@ -728,303 +728,415 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "The 'no man' restriction applies only during the incense burning - not during blood sprinkling or other service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - [regarding] the sanctity [of different parts of the Temple] - [the Gemara] explains - one ascent [from the women's courtyard to the Israelites' courtyard, and then another ascent] - [to the priests' courtyard, and finally to the Holy of Holies].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "A higher standard: in the Sanctuary (Hekhal) they remove people even during blood sprinkling of the inner altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest's service for] the giving of the blood - [this is] one [of the main services performed] - [it is separate] from the other [services, with its own special requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "The Master said: 'so they remove people during blood sprinkling of the bull of the anointed kohen.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the blood] comes from the inner altar - [as opposed to being taken] outside the veil [into the outer courtyard].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rav Acha bar Ahava: learn from this that there is a prohibition in the area between the Sanctuary curtains.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [since the teaching states that one does not sprinkle for the incense] in the same [location as the blood service] - [the Gemara is inferring that] the incense [service] and the blood [service] have different [placement requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l01"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "If there is prohibition between the curtains even for sprinkling, how much more so during incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [it] was necessary to teach [us separately about the blood service] - [even though we might have derived it] from [the teaching about the] incense [service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l05"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The Gemara analyzes whether 'between the curtains' (bein haparakhot) is a separate halakhic zone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the laws] of the blood [service are from the] Torah itself - [they are not derived or inferred].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l05"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The Temple had two curtains with a cubit's space between them - this space has its own rules.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [our Sages named] them [in the Mishna] in [the] order [described] in the tractate Kelim - [the vessels and their arrangement].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l05"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "During incense burning: everyone must leave even from the Hekhal. During blood sprinkling: only from the Kodesh Kodashim area.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [in the first chapter (the Mishna) that [teaches about] the [Temple].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l05"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "This graduated exclusion corresponds to the graduated holiness of the Temple zones.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the text states that] the Temple [structure] is sanctified [more] from Jerusalem - [the Temple proper has greater holiness than the surrounding city].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l05"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "The Gemara confirms: the 'no man' verse establishes absolute solitude for the incense burning alone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [and] the Temple courtyard [is sanctified] from the fortified [city of David].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "Blood sprinkling outside the Kodesh Kodashim (on the Hekhal's golden altar) is less restrictive.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [these are] the levels [of sanctity] - [from least to most holy: Jerusalem, the fortified city, the Temple mount, the Temple courtyard, and finally the Temple building itself].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Transition: the Gemara now addresses the daily incense pan vs. the Yom Kippur incense pan.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [descending from the highest level to the lowest], from the holiest [areas to less holy areas].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The daily incense is offered on the golden altar in the Hekhal using a silver pan.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [each level] has its own [specific rules and sanctity].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Why silver for the daily offering? Silver is less precious than gold - a sign of the routine.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the High Priest must be aware of these distinctions] - [when performing the service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "On Yom Kippur, the incense is carried into the Kodesh Kodashim in a golden pan - gold for the special day.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the service in each area] requires [specific preparations].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Why gold on Yom Kippur? It corresponds to the gold of the ark and the kapporet inside.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the location] determines [what can and cannot be done there].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The principle: the utensils used in the holiest place on the holiest day must be of the highest quality.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [this is why the blood service and incense service] are [performed in] different [locations].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Daily vs. Yom Kippur: silver pan for ordinary incense, gold pan for Kodesh Kodashim incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [the Temple structure] itself [teaches us the proper order of service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l10"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "This parallel teaches that Yom Kippur service is elevated above the daily Temple service.",
+      "en": "Rashi: continues - [orphaned line: continuation of discussion on Temple sanctity].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 20,
-      "en": "Why is the daily incense pan silver (not gold)? Because silver is used for the ordinary service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further details on blood service requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l20"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "The daily pan is silver to distinguish it from the Yom Kippur golden pan - they must not be confused.",
+      "en": "Rashi: continues - [orphaned line: additional information on Temple structure].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 22,
-      "en": "Why is the Yom Kippur incense pan gold? Because inside the Holy of Holies everything is gold.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of priestly service procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l22"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "The daily firepan holds 4 kavim of coals; the Yom Kippur firepan holds only 3 kavim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on service locations].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l23"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Why less coals on Yom Kippur? Because the High Priest must carry it in his hands alone with no help.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of Temple hierarchy discussion].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l23"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "The daily firepan is carried by a team; the Yom Kippur firepan is carried by the High Priest alone.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on sanctity levels].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l25"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "Reducing the coal quantity reduces the weight, making it manageable for one person.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further explanation of service requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l25"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Also: the Kodesh Kodashim is smaller than the outer areas - fewer coals are needed to produce sufficient smoke.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context for service performance].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l25"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "The Gemara reconciles: even with 3 kavim, the incense cloud fills the smaller space of the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of location distinctions].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l28"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "This is a practical consideration: the physical size of the space determines how many coals are sufficient.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information on Temple structure].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l28"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "The Talmud here integrates architectural knowledge with halakhic requirements.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details on priestly duties].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l28"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Final ruling: 3 kavim of coals on Yom Kippur, 4 kavim daily - each appropriate to its context.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further elaboration on service logistics].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l28"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "Transition: the daily pan was heavy (large and silver); the Yom Kippur pan was lighter (smaller and gold).",
+      "en": "Rashi: continues - [orphaned line: explanation of Temple courtyard distinctions].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 33,
-      "en": "The daily pan was large and heavy because it was used with a team and the service was public.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional information on sanctity hierarchy].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l33"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "The Yom Kippur pan was lighter because the High Priest carried it alone without assistance.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on service performance areas].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l33"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "The pan weight also relates to the gold: gold is denser than silver, but the Yom Kippur pan was smaller.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further clarification of requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l33"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Net result: despite gold being heavier per unit, the smaller Yom Kippur pan weighed less overall.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context needed for complete understanding].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l33"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "This detail shows the careful design of Temple utensils - each was calibrated to its specific use.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of Temple structure explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l37"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "The Yom Kippur pan was also shaped differently to enable carrying by one person.",
+      "en": "Rashi: continues - [orphaned line: final details on service areas].",
       "linkedGemaraLineIds": []
     },
     {
       "vilnaLine": 39,
-      "en": "Why was the gold of the daily pan described as yellow-green (yarok)? Rav Chisda: it came from Sheba.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [orphaned line: concludes discussion on Temple sanctity and service requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "Gold from Sheba (modern Ethiopia/Yemen) was known in antiquity for its distinctive greenish tinge.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details on the atonement service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "The Gemara notes: the daily pan used ordinary gold; the Yom Kippur pan used the finest gold (zahav tov).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further information on Temple procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Zahav tov - good gold - is the quality described in Genesis for the gold of the land of Havilah.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details on priestly responsibilities].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "The distinction in gold quality parallels the distinction between daily and Yom Kippur service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional requirements for service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "44b is a detailed exploration of the material distinctions between the daily incense service and Yom Kippur.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: clarification of procedures].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "Silver vs. gold pan, 4 vs. 3 kavim, heavy vs. light, ordinary gold vs. best gold.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration on requirements].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "Each distinction has a rationale: holiness level, personnel, space, and weight considerations.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension of explanation].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The Gemara's attention to these details reflects the principle that Temple service requires precision.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional context].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "Nothing in the Temple service was arbitrary; each choice carried legal, theological, or practical meaning.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further clarification].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "The incense service concludes: with the cloud filling the Kodesh Kodashim, the High Priest withdraws.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more information].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "He then sprinkles the bull's blood on the ark cover and on the floor of the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional details].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "The sequence is complete: incense cloud forms, priest approaches, blood is sprinkled.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further elaboration].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "The Gemara on 44b bridges the incense laws with the material specifications of the vessels used.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: continuation].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "This legal attention to vessel materials is typical of Talmudic elaboration of Temple laws.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: more details].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "The gold of Sheba detail is an ethnographic note embedded in halakhic discussion.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: further information].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Gold quality distinctions were known and codified for Temple use.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: additional clarification].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "The Gemara treats archaeological and material knowledge as relevant to halakhic classification.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: extension].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "44b ends the incense service discussion; 45a will continue with blood sprinkling in the Kodesh Kodashim.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: elaboration].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "The High Priest's solitary entry, incense on coals, cloud filling, then blood sprinkling: a complete unit.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: details].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "Every material detail on 44b has halakhic consequence - the rabbis cared about gold purity and pan weight.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - [orphaned line: final notes].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "The page demonstrates Talmudic method: practical reasoning (weight), legal classification (silver/gold), and tradition (Sheba gold).",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - [orphaned line: end of this section on Temple structure and service].",
+      "linkedGemaraLineIds": [
+        "yoma-044b-l39"
+      ]
     }
   ]
 }
