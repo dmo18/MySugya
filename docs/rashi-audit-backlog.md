@@ -5068,3 +5068,16 @@ an audit-only task type limited to docs/reports/* and backlog notes; a
 machine-readable worker:report template; and a REVIEW GATE notice for
 fableReviewRequired task types. No gate weakened; no content changed;
 all documented content defects and 47a/nekudot remain untouched.
+
+### Schema-wide pipeline coverage (VERSION 15.82, process note)
+
+Tooling only. All 85 schema-controlled learning JSON paths are now
+classified (scripts/worker_schema_scope.json) and mechanically owned:
+the worker scope gate became a generic jsonScope engine with exact
+JSON-pointer errors, seven enrichment task types were added, and
+worker:schema-matrix fails any drift between inventory and registry.
+A 15-case negative-test battery and 12 task-type dry runs all pass.
+One schema-drift observation recorded: argumentFlow sourceRefs entries
+are strings on some daf and objects on others; normalization deferred
+to a future structural-repair pass. No content changed; all documented
+defects and 47a/nekudot remain untouched.

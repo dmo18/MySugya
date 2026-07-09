@@ -226,7 +226,34 @@
     "allowStructure"
    ],
    "fieldEnforcement": "strict-json-diff",
-   "fableReviewRequired": true
+   "fableReviewRequired": true,
+   "jsonScope": {
+    "mutable": [
+     "sugyot[*].display.whats",
+     "sugyot[*].display.hint",
+     "sugyot[*].display.title",
+     "sugyot[*].learning.ahaMoment",
+     "sugyot[*].learning.memoryAnchor",
+     "sugyot[*].learning.learnerQuestion",
+     "sugyot[*].learning.coreTension",
+     "sugyot[*].learning.coreMove",
+     "sugyot[*].learning.learningBlocker",
+     "sugyot[*].learning.takeaway.text"
+    ],
+    "flagMutable": {
+     "authorizeGlossary": [
+      "glossary[*]",
+      "sugyot[*].glossary[*]"
+     ],
+     "authorizeQuizSeeds": [
+      "sugyot[*].quizSeeds[*]"
+     ],
+     "authorizeTakeawayType": [
+      "sugyot[*].learning.takeaway.type"
+     ]
+    },
+    "structureFlag": "allowStructure"
+   }
   },
   "literal-layer": {
    "description": "en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.",
@@ -428,6 +455,535 @@
    "escalationTriggers": [
     "any finding that suggests content on main is wrong (report it; do not fix it)"
    ]
+  },
+  "display-only-edit": {
+   "description": "Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The Haiku-safe entry point for enrichment copy work.",
+   "model": "haiku",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "sugyot[*].display.whats",
+    "sugyot[*].display.hint",
+    "sugyot[*].display.title",
+    "sugyot[*].display.oneLine",
+    "sugyot[*].display.shortSummary"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": true,
+   "maxBatch": 2,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "sugyot[*].display.whats",
+     "sugyot[*].display.hint",
+     "sugyot[*].display.title",
+     "sugyot[*].display.oneLine",
+     "sugyot[*].display.shortSummary"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "uncertainty about what the sugya actually says (do not re-derive content)",
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": true
+  },
+  "learning-copy-edit": {
+   "description": "Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Fable/Sonnet only.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "sugyot[*].learning.ahaMoment",
+    "sugyot[*].learning.coreMove",
+    "sugyot[*].learning.coreTension",
+    "sugyot[*].learning.learnerQuestion",
+    "sugyot[*].learning.learningBlocker",
+    "sugyot[*].learning.memoryAnchor",
+    "sugyot[*].learning.reasoningPattern.category",
+    "sugyot[*].learning.reasoningPattern.id",
+    "sugyot[*].learning.reasoningPattern.notes",
+    "sugyot[*].learning.resolution",
+    "sugyot[*].learning.takeaway.text"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure",
+    "authorizeAlternateAngles",
+    "authorizeTakeawayType"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "sugyot[*].learning.ahaMoment",
+     "sugyot[*].learning.coreMove",
+     "sugyot[*].learning.coreTension",
+     "sugyot[*].learning.learnerQuestion",
+     "sugyot[*].learning.learningBlocker",
+     "sugyot[*].learning.memoryAnchor",
+     "sugyot[*].learning.reasoningPattern.category",
+     "sugyot[*].learning.reasoningPattern.id",
+     "sugyot[*].learning.reasoningPattern.notes",
+     "sugyot[*].learning.resolution",
+     "sugyot[*].learning.takeaway.text"
+    ],
+    "flagMutable": {
+     "authorizeTakeawayType": [
+      "sugyot[*].learning.takeaway.type"
+     ],
+     "authorizeAlternateAngles": [
+      "sugyot[*].alternateAngles"
+     ]
+    },
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
+  },
+  "glossary-edit": {
+   "description": "Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "glossary[*].he",
+    "glossary[*].translit",
+    "glossary[*].en",
+    "sugyot[*].glossary[*].he",
+    "sugyot[*].glossary[*].translit",
+    "sugyot[*].glossary[*].en",
+    "sugyot[*].concepts[*].term",
+    "sugyot[*].concepts[*].he",
+    "sugyot[*].concepts[*].translit",
+    "sugyot[*].concepts[*].def"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "glossary[*].he",
+     "glossary[*].translit",
+     "glossary[*].en",
+     "sugyot[*].glossary[*].he",
+     "sugyot[*].glossary[*].translit",
+     "sugyot[*].glossary[*].en",
+     "sugyot[*].concepts[*].term",
+     "sugyot[*].concepts[*].he",
+     "sugyot[*].concepts[*].translit",
+     "sugyot[*].concepts[*].def"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
+  },
+  "quiz-edit": {
+   "description": "quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Fable/Sonnet only.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "sugyot[*].quizSeeds[*].question",
+    "sugyot[*].quizSeeds[*].answer",
+    "sugyot[*].quizSeeds[*].type",
+    "sugyot[*].misconceptions[*].misconception",
+    "sugyot[*].misconceptions[*].correction",
+    "sugyot[*].misconceptions[*].correctedByStepId"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "sugyot[*].quizSeeds[*].question",
+     "sugyot[*].quizSeeds[*].answer",
+     "sugyot[*].quizSeeds[*].type",
+     "sugyot[*].misconceptions[*].misconception",
+     "sugyot[*].misconceptions[*].correction",
+     "sugyot[*].misconceptions[*].correctedByStepId"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
+  },
+  "summary-edit": {
+   "description": "Top-level daf summary copy edits.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "summary"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "summary"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
+  },
+  "structural-repair": {
+   "description": "Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Fable only.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "sugyot[*].argumentFlow[*]",
+    "sugyot[*].lineRange",
+    "sugyot[*].lines[*]",
+    "sugyot[*].sefariaRefs[*]",
+    "sugyot[*].conceptRefs[*]",
+    "sugyot[*].id",
+    "sugyot[*].sugyaNumber",
+    "sugyot[*].sourceLinks",
+    "sugyot[*].relatedSugyot[*]",
+    "sugyot[*].requiresUnderstanding[*]",
+    "sugyot[*].topicTags[*]",
+    "sugyot[*].visualizableElements[*]",
+    "sugyot[*].difficulty",
+    "sugyot[*].finalRuling",
+    "sugyot[*].quizSeeds[*].sourceRefs[*]",
+    "canonicalRef"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "sugyot[*].argumentFlow[*]",
+     "sugyot[*].lineRange",
+     "sugyot[*].lines[*]",
+     "sugyot[*].sefariaRefs[*]",
+     "sugyot[*].conceptRefs[*]",
+     "sugyot[*].id",
+     "sugyot[*].sugyaNumber",
+     "sugyot[*].sourceLinks",
+     "sugyot[*].relatedSugyot[*]",
+     "sugyot[*].requiresUnderstanding[*]",
+     "sugyot[*].topicTags[*]",
+     "sugyot[*].visualizableElements[*]",
+     "sugyot[*].difficulty",
+     "sugyot[*].finalRuling",
+     "sugyot[*].quizSeeds[*].sourceRefs[*]",
+     "canonicalRef"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any ambiguity about the correct structure (verify against source_store and talmuddev first)",
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
+  },
+  "metadata-review-status": {
+   "description": "Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
+    ".worker-manifest.json"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "allowedJsonPaths": [
+    "review",
+    "review.argumentFlow",
+    "review.concepts",
+    "review.content",
+    "review.learning",
+    "review.sourceRefs",
+    "review.status",
+    "review.version",
+    "sugyot[*].review",
+    "sugyot[*].review.argumentFlow",
+    "sugyot[*].review.concepts",
+    "sugyot[*].review.content",
+    "sugyot[*].review.learning",
+    "sugyot[*].review.sourceRefs"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "requires-authorization",
+   "fableReviewRequired": false,
+   "maxBatch": 1,
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "jsonScope": {
+    "mutable": [
+     "review",
+     "review.argumentFlow",
+     "review.concepts",
+     "review.content",
+     "review.learning",
+     "review.sourceRefs",
+     "review.status",
+     "review.version",
+     "sugyot[*].review",
+     "sugyot[*].review.argumentFlow",
+     "sugyot[*].review.concepts",
+     "sugyot[*].review.content",
+     "sugyot[*].review.learning",
+     "sugyot[*].review.sourceRefs"
+    ],
+    "flagMutable": {},
+    "structureFlag": "allowStructure"
+   },
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "any change outside the mutable path set would be needed"
+   ],
+   "haikuAllowed": false
   }
  }
 }
