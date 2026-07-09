@@ -397,14 +397,14 @@
       "vilnaLine": 2,
       "en": "Rashi continues: the conclusion that tzitz only atones for tumah she-hutrah l'tzibbur - established. The word 'ha' introduces the logical consequence of the chain of reasoning in 7a.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l02"
+        "yoma-007b-l01"
       ]
     },
     {
       "vilnaLine": 3,
       "en": "Rashi: 'the baraita states that it was permitted for the community' - this phrase is the key proof. 'Permitted' (hutrah) means the prohibition is fully suspended for the tzibbur, not merely overridden (dchuya). This is what the tzitz atones for.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l03"
+        "yoma-007b-l01"
       ]
     },
     {
@@ -418,21 +418,21 @@
       "vilnaLine": 5,
       "en": "Rashi: 'R. Yehuda says: only when on the forehead does it atone' - R. Yehuda's position requires the tzitz to be physically resting on the kohein gadol's forehead for its atonement power to be operative.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l05"
+        "yoma-007b-l04"
       ]
     },
     {
       "vilnaLine": 6,
       "en": "Rashi on the YK kohein gadol reference: on Yom Kippur the tzitz is not on the High Priest's forehead during the inner Temple service because he does not enter the inner sanctum in golden garments - he wears white linen instead.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l06"
+        "yoma-007b-l04"
       ]
     },
     {
       "vilnaLine": 7,
       "en": "Rashi: 'he does not enter in golden garments for the inner service' - the YK inner service is done in white linen only. Since the tzitz is part of the golden vestments, it is absent from his forehead during that service. This is why R. Yehuda uses the YK case as a proof.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l07"
+        "yoma-007b-l04"
       ]
     },
     {
@@ -446,14 +446,14 @@
       "vilnaLine": 9,
       "en": "Rashi: 'because all of it is a communal offering and the tzitz does not need to atone for it' - in the YK context, the tzitz's atonement function is simply not invoked. This is R. Shimon's rebuttal to R. Yehuda's proof.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l09"
+        "yoma-007b-l08"
       ]
     },
     {
       "vilnaLine": 10,
       "en": "Rashi: 'hence R. Shimon holds dchuya' - we infer from R. Shimon's deflection that he holds dchuya: the tzitz does need to atone for the community's tumah (since the prohibition is merely overridden, not removed). This is what makes the off-forehead case relevant in his view.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l10"
+        "yoma-007b-l08"
       ]
     },
     {
@@ -467,7 +467,7 @@
       "vilnaLine": 12,
       "en": "Rashi: 'bisikta' = a wooden peg. The case Abaye identifies: the tzitz is intact and hanging on a peg rather than on the High Priest's forehead. This is the only case where R. Yehuda and R. Shimon genuinely disagree.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l12"
+        "yoma-007b-l11"
       ]
     },
     {
@@ -481,7 +481,7 @@
       "vilnaLine": 14,
       "en": "Rashi: 'v'R. Shimon holds tamid liratzon' - R. Shimon's reading: the continuation of the verse 'tamid liratzon lifnei Hashem' means the tzitz perpetually effects acceptance before God, whether or not it is physically on the forehead at this moment.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l14"
+        "yoma-007b-l13"
       ]
     },
     {
@@ -495,14 +495,14 @@
       "vilnaLine": 16,
       "en": "Rashi: 'rather, tamid = it always atones' (R. Shimon's reading) OR 'tamid = do not be distracted from it' (R. Yehuda's reading). The Gemara resolves by giving each side a non-literal reading of 'tamid.'",
       "linkedGemaraLineIds": [
-        "yoma-007b-l16"
+        "yoma-007b-l15"
       ]
     },
     {
       "vilnaLine": 17,
       "en": "Rashi on 'achat' (one divine name on the tzitz): the tzitz inscription 'Kodesh l'Hashem' contains only one explicit divine name. Yet it requires constant mindfulness of the kohein. This is the basis for the kal v'chomer to tefillin.",
       "linkedGemaraLineIds": [
-        "yoma-007b-l17"
+        "yoma-007b-l15"
       ]
     },
     {
