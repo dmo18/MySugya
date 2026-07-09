@@ -161,17 +161,25 @@ def main():
     # the manifest, or for daf outside its targets, full Rashi rules apply.
     deferred_daf = set()
     wm = Path(".worker-manifest.json")
-    if wm.exists():
+    registry = Path("scripts/worker_task_types.json")
+    if wm.exists() and registry.exists():
         base_wm = git_show(base_rev, ".worker-manifest.json")
         fresh = base_wm is None or base_wm != wm.read_text()
         try:
             wm_data = json.loads(wm.read_text())
-        except json.JSONDecodeError:
-            wm_data = {}
-        if fresh and wm_data.get("type") == "gemara-learning":
+            types = json.loads(registry.read_text())["taskTypes"]
+        except (json.JSONDecodeError, KeyError):
+            wm_data, types = {}, {}
+        wtype = wm_data.get("type")
+        # Defer only to enrichment types whose registry entry carries a
+        # jsonScope contract (enforced by worker_pipeline.py in the same CI
+        # job). Rashi types never defer; without a fresh manifest, full
+        # Rashi rules apply.
+        if fresh and wtype in types and types[wtype].get("jsonScope"):
             deferred_daf = set(wm_data.get("targets", []))
-            print(f"NOTE: fresh gemara-learning manifest present; deferring field rules for "
-                  f"daf {sorted(deferred_daf)} to the worker pipeline gate (which must also pass).")
+            print(f"NOTE: fresh {wtype} manifest present; deferring field rules for "
+                  f"daf {sorted(deferred_daf)} to the worker pipeline jsonScope gate "
+                  f"(which must also pass).")
 
     # 2. Per-file structural diff
     for p in learn_changed:

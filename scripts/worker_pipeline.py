@@ -97,81 +97,75 @@ def file_allowed(path, spec, targets):
     return False
 
 
-GL_DISPLAY_MUTABLE = {"whats", "hint", "title"}
-GL_LEARNING_MUTABLE = {"ahaMoment", "memoryAnchor", "learnerQuestion",
-                       "coreTension", "coreMove", "learningBlocker"}
+def pattern_to_regex(pat):
+    """'sugyot[*].learning.takeaway.text' -> compiled regex matching the
+    JSON pointer '/sugyot/<n>/learning/takeaway/text' and anything below it."""
+    body = "/".join(seg.replace("[*]", "/\\d+") for seg in pat.split("."))
+    return re.compile("^/" + body + "(/.*)?$")
 
 
-def gemara_learning_field_check(mb, changed, m, errors):
-    """Strict JSON diff for gemara-learning PRs with JSON-pointer reporting.
+def json_leaf_diff(old, new, ptr, leaves, structure):
+    """Collect changed-leaf JSON pointers and array structure changes."""
+    if isinstance(old, dict) and isinstance(new, dict):
+        for k in sorted(set(old) | set(new)):
+            if k not in old or k not in new:
+                leaves.append(f"{ptr}/{k}")
+            else:
+                json_leaf_diff(old[k], new[k], f"{ptr}/{k}", leaves, structure)
+    elif isinstance(old, list) and isinstance(new, list):
+        if len(old) != len(new):
+            structure.append(f"{ptr} array length {len(old)} -> {len(new)}")
+            return
+        for i, (a, b) in enumerate(zip(old, new)):
+            json_leaf_diff(a, b, f"{ptr}/{i}", leaves, structure)
+    else:
+        if old != new:
+            leaves.append(ptr)
 
-    Mutable: sugyot[*].display.{whats,hint,title} and
-    sugyot[*].learning.{ahaMoment,memoryAnchor,learnerQuestion,coreTension,
-    coreMove,learningBlocker} plus learning.takeaway.text. Everything else
-    (rashiTranslations, any he, ids, lineRange, argumentFlow,
-    takeaway.type, glossary, quizSeeds, metadata) is immutable unless the
-    manifest carries the matching optional authorization flag."""
+
+def json_scope_check(mb, changed, m, spec, errors):
+    """Generic per-task JSON scope engine, driven by the registry's
+    jsonScope: {mutable: [path patterns], flagMutable: {flag: [patterns]},
+    structureFlag}. Reports exact JSON-pointer violations. Array entry
+    add/remove/reorder surfaces as a structure error unless the manifest
+    carries the structure flag."""
+    scope = spec.get("jsonScope")
+    if not scope:
+        return
     flags = set(m.get("authorizations", []))
+    allowed_rx = [pattern_to_regex(p) for p in scope.get("mutable", [])]
+    for flag, pats in scope.get("flagMutable", {}).items():
+        if flag in flags:
+            allowed_rx += [pattern_to_regex(p) for p in pats]
+    structure_ok = scope.get("structureFlag") and scope["structureFlag"] in flags
     targets = set(m.get("targets", []))
-    learn_changed = [p for p in changed
-                     if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")]
-    for p in learn_changed:
+
+    for p in changed:
+        if not (p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")):
+            continue
         daf = p.split("/")[-1].replace(".learning.json", "")
         if daf not in targets:
             errors.append(f"{p}: daf {daf} is not in the manifest targets {sorted(targets)} (no cross-daf edits)")
             continue
         r = sh(["git", "show", f"{mb}:{p}"])
         if r.returncode != 0:
-            errors.append(f"{p}: does not exist at base; structure change requires allowStructure")
+            errors.append(f"{p}: does not exist at base; new files require structure authorization")
             continue
         old, new = json.loads(r.stdout), json.loads((REPO / p).read_text())
-
-        for key in sorted(set(old) | set(new)):
-            if key == "sugyot":
+        leaves, structure = [], []
+        json_leaf_diff(old, new, "", leaves, structure)
+        for s in structure:
+            ptr = s.split(" array length")[0]
+            # A structure change entirely under an authorized mutable path
+            # (e.g. growing a flag-authorized container array) is permitted;
+            # anything else needs the explicit structure flag.
+            if any(rx.match(ptr) for rx in allowed_rx):
                 continue
-            if key == "glossary" and "authorizeGlossary" in flags:
-                continue
-            if old.get(key) != new.get(key):
-                errors.append(f"{p}: /{key} changed (immutable for gemara-learning)")
-
-        o_s, n_s = old.get("sugyot", []), new.get("sugyot", [])
-        if len(o_s) != len(n_s):
-            if "allowStructure" not in flags:
-                errors.append(f"{p}: /sugyot length {len(o_s)} -> {len(n_s)} requires allowStructure")
-            continue
-        for i, (o, n) in enumerate(zip(o_s, n_s)):
-            base_ptr = f"/sugyot/{i}"
-            for key in sorted(set(o) | set(n)):
-                if key in ("display", "learning"):
-                    continue
-                if key == "quizSeeds" and "authorizeQuizSeeds" in flags:
-                    continue
-                if o.get(key) != n.get(key):
-                    errors.append(f"{p}: {base_ptr}/{key} changed (immutable; ids, lineRange, "
-                                  f"argumentFlow, sourceLines and he are never editable in this task)")
-            od, nd = o.get("display") or {}, n.get("display") or {}
-            for key in sorted(set(od) | set(nd)):
-                if key not in GL_DISPLAY_MUTABLE and od.get(key) != nd.get(key):
-                    errors.append(f"{p}: {base_ptr}/display/{key} changed (only "
-                                  f"{sorted(GL_DISPLAY_MUTABLE)} are mutable)")
-            ol, nl = o.get("learning") or {}, n.get("learning") or {}
-            for key in sorted(set(ol) | set(nl)):
-                if key in GL_LEARNING_MUTABLE:
-                    continue
-                if key == "takeaway":
-                    ot, nt = ol.get("takeaway") or {}, nl.get("takeaway") or {}
-                    for tk in sorted(set(ot) | set(nt)):
-                        if tk == "text":
-                            continue
-                        if tk == "type" and "authorizeTakeawayType" in flags:
-                            continue
-                        if ot.get(tk) != nt.get(tk):
-                            errors.append(f"{p}: {base_ptr}/learning/takeaway/{tk} changed "
-                                          f"(takeaway.type requires authorizeTakeawayType)")
-                    continue
-                if ol.get(key) != nl.get(key):
-                    errors.append(f"{p}: {base_ptr}/learning/{key} changed (only "
-                                  f"{sorted(GL_LEARNING_MUTABLE)} + takeaway.text are mutable)")
+            if not structure_ok:
+                errors.append(f"{p}: {s} (requires --authorize {scope.get('structureFlag', 'allowStructure')})")
+        for ptr in leaves:
+            if not any(rx.match(ptr) for rx in allowed_rx):
+                errors.append(f"{p}: {ptr} changed (outside the {m['type']} mutable path set)")
 
 
 def allowlist_ratchet_inline(mb, policy, errors):
@@ -266,7 +260,7 @@ def cmd_preflight(opts):
         if needle not in wf:
             errors.append(f"CI workflow is missing required gate {needle!r}")
 
-    if m["type"] in RASHI_TYPES or m["type"] == "gemara-learning" or m["type"] == "literal-layer":
+    if m["type"] in RASHI_TYPES or m.get("generationCommands"):
         fresh = sh([sys.executable, "scripts/check_generated_freshness.py"], cwd=YROOT)
         print(f"generated freshness: {'OK' if fresh.returncode == 0 else 'STALE'}")
         if fresh.returncode != 0:
@@ -308,7 +302,7 @@ def cmd_packet(opts):
             r = sh([sys.executable, "scripts/make_rashi_work_packet.py", daf], cwd=YROOT)
             print(r.stdout)
         return
-    if t == "gemara-learning":
+    if spec.get("jsonScope") and m["targets"]:
         for daf in m["targets"]:
             lj = json.loads((YROOT / "assets" / "learning" / "yoma" / f"{daf}.learning.json").read_text())
             print(f"# Gemara-learning packet: {daf}")
@@ -433,8 +427,7 @@ def cmd_scope(opts):
         # Non-Rashi types: inline allowlist ratchet (the Rashi validator's
         # field rules do not apply to these diffs).
         allowlist_ratchet_inline(mb, m["allowlistPolicy"], errors)
-        if m["type"] == "gemara-learning":
-            gemara_learning_field_check(mb, changed, m, errors)
+        json_scope_check(mb, changed, m, spec, errors)
         if m["type"] == "generated-refresh":
             src_changed = [p for p in changed if p.startswith("modules/yoma/assets/")]
             if src_changed:
@@ -566,6 +559,75 @@ def cmd_verify(opts):
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
 
 
+# ---------------- schema-matrix ----------------
+
+SCHEMA_SCOPE = Path(__file__).parent / "worker_schema_scope.json"
+
+
+def cmd_schema_matrix(opts):
+    """Cross-check the schema inventory against the task-type registry.
+
+    For every classified path, compute which task types can edit it (via
+    their jsonScope mutable/flagMutable patterns, or the Rashi contract for
+    rashiTranslations en/links). FAIL if: a path classified as editable has
+    no owning task type; a path classified immutable/generated-only IS
+    reachable by some type's mutable patterns; or an inventory entry is
+    missing a known classification. Print the full matrix with --print."""
+    inv = json.loads(SCHEMA_SCOPE.read_text())["paths"]
+    types = load_registry()
+    legal_class = {"immutable", "haiku-manifest", "fable-only", "flag-only",
+                   "generated-only", "deprecated"}
+    RASHI_MUTABLE = {"rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds[*]"}
+    errors = []
+    matrix = {}
+
+    for path, cls in inv.items():
+        if cls not in legal_class:
+            errors.append(f"{path}: unknown classification {cls!r}")
+            continue
+        owners, flag_owners = [], []
+        if path in RASHI_MUTABLE:
+            owners += ["rashi-repair", "rashi-reconstruction", "placeholder-backfill"]
+        ptr = "/" + "/".join(seg.replace("[*]", "/0") for seg in path.split("."))
+        for tname, tspec in types.items():
+            scope = tspec.get("jsonScope")
+            if not scope:
+                continue
+            if any(pattern_to_regex(p).match(ptr) for p in scope.get("mutable", [])):
+                owners.append(tname)
+            for flag, pats in scope.get("flagMutable", {}).items():
+                if any(pattern_to_regex(p).match(ptr) for p in pats):
+                    flag_owners.append(f"{tname}({flag})")
+        matrix[path] = {"class": cls, "taskTypes": sorted(set(owners)),
+                        "flagTaskTypes": sorted(set(flag_owners))}
+
+        if cls in ("haiku-manifest", "fable-only") and not owners:
+            errors.append(f"{path}: classified {cls} but NO task type can edit it")
+        if cls == "flag-only" and not flag_owners:
+            errors.append(f"{path}: classified flag-only but no flagMutable pattern reaches it")
+        if cls in ("immutable", "generated-only", "deprecated") and owners:
+            errors.append(f"{path}: classified {cls} but reachable by {owners}")
+        if cls == "haiku-manifest":
+            ok = any(types[o].get("haikuAllowed") or types[o].get("model") in ("haiku", "haiku-with-fable-review")
+                     for o in owners)
+            if not ok:
+                errors.append(f"{path}: classified haiku-manifest but no owning type permits haiku")
+
+    if opts.print_matrix:
+        print(json.dumps(matrix, indent=1))
+    if errors:
+        print("SCHEMA MATRIX CHECK FAILED:\n")
+        for e in errors:
+            print(f"  ERROR  {e}")
+        sys.exit(1)
+    n_by = {}
+    for v in matrix.values():
+        n_by[v["class"]] = n_by.get(v["class"], 0) + 1
+    print(f"OK: schema matrix consistent: {len(matrix)} paths "
+          f"({', '.join(f'{k}={v}' for k, v in sorted(n_by.items()))}); "
+          f"every editable path has an owning task type and no immutable path is reachable.")
+
+
 # ---------------- report ----------------
 
 def cmd_report(opts):
@@ -678,10 +740,14 @@ def main():
     p = sub.add_parser("report")
     p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
 
+    p = sub.add_parser("schema-matrix")
+    p.add_argument("--print", dest="print_matrix", action="store_true")
+
     opts = ap.parse_args()
     {"manifest": cmd_manifest, "preflight": cmd_preflight, "packet": cmd_packet,
      "prompt": cmd_prompt, "verify": cmd_verify, "scope": cmd_scope,
-     "ci-check": cmd_ci_check, "report": cmd_report}[opts.cmd](opts)
+     "ci-check": cmd_ci_check, "report": cmd_report,
+     "schema-matrix": cmd_schema_matrix}[opts.cmd](opts)
 
 
 if __name__ == "__main__":
