@@ -36,6 +36,9 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Yoma offline validation gates
+        run: npm run validate:offline:yoma
+
       - name: Build production site
         run: npm run build
 
