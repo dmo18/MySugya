@@ -162,3 +162,18 @@ Not settable from repo code; configure at Settings > Branches > main:
   REVIEW GATE notice in verify output: the worker may open the PR and
   poll CI but may NOT merge; Fable reviews first. This is a procedural
   gate; enable branch-protection required reviews to make it mechanical.
+
+## Schema-wide coverage (VERSION 15.82)
+
+Every schema-controlled path in Yoma learning JSON is now classified in
+scripts/worker_schema_scope.json (85 paths) and mechanically
+cross-checked against the registry by `npm run worker:schema-matrix`
+(also run inside ci-check on every manifest-bearing PR). The scope gate
+is a generic jsonScope engine: per-type mutable path patterns, flag
+authorizations, structure detection with exact JSON pointers. Seven new
+task types cover the previously unowned paths: display-only-edit (haiku),
+learning-copy-edit, glossary-edit, quiz-edit, summary-edit,
+structural-repair (allowStructure required), metadata-review-status (all
+fable). See docs/reports/schema-pipeline-coverage.md for the full
+matrix, the 15-case negative-test battery, the 12 dry runs, the Haiku
+operating envelope, and the roadmap.

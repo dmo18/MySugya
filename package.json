@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.81",
+  "version": "15.82",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -33,6 +33,7 @@
     "worker:verify": "python3 scripts/worker_pipeline.py verify",
     "worker:scope": "python3 scripts/worker_pipeline.py scope",
     "worker:report": "python3 scripts/worker_pipeline.py report",
+    "worker:schema-matrix": "python3 scripts/worker_pipeline.py schema-matrix",
     "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",

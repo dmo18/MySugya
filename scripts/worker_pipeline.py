@@ -337,6 +337,11 @@ def cmd_packet(opts):
         print("check Deploy Cloudways Branch and Deploy GitHub Pages for the target commit; then live site VERSION")
         print("no file changes permitted")
         return
+    if t == "audit-only":
+        print("# Audit-only packet")
+        print("read-only: corpus scans, audit:rashi:semantic:yoma, validator dry runs, backlog reconciliation")
+        print("output only under docs/reports/ (plus backlog process notes); no content or generated edits")
+        return
     if t == "nekudot":
         print("# Nekudot packet: task type is PAUSED. No packet is issued.")
         return
@@ -700,6 +705,9 @@ def cmd_ci_check(opts):
     if workflow_changed and m["type"] != "docs-tooling":
         print(f"CI MANIFEST CHECK FAILED: workflow files changed but manifest type is {m['type']!r}, not docs-tooling.")
         sys.exit(1)
+    # Registry/inventory consistency is part of every manifest-bearing PR.
+    matrix_ns = argparse.Namespace(print_matrix=False)
+    cmd_schema_matrix(matrix_ns)
     scope_ns = argparse.Namespace(manifest=str(MANIFEST_DEFAULT), base=opts.base)
     cmd_scope(scope_ns)
     print(f"OK: PR carries a valid {m['type']} manifest and passes its scope contract.")
