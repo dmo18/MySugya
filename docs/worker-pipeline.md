@@ -27,9 +27,14 @@ npm run worker:verify    -- --manifest .worker-manifest.json --fast|--full
 npm run worker:scope     -- --manifest .worker-manifest.json [--base REF]
 ```
 
-Task types: rashi-repair, rashi-reconstruction, placeholder-backfill,
-gemara-learning, literal-layer, nekudot (PAUSED), docs-tooling,
-generated-refresh, deployment-verify.
+Task types (17 as of VERSION 15.82): rashi-repair, rashi-reconstruction,
+placeholder-backfill, gemara-learning, display-only-edit,
+learning-copy-edit, glossary-edit, quiz-edit, summary-edit,
+structural-repair, metadata-review-status, literal-layer,
+generated-refresh, audit-only, docs-tooling, deployment-verify, and
+nekudot (PAUSED). The authoritative per-type reference is generated:
+docs/reports/task-type-reference.md (`npm run worker:docs`). The
+canonical process document is docs/worker-pipeline-sop.md.
 
 ## The loop (any task type)
 
@@ -113,7 +118,7 @@ Not settable from repo code; configure at Settings > Branches > main:
 | 8a/9a phantom counts | rashi-repair + --allow-structure | fable | 1 daf/PR | NO | entry deletion needs explicit structure authorization |
 | 77a-88a filler (~765 lines) | placeholder-backfill | haiku-with-fable-review | 1 daf/PR, then 2-3 | PARTIAL | Haiku executes packets; Fable reviews semantic report pre-merge |
 | 47a+ reconstruction | rashi-reconstruction | haiku-with-fable-review | 1 daf/PR, then 2-3 | PARTIAL | resume only after defect backlog drained |
-| Gemara-learning edits | gemara-learning | fable | 1 daf/PR | NO | field-level gate pending; CI's Rashi gate currently rejects such diffs by design until an authorized pipeline update |
+| Gemara-learning edits | gemara-learning | fable | 1 daf/PR | NO | field-level jsonScope gate active since 15.81/15.82; passes require operator authorization and a fresh manifest (Rashi gate hands off to the worker gate) |
 | literal/en_lit refresh | literal-layer | haiku | range | YES | mechanical; literal gate protects coverage |
 | Nekudot/vowelization | nekudot | fable | n/a | NO | PAUSED in registry; needs validator design first |
 | Docs/tooling | docs-tooling | fable | n/a | NO | pipeline integrity is Fable's job |
