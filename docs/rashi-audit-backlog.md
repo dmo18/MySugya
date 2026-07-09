@@ -5096,3 +5096,25 @@ classified schema paths). CLAUDE.md points to the SOP. Outdated
 statements in docs/worker-pipeline.md (nine task types; gemara-learning
 gate pending) were corrected. No content changed; all documented
 defects and 47a/nekudot remain untouched.
+
+### Repair record: 61a stub lines 46-64 fixed (VERSION 15.84, first worker-pipeline pass)
+
+The 19 documented "Rashi commentary line N." stubs on 61a (vilnaLine
+46-64) were replaced with genuine translations of their own raw Hebrew
+(the "one chatat" comment conclusion, the Rabbi Yaakov log-of-metzora
+distinction block, and the truncated "asham" cross-daf continuation
+onto 61b). Only rashiTranslations en changed; linkedGemaraLineIds were
+left in this daf's uniform existing state (empty; the daf-wide link
+completion is separate documented work). The 19 content allowlist
+entries were removed after the validator reported them stale (ratchet
+837 to 818).
+
+ESCALATED NEW FINDING (report only, not fixed in this pass): 61a
+vilnaLines 1-45, which the audit had counted as genuine because they
+carry specific-looking text, are fabricated. Sampled entries (40-45)
+contain inspirational filler about Torah study replacing the Temple
+service, unrelated to their raw Hebrew (line 40's Hebrew concerns
+interrupted blood applications). 61a therefore needs a full
+reconstruction pass for lines 1-45 in its own scoped authorization,
+and the same look-alike fabrication pattern should be assumed possible
+on the other stub-block daf (67b/68a/68b/70a/71b) until checked.
