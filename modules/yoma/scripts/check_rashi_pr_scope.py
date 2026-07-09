@@ -62,6 +62,30 @@ def git_show(rev, path):
     return r.stdout if r.returncode == 0 else None
 
 
+def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
+    """Allowlist files may only shrink. Additions or new files require the
+    explicit RASHI_ALLOWLIST_RESTRUCTURE=1 authorization (tooling PRs that
+    document a new baseline; see docs/rashi-workflow.md)."""
+    if os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
+        if allowlist_changed:
+            print("NOTE: RASHI_ALLOWLIST_RESTRUCTURE=1 set; allowlist growth "
+                  "authorization active for this run.")
+        return
+    for p in allowlist_changed:
+        base_text = git_show(base_rev, p)
+        if base_text is None:
+            errors.append(f"{p}: new allowlist files require RASHI_ALLOWLIST_RESTRUCTURE=1")
+            continue
+        old = json.loads(base_text)
+        new = json.loads(Path(p).read_text())
+        for section in ("entries", "count_mismatches"):
+            old_e = {json.dumps(e, sort_keys=True) for e in old.get(section, [])}
+            new_e = {json.dumps(e, sort_keys=True) for e in new.get(section, [])}
+            for a in sorted(new_e - old_e):
+                errors.append(f"{p}: {section} entry ADDED (ratchet is remove-only; "
+                              f"requires RASHI_ALLOWLIST_RESTRUCTURE=1): {a}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=None, help="base ref (default: origin/$GITHUB_BASE_REF or origin/main)")
@@ -90,11 +114,23 @@ def main():
     changed = [l for l in diff.stdout.splitlines() if l.strip()]
 
     learn_changed = [p for p in changed if p.startswith(LEARN_PREFIX) and p.endswith(".learning.json")]
-    if not learn_changed:
-        print(f"OK: no Yoma learning JSON changed vs {base} ({base_rev[:9]}); scope gate is a no-op.")
-        return
-
+    allowlist_changed = [p for p in changed if p.startswith(ALLOWLIST_PREFIX) and p.endswith(".json")]
     errors = []
+
+    if not learn_changed:
+        # Tooling PRs skip the content rules, but the allowlist ratchet still
+        # applies: additions require the explicit RASHI_ALLOWLIST_RESTRUCTURE=1
+        # authorization (documented in docs/rashi-workflow.md).
+        if allowlist_changed:
+            check_allowlist_ratchet(allowlist_changed, base_rev, errors)
+        if errors:
+            print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")
+            for e in errors:
+                print(f"  ERROR  {e}")
+            sys.exit(1)
+        print(f"OK: no Yoma learning JSON changed vs {base} ({base_rev[:9]}); "
+              f"scope gate is a no-op (allowlist ratchet still verified).")
+        return
 
     # 1. File-set rules
     for p in changed:
@@ -155,24 +191,7 @@ def main():
                                   f"(only en and linkedGemaraLineIds may change)")
 
     # 3. Allowlist ratchet: removals only
-    for p in changed:
-        if not p.startswith(ALLOWLIST_PREFIX) or not p.endswith(".json"):
-            continue
-        base_text = git_show(base_rev, p)
-        if base_text is None:
-            errors.append(f"{p}: new allowlist files may not be added in a content PR")
-            continue
-        old = json.loads(base_text)
-        new = json.loads(Path(p).read_text())
-        old_e = {json.dumps(e, sort_keys=True) for e in old.get("entries", [])}
-        new_e = {json.dumps(e, sort_keys=True) for e in new.get("entries", [])}
-        added = new_e - old_e
-        for a in sorted(added):
-            errors.append(f"{p}: allowlist entry ADDED (ratchet is remove-only): {a}")
-        old_c = {json.dumps(e, sort_keys=True) for e in old.get("count_mismatches", [])}
-        new_c = {json.dumps(e, sort_keys=True) for e in new.get("count_mismatches", [])}
-        for a in sorted(new_c - old_c):
-            errors.append(f"{p}: count_mismatches entry ADDED (ratchet is remove-only): {a}")
+    check_allowlist_ratchet(allowlist_changed, base_rev, errors)
 
     if errors:
         print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")
