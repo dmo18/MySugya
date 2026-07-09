@@ -23,6 +23,10 @@ if echo "$CHANGED" | grep -qE '^modules/yoma/(assets/learning/yoma/|assets/liter
   (cd modules/yoma && python3 scripts/check_generated_freshness.py)
   (cd modules/yoma && python3 scripts/validate_rashi_content.py)
   (cd modules/yoma && python3 scripts/validate_rashi_links.py)
+  (cd modules/yoma && python3 scripts/validate_rashi_repetition.py)
+  # Scope check vs origin/main; the script itself degrades to a warning if
+  # the base ref cannot be resolved (e.g. offline clone without origin).
+  (cd modules/yoma && python3 scripts/check_rashi_pr_scope.py --base origin/main)
 fi
 
 # Run smoke tests if UI files changed
