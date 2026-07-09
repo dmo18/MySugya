@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.82",
+  "version": "15.83",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -39,7 +39,8 @@
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
     "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",
-    "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status"
+    "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status",
+    "worker:docs": "python3 scripts/worker_pipeline.py docs"
   },
   "dependencies": {
     "react": "18.3.1",
