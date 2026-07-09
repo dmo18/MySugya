@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.74",
+  "version": "15.75",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -16,6 +16,10 @@
     "validate:en:yoma": "cd modules/yoma && python3 scripts/validate_en.py",
     "validate:daftext:yoma": "cd modules/yoma && python3 scripts/validate_daftext.py",
     "validate:rashi:yoma": "cd modules/yoma && python3 scripts/validate_rashi.py",
+    "validate:rashi:content:yoma": "cd modules/yoma && python3 scripts/validate_rashi_content.py",
+    "validate:rashi:links:yoma": "cd modules/yoma && python3 scripts/validate_rashi_links.py",
+    "check:generated:yoma": "cd modules/yoma && python3 scripts/check_generated_freshness.py",
+    "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run validate:rashi:links:yoma && npm run validate:literal:yoma && npm run audit:order:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",

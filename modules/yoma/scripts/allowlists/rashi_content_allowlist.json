@@ -1,0 +1,4214 @@
+{
+ "_comment": "Ratchet baseline of pre-existing rashiTranslations.en content violations documented in docs/rashi-audit-backlog.md (Fable process audit, VERSION 15.74). Entries here are tolerated by validate_rashi_content.py. Do NOT add new entries for new work; shrink this list as daf are repaired.",
+ "entries": [
+  {
+   "daf": "42a",
+   "vilnaLine": 52,
+   "reason": "orphaned"
+  },
+  {
+   "daf": "42b",
+   "vilnaLine": 60,
+   "reason": "orphaned"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 46,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 47,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 48,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 49,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 50,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 51,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 52,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 53,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 54,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 55,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 56,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 57,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 58,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 59,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 60,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 61,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 62,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 63,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 64,
+   "reason": "stub_commentary"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 59,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 60,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 61,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 62,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 63,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 64,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 65,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 66,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 67,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 68,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "67b",
+   "vilnaLine": 69,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 50,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 51,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 52,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 53,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 54,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 55,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 56,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 57,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 58,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 59,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 60,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 61,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68a",
+   "vilnaLine": 62,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 52,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 53,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 54,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 55,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 56,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 57,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 58,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 59,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "68b",
+   "vilnaLine": 60,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "70a",
+   "vilnaLine": 53,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "70a",
+   "vilnaLine": 54,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "70a",
+   "vilnaLine": 55,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 45,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 46,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 47,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 48,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 49,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 50,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 51,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 52,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 53,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 54,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 55,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 56,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 57,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 58,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 59,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 60,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "71b",
+   "vilnaLine": 61,
+   "reason": "stub_continuation"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "77a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "77b",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 13,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "78a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 12,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 13,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "78b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 4,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 5,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 6,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 7,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 8,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 9,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 10,
+   "reason": "filler"
+  },
+  {
+   "daf": "79a",
+   "vilnaLine": 11,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 9,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 10,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 11,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 12,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 13,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "79b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 16,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 46,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 47,
+   "reason": "filler"
+  },
+  {
+   "daf": "80a",
+   "vilnaLine": 48,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "80b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 12,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 13,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "81a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 10,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 11,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 12,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 13,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "81b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "82a",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 4,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 5,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 6,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 7,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 8,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 9,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 10,
+   "reason": "filler"
+  },
+  {
+   "daf": "82b",
+   "vilnaLine": 11,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "83a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "83b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 4,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 14,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "84a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 46,
+   "reason": "filler"
+  },
+  {
+   "daf": "84b",
+   "vilnaLine": 47,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "85a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "85b",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 16,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 46,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 47,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 48,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 49,
+   "reason": "filler"
+  },
+  {
+   "daf": "86a",
+   "vilnaLine": 50,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "86b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 16,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 17,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 46,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 47,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 48,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 49,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 50,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 51,
+   "reason": "filler"
+  },
+  {
+   "daf": "87a",
+   "vilnaLine": 52,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 15,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 16,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "87b",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 4,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 5,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 6,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 7,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 8,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 9,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 10,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 11,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 12,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 13,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 14,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 15,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 16,
+   "reason": "filler_opening"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 17,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 18,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 19,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 20,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 21,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 22,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 23,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 24,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 25,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 26,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 27,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 28,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 29,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 30,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 31,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 32,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 33,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 34,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 35,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 36,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 37,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 38,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 39,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 40,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 41,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 42,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 43,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 44,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 45,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 46,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 47,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 48,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 49,
+   "reason": "filler"
+  },
+  {
+   "daf": "88a",
+   "vilnaLine": 50,
+   "reason": "filler"
+  }
+ ],
+ "count_mismatches": [
+  {
+   "daf": "8a",
+   "transCount": 41,
+   "rawCount": 35,
+   "note": "6 phantom enrichment entries beyond the raw print lines; silently dropped at generation. Documented in backlog (Fable audit follow-up)."
+  },
+  {
+   "daf": "9a",
+   "transCount": 22,
+   "rawCount": 18,
+   "note": "4 phantom enrichment entries beyond the raw print lines; silently dropped at generation. Documented in backlog (Fable audit follow-up)."
+  }
+ ]
+}

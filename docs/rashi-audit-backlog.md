@@ -4872,3 +4872,83 @@ lines, 23 daf).
 | daf | line/sugya | visible Rashi text | current helper translation | why it may be misaligned | suggested correction | severity |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+## Fable process audit findings (VERSION 15.74, read-only, post 44a-46b recovery)
+
+A full read-only process and tooling audit was run after the 44a-46b
+recovery (PRs #58-#63). It confirmed the recovery itself but surfaced
+the following corpus and process findings, recorded here for the
+eventual repair passes. No content was changed by the audit or by the
+Phase 1 tooling PR that added this section.
+
+### Corpus findings (new, not previously documented)
+
+1. 41a shifted-English block: around vilnaLine 25-34 the en content
+   runs roughly four raw print lines ahead of its Hebrew (en at
+   vilnaLine 27 describes raw line 31's "vehe'eshir" comment; en at 28
+   describes raw line 32's "ve'achar kach"). Same drift failure mode
+   as the documented 12b finding. Needs a bounded remap pass.
+2. 42a vilnaLine 52 and 42b vilnaLine 60 still carry literal
+   "orphaned Rashi content" placeholder text; the 44a-46b recovery
+   scope did not include 41a-43b.
+3. 7b, 8a, 8b, 9a, 9b: 117 linkedGemaraLineIds values reference
+   Gemara line ids that do not exist in learning_data.js (for
+   example yoma-008a-l02). These are captured one-by-one in
+   scripts/allowlists/rashi_links_allowlist.json as a ratchet
+   baseline; remove entries as they are repaired.
+4. 8a and 9a: the enrichment layer carries more rashiTranslations
+   entries than raw talmud.dev print lines (41 vs 35, and 22 vs 18).
+   The extra phantom entries are silently dropped by
+   build_learning_data.py at generation time, which is why
+   validate:rashi:yoma never saw them. Captured in the content
+   allowlist's count_mismatches section.
+5. Undocumented stub blocks: 61a (vilnaLine 46-64, "Rashi commentary
+   line N."), and 67b/68a/68b/70a/71b ("Rashi line N: continuation
+   of previous comment."), roughly 72 entries total. Same class as
+   the 77a-88a filler below but previously unrecorded.
+6. 77a-88a filler (about 765 entries) remains the known deferred
+   pass already documented above. Together with items 2 and 5 this
+   puts the current scaffold total at 839 entries across 31 daf, all
+   captured in scripts/allowlists/rashi_content_allowlist.json as a
+   ratchet baseline.
+
+### Process findings
+
+- validate:rashi:yoma is structural only; any non-empty en passes.
+  This is how the bad 44a-46b batch, the stub blocks, and the
+  77a-88a filler all reached main.
+- Before the Phase 1 tooling PR, CI ran no Yoma validators at all
+  (build, render smoke, and browser smoke only).
+- linkedGemaraLineIds was never validated anywhere; app.jsx does not
+  currently consume the field, so bogus ids are latent data
+  corruption rather than a user-facing break.
+- The pre-commit hook is inert unless a clone has run
+  git config core.hooksPath githooks. Every working clone must run it.
+
+### Phase 1 tooling added in response (VERSION 15.75)
+
+- scripts/validate_rashi_content.py (npm run validate:rashi:content:yoma):
+  fails on placeholder/scaffold patterns, bracketed line stubs,
+  "orphaned", known filler strings, em/en dashes, and
+  rashiTranslations-vs-raw count mismatches; reports short en fields.
+  Pre-existing violations are tolerated via
+  scripts/allowlists/rashi_content_allowlist.json (ratchet: never add,
+  only remove).
+- scripts/validate_rashi_links.py (npm run validate:rashi:links:yoma):
+  fails on nonexistent or cross-daf linkedGemaraLineIds; reports
+  per-daf empty-link percentages. Pre-existing 7b-9b bogus ids
+  tolerated via scripts/allowlists/rashi_links_allowlist.json.
+- scripts/check_generated_freshness.py (npm run check:generated:yoma):
+  fails if regenerating learning_data.js and coverage.json from the
+  enrichment JSON plus literal layer would change the committed bytes;
+  always restores the working tree.
+- npm run validate:offline:yoma chains all offline gates and now runs
+  in CI on every PR and push (deploy-pages.yml).
+- githooks/pre-commit now runs the three new guards whenever Yoma
+  module data is staged.
+
+### Status
+
+47a reconstruction is paused until this Phase 1 tooling is merged and
+green. Content repairs for items 1-5 above are separate, individually
+scoped passes and were intentionally NOT made in the tooling PR.

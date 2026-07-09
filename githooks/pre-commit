@@ -1,7 +1,12 @@
 #!/bin/sh
-# Pre-commit: sync version from VERSION file to all metadata files, then run smoke tests.
-# Yoma module data gates (validate:yoma, audit:order:yoma, etc.) must be run
+# Pre-commit: sync version from VERSION file to all metadata files, run fast
+# offline Rashi/Yoma guards when module data is staged, then run smoke tests.
+# Live-network gates (validate:yoma, validate:en:yoma) must still be run
 # manually before staging modules/yoma/learning_data.js for a commit.
+#
+# NOTE: this hook only runs if the clone has activated it:
+#   git config core.hooksPath githooks
+# Every clone (including Claude/Fable working clones) must run that once.
 
 set -e
 
@@ -11,6 +16,14 @@ VER=$(cat VERSION)
 git add VERSION package.json package-lock.json index.html manifest.js modules/yoma/learning_data.js
 
 CHANGED=$(git diff --cached --name-only)
+
+# Fast offline Rashi content/link guards when Yoma module data is staged
+if echo "$CHANGED" | grep -qE '^modules/yoma/(assets/learning/yoma/|assets/literal_en/|learning_data\.js)'; then
+  echo "pre-commit: running offline Rashi guards (v$VER)..."
+  (cd modules/yoma && python3 scripts/check_generated_freshness.py)
+  (cd modules/yoma && python3 scripts/validate_rashi_content.py)
+  (cd modules/yoma && python3 scripts/validate_rashi_links.py)
+fi
 
 # Run smoke tests if UI files changed
 if echo "$CHANGED" | grep -qE '^(app\.jsx|manifest\.js|modules/yoma/learning_data\.js|styles\.css|index\.html|tweaks-panel\.jsx)$'; then
