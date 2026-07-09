@@ -119,3 +119,46 @@ Not settable from repo code; configure at Settings > Branches > main:
 | Docs/tooling | docs-tooling | fable | n/a | NO | pipeline integrity is Fable's job |
 | Generated refresh | generated-refresh | haiku | n/a | YES | freshness gate proves output |
 | Deploy verification | deployment-verify | haiku | n/a | YES | read-only |
+
+## Hardening pass (VERSION 15.81): project-data-safe gates
+
+- Gemara-learning field gate: `worker:scope` now performs a strict JSON
+  diff for gemara-learning PRs with exact JSON-pointer errors. Mutable:
+  sugyot[*].display.{whats,hint,title}, learning.{ahaMoment,memoryAnchor,
+  learnerQuestion,coreTension,coreMove,learningBlocker}, and
+  learning.takeaway.text. Everything else (rashiTranslations, any he,
+  ids, lineRange, argumentFlow, takeaway.type, glossary, quizSeeds,
+  metadata) is immutable unless the manifest carries an explicit
+  authorization flag (--authorize authorizeGlossary / authorizeQuizSeeds /
+  authorizeTakeawayType / allowStructure; Fable-issued only). Cross-daf
+  edits fail: every changed learning JSON must be a manifest target.
+  The Rashi scope gate hands field enforcement for such PRs to this gate
+  ONLY when a fresh gemara-learning manifest is part of the PR (both
+  gates run in the same CI job; without the manifest full Rashi rules
+  apply, so nothing is weakened).
+- Placeholder-backfill: maxBatch 2 enforced at manifest generation and at
+  scope time; `worker:verify` prints a per-daf allowlisted-lines
+  before/after completion summary and hard-fails if the content
+  allowlist grew for a target daf.
+- Literal-layer: verify reports the coverage lines and impacted
+  literal_en file count; scope fails generated-output changes that have
+  no literal_en source change (use generated-refresh for that).
+- Generated-refresh: scope fails if any modules/yoma/assets source file
+  changed alongside the generated outputs.
+- New task type audit-only: read-only audits (corpus scans, semantic
+  reports, validator dry runs, backlog reconciliation). May write only
+  docs/reports/* artifacts and backlog process notes; CI fails an
+  audit-only PR that touches any content, script, or workflow file.
+- Manifest lifecycle: a manifest is per-PR (stale copies identical to the
+  base do not count); targets must cover every changed learning JSON;
+  optional authorizations are validated against the registry at
+  generation time; maxBatch is embedded in the manifest.
+- Machine-readable final report: `npm run worker:report -- --manifest
+  .worker-manifest.json` emits the JSON report template prefilled with
+  task type, targets, VERSION, branch, changed files, and allowlist
+  delta; the worker fills PR/merge/deploy fields and posts it verbatim.
+- Fable review gate: task types flagged fableReviewRequired
+  (rashi-reconstruction, placeholder-backfill, gemara-learning) print a
+  REVIEW GATE notice in verify output: the worker may open the PR and
+  poll CI but may NOT merge; Fable reviews first. This is a procedural
+  gate; enable branch-protection required reviews to make it mechanical.

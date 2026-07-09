@@ -5053,3 +5053,18 @@ Haiku-safe), 41a (rashi-repair manifest, Fable-only per matrix), 77a-77b
 matrix in docs/worker-pipeline.md records recommended model, batch size,
 and Haiku-readiness for every remaining work category. Open content
 defects unchanged; 47a remains paused.
+
+### Worker pipeline hardening (VERSION 15.81, process note)
+
+Tooling only. The worker pipeline gained: a strict gemara-learning JSON
+field gate with pointer-level errors and Fable-issued authorization
+flags; a manifest-aware hand-off in the Rashi scope gate (defers field
+rules to the stricter worker gate only when a fresh gemara-learning
+manifest is in the PR; both gates run in CI); placeholder-backfill
+maxBatch 2 plus per-daf allowlist completion summaries with a hard fail
+on growth; literal-layer coverage delta reporting and generated-vs-
+source consistency rules; a generated-refresh sources-unchanged rule;
+an audit-only task type limited to docs/reports/* and backlog notes; a
+machine-readable worker:report template; and a REVIEW GATE notice for
+fableReviewRequired task types. No gate weakened; no content changed;
+all documented content defects and 47a/nekudot remain untouched.
