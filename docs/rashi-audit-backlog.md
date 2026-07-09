@@ -4973,3 +4973,32 @@ scripts/allowlists/rashi_links_allowlist.json is now empty and must
 stay empty for new work. Findings 1, 2, 4, and 5 above (41a shift,
 42a/42b leftovers, 8a/9a phantom entry counts, 61a/67b-71b stubs)
 remain open, and 47a remains paused pending those decisions.
+
+### Phase 2/3 tooling added (VERSION 15.77)
+
+Tooling-only pass, no content changes. Added on top of the Phase 1 gates:
+
+- scripts/check_rashi_pr_scope.py (npm run check:rashi-pr-scope:yoma):
+  content PRs may change only rashiTranslations en/linkedGemaraLineIds,
+  only allowed files, never workflows; allowlists are remove-only.
+  Runs in CI on pull requests and in the pre-commit hook.
+- scripts/validate_rashi_repetition.py (npm run validate:rashi:dupes:yoma):
+  fails on new within-daf exact-duplicate or skeleton-template repetition;
+  the documented bracket-heavy 41b/42b skeletons are baselined in
+  scripts/allowlists/rashi_repetition_baseline.json (ratchet). Wired into
+  validate:offline:yoma and CI.
+- scripts/audit_rashi_semantic.py (npm run audit:rashi:semantic:yoma):
+  advisory ranked report of likely shifted-English blocks via Hebrew
+  citation anchors. It independently re-flags the confirmed 41a shift
+  (Leviticus citation at vilnaLine 27 surfacing in the en of vilnaLine 24)
+  and surfaces a new lead at 42a vilnaLine 50 (Numbers citation surfacing
+  at vilnaLine 46, offset -4), consistent with the 41a-43b batch being
+  suspect. Report-only; never blocks CI.
+- scripts/make_rashi_work_packet.py (npm run rashi:packet:yoma -- <daf>):
+  deterministic per-daf work packet (raw Hebrew, legal Gemara ids from the
+  generated id space, current state, validator baselines, rules, post-edit
+  commands) for bounded worker-model passes.
+- docs/rashi-workflow.md documents the guarded operating model: Fable
+  builds guardrails and handles semantic escalation; small models may work
+  only inside the gates, may not override failures, and may not add
+  allowlist entries; no content PR merges unless all offline gates pass.
