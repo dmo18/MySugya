@@ -5037,3 +5037,19 @@ settings (manual admin configuration; not changeable from repo code).
 Open content defects are unchanged: 41a shifted block (plus the 42a
 vilnaLine 50 semantic lead), 8a/9a phantom entry counts, 61a/67b-71b
 stubs, 77a-88a filler. 47a remains paused.
+
+### Project-wide worker pipeline added (VERSION 15.80)
+
+Tooling only, no content changes. scripts/worker_task_types.json (nine
+task types with scope contracts, models, pause flags) and
+scripts/worker_pipeline.py (manifest/preflight/packet/prompt/verify/
+scope/ci-check) generalize the Rashi loop to all bounded work. CI now
+additionally requires a per-PR .worker-manifest.json for any PR that
+changes module content, and a docs-tooling manifest for any PR that
+touches workflow files. Rashi task types delegate to the existing Rashi
+tooling; no gate was weakened. Dry runs executed for 61a (rashi-repair,
+Haiku-safe), 41a (rashi-repair manifest, Fable-only per matrix), 77a-77b
+(placeholder-backfill), and this PR itself (docs-tooling). The readiness
+matrix in docs/worker-pipeline.md records recommended model, batch size,
+and Haiku-readiness for every remaining work category. Open content
+defects unchanged; 47a remains paused.

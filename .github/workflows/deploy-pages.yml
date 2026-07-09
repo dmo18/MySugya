@@ -45,6 +45,12 @@ jobs:
           git fetch --no-tags origin ${{ github.base_ref }}
           npm run check:rashi-pr-scope:yoma -- --base origin/${{ github.base_ref }}
 
+      - name: Worker manifest check
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+
       - name: Build production site
         run: npm run build
 

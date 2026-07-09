@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.79",
+  "version": "15.80",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -26,6 +26,12 @@
     "rashi:preflight:yoma": "cd modules/yoma && python3 scripts/rashi_preflight.py",
     "rashi:verify:yoma": "cd modules/yoma && python3 scripts/rashi_verify.py",
     "rashi:prompt:yoma": "cd modules/yoma && python3 scripts/rashi_prompt.py",
+    "worker:manifest": "python3 scripts/worker_pipeline.py manifest",
+    "worker:preflight": "python3 scripts/worker_pipeline.py preflight",
+    "worker:packet": "python3 scripts/worker_pipeline.py packet",
+    "worker:prompt": "python3 scripts/worker_pipeline.py prompt",
+    "worker:verify": "python3 scripts/worker_pipeline.py verify",
+    "worker:scope": "python3 scripts/worker_pipeline.py scope",
     "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
