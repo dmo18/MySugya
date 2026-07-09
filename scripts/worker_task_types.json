@@ -10,28 +10,47 @@
     "modules/yoma/assets/learning/yoma/<daf>.learning.json",
     "modules/yoma/learning_data.js",
     "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
     ".worker-manifest.json"
    ],
-   "allowedJsonPaths": ["rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds"],
-   "forbiddenFiles": [".github/workflows/*", "scripts/*", "modules/yoma/scripts/*.py", "githooks/*"],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en",
+    "rashiTranslations[*].linkedGemaraLineIds"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
    "rashiPreflightTask": "repair",
-   "requiredValidators": ["validate:offline:yoma", "check:rashi-pr-scope:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm run check:deploy-html", "npm test", "npm run test:browser"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
     "count mismatch not already baselined",
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
-   ]
+   ],
+   "fableReviewRequired": false
   },
   "rashi-reconstruction": {
    "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).",
@@ -42,28 +61,47 @@
     "modules/yoma/assets/learning/yoma/<daf>.learning.json",
     "modules/yoma/learning_data.js",
     "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
     ".worker-manifest.json"
    ],
-   "allowedJsonPaths": ["rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds"],
-   "forbiddenFiles": [".github/workflows/*", "scripts/*", "modules/yoma/scripts/*.py", "githooks/*"],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en",
+    "rashiTranslations[*].linkedGemaraLineIds"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
    "rashiPreflightTask": "reconstruct",
-   "requiredValidators": ["validate:offline:yoma", "check:rashi-pr-scope:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm run check:deploy-html", "npm test", "npm run test:browser"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
     "raw count vs entry count mismatch",
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
-   ]
+   ],
+   "fableReviewRequired": true
   },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
@@ -74,26 +112,47 @@
     "modules/yoma/assets/learning/yoma/<daf>.learning.json",
     "modules/yoma/learning_data.js",
     "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
     ".worker-manifest.json"
    ],
-   "allowedJsonPaths": ["rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds"],
-   "forbiddenFiles": [".github/workflows/*", "scripts/*", "modules/yoma/scripts/*.py", "githooks/*"],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en",
+    "rashiTranslations[*].linkedGemaraLineIds"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
    "rashiPreflightTask": "repair",
-   "requiredValidators": ["validate:offline:yoma", "check:rashi-pr-scope:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm run check:deploy-html", "npm test", "npm run test:browser"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
     "any gate failure not fixable by correcting your own content"
-   ]
+   ],
+   "maxBatch": 2,
+   "allowlistMustShrinkOrExplain": true,
+   "fableReviewRequired": true
   },
   "gemara-learning": {
    "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Fable/Sonnet only.",
@@ -104,26 +163,70 @@
     "modules/yoma/assets/learning/yoma/<daf>.learning.json",
     "modules/yoma/learning_data.js",
     "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json",
-    "docs/rashi-audit-backlog.md", "docs/yoma-perek-review.md",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/yoma-perek-review.md",
     ".worker-manifest.json"
    ],
-   "allowedJsonPaths": ["sugyot[*].display.*", "sugyot[*].learning.*", "sugyot[*].argumentFlow[*].label", "sugyot[*].argumentFlow[*].text"],
-   "forbiddenFiles": [".github/workflows/*", "scripts/*", "modules/yoma/scripts/*.py", "githooks/*", "modules/yoma/scripts/allowlists/*"],
-   "forbiddenJsonPaths": ["sugyot[*].sourceLines", "rashiTranslations", "sugyot[*].lineRange", "*.he"],
+   "allowedJsonPaths": [
+    "sugyot[*].display.whats",
+    "sugyot[*].display.hint",
+    "sugyot[*].display.title",
+    "sugyot[*].learning.ahaMoment",
+    "sugyot[*].learning.memoryAnchor",
+    "sugyot[*].learning.learnerQuestion",
+    "sugyot[*].learning.coreTension",
+    "sugyot[*].learning.coreMove",
+    "sugyot[*].learning.takeaway.text",
+    "sugyot[*].learning.learningBlocker"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
+   "forbiddenJsonPaths": [
+    "rashiTranslations (any)",
+    "*.he (any)",
+    "sugyot[*].id",
+    "sugyot[*].lineRange",
+    "sugyot[*].argumentFlow",
+    "sugyot[*].learning.takeaway.type",
+    "glossary (unless authorizeGlossary)",
+    "quizSeeds (unless authorizeQuizSeeds)"
+   ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "requiredValidators": ["validate:offline:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm run check:deploy-html", "npm test", "npm run test:browser"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
    "escalationTriggers": [
     "any change to source he/en fields would be needed",
     "sugya boundary or id changes would be needed",
     "schema fields not in shared/schema_map.js would be needed"
-   ]
+   ],
+   "optionalAuthorizations": [
+    "authorizeGlossary",
+    "authorizeQuizSeeds",
+    "authorizeTakeawayType",
+    "allowStructure"
+   ],
+   "fieldEnforcement": "strict-json-diff",
+   "fableReviewRequired": true
   },
   "literal-layer": {
    "description": "en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.",
@@ -134,22 +237,40 @@
     "modules/yoma/assets/literal_en/*",
     "modules/yoma/learning_data.js",
     "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
     ".worker-manifest.json"
    ],
-   "allowedJsonPaths": ["<literal_en per-daf JSON>"],
-   "forbiddenFiles": [".github/workflows/*", "scripts/*", "modules/yoma/scripts/*.py", "githooks/*", "modules/yoma/assets/learning/*", "modules/yoma/scripts/allowlists/*"],
+   "allowedJsonPaths": [
+    "<literal_en per-daf JSON>"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*",
+    "modules/yoma/assets/learning/*",
+    "modules/yoma/scripts/allowlists/*"
+   ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
-   "requiredValidators": ["validate:literal:yoma", "validate:offline:yoma"],
+   "requiredValidators": [
+    "validate:literal:yoma",
+    "validate:offline:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm test"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm test"
+   ],
    "escalationTriggers": [
     "Sefaria fetch returns unexpected structure",
     "coverage would drop below the 95% gate"
-   ]
+   ],
+   "coverageDeltaReport": true
   },
   "nekudot": {
    "description": "Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Fable only when unpaused.",
@@ -158,13 +279,19 @@
    "paused": true,
    "allowedFiles": [],
    "allowedJsonPaths": [],
-   "forbiddenFiles": ["*"],
+   "forbiddenFiles": [
+    "*"
+   ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
-   "requiredValidators": ["validate:offline:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
    "generationCommands": [],
    "buildTestCommands": [],
-   "escalationTriggers": ["task type is paused; any nekudot work requires explicit unpausing and new tooling"]
+   "escalationTriggers": [
+    "task type is paused; any nekudot work requires explicit unpausing and new tooling"
+   ]
   },
   "docs-tooling": {
    "description": "Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet only for validator/pipeline logic.",
@@ -172,17 +299,40 @@
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [
-    "docs/*", "scripts/*", "modules/yoma/scripts/*.py", "modules/yoma/scripts/allowlists/*",
-    ".github/workflows/*", "githooks/*", "package.json", "package-lock.json",
-    "VERSION", "README.md", "CLAUDE.md", "SOURCES.md", "tests/*", ".worker-manifest.json"
+    "docs/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "modules/yoma/scripts/allowlists/*",
+    ".github/workflows/*",
+    "githooks/*",
+    "package.json",
+    "package-lock.json",
+    "VERSION",
+    "README.md",
+    "CLAUDE.md",
+    "SOURCES.md",
+    "tests/*",
+    ".worker-manifest.json"
    ],
    "allowedJsonPaths": [],
-   "forbiddenFiles": ["modules/yoma/assets/learning/*", "modules/yoma/assets/talmuddev/*", "modules/yoma/assets/daftexts/*", "modules/yoma/source_store.js"],
+   "forbiddenFiles": [
+    "modules/yoma/assets/learning/*",
+    "modules/yoma/assets/talmuddev/*",
+    "modules/yoma/assets/daftexts/*",
+    "modules/yoma/source_store.js"
+   ],
    "allowlistPolicy": "restructure-with-env",
    "structurePolicy": "not-applicable",
-   "requiredValidators": ["validate:offline:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
    "generationCommands": [],
-   "buildTestCommands": ["npm run build", "npm run check:deploy-html", "npm test", "npm run test:browser"],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
    "escalationTriggers": [
     "any existing gate would be weakened",
     "workflow permission changes would be needed"
@@ -194,20 +344,39 @@
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [
-    "modules/yoma/learning_data.js", "modules/yoma/coverage.json",
-    "VERSION", "package.json", "package-lock.json", ".worker-manifest.json"
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    ".worker-manifest.json"
    ],
    "allowedJsonPaths": [],
-   "forbiddenFiles": ["modules/yoma/assets/*", "scripts/*", "modules/yoma/scripts/*", ".github/workflows/*", "githooks/*", "docs/*"],
+   "forbiddenFiles": [
+    "modules/yoma/assets/*",
+    "scripts/*",
+    "modules/yoma/scripts/*",
+    ".github/workflows/*",
+    "githooks/*",
+    "docs/*"
+   ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
-   "requiredValidators": ["validate:offline:yoma"],
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
    "generationCommands": [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
     "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
    ],
-   "buildTestCommands": ["npm run build", "npm test"],
-   "escalationTriggers": ["regeneration output differs in unexpected sections"]
+   "buildTestCommands": [
+    "npm run build",
+    "npm test"
+   ],
+   "escalationTriggers": [
+    "regeneration output differs in unexpected sections"
+   ],
+   "sourcesMustBeUnchanged": true
   },
   "deployment-verify": {
    "description": "Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.",
@@ -216,7 +385,9 @@
    "paused": false,
    "allowedFiles": [],
    "allowedJsonPaths": [],
-   "forbiddenFiles": ["*"],
+   "forbiddenFiles": [
+    "*"
+   ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
    "requiredValidators": [],
@@ -225,6 +396,37 @@
    "escalationTriggers": [
     "a deploy workflow concludes failure",
     "live VERSION does not match main after the pages-lag window"
+   ]
+  },
+  "audit-only": {
+   "description": "Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data.",
+   "model": "haiku",
+   "requiresTarget": false,
+   "paused": false,
+   "allowedFiles": [
+    "docs/reports/*",
+    "docs/rashi-audit-backlog.md",
+    ".worker-manifest.json"
+   ],
+   "allowedJsonPaths": [],
+   "forbiddenFiles": [
+    "modules/*",
+    "scripts/*",
+    ".github/workflows/*",
+    "githooks/*",
+    "package.json",
+    "VERSION"
+   ],
+   "allowlistPolicy": "forbidden",
+   "structurePolicy": "forbidden",
+   "fableReviewRequired": false,
+   "requiredValidators": [
+    "validate:offline:yoma"
+   ],
+   "generationCommands": [],
+   "buildTestCommands": [],
+   "escalationTriggers": [
+    "any finding that suggests content on main is wrong (report it; do not fix it)"
    ]
   }
  }

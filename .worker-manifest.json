@@ -4,6 +4,9 @@
  "targets": [],
  "model": "fable",
  "paused": false,
+ "fableReviewRequired": false,
+ "authorizations": [],
+ "maxBatch": null,
  "allowedFiles": [
   "docs/*",
   "scripts/*",

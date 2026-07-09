@@ -97,6 +97,83 @@ def file_allowed(path, spec, targets):
     return False
 
 
+GL_DISPLAY_MUTABLE = {"whats", "hint", "title"}
+GL_LEARNING_MUTABLE = {"ahaMoment", "memoryAnchor", "learnerQuestion",
+                       "coreTension", "coreMove", "learningBlocker"}
+
+
+def gemara_learning_field_check(mb, changed, m, errors):
+    """Strict JSON diff for gemara-learning PRs with JSON-pointer reporting.
+
+    Mutable: sugyot[*].display.{whats,hint,title} and
+    sugyot[*].learning.{ahaMoment,memoryAnchor,learnerQuestion,coreTension,
+    coreMove,learningBlocker} plus learning.takeaway.text. Everything else
+    (rashiTranslations, any he, ids, lineRange, argumentFlow,
+    takeaway.type, glossary, quizSeeds, metadata) is immutable unless the
+    manifest carries the matching optional authorization flag."""
+    flags = set(m.get("authorizations", []))
+    targets = set(m.get("targets", []))
+    learn_changed = [p for p in changed
+                     if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")]
+    for p in learn_changed:
+        daf = p.split("/")[-1].replace(".learning.json", "")
+        if daf not in targets:
+            errors.append(f"{p}: daf {daf} is not in the manifest targets {sorted(targets)} (no cross-daf edits)")
+            continue
+        r = sh(["git", "show", f"{mb}:{p}"])
+        if r.returncode != 0:
+            errors.append(f"{p}: does not exist at base; structure change requires allowStructure")
+            continue
+        old, new = json.loads(r.stdout), json.loads((REPO / p).read_text())
+
+        for key in sorted(set(old) | set(new)):
+            if key == "sugyot":
+                continue
+            if key == "glossary" and "authorizeGlossary" in flags:
+                continue
+            if old.get(key) != new.get(key):
+                errors.append(f"{p}: /{key} changed (immutable for gemara-learning)")
+
+        o_s, n_s = old.get("sugyot", []), new.get("sugyot", [])
+        if len(o_s) != len(n_s):
+            if "allowStructure" not in flags:
+                errors.append(f"{p}: /sugyot length {len(o_s)} -> {len(n_s)} requires allowStructure")
+            continue
+        for i, (o, n) in enumerate(zip(o_s, n_s)):
+            base_ptr = f"/sugyot/{i}"
+            for key in sorted(set(o) | set(n)):
+                if key in ("display", "learning"):
+                    continue
+                if key == "quizSeeds" and "authorizeQuizSeeds" in flags:
+                    continue
+                if o.get(key) != n.get(key):
+                    errors.append(f"{p}: {base_ptr}/{key} changed (immutable; ids, lineRange, "
+                                  f"argumentFlow, sourceLines and he are never editable in this task)")
+            od, nd = o.get("display") or {}, n.get("display") or {}
+            for key in sorted(set(od) | set(nd)):
+                if key not in GL_DISPLAY_MUTABLE and od.get(key) != nd.get(key):
+                    errors.append(f"{p}: {base_ptr}/display/{key} changed (only "
+                                  f"{sorted(GL_DISPLAY_MUTABLE)} are mutable)")
+            ol, nl = o.get("learning") or {}, n.get("learning") or {}
+            for key in sorted(set(ol) | set(nl)):
+                if key in GL_LEARNING_MUTABLE:
+                    continue
+                if key == "takeaway":
+                    ot, nt = ol.get("takeaway") or {}, nl.get("takeaway") or {}
+                    for tk in sorted(set(ot) | set(nt)):
+                        if tk == "text":
+                            continue
+                        if tk == "type" and "authorizeTakeawayType" in flags:
+                            continue
+                        if ot.get(tk) != nt.get(tk):
+                            errors.append(f"{p}: {base_ptr}/learning/takeaway/{tk} changed "
+                                          f"(takeaway.type requires authorizeTakeawayType)")
+                    continue
+                if ol.get(key) != nl.get(key):
+                    errors.append(f"{p}: {base_ptr}/learning/{key} changed (only "
+                                  f"{sorted(GL_LEARNING_MUTABLE)} + takeaway.text are mutable)")
+
+
 def allowlist_ratchet_inline(mb, policy, errors):
     """Remove-only allowlist enforcement for non-Rashi task types."""
     if policy == "restructure-with-env" and os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
@@ -123,12 +200,25 @@ def cmd_manifest(opts):
     targets = expand_range(opts.range) if opts.range else []
     if spec["requiresTarget"] and not targets:
         sys.exit(f"ERROR: task type {opts.type!r} requires --range")
+    auths = opts.authorize or []
+    legal = set(spec.get("optionalAuthorizations", []))
+    for a in auths:
+        if a not in legal:
+            sys.exit(f"ERROR: authorization {a!r} is not defined for type {opts.type!r} "
+                     f"(legal: {sorted(legal) or 'none'})")
+    max_batch = spec.get("maxBatch")
+    if max_batch and len(targets) > max_batch:
+        sys.exit(f"ERROR: {len(targets)} targets exceed maxBatch {max_batch} for {opts.type!r}; "
+                 f"split the range into smaller PRs")
     manifest = {
         "type": opts.type,
         "module": opts.module,
         "targets": targets,
         "model": spec["model"],
         "paused": spec.get("paused", False),
+        "fableReviewRequired": spec.get("fableReviewRequired", False),
+        "authorizations": auths,
+        "maxBatch": max_batch,
         "allowedFiles": spec["allowedFiles"],
         "allowedJsonPaths": spec["allowedJsonPaths"],
         "forbiddenFiles": spec["forbiddenFiles"],
@@ -335,15 +425,36 @@ def cmd_scope(opts):
         r = sh([sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base], cwd=YSCRIPTS.parent)
         if r.returncode != 0:
             errors.append("check_rashi_pr_scope failed:\n" + r.stdout[-1200:])
+        max_batch = m.get("maxBatch")
+        if max_batch and len(m.get("targets", [])) > max_batch:
+            errors.append(f"manifest targets {len(m['targets'])} exceed maxBatch {max_batch} "
+                          f"for {m['type']} (split into smaller PRs)")
     else:
         # Non-Rashi types: inline allowlist ratchet (the Rashi validator's
         # field rules do not apply to these diffs).
         allowlist_ratchet_inline(mb, m["allowlistPolicy"], errors)
-        if m["type"] == "gemara-learning" and any(p.startswith("modules/yoma/assets/learning/") for p in changed):
-            print("NOTE: field-level JSON enforcement for gemara-learning is pending; "
-                  "CI's Rashi scope gate will currently reject learning JSON changes beyond "
-                  "rashiTranslations en/links. Scheduling a gemara-learning pass requires an "
-                  "authorized pipeline update first (see docs/worker-pipeline.md).")
+        if m["type"] == "gemara-learning":
+            gemara_learning_field_check(mb, changed, m, errors)
+        if m["type"] == "generated-refresh":
+            src_changed = [p for p in changed if p.startswith("modules/yoma/assets/")]
+            if src_changed:
+                errors.append(f"generated-refresh PR changed source files: {src_changed} "
+                              f"(generated outputs only)")
+        if m["type"] == "literal-layer":
+            gen_only = [p for p in changed if p in ("modules/yoma/learning_data.js", "modules/yoma/coverage.json")]
+            src = [p for p in changed if p.startswith("modules/yoma/assets/literal_en/")]
+            if gen_only and not src:
+                errors.append("literal-layer PR changed generated output without any "
+                              "assets/literal_en source change (use generated-refresh instead)")
+
+    # Manifest lifecycle: every changed learning JSON must be a manifest target
+    if m["type"] not in ("docs-tooling",):
+        for p in changed:
+            if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json"):
+                daf = p.split("/")[-1].replace(".learning.json", "")
+                if daf not in m.get("targets", []):
+                    errors.append(f"{p}: changed but daf {daf!r} is not in manifest targets "
+                                  f"{m.get('targets', [])} (regenerate the manifest to cover it)")
 
     if errors:
         print(f"WORKER SCOPE CHECK FAILED (type {m['type']}, base {base}):\n")
@@ -396,9 +507,10 @@ def cmd_verify(opts):
     results.append(("version-sync", version == pkg))
 
     mb = sh(["git", "merge-base", resolve_base(opts.base), "HEAD"]).stdout.strip()
+    changed = sh(["git", "diff", "--name-only", mb]).stdout.split() if mb else []
     dash_bad = []
     if mb:
-        for p in sh(["git", "diff", "--name-only", mb]).stdout.split():
+        for p in changed:
             fp = REPO / p
             if fp.suffix in (".py", ".md", ".json", ".yml", ".js", ".jsx") and fp.exists():
                 if p.startswith("modules/yoma/assets/talmuddev/") or p == "modules/yoma/learning_data.js":
@@ -411,6 +523,32 @@ def cmd_verify(opts):
     for p in dash_bad:
         print(f"  dash found in {p}")
 
+    # Per-daf allowlist completion summary (placeholder/rashi repair tasks)
+    if m["targets"] and mb:
+        ca_path = YSCRIPTS / "allowlists" / "rashi_content_allowlist.json"
+        r = sh(["git", "show", f"{mb}:{ca_path.relative_to(REPO).as_posix()}"])
+        old_entries = json.loads(r.stdout).get("entries", []) if r.returncode == 0 else []
+        new_entries = json.loads(ca_path.read_text()).get("entries", [])
+        print("\nper-daf allowlist completion:")
+        shrank_or_equal = True
+        for daf in m["targets"]:
+            before = sum(1 for e in old_entries if e["daf"] == daf)
+            after = sum(1 for e in new_entries if e["daf"] == daf)
+            print(f"  {daf}: allowlisted lines {before} -> {after}")
+            if after > before:
+                shrank_or_equal = False
+        if m.get("type") == "placeholder-backfill" and not shrank_or_equal:
+            results.append(("allowlist-shrink", False))
+
+    # Literal-layer coverage delta
+    if m["type"] == "literal-layer":
+        cov = sh([sys.executable, "scripts/validate_literal.py"], cwd=YROOT)
+        for line in cov.stdout.splitlines():
+            if line.startswith(("Coverage:", "Has en_lit:", "Non-empty:")):
+                print(f"  {line.strip()}")
+        impacted = [p for p in changed if p.startswith("modules/yoma/assets/literal_en/")]
+        print(f"  literal_en files impacted: {len(impacted)}")
+
     print("\n============ worker:verify summary ============")
     fail = False
     for name, ok in results:
@@ -419,9 +557,44 @@ def cmd_verify(opts):
     if fail:
         print("\nWORKER VERIFY FAILED. Fix your content/scope or STOP AND ESCALATE.")
         sys.exit(1)
+    if m.get("fableReviewRequired"):
+        print("\nREVIEW GATE: this task type requires Fable review of the PR before merge. "
+              "Workers may open the PR and poll CI, but may NOT merge; request Fable review "
+              "and stop.")
     nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
           "npm run worker:verify -- --manifest .worker-manifest.json --full"
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
+
+
+# ---------------- report ----------------
+
+def cmd_report(opts):
+    """Emit the machine-readable final report template, prefilled with what
+    is derivable locally. The worker fills prNumber/mergeCommit/deploys
+    after merge and posts the JSON block verbatim."""
+    m, spec = load_manifest(opts.manifest)
+    base = resolve_base(None)
+    mb = sh(["git", "merge-base", base, "HEAD"]).stdout.strip()
+    changed = [l for l in sh(["git", "diff", "--name-only", mb]).stdout.splitlines() if l.strip()] if mb else []
+    ca = YSCRIPTS / "allowlists" / "rashi_content_allowlist.json"
+    r = sh(["git", "show", f"{mb}:{ca.relative_to(REPO).as_posix()}"]) if mb else None
+    old_n = len(json.loads(r.stdout).get("entries", [])) if r and r.returncode == 0 else None
+    new_n = len(json.loads(ca.read_text()).get("entries", []))
+    report = {
+        "taskType": m["type"],
+        "targets": m["targets"],
+        "version": (REPO / "VERSION").read_text().strip(),
+        "branch": sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip(),
+        "filesChanged": changed,
+        "allowlistDelta": {"before": old_n, "after": new_n},
+        "fableReviewRequired": m.get("fableReviewRequired", False),
+        "prNumber": "<fill after PR creation>",
+        "mergeCommit": "<fill after merge>",
+        "gates": "<fill: verify --full result>",
+        "deploys": {"cloudways": "<fill>", "githubPages": "<fill>"},
+        "escalations": [],
+    }
+    print(json.dumps(report, indent=1))
 
 
 # ---------------- ci-check ----------------
@@ -479,6 +652,9 @@ def main():
     p.add_argument("--module", default="yoma")
     p.add_argument("--range", default=None)
     p.add_argument("--out", default=None)
+    p.add_argument("--authorize", action="append", default=None,
+                   help="grant an optional authorization defined by the task type "
+                        "(e.g. authorizeQuizSeeds); repeatable; Fable-issued only")
 
     for name in ("preflight", "packet", "prompt"):
         p = sub.add_parser(name)
@@ -499,10 +675,13 @@ def main():
     p = sub.add_parser("ci-check")
     p.add_argument("--base", default=None)
 
+    p = sub.add_parser("report")
+    p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
+
     opts = ap.parse_args()
     {"manifest": cmd_manifest, "preflight": cmd_preflight, "packet": cmd_packet,
      "prompt": cmd_prompt, "verify": cmd_verify, "scope": cmd_scope,
-     "ci-check": cmd_ci_check}[opts.cmd](opts)
+     "ci-check": cmd_ci_check, "report": cmd_report}[opts.cmd](opts)
 
 
 if __name__ == "__main__":
