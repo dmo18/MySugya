@@ -104482,7 +104482,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 1,
         he: "שדומה לפז. מצהיב כמרגלית: שנטווה כחוט. מפני שהוא רך:",
-        en: "Rashi: opens - [the Gemara asks:] from where [is it derived that the High Priest] says [specific] confession [words]? - [this is the subject of inquiry].",
+        en: "Rashi: 'that resembles paz' means it glistens like a pearl; 'that is spun like a thread' means it is soft and malleable.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104496,7 +104496,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 2,
         he: "כל החנויות נסגרות. שאין מכר לזהב אחר מפני זה: תניא נמי",
-        en: "Rashi: continues - [the] Scripture [states] - [a prooftext is brought to establish the law].",
+        en: "Rashi: 'all the shops close' - because there is no market for other gold once this superior gold appears. 'It is also taught thus' introduces a supporting Baraita.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104510,7 +104510,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 3,
         he: "הכי. דעל שם שדומה לדם הפרים נקרא זהב פרוים בדברי הימים",
-        en: "Rashi: continues - [and he [the High Priest] confesses] - [over the goat designated for Azazel].",
+        en: "Rashi: this gold is called gold of Parvaim in Chronicles because it resembles the blood of bulls.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104524,11 +104524,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 4,
         he: "(ב ג) : והלא כבר נאמר. בשל כל ימות השנה ושחקת ממנה הדק:",
-        en: "Rashi: continues - [orphaned line: continuation of discussion on confession words].",
+        en: "Rashi: citing II Chronicles 3. 'But has it not already been stated' refers to the ordinary-year rule, 'and you shall grind it finely.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l03"
+        ]
       },
       {
         id: "rashi-yoma-045a-005",
@@ -104536,11 +104538,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 5,
         he: "אלא דרך ימין. שהוא למזרח שהרי",
-        en: "Rashi: continues - [orphaned line: further details on the confession ritual].",
+        en: "Rashi: 'rather, by way of the right' means to the east, since the ramp faces south.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l03"
+        ]
       },
       {
         id: "rashi-yoma-045a-006",
@@ -104548,11 +104552,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 6,
         he: "הכבש בדרום לכך עולה במזרחו של",
-        en: "Rashi: continues - [orphaned line: additional information on the procedure].",
+        en: "Rashi: therefore the priest ascends on the eastern side of the ramp, which is adjacent to turning toward the right.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l03"
+        ]
       },
       {
         id: "rashi-yoma-045a-007",
@@ -104560,7 +104566,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 7,
         he: "כבש שסמוך ליפנות לימין:",
-        en: "Rashi: continues - [orphaned line: clarification of the textual source].",
+        en: "Rashi: continues explaining why the eastern approach naturally leads to a rightward turn at the top.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104574,11 +104580,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 8,
         he: "משום כבודו. להראות חשיבותו",
-        en: "Rashi: continues - [orphaned line: explanation of the requirement].",
+        en: "Rashi: 'on account of his honor' means to demonstrate his importance, that he is treated like a member of the household.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l07"
+        ]
       },
       {
         id: "rashi-yoma-045a-009",
@@ -104586,11 +104594,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 9,
         he: "שהוא כבן בית ומקיף לצורך ושלא",
-        en: "Rashi: continues - [orphaned line: details on the High Priest's role].",
+        en: "Rashi: he circles the altar both when it is functionally needed and when it is not, purely to show his stature.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l07"
+        ]
       },
       {
         id: "rashi-yoma-045a-010",
@@ -104598,11 +104608,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 10,
         he: "לצורך: שמוסיפין לבו ביום. ליטול",
-        en: "Rashi: continues - [orphaned line: further explanation of the rite].",
+        en: "Rashi: 'that they add on that day' means taking coals from that arrangement for the Holy of Holies incense.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l07"
+        ]
       },
       {
         id: "rashi-yoma-045a-011",
@@ -104610,7 +104622,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 11,
         he: "ממנה גחלים לקטורת של לפני ולפנים",
-        en: "Rashi: continues - [orphaned line: additional context for understanding].",
+        en: "Rashi: continues describing the purpose of taking those coals specifically for the Yom Kippur incense service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104624,11 +104636,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 12,
         he: "אבל קטורת של מזבח הפנימי הרי",
-        en: "Rashi: continues - [orphaned line: more information on the procedure].",
+        en: "Rashi: but the inner altar's regular incense is treated the same throughout the year, without this special addition.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l11"
+        ]
       },
       {
         id: "rashi-yoma-045a-013",
@@ -104636,7 +104650,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 13,
         he: "הוא כקטורת של כל השנה: של",
-        en: "Rashi: continues - [orphaned line: clarification of details].",
+        en: "Rashi: continues distinguishing the Yom Kippur coal-taking from the ordinary daily incense practice.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104650,11 +104664,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 14,
         he: "קיום האש. שאם אין אש של מערכה",
-        en: "Rashi: continues - [orphaned line: extension of the explanation].",
+        en: "Rashi: 'for maintaining the fire' means so that if the large arrangement's fire weakens, they can reinforce it from this arrangement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l13"
+        ]
       },
       {
         id: "rashi-yoma-045a-015",
@@ -104662,7 +104678,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 15,
         he: "גדולה מתגבר מוסיפין עליו מזה:",
-        en: "Rashi: continues - [orphaned line: elaboration on requirements].",
+        en: "Rashi: continues explaining the backup function of this fourth wood arrangement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104676,11 +104692,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 16,
         he: "שלא נתעכלו. שלא ניתנו על מערכה",
-        en: "Rashi: continues - [orphaned line: additional details].",
+        en: "Rashi: 'that were not consumed' means logs that were not placed on the arrangement, or were placed but not fully burned.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l15"
+        ]
       },
       {
         id: "rashi-yoma-045a-017",
@@ -104688,11 +104706,13 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 17,
         he: "או ניתנו ולא הספיקו להתעכל:",
-        en: "Rashi: continues - [orphaned line: further information].",
+        en: "Rashi: continues clarifying which unburned wood this rule addresses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-045a-l15"
+        ]
       },
       {
         id: "rashi-yoma-045a-018",
@@ -104700,7 +104720,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 18,
         he: "להצתת האליתא. להצית בהן אור",
-        en: "Rashi: continues - [orphaned line: explanation of procedures].",
+        en: "Rashi: 'for kindling the aliata' means using them to kindle the fire of the large wood arrangement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104714,7 +104734,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 19,
         he: "מערכה גדולה: אליתא. קיסמים",
-        en: "Rashi: continues - [orphaned line: more details on the ritual].",
+        en: "Rashi: 'aliata' refers to thin wood splinters or chips used as kindling.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104728,7 +104748,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 20,
         he: "דקים: ורבי יוסי הצתת אליתא",
-        en: "Rashi: continues - [orphaned line: additional clarification].",
+        en: "Rashi: the Gemara asks where Rabbi Yosei derives the requirement for kindling the aliata specifically.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104742,7 +104762,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 21,
         he: "מנא ליה. שתהא בראשו של מזבח",
-        en: "Rashi: continues - [orphaned line: extension of discussion].",
+        en: "Rashi: the requirement is that kindling occur at the top of the altar, not on the ground below.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104756,7 +104776,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 22,
         he: "ולא יצית על הרצפה ויעלם כשהן",
-        en: "Rashi: continues - [orphaned line: elaboration on requirements].",
+        en: "Rashi: he should not kindle it on the floor and then carry it up already burning to place on the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104770,7 +104790,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 23,
         he: "דולקין על המזבח: ובכלי שרת.",
-        en: "Rashi: continues - [orphaned line: more information].",
+        en: "Rashi: 'and with sacred vessels' means clothed in the priestly garments while performing this.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104784,7 +104804,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 24,
         he: "בלבוש בגדי כהונה: וכי תעלה על",
-        en: "Rashi: continues - [orphaned line: additional details needed].",
+        en: "Rashi: 'could it enter your mind' - since the verse about fire on the altar already implies the location requirement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104798,7 +104818,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 25,
         he: "דעתך. מאחר שאתה למד מן האש",
-        en: "Rashi: continues - [orphaned line: further explanation].",
+        en: "Rashi: continues - would we need a separate verse just to teach that a priest must load the wood?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104812,7 +104832,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 26,
         he: "על המזבח תוקד בו שיהא בראשו",
-        en: "Rashi: continues - [orphaned line: clarification of procedures].",
+        en: "Rashi: could one possibly think a non-priest would approach the altar to do this?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104826,7 +104846,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 27,
         he: "של מזבח כלום הוצרכנו למקרא זה",
-        en: "Rashi: continues - [orphaned line: additional context].",
+        en: "Rashi: continues developing this rhetorical challenge to the proposed derivation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104840,7 +104860,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 28,
         he: "להטעינה כהן וכי תעלה על לב",
-        en: "Rashi: continues - [orphaned line: more details on the service].",
+        en: "Rashi: after all, it is already stated elsewhere that only priests may approach the sacred vessels and the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104854,7 +104874,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 29,
         he: "שזר קרב לגבי מזבח והלא נאמר",
-        en: "Rashi: continues - [orphaned line: further information on requirements].",
+        en: "Rashi: citing the verse from Numbers 18 that non-priests may not come near the sacred vessels or the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104868,7 +104888,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 30,
         he: "(במדבר יח) אך אל כלי הקדש",
-        en: "Rashi: continues - [orphaned line: explanation of the atonement process].",
+        en: "Rashi: rather, the verse teaches something else specifically about the kindling of the aliata.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104882,7 +104902,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 31,
         he: "ואל המזבח לא יקרבו: אלא לימד",
-        en: "Rashi: continues - [orphaned line: additional details on the rite].",
+        en: "Rashi: that the kindling may only take place at the top of the altar, not below.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104896,7 +104916,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 32,
         he: "על הצתת האליתא שלא תהא אלא",
-        en: "Rashi: continues - [orphaned line: more information on procedures].",
+        en: "Rashi: continues distinguishing the two verses' separate teachings on location versus priesthood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104910,7 +104930,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 33,
         he: "על ראש המזבח. ואידך קרא לקיום",
-        en: "Rashi: continues - [orphaned line: clarification needed].",
+        en: "Rashi: the other verse comes to teach the requirement of maintaining the fire, following Rabbi Yosei's view.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104924,7 +104944,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 34,
         he: "האש אתא כרבי יוסי וכהונה דכתיב",
-        en: "Rashi: continues - [orphaned line: extension of explanation].",
+        en: "Rashi: and the priesthood requirement written in that verse is needed for its own independent teaching.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104938,7 +104958,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 35,
         he: "בהאי קרא לגופא איצטריך לה",
-        en: "Rashi: continues - [orphaned line: elaboration on details].",
+        en: "Rashi: that placing fire on the altar requires a priest specifically.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104952,7 +104972,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 36,
         he: "שנתינת אש צריכה כהן ולא יטלנה",
-        en: "Rashi: continues - [orphaned line: final details on the service].",
+        en: "Rashi: so that a non-priest should not take the fire and throw it onto the altar himself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104966,7 +104986,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 37,
         he: "זר ויזרקנה למזבח: ורבי יהודה.",
-        en: "Rashi: continues - [orphaned line: additional information].",
+        en: "Rashi: 'and Rabbi Yehuda would say to you' introduces his alternative reading of the same verses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104980,7 +105000,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 38,
         he: "אמר לך: אי מהתם. מהאש על המזבח",
-        en: "Rashi: continues - [orphaned line: more details on requirements].",
+        en: "Rashi: 'had the law been derived only from there' - from the verse about fire on the altar alone.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -104994,7 +105014,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 39,
         he: "כו' אע\"ג דשמעינן מינה שהצתה",
-        en: "Rashi: continues - [orphaned line: further clarification].",
+        en: "Rashi: even though we would learn from it that kindling must be at the top of the altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105008,7 +105028,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 40,
         he: "בראש המזבח לא שמעינן דפסולה",
-        en: "Rashi: continues - [orphaned line: extension of discussion].",
+        en: "Rashi: we would not learn from it that the act is invalid when performed by a non-priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105022,7 +105042,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 41,
         he: "בזר הוה אמינא קאי זר אארעא ועביד",
-        en: "Rashi: continues - [orphaned line: additional details].",
+        en: "Rashi: one might have thought a non-priest could stand on the ground and kindle it using a bellows.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105036,7 +105056,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 42,
         he: "במפוחא: מנא ליה. דבעי מערכה:",
-        en: "Rashi: continues - [orphaned line: more information].",
+        en: "Rashi: the Gemara asks from where Rabbi Yehuda derives that the fire must specifically be placed on the wood arrangement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105050,7 +105070,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 43,
         he: "נפקא ליה מואש. וא\"ו דריש:",
-        en: "Rashi: continues - [orphaned line: further elaboration].",
+        en: "Rashi: he derives it from the word 'fire' with its prefixed letter vav, interpreting that added letter.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105064,7 +105084,7 @@ const DAF_CONTENT = {
         daf: "45a",
         vilnaLine: 44,
         he: "אשר",
-        en: "Rashi: concludes - [orphaned line: end of discussion on Yom Kippur confession procedures].",
+        en: "Rashi: 'which' - the word that opens the next phrase, continuing onto the following daf.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
