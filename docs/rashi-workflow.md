@@ -84,3 +84,50 @@ See docs/rashi-audit-backlog.md for the authoritative list: 41a shifted
 block, 42a/42b leftover placeholder lines, 8a/9a phantom entry counts,
 61a/67b/68a/68b/70a/71b stubs, 77a-88a filler block. 47a onward is paused
 until repairs are scheduled.
+
+## Standard automation loop (VERSION 15.79)
+
+Every bounded pass follows this loop; each step is a single command:
+
+1. Preflight: `npm run rashi:preflight:yoma -- <daf> [--task repair]`
+   Fails on dirty tree, inactive hooks, stale generated data, malformed
+   daf, or allowlisted defects when the task is not a repair type.
+2. Packet: `npm run rashi:packet:yoma -- <daf>` (context source of truth).
+3. Edit: only the target daf's rashiTranslations en/linkedGemaraLineIds.
+4. Regenerate + VERSION bump + sync.
+5. Verify: `npm run rashi:verify:yoma -- <daf> --fast`, then `--full`
+   before the PR. Prints per-gate pass/fail, files changed, allowlist
+   delta (additions are a hard fail), and scoped semantic-audit warnings.
+6. One PR, wait for CI, merge only when green.
+7. Verify the two main deploy workflows after merge.
+8. Stop, report one compact line, await the next authorization.
+
+Worker models may handle CI/deploy polling mechanically ONLY after local
+`rashi:verify:yoma --full` has passed. A worker prompt for any pass is
+generated with `npm run rashi:prompt:yoma -- <daf> --task <type>`; do not
+hand-write worker prompts.
+
+## Allowlist growth lockout
+
+The scope gate enforces the ratchet on every PR, including tooling PRs
+that touch no learning JSON: allowlist entries may be removed but never
+added. Authorized restructuring (a tooling PR documenting a newly
+audited baseline) requires running the gate with
+RASHI_ALLOWLIST_RESTRUCTURE=1, which prints a loud authorization note.
+Worker models never set that variable.
+
+## Recommended GitHub branch protection (manual settings, not in repo code)
+
+These cannot be set from repository files; an admin should configure them
+at Settings > Branches > main:
+
+- Require status checks to pass before merging: ON
+  - required check: `build` (the Deploy GitHub Pages workflow's PR job,
+    which runs the 9 offline gates and the Rashi PR scope check)
+- Require branches to be up to date before merging: ON (serializes
+  content PRs, matching the sequential merge discipline this workflow
+  already uses and preventing stale-base merges)
+- Block force pushes: ON; Restrict deletions: ON
+- Require a pull request before merging: ON (no direct pushes to main)
+- Dismiss stale approvals on new commits: only relevant if review
+  requirements are enabled; recommended ON in that case

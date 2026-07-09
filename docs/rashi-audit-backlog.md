@@ -5021,3 +5021,19 @@ corresponding content allowlist entries were removed after the
 validator reported them stale (ratchet 839 to 837). Remaining open:
 41a shifted block, 8a/9a phantom entry counts, 61a/67b-71b stubs,
 77a-88a filler. 47a remains paused.
+
+### Automation hardening pass (VERSION 15.79)
+
+Tooling only, no content changes. Added: rashi:preflight:yoma (single
+preflight command with hard environment/daf checks and per-daf state),
+rashi:verify:yoma (single post-edit verification with fast/full modes,
+allowlist-delta hard fail, scoped advisory semantic output),
+rashi:prompt:yoma (deterministic worker prompt generator per task type),
+and an allowlist growth lockout in the PR scope gate that now applies to
+ALL PRs including tooling PRs, with RASHI_ALLOWLIST_RESTRUCTURE=1 as the
+only authorized escape hatch. docs/rashi-workflow.md documents the
+standard automation loop and the recommended GitHub branch protection
+settings (manual admin configuration; not changeable from repo code).
+Open content defects are unchanged: 41a shifted block (plus the 42a
+vilnaLine 50 semantic lead), 8a/9a phantom entry counts, 61a/67b-71b
+stubs, 77a-88a filler. 47a remains paused.
