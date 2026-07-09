@@ -131,3 +131,13 @@ at Settings > Branches > main:
 - Require a pull request before merging: ON (no direct pushes to main)
 - Dismiss stale approvals on new commits: only relevant if review
   requirements are enabled; recommended ON in that case
+
+## Project-wide worker pipeline (VERSION 15.80)
+
+The Rashi loop above has been generalized to all bounded work types via
+the worker pipeline: task-type registry, per-PR manifests, unified
+preflight/packet/prompt/verify/scope commands, and a CI manifest check
+that fails any content PR lacking a manifest and any workflow edit
+lacking a docs-tooling manifest. See docs/worker-pipeline.md. Nothing in
+this document is weakened: the Rashi commands remain the enforcement
+core and are delegated to by the pipeline for Rashi task types.

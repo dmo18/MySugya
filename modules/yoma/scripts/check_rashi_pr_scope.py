@@ -47,7 +47,7 @@ LITERAL_PREFIX = "modules/yoma/assets/literal_en/"
 GENERATED = {"modules/yoma/learning_data.js", "modules/yoma/coverage.json"}
 ALLOWLIST_PREFIX = "modules/yoma/scripts/allowlists/"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
-                  "docs/rashi-audit-backlog.md"}
+                  "docs/rashi-audit-backlog.md", ".worker-manifest.json"}
 FORBIDDEN_PREFIXES = (".github/workflows/",)
 
 MUTABLE_KEYS = {"en", "linkedGemaraLineIds"}
