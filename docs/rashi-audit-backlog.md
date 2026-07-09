@@ -5002,3 +5002,22 @@ Tooling-only pass, no content changes. Added on top of the Phase 1 gates:
   builds guardrails and handles semantic escalation; small models may work
   only inside the gates, may not override failures, and may not add
   allowlist entries; no content PR merges unless all offline gates pass.
+
+### Repair record: 42a/42b leftover placeholder lines fixed (VERSION 15.78)
+
+Corpus finding 2 from the Fable audit is resolved. 42a vilnaLine 52 and
+42b vilnaLine 60 each carried literal "End of orphaned Rashi content"
+placeholder text. Both raw lines are single truncated Hebrew words that
+begin a comment continuing onto the next daf, the same pattern as the
+documented 10a vilnaLine 35 and 11a vilnaLine 43 cases: 42a line 52 is
+"lemishmeret" (Numbers 19:9), whose comment body is 42b's first raw
+Rashi line (the ashes require safekeeping until the sprinkling water is
+prepared); 42b line 60 is "deapik", whose comment body is 43a's first
+raw Rashi line (one who brought out a donkey along with the heifer).
+Both en fields now state the cross-daf continuation with the actual
+content. linkedGemaraLineIds were left unchanged (both already valid
+local anchors consistent with each daf's closing block). The two
+corresponding content allowlist entries were removed after the
+validator reported them stale (ratchet 839 to 837). Remaining open:
+41a shifted block, 8a/9a phantom entry counts, 61a/67b-71b stubs,
+77a-88a filler. 47a remains paused.
