@@ -558,14 +558,14 @@
       "vilnaLine": 2,
       "en": "Rashi: 'and his fellow priests touch him' - meaning: other kohanim are allowed to come into physical contact with the YK kohein gadol during his separation period. His separation is for holiness (attitude), not for purity (physical state).",
       "linkedGemaraLineIds": [
-        "yoma-008b-l02"
+        "yoma-008b-l01"
       ]
     },
     {
       "vilnaLine": 3,
       "en": "Rashi: 'and this one's separation is for purity' - the para priest's separation is meant to ensure he is in a state of strict purity, unlike the YK kohein gadol. The reason they are more strict with the para priest is to counter the Sadducean claim that the burning requires sunset (see later).",
       "linkedGemaraLineIds": [
-        "yoma-008b-l03"
+        "yoma-008b-l01"
       ]
     },
     {
@@ -579,21 +579,21 @@
       "vilnaLine": 5,
       "en": "Rashi on 'R. Yosei b'R. Chanina raises an objection': granted, days 1, 2, 3 - because perhaps the first day of the separation is day 3 of a prior tumah. Similarly days 5, 6, 7 - because perhaps day 7 of a prior tumah. But day 4 - what possible tumah-counting makes day 4 of the separation either day 3 or day 7 of tumah?",
       "linkedGemaraLineIds": [
-        "yoma-008b-l05"
+        "yoma-008b-l04"
       ]
     },
     {
       "vilnaLine": 6,
       "en": "Rashi: 'second [day] perhaps day 3' - on day 2 of the separation, it is possible the priest had tumah contact on the night before the separation began, making day 2 the third day of his tumah. So sprinkling day 2 is warranted.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l06"
+        "yoma-008b-l04"
       ]
     },
     {
       "vilnaLine": 7,
       "en": "Rashi: 'third perhaps day 3' - even day 3, perhaps he had tumah contact on day 1 of the separation itself (a brief hour before it began), making day 3 the third day of tumah. So even day 3 merits sprinkling.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l07"
+        "yoma-008b-l04"
       ]
     },
     {
@@ -607,7 +607,7 @@
       "vilnaLine": 9,
       "en": "Rashi: 'but the fourth day - why sprinkle at all?' - day 4 cannot be the third day of any tumah (all third-day possibilities are covered by days 1, 2, 3 of separation) and it cannot be the seventh day either (all seventh-day possibilities are covered by days 5, 6, 7).",
       "linkedGemaraLineIds": [
-        "yoma-008b-l09"
+        "yoma-008b-l08"
       ]
     },
     {
@@ -621,21 +621,21 @@
       "vilnaLine": 11,
       "en": "Rashi: 'rather, what must you say? Seven minus Shabbat' - the Mishnah's 'all seven' implicitly excludes Shabbat because hazaah is a Rabbinic prohibition that Shabbat overrides. So the actual number of sprinkling days is at most 6.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l11"
+        "yoma-008b-l10"
       ]
     },
     {
       "vilnaLine": 12,
       "en": "Rashi: 'here too, seven minus the fourth day' - applying the same logic: just as we say 'seven minus Shabbat' when Shabbat makes hazaah impossible, so too we say 'seven minus day 4' when day 4 is impossible for any logical tumah-counting reason.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l12"
+        "yoma-008b-l10"
       ]
     },
     {
       "vilnaLine": 13,
       "en": "Rashi on 'Rava said: therefore' - Rava introduces his resolution of the entire question. The key word 'therefore' (hilkhakh) signals that what follows is the practical ruling that resolves the theoretical problem.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l13"
+        "yoma-008b-l10"
       ]
     },
     {
@@ -649,42 +649,42 @@
       "vilnaLine": 15,
       "en": "Rashi: 'on 3 Tishrei he must be separated' - Yom Kippur is 10 Tishrei; the seven-day separation backward puts the start at 3 Tishrei. This is fixed every year by the Torah calendar, not by us.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l15"
+        "yoma-008b-l14"
       ]
     },
     {
       "vilnaLine": 16,
       "en": "Rashi: 'whenever 3 Tishrei falls, we separate him' - regardless of the day of the week, the YK kohein gadol is separated on 3 Tishrei. Sometimes his 4th day of separation falls on Shabbat (skipped), sometimes not.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l16"
+        "yoma-008b-l14"
       ]
     },
     {
       "vilnaLine": 17,
       "en": "Rashi: 'but the para priest, the matter depends on us' - we control when the para aduma burning ritual takes place. We choose the start date of the para priest's separation, and we can choose it optimally.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l17"
+        "yoma-008b-l14"
       ]
     },
     {
       "vilnaLine": 18,
       "en": "Rashi: 'we separate him on the 4th day of the week [Wednesday]' - by beginning the para priest's separation on Wednesday, his 4th day of separation falls on Shabbat, when hazaah is forbidden anyway.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l18"
+        "yoma-008b-l14"
       ]
     },
     {
       "vilnaLine": 19,
       "en": "Rashi: 'so that the 4th day [of his separation] will fall on Shabbat' - the para priest separated on Wednesday has: Day 1 = Wednesday, Day 2 = Thursday, Day 3 = Friday, Day 4 = Shabbat (automatically no hazaah), Day 5 = Sunday, Day 6 = Monday, Day 7 = Tuesday.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l19"
+        "yoma-008b-l14"
       ]
     },
     {
       "vilnaLine": 20,
       "en": "Rashi: 'so that his 4th day falls on Shabbat' - this scheduling means the one day that cannot logically require hazaah (day 4) is the one day Shabbat prevents it. The impossible day and the forbidden day coincide perfectly.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l20"
+        "yoma-008b-l14"
       ]
     },
     {
@@ -698,14 +698,14 @@
       "vilnaLine": 22,
       "en": "Rashi on 'Lishkat Parhedrin etc.' - a baraita: R. Yehuda raises a pointed question: was this room really called Parhedrin? In fact, it was called Lishkat Balvati (Chamber of Nobles/Senators).",
       "linkedGemaraLineIds": [
-        "yoma-008b-l22"
+        "yoma-008b-l21"
       ]
     },
     {
       "vilnaLine": 23,
       "en": "Rashi: 'Lishkat Balvati' - the word 'balvati' or 'belutai' comes from the Latin/Greek for senators (bouleutai) - 'like the speech of nobles.' This was the original dignified title for the chamber.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l23"
+        "yoma-008b-l21"
       ]
     },
     {
@@ -719,28 +719,28 @@
       "vilnaLine": 25,
       "en": "Rashi: 'because they paid money for the High Priesthood' - the Second Temple High Priests would give money to the Hasmonean kings to secure the position of High Priest. This is the corrupt practice that drove the annual rotation.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l25"
+        "yoma-008b-l24"
       ]
     },
     {
       "vilnaLine": 26,
       "en": "Rashi: 'and they would replace it every 12 months' - because the kohanim were wicked and did not complete their year, they would die and be replaced. Each new High Priest would tear down the previous one's construction and build his own, so the room was constantly rebuilt and renamed.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l26"
+        "yoma-008b-l24"
       ]
     },
     {
       "vilnaLine": 27,
       "en": "Rashi: 'like these parhedrin [Persian governors] who are replaced every 12 months' - the comparison is explicit: just as Persian governors rotate annually, so did the Second Temple High Priests. The comparison is damning.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l27"
+        "yoma-008b-l24"
       ]
     },
     {
       "vilnaLine": 28,
       "en": "Rashi: 'therefore they called it Lishkat Parhedrin' - the room acquired its unflattering name as social commentary. The name stuck in the Mishnah, preserving the critique across generations.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l28"
+        "yoma-008b-l24"
       ]
     },
     {
@@ -754,7 +754,7 @@
       "vilnaLine": 30,
       "en": "Rashi: 'granted, trumah gedolah - they do not need to [separate] because...' - the baraita explains that trumah gedolah (the large priestly portion, approximately 1/50) does not need to be separated by the baker because a baraita explains why.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l30"
+        "yoma-008b-l29"
       ]
     },
     {
@@ -775,126 +775,126 @@
       "vilnaLine": 33,
       "en": "Rashi (continuing on bakers): the full account of Yochanan High Priest's investigation is presented in 9a. Here the Gemara is setting up the context by asking why each tier of tithes does not apply to bakers.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l33"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 34,
       "en": "Rashi on bakers and challah: challah is the portion separated from dough and given to the kohein. Unlike maaser sheni, challah must be separated from every baker's dough regardless of dema'i status, because bread production always involves challah obligation.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l34"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 35,
       "en": "Rashi: 'bakers who are chaverim (Torah-observant)' - the entire discussion about bakers applies specifically to bakers who are themselves meticulous about Torah observance (chaverim), yet receive grain from amei ha'aretz of uncertain tithe status.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l35"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 36,
       "en": "Rashi: 'because they are accustomed to sell constantly' - the reason bakers are treated leniently regarding dema'i maaser sheni is that they sell bread continuously throughout the day. If they had to account for maaser sheni of every batch, the burden would be excessive.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l36"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 37,
       "en": "Rashi: 'the Sages were lenient with them' - a deliberate leniency: bakers do not need to separate maaser sheni from dema'i or redeem it. This is a concession to the commercial reality of the bread trade.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l37"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 38,
       "en": "Rashi: 'and it is not necessary for them to separate maaser sheni from dema'i to ascend to Jerusalem or redeem it' - the full scope of the leniency: even if the dema'i grain actually had not had maaser sheni separated, the baker is not required to fix this for the customer.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l38"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 39,
       "en": "Rashi: 'maaser rishon and maaser ani' - the Gemara asks why bakers also do not need to separate these tithes. Answer: 'the one who claims from another bears the burden of proof' - the Levi or the poor person claiming these tithes must prove the baker's grain was not already tithed.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l39"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 40,
       "en": "Rashi: 'since he separated it and removed it from the category of tevel' - once the grain was separated from the larger batch (even as dema'i), the obligation for untithed produce (tevel) prohibition no longer applies strictly. Only a doubtful obligation remains for maaser rishon and maaser ani.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l40"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 41,
       "en": "Rashi: 'the Levi and the poor person should bring their proof' - since the doubt is between the baker (who says he tithed) and the claimant (who says he did not), the burden falls on the claimant. The baker therefore owes nothing unless proven otherwise.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l41"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 42,
       "en": "Rashi: 'they separate it and ascend and eat it in Jerusalem' - for maaser sheni, which must be eaten in Jerusalem, the bakers do need to separate it from dema'i grain. But the Sages were lenient with bakers specifically for this - the explanation continues on 9a.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l42"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 43,
       "en": "Rashi on the final line of 8b: 'the bakers' - this is a concluding reference to the Mishnah being discussed. The explanation of why bakers are exempt from dema'i maaser sheni will be completed when the Gemara resumes on 9a.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l43"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 44,
       "en": "Rashi: summary note on the bakers section: bakers are chaverim who buy from amei ha'aretz. The Rabbis exempted them from the full dema'i tithe regime because they sell constantly and the burden would be impossible. Only trumat maaser and challah are required from them.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l44"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 45,
       "en": "Rashi (continuation): the phrase 'and they would eat it in Jerusalem' refers to maaser sheni - the second tithe that must physically be consumed in Jerusalem or redeemed. Bakers cannot practically do this for every batch, hence the leniency.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l45"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 46,
       "en": "Rashi: 'not all other people' - in contrast to bakers, ordinary individuals who purchase grain from amei ha'aretz must separate maaser sheni from dema'i and either ascend to Jerusalem to eat it or redeem it for money.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l46"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 47,
       "en": "Rashi: 'and they separate maaser rishon and maaser ani' - ordinary purchasers must also separate maaser rishon for the Levi and maaser ani for the poor. They separate but do not necessarily give to specific individuals; the obligation is to separate.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l47"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 48,
       "en": "Rashi: 'since he is accustomed to sell every hour' - the baker's exemption is grounded in his commercial frequency. He sells bread continuously, making individual tracking of each batch's tithe obligations impossible.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l48"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 49,
       "en": "Rashi: 'they [the Sages] were lenient with him, that he does not need to separate maaser sheni from dema'i or redeem it' - the complete statement of the baker's leniency. He is the commercial exception; all other purchasers retain the full obligation.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l49"
+        "yoma-008b-l32"
       ]
     },
     {
       "vilnaLine": 50,
       "en": "Rashi on the closing line (transition to 9a): 'because' - this is the connecting word leading into 9a's explanation of why Yochanan High Priest decreed the dema'i rules in the first place. The full baraita about his sending throughout Israel follows on 9a.",
       "linkedGemaraLineIds": [
-        "yoma-008b-l50"
+        "yoma-008b-l32"
       ]
     }
   ],

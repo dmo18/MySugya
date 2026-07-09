@@ -16567,7 +16567,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l02"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16581,7 +16581,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l03"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16609,7 +16609,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l05"
+          "yoma-007b-l04"
         ]
       },
       {
@@ -16623,7 +16623,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l06"
+          "yoma-007b-l04"
         ]
       },
       {
@@ -16637,7 +16637,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l07"
+          "yoma-007b-l04"
         ]
       },
       {
@@ -16665,7 +16665,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l09"
+          "yoma-007b-l08"
         ]
       },
       {
@@ -16679,7 +16679,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l10"
+          "yoma-007b-l08"
         ]
       },
       {
@@ -16707,7 +16707,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l12"
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16735,7 +16735,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l14"
+          "yoma-007b-l13"
         ]
       },
       {
@@ -16763,7 +16763,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l16"
+          "yoma-007b-l15"
         ]
       },
       {
@@ -16777,7 +16777,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l17"
+          "yoma-007b-l15"
         ]
       },
       {
@@ -17367,7 +17367,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l02"
+          "yoma-008a-l01"
         ]
       },
       {
@@ -17381,7 +17381,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l03"
+          "yoma-008a-l01"
         ]
       },
       {
@@ -17409,7 +17409,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l05"
+          "yoma-008a-l04"
         ]
       },
       {
@@ -17437,7 +17437,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l07"
+          "yoma-008a-l06"
         ]
       },
       {
@@ -17465,7 +17465,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l09"
+          "yoma-008a-l08"
         ]
       },
       {
@@ -17479,7 +17479,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l10"
+          "yoma-008a-l08"
         ]
       },
       {
@@ -17507,7 +17507,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l12"
+          "yoma-008a-l11"
         ]
       },
       {
@@ -17521,7 +17521,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l13"
+          "yoma-008a-l11"
         ]
       },
       {
@@ -17549,7 +17549,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l15"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17563,7 +17563,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l16"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17577,7 +17577,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l17"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17591,7 +17591,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l18"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17605,7 +17605,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l19"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17619,7 +17619,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l20"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17647,7 +17647,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l22"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17675,7 +17675,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l24"
+          "yoma-008a-l23"
         ]
       },
       {
@@ -17689,7 +17689,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l25"
+          "yoma-008a-l23"
         ]
       },
       {
@@ -17717,7 +17717,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l27"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17745,7 +17745,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l29"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17759,7 +17759,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l30"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17773,7 +17773,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l31"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17801,7 +17801,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l33"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -17815,7 +17815,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l34"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -18412,7 +18412,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l02"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18426,7 +18426,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l03"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18454,7 +18454,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l05"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18468,7 +18468,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l06"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18482,7 +18482,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l07"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18510,7 +18510,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l09"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18538,7 +18538,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l11"
+          "yoma-008b-l10"
         ]
       },
       {
@@ -18552,7 +18552,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l12"
+          "yoma-008b-l10"
         ]
       },
       {
@@ -18566,7 +18566,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l13"
+          "yoma-008b-l10"
         ]
       },
       {
@@ -18594,7 +18594,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l15"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18608,7 +18608,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l16"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18622,7 +18622,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l17"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18636,7 +18636,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l18"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18650,7 +18650,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l19"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18664,7 +18664,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l20"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18692,7 +18692,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l22"
+          "yoma-008b-l21"
         ]
       },
       {
@@ -18706,7 +18706,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l23"
+          "yoma-008b-l21"
         ]
       },
       {
@@ -18734,7 +18734,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l25"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18748,7 +18748,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l26"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18762,7 +18762,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l27"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18776,7 +18776,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l28"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18804,7 +18804,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l30"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -18846,7 +18846,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l33"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18860,7 +18860,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l34"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18874,7 +18874,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l35"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18888,7 +18888,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l36"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18902,7 +18902,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l37"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18916,7 +18916,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l38"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18930,7 +18930,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l39"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18944,7 +18944,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l40"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18958,7 +18958,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l41"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18972,7 +18972,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l42"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -18986,7 +18986,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l43"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19000,7 +19000,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l44"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19014,7 +19014,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l45"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19028,7 +19028,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l46"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19042,7 +19042,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l47"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19056,7 +19056,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l48"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19070,7 +19070,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l49"
+          "yoma-008b-l32"
         ]
       },
       {
@@ -19084,7 +19084,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l50"
+          "yoma-008b-l32"
         ]
       }
     ],
@@ -19648,7 +19648,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l03"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19662,7 +19662,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l04"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19690,7 +19690,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l06"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19704,7 +19704,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l07"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19732,7 +19732,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l09"
+          "yoma-009a-l08"
         ]
       },
       {
@@ -19746,7 +19746,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l10"
+          "yoma-009a-l08"
         ]
       },
       {
@@ -19760,7 +19760,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l11"
+          "yoma-009a-l08"
         ]
       },
       {
@@ -19774,7 +19774,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l12"
+          "yoma-009a-l08"
         ]
       },
       {
@@ -19802,7 +19802,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l14"
+          "yoma-009a-l13"
         ]
       },
       {
@@ -19816,7 +19816,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l15"
+          "yoma-009a-l13"
         ]
       },
       {
@@ -19830,7 +19830,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l16"
+          "yoma-009a-l13"
         ]
       },
       {
@@ -19858,7 +19858,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l18"
+          "yoma-009a-l17"
         ]
       }
     ],
@@ -20993,7 +20993,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l03"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21007,7 +21007,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l04"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21021,7 +21021,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l05"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21035,7 +21035,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l06"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21049,7 +21049,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l07"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21063,7 +21063,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l08"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21077,7 +21077,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l09"
+          "yoma-009b-l02"
         ]
       },
       {
@@ -21105,7 +21105,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l11"
+          "yoma-009b-l10"
         ]
       },
       {
@@ -21147,7 +21147,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l14"
+          "yoma-009b-l13"
         ]
       },
       {
@@ -21175,7 +21175,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l16"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21189,7 +21189,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l17"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21203,7 +21203,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l18"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21217,7 +21217,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l19"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21231,7 +21231,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l20"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21245,7 +21245,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l21"
+          "yoma-009b-l15"
         ]
       },
       {
@@ -21273,7 +21273,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l23"
+          "yoma-009b-l22"
         ]
       },
       {
@@ -21301,7 +21301,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l25"
+          "yoma-009b-l24"
         ]
       },
       {
@@ -21315,7 +21315,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l26"
+          "yoma-009b-l24"
         ]
       },
       {
@@ -21343,7 +21343,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l28"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21357,7 +21357,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l29"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21371,7 +21371,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l30"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21385,7 +21385,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l31"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21413,7 +21413,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l33"
+          "yoma-009b-l32"
         ]
       },
       {
@@ -21469,7 +21469,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l37"
+          "yoma-009b-l36"
         ]
       },
       {
@@ -21483,7 +21483,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l38"
+          "yoma-009b-l36"
         ]
       },
       {
@@ -21525,7 +21525,7 @@ const DAF_CONTENT = {
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l41"
+          "yoma-009b-l40"
         ]
       }
     ],

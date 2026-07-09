@@ -4952,3 +4952,24 @@ Phase 1 tooling PR that added this section.
 47a reconstruction is paused until this Phase 1 tooling is merged and
 green. Content repairs for items 1-5 above are separate, individually
 scoped passes and were intentionally NOT made in the tooling PR.
+
+### Repair record: 7b-9b bogus linkedGemaraLineIds fixed (VERSION 15.76)
+
+Corpus finding 3 above is resolved. All 117 bogus ids on 7b, 8a, 8b,
+9a, and 9b were repaired in a bounded mechanical pass. Diagnosis: the
+enrichment had linked every Rashi line at vilna line V to a Gemara id
+lV, assuming an id exists for every vilna line, but the real id space
+is sparse (ids exist only where Gemara segments start; each id's
+number equals its segment's starting vilna line, verified against
+learning_data.js). Every bogus target had delta zero to its own
+entry's vilnaLine, so each was remapped to the real id of the Gemara
+segment containing that vilna line (the nearest preceding real id),
+preserving the original placement intent. Spot checks against raw
+Rashi Hebrew and Gemara text confirmed correct anchoring (for example
+7b vilnaLine 5, a comment on R. Yehuda's forehead-plate position, now
+anchors to l04, R. Yehuda's own statement). Only linkedGemaraLineIds
+values changed; no en, he, or Gemara-learning fields were touched.
+scripts/allowlists/rashi_links_allowlist.json is now empty and must
+stay empty for new work. Findings 1, 2, 4, and 5 above (41a shift,
+42a/42b leftovers, 8a/9a phantom entry counts, 61a/67b-71b stubs)
+remain open, and 47a remains paused pending those decisions.
