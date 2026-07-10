@@ -5118,3 +5118,35 @@ interrupted blood applications). 61a therefore needs a full
 reconstruction pass for lines 1-45 in its own scoped authorization,
 and the same look-alike fabrication pattern should be assumed possible
 on the other stub-block daf (67b/68a/68b/70a/71b) until checked.
+
+### Look-alike audit: 61a fabrication confirmed; 67b/68a/68b/70a/71b are SHIFTED, not stub-missing (VERSION 15.84 main, read-only audit)
+
+Read-only Fable audit of all six daf named in the PR #73 escalation;
+full report with per-line evidence and anchor offsets in
+docs/reports/rashi-lookalike-shift-audit.md. Findings:
+
+- 61a lines 1-45 confirmed fabricated across the whole block (a
+  continuous essay about the daf's theme, unrelated to the Hebrew line
+  by line; the Hebrew's Shevuot 7b and 13b citations appear nowhere in
+  the English). Needs full reconstruction, Fable/Sonnet.
+- 67b, 68a, 68b, 70a, 71b are NOT fabricated. Each carries a genuine,
+  complete translation of the daf's entire Rashi, compressed into too
+  few lines: alignment drifts ahead by up to +13/+13/+11/+9/+17 lines
+  respectively, the translation ends early, and the tail was padded
+  with the allowlisted stub_continuation stubs. The stub lines' Hebrew
+  content is already translated earlier in each daf.
+- Consequence: stub-only repair (the 61a playbook) is FORBIDDEN on
+  these five daf. It would create paraphrased duplicates, leave the
+  middle of each daf misaligned, and drain allowlist entries while
+  making the daf worse. They need a full-daf realignment pass instead
+  (Fable/Sonnet, Fable review).
+- The debt-list phrase "61a/67b-71b stubs" is therefore misleading:
+  on five of the six daf the stubs are a symptom, not the defect.
+- The advisory semantic audit scored these daf 0 to 3 with zero shift
+  candidates; four concrete detector gaps (colon-less citation regex,
+  tractate names outside parentheses, 4-line window, no drift
+  aggregate) are documented in the report with a proposed fix,
+  preflight block, packet warning, and a rashi-realignment task type.
+
+No content changed; no repair started; 41a, 47a, 77a-88a, and nekudot
+untouched.

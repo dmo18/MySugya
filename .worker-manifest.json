@@ -1,8 +1,29 @@
 {
- "type": "rashi-repair",
+ "type": "audit-only",
  "module": "yoma",
  "targets": [
-  "61a"
+  "61a",
+  "61b",
+  "62a",
+  "62b",
+  "63a",
+  "63b",
+  "64a",
+  "64b",
+  "65a",
+  "65b",
+  "66a",
+  "66b",
+  "67a",
+  "67b",
+  "68a",
+  "68b",
+  "69a",
+  "69b",
+  "70a",
+  "70b",
+  "71a",
+  "71b"
  ],
  "model": "haiku",
  "paused": false,
@@ -10,46 +31,27 @@
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
-  "modules/yoma/assets/learning/yoma/<daf>.learning.json",
-  "modules/yoma/learning_data.js",
-  "modules/yoma/coverage.json",
-  "VERSION",
-  "package.json",
-  "package-lock.json",
+  "docs/reports/*",
   "docs/rashi-audit-backlog.md",
-  "modules/yoma/scripts/allowlists/*",
   ".worker-manifest.json"
  ],
- "allowedJsonPaths": [
-  "rashiTranslations[*].en",
-  "rashiTranslations[*].linkedGemaraLineIds"
- ],
+ "allowedJsonPaths": [],
  "forbiddenFiles": [
-  ".github/workflows/*",
+  "modules/*",
   "scripts/*",
-  "modules/yoma/scripts/*.py",
-  "githooks/*"
+  ".github/workflows/*",
+  "githooks/*",
+  "package.json",
+  "VERSION"
  ],
- "allowlistPolicy": "remove-only",
+ "allowlistPolicy": "forbidden",
  "structurePolicy": "forbidden",
  "requiredValidators": [
-  "validate:offline:yoma",
-  "check:rashi-pr-scope:yoma"
+  "validate:offline:yoma"
  ],
- "generationCommands": [
-  "cd modules/yoma && python3 scripts/build_learning_data.py",
-  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
- ],
- "buildTestCommands": [
-  "npm run build",
-  "npm run check:deploy-html",
-  "npm test",
-  "npm run test:browser"
- ],
+ "generationCommands": [],
+ "buildTestCommands": [],
  "escalationTriggers": [
-  "uncertain Hebrew meaning or placement",
-  "count mismatch not already baselined",
-  "new semantic audit shift candidate beyond offset +-1",
-  "any gate failure not fixable by correcting your own content"
+  "any finding that suggests content on main is wrong (report it; do not fix it)"
  ]
 }
