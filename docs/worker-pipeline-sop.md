@@ -51,18 +51,27 @@ consistency), `worker:docs` (regenerate reference docs).
 
 ## Model roles (non-negotiable)
 
-- Fable (or Sonnet): owns the pipeline, schema, validators, registry,
-  allowlist growth, structure edits, Hebrew semantic judgments,
-  ambiguous repairs, new task types, and every escalation. Only
-  Fable/Sonnet may issue manifests carrying --authorize flags or run
-  with RASHI_ALLOWLIST_RESTRUCTURE=1.
-- Haiku (or another small model): executes bounded tasks strictly inside
-  a generated manifest/prompt/packet. Haiku CANNOT: add allowlist or
-  baseline entries; authorize structure edits; override, weaken, or
-  reinterpret a validator; edit the registry, validators, workflows, or
-  hooks; merge a fableReviewRequired PR without review. Haiku CAN poll
-  CI/deploy mechanically, but only after local `worker:verify --full`
-  has passed.
+- Fable: owns the pipeline, schema, validators, registry, allowlist
+  growth, structure edits, new task types, workflow and docs changes,
+  branch cleanup, process hardening, and every escalation. Fable is
+  the REVIEWER for semantic daf PRs, not the worker: Fable does not
+  perform ordinary daf content work, and acts as the semantic worker
+  only when explicitly substituting because Sonnet is unavailable.
+- Sonnet: the default WORKER for all semantic daf work: Hebrew/Rashi
+  translation, placement judgments, shifted-daf realignment, and
+  fabricated-daf reconstruction (rashi-realignment and
+  rashi-reconstruction carry model: sonnet in the registry; Haiku is
+  not allowed on them). Sonnet may also review or escalate.
+- Only Fable/Sonnet may issue manifests carrying --authorize flags or
+  run with RASHI_ALLOWLIST_RESTRUCTURE=1.
+- Haiku (or another small model): executes mechanical bounded tasks
+  strictly inside a generated manifest/prompt/packet, and only where
+  the task type's model field says haiku (haiku-safe). Haiku CANNOT:
+  take a sonnet or fable task; add allowlist or baseline entries;
+  authorize structure edits; override, weaken, or reinterpret a
+  validator; edit the registry, validators, workflows, or hooks; merge
+  a fableReviewRequired PR without review. Haiku CAN poll CI/deploy
+  mechanically, but only after local `worker:verify --full` has passed.
 - A red gate always means the content or scope is wrong. The only two
   legal responses are: fix your own work, or stop and escalate.
 
@@ -95,6 +104,26 @@ consistency), `worker:docs` (regenerate reference docs).
 7. Final report: `npm run worker:report`, fill in PR/merge/deploy, post
    verbatim. One compact block; no narration.
 
+## Branch hygiene (standard cleanup rule)
+
+- After a worker PR merges AND the two main deploy workflows are green
+  for the merge commit, delete the merged worker branch (remote).
+- Do not leave stale claude/* worker branches around; a branch whose
+  head is reachable from main and whose PR is merged or closed is
+  cleanup debt.
+- NEVER delete: main; the cloudways branch (deploy target of the
+  Deploy Cloudways Branch workflow); any branch that is the head of an
+  OPEN pull request.
+- If a branch's status is uncertain (head not reachable from main, no
+  associated PR, unclear owner), report it instead of deleting it.
+- Branch cleanup is Fable's job (a hygiene/tooling pass), not a worker
+  task.
+- Remote-session credentials may be push-scoped to the designated
+  branch only (branch deletion returns 403). In that case Fable
+  produces the classified deletion list and the repository admin
+  deletes via the GitHub branches page, which marks merged branches
+  itself.
+
 ## Consistency policies (single source summary)
 
 - VERSION: one patch bump per PR via VERSION + scripts/sync_version.py;
@@ -117,9 +146,11 @@ consistency), `worker:docs` (regenerate reference docs).
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
   not haiku-safe; the remedies are rashi-realignment (shifted) and
-  rashi-reconstruction (fabricated), both Fable/Sonnet with Fable
-  review. Override is Fable-only: manifest authorizeDriftOverride plus
-  FABLE_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm test).
+  rashi-reconstruction (fabricated), Sonnet worker by default with
+  Fable review (Fable substitutes as worker only when Sonnet is
+  unavailable). Override is Fable-only: manifest authorizeDriftOverride
+  plus FABLE_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm
+  test).
 - Known deferred content debt lives in docs/rashi-audit-backlog.md:
   61a lines 1-45 fabricated (rashi-reconstruction, Fable/Sonnet);
   67b/68a/68b/70a/71b shifted-compressed (rashi-realignment,

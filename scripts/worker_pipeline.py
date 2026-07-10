@@ -370,7 +370,9 @@ def cmd_prompt(opts):
         spec["description"],
         "",
         f"Recommended model: {m['model']}. Haiku may take this task only if the model field says haiku"
-        " (haiku-with-fable-review means Haiku executes and Fable reviews the PR before merge).",
+        " (haiku-with-fable-review means Haiku executes and Fable reviews the PR before merge;"
+        " sonnet means Sonnet is the worker and Haiku is not allowed; fable means pipeline/tooling"
+        " work owned by Fable).",
         "",
         "Procedure:",
         f"1. Reconcile to origin/main; confirm clean tree.",
