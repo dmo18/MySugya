@@ -135070,11 +135070,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 1,
         he: "בקטורת לא קמיירי. ומיהו ודאי צריך להקטיר קטורת אחרת אחר",
-        en: "All the Yom Kippur services are valid only if performed in the proper order.",
+        en: "'It does not deal with the incense': but he certainly must burn other incense after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l01a"
+        ]
       },
       {
         id: "rashi-yoma-061a-002",
@@ -135082,11 +135084,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 2,
         he: "שחיטת פר זה: הקדים דם השעיר. קא סלקא דעתך במתנות",
-        en: "If he reversed any two services, the question is whether the reversal invalidates.",
+        en: "this bull's slaughter. 'He put the goat's blood first': at first you assume it means the applications",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-061a-003",
@@ -135094,11 +135098,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 3,
         he: "שבפנים קאמר דהוה ליה שעיר ששחטו קודם מתן דמו של פר:",
-        en: "Some services are essential (me'akev) and some are not.",
+        en: "inside, so that this would be a goat slaughtered before the application of the bull's blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-061a-004",
@@ -135106,11 +135112,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 4,
         he: "תרגמא עולא. דבמתנות שבהיכל קאמר אבל שחיטת השעיר במקומה",
-        en: "Essential services: if missing or reversed, the atonement is not achieved.",
+        en: "'Ulla explained it': that it speaks of the applications in the Sanctuary, but the goat's slaughter in its place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-061a-005",
@@ -135118,11 +135126,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 5,
         he: "היתה לאחר מתן דם הפר בפנים: זה",
-        en: "Non-essential services: their absence or reversal does not void the atonement.",
+        en: "took place after the application of the bull's blood inside. 'This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-061a-006",
@@ -135130,11 +135140,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 6,
         he: "לפני ולפנים. כפר בדמים הללו על",
-        en: "The blood services are essential.",
+        en: "the innermost sanctum': with these bloods he atoned for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-007",
@@ -135142,11 +135154,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 7,
         he: "טומאה שאירעה לפני ולפנים אם נכנס",
-        en: "The confessions are essential.",
+        en: "impurity that occurred in the innermost sanctum, if a person entered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-008",
@@ -135154,11 +135168,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 8,
         he: "אדם שם בטומאה ואין בה ידיעה",
-        en: "The scapegoat dispatch is essential.",
+        en: "there in impurity and there is no awareness of it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-009",
@@ -135166,11 +135182,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 9,
         he: "בסוף אבל הוה ידיעה בתחילה",
-        en: "The reading and blessings are not essential for atonement - they are additional.",
+        en: "at the end but there was awareness at the beginning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-010",
@@ -135178,11 +135196,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 10,
         he: "וילפינן מקראי בפ\"ק דשבועות (דף ז:)",
-        en: "The immersions between garment changes: dispute over their essentiality.",
+        en: "and we derive from verses in the first chapter of Shevuot (7b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-011",
@@ -135190,11 +135210,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 11,
         he: "ששעיר זה תולה עליה להגין מן",
-        en: "R. Yehuda holds some immersions are essential.",
+        en: "that this goat suspends punishment for it, to shield from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-012",
@@ -135202,11 +135224,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 12,
         he: "היסורין עד שיודע לו ויביא בעולה",
-        en: "The Sages hold all immersions are required but none void the service if missing.",
+        en: "suffering until it becomes known to him and he brings a sliding scale",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-013",
@@ -135214,11 +135238,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 13,
         he: "ויורד: זה היכל. על טומאה שאירעה",
-        en: "The hand-foot washings are required but their absence is debated.",
+        en: "offering. 'This is the Sanctuary': for impurity that occurred",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-014",
@@ -135226,11 +135252,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 14,
         he: "בהיכל: ואת המזבח כמשמעו. על",
-        en: "The HP who performed a service while impure: his service is valid but he is punished.",
+        en: "in the Sanctuary. 'And the altar, as its plain sense': for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-015",
@@ -135238,11 +135266,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 15,
         he: "טומאה שאירעה לאדם במזבח ושהה",
-        en: "Impurity does not void the service itself - only regular impurity, not major impurity.",
+        en: "impurity that befell a person at the altar, where he stayed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-016",
@@ -135250,11 +135280,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 16,
         he: "כדי השתחויה שזהו שיעור שהייה",
-        en: "If the HP became impure while inside the Holy of Holies.",
+        en: "long enough to bow down, for that is the measure of staying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l07"
+        ]
       },
       {
         id: "rashi-yoma-061a-017",
@@ -135262,11 +135294,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 17,
         he: "למי שנטמא בעזרה: הושוו כולן.",
-        en: "He must exit immediately; the service performed while impure is not retroactively voided.",
+        en: "for one who became impure in the Courtyard. 'They were all equated':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-018",
@@ -135274,11 +135308,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 18,
         he: "בהאי יכפר בתרא כהנים לוים",
-        en: "Impurity that began during the service: what was completed before the impurity stands.",
+        en: "in this final 'he shall atone', priests, Levites,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-019",
@@ -135286,11 +135322,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 19,
         he: "וישראלים ובטומאת מקדש וקדשיו אי",
-        en: "What was not yet done must be performed by another if possible, or by the HP after purification.",
+        en: "and Israelites; and in impurity of the Temple and its sacred things it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-020",
@@ -135298,11 +135336,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 20,
         he: "אפשר להשוותן שהרי הפר מכפר על",
-        en: "The HP's purity is for his protection and Israel's honor.",
+        en: "impossible to equate them, for the bull atones for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-021",
@@ -135310,11 +135350,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 21,
         he: "הכהנים והשעיר הנעשה בפנים על",
-        en: "Serving while impure dishonors Israel's representative before God.",
+        en: "the priests and the goat whose service is inside for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-022",
@@ -135322,11 +135364,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 22,
         he: "ישראל ובאיזה כפרה הושוו מלמד",
-        en: "The rules around impurity reflect the dignity requirements of the day.",
+        en: "Israel; so in which atonement were they equated? It teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-023",
@@ -135334,11 +135378,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 23,
         he: "שכולם מתכפרים בוידוי של שעיר",
-        en: "A deputy HP (Mishneh) was prepared in case the HP became impure or died.",
+        en: "that all of them gain atonement through the confession over the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-024",
@@ -135346,11 +135392,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 24,
         he: "המשתלח בשאר עבירות דברי רבי",
-        en: "The Mishneh can substitute for some services but not others.",
+        en: "that is sent away, for the other transgressions; these are the words of Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l10"
+        ]
       },
       {
         id: "rashi-yoma-061a-025",
@@ -135358,11 +135406,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 25,
         he: "יהודה: ר\"ש אומר כשם שדם השעיר",
-        en: "The blood service specifically: dispute about whether the Mishneh can perform it.",
+        en: "Yehuda. 'Rabbi Shimon says: just as the blood of the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-026",
@@ -135370,11 +135420,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 26,
         he: "הנעשה בפנים מכפר על ישראל",
-        en: "For the most essential services, the HP himself must serve.",
+        en: "whose service is inside atones for Israel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-027",
@@ -135382,11 +135434,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 27,
         he: "בטומאת מקדש וקדשיו. ואין עמו",
-        en: "His unique status on this day is inseparable from his performance of these acts.",
+        en: "for impurity of the Temple and its sacred things': and it has no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-028",
@@ -135394,11 +135448,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 28,
         he: "וידוי: כך דם הפר. בלא וידוי",
-        en: "The day is designed around one person's singular encounter with God.",
+        en: "confession with it. 'So the blood of the bull': without confession",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-029",
@@ -135406,11 +135462,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 29,
         he: "מכפר על הכהנים בטומאת מקדש",
-        en: "The Mishneh is a precaution, but the ideal is one HP performing all services.",
+        en: "it atones for the priests for impurity of the Temple",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-030",
@@ -135418,11 +135476,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 30,
         he: "וקדשיו: וכשם שוידוי של שעיר",
-        en: "The entire tractate Yoma prepares the reader for this understanding.",
+        en: "and its sacred things. And just as the confession over the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-031",
@@ -135430,11 +135490,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 31,
         he: "המשתלח מכפר על ישראל בשאר",
-        en: "The HP prepared, purified, and tested for seven days.",
+        en: "that is sent away atones for Israel for other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-032",
@@ -135442,11 +135504,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 32,
         he: "עבירות כך וידוי של פר מכפר על",
-        en: "All the preparation is for one day, one person, one encounter.",
+        en: "transgressions, so the confession over the bull atones for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-033",
@@ -135454,11 +135518,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 33,
         he: "הכהנים. ובמס' שבועות (דף יג:)",
-        en: "His performance of all the essential services in sequence and with purity.",
+        en: "the priests. And in tractate Shevuot (13b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-034",
@@ -135466,11 +135532,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 34,
         he: "פרכינן ולר\"ש הא ודאי הושוו",
-        en: "The integrity of the HP is the integrity of the service.",
+        en: "we object: but according to Rabbi Shimon they surely were equated;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-035",
@@ -135478,11 +135546,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 35,
         he: "ומשנינן הושוו דבני כפרה נינהו מיהו",
-        en: "If he performed with proper intention, in proper order, in proper purity.",
+        en: "and we answer: they were equated in that all are subject to atonement, yet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l13"
+        ]
       },
       {
         id: "rashi-yoma-061a-036",
@@ -135490,11 +135560,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 36,
         he: "כל חד מכפר בדידיה: וכלה מכפר",
-        en: "Then Israel is atoned. The covenant is renewed. The year begins clean.",
+        en: "each one gains atonement through his own. 'And when he has finished atoning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l19"
+        ]
       },
       {
         id: "rashi-yoma-061a-037",
@@ -135502,11 +135574,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 37,
         he: "את הקודש זה לפני ולפנים. אלו",
-        en: "This is the promise and the stakes of Yom Kippur.",
+        en: "for the Sanctuary, this is the innermost sanctum': these are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l19"
+        ]
       },
       {
         id: "rashi-yoma-061a-038",
@@ -135514,11 +135588,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 38,
         he: "הזאות של בין הבדים: זה היכל.",
-        en: "The Talmud traces every detail because every detail matters for this outcome.",
+        en: "the sprinklings between the staves. 'This is the Sanctuary':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l19"
+        ]
       },
       {
         id: "rashi-yoma-061a-039",
@@ -135526,11 +135602,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 39,
         he: "הזאות שעל הפרוכת: מכאן אמרו",
-        en: "Understanding the halachot of the service enables participation in its meaning.",
+        en: "the sprinklings on the Curtain. 'From here they said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l22"
+        ]
       },
       {
         id: "rashi-yoma-061a-040",
@@ -135538,11 +135616,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 40,
         he: "וכו'. לאו אנתן מקצת מתנות קאי",
-        en: "Study is the successor to service - the Talmud makes the service accessible forever.",
+        en: "etc.': it does not refer to 'he gave some of the applications',",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l22"
+        ]
       },
       {
         id: "rashi-yoma-061a-041",
@@ -135550,11 +135630,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 41,
         he: "אלא אגמר מתנות שבפנים ונשפך",
-        en: "The HP's service ends; the Talmud's transmission begins.",
+        en: "but to 'he finished the applications inside and the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l22"
+        ]
       },
       {
         id: "rashi-yoma-061a-042",
@@ -135562,11 +135644,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 42,
         he: "הדם דאמר מכאן דאין צריך לחזור",
-        en: "What the HP did once in the Temple, the student does daily in learning.",
+        en: "spilled', for it says that from here we learn he need not go back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l22"
+        ]
       },
       {
         id: "rashi-yoma-061a-043",
@@ -135574,11 +135658,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 43,
         he: "ולעשות את זאת שגמר שהרי כפרה",
-        en: "The study of Yoma is itself an act of atonement and encounter.",
+        en: "and redo the set he had finished, since it is an atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l22"
+        ]
       },
       {
         id: "rashi-yoma-061a-044",
@@ -135586,11 +135672,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 44,
         he: "בפני עצמה היא: חטאת אחת",
-        en: "This is why Yom Kippur remains the holiest day even without the Temple.",
+        en: "unto itself. 'One sin offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l34"
+        ]
       },
       {
         id: "rashi-yoma-061a-045",
@@ -135598,11 +135686,13 @@ const DAF_CONTENT = {
         daf: "61a",
         vilnaLine: 45,
         he: "אמרתי לך. להתכפר הכפרה בה",
-        en: "The atonement mechanism is replaced by prayer, fasting, and the study of what was done.",
+        en: "I told you': for the atonement to be achieved with it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061a-l34"
+        ]
       },
       {
         id: "rashi-yoma-061a-046",
