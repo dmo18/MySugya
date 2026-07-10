@@ -8,10 +8,16 @@ are split so that no single actor can bypass them.
 
 ## Roles
 
-- Fable (or another frontier model) builds and maintains the guardrails,
-  performs forensic audits, designs repair passes, and handles every
-  semantic escalation. Only Fable/Sonnet may make Hebrew translation or
-  placement judgments.
+- Fable builds and maintains the guardrails, performs forensic audits,
+  designs repair passes, owns docs/workflow/branch hygiene, and handles
+  every escalation. Fable is the reviewer for semantic daf PRs, not the
+  worker: Fable performs daf content work only when explicitly
+  substituting because Sonnet is unavailable.
+- Sonnet is the default worker for semantic daf work: Hebrew
+  translation, placement judgments, shifted-daf realignment
+  (rashi-realignment), and fabricated-daf reconstruction
+  (rashi-reconstruction). Only Fable/Sonnet may make Hebrew translation
+  or placement judgments; Haiku is not allowed on those task types.
 - Haiku (or another small model) may perform bounded Rashi work ONLY
   inside the guardrails: executing a prepared work packet, running the
   validators, committing, and doing mechanical CI/deploy polling.
@@ -69,8 +75,9 @@ citations, search window 25):
 On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
 line-level task (repair, links): stub-only work there duplicates
 content and cements misalignment. The remedies are rashi-realignment
-(shifted) and rashi-reconstruction (fabricated), both Fable/Sonnet with
-Fable review. Override is Fable-only: the manifest must carry
+(shifted) and rashi-reconstruction (fabricated), Sonnet worker by
+default with Fable review (Fable substitutes as worker only when
+Sonnet is unavailable). Override is Fable-only: the manifest must carry
 authorizeDriftOverride AND the environment must set
 FABLE_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
 packet embeds each daf's profile, and worker:verify enforces a clean

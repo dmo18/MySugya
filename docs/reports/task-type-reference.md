@@ -196,7 +196,7 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 
 Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
 
-- model: fable; Fable review required
+- model: sonnet; Fable review required
 - haiku allowed: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
@@ -213,8 +213,8 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
 
-- model: haiku-with-fable-review; Fable review required
-- haiku allowed: yes
+- model: sonnet; Fable review required
+- haiku allowed: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
