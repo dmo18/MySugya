@@ -5150,3 +5150,46 @@ docs/reports/rashi-lookalike-shift-audit.md. Findings:
 
 No content changed; no repair started; 41a, 47a, 77a-88a, and nekudot
 untouched.
+
+### Drift detection and realignment workflow (VERSION 15.85, tooling only)
+
+Tooling/process only; no content changed. Implements the guardrails
+proposed by the VERSION 15.84 look-alike audit
+(docs/reports/rashi-lookalike-shift-audit.md):
+
+- audit_rashi_semantic.py rebuilt: colon-tolerant amud citations,
+  tractate names adjacent to daf citations, gematria daf-number anchors,
+  split-citation tolerance, search window 25, and a per-daf drift
+  profile (--profile; npm run audit:rashi:drift:yoma) classifying
+  SHIFTED / FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS.
+- rashi_preflight now FAILS line-level tasks (repair, links) on a daf
+  whose profile is SHIFTED or FABRICATION-SUSPECT, naming the required
+  remedy. Override is Fable-only: manifest authorizeDriftOverride plus
+  FABLE_DRIFT_OVERRIDE=1; neither alone unblocks (proven by dry runs).
+- The Rashi work packet embeds each daf's drift profile with an explicit
+  STOP warning when not haiku-safe.
+- New task type rashi-realignment (fable, Fable review, maxBatch 1) for
+  shifted-compressed daf; worker:verify hard-fails a realignment PR
+  whose post-edit profile is still not aligned.
+- Task assignments recorded: 61a lines 1-45 -> rashi-reconstruction
+  (Fable/Sonnet); 67b/68a/68b/70a/71b -> rashi-realignment
+  (Fable/Sonnet); stub-only repair FORBIDDEN on those five daf
+  (mechanically enforced); 47a+ reconstruction remains paused; nekudot
+  remains paused.
+- Tests: npm run test:drift:yoma (43 checks; wired into npm test):
+  synthetic classifier fixtures, block/override semantics, and
+  self-retiring live assertions for the documented daf.
+
+ESCALATED TRIAGE BACKLOG (report only, from the first corpus-wide drift
+scan): beyond the six audited daf, the profile flags 30 more daf that
+need Fable triage before any Haiku line-level work (the preflight block
+covers them automatically). SHIFTED: 5a, 5b, 6a, 7a, 41a (41a already
+documented). FABRICATION-SUSPECT (anchors repeatedly absent from the
+English; spot checks found 61a-style essay filler on 61b, 50a, 52b and
+untranslated bracket placeholders on 73a): 18a-adjacent false positives
+were eliminated, remaining flags are 41b, 47b, 48a, 50a, 50b, 51a, 51b,
+52a, 52b, 53a, 53b, 57b, 58b, 59a, 60a, 60b, 61b, 66b, 72b, 73a, 73b,
+74a, 75a, 76b, 9b. FABRICATION-SUSPECT means "needs Fable review", not
+"proven fabricated": partial-coverage translations of long Hebrew lines
+can also trip it (9b looks like that case). The 77a-88a filler daf are
+already fully allowlisted, so their misses are excluded by design.

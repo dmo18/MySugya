@@ -46,11 +46,16 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)",
     "count mismatch not already baselined",
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
    ],
-   "fableReviewRequired": false
+   "fableReviewRequired": false,
+   "driftBlocked": true,
+   "optionalAuthorizations": [
+    "authorizeDriftOverride"
+   ]
   },
   "rashi-reconstruction": {
    "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).",
@@ -103,6 +108,58 @@
    ],
    "fableReviewRequired": true
   },
+  "rashi-realignment": {
+   "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "modules/yoma/scripts/allowlists/*",
+    ".worker-manifest.json"
+   ],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en",
+    "rashiTranslations[*].linkedGemaraLineIds"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "remove-only",
+   "structurePolicy": "forbidden",
+   "rashiPreflightTask": "shifted-block",
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "uncertain Hebrew meaning or placement",
+    "post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)",
+    "count mismatch not already baselined",
+    "any gate failure not fixable by correcting your own content"
+   ],
+   "fableReviewRequired": true,
+   "maxBatch": 1
+  },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
    "model": "haiku-with-fable-review",
@@ -152,7 +209,11 @@
    ],
    "maxBatch": 2,
    "allowlistMustShrinkOrExplain": true,
-   "fableReviewRequired": true
+   "fableReviewRequired": true,
+   "driftBlocked": true,
+   "optionalAuthorizations": [
+    "authorizeDriftOverride"
+   ]
   },
   "gemara-learning": {
    "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Fable/Sonnet only.",

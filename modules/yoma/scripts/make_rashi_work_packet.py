@@ -27,6 +27,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import audit_rashi_semantic
+
 ROOT = Path(__file__).parent.parent
 LEARN_DIR = ROOT / "assets" / "learning" / "yoma"
 TALMUDDEV_DIR = ROOT / "assets" / "talmuddev"
@@ -43,6 +46,7 @@ POST_EDIT_COMMANDS = [
 ]
 
 RULES = [
+    "If this packet's drift profile says SHIFTED or FABRICATION-SUSPECT, STOP: this daf is not eligible for stub repair or link edits; it needs the recommended Fable/Sonnet task type.",
     "Translate every raw Rashi line from its own Hebrew; no placeholders, no generic filler.",
     "linkedGemaraLineIds may only use ids listed in this packet's Gemara id table.",
     "Lines past the last Gemara segment link to the final id (boundary policy); linking policy never exempts a line from translation.",
@@ -101,6 +105,18 @@ def packet_for(daf):
         "startVilnaLine": s["lineRange"]["startVilnaLine"],
         "endVilnaLine": s["lineRange"]["endVilnaLine"],
     } for s in enrich.get("sugyot", [])]
+    profile = audit_rashi_semantic.profile_daf(daf)
+    drift = None
+    if profile:
+        drift = {
+            "classification": profile["classification"],
+            "anchorsFound": profile["anchorsFound"],
+            "anchorsMissing": profile["anchorsMissing"],
+            "offsets": profile["offsets"],
+            "maxAbsOffset": profile["maxAbsOffset"],
+            "haikuSafe": profile["haikuSafe"],
+            "recommendedTaskType": profile["recommendedTaskType"],
+        }
     return {
         "daf": daf,
         "rawRashiCount": len(raw),
@@ -113,6 +129,7 @@ def packet_for(daf):
             "en": e.get("en", ""),
         } for e in enrich.get("rashiTranslations", [])],
         "validatorBaseline": baseline_for(daf),
+        "driftProfile": drift,
         "rules": RULES,
         "postEditCommands": POST_EDIT_COMMANDS,
     }
@@ -123,6 +140,17 @@ def to_markdown(p):
     L.append(f"# Rashi work packet: Yoma {p['daf']}")
     L.append(f"\nRaw Rashi lines: {p['rawRashiCount']} | current entries: {len(p['currentTranslations'])} "
              f"| Gemara ids: {len(p['gemaraIds'])}")
+    d = p.get("driftProfile")
+    if d:
+        L.append("\n## Semantic drift profile")
+        L.append(f"- classification: {d['classification']}")
+        L.append(f"- anchors: {d['anchorsFound']} found, {d['anchorsMissing']} missing; "
+                 f"offsets: {' '.join(f'{o:+d}' for o in d['offsets']) or 'none'}"
+                 f" (max |offset| {d['maxAbsOffset']})")
+        L.append(f"- haiku-safe for line-level work: {'yes' if d['haikuSafe'] else 'NO'}")
+        if not d["haikuSafe"]:
+            L.append(f"- WARNING: stub repair and link edits are FORBIDDEN on this daf; "
+                     f"required task type: {d['recommendedTaskType']} (Fable/Sonnet, Fable review)")
     L.append("\n## Rules")
     for r in p["rules"]:
         L.append(f"- {r}")

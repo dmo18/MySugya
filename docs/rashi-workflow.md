@@ -54,6 +54,29 @@ likely shifted-English blocks and missing Hebrew anchors. Run it after
 any content pass and before declaring a daf done; treat new shift
 candidates at offset beyond +-1 as escalations.
 
+Drift profile (blocks repair-type preflight only):
+`audit:rashi:drift:yoma` (audit_rashi_semantic.py --profile) classifies
+every daf from citation anchors (colon-tolerant amud citations,
+tractate names adjacent to daf citations, gematria daf numbers, split
+citations, search window 25):
+
+- SHIFTED: the English is genuine but displaced from its Hebrew
+  (2+ distinct lines nonzero same-sign offsets including one beyond 2).
+- FABRICATION-SUSPECT: 2+ consecutive non-allowlisted Hebrew citation
+  anchors appear nowhere in the English.
+- ALIGNED / INSUFFICIENT-ANCHORS: haiku-safe.
+
+On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
+line-level task (repair, links): stub-only work there duplicates
+content and cements misalignment. The remedies are rashi-realignment
+(shifted) and rashi-reconstruction (fabricated), both Fable/Sonnet with
+Fable review. Override is Fable-only: the manifest must carry
+authorizeDriftOverride AND the environment must set
+FABLE_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
+packet embeds each daf's profile, and worker:verify enforces a clean
+post-edit profile for rashi-realignment PRs. Tests:
+`npm run test:drift:yoma` (part of `npm test`).
+
 ## Bounded work procedure (per daf)
 
 1. Fable (or the coordinator) generates the work packet:

@@ -41,7 +41,8 @@ YSCRIPTS = REPO / "modules" / "yoma" / "scripts"
 YROOT = REPO / "modules" / "yoma"
 MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 
-RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "placeholder-backfill"}
+RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment", "placeholder-backfill"}
+DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
 CONTENT_PREFIXES = ("modules/yoma/assets/learning/", "modules/yoma/assets/literal_en/",
                     "modules/yoma/assets/talmuddev/", "modules/yoma/assets/daftexts/")
 
@@ -267,14 +268,24 @@ def cmd_preflight(opts):
             errors.append("generated data stale; regenerate before starting")
 
     if m["type"] in RASHI_TYPES:
-        task = load_registry()[m["type"]].get("rashiPreflightTask", "reconstruct")
+        task = spec.get("rashiPreflightTask", "reconstruct")
+        # Drift-block enforcement is manifest-aware here: the underlying
+        # rashi_preflight env override is honored ONLY when the manifest
+        # also carries the Fable-issued authorizeDriftOverride flag. A
+        # worker cannot unblock a SHIFTED/FABRICATION-SUSPECT daf by
+        # setting the env var alone, and a manifest flag alone (however it
+        # was generated) does nothing without the Fable-only env var.
+        child_env = dict(os.environ)
+        if spec.get("driftBlocked") and "authorizeDriftOverride" not in m.get("authorizations", []):
+            child_env.pop(DRIFT_OVERRIDE_ENV, None)
         for daf in m["targets"]:
-            r = sh([sys.executable, "scripts/rashi_preflight.py", daf, "--task", task], cwd=YROOT)
+            r = subprocess.run([sys.executable, "scripts/rashi_preflight.py", daf, "--task", task],
+                               capture_output=True, text=True, cwd=YROOT, env=child_env)
             per_daf_errors = [l for l in r.stdout.splitlines() if l.strip().startswith("ERROR") and daf in l]
             ok = r.returncode == 0 or (opts.dry_run and not per_daf_errors)
             print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
             for l in per_daf_errors:
-                errors.append(l.strip())
+                errors.append(l.strip().removeprefix("ERROR").strip())
     elif m["targets"]:
         for daf in m["targets"]:
             if not (YROOT / "assets" / "talmuddev" / f"{daf}.json").exists():
@@ -475,6 +486,20 @@ def cmd_verify(opts):
         r = sh(cmd, cwd=YROOT)
         print(r.stdout[-3000:])
         results.append(("rashi-verify", r.returncode == 0))
+        # Post-edit drift profile: hard gate for rashi-realignment (the
+        # task's whole purpose is restoring alignment), advisory for the
+        # other Rashi types.
+        pr = sh([sys.executable, "scripts/audit_rashi_semantic.py", "--profile", "--json",
+                 *m["targets"]], cwd=YROOT)
+        try:
+            profs = json.loads(pr.stdout)
+            profs = profs if isinstance(profs, list) else [profs]
+        except json.JSONDecodeError:
+            profs = []
+        bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("haikuSafe")]
+        print(f"post-edit drift profile: {', '.join(bad) if bad else 'all targets aligned'}")
+        if m["type"] == "rashi-realignment":
+            results.append(("drift-profile", not bad and bool(profs)))
     else:
         r = sh(["npm", "run", "validate:offline:yoma"])
         results.append(("offline-gates", r.returncode == 0))
@@ -592,7 +617,7 @@ def cmd_schema_matrix(opts):
             continue
         owners, flag_owners = [], []
         if path in RASHI_MUTABLE:
-            owners += ["rashi-repair", "rashi-reconstruction", "placeholder-backfill"]
+            owners += ["rashi-repair", "rashi-reconstruction", "rashi-realignment", "placeholder-backfill"]
         ptr = "/" + "/".join(seg.replace("[*]", "/0") for seg in path.split("."))
         for tname, tspec in types.items():
             scope = tspec.get("jsonScope")

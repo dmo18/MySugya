@@ -113,7 +113,18 @@ consistency), `worker:docs` (regenerate reference docs).
   (it contains all offline gates plus both scope checks); require
   up-to-date branches; block force pushes; restrict bypass. Do not
   enable worker auto-merge before this is configured.
+- Drift gate: `audit:rashi:drift:yoma` classifies every daf (SHIFTED /
+  FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
+  preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
+  not haiku-safe; the remedies are rashi-realignment (shifted) and
+  rashi-reconstruction (fabricated), both Fable/Sonnet with Fable
+  review. Override is Fable-only: manifest authorizeDriftOverride plus
+  FABLE_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm test).
 - Known deferred content debt lives in docs/rashi-audit-backlog.md:
-  41a shifted block (+42a L50 lead), 8a/9a phantom counts, 61a/67b-71b
-  stubs, 77a-88a filler. 47a+ reconstruction is paused until the debt is
-  drained. Nekudot is paused in the registry pending validator design.
+  61a lines 1-45 fabricated (rashi-reconstruction, Fable/Sonnet);
+  67b/68a/68b/70a/71b shifted-compressed (rashi-realignment,
+  Fable/Sonnet; stub-only repair FORBIDDEN there, drift gate enforces);
+  41a shifted block (+42a L50 lead); 8a/9a phantom counts; 77a-88a
+  filler; plus the drift-profile triage backlog recorded at VERSION
+  15.85. 47a+ reconstruction is paused until the debt is drained.
+  Nekudot is paused in the registry pending validator design.
