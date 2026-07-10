@@ -17,6 +17,13 @@ FAILS (exit 1) when:
   - a target daf has unresolved allowlist/baseline hits and --task is not
     'repair' (reconstruction on top of undocumented-or-deferred defects is
     how scope creep starts; repairs must be explicitly declared)
+  - a target daf's drift profile (audit_rashi_semantic --profile) says
+    SHIFTED or FABRICATION-SUSPECT and --task is a line-level mode
+    ('repair' or 'links'): stub-only work there duplicates content and
+    cements misalignment. Use rashi-realignment (shifted) or
+    rashi-reconstruction (fabricated) under Fable/Sonnet. Override is
+    Fable-only: FABLE_DRIFT_OVERRIDE=1 plus, at the worker-pipeline
+    level, a manifest carrying authorizeDriftOverride.
 
 Otherwise prints, per daf: raw Rashi count, current entry count, real local
 Gemara id count, empty-link percentage, allowlist/baseline hits, semantic
@@ -25,10 +32,14 @@ commands. Offline except local git.
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+import audit_rashi_semantic
 
 SCRIPTS = Path(__file__).parent
 ROOT = SCRIPTS.parent
@@ -75,6 +86,34 @@ def expand_targets(spec):
     if not out:
         sys.exit(f"ERROR: range {spec!r} matches no daf")
     return out
+
+
+# Task modes that edit individual lines in place. On a daf whose drift
+# profile says SHIFTED or FABRICATION-SUSPECT, line-level edits duplicate
+# content and cement misalignment (docs/reports/rashi-lookalike-shift-audit.md),
+# so these modes are blocked there. Realignment/reconstruction modes are the
+# remedies and stay allowed.
+DRIFT_BLOCKED_TASKS = {"repair", "links"}
+DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
+
+
+def drift_block_error(profile, task, env=None):
+    """Return the blocking error string for this daf/task, or None.
+    Override requires the Fable-only environment variable (mirroring the
+    RASHI_ALLOWLIST_RESTRUCTURE precedent); worker prompts never mention
+    it, so a worker following its generated packet cannot trip it."""
+    if task not in DRIFT_BLOCKED_TASKS or profile is None or profile["haikuSafe"]:
+        return None
+    env = os.environ if env is None else env
+    if env.get(DRIFT_OVERRIDE_ENV) == "1":
+        return None
+    return (f"{profile['daf']}: drift profile classifies this daf "
+            f"{profile['classification']} (anchors found {profile['anchorsFound']}, "
+            f"missing {profile['anchorsMissing']}, max offset {profile['maxAbsOffset']}); "
+            f"stub-only {task} work is forbidden here. Use "
+            f"{profile['recommendedTaskType']} under Fable/Sonnet instead. "
+            f"Override requires a Fable-issued manifest authorization "
+            f"(authorizeDriftOverride) plus {DRIFT_OVERRIDE_ENV}=1.")
 
 
 def gemara_ids(daf):
@@ -135,9 +174,7 @@ def main():
         ids = gemara_ids(daf)
         empty = sum(1 for e in trans if not e.get("linkedGemaraLineIds"))
         hits = sorted(allow_lines.get(daf, []))
-        sem = sh([sys.executable, str(SCRIPTS / "audit_rashi_semantic.py"), daf, "--top", "5"],
-                 cwd=ROOT).stdout
-        sem_shifts = len(re.findall(r"offset [+-]\d", sem))
+        profile = audit_rashi_semantic.profile_daf(daf)
 
         print(f"\n=== {daf} ===")
         print(f"raw Rashi lines:      {len(raw)}")
@@ -148,13 +185,20 @@ def main():
               + (f" ({100*empty/len(trans):.0f}%)" if trans else ""))
         print(f"content allowlist:    {hits or 'none'}")
         print(f"repetition baseline:  {'yes' if daf in rep_daf else 'none'}")
-        print(f"semantic audit hits:  {sem_shifts} shift candidate(s)")
+        if profile:
+            print(f"drift profile:        {profile['classification']} "
+                  f"(anchors {profile['anchorsFound']} found / {profile['anchorsMissing']} missing, "
+                  f"max offset {profile['maxAbsOffset']}); "
+                  f"haiku-safe for line-level work: {'yes' if profile['haikuSafe'] else 'NO'}")
 
         blocked = bool(hits) or daf in count_mm or daf in rep_daf
         if blocked and opts.task not in ("repair", "shifted-block", "links"):
             errors.append(f"{daf}: has unresolved allowlist/baseline hits; "
                           f"task {opts.task!r} is not a repair task. Use --task repair "
                           f"(or fix the plan) before starting.")
+        drift_err = drift_block_error(profile, opts.task)
+        if drift_err:
+            errors.append(drift_err)
 
     print("\n## Allowed files for this content PR")
     for f in ALLOWED_FILES:

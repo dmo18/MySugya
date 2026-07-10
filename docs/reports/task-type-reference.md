@@ -192,6 +192,23 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 - stop conditions:
   - any change outside the mutable path set would be needed
 
+## rashi-realignment
+
+Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
+
+- model: fable; Fable review required
+- haiku allowed: no
+- max batch: 1
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
+- allowlist policy: remove-only; structure policy: forbidden
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
+- stop conditions:
+  - uncertain Hebrew meaning or placement
+  - post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)
+  - count mismatch not already baselined
+  - any gate failure not fixable by correcting your own content
+
 ## rashi-reconstruction
 
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
@@ -222,6 +239,7 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)
   - count mismatch not already baselined
   - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content

@@ -1,57 +1,49 @@
 {
- "type": "audit-only",
+ "type": "docs-tooling",
  "module": "yoma",
- "targets": [
-  "61a",
-  "61b",
-  "62a",
-  "62b",
-  "63a",
-  "63b",
-  "64a",
-  "64b",
-  "65a",
-  "65b",
-  "66a",
-  "66b",
-  "67a",
-  "67b",
-  "68a",
-  "68b",
-  "69a",
-  "69b",
-  "70a",
-  "70b",
-  "71a",
-  "71b"
- ],
- "model": "haiku",
+ "targets": [],
+ "model": "fable",
  "paused": false,
  "fableReviewRequired": false,
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
-  "docs/reports/*",
-  "docs/rashi-audit-backlog.md",
+  "docs/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "modules/yoma/scripts/allowlists/*",
+  ".github/workflows/*",
+  "githooks/*",
+  "package.json",
+  "package-lock.json",
+  "VERSION",
+  "README.md",
+  "CLAUDE.md",
+  "SOURCES.md",
+  "tests/*",
   ".worker-manifest.json"
  ],
  "allowedJsonPaths": [],
  "forbiddenFiles": [
-  "modules/*",
-  "scripts/*",
-  ".github/workflows/*",
-  "githooks/*",
-  "package.json",
-  "VERSION"
+  "modules/yoma/assets/learning/*",
+  "modules/yoma/assets/talmuddev/*",
+  "modules/yoma/assets/daftexts/*",
+  "modules/yoma/source_store.js"
  ],
- "allowlistPolicy": "forbidden",
- "structurePolicy": "forbidden",
+ "allowlistPolicy": "restructure-with-env",
+ "structurePolicy": "not-applicable",
  "requiredValidators": [
   "validate:offline:yoma"
  ],
  "generationCommands": [],
- "buildTestCommands": [],
+ "buildTestCommands": [
+  "npm run build",
+  "npm run check:deploy-html",
+  "npm test",
+  "npm run test:browser"
+ ],
  "escalationTriggers": [
-  "any finding that suggests content on main is wrong (report it; do not fix it)"
+  "any existing gate would be weakened",
+  "workflow permission changes would be needed"
  ]
 }
