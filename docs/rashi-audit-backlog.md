@@ -5215,3 +5215,32 @@ offsets zero (the Shevuot 7b and 13b citations now resolve on their
 exact lines). The self-retiring 61a live assertion in
 test_drift_profile.py now skips, as designed. 61a is no longer in the
 fabrication-suspect set; it leaves the triage backlog above.
+
+### Repair record: 67b realigned (VERSION 15.87, first rashi-realignment pass)
+
+The SHIFTED/compressed daf 67b was realigned line by line under the
+rashi-realignment task type (Fable, manifest-scoped, maxBatch 1, Fable
+self-review). The old entries 1-58 held genuine content-paraphrase that
+drifted progressively (offset 0 at the top, -2 by line 22, -12..-15 in
+the tail); entries 59-69 were allowlisted stubs. Every entry's en now
+translates its own raw Hebrew vilna line, reusing the existing faithful
+phrasing where it matched; the previously stub-covered tail (he 59-69,
+the corrupted-girsa discussion, the dissection braita, and the
+gezeirah shavah) is translated from its own Hebrew, so no duplicate
+paraphrase remains from the compressed run. linkedGemaraLineIds were
+populated for all 69 lines with lemmas verified against the actual 67b
+Gemara segments (l01, l02, l05, l08, l10, l12, l16, l17, l20, l26,
+l28, l31, l37, l41, l42; Mishnah commentary he 35-57 links to l31/l37
+whose vilna ranges hold the Mishnah text; he 69 uses the final-id
+boundary policy).
+
+The 11 stub_continuation allowlist entries for 67b (lines 59-69) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 11).
+
+Post-edit drift profile: ALIGNED, 11 anchors found, 0 missing, all
+offsets zero (Lev. 16 L1, Gen. 6 L18, 1 Sam. 30 L22, Gen. 47 L23,
+Lev. 16 L42, Pesachim 65b + Sotah 15a L61, Sotah 14b L63, Lev. 1 L67,
+Lev. 4 L68). The self-retiring 67b live assertion in
+test_drift_profile.py now skips. 67b leaves the shifted set; 68a, 68b,
+70a, 71b, and 41a remain queued for their own realignment passes.

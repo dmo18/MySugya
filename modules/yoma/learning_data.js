@@ -148840,11 +148840,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 1,
         he: "דכתיב במדבר. ושלח את השעיר במדבר (ויקרא טז) וקרא יתירא",
-        en: "As it is written 'in the wilderness' (Lev. 16:22) - the extra word 'wilderness' is for derasha.",
+        en: "'As it is written: in the wilderness': 'and he shall send the goat into the wilderness' (Lev. 16), and the extra verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l01"
+        ]
       },
       {
         id: "rashi-yoma-067b-002",
@@ -148852,11 +148854,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 2,
         he: "הוא למדרש שיהא הפקר כמדבר: גזירה. לשון חומר ואיסור:",
-        en: "It shall be desolate like the wilderness: gezirah means a harsh decree.",
+        en: "serves the derasha that it be ownerless like the wilderness. 'Gezeirah': a term of stringency and prohibition.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l01"
+        ]
       },
       {
         id: "rashi-yoma-067b-003",
@@ -148864,11 +148868,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 3,
         he: "המדברה המדברה במדבר. שלש מקראות בענין לשלח אותו לעזאזל",
-        en: "Ha-midbarah, ha-midbarah, ba-midbar - three verses about sending the goat to Azazel.",
+        en: "'Ha-midbarah, ha-midbarah, ba-midbar': three verses on the matter: 'to send it to Azazel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l02"
+        ]
       },
       {
         id: "rashi-yoma-067b-004",
@@ -148876,11 +148882,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 4,
         he: "המדברה ושלח ביד איש עתי המדברה ושלח את השעיר במדבר:",
-        en: "Ha-midbarah (to the wilderness), ushilach b'yad ish iti ha-midbarah (sent by hand of the designated man to the wilderness), ushilach et ha-sa'ir ba-midbar.",
+        en: "to the wilderness', 'and he shall send it by the hand of a designated man to the wilderness', 'and he shall send the goat in the wilderness'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l02"
+        ]
       },
       {
         id: "rashi-yoma-067b-005",
@@ -148888,11 +148896,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 5,
         he: "חתוכה. צוק חתוך בזקיפה ולא",
-        en: "Cut off - the cliff is cut sharply vertically and not merely sloped.",
+        en: "'Cut': a cliff cut off vertically and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l05"
+        ]
       },
       {
         id: "rashi-yoma-067b-006",
@@ -148900,11 +148910,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 6,
         he: "משופע כל כך: דבר המתגזר ויורד.",
-        en: "A thing cut off and descending - the goat is cut into pieces, limb by limb.",
+        en: "so sloped. 'A thing that is severed and falls':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l05"
+        ]
       },
       {
         id: "rashi-yoma-067b-007",
@@ -148912,11 +148924,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 7,
         he: "השעיר מתגזר בה איברים איברים:",
-        en: "The goat is cut apart limb by limb.",
+        en: "the goat is severed on it limb by limb.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l05"
+        ]
       },
       {
         id: "rashi-yoma-067b-008",
@@ -148924,11 +148938,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 8,
         he: "שמא תאמר מעשה תהו הם. מה",
-        en: "Lest you say these are meaningless acts - what atonement is there in this dispatch?",
+        en: "'Lest you say they are acts of emptiness': what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l08"
+        ]
       },
       {
         id: "rashi-yoma-067b-009",
@@ -148936,11 +148952,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 9,
         he: "כפרה יש בשילוח זה ומה יש ביד",
-        en: "And what benefit comes from this cliff? It is not trivial.",
+        en: "atonement is there in this dispatch, and what is there in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l08"
+        ]
       },
       {
         id: "rashi-yoma-067b-010",
@@ -148948,11 +148966,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 10,
         he: "צוק זה להועיל: לתקלה. שימצאם",
-        en: "As a snare - that someone might find them and benefit from them without knowing they came from the goat.",
+        en: "this cliff to avail? 'As a stumbling block': that a person might find them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l10"
+        ]
       },
       {
         id: "rashi-yoma-067b-011",
@@ -148960,11 +148980,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 11,
         he: "אדם ויהנה מהם שלא ידע שהיו מן",
-        en: "A person would find them and benefit without knowing they were from the goat.",
+        en: "and benefit from them, not knowing they were from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l10"
+        ]
       },
       {
         id: "rashi-yoma-067b-012",
@@ -148972,11 +148994,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 12,
         he: "השעיר: שיהא עז וקשה. אל לשון",
-        en: "That it be strong and hard - el means hard.",
+        en: "the goat. 'That it be fierce and hard': 'el' is a term of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l12"
+        ]
       },
       {
         id: "rashi-yoma-067b-013",
@@ -148984,11 +149008,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 13,
         he: "קשה: ומניין שבצוק. הר זקוף:",
-        en: "And from where do we know it must be a cliff - a vertical steep rock.",
+        en: "hardness. 'And from where that it is at a cliff': a sheer mountain.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l12"
+        ]
       },
       {
         id: "rashi-yoma-067b-014",
@@ -148996,11 +149022,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 14,
         he: "גזירה. חתוכה: עוזא ועזאל.",
-        en: "Gezirah - cut off. Uzza and Azza'el.",
+        en: "'Gezeirah': cut. 'Uzza and Aza'el':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l16"
+        ]
       },
       {
         id: "rashi-yoma-067b-015",
@@ -149008,11 +149036,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 15,
         he: "מלאכי חבלה שירדו לארץ בימי",
-        en: "Angels of destruction who descended to earth in the days of Na'amah sister of Tubal-Cain.",
+        en: "angels of destruction who came down to earth in the days of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l16"
+        ]
       },
       {
         id: "rashi-yoma-067b-016",
@@ -149020,11 +149050,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 16,
         he: "נעמה אחות תובל קין ועליהם נאמר",
-        en: "About them it is written: 'the sons of God saw the daughters of man' (Gen. 6).",
+        en: "Naamah the sister of Tubal-Cain, and of them it is said:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l16"
+        ]
       },
       {
         id: "rashi-yoma-067b-017",
@@ -149032,11 +149064,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 17,
         he: "ויראו בני האלהים את בנות האדם",
-        en: "That is: the goat atones for sexual immorality.",
+        en: "'the sons of God saw the daughters of man'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l16"
+        ]
       },
       {
         id: "rashi-yoma-067b-018",
@@ -149044,11 +149078,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 18,
         he: "(בראשית ו) כלומר על העריות מכפר:",
-        en: "(Gen. 6) - it atones for sexual sins.",
+        en: "(Genesis 6); that is, it atones for sexual immorality.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l16"
+        ]
       },
       {
         id: "rashi-yoma-067b-019",
@@ -149056,11 +149092,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 19,
         he: "משפטי. משמע דברים המיושרים",
-        en: "Mishpatai - implies things that are rationally justified and reason demands doing.",
+        en: "'My ordinances': implying things that are upright,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l17"
+        ]
       },
       {
         id: "rashi-yoma-067b-020",
@@ -149068,11 +149106,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 20,
         he: "והדין נותן לעשותו: חוק. משמע",
-        en: "Chok - implies it is only the decree of a king, as in 'he made it a chok' (1 Sam. 30).",
+        en: "and reason dictates doing them. 'Chok': implying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-021",
@@ -149080,11 +149120,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 21,
         he: "שאינו אלא גזירת מלך כמו וישימה",
-        en: "And Joseph made it a chok (Gen. 47).",
+        en: "it is nothing but a king's decree, as in 'and he made it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-022",
@@ -149092,11 +149134,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 22,
         he: "לחק (שמואל א ל) וישם אותה יוסף",
-        en: "Ha-Satan - the evil inclination.",
+        en: "a statute' (1 Samuel 30), 'and Joseph made it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-023",
@@ -149104,11 +149148,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 23,
         he: "לחוק (בראשית מז) : השטן. יצר הרע",
-        en: "Responds to them with arguments to mislead Israel, saying the Torah is not true.",
+        en: "a statute' (Genesis 47). 'The Satan': the evil inclination",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-024",
@@ -149116,11 +149162,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 24,
         he: "משיב עליהן תשובה להטעות את",
-        en: "What benefit is there in all these? Therefore it is written in them: chok.",
+        en: "raises objections against them, to lead",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-025",
@@ -149128,11 +149176,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 25,
         he: "ישראל ולומר שהתורה אינה אמת כי",
-        en: "I am Hashem, I have decreed it upon you.",
+        en: "Israel astray and say the Torah is not true, for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-026",
@@ -149140,11 +149190,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 26,
         he: "מה תועלת בכל אלו לכך נכתב בהן",
-        en: "Talmud lomar - I am Hashem. This refers back to chukkotai.",
+        en: "what use is there in all these? Therefore it is written of them:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-027",
@@ -149152,11 +149204,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 27,
         he: "חוק אני ה' גזרתי עליכם: תלמוד",
-        en: "From them it concludes: et chukkotai tishmeru - I am Hashem, I have decreed them.",
+        en: "a chok; I am the Lord, I have decreed upon you. 'The verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-028",
@@ -149164,11 +149218,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 28,
         he: "לומר אני ה'. אחוקותי קאי דמינייהו",
-        en: "The one who sends the messenger - those who escort him from Jerusalem.",
+        en: "states: I am the Lord': it refers to 'My statutes', from which it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-029",
@@ -149176,11 +149232,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 29,
         he: "סליק את חוקותי תשמרו אני ה'",
-        en: "Talmud lomar vehameshale'ach - implies he has already sent him toward the wilderness.",
+        en: "concludes: 'you shall keep My statutes, I am the Lord':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l20"
+        ]
       },
       {
         id: "rashi-yoma-067b-030",
@@ -149188,11 +149246,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 30,
         he: "חקקתים גזרתים: השולח את המשלח.",
-        en: "He throws him off the top of the cliff all at once - he holds that the push and throw is his dispatch.",
+        en: "I have engraved them, I have decreed them. 'He who sends off the dispatcher':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l26"
+        ]
       },
       {
         id: "rashi-yoma-067b-031",
@@ -149200,11 +149260,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 31,
         he: "המלוים אותו מירושלים: ת\"ל",
-        en: "Mishnah: he came to the bull etc. The Tanna returns to his original order of the HP's service.",
+        en: "those who escort him from Jerusalem. 'The verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l26"
+        ]
       },
       {
         id: "rashi-yoma-067b-032",
@@ -149212,11 +149274,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 32,
         he: "והמשלח. משמע ששילחו כבר לצד",
-        en: "He describes how the HP came to the bull and goat that stood to be burned after he had handed over the designated goat.",
+        en: "states: vehameshale'ach': implying he has already sent it toward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l28"
+        ]
       },
       {
         id: "rashi-yoma-067b-033",
@@ -149224,11 +149288,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 33,
         he: "המדבר: זורקו בבת ראש. קסבר",
-        en: "He came to them and tore them open and removed the sacrificial parts.",
+        en: "the wilderness. 'He throws it down headlong': he holds that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-034",
@@ -149236,11 +149302,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 34,
         he: "דחיפתו וזריקתו היא שילוחו:",
-        en: "He gave the parts to a tray - a service vessel dish - and burned them as written (Lev. 16).",
+        en: "its push and its throw are its dispatch.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-035",
@@ -149248,11 +149316,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 35,
         he: "מתני' בא לו אצל פר וכו'. חזר",
-        en: "And he shall burn the fat of the sin offering on the altar. The Gemara asks: but at this point they were not yet fit to burn.",
+        en: "Mishnah. 'He came to the bull etc.': the Tanna returned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-036",
@@ -149260,11 +149330,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 36,
         he: "לו התנא לסדרו הראשון שהוא מסדר",
-        en: "He arranged them in a braided formation - four men carry two poles, two in front and two behind.",
+        en: "to his original order, for he is setting out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-037",
@@ -149272,11 +149344,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 37,
         he: "עבודת כ\"ג וקתני בא לו כהן גדול",
-        en: "Walking pole next to pole, the bull and goat placed on them stacked one over the other.",
+        en: "the High Priest's service, and teaches: the High Priest came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-038",
@@ -149284,11 +149358,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 38,
         he: "אצל פר ושעיר העומדים לישרף אחר",
-        en: "They bent them under each other in a braided formation.",
+        en: "to the bull and the goat that stood to be burned; after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-039",
@@ -149296,11 +149372,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 39,
         he: "שמסר את המשתלח למי שהוא",
-        en: "They were whole but their bellies had been torn open to remove the sacrificial parts.",
+        en: "he handed over the goat to be dispatched to the one who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-040",
@@ -149308,11 +149386,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 40,
         he: "מוליכו בא לו אצלם וקרעם והוציא",
-        en: "As taught in the Gemara: they are taken out whole.",
+        en: "leads it away, he came to them, tore them open, and removed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-041",
@@ -149320,11 +149400,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 41,
         he: "האימורין: ונתנם במגס. בקערה",
-        en: "And took them out to the burning place - outside Jerusalem.",
+        en: "the sacrificial portions. 'And he placed them in a tray': in a dish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-042",
@@ -149332,11 +149414,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 42,
         he: "של כלי שרת והקטירן כדכתיב (ויקרא",
-        en: "From when do their handlers become tamei in their garments? As written (Lev. 16).",
+        en: "that is a service vessel; 'and he burned them', as it is written (Lev.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-043",
@@ -149344,11 +149428,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 43,
         he: "טז) ואת חלב החטאת יקטיר המזבחה",
-        en: "And the one who burns them shall wash his garments.",
+        en: "16), 'and the fat of the sin offering he shall burn upon the altar';",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-044",
@@ -149356,11 +149442,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 44,
         he: "ובגמרא פריך הא אכתי לא חזי",
-        en: "From when they leave outside the wall of the Azarah - the Gemara explains the reason.",
+        en: "and in the Gemara it objects: they are not yet fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l31"
+        ]
       },
       {
         id: "rashi-yoma-067b-045",
@@ -149368,11 +149456,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 45,
         he: "להקטירן: קלען במקלעות. כמין",
-        en: "Gemara: the reading should be 'to bring them up to burn them' not 'and he burned them.'",
+        en: "to be burned. 'He wove them in plaits': like a sort of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-046",
@@ -149380,11 +149470,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 46,
         he: "קליעה ארבעה בני אדם נושאין שני",
-        en: "This seems incorrect - the correct reading is 'to burn them'; the phrase 'and he burned them in the tray' is a corrupted text.",
+        en: "braid; four men carry two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-047",
@@ -149392,11 +149484,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 47,
         he: "מוטות שנים לפנים שנים לאחור",
-        en: "Here and in Pesachim (65b) and Sotah (15a), the proper reading is 'to burn them in the tray' - using the tray to carry them to the altar.",
+        en: "poles, two in front and two behind,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-048",
@@ -149404,11 +149498,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 48,
         he: "ומהלכים מוט אצל מוט והפר והשעיר",
-        en: "Many mishnayot similarly say 'brought up and burned in service vessels' (Sotah 14b).",
+        en: "walking pole beside pole, and the bull and the goat are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-049",
@@ -149416,11 +149512,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 49,
         he: "נתונים עליהן מורכבין זה על זה",
-        en: "Many mishnayot say 'brought up and burned in service vessels.'",
+        en: "placed upon them, mounted one upon the other,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-050",
@@ -149428,11 +149526,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 50,
         he: "וכופפן זה תחת זה כמין קליעה",
-        en: "But the difficulty is this: 'and he burned them' - is that conceivable? He is still wearing the white garments.",
+        en: "bent one under the other like a braid;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-051",
@@ -149440,11 +149540,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 51,
         he: "ושלימין הן אלא שנקרע כריסן להוציא",
-        en: "He must still read the Torah portion in these garments; then immerse and change to golden garments.",
+        en: "they are whole, except that their bellies were torn open to remove",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-052",
@@ -149452,11 +149554,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 52,
         he: "אימוריהן כדתניא בגמרא שמוציאן",
-        en: "Then immerse a second time to bring out the ladle and pan; then immerse a third time for the mussaf and these sin-offering fat pieces.",
+        en: "their sacrificial portions, as taught in the Gemara, that he takes them out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-053",
@@ -149464,11 +149568,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 53,
         he: "שלמים: והוציאן לבית השריפה.",
-        en: "And the afternoon tamid which follows - rather the reading is: he gave them in a tray to be burned at the appropriate time.",
+        en: "whole. 'And he took them out to the place of burning':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-054",
@@ -149476,11 +149582,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 54,
         he: "חוץ לירושלים: מאימתי מטמאים",
-        en: "He did not slaughter them in pieces - those who burn them do not flay and cut like a normal offering.",
+        en: "outside Jerusalem. 'From when do they render",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-055",
@@ -149488,11 +149596,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 55,
         he: "בגדים. העסוקין בהן כדכתיב",
-        en: "Skinned from hide before cutting as written (Lev. 1), but rather the hide remained over the flesh without flaying.",
+        en: "garments impure': those occupied with them, as it is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-056",
@@ -149500,11 +149610,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 56,
         he: "והשורף אותם יכבס בגדיו (שם) :",
-        en: "And their flesh and their dung.",
+        en: "'and the one who burns them shall wash his garments' (ibid.).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-057",
@@ -149512,11 +149624,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 57,
         he: "משיצאו חוץ לחומת העזרה. בגמרא",
-        en: "And it is stated regarding the bull of the anointed priest: the hide of the bull and all its flesh on its head and on its legs.",
+        en: "'From when they go out beyond the wall of the Courtyard': in the Gemara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l37"
+        ]
       },
       {
         id: "rashi-yoma-067b-058",
@@ -149524,11 +149638,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 58,
         he: "מפרש טעמא: גמ' ה\"ג והקטירן",
-        en: "And what.",
+        en: "the reason is explained. Gemara. This is the reading: 'and he burned them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-059",
@@ -149536,11 +149652,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 59,
         he: "ס\"ד אלא אימא להקטירן ולא גרס",
-        en: "Rashi line 59: continuation of previous comment.",
+        en: "does it enter your mind? Rather, say: to burn them'; and one does not read",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-060",
@@ -149548,11 +149666,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 60,
         he: "במגס מקטיר להו וגירסא משובשת היא כאן ובמסכת פסחים",
-        en: "Rashi line 60: continuation of previous comment.",
+        en: "'in the tray he burns them', for that is a corrupted reading here and in tractate Pesachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-061",
@@ -149560,11 +149680,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 61,
         he: "(דף סה:) ובמסכת סוטה (דף טו.) דשפיר הוה שייך למיתני לתנא",
-        en: "Rashi line 61: continuation of previous comment.",
+        en: "(65b) and in tractate Sotah (15a), for it would have been quite fitting for the Tanna to teach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-062",
@@ -149572,11 +149694,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 62,
         he: "והקטירן במגס דבמגס מעלה אותן למזבח דדכוותיה תנינן",
-        en: "Rashi line 62: continuation of previous comment.",
+        en: "'and he burned them in the tray', since in the tray he brings them up to the altar, for we learn its like",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-063",
@@ -149584,11 +149708,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 63,
         he: "טובא מעלו ומקטירו בכלי שרת (סוטה דף יד:) מעלו ומקטירו בהמיינו אלא הכי קשיא ליה והקטירן ס\"ד וכי עכשיו הוא",
-        en: "Rashi line 63: continuation of previous comment.",
+        en: "many times: 'he brings it up and burns it in a service vessel' (Sotah 14b), 'he brings it up and burns it in his belt'; rather, this is his difficulty: 'and he burned them', does it enter your mind? Is it now that he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-064",
@@ -149596,11 +149722,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 64,
         he: "מקטירן והלא עודנו לבוש בגדי לבן ועדיין עליו לקרות הפרשה בבגדים הללו ואח\"כ יטבול וילבש בגדי זהב לאילו ואיל",
-        en: "Rashi line 64: continuation of previous comment.",
+        en: "burns them? But he is still dressed in the white garments, and he must yet read the portion in these garments, and afterward immerse and put on the golden garments for his ram and the ram of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-065",
@@ -149608,11 +149736,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 65,
         he: "העם ויטבול שניה להוציא כף ומחתה ויטבול שלישית למוספין ואמורי חטאת הללו ותמיד של בין הערבים כדקתני בפרקין",
-        en: "Rashi line 65: continuation of previous comment.",
+        en: "the people, and immerse a second time to take out the ladle and the coal pan, and immerse a third time for the additional offerings and these sin offering portions and the afternoon daily offering, as taught in the chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l41"
+        ]
       },
       {
         id: "rashi-yoma-067b-066",
@@ -149620,11 +149750,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 66,
         he: "דלקמן אלא אימא להקטירן נתן למגס להקטירן בו למזבח כשיגיע זמנן: לא היה מנתחן. השורפן כניתוח בשר עולה שהוא",
-        en: "Rashi line 66: continuation of previous comment.",
+        en: "below; rather, say: to burn them, he put them in the tray to burn them in it on the altar when their time comes. 'He would not dissect them': the one who burns them, with the dissection of a burnt offering's flesh, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l42"
+        ]
       },
       {
         id: "rashi-yoma-067b-067",
@@ -149632,11 +149764,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 67,
         he: "מופשט מן העור קודם ניתוח כדכתיב והפשיט ונתח (ויקרא א) אלא עור על גבי בשר ואינו מפשיטן: נאמר כאן. בפר ושעיר את עורותם",
-        en: "Rashi line 67: continuation of previous comment.",
+        en: "flayed of its hide before dissection, as it is written 'and he shall flay... and cut' (Lev. 1); rather, hide upon flesh, and he does not flay them. 'It is stated here': of the bull and the goat, 'their hides",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l42"
+        ]
       },
       {
         id: "rashi-yoma-067b-068",
@@ -149644,11 +149778,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 68,
         he: "ואת בשרם ואת פרשם: ונאמר. בפר כהן משיח עור ובשר ופרש ואת עור הפר ואת כל בשרו על ראשו ועל כרעיו וקרבו ופרשו (ויקרא ד) :",
-        en: "Rashi line 68: continuation of previous comment.",
+        en: "and their flesh and their dung'; 'and it is stated': of the bull of the anointed priest, hide and flesh and dung: 'and the hide of the bull and all its flesh, with its head and its legs, and its innards and its dung' (Lev. 4).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l42"
+        ]
       },
       {
         id: "rashi-yoma-067b-069",
@@ -149656,11 +149792,13 @@ const DAF_CONTENT = {
         daf: "67b",
         vilnaLine: 69,
         he: "מה",
-        en: "Rashi line 69: continuation of previous comment.",
+        en: "'Just as': the daf ends mid-comment with this single word; the gezeirah shavah comparison continues on 68a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067b-l42"
+        ]
       }
     ],
     review: "reviewed"

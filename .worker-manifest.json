@@ -1,14 +1,14 @@
 {
- "type": "rashi-reconstruction",
+ "type": "rashi-realignment",
  "module": "yoma",
  "targets": [
-  "61a"
+  "67b"
  ],
- "model": "haiku-with-fable-review",
+ "model": "fable",
  "paused": false,
  "fableReviewRequired": true,
  "authorizations": [],
- "maxBatch": null,
+ "maxBatch": 1,
  "allowedFiles": [
   "modules/yoma/assets/learning/yoma/<daf>.learning.json",
   "modules/yoma/learning_data.js",
@@ -48,8 +48,8 @@
  ],
  "escalationTriggers": [
   "uncertain Hebrew meaning or placement",
-  "raw count vs entry count mismatch",
-  "new semantic audit shift candidate beyond offset +-1",
+  "post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)",
+  "count mismatch not already baselined",
   "any gate failure not fixable by correcting your own content"
  ]
 }
