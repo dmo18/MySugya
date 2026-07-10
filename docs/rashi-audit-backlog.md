@@ -5193,3 +5193,25 @@ were eliminated, remaining flags are 41b, 47b, 48a, 50a, 50b, 51a, 51b,
 "proven fabricated": partial-coverage translations of long Hebrew lines
 can also trip it (9b looks like that case). The 77a-88a filler daf are
 already fully allowlisted, so their misses are excluded by design.
+
+### Repair record: 61a lines 1-45 reconstructed (VERSION 15.86, rashi-reconstruction pass)
+
+The fabricated block on 61a (vilnaLine 1-45, essay-style filler about
+Yom Kippur services unrelated to the printed Rashi) was reconstructed
+line by line from the raw Hebrew in assets/talmuddev/61a.json under the
+rashi-reconstruction task type (Fable, manifest-scoped, Fable
+self-review). Lines 46-64 (repaired in the VERSION 15.84 pass) were
+byte-verified unchanged. linkedGemaraLineIds were populated for lines
+1-45 following the corpus convention (one Gemara id per line,
+continuation lines repeat the id), with every lemma verified against
+the actual 61a Gemara segments: l01a (incense), l01b (Ulla / "he put
+the goat's blood first"), l07 (first braita: innermost sanctum /
+Sanctuary / altar), l10 ("they were all equated"), l13 (Rabbi Shimon),
+l19 (second braita: "when he has finished atoning"), l22 ("from here
+they said"), l34 ("one sin offering I told you").
+
+Post-edit drift profile: ALIGNED, 6 anchors found, 0 missing, all
+offsets zero (the Shevuot 7b and 13b citations now resolve on their
+exact lines). The self-retiring 61a live assertion in
+test_drift_profile.py now skips, as designed. 61a is no longer in the
+fabrication-suspect set; it leaves the triage backlog above.
