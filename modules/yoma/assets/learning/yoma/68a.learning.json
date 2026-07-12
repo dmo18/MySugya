@@ -366,560 +366,684 @@
     {
       "vilnaLine": 1,
       "he": "מה להלן וכו'. כדמפרש ואזיל: וקרבו ופרשו והוציא. בת\"כ ה\"ג",
-      "en": "What is there below, etc. - as it explains: and its innards and its dung and its legs he brought out.",
+      "en": "'What is [stated] below etc.': as it explains further: 'and its innards and its dung, he shall take out.' In Torat Kohanim the reading is",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
       "he": "לה ואת עור הפר ואת כל בשרו על ראשו ועל כרעיו וקרבו ופרשו",
-      "en": "Its hide and all its flesh on its head and on its legs and its innards and its dung and he brought out.",
+      "en": "for it: 'and the hide of the bull and all its flesh, with its head and its legs, and its innards and its dung",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l03"
+      ]
     },
     {
       "vilnaLine": 3,
       "he": "והוציא מלמד שמוציאו שלם: ונאמר להלן ראש וכרעים ה\"ג.",
-      "en": "Teaching that he takes it out whole. And it is stated below: head and legs - this is the reading.",
+      "en": "he shall take out' - teaching that he takes it out whole. And it says below 'head and legs' - this is the reading.",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
       "he": "ומעולה גמר שנאמרו בה ראש וכרעים בהקטרתה שנאמר וערכו את",
-      "en": "And from the olah we derive, since head and legs are mentioned in its burning: he arranged the pieces, the head and the fat.",
+      "en": "And he derives it from the burnt offering, of which 'head and legs' are stated regarding its burning, as it says: 'and he shall arrange",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l03"
+      ]
     },
     {
       "vilnaLine": 5,
       "he": "הנתחים את הראש ואת הפדר ונאמר",
-      "en": "And the innards and the legs.",
+      "en": "the pieces, the head and the suet'; and it says",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l03"
+      ]
     },
     {
       "vilnaLine": 6,
       "he": "והקרב והכרעים: כשם שפרשו בקרבו",
-      "en": "Just as he separated its innards, etc. - as it says: and the hide of the bull and all its flesh.",
+      "en": "'and the innards and the legs.' Just as its dung is with its innards",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l03"
+      ]
     },
     {
       "vilnaLine": 7,
       "he": "וכו'. שנאמר ואת עור הפר ואת",
-      "en": "He compared the taking out of the hide and flesh to the taking out of innards and dung.",
+      "en": "etc.: as it says 'and the hide of the bull and",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l07"
+      ]
     },
     {
       "vilnaLine": 8,
       "he": "כל בשרו הקיש הוצאת עור ובשר",
-      "en": "Just as the dung is with its innards, so too the flesh is with its hide.",
+      "en": "all its flesh' - he juxtaposed the taking out of hide and flesh",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l07"
+      ]
     },
     {
       "vilnaLine": 9,
       "he": "להוצאת קרבו ופרשו מה פרשו",
-      "en": "And it is written 'and he brought out' - and he burned. Just as its taking out was with flesh and hide.",
+      "en": "to the taking out of its innards and dung; just as its dung",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l07"
+      ]
     },
     {
       "vilnaLine": 10,
       "he": "בקרבו אף בשרו בעורו וכתיב והוציא",
-      "en": "So too its burning. The Rabbis taught: it says here 'outside the camp.'",
+      "en": "is with its innards, so too its flesh is with its hide; and it is written 'and he shall take out'",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l07"
+      ]
     },
     {
       "vilnaLine": 11,
       "he": "ושרף מה הוצאתו בשרו ועורו",
-      "en": "So too its burning is the same.",
+      "en": "and burn' - just as its taking out was with its flesh and its hide,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l07"
+      ]
     },
     {
       "vilnaLine": 12,
       "he": "אף שריפתו כן: ת\"ר נאמר כאן",
-      "en": "The Rabbis taught: it says here outside the camp etc. This reading is corrupted and cannot stand.",
+      "en": "so too its burning. The Sages taught: it is said here",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l10"
+      ]
     },
     {
       "vilnaLine": 13,
       "he": "מחוץ למחנה וכו'. הגירסא הזו",
-      "en": "In tractate Zevachim and Torat Kohanim the reading is: The Rabbis taught.",
+      "en": "'outside the camp' etc. This reading",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l10"
+      ]
     },
     {
       "vilnaLine": 14,
       "he": "משובשת היא ואי אפשר להעמידה",
-      "en": "Below you assign them three camps, and here you assign them one camp. If so,",
+      "en": "is corrupted and cannot be sustained;",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l10"
+      ]
     },
     {
       "vilnaLine": 15,
       "he": "ובמסכת זבחים ובת\"כ הכי איתא",
-      "en": "Why is it written 'outside the camp'? To tell you that once they left outside one camp they cause tum'ah in garments.",
+      "en": "in tractate Zevachim and Torat Kohanim, it reads thus:",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l10"
+      ]
     },
     {
       "vilnaLine": 16,
       "he": "ת\"ר להלן אתה נותן להן ג' מחנות",
-      "en": "And regarding the Yom Kippur bull, it is taught in Torat Kohanim.",
+      "en": "the Sages taught: below you assign them three camps,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 17,
       "he": "וכאן אתה נותן להן מחנה אחת א\"כ",
-      "en": "He shall take it outside the camp and burn it. The Tanna asks:",
+      "en": "and here you assign them one camp; if so,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 18,
       "he": "למה נאמר אל מחוץ למחנה לומר",
-      "en": "Below regarding the congregation's bull and the anointed priest's bull.",
+      "en": "why is it said 'outside the camp'? To tell you",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 19,
       "he": "לך כיון שיצאו חוץ למחנה אחת",
-      "en": "You place their burning outside three camps: the Azarah, the Temple Mount, and Jerusalem.",
+      "en": "that once they have left outside one camp,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 20,
       "he": "מטמאין בגדים וגבי פר יום הכפורים",
-      "en": "As derived below. And here you say outside the camp and burn them.",
+      "en": "they render garments impure. And regarding the Yom Kippur bull,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 21,
       "he": "תניא לה בת\"כ יוציא אל מחוץ למחנה",
-      "en": "Which implies burning outside the camp of the Shekhinah, immediately in the Levite camp.",
+      "en": "it is taught in Torat Kohanim: he shall take it outside the camp",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 22,
       "he": "ושרפו וגו' וקמתמה תנא ואמר",
-      "en": "But these are also internal offerings, comparable to each other for burning and tum'ah of garments.",
+      "en": "and burn it, etc.; and the Tanna raises a difficulty and says",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l12"
+      ]
     },
     {
       "vilnaLine": 23,
       "he": "הכי להלן בפר העדה וכהן משיח",
-      "en": "As we say regarding the congregation's sin offering bull.",
+      "en": "thus: below, regarding the bull of the congregation and the anointed priest,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l16"
+      ]
     },
     {
       "vilnaLine": 24,
       "he": "אתה נותן להן לשריפתן חוץ לג'",
-      "en": "And he did to the bull as he did to the sin-offering bull - the whole verse is for derasha.",
+      "en": "you assign for their burning outside three",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l16"
+      ]
     },
     {
       "vilnaLine": 25,
       "he": "מחנות עזרה והר הבית וירושלים",
-      "en": "We interpret: to the bull - this is the Yom Kippur bull, in Zevachim (39a).",
+      "en": "camps: the Courtyard, the Temple Mount, and Jerusalem,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l16"
+      ]
     },
     {
       "vilnaLine": 26,
       "he": "כדיליף לקמן וכאן אתה אומר אל",
-      "en": "And in Menachot (27a) we bring it; the main source is Torat Kohanim.",
+      "en": "as is derived further on; and here you say",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 27,
       "he": "מחוץ למחנה ושרפו דמשמע ששורפן",
-      "en": "And regarding the Yom Kippur bull it also says hachatat, et par hachatat, ve'et sa'ir hachatat.",
+      "en": "'outside the camp' and burn it, which implies they burn it",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 28,
       "he": "חוץ למחנה שכינה מיד במחנה לויה",
-      "en": "What does 'chatat chatat' teach? Since we only knew these cause tum'ah in garments.",
+      "en": "just outside the camp of the Shekhinah, immediately in the Levite camp;",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 29,
       "he": "והלא אף אלו פנימיים ואיתקישו",
-      "en": "And are burned in the ash-pit from these alone.",
+      "en": "but are these too not inner offerings, and are they not compared",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 30,
       "he": "להדדי לשריפה ולטומאת בגדים",
-      "en": "From where do we include the anointed priest's bull, the congregation's bull, the goats of idolatry?",
+      "en": "to each other for their burning and for tum'ah of garments?",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 31,
       "he": "כדאמרינן גבי פר העלם דבר ועשה",
-      "en": "Talmud lomar: chatat chatat - they are comparable.",
+      "en": "As we say regarding the bull for an unwitting communal sin: 'and he shall do",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 32,
       "he": "לפר כאשר עשה לפר החטאת וכוליה",
-      "en": "If so why is one camp mentioned here? It was said only for the tum'ah of garments written after it.",
+      "en": "to the bull as he did to the sin-offering bull' - and the whole verse",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 33,
       "he": "לדרשא ודרשינן לפר זה פר יום",
-      "en": "And the one who burns them shall wash his garments - to tell you once they left outside one camp they cause tum'ah.",
+      "en": "is for exposition, and we interpret 'to the bull' as referring to the Yom",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 34,
       "he": "הכפורים במס' זבחים (לט.) ובמסכת",
-      "en": "Even for the anointed priest's bull this teaches it, since tum'ah of garments is not written in it.",
+      "en": "Kippur bull, in tractate Zevachim (39a) and in tractate",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 35,
       "he": "מנחות (כז.) מייתינן לה ועיקרה בת\"כ",
-      "en": "And it comes from the ribuy of chatat chatat as I explained. The reading is: Mar said: below you assign three camps.",
+      "en": "Menachot (27a) we bring it, though its main source is Torat Kohanim.",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 36,
       "he": "וגבי פר יוה\"כ נמי כתיב החטאת",
-      "en": "Outside the camp with the ashes - regarding the removal of altar ashes.",
+      "en": "And regarding the Yom Kippur bull it likewise says 'the sin offering,'",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 37,
       "he": "החטאת ואת פר החטאת ואת שעיר",
-      "en": "He took the ashes outside the camp - this teaches nothing, since I already know they take them outside the camp.",
+      "en": "'the sin offering,' and 'the bull of the sin offering,' and 'the goat",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 38,
       "he": "החטאת מה תלמוד לומר חטאת",
-      "en": "As it says regarding the burned bulls: to the ash-pit, and it says of them 'outside the camp.'",
+      "en": "of the sin offering' - what does 'sin offering,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 39,
       "he": "חטאת לפי שלא למדנו שיהו מטמאין",
-      "en": "And Rabbi Shimon - who says in the Mishnah: they do not cause tum'ah in garments until the fire ignites in most of them.",
+      "en": "sin offering' come to teach? Since we have learned only that these render",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 40,
       "he": "בגדים ונשרפין אבית הדשן אלא אלו",
-      "en": "This 'outside the camp' written about the Yom Kippur bull and goat - what does he do with it?",
+      "en": "garments impure and are burned at the ash-pit, but only these ones",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 41,
       "he": "בלבד מניין לרבות פר משיח ופר",
-      "en": "It says here - about the Yom Kippur bull - and it says below.",
+      "en": "alone - from where do we include the bull of the anointed priest, the bull",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 42,
       "he": "העדה ושעירי ע\"ז ת\"ל חטאת",
-      "en": "About the red heifer (parah adumah): and he took it out to outside the camp (Num. 19).",
+      "en": "of the congregation, and the goats of idolatry? The verse states 'sin offering,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 43,
       "he": "חטאת אלמא כי הדדי נינהו א\"כ למה נאמר כאן מחנה אחת לא",
-      "en": "Just as here - regarding the burned bulls - outside three camps, so too the slaughter of the red heifer is outside three camps.",
+      "en": "sin offering,' meaning they are equated. If so, why is one camp mentioned here? It was stated only",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 44,
       "he": "נאמרה אלא על טומאת הבגדים הכתובה אחריה והשורף אותם יכבס",
-      "en": "And just as below - regarding the red heifer - it was east of Jerusalem.",
+      "en": "regarding the tum'ah of garments written afterward: 'and the one who burns them shall wash",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 45,
       "he": "בגדיו ולומר לך כיון שיצאו חוץ למחנה אחת מטמאין בגדים ואף",
-      "en": "As it says: facing the Tent of Meeting (Num. 19) - he stands in the east facing west toward the Temple entrance.",
+      "en": "his garments' - to tell you that once they left outside one camp they render garments impure, and even",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 46,
       "he": "של פר כהן משיח מכאן למד שהרי לא נכתבה בו טומאת בגדים",
-      "en": "Which is in the western wall, open to the east. So too here.",
+      "en": "for the bull of the anointed priest this is derived from here, for tum'ah of garments is not written of it,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 47,
       "he": "ומריבויא דחטאת חטאת אתיא כדפרישית וה\"ג אמר מר להלן אתה",
-      "en": "And the Rabbis - who use the verse for tum'ah of garments and do not have the gezerah shavah.",
+      "en": "and it comes from the extension of 'sin offering, sin offering' as I explained. The reading is: the master said, 'below you",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l17"
+      ]
     },
     {
       "vilnaLine": 48,
       "he": "נותן להם ג' מחנות וכו': מחוץ למחנה בדשן. בהוצאת דשן",
-      "en": "Where did they burn them? On which side of Jerusalem?",
+      "en": "assign them three camps' etc. 'Outside the camp' regarding the ash: this concerns the removal of the ash",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l23"
+      ]
     },
     {
       "vilnaLine": 49,
       "he": "המזבח והוציא את הדשן אל מחוץ למחנה שאין [ת\"ל] אינו מלמד",
-      "en": "To the north.",
+      "en": "of the altar - 'and he shall take the ash outside the camp'; this verse teaches nothing,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l23"
+      ]
     },
     {
       "vilnaLine": 50,
       "he": "כלום דאנא ידענא דאל מחוץ למחנה מוציאין אותו דכתיב בפרים",
-      "en": "Rashi line 50: continuation of previous comment.",
+      "en": "for I already know that it is taken outside the camp, since it is written regarding the burned bulls:",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l23"
+      ]
     },
     {
       "vilnaLine": 51,
       "he": "הנשרפים אל שפך הדשן וכתיב בהו מחוץ למחנה: ורבי",
-      "en": "Rashi line 51: continuation of previous comment.",
+      "en": "'to the place where the ashes are poured out,' and it is written of them 'outside the camp.' And Rabbi",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l23"
+      ]
     },
     {
       "vilnaLine": 52,
       "he": "שמעון. דאמר במתניתין אין מטמאין בגדים עד שיוצת האור",
-      "en": "Rashi line 52: continuation of previous comment.",
+      "en": "Shimon - who says in the Mishnah that they do not render garments impure until the fire has caught",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 53,
       "he": "ברובן האי מחוץ למחנה דכתיב בפר ושעיר של יום הכפורים",
-      "en": "Rashi line 53: continuation of previous comment.",
+      "en": "in most of them - what does he do with this 'outside the camp' that is written regarding the bull and goat of Yom Kippur?",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 54,
       "he": "מאי עביד ליה: נאמר כאן. בפר יום הכפורים ונאמר להלן",
-      "en": "Rashi line 54: continuation of previous comment.",
+      "en": "'It is said here' - regarding the Yom Kippur bull - 'and it is said further on,'",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 55,
       "he": "בפרה אדומה והוציא אותה אל מחוץ למחנה (במדבר יט) : מה",
-      "en": "Rashi line 55: continuation of previous comment.",
+      "en": "regarding the red heifer: 'and he shall take it out to outside the camp' (Numbers 19). 'Just as'",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 56,
       "he": "כאן. בפרים הנשרפין חוץ לג' מחנות אף שחיטת פרה אדומה",
-      "en": "Rashi line 56: continuation of previous comment.",
+      "en": "here, regarding the burned bulls, it is outside three camps, so too the slaughter of the red heifer is",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 57,
       "he": "חוץ לג' מחנות: ומה להלן. בפרה אדומה במזרחה של ירושלים",
-      "en": "Rashi line 57: continuation of previous comment.",
+      "en": "outside three camps. 'And just as further on,' regarding the red heifer, it was to the east of Jerusalem,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 58,
       "he": "דכתיב בה אל נכח פני אהל מועד (שם) אלמא עומד במזרח ופניו",
-      "en": "Rashi line 58: continuation of previous comment.",
+      "en": "as it is written of it: 'toward the front of the Tent of Meeting' (ibid.) - meaning he stands in the east, his face",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 59,
       "he": "למערב כנגד פתחו של היכל שהוא בכותל [מערבי] ופתוח למזרח",
-      "en": "Rashi line 59: continuation of previous comment.",
+      "en": "toward the west, facing the entrance of the Sanctuary, which is in the western wall and opens to the east,",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l25"
+      ]
     },
     {
       "vilnaLine": 60,
       "he": "אף כאן וכו': ורבנן. דמפקי ליה לקרא לטומאת בגדים ולית",
-      "en": "Rashi line 60: continuation of previous comment.",
+      "en": "so too here, etc. 'And the Rabbis' - who take this verse to teach tum'ah of garments, and do not have",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l31"
+      ]
     },
     {
       "vilnaLine": 61,
       "he": "להו גזירה שוה: היכא שריף להו. לאיזו רוח של ירושלים:",
-      "en": "Rashi line 61: continuation of previous comment.",
+      "en": "the gezeirah shavah - 'where did they burn them?' On which side of Jerusalem?",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l31"
+      ]
     },
     {
       "vilnaLine": 62,
       "he": "לצפונה",
-      "en": "Rashi line 62: continuation of previous comment.",
+      "en": "'To its north.'",
       "enSource": "ai_helper_translation",
       "source": "talmud.dev",
       "confidence": "helper",
-      "linkedGemaraLineIds": []
+      "linkedGemaraLineIds": [
+        "yoma-068a-l31"
+      ]
     }
   ],
   "review": "reviewed"

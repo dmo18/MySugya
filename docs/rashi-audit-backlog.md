@@ -5244,3 +5244,33 @@ Lev. 16 L42, Pesachim 65b + Sotah 15a L61, Sotah 14b L63, Lev. 1 L67,
 Lev. 4 L68). The self-retiring 67b live assertion in
 test_drift_profile.py now skips. 67b leaves the shifted set; 68a, 68b,
 70a, 71b, and 41a remain queued for their own realignment passes.
+
+### Repair record: 68a realigned (VERSION 15.89, second rashi-realignment pass, Sonnet worker)
+
+The SHIFTED/compressed daf 68a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet per the VERSION
+15.88 role correction; Fable review required). The old 49 entries held
+genuine content-paraphrase that progressively compressed 62 raw Rashi
+lines into 49 English entries (offset 0 near the top, building to
+-9/-10/-13 by the tail); entries 50-62 were allowlisted stubs. Every
+entry's en now translates its own raw Hebrew vilna line, reusing the
+existing faithful phrasing split at the correct line boundaries; the
+old compressed English already fully covered the content that would
+land on raw lines 48-62 (entries 36-49), so the previously stubbed
+tail required redistribution only, no invented translation.
+
+linkedGemaraLineIds were populated for all 62 lines with lemmas
+verified against the full (untruncated) text of all 10 Gemara segments
+(l01, l03, l07, l10, l12, l16, l17, l23, l25, l31); the chatat-chatat
+excursus (he 31-47) has no separate Gemara id between l17 and l23, so
+it continues on l17 per the boundary policy.
+
+The 13 stub_continuation allowlist entries for 68a (lines 50-62) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 13).
+
+Post-edit drift profile: ALIGNED, 5 anchors found, 0 missing, all
+offsets zero (Zevachim 39a + Menachot 27a L34/L35, Numbers 19 L55).
+The self-retiring 68a live assertion in test_drift_profile.py now
+skips. 68a leaves the shifted set; 68b, 70a, 71b, and 41a remain
+queued for their own realignment passes.
