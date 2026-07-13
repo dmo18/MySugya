@@ -5288,14 +5288,25 @@ redistribution; the previously stubbed tail (he 52-60, the
 eight-blessing enumeration and closing fragment) is translated fresh
 from its own Hebrew, with no duplicate paraphrase.
 
-linkedGemaraLineIds were populated for all 60 lines against the 19
-Gemara segment ids in this daf's id table (l01, l02, l06, l07, l10,
-l13a, l15, l18, l21, l23, l24, l25, l29, l32, l35, l36, l38, l39,
-l42); the eight-blessing enumeration (he 42-60) has no separate
-Gemara id after l42, so it continues on l42 per the boundary policy.
-A daf-citation split across two raw Hebrew lines (he 37 "(דף" / he 38
-"ה:)") was resolved by keeping the "(daf 5b)" citation together on
-line 37's English, matching the parenthetical's Hebrew opening.
+linkedGemaraLineIds were populated for all 60 lines. The worker's
+initial pass linked positionally (Rashi line N to the segment at
+vilna N); Fable review found that wrong for he 18-59 and relinked
+semantically, with each comment tied to the segment whose text it
+explains: he 18-28 (amru lo, dirkaot relay men) to l13b, the
+end-of-perek Mishnah segment the packet id table had omitted; he
+29-32 (Beit Chadudo, holchin mil) to l15 (R' Yehuda's sign); he 33-34
+(naaseit mitzvato) to l21; he 35 (hadran) to l23, the actual hadran
+id; he 36-41 (ba likrot, bigdei butz, itztalit) to l24; he 42-52
+(chazan/rosh ha-knesset, ach be-asor, chumash ha-pekudim, korei al
+peh) to l25; he 53-58 (the eight blessings) to l29; he 59 to l29 plus
+l38/l39 (its Gemara lemmas nitnu lehanot and sheina hu de-la); he 60
+(ve-seifa) to l42. A daf-citation split across two raw Hebrew lines
+(he 37 "(דף" / he 38 "ה:)") was resolved by keeping the "(daf 5b)"
+citation together on line 37's English, matching the parenthetical's
+Hebrew opening. Known tooling gap for a future docs-tooling pass:
+make_rashi_work_packet.py omitted l13b from the legal id table
+(its kind is "mishna", not "gemara"), which forced the worker's
+positional fallback for the ch. 6 tail.
 
 The 9 stub_continuation allowlist entries for 68b (lines 52-60) were
 reported stale by validate_rashi_content after the edit and removed
