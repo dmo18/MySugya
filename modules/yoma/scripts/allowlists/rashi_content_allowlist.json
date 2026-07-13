@@ -2,51 +2,6 @@
  "_comment": "Ratchet baseline of pre-existing rashiTranslations.en content violations documented in docs/rashi-audit-backlog.md (Fable process audit, VERSION 15.74). Entries here are tolerated by validate_rashi_content.py. Do NOT add new entries for new work; shrink this list as daf are repaired.",
  "entries": [
   {
-   "daf": "68b",
-   "vilnaLine": 52,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 53,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 54,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 55,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 56,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 57,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 58,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 59,
-   "reason": "stub_continuation"
-  },
-  {
-   "daf": "68b",
-   "vilnaLine": 60,
-   "reason": "stub_continuation"
-  },
-  {
    "daf": "70a",
    "vilnaLine": 53,
    "reason": "stub_continuation"
