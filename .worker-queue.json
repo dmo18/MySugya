@@ -5,6 +5,8 @@
   "71b",
   "41a"
  ],
- "done": [],
+ "done": [
+  "71b"
+ ],
  "policy": "stop-on-escalation"
 }
