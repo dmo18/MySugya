@@ -307,9 +307,12 @@ def test_structural_repair_type():
 
         # The review gate gains the raw-parity condition, valued from the
         # authoritative source (state-independent expectation).
+        # Base HEAD resolves in every environment (including CI's shallow
+        # PR checkout, where origin/main may be absent); the raw-parity
+        # condition is computed before any git dependency regardless.
         m = json.loads(mpath.read_text())
         conds, _ = wp.gather_review_conditions(m, types["rashi-structural-repair"],
-                                               "origin/main")
+                                               "HEAD")
         check("structural review gate checks entry-count-and-order vs raw",
               "entry-count-and-order-match-raw" in conds)
         raw_n = len([l for l in json.loads(

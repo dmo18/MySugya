@@ -722,6 +722,21 @@ def gather_review_conditions(m, spec, base):
         return conditions, notes
     target = targets[0]
 
+    # Structural repair exists to restore 1:1 raw correspondence: entry
+    # count and vilnaLine sequence must match the authoritative source
+    # exactly after the pass. Computed before any git dependency so the
+    # condition is always present and valued for structural manifests.
+    if m["type"] == STRUCTURAL_TYPE:
+        tpath = YROOT / "assets" / "talmuddev" / f"{target}.json"
+        raw_n = len([l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()])
+        lp = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+        ent = json.loads(lp.read_text()).get("rashiTranslations", []) if lp.exists() else []
+        seq_ok = [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1))
+        conditions["entry-count-and-order-match-raw"] = len(ent) == raw_n and seq_ok
+        if not (len(ent) == raw_n and seq_ok):
+            notes.append(f"rashiTranslations {len(ent)} entries vs {raw_n} raw lines "
+                         f"(sequence {'ok' if seq_ok else 'broken'})")
+
     mb = sh(["git", "merge-base", base, "HEAD"]).stdout.strip()
     if not mb:
         notes.append(f"cannot resolve merge-base of {base!r}")
@@ -745,20 +760,6 @@ def gather_review_conditions(m, spec, base):
     conditions["scope-clean-no-structure-no-hebrew-no-forbidden-fields"] = r.returncode == 0
     if r.returncode != 0:
         notes.append("check_rashi_pr_scope failed:\n" + r.stdout[-800:])
-
-    # Structural repair exists to restore 1:1 raw correspondence: entry
-    # count and vilnaLine sequence must match the authoritative source
-    # exactly after the pass.
-    if m["type"] == STRUCTURAL_TYPE:
-        tpath = YROOT / "assets" / "talmuddev" / f"{target}.json"
-        raw_n = len([l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()])
-        lp = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
-        ent = json.loads(lp.read_text()).get("rashiTranslations", []) if lp.exists() else []
-        seq_ok = [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1))
-        conditions["entry-count-and-order-match-raw"] = len(ent) == raw_n and seq_ok
-        if not (len(ent) == raw_n and seq_ok):
-            notes.append(f"rashiTranslations {len(ent)} entries vs {raw_n} raw lines "
-                         f"(sequence {'ok' if seq_ok else 'broken'})")
 
     # Allowlist delta: additions are forbidden anywhere; removals only on
     # the target daf (a removal that survives the content gate green was by
