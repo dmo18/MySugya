@@ -149,11 +149,18 @@ def test_prompt():
         check("prompt escalates to fable", "hand off to fable" in out)
 
 
+def write_evidence(path, ttype="rashi-realignment", module="yoma", targets=None):
+    path.write_text(json.dumps({"type": ttype, "module": module,
+                                "targets": targets or []}))
+
+
 def test_queue():
-    print("autopilot queue:")
+    print("autopilot queue (derived progress, no mutation, no main pushes):")
     with tempfile.TemporaryDirectory() as td:
         qpath = Path(td) / "q.json"
+        ev = Path(td) / "evidence.json"
         base = [sys.executable, "scripts/worker_pipeline.py", "queue", "--file", str(qpath)]
+
         r = subprocess.run(base + ["--type", "rashi-realignment", "--module", "yoma",
                                    "--targets", "71b,41a"],
                            capture_output=True, text=True, cwd=REPO)
@@ -161,25 +168,100 @@ def test_queue():
         q = json.loads(qpath.read_text())
         check("queue is ordered", q["targets"] == ["71b", "41a"])
         check("queue is stop-on-escalation", q["policy"] == "stop-on-escalation")
-        r = subprocess.run(base, capture_output=True, text=True, cwd=REPO)
+        check("definition is immutable (no runtime done field)", "done" not in q)
+        check("creation says commit once with the first manifest",
+              "FIRST target's manifest commit" in r.stdout)
+
+        # No evidence yet: nothing done, head is next.
+        write_evidence(ev, ttype="docs-tooling", targets=[])
+        r = subprocess.run(base + ["--evidence", str(ev)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("no matching merged evidence -> nothing done",
+              "done (derived from merged PRs): none" in r.stdout)
         check("next target is the head (one PR per target)",
               "Next target: 71b. One PR for this daf only" in r.stdout)
         check("next prints the full bounded command sequence",
               "--range 71b" in r.stdout and "worker:review" in r.stdout)
+        check("queue requires deploy verification before the next target",
+              "deploy workflows are green" in r.stdout)
         check("queue instructs stop on escalation",
               "Stop the queue on ANY escalation condition" in r.stdout)
-        r = subprocess.run(base + ["--advance", "41a"],
-                           capture_output=True, text=True, cwd=REPO)
-        check("out-of-order advance rejected", r.returncode != 0)
+        check("queue never instructs a push to main",
+              "git push" not in r.stdout and "push to main" not in r.stdout.replace(
+                  "NEVER a direct push to main", "").replace(
+                  "never pushed to main", ""))
+
+        # Mutation is impossible: --advance is retired.
         r = subprocess.run(base + ["--advance", "71b"],
                            capture_output=True, text=True, cwd=REPO)
-        check("sequential advance works", r.returncode == 0)
-        r = subprocess.run(base, capture_output=True, text=True, cwd=REPO)
-        check("queue then serves 41a", "Next target: 41a" in r.stdout)
-        r = subprocess.run(base + ["--advance", "41a"],
+        check("--advance is retired (cannot mutate queue state)", r.returncode != 0)
+        check("--advance error explains derivation", "derived from merged PR" in r.stdout
+              or "derived from merged PR" in r.stderr)
+
+        # Merged evidence for target 1 -> target 2 is next; file untouched.
+        before = qpath.read_bytes()
+        write_evidence(ev, targets=["71b"])
+        r = subprocess.run(base + ["--evidence", str(ev)],
                            capture_output=True, text=True, cwd=REPO)
-        r = subprocess.run(base, capture_output=True, text=True, cwd=REPO)
-        check("drained queue reports complete", "Queue complete." in r.stdout)
+        check("merged 71b evidence -> 41a is next", "Next target: 41a" in r.stdout)
+        check("derivation marks 71b done", "['71b']" in r.stdout)
+        check("status derivation never writes the queue file",
+              qpath.read_bytes() == before)
+
+        # A merely-local/unmerged, foreign-type, or foreign-target manifest
+        # is not evidence: failed or escalated targets never become done.
+        write_evidence(ev, ttype="rashi-repair", targets=["71b"])
+        r = subprocess.run(base + ["--evidence", str(ev)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("foreign-type manifest advances nothing",
+              "done (derived from merged PRs): none" in r.stdout)
+        write_evidence(ev, targets=["12b"])
+        r = subprocess.run(base + ["--evidence", str(ev)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("out-of-queue target advances nothing",
+              "done (derived from merged PRs): none" in r.stdout)
+        write_evidence(ev, targets=["71b", "41a"])
+        r = subprocess.run(base + ["--evidence", str(ev)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("multi-target manifest is never evidence (one PR per daf)",
+              "done (derived from merged PRs): none" in r.stdout)
+
+        # Final-target completion: clean, no state write, no push needed.
+        write_evidence(ev, targets=["41a"])
+        r = subprocess.run(base + ["--evidence", str(ev)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("final merged target -> queue complete", "Queue complete." in r.stdout)
+        check("completion needs no state commit and leaves the tree clean",
+              "No queue-state commit is needed" in r.stdout
+              and qpath.read_bytes() == before)
+
+        # Resume after container/session recycling: derivation is a pure
+        # function of (tracked definition, origin/main evidence); a fresh
+        # process with no prior state reproduces the same answer.
+        r2 = subprocess.run(base + ["--evidence", str(ev)],
+                            capture_output=True, text=True, cwd=REPO)
+        check("completion resumes identically after recycling",
+              r2.stdout == r.stdout)
+
+
+def test_no_direct_main_push_anywhere():
+    print("no automation path instructs a direct push to main:")
+    src = (REPO / "scripts" / "worker_pipeline.py").read_text()
+    check("pipeline source never invokes git push",
+          '"push"' not in src and "'push'" not in src)
+    with tempfile.TemporaryDirectory() as td:
+        mpath = Path(td) / "m.json"
+        subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "rashi-realignment", "--module", "yoma",
+                        "--range", "71b", "--out", str(mpath)],
+                       capture_output=True, text=True, cwd=REPO)
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "prompt",
+                            "--manifest", str(mpath)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("conditional prompt routes main changes through the PR only",
+              "push, ONE PR" in r.stdout)
+        check("conditional prompt states queue progress derives from the merge",
+              "derives" in r.stdout and "NEVER a direct push to main" in r.stdout)
 
 
 def main():
@@ -188,6 +270,7 @@ def main():
     test_live_gate_fails_closed()
     test_prompt()
     test_queue()
+    test_no_direct_main_push_anywhere()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
         sys.exit(1)
