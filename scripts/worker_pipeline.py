@@ -56,6 +56,15 @@ def load_registry():
     return json.loads(REGISTRY.read_text())["taskTypes"]
 
 
+def review_policy_of(spec):
+    """A task type's review policy: 'conditional' (worker self-review plus
+    the machine-checked auto-merge gate; escalation to escalationModel),
+    'fable' (unconditional Fable review before merge), or 'none'."""
+    if spec.get("reviewPolicy"):
+        return spec["reviewPolicy"]
+    return "fable" if spec.get("fableReviewRequired") else "none"
+
+
 def load_manifest(path):
     m = json.loads(Path(path).read_text())
     types = load_registry()
@@ -212,6 +221,8 @@ def cmd_manifest(opts):
         "model": spec["model"],
         "paused": spec.get("paused", False),
         "fableReviewRequired": spec.get("fableReviewRequired", False),
+        "reviewPolicy": review_policy_of(spec),
+        "escalationModel": spec.get("escalationModel", "fable"),
         "authorizations": auths,
         "maxBatch": max_batch,
         "allowedFiles": spec["allowedFiles"],
@@ -400,7 +411,37 @@ def cmd_prompt(opts):
         "6. Bump VERSION one patch; python3 scripts/sync_version.py",
         "7. npm run worker:verify -- --manifest .worker-manifest.json --fast",
         "   then npm run worker:verify -- --manifest .worker-manifest.json --full",
-        "8. Commit .worker-manifest.json together with the work, push, one PR, wait for CI, merge when green, verify both deploy workflows.",
+    ]
+    if review_policy_of(spec) == "conditional":
+        lines += [
+            "8. Fresh post-edit self-review (MANDATORY before the PR): reread the raw",
+            "   Hebrew and the packet's FULL segment text from scratch, without relying",
+            "   on your earlier working assumptions, and recheck: the beginning, middle,",
+            "   and tail of the daf; every citation anchor; every multi-id link; every",
+            "   truncated boundary entry; every formerly allowlisted entry; that every",
+            "   link is semantic (never positional); that no line uses the final id as",
+            "   an unrelated-content fallback. Record the result in",
+            "   .worker-self-review.json:",
+            '   {"daf": "<daf>", "model": "' + m["model"] + '", "rechecked": {'
+            + ", ".join(f'"{c}": true' for c in SELF_REVIEW_CHECKS) + "},",
+            '    "blockersFound": [], "notes": "<one line>"}',
+            "   Any blocker found = escalate; do not open the PR as mergeable.",
+            "9. Commit .worker-manifest.json and .worker-self-review.json together with",
+            "   the work, push, ONE PR for this daf only, wait for CI.",
+            "10. npm run worker:review -- --manifest .worker-manifest.json",
+            "    Merge ONLY when CI is green on the exact final head AND this prints",
+            "    AUTO-MERGE-ELIGIBLE. No operator authorization is needed when both hold.",
+            "    Then verify BOTH deploy workflows for the merge commit.",
+            "11. If a queue is active: npm run worker:queue -- --advance <daf>, then",
+            "    continue to the next queued target with a fresh manifest. Stop ONLY on",
+            "    an escalation condition, unexpected repository state, or an empty queue.",
+            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'fable')} with a report.",
+        ]
+    else:
+        lines += [
+            "8. Commit .worker-manifest.json together with the work, push, one PR, wait for CI, merge when green, verify both deploy workflows.",
+        ]
+    lines += [
         "",
         f"Allowlist policy: {m['allowlistPolicy']}. You may NEVER add allowlist or baseline entries.",
         f"Structure policy: {m['structurePolicy']}.",
@@ -511,7 +552,7 @@ def cmd_verify(opts):
             profs = []
         bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("haikuSafe")]
         print(f"post-edit drift profile: {', '.join(bad) if bad else 'all targets aligned'}")
-        if m["type"] == "rashi-realignment":
+        if m["type"] in ("rashi-realignment", "rashi-reconstruction"):
             results.append(("drift-profile", not bad and bool(profs)))
     else:
         r = sh(["npm", "run", "validate:offline:yoma"])
@@ -593,13 +634,281 @@ def cmd_verify(opts):
     if fail:
         print("\nWORKER VERIFY FAILED. Fix your content/scope or STOP AND ESCALATE.")
         sys.exit(1)
-    if m.get("fableReviewRequired"):
+    policy = review_policy_of(spec)
+    if policy == "fable":
         print("\nREVIEW GATE: this task type requires Fable review of the PR before merge. "
               "Workers may open the PR and poll CI, but may NOT merge; request Fable review "
               "and stop.")
+    elif policy == "conditional":
+        print("\nCONDITIONAL REVIEW GATE: after the fresh post-edit self-review is recorded "
+              "in .worker-self-review.json and CI is green on the final head, run "
+              "`npm run worker:review -- --manifest .worker-manifest.json`. Merge ONLY if it "
+              f"prints AUTO-MERGE-ELIGIBLE; on any failed condition, escalate to "
+              f"{spec.get('escalationModel', 'fable')} instead of merging.")
     nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
           "npm run worker:verify -- --manifest .worker-manifest.json --full"
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
+
+
+# ---------------- review (conditional auto-merge gate) ----------------
+
+SELF_REVIEW_PATH = REPO / ".worker-self-review.json"
+SELF_REVIEW_CHECKS = (
+    "beginningMiddleTail", "citationAnchors", "multiIdLinks",
+    "truncatedBoundaryEntries", "formerlyAllowlistedEntries",
+    "semanticNotPositional", "noUnrelatedFinalIdFallback",
+)
+
+# Canonical machine-checked auto-merge conditions, in report order. CI
+# greenness and the verify --fast/--full runs are procedural conditions the
+# worker satisfies in the loop itself (worker:review reminds about them but
+# cannot observe CI from here).
+REVIEW_CONDITIONS = (
+    "single-target-manifest",
+    "exactly-one-authorized-daf-changed",
+    "scope-clean-no-structure-no-hebrew-no-forbidden-fields",
+    "no-allowlist-additions",
+    "allowlist-removals-limited-to-target-daf",
+    "packet-contains-every-linked-local-id",
+    "all-links-legal-and-nonempty",
+    "drift-profile-ALIGNED",
+    "semantic-audit-zero-shift-candidates",
+    "no-stub-or-duplicate-helpers",
+    "generated-files-fresh",
+    "version-metadata-synced",
+    "fresh-self-review-committed-and-clean",
+)
+
+
+def evaluate_review_policy(conditions):
+    """Pure auto-merge policy: eligible only when EVERY condition is true.
+    Returns (eligible, failed_condition_names)."""
+    failed = [k for k in conditions if not conditions[k]]
+    return (not failed, failed)
+
+
+def gather_review_conditions(m, spec, base):
+    """Collect the machine-checkable auto-merge conditions for a conditional
+    review task. Every check is read-only. Returns (conditions, notes)."""
+    conditions = {k: False for k in REVIEW_CONDITIONS}
+    notes = []
+    targets = m.get("targets", [])
+    conditions["single-target-manifest"] = len(targets) == 1
+    if len(targets) != 1:
+        notes.append(f"manifest carries {len(targets)} targets; conditional review is one daf per PR")
+        return conditions, notes
+    target = targets[0]
+
+    mb = sh(["git", "merge-base", base, "HEAD"]).stdout.strip()
+    if not mb:
+        notes.append(f"cannot resolve merge-base of {base!r}")
+        return conditions, notes
+    changed = [l for l in sh(["git", "diff", "--name-only", mb]).stdout.splitlines() if l.strip()]
+
+    learn_changed = [p for p in changed
+                     if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")]
+    expected = f"modules/yoma/assets/learning/yoma/{target}.learning.json"
+    conditions["exactly-one-authorized-daf-changed"] = learn_changed == [expected]
+    if learn_changed != [expected]:
+        notes.append(f"learning JSONs changed: {learn_changed or 'none'} (expected exactly [{expected}])")
+
+    # Scope: structure, Hebrew, forbidden fields, file set (reuses the
+    # hard Rashi validator via cmd_scope semantics).
+    r = sh([sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base], cwd=YROOT)
+    conditions["scope-clean-no-structure-no-hebrew-no-forbidden-fields"] = r.returncode == 0
+    if r.returncode != 0:
+        notes.append("check_rashi_pr_scope failed:\n" + r.stdout[-800:])
+
+    # Allowlist delta: additions are forbidden anywhere; removals only on
+    # the target daf (a removal that survives the content gate green was by
+    # definition validator-stale, since the gate re-derives violations).
+    added, foreign_removed = [], []
+    for p in sorted((YSCRIPTS / "allowlists").glob("*.json")):
+        rel = p.relative_to(REPO).as_posix()
+        rr = sh(["git", "show", f"{mb}:{rel}"])
+        old = json.loads(rr.stdout) if rr.returncode == 0 else {}
+        new = json.loads(p.read_text())
+        for section in ("entries", "count_mismatches"):
+            oe = {json.dumps(e, sort_keys=True) for e in old.get(section, [])}
+            ne = {json.dumps(e, sort_keys=True) for e in new.get(section, [])}
+            added += [f"{rel}:{a}" for a in sorted(ne - oe)]
+            for gone in sorted(oe - ne):
+                if json.loads(gone).get("daf") != target:
+                    foreign_removed.append(f"{rel}:{gone}")
+    conditions["no-allowlist-additions"] = not added
+    conditions["allowlist-removals-limited-to-target-daf"] = not foreign_removed
+    for a in added:
+        notes.append(f"allowlist entry ADDED: {a}")
+    for g in foreign_removed:
+        notes.append(f"allowlist entry removed outside target daf: {g}")
+
+    # Packet completeness and link legality against the live segment table.
+    sys.path.insert(0, str(YSCRIPTS))
+    import make_rashi_work_packet as mrwp
+    import audit_rashi_semantic as ars
+    table = {s["id"] for s in mrwp.local_segments_for(target)}
+    lpath = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+    entries = json.loads(lpath.read_text()).get("rashiTranslations", []) if lpath.exists() else []
+    used = {i for e in entries for i in e.get("linkedGemaraLineIds", [])}
+    empty = [e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")]
+    illegal = sorted(used - table)
+    conditions["packet-contains-every-linked-local-id"] = bool(table) and not illegal
+    conditions["all-links-legal-and-nonempty"] = bool(entries) and not illegal and not empty
+    if illegal:
+        notes.append(f"linked ids not in the packet segment table: {illegal}")
+    if empty:
+        notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
+
+    prof = ars.profile_daf(target, ars.load_allowlisted())
+    cls = prof["classification"] if prof else "NO-PROFILE"
+    conditions["drift-profile-ALIGNED"] = cls == "ALIGNED"
+    if cls != "ALIGNED":
+        notes.append(f"post-edit drift profile is {cls}, not ALIGNED")
+
+    ra = sh([sys.executable, "scripts/audit_rashi_semantic.py", target], cwd=YROOT)
+    conditions["semantic-audit-zero-shift-candidates"] = "0 shift candidate(s)" in ra.stdout
+    if "0 shift candidate(s)" not in ra.stdout:
+        notes.append("scoped semantic audit reports shift candidates on the target daf")
+
+    stub = [e["vilnaLine"] for e in entries
+            if re.search(r"Rashi line \d+|: continuation\.?$", e.get("en", ""))]
+    seen, dupes = {}, []
+    for e in entries:
+        seen.setdefault(e.get("en", ""), []).append(e["vilnaLine"])
+    dupes = {k[:40]: v for k, v in seen.items() if len(v) > 1 and k}
+    conditions["no-stub-or-duplicate-helpers"] = not stub and not dupes
+    if stub:
+        notes.append(f"stub-pattern helpers remain on lines {stub}")
+    if dupes:
+        notes.append(f"duplicate helper English: {dupes}")
+
+    fr = sh([sys.executable, "scripts/check_generated_freshness.py"], cwd=YROOT)
+    conditions["generated-files-fresh"] = fr.returncode == 0
+
+    version = (REPO / "VERSION").read_text().strip()
+    pkg = json.loads((REPO / "package.json").read_text())["version"]
+    lock = json.loads((REPO / "package-lock.json").read_text())["version"]
+    conditions["version-metadata-synced"] = version == pkg == lock
+
+    # Fresh post-edit self-review: the attestation must be part of THIS
+    # PR's diff (that is what makes it fresh), name the target daf, tick
+    # every required recheck, and report no blockers.
+    sr_ok, why = False, ""
+    if ".worker-self-review.json" not in changed:
+        why = ".worker-self-review.json is not part of this PR's diff (a fresh post-edit self-review is required)"
+    elif not SELF_REVIEW_PATH.exists():
+        why = ".worker-self-review.json missing from the working tree"
+    else:
+        try:
+            sr = json.loads(SELF_REVIEW_PATH.read_text())
+            missing = [c for c in SELF_REVIEW_CHECKS if sr.get("rechecked", {}).get(c) is not True]
+            if sr.get("daf") != target:
+                why = f"self-review daf {sr.get('daf')!r} does not match target {target!r}"
+            elif missing:
+                why = f"self-review rechecks missing or false: {missing}"
+            elif sr.get("blockersFound"):
+                why = f"self-review reports blockers: {sr['blockersFound']}"
+            else:
+                sr_ok = True
+        except json.JSONDecodeError as ex:
+            why = f"self-review file unparseable: {ex}"
+    conditions["fresh-self-review-committed-and-clean"] = sr_ok
+    if not sr_ok:
+        notes.append(why)
+
+    return conditions, notes
+
+
+def cmd_review(opts):
+    """Conditional-review auto-merge gate. Exit 0 with AUTO-MERGE-ELIGIBLE
+    only when every machine-checked condition passes; otherwise exit 1 with
+    the exact failed conditions and the escalation target."""
+    m, spec = load_manifest(opts.manifest)
+    policy = review_policy_of(spec)
+    if policy == "fable":
+        print(f"REVIEW: task type {m['type']} requires unconditional Fable review; "
+              "there is no auto-merge gate. Request Fable review and stop.")
+        sys.exit(1)
+    if policy != "conditional":
+        print(f"REVIEW: task type {m['type']} has no review gate (policy: {policy}).")
+        return
+    base = resolve_base(opts.base)
+    conditions, notes = gather_review_conditions(m, spec, base)
+    eligible, failed = evaluate_review_policy(conditions)
+    print(f"Conditional review gate (type {m['type']}, targets {m.get('targets')}, base {base}):\n")
+    for k in conditions:
+        print(f"  {'PASS' if conditions[k] else 'FAIL'}  {k}")
+    for n in notes:
+        print(f"  note: {n}")
+    print("\nProcedural conditions (not observable here, still mandatory):")
+    print("  - worker:verify --fast and --full both passed on this head")
+    print("  - CI is green on the exact final head at merge time")
+    if eligible:
+        print("\nAUTO-MERGE-ELIGIBLE: all machine-checked conditions pass. Merge only "
+              "when CI is green on this exact head; then verify both deploy workflows "
+              "and advance the queue.")
+    else:
+        print(f"\nESCALATE to {spec.get('escalationModel', 'fable')}: failed condition(s) "
+              f"{failed}. Do NOT merge.")
+        sys.exit(1)
+
+
+# ---------------- queue (sequential autopilot) ----------------
+
+QUEUE_PATH = REPO / ".worker-queue.json"
+
+
+def cmd_queue(opts):
+    """Sequential autopilot queue: ordered targets, one PR per target,
+    merge+deploy verification between targets, stop-on-escalation."""
+    qpath = Path(opts.file) if opts.file else QUEUE_PATH
+    if opts.targets:
+        if not opts.type:
+            sys.exit("ERROR: queue creation requires --type")
+        types = load_registry()
+        if opts.type not in types:
+            sys.exit(f"ERROR: unknown task type {opts.type!r}")
+        targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
+        for t in targets:
+            if not (YROOT / "assets" / "talmuddev" / f"{t}.json").exists():
+                sys.exit(f"ERROR: {t}: no talmuddev source")
+        q = {"type": opts.type, "module": opts.module, "targets": targets,
+             "done": [], "policy": "stop-on-escalation"}
+        qpath.write_text(json.dumps(q, indent=1) + "\n")
+        print(f"queue written to {qpath}: {len(targets)} target(s), one PR per target, "
+              "sequential merge+deploy, stop-on-escalation")
+        return
+    if not qpath.exists():
+        sys.exit(f"ERROR: no queue at {qpath}; create one with --type/--targets")
+    q = json.loads(qpath.read_text())
+    remaining = [t for t in q["targets"] if t not in q["done"]]
+    if opts.advance:
+        if not remaining or remaining[0] != opts.advance:
+            sys.exit(f"ERROR: cannot advance {opts.advance!r}; next queued target is "
+                     f"{remaining[0] if remaining else '(none)'} (sequential only, after "
+                     "merge AND deploy verification)")
+        q["done"].append(opts.advance)
+        qpath.write_text(json.dumps(q, indent=1) + "\n")
+        remaining = remaining[1:]
+        print(f"advanced past {opts.advance}; remaining: {remaining or 'none'}")
+        return
+    print(f"queue: type {q['type']}, module {q['module']}, policy {q['policy']}")
+    print(f"done: {q['done'] or 'none'} | remaining: {remaining or 'none'}")
+    if remaining:
+        nxt = remaining[0]
+        print(f"\nNext target: {nxt}. One PR for this daf only. Command sequence:")
+        print(f"  npm run worker:manifest -- --type {q['type']} --module {q['module']} "
+              f"--range {nxt} --out .worker-manifest.json")
+        print("  npm run worker:preflight -- --manifest .worker-manifest.json")
+        print("  npm run worker:packet -- --manifest .worker-manifest.json")
+        print("  npm run worker:prompt -- --manifest .worker-manifest.json")
+        print("  (edit, regenerate, VERSION bump, self-review, verify --fast/--full, PR, CI)")
+        print("  npm run worker:review -- --manifest .worker-manifest.json")
+        print(f"  (merge when eligible AND CI green; verify deploys; then: "
+              f"npm run worker:queue -- --advance {nxt})")
+        print("Stop the queue on ANY escalation condition; do not continue past it.")
+    else:
+        print("\nQueue complete.")
 
 
 # ---------------- schema-matrix ----------------
@@ -689,9 +998,14 @@ def cmd_docs(opts):
         L.append("")
         L.append(s["description"])
         L.append("")
+        pol = review_policy_of(s)
+        pol_txt = {"fable": "; Fable review required",
+                   "conditional": f"; review: conditional auto-merge gate (worker self-review "
+                                  f"+ worker:review; escalation to {s.get('escalationModel', 'fable')})",
+                   "none": ""}[pol]
         L.append(f"- model: {s['model']}"
                  + ("; PAUSED" if s.get("paused") else "")
-                 + (f"; Fable review required" if s.get("fableReviewRequired") else ""))
+                 + pol_txt)
         L.append(f"- haiku allowed: {'yes' if s.get('haikuAllowed') or s.get('model') in ('haiku', 'haiku-with-fable-review') else 'no'}")
         L.append(f"- max batch: {s.get('maxBatch', 1 if s.get('requiresTarget') else 'n/a')}")
         L.append(f"- allowed files: {', '.join(s['allowedFiles']) or 'none (read-only task)'}")
@@ -751,6 +1065,8 @@ def cmd_report(opts):
         "filesChanged": changed,
         "allowlistDelta": {"before": old_n, "after": new_n},
         "fableReviewRequired": m.get("fableReviewRequired", False),
+        "reviewPolicy": review_policy_of(spec),
+        "selfReviewRecorded": SELF_REVIEW_PATH.exists(),
         "prNumber": "<fill after PR creation>",
         "mergeCommit": "<fill after merge>",
         "gates": "<fill: verify --full result>",
@@ -841,6 +1157,19 @@ def main():
     p = sub.add_parser("ci-check")
     p.add_argument("--base", default=None)
 
+    p = sub.add_parser("review")
+    p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
+    p.add_argument("--base", default=None)
+
+    p = sub.add_parser("queue")
+    p.add_argument("--type", default=None)
+    p.add_argument("--module", default="yoma")
+    p.add_argument("--targets", default=None,
+                   help="comma-separated ordered daf list; creates/overwrites the queue")
+    p.add_argument("--advance", default=None,
+                   help="mark this daf done (only the head of the queue, after merge AND deploy verification)")
+    p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
+
     p = sub.add_parser("report")
     p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
 
@@ -852,8 +1181,8 @@ def main():
     opts = ap.parse_args()
     {"manifest": cmd_manifest, "preflight": cmd_preflight, "packet": cmd_packet,
      "prompt": cmd_prompt, "verify": cmd_verify, "scope": cmd_scope,
-     "ci-check": cmd_ci_check, "report": cmd_report,
-     "schema-matrix": cmd_schema_matrix, "docs": cmd_docs}[opts.cmd](opts)
+     "ci-check": cmd_ci_check, "report": cmd_report, "review": cmd_review,
+     "queue": cmd_queue, "schema-matrix": cmd_schema_matrix, "docs": cmd_docs}[opts.cmd](opts)
 
 
 if __name__ == "__main__":

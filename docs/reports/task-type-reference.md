@@ -52,7 +52,7 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet onl
 - model: fable
 - haiku allowed: no
 - max batch: n/a
-- allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json
+- allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
 - required validators: validate:offline:yoma
 - stop conditions:
@@ -197,37 +197,57 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 
 Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
 
-- model: sonnet; Fable review required
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
 - haiku allowed: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
   - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
-  - post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)
-  - count mismatch not already baselined
   - any gate failure not fixable by correcting your own content
+  - required packet id missing, or packet segment text truncated or incomplete
+  - structure or count mismatch not already baselined
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not ALIGNED
+  - a semantic audit shift candidate remains on the target daf
+  - a link that cannot be justified from local segment text
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
+  - more than one daf would change in the same content PR
 
 ## rashi-reconstruction
 
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
 
-- model: sonnet; Fable review required
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
 - haiku allowed: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
   - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
-  - raw count vs entry count mismatch
-  - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content
+  - required packet id missing, or packet segment text truncated or incomplete
+  - structure or count mismatch not already baselined
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not ALIGNED
+  - a semantic audit shift candidate remains on the target daf
+  - a link that cannot be justified from local segment text
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
+  - more than one daf would change in the same content PR
 
 ## rashi-repair
 

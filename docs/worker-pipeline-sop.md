@@ -35,8 +35,15 @@ Every pass, regardless of task type, is exactly this:
 10 commit (INCLUDING .worker-manifest.json), push -u, open ONE PR
 11 wait for CI (build job runs validate:offline:yoma, the Rashi scope
    check, and the worker manifest check)
-12 merge ONLY when green AND only if the task type does not require
-   Fable review (fableReviewRequired types: request review, do not merge)
+12 merge rule, by the task type's review policy:
+   - reviewPolicy fable: request Fable review, do NOT merge
+   - reviewPolicy conditional (rashi-realignment, rashi-reconstruction):
+     record the fresh post-edit self-review in .worker-self-review.json,
+     run `npm run worker:review -- --manifest .worker-manifest.json`,
+     and merge WITHOUT further authorization only when it prints
+     AUTO-MERGE-ELIGIBLE and CI is green on the exact final head; any
+     failed condition escalates to Fable and blocks the merge
+   - no policy: merge when green
 13 verify Deploy Cloudways Branch and Deploy GitHub Pages for the merge
    commit
 14 npm run worker:report -- --manifest .worker-manifest.json ; fill the
@@ -53,15 +60,21 @@ consistency), `worker:docs` (regenerate reference docs).
 
 - Fable: owns the pipeline, schema, validators, registry, allowlist
   growth, structure edits, new task types, workflow and docs changes,
-  branch cleanup, process hardening, and every escalation. Fable is
-  the REVIEWER for semantic daf PRs, not the worker: Fable does not
-  perform ordinary daf content work, and acts as the semantic worker
-  only when explicitly substituting because Sonnet is unavailable.
+  branch cleanup, process hardening, and every escalation. Since
+  VERSION 15.93 Fable is NOT the routine per-PR reviewer for semantic
+  daf work: Fable reviews a semantic PR only when an escalation
+  condition fires (see the conditional review section below). Fable
+  acts as the semantic worker only when explicitly substituting
+  because Sonnet is unavailable.
 - Sonnet: the default WORKER for all semantic daf work: Hebrew/Rashi
   translation, placement judgments, shifted-daf realignment, and
   fabricated-daf reconstruction (rashi-realignment and
   rashi-reconstruction carry model: sonnet in the registry; Haiku is
-  not allowed on them). Sonnet may also review or escalate.
+  not allowed on them). On those two types Sonnet also performs the
+  fresh post-edit self-review, runs the worker:review auto-merge gate,
+  merges when eligible and CI is green, verifies deployment, and
+  proceeds to the next queued target; it escalates to Fable on any
+  escalation condition instead of merging.
 - Only Fable/Sonnet may issue manifests carrying --authorize flags or
   run with RASHI_ALLOWLIST_RESTRUCTURE=1.
 - Haiku (or another small model): executes mechanical bounded tasks
@@ -74,6 +87,97 @@ consistency), `worker:docs` (regenerate reference docs).
   mechanically, but only after local `worker:verify --full` has passed.
 - A red gate always means the content or scope is wrong. The only two
   legal responses are: fix your own work, or stop and escalate.
+
+## Conditional semantic review and autopilot queue (VERSION 15.93)
+
+rashi-realignment and rashi-reconstruction carry `reviewPolicy:
+"conditional"` with `escalationModel: "fable"` in the registry. The
+unconditional per-PR Fable review is removed; in its place stand a
+mandatory fresh self-review and a machine-checked auto-merge gate. No
+hard validation gate was weakened: scope, freshness, content, link,
+repetition, drift, and schema checks all still block CI exactly as
+before.
+
+A semantic PR may auto-merge (no Fable, no operator sign-off) only when
+ALL of these hold. `npm run worker:review -- --manifest
+.worker-manifest.json` machine-checks the first thirteen and prints
+AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
+
+1. single-target-manifest: the manifest carries exactly one daf
+2. exactly-one-authorized-daf-changed: only that daf's learning JSON
+   changed
+3. scope-clean-no-structure-no-hebrew-no-forbidden-fields: the hard
+   Rashi scope validator passes (no structure/count changes, no he
+   edits, no Gemara-learning fields)
+4. no-allowlist-additions: nothing added to any allowlist or baseline
+5. allowlist-removals-limited-to-target-daf: removals only for the
+   target daf (the content gate re-derives violations, so a removal
+   that leaves the gate green was validator-stale by construction)
+6. packet-contains-every-linked-local-id: the live packet segment
+   table (Gemara AND Mishnah kinds) contains every linked id
+7. all-links-legal-and-nonempty: every entry links to legal local ids
+8. drift-profile-ALIGNED: post-edit profile is ALIGNED (not merely
+   haiku-safe)
+9. semantic-audit-zero-shift-candidates on the target daf
+10. no-stub-or-duplicate-helpers in the target daf
+11. generated-files-fresh (byte-identical regeneration)
+12. version-metadata-synced (VERSION == package.json == lock)
+13. fresh-self-review-committed-and-clean: .worker-self-review.json is
+    part of THIS PR's diff, names the target daf, ticks every required
+    recheck, and reports no blockers
+
+Plus two procedural conditions the worker satisfies in the loop:
+worker:verify --fast and --full both passed on the head, and CI is
+green on the exact final head at merge time. Semantic-versus-positional
+linking is enforced three ways: the packet/prompt contract, the ALIGNED
+drift profile plus zero shift candidates, and the self-review
+attestation.
+
+The fresh self-review is performed AFTER the edit, rereading the raw
+Hebrew and the packet's full segment text from scratch (never reusing
+the working assumptions of the edit pass), and explicitly rechecks:
+beginning, middle, and tail; every citation anchor; every multi-id
+link; truncated boundary entries; every formerly allowlisted entry;
+semantic versus positional linking; and no unrelated final-id fallback.
+Format (committed with the PR as .worker-self-review.json):
+
+```json
+{"daf": "71b", "model": "sonnet",
+ "rechecked": {"beginningMiddleTail": true, "citationAnchors": true,
+   "multiIdLinks": true, "truncatedBoundaryEntries": true,
+   "formerlyAllowlistedEntries": true, "semanticNotPositional": true,
+   "noUnrelatedFinalIdFallback": true},
+ "blockersFound": [], "notes": "one line"}
+```
+
+Escalation to Fable is MANDATORY (stop, do not merge) when any of
+these occur: required packet id missing or packet text truncated or
+incomplete; structure or count mismatch not already baselined;
+allowlist growth would be needed; validator or workflow modification
+would be needed; semantic uncertainty remains after rereading the
+sources; post-edit drift profile not ALIGNED; a semantic audit shift
+candidate remains; a link cannot be justified from local segment text;
+the self-review finds a blocker; CI or full verification fails after
+one bounded correction attempt; fields outside the manifest would be
+needed; more than one daf would change in the same content PR.
+
+Autopilot queue (`npm run worker:queue`): an ordered multi-daf plan
+executed strictly one PR per target with sequential
+CI/merge/deploy-verification between targets, stop-on-escalation.
+
+```
+npm run worker:queue -- --type rashi-realignment --module yoma --targets 71b,41a
+npm run worker:queue                       # status + next target's commands
+npm run worker:queue -- --advance 71b      # only after merge AND deploys green
+```
+
+The queue never batches daf into one PR (maxBatch 1 stands on both
+conditional types) and never skips deploy verification. On escalation
+the queue simply stops where it is; Fable resolves, then the queue
+resumes. Tests: `npm run test:policy` (part of `npm test`) covers the
+policy positively (all conditions green needs no Fable) and negatively
+(every single failed condition blocks the merge), the prompt text, and
+the queue mechanics.
 
 ## Operator quickstart (what do I paste to Haiku?)
 
@@ -156,9 +260,11 @@ consistency), `worker:docs` (regenerate reference docs).
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
   not haiku-safe; the remedies are rashi-realignment (shifted) and
-  rashi-reconstruction (fabricated), Sonnet worker by default with
-  Fable review (Fable substitutes as worker only when Sonnet is
-  unavailable). Override is Fable-only: manifest authorizeDriftOverride
+  rashi-reconstruction (fabricated), Sonnet worker with the
+  conditional review policy above (Fable substitutes as worker only
+  when Sonnet is unavailable; Fable reviews only on escalation).
+  worker:verify enforces a clean post-edit profile for BOTH types.
+  Override is Fable-only: manifest authorizeDriftOverride
   plus FABLE_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm
   test).
 - Known deferred content debt lives in docs/rashi-audit-backlog.md:

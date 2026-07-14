@@ -10,14 +10,20 @@ are split so that no single actor can bypass them.
 
 - Fable builds and maintains the guardrails, performs forensic audits,
   designs repair passes, owns docs/workflow/branch hygiene, and handles
-  every escalation. Fable is the reviewer for semantic daf PRs, not the
-  worker: Fable performs daf content work only when explicitly
-  substituting because Sonnet is unavailable.
+  every escalation. Since VERSION 15.93 Fable is NOT the routine per-PR
+  reviewer for semantic daf work: rashi-realignment and
+  rashi-reconstruction run under the conditional review policy (see
+  below), and Fable reviews only when an escalation condition fires.
+  Fable performs daf content work only when explicitly substituting
+  because Sonnet is unavailable.
 - Sonnet is the default worker for semantic daf work: Hebrew
   translation, placement judgments, shifted-daf realignment
   (rashi-realignment), and fabricated-daf reconstruction
   (rashi-reconstruction). Only Fable/Sonnet may make Hebrew translation
-  or placement judgments; Haiku is not allowed on those task types.
+  or placement judgments; Haiku is not allowed on those task types. On
+  the two conditional types Sonnet executes end to end: repair, fresh
+  post-edit self-review, CI, the worker:review auto-merge gate, merge,
+  deploy verification, and progression to the next queued target.
 - Haiku (or another small model) may perform bounded Rashi work ONLY
   inside the guardrails: executing a prepared work packet, running the
   validators, committing, and doing mechanical CI/deploy polling.
@@ -75,14 +81,33 @@ citations, search window 25):
 On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
 line-level task (repair, links): stub-only work there duplicates
 content and cements misalignment. The remedies are rashi-realignment
-(shifted) and rashi-reconstruction (fabricated), Sonnet worker by
-default with Fable review (Fable substitutes as worker only when
-Sonnet is unavailable). Override is Fable-only: the manifest must carry
+(shifted) and rashi-reconstruction (fabricated), Sonnet worker under
+the conditional review policy (Fable substitutes as worker only when
+Sonnet is unavailable; Fable reviews only on escalation). Override is
+Fable-only: the manifest must carry
 authorizeDriftOverride AND the environment must set
 FABLE_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
 packet embeds each daf's profile, and worker:verify enforces a clean
-post-edit profile for rashi-realignment PRs. Tests:
-`npm run test:drift:yoma` (part of `npm test`).
+post-edit profile for both rashi-realignment and rashi-reconstruction
+PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
+
+## Conditional semantic review (VERSION 15.93)
+
+rashi-realignment and rashi-reconstruction no longer require an
+unconditional Fable review on every PR. The registry marks them
+`reviewPolicy: "conditional"` with `escalationModel: "fable"`; the
+worker (Sonnet) merges its own PR WITHOUT operator or Fable sign-off
+only when every auto-merge condition holds, and otherwise escalates.
+The full condition list, the fresh self-review contract
+(.worker-self-review.json), the mandatory escalation conditions, and
+the autopilot queue commands live in docs/worker-pipeline-sop.md
+(single source). Enforcement: `npm run worker:review` (machine gate,
+fails closed), `npm run worker:queue` (sequential one-PR-per-daf
+autopilot, stop-on-escalation), `npm run test:policy` (positive and
+negative coverage, in npm test). No offline validation gate, scope
+rule, ratchet, freshness check, or drift block was weakened; the
+change replaces only the human review step for the routine, fully
+green case.
 
 ## Bounded work procedure (per daf)
 

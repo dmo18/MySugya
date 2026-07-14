@@ -72,7 +72,9 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
-    ".worker-manifest.json"
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
    ],
    "allowedJsonPaths": [
     "rashiTranslations[*].en",
@@ -104,11 +106,23 @@
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
     "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "raw count vs entry count mismatch",
-    "new semantic audit shift candidate beyond offset +-1",
-    "any gate failure not fixable by correcting your own content"
+    "any gate failure not fixable by correcting your own content",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "structure or count mismatch not already baselined",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not ALIGNED",
+    "a semantic audit shift candidate remains on the target daf",
+    "a link that cannot be justified from local segment text",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed",
+    "more than one daf would change in the same content PR"
    ],
-   "fableReviewRequired": true
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable",
+   "maxBatch": 1
   },
   "rashi-realignment": {
    "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.",
@@ -124,7 +138,9 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
-    ".worker-manifest.json"
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
    ],
    "allowedJsonPaths": [
     "rashiTranslations[*].en",
@@ -156,12 +172,23 @@
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
     "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)",
-    "count mismatch not already baselined",
-    "any gate failure not fixable by correcting your own content"
+    "any gate failure not fixable by correcting your own content",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "structure or count mismatch not already baselined",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not ALIGNED",
+    "a semantic audit shift candidate remains on the target daf",
+    "a link that cannot be justified from local segment text",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed",
+    "more than one daf would change in the same content PR"
    ],
-   "fableReviewRequired": true,
-   "maxBatch": 1
+   "maxBatch": 1,
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable"
   },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
@@ -404,7 +431,8 @@
     "CLAUDE.md",
     "SOURCES.md",
     "tests/*",
-    ".worker-manifest.json"
+    ".worker-manifest.json",
+    ".worker-queue.json"
    ],
    "allowedJsonPaths": [],
    "forbiddenFiles": [
