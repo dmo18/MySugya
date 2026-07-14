@@ -5369,3 +5369,57 @@ legal-id regex also matches argumentFlow ids. A future scoped links
 pass should relink those eight entries to l01a/l01b semantically and
 drain the test's debt list; the validator regex tightening should ride
 the same pass so the gate and the packet table agree.
+
+### Repair record: 70a realigned (VERSION 15.92, fourth rashi-realignment pass, Sonnet worker)
+
+The SHIFTED daf 70a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; Fable review
+required). All 55 raw Rashi lines already had current entries (no
+missing lines), but en had drifted (offset 0 near the top, -2 by line
+16, -7 by line 28), and entries 53-55 were allowlisted stubs. Every
+entry's en was retranslated directly from its own raw Hebrew vilna
+line, reusing the existing translation's genuine phrasing where it
+mapped to the correct line and redistributing it there; the previously
+stubbed tail (he 53-55, the concluding verse-based proof for the
+mussaf-goat sequencing) is translated fresh from its own Hebrew, with
+no duplicate paraphrase.
+
+linkedGemaraLineIds were populated for all 55 lines, verified against
+the full (untruncated) text of all 23 local segments in this daf's id
+table (l01, l02, l03, l07, l10, l15, l16, l22, l24, l26, l27 [mishna],
+l28, l31, l32, l34, l36, l37, l39, l41a, l41b, l43, l44, l46) using the
+packet fix from the tooling PR that preceded this pass (l27's Mishnah
+kind is present and correctly ordered). Representative mappings: he
+1-2 (two short dibburim on the same print line) to [l01, l02]; he 9
+("ketikonah") to l16 despite the seven-line gap, because "כתיקנה" only
+occurs in l16's text and boundary/positional proximity is not a
+legitimate substitute for a textual match; he 10-19 (the hiddur-mitzvah
+excursus, Exodus 15 citation) to l22, the segment whose "to show its
+appearance to the many" phrase the excursus explains; he 26 (Mishnah
+"seven lambs") to l28, since "שִׁבְעַת כְּבָשִׂים" lives in l28's text,
+not in l27 (the Mishnah segment itself, which covers the vestment-
+changing sequence and has no Rashi comment linking to it on this daf);
+he 31-34 (Rabbi Eliezer's bull-timing question) to l41a rather than
+the topically-adjacent l37/l39 Akiva dispute, because l41a's own text
+("וְתוּ: פַּר הָעוֹלָה לְרַבִּי אֱלִיעֶזֶר דְּשַׁיְּירֵיהּ") is what he
+31 quotes almost verbatim; he 43 (the Akiva textual-variant point
+about "יצא ועשה") to l28, where that Mishnah phrase actually appears,
+rather than to l46 where the surrounding discussion continues; he
+44-54 (the closing mussaf-sequencing block, closing with the "besides
+the sin-offering of atonement" verse-proof) to l46, the final segment
+whose own content this entire block explains start to finish. Several
+print lines carry two dibburim spanning adjacent segments and were
+linked to both (he 1, 3, 5, 10, 20, 23, 26, 30, 31, 37, 40, 41), per
+the multi-segment-link rule; no line was linked to the final id as an
+unrelated-content boundary fallback, since he 55's truncated
+continuation ("ואחר") is itself still explaining l46's content, cut
+off by the amud boundary.
+
+The 3 stub_continuation allowlist entries for 70a (lines 53-55) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 3).
+
+Post-edit drift profile: ALIGNED, 2 anchors found, 0 missing, all
+offsets zero (Exodus 15 at L16, Numbers 29 at L28). 70a leaves the
+shifted set; 71b and 41a remain queued for their own realignment
+passes.
