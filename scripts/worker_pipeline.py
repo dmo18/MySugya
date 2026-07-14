@@ -432,9 +432,11 @@ def cmd_prompt(opts):
             "    Merge ONLY when CI is green on the exact final head AND this prints",
             "    AUTO-MERGE-ELIGIBLE. No operator authorization is needed when both hold.",
             "    Then verify BOTH deploy workflows for the merge commit.",
-            "11. If a queue is active: npm run worker:queue -- --advance <daf>, then",
-            "    continue to the next queued target with a fresh manifest. Stop ONLY on",
-            "    an escalation condition, unexpected repository state, or an empty queue.",
+            "11. If a queue is active: rerun npm run worker:queue. Progress derives",
+            "    automatically from the merged manifest at origin/main; there is no state",
+            "    to commit and NEVER a direct push to main. Continue to the",
+            "    next queued target with a fresh manifest. Stop ONLY on an escalation",
+            "    condition, unexpected repository state, or an empty queue.",
             f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'fable')} with a report.",
         ]
     else:
@@ -858,10 +860,61 @@ def cmd_review(opts):
 QUEUE_PATH = REPO / ".worker-queue.json"
 
 
+def merged_manifest_evidence(override=None):
+    """The last worker manifest MERGED to origin/main: the durable evidence
+    queue progress derives from. Never reads the working tree (an unmerged
+    manifest is not evidence). --evidence FILE overrides for tests."""
+    if override:
+        try:
+            return json.loads(Path(override).read_text())
+        except (OSError, json.JSONDecodeError):
+            return {}
+    sh(["git", "fetch", "origin", "main"])  # best-effort freshness
+    r = sh(["git", "show", "origin/main:.worker-manifest.json"])
+    if r.returncode != 0:
+        return {}
+    try:
+        return json.loads(r.stdout)
+    except json.JSONDecodeError:
+        return {}
+
+
+def derive_queue_progress(q, evidence):
+    """Pure derivation of (done, remaining) from the immutable queue
+    definition and the merged-manifest evidence. Sequential-by-design: the
+    evidence names the LAST merged target for this queue's type/module;
+    under the enforced one-PR-per-target sequential process, everything at
+    or before that index is complete. A manifest of another type/module, a
+    target outside the queue, or a merely-local (unmerged) manifest never
+    advances anything, so failed or escalated targets can never become
+    done."""
+    targets = q["targets"]
+    if (evidence.get("type") == q["type"]
+            and evidence.get("module") == q["module"]
+            and len(evidence.get("targets", [])) == 1
+            and evidence["targets"][0] in targets):
+        i = targets.index(evidence["targets"][0])
+        return targets[:i + 1], targets[i + 1:]
+    return [], list(targets)
+
+
 def cmd_queue(opts):
     """Sequential autopilot queue: ordered targets, one PR per target,
-    merge+deploy verification between targets, stop-on-escalation."""
+    merge+deploy verification between targets, stop-on-escalation.
+
+    The tracked queue file is an IMMUTABLE definition (type, module,
+    ordered targets, policy) committed once alongside the first target's
+    manifest. Progress is DERIVED from merged-PR evidence (the manifest at
+    origin/main), never stored: there is no runtime state to mutate, so
+    completing the final target leaves a clean tree and nothing ever needs
+    a direct push to main. Resuming after a container or session recycle
+    needs only a fresh clone: derivation is a pure function of the
+    definition and origin/main."""
     qpath = Path(opts.file) if opts.file else QUEUE_PATH
+    if opts.advance:
+        sys.exit("ERROR: --advance is retired. Queue progress is derived from merged PR "
+                 "evidence (origin/main:.worker-manifest.json); there is no runtime state "
+                 "to mutate, no completion commit, and never a direct push to main.")
     if opts.targets:
         if not opts.type:
             sys.exit("ERROR: queue creation requires --type")
@@ -873,30 +926,23 @@ def cmd_queue(opts):
             if not (YROOT / "assets" / "talmuddev" / f"{t}.json").exists():
                 sys.exit(f"ERROR: {t}: no talmuddev source")
         q = {"type": opts.type, "module": opts.module, "targets": targets,
-             "done": [], "policy": "stop-on-escalation"}
+             "policy": "stop-on-escalation"}
         qpath.write_text(json.dumps(q, indent=1) + "\n")
-        print(f"queue written to {qpath}: {len(targets)} target(s), one PR per target, "
-              "sequential merge+deploy, stop-on-escalation")
+        print(f"queue definition written to {qpath}: {len(targets)} target(s), one PR per "
+              "target, sequential merge+deploy, stop-on-escalation. Commit it with the "
+              "FIRST target's manifest commit; it is immutable afterward (progress is "
+              "derived from merged PRs, never written back).")
         return
     if not qpath.exists():
         sys.exit(f"ERROR: no queue at {qpath}; create one with --type/--targets")
     q = json.loads(qpath.read_text())
-    remaining = [t for t in q["targets"] if t not in q["done"]]
-    if opts.advance:
-        if not remaining or remaining[0] != opts.advance:
-            sys.exit(f"ERROR: cannot advance {opts.advance!r}; next queued target is "
-                     f"{remaining[0] if remaining else '(none)'} (sequential only, after "
-                     "merge AND deploy verification)")
-        q["done"].append(opts.advance)
-        qpath.write_text(json.dumps(q, indent=1) + "\n")
-        remaining = remaining[1:]
-        print(f"advanced past {opts.advance}; remaining: {remaining or 'none'}")
-        return
+    done, remaining = derive_queue_progress(q, merged_manifest_evidence(opts.evidence))
     print(f"queue: type {q['type']}, module {q['module']}, policy {q['policy']}")
-    print(f"done: {q['done'] or 'none'} | remaining: {remaining or 'none'}")
+    print(f"done (derived from merged PRs): {done or 'none'} | remaining: {remaining or 'none'}")
     if remaining:
         nxt = remaining[0]
-        print(f"\nNext target: {nxt}. One PR for this daf only. Command sequence:")
+        print(f"\nNext target: {nxt}. One PR for this daf only. Before starting, verify the")
+        print("previous merge's deploy workflows are green. Command sequence:")
         print(f"  npm run worker:manifest -- --type {q['type']} --module {q['module']} "
               f"--range {nxt} --out .worker-manifest.json")
         print("  npm run worker:preflight -- --manifest .worker-manifest.json")
@@ -904,11 +950,12 @@ def cmd_queue(opts):
         print("  npm run worker:prompt -- --manifest .worker-manifest.json")
         print("  (edit, regenerate, VERSION bump, self-review, verify --fast/--full, PR, CI)")
         print("  npm run worker:review -- --manifest .worker-manifest.json")
-        print(f"  (merge when eligible AND CI green; verify deploys; then: "
-              f"npm run worker:queue -- --advance {nxt})")
+        print("  (merge when eligible AND CI green; verify all deploy workflows; then rerun")
+        print("   npm run worker:queue, and progress advances automatically from the merge)")
         print("Stop the queue on ANY escalation condition; do not continue past it.")
     else:
-        print("\nQueue complete.")
+        print("\nQueue complete. No queue-state commit is needed and the tree stays clean:")
+        print("completion is derived from merged PR evidence, never pushed to main.")
 
 
 # ---------------- schema-matrix ----------------
@@ -1167,8 +1214,10 @@ def main():
     p.add_argument("--targets", default=None,
                    help="comma-separated ordered daf list; creates/overwrites the queue")
     p.add_argument("--advance", default=None,
-                   help="mark this daf done (only the head of the queue, after merge AND deploy verification)")
+                   help="RETIRED: progress derives from merged PR evidence; this flag only errors")
     p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
+    p.add_argument("--evidence", default=None,
+                   help="test override: read merged-manifest evidence from FILE instead of origin/main")
 
     p = sub.add_parser("report")
     p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))

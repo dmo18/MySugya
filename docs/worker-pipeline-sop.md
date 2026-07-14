@@ -87,6 +87,10 @@ consistency), `worker:docs` (regenerate reference docs).
   mechanically, but only after local `worker:verify --full` has passed.
 - A red gate always means the content or scope is wrong. The only two
   legal responses are: fix your own work, or stop and escalate.
+- NO model, at any tier, direct-pushes tracked changes to main. Main
+  moves only by validated PR merges; any workflow that would end with a
+  tracked post-merge change is a design defect to escalate, not a
+  reason to push.
 
 ## Conditional semantic review and autopilot queue (VERSION 15.93)
 
@@ -168,16 +172,35 @@ CI/merge/deploy-verification between targets, stop-on-escalation.
 ```
 npm run worker:queue -- --type rashi-realignment --module yoma --targets 71b,41a
 npm run worker:queue                       # status + next target's commands
-npm run worker:queue -- --advance 71b      # only after merge AND deploys green
 ```
+
+Queue lifecycle (VERSION 15.96): the tracked .worker-queue.json is an
+IMMUTABLE definition (type, module, ordered targets, policy), committed
+once alongside the first target's manifest commit and never written
+again. Progress is DERIVED, not stored: a target is complete exactly
+when its single-target manifest of the queue's type/module is the
+manifest merged at origin/main; under the enforced sequential
+one-PR-per-target process, everything at or before that target is
+done. Consequences, all mechanically enforced and tested:
+
+- there is no --advance and no runtime state to mutate; completing the
+  final target leaves a CLEAN tree, and no queue bookkeeping ever needs
+  a commit, let alone a direct push to main
+- a merely-local (unmerged) manifest, a foreign-type manifest, an
+  out-of-queue target, or a multi-target manifest is never evidence, so
+  failed or escalated targets can never become done and progress cannot
+  be advanced early or out of order
+- resuming after a container/session recycle needs only a fresh clone:
+  derivation is a pure function of the tracked definition and
+  origin/main
 
 The queue never batches daf into one PR (maxBatch 1 stands on both
 conditional types) and never skips deploy verification. On escalation
 the queue simply stops where it is; Fable resolves, then the queue
 resumes. Tests: `npm run test:policy` (part of `npm test`) covers the
 policy positively (all conditions green needs no Fable) and negatively
-(every single failed condition blocks the merge), the prompt text, and
-the queue mechanics.
+(every single failed condition blocks the merge), the prompt text, the
+queue derivation mechanics, and the no-direct-push guarantees.
 
 ## Operator quickstart (what do I paste to Haiku?)
 
@@ -230,6 +253,12 @@ the queue mechanics.
 
 ## Consistency policies (single source summary)
 
+- Automation NEVER direct-pushes tracked changes to main. Every change
+  to main arrives through a validated PR merge. No worker, autopilot,
+  or queue step may produce a tracked post-merge change that would
+  require a direct push (the queue derives progress from merged PRs for
+  exactly this reason; enforced by test:policy). Model roles: this
+  applies equally to Haiku, Sonnet, and Fable.
 - VERSION: one patch bump per PR via VERSION + scripts/sync_version.py;
   never hand-edit package.json versions. Data-layer versions are
   separate.
