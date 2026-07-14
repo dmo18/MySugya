@@ -1,9 +1,19 @@
 {
- "type": "rashi-realignment",
+ "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "71b",
-  "41a"
+  "47a",
+  "47b",
+  "48a",
+  "48b",
+  "49a",
+  "49b",
+  "50a",
+  "50b",
+  "51a",
+  "51b",
+  "52a",
+  "52b"
  ],
  "policy": "stop-on-escalation"
 }

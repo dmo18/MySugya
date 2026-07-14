@@ -1,8 +1,8 @@
 {
- "type": "rashi-realignment",
+ "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "42a"
+  "47a"
  ],
  "model": "sonnet",
  "paused": false,
