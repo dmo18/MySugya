@@ -5677,3 +5677,39 @@ No allowlist entries existed for 47a to remove. This opens the
 remaining targets: 47b, 48a, 48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a,
 52b. 61a/67b-71b stubs and 77a-88a filler remain open and out of
 scope for this campaign.
+
+### 47b reconstructed (VERSION 15.103, rashi-reconstruction, Sonnet worker)
+
+Fresh diagnosis confirmed the same pattern as 47a: raw count 65 =
+entries 65 (structurally sound), but all 65 entries were unlinked and
+the drift profile was FABRICATION-SUSPECT (0 of 8 citation anchors
+found). The English was fabricated thematic narration unrelated to the
+raw Hebrew (for example closing with "That's the Talmud being the
+Talmud" and "Perfect preparation for Rav Pappa's dilemmas"). Classified
+rashi-reconstruction.
+
+Rebuilt all 65 entries against the raw Hebrew and the 13-id local
+segment table: vl1-9 the machavat/marcheshet difficulty with its
+Hullin and forward 49b citations (l01); vl10-11 the bein habeinayim
+opening (l05); vl12-15 the Menachot 9a citation on diminished shirayim
+(l11); vl16-20 the kol shemimenu laishim exclusion with its Leviticus
+2 citation (l17); vl21-32 the lesheim eitzim ruling and Rabbi
+Eliezer's Zevachim 77b dispute (l19); vl33-39 the demaktzi shemeini
+fat-fingers explanation (l23); vl40-51 the gezeirah shavah tying
+kometz overflow to the chafinah vessel question (l26); vl52-56 Rav
+Pappa's actual question with its Sukkah 37a citation (l30); vl57-64
+the natural-grip and alternate-grip kometz descriptions (l32, l34,
+l35). vl65 ("divkeih", truncated) was checked against 48a's actual
+first raw Rashi line (confirmed from source), which opens "divkeih
+lekometz bedofnei demana... kayma lan bemasechet Menachot (26a)" -
+this confirms it is a genuine continuation of l37's own truncated
+"ba'ei" (he asked), so it stays linked to l37 rather than being forced
+or left unlinked.
+
+All 8 of the semantic audit's citation anchors (the 49b forward
+citation, Menachot 9a, Leviticus 2, Zevachim 77b, Sukkah 37a, and
+their corresponding name tokens) now land at offset 0, versus entirely
+missing before. Post-repair profile: ALIGNED, 8 anchors found, 0
+missing. Corpus semantic audit: 0 shift candidates. No allowlist
+entries existed for 47b to remove. Remaining campaign targets: 48a,
+48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.
