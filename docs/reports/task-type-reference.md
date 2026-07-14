@@ -176,6 +176,7 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - any gate failure not fixable by correcting your own content
 
 ## quiz-edit
@@ -205,6 +206,7 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)
   - count mismatch not already baselined
   - any gate failure not fixable by correcting your own content
@@ -222,6 +224,7 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved allow
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - raw count vs entry count mismatch
   - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content
@@ -239,6 +242,7 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)
   - count mismatch not already baselined
   - new semantic audit shift candidate beyond offset +-1

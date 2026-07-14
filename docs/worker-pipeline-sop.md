@@ -142,6 +142,16 @@ consistency), `worker:docs` (regenerate reference docs).
   (it contains all offline gates plus both scope checks); require
   up-to-date branches; block force pushes; restrict bypass. Do not
   enable worker auto-merge before this is configured.
+- Semantic linking contract (VERSION 15.91, from the PR #80 review
+  finding): the Rashi work packet's legal id table carries every
+  kind-bearing local segment, Gemara AND Mishnah, in source order,
+  with kind and full untruncated Hebrew text; sparse and suffixed ids
+  are preserved verbatim. linkedGemaraLineIds are semantic text
+  anchors matched against that full text; positional assignment by
+  vilna line number is forbidden in every generated packet and prompt,
+  and an unidentifiable target segment is an escalation trigger on all
+  four Rashi task types. Tests: npm run test:packet:yoma (in npm
+  test).
 - Drift gate: `audit:rashi:drift:yoma` classifies every daf (SHIFTED /
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is

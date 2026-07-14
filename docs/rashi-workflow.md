@@ -88,11 +88,21 @@ post-edit profile for rashi-realignment PRs. Tests:
 
 1. Fable (or the coordinator) generates the work packet:
    `npm run rashi:packet:yoma -- <daf>` (add `--json` for machine form).
-   The packet contains the raw Hebrew, the ONLY legal Gemara ids, current
-   state, validator baselines, the rules, and the post-edit commands.
-2. The worker translates every raw line from its own Hebrew. Linking
-   policy (nearest preceding Gemara id; final id for end-of-daf overflow)
-   never exempts a line from genuine translation.
+   The packet contains the raw Hebrew, the ONLY legal local segment ids
+   (Gemara AND Mishnah kinds, in source order, each with its kind and
+   FULL untruncated Hebrew text), current state, validator baselines,
+   the rules, and the post-edit commands.
+2. The worker translates every raw line from its own Hebrew. Linking is
+   SEMANTIC: each Rashi comment links to the segment(s) whose text it
+   explains, matched by dibbur hamatchil, quoted phrase, subject, or
+   discussion against the packet's full segment text. Links are NEVER
+   assigned by vilna line number or positional offset. A comment may
+   link to multiple segments when it genuinely spans them. A line whose
+   commentary continues the final segment's own discussion past the
+   last id stays on that final id (boundary policy); boundary policy
+   never covers unrelated commentary and never exempts a line from
+   genuine translation. If the correct target cannot be identified from
+   the packet, stop and escalate; never guess.
 3. The worker edits only rashiTranslations en/linkedGemaraLineIds in that
    daf's learning JSON, regenerates, bumps VERSION, syncs.
 4. The worker runs all post-edit commands from the packet. Any failure:
@@ -161,6 +171,29 @@ at Settings > Branches > main:
 - Require a pull request before merging: ON (no direct pushes to main)
 - Dismiss stale approvals on new commits: only relevant if review
   requirements are enabled; recommended ON in that case
+
+## Semantic linking contract (VERSION 15.91)
+
+PR #80 (68b realignment) exposed a packet-generator defect: the legal
+id table collected only kind "gemara" segments, so the end-of-perek
+Mishnah yoma-068b-l13b was missing, and the worker fell back to
+positional linking (Rashi line N to the segment at vilna N). Fable
+review had to correct 50 of 60 links. The fix (this section's version):
+
+- make_rashi_work_packet.py emits every kind-bearing local segment,
+  Gemara AND Mishnah, in source order, with kind and full untruncated
+  Hebrew text; sparse and suffixed ids (l13a/l13b, l41a/l41b,
+  l53a/l53b) come through verbatim and nothing is renumbered or
+  manufactured. The same audit confirmed 70a (l27) and 71b (l11) each
+  carry a Mishnah segment the old table would also have dropped.
+- Packet rules, rashi_prompt.py, and the pipeline prompt all state the
+  semantic contract explicitly and forbid positional assignment; the
+  four Rashi task types escalate when a comment's target segment
+  cannot be identified from the packet.
+- Regression tests: `npm run test:packet:yoma` (part of `npm test`)
+  pins l13b presence/kind/order, sparse-id preservation, full text,
+  packet-side referential completeness for every daf, and the
+  anti-positional language in every generated prompt.
 
 ## Project-wide worker pipeline (VERSION 15.80)
 
