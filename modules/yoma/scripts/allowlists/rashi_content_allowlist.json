@@ -3829,12 +3829,6 @@
  ],
  "count_mismatches": [
   {
-   "daf": "8a",
-   "transCount": 41,
-   "rawCount": 35,
-   "note": "6 phantom enrichment entries beyond the raw print lines; silently dropped at generation. Documented in backlog (Fable audit follow-up)."
-  },
-  {
    "daf": "9a",
    "transCount": 22,
    "rawCount": 18,

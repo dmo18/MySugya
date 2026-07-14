@@ -1,6 +1,6 @@
 {
- "daf": "41a",
- "model": "sonnet",
+ "daf": "8a",
+ "model": "fable",
  "rechecked": {
   "beginningMiddleTail": true,
   "citationAnchors": true,
@@ -11,5 +11,5 @@
   "noUnrelatedFinalIdFallback": true
  },
  "blockersFound": [],
- "notes": "56 lines rechecked fresh against raw Hebrew and full segment text; all 4 non-allowlisted citation anchors confirmed at offset 0, including the 2 previously untranslated dafnum citations (Sanhedrin 86a L2, Shevuot 7a L28) now genuinely rendered. All 8 multi-id lines re-verified: 7 fall at a printed dibbur-boundary colon in the raw he text, and 1 (L35) is a defensible content-based split with no colon, verified against both segments' actual subject matter, not position. L56 (mah) confirmed as a genuine continuation of L33's own truncated sentence (ends mid-clause with a comma, continuing onto 41b), not an unrelated fallback. This daf had no prior allowlist entries, so none were removed. The prior pass's nonstandard 'Rashi: opens/continues' bracket-paraphrase style was fully replaced with direct line-by-own-Hebrew translation; no duplicate or stub pattern remains."
+ "notes": "Structural repair rechecked fresh from disk: 35 entries match 35 raw lines with vilnaLine 1..35; all 4 citation anchors (Bamidbar 19 L11, Kiddushin 62a L19, Devarim 12 L22, Shabbat 120b L26) at offset 0; 3 multi-id lines (2, 9, 10) each carry a printed dibbur-boundary colon in their raw text; L35's catchword shezeh links to l41, the Gemara segment consisting of that same word, cut by the amud boundary (8b entries 1-4 own the continuation, verified); the 8 unused segment ids are the tzitz sugya (Rashi on 7b's column) and the R. Chanina resolution (Rashi on 8b's column); the 8a count-mismatch baseline was removed only after the content gate passed green without it; no duplicates, no dashes, no empty links, no allowlist additions."
 }
