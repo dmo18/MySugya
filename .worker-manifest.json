@@ -1,44 +1,50 @@
 {
- "type": "docs-tooling",
+ "type": "rashi-structural-repair",
  "module": "yoma",
- "targets": [],
+ "targets": [
+  "8a"
+ ],
  "model": "fable",
  "paused": false,
  "fableReviewRequired": false,
- "reviewPolicy": "none",
+ "reviewPolicy": "conditional",
  "escalationModel": "fable",
- "authorizations": [],
- "maxBatch": null,
+ "authorizations": [
+  "allowStructure"
+ ],
+ "maxBatch": 1,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "modules/yoma/scripts/*.py",
-  "modules/yoma/scripts/allowlists/*",
-  ".github/workflows/*",
-  "githooks/*",
+  "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+  "modules/yoma/learning_data.js",
+  "modules/yoma/coverage.json",
+  "VERSION",
   "package.json",
   "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
+  "docs/rashi-audit-backlog.md",
+  "modules/yoma/scripts/allowlists/*",
   ".worker-manifest.json",
+  ".worker-self-review.json",
   ".worker-queue.json"
  ],
- "allowedJsonPaths": [],
+ "allowedJsonPaths": [
+  "rashiTranslations"
+ ],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  ".github/workflows/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "githooks/*"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "remove-only",
+ "structurePolicy": "explicit-allowStructure-required",
  "requiredValidators": [
-  "validate:offline:yoma"
+  "validate:offline:yoma",
+  "check:rashi-pr-scope:yoma"
  ],
- "generationCommands": [],
+ "generationCommands": [
+  "cd modules/yoma && python3 scripts/build_learning_data.py",
+  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+ ],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -46,7 +52,19 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "authoritative line ownership is ambiguous across a daf boundary",
+  "source files disagree materially",
+  "uncertain Hebrew meaning or placement",
+  "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+  "required packet id missing, or packet segment text truncated or incomplete",
+  "the repair would require changing more than one daf in the same PR",
+  "allowlist growth would be needed",
+  "validator or workflow modification would be needed",
+  "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+  "post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+  "a semantic audit shift candidate remains on the target daf",
+  "the fresh post-edit self-review finds a blocker",
+  "CI or full verification fails after one bounded correction attempt",
+  "fields outside the manifest would be needed"
  ]
 }

@@ -17348,12 +17348,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 1,
         he: "אחד זה ואחד זה. דיוה\"כ ופרה: שלישי ושביעי. לפרישתו: כהן",
-        en: "Rashi on 'one this and one that' (echad zeh v'echad zeh): meaning both the YK kohein gadol and the para priest - sprinkle on all 7 days of separation, on day 3 and day 7 of each week of the separation period.",
+        en: "'One and the other alike' - of Yom Kippur and of the para. 'Third and seventh' - of his separation. 'The priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l01"
+          "yoma-008a-l14"
         ]
       },
       {
@@ -17362,12 +17362,13 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 2,
         he: "השורף כו'. לקמיה מפרש טעמיה: דרבי מאיר סבר דחויה היא",
-        en: "Rashi: 'day 3 and day 7 refers to the days of the priest's separation' - the counting begins from when he was sequestered. R. Chanina Segan's para priest ruling is explained below.",
+        en: "who burns,' etc. - below it explains his reason. 'For Rabbi Meir holds: it is set aside (dechuya)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l01"
+          "yoma-008a-l14",
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17376,12 +17377,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 3,
         he: "בציבור. ובעינן טהרה מעלייתא והזאה בזמנה וכל יומא איכא",
-        en: "Rashi: 'R. Meir holds dchuya in tzibbur' - because real purity is required even for communal offerings, every day potentially qualifies as day 3 or day 7 from the priest's last tumah, so we sprinkle each day as a precaution.",
+        en: "for the community' - and proper purity is required, and sprinkling at its time; and every day there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l01"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17390,12 +17391,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 4,
         he: "לספוקי שמא היום יום שלישי הוא לטומאתו בשלשה ראשונים ובשלשה",
-        en: "Rashi: 'and R. Yosei holds hutrah in tzibbur' - he holds tumah is fully permitted for communal offerings, so only the minimum Torah-mandated sprinklings (day 3 and 7) are required as some elevated care, not because dchuya requires real purity.",
+        en: "reason to suspect that perhaps today is the third day of his impurity: during the first three and during the three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l04"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17404,12 +17405,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 5,
         he: "האחרונים כל יומא ויומא איכא",
-        en: "Rashi: 'we are strict only as an elevated level' - R. Yosei's day 3 and 7 requirement is a rabbinic elevation (maalah), not a full purity requirement. He holds that tumah is hutrah and no sprinkling is strictly necessary.",
+        en: "last days, every single day there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l04"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17418,12 +17419,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 6,
         he: "לספוקי מספיקא שהוא שביעי: ור'",
-        en: "Rashi: 'hazaah, why is it needed at all?' - if R. Yosei holds hutrah (tumah is fully permitted), why require any sprinkling on day 3 and 7? The Gemara is challenging the first hypothesis.",
+        en: "reason to suspect, out of doubt, that it is the seventh. 'And Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l06"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17432,12 +17433,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 7,
         he: "יוסי סבר היתר היא בציבור. דלא",
-        en: "Rashi: 'derived from the Milu'im (installation offerings)' - the requirement that even for communal offerings we must use elevated care derives from the Milu'im procedure at the Tabernacle's inauguration.",
+        en: "Yosei holds: it is permitted (hetter) for the community' - for we are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l06"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17446,12 +17447,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 8,
         he: "מחמרי בה אלא למעלה בעלמא",
-        en: "Rashi on 'tevila bizmana mitzva' - it is written (Numbers 19): 'And he shall purify himself on the seventh day, and wash his garments and bathe.' This teaches that immersion is a mitzva specifically on the seventh day.",
+        en: "stringent about it only as a mere elevated standard,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l08"
+          "yoma-008a-l21"
         ]
       },
       {
@@ -17460,12 +17461,13 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 9,
         he: "דילפינן ממלואים: הזאה כלל למה",
-        en: "Rashi continues the verse derivation: 'and bathe' - this additional phrase teaches that immersion on the seventh day is itself a mitzva, not merely a cleansing act. And we equate hazaah to tevila: therefore hazaah timing is also a mitzva, requiring sprinkle each day.",
+        en: "which we derive from the inauguration days. 'Why do I need sprinkling at all?' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l08"
+          "yoma-008a-l21",
+          "yoma-008a-l23"
         ]
       },
       {
@@ -17474,12 +17476,13 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 10,
         he: "לי. בתורת שלישי ושביעי: טבילה",
-        en: "Rashi: 'each day we sprinkle, perhaps today is the right day' - the logic of R. Meir's all-7-day sprinkle: since we don't know exactly when the priest last had tumah, every day could potentially be day 3 or day 7 of tumah, so we sprinkle as a safeguard.",
+        en: "under the law of third and seventh. 'Immersion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l08"
+          "yoma-008a-l23",
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17488,12 +17491,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 11,
         he: "בזמנה מצוה. דכתי' [במדבר יט] וחטאו",
-        en: "Rashi: 'R. Yosei does not hold tevila bizmana mitzva' - this is the second hypothesis: R. Yosei denies that immersion at its proper time is itself a mitzva. He learns the verse differently (see Kiddushin).",
+        en: "at its time is a mitzvah' - as it is written [Numbers 19]: 'and he shall purify himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l11"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17502,12 +17505,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 12,
         he: "ביום השביעי וכבס בגדיו ורחץ לא בא",
-        en: "Rashi: 'he shall not wash' - about one who has God's name written on his skin, the Torah says he may not wash, rub, or stand in a dirty place. But if he needs to immerse for purity, what should he do?",
+        en: "on the seventh day, and wash his garments and bathe' - this comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l11"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17516,12 +17519,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 13,
         he: "זה אלא ללמד על הטבילה שתהא",
-        en: "Rashi: 'if an obligatory immersion occurred' - if the man with the divine name tattooed needs to immerse for ritual purity (a mitzva), he wraps reed around the inscription to protect it from water. This shows he must immerse on the designated day.",
+        en: "only to teach about the immersion, that it must be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l11"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17530,12 +17533,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 14,
         he: "ביום השביעי והזאה נמי מקשינן",
-        en: "Rashi: 'he goes down and immerses normally' - R. Yosei's ruling: the tattooed person may immerse without a wrapper because rubbing is the actual prohibition, not mere contact with water. And we know from this that R. Yosei holds tevila bizmana mitzva - he must immerse on the day itself.",
+        en: "on the seventh day; and sprinkling too, we compare it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17544,12 +17547,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 15,
         he: "לטבילה להיות מצוה בזמנה הלכך",
-        en: "Rashi: 'and we maintain that in tevila bizmana mitzva they disagree' - this cross-tractate source (Tractate Shabbat) confirms R. Yosei holds tevila bizmana IS a mitzva. The second hypothesis about the tannaitic dispute is therefore wrong.",
+        en: "to immersion, to be a mitzvah at its time; therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17558,12 +17561,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 16,
         he: "כל יומא מזינן עליה שמא היום",
-        en: "Rashi: 'and here [the tanaim] dispute about this' - the correct resolution is about comparing hazaah to tevila for timing purposes. R. Meir equates hazaah to tevila (timing is a mitzva for both); R. Yosei does not equate them.",
+        en: "every day we sprinkle upon him, for perhaps today",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17572,12 +17575,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 17,
         he: "זמנה: לא אמרינן טבילה בזמנה",
-        en: "Rashi on 'we equate hazaah to tevila' - R. Meir: just as tevila must be at its proper time (a mitzva), so too hazaah must be at its proper time. Since any day might be the right day, sprinkle all 7.",
+        en: "is its time. 'We do not say immersion at its time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17586,12 +17589,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 18,
         he: "מצוה. והאי וחטאו דרשינן ליה",
-        en: "Rashi: 'R. Yosei holds we do not equate hazaah to tevila' - hazaah has its own rule (day 3 and day 7 only, as the Torah specifies). It does not inherit the 'bizmana mitzva' property from tevila.",
+        en: "is a mitzvah' - and this 'and he shall purify himself' he expounds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17600,12 +17603,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 19,
         he: "במסכת קדושין בפ\"ג (דף סב.):",
-        en: "Rashi: 'which is learned in Kiddushin chapter 3' - the cross-tractate source proving R. Yosei's position on tevila bizmana is cited explicitly from Tractate Kiddushin, chapter 3.",
+        en: "in tractate Kiddushin, in chapter three (62a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l26"
         ]
       },
       {
@@ -17614,12 +17617,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 20,
         he: "לא ירחץ. שלא ימחקנו ואזהרה",
-        en: "Rashi: 'he shall not wash' - repeats the prohibition on the tattooed person against washing in a way that would rub the divine name.",
+        en: "'He shall not wash' - so that he not erase it; and the warning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l14"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17628,12 +17631,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 21,
         he: "למוחק את השם ואבדתם את שמם",
-        en: "Rashi on 'a mitzva immersion that presented itself' - an obligatory immersion (like a niddah or zavah immersing for purity) that the tattooed person needs to perform. 'Nizmadah' means it arose or became necessary.",
+        en: "for one who erases the Name is 'and you shall destroy their name'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l21"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17642,12 +17645,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 22,
         he: "(דברים יב) וסמיך ליה לא תעשון כן",
-        en: "Rashi: 'wraps reed around it' - he covers the tattooed area with a reed or cloth to protect the divine name from water contact during immersion, since 'not rubbing' is the key condition.",
+        en: "(Deut. 12), next to which stands 'you shall not do so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l21"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17656,12 +17659,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 23,
         he: "וגו': טבילה של מצוה. טבילת טהרה",
-        en: "Rashi: 'to protect against the force of the water's current' - the reed wrapping is needed because the force of flowing water could rub the skin. Without the reed, the current itself might constitute rubbing.",
+        en: "[to the Lord your God],' etc. 'An immersion of mitzvah' - an immersion of purity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l23"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17670,12 +17673,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 24,
         he: "שהטילה הכתוב עליו: כורך עליו",
-        en: "Rashi: 'R. Yosei says: he goes down and immerses in his normal way' - R. Yosei holds that 'not rubbing' is the actual prohibition, not any contact with water. Normal immersion without rubbing is permitted even without a wrapper.",
+        en: "that Scripture imposed upon him. 'He wraps a reed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l23"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17684,12 +17687,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 25,
         he: "גמי. להגין עליו חוזק שטף המים:",
-        en: "Rashi: 'and we maintain that in tevila bizmana mitzva they dispute' - the Tractate Shabbat (120b) context confirms this is the underlying dispute. R. Yosei holds tevila bizmana IS a mitzva, refuting the second hypothesis.",
+        en: "around it' - to shield it against the force of the water's rush.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l23"
+          "yoma-008a-l28"
         ]
       },
       {
@@ -17698,12 +17701,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 26,
         he: "וקיימא לן. במסכת שבת (דף קכ:)",
-        en: "Rashi: 'and here the tanaim dispute about this' - the actual dispute is: R. Meir holds we equate hazaah to tevila (both must happen bizmana); R. Yosei holds we do not equate them.",
+        en: "'And we maintain' - in tractate Shabbat (120b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l26"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -17712,12 +17715,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 27,
         he: "דבטבילה בזמנה מצוה פליגי ר'",
-        en: "Rashi: 'R. Meir holds we equate hazaah to tevila' - since tevila bizmana is a mitzva (both agree), and hazaah is equated to tevila, hazaah is also a mitzva at its proper time - which is why we sprinkle every possible day.",
+        en: "that it is about immersion at its time being a mitzvah that they disagree: Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l26"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -17726,12 +17729,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 28,
         he: "יוסי סבר מצוה הלכך דלמא לא",
-        en: "Rashi: 'R. Yosei holds we do not equate hazaah to tevila' - the verse 'vichitei bayom hashevi'i' (Numbers 19) teaches that tevila has a timing-mitzva property. But this is not extended to hazaah, which has its own verses specifying only day 3 and day 7.",
+        en: "Yosei holds it is a mitzvah; therefore, perhaps he will not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l28"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -17740,12 +17743,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 29,
         he: "משכח גמי וישהה טבילתו ליום אחר:",
-        en: "Rashi: 'we do not equate' - hazaah's verses say 'third and seventh day' - meaning: if done on those days, valid; if done earlier or later, not valid. But between the two valid days, there is no obligation to repeat. So R. Yosei: sprinkle only day 3 and day 7.",
+        en: "find a reed and would delay his immersion to another day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l28"
+          "yoma-008a-l32"
         ]
       },
       {
@@ -17754,12 +17757,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 30,
         he: "לא מקשינן. הזאה בזמנה לאו מצוה",
-        en: "Rashi on 'hazaah is not valid early or delayed' - if hazaah falls before day 3 or after day 7, it is invalid. But within the permitted window, it need not be done every day (per R. Yosei's reading).",
+        en: "'We do not compare' - sprinkling at its time is not a mitzvah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l28"
+          "yoma-008a-l35"
         ]
       },
       {
@@ -17768,12 +17771,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 31,
         he: "היא וכי כתיב שלישי ושביעי שלא",
-        en: "Rashi: 'but if delayed substantially, there is no issue' - R. Yosei reads the verse as fixing the valid days (3 and 7), not as creating a mitzva to sprinkle on each intermediate day. Delay between the two specified days is fine.",
+        en: "and when 'third and seventh' is written, it is so that he neither advance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l28"
+          "yoma-008a-l35"
         ]
       },
       {
@@ -17782,12 +17785,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 32,
         he: "יקדים וישהה בין הזאה להזאה",
-        en: "Rashi: 'R. Chanina Segan does not equate at all' - R. Chanina Segan rejects the hazaah-tevila comparison entirely. The para priest's all-7-day sprinkling is a special elevated stringency applied to that particular role.",
+        en: "nor delay between sprinkling and sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l32"
+          "yoma-008a-l35"
         ]
       },
       {
@@ -17796,12 +17799,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 33,
         he: "ארבעה ימים אבל אם השהה",
-        en: "Rashi: 'if he equates hazaah to tevila, even the YK kohein gadol should get all-7 sprinklings' - but R. Chanina Segan says no. And if he does not equate, even the para priest should get only day 3 and 7. The split position requires a third explanation.",
+        en: "beyond four days; but if he delayed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l32"
+          "yoma-008a-l35"
         ]
       },
       {
@@ -17810,12 +17813,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 34,
         he: "הזאתו לזמן מרובה לית לן בה:",
-        en: "Rashi: 'actually R. Chanina Segan does not equate' - the resolution is that R. Chanina Segan never equates hazaah to tevila; the para priest's all-7-day sprinkling is a maalah (elevated stringency) applied because the para priest's purity is treated with extra care.",
+        en: "his sprinkling for a long time, we have no objection.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l32"
+          "yoma-008a-l35"
         ]
       },
       {
@@ -17824,12 +17827,12 @@ const DAF_CONTENT = {
         daf: "8a",
         vilnaLine: 35,
         he: "שזה",
-        en: "Rashi: 'the priest who burns the para aduma is an elevated level (maalah) in the world' - R. Chanina Segan holds that the para priest receives extra care not because of any equating principle but because of the special stringencies associated with burning the para aduma.",
+        en: "That this one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008a-l35"
+          "yoma-008a-l41"
         ]
       }
     ],

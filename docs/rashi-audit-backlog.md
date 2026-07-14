@@ -5517,3 +5517,42 @@ Corpus-wide semantic audit: 0 shift candidates. Fresh Sonnet
 self-review recorded in .worker-self-review.json; worker:review
 reported AUTO-MERGE-ELIGIBLE with no escalation. 41a leaves the
 shifted set. The autopilot queue (71b, 41a) is now drained.
+
+### Repair record: 8a structurally repaired (VERSION 15.98, first rashi-structural-repair pass, Fable worker)
+
+The baselined 8a entry-count mismatch (41 rashiTranslations vs 35 raw
+print lines) is repaired. Root mechanism, established from the
+authoritative talmuddev source before editing: the original enrichment
+generated entries on the GEMARA line axis (8a's Gemara segments run to
+vilna 41, ending in the catchword shezeh at l41) instead of the RASHI
+print-line axis (35 raw lines, ending in the same catchword at raw
+35). Entries 36-41 were phantoms keyed to Gemara lines 36-41 whose
+actual Rashi lives partly on 8a raw 30-35 and partly on 8b's column
+(8b raw 1-4, already covered by 8b's own complete 50/50 entries;
+boundary ownership verified against 7b, 8a, and 8b before editing,
+and 7b/8b were not touched).
+
+The repair rebuilt rashiTranslations on the raw axis: 35 entries,
+vilnaLine 1..35, each en translating its own raw print line (reusing
+the genuine content of the old comment-paraphrases where it matched),
+and linkedGemaraLineIds assigned semantically against the full text of
+all 16 local segments: raw 1-2a (echad zeh, shlishi u-shevi'i, kohen
+ha-soref dibburim) to l14, the baraita quoting them; raw 2b-9a (the
+dechuya/hetter explanations) to l21; raw 9b-10a (hazaah kelal lama li)
+to l23; raw 10b-19 (tevila bizmanah mitzvah both sides, Bamidbar 19
+derivation, Kiddushin 62a citation) to l26; raw 20-25 (lo yirchatz,
+tevila shel mitzvah, korech alav gemi) to l28, the baraita quoting all
+three; raw 26-29 (vekayma lan, Shabbat 120b) to l32; raw 30-34 (lo
+makshinan) to l35; raw 35 (the shezeh catchword) to l41, the segment
+consisting of that word. The 8 unused ids are legitimate: l01-l11 (the
+tzitz sugya, Rashi on 7b's column) and l36-l39 (the R. Chanina
+resolution, Rashi on 8b's column). Multi-id lines: 2, 9, 10, each at a
+printed dibbur-boundary colon.
+
+The 8a count_mismatches baseline entry was removed only after the
+content gate passed green without it (the tolerance NOTE no longer
+fires); no allowlist entries were added anywhere.
+
+Post-repair profile: ALIGNED, 4 anchors found, 0 missing, all offsets
+zero (previously 2 found at -1 with 2 missing). Corpus semantic audit:
+0 shift candidates. 9a remains the last count-mismatch baseline.
