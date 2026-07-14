@@ -1,5 +1,5 @@
 {
- "daf": "71b",
+ "daf": "41a",
  "model": "sonnet",
  "rechecked": {
   "beginningMiddleTail": true,
@@ -11,5 +11,5 @@
   "noUnrelatedFinalIdFallback": true
  },
  "blockersFound": [],
- "notes": "61 lines rechecked fresh against raw Hebrew and full segment text; all 4 non-allowlisted citation anchors (Gittin 57b L4, Bava Metzia 58b L6, Vayikra 25 L7, Zevachim 15b L49) confirmed at offset 0; all 7 multi-id lines verified against a genuine dibbur-boundary colon in their own he field; L61 (kalil) confirmed as the literal next word of the Exodus 28:31 verse L56 quotes, cut off by the amud boundary, not an unrelated fallback; 17 formerly stubbed lines (45-61) now genuinely translate their own Hebrew with no stub pattern, duplicate, or dash remaining."
+ "notes": "56 lines rechecked fresh against raw Hebrew and full segment text; all 4 non-allowlisted citation anchors confirmed at offset 0, including the 2 previously untranslated dafnum citations (Sanhedrin 86a L2, Shevuot 7a L28) now genuinely rendered. All 8 multi-id lines re-verified: 7 fall at a printed dibbur-boundary colon in the raw he text, and 1 (L35) is a defensible content-based split with no colon, verified against both segments' actual subject matter, not position. L56 (mah) confirmed as a genuine continuation of L33's own truncated sentence (ends mid-clause with a comma, continuing onto 41b), not an unrelated fallback. This daf had no prior allowlist entries, so none were removed. The prior pass's nonstandard 'Rashi: opens/continues' bracket-paraphrase style was fully replaced with direct line-by-own-Hebrew translation; no duplicate or stub pattern remains."
 }
