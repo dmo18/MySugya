@@ -5713,3 +5713,37 @@ missing before. Post-repair profile: ALIGNED, 8 anchors found, 0
 missing. Corpus semantic audit: 0 shift candidates. No allowlist
 entries existed for 47b to remove. Remaining campaign targets: 48a,
 48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.
+
+### 48a reconstructed (VERSION 15.104, rashi-reconstruction, Sonnet worker)
+
+Fresh diagnosis confirmed the same pattern: raw count 42 = entries 42
+(structurally sound), all 42 entries unlinked, drift profile
+FABRICATION-SUSPECT (1 of 6 anchors found). Classified
+rashi-reconstruction.
+
+Rebuilt all 42 entries against the raw Hebrew and the 11-id local
+segment table: vl1-4 the stuck-to-the-wall kometz question with its
+Menachot 26a citation, including a legitimate forward gloss on the
+word "tefufot" that belongs to a later segment (l01, l07); vl5-8 the
+blood-on-the-floor Mishnah and its Zevachim 32a citation (l10); vl8-13
+the mena hanei milei baraita on dam hanefesh and the gorin-umosifin
+exegesis (l12, l19); vl13-27 the wrong-intent-in-incense question with
+its full gezeirah shavah to the meal offering and Menachot 83a
+citation, concluding into "posel et kulam" (l23, l27); vl28-31 the
+eleven stringencies and Chagigah 20b citation (l27, l30); vl32-41
+Rashi's own critical question about the Me'ilah 10a Mishnah (l30).
+vl42 ("chishev", truncated) was checked against 48b's actual first raw
+Rashi line (confirmed from source), which opens with the coal-raking
+intent question - a direct extension of l30's own machshava theme, so
+it links to l30 as a genuine boundary continuation. l04, l14, and l20
+(the inverted-vessel question, the mikra-derasha reasoning for dam
+hanefesh, and the scattered-incense question) are confirmed legitimate
+content gaps with no Rashi comment.
+
+All 6 of the semantic audit's citation anchors (Menachot 26a, the 32a
+forward-reference, Menachot 83a, Chagigah 20b, Me'ilah 10a, and their
+name tokens) now land at offset 0, versus only 1 of 6 found before.
+Post-repair profile: ALIGNED, 6 anchors found, 0 missing. Corpus
+semantic audit: 0 shift candidates. No allowlist entries existed for
+48a to remove. Remaining campaign targets: 48b, 49a, 49b, 50a, 50b,
+51a, 51b, 52a, 52b.

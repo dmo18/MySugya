@@ -110443,11 +110443,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 1,
         he: "דבקיה לקומץ בדופניה דמנא. קיימא לן במסכת מנחות (דף כו.)",
-        en: "Rav Pappa: what if the kometz stuck to the side of the pan rather than staying in the hand?",
+        en: "Rashi: opens - 'he stuck the kometz to the walls of the vessel' - we hold in tractate Menachot (26a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l01"
+        ]
       },
       {
         id: "rashi-yoma-048a-002",
@@ -110455,11 +110457,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 2,
         he: "שהקומץ טעון מתן כלי וקומץ מתוך כלי זה ומקדשו לתוך כלי אחר",
-        en: "The concern: once the kometz leaves the hand surface, is it still 'his handfuls'?",
+        en: "Rashi: continues - that the kometz requires placement in a vessel, and he scoops from within this vessel and sanctifies it into another vessel,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l01"
+        ]
       },
       {
         id: "rashi-yoma-048a-003",
@@ -110467,11 +110471,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 3,
         he: "ואם לא נתנו בשוליו ונתנו בדופניו ודבקו מהו: טפופות. לשון דבר",
-        en: "Mar bar Rav Ashi: same question about the garment - what if the flour stuck to the priest's clothing?",
+        en: "Rashi: continues - and if he did not place it on the bottom but on the walls and it stuck, what is the law? 'Tefufot' - a term for something",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l01",
+          "yoma-048a-l07"
+        ]
       },
       {
         id: "rashi-yoma-048a-004",
@@ -110479,11 +110486,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 4,
         he: "צף בגובה מעט כמו על דאטפת אטפוך (אבות פ\"ב משנה ו): נשפך",
-        en: "The garment is adjacent to the hand but is not 'the hand' - has the kometz left?",
+        en: "Rashi: continues - floating slightly raised, like 'for you drowned others, they drowned you' (Avot 2:6). 'Spilled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l07",
+          "yoma-048a-l10"
+        ]
       },
       {
         id: "rashi-yoma-048a-005",
@@ -110491,11 +110501,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 5,
         he: "הדם על הרצפה. ולא נתקבל בכלי:",
-        en: "The Gemara does not resolve these - they are left as dilemmas.",
+        en: "Rashi: continues - the blood on the floor' - and it was not received in a vessel:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l10"
+        ]
       },
       {
         id: "rashi-yoma-048a-006",
@@ -110503,11 +110515,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 6,
         he: "מן הכלי כו'. משנה היא לעצמה",
-        en: "Second Rav Pappa dilemma: rabbinic vs biblical kometz requirements - same stringency?",
+        en: "Rashi: continues - 'from the vessel,' etc. - it is its own independent Mishnah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l10"
+        ]
       },
       {
         id: "rashi-yoma-048a-007",
@@ -110515,11 +110529,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 7,
         he: "בפרק אחר (דף לב.) ואינן זו בצד זו",
-        en: "The Sages added: the kometz must not overflow and must be of the exact measure.",
+        en: "Rashi: continues - in another chapter (32a), and the two are not taught alongside each other,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l10"
+        ]
       },
       {
         id: "rashi-yoma-048a-008",
@@ -110527,11 +110543,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 8,
         he: "ושתיהן במסכת זבחים: מנא הני",
-        en: "The biblical requirement is three middle fingers. The Sages' additions specify the shape.",
+        en: "Rashi: continues - though both are in tractate Zevachim. 'From where do we derive these",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l10",
+          "yoma-048a-l12"
+        ]
       },
       {
         id: "rashi-yoma-048a-009",
@@ -110539,11 +110558,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 9,
         he: "מילי. דבעינן שירד מצואר בהמה",
-        en: "If the Sages' additions are violated but the biblical kometz is correct - valid or not?",
+        en: "Rashi: continues - matters?' - for we require that it descend from the animal's neck",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l12"
+        ]
       },
       {
         id: "rashi-yoma-048a-010",
@@ -110551,11 +110572,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 10,
         he: "לכלי: מדם הנפש. דם קילוח",
-        en: "The Gemara cites Zevahim 32a: blood that touched the floor is invalid for sprinkling.",
+        en: "Rashi: continues - into a vessel. 'From the blood of the life' - the spurting blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l12"
+        ]
       },
       {
         id: "rashi-yoma-048a-011",
@@ -110563,11 +110586,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 11,
         he: "שהנפש יוצאה בו: גורעין. אות",
-        en: "Rav Pappa asks: if flour touched the floor during the kometz, is it similarly invalid?",
+        en: "Rashi: continues - by which the life departs. 'Subtract' - a letter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l12",
+          "yoma-048a-l19"
+        ]
       },
       {
         id: "rashi-yoma-048a-012",
@@ -110575,11 +110601,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 12,
         he: "מתיבה זו ומוסיפין על תיבה זו",
-        en: "Analysis: blood has special rules about its status once it leaves its container.",
+        en: "Rashi: continues - from this word and add to this word,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l19"
+        ]
       },
       {
         id: "rashi-yoma-048a-013",
@@ -110587,11 +110615,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 13,
         he: "ודורשין: חישב בחפינת קטורת.",
-        en: "Kometz flour does not have the same status-change rules as blood.",
+        en: "Rashi: continues - 'and expound.' 'If he had wrong intent in the scooping of the incense,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l19",
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-014",
@@ -110599,11 +110630,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 14,
         he: "על מנת להקטירה למחר: מי יליף",
-        en: "The floor-contact blood rule is based on 'directed' blood - once misdirected, it is gone.",
+        en: "Rashi: continues - with intent to burn it tomorrow. 'Do we derive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-015",
@@ -110611,11 +110644,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 15,
         he: "מלא מלא ממנחה. מה התם מהניא",
-        en: "Kometz flour is not subject to 'directed/misdirected' analysis in the same way.",
+        en: "Rashi: continues - full from full from the meal offering? Just as there wrong intent is effective",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-016",
@@ -110623,11 +110658,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 16,
         he: "מחשבה בקמיצתה דנפקא לן במנחות",
-        en: "Therefore, the floor-contact invalidation does not transfer to kometz.",
+        en: "Rashi: continues - in its scooping, as we derive in tractate Menachot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-017",
@@ -110635,11 +110672,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 17,
         he: "(דף פג.) מזאת התורה לעולה ולמנחה",
-        en: "Fourth dilemma: kometz from a pile with excess. The priest takes the correct amount but from excess.",
+        en: "Rashi: continues - (83a) from 'this is the law of the burnt offering and the meal offering,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-018",
@@ -110647,11 +110686,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 18,
         he: "וגו' הוקשו לשלמים מה שלמים",
-        en: "'His handfuls' - does this require the pile itself to be exactly one kometz?",
+        en: "Rashi: continues - etc., they are compared to peace offerings; just as peace offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-019",
@@ -110659,11 +110700,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 19,
         he: "מפגלין ומתפגלין אף מנחה וכו':",
-        en: "Or does it only require the amount taken to be correct?",
+        en: "Rashi: continues - can become pigul and be subject to pigul, so too a meal offering, etc.:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-020",
@@ -110671,11 +110714,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 20,
         he: "והכא נמי מהניא מחשבה. בחפינתה",
-        en: "If the pile is larger, the priest's act of taking precisely is the kometz, regardless of pile size.",
+        en: "Rashi: continues - 'and here too wrong intent is effective' - in its scooping,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-021",
@@ -110683,11 +110728,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 21,
         he: "או לא והכא ליכא לאקשויי היינו הך",
-        en: "This dilemma is also left unresolved.",
+        en: "Rashi: continues - or not; and here one cannot object that this is the same question already answered,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-022",
@@ -110695,11 +110742,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 22,
         he: "כדאקשי לעיל דהנהו תרוייהו בעיי הוו",
-        en: "Fifth dilemma: wrong intent (kavvanah) during the kometz.",
+        en: "Rashi: continues - as was objected above, for those two were both dilemmas",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-023",
@@ -110707,11 +110756,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 23,
         he: "להו בחד טעמא א] לאיתויי הבא בחפניו",
-        en: "Temple service requires intent toward the specific service.",
+        en: "Rashi: continues - for the same reason, to derive 'bring in his handfuls'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-024",
@@ -110719,11 +110770,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 24,
         he: "כדהתם בקומצו אבל הך מילתא",
-        en: "If the High Priest was distracted and mentally focused on a different offering, the kometz is potentially invalid.",
+        en: "Rashi: continues - just as there, 'in his fist'; but this matter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-025",
@@ -110731,11 +110784,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 25,
         he: "אחריתי היא ואי נמי לא דרשי גזירה",
-        en: "This is not a pigul situation (improper time-thought) but a different kind of intent mismatch.",
+        en: "Rashi: continues - is a different one; and also, if he does not expound the verbal analogy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-026",
@@ -110743,11 +110798,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 26,
         he: "שוה לענין בקומצו דילמא דרשי לה",
-        en: "The Gemara: the kometz with wrong intent is invalid - kavvanah must match the act.",
+        en: "Rashi: continues - regarding 'with his fist,' perhaps he still expounds it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23"
+        ]
       },
       {
         id: "rashi-yoma-048a-027",
@@ -110755,11 +110812,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 27,
         he: "לענין מחשבה: פוסל את כולם.",
-        en: "Proof: from other Temple services where intent is required as part of the valid act.",
+        en: "Rashi: continues - regarding wrong intent.' 'He invalidates all of them.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l23",
+          "yoma-048a-l27"
+        ]
       },
       {
         id: "rashi-yoma-048a-028",
@@ -110767,11 +110827,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 28,
         he: "שזו היא מאחת עשרה מעלות שנאמרו",
-        en: "The Gemara resolves this one: wrong intent = invalid kometz.",
+        en: "Rashi: continues - for this is one of the eleven stringencies that were stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l27"
+        ]
       },
       {
         id: "rashi-yoma-048a-029",
@@ -110779,11 +110841,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 29,
         he: "בחומר בקדש (חגיגה דף כ:) שהכלי",
-        en: "48a is a page of Rav Pappa dilemmas - some resolved, some not.",
+        en: "Rashi: continues - regarding the stringency of sacred items (Chagigah 20b): that the vessel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l27"
+        ]
       },
       {
         id: "rashi-yoma-048a-030",
@@ -110791,11 +110855,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 30,
         he: "מצרף כל מה שבתוכו להיות כאלו",
-        en: "Rav Pappa was known for raising boundary-case dilemmas (ibayya lei) throughout the Talmud.",
+        en: "Rashi: continues - joins together everything within it, treating it as though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l27"
+        ]
       },
       {
         id: "rashi-yoma-048a-031",
@@ -110803,11 +110869,14 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 31,
         he: "נגע בכולו: קס\"ד מדפסיל טבול",
-        en: "His method: take the established rule and probe what happens when a minor condition changes.",
+        en: "Rashi: continues - it touched all of it. 'You might have thought that since tevul",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l27",
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-032",
@@ -110815,11 +110884,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 32,
         he: "יום. אלמא קידשה הכלי קדושת",
-        en: "This generates the halakhic map by testing limits, not just confirming center cases.",
+        en: "Rashi: continues - yom invalidates, evidently the vessel sanctified it with the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-033",
@@ -110827,11 +110898,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 33,
         he: "הגוף פסלה נמי לינה וכיון דפסלה",
-        en: "48a contributes five such probes to the kometz chapter.",
+        en: "Rashi: continues - the body itself, so it also invalidates through leaving overnight; and since it invalidates through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-034",
@@ -110839,11 +110912,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 34,
         he: "לינה פסלה נמי מחשבת לינה כשחישב",
-        en: "The page demonstrates that even a relatively simple act (taking incense with the fingers) has multiple legal dimensions.",
+        en: "Rashi: continues - overnight leaving, it also invalidates through the intent of overnight leaving, when he intended",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-035",
@@ -110851,11 +110926,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 35,
         he: "להקטירה למחר וקשיא לי דשבקיה",
-        en: "Physical location (where the flour is), timing (when the scoop happens), quantity (how much), and intent (what the priest is thinking) are all relevant.",
+        en: "Rashi: continues - to burn it tomorrow.' And it is difficult for me that he leaves aside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-036",
@@ -110863,11 +110940,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 36,
         he: "למתניתין דמעילה (דף י.) דתנן בה",
-        en: "Temple law treats the priest's entire physical and mental state as legally relevant.",
+        en: "Rashi: continues - the Mishnah in tractate Me'ilah (10a), which teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-037",
@@ -110875,11 +110954,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 37,
         he: "בהדיא הקומץ והקטורת ומנחת",
-        en: "This holistic approach to ritual validity is characteristic of the Talmud's treatment of Temple law.",
+        en: "Rashi: continues - explicitly: the kometz, the incense, and the meal offering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-038",
@@ -110887,11 +110968,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 38,
         he: "כהנים מועלין בהן משהוקדשו קדשו",
-        en: "48a concludes the first set of kometz dilemmas; 48b will add the thinking/intent dimension.",
+        en: "Rashi: continues - priests, one may commit sacrilege regarding them once they were sanctified; they were sanctified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-039",
@@ -110899,11 +110982,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 39,
         he: "בכלי הוכשרו ליפסל בטבול יום",
-        en: "The transition from 48a to 48b is smooth: from physical dilemmas to mental state dilemmas.",
+        en: "Rashi: continues - in a vessel, they became fit to be invalidated by tevul yom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-040",
@@ -110911,11 +110996,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 40,
         he: "ובמחוסר כפורים ובלינה והכא דחיק",
-        en: "Both physical and mental precision are required for valid Temple service.",
+        en: "Rashi: continues - and by one lacking atonement offerings, and by overnight leaving; and here it is difficult",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-041",
@@ -110923,11 +111010,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 41,
         he: "לאיתויי בקא ס\"ד מטבול יום:",
-        en: "The kometz is both a physical act and a mental act - both dimensions must be correct.",
+        en: "Rashi: continues - to bring it into the 'you might have thought' clause specifically from tevul yom:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       },
       {
         id: "rashi-yoma-048a-042",
@@ -110935,11 +111024,13 @@ const DAF_CONTENT = {
         daf: "48a",
         vilnaLine: 42,
         he: "חישב",
-        en: "48a-48b together provide a complete picture of kometz validity in all its dimensions.",
+        en: "Rashi: concludes - 'if he had wrong intent' - the daf ends mid-word here; the comment (whether wrong intent while raking the coals invalidates the incense) continues on 48b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048a-l30"
+        ]
       }
     ],
     review: "reviewed"
