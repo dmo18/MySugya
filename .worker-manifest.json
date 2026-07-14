@@ -1,17 +1,15 @@
 {
- "type": "rashi-structural-repair",
+ "type": "rashi-realignment",
  "module": "yoma",
  "targets": [
-  "9a"
+  "42a"
  ],
- "model": "fable",
+ "model": "sonnet",
  "paused": false,
  "fableReviewRequired": false,
  "reviewPolicy": "conditional",
  "escalationModel": "fable",
- "authorizations": [
-  "allowStructure"
- ],
+ "authorizations": [],
  "maxBatch": 1,
  "allowedFiles": [
   "modules/yoma/assets/learning/yoma/<daf>.learning.json",
@@ -27,7 +25,8 @@
   ".worker-queue.json"
  ],
  "allowedJsonPaths": [
-  "rashiTranslations"
+  "rashiTranslations[*].en",
+  "rashiTranslations[*].linkedGemaraLineIds"
  ],
  "forbiddenFiles": [
   ".github/workflows/*",
@@ -36,7 +35,7 @@
   "githooks/*"
  ],
  "allowlistPolicy": "remove-only",
- "structurePolicy": "explicit-allowStructure-required",
+ "structurePolicy": "forbidden",
  "requiredValidators": [
   "validate:offline:yoma",
   "check:rashi-pr-scope:yoma"
@@ -52,19 +51,20 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "authoritative line ownership is ambiguous across a daf boundary",
-  "source files disagree materially",
   "uncertain Hebrew meaning or placement",
   "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+  "any gate failure not fixable by correcting your own content",
   "required packet id missing, or packet segment text truncated or incomplete",
-  "the repair would require changing more than one daf in the same PR",
+  "structure or count mismatch not already baselined",
   "allowlist growth would be needed",
   "validator or workflow modification would be needed",
   "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-  "post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+  "post-edit drift profile not ALIGNED",
   "a semantic audit shift candidate remains on the target daf",
+  "a link that cannot be justified from local segment text",
   "the fresh post-edit self-review finds a blocker",
   "CI or full verification fails after one bounded correction attempt",
-  "fields outside the manifest would be needed"
+  "fields outside the manifest would be needed",
+  "more than one daf would change in the same content PR"
  ]
 }
