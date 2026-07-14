@@ -97276,12 +97276,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 25,
         he: "פר החטאת אשר לו וכפר וגו' ושחט",
-        en: "Rashi: continues - the bull of sin [offering] which is his [own] and atone etc. and slaughter the bull of sin [offering] which is his etc.",
+        en: "Rashi: continues - the bull of the sin offering that is his, and he shall atone, etc., and he shall slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l19"
         ]
       },
       {
@@ -97290,12 +97290,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 26,
         he: "את פר החטאת אשר לו וגו' וכתיב",
-        en: "Rashi: continues - and it is written in Acharei Mot regarding the matter [Leviticus 16]:",
+        en: "Rashi: continues - the bull of the sin offering that is his, etc. And it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l19"
         ]
       },
       {
@@ -97304,12 +97304,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 27,
         he: "באחרי מות בענינא (שם) והיתה זאת",
-        en: "Rashi: continues - 'and this shall be [to you] an everlasting statute [to make atonement for the children of Israel]'.",
+        en: "Rashi: continues - in Acharei Mot on the same matter (ibid.): 'and this shall be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l19"
         ]
       },
       {
@@ -97318,12 +97318,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 28,
         he: "לכם לחקת עולם לכפר על בני ישראל:",
-        en: "Rashi: continues - [thus showing the statute regarding] the bull of the High Priest.",
+        en: "Rashi: continues - for you an eternal statute, to atone for the children of Israel.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l19"
         ]
       },
       {
@@ -97332,12 +97332,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 29,
         he: "שחיטה לאו עבודה היא. ולא קיימא",
-        en: "Rashi: continues - [the] slaughter [of the red heifer] is not a [priestly] service - and [so] the statute does not stand [based] on [the] slaughter.",
+        en: "Rashi: continues - slaughter is not a service: and the statute does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97346,12 +97346,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 30,
         he: "חוקה אשחיטה: שאני פרה דקדשי",
-        en: "Rashi: continues - [it] is different regarding the heifer [since it] is sanctified [with the holiness of] Temple maintenance [funds] - meaning there is not in it the sanctity of the altar.",
+        en: "Rashi: continues - apply to slaughter. Different is the heifer, for it is of the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97360,12 +97360,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 31,
         he: "בדק הבית היא. כלומר אין בה קדושת",
-        en: "Rashi: continues - but only the sanctity of [the] money [value] alone.",
+        en: "Rashi: continues - Temple upkeep (bedek habayit); that is, it does not have the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97374,12 +97374,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 32,
         he: "המזבח אלא קדושת דמים בעלמא",
-        en: "Rashi: continues - [and] if so [that] its slaughter [is] on the Mount of Anointing, therefore there is no [special] division of services in it, and all services are [of the] same [status] in it.",
+        en: "Rashi: continues - the altar, but rather monetary sanctity alone.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97388,12 +97388,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 33,
         he: "שהרי שחיטתה בהר המשחה הלכך",
-        en: "Rashi: continues - and not so - [if it were so, then regarding] the High Priest's bull - which [is] sanctified [with the holiness of] the body, [for which] there is no statute written, and the slaughter of the red heifer - [for which] a statute is written.",
+        en: "Rashi: continues - for behold its slaughter is on the Mount of Anointing; therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97402,12 +97402,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 34,
         he: "אין צד עבודות נחלקות בה וכל",
-        en: "Rashi: continues - and [the red heifer] is disqualified [if touched] by a non-priest [since the statute requires specific handling].",
+        en: "Rashi: continues - there is no aspect of divided services in it, and all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l21"
         ]
       },
       {
@@ -97416,12 +97416,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 35,
         he: "העבודות שוות בה: ולא כן דכן",
-        en: "Rashi: continues - [therefore] with wonder [I ask]: the slaughter of the High Priest's bull - which [is] of the sanctity of the body - is not written [as a] statute.",
+        en: "Rashi: continues - the services are equal in it. And is this not a fortiori",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l21",
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97430,12 +97431,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 36,
         he: "הוא. בתמיה אשחיטת פרו דקדושת",
-        en: "Rashi: continues - but the slaughter of the red heifer is written [as a] statute, and [it] is disqualified [if touched] by a non-priest.",
+        en: "Rashi: continues - as a rhetorical question. Regarding the slaughter of his [Aaron's] bull, which is of the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97444,12 +97445,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 37,
         he: "הגוף היא לא כתיבא חוקה ואשחיטת",
-        en: "Rashi: continues - [the question is raised regarding] the red heifer [service] - [referring to those who] see [the] afflictions [of the metzora].",
+        en: "Rashi: continues - the body, no statute is written for it; but regarding the slaughter of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97458,12 +97459,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 38,
         he: "פרה כתיבה חוקה ומיפסלא בזר:",
-        en: "Rashi: continues - as [is] written [in Leviticus 13] '(as a plague appears) and [the person with] the appearance [is brought] to Aaron the Priest'.",
+        en: "Rashi: continues - the heifer a statute is written, and it is disqualified by a non-priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97472,12 +97473,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 39,
         he: "אמראות נגעים. דכתיב (ויקרא יג)",
-        en: "Rashi: continues - and [the Mishna states] she was slaughtered before him [Elazar] - from [the fact that is] written 'before him', [we derive] from the entirety [of the verse] that the slaughter is not [referring] to Elazar [alone].",
+        en: "Rashi: continues - regarding the appearances of plagues, as it is written (Leviticus 13):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97486,12 +97487,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 40,
         he: "(כנגע נראה) והובא אל אהרן",
-        en: "Rashi: continues - but [rather] she was slaughtered by another before Elazar.",
+        en: "Rashi: continues - '(like a plague it appears),' and he shall be brought to Aaron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22"
         ]
       },
       {
@@ -97500,12 +97501,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 41,
         he: "הכהן: ושחט אותה לפניו. מדכתיב",
-        en: "Rashi: continues - and [the Gemara suggests] Rav [says] - always [it was] Elazar [who] slaughtered [it].",
+        en: "Rashi: continues - the priest.' 'And he shall slaughter it before him' - from the fact that it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l22",
+          "yoma-042a-l25"
         ]
       },
       {
@@ -97514,12 +97516,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 42,
         he: "לפניו מכלל דהשחיטה לאו אאלעזר",
-        en: "Rashi: continues - and what [does the phrase] 'before him' [mean]? - [it means he must be present so as] not to divert his attention from guarding it.",
+        en: "Rashi: continues - 'before him,' implying that the slaughtering does not pertain to Elazar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l25"
         ]
       },
       {
@@ -97528,12 +97530,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 43,
         he: "קאי אלא ושחט אותה אחר לפני",
-        en: "Rashi: continues - [thus] [it is] now [that] the heifer becomes [ritually] fit - [in other words, the entire process validates the offering].",
+        en: "Rashi: continues - directly, but rather 'and another shall slaughter it before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l25"
         ]
       },
       {
@@ -97542,12 +97544,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 44,
         he: "אלעזר: ורב. לעולם אלעזר שחטה",
-        en: "Rashi: continues - [for] her entire [being] is made only for [the production of] ashes.",
+        en: "Rashi: continues - Elazar.' And Rav says: actually, Elazar himself slaughtered it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l25"
         ]
       },
       {
@@ -97556,12 +97558,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 45,
         he: "ומאי לפניו שלא יסיח דעתו משמירתה:",
-        en: "Rashi: continues - to exclude what [ritual details are essential]? - [meaning to teach] that [an involuntary] diversion of attention does not disqualify [the red heifer ritual].",
+        en: "Rashi: continues - and what does 'before him' mean? That he should not divert his attention from guarding it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l29"
         ]
       },
       {
@@ -97570,7 +97572,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 46,
         he: "דהשתא הוא דמתכשרא פרה. שהרי",
-        en: "Rashi: continues - [the Mishna states] the gathering of ashes [requires specific ritual] - [as written in Numbers 19] 'and a ritually pure man gathered [them]'.",
+        en: "Rashi: continues - that only now does the heifer become fit. For behold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97584,7 +97586,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 47,
         he: "כל עצמה אינה עשויה אלא לאפרה:",
-        en: "Rashi: continues - [and continues] the filling with water - [to put into the ashes to sprinkle].",
+        en: "Rashi: continues - her whole being is made only for her ash.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97598,12 +97600,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 48,
         he: "למעוטי מאי. דלא פסיל בה היסח",
-        en: "Rashi: continues - [and continues] for sanctification - [this is the sprinkling itself, which] is the giving of water on the ashes and mixing them together.",
+        en: "Rashi: continues - 'to exclude what?' That a diversion of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l36"
         ]
       },
       {
@@ -97612,12 +97614,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 49,
         he: "הדעת במעשה פרה: אסיפת אפרה. ואסף איש טהור וגו'",
-        en: "Rashi: continues - [End of the detailed discussion on the red heifer specifications and requirements].",
+        en: "Rashi: continues - attention does not disqualify in the performance of the heifer ritual. 'The gathering of her ash' - 'and a pure man shall gather,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l36"
         ]
       },
       {
@@ -97626,12 +97628,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 50,
         he: "(במדבר יט) : ומילוי מים. לתת לתוך אפר להזות: לקידוש.",
-        en: "Rashi: continues - [Further clarifications on the ritual procedures for the red heifer].",
+        en: "Rashi: continues - (Numbers 19). 'And the filling of water' - to put into the ash for sprinkling. 'For sanctification' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l36"
         ]
       },
       {
@@ -97640,12 +97642,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 51,
         he: "היא נתינת מים על האפר ומערבן יחד:",
-        en: "Rashi: continues - [Conclusion of this section of Rashi explanation on red heifer procedures].",
+        en: "Rashi: continues - it is the placing of water on the ash and mixing them together.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l36"
         ]
       },
       {
@@ -97654,12 +97656,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 52,
         he: "למשמרת",
-        en: "Rashi: concludes - 'for safekeeping' - the daf ends mid-comment with this single word from Numbers 19:9; the comment continues on 42b, where Rashi explains that the heifer's ashes require safekeeping until the sprinkling water is prepared from them.",
+        en: "Rashi: concludes - 'for keeping' - the daf ends mid-comment with this word from Numbers 19:9; the comment continues on 42b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l32"
+          "yoma-042a-l36"
         ]
       }
     ],
