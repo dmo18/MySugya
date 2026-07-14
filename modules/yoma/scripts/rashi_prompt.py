@@ -88,6 +88,14 @@ Procedure (exact, in order):
    open one PR, wait for CI, merge only when green, verify main deploys.
 
 Hard rules (mechanically enforced; violations fail CI):
+- linkedGemaraLineIds are SEMANTIC text anchors. Link each Rashi comment
+  to the local segment(s) whose text it explains, matched against the
+  packet's full segment text (Gemara and Mishnah ids alike). NEVER
+  assign links by vilna line number or positional offset. A comment may
+  link to multiple segments when it genuinely spans them. Boundary
+  policy (staying on the final id past the last segment) never covers
+  unrelated commentary. If the correct target segment cannot be
+  identified from the packet, stop and escalate; never guess.
 - You may not ADD allowlist or baseline entries, ever.
 - You may not edit validators, scripts, workflows, hooks, or any other daf.
 - You may not edit he, sugyot, argumentFlow, learning, takeaway, glossary,

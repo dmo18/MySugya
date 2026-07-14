@@ -383,6 +383,17 @@ def cmd_prompt(opts):
         f"   allowed JSON paths: {json.dumps(m['allowedJsonPaths'])}",
         f"   forbidden: {json.dumps(m['forbiddenFiles'])}",
     ]
+    if t in RASHI_TYPES:
+        lines += [
+            "",
+            "Rashi linking contract: linkedGemaraLineIds are SEMANTIC text anchors.",
+            "Match each Rashi comment to the local segment(s) whose text it explains,",
+            "using the packet's full segment text (Gemara and Mishnah ids alike).",
+            "Never assign links by vilna line number or positional offset. A comment",
+            "may link to multiple segments when it genuinely spans them; boundary",
+            "policy never covers unrelated commentary. If the correct target segment",
+            "cannot be identified from the packet, stop and escalate; never guess.",
+        ]
     if m["generationCommands"]:
         lines.append("5. Regenerate: " + " && ".join(m["generationCommands"]))
     lines += [

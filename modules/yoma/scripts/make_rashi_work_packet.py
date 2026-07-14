@@ -7,8 +7,15 @@ re-derive context from the whole repository.
 Contents per daf:
   - raw Rashi print lines (verbatim Hebrew, numbered; the translation
     ground truth)
-  - the daf's real local Gemara id space with each id's vilna_line and the
-    opening of its Hebrew text (the only legal linkedGemaraLineIds targets)
+  - the daf's real local segment id space, Gemara AND Mishnah kinds, in
+    source order, each with its kind, vilna_line, and FULL untruncated
+    Hebrew text (the only legal linkedGemaraLineIds targets). Sparse and
+    suffixed ids such as l13a/l13b are preserved verbatim; ids are never
+    renumbered or manufactured. Full text is included because links are
+    SEMANTIC: the worker must match each Rashi comment to the segment
+    whose text it explains, never map positionally by vilna line number
+    (the PR #80 failure mode: the table then omitted the kind "mishna"
+    segment l13b, and 50 of 60 links had to be corrected in review).
   - sugya ranges and titles
   - current rashiTranslations (vilnaLine, current links, current en)
   - validator baseline for this daf: allowlisted content violations,
@@ -48,8 +55,12 @@ POST_EDIT_COMMANDS = [
 RULES = [
     "If this packet's drift profile says SHIFTED or FABRICATION-SUSPECT, STOP: this daf is not eligible for stub repair or link edits; it needs the recommended Fable/Sonnet task type.",
     "Translate every raw Rashi line from its own Hebrew; no placeholders, no generic filler.",
-    "linkedGemaraLineIds may only use ids listed in this packet's Gemara id table.",
-    "Lines past the last Gemara segment link to the final id (boundary policy); linking policy never exempts a line from translation.",
+    "linkedGemaraLineIds are SEMANTIC text anchors: link each Rashi comment to the local segment(s) whose text it explains, by matching the Rashi dibbur hamatchil, quoted phrase, subject, or discussion against the full segment text in this packet's id table.",
+    "NEVER assign links by vilna line number or positional offset. A Rashi line's number and a segment's vilna_line are unrelated coordinates; positional mapping is exactly the failure mode this packet exists to prevent.",
+    "linkedGemaraLineIds may only use ids listed in this packet's local segment id table (Gemara and Mishnah kinds alike).",
+    "A single Rashi entry may link to multiple local segments when its comment genuinely spans them.",
+    "A line whose commentary continues the FINAL segment's own discussion past the last id stays on that final id (boundary policy). Boundary policy never justifies linking unrelated commentary to the last available id, and never exempts a line from translation.",
+    "If a comment's correct target segment cannot be identified from the segment text, STOP and escalate; never guess.",
     "Only rashiTranslations en and linkedGemaraLineIds may change; never touch he, sugyot, argumentFlow, or learning fields.",
     "Never add allowlist entries. If a validator fails, fix the content or stop and escalate.",
     "No em dashes or en dashes in helper English.",
@@ -57,7 +68,15 @@ RULES = [
 ]
 
 
-def gemara_ids_for(daf):
+def local_segments_for(daf):
+    """Every real local segment in this daf's generated data block that may
+    anchor Rashi: Gemara AND Mishnah kinds, in source order, with the FULL
+    untruncated Hebrew text. Only ids that exist in the data are emitted
+    (sparse and suffixed ids such as l13a/l13b come through verbatim);
+    nothing is renumbered or manufactured. Restricting this table to kind
+    "gemara" is the PR #80 root cause: the end-of-perek Mishnah l13b
+    vanished from 68b's table and the worker fell back to positional
+    linking."""
     text = DATA_JS.read_text()
     starts = [(m.group(1), m.start()) for m in re.finditer(r"// YOMA (\S+)", text)]
     block = None
@@ -69,10 +88,15 @@ def gemara_ids_for(daf):
     if block is None:
         return []
     out = []
-    pat = re.compile(r'id:\s*"(yoma-[0-9]+[ab]-l[0-9]+[ab]?)",\s*kind:\s*"gemara",\s*he:\s*"((?:[^"\\]|\\.)*)",\s*\n?\s*vilna_line:\s*(\d+)')
+    seen = set()
+    pat = re.compile(r'id:\s*"(yoma-[0-9]+[ab]-l[0-9]+[ab]?)",\s*kind:\s*"(gemara|mishna)",\s*he:\s*"((?:[^"\\]|\\.)*)",\s*\n?\s*vilna_line:\s*(\d+)')
     for m in pat.finditer(block):
-        he = json.loads('"' + m.group(2) + '"').replace("\n", " ")
-        out.append({"id": m.group(1), "vilnaLine": int(m.group(3)), "heOpening": he[:60]})
+        if m.group(1) in seen:
+            continue
+        seen.add(m.group(1))
+        he = json.loads('"' + m.group(3) + '"').replace("\n", " ")
+        out.append({"id": m.group(1), "kind": m.group(2),
+                    "vilnaLine": int(m.group(4)), "he": he})
     return out
 
 
@@ -121,7 +145,7 @@ def packet_for(daf):
         "daf": daf,
         "rawRashiCount": len(raw),
         "rawRashi": [{"line": i + 1, "he": l} for i, l in enumerate(raw)],
-        "gemaraIds": gemara_ids_for(daf),
+        "localSegments": local_segments_for(daf),
         "sugyot": sugyot,
         "currentTranslations": [{
             "vilnaLine": e["vilnaLine"],
@@ -139,7 +163,7 @@ def to_markdown(p):
     L = []
     L.append(f"# Rashi work packet: Yoma {p['daf']}")
     L.append(f"\nRaw Rashi lines: {p['rawRashiCount']} | current entries: {len(p['currentTranslations'])} "
-             f"| Gemara ids: {len(p['gemaraIds'])}")
+             f"| local segment ids: {len(p['localSegments'])}")
     d = p.get("driftProfile")
     if d:
         L.append("\n## Semantic drift profile")
@@ -157,9 +181,12 @@ def to_markdown(p):
     L.append("\n## Sugyot")
     for s in p["sugyot"]:
         L.append(f"- {s['id']} (vilna {s['startVilnaLine']}-{s['endVilnaLine']}): {s['title']}")
-    L.append("\n## Legal Gemara ids (the ONLY valid linkedGemaraLineIds targets)")
-    for g in p["gemaraIds"]:
-        L.append(f"- {g['id']} (vilna {g['vilnaLine']}): {g['heOpening']}")
+    L.append("\n## Legal local segment ids (Gemara AND Mishnah; the ONLY valid linkedGemaraLineIds targets)")
+    L.append("Full segment text follows each id. Link every Rashi comment to the")
+    L.append("segment(s) whose text it explains; never by vilna line number or")
+    L.append("positional offset.")
+    for g in p["localSegments"]:
+        L.append(f"- {g['id']} [{g['kind']}] (vilna {g['vilnaLine']}): {g['he']}")
     L.append("\n## Raw Rashi Hebrew (translation ground truth)")
     for r in p["rawRashi"]:
         L.append(f"{r['line']:3d}: {r['he']}")

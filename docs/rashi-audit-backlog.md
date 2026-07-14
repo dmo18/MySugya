@@ -5317,3 +5317,55 @@ offsets zero (Yoma 66b L31, Megillah 5b L37, Psalms 50/Tehillim L56).
 The self-retiring 68b live assertion in test_drift_profile.py now
 skips. 68b leaves the shifted set; 70a, 71b, and 41a remain queued for
 their own realignment passes.
+
+### Tooling record: packet generator now emits Mishnah segments and the semantic linking contract (VERSION 15.91, docs-tooling, Fable)
+
+Root cause fixed. make_rashi_work_packet.py's legal id table was built
+from a regex that required kind "gemara", so any kind "mishna" segment
+was silently dropped, and each segment's Hebrew was truncated to its
+first 60 characters. On 68b this omitted yoma-068b-l13b (the
+end-of-perek Mishnah); with no legal anchor for the ch. 6 tail
+commentary and only text openings to match against, the PR #80 worker
+fell back to positional linking (Rashi line N to the segment at vilna
+N) and Fable review had to correct 50 of 60 links. The same read-only
+audit shows the next queued realignment daf carry the same exposure:
+70a's table would have dropped yoma-070a-l27 [mishna] (1 of 23
+segments) and 71b's would have dropped yoma-071b-l11 [mishna] (1 of
+15); both tables are now complete, in source order, with suffixed
+pairs (l41a/l41b, l53a/l53b) preserved and current links resolving.
+
+The fix, tooling and docs only (no learning JSON or generated data
+content changed):
+
+- local_segments_for() collects every kind-bearing segment, gemara AND
+  mishna, in source order, deduplicated, with kind, vilna_line, and
+  FULL untruncated Hebrew text. Ids come only from the generated data;
+  sparse and suffixed ids pass through verbatim and nothing is
+  renumbered or manufactured.
+- Packet rules now state the semantic contract: linkedGemaraLineIds
+  are semantic text anchors matched by dibbur hamatchil, quoted
+  phrase, subject, or discussion against the full segment text; never
+  assigned by vilna line number or positional offset; multi-segment
+  links are legal when a comment genuinely spans segments; boundary
+  policy covers only commentary continuing the final segment's own
+  discussion; an unidentifiable target is an escalation, never a
+  guess. rashi_prompt.py and the worker_pipeline.py prompt carry the
+  same language, and all four Rashi task types gained the escalation
+  trigger in the registry (worker docs regenerated).
+- Regression tests (scripts/test_rashi_packet.py, wired into npm test
+  as test:packet:yoma): l13b present with kind mishna in source order;
+  the 19 pre-fix 68b Gemara ids all retained; sparse gaps and suffixed
+  siblings preserved; full text beyond the old 60-char cut; packet-side
+  referential completeness across every daf; anti-positional language
+  asserted in the packet, the per-daf prompt, and the pipeline prompt.
+
+New deferred debt discovered by the completeness test (self-retiring
+KNOWN_PHANTOM_LINKS entries in test_rashi_packet.py): on 43a (rashi
+vilna 1-3), 43b (1), and 44b (1-4), early helper entries link to a
+plain lNN id (yoma-043a-l01, yoma-043b-l01, yoma-044b-l01) that exists
+only as an argumentFlow step id; the real first segments are the
+suffix-split l01a/l01b. validate_rashi_links accepts these because its
+legal-id regex also matches argumentFlow ids. A future scoped links
+pass should relink those eight entries to l01a/l01b semantically and
+drain the test's debt list; the validator regex tightening should ride
+the same pass so the gate and the packet table agree.

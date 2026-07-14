@@ -46,6 +46,7 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
     "target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)",
     "count mismatch not already baselined",
     "new semantic audit shift candidate beyond offset +-1",
@@ -102,6 +103,7 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
     "raw count vs entry count mismatch",
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
@@ -153,6 +155,7 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
     "post-edit drift profile still SHIFTED or FABRICATION-SUSPECT (worker:verify enforces this)",
     "count mismatch not already baselined",
     "any gate failure not fixable by correcting your own content"
@@ -205,6 +208,7 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
     "any gate failure not fixable by correcting your own content"
    ],
    "maxBatch": 2,
