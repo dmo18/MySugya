@@ -1,0 +1,10 @@
+{
+ "type": "rashi-realignment",
+ "module": "yoma",
+ "targets": [
+  "71b",
+  "41a"
+ ],
+ "done": [],
+ "policy": "stop-on-escalation"
+}
