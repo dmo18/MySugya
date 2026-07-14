@@ -94289,7 +94289,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 1,
         he: "סתם סיפרא. תורת כהנים רבי יהודה היא הכי קאמר בסנהדרין",
-        en: "Rashi: opens - the anonymous Sifra (Torat Kohanim) is [attributed to] R. Yehuda, as stated in Sanhedrin.",
+        en: "An unattributed Sifra - it is Torat Kohanim, following Rabbi Yehuda; so it says in Sanhedrin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94303,7 +94303,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 2,
         he: "(דף פו.) והא בתורת כהנים היא דהא קרא בספר ויקרא כתיב:",
-        en: "Rashi: continues - this appears in the Sifra [Torat Kohanim] because the source verse is written in the book of Leviticus.",
+        en: "(86a). And this is indeed in Torat Kohanim, since the verse is written in the book of Leviticus:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94317,7 +94317,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 3,
         he: "אין הקינין מתפרשות. איזו לעולה ואיזו לחטאת אלא או בלקיחת",
-        en: "Rashi: opens - kinnim are not designated [as to] which is the olah and which is the chatat, except by either the owner's taking [at acquisition] or the priest's act [at performance].",
+        en: "The bird pairs are not designated - which is for the olah and which is for the chatat - except by the taking of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94331,7 +94331,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 4,
         he: "בעלים כו' אם כשקנאן אמר זה אני לוקח לעולה ואת זה לחטאת",
-        en: "Rashi: continues - [explaining the owner's specification:] if at acquisition he says 'this one I take for the olah, this one for the chatat,' [then beyond that point] the priest cannot change them at performance.",
+        en: "the owner, etc. If, when he acquired them, he said: this one I take for the olah, and this one for the chatat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94345,7 +94345,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 5,
         he: "שוב אין הכהן יכול לשנותן בעשייתן",
-        en: "Rashi: continues - if the priest changed them [the designation], it is invalid; and if the owner did not specify at acquisition, [then] not [does the designation take effect].",
+        en: "the priest can no longer change them at their performance.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94359,12 +94359,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 6,
         he: "ואם שינה פסול ואם כשקנאן לא",
-        en: "Rashi: continues - [but if the owner] specified, even though he called them [named them], [the specification does not take effect retroactively].",
+        en: "And if he changed them, it is invalid. And if, when he acquired them, he did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l06"
+          "yoma-041a-l04"
         ]
       },
       {
@@ -94373,12 +94373,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 7,
         he: "פירש אף על פי שקרא להם שם",
-        en: "Rashi: continues - [because he] specified - even though he called them by name [later], the name does not apply to them.",
+        en: "specify, even though he called them by name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l06"
+          "yoma-041a-l04"
         ]
       },
       {
@@ -94387,12 +94387,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 8,
         he: "[לאחר מיכן] אין שם חל עליהם",
-        en: "Rashi: continues - and the priest is able to change them [if no specification was made].",
+        en: "afterward, the name does not take effect upon them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l08"
+          "yoma-041a-l04"
         ]
       },
       {
@@ -94401,12 +94401,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 9,
         he: "ויכול הכהן לשנותן: ולקחה ועשה.",
-        en: "Rashi: continues - and [to prove this about the priest's power, the text says] 'and she shall take and make,' establishing the principle.",
+        en: "and the priest can change them. 'And she shall take' 'and he shall make' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l08"
+          "yoma-041a-l04",
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94415,12 +94416,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 10,
         he: "ביולדת כתיב ולקחה שתי תורים או",
-        en: "Rashi: continues - in [the section about] the young woman it is written 'and she shall take two doves or [two young pigeons].'",
+        en: "regarding the woman after childbirth it is written: and she shall take two turtledoves or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l10"
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94429,12 +94430,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 11,
         he: "שני בני יונה אחד לעולה ואחד",
-        en: "Rashi: continues - one for the olah and one for the chatat, and likewise in the tzaraat-afflicted person, and regarding the zav the priest shall make one a chatat and one an olah.",
+        en: "two young pigeons, one for the olah and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l10"
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94443,12 +94444,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 12,
         he: "לחטאת וכן במצורע וגבי זב ועשה",
-        en: "Rashi: continues - from this we derive [the principle] that either at the time of taking they are designated, or at the time of performance [they are designated], but not in between.",
+        en: "for the chatat; and likewise regarding the metzora, and concerning the zav, the priest shall make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l12"
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94457,12 +94458,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 13,
         he: "הכהן אחד חטאת ואחד עולה אלמא",
-        en: "Rashi: continues - 'the priest shall make one a chatat and one an olah' - [this shows that designation occurs through the priest's act at performance].",
+        en: "one a chatat and one an olah - proving that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l13"
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94471,12 +94472,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 14,
         he: "או בשעת לקיחה נקבעין או בשעת",
-        en: "Rashi: continues - [the text states:] either at the time of taking they are designated, or at the time of performance, but not [in between].",
+        en: "either at the time of taking they are designated, or at the time of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l13"
+          "yoma-041a-l06"
         ]
       },
       {
@@ -94485,12 +94486,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 15,
         he: "עשייתן אבל ביני ביני לא: והא הכא",
-        en: "Rashi: continues - and the passage states [multiple times] 'she shall make' and 'the priest makes,' [showing timing of designation].",
+        en: "their performance, but in between, no. 'But here' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l06",
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94499,12 +94501,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 16,
         he: "כו'. מדקתני כאן שקידש הגורל",
-        en: "Rashi: continues - [a new issue:] since it is taught here that when the lot sanctifies [one bird], it is not [automatic that the] Name sanctifies [it].",
+        en: "etc. From the fact that it is taught here that the lot sanctified,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94513,12 +94515,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 17,
         he: "אינו דין שיקדש השם וקא סלקא דעתיה",
-        en: "Rashi: continues - it might enter [one's] mind that the sanctification of the Name [operates differently from the lot's sanctification].",
+        en: "is it not logical that the name should sanctify? And one might have thought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94527,12 +94529,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 18,
         he: "דקידוש השם בשעת קידוש גורל",
-        en: "Rashi: continues - [but the resolution is that] the sanctification of the Name [occurs] at the time of the lot's sanctification - this is the teaching.",
+        en: "that the sanctification of the name at the time of the sanctification of the lot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94541,12 +94543,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 19,
         he: "קאמר שאינו לא שעת לקיחה ולא",
-        en: "Rashi: continues - [saying] that it is not the time of taking and not the time of performance - so we have heard [the tradition].",
+        en: "is what is meant, that it is neither the time of taking nor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94555,12 +94557,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 20,
         he: "שעת עשייה הכי גרסינן והא הכא",
-        en: "Rashi: continues - and therefore there is a difficulty here [in reconciling the times of designation with the lot and the Name].",
+        en: "the time of performance - this is our reading: 'but here' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l15"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94569,12 +94571,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 21,
         he: "דלאו שעת לקיחה ולאו שעת עשייה",
-        en: "Rashi: continues - that it is not the time of taking and not the time of performance, yet it is taught that it was fixed [somehow, despite these constraints].",
+        en: "that it is neither the time of taking nor the time of performance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l21"
+          "yoma-041a-l13"
         ]
       },
       {
@@ -94583,11 +94585,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 22,
         he: "היא וקתני דקבע: מטמא מקדש.",
-        en: "Rashi: opens - [new case:] one impure who enters the Temple, and he is bringing a kinnim offering.",
+        en: "it is, yet it is taught that it became fixed. 'One who defiles the Sanctuary' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-041a-l13",
           "yoma-041a-l22"
         ]
       },
@@ -94597,7 +94600,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 23,
         he: "הנכנס למקדש טמא והוא בקרבן",
-        en: "Rashi: continues - [explaining:] one who enters the Temple impure - this is regarding a chatat for Temple impurity, which is an offering that ascends and descends in wealth categories.",
+        en: "one who enters the Sanctuary impure, and he is liable for an offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94611,7 +94614,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 24,
         he: "עולה ויורד עשירות ודלות ודלי",
-        en: "Rashi: continues - the poverty [offering here] is the one mentioned [in Leviticus] alongside the oath of falsehood and the oath of voice.",
+        en: "that rises and falls with wealth and poverty, and the lowest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -94625,12 +94628,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 25,
         he: "דלות האמורה אצל שבועת בטוי",
-        en: "Rashi: continues - and there [in Leviticus] it is written 'or a soul who touches' - and we have established this in [Tractate] Shevuot [regarding] Temple impurity and holy things [desecration].",
+        en: "tier of poverty stated regarding the oath of utterance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l25"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94639,12 +94642,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 26,
         he: "ושבועת קול אלה והתם נמי כתיב",
-        en: "Rashi: continues - [meaning: this applies] after [the person] became impure, he entered the Temple or ate holy things.",
+        en: "and the oath of testimony; and there too it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l26"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94653,12 +94656,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 27,
         he: "(ויקרא ה) או נפש כי תגע וגו'",
-        en: "Rashi: continues - 'and the rich man' [from the Mishnah] - and he must bring [his offering] in the category of wealth.",
+        en: "(Lev. 5): 'or a soul who touches,' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l26"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94667,12 +94670,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 28,
         he: "ואוקמינן לה בשבועות (דף ז.)",
-        en: "Rashi: continues - 'and afterwards' - [the person] divided the monies [set aside] and said 'these [birds/money] for his chatat, these for his olah,' even though there is now no obligation on him for a poor man's offering but only a rich man's offering.",
+        en: "and we established it in Shevuot (7a)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l28"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94681,12 +94684,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 29,
         he: "בטומאת מקדש וקדשיו שאחר",
-        en: "Rashi: continues - in a rich man's offering there is only a chatat from a [larger] animal - when he comes before the court, the court says to him 'bring a rich man's offering.'",
+        en: "as referring to impurity of the Sanctuary and its sacred things - that after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l28"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94695,12 +94698,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 30,
         he: "שנטמא נכנס למקדש או אכל",
-        en: "Rashi: continues - [explaining 'adds':] [he brings money] from his house until [reaching] the price of the animal, and brings his obligation from the monies they called 'chatat.'",
+        en: "he became impure he entered the Sanctuary, or ate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l28"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94709,12 +94712,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 31,
         he: "קדשים: והעשיר. וצריך להביא",
-        en: "Rashi: continues - 'and does not add' - [he cannot take a] chatat from an animal [using money] from the monies of the olah, because he is not able to change [or redirect] the olah-monies to get the chatat from them.",
+        en: "sacred things. 'And he became rich' - and he must bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l31"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94723,12 +94726,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 32,
         he: "בעשירות: ואחר כך. חולק המעות",
-        en: "Rashi: continues - 'and there is a difficulty here' - after [he] separated [the monies], he specified [which is which], and this is neither the time of taking nor the time of performance.",
+        en: "according to the wealthy tier. 'And afterward' - he divides the money",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l31"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94737,12 +94740,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 33,
         he: "ופירש ואמר אלו לחטאתו ואלו",
-        en: "Rashi: continues - yet it is taught [in the Mishnah] that it was fixed [the designation took effect].",
+        en: "and specifies, and says: these are for his chatat, and these",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94751,12 +94754,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 34,
         he: "לעולתו אע\"ג שאין קרבן עני עכשיו",
-        en: "Rashi: continues - Rav Sheshet said [a resolution], and does it seem reasonable? Did not R. Elazar say [in the name of] R. Hoshayah...",
+        en: "for his olah - even though there is no poor person's offering now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l22"
         ]
       },
       {
@@ -94765,12 +94768,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 35,
         he: "עליו חובה אלא קרבן עשיר ואין",
-        en: "Rashi: continues - 'one impure entering the Temple' - rich man - brought a poor man's offering - he does not fulfill [his obligation].",
+        en: "obligating him, but only a rich person's offering, and there is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l22",
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94779,12 +94783,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 36,
         he: "בקרבן עשיר [עולה אלא] חטאת",
-        en: "Rashi: continues - so since he does not fulfill [it], how can the name [of 'olah'] be fixed on them [the birds], when he became rich?",
+        en: "in a rich person's offering an olah, only a chatat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94793,12 +94797,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 37,
         he: "בהמה כשבא לב\"ד יאמרו לו ב\"ד",
-        en: "Rashi: continues - [because] behold he is not obligated for the olah [after becoming rich, the offering type changed, so it cannot be the olah].",
+        en: "of an animal - when he comes before the court, the court will say to him:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94807,12 +94811,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 38,
         he: "קרבן עשיר תביא: מוסיף. מביתו",
-        en: "Rashi: opens - but what [can] you say [to resolve this]? Perforce there is a problem [a disruption in the teaching logic] and [we must] say that this 'afterwards' [in the Mishnah]...",
+        en: "'bring a rich person's offering.' 'He adds' - from his own house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94821,12 +94825,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 39,
         he: "עד דמי בהמה ומביא חובתו בהמה",
-        en: "Rashi: continues - [the problem is a disruption;] the teaching should [instead] be: and he said 'these for his chatat, these for his olah,' and afterwards the rich man [became rich]; this is how it should flow.",
+        en: "up to the price of an animal, and brings his obligation, an animal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94835,12 +94839,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 40,
         he: "מדמים שקרא להם שם חטאת: ואין",
-        en: "Rashi: continues - [the resolution is:] because at the time [when] he designated [the monies], an offering [that was] appropriate [to his status] existed for him, and since perforce there is a disruption, so also R. Chisda resolved it thus - he already said from the time of separation.",
+        en: "from the proceeds which he called by the name chatat. 'And he does not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94849,12 +94853,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 41,
         he: "מוסיף ומביא. חטאת בהמה מדמי",
-        en: "Rashi: continues - and here [the Mishnah] teaches: one impure [who] entered [the Temple] - poor - separated monies for his kinnim and said at the time of separation 'these for his chatat, these for his olah.'",
+        en: "add and bring - an animal chatat from the proceeds of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94863,12 +94867,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 42,
         he: "עולתו שאין יכול לשנותן למעות",
-        en: "Rashi: continues - and afterwards [he] became rich - he adds and brings his obligation by monies, [and this is as the time of taking birds, because] the designation of monies is like the time of taking of birds.",
+        en: "his olah, since he cannot change them into monies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94877,12 +94881,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 43,
         he: "שהפרישן שקרא להן שם עולה ליקח",
-        en: "Rashi: continues - and according to R. Chaga who says one impure [who] entered the Temple - rich man - brought a poor man's offering - he fulfilled [his obligation].",
+        en: "that he set aside, which he called by the name olah, to acquire",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25"
         ]
       },
       {
@@ -94891,12 +94895,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 44,
         he: "מהן חטאת: והא הכא. דלאחר",
-        en: "Rashi: continues - and because of this it is not disrupted, and this is the resolution, since he found that this offering was acceptable to him post-facto, he can teach that it was fixed.",
+        en: "from them a chatat. 'But here' - that after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l25",
+          "yoma-041a-l26"
         ]
       },
       {
@@ -94905,12 +94910,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 45,
         he: "שהפרישן פירש ואין זו לא לקיחה ולא עשייה: וקתני דקבע.",
-        en: "Rashi: continues - but what [can] you say [to explain the disruption]? Perforce it is a problem [confusion in the teaching] and [we must] say that this 'afterwards' [indicates] confusion.",
+        en: "he set them aside he specified, and this is neither taking nor performing - yet it is taught that it became fixed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l26"
         ]
       },
       {
@@ -94919,12 +94924,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 46,
         he: "עליהם השם ואין רשאי לשנותן: ותסברא. הך מתרצתא היא והאמר",
-        en: "Rashi: continues - [but the resolution is:] rather it should be taught that he said 'these for his chatat, these for his olah, and afterwards the rich man [designation]...'",
+        en: "The name took effect upon them, and he may not change them. 'And do you think so?' Is this a resolution? But did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l26",
+          "yoma-041a-l28"
         ]
       },
       {
@@ -94933,12 +94939,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 47,
         he: "ר\"א וכו'. וכיון דאין קרבן עני ראוי לו אפילו בדיעבד היכי קבע",
-        en: "Rashi: continues - [showing] how the problem [disruption] arises from the text; [this is] R. Sheshet's reasoning [challenge to Rav Chisda's resolution].",
+        en: "Rabbi Elazar say etc.? And since a poor person's offering is not fit for him even post-facto, how could",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l28"
         ]
       },
       {
@@ -94947,12 +94953,13 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 48,
         he: "ליה שם עולה עלייהו משהעשיר הרי אינו מחויב עולה: אלא מאי",
-        en: "Rashi: continues - [explaining further:] that he already said from the time of separation, and here [the Mishnah] teaches one impure [who] entered - poor - separated monies for kinnim and said...",
+        en: "the name of olah take effect upon them once he became rich? Behold, he is not obligated for an olah. 'Rather, what'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l28",
+          "yoma-041a-l31"
         ]
       },
       {
@@ -94961,12 +94968,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 49,
         he: "אית לך למימר. על כרחך מיבעיא לשבושא ולמימר דהאי ואח\"כ",
-        en: "Rashi: continues - [from] the time of separation - and R. Chisda also so resolved it, [saying] he already said from the time of separation-time.",
+        en: "can you say? Perforce it must be understood as a disruption, and one must say that this word 'and afterward'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l31"
         ]
       },
       {
@@ -94975,12 +94982,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 50,
         he: "דקתני שיבוש הוא אלא הכי מיבעיא ליה למיתני ואמר אלו לחטאת",
-        en: "Rashi: continues - and here the Gemara teaches one impure [who] entered the Temple - poor man who separated monies for his kinnim, saying at the time of separation 'these for the chatat, these for the olah.'",
+        en: "that is taught is an error; rather it should properly be taught: 'and he said, these for the chatat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l31"
         ]
       },
       {
@@ -94989,12 +94996,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 51,
         he: "ואלו לעולה ואח\"כ העשיר דבשעת שקבען הוה קרבן חזי ליה וכיון",
-        en: "Rashi: continues - and afterwards [he] became rich - he adds and brings his obligation by monies, [because] the designation of monies is like the time of taking of birds [for kinnim].",
+        en: "these for the olah, and afterward he became rich' - since at the time he fixed them an offering was fit for him, and since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l31"
         ]
       },
       {
@@ -95003,12 +95010,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 52,
         he: "דעל כרחך משבשתא היא לרב חסדא נמי הכי תרצה שכבר אמר",
-        en: "Rashi: continues - [reiterating:] because designation of monies is [equivalent to] the time of taking the birds themselves.",
+        en: "perforce it is acknowledged as an emendation, Rav Chisda too resolved it thus: he already said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l31"
         ]
       },
       {
@@ -95017,12 +95024,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 53,
         he: "משעת הפרשה ותני הכא מטמא מקדש עני שהפריש מעות לקינו",
-        en: "Rashi: continues - and according to R. Chaga who says one impure [who] entered the Temple - rich man - brought a poor man's offering - he fulfilled [the obligation] and [from that] it is not disrupted.",
+        en: "from the time of separation, and here it is taught: one who defiles the Sanctuary, a poor person, who set aside money for his kinnim-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041a-l33"
+          "yoma-041a-l31"
         ]
       },
       {
@@ -95031,11 +95038,12 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 54,
         he: "ואמר בשעת הפרשה אלו לחטאת ואלו לעולה ואח\"כ העשיר מוסיף ומביא דהפרשה במעות כשעת לקיחת העופות: ולרבי חגא. דאמר",
-        en: "Rashi: continues - and this resolution stands, since he found that this offering was acceptable to him even post-facto, he can teach that it was fixed [the Name established it].",
+        en: "and said at the time of separation: these for the chatat, these for the olah, and afterward became rich - he adds and brings, since separation by money is like the time of taking the birds. 'And according to Rabbi Chagga' - who said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-041a-l31",
           "yoma-041a-l33"
         ]
       },
@@ -95045,7 +95053,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 55,
         he: "מטמא מקדש עשיר והביא קרבן עני יצא ומשום הא לא משתבש ומתרצתא היא וכיון דחזי ליה האי קרבן בדיעבד מצי למיתני דקבע:",
-        en: "Rashi: concludes - [on your account] perforce it [the teaching] is disrupted [without this explanation], and [this shows the problem in Rav Sheshet's challenge].",
+        en: "one who defiles the Sanctuary, rich, and brought a poor person's offering, fulfilled his obligation - and because of this it is not disrupted, and this is a resolution, since this offering was fit for him post-facto, he can teach that it became fixed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -95059,7 +95067,7 @@ const DAF_CONTENT = {
         daf: "41a",
         vilnaLine: 56,
         he: "מאי",
-        en: "Rashi: ends - [unresolved word at end of extended discussion].",
+        en: "What",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

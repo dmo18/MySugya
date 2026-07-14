@@ -5467,3 +5467,53 @@ Fresh Sonnet self-review recorded in .worker-self-review.json;
 worker:review reported AUTO-MERGE-ELIGIBLE with no escalation. 71b
 leaves the shifted set; 41a remains queued for its own realignment
 pass.
+
+### Repair record: 41a realigned (VERSION 15.95, sixth rashi-realignment pass, Sonnet worker, conditional review)
+
+The SHIFTED daf 41a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; conditional review
+policy, no routine Fable review). Unlike 68a/68b/70a/71b, 41a had no
+allowlisted stubs; all 56 lines already carried genuine content in a
+nonstandard "Rashi: opens/continues - [bracketed paraphrase]" style,
+overwhelmingly compressed onto a single segment id: lines 33-56 (24 of
+56 lines) all pointed at yoma-041a-l33 regardless of their own content.
+Two Gemara-tractate daf-number citations (Sanhedrin 86a at line 2,
+Shevuot 7a at line 28) were present in Hebrew but never rendered in the
+old English, which is why the audit tool reported them as missing
+anchors going in.
+
+Every entry's en was retranslated directly from its own raw Hebrew
+vilna line, replacing the bracket-paraphrase style with direct
+translation and including both previously-dropped citations.
+linkedGemaraLineIds were populated for all 56 lines against the full
+text of all 15 local segments (l01, l04, l06, l08, l10, l12, l13, l15,
+l21, l22, l25, l26, l28, l31, l33); l08, l10, l12, l15, l21 carry no
+Rashi comment on this daf and are legitimately unused. Representative
+mappings: he 9's "ve-lakcha ve-asa" links to l06, the verse it quotes,
+after he 3-8 finish explaining l04's own rule; he 15-21's extended
+"veha hacha" gloss links to l13, the exact phrase being unpacked, using
+l10's kal vachomer only as background (not a separate link); he 33-43
+(the case's practical unwinding: rich-person's offering, adding
+chatat-money) links first to l22 (the case setup) then l25 (the
+top-up rule) at the genuine content transition in he 35, which carries
+no printed colon but is a defensible content-based split (verified
+against both segments' subject matter); he 46-53 (Rav Sheshet's
+challenge and Rava's/Rav Chisda's "kevar amar" resolution) links
+through l26, l28, l31 as each is quoted or answered in turn; he 54-56
+(Rabbi Chagga's alternative resolution, then the amud-boundary
+truncation) links to l33, the segment introducing that citation,
+including the final truncated word "mai" (he 56) which is confirmed as
+the direct continuation of l33's own sentence (ending mid-clause with
+a comma), not an unrelated fallback. 8 print lines carry two dibburim
+spanning adjacent segments and are linked to both (he 9, 15, 22, 35,
+44, 46, 48, 54).
+
+No allowlist entries existed for 41a before or after this pass; no
+allowlist file changed.
+
+Post-edit drift profile: ALIGNED, 4 anchors found, 0 missing, all
+offsets zero (Sanhedrin 86a L2, Vayikra 5 L27, Shevuot 7a L28).
+Corpus-wide semantic audit: 0 shift candidates. Fresh Sonnet
+self-review recorded in .worker-self-review.json; worker:review
+reported AUTO-MERGE-ELIGIBLE with no escalation. 41a leaves the
+shifted set. The autopilot queue (71b, 41a) is now drained.

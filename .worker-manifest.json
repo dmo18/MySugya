@@ -2,7 +2,7 @@
  "type": "rashi-realignment",
  "module": "yoma",
  "targets": [
-  "71b"
+  "41a"
  ],
  "model": "sonnet",
  "paused": false,
