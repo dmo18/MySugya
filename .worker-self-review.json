@@ -1,0 +1,15 @@
+{
+ "daf": "71b",
+ "model": "sonnet",
+ "rechecked": {
+  "beginningMiddleTail": true,
+  "citationAnchors": true,
+  "multiIdLinks": true,
+  "truncatedBoundaryEntries": true,
+  "formerlyAllowlistedEntries": true,
+  "semanticNotPositional": true,
+  "noUnrelatedFinalIdFallback": true
+ },
+ "blockersFound": [],
+ "notes": "61 lines rechecked fresh against raw Hebrew and full segment text; all 4 non-allowlisted citation anchors (Gittin 57b L4, Bava Metzia 58b L6, Vayikra 25 L7, Zevachim 15b L49) confirmed at offset 0; all 7 multi-id lines verified against a genuine dibbur-boundary colon in their own he field; L61 (kalil) confirmed as the literal next word of the Exodus 28:31 verse L56 quotes, cut off by the amud boundary, not an unrelated fallback; 17 formerly stubbed lines (45-61) now genuinely translate their own Hebrew with no stub pattern, duplicate, or dash remaining."
+}

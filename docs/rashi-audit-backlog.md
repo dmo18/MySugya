@@ -5423,3 +5423,47 @@ Post-edit drift profile: ALIGNED, 2 anchors found, 0 missing, all
 offsets zero (Exodus 15 at L16, Numbers 29 at L28). 70a leaves the
 shifted set; 71b and 41a remain queued for their own realignment
 passes.
+
+### Repair record: 71b realigned (VERSION 15.94, fifth rashi-realignment pass, Sonnet worker, conditional review)
+
+The SHIFTED daf 71b was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; conditional review
+policy from PR #83, no routine Fable review). All 61 raw Rashi lines
+had current entries, but en had drifted (offsets -1/-1/0/-1 near the
+top from four citation anchors, -14 at line 49), and entries 45-61 (17
+lines, the bulk of the daf's shesh/bad and me'il/choshen strand-count
+sugya) were allowlisted stubs. Every entry's en was retranslated
+directly from its own raw Hebrew vilna line; the previously stubbed
+tail is translated fresh, with no duplicate paraphrase.
+
+linkedGemaraLineIds were populated for all 61 lines against the full
+untruncated text of all 15 local segments (l01, l02, l06, l11 [mishna],
+l16, l19, l26, l31, l33, l41, l46, l51, l53a, l53b, l56). l02 and l46
+carry no Rashi comment on this daf and are legitimately unused (not
+every segment requires a link). Representative mappings: he 1's first
+dibbur ("me-re'ach mayim") links to l01, the verse fragment it quotes,
+while its second dibbur ("le-sof ato Shemaya ve-Avtalyon") links to
+l06, which the Gittin/Bava Metzia/Vayikra excursus (he 3-9) continues
+to explain; he 44's "ben nechar" links to l33 rather than the
+topically-adjacent l31, because l33 is where the Ezekiel citation
+"ben nechar erel lev" actually appears; he 50-53's "mah lehalan
+esrim ve-arba'ah" links to l41 (which states 24), not the numerically
+similar but textually distinct l46 (which states 28); he 61's
+truncated "kalil" links to l56, the final local segment, because it is
+the literal next word of the same Exodus 28:31 verse ("ve-asita et
+me'il ha-ephod") that l56 quotes, cut off by the amud boundary, not an
+unrelated-content fallback. 7 print lines carry two dibburim spanning
+adjacent segments and are linked to both (he 1, 10, 33, 42, 44, 50,
+54, 56).
+
+The 17 stub_continuation allowlist entries for 71b (lines 45-61) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 17).
+
+Post-edit drift profile: ALIGNED, 6 anchors found, 0 missing, all
+offsets zero (Gittin 57b L4, Bava Metzia 58b L6, Vayikra 25 L7,
+Zevachim 15b L49). Corpus-wide semantic audit: 0 shift candidates.
+Fresh Sonnet self-review recorded in .worker-self-review.json;
+worker:review reported AUTO-MERGE-ELIGIBLE with no escalation. 71b
+leaves the shifted set; 41a remains queued for its own realignment
+pass.

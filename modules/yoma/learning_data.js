@@ -159109,11 +159109,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 1,
         he: "מריח מים. בני תורה: לסוף אתו שמעיה ואבטליון לאיפטורי",
-        en: "From the scent of water - Torah scholars (who are revived by Torah like a tree that revives from the scent of water).",
+        en: "From the scent of water - Torah scholars. In the end Shemaya and Avtalyon came to take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l01",
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-002",
@@ -159121,11 +159124,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 2,
         he: "מיניה. ליטול רשות ממנו ולפרוש לצד ביתן: ייתון בני עממין לשלם.",
-        en: "Eventually Shemaiah and Avtalyon came to take their leave - to take permission from him and depart toward their home.",
+        en: "leave of him - to take permission from him and go off to their own home. Let the sons of nations come in peace -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-003",
@@ -159133,11 +159138,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 3,
         he: "לשון גנאי הוא לפי שבאו מבני בניו של סנחריב כדאמרינן במסכת",
-        en: "Let the descendants of nations come in peace - this is a derogatory expression since they came from the grandchildren of Sennacherib, as stated in tractate Gittin (57b).",
+        en: "this is an expression of contempt, since they descend from the grandchildren of Sennacherib, as we say in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-004",
@@ -159145,11 +159152,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 4,
         he: "גיטין (דף נז:): דעבדי עובדא דאהרן. רורפי שלום: דלא עבד",
-        en: "Who perform the deeds of Aaron - those who pursue peace.",
+        en: "Gittin (57b). Who perform the deed of Aaron - pursuers of peace.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-005",
@@ -159157,11 +159166,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 5,
         he: "עובדא דאהרן. שהוניתנו אונאת",
-        en: "Who does not perform Aaron's deeds - who shamed us with verbal oppression.",
+        en: "Who does not perform the deed of Aaron - who has wronged us with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-006",
@@ -159169,11 +159180,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 6,
         he: "דברים ואמר מר (ב\"מ נח:) לא",
-        en: "As the Master said (Bava Metzia 58b): 'you shall not oppress each man his fellow' (Lev. 25) refers to verbal oppression.",
+        en: "verbal mistreatment, and the Master said (Bava Metzia 58b): 'do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-007",
@@ -159181,11 +159194,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 7,
         he: "תונו איש את עמיתו (ויקרא כה)",
-        en: "About verbal oppression the verse speaks.",
+        en: "wrong one another' (Lev. 25) -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-008",
@@ -159193,11 +159208,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 8,
         he: "באונאת דברים הכתוב מדבר אם",
-        en: "If he is the son of converts do not say to him: remember the deeds of your ancestors.",
+        en: "the verse speaks of verbal mistreatment. If",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-009",
@@ -159205,11 +159222,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 9,
         he: "היה בן גרים לא יאמר לו זכור",
-        en: "Mishnah: in a tunic and pants etc. - this refers to an ordinary priest.",
+        en: "he was the son of converts, one should not say to him: remember",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06"
+        ]
       },
       {
         id: "rashi-yoma-071b-010",
@@ -159217,11 +159236,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 10,
         he: "מעשה אבותיך: מתני' בכתונת",
-        en: "For these they are consulted - a priest consulted through the Urim ve'Tumim must wear all eight vestments.",
+        en: "the deeds of your fathers. MISHNA: in a tunic",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l06",
+          "yoma-071b-l11"
+        ]
       },
       {
         id: "rashi-yoma-071b-011",
@@ -159229,11 +159251,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 11,
         he: "ומכנסים וכו'. אהדיוט קאי: באלו",
-        en: "Gemara: things said about them - six threads.",
+        en: "and pants etc. - this refers to the ordinary priest. With these",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l11"
+        ]
       },
       {
         id: "rashi-yoma-071b-012",
@@ -159241,11 +159265,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 12,
         he: "נשאלים. כהן הנשאל באורים ותומים",
-        en: "All of it is explained below.",
+        en: "they are consulted - a priest consulted through the Urim veTumim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l11"
+        ]
       },
       {
         id: "rashi-yoma-071b-013",
@@ -159253,11 +159279,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 13,
         he: "צריך ללבוש שמונה בגדים:",
-        en: "Their thread doubled six times - six of each type in it.",
+        en: "must wear eight garments.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l11"
+        ]
       },
       {
         id: "rashi-yoma-071b-014",
@@ -159265,11 +159293,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 14,
         he: "גמ' דברים שנאמר בהן שש.",
-        en: "Twisted - without six, and this is only for the pomegranates.",
+        en: "GEMARA: things about which shesh is stated -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-015",
@@ -159277,11 +159307,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 15,
         he: "כולה מפרש לקמן: חוטן כפול",
-        en: "Eight - every thread of each type in it doubled eight times.",
+        en: "all of this is explained below. Their thread doubled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-016",
@@ -159289,11 +159321,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 16,
         he: "ששה. ששה כל מין ומין שבו: משזר.",
-        en: "And according to this calculation, the me'il (robe) which is entirely one type has its thread doubled twelve times.",
+        en: "six - six for each type in it. Twisted -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-017",
@@ -159301,11 +159335,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 17,
         he: "בלא שש ואין זאת אלא רמונים:",
-        en: "The parokhet (curtain) has its thread doubled twenty-four times since all types in it are doubled together.",
+        en: "without shesh, and this is only for the pomegranates.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-018",
@@ -159313,11 +159349,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 18,
         he: "שמונה. כל חוט של כל מין שבו",
-        en: "And all of it is explained below.",
+        en: "eight - each thread of each type in it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-019",
@@ -159325,11 +159363,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 19,
         he: "כפול שמונה ועל פי חשבון זה מעיל",
-        en: "Five verses are written about them - together, and one would have sufficed - write it at the end.",
+        en: "doubled eight, and by this reckoning the robe",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-020",
@@ -159337,11 +159377,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 20,
         he: "שכולו מין אחד חוטו כפול י\"ב פרוכת",
-        en: "The reading is: and they made the linen tunics, and the linen turban, and the ornamental caps of linen, and the linen breeches of fine linen.",
+        en: "which is entirely one type has its thread doubled twelve; the curtain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-021",
@@ -159349,11 +159391,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 21,
         he: "חוטו כפול כ\"ד שכל מינין שבה",
-        en: "And the twisted linen belt. And linen is fine linen - thus five. And the one about the belt must be written explicitly.",
+        en: "has its thread doubled twenty-four, since all the types in it are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-022",
@@ -159361,11 +159405,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 22,
         he: "כפולין יחד וכולה מפרש לה לקמן:",
-        en: "Since there are other types in it.",
+        en: "doubled together, and all of this is explained below.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l16"
+        ]
       },
       {
         id: "rashi-yoma-071b-023",
@@ -159373,11 +159419,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 23,
         he: "חמשה קראי כתיבי. גבי הדדי והוה",
-        en: "That they should all be twisted together - all of them six.",
+        en: "Five verses are written - together, when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-024",
@@ -159385,11 +159433,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 24,
         he: "סגי ליה בחד ונכתביה לבסוף: ה\"ג",
-        en: "For the other vestments where six is not stated - that they too have their thread doubled six times.",
+        en: "one would have sufficed, writing it at the end. This is the correct reading:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-025",
@@ -159397,11 +159447,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 25,
         he: "ויעשו את הכתנות שש ואת המצנפת",
-        en: "And below it explains what they are.",
+        en: "'and they made the tunics of shesh, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-026",
@@ -159409,11 +159461,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 26,
         he: "שש ואת פארי המגבעות שש ואת",
-        en: "A thing that comes from the ground - linen.",
+        en: "the turban of shesh, and the ornamental caps of shesh, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-027",
@@ -159421,11 +159475,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 27,
         he: "מכנסי הבד שש משזר. ובד הוא שש",
-        en: "Bad - separated; linen and hemp have no branches and offshoots like trees, but only stalks.",
+        en: "the linen breeches of shesh, twisted.' And bad is shesh -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-028",
@@ -159433,11 +159489,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 28,
         he: "הרי חמשה וההיא דאבנט צריך",
-        en: "And linen comes only from the middle stalk.",
+        en: "thus five, and the verse about the belt must perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-029",
@@ -159445,11 +159503,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 29,
         he: "למיכתב על כרחך דאיכא מיני",
-        en: "Split - has a fiber that divides into two. And do not be surprised since even in a bearded elder's lower hair it is found.",
+        en: "be written, since there are other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-030",
@@ -159457,11 +159517,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 30,
         he: "אחריני בהדיה: שיהו שזורין. יחד",
-        en: "Linen also splits - when beaten it divides into several filaments.",
+        en: "types together with it. That they be twisted - together,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-031",
@@ -159469,11 +159531,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 31,
         he: "כולן ששה: לשאר בגדים שלא נאמר",
-        en: "Due to its beating - when they beat it.",
+        en: "all of them six. For the other garments about which shesh is not stated -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-032",
@@ -159481,11 +159545,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 32,
         he: "בהן שש. שיהא אף הן חוטן כפול",
-        en: "Ornamental caps of fine linen - and in the Torah it is written: 'and the ornamental caps of linen.'",
+        en: "that they too have their thread doubled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19"
+        ]
       },
       {
         id: "rashi-yoma-071b-033",
@@ -159493,11 +159559,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 33,
         he: "ששה ולקמן מפרש מאי נינהו: דבר",
-        en: "Son of a stranger - one whose deeds have become strange to his Father in heaven, who is uncircumcised of heart.",
+        en: "six, and below it explains what they are. A thing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l19",
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-034",
@@ -159505,11 +159574,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 34,
         he: "העולה מן הקרקע בד בד. הפשתן",
-        en: "And also uncircumcised of flesh whose brothers died due to circumcision - may not enter the Sanctuary.",
+        en: "that grows from the ground, stalk by stalk - flax",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-035",
@@ -159517,11 +159588,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 35,
         he: "והקנבוס אין להן בדים וענפים",
-        en: "Who said this - from where did they derive this teaching which we study in the second chapter of Zevachim (15b).",
+        en: "and hemp have no branches and twigs like trees, only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-036",
@@ -159529,11 +159602,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 36,
         he: "כעצים אלא עלין ואין הפשתן בא",
-        en: "That a priest who is uncircumcised - his service is invalid.",
+        en: "leaves, and flax comes only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-037",
@@ -159541,11 +159616,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 37,
         he: "אלא מן הקנה האמצעי: מפצל.",
-        en: "What is below - twenty-four. For there are four types in it and each type doubled six times.",
+        en: "from the middle stalk. Splits -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-038",
@@ -159553,11 +159630,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 38,
         he: "יש בו נימא מתחלקת לשתים ואל",
-        en: "So too here twenty-four, and here there are three types - so each would be eight.",
+        en: "it has a fiber that divides in two, and do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-039",
@@ -159565,11 +159644,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 39,
         he: "תתמה שאף בשער זקן התחתון מצוי",
-        en: "But from the belt - which also has four types and each doubled six times.",
+        en: "be surprised, since even in the lower hair of a beard this is found",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-040",
@@ -159577,11 +159658,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 40,
         he: "כן: כיתנא נמי מפציל. כשכותשין",
-        en: "And when you twist them together they are twenty-four.",
+        en: "too. Linen also splits - when it is beaten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-041",
@@ -159589,11 +159672,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 41,
         he: "אותו נחלק לכמה פיצולין: אגב",
-        en: "Ta'asenu is written - in the choshen (breastplate), therefore we do not derive from it.",
+        en: "it divides into several strands. Due to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26"
+        ]
       },
       {
         id: "rashi-yoma-071b-042",
@@ -159601,11 +159686,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 42,
         he: "לקותיה. שמקישין עליו: פארי",
-        en: "Ve'asita is written - for the pomegranates, that all types in it should be equal. Therefore twenty-eight is impossible.",
+        en: "its beating - since they strike it. Ornamental caps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l26",
+          "yoma-071b-l31"
+        ]
       },
       {
         id: "rashi-yoma-071b-043",
@@ -159613,11 +159701,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 43,
         he: "פשתים. ובתורה כתיב ואת פארי",
-        en: "How would he do it etc.",
+        en: "of linen - and in the Torah it is written: 'and the ornamental caps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l31"
+        ]
       },
       {
         id: "rashi-yoma-071b-044",
@@ -159625,11 +159715,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 44,
         he: "המגבעות שש: בן נכר. שנתנכרו",
-        en: "Kalil - entirely.",
+        en: "of shesh.' Son of a stranger - whose deeds have become foreign",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l31",
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-045",
@@ -159637,11 +159730,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 45,
         he: "מעשיו לאביו שבשמים שהוא ערל לב",
-        en: "Rashi line 45: continuation.",
+        en: "to his Father in Heaven, who is uncircumcised of heart,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-046",
@@ -159649,11 +159744,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 46,
         he: "וכן ערל בשר שמתו אחיו מחמת",
-        en: "Rashi line 46: continuation.",
+        en: "and also uncircumcised of flesh, whose brothers died on account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-047",
@@ -159661,11 +159758,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 47,
         he: "מילה לא יבא אל המקדש: מאן אמר'.",
-        en: "Rashi line 47: continuation.",
+        en: "circumcision - may not enter the Sanctuary. Who said this -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-048",
@@ -159673,11 +159772,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 48,
         he: "מאין למדו דבר זה ששנינו בפרק",
-        en: "Rashi line 48: continuation.",
+        en: "from where did they derive this, which we learned in the second",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-049",
@@ -159685,11 +159786,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 49,
         he: "שני דזבחים (דף טו:) שהכהן ערל",
-        en: "Rashi line 49: continuation.",
+        en: "chapter of Zevachim (15b), that a priest who is uncircumcised,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33"
+        ]
       },
       {
         id: "rashi-yoma-071b-050",
@@ -159697,11 +159800,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 50,
         he: "עבודתו פסולה: מה להלן עשרים",
-        en: "Rashi line 50: continuation.",
+        en: "his service is invalid. As there, twenty-four -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l33",
+          "yoma-071b-l41"
+        ]
       },
       {
         id: "rashi-yoma-071b-051",
@@ -159709,11 +159815,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 51,
         he: "וארבעה. שהרי ד' מינין יש בה וכל",
-        en: "Rashi line 51: continuation.",
+        en: "for there are four types in it and each",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l41"
+        ]
       },
       {
         id: "rashi-yoma-071b-052",
@@ -159721,11 +159829,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 52,
         he: "מין ומין כפול שש אף כאן כ\"ד וכאן",
-        en: "Rashi line 52: continuation.",
+        en: "type doubled six, so too here twenty-four, and here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l41"
+        ]
       },
       {
         id: "rashi-yoma-071b-053",
@@ -159733,11 +159843,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 53,
         he: "ג' מינין יש דהוו להו כל חד וחד",
-        en: "Rashi line 53: continuation.",
+        en: "there are three types, so each one is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l41"
+        ]
       },
       {
         id: "rashi-yoma-071b-054",
@@ -159745,11 +159857,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 54,
         he: "תמני: אלא מאבנט. דיש בו נמי",
-        en: "Rashi line 54: continuation.",
+        en: "eight. Rather, from the belt - which also has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l41",
+          "yoma-071b-l51"
+        ]
       },
       {
         id: "rashi-yoma-071b-055",
@@ -159757,11 +159872,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 55,
         he: "ארבע מינין וכל אחד כפול ששה",
-        en: "Rashi line 55: continuation.",
+        en: "four types and each doubled six,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l51"
+        ]
       },
       {
         id: "rashi-yoma-071b-056",
@@ -159769,11 +159886,14 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 56,
         he: "וכששוזרן יחד הוו להו כ\"ד: תעשנו",
-        en: "Rashi line 56: continuation.",
+        en: "and when twisted together they are twenty-four. Ta'asenu",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l51",
+          "yoma-071b-l53a"
+        ]
       },
       {
         id: "rashi-yoma-071b-057",
@@ -159781,11 +159901,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 57,
         he: "כתיב. בחשן לפיכך אין למידין ממנו:",
-        en: "Rashi line 57: continuation.",
+        en: "is written - regarding the breastplate, therefore we do not derive from it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l53a"
+        ]
       },
       {
         id: "rashi-yoma-071b-058",
@@ -159793,11 +159915,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 58,
         he: "ועשית. כתיב ברמונים שיהו עשויות",
-        en: "Rashi line 58: continuation.",
+        en: "Ve'asita is written - regarding the pomegranates, that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l53b"
+        ]
       },
       {
         id: "rashi-yoma-071b-059",
@@ -159805,11 +159929,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 59,
         he: "כל המינין שבו שוות הלכך לא",
-        en: "Rashi line 59: continuation.",
+        en: "all the types in it must be made equal; therefore it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l53b"
+        ]
       },
       {
         id: "rashi-yoma-071b-060",
@@ -159817,11 +159943,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 60,
         he: "אפשר בכ\"ח דהיכי ליעביד וכו':",
-        en: "Rashi line 60: continuation.",
+        en: "possible with twenty-eight, for how would one do it, etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l53b"
+        ]
       },
       {
         id: "rashi-yoma-071b-061",
@@ -159829,11 +159957,13 @@ const DAF_CONTENT = {
         daf: "71b",
         vilnaLine: 61,
         he: "כליל",
-        en: "Rashi line 61: continuation.",
+        en: "Entirely",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071b-l56"
+        ]
       }
     ],
     review: "reviewed"
