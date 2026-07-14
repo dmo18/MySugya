@@ -5556,3 +5556,36 @@ fires); no allowlist entries were added anywhere.
 Post-repair profile: ALIGNED, 4 anchors found, 0 missing, all offsets
 zero (previously 2 found at -1 with 2 missing). Corpus semantic audit:
 0 shift candidates. 9a remains the last count-mismatch baseline.
+
+### Repair record: 9a structurally repaired (VERSION 15.100, second rashi-structural-repair pass, Fable worker)
+
+The baselined 9a entry-count mismatch (22 rashiTranslations vs 18 raw
+print lines) is repaired; the mechanism is the same Gemara-axis
+generation established for 8a (9a's Gemara segments run to vilna 22,
+ending in the catchword sheshahu at l22; the Rashi column has 18 print
+lines ending in the same catchword), verified independently from the
+9a sources rather than copied from the 8a solution. Entries 19-22 were
+phantoms narrating the Temple-years and Shiloh aggada (l08, l13, l17),
+segments on which 9a's Rashi column carries no comments at all; the
+boundary against 8b and 9b was checked (both counts already at parity,
+neither touched).
+
+rashiTranslations rebuilt on the raw axis: 18 entries, vilnaLine
+1..18, each en translating its own raw print line, links assigned
+semantically against the full text of all 7 local segments: raw 1-2a
+(lefi sheshalach, Sotah 48a) to l01; raw 2b-11a (hamotzi mechavero,
+nafreshu venasku) to l02, the segment quoting both dibburim; raw
+11b-17 (chovtin otan, lo atrechunhu, pursei) to l05, which quotes all
+three; raw 18 (the sheshahu catchword) to l22, the segment consisting
+of that word. Multi-id lines: 2 and 11, each at a printed
+dibbur-boundary colon. The unused ids (l08, l13, l17) are legitimate.
+
+The 9a count_mismatches baseline entry was removed only after the
+content gate passed green without it; the count_mismatches section is
+now EMPTY, and no allowlist entries were added anywhere.
+
+Post-repair profile: INSUFFICIENT-ANCHORS (haiku-safe), the single
+Sotah 48a anchor found at offset 0 (previously missing entirely).
+Corpus semantic audit: 0 shift candidates. With 8a (VERSION 15.98/99)
+and 9a both repaired, the structural count-mismatch backlog is
+drained.

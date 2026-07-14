@@ -2,7 +2,7 @@
  "type": "rashi-structural-repair",
  "module": "yoma",
  "targets": [
-  "8a"
+  "9a"
  ],
  "model": "fable",
  "paused": false,

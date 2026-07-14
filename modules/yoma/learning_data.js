@@ -19618,7 +19618,7 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 1,
         he: "לפי ששלח. יוחנן כהן גדול שגזר על הדמאי בסוטה בפרק עגלה ערופה",
-        en: "Rashi on 'because he sent': Yochanan High Priest (mentioned in tractate Sotah, chapter on the broken-necked heifer) sent emissaries throughout the borders of Israel to investigate tithe practice.",
+        en: "'Because he sent' - Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -19632,11 +19632,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 2,
         he: "(דף מח.): המוציא מחבירו עליו הראייה. מכי אפרשיה",
-        en: "Rashi: 'the one who extracts from another bears the burden of proof': once the grain was separated from its tevel status (even in doubt), any further claim by the Levi or poor person requires proof. The baker owes them nothing without evidence that the grain was untithed.",
+        en: "(48a). 'The one who takes from his fellow bears the burden of proof' - once he has separated it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-009a-l01",
           "yoma-009a-l02"
         ]
       },
@@ -19646,7 +19647,7 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 3,
         he: "ואפקעיה משום טבל אין בו אלא ספק גזל לויים ועניים חוץ",
-        en: "Rashi: 'since he separated it and removed it from tevel' - once a separation is made (even of the required minimum), the strict tevel prohibition is removed. What remains is only a doubtful obligation, which falls on the claimant to prove.",
+        en: "and released it from tevel status, there is in it only a doubt of robbing the Levites and the poor; except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -19660,7 +19661,7 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 4,
         he: "מתרומת מעשר שבתוך מעשר ראשון אותה יתן לכהן שיש איסור ועון",
-        en: "Rashi: 'the Levi and the poor man: let them bring their proof' - the practical ruling for maaser rishon and maaser ani. The baker says 'I already separated'; the Levi/poor man says 'prove it.' Since the baker cannot disprove a negative, and the claimant cannot prove the grain was untithed, the baker owes nothing.",
+        en: "for the terumat maaser within the first tithe - that he must give to a priest, since there is a prohibition, and the sin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -19674,12 +19675,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 5,
         he: "מיתה באכילתה וללוי ועני יאמר הביאו",
-        en: "Rashi on 'they separate maaser sheni and bring it up and eat it in Jerusalem': even for dema'i grain, maaser sheni must be separated and taken to Jerusalem (or redeemed). But bakers: the parhedrin (government enforcers) beat them every 12 months and forced low prices.",
+        en: "of death in eating it; but to the Levite and the poor man he may say: bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l05"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19688,12 +19689,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 6,
         he: "ראיה שלא עישר עם הארץ שלקחתי",
-        en: "Rashi: 'the parhedrin beat them' - government officials would come to the bakers each year (when their term renewed) and demand they sell bread at low, controlled prices. This was an economic burden.",
+        en: "proof that the am haaretz from whom I bought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l05"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19702,12 +19703,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 7,
         he: "ממנו: נפרשו ונסקו. שהרי יש בו",
-        en: "Rashi: 'the Rabbis did not burden them' - since bakers were already oppressed by government price controls, the Rabbis chose not to add the requirement of tracking and separating dema'i maaser sheni. Compassion for the oppressed is built into the ruling.",
+        en: "did not tithe. 'Let them separate it and bring it up' - for it carries",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l05"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19716,12 +19717,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 8,
         he: "איסור לא תוכל לאכול בשעריך",
-        en: "Rashi: 'parhedrin means pursei - government officials/constables' - clarifying that in this context 'parhedrin' does not mean Persian governors (as in the Lishkat Parhedrin discussion) but government enforcement officials who collect and pressure merchants.",
+        en: "the prohibition of 'you may not eat it within your gates';",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l08"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19730,12 +19731,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 9,
         he: "יפרישו כדי לתקן טבלו הואיל ולא",
-        en: "Rashi on 'Rabba bar bar Chana said in R. Yochanan's name': citing the Proverbs verse about fear of God and the years of the wicked, R. Yochanan applies it to compare the two Temple periods.",
+        en: "let them separate it so as to fix its tevel, since they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l08"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19744,12 +19745,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 10,
         he: "פסדי ביה מידי דהא אינהו נפשייהו",
-        en: "Rashi: 'fear of God adds days' = the First Temple, which stood 410 years. 'Only 18 High Priests served in it' - meaning 18 in the whole 410-year period, approximately 23 years per High Priest on average.",
+        en: "lose nothing by it, for they themselves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l08"
+          "yoma-009a-l02"
         ]
       },
       {
@@ -19758,12 +19759,13 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 11,
         he: "הדר קא אכלי ליה בירושלים: חובטין",
-        en: "Rashi: 'and the years of the wicked will be shortened' = the Second Temple, which stood 420 years - 10 years more than the First. Yet 'more than 300 High Priests served in it,' meaning they averaged less than two years each.",
+        en: "then eat it in Jerusalem. 'Beat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l08"
+          "yoma-009a-l02",
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19772,12 +19774,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 12,
         he: "אותן. (מן) הנחתומין כל י\"ב חודש",
-        en: "Rashi: 'go out and calculate' - the Gemara instructs the reader to do the arithmetic: subtract the long-serving High Priests from the total. What remains shows the shocking average for the rest.",
+        en: "them' - the bakers, all twelve months;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l08"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19786,12 +19788,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 13,
         he: "משנה לשנה הממונים מתחדשין",
-        en: "Rashi: '40 years that Shimon HaTzaddik served' - Shimon the Righteous was one of the longest-serving and most celebrated of the Second Temple High Priests. His 40-year tenure was exceptional in the Second Temple context.",
+        en: "from year to year the appointees are replaced,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l13"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19800,12 +19802,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 14,
         he: "ומכבידין למצוא עלילות לגבות ממון",
-        en: "Rashi: '80 years that Yochanan [High Priest] served' - Yochanan is discussed in tractate Berachot as having eventually turned to heresy (some identify him as Yochanan Hyrcanus). His 80-year term was remarkable.",
+        en: "and they bear down to find pretexts to collect money",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l13"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19814,12 +19816,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 15,
         he: "כשהן מתחדשין: לא אטרחונהו.",
-        en: "Rashi: '10 years that Yishmael ben Favi served' - another exceptional Second Temple High Priest with a relatively stable term. Some manuscripts say 11 years for R. Elazar ben Charsum instead.",
+        en: "when they are newly appointed. 'They did not burden them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l13"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19828,12 +19830,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 16,
         he: "וסמכו לומר שרוב עמי הארץ",
-        en: "Rashi: 'from here on, go out and count: each one did not complete his year' - after the four long-serving High Priests are subtracted, all the remaining 300+ served less than one year each. This is the devastating arithmetic of Second Temple corruption.",
+        en: "and they relied on saying that most amei haaretz",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l13"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19842,12 +19844,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 17,
         he: "מעשרין הן: פורסי. פקידי המלך:",
-        en: "Rashi on 'R. Yochanan ben Torta said: why was Shiloh destroyed?' - Shiloh was the location of the Tabernacle before the Temple was built in Jerusalem. Its destruction (by the Philistines who captured the Ark) is the precursor to the Temple destruction discussions.",
+        en: "do tithe. 'Pursei' - officers of the king.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l17"
+          "yoma-009a-l05"
         ]
       },
       {
@@ -19856,12 +19858,12 @@ const DAF_CONTENT = {
         daf: "9a",
         vilnaLine: 18,
         he: "ששהו",
-        en: "Rashi: 'because of two things that were in it: giluy arayot and bizayon kodashim' - two categories of sin. Giluy arayot: the behavior of Eli's sons with the women. Bizayon kodashim: taking meat before the fat was burned, disrespecting the sacrificial process.",
+        en: "That they delayed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009a-l17"
+          "yoma-009a-l22"
         ]
       }
     ],
