@@ -41,7 +41,17 @@ YSCRIPTS = REPO / "modules" / "yoma" / "scripts"
 YROOT = REPO / "modules" / "yoma"
 MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 
-RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment", "placeholder-backfill"}
+RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
+               "placeholder-backfill", "rashi-structural-repair"}
+STRUCTURAL_TYPE = "rashi-structural-repair"
+
+
+def structure_authorized(m, spec):
+    """True only for a structural-repair manifest carrying the explicit
+    allowStructure authorization. No other task type can ever pass the
+    --allow-structure flag to the Rashi scope validator."""
+    return (m.get("type") == STRUCTURAL_TYPE
+            and "allowStructure" in m.get("authorizations", []))
 DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
 CONTENT_PREFIXES = ("modules/yoma/assets/learning/", "modules/yoma/assets/literal_en/",
                     "modules/yoma/assets/talmuddev/", "modules/yoma/assets/daftexts/")
@@ -250,6 +260,10 @@ def cmd_preflight(opts):
     errors, notes = [], []
     if m.get("paused"):
         errors.append(f"task type {m['type']!r} is PAUSED; requires explicit unpausing (registry change)")
+    for req in spec.get("requiredAuthorizations", []):
+        if req not in m.get("authorizations", []):
+            errors.append(f"task type {m['type']!r} requires the explicit --authorize {req} "
+                          f"authorization on the manifest (Fable-issued only)")
 
     dirty = sh(["git", "status", "--porcelain"]).stdout.strip()
     branch = sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip()
@@ -487,8 +501,15 @@ def cmd_scope(opts):
         errors.append(f"task type {m['type']} permits no file changes; {len(changed)} file(s) changed")
 
     if m["type"] in RASHI_TYPES:
-        # Field-level enforcement reuses the proven Rashi validator.
-        r = sh([sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base], cwd=YSCRIPTS.parent)
+        # Field-level enforcement reuses the proven Rashi validator. Only a
+        # structural-repair manifest with the explicit allowStructure
+        # authorization may relax the structure rules; every other type
+        # (Haiku or Sonnet manifests included) gets the strict contract.
+        scope_cmd = [sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base]
+        if structure_authorized(m, spec):
+            scope_cmd.append("--allow-structure")
+            print("NOTE: allowStructure authorization active (rashi-structural-repair manifest).")
+        r = sh(scope_cmd, cwd=YSCRIPTS.parent)
         if r.returncode != 0:
             errors.append("check_rashi_pr_scope failed:\n" + r.stdout[-1200:])
         max_batch = m.get("maxBatch")
@@ -554,7 +575,7 @@ def cmd_verify(opts):
             profs = []
         bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("haikuSafe")]
         print(f"post-edit drift profile: {', '.join(bad) if bad else 'all targets aligned'}")
-        if m["type"] in ("rashi-realignment", "rashi-reconstruction"):
+        if m["type"] in ("rashi-realignment", "rashi-reconstruction", STRUCTURAL_TYPE):
             results.append(("drift-profile", not bad and bool(profs)))
     else:
         r = sh(["npm", "run", "validate:offline:yoma"])
@@ -715,11 +736,29 @@ def gather_review_conditions(m, spec, base):
         notes.append(f"learning JSONs changed: {learn_changed or 'none'} (expected exactly [{expected}])")
 
     # Scope: structure, Hebrew, forbidden fields, file set (reuses the
-    # hard Rashi validator via cmd_scope semantics).
-    r = sh([sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base], cwd=YROOT)
+    # hard Rashi validator via cmd_scope semantics). Structure relaxation
+    # exists ONLY for an explicitly authorized structural-repair manifest.
+    scope_cmd = [sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base]
+    if structure_authorized(m, spec):
+        scope_cmd.append("--allow-structure")
+    r = sh(scope_cmd, cwd=YROOT)
     conditions["scope-clean-no-structure-no-hebrew-no-forbidden-fields"] = r.returncode == 0
     if r.returncode != 0:
         notes.append("check_rashi_pr_scope failed:\n" + r.stdout[-800:])
+
+    # Structural repair exists to restore 1:1 raw correspondence: entry
+    # count and vilnaLine sequence must match the authoritative source
+    # exactly after the pass.
+    if m["type"] == STRUCTURAL_TYPE:
+        tpath = YROOT / "assets" / "talmuddev" / f"{target}.json"
+        raw_n = len([l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()])
+        lp = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+        ent = json.loads(lp.read_text()).get("rashiTranslations", []) if lp.exists() else []
+        seq_ok = [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1))
+        conditions["entry-count-and-order-match-raw"] = len(ent) == raw_n and seq_ok
+        if not (len(ent) == raw_n and seq_ok):
+            notes.append(f"rashiTranslations {len(ent)} entries vs {raw_n} raw lines "
+                         f"(sequence {'ok' if seq_ok else 'broken'})")
 
     # Allowlist delta: additions are forbidden anywhere; removals only on
     # the target daf (a removal that survives the content gate green was by
@@ -761,11 +800,19 @@ def gather_review_conditions(m, spec, base):
     if empty:
         notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
 
+    # Post-edit drift: realignment/reconstruction must restore full
+    # alignment; structural repair on an anchor-poor daf may legitimately
+    # profile INSUFFICIENT-ANCHORS, so it requires haiku-safe instead.
     prof = ars.profile_daf(target, ars.load_allowlisted())
     cls = prof["classification"] if prof else "NO-PROFILE"
-    conditions["drift-profile-ALIGNED"] = cls == "ALIGNED"
-    if cls != "ALIGNED":
-        notes.append(f"post-edit drift profile is {cls}, not ALIGNED")
+    if m["type"] == STRUCTURAL_TYPE:
+        conditions["drift-profile-ALIGNED"] = bool(prof) and prof.get("haikuSafe", False)
+        if not (prof and prof.get("haikuSafe")):
+            notes.append(f"post-edit drift profile is {cls}, not haiku-safe")
+    else:
+        conditions["drift-profile-ALIGNED"] = cls == "ALIGNED"
+        if cls != "ALIGNED":
+            notes.append(f"post-edit drift profile is {cls}, not ALIGNED")
 
     ra = sh([sys.executable, "scripts/audit_rashi_semantic.py", target], cwd=YROOT)
     conditions["semantic-audit-zero-shift-candidates"] = "0 shift candidate(s)" in ra.stdout
@@ -1055,6 +1102,9 @@ def cmd_docs(opts):
                  + pol_txt)
         L.append(f"- haiku allowed: {'yes' if s.get('haikuAllowed') or s.get('model') in ('haiku', 'haiku-with-fable-review') else 'no'}")
         L.append(f"- max batch: {s.get('maxBatch', 1 if s.get('requiresTarget') else 'n/a')}")
+        if s.get("requiredAuthorizations"):
+            L.append(f"- REQUIRED authorization: {', '.join(s['requiredAuthorizations'])} "
+                     f"(Fable-issued; preflight fails without it)")
         L.append(f"- allowed files: {', '.join(s['allowedFiles']) or 'none (read-only task)'}")
         if s.get("jsonScope"):
             L.append(f"- mutable JSON paths: {', '.join(s['jsonScope']['mutable'])}")

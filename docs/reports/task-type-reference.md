@@ -268,6 +268,34 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
   - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content
 
+## rashi-structural-repair
+
+Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.
+
+- model: fable; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- haiku allowed: no
+- max batch: 1
+- REQUIRED authorization: allowStructure (Fable-issued; preflight fails without it)
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- mutable JSON paths: rashiTranslations
+- allowlist policy: remove-only; structure policy: explicit-allowStructure-required
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
+- stop conditions:
+  - authoritative line ownership is ambiguous across a daf boundary
+  - source files disagree materially
+  - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
+  - required packet id missing, or packet segment text truncated or incomplete
+  - the repair would require changing more than one daf in the same PR
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)
+  - a semantic audit shift candidate remains on the target daf
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
+
 ## structural-repair
 
 Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Fable only.

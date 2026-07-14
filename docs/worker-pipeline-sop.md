@@ -285,6 +285,17 @@ queue derivation mechanics, and the no-direct-push guarantees.
   and an unidentifiable target segment is an escalation trigger on all
   four Rashi task types. Tests: npm run test:packet:yoma (in npm
   test).
+- Structural changes to rashiTranslations (entry count, vilnaLine
+  sequence) are possible ONLY under the rashi-structural-repair task
+  type (VERSION 15.97): model fable, one daf per PR, conditional
+  review, and a REQUIRED explicit allowStructure authorization on the
+  manifest (preflight fails without it; no other task type can mint or
+  carry that authorization, so ordinary Haiku or Sonnet manifests can
+  never make structural or count changes). Its review gate additionally
+  requires exact post-repair entry-count and vilnaLine parity with the
+  authoritative talmuddev raw lines, and accepts INSUFFICIENT-ANCHORS
+  alongside ALIGNED for the drift condition (anchor-poor daf cannot
+  manufacture citations). Tests: test:policy.
 - Drift gate: `audit:rashi:drift:yoma` classifies every daf (SHIFTED /
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
