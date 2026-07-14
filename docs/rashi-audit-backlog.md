@@ -5636,3 +5636,44 @@ Post-repair profile: ALIGNED, 5 anchors found, 0 missing, all offsets
 zero (previously up to +2). Corpus semantic audit: 0 shift candidates.
 Remaining open items are unchanged: 61a/67b-71b stubs, 77a-88a filler.
 47a remains paused.
+
+### 47a-52b Rashi semantic recovery campaign opened (VERSION 15.102), 47a reconstructed (rashi-reconstruction, Sonnet worker)
+
+The 47a pause is lifted. Fresh diagnosis (raw count, current entries,
+full segment table, drift profile) confirmed the daf's prior "suspected
+reconstruction" lead: all 64 rashiTranslations entries were completely
+unlinked and the English was 100 percent fabricated thematic narration
+unrelated to the actual raw Hebrew (for example, closing with "47a is
+one of the most humanly memorable pages of the Yoma tractate"). No
+partial salvage was possible; classified rashi-reconstruction.
+
+Rebuilt all 64 entries against the raw Hebrew and the 19-id local
+segment table: vl1-6 the spoon/coal-pan Gemara and its Leviticus 16
+proof text (l01, l05, l13); vl7-13 the nesi'im comparison and the
+great/small-quantity hand-assignment reasoning (l20, l24); vl14-24 the
+Kimchit zered/arsan etymology including a Berachot 37a citation at
+vl19 (l27); vl25-32 the alternate "sh'chivat zera" etymology with a
+Ruth 3 citation (l32); vl33-34 the Yom Kippur/tzinnora scene-setting,
+dual-linked to l35 and l37 since the identical phrase recurs in both
+Kimchit-son incidents; vl35-38 the Yerushalmi citation glossing
+Kimchit's own words (l40); vl39-42 the kumtzo-baraita text and its
+gloss (l43); vl43-48 the chofnav/kumtzo distinction and its gezeirah
+shavah, dual-linked at the vl48 seam into l45; vl49-55 the "kach hayta
+midatah" resolution, dual-linked at vl54 into l47a's forward citation
+to 49a; vl56-60 the "dilma" alternative reading, dual-linked at the
+seam into l48; vl61-63 closing the kometz baraita (l48). vl64
+("uvmachavat") was checked against 47b's actual first raw Rashi line
+(confirmed from source): it extends l48's just-closed kometz-precision
+rule to griddle/pan offerings, so it is linked to l48 as a genuine
+boundary continuation, truncated at the daf edge and continuing on
+47b, not a positional catch-all.
+
+All 5 of the semantic audit's citation anchors (Leviticus 16, Berachot
+37a, Leviticus 2, the 49a forward-citation) now land at offset 0
+(previously +24, missing, -19, missing). Post-repair profile: ALIGNED,
+5 anchors found, 0 missing. Corpus semantic audit: 0 shift candidates.
+No allowlist entries existed for 47a to remove. This opens the
+47a-52b recovery campaign (queue committed in .worker-queue.json);
+remaining targets: 47b, 48a, 48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a,
+52b. 61a/67b-71b stubs and 77a-88a filler remain open and out of
+scope for this campaign.

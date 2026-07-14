@@ -107553,11 +107553,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 1,
         he: "הוציאו לו. מלשכת הכלים: וכך היתה מדתה. מפרש בגמ':",
-        en: "The spoon and coal pan were brought out to the High Priest in the space between the vestibule and the altar.",
+        en: "Rashi: opens - 'they brought out to him' - from the vessel chamber. 'And such was its measure' - explained in the Gemara:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l01"
+        ]
       },
       {
         id: "rashi-yoma-047a-002",
@@ -107565,11 +107567,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 2,
         he: "גמ' מחתה דקטורת. לחפון מתוכה: לעייל. מחתה",
-        en: "The spoon was brought first, then the coal pan.",
+        en: "Rashi: continues - Gemara: 'a coal pan' of incense, to scoop from within it. 'Let him bring in' the coal pan,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l05"
+        ]
       },
       {
         id: "rashi-yoma-047a-003",
@@ -107577,11 +107581,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 3,
         he: "והדר נעייל קטורת בחפניו: הבאה אחת אמר רחמנא. בגחלים",
-        en: "The Gemara is surprised: a 'spoon' (kaf) is normally used for liquids, not dry incense.",
+        en: "Rashi: continues - and then bring in the incense in his handfuls: 'one bringing' said the Merciful One, regarding the coals",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l13"
+        ]
       },
       {
         id: "rashi-yoma-047a-004",
@@ -107589,11 +107595,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 4,
         he: "ובקטורת ולא שתי הבאות דכתיב (ויקרא טז) ולקח א] הכהן מלא",
-        en: "Answer: a special incense spoon was required because it is impossible to scoop dry powder with bare hands.",
+        en: "Rashi: continues - and the incense, not two bringings, as it is written (Leviticus 16): 'and the priest shall take a fill'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l13"
+        ]
       },
       {
         id: "rashi-yoma-047a-005",
@@ -107601,11 +107609,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 5,
         he: "המחתה גחלי אש מעל המזבח ומלא",
-        en: "The incense is poured from the spoon into the cupped hands of the High Priest.",
+        en: "Rashi: continues - of the coal pan of coals of fire from the altar, and a fill",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l13"
+        ]
       },
       {
         id: "rashi-yoma-047a-006",
@@ -107613,11 +107623,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 6,
         he: "חפניו וגו' והביא מבית לפרוכת:",
-        en: "He scoops 'his handfuls' - both hands together, cupped, held below the spoon as it pours.",
+        en: "Rashi: continues - of his handfuls, etc., and he shall bring it within the veil:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l13"
+        ]
       },
       {
         id: "rashi-yoma-047a-007",
@@ -107625,11 +107637,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 7,
         he: "כדאשכחן בנשיאים. כף אחת מלאה",
-        en: "The Mishna says this is the most difficult service in the Temple.",
+        en: "Rashi: continues - as we find regarding the nesi'im: one spoon full",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l20"
+        ]
       },
       {
         id: "rashi-yoma-047a-008",
@@ -107637,11 +107651,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 8,
         he: "קטרת: מרובה. וכבידה ליקח צריכה",
-        en: "Why most difficult? The physical mechanics require extraordinary dexterity.",
+        en: "Rashi: continues - of incense: 'great in quantity' - and being heavy to take, it requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-009",
@@ -107649,11 +107665,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 9,
         he: "ימין: אפי' בזמן ששניהם שוין. כהן",
-        en: "He holds the spoon with his thumbs and little fingers while the middle three fingers cup the incense.",
+        en: "Rashi: continues - the right hand: 'even when they are both equal' - a priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-010",
@@ -107661,11 +107679,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 10,
         he: "שחפניו גדולים וחופן שלשת קבין",
-        en: "Even a small amount of spilled incense invalidates the service.",
+        en: "Rashi: continues - whose handfuls are large and scoops three kabin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-011",
@@ -107673,11 +107693,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 11,
         he: "אפילו הכי כיון דברוב כהנים גדולים",
-        en: "The High Priest practiced this act for months before Yom Kippur.",
+        en: "Rashi: continues - even so, since for the majority of priests",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-012",
@@ -107685,11 +107707,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 12,
         he: "גחלים מרובים מחפניו נוטל כף",
-        en: "The Gemara describes the exact body position required for this act.",
+        en: "Rashi: continues - the coals are more than his handfuls, he takes a spoon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-013",
@@ -107697,11 +107721,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 13,
         he: "בשמאל: קימחית. שם אמו: עלה",
-        en: "He bends forward slightly to allow the middle fingers to cup beneath the spoon.",
+        en: "Rashi: continues - in the left hand. 'Kimchit' - his mother's name: 'went up'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l24"
+        ]
       },
       {
         id: "rashi-yoma-047a-014",
@@ -107709,11 +107735,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 14,
         he: "לגג. גבר על כולן: איכא דאמרי.",
-        en: "The spoon handle is gripped firmly so it does not rotate while pouring.",
+        en: "Rashi: continues - 'to the roof' - surpassed them all: some say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-015",
@@ -107721,11 +107749,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 15,
         he: "האי זרד בערסן קאמר ויפה הוא",
-        en: "Coal pan in the right hand: the right hand is dominant and handles the heavier vessel.",
+        en: "Rashi: continues - this 'zered' he said with reference to arsan, and it is good",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-016",
@@ -107733,11 +107763,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 16,
         he: "לחולה וסתם נשים מעוברות חולות",
-        en: "Incense ladle in the left hand: the lighter vessel in the non-dominant hand.",
+        en: "Rashi: continues - for the sick, and typically pregnant women are unwell",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-017",
@@ -107745,11 +107777,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 17,
         he: "ואוכלות זריד וערסן שהן מיני",
-        en: "Inside the Holy of Holies, he sets the coal pan down and uses both hands to place incense on coals.",
+        en: "Rashi: continues - and eat zerid and arsan, which are types of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-018",
@@ -107757,11 +107791,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 18,
         he: "מאכל חיטין כדאמרינן במסכת",
-        en: "He must not spill any incense during the entire journey from the outer courtyard to inside.",
+        en: "Rashi: continues - wheat foods, as we say in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-019",
@@ -107769,11 +107805,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 19,
         he: "(ברכות (דף לז.)) חילקא חיטי",
-        en: "The aggadah of Kimhit: she had seven sons, all of whom served as High Priest.",
+        en: "Rashi: continues - Berachot (37a): chilka wheat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-020",
@@ -107781,11 +107819,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 20,
         he: "דמיתברי באסיתא לתרי תרי טרגיס",
-        en: "The Sages asked her: what merit did you have? She answered: the beams of my house never saw my hair.",
+        en: "Rashi: continues - that is broken in a mortar into two pieces is called targis,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-021",
@@ -107793,11 +107833,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 21,
         he: "לתלת תלת זריד לארבע ארבע ערסן",
-        en: "Her modesty went beyond the legal requirement - even inside her home, she covered her hair.",
+        en: "Rashi: continues - into three pieces zerid, into four pieces arsan,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-022",
@@ -107805,11 +107847,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 22,
         he: "לחמש חמש והכי קאמר כל הנשים",
-        en: "The Sages said: many women did the same without this result - your modesty was exceptional.",
+        en: "Rashi: continues - into five pieces [a further name]; and this is what it means: all the women",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-023",
@@ -107817,11 +107861,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 23,
         he: "מעוברות תקנו להם זריד וערסן",
-        en: "The exceptional level of her modesty (not just complying but going beyond) earned the exceptional reward.",
+        en: "Rashi: continues - who are pregnant, they instituted for them zerid and arsan",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-024",
@@ -107829,11 +107875,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 24,
         he: "להברות אותן והעוברים ואותן של",
-        en: "One of her sons became impure during Yom Kippur service from a Gentile's spittle.",
+        en: "Rashi: continues - to sustain them and the fetuses, and that of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l27"
+        ]
       },
       {
         id: "rashi-yoma-047a-025",
@@ -107841,11 +107889,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 25,
         he: "אמי גבר על כולן: איכא דאמרי",
-        en: "Spittle of a Gentile transmits tumah - a rabbinic decree.",
+        en: "Rashi: continues - my mother surpassed them all: some say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-026",
@@ -107853,11 +107903,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 26,
         he: "בשכבת זרע. קאמר שאין יצירת",
-        en: "On that Yom Kippur, her other son served as High Priest in his brother's place.",
+        en: "Rashi: continues - regarding semen, he said, that the formation of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-027",
@@ -107865,11 +107917,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 27,
         he: "הוולד מכל הטיפה אלא מן הבירור",
-        en: "This happened twice (two different sons were replaced on two different Yom Kippurim).",
+        en: "Rashi: continues - the offspring is not from the entire drop, but from the refined part",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-028",
@@ -107877,11 +107931,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 28,
         he: "שבה זרד לשון חבילי זרדים טודי\"ל",
-        en: "Transition to the kometz baraita: 'he shall take from it his handfuls' (Lev. 2:2).",
+        en: "Rashi: continues - within it; 'zered' is a term related to bundles of willow branches, in the vernacular 'todil'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-029",
@@ -107889,11 +107945,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 29,
         he: "כלומר בירור טיפה שקלטה אמי",
-        en: "The baraita analyzes 'his handfuls': I might think a full fist - the verse says 'handfuls' to exclude excess.",
+        en: "Rashi: continues - meaning: the refined drop that my mother absorbed;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-030",
@@ -107901,11 +107959,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 30,
         he: "הזרד גדל ועלה לגג: ותזרני.",
-        en: "'Handfuls' (plural form) but meaning the three middle fingers, not the entire palm closed.",
+        en: "Rashi: continues - that refinement grew and went up to the roof. 'And You have girded me' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-031",
@@ -107913,11 +107973,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 31,
         he: "לשון זורה את גורן השעורים (רות",
-        en: "I might think just the fingertips - the verse implies a proper cupping, not just touching.",
+        en: "Rashi: continues - a term related to 'winnowing the threshing floor of barley' (Ruth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-032",
@@ -107925,11 +107987,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 32,
         he: "ג) מברר את הטיפה: וזירזתני.",
-        en: "The three middle fingers cupped: this is the exact kometz measure.",
+        en: "Rashi: continues - 3): selecting the drop. 'And You have made me alert' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l32"
+        ]
       },
       {
         id: "rashi-yoma-047a-033",
@@ -107937,11 +108001,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 33,
         he: "הזרתני מן הבירור שבה: פעם אחת.",
-        en: "The exclusions from both extremes narrow to the precise middle-finger-cup amount.",
+        en: "Rashi: continues - You selected me from the refinement within it. 'One time' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l35"
+        ]
       },
       {
         id: "rashi-yoma-047a-034",
@@ -107949,11 +108015,14 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 34,
         he: "יוה\"כ היה: צינורא. רוק: לא ראו",
-        en: "The kometz measure applies to both meal-offerings (mincha) and the Yom Kippur incense.",
+        en: "Rashi: continues - it was Yom Kippur. 'Tzinnora' - spittle: 'they did not see'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l35",
+          "yoma-047a-l37"
+        ]
       },
       {
         id: "rashi-yoma-047a-035",
@@ -107961,11 +108030,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 35,
         he: "קורות ביתי כו'. ראיתי בהש\"ס",
-        en: "'His handfuls': specifically his hands - not a vessel. The human hand is the measuring tool.",
+        en: "Rashi: continues - 'the beams of my house,' etc. I saw in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l40"
+        ]
       },
       {
         id: "rashi-yoma-047a-036",
@@ -107973,11 +108044,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 36,
         he: "ירושלמי כל כבודה בת מלך פנימה",
-        en: "This means the kometz quantity varies by person - larger hands = more incense.",
+        en: "Rashi: continues - Jerusalem Talmud: 'all glorious is the king's daughter within,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l40"
+        ]
       },
       {
         id: "rashi-yoma-047a-037",
@@ -107985,11 +108058,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 37,
         he: "ממשבצות זהב לבושה אשה צנועה",
-        en: "The Torah deliberately used the human body as the measure, not a standardized vessel.",
+        en: "Rashi: continues - 'her clothing is of wrought gold' - a modest woman",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l40"
+        ]
       },
       {
         id: "rashi-yoma-047a-038",
@@ -107997,11 +108072,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 38,
         he: "ראויה לצאת ממנה כהן גדול הלבוש",
-        en: "The next baraita deals with what 'his' means - specifically this kohen's hands, not another's.",
+        en: "Rashi: continues - is worthy to have emerge from her a High Priest clothed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l40"
+        ]
       },
       {
         id: "rashi-yoma-047a-039",
@@ -108009,11 +108086,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 39,
         he: "משבצות זהב: הכי גרסינן תנו רבנן",
-        en: "If a kohen scooped with another kohen's hands, it would be invalid.",
+        en: "Rashi: continues - in wrought gold. This is our reading: 'our Rabbis taught'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l43"
+        ]
       },
       {
         id: "rashi-yoma-047a-040",
@@ -108021,11 +108100,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 40,
         he: "בקומצו שלא יעשה מדה לקומץ. והרים",
-        en: "The 'his' in 'his handfuls' is possessive: this specific priest's own hands.",
+        en: "Rashi: continues - 'with his fist' - that he should not make a vessel for the fistful. 'And he shall lift'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l43"
+        ]
       },
       {
         id: "rashi-yoma-047a-041",
@@ -108033,11 +108114,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 41,
         he: "ממנו בקומצו ולא שיעשה כלי למידת",
-        en: "Application to the Yom Kippur incense: only the High Priest's hands, not a substitute's.",
+        en: "Rashi: continues - from it with his fist, and not that he should make a vessel for measuring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l43"
+        ]
       },
       {
         id: "rashi-yoma-047a-042",
@@ -108045,11 +108128,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 42,
         he: "קומצו וימדוד בו קומץ מן המנחה:",
-        en: "This is one reason the Yom Kippur service cannot be fully delegated - the body of the High Priest is required.",
+        en: "Rashi: continues - his fistful and measure with it a fistful from the meal offering:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l43"
+        ]
       },
       {
         id: "rashi-yoma-047a-043",
@@ -108057,11 +108142,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 43,
         he: "אבל הכא לא כתיב בחפניו. ואם",
-        en: "The next page will continue with dilemmas about the kometz.",
+        en: "Rashi: continues - but here it is not written 'with his handfuls.' And if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44"
+        ]
       },
       {
         id: "rashi-yoma-047a-044",
@@ -108069,11 +108156,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 44,
         he: "עשה מדה מחזקת חפינתו מלא חפניו",
-        en: "47a concludes with the kometz mechanics and the Kimhit aggadah fully developed.",
+        en: "Rashi: continues - he made a vessel holding his handful's capacity, still a full handful",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44"
+        ]
       },
       {
         id: "rashi-yoma-047a-045",
@@ -108081,11 +108170,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 45,
         he: "והביא קרינן ביה: יליף מלא. דכתיב",
-        en: "The juxtaposition of legal detail (kometz) and aggadic merit (Kimhit) is typical Talmudic style.",
+        en: "Rashi: continues - 'and he shall bring' - we still read it as valid: or we derive 'full' [by verbal analogy], as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44"
+        ]
       },
       {
         id: "rashi-yoma-047a-046",
@@ -108093,11 +108184,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 46,
         he: "קרא אחרינא וקמץ משם מלא קומצו",
-        en: "Both teach the same value: precision and care in Temple service and in personal conduct.",
+        en: "Rashi: continues - in another verse: 'and he shall take a fistful from there, a full fistful'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44"
+        ]
       },
       {
         id: "rashi-yoma-047a-047",
@@ -108105,11 +108198,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 47,
         he: "(ויקרא ב) מה להלן בקומצו יקמוץ ולא",
-        en: "The High Priest's hands are irreplaceable; Kimhit's modesty was irreplaceable. Both earned distinction.",
+        en: "Rashi: continues - (Leviticus 2): just as there, 'with his fist he shall take a fistful' and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44"
+        ]
       },
       {
         id: "rashi-yoma-047a-048",
@@ -108117,11 +108212,14 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 48,
         he: "במדה אף כאן בחפניו: מאי לאו. וכך",
-        en: "47a is a rich page combining legal precision with personal piety narrative.",
+        en: "Rashi: continues - with a vessel, so too here with his handfuls. 'Does this not mean' - and thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l44",
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-049",
@@ -108129,11 +108227,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 49,
         he: "היתה מדתה דקתני הכי קאמר אם בא",
-        en: "The physical difficulty of the kometz mirrors the spiritual demand of the Yom Kippur moment.",
+        en: "Rashi: continues - 'was its measure,' which was taught - this is what it means: if he came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-050",
@@ -108141,11 +108241,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 50,
         he: "לעשות מדה לחפינה כן יעשה הגדול",
-        en: "The connection between Kimhit's sons and the Yom Kippur service is direct: her piety enabled theirs.",
+        en: "Rashi: continues - to make a measure for the handful, he may do so; the large one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-051",
@@ -108153,11 +108255,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 51,
         he: "לפי גדלו והקטן לפי קטנו: לא הכי",
-        en: "The Gemara presents this not as coincidence but as reflecting a deep principle of merit.",
+        en: "Rashi: continues - according to his size, and the small one according to his size: no, this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-052",
@@ -108165,11 +108269,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 52,
         he: "קאמר וכך היה חוזר וחופנה לפנים.",
-        en: "Merit does not guarantee outcomes but creates the spiritual conditions for them.",
+        en: "Rashi: continues - what it means: and thus he would go back and scoop it inward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-053",
@@ -108177,11 +108283,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 53,
         he: "מערה אותה לתוך חפניו מן הכף",
-        en: "Seven sons as High Priests - an unprecedented concentration - required an unprecedented merit.",
+        en: "Rashi: continues - he would pour it into his handfuls from the spoon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45"
+        ]
       },
       {
         id: "rashi-yoma-047a-054",
@@ -108189,11 +108297,14 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 54,
         he: "ונותנה על הגחלים שבמחתה: שמעית",
-        en: "The Gemara then continues with the technical kometz baraita.",
+        en: "Rashi: continues - and place it on the coals in the coal pan. 'You may derive'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l45",
+          "yoma-047a-l47a"
+        ]
       },
       {
         id: "rashi-yoma-047a-055",
@@ -108201,11 +108312,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 55,
         he: "מינה כו'. ולקמן (דף מט.) בעינן לה:",
-        en: "The transition from Kimhit to kometz shows how personal narrative informs legal understanding.",
+        en: "Rashi: continues - from this, etc.; and further on (49a) we need it:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47a"
+        ]
       },
       {
         id: "rashi-yoma-047a-056",
@@ -108213,11 +108326,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 56,
         he: "דילמא שאם רצה כו'. כלומר לא",
-        en: "The High Priest's hands scooping the incense parallel Kimhit's modesty: both are acts of personal precision.",
+        en: "Rashi: continues - 'or perhaps that if he wanted,' etc. - meaning, not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47b"
+        ]
       },
       {
         id: "rashi-yoma-047a-057",
@@ -108225,11 +108340,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 57,
         he: "הא ולא הא תפשוט מינה דדחינן",
-        en: "Both demand that the person themselves - not a vessel, not a proxy - perform the essential act.",
+        en: "Rashi: continues - this nor that can be resolved from it, for we push it off",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47b"
+        ]
       },
       {
         id: "rashi-yoma-047a-058",
@@ -108237,11 +108354,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 58,
         he: "לך להכא ולהכא: אי נמי. הכי",
-        en: "47a ends with this principle stated in legal terms: his handfuls, his hands.",
+        en: "Rashi: continues - to here and to there. Alternatively: thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47b"
+        ]
       },
       {
         id: "rashi-yoma-047a-059",
@@ -108249,11 +108368,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 59,
         he: "קאמר כך היתה מדתה מלא חפניו",
-        en: "The next page will raise dilemmas about what happens when this precision is compromised.",
+        en: "Rashi: continues - it means: 'thus was its measure' - full handfuls,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47b"
+        ]
       },
       {
         id: "rashi-yoma-047a-060",
@@ -108261,11 +108382,14 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 60,
         he: "מצומצמין: מבורץ. מבצבצין מכל",
-        en: "The progression from Mishna to Gemara to aggadah to baraita is characteristic of Talmudic movement.",
+        en: "Rashi: continues - precisely measured. 'Mevorotz' - protruding on every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l47b",
+          "yoma-047a-l48"
+        ]
       },
       {
         id: "rashi-yoma-047a-061",
@@ -108273,11 +108397,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 61,
         he: "צד ויוצא: אי בקומצו. דדייקינן יכול",
-        en: "The reader leaves 47a with a vivid picture: the High Priest pinching the spoon, cupping the incense, surrounded by the sounds of the Temple on Yom Kippur.",
+        en: "Rashi: continues - side and sticking out. 'If with his fist' - for we infer, one might think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l48"
+        ]
       },
       {
         id: "rashi-yoma-047a-062",
@@ -108285,11 +108411,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 62,
         he: "בראשי אצבעותיו יקמוץ מעט וכל",
-        en: "Kimhit watching her sons serve - the mother whose modesty built a dynasty of kohanim gedolim.",
+        en: "Rashi: continues - with his fingertips he might scoop a little, and however",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l48"
+        ]
       },
       {
         id: "rashi-yoma-047a-063",
@@ -108297,11 +108425,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 63,
         he: "כמה דמחוסר טפי מעלי ת\"ל מלא:",
-        en: "Two images of greatness: physical precision and personal modesty.",
+        en: "Rashi: continues - much is missing, the better; the verse teaches 'a full':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l48"
+        ]
       },
       {
         id: "rashi-yoma-047a-064",
@@ -108309,11 +108439,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 64,
         he: "ובמחבת",
-        en: "47a is one of the most humanly memorable pages of the Yoma tractate.",
+        en: "Rashi: opens - 'and on a griddle and on a pan' - extending the same kometz-precision rule just closed (not heaped, not lacking) to griddle and pan offerings; the daf ends mid-word and the comment continues on 47b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l48"
+        ]
       }
     ],
     review: "reviewed"
