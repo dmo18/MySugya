@@ -63,6 +63,26 @@ def git_show(rev, path):
     return r.stdout if r.returncode == 0 else None
 
 
+def structural_deferral(wm_data, types, fresh):
+    """The single daf (as a set) whose rashiTranslations STRUCTURE may
+    change under a fresh, explicitly authorized rashi-structural-repair
+    manifest; empty otherwise. The manifest must be part of this PR
+    (fresh), be the structural type whose registry entry REQUIRES the
+    allowStructure authorization, carry that authorization, and target
+    exactly one daf. Any other manifest (realignment, repair, forged
+    authorizations, multi-target) grants nothing, so ordinary passes can
+    never change entry counts."""
+    wtype = wm_data.get("type")
+    spec = types.get(wtype, {})
+    if (fresh
+            and wtype == "rashi-structural-repair"
+            and "allowStructure" in wm_data.get("authorizations", [])
+            and "allowStructure" in spec.get("requiredAuthorizations", [])
+            and len(wm_data.get("targets", [])) == 1):
+        return set(wm_data["targets"])
+    return set()
+
+
 def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
     """Allowlist files may only shrink. Additions or new files require the
     explicit RASHI_ALLOWLIST_RESTRUCTURE=1 authorization (tooling PRs that
@@ -181,12 +201,20 @@ def main():
             print(f"NOTE: fresh {wtype} manifest present; deferring field rules for "
                   f"daf {sorted(deferred_daf)} to the worker pipeline jsonScope gate "
                   f"(which must also pass).")
+        structure_daf = structural_deferral(wm_data, types, fresh)
+        if structure_daf:
+            print(f"NOTE: fresh authorized rashi-structural-repair manifest present; "
+                  f"structure rules relaxed for daf {sorted(structure_daf)} ONLY "
+                  f"(the worker pipeline gates on that manifest must also pass).")
+    else:
+        structure_daf = set()
 
     # 2. Per-file structural diff
     for p in learn_changed:
         daf_name = p.split("/")[-1].replace(".learning.json", "")
         if daf_name in deferred_daf:
             continue
+        allow_structure_here = opts.allow_structure or daf_name in structure_daf
         base_text = git_show(base_rev, p)
         if base_text is None:
             errors.append(f"{p}: file does not exist at base; new files require --allow-structure")
@@ -207,12 +235,13 @@ def main():
         o_rt = old.get("rashiTranslations", [])
         n_rt = new.get("rashiTranslations", [])
         if len(o_rt) != len(n_rt):
-            if not opts.allow_structure:
+            if not allow_structure_here:
                 errors.append(f"{p}: /rashiTranslations length {len(o_rt)} -> {len(n_rt)} "
-                              f"(structure change requires --allow-structure)")
+                              f"(structure change requires --allow-structure or a fresh "
+                              f"authorized rashi-structural-repair manifest for this daf)")
             continue
         for i, (o, n) in enumerate(zip(o_rt, n_rt)):
-            if o.get("vilnaLine") != n.get("vilnaLine") and not opts.allow_structure:
+            if o.get("vilnaLine") != n.get("vilnaLine") and not allow_structure_here:
                 errors.append(f"{p}: /rashiTranslations/{i}/vilnaLine changed "
                               f"{o.get('vilnaLine')} -> {n.get('vilnaLine')}")
             for key in sorted(set(o) | set(n)):

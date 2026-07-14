@@ -326,6 +326,27 @@ def test_structural_repair_type():
               conds["entry-count-and-order-match-raw"] == expected)
 
 
+def test_structural_deferral_in_scope_validator():
+    print("scope validator structural deferral (single point of truth):")
+    sys.path.insert(0, str(REPO / "modules" / "yoma" / "scripts"))
+    from check_rashi_pr_scope import structural_deferral
+    types = wp.load_registry()
+    good = {"type": "rashi-structural-repair", "targets": ["8a"],
+            "authorizations": ["allowStructure"]}
+    check("fresh authorized single-target structural manifest grants its daf only",
+          structural_deferral(good, types, fresh=True) == {"8a"})
+    check("a STALE manifest grants nothing",
+          structural_deferral(good, types, fresh=False) == set())
+    check("a realignment manifest grants nothing even with a forged authorization",
+          structural_deferral({**good, "type": "rashi-realignment"}, types, True) == set())
+    check("missing authorization grants nothing",
+          structural_deferral({**good, "authorizations": []}, types, True) == set())
+    check("multi-target manifest grants nothing (one daf per PR)",
+          structural_deferral({**good, "targets": ["8a", "9a"]}, types, True) == set())
+    check("unknown type grants nothing",
+          structural_deferral({**good, "type": "nope"}, types, True) == set())
+
+
 def test_no_direct_main_push_anywhere():
     print("no automation path instructs a direct push to main:")
     src = (REPO / "scripts" / "worker_pipeline.py").read_text()
@@ -353,6 +374,7 @@ def main():
     test_prompt()
     test_queue()
     test_structural_repair_type()
+    test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
