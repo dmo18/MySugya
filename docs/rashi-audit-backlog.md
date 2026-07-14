@@ -5589,3 +5589,50 @@ Sotah 48a anchor found at offset 0 (previously missing entirely).
 Corpus semantic audit: 0 shift candidates. With 8a (VERSION 15.98/99)
 and 9a both repaired, the structural count-mismatch backlog is
 drained.
+
+### Repair record: 42a vilnaLine 25-52 relinked and rewritten (VERSION 15.101, rashi-realignment, Sonnet worker)
+
+The 42a vilnaLine 50 lead documented above (VERSION 15.79) turned out
+not to be an isolated placement issue once checked against current
+main and the raw Hebrew: the actual defect was a genuine multi-line
+block spanning vilnaLine 25-52 (28 of 52 entries). Lines 1-24 were
+reread and confirmed already correct (untouched).
+
+Two compounding problems, found by direct Hebrew-to-English and
+Hebrew-to-segment comparison rather than the anchor-based drift tool
+(which only found 5 sparse anchors and reported ALIGNED, too sparse to
+trigger its threshold): (1) linkedGemaraLineIds for 25-31 all pointed
+to l25 and for 32-52 all pointed to l32, a positional lazy fallback
+rather than semantic matching; (2) the English for lines 39-52 had
+drifted two raw lines ahead of its own vilnaLine (en39 was translating
+raw41's content, and so on down the block), which used up all the real
+untranslated content by en48 and left vl49-51 as generic
+non-translating filler ("[End of the detailed discussion...]", etc.)
+duplicating what vl52 already said correctly.
+
+Rebuilt each of lines 25-52 to translate its own numbered raw print
+line and relinked by direct phrase matching against the local segment
+table: 25-28 to l19 (continuing the Aharon/chukah Leviticus 16 verse
+citation already open at vilnaLine 19-24); 29-34 to l21 (continuing
+Rashi's own gloss on "shechitah lav avodah hi... shani parah dekidshei
+bedek habayit"); 35 dual-linked l21+l22 (the bridge phrase "velo chen
+dechen hu" quotes l22's "velo kol dechen hu" verbatim); 36-40 to l22
+(the negaim a fortiori and its Leviticus 13 citation); 41 dual-linked
+l22+l25 (concludes the Leviticus 13 citation, opens the "veshachat
+otah lefanav" quotation matching l25 verbatim); 42-44 to l25 (the
+Rav/Shmuel dispute over paro); 45 to l29 (exact match on "shelo yasiach
+da'ato mimenah"); 46-47 to l32 (quotes l32's "hashta hu demitkashra
+parah" verbatim); 48-51 to l36 (quotes l36's "lemautei mai" verbatim
+and continues the same Numbers 19 citation l36 itself was truncated
+mid-quoting); 52 unchanged (already correctly closed on l36 for the
+daf-boundary truncated "lemishmeret", the same word documented at
+VERSION 15.78). The originally flagged vilnaLine 50 is resolved as
+part of this same l36 continuation, not as a standalone lead. l16, the
+Gemara segment l31, and the second half of l29 (Shmuel's derivation)
+remain legitimately without a Rashi comment on this daf; no ids were
+invented, and no allowlist entries existed for 42a to remove.
+
+Post-repair profile: ALIGNED, 5 anchors found, 0 missing, all offsets
+zero (previously up to +2). Corpus semantic audit: 0 shift candidates.
+Remaining open items are unchanged: 61a/67b-71b stubs, 77a-88a filler.
+47a remains paused.
