@@ -91,6 +91,20 @@ packet embeds each daf's profile, and worker:verify enforces a clean
 post-edit profile for both rashi-realignment and rashi-reconstruction
 PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
 
+## Structural repair (VERSION 15.97)
+
+The baselined entry-count mismatches (8a: 41 entries vs 35 raw lines;
+9a: 22 vs 18) are structural defects: phantom entries with no raw-line
+anchor, not helper-content problems. They are handled ONLY by the
+rashi-structural-repair task type: Fable worker, one daf per PR,
+conditional review, and a REQUIRED explicit allowStructure manifest
+authorization; preflight fails without it, and no other task type can
+carry it, so ordinary line-level passes can never change entry counts.
+Post-repair, the review gate requires exact entry-count and vilnaLine
+parity with the talmuddev raw lines, semantic links for every entry,
+and the standard fresh self-review; the count-mismatch baseline entry
+is removed only when the content validator reports it stale.
+
 ## Conditional semantic review (VERSION 15.93)
 
 rashi-realignment and rashi-reconstruction no longer require an

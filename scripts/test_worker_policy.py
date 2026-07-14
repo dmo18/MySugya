@@ -244,6 +244,88 @@ def test_queue():
               r2.stdout == r.stdout)
 
 
+def test_structural_repair_type():
+    print("rashi-structural-repair task type:")
+    types = wp.load_registry()
+    s = types["rashi-structural-repair"]
+    check("model is fable", s["model"] == "fable")
+    check("escalation model is fable", s.get("escalationModel") == "fable")
+    check("review policy is conditional (self-review + auto-merge gate)",
+          wp.review_policy_of(s) == "conditional")
+    check("one daf per PR (maxBatch 1)", s.get("maxBatch") == 1)
+    check("allowStructure authorization is REQUIRED",
+          s.get("requiredAuthorizations") == ["allowStructure"])
+    check("mutable JSON surface is only rashiTranslations",
+          s.get("allowedJsonPaths") == ["rashiTranslations"])
+    check("allowlist policy stays remove-only", s["allowlistPolicy"] == "remove-only")
+    et = " | ".join(s["escalationTriggers"])
+    for needle in ("line ownership is ambiguous", "disagree materially",
+                   "more than one daf", "allowlist growth",
+                   "validator or workflow modification"):
+        check(f"escalation trigger covers '{needle}'", needle in et)
+
+    check("structure flag reserved to authorized structural manifests only",
+          wp.structure_authorized(
+              {"type": "rashi-structural-repair", "authorizations": ["allowStructure"]}, s)
+          and not wp.structure_authorized(
+              {"type": "rashi-realignment", "authorizations": ["allowStructure"]}, s)
+          and not wp.structure_authorized(
+              {"type": "rashi-structural-repair", "authorizations": []}, s))
+
+    with tempfile.TemporaryDirectory() as td:
+        # Ordinary types cannot even mint an allowStructure manifest.
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "rashi-realignment", "--module", "yoma",
+                            "--range", "8a", "--authorize", "allowStructure",
+                            "--out", str(Path(td) / "x.json")],
+                           capture_output=True, text=True, cwd=REPO)
+        check("realignment manifest cannot carry allowStructure", r.returncode != 0)
+
+        # A structural manifest WITHOUT the authorization fails preflight.
+        mpath = Path(td) / "m.json"
+        subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "rashi-structural-repair", "--module", "yoma",
+                        "--range", "8a", "--out", str(mpath)],
+                       capture_output=True, text=True, cwd=REPO)
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "preflight",
+                            "--manifest", str(mpath), "--dry-run"],
+                           capture_output=True, text=True, cwd=REPO)
+        check("preflight rejects structural manifest lacking allowStructure",
+              r.returncode != 0 and "requires the explicit --authorize allowStructure" in r.stdout)
+
+        # WITH the authorization the required-auth check is satisfied.
+        subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "rashi-structural-repair", "--module", "yoma",
+                        "--range", "8a", "--authorize", "allowStructure",
+                        "--out", str(mpath)],
+                       capture_output=True, text=True, cwd=REPO)
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "preflight",
+                            "--manifest", str(mpath), "--dry-run"],
+                           capture_output=True, text=True, cwd=REPO)
+        check("authorized structural manifest passes the required-auth check",
+              "requires the explicit --authorize" not in r.stdout)
+
+        # The review gate gains the raw-parity condition, valued from the
+        # authoritative source (state-independent expectation).
+        # Base HEAD resolves in every environment (including CI's shallow
+        # PR checkout, where origin/main may be absent); the raw-parity
+        # condition is computed before any git dependency regardless.
+        m = json.loads(mpath.read_text())
+        conds, _ = wp.gather_review_conditions(m, types["rashi-structural-repair"],
+                                               "HEAD")
+        check("structural review gate checks entry-count-and-order vs raw",
+              "entry-count-and-order-match-raw" in conds)
+        raw_n = len([l for l in json.loads(
+            (REPO / "modules/yoma/assets/talmuddev/8a.json").read_text()).get("rashi", [])
+            if l and l.strip()])
+        ent = json.loads((REPO / "modules/yoma/assets/learning/yoma/8a.learning.json"
+                          ).read_text()).get("rashiTranslations", [])
+        expected = (len(ent) == raw_n
+                    and [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1)))
+        check("raw-parity condition reflects the authoritative source",
+              conds["entry-count-and-order-match-raw"] == expected)
+
+
 def test_no_direct_main_push_anywhere():
     print("no automation path instructs a direct push to main:")
     src = (REPO / "scripts" / "worker_pipeline.py").read_text()
@@ -270,6 +352,7 @@ def main():
     test_live_gate_fails_closed()
     test_prompt()
     test_queue()
+    test_structural_repair_type()
     test_no_direct_main_push_anywhere()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")

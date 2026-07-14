@@ -1077,6 +1077,76 @@
     "any change outside the mutable path set would be needed"
    ],
    "haikuAllowed": false
+  },
+  "rashi-structural-repair": {
+   "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable",
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "requiredAuthorizations": [
+    "allowStructure"
+   ],
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "modules/yoma/scripts/allowlists/*",
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
+   ],
+   "allowedJsonPaths": [
+    "rashiTranslations"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "remove-only",
+   "structurePolicy": "explicit-allowStructure-required",
+   "rashiPreflightTask": "repair",
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "authoritative line ownership is ambiguous across a daf boundary",
+    "source files disagree materially",
+    "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "the repair would require changing more than one daf in the same PR",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+    "a semantic audit shift candidate remains on the target daf",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed"
+   ],
+   "maxBatch": 1
   }
  }
 }
