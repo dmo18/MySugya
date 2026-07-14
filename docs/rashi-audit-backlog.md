@@ -5663,9 +5663,10 @@ midatah" resolution, dual-linked at vl54 into l47a's forward citation
 to 49a; vl56-60 the "dilma" alternative reading, dual-linked at the
 seam into l48; vl61-63 closing the kometz baraita (l48). vl64
 ("uvmachavat") was checked against 47b's actual first raw Rashi line
-(confirmed from source) and found to be the truncated start of a new,
-unrelated comment about griddle/pan mincha-offerings, so it was left
-unlinked rather than forced onto l48 as a false boundary fallback.
+(confirmed from source): it extends l48's just-closed kometz-precision
+rule to griddle/pan offerings, so it is linked to l48 as a genuine
+boundary continuation, truncated at the daf edge and continuing on
+47b, not a positional catch-all.
 
 All 5 of the semantic audit's citation anchors (Leviticus 16, Berachot
 37a, Leviticus 2, the 49a forward-citation) now land at offset 0

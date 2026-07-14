@@ -108439,11 +108439,13 @@ const DAF_CONTENT = {
         daf: "47a",
         vilnaLine: 64,
         he: "ובמחבת",
-        en: "Rashi: opens - 'and on a griddle and on a pan' - the daf ends mid-word here; the comment (explaining these as fried mincha-offerings) continues on 47b.",
+        en: "Rashi: opens - 'and on a griddle and on a pan' - extending the same kometz-precision rule just closed (not heaped, not lacking) to griddle and pan offerings; the daf ends mid-word and the comment continues on 47b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-047a-l48"
+        ]
       }
     ],
     review: "reviewed"
