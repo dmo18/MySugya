@@ -1,294 +1,327 @@
 {
-  "canonicalRef": "Yoma 79a",
-  "summary": "Tractate Yoma daf 79a covers: The 'large date-bulk' measure: what it includes and how the Rabbis determined it.",
-  "sugyot": [
+ "canonicalRef": "Yoma 79a",
+ "summary": "Tractate Yoma daf 79a covers: The 'large date-bulk' measure: what it includes and how the Rabbis determined it.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-079a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 15
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-079a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 15
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.79a.1"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.79a.2"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.79a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.79a.1",
-        "Yoma.79a.2",
-        "Yoma.79a.3"
-      ],
-      "display": {
-        "whats": "The 'large date-bulk' measure: what it includes and how the Rabbis determined it",
-        "hint": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pit, and the Gemara explains how the Rabbis establis...",
-        "title": "Calculating the Kotevet Hagasah"
-      },
-      "learning": {
-        "ahaMoment": "Including the pit is about anchoring an abstract concept (affliction-relief) to a tangible physical object; the whole date, not just its flesh, is the unit the Gemara uses.",
-        "memoryAnchor": "Kotevet hagasah includes the pit - the whole date is the measure, not just the flesh.",
-        "learnerQuestion": "What exactly counts as part of the large date-bulk (kotevet hagasah) used for Yom Kippur liability?",
-        "coreTension": "Between a conceptual measure (enough to relieve affliction) and the need for a precise physical measurement that can be practically applied.",
-        "coreMove": "The Gemara specifies that the kotevet hagasah includes the pit: the measure is the whole date, not just its edible flesh. This precision ruling ensures the physical measure corresponds to the conceptual goal - measuring the whole unit as consumed, not just the edible part.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The YK eating measure is the whole date including the pit, because the measure derives from the date as a complete unit; only by measuring the whole object (pit included) can a conceptual measure (affliction-relief) be anchored to a tangible physical referent."
-        },
-        "learningBlocker": "Students may assume the measure refers only to the edible flesh, as with most food measures; the inclusion of the pit is a specific ruling for the kotevet hagasah."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Is the date measured with or without its pit?",
-          "speaker": "Gemara",
-          "text": "Rav Pappa asks whether the large-date measure for Yom Kippur liability includes the pit. Rav Ashi raises a parallel question about a barley-grain of bone for impurity. The Gemara resolves Rav Pappa's: since the mishna says 'large,' it means as large as possible, which includes the pit.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-079a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "objection",
-          "label": "Is the large date larger than an egg, and the sukka challenge",
-          "speaker": "Gemara",
-          "text": "Rava in the name of Rav Yehuda holds the large date is larger than an egg, the amount that settles the mind and relieves affliction. The Gemara objects from the sukka incident where Rabban Gamliel was brought two dates and water and insisted on eating in the sukka, implying the dates were a fixed, significant meal.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-079a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "distinction",
-          "label": "Rabbi Tzadok's small portion eaten outside the sukka",
-          "speaker": "Gemara",
-          "text": "Against that, the Gemara notes that when Rabbi Tzadok was given less than an egg-bulk, he held it in a cloth, did not wash his hands, ate it outside the sukka, and did not recite Grace, treating such a small amount as an insignificant snack.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-079a-l15",
-              "vilnaLine": 15
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "date-bulk",
-        "kotevet hagasah",
-        "YK measure",
-        "Rabbis",
-        "eating liability"
-      ],
-      "concepts": {
-        "halachic": [
-          "date-bulk",
-          "kotevet hagasah"
-        ],
-        "theological": [
-          "Including the date pit in the measure is not arbitrary - it reflects the actual "
-        ],
-        "narrative": [
-          "The 'large date-bulk' measure: what it includes and how the "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of date-bulk context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners treat 'the volume of a large date' as obviously smaller than an egg, the way colloquial sizes suggest.",
-          "correction": "The Gemara seriously entertains that a large date with its pit exceeds an egg-bulk, since date pits are very large, and marshals the sukka incidents to test this, so the relative sizes are a real dispute rather than common sense."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "The 'large date-bulk' measure: what it includes an"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does the Gemara settle whether the large-date measure includes the pit?",
-          "answer": "From the word 'large' in the mishna. Since it specifies a large date, it means as large as possible, which necessarily includes the pit, so liability is measured by the date together with its pit."
-        },
-        {
-          "question": "Why does Rabban Gamliel's insistence on eating two dates in the sukka challenge the view that a large date exceeds an egg?",
-          "answer": "His insistence implies the two dates amounted to a fixed, obligation-bearing meal requiring a sukka. If two dates without pits do not even reach an egg-bulk, it is hard to maintain that a single large date with its pit is larger than an egg, creating tension with that view."
-        }
-      ],
-      "finalRuling": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pi",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.79a.1"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.79a.2"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.79a.3"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.79a.1",
+    "Yoma.79a.2",
+    "Yoma.79a.3"
+   ],
+   "display": {
+    "whats": "The 'large date-bulk' measure: what it includes and how the Rabbis determined it",
+    "hint": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pit, and the Gemara explains how the Rabbis establis...",
+    "title": "Calculating the Kotevet Hagasah"
+   },
+   "learning": {
+    "ahaMoment": "Including the pit is about anchoring an abstract concept (affliction-relief) to a tangible physical object; the whole date, not just its flesh, is the unit the Gemara uses.",
+    "memoryAnchor": "Kotevet hagasah includes the pit - the whole date is the measure, not just the flesh.",
+    "learnerQuestion": "What exactly counts as part of the large date-bulk (kotevet hagasah) used for Yom Kippur liability?",
+    "coreTension": "Between a conceptual measure (enough to relieve affliction) and the need for a precise physical measurement that can be practically applied.",
+    "coreMove": "The Gemara specifies that the kotevet hagasah includes the pit: the measure is the whole date, not just its edible flesh. This precision ruling ensures the physical measure corresponds to the conceptual goal - measuring the whole unit as consumed, not just the edible part.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The YK eating measure is the whole date including the pit, because the measure derives from the date as a complete unit; only by measuring the whole object (pit included) can a conceptual measure (affliction-relief) be anchored to a tangible physical referent."
+    },
+    "learningBlocker": "Students may assume the measure refers only to the edible flesh, as with most food measures; the inclusion of the pit is a specific ruling for the kotevet hagasah."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "he": "בגרעינתה או שלא בגרעינתה. והא",
-      "en": "Rashi: the 'large date-bulk' measure includes the pit as well as the flesh.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-01",
+     "type": "question",
+     "label": "Is the date measured with or without its pit?",
+     "speaker": "Gemara",
+     "text": "Rav Pappa asks whether the large-date measure for Yom Kippur liability includes the pit. Rav Ashi raises a parallel question about a barley-grain of bone for impurity. The Gemara resolves Rav Pappa's: since the mishna says 'large,' it means as large as possible, which includes the pit.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-079a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "he": "דקתני מתניתין וכגרעינתה מיבעיא",
-      "en": "Rashi: how the Rabbis determined and transmitted this eating measure.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-02",
+     "type": "objection",
+     "label": "Is the large date larger than an egg, and the sukka challenge",
+     "speaker": "Gemara",
+     "text": "Rava in the name of Rav Yehuda holds the large date is larger than an egg, the amount that settles the mind and relieves affliction. The Gemara objects from the sukka incident where Rabban Gamliel was brought two dates and water and insisted on eating in the sukka, implying the dates were a fixed, significant meal.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-079a-l07",
+       "vilnaLine": 7
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "he": "ליה היכי קאמר כמוהו וכגרעינתה",
-      "en": "Rashi: the practical method for measuring the date-bulk.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "יחד או דלמא הכי קאמר כמוה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "כגרעינתה: אושלא קרי לה. הלכך",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "יבישה בקליפתה הוא דמקרי' שעורה:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "קים להו לרבנן וכו'. ואע\"ג דכל שיעור",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "אכילת איסור בכזית היא הני מילי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "היכא דכתיב' אכילה אבל הכא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "אשר לא תעונה כתיב וכל כמה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "דלא מיתבא דעתיה ענוי הוא: נטלו",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "במפה ואכלו וכו'. שלשה קולין נהג",
-      "en": "Rashi: 'he took with a napkin and ate' - he practiced three leniencies. One,",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "בו אחת שלא נטל ידיו אלא במפה",
-      "en": "that he did not wash his hands but only used a napkin,",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "כרך ידיו משום אנינות הדעת וחוץ",
-      "en": "wrapping his hands because of the grief-distraction of an onen; and outside",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "לסוכה אכלו ולא בירך אחריו:",
-      "en": "the sukkah he ate; and he did not recite grace after the meal.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "הא",
-      "en": "Rashi begins the next comment ('ha'), opening the following passage.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-03",
+     "type": "distinction",
+     "label": "Rabbi Tzadok's small portion eaten outside the sukka",
+     "speaker": "Gemara",
+     "text": "Against that, the Gemara notes that when Rabbi Tzadok was given less than an egg-bulk, he held it in a cloth, did not wash his hands, ate it outside the sukka, and did not recite Grace, treating such a small amount as an insignificant snack.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-079a-l15",
+       "vilnaLine": 15
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "date-bulk",
+    "kotevet hagasah",
+    "YK measure",
+    "Rabbis",
+    "eating liability"
+   ],
+   "concepts": {
+    "halachic": [
+     "date-bulk",
+     "kotevet hagasah"
+    ],
+    "theological": [
+     "Including the date pit in the measure is not arbitrary - it reflects the actual "
+    ],
+    "narrative": [
+     "The 'large date-bulk' measure: what it includes and how the "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of date-bulk context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners treat 'the volume of a large date' as obviously smaller than an egg, the way colloquial sizes suggest.",
+     "correction": "The Gemara seriously entertains that a large date with its pit exceeds an egg-bulk, since date pits are very large, and marshals the sukka incidents to test this, so the relative sizes are a real dispute rather than common sense."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "The 'large date-bulk' measure: what it includes an"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does the Gemara settle whether the large-date measure includes the pit?",
+     "answer": "From the word 'large' in the mishna. Since it specifies a large date, it means as large as possible, which necessarily includes the pit, so liability is measured by the date together with its pit."
+    },
+    {
+     "question": "Why does Rabban Gamliel's insistence on eating two dates in the sukka challenge the view that a large date exceeds an egg?",
+     "answer": "His insistence implies the two dates amounted to a fixed, obligation-bearing meal requiring a sukka. If two dates without pits do not even reach an egg-bulk, it is hard to maintain that a single large date with its pit is larger than an egg, creating tension with that view."
+    }
+   ],
+   "finalRuling": "The Gemara discusses the size of the 'large date-bulk' (kotevet hagasah) used as the measure for YK eating liability. The measure includes the date pi",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "בגרעינתה או שלא בגרעינתה. והא",
+   "en": "'With its pit or without its pit.' And as for",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "דקתני מתניתין וכגרעינתה מיבעיא",
+   "en": "the fact that the Mishnah teaches 'and like its pit' - they ask",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "ליה היכי קאמר כמוהו וכגרעינתה",
+   "en": "him: how does it mean? Like it and like its pit",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "יחד או דלמא הכי קאמר כמוה",
+   "en": "together, or perhaps it means: like it,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "כגרעינתה: אושלא קרי לה. הלכך",
+   "en": "'like its pit' as an alternative. New comment: 'he calls it ushla' - therefore",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "יבישה בקליפתה הוא דמקרי' שעורה:",
+   "en": "when dry, it is with its peel that it is called a barleycorn measure.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "קים להו לרבנן וכו'. ואע\"ג דכל שיעור",
+   "en": "'the Sages had a tradition, etc.' - and even though every measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "אכילת איסור בכזית היא הני מילי",
+   "en": "of forbidden eating is an olive's-bulk, this applies",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "היכא דכתיב' אכילה אבל הכא",
+   "en": "where 'eating' is written, but here",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "אשר לא תעונה כתיב וכל כמה",
+   "en": "'that shall not be afflicted' is written, and as long as",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "דלא מיתבא דעתיה ענוי הוא: נטלו",
+   "en": "his mind is not settled, it is still an affliction. New comment: 'he took'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l07",
+    "yoma-079a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "במפה ואכלו וכו'. שלשה קולין נהג",
+   "en": "with a napkin and ate, etc.' - he practiced three leniencies",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "בו אחת שלא נטל ידיו אלא במפה",
+   "en": "with it: one, that he did not wash his hands but only with a napkin",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "כרך ידיו משום אנינות הדעת וחוץ",
+   "en": "he wrapped his hands, because of the distraction of an onen's grief; and outside",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "לסוכה אכלו ולא בירך אחריו:",
+   "en": "the sukkah he ate it, and did not recite a blessing after it.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "הא",
+   "en": "This (continues on 79b).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-079a-l15"
+   ]
+  }
+ ],
+ "review": "draft"
 }
