@@ -1,915 +1,1009 @@
 {
-  "canonicalRef": "Yoma 77a",
-  "summary": "Tractate Yoma daf 77a covers: Bathing prohibition derived from verse; Ezekiel's anointing vision; what counts as bathing; Whether refraining from bathing constitutes inui (affliction); Prohibition on anointing; Na'aman's anointing; pleasure vs. necessity; Sandals: prohibition on wearing sandals on Yom Kippur.",
-  "sugyot": [
+ "canonicalRef": "Yoma 77a",
+ "summary": "Tractate Yoma daf 77a covers: Bathing prohibition derived from verse; Ezekiel's anointing vision; what counts as bathing; Whether refraining from bathing constitutes inui (affliction); Prohibition on anointing; Na'aman's anointing; pleasure vs. necessity; Sandals: prohibition on wearing sandals on Yom Kippur.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-077a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 43
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-077a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 43
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.77a.1"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.77a.2"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.77a.3"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.77a.4"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.77a.5"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.77a.6"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.77a.7"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.77a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.77a.1",
-        "Yoma.77a.2",
-        "Yoma.77a.3",
-        "Yoma.77a.4",
-        "Yoma.77a.5",
-        "Yoma.77a.6",
-        "Yoma.77a.7",
-        "Yoma.77a.8"
-      ],
-      "display": {
-        "whats": "Bathing prohibition derived from verse; Ezekiel's anointing vision; what counts as bathing",
-        "hint": "The Gemara derives the bathing prohibition on Yom Kippur from a verse, and connects it to Ezekiel's vision where anointing with oil is forbidden. The discussion explores what actions qualify as bathin...",
-        "title": "Bathing Prohibition: Verse and Ezekiel"
-      },
-      "learning": {
-        "ahaMoment": "Narrative proof works in the Talmud: Ezekiel's mourning behavior reveals what counts as human comfort, and the prohibition follows from that revelation.",
-        "memoryAnchor": "Ezekiel mourns by not bathing - that abstention classifies bathing as a genuine comfort, making its absence an affliction.",
-        "learnerQuestion": "How does the Gemara prove that bathing is prohibited on Yom Kippur?",
-        "coreTension": "Between finding a direct explicit source for the bathing prohibition and drawing on narrative texts that show bathing as normal human practice.",
-        "coreMove": "The Gemara uses both a direct verse and the Ezekiel narrative: Ezekiel's mourning included abstaining from anointing/bathing, showing these as normal human comforts. Abstaining from them therefore qualifies as inui.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A prohibition can be established both from a direct verse and from narrative proof: when scripture describes someone abstaining from an activity as an act of mourning, that shows the activity is a genuine comfort whose absence counts as deprivation."
-        },
-        "learningBlocker": "Students may not see why a narrative (Ezekiel's mourning story) carries halakhic weight alongside a direct verse."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "narrative",
-          "label": "Ezekiel's vision of sun-worshippers",
-          "speaker": "Gemara",
-          "text": "Ezekiel sees twenty-five men between the porch and the altar with their backs to the Sanctuary, worshipping the sun toward the east. The Gemara reads 'their backs toward the Temple' as teaching that they openly degraded the Divine Presence, the verse using a euphemism for their conduct.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "narrative",
-          "label": "Michael pleads, Gabriel is sent to scatter the coals",
-          "speaker": "Gemara",
-          "text": "God tells the angel Michael that his nation has sinned; Michael asks that the good be spared, but God responds that He will burn even the good among them, since they failed to rebuke the wicked. God then orders Gabriel to take coals of fire from between the cherubs and scatter them over the city.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "elaboration",
-          "label": "Why the coals cooled in transit",
-          "speaker": "Gemara",
-          "text": "Rav Chana bar Bizna in the name of Rabbi Shimon Chasida teaches that had the coals not cooled as they passed from the cherub's hand to Gabriel's hand, no remnant of the Jewish people would have survived. The delay in handing over the coals tempered the severity of the punishment.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l18",
-              "vilnaLine": 18
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "bathing prohibition",
-        "YK afflictions",
-        "scriptural derivation",
-        "Ezekiel"
-      ],
-      "concepts": {
-        "halachic": [
-          "bathing prohibition",
-          "YK afflictions"
-        ],
-        "theological": [
-          "The bathing prohibition is derived from the same scriptural tradition as the YK "
-        ],
-        "narrative": [
-          "Bathing prohibition derived from verse; Ezekiel's anointing "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of bathing prohibition context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners assume the angelic narrative is a digression with no halachic bearing, just aggada about Ezekiel's vision.",
-          "correction": "The passage is woven into the larger sugya on Yom Kippur afflictions and divine judgment, and the Gemara uses these stories about Gabriel, the coals, and the wives of Torah scholars to make pointed claims about reward, restraint in punishment, and merit."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Bathing prohibition derived from verse; Ezekiel's "
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the Gemara stress that the coals cooled as they passed from the cherub to Gabriel?",
-          "answer": "The cooling shows that the punishment was deliberately tempered. Had Gabriel taken the still-hot coals directly, the destruction would have been total; the delay in the handoff is what left a remnant of the Jewish people alive."
-        },
-        {
-          "question": "Why was Gabriel punished even though he carried out the mission he was sent on?",
-          "answer": "Not for failing, but for reporting back in full detail. The principle is that an agent of destruction should only hint at the outcome, not announce its success, so Gabriel was struck for delivering an open report of the devastation."
-        }
-      ],
-      "finalRuling": "The Gemara derives the bathing prohibition on Yom Kippur from a verse, and connects it to Ezekiel's vision where anointing with oil is forbidden. The ",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.77a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-077a-s02",
-      "lineRange": {
-        "startVilnaLine": 47,
-        "endVilnaLine": 52
-      },
-      "lines": [
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.77a.9"
-        },
-        {
-          "vilnaLine": 52,
-          "sefariaRef": "Yoma.77a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.77a.9",
-        "Yoma.77a.10"
-      ],
-      "display": {
-        "whats": "Whether refraining from bathing constitutes inui (affliction)",
-        "hint": "The Gemara asks whether refraining from bathing constitutes inui (self-affliction) as required by the Torah.",
-        "title": "Is Not Bathing a Real Affliction?"
-      },
-      "learning": {
-        "ahaMoment": "The Talmud has a theory of the body: it ranks human needs, and only genuine needs generate genuine inui when withheld.",
-        "memoryAnchor": "Inui requires real need - bathing must prove itself as need, not luxury, before its absence qualifies.",
-        "learnerQuestion": "Why would the Talmud need to ask whether refraining from bathing is a genuine affliction?",
-        "coreTension": "Between common sense (not bathing is obviously uncomfortable) and the technical halakhic requirement that 'inui' means deprivation of something the body genuinely requires, not merely something pleasant.",
-        "coreMove": "The Gemara distinguishes discomfort from halakhic inui: to count as an affliction on YK, an abstention must deprive the body of a genuine need, not just a comfort. The question is whether bathing rises to the level of genuine bodily need.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The five YK afflictions are not merely discomforts but deprivations of genuine bodily needs; a practice must rise to the level of genuine need for its absence to count as inui."
-        },
-        "learningBlocker": "Students may assume all discomfort automatically qualifies as affliction; the Gemara's precision about what 'inui' means is a necessary step in the legal analysis."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "derivation",
-          "label": "Trying to prove bathing is affliction from David's flight",
-          "speaker": "Gemara",
-          "text": "The Gemara seeks a source that abstaining from bathing counts as affliction. It cites that David's men were 'hungry, weary, and thirsty': hunger from lack of bread, thirst from lack of water, and 'weary' apparently from lack of bathing. The Gemara objects that 'weary' might instead mean lack of wearing shoes, so the proof fails.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l47",
-              "vilnaLine": 47
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "resolution",
-          "label": "Deriving bathing as affliction from 'on a weary soul'",
-          "speaker": "Gemara",
-          "text": "Rav Yitzchak offers a better source: 'As cold water on a weary soul.' The Gemara considers that 'weary' might mean thirst, but rejects this: the verse says cold water 'on' a weary soul, not 'in' it. Water placed on the body, rather than drunk, points to bathing, establishing that withholding it is affliction.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l52",
-              "vilnaLine": 52
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "inui",
-        "affliction",
-        "bathing",
-        "YK"
-      ],
-      "concepts": {
-        "halachic": [
-          "inui",
-          "affliction"
-        ],
-        "theological": [
-          "Refraining from bathing is inui precisely because bathing is a pleasure; removin"
-        ],
-        "narrative": [
-          "Whether refraining from bathing constitutes inui (affliction"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of inui context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners think the Gemara is debating whether bathing is pleasurable, treating the question as common sense.",
-          "correction": "The Gemara already assumes bathing is a comfort; what it is actually hunting for is a scriptural verse that the word 'inui' (affliction) encompasses going unwashed, which is why it parses prepositions like 'on' versus 'in' so closely."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Whether refraining from bathing constitutes inui ("
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the first attempt to prove that withholding bathing is affliction fail?",
-          "answer": "The verse calls David's men 'weary,' but the Gemara cannot show that 'weary' specifically means unwashed; it could just as well refer to being without shoes, so the word does not uniquely establish bathing as the missing comfort."
-        },
-        {
-          "question": "How does the wording 'cold water on a weary soul' settle that bathing is the relevant affliction?",
-          "answer": "The preposition 'on' rather than 'in' is decisive. Water drunk would enter the soul; water 'on' the soul is applied externally, which is bathing, so the verse ties weariness to the lack of washing rather than thirst."
-        }
-      ],
-      "finalRuling": "The Gemara asks whether refraining from bathing constitutes inui (self-affliction) as required by the Torah.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.77a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-077a-s03",
-      "lineRange": {
-        "startVilnaLine": 53,
-        "endVilnaLine": 59
-      },
-      "lines": [
-        {
-          "vilnaLine": 53,
-          "sefariaRef": "Yoma.77a.11"
-        },
-        {
-          "vilnaLine": 55,
-          "sefariaRef": "Yoma.77a.12"
-        },
-        {
-          "vilnaLine": 59,
-          "sefariaRef": "Yoma.77a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.77a.11",
-        "Yoma.77a.12",
-        "Yoma.77a.13"
-      ],
-      "display": {
-        "whats": "Prohibition on anointing; Na'aman's anointing; pleasure vs. necessity",
-        "hint": "The prohibition on anointing applies to pleasure anointing; the story of Na'aman illustrates the distinction between permitted and prohibited anointing.",
-        "title": "Pleasure Anointing vs. Therapeutic Anointing"
-      },
-      "learning": {
-        "ahaMoment": "Na'aman's medicinal anointing is the proof-case: anointing can be treatment, not pleasure, and the prohibition does not reach treatment.",
-        "memoryAnchor": "Na'aman's cure reveals the line: anointing for need is not the prohibited anointing for pleasure.",
-        "learnerQuestion": "Does the Yom Kippur prohibition on anointing apply to all anointing or only anointing for pleasure?",
-        "coreTension": "Between a blanket reading of the prohibition (no anointing at all on YK) and the need to permit anointing for medical or therapeutic purposes.",
-        "coreMove": "The Na'aman narrative provides the key distinction: his treatment for tzara'at involved anointing as medical therapy, not pleasure. This proves the prohibition targets comfort-seeking anointing, not therapeutic anointing.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The YK prohibition on anointing applies only to pleasure anointing; therapeutic or medical anointing is permitted because the prohibition targets enjoyment, not the physical act of applying oil."
-        },
-        "learningBlocker": "Students may assume the prohibition is categorical and applies to all anointing without exception."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "derivation",
-          "label": "Trying to prove going barefoot is affliction from David",
-          "speaker": "Gemara",
-          "text": "The Gemara asks for the source that not wearing shoes is an affliction, citing that David went up the Mount of Olives weeping, head covered, and barefoot. The proof is rejected: 'barefoot' might describe a king deprived of his horse and whip rather than literally lacking shoes.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l53",
-              "vilnaLine": 53
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "objection",
-          "label": "Isaiah's barefoot walk and the patched-shoes challenge",
-          "speaker": "Gemara",
-          "text": "Rav Nachman bar Yitzchak cites Isaiah, commanded to remove his shoe and who then walked 'naked and barefoot.' The Gemara objects that 'barefoot' might mean patched shoes, just as 'naked' must mean ragged garments rather than literally unclothed, so this verse also fails to prove the point.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l55",
-              "vilnaLine": 55
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "resolution",
-          "label": "Deriving the shoe affliction from Jeremiah",
-          "speaker": "Gemara",
-          "text": "Rav Nachman bar Yitzchak gives the conclusive source from Jeremiah: 'Withhold your foot from being barefoot,' read homiletically as keeping oneself from sin so the foot does not come to be bare. The verse treats being barefoot as a hardship to be avoided, establishing that going without shoes is an affliction.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l59",
-              "vilnaLine": 59
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "anointing prohibition",
-        "Na'aman",
-        "pleasure vs necessity"
-      ],
-      "concepts": {
-        "halachic": [
-          "anointing prohibition",
-          "Na'aman"
-        ],
-        "theological": [
-          "Na'aman anointed for health, not pleasure - the distinction matters: only pleasu"
-        ],
-        "narrative": [
-          "Prohibition on anointing; Na'aman's anointing; pleasure vs. "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of anointing prohibition context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners expect the first verse showing someone barefoot to settle that going shoeless is an affliction.",
-          "correction": "The Gemara repeatedly rejects verses where 'barefoot' can be read non-literally (a king without his horse, patched shoes) and accepts only Jeremiah's verse, where being barefoot is plainly cast as a hardship to be withheld from."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Prohibition on anointing; Na'aman's anointing; ple"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the verse about David walking barefoot up the Mount of Olives fail as a source for the shoe affliction?",
-          "answer": "Because a king's 'barefoot' state could be metaphorical: a king stripped of his horse and whip was described as going barefoot even while wearing shoes, so the verse does not prove that literally lacking shoes is an affliction."
-        },
-        {
-          "question": "How does the rejection of Isaiah's 'naked and barefoot' parallel the patched-shoes reading?",
-          "answer": "Just as 'naked' cannot be taken literally and must mean ragged clothing, 'barefoot' can be softened to mean patched shoes. The two terms are read consistently, so the verse loses its force as a literal proof about shoelessness."
-        }
-      ],
-      "finalRuling": "The prohibition on anointing applies to pleasure anointing; the story of Na'aman illustrates the distinction between permitted and prohibited anointin",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.77a.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-077a-s04",
-      "lineRange": {
-        "startVilnaLine": 61,
-        "endVilnaLine": 61
-      },
-      "lines": [
-        {
-          "vilnaLine": 61,
-          "sefariaRef": "Yoma.77a.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.77a.14"
-      ],
-      "display": {
-        "whats": "Sandals: prohibition on wearing sandals on Yom Kippur",
-        "hint": "The Mishna rules that wearing sandals is prohibited on Yom Kippur; this is one of the five afflictions.",
-        "title": "Sandals and the Five Afflictions"
-      },
-      "learning": {
-        "ahaMoment": "The YK afflictions strip away layers of self-sufficiency: sandals are a dignity marker, and their removal is an act of humility, not just physical hardship.",
-        "memoryAnchor": "Barefoot on YK: stripped of dignity, not just comfort - that is the point.",
-        "learnerQuestion": "Why is wearing sandals prohibited on Yom Kippur?",
-        "coreTension": "Between sandals as practical clothing (not obviously a luxury) and their inclusion among the five YK afflictions as a form of self-deprivation.",
-        "coreMove": "The Mishna includes sandals because wearing them is a marker of human dignity and social status; going barefoot is a form of self-humbling before God. The prohibition strips away a symbol of self-sufficiency, not just a comfort.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Yom Kippur afflictions target not only bodily pleasure but also markers of social dignity; going barefoot removes a status symbol, creating a condition of public humility before God."
-        },
-        "learningBlocker": "Students may see sandals as merely practical and miss the dignity dimension that makes their removal a genuine affliction."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "derivation",
-          "label": "Deriving that withholding marital relations is affliction",
-          "speaker": "Mishnah",
-          "text": "The Gemara turns to another Yom Kippur affliction and asks where the Torah calls refraining from conjugal relations 'inui.' It answers from Laban's words to Jacob, 'If you shall afflict my daughters,' which the Gemara understands as a warning against withholding marital relations.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-077a-l61",
-              "vilnaLine": 61
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "sandals",
-        "YK prohibition",
-        "afflictions"
-      ],
-      "concepts": {
-        "halachic": [
-          "sandals",
-          "YK prohibition"
-        ],
-        "theological": [
-          "Even sandal leather signals status and comfort - removing it strips the wearer o"
-        ],
-        "narrative": [
-          "Sandals: prohibition on wearing sandals on Yom Kippur"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of sandals context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners may think the Yom Kippur afflictions are an open list and that marital abstention is simply one obvious example.",
-          "correction": "Each affliction needs a textual anchor. The Gemara specifically grounds marital abstention as 'inui' in Laban's words to Jacob, treating the derivation as necessary rather than self-evident."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Sandals: prohibition on wearing sandals on Yom Kip"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "From which verse does the Gemara learn that withholding marital relations counts as 'inui'?",
-          "answer": "From Laban's charge to Jacob, 'If you shall afflict my daughters, and if you shall take other wives,' where 'afflict' is read as withholding conjugal relations from Leah and Rachel."
-        }
-      ],
-      "finalRuling": "The Mishna rules that wearing sandals is prohibited on Yom Kippur; this is one of the five afflictions.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.77a.4"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.77a.5"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.77a.6"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.77a.7"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.77a.8"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.77a.1",
+    "Yoma.77a.2",
+    "Yoma.77a.3",
+    "Yoma.77a.4",
+    "Yoma.77a.5",
+    "Yoma.77a.6",
+    "Yoma.77a.7",
+    "Yoma.77a.8"
+   ],
+   "display": {
+    "whats": "Bathing prohibition derived from verse; Ezekiel's anointing vision; what counts as bathing",
+    "hint": "The Gemara derives the bathing prohibition on Yom Kippur from a verse, and connects it to Ezekiel's vision where anointing with oil is forbidden. The discussion explores what actions qualify as bathin...",
+    "title": "Bathing Prohibition: Verse and Ezekiel"
+   },
+   "learning": {
+    "ahaMoment": "Narrative proof works in the Talmud: Ezekiel's mourning behavior reveals what counts as human comfort, and the prohibition follows from that revelation.",
+    "memoryAnchor": "Ezekiel mourns by not bathing - that abstention classifies bathing as a genuine comfort, making its absence an affliction.",
+    "learnerQuestion": "How does the Gemara prove that bathing is prohibited on Yom Kippur?",
+    "coreTension": "Between finding a direct explicit source for the bathing prohibition and drawing on narrative texts that show bathing as normal human practice.",
+    "coreMove": "The Gemara uses both a direct verse and the Ezekiel narrative: Ezekiel's mourning included abstaining from anointing/bathing, showing these as normal human comforts. Abstaining from them therefore qualifies as inui.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A prohibition can be established both from a direct verse and from narrative proof: when scripture describes someone abstaining from an activity as an act of mourning, that shows the activity is a genuine comfort whose absence counts as deprivation."
+    },
+    "learningBlocker": "Students may not see why a narrative (Ezekiel's mourning story) carries halakhic weight alongside a direct verse."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "he": "לבוש הבדים. הוא גבריאל בספר דניאל: [פולסא דנורא. מקלות",
-      "en": "Rashi on the bathing prohibition: explains the derivation from the verse.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-01",
+     "type": "narrative",
+     "label": "Ezekiel's vision of sun-worshippers",
+     "speaker": "Gemara",
+     "text": "Ezekiel sees twenty-five men between the porch and the altar with their backs to the Sanctuary, worshipping the sun toward the east. The Gemara reads 'their backs toward the Temple' as teaching that they openly degraded the Divine Presence, the verse using a euphemism for their conduct.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "he": "של אור: אי לא עבדת. כלל: לא עבדת. והיינו מצדיקים אותך",
-      "en": "Rashi: the Ezekiel passage referenced is about the Babylonian exile.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-02",
+     "type": "narrative",
+     "label": "Michael pleads, Gabriel is sent to scatter the coals",
+     "speaker": "Gemara",
+     "text": "God tells the angel Michael that his nation has sinned; Michael asks that the good be spared, but God responds that He will burn even the good among them, since they failed to rebuke the wicked. God then orders Gabriel to take coals of fire from between the cherubs and scatter them over the city.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l09",
+       "vilnaLine": 9
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "he": "לומר דוחה הוא את הדבר אולי ישוב הקב\"ה מחרונו ויתרצה להם:",
-      "en": "Rashi: defines what constitutes bathing for purposes of the prohibition.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "כדפקדוך. שתהא אתה נוטל הגחלים מבינות לכרובים ואתה אמרת",
-      "en": "Rashi: distinguishes between full bathing and partial washing.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "אל הכרוב לתתם לך: בחריקיה.",
-      "en": "Rashi: explains why bathing is classified as pleasure rather than necessity.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "במקומו: עומד לנגדי. גבריאל אמר",
-      "en": "Rashi: the source verse for bathing prohibition on Yom Kippur.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "כן לדניאל: ופרוותא דמשמהיג. נמל",
-      "en": "Rashi: explains the term used for affliction in the relevant verse.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "שקורין פורט: דמשמהיג. דבר מלכות",
-      "en": "Rashi: connects the bathing prohibition to the broader five afflictions.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "בלשון פרסי לפי שהוא מעלה שם",
-      "en": "Rashi: the inui discussion - whether withholding bathing is itself an affliction.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "מרגליות כדאמרינן בר\"ה : אכרגא.",
-      "en": "Rashi: the definition of inui as applied to bathing.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "כסף גולגלתא: שוא לכם וכו'.",
-      "en": "Rashi: Na'aman's case - anointing for health rather than pleasure.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "כלומר כלום הגונים האומות להיות",
-      "en": "Rashi: distinguishes medicinal anointing from pleasure anointing.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "החכמים מסורים בידם והלא המקרא",
-      "en": "Rashi: the anointing prohibition on Yom Kippur applies to pleasure only.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "משבחן שאף נשותיהם מנדדות שינה",
-      "en": "Rashi: sandal prohibition - leather shoes that signify status.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "מעיניהן שוא לכם בעלי אומנות",
-      "en": "Rashi: explains what qualifies as a sandal under the prohibition.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "המשכימים ומאחרים למלאכתם אוכלי",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "לחם בעצב וביגיעה כן יתן הזן את",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "העולם מזונות ופרנסה לידידו שנא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "למי שנדד שינה בשבילו: באתי",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "בדבריך. על שדברתי בך: אשכחיה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "לדוביאל דהוה נקט איגרתא: ואני",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "יוצא והנה שר יון בא. וכשהגיע",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "זמן מלכות יון לבא אצא על כרחי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "שכבר נגזרה גזרה ושר יון יבא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "במקומי: עוי עוי. צעק וצוח גבריאל",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "על זאת שלא ימשלו מלכי יון בישראל]:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "ולאביתר הכהן וגו' כי נשאת את",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "ארון ה' לפני דוד אבי. כשהיה בורח",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "מפני אבשלום: וכי התענית בכל",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "אשר התענה אבי. למדנו שנקראת",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "בריחתו של דוד מפני אבשלום",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "עינוי וכתיב כי אמרו העם רעב",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "ועיף וצמא במדבר: מים קרים",
-      "en": "Rashi glosses the verse 'and faint and thirsty in the wilderness' (2 Sam 17): it refers to wanting cold water, showing that lack of washing is what counts as fatigue.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "על נפש עיפה. אלמא מרחיצה",
-      "en": "Continuing: 'upon a faint soul' (Prov 25) - so it is washing whose absence is called being faint, not the lack of wearing sandals; and yet Scripture still calls that an affliction.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "מיקרי עיף ולא מנעילת הסנדל וקרי",
-      "en": "Rashi: this proves that going without washing is what is termed 'faint,' not going without sandals - and Scripture nonetheless calls the latter an affliction.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "ליה עינוי דכתיב בכל אשר התענה",
-      "en": "Rashi: as it is written 'in all that he afflicted himself' (1 Kings 2), so forgoing the sandal is also counted as a self-affliction.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "אבי: מרטקא. שוט הסוס: ויעש כן.",
-      "en": "Rashi glosses 'avi' as a goad and 'shot ha-sus' as a horse-whip; and 'and he did so' (referring to David's conduct).",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "בישעיה כתיב ישעיה לא היה רגיל",
-      "en": "Rashi: the verse cited is in Isaiah - Isaiah was not in the habit of riding in a chariot of horses, and his going barefoot was an actual barefootedness.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "במרכבת סוסים ויחף דידיה בנעילת",
-      "en": "Continuing: Isaiah's barefootedness was literal going without shoes, while David's barefootedness was the absence of wearing a sandal.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "סנדל הוא והוא יגלה על יחוף דדוד",
-      "en": "Rashi: and 'he shall reveal' bears on the barefootedness of David - that David's case too refers to not wearing a sandal.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "נמי דמנעילת הסנדל הוא: שלא יבוא",
-      "en": "Rashi: David's barefootedness also means going without a sandal. On 'that your foot not come to barefootedness' -",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "רגלך לידי יחוף. בצאתך בגולה:",
-      "en": "Rashi glosses 'that your foot not come to barefootedness' (Jer 2): keep from going unshod 'when you go out into exile.'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "אם",
-      "en": "Rashi begins the next comment ('im' - 'if'), opening the following passage.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-03",
+     "type": "elaboration",
+     "label": "Why the coals cooled in transit",
+     "speaker": "Gemara",
+     "text": "Rav Chana bar Bizna in the name of Rabbi Shimon Chasida teaches that had the coals not cooled as they passed from the cherub's hand to Gabriel's hand, no remnant of the Jewish people would have survived. The delay in handing over the coals tempered the severity of the punishment.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l18",
+       "vilnaLine": 18
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "bathing prohibition",
+    "YK afflictions",
+    "scriptural derivation",
+    "Ezekiel"
+   ],
+   "concepts": {
+    "halachic": [
+     "bathing prohibition",
+     "YK afflictions"
+    ],
+    "theological": [
+     "The bathing prohibition is derived from the same scriptural tradition as the YK "
+    ],
+    "narrative": [
+     "Bathing prohibition derived from verse; Ezekiel's anointing "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of bathing prohibition context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners assume the angelic narrative is a digression with no halachic bearing, just aggada about Ezekiel's vision.",
+     "correction": "The passage is woven into the larger sugya on Yom Kippur afflictions and divine judgment, and the Gemara uses these stories about Gabriel, the coals, and the wives of Torah scholars to make pointed claims about reward, restraint in punishment, and merit."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Bathing prohibition derived from verse; Ezekiel's "
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the Gemara stress that the coals cooled as they passed from the cherub to Gabriel?",
+     "answer": "The cooling shows that the punishment was deliberately tempered. Had Gabriel taken the still-hot coals directly, the destruction would have been total; the delay in the handoff is what left a remnant of the Jewish people alive."
+    },
+    {
+     "question": "Why was Gabriel punished even though he carried out the mission he was sent on?",
+     "answer": "Not for failing, but for reporting back in full detail. The principle is that an agent of destruction should only hint at the outcome, not announce its success, so Gabriel was struck for delivering an open report of the devastation."
+    }
+   ],
+   "finalRuling": "The Gemara derives the bathing prohibition on Yom Kippur from a verse, and connects it to Ezekiel's vision where anointing with oil is forbidden. The ",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-077a-s02",
+   "lineRange": {
+    "startVilnaLine": 47,
+    "endVilnaLine": 52
+   },
+   "lines": [
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.77a.9"
+    },
+    {
+     "vilnaLine": 52,
+     "sefariaRef": "Yoma.77a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.77a.9",
+    "Yoma.77a.10"
+   ],
+   "display": {
+    "whats": "Whether refraining from bathing constitutes inui (affliction)",
+    "hint": "The Gemara asks whether refraining from bathing constitutes inui (self-affliction) as required by the Torah.",
+    "title": "Is Not Bathing a Real Affliction?"
+   },
+   "learning": {
+    "ahaMoment": "The Talmud has a theory of the body: it ranks human needs, and only genuine needs generate genuine inui when withheld.",
+    "memoryAnchor": "Inui requires real need - bathing must prove itself as need, not luxury, before its absence qualifies.",
+    "learnerQuestion": "Why would the Talmud need to ask whether refraining from bathing is a genuine affliction?",
+    "coreTension": "Between common sense (not bathing is obviously uncomfortable) and the technical halakhic requirement that 'inui' means deprivation of something the body genuinely requires, not merely something pleasant.",
+    "coreMove": "The Gemara distinguishes discomfort from halakhic inui: to count as an affliction on YK, an abstention must deprive the body of a genuine need, not just a comfort. The question is whether bathing rises to the level of genuine bodily need.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The five YK afflictions are not merely discomforts but deprivations of genuine bodily needs; a practice must rise to the level of genuine need for its absence to count as inui."
+    },
+    "learningBlocker": "Students may assume all discomfort automatically qualifies as affliction; the Gemara's precision about what 'inui' means is a necessary step in the legal analysis."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "derivation",
+     "label": "Trying to prove bathing is affliction from David's flight",
+     "speaker": "Gemara",
+     "text": "The Gemara seeks a source that abstaining from bathing counts as affliction. It cites that David's men were 'hungry, weary, and thirsty': hunger from lack of bread, thirst from lack of water, and 'weary' apparently from lack of bathing. The Gemara objects that 'weary' might instead mean lack of wearing shoes, so the proof fails.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l47",
+       "vilnaLine": 47
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "resolution",
+     "label": "Deriving bathing as affliction from 'on a weary soul'",
+     "speaker": "Gemara",
+     "text": "Rav Yitzchak offers a better source: 'As cold water on a weary soul.' The Gemara considers that 'weary' might mean thirst, but rejects this: the verse says cold water 'on' a weary soul, not 'in' it. Water placed on the body, rather than drunk, points to bathing, establishing that withholding it is affliction.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l52",
+       "vilnaLine": 52
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "inui",
+    "affliction",
+    "bathing",
+    "YK"
+   ],
+   "concepts": {
+    "halachic": [
+     "inui",
+     "affliction"
+    ],
+    "theological": [
+     "Refraining from bathing is inui precisely because bathing is a pleasure; removin"
+    ],
+    "narrative": [
+     "Whether refraining from bathing constitutes inui (affliction"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of inui context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners think the Gemara is debating whether bathing is pleasurable, treating the question as common sense.",
+     "correction": "The Gemara already assumes bathing is a comfort; what it is actually hunting for is a scriptural verse that the word 'inui' (affliction) encompasses going unwashed, which is why it parses prepositions like 'on' versus 'in' so closely."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Whether refraining from bathing constitutes inui ("
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the first attempt to prove that withholding bathing is affliction fail?",
+     "answer": "The verse calls David's men 'weary,' but the Gemara cannot show that 'weary' specifically means unwashed; it could just as well refer to being without shoes, so the word does not uniquely establish bathing as the missing comfort."
+    },
+    {
+     "question": "How does the wording 'cold water on a weary soul' settle that bathing is the relevant affliction?",
+     "answer": "The preposition 'on' rather than 'in' is decisive. Water drunk would enter the soul; water 'on' the soul is applied externally, which is bathing, so the verse ties weariness to the lack of washing rather than thirst."
+    }
+   ],
+   "finalRuling": "The Gemara asks whether refraining from bathing constitutes inui (self-affliction) as required by the Torah.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-077a-s03",
+   "lineRange": {
+    "startVilnaLine": 53,
+    "endVilnaLine": 59
+   },
+   "lines": [
+    {
+     "vilnaLine": 53,
+     "sefariaRef": "Yoma.77a.11"
+    },
+    {
+     "vilnaLine": 55,
+     "sefariaRef": "Yoma.77a.12"
+    },
+    {
+     "vilnaLine": 59,
+     "sefariaRef": "Yoma.77a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.77a.11",
+    "Yoma.77a.12",
+    "Yoma.77a.13"
+   ],
+   "display": {
+    "whats": "Prohibition on anointing; Na'aman's anointing; pleasure vs. necessity",
+    "hint": "The prohibition on anointing applies to pleasure anointing; the story of Na'aman illustrates the distinction between permitted and prohibited anointing.",
+    "title": "Pleasure Anointing vs. Therapeutic Anointing"
+   },
+   "learning": {
+    "ahaMoment": "Na'aman's medicinal anointing is the proof-case: anointing can be treatment, not pleasure, and the prohibition does not reach treatment.",
+    "memoryAnchor": "Na'aman's cure reveals the line: anointing for need is not the prohibited anointing for pleasure.",
+    "learnerQuestion": "Does the Yom Kippur prohibition on anointing apply to all anointing or only anointing for pleasure?",
+    "coreTension": "Between a blanket reading of the prohibition (no anointing at all on YK) and the need to permit anointing for medical or therapeutic purposes.",
+    "coreMove": "The Na'aman narrative provides the key distinction: his treatment for tzara'at involved anointing as medical therapy, not pleasure. This proves the prohibition targets comfort-seeking anointing, not therapeutic anointing.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The YK prohibition on anointing applies only to pleasure anointing; therapeutic or medical anointing is permitted because the prohibition targets enjoyment, not the physical act of applying oil."
+    },
+    "learningBlocker": "Students may assume the prohibition is categorical and applies to all anointing without exception."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "derivation",
+     "label": "Trying to prove going barefoot is affliction from David",
+     "speaker": "Gemara",
+     "text": "The Gemara asks for the source that not wearing shoes is an affliction, citing that David went up the Mount of Olives weeping, head covered, and barefoot. The proof is rejected: 'barefoot' might describe a king deprived of his horse and whip rather than literally lacking shoes.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l53",
+       "vilnaLine": 53
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "objection",
+     "label": "Isaiah's barefoot walk and the patched-shoes challenge",
+     "speaker": "Gemara",
+     "text": "Rav Nachman bar Yitzchak cites Isaiah, commanded to remove his shoe and who then walked 'naked and barefoot.' The Gemara objects that 'barefoot' might mean patched shoes, just as 'naked' must mean ragged garments rather than literally unclothed, so this verse also fails to prove the point.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l55",
+       "vilnaLine": 55
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "resolution",
+     "label": "Deriving the shoe affliction from Jeremiah",
+     "speaker": "Gemara",
+     "text": "Rav Nachman bar Yitzchak gives the conclusive source from Jeremiah: 'Withhold your foot from being barefoot,' read homiletically as keeping oneself from sin so the foot does not come to be bare. The verse treats being barefoot as a hardship to be avoided, establishing that going without shoes is an affliction.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l59",
+       "vilnaLine": 59
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "anointing prohibition",
+    "Na'aman",
+    "pleasure vs necessity"
+   ],
+   "concepts": {
+    "halachic": [
+     "anointing prohibition",
+     "Na'aman"
+    ],
+    "theological": [
+     "Na'aman anointed for health, not pleasure - the distinction matters: only pleasu"
+    ],
+    "narrative": [
+     "Prohibition on anointing; Na'aman's anointing; pleasure vs. "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of anointing prohibition context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners expect the first verse showing someone barefoot to settle that going shoeless is an affliction.",
+     "correction": "The Gemara repeatedly rejects verses where 'barefoot' can be read non-literally (a king without his horse, patched shoes) and accepts only Jeremiah's verse, where being barefoot is plainly cast as a hardship to be withheld from."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Prohibition on anointing; Na'aman's anointing; ple"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the verse about David walking barefoot up the Mount of Olives fail as a source for the shoe affliction?",
+     "answer": "Because a king's 'barefoot' state could be metaphorical: a king stripped of his horse and whip was described as going barefoot even while wearing shoes, so the verse does not prove that literally lacking shoes is an affliction."
+    },
+    {
+     "question": "How does the rejection of Isaiah's 'naked and barefoot' parallel the patched-shoes reading?",
+     "answer": "Just as 'naked' cannot be taken literally and must mean ragged clothing, 'barefoot' can be softened to mean patched shoes. The two terms are read consistently, so the verse loses its force as a literal proof about shoelessness."
+    }
+   ],
+   "finalRuling": "The prohibition on anointing applies to pleasure anointing; the story of Na'aman illustrates the distinction between permitted and prohibited anointin",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-077a-s04",
+   "lineRange": {
+    "startVilnaLine": 61,
+    "endVilnaLine": 61
+   },
+   "lines": [
+    {
+     "vilnaLine": 61,
+     "sefariaRef": "Yoma.77a.14"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.77a.14"
+   ],
+   "display": {
+    "whats": "Sandals: prohibition on wearing sandals on Yom Kippur",
+    "hint": "The Mishna rules that wearing sandals is prohibited on Yom Kippur; this is one of the five afflictions.",
+    "title": "Sandals and the Five Afflictions"
+   },
+   "learning": {
+    "ahaMoment": "The YK afflictions strip away layers of self-sufficiency: sandals are a dignity marker, and their removal is an act of humility, not just physical hardship.",
+    "memoryAnchor": "Barefoot on YK: stripped of dignity, not just comfort - that is the point.",
+    "learnerQuestion": "Why is wearing sandals prohibited on Yom Kippur?",
+    "coreTension": "Between sandals as practical clothing (not obviously a luxury) and their inclusion among the five YK afflictions as a form of self-deprivation.",
+    "coreMove": "The Mishna includes sandals because wearing them is a marker of human dignity and social status; going barefoot is a form of self-humbling before God. The prohibition strips away a symbol of self-sufficiency, not just a comfort.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Yom Kippur afflictions target not only bodily pleasure but also markers of social dignity; going barefoot removes a status symbol, creating a condition of public humility before God."
+    },
+    "learningBlocker": "Students may see sandals as merely practical and miss the dignity dimension that makes their removal a genuine affliction."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "derivation",
+     "label": "Deriving that withholding marital relations is affliction",
+     "speaker": "Mishnah",
+     "text": "The Gemara turns to another Yom Kippur affliction and asks where the Torah calls refraining from conjugal relations 'inui.' It answers from Laban's words to Jacob, 'If you shall afflict my daughters,' which the Gemara understands as a warning against withholding marital relations.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-077a-l61",
+       "vilnaLine": 61
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "sandals",
+    "YK prohibition",
+    "afflictions"
+   ],
+   "concepts": {
+    "halachic": [
+     "sandals",
+     "YK prohibition"
+    ],
+    "theological": [
+     "Even sandal leather signals status and comfort - removing it strips the wearer o"
+    ],
+    "narrative": [
+     "Sandals: prohibition on wearing sandals on Yom Kippur"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of sandals context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners may think the Yom Kippur afflictions are an open list and that marital abstention is simply one obvious example.",
+     "correction": "Each affliction needs a textual anchor. The Gemara specifically grounds marital abstention as 'inui' in Laban's words to Jacob, treating the derivation as necessary rather than self-evident."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Sandals: prohibition on wearing sandals on Yom Kip"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "From which verse does the Gemara learn that withholding marital relations counts as 'inui'?",
+     "answer": "From Laban's charge to Jacob, 'If you shall afflict my daughters, and if you shall take other wives,' where 'afflict' is read as withholding conjugal relations from Leah and Rachel."
+    }
+   ],
+   "finalRuling": "The Mishna rules that wearing sandals is prohibited on Yom Kippur; this is one of the five afflictions.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "לבוש הבדים. הוא גבריאל בספר דניאל: [פולסא דנורא. מקלות",
+   "en": "'clothed in linen' - this is Gabriel, in the book of Daniel. New comment: 'fiery lashes' - rods",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l09",
+    "yoma-077a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "של אור: אי לא עבדת. כלל: לא עבדת. והיינו מצדיקים אותך",
+   "en": "of fire. New comment: 'if you did not do it' - entirely. Continuing: 'you did not do it' - and this is us justifying you",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "לומר דוחה הוא את הדבר אולי ישוב הקב\"ה מחרונו ויתרצה להם:",
+   "en": "to say that he is delaying the matter, hoping perhaps God will relent from His wrath and be appeased for them.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "כדפקדוך. שתהא אתה נוטל הגחלים מבינות לכרובים ואתה אמרת",
+   "en": "'as you were commanded' - that you should take the coals from between the cherubs, and you said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "אל הכרוב לתתם לך: בחריקיה.",
+   "en": "to the cherub to give them to you. New comment: 'becherikeih' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l22",
+    "yoma-077a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "במקומו: עומד לנגדי. גבריאל אמר",
+   "en": "'in his place.' New comment: 'standing against me' - Gabriel said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "כן לדניאל: ופרוותא דמשמהיג. נמל",
+   "en": "this to Daniel. New comment: 'and the harbor of Mashhig' - a harbor",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "שקורין פורט: דמשמהיג. דבר מלכות",
+   "en": "called 'port.' New comment: 'demashhig' - a matter of kingship",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "בלשון פרסי לפי שהוא מעלה שם",
+   "en": "in the Persian language, since there it produces",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "מרגליות כדאמרינן בר\"ה : אכרגא.",
+   "en": "pearls, as we say in Tractate Rosh Hashanah. New comment: 'akharga' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l29",
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "כסף גולגלתא: שוא לכם וכו'.",
+   "en": "head-tax silver. New comment: 'in vain for you, etc.' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "כלומר כלום הגונים האומות להיות",
+   "en": "meaning: are the nations worthy to have",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "החכמים מסורים בידם והלא המקרא",
+   "en": "the sages delivered into their hand? But doesn't the verse",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "משבחן שאף נשותיהם מנדדות שינה",
+   "en": "praise them, that even their wives forgo sleep",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "מעיניהן שוא לכם בעלי אומנות",
+   "en": "from their eyes: 'in vain for you, craftsmen",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "המשכימים ומאחרים למלאכתם אוכלי",
+   "en": "who rise early and stay late at their work, eaters of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "לחם בעצב וביגיעה כן יתן הזן את",
+   "en": "bread in sorrow and toil - so does the Sustainer give",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "העולם מזונות ופרנסה לידידו שנא",
+   "en": "the world sustenance and livelihood to His beloved, as it is said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "למי שנדד שינה בשבילו: באתי",
+   "en": "regarding one who forwent sleep for His sake. New comment: 'I came",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l35",
+    "yoma-077a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "בדבריך. על שדברתי בך: אשכחיה",
+   "en": "because of your words' - because I spoke in your favor. New comment: 'he found'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l39",
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "לדוביאל דהוה נקט איגרתא: ואני",
+   "en": "Duvi'el, who was holding the letter. New comment: 'and I'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "יוצא והנה שר יון בא. וכשהגיע",
+   "en": "was going out and behold the prince of Greece came' - and when arrived",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "זמן מלכות יון לבא אצא על כרחי",
+   "en": "the time for the kingdom of Greece to come, I will go out against my will",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "שכבר נגזרה גזרה ושר יון יבא",
+   "en": "since the decree has already been decreed and the prince of Greece will come",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "במקומי: עוי עוי. צעק וצוח גבריאל",
+   "en": "in my place.' New comment: 'oy oy' - Gabriel cried and screamed",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "על זאת שלא ימשלו מלכי יון בישראל]:",
+   "en": "over this, that the kings of Greece should not rule over Israel.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "ולאביתר הכהן וגו' כי נשאת את",
+   "en": "'and to Evyatar the priest, etc., for you bore'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "ארון ה' לפני דוד אבי. כשהיה בורח",
+   "en": "'the Ark of the Lord before David my father' - when he was fleeing",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "מפני אבשלום: וכי התענית בכל",
+   "en": "from Avshalom. New comment: 'and that you were afflicted in all'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "אשר התענה אבי. למדנו שנקראת",
+   "en": "'that my father was afflicted' - we learn that it is called",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "בריחתו של דוד מפני אבשלום",
+   "en": "David's flight from Avshalom",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "עינוי וכתיב כי אמרו העם רעב",
+   "en": "an affliction, and it is written, 'for the people said, hungry",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "ועיף וצמא במדבר: מים קרים",
+   "en": "and weary and thirsty in the wilderness.' New comment: 'cold water",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l47",
+    "yoma-077a-l52"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "על נפש עיפה. אלמא מרחיצה",
+   "en": "upon a weary soul' - so this shows that washing",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l52"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "מיקרי עיף ולא מנעילת הסנדל וקרי",
+   "en": "is called being weary, and not the wearing of a sandal, yet it calls",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l52"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "ליה עינוי דכתיב בכל אשר התענה",
+   "en": "it an affliction, as it is written, 'in all that he was afflicted'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l52"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "אבי: מרטקא. שוט הסוס: ויעש כן.",
+   "en": "'my father.' New comment: 'martka' - a horse-whip. New comment: 'and he did so' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l53",
+    "yoma-077a-l55"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "בישעיה כתיב ישעיה לא היה רגיל",
+   "en": "it is written regarding Yeshayahu - Yeshayahu was not accustomed",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l55"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "במרכבת סוסים ויחף דידיה בנעילת",
+   "en": "to riding in a chariot of horses, and his barefootedness was in wearing",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l55"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "סנדל הוא והוא יגלה על יחוף דדוד",
+   "en": "a sandal (he actually went unshod), and it reveals about David's barefootedness",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l55"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "נמי דמנעילת הסנדל הוא: שלא יבוא",
+   "en": "that his too was merely the absence of wearing a sandal. New comment: 'so that your foot should not come'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l55",
+    "yoma-077a-l59"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "רגלך לידי יחוף. בצאתך בגולה:",
+   "en": "to bareness' - when you go out into exile.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l59"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "אם",
+   "en": "If (continues on 77b).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-077a-l61"
+   ]
+  }
+ ],
+ "review": "draft"
 }

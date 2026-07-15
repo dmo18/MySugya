@@ -173306,11 +173306,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 1,
         he: "לבוש הבדים. הוא גבריאל בספר דניאל: [פולסא דנורא. מקלות",
-        en: "Rashi on the bathing prohibition: explains the derivation from the verse.",
+        en: "'clothed in linen' - this is Gabriel, in the book of Daniel. New comment: 'fiery lashes' - rods",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l09",
+          "yoma-077a-l22"
+        ]
       },
       {
         id: "rashi-yoma-077a-002",
@@ -173318,11 +173321,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 2,
         he: "של אור: אי לא עבדת. כלל: לא עבדת. והיינו מצדיקים אותך",
-        en: "Rashi: the Ezekiel passage referenced is about the Babylonian exile.",
+        en: "of fire. New comment: 'if you did not do it' - entirely. Continuing: 'you did not do it' - and this is us justifying you",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l22"
+        ]
       },
       {
         id: "rashi-yoma-077a-003",
@@ -173330,11 +173335,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 3,
         he: "לומר דוחה הוא את הדבר אולי ישוב הקב\"ה מחרונו ויתרצה להם:",
-        en: "Rashi: defines what constitutes bathing for purposes of the prohibition.",
+        en: "to say that he is delaying the matter, hoping perhaps God will relent from His wrath and be appeased for them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l22"
+        ]
       },
       {
         id: "rashi-yoma-077a-004",
@@ -173342,11 +173349,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 4,
         he: "כדפקדוך. שתהא אתה נוטל הגחלים מבינות לכרובים ואתה אמרת",
-        en: "Rashi: distinguishes between full bathing and partial washing.",
+        en: "'as you were commanded' - that you should take the coals from between the cherubs, and you said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l22"
+        ]
       },
       {
         id: "rashi-yoma-077a-005",
@@ -173354,11 +173363,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 5,
         he: "אל הכרוב לתתם לך: בחריקיה.",
-        en: "Rashi: explains why bathing is classified as pleasure rather than necessity.",
+        en: "to the cherub to give them to you. New comment: 'becherikeih' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l22",
+          "yoma-077a-l29"
+        ]
       },
       {
         id: "rashi-yoma-077a-006",
@@ -173366,11 +173378,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 6,
         he: "במקומו: עומד לנגדי. גבריאל אמר",
-        en: "Rashi: the source verse for bathing prohibition on Yom Kippur.",
+        en: "'in his place.' New comment: 'standing against me' - Gabriel said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l29"
+        ]
       },
       {
         id: "rashi-yoma-077a-007",
@@ -173378,11 +173392,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 7,
         he: "כן לדניאל: ופרוותא דמשמהיג. נמל",
-        en: "Rashi: explains the term used for affliction in the relevant verse.",
+        en: "this to Daniel. New comment: 'and the harbor of Mashhig' - a harbor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l29"
+        ]
       },
       {
         id: "rashi-yoma-077a-008",
@@ -173390,11 +173406,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 8,
         he: "שקורין פורט: דמשמהיג. דבר מלכות",
-        en: "Rashi: connects the bathing prohibition to the broader five afflictions.",
+        en: "called 'port.' New comment: 'demashhig' - a matter of kingship",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l29"
+        ]
       },
       {
         id: "rashi-yoma-077a-009",
@@ -173402,11 +173420,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 9,
         he: "בלשון פרסי לפי שהוא מעלה שם",
-        en: "Rashi: the inui discussion - whether withholding bathing is itself an affliction.",
+        en: "in the Persian language, since there it produces",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l29"
+        ]
       },
       {
         id: "rashi-yoma-077a-010",
@@ -173414,11 +173434,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 10,
         he: "מרגליות כדאמרינן בר\"ה : אכרגא.",
-        en: "Rashi: the definition of inui as applied to bathing.",
+        en: "pearls, as we say in Tractate Rosh Hashanah. New comment: 'akharga' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l29",
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-011",
@@ -173426,11 +173449,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 11,
         he: "כסף גולגלתא: שוא לכם וכו'.",
-        en: "Rashi: Na'aman's case - anointing for health rather than pleasure.",
+        en: "head-tax silver. New comment: 'in vain for you, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-012",
@@ -173438,11 +173463,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 12,
         he: "כלומר כלום הגונים האומות להיות",
-        en: "Rashi: distinguishes medicinal anointing from pleasure anointing.",
+        en: "meaning: are the nations worthy to have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-013",
@@ -173450,11 +173477,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 13,
         he: "החכמים מסורים בידם והלא המקרא",
-        en: "Rashi: the anointing prohibition on Yom Kippur applies to pleasure only.",
+        en: "the sages delivered into their hand? But doesn't the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-014",
@@ -173462,11 +173491,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 14,
         he: "משבחן שאף נשותיהם מנדדות שינה",
-        en: "Rashi: sandal prohibition - leather shoes that signify status.",
+        en: "praise them, that even their wives forgo sleep",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-015",
@@ -173474,11 +173505,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 15,
         he: "מעיניהן שוא לכם בעלי אומנות",
-        en: "Rashi: explains what qualifies as a sandal under the prohibition.",
+        en: "from their eyes: 'in vain for you, craftsmen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-016",
@@ -173486,11 +173519,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 16,
         he: "המשכימים ומאחרים למלאכתם אוכלי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "who rise early and stay late at their work, eaters of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-017",
@@ -173498,11 +173533,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 17,
         he: "לחם בעצב וביגיעה כן יתן הזן את",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "bread in sorrow and toil - so does the Sustainer give",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-018",
@@ -173510,11 +173547,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 18,
         he: "העולם מזונות ופרנסה לידידו שנא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the world sustenance and livelihood to His beloved, as it is said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35"
+        ]
       },
       {
         id: "rashi-yoma-077a-019",
@@ -173522,11 +173561,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 19,
         he: "למי שנדד שינה בשבילו: באתי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "regarding one who forwent sleep for His sake. New comment: 'I came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l35",
+          "yoma-077a-l39"
+        ]
       },
       {
         id: "rashi-yoma-077a-020",
@@ -173534,11 +173576,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 20,
         he: "בדבריך. על שדברתי בך: אשכחיה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "because of your words' - because I spoke in your favor. New comment: 'he found'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l39",
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-021",
@@ -173546,11 +173591,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 21,
         he: "לדוביאל דהוה נקט איגרתא: ואני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Duvi'el, who was holding the letter. New comment: 'and I'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-022",
@@ -173558,11 +173605,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 22,
         he: "יוצא והנה שר יון בא. וכשהגיע",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "was going out and behold the prince of Greece came' - and when arrived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-023",
@@ -173570,11 +173619,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 23,
         he: "זמן מלכות יון לבא אצא על כרחי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the time for the kingdom of Greece to come, I will go out against my will",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-024",
@@ -173582,11 +173633,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 24,
         he: "שכבר נגזרה גזרה ושר יון יבא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "since the decree has already been decreed and the prince of Greece will come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-025",
@@ -173594,11 +173647,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 25,
         he: "במקומי: עוי עוי. צעק וצוח גבריאל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in my place.' New comment: 'oy oy' - Gabriel cried and screamed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-026",
@@ -173606,11 +173661,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 26,
         he: "על זאת שלא ימשלו מלכי יון בישראל]:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "over this, that the kings of Greece should not rule over Israel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l43"
+        ]
       },
       {
         id: "rashi-yoma-077a-027",
@@ -173618,11 +173675,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 27,
         he: "ולאביתר הכהן וגו' כי נשאת את",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'and to Evyatar the priest, etc., for you bore'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-028",
@@ -173630,11 +173689,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 28,
         he: "ארון ה' לפני דוד אבי. כשהיה בורח",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'the Ark of the Lord before David my father' - when he was fleeing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-029",
@@ -173642,11 +173703,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 29,
         he: "מפני אבשלום: וכי התענית בכל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "from Avshalom. New comment: 'and that you were afflicted in all'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-030",
@@ -173654,11 +173717,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 30,
         he: "אשר התענה אבי. למדנו שנקראת",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'that my father was afflicted' - we learn that it is called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-031",
@@ -173666,11 +173731,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 31,
         he: "בריחתו של דוד מפני אבשלום",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "David's flight from Avshalom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-032",
@@ -173678,11 +173745,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 32,
         he: "עינוי וכתיב כי אמרו העם רעב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "an affliction, and it is written, 'for the people said, hungry",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47"
+        ]
       },
       {
         id: "rashi-yoma-077a-033",
@@ -173690,11 +173759,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 33,
         he: "ועיף וצמא במדבר: מים קרים",
-        en: "Rashi glosses the verse 'and faint and thirsty in the wilderness' (2 Sam 17): it refers to wanting cold water, showing that lack of washing is what counts as fatigue.",
+        en: "and weary and thirsty in the wilderness.' New comment: 'cold water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l47",
+          "yoma-077a-l52"
+        ]
       },
       {
         id: "rashi-yoma-077a-034",
@@ -173702,11 +173774,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 34,
         he: "על נפש עיפה. אלמא מרחיצה",
-        en: "Continuing: 'upon a faint soul' (Prov 25) - so it is washing whose absence is called being faint, not the lack of wearing sandals; and yet Scripture still calls that an affliction.",
+        en: "upon a weary soul' - so this shows that washing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l52"
+        ]
       },
       {
         id: "rashi-yoma-077a-035",
@@ -173714,11 +173788,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 35,
         he: "מיקרי עיף ולא מנעילת הסנדל וקרי",
-        en: "Rashi: this proves that going without washing is what is termed 'faint,' not going without sandals - and Scripture nonetheless calls the latter an affliction.",
+        en: "is called being weary, and not the wearing of a sandal, yet it calls",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l52"
+        ]
       },
       {
         id: "rashi-yoma-077a-036",
@@ -173726,11 +173802,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 36,
         he: "ליה עינוי דכתיב בכל אשר התענה",
-        en: "Rashi: as it is written 'in all that he afflicted himself' (1 Kings 2), so forgoing the sandal is also counted as a self-affliction.",
+        en: "it an affliction, as it is written, 'in all that he was afflicted'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l52"
+        ]
       },
       {
         id: "rashi-yoma-077a-037",
@@ -173738,11 +173816,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 37,
         he: "אבי: מרטקא. שוט הסוס: ויעש כן.",
-        en: "Rashi glosses 'avi' as a goad and 'shot ha-sus' as a horse-whip; and 'and he did so' (referring to David's conduct).",
+        en: "'my father.' New comment: 'martka' - a horse-whip. New comment: 'and he did so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l53",
+          "yoma-077a-l55"
+        ]
       },
       {
         id: "rashi-yoma-077a-038",
@@ -173750,11 +173831,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 38,
         he: "בישעיה כתיב ישעיה לא היה רגיל",
-        en: "Rashi: the verse cited is in Isaiah - Isaiah was not in the habit of riding in a chariot of horses, and his going barefoot was an actual barefootedness.",
+        en: "it is written regarding Yeshayahu - Yeshayahu was not accustomed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l55"
+        ]
       },
       {
         id: "rashi-yoma-077a-039",
@@ -173762,11 +173845,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 39,
         he: "במרכבת סוסים ויחף דידיה בנעילת",
-        en: "Continuing: Isaiah's barefootedness was literal going without shoes, while David's barefootedness was the absence of wearing a sandal.",
+        en: "to riding in a chariot of horses, and his barefootedness was in wearing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l55"
+        ]
       },
       {
         id: "rashi-yoma-077a-040",
@@ -173774,11 +173859,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 40,
         he: "סנדל הוא והוא יגלה על יחוף דדוד",
-        en: "Rashi: and 'he shall reveal' bears on the barefootedness of David - that David's case too refers to not wearing a sandal.",
+        en: "a sandal (he actually went unshod), and it reveals about David's barefootedness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l55"
+        ]
       },
       {
         id: "rashi-yoma-077a-041",
@@ -173786,11 +173873,14 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 41,
         he: "נמי דמנעילת הסנדל הוא: שלא יבוא",
-        en: "Rashi: David's barefootedness also means going without a sandal. On 'that your foot not come to barefootedness' -",
+        en: "that his too was merely the absence of wearing a sandal. New comment: 'so that your foot should not come'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l55",
+          "yoma-077a-l59"
+        ]
       },
       {
         id: "rashi-yoma-077a-042",
@@ -173798,11 +173888,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 42,
         he: "רגלך לידי יחוף. בצאתך בגולה:",
-        en: "Rashi glosses 'that your foot not come to barefootedness' (Jer 2): keep from going unshod 'when you go out into exile.'",
+        en: "to bareness' - when you go out into exile.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l59"
+        ]
       },
       {
         id: "rashi-yoma-077a-043",
@@ -173810,11 +173902,13 @@ const DAF_CONTENT = {
         daf: "77a",
         vilnaLine: 43,
         he: "אם",
-        en: "Rashi begins the next comment ('im' - 'if'), opening the following passage.",
+        en: "If (continues on 77b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077a-l61"
+        ]
       }
     ],
     review: "draft"
