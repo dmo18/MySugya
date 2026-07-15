@@ -181002,11 +181002,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 1,
         he: "כי איתשיל. בבי מדרשא הך דלעיל כמה ישתה ויהא חייב לענין עוג",
-        en: "Rashi: Rav's opinion on the size of the cheekful measure.",
+        en: "'When it was asked' - in the study hall, this question above, how much must one drink to be liable, regarding Og",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l01"
+        ]
       },
       {
         id: "rashi-yoma-080b-002",
@@ -181014,11 +181016,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 2,
         he: "מלך הבשן כלומר לענין אדם כענקים איתשיל והוו להו בית שמאי",
-        en: "Rashi: Shmuel's approach to measuring the cheekful.",
+        en: "king of Bashan, meaning: regarding a person like the giants, it was asked, and Beit Shammai held",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l01"
+        ]
       },
       {
         id: "rashi-yoma-080b-003",
@@ -181026,11 +181030,14 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 3,
         he: "לחומרא דמחייבי ברביעית: כזית בכדי אכילת פרס. קים לן",
-        en: "Rashi: the story of Rav and Shmuel measuring each other's cheeks.",
+        en: "stringently, that they obligate with a revi'it. New comment: 'an olive's-bulk within the time of eating a half-loaf' - we hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l01",
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-004",
@@ -181038,11 +181045,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 4,
         he: "(כריתות דף יב:) בכל אותן איסורין ששיעורן בכזית שאם שהה בין",
-        en: "Rashi: all foods combine toward the YK eating measure.",
+        en: "(Keritot 12b) in all those prohibitions whose measure is an olive's-bulk, that if one paused between",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-005",
@@ -181050,11 +181059,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 5,
         he: "תחילת אכילת השיעור לגמר אכילתו",
-        en: "Rashi: Reish Lakish - chewing without swallowing triggers liability.",
+        en: "the beginning of eating the measure and the completion of his eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-006",
@@ -181062,11 +181073,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 6,
         he: "יותר מכדי אכילת פרס אין מצטרף",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "longer than the time of eating a half-loaf, it does not combine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-007",
@@ -181074,11 +181087,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 7,
         he: "עד שיאכל כל השיעור בתוך כדי",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "unless he eats the whole measure within the time of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-008",
@@ -181086,11 +181101,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 8,
         he: "שהיית סעודה והיא אכילת חצי ככר",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "the duration of a meal, which is the eating of half a loaf",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-009",
@@ -181098,11 +181115,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 9,
         he: "ששיערו בו את העירוב שהוא מזון ב'",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "by which they measured the eiruv, which is food for two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-010",
@@ -181110,11 +181129,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 10,
         he: "סעודות כדתנן חציה לבית המנוגע",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "meals, as we learned: half of it, for the house afflicted with tzara'at,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-011",
@@ -181122,11 +181143,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 11,
         he: "שתלה הכתוב שהייתו לטמא בגדים",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "for the text made its duration there dependent on the impurity of garments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-012",
@@ -181134,11 +181157,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 12,
         he: "כשיעור אכילה: ככותבת בכדי אכילת",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "at the measure of eating. New comment: 'a date's-bulk within the time of eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-013",
@@ -181146,11 +181171,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 13,
         he: "פרס. בתמיה יום הכפורים ששיעור",
-        en: "Rashi explains the opening discussion of this topic on 80b.",
+        en: "a half-loaf' - as a rhetorical question: on Yom Kippur, whose measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-014",
@@ -181158,11 +181185,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 14,
         he: "אכילתו בככותבת אף הוא שיעורו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of eating is a date's-bulk, is its measure also",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-015",
@@ -181170,11 +181199,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 15,
         he: "צירוף אכילתו בכדי אכילת פרס",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for combining its eating within the time of eating a half-loaf?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-016",
@@ -181182,11 +181213,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 16,
         he: "ואם שהה יותר מכאן אין מצטרף",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "And if he paused longer than this, it does not combine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-017",
@@ -181194,11 +181227,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 17,
         he: "ופטור והא כיון דשיעורו גדול בעי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and he is exempt; but since its measure is larger, should it not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-018",
@@ -181206,11 +181241,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 18,
         he: "שהיי' טפי לצירוף אכילתו והשתא קולא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "more time for its eating to combine? And now this is a leniency",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-019",
@@ -181218,11 +181255,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 19,
         he: "דפטרי ליה: בטפי מהכי. אם שהה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that exempts him. New comment: 'more than this' - if he paused",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-020",
@@ -181230,11 +181269,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 20,
         he: "יותר מיכן לא מייתבא דעתיה ויוה\"כ",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "longer than this, his mind is not settled. And Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-021",
@@ -181242,11 +181283,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 21,
         he: "ביישוב הדעת תליא מילתא דכתיב",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "depends on the settling of the mind, as it is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17"
+        ]
       },
       {
         id: "rashi-yoma-080b-022",
@@ -181254,11 +181297,14 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 22,
         he: "אשר לא תעונה (ויקרא כג) : חצי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'which shall not be afflicted' (Leviticus 23). New comment: 'half a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l17",
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-023",
@@ -181266,11 +181312,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 23,
         he: "פרס. ששיעורו לפסול את הגויה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "half-loaf' - whose measure is to disqualify the body",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-024",
@@ -181278,11 +181326,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 24,
         he: "לאוכל אוכלין טמאין חצי פרם נפסל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for one who eats impure foods; by eating half a half-loaf, the body is disqualified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-025",
@@ -181290,11 +181340,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 25,
         he: "גופו מלאכול בתרומה וחצי פרס",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "from eating teruma; and half a half-loaf",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-026",
@@ -181302,11 +181354,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 26,
         he: "שיעור גדול הוא כשתי ביצים שוחקות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "is a large measure, like two crushed eggs,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-027",
@@ -181314,11 +181368,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 27,
         he: "כדאמרי' בעירובין (דף פג.) ואף ביה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "as we say in Eruvin (83a); and also regarding it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-028",
@@ -181326,11 +181382,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 28,
         he: "משוינן שהיית צירופו בכדי אכילת",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "we equate its combining-duration to the time of eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-029",
@@ -181338,11 +181396,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 29,
         he: "פרס ותו לא כיון דשיעורא רבה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "a half-loaf and no more, since its measure is large,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-030",
@@ -181350,11 +181410,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 30,
         he: "הוא בטפי מהכי ליצטרף: הנח",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "should it not combine even with more than this? New comment: 'leave aside'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-031",
@@ -181362,11 +181424,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 31,
         he: "לטומאת גויה דלאו דאורייתא.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the impurity of the body, which is not from the Torah.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20"
+        ]
       },
       {
         id: "rashi-yoma-080b-032",
@@ -181374,11 +181438,14 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 32,
         he: "ואקילו רבנן בה: ולא תטמאו בהם.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and the Sages were lenient regarding it. New comment: 'and you shall not make yourselves impure by them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l20",
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-033",
@@ -181386,11 +181453,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 33,
         he: "גבי אכילה כתיב אל תשקצו את",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "it is written regarding eating: 'do not make your souls detestable'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-034",
@@ -181398,11 +181467,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 34,
         he: "נפשותיכם דהיינו אכילה ולא תטמאו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "that is, eating; and 'you shall not make yourselves impure'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-035",
@@ -181410,11 +181481,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 35,
         he: "בהם לא זו היא אזהרת טומאה שהרי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "by them - this is not the warning against impurity, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-036",
@@ -181422,11 +181495,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 36,
         he: "אין ישראל מוזהרין מליטמא דכתיב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Israelites are not warned against becoming impure, as it is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-037",
@@ -181434,11 +181509,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 37,
         he: "אמור אל הכהנים וגו' (ויקרא כא)",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'Say to the priests, etc.' (Leviticus 21)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-038",
@@ -181446,11 +181523,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 38,
         he: "כהנים מוזהרין ואין ישראל מוזהרין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "kohanim are warned, but Israelites are not warned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-039",
@@ -181458,11 +181537,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 39,
         he: "אלא אזהרת אכילתן וכתיב ונטמתם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "rather, it is a warning about eating them, and it is written: 'and you shall become impure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-040",
@@ -181470,11 +181551,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 40,
         he: "בם משמע שעל ידי אכילתן תטמאו:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "by them' - implying that through eating them you become impure.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-041",
@@ -181482,11 +181565,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 41,
         he: "מכאן לטומאת גויה. על ידי אוכלין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'From here we derive the impurity of the body' - through impure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-042",
@@ -181494,11 +181579,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 42,
         he: "טמאין דאורייתא: מדרבנן. דקרא",
-        en: "Rashi: impure by Torah law. 'Rabbinically' - for the verse",
+        en: "foods, is from the Torah. New comment: 'it is rabbinic' - since the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-043",
@@ -181506,11 +181593,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 43,
         he: "לאו לטומאה אתא שאין לך דבר",
-        en: "does not come to teach impurity, since the only thing that",
+        en: "does not come to teach about impurity, since there is nothing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-044",
@@ -181518,11 +181607,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 44,
         he: "מטמא אדם על ידי אכילה אלא נבלת",
-        en: "conveys impurity to a person through eating is the carcass",
+        en: "that makes a person impure through eating except the carcass",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-045",
@@ -181530,11 +181621,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 45,
         he: "עוף טהור: אלא אסמכתא בעלמא.",
-        en: "of a clean bird. 'Rather, it is mere support (asmachta)' -",
+        en: "of a clean bird. New comment: 'rather, it is a mere support (asmachta).'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-046",
@@ -181542,11 +181635,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 46,
         he: "ועיקר קרא דרשינן בפרק אמר להם",
-        en: "Rashi: and the main verse we expound in the chapter 'The appointed officer said to them'",
+        en: "And the essential teaching of the verse we expound in the chapter 'he said to them,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-047",
@@ -181554,11 +181649,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 47,
         he: "הממונה (לעיל דף לט.) אדם מטמא",
-        en: "(above 39a): a person conveys a little impurity to himself,",
+        en: "(above 39a): a person who defiles himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-048",
@@ -181566,11 +181663,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 48,
         he: "עצמו מעט מטמאין אותו הרבה:",
-        en: "and they convey much impurity to him.",
+        en: "a little, they defile him a lot.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l23"
+        ]
       },
       {
         id: "rashi-yoma-080b-049",
@@ -181578,11 +181677,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 49,
         he: "אומצא ומילחא. שעליה: אכשורי אוכלא. משקה הבא למתק את",
-        en: "Rashi: 'umtza u-milcha' - the salt that is on it. 'Ikhsharei ukhla' - a liquid that comes to sweeten",
+        en: "'A piece of raw meat and salt' - that is upon it. New comment: 'what renders food fit' - a liquid that comes to sweeten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l26"
+        ]
       },
       {
         id: "rashi-yoma-080b-050",
@@ -181590,11 +181691,14 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 50,
         he: "האוכל אוכלא הוא: אכילה גסה. שאכל לילי יום הכפורים על",
-        en: "the food is itself considered food. 'Gross eating' - one who ate on the eve of Yom Kippur",
+        en: "the food is itself considered food. New comment: 'gross eating' - one who ate on the night of Yom Kippur while",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l26",
+          "yoma-080b-l32"
+        ]
       },
       {
         id: "rashi-yoma-080b-051",
@@ -181602,11 +181706,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 51,
         he: "השבע שהיה שבע מסעודה שהפסיק בה וכל מה שאכל משחשיכה",
-        en: "while already sated, having been full from a meal he had paused, so that all he ate after dark",
+        en: "already sated, having been full from a meal he had paused from, and all that he ate after dark",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l32"
+        ]
       },
       {
         id: "rashi-yoma-080b-052",
@@ -181614,11 +181720,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 52,
         he: "אכילה גסה היתה ושלא להנאה: פרט למזיק. לזה שאינו מבטל ממנו",
-        en: "was gross eating and gave no pleasure. 'Excluding one who harms' - this one, for whom this eating relieves",
+        en: "was gross eating and without pleasure. New comment: 'excluding one who harms' - this one, who does not remove from himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l32"
+        ]
       },
       {
         id: "rashi-yoma-080b-053",
@@ -181626,11 +181734,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 53,
         he: "שום עינוי על ידי אכילה זו אלא מזיק הוא את האוכלין ואת עצמו:",
-        en: "no affliction but only harms him - it damages the food and himself.",
+        en: "any affliction through this eating, but rather he harms the food and himself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l32"
+        ]
       },
       {
         id: "rashi-yoma-080b-054",
@@ -181638,11 +181748,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 54,
         he: "זר שאכל תרומה. בשוגג שחייבו הכתוב תשלומי קרן וחומש",
-        en: "Rashi: 'a non-kohen who ate teruma' - inadvertently, whom Scripture obligated to pay principal plus a fifth -",
+        en: "'A non-kohen who ate teruma' - inadvertently, whom Scripture obligated to pay the principal and a fifth,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l34"
+        ]
       },
       {
         id: "rashi-yoma-080b-055",
@@ -181650,11 +181762,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 55,
         he: "פטור אם אכלה על השבע: פרט למזיק. את התרומה:",
-        en: "is exempt if he ate it while sated. 'Excluding one who harms' - the teruma.",
+        en: "is exempt if he ate it while sated. New comment: 'excluding one who harms' - the teruma.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l34"
+        ]
       },
       {
         id: "rashi-yoma-080b-056",
@@ -181662,11 +181776,13 @@ const DAF_CONTENT = {
         daf: "80b",
         vilnaLine: 56,
         he: "שכוסס",
-        en: "Rashi begins the next comment ('she-koses'), opening the following passage.",
+        en: "This ('shekoses') continues on 81a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080b-l34"
+        ]
       }
     ],
     review: "draft"
