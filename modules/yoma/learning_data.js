@@ -178113,11 +178113,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 1,
         he: "בגרעינתה או שלא בגרעינתה. והא",
-        en: "Rashi: the 'large date-bulk' measure includes the pit as well as the flesh.",
+        en: "'With its pit or without its pit.' And as for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-002",
@@ -178125,11 +178127,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 2,
         he: "דקתני מתניתין וכגרעינתה מיבעיא",
-        en: "Rashi: how the Rabbis determined and transmitted this eating measure.",
+        en: "the fact that the Mishnah teaches 'and like its pit' - they ask",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-003",
@@ -178137,11 +178141,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 3,
         he: "ליה היכי קאמר כמוהו וכגרעינתה",
-        en: "Rashi: the practical method for measuring the date-bulk.",
+        en: "him: how does it mean? Like it and like its pit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-004",
@@ -178149,11 +178155,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 4,
         he: "יחד או דלמא הכי קאמר כמוה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "together, or perhaps it means: like it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-005",
@@ -178161,11 +178169,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 5,
         he: "כגרעינתה: אושלא קרי לה. הלכך",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'like its pit' as an alternative. New comment: 'he calls it ushla' - therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-006",
@@ -178173,11 +178183,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 6,
         he: "יבישה בקליפתה הוא דמקרי' שעורה:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "when dry, it is with its peel that it is called a barleycorn measure.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l01"
+        ]
       },
       {
         id: "rashi-yoma-079a-007",
@@ -178185,11 +178197,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 7,
         he: "קים להו לרבנן וכו'. ואע\"ג דכל שיעור",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'the Sages had a tradition, etc.' - and even though every measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l07"
+        ]
       },
       {
         id: "rashi-yoma-079a-008",
@@ -178197,11 +178211,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 8,
         he: "אכילת איסור בכזית היא הני מילי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "of forbidden eating is an olive's-bulk, this applies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l07"
+        ]
       },
       {
         id: "rashi-yoma-079a-009",
@@ -178209,11 +178225,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 9,
         he: "היכא דכתיב' אכילה אבל הכא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "where 'eating' is written, but here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l07"
+        ]
       },
       {
         id: "rashi-yoma-079a-010",
@@ -178221,11 +178239,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 10,
         he: "אשר לא תעונה כתיב וכל כמה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'that shall not be afflicted' is written, and as long as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l07"
+        ]
       },
       {
         id: "rashi-yoma-079a-011",
@@ -178233,11 +178253,14 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 11,
         he: "דלא מיתבא דעתיה ענוי הוא: נטלו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "his mind is not settled, it is still an affliction. New comment: 'he took'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l07",
+          "yoma-079a-l15"
+        ]
       },
       {
         id: "rashi-yoma-079a-012",
@@ -178245,11 +178268,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 12,
         he: "במפה ואכלו וכו'. שלשה קולין נהג",
-        en: "Rashi: 'he took with a napkin and ate' - he practiced three leniencies. One,",
+        en: "with a napkin and ate, etc.' - he practiced three leniencies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l15"
+        ]
       },
       {
         id: "rashi-yoma-079a-013",
@@ -178257,11 +178282,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 13,
         he: "בו אחת שלא נטל ידיו אלא במפה",
-        en: "that he did not wash his hands but only used a napkin,",
+        en: "with it: one, that he did not wash his hands but only with a napkin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l15"
+        ]
       },
       {
         id: "rashi-yoma-079a-014",
@@ -178269,11 +178296,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 14,
         he: "כרך ידיו משום אנינות הדעת וחוץ",
-        en: "wrapping his hands because of the grief-distraction of an onen; and outside",
+        en: "he wrapped his hands, because of the distraction of an onen's grief; and outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l15"
+        ]
       },
       {
         id: "rashi-yoma-079a-015",
@@ -178281,11 +178310,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 15,
         he: "לסוכה אכלו ולא בירך אחריו:",
-        en: "the sukkah he ate; and he did not recite grace after the meal.",
+        en: "the sukkah he ate it, and did not recite a blessing after it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l15"
+        ]
       },
       {
         id: "rashi-yoma-079a-016",
@@ -178293,11 +178324,13 @@ const DAF_CONTENT = {
         daf: "79a",
         vilnaLine: 16,
         he: "הא",
-        en: "Rashi begins the next comment ('ha'), opening the following passage.",
+        en: "This (continues on 79b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079a-l15"
+        ]
       }
     ],
     review: "draft"
