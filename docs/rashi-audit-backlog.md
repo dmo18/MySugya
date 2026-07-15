@@ -5747,3 +5747,38 @@ Post-repair profile: ALIGNED, 6 anchors found, 0 missing. Corpus
 semantic audit: 0 shift candidates. No allowlist entries existed for
 48a to remove. Remaining campaign targets: 48b, 49a, 49b, 50a, 50b,
 51a, 51b, 52a, 52b.
+
+### 48b reconstructed (VERSION 15.106, rashi-reconstruction, Sonnet worker, anchor-poor-safe)
+
+Fresh diagnosis: raw count 26 = entries 26 (structurally sound), all
+26 entries unlinked, and the prior English invented a pigul/wrong-
+intent-during-eating storyline unrelated to the actual Hebrew (which
+covers whether preparatory coal-raking counts as a service act, then
+whether left-hand carrying invalidates it). Classified
+rashi-reconstruction.
+
+Rebuilt all 26 entries against the raw Hebrew and the 4-id local
+segment table: vl1-8 the raking-as-service question, dual-linked at
+the seam into the left-hand-carrying question (l01a, l01b); vl9-18 the
+receiving/tossing/carrying priesthood analysis with its Chagigah 11a
+citation (l01b); vl19-22 the right-leg-carrying Mishnah proof (l05);
+vl23-26 the atonement-dependent-carrying distinction (l07). vl26 (a
+truncated word) was checked against 49a's own raw Rashi source and,
+per the documented 10a vilnaLine 35 precedent, stays linked to l07 as
+the daf's own closest local anchor regardless of the new topic it
+opens on 49a.
+
+This daf's raw Rashi genuinely contains only one citation (Chagigah
+11a), split across two raw print lines so the anchor scanner's
+per-line adjacency window can never pair the tractate name with its
+daf number; the classifier therefore reports INSUFFICIENT-ANCHORS
+rather than ALIGNED regardless of translation correctness (ALIGNED
+requires 2+ anchors). This is the daf that prompted the anchor-poor-
+safe review-gate exception added in PR #95 (VERSION 15.105,
+docs-tooling): worker:review now accepts INSUFFICIENT-ANCHORS for
+rashi-reconstruction/rashi-realignment when exactly one genuine
+citation exists, is found at offset 0, no anchor is missing, and the
+self-review's anchorPoorAttestation block confirms no citation was
+invented, moved, or duplicated to satisfy the detector - all of which
+hold here. No allowlist entries existed for 48b to remove. Remaining
+campaign targets: 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.

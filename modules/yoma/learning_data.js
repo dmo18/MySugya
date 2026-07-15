@@ -111285,11 +111285,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 1,
         he: "חישב בחתיית גחלים. מהו להפסיל הקטורת: כמצוה דמי. והוי ליה",
-        en: "The dilemma: what if the High Priest thought pigul thoughts during the raking (rikud) of coals?",
+        en: "Rashi: opens - 'if he had wrong intent during the raking of coals' - does it invalidate the incense? 'Is it like the mitzva itself' - so that it would be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-002",
@@ -111297,11 +111299,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 2,
         he: "כמחשב בעבודה לשון אחר חישב בחתיית גחלים מהו שיפסלו גחלים",
-        en: "Raking is a preparatory act before placing the incense on the coals.",
+        en: "Rashi: continues - like having wrong intent during the main service. Alternatively: 'if he had wrong intent during the raking of coals,' the question is whether the coals themselves become invalid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-003",
@@ -111309,11 +111313,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 3,
         he: "במחשבה זו מלהקטיר עליהן. לינה שמעינן דפסלה בהו מדפסיל",
-        en: "Pigul thoughts during the main offering act clearly invalidate. What about preparation?",
+        en: "Rashi: continues - through this intent, from being burned upon them afterward. We know that leaving overnight invalidates them, since tevul yom invalidates,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-004",
@@ -111321,11 +111327,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 4,
         he: "טבול יום כדתנן לעיל מיהו הא מיבעיא לן אי הוי חתייתן עבודה",
-        en: "The Talmud's principle: pigul thoughts must occur during one of the four main service acts.",
+        en: "Rashi: continues - as we learned above; but this is what we are asking: whether their raking is itself a service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-005",
@@ -111333,11 +111341,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 5,
         he: "למיפסל בה מחשבה: מכשירי מצוה",
-        en: "If raking is not one of the four main acts, thoughts during raking may not create pigul.",
+        en: "Rashi: continues - such that wrong intent could invalidate through it. 'Preparatory acts for a mitzva'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-006",
@@ -111345,11 +111355,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 6,
         he: "כמצוה דמו. וכי היכי דמחשבת",
-        en: "But if raking is considered part of the main service, then thoughts during it do create pigul.",
+        en: "Rashi: continues - 'are they considered like the mitzva itself?' And just as the intent of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-007",
@@ -111357,11 +111369,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 7,
         he: "חפינה פסלה בקטורת מחשבת חתייה",
-        en: "The Sages raise a question before Rav Sheshet: does standard pigul apply to incense?",
+        en: "Rashi: continues - scooping invalidates the incense, so too the intent during raking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-048b-008",
@@ -111369,11 +111383,14 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 8,
         he: "נמי פסלה בגחלים: הולכה בשמאל",
-        en: "Pigul normally: 'I will eat this offering outside its permitted time/place.'",
+        en: "Rashi: continues - also invalidates the coals.' 'Carrying in the left hand'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01a",
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-009",
@@ -111381,11 +111398,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 9,
         he: "מהו. הולכת הדם מיבעי ליה קבלה",
-        en: "But incense is not eaten. How can you have an 'eating outside time' thought about incense?",
+        en: "Rashi: continues - what is the law? This means the carrying of the blood; he needs receiving",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-010",
@@ -111393,11 +111412,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 10,
         he: "וזריקה דכתיב בהו כהונה פשיטא לן",
-        en: "Rav Sheshet's first answer: pigul applies to incense - the consumption intent is about smelling or other enjoyment.",
+        en: "Rashi: continues - and tossing, for which priesthood is written; it is obvious to us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-011",
@@ -111405,11 +111426,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 11,
         he: "דכל מקום שנאמר אצבע וכהונה אינה",
-        en: "The Gemara challenges: a baraita implies pigul specifically requires food-consumption intent.",
+        en: "Rashi: continues - that anywhere 'finger' and priesthood are stated, it means only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-012",
@@ -111417,11 +111440,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 12,
         he: "אלא ימין אבל הולכה לא כתיב",
-        en: "If so, incense - which is not food - cannot be subject to standard pigul.",
+        en: "Rashi: continues - the right hand; but regarding carrying it is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-013",
@@ -111429,11 +111454,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 13,
         he: "בהדיא ומדאפקה רחמנא לקבלה",
-        en: "Then what kind of intent invalidates the incense service?",
+        en: "Rashi: continues - explicitly, and since the Merciful One expressed 'receiving'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-014",
@@ -111441,11 +111468,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 14,
         he: "בלשון הולכה דתניא והקריבו זו",
-        en: "Answer: the intent that invalidates incense is thinking about the purpose/destination, not consumption.",
+        en: "Rashi: continues - in the language of 'carrying,' as it was taught: 'and he shall bring it near' - this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-015",
@@ -111453,11 +111482,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 15,
         he: "קבלת הדם נפקא לן במסכת חגיגה",
-        en: "E.g., if the priest thinks 'I am placing this for someone else's benefit' or 'for a different day.'",
+        en: "Rashi: continues - the receiving of the blood; we derive it in tractate Chagigah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-016",
@@ -111465,11 +111496,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 16,
         he: "(דף יא.) שהיא עבודה ומיהו שמאל",
-        en: "The Gemara resolves: from there, I might have derived only one type of intent.",
+        en: "Rashi: continues - (11a) that it is also a service; however, the left hand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-017",
@@ -111477,11 +111510,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 17,
         he: "איכא למימר דלא פסיל דהא לא",
-        en: "Therefore another verse is needed to establish the full scope of what invalidates incense service.",
+        en: "Rashi: continues - one could say does not invalidate, since it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-018",
@@ -111489,11 +111524,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 18,
         he: "כתב בה כהונה בהדיא: את הכף בשמאלו. אלמא כשירה",
-        en: "The Gemara works through the verse analysis step by step.",
+        en: "Rashi: continues - explicitly written 'priesthood' regarding it. 'The spoon in his left hand' - evidently it is valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-048b-019",
@@ -111501,11 +111538,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 19,
         he: "בשמאל: ותיפשוט ליה מהא. דבגופו של מזבח קמיירי:",
-        en: "The conclusion: incense does have its own form of invalid intent, not identical to standard pigul.",
+        en: "Rashi: continues - in the left hand.' 'And let us resolve it from this' - for it speaks regarding an act performed at the body of the altar itself:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l05"
+        ]
       },
       {
         id: "rashi-yoma-048b-020",
@@ -111513,11 +111552,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 20,
         he: "הרגל של ימין בשמאל. מי שזכה להעלות לכבש הראש והרגל",
-        en: "48b is a focused page about the mental dimension of the kometz/incense service.",
+        en: "Rashi: continues - 'the right leg in the left hand' - the one who merited to bring the head and the leg up the ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l05"
+        ]
       },
       {
         id: "rashi-yoma-048b-021",
@@ -111525,11 +111566,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 21,
         he: "מקבל מיד המנתח את הראש בימינו ואת רגל הימנית של תמיד",
-        en: "The two sugyot both probe: when and how does intent invalidate the service?",
+        en: "Rashi: continues - receives from the one who dismembered the animal the head in his right hand, and the right leg of the daily offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l05"
+        ]
       },
       {
         id: "rashi-yoma-048b-022",
@@ -111537,11 +111580,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 22,
         he: "מקבל בשמאלו: ובית עורה לחוץ. ומקום חתך לפנים כלפי כהן",
-        en: "The raking dilemma: during preparation vs during the act.",
+        en: "Rashi: continues - he receives in his left hand. 'And its hide side to the outside' - the cut place faces inward, toward the priest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l05"
+        ]
       },
       {
         id: "rashi-yoma-048b-023",
@@ -111549,11 +111594,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 23,
         he: "וכן נאה: הני מילי הולכה וכו'. הולכת אברים דלא מעכבא",
-        en: "The pigul dilemma: food-consumption intent vs incense-appropriate intent.",
+        en: "Rashi: continues - and so it is fitting.' 'This applies to carrying,' etc. - the carrying of limbs, which does not hold up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l07"
+        ]
       },
       {
         id: "rashi-yoma-048b-024",
@@ -111561,11 +111608,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 24,
         he: "כפרה שאין כפרה אלא בדם והוא עצמו שלא הוקטרו אבריו כשר:",
-        en: "Both questions have the same structure: what is the exact scope of the intent requirement?",
+        en: "Rashi: continues - atonement, since atonement is only through the blood, and the offering itself, if its limbs were not burned, is still valid:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l07"
+        ]
       },
       {
         id: "rashi-yoma-048b-025",
@@ -111573,11 +111622,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 25,
         he: "אבל הולכת דם דדם מעכב כפרה הוא. אימא לא נתכשר בשמאל:",
-        en: "48b concludes the kometz intent discussion; 49a will begin the receiving-handfuls question.",
+        en: "Rashi: continues - but the carrying of blood, since blood does hold up atonement, you might say it is not rendered valid in the left hand:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l07"
+        ]
       },
       {
         id: "rashi-yoma-048b-026",
@@ -111585,11 +111636,13 @@ const DAF_CONTENT = {
         daf: "48b",
         vilnaLine: 26,
         he: "זר",
-        en: "The transition: from taking the handfuls (kometz) to receiving them (kabbalah).",
+        en: "Rashi: concludes - 'a non-priest' - the daf ends mid-word here; the comment (opening the list of persons disqualified from service: a non-priest, a mourner, a drunkard, one with a blemish) continues on 49a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-048b-l07"
+        ]
       }
     ],
     review: "reviewed"
