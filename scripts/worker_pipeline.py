@@ -902,7 +902,11 @@ def multi_anchor_safe(prof):
     (which the classifier also grants to a daf with anchors still
     missing, e.g. 2 found + 2 missing): requires the classification
     itself be ALIGNED, every expected anchor found, zero missing, and
-    every found offset exactly 0. Returns (ok: bool, reason: str)."""
+    every found offset exactly 0 -- except a dafnum anchor flagged
+    splitContinuation (its digits are sourced from the following raw
+    line, e.g. he ends "(Berakhot" and the next line opens "39a)"), for
+    which offset 0 or +1 are both the citation's own, honestly-translated
+    position, not drift. Returns (ok: bool, reason: str)."""
     if not prof:
         return False, "no drift profile available"
     cls = prof.get("classification")
@@ -912,10 +916,18 @@ def multi_anchor_safe(prof):
         return False, "fewer than 2 genuine anchors (not a multi-anchor daf)"
     if prof.get("anchorsMissing", 1) != 0:
         return False, f"{prof.get('anchorsMissing')} expected anchor(s) missing"
-    bad_offsets = [o for o in prof.get("offsets", []) if o != 0]
+    bad_offsets = []
+    for a in prof.get("anchors", []):
+        o = a.get("offset")
+        if o is None:
+            continue
+        allowed_offsets = (0, 1) if a.get("splitContinuation") else (0,)
+        if o not in allowed_offsets:
+            bad_offsets.append(o)
     if bad_offsets:
         return False, f"offset(s) not exactly 0: {bad_offsets}"
-    return True, "classification ALIGNED, every expected anchor found, zero missing, all offsets 0"
+    return True, ("classification ALIGNED, every expected anchor found, zero missing, "
+                  "all offsets 0 (or +1 for a legitimately split citation's daf number)")
 
 
 def one_anchor_safe(prof, sr):
@@ -927,7 +939,10 @@ def one_anchor_safe(prof, sr):
 
       1. prof['anchors'] has exactly one entry.
       2. that entry's offset is not None (it is found in the English).
-      3. that entry's offset is exactly 0 (no displacement).
+      3. that entry's offset is exactly 0 (no displacement) -- or +1 when
+         the anchor is flagged splitContinuation, since a dafnum token
+         whose digits are sourced from the following raw line legitimately
+         lands one English line later in a faithful translation.
       4. prof['anchorsMissing'] is 0 (no expected anchor is missing).
       5. the self-review carries an 'oneAnchorAttestation' (or the
          legacy 'anchorPoorAttestation') block with all of
@@ -947,7 +962,8 @@ def one_anchor_safe(prof, sr):
     offset = anchors[0].get("offset")
     if offset is None:
         return False, "the single citation is not found anywhere in the English"
-    if offset != 0:
+    allowed_offsets = (0, 1) if anchors[0].get("splitContinuation") else (0,)
+    if offset not in allowed_offsets:
         return False, f"the single citation is found at offset {offset}, not 0"
     if prof.get("anchorsMissing", 1) != 0:
         return False, f"{prof.get('anchorsMissing')} expected citation(s) missing"
