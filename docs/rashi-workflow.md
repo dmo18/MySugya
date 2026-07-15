@@ -91,32 +91,60 @@ packet embeds each daf's profile, and worker:verify enforces a clean
 post-edit profile for both rashi-realignment and rashi-reconstruction
 PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
 
-### Anchor-poor-safe review-gate exception
+### Source-relative citation-evidence review-gate policy
 
-A daf whose raw Rashi contains fewer than two genuine citations can
+Citation anchors are corroborating evidence, not a mandatory content
+feature: the merge gate must never require inventing one, and the
+absence of citations must never automatically imply correctness. A
+daf whose raw Rashi contains fewer than two genuine citations can
 never classify ALIGNED (the classifier requires 2+ anchors), even
-after a fully correct reconstruction. `npm run worker:review`'s
-drift-profile-ALIGNED condition accepts INSUFFICIENT-ANCHORS in place
-of ALIGNED for `rashi-reconstruction`/`rashi-realignment` ONLY when
-ALL of the following hold, reported as its own distinct
-`anchor-poor-safe` PASS/FAIL line rather than a silent ALIGNED
-relabel:
+after a fully correct reconstruction, so `npm run worker:review`'s
+drift-profile-ALIGNED condition for `rashi-reconstruction`/
+`rashi-realignment` is evaluated by three tiers, chosen by the number
+of genuine detectable citations in the daf's own raw Hebrew (a fixed
+source property, independent of the current translation):
 
-1. the raw Hebrew contains exactly one genuine detectable citation
-2. that citation is found in the English (not missing)
-3. its offset is exactly 0
-4. no expected anchor is missing
-5. the fresh `.worker-self-review.json` carries an
-   `anchorPoorAttestation` object with `onlyOneGenuineCitation`,
-   `citationTranslatedOnOwnLine`, `noCitationInventedMovedOrDuplicated`,
-   and `noSemanticUncertaintyRemains` all explicitly `true`
+**2+ anchors (multi-anchor-safe)** - stricter than the bare ALIGNED
+label (which the classifier can still grant with anchors missing):
+requires classification ALIGNED, every expected anchor found, zero
+missing, and every offset exactly 0.
 
-SHIFTED and FABRICATION-SUSPECT can never qualify (both require 2+
-anchors). This never changes the classifier or relabels the daf
-ALIGNED; it only widens what the merge gate accepts for these two task
-types. `rashi-structural-repair` is unaffected: it keeps its own,
-separate, unconditional haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)
-allowance. Tests: `npm run test:policy`.
+**Exactly 1 anchor (one-anchor-safe)** - the daf's own citation is
+found at offset 0, zero missing, and the fresh
+`.worker-self-review.json` carries a `oneAnchorAttestation` object
+with `onlyOneGenuineCitation`, `citationTranslatedOnOwnLine`,
+`noCitationInventedMovedOrDuplicated`, and `noSemanticUncertaintyRemains`
+all explicitly `true`.
+
+**0 anchors (zero-anchor-safe)** - requires an independent SECOND
+source scan (a whole-text parenthetical search that deliberately does
+not reuse the primary per-line/tractate-name scanner) to confirm no
+citation-like text exists anywhere, plus a `zeroAnchorAttestation`
+object with `everyRawLineRereadForCitations`,
+`noTractateDafChapterVerseOrOtherCitationAnywhere`,
+`noCitationInventedMovedOrDuplicated`, and `noSemanticUncertaintyRemains`
+all explicitly `true`. Any entry with an empty `linkedGemaraLineIds`
+must be named in an `authorizedEmptyLinks` list citing a documented
+boundary rule, or the tier fails. This is the strongest of the three
+attestations, precisely because zero anchors is the weakest evidence.
+
+Whichever tier decides the outcome, `worker:review` reports it as its
+own distinct PASS/FAIL line (`one-anchor-safe` or `zero-anchor-safe`)
+rather than a silent ALIGNED relabel. SHIFTED and FABRICATION-SUSPECT
+can never qualify at any tier (both always carry 2+ anchors). This
+never changes the classifier itself. `rashi-structural-repair` is
+unaffected: it keeps its own, separate, unconditional haiku-safe
+(ALIGNED or INSUFFICIENT-ANCHORS) allowance.
+
+Before starting content work on a multi-daf campaign, run
+`npm run worker:capability-scan -- --targets <daf1,daf2,...>` (or with
+no `--targets` to read the tracked `.worker-queue.json`) once for the
+whole queue: a read-only, content-never-edited classification of every
+target's anchor cardinality (ZERO/ONE/MULTI), packet/local-segment
+completeness, and whether the review gate can represent a legitimate
+final state for it. It exits nonzero if any target is unsupported, so
+a deterministic gate limitation is caught before the first content PR
+rather than discovered mid-campaign. Tests: `npm run test:policy`.
 
 ## Structural repair (VERSION 15.97)
 
