@@ -174553,11 +174553,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 1,
         he: "אם תענה מתשמיש. להשבית עונתן: ואם תקח מצרות. השביעו",
-        en: "Rashi: the verse about Jacob afflicting Laban's daughters relates to fasting.",
+        en: "'If you afflict' - from marital relations, to withhold their conjugal due. New comment: 'and if you take' - as rivals. He made him swear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l01"
+        ]
       },
       {
         id: "rashi-yoma-077b-002",
@@ -174565,11 +174567,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 2,
         he: "כמשמעו שלא יוסיף להן צרות: ה\"ג ואימא אידי ואידי מצרות",
-        en: "Rashi: the term 'afflict' connects both contexts through shared vocabulary.",
+        en: "according to its plain sense, that he would not add rivals for them. Textual note: this is the correct reading: 'but say both refer to rivals'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l01",
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-003",
@@ -174577,11 +174582,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 3,
         he: "מי כתיב אם תקח ואם תקח כתיב ואימא אידי ואידי מצרות חד",
-        en: "Rashi: the marital relations prohibition is the fifth of the five afflictions.",
+        en: "is it written 'if you take'? 'And if you take' is written. But say both refer to rivals, one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l01",
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-004",
@@ -174589,11 +174597,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 4,
         he: "לצרות דידיה וחד לצרות דאתיין ליה מעלמא דומיא דואם תקח מי",
-        en: "Rashi: marital relations on YK are forbidden as a pleasurable activity.",
+        en: "for his own rivals, and one for rivals coming to him from elsewhere, similar to 'and if you take.' Is it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-005",
@@ -174601,11 +174611,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 5,
         he: "כתיב אם תקח ואם תענה אם תענה",
-        en: "Rashi: greeting others on Yom Kippur - permitted as a sign of respect.",
+        en: "written 'if you take and if you afflict'? 'If you afflict",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-006",
@@ -174613,11 +174625,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 6,
         he: "ואם תקח כתיב. והכי פירושא ואימא",
-        en: "Rashi: walking to honor one's father or teacher on Yom Kippur.",
+        en: "and if you take' is written. And this is the meaning: but say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-007",
@@ -174625,11 +174639,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 7,
         he: "אידי ואידי מצרות וה\"ק אם תענה",
-        en: "Rashi: the Ezekiel 47 river - begins beneath the Temple threshold.",
+        en: "both refer to rivals, and this is what it means: 'if you afflict",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-008",
@@ -174637,11 +174653,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 8,
         he: "את בנותי ליקח נשים עליהן מי כתיב",
-        en: "Rashi: the miraculous deepening of the Temple river as it flows.",
+        en: "my daughters,' to take wives over them - is it written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-009",
@@ -174649,11 +174667,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 9,
         he: "אם תענה אם תקח דליהוי אם תקח",
-        en: "Rashi: the river sweetens the Dead Sea and brings fish in its waters.",
+        en: "'if you afflict, if you take,' so that 'if you take'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-010",
@@ -174661,11 +174681,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 10,
         he: "פי' דאם תענה ואם תקח כתיב",
-        en: "Rashi explains the opening discussion of this topic on 77b.",
+        en: "would explain 'if you afflict'? Rather 'and if you take' is written separately,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-011",
@@ -174673,11 +174695,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 11,
         he: "מילתא אחריתי היא: ואימא אידי",
-        en: "Rashi explains the opening discussion of this topic on 77b.",
+        en: "so it is a separate matter. New comment: 'but say both'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-012",
@@ -174685,11 +174709,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 12,
         he: "ואידי מצרות חד לצרות דידיה. שלא",
-        en: "Rashi explains the opening discussion of this topic on 77b.",
+        en: "refer to rivals, one for his own rivals - so that he should not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-013",
@@ -174697,11 +174723,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 13,
         he: "יעשה בלהה וזלפה גבירות שוות",
-        en: "Rashi explains the opening discussion of this topic on 77b.",
+        en: "make Bilhah and Zilpah equal mistresses",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-014",
@@ -174709,11 +174737,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 14,
         he: "להן והדר אשבעיה אם תקח נשים",
-        en: "Rashi explains the opening discussion of this topic on 77b.",
+        en: "to them, and then he made him swear 'if you take wives'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-015",
@@ -174721,11 +174751,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 15,
         he: "דהיינו צרות דאתיין להו לבתר הכי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "namely, rivals that would come to them afterward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-016",
@@ -174733,11 +174765,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 16,
         he: "מעלמא והכי מסתברא דומיא דואם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "from elsewhere - and this stands to reason, similar to 'and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-017",
@@ -174745,11 +174779,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 17,
         he: "תקח: מי כתיב אם תקח ואם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "you take.' Is it written 'if you take and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-018",
@@ -174757,11 +174793,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 18,
         he: "תענה. צרות דעלמא קשות להן מן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "you afflict'? Since rivals from elsewhere are harsher for them than",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-019",
@@ -174769,11 +174807,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 19,
         he: "הראשונות וברישא הוה ליה לאשבועיה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the first rivals, and at first he should have made him swear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-020",
@@ -174781,11 +174821,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 20,
         he: "אצרות דעלמא והדר הוה ליה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "regarding rivals from elsewhere, and then he should have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-021",
@@ -174793,11 +174835,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 21,
         he: "לאשבועיה אצרות דידיה דלא מישתעי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "made him swear regarding his own rivals, since a person does not speak",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-022",
@@ -174805,11 +174849,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 22,
         he: "איניש הכי להזהירו תחילה על הקל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "this way - to caution him first about the lenient matter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03"
+        ]
       },
       {
         id: "rashi-yoma-077b-023",
@@ -174817,11 +174863,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 23,
         he: "ולבסוף על הקשה: מביאות אחרות.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and afterward about the stringent one. New comment: 'from other acts of intercourse' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l03",
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-024",
@@ -174829,11 +174878,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 24,
         he: "שהיתה מתאוה לו ולא בא עליה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that she desired him, and he did not come to her",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-025",
@@ -174841,11 +174892,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 25,
         he: "בעונתה בימים שעמדה אצלו ואני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "at her appointed time during the days she waited for him. And I",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-026",
@@ -174853,11 +174906,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 26,
         he: "שמעתי שעינה מביאות אחרות שבא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "have heard that he afflicted her through other acts of intercourse, that he came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-027",
@@ -174865,11 +174920,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 27,
         he: "עליה שלא כדרכה וקשיא לי א\"כ",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to her not in the usual manner. And this is difficult for me: if so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-028",
@@ -174877,11 +174934,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 28,
         he: "אימא אם תענה את בנותי נמי הכי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "say that 'if you afflict my daughters' also means this -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-029",
@@ -174889,11 +174948,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 29,
         he: "אשבעיה שלא יענה אותן מביאות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "he made him swear not to afflict them through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-030",
@@ -174901,11 +174962,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 30,
         he: "אחרות ועוד שעינה בביאות אחרות",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "other acts of intercourse; and furthermore, 'that he afflicted her through other acts of intercourse'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06"
+        ]
       },
       {
         id: "rashi-yoma-077b-031",
@@ -174913,11 +174976,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 31,
         he: "מיבעי ליה : מדיחה את ידה. לפי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "it should have said. New comment: 'she rinses her hand' - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l06",
+          "yoma-077b-l13"
+        ]
       },
       {
         id: "rashi-yoma-077b-032",
@@ -174925,11 +174991,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 32,
         he: "שרוח רעה שורה על הלחם הנלקח",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "an evil spirit rests upon bread taken",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l13"
+        ]
       },
       {
         id: "rashi-yoma-077b-033",
@@ -174937,11 +175005,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 33,
         he: "בידים שלא נטלן שחרית ושם השד",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "with hands that were not washed in the morning, and the name of the demon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l13"
+        ]
       },
       {
         id: "rashi-yoma-077b-034",
@@ -174949,11 +175019,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 34,
         he: "שיבתא: שלא רצה להאכיל בידו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "is Shivta. New comment: 'who did not want to feed with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l13",
+          "yoma-077b-l14"
+        ]
       },
       {
         id: "rashi-yoma-077b-035",
@@ -174961,11 +175034,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 35,
         he: "אחת. אפי' ידו אחת לא היה נוטל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "one hand' - he would not even use one hand to take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l14"
+        ]
       },
       {
         id: "rashi-yoma-077b-036",
@@ -174973,11 +175048,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 36,
         he: "לתת פת לבנו קטן ביום הכפורים:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and give bread to his young child on Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l14"
+        ]
       },
       {
         id: "rashi-yoma-077b-037",
@@ -174985,11 +175062,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 37,
         he: "ואינו חושש. משום רחיצה: לנטורי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'and is not concerned' - about washing. New comment: 'to guard'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l16",
+          "yoma-077b-l20"
+        ]
       },
       {
         id: "rashi-yoma-077b-038",
@@ -174997,11 +175077,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 38,
         he: "פירי. שהיו להם פרדסים בעבר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'produce' - since they had orchards across",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l20"
+        ]
       },
       {
         id: "rashi-yoma-077b-039",
@@ -175009,11 +175091,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 39,
         he: "הנהר: בי תרבו. שם הכפר:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the river. New comment: 'Bei Tarbu' - the name of the village.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l20",
+          "yoma-077b-l22"
+        ]
       },
       {
         id: "rashi-yoma-077b-040",
@@ -175021,11 +175106,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 40,
         he: "לפירקא. שהיו דורשין ביוה\"כ:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'to the lecture' - since they would expound Torah on Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l22"
+        ]
       },
       {
         id: "rashi-yoma-077b-041",
@@ -175033,11 +175120,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 41,
         he: "לעתיד לבא. לשנה אחרת לא יבואו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'in the future' - the next year they would not come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l22"
+        ]
       },
       {
         id: "rashi-yoma-077b-042",
@@ -175045,11 +175134,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 42,
         he: "הואיל ולא התרת' לעבור את המים",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "since you did not permit them to cross the water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l22"
+        ]
       },
       {
         id: "rashi-yoma-077b-043",
@@ -175057,11 +175148,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 43,
         he: "ולחזור: אמברא דחצדד. מקום מעבר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and return. New comment: 'the crossing of Chatzdad' - a place of crossing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l22",
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-044",
@@ -175069,11 +175163,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 44,
         he: "הנהר מול חצדד: מתחת חפת.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the river opposite Chatzdad. New comment: 'from under the hem' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-045",
@@ -175081,11 +175177,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 45,
         he: "שפת חלוקו להגביה שולי חלוקו על",
-        en: "Rashi: 'the edge of his robe' - one lifts the hem of his garment up onto his arm,",
+        en: "the edge of his robe - to raise the hem of his robe over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-046",
@@ -175093,11 +175191,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 46,
         he: "זרועו דאינו נראה כמלבוש אלא",
-        en: "so that it no longer looks like worn clothing but rather like something carried on the shoulder.",
+        en: "his arm, so that it does not look like a garment but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-047",
@@ -175105,11 +175205,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 47,
         he: "כנושא על כתיפו ואמר מר (שבת דף",
-        en: "Rashi cites Master's statement (Shabbat 147a):",
+        en: "like carrying it on his shoulder, and the Master said (Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-048",
@@ -175117,11 +175219,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 48,
         he: "קמז.) היוצא בטלית מקופלת על",
-        en: "'one who goes out on Shabbat with a cloak folded over his shoulder is liable to a sin-offering' - so carrying a garment this way is forbidden.",
+        en: "147a): one who goes out with a folded cloak on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26"
+        ]
       },
       {
         id: "rashi-yoma-077b-049",
@@ -175129,11 +175233,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 49,
         he: "כתיפו בשבת חייב חטאת: כי האי",
-        en: "Rashi: 'in such a manner' refers to the earlier case",
+        en: "his shoulder on Shabbat is liable for a sin-offering. New comment: 'in this manner' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l26",
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-050",
@@ -175141,11 +175248,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 50,
         he: "גוונא. דקתני לעיל עד צוארו במים",
-        en: "taught above of standing in water up to one's neck -",
+        en: "that it teaches above, up to his neck in water -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-051",
@@ -175153,11 +175262,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 51,
         he: "והאיכא סכנה שלא ישטפוהו המים:",
-        en: "Rashi: but there is danger here, lest the water sweep him away.",
+        en: "but is there not danger here, that the waters might sweep him away?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-052",
@@ -175165,11 +175276,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 52,
         he: "וימד אלף. המלאך הראה ליחזקאל",
-        en: "Rashi glosses 'and he measured a thousand' (Ezek 47): the angel showed Ezekiel",
+        en: "'And he measured a thousand' - the angel showed Ezekiel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-053",
@@ -175177,11 +175290,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 53,
         he: "נחל היוצא מבית קה\"ק תחילתו כחוט",
-        en: "the stream issuing from the Holy of Holies - at its start it was thin as a thread,",
+        en: "the stream issuing from the House of the Holy of Holies - at first like a thread,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-054",
@@ -175189,11 +175304,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 54,
         he: "והולך וגדל וכל אלף אמה אורך משיצא",
-        en: "and it kept growing; for the first thousand cubits of its length after leaving",
+        en: "and it kept growing, and for the entire thousand cubits of length after it exited",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-055",
@@ -175201,11 +175318,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 55,
         he: "חוץ לירושלים לא היה עמוק אלא מי",
-        en: "the city it was only ankle-deep -",
+        en: "outside Jerusalem, it was only as deep as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31"
+        ]
       },
       {
         id: "rashi-yoma-077b-056",
@@ -175213,11 +175332,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 56,
         he: "אפסים מי קרצולין: וימד אלף. שניות",
-        en: "Rashi: 'water of the ankles.' 'And he measured a thousand' a second time:",
+        en: "the ankles, water of the ankles. New comment: 'and he measured a thousand' - a second time:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l31",
+          "yoma-077b-l32"
+        ]
       },
       {
         id: "rashi-yoma-077b-057",
@@ -175225,11 +175347,14 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 57,
         he: "והעמיקו עד ברכים: מכאן ואילך. קרי ליה אשר לא אוכל לעבור אלמא אסור לעבור למעלה ממתנים: שאני נחל. היוצא מבית קה\"ק שהיו מימיו",
-        en: "Rashi: from here on it is called 'a river I could not pass through' - so it is forbidden to cross above waist height. 'A river is different' - the one issuing from the Holy of Holies, whose waters",
+        en: "and it deepened to the knees. New comment: 'from here on' - it calls it 'which I could not pass through' - so this shows it is forbidden to cross above the waist. New comment: 'the river is different' - the one issuing from the House of the Holy of Holies, whose waters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l32",
+          "yoma-077b-l35a"
+        ]
       },
       {
         id: "rashi-yoma-077b-058",
@@ -175237,11 +175362,15 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 58,
         he: "רודפים הולכים מהר ושוטפים: בסיחוי. בשייט: ת\"ל כי גאו המים מי שחו. ראויות לשוט: לפתח בית דוד. היא ציון חוץ לירושלים:",
-        en: "ran swiftly and rushed along. 'By swimming' - i.e. floating. 'The text teaches' that when the waters rose they were fit to swim in. 'To the entrance of the house of David' - that is Zion, outside Jerusalem.",
+        en: "ran swiftly and rushed along. New comment: 'by swimming' - by swimming; 'the verse teaches' 'for the waters rose, waters to swim in' - fit for swimming. New comment: 'to the entrance of the House of David' - that is Zion, outside Jerusalem.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l35a",
+          "yoma-077b-l35b",
+          "yoma-077b-l41"
+        ]
       },
       {
         id: "rashi-yoma-077b-059",
@@ -175249,11 +175378,13 @@ const DAF_CONTENT = {
         daf: "77b",
         vilnaLine: 59,
         he: "מפכין",
-        en: "Rashi begins the next comment ('mefakin'), opening the following passage.",
+        en: "Gushing (continues on 78a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-077b-l41"
+        ]
       }
     ],
     review: "draft"
