@@ -178621,11 +178621,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 1,
         he: "הא כביצה בעי סוכה. אלמא שתי כותבות דאמרן לעיל לא שהלכה כן",
-        en: "Rashi: the egg-bulk as a general Torah measure for eating.",
+        en: "'This, an egg's-bulk, requires a sukkah' - so the two dates that we stated above, that is NOT that the halacha follows accordingly,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-002",
@@ -178633,11 +178635,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 2,
         he: "פחותות הן מכביצה: שתי כותבות בלא גרעינן. שאכלן רבן",
-        en: "Rashi: how various foods' amounts are calculated toward the eating measure.",
+        en: "are less than an egg's-bulk: 'two dates without their pits' - which Rabban",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-003",
@@ -178645,11 +178649,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 3,
         he: "גמליאל בסוכה ואמרו עלייהו לא שהלכה כן: תרי קבי דתמרי.",
-        en: "Rashi: combining different types of food toward the eating minimum.",
+        en: "Gamliel ate in the sukkah, and they said about them, not that the halacha follows accordingly: 'two kav of dates,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-004",
@@ -178657,11 +178663,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 4,
         he: "בגרעינהון הוו קבא דקשייתא: וסריח. יש בהן קב גרעינין ויותר",
-        en: "Rashi: the relationship between the egg-bulk and other Torah measures.",
+        en: "with their pits, would be a kav of hard dates: 'and rotten' - meaning there is in them a kav of pits and more,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-005",
@@ -178669,11 +178677,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 5,
         he: "אלמא הגרעין יותר מן הכותבת",
-        en: "Rashi: the Yom Kippur eating measure compared to Shabbat measures.",
+        en: "so the pit is more than the date itself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-006",
@@ -178681,11 +178691,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 6,
         he: "וסריח לשון עודף כמו תסרח על",
-        en: "Rashi explains the opening discussion of this topic on 79b.",
+        en: "'And rotten' is a term of excess, like 'and it hung over'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01"
+        ]
       },
       {
         id: "rashi-yoma-079b-007",
@@ -178693,11 +178705,14 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 7,
         he: "אחורי המשכן (שמות כו) : אם",
-        en: "Rashi explains the opening discussion of this topic on 79b.",
+        en: "the back of the Tabernacle (Exodus 26). New comment: 'If'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l01",
+          "yoma-079b-l17"
+        ]
       },
       {
         id: "rashi-yoma-079b-008",
@@ -178705,11 +178720,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 8,
         he: "השלים. י\"ד סעודות שאדם חייב לאכול",
-        en: "Rashi explains the opening discussion of this topic on 79b.",
+        en: "'he completed [it]' - the fourteen meals that a person is obligated to eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l17"
+        ]
       },
       {
         id: "rashi-yoma-079b-009",
@@ -178717,11 +178734,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 9,
         he: "בסוכה לדברי רבי אליעזר במסכת",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in the sukkah, according to Rabbi Eliezer's view, in Tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l17"
+        ]
       },
       {
         id: "rashi-yoma-079b-010",
@@ -178729,11 +178748,14 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 10,
         he: "סוכה: תרגימא. ליפתן: שאור",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Sukkah. New comment: 'dessert-fruits' - a condiment. New comment: 'leaven' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l17",
+          "yoma-079b-l21"
+        ]
       },
       {
         id: "rashi-yoma-079b-011",
@@ -178741,11 +178763,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 11,
         he: "בכזית. לענין בל יראה ובל ימצא:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'in an olive's-bulk' - regarding the prohibitions of 'it shall not be seen' and 'it shall not be found':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l21"
+        ]
       },
       {
         id: "rashi-yoma-079b-012",
@@ -178753,11 +178777,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 12,
         he: "שיעורו של זה לא כשיעורו של זה.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'the measure of this one is not like the measure of that one.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-013",
@@ -178765,11 +178791,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 13,
         he: "על כרחך דחמץ נפיש מכזית ולהכי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "You must conclude that the measure of chametz is greater than an olive's-bulk, and therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-014",
@@ -178777,11 +178805,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 14,
         he: "כתב שאור דאי לא כתביה וגמר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "it wrote '[the measure of] leaven'; for had it not written it, and had one derived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-015",
@@ -178789,11 +178819,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 15,
         he: "מחמץ הוה אמינא דיו לבא מן הדין",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the measure of leaven from chametz, I would have said: it is enough for what is derived from a kal vachomer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-016",
@@ -178801,11 +178833,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 16,
         he: "להיות כנדון ולא מיחייב עליה אלא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to be like the case it derives from, and he would be liable only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-017",
@@ -178813,11 +178847,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 17,
         he: "בשיעורא רבה להכי כתביה רחמנא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for the larger measure; therefore the Torah wrote it separately,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-018",
@@ -178825,11 +178861,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 18,
         he: "לחיוביה אכזית דאילו בפחות מכזית",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "to make him liable for an olive's-bulk; for if derived only by kal vachomer, for less than an olive's-bulk",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-019",
@@ -178837,11 +178875,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 19,
         he: "ליכא למימר דלא תהא ראיה חמורה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "one could not say he is liable, since a stringent case's proof cannot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-020",
@@ -178849,11 +178889,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 20,
         he: "מאכילה דסתם אכילה בכזית על",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "be more lenient than plain eating, for plain eating is measured in an olive's-bulk, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-021",
@@ -178861,11 +178903,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 21,
         he: "כרחך החמור בכזית והקל ביותר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "you must conclude the stringent one is in an olive's-bulk, and the lenient one is in more",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23"
+        ]
       },
       {
         id: "rashi-yoma-079b-022",
@@ -178873,11 +178917,14 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 22,
         he: "מכזית: מכדי בית שמאי. לא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "than an olive's-bulk. New comment: 'now, Beit Shammai' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l23",
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-023",
@@ -178885,11 +178932,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 23,
         he: "אמרו ככותבת אלא משום דבעו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "did not say 'like a date's-bulk' except because they required",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-024",
@@ -178897,11 +178946,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 24,
         he: "שיעור חמץ טפי משל שאור שהוא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the measure of chametz to be greater than that of leaven, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-025",
@@ -178909,11 +178960,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 25,
         he: "בכזית מדאיצטריך קרא למכתבינהו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "an olive's-bulk, since the verse needed to write them separately;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-026",
@@ -178921,11 +178974,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 26,
         he: "ואם מצאו שיעור פחות מככותבת",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and if they had found a measure less than a date's-bulk",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-027",
@@ -178933,11 +178988,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 27,
         he: "והוא יתר על כזית היו משערין",
-        en: "Rashi: and it is more than an olive-bulk that they measured",
+        en: "that was still more than an olive's-bulk, they would have measured",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-028",
@@ -178945,11 +179002,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 28,
         he: "בו ואם כביצה פחותה מככותבת",
-        en: "by; and if a date is less than an egg-bulk,",
+        en: "by it; and if an egg's-bulk is less than a date's-bulk,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-029",
@@ -178957,11 +179016,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 29,
         he: "ליתני כביצה ואי נמי כי הדדי",
-        en: "let the mishna teach 'egg-bulk' instead. And even if they are equal,",
+        en: "let the Mishnah teach 'egg's-bulk'; and even if they are equal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-030",
@@ -178969,11 +179030,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 30,
         he: "נינהו לימא כביצה שהוא שגור",
-        en: "let it say 'egg-bulk,' which is the more common measure",
+        en: "let it say 'egg's-bulk,' since it is more familiar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-031",
@@ -178981,11 +179044,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 31,
         he: "במשנה יותר מככותבת לענין",
-        en: "in the mishna - more so than 'date-bulk' - regarding",
+        en: "in the Mishnah than 'date's-bulk,' regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-032",
@@ -178993,11 +179058,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 32,
         he: "טומאת אוכלין: כותבת סתמא כביצה.",
-        en: "the impurity of foods. 'A date plain means an egg-bulk' -",
+        en: "the impurity of foods, where a plain date is treated as an egg's-bulk.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l28"
+        ]
       },
       {
         id: "rashi-yoma-079b-033",
@@ -179005,11 +179072,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 33,
         he: "ובית שמאי כותבת סתמא אמור:",
-        en: "Rashi: and Beit Shammai hold 'a date plain' is what was stated.",
+        en: "And Beit Shammai's ruling is stated of a plain date:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l31"
+        ]
       },
       {
         id: "rashi-yoma-079b-034",
@@ -179017,11 +179086,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 34,
         he: "מזמנין. מברכין על המזון אחריו:",
-        en: "Rashi: 'mezamnin' - they recite the grace over food after it.",
+        en: "'they join for zimun' - they bless over the food after it:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l32"
+        ]
       },
       {
         id: "rashi-yoma-079b-035",
@@ -179029,11 +179100,13 @@ const DAF_CONTENT = {
         daf: "79b",
         vilnaLine: 35,
         he: "כל",
-        en: "Rashi begins the next comment ('kol'), opening the following passage.",
+        en: "This ('all the measures') continues on 80a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-079b-l38"
+        ]
       }
     ],
     review: "draft"
