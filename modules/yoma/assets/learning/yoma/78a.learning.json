@@ -1,1144 +1,1259 @@
 {
-  "canonicalRef": "Yoma 78a",
-  "summary": "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Crossing water on Yom Kippur: does it constitute prohibited bathing?; Sick person wearing shoes on YK; wooden shoes; danger exceptions; Rain water, river crossing, measuring bathing by amount; Unresolved question about water crossing and the shoe prohibition.",
-  "sugyot": [
+ "canonicalRef": "Yoma 78a",
+ "summary": "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Crossing water on Yom Kippur: does it constitute prohibited bathing?; Sick person wearing shoes on YK; wooden shoes; danger exceptions; Rain water, river crossing, measuring bathing by amount; Unresolved question about water crossing and the shoe prohibition.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-078a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 7
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-078a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 7
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.78a.1"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.78a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.78a.1",
-        "Yoma.78a.2"
-      ],
-      "display": {
-        "whats": "Temple river bubbles up from beneath the threshold and becomes mighty",
-        "hint": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot be crossed on foot.",
-        "title": "Bubbles to Sea: The Temple River's Origin"
-      },
-      "learning": {
-        "ahaMoment": "From under the threshold, not from above: the blessing is grounded in the foundation of the holy space itself, not in something external to it.",
-        "memoryAnchor": "Bubbles from beneath the threshold - holiness rises from the ground up, then grows to an uncrossable sea.",
-        "learnerQuestion": "Why does Ezekiel's river begin as bubbles beneath the Temple threshold rather than from above?",
-        "coreTension": "Between the Temple's threshold as the symbolic entry point (suggesting the river should flow from above, outward) and the image of the river emerging from beneath the threshold itself.",
-        "coreMove": "The Gemara emphasizes the threshold as the precise origin point. The blessing comes from beneath the holy space - not just from the Temple building but from its very foundation. This grounds divine blessing in the physical structure of the sanctuary.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The eschatological river's origin beneath the threshold teaches that the Temple's holiness is literally grounded - embedded in the foundation, not merely symbolic - and all future blessing flows from that physical and spiritual root."
-        },
-        "learningBlocker": "Students may not register the significance of 'beneath' the threshold; the Gemara's careful attention to this detail reveals the depth of the theological claim."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "narrative",
-          "label": "The growing spring becomes a river of purification",
-          "speaker": "Gemara",
-          "text": "The future spring strengthens past the Temple threshold until it reaches the opening of David's house, where it becomes a flowing river in which zavim, zavot, menstruating women, and women after childbirth bathe to purify, as Zechariah foretells a fountain opened for purification.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "ruling",
-          "label": "Rejecting Rav Yosef's neck-deep mikveh requirement",
-          "speaker": "Gemara",
-          "text": "Rav Yosef infers from the verse that a menstruating woman must immerse in water deep enough to sit up to her neck. The Gemara rules against him: depth is irrelevant, and a ritual bath is valid as long as the water can cover an entire adult body.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple river",
-        "Ezekiel",
-        "future Temple",
-        "aggadah"
-      ],
-      "concepts": {
-        "halachic": [
-          "Temple river",
-          "Ezekiel"
-        ],
-        "theological": [
-          "The Temple river aggadah is placed here because this sugya discusses water and c"
-        ],
-        "narrative": [
-          "Temple river bubbles up from beneath the threshold and becom"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of Temple river context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners take Rav Yosef's neck-deep image as the operative law for mikveh dimensions.",
-          "correction": "The Gemara explicitly does not follow Rav Yosef. The verse's imagery is not the standard; the accepted measure is simply that the water suffice to cover a person's whole body."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Temple river bubbles up from beneath the threshold"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the Gemara reject Rav Yosef's claim that a mikveh must be deep enough to sit neck-high?",
-          "answer": "Because the halachic requirement is volume, not depth. A ritual bath is valid as long as it can cover an entire adult body at once; how deep one can sit in it is not the criterion."
-        }
-      ],
-      "finalRuling": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.78a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-078a-s02",
-      "lineRange": {
-        "startVilnaLine": 9,
-        "endVilnaLine": 17
-      },
-      "lines": [
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.78a.3"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.78a.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.78a.5"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.78a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.78a.3",
-        "Yoma.78a.4",
-        "Yoma.78a.5",
-        "Yoma.78a.6"
-      ],
-      "display": {
-        "whats": "Crossing water on Yom Kippur: does it constitute prohibited bathing?",
-        "hint": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing.",
-        "title": "River Crossing on Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "Purpose and intention define the act: crossing a river is travel, not bathing - the same water contact can be prohibited or permitted depending on why you are in the water.",
-        "memoryAnchor": "Cross to get there, not to bathe: intent determines whether water contact is prohibited.",
-        "learnerQuestion": "If you must cross a river on Yom Kippur, does wading through it violate the bathing prohibition?",
-        "coreTension": "Between the bathing prohibition (which covers contact with water) and the practical necessity of crossing a body of water for legitimate purposes.",
-        "coreMove": "The Gemara distinguishes purposeful bathing (prohibited) from incidental wetting while crossing for a legitimate reason (not prohibited). The prohibition targets the pleasure-act of bathing, not every form of water contact.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The YK bathing prohibition targets the act of bathing as pleasure-seeking; incidental water contact incurred while doing something else for a legitimate purpose does not violate it."
-        },
-        "learningBlocker": "Students may think any contact with water on YK violates the prohibition; the distinction is between purposeful bathing and incidental wetting."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Crossing water in shoes on Shabbat",
-          "speaker": "Gemara",
-          "text": "Crossing water is straightforward on Yom Kippur because no shoes are worn, but on Shabbat shoes raise a concern: a shoe might slip off in the water and one would pick it up, violating carrying. Nechemya reports seeing Rabbi Ami and Rabbi Asi cross a pool on Shabbat while still wearing their shoes.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "distinction",
-          "label": "Tight shoes versus loose sandals",
-          "speaker": "Gemara",
-          "text": "Shoes can be tied tightly, so the concern is lighter, but sandals fit loosely and might come off in the water. Rav Richumi saw Ravina cross a river in sandals, yet Rav Ashi rules that one should not cross in sandals ab initio, lest one fall off and he carry it on Shabbat.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "narrative",
-          "label": "Ravina's absence from the lecture",
-          "speaker": "Gemara",
-          "text": "The Exilarch lectured in Hagronya and Ravina did not attend. The next day Rafram, to dispel any resentment, asked Ravina why he was absent, and Ravina explained that his foot hurt, specifically the back of the foot, which made wearing closed shoes difficult.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l14",
-              "vilnaLine": 14
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "application",
-          "label": "Ravina applies Rav Ashi's sandal ruling to himself",
-          "speaker": "Gemara",
-          "text": "Rafram suggested heel-exposing sandals, but Ravina noted he would have had to cross a pool. When Rafram said to cross in the sandals, Ravina invoked Rav Ashi's ruling that one should not cross water in sandals ab initio, showing his absence reflected halachic caution, not disrespect.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l17",
-              "vilnaLine": 17
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "crossing water",
-        "bathing prohibition",
-        "YK",
-        "intent"
-      ],
-      "concepts": {
-        "halachic": [
-          "crossing water",
-          "bathing prohibition"
-        ],
-        "theological": [
-          "Intent matters for bathing: crossing water to get somewhere is different from im"
-        ],
-        "narrative": [
-          "Crossing water on Yom Kippur: does it constitute prohibited "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of crossing water context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners assume the water-crossing rules are the same on Yom Kippur and Shabbat.",
-          "correction": "The two days raise different concerns. On Yom Kippur no shoes are worn, so crossing is simple; on Shabbat the live issue is footwear slipping off and being carried, which is why the discussion centers on shoes versus sandals."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Crossing water on Yom Kippur: does it constitute p"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why is crossing water in sandals on Shabbat more problematic than crossing in shoes?",
-          "answer": "Shoes can be tied on tightly, but sandals fit loosely and may slip off in the water. If a sandal comes off and one picks it up, he violates the Shabbat prohibition of carrying, so Rav Ashi forbids crossing in sandals ab initio."
-        },
-        {
-          "question": "How does Ravina's explanation for missing the lecture turn on a point of law?",
-          "answer": "Ravina's foot pain ruled out closed shoes, sandals would have failed crossing a pool because of Rav Ashi's ban on crossing water in sandals, so he had no permissible footwear for the trip. His absence was a halachic constraint, not a slight to the Exilarch."
-        }
-      ],
-      "finalRuling": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossi",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-078a-s03",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.78a.7"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.78a.8"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.78a.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.78a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.78a.7",
-        "Yoma.78a.8",
-        "Yoma.78a.9",
-        "Yoma.78a.10"
-      ],
-      "display": {
-        "whats": "Sick person wearing shoes on YK; wooden shoes; danger exceptions",
-        "hint": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
-        "title": "Sick Person's Shoes on Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "The YK afflictions presuppose a healthy body capable of bearing them; the sick are already in their own form of deprivation and are not required to compound it.",
-        "memoryAnchor": "Sick person wears shoes on YK: affliction laws apply to the healthy, not to those already suffering.",
-        "learnerQuestion": "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
-        "coreTension": "Between the universal prohibition on wearing shoes (one of the five afflictions) and the need to protect a sick person's health and safety.",
-        "coreMove": "The Gemara permits a sick person to wear shoes because the affliction obligations are calibrated to a healthy person capable of bearing them; health risk overrides the prohibition. Wooden sandals may raise additional questions about what qualifies as 'shoes.'",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Health considerations can override YK affliction obligations; the afflictions are designed to humble the healthy person before God, not to endanger the sick."
-        },
-        "learningBlocker": "Students may assume the shoe prohibition is absolute; recognizing that it is calibrated to the capable body resolves the apparent rigidity."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Sitting on wet clay and cooling with fruit",
-          "speaker": "Gemara",
-          "text": "Yehuda bar Gerogarot forbids sitting on damp clay on Yom Kippur; Rabbi Yehoshua ben Levi limits this to clay so wet it dampens what touches it, and Abaye requires it be wet enough to wet something else. Rav Yehuda permits cooling oneself with fruit, which is not considered bathing, as he himself did with a squash.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "distinction",
-          "label": "Cooling vessels: full versus empty, silver versus ceramic",
-          "speaker": "Gemara",
-          "text": "Rabba cooled himself with a cold baby, Rava with a silver cup. Rav Pappa rules a full silver cup is forbidden but an empty one permitted; a ceramic cup is forbidden either way because water seeps through. Rav Ashi adds that even an empty silver cup is forbidden, since it may slip and spill.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "case",
-          "label": "The pre-soaked, wrung-out cloth of Rabbi Yehoshua ben Levi",
-          "speaker": "Gemara",
-          "text": "Ze'eira bar Chama relays that Rabbi Yehoshua ben Levi prepared a cloth before Yom Kippur by soaking and wringing it nearly dry, then wiped his face, hands, and feet with it the next day. For the eve of the Ninth of Av, a rabbinic fast, he soaked the cloth and passed it over his eyes.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "distinction",
-          "label": "A dispute over which practice fit which fast",
-          "speaker": "Gemara",
-          "text": "Rabba bar Mari reported the practice with the days reversed. Rabbi Ya'akov challenged Rabbi Yirmeya bar Tachlifa that the wringing he described for Yom Kippur was really for the Ninth of Av, since Yom Kippur carries the same wringing prohibition as Shabbat and the cloth could not be wrung that day.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "sick person",
-        "shoes",
-        "wooden sandals",
-        "YK exceptions"
-      ],
-      "concepts": {
-        "halachic": [
-          "sick person",
-          "shoes"
-        ],
-        "theological": [
-          "Illness creates its own category on YK - even the shoe prohibition, which is abo"
-        ],
-        "narrative": [
-          "Sick person wearing shoes on YK; wooden shoes; danger except"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of sick person context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners think any cooling or wiping with moisture is simply bathing and therefore banned on Yom Kippur.",
-          "correction": "The Gemara permits cooling with fruit, an empty cup, or a pre-wrung cloth, because none provides the pleasure of washing; the controlling concerns are spilling water on the body and the separate prohibition of wringing, not contact with coolness as such."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Sick person wearing shoes on YK; wooden shoes; dan"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why is a full silver cup forbidden for cooling on Yom Kippur while an empty one is debated?",
-          "answer": "A full cup risks spilling water onto the body, which approaches bathing. Rav Pappa permits an empty silver cup, but Rav Ashi forbids even that, since it may slip from the hand and spill. A ceramic cup is forbidden regardless because water seeps through its walls."
-        },
-        {
-          "question": "What is the key distinction between the cloth practice for Yom Kippur and for the Ninth of Av?",
-          "answer": "On Yom Kippur the cloth had to be soaked and wrung out before the fast, because wringing is forbidden on Yom Kippur just as on Shabbat. The Ninth of Av, being only rabbinic, allowed greater leniency with the cloth, which is why the two practices were not interchangeable."
-        }
-      ],
-      "finalRuling": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-078a-s04",
-      "lineRange": {
-        "startVilnaLine": 35,
-        "endVilnaLine": 41
-      },
-      "lines": [
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.78a.11"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.78a.12"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.78a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.78a.11",
-        "Yoma.78a.12",
-        "Yoma.78a.13"
-      ],
-      "display": {
-        "whats": "Rain water, river crossing, measuring bathing by amount",
-        "hint": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
-        "title": "Puddles and Rivers: Measuring Prohibited Bathing"
-      },
-      "learning": {
-        "ahaMoment": "You can get wet crossing a puddle on Yom Kippur without violating the prohibition: the Talmud's analysis is about the act, not the wetness.",
-        "memoryAnchor": "Puddles and rivers: the question is the quality of the act (bathing vs. crossing), not the volume of water.",
-        "learnerQuestion": "Is there a minimum amount of water that triggers the Yom Kippur bathing prohibition?",
-        "coreTension": "Between a prohibition defined by the act of bathing (suggesting any water contact counts) and the practical reality that incidental wetting from puddles or shallow crossings seems qualitatively different from bathing.",
-        "coreMove": "The Gemara explores whether the character of the act or the quantity of water is the operative criterion. The analysis leans toward the character of the act: casual wetting incidental to movement is not the prohibited bathing.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The criterion for prohibited bathing is the character of the act rather than the quantity of water; the prohibition targets intentional bathing for pleasure or comfort, not incidental wetting."
-        },
-        "learningBlocker": "Students may assume any amount of water triggers the prohibition; recognizing that quality of act, not quantity of water, is the key criterion resolves the apparent over-breadth."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Must a scholarly Elder get the Nasi's permission to permit firstborns?",
-          "speaker": "Gemara",
-          "text": "Rav Menashya bar Tachalifa relays a question put to Rabbi Elazar ben Pedat: must an Elder who studies in the yeshiva obtain the Nasi's authorization to rule firstborn animals permitted by inspecting their blemishes, as others must, or is his standing sufficient on its own?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l35",
-              "vilnaLine": 35
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "elaboration",
-          "label": "The reason behind the permission requirement",
-          "speaker": "Gemara",
-          "text": "The Gemara explains, citing Rav Idi bar Avin, that the Nasi's authority to grant permission was instituted to honor his house. So the question is whether even a yeshiva Elder must seek it to honor the Nasi, or is exempt. Rav Tzadok testified he saw Rabbi Yosei ben Zimra, a yeshiva Elder, ask the prior Nasi for such permission.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l37",
-              "vilnaLine": 37
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "distinction",
-          "label": "Rabbi Abba reframes the incident as a halachic question",
-          "speaker": "Gemara",
-          "text": "Rabbi Abba corrects the account: Rabbi Yosei ben Zimra was a priest, and his query was not about the Nasi's permission but a point of law, whether priests, suspected of blemishing firstborns after the Temple's destruction, are believed. The matter was resolved by Rabban Shimon ben Gamliel's view that one suspect about himself is still believed about others.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l41",
-              "vilnaLine": 41
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "rain water",
-        "river crossing",
-        "bathing measure"
-      ],
-      "concepts": {
-        "halachic": [
-          "rain water",
-          "river crossing"
-        ],
-        "theological": [
-          "Rain water vs. river: the Gemara is precise about what type of water contact tri"
-        ],
-        "narrative": [
-          "Rain water, river crossing, measuring bathing by amount"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of rain water context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners read the firstborn-permission passage as plainly about whether scholars must defer to the Nasi.",
-          "correction": "Rabbi Abba shows the cited precedent was really a question of priestly credibility regarding blemishes, not of seeking the Nasi's authorization, so the supposed proof about a scholar needing permission does not actually establish that."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Rain water, river crossing, measuring bathing by a"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why was the Nasi's authority to grant permission to rule on firstborns established?",
-          "answer": "To raise the stature of the Nasi's house. Because seeking his permission itself honors the Nasi, the question arises whether even a Torah scholar of standing must request it, or whether his own learning exempts him."
-        },
-        {
-          "question": "How does Rabbi Abba reinterpret the testimony about Rabbi Yosei ben Zimra approaching the Nasi?",
-          "answer": "He says it was not a request for permission at all but a halachic question. As a priest, suspected of blemishing firstborns after the Temple's destruction, Rabbi Yosei asked whether such priests are believed, resolved by the ruling that one suspect about himself is still believed about others."
-        }
-      ],
-      "finalRuling": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-078a-s05",
-      "lineRange": {
-        "startVilnaLine": 44,
-        "endVilnaLine": 44
-      },
-      "lines": [
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.78a.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.78a.14"
-      ],
-      "display": {
-        "whats": "Unresolved question about water crossing and the shoe prohibition",
-        "hint": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
-        "title": "Water Crossing and Shoes: The Unresolved Question"
-      },
-      "learning": {
-        "ahaMoment": "Teiku is not failure - it is the Talmud's most honest answer: we do not know, and we will not pretend otherwise.",
-        "memoryAnchor": "Water crossing on YK: teiku - the question stays open, practice requires stringency.",
-        "learnerQuestion": "What does it mean when the Talmud leaves a Yom Kippur question unresolved?",
-        "coreTension": "Between the need for a practical ruling (what do you do when you must cross water on YK?) and the Talmud's intellectual honesty in acknowledging it cannot fully resolve the question.",
-        "coreMove": "The Gemara records teiku - no resolution. This is not a failure but a principled acknowledgment of the limits of halakhic derivation. In practice, unresolved doubts in biblical prohibitions require stringency.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Teiku is the Talmud's principled acknowledgment that some questions exceed what legal derivation can resolve; in practice, unresolved doubts involving biblical prohibitions default to stringency."
-        },
-        "learningBlocker": "Students may feel frustrated by teiku and want a definitive ruling; recognizing teiku as intellectual honesty rather than an omission is important for understanding how the Talmud works."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "May one wear cork sandals on Yom Kippur?",
-          "speaker": "Gemara",
-          "text": "The same Sages raise a further question: what is the law regarding going out in sandals made of cork on Yom Kippur, given that the affliction forbids wearing a shoe. The question of whether such sandals count as a shoe is left for the discussion that continues onto the next page.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-078a-l44",
-              "vilnaLine": 44
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "teiku",
-        "unresolved",
-        "bathing prohibition"
-      ],
-      "concepts": {
-        "halachic": [
-          "teiku",
-          "unresolved"
-        ],
-        "theological": [
-          "Some questions the Talmud leaves open - the unresolved teiku preserves intellect"
-        ],
-        "narrative": [
-          "Unresolved question about water crossing and the shoe prohib"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of teiku context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Learners assume only conventional leather footwear is at issue in the shoe prohibition.",
-          "correction": "The Gemara probes borderline materials like cork precisely because the prohibition turns on whether an item functions as a comforting shoe, not on a fixed material, opening a real question about unconventional footwear."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Unresolved question about water crossing and the s"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the core uncertainty in the question about cork sandals on Yom Kippur?",
-          "answer": "Whether a cork sandal is legally a 'shoe' for the affliction of not wearing shoes. If it counts as a shoe it is forbidden; if it is too unlike a real shoe to provide that comfort, it may be permitted. The Gemara leaves this to resolve on the next page."
-        }
-      ],
-      "finalRuling": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.78a.2"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.78a.1",
+    "Yoma.78a.2"
+   ],
+   "display": {
+    "whats": "Temple river bubbles up from beneath the threshold and becomes mighty",
+    "hint": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot be crossed on foot.",
+    "title": "Bubbles to Sea: The Temple River's Origin"
+   },
+   "learning": {
+    "ahaMoment": "From under the threshold, not from above: the blessing is grounded in the foundation of the holy space itself, not in something external to it.",
+    "memoryAnchor": "Bubbles from beneath the threshold - holiness rises from the ground up, then grows to an uncrossable sea.",
+    "learnerQuestion": "Why does Ezekiel's river begin as bubbles beneath the Temple threshold rather than from above?",
+    "coreTension": "Between the Temple's threshold as the symbolic entry point (suggesting the river should flow from above, outward) and the image of the river emerging from beneath the threshold itself.",
+    "coreMove": "The Gemara emphasizes the threshold as the precise origin point. The blessing comes from beneath the holy space - not just from the Temple building but from its very foundation. This grounds divine blessing in the physical structure of the sanctuary.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The eschatological river's origin beneath the threshold teaches that the Temple's holiness is literally grounded - embedded in the foundation, not merely symbolic - and all future blessing flows from that physical and spiritual root."
+    },
+    "learningBlocker": "Students may not register the significance of 'beneath' the threshold; the Gemara's careful attention to this detail reveals the depth of the theological claim."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "he": "מפכין. כמין הפך הן כשמגיעין למפתן ההיכל: מכאן רמז לנדה. מדלא קרי ליה ראוי לנדה עד שמתגבר כנחל שוטף שמגיע לפתח בית",
-      "en": "Rashi: the Temple river aggadah - a trickle becomes a mighty torrent.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-01",
+     "type": "narrative",
+     "label": "The growing spring becomes a river of purification",
+     "speaker": "Gemara",
+     "text": "The future spring strengthens past the Temple threshold until it reaches the opening of David's house, where it becomes a flowing river in which zavim, zavot, menstruating women, and women after childbirth bathe to purify, as Zechariah foretells a fountain opened for purification.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "he": "דוד רמז שצריכה לטבילת מים עמוקים שתשב בהן עד צוארה ואע\"ג דלא רמיז קרא עד צוארה רמיז מיהא דניהוו עמוקים עומק הראוי וזה",
-      "en": "Rashi: the river's growth symbolizes the expanding influence of the Temple.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "כראוי: התינח יום הכפורים לא גרסינן וה\"ג שבת דאיכא מנעל מאי. מי שרי לעבור במים או דילמא חיישינן דילמא נפקי מכרעיה",
-      "en": "Rashi: crossing a river on Yom Kippur - does this constitute prohibited bathing?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "ואתי לאיתויינהו: ועברוה דרך מלבוש. בנעליהם עברו אותו: סנדל מאי. שאינו יכול להדקו ולקשרו יפה ברגלו כמו מנעל: איקלע",
-      "en": "Rashi: the key factor is intent - crossing vs. bathing for pleasure.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "להגרוניא. ושבת שם: לפירקא.",
-      "en": "Rashi: a sick person may wear shoes on Yom Kippur for medical need.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "לדרשא דריש גלותא: מדעתיה דריש",
-      "en": "Rashi: wooden shoes or clogs - their status under the sandal prohibition.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "גלותא. שלא ישנאהו: איבעי לך",
-      "en": "Rashi: rain water that one walks through on Yom Kippur.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "למירמא סנדל. שהוא רחב: על גבי",
-      "en": "Rashi: the measure needed for a water contact to constitute bathing.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "טינא. שלחלוח הטיט הוי עונג",
-      "en": "Rashi explains the opening discussion of this topic on 78a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "קרוב לרחיצה: מטפחת. מקיאה",
-      "en": "Rashi explains the opening discussion of this topic on 78a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "מים: מלא אסור. שמא ישפכו מים",
-      "en": "Rashi explains the opening discussion of this topic on 78a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "על בשרו: משחל שחיל. פולט מים",
-      "en": "Rashi explains the opening discussion of this topic on 78a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "שבולע טרישטריש\"א בלע\"ז: דמזדריב.",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "מחליק ונשמט מידו וישפכו המים",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "עליו: מטפחת. סודר כמין כלים",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "נגובים ואני שמעתי דה\"ג ערב יום",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "הכפורים מביאין לו מטפחת ומקנח",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "בה ידיו ולמחר פושטה ומעבירה על",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "עיניו והיא לחה קצת מקינוח הידים",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "דאתמול: איפכא אמרת לן. בתשעה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "באב עושה אותן כמין כלים נגובים",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "ובערב יוה\"כ לא אמרת עושה אותן",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "כמין כלים נגובים ואותיבנך סחיטה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "לשון ששמעתי הכי קאמר איפכא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "אמרת לן ערב תשעה באב מקנח בה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "ידיו ולמחר פושטה וכו' וערב יום",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "הכפורים שורה אותה במים ועושה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "אותה כמין כלים נגובים ואותיבנך",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "סחיטה דכמין כלים נגובים עדיין יש",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "כדי לסחוט: שאלו את רבי אלעזר.",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "גרסינן והוא רבי אלעזר בן פדת:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "זקן ויושב בישיבה וכו'. אמרינן",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "בסנהדרין (דף ה.) שאין חכם מתיר",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "את הבכור ביחיד לראות את מומו",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "אלא אם כן נטל רשות מן הנשיא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "פעם אחת והכא מיבעיא להו דאם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "זקן יושב בישיבת סנהדרין הוא מי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "צריך רשות' או לא והא דנקט לה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "הכא משום דבעי למימר ותו",
-      "en": "Rashi: here it is so because the Gemara wishes to go on and ask further,",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "קמבעיא להו מהו לצאת בסנדל של",
-      "en": "Rashi: and they further inquired - what is the law of going out in a sandal of",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "שעם ביוה\"כ: דבר זה. נטילת",
-      "en": "cork on Yom Kippur. 'This matter' - taking",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "הרשות: להתגדר. לשון גדולה:",
-      "en": "is a matter of discretion. 'Le-hitgader' - an expression of greatness.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "למעלה מזקנו של זה. לפני זקינו של",
-      "en": "Rashi: 'above the beard of this one' - means before the elder of",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "נשיא זה שבדורנו: כהנים חשודין על",
-      "en": "the nasi of our generation. 'Kohanim are suspect regarding blemishes of the firstborn'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "מומי הבכור להתיר את האסור ואף",
-      "en": "- to permit what is forbidden, and even",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "להטיל בו מום לפי שהבכור בזמן הזה",
-      "en": "to inflict a blemish on it, since nowadays the firstborn animal",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "אין לו תקנה אלא אם כן יש בו מום",
-      "en": "has no remedy unless it has a blemish,",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "ועל הכהן ליטפל בו משנתנוהו לו",
-      "en": "and it falls to the kohen to tend it once it has been given to him",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "לשומרו ולזונו דרבי מאיר ודרבן",
-      "en": "to guard and feed - this is the view of R. Meir and R. Shimon",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "שמעון במסכת בכורות (דף לה.): ותו",
-      "en": "in tractate Bekhorot (35a). 'And they further',",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "קמבעיא להו. קמיה דרבי אלעזר:",
-      "en": "Rashi: inquired before R. Elazar.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "שעם",
-      "en": "Rashi begins the next comment ('she'am' - cork), opening the following passage.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-02",
+     "type": "ruling",
+     "label": "Rejecting Rav Yosef's neck-deep mikveh requirement",
+     "speaker": "Gemara",
+     "text": "Rav Yosef infers from the verse that a menstruating woman must immerse in water deep enough to sit up to her neck. The Gemara rules against him: depth is irrelevant, and a ritual bath is valid as long as the water can cover an entire adult body.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l07",
+       "vilnaLine": 7
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "Temple river",
+    "Ezekiel",
+    "future Temple",
+    "aggadah"
+   ],
+   "concepts": {
+    "halachic": [
+     "Temple river",
+     "Ezekiel"
+    ],
+    "theological": [
+     "The Temple river aggadah is placed here because this sugya discusses water and c"
+    ],
+    "narrative": [
+     "Temple river bubbles up from beneath the threshold and becom"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of Temple river context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners take Rav Yosef's neck-deep image as the operative law for mikveh dimensions.",
+     "correction": "The Gemara explicitly does not follow Rav Yosef. The verse's imagery is not the standard; the accepted measure is simply that the water suffice to cover a person's whole body."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Temple river bubbles up from beneath the threshold"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the Gemara reject Rav Yosef's claim that a mikveh must be deep enough to sit neck-high?",
+     "answer": "Because the halachic requirement is volume, not depth. A ritual bath is valid as long as it can cover an entire adult body at once; how deep one can sit in it is not the criterion."
+    }
+   ],
+   "finalRuling": "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-078a-s02",
+   "lineRange": {
+    "startVilnaLine": 9,
+    "endVilnaLine": 17
+   },
+   "lines": [
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.78a.3"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.78a.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.78a.5"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.78a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.78a.3",
+    "Yoma.78a.4",
+    "Yoma.78a.5",
+    "Yoma.78a.6"
+   ],
+   "display": {
+    "whats": "Crossing water on Yom Kippur: does it constitute prohibited bathing?",
+    "hint": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing.",
+    "title": "River Crossing on Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "Purpose and intention define the act: crossing a river is travel, not bathing - the same water contact can be prohibited or permitted depending on why you are in the water.",
+    "memoryAnchor": "Cross to get there, not to bathe: intent determines whether water contact is prohibited.",
+    "learnerQuestion": "If you must cross a river on Yom Kippur, does wading through it violate the bathing prohibition?",
+    "coreTension": "Between the bathing prohibition (which covers contact with water) and the practical necessity of crossing a body of water for legitimate purposes.",
+    "coreMove": "The Gemara distinguishes purposeful bathing (prohibited) from incidental wetting while crossing for a legitimate reason (not prohibited). The prohibition targets the pleasure-act of bathing, not every form of water contact.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The YK bathing prohibition targets the act of bathing as pleasure-seeking; incidental water contact incurred while doing something else for a legitimate purpose does not violate it."
+    },
+    "learningBlocker": "Students may think any contact with water on YK violates the prohibition; the distinction is between purposeful bathing and incidental wetting."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "Crossing water in shoes on Shabbat",
+     "speaker": "Gemara",
+     "text": "Crossing water is straightforward on Yom Kippur because no shoes are worn, but on Shabbat shoes raise a concern: a shoe might slip off in the water and one would pick it up, violating carrying. Nechemya reports seeing Rabbi Ami and Rabbi Asi cross a pool on Shabbat while still wearing their shoes.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l09",
+       "vilnaLine": 9
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "distinction",
+     "label": "Tight shoes versus loose sandals",
+     "speaker": "Gemara",
+     "text": "Shoes can be tied tightly, so the concern is lighter, but sandals fit loosely and might come off in the water. Rav Richumi saw Ravina cross a river in sandals, yet Rav Ashi rules that one should not cross in sandals ab initio, lest one fall off and he carry it on Shabbat.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "narrative",
+     "label": "Ravina's absence from the lecture",
+     "speaker": "Gemara",
+     "text": "The Exilarch lectured in Hagronya and Ravina did not attend. The next day Rafram, to dispel any resentment, asked Ravina why he was absent, and Ravina explained that his foot hurt, specifically the back of the foot, which made wearing closed shoes difficult.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l14",
+       "vilnaLine": 14
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "application",
+     "label": "Ravina applies Rav Ashi's sandal ruling to himself",
+     "speaker": "Gemara",
+     "text": "Rafram suggested heel-exposing sandals, but Ravina noted he would have had to cross a pool. When Rafram said to cross in the sandals, Ravina invoked Rav Ashi's ruling that one should not cross water in sandals ab initio, showing his absence reflected halachic caution, not disrespect.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l17",
+       "vilnaLine": 17
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "crossing water",
+    "bathing prohibition",
+    "YK",
+    "intent"
+   ],
+   "concepts": {
+    "halachic": [
+     "crossing water",
+     "bathing prohibition"
+    ],
+    "theological": [
+     "Intent matters for bathing: crossing water to get somewhere is different from im"
+    ],
+    "narrative": [
+     "Crossing water on Yom Kippur: does it constitute prohibited "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of crossing water context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners assume the water-crossing rules are the same on Yom Kippur and Shabbat.",
+     "correction": "The two days raise different concerns. On Yom Kippur no shoes are worn, so crossing is simple; on Shabbat the live issue is footwear slipping off and being carried, which is why the discussion centers on shoes versus sandals."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Crossing water on Yom Kippur: does it constitute p"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why is crossing water in sandals on Shabbat more problematic than crossing in shoes?",
+     "answer": "Shoes can be tied on tightly, but sandals fit loosely and may slip off in the water. If a sandal comes off and one picks it up, he violates the Shabbat prohibition of carrying, so Rav Ashi forbids crossing in sandals ab initio."
+    },
+    {
+     "question": "How does Ravina's explanation for missing the lecture turn on a point of law?",
+     "answer": "Ravina's foot pain ruled out closed shoes, sandals would have failed crossing a pool because of Rav Ashi's ban on crossing water in sandals, so he had no permissible footwear for the trip. His absence was a halachic constraint, not a slight to the Exilarch."
+    }
+   ],
+   "finalRuling": "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossi",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-078a-s03",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.78a.7"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.78a.8"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.78a.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.78a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.78a.7",
+    "Yoma.78a.8",
+    "Yoma.78a.9",
+    "Yoma.78a.10"
+   ],
+   "display": {
+    "whats": "Sick person wearing shoes on YK; wooden shoes; danger exceptions",
+    "hint": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
+    "title": "Sick Person's Shoes on Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "The YK afflictions presuppose a healthy body capable of bearing them; the sick are already in their own form of deprivation and are not required to compound it.",
+    "memoryAnchor": "Sick person wears shoes on YK: affliction laws apply to the healthy, not to those already suffering.",
+    "learnerQuestion": "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
+    "coreTension": "Between the universal prohibition on wearing shoes (one of the five afflictions) and the need to protect a sick person's health and safety.",
+    "coreMove": "The Gemara permits a sick person to wear shoes because the affliction obligations are calibrated to a healthy person capable of bearing them; health risk overrides the prohibition. Wooden sandals may raise additional questions about what qualifies as 'shoes.'",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Health considerations can override YK affliction obligations; the afflictions are designed to humble the healthy person before God, not to endanger the sick."
+    },
+    "learningBlocker": "Students may assume the shoe prohibition is absolute; recognizing that it is calibrated to the capable body resolves the apparent rigidity."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Sitting on wet clay and cooling with fruit",
+     "speaker": "Gemara",
+     "text": "Yehuda bar Gerogarot forbids sitting on damp clay on Yom Kippur; Rabbi Yehoshua ben Levi limits this to clay so wet it dampens what touches it, and Abaye requires it be wet enough to wet something else. Rav Yehuda permits cooling oneself with fruit, which is not considered bathing, as he himself did with a squash.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "distinction",
+     "label": "Cooling vessels: full versus empty, silver versus ceramic",
+     "speaker": "Gemara",
+     "text": "Rabba cooled himself with a cold baby, Rava with a silver cup. Rav Pappa rules a full silver cup is forbidden but an empty one permitted; a ceramic cup is forbidden either way because water seeps through. Rav Ashi adds that even an empty silver cup is forbidden, since it may slip and spill.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "case",
+     "label": "The pre-soaked, wrung-out cloth of Rabbi Yehoshua ben Levi",
+     "speaker": "Gemara",
+     "text": "Ze'eira bar Chama relays that Rabbi Yehoshua ben Levi prepared a cloth before Yom Kippur by soaking and wringing it nearly dry, then wiped his face, hands, and feet with it the next day. For the eve of the Ninth of Av, a rabbinic fast, he soaked the cloth and passed it over his eyes.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "distinction",
+     "label": "A dispute over which practice fit which fast",
+     "speaker": "Gemara",
+     "text": "Rabba bar Mari reported the practice with the days reversed. Rabbi Ya'akov challenged Rabbi Yirmeya bar Tachlifa that the wringing he described for Yom Kippur was really for the Ninth of Av, since Yom Kippur carries the same wringing prohibition as Shabbat and the cloth could not be wrung that day.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "sick person",
+    "shoes",
+    "wooden sandals",
+    "YK exceptions"
+   ],
+   "concepts": {
+    "halachic": [
+     "sick person",
+     "shoes"
+    ],
+    "theological": [
+     "Illness creates its own category on YK - even the shoe prohibition, which is abo"
+    ],
+    "narrative": [
+     "Sick person wearing shoes on YK; wooden shoes; danger except"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of sick person context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners think any cooling or wiping with moisture is simply bathing and therefore banned on Yom Kippur.",
+     "correction": "The Gemara permits cooling with fruit, an empty cup, or a pre-wrung cloth, because none provides the pleasure of washing; the controlling concerns are spilling water on the body and the separate prohibition of wringing, not contact with coolness as such."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Sick person wearing shoes on YK; wooden shoes; dan"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why is a full silver cup forbidden for cooling on Yom Kippur while an empty one is debated?",
+     "answer": "A full cup risks spilling water onto the body, which approaches bathing. Rav Pappa permits an empty silver cup, but Rav Ashi forbids even that, since it may slip from the hand and spill. A ceramic cup is forbidden regardless because water seeps through its walls."
+    },
+    {
+     "question": "What is the key distinction between the cloth practice for Yom Kippur and for the Ninth of Av?",
+     "answer": "On Yom Kippur the cloth had to be soaked and wrung out before the fast, because wringing is forbidden on Yom Kippur just as on Shabbat. The Ninth of Av, being only rabbinic, allowed greater leniency with the cloth, which is why the two practices were not interchangeable."
+    }
+   ],
+   "finalRuling": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-078a-s04",
+   "lineRange": {
+    "startVilnaLine": 35,
+    "endVilnaLine": 41
+   },
+   "lines": [
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.78a.11"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.78a.12"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.78a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.78a.11",
+    "Yoma.78a.12",
+    "Yoma.78a.13"
+   ],
+   "display": {
+    "whats": "Rain water, river crossing, measuring bathing by amount",
+    "hint": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
+    "title": "Puddles and Rivers: Measuring Prohibited Bathing"
+   },
+   "learning": {
+    "ahaMoment": "You can get wet crossing a puddle on Yom Kippur without violating the prohibition: the Talmud's analysis is about the act, not the wetness.",
+    "memoryAnchor": "Puddles and rivers: the question is the quality of the act (bathing vs. crossing), not the volume of water.",
+    "learnerQuestion": "Is there a minimum amount of water that triggers the Yom Kippur bathing prohibition?",
+    "coreTension": "Between a prohibition defined by the act of bathing (suggesting any water contact counts) and the practical reality that incidental wetting from puddles or shallow crossings seems qualitatively different from bathing.",
+    "coreMove": "The Gemara explores whether the character of the act or the quantity of water is the operative criterion. The analysis leans toward the character of the act: casual wetting incidental to movement is not the prohibited bathing.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The criterion for prohibited bathing is the character of the act rather than the quantity of water; the prohibition targets intentional bathing for pleasure or comfort, not incidental wetting."
+    },
+    "learningBlocker": "Students may assume any amount of water triggers the prohibition; recognizing that quality of act, not quantity of water, is the key criterion resolves the apparent over-breadth."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "Must a scholarly Elder get the Nasi's permission to permit firstborns?",
+     "speaker": "Gemara",
+     "text": "Rav Menashya bar Tachalifa relays a question put to Rabbi Elazar ben Pedat: must an Elder who studies in the yeshiva obtain the Nasi's authorization to rule firstborn animals permitted by inspecting their blemishes, as others must, or is his standing sufficient on its own?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l35",
+       "vilnaLine": 35
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "elaboration",
+     "label": "The reason behind the permission requirement",
+     "speaker": "Gemara",
+     "text": "The Gemara explains, citing Rav Idi bar Avin, that the Nasi's authority to grant permission was instituted to honor his house. So the question is whether even a yeshiva Elder must seek it to honor the Nasi, or is exempt. Rav Tzadok testified he saw Rabbi Yosei ben Zimra, a yeshiva Elder, ask the prior Nasi for such permission.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l37",
+       "vilnaLine": 37
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "distinction",
+     "label": "Rabbi Abba reframes the incident as a halachic question",
+     "speaker": "Gemara",
+     "text": "Rabbi Abba corrects the account: Rabbi Yosei ben Zimra was a priest, and his query was not about the Nasi's permission but a point of law, whether priests, suspected of blemishing firstborns after the Temple's destruction, are believed. The matter was resolved by Rabban Shimon ben Gamliel's view that one suspect about himself is still believed about others.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l41",
+       "vilnaLine": 41
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "rain water",
+    "river crossing",
+    "bathing measure"
+   ],
+   "concepts": {
+    "halachic": [
+     "rain water",
+     "river crossing"
+    ],
+    "theological": [
+     "Rain water vs. river: the Gemara is precise about what type of water contact tri"
+    ],
+    "narrative": [
+     "Rain water, river crossing, measuring bathing by amount"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of rain water context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners read the firstborn-permission passage as plainly about whether scholars must defer to the Nasi.",
+     "correction": "Rabbi Abba shows the cited precedent was really a question of priestly credibility regarding blemishes, not of seeking the Nasi's authorization, so the supposed proof about a scholar needing permission does not actually establish that."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Rain water, river crossing, measuring bathing by a"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why was the Nasi's authority to grant permission to rule on firstborns established?",
+     "answer": "To raise the stature of the Nasi's house. Because seeking his permission itself honors the Nasi, the question arises whether even a Torah scholar of standing must request it, or whether his own learning exempts him."
+    },
+    {
+     "question": "How does Rabbi Abba reinterpret the testimony about Rabbi Yosei ben Zimra approaching the Nasi?",
+     "answer": "He says it was not a request for permission at all but a halachic question. As a priest, suspected of blemishing firstborns after the Temple's destruction, Rabbi Yosei asked whether such priests are believed, resolved by the ruling that one suspect about himself is still believed about others."
+    }
+   ],
+   "finalRuling": "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-078a-s05",
+   "lineRange": {
+    "startVilnaLine": 44,
+    "endVilnaLine": 44
+   },
+   "lines": [
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.78a.14"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.78a.14"
+   ],
+   "display": {
+    "whats": "Unresolved question about water crossing and the shoe prohibition",
+    "hint": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
+    "title": "Water Crossing and Shoes: The Unresolved Question"
+   },
+   "learning": {
+    "ahaMoment": "Teiku is not failure - it is the Talmud's most honest answer: we do not know, and we will not pretend otherwise.",
+    "memoryAnchor": "Water crossing on YK: teiku - the question stays open, practice requires stringency.",
+    "learnerQuestion": "What does it mean when the Talmud leaves a Yom Kippur question unresolved?",
+    "coreTension": "Between the need for a practical ruling (what do you do when you must cross water on YK?) and the Talmud's intellectual honesty in acknowledging it cannot fully resolve the question.",
+    "coreMove": "The Gemara records teiku - no resolution. This is not a failure but a principled acknowledgment of the limits of halakhic derivation. In practice, unresolved doubts in biblical prohibitions require stringency.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Teiku is the Talmud's principled acknowledgment that some questions exceed what legal derivation can resolve; in practice, unresolved doubts involving biblical prohibitions default to stringency."
+    },
+    "learningBlocker": "Students may feel frustrated by teiku and want a definitive ruling; recognizing teiku as intellectual honesty rather than an omission is important for understanding how the Talmud works."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "May one wear cork sandals on Yom Kippur?",
+     "speaker": "Gemara",
+     "text": "The same Sages raise a further question: what is the law regarding going out in sandals made of cork on Yom Kippur, given that the affliction forbids wearing a shoe. The question of whether such sandals count as a shoe is left for the discussion that continues onto the next page.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-078a-l44",
+       "vilnaLine": 44
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "teiku",
+    "unresolved",
+    "bathing prohibition"
+   ],
+   "concepts": {
+    "halachic": [
+     "teiku",
+     "unresolved"
+    ],
+    "theological": [
+     "Some questions the Talmud leaves open - the unresolved teiku preserves intellect"
+    ],
+    "narrative": [
+     "Unresolved question about water crossing and the shoe prohib"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of teiku context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Learners assume only conventional leather footwear is at issue in the shoe prohibition.",
+     "correction": "The Gemara probes borderline materials like cork precisely because the prohibition turns on whether an item functions as a comforting shoe, not on a fixed material, opening a real question about unconventional footwear."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Unresolved question about water crossing and the s"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the core uncertainty in the question about cork sandals on Yom Kippur?",
+     "answer": "Whether a cork sandal is legally a 'shoe' for the affliction of not wearing shoes. If it counts as a shoe it is forbidden; if it is too unlike a real shoe to provide that comfort, it may be permitted. The Gemara leaves this to resolve on the next page."
+    }
+   ],
+   "finalRuling": "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "מפכין. כמין הפך הן כשמגיעין למפתן ההיכל: מכאן רמז לנדה. מדלא קרי ליה ראוי לנדה עד שמתגבר כנחל שוטף שמגיע לפתח בית",
+   "en": "'Gushing' - they are like a jug pouring out when they reach the threshold of the Sanctuary. New comment: 'from here a hint for a niddah' - since it does not call it fit for a niddah until it becomes stronger, like a flowing river that reaches the gate of the house",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "דוד רמז שצריכה לטבילת מים עמוקים שתשב בהן עד צוארה ואע\"ג דלא רמיז קרא עד צוארה רמיז מיהא דניהוו עמוקים עומק הראוי וזה",
+   "en": "of David - hinting that she needs immersion in deep water, that she should sit in it up to her neck; and even though the verse does not hint at 'up to her neck,' it at least hints that the water should be deep, an appropriate depth, and this",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l01",
+    "yoma-078a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "כראוי: התינח יום הכפורים לא גרסינן וה\"ג שבת דאיכא מנעל מאי. מי שרי לעבור במים או דילמא חיישינן דילמא נפקי מכרעיה",
+   "en": "is appropriate. Textual note: we do not read 'this works out for Yom Kippur'; rather the correct reading is: 'Shabbat, where there is a shoe, what is the law?' - is it permitted to cross in water, or perhaps we are concerned lest it come off his foot",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l07",
+    "yoma-078a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "ואתי לאיתויינהו: ועברוה דרך מלבוש. בנעליהם עברו אותו: סנדל מאי. שאינו יכול להדקו ולקשרו יפה ברגלו כמו מנעל: איקלע",
+   "en": "and come to carry it. New comment: 'and they crossed it in the manner of clothing' - they crossed it wearing their shoes. New comment: 'what about a sandal' - since one cannot fasten and tie it well on the foot like a shoe. New comment: 'he happened to come'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l09",
+    "yoma-078a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "להגרוניא. ושבת שם: לפירקא.",
+   "en": "to Hagronya - and he kept Shabbat there. New comment: 'to the lecture'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "לדרשא דריש גלותא: מדעתיה דריש",
+   "en": "of the discourse of the Reish Galuta. New comment: 'from the mind of the Reish Galuta'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "גלותא. שלא ישנאהו: איבעי לך",
+   "en": "- so that he should not hate him. New comment: 'you should have'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "למירמא סנדל. שהוא רחב: על גבי",
+   "en": "put on a sandal - since it is wide. New comment: 'upon'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "טינא. שלחלוח הטיט הוי עונג",
+   "en": "clay/mud - since the moisture of the mud is a pleasure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "קרוב לרחיצה: מטפחת. מקיאה",
+   "en": "close to washing. New comment: 'metapachat' - it exudes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "מים: מלא אסור. שמא ישפכו מים",
+   "en": "water. New comment: 'full is forbidden' - lest the water spill",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l19",
+    "yoma-078a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "על בשרו: משחל שחיל. פולט מים",
+   "en": "on his flesh. New comment: 'mishchal shachil' - it exudes water",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "שבולע טרישטריש\"א בלע\"ז: דמזדריב.",
+   "en": "that it absorbed - 'treistresa' in the vernacular. New comment: 'demizdariv' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "מחליק ונשמט מידו וישפכו המים",
+   "en": "it slips and slides from his hand and the water spills",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "עליו: מטפחת. סודר כמין כלים",
+   "en": "upon him. New comment: 'metapachat' - a scarf, like dry",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l22",
+    "yoma-078a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "נגובים ואני שמעתי דה\"ג ערב יום",
+   "en": "vessels; and I have heard that the correct reading is: 'on the eve of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "הכפורים מביאין לו מטפחת ומקנח",
+   "en": "Yom Kippur they bring him a cloth and he wipes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "בה ידיו ולמחר פושטה ומעבירה על",
+   "en": "his hands with it, and the next day he spreads it out and passes it over",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "עיניו והיא לחה קצת מקינוח הידים",
+   "en": "his eyes, and it is somewhat moist from wiping his hands",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "דאתמול: איפכא אמרת לן. בתשעה",
+   "en": "from the day before. New comment: 'you told us the opposite' - on the Ninth",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l25",
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "באב עושה אותן כמין כלים נגובים",
+   "en": "of Av he makes them like dry vessels",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "ובערב יוה\"כ לא אמרת עושה אותן",
+   "en": "and on the eve of Yom Kippur you did not say he makes them",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "כמין כלים נגובים ואותיבנך סחיטה",
+   "en": "like dry vessels, and we raised against you the concept of wringing",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "לשון ששמעתי הכי קאמר איפכא",
+   "en": "- this is the language I heard: this is what he says: 'you told us the opposite:",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "אמרת לן ערב תשעה באב מקנח בה",
+   "en": "on the eve of the Ninth of Av he wipes with it",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "ידיו ולמחר פושטה וכו' וערב יום",
+   "en": "his hands, and the next day spreads it out, etc.; and on the eve of Yom",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "הכפורים שורה אותה במים ועושה",
+   "en": "Kippur he soaks it in water and makes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "אותה כמין כלים נגובים ואותיבנך",
+   "en": "it like dry vessels, and we raised against you",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "סחיטה דכמין כלים נגובים עדיין יש",
+   "en": "the concept of wringing, since like dry vessels still has",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "כדי לסחוט: שאלו את רבי אלעזר.",
+   "en": "enough moisture to wring out.' New comment: 'they asked Rabbi Elazar' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l30",
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "גרסינן והוא רבי אלעזר בן פדת:",
+   "en": "this is the correct reading, and he is Rabbi Elazar ben Pedat.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "זקן ויושב בישיבה וכו'. אמרינן",
+   "en": "'an elder who sits in the yeshiva, etc.' - we say",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "בסנהדרין (דף ה.) שאין חכם מתיר",
+   "en": "in Tractate Sanhedrin (5a) that a Sage may not permit",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "את הבכור ביחיד לראות את מומו",
+   "en": "a firstborn animal alone, to examine its blemish",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "אלא אם כן נטל רשות מן הנשיא",
+   "en": "unless he has taken permission from the Nasi",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "פעם אחת והכא מיבעיא להו דאם",
+   "en": "one time; and here they ask, that if",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "זקן יושב בישיבת סנהדרין הוא מי",
+   "en": "he is an elder sitting in the yeshiva of the Sanhedrin, does he",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "צריך רשות' או לא והא דנקט לה",
+   "en": "need permission, or not? And the reason it states this",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "הכא משום דבעי למימר ותו",
+   "en": "here is because it wants to go on and say 'and further",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l35",
+    "yoma-078a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "קמבעיא להו מהו לצאת בסנדל של",
+   "en": "they further asked: what is the law of going out in a sandal of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "שעם ביוה\"כ: דבר זה. נטילת",
+   "en": "cork on Yom Kippur.' New comment: 'this matter' - taking",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l44",
+    "yoma-078a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "הרשות: להתגדר. לשון גדולה:",
+   "en": "the permission. New comment: 'lehitgader' - a term of greatness.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "למעלה מזקנו של זה. לפני זקינו של",
+   "en": "'above the beard of this one' - means before the elder of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "נשיא זה שבדורנו: כהנים חשודין על",
+   "en": "this Nasi of our generation. New comment: 'kohanim are suspect regarding'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l37",
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "מומי הבכור להתיר את האסור ואף",
+   "en": "blemishes of the firstborn, to permit what is forbidden, and even",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "להטיל בו מום לפי שהבכור בזמן הזה",
+   "en": "to inflict a blemish on it, since the firstborn nowadays",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "אין לו תקנה אלא אם כן יש בו מום",
+   "en": "has no remedy unless it has a blemish,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "ועל הכהן ליטפל בו משנתנוהו לו",
+   "en": "and it is upon the kohen to tend to it once it was given to him",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "לשומרו ולזונו דרבי מאיר ודרבן",
+   "en": "to guard and feed it - this is the view of Rabbi Meir and Rabban",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "שמעון במסכת בכורות (דף לה.): ותו",
+   "en": "Shimon, in Tractate Bekhorot (35a). New comment: 'and further'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l41",
+    "yoma-078a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "קמבעיא להו. קמיה דרבי אלעזר:",
+   "en": "they further asked' - before Rabbi Elazar.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "שעם",
+   "en": "Cork (continues on 78b).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-078a-l44"
+   ]
+  }
+ ],
+ "review": "draft"
 }
