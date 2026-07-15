@@ -120,21 +120,50 @@ AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
 6. packet-contains-every-linked-local-id: the live packet segment
    table (Gemara AND Mishnah kinds) contains every linked id
 7. all-links-legal-and-nonempty: every entry links to legal local ids
-8. drift-profile-ALIGNED: post-edit profile is ALIGNED, OR (for
-   rashi-reconstruction/rashi-realignment only) the narrow
-   anchor-poor-safe exception: the raw Hebrew contains exactly one
-   genuine detectable citation, it is found in the English at offset
-   0, no expected anchor is missing, and the fresh self-review carries
-   an `anchorPoorAttestation` block with all four keys
-   (onlyOneGenuineCitation, citationTranslatedOnOwnLine,
-   noCitationInventedMovedOrDuplicated, noSemanticUncertaintyRemains)
-   explicitly true. When this exception is what actually passed the
-   gate, worker:review reports it as its own distinct
-   `anchor-poor-safe` PASS/FAIL line rather than silently relabeling
-   the daf ALIGNED. SHIFTED and FABRICATION-SUSPECT can never qualify
-   (both require 2+ anchors, and the exception requires exactly 1).
-   rashi-structural-repair keeps its own, separate, unconditional
-   haiku-safe allowance (unaffected by this exception).
+8. drift-profile-ALIGNED: for rashi-reconstruction/rashi-realignment,
+   evaluated by a source-relative citation-evidence policy with three
+   tiers, chosen by how many genuine detectable citations exist in the
+   daf's own raw Hebrew (a fixed property of the source, independent of
+   the current translation):
+   - 2+ anchors (multi-anchor-safe): classification must be ALIGNED,
+     every expected anchor found, zero missing, and every offset
+     exactly 0 - stricter than the bare ALIGNED label, which the
+     classifier can still grant with anchors missing.
+   - exactly 1 anchor (one-anchor-safe): classification
+     INSUFFICIENT-ANCHORS, that one anchor found at offset 0, zero
+     missing, and the fresh self-review's `oneAnchorAttestation` block
+     (onlyOneGenuineCitation, citationTranslatedOnOwnLine,
+     noCitationInventedMovedOrDuplicated, noSemanticUncertaintyRemains)
+     all explicitly true.
+   - 0 anchors (zero-anchor-safe): classification INSUFFICIENT-ANCHORS,
+     confirmed by an independent second source scan (a whole-text
+     parenthetical search, deliberately not reusing the primary
+     per-line scanner) that finds no citation-like text anywhere, plus
+     the self-review's `zeroAnchorAttestation` block
+     (everyRawLineRereadForCitations,
+     noTractateDafChapterVerseOrOtherCitationAnywhere,
+     noCitationInventedMovedOrDuplicated, noSemanticUncertaintyRemains)
+     all explicitly true. Any empty `linkedGemaraLineIds` entry must be
+     named in an `authorizedEmptyLinks` list citing a documented
+     boundary rule, or it fails.
+
+   Whichever tier decided the outcome, worker:review reports it as its
+   own distinct PASS/FAIL line (`multi-anchor-safe` is folded into
+   drift-profile-ALIGNED itself since it never relabels anything;
+   `one-anchor-safe`/`zero-anchor-safe` print as separate lines) rather
+   than silently relabeling the daf ALIGNED. SHIFTED and
+   FABRICATION-SUSPECT can never qualify at any tier (both always carry
+   2+ anchors). Citation anchors are corroborating evidence, not a
+   mandatory content feature: the gate never requires inventing one,
+   and the absence of citations never automatically implies
+   correctness, which is why the zero-anchor tier demands the strongest
+   attestation of the three. rashi-structural-repair keeps its own,
+   separate, unconditional haiku-safe allowance (unaffected by any of
+   this). Run `npm run worker:capability-scan -- --targets <list>`
+   once per campaign (not per daf) before starting content work, to
+   confirm every queued target's anchor cardinality (ZERO/ONE/MULTI)
+   and packet completeness can reach a supported final state; it never
+   edits content and exits nonzero if any target cannot.
 9. semantic-audit-zero-shift-candidates on the target daf
 10. no-stub-or-duplicate-helpers in the target daf
 11. generated-files-fresh (byte-identical regeneration)
@@ -167,14 +196,29 @@ Format (committed with the PR as .worker-self-review.json):
  "blockersFound": [], "notes": "one line"}
 ```
 
-When invoking the anchor-poor-safe exception (item 8 above), the
-self-review additionally carries an `anchorPoorAttestation` object:
+When invoking the one-anchor-safe tier (item 8 above), the self-review
+additionally carries a `oneAnchorAttestation` object:
 
 ```json
-{"anchorPoorAttestation": {
+{"oneAnchorAttestation": {
    "onlyOneGenuineCitation": true, "citationTranslatedOnOwnLine": true,
    "noCitationInventedMovedOrDuplicated": true,
    "noSemanticUncertaintyRemains": true}}
+```
+
+When invoking the zero-anchor-safe tier, the self-review carries a
+`zeroAnchorAttestation` object instead, and (only if any entry has an
+empty `linkedGemaraLineIds`) an `authorizedEmptyLinks` list naming
+each such vilnaLine and the documented boundary rule that permits it:
+
+```json
+{"zeroAnchorAttestation": {
+   "everyRawLineRereadForCitations": true,
+   "noTractateDafChapterVerseOrOtherCitationAnywhere": true,
+   "noCitationInventedMovedOrDuplicated": true,
+   "noSemanticUncertaintyRemains": true},
+ "authorizedEmptyLinks": [
+   {"vilnaLine": 12, "rule": "10a vilnaLine 35 boundary precedent"}]}
 ```
 
 Escalation to Fable is MANDATORY (stop, do not merge) when any of
@@ -319,17 +363,27 @@ queue derivation mechanics, and the no-direct-push guarantees.
   authoritative talmuddev raw lines, and accepts INSUFFICIENT-ANCHORS
   alongside ALIGNED for the drift condition (anchor-poor daf cannot
   manufacture citations). Tests: test:policy.
-- Anchor-poor-safe exception (docs-tooling, review-gate only): found
-  on Yoma 48b, whose entire raw Rashi carries exactly one genuine
+- Source-relative citation-evidence policy (docs-tooling, review-gate
+  only): the one-anchor-safe tier first appeared narrowly scoped to
+  Yoma 48b (whose entire raw Rashi carries exactly one genuine
   citation, split by an ordinary print line-wrap so the anchor
-  scanner's per-line window never pairs the tractate name with its
-  daf number, capping the classifier at INSUFFICIENT-ANCHORS forever
-  regardless of translation quality (ALIGNED requires 2+ anchors).
-  rashi-reconstruction/rashi-realignment may now pass drift-profile-
-  ALIGNED via this narrow exception instead (see item 8 above); it
-  never touches the classifier itself, never accepts SHIFTED or
-  FABRICATION-SUSPECT (both require 2+ anchors), and requires a fresh
-  self-review anchorPoorAttestation block. Tests: test:policy.
+  scanner's per-line window never pairs the tractate name with its daf
+  number, capping the classifier at INSUFFICIENT-ANCHORS forever
+  regardless of translation quality). Generalized after Yoma 49b
+  surfaced a more extreme case (zero genuine citations anywhere in the
+  raw Hebrew) that the narrow one-anchor exception could not represent:
+  drift-profile-ALIGNED for rashi-reconstruction/rashi-realignment is
+  now a 3-tier policy keyed on the raw Hebrew's own anchor count
+  (multi-anchor-safe, one-anchor-safe, zero-anchor-safe; see item 8
+  above), plus `npm run worker:capability-scan` to classify an entire
+  queue's anchor cardinality and packet completeness before content
+  work starts, so a deterministic gate limitation is caught once for
+  the whole campaign rather than daf by daf. Never touches the
+  classifier itself; never accepts SHIFTED or FABRICATION-SUSPECT at
+  any tier (both always carry 2+ anchors); the zero-anchor tier
+  requires a stronger self-review attestation than the others, since
+  the absence of citations is not itself evidence of correctness.
+  Tests: test:policy.
 - Drift gate: `audit:rashi:drift:yoma` classifies every daf (SHIFTED /
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is

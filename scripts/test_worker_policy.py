@@ -347,125 +347,246 @@ def test_structural_deferral_in_scope_validator():
           structural_deferral({**good, "type": "nope"}, types, True) == set())
 
 
-def _prof(classification, anchors, anchors_missing=None):
-    """Build a minimal synthetic drift profile for anchor_poor_safe/
-    drift_ok_for_type unit tests. anchors_missing defaults to the count
-    of anchors whose offset is None."""
+def _prof(classification, anchors, anchors_missing=None, offsets=None):
+    """Build a minimal synthetic drift profile for the evidence-tier unit
+    tests. anchors_missing defaults to the count of anchors whose offset
+    is None; offsets defaults to the non-None offsets in anchors."""
     if anchors_missing is None:
         anchors_missing = len([a for a in anchors if a.get("offset") is None])
+    if offsets is None:
+        offsets = [a["offset"] for a in anchors if a.get("offset") is not None]
     return {"classification": classification, "anchors": anchors,
             "anchorsFound": len(anchors) - anchors_missing,
-            "anchorsMissing": anchors_missing,
+            "anchorsMissing": anchors_missing, "offsets": offsets,
             "haikuSafe": classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")}
 
 
-def _sr(attest_overrides=None, missing=False):
+def _sr_one(attest_overrides=None, missing=False, daf="48b"):
     if missing:
-        return {}
+        return {"daf": daf}
     att = {"onlyOneGenuineCitation": True, "citationTranslatedOnOwnLine": True,
            "noCitationInventedMovedOrDuplicated": True, "noSemanticUncertaintyRemains": True}
     if attest_overrides:
         att.update(attest_overrides)
-    return {"daf": "48b", "anchorPoorAttestation": att}
+    return {"daf": daf, "oneAnchorAttestation": att}
 
 
-def test_anchor_poor_safe():
-    print("anchor-poor-safe review-gate exception:")
+def _sr_zero(attest_overrides=None, missing=False, daf="49b", authorized_empty=None):
+    if missing:
+        return {"daf": daf}
+    att = {"everyRawLineRereadForCitations": True,
+           "noTractateDafChapterVerseOrOtherCitationAnywhere": True,
+           "noCitationInventedMovedOrDuplicated": True, "noSemanticUncertaintyRemains": True}
+    if attest_overrides:
+        att.update(attest_overrides)
+    out = {"daf": daf, "zeroAnchorAttestation": att}
+    if authorized_empty:
+        out["authorizedEmptyLinks"] = authorized_empty
+    return out
 
+
+def test_evidence_tiers():
+    print("source-relative citation-evidence review-gate tiers:")
+
+    multi_ok = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                {"line": 9, "kind": "name", "token": "y", "offset": 0}]
     one_ok = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": 0}]
-    good_sr = _sr()
+    good_sr1 = _sr_one()
+    good_sr0 = _sr_zero()
 
-    # 1. ALIGNED continues to pass (exception never invoked).
-    ok, key, note = wp.drift_ok_for_type("rashi-reconstruction",
-                                          _prof("ALIGNED", [{"line": 4, "kind": "name",
-                                                              "token": "x", "offset": 0},
-                                                             {"line": 9, "kind": "name",
-                                                              "token": "y", "offset": 0}]),
-                                          None)
-    check("1. ALIGNED passes without invoking the exception", ok and key is None)
+    # 1. Multi-anchor ALIGNED: pass.
+    ok1, key1, _ = wp.drift_ok_for_type("rashi-reconstruction", "48b",
+                                         _prof("ALIGNED", multi_ok), None)
+    check("1. multi-anchor ALIGNED passes", ok1 and key1 is None)
 
-    # 2. One genuine anchor, offset 0, no missing anchors: pass.
-    ok2, reason2 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
-    check("2. one anchor, offset 0, self-review attests: passes", ok2, reason2)
+    # 2. Multi-anchor nonzero offset: fail (tightened bar: ALIGNED alone is
+    # not enough, every offset must be exactly 0).
+    multi_bad_offset = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                         {"line": 9, "kind": "name", "token": "y", "offset": 1}]
+    ok2, reason2 = wp.multi_anchor_safe(_prof("ALIGNED", multi_bad_offset))
+    check("2. multi-anchor nonzero offset fails", not ok2, reason2)
 
-    # 3. One genuine anchor, nonzero offset: fail.
+    # 3. Multi-anchor missing citation: fail (ALIGNED classification can
+    # still carry missing anchors; the tightened tier requires zero missing).
+    multi_missing = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                      {"line": 9, "kind": "name", "token": "y", "offset": None}]
+    ok3, reason3 = wp.multi_anchor_safe(_prof("ALIGNED", multi_missing))
+    check("3. multi-anchor missing citation fails", not ok3, reason3)
+
+    # 4. One anchor at offset 0: ONE-ANCHOR-SAFE pass.
+    ok4, reason4 = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), good_sr1)
+    check("4. one anchor, offset 0, self-review attests: ONE-ANCHOR-SAFE passes", ok4, reason4)
+
+    # 5. One anchor at nonzero offset: fail.
     bad_offset = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": 3}]
-    ok3, reason3 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", bad_offset), good_sr)
-    check("3. nonzero offset fails", not ok3)
+    ok5, reason5 = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", bad_offset), good_sr1)
+    check("5. one anchor, nonzero offset fails", not ok5)
 
-    # 4. One found anchor plus one missing anchor: fail.
-    two_one_missing = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
-                        {"line": 16, "kind": "dafnum", "token": "11a", "offset": None}]
-    ok4, reason4 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", two_one_missing), good_sr)
-    check("4. one found plus one missing anchor fails (not exactly one)", not ok4)
+    # 6. One expected anchor missing: fail.
+    missing_one = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": None}]
+    ok6, reason6 = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", missing_one), good_sr1)
+    check("6. one expected anchor missing fails", not ok6)
 
-    # 5. Zero anchors: fail.
-    ok5, reason5 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", []), good_sr)
-    check("5. zero anchors fails", not ok5)
+    # 7. Zero genuine anchors with complete full-daf attestation:
+    # ZERO-ANCHOR-SAFE pass. Uses the real 49b talmuddev source, whose raw
+    # Rashi genuinely contains no parenthetical citation-like text at all.
+    ok7, reason7 = wp.zero_anchor_safe("49b", _prof("INSUFFICIENT-ANCHORS", []), good_sr0)
+    check("7. zero anchors with complete attestation: ZERO-ANCHOR-SAFE passes", ok7, reason7)
 
-    # 6. SHIFTED: fail (2+ same-sign anchors, so exactly-one check excludes it).
+    # 8. Zero-anchor claim when raw contains a citation: fail. Uses the real
+    # 48b talmuddev source, whose raw Rashi genuinely contains one
+    # parenthetical citation ("Chagigah 11a"); the independent second scan
+    # must catch a false zero-anchor claim against that source.
+    ok8, reason8 = wp.zero_anchor_safe("48b", _prof("INSUFFICIENT-ANCHORS", []),
+                                        _sr_zero(daf="48b"))
+    check("8. zero-anchor claim when raw contains a citation fails", not ok8, reason8)
+
+    # 9. Zero-anchor claim with citation-like text not investigated: fail
+    # (same mechanism as #8: the independent scan is what catches this).
+    check("9. covered by the independent-scan mechanism exercised in #8", not ok8)
+
+    # 10. Zero-anchor claim with incomplete self-review: fail.
+    ok10, reason10 = wp.zero_anchor_safe("49b", _prof("INSUFFICIENT-ANCHORS", []),
+                                          _sr_zero(missing=True))
+    check("10. zero-anchor claim with incomplete self-review fails", not ok10)
+
+    # 11. Zero-anchor claim with an unjustified link: covered structurally by
+    # the pre-existing, untouched all-links-legal-and-nonempty and
+    # packet-contains-every-linked-local-id conditions (semantic
+    # justification of a link is a self-review matter, not machine-derivable
+    # from a link id alone); confirm those conditions still gate
+    # independently of the evidence tier passing.
+    all_true = {k: True for k in wp.REVIEW_CONDITIONS}
+    all_true["packet-contains-every-linked-local-id"] = False
+    eligible11, failed11 = wp.evaluate_review_policy(all_true)
+    check("11. packet-contains-every-linked-local-id still gates independently",
+          not eligible11 and failed11 == ["packet-contains-every-linked-local-id"])
+
+    # 12. Zero-anchor claim with empty links not explicitly authorized: fail.
+    entries_with_empty = [{"vilnaLine": 1, "linkedGemaraLineIds": ["yoma-049b-l01"]},
+                           {"vilnaLine": 2, "linkedGemaraLineIds": []}]
+    ok12, reason12 = wp.zero_anchor_safe("49b", _prof("INSUFFICIENT-ANCHORS", []),
+                                          good_sr0, entries_with_empty)
+    check("12. unauthorized empty link fails", not ok12, reason12)
+    entries_authorized = [{"vilnaLine": 1, "linkedGemaraLineIds": ["yoma-049b-l01"]},
+                          {"vilnaLine": 2, "linkedGemaraLineIds": []}]
+    ok12b, reason12b = wp.zero_anchor_safe(
+        "49b", _prof("INSUFFICIENT-ANCHORS", []),
+        _sr_zero(authorized_empty=[{"vilnaLine": 2, "rule": "documented boundary rule"}]),
+        entries_authorized)
+    check("12b. explicitly authorized empty link with a cited rule passes", ok12b, reason12b)
+
+    # 13. Zero-anchor claim with a duplicate or filler helper: covered by the
+    # pre-existing, untouched no-stub-or-duplicate-helpers condition.
+    all_true2 = {k: True for k in wp.REVIEW_CONDITIONS}
+    all_true2["no-stub-or-duplicate-helpers"] = False
+    eligible13, failed13 = wp.evaluate_review_policy(all_true2)
+    check("13. no-stub-or-duplicate-helpers still gates independently",
+          not eligible13 and failed13 == ["no-stub-or-duplicate-helpers"])
+
+    # 14. Zero-anchor claim with semantic warning: covered by the
+    # pre-existing, untouched semantic-audit-zero-shift-candidates condition.
+    all_true3 = {k: True for k in wp.REVIEW_CONDITIONS}
+    all_true3["semantic-audit-zero-shift-candidates"] = False
+    eligible14, failed14 = wp.evaluate_review_policy(all_true3)
+    check("14. semantic-audit-zero-shift-candidates still gates independently",
+          not eligible14 and failed14 == ["semantic-audit-zero-shift-candidates"])
+
+    # 15. SHIFTED always fails, at every tier.
     shifted_anchors = [{"line": 4, "kind": "name", "token": "x", "offset": 5},
                         {"line": 9, "kind": "name", "token": "y", "offset": 4}]
-    ok6, reason6 = wp.anchor_poor_safe(_prof("SHIFTED", shifted_anchors), good_sr)
-    check("6. SHIFTED fails", not ok6)
-    ok6b, _, _ = wp.drift_ok_for_type("rashi-realignment", _prof("SHIFTED", shifted_anchors), good_sr)
-    check("6b. SHIFTED never eligible via drift_ok_for_type either", not ok6b)
+    ok15, _, _ = wp.drift_ok_for_type("rashi-realignment", "48b",
+                                       _prof("SHIFTED", shifted_anchors), good_sr1)
+    check("15. SHIFTED fails", not ok15)
 
-    # 7. FABRICATION-SUSPECT: fail (2+ consecutive missing anchors).
+    # 16. FABRICATION-SUSPECT always fails, at every tier.
     fab_anchors = [{"line": 4, "kind": "name", "token": "x", "offset": None},
                    {"line": 9, "kind": "name", "token": "y", "offset": None}]
-    ok7, reason7 = wp.anchor_poor_safe(_prof("FABRICATION-SUSPECT", fab_anchors), good_sr)
-    check("7. FABRICATION-SUSPECT fails", not ok7)
+    ok16, _, _ = wp.drift_ok_for_type("rashi-reconstruction", "48b",
+                                       _prof("FABRICATION-SUSPECT", fab_anchors), good_sr1)
+    check("16. FABRICATION-SUSPECT fails", not ok16)
 
-    # 8. Self-review says an additional citation may exist (attestation false): fail.
-    ok8, reason8 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok),
-                                        _sr({"noCitationInventedMovedOrDuplicated": False}))
-    check("8. self-review flags a possible extra/invented citation: fails", not ok8)
-
-    # 9. Self-review missing or stale (no attestation block at all): fail.
-    ok9, reason9 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), _sr(missing=True))
-    check("9a. missing self-review fails", not ok9)
-    ok9b, reason9b = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), None)
-    check("9b. None self-review fails", not ok9b)
-
-    # 10. A semantic-audit shift-candidate warning is a SEPARATE, pre-existing
-    # condition (semantic-audit-zero-shift-candidates) untouched by this
-    # exception; confirm it still independently blocks overall eligibility
-    # even when drift-profile-ALIGNED (via the exception) passes.
-    all_true = {k: True for k in wp.REVIEW_CONDITIONS}
-    all_true["semantic-audit-zero-shift-candidates"] = False
-    eligible10, failed10 = wp.evaluate_review_policy(all_true)
-    check("10. semantic-audit-zero-shift-candidates still gates independently",
-          not eligible10 and failed10 == ["semantic-audit-zero-shift-candidates"])
-
-    # 11. The exception applies only to rashi-reconstruction/rashi-realignment;
-    # any other type (including a hypothetical future one) stays at strict
-    # ALIGNED-only, never granted the exception.
+    # 17. The evidence-tier policy applies only to
+    # rashi-reconstruction/rashi-realignment; any other type (including a
+    # hypothetical future one) stays at strict ALIGNED-only.
     for other_type in ("rashi-repair", "placeholder-backfill", "some-future-type"):
-        ok11, key11, _ = wp.drift_ok_for_type(other_type,
-                                               _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
-        check(f"11. {other_type} does not get the anchor-poor-safe exception",
-              not ok11 and key11 is None)
+        ok17, key17, _ = wp.drift_ok_for_type(other_type, "48b",
+                                               _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr1)
+        check(f"17. {other_type} does not get an evidence-tier exception",
+              not ok17 and key17 is None)
 
-    # 12. rashi-structural-repair keeps its existing (broader, unconditional)
+    # 18. rashi-structural-repair keeps its existing (broader, unconditional)
     # haiku-safe policy untouched: INSUFFICIENT-ANCHORS with NO anchors at
-    # all and NO self-review attestation still passes for structural repair,
-    # proving its policy was not narrowed or otherwise changed by this PR.
-    ok12, key12, _ = wp.drift_ok_for_type(wp.STRUCTURAL_TYPE,
+    # all and NO self-review attestation still passes for structural repair.
+    ok18, key18, _ = wp.drift_ok_for_type(wp.STRUCTURAL_TYPE, "49b",
                                            _prof("INSUFFICIENT-ANCHORS", []), None)
-    check("12. rashi-structural-repair keeps its own unconditional haiku-safe policy",
-          ok12 and key12 is None)
+    check("18. rashi-structural-repair keeps its own unconditional haiku-safe policy",
+          ok18 and key18 is None)
 
-    # Full dispatch sanity: the anchor-poor-safe path reports its own
-    # distinct condition key (not silently folded into drift-profile-ALIGNED).
-    okA, keyA, noteA = wp.drift_ok_for_type("rashi-reconstruction",
-                                             _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
-    check("dispatch: anchor-poor-safe reports its own distinct condition key",
-          okA and keyA == "anchor-poor-safe" and "anchor-poor-safe" in noteA)
-    okB, keyB, noteB = wp.drift_ok_for_type("rashi-realignment",
-                                             _prof("INSUFFICIENT-ANCHORS", []), good_sr)
-    check("dispatch: a failing exception attempt still reports the distinct key (for visibility)",
-          not okB and keyB == "anchor-poor-safe")
+    # Full dispatch sanity: each tier reports its own distinct condition key.
+    okA, keyA, noteA = wp.drift_ok_for_type("rashi-reconstruction", "48b",
+                                             _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr1)
+    check("dispatch: one-anchor-safe reports its own distinct condition key",
+          okA and keyA == "one-anchor-safe" and "ONE-ANCHOR-SAFE" in noteA)
+    okC, keyC, noteC = wp.drift_ok_for_type("rashi-realignment", "49b",
+                                             _prof("INSUFFICIENT-ANCHORS", []), good_sr0)
+    check("dispatch: zero-anchor-safe reports its own distinct condition key",
+          okC and keyC == "zero-anchor-safe" and "ZERO-ANCHOR-SAFE" in noteC)
+    okB, keyB, noteB = wp.drift_ok_for_type("rashi-realignment", "49b",
+                                             _prof("INSUFFICIENT-ANCHORS", []), None)
+    check("dispatch: a failing zero-anchor attempt still reports the distinct key (for visibility)",
+          not okB and keyB == "zero-anchor-safe")
+
+
+def test_campaign_capability_scan():
+    print("campaign capability scan (read-only, never edits content):")
+
+    # 19. Detects ZERO, ONE, and MULTI targets using real corpus daf.
+    r_zero = wp.capability_report_for("49b")
+    check("19a. 49b classified ZERO", r_zero["cardinality"] == "ZERO", r_zero)
+    r_one = wp.capability_report_for("48b")
+    check("19b. 48b classified ONE", r_one["cardinality"] == "ONE", r_one)
+    r_multi = wp.capability_report_for("47a")
+    check("19c. 47a classified MULTI", r_multi["cardinality"] == "MULTI", r_multi)
+
+    # Both ZERO and ONE cardinality daf are supported final states (the
+    # evidence-tier policy exists precisely to cover them); a real daf with
+    # a nonexistent source is unsupported.
+    check("19d. ZERO cardinality is a supported final state", r_zero["supported"])
+    check("19e. ONE cardinality is a supported final state", r_one["supported"])
+    r_missing = wp.capability_report_for("999z")
+    check("19f. nonexistent daf reports unsupported with an explanatory issue",
+          not r_missing["supported"] and r_missing["issues"])
+
+    # 20. The scan blocks (nonzero exit) before content work when any
+    # target is unsupported, and passes when every target is supported.
+    with tempfile.TemporaryDirectory() as td:
+        rr_bad = subprocess.run([sys.executable, "scripts/worker_pipeline.py",
+                                  "capability-scan", "--targets", "48b,999z"],
+                                 capture_output=True, text=True, cwd=REPO)
+        check("20a. scan exits nonzero when any target is unsupported",
+              rr_bad.returncode != 0 and "UNSUPPORTED" in rr_bad.stdout)
+        rr_good = subprocess.run([sys.executable, "scripts/worker_pipeline.py",
+                                   "capability-scan", "--targets", "48b,49b,47a"],
+                                  capture_output=True, text=True, cwd=REPO)
+        check("20b. scan exits 0 when every target is supported",
+              rr_good.returncode == 0 and "OK: all 3 target" in rr_good.stdout)
+        check("20c. scan never edits content (working tree untouched)",
+              subprocess.run(["git", "status", "--short",
+                               "modules/yoma/assets/learning/yoma/48b.learning.json"],
+                              capture_output=True, text=True, cwd=REPO).stdout.strip() == "")
+
+    # 21. The remaining 49b-52b queue passes capability preflight once the
+    # anchor-poor content work has landed for 49b (its content is already
+    # merged to main by the time this tooling PR is authored); 50a-52b are
+    # still FABRICATION-SUSPECT at this point (content work pending), which
+    # is itself a reported (not unsupported) capability-scan state: the
+    # scan flags it as an issue but the daf remains representable once
+    # content work reconstructs it into an ALIGNED/one/zero-anchor state.
+    for daf in ("50a", "50b", "51a", "51b", "52a", "52b"):
+        r = wp.capability_report_for(daf)
+        check(f"21. {daf} capability-scanned without crashing (cardinality {r.get('cardinality')})",
+              "cardinality" in r)
 
 
 def test_no_direct_main_push_anywhere():
@@ -495,7 +616,8 @@ def main():
     test_prompt()
     test_queue()
     test_structural_repair_type()
-    test_anchor_poor_safe()
+    test_evidence_tiers()
+    test_campaign_capability_scan()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:

@@ -44,13 +44,19 @@ MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
                "placeholder-backfill", "rashi-structural-repair"}
 STRUCTURAL_TYPE = "rashi-structural-repair"
-# Task types eligible for the narrow anchor-poor-safe review-gate exception
-# (see anchor_poor_safe below). Deliberately excludes rashi-structural-repair,
+# Task types eligible for the source-relative citation-evidence policy (see
+# drift_ok_for_type below). Deliberately excludes rashi-structural-repair,
 # which already has its own, broader, unconditional haiku-safe allowance.
-ANCHOR_POOR_TYPES = ("rashi-reconstruction", "rashi-realignment")
-ANCHOR_POOR_ATTESTATION_KEYS = (
+EVIDENCE_TIER_TYPES = ("rashi-reconstruction", "rashi-realignment")
+ONE_ANCHOR_ATTESTATION_KEYS = (
     "onlyOneGenuineCitation",
     "citationTranslatedOnOwnLine",
+    "noCitationInventedMovedOrDuplicated",
+    "noSemanticUncertaintyRemains",
+)
+ZERO_ANCHOR_ATTESTATION_KEYS = (
+    "everyRawLineRereadForCitations",
+    "noTractateDafChapterVerseOrOtherCitationAnywhere",
     "noCitationInventedMovedOrDuplicated",
     "noSemanticUncertaintyRemains",
 )
@@ -720,34 +726,74 @@ def evaluate_review_policy(conditions):
     return (not failed, failed)
 
 
-def anchor_poor_safe(prof, sr):
-    """Narrow, purely-mechanical exception (Yoma 48b class of daf): a
-    rashi-reconstruction/realignment daf whose raw Hebrew genuinely
-    contains only one detectable citation may substitute for ALIGNED
-    when ALL of the following hold, computed only from the drift
-    profile and the fresh self-review (no file I/O, no git):
+def independent_zero_citation_scan(daf):
+    """A SECOND, independent check that a daf's raw Hebrew contains no
+    citation-like text at all, deliberately not reusing anchors_of()'s
+    per-line/lookahead/tractate-name-matching logic: scans the ENTIRE
+    concatenated raw text for any parenthetical group whatsoever,
+    whether or not its contents match a known tractate name or a daf
+    number. Catches citation-like tokens (an unrecognized abbreviation,
+    an "(ibid)"-style reference, a verse citation format anchors_of does
+    not model) that a zero-anchor profile from the primary scanner could
+    otherwise miss. Returns (ok: bool, detail: str)."""
+    tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
+    if not tpath.exists():
+        return False, f"no talmuddev source for {daf}"
+    raw = [l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()]
+    whole = " ".join(raw)
+    hits = re.findall(r"\(([^()]{1,60})\)", whole)
+    if hits:
+        return False, f"parenthetical citation-like text found: {hits[:5]}"
+    return True, "no parenthetical citation-like text anywhere in the raw Hebrew"
 
-      1. prof['anchors'] has exactly one entry (exactly one genuine
-         detectable citation exists anywhere in the raw Hebrew).
+
+def multi_anchor_safe(prof):
+    """Case A: 2+ genuine anchors. Stricter than the bare ALIGNED label
+    (which the classifier also grants to a daf with anchors still
+    missing, e.g. 2 found + 2 missing): requires the classification
+    itself be ALIGNED, every expected anchor found, zero missing, and
+    every found offset exactly 0. Returns (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    cls = prof.get("classification")
+    if cls != "ALIGNED":
+        return False, f"classification is {cls}, not ALIGNED"
+    if len(prof.get("anchors", [])) < 2:
+        return False, "fewer than 2 genuine anchors (not a multi-anchor daf)"
+    if prof.get("anchorsMissing", 1) != 0:
+        return False, f"{prof.get('anchorsMissing')} expected anchor(s) missing"
+    bad_offsets = [o for o in prof.get("offsets", []) if o != 0]
+    if bad_offsets:
+        return False, f"offset(s) not exactly 0: {bad_offsets}"
+    return True, "classification ALIGNED, every expected anchor found, zero missing, all offsets 0"
+
+
+def one_anchor_safe(prof, sr):
+    """Case B (Yoma 48b class of daf): a rashi-reconstruction/realignment
+    daf whose raw Hebrew genuinely contains exactly one detectable
+    citation may substitute for ALIGNED when ALL of the following hold,
+    computed only from the drift profile and the fresh self-review (no
+    file I/O, no git):
+
+      1. prof['anchors'] has exactly one entry.
       2. that entry's offset is not None (it is found in the English).
       3. that entry's offset is exactly 0 (no displacement).
       4. prof['anchorsMissing'] is 0 (no expected anchor is missing).
-      5. the self-review carries an 'anchorPoorAttestation' block with
-         all of ANCHOR_POOR_ATTESTATION_KEYS explicitly true.
+      5. the self-review carries an 'oneAnchorAttestation' (or the
+         legacy 'anchorPoorAttestation') block with all of
+         ONE_ANCHOR_ATTESTATION_KEYS explicitly true.
 
     SHIFTED requires >= SHIFT_MIN_ANCHORS (2) same-sign displaced
     anchors and FABRICATION-SUSPECT requires >= FAB_MIN_CONSECUTIVE_MISSES
     (2) consecutive missing name anchors, so condition 1 alone already
     excludes both classifications from ever qualifying; this function
-    never reclassifies or relabels the daf, it only decides whether the
-    merge gate may accept INSUFFICIENT-ANCHORS in its place. Returns
-    (ok: bool, reason: str)."""
+    never reclassifies or relabels the daf. Returns (ok: bool, reason: str)."""
     if not prof:
         return False, "no drift profile available"
     anchors = prof.get("anchors", [])
     if len(anchors) != 1:
         return False, (f"{len(anchors)} genuine detectable citation(s) in the raw Hebrew "
-                        "(the exception requires exactly 1)")
+                        "(this tier requires exactly 1)")
     offset = anchors[0].get("offset")
     if offset is None:
         return False, "the single citation is not found anywhere in the English"
@@ -755,35 +801,86 @@ def anchor_poor_safe(prof, sr):
         return False, f"the single citation is found at offset {offset}, not 0"
     if prof.get("anchorsMissing", 1) != 0:
         return False, f"{prof.get('anchorsMissing')} expected citation(s) missing"
-    att = (sr or {}).get("anchorPoorAttestation") or {}
-    missing_att = [k for k in ANCHOR_POOR_ATTESTATION_KEYS if att.get(k) is not True]
+    att = (sr or {}).get("oneAnchorAttestation") or (sr or {}).get("anchorPoorAttestation") or {}
+    missing_att = [k for k in ONE_ANCHOR_ATTESTATION_KEYS if att.get(k) is not True]
     if missing_att:
-        return False, f"self-review anchorPoorAttestation missing or false: {missing_att}"
+        return False, f"self-review oneAnchorAttestation missing or false: {missing_att}"
     return True, ("exactly one genuine citation, found at offset 0, no missing anchors, "
                   "self-review attests no invented/moved/duplicated citation")
 
 
-def drift_ok_for_type(m_type, prof, sr):
-    """Pure dispatch: does the post-edit drift profile satisfy this task
-    type's merge bar? Never mutates prof/sr and performs no I/O, so it is
-    directly unit-testable. Returns (ok, extra_condition_key_or_None,
-    note) where extra_condition_key_or_None is a SECOND condition name
-    to add to the conditions dict (reported as its own PASS/FAIL line)
-    only when the anchor-poor-safe exception is what actually decided
-    the outcome; note is an empty string when there is nothing to add."""
+def zero_anchor_safe(daf, prof, sr, entries=None):
+    """Case C: a rashi-reconstruction/realignment daf whose raw Hebrew
+    genuinely contains ZERO detectable citations of any kind. Citation
+    anchors are corroborating evidence, not a mandatory content feature,
+    so their absence must not automatically imply correctness; this tier
+    therefore requires a stronger full-daf attestation than the one- or
+    multi-anchor tiers, computed from the drift profile, an independent
+    second source scan, the fresh self-review, and (when provided) the
+    daf's own entries. Returns (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    if prof.get("classification") != "INSUFFICIENT-ANCHORS":
+        return False, f"classification is {prof.get('classification')}, not INSUFFICIENT-ANCHORS"
+    anchors = prof.get("anchors", [])
+    if anchors:
+        return False, f"{len(anchors)} genuine detectable citation(s) exist (this tier requires 0)"
+    scan_ok, scan_detail = independent_zero_citation_scan(daf)
+    if not scan_ok:
+        return False, f"independent second scan disagrees: {scan_detail}"
+    att = (sr or {}).get("zeroAnchorAttestation") or {}
+    missing_att = [k for k in ZERO_ANCHOR_ATTESTATION_KEYS if att.get(k) is not True]
+    if missing_att:
+        return False, f"self-review zeroAnchorAttestation missing or false: {missing_att}"
+    if entries is not None:
+        empty_vl = {e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")}
+        authorized = {a.get("vilnaLine") for a in (sr or {}).get("authorizedEmptyLinks", [])
+                      if a.get("rule")}
+        unauthorized = sorted(empty_vl - authorized)
+        if unauthorized:
+            return False, (f"empty linkedGemaraLineIds on vilnaLine {unauthorized} without an "
+                            "authorizedEmptyLinks entry citing a documented boundary rule")
+    return True, ("two independent scans confirm zero citations anywhere in the raw Hebrew, "
+                  "self-review attests every line was reread with no uncertainty")
+
+
+def drift_ok_for_type(m_type, daf, prof, sr, entries=None):
+    """Pure dispatch (file I/O limited to the one independent-scan read
+    inside zero_anchor_safe; no git): does the post-edit drift profile
+    satisfy this task type's merge bar? Returns (ok, extra_condition_key_
+    or_None, note) where extra_condition_key_or_None is a SECOND
+    condition name to add to the conditions dict (its own PASS/FAIL
+    line) only when an evidence tier is what actually decided the
+    outcome; note is an empty string when there is nothing to add."""
     cls = prof["classification"] if prof else "NO-PROFILE"
     if m_type == STRUCTURAL_TYPE:
         ok = bool(prof) and prof.get("haikuSafe", False)
         note = "" if ok else f"post-edit drift profile is {cls}, not haiku-safe"
         return ok, None, note
-    if m_type in ANCHOR_POOR_TYPES and cls != "ALIGNED":
-        ok, reason = anchor_poor_safe(prof, sr)
-        if ok:
-            return True, "anchor-poor-safe", (
-                f"anchor-poor-safe: {reason} (classification remains {cls}, not relabeled ALIGNED)")
-        return False, "anchor-poor-safe", (
-            f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
-            f"anchor-poor-safe exception: {reason}")
+    if m_type in EVIDENCE_TIER_TYPES:
+        n_anchors = len(prof.get("anchors", [])) if prof else -1
+        if n_anchors >= 2:
+            ok, reason = multi_anchor_safe(prof)
+            note = "" if ok else (f"post-edit drift profile is {cls}, not ALIGNED, and does not "
+                                   f"satisfy the multi-anchor evidence tier: {reason}")
+            return ok, None, note
+        if n_anchors == 1:
+            ok, reason = one_anchor_safe(prof, sr)
+            if ok:
+                return True, "one-anchor-safe", (
+                    f"ONE-ANCHOR-SAFE: {reason} (classification remains {cls}, not relabeled ALIGNED)")
+            return False, "one-anchor-safe", (
+                f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
+                f"one-anchor-safe evidence tier: {reason}")
+        if n_anchors == 0:
+            ok, reason = zero_anchor_safe(daf, prof, sr, entries)
+            if ok:
+                return True, "zero-anchor-safe", (
+                    f"ZERO-ANCHOR-SAFE: {reason} (classification remains {cls}, not relabeled ALIGNED)")
+            return False, "zero-anchor-safe", (
+                f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
+                f"zero-anchor-safe evidence tier: {reason}")
+        return False, None, "no drift profile available"
     ok = cls == "ALIGNED"
     note = "" if ok else f"post-edit drift profile is {cls}, not ALIGNED"
     return ok, None, note
@@ -881,11 +978,13 @@ def gather_review_conditions(m, spec, base):
         notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
 
     # Post-edit drift: realignment/reconstruction must restore full
-    # alignment (ALIGNED), or qualify for the narrow anchor-poor-safe
-    # exception (see anchor_poor_safe); structural repair on an
-    # anchor-poor daf keeps its own, broader, unconditional haiku-safe
-    # allowance. drift_ok_for_type never mutates the classification
-    # itself and never accepts SHIFTED or FABRICATION-SUSPECT.
+    # alignment (ALIGNED, tightened to zero missing anchors and all
+    # offsets exactly 0), or qualify for the one-anchor-safe or
+    # zero-anchor-safe evidence tier (see drift_ok_for_type); structural
+    # repair on an anchor-poor daf keeps its own, broader, unconditional
+    # haiku-safe allowance. drift_ok_for_type never mutates the
+    # classification itself and never accepts SHIFTED or
+    # FABRICATION-SUSPECT.
     prof = ars.profile_daf(target, ars.load_allowlisted())
     sr_for_drift = None
     if SELF_REVIEW_PATH.exists():
@@ -893,7 +992,7 @@ def gather_review_conditions(m, spec, base):
             sr_for_drift = json.loads(SELF_REVIEW_PATH.read_text())
         except json.JSONDecodeError:
             sr_for_drift = None
-    ok, extra_key, note = drift_ok_for_type(m["type"], prof, sr_for_drift)
+    ok, extra_key, note = drift_ok_for_type(m["type"], target, prof, sr_for_drift, entries)
     conditions["drift-profile-ALIGNED"] = ok
     if extra_key:
         conditions[extra_key] = ok
@@ -1075,7 +1174,12 @@ def cmd_queue(opts):
     if remaining:
         nxt = remaining[0]
         print(f"\nNext target: {nxt}. One PR for this daf only. Before starting, verify the")
-        print("previous merge's deploy workflows are green. Command sequence:")
+        print("previous merge's deploy workflows are green, then run the read-only capability")
+        print("scan across the remaining queue once per campaign (not per daf) to catch any")
+        print("unsupported anchor-cardinality or packet-completeness state before content work:")
+        print(f"  npm run worker:capability-scan -- --targets {','.join(remaining)}")
+        print("If it reports UNSUPPORTED for any target, stop and escalate; do not edit content")
+        print("for that daf until the tooling gap is resolved. Otherwise, command sequence:")
         print(f"  npm run worker:manifest -- --type {q['type']} --module {q['module']} "
               f"--range {nxt} --out .worker-manifest.json")
         print("  npm run worker:preflight -- --manifest .worker-manifest.json")
@@ -1089,6 +1193,137 @@ def cmd_queue(opts):
     else:
         print("\nQueue complete. No queue-state commit is needed and the tree stays clean:")
         print("completion is derived from merged PR evidence, never pushed to main.")
+
+
+# ---------------- capability-scan ----------------
+
+def capability_report_for(daf):
+    """Read-only per-daf capability assessment: never edits content.
+    Classifies the daf's raw Hebrew by anchor cardinality (ZERO, ONE,
+    MULTI), confirms packet/local-segment completeness, and states
+    whether the current review-gate tiers can represent a legitimate
+    AUTO-MERGE-ELIGIBLE final state for it. Returns a plain dict (JSON-
+    serializable) so a whole queue's results can be reported together."""
+    sys.path.insert(0, str(YSCRIPTS))
+    import make_rashi_work_packet as mrwp
+    import audit_rashi_semantic as ars
+
+    tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
+    lpath = YROOT / "assets" / "learning" / "yoma" / f"{daf}.learning.json"
+    entry = {"daf": daf, "supported": False, "issues": []}
+    if not tpath.exists():
+        entry["issues"].append("no talmuddev source")
+        return entry
+    if not lpath.exists():
+        entry["issues"].append("no learning JSON")
+        return entry
+
+    try:
+        raw = [l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()]
+    except json.JSONDecodeError as ex:
+        entry["issues"].append(f"talmuddev source unparseable: {ex}")
+        return entry
+    try:
+        trans = json.loads(lpath.read_text()).get("rashiTranslations", [])
+    except json.JSONDecodeError as ex:
+        entry["issues"].append(f"learning JSON unparseable: {ex}")
+        return entry
+
+    entry["rawCount"] = len(raw)
+    entry["translationCount"] = len(trans)
+    if len(raw) != len(trans):
+        entry["issues"].append(f"raw count {len(raw)} != translation count {len(trans)}")
+    seq_ok = [e.get("vilnaLine") for e in trans] == list(range(1, len(raw) + 1))
+    entry["sequenceOk"] = seq_ok
+    if not seq_ok:
+        entry["issues"].append("vilnaLine sequence does not match 1..raw count")
+
+    try:
+        segs = mrwp.local_segments_for(daf)
+        entry["localSegmentIds"] = len(segs)
+        empty_he = [s["id"] for s in segs if not (s.get("he") or "").strip()]
+        if empty_he:
+            entry["issues"].append(f"local segment(s) with empty Hebrew text: {empty_he}")
+        if not segs:
+            entry["issues"].append("zero local segment ids (packet cannot anchor any link)")
+    except Exception as ex:  # noqa: BLE001 - report, never crash the scan
+        entry["issues"].append(f"packet/local-segment extraction failed: {ex}")
+
+    prof = ars.profile_daf(daf, ars.load_allowlisted())
+    if not prof:
+        entry["issues"].append("no drift profile available")
+        return entry
+    n_anchors = len(prof.get("anchors", []))
+    entry["classification"] = prof["classification"]
+    entry["anchorCount"] = n_anchors
+    entry["anchorsFound"] = prof.get("anchorsFound")
+    entry["anchorsMissing"] = prof.get("anchorsMissing")
+    entry["cardinality"] = "ZERO" if n_anchors == 0 else ("ONE" if n_anchors == 1 else "MULTI")
+
+    if prof["classification"] == "SHIFTED":
+        entry["issues"].append("current profile is SHIFTED (needs rashi-realignment content work first)")
+    elif prof["classification"] == "FABRICATION-SUSPECT":
+        entry["issues"].append("current profile is FABRICATION-SUSPECT (needs rashi-reconstruction "
+                                "content work first)")
+
+    if entry["cardinality"] == "ZERO":
+        scan_ok, scan_detail = independent_zero_citation_scan(daf)
+        entry["independentZeroScan"] = scan_detail
+        if not scan_ok:
+            entry["issues"].append(f"independent second scan disagrees with ZERO cardinality: "
+                                    f"{scan_detail}")
+
+    entry["supportedFinalStates"] = {
+        "ZERO": "zero-anchor-safe (requires full-daf self-review attestation)",
+        "ONE": "one-anchor-safe (requires one-anchor self-review attestation)",
+        "MULTI": "multi-anchor-safe (requires ALIGNED, zero missing, all offsets 0)",
+    }[entry["cardinality"]]
+    entry["supported"] = not any(
+        "unparseable" in i or "no talmuddev" in i or "no learning JSON" in i
+        or "no drift profile" in i or "empty Hebrew text" in i
+        or "zero local segment ids" in i or "independent second scan disagrees" in i
+        for i in entry["issues"])
+    return entry
+
+
+def cmd_capability_scan(opts):
+    """Read-only preflight over an entire target list (or the tracked
+    queue): classifies every daf by anchor cardinality, confirms packet
+    and local-segment completeness, and states whether the review-gate
+    evidence tiers can represent a legitimate final state for it. Never
+    edits content. Exits 1 if any target is unsupported, so a campaign
+    can be blocked before the first content PR rather than discovering a
+    tooling gap mid-queue."""
+    if opts.targets:
+        targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
+    else:
+        qpath = Path(opts.file) if opts.file else QUEUE_PATH
+        if not qpath.exists():
+            sys.exit(f"ERROR: no --targets given and no queue at {qpath}")
+        targets = json.loads(qpath.read_text())["targets"]
+
+    report = [capability_report_for(d) for d in targets]
+    unsupported = [r for r in report if not r["supported"]]
+
+    print(f"Campaign capability scan ({len(targets)} target(s)):\n")
+    for r in report:
+        status = "OK" if r["supported"] else "UNSUPPORTED"
+        card = r.get("cardinality", "?")
+        print(f"  {status:11s} {r['daf']:6s} cardinality={card:5s} "
+              f"raw={r.get('rawCount', '?')} trans={r.get('translationCount', '?')} "
+              f"segIds={r.get('localSegmentIds', '?')} class={r.get('classification', '?')}")
+        for issue in r["issues"]:
+            print(f"               note: {issue}")
+
+    if opts.json:
+        print("\n" + json.dumps(report, indent=1))
+
+    if unsupported:
+        print(f"\n{len(unsupported)} unsupported target(s): {[r['daf'] for r in unsupported]}")
+        print("FAILED: campaign cannot represent a legitimate final state for every target above.")
+        sys.exit(1)
+    print(f"\nOK: all {len(targets)} target(s) can reach a supported final review-gate state "
+          "(ZERO/ONE/MULTI anchor cardinality all covered).")
 
 
 # ---------------- schema-matrix ----------------
@@ -1355,6 +1590,12 @@ def main():
     p.add_argument("--evidence", default=None,
                    help="test override: read merged-manifest evidence from FILE instead of origin/main")
 
+    p = sub.add_parser("capability-scan")
+    p.add_argument("--targets", default=None,
+                   help="comma-separated daf list; defaults to the tracked queue's targets")
+    p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
+    p.add_argument("--json", action="store_true")
+
     p = sub.add_parser("report")
     p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
 
@@ -1367,7 +1608,8 @@ def main():
     {"manifest": cmd_manifest, "preflight": cmd_preflight, "packet": cmd_packet,
      "prompt": cmd_prompt, "verify": cmd_verify, "scope": cmd_scope,
      "ci-check": cmd_ci_check, "report": cmd_report, "review": cmd_review,
-     "queue": cmd_queue, "schema-matrix": cmd_schema_matrix, "docs": cmd_docs}[opts.cmd](opts)
+     "queue": cmd_queue, "capability-scan": cmd_capability_scan,
+     "schema-matrix": cmd_schema_matrix, "docs": cmd_docs}[opts.cmd](opts)
 
 
 if __name__ == "__main__":
