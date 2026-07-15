@@ -177330,11 +177330,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 1,
         he: "שעם. מין גומא שקורין פוי\"י: בתענית צבור. הנגזר על הגשמים",
-        en: "Rashi: cork sandal on Yom Kippur - minimal protection raises the definitional question.",
+        en: "'Cork' - a type of reed called 'poyi.' New comment: 'on a public fast' - decreed on account of rains",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l01"
+        ]
       },
       {
         id: "rashi-yoma-078b-002",
@@ -177342,11 +177344,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 2,
         he: "דתנן במסכת תענית (דף יב:) אסור בנעילת הסנדל: בדהיטני.",
-        en: "Rashi: the definition of a sandal for purposes of the YK prohibition.",
+        en: "as we learned in Tractate Ta'anit (12b): it is forbidden to wear a sandal. New comment: 'bedihitanei' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l01"
+        ]
       },
       {
         id: "rashi-yoma-078b-003",
@@ -177354,11 +177358,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 3,
         he: "מין שעם: בדהוצי. סנדל של כפות תמרים: בדיבלי. של עשבים:",
-        en: "Rashi: children are exempt from the five afflictions on Yom Kippur.",
+        en: "a type of cork. New comment: 'bedihutzei' - a sandal of palm branches. New comment: 'bedivlei' - of grasses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l01"
+        ]
       },
       {
         id: "rashi-yoma-078b-004",
@@ -177366,11 +177372,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 4,
         he: "יוצא בקב שלו. בשבת קב אשקצ\"א: ורבי יוסי אוסר.  קסבר",
-        en: "Rashi: children may wear shoes since the affliction rule does not apply to them.",
+        en: "'he goes out with his kav' - on Shabbat, a peg-leg is called 'ashkatza' in the vernacular. New comment: 'and Rabbi Yosei forbids' - he holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-005",
@@ -177378,11 +177386,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 5,
         he: "לאו מנעל הוא הואיל ואינו שוה בכל",
-        en: "Rashi: a king may wear shoes on Yom Kippur for the dignity of royalty.",
+        en: "it is not a shoe, since it is not uniform for everyone,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-006",
@@ -177390,11 +177400,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 6,
         he: "ואפילו הכי שוין שאסור לצאת בו ביום",
-        en: "Rashi: the principle of kevod hamelech - royal dignity as a halachic category.",
+        en: "and even so they agree it is forbidden to go out with it on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-007",
@@ -177402,11 +177414,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 7,
         he: "הכפורים אלמא אף על גב דלרבי",
-        en: "Rashi: the date-bulk measure for Yom Kippur eating liability.",
+        en: "Yom Kippur - so this shows that even though according to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-008",
@@ -177414,11 +177428,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 8,
         he: "יוסי לאו מנעל הוא אפי' הכי אסיר",
-        en: "Rashi: the kotevet (large date) is the specific measure for YK.",
+        en: "Yosei it is not a shoe, even so it is forbidden,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-009",
@@ -177426,11 +177442,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 9,
         he: "והוא הדין לשל שעם: כתיתין.",
-        en: "Rashi explains the opening discussion of this topic on 78b.",
+        en: "and the same applies to one of cork. New comment: 'ktitin' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-010",
@@ -177438,11 +177456,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 10,
         he: "חתיכות בגדים קטנות שהם נוחות",
-        en: "Rashi explains the opening discussion of this topic on 78b.",
+        en: "small pieces of clothing that are comfortable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10"
+        ]
       },
       {
         id: "rashi-yoma-078b-011",
@@ -177450,11 +177470,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 11,
         he: "לו לסמוך שוקו עליהם: טמא.",
-        en: "Rashi explains the opening discussion of this topic on 78b.",
+        en: "for him to rest his leg upon. New comment: 'impure' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l10",
+          "yoma-078b-l14"
+        ]
       },
       {
         id: "rashi-yoma-078b-012",
@@ -177462,11 +177485,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 12,
         he: "מקבל טומאה דלאו פשוטי כלי עץ",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "it is susceptible to impurity, since it is not a plain wooden vessel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l14"
+        ]
       },
       {
         id: "rashi-yoma-078b-013",
@@ -177474,11 +177499,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 13,
         he: "הוא: מנעל הוא. הלכך ביוה\"כ",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'it is a shoe' - therefore on Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l14",
+          "yoma-078b-l20"
+        ]
       },
       {
         id: "rashi-yoma-078b-014",
@@ -177486,11 +177514,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 14,
         he: "אסור אבל דהיטני ודהוצא לאו מנעל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "it is forbidden, but dehitanei and dehutza are not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l20"
+        ]
       },
       {
         id: "rashi-yoma-078b-015",
@@ -177498,11 +177528,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 15,
         he: "נינהו: מותרין בכולן. בכל הני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "shoes. New comment: 'they are permitted in all of them' - in all these",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l20",
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-016",
@@ -177510,11 +177543,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 16,
         he: "דמתניתין אכילה ושתיה ורחיצה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of the Mishnah: eating, drinking, washing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-017",
@@ -177522,11 +177557,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 17,
         he: "וסיכה: אינשי עבדו ליה. גדולים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and anointing. New comment: 'people did it for him' - adults",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-018",
@@ -177534,11 +177571,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 18,
         he: "עשו לו והתורה הזהירה גדולים על",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "did it for him, and the Torah cautioned adults regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-019",
@@ -177546,11 +177585,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 19,
         he: "הקטנים שלא יעשו להם בידים דבר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "minors, that they should not actively do to them a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-020",
@@ -177558,11 +177599,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 20,
         he: "האסור כדאמרינן במסכת יבמות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "forbidden matter, as we say in Tractate Yevamot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-021",
@@ -177570,11 +177613,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 21,
         he: "(דף קיד.) לא תאכלום לא תאכילום",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "(114a): 'you shall not eat them' implies 'you shall not feed them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24"
+        ]
       },
       {
         id: "rashi-yoma-078b-022",
@@ -177582,11 +177627,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 22,
         he: "להזהיר גדולים על הקטנים: לא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to caution adults regarding minors. New comment: 'not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l24",
+          "yoma-078b-l28"
+        ]
       },
       {
         id: "rashi-yoma-078b-023",
@@ -177594,11 +177642,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 23,
         he: "אפשר מאתמול. ויהא ישן כל הלילה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "possibly done yesterday - that he would sleep the whole night",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l28"
+        ]
       },
       {
         id: "rashi-yoma-078b-024",
@@ -177606,11 +177656,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 24,
         he: "והם ברגליו: הא מותרין לכתחלה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "with them on his feet. New comment: 'but it teaches permitted ab initio'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l28",
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-025",
@@ -177618,11 +177671,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 25,
         he: "קתני. שאם בא לימלך אומרים לו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "- that if he comes to ask, they tell him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-026",
@@ -177630,11 +177685,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 26,
         he: "האכילהו ורחוץ אותו והאי שפיר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "feed him and wash him, and this one knows well",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-027",
@@ -177642,11 +177699,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 27,
         he: "ידע דהיום עשאו לו: מיא חמימי.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "that it was done for him today. New comment: 'hot water' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-028",
@@ -177654,11 +177713,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 28,
         he: "לרחיצה: ומשחא. לסוך: ביעתא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for washing. New comment: 'and oil' - for anointing. New comment: 'eggs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-029",
@@ -177666,11 +177727,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 29,
         he: "בכותחא. ביצים בכותח: תבורי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in kutach' - eggs in kutach. New comment: 'breaking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-030",
@@ -177678,11 +177741,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 30,
         he: "מאני. להפקיר לו כלים לשבר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "vessels' - to let him freely break vessels",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-031",
@@ -177690,11 +177755,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 31,
         he: "ולמלאות תאותו: מאני גזיזי דפחרא.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and fulfill his desire. New comment: 'cracked pottery vessels' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-032",
@@ -177702,11 +177769,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 32,
         he: "כלים סדוקים של חרם בדמים קלים:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "cracked earthenware vessels, at a cheap price.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l31"
+        ]
       },
       {
         id: "rashi-yoma-078b-033",
@@ -177714,11 +177783,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 33,
         he: "אין מונעין תכשיטין וכו'. ברייתא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'they do not withhold ornaments, etc.' - this is a baraita",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-034",
@@ -177726,11 +177797,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 34,
         he: "היא ומייתינן לה בריש בתולה",
-        en: "Rashi: this is the baraita we bring at the start of 'A virgin is married' in Ketubot:",
+        en: "that we bring at the start of 'A virgin is married' in Ketubot: if one's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-035",
@@ -177738,11 +177811,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 35,
         he: "נישאת בכתובות הרי שהיה טבחו",
-        en: "'If one's animal was slaughtered",
+        en: "animal was slaughtered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-036",
@@ -177754,7 +177829,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-037",
@@ -177766,7 +177843,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-038",
@@ -177778,7 +177857,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-039",
@@ -177790,7 +177871,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-040",
@@ -177802,7 +177885,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-041",
@@ -177810,11 +177895,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 41,
         he: "הכלה מחמת האבל כל שלשים יום",
-        en: "the bride on account of mourning for all thirty days' -",
+        en: "the bride on account of mourning for all thirty days -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41"
+        ]
       },
       {
         id: "rashi-yoma-078b-042",
@@ -177822,11 +177909,14 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 42,
         he: "אלמא כל שלשים בעי' נוי: אם מחמת",
-        en: "Rashi: this proves that adornment is required for all thirty days. 'If because of",
+        en: "so this shows that adornment is required for all thirty days. New comment: 'if because of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l41",
+          "yoma-078b-l44b"
+        ]
       },
       {
         id: "rashi-yoma-078b-043",
@@ -177838,7 +177928,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l44b"
+        ]
       },
       {
         id: "rashi-yoma-078b-044",
@@ -177850,7 +177942,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l44b"
+        ]
       },
       {
         id: "rashi-yoma-078b-045",
@@ -177858,11 +177952,13 @@ const DAF_CONTENT = {
         daf: "78b",
         vilnaLine: 45,
         he: "בגרעינתה",
-        en: "Rashi begins the next comment ('be-gar'inata' - with its pit), opening the following passage.",
+        en: "With its pit (continues on 79a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-078b-l45"
+        ]
       }
     ],
     review: "draft"
