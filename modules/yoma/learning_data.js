@@ -118284,11 +118284,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 1,
         he: "למיעל להדיא. לילך אצל הכותל הצפוני כל אורך ההיכל וכל שעה",
-        en: "The HP enters the Holy of Holies: does he walk along the south wall or enter directly?",
+        en: "'To enter directly' - to walk beside the northern wall the whole length of the Sanctuary, and constantly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-002",
@@ -118296,11 +118298,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 2,
         he: "עיניו נזונות מבית קדשי הקדשים דרך הפריפה שכנגדו: ור' יוסי",
-        en: "Direct entry facing inward is more respectful than approaching from the side.",
+        en: "his eyes would be nourished from the House of the Holy of Holies via the hanging edge opposite him. New comment: 'and Rabbi Yosei'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-003",
@@ -118308,11 +118312,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 3,
         he: "אמר לך חביבין ישראל שלא הצריכן הכתוב לשליח. אלא כל אחד",
-        en: "Yosef of Hutzal raises the question about entering from the right specifically.",
+        en: "would say to you: Israel is beloved, that the verse did not require them to have a messenger - rather, each one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-004",
@@ -118320,11 +118326,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 4,
         he: "ואחד מתפלל על עצמו שנאמר אשר ידעון איש נגע לבבו ופרש כפיו",
-        en: "R. Natan: in the Second Temple there were two curtains separated by one cubit.",
+        en: "and every one prays for himself, as it is stated: 'whoever knows the plague of his own heart, and spreads out his hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-005",
@@ -118332,11 +118340,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 5,
         he: "אל הבית הזה (מלכים א ח) הלכך",
-        en: "The HP walked between the two curtains into the innermost sanctum.",
+        en: "toward this house' (I Kings 8) - therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-006",
@@ -118344,11 +118354,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 6,
         he: "חביב הוא שלוחן ליכנס לפומבי:",
-        en: "The space between the curtains is called bein habeinayim - between the curtains.",
+        en: "their agent is beloved, to enter publicly on their behalf.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l01"
+        ]
       },
       {
         id: "rashi-yoma-052a-007",
@@ -118356,11 +118368,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 7,
         he: "משחרי מאניה. בגדיו משחירין מעשן",
-        en: "The HP carries the incense pan and coal pan through this space.",
+        en: "'his garments become blackened' - his garments become blackened from the smoke of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l02"
+        ]
       },
       {
         id: "rashi-yoma-052a-008",
@@ -118368,11 +118382,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 8,
         he: "המנורה שהשחיר את הכותל: טרקסין.",
-        en: "The HP approaches the kapporet (Ark cover) directly, facing it straight on.",
+        en: "the menorah, which blackened the wall. New comment: 'traksin' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l02",
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-009",
@@ -118380,11 +118397,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 9,
         he: "לשון פנים וחוץ הוא כך ראיתי",
-        en: "Facing the kapporet directly without turning is the most respectful posture.",
+        en: "is a term of 'inside' and 'outside' - so I have seen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-010",
@@ -118392,11 +118411,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 10,
         he: "בתלמוד ירושלמי וראיה לדבר",
-        en: "The kavod principle: when approaching a sacred object, face it directly.",
+        en: "in the Jerusalem Talmud, and proof of the matter is:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-011",
@@ -118404,11 +118425,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 11,
         he: "חסידים הראשונים היו מכניסין",
-        en: "This connects to the general principle of walking right and facing forward in sacred spaces.",
+        en: "the early pious ones would bring in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-012",
@@ -118416,11 +118439,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 12,
         he: "פירותיהן דרך טרקסמון כדי לחייבם",
-        en: "The HP's posture inside the Holy of Holies reflects the maximum possible human deference.",
+        en: "their produce via the side entrance, in order to obligate them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-013",
@@ -118428,11 +118453,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 13,
         he: "במעשר (ברכות דף לה:) למדנו",
-        en: "The cheruvim on the kapporet face each other - the HP enters in their line of sight.",
+        en: "in tithes (Berachot 35b) - we learn from this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04"
+        ]
       },
       {
         id: "rashi-yoma-052a-014",
@@ -118440,11 +118467,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 14,
         he: "שהטרק לשון כניסת פנים הוא: דביר.",
-        en: "The HP positions himself between the kapporet and the entrance to sprinkle the blood.",
+        en: "that 'terek' is a term for entering inside. New comment: 'devir' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l04",
+          "yoma-052a-l05"
+        ]
       },
       {
         id: "rashi-yoma-052a-015",
@@ -118452,11 +118482,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 15,
         he: "היא המחיצה לפני הדביר חלל בית",
-        en: "The sprinkling direction (upward/downward) is toward the kapporet, not away from it.",
+        en: "it is the partition before the devir - the space of the House",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l05"
+        ]
       },
       {
         id: "rashi-yoma-052a-016",
@@ -118464,11 +118496,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 16,
         he: "קדשי הקדשים שהוא לפנים מן",
-        en: "This section establishes the HP's orientation for the blood sprinkling service.",
+        en: "of the Holy of Holies, which is on the inside of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l05"
+        ]
       },
       {
         id: "rashi-yoma-052a-017",
@@ -118476,11 +118510,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 17,
         he: "המחיצה: קחשיב לדידיה. למקום",
-        en: "Everything in the HP's innermost service reflects maximum kavod before the divine presence.",
+        en: "the partition. New comment: 'he counts it for itself' - referring to the place of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l05",
+          "yoma-052a-l13"
+        ]
       },
       {
         id: "rashi-yoma-052a-018",
@@ -118488,11 +118525,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 18,
         he: "המחיצה לבד מן הששים: כותל",
-        en: "The arrangement of the Temple vessels (kapporet, menorah, table) determined the HP's path.",
+        en: "the partition separately from the sixty cubits. New comment: 'the wall of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l13",
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-019",
@@ -118500,11 +118540,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 19,
         he: "אולם. כותל החיצון למטה רוחב",
-        en: "The HP moved carefully to avoid disturbing the sacred vessels.",
+        en: "the Ulam' - the outer wall, below, in width",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-020",
@@ -118512,11 +118554,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 20,
         he: "היסוד והאסקופה ולמעלה מגובה",
-        en: "R. Natan's addition about two curtains is unique to the Second Temple period.",
+        en: "of the foundation and the threshold, and above the height of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-021",
@@ -118524,11 +118568,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 21,
         he: "כיפת הפתח עובי החומה שעולה",
-        en: "In the First Temple there was only one parochet; the second curtain was a Second Temple innovation.",
+        en: "the archway of the entrance, the thickness of the wall that rises",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-022",
@@ -118536,11 +118582,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 22,
         he: "עד ק' אמה לבד רוחב כיפת החלל",
-        en: "The space between the curtains allowed the HP to transition gradually into the most sacred space.",
+        en: "up to a hundred cubits, aside from the width of the archway of the airspace,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-023",
@@ -118548,11 +118596,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 23,
         he: "שהיא י\"א אמה לבד רוחב כיפת",
-        en: "This transition space is itself significant - neither fully inside nor fully outside.",
+        en: "which is eleven cubits, aside from the width of the archway of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-024",
@@ -118560,11 +118610,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 24,
         he: "עובי החומה: והתא שש. יציע",
-        en: "The HP paused between the curtains before entering the full Holy of Holies.",
+        en: "the wall's thickness. New comment: 'and the chamber is six' - a wing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16"
+        ]
       },
       {
         id: "rashi-yoma-052a-025",
@@ -118572,11 +118624,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 25,
         he: "שאחורי בית הכפרת: היכי קאמר",
-        en: "The service inside the Holy of Holies required specific orientation for each act.",
+        en: "that is behind the House of Atonement. New comment: 'how does",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l16",
+          "yoma-052a-l21"
+        ]
       },
       {
         id: "rashi-yoma-052a-026",
@@ -118584,11 +118639,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 26,
         he: "קרא. מי אמרינן ה\"ק ודביר בתוך",
-        en: "The overall principle: every aspect of the innermost service is choreographed for maximum kavod.",
+        en: "the verse mean this' - do we say it means this: 'and the sanctuary within",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l21",
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-027",
@@ -118596,11 +118654,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 27,
         he: "הבית מחיצה עשה שמפסקת בתוך",
-        en: "Rashi's commentary here clarifies the physical layout of the Second Temple's inner sanctum.",
+        en: "the house' - he made a partition that divides within",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-028",
@@ -118608,11 +118668,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 28,
         he: "הבית: מפנימה הכין. ולפנים מאותה",
-        en: "The architectural details are important for understanding how the HP performed the blood service.",
+        en: "the house? New comment: 'on the inside, he prepared' - and on the inside of that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-029",
@@ -118620,11 +118682,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 29,
         he: "מחיצה הכין מקום חללה והזמינו",
-        en: "End of 52a Rashi section; 52b deals with four uncertain biblical terms.",
+        en: "partition he prepared the space of its chamber, and designated it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-030",
@@ -118632,11 +118696,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 30,
         he: "לתת שם את הארון אלמא דביר",
-        en: "The transition from service mechanics (52a) to textual analysis (52b) marks a new discussion.",
+        en: "to place there the Ark - so this shows that the sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-031",
@@ -118644,11 +118710,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 31,
         he: "גופיה לאו מקדושת פנים הוא:",
-        en: "Four words in the Torah have uncertain meanings - their interpretation affects various laws.",
+        en: "itself is not of the sanctity of the inside.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-032",
@@ -118656,11 +118724,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 32,
         he: "או דילמא ה\"ק ודביר בתוך הבית",
-        en: "These four words appear in various contexts including Temple service.",
+        en: "Or perhaps it means this: 'and the sanctuary was within the house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-033",
@@ -118668,11 +118738,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 33,
         he: "מפנימה. דמקום הדביר גופיה",
-        en: "The Gemara's textual analysis on 52b shows that even service laws depend on precise word meanings.",
+        en: "on the inside' - that the place of the sanctuary itself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-034",
@@ -118680,11 +118752,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 34,
         he: "משל פנים הוה ואותו הכין לתתו",
-        en: "Rashi's role on 52b is to clarify the four uncertain words and their halachic implications.",
+        en: "was of the inside, and that same space he prepared to place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24"
+        ]
       },
       {
         id: "rashi-yoma-052a-035",
@@ -118692,11 +118766,14 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 35,
         he: "שם באותה כניסה את הארון: אין",
-        en: "The four uncertain terms: Se'et, Meshukkadim, Mahar, Arur.",
+        en: "there, in that very entry, the Ark. New comment: 'there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l24",
+          "yoma-052a-l26"
+        ]
       },
       {
         id: "rashi-yoma-052a-036",
@@ -118704,11 +118781,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 36,
         he: "להם הכרע. לדעת היכן הן נוטין:",
-        en: "Each has multiple possible meanings and the correct reading affects different laws.",
+        en: "resolution for them' - to know where they lean.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l26"
+        ]
       },
       {
         id: "rashi-yoma-052a-037",
@@ -118716,11 +118795,13 @@ const DAF_CONTENT = {
         daf: "52a",
         vilnaLine: 37,
         he: "שאת",
-        en: "End of 52a Rashi commentary.",
+        en: "Se'et (continues on 52b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052a-l26"
+        ]
       }
     ],
     review: "reviewed"
