@@ -119301,11 +119301,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 1,
         he: "שאת. הלא אם תיטיב שאת (בראשית ד) ולשון סליחה הוא או שאת",
-        en: "Se'et - a word in the tzara'at (skin disease) section with uncertain meaning.",
+        en: "'Se'et' - is it from 'is it not that if you improve, there is se'et' (Genesis 4), and it is a term of forgiveness, or is se'et",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a"
+        ]
       },
       {
         id: "rashi-yoma-052b-002",
@@ -119313,11 +119315,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 2,
         he: "אם לא תיטיב ולשון נשיאות עון הוא: משוקדים. ארבעה גביעים",
-        en: "Meshukkadim - possibly 'almond-shaped' as in the Menorah, but the exact meaning is uncertain.",
+        en: "'if you do not improve' - and it is a term for the bearing of sin. New comment: 'meshukkadim' - the four cups",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-003",
@@ -119325,11 +119330,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 3,
         he: "משוקדים (שמות כה) או משוקדים כפתוריה ופרחיה: מחר. וצא",
-        en: "Mahar - 'tomorrow' or 'soon' - the temporal scope is uncertain in various contexts.",
+        en: "almond-shaped (Exodus 25), or does 'meshukkadim' modify 'its knobs and its flowers'? New comment: 'tomorrow' - 'and go out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-004",
@@ -119337,11 +119344,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 4,
         he: "הלחם בעמלק מחר (שם יז) או צא והלחם בעמלק מיד ומחר אנכי",
-        en: "Arur - 'cursed' - appears in oaths and blessings; exact force of the term is debated.",
+        en: "and fight Amalek tomorrow' (there, 17), or 'go out and fight Amalek at once, and tomorrow I",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-005",
@@ -119349,11 +119358,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 5,
         he: "נצב והיום אי אתה צריך לתפלתי:",
-        en: "These four words were flagged by the Sages as having uncertain meanings that affect halacha.",
+        en: "will stand, and today you do not need my prayer.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-006",
@@ -119361,11 +119372,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 6,
         he: "ארור. וברצונם עקרו שור (בראשית",
-        en: "The tradition of uncertainty was preserved rather than resolved arbitrarily.",
+        en: "'Cursed' - 'and in their willfulness they hamstrung an ox' (Genesis",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-007",
@@ -119373,11 +119387,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 7,
         he: "מט) ארור שור של שכם שהוא",
-        en: "Preserving uncertainty shows intellectual honesty: when the meaning was not clear, it was left open.",
+        en: "49) - cursed be the ox of Shechem, which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-008",
@@ -119385,11 +119402,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 8,
         he: "מארור כנען או ארור אפם כי עז:",
-        en: "The outer parochet (Sanctuary curtain) had hookings (kavim) on the south side.",
+        en: "descends from the cursed Canaan, or cursed be their wrath, for it is fierce.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-009",
@@ -119397,11 +119417,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 9,
         he: "וקם. הנך שוכב עם אבותיך וקם",
-        en: "These hookings held the outer curtain in place and determined the HP's entry path.",
+        en: "'And he shall arise' - 'behold, you shall lie with your fathers, and shall rise up'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-010",
@@ -119409,11 +119432,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 10,
         he: "(דברים לא) וכאן רמז לו תחיית",
-        en: "The HP walked between the two curtains (outer and inner parochet) on the south side.",
+        en: "(Deuteronomy 31), and here it hints at the resurrection of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l01a",
+          "yoma-052b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-052b-011",
@@ -119421,11 +119447,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 11,
         he: "המתים או וקם העם הזה וזנה: ויעלו",
-        en: "The space between the curtains was one cubit wide (per R. Natan on 52a).",
+        en: "the dead; or 'and this people shall rise up and stray.' New comment: 'and they offered up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-012",
@@ -119433,11 +119461,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 12,
         he: "עולות כבשים. ונ\"מ לפסוק כאן את",
-        en: "Josiah hid the Ark of the Covenant when he saw the Temple's destruction was imminent.",
+        en: "burnt-offerings, lambs' - and the practical difference is to place here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-013",
@@ -119445,11 +119475,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 13,
         he: "הטעם באתנחתא או דילמא אידי",
-        en: "He hid it in a chamber beneath the Temple floor so it would not be taken to Babylon.",
+        en: "the cantillation accent at the etnachta, or perhaps both",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-014",
@@ -119457,11 +119489,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 14,
         he: "ואידי פרים ואין אתנחתא בטעם",
-        en: "The Mishna records this tradition: the Ark was not destroyed but concealed.",
+        en: "refer to oxen, and there is no etnachta accent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-015",
@@ -119469,11 +119503,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 15,
         he: "עולות אלא טעם גרש ויעלו",
-        en: "In the Second Temple, the Holy of Holies had no Ark - the HP sprinkled on the even ha-shetiya.",
+        en: "on 'burnt-offerings,' but rather the geresh accent, so it reads 'and they offered up'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-016",
@@ -119481,11 +119517,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 16,
         he: "עולות כדי שיתחבר לשל אחריו:",
-        en: "The even ha-shetiya (foundation stone) was the location where the Ark had stood.",
+        en: "burnt-offerings, so that it joins with what follows it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l05"
+        ]
       },
       {
         id: "rashi-yoma-052b-017",
@@ -119493,11 +119531,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 17,
         he: "מתני' החיצונה פרופה מן",
-        en: "The HP piles incense on the coal pan inside the Holy of Holies.",
+        en: "'Mishnah: the outer curtain was hung from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-018",
@@ -119505,11 +119545,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 18,
         he: "הדרום. רבנן קאמרי לה: פרופה.",
-        en: "He approaches the coal pan from a specific direction - not from in front of it.",
+        en: "the south' - the Rabbis say this. New comment: 'hung' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-019",
@@ -119517,11 +119559,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 19,
         he: "ראשה כפולה לצד החוץ ונאחזת",
-        en: "The incense smoke fills the Holy of Holies before the HP approaches the kapporet location.",
+        en: "its edge was doubled toward the outside, and fastened",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-020",
@@ -119529,11 +119573,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 20,
         he: "בקרס של זהב להיות פתוחה",
-        en: "The smoke cloud is the divine protection ('cloud') required before entering the innermost space.",
+        en: "with a golden hook, so that it would be open",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-021",
@@ -119541,11 +119587,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 21,
         he: "ועומדת: מהלך ביניהן. נכנס",
-        en: "After the smoke fills the space, the HP approaches to sprinkle the blood.",
+        en: "and standing ajar. New comment: 'he walks between them' - he enters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-022",
@@ -119553,11 +119601,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 22,
         he: "בפריפת הדרום ומהלך ביניהן עד",
-        en: "The precise sequence - incense then blood - is mandated by the Torah (Lev. 16).",
+        en: "at the southern hanging-point and walks between them until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-023",
@@ -119565,11 +119615,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 23,
         he: "שמגיע לפריפת הצפון: הגיע",
-        en: "The order cannot be reversed: blood before incense would expose the HP without protection.",
+        en: "he reaches the northern hanging-point. New comment: 'he reached",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-024",
@@ -119577,11 +119629,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 24,
         he: "לצפון. ומשנכנס לתוך החלל",
-        en: "The protective cloud is not just symbolic - it is a legal requirement for the HP's safety.",
+        en: "the north' - and once he entered the chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-025",
@@ -119589,11 +119643,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 25,
         he: "הפך פניו לדרום לילך עד בין",
-        en: "If the HP entered without creating the cloud first, the service is invalid and his life is at risk.",
+        en: "he turned his face to the south, to go until between",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-026",
@@ -119601,11 +119657,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 26,
         he: "הבדים שהם באמצע החלל כדאמר",
-        en: "The Gemara discusses whether the smoke must completely fill the space before blood is sprinkled.",
+        en: "the staves, which were in the middle of the chamber, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-027",
@@ -119613,11 +119671,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 27,
         he: "מר (ב\"ב דף צט.) ארון שעשה משה",
-        en: "The HP must ensure the cloud covers the entire kapporet area before approaching.",
+        en: "the master said (Bava Batra 99a): the Ark that Moshe made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-028",
@@ -119625,11 +119685,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 28,
         he: "היה לו אויר עשרה אמות בבית",
-        en: "This requirement drove the precise measurement of incense - enough to fill the space.",
+        en: "had ten cubits of airspace around it in the House",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-029",
@@ -119637,11 +119699,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 29,
         he: "קדשי הקדשים לכל רוח ורוח:",
-        en: "The incense measurement was calculated to produce the exact amount of smoke needed.",
+        en: "of the Holy of Holies, on every side.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-030",
@@ -119649,11 +119713,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 30,
         he: "מהלך לשמאלו עם הפרוכת. שהמהלך",
-        en: "This section concludes the Mishna description of the incense service inside the Holy of Holies.",
+        en: "'he walks to his left along the curtain' - since one walking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-031",
@@ -119661,11 +119727,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 31,
         he: "מצפון לדרום שמאלו למזרח והפרוכת",
-        en: "The next section (53a) will discuss where exactly the HP placed the incense on the coals.",
+        en: "from north to south has his left toward the east, and the curtain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-032",
@@ -119673,11 +119741,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 32,
         he: "היתה לו למזרח החלל א] לבין שני",
-        en: "Specifically: did he pile it in front of the coal pan or beside it?",
+        en: "was to his east in the chamber, between the two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-033",
@@ -119685,11 +119755,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 33,
         he: "הבדים והבדים היו ארוכים עד",
-        en: "And what was the direction of approach when piling the incense?",
+        en: "staves, and the staves were long, reaching until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-034",
@@ -119697,11 +119769,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 34,
         he: "הפרוכת ראשן אחד למערב והשני",
-        en: "The Sadducee position (53a) is that the HP should pile incense outside before entering.",
+        en: "the curtain, one end to the west and the other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-035",
@@ -119709,11 +119783,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 35,
         he: "למזרח אחד בראש הארון לצפון",
-        en: "The Pharisee/rabbinic position is that he piles it inside - this is the accepted halacha.",
+        en: "to the east, one at the head of the Ark to the north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-036",
@@ -119721,11 +119797,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 36,
         he: "ואחד בראשו לדרום ואורך אמתים",
-        en: "The Sadducee interpretation is rejected; the accepted ruling is incense inside the Holy of Holies.",
+        en: "and one at its head to the south, and the length was two cubits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11"
+        ]
       },
       {
         id: "rashi-yoma-052b-037",
@@ -119733,11 +119811,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 37,
         he: "וחצי של ארון ביניהן: דרך כניסתו.",
-        en: "This dispute between Sadducees and Pharisees about incense timing is a famous halachic debate.",
+        en: "and a half of the Ark's own length between them. New comment: 'by the way he entered' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l11",
+          "yoma-052b-l14"
+        ]
       },
       {
         id: "rashi-yoma-052b-038",
@@ -119745,11 +119826,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 38,
         he: "כשם שנכנס כשהולך לדרום עד",
-        en: "The Gemara on 53a will present the full Sadducee objection and the rabbinic response.",
+        en: "just as he entered, when going toward the south, until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l14"
+        ]
       },
       {
         id: "rashi-yoma-052b-039",
@@ -119757,11 +119840,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 39,
         he: "שהגיע לארון פניו כלפי דרום כך",
-        en: "The rabbinic position is based on the verse structure and logical analysis of the service order.",
+        en: "he reached the Ark, his face was toward the south, so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l14"
+        ]
       },
       {
         id: "rashi-yoma-052b-040",
@@ -119769,11 +119854,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 40,
         he: "כשיצא לא היסב את פניו לצאת אלא",
-        en: "The Sadducee position derives from a different reading of 'and he shall fill his hands.'",
+        en: "when he left, he did not turn his face to leave, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l14"
+        ]
       },
       {
         id: "rashi-yoma-052b-041",
@@ -119781,11 +119868,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 41,
         he: "יוצא דרך אחוריו ופניו לארון: בבית",
-        en: "The resolution on 53a is decisive: the incense is piled inside, not outside, the Holy of Holies.",
+        en: "he exits backward, with his face toward the Ark. New comment: 'in the house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l14"
+        ]
       },
       {
         id: "rashi-yoma-052b-042",
@@ -119793,11 +119882,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 42,
         he: "החיצון. בהיכל: גמ' מי הוו",
-        en: "This concludes the 52b Rashi section; 53a begins the incense placement debate.",
+        en: "the outer' - in the Sanctuary. New comment: 'Gemara: were there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l14",
+          "yoma-052b-l20"
+        ]
       },
       {
         id: "rashi-yoma-052b-043",
@@ -119805,11 +119897,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 43,
         he: "פרוכת. אמה טרקסין הוה: תשימו",
-        en: "Summary of 52b: four uncertain words, curtain hookings, Ark hidden by Josiah, incense piling Mishna.",
+        en: "curtains' - it was the cubit of the partition. New comment: 'you shall place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l20",
+          "yoma-052b-l22"
+        ]
       },
       {
         id: "rashi-yoma-052b-044",
@@ -119817,11 +119912,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 44,
         he: "בארגז מצדו. אלמא גבי ארון הוה",
-        en: "Each topic has architectural, textual, and historical significance for understanding Yom Kippur.",
+        en: "in a chest at its side' - so this shows it was located near the Ark",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l22"
+        ]
       },
       {
         id: "rashi-yoma-052b-045",
@@ -119829,11 +119926,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 45,
         he: "קאי וממילא שמעינן דעמו נגנז:",
-        en: "The Ark's absence explains why Second Temple Yom Kippur was performed toward the foundation stone.",
+        en: "and we thereby learn that it was hidden together with it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l22"
+        ]
       },
       {
         id: "rashi-yoma-052b-046",
@@ -119841,11 +119940,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 46,
         he: "יולך ה' אותך. ודאג שמא יגלה לבבל:",
-        en: "The incense sequence protects the HP - the cloud must precede the blood sprinkling.",
+        en: "'The Lord will lead you' - and he was worried it might be exiled to Babylon.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l27"
+        ]
       },
       {
         id: "rashi-yoma-052b-047",
@@ -119853,11 +119954,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 47,
         he: "תנו את ארון הקדש בבית. והא התם",
-        en: "These details together explain the complete inner-service protocol of the Second Temple HP.",
+        en: "'Place the holy Ark in the house' - but was it not already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l30"
+        ]
       },
       {
         id: "rashi-yoma-052b-048",
@@ -119865,11 +119968,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 48,
         he: "קאי אלא גניזה היא: אתיא שמה",
-        en: "End of 52b Rashi section.",
+        en: "there? Rather, this refers to its hiding away. New comment: 'the verbal analogy of there'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l30",
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-049",
@@ -119877,11 +119983,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 49,
         he: "שמה וכו'. כתיב בארון אשר אועד",
-        en: "The next major section (53a-53b) deals with the incense placement and the Sadducee challenge.",
+        en: "'there, etc.' - it is written regarding the Ark: 'where I will meet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-050",
@@ -119889,11 +119997,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 50,
         he: "לך שמה (שמות ל) וכתיב בצנצנת המן",
-        en: "The Gemara will show that the Sadducee interpretation is textually and logically untenable.",
+        en: "you there' (Exodus 30), and it is written regarding the jar of manna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-051",
@@ -119901,11 +120011,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 51,
         he: "ותן שמה מלא העומר (שם טז.)",
-        en: "The rabbinic position has been the accepted practice and remains so.",
+        en: "'and put there an omer-full' (there, 16),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-052",
@@ -119913,11 +120025,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 52,
         he: "ואתיא צלוחית מצנצנת המן: דורות",
-        en: "The HP's unique access to the Holy of Holies and his precise protocol reflects the most careful sacred law in Judaism.",
+        en: "and the analogy extends to the flask from the jar of manna. New comment: 'generations",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-053",
@@ -119925,11 +120039,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 53,
         he: "דורות. כתיב בצנצנת למשמרת",
-        en: "Every detail discussed in these pages (52a-52b) was essential for the HP's successful service.",
+        en: "generations' - it is written regarding the jar: 'for a keeping",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34",
+          "yoma-052b-l35"
+        ]
       },
       {
         id: "rashi-yoma-052b-054",
@@ -119937,11 +120054,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 54,
         he: "לדורותיכם (שם) וכתיב בצלוחית",
-        en: "A single mistake would invalidate the service; multiple mistakes could cost the HP his life.",
+        en: "for your generations' (there), and it is written regarding the flask",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-055",
@@ -119949,11 +120068,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 55,
         he: "שמן משחת קודש יהיה זה וגו'",
-        en: "The Talmud's extensive discussion of these details reflects the gravity of the service.",
+        en: "'this shall be a sacred anointing oil, etc.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34"
+        ]
       },
       {
         id: "rashi-yoma-052b-056",
@@ -119961,11 +120082,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 56,
         he: "(שם ל) ואתיא מקלו של אהרן",
-        en: "Rashi's commentary makes these details accessible for every generation of learners.",
+        en: "(there, 30), and the analogy extends to Aharon's staff",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l34",
+          "yoma-052b-l35"
+        ]
       },
       {
         id: "rashi-yoma-052b-057",
@@ -119973,11 +120097,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 57,
         he: "מצנצנת במשמרת משמרת דכתיב ביה למשמרת לאות לבני מרי",
-        en: "End of 52b Rashi.",
+        en: "from the jar via the analogy of keeping-keeping, since it is written regarding it: 'as a keeping, as a sign for the rebellious",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l35"
+        ]
       },
       {
         id: "rashi-yoma-052b-058",
@@ -119985,11 +120111,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 58,
         he: "(במדבר יז) : כבין שני הבדים. כאילו היו שם ונותנה ביניהם: תנן.",
-        en: "53a continues with 'not from the front when piling incense' - the approach direction.",
+        en: "(Numbers 17). New comment: 'as if between the two staves' - as if they were there, and he places it between them. New comment: 'we learned' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l35",
+          "yoma-052b-l36"
+        ]
       },
       {
         id: "rashi-yoma-052b-059",
@@ -119997,11 +120126,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 59,
         he: "מתני' כמ\"ד בברייתא דלעיל [דף מט:] צוברה כדי שיהא עשנה שוהה",
-        en: "This is the first major topic on 53a and directly follows the incense Mishna from 52b.",
+        en: "the Mishnah is like the one who says in the baraita above (49b): he piles it so that its smoke lingers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l39"
+        ]
       },
       {
         id: "rashi-yoma-052b-060",
@@ -120009,11 +120140,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 60,
         he: "לבא: תני חדא צוברה פנימה שהיא חוצה לו. מתחיל לצוברה בראש",
-        en: "The transition between 52b and 53a is seamless - the incense service discussion continues.",
+        en: "before rising. New comment: 'one baraita taught: he piles it on the inner side, which is the outer side relative to him' - he begins piling it at the edge",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l39"
+        ]
       },
       {
         id: "rashi-yoma-052b-061",
@@ -120021,11 +120154,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 61,
         he: "המחתה של צד פנים שאותו ראש המחתה אינו לצד ידו והולך ומושך ידו אליו וצובר תמיד במשיכה עד ראש המחתה השני אשר אצל בית",
-        en: "The four uncertain words and Josiah's hiding of the Ark are important theological notes.",
+        en: "of the coal-pan on the inner side, since that edge of the pan is not on the side of his hand, and he goes on drawing his hand toward himself, piling continuously with a drawing motion until the second edge of the pan, which is near the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l39"
+        ]
       },
       {
         id: "rashi-yoma-052b-062",
@@ -120033,11 +120168,14 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 62,
         he: "ידה: ותניא אידך. מתחיל לצוברה בראש הפונה חוצה לצד ההיכל שהיא פנימה לו בצד גופו והולך וצובר תמיד הלאה עד ראש המחתה השני:",
-        en: "They remind us that even in the most precise halachic discussions, larger questions remain.",
+        en: "handle. New comment: 'and another baraita taught' - he begins piling it at the edge facing outward toward the Sanctuary, which is the inner side relative to him, on the side of his body, and he goes on piling continuously forward until the second edge of the pan.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l39",
+          "yoma-052b-l42"
+        ]
       },
       {
         id: "rashi-yoma-052b-063",
@@ -120045,11 +120183,13 @@ const DAF_CONTENT = {
         daf: "52b",
         vilnaLine: 63,
         he: "שלא",
-        en: "The uncertainty of certain words teaches humility; Josiah's hiding of the Ark teaches hope.",
+        en: "Not (continues on 53a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-052b-l42"
+        ]
       }
     ],
     review: "reviewed"
