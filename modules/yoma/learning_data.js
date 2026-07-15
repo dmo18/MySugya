@@ -117174,11 +117174,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 1,
         he: "ותיפוק לי. בעיא דרבי אלעזר דלעיל דפר יוה\"כ דהכהנים בקופיא",
-        en: "'Which is for himself' - the verse designates the Yom Kippur service exclusively for its specified atonement.",
+        en: "'But let him derive it' - this refers to Rabbi Eliezer's dilemma above, that the Yom Kippur bull, whether the priests achieve atonement through it floatingly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l01"
+        ]
       },
       {
         id: "rashi-yoma-051b-002",
@@ -117186,11 +117188,14 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 2,
         he: "הוא דמתכפרי ביה דהא אשר לו כתב ביה תלתא זימני למעוטי ציבור",
-        en: "This phrase resolves R. Elazar's dilemma: the HP cannot use this service for personal votive obligations.",
+        en: "or fixedly - since 'which is his' is written regarding it three times, to exclude the community and his fellow priests when it does not come from their own property,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l02",
+          "yoma-051b-l06"
+        ]
       },
       {
         id: "rashi-yoma-051b-003",
@@ -117198,11 +117203,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 3,
         he: "ואחיו הכהנים דלא מדידהו אתי תלתא אשר לו כתיבי ביה בתרי",
-        en: "The designated atonement is the bull's blood for himself and his household - nothing additional may be incorporated.",
+        en: "and there are three instances of 'which is his' written regarding it, in two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l02"
+        ]
       },
       {
         id: "rashi-yoma-051b-004",
@@ -117210,11 +117217,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 4,
         he: "קראי והקריב אהרן וגו' והקריב תניינא ושחט את פר החטאת אשר",
-        en: "R. Elazar's question is answered: the Yom Kippur service is legally exclusive in both directions.",
+        en: "verses: 'and Aharon shall bring, etc.' and a second time, 'and he shall bring': 'and he shall slaughter the bull of the sin-offering which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l02"
+        ]
       },
       {
         id: "rashi-yoma-051b-005",
@@ -117222,11 +117231,14 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 5,
         he: "לו: אלא שאני בי גזא וכו' גרסינן:",
-        en: "The HP enters the Heikhal (Sanctuary) and walks on the south side - the right side when facing west.",
+        en: "is his.' New comment, textual note: 'rather, Aharon's treasury is different, etc.' - this is the correct reading:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l02",
+          "yoma-051b-l08"
+        ]
       },
       {
         id: "rashi-yoma-051b-006",
@@ -117234,11 +117246,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 6,
         he: "אפקוריה אפקריה. לגבי הך כפרה:",
-        en: "Walking right when entering from the east toward the west is conventional respect (kavod).",
+        en: "'he rendered it ownerless' - with respect to this atonement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l08"
+        ]
       },
       {
         id: "rashi-yoma-051b-007",
@@ -117246,11 +117260,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 7,
         he: "מתני' מהלך בהיכל. נכנס ומהלך",
-        en: "The HP proceeds westward toward the parochet (curtain) leading to the Holy of Holies.",
+        en: "'Mishnah: he walks in the Sanctuary' - he enters and walks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l13"
+        ]
       },
       {
         id: "rashi-yoma-051b-008",
@@ -117258,11 +117274,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 8,
         he: "לתוכו למערב: שתי הפרוכת.",
-        en: "He carries the blood bowl in his right hand and walks respectfully toward the innermost sanctum.",
+        en: "into it, westward. New comment: 'the two curtains' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l13"
+        ]
       },
       {
         id: "rashi-yoma-051b-009",
@@ -117270,11 +117288,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 9,
         he: "פרופות מן הצפון לדרום אחת חיצונה",
-        en: "The general principle: when entering an important space, turn right as a sign of honor.",
+        en: "hung from north to south, one outer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l13"
+        ]
       },
       {
         id: "rashi-yoma-051b-010",
@@ -117282,11 +117302,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 10,
         he: "ואחת פנימית: וביניהן. אויר אמה:",
-        en: "This applies in the Temple and analogously in other contexts requiring respect.",
+        en: "and one inner. New comment: 'and between them' - a cubit of airspace.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l13"
+        ]
       },
       {
         id: "rashi-yoma-051b-011",
@@ -117294,11 +117316,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 11,
         he: "גמ' אמה טרקסין. כך נקראת",
-        en: "The Gemara confirms: this is a kavod convention, not a separate halakhic requirement for the Temple.",
+        en: "'Gemara: the cubit of the partition wall' - this is what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-012",
@@ -117306,11 +117330,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 12,
         he: "כותל מחיצה שהפסיק במקדש ראשון",
-        en: "The HP demonstrates maximum respect because he is about to enter the most sacred space in existence.",
+        en: "the dividing wall that separated the two chambers in the First Temple is called,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-013",
@@ -117318,11 +117344,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 13,
         he: "אבל במקדש שני שהיה גבוה (מאה)",
-        en: "The HP stands before the parochet and enters the Holy of Holies.",
+        en: "but in the Second Temple, which was a hundred",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-014",
@@ -117330,11 +117358,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 14,
         he: "אמה לא עשאוהו לפי שלא היו עוביה",
-        en: "He sprinkles the blood: once upward toward the kapporet, then seven times downward below it.",
+        en: "cubits high, they did not make it, since its thickness was only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-015",
@@ -117342,11 +117372,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 15,
         he: "אלא אמה ואינה יכולה לעמוד בגובה",
-        en: "The upward sprinkle is above the ark cover; the seven are directed below it.",
+        en: "a cubit, and it could not stand at a height of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-016",
@@ -117354,11 +117386,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 16,
         he: "(מאה) אמה ולהוסיף על עוביה אי",
-        en: "The counting formula: achat (one), achat v'achat (one-and-one), achat ushtayim (one-and-two)...",
+        en: "a hundred cubits, and to add to its thickness was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-017",
@@ -117366,11 +117400,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 17,
         he: "אפשר דכתיב הכל בכתב מיד ה' עלי",
-        en: "Each count includes the initial 'one' (achat) to anchor the HP's position in the sequence.",
+        en: "not possible, since it is written, 'all of this in writing, from the hand of the Lord, upon me",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-018",
@@ -117378,11 +117414,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 18,
         he: "השכיל (דה\"א כח) : ואיסתפקא להו.",
-        en: "The formula prevents error: including 'one' in every count means the HP always knows his place.",
+        en: "He gave me understanding' (I Chronicles 28). New comment: 'and they were uncertain' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-019",
@@ -117390,11 +117428,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 19,
         he: "במקום המחיצה אי כלפנים אי כלחוץ:",
-        en: "After 'achat v'sheva' (one-and-seven), the bull blood sprinkling is complete: eight total (one up plus seven down).",
+        en: "regarding the place of the partition, whether it was like the inside or like the outside.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-020",
@@ -117402,11 +117442,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 20,
         he: "ועבוד שתי פרוכת. לקלוט ביניהן",
-        en: "The HP then exits to receive the goat blood for the next sprinkling sequence.",
+        en: "'and they made two curtains' - to enclose between them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18"
+        ]
       },
       {
         id: "rashi-yoma-051b-021",
@@ -117414,11 +117456,14 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 21,
         he: "אויר מקום המחיצה: בין המזבח",
-        en: "The counting formula is the Sages' error-prevention mechanism for the most critical service act.",
+        en: "the airspace of the partition's place. New comment: 'between the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l18",
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-022",
@@ -117426,11 +117471,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 22,
         he: "ולמנורה היה מהלך. כשבא ליכנס",
-        en: "No other Temple service has a dedicated counting formula - this one does because of the stakes.",
+        en: "and the menorah he would walk' - when he came to enter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-023",
@@ -117438,11 +117485,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 23,
         he: "היה בוקע בהיכל דרך הדרום להלך",
-        en: "If the HP loses count he must restart the entire sprinkling sequence from the beginning.",
+        en: "he would cut through the Sanctuary via the south, to walk",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-024",
@@ -117450,11 +117499,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 24,
         he: "בין מזבח הפנימי ולמנורה שהיא",
-        en: "The formula means he can only lose track of a single sprinkle at most - the 'one' anchor is always present.",
+        en: "between the inner altar and the menorah, which was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-025",
@@ -117462,11 +117513,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 25,
         he: "בדרום והולך עד הפרוכת: בין שולחן",
-        en: "This section completes the description of the bull blood sprinkling inside the Holy of Holies.",
+        en: "in the south, and go until the curtain. New comment: 'between the table",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-026",
@@ -117474,11 +117527,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 26,
         he: "ולמזבח. דרך הצפון: רבי יוסי",
-        en: "The subsequent goat blood sprinkling follows the identical formula.",
+        en: "and the altar' - via the north. New comment: 'Rabbi Yosei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-027",
@@ -117486,11 +117541,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 27,
         he: "היא. דאמר במתני' לא היתה שם",
-        en: "The two sprinklings together - bull plus goat - provide atonement for different categories of sin.",
+        en: "it is' - who says in the Mishnah, there was not there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-028",
@@ -117498,11 +117555,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 28,
         he: "אלא פרוכת אחת ואצל הכותל הצפוני",
-        en: "The bull blood atones for the HP and his household; the goat blood atones for all Israel.",
+        en: "only one curtain, and near the northern wall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-029",
@@ -117510,11 +117569,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 29,
         he: "היה ראשה כפול ופרופה בקרס זהב",
-        en: "Together they cover the full scope of Yom Kippur atonement.",
+        en: "its edge was doubled and hung with a golden hook",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-030",
@@ -117522,11 +117583,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 30,
         he: "כלפי החוץ ובו נכנסין לפני ולפנים",
-        en: "The next section (52a) describes the HP's exit and return for the incense service.",
+        en: "facing outward, and through it they would enter into the innermost sanctum,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-031",
@@ -117534,11 +117597,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 31,
         he: "כדתני מתני' אליבא דרבנן החיצונה",
-        en: "The sprinkling direction (one up, seven down) is Mishna-level halacha.",
+        en: "as the Mishnah teaches according to the Rabbis: the outer curtain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-032",
@@ -117546,11 +117611,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 32,
         he: "פרופה מן הדרום הפנימית מן הצפון",
-        en: "The counting formula ('achat, achat v'achat') is also Mishna-level - the prescribed method.",
+        en: "was hung from the south, the inner one from the north,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-033",
@@ -117558,11 +117625,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 33,
         he: "ורבי יוסי דאמר אין שם אלא אחת",
-        en: "Any deviation in count or direction invalidates that sprinkle and requires repetition.",
+        en: "and Rabbi Yosei, who says there is only one curtain there,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-034",
@@ -117570,11 +117639,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 34,
         he: "פריפתה בצפון היא דבהא לא פליג",
-        en: "The HP must complete all eight sprinkles correctly; partial completion is insufficient.",
+        en: "its hanging is on the north, for regarding this he does not disagree,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-035",
@@ -117582,11 +117653,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 35,
         he: "דכניסתו לתוך חלל בית קדשי הקדשים",
-        en: "The Holy of Holies sprinkling is complete only when all eight are done without error.",
+        en: "since his entry into the space of the Holy of Holies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23"
+        ]
       },
       {
         id: "rashi-yoma-051b-036",
@@ -117594,11 +117667,14 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 36,
         he: "בצפון הוה: פיתחא בדרום קאי.",
-        en: "The HP then walks out backward - he does not turn his back to the Ark location.",
+        en: "was in the north. New comment: 'the entrance stands in the south' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l23",
+          "yoma-051b-l28"
+        ]
       },
       {
         id: "rashi-yoma-051b-037",
@@ -117606,11 +117682,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 37,
         he: "דשתי פרוכת היו שם והחיצונה פרופה",
-        en: "Exiting backward is discussed on 53a.",
+        en: "for there were two curtains there, and the outer one was hung",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l28"
+        ]
       },
       {
         id: "rashi-yoma-051b-038",
@@ -117618,11 +117696,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 38,
         he: "מן הדרום כדתנן מתני' ולקמן פריך",
-        en: "Summary of 51b: 'asher lo' verse, right-side entry, and the sprinkling formula.",
+        en: "from the south, as the Mishnah teaches, and further on the Gemara asks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l28"
+        ]
       },
       {
         id: "rashi-yoma-051b-039",
@@ -117630,11 +117710,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 39,
         he: "לר' יהודה ניעול בין מנורה לכותל:",
-        en: "All three establish the precision and exclusivity of the HP's innermost service.",
+        en: "against Rabbi Yehuda: let him enter between the menorah and the wall.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l28"
+        ]
       },
       {
         id: "rashi-yoma-051b-040",
@@ -117642,11 +117724,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 40,
         he: "שולחנות צפון ודרום מונחין. עשר",
-        en: "Rashi here is unusually detailed - this passage describes the most sacred act in Temple service.",
+        en: "'the tables were placed north-to-south' - ten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-041",
@@ -117654,11 +117738,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 41,
         he: "שולחנות עשה שלמה שנאמר (דה\"ב ד)",
-        en: "Every word of the Mishna is precise and every word of Rashi is necessary for understanding it.",
+        en: "tables Shlomo made, as it is stated (II Chronicles 4):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-042",
@@ -117666,11 +117752,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 42,
         he: "חמש מימין וחמש משמאל ותניא",
-        en: "The HP's experience inside the Holy of Holies was unique in human history.",
+        en: "'five on the right and five on the left,' and it was taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-043",
@@ -117678,11 +117766,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 43,
         he: "במנחות (צח:) אי אפשר לומר חמש מימין",
-        en: "The Gemara's attention to detail reflects the gravity of this singular moment.",
+        en: "in Tractate Menachot (98b): it is not possible to say five to the right",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-044",
@@ -117690,11 +117780,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 44,
         he: "הפתח וחמש משמאל הפתח שאם",
-        en: "Rashi's commentary here is among his most important contributions to understanding Yom Kippur.",
+        en: "of the entrance and five to the left of the entrance, for if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-045",
@@ -117702,11 +117794,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 45,
         he: "אתה אומר כן מצינו שולחן בדרום",
-        en: "The 'one upward, seven downward' sequence appears throughout the blood services of Yom Kippur.",
+        en: "you say so, we would find a table in the south,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-046",
@@ -117714,11 +117808,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 46,
         he: "והתורה אמרה והשולחן תתן על צלע",
-        en: "The Holy of Holies uses this sequence for both the bull and the goat blood.",
+        en: "yet the Torah said, 'and you shall place the table on the side",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-047",
@@ -117726,11 +117822,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 47,
         he: "צפון (שמות כו) אלא של משה באמצע חמש מימינו וחמש משמאלו",
-        en: "The outer sprinkling (before the parochet) uses a similar sequence described later in the tractate.",
+        en: "of the north' (Exodus 26) - rather, Moshe's table was in the middle, five to its right and five to its left,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-048",
@@ -117738,11 +117836,14 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 48,
         he: "ופליגי בה תנאי איכא למאן דאמר מזרח ומערב מונחין ואיכא למאן",
-        en: "Rashi connects these sequences to show the systematic structure of the entire Yom Kippur blood service.",
+        en: "and the Tannaim disagree about it: there is one who says they were placed east-to-west, and there is one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31",
+          "yoma-051b-l34"
+        ]
       },
       {
         id: "rashi-yoma-051b-049",
@@ -117750,11 +117851,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 49,
         he: "דאמר צפון ודרום מונחין ור\"מ סבירא ליה כמאן דאמר צפון ודרום",
-        en: "The Yom Kippur service is one of the most systematically structured religious acts ever described.",
+        en: "who says they were placed north-to-south, and Rabbi Meir holds like the one who says north-to-south.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-050",
@@ -117762,11 +117865,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 50,
         he: "ראשי שולחנות מן הצפון לדרום היו חמש בשורה אחת פונות ראשה",
-        en: "Each act follows the previous in a legally mandated sequence - deviation requires correction.",
+        en: "The heads of the tables from north to south were five in a single row, facing edge",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-051",
@@ -117774,11 +117879,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 51,
         he: "של זו לראשה של זו והשולחן אמתים ארכו הרי עשר אמות ועל",
-        en: "This systematic structure reflects that Yom Kippur atonement requires total precision.",
+        en: "to edge of one another, and each table's length was two cubits, so five tables make ten cubits, and therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-052",
@@ -117786,11 +117893,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 52,
         he: "כרחך צריך היה לסמוך ראש השולחן הצפוני לכותל שאם אתה",
-        en: "The HP is not performing a symbolic ritual - he is executing a legally mandated God-prescribed sequence.",
+        en: "you must conclude the northern table's edge had to abut the wall, for if you",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-053",
@@ -117798,11 +117907,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 53,
         he: "מושכו להלן מן הכותל נמצא מן השולחן הדרומי מקצתו יושב בדרום",
-        en: "End of 51b Rashi; the next entries on 52a deal with the HP's return for the incense service.",
+        en: "were to draw it away from the wall, part of the southern table would end up sitting in the south,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-054",
@@ -117810,11 +117921,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 54,
         he: "שההיכל רחבו עשרים אמה נמצא צפון שלו עשר אמה ואי אפשר",
-        en: "Summary of 51b Rashi: designated-service exclusivity, kavod in entering, sprinkling technique and formula.",
+        en: "since the Sanctuary's width was twenty cubits, its north side would be ten cubits, and it would be impossible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-055",
@@ -117822,11 +117935,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 55,
         he: "להיות כלום מן השולחן בדרום הלכך מפסקי שולחנות את הדרך",
-        en: "These three topics together describe the complete inner-service procedure from entry to sprinkling completion.",
+        en: "for any of the table to be in the south; therefore the tables block the path,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-056",
@@ -117834,11 +117949,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 56,
         he: "ולא מתעייל ליה בין שולחן לכותל ואם תאמר אף בין המזבח",
-        en: "The 51b section is the heart of the Yom Kippur service description in tractate Yoma.",
+        en: "and he cannot enter between the table and the wall. And if you should say he could go even between the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-057",
@@ -117846,11 +117963,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 57,
         he: "לשולחן אין דרך שהרי המזבח באמצע ההיכל וראש השולחן הדרומי",
-        en: "Its legal, procedural, and spiritual significance cannot be overstated.",
+        en: "and the table - there is no path there either, since the altar is in the middle of the Sanctuary, and the southern table's edge",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-058",
@@ -117858,11 +117977,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 58,
         he: "סמוך למזבח הא אמרן בפרק אמר להם הממונה (לעיל דף לג:)",
-        en: "Rashi's commentary here is indispensable for understanding what actually happened inside the Holy of Holies.",
+        en: "is close to the altar, as we said in the chapter 'Amar Lahem HaMemuneh' (above, 33b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-059",
@@ -117870,11 +117991,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 59,
         he: "שאין המזבח מכוון כנגד השולחן אלא משוך קימעא כלפי חוץ:",
-        en: "End of 51b Rashi section.",
+        en: "that the altar is not aligned directly opposite the table, but is drawn slightly outward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l31"
+        ]
       },
       {
         id: "rashi-yoma-051b-060",
@@ -117882,11 +118005,13 @@ const DAF_CONTENT = {
         daf: "51b",
         vilnaLine: 60,
         he: "למיעל",
-        en: "The 52a section begins with the HP's entry protocol and one-cubit partition discussion.",
+        en: "To enter (continues on 52a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051b-l34"
+        ]
       }
     ],
     review: "reviewed"
