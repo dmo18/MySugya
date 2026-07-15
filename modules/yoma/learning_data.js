@@ -115215,11 +115215,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 1,
         he: "לדברי האומר וכו'. ר' מאיר קרייה לעיל קרבן יחיד: מאי",
-        en: "R. Meir says: the HP's bull is a communal sin-offering - he represents all of Israel.",
+        en: "According to the one who says, etc. - Rabbi Meir called it above an individual offering. What",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l01",
+          "yoma-050b-l04"
+        ]
       },
       {
         id: "rashi-yoma-050b-002",
@@ -115227,11 +115230,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 2,
         he: "קמיבעיא ליה. הא ודאי פשיטא לן דאחיו הכהנים מתכפרים בו",
-        en: "Communal sin-offerings cannot become pigul and override Shabbat and tumah prohibitions.",
+        en: "is his question - for it is certainly obvious to us that his fellow priests achieve atonement through it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l04"
+        ]
       },
       {
         id: "rashi-yoma-050b-003",
@@ -115239,11 +115244,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 3,
         he: "וקרבן השותפין אין עושין תמורה ומאי מספקא ליה בגוה: אי נימא",
-        en: "Since it is communal, the blood retains its communal-offering status throughout the service.",
+        en: "and a partnership offering does not generate a substitute - so what is his uncertainty about it? New comment: 'if we say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l04",
+          "yoma-050b-l07"
+        ]
       },
       {
         id: "rashi-yoma-050b-004",
@@ -115251,11 +115259,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 4,
         he: "אי בתר מקדיש אזלינן. לענין תמורה והאי יחיד אקדשיה דמשלו",
-        en: "Firstborn and tithe animals have automatic inherent sanctity from birth yet still require formal designation.",
+        en: "'if we follow the one who consecrated it' - regarding substitution, and this is an individual who consecrated it from his own property,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l07"
+        ]
       },
       {
         id: "rashi-yoma-050b-005",
@@ -115263,11 +115273,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 5,
         he: "הוא בא ולא משל שותפות: אי בתר",
-        en: "Automatic sanctity still requires an active designation for use in a specific service.",
+        en: "it comes, and not from partnership property. New comment: 'or if we follow'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l07"
+        ]
       },
       {
         id: "rashi-yoma-050b-006",
@@ -115275,11 +115287,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 6,
         he: "מתכפר אזלינן. והרבה מתכפרים",
-        en: "Similarly, the HP's communal role does not automatically make his bull communal without textual support.",
+        en: "'the one who achieves atonement' - and many achieve atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l07"
+        ]
       },
       {
         id: "rashi-yoma-050b-007",
@@ -115287,11 +115301,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 7,
         he: "בו: פשיטא. דלענין תמורה מתכפר",
-        en: "R. Elazar's dilemma: can the HP on Yom Kippur simultaneously fulfill a personal vow or obligation?",
+        en: "through it. New comment: 'obviously' - for regarding substitution, the one who achieves atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l07",
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-008",
@@ -115299,11 +115316,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 8,
         he: "הוי בעליו: דאמר ר' אבהו אמר ר'",
-        en: "The Yom Kippur service is a designated exclusive service - no personal obligations may be incorporated.",
+        en: "is its owner - as Rabbi Abahu said in the name of Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-009",
@@ -115311,11 +115330,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 9,
         he: "יוחנן. שלשה דברים בנותן משלו",
-        en: "The HP's entire Yom Kippur service is consumed by the designated national atonement sequence.",
+        en: "Yochanan: three things apply to one who gives from his own property",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-010",
@@ -115323,11 +115344,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 10,
         he: "את חובת חבירו: המקדיש. בהמתו",
-        en: "If the HP had a personal vow to bring an offering, he cannot use Yom Kippur service to discharge it.",
+        en: "to discharge another's obligation. New comment: 'the one who consecrates' - his animal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-011",
@@ -115335,11 +115358,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 11,
         he: "לצאת בו חבירו חובה שעליו המקדיש",
-        en: "The designated (yuchad) nature of Yom Kippur service makes it legally exclusive to its specific purpose.",
+        en: "so that another can fulfill through it an obligation upon him - the one who consecrates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-012",
@@ -115347,11 +115372,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 12,
         he: "הוי בעלים לענין תוספת חומש אם",
-        en: "This parallels how a kohen performing one service cannot simultaneously discharge a different obligation.",
+        en: "is the owner regarding the added fifth, if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-013",
@@ -115359,11 +115386,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 13,
         he: "הוממה ובא לחללה אבל אם בא",
-        en: "The principle: an act under specific designation cannot simultaneously satisfy a different obligation.",
+        en: "it became blemished and he comes to redeem it; but if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-014",
@@ -115371,11 +115400,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 14,
         he: "המתכפר לחללה אינו צריך להוסיף",
-        en: "The HP's vestments on Yom Kippur are also designated - he cannot wear them for personal service.",
+        en: "the one who achieves atonement comes to redeem it, he does not need to add",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-015",
@@ -115383,11 +115414,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 15,
         he: "חומש דגבי חומש כתיב (ויקרא כז)",
-        en: "R. Elazar's conclusion: the Yom Kippur service is completely and exclusively designated.",
+        en: "the fifth, since regarding the fifth it is written (Leviticus 27):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-016",
@@ -115395,11 +115428,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 16,
         he: "ואם המקדיש יגאל וגו' מקדיש ולא",
-        en: "The yuchad (exclusive designation) principle means designated service is legally separated from all other service.",
+        en: "'and if the one who consecrated shall redeem it, etc.' - the one who consecrated, and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-017",
@@ -115407,11 +115442,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 17,
         he: "מתכפר: והמתכפר עושה בה תמורה.",
-        en: "This protects the integrity of Yom Kippur atonement - entirely for its designated purpose.",
+        en: "the one who achieves atonement. New comment: 'and the one who achieves atonement performs substitution with it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-018",
@@ -115419,11 +115456,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 18,
         he: "אבל המקדיש אם המיר בה אינה",
-        en: "A practical case: if the HP had a personal chatat he must fulfill it separately at another time.",
+        en: "but if the one who consecrated performs substitution with it, it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-019",
@@ -115431,11 +115470,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 19,
         he: "תמורה דאין ממירין בשל אחרים והאי",
-        en: "He cannot intend to fulfill his personal chatat through the Yom Kippur chatat service.",
+        en: "a valid substitution, since one cannot exchange another's property, and this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08"
+        ]
       },
       {
         id: "rashi-yoma-050b-020",
@@ -115443,11 +115484,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 20,
         he: "לאו בעלים דידיה הוא: והתורם משלו",
-        en: "The Gemara tests this with analogous cases from other designated service contexts.",
+        en: "is not his own property. New comment: 'and one who tithes from his own produce' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l08",
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-021",
@@ -115455,11 +115499,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 21,
         he: "על של חבירו טובת הנאה שלו. בידו",
-        en: "The principle appears broadly in halacha: designated acts cannot simultaneously discharge other obligations.",
+        en: "on behalf of another - the benefit is his. It is in his power",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-022",
@@ -115467,11 +115513,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 22,
         he: "לתתה לכל כהן שירצה ואם בא אחר",
-        en: "A borrowed garment's tzitzit: the wearer does not fulfill his tzitzit obligation because the garment is not his.",
+        en: "to give it to whichever priest he wishes; and if another comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-023",
@@ -115479,11 +115527,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 23,
         he: "ואמר הילך סלע זה ותן תרומה זו לבן",
-        en: "Similarly, the HP performing Yom Kippur service 'for himself' cannot use it for personal vows.",
+        en: "and says, 'here is this sela, and give this terumah to the son of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-024",
@@ -115491,11 +115541,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 24,
         he: "בתי כהן של זה היא שתרומה שלו",
-        en: "The Gemara's conclusion: designated service is exclusive in both directions - cannot be replaced and cannot replace.",
+        en: "my daughter, a priest' - it is his, for the terumah is his to designate,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-025",
@@ -115503,11 +115555,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 25,
         he: "שנאמר כי תכלה לעשר את כל",
-        en: "This section completes the analysis of the communal/personal bull question and adds the exclusivity principle.",
+        en: "as it is stated: 'when you have finished tithing all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-026",
@@ -115515,11 +115569,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 26,
         he: "מעשר תבואתך [וגו'] ונתתה ללוי וגו'",
-        en: "The conclusion: R. Meir says communal; the exclusivity principle applies regardless.",
+        en: "the tithe of your produce, etc., and you shall give it to the Levite, etc.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-027",
@@ -115527,11 +115583,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 27,
         he: "(דברים כו) תלה הכתוב הנתינה במי",
-        en: "Even if the bull is personal (Rava's view), the HP still cannot incorporate personal vows.",
+        en: "(Deuteronomy 26) - the verse makes the giving dependent on the one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10"
+        ]
       },
       {
         id: "rashi-yoma-050b-028",
@@ -115539,11 +115597,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 28,
         he: "שמעשרה משלו: בקביעותא מתכפרי.",
-        en: "Even if the bull is communal (Abaye/R. Meir's view), the HP cannot use it for personal obligations.",
+        en: "whose tithe it is, from his own produce. New comment: 'do they achieve atonement fixedly' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l10",
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-029",
@@ -115551,11 +115612,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 29,
         he: "כשאר המכפרים שהפרישו אחרים",
-        en: "The exclusivity principle operates independently of the communal/personal classification.",
+        en: "like other cases of achieving atonement where others set aside the animal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-030",
@@ -115563,11 +115626,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 30,
         he: "עליהן שהקנו להם הבהמה לכפרה",
-        en: "R. Elazar's dilemma is resolved: the Yom Kippur service is exclusively designated in both directions.",
+        en: "on their behalf, who transferred ownership of the animal to them for atonement,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-031",
@@ -115575,11 +115640,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 31,
         he: "אף כאן נקנה להן חלק בו והויא לה",
-        en: "The HP cannot perform personal service during Yom Kippur; the Yom Kippur service cannot fulfill personal obligations.",
+        en: "so too here, a portion in it is acquired by them, and it becomes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-032",
@@ -115587,11 +115654,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 32,
         he: "חטאת השותפין לענין תמורה: או",
-        en: "This concludes the R. Elazar section; the next daf (51a) turns to blood sprinkling.",
+        en: "a partnership sin-offering with respect to substitution. New comment: 'or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-033",
@@ -115599,11 +115668,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 33,
         he: "דילמא בקופיא מתכפרי. כלומר אין",
-        en: "The Mishna on 51a: the HP takes blood from the stirrer to enter the Holy of Holies.",
+        en: "perhaps they achieve atonement only floatingly' - meaning, their",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-034",
@@ -115611,11 +115682,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 34,
         he: "כפרתן קבועה בו אלא צפה על גב",
-        en: "Bull blood and goat blood: their respective sprinkling sequences in the Holy of Holies.",
+        en: "atonement is not fixed through it, but rather floats on top of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-035",
@@ -115623,11 +115696,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 35,
         he: "כפרת כהן גדול כדבר הצף על פני",
-        en: "The next section details the sprinkling technique and counting formula.",
+        en: "the High Priest's atonement, like something that floats on the surface of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-036",
@@ -115635,11 +115710,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 36,
         he: "המים ואין הקרבן נקרא על שמם",
-        en: "Summary of 50b: R. Meir (communal bull) and R. Elazar (exclusive designation) are the two main contributions.",
+        en: "the water, and the offering is not called by their name,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-037",
@@ -115647,11 +115724,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 37,
         he: "וקרבן יחיד הוא ויצף הברזל (מ\"ב ו)",
-        en: "Both positions reinforce that the Yom Kippur service is legally unique and cannot be supplemented.",
+        en: "and it is an individual offering. Proof-text: 'and the iron floated' (II Kings 6)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11"
+        ]
       },
       {
         id: "rashi-yoma-050b-038",
@@ -115659,11 +115738,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 38,
         he: "מתרגמא וקפא פרזלא: חומר בזבח.",
-        en: "The HP's role on Yom Kippur is entirely and exclusively the national atonement service.",
+        en: "is rendered in Targum as 'ukfa parzela', it floated. New comment: 'a stringency in the sacrifice' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l11",
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-039",
@@ -115671,11 +115753,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 39,
         he: "שבא תחילת הקדש מבתמורה שהומרה",
-        en: "No personal element may intrude - neither personal offerings nor personal intent.",
+        en: "since it comes as the initial consecration, greater than the substitute which was exchanged",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-040",
@@ -115683,11 +115767,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 40,
         he: "בו: שהזבח וכו'. ולקמיה מפרש",
-        en: "This is the theological and halachic core of Yom Kippur's uniqueness in the Temple service.",
+        en: "onto it. New comment: 'that the sacrifice, etc.' - it will explain further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-041",
@@ -115695,11 +115781,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 41,
         he: "ואזיל בהי זבח משכחת לה: מה שאין",
-        en: "The next section (51a) describes the physical acts of entering the Holy of Holies with the blood.",
+        en: "and go, in which sacrifice you find this. New comment: 'which is not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-042",
@@ -115707,11 +115795,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 42,
         he: "כן בתמורה. שהתמורה אינה בצבור",
-        en: "Rashi provides the halachic framework for the HP's Yom Kippur obligations in this section.",
+        en: "'so in the substitute' - for the substitute does not apply to the community,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-043",
@@ -115719,11 +115809,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 43,
         he: "ואינה דוחה שבת שאין זמנה קבוע",
-        en: "The designation (yuchad) principle reappears in later sections dealing with incense and goat service.",
+        en: "and does not override Shabbat, since it has no fixed time,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-044",
@@ -115731,11 +115823,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 44,
         he: "ואינה עושה תמורה דכתיב והיה הוא",
-        en: "This concludes Rashi's coverage of the communal/personal and exclusivity discussions on 50b.",
+        en: "and does not generate a substitute, as it is written, 'and it and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-045",
@@ -115743,11 +115837,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 45,
         he: "ותמורתו ולא תמורת תמורתו:",
-        en: "The next Rashi entries (51a) deal with the blood reception and entry sequence.",
+        en: "its substitute shall be' - and not the substitute of a substitute.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l14"
+        ]
       },
       {
         id: "rashi-yoma-050b-046",
@@ -115755,11 +115851,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 46,
         he: "שהתמורה חלה. עלה קדושת הגוף",
-        en: "R. Meir's ruling is the clearest tannaitic statement on the HP's bull's communal status.",
+        en: "'that the substitute takes effect' - inherent sanctity comes upon it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-047",
@@ -115767,11 +115865,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 47,
         he: "אפילו היא בעלת מום קבוע בשעת התמורה ואם בא לחללה אינה",
-        en: "R. Elazar's dilemma and resolution establish Yom Kippur's legal exclusivity.",
+        en: "even if it has a permanent blemish at the time of substitution, and if one comes to redeem it, it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-048",
@@ -115779,11 +115879,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 48,
         he: "יוצאה לחולין אלא לענין זביחה ואכילה בלבד אבל לא ליגזז וליעבד שאין",
-        en: "Together: the HP's bull is communal AND the service is exclusively designated.",
+        en: "go out to non-sacred use except regarding slaughter and eating alone, but not to be shorn or worked, for there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-049",
@@ -115791,11 +115893,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 49,
         he: "חילוק בה בין תם לבעל מום דכתיב (ויקרא כז) רע בטוב או טוב ברע",
-        en: "These two principles together define the legal character of the entire Yom Kippur service.",
+        en: "distinction in it between unblemished and blemished, as it is written (Leviticus 27): 'bad for good, or good for bad,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-050",
@@ -115803,11 +115907,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 50,
         he: "ואם המר ימיר וגו': משא\"כ בזבח. שהזבח אם קדם הקדישו את",
-        en: "End of Rashi commentary on 50b.",
+        en: "and if he shall indeed exchange it, etc.' New comment: 'unlike the sacrifice' - for if the sacrifice's consecration preceded",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18",
+          "yoma-050b-l21"
+        ]
       },
       {
         id: "rashi-yoma-050b-051",
@@ -115815,11 +115922,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 51,
         he: "מומו אין יוצא בפדיונו לחולין ליגזז וליעבד דכתיב בפסולי המוקדשין",
-        en: "The following material on 51a begins the blood sprinkling sequence.",
+        en: "its blemish, it does not go out through its redemption to non-sacred use to be shorn or worked, as it is written regarding disqualified consecrated animals",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-052",
@@ -115827,11 +115936,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 52,
         he: "(דברים יב) תזבח ואכלת בשר תזבח ולא גיזה בשר ולא חלב אבל",
-        en: "Rashi's next entries explain the technical aspects of receiving, carrying, and sprinkling blood.",
+        en: "(Deuteronomy 12): 'you shall slaughter and eat meat' - you may slaughter it, but not its wool, and not its milk; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-053",
@@ -115839,11 +115950,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 53,
         he: "קדם מומו להקדישו הרי הוא כמקדיש עצים ואבנים לדמי עולה שאין",
-        en: "The transition from 50b to 51a marks the shift from legal classification to procedural description.",
+        en: "if its blemish preceded its consecration, it is like one who consecrates wood and stones for the value of a burnt-offering, which has no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-054",
@@ -115851,11 +115964,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 54,
         he: "קדושת הגוף עליהן אלא קדושת דמים בלבד ויוצאין בפדיונן לחולין",
-        en: "Summary: communal bull (R. Meir/Abaye) plus exclusive designation (R. Elazar) form the Yom Kippur legal framework.",
+        en: "inherent sanctity upon them, only monetary sanctity, and they go out through their redemption to non-sacred use",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18"
+        ]
       },
       {
         id: "rashi-yoma-050b-055",
@@ -115863,11 +115978,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 55,
         he: "גמורין כדתנן בבכורות (דף יד.) ובשחיטת חולין (דף קל.): אלא לאו",
-        en: "This framework explains why the HP must perform every act personally and in the correct order.",
+        en: "completely, as we learned in Tractate Bechorot (14a) and in the laws of slaughtering non-sacred animals (Chullin 130a). New comment: 'rather, must it not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l18",
+          "yoma-050b-l21"
+        ]
       },
       {
         id: "rashi-yoma-050b-056",
@@ -115875,11 +115993,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 56,
         he: "דפר. יום הכפורים נוהג בצבור כביחיד דחטאת היא וחטאת",
-        en: "No delegation, no personal additions, no substitutions - pure designated exclusive service.",
+        en: "be referring to the bull' - of Yom Kippur, which applies to the community as to an individual, since it is a sin-offering, and a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l21"
+        ]
       },
       {
         id: "rashi-yoma-050b-057",
@@ -115887,11 +116007,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 57,
         he: "נוהגת בצבור ועושה תמורה אלמא פר יום הכפורים עושה תמורה:",
-        en: "Rashi's commentary on 50b covers communal bull, exclusivity, and their combined implications.",
+        en: "applies to the community and generates a substitute - so this shows that the Yom Kippur bull generates a substitute.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l21"
+        ]
       },
       {
         id: "rashi-yoma-050b-058",
@@ -115899,11 +116021,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 58,
         he: "באילו של אהרן. דיום הכפורים: מאי תמורה שם תמורה. לעולם",
-        en: "The HP on Yom Kippur is the paradigm case of legally designated exclusive service in rabbinic literature.",
+        en: "'referring to Aharon's ram' - of Yom Kippur. New comment: 'what is meant by substitute - the name substitute' - actually",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l25",
+          "yoma-050b-l30"
+        ]
       },
       {
         id: "rashi-yoma-050b-059",
@@ -115911,11 +116036,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 59,
         he: "בפר והאי חומר בזבח מבתמורה דקתני לאו אתמורה דידיה קאי",
-        en: "This explains why so much of tractate Yoma focuses on precise details of his service.",
+        en: "referring to the bull, and this stringency in the sacrifice over the substitute that is taught does not refer to its own substitute,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l30"
+        ]
       },
       {
         id: "rashi-yoma-050b-060",
@@ -115923,11 +116050,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 60,
         he: "אלא הכי קאמר חומר בזבח משם תמורה שאין לך דבר ששמו",
-        en: "The precision serves the legal requirement of exclusivity - every detail is part of the designated package.",
+        en: "rather it means this: a stringency in the sacrifice over the NAME substitute - for you have nothing whose name is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l30"
+        ]
       },
       {
         id: "rashi-yoma-050b-061",
@@ -115935,11 +116064,14 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 61,
         he: "תמורה דוחה שבת ואפילו התמורות הקריבות: אי הכי. דשם קתני",
-        en: "End of 50b Rashi section.",
+        en: "'substitute' that overrides Shabbat, even substitutes that are otherwise sacrificable. New comment: 'if so' - since it teaches the NAME",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l30",
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-062",
@@ -115947,11 +116079,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 62,
         he: "זבח נמי שם זבח קתני וכיון דשם זבח תני תנא מאי דוחקיך לאוקומי",
-        en: "The 51a section begins with the Mishna about blood reception from the stirrer.",
+        en: "'sacrifice' too, let it teach the NAME 'sacrifice' - and since the Tanna would then be teaching the name 'sacrifice,' why are you forced to establish it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-063",
@@ -115959,11 +116093,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 63,
         he: "בחד זיבחא דתשמע מינה דבפרו של אהרן או באילו מיירי דילמא",
-        en: "The HP receiving blood from the one who was stirring it begins the inner service.",
+        en: "as referring to one single sacrifice, from which you would derive that it speaks of Aharon's bull or of his ram? Perhaps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-064",
@@ -115971,11 +116107,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 64,
         he: "הכי קאמר תנא חומר בדבר ששמו זבח מדבר ששמו תמורה שיש",
-        en: "The stirring (meragel) kept blood from congealing; the HP receives it for sprinkling.",
+        en: "the Tanna means this: a stringency in the thing called 'sacrifice' over the thing called 'substitute,' for there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-065",
@@ -115983,11 +116121,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 65,
         he: "זבח נוהג בצבור כביחיד ויש זבח (תמורה) שדוחה שבת כגון",
-        en: "This reception begins the most sacred part of the Yom Kippur service.",
+        en: "a sacrifice that applies to the community as to an individual, and there is a sacrifice that overrides Shabbat, such as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-066",
@@ -115995,11 +116135,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 66,
         he: "דצבור או דיחיד שזמנו קבוע ויש זבח שעושה תמורה כגון קרבן יחיד: שם זבח לא קתני. האי תנא אלא בחד זיבחא נקט למילתיה:",
-        en: "The sequence of blood services inside the Holy of Holies follows strict halakhic order.",
+        en: "communal or individual, whose time is fixed; and there is a sacrifice that generates a substitute, such as an individual offering. New comment: 'it does not teach the name sacrifice' - this Tanna, rather, phrased his statement using one sacrifice as an example.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l31"
+        ]
       },
       {
         id: "rashi-yoma-050b-067",
@@ -116007,11 +116149,13 @@ const DAF_CONTENT = {
         daf: "50b",
         vilnaLine: 67,
         he: "בכור",
-        en: "Any deviation invalidates the entire service and requires the HP to repeat it.",
+        en: "A firstborn animal (continues on 51a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050b-l32"
+        ]
       }
     ],
     review: "reviewed"
