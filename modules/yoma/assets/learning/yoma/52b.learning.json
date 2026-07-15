@@ -1,837 +1,977 @@
 {
-  "canonicalRef": "Yoma 52b",
-  "summary": "The Gemara identifies four uncertain Torah words (Se'et, Meshukkadim, Mahar, Arur) whose meanings affect halachic decisions. The outer curtain had hookings on the south side shaping the HP's path. The Mishna records Josiah hiding the Ark to prevent exile, explaining why in the Second Temple the HP sprinkled blood on the foundation stone. The Mishna then describes the HP piling incense on the coals inside the Holy of Holies.",
-  "sugyot": [
+ "canonicalRef": "Yoma 52b",
+ "summary": "The Gemara identifies four uncertain Torah words (Se'et, Meshukkadim, Mahar, Arur) whose meanings affect halachic decisions. The outer curtain had hookings on the south side shaping the HP's path. The Mishna records Josiah hiding the Ark to prevent exile, explaining why in the Second Temple the HP sprinkled blood on the foundation stone. The Mishna then describes the HP piling incense on the coals inside the Holy of Holies.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-052b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 5
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-052b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 5
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.2"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.3"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.4"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.5"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.52b.6"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.52b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.52b.1",
-        "Yoma.52b.2",
-        "Yoma.52b.3",
-        "Yoma.52b.4",
-        "Yoma.52b.5",
-        "Yoma.52b.6",
-        "Yoma.52b.7"
-      ],
-      "display": {
-        "whats": "Four words in the Torah whose meaning is uncertain: Se'et, Meshukkadim, Mahar, Arur",
-        "hint": "The Gemara identifies four biblical words with uncertain meanings: Se'et (elevation/skin disease?), Meshukkadim (almond-like?), Mahar (tomorrow/soon?), and Arur (cursed?). Their ambiguity affects practical halachic rulings.",
-        "title": "Four Torah Words of Uncertain Meaning"
-      },
-      "learning": {
-        "ahaMoment": "Even foundational Torah words can have uncertain meanings - demonstrating that halachic precision requires ongoing textual analysis.",
-        "memoryAnchor": "Four uncertain Torah words: the Sages preserved the uncertainty rather than deciding arbitrarily.",
-        "learnerQuestion": "Were there words in the Torah whose meaning was genuinely unknown even to the Sages, or was every Hebrew word always understood through an unbroken tradition?",
-        "coreTension": "The Oral Torah is supposed to preserve the meaning of every word; yet the Talmud identifies four Torah words (se'et, meshukkadim, mahar, arur) whose precise meaning was uncertain even among the greatest scholars.",
-        "coreMove": "The Talmud acknowledges that even the Sages had gaps in their lexical tradition; certain rare or archaic words survived only in usage contexts that left their precise meaning unclear, requiring deduction from context rather than direct transmission.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The Oral Torah preserves meaning for most words through living tradition, but rare terms could become uncertain even for the greatest Sages when the chain of direct transmission was thin."
-        },
-        "learningBlocker": "Students assume the Oral Torah is a complete and gapless record; the admission that specific words were uncertain can seem like a theological problem rather than an honest record of tradition."
-      },
-      "argumentFlow": [
-        {
-          "type": "teaching",
-          "speaker": "Gemara",
-          "text": "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
-          "id": "yoma-052b-l01",
-          "label": "Teaching: Four words in the Torah have uncertain",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
-          "id": "yoma-052b-l02",
-          "label": "Explanation: Each word appears in a context that",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l02",
-              "vilnaLine": 2
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "four uncertain words",
-        "Se'et",
-        "Meshukkadim",
-        "Mahar",
-        "Arur",
-        "biblical interpretation"
-      ],
-      "concepts": {
-        "halachic": [
-          "uncertain word meanings preserved in tradition"
-        ],
-        "theological": [
-          "Torah text requires ongoing interpretation"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tzara'at laws",
-        "Temple Menorah description",
-        "biblical lexicography"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The meaning of every word in the Torah was always perfectly clear to the Sages through the Oral Torah tradition.",
-          "correction": "The Talmud honestly records that four specific Torah words had uncertain meanings even for the greatest scholars, because rare words could become unclear when direct oral transmission was thin."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Se'et, Meshukkadim, Mahar, and Arur - four words whose precise meaning was uncertain to the Sages, affecting halachic decisions in areas of skin disease, Temple vessels, timing, and oaths/curses.",
-          "question": "What are the four uncertain Torah words and why do they matter?"
-        }
-      ],
-      "finalRuling": "Four biblical words (Se'et, Meshukkadim, Mahar, Arur) have uncertain meanings preserved by tradition.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-052b-s02",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.52b.8"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.52b.9"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.52b.10"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.52b.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.52b.8",
-        "Yoma.52b.9",
-        "Yoma.52b.10",
-        "Yoma.52b.11"
-      ],
-      "display": {
-        "whats": "The outer curtain of the Sanctuary had hookings on the south side - what was their function?",
-        "hint": "The Gemara describes the outer parochet's hookings (kavim) on the south side that held it in place. This architectural detail relates to how the HP moved between the curtains.",
-        "title": "Parochet Hookings on the South Side"
-      },
-      "learning": {
-        "ahaMoment": "Temple architecture was precisely designed to support the service - even a curtain's hookings had halachic significance.",
-        "memoryAnchor": "Curtain hookings on the south side: architectural details that shaped the HP's path.",
-        "learnerQuestion": "Was the location of the parochet's attachment hooks on the south side a purely architectural detail, or did it have functional significance for the Yom Kippur service?",
-        "coreTension": "Temple architectural details could be arbitrary or deliberately functional; the parochet's south-side hookings need to be understood as either a construction convention or as something tied to the HP's ritual path.",
-        "coreMove": "The Talmud establishes that the south-side hookings were practically significant: they positioned the parochet's accessible opening along the HP's route into the Holy of Holies, integrating Temple architecture with the ritual path.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The parochet's hookings were located on the south side because that aligned with the High Priest's entry path into the Holy of Holies, making Temple architecture functionally integrated with the ritual sequence."
-        },
-        "learningBlocker": "Learners treat Temple architectural details as background information rather than as legally and ritually significant facts; the hooking location seems like a building detail but is actually connected to the ritual path."
-      },
-      "argumentFlow": [
-        {
-          "type": "description",
-          "speaker": "Gemara",
-          "text": "The outer Sanctuary curtain had hookings on the south side that held it in place.",
-          "id": "yoma-052b-l08",
-          "label": "Description: The outer Sanctuary curtain had hookings on",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l08",
-              "vilnaLine": 8
-            }
-          ]
-        },
-        {
-          "type": "implication",
-          "speaker": "Gemara",
-          "text": "These hookings determined the path the HP could use when walking between the two curtains.",
-          "id": "yoma-052b-l09",
-          "label": "Implication: These hookings determined the path the HP",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Sanctuary curtain",
-        "hookings",
-        "Temple architecture",
-        "outer parochet"
-      ],
-      "concepts": {
-        "halachic": [
-          "curtain hookings on south side"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple architecture",
-        "parochet structure",
-        "HP entry path"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The parochet hookings were placed on the south side for purely structural reasons with no bearing on the ritual.",
-          "correction": "The south-side hookings were positioned to facilitate the High Priest's ritual path into the Holy of Holies; Temple architecture was designed to align with and support the ritual sequence."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "Sanctuary curtain",
-        "hookings",
-        "Temple layout"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Structural attachments that held the outer parochet in place. Their placement on the south side affected the path the HP could take when walking between the two curtains into the Holy of Holies.",
-          "question": "What were the hookings on the outer curtain's south side?"
-        }
-      ],
-      "finalRuling": "The outer curtain had hookings on the south side that shaped the HP's path between the two curtains.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-052b-s03",
-      "lineRange": {
-        "startVilnaLine": 27,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.52b.12"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.52b.13"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.52b.14"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.52b.15"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.52b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.52b.12",
-        "Yoma.52b.13",
-        "Yoma.52b.14",
-        "Yoma.52b.15",
-        "Yoma.52b.16"
-      ],
-      "display": {
-        "whats": "Josiah hid the Ark of the Covenant - a Mishna records this tradition",
-        "hint": "The Mishna records that King Josiah hid the Ark so it would not be taken into Babylonian exile. This explains why the Ark was absent in the Second Temple, yet the HP's service continued in its designated location.",
-        "title": "Josiah Hid the Ark; Second Temple HP Sprinkled on the Even Ha-Shetiya"
-      },
-      "learning": {
-        "ahaMoment": "The Ark was hidden, not destroyed - preserving hope of its future restoration while explaining the Second Temple's absence of the physical Ark.",
-        "memoryAnchor": "Josiah hid the Ark to protect it. In the Second Temple, the HP sprinkled on the even ha-shetiya where the Ark had stood.",
-        "learnerQuestion": "If the Ark was not present in the Second Temple, how did the High Priest know where to aim his blood sprinkling on Yom Kippur?",
-        "coreTension": "The inner sprinkling rite requires a target; the Ark with its kapporet served as that target in the First Temple, but the Second Temple had no Ark. The question is whether the rite was fundamentally changed or preserved with a new target.",
-        "coreMove": "The Talmud teaches that King Josiah hid the Ark underground when he foresaw the Exile, and that in the Second Temple the HP sprinkled on the even ha-shetiya (foundation stone) which stood in the place where the Ark had been.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "In the Second Temple, the High Priest sprinkled on the even ha-shetiya in the precise location where the Ark had stood, preserving the spatial integrity of the rite despite the Ark's absence."
-        },
-        "learningBlocker": "Students either assume the Ark was destroyed (not hidden) or assume that its absence completely changed or invalidated the Second Temple Yom Kippur service."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "King Josiah hid the Ark of the Covenant so it would not be taken to Babylon.",
-          "id": "yoma-052b-l12",
-          "label": "Ruling: King Josiah hid the Ark of the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "type": "implication",
-          "speaker": "Gemara",
-          "text": "In the Second Temple, the HP sprinkled blood on the even ha-shetiya (foundation stone) where the Ark had stood.",
-          "id": "yoma-052b-l13",
-          "label": "Implication: In the Second Temple, the HP sprinkled",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l13",
-              "vilnaLine": 13
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Josiah",
-        "Ark hidden",
-        "even ha-shetiya",
-        "Second Temple",
-        "Ark of the Covenant"
-      ],
-      "concepts": {
-        "halachic": [
-          "HP sprinkles on even ha-shetiya in absence of Ark"
-        ],
-        "theological": [
-          "Ark's preservation and future restoration"
-        ],
-        "narrative": [
-          "Josiah's protection of the Ark"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Second Temple period",
-        "Ark of the Covenant",
-        "blood sprinkling location"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Ark was destroyed by the Babylonians, so the Second Temple had no valid target for the Yom Kippur blood sprinkling.",
-          "correction": "According to talmudic tradition, King Josiah hid the Ark underground before the Exile; in the Second Temple, the HP sprinkled on the even ha-shetiya that marked the Ark's original location."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "Ark of the Covenant",
-        "Josiah",
-        "foundation stone",
-        "Holy of Holies"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Josiah hid the Ark to protect it from Babylon. In the Second Temple (which lacked the Ark), the HP sprinkled blood on the foundation stone (even ha-shetiya) where the Ark had stood.",
-          "question": "What did Josiah do with the Ark and why does it matter for Yom Kippur?"
-        }
-      ],
-      "finalRuling": "Josiah hid the Ark; in the Second Temple the HP sprinkled blood on the foundation stone (even ha-shetiya).",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-052b-s04",
-      "lineRange": {
-        "startVilnaLine": 39,
-        "endVilnaLine": 42
-      },
-      "lines": [
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.52b.17"
-        },
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.52b.18"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.52b.17",
-        "Yoma.52b.18"
-      ],
-      "display": {
-        "whats": "Mishna: the HP piles the incense on the coals inside the Holy of Holies",
-        "hint": "The Mishna describes the HP piling the incense on the coal pan inside the Holy of Holies. He must approach from a specific direction and pile it carefully.",
-        "title": "Incense Placed on Coals Inside the Holy of Holies"
-      },
-      "learning": {
-        "ahaMoment": "The incense cloud inside the Holy of Holies creates the divine protective presence - it must fill the entire space before the HP approaches the kapporet.",
-        "memoryAnchor": "HP piles incense on coals inside the Holy of Holies - the smoke fills the sacred space, creating the protective cloud.",
-        "learnerQuestion": "Does the High Priest pile the incense onto the coal pan before entering the Holy of Holies, or does the incense placement happen after he is already inside?",
-        "coreTension": "The Sadducean view was that the HP should load the incense outside and enter with a full cloud of smoke already formed; the Pharisaic view requires the incense to be placed on the coals only after the HP is inside the Holy of Holies.",
-        "coreMove": "The Talmud establishes the Pharisaic ruling: the HP carries the fire pan and incense pan separately into the Holy of Holies, and only then places the incense on the coals so the cloud forms inside - before the blood sprinkling.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest places the incense onto the coals only after entering the Holy of Holies, so that the incense cloud forms inside the chamber; this happens before the blood service begins."
-        },
-        "learningBlocker": "The practical difficulty of carrying a full incense pan and fire pan separately into a small chamber while maintaining ritual integrity is not obvious; students may assume the simpler preparation-outside approach is correct."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "The HP piles incense on the coal pan inside the Holy of Holies from a specific approach direction.",
-          "id": "yoma-052b-l17",
-          "label": "Ruling: The HP piles incense on the coal",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l17",
-              "vilnaLine": 17
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "The incense smoke fills the Holy of Holies before the HP approaches the kapporet with blood.",
-          "id": "yoma-052b-l18",
-          "label": "Explanation: The incense smoke fills the Holy of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-052b-l18",
-              "vilnaLine": 18
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "incense piling",
-        "Holy of Holies",
-        "coal pan",
-        "protective smoke",
-        "kapporet"
-      ],
-      "concepts": {
-        "halachic": [
-          "incense precedes blood sprinkling inside Holy of Holies",
-          "incense smoke protects HP"
-        ],
-        "theological": [
-          "divine cloud of incense"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "incense service",
-        "Holy of Holies service order",
-        "protective cloud"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP prepares the full incense cloud outside the Holy of Holies before entering, so he enters already surrounded by smoke.",
-          "correction": "The HP carries the fire pan and incense separately into the Holy of Holies and only then piles the incense on the coals; the cloud forms inside, before the blood service begins."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP",
-        "coal pan",
-        "incense smoke",
-        "Holy of Holies"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "First the incense is piled on the coals (creating the protective smoke cloud), then the blood is sprinkled toward the kapporet. The smoke precedes the blood service.",
-          "question": "What is the order of service inside the Holy of Holies?"
-        }
-      ],
-      "finalRuling": "Inside the Holy of Holies: incense is piled on coals first (creating protective cloud), then blood is sprinkled.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.4"
+    },
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.5"
+    },
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.52b.6"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.52b.7"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.52b.1",
+    "Yoma.52b.2",
+    "Yoma.52b.3",
+    "Yoma.52b.4",
+    "Yoma.52b.5",
+    "Yoma.52b.6",
+    "Yoma.52b.7"
+   ],
+   "display": {
+    "whats": "Four words in the Torah whose meaning is uncertain: Se'et, Meshukkadim, Mahar, Arur",
+    "hint": "The Gemara identifies four biblical words with uncertain meanings: Se'et (elevation/skin disease?), Meshukkadim (almond-like?), Mahar (tomorrow/soon?), and Arur (cursed?). Their ambiguity affects practical halachic rulings.",
+    "title": "Four Torah Words of Uncertain Meaning"
+   },
+   "learning": {
+    "ahaMoment": "Even foundational Torah words can have uncertain meanings - demonstrating that halachic precision requires ongoing textual analysis.",
+    "memoryAnchor": "Four uncertain Torah words: the Sages preserved the uncertainty rather than deciding arbitrarily.",
+    "learnerQuestion": "Were there words in the Torah whose meaning was genuinely unknown even to the Sages, or was every Hebrew word always understood through an unbroken tradition?",
+    "coreTension": "The Oral Torah is supposed to preserve the meaning of every word; yet the Talmud identifies four Torah words (se'et, meshukkadim, mahar, arur) whose precise meaning was uncertain even among the greatest scholars.",
+    "coreMove": "The Talmud acknowledges that even the Sages had gaps in their lexical tradition; certain rare or archaic words survived only in usage contexts that left their precise meaning unclear, requiring deduction from context rather than direct transmission.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The Oral Torah preserves meaning for most words through living tradition, but rare terms could become uncertain even for the greatest Sages when the chain of direct transmission was thin."
+    },
+    "learningBlocker": "Students assume the Oral Torah is a complete and gapless record; the admission that specific words were uncertain can seem like a theological problem rather than an honest record of tradition."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Se'et - a word in the tzara'at (skin disease) section with uncertain meaning.",
-      "linkedGemaraLineIds": []
+     "type": "teaching",
+     "speaker": "Gemara",
+     "text": "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
+     "id": "yoma-052b-l01",
+     "label": "Teaching: Four words in the Torah have uncertain",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "Meshukkadim - possibly 'almond-shaped' as in the Menorah, but the exact meaning is uncertain.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Mahar - 'tomorrow' or 'soon' - the temporal scope is uncertain in various contexts.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Arur - 'cursed' - appears in oaths and blessings; exact force of the term is debated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "These four words were flagged by the Sages as having uncertain meanings that affect halacha.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The tradition of uncertainty was preserved rather than resolved arbitrarily.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Preserving uncertainty shows intellectual honesty: when the meaning was not clear, it was left open.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "The outer parochet (Sanctuary curtain) had hookings (kavim) on the south side.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "These hookings held the outer curtain in place and determined the HP's entry path.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The HP walked between the two curtains (outer and inner parochet) on the south side.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The space between the curtains was one cubit wide (per R. Natan on 52a).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Josiah hid the Ark of the Covenant when he saw the Temple's destruction was imminent.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "He hid it in a chamber beneath the Temple floor so it would not be taken to Babylon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The Mishna records this tradition: the Ark was not destroyed but concealed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "In the Second Temple, the Holy of Holies had no Ark - the HP sprinkled on the even ha-shetiya.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The even ha-shetiya (foundation stone) was the location where the Ark had stood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The HP piles incense on the coal pan inside the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "He approaches the coal pan from a specific direction - not from in front of it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The incense smoke fills the Holy of Holies before the HP approaches the kapporet location.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The smoke cloud is the divine protection ('cloud') required before entering the innermost space.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "After the smoke fills the space, the HP approaches to sprinkle the blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The precise sequence - incense then blood - is mandated by the Torah (Lev. 16).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The order cannot be reversed: blood before incense would expose the HP without protection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The protective cloud is not just symbolic - it is a legal requirement for the HP's safety.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "If the HP entered without creating the cloud first, the service is invalid and his life is at risk.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The Gemara discusses whether the smoke must completely fill the space before blood is sprinkled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The HP must ensure the cloud covers the entire kapporet area before approaching.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "This requirement drove the precise measurement of incense - enough to fill the space.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "The incense measurement was calculated to produce the exact amount of smoke needed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "This section concludes the Mishna description of the incense service inside the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The next section (53a) will discuss where exactly the HP placed the incense on the coals.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Specifically: did he pile it in front of the coal pan or beside it?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "And what was the direction of approach when piling the incense?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The Sadducee position (53a) is that the HP should pile incense outside before entering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The Pharisee/rabbinic position is that he piles it inside - this is the accepted halacha.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The Sadducee interpretation is rejected; the accepted ruling is incense inside the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "This dispute between Sadducees and Pharisees about incense timing is a famous halachic debate.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The Gemara on 53a will present the full Sadducee objection and the rabbinic response.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The rabbinic position is based on the verse structure and logical analysis of the service order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The Sadducee position derives from a different reading of 'and he shall fill his hands.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The resolution on 53a is decisive: the incense is piled inside, not outside, the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "This concludes the 52b Rashi section; 53a begins the incense placement debate.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Summary of 52b: four uncertain words, curtain hookings, Ark hidden by Josiah, incense piling Mishna.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Each topic has architectural, textual, and historical significance for understanding Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "The Ark's absence explains why Second Temple Yom Kippur was performed toward the foundation stone.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "The incense sequence protects the HP - the cloud must precede the blood sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "These details together explain the complete inner-service protocol of the Second Temple HP.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "End of 52b Rashi section.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "The next major section (53a-53b) deals with the incense placement and the Sadducee challenge.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "The Gemara will show that the Sadducee interpretation is textually and logically untenable.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "The rabbinic position has been the accepted practice and remains so.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "The HP's unique access to the Holy of Holies and his precise protocol reflects the most careful sacred law in Judaism.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Every detail discussed in these pages (52a-52b) was essential for the HP's successful service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "A single mistake would invalidate the service; multiple mistakes could cost the HP his life.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The Talmud's extensive discussion of these details reflects the gravity of the service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi's commentary makes these details accessible for every generation of learners.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "End of 52b Rashi.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "53a continues with 'not from the front when piling incense' - the approach direction.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "This is the first major topic on 53a and directly follows the incense Mishna from 52b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "The transition between 52b and 53a is seamless - the incense service discussion continues.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "The four uncertain words and Josiah's hiding of the Ark are important theological notes.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "They remind us that even in the most precise halachic discussions, larger questions remain.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "en": "The uncertainty of certain words teaches humility; Josiah's hiding of the Ark teaches hope.",
-      "linkedGemaraLineIds": []
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
+     "id": "yoma-052b-l02",
+     "label": "Explanation: Each word appears in a context that",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l02",
+       "vilnaLine": 2
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "four uncertain words",
+    "Se'et",
+    "Meshukkadim",
+    "Mahar",
+    "Arur",
+    "biblical interpretation"
+   ],
+   "concepts": {
+    "halachic": [
+     "uncertain word meanings preserved in tradition"
+    ],
+    "theological": [
+     "Torah text requires ongoing interpretation"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tzara'at laws",
+    "Temple Menorah description",
+    "biblical lexicography"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The meaning of every word in the Torah was always perfectly clear to the Sages through the Oral Torah tradition.",
+     "correction": "The Talmud honestly records that four specific Torah words had uncertain meanings even for the greatest scholars, because rare words could become unclear when direct oral transmission was thin."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "Four Torah words with uncertain meanings: Se'et, Meshukkadim, Mahar, Arur",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Se'et, Meshukkadim, Mahar, and Arur - four words whose precise meaning was uncertain to the Sages, affecting halachic decisions in areas of skin disease, Temple vessels, timing, and oaths/curses.",
+     "question": "What are the four uncertain Torah words and why do they matter?"
+    }
+   ],
+   "finalRuling": "Four biblical words (Se'et, Meshukkadim, Mahar, Arur) have uncertain meanings preserved by tradition.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-052b-s02",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 22
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.52b.8"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.52b.9"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.52b.10"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.52b.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.52b.8",
+    "Yoma.52b.9",
+    "Yoma.52b.10",
+    "Yoma.52b.11"
+   ],
+   "display": {
+    "whats": "The outer curtain of the Sanctuary had hookings on the south side - what was their function?",
+    "hint": "The Gemara describes the outer parochet's hookings (kavim) on the south side that held it in place. This architectural detail relates to how the HP moved between the curtains.",
+    "title": "Parochet Hookings on the South Side"
+   },
+   "learning": {
+    "ahaMoment": "Temple architecture was precisely designed to support the service - even a curtain's hookings had halachic significance.",
+    "memoryAnchor": "Curtain hookings on the south side: architectural details that shaped the HP's path.",
+    "learnerQuestion": "Was the location of the parochet's attachment hooks on the south side a purely architectural detail, or did it have functional significance for the Yom Kippur service?",
+    "coreTension": "Temple architectural details could be arbitrary or deliberately functional; the parochet's south-side hookings need to be understood as either a construction convention or as something tied to the HP's ritual path.",
+    "coreMove": "The Talmud establishes that the south-side hookings were practically significant: they positioned the parochet's accessible opening along the HP's route into the Holy of Holies, integrating Temple architecture with the ritual path.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The parochet's hookings were located on the south side because that aligned with the High Priest's entry path into the Holy of Holies, making Temple architecture functionally integrated with the ritual sequence."
+    },
+    "learningBlocker": "Learners treat Temple architectural details as background information rather than as legally and ritually significant facts; the hooking location seems like a building detail but is actually connected to the ritual path."
+   },
+   "argumentFlow": [
+    {
+     "type": "description",
+     "speaker": "Gemara",
+     "text": "The outer Sanctuary curtain had hookings on the south side that held it in place.",
+     "id": "yoma-052b-l08",
+     "label": "Description: The outer Sanctuary curtain had hookings on",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l08",
+       "vilnaLine": 8
+      }
+     ]
+    },
+    {
+     "type": "implication",
+     "speaker": "Gemara",
+     "text": "These hookings determined the path the HP could use when walking between the two curtains.",
+     "id": "yoma-052b-l09",
+     "label": "Implication: These hookings determined the path the HP",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l09",
+       "vilnaLine": 9
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Sanctuary curtain",
+    "hookings",
+    "Temple architecture",
+    "outer parochet"
+   ],
+   "concepts": {
+    "halachic": [
+     "curtain hookings on south side"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple architecture",
+    "parochet structure",
+    "HP entry path"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The parochet hookings were placed on the south side for purely structural reasons with no bearing on the ritual.",
+     "correction": "The south-side hookings were positioned to facilitate the High Priest's ritual path into the Holy of Holies; Temple architecture was designed to align with and support the ritual sequence."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "Sanctuary curtain",
+    "hookings",
+    "Temple layout"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Structural attachments that held the outer parochet in place. Their placement on the south side affected the path the HP could take when walking between the two curtains into the Holy of Holies.",
+     "question": "What were the hookings on the outer curtain's south side?"
+    }
+   ],
+   "finalRuling": "The outer curtain had hookings on the south side that shaped the HP's path between the two curtains.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-052b-s03",
+   "lineRange": {
+    "startVilnaLine": 27,
+    "endVilnaLine": 36
+   },
+   "lines": [
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.52b.12"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.52b.13"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.52b.14"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.52b.15"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.52b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.52b.12",
+    "Yoma.52b.13",
+    "Yoma.52b.14",
+    "Yoma.52b.15",
+    "Yoma.52b.16"
+   ],
+   "display": {
+    "whats": "Josiah hid the Ark of the Covenant - a Mishna records this tradition",
+    "hint": "The Mishna records that King Josiah hid the Ark so it would not be taken into Babylonian exile. This explains why the Ark was absent in the Second Temple, yet the HP's service continued in its designated location.",
+    "title": "Josiah Hid the Ark; Second Temple HP Sprinkled on the Even Ha-Shetiya"
+   },
+   "learning": {
+    "ahaMoment": "The Ark was hidden, not destroyed - preserving hope of its future restoration while explaining the Second Temple's absence of the physical Ark.",
+    "memoryAnchor": "Josiah hid the Ark to protect it. In the Second Temple, the HP sprinkled on the even ha-shetiya where the Ark had stood.",
+    "learnerQuestion": "If the Ark was not present in the Second Temple, how did the High Priest know where to aim his blood sprinkling on Yom Kippur?",
+    "coreTension": "The inner sprinkling rite requires a target; the Ark with its kapporet served as that target in the First Temple, but the Second Temple had no Ark. The question is whether the rite was fundamentally changed or preserved with a new target.",
+    "coreMove": "The Talmud teaches that King Josiah hid the Ark underground when he foresaw the Exile, and that in the Second Temple the HP sprinkled on the even ha-shetiya (foundation stone) which stood in the place where the Ark had been.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "In the Second Temple, the High Priest sprinkled on the even ha-shetiya in the precise location where the Ark had stood, preserving the spatial integrity of the rite despite the Ark's absence."
+    },
+    "learningBlocker": "Students either assume the Ark was destroyed (not hidden) or assume that its absence completely changed or invalidated the Second Temple Yom Kippur service."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "King Josiah hid the Ark of the Covenant so it would not be taken to Babylon.",
+     "id": "yoma-052b-l12",
+     "label": "Ruling: King Josiah hid the Ark of the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "type": "implication",
+     "speaker": "Gemara",
+     "text": "In the Second Temple, the HP sprinkled blood on the even ha-shetiya (foundation stone) where the Ark had stood.",
+     "id": "yoma-052b-l13",
+     "label": "Implication: In the Second Temple, the HP sprinkled",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l13",
+       "vilnaLine": 13
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Josiah",
+    "Ark hidden",
+    "even ha-shetiya",
+    "Second Temple",
+    "Ark of the Covenant"
+   ],
+   "concepts": {
+    "halachic": [
+     "HP sprinkles on even ha-shetiya in absence of Ark"
+    ],
+    "theological": [
+     "Ark's preservation and future restoration"
+    ],
+    "narrative": [
+     "Josiah's protection of the Ark"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Second Temple period",
+    "Ark of the Covenant",
+    "blood sprinkling location"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Ark was destroyed by the Babylonians, so the Second Temple had no valid target for the Yom Kippur blood sprinkling.",
+     "correction": "According to talmudic tradition, King Josiah hid the Ark underground before the Exile; in the Second Temple, the HP sprinkled on the even ha-shetiya that marked the Ark's original location."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "Ark of the Covenant",
+    "Josiah",
+    "foundation stone",
+    "Holy of Holies"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Josiah hid the Ark to protect it from Babylon. In the Second Temple (which lacked the Ark), the HP sprinkled blood on the foundation stone (even ha-shetiya) where the Ark had stood.",
+     "question": "What did Josiah do with the Ark and why does it matter for Yom Kippur?"
+    }
+   ],
+   "finalRuling": "Josiah hid the Ark; in the Second Temple the HP sprinkled blood on the foundation stone (even ha-shetiya).",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-052b-s04",
+   "lineRange": {
+    "startVilnaLine": 39,
+    "endVilnaLine": 42
+   },
+   "lines": [
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.52b.17"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.52b.18"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.52b.17",
+    "Yoma.52b.18"
+   ],
+   "display": {
+    "whats": "Mishna: the HP piles the incense on the coals inside the Holy of Holies",
+    "hint": "The Mishna describes the HP piling the incense on the coal pan inside the Holy of Holies. He must approach from a specific direction and pile it carefully.",
+    "title": "Incense Placed on Coals Inside the Holy of Holies"
+   },
+   "learning": {
+    "ahaMoment": "The incense cloud inside the Holy of Holies creates the divine protective presence - it must fill the entire space before the HP approaches the kapporet.",
+    "memoryAnchor": "HP piles incense on coals inside the Holy of Holies - the smoke fills the sacred space, creating the protective cloud.",
+    "learnerQuestion": "Does the High Priest pile the incense onto the coal pan before entering the Holy of Holies, or does the incense placement happen after he is already inside?",
+    "coreTension": "The Sadducean view was that the HP should load the incense outside and enter with a full cloud of smoke already formed; the Pharisaic view requires the incense to be placed on the coals only after the HP is inside the Holy of Holies.",
+    "coreMove": "The Talmud establishes the Pharisaic ruling: the HP carries the fire pan and incense pan separately into the Holy of Holies, and only then places the incense on the coals so the cloud forms inside - before the blood sprinkling.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest places the incense onto the coals only after entering the Holy of Holies, so that the incense cloud forms inside the chamber; this happens before the blood service begins."
+    },
+    "learningBlocker": "The practical difficulty of carrying a full incense pan and fire pan separately into a small chamber while maintaining ritual integrity is not obvious; students may assume the simpler preparation-outside approach is correct."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "The HP piles incense on the coal pan inside the Holy of Holies from a specific approach direction.",
+     "id": "yoma-052b-l17",
+     "label": "Ruling: The HP piles incense on the coal",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l17",
+       "vilnaLine": 17
+      }
+     ]
+    },
+    {
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "The incense smoke fills the Holy of Holies before the HP approaches the kapporet with blood.",
+     "id": "yoma-052b-l18",
+     "label": "Explanation: The incense smoke fills the Holy of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-052b-l18",
+       "vilnaLine": 18
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "incense piling",
+    "Holy of Holies",
+    "coal pan",
+    "protective smoke",
+    "kapporet"
+   ],
+   "concepts": {
+    "halachic": [
+     "incense precedes blood sprinkling inside Holy of Holies",
+     "incense smoke protects HP"
+    ],
+    "theological": [
+     "divine cloud of incense"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "incense service",
+    "Holy of Holies service order",
+    "protective cloud"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP prepares the full incense cloud outside the Holy of Holies before entering, so he enters already surrounded by smoke.",
+     "correction": "The HP carries the fire pan and incense separately into the Holy of Holies and only then piles the incense on the coals; the cloud forms inside, before the blood service begins."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP",
+    "coal pan",
+    "incense smoke",
+    "Holy of Holies"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "First the incense is piled on the coals (creating the protective smoke cloud), then the blood is sprinkled toward the kapporet. The smoke precedes the blood service.",
+     "question": "What is the order of service inside the Holy of Holies?"
+    }
+   ],
+   "finalRuling": "Inside the Holy of Holies: incense is piled on coals first (creating protective cloud), then blood is sprinkled.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Se'et' - is it from 'is it not that if you improve, there is se'et' (Genesis 4), and it is a term of forgiveness, or is se'et",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'if you do not improve' - and it is a term for the bearing of sin. New comment: 'meshukkadim' - the four cups",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "almond-shaped (Exodus 25), or does 'meshukkadim' modify 'its knobs and its flowers'? New comment: 'tomorrow' - 'and go out",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and fight Amalek tomorrow' (there, 17), or 'go out and fight Amalek at once, and tomorrow I",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "will stand, and today you do not need my prayer.'",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'Cursed' - 'and in their willfulness they hamstrung an ox' (Genesis",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "49) - cursed be the ox of Shechem, which",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "descends from the cursed Canaan, or cursed be their wrath, for it is fierce.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "'And he shall arise' - 'behold, you shall lie with your fathers, and shall rise up'",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "(Deuteronomy 31), and here it hints at the resurrection of",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l01a",
+    "yoma-052b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the dead; or 'and this people shall rise up and stray.' New comment: 'and they offered up",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "burnt-offerings, lambs' - and the practical difference is to place here",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the cantillation accent at the etnachta, or perhaps both",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "refer to oxen, and there is no etnachta accent",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "on 'burnt-offerings,' but rather the geresh accent, so it reads 'and they offered up'",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "burnt-offerings, so that it joins with what follows it.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "'Mishnah: the outer curtain was hung from",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "the south' - the Rabbis say this. New comment: 'hung' -",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "its edge was doubled toward the outside, and fastened",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "with a golden hook, so that it would be open",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "and standing ajar. New comment: 'he walks between them' - he enters",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "at the southern hanging-point and walks between them until",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "he reaches the northern hanging-point. New comment: 'he reached",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the north' - and once he entered the chamber",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "he turned his face to the south, to go until between",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the staves, which were in the middle of the chamber, as",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the master said (Bava Batra 99a): the Ark that Moshe made",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "had ten cubits of airspace around it in the House",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "of the Holy of Holies, on every side.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'he walks to his left along the curtain' - since one walking",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "from north to south has his left toward the east, and the curtain",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "was to his east in the chamber, between the two",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "staves, and the staves were long, reaching until",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the curtain, one end to the west and the other",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "to the east, one at the head of the Ark to the north",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "and one at its head to the south, and the length was two cubits",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "and a half of the Ark's own length between them. New comment: 'by the way he entered' -",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l11",
+    "yoma-052b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "just as he entered, when going toward the south, until",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "he reached the Ark, his face was toward the south, so too",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "when he left, he did not turn his face to leave, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "he exits backward, with his face toward the Ark. New comment: 'in the house",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the outer' - in the Sanctuary. New comment: 'Gemara: were there",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l14",
+    "yoma-052b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "curtains' - it was the cubit of the partition. New comment: 'you shall place",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l20",
+    "yoma-052b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "in a chest at its side' - so this shows it was located near the Ark",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and we thereby learn that it was hidden together with it.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "'The Lord will lead you' - and he was worried it might be exiled to Babylon.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "'Place the holy Ark in the house' - but was it not already",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "there? Rather, this refers to its hiding away. New comment: 'the verbal analogy of there'",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l30",
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "'there, etc.' - it is written regarding the Ark: 'where I will meet",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "you there' (Exodus 30), and it is written regarding the jar of manna",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'and put there an omer-full' (there, 16),",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and the analogy extends to the flask from the jar of manna. New comment: 'generations",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "generations' - it is written regarding the jar: 'for a keeping",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34",
+    "yoma-052b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "for your generations' (there), and it is written regarding the flask",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "'this shall be a sacred anointing oil, etc.'",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "(there, 30), and the analogy extends to Aharon's staff",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l34",
+    "yoma-052b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "from the jar via the analogy of keeping-keeping, since it is written regarding it: 'as a keeping, as a sign for the rebellious",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "(Numbers 17). New comment: 'as if between the two staves' - as if they were there, and he places it between them. New comment: 'we learned' -",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l35",
+    "yoma-052b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "the Mishnah is like the one who says in the baraita above (49b): he piles it so that its smoke lingers",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "before rising. New comment: 'one baraita taught: he piles it on the inner side, which is the outer side relative to him' - he begins piling it at the edge",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "of the coal-pan on the inner side, since that edge of the pan is not on the side of his hand, and he goes on drawing his hand toward himself, piling continuously with a drawing motion until the second edge of the pan, which is near the",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "handle. New comment: 'and another baraita taught' - he begins piling it at the edge facing outward toward the Sanctuary, which is the inner side relative to him, on the side of his body, and he goes on piling continuously forward until the second edge of the pan.",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l39",
+    "yoma-052b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "Not (continues on 53a).",
+   "linkedGemaraLineIds": [
+    "yoma-052b-l42"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
