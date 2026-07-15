@@ -5782,3 +5782,41 @@ self-review's anchorPoorAttestation block confirms no citation was
 invented, moved, or duplicated to satisfy the detector - all of which
 hold here. No allowlist entries existed for 48b to remove. Remaining
 campaign targets: 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.
+
+### 49a realigned (VERSION 15.107, rashi-realignment, Sonnet worker)
+
+Fresh diagnosis confirmed the previously-suspected "mixed" state: raw
+count 64 = entries 64 (structurally sound), all 64 entries unlinked,
+and classification ALIGNED but with only 2 of 4 citation anchors
+found. Manual line-by-line comparison found most entries were genuine,
+if imprecisely bounded, translations rather than fabricated, with a
+real localized shift around vilnaLine 16-24 (the English anticipated
+content from raw lines one or more positions ahead of its own
+vilnaLine). Classified rashi-realignment.
+
+Rebuilt all 64 entries so each translates only its own raw print line,
+linked semantically against the 20-id local segment table: vl1-7 the
+zar/onen/shikor/ba'al-mum disqualification list and its Zevachim 16a
+citation (l01, l03); vl8-14 the text-critical note and the
+itztaba-bench elaboration (l08, l10); vl15-19 Rav Pappa's chafinah
+dilemma into Rabbi Yehoshua ben Levi's scoop-and-die question (l12,
+l15); vl19-31 Rabbi Chanina's paraphrase and the shachalayim/cress
+remedy digression proving seniority (l15, l17); vl32-43 Rabbi
+Chanina's refined restatement and the bull-not-blood ruling with its
+Leviticus 16 citation (l32, l34); vl44-59 Rabbi Chanina's
+incense-before-slaughter ruling and Rashi's proof of Yehoshua ben
+Levi's position (l36, l38, l41); vl59-63 Rav Pappa's and Rav Huna's
+opposing positions on chofen-chozer-vechofen (l41, l46, l43). vl64 (a
+truncated word) was checked against 49b's actual first raw Rashi line
+(confirmed from source), which opens describing the mechanics of "the
+second scooping, which is inside" - directly explaining l46's own
+"is its measure inside like its measure outside" question, so it links
+there as the semantically correct anchor. l47 and l48 are confirmed
+legitimately unused by any Rashi comment on 49a.
+
+All 4 of the semantic audit's citation anchors (Zevachim 16a,
+Deuteronomy 18, Leviticus 16, and their name tokens) now land at
+offset 0, versus 2 of 4 found before. Post-repair profile: ALIGNED, 4
+anchors found, 0 missing. Corpus semantic audit: 0 shift candidates.
+No allowlist entries existed for 49a to remove. Remaining campaign
+targets: 49b, 50a, 50b, 51a, 51b, 52a, 52b.
