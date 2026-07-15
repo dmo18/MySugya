@@ -99,6 +99,103 @@ def load_manifest(path):
     return m, types[m["type"]]
 
 
+ALLOWLIST_DRAIN_TYPES = ("rashi-reconstruction", "rashi-realignment")
+
+
+def content_allowlist_entries(daf=None):
+    ca_path = YSCRIPTS / "allowlists" / "rashi_content_allowlist.json"
+    entries = json.loads(ca_path.read_text()).get("entries", [])
+    return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def validate_allowlist_drain(m, daf):
+    """Check whether m's allowlistDrain snapshot legitimately authorizes
+    starting rashi-reconstruction/rashi-realignment on daf despite
+    pre-existing content-allowlist debt for that exact daf. Returns
+    (ok, note). This is target-scoped repair debt, not new tolerance: the
+    snapshot must equal (not merely cover) daf's CURRENT allowlist
+    entries, so it can neither hide unrelated debt nor claim entries that
+    were added after the snapshot was taken. Ordinary task types (those
+    outside ALLOWLIST_DRAIN_TYPES) can never use this authorization, and
+    a manifest naming more than one target (or a target other than daf)
+    is rejected outright, since the drain is single-daf by design."""
+    if m["type"] not in ALLOWLIST_DRAIN_TYPES:
+        return False, (f"allowlist-drain authorization only applies to "
+                        f"{'/'.join(ALLOWLIST_DRAIN_TYPES)}, not {m['type']!r}")
+    if len(m.get("targets", [])) != 1 or m["targets"][0] != daf:
+        return False, "allowlist-drain authorization requires a single-target manifest matching the daf"
+    drain = m.get("allowlistDrain")
+    if not drain or not drain.get("authorized"):
+        return False, "no allowlistDrain authorization on manifest"
+    snapshot = drain.get("snapshot", [])
+    foreign = [e for e in snapshot if e.get("daf") != daf]
+    if foreign:
+        return False, f"allowlistDrain snapshot contains entries outside target daf {daf!r}: {foreign}"
+    snap_set = {(e["vilnaLine"], e["reason"]) for e in snapshot}
+    current_set = {(e["vilnaLine"], e["reason"]) for e in content_allowlist_entries(daf)}
+    if current_set != snap_set:
+        return False, (f"allowlistDrain snapshot does not match {daf}'s current allowlist entries "
+                        f"(snapshot {sorted(snap_set)} vs current {sorted(current_set)}); "
+                        "regenerate the manifest so the snapshot matches exactly")
+    return True, (f"allowlist-drain authorized: {len(snap_set)} pre-existing "
+                  f"entr{'y' if len(snap_set) == 1 else 'ies'} for {daf} accepted as repair debt, "
+                  "not new tolerance")
+
+
+def allowlist_drain_status(m, old_entries, new_entries, stale_pairs):
+    """Pure post-edit check of whether a manifest's allowlistDrain snapshot
+    was actually eliminated by this PR's content fix. old_entries/new_entries
+    are the full content-allowlist entry lists before/after this PR's diff;
+    stale_pairs is the set of (daf, vilnaLine) the content validator
+    currently reports as no longer violating (validate_rashi_content.py
+    --json's "stale" list). Returns (ok, messages); ok is True with no
+    messages when the manifest carries no drain authorization (nothing to
+    enforce), so callers can skip printing when there is nothing to say.
+
+    The snapshot is repair debt, not an exemption: this never silently
+    passes just because the snapshot was accepted at preflight. Every
+    snapshotted entry must end up either genuinely removed, or (if still
+    present) explicitly reported stale by the validator so the caller can
+    at least distinguish "cleanup omission" from "content still violates,
+    escalate" in the failure message. A stale-but-not-yet-removed entry
+    still fails, same as a genuinely-still-needed one -- both require a
+    human decision, not an auto-merge."""
+    drain = m.get("allowlistDrain")
+    if not (drain and drain.get("authorized") and m.get("type") in ALLOWLIST_DRAIN_TYPES
+            and len(m.get("targets", [])) == 1):
+        return True, []
+    daf = m["targets"][0]
+    snap_set = {(e["vilnaLine"], e["reason"]) for e in drain.get("snapshot", []) if e["daf"] == daf}
+    current_set = {(e["vilnaLine"], e["reason"]) for e in new_entries if e["daf"] == daf}
+    growth = current_set - snap_set
+    remaining = current_set & snap_set
+    old_other = [e for e in old_entries if e["daf"] != daf]
+    new_other = [e for e in new_entries if e["daf"] != daf]
+    ok = True
+    msgs = []
+    if growth:
+        ok = False
+        msgs.append(f"new/unauthorized allowlist entries for {daf}: {sorted(growth)}")
+    if old_other != new_other:
+        ok = False
+        msgs.append("unrelated allowlist entries (other daf) changed")
+    if remaining:
+        still_needed = sorted(vl for vl, _ in remaining if (daf, vl) not in stale_pairs)
+        stale_not_removed = sorted(vl for vl, _ in remaining if (daf, vl) in stale_pairs)
+        if still_needed:
+            ok = False
+            msgs.append(f"snapshotted entries still needed (content genuinely still violates) "
+                        f"for {daf} L{still_needed}: repair gap, escalate")
+        if stale_not_removed:
+            ok = False
+            msgs.append(f"validator reports these snapshotted entries stale but they were not "
+                        f"removed for {daf} L{stale_not_removed}")
+    if ok:
+        msgs.append(f"all {len(snap_set)} snapshotted entr{'y' if len(snap_set) == 1 else 'ies'} "
+                    f"for {daf} drained; no growth; unrelated entries unchanged")
+    return ok, msgs
+
+
 def expand_range(spec):
     if not spec:
         return []
@@ -240,6 +337,16 @@ def cmd_manifest(opts):
     if max_batch and len(targets) > max_batch:
         sys.exit(f"ERROR: {len(targets)} targets exceed maxBatch {max_batch} for {opts.type!r}; "
                  f"split the range into smaller PRs")
+    allowlist_drain = None
+    if opts.drain_allowlist:
+        if opts.type not in ALLOWLIST_DRAIN_TYPES:
+            sys.exit(f"ERROR: --drain-allowlist is only valid for "
+                     f"{'/'.join(ALLOWLIST_DRAIN_TYPES)}, not {opts.type!r}")
+        if len(targets) != 1:
+            sys.exit("ERROR: --drain-allowlist requires exactly one target daf")
+        daf = targets[0]
+        snapshot = content_allowlist_entries(daf)
+        allowlist_drain = {"authorized": True, "snapshot": snapshot}
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -260,6 +367,7 @@ def cmd_manifest(opts):
         "generationCommands": spec["generationCommands"],
         "buildTestCommands": spec["buildTestCommands"],
         "escalationTriggers": spec["escalationTriggers"],
+        "allowlistDrain": allowlist_drain,
     }
     out = json.dumps(manifest, indent=1)
     if opts.out:
@@ -323,10 +431,19 @@ def cmd_preflight(opts):
             r = subprocess.run([sys.executable, "scripts/rashi_preflight.py", daf, "--task", task],
                                capture_output=True, text=True, cwd=YROOT, env=child_env)
             per_daf_errors = [l for l in r.stdout.splitlines() if l.strip().startswith("ERROR") and daf in l]
-            ok = r.returncode == 0 or (opts.dry_run and not per_daf_errors)
-            print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
+            kept_errors = []
             for l in per_daf_errors:
-                errors.append(l.strip().removeprefix("ERROR").strip())
+                msg = l.strip().removeprefix("ERROR").strip()
+                if "has unresolved CONTENT ALLOWLIST hits" in msg:
+                    drain_ok, drain_note = validate_allowlist_drain(m, daf)
+                    if drain_ok:
+                        notes.append(drain_note)
+                        continue
+                    msg = f"{msg} [allowlist-drain not authorized: {drain_note}]"
+                kept_errors.append(msg)
+            ok = not kept_errors
+            print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
+            errors.extend(kept_errors)
     elif m["targets"]:
         for daf in m["targets"]:
             if not (YROOT / "assets" / "talmuddev" / f"{daf}.json").exists():
@@ -655,6 +772,24 @@ def cmd_verify(opts):
                 shrank_or_equal = False
         if m.get("type") == "placeholder-backfill" and not shrank_or_equal:
             results.append(("allowlist-shrink", False))
+
+        # Allowlist-drain enforcement: a rashi-reconstruction/rashi-realignment
+        # manifest that snapshotted pre-existing target-scoped debt at preflight
+        # must actually eliminate it here. See allowlist_drain_status for the
+        # pure check (unit-tested independently of this subprocess plumbing).
+        if m.get("allowlistDrain"):
+            cr = sh([sys.executable, "scripts/validate_rashi_content.py", "--json"], cwd=YROOT)
+            try:
+                report = json.loads(cr.stdout)
+            except json.JSONDecodeError:
+                report = None
+            stale_pairs = ({(e["daf"], e["vilnaLine"]) for e in report["stale"]} if report else set())
+            drain_ok, drain_msgs = allowlist_drain_status(m, old_entries, new_entries, stale_pairs)
+            if drain_msgs:
+                print("\nallowlist-drain enforcement:")
+                for msg in drain_msgs:
+                    print(f"  {'PASS' if drain_ok else 'FAIL'}  {msg}")
+                results.append(("allowlist-drain", drain_ok))
 
     # Literal-layer coverage delta
     if m["type"] == "literal-layer":
@@ -1555,6 +1690,13 @@ def main():
     p.add_argument("--authorize", action="append", default=None,
                    help="grant an optional authorization defined by the task type "
                         "(e.g. authorizeQuizSeeds); repeatable; Fable-issued only")
+    p.add_argument("--drain-allowlist", action="store_true",
+                   help="snapshot the target daf's CURRENT pre-existing content-allowlist "
+                        "entries into the manifest, authorizing preflight to start "
+                        "rashi-reconstruction/rashi-realignment despite that debt (single "
+                        "target only); the snapshot is repair debt to eliminate, not an "
+                        "exemption, and worker:verify fails if any snapshotted entry is not "
+                        "cleanly removed as validator-confirmed stale")
 
     for name in ("preflight", "packet", "prompt"):
         p = sub.add_parser(name)

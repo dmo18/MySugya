@@ -56,6 +56,61 @@ Direct gate commands, when needed individually: `validate:offline:yoma`
 `worker:scope` (scope only), `worker:schema-matrix` (registry/inventory
 consistency), `worker:docs` (regenerate reference docs).
 
+### Allowlist-drain: starting reconstruction/realignment on pre-existing debt
+
+Preflight blocks a rashi-reconstruction/rashi-realignment task on any
+daf that already carries content-allowlist hits (`rashi_content_allowlist.json`),
+because starting a broad rewrite on top of undocumented-or-deferred
+defects is how scope creep starts. But when fresh diagnosis shows the
+daf genuinely needs the full reconstruction/realignment - not just the
+narrower repair those hits originally documented - the hits are target-
+scoped repair debt the bigger fix is about to eliminate, not a reason to
+narrow scope down to `--task repair`. Use `--drain-allowlist`:
+
+```
+npm run worker:manifest -- --type rashi-reconstruction --module yoma \
+    --range 77a --drain-allowlist --out .worker-manifest.json
+```
+
+This snapshots daf 77a's CURRENT content-allowlist entries into the
+manifest's `allowlistDrain` field (`{"authorized": true, "snapshot": [...]}`)
+and authorizes `worker:preflight` to proceed past those specific hits for
+that daf only. Strict conditions, checked by `validate_allowlist_drain` in
+`scripts/worker_pipeline.py`:
+
+- only `rashi-reconstruction`/`rashi-realignment` manifests qualify (both
+  types already cap at one target daf per PR)
+- the snapshot must equal - not merely cover - the daf's current entries
+  exactly; a stale or hand-edited snapshot (missing an entry that exists,
+  or claiming one that does not) is rejected
+- every snapshotted entry must belong to the single target daf; a
+  snapshot naming another daf's debt authorizes nothing
+- allowlist additions remain forbidden throughout; the drain only ever
+  narrows the ratchet
+
+Do NOT remove the allowlist entries yourself before repairing content;
+the fix comes first. After the full edit, regeneration, and VERSION bump,
+`worker:verify` re-runs `validate_rashi_content.py --json` and enforces
+the drain via `allowlist_drain_status`: every snapshotted entry must end
+up genuinely removed, and if any remain, the check distinguishes and
+fails on either condition -
+"validator reports these snapshotted entries stale but they were not
+removed" (a cleanup omission - remove them and re-run) or
+"snapshotted entries still needed... repair gap, escalate" (the fix did
+not actually resolve that line - stop and escalate, never auto-merge).
+Any new entry for the target daf, or any change to another daf's
+entries, fails the same gate. Remove only the entries the validator's
+stale report actually names; this is the same "remove only when
+validators explicitly report them stale" rule that governs every other
+allowlist removal, just applied to debt that was declared up front
+instead of discovered after the fact.
+
+Ordinary task types (rashi-repair, placeholder-backfill,
+rashi-structural-repair, etc.) can never carry this authorization -
+`--drain-allowlist` is rejected at manifest-generation time for any
+other type, and even a hand-edited manifest claiming it is ignored by
+both preflight and verify.
+
 ## Model roles (non-negotiable)
 
 - Fable: owns the pipeline, schema, validators, registry, allowlist

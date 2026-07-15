@@ -24,6 +24,7 @@ REPORTS but does not fail (yet): suspiciously short en fields (< 20 chars).
 Runs offline. No network. Source of truth is the learning JSON layer, not the
 generated learning_data.js.
 """
+import argparse
 import json
 import re
 import sys
@@ -81,6 +82,13 @@ def violation_for(en):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--json", action="store_true",
+                    help="emit a machine-readable report (errors, stale allowlist "
+                         "entries) on stdout instead of the human-readable report; "
+                         "still exits 1 on error, matching the default mode")
+    opts = ap.parse_args()
+
     allow = set()
     count_allow = {}
     if ALLOWLIST.exists():
@@ -126,6 +134,19 @@ def main():
                 short_reports.append(f"{daf} L{vl}: en only {len(en.strip())} chars: {en.strip()!r}")
 
     stale = sorted(allow - seen_violations)
+    allowed_count = len(seen_violations & allow)
+
+    if opts.json:
+        report = {
+            "checkedDaf": checked_daf,
+            "checkedLines": checked_lines,
+            "errors": errors,
+            "stale": [{"daf": d, "vilnaLine": vl} for d, vl in stale],
+            "allowedCount": allowed_count,
+        }
+        print(json.dumps(report, indent=1))
+        sys.exit(1 if errors else 0)
+
     if stale:
         print(f"NOTE: {len(stale)} allowlist entries no longer violate; remove them from "
               f"{ALLOWLIST.name} to ratchet down:")
@@ -141,7 +162,6 @@ def main():
         if len(short_reports) > 15:
             print(f"  ... and {len(short_reports) - 15} more")
 
-    allowed_count = len(seen_violations & allow)
     if errors:
         print("\nRashi content validation FAILED:\n")
         for e in errors:

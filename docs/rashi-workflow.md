@@ -225,7 +225,13 @@ Every bounded pass follows this loop; each step is a single command:
 
 1. Preflight: `npm run rashi:preflight:yoma -- <daf> [--task repair]`
    Fails on dirty tree, inactive hooks, stale generated data, malformed
-   daf, or allowlisted defects when the task is not a repair type.
+   daf, or allowlisted defects when the task is not a repair type. When a
+   daf's existing content-allowlist hits are target-scoped repair debt
+   that a genuine rashi-reconstruction/rashi-realignment is about to
+   eliminate (not new tolerance), generate the manifest with
+   `worker:manifest -- --drain-allowlist` instead of narrowing to
+   `--task repair`; see "Allowlist-drain" in `docs/worker-pipeline-sop.md`
+   for the exact conditions and the post-edit enforcement that follows.
 2. Packet: `npm run rashi:packet:yoma -- <daf>` (context source of truth).
 3. Edit: only the target daf's rashiTranslations en/linkedGemaraLineIds.
 4. Regenerate + VERSION bump + sync.

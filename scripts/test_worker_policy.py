@@ -609,6 +609,161 @@ def test_no_direct_main_push_anywhere():
               "derives" in r.stdout and "NEVER a direct push to main" in r.stdout)
 
 
+def test_allowlist_drain():
+    print("allowlist-drain authorization (target-scoped repair debt, not new tolerance):")
+
+    fake_entries = [
+        {"daf": "77a", "vilnaLine": 16, "reason": "filler"},
+        {"daf": "77a", "vilnaLine": 17, "reason": "filler"},
+        {"daf": "77b", "vilnaLine": 5, "reason": "filler"},
+    ]
+    orig = wp.content_allowlist_entries
+    wp.content_allowlist_entries = lambda daf=None: [
+        e for e in fake_entries if daf is None or e["daf"] == daf]
+    try:
+        snap_77a = [e for e in fake_entries if e["daf"] == "77a"]
+
+        # 1. target-scoped existing debt does not block authorized reconstruction.
+        m1 = {"type": "rashi-reconstruction", "targets": ["77a"],
+              "allowlistDrain": {"authorized": True, "snapshot": snap_77a}}
+        ok1, note1 = wp.validate_allowlist_drain(m1, "77a")
+        check("1. matching snapshot for the correct single target authorizes the drain", ok1, note1)
+
+        # 2. unrelated-daf entries still block: a snapshot naming a foreign
+        # daf's debt never authorizes this daf.
+        m2 = {"type": "rashi-reconstruction", "targets": ["77a"],
+              "allowlistDrain": {"authorized": True,
+                                 "snapshot": [{"daf": "77b", "vilnaLine": 5, "reason": "filler"}]}}
+        ok2, note2 = wp.validate_allowlist_drain(m2, "77a")
+        check("2. snapshot naming a foreign daf's entries does not authorize this daf",
+              not ok2, note2)
+
+        # 3. newly added entries block: snapshot missing a currently-existing
+        # entry (taken before the entry appeared, or hand-edited) is rejected,
+        # not silently narrowed.
+        m3 = {"type": "rashi-reconstruction", "targets": ["77a"],
+              "allowlistDrain": {"authorized": True, "snapshot": [snap_77a[0]]}}
+        ok3, note3 = wp.validate_allowlist_drain(m3, "77a")
+        check("3. snapshot missing a currently-existing entry blocks", not ok3, note3)
+
+        # 3b. snapshot claiming an entry that doesn't currently exist also blocks.
+        m3b = {"type": "rashi-reconstruction", "targets": ["77a"],
+               "allowlistDrain": {"authorized": True,
+                                  "snapshot": snap_77a + [{"daf": "77a", "vilnaLine": 99, "reason": "filler"}]}}
+        ok3b, note3b = wp.validate_allowlist_drain(m3b, "77a")
+        check("3b. snapshot claiming a nonexistent entry blocks", not ok3b, note3b)
+
+        # 4. missing drain intent blocks: no allowlistDrain field at all.
+        m4 = {"type": "rashi-reconstruction", "targets": ["77a"]}
+        ok4, note4 = wp.validate_allowlist_drain(m4, "77a")
+        check("4. manifest with no allowlistDrain authorization blocks", not ok4, note4)
+
+        # 4b. allowlistDrain present but authorized=False also blocks.
+        m4b = {"type": "rashi-reconstruction", "targets": ["77a"],
+               "allowlistDrain": {"authorized": False, "snapshot": snap_77a}}
+        ok4b, note4b = wp.validate_allowlist_drain(m4b, "77a")
+        check("4b. allowlistDrain present but not authorized blocks", not ok4b, note4b)
+
+        # 5. multi-daf manifests block, even with an otherwise-valid snapshot.
+        m5 = {"type": "rashi-reconstruction", "targets": ["77a", "77b"],
+              "allowlistDrain": {"authorized": True, "snapshot": snap_77a}}
+        ok5, note5 = wp.validate_allowlist_drain(m5, "77a")
+        check("5. multi-target manifest blocks the drain authorization", not ok5, note5)
+
+        # 6. ordinary task types cannot use this authorization.
+        for other_type in ("rashi-repair", "placeholder-backfill", "rashi-structural-repair"):
+            m6 = {"type": other_type, "targets": ["77a"],
+                  "allowlistDrain": {"authorized": True, "snapshot": snap_77a}}
+            ok6, note6 = wp.validate_allowlist_drain(m6, "77a")
+            check(f"6. {other_type} cannot use allowlist-drain authorization", not ok6, note6)
+
+        # 7. rashi-realignment (not just rashi-reconstruction) can also use it.
+        m7 = {"type": "rashi-realignment", "targets": ["77a"],
+              "allowlistDrain": {"authorized": True, "snapshot": snap_77a}}
+        ok7, note7 = wp.validate_allowlist_drain(m7, "77a")
+        check("7. rashi-realignment can also use allowlist-drain authorization", ok7, note7)
+
+        # 8. empty snapshot for a daf with no existing debt is trivially valid.
+        m8 = {"type": "rashi-reconstruction", "targets": ["79a"],
+              "allowlistDrain": {"authorized": True, "snapshot": []}}
+        ok8, note8 = wp.validate_allowlist_drain(m8, "79a")
+        check("8. empty snapshot for a daf with no existing debt is valid", ok8, note8)
+    finally:
+        wp.content_allowlist_entries = orig
+
+    print("allowlist-drain post-edit enforcement (snapshot is debt to eliminate, not an exemption):")
+
+    old_entries = [
+        {"daf": "77a", "vilnaLine": 16, "reason": "filler"},
+        {"daf": "77a", "vilnaLine": 17, "reason": "filler"},
+        {"daf": "77b", "vilnaLine": 5, "reason": "filler"},
+    ]
+    drained_manifest = {"type": "rashi-reconstruction", "targets": ["77a"],
+                        "allowlistDrain": {"authorized": True,
+                                          "snapshot": [e for e in old_entries if e["daf"] == "77a"]}}
+
+    # a. clean drain: both 77a entries removed, 77b entry untouched -> pass.
+    new_a = [{"daf": "77b", "vilnaLine": 5, "reason": "filler"}]
+    ok_a, msgs_a = wp.allowlist_drain_status(drained_manifest, old_entries, new_a, set())
+    check("a. fully drained snapshot with unrelated entry intact passes", ok_a, "; ".join(msgs_a))
+
+    # b. stale entries must be removed before review passes: validator says
+    # L16 no longer violates, but the entry was left in the file -> fail.
+    new_b = [{"daf": "77a", "vilnaLine": 16, "reason": "filler"},
+             {"daf": "77b", "vilnaLine": 5, "reason": "filler"}]
+    ok_b, msgs_b = wp.allowlist_drain_status(drained_manifest, old_entries, new_b, {("77a", 16)})
+    check("b. validator-confirmed-stale entry left in place fails", not ok_b, "; ".join(msgs_b))
+    check("b. failure message distinguishes stale-not-removed from still-needed",
+          any("stale" in msg for msg in msgs_b))
+
+    # c. entries still needed after attempted repair trigger operator stop:
+    # L16 still genuinely violates per the validator -> fail, distinct message.
+    ok_c, msgs_c = wp.allowlist_drain_status(drained_manifest, old_entries, new_b, set())
+    check("c. genuinely-still-violating entry fails (repair gap, escalate)", not ok_c, "; ".join(msgs_c))
+    check("c. failure message says still needed / escalate",
+          any("still needed" in msg or "escalate" in msg for msg in msgs_c))
+
+    # d. any new allowlist entry for the target daf fails, even one the
+    # validator would call a violation elsewhere in the corpus.
+    new_d = [{"daf": "77a", "vilnaLine": 40, "reason": "filler"},
+             {"daf": "77b", "vilnaLine": 5, "reason": "filler"}]
+    ok_d, msgs_d = wp.allowlist_drain_status(drained_manifest, old_entries, new_d, set())
+    check("d. a new allowlist entry for the target daf fails (no growth allowed)",
+          not ok_d, "; ".join(msgs_d))
+
+    # e. unrelated allowlist entries must remain byte-identical: changing the
+    # 77b entry (not the target daf) fails even though 77a drained cleanly.
+    new_e = [{"daf": "77b", "vilnaLine": 5, "reason": "filler_opening"}]
+    ok_e, msgs_e = wp.allowlist_drain_status(drained_manifest, old_entries, new_e, set())
+    check("e. an unrelated daf's entry changing fails even with a clean target drain",
+          not ok_e, "; ".join(msgs_e))
+
+    # f. a manifest with no allowlistDrain at all is a no-op (nothing to
+    # enforce); ordinary PRs are unaffected by this feature.
+    ordinary = {"type": "rashi-repair", "targets": ["61a"]}
+    ok_f, msgs_f = wp.allowlist_drain_status(ordinary, old_entries, old_entries, set())
+    check("f. a manifest without allowlistDrain is a no-op (ok, no messages)",
+          ok_f and not msgs_f)
+
+    print("allowlist-drain end-to-end manifest generation (real repo state, read-only):")
+    with tempfile.TemporaryDirectory() as td:
+        mpath = Path(td) / "m.json"
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "rashi-reconstruction", "--module", "yoma",
+                            "--range", "61a", "--out", str(mpath)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("manifest generation without --drain-allowlist succeeds", r.returncode == 0, r.stderr[-200:])
+        plain = json.loads(mpath.read_text())
+        check("plain manifest carries a null allowlistDrain field", plain.get("allowlistDrain") is None)
+
+        r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                             "--type", "rashi-repair", "--module", "yoma",
+                             "--range", "61a", "--drain-allowlist", "--out", str(mpath)],
+                            capture_output=True, text=True, cwd=REPO)
+        check("--drain-allowlist rejected for a non-reconstruction/realignment type",
+              r2.returncode != 0)
+
+
 def main():
     test_registry()
     test_pure_policy()
@@ -618,6 +773,7 @@ def main():
     test_structural_repair_type()
     test_evidence_tiers()
     test_campaign_capability_scan()
+    test_allowlist_drain()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:
