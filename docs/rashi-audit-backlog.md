@@ -5821,7 +5821,7 @@ anchors found, 0 missing. Corpus semantic audit: 0 shift candidates.
 No allowlist entries existed for 49a to remove. Remaining campaign
 targets: 49b, 50a, 50b, 51a, 51b, 52a, 52b.
 
-### 49b content ready, PR paused pending zero-anchor gate decision (VERSION 15.108, rashi-realignment, Sonnet worker)
+### 49b realigned via zero-anchor-safe evidence tier (VERSION 15.109, rashi-realignment, Sonnet worker)
 
 Fresh diagnosis confirmed the previously-suspected shifted state: raw
 count 21 = entries 21 (structurally sound), all 21 entries unlinked,
@@ -5845,12 +5845,19 @@ Unlike every other daf in this campaign, 49b's raw Rashi contains
 ZERO citation anchors of any kind (0 found, 0 missing, both before and
 after this edit) - a more extreme case than 48b's single split
 citation. Its classification is therefore INSUFFICIENT-ANCHORS and can
-never become ALIGNED, and it does NOT qualify for the anchor-poor-safe
+never become ALIGNED, and it did not qualify for the anchor-poor-safe
 exception added in PR #95/#96 either, since that exception requires
-exactly one genuine anchor, not zero; extending it further was not
-authorized. All offline gates, scope, and worker:verify pass; only
-worker:review's drift-profile-ALIGNED condition fails, correctly, as
-designed. Content is committed on branch
-claude/yoma-49b-rashi-realignment; no PR opened pending an operator
-decision on how to treat a genuinely anchor-free daf. Remaining
-campaign targets after resolution: 50a, 50b, 51a, 51b, 52a, 52b.
+exactly one genuine anchor, not zero.
+
+Rather than extend the one-anchor exception ad hoc, PR #98 generalized
+the review gate into a source-relative, 3-tier citation-evidence policy
+(multi-anchor-safe, one-anchor-safe, zero-anchor-safe) dispatched
+purely on the daf's own anchor count. 49b qualifies for the new
+zero-anchor-safe tier: two independent scans (the primary drift-profile
+scanner and an independent whole-text parenthetical regex search) both
+confirm zero citation-like text anywhere in the raw Hebrew, corroborated
+by a full manual reread of all 21 lines, with the self-review's
+zeroAnchorAttestation block confirming no citation was invented, moved,
+or duplicated and no semantic uncertainty remains. Merged under
+zero-anchor-safe. Remaining campaign targets: 50a, 50b, 51a, 51b, 52a,
+52b.
