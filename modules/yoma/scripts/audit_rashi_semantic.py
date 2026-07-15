@@ -113,6 +113,8 @@ NAME_MAP = {
     "כריתות": _rx(r"keritot", r"kereitot", r"kerisus"),
     "בבא מציעא": _rx(r"bava metzia", r"\bb\.m\."),
     'ב"מ': _rx(r"bava metzia", r"\bb\.m\."),
+    'ב"ב': _rx(r"bava batra", r"\bb\.b\."),
+    'ב"ק': _rx(r"bava kamma", r"bava kama", r"\bb\.k\.", r"\bb\.q\."),
     "קידושין": _rx(r"kiddushin", r"kidushin"),
     "כתובות": _rx(r"ketubo", r"kesubo"),
     "נדרים": _rx(r"nedarim"),
@@ -127,7 +129,11 @@ TRACTATES = {k for k in NAME_MAP
                           "יחזקאל", "משלי", "תהלים", "דניאל", "שמואל", "מלכים")}
 
 CITATION_RE = re.compile(r"\(([^()]{2,40})\)")
-DAF_CIT_RE = re.compile(r"\((?:דף\s*)?([א-ת\"׳]{1,4})\s*([.:])\s*\)")
+# Same-parens citations may lead with a tractate name/abbreviation or a
+# relative reference word (le'eil, lekaman) before "daf", e.g. (b"b daf
+# tz:) or (le'eil daf lat.); the leading text is unrestricted as long as
+# the literal "daf" token precedes the trailing letters+punct.
+DAF_CIT_RE = re.compile(r"\((?:[^()]*?דף\s*)?([א-ת\"׳]{1,4})\s*([.:])\s*\)")
 STUB_EN_RE = re.compile(r"rashi line \d+:\s*continuation", re.I)
 ADJACENCY_CHARS = 25
 

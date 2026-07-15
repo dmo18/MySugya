@@ -56,6 +56,35 @@ def test_anchor_extraction():
     check("gematria shem is None", ars.gematria_daf("שם", ":") is None)
 
 
+def test_same_parens_daf_citation():
+    """Yoma 83a/86b/88a class: the tractate name or a relative reference
+    word (le'eil/lekaman) sits INSIDE the same parens as "daf", not
+    outside-adjacent to it (e.g. Sanhedrin's own (daf ה.) convention).
+    Regression for the campaign-83a/88a capability-scan gap."""
+    print("same-parens daf citation (tractate/reference word + daf inside parens):")
+    a = list(ars.anchors_of('ותניא (ב"ב דף צ:) אין אוצרין פירות בארץ'))
+    check("bava batra name recognized", ("name", 'ב"ב', ars.NAME_MAP['ב"ב']) in a)
+    check("bava batra dafnum token", any(k == "dafnum" and t == "90b" for k, t, _ in a))
+
+    a = list(ars.anchors_of('כדאיתא בבבא קמא (ב"ק דף פב.) התם'))
+    check("bava kamma name recognized", ("name", 'ב"ק', ars.NAME_MAP['ב"ק']) in a)
+    check("bava kamma dafnum token", any(k == "dafnum" and t == "82a" for k, t, _ in a))
+
+    # Self-reference to an earlier/later daf of THIS tractate: no tractate
+    # name to recognize, but the dafnum token must still be extracted.
+    a = list(ars.anchors_of("טעם דבר זה (לעיל דף לט.) הוא"))
+    check("le'eil self-reference dafnum token still extracted",
+          any(k == "dafnum" and t == "39a" for k, t, _ in a))
+    check("le'eil self-reference yields no spurious name anchor",
+          not any(k == "name" for k, _, _ in a))
+
+    # Unchanged: the outside-adjacency convention (name before the parens)
+    # must keep working after the same-parens extension.
+    a = list(ars.anchors_of("בסנהדרין (דף ה.) שאין חכם מתיר"))
+    check("outside-adjacency convention still recognized",
+          ("name", "סנהדרין", ars.NAME_MAP["סנהדרין"]) in a)
+
+
 def synth_corpus(tmp):
     """Three synthetic daf: 901a shifted, 902a fabricated, 903a aligned,
     904a anchor-poor."""
@@ -205,6 +234,7 @@ def test_live_corpus():
 
 def main():
     test_anchor_extraction()
+    test_same_parens_daf_citation()
     test_classifier_synthetic()
     test_drift_block()
     test_live_corpus()

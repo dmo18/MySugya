@@ -589,6 +589,49 @@ def test_campaign_capability_scan():
               "cardinality" in r)
 
 
+def test_independent_zero_citation_scan():
+    print("independent zero-citation scan (citation-shape aware, not any-parenthetical):")
+
+    # Regression for the campaign-86a gap: an ordinary editorial gloss in
+    # parens, carrying neither a "daf" token nor a daf/amud punctuation
+    # tail, must not be flagged as citation-like.
+    check("1. non-citation gloss '(Torah)' is not citation-shaped",
+          not wp._citation_shaped("תורה"))
+
+    # Regression for the campaign-83a gap: a same-parens tractate + "daf"
+    # citation must still be flagged even though the tractate name sits
+    # inside the parens rather than as a bare daf/amud token alone.
+    check("2. same-parens tractate+daf citation is citation-shaped",
+          wp._citation_shaped('ב"ב דף צ:'))
+
+    # A bare daf/amud marker (no "daf" word) is still citation-shaped.
+    check("3. bare daf/amud tail is citation-shaped", wp._citation_shaped("נז:"))
+
+    # A multi-word non-citation gloss without punctuation tail is not.
+    check("4. multi-word non-citation gloss is not citation-shaped",
+          not wp._citation_shaped("כלומר בענין אחר"))
+
+    with tempfile.TemporaryDirectory() as td:
+        tdir = Path(td) / "assets" / "talmuddev"
+        tdir.mkdir(parents=True)
+        saved = wp.YROOT
+        wp.YROOT = Path(td)
+        try:
+            (tdir / "999z.json").write_text(json.dumps({
+                "rashi": ["ומשמש תלמידי חכמים. ללמוד (תורה)"]}, ensure_ascii=False))
+            ok, detail = wp.independent_zero_citation_scan("999z")
+            check("5. daf with only a non-citation gloss scans OK (no false positive)",
+                  ok, detail)
+
+            (tdir / "998z.json").write_text(json.dumps({
+                "rashi": ['ותניא (ב"ב דף צ:) אין אוצרין פירות בארץ']}, ensure_ascii=False))
+            ok2, detail2 = wp.independent_zero_citation_scan("998z")
+            check("6. daf with a same-parens citation is caught (no false negative)",
+                  not ok2, detail2)
+        finally:
+            wp.YROOT = saved
+
+
 def test_no_direct_main_push_anywhere():
     print("no automation path instructs a direct push to main:")
     src = (REPO / "scripts" / "worker_pipeline.py").read_text()
@@ -773,6 +816,7 @@ def main():
     test_structural_repair_type()
     test_evidence_tiers()
     test_campaign_capability_scan()
+    test_independent_zero_citation_scan()
     test_allowlist_drain()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()

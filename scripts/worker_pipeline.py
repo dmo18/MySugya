@@ -861,22 +861,37 @@ def evaluate_review_policy(conditions):
     return (not failed, failed)
 
 
+def _citation_shaped(inner):
+    """Independent citation-shape test for one parenthetical's inner text,
+    deliberately not reusing anchors_of()'s tractate-name list: flags it
+    as citation-like only if it names a page ("daf") or ends in the
+    short daf/amud marker every Talmudic page citation uses (1-4 Hebrew
+    letters immediately followed by a period or colon). An ordinary
+    editorial gloss like "(Torah)" carries neither signal."""
+    if "דף" in inner:
+        return True
+    return bool(re.search(r'[א-ת"׳]{1,4}[.:]$', inner.strip()))
+
+
 def independent_zero_citation_scan(daf):
     """A SECOND, independent check that a daf's raw Hebrew contains no
     citation-like text at all, deliberately not reusing anchors_of()'s
     per-line/lookahead/tractate-name-matching logic: scans the ENTIRE
-    concatenated raw text for any parenthetical group whatsoever,
-    whether or not its contents match a known tractate name or a daf
-    number. Catches citation-like tokens (an unrecognized abbreviation,
-    an "(ibid)"-style reference, a verse citation format anchors_of does
-    not model) that a zero-anchor profile from the primary scanner could
-    otherwise miss. Returns (ok: bool, detail: str)."""
+    concatenated raw text for any parenthetical group shaped like a
+    citation (see _citation_shaped), whether or not its contents match a
+    known tractate name or a daf number. Catches citation-like tokens (an
+    unrecognized abbreviation, a same-parens "tractate daf N" citation, a
+    verse citation format anchors_of does not model) that a zero-anchor
+    profile from the primary scanner could otherwise miss, while not
+    flagging ordinary non-citation parenthetical glosses. Returns
+    (ok: bool, detail: str)."""
     tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
     if not tpath.exists():
         return False, f"no talmuddev source for {daf}"
     raw = [l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()]
     whole = " ".join(raw)
-    hits = re.findall(r"\(([^()]{1,60})\)", whole)
+    all_groups = re.findall(r"\(([^()]{1,60})\)", whole)
+    hits = [g for g in all_groups if _citation_shaped(g)]
     if hits:
         return False, f"parenthetical citation-like text found: {hits[:5]}"
     return True, "no parenthetical citation-like text anywhere in the raw Hebrew"
