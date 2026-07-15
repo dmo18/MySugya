@@ -1,414 +1,468 @@
 {
-  "canonicalRef": "Yoma 51a",
-  "summary": "Rav Huna and Rava confirm that automatic sanctity (firstborn, tithe) still requires explicit designation - supporting R. Elazar's principle that Yom Kippur service exclusivity operates independently. The Mishna then describes the pivotal moment: the HP receives the stirred bull's blood and enters the Holy of Holies to begin the atonement sprinkling.",
-  "sugyot": [
+ "canonicalRef": "Yoma 51a",
+ "summary": "Rav Huna and Rava confirm that automatic sanctity (firstborn, tithe) still requires explicit designation - supporting R. Elazar's principle that Yom Kippur service exclusivity operates independently. The Mishna then describes the pivotal moment: the HP receives the stirred bull's blood and enters the Holy of Holies to begin the atonement sprinkling.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-051a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 8
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-051a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 8
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.51a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.51a.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.51a.3"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.51a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.51a.1",
-        "Yoma.51a.2",
-        "Yoma.51a.3",
-        "Yoma.51a.4"
-      ],
-      "display": {
-        "whats": "Does automatic sanctity (firstborn, tithe) still require formal designation before use in service?",
-        "hint": "Rav Huna and Rava confirm: even animals with inherent automatic sanctity need explicit designation. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
-        "title": "Automatic Sanctity Is Not Enough: Designation Still Required"
-      },
-      "learning": {
-        "ahaMoment": "Automatic sanctity does not bypass the need for explicit designation. The two categories - sanctity and designation - are legally independent.",
-        "memoryAnchor": "Firstborn is holy automatically yet needs designation. Yom Kippur is designated exclusively and cannot be supplemented.",
-        "learnerQuestion": "If an animal acquires sanctity automatically (as firstborn or tithe), does it still need to be explicitly designated before it can be used for a specific Temple purpose?",
-        "coreTension": "An animal that becomes holy automatically might seem to need no further act of designation, but R. Elazar's ruling that Yom Kippur service cannot discharge personal vows implies that automatic sanctity does not pre-designate an offering for a specific purpose, and Rav Huna and Rava demonstrate this from firstborn and tithe laws.",
-        "coreMove": "Rav Huna and Rava show from the laws of firstborn and tithe animals that automatic sanctity does not eliminate the need for further explicit designation - these animals are holy by birth or by count, yet still require designation before serving a specific Temple function, supporting R. Elazar's exclusivity ruling.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "Automatic sanctity (firstborn, tithe) does not substitute for explicit designation - an automatically holy animal still needs to be designated for its specific Temple purpose, supporting R. Elazar's ruling that the Yom Kippur service cannot simultaneously serve as fulfillment of a personal vow."
-        },
-        "learningBlocker": "Learners may assume that once an animal is automatically holy it is thereby ready for any Temple purpose without further designation, missing that Rav Huna and Rava demonstrate automatic sanctity and specific designation are two separate requirements."
-      },
-      "argumentFlow": [
-        {
-          "type": "principle",
-          "speaker": "Rav Huna",
-          "text": "Firstborn and tithe animals have automatic sanctity yet still require formal designation for specific service.",
-          "id": "yoma-051a-l01",
-          "label": "Principle: Firstborn and tithe animals have automatic sanctity",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Rava",
-          "text": "Automatic sanctity and designated service are independent legal categories.",
-          "id": "yoma-051a-l02",
-          "label": "Agreement: Automatic sanctity and designated service are indepe...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "application",
-          "speaker": "Gemara",
-          "text": "This supports R. Elazar: Yom Kippur service exclusivity operates independently of any automatic sanctity the HP's bull may have.",
-          "id": "yoma-051a-l03",
-          "label": "Application: This supports R. Elazar: Yom Kippur service",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l03",
-              "vilnaLine": 3
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "automatic sanctity",
-        "firstborn",
-        "tithe",
-        "designation",
-        "Rav Huna",
-        "Rava"
-      ],
-      "concepts": {
-        "halachic": [
-          "automatic sanctity requires explicit designation",
-          "designated service exclusivity is independent"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "firstborn laws",
-        "tithe laws",
-        "designated service principles"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "An animal that automatically acquires sanctity (like a firstborn or tithe animal) is already designated for Temple use and needs no further act of specification before serving a particular purpose.",
-          "correction": "Rav Huna and Rava demonstrate that automatic sanctity and specific designation are separate requirements: a firstborn or tithe animal is automatically holy but still requires explicit designation before it can serve a particular Temple function.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
-          "role": "contrast",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Even animals with automatic inherent sanctity (firstborn, tithe) require explicit designation before being used in a specific service. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
-          "question": "What principle do Rav Huna and Rava establish about automatic sanctity?"
-        }
-      ],
-      "finalRuling": "Automatic sanctity requires explicit designation; designated service exclusivity is an independent legal category.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.51a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-051a-s02",
-      "lineRange": {
-        "startVilnaLine": 9,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.51a.5"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.51a.6"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.51a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.51a.5",
-        "Yoma.51a.6",
-        "Yoma.51a.7"
-      ],
-      "display": {
-        "whats": "Mishna: the HP receives the bull's blood from the stirrer and enters the Holy of Holies to sprinkle",
-        "hint": "The Mishna describes the critical moment: the HP takes the bowl of blood from whoever has been stirring it to prevent congealing, then enters the Holy of Holies.",
-        "title": "The Blood Passes Hands: Only the High Priest May Enter"
-      },
-      "learning": {
-        "ahaMoment": "The moment the HP receives the blood from the stirrer is the transition from preparation to the most sacred service in Jewish history.",
-        "memoryAnchor": "Blood stirred to stay liquid, HP receives it and enters the innermost sanctum - the most sacred act of the year.",
-        "learnerQuestion": "Who stirs the blood after the bull is slaughtered, and who may carry it into the Holy of Holies?",
-        "coreTension": "The blood must be stirred and then received by the High Priest for entry into the Holy of Holies, creating a two-step interaction that raises the question of whether any other priest could perform either step and thereby substitute for the HP.",
-        "coreMove": "The Mishna establishes that a designee stirs the blood and hands it to the HP, but only the High Priest himself may receive the blood and enter the Holy of Holies - the entry is person-specific to the HP in a way the stirring is not.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The bull's blood is stirred by a designee who hands it to the High Priest, but only the High Priest may receive it and carry it into the Holy of Holies - the entry is person-specific and cannot be performed by any other priest."
-        },
-        "learningBlocker": "Learners may assume that any qualified priest who performs the stirring could also complete the sequence by entering the Holy of Holies, missing that the Mishna restricts entry explicitly and solely to the High Priest."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "The HP takes the bowl of bull's blood from the one who has been stirring it and enters the Holy of Holies.",
-          "id": "yoma-051a-l05",
-          "label": "Ruling: The HP takes the bowl of bull's",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "The stirring prevents congealing; the blood is invalid if it has congealed before sprinkling.",
-          "id": "yoma-051a-l06",
-          "label": "Explanation: The stirring prevents congealing; the blood is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l06",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Does the identity of the stirrer affect the blood's validity? No - the stirring is preparatory, not a service act.",
-          "id": "yoma-051a-l07",
-          "label": "Question: Does the identity of the stirrer affect",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-051a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "blood reception",
-        "Holy of Holies entry",
-        "blood stirring",
-        "HP service"
-      ],
-      "concepts": {
-        "halachic": [
-          "blood stirred to prevent congealing",
-          "HP personally receives and carries blood"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Holy of Holies laws",
-        "blood service sequence",
-        "HP exclusive acts"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any priest who stirs and holds the bull's blood may then carry it into the Holy of Holies - entry is not restricted to the High Priest specifically.",
-          "correction": "The Mishna establishes that only the High Priest may receive the blood and enter the Holy of Holies - the stirring can be delegated, but the entry into the inner sanctum is person-specific to the HP and cannot be performed by another priest.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP",
-        "blood bowl",
-        "entry through parochet"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Another priest stirred the blood continuously to prevent it from congealing. The HP then received it for sprinkling. The stirrer's identity does not affect blood validity; stirring is preparatory, not a service act.",
-          "question": "Why was the blood stirred and who was doing it?"
-        }
-      ],
-      "finalRuling": "The HP personally receives the stirred blood and enters the Holy of Holies to begin the atonement sprinkling.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.51a.2"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.51a.3"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.51a.4"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.51a.1",
+    "Yoma.51a.2",
+    "Yoma.51a.3",
+    "Yoma.51a.4"
+   ],
+   "display": {
+    "whats": "Does automatic sanctity (firstborn, tithe) still require formal designation before use in service?",
+    "hint": "Rav Huna and Rava confirm: even animals with inherent automatic sanctity need explicit designation. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
+    "title": "Automatic Sanctity Is Not Enough: Designation Still Required"
+   },
+   "learning": {
+    "ahaMoment": "Automatic sanctity does not bypass the need for explicit designation. The two categories - sanctity and designation - are legally independent.",
+    "memoryAnchor": "Firstborn is holy automatically yet needs designation. Yom Kippur is designated exclusively and cannot be supplemented.",
+    "learnerQuestion": "If an animal acquires sanctity automatically (as firstborn or tithe), does it still need to be explicitly designated before it can be used for a specific Temple purpose?",
+    "coreTension": "An animal that becomes holy automatically might seem to need no further act of designation, but R. Elazar's ruling that Yom Kippur service cannot discharge personal vows implies that automatic sanctity does not pre-designate an offering for a specific purpose, and Rav Huna and Rava demonstrate this from firstborn and tithe laws.",
+    "coreMove": "Rav Huna and Rava show from the laws of firstborn and tithe animals that automatic sanctity does not eliminate the need for further explicit designation - these animals are holy by birth or by count, yet still require designation before serving a specific Temple function, supporting R. Elazar's exclusivity ruling.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "Automatic sanctity (firstborn, tithe) does not substitute for explicit designation - an automatically holy animal still needs to be designated for its specific Temple purpose, supporting R. Elazar's ruling that the Yom Kippur service cannot simultaneously serve as fulfillment of a personal vow."
+    },
+    "learningBlocker": "Learners may assume that once an animal is automatically holy it is thereby ready for any Temple purpose without further designation, missing that Rav Huna and Rava demonstrate automatic sanctity and specific designation are two separate requirements."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Firstborn animal has automatic inherent sanctity from birth - yet still requires formal designation.",
-      "linkedGemaraLineIds": []
+     "type": "principle",
+     "speaker": "Rav Huna",
+     "text": "Firstborn and tithe animals have automatic sanctity yet still require formal designation for specific service.",
+     "id": "yoma-051a-l01",
+     "label": "Principle: Firstborn and tithe animals have automatic sanctity",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "Rav Huna: even automatic sanctity (bechorah, maaser) needs explicit designation for the specific service.",
-      "linkedGemaraLineIds": []
+     "type": "resolution",
+     "speaker": "Rava",
+     "text": "Automatic sanctity and designated service are independent legal categories.",
+     "id": "yoma-051a-l02",
+     "label": "Agreement: Automatic sanctity and designated service are indepe...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l02",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Rava agrees: automatic sanctity and designated service are two independent legal categories.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "This supports R. Elazar: Yom Kippur exclusivity applies even if the HP's bull has communal automatic sanctity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "The Mishna: the HP takes the bowl of bull's blood from the one who has been stirring it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The blood was stirred continuously to prevent congealing; the HP receives it from the stirrer at the threshold.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The HP alone may enter the Holy of Holies; he takes the blood and enters the innermost sanctum.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "The stirrer was another priest; the HP receives the blood just before crossing the parochet threshold.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "This is the beginning of the innermost service - the most sacred act of the entire Yom Kippur service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The HP must perform this reception and entry personally - no delegation is possible.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The entry into the Holy of Holies occurs between the two curtains in the Second Temple period.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The HP walks inward, holding the blood, to sprinkle it on the Ark cover or its location.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The sprinkling sequence: one above, seven below - described in the next Mishna on 51b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The counting formula ensures the HP does not lose count during the sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The identity of the stirrer does not affect the blood's validity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The blood is valid as long as it was not left unstirred long enough to congeal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Congealed blood is invalid for sprinkling - hence the need for continuous stirring.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The HP takes the bowl in his right hand and enters - carefully holding it to avoid spilling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "This moment of reception is the beginning of the atonement process for the entire nation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Summary: the HP personally receives validly stirred blood and alone enters the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The next Mishna will describe what he does inside: the sprinkling sequence and counting formula.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The sprinkling on the Ark cover (kapporet) is the central act of Yom Kippur atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "All preparatory service (bull slaughter, incense) has led to this moment.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The HP's entry into the Holy of Holies is the most dramatic moment in the Jewish liturgical year.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "The halachic details ensure every aspect is precisely performed with no room for error.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "This concludes the 51a Rashi section; 51b Rashi continues with the sprinkling sequence.",
-      "linkedGemaraLineIds": []
+     "type": "application",
+     "speaker": "Gemara",
+     "text": "This supports R. Elazar: Yom Kippur service exclusivity operates independently of any automatic sanctity the HP's bull may have.",
+     "id": "yoma-051a-l03",
+     "label": "Application: This supports R. Elazar: Yom Kippur service",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l03",
+       "vilnaLine": 3
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "automatic sanctity",
+    "firstborn",
+    "tithe",
+    "designation",
+    "Rav Huna",
+    "Rava"
+   ],
+   "concepts": {
+    "halachic": [
+     "automatic sanctity requires explicit designation",
+     "designated service exclusivity is independent"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "firstborn laws",
+    "tithe laws",
+    "designated service principles"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "An animal that automatically acquires sanctity (like a firstborn or tithe animal) is already designated for Temple use and needs no further act of specification before serving a particular purpose.",
+     "correction": "Rav Huna and Rava demonstrate that automatic sanctity and specific designation are separate requirements: a firstborn or tithe animal is automatically holy but still requires explicit designation before it can serve a particular Temple function.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Automatic sanctity (firstborn, tithe) vs. formal designation - two independent legal categories",
+     "role": "contrast",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Even animals with automatic inherent sanctity (firstborn, tithe) require explicit designation before being used in a specific service. This principle supports R. Elazar's ruling on Yom Kippur service exclusivity.",
+     "question": "What principle do Rav Huna and Rava establish about automatic sanctity?"
+    }
+   ],
+   "finalRuling": "Automatic sanctity requires explicit designation; designated service exclusivity is an independent legal category.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-051a-s02",
+   "lineRange": {
+    "startVilnaLine": 9,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.51a.5"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.51a.6"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.51a.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.51a.5",
+    "Yoma.51a.6",
+    "Yoma.51a.7"
+   ],
+   "display": {
+    "whats": "Mishna: the HP receives the bull's blood from the stirrer and enters the Holy of Holies to sprinkle",
+    "hint": "The Mishna describes the critical moment: the HP takes the bowl of blood from whoever has been stirring it to prevent congealing, then enters the Holy of Holies.",
+    "title": "The Blood Passes Hands: Only the High Priest May Enter"
+   },
+   "learning": {
+    "ahaMoment": "The moment the HP receives the blood from the stirrer is the transition from preparation to the most sacred service in Jewish history.",
+    "memoryAnchor": "Blood stirred to stay liquid, HP receives it and enters the innermost sanctum - the most sacred act of the year.",
+    "learnerQuestion": "Who stirs the blood after the bull is slaughtered, and who may carry it into the Holy of Holies?",
+    "coreTension": "The blood must be stirred and then received by the High Priest for entry into the Holy of Holies, creating a two-step interaction that raises the question of whether any other priest could perform either step and thereby substitute for the HP.",
+    "coreMove": "The Mishna establishes that a designee stirs the blood and hands it to the HP, but only the High Priest himself may receive the blood and enter the Holy of Holies - the entry is person-specific to the HP in a way the stirring is not.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The bull's blood is stirred by a designee who hands it to the High Priest, but only the High Priest may receive it and carry it into the Holy of Holies - the entry is person-specific and cannot be performed by any other priest."
+    },
+    "learningBlocker": "Learners may assume that any qualified priest who performs the stirring could also complete the sequence by entering the Holy of Holies, missing that the Mishna restricts entry explicitly and solely to the High Priest."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "The HP takes the bowl of bull's blood from the one who has been stirring it and enters the Holy of Holies.",
+     "id": "yoma-051a-l05",
+     "label": "Ruling: The HP takes the bowl of bull's",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "The stirring prevents congealing; the blood is invalid if it has congealed before sprinkling.",
+     "id": "yoma-051a-l06",
+     "label": "Explanation: The stirring prevents congealing; the blood is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l06",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Does the identity of the stirrer affect the blood's validity? No - the stirring is preparatory, not a service act.",
+     "id": "yoma-051a-l07",
+     "label": "Question: Does the identity of the stirrer affect",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-051a-l07",
+       "vilnaLine": 7
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "blood reception",
+    "Holy of Holies entry",
+    "blood stirring",
+    "HP service"
+   ],
+   "concepts": {
+    "halachic": [
+     "blood stirred to prevent congealing",
+     "HP personally receives and carries blood"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Holy of Holies laws",
+    "blood service sequence",
+    "HP exclusive acts"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any priest who stirs and holds the bull's blood may then carry it into the Holy of Holies - entry is not restricted to the High Priest specifically.",
+     "correction": "The Mishna establishes that only the High Priest may receive the blood and enter the Holy of Holies - the stirring can be delegated, but the entry into the inner sanctum is person-specific to the HP and cannot be performed by another priest.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP",
+    "blood bowl",
+    "entry through parochet"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Another priest stirred the blood continuously to prevent it from congealing. The HP then received it for sprinkling. The stirrer's identity does not affect blood validity; stirring is preparatory, not a service act.",
+     "question": "Why was the blood stirred and who was doing it?"
+    }
+   ],
+   "finalRuling": "The HP personally receives the stirred blood and enters the Holy of Holies to begin the atonement sprinkling.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "A firstborn animal - its sanctity is from the womb, whether unblemished or blemished, and it has no redemption at all, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "concerning it (Numbers 18): 'but the firstborn of an ox you shall not redeem' - and regarding animal tithe it is also written",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "(Leviticus 27): 'he shall not inspect between good and bad' - so this shows it takes effect even on a blemished animal, and there is no redemption",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "for it, as it is written (there): 'it shall not be redeemed.' New comment: 'rather, it does not teach the name sacrifice' - rather, regarding one sacrifice",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "he phrased his statement, and he says there is a stringency in it that",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "is not in the name substitute, and a stringency in the name substitute",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "that is not in that sacrifice we are dealing with here.",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'what is the difference' - that the Tanna should state his matter",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in two ways. New comment: 'the name substitute is a single one' -",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "all substitutes are equal in all these matters that are taught",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "here: applying to the community, overriding Shabbat, and generating",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "a substitute, and being subject to shearing and labor; but a sacrifice cannot",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "be taught by one name, since it teaches shearing",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "and labor, in a way that it cannot say 'which is not so'",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "regarding the name sacrifice, since there is a firstborn and a tithe, both included and differing.",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "'he holds: we do not slaughter the Pesach-offering for an individual' -",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "in accordance with Rabbi Yehuda who says so in Tractate Pesachim",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "(91a), and he derives it from 'you may not slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the Pesach-offering within one gate' - and since it does not come without",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "partnership, it does not generate a substitute. New comment: 'does it override'",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l04",
+    "yoma-051a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'tumah' - there is an opinion further on",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "in this passage that it does not override. New comment: 'and let the Tanna, what is the difference'",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l08",
+    "yoma-051a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "'chagigah, etc.' - that Tanna being referred to is the Tanna of the substitute passage",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "who was mentioned regarding Rabbi Meir and Rabbi Yaakov, whom Rashi brought",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "above. New comment: 'in assembly' - on the festivals.",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "But let him derive it (continues on 51b).",
+   "linkedGemaraLineIds": [
+    "yoma-051a-l20"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }

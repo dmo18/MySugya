@@ -116437,11 +116437,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 1,
         he: "בכור. קדושתו מרחם בין תם בין בעל מום ואין לו שום פדיון דכתיב",
-        en: "Firstborn animal has automatic inherent sanctity from birth - yet still requires formal designation.",
+        en: "A firstborn animal - its sanctity is from the womb, whether unblemished or blemished, and it has no redemption at all, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-002",
@@ -116449,11 +116451,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 2,
         he: "ביה (במדבר יח) אך בכור שור לא תפדה ובמעשר בהמה נמי כתיב",
-        en: "Rav Huna: even automatic sanctity (bechorah, maaser) needs explicit designation for the specific service.",
+        en: "concerning it (Numbers 18): 'but the firstborn of an ox you shall not redeem' - and regarding animal tithe it is also written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-003",
@@ -116461,11 +116465,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 3,
         he: "(ויקרא כז) לא יבקר בין טוב לרע אלמא חל על בעל מום ופדיון אין",
-        en: "Rava agrees: automatic sanctity and designated service are two independent legal categories.",
+        en: "(Leviticus 27): 'he shall not inspect between good and bad' - so this shows it takes effect even on a blemished animal, and there is no redemption",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-004",
@@ -116473,11 +116479,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 4,
         he: "לו דכתיב (שם) לא יגאל: אלא שם זבח לא קתני. אלא בחד זבחא",
-        en: "This supports R. Elazar: Yom Kippur exclusivity applies even if the HP's bull has communal automatic sanctity.",
+        en: "for it, as it is written (there): 'it shall not be redeemed.' New comment: 'rather, it does not teach the name sacrifice' - rather, regarding one sacrifice",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-005",
@@ -116485,11 +116493,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 5,
         he: "נקט למילתיה וקאמר חומר בו מה",
-        en: "The Mishna: the HP takes the bowl of bull's blood from the one who has been stirring it.",
+        en: "he phrased his statement, and he says there is a stringency in it that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-006",
@@ -116497,11 +116507,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 6,
         he: "שאין בשם תמורה וחומר בשם תמורה",
-        en: "The blood was stirred continuously to prevent congealing; the HP receives it from the stirrer at the threshold.",
+        en: "is not in the name substitute, and a stringency in the name substitute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-007",
@@ -116509,11 +116521,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 7,
         he: "שאין באותו זבח שאנו עסוקין כאן:",
-        en: "The HP alone may enter the Holy of Holies; he takes the blood and enters the innermost sanctum.",
+        en: "that is not in that sacrifice we are dealing with here.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l01"
+        ]
       },
       {
         id: "rashi-yoma-051a-008",
@@ -116521,11 +116535,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 8,
         he: "מאי שנא. דלינקוט תנא מילתיה",
-        en: "The stirrer was another priest; the HP receives the blood just before crossing the parochet threshold.",
+        en: "'what is the difference' - that the Tanna should state his matter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-009",
@@ -116533,11 +116549,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 9,
         he: "בתרי גווני: שם תמורה אחת היא.",
-        en: "This is the beginning of the innermost service - the most sacred act of the entire Yom Kippur service.",
+        en: "in two ways. New comment: 'the name substitute is a single one' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-010",
@@ -116545,11 +116563,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 10,
         he: "כל התמורות שוות בכל הנך דקתני",
-        en: "The HP must perform this reception and entry personally - no delegation is possible.",
+        en: "all substitutes are equal in all these matters that are taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-011",
@@ -116557,11 +116577,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 11,
         he: "הכא בציבור ובדחיית שבת ובעשיית",
-        en: "The entry into the Holy of Holies occurs between the two curtains in the Second Temple period.",
+        en: "here: applying to the community, overriding Shabbat, and generating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-012",
@@ -116569,11 +116591,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 12,
         he: "תמורה ובגיזה ובעבודה אבל זבח לא",
-        en: "The HP walks inward, holding the blood, to sprinkle it on the Ark cover or its location.",
+        en: "a substitute, and being subject to shearing and labor; but a sacrifice cannot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-013",
@@ -116581,11 +116605,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 13,
         he: "מצי למיתני שם דהא קתני גיזה",
-        en: "The sprinkling sequence: one above, seven below - described in the next Mishna on 51b.",
+        en: "be taught by one name, since it teaches shearing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-014",
@@ -116593,11 +116619,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 14,
         he: "ועבודה דלא מצי למימר מה שאין כן",
-        en: "The counting formula ensures the HP does not lose count during the sprinkling.",
+        en: "and labor, in a way that it cannot say 'which is not so'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-015",
@@ -116605,11 +116633,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 15,
         he: "בשם זבח דהא איכא בכור ומעשר:",
-        en: "The identity of the stirrer does not affect the blood's validity.",
+        en: "regarding the name sacrifice, since there is a firstborn and a tithe, both included and differing.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l03"
+        ]
       },
       {
         id: "rashi-yoma-051a-016",
@@ -116617,11 +116647,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 16,
         he: "קסבר אין שוחטין פסח על היחיד.",
-        en: "The blood is valid as long as it was not left unstirred long enough to congeal.",
+        en: "'he holds: we do not slaughter the Pesach-offering for an individual' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l04"
+        ]
       },
       {
         id: "rashi-yoma-051a-017",
@@ -116629,11 +116661,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 17,
         he: "כר' יהודה דאמר הכי במסכת פסחים",
-        en: "Congealed blood is invalid for sprinkling - hence the need for continuous stirring.",
+        en: "in accordance with Rabbi Yehuda who says so in Tractate Pesachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l04"
+        ]
       },
       {
         id: "rashi-yoma-051a-018",
@@ -116641,11 +116675,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 18,
         he: "(דף צא.) ויליף לה מלא תוכל לזבוח",
-        en: "The HP takes the bowl in his right hand and enters - carefully holding it to avoid spilling.",
+        en: "(91a), and he derives it from 'you may not slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l04"
+        ]
       },
       {
         id: "rashi-yoma-051a-019",
@@ -116653,11 +116689,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 19,
         he: "את הפסח באחד וכיון דאינו בא בלא",
-        en: "This moment of reception is the beginning of the atonement process for the entire nation.",
+        en: "the Pesach-offering within one gate' - and since it does not come without",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l04"
+        ]
       },
       {
         id: "rashi-yoma-051a-020",
@@ -116665,11 +116703,14 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 20,
         he: "שותפות אין עושה תמורה: מי דחי",
-        en: "Summary: the HP personally receives validly stirred blood and alone enters the Holy of Holies.",
+        en: "partnership, it does not generate a substitute. New comment: 'does it override'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l04",
+          "yoma-051a-l08"
+        ]
       },
       {
         id: "rashi-yoma-051a-021",
@@ -116677,11 +116718,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 21,
         he: "טומאה. איכא למאן דאמר לקמן",
-        en: "The next Mishna will describe what he does inside: the sprinkling sequence and counting formula.",
+        en: "'tumah' - there is an opinion further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l08"
+        ]
       },
       {
         id: "rashi-yoma-051a-022",
@@ -116689,11 +116732,14 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 22,
         he: "בשמעתין דלא דחי: ותנא מאי שנא",
-        en: "The sprinkling on the Ark cover (kapporet) is the central act of Yom Kippur atonement.",
+        en: "in this passage that it does not override. New comment: 'and let the Tanna, what is the difference'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l08",
+          "yoma-051a-l09"
+        ]
       },
       {
         id: "rashi-yoma-051a-023",
@@ -116701,11 +116747,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 23,
         he: "חגיגה וכו'. ההוא תנא דתמורה",
-        en: "All preparatory service (bull slaughter, incense) has led to this moment.",
+        en: "'chagigah, etc.' - that Tanna being referred to is the Tanna of the substitute passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l09"
+        ]
       },
       {
         id: "rashi-yoma-051a-024",
@@ -116713,11 +116761,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 24,
         he: "דגבי רבי מאיר ורבי יעקב דאייתי",
-        en: "The HP's entry into the Holy of Holies is the most dramatic moment in the Jewish liturgical year.",
+        en: "who was mentioned regarding Rabbi Meir and Rabbi Yaakov, whom Rashi brought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l09"
+        ]
       },
       {
         id: "rashi-yoma-051a-025",
@@ -116725,11 +116775,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 25,
         he: "לעיל: בכנופיא. ברגלים:",
-        en: "The halachic details ensure every aspect is precisely performed with no room for error.",
+        en: "above. New comment: 'in assembly' - on the festivals.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l09"
+        ]
       },
       {
         id: "rashi-yoma-051a-026",
@@ -116737,11 +116789,13 @@ const DAF_CONTENT = {
         daf: "51a",
         vilnaLine: 26,
         he: "ותיפוק",
-        en: "This concludes the 51a Rashi section; 51b Rashi continues with the sprinkling sequence.",
+        en: "But let him derive it (continues on 51b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-051a-l20"
+        ]
       }
     ],
     review: "reviewed"
