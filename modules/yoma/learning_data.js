@@ -179651,11 +179651,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 1,
         he: "כל השיעורין. האמורין באוכלין: ששינה הכתוב. לקמן קמפרש",
-        en: "Rashi: all Torah eating measures equal an egg-bulk except Yom Kippur's date-bulk.",
+        en: "'All the measures' - that are stated regarding foods. 'That the text changed' - will be explained below",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l01"
+        ]
       },
       {
         id: "rashi-yoma-080a-002",
@@ -179663,11 +179665,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 2,
         he: "ליה: וראיה לדבר. למה שאמרתי שלפי ששינה הכתוב במשמען שינו",
-        en: "Rashi: the gezerah shavah linking YK eating to the matzah eating requirement.",
+        en: "for it. 'And the proof for this' - for what I said, that since the text changed their implication, [the Sages] changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l01"
+        ]
       },
       {
         id: "rashi-yoma-080a-003",
@@ -179675,11 +179679,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 3,
         he: "חכמים בשיעורן יש ראיה מיום הכפורים שאף בו שינו חכמים",
-        en: "Rashi: the same root word 'eating' appears in both matzah and YK contexts.",
+        en: "the Sages' measure, there is proof from Yom Kippur, that also in it the Sages changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l01"
+        ]
       },
       {
         id: "rashi-yoma-080a-004",
@@ -179687,11 +179693,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 4,
         he: "בשיעורן מפני ששינה בו הכתוב במשמעו: אשר לא תעונה. ולא",
-        en: "Rashi: the cheekful (male'o lugmav) as the drinking measure for Yom Kippur.",
+        en: "their measure, because the text changed its implication there. 'Which shall not be afflicted' - and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l01"
+        ]
       },
       {
         id: "rashi-yoma-080a-005",
@@ -179699,11 +179707,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 5,
         he: "כתיב אשר תאכל: מאי ראיה. למה",
-        en: "Rashi: why the drinking measure is personal (cheek-sized) rather than fixed.",
+        en: "is it written 'which shall be eaten.' New comment: 'What is the proof' - why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l01",
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-006",
@@ -179711,11 +179722,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 6,
         he: "לו להביא ראיה מאי אולמא דהאי",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "does he need to bring proof; what is stronger about this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-007",
@@ -179723,11 +179736,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 7,
         he: "מהאי מה פורש ביום הכפורים",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "than that; what is explicit regarding Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-008",
@@ -179735,11 +179750,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 8,
         he: "במשנה להודיענו שהטעם משום",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "in the Mishnah, to inform us that the reason is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-009",
@@ -179747,11 +179764,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 9,
         he: "דשינה הכתוב הוא יותר משלא פירשו",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "the text changed its implication is stronger evidence than had it not been explicit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-010",
@@ -179759,11 +179778,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 10,
         he: "התם בטומאה נמי חזינן דשינה",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "there, in the laws of impurity as well we see that the text changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-011",
@@ -179771,11 +179792,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 11,
         he: "הכתוב במשמעו ושינו חכמים",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "its implication, and the Sages changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-012",
@@ -179783,11 +179806,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 12,
         he: "בשיעורא: אי מהתם. מדשינה",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "the measure. New comment: 'if from there' - since the text changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-013",
@@ -179795,11 +179820,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 13,
         he: "הכתוב בטומאה הוה אמינא אין",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "its implication regarding impurity, I would have said there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-014",
@@ -179807,11 +179834,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 14,
         he: "שם שינוי הכתוב דאורחיה הוא",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "change of the text there, for it is the ordinary way",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-015",
@@ -179819,11 +179848,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 15,
         he: "למיכתב מכל האוכל אשר יאכל כי",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "to write 'from all the food which may be eaten,' just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-016",
@@ -179831,11 +179862,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 16,
         he: "היכי דכתיב גבי משקה אשר ישתה",
-        en: "Rashi explains the opening discussion of this topic on 80a.",
+        en: "it is written regarding drink, 'which may be drunk';",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-017",
@@ -179843,11 +179876,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 17,
         he: "קא משמע לן יום הכפורים דהתם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Yom Kippur teaches us that there, regarding impurity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-018",
@@ -179855,11 +179890,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 18,
         he: "ודאי שינה הכתוב במשמעו ושינו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the text certainly changed its implication, and the Sages changed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-019",
@@ -179867,11 +179904,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 19,
         he: "חכמים בשיעורן אמור מעתה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "their measure. Say from now:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-020",
@@ -179879,11 +179918,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 20,
         he: "את ששינו בטומאה נמי משום",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that which they changed regarding impurity is also because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-021",
@@ -179891,11 +179932,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 21,
         he: "טעמא דשינה הכתוב הוא דאשר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of the reason that the text changed, that 'which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-022",
@@ -179903,11 +179946,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 22,
         he: "יאכל שינוי משמעו חשיב להו:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "may be eaten' is considered a change of its implication to them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l05"
+        ]
       },
       {
         id: "rashi-yoma-080a-023",
@@ -179915,11 +179960,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 23,
         he: "מחוסר שחיטה. כשיצא מתוך האוכל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'lacking slaughter' - since it emerged from within the food",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-024",
@@ -179927,11 +179974,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 24,
         he: "שנוצר בו לאו אוכל מיקרי לענין",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that it was created in, it is not called 'food' regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-025",
@@ -179939,11 +179988,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 25,
         he: "טומאה לא הוא ולא אמו דהא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "impurity, neither it nor its mother, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-026",
@@ -179951,11 +180002,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 26,
         he: "מחסרי שחיטה: ואימא בן פקועה.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "both lack slaughter. New comment: 'but say a ben pekua!'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-027",
@@ -179963,11 +180016,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 27,
         he: "שנמצא בתוך בהמה שנשחטה דקיימא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that is found within an animal that was slaughtered, for we hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-028",
@@ -179975,11 +180030,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 28,
         he: "לן (חולין דף עד.) שחיטת אמו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "(Chullin 74a) that the slaughter of its mother",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-029",
@@ -179987,11 +180044,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 29,
         he: "מטהרתו: טעון קריעה. דתנן (שם)",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "purifies it. New comment: 'requires tearing' - as we learned there [in Chullin]",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l07"
+        ]
       },
       {
         id: "rashi-yoma-080a-030",
@@ -179999,11 +180058,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 30,
         he: "קורעו ומוציא את דמו: דבר יוכני.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "one tears it and removes its blood. New comment: 'bar yochani' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l12"
+        ]
       },
       {
         id: "rashi-yoma-080a-031",
@@ -180011,11 +180072,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 31,
         he: "עוף גדול הוא כדאמרינן בבכורות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "is a large bird, as we say in Tractate Bekhorot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l12"
+        ]
       },
       {
         id: "rashi-yoma-080a-032",
@@ -180023,11 +180086,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 32,
         he: "(דף נז:) שטבעה ביצתו ששים כרכים:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "(57b), that its egg drowned sixty towns:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l12"
+        ]
       },
       {
         id: "rashi-yoma-080a-033",
@@ -180035,11 +180100,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 33,
         he: "זוטר טובא לא גרסינן אלא ה\"ג ואימר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'very small' - we do not read this; rather this is the correct reading: 'but say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l12"
+        ]
       },
       {
         id: "rashi-yoma-080a-034",
@@ -180047,11 +180114,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 34,
         he: "כביעותא דציפרתא: רבי אבהו דידיה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'the egg of the tzipparta.' New comment: 'Rabbi Abbahu himself' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l12",
+          "yoma-080a-l14"
+        ]
       },
       {
         id: "rashi-yoma-080a-035",
@@ -180059,11 +180129,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 35,
         he: "אמר וכו'. פירש במשמעו של מקרא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'said, etc.' - he interpreted the implication of the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l14"
+        ]
       },
       {
         id: "rashi-yoma-080a-036",
@@ -180071,11 +180143,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 36,
         he: "פירוש אחר שלא פירש בו ר' אלעזר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "with another interpretation that his teacher Rabbi Elazar did not interpret",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l14"
+        ]
       },
       {
         id: "rashi-yoma-080a-037",
@@ -180083,11 +180157,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 37,
         he: "רבו ואין להשיב עליו: האוכל חלב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "it with, and there is no need to object to it. New comment: 'one who eats forbidden fat'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l14",
+          "yoma-080a-l17"
+        ]
       },
       {
         id: "rashi-yoma-080a-038",
@@ -180095,11 +180172,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 38,
         he: "בזמן הזה וכו'. מפרש לה ואזיל: אי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'nowadays, etc.' - he goes on to explain it. New comment: 'if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l17",
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-039",
@@ -180107,11 +180187,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 39,
         he: "נימא דמחייבי קרבן אכזית קטן. והכי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "you say that they obligate a sacrifice for a small olive's-bulk.' And this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-040",
@@ -180119,11 +180201,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 40,
         he: "קאמר האוכל פחות מכזית בזמן הזה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "what he says: one who eats less than an olive's-bulk nowadays",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-041",
@@ -180131,11 +180215,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 41,
         he: "יכתוב כשיעור זה אכלתי שמא יבנה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "should write, 'I ate this measure,' lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-042",
@@ -180143,11 +180229,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 42,
         he: "בית המקדש בימיו ויתחדש בית דין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the Temple be built in his days, and a new court be instituted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-043",
@@ -180155,11 +180243,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 43,
         he: "ותתחדש הלכה ויאמרו שחייב קרבן",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and a new halacha be instituted, and they say that one is liable for a sacrifice",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-044",
@@ -180167,11 +180257,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 44,
         he: "על כזית קטן ולקמן פריך א\"כ ימעט",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for a small olive's-bulk; and below the Gemara asks: if so, let him reduce it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-045",
@@ -180179,11 +180271,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 45,
         he: "בשיעורין מבעי ליה: והתניא וכו'.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in the measures, is what he should have said. New comment: 'but it was taught, etc.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-046",
@@ -180191,11 +180285,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 46,
         he: "כלומר וכי אתי ב\"ד ומחדש הלכה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "meaning: and if a court comes and institutes a new halacha,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-047",
@@ -180203,11 +180299,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 47,
         he: "מי מחייב האי דאכל קודם שנתחדשה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "does it obligate the one who ate before the halacha was renewed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20"
+        ]
       },
       {
         id: "rashi-yoma-080a-048",
@@ -180215,11 +180313,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 48,
         he: "הלכה והא האידנא לאו שב מידיעתו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for behold, now he was not one who repented from his knowledge,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l20",
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-049",
@@ -180227,11 +180328,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 49,
         he: "הוא דאי נמי הוה ידע דחלב הוא הוה",
-        en: "Rashi: for even had he known it was forbidden fat he would have",
+        en: "since even if he had known it was forbidden fat, he would have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-050",
@@ -180239,11 +180342,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 50,
         he: "אכיל ליה דהא השתא קים לן (ברכות",
-        en: "eaten it, since we hold (Berakhot 39a)",
+        en: "eaten it anyway, since we now hold (Berakhot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-051",
@@ -180251,11 +180356,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 51,
         he: "דף לט.) דלא חייבה תורה אלא על",
-        en: "that the Torah obligates only for",
+        en: "39a) that the Torah only obligates for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-052",
@@ -180263,11 +180370,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 52,
         he: "כזית איגורי שהוא כזית בינוני: אשר",
-        en: "an olive-bulk of iguri, which is a medium olive-bulk. 'Which",
+        en: "an olive's-bulk of iguri, which is a medium olive's-bulk. New comment: 'which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-053",
@@ -180275,11 +180384,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 53,
         he: "לא תעשינה. משמע שאילו ידע לא",
-        en: "shall not be done' (Lev 4) -",
+        en: "shall not be done' - implies that had he known, he would not have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23"
+        ]
       },
       {
         id: "rashi-yoma-080a-054",
@@ -180287,11 +180398,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 54,
         he: "עשה אבל בשגגה עשה ואשם: אלא",
-        en: "implies that had he known he would not have done it, but he acted inadvertently and is liable for a guilt-offering. 'Rather',",
+        en: "done it, but he did it in error and is liable. New comment: 'rather'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l23",
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-055",
@@ -180299,11 +180413,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 55,
         he: "דלא מחייבי קרבן עד דאיכא כזית",
-        en: "Rashi: that one is not obligated in a sacrifice until there is an olive-bulk",
+        en: "that they do not obligate a sacrifice until there is an olive's-bulk",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-056",
@@ -180311,11 +180427,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 56,
         he: "גדול. והכי קאמר האוכל כזית בינוני",
-        en: "of the larger size. And this is its meaning: one who eats a medium olive-bulk",
+        en: "of the large size. And this is what he says: one who eats a medium olive's-bulk",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-057",
@@ -180327,7 +180445,9 @@ const DAF_CONTENT = {
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-058",
@@ -180335,11 +180455,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 58,
         he: "כזית בינוני אכלתי שמא יבא בית דין",
-        en: "'I ate a medium olive-bulk,' lest a court come",
+        en: "'I ate a medium olive's-bulk,' lest a court come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-059",
@@ -180347,11 +180469,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 59,
         he: "ויפטרנו מקרבן ונמצא מביא חולין",
-        en: "and exempt him from the sacrifice, and he turn out to be bringing unconsecrated food",
+        en: "and exempt him from the sacrifice, and he would turn out to be bringing non-sacred food",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24"
+        ]
       },
       {
         id: "rashi-yoma-080a-060",
@@ -180359,11 +180483,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 60,
         he: "לעזרה: ה\"ג עונשין מיכתב כתיבי",
-        en: "into the Temple court. The correct reading: 'punishments are written',",
+        en: "into the Temple courtyard. This is the correct reading: 'punishments are explicitly written' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l24",
+          "yoma-080a-l28"
+        ]
       },
       {
         id: "rashi-yoma-080a-061",
@@ -180371,11 +180498,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 61,
         he: "אלא הכי קאמר שיעורין של עונשין וכו'. שיעורי עונשין שעל ידן הוא ענוש הלכה למשה מסיני באיזה שיעור הוא ענוש: יעבץ.",
-        en: "Rashi: rather it means thus - the measures for punishments etc. The measures of punishment by which one is punished are a law given to Moshe at Sinai - at what amount one is punishable. 'Yaavetz',",
+        en: "'rather, this is what he means: the measures of the punishments, etc.' - the measures of punishments, by which one is punished, are a law given to Moshe at Sinai, at what measure is he punished. New comment: 'Yaavetz' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l28",
+          "yoma-080a-l31"
+        ]
       },
       {
         id: "rashi-yoma-080a-062",
@@ -180383,11 +180513,15 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 62,
         he: "הוא עתניאל בן קנז: כמה ישתה. מדבית הלל קפריך: הכי גרסינן איכא בינייהו כמלא לוגמיו דחוק. לבית הלל בעינן",
-        en: "Rashi: he is Othniel ben Kenaz. 'How much shall he drink' - the Gemara raises a difficulty from the view of Beit Hillel. The correct reading: 'the difference between them is a tight cheekful.' For Beit Hillel we require",
+        en: "he is Otniel ben Kenaz. New comment: 'how much shall he drink' - he raises the difficulty from Beit Hillel's view. This is the correct reading: 'the difference between them is a tight cheekful.' For Beit Hillel we require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l31",
+          "yoma-080a-l40",
+          "yoma-080a-l43"
+        ]
       },
       {
         id: "rashi-yoma-080a-063",
@@ -180395,11 +180529,14 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 63,
         he: "כדי שיסלקנו לצד אחד ויראה כמלא לוגמיו בריוח ולרבי אליעזר כמלא לוגמיו דחוק: אם כן. דלבית הלל מיחייב בכדי",
-        en: "enough that he can push it to one side and it look like a full cheekful comfortably, while for R. Eliezer a tight cheekful suffices. 'If so' - that for Beit Hillel one is liable with enough",
+        en: "enough that he could push it to one side and it would appear like a cheekful comfortably, and for Rabbi Eliezer a tight cheekful suffices. New comment: 'if so' - that for Beit Hillel he is liable with enough",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l43",
+          "yoma-080a-l46"
+        ]
       },
       {
         id: "rashi-yoma-080a-064",
@@ -180407,11 +180544,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 64,
         he: "שיסלקנו וכו' הוה ליה בציר מרביעית והויא לה מקולי בית שמאי וליתנייה במסכת עדיות גבי קולי בית שמאי שכולן שנויות שם:",
-        en: "that he can push aside etc., then it is less than a revi'it, and this would be among the leniencies of Beit Shammai, and it should have been taught in Eduyot among the leniencies of Beit Shammai, which are all listed there.",
+        en: "that he could push aside, etc., this would be less than a revi'it, and this would be among the leniencies of Beit Shammai, and it should have been taught in Tractate Eduyot regarding the leniencies of Beit Shammai, all of which are stated there:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l46"
+        ]
       },
       {
         id: "rashi-yoma-080a-065",
@@ -180419,11 +180558,13 @@ const DAF_CONTENT = {
         daf: "80a",
         vilnaLine: 65,
         he: "כי",
-        en: "Rashi begins the next comment ('ki'), opening the following passage.",
+        en: "This ('ki') continues on 80b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-080a-l46"
+        ]
       }
     ],
     review: "draft"
