@@ -157,12 +157,18 @@ def gematria_daf(letters, punct):
 
 
 def anchors_of(he, next_he=""):
-    """Yield (kind, hebrew_token, english_regex) anchors found in a Hebrew
-    line. kind is 'name' (book/tractate name; a miss counts toward
-    fabrication) or 'dafnum' (numeric daf citation via gematria; offset
-    evidence only, since English legitimately drops daf numbers). next_he
-    (the head of the following line) closes citations split across vilna
-    lines."""
+    """Yield (kind, hebrew_token, english_regex, split_continuation) anchors
+    found in a Hebrew line. kind is 'name' (book/tractate name; a miss
+    counts toward fabrication) or 'dafnum' (numeric daf citation via
+    gematria; offset evidence only, since English legitimately drops daf
+    numbers). next_he (the head of the following line) closes citations
+    split across vilna lines. split_continuation is True only for a
+    dafnum token whose actual digits were sourced from next_he (the
+    print-line break falls between the tractate name and its daf number,
+    e.g. he ends "(Berakhot" and next_he opens "39a)"): a faithful
+    line-by-line translation legitimately places that token one English
+    line later than the anchor's own line, so callers should tolerate
+    offset 0 or +1 for it rather than requiring exactly 0."""
     text = he
     if he.count("(") > he.count(")") and next_he:
         text = he + " " + next_he[:40]
@@ -172,17 +178,18 @@ def anchors_of(he, next_he=""):
         for heb in NAME_MAP:
             if heb in inner and heb not in seen:
                 seen.add(heb)
-                yield "name", heb, NAME_MAP[heb]
+                yield "name", heb, NAME_MAP[heb], False
     for m in DAF_CIT_RE.finditer(text):
         pre = text[max(0, m.start() - ADJACENCY_CHARS):m.start()]
         for heb in TRACTATES:
             if heb in pre and heb not in seen:
                 seen.add(heb)
-                yield "name", heb, NAME_MAP[heb]
+                yield "name", heb, NAME_MAP[heb], False
         token = gematria_daf(m.group(1), m.group(2))
         if token and token not in seen:
             seen.add(token)
-            yield "dafnum", token, re.compile(rf"\b{token}\b")
+            split_continuation = m.start(1) >= len(he)
+            yield "dafnum", token, re.compile(rf"\b{token}\b"), split_continuation
 
 
 def load_allowlisted():
@@ -217,7 +224,7 @@ def profile_daf(daf, allowed=None):
     for v in range(1, len(raw) + 1):
         he = raw[v - 1]
         nxt = raw[v] if v < len(raw) else ""
-        for kind, token, rx in anchors_of(he, nxt):
+        for kind, token, rx, split_continuation in anchors_of(he, nxt):
             offset = None
             for d in sorted(range(-WINDOW, WINDOW + 1), key=lambda x: (abs(x), x)):
                 en = searchable(v + d)
@@ -226,7 +233,8 @@ def profile_daf(daf, allowed=None):
                     break
             anchors.append({"line": v, "kind": kind, "token": token,
                             "offset": offset,
-                            "allowlisted": (daf, v) in allowed})
+                            "allowlisted": (daf, v) in allowed,
+                            "splitContinuation": split_continuation})
 
     offsets = [a["offset"] for a in anchors if a["offset"] is not None]
     # Distinct Hebrew lines showing displacement, split by sign; a single

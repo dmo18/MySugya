@@ -413,6 +413,25 @@ def test_evidence_tiers():
     ok3, reason3 = wp.multi_anchor_safe(_prof("ALIGNED", multi_missing))
     check("3. multi-anchor missing citation fails", not ok3, reason3)
 
+    # 3b. Yoma 80a class: a dafnum anchor whose digits were sourced from
+    # the FOLLOWING raw line (a citation split across the print-line
+    # break, e.g. he ends "(Berakhot" and next_he opens "39a)") is
+    # flagged splitContinuation; offset +1 for THAT anchor is the
+    # citation's own honestly-translated position, not drift, and must
+    # pass. The same +1 offset on an ordinary (non-split) anchor must
+    # still fail: the tolerance is narrowly scoped to the flagged token.
+    multi_split_ok = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                       {"line": 9, "kind": "dafnum", "token": "39a", "offset": 1,
+                        "splitContinuation": True}]
+    ok3c, reason3c = wp.multi_anchor_safe(_prof("ALIGNED", multi_split_ok))
+    check("3b. split-continuation dafnum at offset +1 passes", ok3c, reason3c)
+
+    multi_unflagged_offset = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                               {"line": 9, "kind": "dafnum", "token": "39a", "offset": 1,
+                                "splitContinuation": False}]
+    ok3d, reason3d = wp.multi_anchor_safe(_prof("ALIGNED", multi_unflagged_offset))
+    check("3c. same offset +1 WITHOUT the split flag still fails", not ok3d, reason3d)
+
     # 4. One anchor at offset 0: ONE-ANCHOR-SAFE pass.
     ok4, reason4 = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), good_sr1)
     check("4. one anchor, offset 0, self-review attests: ONE-ANCHOR-SAFE passes", ok4, reason4)
@@ -426,6 +445,12 @@ def test_evidence_tiers():
     missing_one = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": None}]
     ok6, reason6 = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", missing_one), good_sr1)
     check("6. one expected anchor missing fails", not ok6)
+
+    # 6b. One anchor, split-continuation dafnum at offset +1: passes.
+    one_split_ok = [{"line": 16, "kind": "dafnum", "token": "39a", "offset": 1,
+                      "splitContinuation": True}]
+    ok6c, reason6c = wp.one_anchor_safe(_prof("INSUFFICIENT-ANCHORS", one_split_ok), good_sr1)
+    check("6b. one anchor, split-continuation offset +1 passes", ok6c, reason6c)
 
     # 7. Zero genuine anchors with complete full-daf attestation:
     # ZERO-ANCHOR-SAFE pass. Uses the real 49b talmuddev source, whose raw

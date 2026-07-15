@@ -45,12 +45,13 @@ def check(name, cond, detail=""):
 def test_anchor_extraction():
     print("anchor extraction:")
     a = list(ars.anchors_of("כדאמרינן במסכת גיטין (דף נז:) התם"))
-    check("colon amud citation + adjacency", ("name", "גיטין", ars.NAME_MAP["גיטין"]) in a)
-    check("gematria daf token", any(k == "dafnum" and t == "57b" for k, t, _ in a))
+    check("colon amud citation + adjacency",
+          ("name", "גיטין", ars.NAME_MAP["גיטין"], False) in a)
+    check("gematria daf token", any(k == "dafnum" and t == "57b" for k, t, _, _ in a))
     a = list(ars.anchors_of("דכתיב (ויקרא"))
-    check("split citation unclosed alone", not any(t == "ויקרא" for _, t, _ in a))
+    check("split citation unclosed alone", not any(t == "ויקרא" for _, t, _, _ in a))
     a = list(ars.anchors_of("דכתיב (ויקרא", "טז) ואת חלב"))
-    check("split citation closed by next line", any(t == "ויקרא" for _, t, _ in a))
+    check("split citation closed by next line", any(t == "ויקרא" for _, t, _, _ in a))
     check("gematria 57b", ars.gematria_daf("נז", ":") == "57b")
     check("gematria 15a", ars.gematria_daf("טו", ".") == "15a")
     check("gematria shem is None", ars.gematria_daf("שם", ":") is None)
@@ -63,26 +64,51 @@ def test_same_parens_daf_citation():
     Regression for the campaign-83a/88a capability-scan gap."""
     print("same-parens daf citation (tractate/reference word + daf inside parens):")
     a = list(ars.anchors_of('ותניא (ב"ב דף צ:) אין אוצרין פירות בארץ'))
-    check("bava batra name recognized", ("name", 'ב"ב', ars.NAME_MAP['ב"ב']) in a)
-    check("bava batra dafnum token", any(k == "dafnum" and t == "90b" for k, t, _ in a))
+    check("bava batra name recognized", ("name", 'ב"ב', ars.NAME_MAP['ב"ב'], False) in a)
+    check("bava batra dafnum token", any(k == "dafnum" and t == "90b" for k, t, _, _ in a))
 
     a = list(ars.anchors_of('כדאיתא בבבא קמא (ב"ק דף פב.) התם'))
-    check("bava kamma name recognized", ("name", 'ב"ק', ars.NAME_MAP['ב"ק']) in a)
-    check("bava kamma dafnum token", any(k == "dafnum" and t == "82a" for k, t, _ in a))
+    check("bava kamma name recognized", ("name", 'ב"ק', ars.NAME_MAP['ב"ק'], False) in a)
+    check("bava kamma dafnum token", any(k == "dafnum" and t == "82a" for k, t, _, _ in a))
 
     # Self-reference to an earlier/later daf of THIS tractate: no tractate
     # name to recognize, but the dafnum token must still be extracted.
     a = list(ars.anchors_of("טעם דבר זה (לעיל דף לט.) הוא"))
     check("le'eil self-reference dafnum token still extracted",
-          any(k == "dafnum" and t == "39a" for k, t, _ in a))
+          any(k == "dafnum" and t == "39a" for k, t, _, _ in a))
     check("le'eil self-reference yields no spurious name anchor",
-          not any(k == "name" for k, _, _ in a))
+          not any(k == "name" for k, _, _, _ in a))
 
     # Unchanged: the outside-adjacency convention (name before the parens)
     # must keep working after the same-parens extension.
     a = list(ars.anchors_of("בסנהדרין (דף ה.) שאין חכם מתיר"))
     check("outside-adjacency convention still recognized",
-          ("name", "סנהדרין", ars.NAME_MAP["סנהדרין"]) in a)
+          ("name", "סנהדרין", ars.NAME_MAP["סנהדרין"], False) in a)
+
+
+def test_split_continuation_dafnum():
+    """Yoma 80a class: a citation whose tractate name and daf number are
+    split across two print lines (he ends "(Berakhot", next_he opens
+    "39a)"). A faithful translation legitimately places the daf number on
+    the FOLLOWING English line, one past the anchor's own line; this must
+    be flagged splitContinuation so the review gate's offset-0 requirement
+    can tolerate +1 for that token without tolerating it everywhere."""
+    print("split-continuation dafnum (citation's daf number crosses the print-line break):")
+    a = list(ars.anchors_of("קים לן (ברכות", "דף לט.) דלא חייבה"))
+    dafnum = [x for x in a if x[0] == "dafnum" and x[1] == "39a"]
+    check("dafnum token found", len(dafnum) == 1, a)
+    if dafnum:
+        check("dafnum flagged splitContinuation (digits sourced from next_he)",
+              dafnum[0][3] is True)
+    name = [x for x in a if x[0] == "name" and x[1] == "ברכות"]
+    check("name token found and NOT flagged splitContinuation (fully on its own line)",
+          len(name) == 1 and name[0][3] is False, name)
+
+    # A same-line citation (no print-line split) must never be flagged.
+    a2 = list(ars.anchors_of("בבכורות (דף נז:) שטבעה ביצתו"))
+    dafnum2 = [x for x in a2 if x[0] == "dafnum"]
+    check("same-line dafnum NOT flagged splitContinuation",
+          len(dafnum2) == 1 and dafnum2[0][3] is False, a2)
 
 
 def synth_corpus(tmp):
@@ -235,6 +261,7 @@ def test_live_corpus():
 def main():
     test_anchor_extraction()
     test_same_parens_daf_citation()
+    test_split_continuation_dafnum()
     test_classifier_synthetic()
     test_drift_block()
     test_live_corpus()
