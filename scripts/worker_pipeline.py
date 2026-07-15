@@ -44,6 +44,16 @@ MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
                "placeholder-backfill", "rashi-structural-repair"}
 STRUCTURAL_TYPE = "rashi-structural-repair"
+# Task types eligible for the narrow anchor-poor-safe review-gate exception
+# (see anchor_poor_safe below). Deliberately excludes rashi-structural-repair,
+# which already has its own, broader, unconditional haiku-safe allowance.
+ANCHOR_POOR_TYPES = ("rashi-reconstruction", "rashi-realignment")
+ANCHOR_POOR_ATTESTATION_KEYS = (
+    "onlyOneGenuineCitation",
+    "citationTranslatedOnOwnLine",
+    "noCitationInventedMovedOrDuplicated",
+    "noSemanticUncertaintyRemains",
+)
 
 
 def structure_authorized(m, spec):
@@ -710,6 +720,75 @@ def evaluate_review_policy(conditions):
     return (not failed, failed)
 
 
+def anchor_poor_safe(prof, sr):
+    """Narrow, purely-mechanical exception (Yoma 48b class of daf): a
+    rashi-reconstruction/realignment daf whose raw Hebrew genuinely
+    contains only one detectable citation may substitute for ALIGNED
+    when ALL of the following hold, computed only from the drift
+    profile and the fresh self-review (no file I/O, no git):
+
+      1. prof['anchors'] has exactly one entry (exactly one genuine
+         detectable citation exists anywhere in the raw Hebrew).
+      2. that entry's offset is not None (it is found in the English).
+      3. that entry's offset is exactly 0 (no displacement).
+      4. prof['anchorsMissing'] is 0 (no expected anchor is missing).
+      5. the self-review carries an 'anchorPoorAttestation' block with
+         all of ANCHOR_POOR_ATTESTATION_KEYS explicitly true.
+
+    SHIFTED requires >= SHIFT_MIN_ANCHORS (2) same-sign displaced
+    anchors and FABRICATION-SUSPECT requires >= FAB_MIN_CONSECUTIVE_MISSES
+    (2) consecutive missing name anchors, so condition 1 alone already
+    excludes both classifications from ever qualifying; this function
+    never reclassifies or relabels the daf, it only decides whether the
+    merge gate may accept INSUFFICIENT-ANCHORS in its place. Returns
+    (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    anchors = prof.get("anchors", [])
+    if len(anchors) != 1:
+        return False, (f"{len(anchors)} genuine detectable citation(s) in the raw Hebrew "
+                        "(the exception requires exactly 1)")
+    offset = anchors[0].get("offset")
+    if offset is None:
+        return False, "the single citation is not found anywhere in the English"
+    if offset != 0:
+        return False, f"the single citation is found at offset {offset}, not 0"
+    if prof.get("anchorsMissing", 1) != 0:
+        return False, f"{prof.get('anchorsMissing')} expected citation(s) missing"
+    att = (sr or {}).get("anchorPoorAttestation") or {}
+    missing_att = [k for k in ANCHOR_POOR_ATTESTATION_KEYS if att.get(k) is not True]
+    if missing_att:
+        return False, f"self-review anchorPoorAttestation missing or false: {missing_att}"
+    return True, ("exactly one genuine citation, found at offset 0, no missing anchors, "
+                  "self-review attests no invented/moved/duplicated citation")
+
+
+def drift_ok_for_type(m_type, prof, sr):
+    """Pure dispatch: does the post-edit drift profile satisfy this task
+    type's merge bar? Never mutates prof/sr and performs no I/O, so it is
+    directly unit-testable. Returns (ok, extra_condition_key_or_None,
+    note) where extra_condition_key_or_None is a SECOND condition name
+    to add to the conditions dict (reported as its own PASS/FAIL line)
+    only when the anchor-poor-safe exception is what actually decided
+    the outcome; note is an empty string when there is nothing to add."""
+    cls = prof["classification"] if prof else "NO-PROFILE"
+    if m_type == STRUCTURAL_TYPE:
+        ok = bool(prof) and prof.get("haikuSafe", False)
+        note = "" if ok else f"post-edit drift profile is {cls}, not haiku-safe"
+        return ok, None, note
+    if m_type in ANCHOR_POOR_TYPES and cls != "ALIGNED":
+        ok, reason = anchor_poor_safe(prof, sr)
+        if ok:
+            return True, "anchor-poor-safe", (
+                f"anchor-poor-safe: {reason} (classification remains {cls}, not relabeled ALIGNED)")
+        return False, "anchor-poor-safe", (
+            f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
+            f"anchor-poor-safe exception: {reason}")
+    ok = cls == "ALIGNED"
+    note = "" if ok else f"post-edit drift profile is {cls}, not ALIGNED"
+    return ok, None, note
+
+
 def gather_review_conditions(m, spec, base):
     """Collect the machine-checkable auto-merge conditions for a conditional
     review task. Every check is read-only. Returns (conditions, notes)."""
@@ -802,18 +881,24 @@ def gather_review_conditions(m, spec, base):
         notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
 
     # Post-edit drift: realignment/reconstruction must restore full
-    # alignment; structural repair on an anchor-poor daf may legitimately
-    # profile INSUFFICIENT-ANCHORS, so it requires haiku-safe instead.
+    # alignment (ALIGNED), or qualify for the narrow anchor-poor-safe
+    # exception (see anchor_poor_safe); structural repair on an
+    # anchor-poor daf keeps its own, broader, unconditional haiku-safe
+    # allowance. drift_ok_for_type never mutates the classification
+    # itself and never accepts SHIFTED or FABRICATION-SUSPECT.
     prof = ars.profile_daf(target, ars.load_allowlisted())
-    cls = prof["classification"] if prof else "NO-PROFILE"
-    if m["type"] == STRUCTURAL_TYPE:
-        conditions["drift-profile-ALIGNED"] = bool(prof) and prof.get("haikuSafe", False)
-        if not (prof and prof.get("haikuSafe")):
-            notes.append(f"post-edit drift profile is {cls}, not haiku-safe")
-    else:
-        conditions["drift-profile-ALIGNED"] = cls == "ALIGNED"
-        if cls != "ALIGNED":
-            notes.append(f"post-edit drift profile is {cls}, not ALIGNED")
+    sr_for_drift = None
+    if SELF_REVIEW_PATH.exists():
+        try:
+            sr_for_drift = json.loads(SELF_REVIEW_PATH.read_text())
+        except json.JSONDecodeError:
+            sr_for_drift = None
+    ok, extra_key, note = drift_ok_for_type(m["type"], prof, sr_for_drift)
+    conditions["drift-profile-ALIGNED"] = ok
+    if extra_key:
+        conditions[extra_key] = ok
+    if note:
+        notes.append(note)
 
     ra = sh([sys.executable, "scripts/audit_rashi_semantic.py", target], cwd=YROOT)
     conditions["semantic-audit-zero-shift-candidates"] = "0 shift candidate(s)" in ra.stdout

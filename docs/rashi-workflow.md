@@ -91,6 +91,33 @@ packet embeds each daf's profile, and worker:verify enforces a clean
 post-edit profile for both rashi-realignment and rashi-reconstruction
 PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
 
+### Anchor-poor-safe review-gate exception
+
+A daf whose raw Rashi contains fewer than two genuine citations can
+never classify ALIGNED (the classifier requires 2+ anchors), even
+after a fully correct reconstruction. `npm run worker:review`'s
+drift-profile-ALIGNED condition accepts INSUFFICIENT-ANCHORS in place
+of ALIGNED for `rashi-reconstruction`/`rashi-realignment` ONLY when
+ALL of the following hold, reported as its own distinct
+`anchor-poor-safe` PASS/FAIL line rather than a silent ALIGNED
+relabel:
+
+1. the raw Hebrew contains exactly one genuine detectable citation
+2. that citation is found in the English (not missing)
+3. its offset is exactly 0
+4. no expected anchor is missing
+5. the fresh `.worker-self-review.json` carries an
+   `anchorPoorAttestation` object with `onlyOneGenuineCitation`,
+   `citationTranslatedOnOwnLine`, `noCitationInventedMovedOrDuplicated`,
+   and `noSemanticUncertaintyRemains` all explicitly `true`
+
+SHIFTED and FABRICATION-SUSPECT can never qualify (both require 2+
+anchors). This never changes the classifier or relabels the daf
+ALIGNED; it only widens what the merge gate accepts for these two task
+types. `rashi-structural-repair` is unaffected: it keeps its own,
+separate, unconditional haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)
+allowance. Tests: `npm run test:policy`.
+
 ## Structural repair (VERSION 15.97)
 
 The baselined entry-count mismatches (8a: 41 entries vs 35 raw lines;

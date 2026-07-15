@@ -347,6 +347,127 @@ def test_structural_deferral_in_scope_validator():
           structural_deferral({**good, "type": "nope"}, types, True) == set())
 
 
+def _prof(classification, anchors, anchors_missing=None):
+    """Build a minimal synthetic drift profile for anchor_poor_safe/
+    drift_ok_for_type unit tests. anchors_missing defaults to the count
+    of anchors whose offset is None."""
+    if anchors_missing is None:
+        anchors_missing = len([a for a in anchors if a.get("offset") is None])
+    return {"classification": classification, "anchors": anchors,
+            "anchorsFound": len(anchors) - anchors_missing,
+            "anchorsMissing": anchors_missing,
+            "haikuSafe": classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")}
+
+
+def _sr(attest_overrides=None, missing=False):
+    if missing:
+        return {}
+    att = {"onlyOneGenuineCitation": True, "citationTranslatedOnOwnLine": True,
+           "noCitationInventedMovedOrDuplicated": True, "noSemanticUncertaintyRemains": True}
+    if attest_overrides:
+        att.update(attest_overrides)
+    return {"daf": "48b", "anchorPoorAttestation": att}
+
+
+def test_anchor_poor_safe():
+    print("anchor-poor-safe review-gate exception:")
+
+    one_ok = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": 0}]
+    good_sr = _sr()
+
+    # 1. ALIGNED continues to pass (exception never invoked).
+    ok, key, note = wp.drift_ok_for_type("rashi-reconstruction",
+                                          _prof("ALIGNED", [{"line": 4, "kind": "name",
+                                                              "token": "x", "offset": 0},
+                                                             {"line": 9, "kind": "name",
+                                                              "token": "y", "offset": 0}]),
+                                          None)
+    check("1. ALIGNED passes without invoking the exception", ok and key is None)
+
+    # 2. One genuine anchor, offset 0, no missing anchors: pass.
+    ok2, reason2 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
+    check("2. one anchor, offset 0, self-review attests: passes", ok2, reason2)
+
+    # 3. One genuine anchor, nonzero offset: fail.
+    bad_offset = [{"line": 16, "kind": "dafnum", "token": "11a", "offset": 3}]
+    ok3, reason3 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", bad_offset), good_sr)
+    check("3. nonzero offset fails", not ok3)
+
+    # 4. One found anchor plus one missing anchor: fail.
+    two_one_missing = [{"line": 4, "kind": "name", "token": "x", "offset": 0},
+                        {"line": 16, "kind": "dafnum", "token": "11a", "offset": None}]
+    ok4, reason4 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", two_one_missing), good_sr)
+    check("4. one found plus one missing anchor fails (not exactly one)", not ok4)
+
+    # 5. Zero anchors: fail.
+    ok5, reason5 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", []), good_sr)
+    check("5. zero anchors fails", not ok5)
+
+    # 6. SHIFTED: fail (2+ same-sign anchors, so exactly-one check excludes it).
+    shifted_anchors = [{"line": 4, "kind": "name", "token": "x", "offset": 5},
+                        {"line": 9, "kind": "name", "token": "y", "offset": 4}]
+    ok6, reason6 = wp.anchor_poor_safe(_prof("SHIFTED", shifted_anchors), good_sr)
+    check("6. SHIFTED fails", not ok6)
+    ok6b, _, _ = wp.drift_ok_for_type("rashi-realignment", _prof("SHIFTED", shifted_anchors), good_sr)
+    check("6b. SHIFTED never eligible via drift_ok_for_type either", not ok6b)
+
+    # 7. FABRICATION-SUSPECT: fail (2+ consecutive missing anchors).
+    fab_anchors = [{"line": 4, "kind": "name", "token": "x", "offset": None},
+                   {"line": 9, "kind": "name", "token": "y", "offset": None}]
+    ok7, reason7 = wp.anchor_poor_safe(_prof("FABRICATION-SUSPECT", fab_anchors), good_sr)
+    check("7. FABRICATION-SUSPECT fails", not ok7)
+
+    # 8. Self-review says an additional citation may exist (attestation false): fail.
+    ok8, reason8 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok),
+                                        _sr({"noCitationInventedMovedOrDuplicated": False}))
+    check("8. self-review flags a possible extra/invented citation: fails", not ok8)
+
+    # 9. Self-review missing or stale (no attestation block at all): fail.
+    ok9, reason9 = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), _sr(missing=True))
+    check("9a. missing self-review fails", not ok9)
+    ok9b, reason9b = wp.anchor_poor_safe(_prof("INSUFFICIENT-ANCHORS", one_ok), None)
+    check("9b. None self-review fails", not ok9b)
+
+    # 10. A semantic-audit shift-candidate warning is a SEPARATE, pre-existing
+    # condition (semantic-audit-zero-shift-candidates) untouched by this
+    # exception; confirm it still independently blocks overall eligibility
+    # even when drift-profile-ALIGNED (via the exception) passes.
+    all_true = {k: True for k in wp.REVIEW_CONDITIONS}
+    all_true["semantic-audit-zero-shift-candidates"] = False
+    eligible10, failed10 = wp.evaluate_review_policy(all_true)
+    check("10. semantic-audit-zero-shift-candidates still gates independently",
+          not eligible10 and failed10 == ["semantic-audit-zero-shift-candidates"])
+
+    # 11. The exception applies only to rashi-reconstruction/rashi-realignment;
+    # any other type (including a hypothetical future one) stays at strict
+    # ALIGNED-only, never granted the exception.
+    for other_type in ("rashi-repair", "placeholder-backfill", "some-future-type"):
+        ok11, key11, _ = wp.drift_ok_for_type(other_type,
+                                               _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
+        check(f"11. {other_type} does not get the anchor-poor-safe exception",
+              not ok11 and key11 is None)
+
+    # 12. rashi-structural-repair keeps its existing (broader, unconditional)
+    # haiku-safe policy untouched: INSUFFICIENT-ANCHORS with NO anchors at
+    # all and NO self-review attestation still passes for structural repair,
+    # proving its policy was not narrowed or otherwise changed by this PR.
+    ok12, key12, _ = wp.drift_ok_for_type(wp.STRUCTURAL_TYPE,
+                                           _prof("INSUFFICIENT-ANCHORS", []), None)
+    check("12. rashi-structural-repair keeps its own unconditional haiku-safe policy",
+          ok12 and key12 is None)
+
+    # Full dispatch sanity: the anchor-poor-safe path reports its own
+    # distinct condition key (not silently folded into drift-profile-ALIGNED).
+    okA, keyA, noteA = wp.drift_ok_for_type("rashi-reconstruction",
+                                             _prof("INSUFFICIENT-ANCHORS", one_ok), good_sr)
+    check("dispatch: anchor-poor-safe reports its own distinct condition key",
+          okA and keyA == "anchor-poor-safe" and "anchor-poor-safe" in noteA)
+    okB, keyB, noteB = wp.drift_ok_for_type("rashi-realignment",
+                                             _prof("INSUFFICIENT-ANCHORS", []), good_sr)
+    check("dispatch: a failing exception attempt still reports the distinct key (for visibility)",
+          not okB and keyB == "anchor-poor-safe")
+
+
 def test_no_direct_main_push_anywhere():
     print("no automation path instructs a direct push to main:")
     src = (REPO / "scripts" / "worker_pipeline.py").read_text()
@@ -374,6 +495,7 @@ def main():
     test_prompt()
     test_queue()
     test_structural_repair_type()
+    test_anchor_poor_safe()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:
