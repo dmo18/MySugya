@@ -154,6 +154,17 @@ def synth_corpus(tmp):
     # 904a INSUFFICIENT: no anchors at all
     write("904a", [pad_he] * 4, [pad_en] * 4)
 
+    # 905a ALIGNED with a genuine split-continuation citation: the daf
+    # number is honestly translated one line after the tractate name,
+    # mirroring the same print-line split in the raw Hebrew.
+    raw = [pad_he] * 6
+    raw[2] = "קים לן (ברכות"
+    raw[3] = "דף לט.) דלא חייבה"
+    ens = [pad_en] * 6
+    ens[2] = "we hold (Berakhot"
+    ens[3] = "39a) that it does not obligate"
+    write("905a", raw, ens)
+
 
 def test_classifier_synthetic():
     print("classifier (synthetic corpus):")
@@ -190,6 +201,23 @@ def test_classifier_synthetic():
             p = ars.profile_daf("902a", allowed={("902a", 3), ("902a", 6)})
             check("allowlisted misses excluded from fabrication",
                   p["classification"] != "FABRICATION-SUSPECT", p["classification"])
+
+            # 905a: the report's "shift candidates" count must not flag a
+            # genuine split-continuation citation (offset +1, flagged),
+            # while 901a's real SHIFTED daf must still be flagged.
+            import contextlib
+            import io
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                ars.run_report(["905a"], top=15)
+            check("split-continuation citation is not a shift candidate in the report",
+                  "0 shift candidate(s)" in buf.getvalue(), buf.getvalue())
+
+            buf2 = io.StringIO()
+            with contextlib.redirect_stdout(buf2):
+                ars.run_report(["901a"], top=15)
+            check("genuine SHIFTED daf still reported as shift candidate(s)",
+                  "0 shift candidate(s)" not in buf2.getvalue(), buf2.getvalue())
         finally:
             ars.LEARN_DIR, ars.TALMUDDEV_DIR = saved
 
