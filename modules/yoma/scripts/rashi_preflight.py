@@ -14,9 +14,19 @@ FAILS (exit 1) when:
   - core.hooksPath is not set to githooks (guards inactive)
   - generated learning_data.js/coverage.json are stale
   - a target daf is malformed or has no talmuddev source
-  - a target daf has unresolved allowlist/baseline hits and --task is not
+  - a target daf has unresolved content-allowlist hits and --task is not
     'repair' (reconstruction on top of undocumented-or-deferred defects is
-    how scope creep starts; repairs must be explicitly declared)
+    how scope creep starts; repairs must be explicitly declared). A
+    rashi-reconstruction/rashi-realignment manifest may instead carry an
+    allowlistDrain snapshot (worker_pipeline.py's --drain-allowlist) that
+    matches the daf's CURRENT content-allowlist entries exactly; that
+    authorizes worker_pipeline.py's preflight wrapper to proceed past this
+    specific error, treating the debt as repair work the reconstruction
+    itself must eliminate, not an exemption. This script has no notion of
+    manifests or drain authorization; the bypass lives one layer up.
+  - a target daf has unresolved count-mismatch/repetition-baseline hits and
+    --task is not 'repair' (same rationale; no drain override applies to
+    these, regardless of task type)
   - a target daf's drift profile (audit_rashi_semantic --profile) says
     SHIFTED or FABRICATION-SUSPECT and --task is a line-level mode
     ('repair' or 'links'): stub-only work there duplicates content and
@@ -191,9 +201,15 @@ def main():
                   f"max offset {profile['maxAbsOffset']}); "
                   f"haiku-safe for line-level work: {'yes' if profile['haikuSafe'] else 'NO'}")
 
-        blocked = bool(hits) or daf in count_mm or daf in rep_daf
-        if blocked and opts.task not in ("repair", "shifted-block", "links"):
-            errors.append(f"{daf}: has unresolved allowlist/baseline hits; "
+        blockable = opts.task not in ("repair", "shifted-block", "links")
+        if hits and blockable:
+            errors.append(f"{daf}: has unresolved CONTENT ALLOWLIST hits ({len(hits)}); "
+                          f"task {opts.task!r} is not a repair task. Use --task repair, or an "
+                          f"allowlist-drain manifest (rashi-reconstruction/rashi-realignment "
+                          f"only, via worker_pipeline.py manifest --drain-allowlist) that "
+                          f"snapshots this exact pre-existing debt, before starting.")
+        if (daf in count_mm or daf in rep_daf) and blockable:
+            errors.append(f"{daf}: has unresolved count-mismatch/repetition-baseline hits; "
                           f"task {opts.task!r} is not a repair task. Use --task repair "
                           f"(or fix the plan) before starting.")
         drift_err = drift_block_error(profile, opts.task)
