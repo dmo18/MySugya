@@ -113940,11 +113940,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 1,
         he: "והוציא את כל הפר. אלמא לאחר שחיטה פר קרי ליה: שיוציא את",
-        en: "He shall remove his linen garments - this describes the required vestment change at the end of Yom Kippur service.",
+        en: "He shall take out the entire bull - this apparently shows that even after slaughter it is called 'bull'; the resolution is that he shall take out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l01"
+        ]
       },
       {
         id: "rashi-yoma-050a-002",
@@ -113952,11 +113954,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 2,
         he: "כולו. תירוצא הוא כלומר לאו דאיקרי פר אלא הכי קאמר יוציא את",
-        en: "R. Yitzchak Nappacha: perhaps this is not a positive commandment but only a prohibition on continued wearing.",
+        en: "all of it - this is the resolution, meaning: it is not that the blood is called 'bull,' but rather he means: he shall take out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l01"
+        ]
       },
       {
         id: "rashi-yoma-050a-003",
@@ -113964,11 +113968,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 3,
         he: "כל הנשאר ממנו: ואת פר החטאת. קושיא הוא והכתיב (ויקרא טז)",
-        en: "The verse's placement in the service sequence shows it is a required act within the service.",
+        en: "all that remains of it. New difficulty: 'and the bull of the sin-offering' - this is a difficulty, for it is written (Leviticus 16)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l01",
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-004",
@@ -113976,11 +113983,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 4,
         he: "ואת פר החטאת גבי יום הכפורים ולאחר מתן דמו משתעי קרא",
-        en: "The order: first complete the inner service, then remove the linen garments - confirming it is a required step.",
+        en: "'and the bull of the sin-offering' regarding Yom Kippur, and after its blood has already been given the verse speaks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-005",
@@ -113988,11 +113997,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 5,
         he: "להוציאם לשריפה: בעור ובשר ופרש.",
-        en: "R. Chanina's ruling about incense scooped before slaughter being void - applied now to the replacement.",
+        en: "of taking them out for burning. New comment: 'in skin, flesh, and dung' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-006",
@@ -114000,11 +114011,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 6,
         he: "היכא דמשתעי קרא בגוף הפר שעורו",
-        en: "The verse says 'a bull' - implying the bull must be present (and alive) at the start of the service.",
+        en: "where the verse speaks of the bull's body itself - its skin,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-007",
@@ -114012,11 +114025,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 7,
         he: "ובשרו ופרשו כולן יחד כי התם כולי",
-        en: "If the HP died after his bull was slaughtered, the replacement needs his own bull since 'a bull' means a fresh one.",
+        en: "flesh, and dung all together - there,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-008",
@@ -114024,11 +114039,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 8,
         he: "עלמא לא פליגי דמיקרי פר: כי פליגי.",
-        en: "Once the bull is slaughtered, is its blood still legally called 'blood of a bull'?",
+        en: "everyone agrees it is called 'bull.' New comment: 'when do they disagree' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-009",
@@ -114036,11 +114053,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 9,
         he: "לגבי ביאת פנים שאינו מכניס שם",
-        en: "Abaye: slaughtered blood retains its category. Rava: slaughter may change the blood's legal status.",
+        en: "regarding entry into the inner sanctum, where he brings in there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02"
+        ]
       },
       {
         id: "rashi-yoma-050a-010",
@@ -114048,11 +114067,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 10,
         he: "אלא הדם: במה הוכשר לבא. מה",
-        en: "The practical question: may the replacement HP use the first HP's blood for the Yom Kippur atonement sprinkling?",
+        en: "only the blood. New comment: 'with what was he rendered fit to enter' - what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l02",
+          "yoma-050a-l10"
+        ]
       },
       {
         id: "rashi-yoma-050a-011",
@@ -114060,11 +114082,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 11,
         he: "יעשה כדי שיהא רשאי ליכנס יביא",
-        en: "Is the HP's bull a communal offering (chatat tzibur) or a personal one (chatat yachid)?",
+        en: "shall he do so that he may be permitted to enter? He shall bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l10"
+        ]
       },
       {
         id: "rashi-yoma-050a-012",
@@ -114072,11 +114096,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 12,
         he: "פר חי לעזרה ויעשה עבודות שבענין:",
-        en: "Abaye: the HP represents all Israel - his bull has communal status.",
+        en: "a live bull into the courtyard and perform the services appropriate to the matter.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l10"
+        ]
       },
       {
         id: "rashi-yoma-050a-013",
@@ -114084,11 +114110,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 13,
         he: "ותיפוק ליה. בעיין דבעינן לעיל דעל",
-        en: "Rava: 'for himself and his household' - the verse limits the offering to personal status.",
+        en: "'But let him derive it' - this is the difficulty we raised above, that perforce",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-014",
@@ -114096,11 +114124,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 14,
         he: "כרחין אין אחר נכנס בשחיטתו דהא",
-        en: "If communal: it overrides Shabbat just as all public sacrifices do.",
+        en: "another bull cannot enter through its own slaughter as a substitute, for indeed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-015",
@@ -114108,11 +114138,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 15,
         he: "חטאת שמתו בעליה היא: חטאת",
-        en: "If personal: a tamei HP must be replaced because personal offerings cannot be brought in impurity.",
+        en: "it is a sin-offering whose owners have died. New comment: 'a communal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-016",
@@ -114120,11 +114152,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 16,
         he: "צבור היא. הואיל ועליו ועל אחיו",
-        en: "'For himself and his household' - does 'household' extend to all Israel through the HP's representative role?",
+        en: "sin-offering it is' - since it comes on behalf of himself and his fellow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-017",
@@ -114132,11 +114166,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 17,
         he: "הכהנים בא (ועל כל קהל ישראל)",
-        en: "Abaye: the HP's atonement extends to all Israel on Yom Kippur - therefore communal.",
+        en: "priests (and on behalf of the entire congregation of Israel),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-018",
@@ -114144,11 +114180,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 18,
         he: "דכתיב וכפר בעדו ובעד ביתו (ובעד",
-        en: "Rava: the explicit verse limitation to 'himself and his household' keeps it personal.",
+        en: "as it is written, 'and he shall atone for himself and for his household' (and for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11"
+        ]
       },
       {
         id: "rashi-yoma-050a-019",
@@ -114156,11 +114194,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 19,
         he: "כל קהל ישראל) (שם) : אמר לו רבי",
-        en: "The Gemara will now examine which tannaitic opinions align with each Amora.",
+        en: "the entire congregation of Israel) (there). New comment: 'he said to him, Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11",
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-020",
@@ -114168,11 +114209,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 20,
         he: "מאיר. במס' תמורה (דף יד.) היא: לאו",
-        en: "R. Meir's position (cited on 50b) will support the communal reading.",
+        en: "Meir' - this matter is discussed in Tractate Temurah (14a). New comment: 'does this not imply",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-021",
@@ -114180,11 +114223,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 21,
         he: "מכלל דאיכא למאן דאמר דצבור.",
-        en: "The dispute has implications for tumah: may a tamei HP perform the service?",
+        en: "that there is one who says it is communal' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-022",
@@ -114192,11 +114237,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 22,
         he: "לאו מכלל דשמעיה לתנא קמא דאמר",
-        en: "Communal: yes (tzibur cannot be delayed by tumah). Personal: no, a pure substitute is required.",
+        en: "does this not imply that he (Rabbi Meir) heard the first Tanna say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-023",
@@ -114204,11 +114251,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 23,
         he: "דצבור היא והיינו טעמא דדחי: אמר",
-        en: "If communal, tumah is overridden (dechuyah be-tzibur). If personal, the HP must be replaced.",
+        en: "it is communal, and that is why it overrides Shabbat and tumah. New comment: 'he said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-024",
@@ -114216,11 +114265,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 24,
         he: "לו רבי יעקב. לתנא קמא דר' מאיר",
-        en: "If communal: a tamei HP may perform the service in an emergency. If personal: replacement is mandatory.",
+        en: "to him, Rabbi Yaakov' - this responds to the first Tanna of Rabbi Meir's statement:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19",
+          "yoma-050a-l23"
+        ]
       },
       {
         id: "rashi-yoma-050a-025",
@@ -114228,11 +114280,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 25,
         he: "תרוייהו לחד תנא קמהדרי דאמר",
-        en: "The Mishna will help determine which view is correct by examining how it handles tumah scenarios.",
+        en: "both of them are replying to a single Tanna, who said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19",
+          "yoma-050a-l23"
+        ]
       },
       {
         id: "rashi-yoma-050a-026",
@@ -114240,11 +114295,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 26,
         he: "קרבן צבור דוחה קרבן יחיד אינו",
-        en: "Summary: Abaye (communal) and Rava (personal) dispute the HP bull's classification with major practical differences.",
+        en: "a communal offering overrides Shabbat and tumah; an individual offering does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19",
+          "yoma-050a-l23"
+        ]
       },
       {
         id: "rashi-yoma-050a-027",
@@ -114252,11 +114310,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 27,
         he: "דוחה: חגיגה. מפרש לקמיה מאי",
-        en: "Each position has textual support; tannaitic sources will clarify.",
+        en: "override. New comment: 'the chagigah' - it will explain further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19"
+        ]
       },
       {
         id: "rashi-yoma-050a-028",
@@ -114264,11 +114324,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 28,
         he: "טעמא קרי ליה קרבן צבור: חביתי",
-        en: "The Gemara turns to mishnaic and tannaitic sources to support each position.",
+        en: "why it is called a communal offering. New comment: 'the griddle-cakes of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19",
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-029",
@@ -114276,11 +114339,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 29,
         he: "כהן גדול. זמנן קבוע בכל יום כתמיד",
-        en: "Tannaitic debate will show which Amora's position aligns with which Tanna.",
+        en: "High Priest' - their time is fixed every day, like the daily-offering.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l15"
+        ]
       },
       {
         id: "rashi-yoma-050a-030",
@@ -114288,11 +114353,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 30,
         he: "חגיגה אין זמנה קבוע לדחות שבת",
-        en: "R. Meir will state the bull is communal (50b) - supporting Abaye.",
+        en: "The chagigah's time is not fixed enough to override Shabbat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19"
+        ]
       },
       {
         id: "rashi-yoma-050a-031",
@@ -114300,11 +114367,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 31,
         he: "שהרי יש לה תשלומין כל שבעה: כולן",
-        en: "The Mishna's language about the HP's tumah scenario will be examined.",
+        en: "since it has make-up days throughout the seven festival days. New comment: 'all of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l19"
+        ]
       },
       {
         id: "rashi-yoma-050a-032",
@@ -114312,11 +114381,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 32,
         he: "ימותו. דהויא לה חטאת שכפרו בעליה",
-        en: "The formulation about replacing a tamei HP will indicate personal or communal status.",
+        en: "shall die' - since it has now become a sin-offering whose owners have otherwise achieved atonement,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-033",
@@ -114324,11 +114395,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 33,
         he: "וחמש חטאות מתות ולד חטאת",
-        en: "The Gemara proceeds to examine the relevant texts.",
+        en: "and there are five sin-offerings that must die: the offspring of a sin-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-034",
@@ -114336,11 +114409,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 34,
         he: "ותמורת חטאת וחטאת שמתו בעליה",
-        en: "R. Yitzchak Nappacha's objection about vestment removal is a parallel case of ambiguous verse.",
+        en: "the substitute of a sin-offering, a sin-offering whose owners died,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-035",
@@ -114348,11 +114423,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 35,
         he: "ושכפרו בעליה ושעברה שנתה: שאין",
-        en: "Both the vestment removal and bull classification turn on how to read HP-specific verses.",
+        en: "one whose owners achieved atonement elsewhere, and one whose year has passed. New comment: 'for a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-036",
@@ -114360,11 +114437,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 36,
         he: "חטאת צבור מתה. וכי גמירי חמש",
-        en: "The HP's dual role - personal supplicant and communal representative - drives these ambiguities.",
+        en: "communal sin-offering does not die' - for was the tradition of the five",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-037",
@@ -114372,11 +114451,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 37,
         he: "חטאות מתות ביחיד גמירי: לנדבה.",
-        en: "Communal offering laws derive from 'congregation of Israel' - does the HP's role qualify?",
+        en: "sin-offerings that die taught only regarding an individual's offering? New comment: 'to a voluntary offering' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-038",
@@ -114384,11 +114465,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 38,
         he: "לקיץ המזבח והיא קרויה נדבת צבור",
-        en: "The Gemara applies the communal override test: tumah and Shabbat rules differ for communal vs personal.",
+        en: "for the altar's constant use, and it is called a communal freewill-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-039",
@@ -114396,11 +114479,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 39,
         he: "ובאה מן המותרות של כל הרועות",
-        en: "Yom Kippur itself always falls on a specific date - the Shabbat question is more academic here.",
+        en: "coming from the leftover proceeds of all the animals set out to graze",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38"
+        ]
       },
       {
         id: "rashi-yoma-050a-040",
@@ -114408,11 +114493,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 40,
         he: "האמורות בכל מקום: ה\"ג והתניא",
-        en: "The operative test is tumah: may a tamei HP serve?",
+        en: "mentioned throughout. Rashi's textual note: the correct reading is 'but it was taught:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l38",
+          "yoma-050a-l47"
+        ]
       },
       {
         id: "rashi-yoma-050a-041",
@@ -114420,11 +114508,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 41,
         he: "פר יום הכפורים ושעיר יום הכפורים:",
-        en: "Abaye: yes (communal). Rava: no (personal, needs pure substitute).",
+        en: "the bull of Yom Kippur and the goat of Yom Kippur' that were lost.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l47"
+        ]
       },
       {
         id: "rashi-yoma-050a-042",
@@ -114432,11 +114522,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 42,
         he: "שאין חטאת השותפין מתה. דרבי",
-        en: "The Mishna's ruling on a tamei HP will be the decisive test for the positions.",
+        en: "New comment: 'for a partnership's sin-offering does not die' - for Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-043",
@@ -114444,11 +114536,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 43,
         he: "שמעון סבר חמש חטאות המתות",
-        en: "The Mishna does prepare a substitute HP - suggesting personal-offering rules apply (Rava).",
+        en: "Shimon holds the five sin-offerings that die",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-044",
@@ -114456,11 +114550,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 44,
         he: "בחד מקום אגמרינהו רחמנא למשה מה",
-        en: "But the Mishna also explains the community cannot be left without atonement - suggesting communal importance.",
+        en: "were taught by God to Moshe together in one place, so that just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-045",
@@ -114468,11 +114564,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 45,
         he: "תמורת חטאת מתה ליתא בשותפות",
-        en: "The tension between the two readings is not fully resolved by the Mishna alone.",
+        en: "the substitute of a sin-offering that dies does not apply in partnership,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-046",
@@ -114480,11 +114578,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 46,
         he: "שאין קרבן השותפות עושה תמורה",
-        en: "Abaye and Rava remain in dispute; further development follows on 50b.",
+        en: "since a partnership's offering does not undergo substitution,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-047",
@@ -114492,11 +114592,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 47,
         he: "דכתיב ואם המר ימיר (ויקרא כז) לשון",
-        en: "Additional tannaitic sources will be sought in the following section.",
+        en: "as it is written, 'and if he shall indeed exchange it' (Leviticus 27) - language of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-048",
@@ -114504,11 +114606,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 48,
         he: "יחיד אף כולן אינן מתות בצבור ולא",
-        en: "The broader principle: a representative sacrifice by an individual has ambiguous communal/personal status.",
+        en: "an individual - so too, none of them die when owned by the community, nor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-049",
@@ -114516,11 +114620,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 49,
         he: "בשותפין אפילו המצויות בהן והכי",
-        en: "This section completes the initial Abaye-Rava presentation.",
+        en: "by partners, even those causes of death that apply to them, and thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-050",
@@ -114528,11 +114634,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 50,
         he: "מפרש בהוריות (ו.): ומאי נפקא מינה.",
-        en: "The next daf introduces R. Meir's explicit position on the bull's classification.",
+        en: "it is explained in Tractate Horayot (6a). New comment: 'and what difference does it make' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-051",
@@ -114540,11 +114648,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 51,
         he: "כיון דסוף סוף לאו למיתה אזיל ושפיר",
-        en: "R. Meir will state the bull is a communal offering - supporting Abaye.",
+        en: "since in any case it does not go to death, and indeed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-052",
@@ -114552,11 +114662,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 52,
         he: "תריץ רב עמרם לעיל להא דקשיא לן",
-        en: "R. Elazar's dilemma will then further complicate the exclusive-designation issue.",
+        en: "Rav Amram's answer above resolves the difficulty we raised,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11",
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-053",
@@ -114564,11 +114677,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 53,
         he: "תיפוק ליה דחטאת שמתו בעליה היא",
-        en: "Summary: Abaye (communal) and Rava (personal) dispute the HP's bull classification.",
+        en: "'let him derive it from the fact that it is a sin-offering whose owners died' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l11",
+          "yoma-050a-l52"
+        ]
       },
       {
         id: "rashi-yoma-050a-054",
@@ -114576,11 +114692,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 54,
         he: "מאי נפקא ליה לרבא לסלוקיה לרב",
-        en: "Practical stakes: tumah override and replacement rules differ based on classification.",
+        en: "why did it matter to Rava to depart from Rav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52",
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-055",
@@ -114588,11 +114707,14 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 55,
         he: "עמרם ממאי דקרייה חטאת צבור",
-        en: "Both positions have tannaitic alignment that will be developed on 50b.",
+        en: "Amram's language of calling it a communal sin-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l52",
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-056",
@@ -114600,11 +114722,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 56,
         he: "ולאוקמי' בחטאת השותפין: דלא",
-        en: "The dispute is not resolved here; resolution awaits further analysis.",
+        en: "and to establish it instead as a partnership's sin-offering? New comment: 'that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-057",
@@ -114612,11 +114736,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 57,
         he: "מייתי כהנים פר בהוראה. כלומר",
-        en: "End of initial dispute section; Gemara continues on 50b.",
+        en: "the priests do not bring a bull for an erroneous ruling' - meaning:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-058",
@@ -114624,11 +114750,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 58,
         he: "בבעיין ודאי מודינן דמתרצי בין",
-        en: "Key terms: chatat tzibur (communal sin-offering), chatat yachid (personal sin-offering).",
+        en: "in resolving our difficulty we certainly agree it can be resolved either way, whether",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-059",
@@ -114636,11 +114764,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 59,
         he: "אי איקרי חטאת צבור בין אי איקרי",
-        en: "The HP's bull is a unique case that does not map cleanly onto either standard type.",
+        en: "it is called a communal sin-offering or called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-060",
@@ -114648,11 +114778,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 60,
         he: "חטאת השותפין אבל לא ניחא ליה",
-        en: "This uniqueness is what drives the Abaye-Rava disagreement.",
+        en: "a partnership's sin-offering - but it was not satisfactory to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-061",
@@ -114660,11 +114792,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 61,
         he: "לרבא לקרותן צבור כדי שלא יאמרו",
-        en: "The HP's dual role as personal supplicant and communal representative creates the ambiguity.",
+        en: "Rava to call them communal, so that the students should not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-062",
@@ -114672,11 +114806,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 62,
         he: "התלמידים שאם הורו בית דין א] של",
-        en: "Resolving this ambiguity has far-reaching consequences for the entire Yom Kippur service.",
+        en: "that if a court of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-063",
@@ -114684,11 +114820,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 63,
         he: "כהנים לעבור על אחת מן המצות",
-        en: "The Gemara continues developing the implications on 50b.",
+        en: "priests ruled to violate one of the commandments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-064",
@@ -114696,11 +114834,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 64,
         he: "ועשו כהנים על פיהם שיהו מביאין",
-        en: "This concludes the presentation of the core dispute on 50a.",
+        en: "and the priests acted upon their ruling, one might think they would bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-065",
@@ -114708,11 +114848,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 65,
         he: "פר העלם דבר כאחד מכל השבטים",
-        en: "Rashi focuses on clarifying the two positions and their textual bases.",
+        en: "a bull for an unwitting communal sin like that of one of the other tribes,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-066",
@@ -114720,11 +114862,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 66,
         he: "דקיימא לן (הוריות דף ה:) שבט אחד",
-        en: "The communal/personal distinction is critical throughout sacrificial law.",
+        en: "since we hold (Tractate Horayot 5b) that a single tribe is called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-067",
@@ -114732,11 +114876,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 67,
         he: "איקרי קהל כהנים ודאי לאו איקרו",
-        en: "This section of 50a presents the sharpest version of that distinction in tractate Yoma.",
+        en: "a 'congregation' - but the priests are certainly not called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-068",
@@ -114744,11 +114890,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 68,
         he: "קהל אלא אותן שנטלו נחלה:",
-        en: "Abaye's communal reading aligns with the HP's broader representative function.",
+        en: "a 'congregation'; rather, only those who took a tribal inheritance in the land are.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l54"
+        ]
       },
       {
         id: "rashi-yoma-050a-069",
@@ -114756,11 +114904,13 @@ const DAF_CONTENT = {
         daf: "50a",
         vilnaLine: 69,
         he: "לדברי",
-        en: "Rava's personal reading stays closer to the verse's explicit language - 'for himself and his household.'",
+        en: "According to the one who says, etc. (continues on 50b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-050a-l55"
+        ]
       }
     ],
     review: "reviewed"
