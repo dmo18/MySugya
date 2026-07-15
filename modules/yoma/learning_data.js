@@ -113236,11 +113236,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 1,
         he: "כיצד הוא עושה. חפינה שניה שבפנים מן הבזך לתוך חפניו אוחז את",
-        en: "How he performs the second incense scooping inside - from the ladle into his palms: he grips the ladle top with his fingertips.",
+        en: "Rashi: opens - 'how does he do it?' The second scooping, which is inside, from the bowl into his handfuls: he holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-002",
@@ -113248,11 +113250,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 2,
         he: "ראש הבזך בראשי אצבעותיו לאחר שהניח את המחתה בארץ וידה",
-        en: "After placing the coal pan on the ground, he holds the ladle handle between his forearms and lifts with both thumbs.",
+        en: "Rashi: continues - the top of the bowl with his fingertips, after he placed the coal pan on the ground; and its handle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-003",
@@ -113260,11 +113264,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 3,
         he: "של בזך כלפי בין זרועותיו ומעלה בשני גודליו ומושך את ידה בגודליו",
-        en: "He draws the handle toward his body with his thumbs until the handle is between his elbows and the ladle head reaches palm level.",
+        en: "Rashi: continues - faces between his arms, and he raises it with his two thumbs, and draws its handle with his thumbs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-004",
@@ -113272,11 +113278,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 4,
         he: "לצד גופו מעט מעט עד שמגיע ראש ידה לבין אצילי ידיו וראש הבזך",
-        en: "He then turns it sideways into his palms and piles the incense onto the coals.",
+        en: "Rashi: continues - toward his body little by little, until the head of its handle reaches between his elbows, and the head of the bowl",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-005",
@@ -113284,11 +113292,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 5,
         he: "מגיע לגובה פס ידו וחוזר ומחזירה",
-        en: "He tilts the ladle sideways into his cupped palms and transfers the incense onto the coal pan.",
+        en: "Rashi: continues - reaches the height of his palm, and he then turns it back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-006",
@@ -113296,11 +113306,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 6,
         he: "דרך צדה לתוך חפניו וצוברה על",
-        en: "They register - whoever wishes to register on the Passover offering does so; whoever wishes to withdraw may do so.",
+        en: "Rashi: continues - sideways into his handfuls, and piles it upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01"
+        ]
       },
       {
         id: "rashi-yoma-049b-007",
@@ -113308,11 +113320,14 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 7,
         he: "הגחלים: נימנין. על הפסח מי",
-        en: "Before slaughter: anyone who wants to register may join; anyone who wants to withdraw from the group may do so.",
+        en: "Rashi: continues - the coals.' 'They register' - regarding the Passover offering, whoever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l01",
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-008",
@@ -113320,11 +113335,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 8,
         he: "שרוצה לימנות ומושך ידיו ממנו מי",
-        en: "Until it is slaughtered - withdrawal is permitted at any time up to the slaughter.",
+        en: "Rashi: continues - wants to register, and withdraws his hands from it; whoever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-009",
@@ -113332,11 +113349,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 9,
         he: "שרוצה לימשך עד שישחט: ואם איתא.",
-        en: "If it is so - that after slaughter one can still be 'counted on the sheep'...",
+        en: "Rashi: continues - wants to withdraw may do so until it is slaughtered.' 'And if it is so,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-010",
@@ -113344,11 +113363,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 10,
         he: "דלאחר שחיטה נמי קרינן ביה על",
-        en: "Registered on the sheep - 'according to the sheep' means while it is alive.",
+        en: "Rashi: continues - that even after slaughter we would still read it as 'on'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-011",
@@ -113356,11 +113377,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 11,
         he: "השה עד שיזרק מיבעיא ליה: ואם",
-        en: "If they want the registered group to diminish they may withdraw...",
+        en: "Rashi: continues - 'the sheep, until it is tossed' it should have said.' 'And if'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-012",
@@ -113368,11 +113391,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 12,
         he: "ימעט הבית. אם בעו מנויין להימעט",
-        en: "While its being (hiyyut) is intact - while the animal is alive they may withdraw from registration.",
+        en: "Rashi: continues - the household diminishes' - if those registered wish to diminish their numbers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16"
+        ]
       },
       {
         id: "rashi-yoma-049b-013",
@@ -113380,11 +113405,14 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 13,
         he: "ולמשוך את ידיהם: מהיות משה.",
-        en: "Not after slaughter - once slaughtered, 'according to the sheep' no longer applies.",
+        en: "Rashi: continues - and withdraw their hands.' 'From being a sheep' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l16",
+          "yoma-049b-l18a"
+        ]
       },
       {
         id: "rashi-yoma-049b-014",
@@ -113392,11 +113420,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 14,
         he: "בעוד שהווייתו קיימת יתמעטו ולא",
-        en: "They do not redeem a firstborn donkey...",
+        en: "Rashi: continues - while its being as a sheep is still intact they may withdraw, but not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18a"
+        ]
       },
       {
         id: "rashi-yoma-049b-015",
@@ -113404,11 +113434,14 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 15,
         he: "משישחט: אין פודין. פטר חמור: לא",
-        en: "Not with a calf nor with a wild animal - because the verse says 'a sheep.'",
+        en: "Rashi: continues - from when it is slaughtered.' 'One may not redeem' - a firstborn donkey: 'not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18a",
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-016",
@@ -113416,11 +113449,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 16,
         he: "בעגל ולא בחיה. דשה כתיב: ולא.",
-        en: "Not with a slaughtered sheep - for the verse implies a living sheep.",
+        en: "Rashi: continues - with a calf, nor with a wild animal' - since 'sheep' is written: 'nor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-017",
@@ -113428,11 +113463,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 17,
         he: "בשה שחוטה: ולא בכלאים. דעז",
-        en: "Not with kilayim - a crossbreed of goat and ewe, even though from both sides it is 'sheep.'",
+        en: "Rashi: continues - with a slaughtered sheep.' 'Nor with kilayim' - since a goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-018",
@@ -113440,11 +113477,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 18,
         he: "ורחל ואע\"ג דמשני צדדיו הוא שה:",
-        en: "Not with a koi (uncertain creature) - since 'male goat and deer' are mentioned but 'not a slaughtered one.'",
+        en: "Rashi: continues - and a ewe, even though from both its sides it is a sheep:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-019",
@@ -113452,11 +113491,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 19,
         he: "ולא בכוי. דתיש וצביי' קתני מיהת ולא",
-        en: "Apparently a slaughtered animal is not called 'a sheep' - the same logic applies to the HP's bull.",
+        en: "Rashi: continues - 'nor with a koi' - since 'a male goat and a deer' - it teaches, in any case, not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-020",
@@ -113464,11 +113505,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 20,
         he: "בשחוטה אלמא שחוטה לאו שה הוא:",
-        en: "He took them out to the market - folded/removed them from the wall.",
+        en: "Rashi: continues - with a slaughtered one; evidently a slaughtered animal is not called 'sheep':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       },
       {
         id: "rashi-yoma-049b-021",
@@ -113476,11 +113519,13 @@ const DAF_CONTENT = {
         daf: "49b",
         vilnaLine: 21,
         he: "והוציא",
-        en: "This last point concludes the parallel discussion about what 'a bull/sheep' means after slaughter.",
+        en: "Rashi: concludes - 'and he shall take out' - the daf ends mid-word here; the comment (returning to whether a slaughtered bull is still called 'bull') continues on 50a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049b-l18b"
+        ]
       }
     ],
     review: "reviewed"
