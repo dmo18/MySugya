@@ -112071,11 +112071,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 1,
         he: "זר ואונן שיכור ובעל מום. כולהו נפקי לן מקראי דמחלי עבודה",
-        en: "Non-priest, mourner, drunk, blemished - all derived from verses disqualifying Temple blood service.",
+        en: "Rashi: opens - 'a non-priest, a mourner, a drunkard, and one with a blemish' - all of these we derive from verses that disqualify service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l01"
+        ]
       },
       {
         id: "rashi-yoma-049a-002",
@@ -112083,11 +112085,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 2,
         he: "בפ\"ב דזבחים (דף טז.): וכן יושב. דבעי לעמוד לשרת (דברים יח) : והא",
-        en: "Sitting disqualified because the priest must stand to serve (Deut. 18); left hand similarly invalid.",
+        en: "Rashi: continues - in the second chapter of tractate Zevachim (16a). 'And so too sitting' - since he needs to stand to serve (Deuteronomy 18): 'but'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l01"
+        ]
       },
       {
         id: "rashi-yoma-049a-003",
@@ -112095,11 +112099,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 3,
         he: "רב ששת הוא דאותבה. להא מתני' לאמוריה דרב חסדא כדמפרש",
-        en: "Rav Sheshet himself raised this baraita against Rav Hisda's interpreter - as explained below.",
+        en: "Rashi: continues - was it not Rav Sheshet himself who raised this objection, to this baraita, to Rav Chisda's reciter, as is explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l03"
+        ]
       },
       {
         id: "rashi-yoma-049a-004",
@@ -112107,11 +112113,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 4,
         he: "ואזיל אלמא שמיעא ליה והיכי טעי למיפשט דכשרה בשמאל: ויזרקו",
-        en: "If he knew the baraita how could he err in ruling left-hand or non-priest service is valid?",
+        en: "Rashi: continues - further on. Evidently he had heard it, so how could he err to resolve that it is valid with the left hand? 'And they tossed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l03"
+        ]
       },
       {
         id: "rashi-yoma-049a-005",
@@ -112119,11 +112127,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 5,
         he: "הכהנים הדם. מידם של שוחטים",
-        en: "The priests sprinkled from their hand - meaning from the hands of the non-priest slaughterers.",
+        en: "Rashi: continues - the priests, the blood' - from the hand of the slaughterers,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l03"
+        ]
       },
       {
         id: "rashi-yoma-049a-006",
@@ -112131,11 +112141,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 6,
         he: "שהם זרים וחזרו וקבלו הדם מיד",
-        en: "The non-priests slaughtered and the priests received the blood from their hands.",
+        en: "Rashi: continues - who are non-priests, and they took back and received the blood from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l03"
+        ]
       },
       {
         id: "rashi-yoma-049a-007",
@@ -112143,11 +112155,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 7,
         he: "הכהן המקבל והוליכוהו אל הזורק:",
-        en: "The priest received the blood and the Levites carried it to the priest who sprinkled.",
+        en: "Rashi: continues - the receiving priest, and carried it to the one who tossed it:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l03"
+        ]
       },
       {
         id: "rashi-yoma-049a-008",
@@ -112155,11 +112169,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 8,
         he: "ומתיב רב ששת גרסינן: בתר",
-        en: "We read 'Rav Sheshet objected' - this is the correct textual reading.",
+        en: "Rashi: continues - 'and Rav Sheshet objects' - this is our reading: after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l08"
+        ]
       },
       {
         id: "rashi-yoma-049a-009",
@@ -112167,11 +112183,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 9,
         he: "דשמעה. דאותבוה ניהליה הכא הדר",
-        en: "After they raised the objection against him here, he then used it himself against Rav Hisda.",
+        en: "Rashi: continues - he heard it, that they raised the objection to him here, he then",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-010",
@@ -112179,11 +112197,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 10,
         he: "אותבה איהו לרב חסדא: מעשה",
-        en: "An itzteiva (bench) action - the non-priests passively held blood without actively carrying it.",
+        en: "Rashi: continues - raised the objection himself against Rav Chisda. 'The bench action' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-011",
@@ -112191,11 +112211,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 11,
         he: "איצטבא. המקבלים היו מושיבים את",
-        en: "The receivers placed blood in the hands of non-priests who did not move it toward the altar.",
+        en: "Rashi: continues - the receivers would set",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-012",
@@ -112203,11 +112225,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 12,
         he: "הדם ביד הזרים ואין הזרים מקרבין",
-        en: "Rather they held it in their hands as if placed on a platform - passive holding, not active carrying.",
+        en: "Rashi: continues - the blood in the hands of the non-priests, and the non-priests would not bring it close",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-013",
@@ -112215,11 +112239,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 13,
         he: "אותו לצד המזבח כלל אלא מושיבים",
-        en: "The blood sat in their hands like an object resting on a shelf - not halakhic carrying.",
+        en: "Rashi: continues - to the altar at all, but rather would set",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-014",
@@ -112227,11 +112253,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 14,
         he: "הדם על ידם כאשר על גבי איצטבא:",
-        en: "Resting blood in non-priest hands as on a platform is not carrying in the service sense.",
+        en: "Rashi: continues - the blood on their hands as if on a bench:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l10"
+        ]
       },
       {
         id: "rashi-yoma-049a-015",
@@ -112239,11 +112267,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 15,
         he: "או דילמא ולקח והביא. דולקח נמי",
-        en: "Or perhaps 'he shall take and bring' applies also to the full handful - making it an obligatory act.",
+        en: "Rashi: continues - 'or perhaps we require and he shall take, and he shall bring' - for 'and he shall take' also",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l12"
+        ]
       },
       {
         id: "rashi-yoma-049a-016",
@@ -112251,11 +112281,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 16,
         he: "אמלא חפניו קאי: מהו שיכנס אחר.",
-        en: "What is the law if another HP enters with the original scooping - need he re-scoop?",
+        en: "Rashi: continues - refers to 'his full handfuls.' 'What is the law if another may enter'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l12",
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-017",
@@ -112263,11 +112296,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 17,
         he: "כהן המשמש תחתיו מהו שיכנס לפנים",
-        en: "The replacement priest serving in his place - may he enter with the first HP's scooped incense?",
+        en: "Rashi: continues - the priest serving in his place - what is the law that he may enter within",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-018",
@@ -112275,11 +112310,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 18,
         he: "בחפינה זו שנתן הראשון לתוך הכף",
-        en: "Using the handful already placed in the ladle without needing to re-scoop.",
+        en: "Rashi: continues - with this scooping that the first one placed into the spoon,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-019",
@@ -112287,11 +112324,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 19,
         he: "ואין צריך לחזור ולחפון: א\"ר חנינא.",
-        en: "R. Chanina said to his students: Come and see that later generations achieve the wisdom of earlier ones.",
+        en: "Rashi: continues - and he need not go back and re-scoop. 'Rabbi Chanina said:'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-020",
@@ -112299,11 +112338,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 20,
         he: "לתלמידים בא וראה שהדור האחרון",
-        en: "See that the later generation is privileged to puzzle over the same questions as earlier sages.",
+        en: "Rashi: continues - to his disciples: come and see that the last generation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-021",
@@ -112311,11 +112352,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 21,
         he: "זוכה להתחכם כדורות הראשונים",
-        en: "Even I myself puzzled over this question - and now R. Yehoshua ben Levi asks the same.",
+        en: "Rashi: continues - merits to become wise like the earlier generations,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-022",
@@ -112323,11 +112366,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 22,
         he: "שאף אני הייתי שואל שאילה זו ועכשיו",
-        en: "R. Yehoshua ben Levi who is counted among the earlier sages - this shows his generation.",
+        en: "Rashi: continues - for I too used to ask this question, and now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-023",
@@ -112335,11 +112380,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 23,
         he: "שאלה רבי יהושע בן לוי שהוא מן",
-        en: "Even I used to struggle with this - indicating R. Chanina considered himself from the earlier generation.",
+        en: "Rashi: continues - Rabbi Yehoshua ben Levi has asked it, who is from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15"
+        ]
       },
       {
         id: "rashi-yoma-049a-024",
@@ -112347,11 +112394,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 24,
         he: "הראשונים: שחליים. קרשו\"ן: לשחוק",
-        en: "Watercress (shalhayim) - a plant called cresson in Old French.",
+        en: "Rashi: continues - the early ones.' 'Shachalayim' - cresson, in the vernacular. 'To grind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l15",
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-025",
@@ -112359,11 +112409,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 25,
         he: "ולשתות: אימא וחיית. המכה:",
-        en: "Permitted to eat and drink as a medicinal remedy.",
+        en: "Rashi: continues - and drink': it heals, one may say, curing the ailment.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-026",
@@ -112371,11 +112423,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 26,
         he: "שמע מינה. דרבי יהושע בן לוי לא",
-        en: "Conclude that R. Yehoshua ben Levi was not senior to R. Chanina - who referred to him as 'Rabbi.'",
+        en: "Rashi: continues - We may learn from this that Rabbi Yehoshua ben Levi was not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-027",
@@ -112383,11 +112437,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 27,
         he: "הוה קשיש מדקרי ליה רבי דקאמר לי",
-        en: "Elders did not call younger scholars 'Rabbi' - so Chanina must have been the senior.",
+        en: "Rashi: continues - senior, from the fact that he called him 'Rabbi,' for he said 'to me'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-028",
@@ -112395,11 +112451,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 28,
         he: "התיר רבי חנינא ולא היה דרך",
-        en: "'Chanina permitted it to me' - the elder's name without the 'Rabbi' title indicates he was junior.",
+        en: "Rashi: continues - 'Rabbi Chanina permitted,' and it was not the way of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-029",
@@ -112407,11 +112465,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 29,
         he: "הזקנים לומר על הבחורים רבי אלא",
-        en: "Rather: Chanina told me it was permitted - I am reporting what Chanina said.",
+        en: "Rashi: continues - the elders to say 'Rabbi' about the young men, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-030",
@@ -112419,11 +112479,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 30,
         he: "לי התיר חנינא היה אומר כלומר לי",
-        en: "He said 'Chanina permitted me' not 'my Rabbi Chanina' - showing Chanina was senior to R. Yehoshua ben Levi.",
+        en: "Rashi: continues - he would say 'Chanina permitted me' - meaning 'to me",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-031",
@@ -112431,11 +112493,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 31,
         he: "אמר חנינא שהיא רפואה: אלא הכי",
-        en: "Rather this is what R. Chanina said to his students - explaining the dilemma as a teaching.",
+        en: "Rashi: continues - Chanina said that it is a remedy.' Rather, this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l17"
+        ]
       },
       {
         id: "rashi-yoma-049a-032",
@@ -112443,11 +112507,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 32,
         he: "קאמר. ר' חנינא לתלמידיו בא וראה",
-        en: "R. Chanina to students: come see that later generations' questions match my own earlier questions.",
+        en: "Rashi: continues - is what he meant: Rabbi Chanina said to his disciples: come and see",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l32"
+        ]
       },
       {
         id: "rashi-yoma-049a-033",
@@ -112455,11 +112521,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 33,
         he: "ששאלתן של אחרונים כשאלתי שאני",
-        en: "Since I am from the earlier generation and I struggled with this same question.",
+        en: "Rashi: continues - that the question of the later ones is like my own question, for I",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l32"
+        ]
       },
       {
         id: "rashi-yoma-049a-034",
@@ -112467,11 +112535,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 34,
         he: "מן הראשונים שאף אני הייתי",
-        en: "Even I was troubled by this - so the later sages show equal wisdom to the earlier.",
+        en: "Rashi: continues - am from the early ones, for I too was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l32"
+        ]
       },
       {
         id: "rashi-yoma-049a-035",
@@ -112479,11 +112549,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 35,
         he: "מתקשה: ומי אמר רבי חנינא הכי.",
-        en: "Did R. Chanina actually have this doubt about whether a replacement may enter with the original scooping?",
+        en: "Rashi: continues - troubled by it. 'But did Rabbi Chanina actually say this'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l32",
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-036",
@@ -112491,11 +112564,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 36,
         he: "מי מספקא ליה אי נכנס אחר בחפינתו",
-        en: "Was it genuinely uncertain to him whether another HP may enter with the first HP's incense?",
+        en: "Rashi: continues - is it genuinely uncertain to him whether another may enter with his scooping,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-037",
@@ -112503,11 +112578,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 37,
         he: "אי לא: בפר ולא בדמו של פר.",
-        en: "'A bull' not 'the blood of a bull' - the verse specifies the animal, not merely its blood.",
+        en: "Rashi: continues - or not: 'with a bull, and not with the blood of a bull.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-038",
@@ -112515,11 +112592,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 38,
         he: "בזאת יבא אהרן אל הקדש בפר",
-        en: "In this shall Aaron enter the sanctuary - with a bull (Lev. 16), not with the blood of a bull already slaughtered.",
+        en: "Rashi: continues - 'With this shall Aaron enter the sanctuary' - with a bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-039",
@@ -112527,11 +112606,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 39,
         he: "(ויקרא טז) ולא בדמו של פר שאם שחט",
-        en: "If the HP slaughtered his bull and then died, the replacement cannot use that blood to enter.",
+        en: "Rashi: continues - (Leviticus 16) - and not with the blood of a bull; for if he slaughtered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-040",
@@ -112539,11 +112620,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 40,
         he: "פרו ומת אין המשמש תחתיו נכנס",
-        en: "A new bull must be brought - because entry requires the replacement HP's own fresh animal.",
+        en: "Rashi: continues - his bull and died, the one serving in his place does not enter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-041",
@@ -112551,11 +112634,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 41,
         he: "באותו דם לפנים אלא צריך להביא פר",
-        en: "Since a new bull is needed, a new incense scooping is also required after that slaughter.",
+        en: "Rashi: continues - with that blood within, but rather he needs to bring a bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-042",
@@ -112563,11 +112648,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 42,
         he: "אחר ולשחוט וכיון דצריך להביא פר",
-        en: "Since the replacement needs his own bull, he must also scoop incense fresh after his slaughter.",
+        en: "Rashi: continues - of his own and slaughter it; and since he needs to bring a bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-043",
@@ -112575,11 +112662,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 43,
         he: "אחר צריך לחפון לאחר שחיטתו:",
-        en: "And R. Chanina also taught: incense scooped before the bull's slaughter is void.",
+        en: "Rashi: continues - of his own, he needs to scoop the incense after its slaughter:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l34"
+        ]
       },
       {
         id: "rashi-yoma-049a-044",
@@ -112587,11 +112676,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 44,
         he: "ואמר רבי חנינא קטורת שחפנה קודם",
-        en: "R. Chanina adds: if incense was scooped before the HP's bull was slaughtered it is invalid.",
+        en: "Rashi: continues - and Rabbi Chanina said: incense that he scooped before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-045",
@@ -112599,11 +112690,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 45,
         he: "שחיטה לא עשה ולא כלום. שכן",
-        en: "The service order requires: first slaughter the bull, then scoop the incense.",
+        en: "Rashi: continues - the slaughter, he has done nothing. For such",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-046",
@@ -112611,11 +112704,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 46,
         he: "סדר העבודות א] בענין חפן ומת",
-        en: "In the scenario of scooping then dying: the HP must have already slaughtered his bull first.",
+        en: "Rashi: continues - is the order of the services, regarding the matter of one who scooped and died",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-047",
@@ -112623,11 +112718,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 47,
         he: "נמי אי אפשר שלא שחט פרו תחילה",
-        en: "The scenario of scooping then dying: the first HP must have slaughtered his bull before scooping.",
+        en: "Rashi: continues - too, it is impossible that he did not slaughter his bull first,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-048",
@@ -112635,11 +112732,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 48,
         he: "וזה הבא אחריו צריך להביא פר אחר",
-        en: "If you say the replacement may enter with the first HP's incense scooping...",
+        en: "Rashi: continues - and this one coming after him needs to bring another bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-049",
@@ -112647,11 +112746,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 49,
         he: "ואי אמרת יכנס בחפינתו של ראשון",
-        en: "Then this scooping would be before the replacement's bull's slaughter - making it retroactively void.",
+        en: "Rashi: continues - and if you say he may enter with the scooping of the first,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-050",
@@ -112659,11 +112760,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 50,
         he: "נמצאת חפינה זו קודם שחיטת פרו",
-        en: "That scooping would be 'before his bull's slaughter' for the replacement - which R. Chanina says is void.",
+        en: "Rashi: continues - this scooping would be found to be before the slaughter of the bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36"
+        ]
       },
       {
         id: "rashi-yoma-049a-051",
@@ -112671,11 +112774,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 51,
         he: "של שני: הכי קאמר רבי חנינא.",
-        en: "This is what R. Chanina means: his ruling implies the replacement cannot use the first HP's scooping.",
+        en: "Rashi: continues - of the second one. This is what Rabbi Chanina meant.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l36",
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-052",
@@ -112683,11 +112789,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 52,
         he: "מדקא מבעיא ליה לרבי יהושע בן",
-        en: "From the fact that R. Yehoshua ben Levi treats it as a dilemma - we learn he disputes R. Chanina.",
+        en: "Rashi: continues - From the fact that it was a dilemma for Rabbi Yehoshua ben",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-053",
@@ -112695,11 +112803,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 53,
         he: "לוי הא מכלל דס\"ל דאין צריך להביא",
-        en: "The fact that it is a dilemma for him means he holds no new bull is needed.",
+        en: "Rashi: continues - Levi, this implies he holds that one does not need to bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-054",
@@ -112707,11 +112817,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 54,
         he: "פר אחר דאם כן הויא לה קטורת",
-        en: "If he held a new bull is required, the incense question resolves itself - it would always be void.",
+        en: "Rashi: continues - another bull, for if so, this incense would be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-055",
@@ -112719,11 +112831,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 55,
         he: "שחפנה קודם שחיטת הפר:",
-        en: "Making the incense scooping effectively before the replacement's bull slaughter.",
+        en: "Rashi: continues - one he scooped before the slaughter of the bull:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-056",
@@ -112731,11 +112845,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 56,
         he: "ולמאי דס\"ל. יפה שאל כשאילת",
-        en: "So R. Yehoshua ben Levi must hold the existing blood is valid for the replacement - hence his dilemma.",
+        en: "Rashi: continues - and according to what he holds, he asked well, like the question of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-057",
@@ -112743,11 +112859,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 57,
         he: "הראשונים אותן שנחלקו עלי בפר",
-        en: "The replacement could potentially use the original HP's scooping if no new bull is needed.",
+        en: "Rashi: continues - the early ones, those who disputed with me about 'with a bull,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-058",
@@ -112755,11 +112873,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 58,
         he: "ואפילו בדמו של פר אף להן נשאל",
-        en: "The dilemma remains: 'a bull' excludes using existing blood, or only the scooping timing matters.",
+        en: "Rashi: continues - and even 'with the blood of a bull' - to them too this question was posed:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38"
+        ]
       },
       {
         id: "rashi-yoma-049a-059",
@@ -112767,11 +112887,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 59,
         he: "שאילה זו: מאי הוי עלה. חפן ומת",
-        en: "R. Chanina: incense must follow the slaughter of the specific HP performing the entry service.",
+        en: "Rashi: continues - this question. 'What was decided about it?' One who scooped and died,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l38",
+          "yoma-049a-l41"
+        ]
       },
       {
         id: "rashi-yoma-049a-060",
@@ -112779,11 +112902,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 60,
         he: "מהו שיכנס אחר בחפינתו: אי",
-        en: "R. Yehoshua ben Levi: perhaps the existing blood is valid and a new scooping is not required.",
+        en: "Rashi: continues - what is the law that another may enter with his scooping: 'if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l41"
+        ]
       },
       {
         id: "rashi-yoma-049a-061",
@@ -112791,11 +112916,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 61,
         he: "חופן חוזר וחופן. אי מפשטא לן",
-        en: "The overall question: can a replacement HP complete what the first HP began?",
+        en: "Rashi: continues - one scoops, goes back, and scoops again.' If it was resolved for us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l41"
+        ]
       },
       {
         id: "rashi-yoma-049a-062",
@@ -112803,11 +112930,14 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 62,
         he: "בעיין דאיבעיא לן גבי חפינת פנים אם צריך לחזור ולחפון או לא ותימצי לומר דצריך לחזור ולחפון חבירו נכנס בחפינתו דהא מיקיימא חפינה:",
-        en: "The Gemara shows R. Chanina and R. Yehoshua ben Levi hold opposing views on the new-bull requirement.",
+        en: "Rashi: continues - from our dilemma about the scooping inside, whether he needs to go back and re-scoop or not, and it comes out that he needs to go back and re-scoop, then his fellow enters with his scooping, since the scooping is established:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l41",
+          "yoma-049a-l46"
+        ]
       },
       {
         id: "rashi-yoma-049a-063",
@@ -112815,11 +112945,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 63,
         he: "אדרבה אי חופן וחוזר וחופן. אז אין חבירו נכנס בחפינתו שאי אפשר שלא יחסיר חבירו ושלא יותיר חפניו של ראשון שוין לחפניו של שני:",
-        en: "R. Chanina: new bull needed. R. Yehoshua ben Levi: perhaps not - hence his dilemma.",
+        en: "Rashi: continues - on the contrary: if one scoops and goes back and scoops, then his fellow does not enter with his scooping, since it is impossible that his fellow's amount not differ, that the first one's handfuls be exactly equal to the second one's:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l43"
+        ]
       },
       {
         id: "rashi-yoma-049a-064",
@@ -112827,11 +112959,13 @@ const DAF_CONTENT = {
         daf: "49a",
         vilnaLine: 64,
         he: "כיצד",
-        en: "The question remains open; the Gemara continues developing it on the following pages.",
+        en: "Rashi: concludes - 'how' - the daf ends mid-word here; the comment (describing the mechanics of the second, inside scooping) continues on 49b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-049a-l46"
+        ]
       }
     ],
     review: "reviewed"
