@@ -323,7 +323,12 @@ def run_report(targets, top):
         if not p:
             continue
         profiles.append(p)
-        shifts = [a for a in p["anchors"] if a["offset"] not in (None, 0)]
+        # A dafnum anchor flagged splitContinuation legitimately lands at
+        # offset +1 (its digits are sourced from the following raw line,
+        # e.g. he ends "(Berakhot" and the next line opens "39a)"); that
+        # is the citation's own honest position, not a shift candidate.
+        shifts = [a for a in p["anchors"] if a["offset"] not in (None, 0)
+                  and not (a.get("splitContinuation") and a["offset"] == 1)]
         missing = p["anchorsMissing"]
         # generic flag: long specific Hebrew rendered as very short English
         generic = 0
