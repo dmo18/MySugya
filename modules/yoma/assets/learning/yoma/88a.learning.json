@@ -1,1022 +1,1167 @@
 {
-  "canonicalRef": "Yoma 88a",
-  "summary": "Tractate Yoma daf 88a covers: Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location; Seminal emission (keri) on Yom Kippur: whether immersion is required.",
-  "sugyot": [
+ "canonicalRef": "Yoma 88a",
+ "summary": "Tractate Yoma daf 88a covers: Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location; Seminal emission (keri) on Yom Kippur: whether immersion is required.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-088a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 22
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-088a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.88a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.88a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.88a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.88a.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.88a.5"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.88a.6"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.88a.7"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.88a.8"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.88a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.88a.1",
-        "Yoma.88a.2",
-        "Yoma.88a.3",
-        "Yoma.88a.4",
-        "Yoma.88a.5",
-        "Yoma.88a.6",
-        "Yoma.88a.7",
-        "Yoma.88a.8",
-        "Yoma.88a.9"
-      ],
-      "display": {
-        "whats": "Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location",
-        "hint": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited.",
-        "title": "Havdalah After Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "YK's Havdalah paralleling Shabbat's is a halakhic statement about YK's nature: 'Shabbat Shabbaton' is not just rhetoric - it carries structural consequences in how the day is concluded.",
-        "memoryAnchor": "Havdalah after YK: same structure as Shabbat Havdalah, reflecting YK's Shabbat-level sacred status.",
-        "learnerQuestion": "Where and how is Havdalah recited at the conclusion of Yom Kippur?",
-        "coreTension": "Between the structure of Shabbat Havdalah (recited at the end of Shabbat) and the question of how Yom Kippur's conclusion is marked when YK does not have the same Havdalah as Shabbat.",
-        "coreMove": "The Gemara discusses where the Havdalah blessing marking the conclusion of YK is recited: in the Atah Chonantanu blessing of the first weekday Amidah (just as after Shabbat), and separately over a flame. The close parallel to Shabbat Havdalah reflects YK's status as 'Shabbat Shabbaton.'",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Havdalah after YK parallels Havdalah after Shabbat, reflecting YK's halakhic status as 'Shabbat Shabbaton'; the blessing is inserted in the first Amidah of the new day, marking the transition from the sacred day back to ordinary time."
-        },
-        "learningBlocker": "Students may not realize YK has its own Havdalah form; understanding the parallel to Shabbat Havdalah explains why and how it is done."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "analysis",
-          "label": "Why havdala forces a full evening Amida",
-          "speaker": "Gemara",
-          "text": "The reason for the full eighteen-blessing evening Amida after Yom Kippur: one must say havdala in the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to insert it. This shows the tannaim who require the full Amida hold that ne'ila does NOT exempt the evening prayer - turning the dispute into one about immersion timing.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "case",
-          "label": "Who immerses on Yom Kippur",
-          "speaker": "Baraita",
-          "text": "A baraita: anyone needing immersion immerses normally on Yom Kippur, since this is not the forbidden 'washing.' A niddah and a new mother, who immerse at night, immerse on the night of Yom Kippur in the usual way.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "case",
-          "label": "Seminal emission and the timing of immersion",
-          "speaker": "Baraita",
-          "text": "One who had a seminal emission on Yom Kippur before mincha may immerse any time until mincha so he can pray it (per Ezra's decree that a ba'al keri immerse before praying or learning). If it happened after mincha, he waits until nightfall to immerse - showing ne'ila is a nighttime prayer, so it exempts ma'ariv. But Rabbi Yosei says he may immerse any time in the day - holding ne'ila is daytime, so it does NOT exempt ma'ariv.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "challenge",
-          "label": "A contradiction in Rabbi Yosei",
-          "speaker": "Gemara",
-          "text": "A second baraita has Rabbi Yosei say a ba'al keri may NOT immerse from mincha onward - the opposite of the first. The Gemara reconciles: the 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and immerses in order to pray it.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "analysis",
-          "label": "Why the Rabbis permit immersion even after ne'ila",
-          "speaker": "Gemara",
-          "text": "If he already prayed ne'ila, why do the Rabbis still let him immerse on Yom Kippur, seemingly pointlessly? Because the Rabbis hold immersion at its proper time is itself a mitzva, even without a prayer to enable - so when the time falls on Yom Kippur, he immerses regardless.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "id": "step-06",
-          "type": "challenge",
-          "label": "Does Rabbi Yosei reject immersion-at-its-time as a mitzva?",
-          "speaker": "Gemara",
-          "text": "By inference Rabbi Yosei holds immersion at its proper time is not a mitzva. But a baraita about a divine name written in ink on the flesh seems to show the opposite: one may not wash or smear it lest it be erased, yet if the time for a mitzva-immersion comes he wraps a reed over the name and immerses. The Gemara must square this with Rabbi Yosei's view.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l13",
-              "vilnaLine": 13
-            }
-          ]
-        },
-        {
-          "id": "step-07",
-          "type": "challenge",
-          "label": "The reed dispute over immersion-at-its-time",
-          "speaker": "Gemara",
-          "text": "In that baraita the Rabbis and Rabbi Yosei disagree precisely over tevila bizmanah. The Rabbis say immersion at its proper time is not a mitzva, so without a reed one waits even until the next day rather than risk erasing the name. Rabbi Yosei says it is a mitzva, so one immerses at the proper time even without covering the name - the opposite of the inference drawn above.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "id": "step-08",
-          "type": "resolution",
-          "label": "Reattributing the baraita to Rabbi Yosei bar Yehuda",
-          "speaker": "Gemara",
-          "text": "The resolution: the 'Rabbi Yosei' of that reed baraita is actually Rabbi Yosei bar Yehuda, who taught 'it suffices that the immersion be at the end' - one need only immerse once when surely pure, not repeatedly to hit the exact proper time. So he too holds immersion-at-its-time is not a binding mitzva, removing the contradiction.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "id": "step-09",
-          "type": "case",
-          "label": "Rubbing the skin before immersion",
-          "speaker": "Baraita",
-          "text": "The Sages taught: one who sees an emission on Yom Kippur immerses, and 'in the evening rubs his skin' to remove interpositions. The Gemara objects: why rub afterward - what's done is done. Rather, he should rub from the eve of Yom Kippur, in case he must immerse during the day. This Master holds rubbing to remove interpositions is itself a mitzva.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Havdalah",
-        "YK",
-        "Ma'ariv",
-        "Havdil blessing",
-        "post-YK"
-      ],
-      "concepts": {
-        "halachic": [
-          "Havdalah",
-          "YK"
-        ],
-        "theological": [
-          "Havdalah placement: the end of YK mirrors its opening - the transition out of ho"
-        ],
-        "narrative": [
-          "Havdalah after Yom Kippur: recited in the Havdil blessing of"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of Havdalah context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Whether to immerse on Yom Kippur is just about being clean for prayer.",
-          "correction": "The deeper dispute is whether immersion at its proper time (tevila bizmanah) is an independent mitzva. The Rabbis say yes, so one immerses even with no prayer to enable; Rabbi Yosei bar Yehuda effectively says no.",
-          "correctedByStepId": "step-05"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Havdalah after Yom Kippur: recited in the Havdil b"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the need to say havdala require a full evening Amida after Yom Kippur?",
-          "answer": "Havdala is inserted into the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to put it. So those tannaim require the full eighteen blessings, implying ne'ila does not exempt the evening prayer."
-        },
-        {
-          "question": "How does the Gemara resolve the two contradictory baraitot about whether Rabbi Yosei lets a ba'al keri immerse after mincha?",
-          "answer": "The 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and needs to immerse in order to pray it. The timing relative to ne'ila reconciles them."
-        },
-        {
-          "question": "Why do the Rabbis permit immersion on Yom Kippur even after one has already prayed ne'ila?",
-          "answer": "Because they hold that immersion at its proper time is itself a mitzva, independent of needing to pray. So when the proper time falls on Yom Kippur, the person immerses regardless of whether an immediate prayer requires it."
-        }
-      ],
-      "finalRuling": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or s",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.88a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-088a-s02",
-      "lineRange": {
-        "startVilnaLine": 25,
-        "endVilnaLine": 34
-      },
-      "lines": [
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.88a.10"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.88a.11"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.88a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.88a.10",
-        "Yoma.88a.11",
-        "Yoma.88a.12"
-      ],
-      "display": {
-        "whats": "Seminal emission (keri) on Yom Kippur: whether immersion is required",
-        "hint": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the broader question of immersion for keri on Shabbat ...",
-        "title": "Seminal Emission on Yom Kippur: Is Immersion Required?"
-      },
-      "learning": {
-        "ahaMoment": "The question reveals the purpose-based nature of YK's bathing prohibition: if the water contact serves purity (a mitzvah) rather than pleasure, it may be categorically different from what the prohibition targets.",
-        "memoryAnchor": "Seminal emission on YK: immersion for purity vs. bathing for pleasure - purpose determines whether the act is prohibited.",
-        "learnerQuestion": "If a man experiences a seminal emission on Yom Kippur, must he immerse in a mikveh?",
-        "coreTension": "Between the general requirement of immersion after seminal emission (talmud Torah and prayer require a state of purity) and the YK prohibitions that may restrict immersion as a form of bathing.",
-        "coreMove": "The Gemara debates whether immersion in a mikveh on YK for this purpose constitutes the prohibited bathing. The resolution involves the distinction between bathing for pleasure or cleanliness (prohibited) and immersion for ritual purity purposes (potentially permitted even on YK).",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Immersion for ritual purity purposes may be distinguishable from prohibited bathing on Yom Kippur because the operative distinction is the purpose of the water contact; ritual immersion serves purity, not comfort or cleanliness."
-        },
-        "learningBlocker": "Students may assume any immersion is prohibited because of the bathing prohibition; the distinction between purpose-of-purification and purpose-of-pleasure is the key to understanding when immersion might be permitted."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "case",
-          "label": "A seminal emission on Yom Kippur: sins forgiven",
-          "speaker": "Baraita / Rav Nachman",
-          "text": "A baraita taught before Rav Nachman: one who has a seminal emission on Yom Kippur - his sins are forgiven. The Gemara contrasts another baraita saying his sins are 'arranged before him,' and reconciles: 'arranged' means arranged to be forgiven. The involuntary emission is read as a favorable sign.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "analysis",
-          "label": "The school of Rabbi Yishmael: worry, then reassurance",
-          "speaker": "Tanna of R. Yishmael",
-          "text": "The school of Rabbi Yishmael: such a person should worry the whole year that perhaps his fast was rejected. But if he survives the year, he is assured his merits protected him and earned him a share in the World to Come. Rav Nachman bar Yitzchak adds: while the whole world is 'hungry' (abstaining from relations on Yom Kippur), he is 'satisfied' - a sign of divine compassion for the involuntary event.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l28",
-              "vilnaLine": 28
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "resolution",
-          "label": "Rav Dimi: a sign of long life",
-          "speaker": "Rav Dimi",
-          "text": "When Rav Dimi came from Eretz Yisrael he said: a seminal emission on Yom Kippur is a sign one will live long, grow, and raise others, alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10). The chapter closes on this reassuring, redemptive note.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-088a-l34",
-              "vilnaLine": 34
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "keri",
-        "seminal emission",
-        "immersion",
-        "YK",
-        "mikveh"
-      ],
-      "concepts": {
-        "halachic": [
-          "keri",
-          "seminal emission"
-        ],
-        "theological": [
-          "Keri and immersion on YK: the requirement to immerse was eventually abolished fo"
-        ],
-        "narrative": [
-          "Seminal emission (keri) on Yom Kippur: whether immersion is "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of keri context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A seminal emission on Yom Kippur is purely a bad omen of a rejected fast.",
-          "correction": "Although Rabbi Yishmael's school says one should worry that year, the prevailing reading is favorable: the involuntary emission is a sign of divine compassion, forgiveness, and even long life per Rav Dimi.",
-          "correctedByStepId": "step-01"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Seminal emission (keri) on Yom Kippur: whether imm"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does the Gemara reconcile that one who has an emission on Yom Kippur has 'his sins forgiven' with the source saying his sins are 'arranged before him'?",
-          "answer": "'Arranged' (mesudarin) is read as 'arranged to be forgiven.' Both sources agree the involuntary emission is a favorable sign pointing toward forgiveness, not condemnation."
-        },
-        {
-          "question": "What does Rav Dimi say a seminal emission on Yom Kippur signifies, and what verse alludes to it?",
-          "answer": "That the person will live long, grow, and raise others - a sign of long life - alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10)."
-        }
-      ],
-      "finalRuling": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the ",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.88a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.88a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.88a.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.88a.5"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.88a.6"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.88a.7"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.88a.8"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.88a.9"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "he": "תנאי היא. אי פטרה נעילה את של ערבית אי לא: הכי גרסינן",
-      "en": "Rashi: Havdalah after Yom Kippur is recited in the Havdil blessing of Ma'ariv.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "בתוספתא כל חייבי עבילות טובלין כדרכן ביום הכפורים הנדה",
-      "en": "Rashi: the question of where exactly Havdalah is inserted in the YK Ma'ariv.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "ויולדת טובלות כדרכן בלילי יוה\"כ: בעל קרי. שאסור בדברי תורה",
-      "en": "Rashi: seminal emission (keri) on Yom Kippur and the immersion requirement.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "כדקיימא לן (ב\"ק דף פב.) עזרא תיקן טבילה לבעלי קריין: טובל",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "והולך עד המנחה. אם אירע לו",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "קרי קודם לכן טובל כדי שיוכל",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "להתפלל תפלת המנחה אבל ראה",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "קרי מן המנחה ולמעלה אין מותר",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "לטבול אלא ימתין עד שתחשך ויטבול",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "דסבירא להו לרבנן דתפלת נעי לה",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "בלילה ולדידהו פוטרת את של ערבית",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "כדרב והא דקתני אינה פוטרת ר'",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "יוסי היא דאמר כל היום מו תר לטבול",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "ואפילו ראה קרי לאחר תפלת המנחה",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "טובל ביום כדי להתפלל תפלת נעילה",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "אלמא קסבר תפלת נעילה אין זמנה",
-      "en": "Rashi explains the opening discussion of this topic on 88a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "בלילה ולדידיה אינה פוטרת את של",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "ערבית: ה\"ג בתוספתא הזב והזבה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "והמצורע והמצורעת ובועל נדה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "וטמא מת טובלין כדרכן ביוה\"כ",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "נדה ויולדת טובלות כדרכן בלילי יום",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "הכפורים בעל קרי טובל והולך כל",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "היום כולו ר' יוסי אומר מן המנחה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "ולמעלה אין יכול לטבול. קשיא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "דרבי יוסי אדרבי יוסי ורבנן אדרבנן:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "לא קשיא. הא דאמר ר' יוסי הכא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "מן המנחה ולמעלה אין יכול לטבול:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "בדצלי תפלת נעילה. ביום קודם",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "שראה קרי והא דאמרינן לעיל כל",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "היום בדלא צלי תפלת נעילה כשראה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "הקרי: אי דצלי מאי טעמא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "דרבנן. דמתניתא בתרייתא דאמרי",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "כל היום: קא סברי טבילה בזמנה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "מצוה. וזמנה ביום הוא דכתיב",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "(דברים כג) והיה לפנות ערב ירחץ",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "הלכך דחיא רחיצה דיום הכפורים",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "ולאו היינו הך רבנן דלעיל ותרתי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "פלוגתא נינהו במתני' קמייתא פליגי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "בזמן תפלת נעילה דלרבנן בלילה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "ולר' יוסי ביום ורבנן דהתם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "סבירא להו טבילה בזמנה לאו מצוה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "דתדחה יום הכפורים ובמתניתא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "בתרייתא פליגי בטבילה בזמנה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "מצוה: לא ירחוץ. שלא ימחוק את",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "השם: כורך עליו גמי. להגין עליו",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "משטף המים: וקיימא לן. במסכת",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "שבת דבטבילה בזמנה מצוה פליגי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "דלרבנן טבילה בזמנה לאו מצוה ואם אין לו גמי ימתין עד למחר",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "ויבקשנו: ההיא. דאמרי' לעיל ר' יוסי אומר מן המנחה ולמעלה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "לא יטבול עד שתחשך דטבילה בזמנה לאו מצוה ר' יוסי בר",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "יהודה היא: דיה לטבילה שתהא באחרונה. ברייתא היא",
-      "en": "Rashi notes this is R. Yehudah's opinion: 'it is sufficient for the immersion to be the last [act].'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "דמייתינן לה במסכת נדה בגמרא דהמפלת (דף כט:) האשה",
-      "en": "This is a baraita brought in tractate Niddah (29b) in the chapter of ha-Mapelet: a woman who went out [of her husband's house] full [pregnant] and returned empty [having miscarried],",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "שיצתה מלאה ובאת ריקנית והביאה לפנינו שלשה שבועים",
-      "en": "...and brought before us [records of] three clean weeks and ten weeks with alternating impure and pure,",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "עהורים ועשרה שבועים אחד טמא ואחד טהור משמשת אור",
-      "en": "...she immerses on the evening of the thirty-fifth day, and they count ninety-five immersions for her - according to Bet Shammai.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "לשלשים וחמש ומטבילין אותה תשעים וחמש טבילות דברי ב\"ש",
-      "en": "Bet Hillel says thirty-five. The Talmud explains all these cases there. The reasoning is that immersion at its proper time is a mitzvah.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "he": "וב\"ה אומרים שלשים וחמש וכולהו מפרש להו התם וטעמא משום",
-      "en": "R. Yose bar Yehudah says: it is sufficient for the immersion to be last [rather than at each precise time] - for immersion at its exact time is not a mitzvah.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "he": "טבילה בזמנה מצוה רבי יוסי בר יהודה אומר דיה לטבילה",
-      "en": "And R. Yose referred to here is R. Yose ben Halafta.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "he": "שתהא באחרונה דטבילה בזמנה לאו מצוה ור' יוסי דגמי הוא ר'",
-      "en": "Rashi on 'and in the evening he shall wash' (ve-larev yishafshef): [the concern is] chatzitzah (interposition). 'In the evening, you think so?'...",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "he": "יוסי בן חלפתא: ולערב ישפשף.  משום חציצה: לערב ס\"ד.",
-      "en": "Once he immersed and emerged, what benefit does washing do? If there was an interposition, it already happened.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "he": "מכי טביל וסליק מאי מהני ליה שפשוף חציצה דהואי הואי:",
-      "en": "Read it instead as 'from the previous evening' - meaning every person should wash himself with hot water [the night before], so that if he sees keri the next day, he can immerse without any interposition.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "he": "אימא מבערב. דאתמול ישפשף כל אדם עצמו בחמין שאם יראה",
-      "en": "And in the evening - meaning from the prior evening - he should wash. Because if he sees...",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "he": "קרי למחר יכול לטבול בלא חציצה: הרואה קרי ביוה\"כ. ולא",
-      "en": "...keri the next day he can immerse without interposition. Rashi on 'one who sees keri on Yom Kippur' - without intention.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "he": "במתכוין: עונותיו מחולין. סימן טוב הוא זה יראה זרע ויאריך ימים: ידאג כל השנה כולה. שמא לא קיבלו תעניתו והשביעוהו",
-      "en": "'His sins are forgiven' - it is a good sign: 'he shall see seed and live long' (Isaiah 53). He should worry all year...",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "he": "במה שבידם להשביעו כעבד המוזג כום לרבו ושפך לו קיתון על פגיו: ואם עלתה לו שנה. שלא מת מובטח לו שמעשים",
-      "en": "...for perhaps his fast was not accepted and [the heavenly court] satiated him with what was in their power, like a servant who pours a cup for his master and then dumps a pitcher of water on his face.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "he": "טובים יש בידו שהגינו עליו ובן עולם הבא הוא: תדע שהרי כל העולם רעב. מתשמיש והוא שבע ולא נתענה בזאת ושלא",
-      "en": "'And if his year goes well for him' - that he did not die - it is guaranteed that he has good deeds which protected him and he is a person of the World to Come.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 66,
-      "he": "מדעתו השביעוהו ואעפ\"כ עלתה לו שנה יש לדעת שצדיק גמור הוא: מפיש חיי. זה שראה קרי ביום הכפורים: סגי ומסגי.",
-      "en": "Rashi on 'prolongs life' (mafis chayyei): this refers to the one who saw keri on Yom Kippur.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 67,
-      "he": "בבנים ובני בנים שכך הסימן יראה זרע יאריך ימים [ישעיה נג]:",
-      "en": "Rashi on 'suffices and causes others to suffice' (sagi u-masgi): in sons and grandchildren, for thus is the sign - 'he shall see seed and live long' (Isaiah 53).",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 68,
-      "he": "הדרן עלך יום הכפרים וסליקא לה מסכת יומא",
-      "en": "Rashi notes the Hadran closing formula: 'We shall return to you, Yom ha-Kippurim, and Tractate Yoma is complete.'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.88a.1",
+    "Yoma.88a.2",
+    "Yoma.88a.3",
+    "Yoma.88a.4",
+    "Yoma.88a.5",
+    "Yoma.88a.6",
+    "Yoma.88a.7",
+    "Yoma.88a.8",
+    "Yoma.88a.9"
+   ],
+   "display": {
+    "whats": "Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location",
+    "hint": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited.",
+    "title": "Havdalah After Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "YK's Havdalah paralleling Shabbat's is a halakhic statement about YK's nature: 'Shabbat Shabbaton' is not just rhetoric - it carries structural consequences in how the day is concluded.",
+    "memoryAnchor": "Havdalah after YK: same structure as Shabbat Havdalah, reflecting YK's Shabbat-level sacred status.",
+    "learnerQuestion": "Where and how is Havdalah recited at the conclusion of Yom Kippur?",
+    "coreTension": "Between the structure of Shabbat Havdalah (recited at the end of Shabbat) and the question of how Yom Kippur's conclusion is marked when YK does not have the same Havdalah as Shabbat.",
+    "coreMove": "The Gemara discusses where the Havdalah blessing marking the conclusion of YK is recited: in the Atah Chonantanu blessing of the first weekday Amidah (just as after Shabbat), and separately over a flame. The close parallel to Shabbat Havdalah reflects YK's status as 'Shabbat Shabbaton.'",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Havdalah after YK parallels Havdalah after Shabbat, reflecting YK's halakhic status as 'Shabbat Shabbaton'; the blessing is inserted in the first Amidah of the new day, marking the transition from the sacred day back to ordinary time."
+    },
+    "learningBlocker": "Students may not realize YK has its own Havdalah form; understanding the parallel to Shabbat Havdalah explains why and how it is done."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "analysis",
+     "label": "Why havdala forces a full evening Amida",
+     "speaker": "Gemara",
+     "text": "The reason for the full eighteen-blessing evening Amida after Yom Kippur: one must say havdala in the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to insert it. This shows the tannaim who require the full Amida hold that ne'ila does NOT exempt the evening prayer - turning the dispute into one about immersion timing.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "case",
+     "label": "Who immerses on Yom Kippur",
+     "speaker": "Baraita",
+     "text": "A baraita: anyone needing immersion immerses normally on Yom Kippur, since this is not the forbidden 'washing.' A niddah and a new mother, who immerse at night, immerse on the night of Yom Kippur in the usual way.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l04",
+       "vilnaLine": 4
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "case",
+     "label": "Seminal emission and the timing of immersion",
+     "speaker": "Baraita",
+     "text": "One who had a seminal emission on Yom Kippur before mincha may immerse any time until mincha so he can pray it (per Ezra's decree that a ba'al keri immerse before praying or learning). If it happened after mincha, he waits until nightfall to immerse - showing ne'ila is a nighttime prayer, so it exempts ma'ariv. But Rabbi Yosei says he may immerse any time in the day - holding ne'ila is daytime, so it does NOT exempt ma'ariv.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "challenge",
+     "label": "A contradiction in Rabbi Yosei",
+     "speaker": "Gemara",
+     "text": "A second baraita has Rabbi Yosei say a ba'al keri may NOT immerse from mincha onward - the opposite of the first. The Gemara reconciles: the 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and immerses in order to pray it.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "analysis",
+     "label": "Why the Rabbis permit immersion even after ne'ila",
+     "speaker": "Gemara",
+     "text": "If he already prayed ne'ila, why do the Rabbis still let him immerse on Yom Kippur, seemingly pointlessly? Because the Rabbis hold immersion at its proper time is itself a mitzva, even without a prayer to enable - so when the time falls on Yom Kippur, he immerses regardless.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "challenge",
+     "label": "Does Rabbi Yosei reject immersion-at-its-time as a mitzva?",
+     "speaker": "Gemara",
+     "text": "By inference Rabbi Yosei holds immersion at its proper time is not a mitzva. But a baraita about a divine name written in ink on the flesh seems to show the opposite: one may not wash or smear it lest it be erased, yet if the time for a mitzva-immersion comes he wraps a reed over the name and immerses. The Gemara must square this with Rabbi Yosei's view.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l13",
+       "vilnaLine": 13
+      }
+     ]
+    },
+    {
+     "id": "step-07",
+     "type": "challenge",
+     "label": "The reed dispute over immersion-at-its-time",
+     "speaker": "Gemara",
+     "text": "In that baraita the Rabbis and Rabbi Yosei disagree precisely over tevila bizmanah. The Rabbis say immersion at its proper time is not a mitzva, so without a reed one waits even until the next day rather than risk erasing the name. Rabbi Yosei says it is a mitzva, so one immerses at the proper time even without covering the name - the opposite of the inference drawn above.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "id": "step-08",
+     "type": "resolution",
+     "label": "Reattributing the baraita to Rabbi Yosei bar Yehuda",
+     "speaker": "Gemara",
+     "text": "The resolution: the 'Rabbi Yosei' of that reed baraita is actually Rabbi Yosei bar Yehuda, who taught 'it suffices that the immersion be at the end' - one need only immerse once when surely pure, not repeatedly to hit the exact proper time. So he too holds immersion-at-its-time is not a binding mitzva, removing the contradiction.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "id": "step-09",
+     "type": "case",
+     "label": "Rubbing the skin before immersion",
+     "speaker": "Baraita",
+     "text": "The Sages taught: one who sees an emission on Yom Kippur immerses, and 'in the evening rubs his skin' to remove interpositions. The Gemara objects: why rub afterward - what's done is done. Rather, he should rub from the eve of Yom Kippur, in case he must immerse during the day. This Master holds rubbing to remove interpositions is itself a mitzva.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l22",
+       "vilnaLine": 22
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "Havdalah",
+    "YK",
+    "Ma'ariv",
+    "Havdil blessing",
+    "post-YK"
+   ],
+   "concepts": {
+    "halachic": [
+     "Havdalah",
+     "YK"
+    ],
+    "theological": [
+     "Havdalah placement: the end of YK mirrors its opening - the transition out of ho"
+    ],
+    "narrative": [
+     "Havdalah after Yom Kippur: recited in the Havdil blessing of"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of Havdalah context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Whether to immerse on Yom Kippur is just about being clean for prayer.",
+     "correction": "The deeper dispute is whether immersion at its proper time (tevila bizmanah) is an independent mitzva. The Rabbis say yes, so one immerses even with no prayer to enable; Rabbi Yosei bar Yehuda effectively says no.",
+     "correctedByStepId": "step-05"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Havdalah after Yom Kippur: recited in the Havdil b"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the need to say havdala require a full evening Amida after Yom Kippur?",
+     "answer": "Havdala is inserted into the blessing 'who graciously grants knowledge,' and an abridged Amida has no place to put it. So those tannaim require the full eighteen blessings, implying ne'ila does not exempt the evening prayer."
+    },
+    {
+     "question": "How does the Gemara resolve the two contradictory baraitot about whether Rabbi Yosei lets a ba'al keri immerse after mincha?",
+     "answer": "The 'may not immerse' case is where he already prayed ne'ila before noticing the emission; the 'may immerse' case is where he had not yet prayed ne'ila and needs to immerse in order to pray it. The timing relative to ne'ila reconciles them."
+    },
+    {
+     "question": "Why do the Rabbis permit immersion on Yom Kippur even after one has already prayed ne'ila?",
+     "answer": "Because they hold that immersion at its proper time is itself a mitzva, independent of needing to pray. So when the proper time falls on Yom Kippur, the person immerses regardless of whether an immediate prayer requires it."
+    }
+   ],
+   "finalRuling": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or s",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-088a-s02",
+   "lineRange": {
+    "startVilnaLine": 25,
+    "endVilnaLine": 34
+   },
+   "lines": [
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.88a.10"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.88a.11"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.88a.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.88a.10",
+    "Yoma.88a.11",
+    "Yoma.88a.12"
+   ],
+   "display": {
+    "whats": "Seminal emission (keri) on Yom Kippur: whether immersion is required",
+    "hint": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the broader question of immersion for keri on Shabbat ...",
+    "title": "Seminal Emission on Yom Kippur: Is Immersion Required?"
+   },
+   "learning": {
+    "ahaMoment": "The question reveals the purpose-based nature of YK's bathing prohibition: if the water contact serves purity (a mitzvah) rather than pleasure, it may be categorically different from what the prohibition targets.",
+    "memoryAnchor": "Seminal emission on YK: immersion for purity vs. bathing for pleasure - purpose determines whether the act is prohibited.",
+    "learnerQuestion": "If a man experiences a seminal emission on Yom Kippur, must he immerse in a mikveh?",
+    "coreTension": "Between the general requirement of immersion after seminal emission (talmud Torah and prayer require a state of purity) and the YK prohibitions that may restrict immersion as a form of bathing.",
+    "coreMove": "The Gemara debates whether immersion in a mikveh on YK for this purpose constitutes the prohibited bathing. The resolution involves the distinction between bathing for pleasure or cleanliness (prohibited) and immersion for ritual purity purposes (potentially permitted even on YK).",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Immersion for ritual purity purposes may be distinguishable from prohibited bathing on Yom Kippur because the operative distinction is the purpose of the water contact; ritual immersion serves purity, not comfort or cleanliness."
+    },
+    "learningBlocker": "Students may assume any immersion is prohibited because of the bathing prohibition; the distinction between purpose-of-purification and purpose-of-pleasure is the key to understanding when immersion might be permitted."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "case",
+     "label": "A seminal emission on Yom Kippur: sins forgiven",
+     "speaker": "Baraita / Rav Nachman",
+     "text": "A baraita taught before Rav Nachman: one who has a seminal emission on Yom Kippur - his sins are forgiven. The Gemara contrasts another baraita saying his sins are 'arranged before him,' and reconciles: 'arranged' means arranged to be forgiven. The involuntary emission is read as a favorable sign.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "analysis",
+     "label": "The school of Rabbi Yishmael: worry, then reassurance",
+     "speaker": "Tanna of R. Yishmael",
+     "text": "The school of Rabbi Yishmael: such a person should worry the whole year that perhaps his fast was rejected. But if he survives the year, he is assured his merits protected him and earned him a share in the World to Come. Rav Nachman bar Yitzchak adds: while the whole world is 'hungry' (abstaining from relations on Yom Kippur), he is 'satisfied' - a sign of divine compassion for the involuntary event.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l28",
+       "vilnaLine": 28
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "resolution",
+     "label": "Rav Dimi: a sign of long life",
+     "speaker": "Rav Dimi",
+     "text": "When Rav Dimi came from Eretz Yisrael he said: a seminal emission on Yom Kippur is a sign one will live long, grow, and raise others, alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10). The chapter closes on this reassuring, redemptive note.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-088a-l34",
+       "vilnaLine": 34
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "keri",
+    "seminal emission",
+    "immersion",
+    "YK",
+    "mikveh"
+   ],
+   "concepts": {
+    "halachic": [
+     "keri",
+     "seminal emission"
+    ],
+    "theological": [
+     "Keri and immersion on YK: the requirement to immerse was eventually abolished fo"
+    ],
+    "narrative": [
+     "Seminal emission (keri) on Yom Kippur: whether immersion is "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of keri context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A seminal emission on Yom Kippur is purely a bad omen of a rejected fast.",
+     "correction": "Although Rabbi Yishmael's school says one should worry that year, the prevailing reading is favorable: the involuntary emission is a sign of divine compassion, forgiveness, and even long life per Rav Dimi.",
+     "correctedByStepId": "step-01"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Seminal emission (keri) on Yom Kippur: whether imm"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does the Gemara reconcile that one who has an emission on Yom Kippur has 'his sins forgiven' with the source saying his sins are 'arranged before him'?",
+     "answer": "'Arranged' (mesudarin) is read as 'arranged to be forgiven.' Both sources agree the involuntary emission is a favorable sign pointing toward forgiveness, not condemnation."
+    },
+    {
+     "question": "What does Rav Dimi say a seminal emission on Yom Kippur signifies, and what verse alludes to it?",
+     "answer": "That the person will live long, grow, and raise others - a sign of long life - alluding to 'that he might see his seed and prolong his days' (Isaiah 53:10)."
+    }
+   ],
+   "finalRuling": "The Gemara discusses whether a man who experiences a seminal emission on Yom Kippur is required to immerse in a mikveh. The discussion touches on the ",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "תנאי היא. אי פטרה נעילה את של ערבית אי לא: הכי גרסינן",
+   "en": "New comment: 'it is a matter of Tannaitic dispute' - whether Ne'ila exempts the evening prayer or not. New comment: 'this is how we read'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "בתוספתא כל חייבי עבילות טובלין כדרכן ביום הכפורים הנדה",
+   "en": "in the Tosefta: all those obligated in immersions immerse in their usual way on Yom Kippur; the niddah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "ויולדת טובלות כדרכן בלילי יוה\"כ: בעל קרי. שאסור בדברי תורה",
+   "en": "and the woman who gave birth immerse in their usual way on the night of Yom Kippur. New comment: 'one with a seminal emission' - who is forbidden to engage in words of Torah,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l01",
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "כדקיימא לן (ב\"ק דף פב.) עזרא תיקן טבילה לבעלי קריין: טובל",
+   "en": "as we hold (Bava Kamma 82a): Ezra instituted immersion for those with a seminal emission. New comment: 'he immerses'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "והולך עד המנחה. אם אירע לו",
+   "en": "and continues until Mincha - if it happened to him",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "קרי קודם לכן טובל כדי שיוכל",
+   "en": "a seminal emission before this, he immerses so that he can",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "להתפלל תפלת המנחה אבל ראה",
+   "en": "pray the Mincha prayer; but if he experienced",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "קרי מן המנחה ולמעלה אין מותר",
+   "en": "a seminal emission from Mincha onward, he is not permitted",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "לטבול אלא ימתין עד שתחשך ויטבול",
+   "en": "to immerse, but rather waits until it grows dark and immerses,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "דסבירא להו לרבנן דתפלת נעי לה",
+   "en": "since the Rabbis hold that the Ne'ila prayer",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "בלילה ולדידהו פוטרת את של ערבית",
+   "en": "is at night, and according to them it exempts the evening prayer,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "כדרב והא דקתני אינה פוטרת ר'",
+   "en": "as per Rav; and that which is taught elsewhere that it does not exempt, that is Rabbi",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "יוסי היא דאמר כל היום מו תר לטבול",
+   "en": "Yosei's view, who says the whole day one may immerse,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "ואפילו ראה קרי לאחר תפלת המנחה",
+   "en": "and even if he experienced a seminal emission after the Mincha prayer,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "טובל ביום כדי להתפלל תפלת נעילה",
+   "en": "he immerses during the day so he can pray the Ne'ila prayer,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "אלמא קסבר תפלת נעילה אין זמנה",
+   "en": "this shows he holds that the time of the Ne'ila prayer is not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "בלילה ולדידיה אינה פוטרת את של",
+   "en": "at night, and according to him it does not exempt the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "ערבית: ה\"ג בתוספתא הזב והזבה",
+   "en": "evening prayer. New comment: 'this is how we read in the Tosefta' - the zav and the zavah,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l04",
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "והמצורע והמצורעת ובועל נדה",
+   "en": "and the metzora and metzora'at, and one who had relations with a niddah,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "וטמא מת טובלין כדרכן ביוה\"כ",
+   "en": "and one impure through a corpse, immerse in their usual way on Yom Kippur;",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "נדה ויולדת טובלות כדרכן בלילי יום",
+   "en": "the niddah and the one who gave birth immerse in their usual way on the night of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "הכפורים בעל קרי טובל והולך כל",
+   "en": "Yom Kippur; a ba'al keri immerses and continues all",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "היום כולו ר' יוסי אומר מן המנחה",
+   "en": "the day; Rabbi Yosei says: from Mincha",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "ולמעלה אין יכול לטבול. קשיא",
+   "en": "onward he cannot immerse. This is difficult,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "דרבי יוסי אדרבי יוסי ורבנן אדרבנן:",
+   "en": "for Rabbi Yosei contradicts Rabbi Yosei, and the Rabbis contradict the Rabbis.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "לא קשיא. הא דאמר ר' יוסי הכא",
+   "en": "New comment: 'it is not difficult' - this is where Rabbi Yosei said here,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "מן המנחה ולמעלה אין יכול לטבול:",
+   "en": "from Mincha onward he cannot immerse.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "בדצלי תפלת נעילה. ביום קודם",
+   "en": "New comment: 'where he prayed the Ne'ila prayer' - during the day, before",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "שראה קרי והא דאמרינן לעיל כל",
+   "en": "he saw the emission; and that which we said above, 'all",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "היום בדלא צלי תפלת נעילה כשראה",
+   "en": "the day,' that is where he did not pray the Ne'ila prayer when he saw",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "הקרי: אי דצלי מאי טעמא",
+   "en": "the emission. New comment: 'if he prayed, what is the reasoning'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l10",
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "דרבנן. דמתניתא בתרייתא דאמרי",
+   "en": "of the Rabbis? Since the later Baraita says",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "כל היום: קא סברי טבילה בזמנה",
+   "en": "all day. New comment: 'the Rabbis hold that immersion at its proper time'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "מצוה. וזמנה ביום הוא דכתיב",
+   "en": "is a mitzvah - and its proper time is during the day, as it is written",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "(דברים כג) והיה לפנות ערב ירחץ",
+   "en": "(Devarim 23): 'and it shall be, toward evening, he shall bathe.'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "הלכך דחיא רחיצה דיום הכפורים",
+   "en": "Therefore this washing overrides Yom Kippur,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "ולאו היינו הך רבנן דלעיל ותרתי",
+   "en": "and this is not the same as the Rabbis mentioned above; and there are two",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "פלוגתא נינהו במתני' קמייתא פליגי",
+   "en": "disputes: in the first Mishnah they disagree",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "בזמן תפלת נעילה דלרבנן בלילה",
+   "en": "about the time of the Ne'ila prayer, since the Rabbis hold it is at night",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "ולר' יוסי ביום ורבנן דהתם",
+   "en": "and Rabbi Yosei holds it is during the day; and the Rabbis mentioned there",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "סבירא להו טבילה בזמנה לאו מצוה",
+   "en": "hold that immersion at its proper time is not a mitzvah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "דתדחה יום הכפורים ובמתניתא",
+   "en": "such that it would override Yom Kippur; and in the later Baraita",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "בתרייתא פליגי בטבילה בזמנה",
+   "en": "they disagree about whether immersion at its proper time",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "מצוה: לא ירחוץ. שלא ימחוק את",
+   "en": "is a mitzvah. New comment: 'he shall not wash' - so that he does not erase",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l12",
+    "yoma-088a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "השם: כורך עליו גמי. להגין עליו",
+   "en": "the Name. New comment: 'he wraps a reed around it' - to protect it from",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "משטף המים: וקיימא לן. במסכת",
+   "en": "the flow of water. New comment: 'and we hold'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l13",
+    "yoma-088a-l19a"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "שבת דבטבילה בזמנה מצוה פליגי",
+   "en": "in Tractate Shabbat that they disagree about whether immersion at its proper time is a mitzvah,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19a"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "דלרבנן טבילה בזמנה לאו מצוה ואם אין לו גמי ימתין עד למחר",
+   "en": "since the Rabbis hold immersion at its proper time is not a mitzvah; and if he has no reed, he waits until the next day",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19a"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "ויבקשנו: ההיא. דאמרי' לעיל ר' יוסי אומר מן המנחה ולמעלה",
+   "en": "and seeks one. New comment: 'that ruling' - that which we said above, 'Rabbi Yosei says: from Mincha onward",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19a",
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "לא יטבול עד שתחשך דטבילה בזמנה לאו מצוה ר' יוסי בר",
+   "en": "he may not immerse until it grows dark' - since immersion at its proper time is not a mitzvah - this is Rabbi Yosei bar",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "יהודה היא: דיה לטבילה שתהא באחרונה. ברייתא היא",
+   "en": "Yehuda's view. New comment: 'it is sufficient for the immersion to be the last one' - it is a Baraita",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "דמייתינן לה במסכת נדה בגמרא דהמפלת (דף כט:) האשה",
+   "en": "that we cite in Tractate Niddah, in the Gemara of HaMapelet (29b): a woman",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "שיצתה מלאה ובאת ריקנית והביאה לפנינו שלשה שבועים",
+   "en": "who left full and came back empty, and brought before us three weeks",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "עהורים ועשרה שבועים אחד טמא ואחד טהור משמשת אור",
+   "en": "of purity and ten weeks alternating one impure and one pure, she may resume relations on the eve",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "לשלשים וחמש ומטבילין אותה תשעים וחמש טבילות דברי ב\"ש",
+   "en": "of the thirty-fifth day, and they immerse her ninety-five times - the words of Beit Shammai,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "he": "וב\"ה אומרים שלשים וחמש וכולהו מפרש להו התם וטעמא משום",
+   "en": "and Beit Hillel say thirty-five; and all these are explained there, and the reason is because",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "he": "טבילה בזמנה מצוה רבי יוסי בר יהודה אומר דיה לטבילה",
+   "en": "immersion at its proper time is a mitzvah. Rabbi Yosei bar Yehuda says: it is sufficient for the immersion",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "he": "שתהא באחרונה דטבילה בזמנה לאו מצוה ור' יוסי דגמי הוא ר'",
+   "en": "to be the last one, since immersion at its proper time is not a mitzvah; and the Rabbi Yosei of the reed-wrap case is Rabbi",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "he": "יוסי בן חלפתא: ולערב ישפשף.  משום חציצה: לערב ס\"ד.",
+   "en": "Yosei ben Chalafta. New comment: 'and in the evening he shall rub' - on account of an interposition. New comment: 'in the evening, does this occur to you?' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l19b",
+    "yoma-088a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "he": "מכי טביל וסליק מאי מהני ליה שפשוף חציצה דהואי הואי:",
+   "en": "once he immersed and emerged, what benefit does rubbing do? Whatever interposition existed, already existed.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "he": "אימא מבערב. דאתמול ישפשף כל אדם עצמו בחמין שאם יראה",
+   "en": "New comment: 'say instead, from the evening before' - that the day before, every person should rub himself with hot water, so that if he sees",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "he": "קרי למחר יכול לטבול בלא חציצה: הרואה קרי ביוה\"כ. ולא",
+   "en": "a seminal emission the next day, he can immerse without an interposition. New comment: 'one who sees a seminal emission on Yom Kippur' - and not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l22",
+    "yoma-088a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "he": "במתכוין: עונותיו מחולין. סימן טוב הוא זה יראה זרע ויאריך ימים: ידאג כל השנה כולה. שמא לא קיבלו תעניתו והשביעוהו",
+   "en": "intentionally. New comment: 'his sins are forgiven' - this is a good sign: 'he shall see offspring and prolong his days.' New comment: 'he shall worry all year' - lest his fast was not accepted, and they satiated him",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l25",
+    "yoma-088a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "he": "במה שבידם להשביעו כעבד המוזג כום לרבו ושפך לו קיתון על פגיו: ואם עלתה לו שנה. שלא מת מובטח לו שמעשים",
+   "en": "with what is in their power to satiate him, like a servant who pours a cup for his master and then pours a pitcher of water on his face. New comment: 'and if his year passes well for him' - that he did not die, it is guaranteed that he has",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "he": "טובים יש בידו שהגינו עליו ובן עולם הבא הוא: תדע שהרי כל העולם רעב. מתשמיש והוא שבע ולא נתענה בזאת ושלא",
+   "en": "good deeds that protected him, and he is a person of the World to Come. New comment: 'know, for the whole world is hungry' - for marital relations, and he is satiated; and he did not fast in this, and it was not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "he": "מדעתו השביעוהו ואעפ\"כ עלתה לו שנה יש לדעת שצדיק גמור הוא: מפיש חיי. זה שראה קרי ביום הכפורים: סגי ומסגי.",
+   "en": "by his own will that he was satiated, and nevertheless his year passed well for him - one must know that he is a completely righteous person. New comment: 'prolongs life' - this refers to the one who saw a seminal emission on Yom Kippur. New comment: 'suffices and causes to suffice' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "he": "בבנים ובני בנים שכך הסימן יראה זרע יאריך ימים [ישעיה נג]:",
+   "en": "in sons and grandchildren, for thus is the sign: 'he shall see offspring, he shall prolong his days' (Yeshayahu 53).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "he": "הדרן עלך יום הכפרים וסליקא לה מסכת יומא",
+   "en": "Hadran alach Yom HaKippurim, and Tractate Yoma is concluded.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-088a-l34"
+   ]
+  }
+ ],
+ "review": "draft"
 }

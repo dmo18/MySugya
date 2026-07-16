@@ -201263,11 +201263,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 1,
         he: "תנאי היא. אי פטרה נעילה את של ערבית אי לא: הכי גרסינן",
-        en: "Rashi: Havdalah after Yom Kippur is recited in the Havdil blessing of Ma'ariv.",
+        en: "New comment: 'it is a matter of Tannaitic dispute' - whether Ne'ila exempts the evening prayer or not. New comment: 'this is how we read'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l01"
+        ]
       },
       {
         id: "rashi-yoma-088a-002",
@@ -201275,11 +201277,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 2,
         he: "בתוספתא כל חייבי עבילות טובלין כדרכן ביום הכפורים הנדה",
-        en: "Rashi: the question of where exactly Havdalah is inserted in the YK Ma'ariv.",
+        en: "in the Tosefta: all those obligated in immersions immerse in their usual way on Yom Kippur; the niddah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l01"
+        ]
       },
       {
         id: "rashi-yoma-088a-003",
@@ -201287,11 +201291,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 3,
         he: "ויולדת טובלות כדרכן בלילי יוה\"כ: בעל קרי. שאסור בדברי תורה",
-        en: "Rashi: seminal emission (keri) on Yom Kippur and the immersion requirement.",
+        en: "and the woman who gave birth immerse in their usual way on the night of Yom Kippur. New comment: 'one with a seminal emission' - who is forbidden to engage in words of Torah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l01",
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-004",
@@ -201299,11 +201306,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 4,
         he: "כדקיימא לן (ב\"ק דף פב.) עזרא תיקן טבילה לבעלי קריין: טובל",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "as we hold (Bava Kamma 82a): Ezra instituted immersion for those with a seminal emission. New comment: 'he immerses'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-005",
@@ -201311,11 +201320,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 5,
         he: "והולך עד המנחה. אם אירע לו",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "and continues until Mincha - if it happened to him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-006",
@@ -201323,11 +201334,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 6,
         he: "קרי קודם לכן טובל כדי שיוכל",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "a seminal emission before this, he immerses so that he can",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-007",
@@ -201335,11 +201348,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 7,
         he: "להתפלל תפלת המנחה אבל ראה",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "pray the Mincha prayer; but if he experienced",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-008",
@@ -201347,11 +201362,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 8,
         he: "קרי מן המנחה ולמעלה אין מותר",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "a seminal emission from Mincha onward, he is not permitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-009",
@@ -201359,11 +201376,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 9,
         he: "לטבול אלא ימתין עד שתחשך ויטבול",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "to immerse, but rather waits until it grows dark and immerses,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-010",
@@ -201371,11 +201390,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 10,
         he: "דסבירא להו לרבנן דתפלת נעי לה",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "since the Rabbis hold that the Ne'ila prayer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-011",
@@ -201383,11 +201404,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 11,
         he: "בלילה ולדידהו פוטרת את של ערבית",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "is at night, and according to them it exempts the evening prayer,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-012",
@@ -201395,11 +201418,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 12,
         he: "כדרב והא דקתני אינה פוטרת ר'",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "as per Rav; and that which is taught elsewhere that it does not exempt, that is Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-013",
@@ -201407,11 +201432,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 13,
         he: "יוסי היא דאמר כל היום מו תר לטבול",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "Yosei's view, who says the whole day one may immerse,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-014",
@@ -201419,11 +201446,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 14,
         he: "ואפילו ראה קרי לאחר תפלת המנחה",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "and even if he experienced a seminal emission after the Mincha prayer,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-015",
@@ -201431,11 +201460,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 15,
         he: "טובל ביום כדי להתפלל תפלת נעילה",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "he immerses during the day so he can pray the Ne'ila prayer,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-016",
@@ -201443,11 +201474,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 16,
         he: "אלמא קסבר תפלת נעילה אין זמנה",
-        en: "Rashi explains the opening discussion of this topic on 88a.",
+        en: "this shows he holds that the time of the Ne'ila prayer is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-017",
@@ -201455,11 +201488,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 17,
         he: "בלילה ולדידיה אינה פוטרת את של",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "at night, and according to him it does not exempt the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04"
+        ]
       },
       {
         id: "rashi-yoma-088a-018",
@@ -201467,11 +201502,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 18,
         he: "ערבית: ה\"ג בתוספתא הזב והזבה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "evening prayer. New comment: 'this is how we read in the Tosefta' - the zav and the zavah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l04",
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-019",
@@ -201479,11 +201517,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 19,
         he: "והמצורע והמצורעת ובועל נדה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and the metzora and metzora'at, and one who had relations with a niddah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-020",
@@ -201491,11 +201531,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 20,
         he: "וטמא מת טובלין כדרכן ביוה\"כ",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and one impure through a corpse, immerse in their usual way on Yom Kippur;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-021",
@@ -201503,11 +201545,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 21,
         he: "נדה ויולדת טובלות כדרכן בלילי יום",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the niddah and the one who gave birth immerse in their usual way on the night of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-022",
@@ -201515,11 +201559,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 22,
         he: "הכפורים בעל קרי טובל והולך כל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Yom Kippur; a ba'al keri immerses and continues all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-023",
@@ -201527,11 +201573,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 23,
         he: "היום כולו ר' יוסי אומר מן המנחה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the day; Rabbi Yosei says: from Mincha",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-024",
@@ -201539,11 +201587,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 24,
         he: "ולמעלה אין יכול לטבול. קשיא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "onward he cannot immerse. This is difficult,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-025",
@@ -201551,11 +201601,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 25,
         he: "דרבי יוסי אדרבי יוסי ורבנן אדרבנן:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for Rabbi Yosei contradicts Rabbi Yosei, and the Rabbis contradict the Rabbis.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l05"
+        ]
       },
       {
         id: "rashi-yoma-088a-026",
@@ -201563,11 +201615,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 26,
         he: "לא קשיא. הא דאמר ר' יוסי הכא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'it is not difficult' - this is where Rabbi Yosei said here,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10"
+        ]
       },
       {
         id: "rashi-yoma-088a-027",
@@ -201575,11 +201629,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 27,
         he: "מן המנחה ולמעלה אין יכול לטבול:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "from Mincha onward he cannot immerse.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10"
+        ]
       },
       {
         id: "rashi-yoma-088a-028",
@@ -201587,11 +201643,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 28,
         he: "בדצלי תפלת נעילה. ביום קודם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'where he prayed the Ne'ila prayer' - during the day, before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10"
+        ]
       },
       {
         id: "rashi-yoma-088a-029",
@@ -201599,11 +201657,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 29,
         he: "שראה קרי והא דאמרינן לעיל כל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "he saw the emission; and that which we said above, 'all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10"
+        ]
       },
       {
         id: "rashi-yoma-088a-030",
@@ -201611,11 +201671,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 30,
         he: "היום בדלא צלי תפלת נעילה כשראה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the day,' that is where he did not pray the Ne'ila prayer when he saw",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10"
+        ]
       },
       {
         id: "rashi-yoma-088a-031",
@@ -201623,11 +201685,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 31,
         he: "הקרי: אי דצלי מאי טעמא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the emission. New comment: 'if he prayed, what is the reasoning'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l10",
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-032",
@@ -201635,11 +201700,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 32,
         he: "דרבנן. דמתניתא בתרייתא דאמרי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of the Rabbis? Since the later Baraita says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-033",
@@ -201647,11 +201714,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 33,
         he: "כל היום: קא סברי טבילה בזמנה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "all day. New comment: 'the Rabbis hold that immersion at its proper time'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-034",
@@ -201659,11 +201728,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 34,
         he: "מצוה. וזמנה ביום הוא דכתיב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "is a mitzvah - and its proper time is during the day, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-035",
@@ -201671,11 +201742,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 35,
         he: "(דברים כג) והיה לפנות ערב ירחץ",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "(Devarim 23): 'and it shall be, toward evening, he shall bathe.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-036",
@@ -201683,11 +201756,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 36,
         he: "הלכך דחיא רחיצה דיום הכפורים",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Therefore this washing overrides Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-037",
@@ -201695,11 +201770,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 37,
         he: "ולאו היינו הך רבנן דלעיל ותרתי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and this is not the same as the Rabbis mentioned above; and there are two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-038",
@@ -201707,11 +201784,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 38,
         he: "פלוגתא נינהו במתני' קמייתא פליגי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "disputes: in the first Mishnah they disagree",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-039",
@@ -201719,11 +201798,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 39,
         he: "בזמן תפלת נעילה דלרבנן בלילה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "about the time of the Ne'ila prayer, since the Rabbis hold it is at night",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-040",
@@ -201731,11 +201812,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 40,
         he: "ולר' יוסי ביום ורבנן דהתם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and Rabbi Yosei holds it is during the day; and the Rabbis mentioned there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-041",
@@ -201743,11 +201826,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 41,
         he: "סבירא להו טבילה בזמנה לאו מצוה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "hold that immersion at its proper time is not a mitzvah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-042",
@@ -201755,11 +201840,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 42,
         he: "דתדחה יום הכפורים ובמתניתא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "such that it would override Yom Kippur; and in the later Baraita",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-043",
@@ -201767,11 +201854,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 43,
         he: "בתרייתא פליגי בטבילה בזמנה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "they disagree about whether immersion at its proper time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12"
+        ]
       },
       {
         id: "rashi-yoma-088a-044",
@@ -201779,11 +201868,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 44,
         he: "מצוה: לא ירחוץ. שלא ימחוק את",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "is a mitzvah. New comment: 'he shall not wash' - so that he does not erase",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l12",
+          "yoma-088a-l13"
+        ]
       },
       {
         id: "rashi-yoma-088a-045",
@@ -201791,11 +201883,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 45,
         he: "השם: כורך עליו גמי. להגין עליו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the Name. New comment: 'he wraps a reed around it' - to protect it from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l13"
+        ]
       },
       {
         id: "rashi-yoma-088a-046",
@@ -201803,11 +201897,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 46,
         he: "משטף המים: וקיימא לן. במסכת",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the flow of water. New comment: 'and we hold'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l13",
+          "yoma-088a-l19a"
+        ]
       },
       {
         id: "rashi-yoma-088a-047",
@@ -201815,11 +201912,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 47,
         he: "שבת דבטבילה בזמנה מצוה פליגי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in Tractate Shabbat that they disagree about whether immersion at its proper time is a mitzvah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19a"
+        ]
       },
       {
         id: "rashi-yoma-088a-048",
@@ -201827,11 +201926,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 48,
         he: "דלרבנן טבילה בזמנה לאו מצוה ואם אין לו גמי ימתין עד למחר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "since the Rabbis hold immersion at its proper time is not a mitzvah; and if he has no reed, he waits until the next day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19a"
+        ]
       },
       {
         id: "rashi-yoma-088a-049",
@@ -201839,11 +201940,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 49,
         he: "ויבקשנו: ההיא. דאמרי' לעיל ר' יוסי אומר מן המנחה ולמעלה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and seeks one. New comment: 'that ruling' - that which we said above, 'Rabbi Yosei says: from Mincha onward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19a",
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-050",
@@ -201851,11 +201955,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 50,
         he: "לא יטבול עד שתחשך דטבילה בזמנה לאו מצוה ר' יוסי בר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he may not immerse until it grows dark' - since immersion at its proper time is not a mitzvah - this is Rabbi Yosei bar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-051",
@@ -201863,11 +201969,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 51,
         he: "יהודה היא: דיה לטבילה שתהא באחרונה. ברייתא היא",
-        en: "Rashi notes this is R. Yehudah's opinion: 'it is sufficient for the immersion to be the last [act].'",
+        en: "Yehuda's view. New comment: 'it is sufficient for the immersion to be the last one' - it is a Baraita",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-052",
@@ -201875,11 +201983,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 52,
         he: "דמייתינן לה במסכת נדה בגמרא דהמפלת (דף כט:) האשה",
-        en: "This is a baraita brought in tractate Niddah (29b) in the chapter of ha-Mapelet: a woman who went out [of her husband's house] full [pregnant] and returned empty [having miscarried],",
+        en: "that we cite in Tractate Niddah, in the Gemara of HaMapelet (29b): a woman",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-053",
@@ -201887,11 +201997,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 53,
         he: "שיצתה מלאה ובאת ריקנית והביאה לפנינו שלשה שבועים",
-        en: "...and brought before us [records of] three clean weeks and ten weeks with alternating impure and pure,",
+        en: "who left full and came back empty, and brought before us three weeks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-054",
@@ -201899,11 +202011,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 54,
         he: "עהורים ועשרה שבועים אחד טמא ואחד טהור משמשת אור",
-        en: "...she immerses on the evening of the thirty-fifth day, and they count ninety-five immersions for her - according to Bet Shammai.",
+        en: "of purity and ten weeks alternating one impure and one pure, she may resume relations on the eve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-055",
@@ -201911,11 +202025,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 55,
         he: "לשלשים וחמש ומטבילין אותה תשעים וחמש טבילות דברי ב\"ש",
-        en: "Bet Hillel says thirty-five. The Talmud explains all these cases there. The reasoning is that immersion at its proper time is a mitzvah.",
+        en: "of the thirty-fifth day, and they immerse her ninety-five times - the words of Beit Shammai,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-056",
@@ -201923,11 +202039,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 56,
         he: "וב\"ה אומרים שלשים וחמש וכולהו מפרש להו התם וטעמא משום",
-        en: "R. Yose bar Yehudah says: it is sufficient for the immersion to be last [rather than at each precise time] - for immersion at its exact time is not a mitzvah.",
+        en: "and Beit Hillel say thirty-five; and all these are explained there, and the reason is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-057",
@@ -201935,11 +202053,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 57,
         he: "טבילה בזמנה מצוה רבי יוסי בר יהודה אומר דיה לטבילה",
-        en: "And R. Yose referred to here is R. Yose ben Halafta.",
+        en: "immersion at its proper time is a mitzvah. Rabbi Yosei bar Yehuda says: it is sufficient for the immersion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-058",
@@ -201947,11 +202067,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 58,
         he: "שתהא באחרונה דטבילה בזמנה לאו מצוה ור' יוסי דגמי הוא ר'",
-        en: "Rashi on 'and in the evening he shall wash' (ve-larev yishafshef): [the concern is] chatzitzah (interposition). 'In the evening, you think so?'...",
+        en: "to be the last one, since immersion at its proper time is not a mitzvah; and the Rabbi Yosei of the reed-wrap case is Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b"
+        ]
       },
       {
         id: "rashi-yoma-088a-059",
@@ -201959,11 +202081,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 59,
         he: "יוסי בן חלפתא: ולערב ישפשף.  משום חציצה: לערב ס\"ד.",
-        en: "Once he immersed and emerged, what benefit does washing do? If there was an interposition, it already happened.",
+        en: "Yosei ben Chalafta. New comment: 'and in the evening he shall rub' - on account of an interposition. New comment: 'in the evening, does this occur to you?' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l19b",
+          "yoma-088a-l22"
+        ]
       },
       {
         id: "rashi-yoma-088a-060",
@@ -201971,11 +202096,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 60,
         he: "מכי טביל וסליק מאי מהני ליה שפשוף חציצה דהואי הואי:",
-        en: "Read it instead as 'from the previous evening' - meaning every person should wash himself with hot water [the night before], so that if he sees keri the next day, he can immerse without any interposition.",
+        en: "once he immersed and emerged, what benefit does rubbing do? Whatever interposition existed, already existed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l22"
+        ]
       },
       {
         id: "rashi-yoma-088a-061",
@@ -201983,11 +202110,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 61,
         he: "אימא מבערב. דאתמול ישפשף כל אדם עצמו בחמין שאם יראה",
-        en: "And in the evening - meaning from the prior evening - he should wash. Because if he sees...",
+        en: "New comment: 'say instead, from the evening before' - that the day before, every person should rub himself with hot water, so that if he sees",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l22"
+        ]
       },
       {
         id: "rashi-yoma-088a-062",
@@ -201995,11 +202124,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 62,
         he: "קרי למחר יכול לטבול בלא חציצה: הרואה קרי ביוה\"כ. ולא",
-        en: "...keri the next day he can immerse without interposition. Rashi on 'one who sees keri on Yom Kippur' - without intention.",
+        en: "a seminal emission the next day, he can immerse without an interposition. New comment: 'one who sees a seminal emission on Yom Kippur' - and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l22",
+          "yoma-088a-l25"
+        ]
       },
       {
         id: "rashi-yoma-088a-063",
@@ -202007,11 +202139,14 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 63,
         he: "במתכוין: עונותיו מחולין. סימן טוב הוא זה יראה זרע ויאריך ימים: ידאג כל השנה כולה. שמא לא קיבלו תעניתו והשביעוהו",
-        en: "'His sins are forgiven' - it is a good sign: 'he shall see seed and live long' (Isaiah 53). He should worry all year...",
+        en: "intentionally. New comment: 'his sins are forgiven' - this is a good sign: 'he shall see offspring and prolong his days.' New comment: 'he shall worry all year' - lest his fast was not accepted, and they satiated him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l25",
+          "yoma-088a-l28"
+        ]
       },
       {
         id: "rashi-yoma-088a-064",
@@ -202019,11 +202154,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 64,
         he: "במה שבידם להשביעו כעבד המוזג כום לרבו ושפך לו קיתון על פגיו: ואם עלתה לו שנה. שלא מת מובטח לו שמעשים",
-        en: "...for perhaps his fast was not accepted and [the heavenly court] satiated him with what was in their power, like a servant who pours a cup for his master and then dumps a pitcher of water on his face.",
+        en: "with what is in their power to satiate him, like a servant who pours a cup for his master and then pours a pitcher of water on his face. New comment: 'and if his year passes well for him' - that he did not die, it is guaranteed that he has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l28"
+        ]
       },
       {
         id: "rashi-yoma-088a-065",
@@ -202031,11 +202168,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 65,
         he: "טובים יש בידו שהגינו עליו ובן עולם הבא הוא: תדע שהרי כל העולם רעב. מתשמיש והוא שבע ולא נתענה בזאת ושלא",
-        en: "'And if his year goes well for him' - that he did not die - it is guaranteed that he has good deeds which protected him and he is a person of the World to Come.",
+        en: "good deeds that protected him, and he is a person of the World to Come. New comment: 'know, for the whole world is hungry' - for marital relations, and he is satiated; and he did not fast in this, and it was not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l28"
+        ]
       },
       {
         id: "rashi-yoma-088a-066",
@@ -202043,11 +202182,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 66,
         he: "מדעתו השביעוהו ואעפ\"כ עלתה לו שנה יש לדעת שצדיק גמור הוא: מפיש חיי. זה שראה קרי ביום הכפורים: סגי ומסגי.",
-        en: "Rashi on 'prolongs life' (mafis chayyei): this refers to the one who saw keri on Yom Kippur.",
+        en: "by his own will that he was satiated, and nevertheless his year passed well for him - one must know that he is a completely righteous person. New comment: 'prolongs life' - this refers to the one who saw a seminal emission on Yom Kippur. New comment: 'suffices and causes to suffice' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l28"
+        ]
       },
       {
         id: "rashi-yoma-088a-067",
@@ -202055,11 +202196,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 67,
         he: "בבנים ובני בנים שכך הסימן יראה זרע יאריך ימים [ישעיה נג]:",
-        en: "Rashi on 'suffices and causes others to suffice' (sagi u-masgi): in sons and grandchildren, for thus is the sign - 'he shall see seed and live long' (Isaiah 53).",
+        en: "in sons and grandchildren, for thus is the sign: 'he shall see offspring, he shall prolong his days' (Yeshayahu 53).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l28"
+        ]
       },
       {
         id: "rashi-yoma-088a-068",
@@ -202067,11 +202210,13 @@ const DAF_CONTENT = {
         daf: "88a",
         vilnaLine: 68,
         he: "הדרן עלך יום הכפרים וסליקא לה מסכת יומא",
-        en: "Rashi notes the Hadran closing formula: 'We shall return to you, Yom ha-Kippurim, and Tractate Yoma is complete.'",
+        en: "Hadran alach Yom HaKippurim, and Tractate Yoma is concluded.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-088a-l34"
+        ]
       }
     ],
     review: "draft"
