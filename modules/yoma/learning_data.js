@@ -198572,11 +198572,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 1,
         he: "בצבו נפשיה. ברצון עצמו: לקטלא אזיל. לישא עונש חטא שמא",
-        en: "Rashi: the distinction between voluntary and coerced sin.",
+        en: "New comment: 'with the desire of his soul' - by his own will. New comment: 'he goes to be killed' - to bear the punishment of a sin, lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-002",
@@ -198584,11 +198586,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 2,
         he: "ישגה בדין ועל עצמו אמר כן: וצבו ביתיה לית הוא עביד. בכל",
-        en: "Rashi: Yom Kippur does not atone for interpersonal sins without direct appeasement.",
+        en: "he err in judgment; and he said this about himself. New comment: 'and the desire of his household he does not do' - in all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-003",
@@ -198596,11 +198600,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 3,
         he: "זה לא יעשה צורכי ביתו ולא ישתכר כלום בדבר: ולואי שתהא",
-        en: "Rashi: YK atones for sins between person and God; not for sins against another person.",
+        en: "of this he does not tend to the needs of his household, nor does he profit anything in the matter. New comment: 'and would that there be'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-004",
@@ -198608,11 +198614,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 4,
         he: "ביאה. שישוב ויכנס לביתו בלא חטא כיציאה: אמבוהא. גדודי",
-        en: "Rashi: communal relational sins with a Godward dimension can be atoned by YK.",
+        en: "an entry - that he should return and enter his house without sin, as was the exit. New comment: 'ambuha' - crowds of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-005",
@@ -198620,11 +198628,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 5,
         he: "בני אדם הולכין אחריו לכבודו: אם",
-        en: "Rashi: even verbal insult requires direct appeasement before YK can atone.",
+        en: "people walking after him in his honor. New comment: 'if'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-006",
@@ -198632,11 +198642,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 6,
         he: "יעלה לשמים שיאו וגו' סופו כגללו",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "his greatness rises to the heavens, etc., in the end like his dung",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-007",
@@ -198644,11 +198656,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 7,
         he: "לנצח יאבד. וכל זה אמר שלא תזוח",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "he shall perish forever. And he said all this so that his mind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-008",
@@ -198656,11 +198670,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 8,
         he: "דעתו: מכתפי ליה. זקן היה ונושאין",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "would not become haughty. New comment: 'they would carry him on their shoulders' - he was old, and they carried",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-009",
@@ -198668,11 +198684,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 9,
         he: "אותו באלנקי בכתפיהם בבית המדרש",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "him in a litter on their shoulders in the study hall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-010",
@@ -198680,11 +198698,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 10,
         he: "שלא להטריח את הציבור לקום מפניו:",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "so as not to trouble the community to rise before him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l01"
+        ]
       },
       {
         id: "rashi-yoma-087a-011",
@@ -198692,11 +198712,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 11,
         he: "שנאמר הנותרים. אלמא אף הן היו",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "New comment: 'as it says, the remaining ones' - this shows that they too were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l17"
+        ]
       },
       {
         id: "rashi-yoma-087a-012",
@@ -198704,11 +198726,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 12,
         he: "ראויין לישרף ונותרו: אין חטא בא על",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "fit to be burned, and they remained. New comment: 'no sin comes upon'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l17",
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-013",
@@ -198716,11 +198741,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 13,
         he: "ידו. הקב\"ה מדחה מפניו את העבירה",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "his hand' - the Holy One pushes the transgression away from him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-014",
@@ -198728,11 +198755,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 14,
         he: "שלא תבא לידו: כי לא תעזוב נפשי.",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "so that it does not come to his hand. New comment: 'for You will not abandon my soul' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-015",
@@ -198740,11 +198769,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 15,
         he: "למדנו שהקב\"ה מונע את החטא",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "we learn that the Holy One prevents the sin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-016",
@@ -198752,11 +198783,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 16,
         he: "מלהכשילו: עשוק בדם נפש. מחויב",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "from causing him to stumble. New comment: 'oppressed through the blood of a life' - liable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-017",
@@ -198764,11 +198797,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 17,
         he: "בנפש שאבדה על ידו: אל יתמכו בו.",
-        en: "Rashi explains the opening discussion of this topic on 87a.",
+        en: "for the life that was lost through him. New comment: 'let them not support him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-018",
@@ -198776,11 +198811,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 18,
         he: "שלא יפול אלא מניחין אותו ויפול בבור",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "not that he should not fall, but rather they leave him and he falls into the pit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26"
+        ]
       },
       {
         id: "rashi-yoma-087a-019",
@@ -198788,11 +198825,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 19,
         he: "בגיהנם: כדרב הונא. דכיון דחטא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of Gehinnom. New comment: 'as Rav Huna' - since he sinned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l26",
+          "yoma-087a-l31"
+        ]
       },
       {
         id: "rashi-yoma-087a-020",
@@ -198800,11 +198840,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 20,
         he: "תרי זימני שוב אין מספיקין בידו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "twice, he is no longer given the opportunity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l31"
+        ]
       },
       {
         id: "rashi-yoma-087a-021",
@@ -198812,11 +198854,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 21,
         he: "לעשות תשובה לפי שהעבירה דומה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to repent, since the transgression seems",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l31"
+        ]
       },
       {
         id: "rashi-yoma-087a-022",
@@ -198824,11 +198868,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 22,
         he: "עליו היתר: לימא דלא כרבי. דאמר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "permitted to him. New comment: 'let us say the Mishnah does not follow Rabbi' - for he said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l31",
+          "yoma-087a-l33"
+        ]
       },
       {
         id: "rashi-yoma-087a-023",
@@ -198836,11 +198883,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 23,
         he: "לעיל אפי' לא עשה תשובה מכפר:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "above that even if he did not repent, it atones.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l33"
+        ]
       },
       {
         id: "rashi-yoma-087a-024",
@@ -198848,11 +198897,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 24,
         he: "אגב שאני. מאחר שעליו הוא סומך",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'the case is different on account of relying on it' - since he relies on it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l33"
+        ]
       },
       {
         id: "rashi-yoma-087a-025",
@@ -198860,11 +198911,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 25,
         he: "לחטוא אינו מכפר: והכתיב ופללו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to sin, it does not atone. New comment: 'but is it not written, ufilelo'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l33",
+          "yoma-087a-l35"
+        ]
       },
       {
         id: "rashi-yoma-087a-026",
@@ -198872,11 +198926,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 26,
         he: "אלהים. וקא סלקא דעתך ופללו לשון",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Elohim' - and you might think that ufilelo is a term of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l35"
+        ]
       },
       {
         id: "rashi-yoma-087a-027",
@@ -198884,11 +198940,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 27,
         he: "תפלה ופיוס הוא שהקב\"ה מפללו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "prayer and appeasement, that the Holy One prays for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l35"
+        ]
       },
       {
         id: "rashi-yoma-087a-028",
@@ -198896,11 +198954,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 28,
         he: "ומפייסו ומכפר לו: מאן אלהים דיין.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and appeases him and atones for him. New comment: 'who is Elohim, a judge' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l35"
+        ]
       },
       {
         id: "rashi-yoma-087a-029",
@@ -198908,11 +198968,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 29,
         he: "והאי ופללו לשון ונתן בפלילים (שמות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and this ufilelo is a term like venatan biflilim (Shemot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l35"
+        ]
       },
       {
         id: "rashi-yoma-087a-030",
@@ -198920,11 +198982,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 30,
         he: "כא) הדיין ישפוט ביניהם: אי הכי.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "21) - the judge shall rule between them. New comment: 'if so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l35",
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-031",
@@ -198932,11 +198997,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 31,
         he: "דפללו דקרא לשון משפט נינהו אימא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that ufilelo of the verse is a term of judgment, then say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-032",
@@ -198944,11 +199011,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 32,
         he: "סיפא מי יתפלל לו מי ישפטנו בשביל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the latter clause, who shall pray for him, meaning who shall judge him on behalf of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-033",
@@ -198956,11 +199025,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 33,
         he: "המקום וכי אין שלוחין הרבה למקום",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "God? But does God not have many agents",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-034",
@@ -198968,11 +199039,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 34,
         he: "ליפרע הימנו: הכי קאמר. הכי נמי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to punish him? New comment: 'this is what it means' - likewise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-035",
@@ -198980,11 +199053,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 35,
         he: "דפילול דקרא לשון פיוס הוא והכי קאמר אם יחטא איש לאיש ופללו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the pilul of the verse is a term of appeasement, and this is what it says: if a man sins against another man and he appeases him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-036",
@@ -198992,11 +199067,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 36,
         he: "לחבירו וריצהו האלהים ימחול לו: ואם לה' יחטא איש מי יתפלל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "toward his fellow, and satisfies him, God will forgive him. New comment: 'but if a man sins against the Lord, who shall pray'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-037",
@@ -199004,11 +199081,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 37,
         he: "בעדו. אם אינו שב מעבירות שבידו כך היה עלי הכהן מוכיח",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "on his behalf - if he does not repent from the transgressions in his hand. So Eli the Priest used to reprove",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37"
+        ]
       },
       {
         id: "rashi-yoma-087a-038",
@@ -199016,11 +199095,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 38,
         he: "את בניו שישובו מרעתם: בני אם ערבת לרעך תקעת לזר כפיך.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "his sons, that they should repent from their evil. New comment: 'my son, if you have guaranteed for your neighbor, you have struck hands for a stranger' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l37",
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-039",
@@ -199028,11 +199110,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 39,
         he: "בשביל זר לערבו בממון או אם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "on behalf of a stranger, to guarantee him monetarily; or if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-040",
@@ -199040,11 +199124,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 40,
         he: "נוקשת באמרי פיך שהקנטתו בדברים",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "you were ensnared by the words of your mouth, that you provoked him with words,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-041",
@@ -199052,11 +199138,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 41,
         he: "עשה זאת והנצל כי באת בכף רעך על",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "do this and save yourself, for you have come into your fellow's grip - regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-042",
@@ -199064,11 +199152,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 42,
         he: "עסקי ממון: לך התרפס. יד ופרע לו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "monetary matters. New comment: 'go, humble yourself' - give a hand and pay him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-043",
@@ -199076,11 +199166,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 43,
         he: "ועל מוקש אמרי פיך אם הקנטתו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and regarding the snare of the words of your mouth, if you provoked him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-044",
@@ -199088,11 +199180,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 44,
         he: "רהב רעיך הרבה רעים לבקש הימנו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "urhav re'echa - increase friends to seek from him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-045",
@@ -199100,11 +199194,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 45,
         he: "מחילה. רעיך בתרא דקרא מלא כתיב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "forgiveness. New comment: 're'echa' the second time in the verse is written in full spelling,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38"
+        ]
       },
       {
         id: "rashi-yoma-087a-046",
@@ -199112,11 +199208,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 46,
         he: "לפי שהוא לשון רבים: בשלש שורות.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "since it is plural. New comment: 'in three rows' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l38",
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-047",
@@ -199124,11 +199223,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 47,
         he: "שלש פעמים יפייסוהו בשלשה אנשים",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "three times he should be appeased in the presence of three people,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-048",
@@ -199136,11 +199237,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 48,
         he: "בכל פעם שנאמר ישור לשון שורה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "each time, since it says yashor, a term of row,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-049",
@@ -199148,11 +199251,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 49,
         he: "ואין שורה פחותה משלשה בני אדם :",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and a row is no fewer than three people.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-050",
@@ -199160,11 +199265,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 50,
         he: "חטאתי. הרי פעם אחת וישר העויתי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'I have sinned' - this is one time. 'and yashar he'eviti' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-051",
@@ -199172,11 +199279,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 51,
         he: "הרי שתים ולא שוה לי הרי שלשה:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "this is two; 'and it was not equal to me' - this is three.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l41"
+        ]
       },
       {
         id: "rashi-yoma-087a-052",
@@ -199184,11 +199293,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 52,
         he: "אנא שא נא ועתה שא נא. אין נא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'please lift up now, and now lift up' - na is nothing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l42"
+        ]
       },
       {
         id: "rashi-yoma-087a-053",
@@ -199196,11 +199307,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 53,
         he: "אלא לשון בקשה: הוה ליה מילתא",
-        en: "Rashi glosses 'na' (please): it is only a language of request, not a command. He then sets up the next episode - R. Abba had a grievance against R. Yirmiyah who had wronged him.",
+        en: "but a term of request. New comment: 'there was a matter'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l42",
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-054",
@@ -199208,11 +199322,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 54,
         he: "לר' אבא בהדיה. ר' אבא היה לו",
-        en: "Rashi explains: R. Abba had a grievance against R. Yirmiyah - R. Abba was the aggrieved party, and R. Yirmiyah had wronged him and needed to seek appeasement.",
+        en: "with Rabbi Abba - Rabbi Abba had",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-055",
@@ -199220,11 +199336,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 55,
         he: "להתרעם על ר' ירמיה שחטא לו אזל",
-        en: "Rashi: R. Abba had cause to resent R. Yirmiyah because R. Yirmiyah had sinned against him. So R. Yirmiyah went to seek forgiveness at R. Abba's door.",
+        en: "cause to complain against Rabbi Yirmiyah, who had sinned against him. Rabbi Yirmiyah went,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-056",
@@ -199232,11 +199350,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 56,
         he: "ר' ירמיה איתיב אדשא דר' אבא:",
-        en: "Rashi glosses the term: R. Yirmiyah sat at the door (threshold) of R. Abba's house, waiting and humbling himself to be granted entry so he could beg forgiveness.",
+        en: "Rabbi Yirmiyah, and sat at the door of Rabbi Abba's house.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-057",
@@ -199244,11 +199364,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 57,
         he: "זרזיפי דמיא. התזת טיפי שופכין",
-        en: "Rashi glosses 'zarzifei de-maya': it means the spattering of droplets - the splashing of dirty wastewater that the maid threw out and which landed on R. Yirmiyah's head.",
+        en: "New comment: 'zarzifei demaya' - the spattering of droplets",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-058",
@@ -199256,11 +199378,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 58,
         he: "שהיתה השפחה שופכת וזרזיפי טיפין",
-        en: "Rashi continues: 'zarzifei' means droplets - the maid was pouring out slops and the scattered drops hit R. Yirmiyah. Rashi cites a parallel usage to confirm the meaning.",
+        en: "of wastewater that the maidservant was pouring out, and drops of droplets,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-059",
@@ -199268,11 +199392,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 59,
         he: "ודומה לו כרביבים זרזיף ארץ בספר",
-        en: "Rashi cites a parallel: 'like raindrops that spatter the earth' - found in Psalms (72) - confirming that 'zarzif' denotes scattered droplets. This establishes the Aramaic term's meaning from a biblical cognate.",
+        en: "similar to it: like showers, zarzif eretz, in the book of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44"
+        ]
       },
       {
         id: "rashi-yoma-087a-060",
@@ -199280,11 +199406,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 60,
         he: "תהלים (עב) : ממציא נפשיה. לפני",
-        en: "Rashi glosses 'mamtzi nafshei' (presents himself): R. Zeira would make himself available - positioning himself before the one who wronged him so that person could easily approach to ask forgiveness.",
+        en: "Tehillim (72). New comment: 'presents himself' - before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l44",
+          "yoma-087a-l47"
+        ]
       },
       {
         id: "rashi-yoma-087a-061",
@@ -199292,11 +199421,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 61,
         he: "מי שחטא לו אולי יבקש ממנו מחילה",
-        en: "Rashi explains R. Zeira's practice: he would present himself before the one who sinned against him, hoping that person would approach to ask forgiveness and he could readily grant it.",
+        en: "the one who sinned against him, so that perhaps he would seek forgiveness from him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l47"
+        ]
       },
       {
         id: "rashi-yoma-087a-062",
@@ -199304,11 +199435,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 62,
         he: "וימחול לו: חליף ותני. עובר ושונה",
-        en: "Rashi glosses 'chalif ve-tani' (passes and repeats): it means one who commits a sin, repeats it, and does so a third time and many more - the pattern of habitual transgression that becomes entrenched.",
+        en: "and he would forgive him. New comment: 'passes and repeats' - passes over and repeats,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l47"
+        ]
       },
       {
         id: "rashi-yoma-087a-063",
@@ -199316,11 +199449,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 63,
         he: "ומשלש פעמים רבות: בהדי טבחא.",
-        en: "Rashi: 'from three times and more' indicates the sin is now deeply habitual. He then identifies the context for the Rav story: it was with a butcher - the butcher had wronged Rav.",
+        en: "and does so three or many times. New comment: 'with the butcher' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l47",
+          "yoma-087a-l48"
+        ]
       },
       {
         id: "rashi-yoma-087a-064",
@@ -199328,11 +199464,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 64,
         he: "הטבח חטא לו: קאזיל אבא.",
-        en: "Rashi: the butcher had sinned against Rav. 'Abba' in Rav Huna's warning refers to Rav himself - 'Abba' was Rav's personal name.",
+        en: "the butcher had sinned against him. New comment: 'Abba is going' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l48"
+        ]
       },
       {
         id: "rashi-yoma-087a-065",
@@ -199340,11 +199478,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 65,
         he: "רביה: למקטל נפשיה. עכשיו הוא",
-        en: "Rashi glosses 'le-miktol nafshei' (to kill himself): Rav Huna means that Rav's going to appease the butcher will now bring divine punishment of death upon that butcher for his contemptuous refusal.",
+        en: "his teacher. New comment: 'to kill himself' - now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l48"
+        ]
       },
       {
         id: "rashi-yoma-087a-066",
@@ -199352,11 +199492,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 66,
         he: "מענישו למות: תבר רישא. משבר",
-        en: "Rashi: 'he is now punishing him to die.' He then glosses 'tavar reisha' - the butcher was in the middle of splitting open a skull of an animal with his cleaver.",
+        en: "he is punishing him to death. New comment: 'tavar reisha' - breaking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l48"
+        ]
       },
       {
         id: "rashi-yoma-087a-067",
@@ -199364,11 +199506,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 67,
         he: "עצמות ראש של בהמה: בקועיה.",
-        en: "Rashi: 'tavar reisha' means breaking the bones of an animal's head. He then glosses 'be-veku'ah' - a bone splinter flew up and lodged in the butcher's throat.",
+        en: "the bones of an animal's head. New comment: 'bekuo'ah' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l48"
+        ]
       },
       {
         id: "rashi-yoma-087a-068",
@@ -199376,11 +199520,14 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 68,
         he: "בגרגרתו: סידרא. פרשת מקרא",
-        en: "Rashi: the bone lodged in his windpipe (gargarto) and killed him. He also glosses 'sidra' - it means a passage or reading from Scripture, specifically a section of the Prophets or the Writings that Rav was reciting before Rabbi.",
+        en: "in his windpipe. New comment: 'sidra' - a Scripture portion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l48",
+          "yoma-087a-l51"
+        ]
       },
       {
         id: "rashi-yoma-087a-069",
@@ -199388,11 +199535,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 69,
         he: "של נביאים או של כתובים:",
-        en: "Rashi clarifies: the 'sidra' (reading) Rav was reciting before Rabbi was from the Prophets or from the Writings - not a Torah portion.",
+        en: "of the Prophets or of the Writings.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l51"
+        ]
       },
       {
         id: "rashi-yoma-087a-070",
@@ -199400,11 +199549,13 @@ const DAF_CONTENT = {
         daf: "87a",
         vilnaLine: 70,
         he: "אתא",
-        en: "Rashi: 'he came' - a transitional word marking the arrival of the next figure in the story, setting up the continuation of the narrative that follows on 87b.",
+        en: "This ('he came') continues on 87b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087a-l51"
+        ]
       }
     ],
     review: "draft"
