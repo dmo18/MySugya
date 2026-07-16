@@ -46,6 +46,7 @@ LEARN_PREFIX = "modules/yoma/assets/learning/yoma/"
 LITERAL_PREFIX = "modules/yoma/assets/literal_en/"
 GENERATED = {"modules/yoma/learning_data.js", "modules/yoma/coverage.json"}
 ALLOWLIST_PREFIX = "modules/yoma/scripts/allowlists/"
+SCAFFOLD_BASELINE_FILE = "modules/yoma/scripts/baselines/rashi_scaffold_debt.json"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "docs/rashi-audit-backlog.md", ".worker-manifest.json",
                   ".worker-self-review.json", ".worker-queue.json"}
@@ -107,6 +108,28 @@ def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
                               f"requires RASHI_ALLOWLIST_RESTRUCTURE=1): {a}")
 
 
+def check_scaffold_baseline_ratchet(base_rev, errors):
+    """The scaffold-fabrication debt baseline may only shrink in any PR this
+    gate covers: entries may be removed (retired after repair) but never
+    added or rehashed. Growth or restructure requires the explicit
+    RASHI_ALLOWLIST_RESTRUCTURE=1 operator authorization (tooling PRs)."""
+    if os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
+        print("NOTE: RASHI_ALLOWLIST_RESTRUCTURE=1 set; scaffold-baseline "
+              "growth authorization active for this run.")
+        return
+    base_text = git_show(base_rev, SCAFFOLD_BASELINE_FILE)
+    old = json.loads(base_text) if base_text is not None else {"entries": []}
+    new = json.loads(Path(SCAFFOLD_BASELINE_FILE).read_text())
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old.get("entries", [])}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new.get("entries", [])}
+    for k in sorted(set(new_map) - set(old_map)):
+        errors.append(f"{SCAFFOLD_BASELINE_FILE}: entry ADDED (ratchet is "
+                      f"remove-only; requires RASHI_ALLOWLIST_RESTRUCTURE=1): {k}")
+    for k in sorted(x for x in set(new_map) & set(old_map) if new_map[x] != old_map[x]):
+        errors.append(f"{SCAFFOLD_BASELINE_FILE}: entry rehashed (an entry "
+                      f"covers only its original text): {k}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=None, help="base ref (default: origin/$GITHUB_BASE_REF or origin/main)")
@@ -136,6 +159,7 @@ def main():
 
     learn_changed = [p for p in changed if p.startswith(LEARN_PREFIX) and p.endswith(".learning.json")]
     allowlist_changed = [p for p in changed if p.startswith(ALLOWLIST_PREFIX) and p.endswith(".json")]
+    scaffold_baseline_changed = SCAFFOLD_BASELINE_FILE in changed
     errors = []
 
     if not learn_changed:
@@ -144,6 +168,8 @@ def main():
         # authorization (documented in docs/rashi-workflow.md).
         if allowlist_changed:
             check_allowlist_ratchet(allowlist_changed, base_rev, errors)
+        if scaffold_baseline_changed:
+            check_scaffold_baseline_ratchet(base_rev, errors)
         if errors:
             print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")
             for e in errors:
@@ -163,6 +189,7 @@ def main():
             or p.startswith(LITERAL_PREFIX)
             or p in GENERATED
             or p.startswith(ALLOWLIST_PREFIX)
+            or p == SCAFFOLD_BASELINE_FILE
             or p in ALWAYS_ALLOWED
         )
         if not allowed and not any(p.startswith(fp) for fp in FORBIDDEN_PREFIXES):
@@ -251,8 +278,11 @@ def main():
                     errors.append(f"{p}: /rashiTranslations/{i}/{key} changed "
                                   f"(only en and linkedGemaraLineIds may change)")
 
-    # 3. Allowlist ratchet: removals only
+    # 3. Allowlist ratchet: removals only (the scaffold-debt baseline gets
+    # the same remove-only treatment; see check_scaffold_baseline_ratchet)
     check_allowlist_ratchet(allowlist_changed, base_rev, errors)
+    if scaffold_baseline_changed:
+        check_scaffold_baseline_ratchet(base_rev, errors)
 
     if errors:
         print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")

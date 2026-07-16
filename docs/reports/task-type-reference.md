@@ -170,7 +170,7 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 - model: haiku-with-fable-review; Fable review required
 - haiku allowed: yes
 - max batch: 2
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -200,7 +200,7 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 - model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
 - haiku allowed: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -228,7 +228,7 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved allow
 - model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
 - haiku allowed: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -256,7 +256,7 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 - model: haiku
 - haiku allowed: yes
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -276,7 +276,7 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
 - haiku allowed: no
 - max batch: 1
 - REQUIRED authorization: allowStructure (Fable-issued; preflight fails without it)
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations
 - allowlist policy: remove-only; structure policy: explicit-allowStructure-required
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma

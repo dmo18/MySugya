@@ -15,6 +15,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
@@ -72,6 +73,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json",
     ".worker-self-review.json",
     ".worker-queue.json"
@@ -138,6 +140,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json",
     ".worker-self-review.json",
     ".worker-queue.json"
@@ -204,6 +207,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
@@ -1100,6 +1104,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json",
     ".worker-self-review.json",
     ".worker-queue.json"
