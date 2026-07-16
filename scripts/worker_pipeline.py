@@ -100,12 +100,69 @@ def load_manifest(path):
 
 
 ALLOWLIST_DRAIN_TYPES = ("rashi-reconstruction", "rashi-realignment")
+SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
 
 
 def content_allowlist_entries(daf=None):
     ca_path = YSCRIPTS / "allowlists" / "rashi_content_allowlist.json"
     entries = json.loads(ca_path.read_text()).get("entries", [])
     return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def scaffold_debt_entries(daf=None, path=None):
+    """Entries of the locked scaffold-fabrication debt baseline (see
+    modules/yoma/scripts/audit_rashi_scaffold.py), optionally filtered to one
+    daf. Missing file means zero debt."""
+    p = path or SCAFFOLD_BASELINE
+    if not p.exists():
+        return []
+    entries = json.loads(p.read_text()).get("entries", [])
+    return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def scaffold_drain_status(m, daf, old_baseline, new_baseline, target_hits):
+    """Pure post-edit enforcement for target-scoped scaffold-debt draining
+    on rashi-reconstruction/rashi-realignment manifests. The scaffold debt
+    baseline is a shrink-only ratchet: after the repair, the target daf must
+    carry ZERO current scaffold hits and ZERO remaining baseline entries;
+    the baseline diff may contain only removals, and only for the target;
+    growth or hash changes anywhere are forbidden. Returns (ok, msgs)."""
+    if m.get("type") not in ALLOWLIST_DRAIN_TYPES:
+        return True, []
+    ok, msgs = True, []
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old_baseline}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new_baseline}
+    if target_hits:
+        ok = False
+        lines = sorted(h["vilnaLine"] for h in target_hits)
+        msgs.append(f"{len(target_hits)} scaffold hit(s) remain on {daf} "
+                    f"(vilnaLine {lines}); rewrite them as direct translation")
+    added = sorted(set(new_map) - set(old_map))
+    if added:
+        ok = False
+        msgs.append(f"scaffold-debt baseline GREW: {added} (growth requires "
+                    "explicit operator authorization, never a worker PR)")
+    rehashed = sorted(k for k in set(new_map) & set(old_map)
+                      if new_map[k] != old_map[k])
+    if rehashed:
+        ok = False
+        msgs.append(f"scaffold-debt baseline entry rehashed: {rehashed} "
+                    "(a baseline entry covers only its original text)")
+    foreign_removed = sorted(k for k in set(old_map) - set(new_map) if k[0] != daf)
+    if foreign_removed:
+        ok = False
+        msgs.append(f"scaffold-debt entries removed outside target daf: {foreign_removed}")
+    remaining_target = sorted(k[1] for k in new_map if k[0] == daf)
+    if remaining_target:
+        ok = False
+        msgs.append(f"scaffold-debt baseline still lists {daf} vilnaLine "
+                    f"{remaining_target}; retire drained entries with "
+                    "audit_rashi_scaffold.py --update-baseline")
+    if ok:
+        drained = sum(1 for k in set(old_map) - set(new_map) if k[0] == daf)
+        msgs.append(f"scaffold debt drained for {daf} ({drained} entr(ies) "
+                    "retired); no growth; unrelated entries unchanged")
+    return ok, msgs
 
 
 def validate_allowlist_drain(m, daf):
@@ -347,6 +404,15 @@ def cmd_manifest(opts):
         daf = targets[0]
         snapshot = content_allowlist_entries(daf)
         allowlist_drain = {"authorized": True, "snapshot": snapshot}
+    # Scaffold-fabrication debt is snapshotted automatically for single-target
+    # reconstruction/realignment manifests: the baseline itself is the
+    # tolerance, so no separate authorization is needed, but the snapshot
+    # binds the worker to drain every entry (see scaffold_drain_status).
+    scaffold_debt = None
+    if opts.type in ALLOWLIST_DRAIN_TYPES and len(targets) == 1:
+        snap = scaffold_debt_entries(targets[0])
+        if snap:
+            scaffold_debt = {"snapshot": snap}
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -368,6 +434,7 @@ def cmd_manifest(opts):
         "buildTestCommands": spec["buildTestCommands"],
         "escalationTriggers": spec["escalationTriggers"],
         "allowlistDrain": allowlist_drain,
+        "scaffoldDebt": scaffold_debt,
     }
     out = json.dumps(manifest, indent=1)
     if opts.out:
@@ -791,6 +858,28 @@ def cmd_verify(opts):
                     print(f"  {'PASS' if drain_ok else 'FAIL'}  {msg}")
                 results.append(("allowlist-drain", drain_ok))
 
+        # Scaffold-debt drain enforcement: reconstruction/realignment must
+        # leave its single target with zero scaffold hits and zero remaining
+        # baseline entries, and the baseline may only shrink, target-scoped.
+        if m.get("type") in ALLOWLIST_DRAIN_TYPES and len(m["targets"]) == 1:
+            daf = m["targets"][0]
+            sb_rel = SCAFFOLD_BASELINE.relative_to(REPO).as_posix()
+            rr = sh(["git", "show", f"{mb}:{sb_rel}"])
+            old_sb = json.loads(rr.stdout).get("entries", []) if rr.returncode == 0 else []
+            new_sb = scaffold_debt_entries()
+            hr = sh([sys.executable, "scripts/audit_rashi_scaffold.py", daf,
+                     "--json", "--no-baseline"], cwd=YROOT)
+            try:
+                target_hits = json.loads(hr.stdout).get("hits", [])
+            except json.JSONDecodeError:
+                target_hits = [{"daf": daf, "vilnaLine": -1}]
+            sc_ok, sc_msgs = scaffold_drain_status(m, daf, old_sb, new_sb, target_hits)
+            if sc_msgs:
+                print("\nscaffold-debt drain enforcement:")
+                for msg in sc_msgs:
+                    print(f"  {'PASS' if sc_ok else 'FAIL'}  {msg}")
+            results.append(("scaffold-drain", sc_ok))
+
     # Literal-layer coverage delta
     if m["type"] == "literal-layer":
         cov = sh([sys.executable, "scripts/validate_literal.py"], cwd=YROOT)
@@ -843,6 +932,8 @@ REVIEW_CONDITIONS = (
     "scope-clean-no-structure-no-hebrew-no-forbidden-fields",
     "no-allowlist-additions",
     "allowlist-removals-limited-to-target-daf",
+    "scaffold-clean-on-target",
+    "scaffold-baseline-shrink-only",
     "packet-contains-every-linked-local-id",
     "all-links-legal-and-nonempty",
     "drift-profile-ALIGNED",
@@ -1125,6 +1216,43 @@ def gather_review_conditions(m, spec, base):
         notes.append(f"allowlist entry ADDED: {a}")
     for g in foreign_removed:
         notes.append(f"allowlist entry removed outside target daf: {g}")
+
+    # Scaffold-fabrication gate: after any conditional-review Rashi task, the
+    # target daf must carry zero current scaffold hits AND zero remaining
+    # scaffold-debt baseline entries (a repair never leaves scaffold text or
+    # unretired debt behind); and the debt baseline may only shrink, with
+    # removals limited to the target daf and no entry rehashed.
+    sr = sh([sys.executable, "scripts/audit_rashi_scaffold.py", target, "--json"], cwd=YROOT)
+    try:
+        srep = json.loads(sr.stdout)
+    except json.JSONDecodeError:
+        srep = None
+    sc_clean = bool(srep) and not srep["new"] and not srep["changed"] \
+        and srep["remainingDebt"] == 0 and not srep["stale"]
+    conditions["scaffold-clean-on-target"] = sc_clean
+    if not sc_clean:
+        if srep:
+            notes.append(f"scaffold gate on {target}: {len(srep['new'])} new, "
+                         f"{len(srep['changed'])} changed, {srep['remainingDebt']} "
+                         f"baselined debt, {len(srep['stale'])} stale baseline entr(ies)")
+        else:
+            notes.append("scaffold audit produced no parseable report")
+    sb_rel = SCAFFOLD_BASELINE.relative_to(REPO).as_posix()
+    rr = sh(["git", "show", f"{mb}:{sb_rel}"])
+    old_sb = json.loads(rr.stdout).get("entries", []) if rr.returncode == 0 else []
+    new_sb = scaffold_debt_entries()
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old_sb}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new_sb}
+    sb_added = sorted(set(new_map) - set(old_map))
+    sb_rehashed = sorted(k for k in set(new_map) & set(old_map) if new_map[k] != old_map[k])
+    sb_foreign = sorted(k for k in set(old_map) - set(new_map) if k[0] != target)
+    conditions["scaffold-baseline-shrink-only"] = not sb_added and not sb_rehashed and not sb_foreign
+    for k in sb_added:
+        notes.append(f"scaffold-debt baseline entry ADDED: {k}")
+    for k in sb_rehashed:
+        notes.append(f"scaffold-debt baseline entry rehashed: {k}")
+    for k in sb_foreign:
+        notes.append(f"scaffold-debt entry removed outside target daf: {k}")
 
     # Packet completeness and link legality against the live segment table.
     sys.path.insert(0, str(YSCRIPTS))

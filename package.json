@@ -1,12 +1,12 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.143",
+  "version": "15.144",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
     "check:deploy-html": "node scripts/check-deploy-html.mjs",
-    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:policy && python3 tests/smoke/render_check.py",
+    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:scaffold:yoma && npm run test:policy && python3 tests/smoke/render_check.py",
     "test:yoma-parser": "python3 modules/yoma/scripts/test_js_parser.py",
     "test:drift:yoma": "cd modules/yoma && python3 scripts/test_drift_profile.py",
     "test:packet:yoma": "cd modules/yoma && python3 scripts/test_rashi_packet.py",
@@ -41,13 +41,15 @@
     "worker:queue": "python3 scripts/worker_pipeline.py queue",
     "worker:capability-scan": "python3 scripts/worker_pipeline.py capability-scan",
     "worker:schema-matrix": "python3 scripts/worker_pipeline.py schema-matrix",
-    "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma",
+    "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run audit:rashi:scaffold:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
     "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",
     "status:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --status",
-    "worker:docs": "python3 scripts/worker_pipeline.py docs"
+    "worker:docs": "python3 scripts/worker_pipeline.py docs",
+    "audit:rashi:scaffold:yoma": "cd modules/yoma && python3 scripts/audit_rashi_scaffold.py",
+    "test:scaffold:yoma": "cd modules/yoma && python3 scripts/test_scaffold_audit.py"
   },
   "dependencies": {
     "react": "18.3.1",

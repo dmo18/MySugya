@@ -172,6 +172,11 @@ def main():
     count_mm = {c["daf"]: c for c in content_allow.get("count_mismatches", [])}
     rep_base = json.loads((ALLOW_DIR / "rashi_repetition_baseline.json").read_text())
     rep_daf = {e["daf"] for e in rep_base.get("entries", [])}
+    sb_path = SCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+    scaffold_lines = {}
+    if sb_path.exists():
+        for e in json.loads(sb_path.read_text()).get("entries", []):
+            scaffold_lines.setdefault(e["daf"], []).append(e["vilnaLine"])
 
     for daf in targets:
         td = TALMUDDEV_DIR / f"{daf}.json"
@@ -195,6 +200,10 @@ def main():
               + (f" ({100*empty/len(trans):.0f}%)" if trans else ""))
         print(f"content allowlist:    {hits or 'none'}")
         print(f"repetition baseline:  {'yes' if daf in rep_daf else 'none'}")
+        sd = sorted(scaffold_lines.get(daf, []))
+        print(f"scaffold debt:        {len(sd)} line(s)"
+              + (f" (vilnaLine {sd[0]}-{sd[-1]}; reconstruction/realignment must "
+                 "drain ALL of them)" if sd else ""))
         if profile:
             print(f"drift profile:        {profile['classification']} "
                   f"(anchors {profile['anchorsFound']} found / {profile['anchorsMissing']} missing, "

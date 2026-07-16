@@ -57,6 +57,9 @@ def main():
     trans_n = len(json.loads(lp.read_text()).get("rashiTranslations", [])) if lp.exists() else 0
     ca = json.loads((ALLOW_DIR / "rashi_content_allowlist.json").read_text())
     hits = sorted(e["vilnaLine"] for e in ca.get("entries", []) if e["daf"] == daf)
+    sb = SCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+    scaffold_n = (sum(1 for e in json.loads(sb.read_text()).get("entries", [])
+                      if e["daf"] == daf) if sb.exists() else 0)
 
     preflight_task = {"reconstruct": "reconstruct", "repair-stubs": "repair",
                       "shifted-block": "shifted-block", "links": "links"}[opts.task]
@@ -65,7 +68,7 @@ def main():
 
 {TASK_BRIEFS[opts.task]}
 
-State: raw Rashi lines {raw_n}, current rashiTranslations {trans_n}, documented allowlisted lines {hits or 'none'}.
+State: raw Rashi lines {raw_n}, current rashiTranslations {trans_n}, documented allowlisted lines {hits or 'none'}, scaffold-debt lines {scaffold_n}.
 
 Procedure (exact, in order):
 1. git fetch origin main and reconcile; confirm clean tree.
@@ -102,6 +105,12 @@ Hard rules (mechanically enforced; violations fail CI):
   quizSeeds, or metadata fields.
 - No placeholder, filler, or template text; every en must render its own
   raw Hebrew line. No em dashes or en dashes.
+- No scaffold narration ("Rashi: opens/continues/concludes ...") and no
+  guessed bracket completions such as "[the Gemara]". Even where the old
+  wording was partly correct, rewrite it as a direct translation of its
+  own Hebrew; audit_rashi_scaffold.py fails CI on any scaffold text, and
+  a reconstruction/realignment must drain its daf's scaffold-debt
+  baseline entries to zero (retire them with --update-baseline).
 - A validator failure means the content is wrong: fix the content or STOP.
   Never reinterpret, bypass, or weaken a gate.
 

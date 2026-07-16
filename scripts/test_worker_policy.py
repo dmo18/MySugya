@@ -832,6 +832,71 @@ def test_allowlist_drain():
               r2.returncode != 0)
 
 
+def test_scaffold_debt_drain():
+    """Target-scoped scaffold-fabrication debt drain: the baseline is a
+    shrink-only ratchet; a reconstruction/realignment must leave its target
+    with zero scaffold hits and zero baseline entries, and may never grow,
+    rehash, or foreign-shrink the baseline."""
+    print("scaffold-debt drain enforcement (shrink-only, target-scoped):")
+    m = {"type": "rashi-reconstruction", "targets": ["10a"],
+         "scaffoldDebt": {"snapshot": [
+             {"daf": "10a", "vilnaLine": 5, "rule": "scaffold-prefix", "enHash": "aa"},
+             {"daf": "10a", "vilnaLine": 13, "rule": "scaffold-prefix", "enHash": "bb"},
+         ]}}
+    old = [{"daf": "10a", "vilnaLine": 5, "rule": "scaffold-prefix", "enHash": "aa"},
+           {"daf": "10a", "vilnaLine": 13, "rule": "scaffold-prefix", "enHash": "bb"},
+           {"daf": "12a", "vilnaLine": 7, "rule": "scaffold-prefix", "enHash": "cc"}]
+
+    new_ok = [e for e in old if e["daf"] != "10a"]
+    ok, msgs = wp.scaffold_drain_status(m, "10a", old, new_ok, [])
+    check("a. fully drained target with unrelated entry intact passes",
+          ok and any("drained" in x for x in msgs), "; ".join(msgs))
+
+    hit = [{"daf": "10a", "vilnaLine": 5, "rule": "scaffold-prefix", "enHash": "zz"}]
+    ok_b, msgs_b = wp.scaffold_drain_status(m, "10a", old, new_ok, hit)
+    check("b. remaining target scaffold hit fails (13)", not ok_b, "; ".join(msgs_b))
+
+    ok_c, msgs_c = wp.scaffold_drain_status(m, "10a", old, old, [])
+    check("c. unretired target baseline entries fail", not ok_c)
+
+    new_d = new_ok + [{"daf": "10a", "vilnaLine": 20, "rule": "scaffold-prefix", "enHash": "dd"}]
+    ok_d, msgs_d = wp.scaffold_drain_status(m, "10a", old, new_d, [])
+    check("d. baseline growth is forbidden (14)", not ok_d)
+
+    ok_e, msgs_e = wp.scaffold_drain_status(m, "10a", old, [], [])
+    check("e. removing an unrelated daf's entry fails (15)", not ok_e)
+
+    new_f = [dict(e, enHash="XX") if e["daf"] == "12a" else e for e in new_ok]
+    ok_f, msgs_f = wp.scaffold_drain_status(m, "10a", old, new_f, [])
+    check("f. rehashing an unrelated entry fails (15)", not ok_f)
+
+    ok_g, msgs_g = wp.scaffold_drain_status(
+        {"type": "rashi-repair", "targets": ["61a"]}, "61a", old, old, [])
+    check("g. non-reconstruction/realignment types are a no-op", ok_g and not msgs_g)
+
+    print("scaffold-debt manifest snapshot (12):")
+    with tempfile.TemporaryDirectory() as td:
+        mpath = Path(td) / "m.json"
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "rashi-reconstruction", "--module", "yoma",
+                            "--range", "12a", "--out", str(mpath)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("manifest generation for a debt-bearing daf succeeds", r.returncode == 0,
+              r.stderr[-200:])
+        man = json.loads(mpath.read_text())
+        snap = (man.get("scaffoldDebt") or {}).get("snapshot", [])
+        check("manifest embeds the target's scaffold-debt snapshot",
+              bool(snap) and all(e["daf"] == "12a" for e in snap), str(len(snap)))
+
+        r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                             "--type", "rashi-reconstruction", "--module", "yoma",
+                             "--range", "88a", "--out", str(mpath)],
+                            capture_output=True, text=True, cwd=REPO)
+        clean_man = json.loads(mpath.read_text())
+        check("a debt-free daf's manifest carries a null scaffoldDebt field",
+              r2.returncode == 0 and clean_man.get("scaffoldDebt") is None)
+
+
 def main():
     test_registry()
     test_pure_policy()
@@ -843,6 +908,7 @@ def main():
     test_campaign_capability_scan()
     test_independent_zero_citation_scan()
     test_allowlist_drain()
+    test_scaffold_debt_drain()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:

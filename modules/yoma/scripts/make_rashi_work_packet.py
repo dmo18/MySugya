@@ -41,7 +41,8 @@ ROOT = Path(__file__).parent.parent
 LEARN_DIR = ROOT / "assets" / "learning" / "yoma"
 TALMUDDEV_DIR = ROOT / "assets" / "talmuddev"
 DATA_JS = ROOT / "learning_data.js"
-ALLOW_DIR = Path(__file__).parent / "allowlists"
+SCRIPTS = Path(__file__).parent
+ALLOW_DIR = SCRIPTS / "allowlists"
 
 POST_EDIT_COMMANDS = [
     "cd modules/yoma && python3 scripts/build_learning_data.py",
@@ -55,6 +56,7 @@ POST_EDIT_COMMANDS = [
 RULES = [
     "If this packet's drift profile says SHIFTED or FABRICATION-SUSPECT, STOP: this daf is not eligible for stub repair or link edits; it needs the recommended Fable/Sonnet task type.",
     "Translate every raw Rashi line from its own Hebrew; no placeholders, no generic filler.",
+    "Never write or preserve scaffold narration ('Rashi: opens/continues/concludes ...') or guessed bracket completions such as '[the Gemara]'; even when part of the old meaning is correct, rewrite the line as a direct translation of its own Hebrew (audit_rashi_scaffold.py enforces this).",
     "linkedGemaraLineIds are SEMANTIC text anchors: link each Rashi comment to the local segment(s) whose text it explains, by matching the Rashi dibbur hamatchil, quoted phrase, subject, or discussion against the full segment text in this packet's id table.",
     "NEVER assign links by vilna line number or positional offset. A Rashi line's number and a segment's vilna_line are unrelated coordinates; positional mapping is exactly the failure mode this packet exists to prevent.",
     "linkedGemaraLineIds may only use ids listed in this packet's local segment id table (Gemara and Mishnah kinds alike).",
@@ -116,6 +118,37 @@ def baseline_for(daf):
     return base
 
 
+def scaffold_debt_for(daf, total_lines):
+    """This daf's entries in the locked scaffold-fabrication debt baseline,
+    plus the task-type recommendation the contamination profile implies:
+    definite fabrication (bracket guessing, passthrough, line-number
+    placeholders) or widespread scaffold means rashi-reconstruction; a
+    localized shifted-but-genuine English block means rashi-realignment; an
+    isolated straggler may use rashi-repair only after the whole daf is
+    freshly semantically verified."""
+    sb = SCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+    if not sb.exists():
+        return None
+    entries = [e for e in json.loads(sb.read_text()).get("entries", [])
+               if e["daf"] == daf]
+    if not entries:
+        return None
+    rules = {}
+    for e in entries:
+        rules[e["rule"]] = rules.get(e["rule"], 0) + 1
+    definite = any(r in rules for r in
+                   ("scaffold-bracket-guess", "hebrew-passthrough", "line-number-scaffold"))
+    widespread = total_lines and len(entries) / total_lines >= 0.30
+    if definite or widespread or len(entries) > 5:
+        rec = ("rashi-reconstruction (definite fabrication or widespread scaffold; "
+               "a localized shifted-but-genuine block would instead be rashi-realignment)")
+    else:
+        rec = ("rashi-repair ONLY after fresh semantic verification of the whole daf; "
+               "otherwise rashi-reconstruction")
+    return {"lines": sorted(e["vilnaLine"] for e in entries),
+            "rules": rules, "recommendation": rec}
+
+
 def packet_for(daf):
     tpath = TALMUDDEV_DIR / f"{daf}.json"
     lpath = LEARN_DIR / f"{daf}.learning.json"
@@ -153,6 +186,7 @@ def packet_for(daf):
             "en": e.get("en", ""),
         } for e in enrich.get("rashiTranslations", [])],
         "validatorBaseline": baseline_for(daf),
+        "scaffoldDebt": scaffold_debt_for(daf, len(raw)),
         "driftProfile": drift,
         "rules": RULES,
         "postEditCommands": POST_EDIT_COMMANDS,
@@ -199,6 +233,15 @@ def to_markdown(p):
     L.append(f"- content-allowlisted lines: {b['contentAllowlisted'] or 'none'}")
     L.append(f"- count mismatch tolerance: {b['countMismatch'] or 'none'}")
     L.append(f"- repetition baseline: {b['repetitionBaseline'] or 'none'}")
+    sd = p.get("scaffoldDebt")
+    if sd:
+        L.append("\n## Scaffold-fabrication debt for this daf (MUST drain to zero)")
+        L.append(f"- {len(sd['lines'])} baselined scaffold line(s): vilnaLine {sd['lines']}")
+        L.append(f"- rules: {', '.join(f'{r} x{c}' for r, c in sorted(sd['rules'].items()))}")
+        L.append(f"- recommended task type: {sd['recommendation']}")
+        L.append("- after repair: zero scaffold hits may remain on this daf; retire the "
+                 "baseline entries with `python3 scripts/audit_rashi_scaffold.py --update-baseline`; "
+                 "never preserve scaffold wording even where its meaning was partly correct")
     L.append("\n## Required post-edit commands (all must pass)")
     for c in p["postEditCommands"]:
         L.append(f"- {c}")
