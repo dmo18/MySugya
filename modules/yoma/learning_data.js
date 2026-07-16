@@ -190805,11 +190805,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 1,
         he: "ת\"ש דתני רב יוסף עוברה שהריחה וכו' ומי שנשכו וכו' והחושש",
-        en: "Rashi: proof that tzefardea is life-threatening from the Rabba bar Shela incident.",
+        en: "Come and hear, that Rav Yosef taught: a pregnant woman who smelled [a craving], etc, and one who was bitten [by a mad dog], etc, and one who feels pain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l01"
+        ]
       },
       {
         id: "rashi-yoma-084b-002",
@@ -190817,11 +190819,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 2,
         he: "בפיו וכו' וחכ\"א בזו. אנו מודים ולא באחרת: בזו אהייא אי נימא",
-        en: "Rashi: medicine placed in the mouth but not swallowed is not 'eating' on YK.",
+        en: "in his mouth, etc, and the Sages say: in this, but not in another - meaning we agree in this case but not in the other. New comment: 'in this' - to what does it refer? If you say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l01"
+        ]
       },
       {
         id: "rashi-yoma-084b-003",
@@ -190829,11 +190833,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 3,
         he: "אעוברה פשיטא. וכי עוברה שהריחה ר' מתיא קתני לה סתמא",
-        en: "Rashi: the Tosefta frames saving life on YK as a positive commandment.",
+        en: "it refers to the pregnant woman - that would be obvious! And did Rabbi Matya state the case of a pregnant woman who smelled as an unqualified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l01"
+        ]
       },
       {
         id: "rashi-yoma-084b-004",
@@ -190841,11 +190847,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 4,
         he: "היא: אלא לאו אסם. קיימי דאילו אחצר כבד תנן פלוגתא במתני'",
-        en: "Rashi: Shmuel's rulings on specific danger situations on Yom Kippur.",
+        en: "ruling? Rather, is it not referring to the medicine? Their words stand, since regarding the liver lobe we learned a dispute in the Mishnah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l01"
+        ]
       },
       {
         id: "rashi-yoma-084b-005",
@@ -190853,11 +190861,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 5,
         he: "ש\"מ דבסם מודו: לא ספק שבת זו",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "which shows that they agree only about the medicine. New comment: 'not [merely] a doubt of this Shabbat'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l01",
+          "yoma-084b-l14"
+        ]
       },
       {
         id: "rashi-yoma-084b-006",
@@ -190865,11 +190876,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 6,
         he: "בלבד. לא שיהא ספק הנפשות לשבת",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "alone [did they rule leniently] - not only where the doubt of danger to life concerns this Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l14"
+        ]
       },
       {
         id: "rashi-yoma-084b-007",
@@ -190877,11 +190890,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 7,
         he: "זו אלא אפילו אין הספק לשבת זו",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "but even where there is no doubt at all regarding this Shabbat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l14"
+        ]
       },
       {
         id: "rashi-yoma-084b-008",
@@ -190889,11 +190904,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 8,
         he: "דפשיטא לן דהיום לא ימות אלא",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "since it is obvious to us that he will not die today, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l14"
+        ]
       },
       {
         id: "rashi-yoma-084b-009",
@@ -190901,11 +190918,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 9,
         he: "ספק שאם לא יעשו לו היום שמא",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "there is only a doubt that if they do not act for him today, then perhaps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l14"
+        ]
       },
       {
         id: "rashi-yoma-084b-010",
@@ -190913,11 +190932,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 10,
         he: "ימות לשבת הבאה: והיכי דמי כגון",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "he will die by next Shabbat. New comment: 'how so' - for example",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l14",
+          "yoma-084b-l17"
+        ]
       },
       {
         id: "rashi-yoma-084b-011",
@@ -190925,11 +190947,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 11,
         he: "דאמדוה. רופאים לעשות לו הרפואה",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "where they estimated - doctors, to perform the remedy for him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l17"
+        ]
       },
       {
         id: "rashi-yoma-084b-012",
@@ -190937,11 +190961,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 12,
         he: "שמנה ימים: להברותו. רחיצה שמא",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "requiring eight days. New comment: 'to restore him' - washing, lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l17",
+          "yoma-084b-l19"
+        ]
       },
       {
         id: "rashi-yoma-084b-013",
@@ -190949,11 +190976,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 13,
         he: "יבריא מאיליו: על פי נשים. אם נשים",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "he recover on his own. New comment: 'on the word of women' - if women",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l19",
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-014",
@@ -190961,11 +190991,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 14,
         he: "או כותים אומרים צריך אין מחללין",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "or Samaritans say it is necessary, one does not desecrate Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-015",
@@ -190973,11 +191005,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 15,
         he: "על פיהן: אבל מצטרפין לדעת",
-        en: "Rashi explains the opening discussion of this topic on 84b.",
+        en: "on their word alone. New comment: 'but they combine with another view' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-016",
@@ -190985,11 +191019,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 16,
         he: "אחרת. כגון שנים אומרים צריך",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "another view - for example, two say it is necessary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-017",
@@ -190997,11 +191033,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 17,
         he: "ושלשה אומרים אין צריך ואשה או",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and three say it is not necessary, and a woman or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-018",
@@ -191009,11 +191047,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 18,
         he: "כותי אומרים צריך מצטרפין למהוי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "a Samaritan says it is necessary, they combine to make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-019",
@@ -191021,11 +191061,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 19,
         he: "פלגא ופלגא וספק נפשות להקל:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "half and half, and a doubt of danger to life is ruled leniently.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l22"
+        ]
       },
       {
         id: "rashi-yoma-084b-020",
@@ -191033,11 +191075,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 20,
         he: "פקוח. דשקומברנ\"ש בלע\"ז בכל דבר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'pikuach' - 'desconbrenes' in the vernacular, for anything",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-021",
@@ -191045,11 +191089,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 21,
         he: "שצריך לו לנפש להעביר סכנת מות:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that a person needs in order to remove danger of death.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-022",
@@ -191057,11 +191103,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 22,
         he: "ואע\"ג דצייד כוורי. עמו כל הני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'even though he traps fish' - along with all these,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-023",
@@ -191069,11 +191117,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 23,
         he: "אע\"ג דקאמר הכא משנה יתירה דייק",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "even though it states here what seems a superfluous Mishnah teaching, Rashi deduces",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-024",
@@ -191081,11 +191131,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 24,
         he: "דקתני ואינו צריך ליטול רשות למה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that it teaches: 'and he does not need to take permission.' Why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-025",
@@ -191093,11 +191145,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 25,
         he: "ליה דתני הכא הא תני ליה והזריז",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "did it need to teach this here, since it already taught, and 'one who is quick'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-026",
@@ -191105,11 +191159,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 26,
         he: "ה\"ז משובח אלא הא אתא לאשמועינן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "is praiseworthy? Rather, this comes to teach us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-027",
@@ -191117,11 +191173,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 27,
         he: "שאפי' הוא צריך לדבר: עוקר חוליא.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that even if he needs the item itself. New comment: 'digs out a block' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-028",
@@ -191129,11 +191187,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 28,
         he: "כדי להשפיל שפת הבור ויהא נוח",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in order to lower the edge of the pit so that it becomes easy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24"
+        ]
       },
       {
         id: "rashi-yoma-084b-029",
@@ -191141,11 +191201,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 29,
         he: "ליכנס: ננעלה דלת. והתינוק נבעת:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to enter. New comment: 'a door was locked' - and the child was frightened.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l24",
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-030",
@@ -191153,11 +191216,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 30,
         he: "למתבר' בשיפי. נסרים שצריך להם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'to break it, with boards' - planks that are needed for it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-031",
@@ -191165,11 +191230,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 31,
         he: "לישנא אחרינא בשיפי קיסמין להדלקה:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "another version: 'with shavings' - wood chips for kindling.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-032",
@@ -191177,11 +191244,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 32,
         he: "ומפסיקין מפני הדליקה. בכלים של",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'and they cut off fuel because of the fire' - with vessels of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-033",
@@ -191189,11 +191258,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 33,
         he: "מתכת או של חרס מלאים מים",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "metal or earthenware, filled with water,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-034",
@@ -191201,11 +191272,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 34,
         he: "ובדליקה שיש בה סכנת נפשות",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and where the fire poses danger to life,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-035",
@@ -191213,11 +191286,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 35,
         he: "קאמר: דקא מכיך מכוכי. משפיל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "that is what is meant. New comment: 'they trample the coals' - he lowers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-036",
@@ -191225,11 +191300,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 36,
         he: "ומציע הגחלים לצלות עליהם לערב:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and spreads out the coals to roast on them in the evening.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l29"
+        ]
       },
       {
         id: "rashi-yoma-084b-037",
@@ -191237,11 +191314,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 37,
         he: "דאדהכי והכי. אם ילך לבית דין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'since meanwhile' - if he goes to the court",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l32"
+        ]
       },
       {
         id: "rashi-yoma-084b-038",
@@ -191249,11 +191328,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 38,
         he: "לישאל אזיל ליה לאיבוד: משבש ליה.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "to ask permission, it will be lost in the meantime. New comment: 'he confuses him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l32",
+          "yoma-084b-l33"
+        ]
       },
       {
         id: "rashi-yoma-084b-039",
@@ -191261,11 +191343,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 39,
         he: "מפתהו ומקרקש לו אגוזים: דאפילו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he entices him and rattles nuts for him. New comment: 'even'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l33",
+          "yoma-084b-l34"
+        ]
       },
       {
         id: "rashi-yoma-084b-040",
@@ -191273,11 +191358,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 40,
         he: "לחצר אחרת. דליקה בחצר זו ונפשות",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'to another courtyard' - a fire in this courtyard, and lives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l34"
+        ]
       },
       {
         id: "rashi-yoma-084b-041",
@@ -191285,11 +191372,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 41,
         he: "בחצר אחרת והם חולים או קטנים:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in another courtyard, and they are sick or minors.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l34"
+        ]
       },
       {
         id: "rashi-yoma-084b-042",
@@ -191297,11 +191386,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 42,
         he: "לא הלכו בפיקוח נפש אחר הרוב.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'they did not follow the majority in a matter of danger to life' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35"
+        ]
       },
       {
         id: "rashi-yoma-084b-043",
@@ -191309,11 +191400,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 43,
         he: "דאם ספק כותי או ספק ישראל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for if there is doubt whether one is a Samaritan or an Israelite,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35"
+        ]
       },
       {
         id: "rashi-yoma-084b-044",
@@ -191321,11 +191414,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 44,
         he: "מפקחין ואע\"ג דרובא כותים הוו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "we clear the rubble, even though the majority there were Samaritans.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35"
+        ]
       },
       {
         id: "rashi-yoma-084b-045",
@@ -191333,11 +191428,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 45,
         he: "התם: אי נימא תשעה ישראל וחד",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "There. New comment: 'if you say nine Israelites and one'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35"
+        ]
       },
       {
         id: "rashi-yoma-084b-046",
@@ -191345,11 +191442,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 46,
         he: "כותי. ונפל' מפולת על אחד מהן ואין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Samaritan' - and a rockslide fell on one of them and it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35"
+        ]
       },
       {
         id: "rashi-yoma-084b-047",
@@ -191357,11 +191456,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 47,
         he: "ידוע אם ישראל אם כותי הוא: אלא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "known whether he is an Israelite or a Samaritan. New comment: 'rather'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l35",
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-048",
@@ -191369,11 +191471,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 48,
         he: "דאיכא תשעה כותים וחד ישראל.",
-        en: "Rashi explains the case: there are nine Samaritans (Kutim) and one Israelite [in the group].",
+        en: "there are nine Samaritans and one Israelite -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-049",
@@ -191381,11 +191485,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 49,
         he: "ואשמועינן דאף על גב דרובא כותים",
-        en: "The teaching informs us that even though the majority are Samaritans, we suspect one may be an Israelite and we clear the rubble.",
+        en: "this teaches us that even though the majority are Samaritans,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-050",
@@ -191393,11 +191499,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 50,
         he: "חיישינן שמא ישראל הוא ומפקחין הא",
-        en: "This [ruling] is also seemingly obvious since we rule that any fixed group is treated as half-and-half...",
+        en: "we are concerned that perhaps he is an Israelite, and we clear the rubble. This",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-051",
@@ -191405,11 +191513,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 51,
         he: "נמי פשיטא דקי\"ל כל קבוע כמחצה",
-        en: "...as derived in Sanhedrin and Ketubot from 'he lay in wait for him' - excluding one who throws a stone into a group.",
+        en: "too is obvious, since we hold that anything fixed in place is like half",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-052",
@@ -191417,11 +191527,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 52,
         he: "על מחצה דמי דנפקא לן בסנהדרין",
-        en: "...derived in Sanhedrin and Ketubot from the verse 'he ambushed him' - this excludes one who throws a stone into a group...",
+        en: "and half, as derived for us in Sanhedrin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-053",
@@ -191429,11 +191541,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 53,
         he: "ובכתובות מוארב לו פרט לזורק אבן",
-        en: "...into the group. [The ruling] is not needed for the obvious case...",
+        en: "and Ketubot from 'he lay in wait for him' - excluding one who threw a stone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38"
+        ]
       },
       {
         id: "rashi-yoma-084b-054",
@@ -191441,11 +191555,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 54,
         he: "לגו: לא צריכא דפרוש לחצר אחרת.",
-        en: "We need this ruling for a case where [one of the group] separated into a different courtyard.",
+        en: "into a group. New comment: 'we need this ruling for a case where one separated to another courtyard' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l38",
+          "yoma-084b-l39"
+        ]
       },
       {
         id: "rashi-yoma-084b-055",
@@ -191453,11 +191570,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 55,
         he: "ושם נפלה על האחד מפולת דבכל",
-        en: "And there the rubble fell on one of them. In general we say that anything which separates from a majority...",
+        en: "and there the rockslide fell on the one who separated. For in every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l39"
+        ]
       },
       {
         id: "rashi-yoma-084b-056",
@@ -191465,11 +191584,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 56,
         he: "דוכתא אמרינן כל דפריש מרובא",
-        en: "...is assumed to have come from the majority - [but this applies] to things that move about, whereas here we do not apply that rule...",
+        en: "place we say that whatever separates is assumed to come from the majority,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l39"
+        ]
       },
       {
         id: "rashi-yoma-084b-057",
@@ -191477,11 +191598,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 57,
         he: "פריש במידי דניידי והכא לא אמרי'",
-        en: "...even though at the moment of their separation all were mobile.",
+        en: "but this applies to something that moves, and here we do not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l39"
+        ]
       },
       {
         id: "rashi-yoma-084b-058",
@@ -191489,11 +191612,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 58,
         he: "הכי ואע\"ג דבפרישתן כולהו ניידי:",
-        en: "Even though they were mobile when they separated [from the majority], we do not follow the majority here.",
+        en: "so, even though at the time of their separating, all of them were moving.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l39"
+        ]
       },
       {
         id: "rashi-yoma-084b-059",
@@ -191501,11 +191626,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 59,
         he: "הא דפרוש כולהו. הואיל ואיתחזק ישראל בהאי חצר שנפלה בו מפולת מפקחין ואע\"ג דניידי (ליה) לא אזלינן בתר רובא: הא דפרוש מקצתייהו.",
-        en: "The case where all of them separated: since an Israelite had been established in that courtyard where the rubble fell, we clear the rubble even though they were mobile, and we do not follow the majority.",
+        en: "New comment: 'the case where all of them separated' - since an Israelite had been established in that courtyard where the rubble fell, we clear the rubble even though they were mobile, and we do not follow the majority. New comment: 'the case where some of them separated' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l41"
+        ]
       },
       {
         id: "rashi-yoma-084b-060",
@@ -191513,11 +191640,14 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 60,
         he: "ולא ידעינן אי הוה ישראל בהאי חצר אזלינן בתר רובא הואיל ולא איתחזק: והא תנן תינוק מושלך. משנה היא בסדר טהרות בעיר שישראל",
-        en: "The case where only some separated: since we do not know whether an Israelite was in that courtyard, we follow the majority. [As for] the Mishnah about a foundling child - [this is from] a city where Israelites and Samaritans live together.",
+        en: "and we do not know whether an Israelite was in that courtyard, we follow the majority, since none was established there. New comment: 'but did we not learn: a foundling' - this is a Mishnah in the order of Tahorot, regarding a city where Israelites",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l41",
+          "yoma-084b-l43"
+        ]
       },
       {
         id: "rashi-yoma-084b-061",
@@ -191525,11 +191655,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 61,
         he: "וכותים דרים בה: לא שנו. דאם רוב ישראל מחזקינן ליה לישראל אלא להחיותו: אבל לייחסו. כגון אם נקבה היא שיהא כהן מותר בה לא",
-        en: "We ruled [to treat the foundling as Jewish] only to save its life; but not to establish its lineage - e.g., if the child is female, a kohen would not be permitted to marry her.",
+        en: "and Samaritans dwell. New comment: 'they only taught this' - that if the majority are Israelite we establish him as an Israelite, only to save his life, but not to establish his lineage. New comment: 'but to establish his lineage' - for example, if the child is female, that a kohen would be permitted to marry her - this is not so,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l43"
+        ]
       },
       {
         id: "rashi-yoma-084b-062",
@@ -191537,11 +191669,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 62,
         he: "ואפי' ליכא למיחש לאסופי כגון הנך דאמרי' במס' קידושין (דף עג:) תלי בדיקולא תלי פיתקא רמי חומרא משלטי הדמי' חיישינן שמא",
-        en: "Even without reason to suspect the child was abandoned [as an asufi], for instance in the cases mentioned in Kiddushin (73b) - [we are concerned] because the monetary signs may be misleading, and we suspect she may be a Samaritan woman,",
+        en: "and even where there is no concern that he was an abandoned foundling, such as the cases stated in tractate Kiddushin (73b): hung in a basket, hung with a note, or a weight placed by the moneychangers to mark him - we are still concerned that perhaps",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l43"
+        ]
       },
       {
         id: "rashi-yoma-084b-063",
@@ -191549,11 +191683,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 63,
         he: "כותית היא וגיורת אסורה לכהונה ואע\"ג דרוב ישראל מעלה עשו ביוחסין דבעינן תרי רובי כדאמרי' בכתובות בפ\"ק (דף טו.):",
-        en: "...and a convert is forbidden to marry a kohen. This is so even though the majority are Israelites, because we apply a higher standard in matters of lineage (yichus), requiring two majorities, as stated in Ketubot chapter 1 (15a).",
+        en: "she is a Samaritan woman, and a convert is forbidden to the priesthood; and even though the majority of Israel is an improvement in matters of lineage, since we require two majorities, as stated in Ketubot chapter one (15a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l43"
+        ]
       },
       {
         id: "rashi-yoma-084b-064",
@@ -191561,11 +191697,13 @@ const DAF_CONTENT = {
         daf: "84b",
         vilnaLine: 64,
         he: "ושמואל",
-        en: "Rashi opens the comment on 'and Shmuel,' continuing to the next ruling.",
+        en: "This ('and Shmuel') continues on 85a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084b-l43"
+        ]
       }
     ],
     review: "draft"
