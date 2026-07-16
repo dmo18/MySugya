@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "82a"
+  "82b"
  ],
  "model": "sonnet",
  "paused": false,
@@ -71,203 +71,43 @@
   "authorized": true,
   "snapshot": [
    {
-    "daf": "82a",
+    "daf": "82b",
+    "vilnaLine": 4,
+    "reason": "filler"
+   },
+   {
+    "daf": "82b",
+    "vilnaLine": 5,
+    "reason": "filler"
+   },
+   {
+    "daf": "82b",
     "vilnaLine": 6,
-    "reason": "filler_opening"
+    "reason": "filler"
    },
    {
-    "daf": "82a",
+    "daf": "82b",
     "vilnaLine": 7,
-    "reason": "filler_opening"
+    "reason": "filler"
    },
    {
-    "daf": "82a",
+    "daf": "82b",
     "vilnaLine": 8,
-    "reason": "filler_opening"
+    "reason": "filler"
    },
    {
-    "daf": "82a",
+    "daf": "82b",
     "vilnaLine": 9,
-    "reason": "filler_opening"
+    "reason": "filler"
    },
    {
-    "daf": "82a",
+    "daf": "82b",
     "vilnaLine": 10,
-    "reason": "filler_opening"
+    "reason": "filler"
    },
    {
-    "daf": "82a",
+    "daf": "82b",
     "vilnaLine": 11,
-    "reason": "filler_opening"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 12,
-    "reason": "filler_opening"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 13,
-    "reason": "filler_opening"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 14,
-    "reason": "filler_opening"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 15,
-    "reason": "filler_opening"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 16,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 17,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 18,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 19,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 20,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 21,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 22,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 23,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 24,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 25,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 26,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 27,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 28,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 29,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 30,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 31,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 32,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 33,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 34,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 35,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 36,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 37,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 38,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 39,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 40,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 41,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 42,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 43,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 44,
-    "reason": "filler"
-   },
-   {
-    "daf": "82a",
-    "vilnaLine": 45,
     "reason": "filler"
    }
   ]
