@@ -189411,11 +189411,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 1,
         he: "למקטליה בדבר הנזרק. למ\"ד רוח רעה שורה עליו לא יקרב",
-        en: "Rashi: the signs that indicate a dog is rabid and therefore dangerous.",
+        en: "'to kill it with a thrown object' - according to the one who says an evil spirit rests on it, one should not approach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l01a"
+        ]
       },
       {
         id: "rashi-yoma-084a-002",
@@ -189423,11 +189425,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 2,
         he: "אצלו להרגו בידים אלא זורק בו חץ או סכין והורגו: דחייף ביה.",
-        en: "Rashi: R. Matya ben Harash - throat pain overrides YK due to proximity to vital organs.",
+        en: "it to kill it by hand, but rather throws an arrow or knife at it and kills it. New comment: 'one who rubs against it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l01a",
+          "yoma-084a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-084a-003",
@@ -189435,11 +189440,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 3,
         he: "המתחכך בו: דנכית ליה. שהכלב נושכו: נישלח למאניה. יפשיט",
-        en: "Rashi: tzefardea - described as a dangerous illness related to snake or frog venom.",
+        en: "one who rubs against it. New comment: 'one who is bitten by it' - the dog bites him. New comment: 'let him strip his clothes' - he should take off",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l01b"
+        ]
       },
       {
         id: "rashi-yoma-084a-004",
@@ -189447,11 +189454,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 4,
         he: "בגדיו: משכא דאפא. הוא הצבוע ובלע\"ז פוטויי\"ש: דאפא דיכרא.",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "his garments. New comment: 'the skin of an afa' - that is the hyena, 'putois' in the vernacular. New comment: 'a male afa' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l01b",
+          "yoma-084a-l08"
+        ]
       },
       {
         id: "rashi-yoma-084a-005",
@@ -189459,11 +189469,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 5,
         he: "צבוע זכר: בגובתא דנחשא. על ידי",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "a male hyena. New comment: 'through a copper tube' - by means of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l08"
+        ]
       },
       {
         id: "rashi-yoma-084a-006",
@@ -189471,11 +189483,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 6,
         he: "קנה של נחשת: דילמא חזי לבבואיה",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "a copper reed. New comment: 'lest he see the reflection",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l08"
+        ]
       },
       {
         id: "rashi-yoma-084a-007",
@@ -189483,11 +189497,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 7,
         he: "דשד. שקפץ מן הכלב עליו ומסתכן:",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "of the demon' - that leaped from the dog onto him and he is endangered.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l08"
+        ]
       },
       {
         id: "rashi-yoma-084a-008",
@@ -189495,11 +189511,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 8,
         he: "צפידנא. חולי השינים והחניכים",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "'Tzafdina' - a sickness of the teeth and gums",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l17"
+        ]
       },
       {
         id: "rashi-yoma-084a-009",
@@ -189507,11 +189525,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 9,
         he: "ומתחיל בפה וגומר בבני מעיים",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "that begins in the mouth and ends in the intestines,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l17"
+        ]
       },
       {
         id: "rashi-yoma-084a-010",
@@ -189519,11 +189539,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 10,
         he: "ומסוכן הוא: מטרוניתא. נכרית היתה:",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "and he is in danger. New comment: 'a matron' - she was a gentile.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l17"
+        ]
       },
       {
         id: "rashi-yoma-084a-011",
@@ -189531,11 +189553,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 11,
         he: "עבדא ליה רפואה חמשא ומעלי",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "'she performed a remedy for him' - Thursday and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l17"
+        ]
       },
       {
         id: "rashi-yoma-084a-012",
@@ -189543,11 +189567,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 12,
         he: "שבתא. יום ה' בשבת וע\"ש: והאיכא",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "Friday' - Thursday and Friday. New comment: 'but is there not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l17",
+          "yoma-084a-l21"
+        ]
       },
       {
         id: "rashi-yoma-084a-013",
@@ -189555,11 +189582,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 13,
         he: "חלול השם. שהיא סבורה שעבר על",
-        en: "Rashi explains the opening discussion of this topic on 84a.",
+        en: "a desecration of God's name' - since she thought he violated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l21"
+        ]
       },
       {
         id: "rashi-yoma-084a-014",
@@ -189567,11 +189596,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 14,
         he: "שבועתו: דמגלי לה מעיקרא.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "his oath. New comment: 'since he revealed to her from the start' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l21"
+        ]
       },
       {
         id: "rashi-yoma-084a-015",
@@ -189579,11 +189610,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 15,
         he: "מההיא שעתא גלי לה לא נשבעתי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "from that very moment he revealed to her, saying: 'I did not swear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l21"
+        ]
       },
       {
         id: "rashi-yoma-084a-016",
@@ -189591,11 +189624,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 16,
         he: "לך כי כך אמרתי: משחא דגדפא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "to you, for so I meant.' New comment: 'the fat of the wing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l21",
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-017",
@@ -189603,11 +189639,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 17,
         he: "דאוזא. שומן מוח עצם קטן שבראש",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of a goose' - the fatty marrow of the small bone at the tip",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-018",
@@ -189615,11 +189653,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 18,
         he: "כנף העוף שקורין כניי\"ל סכה אותו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of the bird's wing, which is called 'kanyal'; he anoints it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-019",
@@ -189627,11 +189667,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 19,
         he: "על צדעיו: קשייתא דזיתי. גרעיני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "on his temples. New comment: 'olive pits' - the pits of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-020",
@@ -189639,11 +189681,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 20,
         he: "זיתים: דלא מלו תילתא. שלא הביאו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "olives. New comment: 'that have not filled a third' - that have not reached",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-021",
@@ -189651,11 +189695,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 21,
         he: "שליש: אמרא חדתא. על מר חדש",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "a third of their growth. New comment: 'a new fire-pan' - regarding a new pan",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-022",
@@ -189663,11 +189709,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 22,
         he: "שקורין פושוי\"ר: ודביק בככי דדריה.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "called 'poele.' New comment: 'and stick it to the row of his teeth' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23"
+        ]
       },
       {
         id: "rashi-yoma-084a-023",
@@ -189675,11 +189723,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 23,
         he: "הדבק בשורת השינים: ממאי הוי.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "stick it to the row of teeth. New comment: 'from what does it come' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l23",
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-024",
@@ -189687,11 +189738,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 24,
         he: "על ידי מה בא החולי הזה: מחמימי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "by what means does this sickness come. New comment: 'from very hot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-025",
@@ -189699,11 +189752,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 25,
         he: "חמימי דחיטי. האוכל פת חמה יותר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "wheat bread' - one who eats bread that is too hot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-026",
@@ -189711,11 +189766,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 26,
         he: "מדאי: כסא דהרסנא. דגים מטוגנים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "than necessary. New comment: 'a basket of harsana' - fried fish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-027",
@@ -189723,11 +189780,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 27,
         he: "עם הקמח בשמן שלהן: שיורי. שעבר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "with flour in their own oil. New comment: 'leftovers' - that had passed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-028",
@@ -189735,11 +189794,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 28,
         he: "עליו הלילה: מאי סימניה. של אותו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the night. New comment: 'what is its sign' - of that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-029",
@@ -189747,11 +189808,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 29,
         he: "חולי: כד רמי מידי בככיה. כשנותן",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "sickness. New comment: 'when something is placed in his teeth' - when he places",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-030",
@@ -189759,11 +189822,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 30,
         he: "כלום בשיניו זב הדם משורת שיניו:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "anything in his teeth, blood flows from the row of his teeth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-031",
@@ -189771,11 +189836,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 31,
         he: "ורבי יוחנן היכי עביד הכי וכו'. לא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'but how could Rabbi Yochanan do this, etc.' - we do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-032",
@@ -189783,11 +189850,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 32,
         he: "גרסינן לה הכא אלא במסכת ע\"ז:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "read this here, but rather it appears in Tractate Avoda Zara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l27"
+        ]
       },
       {
         id: "rashi-yoma-084a-033",
@@ -189795,11 +189864,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 33,
         he: "כמאן עביד ר' יוחנן. לתת סם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'According to whom does Rabbi Yochanan act' - to place medicine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l30"
+        ]
       },
       {
         id: "rashi-yoma-084a-034",
@@ -189807,11 +189878,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 34,
         he: "בשבת בשביל חולי השינים דקאמר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "on Shabbat for a tooth ailment, that he says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l30"
+        ]
       },
       {
         id: "rashi-yoma-084a-035",
@@ -189819,11 +189892,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 35,
         he: "לה אי מצריכנא מאי: שאני אומר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "to her: 'if I need it, what then?' New comment: 'I say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l30"
+        ]
       },
       {
         id: "rashi-yoma-084a-036",
@@ -189831,11 +189906,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 36,
         he: "בזו. מודים לו חכמים שהיא רפואה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in this one' - the Sages agree with him that it is a remedy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l30"
+        ]
       },
       {
         id: "rashi-yoma-084a-037",
@@ -189843,11 +189920,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 37,
         he: "לו בכלב שוטה בחצר כבד שלו:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for him, regarding a mad dog, feeding from the lobe of its liver.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l30"
+        ]
       },
       {
         id: "rashi-yoma-084a-038",
@@ -189855,11 +189934,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 38,
         he: "ירקון. חולי שפניו מוריקות: הכי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'Jaundice' - a sickness where the face turns yellow-green. New comment: 'this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-039",
@@ -189867,11 +189948,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 39,
         he: "גרסינן וחכמים אומרים באלו אין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the correct reading: and the Sages say: in these there is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-040",
@@ -189879,11 +189962,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 40,
         he: "בהן משום רפואה באלו למעוטי מאי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in them a medical override. 'In these' to exclude what?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-041",
@@ -189891,11 +189976,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 41,
         he: "לאו למעוטי סם. והכי קאמרי ליה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Is it not to exclude medicine? And this is what they say to him:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-042",
@@ -189903,11 +189990,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 42,
         he: "בשתים הראשונות אין זו רפואה",
-        en: "Rashi explains: in the first two cases [of the dispute], this is not a complete medical treatment sufficient to override Torah law...",
+        en: "in the first two cases, this is not a remedy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-043",
@@ -189915,11 +190004,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 43,
         he: "גמורה לעבור עליהן דבר תורה",
-        en: "...so as to transgress the Torah prohibition...",
+        en: "complete enough to override a Torah prohibition on their account,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-044",
@@ -189927,11 +190018,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 44,
         he: "ולמעוטי סם דיש בו משום רפואה:",
-        en: "...and the Tanna's exclusion is to exclude a drug that does constitute genuine medical treatment.",
+        en: "and the phrase excludes medicine, since it does constitute a remedy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l32"
+        ]
       },
       {
         id: "rashi-yoma-084a-045",
@@ -189939,11 +190032,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 45,
         he: "לא למעוטי מקיזין דם לסרונכי.",
-        en: "Not to exclude bloodletting for srunki disease...",
+        en: "'No, to exclude: bloodletting for sronchi' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-046",
@@ -189951,11 +190046,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 46,
         he: "בשבת לעולם אכולי הנך פליגי ומאי",
-        en: "...on Shabbat - all the Sages dispute regarding all those cases; and the phrase 'among these' is used because...",
+        en: "on Shabbat; in fact, they disagree about all of these, and what is meant by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-047",
@@ -189963,11 +190060,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 47,
         he: "באלו משום דשמעוה לר' מתיא דאמר",
-        en: "...they had heard R. Mattia ben Harash's ruling and then said there are further cases beyond it.",
+        en: "'in these' - since they heard from Rabbi Matya who said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-048",
@@ -189975,11 +190074,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 48,
         he: "אכתי אחריתי: לסרונכי. חולי ששמו",
-        en: "Rashi on 'for srunki': srunki is the name of a disease called...",
+        en: "yet another leniency. New comment: 'for sronchi' - a sickness whose name is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-049",
@@ -189987,11 +190088,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 49,
         he: "אשטרנגליו\"ן הוא בו\"ן מלנט ובההיא",
-        en: "...estrangalion (a urinary blockage condition); in that case [R. Mattia's leniency] he agrees.",
+        en: "'estranguillon,' it is 'bon malant' in the vernacular; and in that case",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-050",
@@ -189999,11 +190102,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 50,
         he: "מודה ליה: ה\"ג הכי נמי מסתברא",
-        en: "This is the correct reading of the text. It also seems reasonable from what follows...",
+        en: "he agrees with him. New comment: 'this is the correct reading: this also stands to reason' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-051",
@@ -190011,11 +190116,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 51,
         he: "דתניא שלשה דברים אמר רבי אלעזר",
-        en: "...for a baraita teaches: R. Elazar ben Azariah said in the name of R. Mattia ben Harash -",
+        en: "for it was taught: three things Rabbi Elazar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-052",
@@ -190023,11 +190130,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 52,
         he: "בן עזריה משום ר' מתיא בן חרש",
-        en: "one performs bloodletting for srunki on Shabbat; one bitten by a mad dog is fed from the dog's liver lobe;",
+        en: "ben Azariah said in the name of Rabbi Matya ben Charash:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35"
+        ]
       },
       {
         id: "rashi-yoma-084a-053",
@@ -190035,11 +190144,14 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 53,
         he: "מקיזין דם לסרונכי בשבת ומי שנשכו כלב שוטה מאכילין אותו מחצר כבד שלו והחושש בפיו מטילין לו סם בשבת וחכמים אומרים",
-        en: "one who has mouth pain is given medicine on Shabbat. But the Sages say: in these [first two] cases there is no [normal] prohibition being overridden -",
+        en: "we bloodlet for sronchi on Shabbat, and one bitten by a mad dog is fed from the lobe of its liver, and one with mouth pain has medicine placed on Shabbat. New comment: 'and the Sages say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l35",
+          "yoma-084a-l39"
+        ]
       },
       {
         id: "rashi-yoma-084a-054",
@@ -190047,11 +190159,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 54,
         he: "באלו אין בהם משום רפואה באלו למעוטי מאי לאו אתרתי בתרייתא ולמעוטי דרישא לא אתרתי דרישא ולמעוטי דסיפא:",
-        en: "the question is: 'in these' to exclude what? Not the first two cases excluding the last, but the first two cases excluding the rest.",
+        en: "in these there is no medical remedy. In these to exclude what? Is it not the latter two, to exclude the first? No: the first two mentioned, to exclude the last.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l39"
+        ]
       },
       {
         id: "rashi-yoma-084a-055",
@@ -190059,11 +190173,13 @@ const DAF_CONTENT = {
         daf: "84a",
         vilnaLine: 55,
         he: "תא",
-        en: "Rashi opens the next proof: 'come [and hear]' (ta shema), introducing a further source.",
+        en: "This ('come and hear') continues on 84b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-084a-l39"
+        ]
       }
     ],
     review: "draft"
