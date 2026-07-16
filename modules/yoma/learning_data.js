@@ -22890,12 +22890,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 1,
         he: "אלא אמר אביי. בשבעת ימים של",
-        en: "Rashi: identifies 'the seven' in Abaye's statement as the High Priest's seven days of separation (perisha), and states that Rabbi Yehuda does not disagree there - he certainly holds it obligated, just as with a sukka.",
+        en: "'Rather, Abaye said' - during the seven days of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l01"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -22904,7 +22904,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 2,
         he: "פרישה לא פליג ר' יהודה דודאי",
-        en: "Rashi: adds that Rabbi Yehuda's agreement here is stated as a certainty (vadai), not a reluctant concession.",
+        en: "separation, Rabbi Yehuda does not disagree, for it is certainly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -22918,7 +22918,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 3,
         he: "מיחייב דומיא דסוכה: כי פליגי בשאר",
-        en: "Rashi: closes this comment with the sukka comparison, then opens a new comment on the Gemara's next phrase, 'when they disagree is regarding the rest of the days of the year.'",
+        en: "obligated, similar to the sukka. New comment: 'when they disagree is regarding the rest of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -22932,12 +22932,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 4,
         he: "ימות השנה. רבנן סברי גזרינן שאר",
-        en: "Rashi: identifies the Rabbis' position - they decree that a mezuza is required the rest of the year.",
+        en: "the days of the year' - the Rabbis hold: we decree the rest of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l06"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -22946,12 +22946,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 5,
         he: "ימות השנה אטו שבעה ור' יהודה",
-        en: "Rashi: the Rabbis' decree applies the mezuza to the rest of the year on account of the seven days; Rabbi Yehuda disputes this decree.",
+        en: "the days of the year on account of the seven, and Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l07"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -22960,12 +22960,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 6,
         he: "סבר לא גזרינן אלא לשכת פרהדרין",
-        en: "Rashi: Rabbi Yehuda holds we do not issue that decree. Rather, he explains, the Parhedrin chamber kept its mezuza year-round for a different reason.",
+        en: "holds: we do not decree; rather, the Parhedrin chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l07"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -22974,12 +22974,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 7,
         he: "בשאר ימות השנה היה לה מזוזה",
-        en: "Rashi: the reason the mezuza remained in the Parhedrin chamber for the rest of the year was so that it would be firmly recognized as a residence.",
+        en: "had a mezuza during the rest of the days of the year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l10"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -22988,12 +22988,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 8,
         he: "כדי שתהא מוחזקת לכל יודעיה כבית",
-        en: "Rashi: specifically, so that everyone who knew the chamber would regard it as a genuine, full-fledged residence.",
+        en: "so that it be established, for all who know it, as a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l10"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -23002,12 +23002,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 9,
         he: "דירה גמורה שלא יאמרו על הכהן",
-        en: "Rashi: the concern being addressed is that people should not say of the Kohen Gadol, regarding his seven days of separation there.",
+        en: "full-fledged dwelling house, so that people not say about the priest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l13"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -23016,12 +23016,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 10,
         he: "בשבעת ימי הפרישה בבית האסורין",
-        en: "Rashi: that he is, during those seven days, as though held in a house of prisoners.",
+        en: "during the seven days of separation, that he is confined",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-010b-l13"
+          "yoma-010b-l02"
         ]
       },
       {
@@ -23030,11 +23030,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 11,
         he: "חבוש: והא סוכת החג בחג קתני.",
-        en: "Rashi: concludes 'confined,' finishing the mezuza-decree explanation. Then Rashi opens a new comment on Rava's challenge: but isn't it taught that the sukka of the festival is built during the festival itself?",
+        en: "in the prison house. New comment: 'but it teaches: the sukka of the Festival, during the Festival' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-010b-l02",
           "yoma-010b-l06"
         ]
       },
@@ -23044,7 +23045,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 12,
         he: "ופטרי רבנן אלמא בשבעה נמי איכא",
-        en: "Rashi: continuing on Rava's challenge, notes that the Rabbis exempt the sukka even during the festival - so evidently, even during the seven days, there is an opinion that exempts.",
+        en: "and the Rabbis exempt it; evidently, during the seven as well there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23058,11 +23059,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 13,
         he: "למאן דפטר: כי פליגי בשבעה.",
-        en: "Rashi: closes that thought, then opens a new comment on Rava's resolution: 'when they disagree is regarding the seven days.'",
+        en: "one who exempts. New comment: 'when they disagree is regarding the seven' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-010b-l06",
           "yoma-010b-l07"
         ]
       },
@@ -23072,7 +23074,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 14,
         he: "בין בלשכה בין בסוכה והפוטר כאן",
-        en: "Rashi: explains that the dispute over the seven days applies both to the chamber and to the sukka, and that the position which exempts one obligates the other.",
+        en: "both regarding the chamber and regarding the sukka; and the one who exempts here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23086,11 +23088,12 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 15,
         he: "מחייב כאן והחליפו דבריהם: וסוכה",
-        en: "Rashi: notes that the Rabbis and Rabbi Yehuda have effectively swapped their positions between sukka and chamber. Then Rashi opens a new comment on 'and sukka, the reason is separate.'",
+        en: "obligates there, and they have exchanged their positions. New comment: 'and the sukka",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-010b-l07",
           "yoma-010b-l10"
         ]
       },
@@ -23100,7 +23103,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 16,
         he: "טעמא לחוד כו'. ר' יהודה לטעמיה",
-        en: "Rashi: explains that Rabbi Yehuda follows his own established reasoning here.",
+        en: "has its own reason, etc.' - Rabbi Yehuda follows his own reasoning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23114,7 +23117,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 17,
         he: "דאמר במסכת סוכה (דף ז:) דירת קבע",
-        en: "Rashi: cites Rabbi Yehuda's statement in Tractate Sukkah (7b) that a valid sukka requires a permanent dwelling.",
+        en: "for he said in tractate Sukka (7b) that it is a permanent dwelling,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23128,7 +23131,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 18,
         he: "היא והכשיר סוכה גבוה מעשרים אמה",
-        en: "Rashi: notes that on this basis Rabbi Yehuda validated a sukka higher than twenty cubits.",
+        en: "and he validated a sukka higher than twenty amot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23142,7 +23145,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 19,
         he: "שאינה ראויה ליעשות אלא במחיצת",
-        en: "Rashi: explains that such a tall sukka is valid only because it must be built with a permanent partition.",
+        en: "which can only be made with a permanent partition;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23156,7 +23159,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 20,
         he: "קבע הלכך בית חשיבא נמי לענין מזוזה:",
-        en: "Rashi: concludes that a permanent-walled structure is therefore significant for mezuza purposes too, closing the sukka comparison.",
+        en: "therefore it is also considered a significant house regarding mezuza.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23170,7 +23173,7 @@ const DAF_CONTENT = {
         daf: "10b",
         vilnaLine: 21,
         he: "כל",
-        en: "Rashi: opens with the word 'kol' (all), the start of a comment that continues onto the next daf (11a), where it glosses the mishna's opening phrase 'all the gates' as referring specifically to the Temple courtyard's eastern gates.",
+        en: "This ('all') is the catchword anticipating 11a's opening comment.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
