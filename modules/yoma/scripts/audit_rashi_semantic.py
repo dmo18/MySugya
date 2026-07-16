@@ -92,6 +92,7 @@ NAME_MAP = {
     "יחזקאל": _rx(r"ezekiel", r"yechezkel", r"\bezek\."),
     "משלי": _rx(r"proverbs", r"mishlei", r"\bprov\."),
     "תהלים": _rx(r"psalms", r"tehillim", r"\bps\.", r"\bpss\."),
+    "איכה": _rx(r"lamentations", r"eichah?", r"\blam\."),
     "דניאל": _rx(r"daniel", r"\bdan\."),
     "שמואל": _rx(r"samuel", r"\bsam\."),
     "מלכים": _rx(r"kings"),
@@ -126,7 +127,8 @@ NAME_MAP = {
 # immediately before a daf citation).
 TRACTATES = {k for k in NAME_MAP
              if k not in ("בראשית", "שמות", "ויקרא", "במדבר", "דברים", "ישעיה",
-                          "יחזקאל", "משלי", "תהלים", "דניאל", "שמואל", "מלכים")}
+                          "יחזקאל", "משלי", "תהלים", "איכה", "דניאל", "שמואל",
+                          "מלכים")}
 
 CITATION_RE = re.compile(r"\(([^()]{2,40})\)")
 # Same-parens citations may lead with a tractate name/abbreviation or a

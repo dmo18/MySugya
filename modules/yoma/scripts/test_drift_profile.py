@@ -55,6 +55,13 @@ def test_anchor_extraction():
     check("gematria 57b", ars.gematria_daf("נז", ":") == "57b")
     check("gematria 15a", ars.gematria_daf("טו", ".") == "15a")
     check("gematria shem is None", ars.gematria_daf("שם", ":") is None)
+    a = list(ars.anchors_of("וששי. לשון השאת והשבר (איכה ג) והשין"))
+    check("Eicha chapter citation is a name anchor (10a L12 gap)",
+          ("name", "איכה", ars.NAME_MAP["איכה"], False) in a)
+    check("Eicha regex matches Lamentations",
+          bool(ars.NAME_MAP["איכה"].search("as in 'ruin and breaking' (Lamentations 3)")))
+    check("Eicha is not a tractate for adjacency matching",
+          "איכה" not in ars.TRACTATES)
 
 
 def test_same_parens_daf_citation():
