@@ -22,6 +22,7 @@ if echo "$CHANGED" | grep -qE '^modules/yoma/(assets/learning/yoma/|assets/liter
   echo "pre-commit: running offline Rashi guards (v$VER)..."
   (cd modules/yoma && python3 scripts/check_generated_freshness.py)
   (cd modules/yoma && python3 scripts/validate_rashi_content.py)
+  (cd modules/yoma && python3 scripts/audit_rashi_scaffold.py)
   (cd modules/yoma && python3 scripts/validate_rashi_links.py)
   (cd modules/yoma && python3 scripts/validate_rashi_repetition.py)
   # Scope check vs origin/main; the script itself degrades to a warning if
