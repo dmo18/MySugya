@@ -182508,11 +182508,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 1,
         he: "שכוסס. כל דבר שהוא אוכלו שלא כדרך אכילתו קרי ליה כוסס:",
-        en: "Rashi: chewing unground barley without swallowing - whether it counts as eating.",
+        en: "'One who gnaws' - anything that one eats not in its normal manner of eating is called 'goses' (gnawing).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l01"
+        ]
       },
       {
         id: "rashi-yoma-081a-002",
@@ -182520,11 +182522,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 2,
         he: "שזפין. פרונ\"ש בלע\"ז שבלע בלא כסיסה: ראשון משלם קרן וחומש.",
-        en: "Rashi: food and drink belong to separate halachic categories on Yom Kippur.",
+        en: "'Unripe dates' - 'prunes' in the vernacular, that he swallowed without chewing. New comment: 'the first pays principal and fifth' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l03"
+        ]
       },
       {
         id: "rashi-yoma-081a-003",
@@ -182532,11 +182536,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 3,
         he: "שאף היא דרך אכילתן: ושני משלם דמי עצים לראשון. שהרי קנאן",
-        en: "Rashi: they do not combine toward each other's minimum measures.",
+        en: "since that is also their normal manner of eating. New comment: 'and the second pays the value of wood to the first' - since he acquired them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l03"
+        ]
       },
       {
         id: "rashi-yoma-081a-004",
@@ -182544,11 +182550,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 4,
         he: "הראשון ונתחייב בתשלומיהן והן אינן ראויות עוד אלא להסקה:",
-        en: "Rashi: eating and drinking in one lapse of awareness - one atonement covers both.",
+        en: "from the first, and became liable for their payment, and they are no longer fit for anything except burning.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l03"
+        ]
       },
       {
         id: "rashi-yoma-081a-005",
@@ -182556,11 +182564,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 5,
         he: "במחלוקת. השנויה במקום אחר",
-        en: "Rashi: the labor prohibition on Yom Kippur and its comparison to Shabbat.",
+        en: "'in the dispute' - that is taught elsewhere",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-006",
@@ -182568,11 +182578,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 6,
         he: "שנויה במשנתנו ולא דברי הכל היא",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "is taught in our Mishnah, and it is not the opinion of all,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-007",
@@ -182580,11 +182592,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 7,
         he: "אלא רבי יהושע היא: שטומאתן",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "but rather it is Rabbi Yehoshua's view. New comment: 'that their impurity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-008",
@@ -182592,11 +182606,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 8,
         he: "ושיעורן שוה. כגון שני חצאי זיתים",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "and their measure are equal' - for example, two halves of olive's-bulks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-009",
@@ -182604,11 +182620,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 9,
         he: "משני מתים או משתי נבילות או שתי",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "from two corpses, or from two carcasses, or two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-010",
@@ -182616,11 +182634,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 10,
         he: "חצאי עדשה משני שרצים שזמן טומאתן",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "halves of a lentil's-bulk from two crawling creatures, whose time of impurity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-011",
@@ -182628,11 +182648,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 11,
         he: "שוה ושיעורן שוה לטמא בשיעור",
-        en: "Rashi explains the opening discussion of this topic on 81a.",
+        en: "is equal and whose measure is equal, to become impure at one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06"
+        ]
       },
       {
         id: "rashi-yoma-081a-012",
@@ -182640,11 +182662,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 12,
         he: "אחד: טומאתו ולא שיעורו. כגון",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "measure. New comment: 'its impurity but not its measure' - for example",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l06",
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-013",
@@ -182652,11 +182677,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 13,
         he: "שרץ ונבילה ששניהן טומאת ערב",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "a crawling creature and a carcass, both of which convey impurity until evening,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-014",
@@ -182664,11 +182691,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 14,
         he: "אבל אין שיעורן שוה לטמא שזה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "but their measure to become impure is not equal, since this one is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-015",
@@ -182676,11 +182705,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 15,
         he: "בכזית וזה בכעדשה: שיעורו ולא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "an olive's-bulk and that one is a lentil's-bulk. New comment: 'its measure but not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-016",
@@ -182688,11 +182719,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 16,
         he: "טומאתו. כגון מת ונבילה ששניהן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "its impurity' - for example a corpse and a carcass, both of which are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-017",
@@ -182700,11 +182733,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 17,
         he: "בכזית וזה טומאת שבעה וזה טומאת",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "an olive's-bulk, but this one conveys impurity of seven days and that one conveys impurity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10"
+        ]
       },
       {
         id: "rashi-yoma-081a-018",
@@ -182712,11 +182747,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 18,
         he: "ערב: מתני' אינו חייב אלא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "until evening. New comment on the Mishnah: 'he is liable only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l10",
+          "yoma-081a-l17"
+        ]
       },
       {
         id: "rashi-yoma-081a-019",
@@ -182724,11 +182762,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 19,
         he: "חטאת אחת. דחד שמא הוא דאכילה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for one sin-offering' - since it is one category, that eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l17"
+        ]
       },
       {
         id: "rashi-yoma-081a-020",
@@ -182736,11 +182776,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 20,
         he: "ושתיה מחד קרא נפקי: אכל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and drinking derive from one verse. New comment: 'one who ate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l17"
+        ]
       },
       {
         id: "rashi-yoma-081a-021",
@@ -182748,11 +182790,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 21,
         he: "ועשה מלאכה. תרי שמות נינהו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and performed labor' - they are two categories",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l17"
+        ]
       },
       {
         id: "rashi-yoma-081a-022",
@@ -182760,11 +182804,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 22,
         he: "דמתרי קראי נפקי: גמ' אכילה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "since they derive from two verses. New comment on the Gemara: 'eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l17",
+          "yoma-081a-l20"
+        ]
       },
       {
         id: "rashi-yoma-081a-023",
@@ -182772,11 +182819,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 23,
         he: "בכזית. משמע והתורה לא חייבה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "an olive's-bulk' - implying; but the Torah did not obligate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l20"
+        ]
       },
       {
         id: "rashi-yoma-081a-024",
@@ -182784,11 +182833,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 24,
         he: "עליו אלא ביישוב הדעת: השמר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for it except with a settled mind. New comment: 'take heed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l20",
+          "yoma-081a-l22"
+        ]
       },
       {
         id: "rashi-yoma-081a-025",
@@ -182796,11 +182848,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 25,
         he: "פן לא תעונה. השמר פן תבא לידי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "lest you not be afflicted' - take heed lest you come to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l22"
+        ]
       },
       {
         id: "rashi-yoma-081a-026",
@@ -182808,11 +182862,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 26,
         he: "לא תעונה: א\"כ נפישי להו לאוי.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "a state of not being afflicted. New comment: 'if so, there would be too many prohibitions.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l22"
+        ]
       },
       {
         id: "rashi-yoma-081a-027",
@@ -182820,11 +182876,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 27,
         he: "השמר ופן ששניהן לא תעשה הן",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'take heed' and 'lest,' both of which are negative commandments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l22"
+        ]
       },
       {
         id: "rashi-yoma-081a-028",
@@ -182832,11 +182890,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 28,
         he: "ואנן לאו אחד אמרינן שמא לא רצה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and we normally say together they form one prohibition; perhaps he did not want",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l22"
+        ]
       },
       {
         id: "rashi-yoma-081a-029",
@@ -182844,11 +182904,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 29,
         he: "להרבות בו לאוין: השמר דלאו.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "to multiply prohibitions with it. New comment: 'take heed' used for a prohibition -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l22",
+          "yoma-081a-l23"
+        ]
       },
       {
         id: "rashi-yoma-081a-030",
@@ -182856,11 +182919,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 30,
         he: "כגון השמר בנגע הצרעת (דברים כד)",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for example, 'take heed in the plague of leprosy' (Deuteronomy 24),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l23"
+        ]
       },
       {
         id: "rashi-yoma-081a-031",
@@ -182868,11 +182933,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 31,
         he: "שלא יקוץ בהרתו: השמר דעשה.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "that he should not cut off his leprous mark. New comment: 'take heed' used for a positive commandment -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l23"
+        ]
       },
       {
         id: "rashi-yoma-081a-032",
@@ -182880,11 +182947,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 32,
         he: "השמר שתתענה: ותנא מייתי.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'take heed that you shall be afflicted.' New comment: 'and the Tanna brings' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l23",
+          "yoma-081a-l26"
+        ]
       },
       {
         id: "rashi-yoma-081a-033",
@@ -182892,11 +182962,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 33,
         he: "אזהרה בעינוי מהכא: על תוספת",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the warning regarding affliction, from here. New comment: 'regarding additional",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l26",
+          "yoma-081a-l32"
+        ]
       },
       {
         id: "rashi-yoma-081a-034",
@@ -182904,11 +182977,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 34,
         he: "מלאכה. אם לא הוסיף מחול על",
-        en: "Rashi opens comment on 'melachah': if one did not add from the weekday (chol) onto the sacred by stopping work before Yom Kippur begins, he remains in violation.",
+        en: "labor' - if he did not add from the mundane onto",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l32"
+        ]
       },
       {
         id: "rashi-yoma-081a-035",
@@ -182916,11 +182991,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 35,
         he: "הקודש להפסיק מן המלאכה מבעוד",
-        en: "Rashi continues: the requirement is to stop from labor while it is still day - by adding from the mundane (chol) onto the sacred (kodesh) before Yom Kippur night begins.",
+        en: "the holy day, to cease from labor while it is still",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l32"
+        ]
       },
       {
         id: "rashi-yoma-081a-036",
@@ -182928,11 +183005,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 36,
         he: "יום: יהא מוזהר. בלאו: מה לעינוי",
-        en: "Rashi glosses 'yehe muzhar' - he should be warned with a lav (prohibition). He then raises the objection: what comparison can be drawn to inui (affliction)?",
+        en: "day. New comment: 'he shall be warned' - with a prohibition. New comment: 'what of affliction",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l32",
+          "yoma-081a-l37"
+        ]
       },
       {
         id: "rashi-yoma-081a-037",
@@ -182940,11 +183020,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 37,
         he: "וכו'. כלומר עונש דמלאכה לאו",
-        en: "Rashi clarifies: meaning the punishment for melachah (labor) is not a free lav - it cannot serve as the basis for a gezerah shavah because it is already needed to teach its own law.",
+        en: "etc.' - meaning: the punishment for labor is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l37"
+        ]
       },
       {
         id: "rashi-yoma-081a-038",
@@ -182952,11 +183034,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 38,
         he: "מופנה הוא שאם באת ללמדו מעינוי",
-        en: "Rashi explains: the lav is not mufneh (free and available for analogy), because if you try to derive something from melachah via a gezerah shavah with inui, there is a rebuttal ready to block it.",
+        en: "free (mufneh), for if you come to derive it from affliction",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l37"
+        ]
       },
       {
         id: "rashi-yoma-081a-039",
@@ -182964,11 +183048,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 39,
         he: "יש להשיב מלאכה הותרה מקצתה אצל",
-        en: "Rashi continues: the rebuttal is that melachah was partially permitted - labor was allowed for Temple service (avodah), so its lav is compromised and cannot be used freely for verbal analogy.",
+        en: "there is a rebuttal: labor was partially permitted for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l37"
+        ]
       },
       {
         id: "rashi-yoma-081a-040",
@@ -182976,11 +183062,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 40,
         he: "גבוה: חמשה קראי כתיבי במלאכה.",
-        en: "Rashi concludes: labor was permitted for the needs of the Most High (gavohah - Temple service). He then introduces a new point: five verses are written in the Torah regarding melachah on Yom Kippur.",
+        en: "the Most High. New comment: 'five verses are written regarding labor.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l37",
+          "yoma-081a-l46"
+        ]
       },
       {
         id: "rashi-yoma-081a-041",
@@ -182988,11 +183077,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 41,
         he: "ארבעה לאוין וכרת אחד באחרי מות",
-        en: "Rashi enumerates: four prohibitions (lavin) and one karet - beginning with those written in Parashat Acharei Mot (Leviticus 16).",
+        en: "Four prohibitions and one karet verse, in Acharei Mot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l46"
+        ]
       },
       {
         id: "rashi-yoma-081a-042",
@@ -183000,11 +183091,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 42,
         he: "ובפ' אך בעשור (שבחומש הפקודים):",
-        en: "Rashi continues listing the sources: and in the parasha beginning 'Ach be-Asor' (Numbers 29:7) in Sefer Bamidbar - the Chumash ha-Pekudim - where additional melachah verses appear.",
+        en: "and in the portion 'Ach BeAsor' (in the Chumash of the Countings).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l46"
+        ]
       },
       {
         id: "rashi-yoma-081a-043",
@@ -183012,11 +183105,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 43,
         he: "וחד לעונש דליליא. דאם אינו ענין",
-        en: "Rashi explains: one of those five verses applies to the nighttime punishment for labor. The hermeneutical principle at work: if a verse does not apply to one matter (i.e., to the warning/azharah).",
+        en: "New comment: 'and one for the nighttime punishment' - for if it is not needed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l46"
+        ]
       },
       {
         id: "rashi-yoma-081a-044",
@@ -183024,11 +183119,14 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 44,
         he: "לאזהרה תנהו לענין עונש: ונאמר להלן",
-        en: "Rashi continues the rule: apply it instead to the matter of punishment (onesh). This frees up the verse to teach the nighttime penalty. Rashi then notes: and it says further on (later in the passage).",
+        en: "for the warning, apply it to the matter of punishment. New comment: 'and it is stated further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l46",
+          "yoma-081a-l48a"
+        ]
       },
       {
         id: "rashi-yoma-081a-045",
@@ -183036,11 +183134,13 @@ const DAF_CONTENT = {
         daf: "81a",
         vilnaLine: 45,
         he: "עינוי",
-        en: "Rashi opens comment on 'inui' - affliction - closing the gezerah shavah discussion that links the five melachah verses to the inui prohibition of Yom Kippur, showing how labor's warning establishes affliction's warning by verbal analogy.",
+        en: "This ('inui') continues on 81b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-081a-l48a"
+        ]
       }
     ],
     review: "draft"
