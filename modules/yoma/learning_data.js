@@ -200068,11 +200068,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 1,
         he: "אתא ר' חייא. וגם הוא היה חפץ לפסוק עמו וחזר בשבילו לראש",
-        en: "Rashi: the story of Rav and R. Hiyya - the wrongdoer must attempt appeasement.",
+        en: "New comment: 'Rabbi Chiya came' - he too wished to recite the portion with him, and he returned for his sake to the beginning of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l01"
+        ]
       },
       {
         id: "rashi-yoma-087b-002",
@@ -200080,11 +200082,15 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 2,
         he: "הפרשה: רב שאני. מחמיר היה לעצמו: חלמא חזא ליה לרב. ראה",
-        en: "Rashi: the primary time for vidui (confession) is the Minha prayer before YK.",
+        en: "the passage. New comment: 'Rav is different' - he was stringent with himself. New comment: 'he saw a dream about Rav' - he saw",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l01",
+          "yoma-087b-l06",
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-003",
@@ -200092,11 +200098,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 3,
         he: "חלום על רב שתלאוהו בדקל והוא סימן נשיאות ראש וגדולה ור'",
-        en: "Rashi: the Hadran formula declaring commitment to return to the tractate.",
+        en: "a dream about Rav, that they hung him on a palm tree, and this is a sign of leadership and greatness; and Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-004",
@@ -200104,11 +200112,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 4,
         he: "חנינא ראש ישיבה היה כדאמר רבי (כתובות דף קג:) בשעת פטירתו",
-        en: "Rashi: Tu BeAv and Yom Kippur as the most joyful days for the Jewish people.",
+        en: "Chanina was the head of the yeshiva, as Rabbi said (Ketubot 103b) at the time of his passing,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-005",
@@ -200116,11 +200126,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 5,
         he: "חנינא בר חמא ישב בראש וכשראה",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "that Chanina bar Chama should sit at the head; and when he saw",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-006",
@@ -200128,11 +200140,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 6,
         he: "חלום זה על רב דאג למות לפי שאין",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "this dream about Rav, he worried he would die, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-007",
@@ -200140,11 +200154,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 7,
         he: "מלכות נוגעת בחברתה אמר אדחייה",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "one dominion does not overlap with another's - he said: I will push him away",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-008",
@@ -200152,11 +200168,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 8,
         he: "מהכא ויברח לבבל מפני ושם יהיה",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "from here, and he will flee to Bavel, so that there he will become",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10"
+        ]
       },
       {
         id: "rashi-yoma-087b-009",
@@ -200164,11 +200182,14 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 9,
         he: "ראש ולא נדחין למות בשבילו: עם",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "the head, and I will not be pushed aside to die for his sake. New comment: 'with'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l10",
+          "yoma-087b-l15"
+        ]
       },
       {
         id: "rashi-yoma-087b-010",
@@ -200176,11 +200197,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 10,
         he: "חשיכה. לאחר אכילה משקיבל עליו",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "darkness - after eating, once he has accepted upon himself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l15"
+        ]
       },
       {
         id: "rashi-yoma-087b-011",
@@ -200188,11 +200211,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 11,
         he: "יוה\"כ: שמא תטרף דעתו. מחמת",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "Yom Kippur. New comment: 'lest his mind become confused' - on account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l15"
+        ]
       },
       {
         id: "rashi-yoma-087b-012",
@@ -200200,11 +200225,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 12,
         he: "שכרות: דבר קלקלה. של חטא:",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "drunkenness. New comment: 'a matter of ruin' - of sin.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l15"
+        ]
       },
       {
         id: "rashi-yoma-087b-013",
@@ -200212,11 +200239,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 13,
         he: "ממעמקי הלב. תפלה היא: בתורתך",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "New comment: 'from the depths of the heart' - it is a prayer. New comment: 'in Your Torah'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l22"
+        ]
       },
       {
         id: "rashi-yoma-087b-014",
@@ -200224,11 +200253,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 14,
         he: "כתוב. כי ביום הזה יכפר: רבון",
-        en: "Rashi explains the opening discussion of this topic on 87b.",
+        en: "it is written - referring to 'for on this day He shall atone.' New comment: 'Master'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l22"
+        ]
       },
       {
         id: "rashi-yoma-087b-015",
@@ -200236,11 +200267,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 15,
         he: "העולמים. כי לא על צדקותינו וכו':",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of the worlds - 'for not because of our righteousness,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l22"
+        ]
       },
       {
         id: "rashi-yoma-087b-016",
@@ -200248,11 +200281,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 16,
         he: "בתענית. של גשמים: ובמעמדות.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'on a fast day' - of rain. New comment: 'and at the ma'amadot' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-017",
@@ -200260,11 +200295,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 17,
         he: "ארבעה ימים בכל שבת שאנשי משמר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "four days each week, when the men of the watch of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-018",
@@ -200272,11 +200309,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 18,
         he: "ישראל מתכנסין בעריהן ומחענין",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Israel gather in their towns and fast,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-019",
@@ -200284,11 +200323,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 19,
         he: "וקורין במעשה בראשית כדאמרינן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and read the account of Creation, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-020",
@@ -200296,11 +200337,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 20,
         he: "במס' תענית (דף כו.) והתם מקשינן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in Tractate Ta'anit (26a); and there we ask",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-021",
@@ -200308,11 +200351,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 21,
         he: "ותעניות ומעמדות מי אית בהו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "do fast days and ma'amadot have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-022",
@@ -200320,11 +200365,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 22,
         he: "מוסף ומשנינן הכי קאמר כהנים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "a Musaf prayer? And we answer: this is what it means: the kohanim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-023",
@@ -200332,11 +200379,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 23,
         he: "נושאין את כפיהן כל זמן שמתפללין",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "raise their hands whenever they pray,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-024",
@@ -200344,11 +200393,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 24,
         he: "ואפי' במנחה לפי ששלשה פרקים הללו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "even at Mincha, since these three occasions",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-025",
@@ -200356,11 +200407,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 25,
         he: "תעניות הם ואין שכרות במנחה אבל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "are fast days, and there is no drunkenness at Mincha; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-026",
@@ -200368,11 +200421,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 26,
         he: "שאר ימות השנה אין נשיאות כפים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the rest of the days of the year, there is no raising of hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-027",
@@ -200380,11 +200435,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 27,
         he: "במנחה ויש מהן ארבע פעמים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "at Mincha, and some of them have four times",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41"
+        ]
       },
       {
         id: "rashi-yoma-087b-028",
@@ -200392,11 +200449,14 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 28,
         he: "ביום: צלותא יתירתא. מתפלל שבע",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in a day. New comment: 'an additional prayer' - he prays the Amidah of seven blessings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l41",
+          "yoma-087b-l45"
+        ]
       },
       {
         id: "rashi-yoma-087b-029",
@@ -200404,11 +200464,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 29,
         he: "כשאר התפלות: ושמואל אמר מה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "like the other prayers. New comment: 'and Shmuel said, what'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l45"
+        ]
       },
       {
         id: "rashi-yoma-087b-030",
@@ -200416,11 +200478,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 30,
         he: "אנו ומה חיינו. אומר ואינו מתפלל:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "are we, what is our life - he says this, but does not formally pray.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l45"
+        ]
       },
       {
         id: "rashi-yoma-087b-031",
@@ -200428,11 +200492,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 31,
         he: "אור יום הכפורים. ליל יום הכפורים:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'the night of Yom Kippur' - the eve of Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l45"
+        ]
       },
       {
         id: "rashi-yoma-087b-032",
@@ -200440,11 +200506,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 32,
         he: "וחותם בוידוי. גרס בתוספתא אינו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'and concludes with confession' - this is how it reads in the Tosefta: he does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-033",
@@ -200452,11 +200520,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 33,
         he: "חותם מקדש ישראל אלא האל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "conclude with 'who sanctifies Israel,' but rather 'the God'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-034",
@@ -200464,11 +200534,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 34,
         he: "הסולחן וחכמים אומרים כל מקום",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "who forgives. New comment: 'and the Sages say' - wherever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-035",
@@ -200476,11 +200548,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 35,
         he: "שזקוק לשבע אף בשאר התפלות אם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "one is required to say seven blessings, even in the other prayers, if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-036",
@@ -200488,11 +200562,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 36,
         he: "רצה לחתום בוידוי חותם כך שמעתי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he wishes to conclude with a confession, he may conclude - this is what I have heard,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-037",
@@ -200500,11 +200576,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 37,
         he: "אבל לא גרס לה בתוספתא הכי אלא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "but others do not read it this way in the Tosefta, rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-038",
@@ -200512,11 +200590,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 38,
         he: "וחכמים אומרים מתפלל שבע ואם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and the Sages say: he prays seven, and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-039",
@@ -200524,11 +200604,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 39,
         he: "רצה לחתום בוידוי חותם ואנעילה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he wishes to conclude with confession he may conclude - and regarding Ne'ila",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-040",
@@ -200536,11 +200618,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 40,
         he: "קיימי קתני מיהת נעילה מתפלל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "this stands; in any case it teaches that at Ne'ila one prays",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-041",
@@ -200548,11 +200632,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 41,
         he: "שבע ומתודה תיובתא דשמואל",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "seven blessings and confesses - this is a refutation of Shmuel's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49"
+        ]
       },
       {
         id: "rashi-yoma-087b-042",
@@ -200560,11 +200646,14 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 42,
         he: "תיובתא: נחית קמיה דרבא. בנעילה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "view, indeed a refutation. New comment: 'he came down before Rava' - at Ne'ila,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l49",
+          "yoma-087b-l51"
+        ]
       },
       {
         id: "rashi-yoma-087b-043",
@@ -200572,11 +200661,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 43,
         he: "ולשון נעילה פליגי אמוראי בברכו'",
-        en: "Rashi notes that the Amoraim in the Yerushalmi (tractate Berakhot) dispute the meaning of 'ne'ila' - what exactly is being 'locked' or closed in this final prayer.",
+        en: "and regarding the term Ne'ila the Amoraim disagree in Yerushalmi Berakhot -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l51"
+        ]
       },
       {
         id: "rashi-yoma-087b-044",
@@ -200584,11 +200675,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 44,
         he: "ירושלמי חד אמר נעילת שערי שמים",
-        en: "Rashi: one opinion in the Yerushalmi says 'ne'ila' refers to the locking of the gates of Heaven - the prayer is timed as the Heavenly gates close at the end of Yom Kippur.",
+        en: "one said: the closing of the gates of Heaven,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l51"
+        ]
       },
       {
         id: "rashi-yoma-087b-045",
@@ -200596,11 +200689,14 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 45,
         he: "וחד אמר נעילת שערי עזרה: וכיון",
-        en: "Rashi: the other opinion says 'ne'ila' refers to the locking of the Temple courtyard gates (sha'arei azarah) at dusk. He then transitions to: 'once he prayed' (ne'ila) - after ne'ila is recited, the evening prayer is no longer needed.",
+        en: "and one said: the closing of the gates of the Temple courtyard. New comment: 'and since'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l51",
+          "yoma-087b-l52"
+        ]
       },
       {
         id: "rashi-yoma-087b-046",
@@ -200608,11 +200704,14 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 46,
         he: "דצלי. משחשיכה תו לא צריך: והא",
-        en: "Rashi: once ne'ila has been prayed and darkness has fallen, one no longer needs the evening prayer - ne'ila has discharged that obligation. Then the Gemara raises an objection from Rav's own statement.",
+        en: "he has prayed - once it becomes dark, he no longer needs it. New comment: 'but'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l52",
+          "yoma-087b-l53"
+        ]
       },
       {
         id: "rashi-yoma-087b-047",
@@ -200620,11 +200719,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 47,
         he: "אמר רב. במס' ברכות תפלת ערבית",
-        en: "Rashi notes: Rav said in tractate Berakhot that the evening prayer (Arvit) is optional. What then does 'exempts' in our Mishnah mean?",
+        en: "did Rav say - in Tractate Berakhot the evening prayer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l53"
+        ]
       },
       {
         id: "rashi-yoma-087b-048",
@@ -200632,11 +200733,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 48,
         he: "רשות ומאי פוטרת דקאמר: לדברי",
-        en: "According to the one who says Arvit is obligatory - Neilah on Yom Kippur exempts it.",
+        en: "is optional. So what does exempts, which he said, mean? According to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l53"
+        ]
       },
       {
         id: "rashi-yoma-087b-049",
@@ -200644,11 +200747,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 49,
         he: "האומר חובה קאמר. דזו פוטרתה:",
-        en: "That is what the Mishnah means by 'exempts' - this prayer exempts the evening obligation.",
+        en: "the one who holds it is obligatory he is speaking, since this one exempts it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l53"
+        ]
       },
       {
         id: "rashi-yoma-087b-050",
@@ -200656,11 +200761,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 50,
         he: "מיתיבי וכו'. קתני נעילה וקתני",
-        en: "An objection is raised: the Mishnah lists Neilah separately and also lists Arvit separately.",
+        en: "New comment: 'they raised an objection, etc.' - it teaches Ne'ila and it teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-051",
@@ -200668,11 +200775,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 51,
         he: "ערבית: שבע מעין שמונה עשרה.",
-        en: "Rashi explains 'seven like eighteen': the three opening and three closing blessings recited in full form...",
+        en: "Arvit separately. New comment: 'seven resembling eighteen' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-052",
@@ -200680,11 +200789,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 52,
         he: "ג' ראשונות וג' אחרונות כתיקנן",
-        en: "...the three opening and three closing blessings as normally instituted,",
+        en: "the three opening and three closing blessings as normally instituted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-053",
@@ -200692,11 +200803,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 53,
         he: "ואומר הביננו באמצע שיש בה מעין",
-        en: "...and one says Havinenu in the middle, which contains a condensed form of...",
+        en: "and one says Havinenu in the middle, which contains the essence of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-054",
@@ -200704,11 +200817,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 54,
         he: "שלש עשרה ברכות והיא תפלה קצרה",
-        en: "...the thirteen middle blessings in abbreviated form - it is a short prayer...",
+        en: "the thirteen middle blessings, and it is a short prayer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-055",
@@ -200716,11 +200831,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 55,
         he: "שתיקנו לעוברי דרכים ולמוצאי יוה\"כ",
-        en: "...enacted for travelers and for those concluding Yom Kippur, who were permitted to use it due to the burden of the fast.",
+        en: "that was instituted for travelers, and for those leaving Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-056",
@@ -200728,11 +200845,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 56,
         he: "התירו לצאת בה מפני הטורח:",
-        en: "Rashi then opens the comment on the next ruling regarding this leniency.",
+        en: "they permitted fulfilling it with this, on account of the exertion.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       },
       {
         id: "rashi-yoma-087b-057",
@@ -200740,11 +200859,13 @@ const DAF_CONTENT = {
         daf: "87b",
         vilnaLine: 57,
         he: "תנאי",
-        en: "Rashi marks the opening of a tannaitic dispute regarding the above ruling.",
+        en: "This ('a matter of Tannaitic dispute') continues on 88a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-087b-l54"
+        ]
       }
     ],
     review: "draft"
