@@ -193909,11 +193909,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 1,
         he: "אבל להחיות. כגון שיודע ללמד זכות על אדם שנדון בב\"ד ליהרג:",
-        en: "Rashi: 'live by them' (Lev 18:5) - you shall live, not die, by the commandments.",
+        en: "New comment: 'but to save a life' - for example, if he knows how to argue in defense of a person who was sentenced by the court to be executed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l01"
+        ]
       },
       {
         id: "rashi-yoma-085b-002",
@@ -193921,11 +193923,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 2,
         he: "ועבודה. חמורה שדוחה את השבת מפסיקה להצלת נפש: ומה מילה.",
-        en: "Rashi: the four atonement mechanisms and which sins each addresses.",
+        en: "New comment: 'and the Temple service' - which is severe, in that it overrides Shabbat, is interrupted to save a life. New comment: 'and if circumcision'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l01"
+        ]
       },
       {
         id: "rashi-yoma-085b-003",
@@ -193933,11 +193937,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 3,
         he: "שהיא תיקון אחד מאיבריו של אדם דוחה את השבת לפי שחייבין",
-        en: "Rashi: death combined with Yom Kippur atones for the most serious sins.",
+        en: "which is the repair of only one of a person's 248 limbs, overrides Shabbat, since they are liable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l01"
+        ]
       },
       {
         id: "rashi-yoma-085b-004",
@@ -193945,11 +193951,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 4,
         he: "עליה כרת לאחר זמן כך שנויה בתוספתא דשבת: יכול לכל. אפי'",
-        en: "Rashi: repentance alone suffices for the lightest categories of transgression.",
+        en: "for karet on account of it if delayed, this is how it is taught in the Tosefta of Shabbat. New comment: 'one might think, for all purposes' - even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l01",
+          "yoma-085b-l07"
+        ]
       },
       {
         id: "rashi-yoma-085b-005",
@@ -193957,11 +193966,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 5,
         he: "לפיקוח נפש: ושמרו בני ישראל את",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "for pikuach nefesh. New comment: 'and the children of Israel shall keep'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l07",
+          "yoma-085b-l11"
+        ]
       },
       {
         id: "rashi-yoma-085b-006",
@@ -193969,11 +193981,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 6,
         he: "השבת. כדי לעשות שבתות אחרות",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "'the Shabbat' - in order to observe other Shabbatot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l11"
+        ]
       },
       {
         id: "rashi-yoma-085b-007",
@@ -193981,11 +193995,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 7,
         he: "יזהרו בשבת זו בקיום שמירת שבתות",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "they should be careful with this Shabbat, by keeping the observance of many Shabbatot.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l11"
+        ]
       },
       {
         id: "rashi-yoma-085b-008",
@@ -193993,11 +194009,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 8,
         he: "הרבה: אין אדם מעמיד את עצמו.",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "New comment: 'no person exposes himself'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l11",
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-009",
@@ -194005,11 +194024,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 9,
         he: "מלהציל את ממונו מיד גנב והאי",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "to lose his money to a thief; and this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-010",
@@ -194017,11 +194038,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 10,
         he: "גנב דאתי במחתרת מידע ידע דקאי",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "thief who comes through a breach knows for certain that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-011",
@@ -194029,11 +194052,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 11,
         he: "בעל הבית באפיה ואדעתא דהכי",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "the homeowner will stand before him, and with this intention",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-012",
@@ -194041,11 +194066,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 12,
         he: "אתא דמימר אמר כי קאי לאפאי",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "he came, thinking: if he stands before me,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-013",
@@ -194053,11 +194080,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 13,
         he: "קטילנא ליה ואין זה ספק נפשות אלא",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "I will kill him; and this is not a mere doubt of danger to life, but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-014",
@@ -194065,11 +194094,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 14,
         he: "ודאי נפשות והתורה אמרה לו כאן",
-        en: "Rashi explains the opening discussion of this topic on 85b.",
+        en: "certain danger to life; and the Torah said to him here,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-015",
@@ -194077,11 +194108,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 15,
         he: "אחרי שבא להורגך השכם להורגו:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "since he comes to kill you, rise early and kill him first.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l15"
+        ]
       },
       {
         id: "rashi-yoma-085b-016",
@@ -194089,11 +194122,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 16,
         he: "דאמר אביי. בסנהדרין (דף מג.) על",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'as Abaye said' - in Sanhedrin (43a), regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-017",
@@ -194101,11 +194136,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 17,
         he: "היוצא ליסקל ואמר יש לי זכות ללמד",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "one who goes out to be stoned, and says: I have a merit to argue",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-018",
@@ -194113,11 +194150,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 18,
         he: "על עצמי דקתני התם מחזירין אותו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in my own defense - since it is taught there: they bring him back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-019",
@@ -194125,11 +194164,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 19,
         he: "אפילו ארבע וחמש פעמים ובלבד",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "even four or five times, provided",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-020",
@@ -194137,11 +194178,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 20,
         he: "שיהא ממש בדבריו והוינן בה מנא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "there is substance to his words; and we asked: from where",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-021",
@@ -194149,11 +194192,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 21,
         he: "ידעי ואמר אביי מסרינן ליה זוגא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "do we know it? And Abaye said: we assign him a pair",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-022",
@@ -194161,11 +194206,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 22,
         he: "דרבנן שמלוין אותו עד בית הסקילה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of rabbis, who accompany him to the place of stoning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-023",
@@ -194173,11 +194220,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 23,
         he: "ואם אמר יש לי ללמד זכות על עצמי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and if he says: I have a merit to argue for myself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-024",
@@ -194185,11 +194234,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 24,
         he: "ישמעו אלו אם יש ממש בדבריו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "they will listen, to determine whether there is substance to his words",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-025",
@@ -194197,11 +194248,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 25,
         he: "אם לאו והכי נמי גבי כהן העובד",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "or not. And likewise regarding a kohen performing the service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-026",
@@ -194209,11 +194262,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 26,
         he: "איכא למימר נמי דהכי עבדי ליה:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "one can likewise say that this is done for him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l19"
+        ]
       },
       {
         id: "rashi-yoma-085b-027",
@@ -194221,11 +194276,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 27,
         he: "ואשכחן. מהכא דאודאי פיקוח",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "New comment: 'and we found' - from here, that for certain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-028",
@@ -194233,11 +194290,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 28,
         he: "נפש מחללין אבל ספק לא שמעינן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "danger to life we override, but for a mere doubt we have not heard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-029",
@@ -194245,11 +194304,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 29,
         he: "מינה וכולהו נמי כגון אך חלק",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "this. And all of them are likewise, such as 'ach' divides -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-030",
@@ -194257,11 +194318,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 30,
         he: "איכא למימר דודאי פיקוח נפש",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "one can say that it only excludes certain pikuach nefesh,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-031",
@@ -194269,11 +194332,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 31,
         he: "קא ממעט ולא ספק וכן ולא אתם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "not a doubt; and likewise 'and not you'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-032",
@@ -194281,11 +194346,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 32,
         he: "מסורין בידה למות ודאי וכן",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "are given over to it, to die for certain; and likewise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-033",
@@ -194293,11 +194360,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 33,
         he: "חלל עליו כדי שישמור ודאי שבתות",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'violate for his sake' so that he will keep, for certain, many",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-034",
@@ -194305,11 +194374,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 34,
         he: "הרבה: דשמואל לית ליה פירכא.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Shabbatot. New comment: 'but Shmuel's proof has no rebuttal' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-035",
@@ -194317,11 +194388,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 35,
         he: "אשר יעשה האדם המצות שיחיה בהם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'which a person shall do... and live by them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-036",
@@ -194329,11 +194402,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 36,
         he: "ודאי ולא שיבא בעשייתה לידי ספק",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for certain, and not that its performance should bring him to a possible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-037",
@@ -194341,11 +194416,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 37,
         he: "מיתה אלמא מחללין על הספק:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "death - proving that we override even for a mere doubt.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-038",
@@ -194353,11 +194430,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 38,
         he: "חדא פלפלתא. גרעין אחד:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'one sharp peppercorn' - one kernel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l21"
+        ]
       },
       {
         id: "rashi-yoma-085b-039",
@@ -194365,11 +194444,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 39,
         he: "מתני' חטאת ואשם ודאי. הם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'Mishnah: a sin-offering and a definite guilt-offering' - these are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-040",
@@ -194377,11 +194458,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 40,
         he: "אשם גזילות ומעילות ויש אשם שהוא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the guilt-offering for theft and misuse of sacred property; and there is a guilt-offering that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-041",
@@ -194389,11 +194472,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 41,
         he: "תלוי הבא על שגגת ספק כרת ובגמ'",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "suspended, which comes for an inadvertent act of doubtful karet; and in the Gemara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-042",
@@ -194401,11 +194486,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 42,
         he: "פריך והא ביה נמי כפרה כתיבא:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "it asks: but is not atonement also written regarding it?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-043",
@@ -194413,11 +194500,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 43,
         he: "חטאת ואשם ודאי מכפרין. ומסתמא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "New comment: 'a sin-offering and a definite guilt-offering atone' - and presumably",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-044",
@@ -194425,11 +194514,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 44,
         he: "תשובה איכא שאם לא היה מתחרט",
-        en: "Rashi glosses \"teshuvah ikka\" (there is repentance): even when a sin-offering or guilt-offering is brought, repentance is implicit - for if the person had not been remorseful, he would not have brought the offering in the first place.",
+        en: "there is repentance too, for if he had not felt remorse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23"
+        ]
       },
       {
         id: "rashi-yoma-085b-045",
@@ -194437,11 +194528,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 45,
         he: "לא היה מביא קרבן: גמ' הא",
-        en: "Rashi glosses \"gemara - ha\" (Gemara: this one): the Gemara now analyzes the Mishnah and asks about the asham talui (doubtful guilt-offering), noting that atonement is also written in connection with it.",
+        en: "he would not have brought the offering. New comment: 'Gemara: but'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l23",
+          "yoma-085b-l33"
+        ]
       },
       {
         id: "rashi-yoma-085b-046",
@@ -194449,11 +194543,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 46,
         he: "כפרה כתיב ביה. וכפר עליו הכהן",
-        en: "Rashi glosses \"khappara ketiv beh\" (atonement is written about it): the verse \"ve-khipper alav ha-kohen al shigato asher shaga\" (Leviticus 5) refers to the asham talui (doubtful guilt-offering).",
+        en: "'atonement is written regarding it' - 'and the priest shall atone for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l33"
+        ]
       },
       {
         id: "rashi-yoma-085b-047",
@@ -194461,11 +194557,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 47,
         he: "על שגגתו אשר שגג (ויקרא ה) באשם",
-        en: "Rashi cites the verse about atonement written in connection with the asham talui: \"ve-khipper alav ha-kohen al shigato asher shaga\" (Leviticus 5) - in the passage about the doubtful guilt-offering.",
+        en: "for his inadvertence that he committed' (Vayikra 5), regarding the guilt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l33"
+        ]
       },
       {
         id: "rashi-yoma-085b-048",
@@ -194473,11 +194571,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 48,
         he: "תלוי כתיב: אשם תלוי אינו מכפר",
-        en: "Rashi glosses \"asham talui ketiv\" (the doubtful guilt-offering is what is written): the verse about atonement in Leviticus 5 refers specifically to the asham talui. It does not atone completely.",
+        en: "of 'suspended' it is written. New comment: 'the suspended guilt-offering does not atone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l33",
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-049",
@@ -194485,11 +194586,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 49,
         he: "כפרה גמורה. אלא תולה להגן עליו",
-        en: "Rashi glosses \"asham talui eino mekhapper khappara gemurah\" (the doubtful guilt-offering does not grant complete atonement): it only provides temporary protection. Rather, it suspends punishment to protect the person.",
+        en: "with complete atonement' - rather, it suspends, to protect him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-050",
@@ -194497,11 +194600,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 50,
         he: "מן היסורין עד שיודע לו שודאי חטא",
-        en: "Rashi explains: the asham talui shields the person from suffering during the period of doubt, until it becomes clear whether he actually sinned. Then he brings the proper sin-offering for complete atonement.",
+        en: "from suffering, until it becomes known to him that he definitely sinned,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-051",
@@ -194509,11 +194614,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 51,
         he: "ויביא חטאת הכי ילפי' לה בכריתות",
-        en: "Rashi notes: this is how it is derived in Tractate Kritot - the asham talui provides interim protection rather than full atonement, pending clarification of the doubt.",
+        en: "and he brings a sin-offering; this is how it is derived in Kritot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-052",
@@ -194521,11 +194628,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 52,
         he: "(דף כו:): פטורין. דיום הכפורים",
-        en: "Rashi glosses \"peturin\" (they are exempt): after Yom Kippur passes, those who were obligated in an asham talui are now exempt - because Yom Kippur has atoned for them. The reason is explained in Kritot.",
+        en: "(26b). New comment: 'they are exempt' - since Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-053",
@@ -194533,11 +194642,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 53,
         he: "מכפר עליהן וטעמא מפרש בכריתות",
-        en: "Rashi glosses: \"Yom Kippur atones for them\" - after Yom Kippur, those who owed an asham talui are released from the obligation, and the reason is elaborated in Tractate Kritot.",
+        en: "atones for them, and the reason is explained in Kritot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34"
+        ]
       },
       {
         id: "rashi-yoma-085b-054",
@@ -194545,11 +194656,14 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 54,
         he: "(דף כה:): חוץ מפורק עול. כופר",
-        en: "Rashi glosses \"chutz mi-porek ol\" (except one who throws off the yoke): this refers to someone who denies the authority of the Torah entirely. Rashi adds \"kofer ba-Hakadosh Barukh Hu\" (one who denies God).",
+        en: "(25b). New comment: 'except for one who throws off the yoke' - one who denies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l34",
+          "yoma-085b-l36"
+        ]
       },
       {
         id: "rashi-yoma-085b-055",
@@ -194557,11 +194671,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 55,
         he: "בהקב\"ה: מגלה פנים בתורה. דורש",
-        en: "Rashi glosses \"megaleh panim ba-Torah\" (one who distorts the Torah publicly): this means someone who expounds the Torah in a degrading way - for example, Menashe, who used to expound aggadic passages disparagingly, saying it was unnecessary for Moshe to write certain verses.",
+        en: "the Holy One. New comment: 'one who distorts the Torah' - expounds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l36"
+        ]
       },
       {
         id: "rashi-yoma-085b-056",
@@ -194569,11 +194685,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 56,
         he: "את התורה לגנאי כגון מנשה שהיה",
-        en: "Rashi explains \"megaleh panim ba-Torah\" further with the example: Menashe would mock aggadic narratives, saying things like \"Moshe had no need to write the verse about Timna being a concubine\" - distorting the Torah in a contemptuous way.",
+        en: "the Torah disparagingly, such as Menashe, who used to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l36"
+        ]
       },
       {
         id: "rashi-yoma-085b-057",
@@ -194581,11 +194699,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 57,
         he: "דורש באגדות של דופי לא היה לו למשה לכתוב אלא ותמנע היתה פלגש וגו': ומיפר ברית בשר. מילה ובמסכת שבועות יליף לה מקראי:",
-        en: "Rashi glosses \"u-meifer berit basar\" (and who violates the covenant of circumcision): this means one who denies or undoes the brit milah. Rashi notes the source for this is derived from verses in Tractate Shevuot.",
+        en: "expound aggadot in a shameful manner, saying Moshe need not have written anything but 'and Timna was a concubine,' etc. New comment: 'and who breaks the covenant of the flesh' - circumcision, and in tractate Shevuot it is derived from verses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l36"
+        ]
       },
       {
         id: "rashi-yoma-085b-058",
@@ -194593,11 +194713,13 @@ const DAF_CONTENT = {
         daf: "85b",
         vilnaLine: 58,
         he: "חוץ",
-        en: "Rashi glosses \"chutz\" (except): this introduces the list of exceptional sinners for whom Yom Kippur does not atone without repentance, even according to Rabbi who generally rules that Yom Kippur atones universally.",
+        en: "This ('except') continues on 86a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-085b-l44"
+        ]
       }
     ],
     review: "draft"
