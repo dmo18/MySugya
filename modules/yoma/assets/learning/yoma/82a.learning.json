@@ -1,1133 +1,1264 @@
 {
-  "canonicalRef": "Yoma 82a",
-  "summary": "Tractate Yoma daf 82a covers: Mishna: children are not afflicted on YK but trained gradually before bar/bat mitzvah; Children in danger of death: we violate YK to save them; Mishna: pregnant woman smells food - feed her until she recovers; Pikuach nefesh (saving life) overrides all of Yom Kippur.",
-  "sugyot": [
+ "canonicalRef": "Yoma 82a",
+ "summary": "Tractate Yoma daf 82a covers: Mishna: children are not afflicted on YK but trained gradually before bar/bat mitzvah; Children in danger of death: we violate YK to save them; Mishna: pregnant woman smells food - feed her until she recovers; Pikuach nefesh (saving life) overrides all of Yom Kippur.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-082a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 6
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-082a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 6
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.82a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.82a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.82a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82a.1",
-        "Yoma.82a.2",
-        "Yoma.82a.3"
-      ],
-      "display": {
-        "whats": "Mishna: children are not afflicted on YK but trained gradually before bar/bat mitzvah",
-        "hint": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for increasing portions of the day.",
-        "title": "Training Children to Fast Before Bar Mitzvah"
-      },
-      "learning": {
-        "ahaMoment": "The Mishna encodes a developmental theory of religious education: obligations are introduced gradually so they are internalized before they become formally binding.",
-        "memoryAnchor": "Children near bar mitzvah age are trained to fast gradually: preparation is required, not optional.",
-        "learnerQuestion": "Are children required to fast on Yom Kippur, and how are they prepared for the obligation?",
-        "coreTension": "Between the general rule that minors are exempt from the full obligations of the day and the educational need to prepare children to take on those obligations at maturity.",
-        "coreMove": "The Mishna establishes a graduated approach: young children are not required to fast, but in the years approaching majority, they are trained incrementally - beginning with partial fasts - so that the full obligation at bar/bat mitzvah is not a sudden shock.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Preparing children for adult religious obligations is itself a mitzvah obligation on parents; the Mishna's graduated fasting rule is a model for how the Torah transitions minors into full observance."
-        },
-        "learningBlocker": "Students may assume children are simply exempt with no educational requirement; the Mishna's graduated approach makes preparation itself mandatory."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Mishnah: children are not made to fast, but are trained",
-          "speaker": "Mishnah",
-          "text": "Children are not afflicted by withholding food on Yom Kippur, but one trains them a year or two before maturity with a partial fast of several hours, so they grow accustomed to the mitzvot.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "elaboration",
-          "label": "Rav Chisda: feeble versus healthy child",
-          "speaker": "Mishnah",
-          "text": "Why state both 'one year' and 'two years'? Rav Chisda answers they describe different children: a feeble child is trained one year before maturity, a healthy child two years before.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "detail",
-          "label": "Age schedules of Rav Huna, Rav Nachman, Rabbi Yochanan",
-          "speaker": "Mishnah",
-          "text": "Rav Huna: a healthy child trains at eight to nine, completes the fast rabbinically at ten to eleven, and by Torah law at twelve. Rav Nachman shifts each stage a year later for boys. Rabbi Yochanan holds there is no rabbinic completion obligation before maturity at all.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l06",
-              "vilnaLine": 6
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "children",
-        "YK fast",
-        "training",
-        "bar mitzvah"
-      ],
-      "concepts": {
-        "halachic": [
-          "children",
-          "YK fast"
-        ],
-        "theological": [
-          "Gradual training: the year before majority, children begin partial fasts - the l"
-        ],
-        "narrative": [
-          "Mishna: children are not afflicted on YK but trained gradual"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of children context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Children must fast on Yom Kippur once they are old enough to understand.",
-          "correction": "Minors are never made to fast a full day; the obligation is only to train them with partial fasts in the year or two before they reach the age of mitzvot."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Mishna: children are not afflicted on YK but train"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the Mishnah mention both 'one year' and 'two years' of training?",
-          "answer": "Rav Chisda explains they refer to different children: a feeble child is trained one year before maturity, a healthy child two years before."
-        },
-        {
-          "question": "How does Rabbi Yochanan differ from Rav Huna and Rav Nachman on training children to fast?",
-          "answer": "Rav Huna and Rav Nachman hold there is a rabbinic obligation to complete the fast a year or two before maturity; Rabbi Yochanan holds there is no such rabbinic completion obligation before maturity."
-        }
-      ],
-      "finalRuling": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for ",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.82a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-082a-s02",
-      "lineRange": {
-        "startVilnaLine": 13,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.82a.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.82a.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.82a.6"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.82a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82a.4",
-        "Yoma.82a.5",
-        "Yoma.82a.6",
-        "Yoma.82a.7"
-      ],
-      "display": {
-        "whats": "Children in danger of death: we violate YK to save them",
-        "hint": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
-        "title": "Saving a Child's Life Overrides Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "Developmental exemptions and life-value are separate questions: exempting children from obligations says nothing about how much their lives matter.",
-        "memoryAnchor": "A child's life overrides YK just like an adult's: exemption from fasting never means lesser life-value.",
-        "learnerQuestion": "Does saving a child's life override the Yom Kippur prohibitions?",
-        "coreTension": "Between the exemption of minors from YK obligations (making it seem like their life should be treated differently) and the universal principle of pikuach nefesh.",
-        "coreMove": "The Gemara rules that saving a child's life fully overrides YK's prohibitions, just as for an adult. The minor's exemption from fasting is a developmental accommodation, not a lesser status: their life is equally precious and pikuach nefesh applies without distinction.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Pikuach nefesh (saving life) applies equally to minors and adults on Yom Kippur; a child's developmental exemption from fasting obligations does not diminish the value of their life for purposes of overriding the day's prohibitions."
-        },
-        "learningBlocker": "Students may confuse the minor's exemption from fasting with a lesser legal status; the Gemara explicitly treats their life as equally protected by pikuach nefesh."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Applying the Mishnah's 'one or two years'",
-          "speaker": "Gemara",
-          "text": "The Gemara tests the Mishnah's 'one year or two years' against the three opinions. For Rav Huna and Rav Nachman it fits: a feeble child completes the fast the year before maturity, a healthy child two years before, by rabbinic law.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l13",
-              "vilnaLine": 13
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "proof",
-          "label": "Difficulty for Rabbi Yochanan",
-          "speaker": "Gemara",
-          "text": "For Rabbi Yochanan, who denies any rabbinic completion obligation, what could 'one or two years' mean? He reads it as the single year before maturity, with the one-versus-two distinction tracking feeble versus healthy children, not two separate years of obligation.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l17",
-              "vilnaLine": 17
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "elaboration",
-          "label": "Rabba bar Shmuel's baraita and the reply",
-          "speaker": "Gemara",
-          "text": "Rabba bar Shmuel's baraita says one trains a feeble child one year and a healthy child two years before maturity. This fits Rabbi Yochanan but challenges Rav Huna and Rav Nachman, who answer that the 'training' mentioned there refers to completing the fast.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "conclusion",
-          "label": "Is 'training' the same as 'completing'?",
-          "speaker": "Gemara",
-          "text": "The Gemara objects that training means doing only part of a mitzva, while completing means the whole fast, citing a baraita defining training as pushing the child's mealtime an hour later. Rava bar Ulla resolves it: there are two kinds of training, delaying a young child's meal and accustoming an older child to finish the fast.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "children",
-        "pikuach nefesh",
-        "YK",
-        "danger"
-      ],
-      "concepts": {
-        "halachic": [
-          "children",
-          "pikuach nefesh"
-        ],
-        "theological": [
-          "A child in danger: even though children are not obligated to fast, we already kn"
-        ],
-        "narrative": [
-          "Children in danger of death: we violate YK to save them"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of children context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Training' a child for the fast always means a partial, several-hour fast.",
-          "correction": "There are two forms of training: the early-stage one delays mealtimes, but the later-stage 'training' near maturity does mean having the child complete the whole fast."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Children in danger of death: we violate YK to save"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does Rabbi Yochanan read 'one year or two years' if he denies a rabbinic completion obligation?",
-          "answer": "He takes it as the single year before maturity, with 'one or two' distinguishing feeble children from healthy children rather than marking two separate obligated years."
-        },
-        {
-          "question": "How does Rava bar Ulla reconcile 'training' meaning a partial fast with the claim that it means completing the fast?",
-          "answer": "There are two distinct forms of training: delaying a young child's mealtime by an hour, and accustoming an older child to complete the entire fast."
-        }
-      ],
-      "finalRuling": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.82a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-082a-s03",
-      "lineRange": {
-        "startVilnaLine": 24,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.82a.8"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.82a.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.82a.10"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.82a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82a.8",
-        "Yoma.82a.9",
-        "Yoma.82a.10",
-        "Yoma.82a.11"
-      ],
-      "display": {
-        "whats": "Mishna: pregnant woman smells food - feed her until she recovers",
-        "hint": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
-        "title": "The Pregnant Woman Who Smelled Food"
-      },
-      "learning": {
-        "ahaMoment": "The Mishna encodes early intervention as a principle: we do not wait for a crisis to become obvious before acting to preserve life.",
-        "memoryAnchor": "Pregnant woman smells food and is distressed - feed her: don't wait for the crisis to escalate.",
-        "learnerQuestion": "What does the Mishna rule when a pregnant woman smells food on Yom Kippur and becomes distressed?",
-        "coreTension": "Between the YK eating prohibition and the obligation to protect the life of both the mother and the fetus.",
-        "coreMove": "The Mishna rules: if a pregnant woman smells food and becomes physically distressed, we feed her until she recovers, even on YK. We do not wait to see how serious the situation becomes - we act on the first sign of danger. The life before us is the priority.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "When a pregnant woman's physical state suggests danger from deprivation of food on YK, we feed her immediately without waiting to gauge severity; the precautionary application of pikuach nefesh is itself the ruling."
-        },
-        "learningBlocker": "Students may expect a threshold of actual danger before the override kicks in; the Mishna rules that early signs of distress are sufficient."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Mishnah: feed a craving pregnant woman and the ill",
-          "speaker": "Mishnah",
-          "text": "A pregnant woman overcome by a craving is fed until she recovers, since denial could endanger life. An ill person in danger is fed on the advice of medical experts, and if none are present, by his own word until he says he has had enough.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l24",
-              "vilnaLine": 24
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "case",
-          "label": "Graduated feeding of forbidden food",
-          "speaker": "Mishnah",
-          "text": "A baraita: if she craves consecrated meat or pig, one first dips a reed in its juice for her lips; if that does not settle her mind, one gives the gravy; if not, the forbidden food itself, since saving a life overrides every prohibition except idolatry, forbidden relations, and bloodshed.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l26",
-              "vilnaLine": 26
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "elaboration",
-          "label": "Source that idolatry overrides life-saving",
-          "speaker": "Mishnah",
-          "text": "Where do we learn that idolatry is not set aside to save a life? Rabbi Eliezer reads 'with all your heart, with all your soul, and with all your might' (Deuteronomy 6:5): why state both 'soul' and 'might' if one seems redundant?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "conclusion",
-          "label": "Soul and might cover body and property",
-          "speaker": "Mishnah",
-          "text": "For one who values his body over his property, 'with all your soul' demands he give his life rather than serve idols; for one who values property over body, 'with all your might' demands he give all his possessions. Either way, one forfeits life rather than commit idolatry.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l31",
-              "vilnaLine": 31
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "pregnant woman",
-        "smelling food",
-        "YK",
-        "feeding the ill"
-      ],
-      "concepts": {
-        "halachic": [
-          "pregnant woman",
-          "smelling food"
-        ],
-        "theological": [
-          "Pregnant woman smells food: the body's signal is taken seriously by the Torah - "
-        ],
-        "narrative": [
-          "Mishna: pregnant woman smells food - feed her until she reco"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of pregnant woman context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Saving a life overrides every prohibition in the Torah without exception.",
-          "correction": "Pikuach nefesh overrides almost everything, but never idolatry, forbidden sexual relations, or bloodshed - one must give his life rather than transgress these three."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Mishna: pregnant woman smells food - feed her unti"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does one first dip a reed in the juice of forbidden food for a craving pregnant woman?",
-          "answer": "To settle her mind with the least possible violation; the forbidden food itself is given only if the lighter steps fail, since saving a life overrides all but three prohibitions."
-        },
-        {
-          "question": "Which three prohibitions are never set aside even to save a life, and what verse anchors idolatry's place among them?",
-          "answer": "Idolatry, forbidden sexual relations, and bloodshed; idolatry is anchored in 'with all your soul' from Deuteronomy 6:5, requiring one to give his life rather than worship idols."
-        }
-      ],
-      "finalRuling": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-082a-s04",
-      "lineRange": {
-        "startVilnaLine": 33,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.82a.12"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.82a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82a.12",
-        "Yoma.82a.13"
-      ],
-      "display": {
-        "whats": "Pikuach nefesh (saving life) overrides all of Yom Kippur",
-        "hint": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
-        "title": "Pikuach Nefesh Overrides Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "'The Torah was given to live by' - pikuach nefesh is not an exception to Torah but its clearest expression. Life-preservation is what the Torah is for.",
-        "memoryAnchor": "Pikuach nefesh: 'live by them' - preserving life fulfills Torah, it does not violate it.",
-        "learnerQuestion": "What is the legal basis for pikuach nefesh overriding the Yom Kippur prohibitions?",
-        "coreTension": "Between the severity of YK (it carries karet for intentional violation) and the sweeping rule that life-saving overrides it.",
-        "coreMove": "The Gemara establishes the principle: the Torah was given to live by, not to die by. Every prohibition exists within a framework that values life. When life is threatened, the Torah itself authorizes - and even requires - its own override. Pikuach nefesh is not an exception to Torah but an expression of it.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Pikuach nefesh overrides YK prohibitions because the Torah was given for life; violating a prohibition to preserve life fulfills the Torah's purpose rather than transgressing it."
-        },
-        "learningBlocker": "Students may feel that overriding YK is a reluctant concession; the Gemara reframes it as an affirmative expression of Torah values."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Source for martyrdom over relations and murder",
-          "speaker": "Gemara",
-          "text": "Where do we learn one must give his life rather than commit forbidden relations or murder? Rabbi Yehuda HaNasi cites the rape of a betrothed woman: 'as when a man rises against his fellow and slays him, even so is this matter' (Deuteronomy 22:26).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l33",
-              "vilnaLine": 33
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "derivation",
-          "label": "The murder comparison teaches in both directions",
-          "speaker": "Gemara",
-          "text": "The verse seems to teach about the betrothed woman from the murderer, yet the murderer is the real lesson: just as one may save the betrothed woman by killing her attacker, so one may save a murder victim by killing the pursuer; and just as the murderer must let himself be killed rather than kill, so too in forbidden relations.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082a-l35",
-              "vilnaLine": 35
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "pikuach nefesh",
-        "YK override",
-        "saving life"
-      ],
-      "concepts": {
-        "halachic": [
-          "pikuach nefesh",
-          "YK override"
-        ],
-        "theological": [
-          "Pikuach nefesh overrides YK: the Torah's highest value is life itself, not ritua"
-        ],
-        "narrative": [
-          "Pikuach nefesh (saving life) overrides all of Yom Kippur"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of pikuach nefesh context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The verse comparing rape to murder is only there to teach the law of the betrothed woman.",
-          "correction": "The comparison runs both ways: the murderer is actually the lesson, teaching both that a pursuer may be killed and that one must die rather than murder."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Pikuach nefesh (saving life) overrides all of Yom "
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What does the Torah's comparison of rape to murder teach in each direction?",
-          "answer": "From murder we learn the betrothed woman may be saved by killing her attacker; from the betrothed woman we learn the murderer must let himself be killed rather than transgress."
-        },
-        {
-          "question": "Why must one surrender his life rather than commit murder?",
-          "answer": "The verse equating rape with murder establishes that murder, like the gravest prohibitions, is one a person must die rather than commit."
-        }
-      ],
-      "finalRuling": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.82a.3"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.82a.1",
+    "Yoma.82a.2",
+    "Yoma.82a.3"
+   ],
+   "display": {
+    "whats": "Mishna: children are not afflicted on YK but trained gradually before bar/bat mitzvah",
+    "hint": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for increasing portions of the day.",
+    "title": "Training Children to Fast Before Bar Mitzvah"
+   },
+   "learning": {
+    "ahaMoment": "The Mishna encodes a developmental theory of religious education: obligations are introduced gradually so they are internalized before they become formally binding.",
+    "memoryAnchor": "Children near bar mitzvah age are trained to fast gradually: preparation is required, not optional.",
+    "learnerQuestion": "Are children required to fast on Yom Kippur, and how are they prepared for the obligation?",
+    "coreTension": "Between the general rule that minors are exempt from the full obligations of the day and the educational need to prepare children to take on those obligations at maturity.",
+    "coreMove": "The Mishna establishes a graduated approach: young children are not required to fast, but in the years approaching majority, they are trained incrementally - beginning with partial fasts - so that the full obligation at bar/bat mitzvah is not a sudden shock.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Preparing children for adult religious obligations is itself a mitzvah obligation on parents; the Mishna's graduated fasting rule is a model for how the Torah transitions minors into full observance."
+    },
+    "learningBlocker": "Students may assume children are simply exempt with no educational requirement; the Mishna's graduated approach makes preparation itself mandatory."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "he": "מתני' אין מענין אותן. אין חייבין למנוע מהן מאכל: מחנכין",
-      "en": "Rashi: children are exempt from the YK fast but trained in the year before majority.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Mishnah: children are not made to fast, but are trained",
+     "speaker": "Mishnah",
+     "text": "Children are not afflicted by withholding food on Yom Kippur, but one trains them a year or two before maturity with a partial fast of several hours, so they grow accustomed to the mitzvot.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "he": "אותן. לשעות לפני שנה שהיא סמוכה לפירקן פירקן הוי",
-      "en": "Rashi: the graduated training schedule before bar/bat mitzvah.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-02",
+     "type": "elaboration",
+     "label": "Rav Chisda: feeble versus healthy child",
+     "speaker": "Mishnah",
+     "text": "Why state both 'one year' and 'two years'? Rav Chisda answers they describe different children: a feeble child is trained one year before maturity, a healthy child two years before.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l03",
+       "vilnaLine": 3
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "he": "בן שלש עשרה לנקבה וארבע עשרה לזכר שדרך תינוקות להביא",
-      "en": "Rashi: if a child's life is in danger on YK, the fast is violated to save them.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "שתי שערות בשתים עשרה ויום אחד דהיינו בתוך שנת י\"ג והיא",
-      "en": "Rashi: pregnant woman who smells food on YK is fed until she recovers.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "פירקה לעונשין ותינוק בי\"ג ויום אחד",
-      "en": "Rashi: pikuach nefesh overrides all YK prohibitions.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "נמצא שנת י\"ד פרקו לעונשין ושנת י\"ג",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "היא שנה הסמוכה לפרקו ושנת י\"ב",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "היא שנה לפני שנה הסמוכה לפרקו:",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "או לפני שתי שנים. שהיא לפני שתי",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "שנים סמוך לפרקו דהיינו שלש שנים",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "לפני פרקן ובגמרא פריך השתא לפני",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "שתים דהיינו ג' שנים אמרת מחנכין",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "לפני שנה דהיינו שתים מיבעיא:",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "גמ' בחולה. כחוש ותשוש כח:",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "אמר רב הונא בן שמונה.",
-      "en": "Rashi explains the opening discussion of this topic on 82a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "לבריא שעברה שמנה ונכנסת לתשע",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "ובתינוקת כדמסיים מילתיה דהוי שנת",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "תשע ארבע שנים לפני פרקה: ובן",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "תשע. לחולה שעברה שנת תשע",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "ונכנסה לתוך עשר דהיינו ג' שנים",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "לפני פרקה מחנכין לשעות: בן עשר.",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "לבריאה שעברה עשר ונכנסה לאחד",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "עשר ובן אחת עשרה לתינוקת חולה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "ונכנסה לי\"ב משלימין מדרבנן בן י\"ב",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "ונכנסה לי\"ג משלימין מדאוריי' שהיא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "פירקן בתינוקת הבריאה והחולה שוות",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "בו: ורב נחמן אומר וכו'. לא פליג",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "רב נחמן אדרב הונא אלא מר פירש",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "מילי דתינוקת ומר פירש מילי דתינוק:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "תנן. מחנכין אותו לשעות לפני שנה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "דהיינו שתי שנים ולפני שתים דהיינו",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "שלש בשלמא לרב נחמן ולרב הונא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "דאמרי איכא השלמה מדרבנן",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "כדקאמר אע\"ג דלדידהו הוי חינוך",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "הבריא ארבע שנים מצי לתרוצ' למתני'",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "כולה בחולה וה\"ק מחנכין אותו לשעות",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "שתי שנים לפני השלמת דבריהם שהם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "שלש לפני השלמת דד\"ת כדקאמר רב",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "הונא דשנה עשירית מחנכין את",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "התינוקת החולה לשעות שהיא לפני",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "שנה הסמוכה לפרק השלמת דבריהם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "שהיא בשנת י\"ב לחולה דהיינו לפני",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "שתים הסמוכים לפרק דאורייתא: אלא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "לר' יוחנן קשיא. לדידיה לא מיתוקמא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "מתניתין כלל דהא אמרינן השלמה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "מדרבנן ליכא דתימא מתני' חדא",
-      "en": "Rashi explains: from rabbinic law there is nothing to say, lest you claim the mishnah teaches one thing.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "קתני כדאוקימנא אליבא דרב הונא",
-      "en": "Rashi continues: as we established, according to Rav Huna.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "ורב נחמן ורישא בחולה וסיפא בבריא",
-      "en": "Rashi continues: and Rav Nachman - that the first clause speaks of a sick child and the latter clause of a healthy one.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "כדאוקימא רב חסדא נמי לא תוקמא דמתני' קתני שלש לבריא ושתים לחולה ור' יוחנן אמר שתים לבריא ואחת לחולה: אמר לך רבי יוחנן.",
-      "en": "Rashi summarizes: as Rav Chisda also cannot establish it - for the mishnah states three years for a healthy child and two for a sick one, while Rabbi Yochanan says two for healthy and one for sick. Then Rashi opens comment on 'amar lach Rabbi Yochanan': Rabbi Yochanan responds.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "לא תתני לפני שנה דמשמע שתים ולפני שתים דמשמע ג' שנים אלא אימא מחנכין אותה שנה סמוך לפרק' בחולה ושתים לבריא: תא שמע דתנא",
-      "en": "Rashi explains Rabbi Yochanan's position: do not teach 'before one year' (implying two) or 'before two years' (implying three), but rather say: we train her the year before the age of obligation for a sick child and two years for a healthy child. Then Rashi opens: come and hear, for Rabbah bar Shmuel taught.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "רבה בר שמואל. שנה או שתים כר' יוחנן ולא תני לפני שנה ולפני שתים: לר' יוחנן ניחא. ומוקי לה שנה לחולה ושתים לבריא:",
-      "en": "Rashi notes: Rabbah bar Shmuel taught 'one year or two' - like Rabbi Yochanan - and did not use the phrasing 'before one year' and 'before two years.' Then Rashi explains: for Rabbi Yochanan this works out well, establishing one year for a sick child and two for a healthy child.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "אלא לרב הונא ולרב נחמן קשיא. דהא חינוך לשעות הוא ופחות שבחינוכין לשעות לדידהו ג' שנים הוי דהא אמר רב הונא בתינוקת",
-      "en": "Rashi continues: but for Rav Huna and Rav Nachman it is difficult - for training is measured in hours, and the minimum training-by-hours in their view is three years, since Rav Huna said about a sick female minor.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "חולה שמחנכין אותה בעשירית וברייתא קתני גדול שבחינוכין שתי שנים: מאי חינוך דקתני השלמה. דדבריהם ולדידן נמי השלמה",
-      "en": "Rashi continues: that we train her by tenths (of a fast), and the baraita teaches that the maximum training period is two years. Then Rashi opens: what is the 'chinuch' mentioned? - completion (hashlama). This is rabbinic, and for us too 'hashlama.'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "דדבריהם שתים לבריא לפני השלמה דאורייתא אחת לחולה: מתני' עוברה שהריחה. העובר מריח ריח תבשיל והוא מתאוה לו ואם אינה",
-      "en": "Rashi explains: the rabbinically required hashlama is two years for a healthy child, one year before the Torah-level obligation for a sick child. Then Rashi opens comment on the mishnah 'a pregnant woman who smelled [food]': the fetus smells a cooked dish and craves it, and if she does not eat both are endangered.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "אוכלת שניהן מסוכנין: ע\"פ בקיאין. אם יאמרו שני רופאים שהוא מסוכן אם אינו אוכל: גמ' כוש. פלך תוחבין לה כוש ברוטב של אותו",
-      "en": "Rashi glosses 'al pi beki'in': if two doctors say it is dangerous if she does not eat. Then for the Gemara, Rashi glosses 'kush': a spindle - they insert a kush into the gravy of that meat and she sucks it.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "he": "בשר ומוצצתו: למה נאמר בכל מאודך וכו'. יאמר החביב שבהן וכ\"ש שאינו חביב: כי כאשר יקום. בנערה המאורסה כתיב: מה למדנו מרוצח",
-      "en": "Rashi continues: and she sucks it. Then Rashi explains 'why is it said with all your might etc.': let the most beloved thing be stated, and all the more so that which is not beloved. Then Rashi glosses 'ki ka'asher yakum': this is written regarding the betrothed maiden. And Rashi raises: what do we learn from the murderer?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "he": "לנערה המאורסה. שהוא כמשפט הרוצח כן משפט הדבר הזה: מה נערה המאורסה ניתן רשות. למציל להצילה מבעילת זו בנפשו של בועל",
-      "en": "Rashi explains: regarding the betrothed maiden - her case is like the case of a murderer, so too is the law of this matter. Then Rashi opens: what do we learn from the betrothed maiden? - that permission was given to a rescuer to save her from this intercourse even at the cost of the life of the violator.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "he": "זה להורגו עד שלא בא עליה כדכתיב אין מושיע לה (דברים כב) הא יש מושיע יושיענה בכל צידי תשועה: רוצח יהרג ואל יעבור. אם",
-      "en": "Rashi continues: to kill him before he violates her, as it is written 'there is no savior for her' (Devarim 22) - implying that if there is a savior, he should save her by any means of rescue. Then Rashi opens: 'a murderer should be killed rather than transgress' - if.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "he": "אמרו לו הרוג חבירך ואם לאו אהרוג אותך יהרג ואל יעבור עבירה זו כדמפרש לקמן: אף נערה המאורסה. אם יאמרו בעול ארוסת חבירך",
-      "en": "Rashi explains: they tell him - kill your fellow, and if not I will kill you - he should be killed rather than commit this sin, as explained below. Then Rashi opens: 'and so too the betrothed maiden' - if they say: violate your fellow's betrothed.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "he": "או תיהרג יהרג ואל יעבור אבל היא אינה מצווה למסור את נפשה דהיא אינה עושה כלום דקרקע עולם בעלמא היא וראיה לדבר אסתר:",
-      "en": "Rashi continues: or be killed - she should be killed rather than transgress. But she herself is not commanded to give up her life, for she does nothing - she is passive like the ground - and the proof is Esther.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "he": "ורוצח",
-      "en": "Rashi opens comment on 'and a murderer' - continuing the preceding comparison between the murderer case and the betrothed maiden ruling.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-03",
+     "type": "detail",
+     "label": "Age schedules of Rav Huna, Rav Nachman, Rabbi Yochanan",
+     "speaker": "Mishnah",
+     "text": "Rav Huna: a healthy child trains at eight to nine, completes the fast rabbinically at ten to eleven, and by Torah law at twelve. Rav Nachman shifts each stage a year later for boys. Rabbi Yochanan holds there is no rabbinic completion obligation before maturity at all.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l06",
+       "vilnaLine": 6
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "children",
+    "YK fast",
+    "training",
+    "bar mitzvah"
+   ],
+   "concepts": {
+    "halachic": [
+     "children",
+     "YK fast"
+    ],
+    "theological": [
+     "Gradual training: the year before majority, children begin partial fasts - the l"
+    ],
+    "narrative": [
+     "Mishna: children are not afflicted on YK but trained gradual"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of children context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Children must fast on Yom Kippur once they are old enough to understand.",
+     "correction": "Minors are never made to fast a full day; the obligation is only to train them with partial fasts in the year or two before they reach the age of mitzvot."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Mishna: children are not afflicted on YK but train"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the Mishnah mention both 'one year' and 'two years' of training?",
+     "answer": "Rav Chisda explains they refer to different children: a feeble child is trained one year before maturity, a healthy child two years before."
+    },
+    {
+     "question": "How does Rabbi Yochanan differ from Rav Huna and Rav Nachman on training children to fast?",
+     "answer": "Rav Huna and Rav Nachman hold there is a rabbinic obligation to complete the fast a year or two before maturity; Rabbi Yochanan holds there is no such rabbinic completion obligation before maturity."
+    }
+   ],
+   "finalRuling": "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for ",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-082a-s02",
+   "lineRange": {
+    "startVilnaLine": 13,
+    "endVilnaLine": 22
+   },
+   "lines": [
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.82a.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.82a.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.82a.6"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.82a.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.82a.4",
+    "Yoma.82a.5",
+    "Yoma.82a.6",
+    "Yoma.82a.7"
+   ],
+   "display": {
+    "whats": "Children in danger of death: we violate YK to save them",
+    "hint": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
+    "title": "Saving a Child's Life Overrides Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "Developmental exemptions and life-value are separate questions: exempting children from obligations says nothing about how much their lives matter.",
+    "memoryAnchor": "A child's life overrides YK just like an adult's: exemption from fasting never means lesser life-value.",
+    "learnerQuestion": "Does saving a child's life override the Yom Kippur prohibitions?",
+    "coreTension": "Between the exemption of minors from YK obligations (making it seem like their life should be treated differently) and the universal principle of pikuach nefesh.",
+    "coreMove": "The Gemara rules that saving a child's life fully overrides YK's prohibitions, just as for an adult. The minor's exemption from fasting is a developmental accommodation, not a lesser status: their life is equally precious and pikuach nefesh applies without distinction.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Pikuach nefesh (saving life) applies equally to minors and adults on Yom Kippur; a child's developmental exemption from fasting obligations does not diminish the value of their life for purposes of overriding the day's prohibitions."
+    },
+    "learningBlocker": "Students may confuse the minor's exemption from fasting with a lesser legal status; the Gemara explicitly treats their life as equally protected by pikuach nefesh."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Applying the Mishnah's 'one or two years'",
+     "speaker": "Gemara",
+     "text": "The Gemara tests the Mishnah's 'one year or two years' against the three opinions. For Rav Huna and Rav Nachman it fits: a feeble child completes the fast the year before maturity, a healthy child two years before, by rabbinic law.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l13",
+       "vilnaLine": 13
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "proof",
+     "label": "Difficulty for Rabbi Yochanan",
+     "speaker": "Gemara",
+     "text": "For Rabbi Yochanan, who denies any rabbinic completion obligation, what could 'one or two years' mean? He reads it as the single year before maturity, with the one-versus-two distinction tracking feeble versus healthy children, not two separate years of obligation.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l17",
+       "vilnaLine": 17
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "elaboration",
+     "label": "Rabba bar Shmuel's baraita and the reply",
+     "speaker": "Gemara",
+     "text": "Rabba bar Shmuel's baraita says one trains a feeble child one year and a healthy child two years before maturity. This fits Rabbi Yochanan but challenges Rav Huna and Rav Nachman, who answer that the 'training' mentioned there refers to completing the fast.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "Is 'training' the same as 'completing'?",
+     "speaker": "Gemara",
+     "text": "The Gemara objects that training means doing only part of a mitzva, while completing means the whole fast, citing a baraita defining training as pushing the child's mealtime an hour later. Rava bar Ulla resolves it: there are two kinds of training, delaying a young child's meal and accustoming an older child to finish the fast.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "children",
+    "pikuach nefesh",
+    "YK",
+    "danger"
+   ],
+   "concepts": {
+    "halachic": [
+     "children",
+     "pikuach nefesh"
+    ],
+    "theological": [
+     "A child in danger: even though children are not obligated to fast, we already kn"
+    ],
+    "narrative": [
+     "Children in danger of death: we violate YK to save them"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of children context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Training' a child for the fast always means a partial, several-hour fast.",
+     "correction": "There are two forms of training: the early-stage one delays mealtimes, but the later-stage 'training' near maturity does mean having the child complete the whole fast."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Children in danger of death: we violate YK to save"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does Rabbi Yochanan read 'one year or two years' if he denies a rabbinic completion obligation?",
+     "answer": "He takes it as the single year before maturity, with 'one or two' distinguishing feeble children from healthy children rather than marking two separate obligated years."
+    },
+    {
+     "question": "How does Rava bar Ulla reconcile 'training' meaning a partial fast with the claim that it means completing the fast?",
+     "answer": "There are two distinct forms of training: delaying a young child's mealtime by an hour, and accustoming an older child to complete the entire fast."
+    }
+   ],
+   "finalRuling": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-082a-s03",
+   "lineRange": {
+    "startVilnaLine": 24,
+    "endVilnaLine": 31
+   },
+   "lines": [
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.82a.8"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.82a.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.82a.10"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.82a.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.82a.8",
+    "Yoma.82a.9",
+    "Yoma.82a.10",
+    "Yoma.82a.11"
+   ],
+   "display": {
+    "whats": "Mishna: pregnant woman smells food - feed her until she recovers",
+    "hint": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
+    "title": "The Pregnant Woman Who Smelled Food"
+   },
+   "learning": {
+    "ahaMoment": "The Mishna encodes early intervention as a principle: we do not wait for a crisis to become obvious before acting to preserve life.",
+    "memoryAnchor": "Pregnant woman smells food and is distressed - feed her: don't wait for the crisis to escalate.",
+    "learnerQuestion": "What does the Mishna rule when a pregnant woman smells food on Yom Kippur and becomes distressed?",
+    "coreTension": "Between the YK eating prohibition and the obligation to protect the life of both the mother and the fetus.",
+    "coreMove": "The Mishna rules: if a pregnant woman smells food and becomes physically distressed, we feed her until she recovers, even on YK. We do not wait to see how serious the situation becomes - we act on the first sign of danger. The life before us is the priority.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "When a pregnant woman's physical state suggests danger from deprivation of food on YK, we feed her immediately without waiting to gauge severity; the precautionary application of pikuach nefesh is itself the ruling."
+    },
+    "learningBlocker": "Students may expect a threshold of actual danger before the override kicks in; the Mishna rules that early signs of distress are sufficient."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Mishnah: feed a craving pregnant woman and the ill",
+     "speaker": "Mishnah",
+     "text": "A pregnant woman overcome by a craving is fed until she recovers, since denial could endanger life. An ill person in danger is fed on the advice of medical experts, and if none are present, by his own word until he says he has had enough.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l24",
+       "vilnaLine": 24
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "case",
+     "label": "Graduated feeding of forbidden food",
+     "speaker": "Mishnah",
+     "text": "A baraita: if she craves consecrated meat or pig, one first dips a reed in its juice for her lips; if that does not settle her mind, one gives the gravy; if not, the forbidden food itself, since saving a life overrides every prohibition except idolatry, forbidden relations, and bloodshed.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l26",
+       "vilnaLine": 26
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "elaboration",
+     "label": "Source that idolatry overrides life-saving",
+     "speaker": "Mishnah",
+     "text": "Where do we learn that idolatry is not set aside to save a life? Rabbi Eliezer reads 'with all your heart, with all your soul, and with all your might' (Deuteronomy 6:5): why state both 'soul' and 'might' if one seems redundant?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "Soul and might cover body and property",
+     "speaker": "Mishnah",
+     "text": "For one who values his body over his property, 'with all your soul' demands he give his life rather than serve idols; for one who values property over body, 'with all your might' demands he give all his possessions. Either way, one forfeits life rather than commit idolatry.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l31",
+       "vilnaLine": 31
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "pregnant woman",
+    "smelling food",
+    "YK",
+    "feeding the ill"
+   ],
+   "concepts": {
+    "halachic": [
+     "pregnant woman",
+     "smelling food"
+    ],
+    "theological": [
+     "Pregnant woman smells food: the body's signal is taken seriously by the Torah - "
+    ],
+    "narrative": [
+     "Mishna: pregnant woman smells food - feed her until she reco"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of pregnant woman context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Saving a life overrides every prohibition in the Torah without exception.",
+     "correction": "Pikuach nefesh overrides almost everything, but never idolatry, forbidden sexual relations, or bloodshed - one must give his life rather than transgress these three."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Mishna: pregnant woman smells food - feed her unti"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does one first dip a reed in the juice of forbidden food for a craving pregnant woman?",
+     "answer": "To settle her mind with the least possible violation; the forbidden food itself is given only if the lighter steps fail, since saving a life overrides all but three prohibitions."
+    },
+    {
+     "question": "Which three prohibitions are never set aside even to save a life, and what verse anchors idolatry's place among them?",
+     "answer": "Idolatry, forbidden sexual relations, and bloodshed; idolatry is anchored in 'with all your soul' from Deuteronomy 6:5, requiring one to give his life rather than worship idols."
+    }
+   ],
+   "finalRuling": "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-082a-s04",
+   "lineRange": {
+    "startVilnaLine": 33,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.82a.12"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.82a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.82a.12",
+    "Yoma.82a.13"
+   ],
+   "display": {
+    "whats": "Pikuach nefesh (saving life) overrides all of Yom Kippur",
+    "hint": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
+    "title": "Pikuach Nefesh Overrides Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "'The Torah was given to live by' - pikuach nefesh is not an exception to Torah but its clearest expression. Life-preservation is what the Torah is for.",
+    "memoryAnchor": "Pikuach nefesh: 'live by them' - preserving life fulfills Torah, it does not violate it.",
+    "learnerQuestion": "What is the legal basis for pikuach nefesh overriding the Yom Kippur prohibitions?",
+    "coreTension": "Between the severity of YK (it carries karet for intentional violation) and the sweeping rule that life-saving overrides it.",
+    "coreMove": "The Gemara establishes the principle: the Torah was given to live by, not to die by. Every prohibition exists within a framework that values life. When life is threatened, the Torah itself authorizes - and even requires - its own override. Pikuach nefesh is not an exception to Torah but an expression of it.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Pikuach nefesh overrides YK prohibitions because the Torah was given for life; violating a prohibition to preserve life fulfills the Torah's purpose rather than transgressing it."
+    },
+    "learningBlocker": "Students may feel that overriding YK is a reluctant concession; the Gemara reframes it as an affirmative expression of Torah values."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Source for martyrdom over relations and murder",
+     "speaker": "Gemara",
+     "text": "Where do we learn one must give his life rather than commit forbidden relations or murder? Rabbi Yehuda HaNasi cites the rape of a betrothed woman: 'as when a man rises against his fellow and slays him, even so is this matter' (Deuteronomy 22:26).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l33",
+       "vilnaLine": 33
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "derivation",
+     "label": "The murder comparison teaches in both directions",
+     "speaker": "Gemara",
+     "text": "The verse seems to teach about the betrothed woman from the murderer, yet the murderer is the real lesson: just as one may save the betrothed woman by killing her attacker, so one may save a murder victim by killing the pursuer; and just as the murderer must let himself be killed rather than kill, so too in forbidden relations.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082a-l35",
+       "vilnaLine": 35
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "pikuach nefesh",
+    "YK override",
+    "saving life"
+   ],
+   "concepts": {
+    "halachic": [
+     "pikuach nefesh",
+     "YK override"
+    ],
+    "theological": [
+     "Pikuach nefesh overrides YK: the Torah's highest value is life itself, not ritua"
+    ],
+    "narrative": [
+     "Pikuach nefesh (saving life) overrides all of Yom Kippur"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of pikuach nefesh context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The verse comparing rape to murder is only there to teach the law of the betrothed woman.",
+     "correction": "The comparison runs both ways: the murderer is actually the lesson, teaching both that a pursuer may be killed and that one must die rather than murder."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Pikuach nefesh (saving life) overrides all of Yom "
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What does the Torah's comparison of rape to murder teach in each direction?",
+     "answer": "From murder we learn the betrothed woman may be saved by killing her attacker; from the betrothed woman we learn the murderer must let himself be killed rather than transgress."
+    },
+    {
+     "question": "Why must one surrender his life rather than commit murder?",
+     "answer": "The verse equating rape with murder establishes that murder, like the gravest prohibitions, is one a person must die rather than commit."
+    }
+   ],
+   "finalRuling": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "מתני' אין מענין אותן. אין חייבין למנוע מהן מאכל: מחנכין",
+   "en": "Mishnah: 'we do not afflict them' - we are not obligated to withhold food from them. New comment: 'we train",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "אותן. לשעות לפני שנה שהיא סמוכה לפירקן פירקן הוי",
+   "en": "them' - for hours, the year before, which is close to their maturity; their maturity is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "בן שלש עשרה לנקבה וארבע עשרה לזכר שדרך תינוקות להביא",
+   "en": "thirteen for a girl and fourteen for a boy, since it is the way of children to bring",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "שתי שערות בשתים עשרה ויום אחד דהיינו בתוך שנת י\"ג והיא",
+   "en": "two pubic hairs at twelve years and one day, that is, within the thirteenth year, and that is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "פירקה לעונשין ותינוק בי\"ג ויום אחד",
+   "en": "her maturity for penalties; and a boy at thirteen years and one day",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "נמצא שנת י\"ד פרקו לעונשין ושנת י\"ג",
+   "en": "so it turns out the fourteenth year is his maturity for penalties, and the thirteenth year",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "היא שנה הסמוכה לפרקו ושנת י\"ב",
+   "en": "is the year close to his maturity, and the twelfth year",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "היא שנה לפני שנה הסמוכה לפרקו:",
+   "en": "is the year before the year close to his maturity.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "או לפני שתי שנים. שהיא לפני שתי",
+   "en": "New comment: 'or two years before' - that is, before two",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "שנים סמוך לפרקו דהיינו שלש שנים",
+   "en": "years close to his maturity, that is, three years",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "לפני פרקן ובגמרא פריך השתא לפני",
+   "en": "before their maturity; and in the Gemara it asks: now, if before",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l01",
+    "yoma-082a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "שתים דהיינו ג' שנים אמרת מחנכין",
+   "en": "two, that is three years, you say we train",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "לפני שנה דהיינו שתים מיבעיא:",
+   "en": "before one year, that is two years - is it necessary to ask?",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "גמ' בחולה. כחוש ותשוש כח:",
+   "en": "Gemara: 'regarding a sick child' - thin and weak of strength.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "אמר רב הונא בן שמונה.",
+   "en": "'Rav Huna said: an eight-year-old' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "לבריא שעברה שמנה ונכנסת לתשע",
+   "en": "for a healthy child who has passed eight and entered nine",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "ובתינוקת כדמסיים מילתיה דהוי שנת",
+   "en": "and for a girl, as he concludes his statement, that the year",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "תשע ארבע שנים לפני פרקה: ובן",
+   "en": "of nine is four years before her maturity. New comment: 'and a",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "תשע. לחולה שעברה שנת תשע",
+   "en": "nine-year-old' - for a sick child who has passed the year of nine",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "ונכנסה לתוך עשר דהיינו ג' שנים",
+   "en": "and entered into ten, that is, three years",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "לפני פרקה מחנכין לשעות: בן עשר.",
+   "en": "before her maturity, we train for hours. New comment: 'a ten-year-old' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "לבריאה שעברה עשר ונכנסה לאחד",
+   "en": "for a healthy girl who has passed ten and entered eleven",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "עשר ובן אחת עשרה לתינוקת חולה",
+   "en": "and 'an eleven-year-old' refers to a sick girl",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "ונכנסה לי\"ב משלימין מדרבנן בן י\"ב",
+   "en": "who entered twelve, we complete rabbinically; 'a twelve-year-old'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "ונכנסה לי\"ג משלימין מדאוריי' שהיא",
+   "en": "who entered thirteen, we complete by Torah law, since that is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "פירקן בתינוקת הבריאה והחולה שוות",
+   "en": "their maturity; for a girl, the healthy and the sick are equal",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "בו: ורב נחמן אומר וכו'. לא פליג",
+   "en": "in this. New comment: 'and Rav Nachman says, etc.' - Rav Nachman does not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "רב נחמן אדרב הונא אלא מר פירש",
+   "en": "disagree with Rav Huna; rather, one master explained",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "מילי דתינוקת ומר פירש מילי דתינוק:",
+   "en": "the matter of a girl, and the other master explained the matter of a boy.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "תנן. מחנכין אותו לשעות לפני שנה",
+   "en": "'We learned' - we train him for hours, the year before,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "דהיינו שתי שנים ולפני שתים דהיינו",
+   "en": "that is, two years, and two years before, that is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "שלש בשלמא לרב נחמן ולרב הונא",
+   "en": "three; granted, for Rav Nachman and Rav Huna",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "דאמרי איכא השלמה מדרבנן",
+   "en": "who say there is a rabbinic completion,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "כדקאמר אע\"ג דלדידהו הוי חינוך",
+   "en": "as he says, even though according to them the training",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "הבריא ארבע שנים מצי לתרוצ' למתני'",
+   "en": "of a healthy child is four years, he can resolve the Mishnah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "כולה בחולה וה\"ק מחנכין אותו לשעות",
+   "en": "entirely regarding a sick child, and this is what he says: we train him for hours",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "שתי שנים לפני השלמת דבריהם שהם",
+   "en": "two years before the completion of their rabbinic words, which are",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "שלש לפני השלמת דד\"ת כדקאמר רב",
+   "en": "three, before the completion of Torah law, as Rav",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "הונא דשנה עשירית מחנכין את",
+   "en": "Huna says that in the tenth year we train",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "התינוקת החולה לשעות שהיא לפני",
+   "en": "the sick girl for hours, which is before",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "שנה הסמוכה לפרק השלמת דבריהם",
+   "en": "the year close to the maturity of the completion of their words,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "שהיא בשנת י\"ב לחולה דהיינו לפני",
+   "en": "which is in the twelfth year for a sick girl, that is, before",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "שתים הסמוכים לפרק דאורייתא: אלא",
+   "en": "the two years close to the Torah-law maturity. New comment: 'but",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l13",
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "לר' יוחנן קשיא. לדידיה לא מיתוקמא",
+   "en": "for Rabbi Yochanan it is difficult' - according to him, the Mishnah cannot be established",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "מתניתין כלל דהא אמרינן השלמה",
+   "en": "at all, since we say there is no rabbinic",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "מדרבנן ליכא דתימא מתני' חדא",
+   "en": "completion; lest you say the Mishnah teaches one uniform",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "קתני כדאוקימנא אליבא דרב הונא",
+   "en": "ruling, as we established according to Rav Huna",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "ורב נחמן ורישא בחולה וסיפא בבריא",
+   "en": "and Rav Nachman, with the first clause about a sick child and the last clause about a healthy one,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "כדאוקימא רב חסדא נמי לא תוקמא דמתני' קתני שלש לבריא ושתים לחולה ור' יוחנן אמר שתים לבריא ואחת לחולה: אמר לך רבי יוחנן.",
+   "en": "as Rav Chisda also established it - this cannot be established either, for the Mishnah teaches three years for a healthy child and two for a sick one, and Rabbi Yochanan says two for a healthy child and one for a sick one. New comment: 'Rabbi Yochanan would say to you' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "לא תתני לפני שנה דמשמע שתים ולפני שתים דמשמע ג' שנים אלא אימא מחנכין אותה שנה סמוך לפרק' בחולה ושתים לבריא: תא שמע דתנא",
+   "en": "do not teach 'before one year,' implying two, and 'before two years,' implying three; rather, say: we train her the year close to her maturity for a sick girl, and two years for a healthy one. New comment: 'come and hear, for the Tanna",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l17",
+    "yoma-082a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "רבה בר שמואל. שנה או שתים כר' יוחנן ולא תני לפני שנה ולפני שתים: לר' יוחנן ניחא. ומוקי לה שנה לחולה ושתים לבריא:",
+   "en": "Rabba bar Shmuel taught' - 'a year or two,' like Rabbi Yochanan, and does not teach 'before a year' and 'before two years.' New comment: 'for Rabbi Yochanan this works well' - and he establishes it as one year for a sick child and two for a healthy one.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "אלא לרב הונא ולרב נחמן קשיא. דהא חינוך לשעות הוא ופחות שבחינוכין לשעות לדידהו ג' שנים הוי דהא אמר רב הונא בתינוקת",
+   "en": "New comment: 'but for Rav Huna and Rav Nachman it is difficult' - since training is for hours, and the minimum of trainings-for-hours, in their view, is three years, since Rav Huna said regarding a girl",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "חולה שמחנכין אותה בעשירית וברייתא קתני גדול שבחינוכין שתי שנים: מאי חינוך דקתני השלמה. דדבריהם ולדידן נמי השלמה",
+   "en": "who is sick, that we train her in the tenth year, while the baraita teaches the maximum training is two years. New comment: 'what is the training that is taught? Completion' - of their rabbinic words, and for us too, completion",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "דדבריהם שתים לבריא לפני השלמה דאורייתא אחת לחולה: מתני' עוברה שהריחה. העובר מריח ריח תבשיל והוא מתאוה לו ואם אינה",
+   "en": "of their words: two years for a healthy child before the Torah-law completion, one for a sick child. New comment on the Mishnah: 'a pregnant woman who smelled' - the fetus smells the smell of a cooked dish and craves it, and if she does not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l19",
+    "yoma-082a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "אוכלת שניהן מסוכנין: ע\"פ בקיאין. אם יאמרו שני רופאים שהוא מסוכן אם אינו אוכל: גמ' כוש. פלך תוחבין לה כוש ברוטב של אותו",
+   "en": "eat, both are endangered. New comment: 'according to experts' - if two doctors say it is dangerous if he does not eat. New comment on the Gemara: 'kush' - a spindle; they insert a kush into the gravy of that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l24",
+    "yoma-082a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "he": "בשר ומוצצתו: למה נאמר בכל מאודך וכו'. יאמר החביב שבהן וכ\"ש שאינו חביב: כי כאשר יקום. בנערה המאורסה כתיב: מה למדנו מרוצח",
+   "en": "meat, and she sucks it. New comment: 'why is it stated with all your might, etc.' - let the more beloved of them be stated, and all the more so the less beloved. New comment: 'for as when he rises' - is written regarding the betrothed girl. New comment: 'what do we learn from a murderer",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l26",
+    "yoma-082a-l30",
+    "yoma-082a-l31",
+    "yoma-082a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "he": "לנערה המאורסה. שהוא כמשפט הרוצח כן משפט הדבר הזה: מה נערה המאורסה ניתן רשות. למציל להצילה מבעילת זו בנפשו של בועל",
+   "en": "regarding the betrothed girl' - that just as the law of the murderer, so is the law of this matter. New comment: 'just as a betrothed girl, permission was given' - to the rescuer, to save her from this intercourse, at the cost of the life of the one who violates",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l33",
+    "yoma-082a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "he": "זה להורגו עד שלא בא עליה כדכתיב אין מושיע לה (דברים כב) הא יש מושיע יושיענה בכל צידי תשועה: רוצח יהרג ואל יעבור. אם",
+   "en": "her, to kill him before he comes upon her, as it is written 'there is no savior for her' (Deuteronomy 22) - implying that if there is a savior, he should save her by any means of salvation. New comment: 'a murderer should be killed rather than transgress' - if",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "he": "אמרו לו הרוג חבירך ואם לאו אהרוג אותך יהרג ואל יעבור עבירה זו כדמפרש לקמן: אף נערה המאורסה. אם יאמרו בעול ארוסת חבירך",
+   "en": "they say to him: kill your fellow, and if not, I will kill you - he should be killed rather than transgress this sin, as is explained below. New comment: 'so too a betrothed girl' - if they say: violate your fellow's betrothed,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "he": "או תיהרג יהרג ואל יעבור אבל היא אינה מצווה למסור את נפשה דהיא אינה עושה כלום דקרקע עולם בעלמא היא וראיה לדבר אסתר:",
+   "en": "or be killed - she should be killed rather than transgress; but she herself is not commanded to give up her life, since she does nothing, for she is mere inert ground, and the proof for this is Esther.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "he": "ורוצח",
+   "en": "This ('and a murderer') continues on 82b.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082a-l35"
+   ]
+  }
+ ],
+ "review": "draft"
 }

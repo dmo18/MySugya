@@ -184645,11 +184645,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 1,
         he: "מתני' אין מענין אותן. אין חייבין למנוע מהן מאכל: מחנכין",
-        en: "Rashi: children are exempt from the YK fast but trained in the year before majority.",
+        en: "Mishnah: 'we do not afflict them' - we are not obligated to withhold food from them. New comment: 'we train",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-002",
@@ -184657,11 +184659,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 2,
         he: "אותן. לשעות לפני שנה שהיא סמוכה לפירקן פירקן הוי",
-        en: "Rashi: the graduated training schedule before bar/bat mitzvah.",
+        en: "them' - for hours, the year before, which is close to their maturity; their maturity is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-003",
@@ -184669,11 +184673,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 3,
         he: "בן שלש עשרה לנקבה וארבע עשרה לזכר שדרך תינוקות להביא",
-        en: "Rashi: if a child's life is in danger on YK, the fast is violated to save them.",
+        en: "thirteen for a girl and fourteen for a boy, since it is the way of children to bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-004",
@@ -184681,11 +184687,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 4,
         he: "שתי שערות בשתים עשרה ויום אחד דהיינו בתוך שנת י\"ג והיא",
-        en: "Rashi: pregnant woman who smells food on YK is fed until she recovers.",
+        en: "two pubic hairs at twelve years and one day, that is, within the thirteenth year, and that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-005",
@@ -184693,11 +184701,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 5,
         he: "פירקה לעונשין ותינוק בי\"ג ויום אחד",
-        en: "Rashi: pikuach nefesh overrides all YK prohibitions.",
+        en: "her maturity for penalties; and a boy at thirteen years and one day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-006",
@@ -184705,11 +184715,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 6,
         he: "נמצא שנת י\"ד פרקו לעונשין ושנת י\"ג",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "so it turns out the fourteenth year is his maturity for penalties, and the thirteenth year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-007",
@@ -184717,11 +184729,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 7,
         he: "היא שנה הסמוכה לפרקו ושנת י\"ב",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "is the year close to his maturity, and the twelfth year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-008",
@@ -184729,11 +184743,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 8,
         he: "היא שנה לפני שנה הסמוכה לפרקו:",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "is the year before the year close to his maturity.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-009",
@@ -184741,11 +184757,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 9,
         he: "או לפני שתי שנים. שהיא לפני שתי",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "New comment: 'or two years before' - that is, before two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-010",
@@ -184753,11 +184771,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 10,
         he: "שנים סמוך לפרקו דהיינו שלש שנים",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "years close to his maturity, that is, three years",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01"
+        ]
       },
       {
         id: "rashi-yoma-082a-011",
@@ -184765,11 +184785,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 11,
         he: "לפני פרקן ובגמרא פריך השתא לפני",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "before their maturity; and in the Gemara it asks: now, if before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l01",
+          "yoma-082a-l03"
+        ]
       },
       {
         id: "rashi-yoma-082a-012",
@@ -184777,11 +184800,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 12,
         he: "שתים דהיינו ג' שנים אמרת מחנכין",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "two, that is three years, you say we train",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l03"
+        ]
       },
       {
         id: "rashi-yoma-082a-013",
@@ -184789,11 +184814,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 13,
         he: "לפני שנה דהיינו שתים מיבעיא:",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "before one year, that is two years - is it necessary to ask?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l03"
+        ]
       },
       {
         id: "rashi-yoma-082a-014",
@@ -184801,11 +184828,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 14,
         he: "גמ' בחולה. כחוש ותשוש כח:",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "Gemara: 'regarding a sick child' - thin and weak of strength.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l03"
+        ]
       },
       {
         id: "rashi-yoma-082a-015",
@@ -184813,11 +184842,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 15,
         he: "אמר רב הונא בן שמונה.",
-        en: "Rashi explains the opening discussion of this topic on 82a.",
+        en: "'Rav Huna said: an eight-year-old' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-016",
@@ -184825,11 +184856,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 16,
         he: "לבריא שעברה שמנה ונכנסת לתשע",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for a healthy child who has passed eight and entered nine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-017",
@@ -184837,11 +184870,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 17,
         he: "ובתינוקת כדמסיים מילתיה דהוי שנת",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and for a girl, as he concludes his statement, that the year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-018",
@@ -184849,11 +184884,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 18,
         he: "תשע ארבע שנים לפני פרקה: ובן",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of nine is four years before her maturity. New comment: 'and a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-019",
@@ -184861,11 +184898,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 19,
         he: "תשע. לחולה שעברה שנת תשע",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "nine-year-old' - for a sick child who has passed the year of nine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-020",
@@ -184873,11 +184912,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 20,
         he: "ונכנסה לתוך עשר דהיינו ג' שנים",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and entered into ten, that is, three years",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-021",
@@ -184885,11 +184926,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 21,
         he: "לפני פרקה מחנכין לשעות: בן עשר.",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "before her maturity, we train for hours. New comment: 'a ten-year-old' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-022",
@@ -184897,11 +184940,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 22,
         he: "לבריאה שעברה עשר ונכנסה לאחד",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "for a healthy girl who has passed ten and entered eleven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-023",
@@ -184909,11 +184954,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 23,
         he: "עשר ובן אחת עשרה לתינוקת חולה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "and 'an eleven-year-old' refers to a sick girl",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-024",
@@ -184921,11 +184968,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 24,
         he: "ונכנסה לי\"ב משלימין מדרבנן בן י\"ב",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "who entered twelve, we complete rabbinically; 'a twelve-year-old'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-025",
@@ -184933,11 +184982,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 25,
         he: "ונכנסה לי\"ג משלימין מדאוריי' שהיא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "who entered thirteen, we complete by Torah law, since that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-026",
@@ -184945,11 +184996,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 26,
         he: "פירקן בתינוקת הבריאה והחולה שוות",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "their maturity; for a girl, the healthy and the sick are equal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-027",
@@ -184957,11 +185010,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 27,
         he: "בו: ורב נחמן אומר וכו'. לא פליג",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in this. New comment: 'and Rav Nachman says, etc.' - Rav Nachman does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-028",
@@ -184969,11 +185024,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 28,
         he: "רב נחמן אדרב הונא אלא מר פירש",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "disagree with Rav Huna; rather, one master explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-029",
@@ -184981,11 +185038,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 29,
         he: "מילי דתינוקת ומר פירש מילי דתינוק:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the matter of a girl, and the other master explained the matter of a boy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l06"
+        ]
       },
       {
         id: "rashi-yoma-082a-030",
@@ -184993,11 +185052,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 30,
         he: "תנן. מחנכין אותו לשעות לפני שנה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'We learned' - we train him for hours, the year before,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-031",
@@ -185005,11 +185066,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 31,
         he: "דהיינו שתי שנים ולפני שתים דהיינו",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "that is, two years, and two years before, that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-032",
@@ -185017,11 +185080,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 32,
         he: "שלש בשלמא לרב נחמן ולרב הונא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "three; granted, for Rav Nachman and Rav Huna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-033",
@@ -185029,11 +185094,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 33,
         he: "דאמרי איכא השלמה מדרבנן",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "who say there is a rabbinic completion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-034",
@@ -185041,11 +185108,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 34,
         he: "כדקאמר אע\"ג דלדידהו הוי חינוך",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "as he says, even though according to them the training",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-035",
@@ -185053,11 +185122,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 35,
         he: "הבריא ארבע שנים מצי לתרוצ' למתני'",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "of a healthy child is four years, he can resolve the Mishnah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-036",
@@ -185065,11 +185136,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 36,
         he: "כולה בחולה וה\"ק מחנכין אותו לשעות",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "entirely regarding a sick child, and this is what he says: we train him for hours",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-037",
@@ -185077,11 +185150,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 37,
         he: "שתי שנים לפני השלמת דבריהם שהם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "two years before the completion of their rabbinic words, which are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-038",
@@ -185089,11 +185164,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 38,
         he: "שלש לפני השלמת דד\"ת כדקאמר רב",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "three, before the completion of Torah law, as Rav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-039",
@@ -185101,11 +185178,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 39,
         he: "הונא דשנה עשירית מחנכין את",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Huna says that in the tenth year we train",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-040",
@@ -185113,11 +185192,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 40,
         he: "התינוקת החולה לשעות שהיא לפני",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the sick girl for hours, which is before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-041",
@@ -185125,11 +185206,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 41,
         he: "שנה הסמוכה לפרק השלמת דבריהם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the year close to the maturity of the completion of their words,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-042",
@@ -185137,11 +185220,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 42,
         he: "שהיא בשנת י\"ב לחולה דהיינו לפני",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "which is in the twelfth year for a sick girl, that is, before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13"
+        ]
       },
       {
         id: "rashi-yoma-082a-043",
@@ -185149,11 +185234,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 43,
         he: "שתים הסמוכים לפרק דאורייתא: אלא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the two years close to the Torah-law maturity. New comment: 'but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l13",
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-044",
@@ -185161,11 +185249,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 44,
         he: "לר' יוחנן קשיא. לדידיה לא מיתוקמא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "for Rabbi Yochanan it is difficult' - according to him, the Mishnah cannot be established",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-045",
@@ -185173,11 +185263,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 45,
         he: "מתניתין כלל דהא אמרינן השלמה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "at all, since we say there is no rabbinic",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-046",
@@ -185185,11 +185277,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 46,
         he: "מדרבנן ליכא דתימא מתני' חדא",
-        en: "Rashi explains: from rabbinic law there is nothing to say, lest you claim the mishnah teaches one thing.",
+        en: "completion; lest you say the Mishnah teaches one uniform",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-047",
@@ -185197,11 +185291,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 47,
         he: "קתני כדאוקימנא אליבא דרב הונא",
-        en: "Rashi continues: as we established, according to Rav Huna.",
+        en: "ruling, as we established according to Rav Huna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-048",
@@ -185209,11 +185305,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 48,
         he: "ורב נחמן ורישא בחולה וסיפא בבריא",
-        en: "Rashi continues: and Rav Nachman - that the first clause speaks of a sick child and the latter clause of a healthy one.",
+        en: "and Rav Nachman, with the first clause about a sick child and the last clause about a healthy one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-049",
@@ -185221,11 +185319,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 49,
         he: "כדאוקימא רב חסדא נמי לא תוקמא דמתני' קתני שלש לבריא ושתים לחולה ור' יוחנן אמר שתים לבריא ואחת לחולה: אמר לך רבי יוחנן.",
-        en: "Rashi summarizes: as Rav Chisda also cannot establish it - for the mishnah states three years for a healthy child and two for a sick one, while Rabbi Yochanan says two for healthy and one for sick. Then Rashi opens comment on 'amar lach Rabbi Yochanan': Rabbi Yochanan responds.",
+        en: "as Rav Chisda also established it - this cannot be established either, for the Mishnah teaches three years for a healthy child and two for a sick one, and Rabbi Yochanan says two for a healthy child and one for a sick one. New comment: 'Rabbi Yochanan would say to you' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17"
+        ]
       },
       {
         id: "rashi-yoma-082a-050",
@@ -185233,11 +185333,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 50,
         he: "לא תתני לפני שנה דמשמע שתים ולפני שתים דמשמע ג' שנים אלא אימא מחנכין אותה שנה סמוך לפרק' בחולה ושתים לבריא: תא שמע דתנא",
-        en: "Rashi explains Rabbi Yochanan's position: do not teach 'before one year' (implying two) or 'before two years' (implying three), but rather say: we train her the year before the age of obligation for a sick child and two years for a healthy child. Then Rashi opens: come and hear, for Rabbah bar Shmuel taught.",
+        en: "do not teach 'before one year,' implying two, and 'before two years,' implying three; rather, say: we train her the year close to her maturity for a sick girl, and two years for a healthy one. New comment: 'come and hear, for the Tanna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l17",
+          "yoma-082a-l19"
+        ]
       },
       {
         id: "rashi-yoma-082a-051",
@@ -185245,11 +185348,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 51,
         he: "רבה בר שמואל. שנה או שתים כר' יוחנן ולא תני לפני שנה ולפני שתים: לר' יוחנן ניחא. ומוקי לה שנה לחולה ושתים לבריא:",
-        en: "Rashi notes: Rabbah bar Shmuel taught 'one year or two' - like Rabbi Yochanan - and did not use the phrasing 'before one year' and 'before two years.' Then Rashi explains: for Rabbi Yochanan this works out well, establishing one year for a sick child and two for a healthy child.",
+        en: "Rabba bar Shmuel taught' - 'a year or two,' like Rabbi Yochanan, and does not teach 'before a year' and 'before two years.' New comment: 'for Rabbi Yochanan this works well' - and he establishes it as one year for a sick child and two for a healthy one.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l19"
+        ]
       },
       {
         id: "rashi-yoma-082a-052",
@@ -185257,11 +185362,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 52,
         he: "אלא לרב הונא ולרב נחמן קשיא. דהא חינוך לשעות הוא ופחות שבחינוכין לשעות לדידהו ג' שנים הוי דהא אמר רב הונא בתינוקת",
-        en: "Rashi continues: but for Rav Huna and Rav Nachman it is difficult - for training is measured in hours, and the minimum training-by-hours in their view is three years, since Rav Huna said about a sick female minor.",
+        en: "New comment: 'but for Rav Huna and Rav Nachman it is difficult' - since training is for hours, and the minimum of trainings-for-hours, in their view, is three years, since Rav Huna said regarding a girl",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l19"
+        ]
       },
       {
         id: "rashi-yoma-082a-053",
@@ -185269,11 +185376,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 53,
         he: "חולה שמחנכין אותה בעשירית וברייתא קתני גדול שבחינוכין שתי שנים: מאי חינוך דקתני השלמה. דדבריהם ולדידן נמי השלמה",
-        en: "Rashi continues: that we train her by tenths (of a fast), and the baraita teaches that the maximum training period is two years. Then Rashi opens: what is the 'chinuch' mentioned? - completion (hashlama). This is rabbinic, and for us too 'hashlama.'",
+        en: "who is sick, that we train her in the tenth year, while the baraita teaches the maximum training is two years. New comment: 'what is the training that is taught? Completion' - of their rabbinic words, and for us too, completion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l19"
+        ]
       },
       {
         id: "rashi-yoma-082a-054",
@@ -185281,11 +185390,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 54,
         he: "דדבריהם שתים לבריא לפני השלמה דאורייתא אחת לחולה: מתני' עוברה שהריחה. העובר מריח ריח תבשיל והוא מתאוה לו ואם אינה",
-        en: "Rashi explains: the rabbinically required hashlama is two years for a healthy child, one year before the Torah-level obligation for a sick child. Then Rashi opens comment on the mishnah 'a pregnant woman who smelled [food]': the fetus smells a cooked dish and craves it, and if she does not eat both are endangered.",
+        en: "of their words: two years for a healthy child before the Torah-law completion, one for a sick child. New comment on the Mishnah: 'a pregnant woman who smelled' - the fetus smells the smell of a cooked dish and craves it, and if she does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l19",
+          "yoma-082a-l24"
+        ]
       },
       {
         id: "rashi-yoma-082a-055",
@@ -185293,11 +185405,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 55,
         he: "אוכלת שניהן מסוכנין: ע\"פ בקיאין. אם יאמרו שני רופאים שהוא מסוכן אם אינו אוכל: גמ' כוש. פלך תוחבין לה כוש ברוטב של אותו",
-        en: "Rashi glosses 'al pi beki'in': if two doctors say it is dangerous if she does not eat. Then for the Gemara, Rashi glosses 'kush': a spindle - they insert a kush into the gravy of that meat and she sucks it.",
+        en: "eat, both are endangered. New comment: 'according to experts' - if two doctors say it is dangerous if he does not eat. New comment on the Gemara: 'kush' - a spindle; they insert a kush into the gravy of that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l24",
+          "yoma-082a-l26"
+        ]
       },
       {
         id: "rashi-yoma-082a-056",
@@ -185305,11 +185420,16 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 56,
         he: "בשר ומוצצתו: למה נאמר בכל מאודך וכו'. יאמר החביב שבהן וכ\"ש שאינו חביב: כי כאשר יקום. בנערה המאורסה כתיב: מה למדנו מרוצח",
-        en: "Rashi continues: and she sucks it. Then Rashi explains 'why is it said with all your might etc.': let the most beloved thing be stated, and all the more so that which is not beloved. Then Rashi glosses 'ki ka'asher yakum': this is written regarding the betrothed maiden. And Rashi raises: what do we learn from the murderer?",
+        en: "meat, and she sucks it. New comment: 'why is it stated with all your might, etc.' - let the more beloved of them be stated, and all the more so the less beloved. New comment: 'for as when he rises' - is written regarding the betrothed girl. New comment: 'what do we learn from a murderer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l26",
+          "yoma-082a-l30",
+          "yoma-082a-l31",
+          "yoma-082a-l33"
+        ]
       },
       {
         id: "rashi-yoma-082a-057",
@@ -185317,11 +185437,14 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 57,
         he: "לנערה המאורסה. שהוא כמשפט הרוצח כן משפט הדבר הזה: מה נערה המאורסה ניתן רשות. למציל להצילה מבעילת זו בנפשו של בועל",
-        en: "Rashi explains: regarding the betrothed maiden - her case is like the case of a murderer, so too is the law of this matter. Then Rashi opens: what do we learn from the betrothed maiden? - that permission was given to a rescuer to save her from this intercourse even at the cost of the life of the violator.",
+        en: "regarding the betrothed girl' - that just as the law of the murderer, so is the law of this matter. New comment: 'just as a betrothed girl, permission was given' - to the rescuer, to save her from this intercourse, at the cost of the life of the one who violates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l33",
+          "yoma-082a-l35"
+        ]
       },
       {
         id: "rashi-yoma-082a-058",
@@ -185329,11 +185452,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 58,
         he: "זה להורגו עד שלא בא עליה כדכתיב אין מושיע לה (דברים כב) הא יש מושיע יושיענה בכל צידי תשועה: רוצח יהרג ואל יעבור. אם",
-        en: "Rashi continues: to kill him before he violates her, as it is written 'there is no savior for her' (Devarim 22) - implying that if there is a savior, he should save her by any means of rescue. Then Rashi opens: 'a murderer should be killed rather than transgress' - if.",
+        en: "her, to kill him before he comes upon her, as it is written 'there is no savior for her' (Deuteronomy 22) - implying that if there is a savior, he should save her by any means of salvation. New comment: 'a murderer should be killed rather than transgress' - if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l35"
+        ]
       },
       {
         id: "rashi-yoma-082a-059",
@@ -185341,11 +185466,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 59,
         he: "אמרו לו הרוג חבירך ואם לאו אהרוג אותך יהרג ואל יעבור עבירה זו כדמפרש לקמן: אף נערה המאורסה. אם יאמרו בעול ארוסת חבירך",
-        en: "Rashi explains: they tell him - kill your fellow, and if not I will kill you - he should be killed rather than commit this sin, as explained below. Then Rashi opens: 'and so too the betrothed maiden' - if they say: violate your fellow's betrothed.",
+        en: "they say to him: kill your fellow, and if not, I will kill you - he should be killed rather than transgress this sin, as is explained below. New comment: 'so too a betrothed girl' - if they say: violate your fellow's betrothed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l35"
+        ]
       },
       {
         id: "rashi-yoma-082a-060",
@@ -185353,11 +185480,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 60,
         he: "או תיהרג יהרג ואל יעבור אבל היא אינה מצווה למסור את נפשה דהיא אינה עושה כלום דקרקע עולם בעלמא היא וראיה לדבר אסתר:",
-        en: "Rashi continues: or be killed - she should be killed rather than transgress. But she herself is not commanded to give up her life, for she does nothing - she is passive like the ground - and the proof is Esther.",
+        en: "or be killed - she should be killed rather than transgress; but she herself is not commanded to give up her life, since she does nothing, for she is mere inert ground, and the proof for this is Esther.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l35"
+        ]
       },
       {
         id: "rashi-yoma-082a-061",
@@ -185365,11 +185494,13 @@ const DAF_CONTENT = {
         daf: "82a",
         vilnaLine: 61,
         he: "ורוצח",
-        en: "Rashi opens comment on 'and a murderer' - continuing the preceding comparison between the murderer case and the betrothed maiden ruling.",
+        en: "This ('and a murderer') continues on 82b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082a-l35"
+        ]
       }
     ],
     review: "draft"
