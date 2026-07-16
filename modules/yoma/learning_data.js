@@ -185738,11 +185738,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 1,
         he: "ורוצח גופיה מנלן. דיהרג ואל יעבור: מרי דוראי. שלטון של כפר",
-        en: "Rashi: even a murderer's life is preserved on Yom Kippur.",
+        en: "'And a murderer himself, from where do we derive it' - that he should be killed rather than transgress. New comment: 'lord of Durai' - the ruler of a village",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-002",
@@ -185750,11 +185752,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 2,
         he: "שאני דר שם: מאי חזית דדמא דידך סומק טפי. כלומר מאי דעתיך",
-        en: "Rashi: the story of the pregnant woman and R. Yannai's whisper.",
+        en: "that I live in. New comment: 'what do you see that your blood is redder' - meaning, what makes you think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-003",
@@ -185762,11 +185766,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 3,
         he: "למשרי מילתא משום וחי בהם ולא שימות בהם טעמו של דבר לפי",
-        en: "Rashi: the power of suggestion satisfied the craving without actual eating.",
+        en: "to permit the matter on account of 'and he shall live by them, and not die by them' - the reason for the matter is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-004",
@@ -185774,11 +185780,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 4,
         he: "שחביבה נפשן של ישראל לפני המקום יותר מן המצות אמר הקב\"ה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the souls of Israel are dearer to the Omnipresent than the commandments; the Holy One, blessed be He, said:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-005",
@@ -185786,11 +185794,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 5,
         he: "תבטל המצוה ויחיה זה אבל עכשיו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "let the commandment be nullified and let this one live; but now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-006",
@@ -185798,11 +185808,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 6,
         he: "שיש כאן ישראל נהרג והמצוה",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "since here there is an Israelite being killed, and the commandment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-007",
@@ -185810,11 +185822,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 7,
         he: "בטילה למה ייטב בעיני המקום",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "is still nullified, why should it be good in the eyes of the Omnipresent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-008",
@@ -185822,11 +185836,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 8,
         he: "לעבור על מצותו למה יהיה דמך",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "to transgress His commandment? Why should your blood be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-009",
@@ -185834,11 +185850,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 9,
         he: "חביב עליו יותר מדם חבירך ישראל:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "dearer to Him than the blood of your fellow Israelite?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l01"
+        ]
       },
       {
         id: "rashi-yoma-082b-010",
@@ -185846,11 +185864,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 10,
         he: "ההיא עוברה דארחא. שהריחה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "'That pregnant woman of the road' - who smelled food,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l06"
+        ]
       },
       {
         id: "rashi-yoma-082b-011",
@@ -185858,11 +185878,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 11,
         he: "ויום הכפורים היה: לחושו לה.",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and it was Yom Kippur. New comment: 'whisper to her' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l06"
+        ]
       },
       {
         id: "rashi-yoma-082b-012",
@@ -185870,11 +185892,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 12,
         he: "באזנה שיוה\"כ הוא היום אולי תוכל",
-        en: "Rashi explains that one whispered in her ear that it is Yom Kippur today, perhaps she would be able to hold herself back.",
+        en: "in her ear, that today is Yom Kippur, perhaps she will be able",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l06"
+        ]
       },
       {
         id: "rashi-yoma-082b-013",
@@ -185882,11 +185906,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 13,
         he: "להתאפק: ואלחישה. קיבלה את",
-        en: "Rashi glosses the term 'va-elchishha': she accepted the whispering.",
+        en: "to restrain herself. New comment: 'and she accepted the whisper' - she accepted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l06"
+        ]
       },
       {
         id: "rashi-yoma-082b-014",
@@ -185894,11 +185920,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 14,
         he: "הלחישה שפסק העובר מתאותו:",
-        en: "Rashi continues: that the fetus stopped its craving, explaining the mechanism by which the whisper was effective.",
+        en: "the whisper, that the fetus ceased its craving.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l06"
+        ]
       },
       {
         id: "rashi-yoma-082b-015",
@@ -185906,11 +185934,13 @@ const DAF_CONTENT = {
         daf: "82b",
         vilnaLine: 15,
         he: "זורו",
-        en: "Rashi opens comment on 'zoru', continuing the preceding narrative discussion about the craving and the response.",
+        en: "This ('zoru') continues on 83a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-082b-l09"
+        ]
       }
     ],
     review: "draft"
