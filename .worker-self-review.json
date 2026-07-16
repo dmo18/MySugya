@@ -12,9 +12,10 @@
  },
  "blockersFound": [],
  "oneAnchorAttestation": {
-  "singleAnchorLocationConfirmed": true,
-  "offsetIsZero": true,
-  "noOtherCitationAnywhereOnDaf": true
+  "onlyOneGenuineCitation": true,
+  "citationTranslatedOnOwnLine": true,
+  "noCitationInventedMovedOrDuplicated": true,
+  "noSemanticUncertaintyRemains": true
  },
  "authorizedEmptyLinks": [
   "yoma-085a-l13 (the Gemara's own a-fortiori answer 'lo miba'ya ka'amar... afilu safek chai safek meit... afilu safek goy safek yisrael mefakchin') has no Rashi comment anywhere on this daf; every line was checked for its distinguishing terms ('lo miba'ya', 'safek chai', 'safek meit') and none appear. Rashi's comment on the preceding question (l12, 'mai ka'amar') moves directly into the concrete application discussed via l19 without walking through l13's self-contained a-fortiori chain.",
