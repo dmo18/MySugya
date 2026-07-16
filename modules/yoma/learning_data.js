@@ -186665,11 +186665,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 1,
         he: "זורו רשעים מרחם. נעשו זרים ונתנכרו לאביהם שבשמים: אצר",
-        en: "Rashi: R. Yochanan on the evil inclination present from birth.",
+        en: "'They are estranged, the wicked, from the womb' - they became strangers and estranged from their Father in heaven. New comment: 'he hoarded",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l01"
+        ]
       },
       {
         id: "rashi-yoma-083a-002",
@@ -186677,11 +186679,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 2,
         he: "פירי. להפקיע שערים ותניא (ב\"ב דף צ:) אין אוצרין פירות בארץ",
-        en: "Rashi: an ill person may be fed on YK based on expert judgment.",
+        en: "produce' - to inflate prices; and it was taught (Bava Batra 90b): one may not hoard produce in the land",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l01"
+        ]
       },
       {
         id: "rashi-yoma-083a-003",
@@ -186689,11 +186693,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 3,
         he: "ישראל וכל דבר שהוא חיי נפש לפי שמפקיעין את השערים:",
-        en: "Rashi: the Mishna's case of someone seized with ravenous hunger (bulmos).",
+        en: "of Israel, nor anything that is life-sustaining, since it inflates prices.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l01"
+        ]
       },
       {
         id: "rashi-yoma-083a-004",
@@ -186701,11 +186707,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 4,
         he: "תונבא. שטות אשטורדישו\"ן מחמת חוליו: על פי בקיאין. תרי",
-        en: "Rashi: non-kosher food may be given to save someone from bulmos.",
+        en: "'Tunba' - confusion, 'astordison' in the vernacular, on account of his illness. New comment: 'by expert judgment' - two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l06",
+          "yoma-083a-l08"
+        ]
       },
       {
         id: "rashi-yoma-083a-005",
@@ -186713,11 +186722,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 5,
         he: "ע\"פ בקי לא וע\"פ עצמו לא תיובתא",
-        en: "Rashi: the principle: even forbidden food is permitted to save life.",
+        en: "by one expert, no, and by himself, no - this is a refutation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l08"
+        ]
       },
       {
         id: "rashi-yoma-083a-006",
@@ -186725,11 +186736,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 6,
         he: "דר' ינאי בתרוייהו: הכא במאי",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "of Rabbi Yannai on both counts. New comment: 'what are we",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l08",
+          "yoma-083a-l10"
+        ]
       },
       {
         id: "rashi-yoma-083a-007",
@@ -186737,11 +186751,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 7,
         he: "עסקינן. דאמר חולה לא צריך",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "dealing with here' - where the sick person says he doesn't need to eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l10"
+        ]
       },
       {
         id: "rashi-yoma-083a-008",
@@ -186749,11 +186765,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 8,
         he: "ואשמועינן מתני' דשומעין לרופאין:",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "and the Mishnah teaches us that we listen to the doctors.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l10"
+        ]
       },
       {
         id: "rashi-yoma-083a-009",
@@ -186761,11 +186779,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 9,
         he: "וניספו ליה על פי בקי. דהא באחד",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "'but let us feed him by one expert' - since even with one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l10"
+        ]
       },
       {
         id: "rashi-yoma-083a-010",
@@ -186773,11 +186793,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 10,
         he: "נמי אמר ר' ינאי דשומעין לרופא:",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "expert too, Rabbi Yannai said that we listen to the doctor.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l10"
+        ]
       },
       {
         id: "rashi-yoma-083a-011",
@@ -186785,11 +186807,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 11,
         he: "ואע\"ג דאמר רב ספרא. דהא דאמור",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "New comment: 'and even though Rav Safra said' - that what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l13"
+        ]
       },
       {
         id: "rashi-yoma-083a-012",
@@ -186797,11 +186821,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 12,
         he: "רבנן תרי כמאה ומאה כתרי לענין",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "the Rabbis said, 'two are like a hundred and a hundred are like two,' regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l13"
+        ]
       },
       {
         id: "rashi-yoma-083a-013",
@@ -186809,11 +186835,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 13,
         he: "עדות הוא דאמור אבל לענין אומדנא",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "testimony is what they said, but regarding assessment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l13"
+        ]
       },
       {
         id: "rashi-yoma-083a-014",
@@ -186821,11 +186849,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 14,
         he: "בתר דעות אזלינן אשמעי' במתני'",
-        en: "Rashi explains the opening discussion of this topic on 83a.",
+        en: "we follow the opinions - it teaches us in the Mishnah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l13"
+        ]
       },
       {
         id: "rashi-yoma-083a-015",
@@ -186833,11 +186863,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 15,
         he: "דכי אמרינן זיל בתר דעות באומדנא",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that when we say to follow the opinions, that is in an assessment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l13",
+          "yoma-083a-l17"
+        ]
       },
       {
         id: "rashi-yoma-083a-016",
@@ -186845,11 +186878,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 16,
         he: "דממונא כגון בשומא ששמין לבעל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "of money, such as in an appraisal made for a creditor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l17"
+        ]
       },
       {
         id: "rashi-yoma-083a-017",
@@ -186857,11 +186892,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 17,
         he: "חוב אבל באומדנא דחולה אף על גב",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "but in an assessment of a sick person, even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l17"
+        ]
       },
       {
         id: "rashi-yoma-083a-018",
@@ -186869,11 +186906,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 18,
         he: "דרובא אמרי לא צריך כיון דאיכא תרי",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "the majority say he doesn't need to, since there are two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l17"
+        ]
       },
       {
         id: "rashi-yoma-083a-019",
@@ -186881,11 +186920,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 19,
         he: "דאמרי צריך ספק נפשות להקל: מכלל",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "who say he needs to, and doubtful life is to be lenient. New comment: 'by inference",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l17",
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-020",
@@ -186893,11 +186935,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 20,
         he: "דרישא דאמר צריך. ואפ\"ה קתני",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "that the first clause says he needs. And even so, the Mishnah teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-021",
@@ -186905,11 +186949,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 21,
         he: "מתני' ע\"פ בקיאין אין ע\"פ עצמו לא:",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "in the Mishnah: by expert judgment - yes, by his own word - no.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-022",
@@ -186917,11 +186963,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 22,
         he: "במה דברים אמורים. דמאכילין אותו",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "'In what case is this said' - that we feed him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-023",
@@ -186929,11 +186977,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 23,
         he: "ע\"פ בקיאין כלומר דבעינן בקיאין",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "by expert judgment, meaning that we require experts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-024",
@@ -186941,11 +186991,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 24,
         he: "דאמר לא צריך ואמרי בקיאין צריך",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "where he says he doesn't need to and the experts say he does need to,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-025",
@@ -186953,11 +187005,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 25,
         he: "מאכילין אותו אבל אמר צריך אני אם",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "we feed him; but if he said 'I need,' if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-026",
@@ -186965,11 +187019,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 26,
         he: "אין שם בקיאין תרי דאמרי לא צריך",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "there are not two experts there who say he doesn't need to,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-027",
@@ -186977,11 +187033,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 27,
         he: "אלא חד מאכילין אותו ע\"פ עצמו כר'",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "but only one, we feed him by his own word, like Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18"
+        ]
       },
       {
         id: "rashi-yoma-083a-028",
@@ -186989,11 +187047,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 28,
         he: "ינאי דאמר שומעין לחולה: מר בר",
-        en: "Rashi elaborates on the halachic details of this sugya.",
+        en: "Yannai who said we listen to the sick person. New comment: 'Mar bar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l18",
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-029",
@@ -187001,11 +187062,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 29,
         he: "רב אשי אמר. הך סיפא לא תפרש",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Rav Ashi said' - do not explain this latter clause",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-030",
@@ -187013,11 +187076,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 30,
         he: "הכי דמשמע דהיכא דאמר צריך אני",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "in this way, that it implies that where he says 'I need'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-031",
@@ -187025,11 +187090,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 31,
         he: "ואיכא תרי דאמרי לא צריך לא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "and there are two who say he doesn't need to, we do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-032",
@@ -187037,11 +187104,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 32,
         he: "צייתינן ליה הא לא אמרי' דהיכא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "listen to him; rather, we do not say that where",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-033",
@@ -187049,11 +187118,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 33,
         he: "דאמר צריך אני ואפי' איכא מאה",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he says 'I need,' even if there are a hundred",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-034",
@@ -187061,11 +187132,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 34,
         he: "דאמרי לא צריך צייתינן ליה מאי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "who say he doesn't need to, we listen to him. What is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21"
+        ]
       },
       {
         id: "rashi-yoma-083a-035",
@@ -187073,11 +187146,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 35,
         he: "טעמא לב יודע מרת נפשו: הכי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "the reason? 'The heart knows its own bitterness.' New comment: 'this is the correct",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l21",
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-036",
@@ -187085,11 +187161,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 36,
         he: "גר' תנן אם אין שם בקיאין מאכילין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "reading: we learned: if there are no experts, we feed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-037",
@@ -187097,11 +187175,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 37,
         he: "אותו על פי עצמו טעמא דליכא",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "him by his own word' - the reason is that there are none",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-038",
@@ -187109,11 +187189,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 38,
         he: "בקיאין הא איכא בקיאין לא הכי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "experts, but if there are experts, no. This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-039",
@@ -187121,11 +187203,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 39,
         he: "קאמר במה דברים אמורים דאמר",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "what it says: in what case is this said - where he says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-040",
@@ -187133,11 +187217,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 40,
         he: "לא צריך אבל אמר צריך אני אין שם",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "he doesn't need to; but if he said 'I need,' there being no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-041",
@@ -187145,11 +187231,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 41,
         he: "בקיאין כלל מאכילין אותו וכו'. אין",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "experts at all, we feed him, etc.' New comment: 'there are no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-042",
@@ -187157,11 +187245,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 42,
         he: "שם בקיאין כלומר אין בקיאותן כלום:",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "experts there' - meaning their expertise amounts to nothing.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l23"
+        ]
       },
       {
         id: "rashi-yoma-083a-043",
@@ -187169,11 +187259,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 43,
         he: "מתני' מי שאחזו בולמוס. חולי",
-        en: "Rashi clarifies the ruling and its application.",
+        en: "Mishnah: 'one who is seized by bulmos' - a sickness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-044",
@@ -187181,11 +187273,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 44,
         he: "האוחז מחמת רעבון עיניו כהות והוא",
-        en: "Rashi defines bulmos: it is a sickness that seizes a person from extreme hunger, causing his eyes to dim.",
+        en: "that seizes on account of hunger; his eyes dim and he is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-045",
@@ -187193,11 +187287,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 45,
         he: "מסוכן למות וכשמראיתו חוזרת בידוע",
-        en: "Rashi continues: the person is in danger of dying, and when his vision returns it is known that he has recovered.",
+        en: "in danger of dying, and when his appearance returns, it is known",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-046",
@@ -187205,11 +187301,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 46,
         he: "שנתרפא: כלב שוטה. מפרש בגמ':",
-        en: "Rashi closes the bulmos definition - 'when he has been healed' - then opens a new lemma: 'kelev shoteh' (a rabid dog), noting it is explained in the Gemara.",
+        en: "that he has recovered. New comment: 'a mad dog' - explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-047",
@@ -187217,11 +187315,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 47,
         he: "אין מאכילין מחצר כבד שלו. ואע\"פ",
-        en: "Rashi glosses the Mishna's ruling: we do not feed the bite victim the lobe of the dog's liver. Rashi continues: even though.",
+        en: "'we do not feed him from the lobe of its liver' - and even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-048",
@@ -187229,11 +187329,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 48,
         he: "שנוהגין הרופאים ברפואה זו אינה",
-        en: "Rashi continues: physicians practice this remedy, it is not a complete enough cure.",
+        en: "the doctors practice this remedy, it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-049",
@@ -187241,11 +187343,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 49,
         he: "רפואה גמורה להתיר לו איסור",
-        en: "Rashi continues the clause: not a complete remedy sufficient to permit him to eat.",
+        en: "a complete cure, enough to permit for him the prohibition of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-050",
@@ -187253,11 +187357,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 50,
         he: "בהמה טמאה על כך: ור' מתיא בן",
-        en: "Rashi completes the clause: a Torah-prohibited animal for this purpose. Then Rashi opens: 'and Rabbi Matya ben' - introducing his dissenting opinion.",
+        en: "an impure animal for this. New comment: 'and Rabbi Matya ben",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26"
+        ]
       },
       {
         id: "rashi-yoma-083a-051",
@@ -187265,11 +187371,15 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 51,
         he: "חרש מתיר. קסבר רפואה גמורה היא: גמ' אמר אביי ובטעמא. משיודע להבחין בין טעם תבשיל יפה לטעם תבשיל רע: מאכילין",
-        en: "Rashi explains: Rabbi Matya ben Charash permits it because he holds it is a complete cure. Then Rashi cites the Gemara - Abaye's reasoning: recovery is known from when he can again distinguish between the taste of a good dish and the taste of a bad one. Rashi then opens: 'we feed him the lightest' - if no permitted food is available and various prohibited foods are before us, we feed him the least severe.",
+        en: "Charash permits it' - he holds it is a complete cure. New comment on the Gemara: 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. New comment: 'we feed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l26",
+          "yoma-083a-l32",
+          "yoma-083a-l33"
+        ]
       },
       {
         id: "rashi-yoma-083a-052",
@@ -187277,11 +187387,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 52,
         he: "אותו הקל הקל. אם אין לנו דברים מותרים כדי צרכו ויש לפנינו מיני איסורין מאכילין אותו הקל הקל שבהם: טבל ושביעית מאכילין",
-        en: "Rashi explains: 'tevel and shevi'it - we feed him shevi'it' - after the time of bi'ur, since tevel carries a heavenly death penalty while shevi'it carries only a positive commandment prohibition.",
+        en: "him the lightest first' - if we do not have enough permitted food for his needs, and various prohibited types are before us, we feed him the lightest of them first. New comment: 'tevel and shevi'it - we feed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l33"
+        ]
       },
       {
         id: "rashi-yoma-083a-053",
@@ -187289,11 +187401,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 53,
         he: "אותו שביעית. לאחר זמן הביעור שהטבל במיתה בידי שמים והשביעית בעשה: בדאפשר בחולין. שיש די בחולין של טבל זה להאכילו",
-        en: "Rashi explains 'when chullin is possible': meaning there is enough non-sacred produce from this tevel to feed him after terumah is separated. Then Rashi explains the unanimous rule: everyone agrees we fix it and feed him chullin, not tevel or terumah.",
+        en: "him shevi'it' - after the time of bi'ur, since tevel carries death by heaven's hand, while shevi'it carries only a positive commandment. New comment: 'where it is possible with chullin' - that there is enough chullin in this tevel to feed him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l33",
+          "yoma-083a-l34"
+        ]
       },
       {
         id: "rashi-yoma-083a-054",
@@ -187301,11 +187416,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 54,
         he: "לאחר שתינטל תרומתו: דכולי עלמא לא פליגי דמתקנינן ליה ומספינן ליה. חולין ואין מאכילין אותו לא טבל ולא תרומה: כי פליגי",
-        en: "Rashi explains 'where they disagree': when chullin is not possible unless he eats the whole produce. The ruling is to feed him the tevel as-is, without separating terumah to give him each portion separately.",
+        en: "once its teruma is removed. New comment: 'all agree that we fix it and feed it to him' - chullin, and we do not feed him either tevel or teruma. New comment: 'when do they disagree'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l34",
+          "yoma-083a-l37"
+        ]
       },
       {
         id: "rashi-yoma-083a-055",
@@ -187313,11 +187431,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 55,
         he: "דלא אפשר בחולין. אלא אם כן אוכל את כולו וקאמר מאכילין אותו הטבל כמות שהוא ולא יפרישו ממנו תרומתו להאכילו תרומה לעצמה",
-        en: "Rashi continues: and chullin separately. Ben Teima says it is better to separate the terumah and feed him each portion on its own, rather than feed him the tevel as-is.",
+        en: "where it is not possible with chullin' - unless he eats it all, and it says we feed him the tevel as it is, and they should not separate its teruma from it to feed him teruma by itself",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l37"
+        ]
       },
       {
         id: "rashi-yoma-083a-056",
@@ -187325,11 +187445,14 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 56,
         he: "וחולין לעצמן ובן תימא אומר מוטב שיפרישו תרומתו ויאכילוהו כל אחד לעצמו ולא יאכילוהו טבל כמות שהוא: מר סבר טבל חמור.",
-        en: "Rashi explains the first opinion: tevel (untithed produce) is more severe because it is not fit even for kohanim; therefore it is better to separate terumah and let each person eat his portion individually, rather than feed the sick person tevel as-is.",
+        en: "and chullin by itself; and Ben Teima says it is better that they separate its teruma and feed him each one separately, and not feed him tevel as it is. New comment: 'one master holds tevel is more severe' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l34",
+          "yoma-083a-l37"
+        ]
       },
       {
         id: "rashi-yoma-083a-057",
@@ -187337,11 +187460,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 57,
         he: "שאפי' לכהנים אינו ראוי: ומר סבר תרומה חמורה. שאין לה היתר אבל טבל אפשר דמתקן להו וחולין יהו ראוין לכל אדם:",
-        en: "Rashi explains the opposing view: the other sage holds terumah is more severe because it has no corrective fix, while tevel can be remedied by tithing, after which the produce becomes ordinary chullin permitted to everyone.",
+        en: "since it is not fit even for kohanim. New comment: 'and one master holds teruma is more severe' - since it has no permission or remedy, but tevel can be fixed and become chullin fit for anyone.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l37"
+        ]
       },
       {
         id: "rashi-yoma-083a-058",
@@ -187349,11 +187474,13 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 58,
         he: "אפשר",
-        en: "Rashi opens the comment on 'it is possible' (efshar), continuing the discussion of how tevel can be corrected while terumah cannot.",
+        en: "This ('efshar') continues on 83b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-083a-l37"
+        ]
       }
     ],
     review: "draft"
