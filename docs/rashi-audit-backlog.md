@@ -19,6 +19,12 @@ concludes ..."), bracket-guessed editorial completions, line-number
 placeholders, or untranslated Hebrew passthrough. This supersedes the
 narrative below wherever they disagree:
 
+Remediation progress (VERSION 15.151): the first bounded batch (10a, 10b,
+11a, 11b, 12a; PRs #136-#139, #141) is repaired, verified, and marked
+resolved in the table below. 3,689 contaminated lines across 81 daf remain
+in the debt inventory. The recommended next batch is 12b, 13a, 13b, 14a,
+14b.
+
 - The "Batch N resolved" narratives in this file are historical notes, NOT
   proof of current semantic correctness. Repository history was squashed
   (this entire file entered git in a single commit), so those claims cannot
@@ -46,11 +52,11 @@ narrative below wherever they disagree:
 | 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
 | 3b | 11 | 49 | 22% | rashi-reconstruction | open | 0ce6071 |
 | 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
-| 10a | 21 | 35 | 60% | rashi-reconstruction | open | 0ce6071 |
-| 10b | 5 | 21 | 24% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
-| 11a | 32 | 43 | 74% | rashi-reconstruction | open | 0ce6071 |
-| 11b | 33 | 39 | 85% | rashi-reconstruction | open | 0ce6071 |
-| 12a | 58 | 66 | 88% | rashi-reconstruction | open | 0ce6071 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 3156001 |
 | 12b | 58 | 62 | 94% | rashi-reconstruction | open | 0ce6071 |
 | 13a | 28 | 29 | 97% | rashi-reconstruction | open | 0ce6071 |
 | 13b | 24 | 28 | 86% | rashi-reconstruction | open | 0ce6071 |
