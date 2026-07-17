@@ -40,7 +40,10 @@
         "coreTension": "Ordinary halachic categories say a vessel resting on the ground picks up impurity from the ground. The ketoret vessel rested on the floor of the Holy of Holies, the most sacred point in the Temple, yet the Gemara needs it to be exempt, which means ordinary spatial and halachic rules cannot simply apply there.",
         "coreMove": "The Gemara grounds the exemption in the same miraculous status the Ark itself had in that space, where the Ark occupied no measurable area; if the holiest object in the room defied ordinary spatial rules, a vessel resting in that same space is governed by those suspended rules too, not by the standard floor-contact impurity law. This leads directly into a sobering list: five things that defined the First Temple's space as supernatural in just this way were simply absent from the Second Temple, the Ark itself, the heavenly fire, the Shechina, the holy spirit of prophecy, and the Urim VeTumim. The exemption only worked because the First Temple's space was charged with these elements; their absence in the Second Temple is the deeper point the vessel discussion sets up.",
         "resolution": "The ketoret vessel is exempt from floor-contact impurity because it served within the same miraculously suspended space that allowed the Ark to occupy no measurable area, and that miraculous status belonged specifically to the First Temple, one of five elements never present in the Second.",
-        "takeaway": {"type": "conceptual", "text": "A narrow halachic exemption can rest on a much larger theological claim about a space's status. Listing concrete absences, an object, a fire, a presence, a voice, an oracle, can make a diminishment of divine immanence legible in a way that abstract description cannot."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A narrow halachic exemption can rest on a much larger theological claim about a space's status. Listing concrete absences, an object, a fire, a presence, a voice, an oracle, can make a diminishment of divine immanence legible in a way that abstract description cannot."
+        },
         "ahaMoment": "The five absences from the Second Temple form a devastating list: the physical throne of God (Ark), his direct validation (fire), his presence (Shechina), his communication (prophecy), and his oracle (Urim VeTumim). The Second Temple was magnificent but functionally the divine core was gone.",
         "learningBlocker": "Learners treat the ketoret vessel ruling as an isolated technical exemption, missing that its justification, the same miraculous suspension of space that let the Ark occupy no area, is the same property the Gemara then says the Second Temple lacked, making the two halves of this sugya one continuous argument rather than two separate topics.",
         "memoryAnchor": "Five things missing from the Second Temple: Ark, fire, Shechina, prophecy, Urim VeTumim. The ketoret vessel's exemption depended on that same vanished miraculous space."
@@ -102,8 +105,14 @@
         "yoma-021a-s02"
       ],
       "misconceptions": [
-        {"misconception": "The five missing elements were merely sentimental losses, nostalgic absences with no practical consequence.", "correction": "They were functional losses: the fire validated offerings, the Urim VeTumim gave concrete national guidance, and the Shechina made the space holy in a way bearing directly on the Temple's theological standing, not just its emotional resonance."},
-        {"misconception": "The Ark's absence meant only the tablets were gone, while a substitute cover remained for the Yom Kippur service.", "correction": "The Ark's absence included its cover, the kapporet, which had been the site of the Yom Kippur blood sprinkling. In the Second Temple the High Priest sprinkled on the even hashtiya, the bare foundation stone, in its place."}
+        {
+          "misconception": "The five missing elements were merely sentimental losses, nostalgic absences with no practical consequence.",
+          "correction": "They were functional losses: the fire validated offerings, the Urim VeTumim gave concrete national guidance, and the Shechina made the space holy in a way bearing directly on the Temple's theological standing, not just its emotional resonance."
+        },
+        {
+          "misconception": "The Ark's absence meant only the tablets were gone, while a substitute cover remained for the Yom Kippur service.",
+          "correction": "The Ark's absence included its cover, the kapporet, which had been the site of the Yom Kippur blood sprinkling. In the Second Temple the High Priest sprinkled on the even hashtiya, the bare foundation stone, in its place."
+        }
       ],
       "relatedSugyot": [
         "yoma-021a-s02"
@@ -200,7 +209,10 @@
         "learnerQuestion": "If the Shechina was one of the five things missing from the Second Temple, does that mean the straight-smoke miracle, which signaled divine acceptance of offerings, was missing there too?",
         "coreTension": "The straight-smoke miracle was tied to divine acceptance, and the Shechina's absence from the Second Temple suggests its miracles might not have carried over. But the Second Temple's service was still treated as valid and its offerings as accepted, which seems to require some sign of acceptance to still be present.",
         "coreMove": "The Gemara does not settle whether the smoke miracle continued in the Second Temple. One line of reasoning argues from the Shechina's documented absence that the miracle did not carry over; another argues that losing the Shechina did not necessarily strip every miraculous feature from the space, so the smoke could still have risen straight. The Gemara leaves both readings standing rather than declaring a winner, while being clear that the question only concerns which miraculous features remained, not whether the Second Temple's service was valid at all.",
-        "takeaway": {"type": "conceptual", "text": "The absence of one supernatural marker, like the Shechina, does not automatically settle whether other supernatural markers tied to the same era also disappeared; that is a separate question the Gemara can leave open even while affirming the underlying institution's validity."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "The absence of one supernatural marker, like the Shechina, does not automatically settle whether other supernatural markers tied to the same era also disappeared; that is a separate question the Gemara can leave open even while affirming the underlying institution's validity."
+        },
         "ahaMoment": "The smoke's direction was a sign, straight up meant divine acceptance, horizontal or windswept might signal rejection. The First Temple smoke was always straight; the Second Temple's status was left genuinely unresolved, reflecting real uncertainty about its diminished divine presence rather than a settled downgrade.",
         "learningBlocker": "Learners assume that because the Shechina was confirmed absent from the Second Temple, every other First Temple miracle must also be absent by extension, missing that the Gemara treats each miracle as a separate question and explicitly leaves the smoke question open rather than inferring it automatically from the Shechina's absence.",
         "memoryAnchor": "Straight smoke = divine acceptance. First Temple: always straight. Second Temple: genuinely debated, not resolved."
@@ -287,8 +299,14 @@
         "yoma-021b-s01"
       ],
       "misconceptions": [
-        {"misconception": "The debate over the Second Temple's smoke miracle means its overall validity was in question.", "correction": "The Second Temple's validity as a functioning Temple was not in dispute; the open question is narrower, whether it retained every specific miraculous feature the First Temple had, not whether its service counted at all."},
-        {"misconception": "The smoke rising straight up was a merely symbolic flourish in the text.", "correction": "In ancient cultures generally, and in Judaism specifically, the direction of sacrificial smoke was read as a concrete sign of divine response, so the Gemara treats it as a real indicator worth debating, not decorative imagery."}
+        {
+          "misconception": "The debate over the Second Temple's smoke miracle means its overall validity was in question.",
+          "correction": "The Second Temple's validity as a functioning Temple was not in dispute; the open question is narrower, whether it retained every specific miraculous feature the First Temple had, not whether its service counted at all."
+        },
+        {
+          "misconception": "The smoke rising straight up was a merely symbolic flourish in the text.",
+          "correction": "In ancient cultures generally, and in Judaism specifically, the direction of sacrificial smoke was read as a concrete sign of divine response, so the Gemara treats it as a real indicator worth debating, not decorative imagery."
+        }
       ],
       "relatedSugyot": [
         "yoma-021a-s02",
@@ -377,7 +395,10 @@
         "coreTension": "Two verses each claim the fire: one describes fire coming down from heaven onto the altar, the other commands the priests, 'you shall kindle fire on the altar,' a human action. Read independently, each verse suggests its own source is sufficient, but together they appear to compete for which fire actually mattered.",
         "coreMove": "The Gemara resolves this by reading both verses as describing simultaneous, non-competing requirements: the heavenly fire descended as a sign of divine acceptance and sanctification, while the human-kindled fire fulfilled a separate, standing biblical commandment that existed independent of whether the heavenly fire appeared. Neither fire substitutes for the other. This dual-fire structure is mirrored physically in the altar's two arrangements: the large ma'aracha for the daily and additional offerings, and a smaller ma'aracha specifically for producing the coals the KG would carry into the Holy of Holies on Yom Kippur.",
         "resolution": "Both divine fire and human-kindled fire were required on the altar simultaneously: the heavenly fire signified acceptance, and the human fire fulfilled an independent commandment that did not depend on the heavenly fire's presence.",
-        "takeaway": {"type": "legal_principle", "text": "Two verses that each describe a different source for the same outcome do not have to be read as competing; they can describe two independent, simultaneously binding requirements, neither of which substitutes for the other."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Two verses that each describe a different source for the same outcome do not have to be read as competing; they can describe two independent, simultaneously binding requirements, neither of which substitutes for the other."
+        },
         "ahaMoment": "Divine fire from heaven burned the offerings; human fire was also commanded. Both were required. The divine fire sanctified the altar; the human fire fulfilled the commandment, this is why the eternal altar fire (eish tamid) required both sources.",
         "learningBlocker": "Learners assume the heavenly fire, being the more dramatic miracle, must be the 'real' requirement and the human kindling a redundant formality, missing that the Gemara treats the human-kindled fire as an independently binding commandment that exists whether or not the heavenly fire descends.",
         "memoryAnchor": "Two fire sources: heaven (divine, sanctifying) plus human (obligatory commandment). Ma'aracha gedola for offerings; ma'aracha ketana for incense coals."
@@ -462,8 +483,14 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        {"misconception": "The divine fire descending from heaven made the human-kindled fire redundant or merely symbolic.", "correction": "Both were required simultaneously and independently: the divine fire signified divine acceptance, while the human fire fulfilled the separate biblical mandate 'you shall kindle,' a standing commandment that did not depend on whether the heavenly fire appeared."},
-        {"misconception": "The small fire arrangement (ma'aracha ketana) burned incense directly in the Temple courtyard.", "correction": "It was specifically for producing coals, not for burning incense itself; the High Priest carried those coals in his pan into the Holy of Holies on Yom Kippur, where the incense was then offered."}
+        {
+          "misconception": "The divine fire descending from heaven made the human-kindled fire redundant or merely symbolic.",
+          "correction": "Both were required simultaneously and independently: the divine fire signified divine acceptance, while the human fire fulfilled the separate biblical mandate 'you shall kindle,' a standing commandment that did not depend on whether the heavenly fire appeared."
+        },
+        {
+          "misconception": "The small fire arrangement (ma'aracha ketana) burned incense directly in the Temple courtyard.",
+          "correction": "It was specifically for producing coals, not for burning incense itself; the High Priest carried those coals in his pan into the Holy of Holies on Yom Kippur, where the incense was then offered."
+        }
       ],
       "relatedSugyot": [
         "yoma-021b-s02"
@@ -541,315 +568,315 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'made to rest' - that it is not meant to be moved; and a wooden vessel, regarding impurity, is likened to a sack, as it is stated (Leviticus 11): 'any vessel of wood, or garment, or hide, or sack,' etc. - just as a sack",
+      "en": "Opens 'made to be set down': for it does not move about; and a wooden vessel, regarding impurity, is analogized to a sack, as it is said (Leviticus 11): 'from any wooden vessel, or garment, or hide, or sack,' etc. - just as a sack",
       "linkedGemaraLineIds": [
         "yoma-021b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: continues - is moved whether full or empty, so too a wooden vessel is moved whether full or empty; and even though the Table was overlaid with gold, the overlay is nullified relative to it, as we say at the end of tractate Chagigah, that a different",
+      "en": "continuing: is moved about full and empty, so too a wooden vessel is moved about full and empty; and even though the table was overlaid with gold, the overlay is nullified relative to it, as we say at the end of Chagigah,",
       "linkedGemaraLineIds": [
         "yoma-021b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: concludes - Table is one which the Torah calls wood. Then opens and closes 'they would lift it up' - and show it outward. Then opens 'let its fruit rustle like the Lebanon' - the fruit of Israel would rustle like the fruits of Lebanon, implying there is fruit",
+      "en": "closing: the table which the Torah calls 'wood.'' Then opens 'that they would lift it up': and show it outward.' Then opens 'let his fruit rustle like Lebanon': the fruit of Israel would rustle like the fruits of Lebanon, from which it follows there are fruits",
       "linkedGemaraLineIds": [
         "yoma-021b-l06"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: continues - in Lebanon, and Lebanon is the Temple; and what is the rustling? When the wind blows and they knock against one another, they rustle and their sound is heard. Then opens 'the fixed ones' - fixed and standing always",
+      "en": "closing: in Lebanon, and Lebanon is the Temple; and what is the rustling? When the wind blows and they knock against one another, rustling, and their sound is heard.' Then opens 'that they are fixed': fixed and standing always",
       "linkedGemaraLineIds": [
-        "yoma-021b-l14"
+        "yoma-021b-l06"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: concludes - in their place. Then opens 'crouching like a lion' - an ember that fell",
+      "en": "closing: in their place.' Then opens 'crouched like a lion': an ember that fell",
       "linkedGemaraLineIds": [
         "yoma-021b-l15"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: continues - from the heavens in the days of Solomon, and it was upon",
+      "en": "continuing: from the heavens in the days of Solomon, and it lay upon",
       "linkedGemaraLineIds": [
         "yoma-021b-l15"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: continues - the altar until Menashe came and removed it; it was",
+      "en": "continuing: the altar until Menashe came and removed it; it was",
       "linkedGemaraLineIds": [
         "yoma-021b-l15"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: concludes - shaped like a crouching lion. Then opens 'and it has substance' -",
+      "en": "continuing: shaped like a crouching lion.' Then opens 'and it has substance' -",
       "linkedGemaraLineIds": [
         "yoma-021b-l15"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: concludes - in its own flame. Then opens 'when we say' - that it produces",
+      "en": "closing: in its own flame.' Then opens 'when it is said' -",
       "linkedGemaraLineIds": [
         "yoma-021b-l18"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: continues - smoke, we say it of an ordinary fire, of the ordinary fire that they",
+      "en": "continuing: that a smoke rises, it is said of an ordinary fire, that they would",
       "linkedGemaraLineIds": [
         "yoma-021b-l18"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: concludes - would bring alongside it. Then opens 'and I will accept it and be honored' - lacking",
+      "en": "closing: bring near it.' Then opens 'and I will be pleased with it and be glorified': it lacks",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - a heh; it is written in the prophecy of Haggai (1), and the verse speaks of the",
+      "en": "continuing: the letter heh, as it is written in the prophecy of Chaggai (1), and the verse there speaks",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: concludes - Second Temple. Then opens 'the Ark, the ark-cover",
+      "en": "continuing: of the second Temple.' Then opens 'Ark, Ark-cover,",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: continues DH - and the Cherubs' - all one matter. Then the comment - and the Divine Presence",
+      "en": "continuing: and cherubs': all of this is one matter; the Divine Presence",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: continues - did not rest in it, and the holy spirit was not present",
+      "en": "continuing: did not rest in it, and the holy spirit did not rest",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: concludes - among the prophets from the second year of Darius onward.",
+      "en": "closing: upon the prophets from the second year of Darius onward.",
       "linkedGemaraLineIds": [
         "yoma-021b-l21"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: opens 'of an ordinary person' - from fever, which is like fire, and thirsty",
+      "en": "Opens 'the one of fever': from the fever, which is like fire and thirsty",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: concludes - for water and unwilling to eat. Then opens 'fire that pushes away fire' -",
+      "en": "closing: for water and has no desire to eat.' Then opens 'the one that repels' -",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: concludes - away from its place. Then opens 'Gabriel's' - who descended",
+      "en": "closing: from its place, onward.' Then opens 'the one of Gabriel': who came down",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: continues - to save Hananiah, Mishael, and Azariah, cooling",
+      "en": "continuing: to save Chananya, Mishael, and Azarya, who cooled",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: continues - the furnace from within while heating it from without, so as to burn",
+      "en": "continuing: the furnace from within and heated it from without, to burn",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continues - those who threw them into it, as we say in tractate Pesachim, chapter Arvei",
+      "en": "continuing: those who cast them in, as it is said in Arvei",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: concludes - Pesachim (118a). Then opens 'he extended his finger' -",
+      "en": "closing: Pesachim (118a).' Then opens 'he extended his finger' -",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: continues - in tractate Sanhedrin, in the chapter Echad Dinei",
+      "en": "continuing: this is found in Sanhedrin, in the chapter 'One Who Judges",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: continues - Mamonot (38b), regarding the groups of",
+      "en": "continuing: Monetary Cases' (38b), regarding the companies of",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: continues - angels who said before Him: what is man",
+      "en": "continuing: angels who said before Him, 'what is man",
       "linkedGemaraLineIds": [
         "yoma-021b-l27"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: concludes - that You are mindful of him. Then opens 'the conclusion of the last festival day of'",
+      "en": "closing: that You are mindful of him?'' Then opens 'the last day of the festival' -",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continues DH - the festival [Sukkot]. Then the comment - for the day before, their judgment for",
+      "en": "continuing: for on the day before, their sentence was already sealed regarding",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: continues - the year's rains was sealed, as we learned: on the festival they are judged concerning",
+      "en": "continuing: the year's rains, as we learned: on the festival they are judged regarding",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: concludes - the water. Then opens 'leaning toward the north' - for the wind",
+      "en": "closing: the water.' Then opens 'it tilts toward the north': for the",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continues - from the south blows, and their produce rots,",
+      "en": "continuing: south wind blows, and their fruits rot,",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - and they cannot store it, so they open their stores and sell",
+      "en": "continuing: and they cannot store them, so they open and sell",
       "linkedGemaraLineIds": [
         "yoma-021b-l31"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: concludes - it cheaply. Then opens 'everyone rejoices' - for the wind",
+      "en": "closing: them cheaply.' Then opens 'all rejoice': for the",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: continues - from the west is balanced and brings rain",
+      "en": "continuing: west wind is balanced, and brings rain",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: continues - in proper measure, so the produce does not rot",
+      "en": "continuing: in the proper measure, so the fruits do not rot,",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: continues - and the grain crop thrives, and there is no famine",
+      "en": "continuing: and the grain crop succeeds, and there is no famine",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: concludes - in the world. Then opens 'everyone is sad' - for it is a wind",
+      "en": "closing: in the world.' Then opens 'all are grieved': for it is the wind",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: continues - that dries out the seeds, as we say",
+      "en": "continuing: that dries out the seeds, as is said",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: continues - in tractate Gittin (32a): even a peg",
+      "en": "continuing: in tractate Gittin (32a): even a peg",
       "linkedGemaraLineIds": [
         "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: concludes - loosens in the socket of a hoe from that wind. Then opens 'this one increases'",
+      "en": "closing: loosens in the handle of a hoe.' Then opens 'this one increases' -",
       "linkedGemaraLineIds": [
-        "yoma-021b-l40"
+        "yoma-021b-l36"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: continues DH - its own' - the north wind grows those crops fit",
+      "en": "continuing: 'its own': the north wind increases what is fit",
       "linkedGemaraLineIds": [
         "yoma-021b-l40"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: concludes - for the Table's showbread wheat. Then opens 'this is for us and that is for them' - the east wind is",
+      "en": "closing: for the table.' Then opens 'this is for us and that is for them': the east wind",
       "linkedGemaraLineIds": [
         "yoma-021b-l41"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: continues - good for Babylonia, which is a land moist because of",
+      "en": "continuing: is good for the land of Babylonia, which is a moist land, because of",
       "linkedGemaraLineIds": [
         "yoma-021b-l41"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: continues - its waters always, and harsh for the land of Israel, which is",
+      "en": "continuing: its waters always, but hard for the land of Israel, which is",
       "linkedGemaraLineIds": [
         "yoma-021b-l41"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: concludes - a land of mountains and valleys that dries out quickly.",
+      "en": "closing: a land of hills and valleys, and dries out quickly.",
       "linkedGemaraLineIds": [
         "yoma-021b-l41"
       ]
