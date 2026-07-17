@@ -875,18 +875,26 @@ def test_scaffold_debt_drain():
     check("g. non-reconstruction/realignment types are a no-op", ok_g and not msgs_g)
 
     print("scaffold-debt manifest snapshot (12):")
+    baseline_path = REPO / "modules" / "yoma" / "scripts" / "baselines" / "rashi_scaffold_debt.json"
+    baseline_daf = sorted({e["daf"] for e in json.loads(baseline_path.read_text())["entries"]})
     with tempfile.TemporaryDirectory() as td:
         mpath = Path(td) / "m.json"
-        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
-                            "--type", "rashi-reconstruction", "--module", "yoma",
-                            "--range", "12a", "--out", str(mpath)],
-                           capture_output=True, text=True, cwd=REPO)
-        check("manifest generation for a debt-bearing daf succeeds", r.returncode == 0,
-              r.stderr[-200:])
-        man = json.loads(mpath.read_text())
-        snap = (man.get("scaffoldDebt") or {}).get("snapshot", [])
-        check("manifest embeds the target's scaffold-debt snapshot",
-              bool(snap) and all(e["daf"] == "12a" for e in snap), str(len(snap)))
+        if baseline_daf:
+            debt_daf = baseline_daf[0]
+            r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                                "--type", "rashi-reconstruction", "--module", "yoma",
+                                "--range", debt_daf, "--out", str(mpath)],
+                               capture_output=True, text=True, cwd=REPO)
+            check("manifest generation for a debt-bearing daf succeeds", r.returncode == 0,
+                  r.stderr[-200:])
+            man = json.loads(mpath.read_text())
+            snap = (man.get("scaffoldDebt") or {}).get("snapshot", [])
+            check("manifest embeds the target's scaffold-debt snapshot",
+                  bool(snap) and all(e["daf"] == debt_daf for e in snap),
+                  "%s: %d" % (debt_daf, len(snap)))
+        else:
+            print("  note: scaffold baseline is empty (corpus fully drained); "
+                  "snapshot embedding check not applicable")
 
         r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
                              "--type", "rashi-reconstruction", "--module", "yoma",
