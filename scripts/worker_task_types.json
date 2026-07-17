@@ -15,6 +15,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
@@ -46,15 +47,21 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+    "target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)",
     "count mismatch not already baselined",
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
    ],
-   "fableReviewRequired": false
+   "fableReviewRequired": false,
+   "driftBlocked": true,
+   "optionalAuthorizations": [
+    "authorizeDriftOverride"
+   ]
   },
   "rashi-reconstruction": {
    "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).",
-   "model": "haiku-with-fable-review",
+   "model": "sonnet",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -66,7 +73,10 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
-    ".worker-manifest.json"
+    "modules/yoma/scripts/baselines/*",
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
    ],
    "allowedJsonPaths": [
     "rashiTranslations[*].en",
@@ -97,11 +107,91 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
-    "raw count vs entry count mismatch",
-    "new semantic audit shift candidate beyond offset +-1",
-    "any gate failure not fixable by correcting your own content"
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+    "any gate failure not fixable by correcting your own content",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "structure or count mismatch not already baselined",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not ALIGNED",
+    "a semantic audit shift candidate remains on the target daf",
+    "a link that cannot be justified from local segment text",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed",
+    "more than one daf would change in the same content PR"
    ],
-   "fableReviewRequired": true
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable",
+   "maxBatch": 1
+  },
+  "rashi-realignment": {
+   "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.",
+   "model": "sonnet",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
+   ],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en",
+    "rashiTranslations[*].linkedGemaraLineIds"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "remove-only",
+   "structurePolicy": "forbidden",
+   "rashiPreflightTask": "shifted-block",
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+    "any gate failure not fixable by correcting your own content",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "structure or count mismatch not already baselined",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not ALIGNED",
+    "a semantic audit shift candidate remains on the target daf",
+    "a link that cannot be justified from local segment text",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed",
+    "more than one daf would change in the same content PR"
+   ],
+   "maxBatch": 1,
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable"
   },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
@@ -117,6 +207,7 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
@@ -148,11 +239,16 @@
    ],
    "escalationTriggers": [
     "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
     "any gate failure not fixable by correcting your own content"
    ],
    "maxBatch": 2,
    "allowlistMustShrinkOrExplain": true,
-   "fableReviewRequired": true
+   "fableReviewRequired": true,
+   "driftBlocked": true,
+   "optionalAuthorizations": [
+    "authorizeDriftOverride"
+   ]
   },
   "gemara-learning": {
    "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Fable/Sonnet only.",
@@ -339,7 +435,8 @@
     "CLAUDE.md",
     "SOURCES.md",
     "tests/*",
-    ".worker-manifest.json"
+    ".worker-manifest.json",
+    ".worker-queue.json"
    ],
    "allowedJsonPaths": [],
    "forbiddenFiles": [
@@ -984,6 +1081,77 @@
     "any change outside the mutable path set would be needed"
    ],
    "haikuAllowed": false
+  },
+  "rashi-structural-repair": {
+   "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.",
+   "model": "fable",
+   "requiresTarget": true,
+   "paused": false,
+   "reviewPolicy": "conditional",
+   "escalationModel": "fable",
+   "optionalAuthorizations": [
+    "allowStructure"
+   ],
+   "requiredAuthorizations": [
+    "allowStructure"
+   ],
+   "allowedFiles": [
+    "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+    "modules/yoma/learning_data.js",
+    "modules/yoma/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "modules/yoma/scripts/allowlists/*",
+    "modules/yoma/scripts/baselines/*",
+    ".worker-manifest.json",
+    ".worker-self-review.json",
+    ".worker-queue.json"
+   ],
+   "allowedJsonPaths": [
+    "rashiTranslations"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "remove-only",
+   "structurePolicy": "explicit-allowStructure-required",
+   "rashiPreflightTask": "repair",
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "authoritative line ownership is ambiguous across a daf boundary",
+    "source files disagree materially",
+    "uncertain Hebrew meaning or placement",
+    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+    "required packet id missing, or packet segment text truncated or incomplete",
+    "the repair would require changing more than one daf in the same PR",
+    "allowlist growth would be needed",
+    "validator or workflow modification would be needed",
+    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+    "post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+    "a semantic audit shift candidate remains on the target daf",
+    "the fresh post-edit self-review finds a blocker",
+    "CI or full verification fails after one bounded correction attempt",
+    "fields outside the manifest would be needed"
+   ],
+   "maxBatch": 1
   }
  }
 }

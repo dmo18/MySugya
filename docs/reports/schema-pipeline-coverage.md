@@ -25,10 +25,11 @@ plain strings on some daf and {sourceType, lineId, vilnaLine} objects on
 others. The engine treats both shapes as immutable outside
 structural-repair; normalization is future structural-repair work.
 
-## Task-type ownership (17 types)
+## Task-type ownership (18 types)
 
 Rashi en/links: rashi-repair (haiku), rashi-reconstruction and
-placeholder-backfill (haiku with Fable review). Display copy:
+placeholder-backfill (haiku with Fable review), rashi-realignment
+(fable, Fable review, maxBatch 1; for shifted-compressed daf). Display copy:
 display-only-edit (haiku, Fable review, maxBatch 2). Learning narrative +
 reasoningPattern (+ takeaway.type, alternateAngles by flag):
 learning-copy-edit (fable). Glossary/concepts text: glossary-edit
@@ -94,3 +95,37 @@ and ambiguous repairs.
 6. Do not enable worker auto-merge until GitHub branch protection
    (required build check, require-up-to-date, PR-required, no force
    push) is configured by an admin.
+
+## Drift gate addendum (VERSION 15.85)
+
+The drift-profile detector (audit_rashi_semantic.py --profile; npm run
+audit:rashi:drift:yoma) classifies every daf from citation anchors and
+mechanically blocks repair-type preflight on daf that are not
+haiku-safe. Validation against the corpus:
+
+- the five daf of the VERSION 15.84 look-alike audit classify SHIFTED
+  (67b, 68a, 68b, 70a, 71b) and 61a classifies FABRICATION-SUSPECT,
+  matching the manual audit exactly;
+- the detector independently re-finds the documented 41a shifted block
+  (SHIFTED) and confirms the repaired 12b as ALIGNED with five
+  zero-offset anchors;
+- clean daf (2a, 2b, 3a, 12b, 44a) remain haiku-safe.
+
+Drift-gate test battery (npm run test:drift:yoma, wired into npm test;
+43 checks PASS): anchor extraction (colon amud citations, tractate
+adjacency, split citations, gematria), synthetic SHIFTED /
+FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS corpora,
+allowlisted-miss exclusion, block/override semantics, and self-retiring
+live-corpus assertions for the documented six daf plus clean controls.
+
+Drift-gate dry runs (7/7 green):
+
+| Run | Expectation | Result |
+|---|---|---|
+| rashi-repair manifest 67b, preflight | FAIL, names rashi-realignment | PASS |
+| FABLE_DRIFT_OVERRIDE=1 alone (no manifest auth) | still FAIL | PASS |
+| manifest authorizeDriftOverride alone (no env) | still FAIL | PASS |
+| authorization + env (Fable override) | preflight passes | PASS |
+| rashi-realignment manifest 67b, preflight | passes | PASS |
+| rashi-realignment range 67b-68a | rejected (maxBatch 1) | PASS |
+| authorizeDriftOverride on rashi-realignment | rejected (undefined) | PASS |

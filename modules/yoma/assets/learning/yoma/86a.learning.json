@@ -1,1233 +1,1378 @@
 {
-  "canonicalRef": "Yoma 86a",
-  "summary": "Tractate Yoma daf 86a covers: Desecrating God's name: not atoned by any mechanism alone; What is 'bearing God's name in vain'? Clarification of the category; What circumstances cause a Torah scholar to desecrate God's name?; R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne.",
-  "sugyot": [
+ "canonicalRef": "Yoma 86a",
+ "summary": "Tractate Yoma daf 86a covers: Desecrating God's name: not atoned by any mechanism alone; What is 'bearing God's name in vain'? Clarification of the category; What circumstances cause a Torah scholar to desecrate God's name?; R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-086a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 8
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-086a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 8
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.86a.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.86a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.86a.3"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.86a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.86a.1",
-        "Yoma.86a.2",
-        "Yoma.86a.3",
-        "Yoma.86a.4"
-      ],
-      "display": {
-        "whats": "Desecrating God's name: not atoned by any mechanism alone",
-        "hint": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, not YK, not death alone, and not repentance alone.",
-        "title": "Chilul Hashem: Beyond All Atonement Mechanisms"
-      },
-      "learning": {
-        "ahaMoment": "Chilul Hashem is a different kind of sin: it does not just damage the sinner's soul but alters how others perceive God. No private repair can fix a public wound.",
-        "memoryAnchor": "Chilul Hashem escapes the four mechanisms: the public damage to God's name requires public repair, not just private atonement.",
-        "learnerQuestion": "Why is desecrating God's name (chilul Hashem) uniquely serious and not fully atoned by the standard four mechanisms?",
-        "coreTension": "Between the Mishna's four atonement mechanisms (which cover all other categories of sin) and the claim that chilul Hashem escapes this framework.",
-        "coreMove": "The Gemara reasons: chilul Hashem creates a public reality of disrespect for God's name that persists even after repentance, YK, or death. The rupture is not only internal (the sinner's relationship to God) but external (how others now perceive God). Only sustained life-behavior that demonstrates Kiddush Hashem can repair what chilul Hashem broke.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Chilul Hashem is uniquely severe because it creates a public impression that no private atonement can erase; the repair must be as public as the damage, which no single atonement event can fully accomplish."
-        },
-        "learningBlocker": "Students may expect repentance to cover everything; the Gemara's point is that chilul Hashem is not just a private sin but a public harm to God's reputation in the world."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "analysis",
-          "label": "The exception: taking God's name in vain",
-          "speaker": "Gemara",
-          "text": "Continuing the list of minor transgressions, the source carves out 'you shall not take the name of the Lord in vain' (Exodus 20:7), about which the Torah says God 'will not absolve' the one who does so. The Gemara clarifies this is not the only weighty prohibition - rather it stands for that verse and anything like it, i.e. all severe prohibitions carrying court punishment.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "proof",
-          "label": "Rabbi Yehuda's dividing line",
-          "speaker": "Rabbi Yehuda",
-          "text": "A proof is offered from Rabbi Yehuda: for sins from 'you shall not take the name in vain' and below (lighter), repentance atones; from that verse and above (heavier), repentance suspends and Yom Kippur atones. The Gemara rejects it as proof - it may refer only to that verse and things like it, not to every prohibition that warrants lashes.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "proof",
-          "label": "The Horeb 'absolve / will not absolve' source",
-          "speaker": "Gemara",
-          "text": "Another source: since 'absolve' was said at Horeb regarding repentance, one might include even taking the name in vain - so the Torah says 'will not absolve.' And lest one think no prohibition is absolved, it says 'His name': God does not absolve one who profanes His name but does absolve the rest who repent. This suggests ordinary prohibitions are unlike taking the name in vain.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "resolution",
-          "label": "It is a tannaitic dispute",
-          "speaker": "Gemara",
-          "text": "The Gemara concludes this is a dispute between tannaim. One baraita: repentance atones a positive mitzva and a lav nitak la'aseh, while for karet, court-imposed death, and full prohibitions, repentance suspends and Yom Kippur atones. So whether repentance alone can fix prohibitions that warrant lashes is itself disputed.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l08",
-              "vilnaLine": 8
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "chilul Hashem",
-        "atonement",
-        "four mechanisms",
-        "special status"
-      ],
-      "concepts": {
-        "halachic": [
-          "chilul Hashem",
-          "atonement"
-        ],
-        "theological": [
-          "Chilul Hashem resists all four mechanisms alone: it is a relational sin against "
-        ],
-        "narrative": [
-          "Desecrating God's name: not atoned by any mechanism alone"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of chilul Hashem context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The proofs decisively show that prohibitions warranting lashes always need Yom Kippur, not just repentance.",
-          "correction": "The Gemara rejects each proof and concludes the matter is a tannaitic dispute - some tannaim hold repentance alone atones such sins, others require Yom Kippur.",
-          "correctedByStepId": "step-04"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Desecrating God's name: not atoned by any mechanis"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Does 'you shall not take the name of the Lord in vain' stand alone as the one severe prohibition, or represent a category?",
-          "answer": "It represents a category. The Gemara explains it stands for that verse 'and anything like it' - all severe prohibitions carrying court punishment, not just that single sin."
-        },
-        {
-          "question": "What is the underlying machloket the Gemara settles on regarding full prohibitions?",
-          "answer": "It is a tannaitic dispute: whether repentance alone atones for full-fledged prohibitions (those warranting lashes), or whether such sins require repentance to suspend and Yom Kippur to atone."
-        }
-      ],
-      "finalRuling": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, n",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.86a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-086a-s02",
-      "lineRange": {
-        "startVilnaLine": 12,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.86a.5"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.86a.6"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.86a.7"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.86a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.86a.5",
-        "Yoma.86a.6",
-        "Yoma.86a.7",
-        "Yoma.86a.8"
-      ],
-      "display": {
-        "whats": "What is 'bearing God's name in vain'? Clarification of the category",
-        "hint": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor.",
-        "title": "What Constitutes Bearing God's Name in Vain"
-      },
-      "learning": {
-        "ahaMoment": "The criterion is not the act but its social effect: does this behavior make people think less of God? If yes, it is chilul Hashem regardless of whether God was explicitly mentioned.",
-        "memoryAnchor": "Chilul Hashem = whatever causes others to disrespect God's name: effect on observers, not words spoken.",
-        "learnerQuestion": "What exactly does it mean to 'bear God's name in vain,' and how is this defined in the context of chilul Hashem?",
-        "coreTension": "Between the narrow interpretation (false oaths, explicit misuse of God's name) and the broader understanding that any behavior which causes others to disrespect God constitutes chilul Hashem.",
-        "coreMove": "The Gemara clarifies that bearing God's name in vain is not limited to liturgical misuse. Any action that causes observers to form a negative impression of the God whose name the actor bears qualifies. The criterion is the effect on observers, not the explicit mention of God's name.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Chilul Hashem (desecrating God's name) is defined by its effect on observers: any behavior that causes people to form a negative impression of the God whose name the actor represents constitutes chilul Hashem, regardless of whether God's name is explicitly invoked."
-        },
-        "learningBlocker": "Students may limit chilul Hashem to explicit misuse of God's name in speech; the Gemara's definition extends to any behavior that damages God's reputation."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "analysis",
-          "label": "Where was 'absolve' said at Horeb?",
-          "speaker": "R. Elazar",
-          "text": "The Gemara unpacks the baraita's claim that 'absolve' was said at Horeb about repentance. Rabbi Elazar: the verse cannot mean only 'absolve' (since 'will not absolve' is written) nor only 'will not absolve' (since 'absolve' is written). The resolution: God absolves those who repent and does not absolve those who do not - so both ideas were stated at Horeb.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "case",
-          "label": "R. Matya's question: how many paths of atonement?",
-          "speaker": "R. Matya ben Charash",
-          "text": "Rabbi Matya ben Charash asked Rabbi Elazar ben Azarya in Rome whether he had heard the four distinctions in atonement that Rabbi Yishmael taught. The answer: not four but three - and repentance is required in every one of them.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l17",
-              "vilnaLine": 17
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "case",
-          "label": "The three categories of atonement",
-          "speaker": "Gemara",
-          "text": "First: violate a positive mitzva and repent - forgiven at once, 'return, backsliding children, I will heal your backsliding.' Second: violate a prohibition and repent - repentance suspends, Yom Kippur atones, 'on this day He shall atone for you.' Third: commit a sin of karet or court-imposed death and repent - repentance and Yom Kippur suspend, and suffering completes the atonement, 'I will visit their transgression with the rod.'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l20",
-              "vilnaLine": 20
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "resolution",
-          "label": "The fourth, hardest case: chilul Hashem",
-          "speaker": "Gemara",
-          "text": "But for one who desecrates God's name, repentance cannot suspend, Yom Kippur cannot atone, and suffering alone cannot cleanse. Rather all of these together suspend, and only death cleanses, as 'this iniquity shall not be atoned for until you die' (Isaiah 22:14). Chilul Hashem is the gravest tier, requiring the full sequence plus death.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l28",
-              "vilnaLine": 28
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "God's name in vain",
-        "desecration",
-        "definition"
-      ],
-      "concepts": {
-        "halachic": [
-          "God's name in vain",
-          "desecration"
-        ],
-        "theological": [
-          "The definition of chilul Hashem shifts by person: what is neutral for an ordinar"
-        ],
-        "narrative": [
-          "What is 'bearing God's name in vain'? Clarification of the c"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of God's name in vain context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Rabbi Yishmael taught four separate paths of atonement that work independently of repentance.",
-          "correction": "Rabbi Elazar ben Azarya corrects the count to three, and stresses repentance is required in every one. Chilul Hashem is then added as the gravest case, demanding the full sequence plus death.",
-          "correctedByStepId": "step-02"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "What is 'bearing God's name in vain'? Clarificatio"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What are the three (not four) categories of atonement Rabbi Yishmael taught, and what does each require?",
-          "answer": "(1) A neglected positive mitzva: repentance brings immediate forgiveness. (2) A prohibition: repentance suspends, Yom Kippur atones. (3) Karet or court-death sins: repentance and Yom Kippur suspend, and suffering completes atonement. Repentance is needed in all three."
-        },
-        {
-          "question": "How is chilul Hashem (desecrating God's name) atoned, and what verse teaches this?",
-          "answer": "It is the hardest case: repentance, Yom Kippur, and suffering together only suspend the punishment, and only death finally cleanses it, from 'this iniquity shall not be atoned for until you die' (Isaiah 22:14)."
-        }
-      ],
-      "finalRuling": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Tora",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.86a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-086a-s03",
-      "lineRange": {
-        "startVilnaLine": 31,
-        "endVilnaLine": 43
-      },
-      "lines": [
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.86a.9"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.86a.10"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.86a.11"
-        },
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.86a.12"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.86a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.86a.9",
-        "Yoma.86a.10",
-        "Yoma.86a.11",
-        "Yoma.86a.12",
-        "Yoma.86a.13"
-      ],
-      "display": {
-        "whats": "What circumstances cause a Torah scholar to desecrate God's name?",
-        "hint": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the standard for scholars is higher.",
-        "title": "Chilul Hashem for Torah Scholars"
-      },
-      "learning": {
-        "ahaMoment": "The scholar is always 'on duty' as a representative of Torah. Their technically-permitted behavior is still read through the lens of 'what does this say about God?' by observers.",
-        "memoryAnchor": "Scholar's chilul Hashem: even technically-permitted behavior can desecrate God's name when it creates a bad impression in observers.",
-        "learnerQuestion": "Are Torah scholars held to a higher standard for chilul Hashem than ordinary people?",
-        "coreTension": "Between a single standard of chilul Hashem for all Jews and the possibility that the scholar's public role and representative status creates additional exposure.",
-        "coreMove": "The Gemara rules that for a Torah scholar, actions that are not technically prohibited but create a negative impression in observers still constitute chilul Hashem. The scholar's social visibility means that more behaviors carry the risk of damaging God's reputation.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Torah scholars bear enhanced exposure to chilul Hashem because their public role makes their behavior a representation of Torah and God's name; behavior that is technically permitted but creates a negative impression can constitute chilul Hashem for a scholar."
-        },
-        "learningBlocker": "Students may assume only technically prohibited acts can create chilul Hashem; the Gemara shows that the scholar's heightened representational role expands the category for them."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "What actually counts as chilul Hashem?",
-          "speaker": "Rav",
-          "text": "The Gemara asks what constitutes desecration of God's name. Rav: for a public figure like himself, taking meat from a butcher without paying on the spot - people may think he never intends to pay, brand him a thief, and conclude that stealing is permitted. A respected person's careless act teaches others to sin.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l31",
-              "vilnaLine": 31
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "case",
-          "label": "Abaye qualifies and Abaye's own practice",
-          "speaker": "Abaye",
-          "text": "Abaye limits Rav's case to a place where the butcher does not come to collect, so non-payment looks like theft; where collection is customary, buying on credit is understood and fine. Abaye himself, buying from two partners, paid each separately so each knew he was paid, then reconciled the accounts afterward - avoiding any appearance of cheating.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l33",
-              "vilnaLine": 33
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "case",
-          "label": "More examples: appearance and reputation",
-          "speaker": "R. Yochanan / others",
-          "text": "Rabbi Yochanan: for someone like him, walking four cubits without Torah or tefillin - when onlookers don't know it is only bodily weakness - is chilul Hashem. Yitzchak of Rabbi Yannai's school: whenever a person's reputation makes his friends ashamed, that is chilul Hashem. Rav Nachman bar Yitzchak: when people say 'may his Master forgive so-and-so' for what he does.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l35",
-              "vilnaLine": 35
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "case",
-          "label": "Kiddush Hashem: the positive counterpart",
-          "speaker": "Abaye",
-          "text": "Abaye cites a baraita on 'you shall love the Lord your God' - make Heaven's name beloved. One who learns Torah, serves scholars, and deals pleasantly in business makes people say: fortunate is his father and teacher who taught him Torah, see how pleasant his ways. Of him it says 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l38",
-              "vilnaLine": 38
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "resolution",
-          "label": "The contrast: when a learned person behaves badly",
-          "speaker": "Gemara",
-          "text": "By contrast, one who learns Torah and serves scholars but is dishonest in business and unpleasant makes people say: woe to him and to his teachers, see how corrupt his deeds. Of such people it says 'these are the people of the Lord, yet they left His land' (Ezekiel 36:20) - their sins desecrate God's name. The learned bear a heavier burden of representation.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l43",
-              "vilnaLine": 43
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Torah scholar",
-        "chilul Hashem",
-        "standard",
-        "reputation"
-      ],
-      "concepts": {
-        "halachic": [
-          "Torah scholar",
-          "chilul Hashem"
-        ],
-        "theological": [
-          "Scholar's standard: a Torah scholar buying meat without immediately paying, or w"
-        ],
-        "narrative": [
-          "What circumstances cause a Torah scholar to desecrate God's "
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of Torah scholar context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Chilul Hashem is only an overt, dramatic act like public blasphemy.",
-          "correction": "The sugya defines it largely by appearance and reputation - a prominent person not paying promptly, walking without tefillin, or dealing dishonestly. How one's conduct reflects on Torah, especially for the learned, is the measure.",
-          "correctedByStepId": "step-01"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "What circumstances cause a Torah scholar to desecr"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does Rav say that he, a public figure, would desecrate God's name by taking meat without paying immediately?",
-          "answer": "Because people seeing a prominent figure not pay may assume he never intends to, brand him a thief, and learn from his example that theft is acceptable. A respected person's conduct teaches others, so carelessness becomes a public desecration."
-        },
-        {
-          "question": "According to this sugya, why is chilul Hashem measured by a person's stature and reputation?",
-          "answer": "Because the more learned or respected a person is, the more others learn from and judge Torah by his behavior. So Rabbi Yochanan's walking without tefillin, or a scholar's dishonest dealings, desecrates the name even though the same act by an unknown person might not."
-        },
-        {
-          "question": "What is the positive counterpart to chilul Hashem described by Abaye?",
-          "answer": "Kiddush Hashem: a Torah scholar who deals honestly and pleasantly makes people praise his upbringing and teachers, fulfilling 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3)."
-        }
-      ],
-      "finalRuling": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the stand",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.86a.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-086a-s04",
-      "lineRange": {
-        "startVilnaLine": 47,
-        "endVilnaLine": 50
-      },
-      "lines": [
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.86a.14"
-        },
-        {
-          "vilnaLine": 48,
-          "sefariaRef": "Yoma.86a.15"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.86a.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.86a.14",
-        "Yoma.86a.15",
-        "Yoma.86a.16"
-      ],
-      "display": {
-        "whats": "R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne",
-        "hint": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately be addressed through deep, sincere repentance.",
-        "title": "Great Repentance Reaches the Divine Throne"
-      },
-      "learning": {
-        "ahaMoment": "Great teshuva reaches the Throne: the inner act of genuine return is itself a form of standing before God, no intermediary required.",
-        "memoryAnchor": "Teshuva rabbah reaches the Throne directly: profound repentance bypasses mechanism and encounters God face to face.",
-        "learnerQuestion": "What does R. Hama bar Hanina mean when he says that great repentance reaches the Divine Throne?",
-        "coreTension": "Between the ordinary atonement process (which goes through specific mechanisms) and the claim that profound teshuva bypasses all limits and reaches directly to God's presence.",
-        "coreMove": "R. Hama bar Hanina teaches that the intensity of genuine repentance is itself capable of reaching God without any intermediate mechanism. Deep teshuva is not a ritual but a direct encounter with God. The image of 'reaching the Throne' conveys that nothing is beyond the reach of authentic return.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Genuine, intense repentance can transcend the formal atonement system and reach directly to God; R. Hama bar Hanina's teaching is that the depth of authentic teshuva is itself a form of direct encounter with the Divine."
-        },
-        "learningBlocker": "Students may think all atonement must go through formal mechanisms; R. Hama bar Hanina's teaching points to the direct power of the inner act of return."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "analysis",
-          "label": "The greatness of repentance: many derashot",
-          "speaker": "Various Amoraim",
-          "text": "The Gemara strings together praises of repentance. Rabbi Chama bar Chanina: great is repentance, for it brings healing to the world ('I will heal their backsliding, I will love them freely'). He then resolves a tension - 'return, backsliding children' (the sin treated as never happening) versus 'I will heal your backsliding' (the sin still remembered): the first is repentance from love, the second repentance from fear. Rabbi Yehuda resolves a parallel pair: healing available to all (through suffering) versus to select individuals (through love or fear). Rabbi Levi: repentance reaches the heavenly throne, 'return, Israel, to the Lord your God.'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-086a-l47",
-              "vilnaLine": 47
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "R. Hama bar Hanina",
-        "teshuva rabbah",
-        "divine throne",
-        "deep repentance"
-      ],
-      "concepts": {
-        "halachic": [
-          "R. Hama bar Hanina",
-          "teshuva rabbah"
-        ],
-        "theological": [
-          "Teshuva that reaches the Throne: even the most severe sins are reachable by suff"
-        ],
-        "narrative": [
-          "R. Hama bar Hanina: great repentance (teshuva rabbah) reache"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of R. Hama bar Hanina context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All repentance achieves the same erasure of sin.",
-          "correction": "The sugya distinguishes repentance from love, which removes the sin as if it never happened, from repentance from fear or through suffering, where the sin is still remembered though forgiven.",
-          "correctedByStepId": "step-01"
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "R. Hama bar Hanina: great repentance (teshuva rabb"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does Rabbi Chama bar Chanina resolve the tension between 'return, backsliding children' and 'I will heal your backsliding'?",
-          "answer": "The first verse, where the sin is treated as if it never happened, refers to repentance out of love; the second, where the sin is still remembered, refers to repentance out of fear. Love-driven repentance erases the sin more completely."
-        },
-        {
-          "question": "What is the difference between repentance from love and repentance from fear in this sugya?",
-          "answer": "Repentance from love wipes the sin away as if it never occurred and is achieved by few; repentance from fear, or through suffering, still leaves the sin remembered but is available to everyone."
-        }
-      ],
-      "finalRuling": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately b",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.86a.4"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "he": "חוץ מלא תשא. קא סלקא דעתך משום דכתיב לא ינקה: וכל דדמי",
-      "en": "Rashi: chilul Hashem is not fully atoned by any single mechanism.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "ליה. לא תעשה גמור: לפי שנאמר בחורב תשובה ונקה. לאחר",
-      "en": "Rashi: the definition of bearing God's name in vain - causing disrespect.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "מעשה העגל כשעלה משה להתפלל עליהן ולקמן מפרש לה: יכול",
-      "en": "Rashi: what specific actions constitute chilul Hashem for a Torah scholar.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "אף לא תשא. ינקה בתשובה: אי אפשר לומר נקה שכבר נאמר",
-      "en": "Rashi: R. Hama bar Hanina - deep teshuva reaches the Divine Throne.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "לא ינקה. דכתיב נקה לא ינקה גבי",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "הדדי: חלוקי כפרה. שחלוקין",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "בכפרתן זה כך וזה כך: אמר לו.",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "שלש הן הנחלקין שיש עבירה שהיא",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "צריכה לזה ואינה צריכה לזה אבל",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "תשובה אינה מן החלוקין שהיא צריכה",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "לכולן: שובו בנים. ומיד ארפא",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "למדת שיש עבירה שמכפרת בתשובה",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "לבדה: כי ביום הזה יכפר. למדת",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "שיש עבירה שצריכה יוה\"כ: ופקדתי",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "בשבט פשעם. למדת שיש עבירה",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "שצריכה יסורין ומסתברא הקל לקלה",
-      "en": "Rashi explains the opening discussion of this topic on 86a.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "והחמור לחמורה: חילול השם. חוטא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "ומחטיא אחרים: באזני ה' צבאות.",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "אמר הנביא באזני אמר הקב\"ה אם",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "יכופר העון עד תמותון למדנו שיש",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "עבירה שאין לה כפרה אלא במיתה:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "ולא יהיבנא דמי לאלתר. וכשאני",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "מאחר לפרוע הוא אומר שאני גזלן",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "ולמד ממני להיות מזלזל בגזל:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "באתרא דלא תבעי. שאין דרך",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "הטבח לילך ולתבוע הקפותיו ועל",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "הלוקח להביא לו מעותיו לביתו:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "ומתא מחסיא. מקומו של רבינא:",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "יהיב זוזא להאי וזוזא להאי. שמא לא",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "ידע חבירו שנתתיו לו ויש כאן חילול",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "השם: ועביד חושבנא. וחוזרין",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "ונותנין לו בשר כנגד מה שנטלו: כגון",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "אנא דמסגינא וכו'. ואין הכל יודעין",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "שנחלשתי בגרסתי ולמדין הימני",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "להבטל מתלמוד תורה: מחמת",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "שמועתו. מחמת שם רע היוצא עליו:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "שרא ליה מריה. ימחול יוצרו על",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "מעשיו: מתאהב על ידך. לחבירך:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "קורא. מקרא: ושונה. משנה:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "ומשמש תלמידי חכמים. ללמוד (תורה)",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "היא יישוב טעמי המשניות מה טעמן",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "ומהיכן למדו: באמור להם עם ה'",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "אלה. את זו קרא הכתוב חילול השם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "כשאדם חשוב עובר עבירה ופורענות",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "באה עליו והכל אומרים מה הועילו לו",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "ראה החסידים והחכמים רעה באה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "עליהם שנאמר ויחללו את שם קדשי",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "ובמה חללוהו באמור עליהם הנכרים",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "שגלו ביניהן ראו עם ה' אלה ולא",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "יכול להצילם שלא יגלו נמצא שם",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "שמים מתחלל וכבודו מתמעט:",
-      "en": "Rashi glosses the phrase 'God's name becomes desecrated and His glory diminished': when Israel was exiled among the nations, the gentiles said 'these are the people of the Lord yet He could not save them,' profaning God's name publicly and diminishing His honor in the world.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "דמעיקרא שובבים אתם. כשתעשו",
-      "en": "Rashi glosses 'originally you are wayward' (שובבים אתם): when you do teshuva, Scripture credits it as though the very beginning of your sin was through youthful waywardness and foolishness rather than deliberate rebellion.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "תשובה מעלה עליכם כאילו",
-      "en": "Rashi continues: repentance elevates you as if - [continuing into the next line] - the sin arose from youth and carelessness, treating the penitent with great leniency.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "תחילת החטא על ידי נערות ושטות",
-      "en": "Rashi completes: the beginning of the sin was through youth, foolishness, and waywardness - that is what Scripture has in mind when it treats the returning sinner so generously.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "ושובבות: וכתיב ארפא. משמע",
-      "en": "Rashi glosses 'and it is written I will heal' (וכתיב ארפא): this implies that from that point onward the penitent is like a blemished person who was healed - the sin still left a trace, as the next line explains.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "he": "מכאן ואילך כבעל מום שנתרפא",
-      "en": "Rashi: from here onward the penitent is like a person with a physical blemish who recovered - some mark remains on him, since the sin is not entirely uprooted as it would be through repentance from love.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "he": "שמקצת שמו עליו: כאן מאהבה.",
-      "en": "Rashi glosses 'here from love' (כאן מאהבה): repentance from love fully erases the sin as though it never happened, unlike repentance from fear where the transgression is only downgraded to an unwitting error.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "he": "השב מאהבה נעקר עונו מתחלתו:",
-      "en": "Rashi: one who repents from love has his sin uprooted from its very beginning - it is treated as though he never sinned at all, which is a higher level of atonement than any other form of return.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "he": "כתיב שובו בנים. אלמא בעלי",
-      "en": "Rashi glosses 'it is written return, children' (שובו בנים): this verse shows that baalei teshuva are called 'children' of God - and [the Gemara continues] there is a tension from another verse.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "he": "תשובה קרויין בנים: וכתיב כי אנכי",
-      "en": "Rashi: baalei teshuva are called 'children' from the verse 'return, backsliding children.' Yet another verse says 'for I have mastered you,' implying they are called servants - and Rashi explains the resolution in the next lines.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "he": "בעלתי בכם. אלמא עבדים מיקרו:",
-      "en": "Rashi glosses 'I have mastered you, therefore they are called servants' (עבדים מיקרו): when the later verse 'for I have mastered you' applies - referring to those who repented only under the pressure of suffering - they retain the status of servants rather than children.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "he": "כאן מאהבה ומיראה. קרויין בנים:",
-      "en": "Rashi glosses 'here from love and from fear - they are called children' (קרויין בנים): those who repent out of love or out of genuine fear of Heaven, even without being compelled by suffering, attain the elevated status of children of God.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "he": "כאן על ידי יסורין. שלא שבו עד",
-      "en": "Rashi glosses 'here through suffering - they did not return until' (שלא שבו עד): those who only returned to God after being subjected to hardship - because they did not repent freely beforehand - are called servants rather than children.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "he": "שנתיסרו ביסורין קרויין עבדים ואית",
-      "en": "Rashi: those who were chastened by suffering until they repented are called servants. Some manuscripts have an alternate reading of the verse used to prove this point, as noted in the next line.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "he": "דגרסי כתיב שובו אלי ואשובה",
-      "en": "Rashi notes an alternate text: some versions read 'it is written return to Me and I will return to you' (שובו אלי ואשובה) as the operative verse, instead of the version cited above - yielding a slightly different proof for the same conclusion.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 66,
-      "he": "וכתיב כי אנכי בעלתי בכם כתיב",
-      "en": "Rashi continues quoting the textual variant: alongside 'I will return to you' it is written 'for I have mastered you' - the tension between these two verses generates the same son-versus-servant distinction discussed in the earlier reading.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 67,
-      "he": "ואשובה אליכם לאחר תשובה וכתיב כי אנכי בעלתי בכם כבר קודם שתשובו כאן מאהבה או מיראה קא אמר כי אנכי בעלתי בכם:",
-      "en": "Rashi resolves the tension in the alternate version: 'I will return to you' speaks of those who repented, while 'for I have mastered you' - which God said before they returned - shows He regarded them as already His even prior to their repentance. Here 'mastered' refers to repentance from love or fear, not servile compulsion.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 68,
-      "he": "לא",
-      "en": "Rashi's text ends with a fragmentary 'לא' (not), likely a cutoff at the page break, completing a phrase from the preceding discussion about the limits of what repentance achieves.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.86a.1",
+    "Yoma.86a.2",
+    "Yoma.86a.3",
+    "Yoma.86a.4"
+   ],
+   "display": {
+    "whats": "Desecrating God's name: not atoned by any mechanism alone",
+    "hint": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, not YK, not death alone, and not repentance alone.",
+    "title": "Chilul Hashem: Beyond All Atonement Mechanisms"
+   },
+   "learning": {
+    "ahaMoment": "Chilul Hashem is a different kind of sin: it does not just damage the sinner's soul but alters how others perceive God. No private repair can fix a public wound.",
+    "memoryAnchor": "Chilul Hashem escapes the four mechanisms: the public damage to God's name requires public repair, not just private atonement.",
+    "learnerQuestion": "Why is desecrating God's name (chilul Hashem) uniquely serious and not fully atoned by the standard four mechanisms?",
+    "coreTension": "Between the Mishna's four atonement mechanisms (which cover all other categories of sin) and the claim that chilul Hashem escapes this framework.",
+    "coreMove": "The Gemara reasons: chilul Hashem creates a public reality of disrespect for God's name that persists even after repentance, YK, or death. The rupture is not only internal (the sinner's relationship to God) but external (how others now perceive God). Only sustained life-behavior that demonstrates Kiddush Hashem can repair what chilul Hashem broke.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Chilul Hashem is uniquely severe because it creates a public impression that no private atonement can erase; the repair must be as public as the damage, which no single atonement event can fully accomplish."
+    },
+    "learningBlocker": "Students may expect repentance to cover everything; the Gemara's point is that chilul Hashem is not just a private sin but a public harm to God's reputation in the world."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "analysis",
+     "label": "The exception: taking God's name in vain",
+     "speaker": "Gemara",
+     "text": "Continuing the list of minor transgressions, the source carves out 'you shall not take the name of the Lord in vain' (Exodus 20:7), about which the Torah says God 'will not absolve' the one who does so. The Gemara clarifies this is not the only weighty prohibition - rather it stands for that verse and anything like it, i.e. all severe prohibitions carrying court punishment.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "proof",
+     "label": "Rabbi Yehuda's dividing line",
+     "speaker": "Rabbi Yehuda",
+     "text": "A proof is offered from Rabbi Yehuda: for sins from 'you shall not take the name in vain' and below (lighter), repentance atones; from that verse and above (heavier), repentance suspends and Yom Kippur atones. The Gemara rejects it as proof - it may refer only to that verse and things like it, not to every prohibition that warrants lashes.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "proof",
+     "label": "The Horeb 'absolve / will not absolve' source",
+     "speaker": "Gemara",
+     "text": "Another source: since 'absolve' was said at Horeb regarding repentance, one might include even taking the name in vain - so the Torah says 'will not absolve.' And lest one think no prohibition is absolved, it says 'His name': God does not absolve one who profanes His name but does absolve the rest who repent. This suggests ordinary prohibitions are unlike taking the name in vain.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "resolution",
+     "label": "It is a tannaitic dispute",
+     "speaker": "Gemara",
+     "text": "The Gemara concludes this is a dispute between tannaim. One baraita: repentance atones a positive mitzva and a lav nitak la'aseh, while for karet, court-imposed death, and full prohibitions, repentance suspends and Yom Kippur atones. So whether repentance alone can fix prohibitions that warrant lashes is itself disputed.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l08",
+       "vilnaLine": 8
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "chilul Hashem",
+    "atonement",
+    "four mechanisms",
+    "special status"
+   ],
+   "concepts": {
+    "halachic": [
+     "chilul Hashem",
+     "atonement"
+    ],
+    "theological": [
+     "Chilul Hashem resists all four mechanisms alone: it is a relational sin against "
+    ],
+    "narrative": [
+     "Desecrating God's name: not atoned by any mechanism alone"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of chilul Hashem context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The proofs decisively show that prohibitions warranting lashes always need Yom Kippur, not just repentance.",
+     "correction": "The Gemara rejects each proof and concludes the matter is a tannaitic dispute - some tannaim hold repentance alone atones such sins, others require Yom Kippur.",
+     "correctedByStepId": "step-04"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Desecrating God's name: not atoned by any mechanis"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Does 'you shall not take the name of the Lord in vain' stand alone as the one severe prohibition, or represent a category?",
+     "answer": "It represents a category. The Gemara explains it stands for that verse 'and anything like it' - all severe prohibitions carrying court punishment, not just that single sin."
+    },
+    {
+     "question": "What is the underlying machloket the Gemara settles on regarding full prohibitions?",
+     "answer": "It is a tannaitic dispute: whether repentance alone atones for full-fledged prohibitions (those warranting lashes), or whether such sins require repentance to suspend and Yom Kippur to atone."
+    }
+   ],
+   "finalRuling": "Chilul Hashem (desecrating God's name) is a uniquely serious sin that is not fully atoned by any of the four standard mechanisms - not sin-offering, n",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-086a-s02",
+   "lineRange": {
+    "startVilnaLine": 12,
+    "endVilnaLine": 28
+   },
+   "lines": [
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.86a.5"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.86a.6"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.86a.7"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.86a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.86a.5",
+    "Yoma.86a.6",
+    "Yoma.86a.7",
+    "Yoma.86a.8"
+   ],
+   "display": {
+    "whats": "What is 'bearing God's name in vain'? Clarification of the category",
+    "hint": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor.",
+    "title": "What Constitutes Bearing God's Name in Vain"
+   },
+   "learning": {
+    "ahaMoment": "The criterion is not the act but its social effect: does this behavior make people think less of God? If yes, it is chilul Hashem regardless of whether God was explicitly mentioned.",
+    "memoryAnchor": "Chilul Hashem = whatever causes others to disrespect God's name: effect on observers, not words spoken.",
+    "learnerQuestion": "What exactly does it mean to 'bear God's name in vain,' and how is this defined in the context of chilul Hashem?",
+    "coreTension": "Between the narrow interpretation (false oaths, explicit misuse of God's name) and the broader understanding that any behavior which causes others to disrespect God constitutes chilul Hashem.",
+    "coreMove": "The Gemara clarifies that bearing God's name in vain is not limited to liturgical misuse. Any action that causes observers to form a negative impression of the God whose name the actor bears qualifies. The criterion is the effect on observers, not the explicit mention of God's name.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Chilul Hashem (desecrating God's name) is defined by its effect on observers: any behavior that causes people to form a negative impression of the God whose name the actor represents constitutes chilul Hashem, regardless of whether God's name is explicitly invoked."
+    },
+    "learningBlocker": "Students may limit chilul Hashem to explicit misuse of God's name in speech; the Gemara's definition extends to any behavior that damages God's reputation."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "analysis",
+     "label": "Where was 'absolve' said at Horeb?",
+     "speaker": "R. Elazar",
+     "text": "The Gemara unpacks the baraita's claim that 'absolve' was said at Horeb about repentance. Rabbi Elazar: the verse cannot mean only 'absolve' (since 'will not absolve' is written) nor only 'will not absolve' (since 'absolve' is written). The resolution: God absolves those who repent and does not absolve those who do not - so both ideas were stated at Horeb.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "case",
+     "label": "R. Matya's question: how many paths of atonement?",
+     "speaker": "R. Matya ben Charash",
+     "text": "Rabbi Matya ben Charash asked Rabbi Elazar ben Azarya in Rome whether he had heard the four distinctions in atonement that Rabbi Yishmael taught. The answer: not four but three - and repentance is required in every one of them.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l17",
+       "vilnaLine": 17
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "case",
+     "label": "The three categories of atonement",
+     "speaker": "Gemara",
+     "text": "First: violate a positive mitzva and repent - forgiven at once, 'return, backsliding children, I will heal your backsliding.' Second: violate a prohibition and repent - repentance suspends, Yom Kippur atones, 'on this day He shall atone for you.' Third: commit a sin of karet or court-imposed death and repent - repentance and Yom Kippur suspend, and suffering completes the atonement, 'I will visit their transgression with the rod.'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l20",
+       "vilnaLine": 20
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "resolution",
+     "label": "The fourth, hardest case: chilul Hashem",
+     "speaker": "Gemara",
+     "text": "But for one who desecrates God's name, repentance cannot suspend, Yom Kippur cannot atone, and suffering alone cannot cleanse. Rather all of these together suspend, and only death cleanses, as 'this iniquity shall not be atoned for until you die' (Isaiah 22:14). Chilul Hashem is the gravest tier, requiring the full sequence plus death.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l28",
+       "vilnaLine": 28
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "God's name in vain",
+    "desecration",
+    "definition"
+   ],
+   "concepts": {
+    "halachic": [
+     "God's name in vain",
+     "desecration"
+    ],
+    "theological": [
+     "The definition of chilul Hashem shifts by person: what is neutral for an ordinar"
+    ],
+    "narrative": [
+     "What is 'bearing God's name in vain'? Clarification of the c"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of God's name in vain context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Rabbi Yishmael taught four separate paths of atonement that work independently of repentance.",
+     "correction": "Rabbi Elazar ben Azarya corrects the count to three, and stresses repentance is required in every one. Chilul Hashem is then added as the gravest case, demanding the full sequence plus death.",
+     "correctedByStepId": "step-02"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "What is 'bearing God's name in vain'? Clarificatio"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What are the three (not four) categories of atonement Rabbi Yishmael taught, and what does each require?",
+     "answer": "(1) A neglected positive mitzva: repentance brings immediate forgiveness. (2) A prohibition: repentance suspends, Yom Kippur atones. (3) Karet or court-death sins: repentance and Yom Kippur suspend, and suffering completes atonement. Repentance is needed in all three."
+    },
+    {
+     "question": "How is chilul Hashem (desecrating God's name) atoned, and what verse teaches this?",
+     "answer": "It is the hardest case: repentance, Yom Kippur, and suffering together only suspend the punishment, and only death finally cleanses it, from 'this iniquity shall not be atoned for until you die' (Isaiah 22:14)."
+    }
+   ],
+   "finalRuling": "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Tora",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-086a-s03",
+   "lineRange": {
+    "startVilnaLine": 31,
+    "endVilnaLine": 43
+   },
+   "lines": [
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.86a.9"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.86a.10"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.86a.11"
+    },
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.86a.12"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.86a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.86a.9",
+    "Yoma.86a.10",
+    "Yoma.86a.11",
+    "Yoma.86a.12",
+    "Yoma.86a.13"
+   ],
+   "display": {
+    "whats": "What circumstances cause a Torah scholar to desecrate God's name?",
+    "hint": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the standard for scholars is higher.",
+    "title": "Chilul Hashem for Torah Scholars"
+   },
+   "learning": {
+    "ahaMoment": "The scholar is always 'on duty' as a representative of Torah. Their technically-permitted behavior is still read through the lens of 'what does this say about God?' by observers.",
+    "memoryAnchor": "Scholar's chilul Hashem: even technically-permitted behavior can desecrate God's name when it creates a bad impression in observers.",
+    "learnerQuestion": "Are Torah scholars held to a higher standard for chilul Hashem than ordinary people?",
+    "coreTension": "Between a single standard of chilul Hashem for all Jews and the possibility that the scholar's public role and representative status creates additional exposure.",
+    "coreMove": "The Gemara rules that for a Torah scholar, actions that are not technically prohibited but create a negative impression in observers still constitute chilul Hashem. The scholar's social visibility means that more behaviors carry the risk of damaging God's reputation.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Torah scholars bear enhanced exposure to chilul Hashem because their public role makes their behavior a representation of Torah and God's name; behavior that is technically permitted but creates a negative impression can constitute chilul Hashem for a scholar."
+    },
+    "learningBlocker": "Students may assume only technically prohibited acts can create chilul Hashem; the Gemara shows that the scholar's heightened representational role expands the category for them."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "What actually counts as chilul Hashem?",
+     "speaker": "Rav",
+     "text": "The Gemara asks what constitutes desecration of God's name. Rav: for a public figure like himself, taking meat from a butcher without paying on the spot - people may think he never intends to pay, brand him a thief, and conclude that stealing is permitted. A respected person's careless act teaches others to sin.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l31",
+       "vilnaLine": 31
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "case",
+     "label": "Abaye qualifies and Abaye's own practice",
+     "speaker": "Abaye",
+     "text": "Abaye limits Rav's case to a place where the butcher does not come to collect, so non-payment looks like theft; where collection is customary, buying on credit is understood and fine. Abaye himself, buying from two partners, paid each separately so each knew he was paid, then reconciled the accounts afterward - avoiding any appearance of cheating.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l33",
+       "vilnaLine": 33
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "case",
+     "label": "More examples: appearance and reputation",
+     "speaker": "R. Yochanan / others",
+     "text": "Rabbi Yochanan: for someone like him, walking four cubits without Torah or tefillin - when onlookers don't know it is only bodily weakness - is chilul Hashem. Yitzchak of Rabbi Yannai's school: whenever a person's reputation makes his friends ashamed, that is chilul Hashem. Rav Nachman bar Yitzchak: when people say 'may his Master forgive so-and-so' for what he does.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l35",
+       "vilnaLine": 35
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "case",
+     "label": "Kiddush Hashem: the positive counterpart",
+     "speaker": "Abaye",
+     "text": "Abaye cites a baraita on 'you shall love the Lord your God' - make Heaven's name beloved. One who learns Torah, serves scholars, and deals pleasantly in business makes people say: fortunate is his father and teacher who taught him Torah, see how pleasant his ways. Of him it says 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l38",
+       "vilnaLine": 38
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "resolution",
+     "label": "The contrast: when a learned person behaves badly",
+     "speaker": "Gemara",
+     "text": "By contrast, one who learns Torah and serves scholars but is dishonest in business and unpleasant makes people say: woe to him and to his teachers, see how corrupt his deeds. Of such people it says 'these are the people of the Lord, yet they left His land' (Ezekiel 36:20) - their sins desecrate God's name. The learned bear a heavier burden of representation.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l43",
+       "vilnaLine": 43
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Torah scholar",
+    "chilul Hashem",
+    "standard",
+    "reputation"
+   ],
+   "concepts": {
+    "halachic": [
+     "Torah scholar",
+     "chilul Hashem"
+    ],
+    "theological": [
+     "Scholar's standard: a Torah scholar buying meat without immediately paying, or w"
+    ],
+    "narrative": [
+     "What circumstances cause a Torah scholar to desecrate God's "
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of Torah scholar context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Chilul Hashem is only an overt, dramatic act like public blasphemy.",
+     "correction": "The sugya defines it largely by appearance and reputation - a prominent person not paying promptly, walking without tefillin, or dealing dishonestly. How one's conduct reflects on Torah, especially for the learned, is the measure.",
+     "correctedByStepId": "step-01"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "What circumstances cause a Torah scholar to desecr"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does Rav say that he, a public figure, would desecrate God's name by taking meat without paying immediately?",
+     "answer": "Because people seeing a prominent figure not pay may assume he never intends to, brand him a thief, and learn from his example that theft is acceptable. A respected person's conduct teaches others, so carelessness becomes a public desecration."
+    },
+    {
+     "question": "According to this sugya, why is chilul Hashem measured by a person's stature and reputation?",
+     "answer": "Because the more learned or respected a person is, the more others learn from and judge Torah by his behavior. So Rabbi Yochanan's walking without tefillin, or a scholar's dishonest dealings, desecrates the name even though the same act by an unknown person might not."
+    },
+    {
+     "question": "What is the positive counterpart to chilul Hashem described by Abaye?",
+     "answer": "Kiddush Hashem: a Torah scholar who deals honestly and pleasantly makes people praise his upbringing and teachers, fulfilling 'you are My servant Israel, in whom I am glorified' (Isaiah 49:3)."
+    }
+   ],
+   "finalRuling": "For a Torah scholar, chilul Hashem arises from actions that, while not technically prohibited, create a bad impression of Torah observance - the stand",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-086a-s04",
+   "lineRange": {
+    "startVilnaLine": 47,
+    "endVilnaLine": 50
+   },
+   "lines": [
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.86a.14"
+    },
+    {
+     "vilnaLine": 48,
+     "sefariaRef": "Yoma.86a.15"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.86a.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.86a.14",
+    "Yoma.86a.15",
+    "Yoma.86a.16"
+   ],
+   "display": {
+    "whats": "R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne",
+    "hint": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately be addressed through deep, sincere repentance.",
+    "title": "Great Repentance Reaches the Divine Throne"
+   },
+   "learning": {
+    "ahaMoment": "Great teshuva reaches the Throne: the inner act of genuine return is itself a form of standing before God, no intermediary required.",
+    "memoryAnchor": "Teshuva rabbah reaches the Throne directly: profound repentance bypasses mechanism and encounters God face to face.",
+    "learnerQuestion": "What does R. Hama bar Hanina mean when he says that great repentance reaches the Divine Throne?",
+    "coreTension": "Between the ordinary atonement process (which goes through specific mechanisms) and the claim that profound teshuva bypasses all limits and reaches directly to God's presence.",
+    "coreMove": "R. Hama bar Hanina teaches that the intensity of genuine repentance is itself capable of reaching God without any intermediate mechanism. Deep teshuva is not a ritual but a direct encounter with God. The image of 'reaching the Throne' conveys that nothing is beyond the reach of authentic return.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Genuine, intense repentance can transcend the formal atonement system and reach directly to God; R. Hama bar Hanina's teaching is that the depth of authentic teshuva is itself a form of direct encounter with the Divine."
+    },
+    "learningBlocker": "Students may think all atonement must go through formal mechanisms; R. Hama bar Hanina's teaching points to the direct power of the inner act of return."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "analysis",
+     "label": "The greatness of repentance: many derashot",
+     "speaker": "Various Amoraim",
+     "text": "The Gemara strings together praises of repentance. Rabbi Chama bar Chanina: great is repentance, for it brings healing to the world ('I will heal their backsliding, I will love them freely'). He then resolves a tension - 'return, backsliding children' (the sin treated as never happening) versus 'I will heal your backsliding' (the sin still remembered): the first is repentance from love, the second repentance from fear. Rabbi Yehuda resolves a parallel pair: healing available to all (through suffering) versus to select individuals (through love or fear). Rabbi Levi: repentance reaches the heavenly throne, 'return, Israel, to the Lord your God.'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-086a-l47",
+       "vilnaLine": 47
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "R. Hama bar Hanina",
+    "teshuva rabbah",
+    "divine throne",
+    "deep repentance"
+   ],
+   "concepts": {
+    "halachic": [
+     "R. Hama bar Hanina",
+     "teshuva rabbah"
+    ],
+    "theological": [
+     "Teshuva that reaches the Throne: even the most severe sins are reachable by suff"
+    ],
+    "narrative": [
+     "R. Hama bar Hanina: great repentance (teshuva rabbah) reache"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of R. Hama bar Hanina context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All repentance achieves the same erasure of sin.",
+     "correction": "The sugya distinguishes repentance from love, which removes the sin as if it never happened, from repentance from fear or through suffering, where the sin is still remembered though forgiven.",
+     "correctedByStepId": "step-01"
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "R. Hama bar Hanina: great repentance (teshuva rabb"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does Rabbi Chama bar Chanina resolve the tension between 'return, backsliding children' and 'I will heal your backsliding'?",
+     "answer": "The first verse, where the sin is treated as if it never happened, refers to repentance out of love; the second, where the sin is still remembered, refers to repentance out of fear. Love-driven repentance erases the sin more completely."
+    },
+    {
+     "question": "What is the difference between repentance from love and repentance from fear in this sugya?",
+     "answer": "Repentance from love wipes the sin away as if it never occurred and is achieved by few; repentance from fear, or through suffering, still leaves the sin remembered but is available to everyone."
+    }
+   ],
+   "finalRuling": "R. Hama bar Hanina teaches that profound teshuva (great repentance) reaches even the Divine Throne - implying that even chilul Hashem can ultimately b",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "חוץ מלא תשא. קא סלקא דעתך משום דכתיב לא ינקה: וכל דדמי",
+   "en": "New comment: 'except for taking God's name in vain' - one might think, since it is written 'He will not clear the guilty,' and anything",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "ליה. לא תעשה גמור: לפי שנאמר בחורב תשובה ונקה. לאחר",
+   "en": "similar to it, a complete prohibition is also excluded. New comment: 'since it is said at Chorev, repentance, and He shall clear' - this was said afterward,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l01a",
+    "yoma-086a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "מעשה העגל כשעלה משה להתפלל עליהן ולקמן מפרש לה: יכול",
+   "en": "after the incident of the Golden Calf, when Moshe went up to pray for them; this is explained further below. New comment: 'one might think'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "אף לא תשא. ינקה בתשובה: אי אפשר לומר נקה שכבר נאמר",
+   "en": "even taking God's name in vain He will clear through repentance. New comment: 'it is impossible to say clear, since it already says'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l05",
+    "yoma-086a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "לא ינקה. דכתיב נקה לא ינקה גבי",
+   "en": "'He will not clear' - since it is written 'clear' and 'He will not clear' regarding",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "הדדי: חלוקי כפרה. שחלוקין",
+   "en": "each other. New comment: 'the divisions of atonement' - that are divided",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l12",
+    "yoma-086a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "בכפרתן זה כך וזה כך: אמר לו.",
+   "en": "in their atonement, this one thus and that one thus. New comment: 'he said to him' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "שלש הן הנחלקין שיש עבירה שהיא",
+   "en": "there are three that are divided, meaning there is a transgression that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "צריכה לזה ואינה צריכה לזה אבל",
+   "en": "requires this one but not that one; but",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "תשובה אינה מן החלוקין שהיא צריכה",
+   "en": "repentance is not among the divided ones, since it is required",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "לכולן: שובו בנים. ומיד ארפא",
+   "en": "for all of them. New comment: 'return, children' - and immediately 'I will heal'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l17",
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "למדת שיש עבירה שמכפרת בתשובה",
+   "en": "you learn that there is a transgression that is atoned through repentance",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "לבדה: כי ביום הזה יכפר. למדת",
+   "en": "alone. New comment: 'for on this day it shall atone' - you learn",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "שיש עבירה שצריכה יוה\"כ: ופקדתי",
+   "en": "that there is a transgression that requires Yom Kippur. New comment: 'and I will visit'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "בשבט פשעם. למדת שיש עבירה",
+   "en": "with a rod their transgression' - you learn that there is a transgression",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "שצריכה יסורין ומסתברא הקל לקלה",
+   "en": "that requires suffering; and it stands to reason that the lenient mechanism applies to the lenient sin",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "והחמור לחמורה: חילול השם. חוטא",
+   "en": "and the severe to the severe. New comment: 'desecration of the Name' - one who sins",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l20",
+    "yoma-086a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "ומחטיא אחרים: באזני ה' צבאות.",
+   "en": "and causes others to sin. New comment: 'in my ears, the Lord of Hosts' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "אמר הנביא באזני אמר הקב\"ה אם",
+   "en": "the prophet said: 'in my ears' meaning the Holy One said: if",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "יכופר העון עד תמותון למדנו שיש",
+   "en": "this sin shall be atoned before you die, we learn that there is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "עבירה שאין לה כפרה אלא במיתה:",
+   "en": "a transgression that has no atonement except through death.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "ולא יהיבנא דמי לאלתר. וכשאני",
+   "en": "New comment: 'and I do not pay immediately' - and when I",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "מאחר לפרוע הוא אומר שאני גזלן",
+   "en": "delay paying, he says that I am a thief",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "ולמד ממני להיות מזלזל בגזל:",
+   "en": "and learns from me to be lax about theft.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "באתרא דלא תבעי. שאין דרך",
+   "en": "New comment: 'in a place where they do not demand payment' - since it is not the practice of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "הטבח לילך ולתבוע הקפותיו ועל",
+   "en": "the butcher to go and demand his credit payments, and it is upon",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "הלוקח להביא לו מעותיו לביתו:",
+   "en": "the buyer to bring his money to him at home.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "ומתא מחסיא. מקומו של רבינא:",
+   "en": "New comment: 'and Mata Mechasya' - the place of Ravina.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "יהיב זוזא להאי וזוזא להאי. שמא לא",
+   "en": "New comment: 'he gave a coin to this one and a coin to that one' - lest",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "ידע חבירו שנתתיו לו ויש כאן חילול",
+   "en": "his partner not know that he gave it to him, and there is here a desecration of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "השם: ועביד חושבנא. וחוזרין",
+   "en": "the Name. New comment: 'and made an accounting' - and they go back",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "ונותנין לו בשר כנגד מה שנטלו: כגון",
+   "en": "and give him meat corresponding to what they took. New comment: 'such as'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l33",
+    "yoma-086a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "אנא דמסגינא וכו'. ואין הכל יודעין",
+   "en": "'I, who walk,' etc. - and not everyone knows",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "שנחלשתי בגרסתי ולמדין הימני",
+   "en": "that I have weakened in my studies, and they learn from me",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "להבטל מתלמוד תורה: מחמת",
+   "en": "to be idle from Torah study. New comment: 'on account of'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "שמועתו. מחמת שם רע היוצא עליו:",
+   "en": "'his reputation' - on account of a bad name that goes out about him.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "שרא ליה מריה. ימחול יוצרו על",
+   "en": "New comment: 'may his Master forgive him' - may his Maker forgive him for",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l35",
+    "yoma-086a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "מעשיו: מתאהב על ידך. לחבירך:",
+   "en": "his deeds. New comment: 'is made beloved through you' - to your fellow.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "קורא. מקרא: ושונה. משנה:",
+   "en": "New comment: 'reads' - Scripture. New comment: 'and repeats' - Mishnah.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "ומשמש תלמידי חכמים. ללמוד (תורה)",
+   "en": "New comment: 'and serves Torah scholars' - to learn Torah,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "היא יישוב טעמי המשניות מה טעמן",
+   "en": "which is the reconciling of the reasons behind the Mishnayot, what their reasons are",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "ומהיכן למדו: באמור להם עם ה'",
+   "en": "and from where they are derived. New comment: 'when it is said of them, the people of the Lord'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l38",
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "אלה. את זו קרא הכתוב חילול השם",
+   "en": "are these' - Scripture calls this desecration of the Name,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "כשאדם חשוב עובר עבירה ופורענות",
+   "en": "when an important person commits a transgression, and punishment",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "באה עליו והכל אומרים מה הועילו לו",
+   "en": "comes upon him, and everyone says: what benefit was it to them,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "ראה החסידים והחכמים רעה באה",
+   "en": "to the pious and the wise, that evil came",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "עליהם שנאמר ויחללו את שם קדשי",
+   "en": "upon them, as it says: 'and they profaned My holy name,'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "ובמה חללוהו באמור עליהם הנכרים",
+   "en": "and how did they profane it? By the nations who were exiled among them",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "שגלו ביניהן ראו עם ה' אלה ולא",
+   "en": "saying about them, 'see, these are the people of the Lord,' and yet",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "יכול להצילם שלא יגלו נמצא שם",
+   "en": "He could not save them from exile - thus God's Name",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "שמים מתחלל וכבודו מתמעט:",
+   "en": "in heaven is desecrated and His honor is diminished.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "דמעיקרא שובבים אתם. כשתעשו",
+   "en": "New comment: 'originally you are wayward' - when you do",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "תשובה מעלה עליכם כאילו",
+   "en": "repentance, it is accounted for you as though",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "תחילת החטא על ידי נערות ושטות",
+   "en": "the beginning of the sin was through youthful folly",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "ושובבות: וכתיב ארפא. משמע",
+   "en": "and waywardness. New comment: 'and it is written, I will heal' - this implies",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "he": "מכאן ואילך כבעל מום שנתרפא",
+   "en": "that from here onward, the penitent is like one with a blemish who was healed,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "he": "שמקצת שמו עליו: כאן מאהבה.",
+   "en": "some trace of it remaining upon him. New comment: 'here, from love' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l48",
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "he": "השב מאהבה נעקר עונו מתחלתו:",
+   "en": "one who repents from love has his sin uprooted from its very beginning.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "he": "כתיב שובו בנים. אלמא בעלי",
+   "en": "New comment: 'it is written, return, children' - this shows that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "he": "תשובה קרויין בנים: וכתיב כי אנכי",
+   "en": "those who repent are called children. New comment: 'and it is written, for I'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "he": "בעלתי בכם. אלמא עבדים מיקרו:",
+   "en": "'have mastered you' - this shows they are called servants.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "he": "כאן מאהבה ומיראה. קרויין בנים:",
+   "en": "New comment: 'here, from love and from fear' - they are called children.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "he": "כאן על ידי יסורין. שלא שבו עד",
+   "en": "New comment: 'here, through suffering' - who did not return until",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "he": "שנתיסרו ביסורין קרויין עבדים ואית",
+   "en": "they were chastened by suffering are called servants; and there is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "he": "דגרסי כתיב שובו אלי ואשובה",
+   "en": "a version that reads: it is written 'return to Me and I will return'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "he": "וכתיב כי אנכי בעלתי בכם כתיב",
+   "en": "and it is written 'for I have mastered you.' It is written",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "he": "ואשובה אליכם לאחר תשובה וכתיב כי אנכי בעלתי בכם כבר קודם שתשובו כאן מאהבה או מיראה קא אמר כי אנכי בעלתי בכם:",
+   "en": "'and I will return to you' after repentance; and it is written 'for I have mastered you' already before you repented; here it speaks of love or fear, when it says 'for I have mastered you.'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "he": "לא",
+   "en": "This ('not') is the catchword anticipating 86b's continuation.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-086a-l50"
+   ]
+  }
+ ],
+ "review": "draft"
 }

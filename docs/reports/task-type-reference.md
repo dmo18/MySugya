@@ -52,7 +52,7 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet onl
 - model: fable
 - haiku allowed: no
 - max batch: n/a
-- allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json
+- allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
 - required validators: validate:offline:yoma
 - stop conditions:
@@ -170,12 +170,13 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 - model: haiku-with-fable-review; Fable review required
 - haiku allowed: yes
 - max batch: 2
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - any gate failure not fixable by correcting your own content
 
 ## quiz-edit
@@ -192,22 +193,61 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 - stop conditions:
   - any change outside the mutable path set would be needed
 
-## rashi-reconstruction
+## rashi-realignment
 
-Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
+Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
 
-- model: haiku-with-fable-review; Fable review required
-- haiku allowed: yes
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- haiku allowed: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
-  - raw count vs entry count mismatch
-  - new semantic audit shift candidate beyond offset +-1
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - any gate failure not fixable by correcting your own content
+  - required packet id missing, or packet segment text truncated or incomplete
+  - structure or count mismatch not already baselined
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not ALIGNED
+  - a semantic audit shift candidate remains on the target daf
+  - a link that cannot be justified from local segment text
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
+  - more than one daf would change in the same content PR
+
+## rashi-reconstruction
+
+Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
+
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- haiku allowed: no
+- max batch: 1
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
+- allowlist policy: remove-only; structure policy: forbidden
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
+- stop conditions:
+  - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
+  - any gate failure not fixable by correcting your own content
+  - required packet id missing, or packet segment text truncated or incomplete
+  - structure or count mismatch not already baselined
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not ALIGNED
+  - a semantic audit shift candidate remains on the target daf
+  - a link that cannot be justified from local segment text
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
+  - more than one daf would change in the same content PR
 
 ## rashi-repair
 
@@ -216,15 +256,45 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 - model: haiku
 - haiku allowed: yes
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, .worker-manifest.json
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
 - stop conditions:
   - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
+  - target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)
   - count mismatch not already baselined
   - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content
+
+## rashi-structural-repair
+
+Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.
+
+- model: fable; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- haiku allowed: no
+- max batch: 1
+- REQUIRED authorization: allowStructure (Fable-issued; preflight fails without it)
+- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- mutable JSON paths: rashiTranslations
+- allowlist policy: remove-only; structure policy: explicit-allowStructure-required
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
+- stop conditions:
+  - authoritative line ownership is ambiguous across a daf boundary
+  - source files disagree materially
+  - uncertain Hebrew meaning or placement
+  - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
+  - required packet id missing, or packet segment text truncated or incomplete
+  - the repair would require changing more than one daf in the same PR
+  - allowlist growth would be needed
+  - validator or workflow modification would be needed
+  - semantic uncertainty remains after rereading the raw Hebrew and full segment text
+  - post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)
+  - a semantic audit shift candidate remains on the target daf
+  - the fresh post-edit self-review finds a blocker
+  - CI or full verification fails after one bounded correction attempt
+  - fields outside the manifest would be needed
 
 ## structural-repair
 

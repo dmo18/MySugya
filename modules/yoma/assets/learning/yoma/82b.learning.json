@@ -1,367 +1,397 @@
 {
-  "canonicalRef": "Yoma 82b",
-  "summary": "Tractate Yoma daf 82b covers: A murderer's own life: do we violate YK to save him?; Story of a pregnant woman's craving; R. Yannai whispers to her.",
-  "sugyot": [
+ "canonicalRef": "Yoma 82b",
+ "summary": "Tractate Yoma daf 82b covers: A murderer's own life: do we violate YK to save him?; Story of a pregnant woman's craving; R. Yannai whispers to her.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-082b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-082b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.82b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82b.1"
-      ],
-      "display": {
-        "whats": "A murderer's own life: do we violate YK to save him?",
-        "hint": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is ex...",
-        "title": "Does Pikuach Nefesh Apply to a Murderer?"
-      },
-      "learning": {
-        "ahaMoment": "The murderer question is a philosophical limit-test: does the 'Torah was given to live by' apply to all lives equally, or only to those who have not forfeited legal life-protection?",
-        "memoryAnchor": "Murderer's life on YK: the question itself is the teaching - pikuach nefesh meets judicial forfeiture.",
-        "learnerQuestion": "Do we violate Yom Kippur to save the life of someone who has committed murder?",
-        "coreTension": "Between the universal application of pikuach nefesh (all lives override YK) and the intuition that a murderer's life might be treated differently by the same law that would have obligated execution.",
-        "coreMove": "The Gemara raises but does not definitively resolve the question: does someone who forfeited their life-protection by committing murder still benefit from pikuach nefesh? The question forces a distinction between the life-value principle and the judicial forfeiture of life.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The question of whether pikuach nefesh applies to a murderer reveals a distinction between intrinsic life-value (which pikuach nefesh protects) and judicial life-status (which murder can forfeit); the tension between these two frameworks is unresolved."
-        },
-        "learningBlocker": "Students may assume pikuach nefesh is simply universal and be surprised by the question; the Gemara is probing the philosophical foundations of the principle."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Why must one die rather than murder? Rava's logic",
-          "speaker": "Gemara",
-          "text": "Where do we derive that the murderer himself must be killed rather than transgress? From reason. A man came to Rava: the village ruler ordered him to kill someone or be killed himself. Rava answered: let yourself be killed and do not kill - what makes you think your blood is redder than his? Perhaps his blood is redder than yours.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "murderer",
-        "pikuach nefesh",
-        "YK",
-        "moral complexity"
-      ],
-      "concepts": {
-        "halachic": [
-          "murderer",
-          "pikuach nefesh"
-        ],
-        "theological": [
-          "Even a murderer's life is a life - YK is violated to save anyone, because human "
-        ],
-        "narrative": [
-          "A murderer's own life: do we violate YK to save him?"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of murderer context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "One may kill another to save his own life since his own life takes priority.",
-          "correction": "Reason gives no priority to one's own blood over another's; one must accept death rather than commit murder, since no one can claim his blood is redder."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "A murderer's own life: do we violate YK to save hi"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did Rava tell the man to let himself be killed rather than carry out the murder?",
-          "answer": "Because there is no logical basis to assume one's own life is worth more than the intended victim's - 'who says your blood is redder than his?' - so one may not kill to save oneself."
-        },
-        {
-          "question": "On what basis is the law that one must die rather than murder derived?",
-          "answer": "Not from a verse but from pure reason: there is no way to value one life above another, so a person may not take an innocent life even to save his own."
-        }
-      ],
-      "finalRuling": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension betwee",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-082b-s02",
-      "lineRange": {
-        "startVilnaLine": 6,
-        "endVilnaLine": 9
-      },
-      "lines": [
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.82b.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.82b.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.82b.2",
-        "Yoma.82b.3"
-      ],
-      "display": {
-        "whats": "Story of a pregnant woman's craving; R. Yannai whispers to her",
-        "hint": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the re...",
-        "title": "R. Yannai's Whisper to the Pregnant Woman"
-      },
-      "learning": {
-        "ahaMoment": "R. Yannai's story is about the relationship between halakhic defaults and creative sage intervention: the rule stands ready; a sage may try wisdom before invoking it.",
-        "memoryAnchor": "R. Yannai whispered, the craving resolved - but the rule to feed was always there as the backup.",
-        "learnerQuestion": "What did R. Yannai whisper to the pregnant woman craving food on Yom Kippur, and why did it work?",
-        "coreTension": "Between the halakhic rule (feed a pregnant woman who craves food) and a seemingly miraculous alternative where the craving is resolved without feeding.",
-        "coreMove": "R. Yannai's whisper resolved the craving without breaking the fast. The story raises the question of whether this was miraculous (divine assistance) or psychological (reassurance resolved psychosomatic hunger). Either way, it illustrates that the halakhic default (feed her) was available; R. Yannai tried another path first.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The story of R. Yannai's whisper illustrates that halakhic defaults (feed the craving woman) represent the baseline, but sages might try other interventions first when available; the halakha remains the safety net when the alternative fails."
-        },
-        "learningBlocker": "Students may focus on what was whispered; the legal point is that the halakhic option was always available and the story does not displace it."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "narrative",
-          "label": "Rabbi Yehuda HaNasi calms a craving woman",
-          "speaker": "Gemara",
-          "text": "A pregnant woman craved food on Yom Kippur. Rabbi Yehuda HaNasi told the inquirers to whisper to her that it was Yom Kippur; the whisper settled her and she stopped craving. He applied 'before I formed you in the belly I knew you' (Jeremiah 1:5) to her unborn child.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082b-l06",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "elaboration",
-          "label": "Rabbi Chanina's case ends differently",
-          "speaker": "Gemara",
-          "text": "In a parallel case before Rabbi Chanina, the woman was whispered to but did not accept it and kept craving; he too read a verse about her child, foreshadowing the child's later character.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-082b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "pregnant woman",
-        "craving",
-        "R. Yannai",
-        "suggestion",
-        "YK"
-      ],
-      "concepts": {
-        "halachic": [
-          "pregnant woman",
-          "craving"
-        ],
-        "theological": [
-          "R. Yannai whispered to the pregnant woman: sometimes the craving is psychologica"
-        ],
-        "narrative": [
-          "Story of a pregnant woman's craving; R. Yannai whispers to h"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Background knowledge of pregnant woman context",
-        "Understanding of Yom Kippur halachic framework"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A craving pregnant woman is immediately fed forbidden food on Yom Kippur.",
-          "correction": "One first tries the least invasive step, such as reminding her it is Yom Kippur; forbidden food is given only if her mind cannot be settled and danger remains."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "Story of a pregnant woman's craving; R. Yannai whi"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did Rabbi Yehuda HaNasi instruct that the craving woman be whispered to that it is Yom Kippur?",
-          "answer": "If the reminder alone settles her mind, no prohibition need be violated; feeding her forbidden food is a last resort only if the craving persists and life is endangered."
-        },
-        {
-          "question": "What is the contrast between Rabbi Yehuda HaNasi's case and Rabbi Chanina's case?",
-          "answer": "In Rabbi Yehuda HaNasi's case the whisper settled the woman and the child became righteous; in Rabbi Chanina's case the whisper failed, foreshadowing a different character in the child."
-        }
-      ],
-      "finalRuling": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "draft"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.82b.1"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "he": "ורוצח גופיה מנלן. דיהרג ואל יעבור: מרי דוראי. שלטון של כפר",
-      "en": "Rashi: even a murderer's life is preserved on Yom Kippur.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.82b.1"
+   ],
+   "display": {
+    "whats": "A murderer's own life: do we violate YK to save him?",
+    "hint": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is ex...",
+    "title": "Does Pikuach Nefesh Apply to a Murderer?"
+   },
+   "learning": {
+    "ahaMoment": "The murderer question is a philosophical limit-test: does the 'Torah was given to live by' apply to all lives equally, or only to those who have not forfeited legal life-protection?",
+    "memoryAnchor": "Murderer's life on YK: the question itself is the teaching - pikuach nefesh meets judicial forfeiture.",
+    "learnerQuestion": "Do we violate Yom Kippur to save the life of someone who has committed murder?",
+    "coreTension": "Between the universal application of pikuach nefesh (all lives override YK) and the intuition that a murderer's life might be treated differently by the same law that would have obligated execution.",
+    "coreMove": "The Gemara raises but does not definitively resolve the question: does someone who forfeited their life-protection by committing murder still benefit from pikuach nefesh? The question forces a distinction between the life-value principle and the judicial forfeiture of life.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The question of whether pikuach nefesh applies to a murderer reveals a distinction between intrinsic life-value (which pikuach nefesh protects) and judicial life-status (which murder can forfeit); the tension between these two frameworks is unresolved."
     },
+    "learningBlocker": "Students may assume pikuach nefesh is simply universal and be surprised by the question; the Gemara is probing the philosophical foundations of the principle."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "he": "שאני דר שם: מאי חזית דדמא דידך סומק טפי. כלומר מאי דעתיך",
-      "en": "Rashi: the story of the pregnant woman and R. Yannai's whisper.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "למשרי מילתא משום וחי בהם ולא שימות בהם טעמו של דבר לפי",
-      "en": "Rashi: the power of suggestion satisfied the craving without actual eating.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "שחביבה נפשן של ישראל לפני המקום יותר מן המצות אמר הקב\"ה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "תבטל המצוה ויחיה זה אבל עכשיו",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "שיש כאן ישראל נהרג והמצוה",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "בטילה למה ייטב בעיני המקום",
-      "en": "Rashi elaborates on the halachic details of this sugya.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "לעבור על מצותו למה יהיה דמך",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "חביב עליו יותר מדם חבירך ישראל:",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "ההיא עוברה דארחא. שהריחה",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "ויום הכפורים היה: לחושו לה.",
-      "en": "Rashi clarifies the ruling and its application.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "באזנה שיוה\"כ הוא היום אולי תוכל",
-      "en": "Rashi explains that one whispered in her ear that it is Yom Kippur today, perhaps she would be able to hold herself back.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "להתאפק: ואלחישה. קיבלה את",
-      "en": "Rashi glosses the term 'va-elchishha': she accepted the whispering.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "הלחישה שפסק העובר מתאותו:",
-      "en": "Rashi continues: that the fetus stopped its craving, explaining the mechanism by which the whisper was effective.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "זורו",
-      "en": "Rashi opens comment on 'zoru', continuing the preceding narrative discussion about the craving and the response.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "id": "step-01",
+     "type": "question",
+     "label": "Why must one die rather than murder? Rava's logic",
+     "speaker": "Gemara",
+     "text": "Where do we derive that the murderer himself must be killed rather than transgress? From reason. A man came to Rava: the village ruler ordered him to kill someone or be killed himself. Rava answered: let yourself be killed and do not kill - what makes you think your blood is redder than his? Perhaps his blood is redder than yours.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082b-l01",
+       "vilnaLine": 1
+      }
+     ]
     }
-  ],
-  "review": "draft"
+   ],
+   "topicTags": [
+    "murderer",
+    "pikuach nefesh",
+    "YK",
+    "moral complexity"
+   ],
+   "concepts": {
+    "halachic": [
+     "murderer",
+     "pikuach nefesh"
+    ],
+    "theological": [
+     "Even a murderer's life is a life - YK is violated to save anyone, because human "
+    ],
+    "narrative": [
+     "A murderer's own life: do we violate YK to save him?"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of murderer context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "One may kill another to save his own life since his own life takes priority.",
+     "correction": "Reason gives no priority to one's own blood over another's; one must accept death rather than commit murder, since no one can claim his blood is redder."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "A murderer's own life: do we violate YK to save hi"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did Rava tell the man to let himself be killed rather than carry out the murder?",
+     "answer": "Because there is no logical basis to assume one's own life is worth more than the intended victim's - 'who says your blood is redder than his?' - so one may not kill to save oneself."
+    },
+    {
+     "question": "On what basis is the law that one must die rather than murder derived?",
+     "answer": "Not from a verse but from pure reason: there is no way to value one life above another, so a person may not take an innocent life even to save his own."
+    }
+   ],
+   "finalRuling": "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension betwee",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-082b-s02",
+   "lineRange": {
+    "startVilnaLine": 6,
+    "endVilnaLine": 9
+   },
+   "lines": [
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.82b.2"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.82b.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.82b.2",
+    "Yoma.82b.3"
+   ],
+   "display": {
+    "whats": "Story of a pregnant woman's craving; R. Yannai whispers to her",
+    "hint": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the re...",
+    "title": "R. Yannai's Whisper to the Pregnant Woman"
+   },
+   "learning": {
+    "ahaMoment": "R. Yannai's story is about the relationship between halakhic defaults and creative sage intervention: the rule stands ready; a sage may try wisdom before invoking it.",
+    "memoryAnchor": "R. Yannai whispered, the craving resolved - but the rule to feed was always there as the backup.",
+    "learnerQuestion": "What did R. Yannai whisper to the pregnant woman craving food on Yom Kippur, and why did it work?",
+    "coreTension": "Between the halakhic rule (feed a pregnant woman who craves food) and a seemingly miraculous alternative where the craving is resolved without feeding.",
+    "coreMove": "R. Yannai's whisper resolved the craving without breaking the fast. The story raises the question of whether this was miraculous (divine assistance) or psychological (reassurance resolved psychosomatic hunger). Either way, it illustrates that the halakhic default (feed her) was available; R. Yannai tried another path first.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The story of R. Yannai's whisper illustrates that halakhic defaults (feed the craving woman) represent the baseline, but sages might try other interventions first when available; the halakha remains the safety net when the alternative fails."
+    },
+    "learningBlocker": "Students may focus on what was whispered; the legal point is that the halakhic option was always available and the story does not displace it."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "narrative",
+     "label": "Rabbi Yehuda HaNasi calms a craving woman",
+     "speaker": "Gemara",
+     "text": "A pregnant woman craved food on Yom Kippur. Rabbi Yehuda HaNasi told the inquirers to whisper to her that it was Yom Kippur; the whisper settled her and she stopped craving. He applied 'before I formed you in the belly I knew you' (Jeremiah 1:5) to her unborn child.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082b-l06",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "elaboration",
+     "label": "Rabbi Chanina's case ends differently",
+     "speaker": "Gemara",
+     "text": "In a parallel case before Rabbi Chanina, the woman was whispered to but did not accept it and kept craving; he too read a verse about her child, foreshadowing the child's later character.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-082b-l09",
+       "vilnaLine": 9
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "pregnant woman",
+    "craving",
+    "R. Yannai",
+    "suggestion",
+    "YK"
+   ],
+   "concepts": {
+    "halachic": [
+     "pregnant woman",
+     "craving"
+    ],
+    "theological": [
+     "R. Yannai whispered to the pregnant woman: sometimes the craving is psychologica"
+    ],
+    "narrative": [
+     "Story of a pregnant woman's craving; R. Yannai whispers to h"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Background knowledge of pregnant woman context",
+    "Understanding of Yom Kippur halachic framework"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A craving pregnant woman is immediately fed forbidden food on Yom Kippur.",
+     "correction": "One first tries the least invasive step, such as reminding her it is Yom Kippur; forbidden food is given only if her mind cannot be settled and danger remains."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "Story of a pregnant woman's craving; R. Yannai whi"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did Rabbi Yehuda HaNasi instruct that the craving woman be whispered to that it is Yom Kippur?",
+     "answer": "If the reminder alone settles her mind, no prohibition need be violated; feeding her forbidden food is a last resort only if the craving persists and life is endangered."
+    },
+    {
+     "question": "What is the contrast between Rabbi Yehuda HaNasi's case and Rabbi Chanina's case?",
+     "answer": "In Rabbi Yehuda HaNasi's case the whisper settled the woman and the child became righteous; in Rabbi Chanina's case the whisper failed, foreshadowing a different character in the child."
+    }
+   ],
+   "finalRuling": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "draft"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "ורוצח גופיה מנלן. דיהרג ואל יעבור: מרי דוראי. שלטון של כפר",
+   "en": "'And a murderer himself, from where do we derive it' - that he should be killed rather than transgress. New comment: 'lord of Durai' - the ruler of a village",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "שאני דר שם: מאי חזית דדמא דידך סומק טפי. כלומר מאי דעתיך",
+   "en": "that I live in. New comment: 'what do you see that your blood is redder' - meaning, what makes you think",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "למשרי מילתא משום וחי בהם ולא שימות בהם טעמו של דבר לפי",
+   "en": "to permit the matter on account of 'and he shall live by them, and not die by them' - the reason for the matter is because",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "שחביבה נפשן של ישראל לפני המקום יותר מן המצות אמר הקב\"ה",
+   "en": "the souls of Israel are dearer to the Omnipresent than the commandments; the Holy One, blessed be He, said:",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "תבטל המצוה ויחיה זה אבל עכשיו",
+   "en": "let the commandment be nullified and let this one live; but now",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "שיש כאן ישראל נהרג והמצוה",
+   "en": "since here there is an Israelite being killed, and the commandment",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "בטילה למה ייטב בעיני המקום",
+   "en": "is still nullified, why should it be good in the eyes of the Omnipresent",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "לעבור על מצותו למה יהיה דמך",
+   "en": "to transgress His commandment? Why should your blood be",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "חביב עליו יותר מדם חבירך ישראל:",
+   "en": "dearer to Him than the blood of your fellow Israelite?",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "ההיא עוברה דארחא. שהריחה",
+   "en": "'That pregnant woman of the road' - who smelled food,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "ויום הכפורים היה: לחושו לה.",
+   "en": "and it was Yom Kippur. New comment: 'whisper to her' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "באזנה שיוה\"כ הוא היום אולי תוכל",
+   "en": "in her ear, that today is Yom Kippur, perhaps she will be able",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "להתאפק: ואלחישה. קיבלה את",
+   "en": "to restrain herself. New comment: 'and she accepted the whisper' - she accepted",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "הלחישה שפסק העובר מתאותו:",
+   "en": "the whisper, that the fetus ceased its craving.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "זורו",
+   "en": "This ('zoru') continues on 83a.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-082b-l09"
+   ]
+  }
+ ],
+ "review": "draft"
 }

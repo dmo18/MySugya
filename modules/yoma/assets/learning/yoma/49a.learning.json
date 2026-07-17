@@ -453,323 +453,457 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Non-priest, mourner, drunk, blemished - all derived from verses disqualifying Temple blood service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - 'a non-priest, a mourner, a drunkard, and one with a blemish' - all of these we derive from verses that disqualify service",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "Sitting disqualified because the priest must stand to serve (Deut. 18); left hand similarly invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - in the second chapter of tractate Zevachim (16a). 'And so too sitting' - since he needs to stand to serve (Deuteronomy 18): 'but'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rav Sheshet himself raised this baraita against Rav Hisda's interpreter - as explained below.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - was it not Rav Sheshet himself who raised this objection, to this baraita, to Rav Chisda's reciter, as is explained",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l03"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "If he knew the baraita how could he err in ruling left-hand or non-priest service is valid?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - further on. Evidently he had heard it, so how could he err to resolve that it is valid with the left hand? 'And they tossed'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l03"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "The priests sprinkled from their hand - meaning from the hands of the non-priest slaughterers.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the priests, the blood' - from the hand of the slaughterers,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l03"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "The non-priests slaughtered and the priests received the blood from their hands.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - who are non-priests, and they took back and received the blood from",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l03"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "The priest received the blood and the Levites carried it to the priest who sprinkled.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the receiving priest, and carried it to the one who tossed it:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l03"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "We read 'Rav Sheshet objected' - this is the correct textual reading.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'and Rav Sheshet objects' - this is our reading: after",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l08"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "After they raised the objection against him here, he then used it himself against Rav Hisda.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he heard it, that they raised the objection to him here, he then",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "An itzteiva (bench) action - the non-priests passively held blood without actively carrying it.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - raised the objection himself against Rav Chisda. 'The bench action' -",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "The receivers placed blood in the hands of non-priests who did not move it toward the altar.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the receivers would set",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rather they held it in their hands as if placed on a platform - passive holding, not active carrying.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the blood in the hands of the non-priests, and the non-priests would not bring it close",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "The blood sat in their hands like an object resting on a shelf - not halakhic carrying.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to the altar at all, but rather would set",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "Resting blood in non-priest hands as on a platform is not carrying in the service sense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the blood on their hands as if on a bench:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l10"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Or perhaps 'he shall take and bring' applies also to the full handful - making it an obligatory act.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'or perhaps we require and he shall take, and he shall bring' - for 'and he shall take' also",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l12"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "What is the law if another HP enters with the original scooping - need he re-scoop?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - refers to 'his full handfuls.' 'What is the law if another may enter'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l12",
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "The replacement priest serving in his place - may he enter with the first HP's scooped incense?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the priest serving in his place - what is the law that he may enter within",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Using the handful already placed in the ladle without needing to re-scoop.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with this scooping that the first one placed into the spoon,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "R. Chanina said to his students: Come and see that later generations achieve the wisdom of earlier ones.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and he need not go back and re-scoop. 'Rabbi Chanina said:'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "See that the later generation is privileged to puzzle over the same questions as earlier sages.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - to his disciples: come and see that the last generation",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "Even I myself puzzled over this question - and now R. Yehoshua ben Levi asks the same.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - merits to become wise like the earlier generations,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 22,
-      "en": "R. Yehoshua ben Levi who is counted among the earlier sages - this shows his generation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - for I too used to ask this question, and now",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 23,
-      "en": "Even I used to struggle with this - indicating R. Chanina considered himself from the earlier generation.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Rabbi Yehoshua ben Levi has asked it, who is from",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15"
+      ]
     },
     {
       "vilnaLine": 24,
-      "en": "Watercress (shalhayim) - a plant called cresson in Old French.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the early ones.' 'Shachalayim' - cresson, in the vernacular. 'To grind",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l15",
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 25,
-      "en": "Permitted to eat and drink as a medicinal remedy.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and drink': it heals, one may say, curing the ailment.",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 26,
-      "en": "Conclude that R. Yehoshua ben Levi was not senior to R. Chanina - who referred to him as 'Rabbi.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - We may learn from this that Rabbi Yehoshua ben Levi was not",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 27,
-      "en": "Elders did not call younger scholars 'Rabbi' - so Chanina must have been the senior.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - senior, from the fact that he called him 'Rabbi,' for he said 'to me'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 28,
-      "en": "'Chanina permitted it to me' - the elder's name without the 'Rabbi' title indicates he was junior.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'Rabbi Chanina permitted,' and it was not the way of",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rather: Chanina told me it was permitted - I am reporting what Chanina said.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the elders to say 'Rabbi' about the young men, but rather",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 30,
-      "en": "He said 'Chanina permitted me' not 'my Rabbi Chanina' - showing Chanina was senior to R. Yehoshua ben Levi.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - he would say 'Chanina permitted me' - meaning 'to me",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rather this is what R. Chanina said to his students - explaining the dilemma as a teaching.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Chanina said that it is a remedy.' Rather, this",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l17"
+      ]
     },
     {
       "vilnaLine": 32,
-      "en": "R. Chanina to students: come see that later generations' questions match my own earlier questions.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is what he meant: Rabbi Chanina said to his disciples: come and see",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l32"
+      ]
     },
     {
       "vilnaLine": 33,
-      "en": "Since I am from the earlier generation and I struggled with this same question.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that the question of the later ones is like my own question, for I",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l32"
+      ]
     },
     {
       "vilnaLine": 34,
-      "en": "Even I was troubled by this - so the later sages show equal wisdom to the earlier.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - am from the early ones, for I too was",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l32"
+      ]
     },
     {
       "vilnaLine": 35,
-      "en": "Did R. Chanina actually have this doubt about whether a replacement may enter with the original scooping?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - troubled by it. 'But did Rabbi Chanina actually say this'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l32",
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 36,
-      "en": "Was it genuinely uncertain to him whether another HP may enter with the first HP's incense?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is it genuinely uncertain to him whether another may enter with his scooping,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 37,
-      "en": "'A bull' not 'the blood of a bull' - the verse specifies the animal, not merely its blood.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - or not: 'with a bull, and not with the blood of a bull.'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 38,
-      "en": "In this shall Aaron enter the sanctuary - with a bull (Lev. 16), not with the blood of a bull already slaughtered.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'With this shall Aaron enter the sanctuary' - with a bull",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 39,
-      "en": "If the HP slaughtered his bull and then died, the replacement cannot use that blood to enter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - (Leviticus 16) - and not with the blood of a bull; for if he slaughtered",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 40,
-      "en": "A new bull must be brought - because entry requires the replacement HP's own fresh animal.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - his bull and died, the one serving in his place does not enter",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 41,
-      "en": "Since a new bull is needed, a new incense scooping is also required after that slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with that blood within, but rather he needs to bring a bull",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 42,
-      "en": "Since the replacement needs his own bull, he must also scoop incense fresh after his slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of his own and slaughter it; and since he needs to bring a bull",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 43,
-      "en": "And R. Chanina also taught: incense scooped before the bull's slaughter is void.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of his own, he needs to scoop the incense after its slaughter:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l34"
+      ]
     },
     {
       "vilnaLine": 44,
-      "en": "R. Chanina adds: if incense was scooped before the HP's bull was slaughtered it is invalid.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and Rabbi Chanina said: incense that he scooped before",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 45,
-      "en": "The service order requires: first slaughter the bull, then scoop the incense.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the slaughter, he has done nothing. For such",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 46,
-      "en": "In the scenario of scooping then dying: the HP must have already slaughtered his bull first.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - is the order of the services, regarding the matter of one who scooped and died",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 47,
-      "en": "The scenario of scooping then dying: the first HP must have slaughtered his bull before scooping.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - too, it is impossible that he did not slaughter his bull first,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 48,
-      "en": "If you say the replacement may enter with the first HP's incense scooping...",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and this one coming after him needs to bring another bull",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 49,
-      "en": "Then this scooping would be before the replacement's bull's slaughter - making it retroactively void.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and if you say he may enter with the scooping of the first,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 50,
-      "en": "That scooping would be 'before his bull's slaughter' for the replacement - which R. Chanina says is void.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this scooping would be found to be before the slaughter of the bull",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36"
+      ]
     },
     {
       "vilnaLine": 51,
-      "en": "This is what R. Chanina means: his ruling implies the replacement cannot use the first HP's scooping.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - of the second one. This is what Rabbi Chanina meant.",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l36",
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 52,
-      "en": "From the fact that R. Yehoshua ben Levi treats it as a dilemma - we learn he disputes R. Chanina.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - From the fact that it was a dilemma for Rabbi Yehoshua ben",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 53,
-      "en": "The fact that it is a dilemma for him means he holds no new bull is needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - Levi, this implies he holds that one does not need to bring",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 54,
-      "en": "If he held a new bull is required, the incense question resolves itself - it would always be void.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - another bull, for if so, this incense would be",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 55,
-      "en": "Making the incense scooping effectively before the replacement's bull slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one he scooped before the slaughter of the bull:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 56,
-      "en": "So R. Yehoshua ben Levi must hold the existing blood is valid for the replacement - hence his dilemma.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and according to what he holds, he asked well, like the question of",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 57,
-      "en": "The replacement could potentially use the original HP's scooping if no new bull is needed.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the early ones, those who disputed with me about 'with a bull,'",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 58,
-      "en": "The dilemma remains: 'a bull' excludes using existing blood, or only the scooping timing matters.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and even 'with the blood of a bull' - to them too this question was posed:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38"
+      ]
     },
     {
       "vilnaLine": 59,
-      "en": "R. Chanina: incense must follow the slaughter of the specific HP performing the entry service.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - this question. 'What was decided about it?' One who scooped and died,",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l38",
+        "yoma-049a-l41"
+      ]
     },
     {
       "vilnaLine": 60,
-      "en": "R. Yehoshua ben Levi: perhaps the existing blood is valid and a new scooping is not required.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - what is the law that another may enter with his scooping: 'if",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l41"
+      ]
     },
     {
       "vilnaLine": 61,
-      "en": "The overall question: can a replacement HP complete what the first HP began?",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - one scoops, goes back, and scoops again.' If it was resolved for us",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l41"
+      ]
     },
     {
       "vilnaLine": 62,
-      "en": "The Gemara shows R. Chanina and R. Yehoshua ben Levi hold opposing views on the new-bull requirement.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from our dilemma about the scooping inside, whether he needs to go back and re-scoop or not, and it comes out that he needs to go back and re-scoop, then his fellow enters with his scooping, since the scooping is established:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l41",
+        "yoma-049a-l46"
+      ]
     },
     {
       "vilnaLine": 63,
-      "en": "R. Chanina: new bull needed. R. Yehoshua ben Levi: perhaps not - hence his dilemma.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - on the contrary: if one scoops and goes back and scoops, then his fellow does not enter with his scooping, since it is impossible that his fellow's amount not differ, that the first one's handfuls be exactly equal to the second one's:",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l43"
+      ]
     },
     {
       "vilnaLine": 64,
-      "en": "The question remains open; the Gemara continues developing it on the following pages.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - 'how' - the daf ends mid-word here; the comment (describing the mechanics of the second, inside scooping) continues on 49b.",
+      "linkedGemaraLineIds": [
+        "yoma-049a-l46"
+      ]
     }
   ],
   "review": "reviewed"

@@ -9,6 +9,9 @@ const PLATFORM_VERSION = typeof __MYSUGYA_PLATFORM_VERSION__ !== "undefined"
   ? __MYSUGYA_PLATFORM_VERSION__
   : (typeof DATA_VERSION !== "undefined" ? DATA_VERSION : "");
 
+// groupRashiByLinkedId, rashiRendererFromUrl: shared/rashi_association.js
+// (loaded before this script; see index.html and scripts/build-entry.jsx)
+
 // ----- localStorage helpers -----------------------------------------------
 const LS = {
   get(key, fallback) {
@@ -303,7 +306,7 @@ function Line({ line, idx, showNekudot, showVilnaLines, showEnglish, boldLiteral
   const heText = showNekudot ? heRaw : stripNekudot(heRaw);
   const hasVilna = line.vilna_line != null;
   return (
-    <div className="line" data-kind={line.kind} data-has-rashi={hasRashi ? "1" : "0"}>
+    <div className="line" data-kind={line.kind} data-has-rashi={hasRashi ? "1" : "0"} data-gemara-line-id={line.id}>
       <span className="line-marker" aria-hidden="true"/>
       <div className="line-tag">
         <span>{tag.en}</span>
@@ -652,7 +655,7 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
+function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRenderer }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
   const [storiesOpen, setStoriesOpen] = useState(false);
@@ -701,7 +704,19 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
 
         <div className="lines">
           {sugya.lines.filter(Boolean).map((line, i) => {
-            const rashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
+            // Legacy path: vilnaLine-based coincidence
+            const legacyRashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
+            const hasLegacyRashi = !!legacyRashi;
+
+            // Linked path: linkedGemaraLineIds-based association
+            const linkedRashiEntries = line.id ? linkedRashiMap?.get(line.id) : null;
+            const hasLinkedRashi = (linkedRashiEntries?.length ?? 0) > 0;
+
+            // Choose path based on renderer
+            const useLinked = rashiRenderer === "linked";
+            const hasRashi = useLinked ? hasLinkedRashi : hasLegacyRashi;
+            const toggleKey = useLinked ? line.id : line.vilna_line;
+
             return (
               <div key={i}>
                 <Line
@@ -710,16 +725,36 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap }) {
                   showVilnaLines={tweaks.vilnaLines}
                   showEnglish={tweaks.showEnglish}
                   boldLiteral={tweaks.boldLiteral}
-                  hasRashi={!!rashi}
-                  onRashiToggle={() => setActiveRashiLine(activeRashiLine === line.vilna_line ? null : line.vilna_line)}
-                  rashiActive={activeRashiLine === line.vilna_line}
+                  hasRashi={hasRashi}
+                  onRashiToggle={() => setActiveRashiLine(activeRashiLine === toggleKey ? null : toggleKey)}
+                  rashiActive={activeRashiLine === toggleKey}
                 />
-                {rashi && activeRashiLine === line.vilna_line && (
+                {useLinked && linkedRashiEntries && activeRashiLine === line.id && (
                   <div className="rashi-inline">
-                    <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? rashi.he : stripNekudot(rashi.he)}</p>
-                    {rashi.en && tweaks.showEnglish && (
+                    {linkedRashiEntries.map((r, ri) => (
+                      <div key={ri}
+                        data-rashi-id={r.id}
+                        data-rashi-daf={r.daf}
+                        data-rashi-vilna-line={r.vilnaLine}
+                        data-rashi-linked-line-id={line.id}
+                        data-rashi-targets={JSON.stringify(r.linkedGemaraLineIds)}
+                      >
+                        <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? r.he : stripNekudot(r.he)}</p>
+                        {r.en && tweaks.showEnglish && (
+                          <p className="rashi-inline-en">
+                            <span dangerouslySetInnerHTML={{__html: enHtml(r.en)}}/>
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {!useLinked && legacyRashi && activeRashiLine === line.vilna_line && (
+                  <div className="rashi-inline">
+                    <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? legacyRashi.he : stripNekudot(legacyRashi.he)}</p>
+                    {legacyRashi.en && tweaks.showEnglish && (
                       <p className="rashi-inline-en">
-                        <span dangerouslySetInnerHTML={{__html: enHtml(rashi.en)}}/>
+                        <span dangerouslySetInnerHTML={{__html: enHtml(legacyRashi.en)}}/>
                       </p>
                     )}
                   </div>
@@ -1261,12 +1296,20 @@ function App() {
     return map;
   }, [content?.rashiLines]);
 
+  const linkedRashiMap = useMemo(() => {
+    return groupRashiByLinkedId(content?.rashiLines);
+  }, [content?.rashiLines]);
+
+  const rashiRenderer = useMemo(() => {
+    return rashiRendererFromUrl();
+  }, []);
+
   const renderedSugyot = useMemo(() => {
     if (!content?.sugyot) return null;
     return content.sugyot.map((s, i) => (
-      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap}/>
+      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap} linkedRashiMap={linkedRashiMap} rashiRenderer={rashiRenderer}/>
     ));
-  }, [content?.sugyot, rashiMap, tweaks]);
+  }, [content?.sugyot, rashiMap, linkedRashiMap, rashiRenderer, tweaks]);
 
   return (
     <div className="app">

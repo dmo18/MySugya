@@ -10,6 +10,141 @@ validator cannot catch.
 Do not act on entries here without an explicit Rashi pass. Do not edit
 `modules/yoma/` Rashi content based on this note alone.
 
+## CURRENT STATUS: scaffold-fabrication reopening (VERSION 15.144)
+
+A forensic scan of current repository content (see
+`docs/reports/yoma-rashi-scaffold-audit.md`) found 3,838 Rashi helper lines
+across 86 daf carrying scaffold narration ("Rashi: opens/continues/
+concludes ..."), bracket-guessed editorial completions, line-number
+placeholders, or untranslated Hebrew passthrough. This supersedes the
+narrative below wherever they disagree:
+
+Remediation progress (VERSION 15.151): the first bounded batch (10a, 10b,
+11a, 11b, 12a; PRs #136-#139, #141) is repaired, verified, and marked
+resolved in the table below.
+
+Remediation progress (VERSION 15.156): the second bounded batch (12b, 13a,
+13b, 14a, 14b) is repaired, verified, and marked resolved in the table
+below. 12b: PR #143, merge a690959. 13a: PR #144, merge b1718c3. 13b: PR
+#145, merge 0b9d31b. 14a: PR #146, merge 13732ad. 14b: this PR. 3,466
+contaminated lines across 76 daf remain in the debt inventory. The
+recommended next batch is 15a, 15b, 16a, 16b, 17a.
+
+- The "Batch N resolved" narratives in this file are historical notes, NOT
+  proof of current semantic correctness. Repository history was squashed
+  (this entire file entered git in a single commit), so those claims cannot
+  be verified against commits; several daf they describe as "fully
+  resolved" (10a-14b among others) currently fail the scaffold detector.
+- The current repository scan supersedes unsupported historical closure
+  claims. Every daf listed in the machine inventory below is REOPENED until
+  its current content passes `audit_rashi_scaffold.py` and fresh semantic
+  review.
+- The machine-generated debt inventory
+  (`modules/yoma/scripts/baselines/rashi_scaffold_debt.json`) is the
+  current source of truth for what remains open; it shrinks (and may only
+  shrink) as daf are repaired. `rashi_content_allowlist.json` remains at
+  zero entries and is unaffected.
+- The paused nekudot/vowelization audit (Scope note below) is a separate
+  concern and remains paused; nothing in the scaffold remediation touches
+  it.
+
+### Machine-generated scaffold status by daf
+
+<!-- scaffold-status-table:begin (regenerate from audit_rashi_scaffold.py; do not hand-edit rows) -->
+| daf | contaminated | total | severity | task recommendation | status | last verified |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2b | 5 | 29 | 17% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
+| 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
+| 3b | 11 | 49 | 22% | rashi-reconstruction | open | 0ce6071 |
+| 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 3156001 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 15a | 65 | 66 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 15b | 65 | 66 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 16a | 60 | 61 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 16b | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 17a | 44 | 45 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 17b | 32 | 33 | 97% | rashi-reconstruction | open | 0ce6071 |
+| 18a | 57 | 58 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 18b | 32 | 34 | 94% | rashi-reconstruction | open | 0ce6071 |
+| 19a | 56 | 58 | 97% | rashi-reconstruction | open | 0ce6071 |
+| 19b | 66 | 68 | 97% | rashi-reconstruction | open | 0ce6071 |
+| 20a | 40 | 41 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 20b | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 21a | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 21b | 45 | 46 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 22a | 64 | 65 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 22b | 33 | 35 | 94% | rashi-reconstruction | open | 0ce6071 |
+| 23a | 44 | 45 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 23b | 64 | 65 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 24a | 46 | 47 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 24b | 64 | 65 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 25a | 60 | 61 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 25b | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 26a | 41 | 42 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 26b | 60 | 61 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 27a | 52 | 53 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 27b | 43 | 44 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 28a | 44 | 45 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 28b | 78 | 79 | 99% | rashi-reconstruction | open | 0ce6071 |
+| 29a | 55 | 56 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 29b | 53 | 54 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 30a | 53 | 54 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 30b | 50 | 51 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 31a | 36 | 37 | 97% | rashi-reconstruction | open | 0ce6071 |
+| 31b | 62 | 63 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 32a | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 32b | 54 | 55 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 36a | 53 | 54 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 36b | 61 | 62 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 37a | 70 | 71 | 99% | rashi-reconstruction | open | 0ce6071 |
+| 37b | 24 | 25 | 96% | rashi-reconstruction | open | 0ce6071 |
+| 38a | 36 | 37 | 97% | rashi-reconstruction | open | 0ce6071 |
+| 38b | 48 | 49 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 39a | 58 | 59 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 39b | 64 | 65 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 40a | 64 | 65 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 40b | 42 | 43 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 41b | 74 | 74 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 42a | 52 | 52 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 42b | 60 | 60 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 43a | 65 | 65 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 43b | 59 | 59 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 44a | 18 | 60 | 30% | rashi-reconstruction | open | 0ce6071 |
+| 44b | 8 | 60 | 13% | rashi-reconstruction | open | 0ce6071 |
+| 45a | 8 | 44 | 18% | rashi-reconstruction | open | 0ce6071 |
+| 45b | 2 | 29 | 7% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
+| 46a | 2 | 32 | 6% | rashi-repair (after fresh semantic verification) | open | 0ce6071 |
+| 47a | 64 | 64 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 47b | 65 | 65 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 48a | 42 | 42 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 48b | 26 | 26 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 49a | 64 | 64 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 49b | 21 | 21 | 100% | rashi-reconstruction | open | 0ce6071 |
+| 72a | 18 | 31 | 58% | rashi-reconstruction | open | 0ce6071 |
+| 72b | 79 | 100 | 79% | rashi-reconstruction | open | 0ce6071 |
+| 73a | 46 | 65 | 71% | rashi-reconstruction | open | 0ce6071 |
+| 73b | 38 | 58 | 66% | rashi-reconstruction | open | 0ce6071 |
+| 74a | 46 | 55 | 84% | rashi-reconstruction | open | 0ce6071 |
+| 74b | 26 | 42 | 62% | rashi-reconstruction | open | 0ce6071 |
+| 75a | 28 | 49 | 57% | rashi-reconstruction | open | 0ce6071 |
+| 75b | 29 | 46 | 63% | rashi-reconstruction | open | 0ce6071 |
+| 76a | 32 | 47 | 68% | rashi-reconstruction | open | 0ce6071 |
+| 76b | 32 | 44 | 73% | rashi-reconstruction | open | 0ce6071 |
+<!-- scaffold-status-table:end -->
+
+The remediation campaign runs one daf per PR (order and per-batch bounds in
+the audit report). A daf moves to repaired when its PR merges with the
+scaffold gate green and its baseline entries retired.
+
 ## Scope note
 
 When a dedicated Rashi helper audit pass is eventually run, it must check
@@ -5096,3 +5231,768 @@ classified schema paths). CLAUDE.md points to the SOP. Outdated
 statements in docs/worker-pipeline.md (nine task types; gemara-learning
 gate pending) were corrected. No content changed; all documented
 defects and 47a/nekudot remain untouched.
+
+### Repair record: 61a stub lines 46-64 fixed (VERSION 15.84, first worker-pipeline pass)
+
+The 19 documented "Rashi commentary line N." stubs on 61a (vilnaLine
+46-64) were replaced with genuine translations of their own raw Hebrew
+(the "one chatat" comment conclusion, the Rabbi Yaakov log-of-metzora
+distinction block, and the truncated "asham" cross-daf continuation
+onto 61b). Only rashiTranslations en changed; linkedGemaraLineIds were
+left in this daf's uniform existing state (empty; the daf-wide link
+completion is separate documented work). The 19 content allowlist
+entries were removed after the validator reported them stale (ratchet
+837 to 818).
+
+ESCALATED NEW FINDING (report only, not fixed in this pass): 61a
+vilnaLines 1-45, which the audit had counted as genuine because they
+carry specific-looking text, are fabricated. Sampled entries (40-45)
+contain inspirational filler about Torah study replacing the Temple
+service, unrelated to their raw Hebrew (line 40's Hebrew concerns
+interrupted blood applications). 61a therefore needs a full
+reconstruction pass for lines 1-45 in its own scoped authorization,
+and the same look-alike fabrication pattern should be assumed possible
+on the other stub-block daf (67b/68a/68b/70a/71b) until checked.
+
+### Look-alike audit: 61a fabrication confirmed; 67b/68a/68b/70a/71b are SHIFTED, not stub-missing (VERSION 15.84 main, read-only audit)
+
+Read-only Fable audit of all six daf named in the PR #73 escalation;
+full report with per-line evidence and anchor offsets in
+docs/reports/rashi-lookalike-shift-audit.md. Findings:
+
+- 61a lines 1-45 confirmed fabricated across the whole block (a
+  continuous essay about the daf's theme, unrelated to the Hebrew line
+  by line; the Hebrew's Shevuot 7b and 13b citations appear nowhere in
+  the English). Needs full reconstruction, Fable/Sonnet.
+- 67b, 68a, 68b, 70a, 71b are NOT fabricated. Each carries a genuine,
+  complete translation of the daf's entire Rashi, compressed into too
+  few lines: alignment drifts ahead by up to +13/+13/+11/+9/+17 lines
+  respectively, the translation ends early, and the tail was padded
+  with the allowlisted stub_continuation stubs. The stub lines' Hebrew
+  content is already translated earlier in each daf.
+- Consequence: stub-only repair (the 61a playbook) is FORBIDDEN on
+  these five daf. It would create paraphrased duplicates, leave the
+  middle of each daf misaligned, and drain allowlist entries while
+  making the daf worse. They need a full-daf realignment pass instead
+  (Fable/Sonnet, Fable review).
+- The debt-list phrase "61a/67b-71b stubs" is therefore misleading:
+  on five of the six daf the stubs are a symptom, not the defect.
+- The advisory semantic audit scored these daf 0 to 3 with zero shift
+  candidates; four concrete detector gaps (colon-less citation regex,
+  tractate names outside parentheses, 4-line window, no drift
+  aggregate) are documented in the report with a proposed fix,
+  preflight block, packet warning, and a rashi-realignment task type.
+
+No content changed; no repair started; 41a, 47a, 77a-88a, and nekudot
+untouched.
+
+### Drift detection and realignment workflow (VERSION 15.85, tooling only)
+
+Tooling/process only; no content changed. Implements the guardrails
+proposed by the VERSION 15.84 look-alike audit
+(docs/reports/rashi-lookalike-shift-audit.md):
+
+- audit_rashi_semantic.py rebuilt: colon-tolerant amud citations,
+  tractate names adjacent to daf citations, gematria daf-number anchors,
+  split-citation tolerance, search window 25, and a per-daf drift
+  profile (--profile; npm run audit:rashi:drift:yoma) classifying
+  SHIFTED / FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS.
+- rashi_preflight now FAILS line-level tasks (repair, links) on a daf
+  whose profile is SHIFTED or FABRICATION-SUSPECT, naming the required
+  remedy. Override is Fable-only: manifest authorizeDriftOverride plus
+  FABLE_DRIFT_OVERRIDE=1; neither alone unblocks (proven by dry runs).
+- The Rashi work packet embeds each daf's drift profile with an explicit
+  STOP warning when not haiku-safe.
+- New task type rashi-realignment (fable, Fable review, maxBatch 1) for
+  shifted-compressed daf; worker:verify hard-fails a realignment PR
+  whose post-edit profile is still not aligned.
+- Task assignments recorded: 61a lines 1-45 -> rashi-reconstruction
+  (Fable/Sonnet); 67b/68a/68b/70a/71b -> rashi-realignment
+  (Fable/Sonnet); stub-only repair FORBIDDEN on those five daf
+  (mechanically enforced); 47a+ reconstruction remains paused; nekudot
+  remains paused.
+- Tests: npm run test:drift:yoma (43 checks; wired into npm test):
+  synthetic classifier fixtures, block/override semantics, and
+  self-retiring live assertions for the documented daf.
+
+ESCALATED TRIAGE BACKLOG (report only, from the first corpus-wide drift
+scan): beyond the six audited daf, the profile flags 30 more daf that
+need Fable triage before any Haiku line-level work (the preflight block
+covers them automatically). SHIFTED: 5a, 5b, 6a, 7a, 41a (41a already
+documented). FABRICATION-SUSPECT (anchors repeatedly absent from the
+English; spot checks found 61a-style essay filler on 61b, 50a, 52b and
+untranslated bracket placeholders on 73a): 18a-adjacent false positives
+were eliminated, remaining flags are 41b, 47b, 48a, 50a, 50b, 51a, 51b,
+52a, 52b, 53a, 53b, 57b, 58b, 59a, 60a, 60b, 61b, 66b, 72b, 73a, 73b,
+74a, 75a, 76b, 9b. FABRICATION-SUSPECT means "needs Fable review", not
+"proven fabricated": partial-coverage translations of long Hebrew lines
+can also trip it (9b looks like that case). The 77a-88a filler daf are
+already fully allowlisted, so their misses are excluded by design.
+
+### Repair record: 61a lines 1-45 reconstructed (VERSION 15.86, rashi-reconstruction pass)
+
+The fabricated block on 61a (vilnaLine 1-45, essay-style filler about
+Yom Kippur services unrelated to the printed Rashi) was reconstructed
+line by line from the raw Hebrew in assets/talmuddev/61a.json under the
+rashi-reconstruction task type (Fable, manifest-scoped, Fable
+self-review). Lines 46-64 (repaired in the VERSION 15.84 pass) were
+byte-verified unchanged. linkedGemaraLineIds were populated for lines
+1-45 following the corpus convention (one Gemara id per line,
+continuation lines repeat the id), with every lemma verified against
+the actual 61a Gemara segments: l01a (incense), l01b (Ulla / "he put
+the goat's blood first"), l07 (first braita: innermost sanctum /
+Sanctuary / altar), l10 ("they were all equated"), l13 (Rabbi Shimon),
+l19 (second braita: "when he has finished atoning"), l22 ("from here
+they said"), l34 ("one sin offering I told you").
+
+Post-edit drift profile: ALIGNED, 6 anchors found, 0 missing, all
+offsets zero (the Shevuot 7b and 13b citations now resolve on their
+exact lines). The self-retiring 61a live assertion in
+test_drift_profile.py now skips, as designed. 61a is no longer in the
+fabrication-suspect set; it leaves the triage backlog above.
+
+### Repair record: 67b realigned (VERSION 15.87, first rashi-realignment pass)
+
+The SHIFTED/compressed daf 67b was realigned line by line under the
+rashi-realignment task type (Fable, manifest-scoped, maxBatch 1, Fable
+self-review). The old entries 1-58 held genuine content-paraphrase that
+drifted progressively (offset 0 at the top, -2 by line 22, -12..-15 in
+the tail); entries 59-69 were allowlisted stubs. Every entry's en now
+translates its own raw Hebrew vilna line, reusing the existing faithful
+phrasing where it matched; the previously stub-covered tail (he 59-69,
+the corrupted-girsa discussion, the dissection braita, and the
+gezeirah shavah) is translated from its own Hebrew, so no duplicate
+paraphrase remains from the compressed run. linkedGemaraLineIds were
+populated for all 69 lines with lemmas verified against the actual 67b
+Gemara segments (l01, l02, l05, l08, l10, l12, l16, l17, l20, l26,
+l28, l31, l37, l41, l42; Mishnah commentary he 35-57 links to l31/l37
+whose vilna ranges hold the Mishnah text; he 69 uses the final-id
+boundary policy).
+
+The 11 stub_continuation allowlist entries for 67b (lines 59-69) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 11).
+
+Post-edit drift profile: ALIGNED, 11 anchors found, 0 missing, all
+offsets zero (Lev. 16 L1, Gen. 6 L18, 1 Sam. 30 L22, Gen. 47 L23,
+Lev. 16 L42, Pesachim 65b + Sotah 15a L61, Sotah 14b L63, Lev. 1 L67,
+Lev. 4 L68). The self-retiring 67b live assertion in
+test_drift_profile.py now skips. 67b leaves the shifted set; 68a, 68b,
+70a, 71b, and 41a remain queued for their own realignment passes.
+
+### Repair record: 68a realigned (VERSION 15.89, second rashi-realignment pass, Sonnet worker)
+
+The SHIFTED/compressed daf 68a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet per the VERSION
+15.88 role correction; Fable review required). The old 49 entries held
+genuine content-paraphrase that progressively compressed 62 raw Rashi
+lines into 49 English entries (offset 0 near the top, building to
+-9/-10/-13 by the tail); entries 50-62 were allowlisted stubs. Every
+entry's en now translates its own raw Hebrew vilna line, reusing the
+existing faithful phrasing split at the correct line boundaries; the
+old compressed English already fully covered the content that would
+land on raw lines 48-62 (entries 36-49), so the previously stubbed
+tail required redistribution only, no invented translation.
+
+linkedGemaraLineIds were populated for all 62 lines with lemmas
+verified against the full (untruncated) text of all 10 Gemara segments
+(l01, l03, l07, l10, l12, l16, l17, l23, l25, l31); the chatat-chatat
+excursus (he 31-47) has no separate Gemara id between l17 and l23, so
+it continues on l17 per the boundary policy.
+
+The 13 stub_continuation allowlist entries for 68a (lines 50-62) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 13).
+
+Post-edit drift profile: ALIGNED, 5 anchors found, 0 missing, all
+offsets zero (Zevachim 39a + Menachot 27a L34/L35, Numbers 19 L55).
+The self-retiring 68a live assertion in test_drift_profile.py now
+skips. 68a leaves the shifted set; 68b, 70a, 71b, and 41a remain
+queued for their own realignment passes.
+
+### Repair record: 68b realigned (VERSION 15.90, third rashi-realignment pass, Sonnet worker)
+
+The SHIFTED daf 68b was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; Fable review
+required). The he field was already correctly aligned to its own raw
+Hebrew vilna line for all 60 lines; only en had drifted (offsets 0 at
+the top, -3 by line 31, -5 by line 37, -11 by line 56), and entries
+52-60 were allowlisted stubs. Every entry's en was retranslated from
+its own raw Hebrew line, so no old compressed phrasing needed
+redistribution; the previously stubbed tail (he 52-60, the
+eight-blessing enumeration and closing fragment) is translated fresh
+from its own Hebrew, with no duplicate paraphrase.
+
+linkedGemaraLineIds were populated for all 60 lines. The worker's
+initial pass linked positionally (Rashi line N to the segment at
+vilna N); Fable review found that wrong for he 18-59 and relinked
+semantically, with each comment tied to the segment whose text it
+explains: he 18-28 (amru lo, dirkaot relay men) to l13b, the
+end-of-perek Mishnah segment the packet id table had omitted; he
+29-32 (Beit Chadudo, holchin mil) to l15 (R' Yehuda's sign); he 33-34
+(naaseit mitzvato) to l21; he 35 (hadran) to l23, the actual hadran
+id; he 36-41 (ba likrot, bigdei butz, itztalit) to l24; he 42-52
+(chazan/rosh ha-knesset, ach be-asor, chumash ha-pekudim, korei al
+peh) to l25; he 53-58 (the eight blessings) to l29; he 59 to l29 plus
+l38/l39 (its Gemara lemmas nitnu lehanot and sheina hu de-la); he 60
+(ve-seifa) to l42. A daf-citation split across two raw Hebrew lines
+(he 37 "(דף" / he 38 "ה:)") was resolved by keeping the "(daf 5b)"
+citation together on line 37's English, matching the parenthetical's
+Hebrew opening. Known tooling gap for a future docs-tooling pass:
+make_rashi_work_packet.py omitted l13b from the legal id table
+(its kind is "mishna", not "gemara"), which forced the worker's
+positional fallback for the ch. 6 tail.
+
+The 9 stub_continuation allowlist entries for 68b (lines 52-60) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 9).
+
+Post-edit drift profile: ALIGNED, 3 anchors found, 0 missing, all
+offsets zero (Yoma 66b L31, Megillah 5b L37, Psalms 50/Tehillim L56).
+The self-retiring 68b live assertion in test_drift_profile.py now
+skips. 68b leaves the shifted set; 70a, 71b, and 41a remain queued for
+their own realignment passes.
+
+### Tooling record: packet generator now emits Mishnah segments and the semantic linking contract (VERSION 15.91, docs-tooling, Fable)
+
+Root cause fixed. make_rashi_work_packet.py's legal id table was built
+from a regex that required kind "gemara", so any kind "mishna" segment
+was silently dropped, and each segment's Hebrew was truncated to its
+first 60 characters. On 68b this omitted yoma-068b-l13b (the
+end-of-perek Mishnah); with no legal anchor for the ch. 6 tail
+commentary and only text openings to match against, the PR #80 worker
+fell back to positional linking (Rashi line N to the segment at vilna
+N) and Fable review had to correct 50 of 60 links. The same read-only
+audit shows the next queued realignment daf carry the same exposure:
+70a's table would have dropped yoma-070a-l27 [mishna] (1 of 23
+segments) and 71b's would have dropped yoma-071b-l11 [mishna] (1 of
+15); both tables are now complete, in source order, with suffixed
+pairs (l41a/l41b, l53a/l53b) preserved and current links resolving.
+
+The fix, tooling and docs only (no learning JSON or generated data
+content changed):
+
+- local_segments_for() collects every kind-bearing segment, gemara AND
+  mishna, in source order, deduplicated, with kind, vilna_line, and
+  FULL untruncated Hebrew text. Ids come only from the generated data;
+  sparse and suffixed ids pass through verbatim and nothing is
+  renumbered or manufactured.
+- Packet rules now state the semantic contract: linkedGemaraLineIds
+  are semantic text anchors matched by dibbur hamatchil, quoted
+  phrase, subject, or discussion against the full segment text; never
+  assigned by vilna line number or positional offset; multi-segment
+  links are legal when a comment genuinely spans segments; boundary
+  policy covers only commentary continuing the final segment's own
+  discussion; an unidentifiable target is an escalation, never a
+  guess. rashi_prompt.py and the worker_pipeline.py prompt carry the
+  same language, and all four Rashi task types gained the escalation
+  trigger in the registry (worker docs regenerated).
+- Regression tests (scripts/test_rashi_packet.py, wired into npm test
+  as test:packet:yoma): l13b present with kind mishna in source order;
+  the 19 pre-fix 68b Gemara ids all retained; sparse gaps and suffixed
+  siblings preserved; full text beyond the old 60-char cut; packet-side
+  referential completeness across every daf; anti-positional language
+  asserted in the packet, the per-daf prompt, and the pipeline prompt.
+
+New deferred debt discovered by the completeness test (self-retiring
+KNOWN_PHANTOM_LINKS entries in test_rashi_packet.py): on 43a (rashi
+vilna 1-3), 43b (1), and 44b (1-4), early helper entries link to a
+plain lNN id (yoma-043a-l01, yoma-043b-l01, yoma-044b-l01) that exists
+only as an argumentFlow step id; the real first segments are the
+suffix-split l01a/l01b. validate_rashi_links accepts these because its
+legal-id regex also matches argumentFlow ids. A future scoped links
+pass should relink those eight entries to l01a/l01b semantically and
+drain the test's debt list; the validator regex tightening should ride
+the same pass so the gate and the packet table agree.
+
+### Repair record: 70a realigned (VERSION 15.92, fourth rashi-realignment pass, Sonnet worker)
+
+The SHIFTED daf 70a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; Fable review
+required). All 55 raw Rashi lines already had current entries (no
+missing lines), but en had drifted (offset 0 near the top, -2 by line
+16, -7 by line 28), and entries 53-55 were allowlisted stubs. Every
+entry's en was retranslated directly from its own raw Hebrew vilna
+line, reusing the existing translation's genuine phrasing where it
+mapped to the correct line and redistributing it there; the previously
+stubbed tail (he 53-55, the concluding verse-based proof for the
+mussaf-goat sequencing) is translated fresh from its own Hebrew, with
+no duplicate paraphrase.
+
+linkedGemaraLineIds were populated for all 55 lines, verified against
+the full (untruncated) text of all 23 local segments in this daf's id
+table (l01, l02, l03, l07, l10, l15, l16, l22, l24, l26, l27 [mishna],
+l28, l31, l32, l34, l36, l37, l39, l41a, l41b, l43, l44, l46) using the
+packet fix from the tooling PR that preceded this pass (l27's Mishnah
+kind is present and correctly ordered). Representative mappings: he
+1-2 (two short dibburim on the same print line) to [l01, l02]; he 9
+("ketikonah") to l16 despite the seven-line gap, because "כתיקנה" only
+occurs in l16's text and boundary/positional proximity is not a
+legitimate substitute for a textual match; he 10-19 (the hiddur-mitzvah
+excursus, Exodus 15 citation) to l22, the segment whose "to show its
+appearance to the many" phrase the excursus explains; he 26 (Mishnah
+"seven lambs") to l28, since "שִׁבְעַת כְּבָשִׂים" lives in l28's text,
+not in l27 (the Mishnah segment itself, which covers the vestment-
+changing sequence and has no Rashi comment linking to it on this daf);
+he 31-34 (Rabbi Eliezer's bull-timing question) to l41a rather than
+the topically-adjacent l37/l39 Akiva dispute, because l41a's own text
+("וְתוּ: פַּר הָעוֹלָה לְרַבִּי אֱלִיעֶזֶר דְּשַׁיְּירֵיהּ") is what he
+31 quotes almost verbatim; he 43 (the Akiva textual-variant point
+about "יצא ועשה") to l28, where that Mishnah phrase actually appears,
+rather than to l46 where the surrounding discussion continues; he
+44-54 (the closing mussaf-sequencing block, closing with the "besides
+the sin-offering of atonement" verse-proof) to l46, the final segment
+whose own content this entire block explains start to finish. Several
+print lines carry two dibburim spanning adjacent segments and were
+linked to both (he 1, 3, 5, 10, 20, 23, 26, 30, 31, 37, 40, 41), per
+the multi-segment-link rule; no line was linked to the final id as an
+unrelated-content boundary fallback, since he 55's truncated
+continuation ("ואחר") is itself still explaining l46's content, cut
+off by the amud boundary.
+
+The 3 stub_continuation allowlist entries for 70a (lines 53-55) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 3).
+
+Post-edit drift profile: ALIGNED, 2 anchors found, 0 missing, all
+offsets zero (Exodus 15 at L16, Numbers 29 at L28). 70a leaves the
+shifted set; 71b and 41a remain queued for their own realignment
+passes.
+
+### Repair record: 71b realigned (VERSION 15.94, fifth rashi-realignment pass, Sonnet worker, conditional review)
+
+The SHIFTED daf 71b was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; conditional review
+policy from PR #83, no routine Fable review). All 61 raw Rashi lines
+had current entries, but en had drifted (offsets -1/-1/0/-1 near the
+top from four citation anchors, -14 at line 49), and entries 45-61 (17
+lines, the bulk of the daf's shesh/bad and me'il/choshen strand-count
+sugya) were allowlisted stubs. Every entry's en was retranslated
+directly from its own raw Hebrew vilna line; the previously stubbed
+tail is translated fresh, with no duplicate paraphrase.
+
+linkedGemaraLineIds were populated for all 61 lines against the full
+untruncated text of all 15 local segments (l01, l02, l06, l11 [mishna],
+l16, l19, l26, l31, l33, l41, l46, l51, l53a, l53b, l56). l02 and l46
+carry no Rashi comment on this daf and are legitimately unused (not
+every segment requires a link). Representative mappings: he 1's first
+dibbur ("me-re'ach mayim") links to l01, the verse fragment it quotes,
+while its second dibbur ("le-sof ato Shemaya ve-Avtalyon") links to
+l06, which the Gittin/Bava Metzia/Vayikra excursus (he 3-9) continues
+to explain; he 44's "ben nechar" links to l33 rather than the
+topically-adjacent l31, because l33 is where the Ezekiel citation
+"ben nechar erel lev" actually appears; he 50-53's "mah lehalan
+esrim ve-arba'ah" links to l41 (which states 24), not the numerically
+similar but textually distinct l46 (which states 28); he 61's
+truncated "kalil" links to l56, the final local segment, because it is
+the literal next word of the same Exodus 28:31 verse ("ve-asita et
+me'il ha-ephod") that l56 quotes, cut off by the amud boundary, not an
+unrelated-content fallback. 7 print lines carry two dibburim spanning
+adjacent segments and are linked to both (he 1, 10, 33, 42, 44, 50,
+54, 56).
+
+The 17 stub_continuation allowlist entries for 71b (lines 45-61) were
+reported stale by validate_rashi_content after the edit and removed
+(ratchet direction: allowlist shrinks by 17).
+
+Post-edit drift profile: ALIGNED, 6 anchors found, 0 missing, all
+offsets zero (Gittin 57b L4, Bava Metzia 58b L6, Vayikra 25 L7,
+Zevachim 15b L49). Corpus-wide semantic audit: 0 shift candidates.
+Fresh Sonnet self-review recorded in .worker-self-review.json;
+worker:review reported AUTO-MERGE-ELIGIBLE with no escalation. 71b
+leaves the shifted set; 41a remains queued for its own realignment
+pass.
+
+### Repair record: 41a realigned (VERSION 15.95, sixth rashi-realignment pass, Sonnet worker, conditional review)
+
+The SHIFTED daf 41a was realigned line by line under the
+rashi-realignment task type (worker model: sonnet; conditional review
+policy, no routine Fable review). Unlike 68a/68b/70a/71b, 41a had no
+allowlisted stubs; all 56 lines already carried genuine content in a
+nonstandard "Rashi: opens/continues - [bracketed paraphrase]" style,
+overwhelmingly compressed onto a single segment id: lines 33-56 (24 of
+56 lines) all pointed at yoma-041a-l33 regardless of their own content.
+Two Gemara-tractate daf-number citations (Sanhedrin 86a at line 2,
+Shevuot 7a at line 28) were present in Hebrew but never rendered in the
+old English, which is why the audit tool reported them as missing
+anchors going in.
+
+Every entry's en was retranslated directly from its own raw Hebrew
+vilna line, replacing the bracket-paraphrase style with direct
+translation and including both previously-dropped citations.
+linkedGemaraLineIds were populated for all 56 lines against the full
+text of all 15 local segments (l01, l04, l06, l08, l10, l12, l13, l15,
+l21, l22, l25, l26, l28, l31, l33); l08, l10, l12, l15, l21 carry no
+Rashi comment on this daf and are legitimately unused. Representative
+mappings: he 9's "ve-lakcha ve-asa" links to l06, the verse it quotes,
+after he 3-8 finish explaining l04's own rule; he 15-21's extended
+"veha hacha" gloss links to l13, the exact phrase being unpacked, using
+l10's kal vachomer only as background (not a separate link); he 33-43
+(the case's practical unwinding: rich-person's offering, adding
+chatat-money) links first to l22 (the case setup) then l25 (the
+top-up rule) at the genuine content transition in he 35, which carries
+no printed colon but is a defensible content-based split (verified
+against both segments' subject matter); he 46-53 (Rav Sheshet's
+challenge and Rava's/Rav Chisda's "kevar amar" resolution) links
+through l26, l28, l31 as each is quoted or answered in turn; he 54-56
+(Rabbi Chagga's alternative resolution, then the amud-boundary
+truncation) links to l33, the segment introducing that citation,
+including the final truncated word "mai" (he 56) which is confirmed as
+the direct continuation of l33's own sentence (ending mid-clause with
+a comma), not an unrelated fallback. 8 print lines carry two dibburim
+spanning adjacent segments and are linked to both (he 9, 15, 22, 35,
+44, 46, 48, 54).
+
+No allowlist entries existed for 41a before or after this pass; no
+allowlist file changed.
+
+Post-edit drift profile: ALIGNED, 4 anchors found, 0 missing, all
+offsets zero (Sanhedrin 86a L2, Vayikra 5 L27, Shevuot 7a L28).
+Corpus-wide semantic audit: 0 shift candidates. Fresh Sonnet
+self-review recorded in .worker-self-review.json; worker:review
+reported AUTO-MERGE-ELIGIBLE with no escalation. 41a leaves the
+shifted set. The autopilot queue (71b, 41a) is now drained.
+
+### Repair record: 8a structurally repaired (VERSION 15.98, first rashi-structural-repair pass, Fable worker)
+
+The baselined 8a entry-count mismatch (41 rashiTranslations vs 35 raw
+print lines) is repaired. Root mechanism, established from the
+authoritative talmuddev source before editing: the original enrichment
+generated entries on the GEMARA line axis (8a's Gemara segments run to
+vilna 41, ending in the catchword shezeh at l41) instead of the RASHI
+print-line axis (35 raw lines, ending in the same catchword at raw
+35). Entries 36-41 were phantoms keyed to Gemara lines 36-41 whose
+actual Rashi lives partly on 8a raw 30-35 and partly on 8b's column
+(8b raw 1-4, already covered by 8b's own complete 50/50 entries;
+boundary ownership verified against 7b, 8a, and 8b before editing,
+and 7b/8b were not touched).
+
+The repair rebuilt rashiTranslations on the raw axis: 35 entries,
+vilnaLine 1..35, each en translating its own raw print line (reusing
+the genuine content of the old comment-paraphrases where it matched),
+and linkedGemaraLineIds assigned semantically against the full text of
+all 16 local segments: raw 1-2a (echad zeh, shlishi u-shevi'i, kohen
+ha-soref dibburim) to l14, the baraita quoting them; raw 2b-9a (the
+dechuya/hetter explanations) to l21; raw 9b-10a (hazaah kelal lama li)
+to l23; raw 10b-19 (tevila bizmanah mitzvah both sides, Bamidbar 19
+derivation, Kiddushin 62a citation) to l26; raw 20-25 (lo yirchatz,
+tevila shel mitzvah, korech alav gemi) to l28, the baraita quoting all
+three; raw 26-29 (vekayma lan, Shabbat 120b) to l32; raw 30-34 (lo
+makshinan) to l35; raw 35 (the shezeh catchword) to l41, the segment
+consisting of that word. The 8 unused ids are legitimate: l01-l11 (the
+tzitz sugya, Rashi on 7b's column) and l36-l39 (the R. Chanina
+resolution, Rashi on 8b's column). Multi-id lines: 2, 9, 10, each at a
+printed dibbur-boundary colon.
+
+The 8a count_mismatches baseline entry was removed only after the
+content gate passed green without it (the tolerance NOTE no longer
+fires); no allowlist entries were added anywhere.
+
+Post-repair profile: ALIGNED, 4 anchors found, 0 missing, all offsets
+zero (previously 2 found at -1 with 2 missing). Corpus semantic audit:
+0 shift candidates. 9a remains the last count-mismatch baseline.
+
+### Repair record: 9a structurally repaired (VERSION 15.100, second rashi-structural-repair pass, Fable worker)
+
+The baselined 9a entry-count mismatch (22 rashiTranslations vs 18 raw
+print lines) is repaired; the mechanism is the same Gemara-axis
+generation established for 8a (9a's Gemara segments run to vilna 22,
+ending in the catchword sheshahu at l22; the Rashi column has 18 print
+lines ending in the same catchword), verified independently from the
+9a sources rather than copied from the 8a solution. Entries 19-22 were
+phantoms narrating the Temple-years and Shiloh aggada (l08, l13, l17),
+segments on which 9a's Rashi column carries no comments at all; the
+boundary against 8b and 9b was checked (both counts already at parity,
+neither touched).
+
+rashiTranslations rebuilt on the raw axis: 18 entries, vilnaLine
+1..18, each en translating its own raw print line, links assigned
+semantically against the full text of all 7 local segments: raw 1-2a
+(lefi sheshalach, Sotah 48a) to l01; raw 2b-11a (hamotzi mechavero,
+nafreshu venasku) to l02, the segment quoting both dibburim; raw
+11b-17 (chovtin otan, lo atrechunhu, pursei) to l05, which quotes all
+three; raw 18 (the sheshahu catchword) to l22, the segment consisting
+of that word. Multi-id lines: 2 and 11, each at a printed
+dibbur-boundary colon. The unused ids (l08, l13, l17) are legitimate.
+
+The 9a count_mismatches baseline entry was removed only after the
+content gate passed green without it; the count_mismatches section is
+now EMPTY, and no allowlist entries were added anywhere.
+
+Post-repair profile: INSUFFICIENT-ANCHORS (haiku-safe), the single
+Sotah 48a anchor found at offset 0 (previously missing entirely).
+Corpus semantic audit: 0 shift candidates. With 8a (VERSION 15.98/99)
+and 9a both repaired, the structural count-mismatch backlog is
+drained.
+
+### Repair record: 42a vilnaLine 25-52 relinked and rewritten (VERSION 15.101, rashi-realignment, Sonnet worker)
+
+The 42a vilnaLine 50 lead documented above (VERSION 15.79) turned out
+not to be an isolated placement issue once checked against current
+main and the raw Hebrew: the actual defect was a genuine multi-line
+block spanning vilnaLine 25-52 (28 of 52 entries). Lines 1-24 were
+reread and confirmed already correct (untouched).
+
+Two compounding problems, found by direct Hebrew-to-English and
+Hebrew-to-segment comparison rather than the anchor-based drift tool
+(which only found 5 sparse anchors and reported ALIGNED, too sparse to
+trigger its threshold): (1) linkedGemaraLineIds for 25-31 all pointed
+to l25 and for 32-52 all pointed to l32, a positional lazy fallback
+rather than semantic matching; (2) the English for lines 39-52 had
+drifted two raw lines ahead of its own vilnaLine (en39 was translating
+raw41's content, and so on down the block), which used up all the real
+untranslated content by en48 and left vl49-51 as generic
+non-translating filler ("[End of the detailed discussion...]", etc.)
+duplicating what vl52 already said correctly.
+
+Rebuilt each of lines 25-52 to translate its own numbered raw print
+line and relinked by direct phrase matching against the local segment
+table: 25-28 to l19 (continuing the Aharon/chukah Leviticus 16 verse
+citation already open at vilnaLine 19-24); 29-34 to l21 (continuing
+Rashi's own gloss on "shechitah lav avodah hi... shani parah dekidshei
+bedek habayit"); 35 dual-linked l21+l22 (the bridge phrase "velo chen
+dechen hu" quotes l22's "velo kol dechen hu" verbatim); 36-40 to l22
+(the negaim a fortiori and its Leviticus 13 citation); 41 dual-linked
+l22+l25 (concludes the Leviticus 13 citation, opens the "veshachat
+otah lefanav" quotation matching l25 verbatim); 42-44 to l25 (the
+Rav/Shmuel dispute over paro); 45 to l29 (exact match on "shelo yasiach
+da'ato mimenah"); 46-47 to l32 (quotes l32's "hashta hu demitkashra
+parah" verbatim); 48-51 to l36 (quotes l36's "lemautei mai" verbatim
+and continues the same Numbers 19 citation l36 itself was truncated
+mid-quoting); 52 unchanged (already correctly closed on l36 for the
+daf-boundary truncated "lemishmeret", the same word documented at
+VERSION 15.78). The originally flagged vilnaLine 50 is resolved as
+part of this same l36 continuation, not as a standalone lead. l16, the
+Gemara segment l31, and the second half of l29 (Shmuel's derivation)
+remain legitimately without a Rashi comment on this daf; no ids were
+invented, and no allowlist entries existed for 42a to remove.
+
+Post-repair profile: ALIGNED, 5 anchors found, 0 missing, all offsets
+zero (previously up to +2). Corpus semantic audit: 0 shift candidates.
+Remaining open items are unchanged: 61a/67b-71b stubs, 77a-88a filler.
+47a remains paused.
+
+### 47a-52b Rashi semantic recovery campaign opened (VERSION 15.102), 47a reconstructed (rashi-reconstruction, Sonnet worker)
+
+The 47a pause is lifted. Fresh diagnosis (raw count, current entries,
+full segment table, drift profile) confirmed the daf's prior "suspected
+reconstruction" lead: all 64 rashiTranslations entries were completely
+unlinked and the English was 100 percent fabricated thematic narration
+unrelated to the actual raw Hebrew (for example, closing with "47a is
+one of the most humanly memorable pages of the Yoma tractate"). No
+partial salvage was possible; classified rashi-reconstruction.
+
+Rebuilt all 64 entries against the raw Hebrew and the 19-id local
+segment table: vl1-6 the spoon/coal-pan Gemara and its Leviticus 16
+proof text (l01, l05, l13); vl7-13 the nesi'im comparison and the
+great/small-quantity hand-assignment reasoning (l20, l24); vl14-24 the
+Kimchit zered/arsan etymology including a Berachot 37a citation at
+vl19 (l27); vl25-32 the alternate "sh'chivat zera" etymology with a
+Ruth 3 citation (l32); vl33-34 the Yom Kippur/tzinnora scene-setting,
+dual-linked to l35 and l37 since the identical phrase recurs in both
+Kimchit-son incidents; vl35-38 the Yerushalmi citation glossing
+Kimchit's own words (l40); vl39-42 the kumtzo-baraita text and its
+gloss (l43); vl43-48 the chofnav/kumtzo distinction and its gezeirah
+shavah, dual-linked at the vl48 seam into l45; vl49-55 the "kach hayta
+midatah" resolution, dual-linked at vl54 into l47a's forward citation
+to 49a; vl56-60 the "dilma" alternative reading, dual-linked at the
+seam into l48; vl61-63 closing the kometz baraita (l48). vl64
+("uvmachavat") was checked against 47b's actual first raw Rashi line
+(confirmed from source): it extends l48's just-closed kometz-precision
+rule to griddle/pan offerings, so it is linked to l48 as a genuine
+boundary continuation, truncated at the daf edge and continuing on
+47b, not a positional catch-all.
+
+All 5 of the semantic audit's citation anchors (Leviticus 16, Berachot
+37a, Leviticus 2, the 49a forward-citation) now land at offset 0
+(previously +24, missing, -19, missing). Post-repair profile: ALIGNED,
+5 anchors found, 0 missing. Corpus semantic audit: 0 shift candidates.
+No allowlist entries existed for 47a to remove. This opens the
+47a-52b recovery campaign (queue committed in .worker-queue.json);
+remaining targets: 47b, 48a, 48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a,
+52b. 61a/67b-71b stubs and 77a-88a filler remain open and out of
+scope for this campaign.
+
+### 47b reconstructed (VERSION 15.103, rashi-reconstruction, Sonnet worker)
+
+Fresh diagnosis confirmed the same pattern as 47a: raw count 65 =
+entries 65 (structurally sound), but all 65 entries were unlinked and
+the drift profile was FABRICATION-SUSPECT (0 of 8 citation anchors
+found). The English was fabricated thematic narration unrelated to the
+raw Hebrew (for example closing with "That's the Talmud being the
+Talmud" and "Perfect preparation for Rav Pappa's dilemmas"). Classified
+rashi-reconstruction.
+
+Rebuilt all 65 entries against the raw Hebrew and the 13-id local
+segment table: vl1-9 the machavat/marcheshet difficulty with its
+Hullin and forward 49b citations (l01); vl10-11 the bein habeinayim
+opening (l05); vl12-15 the Menachot 9a citation on diminished shirayim
+(l11); vl16-20 the kol shemimenu laishim exclusion with its Leviticus
+2 citation (l17); vl21-32 the lesheim eitzim ruling and Rabbi
+Eliezer's Zevachim 77b dispute (l19); vl33-39 the demaktzi shemeini
+fat-fingers explanation (l23); vl40-51 the gezeirah shavah tying
+kometz overflow to the chafinah vessel question (l26); vl52-56 Rav
+Pappa's actual question with its Sukkah 37a citation (l30); vl57-64
+the natural-grip and alternate-grip kometz descriptions (l32, l34,
+l35). vl65 ("divkeih", truncated) was checked against 48a's actual
+first raw Rashi line (confirmed from source), which opens "divkeih
+lekometz bedofnei demana... kayma lan bemasechet Menachot (26a)" -
+this confirms it is a genuine continuation of l37's own truncated
+"ba'ei" (he asked), so it stays linked to l37 rather than being forced
+or left unlinked.
+
+All 8 of the semantic audit's citation anchors (the 49b forward
+citation, Menachot 9a, Leviticus 2, Zevachim 77b, Sukkah 37a, and
+their corresponding name tokens) now land at offset 0, versus entirely
+missing before. Post-repair profile: ALIGNED, 8 anchors found, 0
+missing. Corpus semantic audit: 0 shift candidates. No allowlist
+entries existed for 47b to remove. Remaining campaign targets: 48a,
+48b, 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.
+
+### 48a reconstructed (VERSION 15.104, rashi-reconstruction, Sonnet worker)
+
+Fresh diagnosis confirmed the same pattern: raw count 42 = entries 42
+(structurally sound), all 42 entries unlinked, drift profile
+FABRICATION-SUSPECT (1 of 6 anchors found). Classified
+rashi-reconstruction.
+
+Rebuilt all 42 entries against the raw Hebrew and the 11-id local
+segment table: vl1-4 the stuck-to-the-wall kometz question with its
+Menachot 26a citation, including a legitimate forward gloss on the
+word "tefufot" that belongs to a later segment (l01, l07); vl5-8 the
+blood-on-the-floor Mishnah and its Zevachim 32a citation (l10); vl8-13
+the mena hanei milei baraita on dam hanefesh and the gorin-umosifin
+exegesis (l12, l19); vl13-27 the wrong-intent-in-incense question with
+its full gezeirah shavah to the meal offering and Menachot 83a
+citation, concluding into "posel et kulam" (l23, l27); vl28-31 the
+eleven stringencies and Chagigah 20b citation (l27, l30); vl32-41
+Rashi's own critical question about the Me'ilah 10a Mishnah (l30).
+vl42 ("chishev", truncated) was checked against 48b's actual first raw
+Rashi line (confirmed from source), which opens with the coal-raking
+intent question - a direct extension of l30's own machshava theme, so
+it links to l30 as a genuine boundary continuation. l04, l14, and l20
+(the inverted-vessel question, the mikra-derasha reasoning for dam
+hanefesh, and the scattered-incense question) are confirmed legitimate
+content gaps with no Rashi comment.
+
+All 6 of the semantic audit's citation anchors (Menachot 26a, the 32a
+forward-reference, Menachot 83a, Chagigah 20b, Me'ilah 10a, and their
+name tokens) now land at offset 0, versus only 1 of 6 found before.
+Post-repair profile: ALIGNED, 6 anchors found, 0 missing. Corpus
+semantic audit: 0 shift candidates. No allowlist entries existed for
+48a to remove. Remaining campaign targets: 48b, 49a, 49b, 50a, 50b,
+51a, 51b, 52a, 52b.
+
+### 48b reconstructed (VERSION 15.106, rashi-reconstruction, Sonnet worker, anchor-poor-safe)
+
+Fresh diagnosis: raw count 26 = entries 26 (structurally sound), all
+26 entries unlinked, and the prior English invented a pigul/wrong-
+intent-during-eating storyline unrelated to the actual Hebrew (which
+covers whether preparatory coal-raking counts as a service act, then
+whether left-hand carrying invalidates it). Classified
+rashi-reconstruction.
+
+Rebuilt all 26 entries against the raw Hebrew and the 4-id local
+segment table: vl1-8 the raking-as-service question, dual-linked at
+the seam into the left-hand-carrying question (l01a, l01b); vl9-18 the
+receiving/tossing/carrying priesthood analysis with its Chagigah 11a
+citation (l01b); vl19-22 the right-leg-carrying Mishnah proof (l05);
+vl23-26 the atonement-dependent-carrying distinction (l07). vl26 (a
+truncated word) was checked against 49a's own raw Rashi source and,
+per the documented 10a vilnaLine 35 precedent, stays linked to l07 as
+the daf's own closest local anchor regardless of the new topic it
+opens on 49a.
+
+This daf's raw Rashi genuinely contains only one citation (Chagigah
+11a), split across two raw print lines so the anchor scanner's
+per-line adjacency window can never pair the tractate name with its
+daf number; the classifier therefore reports INSUFFICIENT-ANCHORS
+rather than ALIGNED regardless of translation correctness (ALIGNED
+requires 2+ anchors). This is the daf that prompted the anchor-poor-
+safe review-gate exception added in PR #95 (VERSION 15.105,
+docs-tooling): worker:review now accepts INSUFFICIENT-ANCHORS for
+rashi-reconstruction/rashi-realignment when exactly one genuine
+citation exists, is found at offset 0, no anchor is missing, and the
+self-review's anchorPoorAttestation block confirms no citation was
+invented, moved, or duplicated to satisfy the detector - all of which
+hold here. No allowlist entries existed for 48b to remove. Remaining
+campaign targets: 49a, 49b, 50a, 50b, 51a, 51b, 52a, 52b.
+
+### 49a realigned (VERSION 15.107, rashi-realignment, Sonnet worker)
+
+Fresh diagnosis confirmed the previously-suspected "mixed" state: raw
+count 64 = entries 64 (structurally sound), all 64 entries unlinked,
+and classification ALIGNED but with only 2 of 4 citation anchors
+found. Manual line-by-line comparison found most entries were genuine,
+if imprecisely bounded, translations rather than fabricated, with a
+real localized shift around vilnaLine 16-24 (the English anticipated
+content from raw lines one or more positions ahead of its own
+vilnaLine). Classified rashi-realignment.
+
+Rebuilt all 64 entries so each translates only its own raw print line,
+linked semantically against the 20-id local segment table: vl1-7 the
+zar/onen/shikor/ba'al-mum disqualification list and its Zevachim 16a
+citation (l01, l03); vl8-14 the text-critical note and the
+itztaba-bench elaboration (l08, l10); vl15-19 Rav Pappa's chafinah
+dilemma into Rabbi Yehoshua ben Levi's scoop-and-die question (l12,
+l15); vl19-31 Rabbi Chanina's paraphrase and the shachalayim/cress
+remedy digression proving seniority (l15, l17); vl32-43 Rabbi
+Chanina's refined restatement and the bull-not-blood ruling with its
+Leviticus 16 citation (l32, l34); vl44-59 Rabbi Chanina's
+incense-before-slaughter ruling and Rashi's proof of Yehoshua ben
+Levi's position (l36, l38, l41); vl59-63 Rav Pappa's and Rav Huna's
+opposing positions on chofen-chozer-vechofen (l41, l46, l43). vl64 (a
+truncated word) was checked against 49b's actual first raw Rashi line
+(confirmed from source), which opens describing the mechanics of "the
+second scooping, which is inside" - directly explaining l46's own
+"is its measure inside like its measure outside" question, so it links
+there as the semantically correct anchor. l47 and l48 are confirmed
+legitimately unused by any Rashi comment on 49a.
+
+All 4 of the semantic audit's citation anchors (Zevachim 16a,
+Deuteronomy 18, Leviticus 16, and their name tokens) now land at
+offset 0, versus 2 of 4 found before. Post-repair profile: ALIGNED, 4
+anchors found, 0 missing. Corpus semantic audit: 0 shift candidates.
+No allowlist entries existed for 49a to remove. Remaining campaign
+targets: 49b, 50a, 50b, 51a, 51b, 52a, 52b.
+
+### 49b realigned via zero-anchor-safe evidence tier (VERSION 15.109, rashi-realignment, Sonnet worker)
+
+Fresh diagnosis confirmed the previously-suspected shifted state: raw
+count 21 = entries 21 (structurally sound), all 21 entries unlinked,
+and a genuine internal shift where raw5 ("reaches the height of his
+palm, and he then turns it back") was skipped entirely, with two
+adjacent entries redundantly describing the same later action.
+Classified rashi-realignment.
+
+Rebuilt all 21 entries so each translates only its own raw print line,
+linked semantically against the 9-id local segment table: vl1-7 the
+second, inside incense-scooping mechanics into the Pesach-registration
+opening (l01, l16); vl7-15 the register/withdraw rules, the
+"mihyot miseh" derivation, and Mar Zutra's firstborn-donkey-redemption
+objection (l16, l18a, l18b); vl16-20 the calf/wild-animal/kilayim/koi
+exclusions from "sheep" (l18b). vl21 (a truncated word) was checked
+against 50a's own raw Rashi source and, per the documented 10a
+vilnaLine 35 precedent, stays linked to l18b as the daf's closest
+local anchor. l20 and l22 are confirmed legitimately unused.
+
+Unlike every other daf in this campaign, 49b's raw Rashi contains
+ZERO citation anchors of any kind (0 found, 0 missing, both before and
+after this edit) - a more extreme case than 48b's single split
+citation. Its classification is therefore INSUFFICIENT-ANCHORS and can
+never become ALIGNED, and it did not qualify for the anchor-poor-safe
+exception added in PR #95/#96 either, since that exception requires
+exactly one genuine anchor, not zero.
+
+Rather than extend the one-anchor exception ad hoc, PR #98 generalized
+the review gate into a source-relative, 3-tier citation-evidence policy
+(multi-anchor-safe, one-anchor-safe, zero-anchor-safe) dispatched
+purely on the daf's own anchor count. 49b qualifies for the new
+zero-anchor-safe tier: two independent scans (the primary drift-profile
+scanner and an independent whole-text parenthetical regex search) both
+confirm zero citation-like text anywhere in the raw Hebrew, corroborated
+by a full manual reread of all 21 lines, with the self-review's
+zeroAnchorAttestation block confirming no citation was invented, moved,
+or duplicated and no semantic uncertainty remains. Merged under
+zero-anchor-safe. Remaining campaign targets: 50a, 50b, 51a, 51b, 52a,
+52b.

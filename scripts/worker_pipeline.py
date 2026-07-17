@@ -41,7 +41,34 @@ YSCRIPTS = REPO / "modules" / "yoma" / "scripts"
 YROOT = REPO / "modules" / "yoma"
 MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 
-RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "placeholder-backfill"}
+RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
+               "placeholder-backfill", "rashi-structural-repair"}
+STRUCTURAL_TYPE = "rashi-structural-repair"
+# Task types eligible for the source-relative citation-evidence policy (see
+# drift_ok_for_type below). Deliberately excludes rashi-structural-repair,
+# which already has its own, broader, unconditional haiku-safe allowance.
+EVIDENCE_TIER_TYPES = ("rashi-reconstruction", "rashi-realignment")
+ONE_ANCHOR_ATTESTATION_KEYS = (
+    "onlyOneGenuineCitation",
+    "citationTranslatedOnOwnLine",
+    "noCitationInventedMovedOrDuplicated",
+    "noSemanticUncertaintyRemains",
+)
+ZERO_ANCHOR_ATTESTATION_KEYS = (
+    "everyRawLineRereadForCitations",
+    "noTractateDafChapterVerseOrOtherCitationAnywhere",
+    "noCitationInventedMovedOrDuplicated",
+    "noSemanticUncertaintyRemains",
+)
+
+
+def structure_authorized(m, spec):
+    """True only for a structural-repair manifest carrying the explicit
+    allowStructure authorization. No other task type can ever pass the
+    --allow-structure flag to the Rashi scope validator."""
+    return (m.get("type") == STRUCTURAL_TYPE
+            and "allowStructure" in m.get("authorizations", []))
+DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
 CONTENT_PREFIXES = ("modules/yoma/assets/learning/", "modules/yoma/assets/literal_en/",
                     "modules/yoma/assets/talmuddev/", "modules/yoma/assets/daftexts/")
 
@@ -55,12 +82,175 @@ def load_registry():
     return json.loads(REGISTRY.read_text())["taskTypes"]
 
 
+def review_policy_of(spec):
+    """A task type's review policy: 'conditional' (worker self-review plus
+    the machine-checked auto-merge gate; escalation to escalationModel),
+    'fable' (unconditional Fable review before merge), or 'none'."""
+    if spec.get("reviewPolicy"):
+        return spec["reviewPolicy"]
+    return "fable" if spec.get("fableReviewRequired") else "none"
+
+
 def load_manifest(path):
     m = json.loads(Path(path).read_text())
     types = load_registry()
     if m.get("type") not in types:
         sys.exit(f"ERROR: manifest type {m.get('type')!r} not in registry")
     return m, types[m["type"]]
+
+
+ALLOWLIST_DRAIN_TYPES = ("rashi-reconstruction", "rashi-realignment")
+SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+
+
+def content_allowlist_entries(daf=None):
+    ca_path = YSCRIPTS / "allowlists" / "rashi_content_allowlist.json"
+    entries = json.loads(ca_path.read_text()).get("entries", [])
+    return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def scaffold_debt_entries(daf=None, path=None):
+    """Entries of the locked scaffold-fabrication debt baseline (see
+    modules/yoma/scripts/audit_rashi_scaffold.py), optionally filtered to one
+    daf. Missing file means zero debt."""
+    p = path or SCAFFOLD_BASELINE
+    if not p.exists():
+        return []
+    entries = json.loads(p.read_text()).get("entries", [])
+    return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def scaffold_drain_status(m, daf, old_baseline, new_baseline, target_hits):
+    """Pure post-edit enforcement for target-scoped scaffold-debt draining
+    on rashi-reconstruction/rashi-realignment manifests. The scaffold debt
+    baseline is a shrink-only ratchet: after the repair, the target daf must
+    carry ZERO current scaffold hits and ZERO remaining baseline entries;
+    the baseline diff may contain only removals, and only for the target;
+    growth or hash changes anywhere are forbidden. Returns (ok, msgs)."""
+    if m.get("type") not in ALLOWLIST_DRAIN_TYPES:
+        return True, []
+    ok, msgs = True, []
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old_baseline}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new_baseline}
+    if target_hits:
+        ok = False
+        lines = sorted(h["vilnaLine"] for h in target_hits)
+        msgs.append(f"{len(target_hits)} scaffold hit(s) remain on {daf} "
+                    f"(vilnaLine {lines}); rewrite them as direct translation")
+    added = sorted(set(new_map) - set(old_map))
+    if added:
+        ok = False
+        msgs.append(f"scaffold-debt baseline GREW: {added} (growth requires "
+                    "explicit operator authorization, never a worker PR)")
+    rehashed = sorted(k for k in set(new_map) & set(old_map)
+                      if new_map[k] != old_map[k])
+    if rehashed:
+        ok = False
+        msgs.append(f"scaffold-debt baseline entry rehashed: {rehashed} "
+                    "(a baseline entry covers only its original text)")
+    foreign_removed = sorted(k for k in set(old_map) - set(new_map) if k[0] != daf)
+    if foreign_removed:
+        ok = False
+        msgs.append(f"scaffold-debt entries removed outside target daf: {foreign_removed}")
+    remaining_target = sorted(k[1] for k in new_map if k[0] == daf)
+    if remaining_target:
+        ok = False
+        msgs.append(f"scaffold-debt baseline still lists {daf} vilnaLine "
+                    f"{remaining_target}; retire drained entries with "
+                    "audit_rashi_scaffold.py --update-baseline")
+    if ok:
+        drained = sum(1 for k in set(old_map) - set(new_map) if k[0] == daf)
+        msgs.append(f"scaffold debt drained for {daf} ({drained} entr(ies) "
+                    "retired); no growth; unrelated entries unchanged")
+    return ok, msgs
+
+
+def validate_allowlist_drain(m, daf):
+    """Check whether m's allowlistDrain snapshot legitimately authorizes
+    starting rashi-reconstruction/rashi-realignment on daf despite
+    pre-existing content-allowlist debt for that exact daf. Returns
+    (ok, note). This is target-scoped repair debt, not new tolerance: the
+    snapshot must equal (not merely cover) daf's CURRENT allowlist
+    entries, so it can neither hide unrelated debt nor claim entries that
+    were added after the snapshot was taken. Ordinary task types (those
+    outside ALLOWLIST_DRAIN_TYPES) can never use this authorization, and
+    a manifest naming more than one target (or a target other than daf)
+    is rejected outright, since the drain is single-daf by design."""
+    if m["type"] not in ALLOWLIST_DRAIN_TYPES:
+        return False, (f"allowlist-drain authorization only applies to "
+                        f"{'/'.join(ALLOWLIST_DRAIN_TYPES)}, not {m['type']!r}")
+    if len(m.get("targets", [])) != 1 or m["targets"][0] != daf:
+        return False, "allowlist-drain authorization requires a single-target manifest matching the daf"
+    drain = m.get("allowlistDrain")
+    if not drain or not drain.get("authorized"):
+        return False, "no allowlistDrain authorization on manifest"
+    snapshot = drain.get("snapshot", [])
+    foreign = [e for e in snapshot if e.get("daf") != daf]
+    if foreign:
+        return False, f"allowlistDrain snapshot contains entries outside target daf {daf!r}: {foreign}"
+    snap_set = {(e["vilnaLine"], e["reason"]) for e in snapshot}
+    current_set = {(e["vilnaLine"], e["reason"]) for e in content_allowlist_entries(daf)}
+    if current_set != snap_set:
+        return False, (f"allowlistDrain snapshot does not match {daf}'s current allowlist entries "
+                        f"(snapshot {sorted(snap_set)} vs current {sorted(current_set)}); "
+                        "regenerate the manifest so the snapshot matches exactly")
+    return True, (f"allowlist-drain authorized: {len(snap_set)} pre-existing "
+                  f"entr{'y' if len(snap_set) == 1 else 'ies'} for {daf} accepted as repair debt, "
+                  "not new tolerance")
+
+
+def allowlist_drain_status(m, old_entries, new_entries, stale_pairs):
+    """Pure post-edit check of whether a manifest's allowlistDrain snapshot
+    was actually eliminated by this PR's content fix. old_entries/new_entries
+    are the full content-allowlist entry lists before/after this PR's diff;
+    stale_pairs is the set of (daf, vilnaLine) the content validator
+    currently reports as no longer violating (validate_rashi_content.py
+    --json's "stale" list). Returns (ok, messages); ok is True with no
+    messages when the manifest carries no drain authorization (nothing to
+    enforce), so callers can skip printing when there is nothing to say.
+
+    The snapshot is repair debt, not an exemption: this never silently
+    passes just because the snapshot was accepted at preflight. Every
+    snapshotted entry must end up either genuinely removed, or (if still
+    present) explicitly reported stale by the validator so the caller can
+    at least distinguish "cleanup omission" from "content still violates,
+    escalate" in the failure message. A stale-but-not-yet-removed entry
+    still fails, same as a genuinely-still-needed one -- both require a
+    human decision, not an auto-merge."""
+    drain = m.get("allowlistDrain")
+    if not (drain and drain.get("authorized") and m.get("type") in ALLOWLIST_DRAIN_TYPES
+            and len(m.get("targets", [])) == 1):
+        return True, []
+    daf = m["targets"][0]
+    snap_set = {(e["vilnaLine"], e["reason"]) for e in drain.get("snapshot", []) if e["daf"] == daf}
+    current_set = {(e["vilnaLine"], e["reason"]) for e in new_entries if e["daf"] == daf}
+    growth = current_set - snap_set
+    remaining = current_set & snap_set
+    old_other = [e for e in old_entries if e["daf"] != daf]
+    new_other = [e for e in new_entries if e["daf"] != daf]
+    ok = True
+    msgs = []
+    if growth:
+        ok = False
+        msgs.append(f"new/unauthorized allowlist entries for {daf}: {sorted(growth)}")
+    if old_other != new_other:
+        ok = False
+        msgs.append("unrelated allowlist entries (other daf) changed")
+    if remaining:
+        still_needed = sorted(vl for vl, _ in remaining if (daf, vl) not in stale_pairs)
+        stale_not_removed = sorted(vl for vl, _ in remaining if (daf, vl) in stale_pairs)
+        if still_needed:
+            ok = False
+            msgs.append(f"snapshotted entries still needed (content genuinely still violates) "
+                        f"for {daf} L{still_needed}: repair gap, escalate")
+        if stale_not_removed:
+            ok = False
+            msgs.append(f"validator reports these snapshotted entries stale but they were not "
+                        f"removed for {daf} L{stale_not_removed}")
+    if ok:
+        msgs.append(f"all {len(snap_set)} snapshotted entr{'y' if len(snap_set) == 1 else 'ies'} "
+                    f"for {daf} drained; no growth; unrelated entries unchanged")
+    return ok, msgs
 
 
 def expand_range(spec):
@@ -204,6 +394,25 @@ def cmd_manifest(opts):
     if max_batch and len(targets) > max_batch:
         sys.exit(f"ERROR: {len(targets)} targets exceed maxBatch {max_batch} for {opts.type!r}; "
                  f"split the range into smaller PRs")
+    allowlist_drain = None
+    if opts.drain_allowlist:
+        if opts.type not in ALLOWLIST_DRAIN_TYPES:
+            sys.exit(f"ERROR: --drain-allowlist is only valid for "
+                     f"{'/'.join(ALLOWLIST_DRAIN_TYPES)}, not {opts.type!r}")
+        if len(targets) != 1:
+            sys.exit("ERROR: --drain-allowlist requires exactly one target daf")
+        daf = targets[0]
+        snapshot = content_allowlist_entries(daf)
+        allowlist_drain = {"authorized": True, "snapshot": snapshot}
+    # Scaffold-fabrication debt is snapshotted automatically for single-target
+    # reconstruction/realignment manifests: the baseline itself is the
+    # tolerance, so no separate authorization is needed, but the snapshot
+    # binds the worker to drain every entry (see scaffold_drain_status).
+    scaffold_debt = None
+    if opts.type in ALLOWLIST_DRAIN_TYPES and len(targets) == 1:
+        snap = scaffold_debt_entries(targets[0])
+        if snap:
+            scaffold_debt = {"snapshot": snap}
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -211,6 +420,8 @@ def cmd_manifest(opts):
         "model": spec["model"],
         "paused": spec.get("paused", False),
         "fableReviewRequired": spec.get("fableReviewRequired", False),
+        "reviewPolicy": review_policy_of(spec),
+        "escalationModel": spec.get("escalationModel", "fable"),
         "authorizations": auths,
         "maxBatch": max_batch,
         "allowedFiles": spec["allowedFiles"],
@@ -222,6 +433,8 @@ def cmd_manifest(opts):
         "generationCommands": spec["generationCommands"],
         "buildTestCommands": spec["buildTestCommands"],
         "escalationTriggers": spec["escalationTriggers"],
+        "allowlistDrain": allowlist_drain,
+        "scaffoldDebt": scaffold_debt,
     }
     out = json.dumps(manifest, indent=1)
     if opts.out:
@@ -238,6 +451,10 @@ def cmd_preflight(opts):
     errors, notes = [], []
     if m.get("paused"):
         errors.append(f"task type {m['type']!r} is PAUSED; requires explicit unpausing (registry change)")
+    for req in spec.get("requiredAuthorizations", []):
+        if req not in m.get("authorizations", []):
+            errors.append(f"task type {m['type']!r} requires the explicit --authorize {req} "
+                          f"authorization on the manifest (Fable-issued only)")
 
     dirty = sh(["git", "status", "--porcelain"]).stdout.strip()
     branch = sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip()
@@ -267,14 +484,33 @@ def cmd_preflight(opts):
             errors.append("generated data stale; regenerate before starting")
 
     if m["type"] in RASHI_TYPES:
-        task = load_registry()[m["type"]].get("rashiPreflightTask", "reconstruct")
+        task = spec.get("rashiPreflightTask", "reconstruct")
+        # Drift-block enforcement is manifest-aware here: the underlying
+        # rashi_preflight env override is honored ONLY when the manifest
+        # also carries the Fable-issued authorizeDriftOverride flag. A
+        # worker cannot unblock a SHIFTED/FABRICATION-SUSPECT daf by
+        # setting the env var alone, and a manifest flag alone (however it
+        # was generated) does nothing without the Fable-only env var.
+        child_env = dict(os.environ)
+        if spec.get("driftBlocked") and "authorizeDriftOverride" not in m.get("authorizations", []):
+            child_env.pop(DRIFT_OVERRIDE_ENV, None)
         for daf in m["targets"]:
-            r = sh([sys.executable, "scripts/rashi_preflight.py", daf, "--task", task], cwd=YROOT)
+            r = subprocess.run([sys.executable, "scripts/rashi_preflight.py", daf, "--task", task],
+                               capture_output=True, text=True, cwd=YROOT, env=child_env)
             per_daf_errors = [l for l in r.stdout.splitlines() if l.strip().startswith("ERROR") and daf in l]
-            ok = r.returncode == 0 or (opts.dry_run and not per_daf_errors)
-            print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
+            kept_errors = []
             for l in per_daf_errors:
-                errors.append(l.strip())
+                msg = l.strip().removeprefix("ERROR").strip()
+                if "has unresolved CONTENT ALLOWLIST hits" in msg:
+                    drain_ok, drain_note = validate_allowlist_drain(m, daf)
+                    if drain_ok:
+                        notes.append(drain_note)
+                        continue
+                    msg = f"{msg} [allowlist-drain not authorized: {drain_note}]"
+                kept_errors.append(msg)
+            ok = not kept_errors
+            print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
+            errors.extend(kept_errors)
     elif m["targets"]:
         for daf in m["targets"]:
             if not (YROOT / "assets" / "talmuddev" / f"{daf}.json").exists():
@@ -359,7 +595,9 @@ def cmd_prompt(opts):
         spec["description"],
         "",
         f"Recommended model: {m['model']}. Haiku may take this task only if the model field says haiku"
-        " (haiku-with-fable-review means Haiku executes and Fable reviews the PR before merge).",
+        " (haiku-with-fable-review means Haiku executes and Fable reviews the PR before merge;"
+        " sonnet means Sonnet is the worker and Haiku is not allowed; fable means pipeline/tooling"
+        " work owned by Fable).",
         "",
         "Procedure:",
         f"1. Reconcile to origin/main; confirm clean tree.",
@@ -370,13 +608,56 @@ def cmd_prompt(opts):
         f"   allowed JSON paths: {json.dumps(m['allowedJsonPaths'])}",
         f"   forbidden: {json.dumps(m['forbiddenFiles'])}",
     ]
+    if t in RASHI_TYPES:
+        lines += [
+            "",
+            "Rashi linking contract: linkedGemaraLineIds are SEMANTIC text anchors.",
+            "Match each Rashi comment to the local segment(s) whose text it explains,",
+            "using the packet's full segment text (Gemara and Mishnah ids alike).",
+            "Never assign links by vilna line number or positional offset. A comment",
+            "may link to multiple segments when it genuinely spans them; boundary",
+            "policy never covers unrelated commentary. If the correct target segment",
+            "cannot be identified from the packet, stop and escalate; never guess.",
+        ]
     if m["generationCommands"]:
         lines.append("5. Regenerate: " + " && ".join(m["generationCommands"]))
     lines += [
         "6. Bump VERSION one patch; python3 scripts/sync_version.py",
         "7. npm run worker:verify -- --manifest .worker-manifest.json --fast",
         "   then npm run worker:verify -- --manifest .worker-manifest.json --full",
-        "8. Commit .worker-manifest.json together with the work, push, one PR, wait for CI, merge when green, verify both deploy workflows.",
+    ]
+    if review_policy_of(spec) == "conditional":
+        lines += [
+            "8. Fresh post-edit self-review (MANDATORY before the PR): reread the raw",
+            "   Hebrew and the packet's FULL segment text from scratch, without relying",
+            "   on your earlier working assumptions, and recheck: the beginning, middle,",
+            "   and tail of the daf; every citation anchor; every multi-id link; every",
+            "   truncated boundary entry; every formerly allowlisted entry; that every",
+            "   link is semantic (never positional); that no line uses the final id as",
+            "   an unrelated-content fallback. Record the result in",
+            "   .worker-self-review.json:",
+            '   {"daf": "<daf>", "model": "' + m["model"] + '", "rechecked": {'
+            + ", ".join(f'"{c}": true' for c in SELF_REVIEW_CHECKS) + "},",
+            '    "blockersFound": [], "notes": "<one line>"}',
+            "   Any blocker found = escalate; do not open the PR as mergeable.",
+            "9. Commit .worker-manifest.json and .worker-self-review.json together with",
+            "   the work, push, ONE PR for this daf only, wait for CI.",
+            "10. npm run worker:review -- --manifest .worker-manifest.json",
+            "    Merge ONLY when CI is green on the exact final head AND this prints",
+            "    AUTO-MERGE-ELIGIBLE. No operator authorization is needed when both hold.",
+            "    Then verify BOTH deploy workflows for the merge commit.",
+            "11. If a queue is active: rerun npm run worker:queue. Progress derives",
+            "    automatically from the merged manifest at origin/main; there is no state",
+            "    to commit and NEVER a direct push to main. Continue to the",
+            "    next queued target with a fresh manifest. Stop ONLY on an escalation",
+            "    condition, unexpected repository state, or an empty queue.",
+            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'fable')} with a report.",
+        ]
+    else:
+        lines += [
+            "8. Commit .worker-manifest.json together with the work, push, one PR, wait for CI, merge when green, verify both deploy workflows.",
+        ]
+    lines += [
         "",
         f"Allowlist policy: {m['allowlistPolicy']}. You may NEVER add allowlist or baseline entries.",
         f"Structure policy: {m['structurePolicy']}.",
@@ -420,8 +701,15 @@ def cmd_scope(opts):
         errors.append(f"task type {m['type']} permits no file changes; {len(changed)} file(s) changed")
 
     if m["type"] in RASHI_TYPES:
-        # Field-level enforcement reuses the proven Rashi validator.
-        r = sh([sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base], cwd=YSCRIPTS.parent)
+        # Field-level enforcement reuses the proven Rashi validator. Only a
+        # structural-repair manifest with the explicit allowStructure
+        # authorization may relax the structure rules; every other type
+        # (Haiku or Sonnet manifests included) gets the strict contract.
+        scope_cmd = [sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base]
+        if structure_authorized(m, spec):
+            scope_cmd.append("--allow-structure")
+            print("NOTE: allowStructure authorization active (rashi-structural-repair manifest).")
+        r = sh(scope_cmd, cwd=YSCRIPTS.parent)
         if r.returncode != 0:
             errors.append("check_rashi_pr_scope failed:\n" + r.stdout[-1200:])
         max_batch = m.get("maxBatch")
@@ -475,6 +763,20 @@ def cmd_verify(opts):
         r = sh(cmd, cwd=YROOT)
         print(r.stdout[-3000:])
         results.append(("rashi-verify", r.returncode == 0))
+        # Post-edit drift profile: hard gate for rashi-realignment (the
+        # task's whole purpose is restoring alignment), advisory for the
+        # other Rashi types.
+        pr = sh([sys.executable, "scripts/audit_rashi_semantic.py", "--profile", "--json",
+                 *m["targets"]], cwd=YROOT)
+        try:
+            profs = json.loads(pr.stdout)
+            profs = profs if isinstance(profs, list) else [profs]
+        except json.JSONDecodeError:
+            profs = []
+        bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("haikuSafe")]
+        print(f"post-edit drift profile: {', '.join(bad) if bad else 'all targets aligned'}")
+        if m["type"] in ("rashi-realignment", "rashi-reconstruction", STRUCTURAL_TYPE):
+            results.append(("drift-profile", not bad and bool(profs)))
     else:
         r = sh(["npm", "run", "validate:offline:yoma"])
         results.append(("offline-gates", r.returncode == 0))
@@ -538,6 +840,46 @@ def cmd_verify(opts):
         if m.get("type") == "placeholder-backfill" and not shrank_or_equal:
             results.append(("allowlist-shrink", False))
 
+        # Allowlist-drain enforcement: a rashi-reconstruction/rashi-realignment
+        # manifest that snapshotted pre-existing target-scoped debt at preflight
+        # must actually eliminate it here. See allowlist_drain_status for the
+        # pure check (unit-tested independently of this subprocess plumbing).
+        if m.get("allowlistDrain"):
+            cr = sh([sys.executable, "scripts/validate_rashi_content.py", "--json"], cwd=YROOT)
+            try:
+                report = json.loads(cr.stdout)
+            except json.JSONDecodeError:
+                report = None
+            stale_pairs = ({(e["daf"], e["vilnaLine"]) for e in report["stale"]} if report else set())
+            drain_ok, drain_msgs = allowlist_drain_status(m, old_entries, new_entries, stale_pairs)
+            if drain_msgs:
+                print("\nallowlist-drain enforcement:")
+                for msg in drain_msgs:
+                    print(f"  {'PASS' if drain_ok else 'FAIL'}  {msg}")
+                results.append(("allowlist-drain", drain_ok))
+
+        # Scaffold-debt drain enforcement: reconstruction/realignment must
+        # leave its single target with zero scaffold hits and zero remaining
+        # baseline entries, and the baseline may only shrink, target-scoped.
+        if m.get("type") in ALLOWLIST_DRAIN_TYPES and len(m["targets"]) == 1:
+            daf = m["targets"][0]
+            sb_rel = SCAFFOLD_BASELINE.relative_to(REPO).as_posix()
+            rr = sh(["git", "show", f"{mb}:{sb_rel}"])
+            old_sb = json.loads(rr.stdout).get("entries", []) if rr.returncode == 0 else []
+            new_sb = scaffold_debt_entries()
+            hr = sh([sys.executable, "scripts/audit_rashi_scaffold.py", daf,
+                     "--json", "--no-baseline"], cwd=YROOT)
+            try:
+                target_hits = json.loads(hr.stdout).get("hits", [])
+            except json.JSONDecodeError:
+                target_hits = [{"daf": daf, "vilnaLine": -1}]
+            sc_ok, sc_msgs = scaffold_drain_status(m, daf, old_sb, new_sb, target_hits)
+            if sc_msgs:
+                print("\nscaffold-debt drain enforcement:")
+                for msg in sc_msgs:
+                    print(f"  {'PASS' if sc_ok else 'FAIL'}  {msg}")
+            results.append(("scaffold-drain", sc_ok))
+
     # Literal-layer coverage delta
     if m["type"] == "literal-layer":
         cov = sh([sys.executable, "scripts/validate_literal.py"], cwd=YROOT)
@@ -555,13 +897,727 @@ def cmd_verify(opts):
     if fail:
         print("\nWORKER VERIFY FAILED. Fix your content/scope or STOP AND ESCALATE.")
         sys.exit(1)
-    if m.get("fableReviewRequired"):
+    policy = review_policy_of(spec)
+    if policy == "fable":
         print("\nREVIEW GATE: this task type requires Fable review of the PR before merge. "
               "Workers may open the PR and poll CI, but may NOT merge; request Fable review "
               "and stop.")
+    elif policy == "conditional":
+        print("\nCONDITIONAL REVIEW GATE: after the fresh post-edit self-review is recorded "
+              "in .worker-self-review.json and CI is green on the final head, run "
+              "`npm run worker:review -- --manifest .worker-manifest.json`. Merge ONLY if it "
+              f"prints AUTO-MERGE-ELIGIBLE; on any failed condition, escalate to "
+              f"{spec.get('escalationModel', 'fable')} instead of merging.")
     nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
           "npm run worker:verify -- --manifest .worker-manifest.json --full"
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
+
+
+# ---------------- review (conditional auto-merge gate) ----------------
+
+SELF_REVIEW_PATH = REPO / ".worker-self-review.json"
+SELF_REVIEW_CHECKS = (
+    "beginningMiddleTail", "citationAnchors", "multiIdLinks",
+    "truncatedBoundaryEntries", "formerlyAllowlistedEntries",
+    "semanticNotPositional", "noUnrelatedFinalIdFallback",
+)
+
+# Canonical machine-checked auto-merge conditions, in report order. CI
+# greenness and the verify --fast/--full runs are procedural conditions the
+# worker satisfies in the loop itself (worker:review reminds about them but
+# cannot observe CI from here).
+REVIEW_CONDITIONS = (
+    "single-target-manifest",
+    "exactly-one-authorized-daf-changed",
+    "scope-clean-no-structure-no-hebrew-no-forbidden-fields",
+    "no-allowlist-additions",
+    "allowlist-removals-limited-to-target-daf",
+    "scaffold-clean-on-target",
+    "scaffold-baseline-shrink-only",
+    "packet-contains-every-linked-local-id",
+    "all-links-legal-and-nonempty",
+    "drift-profile-ALIGNED",
+    "semantic-audit-zero-shift-candidates",
+    "no-stub-or-duplicate-helpers",
+    "generated-files-fresh",
+    "version-metadata-synced",
+    "fresh-self-review-committed-and-clean",
+)
+
+
+def evaluate_review_policy(conditions):
+    """Pure auto-merge policy: eligible only when EVERY condition is true.
+    Returns (eligible, failed_condition_names)."""
+    failed = [k for k in conditions if not conditions[k]]
+    return (not failed, failed)
+
+
+def _citation_shaped(inner):
+    """Independent citation-shape test for one parenthetical's inner text,
+    deliberately not reusing anchors_of()'s tractate-name list: flags it
+    as citation-like only if it names a page ("daf") or ends in the
+    short daf/amud marker every Talmudic page citation uses (1-4 Hebrew
+    letters immediately followed by a period or colon). An ordinary
+    editorial gloss like "(Torah)" carries neither signal."""
+    if "דף" in inner:
+        return True
+    return bool(re.search(r'[א-ת"׳]{1,4}[.:]$', inner.strip()))
+
+
+def independent_zero_citation_scan(daf):
+    """A SECOND, independent check that a daf's raw Hebrew contains no
+    citation-like text at all, deliberately not reusing anchors_of()'s
+    per-line/lookahead/tractate-name-matching logic: scans the ENTIRE
+    concatenated raw text for any parenthetical group shaped like a
+    citation (see _citation_shaped), whether or not its contents match a
+    known tractate name or a daf number. Catches citation-like tokens (an
+    unrecognized abbreviation, a same-parens "tractate daf N" citation, a
+    verse citation format anchors_of does not model) that a zero-anchor
+    profile from the primary scanner could otherwise miss, while not
+    flagging ordinary non-citation parenthetical glosses. Returns
+    (ok: bool, detail: str)."""
+    tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
+    if not tpath.exists():
+        return False, f"no talmuddev source for {daf}"
+    raw = [l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()]
+    whole = " ".join(raw)
+    all_groups = re.findall(r"\(([^()]{1,60})\)", whole)
+    hits = [g for g in all_groups if _citation_shaped(g)]
+    if hits:
+        return False, f"parenthetical citation-like text found: {hits[:5]}"
+    return True, "no parenthetical citation-like text anywhere in the raw Hebrew"
+
+
+def multi_anchor_safe(prof):
+    """Case A: 2+ genuine anchors. Stricter than the bare ALIGNED label
+    (which the classifier also grants to a daf with anchors still
+    missing, e.g. 2 found + 2 missing): requires the classification
+    itself be ALIGNED, every expected anchor found, zero missing, and
+    every found offset exactly 0 -- except a dafnum anchor flagged
+    splitContinuation (its digits are sourced from the following raw
+    line, e.g. he ends "(Berakhot" and the next line opens "39a)"), for
+    which offset 0 or +1 are both the citation's own, honestly-translated
+    position, not drift. Returns (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    cls = prof.get("classification")
+    if cls != "ALIGNED":
+        return False, f"classification is {cls}, not ALIGNED"
+    if len(prof.get("anchors", [])) < 2:
+        return False, "fewer than 2 genuine anchors (not a multi-anchor daf)"
+    if prof.get("anchorsMissing", 1) != 0:
+        return False, f"{prof.get('anchorsMissing')} expected anchor(s) missing"
+    bad_offsets = []
+    for a in prof.get("anchors", []):
+        o = a.get("offset")
+        if o is None:
+            continue
+        allowed_offsets = (0, 1) if a.get("splitContinuation") else (0,)
+        if o not in allowed_offsets:
+            bad_offsets.append(o)
+    if bad_offsets:
+        return False, f"offset(s) not exactly 0: {bad_offsets}"
+    return True, ("classification ALIGNED, every expected anchor found, zero missing, "
+                  "all offsets 0 (or +1 for a legitimately split citation's daf number)")
+
+
+def one_anchor_safe(prof, sr):
+    """Case B (Yoma 48b class of daf): a rashi-reconstruction/realignment
+    daf whose raw Hebrew genuinely contains exactly one detectable
+    citation may substitute for ALIGNED when ALL of the following hold,
+    computed only from the drift profile and the fresh self-review (no
+    file I/O, no git):
+
+      1. prof['anchors'] has exactly one entry.
+      2. that entry's offset is not None (it is found in the English).
+      3. that entry's offset is exactly 0 (no displacement) -- or +1 when
+         the anchor is flagged splitContinuation, since a dafnum token
+         whose digits are sourced from the following raw line legitimately
+         lands one English line later in a faithful translation.
+      4. prof['anchorsMissing'] is 0 (no expected anchor is missing).
+      5. the self-review carries an 'oneAnchorAttestation' (or the
+         legacy 'anchorPoorAttestation') block with all of
+         ONE_ANCHOR_ATTESTATION_KEYS explicitly true.
+
+    SHIFTED requires >= SHIFT_MIN_ANCHORS (2) same-sign displaced
+    anchors and FABRICATION-SUSPECT requires >= FAB_MIN_CONSECUTIVE_MISSES
+    (2) consecutive missing name anchors, so condition 1 alone already
+    excludes both classifications from ever qualifying; this function
+    never reclassifies or relabels the daf. Returns (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    anchors = prof.get("anchors", [])
+    if len(anchors) != 1:
+        return False, (f"{len(anchors)} genuine detectable citation(s) in the raw Hebrew "
+                        "(this tier requires exactly 1)")
+    offset = anchors[0].get("offset")
+    if offset is None:
+        return False, "the single citation is not found anywhere in the English"
+    allowed_offsets = (0, 1) if anchors[0].get("splitContinuation") else (0,)
+    if offset not in allowed_offsets:
+        return False, f"the single citation is found at offset {offset}, not 0"
+    if prof.get("anchorsMissing", 1) != 0:
+        return False, f"{prof.get('anchorsMissing')} expected citation(s) missing"
+    att = (sr or {}).get("oneAnchorAttestation") or (sr or {}).get("anchorPoorAttestation") or {}
+    missing_att = [k for k in ONE_ANCHOR_ATTESTATION_KEYS if att.get(k) is not True]
+    if missing_att:
+        return False, f"self-review oneAnchorAttestation missing or false: {missing_att}"
+    return True, ("exactly one genuine citation, found at offset 0, no missing anchors, "
+                  "self-review attests no invented/moved/duplicated citation")
+
+
+def zero_anchor_safe(daf, prof, sr, entries=None):
+    """Case C: a rashi-reconstruction/realignment daf whose raw Hebrew
+    genuinely contains ZERO detectable citations of any kind. Citation
+    anchors are corroborating evidence, not a mandatory content feature,
+    so their absence must not automatically imply correctness; this tier
+    therefore requires a stronger full-daf attestation than the one- or
+    multi-anchor tiers, computed from the drift profile, an independent
+    second source scan, the fresh self-review, and (when provided) the
+    daf's own entries. Returns (ok: bool, reason: str)."""
+    if not prof:
+        return False, "no drift profile available"
+    if prof.get("classification") != "INSUFFICIENT-ANCHORS":
+        return False, f"classification is {prof.get('classification')}, not INSUFFICIENT-ANCHORS"
+    anchors = prof.get("anchors", [])
+    if anchors:
+        return False, f"{len(anchors)} genuine detectable citation(s) exist (this tier requires 0)"
+    scan_ok, scan_detail = independent_zero_citation_scan(daf)
+    if not scan_ok:
+        return False, f"independent second scan disagrees: {scan_detail}"
+    att = (sr or {}).get("zeroAnchorAttestation") or {}
+    missing_att = [k for k in ZERO_ANCHOR_ATTESTATION_KEYS if att.get(k) is not True]
+    if missing_att:
+        return False, f"self-review zeroAnchorAttestation missing or false: {missing_att}"
+    if entries is not None:
+        empty_vl = {e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")}
+        authorized = {a.get("vilnaLine") for a in (sr or {}).get("authorizedEmptyLinks", [])
+                      if a.get("rule")}
+        unauthorized = sorted(empty_vl - authorized)
+        if unauthorized:
+            return False, (f"empty linkedGemaraLineIds on vilnaLine {unauthorized} without an "
+                            "authorizedEmptyLinks entry citing a documented boundary rule")
+    return True, ("two independent scans confirm zero citations anywhere in the raw Hebrew, "
+                  "self-review attests every line was reread with no uncertainty")
+
+
+def drift_ok_for_type(m_type, daf, prof, sr, entries=None):
+    """Pure dispatch (file I/O limited to the one independent-scan read
+    inside zero_anchor_safe; no git): does the post-edit drift profile
+    satisfy this task type's merge bar? Returns (ok, extra_condition_key_
+    or_None, note) where extra_condition_key_or_None is a SECOND
+    condition name to add to the conditions dict (its own PASS/FAIL
+    line) only when an evidence tier is what actually decided the
+    outcome; note is an empty string when there is nothing to add."""
+    cls = prof["classification"] if prof else "NO-PROFILE"
+    if m_type == STRUCTURAL_TYPE:
+        ok = bool(prof) and prof.get("haikuSafe", False)
+        note = "" if ok else f"post-edit drift profile is {cls}, not haiku-safe"
+        return ok, None, note
+    if m_type in EVIDENCE_TIER_TYPES:
+        n_anchors = len(prof.get("anchors", [])) if prof else -1
+        if n_anchors >= 2:
+            ok, reason = multi_anchor_safe(prof)
+            note = "" if ok else (f"post-edit drift profile is {cls}, not ALIGNED, and does not "
+                                   f"satisfy the multi-anchor evidence tier: {reason}")
+            return ok, None, note
+        if n_anchors == 1:
+            ok, reason = one_anchor_safe(prof, sr)
+            if ok:
+                return True, "one-anchor-safe", (
+                    f"ONE-ANCHOR-SAFE: {reason} (classification remains {cls}, not relabeled ALIGNED)")
+            return False, "one-anchor-safe", (
+                f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
+                f"one-anchor-safe evidence tier: {reason}")
+        if n_anchors == 0:
+            ok, reason = zero_anchor_safe(daf, prof, sr, entries)
+            if ok:
+                return True, "zero-anchor-safe", (
+                    f"ZERO-ANCHOR-SAFE: {reason} (classification remains {cls}, not relabeled ALIGNED)")
+            return False, "zero-anchor-safe", (
+                f"post-edit drift profile is {cls}, not ALIGNED, and does not qualify for the "
+                f"zero-anchor-safe evidence tier: {reason}")
+        return False, None, "no drift profile available"
+    ok = cls == "ALIGNED"
+    note = "" if ok else f"post-edit drift profile is {cls}, not ALIGNED"
+    return ok, None, note
+
+
+def gather_review_conditions(m, spec, base):
+    """Collect the machine-checkable auto-merge conditions for a conditional
+    review task. Every check is read-only. Returns (conditions, notes)."""
+    conditions = {k: False for k in REVIEW_CONDITIONS}
+    notes = []
+    targets = m.get("targets", [])
+    conditions["single-target-manifest"] = len(targets) == 1
+    if len(targets) != 1:
+        notes.append(f"manifest carries {len(targets)} targets; conditional review is one daf per PR")
+        return conditions, notes
+    target = targets[0]
+
+    # Structural repair exists to restore 1:1 raw correspondence: entry
+    # count and vilnaLine sequence must match the authoritative source
+    # exactly after the pass. Computed before any git dependency so the
+    # condition is always present and valued for structural manifests.
+    if m["type"] == STRUCTURAL_TYPE:
+        tpath = YROOT / "assets" / "talmuddev" / f"{target}.json"
+        raw_n = len([l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()])
+        lp = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+        ent = json.loads(lp.read_text()).get("rashiTranslations", []) if lp.exists() else []
+        seq_ok = [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1))
+        conditions["entry-count-and-order-match-raw"] = len(ent) == raw_n and seq_ok
+        if not (len(ent) == raw_n and seq_ok):
+            notes.append(f"rashiTranslations {len(ent)} entries vs {raw_n} raw lines "
+                         f"(sequence {'ok' if seq_ok else 'broken'})")
+
+    mb = sh(["git", "merge-base", base, "HEAD"]).stdout.strip()
+    if not mb:
+        notes.append(f"cannot resolve merge-base of {base!r}")
+        return conditions, notes
+    changed = [l for l in sh(["git", "diff", "--name-only", mb]).stdout.splitlines() if l.strip()]
+
+    learn_changed = [p for p in changed
+                     if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")]
+    expected = f"modules/yoma/assets/learning/yoma/{target}.learning.json"
+    conditions["exactly-one-authorized-daf-changed"] = learn_changed == [expected]
+    if learn_changed != [expected]:
+        notes.append(f"learning JSONs changed: {learn_changed or 'none'} (expected exactly [{expected}])")
+
+    # Scope: structure, Hebrew, forbidden fields, file set (reuses the
+    # hard Rashi validator via cmd_scope semantics). Structure relaxation
+    # exists ONLY for an explicitly authorized structural-repair manifest.
+    scope_cmd = [sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base]
+    if structure_authorized(m, spec):
+        scope_cmd.append("--allow-structure")
+    r = sh(scope_cmd, cwd=YROOT)
+    conditions["scope-clean-no-structure-no-hebrew-no-forbidden-fields"] = r.returncode == 0
+    if r.returncode != 0:
+        notes.append("check_rashi_pr_scope failed:\n" + r.stdout[-800:])
+
+    # Allowlist delta: additions are forbidden anywhere; removals only on
+    # the target daf (a removal that survives the content gate green was by
+    # definition validator-stale, since the gate re-derives violations).
+    added, foreign_removed = [], []
+    for p in sorted((YSCRIPTS / "allowlists").glob("*.json")):
+        rel = p.relative_to(REPO).as_posix()
+        rr = sh(["git", "show", f"{mb}:{rel}"])
+        old = json.loads(rr.stdout) if rr.returncode == 0 else {}
+        new = json.loads(p.read_text())
+        for section in ("entries", "count_mismatches"):
+            oe = {json.dumps(e, sort_keys=True) for e in old.get(section, [])}
+            ne = {json.dumps(e, sort_keys=True) for e in new.get(section, [])}
+            added += [f"{rel}:{a}" for a in sorted(ne - oe)]
+            for gone in sorted(oe - ne):
+                if json.loads(gone).get("daf") != target:
+                    foreign_removed.append(f"{rel}:{gone}")
+    conditions["no-allowlist-additions"] = not added
+    conditions["allowlist-removals-limited-to-target-daf"] = not foreign_removed
+    for a in added:
+        notes.append(f"allowlist entry ADDED: {a}")
+    for g in foreign_removed:
+        notes.append(f"allowlist entry removed outside target daf: {g}")
+
+    # Scaffold-fabrication gate: after any conditional-review Rashi task, the
+    # target daf must carry zero current scaffold hits AND zero remaining
+    # scaffold-debt baseline entries (a repair never leaves scaffold text or
+    # unretired debt behind); and the debt baseline may only shrink, with
+    # removals limited to the target daf and no entry rehashed.
+    sr = sh([sys.executable, "scripts/audit_rashi_scaffold.py", target, "--json"], cwd=YROOT)
+    try:
+        srep = json.loads(sr.stdout)
+    except json.JSONDecodeError:
+        srep = None
+    sc_clean = bool(srep) and not srep["new"] and not srep["changed"] \
+        and srep["remainingDebt"] == 0 and not srep["stale"]
+    conditions["scaffold-clean-on-target"] = sc_clean
+    if not sc_clean:
+        if srep:
+            notes.append(f"scaffold gate on {target}: {len(srep['new'])} new, "
+                         f"{len(srep['changed'])} changed, {srep['remainingDebt']} "
+                         f"baselined debt, {len(srep['stale'])} stale baseline entr(ies)")
+        else:
+            notes.append("scaffold audit produced no parseable report")
+    sb_rel = SCAFFOLD_BASELINE.relative_to(REPO).as_posix()
+    rr = sh(["git", "show", f"{mb}:{sb_rel}"])
+    old_sb = json.loads(rr.stdout).get("entries", []) if rr.returncode == 0 else []
+    new_sb = scaffold_debt_entries()
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old_sb}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new_sb}
+    sb_added = sorted(set(new_map) - set(old_map))
+    sb_rehashed = sorted(k for k in set(new_map) & set(old_map) if new_map[k] != old_map[k])
+    sb_foreign = sorted(k for k in set(old_map) - set(new_map) if k[0] != target)
+    conditions["scaffold-baseline-shrink-only"] = not sb_added and not sb_rehashed and not sb_foreign
+    for k in sb_added:
+        notes.append(f"scaffold-debt baseline entry ADDED: {k}")
+    for k in sb_rehashed:
+        notes.append(f"scaffold-debt baseline entry rehashed: {k}")
+    for k in sb_foreign:
+        notes.append(f"scaffold-debt entry removed outside target daf: {k}")
+
+    # Packet completeness and link legality against the live segment table.
+    sys.path.insert(0, str(YSCRIPTS))
+    import make_rashi_work_packet as mrwp
+    import audit_rashi_semantic as ars
+    table = {s["id"] for s in mrwp.local_segments_for(target)}
+    lpath = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+    entries = json.loads(lpath.read_text()).get("rashiTranslations", []) if lpath.exists() else []
+    used = {i for e in entries for i in e.get("linkedGemaraLineIds", [])}
+    empty = [e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")]
+    illegal = sorted(used - table)
+    conditions["packet-contains-every-linked-local-id"] = bool(table) and not illegal
+    conditions["all-links-legal-and-nonempty"] = bool(entries) and not illegal and not empty
+    if illegal:
+        notes.append(f"linked ids not in the packet segment table: {illegal}")
+    if empty:
+        notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
+
+    # Post-edit drift: realignment/reconstruction must restore full
+    # alignment (ALIGNED, tightened to zero missing anchors and all
+    # offsets exactly 0), or qualify for the one-anchor-safe or
+    # zero-anchor-safe evidence tier (see drift_ok_for_type); structural
+    # repair on an anchor-poor daf keeps its own, broader, unconditional
+    # haiku-safe allowance. drift_ok_for_type never mutates the
+    # classification itself and never accepts SHIFTED or
+    # FABRICATION-SUSPECT.
+    prof = ars.profile_daf(target, ars.load_allowlisted())
+    sr_for_drift = None
+    if SELF_REVIEW_PATH.exists():
+        try:
+            sr_for_drift = json.loads(SELF_REVIEW_PATH.read_text())
+        except json.JSONDecodeError:
+            sr_for_drift = None
+    ok, extra_key, note = drift_ok_for_type(m["type"], target, prof, sr_for_drift, entries)
+    conditions["drift-profile-ALIGNED"] = ok
+    if extra_key:
+        conditions[extra_key] = ok
+    if note:
+        notes.append(note)
+
+    ra = sh([sys.executable, "scripts/audit_rashi_semantic.py", target], cwd=YROOT)
+    conditions["semantic-audit-zero-shift-candidates"] = "0 shift candidate(s)" in ra.stdout
+    if "0 shift candidate(s)" not in ra.stdout:
+        notes.append("scoped semantic audit reports shift candidates on the target daf")
+
+    stub = [e["vilnaLine"] for e in entries
+            if re.search(r"Rashi line \d+|: continuation\.?$", e.get("en", ""))]
+    seen, dupes = {}, []
+    for e in entries:
+        seen.setdefault(e.get("en", ""), []).append(e["vilnaLine"])
+    dupes = {k[:40]: v for k, v in seen.items() if len(v) > 1 and k}
+    conditions["no-stub-or-duplicate-helpers"] = not stub and not dupes
+    if stub:
+        notes.append(f"stub-pattern helpers remain on lines {stub}")
+    if dupes:
+        notes.append(f"duplicate helper English: {dupes}")
+
+    fr = sh([sys.executable, "scripts/check_generated_freshness.py"], cwd=YROOT)
+    conditions["generated-files-fresh"] = fr.returncode == 0
+
+    version = (REPO / "VERSION").read_text().strip()
+    pkg = json.loads((REPO / "package.json").read_text())["version"]
+    lock = json.loads((REPO / "package-lock.json").read_text())["version"]
+    conditions["version-metadata-synced"] = version == pkg == lock
+
+    # Fresh post-edit self-review: the attestation must be part of THIS
+    # PR's diff (that is what makes it fresh), name the target daf, tick
+    # every required recheck, and report no blockers.
+    sr_ok, why = False, ""
+    if ".worker-self-review.json" not in changed:
+        why = ".worker-self-review.json is not part of this PR's diff (a fresh post-edit self-review is required)"
+    elif not SELF_REVIEW_PATH.exists():
+        why = ".worker-self-review.json missing from the working tree"
+    else:
+        try:
+            sr = json.loads(SELF_REVIEW_PATH.read_text())
+            missing = [c for c in SELF_REVIEW_CHECKS if sr.get("rechecked", {}).get(c) is not True]
+            if sr.get("daf") != target:
+                why = f"self-review daf {sr.get('daf')!r} does not match target {target!r}"
+            elif missing:
+                why = f"self-review rechecks missing or false: {missing}"
+            elif sr.get("blockersFound"):
+                why = f"self-review reports blockers: {sr['blockersFound']}"
+            else:
+                sr_ok = True
+        except json.JSONDecodeError as ex:
+            why = f"self-review file unparseable: {ex}"
+    conditions["fresh-self-review-committed-and-clean"] = sr_ok
+    if not sr_ok:
+        notes.append(why)
+
+    return conditions, notes
+
+
+def cmd_review(opts):
+    """Conditional-review auto-merge gate. Exit 0 with AUTO-MERGE-ELIGIBLE
+    only when every machine-checked condition passes; otherwise exit 1 with
+    the exact failed conditions and the escalation target."""
+    m, spec = load_manifest(opts.manifest)
+    policy = review_policy_of(spec)
+    if policy == "fable":
+        print(f"REVIEW: task type {m['type']} requires unconditional Fable review; "
+              "there is no auto-merge gate. Request Fable review and stop.")
+        sys.exit(1)
+    if policy != "conditional":
+        print(f"REVIEW: task type {m['type']} has no review gate (policy: {policy}).")
+        return
+    base = resolve_base(opts.base)
+    conditions, notes = gather_review_conditions(m, spec, base)
+    eligible, failed = evaluate_review_policy(conditions)
+    print(f"Conditional review gate (type {m['type']}, targets {m.get('targets')}, base {base}):\n")
+    for k in conditions:
+        print(f"  {'PASS' if conditions[k] else 'FAIL'}  {k}")
+    for n in notes:
+        print(f"  note: {n}")
+    print("\nProcedural conditions (not observable here, still mandatory):")
+    print("  - worker:verify --fast and --full both passed on this head")
+    print("  - CI is green on the exact final head at merge time")
+    if eligible:
+        print("\nAUTO-MERGE-ELIGIBLE: all machine-checked conditions pass. Merge only "
+              "when CI is green on this exact head; then verify both deploy workflows "
+              "and advance the queue.")
+    else:
+        print(f"\nESCALATE to {spec.get('escalationModel', 'fable')}: failed condition(s) "
+              f"{failed}. Do NOT merge.")
+        sys.exit(1)
+
+
+# ---------------- queue (sequential autopilot) ----------------
+
+QUEUE_PATH = REPO / ".worker-queue.json"
+
+
+def merged_manifest_evidence(override=None):
+    """The last worker manifest MERGED to origin/main: the durable evidence
+    queue progress derives from. Never reads the working tree (an unmerged
+    manifest is not evidence). --evidence FILE overrides for tests."""
+    if override:
+        try:
+            return json.loads(Path(override).read_text())
+        except (OSError, json.JSONDecodeError):
+            return {}
+    sh(["git", "fetch", "origin", "main"])  # best-effort freshness
+    r = sh(["git", "show", "origin/main:.worker-manifest.json"])
+    if r.returncode != 0:
+        return {}
+    try:
+        return json.loads(r.stdout)
+    except json.JSONDecodeError:
+        return {}
+
+
+def derive_queue_progress(q, evidence):
+    """Pure derivation of (done, remaining) from the immutable queue
+    definition and the merged-manifest evidence. Sequential-by-design: the
+    evidence names the LAST merged target for this queue's type/module;
+    under the enforced one-PR-per-target sequential process, everything at
+    or before that index is complete. A manifest of another type/module, a
+    target outside the queue, or a merely-local (unmerged) manifest never
+    advances anything, so failed or escalated targets can never become
+    done."""
+    targets = q["targets"]
+    if (evidence.get("type") == q["type"]
+            and evidence.get("module") == q["module"]
+            and len(evidence.get("targets", [])) == 1
+            and evidence["targets"][0] in targets):
+        i = targets.index(evidence["targets"][0])
+        return targets[:i + 1], targets[i + 1:]
+    return [], list(targets)
+
+
+def cmd_queue(opts):
+    """Sequential autopilot queue: ordered targets, one PR per target,
+    merge+deploy verification between targets, stop-on-escalation.
+
+    The tracked queue file is an IMMUTABLE definition (type, module,
+    ordered targets, policy) committed once alongside the first target's
+    manifest. Progress is DERIVED from merged-PR evidence (the manifest at
+    origin/main), never stored: there is no runtime state to mutate, so
+    completing the final target leaves a clean tree and nothing ever needs
+    a direct push to main. Resuming after a container or session recycle
+    needs only a fresh clone: derivation is a pure function of the
+    definition and origin/main."""
+    qpath = Path(opts.file) if opts.file else QUEUE_PATH
+    if opts.advance:
+        sys.exit("ERROR: --advance is retired. Queue progress is derived from merged PR "
+                 "evidence (origin/main:.worker-manifest.json); there is no runtime state "
+                 "to mutate, no completion commit, and never a direct push to main.")
+    if opts.targets:
+        if not opts.type:
+            sys.exit("ERROR: queue creation requires --type")
+        types = load_registry()
+        if opts.type not in types:
+            sys.exit(f"ERROR: unknown task type {opts.type!r}")
+        targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
+        for t in targets:
+            if not (YROOT / "assets" / "talmuddev" / f"{t}.json").exists():
+                sys.exit(f"ERROR: {t}: no talmuddev source")
+        q = {"type": opts.type, "module": opts.module, "targets": targets,
+             "policy": "stop-on-escalation"}
+        qpath.write_text(json.dumps(q, indent=1) + "\n")
+        print(f"queue definition written to {qpath}: {len(targets)} target(s), one PR per "
+              "target, sequential merge+deploy, stop-on-escalation. Commit it with the "
+              "FIRST target's manifest commit; it is immutable afterward (progress is "
+              "derived from merged PRs, never written back).")
+        return
+    if not qpath.exists():
+        sys.exit(f"ERROR: no queue at {qpath}; create one with --type/--targets")
+    q = json.loads(qpath.read_text())
+    done, remaining = derive_queue_progress(q, merged_manifest_evidence(opts.evidence))
+    print(f"queue: type {q['type']}, module {q['module']}, policy {q['policy']}")
+    print(f"done (derived from merged PRs): {done or 'none'} | remaining: {remaining or 'none'}")
+    if remaining:
+        nxt = remaining[0]
+        print(f"\nNext target: {nxt}. One PR for this daf only. Before starting, verify the")
+        print("previous merge's deploy workflows are green, then run the read-only capability")
+        print("scan across the remaining queue once per campaign (not per daf) to catch any")
+        print("unsupported anchor-cardinality or packet-completeness state before content work:")
+        print(f"  npm run worker:capability-scan -- --targets {','.join(remaining)}")
+        print("If it reports UNSUPPORTED for any target, stop and escalate; do not edit content")
+        print("for that daf until the tooling gap is resolved. Otherwise, command sequence:")
+        print(f"  npm run worker:manifest -- --type {q['type']} --module {q['module']} "
+              f"--range {nxt} --out .worker-manifest.json")
+        print("  npm run worker:preflight -- --manifest .worker-manifest.json")
+        print("  npm run worker:packet -- --manifest .worker-manifest.json")
+        print("  npm run worker:prompt -- --manifest .worker-manifest.json")
+        print("  (edit, regenerate, VERSION bump, self-review, verify --fast/--full, PR, CI)")
+        print("  npm run worker:review -- --manifest .worker-manifest.json")
+        print("  (merge when eligible AND CI green; verify all deploy workflows; then rerun")
+        print("   npm run worker:queue, and progress advances automatically from the merge)")
+        print("Stop the queue on ANY escalation condition; do not continue past it.")
+    else:
+        print("\nQueue complete. No queue-state commit is needed and the tree stays clean:")
+        print("completion is derived from merged PR evidence, never pushed to main.")
+
+
+# ---------------- capability-scan ----------------
+
+def capability_report_for(daf):
+    """Read-only per-daf capability assessment: never edits content.
+    Classifies the daf's raw Hebrew by anchor cardinality (ZERO, ONE,
+    MULTI), confirms packet/local-segment completeness, and states
+    whether the current review-gate tiers can represent a legitimate
+    AUTO-MERGE-ELIGIBLE final state for it. Returns a plain dict (JSON-
+    serializable) so a whole queue's results can be reported together."""
+    sys.path.insert(0, str(YSCRIPTS))
+    import make_rashi_work_packet as mrwp
+    import audit_rashi_semantic as ars
+
+    tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
+    lpath = YROOT / "assets" / "learning" / "yoma" / f"{daf}.learning.json"
+    entry = {"daf": daf, "supported": False, "issues": []}
+    if not tpath.exists():
+        entry["issues"].append("no talmuddev source")
+        return entry
+    if not lpath.exists():
+        entry["issues"].append("no learning JSON")
+        return entry
+
+    try:
+        raw = [l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()]
+    except json.JSONDecodeError as ex:
+        entry["issues"].append(f"talmuddev source unparseable: {ex}")
+        return entry
+    try:
+        trans = json.loads(lpath.read_text()).get("rashiTranslations", [])
+    except json.JSONDecodeError as ex:
+        entry["issues"].append(f"learning JSON unparseable: {ex}")
+        return entry
+
+    entry["rawCount"] = len(raw)
+    entry["translationCount"] = len(trans)
+    if len(raw) != len(trans):
+        entry["issues"].append(f"raw count {len(raw)} != translation count {len(trans)}")
+    seq_ok = [e.get("vilnaLine") for e in trans] == list(range(1, len(raw) + 1))
+    entry["sequenceOk"] = seq_ok
+    if not seq_ok:
+        entry["issues"].append("vilnaLine sequence does not match 1..raw count")
+
+    try:
+        segs = mrwp.local_segments_for(daf)
+        entry["localSegmentIds"] = len(segs)
+        empty_he = [s["id"] for s in segs if not (s.get("he") or "").strip()]
+        if empty_he:
+            entry["issues"].append(f"local segment(s) with empty Hebrew text: {empty_he}")
+        if not segs:
+            entry["issues"].append("zero local segment ids (packet cannot anchor any link)")
+    except Exception as ex:  # noqa: BLE001 - report, never crash the scan
+        entry["issues"].append(f"packet/local-segment extraction failed: {ex}")
+
+    prof = ars.profile_daf(daf, ars.load_allowlisted())
+    if not prof:
+        entry["issues"].append("no drift profile available")
+        return entry
+    n_anchors = len(prof.get("anchors", []))
+    entry["classification"] = prof["classification"]
+    entry["anchorCount"] = n_anchors
+    entry["anchorsFound"] = prof.get("anchorsFound")
+    entry["anchorsMissing"] = prof.get("anchorsMissing")
+    entry["cardinality"] = "ZERO" if n_anchors == 0 else ("ONE" if n_anchors == 1 else "MULTI")
+
+    if prof["classification"] == "SHIFTED":
+        entry["issues"].append("current profile is SHIFTED (needs rashi-realignment content work first)")
+    elif prof["classification"] == "FABRICATION-SUSPECT":
+        entry["issues"].append("current profile is FABRICATION-SUSPECT (needs rashi-reconstruction "
+                                "content work first)")
+
+    if entry["cardinality"] == "ZERO":
+        scan_ok, scan_detail = independent_zero_citation_scan(daf)
+        entry["independentZeroScan"] = scan_detail
+        if not scan_ok:
+            entry["issues"].append(f"independent second scan disagrees with ZERO cardinality: "
+                                    f"{scan_detail}")
+
+    entry["supportedFinalStates"] = {
+        "ZERO": "zero-anchor-safe (requires full-daf self-review attestation)",
+        "ONE": "one-anchor-safe (requires one-anchor self-review attestation)",
+        "MULTI": "multi-anchor-safe (requires ALIGNED, zero missing, all offsets 0)",
+    }[entry["cardinality"]]
+    entry["supported"] = not any(
+        "unparseable" in i or "no talmuddev" in i or "no learning JSON" in i
+        or "no drift profile" in i or "empty Hebrew text" in i
+        or "zero local segment ids" in i or "independent second scan disagrees" in i
+        for i in entry["issues"])
+    return entry
+
+
+def cmd_capability_scan(opts):
+    """Read-only preflight over an entire target list (or the tracked
+    queue): classifies every daf by anchor cardinality, confirms packet
+    and local-segment completeness, and states whether the review-gate
+    evidence tiers can represent a legitimate final state for it. Never
+    edits content. Exits 1 if any target is unsupported, so a campaign
+    can be blocked before the first content PR rather than discovering a
+    tooling gap mid-queue."""
+    if opts.targets:
+        targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
+    else:
+        qpath = Path(opts.file) if opts.file else QUEUE_PATH
+        if not qpath.exists():
+            sys.exit(f"ERROR: no --targets given and no queue at {qpath}")
+        targets = json.loads(qpath.read_text())["targets"]
+
+    report = [capability_report_for(d) for d in targets]
+    unsupported = [r for r in report if not r["supported"]]
+
+    print(f"Campaign capability scan ({len(targets)} target(s)):\n")
+    for r in report:
+        status = "OK" if r["supported"] else "UNSUPPORTED"
+        card = r.get("cardinality", "?")
+        print(f"  {status:11s} {r['daf']:6s} cardinality={card:5s} "
+              f"raw={r.get('rawCount', '?')} trans={r.get('translationCount', '?')} "
+              f"segIds={r.get('localSegmentIds', '?')} class={r.get('classification', '?')}")
+        for issue in r["issues"]:
+            print(f"               note: {issue}")
+
+    if opts.json:
+        print("\n" + json.dumps(report, indent=1))
+
+    if unsupported:
+        print(f"\n{len(unsupported)} unsupported target(s): {[r['daf'] for r in unsupported]}")
+        print("FAILED: campaign cannot represent a legitimate final state for every target above.")
+        sys.exit(1)
+    print(f"\nOK: all {len(targets)} target(s) can reach a supported final review-gate state "
+          "(ZERO/ONE/MULTI anchor cardinality all covered).")
 
 
 # ---------------- schema-matrix ----------------
@@ -592,7 +1648,7 @@ def cmd_schema_matrix(opts):
             continue
         owners, flag_owners = [], []
         if path in RASHI_MUTABLE:
-            owners += ["rashi-repair", "rashi-reconstruction", "placeholder-backfill"]
+            owners += ["rashi-repair", "rashi-reconstruction", "rashi-realignment", "placeholder-backfill"]
         ptr = "/" + "/".join(seg.replace("[*]", "/0") for seg in path.split("."))
         for tname, tspec in types.items():
             scope = tspec.get("jsonScope")
@@ -651,11 +1707,19 @@ def cmd_docs(opts):
         L.append("")
         L.append(s["description"])
         L.append("")
+        pol = review_policy_of(s)
+        pol_txt = {"fable": "; Fable review required",
+                   "conditional": f"; review: conditional auto-merge gate (worker self-review "
+                                  f"+ worker:review; escalation to {s.get('escalationModel', 'fable')})",
+                   "none": ""}[pol]
         L.append(f"- model: {s['model']}"
                  + ("; PAUSED" if s.get("paused") else "")
-                 + (f"; Fable review required" if s.get("fableReviewRequired") else ""))
+                 + pol_txt)
         L.append(f"- haiku allowed: {'yes' if s.get('haikuAllowed') or s.get('model') in ('haiku', 'haiku-with-fable-review') else 'no'}")
         L.append(f"- max batch: {s.get('maxBatch', 1 if s.get('requiresTarget') else 'n/a')}")
+        if s.get("requiredAuthorizations"):
+            L.append(f"- REQUIRED authorization: {', '.join(s['requiredAuthorizations'])} "
+                     f"(Fable-issued; preflight fails without it)")
         L.append(f"- allowed files: {', '.join(s['allowedFiles']) or 'none (read-only task)'}")
         if s.get("jsonScope"):
             L.append(f"- mutable JSON paths: {', '.join(s['jsonScope']['mutable'])}")
@@ -713,6 +1777,8 @@ def cmd_report(opts):
         "filesChanged": changed,
         "allowlistDelta": {"before": old_n, "after": new_n},
         "fableReviewRequired": m.get("fableReviewRequired", False),
+        "reviewPolicy": review_policy_of(spec),
+        "selfReviewRecorded": SELF_REVIEW_PATH.exists(),
         "prNumber": "<fill after PR creation>",
         "mergeCommit": "<fill after merge>",
         "gates": "<fill: verify --full result>",
@@ -783,6 +1849,13 @@ def main():
     p.add_argument("--authorize", action="append", default=None,
                    help="grant an optional authorization defined by the task type "
                         "(e.g. authorizeQuizSeeds); repeatable; Fable-issued only")
+    p.add_argument("--drain-allowlist", action="store_true",
+                   help="snapshot the target daf's CURRENT pre-existing content-allowlist "
+                        "entries into the manifest, authorizing preflight to start "
+                        "rashi-reconstruction/rashi-realignment despite that debt (single "
+                        "target only); the snapshot is repair debt to eliminate, not an "
+                        "exemption, and worker:verify fails if any snapshotted entry is not "
+                        "cleanly removed as validator-confirmed stale")
 
     for name in ("preflight", "packet", "prompt"):
         p = sub.add_parser(name)
@@ -803,6 +1876,27 @@ def main():
     p = sub.add_parser("ci-check")
     p.add_argument("--base", default=None)
 
+    p = sub.add_parser("review")
+    p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
+    p.add_argument("--base", default=None)
+
+    p = sub.add_parser("queue")
+    p.add_argument("--type", default=None)
+    p.add_argument("--module", default="yoma")
+    p.add_argument("--targets", default=None,
+                   help="comma-separated ordered daf list; creates/overwrites the queue")
+    p.add_argument("--advance", default=None,
+                   help="RETIRED: progress derives from merged PR evidence; this flag only errors")
+    p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
+    p.add_argument("--evidence", default=None,
+                   help="test override: read merged-manifest evidence from FILE instead of origin/main")
+
+    p = sub.add_parser("capability-scan")
+    p.add_argument("--targets", default=None,
+                   help="comma-separated daf list; defaults to the tracked queue's targets")
+    p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
+    p.add_argument("--json", action="store_true")
+
     p = sub.add_parser("report")
     p.add_argument("--manifest", default=str(MANIFEST_DEFAULT))
 
@@ -814,7 +1908,8 @@ def main():
     opts = ap.parse_args()
     {"manifest": cmd_manifest, "preflight": cmd_preflight, "packet": cmd_packet,
      "prompt": cmd_prompt, "verify": cmd_verify, "scope": cmd_scope,
-     "ci-check": cmd_ci_check, "report": cmd_report,
+     "ci-check": cmd_ci_check, "report": cmd_report, "review": cmd_review,
+     "queue": cmd_queue, "capability-scan": cmd_capability_scan,
      "schema-matrix": cmd_schema_matrix, "docs": cmd_docs}[opts.cmd](opts)
 
 

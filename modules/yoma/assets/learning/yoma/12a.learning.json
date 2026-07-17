@@ -1,299 +1,888 @@
 {
-  "daf": "12a",
-  "canonicalRef": "Yoma 12a",
-  "summary": "12a opens by completing the synagogue/tzaraat discussion from 11b: the underlying dispute (R. Yehuda vs. Tanna Kama) about whether Jerusalem was divided among the tribes determines tzaraat law for city synagogues. A baraita then details which parts of the Temple precinct were in Judah's portion and which in Benjamin's portion. The daf then returns to the mishna: how is a replacement High Priest initiated if the original Cohen Gadol is disqualified? If before the tamid offering, he performs it in eight garments; proposals for initiating him mid-ceremony lead to a debate between Rav Adda and Abaye about whether a belt or the full set of eight garments (plus the tzinnora, a fork-like instrument) is required.",
-  "review": {
-    "learning": "ai_generated",
-    "concepts": "ai_generated",
-    "argumentFlow": "ai_generated",
-    "sourceRefs": "ai_generated"
-  },
-  "sugyot": [
+ "daf": "12a",
+ "canonicalRef": "Yoma 12a",
+ "summary": "12a opens by completing the synagogue/tzaraat discussion from 11b: the underlying dispute (R. Yehuda vs. Tanna Kama) about whether Jerusalem was divided among the tribes determines tzaraat law for city synagogues. A baraita then details which parts of the Temple precinct were in Judah's portion and which in Benjamin's portion. The daf then returns to the mishna: how is a replacement High Priest initiated if the original Cohen Gadol is disqualified? If before the tamid offering, he performs it in eight garments; proposals for initiating him mid-ceremony lead to a debate between Rav Adda and Abaye about whether a belt or the full set of eight garments (plus the tzinnora, a fork-like instrument) is required.",
+ "review": {
+  "learning": "ai_generated",
+  "concepts": "ai_generated",
+  "argumentFlow": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-012a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 30
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-012a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        { "vilnaLine": 1, "sefariaRef": "Yoma.12a.1" },
-        { "vilnaLine": 1, "sefariaRef": "Yoma.12a.2" },
-        { "vilnaLine": 8, "sefariaRef": "Yoma.12a.3" },
-        { "vilnaLine": 10, "sefariaRef": "Yoma.12a.4" },
-        { "vilnaLine": 17, "sefariaRef": "Yoma.12a.5" },
-        { "vilnaLine": 19, "sefariaRef": "Yoma.12a.6" },
-        { "vilnaLine": 26, "sefariaRef": "Yoma.12a.7" },
-        { "vilnaLine": 30, "sefariaRef": "Yoma.12a.8" }
-      ],
-      "display": {
-        "title": "Cities vs. villages: was Jerusalem divided among the tribes?",
-        "oneLine": "The underlying dispute about whether Jerusalem was divided among the tribes determines tzaraat law for city synagogues, and a baraita details which Temple areas fell in Judah's vs. Benjamin's portion.",
-        "shortSummary": "The Gemara completes the synagogue-tzaraat discussion by identifying the underlying dispute: R. Yehuda holds Jerusalem was divided among the tribes (enabling private ownership and thus tzaraat); Tanna Kama holds it was not divided (no private ownership, so city synagogues may not receive tzaraat). A baraita elaborates on this by mapping specific Temple structures to either Judah's or Benjamin's portion: the Chamber of Hewn Stone (Lishkat HaGazit) was in Judah's portion, while the Altar, Temple building (Heikhal), and Holy of Holies were in Benjamin's portion - a remarkable detail showing the Temple straddled two tribal territories. This historical detail affects which tribe is said to have 'hosted' the Avodah.",
-        "whats": "The tribal-geography discussion is not just historical curiosity - it has direct halakhic stakes for tzaraat of city buildings and carries theological weight about which tribe merited which sacred function. Benjamin, who never bowed to Esau (unlike his father Jacob), merited hosting the Shechina; Judah hosted the judicial center.",
-        "hint": "The Temple straddled two tribal portions. Ask yourself: why does the Gemara need to know exactly which structures fell in which tribe's land? The answer is usually halakhic (tzaraat, ownership) or theological (merit and reward)."
-      },
-      "learning": {
-        "learnerQuestion": "Was Jerusalem divided among the tribes, and why does the answer matter for halakha?",
-        "coreTension": "If Jerusalem was not divided (Tanna Kama), then land in Jerusalem is communally owned - and structures there cannot receive tzaraat, which requires private ownership. If it was divided (R. Yehuda), private owners exist and tzaraat applies. The dispute is not about history but about property law.",
-        "coreMove": "The Gemara identifies the two positions as a tannaitic dispute and then illustrates R. Yehuda's position with a baraita that specifically maps Temple structures to their tribal portions. The baraita presupposes division - it could not list which structure was 'in Judah's portion' if there were no division.",
-        "resolution": "The dispute remains unresolved in the Gemara, with both positions preserved. The baraita supports R. Yehuda's view implicitly. Practically, city synagogues' tzaraat status depends on which position is accepted.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The status of Jerusalem as divided or undivided tribal territory is not a theological abstraction - it determines which buildings in the city are subject to property-based laws like tzaraat. Historical geography shapes contemporary halakha."
-        },
-        "reasoningPattern": {
-          "id": "property-law-from-historical-geography",
-          "category": "halakhic-history",
-          "notes": "Tannaitic dispute about historical fact (tribal division) generates different halakhic outcomes for property law"
-        },
-        "ahaMoment": "The Temple was simultaneously in two tribal territories. Benjamin's altar and heikhal; Judah's courtyard. That means two tribes both 'owned' parts of the central Jewish sacred site - and this division has legal consequences that the Rabbis tracked carefully.",
-        "learningBlocker": "Students may think tribal land division is irrelevant history. The connection to tzaraat and property law shows it is a live halakhic issue in Rabbinic literature.",
-        "memoryAnchor": "Altar in Benjamin; Lishkat HaGazit in Judah. The Temple was split between two tribes - and that split has legal consequences."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "dispute",
-          "label": "Was Jerusalem divided among the tribes?",
-          "speaker": "R. Yehuda / Tanna Kama",
-          "text": "Tanna Kama: Jerusalem was not divided - collective ownership. R. Yehuda: it was divided - private owners exist. This determines tzaraat law for city synagogues.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l01", "vilnaLine": 1, "note": "The tribal division dispute" }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "proof",
-          "label": "Baraita: Temple structures mapped to tribal portions",
-          "speaker": "Baraita",
-          "text": "A baraita details which Temple structures were in Judah's portion (Lishkat HaGazit) and which in Benjamin's portion (Altar, Heikhal, Holy of Holies). This presupposes R. Yehuda's position of division.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l08", "vilnaLine": 8, "note": "Baraita on tribal portions" },
-            { "sourceType": "gemara", "lineId": "yoma-012a-l10", "vilnaLine": 10, "note": "Specific structures listed" }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "elaboration",
-          "label": "Why each tribe received its portion",
-          "speaker": "Gemara",
-          "text": "The Gemara notes theological reasons: Benjamin merited the Altar and Heikhal because he never bowed to Esau; Judah merited the judicial center (Lishkat HaGazit) for his leadership role.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l17", "vilnaLine": 17, "note": "Merit-based reasoning" },
-            { "sourceType": "gemara", "lineId": "yoma-012a-l19", "vilnaLine": 19, "note": "Benjamin's merit" }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "conclusion",
-          "label": "Implications for city synagogue tzaraat",
-          "speaker": "Gemara",
-          "text": "Based on the tribal division, R. Yehuda can hold that city synagogues (where private ownership exists) are susceptible to tzaraat. Tanna Kama, who denies the division, would disagree.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l26", "vilnaLine": 26, "note": "Connecting back to tzaraat" },
-            { "sourceType": "gemara", "lineId": "yoma-012a-l30", "vilnaLine": 30, "note": "Practical implication" }
-          ]
-        }
-      ],
-      "topicTags": ["Jerusalem", "tribal division", "tzaraat", "Benjamin", "Judah", "Temple geography"],
-      "concepts": [
-        { "he": "לִשְׁכַּת הַגָּזִית", "translit": "Lishkat HaGazit", "definition": "The Chamber of Hewn Stone; the seat of the Sanhedrin in the Temple complex, located in Judah's tribal portion according to the baraita." },
-        { "he": "חֵלֶק שֶׁל בִּנְיָמִין", "translit": "Chelek shel Binyamin", "definition": "Benjamin's tribal portion in Jerusalem; according to R. Yehuda's view of the division, the Altar, Heikhal, and Holy of Holies stood in Benjamin's portion." }
-      ],
-      "conceptRefs": [],
-      "requiresUnderstanding": ["The tribal allocation of Eretz Yisrael", "The tzaraat of buildings law requiring private ownership", "The layout of the Temple complex"],
-      "misconceptions": [
-        { "misconception": "The tribal geography of Jerusalem is purely historical and not relevant to halakha.", "correction": "It directly affects property law in Jerusalem, including which structures are subject to tzaraat and other ownership-based obligations." }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": ["Temple map with tribal boundary line showing Judah/Benjamin division", "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"],
-      "quizSeeds": [
-        { "question": "According to the baraita, whose tribal portion contained the Altar and Heikhal?", "answer": "Benjamin's tribal portion." },
-        { "question": "How does the tribal division question connect to the synagogue tzaraat dispute?", "answer": "Tzaraat requires private ownership. If Jerusalem was divided (R. Yehuda), owners exist and tzaraat can apply to city synagogues. If not divided (Tanna Kama), collective ownership means no tzaraat for city synagogues." }
-      ],
-      "finalRuling": null,
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "sefariaRefs": ["Yoma.12a.1", "Yoma.12a.2", "Yoma.12a.3", "Yoma.12a.4", "Yoma.12a.5", "Yoma.12a.6", "Yoma.12a.7", "Yoma.12a.8"],
-      "review": "ai_generated"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.12a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-012a-s02",
-      "lineRange": {
-        "startVilnaLine": 33,
-        "endVilnaLine": 45
-      },
-      "lines": [
-        { "vilnaLine": 33, "sefariaRef": "Yoma.12a.9" },
-        { "vilnaLine": 36, "sefariaRef": "Yoma.12a.10" },
-        { "vilnaLine": 42, "sefariaRef": "Yoma.12a.11" },
-        { "vilnaLine": 45, "sefariaRef": "Yoma.12a.12" }
-      ],
-      "display": {
-        "title": "Initiating the replacement High Priest: belt and fork",
-        "oneLine": "If the original High Priest is disqualified, how is his replacement initiated? Rav Adda proposes a belt; Abaye proposes eight garments plus a ritual fork (tzinnora).",
-        "shortSummary": "The mishna returns: if the original Cohen Gadol is disqualified before performing the tamid, his replacement performs it in eight garments (the High Priest's vestments). The Gemara now asks: what initiates the replacement as a Cohen Gadol if the disqualification happens mid-ceremony? Rav Adda bar Ahavah proposes: just invest him with the priestly belt, and that single act is sufficient to initiate him as the replacement Cohen Gadol for purposes of the Yom Kippur service. Abaye counters: he needs to wear all eight High Priestly garments, and specifically also the tzinnora (a fork-like ritual instrument) as part of the investiture. Rav Pappa's answer begins at the end of the daf and continues into the next.",
-        "whats": "This sugya addresses a Yom Kippur emergency scenario: what is the minimum required to transform a regular kohen into a functioning Cohen Gadol mid-ceremony? The dispute between Rav Adda (one garment suffices) and Abaye (needs eight plus instrument) reflects a deep question about whether investiture is a formal ceremony or can be reduced to its essential symbolic act.",
-        "hint": "The belt is common to both the regular kohen and the Cohen Gadol. Maybe it is the specific High Priest belt that marks the difference. Or maybe investiture is all or nothing - you cannot be partially a Cohen Gadol."
-      },
-      "learning": {
-        "learnerQuestion": "If the Cohen Gadol becomes disqualified on Yom Kippur, what does his replacement need to do to become the new Cohen Gadol?",
-        "coreTension": "The investiture of a Cohen Gadol is normally a formal weeklong process. In an emergency, the Gemara asks: what is the minimum that transforms a kohen into a Cohen Gadol? Can one garment do it? Does the full set of eight garments plus a ritual instrument need to be worn?",
-        "coreMove": "Rav Adda identifies the belt as the operative investment garment - the single item that marks the transition from regular kohen to Cohen Gadol status. Abaye insists that investiture is not reducible to one garment; the full eight garments plus the tzinnora (ritual fork) are required to properly initiate a replacement.",
-        "resolution": "The dispute is unresolved on this daf. Rav Pappa's answer, which attempts to synthesize or decide between the positions, begins at the daf's end and continues on 12b.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Investiture is both symbolic and functional. The dispute between Rav Adda and Abaye reflects two models: either one garment can represent the full status change (symbolic sufficiency), or the complete set of garments is required because each one contributes to the Cohen Gadol's halakhic standing (functional totality)."
-        },
-        "reasoningPattern": {
-          "id": "minimum-investiture",
-          "category": "halakhic-status",
-          "notes": "Dispute about whether investiture can be reduced to its essential element or requires the full formal ceremony even in emergencies"
-        },
-        "ahaMoment": "The tzinnora (fork) is not one of the regular eight garments - it is an extra item Abaye adds. This suggests Abaye thinks even more than the standard eight is required, perhaps as an additional sign of emergency-appointment status.",
-        "learningBlocker": "Students may not understand why there is a question at all - can't they just put on the garments? The question is about what specifically is required and whether an abbreviated ceremony is valid when time is short.",
-        "memoryAnchor": "Rav Adda: one belt. Abaye: eight garments plus the fork (tzinnora). One man or everything all at once."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "case",
-          "label": "Cohen Gadol disqualified before tamid - replacement performs in eight garments",
-          "speaker": "Mishna",
-          "text": "If the original Cohen Gadol is disqualified before performing the morning tamid, his replacement performs it in eight garments.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l33", "vilnaLine": 33, "note": "Mishna ruling about pre-tamid disqualification" }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "question",
-          "label": "What initiates the replacement mid-ceremony?",
-          "speaker": "Gemara",
-          "text": "If disqualification happens mid-ceremony, how is the replacement formally invested as Cohen Gadol? What is the minimum required to confer the status?",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l36", "vilnaLine": 36, "note": "The investiture question" }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "opinion",
-          "label": "Rav Adda: belt alone suffices",
-          "speaker": "Rav Adda bar Ahavah",
-          "text": "Investing the replacement with the priestly belt is sufficient to confer Cohen Gadol status for the emergency replacement.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l42", "vilnaLine": 42, "note": "Rav Adda's proposal" }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "opinion",
-          "label": "Abaye: eight garments plus tzinnora",
-          "speaker": "Abaye",
-          "text": "The replacement needs all eight High Priestly garments and additionally the tzinnora (a fork-like instrument) to be properly invested as the emergency Cohen Gadol.",
-          "sourceRefs": [
-            { "sourceType": "gemara", "lineId": "yoma-012a-l45", "vilnaLine": 45, "note": "Abaye's counter-proposal" }
-          ]
-        }
-      ],
-      "topicTags": ["Cohen Gadol", "investiture", "Yom Kippur", "eight garments", "tzinnora", "emergency"],
-      "concepts": [
-        { "he": "אַבְנֵט", "translit": "Avnet", "definition": "The priestly belt; worn by both regular kohanim and the Cohen Gadol (with different materials). Rav Adda proposes this single garment can invest a kohen with Cohen Gadol status in an emergency." },
-        { "he": "צִינּוֹרָא", "translit": "Tzinnora", "definition": "A fork-like ritual instrument; Abaye holds this must be part of the emergency investiture along with the full set of eight High Priestly garments." },
-        { "he": "שְׁמוֹנָה בְּגָדִים", "translit": "Shmonah Begadim", "definition": "The eight garments of the High Priest; the full set that the Cohen Gadol wears during the regular Temple service, as distinct from the four white garments of Yom Kippur." }
-      ],
-      "conceptRefs": [],
-      "requiresUnderstanding": ["The investiture process for a Cohen Gadol normally (including the seven-day process)", "The eight garments of the Cohen Gadol and what they symbolize", "The Yom Kippur service structure and why replacing the Cohen Gadol mid-ceremony is a genuine emergency"],
-      "misconceptions": [
-        { "misconception": "Any kohen can substitute for the Cohen Gadol by just showing up.", "correction": "The replacement Cohen Gadol requires formal investiture - the dispute is about what the minimum investiture requires, but it is not optional." }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": ["Diagram of eight Cohen Gadol garments with each labeled", "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"],
-      "quizSeeds": [
-        { "question": "What does Rav Adda bar Ahavah say is sufficient to invest a replacement Cohen Gadol?", "answer": "Investing him with the priestly belt (avnet) alone is sufficient." },
-        { "question": "What does Abaye require for the emergency investiture of a replacement Cohen Gadol?", "answer": "All eight High Priestly garments plus the tzinnora (a fork-like ritual instrument)." }
-      ],
-      "finalRuling": null,
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "sefariaRefs": ["Yoma.12a.9", "Yoma.12a.10", "Yoma.12a.11", "Yoma.12a.12"],
-      "review": "ai_generated"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.12a.2"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.12a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.12a.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.12a.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.12a.6"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.12a.7"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.12a.8"
     }
-  ],
-  "glossary": [
-    { "he": "לִשְׁכַּת הַגָּזִית", "translit": "Lishkat HaGazit", "en": "The Chamber of Hewn Stone; the Sanhedrin's seat in the Temple complex, located in Judah's tribal portion." },
-    { "he": "אַבְנֵט", "translit": "Avnet", "en": "The priestly belt; worn by both regular kohanim and the Cohen Gadol. Rav Adda holds it alone can invest a replacement Cohen Gadol." },
-    { "he": "צִינּוֹרָא", "translit": "Tzinnora", "en": "A fork-like ritual instrument; Abaye holds this is part of the emergency investiture for a replacement Cohen Gadol." },
-    { "he": "שְׁמוֹנָה בְּגָדִים", "translit": "Shmonah Begadim", "en": "The eight garments of the High Priest; the full investiture set required for regular Temple service." }
-  ],
-  "rashiTranslations": [
-    { "vilnaLine": 1, "en": "Rashi: opens with the word 'dekarkhim' (of cities), continuing 11b's truncated final word - a place of marketplaces, where people gather from many places, made available to anyone who comes to pray, with no specific owner.", "linkedGemaraLineIds": ["yoma-012a-l01a"] },
-    { "vilnaLine": 2, "en": "Rashi: closes the cities gloss, then opens on 'dekfarim' (of villages) - all its owners are identifiable, so it is like a house of partners.", "linkedGemaraLineIds": ["yoma-012a-l01a"] },
-    { "vilnaLine": 3, "en": "Rashi: closes the villages gloss, then opens on 'and Jerusalem does not become impure with plagues.'", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 4, "en": "Rashi: continues - since they have no tribal possession there. He holds Jerusalem was not divided to the tribe of Judah and Benjamin.", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 5, "en": "Rashi: continues - but rather all the tribes are equal in it. Then Rashi opens on 'I did not hear.'", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 6, "en": "Rashi: continues - he holds it was divided among the tribes.", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 7, "en": "Rashi: opens on 'except for the site of the Temple alone' - since when.", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 8, "en": "Rashi: continues - David bought the threshing floor from Aravna the Jebusite, he collected.", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 9, "en": "Rashi: continues - the money from each and every tribe, as we say.", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 10, "en": "Rashi: concludes - in Sifrei and in the tractate on the slaughter of consecrated offerings (Zevachim 116b).", "linkedGemaraLineIds": ["yoma-012a-l01b"] },
-    { "vilnaLine": 11, "en": "Rashi: on 'about what do they disagree' - Rabbi Yehuda and the Rabbis.", "linkedGemaraLineIds": ["yoma-012a-l08"] },
-    { "vilnaLine": 12, "en": "Rashi: on 'the Temple Mount, the chambers, and the courtyards' - the eastern side, the width of the Temple Mount.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 13, "en": "Rashi: continues - the entire Women's Courtyard and the entire Israelite Courtyard, eleven cubits.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 14, "en": "Rashi: continues - of the place where the priests' feet tread.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 15, "en": "Rashi: continues - beyond the people's feet, and there the altar.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 16, "en": "Rashi: continues describing the altar's location, transitioning toward the strip of land in Benjamin's portion.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 17, "en": "Rashi: continues from the Temple Mount measurements - the tribal boundary begins from there and goes westward, into the portion of Benjamin.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 18, "en": "Rashi: continues - except that in the place where the altar stood,", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 19, "en": "Rashi: continues - a strip went out from the portion of Judah", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 20, "en": "Rashi: concludes - and entered into the southeastern corner of Benjamin's portion.", "linkedGemaraLineIds": ["yoma-012a-l10"] },
-    { "vilnaLine": 21, "en": "Rashi: on 'chofef' (hovers) - like a person who scratches himself from failing to attain his desire,", "linkedGemaraLineIds": ["yoma-012a-l17"] },
-    { "vilnaLine": 22, "en": "Rashi: continues - the wording used of a nazirite ('lest", "linkedGemaraLineIds": ["yoma-012a-l17"] },
-    { "vilnaLine": 23, "en": "Rashi: concludes the chofef comment - he scratch his head,' Nazir 42a). Then opens 'ushpizchan' (their host) -", "linkedGemaraLineIds": ["yoma-012a-l17"] },
-    { "vilnaLine": 24, "en": "Rashi: on 'ushpizchan' - for the Ark was placed in his (Benjamin's) portion. Then opens 'and this tanna' -", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 25, "en": "Rashi: continues - stated further on, who holds Jerusalem was not divided among the tribes,", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 26, "en": "Rashi: concludes - and this is the same dispute among the tannaim. Then opens 'hides of consecrated offerings' -", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 27, "en": "Rashi: continues - of the peace offerings of the pilgrimage festival and rejoicing, which the pilgrims", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 28, "en": "Rashi: concludes - slaughter and eat there. Then opens 'golfa' (jug) - an earthenware jug", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 29, "en": "Rashi: concludes - of clay. Then opens 'u-maskha' (and the hide) - the hide of an animal,", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 30, "en": "Rashi: concludes - that he slaughters and eats in his host's house.", "linkedGemaraLineIds": ["yoma-012a-l19"] },
-    { "vilnaLine": 31, "en": "Rashi: on 'la'achuzah' (for a possession) - regarding tzara'at it is written (Leviticus 14),", "linkedGemaraLineIds": ["yoma-012a-l26"] },
-    { "vilnaLine": 32, "en": "Rashi: continues - 'which I give to you for a possession,' meaning a house of", "linkedGemaraLineIds": ["yoma-012a-l26"] },
-    { "vilnaLine": 33, "en": "Rashi: concludes - possession. Then opens 'to the paternal houses' - meaning to families.", "linkedGemaraLineIds": ["yoma-012a-l26"] },
-    { "vilnaLine": 34, "en": "Rashi: on 'and each individual does not (recognize his own)' - that they did not divide", "linkedGemaraLineIds": ["yoma-012a-l26"] },
-    { "vilnaLine": 35, "en": "Rashi: concludes - the family's possession among its individual men. Then opens 'as we answered' -", "linkedGemaraLineIds": ["yoma-012a-l30"] },
-    { "vilnaLine": 36, "en": "Rashi: concludes - originally, that it has dwelling in it (individual family ownership).", "linkedGemaraLineIds": ["yoma-012a-l30"] },
-    { "vilnaLine": 37, "en": "Rashi: on 'disqualification befell (him)' - in the Cohen Gadol, disqualification on Yom Kippur", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 38, "en": "Rashi: continues - before the morning tamid, they induct him:", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 39, "en": "Rashi: continues - the one serving in his stead, in the morning tamid,", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 40, "en": "Rashi: continues - that he performs the morning tamid in eight", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 41, "en": "Rashi: continues - garments, and he becomes inducted to the High Priesthood", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 42, "en": "Rashi: concludes - before the Yom Kippur service arrives.", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 43, "en": "Rashi: on 'with what does one induct him' - behold, the service of the day", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 44, "en": "Rashi: continues - of Yom Kippur, which comes after the tamid, is in four", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 45, "en": "Rashi: continues - garments, and by what is he recognized that he", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 46, "en": "Rashi: continues - is ever a Cohen Gadol, and where did he emerge from being a common priest,", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 47, "en": "Rashi: continues - such that the day's service should be performed by a", "linkedGemaraLineIds": ["yoma-012a-l33"] },
-    { "vilnaLine": 48, "en": "Rashi: concludes - genuine Cohen Gadol. Then opens 'with the belt' - in those four garments", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 49, "en": "Rashi: continues - themselves there is a mark of the High Priesthood, for the belt of", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 50, "en": "Rashi: continues - the Cohen Gadol in the Yom Kippur service is of linen,", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 51, "en": "Rashi: continues - as it is written (Leviticus 16), 'and with a linen belt he shall gird,'", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 52, "en": "Rashi: continues - and this one, until now, was accustomed to serve in a", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 53, "en": "Rashi: concludes - kilayim belt. Then opens 'this works out well according to the one who says the belt of the'", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 54, "en": "Rashi: continues - Cohen Gadol - throughout the year was of kilayim,", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 55, "en": "Rashi: continues - as it is written, 'and the belt of fine twisted linen'", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 56, "en": "Rashi: concludes - and blue wool. Then opens 'this is the belt of the common priest' - since there is no", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 57, "en": "Rashi: continues - distinction in their belts through the year, there is a mark on Yom Kippur", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 58, "en": "Rashi: continues - specifically through the belt, because the Cohen Gadol's belt changes on Yom Kippur", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 59, "en": "Rashi: concludes - to become linen. Then opens 'but according to the one who says' - further on, the belt of the Cohen Gadol", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 60, "en": "Rashi: continues - throughout the year is not that of the common priest, since the common priest's is linen, so their belts turn out", "linkedGemaraLineIds": ["yoma-012a-l36"] },
-    { "vilnaLine": 61, "en": "Rashi: concludes - equal on Yom Kippur, and what mark of High Priesthood remains for this replacement. Then opens 'Abaye said' -", "linkedGemaraLineIds": ["yoma-012a-l42"] },
-    { "vilnaLine": 62, "en": "Rashi: continues - before he begins the day's service, which is in garments equal to the common priest's,", "linkedGemaraLineIds": ["yoma-012a-l42"] },
-    { "vilnaLine": 63, "en": "Rashi: continues - he wears the eight garments and turns over, on the outer altar, one of the limbs of the tamid offering", "linkedGemaraLineIds": ["yoma-012a-l42"] },
-    { "vilnaLine": 64, "en": "Rashi: continues - with an iron fork, since it is bringing the service near, for it hastens the limb's burning through this turning, and it is counted as service, following Rav Huna, so he is found to have been inducted to the High Priesthood", "linkedGemaraLineIds": ["yoma-012a-l42"] },
-    { "vilnaLine": 65, "en": "Rashi: concludes - beforehand. Then opens 'with a tzinnora' - with a fork. Then 'liable for death' - because of 'and the stranger who approaches shall be put to death' (Numbers 18), showing that bringing the service near is counted as full service.", "linkedGemaraLineIds": ["yoma-012a-l42"] },
-    { "vilnaLine": 66, "en": "Rashi: opens with the word 'avodato' (his service), the start of a comment that continues onto the next daf (12b), where it explains Rav Pappa's resolution of the belt dispute: the replacement's performance of the Yom Kippur service itself is what inducts him as Cohen Gadol, with no separate ceremony required.", "linkedGemaraLineIds": ["yoma-012a-l45"] }
-  ]
+   ],
+   "display": {
+    "title": "Cities vs. villages: was Jerusalem divided among the tribes?",
+    "oneLine": "The underlying dispute about whether Jerusalem was divided among the tribes determines tzaraat law for city synagogues, and a baraita details which Temple areas fell in Judah's vs. Benjamin's portion.",
+    "shortSummary": "The Gemara completes the synagogue-tzaraat discussion by identifying the underlying dispute: R. Yehuda holds Jerusalem was divided among the tribes (enabling private ownership and thus tzaraat); Tanna Kama holds it was not divided (no private ownership, so city synagogues may not receive tzaraat). A baraita elaborates on this by mapping specific Temple structures to either Judah's or Benjamin's portion: the Chamber of Hewn Stone (Lishkat HaGazit) was in Judah's portion, while the Altar, Temple building (Heikhal), and Holy of Holies were in Benjamin's portion - a remarkable detail showing the Temple straddled two tribal territories. This historical detail affects which tribe is said to have 'hosted' the Avodah.",
+    "whats": "The tribal-geography discussion is not just historical curiosity - it has direct halakhic stakes for tzaraat of city buildings and carries theological weight about which tribe merited which sacred function. Benjamin, who never bowed to Esau (unlike his father Jacob), merited hosting the Shechina; Judah hosted the judicial center.",
+    "hint": "The Temple straddled two tribal portions. Ask yourself: why does the Gemara need to know exactly which structures fell in which tribe's land? The answer is usually halakhic (tzaraat, ownership) or theological (merit and reward)."
+   },
+   "learning": {
+    "learnerQuestion": "Was Jerusalem divided among the tribes, and why does the answer matter for halakha?",
+    "coreTension": "If Jerusalem was not divided (Tanna Kama), then land in Jerusalem is communally owned - and structures there cannot receive tzaraat, which requires private ownership. If it was divided (R. Yehuda), private owners exist and tzaraat applies. The dispute is not about history but about property law.",
+    "coreMove": "The Gemara identifies the two positions as a tannaitic dispute and then illustrates R. Yehuda's position with a baraita that specifically maps Temple structures to their tribal portions. The baraita presupposes division - it could not list which structure was 'in Judah's portion' if there were no division.",
+    "resolution": "The dispute remains unresolved in the Gemara, with both positions preserved. The baraita supports R. Yehuda's view implicitly. Practically, city synagogues' tzaraat status depends on which position is accepted.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The status of Jerusalem as divided or undivided tribal territory is not a theological abstraction - it determines which buildings in the city are subject to property-based laws like tzaraat. Historical geography shapes contemporary halakha."
+    },
+    "reasoningPattern": {
+     "id": "property-law-from-historical-geography",
+     "category": "halakhic-history",
+     "notes": "Tannaitic dispute about historical fact (tribal division) generates different halakhic outcomes for property law"
+    },
+    "ahaMoment": "The Temple was simultaneously in two tribal territories. Benjamin's altar and heikhal; Judah's courtyard. That means two tribes both 'owned' parts of the central Jewish sacred site - and this division has legal consequences that the Rabbis tracked carefully.",
+    "learningBlocker": "Students may think tribal land division is irrelevant history. The connection to tzaraat and property law shows it is a live halakhic issue in Rabbinic literature.",
+    "memoryAnchor": "Altar in Benjamin; Lishkat HaGazit in Judah. The Temple was split between two tribes - and that split has legal consequences."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "dispute",
+     "label": "Was Jerusalem divided among the tribes?",
+     "speaker": "R. Yehuda / Tanna Kama",
+     "text": "Tanna Kama: Jerusalem was not divided - collective ownership. R. Yehuda: it was divided - private owners exist. This determines tzaraat law for city synagogues.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l01",
+       "vilnaLine": 1,
+       "note": "The tribal division dispute"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "proof",
+     "label": "Baraita: Temple structures mapped to tribal portions",
+     "speaker": "Baraita",
+     "text": "A baraita details which Temple structures were in Judah's portion (Lishkat HaGazit) and which in Benjamin's portion (Altar, Heikhal, Holy of Holies). This presupposes R. Yehuda's position of division.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l08",
+       "vilnaLine": 8,
+       "note": "Baraita on tribal portions"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l10",
+       "vilnaLine": 10,
+       "note": "Specific structures listed"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "elaboration",
+     "label": "Why each tribe received its portion",
+     "speaker": "Gemara",
+     "text": "The Gemara notes theological reasons: Benjamin merited the Altar and Heikhal because he never bowed to Esau; Judah merited the judicial center (Lishkat HaGazit) for his leadership role.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l17",
+       "vilnaLine": 17,
+       "note": "Merit-based reasoning"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l19",
+       "vilnaLine": 19,
+       "note": "Benjamin's merit"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "Implications for city synagogue tzaraat",
+     "speaker": "Gemara",
+     "text": "Based on the tribal division, R. Yehuda can hold that city synagogues (where private ownership exists) are susceptible to tzaraat. Tanna Kama, who denies the division, would disagree.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l26",
+       "vilnaLine": 26,
+       "note": "Connecting back to tzaraat"
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l30",
+       "vilnaLine": 30,
+       "note": "Practical implication"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Jerusalem",
+    "tribal division",
+    "tzaraat",
+    "Benjamin",
+    "Judah",
+    "Temple geography"
+   ],
+   "concepts": [
+    {
+     "he": "לִשְׁכַּת הַגָּזִית",
+     "translit": "Lishkat HaGazit",
+     "definition": "The Chamber of Hewn Stone; the seat of the Sanhedrin in the Temple complex, located in Judah's tribal portion according to the baraita."
+    },
+    {
+     "he": "חֵלֶק שֶׁל בִּנְיָמִין",
+     "translit": "Chelek shel Binyamin",
+     "definition": "Benjamin's tribal portion in Jerusalem; according to R. Yehuda's view of the division, the Altar, Heikhal, and Holy of Holies stood in Benjamin's portion."
+    }
+   ],
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "The tribal allocation of Eretz Yisrael",
+    "The tzaraat of buildings law requiring private ownership",
+    "The layout of the Temple complex"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The tribal geography of Jerusalem is purely historical and not relevant to halakha.",
+     "correction": "It directly affects property law in Jerusalem, including which structures are subject to tzaraat and other ownership-based obligations."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "Temple map with tribal boundary line showing Judah/Benjamin division",
+    "List: Altar (Benjamin) vs. Lishkat HaGazit (Judah)"
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to the baraita, whose tribal portion contained the Altar and Heikhal?",
+     "answer": "Benjamin's tribal portion."
+    },
+    {
+     "question": "How does the tribal division question connect to the synagogue tzaraat dispute?",
+     "answer": "Tzaraat requires private ownership. If Jerusalem was divided (R. Yehuda), owners exist and tzaraat can apply to city synagogues. If not divided (Tanna Kama), collective ownership means no tzaraat for city synagogues."
+    }
+   ],
+   "finalRuling": null,
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "sefariaRefs": [
+    "Yoma.12a.1",
+    "Yoma.12a.2",
+    "Yoma.12a.3",
+    "Yoma.12a.4",
+    "Yoma.12a.5",
+    "Yoma.12a.6",
+    "Yoma.12a.7",
+    "Yoma.12a.8"
+   ],
+   "review": "ai_generated"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-012a-s02",
+   "lineRange": {
+    "startVilnaLine": 33,
+    "endVilnaLine": 45
+   },
+   "lines": [
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.12a.9"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.12a.10"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.12a.11"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.12a.12"
+    }
+   ],
+   "display": {
+    "title": "Initiating the replacement High Priest: belt and fork",
+    "oneLine": "If the original High Priest is disqualified, how is his replacement initiated? Rav Adda proposes a belt; Abaye proposes eight garments plus a ritual fork (tzinnora).",
+    "shortSummary": "The mishna returns: if the original Cohen Gadol is disqualified before performing the tamid, his replacement performs it in eight garments (the High Priest's vestments). The Gemara now asks: what initiates the replacement as a Cohen Gadol if the disqualification happens mid-ceremony? Rav Adda bar Ahavah proposes: just invest him with the priestly belt, and that single act is sufficient to initiate him as the replacement Cohen Gadol for purposes of the Yom Kippur service. Abaye counters: he needs to wear all eight High Priestly garments, and specifically also the tzinnora (a fork-like ritual instrument) as part of the investiture. Rav Pappa's answer begins at the end of the daf and continues into the next.",
+    "whats": "This sugya addresses a Yom Kippur emergency scenario: what is the minimum required to transform a regular kohen into a functioning Cohen Gadol mid-ceremony? The dispute between Rav Adda (one garment suffices) and Abaye (needs eight plus instrument) reflects a deep question about whether investiture is a formal ceremony or can be reduced to its essential symbolic act.",
+    "hint": "The belt is common to both the regular kohen and the Cohen Gadol. Maybe it is the specific High Priest belt that marks the difference. Or maybe investiture is all or nothing - you cannot be partially a Cohen Gadol."
+   },
+   "learning": {
+    "learnerQuestion": "If the Cohen Gadol becomes disqualified on Yom Kippur, what does his replacement need to do to become the new Cohen Gadol?",
+    "coreTension": "The investiture of a Cohen Gadol is normally a formal weeklong process. In an emergency, the Gemara asks: what is the minimum that transforms a kohen into a Cohen Gadol? Can one garment do it? Does the full set of eight garments plus a ritual instrument need to be worn?",
+    "coreMove": "Rav Adda identifies the belt as the operative investment garment - the single item that marks the transition from regular kohen to Cohen Gadol status. Abaye insists that investiture is not reducible to one garment; the full eight garments plus the tzinnora (ritual fork) are required to properly initiate a replacement.",
+    "resolution": "The dispute is unresolved on this daf. Rav Pappa's answer, which attempts to synthesize or decide between the positions, begins at the daf's end and continues on 12b.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Investiture is both symbolic and functional. The dispute between Rav Adda and Abaye reflects two models: either one garment can represent the full status change (symbolic sufficiency), or the complete set of garments is required because each one contributes to the Cohen Gadol's halakhic standing (functional totality)."
+    },
+    "reasoningPattern": {
+     "id": "minimum-investiture",
+     "category": "halakhic-status",
+     "notes": "Dispute about whether investiture can be reduced to its essential element or requires the full formal ceremony even in emergencies"
+    },
+    "ahaMoment": "The tzinnora (fork) is not one of the regular eight garments - it is an extra item Abaye adds. This suggests Abaye thinks even more than the standard eight is required, perhaps as an additional sign of emergency-appointment status.",
+    "learningBlocker": "Students may not understand why there is a question at all - can't they just put on the garments? The question is about what specifically is required and whether an abbreviated ceremony is valid when time is short.",
+    "memoryAnchor": "Rav Adda: one belt. Abaye: eight garments plus the fork (tzinnora). One man or everything all at once."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "case",
+     "label": "Cohen Gadol disqualified before tamid - replacement performs in eight garments",
+     "speaker": "Mishna",
+     "text": "If the original Cohen Gadol is disqualified before performing the morning tamid, his replacement performs it in eight garments.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l33",
+       "vilnaLine": 33,
+       "note": "Mishna ruling about pre-tamid disqualification"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "question",
+     "label": "What initiates the replacement mid-ceremony?",
+     "speaker": "Gemara",
+     "text": "If disqualification happens mid-ceremony, how is the replacement formally invested as Cohen Gadol? What is the minimum required to confer the status?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l36",
+       "vilnaLine": 36,
+       "note": "The investiture question"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "opinion",
+     "label": "Rav Adda: belt alone suffices",
+     "speaker": "Rav Adda bar Ahavah",
+     "text": "Investing the replacement with the priestly belt is sufficient to confer Cohen Gadol status for the emergency replacement.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l42",
+       "vilnaLine": 42,
+       "note": "Rav Adda's proposal"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "opinion",
+     "label": "Abaye: eight garments plus tzinnora",
+     "speaker": "Abaye",
+     "text": "The replacement needs all eight High Priestly garments and additionally the tzinnora (a fork-like instrument) to be properly invested as the emergency Cohen Gadol.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-012a-l45",
+       "vilnaLine": 45,
+       "note": "Abaye's counter-proposal"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Cohen Gadol",
+    "investiture",
+    "Yom Kippur",
+    "eight garments",
+    "tzinnora",
+    "emergency"
+   ],
+   "concepts": [
+    {
+     "he": "אַבְנֵט",
+     "translit": "Avnet",
+     "definition": "The priestly belt; worn by both regular kohanim and the Cohen Gadol (with different materials). Rav Adda proposes this single garment can invest a kohen with Cohen Gadol status in an emergency."
+    },
+    {
+     "he": "צִינּוֹרָא",
+     "translit": "Tzinnora",
+     "definition": "A fork-like ritual instrument; Abaye holds this must be part of the emergency investiture along with the full set of eight High Priestly garments."
+    },
+    {
+     "he": "שְׁמוֹנָה בְּגָדִים",
+     "translit": "Shmonah Begadim",
+     "definition": "The eight garments of the High Priest; the full set that the Cohen Gadol wears during the regular Temple service, as distinct from the four white garments of Yom Kippur."
+    }
+   ],
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "The investiture process for a Cohen Gadol normally (including the seven-day process)",
+    "The eight garments of the Cohen Gadol and what they symbolize",
+    "The Yom Kippur service structure and why replacing the Cohen Gadol mid-ceremony is a genuine emergency"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any kohen can substitute for the Cohen Gadol by just showing up.",
+     "correction": "The replacement Cohen Gadol requires formal investiture - the dispute is about what the minimum investiture requires, but it is not optional."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "Diagram of eight Cohen Gadol garments with each labeled",
+    "Timeline: normal investiture (7 days) vs. emergency investiture (belt? / all eight garments?)"
+   ],
+   "quizSeeds": [
+    {
+     "question": "What does Rav Adda bar Ahavah say is sufficient to invest a replacement Cohen Gadol?",
+     "answer": "Investing him with the priestly belt (avnet) alone is sufficient."
+    },
+    {
+     "question": "What does Abaye require for the emergency investiture of a replacement Cohen Gadol?",
+     "answer": "All eight High Priestly garments plus the tzinnora (a fork-like ritual instrument)."
+    }
+   ],
+   "finalRuling": null,
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "sefariaRefs": [
+    "Yoma.12a.9",
+    "Yoma.12a.10",
+    "Yoma.12a.11",
+    "Yoma.12a.12"
+   ],
+   "review": "ai_generated"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "לִשְׁכַּת הַגָּזִית",
+   "translit": "Lishkat HaGazit",
+   "en": "The Chamber of Hewn Stone; the Sanhedrin's seat in the Temple complex, located in Judah's tribal portion."
+  },
+  {
+   "he": "אַבְנֵט",
+   "translit": "Avnet",
+   "en": "The priestly belt; worn by both regular kohanim and the Cohen Gadol. Rav Adda holds it alone can invest a replacement Cohen Gadol."
+  },
+  {
+   "he": "צִינּוֹרָא",
+   "translit": "Tzinnora",
+   "en": "A fork-like ritual instrument; Abaye holds this is part of the emergency investiture for a replacement Cohen Gadol."
+  },
+  {
+   "he": "שְׁמוֹנָה בְּגָדִים",
+   "translit": "Shmonah Begadim",
+   "en": "The eight garments of the High Priest; the full investiture set required for regular Temple service."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Of cities' - for it is a place of markets, and people gather there from many places, and it",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "is made for all who come to pray, and it has no designated owners. New comment: 'of villages' - all",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "its owners are known, and it is like the house of partners. New comment: 'and Jerusalem does not become impure",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01a",
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "with plagues' - for they have no holding in it; he holds it was not divided to the tribe of Judah and Benjamin;",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "rather, all the tribes are equal in it. New comment: 'I have not",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "heard' - he holds it was divided among the tribes.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "New comment: 'except the place of the Temple alone' - for when",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "David bought the threshing floor from Aravnah the Jebusite, he collected",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "the money from every single tribe, as we say",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "in the Sifrei and in Shechitat Kodashim [Zevachim 116b].",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "'About what do they disagree' - Rabbi Yehuda and the Rabbis.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "'The Temple Mount, the chambers, and the courtyards' - the",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "eastern side: the width of the Temple Mount, the whole women's courtyard,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "and the whole Israelites' courtyard, plus eleven amot",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "of the place where the priests' feet tread,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "beyond the feet of the Israelites, and there the altar",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "begins; from there and westward is in the portion of",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "Benjamin, except that at the place of the altar's base",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "a strip goes out from the portion of Judah",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and enters at the southeastern corner.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'Chofef' - like a person who scratches himself because",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "he does not attain his desire; it is the language of the Nazirite ('he shall not",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "rub his head') (Nazir daf 42a). New comment: 'ushpizchan' -",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "that the Ark was placed in his portion. New comment: 'and this",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l17",
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "tanna' - the one cited below, holds it was not divided,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "and this is the tannaitic dispute. New comment: 'hides of consecrated offerings' - of",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the chagiga and simcha peace-offerings that festival pilgrims",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "slaughter and eat there. New comment: 'gulfa' - a jug",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "of earthenware. New comment: 'umashka' - the hide of the animal",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "that he slaughters and eats in the host's house.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "'La'achuza' - regarding plagues it is written (Leviticus 14):",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'which I give to you as a holding,' for a house of",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "holding. New comment: 'to the fathers' houses' - to the families.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "New comment: 'and no single one recognizes' - that they did not divide",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the family's holding among the individual men. New comment: 'as we answered",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l26",
+    "yoma-012a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "at the outset' - that it has a dwelling in it. New comment: 'it is obvious: if",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l30",
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "there occurred' - a disqualification, in the High Priest, on Yom Kippur,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "before the morning tamid: 'they initiate him' -",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the one who serves in his place - 'with the morning tamid,'",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "that he perform the morning tamid in the eight",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "garments and thus be initiated into the High Priesthood",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "before the Yom Kippur service arrives.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'With what do they initiate him' - for the Yom Kippur service",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "that follows the tamid is in four",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "garments; and by what is he recognized as",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "High Priest at all, and where has he left the ranks of common priests,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "so that the day's service be performed by a High",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "Priest? New comment: 'with the belt' - within those very four garments",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l33",
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "there is a mark of High Priesthood, for the belt",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "of the High Priest in the Yom Kippur service is of fine linen,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "as it is written (Leviticus 16): 'and he shall gird himself with a linen belt,'",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and this one, until now, was accustomed to serve in one of",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "mixed kinds. New comment: 'this works out for the one who says the belt of the High",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "Priest' - of all the days of the year, was of",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "mixed kinds, as it is written: 'and the belt of twisted fine linen",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "and blue wool.' New comment: 'is the same as the belt of the common priest' - so there is no",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "distinction between their belts; there is a mark on Yom",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "Kippur in the belt, since the High Priest's belt changes on Yom Kippur",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "to be of fine linen. New comment: 'but according to the one who says' - below, that the High Priest's belt",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "all year round is not the same as the common priest's, for the common priest's is of fine linen, so their belts turn out",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "to be alike on Yom Kippur, and what mark of High Priesthood does this one have? New comment: 'Abaye",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l36",
+    "yoma-012a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "said' - before he begins the day's service, which is in garments alike to the common priest's,",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "he dons the eight garments and turns over, on the outer altar, one of the limbs of the tamid",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "with an iron fork; for it is an advancing of the service, since it is consumed faster on account of this turning, and it is a service, as per Rav Huna; and he thus turns out initiated into the High Priesthood",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "beforehand. New comment: 'with a tzinora' - with a fork. New comment: 'is liable to death' - because of 'and the stranger who comes near shall be put to death' (Numbers 18); evidently, advancing the service counts as service.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "This ('his service') is the catchword anticipating 12b's opening comment.",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l45"
+   ]
+  }
+ ]
 }

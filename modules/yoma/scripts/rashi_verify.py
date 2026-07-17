@@ -39,6 +39,7 @@ ALLOW_DIR = SCRIPTS / "allowlists"
 FAST_GATES = [
     ("freshness", [sys.executable, "scripts/check_generated_freshness.py"]),
     ("content", [sys.executable, "scripts/validate_rashi_content.py"]),
+    ("scaffold", [sys.executable, "scripts/audit_rashi_scaffold.py"]),
     ("links", [sys.executable, "scripts/validate_rashi_links.py"]),
     ("repetition", [sys.executable, "scripts/validate_rashi_repetition.py"]),
     ("schema", [sys.executable, "scripts/validate_schema_completeness.py"]),

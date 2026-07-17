@@ -8,10 +8,22 @@ are split so that no single actor can bypass them.
 
 ## Roles
 
-- Fable (or another frontier model) builds and maintains the guardrails,
-  performs forensic audits, designs repair passes, and handles every
-  semantic escalation. Only Fable/Sonnet may make Hebrew translation or
-  placement judgments.
+- Fable builds and maintains the guardrails, performs forensic audits,
+  designs repair passes, owns docs/workflow/branch hygiene, and handles
+  every escalation. Since VERSION 15.93 Fable is NOT the routine per-PR
+  reviewer for semantic daf work: rashi-realignment and
+  rashi-reconstruction run under the conditional review policy (see
+  below), and Fable reviews only when an escalation condition fires.
+  Fable performs daf content work only when explicitly substituting
+  because Sonnet is unavailable.
+- Sonnet is the default worker for semantic daf work: Hebrew
+  translation, placement judgments, shifted-daf realignment
+  (rashi-realignment), and fabricated-daf reconstruction
+  (rashi-reconstruction). Only Fable/Sonnet may make Hebrew translation
+  or placement judgments; Haiku is not allowed on those task types. On
+  the two conditional types Sonnet executes end to end: repair, fresh
+  post-edit self-review, CI, the worker:review auto-merge gate, merge,
+  deploy verification, and progression to the next queued target.
 - Haiku (or another small model) may perform bounded Rashi work ONLY
   inside the guardrails: executing a prepared work packet, running the
   validators, committing, and doing mechanical CI/deploy polling.
@@ -54,15 +66,137 @@ likely shifted-English blocks and missing Hebrew anchors. Run it after
 any content pass and before declaring a daf done; treat new shift
 candidates at offset beyond +-1 as escalations.
 
+Drift profile (blocks repair-type preflight only):
+`audit:rashi:drift:yoma` (audit_rashi_semantic.py --profile) classifies
+every daf from citation anchors (colon-tolerant amud citations,
+tractate names adjacent to daf citations, gematria daf numbers, split
+citations, search window 25):
+
+- SHIFTED: the English is genuine but displaced from its Hebrew
+  (2+ distinct lines nonzero same-sign offsets including one beyond 2).
+- FABRICATION-SUSPECT: 2+ consecutive non-allowlisted Hebrew citation
+  anchors appear nowhere in the English.
+- ALIGNED / INSUFFICIENT-ANCHORS: haiku-safe.
+
+On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
+line-level task (repair, links): stub-only work there duplicates
+content and cements misalignment. The remedies are rashi-realignment
+(shifted) and rashi-reconstruction (fabricated), Sonnet worker under
+the conditional review policy (Fable substitutes as worker only when
+Sonnet is unavailable; Fable reviews only on escalation). Override is
+Fable-only: the manifest must carry
+authorizeDriftOverride AND the environment must set
+FABLE_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
+packet embeds each daf's profile, and worker:verify enforces a clean
+post-edit profile for both rashi-realignment and rashi-reconstruction
+PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
+
+### Source-relative citation-evidence review-gate policy
+
+Citation anchors are corroborating evidence, not a mandatory content
+feature: the merge gate must never require inventing one, and the
+absence of citations must never automatically imply correctness. A
+daf whose raw Rashi contains fewer than two genuine citations can
+never classify ALIGNED (the classifier requires 2+ anchors), even
+after a fully correct reconstruction, so `npm run worker:review`'s
+drift-profile-ALIGNED condition for `rashi-reconstruction`/
+`rashi-realignment` is evaluated by three tiers, chosen by the number
+of genuine detectable citations in the daf's own raw Hebrew (a fixed
+source property, independent of the current translation):
+
+**2+ anchors (multi-anchor-safe)** - stricter than the bare ALIGNED
+label (which the classifier can still grant with anchors missing):
+requires classification ALIGNED, every expected anchor found, zero
+missing, and every offset exactly 0.
+
+**Exactly 1 anchor (one-anchor-safe)** - the daf's own citation is
+found at offset 0, zero missing, and the fresh
+`.worker-self-review.json` carries a `oneAnchorAttestation` object
+with `onlyOneGenuineCitation`, `citationTranslatedOnOwnLine`,
+`noCitationInventedMovedOrDuplicated`, and `noSemanticUncertaintyRemains`
+all explicitly `true`.
+
+**0 anchors (zero-anchor-safe)** - requires an independent SECOND
+source scan (a whole-text parenthetical search that deliberately does
+not reuse the primary per-line/tractate-name scanner) to confirm no
+citation-like text exists anywhere, plus a `zeroAnchorAttestation`
+object with `everyRawLineRereadForCitations`,
+`noTractateDafChapterVerseOrOtherCitationAnywhere`,
+`noCitationInventedMovedOrDuplicated`, and `noSemanticUncertaintyRemains`
+all explicitly `true`. Any entry with an empty `linkedGemaraLineIds`
+must be named in an `authorizedEmptyLinks` list citing a documented
+boundary rule, or the tier fails. This is the strongest of the three
+attestations, precisely because zero anchors is the weakest evidence.
+
+Whichever tier decides the outcome, `worker:review` reports it as its
+own distinct PASS/FAIL line (`one-anchor-safe` or `zero-anchor-safe`)
+rather than a silent ALIGNED relabel. SHIFTED and FABRICATION-SUSPECT
+can never qualify at any tier (both always carry 2+ anchors). This
+never changes the classifier itself. `rashi-structural-repair` is
+unaffected: it keeps its own, separate, unconditional haiku-safe
+(ALIGNED or INSUFFICIENT-ANCHORS) allowance.
+
+Before starting content work on a multi-daf campaign, run
+`npm run worker:capability-scan -- --targets <daf1,daf2,...>` (or with
+no `--targets` to read the tracked `.worker-queue.json`) once for the
+whole queue: a read-only, content-never-edited classification of every
+target's anchor cardinality (ZERO/ONE/MULTI), packet/local-segment
+completeness, and whether the review gate can represent a legitimate
+final state for it. It exits nonzero if any target is unsupported, so
+a deterministic gate limitation is caught before the first content PR
+rather than discovered mid-campaign. Tests: `npm run test:policy`.
+
+## Structural repair (VERSION 15.97)
+
+The baselined entry-count mismatches (8a: 41 entries vs 35 raw lines;
+9a: 22 vs 18) are structural defects: phantom entries with no raw-line
+anchor, not helper-content problems. They are handled ONLY by the
+rashi-structural-repair task type: Fable worker, one daf per PR,
+conditional review, and a REQUIRED explicit allowStructure manifest
+authorization; preflight fails without it, and no other task type can
+carry it, so ordinary line-level passes can never change entry counts.
+Post-repair, the review gate requires exact entry-count and vilnaLine
+parity with the talmuddev raw lines, semantic links for every entry,
+and the standard fresh self-review; the count-mismatch baseline entry
+is removed only when the content validator reports it stale.
+
+## Conditional semantic review (VERSION 15.93)
+
+rashi-realignment and rashi-reconstruction no longer require an
+unconditional Fable review on every PR. The registry marks them
+`reviewPolicy: "conditional"` with `escalationModel: "fable"`; the
+worker (Sonnet) merges its own PR WITHOUT operator or Fable sign-off
+only when every auto-merge condition holds, and otherwise escalates.
+The full condition list, the fresh self-review contract
+(.worker-self-review.json), the mandatory escalation conditions, and
+the autopilot queue commands live in docs/worker-pipeline-sop.md
+(single source). Enforcement: `npm run worker:review` (machine gate,
+fails closed), `npm run worker:queue` (sequential one-PR-per-daf
+autopilot, stop-on-escalation), `npm run test:policy` (positive and
+negative coverage, in npm test). No offline validation gate, scope
+rule, ratchet, freshness check, or drift block was weakened; the
+change replaces only the human review step for the routine, fully
+green case.
+
 ## Bounded work procedure (per daf)
 
 1. Fable (or the coordinator) generates the work packet:
    `npm run rashi:packet:yoma -- <daf>` (add `--json` for machine form).
-   The packet contains the raw Hebrew, the ONLY legal Gemara ids, current
-   state, validator baselines, the rules, and the post-edit commands.
-2. The worker translates every raw line from its own Hebrew. Linking
-   policy (nearest preceding Gemara id; final id for end-of-daf overflow)
-   never exempts a line from genuine translation.
+   The packet contains the raw Hebrew, the ONLY legal local segment ids
+   (Gemara AND Mishnah kinds, in source order, each with its kind and
+   FULL untruncated Hebrew text), current state, validator baselines,
+   the rules, and the post-edit commands.
+2. The worker translates every raw line from its own Hebrew. Linking is
+   SEMANTIC: each Rashi comment links to the segment(s) whose text it
+   explains, matched by dibbur hamatchil, quoted phrase, subject, or
+   discussion against the packet's full segment text. Links are NEVER
+   assigned by vilna line number or positional offset. A comment may
+   link to multiple segments when it genuinely spans them. A line whose
+   commentary continues the final segment's own discussion past the
+   last id stays on that final id (boundary policy); boundary policy
+   never covers unrelated commentary and never exempts a line from
+   genuine translation. If the correct target cannot be identified from
+   the packet, stop and escalate; never guess.
 3. The worker edits only rashiTranslations en/linkedGemaraLineIds in that
    daf's learning JSON, regenerates, bumps VERSION, syncs.
 4. The worker runs all post-edit commands from the packet. Any failure:
@@ -91,7 +225,13 @@ Every bounded pass follows this loop; each step is a single command:
 
 1. Preflight: `npm run rashi:preflight:yoma -- <daf> [--task repair]`
    Fails on dirty tree, inactive hooks, stale generated data, malformed
-   daf, or allowlisted defects when the task is not a repair type.
+   daf, or allowlisted defects when the task is not a repair type. When a
+   daf's existing content-allowlist hits are target-scoped repair debt
+   that a genuine rashi-reconstruction/rashi-realignment is about to
+   eliminate (not new tolerance), generate the manifest with
+   `worker:manifest -- --drain-allowlist` instead of narrowing to
+   `--task repair`; see "Allowlist-drain" in `docs/worker-pipeline-sop.md`
+   for the exact conditions and the post-edit enforcement that follows.
 2. Packet: `npm run rashi:packet:yoma -- <daf>` (context source of truth).
 3. Edit: only the target daf's rashiTranslations en/linkedGemaraLineIds.
 4. Regenerate + VERSION bump + sync.
@@ -131,6 +271,29 @@ at Settings > Branches > main:
 - Require a pull request before merging: ON (no direct pushes to main)
 - Dismiss stale approvals on new commits: only relevant if review
   requirements are enabled; recommended ON in that case
+
+## Semantic linking contract (VERSION 15.91)
+
+PR #80 (68b realignment) exposed a packet-generator defect: the legal
+id table collected only kind "gemara" segments, so the end-of-perek
+Mishnah yoma-068b-l13b was missing, and the worker fell back to
+positional linking (Rashi line N to the segment at vilna N). Fable
+review had to correct 50 of 60 links. The fix (this section's version):
+
+- make_rashi_work_packet.py emits every kind-bearing local segment,
+  Gemara AND Mishnah, in source order, with kind and full untruncated
+  Hebrew text; sparse and suffixed ids (l13a/l13b, l41a/l41b,
+  l53a/l53b) come through verbatim and nothing is renumbered or
+  manufactured. The same audit confirmed 70a (l27) and 71b (l11) each
+  carry a Mishnah segment the old table would also have dropped.
+- Packet rules, rashi_prompt.py, and the pipeline prompt all state the
+  semantic contract explicitly and forbid positional assignment; the
+  four Rashi task types escalate when a comment's target segment
+  cannot be identified from the packet.
+- Regression tests: `npm run test:packet:yoma` (part of `npm test`)
+  pins l13b presence/kind/order, sparse-id preservation, full text,
+  packet-side referential completeness for every daf, and the
+  anti-positional language in every generated prompt.
 
 ## Project-wide worker pipeline (VERSION 15.80)
 

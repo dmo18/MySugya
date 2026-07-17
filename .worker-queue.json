@@ -1,0 +1,6 @@
+{
+  "type": "rashi-reconstruction",
+  "module": "yoma",
+  "targets": ["79b", "80a", "80b", "81a", "81b", "82a", "82b", "83a", "83b", "84a", "84b", "85a", "85b", "86a", "86b", "87a", "87b", "88a"],
+  "policy": "stop-on-escalation"
+}

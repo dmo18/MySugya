@@ -69,6 +69,8 @@ await build({
 for (const file of ['styles.css', 'favicon.svg', 'manifest.js', 'daf.html']) {
   await cp(join(root, file), join(dist, file));
 }
+await mkdir(join(dist, 'shared'), { recursive: true });
+await cp(join(root, 'shared/rashi_association.js'), join(dist, 'shared/rashi_association.js'));
 await cp(join(root, 'modules'), join(dist, 'modules'), { recursive: true });
 
 let html = await readFile(join(root, 'index.html'), 'utf8');
@@ -77,6 +79,7 @@ html = html
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/react[^\n]+<\/script>/g, '')
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/react-dom[^\n]+<\/script>/g, '')
   .replace(/\n\s*<script src="https:\/\/unpkg\.com\/@babel[^\n]+<\/script>/g, '')
+  .replace(/shared\/rashi_association\.js(?:\?v=[^"]*)?/g, `shared/rashi_association.js?v=${version}`)
   .replace(/\n\s*<script type="text\/babel" src="tweaks-panel\.jsx(?:\?v=[^"]+)?"><\/script>/g, '')
   .replace(/\n\s*<script type="text\/babel" src="app\.jsx(?:\?v=[^"]+)?"><\/script>/g, `\n  <script src="${bundleName}"></script>`);
 

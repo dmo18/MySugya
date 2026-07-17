@@ -46,8 +46,10 @@ LEARN_PREFIX = "modules/yoma/assets/learning/yoma/"
 LITERAL_PREFIX = "modules/yoma/assets/literal_en/"
 GENERATED = {"modules/yoma/learning_data.js", "modules/yoma/coverage.json"}
 ALLOWLIST_PREFIX = "modules/yoma/scripts/allowlists/"
+SCAFFOLD_BASELINE_FILE = "modules/yoma/scripts/baselines/rashi_scaffold_debt.json"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
-                  "docs/rashi-audit-backlog.md", ".worker-manifest.json"}
+                  "docs/rashi-audit-backlog.md", ".worker-manifest.json",
+                  ".worker-self-review.json", ".worker-queue.json"}
 FORBIDDEN_PREFIXES = (".github/workflows/",)
 
 MUTABLE_KEYS = {"en", "linkedGemaraLineIds"}
@@ -60,6 +62,26 @@ def run(args, **kw):
 def git_show(rev, path):
     r = run(["git", "show", f"{rev}:{path}"])
     return r.stdout if r.returncode == 0 else None
+
+
+def structural_deferral(wm_data, types, fresh):
+    """The single daf (as a set) whose rashiTranslations STRUCTURE may
+    change under a fresh, explicitly authorized rashi-structural-repair
+    manifest; empty otherwise. The manifest must be part of this PR
+    (fresh), be the structural type whose registry entry REQUIRES the
+    allowStructure authorization, carry that authorization, and target
+    exactly one daf. Any other manifest (realignment, repair, forged
+    authorizations, multi-target) grants nothing, so ordinary passes can
+    never change entry counts."""
+    wtype = wm_data.get("type")
+    spec = types.get(wtype, {})
+    if (fresh
+            and wtype == "rashi-structural-repair"
+            and "allowStructure" in wm_data.get("authorizations", [])
+            and "allowStructure" in spec.get("requiredAuthorizations", [])
+            and len(wm_data.get("targets", [])) == 1):
+        return set(wm_data["targets"])
+    return set()
 
 
 def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
@@ -84,6 +106,28 @@ def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
             for a in sorted(new_e - old_e):
                 errors.append(f"{p}: {section} entry ADDED (ratchet is remove-only; "
                               f"requires RASHI_ALLOWLIST_RESTRUCTURE=1): {a}")
+
+
+def check_scaffold_baseline_ratchet(base_rev, errors):
+    """The scaffold-fabrication debt baseline may only shrink in any PR this
+    gate covers: entries may be removed (retired after repair) but never
+    added or rehashed. Growth or restructure requires the explicit
+    RASHI_ALLOWLIST_RESTRUCTURE=1 operator authorization (tooling PRs)."""
+    if os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
+        print("NOTE: RASHI_ALLOWLIST_RESTRUCTURE=1 set; scaffold-baseline "
+              "growth authorization active for this run.")
+        return
+    base_text = git_show(base_rev, SCAFFOLD_BASELINE_FILE)
+    old = json.loads(base_text) if base_text is not None else {"entries": []}
+    new = json.loads(Path(SCAFFOLD_BASELINE_FILE).read_text())
+    old_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in old.get("entries", [])}
+    new_map = {(e["daf"], e["vilnaLine"]): e.get("enHash") for e in new.get("entries", [])}
+    for k in sorted(set(new_map) - set(old_map)):
+        errors.append(f"{SCAFFOLD_BASELINE_FILE}: entry ADDED (ratchet is "
+                      f"remove-only; requires RASHI_ALLOWLIST_RESTRUCTURE=1): {k}")
+    for k in sorted(x for x in set(new_map) & set(old_map) if new_map[x] != old_map[x]):
+        errors.append(f"{SCAFFOLD_BASELINE_FILE}: entry rehashed (an entry "
+                      f"covers only its original text): {k}")
 
 
 def main():
@@ -115,6 +159,7 @@ def main():
 
     learn_changed = [p for p in changed if p.startswith(LEARN_PREFIX) and p.endswith(".learning.json")]
     allowlist_changed = [p for p in changed if p.startswith(ALLOWLIST_PREFIX) and p.endswith(".json")]
+    scaffold_baseline_changed = SCAFFOLD_BASELINE_FILE in changed
     errors = []
 
     if not learn_changed:
@@ -123,6 +168,8 @@ def main():
         # authorization (documented in docs/rashi-workflow.md).
         if allowlist_changed:
             check_allowlist_ratchet(allowlist_changed, base_rev, errors)
+        if scaffold_baseline_changed:
+            check_scaffold_baseline_ratchet(base_rev, errors)
         if errors:
             print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")
             for e in errors:
@@ -142,6 +189,7 @@ def main():
             or p.startswith(LITERAL_PREFIX)
             or p in GENERATED
             or p.startswith(ALLOWLIST_PREFIX)
+            or p == SCAFFOLD_BASELINE_FILE
             or p in ALWAYS_ALLOWED
         )
         if not allowed and not any(p.startswith(fp) for fp in FORBIDDEN_PREFIXES):
@@ -180,12 +228,20 @@ def main():
             print(f"NOTE: fresh {wtype} manifest present; deferring field rules for "
                   f"daf {sorted(deferred_daf)} to the worker pipeline jsonScope gate "
                   f"(which must also pass).")
+        structure_daf = structural_deferral(wm_data, types, fresh)
+        if structure_daf:
+            print(f"NOTE: fresh authorized rashi-structural-repair manifest present; "
+                  f"structure rules relaxed for daf {sorted(structure_daf)} ONLY "
+                  f"(the worker pipeline gates on that manifest must also pass).")
+    else:
+        structure_daf = set()
 
     # 2. Per-file structural diff
     for p in learn_changed:
         daf_name = p.split("/")[-1].replace(".learning.json", "")
         if daf_name in deferred_daf:
             continue
+        allow_structure_here = opts.allow_structure or daf_name in structure_daf
         base_text = git_show(base_rev, p)
         if base_text is None:
             errors.append(f"{p}: file does not exist at base; new files require --allow-structure")
@@ -206,12 +262,13 @@ def main():
         o_rt = old.get("rashiTranslations", [])
         n_rt = new.get("rashiTranslations", [])
         if len(o_rt) != len(n_rt):
-            if not opts.allow_structure:
+            if not allow_structure_here:
                 errors.append(f"{p}: /rashiTranslations length {len(o_rt)} -> {len(n_rt)} "
-                              f"(structure change requires --allow-structure)")
+                              f"(structure change requires --allow-structure or a fresh "
+                              f"authorized rashi-structural-repair manifest for this daf)")
             continue
         for i, (o, n) in enumerate(zip(o_rt, n_rt)):
-            if o.get("vilnaLine") != n.get("vilnaLine") and not opts.allow_structure:
+            if o.get("vilnaLine") != n.get("vilnaLine") and not allow_structure_here:
                 errors.append(f"{p}: /rashiTranslations/{i}/vilnaLine changed "
                               f"{o.get('vilnaLine')} -> {n.get('vilnaLine')}")
             for key in sorted(set(o) | set(n)):
@@ -221,8 +278,11 @@ def main():
                     errors.append(f"{p}: /rashiTranslations/{i}/{key} changed "
                                   f"(only en and linkedGemaraLineIds may change)")
 
-    # 3. Allowlist ratchet: removals only
+    # 3. Allowlist ratchet: removals only (the scaffold-debt baseline gets
+    # the same remove-only treatment; see check_scaffold_baseline_ratchet)
     check_allowlist_ratchet(allowlist_changed, base_rev, errors)
+    if scaffold_baseline_changed:
+        check_scaffold_baseline_ratchet(base_rev, errors)
 
     if errors:
         print(f"Rashi PR scope check FAILED vs {base} ({base_rev[:9]}):\n")

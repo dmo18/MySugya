@@ -274,108 +274,153 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "How he performs the second incense scooping inside - from the ladle into his palms: he grips the ladle top with his fingertips.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: opens - 'how does he do it?' The second scooping, which is inside, from the bowl into his handfuls: he holds",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 2,
-      "en": "After placing the coal pan on the ground, he holds the ladle handle between his forearms and lifts with both thumbs.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the top of the bowl with his fingertips, after he placed the coal pan on the ground; and its handle",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 3,
-      "en": "He draws the handle toward his body with his thumbs until the handle is between his elbows and the ladle head reaches palm level.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - faces between his arms, and he raises it with his two thumbs, and draws its handle with his thumbs",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 4,
-      "en": "He then turns it sideways into his palms and piles the incense onto the coals.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - toward his body little by little, until the head of its handle reaches between his elbows, and the head of the bowl",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 5,
-      "en": "He tilts the ladle sideways into his cupped palms and transfers the incense onto the coal pan.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - reaches the height of his palm, and he then turns it back",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 6,
-      "en": "They register - whoever wishes to register on the Passover offering does so; whoever wishes to withdraw may do so.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - sideways into his handfuls, and piles it upon",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01"
+      ]
     },
     {
       "vilnaLine": 7,
-      "en": "Before slaughter: anyone who wants to register may join; anyone who wants to withdraw from the group may do so.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the coals.' 'They register' - regarding the Passover offering, whoever",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l01",
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 8,
-      "en": "Until it is slaughtered - withdrawal is permitted at any time up to the slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - wants to register, and withdraws his hands from it; whoever",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 9,
-      "en": "If it is so - that after slaughter one can still be 'counted on the sheep'...",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - wants to withdraw may do so until it is slaughtered.' 'And if it is so,'",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 10,
-      "en": "Registered on the sheep - 'according to the sheep' means while it is alive.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - that even after slaughter we would still read it as 'on'",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 11,
-      "en": "If they want the registered group to diminish they may withdraw...",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'the sheep, until it is tossed' it should have said.' 'And if'",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 12,
-      "en": "While its being (hiyyut) is intact - while the animal is alive they may withdraw from registration.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - the household diminishes' - if those registered wish to diminish their numbers",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16"
+      ]
     },
     {
       "vilnaLine": 13,
-      "en": "Not after slaughter - once slaughtered, 'according to the sheep' no longer applies.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and withdraw their hands.' 'From being a sheep' -",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l16",
+        "yoma-049b-l18a"
+      ]
     },
     {
       "vilnaLine": 14,
-      "en": "They do not redeem a firstborn donkey...",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - while its being as a sheep is still intact they may withdraw, but not",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18a"
+      ]
     },
     {
       "vilnaLine": 15,
-      "en": "Not with a calf nor with a wild animal - because the verse says 'a sheep.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - from when it is slaughtered.' 'One may not redeem' - a firstborn donkey: 'not",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18a",
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 16,
-      "en": "Not with a slaughtered sheep - for the verse implies a living sheep.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with a calf, nor with a wild animal' - since 'sheep' is written: 'nor",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 17,
-      "en": "Not with kilayim - a crossbreed of goat and ewe, even though from both sides it is 'sheep.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with a slaughtered sheep.' 'Nor with kilayim' - since a goat",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 18,
-      "en": "Not with a koi (uncertain creature) - since 'male goat and deer' are mentioned but 'not a slaughtered one.'",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - and a ewe, even though from both its sides it is a sheep:",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 19,
-      "en": "Apparently a slaughtered animal is not called 'a sheep' - the same logic applies to the HP's bull.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - 'nor with a koi' - since 'a male goat and a deer' - it teaches, in any case, not",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 20,
-      "en": "He took them out to the market - folded/removed them from the wall.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: continues - with a slaughtered one; evidently a slaughtered animal is not called 'sheep':",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     },
     {
       "vilnaLine": 21,
-      "en": "This last point concludes the parallel discussion about what 'a bull/sheep' means after slaughter.",
-      "linkedGemaraLineIds": []
+      "en": "Rashi: concludes - 'and he shall take out' - the daf ends mid-word here; the comment (returning to whether a slaughtered bull is still called 'bull') continues on 50a.",
+      "linkedGemaraLineIds": [
+        "yoma-049b-l18b"
+      ]
     }
   ],
   "review": "reviewed"
