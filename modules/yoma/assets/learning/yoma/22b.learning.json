@@ -30,7 +30,10 @@
         "coreTension": "A throwaway architectural detail turns out to carry real stakes: the same ramp described here is the site of the race in chapter 2's opening mishna, and ultimately of the stabbing in 22a. Its height is not decoration, it is the scale of the danger.",
         "coreMove": "R. Yosi b. R. Yehuda derives the ramp's total height of 32 amot from three components: 30 amot of actual rise, plus 1 amah for the sovev, the surrounding ledge, plus 1 amah for the altar's own body.",
         "resolution": "The altar ramp measured 32 amot in total: 30 amot of rise, 1 amah for the ledge, and 1 amah for the altar body.",
-        "takeaway": {"type": "derivation_principle", "text": "A total measurement can be derived by summing distinct structural components rather than stated as a single given figure, and each component can carry its own halachic justification."},
+        "takeaway": {
+          "type": "derivation_principle",
+          "text": "A total measurement can be derived by summing distinct structural components rather than stated as a single given figure, and each component can carry its own halachic justification."
+        },
         "ahaMoment": "The Gemara insists on precise measurement even for a structure that no longer exists, treating destroyed Temple architecture with the same rigor as a still-standing building.",
         "learningBlocker": "The ramp's height looks like a stray technical aside until it is read against the race and stabbing described nearby: a 32-amah ramp run at speed in the predawn dark is steep and dangerous enough that a push at the top is a real threat to life, which is exactly what happened.",
         "memoryAnchor": "Ramp = 32 amot (30 rise + 1 ledge + 1 body). Steep enough that a push at the top could kill, which is exactly what happened."
@@ -65,7 +68,10 @@
         "yoma-022a-s01"
       ],
       "misconceptions": [
-        {"misconception": "The 32-amot figure is just a stated given, not a computed value.", "correction": "It is explicitly derived by summing three distinct components: 30 amot of practical rise, 1 amah for the sovev (ledge), and 1 amah for the altar's body."}
+        {
+          "misconception": "The 32-amot figure is just a stated given, not a computed value.",
+          "correction": "It is explicitly derived by summing three distinct components: 30 amot of practical rise, 1 amah for the sovev (ledge), and 1 amah for the altar's body."
+        }
       ],
       "relatedSugyot": [
         "yoma-022a-s01",
@@ -146,7 +152,10 @@
         "coreTension": "Ash removal, the thirteen-position main service, and limb carrying all let any eligible priest win repeatedly. The incense lottery alone excludes past winners, which looks arbitrary unless something about the incense service itself sets it apart.",
         "coreMove": "The Gemara explains that burning the incense was believed to bring lasting blessing and prosperity, a man who performed it never became poor, and its scent clung visibly to him afterward. Because that benefit was concentrated and durable rather than a one-time honor, the Sages restricted the lottery to first-timers so the privilege would spread across the priesthood instead of accumulating with repeat winners.",
         "resolution": "Four lotteries governed the Temple morning service: ash removal, the thirteen-position main service, incense (limited to those who had never performed it before), and limb carrying, all conducted in the Chamber of Hewn Stone by counting priests' extended fingers.",
-        "takeaway": {"type": "legal_principle", "text": "A service carrying a uniquely concentrated and lasting personal benefit can warrant a procedural restriction, such as a first-timer-only lottery, that services without that benefit do not need."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A service carrying a uniquely concentrated and lasting personal benefit can warrant a procedural restriction, such as a first-timer-only lottery, that services without that benefit do not need."
+        },
         "ahaMoment": "The incense lottery's first-timer rule is not arbitrary ritual variation, it is a deliberate redistribution mechanism: because the incense made its performer wealthy, the Sages prevented any one priest from monopolizing that wealth.",
         "learningBlocker": "Learners tend to read the four lotteries as a uniform list and miss that the third one's restriction is solving a problem the other three do not have, concentrated economic benefit, rather than just being one more procedural variation among equals.",
         "memoryAnchor": "Four lotteries: ash, 13-position main service, incense (first-timers only, because it brought wealth), limbs. All held in the Chamber of Hewn Stone."
@@ -234,8 +243,14 @@
         "yoma-022a-s02"
       ],
       "misconceptions": [
-        {"misconception": "The four lotteries are alternative or overlapping ways of assigning the same services.", "correction": "Each lottery covers a distinct, non-overlapping set of services, and a single priest could win and participate in more than one lottery in the same morning."},
-        {"misconception": "The first-timer restriction applied to all four lotteries.", "correction": "It applied only to the third lottery, for incense, specifically because that service was believed to bring concentrated wealth and blessing that the Sages wanted distributed broadly rather than monopolized."}
+        {
+          "misconception": "The four lotteries are alternative or overlapping ways of assigning the same services.",
+          "correction": "Each lottery covers a distinct, non-overlapping set of services, and a single priest could win and participate in more than one lottery in the same morning."
+        },
+        {
+          "misconception": "The first-timer restriction applied to all four lotteries.",
+          "correction": "It applied only to the third lottery, for incense, specifically because that service was believed to bring concentrated wealth and blessing that the Sages wanted distributed broadly rather than monopolized."
+        }
       ],
       "relatedSugyot": [
         "yoma-022a-s02",
@@ -348,7 +363,10 @@
         "coreTension": "If the same confession formula produced opposite results, the words themselves cannot be what determines whether repentance is accepted. Something else must distinguish a genuine confession from an inadequate one.",
         "coreMove": "The Gemara reads what each man said immediately after admitting sin. Saul told Samuel 'I have sinned,' then added 'now honor me before the elders,' a request that protects his public standing rather than accepting consequence. David told Nathan 'I have sinned to God' and accepted the rebuke without any self-protective addition. Because Saul's sin, disobeying the public command to destroy Amalek, was itself committed publicly, his confession needed to match that public exposure to count as complete; instead it stayed focused on preserving his image.",
         "resolution": "Saul's repentance was judged incomplete because his confession was immediately followed by a request to protect his honor, while David's confession was followed by unguarded acceptance of consequence, which is why David kept the throne and Saul did not.",
-        "takeaway": {"type": "conceptual", "text": "Identical confession language can reflect opposite degrees of genuine repentance; what follows the admission, self-protection versus unguarded acceptance of consequence, is what reveals which one occurred."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Identical confession language can reflect opposite degrees of genuine repentance; what follows the admission, self-protection versus unguarded acceptance of consequence, is what reveals which one occurred."
+        },
         "ahaMoment": "Both kings used nearly the same words. The giveaway was not the confession itself but the very next thing each man said: Saul asked to be honored, David accepted the rebuke in silence.",
         "learningBlocker": "Learners who focus only on the shared phrase 'I have sinned' miss the actual distinction the Gemara is drawing: genuine repentance is identified by what immediately follows the confession, not by the confession's wording.",
         "memoryAnchor": "Saul: 'I have sinned, now honor me.' David: 'I have sinned to God,' then silence and acceptance. Same words, opposite follow-through, opposite outcome."
@@ -466,8 +484,14 @@
         "yoma-022a-s01"
       ],
       "misconceptions": [
-        {"misconception": "'Avenge like a snake' is a general endorsement of vengeance.", "correction": "It applies specifically to a Torah scholar who has been publicly shamed; silently absorbing such shame would undermine the dignity of Torah itself, so a measured, eventual response is required rather than blanket forgiveness."},
-        {"misconception": "The Gemara denies that Saul ever said 'I have sinned.'", "correction": "The Gemara does not dispute that Saul said the words, even multiple times. It argues instead that his follow-up requests, asking to be honored before the elders, show the repentance itself was incomplete despite the correct words."}
+        {
+          "misconception": "'Avenge like a snake' is a general endorsement of vengeance.",
+          "correction": "It applies specifically to a Torah scholar who has been publicly shamed; silently absorbing such shame would undermine the dignity of Torah itself, so a measured, eventual response is required rather than blanket forgiveness."
+        },
+        {
+          "misconception": "The Gemara denies that Saul ever said 'I have sinned.'",
+          "correction": "The Gemara does not dispute that Saul said the words, even multiple times. It argues instead that his follow-up requests, asking to be honored before the elders, show the repentance itself was incomplete despite the correct words."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s04",
@@ -551,7 +575,10 @@
         "coreTension": "David did not kill anyone at Nov and did not order the massacre. Claiming responsibility for a crime someone else committed looks like an overstatement, unless David is naming a real chain of causation rather than the direct act.",
         "coreMove": "David traces the chain back to his own choice: by fleeing to Nov and accepting the priests' help there, he set in motion the events that let Doeg inform on them, which led Saul to order their deaths. David owns that indirect causation instead of treating Saul's direct order as the only relevant cause. The same instinct, absorbing responsibility rather than protecting himself, surfaces again when his son Absalom revolts: despite having the military strength to suppress the rebellion, David cannot bring himself to fight his own son.",
         "resolution": "David accepted moral responsibility for the indirect harm at Nov, naming his own choice to flee there as the first link in the chain that led to the massacre, and he refused to move militarily against Absalom despite having the capacity to do so.",
-        "takeaway": {"type": "conceptual", "text": "Moral responsibility can extend beyond the person who performed the direct act to include someone whose earlier choice set the chain of causation in motion, and owning that indirect responsibility is itself a mark of character distinct from accepting blame only for what one did directly."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Moral responsibility can extend beyond the person who performed the direct act to include someone whose earlier choice set the chain of causation in motion, and owning that indirect responsibility is itself a mark of character distinct from accepting blame only for what one did directly."
+        },
         "ahaMoment": "David's admission about Nov is a different kind of greatness than his military victories: he did not strike the blow, yet he refuses to hide behind that fact and instead names himself as the first cause.",
         "learningBlocker": "Learners tend to read David's statement about Nov as poetic self-blame rather than a precise claim, missing that the Gemara is treating indirect moral causation, not direct action, as a real category of responsibility worth naming.",
         "memoryAnchor": "Saul ordered Nov's massacre. David says: I caused it, by fleeing there. Same instinct later: David cannot fight Absalom, his own son, even in rebellion."
@@ -632,8 +659,14 @@
         "yoma-022b-s03"
       ],
       "misconceptions": [
-        {"misconception": "David's claim of responsibility for Nov means he believes he literally committed the massacre.", "correction": "Saul gave the order and the killing was carried out on his command. David is naming indirect moral causation: his choice to flee to Nov set in motion the chain of events that led to the massacre, which is a distinct claim from direct guilt."},
-        {"misconception": "David never engaged militarily with Absalom's rebellion at all.", "correction": "David's own reluctance to fight his son did eventually give way when Joab's forces killed Absalom in the field. David's grief, 'My son Absalom!', shows this outcome was not what he wanted, even though it ended the rebellion."}
+        {
+          "misconception": "David's claim of responsibility for Nov means he believes he literally committed the massacre.",
+          "correction": "Saul gave the order and the killing was carried out on his command. David is naming indirect moral causation: his choice to flee to Nov set in motion the chain of events that led to the massacre, which is a distinct claim from direct guilt."
+        },
+        {
+          "misconception": "David never engaged militarily with Absalom's rebellion at all.",
+          "correction": "David's own reluctance to fight his son did eventually give way when Joab's forces killed Absalom in the field. David's grief, 'My son Absalom!', shows this outcome was not what he wanted, even though it ended the rebellion."
+        }
       ],
       "relatedSugyot": [
         "yoma-022b-s03"
@@ -711,245 +744,245 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'or perhaps' - he took them relative to the lower pavement adjacent to the altar, excluding the base",
+      "en": "Opens 'or perhaps': he reckons them by the adjoining lower floor of the altar, apart from the base",
       "linkedGemaraLineIds": [
         "yoma-022b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: concludes - and the ledge, which is six before reaching the level of its roof. Then opens and closes 'let them count themselves' - by their own heads.",
+      "en": "closing: and the surround, which totals six, before reaching the adjoining of its roof.' Then opens 'and let us count them for themselves': for their own heads -",
       "linkedGemaraLineIds": [
-        "yoma-022b-l02"
+        "yoma-022b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: opens 'in Bezek' - a term for broken shards; each one took a shard and cast it before him,",
+      "en": "Opens 'with Bezek': a term for potsherds; each one took a shard and cast it before him,",
       "linkedGemaraLineIds": [
         "yoma-022b-l02"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: concludes - and they counted the shards. Then opens 'and he counted them with lambs' - he commanded each one to take a lamb from the flock of",
+      "en": "closing: and they counted the shards.' Then opens 'and he numbered them with lambs': he commanded each one to take a lamb from the flock of",
       "linkedGemaraLineIds": [
         "yoma-022b-l07"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: concludes - the king, and they came to Marchav, and the lambs were counted.",
+      "en": "closing: the king, and they came to Telaim, and the lambs were counted.",
       "linkedGemaraLineIds": [
         "yoma-022b-l07"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: it is written 'and the number of the children of Israel shall be like the sand'",
+      "en": "Opens 'it is written, and the number of the children of Israel shall be like the sand'",
       "linkedGemaraLineIds": [
-        "yoma-022b-l14"
+        "yoma-022b-l10"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: concludes - of the sea, implying they do have a count. Then opens 'how [secure]'",
+      "en": "closing: 'of the sea': from which it follows they do have a count.' Then opens 'how'",
       "linkedGemaraLineIds": [
-        "yoma-022b-l31"
+        "yoma-022b-l10"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: continues DH - one does not fall ill nor take notice, a person whose Master assists him' -",
+      "en": "continuing: 'unaware and unfeeling is a man whose Master assists him' -",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: continues - how secure and assured he is, with no need to fall ill",
+      "en": "continuing: how secure and assured, and he need not fall ill",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: continues - or worry over any harm, one whom the Holy One assists,",
+      "en": "continuing: or worry over any evil, is he whom the Holy One, blessed be He, assists,",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: continues - for we find that Saul stumbled in one sin",
+      "en": "continuing: for we find that Saul stumbled in one matter",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - and it was held against him for ill, to penalize him with death, to annul",
+      "en": "continuing: and it turned out badly for him, to penalize him with death, to nullify",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: continues - his kingship, while David stumbled in two sins and it was not held against him",
+      "en": "continuing: his kingship; and David stumbled in two matters, yet it did not turn out",
       "linkedGemaraLineIds": [
         "yoma-022b-l31"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: concludes - for ill. Then opens 'of Uriah and of the incitement' - that he was incited",
+      "en": "closing: badly for him.' Then opens 'Uriah and the incitement': that he was incited",
       "linkedGemaraLineIds": [
         "yoma-022b-l34a"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: continues - to count Israel in his later days, and it caused",
+      "en": "continuing: to number Israel at the end of his days, which caused",
       "linkedGemaraLineIds": [
         "yoma-022b-l34a"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: concludes - harm to come upon them. Then opens 'of Bat Sheva' - whom he came upon",
+      "en": "closing: a plague to come upon them.' Then opens 'of Batsheva': that he came",
+      "linkedGemaraLineIds": [
+        "yoma-022b-l34a"
+      ]
+    },
+    {
+      "vilnaLine": 17,
+      "en": "closing: upon her.' Then opens 'the child': her first son.' Then opens 'slander' -",
       "linkedGemaraLineIds": [
         "yoma-022b-l34b"
       ]
     },
     {
-      "vilnaLine": 17,
-      "en": "Rashi: concludes - and had relations with. Then opens and closes 'the child' - her first son. Then opens 'lashon",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l38"
-      ]
-    },
-    {
       "vilnaLine": 18,
-      "en": "Rashi: concludes DH - hara' [slander] - about Mefivoshet, from Ziva's mouth.",
+      "en": "continuing: regarding Mefivoshet, from the mouth of Ziva.",
       "linkedGemaraLineIds": [
-        "yoma-022b-l38"
+        "yoma-022b-l39"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: opens 'this: he was punished for it' - it was measure for measure:",
+      "en": "Opens 'this one, he was punished for it': it is measure for measure -",
       "linkedGemaraLineIds": [
         "yoma-022b-l39"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: continues - he caused Mefivoshet to lose his share of the inheritance, so he himself lost the inheritance of",
+      "en": "continuing: he caused him to lose half his inheritance, and he himself lost the inheritance",
       "linkedGemaraLineIds": [
         "yoma-022b-l39"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: concludes - the kingdom. Then opens 'a nightmare' - angels of dread who terrify",
+      "en": "closing: of the kingdom.' Then opens 'a nightmare': terrifying angels of dread that",
       "linkedGemaraLineIds": [
         "yoma-022b-l42"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: concludes - him. Then opens and closes 'did not extend' - for a long time.",
+      "en": "closing: startle him.' Then opens 'was not extended': for a length of days.",
       "linkedGemaraLineIds": [
         "yoma-022b-l44"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: opens 'that there was no blemish in him' - a family",
+      "en": "Opens 'that there was in it no blemish': of lineage,",
       "linkedGemaraLineIds": [
         "yoma-022b-l44"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: continues - blemish, lest the kings descended from his line grow haughty over",
+      "en": "continuing: lest the kings descending from his line grow haughty over",
       "linkedGemaraLineIds": [
         "yoma-022b-l44"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: concludes - Israel; but David descended from Ruth the Moabite.",
+      "en": "closing: Israel; but David descended from Ruth the Moabite.",
       "linkedGemaraLineIds": [
         "yoma-022b-l44"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: opens and closes 'a basket of vermin' - a family blemish.",
+      "en": "Opens 'a basket of vermin': a blemish of lineage.",
       "linkedGemaraLineIds": [
         "yoma-022b-l44"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: opens 'Saul was punished' - to come to a matter for which",
+      "en": "Opens 'Saul was punished': to come to the matter for which",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: concludes - the kingship was taken from him. Then opens 'because' - that from the start of",
+      "en": "closing: the kingdom was taken from him.' Then opens 'because': since from the beginning of",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: continues - his reign he forwent his honor, and revealed about himself",
+      "en": "continuing: his reign he forwent his honor, and thereby revealed about himself",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: concludes - that he was unworthy to reign. Then opens 'and it is written, and Nachash came up' -",
+      "en": "closing: that he was unworthy to reign.' Then opens 'and it is written, and Nachash'",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continues DH - the Ammonite' - and the conclusion of the matter is that they said,",
+      "en": "continuing: 'the Ammonite came up': and the upshot of the matter was that",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - Israel: who is it that says Saul shall reign over us,",
+      "en": "continuing: Israel said, in astonishment, 'who is it that says Saul shall reign over us' -",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: continues - in a mocking tone; give over the men and we shall put them to death,",
+      "en": "continuing: 'give us the men, that we may put them to death,'",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: concludes - yet he said, no man shall be put to death this day.",
+      "en": "closing: and he said: 'no man shall be put to death this day.'",
       "linkedGemaraLineIds": [
         "yoma-022b-l47"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: the daf's final truncated word - 'who does not,' continuing the dibbur hamatchil on 'every Torah scholar' into the well known teaching that a scholar does not bear a grudge or take revenge like a snake, whose text continues on 23a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own explanation is itself still open at the point of truncation.",
+      "en": "Opens 'who does not' -",
       "linkedGemaraLineIds": [
         "yoma-022b-l49"
       ]
