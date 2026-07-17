@@ -16,12 +16,15 @@ from _js_parser import (
     extract_balanced_array,
     extract_balanced_block,
     extract_number_field,
+    extract_string_array_field,
     extract_string_field,
     find_string_field_span,
     iter_line_object_spans,
     parse_daf_blocks,
     parse_line_fields,
     parse_line_items_from_lines_array,
+    parse_rashi_fields,
+    parse_rashi_lines_array,
     split_top_level_array_items,
 )
 from build_literal_layer import inject
@@ -270,6 +273,86 @@ class TestParseDafBlocks(unittest.TestCase):
 
     def test_no_daf_blocks_yields_nothing(self):
         self.assertEqual(list(parse_daf_blocks('no daf here')), [])
+
+
+RASHI_ITEM_SINGLE_LINK = (
+    '{ id: "rashi-yoma-002a-001", sourceType: "rashi", daf: "2a", vilnaLine: 1,\n'
+    '  he: "Rashi hebrew", en: "Rashi english", enSource: "ai_helper_translation",\n'
+    '  source: "talmud.dev", confidence: "helper",\n'
+    '  linkedGemaraLineIds: [\n    "yoma-002a-l01"\n  ] }'
+)
+
+RASHI_ITEM_MULTI_LINK = (
+    '{ id: "rashi-yoma-002a-002", sourceType: "rashi", daf: "2a", vilnaLine: 2,\n'
+    '  he: "Rashi hebrew 2", en: "Rashi english 2", enSource: "ai_helper_translation",\n'
+    '  source: "talmud.dev", confidence: "helper",\n'
+    '  linkedGemaraLineIds: [\n    "yoma-002a-l02",\n    "yoma-002a-l03"\n  ] }'
+)
+
+RASHI_ITEM_EMPTY_LINK = (
+    '{ id: "rashi-yoma-002a-003", sourceType: "rashi", daf: "2a", vilnaLine: 3,\n'
+    '  he: "Rashi hebrew 3", en: "Rashi english 3", enSource: "ai_helper_translation",\n'
+    '  source: "talmud.dev", confidence: "helper",\n'
+    '  linkedGemaraLineIds: [] }'
+)
+
+RASHI_LINES_ARRAY_BLOCK = (
+    '"2a": {\n  rashiLines: [\n'
+    + RASHI_ITEM_SINGLE_LINK + ',\n'
+    + RASHI_ITEM_MULTI_LINK + ',\n'
+    + RASHI_ITEM_EMPTY_LINK + '\n  ]\n}'
+)
+
+
+class TestExtractStringArrayField(unittest.TestCase):
+    def test_single_element(self):
+        values = extract_string_array_field(RASHI_ITEM_SINGLE_LINK, 'linkedGemaraLineIds')
+        self.assertEqual(values, ['yoma-002a-l01'])
+
+    def test_multiple_elements(self):
+        values = extract_string_array_field(RASHI_ITEM_MULTI_LINK, 'linkedGemaraLineIds')
+        self.assertEqual(values, ['yoma-002a-l02', 'yoma-002a-l03'])
+
+    def test_empty_array(self):
+        values = extract_string_array_field(RASHI_ITEM_EMPTY_LINK, 'linkedGemaraLineIds')
+        self.assertEqual(values, [])
+
+    def test_missing_field_returns_none(self):
+        self.assertIsNone(extract_string_array_field('{ he: "x" }', 'linkedGemaraLineIds'))
+
+
+class TestParseRashiFields(unittest.TestCase):
+    def test_parses_single_link_entry(self):
+        r = parse_rashi_fields(RASHI_ITEM_SINGLE_LINK)
+        self.assertEqual(r['id'], 'rashi-yoma-002a-001')
+        self.assertEqual(r['he'], 'Rashi hebrew')
+        self.assertEqual(r['en'], 'Rashi english')
+        self.assertEqual(r['vilnaLine'], 1)
+        self.assertEqual(r['linkedGemaraLineIds'], ['yoma-002a-l01'])
+
+    def test_parses_multi_link_entry(self):
+        r = parse_rashi_fields(RASHI_ITEM_MULTI_LINK)
+        self.assertEqual(r['linkedGemaraLineIds'], ['yoma-002a-l02', 'yoma-002a-l03'])
+
+    def test_parses_empty_link_entry(self):
+        r = parse_rashi_fields(RASHI_ITEM_EMPTY_LINK)
+        self.assertEqual(r['linkedGemaraLineIds'], [])
+
+    def test_missing_required_field_raises(self):
+        with self.assertRaises(ValueError):
+            parse_rashi_fields('{ id: "rashi-1", en: "only en" }')
+
+
+class TestParseRashiLinesArray(unittest.TestCase):
+    def test_parses_all_items_in_order(self):
+        items = parse_rashi_lines_array(RASHI_LINES_ARRAY_BLOCK)
+        self.assertEqual(len(items), 3)
+        self.assertEqual([i['id'] for i in items], [
+            'rashi-yoma-002a-001', 'rashi-yoma-002a-002', 'rashi-yoma-002a-003',
+        ])
+
+    def test_no_rashi_lines_array_returns_empty(self):
+        self.assertEqual(parse_rashi_lines_array('"2a": { lines: [] }'), [])
 
 
 class TestFindStringFieldSpan(unittest.TestCase):

@@ -135,6 +135,32 @@ def extract_number_field(text: str, field_name: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
+def extract_string_array_field(text: str, field_name: str) -> list[str] | None:
+    """Extract a JS array-of-strings field: field_name: ["a", "b"].
+
+    Returns the decoded string values in document order. Returns an empty
+    list for field_name: [] . Returns None if the field is not found at all
+    (as opposed to found-but-empty). Only top-level quoted string elements
+    are read; the array is not expected to hold nested structures.
+    """
+    m = re.search(r'\b' + re.escape(field_name) + r'\s*:\s*\[', text)
+    if not m:
+        return None
+    bracket_start = m.end() - 1
+    array_text = extract_balanced_block(text, bracket_start, '[', ']')
+    values = []
+    i = 1  # skip opening '['
+    while i < len(array_text) - 1:
+        ch = array_text[i]
+        if ch == '"':
+            end = _advance_past_string(array_text, i)
+            values.append(array_text[i + 1 : end - 1].replace('\\"', '"'))
+            i = end
+            continue
+        i += 1
+    return values
+
+
 def find_string_field_span(text: str, field_name: str) -> tuple[int, int] | None:
     """Return the (start, end) character span of 'field_name: "value"' in text.
 
@@ -214,6 +240,55 @@ def split_top_level_array_items(array_text: str) -> list[str]:
 # ---------------------------------------------------------------------------
 # Line-object parser
 # ---------------------------------------------------------------------------
+
+def parse_rashi_fields(item_text: str) -> dict:
+    """Parse a single rashiLines[] item into a Python dict.
+
+    Matches the object shape emitted by build_learning_data.py's
+    load_rashi_lines(): id, sourceType, daf, vilnaLine, he, en, enSource,
+    source, confidence, linkedGemaraLineIds. Required: id, he, en.
+    linkedGemaraLineIds defaults to [] when the field is absent (rather than
+    raising), since an empty/omitted link is a valid boundary case, not a
+    parse error.
+
+    Raises ValueError if a required string field is missing or unterminated.
+    """
+    result: dict = {}
+    for field in ('id', 'he', 'en'):
+        result[field] = extract_string_field(item_text, field)
+    for field in ('sourceType', 'daf', 'enSource', 'source', 'confidence'):
+        try:
+            result[field] = extract_string_field(item_text, field)
+        except ValueError:
+            result[field] = None
+    result['vilnaLine'] = extract_number_field(item_text, 'vilnaLine')
+    linked = extract_string_array_field(item_text, 'linkedGemaraLineIds')
+    result['linkedGemaraLineIds'] = linked if linked is not None else []
+    return result
+
+
+def parse_rashi_lines_array(content: str) -> list[dict]:
+    """Extract all rashiLines[] item dicts from a rashiLines: [...] array.
+
+    content should be scoped to a single daf block (e.g. one entry from
+    parse_daf_blocks) so that only that daf's rashiLines array is read.
+    Returns [] if no rashiLines field is present. Items that do not parse
+    as rashi objects (missing id/he/en) are silently skipped, mirroring
+    parse_line_items_from_lines_array's tolerance for non-object items.
+    """
+    array_text = extract_balanced_array(content, 'rashiLines')
+    if array_text is None:
+        return []
+    results = []
+    for item in split_top_level_array_items(array_text):
+        if not item:
+            continue
+        try:
+            results.append(parse_rashi_fields(item))
+        except ValueError:
+            pass
+    return results
+
 
 def parse_line_fields(item_text: str) -> dict:
     """Parse a single line object text into a Python dict.
