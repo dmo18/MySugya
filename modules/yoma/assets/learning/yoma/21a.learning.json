@@ -34,7 +34,10 @@
         "learnerQuestion": "Now that a baraita has settled that 'gever' in Ezra means the rooster, why does the Gemara suddenly pivot to describing an angel of rain instead of moving on?",
         "coreTension": "The keriat hagever discussion seems closed once the Ezra proof-text is cited, yet the Gemara does not move to the next topic of the mishna; it lingers on a tangential question about rain that has no direct bearing on the Temple service timing just settled.",
         "coreMove": "The Gemara follows a verbal association rather than a topical one: having confirmed gever can mean rooster, a creature tied to dawn and natural cycles, it slides into a related cosmological question about Ridya, the angel responsible for rain. Ridya is described as a heifer-formed being with an open, hollow face standing between the upper and lower cosmic waters, commanding the upper waters down and the lower waters up. The name itself is read as a clue to its function: from the Aramaic root for 'running,' since that is what rain does.",
-        "takeaway": {"type": "conceptual", "text": "Talmudic digressions are often triggered by a verbal or thematic association in the preceding text rather than by direct relevance to the legal topic, and the digression can still carry its own coherent cosmological content worth understanding on its own terms."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "Talmudic digressions are often triggered by a verbal or thematic association in the preceding text rather than by direct relevance to the legal topic, and the digression can still carry its own coherent cosmological content worth understanding on its own terms."
+        },
         "ahaMoment": "The angel of rain is theriomorphic, a creature with a heifer's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
         "learningBlocker": "Learners look for a halachic link between the rooster proof-text and the Ridya digression, missing that the connection is associative (rooster signals dawn and natural cycles, which leads to rain) rather than legal, a pattern worth recognizing across many talmudic tangents.",
         "memoryAnchor": "Ridya = rain angel between upper and lower waters, shaped like a heifer with a split, hollow face. Name from 'running,' since rain runs."
@@ -83,8 +86,14 @@
         "yoma-020b-s02"
       ],
       "misconceptions": [
-        {"misconception": "Ridya is a purely metaphorical or poetic image with no real cosmological content.", "correction": "In talmudic thinking, Ridya is presented as an actual angelic being that mediates between the upper and lower waters to produce rain, a concrete part of the cosmological model, not a literary flourish."},
-        {"misconception": "Ridya's 'split face' describes an injured or divided face.", "correction": "The split face is understood as an open, hollow feature, more like a tube or channel through which water passes, not a wound or division."}
+        {
+          "misconception": "Ridya is a purely metaphorical or poetic image with no real cosmological content.",
+          "correction": "In talmudic thinking, Ridya is presented as an actual angelic being that mediates between the upper and lower waters to produce rain, a concrete part of the cosmological model, not a literary flourish."
+        },
+        {
+          "misconception": "Ridya's 'split face' describes an injured or divided face.",
+          "correction": "The split face is understood as an open, hollow feature, more like a tube or channel through which water passes, not a wound or division."
+        }
       ],
       "relatedSugyot": [
         "yoma-020b-s02"
@@ -176,7 +185,10 @@
         "learnerQuestion": "If hundreds of thousands of pilgrims packed into Jerusalem for the festivals, what kept the experience from being dangerous, cramped, or chaotic, and why does the Gemara treat the answer as a fixed list of five miracles rather than just praise?",
         "coreTension": "A mass pilgrimage to a single physical site should produce overcrowding, danger from wildlife, lack of housing, and practical obstacles to the fire-based service, especially in rain and wind. The Gemara instead reports a baraita naming five specific, recurring conditions under which none of this happened, treating them as a defined catalog rather than vague piety.",
         "coreMove": "The baraita lists five distinct, ongoing miracles, each addressing a specific practical strain of pilgrimage: the courtyard held everyone packed tightly yet opened to give each person four amot of space when the crowd prostrated; no one in Jerusalem was ever harmed by a snake or scorpion; no pilgrim was ever turned away for lack of overnight lodging; rain never extinguished the altar's outdoor fire; and the altar's smoke rose in a straight column no matter which way the wind blew. Listing them as a fixed set of five treats each as evidence of the same underlying claim, that the Temple's sanctity actively overrode the physical limits that would otherwise govern a crowded outdoor site.",
-        "takeaway": {"type": "conceptual", "text": "A catalog of distinct miracles, each tied to a specific practical strain, can function as a structured argument that sanctity overrides physical limitation, rather than as a loose collection of impressive anecdotes."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A catalog of distinct miracles, each tied to a specific practical strain, can function as a structured argument that sanctity overrides physical limitation, rather than as a loose collection of impressive anecdotes."
+        },
         "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible, yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha.",
         "learningBlocker": "Learners read the five miracles as a disconnected list of impressive trivia, missing that each one answers a specific, predictable practical problem of mass pilgrimage, space, danger, lodging, weather, and wind, so the list functions as a structured claim about the Temple's nature, not a grab-bag of wonders.",
         "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up."
@@ -272,9 +284,18 @@
       "conceptRefs": [],
       "requiresUnderstanding": [],
       "misconceptions": [
-        {"misconception": "These five miracles were one-time events recorded for a specific festival.", "correction": "The baraita describes them as ongoing, recurring features that characterized the Temple throughout its existence, not isolated incidents."},
-        {"misconception": "The prostration miracle just means the crowd was generally comfortable.", "correction": "It specifically refers to the four amot of space required for prostration with arms spread; the same area that was too packed to move in suddenly became sufficient the moment everyone bowed, a precise spatial claim, not a general comfort claim."},
-        {"misconception": "The altar fire miracle refers to fire surviving occasional bad weather.", "correction": "It refers to the permanent, perpetual fire on the altar, which stood entirely outdoors and was never extinguished by rain despite having no roof or shelter, a claim about a continuous condition, not a one-off close call."}
+        {
+          "misconception": "These five miracles were one-time events recorded for a specific festival.",
+          "correction": "The baraita describes them as ongoing, recurring features that characterized the Temple throughout its existence, not isolated incidents."
+        },
+        {
+          "misconception": "The prostration miracle just means the crowd was generally comfortable.",
+          "correction": "It specifically refers to the four amot of space required for prostration with arms spread; the same area that was too packed to move in suddenly became sufficient the moment everyone bowed, a precise spatial claim, not a general comfort claim."
+        },
+        {
+          "misconception": "The altar fire miracle refers to fire surviving occasional bad weather.",
+          "correction": "It refers to the permanent, perpetual fire on the altar, which stood entirely outdoors and was never extinguished by rain despite having no roof or shelter, a claim about a continuous condition, not a one-off close call."
+        }
       ],
       "relatedSugyot": [
         "yoma-021b-s02",
@@ -342,434 +363,434 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'and some say, also the irrigation angel' - the angel appointed over irrigating the earth from the rain of heaven",
+      "en": "Opens 'and some say, also the rain-angel': an angel appointed over the watering of the earth, from the rain of the heavens",
       "linkedGemaraLineIds": [
         "yoma-021a-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: continues - from above and from the deep below, and it calls to them, as it is stated: deep calls unto deep,",
+      "en": "continuing: above and from the deep below, and it calls to them, as it is said, 'deep calls unto deep,'",
       "linkedGemaraLineIds": [
         "yoma-021a-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: continues - as is said in tractate Taanit (24a and 25b), and we say there that it resembles a calf,",
+      "en": "continuing: as is said in tractate [Ta'anit (24a and 25b)], and it is said there that it resembles a calf,",
       "linkedGemaraLineIds": [
         "yoma-021a-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: continues - and therefore it is called ridya, a term for a plowing ox; we translate 'you shall not plow' as 'lo teirdei,'",
+      "en": "continuing: and therefore it is called 'ridya,' the language of an ox that plows; the Targum renders 'you shall not plow' as 'lo tirdi'",
       "linkedGemaraLineIds": [
         "yoma-021a-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: concludes - citing Deuteronomy 22. Then opens 'in accordance with Rabbi Sheila' -",
+      "en": "closing: (Deuteronomy 22).' Then opens 'according to Rabbi Sheila' -",
       "linkedGemaraLineIds": [
-        "yoma-021a-l03"
+        "yoma-021a-l01"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: concludes - who said that keriat hagever means the crowing of the rooster.",
+      "en": "closing: who says that 'the rooster's crowing' means the rooster crowed.",
       "linkedGemaraLineIds": [
         "yoma-021a-l03"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: opens 'one who sets out alone on the road, his blood is on his own head' -",
+      "en": "Opens 'one who goes out alone on the road, his blood is on his own head' -",
       "linkedGemaraLineIds": [
         "yoma-021a-l03"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: concludes - because of the demons. Then opens 'his blood is on his own head' - the guilt",
+      "en": "closing: because of the demons.' Then opens 'his blood is on his own head': the guilt",
       "linkedGemaraLineIds": [
         "yoma-021a-l03"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: continues - of his death rests on his own head, for he killed",
+      "en": "continuing: of his death falls upon his own head, for he has killed",
       "linkedGemaraLineIds": [
         "yoma-021a-l03"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: concludes - himself. Then opens 'a middling rooster' - one that neither hurries",
+      "en": "closing: himself.' Then opens 'with an average rooster': one that does not crow too early",
       "linkedGemaraLineIds": [
         "yoma-021a-l03"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: concludes - its call nor delays it. Then opens 'packed' - a term of",
+      "en": "closing: nor too late.' Then opens 'crowded': a term meaning",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - rising (tzaf), from the multitude of people they were pressed, each man",
+      "en": "continuing: pressed, from the great multitude of people, they would be pressed",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: continues - against his brother, with no room to lean to his side,",
+      "en": "continuing: one against another, with no room to lean to either side,",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: continues - this way or that, and stood upright like a beam, even his feet",
+      "en": "continuing: to this side or that, and standing as upright as a beam, even their feet",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: concludes - were lifted off the ground. Then opens 'they prostrated themselves spaciously' -",
+      "en": "closing: were lifted off the ground.' Then opens 'they would bow with ample space' -",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: continues - and when they prostrated and fell, a miracle occurred for them,",
+      "en": "continuing: and when they would bow and fall prostrate, a miracle was done for them",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: continues - and the place widened until there were four",
+      "en": "continuing: and the place would widen until there were four cubits between them,",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: continues - cubits between them, so that no man would hear his fellow's confession,",
+      "en": "continuing: so that no man would hear his fellow's confession",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: concludes - so as not to shame him. Then opens 'they extended eleven cubits'",
+      "en": "closing: so that he not be shamed.' Then opens 'they would be drawn eleven cubits'",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: continues DH - behind the place of atonement. Then the comment - they extended, out of",
+      "en": "continuing: 'behind the place of atonement': they would be drawn out of their own pressing",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: continues - their pressing, and dispersed over the whole length",
+      "en": "continuing: and spread out over the length of the whole",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continues - of the eleven cubits where the feet of",
+      "en": "continuing: eleven cubits of the area where Israel's feet",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: continues - Israel trod, to the north and south, and went out from the place",
+      "en": "continuing: trod, to the north and to the south, and they would go out from where",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: continues - their feet trod, and entered through the passage of",
+      "en": "continuing: their feet had trodden and enter by way of the",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: continues - the Chalifot, between the sides of the Sanctuary and the walls of",
+      "en": "continuing: chambers between the sides of the Sanctuary and the walls of",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: continues - the courtyard, to north and south, and from there entered",
+      "en": "continuing: the Courtyard, to the north and to the south, and from there they would enter",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: continues - westward, within the eleven cubits of open airspace",
+      "en": "continuing: to the west, into the eleven cubits of open space",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continues - behind the place of atonement, up to the western wall",
+      "en": "continuing: behind the place of atonement, up to the western wall",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: continues - of the courtyard, as we learned in tractate Middot (chapter 5,",
+      "en": "continuing: of the Courtyard, as we learned in tractate Middot (chapter 5,",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continues - mishna 1), and we stated it above in our chapter",
+      "en": "continuing: mishnah 1), and as we said above in this chapter",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: concludes - (16b). Then opens 'what does it mean' - since",
+      "en": "closing: (16b).' Then opens 'what does it mean': since",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - they prostrated spaciously and the place widened",
+      "en": "continuing: they bow with ample space and the area is widened",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: continues - through the miracle, so you require it to extend",
+      "en": "continuing: by the miracle, would you also require them to be drawn",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: concludes - and spread out behind the place of atonement. Then opens 'thus'",
+      "en": "closing: and spread out behind the place of atonement?' Then opens 'this is what'",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: continues DH - he says, etc. This 'and they extend behind,' etc.,",
+      "en": "continuing: 'it means, etc.': this phrase, 'and they are drawn out behind,' etc.,",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: continues - refers back to before the prostration, and thus",
+      "en": "continuing: refers back to the first clause, before the bowing, and this is",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: continues - it means: even though they extend behind the place of atonement",
+      "en": "continuing: what is meant: even though they were drawn behind the place of atonement",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: continues - and needed to stand packed from the crush",
+      "en": "continuing: and needed to stand crowded from their own pressing,",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: continues - of their pressing, nevertheless when they all",
+      "en": "continuing: nevertheless, when they all",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: continues - prostrated, they came to the east of the altar, out from",
+      "en": "continuing: bowed, they came to the east of the altar, out of",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: concludes - the courtyard, and prostrated before the Sanctuary with room to spare.",
+      "en": "closing: the Courtyard, and bowed before the Sanctuary with ample space.",
       "linkedGemaraLineIds": [
         "yoma-021a-l06"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: opens 'no woman miscarried' - her unborn child, when she craved",
+      "en": "Opens 'no woman miscarried': her fetus, from craving",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: concludes - to eat from the roasted sacrificial meat as its aroma rose.",
+      "en": "closing: to eat the roasted meat when its aroma rises.",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: opens and closes 'in the slaughterhouse' - of the courtyard. Then opens 'and no'",
+      "en": "Then opens 'in the slaughterhouse': of the Courtyard.' Then opens 'and no'",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: continues DH - disqualification was found in the omer. Comment: for if a disqualification occurred in it,",
+      "en": "continuing: 'blemish was found in the omer': for if a blemish were to occur in it,",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: continues - there was no other omer to bring in its place, since it",
+      "en": "continuing: there was no other to bring in its place, since it",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: continues - was harvested on the night after the festival, and they did not harvest more",
+      "en": "continuing: was harvested on the night after the festival, and they would not harvest more",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: continues - than the measure of a tenth-ephah sifted through thirteen sieves; and likewise the two loaves are baked on the eve of the festival, and their baking does not override the festival, so if disqualified they could not bake a replacement",
+      "en": "continuing: than the measure needed for a tenth-ephah, sifted through thirteen sieves; and likewise the two loaves were baked from before the festival, and their baking did not override the festival, and if it became blemished they could not bake another",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: concludes - on the festival, and likewise the showbread, baked on the eve of Shabbat, has no replacement if disqualified, leaving the table empty until the next Shabbat. Then opens 'the place is too cramped for me' - my sustenance is constrained, my dwelling",
+      "en": "closing: on the festival; and likewise the showbread, baked from before Shabbat - if it became blemished there was no replacement, and the table stood empty until the following Shabbat.' Then opens 'the place is too narrow for me': my sustenance is straitened, my dwelling",
       "linkedGemaraLineIds": [
         "yoma-021a-l14"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: concludes - is cramped. Then opens and closes 'in Kalanevo' - a place name. Then opens 'broken earthenware vessels' - in which offerings of the most sacred order were cooked; their absorption becomes forbidden as leftover (notar), requiring the vessel to be broken, as it is written (Leviticus 6),",
+      "en": "closing: is cramped.' Then opens 'in Kalnevo': the name of a place.' Then opens 'shards of earthenware vessels': in which sacred offerings of the highest sanctity are cooked, and their absorbed taste becomes forbidden as notar, requiring the vessels to be broken, as it is written (Leviticus 6):",
       "linkedGemaraLineIds": [
         "yoma-021a-l27"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continues - 'and the earthen vessel in which it was cooked shall be broken'; its breaking takes place in a sacred spot, as stated there in Zevachim, chapter Dam Chatat (93b), and if they did not absorb it there would be heaps of",
+      "en": "continuing: 'and the earthen vessel in which it was cooked shall be broken' - and its breaking took place in a sanctified place, as is said there in Zevachim, in the chapter 'Dam Chatat' (93b); and were they not absorbed, heaps",
       "linkedGemaraLineIds": [
         "yoma-021a-l27"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: concludes - shards in the courtyard. Then opens and closes 'crop and feathers' - of the bird burnt offering. Then opens 'the ash removal of the inner altar and of the candelabrum' - every morning they place them with the removal of the ash, on the east side of",
+      "en": "closing: of shards would pile up in the Courtyard.' Then opens 'the crop and feathers': of the bird burnt-offering.' Then opens 'and the removal of the ash of the inner altar and the removal of the ash of the candelabrum': every morning he places them with the terumat hadeshen, on the east side of",
       "linkedGemaraLineIds": [
         "yoma-021a-l27"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: continues - the ramp, as we learned regarding the removal of the ash (Tamid 1:4): when he reached the floor he turned his face north and walked along the east side of the ramp about ten cubits, the place where they placed",
+      "en": "continuing: the ramp, as we learned regarding terumat hadeshen (Tamid chapter 1, mishnah 4): once he reached the floor he turned his face to the north and walked along the east side of the ramp about ten cubits, the place where they would put",
       "linkedGemaraLineIds": [
         "yoma-021a-l27"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: concludes - the crop and feathers there, along with the ash removal of the inner altar and candelabrum; and the verse on crop and feathers likewise states: 'and he shall cast it beside the altar, on the east side, to the place of the ashes' (Leviticus 1).",
+      "en": "closing: the crop, feathers, and the ash of the inner altar and the candelabrum there; and the verse about the crop and feathers likewise states: 'and he shall cast it beside the altar, eastward, to the place of the ashes' (Leviticus 1).",
       "linkedGemaraLineIds": [
         "yoma-021a-l27"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: opens and closes 'there were three disqualification-related [miracles]' - the disqualification of the omer, the two loaves, and the showbread, counted as three miracles. Then opens 'the absorption-related ones were two' - since broken earthenware vessels was one, and crop and feathers",
+      "en": "Opens 'were there three blemished items': the blemish of the omer, the two loaves, and the showbread - you counted them as three miracles.' Then opens 'were there two absorbed items': for the shards of earthenware vessels were one, and the crop and feathers",
       "linkedGemaraLineIds": [
         "yoma-021a-l29"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: concludes - along with everything else placed there counted as the second. Then opens and closes 'its removal was like its arrangement' - when they removed it, it was still hot. Then opens 'hot on the day it was taken' - that it was hot on the day it was taken from there, and this verse",
+      "en": "closing: and all that is placed there were one.' Then opens 'its removal was like its arrangement': when they would remove it, it was still hot.' Then opens 'hot on the day it was taken': for it",
       "linkedGemaraLineIds": [
         "yoma-021a-l29"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: concludes - about the showbread is written in the book of Samuel. Then opens 'the place of the Ark was not included in the measurement' - it did not occupy space to diminish the measure of the chamber's interior at all, as it was taught: the Ark that Moses made",
+      "en": "closing: was hot on the day it was taken from there, and this verse is written regarding the showbread in the Book of Samuel.' Then opens 'the place of the Ark is not counted in the measurement': it does not diminish anything from the measure of the space of the House, for it was taught: the Ark that Moses made",
       "linkedGemaraLineIds": [
         "yoma-021a-l32"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: continues - had ten cubits of airspace on every side when placed in the middle of the place of atonement, and the entire chamber was only twenty by twenty, as it says (I Kings 6): 'and before the Sanctuary'",
+      "en": "continuing: had ten cubits of open space on every side when placed in the middle of the chamber of the Ark-cover, and the entire space was only twenty by twenty, as it is said (I Kings 6): 'and before the sanctuary'",
       "linkedGemaraLineIds": [
         "yoma-021a-l32"
       ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: concludes - twenty cubits long and twenty cubits wide, so the place of the Ark diminished nothing. Then opens 'the Cherubs stood by a miracle' - the bodies of the Cherubs that Solomon made stood",
+      "en": "closing: 'twenty cubits in length and twenty cubits in width' - it follows that the place of the Ark diminished nothing.' Then opens 'the cherubs stood by a miracle': the bodies of the cherubs that Solomon made stood",
       "linkedGemaraLineIds": [
         "yoma-021a-l32"
       ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi: continues - on the ground beside the Ark, one to the north and one to the south (ibid.), their wings spread twenty cubits from wall to wall, as it is written that the Cherub's wing was five cubits, so the wings",
+      "en": "continuing: on the ground, one to the north and one to the south (ibid.), and their wings, twenty cubits, spread from wall to wall, as it is written, 'the wing of the cherub was five cubits' - it follows that the wings",
       "linkedGemaraLineIds": [
         "yoma-021a-l32"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi: concludes - occupied the entire chamber's space, so the thickness of the bodies was not included in the measurement. Then opens and closes 'external ones' - outside, in the courtyard, miracles known to all. Then opens 'implying that it is impure' - meaning it is susceptible to impurity,",
+      "en": "closing: held up the entire space; it follows that the thickness of the body itself is not counted in the measurement.' Then opens 'outward-facing': visible outside, in the Courtyard, miracles known to all.' Then opens 'from which it follows that it becomes impure': that it is susceptible to impurity.",
       "linkedGemaraLineIds": [
         "yoma-021a-l34"
       ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi: the daf's final truncated word - 'made' (asuy), continuing the dibbur hamatchil 'implying that it is impure' whose explanation continues on 21b, elaborating on why calling the table pure implies an impure counterpart exists. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though that line's own text ends before this closing clarification.",
+      "en": "Opens 'made to be set' -",
       "linkedGemaraLineIds": [
         "yoma-021a-l34"
       ]
