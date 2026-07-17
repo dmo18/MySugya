@@ -25005,7 +25005,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 1,
         he: "בית שער. בית קטן שעושין לפני שער החצר והכל עושין אותו",
-        en: "Rashi: on 'beit sha'ar' (gatehouse) - a small structure built before the courtyard gate, which everyone uses as a shortcut.",
+        en: "'Beit sha'ar' - a small house that they make before the gate of the courtyard, and everyone makes it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25019,7 +25019,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 2,
         he: "קפנדריא: מרפסת. אלרו\"ד והוא ארוך לפני פתחי עליות הרבה",
-        en: "Rashi: closes the gatehouse gloss, then opens on 'marpeset' (balcony) - the loanword 'alrod,' a long structure before the entrances of many upper rooms.",
+        en: "a passageway. New comment: 'marpeset' - alrod, and it is long, running before the entrances of many upper chambers,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25033,12 +25033,13 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 3,
         he: "וכולן עולין דרך שם: אכסדרה. פרוזדור שלפני בתים: תיובתא.",
-        en: "Rashi: closes the balcony gloss (all residents ascend via it), then opens on 'akhsadra' (portico) - a corridor before houses. Then Rashi opens a new comment: 'a conclusive refutation.'",
+        en: "and all of them ascend by way of it. New comment: 'achsadra' - a corridor that is before houses. New comment: 'a refutation' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l01"
+          "yoma-011b-l01",
+          "yoma-011b-l07"
         ]
       },
       {
@@ -25047,11 +25048,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 4,
         he: "ועל כרחך סתמא תנאי היא: ושער המדי. שעושין בכיפה שכן עושין",
-        en: "Rashi: continues - and perforce, the standard case is subject to a tannaitic dispute. Then Rashi opens on 'and the Median gate' - these are made as a dome.",
+        en: "and perforce, the plain case is a Tannaitic dispute. New comment: 'and the Median gate' - which they make as a dome, for so they make",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011b-l07",
           "yoma-011b-l10"
         ]
       },
@@ -25061,7 +25063,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 5,
         he: "במדי: שאינו מקורה. שהוא פרוץ",
-        en: "Rashi: continues - as they are made in Media. Then Rashi opens 'that is not roofed' - meaning it is open.",
+        en: "in Media. New comment: 'that is not roofed' - that it is breached",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25075,12 +25077,13 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 6,
         he: "מלמעלה לגמרי מאין כיסוי: וחכמים",
-        en: "Rashi: continues - completely from above, without any covering. Then Rashi opens on 'and the Rabbis.'",
+        en: "above completely, without covering. New comment: 'and the Sages",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l10"
+          "yoma-011b-l10",
+          "yoma-011b-l15"
         ]
       },
       {
@@ -25089,12 +25092,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 7,
         he: "פוטרין. שאין שער בלא רוחב ד'",
-        en: "Rashi: continues - who exempt it, because there is no gate without a width of four handbreadths.",
+        en: "exempt' - for there is no gate without a width of four handbreadths,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l10"
+          "yoma-011b-l15"
         ]
       },
       {
@@ -25103,12 +25106,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 8,
         he: "וכל כיפה מתקצרת בראשה לפחות",
-        en: "Rashi: continues - and every dome narrows at its top to less than four handbreadths.",
+        en: "and every dome narrows at its head to less",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l10"
+          "yoma-011b-l15"
         ]
       },
       {
@@ -25117,7 +25120,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 9,
         he: "מד': ושוין שאם יש ברגליה י'. קודם",
-        en: "Rashi: concludes the narrowing point. Then Rashi opens on 'and they agree that if at its foot there are ten' - before.",
+        en: "than four. New comment: 'and they agree that if there is ten at its feet' - before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25131,7 +25134,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 10,
         he: "שיתחיל העיגול ותתמעט רחבה",
-        en: "Rashi: continues - the curve begins and its width narrows.",
+        en: "the curve begins and its width diminishes,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25145,7 +25148,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 11,
         he: "שחייבת שאפי' שהכל סתום מי'",
-        en: "Rashi: continues - it is obligated, since even though the opening is entirely enclosed from ten handbreadths.",
+        en: "that it is obligated; for even though all is closed from ten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25159,7 +25162,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 12,
         he: "ולמעלה יש שיעור פתח בגובהה י'",
-        en: "Rashi: continues - and up, there remains a doorway-sized opening at a height of ten.",
+        en: "and upward, there is the measure of an opening in its height of ten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25173,7 +25176,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 13,
         he: "ברוחב ד': גבוהה י'. בין הכל: ואין",
-        en: "Rashi: concludes 'and a width of four.' Then Rashi opens 'ten high' - meaning the entire height.",
+        en: "by a width of four. New comment: 'ten high' - in all. New comment: 'and there is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25187,7 +25190,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 14,
         he: "ברגלה ג'. גובה שנתמעט רוחבה",
-        en: "Rashi: continues - and there is not.",
+        en: "three at its foot' - the height at which its width diminished",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25201,7 +25204,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 15,
         he: "קודם שיגביה גבהה ג': ולאו כלום",
-        en: "Rashi: on 'at its foot three' - the height at which its width narrowed.",
+        en: "before its height rose three. New comment: 'and it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25215,7 +25218,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 16,
         he: "היא. דכל פחות מג' גובה ארעא",
-        en: "Rashi: continues - before its height reached three: 'and it is nothing.'",
+        en: "nothing' - for anything less than three in height, the earth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25229,7 +25232,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 17,
         he: "סמיכתא היא ואין כאן צד שם פתח",
-        en: "Rashi: continues - for anything less than three in height is like solid ground.",
+        en: "is considered packed, and there is no aspect here of the name 'an opening",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25243,7 +25246,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 18,
         he: "של ד' ואפי' ר\"מ מודה שאין כאן",
-        en: "Rashi: continues - and there is no aspect of a doorway here.",
+        en: "of four'; and even Rabbi Meir concedes that there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25257,7 +25260,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 19,
         he: "התחלה לומר חקוק והשלם: א\"נ יש",
-        en: "Rashi: continues - of four handbreadths, and even Rabbi Meir agrees there is no.",
+        en: "beginning here to say 'carve and complete.' New comment: 'alternatively, there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25271,7 +25274,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 20,
         he: "ברגלה ג'. קודם שנתמעט רחבה",
-        en: "Rashi: concludes 'basis to say carve and complete.' Then Rashi opens 'alternatively, there is' - at its foot three.",
+        en: "three at its foot' - before its width diminished",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25285,7 +25288,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 21,
         he: "מד' ואינה גבוהה יו\"ד בין הכל ולאו",
-        en: "Rashi: on 'at its foot three' - before its width narrowed.",
+        en: "from four, and it is not ten high in all, and it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25299,12 +25302,13 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 22,
         he: "כלום היא: ויש ברגלה ג'. ברוחב",
-        en: "Rashi: continues - from four, and it is not ten high in total: 'it is nothing.'",
+        en: "nothing. New comment: 'and there is three at its foot' - in a width",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l15"
+          "yoma-011b-l15",
+          "yoma-011b-l21"
         ]
       },
       {
@@ -25313,12 +25317,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 23,
         he: "ד' ואינה רחבה ד' בגובהה י' שקודם",
-        en: "Rashi: opens a new comment: 'and there is at its foot three' - in a width.",
+        en: "of four, but it is not four wide at its height of ten, for before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l15"
+          "yoma-011b-l21"
         ]
       },
       {
@@ -25327,12 +25331,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 24,
         he: "שהגביהה י' נתמעט רחבה מד' ויש",
-        en: "Rashi: continues - of four, but it is not four wide at its height of ten, since before.",
+        en: "it rose ten high its width diminished from four; and there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l15"
+          "yoma-011b-l21"
         ]
       },
       {
@@ -25341,7 +25345,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 25,
         he: "בה לחוק ולהרחיב החלל למעלה",
-        en: "Rashi: continues - it reached ten high, its width had narrowed from four, and there is room.",
+        en: "room in it to carve and widen the hollow above",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25355,7 +25359,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 26,
         he: "כמדה של מטה שאין החומה הולכת",
-        en: "Rashi: on 'like the measure below' - the wall does not extend and end on the outside according to the inner space, like this.",
+        en: "to the measure of below; for the wall does not go on,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25369,7 +25373,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 27,
         he: "וכלה מבחוץ לפי החלל הפנימי כזה",
-        en: "Rashi: continues the diagram note - like this, but rather the wall runs long above, on the outside.",
+        en: "tapering on the outside according to the inner hollow, like this;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25383,7 +25387,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 28,
         he: "אלא החומה ארוכה למעלה מבחוץ",
-        en: "Rashi: continues - relative to the [inner] space, in this pattern.",
+        en: "rather, the wall runs long above on the outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25397,7 +25401,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 29,
         he: "לחלל כמשפט כזה : ר\"מ סבר.",
-        en: "Rashi: closes the diagram note. Then Rashi opens on 'Rabbi Meir holds.'",
+        en: "of the hollow, in the proper manner, like this. New comment: 'Rabbi Meir holds' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25411,7 +25415,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 30,
         he: "הואיל והתחיל בה ג' ברוחב ד' שם",
-        en: "Rashi: continues - since it began with three handbreadths in a width of four, there.",
+        en: "since it began with three in a width of four, the name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25425,7 +25429,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 31,
         he: "פתח עליו ורואין כאילו הוא חקוק",
-        en: "Rashi: continues - is a doorway on it, and we view it as though it were carved.",
+        en: "'opening' rests upon it, and we view it as though it were carved",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25439,7 +25443,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 32,
         he: "למעלה להרחיב כמדתו שלמטה:",
-        en: "Rashi: concludes - above, to widen it to match the measure below.",
+        en: "above, widening it to its measure below.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25453,7 +25457,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 33,
         he: "למען ירבו ימיכם. כל החפץ בחיים",
-        en: "Rashi: on 'so that your days be many' - anyone who desires life.",
+        en: "'So that your days be multiplied' - whoever desires life",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25467,11 +25471,12 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 34,
         he: "חייב משמע: דרך ביאתך. לימין",
-        en: "Rashi: concludes 'is implied to be obligated.' Then Rashi opens on 'the way of your entry' - to the right.",
+        en: "is implied as obligated. New comment: 'the way of your coming' - to the right,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011b-l27",
           "yoma-011b-l29"
         ]
       },
@@ -25481,12 +25486,13 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 35,
         he: "בבואו לבית ולא מימין לצאתו: למי",
-        en: "Rashi: continues - when entering the house, and not from the right when leaving. Then Rashi opens on 'to the one who.'",
+        en: "as one comes into the house, and not from the right of one going out. New comment: 'for one who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011b-l29"
+          "yoma-011b-l29",
+          "yoma-011b-l33"
         ]
       },
       {
@@ -25495,7 +25501,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 36,
         he: "שמייחד ביתו לו. שכלי תשמישו",
-        en: "Rashi: on 'who dedicates his house to himself' - whose vessels of use.",
+        en: "dedicates his house to himself' - that his utensils of use",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25509,7 +25515,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 37,
         he: "מיוחדין לו ואינו משאילן לשכניו",
-        en: "Rashi: continues - are designated for him alone, and he does not lend them to his neighbors.",
+        en: "are designated for himself, and he does not lend them to his neighbors;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25523,7 +25529,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 38,
         he: "כלומר שהנגעים באים על צרות העין:",
-        en: "Rashi: concludes - meaning, that house-plagues come on account of stinginess.",
+        en: "that is to say, the plagues come on account of grudging eyes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -25537,7 +25543,7 @@ const DAF_CONTENT = {
         daf: "11b",
         vilnaLine: 39,
         he: "דכרכים",
-        en: "Rashi: opens with the word 'dekarkhim' (of cities), the start of a comment that continues onto the next daf (12a), where it glosses cities as marketplace hubs gathering people from many places, with no single designated owner, versus villages, where the owner is identifiable.",
+        en: "This ('of cities') is the catchword anticipating 12a's opening comment.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
