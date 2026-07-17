@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "10b"
+  "11a"
  ],
  "model": "sonnet",
  "paused": false,
@@ -75,34 +75,196 @@
  "scaffoldDebt": {
   "snapshot": [
    {
-    "daf": "10b",
+    "daf": "11a",
     "vilnaLine": 3,
     "rule": "scaffold-prefix",
-    "enHash": "1729501231ae3503"
+    "enHash": "5ee8a51a65c7ac55"
    },
    {
-    "daf": "10b",
-    "vilnaLine": 11,
+    "daf": "11a",
+    "vilnaLine": 5,
     "rule": "scaffold-prefix",
-    "enHash": "2289abbf36ba2f2a"
+    "enHash": "d5a6897c23f8a7d2"
    },
    {
-    "daf": "10b",
-    "vilnaLine": 13,
+    "daf": "11a",
+    "vilnaLine": 6,
     "rule": "scaffold-prefix",
-    "enHash": "517cc59eeb772344"
+    "enHash": "186537ce1322d7e2"
    },
    {
-    "daf": "10b",
+    "daf": "11a",
+    "vilnaLine": 7,
+    "rule": "scaffold-prefix",
+    "enHash": "1aa0f96ad1609b6b"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 8,
+    "rule": "scaffold-prefix",
+    "enHash": "6ac65307fc63c72c"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 10,
+    "rule": "scaffold-prefix",
+    "enHash": "c518c2efe495755d"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 14,
+    "rule": "scaffold-prefix",
+    "enHash": "a8b63a254f759db7"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 15,
+    "rule": "scaffold-prefix",
+    "enHash": "a29dc7f7d34c1918"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 16,
+    "rule": "scaffold-prefix",
+    "enHash": "9a58c1805a081507"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 17,
+    "rule": "scaffold-prefix",
+    "enHash": "e824a531e07a2006"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 19,
+    "rule": "scaffold-prefix",
+    "enHash": "52f2635f03a32c6b"
+   },
+   {
+    "daf": "11a",
     "vilnaLine": 20,
     "rule": "scaffold-prefix",
-    "enHash": "4bd1db4d2790d741"
+    "enHash": "f89c94636a7a756f"
    },
    {
-    "daf": "10b",
+    "daf": "11a",
     "vilnaLine": 21,
     "rule": "scaffold-prefix",
-    "enHash": "ae675633bee23689"
+    "enHash": "8d94a3f2fefd001d"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 23,
+    "rule": "scaffold-prefix",
+    "enHash": "11c89511761503fb"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 25,
+    "rule": "scaffold-prefix",
+    "enHash": "8506a455c3edd8d5"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 26,
+    "rule": "scaffold-prefix",
+    "enHash": "b3467a6c85c4fe3f"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 28,
+    "rule": "scaffold-prefix",
+    "enHash": "c7c55be41e22f356"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 29,
+    "rule": "scaffold-prefix",
+    "enHash": "da0f2c0ad2eaabc6"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 30,
+    "rule": "scaffold-prefix",
+    "enHash": "bd8192ca3166c78b"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 31,
+    "rule": "scaffold-prefix",
+    "enHash": "f2e103e1a5651069"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 32,
+    "rule": "scaffold-prefix",
+    "enHash": "6d57ebec53e229e3"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 33,
+    "rule": "scaffold-prefix",
+    "enHash": "5dbbecfac375df90"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 34,
+    "rule": "scaffold-prefix",
+    "enHash": "d29fbea610693855"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 35,
+    "rule": "scaffold-prefix",
+    "enHash": "2c5bf89164863d09"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 36,
+    "rule": "scaffold-prefix",
+    "enHash": "5b82403e149dfea5"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 37,
+    "rule": "scaffold-prefix",
+    "enHash": "4cce6fa02c087e8e"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 38,
+    "rule": "scaffold-prefix",
+    "enHash": "40bc57513c5b5c16"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 39,
+    "rule": "scaffold-prefix",
+    "enHash": "56b91938c86e131f"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 40,
+    "rule": "scaffold-prefix",
+    "enHash": "47a0ff3ee329b324"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 41,
+    "rule": "scaffold-prefix",
+    "enHash": "780e0a2e55b1e78d"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 42,
+    "rule": "scaffold-prefix",
+    "enHash": "d2082c524ec5967a"
+   },
+   {
+    "daf": "11a",
+    "vilnaLine": 43,
+    "rule": "scaffold-prefix",
+    "enHash": "202e26ffb8e6210e"
    }
   ]
  }

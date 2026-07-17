@@ -23718,12 +23718,13 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 1,
         he: "כל השערים. שערי מזרח עזרה: אחד שערי מדינות. יש מדינה",
-        en: "Rashi: on 'all the gates' - the eastern gates of the Temple courtyard. Then Rashi opens a new comment on 'the gates of provinces': there is a province.",
+        en: "'All the gates' - the eastern gates of the Temple courtyard. New comment: 'the gates of provinces alike' - there is a province",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l01"
+          "yoma-011a-l01",
+          "yoma-011a-l06"
         ]
       },
       {
@@ -23732,7 +23733,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 2,
         he: "מוקפת הרים ויערים בכמה פרסאות ואין יוצאין ממנה אלא דרך",
-        en: "Rashi: on 'the gates of provinces' - a province surrounded by mountains and forests for several parasangs, leaveable only through gates.",
+        en: "surrounded by mountains and forests for several parasangs, which one can leave only by way of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23746,11 +23747,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 3,
         he: "שערים כגון ארץ הגר: אבולי דמחוזא. שערי עיר ששמה מחוזא",
-        en: "Rashi: closes the province gloss with an example, 'like the land of Hagar.' Then Rashi opens a new comment on 'the abulei of Machoza': the gates of a city named Machoza.",
+        en: "gates, such as the land of Hagar. New comment: 'the abulei of Machoza' - the gates of a city named Machoza,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l06",
           "yoma-011a-l10"
         ]
       },
@@ -23760,7 +23762,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 4,
         he: "והיו רובן ישראל: לאקרא דכובי. בנין בנוי עליהן ונקרא כובי",
-        en: "Rashi: notes that Machoza's population was mostly Jewish, then glosses 'to Akra de-Kuvei' - a structure built above the gates, called 'Kuvei.'",
+        en: "most of whose people were Israelites. New comment: 'to the akra of Kuvei' - a structure is built over them, called Kuvei,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23774,7 +23776,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 5,
         he: "והשערים תחתיו עשויין ככיפה ובניין",
-        en: "Rashi: continues - the gates beneath the Kuvei structure are made like an arch.",
+        en: "and the gates beneath it are made like an arch, and a building",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23788,7 +23790,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 6,
         he: "הבנוי על גבי כיפין חזק יותר: ואקרא",
-        en: "Rashi: continues - a building constructed on arches is stronger. Then Rashi opens a new comment on 'and the fort of Kuvei itself.'",
+        en: "built upon arches is stronger. New comment: 'and the akra",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23802,7 +23804,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 7,
         he: "דכובי גופה. משום אותו בנין עצמו",
-        en: "Rashi: continues the 'fort of Kuvei itself' comment - because of that very building.",
+        en: "of Kuvei itself' - on account of that building itself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23816,7 +23818,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 8,
         he: "תבעי השער מזוזה שדרך אותו השער",
-        en: "Rashi: concludes - the gate should require a mezuza, since one enters the fort through that gate.",
+        en: "the gate should require a mezuza, since through that gate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23830,11 +23832,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 9,
         he: "נכנסין לו: משום סכנה. שלא יאמר",
-        en: "Rashi: on 'because of danger' - explains the fear was that the king would suspect the Jews of performing witchcraft on the city gates.",
+        en: "one enters it. New comment: 'because of danger' - lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l10",
           "yoma-011a-l17"
         ]
       },
@@ -23844,7 +23847,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 10,
         he: "המלך כשפים עשיתם בשערי עירי:",
-        en: "Rashi: completes the thought - fear that the king would say the Jews performed witchcraft on his city's gates.",
+        en: "the king say: you have performed sorcery on the gates of my city.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23858,7 +23861,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 11,
         he: "נבדקת. שמא נרקבה או נגנבה:",
-        en: "Rashi: on 'is checked' - explains the check is to determine whether the mezuza rotted or was stolen.",
+        en: "New comment: 'is checked' - whether it rotted or was stolen.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23872,7 +23875,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 12,
         he: "ושל רבים. שערי חצירות ומדינות",
-        en: "Rashi: on 'and the public's' - explains this means the gates of courtyards and provinces.",
+        en: "New comment: 'and of the public' - the gates of courtyards, provinces,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23886,7 +23889,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 13,
         he: "ועיירות: פעמים ביובל. כל דבר",
-        en: "Rashi: on 'twice in the jubilee' - opens the explanation for why public property is checked less often.",
+        en: "and towns. New comment: 'twice in a jubilee' - anything",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23900,7 +23903,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 14,
         he: "שהוא של רבים אין להטריח עליו",
-        en: "Rashi: continues - property belonging to the public should not be burdened with excessive obligations.",
+        en: "that belongs to the public, one may not impose much trouble",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23914,7 +23917,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 15,
         he: "הרבה שאם תטרח יהא כל אחד",
-        en: "Rashi: continues - if the community is over-burdened, each person assumes a fellow will take care of it instead.",
+        en: "over it, for if you impose, each person will",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23928,11 +23931,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 16,
         he: "אומר יעשו חביריי: בארטבין. שם",
-        en: "Rashi: closes the burden-avoidance point, then opens on 'be-artavin' - either the examiner's own name or a name derived from his profession.",
+        en: "say: my fellows will do it. New comment: 'beArtavin' - the name of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l17",
           "yoma-011a-l19"
         ]
       },
@@ -23942,7 +23946,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 17,
         he: "האיש ואמרי לה על שם האומנות:",
-        en: "Rashi: continues - the name refers to the man himself, or some say it is named after his craft.",
+        en: "the man; and some say it is after his craft.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23956,7 +23960,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 18,
         he: "קסדור. שם פקידות הוא כגון סרדיוט",
-        en: "Rashi: on 'kasdor' - explains this is a title of office, similar to a 'sardiyot' officer, functioning as an enforcer.",
+        en: "New comment: 'kasdor' - it is the name of an office, like 'sardiyot',",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23970,7 +23974,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 19,
         he: "והוא שוטר: דקביע היזקא. עלילות",
-        en: "Rashi: closes the kasdor gloss, then opens on 'where the danger is permanent' - the ruler's false accusations are always available.",
+        en: "and he is an officer. New comment: 'where the harm is fixed' - the ruler's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23984,7 +23988,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 20,
         he: "המושל מזומנות תמיד: איך אלך.",
-        en: "Rashi: continues, then opens on 'how will I go' - the verse about anointing David by divine command.",
+        en: "pretexts are ever ready. New comment: 'how can I go' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -23998,12 +24002,13 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 21,
         he: "למשוח את דוד ע\"פ הדיבור: בית",
-        en: "Rashi: closes the Samuel citation gloss, then opens a new comment on 'storehouses.'",
+        en: "to anoint David, at the word of God. New comment: 'the house of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l19"
+          "yoma-011a-l19",
+          "yoma-011a-l26"
         ]
       },
       {
@@ -24012,7 +24017,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 22,
         he: "אוצרות. של יין ושמן ותבואה ואין",
-        en: "Rashi: explains storehouses means those holding wine, oil, and grain, where no one dwells.",
+        en: "storehouses' - of wine, of oil, and of grain, and no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24026,7 +24031,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 23,
         he: "אדם דר בו: מאי נאותות רוחצות.",
-        en: "Rashi: closes the storehouse gloss, then opens on 'what does make-use mean? Bathe.'",
+        en: "person dwells in it. New comment: 'what is ne'otot? Bathing' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24040,7 +24045,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 24,
         he: "נאותות לשון הנאה ומשום דמקום",
-        en: "Rashi: explains that 'na'ot' is a term for benefit or pleasure.",
+        en: "'ne'otot' is a term of benefit; and because it is a place of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24054,7 +24059,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 25,
         he: "גנאי הוא שעומדות שם ערומות אין",
-        en: "Rashi: continues - because it is a shameful place where women stand there naked.",
+        en: "disgrace, where they stand there naked, it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24068,12 +24073,13 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 26,
         he: "כבוד שמים להיות שם מזוזה: אע\"פ",
-        en: "Rashi: concludes that it is not fitting for the honor of Heaven to have a mezuza present there.",
+        en: "the honor of Heaven for a mezuza to be there. New comment: 'even though",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l26"
+          "yoma-011a-l26",
+          "yoma-011a-l32"
         ]
       },
       {
@@ -24082,7 +24088,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 27,
         he: "שהנשים מתקשטות. שם בבשמים",
-        en: "Rashi: on 'even though the women adorn themselves' - there, with perfumes.",
+        en: "the women adorn themselves' - there, with perfumes,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24096,7 +24102,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 28,
         he: "וס\"ד אמינא דירה היא אשמעינן",
-        en: "Rashi: continues - you might have thought such a place counts as a dwelling; the baraita teaches us.",
+        en: "and it might have entered your mind to say it is a dwelling; it teaches us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24110,11 +24116,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 29,
         he: "דלאו דירה היא: אלא מאי אית לך",
-        en: "Rashi: concludes 'that it is not a dwelling.' Then Rashi opens a new comment on 'rather, what have you to say.'",
+        en: "that it is not a dwelling. New comment: 'rather, what do you have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l32",
           "yoma-011a-l36"
         ]
       },
@@ -24124,7 +24131,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 30,
         he: "למימר. כי פרשת נאותות מתקשטות",
-        en: "Rashi: continues - when you explained 'make use' as 'adorn themselves.'",
+        en: "to say' - when you explained 'ne'otot' as 'adorn themselves'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24138,7 +24145,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 31,
         he: "שם ותיקשי מתני' אמתני' ונימא תנאי",
-        en: "Rashi: continues - the one baraita would contradict the other, and we would have to say it is a dispute between tannaim.",
+        en: "there, then one baraita would contradict the other, and we would say it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24152,7 +24159,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 32,
         he: "היא: ויש מחייבין. והיינו תנאי וכל",
-        en: "Rashi: closes that comment, then opens on 'and some obligate' - this is the tannaitic dispute, and each Amora resolves it according to his own reasoning.",
+        en: "a Tannaitic dispute. New comment: 'and some obligate' - and this is the Tannaitic dispute; and each",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24166,12 +24173,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 33,
         he: "חד מן אמוראי מתרץ לטעמיה רב",
-        en: "Rashi: continues - each of the Amoraim resolves the baraita according to his reasoning. Rav.",
+        en: "one of the Amoraim resolves it according to his own reasoning: Rav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l36"
+          "yoma-011a-l38"
         ]
       },
       {
@@ -24180,12 +24187,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 34,
         he: "כהנא מתרץ דבסתמא פליגי אבל",
-        en: "Rashi: continues - Kahana resolves that they dispute the standard case, but.",
+        en: "Kahana resolves that they disagree about the plain case, but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l36"
+          "yoma-011a-l41"
         ]
       },
       {
@@ -24194,12 +24201,13 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 35,
         he: "מתקשטות דכ\"ע חייבין ורב יהודה",
-        en: "Rashi: continues - where women adorn themselves, all agree such structures are obligated; and Rav Yehuda.",
+        en: "where they adorn themselves, all obligate; and Rav Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l36"
+          "yoma-011a-l41",
+          "yoma-011a-l45"
         ]
       },
       {
@@ -24208,12 +24216,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 36,
         he: "מתרץ דבמתקשטות פליגי אבל סתמא",
-        en: "Rashi: continues - resolves that they dispute the adorning case, but the standard case.",
+        en: "resolves that they disagree about the adorning case, but the plain case",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-011a-l36"
+          "yoma-011a-l45"
         ]
       },
       {
@@ -24222,11 +24230,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 37,
         he: "דכולי עלמא פטור: ושהנשים נאותות",
-        en: "Rashi: concludes 'all agree is exempt.' Then Rashi opens a new comment on 'and of which women make use.'",
+        en: "all exempt. New comment: 'and in which the women make use' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l45",
           "yoma-011a-l38"
         ]
       },
@@ -24236,7 +24245,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 38,
         he: "בהן. כלומר בית התבן ובית הבקר",
-        en: "Rashi: continues - meaning, the hay storehouse, the cattle barn.",
+        en: "meaning: the hay house, the cattle house,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24250,7 +24259,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 39,
         he: "ובית העצים ושהנשים רוחצות בהן ובית",
-        en: "Rashi: continues - and the woodshed, in which the women bathe; and the immersion house.",
+        en: "and the wood house, in which the women bathe; and as for the immersion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24264,7 +24273,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 40,
         he: "הטביל' אע\"ג דאשמעי' מרחץ איצטריך",
-        en: "Rashi: continues - even though the baraita already taught us the bathhouse, it needed.",
+        en: "house, even though it taught us the bathhouse, it needed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24278,7 +24287,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 41,
         he: "לאשמועינן בית הטבילה אע\"ג דליכא",
-        en: "Rashi: continues - to teach the immersion house separately, even though it has no filth.",
+        en: "to teach us the immersion house, even though it has no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -24292,11 +24301,12 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 42,
         he: "זוהמא: ולולין. מקום גידול התרנגולין:",
-        en: "Rashi: closes the immersion-house point, then glosses 'and chicken coops' - a place where chickens are raised.",
+        en: "filth. New comment: 'and coops' - a place where chickens are raised.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-011a-l38",
           "yoma-011a-l48"
         ]
       },
@@ -24306,7 +24316,7 @@ const DAF_CONTENT = {
         daf: "11a",
         vilnaLine: 43,
         he: "בית",
-        en: "Rashi: opens with the word 'beit' (house), the start of a comment that continues onto the next daf (11b), where it glosses 'beit sha'ar' - a small gatehouse built before the courtyard gate.",
+        en: "This ('house') is the catchword anticipating 11b's opening comment.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
