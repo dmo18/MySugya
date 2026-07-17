@@ -21,9 +21,14 @@ narrative below wherever they disagree:
 
 Remediation progress (VERSION 15.151): the first bounded batch (10a, 10b,
 11a, 11b, 12a; PRs #136-#139, #141) is repaired, verified, and marked
-resolved in the table below. 3,689 contaminated lines across 81 daf remain
-in the debt inventory. The recommended next batch is 12b, 13a, 13b, 14a,
-14b.
+resolved in the table below.
+
+Remediation progress (VERSION 15.156): the second bounded batch (12b, 13a,
+13b, 14a, 14b) is repaired, verified, and marked resolved in the table
+below. 12b: PR #143, merge a690959. 13a: PR #144, merge b1718c3. 13b: PR
+#145, merge 0b9d31b. 14a: PR #146, merge 13732ad. 14b: this PR. 3,466
+contaminated lines across 76 daf remain in the debt inventory. The
+recommended next batch is 15a, 15b, 16a, 16b, 17a.
 
 - The "Batch N resolved" narratives in this file are historical notes, NOT
   proof of current semantic correctness. Repository history was squashed
@@ -57,11 +62,11 @@ in the debt inventory. The recommended next batch is 12b, 13a, 13b, 14a,
 | 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 3156001 |
 | 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 3156001 |
 | 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 3156001 |
-| 12b | 58 | 62 | 94% | rashi-reconstruction | open | 0ce6071 |
-| 13a | 28 | 29 | 97% | rashi-reconstruction | open | 0ce6071 |
-| 13b | 24 | 28 | 86% | rashi-reconstruction | open | 0ce6071 |
-| 14a | 55 | 58 | 95% | rashi-reconstruction | open | 0ce6071 |
-| 14b | 58 | 59 | 98% | rashi-reconstruction | open | 0ce6071 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 13732ad |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 13732ad |
 | 15a | 65 | 66 | 98% | rashi-reconstruction | open | 0ce6071 |
 | 15b | 65 | 66 | 98% | rashi-reconstruction | open | 0ce6071 |
 | 16a | 60 | 61 | 98% | rashi-reconstruction | open | 0ce6071 |
