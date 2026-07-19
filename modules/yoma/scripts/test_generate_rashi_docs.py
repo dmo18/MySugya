@@ -126,6 +126,19 @@ try:
     check("15. HEAD-hash-only differences do NOT count as staleness",
           not grd.check_freshness(ROWS, 3564, 83,
                                    doc_with().replace("abc1234", "def5678")))
+
+    # Regression for the "Current main commit" defect (see the accepted
+    # ChatGPT-oversight direction on issue #196, PR following #197): a PR's
+    # docs are generated before its own merge commit exists, so the recorded
+    # "Generated from commit" necessarily differs from live main's HEAD the
+    # moment that PR merges. That must never be treated as staleness.
+    live_head = grd.git_head_short()
+    post_merge_doc = doc_with().replace(
+        f"Generated from commit: {live_head}", "Generated from commit: c623f15")
+    check("16. a doc recording its pre-merge generation commit, now stale "
+          "relative to a NEWER live main HEAD, is still fresh (this is "
+          "expected post-merge behavior, not a defect)",
+          not grd.check_freshness(ROWS, 3564, 83, post_merge_doc))
 finally:
     grd.VERSION_FILE = old_version_file
 

@@ -154,7 +154,12 @@ def render_summary(rows, total_debt, affected_daf):
         "<!-- rashi-status-summary:begin (regenerate with "
         "`python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->",
         f"- Current VERSION: {version}",
-        f"- Current main commit: {head}",
+        f"- Generated from commit: {head} (the commit this doc was generated "
+        "from, necessarily pre-merge for the PR that carries this change; it "
+        "will differ from live main's HEAD immediately after that PR merges "
+        "by design, since a PR's own merge commit does not exist yet at "
+        "generation time. Not a staleness signal; see the freshness gate for "
+        "what actually indicates staleness.)",
         f"- Total scaffold-debt entries (all rules, current inventory): {total_debt}",
         f"- Unique affected daf: {affected_daf}",
         f"- Tracked daf in status table: {len(rows)} ({resolved} resolved, {open_count} open)",
@@ -226,8 +231,15 @@ def parse_current_table(text):
 def check_freshness(rows, total_debt, affected_daf, current_text):
     """Semantic freshness check: compares the fields the doc claims to
     live-computed truth. Deliberately ignores the volatile per-row "last
-    verified" commit hash and exact table formatting/whitespace, since those
-    would go stale on every unrelated commit even with zero debt change."""
+    verified" commit hash, the summary's "Generated from commit" line, and
+    exact table formatting/whitespace. These commit-hash fields cannot be
+    hard-enforced against live main: a PR's docs are always generated before
+    that PR's own merge commit exists, so the recorded commit necessarily
+    differs from main's HEAD the moment the PR merges, through no fault of
+    the content. Enforcing equality here would make the gate fail on every
+    single merge. The fields the operator's freshness criteria actually care
+    about (VERSION, aggregate counts, next target, per-daf status/counts) are
+    the ones checked below."""
     problems = []
 
     summary = parse_current_summary(current_text)
