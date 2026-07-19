@@ -421,7 +421,7 @@ def cmd_manifest(opts):
         "paused": spec.get("paused", False),
         "fableReviewRequired": spec.get("fableReviewRequired", False),
         "reviewPolicy": review_policy_of(spec),
-        "escalationModel": spec.get("escalationModel", "fable"),
+        "escalationModel": spec.get("escalationModel", "sonnet"),
         "authorizations": auths,
         "maxBatch": max_batch,
         "allowedFiles": spec["allowedFiles"],
@@ -634,7 +634,17 @@ def cmd_prompt(opts):
             "   and tail of the daf; every citation anchor; every multi-id link; every",
             "   truncated boundary entry; every formerly allowlisted entry; that every",
             "   link is semantic (never positional); that no line uses the final id as",
-            "   an unrelated-content fallback. Record the result in",
+            "   an unrelated-content fallback; and that no line narrates the comment's",
+            "   own structure instead of translating it. This means: never write",
+            "   'Rashi: opens/continues/closes/begins/resumes ...', and never write the",
+            "   same narration with the word 'Rashi' dropped ('Opens \"X\":',",
+            "   'continuing:', 'closing:', 'begins:', 'resumes:', or 'Then opens \"Y\":'",
+            "   mid-sentence). Both forms are the same fabrication defect: describing",
+            "   the shape of the comment instead of translating its content. When a raw",
+            "   line contains more than one dibbur hamathil (more than one lemma the",
+            "   comment addresses), translate all of them as one flowing direct",
+            "   sentence, never as separately narrated structural beats. Record the",
+            "   result in",
             "   .worker-self-review.json:",
             '   {"daf": "<daf>", "model": "' + m["model"] + '", "rechecked": {'
             + ", ".join(f'"{c}": true' for c in SELF_REVIEW_CHECKS) + "},",
@@ -651,7 +661,7 @@ def cmd_prompt(opts):
             "    to commit and NEVER a direct push to main. Continue to the",
             "    next queued target with a fresh manifest. Stop ONLY on an escalation",
             "    condition, unexpected repository state, or an empty queue.",
-            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'fable')} with a report.",
+            f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'sonnet')} with a report.",
         ]
     else:
         lines += [
@@ -907,7 +917,7 @@ def cmd_verify(opts):
               "in .worker-self-review.json and CI is green on the final head, run "
               "`npm run worker:review -- --manifest .worker-manifest.json`. Merge ONLY if it "
               f"prints AUTO-MERGE-ELIGIBLE; on any failed condition, escalate to "
-              f"{spec.get('escalationModel', 'fable')} instead of merging.")
+              f"{spec.get('escalationModel', 'sonnet')} instead of merging.")
     nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
           "npm run worker:verify -- --manifest .worker-manifest.json --full"
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
@@ -920,6 +930,7 @@ SELF_REVIEW_CHECKS = (
     "beginningMiddleTail", "citationAnchors", "multiIdLinks",
     "truncatedBoundaryEntries", "formerlyAllowlistedEntries",
     "semanticNotPositional", "noUnrelatedFinalIdFallback",
+    "noPlainMetaNarration",
 )
 
 # Canonical machine-checked auto-merge conditions, in report order. CI
@@ -1376,7 +1387,7 @@ def cmd_review(opts):
               "when CI is green on this exact head; then verify both deploy workflows "
               "and advance the queue.")
     else:
-        print(f"\nESCALATE to {spec.get('escalationModel', 'fable')}: failed condition(s) "
+        print(f"\nESCALATE to {spec.get('escalationModel', 'sonnet')}: failed condition(s) "
               f"{failed}. Do NOT merge.")
         sys.exit(1)
 
@@ -1710,7 +1721,7 @@ def cmd_docs(opts):
         pol = review_policy_of(s)
         pol_txt = {"fable": "; Fable review required",
                    "conditional": f"; review: conditional auto-merge gate (worker self-review "
-                                  f"+ worker:review; escalation to {s.get('escalationModel', 'fable')})",
+                                  f"+ worker:review; escalation to {s.get('escalationModel', 'sonnet')})",
                    "none": ""}[pol]
         L.append(f"- model: {s['model']}"
                  + ("; PAUSED" if s.get("paused") else "")

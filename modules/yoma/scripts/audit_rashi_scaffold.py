@@ -10,6 +10,12 @@ completions ("[the Gemara]", "[that the statute applies]") not present in the
 Hebrew, plus line-number placeholders that pass raw Hebrew through as English.
 This gate hard-detects that family and ratchets the pre-existing debt.
 
+A third, disguised variant of the same defect evaded the original rule: the
+literal word "Rashi" dropped, leaving bare translator-position narration such
+as "Opens 'X': ..." or "continuing: ..." or "closing: ..." or "Then opens
+'Y': ...". This is the same defect class (describing the structure of the
+comment instead of translating it) and is caught by plain-meta-scaffold below.
+
 Rules (anchored; ordinary mid-sentence use of "opens"/"continues"/"concludes"
 never matches):
 
@@ -22,6 +28,11 @@ never matches):
                          line N]" (placeholder framing, not translation)
   hebrew-passthrough     40%+ of the en field's letters are Hebrew script (the
                          raw line was passed through instead of translated)
+  plain-meta-scaffold    en begins with a bare structural narration verb
+                         (Opens/Continuing:/Closing:/Begins:/Resumes:) with no
+                         "Rashi" prefix, or contains "then opens" mid-sentence;
+                         the same translator-position narration defect without
+                         the literal word "Rashi"
 
 Debt ratchet: pre-existing hits are inventoried, with content hashes, in
 baselines/rashi_scaffold_debt.json (generated from the audited main state;
@@ -68,9 +79,22 @@ HEBREW_RE = re.compile(r"[֐-׿]")
 BRACKET_GUESS_MIN = 2
 HEBREW_RATIO_MIN = 0.40
 
+# Same translator-position narration family as scaffold-prefix, but with the
+# literal word "Rashi" dropped: "Opens 'X': ...", "continuing: ...",
+# "closing: ...", "begins: ...", "resumes: ...", or "... Then opens 'Y': ..."
+# mid-sentence. Anchored to the start of the field (or "then opens" anywhere)
+# so genuine translated English that merely contains "open"/"continue" as an
+# ordinary verb never matches.
+PLAIN_META_START_RE = re.compile(
+    r"^\s*(?:opens\b|continuing\s*:|closing\s*:|begins\s*:|resumes\s*:)",
+    re.IGNORECASE)
+PLAIN_META_THEN_OPENS_RE = re.compile(r"\bthen opens\b", re.IGNORECASE)
+
 REMEDIATION = ("rewrite as a direct English translation of this line's own "
                "raw Hebrew; never keep scaffold narration or guessed bracket "
-               "completions, even when part of the meaning is correct")
+               "completions, even when part of the meaning is correct, and "
+               "never narrate the comment's structure (opens/continues/closes) "
+               "with or without the word 'Rashi'")
 
 
 def hebrew_ratio(text):
@@ -93,6 +117,8 @@ def rules_for(en):
         rules.append("line-number-scaffold")
     if hebrew_ratio(en) >= HEBREW_RATIO_MIN:
         rules.append("hebrew-passthrough")
+    if PLAIN_META_START_RE.match(en) or PLAIN_META_THEN_OPENS_RE.search(en):
+        rules.append("plain-meta-scaffold")
     return rules
 
 
@@ -100,6 +126,13 @@ def signature_of(en, rules):
     m = SCAFFOLD_PREFIX_RE.match(en)
     if m:
         return re.sub(r"\s+", " ", m.group(0).strip().lower())
+    if "plain-meta-scaffold" in rules:
+        m2 = PLAIN_META_START_RE.match(en)
+        if m2:
+            return re.sub(r"\s+", " ", m2.group(0).strip().lower())
+        m3 = PLAIN_META_THEN_OPENS_RE.search(en)
+        if m3:
+            return m3.group(0).lower()
     return rules[0] if rules else ""
 
 

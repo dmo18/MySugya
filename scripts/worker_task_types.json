@@ -123,7 +123,7 @@
     "more than one daf would change in the same content PR"
    ],
    "reviewPolicy": "conditional",
-   "escalationModel": "fable",
+   "escalationModel": "sonnet",
    "maxBatch": 1
   },
   "rashi-realignment": {
@@ -191,7 +191,7 @@
    ],
    "maxBatch": 1,
    "reviewPolicy": "conditional",
-   "escalationModel": "fable"
+   "escalationModel": "sonnet"
   },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
@@ -1088,7 +1088,7 @@
    "requiresTarget": true,
    "paused": false,
    "reviewPolicy": "conditional",
-   "escalationModel": "fable",
+   "escalationModel": "sonnet",
    "optionalAuthorizations": [
     "allowStructure"
    ],
