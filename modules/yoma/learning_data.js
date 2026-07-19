@@ -54025,7 +54025,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 1,
         he: "אינה מביאה עגלה ערופה. דכתיב (דברים כא) כי ימצא חלל באדמה",
-        en: "Rashi: opens 'she does not bring an axed heifer' - as it is written (Deuteronomy 21): 'if a corpse is found in the land'",
+        en: "Opens 'it does not bring the eglah arufah': as it is written (Deuteronomy 21): 'if a slain body is found on the ground'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54039,7 +54039,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 2,
         he: "וגו' לרשתה ואין ירושלים ירושה דקסבר לא נתחלקה לשבטים:",
-        en: "Rashi: concludes - etc., 'to possess it' - and Jerusalem is not a possession, since he holds it was not divided among the tribes.",
+        en: "closing: etc., 'to possess it' - and Jerusalem was not possessed, since he holds that it was not divided among the tribes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54053,7 +54053,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 3,
         he: "תלמודא. ראייה: הכי גרסינן בתורת כהנים ופשט ולבש יכול",
-        en: "Rashi: opens and closes 'the Talmud' - a proof. Then opens 'thus we read in Torat Kohanim: and he shall remove and wear' - one might think",
+        en: "Opens 'the Gemara': proof.' Then opens 'thus we read in Torat Kohanim: and he shall take off and put on - one might think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54067,7 +54067,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 4,
         he: "במצות יום הכפורים ת\"ל בגדיו בגדים וגירסא שבהש\"ס האריכה",
-        en: "Rashi: continues - in the manner of Yom Kippur; the verse teaches 'his garments' means garments; and the version in the Talmud extends",
+        en: "continuing: for the Yom Kippur mitzvah, [so] the verse teaches: his garments, garments' - and the version found in the Talmud elaborates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54081,7 +54081,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 5,
         he: "בלשונה שומעני כדרך יום הכפורים",
-        en: "Rashi: continues - in its wording, restating: one might think, in the manner of Yom Kippur,",
+        en: "continuing: in its wording: I might understand it in the manner of Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54095,7 +54095,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 6,
         he: "פושט בגדי קודש ולובש בגדי חול",
-        en: "Rashi: continues - that he removes the sacred garments and wears ordinary garments.",
+        en: "continuing: where he takes off the sacred garments and puts on ordinary garments;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54109,12 +54109,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 7,
         he: "תלמוד לומר כו' וזהו פירושה ופשט",
-        en: "Rashi: continues - the verse teaches, etc., and this is its explanation: 'and he shall remove",
+        en: "continuing: the verse teaches, etc. - and this is its meaning: 'and he shall take off",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54123,12 +54123,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 8,
         he: "ולבש האמור בהוצאת הדשן שבתפוח",
-        en: "Rashi: continues - and wear' - stated regarding the removal of the ash on the tapuach,",
+        en: "continuing: and put on,' stated regarding the removal of the ash from the ash-heap,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54137,12 +54137,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 9,
         he: "אל מחוץ למחנה הכתוב אחר תרומת",
-        en: "Rashi: continues - outside the camp, the verse written after the [first] removal of",
+        en: "continuing: outside the camp, the verse written after the terumat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54151,12 +54151,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 10,
         he: "הדשן ופשט את בגדיו ולבש בגדים",
-        en: "Rashi: continues - the ash: 'and he shall remove his garments and wear garments",
+        en: "continuing: hadeshen: 'and he shall take off his garments and put on garments'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54165,12 +54165,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 11,
         he: "וגו' יכול שמטיל עליו חובה לשנות",
-        en: "Rashi: continues - etc.' - one might think it obligates him to change",
+        en: "continuing: etc. - one might think it imposes an obligation on him to change",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54179,12 +54179,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 12,
         he: "בגדיו בין תרומה להוצאה אם בא",
-        en: "Rashi: continues - his garments between the [first] removal and the [second] carrying-out; if he comes",
+        en: "continuing: his garments between the terumah and the removal, if he comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54193,12 +54193,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 13,
         he: "להוציא דשן שעל התפוח אחר",
-        en: "Rashi: continues - to carry out the ash that is on the tapuach, right after",
+        en: "continuing: to remove the ash upon the ash-heap right after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54207,12 +54207,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 14,
         he: "ההרמה מיד כדרך שהיא חובה על",
-        en: "Rashi: continues - the removal, immediately, just as it is obligatory upon",
+        en: "continuing: the removal, in the manner that it is obligatory upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54221,12 +54221,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 15,
         he: "כהן גדול בחמש עבודות שביום",
-        en: "Rashi: continues - the High Priest in the five services that are on the day",
+        en: "continuing: the High Priest in the five services of Yom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54235,12 +54235,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 16,
         he: "הכפורים שמשנה בגדיו בכל העבודות",
-        en: "Rashi: continues - of Yom Kippur, that he changes his garments in all the services",
+        en: "continuing: Kippur, where he changes his garments in all the services,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54249,12 +54249,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 17,
         he: "בין זו לזו ראשונה בבגדי זהב שניה",
-        en: "Rashi: continues - from one to the next: the first in golden garments, the second",
+        en: "continuing: between one and the next - the first in golden garments, the second",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54263,12 +54263,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 18,
         he: "בבגדי לבן שלישית בשל זהב רביעית",
-        en: "Rashi: continues - in white garments, the third in golden again, the fourth",
+        en: "continuing: in white garments, the third again in golden, the fourth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54277,12 +54277,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 19,
         he: "בבגדי לבן אף זה ישנה וזה שאין",
-        en: "Rashi: continues - in white garments; so too he should change here too; and as for the fact there is no need",
+        en: "continuing: in white garments - so too this one should change; but this one, who has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54291,12 +54291,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 20,
         he: "לו לשנות מבגדי לבן לבגדי זהב",
-        en: "Rashi: continues - for him to change from white garments to golden garments,",
+        en: "continuing: no need to change from white garments to golden garments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54305,12 +54305,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 21,
         he: "שהרי הדיוט הוא ואינו משמש בבגדי",
-        en: "Rashi: continues - since he is now an ordinary person and does not serve in",
+        en: "continuing: since he is an ordinary priest and does not serve in golden",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54319,12 +54319,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 22,
         he: "זהב ישנה בבגדי קודש שהרים בהן",
-        en: "Rashi: continues - golden garments, he should change into the sacred garments in which he performed the removal,",
+        en: "continuing: garments, should change into the sacred garments in which he removed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54333,12 +54333,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 23,
         he: "כמו שנא' ולבש הכהן מדו בד ויפשוט",
-        en: "Rashi: continues - as it is stated: 'and the priest shall don his linen vestment... and he shall remove",
+        en: "continuing: it, as it is said: 'and the priest shall put on his linen tunic,' and take off",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54347,12 +54347,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 24,
         he: "אותם וילבש בגדי חול שלו ויוציא",
-        en: "Rashi: continues - them and don his own ordinary garments, and carry out",
+        en: "continuing: them and put on his own ordinary clothes and take out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l15"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54361,12 +54361,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 25,
         he: "הדשן: תלמוד לומר בגדיו בגדים",
-        en: "Rashi: concludes - the ash. Then opens 'the verse teaches: his garments - garments'",
+        en: "closing: the ash.' Then opens 'the verse teaches: his garments, garments'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l18"
+          "yoma-023b-l12"
         ]
       },
       {
@@ -54375,7 +54375,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 26,
         he: "ומה תלמוד לומר אחרים פחותין",
-        en: "Rashi: continues - and why does it teach 'others'? Lesser",
+        en: "continuing: and what does it teach by saying 'others' - lesser",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54389,7 +54389,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 27,
         he: "מהן. כגון שחקים או מפשתן שאינו",
-        en: "Rashi: continues - than them, such as worn ones, or of flax that is not",
+        en: "continuing: than them: such as worn garments, or of linen that is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54403,7 +54403,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 28,
         he: "מוצהב ואין דמיהם יקרים שהאפר",
-        en: "Rashi: continues - lustrous, and not expensive, since the ash",
+        en: "continuing: dyed and not costly, since the ash",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54417,7 +54417,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 29,
         he: "מלכלכם כשנושאו חוץ למחנה גנאי",
-        en: "Rashi: continues - would soil them when he carries it outside the camp; it would be a disgrace",
+        en: "continuing: soils them when he carries it outside the camp - it would be a disgrace",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54431,7 +54431,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 30,
         he: "למלך שיהא משמש בהן על המזבח",
-        en: "Rashi: continues - for a king to serve in them at the altar",
+        en: "continuing: to the King for him to serve in them at the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54445,7 +54445,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 31,
         he: "בעבודת אכילה: אחרים והוציא",
-        en: "Rashi: concludes - in a service involving eating. Then opens 'others, and he shall carry out' -",
+        en: "closing: in the service of consumption.' Then opens 'others, and he shall take out' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54459,7 +54459,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 32,
         he: "לימד על הכהנים בעלי מומין. האי",
-        en: "Rashi: continues - taught about priests with blemishes. This",
+        en: "continuing: taught concerning priests with blemishes. This",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54473,7 +54473,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 33,
         he: "אחרים אכהן קאי כלומר כהנים",
-        en: "Rashi: continues - 'others' refers to the priest, meaning: priests",
+        en: "continuing: word 'others' refers to the priest, meaning: priests",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54487,7 +54487,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 34,
         he: "שהן אחרים מרוחקים משאר עבודות",
-        en: "Rashi: continues - who are 'others,' distanced from the other services,",
+        en: "continuing: who are 'others,' kept apart from the other services,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54501,7 +54501,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 35,
         he: "כשירין לעבודה זו: אל ימזוג בהן",
-        en: "Rashi: concludes - are valid for this service. Then opens 'he should not mix wine in them'",
+        en: "closing: are fit for this service.' Then opens 'let him not pour wine in them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54515,7 +54515,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 36,
         he: "לרבו. לפי שנתעשנו ונתלכלכו",
-        en: "Rashi: continues DH - for his master' - since they became smoky and soiled",
+        en: "continuing: for his master': since they had been smoked and soiled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54529,7 +54529,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 37,
         he: "בבישול קדירה אף כאן לענין הוצאת",
-        en: "Rashi: continues - from cooking a pot; so too here, regarding the removal of",
+        en: "continuing: in cooking the pot, so too here regarding the removal of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54543,7 +54543,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 38,
         he: "הדשן אין כבוד המלך לשרת בהן",
-        en: "Rashi: continues - the ash, it is not the king's honor to serve in them",
+        en: "continuing: the ash, it is not befitting the King's honor to serve in them for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54557,7 +54557,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 39,
         he: "שירות אחר: כמחלוקת בהוצאה.",
-        en: "Rashi: concludes - for another service. Then opens and closes 'like the dispute regarding carrying out' -",
+        en: "closing: any other service.' Then opens 'like the dispute about the removal' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54571,7 +54571,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 40,
         he: "כשם שרבי אליעזר מכשיר בעלי",
-        en: "Rashi: continues - just as Rabbi Eliezer validates those with",
+        en: "continuing: just as Rabbi Eliezer validates blemished priests",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54585,7 +54585,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 41,
         he: "מומין להוצאה כך מכשירן להרמה:",
-        en: "Rashi: concludes - blemishes for the carrying-out, so he validates them for the lifting-up too.",
+        en: "closing: for the removal, so he validates them for the lifting.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54599,7 +54599,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 42,
         he: "שכשירה בשני כלים. והכא מדו בד",
-        en: "Rashi: opens 'that is valid with two vessels' - and here, 'his linen vestment'",
+        en: "Opens 'that it is valid with two garments': for here, 'his measure of linen'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54613,12 +54613,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 43,
         he: "ומכנסי בד הוא דכתיב: גלי רחמנא",
-        en: "Rashi: concludes - and 'linen trousers' is what is written. Then opens 'the Torah revealed'",
+        en: "closing: and 'linen breeches' is what is written.' Then opens 'the Merciful One revealed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l29"
+          "yoma-023b-l27"
         ]
       },
       {
@@ -54627,7 +54627,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 44,
         he: "בכתונת ובמכנסים. ולימדך שאינה",
-        en: "Rashi: continues DH - in the tunic and the trousers' - and it teaches you that it is not",
+        en: "continuing: 'in the tunic and the breeches': and this teaches you that it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54641,7 +54641,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 45,
         he: "כשירה בבגדי חול שלו ומאליך אתה",
-        en: "Rashi: continues - valid in his own ordinary garments, and on your own you",
+        en: "continuing: valid with his own ordinary clothes, and you learn on your own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54655,7 +54655,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 46,
         he: "למד שהיא עבודה וצריכה אף מצנפת",
-        en: "Rashi: continues - learn that it is a service and requires even the turban",
+        en: "continuing: that it is a service and requires also the turban",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54669,7 +54669,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 47,
         he: "ואבנט: מאי שנא הני. דנקט מאחר",
-        en: "Rashi: concludes - and the sash. Then opens 'why are these different' - since it mentions, seeing that",
+        en: "closing: and sash.' Then opens 'why are these different': that it singles them out, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54683,7 +54683,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 48,
         he: "שצריכין כלן לשתוק מנייהו ואנא",
-        en: "Rashi: continues - all of them are needed, he should be silent about them, yet I",
+        en: "continuing: all of them are needed - I should keep silent about them, and I",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54697,7 +54697,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 49,
         he: "ידענא מדכתיב בהו כהן עבודה",
-        en: "Rashi: continues - know it, since it is written of them 'priest,' 'service'",
+        en: "continuing: would know from what is written regarding them that it is a priestly service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54711,7 +54711,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 50,
         he: "היא: מדו כמדתו. כאן לימדך",
-        en: "Rashi: concludes - is meant. Then opens 'his measure, according to his stature' - here it teaches you",
+        en: "closing: nonetheless.' Then opens 'his measure - like his own measure': here it teaches you",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54725,7 +54725,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 51,
         he: "שיהא כתונת כהנים למדת קומתו",
-        en: "Rashi: continues - that the priests' tunic should be to the measure of his height,",
+        en: "continuing: that the priests' tunics should be to the measure of his own height,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54739,7 +54739,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 52,
         he: "לא נגררות ולא מסולקות והכי אמרינן",
-        en: "Rashi: continues - neither dragging nor hiked up, and thus we say",
+        en: "continuing: neither trailing nor gathered up, and so we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54753,12 +54753,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 53,
         he: "בזבחים (דף יח.): ילבש על בשרו.",
-        en: "Rashi: concludes - in tractate Zevachim (18a). Then opens and closes 'he shall wear, upon his flesh' -",
+        en: "continuing: in Zevachim (18a).' Then opens 'he shall wear upon his flesh' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l34"
+          "yoma-023b-l31"
         ]
       },
       {
@@ -54767,12 +54767,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 54,
         he: "משמע שלובש בעודו ערום שאין",
-        en: "Rashi: continues - implying he dons it while naked, that there is nothing",
+        en: "continuing: implying that he wears it while still naked, that nothing is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l34"
+          "yoma-023b-l31"
         ]
       },
       {
@@ -54781,12 +54781,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 55,
         he: "עליו אלא בשרו דאי לא תימא הכי",
-        en: "Rashi: continues - upon him except his own skin; for if you do not say so,",
+        en: "continuing: on him but his own flesh, for if you do not say so,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l34"
+          "yoma-023b-l31"
         ]
       },
       {
@@ -54795,12 +54795,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 56,
         he: "על בשרו למאי כתביה: ולרשב\"ל.",
-        en: "Rashi: concludes - why is 'upon his flesh' written? Then opens and closes 'and according to Reish Lakish' -",
+        en: "closing: why would it write 'upon his flesh' at all?' Then opens 'and according to Reish Lakish' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l34"
+          "yoma-023b-l31"
         ]
       },
       {
@@ -54809,7 +54809,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 57,
         he: "דאמר דווקא כתבינהו ולמימרא",
-        en: "Rashi: continues - who says: they were written precisely, meaning to say",
+        en: "continuing: who says they are written precisely, and to say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54823,7 +54823,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 58,
         he: "דאינה צריכה ארבעה נפקא ליה",
-        en: "Rashi: continues - that it does not require four; he derives",
+        en: "continuing: that it does not require four - he derives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54837,7 +54837,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 59,
         he: "הנך תרתי דרשות מלשון המקרא ששינה בלשונו שלא כתיב כתונת למימרא מדו כמדתו ושלא יקדים דבר למכנסים מעל בשרו יתירא נפקא",
-        en: "Rashi: continues - these two expositions from the language of the verse, which changed its wording: since it did not write 'tunic,' to teach 'his measure, according to his stature'; and that nothing should precede the trousers, from the extra 'upon his flesh' he derives",
+        en: "continuing: these two teachings from the wording of the verse, which changed its language, not writing 'tunic,' to indicate 'his measure - like his own measure,' and that nothing should precede the breeches, from the extra 'upon his flesh'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54851,7 +54851,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 60,
         he: "ליה: על בשרו מה ת\"ל. גבי הרמת הדשן כתיב ולבש הכהן וגו' והוה ליה למכתב ומכנסי בד על בשרו ומהדר נמי אולבש דרישיה",
-        en: "Rashi: concludes - it. Then opens 'upon his flesh, why does it teach it' - regarding the lifting of the ash it is written 'and the priest shall don,' etc., and it should have written 'and linen trousers upon his flesh'; and it also refers back to the 'he shall wear' of",
+        en: "closing: he derives it.' Then opens 'upon his flesh, what does it teach': regarding the lifting of the ash it is written 'and the priest shall put on,' etc., and it should have written 'and linen breeches upon his flesh,' and it also repeats 'shall wear' from the beginning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54865,12 +54865,12 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 61,
         he: "דקרא מה ת\"ל שוב ילבש במכנסים לרבות עוד לבישה כיוצא בה ומרבה שני בגדים החסרים כאן מכהונת הדיוט: רבי דוסא",
-        en: "Rashi: concludes - the verse's opening; why does it teach 'again, he shall wear' regarding the trousers? To include another wearing similar to it, thereby adding the two garments missing here from the ordinary priesthood. Then opens 'Rabbi Dosa'",
+        en: "closing: of the verse - what does it teach? Again 'shall wear' with the breeches, to include another wearing similar to it, and it adds the two garments missing here from ordinary priesthood.' Then opens 'Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-023b-l39"
+          "yoma-023b-l36"
         ]
       },
       {
@@ -54879,7 +54879,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 62,
         he: "אומר. להביא ארבעה בגדי לבן ששמש בהן כהן גדול ביום הכפורים שכשרין להדיוט כל השנה ואתיא ילבש ילבש מהתם דלא תימא",
-        en: "Rashi: continues DH - says' - to include the four white garments that the High Priest used on Yom Kippur, which are valid for an ordinary priest all year, derived by a verbal analogy of 'he shall wear'... 'he shall wear' from there, lest you say",
+        en: "continuing: 'Dosa says': to include the four white garments which the High Priest used on Yom Kippur, which are valid for an ordinary priest all year, deriving 'shall wear, shall wear' from there, so that you not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54893,7 +54893,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 63,
         he: "והניחם שם כתיב בהו לומר שטעונין גניזה דס\"ל לר' דוסא והניחם שם שלא ישתמש בהן ליום הכפורים אחר כדאמרינן בפ\"ק (דף יב:):",
-        en: "Rashi: concludes - since 'and he shall leave them there' is written of them, that they require interment - for Rabbi Dosa holds that 'and he shall leave them there' means so that he not use them for another Yom Kippur, as we say in the first chapter (12b).",
+        en: "closing: 'and he shall leave them there' is written regarding them, to say that they require storage away, for Rabbi Dosa holds 'and he shall leave them there' means so that he not use them for a later Yom Kippur, as we say in the first chapter (12b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54907,7 +54907,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 64,
         he: "אבנט של כהן גדול. ביום הכפורים שהוא של בוץ לא זהו אבנטו של כהן הדיוט לעולם לפי שאינו משמש אלא בשל כלאים:",
-        en: "Rashi: opens and closes 'the sash of the High Priest' - on Yom Kippur, which is of linen, is never the same as the sash of the ordinary priest, since he serves only in one of mixed wool and linen.",
+        en: "Opens 'the belt of the High Priest': on Yom Kippur, which is of fine linen, is not the same as the belt of the ordinary priest ever, since he serves only in one of mixed wool and linen.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -54921,7 +54921,7 @@ const DAF_CONTENT = {
         daf: "23b",
         vilnaLine: 65,
         he: "לרבות",
-        en: "Rashi: the daf's final truncated word - 'to include,' continuing Rabbi's second answer about why the verse repeats 'he shall wear,' whose text continues on 24a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+        en: "Opens 'to include' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
